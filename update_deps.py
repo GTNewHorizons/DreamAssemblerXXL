@@ -41,6 +41,16 @@ LATEST_VERSIONS = {
     'Translocators': '1.1.2.19',
     'StructureLib': '1.0.14',
     'Ironchest': '6.0.68',
+    'EnderStorage': '1.4.11',
+    'TinkersMechworks': '0.2.16.1',
+    'BloodMagic': '1.3.5',
+    'Avaritia': '1.22',
+    'CraftTweaker': '3.2.5',
+    'WanionLib': '1.8.2',
+    'Avaritiaddons': '1.5.2-GTNH',
+    'bdlib': '1.9.6',
+    'gendustry': '1.6.5.3-GTNH',
+
 }
 
 DEP_FILE = 'dependencies.gradle'
