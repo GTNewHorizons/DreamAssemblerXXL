@@ -27,7 +27,7 @@ LATEST_VERSIONS = {
     'ForestryMC': '4.4.4',
     'Railcraft': '9.13.5',
     'Jabba': '1.2.13',
-    'TinkersConstruct': '1.9.0.9-GTNH',
+    'TinkersConstruct': '1.9.0.10-GTNH',
     'Natura': '2.4.8',
     'Mantle': '0.3.4',
     'harvestcraft': '1.0.10-GTNH',
@@ -50,7 +50,10 @@ LATEST_VERSIONS = {
     'Avaritiaddons': '1.5.2-GTNH',
     'bdlib': '1.9.6',
     'gendustry': '1.6.5.3-GTNH',
-
+    'WirelessRedstone-CBE': '1.4.4',
+    'ProjectRed': '4.7.4',
+    'ThaumicEnergistics': '1.3.16-GTNH',
+    'Galacticraft': '3.0.36-GTNH',
 }
 
 DEP_FILE = 'dependencies.gradle'
