@@ -42,7 +42,7 @@ LATEST_VERSIONS = {
     'StructureLib': '1.0.14',
     'Ironchest': '6.0.68',
     'EnderStorage': '1.4.11',
-    'TinkersMechworks': '0.2.16.1',
+    'TinkersMechworks': '0.2.16.2',
     'BloodMagic': '1.3.5',
     'Avaritia': '1.22',
     'CraftTweaker': '3.2.5',
