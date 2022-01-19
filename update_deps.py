@@ -64,6 +64,7 @@ LATEST_VERSIONS = {
     'TecTech': '4.10.15',
     'GalacticGregGT5': '1.0.7',
     'ThaumicTinkerer': '2.6.0',
+    'Botania': '1.9.1-GTNH',
 }
 
 DEP_FILE = 'dependencies.gradle'
