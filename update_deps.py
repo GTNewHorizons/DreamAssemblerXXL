@@ -27,7 +27,7 @@ LATEST_VERSIONS = {
     'BloodMagic': '1.3.5',
     'Botania': '1.9.1-GTNH',
     'BuildCraft': '7.1.24',
-    'BuildCraftCompat': '7.1.19',
+    'BuildCraftCompat': '7.1.9',
     'Chisel': '2.10.6-GTNH',
     'CodeChickenCore': '1.1.3',
     'CodeChickenLib': '1.1.5.1',
