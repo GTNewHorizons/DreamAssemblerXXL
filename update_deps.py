@@ -51,7 +51,7 @@ LATEST_VERSIONS = {
     'Mantle': '0.3.4',
     'Natura': '2.4.9',
     'NotEnoughEnergistics': '1.3.8',
-    'NotEnoughItems': '2.1.22-GTNH',
+    'NotEnoughItems': '2.2.3-GTNH',
     'Nuclear-Control': '2.4.8',
     'OpenComputers': '1.7.5.20-GTNH',
     'ProjectRed': '4.7.4',
