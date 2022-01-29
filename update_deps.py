@@ -63,7 +63,7 @@ LATEST_VERSIONS = {
     'TecTech': '4.10.16',
     'ThaumicEnergistics': '1.3.16-GTNH',
     'ThaumicTinkerer': '2.6.0',
-    'TinkersConstruct': '1.9.0.10-GTNH',
+    'TinkersConstruct': '1.9.0.12-GTNH',
     'TinkersMechworks': '0.2.16.2',
     'Translocators': '1.1.2.19',
     'waila': '1.5.18',
