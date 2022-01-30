@@ -19,6 +19,7 @@ from in_place import InPlace
 LATEST_VERSIONS = {
     'AppleCore': '3.1.7',
     'Applied-Energistics-2-Unofficial': 'rv3-beta-70-GTNH',
+    'AsieLib': '0.5.1',
     'Avaritia': '1.22',
     'Avaritiaddons': '1.5.2-GTNH',
     'bartworks': '0.5.34',
@@ -32,6 +33,7 @@ LATEST_VERSIONS = {
     'CodeChickenCore': '1.1.3',
     'CodeChickenLib': '1.1.5.1',
     'CraftTweaker': '3.2.6',
+    'Computronics': '1.6.10',
     'EnderCore': '0.2.6',
     'EnderIO': '2.3.1.27',
     'EnderStorage': '1.4.11',
