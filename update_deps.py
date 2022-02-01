@@ -17,6 +17,7 @@ import os.path
 from in_place import InPlace
 
 LATEST_VERSIONS = {
+    'AdventureBackpack2': '1.0.3-GTNH',
     'AppleCore': '3.1.7',
     'Applied-Energistics-2-Unofficial': 'rv3-beta-70-GTNH',
     'AsieLib': '0.5.1',
@@ -53,6 +54,7 @@ LATEST_VERSIONS = {
     'Jabba': '1.2.13',
     'Mantle': '0.3.4',
     'Natura': '2.4.9',
+    'NewHorizonsCoreMod': '1.9.19',
     'NotEnoughEnergistics': '1.3.8',
     'NotEnoughItems': '2.2.3-GTNH',
     'Nuclear-Control': '2.4.8',
