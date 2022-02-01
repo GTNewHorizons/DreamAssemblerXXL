@@ -17,6 +17,7 @@ import os.path
 from in_place import InPlace
 
 LATEST_VERSIONS = {
+    'AdventureBackpack2': '1.0.3-GTNH',
     'AppleCore': '3.1.7',
     'Applied-Energistics-2-Unofficial': 'rv3-beta-70-GTNH',
     'AsieLib': '0.5.1',
