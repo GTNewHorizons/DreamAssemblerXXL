@@ -53,6 +53,7 @@ LATEST_VERSIONS = {
     'Jabba': '1.2.13',
     'Mantle': '0.3.4',
     'Natura': '2.4.9',
+    'NewHorizonsCoreMod': '1.9.19',
     'NotEnoughEnergistics': '1.3.8',
     'NotEnoughItems': '2.2.3-GTNH',
     'Nuclear-Control': '2.4.8',
