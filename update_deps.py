@@ -23,7 +23,7 @@ LATEST_VERSIONS = {
     'AsieLib': '0.5.1',
     'Avaritia': '1.22',
     'Avaritiaddons': '1.5.2-GTNH',
-    'bartworks': '0.5.34.1',
+    'bartworks': '0.5.35',
     'Baubles': '1.0.1.14',
     'bdlib': '1.9.6',
     'BloodMagic': '1.3.5',
