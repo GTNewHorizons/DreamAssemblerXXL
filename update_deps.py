@@ -23,7 +23,7 @@ LATEST_VERSIONS = {
     'AsieLib': '0.5.1',
     'Avaritia': '1.22',
     'Avaritiaddons': '1.5.2-GTNH',
-    'bartworks': '0.5.34',
+    'bartworks': '0.5.35',
     'Baubles': '1.0.1.14',
     'bdlib': '1.9.6',
     'BloodMagic': '1.3.5',
@@ -81,8 +81,8 @@ LATEST_VERSIONS = {
 
 DEP_FILE = 'dependencies.gradle'
 REPO_FILE = 'repositories.gradle'
-MOD_AND_VERSION = re.compile(r'"com\.github\.GTNewHorizons:([^:]+):([^:^)]+)')
-MOD_VERSION_REPLACE = '"com.github.GTNewHorizons:{mod_name}:{version}'
+MOD_AND_VERSION = re.compile(r'[\"\']com\.github\.GTNewHorizons:([^:]+):([^:^)]+)')
+MOD_VERSION_REPLACE = 'com.github.GTNewHorizons:{mod_name}:{version}'
 GTNH_MAVEN = """
     maven {
         name = "GTNH Maven"
