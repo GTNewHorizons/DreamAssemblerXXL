@@ -72,6 +72,7 @@ LATEST_VERSIONS = {
     'StorageDrawers': '1.11.11-GTNH',
     'StructureLib': '1.0.15',
     'TecTech': '4.10.18',
+    'Thaumic_Exploriation': '1.1.57',
     'ThaumicEnergistics': '1.3.16-GTNH',
     'ThaumicTinkerer': '2.6.0',
     'TinkersConstruct': '1.9.0.13-GTNH',
