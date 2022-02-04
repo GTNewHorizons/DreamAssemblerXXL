@@ -25,7 +25,7 @@ LATEST_VERSIONS = {
     'Avaritia': '1.22',
     'Avaritiaddons': '1.5.2-GTNH',
     'bartworks': '0.5.35',
-    'Battlegear2': '1.1.1.8'
+    'Battlegear2': '1.1.1.8',
     'Baubles': '1.0.1.14',
     'bdlib': '1.9.6',
     'BloodMagic': '1.3.5',
