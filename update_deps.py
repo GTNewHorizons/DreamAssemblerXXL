@@ -76,7 +76,6 @@ LATEST_VERSIONS = {
     'WirelessCraftingTerminal': '1.8.8.3',
     'WirelessRedstone-CBE': '1.4.4',
     'Yamcl': '0.5.82',
-    'ZenScript': 'unspecified',
 }
 
 DEP_FILE = 'dependencies.gradle'
@@ -92,7 +91,7 @@ GTNH_MAVEN = """
 
 
 def find_and_update_deps() -> None:
-    if not os.path.exists('dependencies.gradle'):
+    if not os.path.exists(DEP_FILE):
         print(f"ERROR: Unable to locate {DEP_FILE} in the current directory")
         return
 
