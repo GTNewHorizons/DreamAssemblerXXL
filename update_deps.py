@@ -25,6 +25,7 @@ LATEST_VERSIONS = {
     'Avaritia': '1.22',
     'Avaritiaddons': '1.5.2-GTNH',
     'bartworks': '0.5.35',
+    'Battlegear2': '1.1.1.8'
     'Baubles': '1.0.1.14',
     'bdlib': '1.9.6',
     'BloodMagic': '1.3.5',
@@ -49,7 +50,7 @@ LATEST_VERSIONS = {
     'gendustry': '1.6.5.3-GTNH',
     'GT5-Unofficial': '5.09.40.19',
     'GTplusplus': '1.7.24',
-    'harvestcraft': '1.0.10-GTNH',
+    'harvestcraft': '1.0.12-GTNH',
     'HoloInventory': '2.1.7-GTNH',
     'inventory-tweaks': '1.5.13',
     'ironchest': '6.0.68',
