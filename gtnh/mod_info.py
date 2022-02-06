@@ -39,7 +39,7 @@ def load_gtnh_mod_info() -> GTNHMods:
     with open(latest_version_filename) as f:
         mods_json = json.loads(f.read())
         mods_info = GTNHMods(mods={
-            k: ModInfo.parse_obj(v | {"mod_name": k}) for k, v in mods_json.items()
+            k: ModInfo.parse_obj(v) for k, v in mods_json.items()
         })
 
     return mods_info
