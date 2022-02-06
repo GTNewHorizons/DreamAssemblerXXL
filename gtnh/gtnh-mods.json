@@ -1,0 +1,352 @@
+{
+  "AdventureBackpack2": {
+    "mod_name": "AdventureBackpack2",
+    "latest_version": "1.0.4-GTNH",
+    "side": "BOTH"
+  },
+  "AMDIForge": {
+    "mod_name": "AMDIForge",
+    "latest_version": "1.0.3",
+    "side": "NONE"
+  },
+  "AppleCore": {
+    "mod_name": "AppleCore",
+    "latest_version": "3.1.9",
+    "side": "BOTH"
+  },
+  "Applied-Energistics-2-Unofficial": {
+    "mod_name": "Applied-Energistics-2-Unofficial",
+    "latest_version": "rv3-beta-74-GTNH",
+    "side": "BOTH"
+  },
+  "AsieLib": {
+    "mod_name": "AsieLib",
+    "latest_version": "0.5.2",
+    "side": "BOTH"
+  },
+  "Avaritia": {
+    "mod_name": "Avaritia",
+    "latest_version": "1.22",
+    "side": "BOTH"
+  },
+  "Avaritiaddons": {
+    "mod_name": "Avaritiaddons",
+    "latest_version": "1.5.3-GTNH",
+    "side": "BOTH"
+  },
+  "bartworks": {
+    "mod_name": "bartworks",
+    "latest_version": "0.5.36",
+    "side": "BOTH"
+  },
+  "Battlegear2": {
+    "mod_name": "Battlegear2",
+    "latest_version": "1.1.1.8",
+    "side": "BOTH"
+  },
+  "Baubles": {
+    "mod_name": "Baubles",
+    "latest_version": "1.0.1.14",
+    "side": "BOTH"
+  },
+  "bdlib": {
+    "mod_name": "bdlib",
+    "latest_version": "1.9.6",
+    "side": "BOTH"
+  },
+  "BetterP2P": {
+    "mod_name": "BetterP2P",
+    "latest_version": "1.0.3",
+    "side": "BOTH"
+  },
+  "BloodArsenal": {
+    "mod_name": "BloodArsenal",
+    "latest_version": "1.2.4",
+    "side": "BOTH"
+  },
+  "BloodMagic": {
+    "mod_name": "BloodMagic",
+    "latest_version": "1.3.5",
+    "side": "BOTH"
+  },
+  "Botania": {
+    "mod_name": "Botania",
+    "latest_version": "1.9.1-GTNH",
+    "side": "BOTH"
+  },
+  "BuildCraft": {
+    "mod_name": "BuildCraft",
+    "latest_version": "7.1.24",
+    "side": "BOTH"
+  },
+  "BuildCraftCompat": {
+    "mod_name": "BuildCraftCompat",
+    "latest_version": "7.1.9",
+    "side": "BOTH"
+  },
+  "Chisel": {
+    "mod_name": "Chisel",
+    "latest_version": "2.10.6-GTNH",
+    "side": "BOTH"
+  },
+  "CodeChickenCore": {
+    "mod_name": "CodeChickenCore",
+    "latest_version": "1.1.3",
+    "side": "BOTH"
+  },
+  "CodeChickenLib": {
+    "mod_name": "CodeChickenLib",
+    "latest_version": "1.1.5.3",
+    "side": "BOTH"
+  },
+  "CookingForBlockheads": {
+    "mod_name": "CookingForBlockheads",
+    "latest_version": "1.2.7-GNTH",
+    "side": "BOTH"
+  },
+  "CraftTweaker": {
+    "mod_name": "CraftTweaker",
+    "latest_version": "3.2.6",
+    "side": "BOTH"
+  },
+  "Computronics": {
+    "mod_name": "Computronics",
+    "latest_version": "1.6.10-GTNH",
+    "side": "BOTH"
+  },
+  "CropLoadCore": {
+    "mod_name": "CropLoadCore",
+    "latest_version": "0.1.8",
+    "side": "BOTH"
+  },
+  "Crops-plus-plus": {
+    "mod_name": "Crops-plus-plus",
+    "latest_version": "1.3.5.9",
+    "side": "BOTH"
+  },
+  "EnderCore": {
+    "mod_name": "EnderCore",
+    "latest_version": "0.2.6",
+    "side": "BOTH"
+  },
+  "EnderIO": {
+    "mod_name": "EnderIO",
+    "latest_version": "2.3.1.27",
+    "side": "BOTH"
+  },
+  "EnderStorage": {
+    "mod_name": "EnderStorage",
+    "latest_version": "1.4.11",
+    "side": "BOTH"
+  },
+  "ExtraCells2": {
+    "mod_name": "ExtraCells2",
+    "latest_version": "2.5.6",
+    "side": "BOTH"
+  },
+  "ForestryMC": {
+    "mod_name": "ForestryMC",
+    "latest_version": "4.4.5",
+    "side": "BOTH"
+  },
+  "ForgeMultipart": {
+    "mod_name": "ForgeMultipart",
+    "latest_version": "1.2.7",
+    "side": "BOTH"
+  },
+  "GalacticGregGT5": {
+    "mod_name": "GalacticGregGT5",
+    "latest_version": "1.0.7",
+    "side": "BOTH"
+  },
+  "Galacticraft": {
+    "mod_name": "Galacticraft",
+    "latest_version": "3.0.37-GTNH",
+    "side": "BOTH"
+  },
+  "Galaxy-Space-GTNH": {
+    "mod_name": "Galaxy-Space-GTNH",
+    "latest_version": "1.1.14-GTNH",
+    "side": "BOTH"
+  },
+  "gendustry": {
+    "mod_name": "gendustry",
+    "latest_version": "1.6.5.3-GTNH",
+    "side": "BOTH"
+  },
+  "GT5-Unofficial": {
+    "mod_name": "GT5-Unofficial",
+    "latest_version": "5.09.40.31",
+    "side": "BOTH"
+  },
+  "GTplusplus": {
+    "mod_name": "GTplusplus",
+    "latest_version": "1.7.27",
+    "side": "BOTH"
+  },
+  "Guide-API": {
+    "mod_name": "Guide-API",
+    "latest_version": "1.0.2",
+    "side": "BOTH"    
+  },
+  "harvestcraft": {
+    "mod_name": "harvestcraft",
+    "latest_version": "1.0.12-GTNH",
+    "side": "BOTH"
+  },
+  "HoloInventory": {
+    "mod_name": "HoloInventory",
+    "latest_version": "2.1.7-GTNH",
+    "side": "BOTH"
+  },
+  "IguanaTweaksTConstruct": {
+    "mod_name": "IguanaTweaksTConstruct",
+    "latest_version": "2.2.2",
+    "side": "BOTH"
+  },
+  "inventory-tweaks": {
+    "mod_name": "inventory-tweaks",
+    "latest_version": "1.5.13",
+    "side": "BOTH"
+  },
+  "ironchest": {
+    "mod_name": "ironchest",
+    "latest_version": "6.0.68",
+    "side": "BOTH"
+  },
+  "Jabba": {
+    "mod_name": "Jabba",
+    "latest_version": "1.2.13",
+    "side": "BOTH"
+  },
+  "Mantle": {
+    "mod_name": "Mantle",
+    "latest_version": "0.3.4",
+    "side": "BOTH"
+  },
+  "Natura": {
+    "mod_name": "Natura",
+    "latest_version": "2.4.9",
+    "side": "BOTH"
+  },
+  "NewHorizonsCoreMod": {
+    "mod_name": "NewHorizonsCoreMod",
+    "latest_version": "1.9.19",
+    "side": "BOTH"
+  },
+  "NotEnoughEnergistics": {
+    "mod_name": "NotEnoughEnergistics",
+    "latest_version": "1.3.9",
+    "side": "BOTH"
+  },
+  "NotEnoughItems": {
+    "mod_name": "NotEnoughItems",
+    "latest_version": "2.2.5-GTNH",
+    "side": "BOTH"
+  },
+  "Nuclear-Control": {
+    "mod_name": "Nuclear-Control",
+    "latest_version": "2.4.8",
+    "side": "BOTH"
+  },
+  "OpenComputers": {
+    "mod_name": "OpenComputers",
+    "latest_version": "1.7.5.20-GTNH",
+    "side": "BOTH"
+  },
+  "ProjectRed": {
+    "mod_name": "ProjectRed",
+    "latest_version": "4.7.4",
+    "side": "BOTH"
+  },
+  "QmunityLib": {
+    "mod_name": "QmunityLib",
+    "latest_version": "0.1.115",
+    "side": "BOTH"
+  },
+  "Railcraft": {
+    "mod_name": "Railcraft",
+    "latest_version": "9.13.5",
+    "side": "BOTH"
+  },
+  "SC2": {
+    "mod_name": "SC2",
+    "latest_version": "2.0.1",
+    "side": "BOTH"
+  },
+  "SleepingBags": {
+    "mod_name": "SleepingBags",
+    "latest_version": "0.1.2",
+    "side": "BOTH"
+  },
+  "StorageDrawers": {
+    "mod_name": "StorageDrawers",
+    "latest_version": "1.11.11-GTNH",
+    "side": "BOTH"
+  },
+  "StructureLib": {
+    "mod_name": "StructureLib",
+    "latest_version": "1.0.15",
+    "side": "BOTH"
+  },
+  "TecTech": {
+    "mod_name": "TecTech",
+    "latest_version": "4.10.18",
+    "side": "BOTH"
+  },
+  "Thaumic_Exploration": {
+    "mod_name": "Thaumic_Exploriation",
+    "latest_version": "1.1.83-GTNH",
+    "side": "BOTH"
+  },
+  "ThaumicEnergistics": {
+    "mod_name": "ThaumicEnergistics",
+    "latest_version": "1.3.16-GTNH",
+    "side": "BOTH"
+  },
+  "ThaumicTinkerer": {
+    "mod_name": "ThaumicTinkerer",
+    "latest_version": "2.6.0",
+    "side": "BOTH"
+  },
+  "TinkersConstruct": {
+    "mod_name": "TinkersConstruct",
+    "latest_version": "1.9.0.13-GTNH",
+    "side": "BOTH"
+  },
+  "TinkersMechworks": {
+    "mod_name": "TinkersMechworks",
+    "latest_version": "0.2.16.3",
+    "side": "BOTH"
+  },
+  "Translocators": {
+    "mod_name": "Translocators",
+    "latest_version": "1.1.2.19",
+    "side": "BOTH"
+  },
+  "waila": {
+    "mod_name": "waila",
+    "latest_version": "1.5.18",
+    "side": "BOTH"
+  },
+  "WanionLib": {
+    "mod_name": "WanionLib",
+    "latest_version": "1.8.2",
+    "side": "BOTH"
+  },
+  "WirelessCraftingTerminal": {
+    "mod_name": "WirelessCraftingTerminal",
+    "latest_version": "1.8.8.3",
+    "side": "BOTH"
+  },
+  "WirelessRedstone-CBE": {
+    "mod_name": "WirelessRedstone-CBE",
+    "latest_version": "1.4.4",
+    "side": "BOTH"
+  },
+  "Yamcl": {
+    "mod_name": "Yamcl",
+    "latest_version": "0.5.82",
+    "side": "BOTH"
+  }
+}
