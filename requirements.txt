@@ -1,2 +1,5 @@
-pygithub
+pygithub~=1.55
 in_place
+pydantic~=1.9.0
+requests~=2.25.1
+retry~=0.9.2
