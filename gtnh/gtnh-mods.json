@@ -7,7 +7,7 @@
   "AMDIForge": {
     "mod_name": "AMDIForge",
     "latest_version": "1.0.3",
-    "side": "BOTH"
+    "side": "NONE"
   },
   "AppleCore": {
     "mod_name": "AppleCore",
@@ -284,7 +284,7 @@
     "latest_version": "4.10.18",
     "side": "BOTH"
   },
-  "Thaumic_Exploriation": {
+  "Thaumic_Exploration": {
     "mod_name": "Thaumic_Exploriation",
     "latest_version": "1.1.83-GTNH",
     "side": "BOTH"

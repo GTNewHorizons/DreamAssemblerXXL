@@ -11,6 +11,7 @@ class Side(str, Enum):
     SERVER = "SERVER"
     CLIENT = "CLIENT"
     BOTH = "BOTH"
+    NONE = "NONE"
 
 
 class ModInfo(BaseModel):
