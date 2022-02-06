@@ -178,12 +178,12 @@
     },
     {
       "name": "BuildCraft",
-      "version": "7.1.25",
-      "tagged_at": "2022-02-06T14:34:29",
+      "version": "7.1.26",
+      "tagged_at": "2022-02-06T21:17:06",
       "repo_url": "https://github.com/GTNewHorizons/BuildCraft",
-      "filename": "buildcraft-1.7.10-7.1.25.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraft/releases/assets/56001343",
-      "browser_download_url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.25/buildcraft-1.7.10-7.1.25.jar",
+      "filename": "buildcraft-1.7.10-7.1.26.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraft/releases/assets/56024043",
+      "browser_download_url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.26/buildcraft-1.7.10-7.1.26.jar",
       "license": "Minecrat Mod Public License, MIT for the API (https://github.com/GTNewHorizons/BuildCraft)",
       "side": "BOTH"
     },
