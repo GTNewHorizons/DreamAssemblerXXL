@@ -12,12 +12,11 @@
 # Requires python3 and the `in_place` package
 #
 
-import re
 import os.path
+import re
 
 from in_place import InPlace
-
-from mod_info import load_gtnh_mod_info
+from mod_info import load_gtnh_manifest
 
 DEP_FILE = "dependencies.gradle"
 REPO_FILE = "repositories.gradle"
@@ -35,34 +34,26 @@ def find_and_update_deps() -> None:
     if not os.path.exists(DEP_FILE):
         print(f"ERROR: Unable to locate {DEP_FILE} in the current directory")
         return
-    gtnh_mod_info = load_gtnh_mod_info()
+    gtnh_mod_info = load_gtnh_manifest()
 
     with InPlace(DEP_FILE) as fp:
         for line in fp:
             match = MOD_AND_VERSION.search(line)
             if match is not None:
                 mod_name, mod_version = match[1], match[2]
-                if gtnh_mod_info.has_mod(mod_name):
-                    mod_info = gtnh_mod_info.get_mod(mod_name)
-                    latest_version = mod_info.latest_version
+                if gtnh_mod_info.has_github_mod(mod_name):
+                    mod_info = gtnh_mod_info.get_github_mod(mod_name)
+                    latest_version = mod_info.version
                     if mod_version != latest_version:
-                        print(
-                            f"Updating {mod_name} from `{mod_version}` to '{latest_version}'"
-                        )
+                        print(f"Updating {mod_name} from `{mod_version}` to '{latest_version}'")
                         line = line.replace(
-                            MOD_VERSION_REPLACE.format(
-                                mod_name=mod_name, version=mod_version
-                            ),
-                            MOD_VERSION_REPLACE.format(
-                                mod_name=mod_name, version=latest_version
-                            ),
+                            MOD_VERSION_REPLACE.format(mod_name=mod_name, version=mod_version),
+                            MOD_VERSION_REPLACE.format(mod_name=mod_name, version=latest_version),
                         )
                         fp.write(line)
                         continue
                     else:
-                        print(
-                            f"{mod_name} is already at the latest version '{latest_version}'"
-                        )
+                        print(f"{mod_name} is already at the latest version '{latest_version}'")
                 else:
                     print(f"No latest version info for mod {mod_name}")
 
