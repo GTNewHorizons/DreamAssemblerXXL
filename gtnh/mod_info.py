@@ -1,6 +1,7 @@
 import json
 import os
 from enum import Enum
+from typing import Dict
 
 from pydantic import BaseModel, Field
 
@@ -21,7 +22,7 @@ class ModInfo(BaseModel):
 
 
 class GTNHMods(BaseModel):
-    mods: dict[str, ModInfo]
+    mods: Dict[str, ModInfo]
 
     def has_mod(self, mod_name):
         return mod_name in self.mods
