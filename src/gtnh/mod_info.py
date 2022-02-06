@@ -30,7 +30,6 @@ class ModInfo(BaseModel):
     side: Side = Field(default=Side.BOTH)
 
 
-
 class GTNHModpack(BaseModel):
     github_mods: List[ModInfo]
 
