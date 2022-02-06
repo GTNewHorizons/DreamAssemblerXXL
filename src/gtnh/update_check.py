@@ -4,7 +4,7 @@ from typing import Dict, Set
 from github import Github
 from github.GitRelease import GitRelease
 from github.Repository import Repository
-from mod_info import GTNHModpack, ModInfo, load_gtnh_manifest, UNKNOWN, OTHER
+from mod_info import OTHER, UNKNOWN, GTNHModpack, ModInfo, load_gtnh_manifest
 from utils import get_all_repos, get_token
 
 
@@ -84,8 +84,8 @@ if __name__ == "__main__":
     github_mods = load_gtnh_manifest()
 
     check_for_updates(all_repos, github_mods)
-    with open('updated_mods.json', 'w+') as f:
-        f.write(github_mods.json(indent=2, exclude={'_github_modmap'}))
+    with open("updated_mods.json", "w+") as f:
+        f.write(github_mods.json(indent=2, exclude={"_github_modmap"}))
 
     missing_repos = check_for_missing_repos(all_repos, github_mods)
     if len(missing_repos):
