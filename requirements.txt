@@ -1,3 +1,4 @@
+python~=3.9
 pygithub~=1.55
 in_place
 pydantic~=1.9.0

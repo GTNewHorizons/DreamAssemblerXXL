@@ -122,6 +122,17 @@
       "side": "BOTH"
     },
     {
+      "name": "BetterBuildersWands",
+      "version": "0.9.1-GTNH",
+      "tagged_at": "2022-02-06T19:13:38",
+      "repo_url": "https://github.com/GTNewHorizons/BetterBuildersWands",
+      "filename": "BetterBuildersWands-1.7.10-0.9.1-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/BetterBuildersWands/releases/assets/56015418",
+      "browser_download_url": "https://github.com/GTNewHorizons/BetterBuildersWands/releases/download/0.9.1-GTNH/BetterBuildersWands-1.7.10-0.9.1-GTNH.jar",
+      "license": "GNU General Public License v3.0",
+      "side": "BOTH"
+    },
+    {
       "name": "BetterP2P",
       "version": "1.0.4",
       "tagged_at": "2022-02-05T10:43:39",
@@ -167,12 +178,12 @@
     },
     {
       "name": "BuildCraft",
-      "version": "7.1.24",
-      "tagged_at": "2022-01-18T17:05:15",
+      "version": "7.1.25",
+      "tagged_at": "2022-02-06T14:34:29",
       "repo_url": "https://github.com/GTNewHorizons/BuildCraft",
-      "filename": "buildcraft-1.7.10-7.1.24.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraft/releases/assets/54291516",
-      "browser_download_url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.24/buildcraft-1.7.10-7.1.24.jar",
+      "filename": "buildcraft-1.7.10-7.1.25.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraft/releases/assets/56001343",
+      "browser_download_url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.25/buildcraft-1.7.10-7.1.25.jar",
       "license": "Minecrat Mod Public License, MIT for the API (https://github.com/GTNewHorizons/BuildCraft)",
       "side": "BOTH"
     },
@@ -464,13 +475,24 @@
     },
     {
       "name": "ironchest",
-      "version": "6.0.68",
-      "tagged_at": "2022-01-18T14:15:23",
+      "version": "6.0.69",
+      "tagged_at": "2022-02-06T19:26:28",
       "repo_url": "https://github.com/GTNewHorizons/ironchest",
-      "filename": "IronChest-1.7.10-6.0.68.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/ironchest/releases/assets/54278609",
-      "browser_download_url": "https://github.com/GTNewHorizons/ironchest/releases/download/6.0.68/IronChest-1.7.10-6.0.68.jar",
+      "filename": "IronChest-1.7.10-6.0.69.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ironchest/releases/assets/56016135",
+      "browser_download_url": "https://github.com/GTNewHorizons/ironchest/releases/download/6.0.69/IronChest-1.7.10-6.0.69.jar",
       "license": "GPL 3.0?",
+      "side": "BOTH"
+    },
+    {
+      "name": "IronChestMinecarts",
+      "version": "1.0.7",
+      "tagged_at": "2022-02-06T19:09:41",
+      "repo_url": "https://github.com/GTNewHorizons/IronChestMinecarts",
+      "filename": "IronChestMinecarts-1.7.10-1.0.7.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/IronChestMinecarts/releases/assets/56015117",
+      "browser_download_url": "https://github.com/GTNewHorizons/IronChestMinecarts/releases/download/1.0.7/IronChestMinecarts-1.7.10-1.0.7.jar",
+      "license": "",
       "side": "BOTH"
     },
     {
@@ -713,6 +735,17 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/Translocators/releases/assets/54251065",
       "browser_download_url": "https://github.com/GTNewHorizons/Translocators/releases/download/1.1.2.19/Translocator-1.7.10-1.1.2.19.jar",
       "license": "original code MIT, GTNH changes LGPL 3.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "twilightforest",
+      "version": "2.3.8.13",
+      "tagged_at": "2022-02-01T19:03:23",
+      "repo_url": "https://github.com/GTNewHorizons/twilightforest",
+      "filename": "TwilightForest-1.7.10-2.3.8.13.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/55552690",
+      "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.3.8.13/TwilightForest-1.7.10-2.3.8.13.jar",
+      "license": "",
       "side": "BOTH"
     },
     {
