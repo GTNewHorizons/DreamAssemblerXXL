@@ -23,6 +23,17 @@
       "side": "BOTH"
     },
     {
+      "name": "AFSU",
+      "version": "1.2.5-GTNH",
+      "tagged_at": "2022-01-31T21:45:29",
+      "repo_url": "https://github.com/GTNewHorizons/AFSU",
+      "filename": "AFSU-1.7.10-1.2.5-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/AFSU/releases/assets/55463128",
+      "browser_download_url": "https://github.com/GTNewHorizons/AFSU/releases/download/1.2.5-GTNH/AFSU-1.7.10-1.2.5-GTNH.jar",
+      "license": "MIT License",
+      "side": "BOTH"
+    },
+    {
       "name": "AMDIForge",
       "version": "1.0.3",
       "tagged_at": "2022-02-04T17:50:30",
@@ -262,6 +273,17 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraftCompat/releases/assets/55678207",
       "browser_download_url": "https://github.com/GTNewHorizons/BuildCraftCompat/releases/download/7.1.11/buildcraft-compat-1.7.10-7.1.11.jar",
       "license": "Minecrat Mod Public License 1.0.1 according to curse (https://www.curseforge.com/minecraft/mc-mods/buildcraft-compat)",
+      "side": "BOTH"
+    },
+    {
+      "name": "Catwalks-2",
+      "version": "2.1.2-GTNH",
+      "tagged_at": "2022-02-07T21:26:27",
+      "repo_url": "https://github.com/GTNewHorizons/Catwalks-2",
+      "filename": "catwalks-1.7.10-2.1.2-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Catwalks-2/releases/assets/56110113",
+      "browser_download_url": "https://github.com/GTNewHorizons/Catwalks-2/releases/download/2.1.2-GTNH/catwalks-1.7.10-2.1.2-GTNH.jar",
+      "license": "explicit permission (german)",
       "side": "BOTH"
     },
     {
