@@ -112,7 +112,7 @@
     "license": "Botania License"
   },
   "Botanic Horizons": {
-    "url": "https://github.com/GTNewHorizons/Botanic-horizons#legal",
+    "url": "https://github.com/GTNewHorizons/Botanic-horizons",
     "license": "CC BY-NC-SA 4.0, special permission given to GTNH"
   },
   "Botdustries": {
@@ -446,6 +446,10 @@
     "url": "https://github.com/GTNewHorizons/ImpactArchitectureModule",
     "license": "explicit permissions"
   },
+  "INpureCore": {
+    "url": "https://github.com/GTNewHorizons/INpureCore",
+    "license": "The IDGAF License v1.0"
+  },
   "Infernal Mobs": {
     "url": "https://github.com/GTNewHorizons/Infernal-Mobs",
     "license": "Non-Commercial"
@@ -770,8 +774,8 @@
     "license": "Upstream 1.12+ MIT"
   },
   "SFM": {
-    "url": "https://twitter.com/Steves_Carts/status/795197105849729024",
-    "license": "granted permissions by mod author to anyone that have access to the source code"
+    "url": "https://github.com/GTNewHorizons/Steve-s-Factory-Manager",
+    "license": "MIT - granted permissions by mod author to anyone that have access to the source code: https://twitter.com/Steves_Carts/status/795197105849729024"
   },
   "StevesAddons": {
     "url": "https://github.com/GTNewHorizons/StevesAddons",

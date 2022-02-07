@@ -1,21 +1,10 @@
-import os
 from datetime import datetime
-from enum import Enum
 from functools import cached_property
 from typing import Dict, List, Optional
 
 from pydantic import BaseModel, Field
 
-GTNH_MODPACK_FILE = "gtnh-modpack.json"
-UNKNOWN = "Unknown"
-OTHER = "Other"
-
-
-class Side(str, Enum):
-    SERVER = "SERVER"
-    CLIENT = "CLIENT"
-    BOTH = "BOTH"
-    NONE = "NONE"
+from defs import UNKNOWN, Side
 
 
 class ModInfo(BaseModel):
@@ -42,12 +31,3 @@ class GTNHModpack(BaseModel):
 
     def get_github_mod(self, mod_name: str):
         return self._github_modmap.get(mod_name)
-
-
-def load_gtnh_manifest() -> GTNHModpack:
-    latest_version_filename = os.path.abspath(os.path.dirname(__file__)) + "/../../" + GTNH_MODPACK_FILE
-    print(f"Loading mod info from `{latest_version_filename}`")
-    with open(latest_version_filename) as f:
-        gtnh_modpack = GTNHModpack.parse_raw(f.read())
-
-    return gtnh_modpack

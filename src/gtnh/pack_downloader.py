@@ -6,9 +6,9 @@ import requests
 from github import Github
 from github.GitRelease import GitRelease
 from github.Organization import Organization
-from mod_info import GTNHModpack, ModInfo, load_gtnh_manifest
+from mod_info import GTNHModpack, ModInfo
 from retry import retry
-from utils import get_token
+from utils import get_token, load_gtnh_manifest
 
 CACHE_DIR = "cache"
 

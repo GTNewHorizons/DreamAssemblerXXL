@@ -12,6 +12,17 @@
       "side": "BOTH"
     },
     {
+      "name": "ae2stuff",
+      "version": "0.5.1.13-GTNH",
+      "tagged_at": "2021-12-20T22:06:25",
+      "repo_url": "https://github.com/GTNewHorizons/ae2stuff",
+      "filename": "ae2stuff-1.7.10-0.5.1.13-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ae2stuff/releases/assets/52233431",
+      "browser_download_url": "https://github.com/GTNewHorizons/ae2stuff/releases/download/0.5.1.13-GTNH/ae2stuff-1.7.10-0.5.1.13-GTNH.jar",
+      "license": "MMPL",
+      "side": "BOTH"
+    },
+    {
       "name": "AMDIForge",
       "version": "1.0.3",
       "tagged_at": "2022-02-04T17:50:30",
@@ -42,6 +53,17 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/55923568",
       "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-75-GTNH/appliedenergistics2-1.7.10-rv3-beta-75-GTNH.jar",
       "license": "LGPL v3.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "ArchitectureCraft",
+      "version": "1.7.5",
+      "tagged_at": "2022-02-03T19:11:05",
+      "repo_url": "https://github.com/GTNewHorizons/ArchitectureCraft",
+      "filename": "ArchitectureCraft-1.7.10-1.7.5.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ArchitectureCraft/releases/assets/55768805",
+      "browser_download_url": "https://github.com/GTNewHorizons/ArchitectureCraft/releases/download/1.7.5/ArchitectureCraft-1.7.10-1.7.5.jar",
+      "license": "MIT License",
       "side": "BOTH"
     },
     {
@@ -133,6 +155,17 @@
       "side": "BOTH"
     },
     {
+      "name": "BetterLoadingScreen",
+      "version": "1.3.31-GTNH",
+      "tagged_at": "2021-12-20T23:00:31",
+      "repo_url": "https://github.com/GTNewHorizons/BetterLoadingScreen",
+      "filename": "betterloadingscreen-1.7.10-1.3.31-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/52235824",
+      "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.31-GTNH/betterloadingscreen-1.7.10-1.3.31-GTNH.jar",
+      "license": "GNU General Public License v2.0",
+      "side": "BOTH"
+    },
+    {
       "name": "BetterP2P",
       "version": "1.0.4",
       "tagged_at": "2022-02-05T10:43:39",
@@ -141,6 +174,28 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/BetterP2P/releases/assets/55921154",
       "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.0.4/betterp2p-1.7.10-1.0.4.jar",
       "license": "GNU General Public License v3.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "BetterQuesting",
+      "version": "3.0.352-GTNH",
+      "tagged_at": "2022-02-05T10:38:15",
+      "repo_url": "https://github.com/GTNewHorizons/BetterQuesting",
+      "filename": "BetterQuesting-1.7.10-3.0.352-GTNH-api2.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/55920926",
+      "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.352-GTNH/BetterQuesting-1.7.10-3.0.352-GTNH-api2.jar",
+      "license": "MIT License",
+      "side": "BOTH"
+    },
+    {
+      "name": "Binnie",
+      "version": "2.0.33",
+      "tagged_at": "2022-01-16T12:19:09",
+      "repo_url": "https://github.com/GTNewHorizons/Binnie",
+      "filename": "binnie-mods-1.7.10-2.0.33.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/54111542",
+      "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.0.33/binnie-mods-1.7.10-2.0.33.jar",
+      "license": "LGPL",
       "side": "BOTH"
     },
     {
@@ -174,6 +229,17 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/Botania/releases/assets/54386478",
       "browser_download_url": "https://github.com/GTNewHorizons/Botania/releases/download/1.9.1-GTNH/Botania-1.7.10-1.9.1-GTNH.jar",
       "license": "Botania License",
+      "side": "BOTH"
+    },
+    {
+      "name": "Botanic-horizons",
+      "version": "1.0.3-GTNH",
+      "tagged_at": "2022-02-02T22:51:30",
+      "repo_url": "https://github.com/GTNewHorizons/Botanic-horizons",
+      "filename": "BotanicHorizons-1.7.10-1.0.3-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/55678890",
+      "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.3-GTNH/BotanicHorizons-1.7.10-1.0.3-GTNH.jar",
+      "license": "CC:BY-NC-SA 4.0, special permission given to GTNH",
       "side": "BOTH"
     },
     {
@@ -232,6 +298,17 @@
       "side": "BOTH"
     },
     {
+      "name": "Computronics",
+      "version": "1.6.10-GTNH",
+      "tagged_at": "2022-02-02T23:22:44",
+      "repo_url": "https://github.com/GTNewHorizons/Computronics",
+      "filename": "Computronics-1.7.10-1.6.10-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Computronics/releases/assets/55681058",
+      "browser_download_url": "https://github.com/GTNewHorizons/Computronics/releases/download/1.6.10-GTNH/Computronics-1.7.10-1.6.10-GTNH.jar",
+      "license": "MIT License",
+      "side": "BOTH"
+    },
+    {
       "name": "CookingForBlockheads",
       "version": "1.2.7-GTNH",
       "tagged_at": "2022-02-02T23:40:04",
@@ -254,17 +331,6 @@
       "side": "BOTH"
     },
     {
-      "name": "Computronics",
-      "version": "1.6.10-GTNH",
-      "tagged_at": "2022-02-02T23:22:44",
-      "repo_url": "https://github.com/GTNewHorizons/Computronics",
-      "filename": "Computronics-1.7.10-1.6.10-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Computronics/releases/assets/55681058",
-      "browser_download_url": "https://github.com/GTNewHorizons/Computronics/releases/download/1.6.10-GTNH/Computronics-1.7.10-1.6.10-GTNH.jar",
-      "license": "MIT License",
-      "side": "BOTH"
-    },
-    {
       "name": "CropLoadCore",
       "version": "0.1.8",
       "tagged_at": "2022-02-02T23:08:26",
@@ -284,6 +350,39 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/Crops-plus-plus/releases/assets/55680086",
       "browser_download_url": "https://github.com/GTNewHorizons/Crops-plus-plus/releases/download/1.3.5.9/CropsPP-1.7.10-1.3.5.9.jar",
       "license": "GNU Lesser General Public License v3.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "DetravScannerMod",
+      "version": "1.6.4",
+      "tagged_at": "2022-01-16T14:30:13",
+      "repo_url": "https://github.com/GTNewHorizons/DetravScannerMod",
+      "filename": "GT.Scanner.Mod-1.7.10-1.6.4.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/DetravScannerMod/releases/assets/54117302",
+      "browser_download_url": "https://github.com/GTNewHorizons/DetravScannerMod/releases/download/1.6.4/GT.Scanner.Mod-1.7.10-1.6.4.jar",
+      "license": "???",
+      "side": "BOTH"
+    },
+    {
+      "name": "Draconic-Evolution",
+      "version": "1.1.2",
+      "tagged_at": "2022-01-30T20:32:45",
+      "repo_url": "https://github.com/GTNewHorizons/Draconic-Evolution",
+      "filename": "Draconic-Evolution-1.7.10-1.1.2.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/55375159",
+      "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.2/Draconic-Evolution-1.7.10-1.1.2.jar",
+      "license": "GNU Lesser General Public License v3.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "Electro-Magic-Tools",
+      "version": "1.2.8.6",
+      "tagged_at": "2022-01-20T19:29:31",
+      "repo_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools",
+      "filename": "EMT-1.7.10-1.2.8.6.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/54498765",
+      "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.2.8.6/EMT-1.7.10-1.2.8.6.jar",
+      "license": "GPL 3.0",
       "side": "BOTH"
     },
     {
@@ -320,6 +419,17 @@
       "side": "BOTH"
     },
     {
+      "name": "EnderZoo",
+      "version": "1.0.22",
+      "tagged_at": "2022-01-16T13:02:09",
+      "repo_url": "https://github.com/GTNewHorizons/EnderZoo",
+      "filename": "EnderZoo-1.7.10-1.0.22.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/EnderZoo/releases/assets/54113205",
+      "browser_download_url": "https://github.com/GTNewHorizons/EnderZoo/releases/download/1.0.22/EnderZoo-1.7.10-1.0.22.jar",
+      "license": "Creative Commons Zero v1.0 Universal",
+      "side": "BOTH"
+    },
+    {
       "name": "ExtraCells2",
       "version": "2.5.7",
       "tagged_at": "2022-02-05T10:40:48",
@@ -350,6 +460,17 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/ForgeMultipart/releases/assets/54244264",
       "browser_download_url": "https://github.com/GTNewHorizons/ForgeMultipart/releases/download/1.2.7/ForgeMultipart-1.7.10-1.2.7.jar",
       "license": "LGPL 2.1",
+      "side": "BOTH"
+    },
+    {
+      "name": "Gadomancy",
+      "version": "1.0.8.4",
+      "tagged_at": "2022-01-16T13:13:32",
+      "repo_url": "https://github.com/GTNewHorizons/Gadomancy",
+      "filename": "gadomancy-1.7.10-1.0.8.4.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Gadomancy/releases/assets/54113659",
+      "browser_download_url": "https://github.com/GTNewHorizons/Gadomancy/releases/download/1.0.8.4/gadomancy-1.7.10-1.0.8.4.jar",
+      "license": "GNU Lesser General Public License v3.0",
       "side": "BOTH"
     },
     {
@@ -397,6 +518,17 @@
       "side": "BOTH"
     },
     {
+      "name": "GoodGenerator",
+      "version": "0.3.9",
+      "tagged_at": "2022-02-06T16:14:30",
+      "repo_url": "https://github.com/GTNewHorizons/GoodGenerator",
+      "filename": "GoodGenerator-1.7.10-0.3.9.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/56006591",
+      "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.3.9/GoodGenerator-1.7.10-0.3.9.jar",
+      "license": "MIT License",
+      "side": "BOTH"
+    },
+    {
       "name": "GT5-Unofficial",
       "version": "5.09.40.31",
       "tagged_at": "2022-02-04T20:18:47",
@@ -405,6 +537,17 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/55874553",
       "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.31/gregtech-1.7.10-5.09.40.31.jar",
       "license": "GNU Lesser General Public License v3.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "GTNH-TC-Wands",
+      "version": "1.2.5",
+      "tagged_at": "2021-12-20T21:53:52",
+      "repo_url": "https://github.com/GTNewHorizons/GTNH-TC-Wands",
+      "filename": "GTNH-TC-Wands-1.7.10-1.2.5.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-TC-Wands/releases/assets/52232601",
+      "browser_download_url": "https://github.com/GTNewHorizons/GTNH-TC-Wands/releases/download/1.2.5/GTNH-TC-Wands-1.7.10-1.2.5.jar",
+      "license": "Do What The F*ck You Want To Public License",
       "side": "BOTH"
     },
     {
@@ -430,6 +573,17 @@
       "side": "BOTH"
     },
     {
+      "name": "Hardcore-Ender-Expansion",
+      "version": "1.9.1-GTNH",
+      "tagged_at": "2022-01-16T14:39:16",
+      "repo_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion",
+      "filename": "HardcoreEnderExpansion-1.7.10-1.9.1-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/54117693",
+      "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.9.1-GTNH/HardcoreEnderExpansion-1.7.10-1.9.1-GTNH.jar",
+      "license": "Explicit permissions",
+      "side": "BOTH"
+    },
+    {
       "name": "harvestcraft",
       "version": "1.0.12-GTNH",
       "tagged_at": "2022-02-04T19:54:29",
@@ -438,6 +592,17 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/harvestcraft/releases/assets/55872629",
       "browser_download_url": "https://github.com/GTNewHorizons/harvestcraft/releases/download/1.0.12-GTNH/Pam.s_Harvestcraft-1.7.10-1.0.12-GTNH.jar",
       "license": "explicit permissions",
+      "side": "BOTH"
+    },
+    {
+      "name": "Hodgepodge",
+      "version": "1.6.23",
+      "tagged_at": "2022-01-17T07:10:45",
+      "repo_url": "https://github.com/GTNewHorizons/Hodgepodge",
+      "filename": "hodgepodge-1.7.10-1.6.23.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/54165517",
+      "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/1.6.23/hodgepodge-1.7.10-1.6.23.jar",
+      "license": "GNU Lesser General Public License v3.0",
       "side": "BOTH"
     },
     {
@@ -460,6 +625,28 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/IguanaTweaksTConstruct/releases/assets/55882969",
       "browser_download_url": "https://github.com/GTNewHorizons/IguanaTweaksTConstruct/releases/download/2.2.2/IguanaTweaksTConstruct-1.7.10-2.2.2.jar",
       "license": "Creative Commons Attribution Share Alike 4.0 International",
+      "side": "BOTH"
+    },
+    {
+      "name": "InGame-Info-XML",
+      "version": "2.8.1.85",
+      "tagged_at": "2020-03-23T20:33:26",
+      "repo_url": "https://github.com/GTNewHorizons/InGame-Info-XML",
+      "filename": "InGameInfoXML-1.7.10-2.8.1.85-universal.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/InGame-Info-XML/releases/assets/18927259",
+      "browser_download_url": "https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.8.1.85/InGameInfoXML-1.7.10-2.8.1.85-universal.jar",
+      "license": "MIT License",
+      "side": "BOTH"
+    },
+    {
+      "name": "INpureCore",
+      "version": "1.1.1-GTNH",
+      "tagged_at": "2022-01-29T20:55:47",
+      "repo_url": "https://github.com/GTNewHorizons/INpureCore",
+      "filename": "INpureCore-1.7.10-1.1.1-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/INpureCore/releases/assets/55307383",
+      "browser_download_url": "https://github.com/GTNewHorizons/INpureCore/releases/download/1.1.1-GTNH/INpureCore-1.7.10-1.1.1-GTNH.jar",
+      "license": "The IDGAF License v1.0",
       "side": "BOTH"
     },
     {
@@ -496,6 +683,17 @@
       "side": "BOTH"
     },
     {
+      "name": "Irontanks",
+      "version": "1.2.4",
+      "tagged_at": "2021-12-11T18:47:29",
+      "repo_url": "https://github.com/GTNewHorizons/Irontanks",
+      "filename": "irontanks-1.7.10-1.2.4.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Irontanks/releases/assets/51554658",
+      "browser_download_url": "https://github.com/GTNewHorizons/Irontanks/releases/download/1.2.4/irontanks-1.7.10-1.2.4.jar",
+      "license": "MIT License",
+      "side": "BOTH"
+    },
+    {
       "name": "Jabba",
       "version": "1.2.13",
       "tagged_at": "2022-01-18T06:43:06",
@@ -504,6 +702,28 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/Jabba/releases/assets/54246003",
       "browser_download_url": "https://github.com/GTNewHorizons/Jabba/releases/download/1.2.13/JABBA-1.7.10-1.2.13.jar",
       "license": "CC BY-NC-SA",
+      "side": "BOTH"
+    },
+    {
+      "name": "KekzTech",
+      "version": "0.6.1",
+      "tagged_at": "2022-01-16T16:58:03",
+      "repo_url": "https://github.com/GTNewHorizons/KekzTech",
+      "filename": "kekztech-1.7.10-0.6.1.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/KekzTech/releases/assets/54124080",
+      "browser_download_url": "https://github.com/GTNewHorizons/KekzTech/releases/download/0.6.1/kekztech-1.7.10-0.6.1.jar",
+      "license": "MIT License",
+      "side": "BOTH"
+    },
+    {
+      "name": "LootGames",
+      "version": "2.0.4",
+      "tagged_at": "2022-01-16T17:03:35",
+      "repo_url": "https://github.com/GTNewHorizons/LootGames",
+      "filename": "lootgames-1.7.10-2.0.4.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/LootGames/releases/assets/54124220",
+      "browser_download_url": "https://github.com/GTNewHorizons/LootGames/releases/download/2.0.4/lootgames-1.7.10-2.0.4.jar",
+      "license": "ARR for people outside of the NH organization, might need some clarifications",
       "side": "BOTH"
     },
     {
@@ -526,6 +746,39 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/Natura/releases/assets/54349869",
       "browser_download_url": "https://github.com/GTNewHorizons/Natura/releases/download/2.4.9/Natura-1.7.10-2.4.9.jar",
       "license": "original code is CC0, original textures are CC3, GTNH modifications are LGPL 3.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "nei-custom-diagram",
+      "version": "1.4.4.3",
+      "tagged_at": "2022-02-02T22:06:42",
+      "repo_url": "https://github.com/GTNewHorizons/nei-custom-diagram",
+      "filename": "NEICustomDiagram-1.7.10-1.4.4.3.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/nei-custom-diagram/releases/assets/55675441",
+      "browser_download_url": "https://github.com/GTNewHorizons/nei-custom-diagram/releases/download/1.4.4.3/NEICustomDiagram-1.7.10-1.4.4.3.jar",
+      "license": "LGPL 3.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "neiaddons",
+      "version": "1.12.18",
+      "tagged_at": "2022-01-16T17:17:59",
+      "repo_url": "https://github.com/GTNewHorizons/neiaddons",
+      "filename": "NEIAddons-1.7.10-1.12.18.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/neiaddons/releases/assets/54124811",
+      "browser_download_url": "https://github.com/GTNewHorizons/neiaddons/releases/download/1.12.18/NEIAddons-1.7.10-1.12.18.jar",
+      "license": "MMPL 1.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "Netty-Patcher",
+      "version": "0.3",
+      "tagged_at": "2021-12-10T20:51:08",
+      "repo_url": "https://github.com/GTNewHorizons/Netty-Patcher",
+      "filename": "NettyPatch-1.7.10-0.3.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Netty-Patcher/releases/assets/51501700",
+      "browser_download_url": "https://github.com/GTNewHorizons/Netty-Patcher/releases/download/0.3/NettyPatch-1.7.10-0.3.jar",
+      "license": "GNU General Public License v3.0",
       "side": "BOTH"
     },
     {
@@ -570,6 +823,17 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/Nuclear-Control/releases/assets/54333668",
       "browser_download_url": "https://github.com/GTNewHorizons/Nuclear-Control/releases/download/2.4.8/IC2NuclearControl-1.7.10-2.4.8.jar",
       "license": "original code with a custom license allowing edit and redistribution, GTNH changes LGPL 3.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "OpenBlocks",
+      "version": "1.6.7",
+      "tagged_at": "2021-12-02T19:45:38",
+      "repo_url": "https://github.com/GTNewHorizons/OpenBlocks",
+      "filename": "OpenBlocks-1.7.10-1.6.7.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/50858690",
+      "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.6.7/OpenBlocks-1.7.10-1.6.7.jar",
+      "license": "MIT",
       "side": "BOTH"
     },
     {
@@ -639,6 +903,39 @@
       "side": "BOTH"
     },
     {
+      "name": "SpiceOfLife",
+      "version": "v.2.0.0-carrot-beta10",
+      "tagged_at": "2022-01-17T07:30:07",
+      "repo_url": "https://github.com/GTNewHorizons/SpiceOfLife",
+      "filename": "SpiceOfLife-1.7.10-v.2.0.0-carrot-beta10.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/54166574",
+      "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/v.2.0.0-carrot-beta10/SpiceOfLife-1.7.10-v.2.0.0-carrot-beta10.jar",
+      "license": "original code under unlicense, GTNH changes LGPL 3.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "Steve-s-Factory-Manager",
+      "version": "1.0.0-GTNH",
+      "tagged_at": "2022-01-23T20:29:06",
+      "repo_url": "https://github.com/GTNewHorizons/Steve-s-Factory-Manager",
+      "filename": "StevesFactoryManager-1.7.10-1.0.0-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Steve-s-Factory-Manager/releases/assets/54751386",
+      "browser_download_url": "https://github.com/GTNewHorizons/Steve-s-Factory-Manager/releases/download/1.0.0-GTNH/StevesFactoryManager-1.7.10-1.0.0-GTNH.jar",
+      "license": "MIT - granted permissions by mod author to anyone that have access to the source code: https://twitter.com/Steves_Carts/status/795197105849729024",
+      "side": "BOTH"
+    },
+    {
+      "name": "StevesAddons",
+      "version": "0.10.21",
+      "tagged_at": "2022-01-29T20:09:20",
+      "repo_url": "https://github.com/GTNewHorizons/StevesAddons",
+      "filename": "StevesAddons-1.7.10-0.10.21.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/StevesAddons/releases/assets/55305431",
+      "browser_download_url": "https://github.com/GTNewHorizons/StevesAddons/releases/download/0.10.21/StevesAddons-1.7.10-0.10.21.jar",
+      "license": "Don't be a jerk license",
+      "side": "BOTH"
+    },
+    {
       "name": "StorageDrawers",
       "version": "1.11.11-GTNH",
       "tagged_at": "2022-01-18T07:46:07",
@@ -661,6 +958,39 @@
       "side": "BOTH"
     },
     {
+      "name": "TC4Tweaks",
+      "version": "1.4.15",
+      "tagged_at": "2022-01-27T20:13:11",
+      "repo_url": "https://github.com/GTNewHorizons/TC4Tweaks",
+      "filename": "Thaumcraft4Tweaks-1.7.10-1.4.15.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/TC4Tweaks/releases/assets/55135280",
+      "browser_download_url": "https://github.com/GTNewHorizons/TC4Tweaks/releases/download/1.4.15/Thaumcraft4Tweaks-1.7.10-1.4.15.jar",
+      "license": "GNU Affero General Public License v3.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "TCNEIAdditions",
+      "version": "1.1.0.5",
+      "tagged_at": "2022-01-27T20:31:48",
+      "repo_url": "https://github.com/GTNewHorizons/TCNEIAdditions",
+      "filename": "tcneiadditions-1.7.10-1.1.0.5.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/TCNEIAdditions/releases/assets/55136972",
+      "browser_download_url": "https://github.com/GTNewHorizons/TCNEIAdditions/releases/download/1.1.0.5/tcneiadditions-1.7.10-1.1.0.5.jar",
+      "license": "GNU General Public License v3.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "TCNodeTracker",
+      "version": "1.1.4",
+      "tagged_at": "2021-12-11T21:13:27",
+      "repo_url": "https://github.com/GTNewHorizons/TCNodeTracker",
+      "filename": "tcnodetracker-1.7.10-1.1.4.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/TCNodeTracker/releases/assets/51561525",
+      "browser_download_url": "https://github.com/GTNewHorizons/TCNodeTracker/releases/download/1.1.4/tcnodetracker-1.7.10-1.1.4.jar",
+      "license": "CC BY-NC-SA 4.0",
+      "side": "BOTH"
+    },
+    {
       "name": "TecTech",
       "version": "4.10.18",
       "tagged_at": "2022-01-29T20:29:10",
@@ -680,6 +1010,17 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/Thaumic_Exploration/releases/assets/55882587",
       "browser_download_url": "https://github.com/GTNewHorizons/Thaumic_Exploration/releases/download/1.1.83-GTNH/Thaumic-Exploration-1.7.10-1.1.83-GTNH.jar",
       "license": "Creative Commons Attribution Share Alike 4.0 International",
+      "side": "BOTH"
+    },
+    {
+      "name": "ThaumicBases",
+      "version": "1.4.27",
+      "tagged_at": "2021-12-11T00:18:51",
+      "repo_url": "https://github.com/GTNewHorizons/ThaumicBases",
+      "filename": "Thaumic-Based-1.7.10-1.4.27.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicBases/releases/assets/51513365",
+      "browser_download_url": "https://github.com/GTNewHorizons/ThaumicBases/releases/download/1.4.27/Thaumic-Based-1.7.10-1.4.27.jar",
+      "license": "Creative Commons Zero v1.0 Universal",
       "side": "BOTH"
     },
     {
@@ -749,6 +1090,17 @@
       "side": "BOTH"
     },
     {
+      "name": "VisualProspecting",
+      "version": "1.0.27b",
+      "tagged_at": "2022-01-27T20:36:04",
+      "repo_url": "https://github.com/GTNewHorizons/VisualProspecting",
+      "filename": "visualprospecting-1.7.10-1.0.27b.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/55137357",
+      "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.0.27b/visualprospecting-1.7.10-1.0.27b.jar",
+      "license": "MIT License",
+      "side": "BOTH"
+    },
+    {
       "name": "waila",
       "version": "1.5.18",
       "tagged_at": "2022-01-18T06:20:58",
@@ -756,6 +1108,28 @@
       "filename": "Waila-1.7.10-1.5.18.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/54244847",
       "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.5.18/Waila-1.7.10-1.5.18.jar",
+      "license": "CC BY-NC-SA 4.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "WailaHarvestability",
+      "version": "1.1.9-gtnh",
+      "tagged_at": "2022-01-19T19:57:23",
+      "repo_url": "https://github.com/GTNewHorizons/WailaHarvestability",
+      "filename": "WailaHarvestability-1.7.10-1.1.9-gtnh.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/WailaHarvestability/releases/assets/54402574",
+      "browser_download_url": "https://github.com/GTNewHorizons/WailaHarvestability/releases/download/1.1.9-gtnh/WailaHarvestability-1.7.10-1.1.9-gtnh.jar",
+      "license": "The Unlicense",
+      "side": "BOTH"
+    },
+    {
+      "name": "WAILAPlugins",
+      "version": "0.2.5",
+      "tagged_at": "2022-01-29T03:17:39",
+      "repo_url": "https://github.com/GTNewHorizons/WAILAPlugins",
+      "filename": "WAILAPlugins-1.7.10-0.2.5.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/WAILAPlugins/releases/assets/55261746",
+      "browser_download_url": "https://github.com/GTNewHorizons/WAILAPlugins/releases/download/0.2.5/WAILAPlugins-1.7.10-0.2.5.jar",
       "license": "CC BY-NC-SA 4.0",
       "side": "BOTH"
     },
@@ -768,6 +1142,17 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/WanionLib/releases/assets/54294287",
       "browser_download_url": "https://github.com/GTNewHorizons/WanionLib/releases/download/1.8.2/WanionLib-1.7.10-1.8.2.jar",
       "license": "Mozilla Public License 2.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "WAWLA",
+      "version": "1.1.2-GTNH",
+      "tagged_at": "2022-01-19T19:58:20",
+      "repo_url": "https://github.com/GTNewHorizons/WAWLA",
+      "filename": "Wawla-1.7.10-1.1.2-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/WAWLA/releases/assets/54402629",
+      "browser_download_url": "https://github.com/GTNewHorizons/WAWLA/releases/download/1.1.2-GTNH/Wawla-1.7.10-1.1.2-GTNH.jar",
+      "license": "GNU Lesser General Public License v2.1",
       "side": "BOTH"
     },
     {
@@ -790,6 +1175,28 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/WirelessRedstone-CBE/releases/assets/54299642",
       "browser_download_url": "https://github.com/GTNewHorizons/WirelessRedstone-CBE/releases/download/1.4.4/WR-CBE-1.7.10-1.4.4.jar",
       "license": "MIT License",
+      "side": "BOTH"
+    },
+    {
+      "name": "WitcheryExtras",
+      "version": "1.1.4",
+      "tagged_at": "2022-02-02T22:38:05",
+      "repo_url": "https://github.com/GTNewHorizons/WitcheryExtras",
+      "filename": "WitcheryExtras-1.7.10-1.1.4.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/WitcheryExtras/releases/assets/55677977",
+      "browser_download_url": "https://github.com/GTNewHorizons/WitcheryExtras/releases/download/1.1.4/WitcheryExtras-1.7.10-1.1.4.jar",
+      "license": "GNU General Public License v3.0",
+      "side": "BOTH"
+    },
+    {
+      "name": "WitchingGadgets",
+      "version": "1.2.16-GTNH",
+      "tagged_at": "2022-01-22T14:16:44",
+      "repo_url": "https://github.com/GTNewHorizons/WitchingGadgets",
+      "filename": "WitchingGadgets-1.7.10-1.2.16-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/54664884",
+      "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.2.16-GTNH/WitchingGadgets-1.7.10-1.2.16-GTNH.jar",
+      "license": "original code under custom license allowing for edit and redistribution as long as we mention original author, GTNH changes under LGPL 3.0",
       "side": "BOTH"
     },
     {
