@@ -43,6 +43,7 @@ Repos that exist in github, but are not reflected in the gtnh-modpack.json as of
  ForgeGradle
  ForgePatcher
  Forgelin
+ GT-New-Horizons-Modpack
  GTNEIOrePlugin
  GTNH-GuideBook-i18n
  GTNH-Lanthanides
