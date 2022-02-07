@@ -1,11 +1,20 @@
 #!/usr/bin/env python3
+
 from typing import Dict, Set
 
 from github import Github
-from github.GitRelease import GitRelease
 from github.Repository import Repository
-from mod_info import OTHER, UNKNOWN, GTNHModpack, ModInfo, load_gtnh_manifest
-from utils import get_all_repos, get_token
+from mod_info import GTNHModpack, ModInfo
+from defs import UNKNOWN, OTHER
+from utils import (
+    get_all_repos,
+    get_latest_release,
+    get_license,
+    get_mod_asset,
+    get_token,
+    sort_and_write_modpack,
+    load_gtnh_manifest,
+)
 
 
 class NoReleasesException(Exception):
@@ -28,10 +37,7 @@ def check_mod_for_update(all_repos: Dict[str, Repository], mod: ModInfo) -> None
         print(f"Couldn't find repo {mod.name}")
         return
 
-    latest_release: GitRelease = repo.get_latest_release()
-    if not latest_release:
-        print(f"*** No latest release found for {mod.name}")
-        return
+    latest_release = get_latest_release(repo)
 
     latest_version = latest_release.tag_name
 
@@ -41,31 +47,20 @@ def check_mod_for_update(all_repos: Dict[str, Repository], mod: ModInfo) -> None
         version_updated = True
 
     if mod.license in [UNKNOWN, OTHER]:
-        try:
-            repo_license = repo.get_license()
-            if repo_license:
-                mod.license = repo_license.license.name
-        except Exception:
-            pass
+        license = get_license(repo)
+        if license is not None:
+            mod.license = license
 
     if mod.repo_url is None:
         mod.repo_url = repo.html_url
 
     if version_updated or mod.download_url is None or mod.filename is None or mod.browser_download_url is None:
-        release_assets = latest_release.get_assets()
-        for asset in release_assets:
-            if (
-                not asset.name.endswith(".jar")
-                or asset.name.endswith("dev.jar")
-                or asset.name.endswith("sources.jar")
-                or asset.name.endswith("api.jar")
-            ):
-                continue
+        asset = get_mod_asset(latest_release)
 
-            mod.browser_download_url = asset.browser_download_url
-            mod.download_url = asset.url
-            mod.tagged_at = asset.created_at
-            mod.filename = asset.name
+        mod.browser_download_url = asset.browser_download_url
+        mod.download_url = asset.url
+        mod.tagged_at = asset.created_at
+        mod.filename = asset.name
 
 
 def check_for_missing_repos(all_repos: Dict[str, Repository], gtnh_modpack: GTNHModpack) -> Set[str]:
@@ -81,12 +76,12 @@ if __name__ == "__main__":
 
     print("Grabbing all repository information")
     all_repos = get_all_repos(o)
-    github_mods = load_gtnh_manifest()
+    gtnh = load_gtnh_manifest()
 
-    check_for_updates(all_repos, github_mods)
-    with open("updated_mods.json", "w+") as f:
-        f.write(github_mods.json(indent=2, exclude={"_github_modmap"}))
+    check_for_updates(all_repos, gtnh)
 
-    missing_repos = check_for_missing_repos(all_repos, github_mods)
+    sort_and_write_modpack(gtnh)
+
+    missing_repos = check_for_missing_repos(all_repos, gtnh)
     if len(missing_repos):
         print(f"Missing Mods: {', '.join(missing_repos)}")

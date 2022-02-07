@@ -5,15 +5,9 @@ Repos that exist in github, but are not reflected in the gtnh-modpack.json as of
  AVRcore
  AdvancedSystemsManager
  AngerMod
- ArchitectureCraft
- BON2
  BQ3-Thermos-patch
- BetterLoadingScreen
- BetterQuesting
- Binnie
  BlockLimiter
  BloodyQuests
- Botanic-horizons
  BugTorch
  BuildCraft-Localization
  CTMLib
@@ -24,23 +18,13 @@ Repos that exist in github, but are not reflected in the gtnh-modpack.json as of
  CustomGTCapeHook-Cape-List
  D3Log
  DefaultWorldGenerator
- DetravScannerMod
  DeveloperCapes
- Draconic-Evolution
- Electro-Magic-Tools
- EnderZoo
  EnhancedLootBags
- ExampleMod1.7.10
  FTB-Library
  FTB-Utilities
  FastLeafDecay
- FernFlower
- FernFlowerLegacy
  FindIt
  ForbiddenMagic
- Forestry-Localization
- ForestryAPI
- ForgeGradle
  ForgePatcher
  Forgelin
  GT-New-Horizons-Modpack
@@ -49,26 +33,15 @@ Repos that exist in github, but are not reflected in the gtnh-modpack.json as of
  GTNH-Lanthanides
  GTNH-O-Plenty
  GTNH-Soartex-Overrides
- GTNH-TC-Wands
- GTNHCogs
- Gadomancy
- GoodGenerator
  Gregtania
- Hardcore-Ender-Expansion
- Hodgepodge
  HungerOverhaul
  HydroEnergy
  IFU
- INpureCore
  ImpactArchitectureModule
- InGame-Info-XML
  Infernal-Mobs
- Irontanks
- KekzTech
  LavaMonsters
  LittleTiles
  LogisticsPipes
- LootGames
  LunatriusCore
  MBPSPatcher
  MagicBees
@@ -81,90 +54,52 @@ Repos that exist in github, but are not reflected in the gtnh-modpack.json as of
  ModTweaker
  ModTweaks
  Mods-Get-Gregged
- MyEssentials-Core
- MyPermissions
- MyTown2
- MyTown2-Client
  NEI-Integration
  NetherPortalFix
- Netty-Patcher
  NewHorizonsServerCore
  NewHorizonsTweaker
  Nodal-Mechanics
  NotEnoughProduction
  NotEnoughThaumcraftTabs
  OCGlasses
- Obama
- OpenBlocks
  OpenCC-3D-printer-models
  OpenModsLib
  Opis
  OverloadedArmorBar
- Prism
  ProjectBlue
  QuestBook
  RFExpansion
- Railcraft-API
- Railcraft-Localization
  Random-Things
  Realistic-World-Gen
- RecEx
- RedstoneFlux-1.12-Legacy
  RedstoneFlux-API
  RemoteIO
  Roguelike-Dungeons
- SGCraft
  Sanguimancy
  Schematica
  SpecialAI
  SpecialMobs
- SpiceOfLife
  SpongeMixins
  SpongePoweredMixin
- SpongePoweredMixinUpstream
  StandardQuestingPack
- Steve-s-Factory-Manager
- StevesAddons
  StorageDrawers-BiomesOPlenty
  StorageDrawers-Erebus
  StorageDrawers-Forestry
  StorageDrawers-Misc
  StorageDrawers-Natura
  Super-TiC
- TC4Tweaks
- TCNEIAdditions
- TCNodeTracker
  Tainted-Magic
  ThaumcraftMobAspects
- ThaumicBases
  ThaumicHorizons
- The-Aether-GTNH
- Thermos
  TiC-Tooltips
- TickProfiler
  Tinkers-Defense
  TinkersGregworks
  TooMuchLoot
  ToroHealth
  TravellersGear-Private
  Universal-Singularities
- VisualProspecting
- WAILAPlugins
- WAWLA
- WailaHarvestability
  WarpTheory
- Witchery
- WitcheryExtras
- WitchingGadgets
  ZenScript
- ae2stuff
  amunra
- build-system-updater
- crop-breeding-simulator
- dep_updater
- nei-custom-diagram
- neiaddons
- oauth
  supersolarpanels
  thaumcraft-api
  thaumcraft-research-tweaks
