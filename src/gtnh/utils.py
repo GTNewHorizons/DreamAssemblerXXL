@@ -62,7 +62,7 @@ def get_license(repo: Repository) -> Optional[str]:
         pass
 
     if mod_license in [None, UNKNOWN, OTHER]:
-        with open("../../licenses_from_boubou.json") as f:
+        with open(os.path.abspath(os.path.dirname(__file__)) + "/../../licenses_from_boubou.json") as f:
             manual_licenses = json.loads(f.read())
             by_url = {v["url"]: v.get("license", None) for v in manual_licenses.values()}
             mod_license = by_url.get(repo.html_url, None)
