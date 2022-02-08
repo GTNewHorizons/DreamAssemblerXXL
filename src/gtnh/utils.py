@@ -101,9 +101,14 @@ def get_mod_asset(release: GitRelease) -> GitReleaseAsset:
 
 def get_maven(mod_name: str) -> Optional[str]:
     maven_url = MAVEN_BASE_URL + mod_name + "/"
-    response = requests.head(maven_url)
+    response = requests.head(maven_url, allow_redirects=True)
 
-    return maven_url if response.status_code == 200 else None
+    if response.status_code == 200:
+        return maven_url
+    elif response.status_code >= 500:
+        raise Exception(f"Maven unreachable status: {response.status_code}")
+
+    return None
 
 
 def check_for_missing_repos(all_repos: Dict[str, Repository], gtnh_modpack: GTNHModpack) -> Set[str]:
