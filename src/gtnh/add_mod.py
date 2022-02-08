@@ -1,11 +1,20 @@
 #!/usr/bin/env python3
 
-import click
 import sys
+
+import click
 from github import Github
 from github.Repository import Repository
 from mod_info import ModInfo
-from utils import get_latest_release, get_license, get_mod_asset, get_token, sort_and_write_modpack, load_gtnh_manifest
+from utils import (
+    get_latest_release,
+    get_license,
+    get_maven,
+    get_mod_asset,
+    get_token,
+    load_gtnh_manifest,
+    sort_and_write_modpack,
+)
 
 
 class RepoNotFoundException(Exception):
@@ -51,6 +60,7 @@ def new_mod_from_repo(repo: Repository) -> ModInfo:
     latest_release = get_latest_release(repo)
     version = latest_release.tag_name
     asset = get_mod_asset(latest_release)
+    maven = get_maven(repo.name)
 
     return ModInfo(
         name=repo.name,
@@ -61,6 +71,7 @@ def new_mod_from_repo(repo: Repository) -> ModInfo:
         download_url=asset.url,
         tagged_at=asset.created_at,
         filename=asset.name,
+        maven=maven,
     )
 
 
