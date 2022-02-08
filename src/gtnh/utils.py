@@ -1,14 +1,15 @@
 import json
 import os
 from functools import cache
-from typing import Optional
+from typing import Dict, Optional, Set
 
+import requests
+from defs import BLACKLISTED_REPOS_FILE, GTNH_MODPACK_FILE, MAVEN_BASE_URL, OTHER, UNKNOWN
 from github.GitRelease import GitRelease
 from github.GitReleaseAsset import GitReleaseAsset
+from github.GithubException import UnknownObjectException
 from github.Organization import Organization
 from github.Repository import Repository
-from github.GithubException import UnknownObjectException
-from defs import GTNH_MODPACK_FILE, UNKNOWN, OTHER
 from mod_info import GTNHModpack
 
 
@@ -39,6 +40,11 @@ def modpack_manifest() -> str:
     return os.path.abspath(os.path.dirname(__file__)) + "/../../" + GTNH_MODPACK_FILE
 
 
+def get_blacklisted_repos() -> Set[str]:
+    with open(os.path.abspath(os.path.dirname(__file__)) + "/../../" + BLACKLISTED_REPOS_FILE) as f:
+        return set(json.loads(f.read()))
+
+
 def load_gtnh_manifest() -> GTNHModpack:
     with open(modpack_manifest()) as f:
         gtnh_modpack = GTNHModpack.parse_raw(f.read())
@@ -48,7 +54,7 @@ def load_gtnh_manifest() -> GTNHModpack:
 
 def sort_and_write_modpack(gtnh: GTNHModpack):
     gtnh.github_mods.sort(key=lambda m: m.name.lower())
-    with open(modpack_manifest(), 'w+') as f:
+    with open(modpack_manifest(), "w+") as f:
         f.write(gtnh.json(indent=2, exclude={"_github_modmap"}))
 
 
@@ -91,3 +97,24 @@ def get_mod_asset(release: GitRelease) -> GitReleaseAsset:
             continue
 
         return asset
+
+
+def get_maven(mod_name: str) -> Optional[str]:
+    maven_url = MAVEN_BASE_URL + mod_name + "/"
+    response = requests.head(maven_url)
+
+    return maven_url if response.status_code == 200 else None
+
+
+def check_for_missing_repos(all_repos: Dict[str, Repository], gtnh_modpack: GTNHModpack) -> Set[str]:
+    all_repo_names = set(all_repos.keys())
+    all_modpack_names = set(gtnh_modpack._github_modmap.keys())
+    blacklisted_repos = get_blacklisted_repos()
+
+    return all_repo_names - all_modpack_names - blacklisted_repos
+
+
+def check_for_missing_maven(gtnh_modpack: GTNHModpack) -> Set[str]:
+    all_modpack_names = set(k for k, v in gtnh_modpack._github_modmap.items() if v.maven is None)
+
+    return all_modpack_names
