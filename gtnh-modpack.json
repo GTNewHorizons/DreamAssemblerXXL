@@ -26,14 +26,15 @@
     },
     {
       "name": "AFSU",
-      "version": "1.2.5-GTNH",
-      "tagged_at": "2022-01-31T21:45:29",
+      "version": "1.2.6-GTNH",
+      "tagged_at": "2022-02-07T21:37:30",
       "repo_url": "https://github.com/GTNewHorizons/AFSU",
-      "filename": "AFSU-1.7.10-1.2.5-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/AFSU/releases/assets/55463128",
-      "browser_download_url": "https://github.com/GTNewHorizons/AFSU/releases/download/1.2.5-GTNH/AFSU-1.7.10-1.2.5-GTNH.jar",
+      "filename": "AFSU-1.7.10-1.2.6-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/AFSU/releases/assets/56111092",
+      "browser_download_url": "https://github.com/GTNewHorizons/AFSU/releases/download/1.2.6-GTNH/AFSU-1.7.10-1.2.6-GTNH.jar",
       "license": "MIT License",
-      "side": "BOTH"
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AFSU/"
     },
     {
       "name": "AMDIForge",
@@ -61,12 +62,12 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "version": "rv3-beta-75-GTNH",
-      "tagged_at": "2022-02-05T11:36:24",
+      "version": "rv3-beta-76-GTNH",
+      "tagged_at": "2022-02-08T21:35:54",
       "repo_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial",
-      "filename": "appliedenergistics2-1.7.10-rv3-beta-75-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/55923568",
-      "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-75-GTNH/appliedenergistics2-1.7.10-rv3-beta-75-GTNH.jar",
+      "filename": "appliedenergistics2-1.7.10-rv3-beta-76-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/56211612",
+      "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-76-GTNH/appliedenergistics2-1.7.10-rv3-beta-76-GTNH.jar",
       "license": "LGPL v3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/"
@@ -277,12 +278,12 @@
     },
     {
       "name": "BuildCraft",
-      "version": "7.1.26",
-      "tagged_at": "2022-02-06T21:17:06",
+      "version": "7.1.27",
+      "tagged_at": "2022-02-08T20:21:08",
       "repo_url": "https://github.com/GTNewHorizons/BuildCraft",
-      "filename": "buildcraft-1.7.10-7.1.26.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraft/releases/assets/56024043",
-      "browser_download_url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.26/buildcraft-1.7.10-7.1.26.jar",
+      "filename": "buildcraft-1.7.10-7.1.27.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraft/releases/assets/56205477",
+      "browser_download_url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.27/buildcraft-1.7.10-7.1.27.jar",
       "license": "Minecrat Mod Public License, MIT for the API (https://github.com/GTNewHorizons/BuildCraft)",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BuildCraft/"
@@ -308,7 +309,8 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/Catwalks-2/releases/assets/56110113",
       "browser_download_url": "https://github.com/GTNewHorizons/Catwalks-2/releases/download/2.1.2-GTNH/catwalks-1.7.10-2.1.2-GTNH.jar",
       "license": "explicit permission (german)",
-      "side": "BOTH"
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Catwalks-2/"
     },
     {
       "name": "Chisel",
@@ -408,15 +410,15 @@
     },
     {
       "name": "DetravScannerMod",
-      "version": "1.6.4",
-      "tagged_at": "2022-01-16T14:30:13",
+      "version": "1.6.5",
+      "tagged_at": "2022-02-08T23:05:20",
       "repo_url": "https://github.com/GTNewHorizons/DetravScannerMod",
-      "filename": "GT.Scanner.Mod-1.7.10-1.6.4.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/DetravScannerMod/releases/assets/54117302",
-      "browser_download_url": "https://github.com/GTNewHorizons/DetravScannerMod/releases/download/1.6.4/GT.Scanner.Mod-1.7.10-1.6.4.jar",
+      "filename": "GT.Scanner.Mod-1.7.10-1.6.5.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/DetravScannerMod/releases/assets/56217867",
+      "browser_download_url": "https://github.com/GTNewHorizons/DetravScannerMod/releases/download/1.6.5/GT.Scanner.Mod-1.7.10-1.6.5.jar",
       "license": "???",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DetravScannerMod/"
     },
     {
       "name": "Draconic-Evolution",
@@ -491,13 +493,25 @@
       "maven": null
     },
     {
+      "name": "Enklume",
+      "version": "1.1.1",
+      "tagged_at": "2022-02-08T13:26:35",
+      "repo_url": "https://github.com/GTNewHorizons/Enklume",
+      "filename": "enklume-1.7.10-1.1.1.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Enklume/releases/assets/56170761",
+      "browser_download_url": "https://github.com/GTNewHorizons/Enklume/releases/download/1.1.1/enklume-1.7.10-1.1.1.jar",
+      "license": "GNU Lesser General Public License v3.0",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Enklume/"
+    },
+    {
       "name": "ExtraCells2",
-      "version": "2.5.8",
-      "tagged_at": "2022-02-07T13:17:11",
+      "version": "2.5.9",
+      "tagged_at": "2022-02-08T22:00:16",
       "repo_url": "https://github.com/GTNewHorizons/ExtraCells2",
-      "filename": "ExtraCells-1.7.10-2.5.8.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/ExtraCells2/releases/assets/56075360",
-      "browser_download_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.8/ExtraCells-1.7.10-2.5.8.jar",
+      "filename": "ExtraCells-1.7.10-2.5.9.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ExtraCells2/releases/assets/56213386",
+      "browser_download_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.9/ExtraCells-1.7.10-2.5.9.jar",
       "license": "MIT License",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ExtraCells2/"
@@ -552,12 +566,12 @@
     },
     {
       "name": "Galacticraft",
-      "version": "3.0.38-GTNH",
-      "tagged_at": "2022-01-29T18:50:14",
+      "version": "3.0.39-GTNH",
+      "tagged_at": "2022-02-08T13:26:16",
       "repo_url": "https://github.com/GTNewHorizons/Galacticraft",
-      "filename": "Galacticraft-1.7.10-3.0.38-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/55301987",
-      "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.38-GTNH/Galacticraft-1.7.10-3.0.38-GTNH.jar",
+      "filename": "Galacticraft-1.7.10-3.0.39-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/56170735",
+      "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.39-GTNH/Galacticraft-1.7.10-3.0.39-GTNH.jar",
       "license": "explicit permission for GTNH",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Galacticraft/"
@@ -600,12 +614,12 @@
     },
     {
       "name": "GT5-Unofficial",
-      "version": "5.09.40.32",
-      "tagged_at": "2022-02-07T18:34:07",
+      "version": "5.09.40.33",
+      "tagged_at": "2022-02-08T20:39:15",
       "repo_url": "https://github.com/GTNewHorizons/GT5-Unofficial",
-      "filename": "gregtech-1.7.10-5.09.40.32.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/56098469",
-      "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.32/gregtech-1.7.10-5.09.40.32.jar",
+      "filename": "gregtech-1.7.10-5.09.40.33.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/56206871",
+      "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.33/gregtech-1.7.10-5.09.40.33.jar",
       "license": "GNU Lesser General Public License v3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/"
@@ -693,6 +707,18 @@
       "license": "GNU Lesser General Public License v3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HoloInventory/"
+    },
+    {
+      "name": "IFU",
+      "version": "1.9.2",
+      "tagged_at": "2022-02-08T21:14:26",
+      "repo_url": "https://github.com/GTNewHorizons/IFU",
+      "filename": "ifu-1.7.10-1.9.2.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/IFU/releases/assets/56209739",
+      "browser_download_url": "https://github.com/GTNewHorizons/IFU/releases/download/1.9.2/ifu-1.7.10-1.9.2.jar",
+      "license": "GNU Lesser General Public License v3.0",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/IFU/"
     },
     {
       "name": "IguanaTweaksTConstruct",
@@ -945,6 +971,18 @@
       "license": "CC0 1.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenComputers/"
+    },
+    {
+      "name": "OpenModularTurrets",
+      "version": "2.2.11-246",
+      "tagged_at": "2022-02-08T23:18:55",
+      "repo_url": "https://github.com/GTNewHorizons/OpenModularTurrets",
+      "filename": "OpenModularTurrets-1.7.10-2.2.11-246.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/OpenModularTurrets/releases/assets/56218737",
+      "browser_download_url": "https://github.com/GTNewHorizons/OpenModularTurrets/releases/download/2.2.11-246/OpenModularTurrets-1.7.10-2.2.11-246.jar",
+      "license": "GNU General Public License v3.0",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenModularTurrets/"
     },
     {
       "name": "ProjectRed",
