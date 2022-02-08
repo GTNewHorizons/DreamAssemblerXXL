@@ -1,19 +1,22 @@
 #!/usr/bin/env python3
 
-from typing import Dict, Set
+from typing import Dict
 
+from defs import OTHER, UNKNOWN
 from github import Github
 from github.Repository import Repository
 from mod_info import GTNHModpack, ModInfo
-from defs import UNKNOWN, OTHER
 from utils import (
+    check_for_missing_maven,
+    check_for_missing_repos,
     get_all_repos,
     get_latest_release,
     get_license,
+    get_maven,
     get_mod_asset,
     get_token,
-    sort_and_write_modpack,
     load_gtnh_manifest,
+    sort_and_write_modpack,
 )
 
 
@@ -54,6 +57,9 @@ def check_mod_for_update(all_repos: Dict[str, Repository], mod: ModInfo) -> None
     if mod.repo_url is None:
         mod.repo_url = repo.html_url
 
+    if mod.maven is None:
+        mod.maven = get_maven(mod.name)
+
     if version_updated or mod.download_url is None or mod.filename is None or mod.browser_download_url is None:
         asset = get_mod_asset(latest_release)
 
@@ -61,13 +67,6 @@ def check_mod_for_update(all_repos: Dict[str, Repository], mod: ModInfo) -> None
         mod.download_url = asset.url
         mod.tagged_at = asset.created_at
         mod.filename = asset.name
-
-
-def check_for_missing_repos(all_repos: Dict[str, Repository], gtnh_modpack: GTNHModpack) -> Set[str]:
-    all_repo_names = set(all_repos.keys())
-    all_modpack_names = set(gtnh_modpack._github_modmap.keys())
-
-    return all_repo_names - all_modpack_names
 
 
 if __name__ == "__main__":
@@ -84,4 +83,8 @@ if __name__ == "__main__":
 
     missing_repos = check_for_missing_repos(all_repos, gtnh)
     if len(missing_repos):
-        print(f"Missing Mods: {', '.join(missing_repos)}")
+        print(f"****** Missing Mods: {', '.join(missing_repos)}")
+
+    missing_maven = check_for_missing_maven(gtnh)
+    if len(missing_maven):
+        print(f"****** Missing Maven: {', '.join(missing_maven)}")

@@ -2,9 +2,8 @@ from datetime import datetime
 from functools import cached_property
 from typing import Dict, List, Optional
 
-from pydantic import BaseModel, Field
-
 from defs import UNKNOWN, Side
+from pydantic import BaseModel, Field
 
 
 class ModInfo(BaseModel):
@@ -17,6 +16,7 @@ class ModInfo(BaseModel):
     browser_download_url: Optional[str] = Field(default=None)
     license: str = Field(default=UNKNOWN)
     side: Side = Field(default=Side.BOTH)
+    maven: Optional[str] = Field(default=None)
 
 
 class GTNHModpack(BaseModel):
