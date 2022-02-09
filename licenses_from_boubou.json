@@ -40,7 +40,7 @@
     "license": "MIT for both binaries and source code"
   },
   "ASMHelper": {
-    "url": "https://github.com/GTNewHorizons/ASMHelper/blob/1.7.10/LICENSE",
+    "url": "https://github.com/GTNewHorizons/ASMHelper",
     "license": "unlicense (public domain)"
   },
   "Avaritia": {
@@ -104,7 +104,7 @@
     "license": "MIT"
   },
   "BON2": {
-    "url": "https://github.com/GTNewHorizons/BON2/blob/Official/LICENSE",
+    "url": "https://github.com/GTNewHorizons/BON2",
     "license": "LGPL"
   },
   "Botania": {
@@ -259,8 +259,12 @@
     "url": "https://github.com/GTNewHorizons/EnhancedLootBags",
     "license": "GPL 3.0"
   },
+  "Eternal-Singularity": {
+    "url": "https://github.com/GTNewHorizons/Eternal-Singularity",
+    "license": "explicit permissions"
+  },
   "Example Mod 1.7.10": {
-    "url": "https://github.com/GTNewHorizons/ExampleMod1.7.10/blob/main/LICENSE",
+    "url": "https://github.com/GTNewHorizons/ExampleMod1.7.10/",
     "license": "MIT"
   },
   "ExtraCells 2": {
@@ -320,7 +324,7 @@
     "license": "original code MIT, GTNH modifications LGPL"
   },
   "FTB-Utilities": {
-    "url": "https://github.com/GTNewHorizons/FTB-Utilities/blob/1.7.10/LICENSE.txt",
+    "url": "https://github.com/GTNewHorizons/FTB-Utilities",
     "license": "original code MIT, GTNH modifications LGPL"
   },
   "Gadomancy": {
@@ -530,7 +534,7 @@
     "license": "LGPL 3.0"
   },
   "Mobius Core": {
-    "url": "https://github.com/GTNewHorizons/MobiusCore/blob/modless/LICENSE.md",
+    "url": "https://github.com/GTNewHorizons/MobiusCore",
     "license": "CC BY-NC-SA 4.0"
   },
   "Mod Mixins": {
@@ -654,11 +658,11 @@
     "license": "MIT"
   },
   "Opis": {
-    "url": "https://github.com/GTNewHorizons/Opis/blob/mapless/LICENSE.md",
+    "url": "https://github.com/GTNewHorizons/Opis",
     "license": "CC BY-NC-SA 4.0"
   },
   "Overloaded Armor Bar": {
-    "url": "https://github.com/GTNewHorizons/OverloadedArmorBar/blob/1.7.10/LICENSE",
+    "url": "https://github.com/GTNewHorizons/OverloadedArmorBar",
     "license": "MIT"
   },
   "Prism": {
@@ -686,7 +690,7 @@
     "license": "explicit permissions"
   },
   "Railcraft API": {
-    "url": "https://github.com/GTNewHorizons/Railcraft-API/blob/fix/1558/LICENSE.md",
+    "url": "https://github.com/GTNewHorizons/Railcraft-API/",
     "license": "MIT"
   },
   "Railcraft localization": {
@@ -738,7 +742,7 @@
     "license": "MIT"
   },
   "SGCraft": {
-    "url": "https://github.com/GTNewHorizons/SGCraft/blob/mc1.7/LICENSE",
+    "url": "https://github.com/GTNewHorizons/SGCraft/",
     "license": "MIT"
   },
   "Sleeping Bags": {
@@ -762,7 +766,7 @@
     "license": "MIT"
   },
   "SpongePoweredMixin": {
-    "url": "https://github.com/GTNewHorizons/SpongePoweredMixin/blob/0.7.12/LICENSE.txt",
+    "url": "https://github.com/GTNewHorizons/SpongePoweredMixin",
     "license": "MIT"
   },
   "SpongePoweredMixinUpstream": {
@@ -814,7 +818,7 @@
     "license": "LGPL 3.0"
   },
   "Super Solar Panels": {
-    "url": "https://github.com/GTNewHorizons/supersolarpanels/blob/dev-1.7.10-1.4.1/LICENSE",
+    "url": "https://github.com/GTNewHorizons/supersolarpanels/",
     "license": "Mozilla Public License 2.0"
   },
   "Tainted Magic": {
@@ -838,7 +842,7 @@
     "license": "MIT"
   },
   "Thaumcraft API": {
-    "url": "https://github.com/GTNewHorizons/thaumcraft-api/blob/1.7.10/LICENSE",
+    "url": "https://github.com/GTNewHorizons/thaumcraft-api",
     "license": "MIT"
   },
   "Thaumcraft research tweaks": {
@@ -874,7 +878,7 @@
     "license": "GPL 3.0"
   },
   "Thermos": {
-    "url": "https://github.com/GTNewHorizons/Thermos/blob/1.7.10/LICENSE.txt",
+    "url": "https://github.com/GTNewHorizons/Thermos",
     "license": "GPL 3.0"
   },
   "TiC tooltips": {
@@ -882,7 +886,7 @@
     "license": "Unlicense"
   },
   "Tick Profiler": {
-    "url": "https://github.com/GTNewHorizons/TickProfiler/blob/1.7.10/LICENSE",
+    "url": "https://github.com/GTNewHorizons/TickProfiler",
     "license": "MIT"
   },
   "Tinkers Defense": {
@@ -906,7 +910,7 @@
     "license": "MIT"
   },
   "ToroHealth": {
-    "url": "https://github.com/GTNewHorizons/ToroHealth/blob/1.7.10/LICENSE",
+    "url": "https://github.com/GTNewHorizons/ToroHealth",
     "license": "GPL 3.0"
   },
   "Translocators": {
@@ -923,7 +927,7 @@
   },
   "Universal Singularities": {
     "url": "https://github.com/GTNewHorizons/Universal-Singularities",
-    "license": "???"
+    "license": "Explicit permissions"
   },
   "Visual Prospecting": {
     "url": "https://github.com/GTNewHorizons/VisualProspecting",
