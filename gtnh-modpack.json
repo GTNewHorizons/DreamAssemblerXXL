@@ -518,12 +518,12 @@
     },
     {
       "name": "FindIt",
-      "version": "1.0.3",
-      "tagged_at": "2022-02-09T19:21:52",
+      "version": "1.0.4",
+      "tagged_at": "2022-02-09T23:40:04",
       "repo_url": "https://github.com/GTNewHorizons/FindIt",
-      "filename": "findit-1.7.10-1.0.3.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/FindIt/releases/assets/56309878",
-      "browser_download_url": "https://github.com/GTNewHorizons/FindIt/releases/download/1.0.3/findit-1.7.10-1.0.3.jar",
+      "filename": "findit-1.7.10-1.0.4.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/FindIt/releases/assets/56329813",
+      "browser_download_url": "https://github.com/GTNewHorizons/FindIt/releases/download/1.0.4/findit-1.7.10-1.0.4.jar",
       "license": "MIT License",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FindIt/"
@@ -1079,6 +1079,18 @@
       "license": "MIT License",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SC2/"
+    },
+    {
+      "name": "Schematica",
+      "version": "1.8.2-GTNH",
+      "tagged_at": "2022-02-09T23:41:00",
+      "repo_url": "https://github.com/GTNewHorizons/Schematica",
+      "filename": "Schematica-1.7.10-1.8.2-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Schematica/releases/assets/56329882",
+      "browser_download_url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.8.2-GTNH/Schematica-1.7.10-1.8.2-GTNH.jar",
+      "license": "MIT License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Schematica/"
     },
     {
       "name": "SGCraft",
