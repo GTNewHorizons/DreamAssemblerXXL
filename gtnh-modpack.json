@@ -98,12 +98,12 @@
     },
     {
       "name": "Avaritia",
-      "version": "1.23",
-      "tagged_at": "2022-02-07T13:40:36",
+      "version": "1.24",
+      "tagged_at": "2022-02-09T20:35:14",
       "repo_url": "https://github.com/GTNewHorizons/Avaritia",
-      "filename": "Avaritia-1.7.10-1.2.4.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Avaritia/releases/assets/56076892",
-      "browser_download_url": "https://github.com/GTNewHorizons/Avaritia/releases/download/1.23/Avaritia-1.7.10-1.2.4.jar",
+      "filename": "Avaritia-1.7.10-1.24.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Avaritia/releases/assets/56315586",
+      "browser_download_url": "https://github.com/GTNewHorizons/Avaritia/releases/download/1.24/Avaritia-1.7.10-1.24.jar",
       "license": "MIT per https://www.curseforge.com/project/233785/license",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Avaritia/"
@@ -206,15 +206,15 @@
     },
     {
       "name": "BetterQuesting",
-      "version": "3.0.353-GTNH",
-      "tagged_at": "2022-02-07T20:22:37",
+      "version": "3.0.355-GTNH",
+      "tagged_at": "2022-02-09T21:04:33",
       "repo_url": "https://github.com/GTNewHorizons/BetterQuesting",
-      "filename": "BetterQuesting-1.7.10-3.0.353-GTNH-api2.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/56105580",
-      "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.353-GTNH/BetterQuesting-1.7.10-3.0.353-GTNH-api2.jar",
+      "filename": "BetterQuesting-1.7.10-3.0.355-GTNH-api2.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/56318293",
+      "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.355-GTNH/BetterQuesting-1.7.10-3.0.355-GTNH-api2.jar",
       "license": "MIT License",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/"
     },
     {
       "name": "Binnie",
@@ -517,6 +517,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ExtraCells2/"
     },
     {
+      "name": "FindIt",
+      "version": "1.0.3",
+      "tagged_at": "2022-02-09T19:21:52",
+      "repo_url": "https://github.com/GTNewHorizons/FindIt",
+      "filename": "findit-1.7.10-1.0.3.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/FindIt/releases/assets/56309878",
+      "browser_download_url": "https://github.com/GTNewHorizons/FindIt/releases/download/1.0.3/findit-1.7.10-1.0.3.jar",
+      "license": "MIT License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FindIt/"
+    },
+    {
       "name": "ForestryMC",
       "version": "4.4.5",
       "tagged_at": "2022-01-19T20:26:07",
@@ -662,15 +674,15 @@
     },
     {
       "name": "Hardcore-Ender-Expansion",
-      "version": "1.9.1-GTNH",
-      "tagged_at": "2022-01-16T14:39:16",
+      "version": "1.9.2-GTNH",
+      "tagged_at": "2022-02-09T21:07:52",
       "repo_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion",
-      "filename": "HardcoreEnderExpansion-1.7.10-1.9.1-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/54117693",
-      "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.9.1-GTNH/HardcoreEnderExpansion-1.7.10-1.9.1-GTNH.jar",
+      "filename": "HardcoreEnderExpansion-1.7.10-1.9.2-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/56318664",
+      "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.9.2-GTNH/HardcoreEnderExpansion-1.7.10-1.9.2-GTNH.jar",
       "license": "Explicit permissions",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hardcore-Ender-Expansion/"
     },
     {
       "name": "harvestcraft",
@@ -830,15 +842,27 @@
     },
     {
       "name": "LootGames",
-      "version": "2.0.4",
-      "tagged_at": "2022-01-16T17:03:35",
+      "version": "2.0.5",
+      "tagged_at": "2022-02-09T21:25:23",
       "repo_url": "https://github.com/GTNewHorizons/LootGames",
-      "filename": "lootgames-1.7.10-2.0.4.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/LootGames/releases/assets/54124220",
-      "browser_download_url": "https://github.com/GTNewHorizons/LootGames/releases/download/2.0.4/lootgames-1.7.10-2.0.4.jar",
+      "filename": "lootgames-1.7.10-2.0.5.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/LootGames/releases/assets/56320179",
+      "browser_download_url": "https://github.com/GTNewHorizons/LootGames/releases/download/2.0.5/lootgames-1.7.10-2.0.5.jar",
       "license": "ARR for people outside of the NH organization, might need some clarifications",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LootGames/"
+    },
+    {
+      "name": "LunatriusCore",
+      "version": "1.1.5-GTNH",
+      "tagged_at": "2022-02-09T19:51:08",
+      "repo_url": "https://github.com/GTNewHorizons/LunatriusCore",
+      "filename": "LunatriusCore-1.7.10-1.1.5-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/LunatriusCore/releases/assets/56311781",
+      "browser_download_url": "https://github.com/GTNewHorizons/LunatriusCore/releases/download/1.1.5-GTNH/LunatriusCore-1.7.10-1.1.5-GTNH.jar",
+      "license": "MIT License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LunatriusCore/"
     },
     {
       "name": "Mantle",
@@ -949,6 +973,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Nuclear-Control/"
     },
     {
+      "name": "OCGlasses",
+      "version": "1.2.2-GTNH",
+      "tagged_at": "2022-02-08T18:59:32",
+      "repo_url": "https://github.com/GTNewHorizons/OCGlasses",
+      "filename": "openglases-1.7.10-1.2.2-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/OCGlasses/releases/assets/56199912",
+      "browser_download_url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.2.2-GTNH/openglases-1.7.10-1.2.2-GTNH.jar",
+      "license": "MIT License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OCGlasses/"
+    },
+    {
       "name": "OpenBlocks",
       "version": "1.6.7",
       "tagged_at": "2021-12-02T19:45:38",
@@ -983,6 +1019,18 @@
       "license": "GNU General Public License v3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenModularTurrets/"
+    },
+    {
+      "name": "Opis",
+      "version": "1.3.3-mapless",
+      "tagged_at": "2022-02-09T17:12:07",
+      "repo_url": "https://github.com/GTNewHorizons/Opis",
+      "filename": "Opis-1.7.10-1.3.3-mapless.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Opis/releases/assets/56300556",
+      "browser_download_url": "https://github.com/GTNewHorizons/Opis/releases/download/1.3.3-mapless/Opis-1.7.10-1.3.3-mapless.jar",
+      "license": "CC BY-NC-SA 4.0",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Opis/"
     },
     {
       "name": "ProjectRed",
@@ -1031,6 +1079,18 @@
       "license": "MIT License",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SC2/"
+    },
+    {
+      "name": "SGCraft",
+      "version": "1.3.12-GTNH",
+      "tagged_at": "2022-02-09T16:07:56",
+      "repo_url": "https://github.com/GTNewHorizons/SGCraft",
+      "filename": "SGCraft-1.7.10-1.3.12-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/SGCraft/releases/assets/56296056",
+      "browser_download_url": "https://github.com/GTNewHorizons/SGCraft/releases/download/1.3.12-GTNH/SGCraft-1.7.10-1.3.12-GTNH.jar",
+      "license": "MIT License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SGCraft/"
     },
     {
       "name": "SleepingBags",
@@ -1189,6 +1249,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicEnergistics/"
     },
     {
+      "name": "ThaumicHorizons",
+      "version": "1.2.1.2",
+      "tagged_at": "2022-02-09T17:23:18",
+      "repo_url": "https://github.com/GTNewHorizons/ThaumicHorizons",
+      "filename": "ThaumicHorizons-1.7.10-1.2.1.2.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicHorizons/releases/assets/56301291",
+      "browser_download_url": "https://github.com/GTNewHorizons/ThaumicHorizons/releases/download/1.2.1.2/ThaumicHorizons-1.7.10-1.2.1.2.jar",
+      "license": "**ARR according to curseforge (https://www.curseforge.com/minecraft/mc-mods/thaumic-horizons)**",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicHorizons/"
+    },
+    {
       "name": "ThaumicTinkerer",
       "version": "2.6.2",
       "tagged_at": "2022-01-24T20:31:34",
@@ -1249,16 +1321,28 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/twilightforest/"
     },
     {
+      "name": "Universal-Singularities",
+      "version": "8.6.4",
+      "tagged_at": "2022-02-08T22:06:34",
+      "repo_url": "https://github.com/GTNewHorizons/Universal-Singularities",
+      "filename": "universalsingularities-1.7.10-8.6.4.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Universal-Singularities/releases/assets/56213688",
+      "browser_download_url": "https://github.com/GTNewHorizons/Universal-Singularities/releases/download/8.6.4/universalsingularities-1.7.10-8.6.4.jar",
+      "license": "Explicit permissions",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Universal-Singularities/"
+    },
+    {
       "name": "VisualProspecting",
-      "version": "1.0.27b",
-      "tagged_at": "2022-01-27T20:36:04",
+      "version": "1.0.28",
+      "tagged_at": "2022-02-09T16:13:06",
       "repo_url": "https://github.com/GTNewHorizons/VisualProspecting",
-      "filename": "visualprospecting-1.7.10-1.0.27b.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/55137357",
-      "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.0.27b/visualprospecting-1.7.10-1.0.27b.jar",
+      "filename": "visualprospecting-1.7.10-1.0.28.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/56296495",
+      "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.0.28/visualprospecting-1.7.10-1.0.28.jar",
       "license": "MIT License",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/VisualProspecting/"
     },
     {
       "name": "waila",
