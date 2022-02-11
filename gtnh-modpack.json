@@ -746,15 +746,15 @@
     },
     {
       "name": "InGame-Info-XML",
-      "version": "2.8.1.85",
-      "tagged_at": "2020-03-23T20:33:26",
+      "version": "2.8.3.90",
+      "tagged_at": "2022-02-10T22:19:12",
       "repo_url": "https://github.com/GTNewHorizons/InGame-Info-XML",
-      "filename": "InGameInfoXML-1.7.10-2.8.1.85-universal.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/InGame-Info-XML/releases/assets/18927259",
-      "browser_download_url": "https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.8.1.85/InGameInfoXML-1.7.10-2.8.1.85-universal.jar",
+      "filename": "InGameInfoXML-1.7.10-2.8.3.89.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/InGame-Info-XML/releases/assets/56436396",
+      "browser_download_url": "https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.8.3.90/InGameInfoXML-1.7.10-2.8.3.89.jar",
       "license": "MIT License",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/InGame-Info-XML/"
     },
     {
       "name": "INpureCore",
@@ -806,15 +806,15 @@
     },
     {
       "name": "Irontanks",
-      "version": "1.2.4",
-      "tagged_at": "2021-12-11T18:47:29",
+      "version": "1.2.6",
+      "tagged_at": "2022-02-10T16:45:24",
       "repo_url": "https://github.com/GTNewHorizons/Irontanks",
-      "filename": "irontanks-1.7.10-1.2.4.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Irontanks/releases/assets/51554658",
-      "browser_download_url": "https://github.com/GTNewHorizons/Irontanks/releases/download/1.2.4/irontanks-1.7.10-1.2.4.jar",
+      "filename": "irontanks-1.7.10-1.2.6.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Irontanks/releases/assets/56407424",
+      "browser_download_url": "https://github.com/GTNewHorizons/Irontanks/releases/download/1.2.6/irontanks-1.7.10-1.2.6.jar",
       "license": "MIT License",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Irontanks/"
     },
     {
       "name": "Jabba",
@@ -890,27 +890,27 @@
     },
     {
       "name": "nei-custom-diagram",
-      "version": "1.4.4.3",
-      "tagged_at": "2022-02-02T22:06:42",
+      "version": "1.4.4.4",
+      "tagged_at": "2022-02-10T16:44:17",
       "repo_url": "https://github.com/GTNewHorizons/nei-custom-diagram",
-      "filename": "NEICustomDiagram-1.7.10-1.4.4.3.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/nei-custom-diagram/releases/assets/55675441",
-      "browser_download_url": "https://github.com/GTNewHorizons/nei-custom-diagram/releases/download/1.4.4.3/NEICustomDiagram-1.7.10-1.4.4.3.jar",
+      "filename": "NEICustomDiagram-1.7.10-1.4.4.4.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/nei-custom-diagram/releases/assets/56407318",
+      "browser_download_url": "https://github.com/GTNewHorizons/nei-custom-diagram/releases/download/1.4.4.4/NEICustomDiagram-1.7.10-1.4.4.4.jar",
       "license": "LGPL 3.0",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/nei-custom-diagram/"
     },
     {
       "name": "neiaddons",
-      "version": "1.12.18",
-      "tagged_at": "2022-01-16T17:17:59",
+      "version": "1.12.19",
+      "tagged_at": "2022-02-10T16:48:46",
       "repo_url": "https://github.com/GTNewHorizons/neiaddons",
-      "filename": "NEIAddons-1.7.10-1.12.18.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/neiaddons/releases/assets/54124811",
-      "browser_download_url": "https://github.com/GTNewHorizons/neiaddons/releases/download/1.12.18/NEIAddons-1.7.10-1.12.18.jar",
+      "filename": "NEIAddons-1.7.10-1.12.19.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/neiaddons/releases/assets/56407625",
+      "browser_download_url": "https://github.com/GTNewHorizons/neiaddons/releases/download/1.12.19/NEIAddons-1.7.10-1.12.19.jar",
       "license": "MMPL 1.0",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/neiaddons/"
     },
     {
       "name": "Netty-Patcher",
@@ -1082,12 +1082,12 @@
     },
     {
       "name": "Schematica",
-      "version": "1.8.2-GTNH",
-      "tagged_at": "2022-02-09T23:41:00",
+      "version": "1.8.4-GTNH",
+      "tagged_at": "2022-02-10T22:19:46",
       "repo_url": "https://github.com/GTNewHorizons/Schematica",
-      "filename": "Schematica-1.7.10-1.8.2-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Schematica/releases/assets/56329882",
-      "browser_download_url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.8.2-GTNH/Schematica-1.7.10-1.8.2-GTNH.jar",
+      "filename": "Schematica-1.7.10-1.8.3-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Schematica/releases/assets/56436456",
+      "browser_download_url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.8.4-GTNH/Schematica-1.7.10-1.8.3-GTNH.jar",
       "license": "MIT License",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Schematica/"
@@ -1154,12 +1154,12 @@
     },
     {
       "name": "StorageDrawers",
-      "version": "1.11.11-GTNH",
-      "tagged_at": "2022-01-18T07:46:07",
+      "version": "1.11.13-GTNH",
+      "tagged_at": "2022-02-10T16:30:09",
       "repo_url": "https://github.com/GTNewHorizons/StorageDrawers",
-      "filename": "StorageDrawers-1.7.10-1.11.11-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/54250043",
-      "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.11-GTNH/StorageDrawers-1.7.10-1.11.11-GTNH.jar",
+      "filename": "StorageDrawers-1.7.10-1.11.13-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/56406113",
+      "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.13-GTNH/StorageDrawers-1.7.10-1.11.13-GTNH.jar",
       "license": "GNU Lesser General Public License v3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers/"
@@ -1238,15 +1238,15 @@
     },
     {
       "name": "ThaumicBases",
-      "version": "1.4.27",
-      "tagged_at": "2021-12-11T00:18:51",
+      "version": "1.4.28",
+      "tagged_at": "2022-02-10T16:42:22",
       "repo_url": "https://github.com/GTNewHorizons/ThaumicBases",
-      "filename": "Thaumic-Based-1.7.10-1.4.27.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicBases/releases/assets/51513365",
-      "browser_download_url": "https://github.com/GTNewHorizons/ThaumicBases/releases/download/1.4.27/Thaumic-Based-1.7.10-1.4.27.jar",
+      "filename": "Thaumic-Based-1.7.10-1.4.28.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicBases/releases/assets/56407189",
+      "browser_download_url": "https://github.com/GTNewHorizons/ThaumicBases/releases/download/1.4.28/Thaumic-Based-1.7.10-1.4.28.jar",
       "license": "Creative Commons Zero v1.0 Universal",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicBases/"
     },
     {
       "name": "ThaumicEnergistics",
@@ -1274,12 +1274,12 @@
     },
     {
       "name": "ThaumicTinkerer",
-      "version": "2.6.2",
-      "tagged_at": "2022-01-24T20:31:34",
+      "version": "2.6.3",
+      "tagged_at": "2022-02-11T00:46:59",
       "repo_url": "https://github.com/GTNewHorizons/ThaumicTinkerer",
-      "filename": "ThaumicTinkerer-1.7.10-2.6.2.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicTinkerer/releases/assets/54845453",
-      "browser_download_url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.6.2/ThaumicTinkerer-1.7.10-2.6.2.jar",
+      "filename": "ThaumicTinkerer-1.7.10-2.6.3.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicTinkerer/releases/assets/56449166",
+      "browser_download_url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.6.3/ThaumicTinkerer-1.7.10-2.6.3.jar",
       "license": "CC BY-NC-SA 3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicTinkerer/"
@@ -1334,12 +1334,12 @@
     },
     {
       "name": "Universal-Singularities",
-      "version": "8.6.4",
-      "tagged_at": "2022-02-08T22:06:34",
+      "version": "8.6.5",
+      "tagged_at": "2022-02-10T16:29:01",
       "repo_url": "https://github.com/GTNewHorizons/Universal-Singularities",
-      "filename": "universalsingularities-1.7.10-8.6.4.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Universal-Singularities/releases/assets/56213688",
-      "browser_download_url": "https://github.com/GTNewHorizons/Universal-Singularities/releases/download/8.6.4/universalsingularities-1.7.10-8.6.4.jar",
+      "filename": "Universal-Singularities-1.7.10-8.6.5.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Universal-Singularities/releases/assets/56406020",
+      "browser_download_url": "https://github.com/GTNewHorizons/Universal-Singularities/releases/download/8.6.5/Universal-Singularities-1.7.10-8.6.5.jar",
       "license": "Explicit permissions",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Universal-Singularities/"
@@ -1358,12 +1358,12 @@
     },
     {
       "name": "waila",
-      "version": "1.5.18",
-      "tagged_at": "2022-01-18T06:20:58",
+      "version": "1.5.19",
+      "tagged_at": "2022-02-10T16:31:38",
       "repo_url": "https://github.com/GTNewHorizons/waila",
-      "filename": "Waila-1.7.10-1.5.18.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/54244847",
-      "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.5.18/Waila-1.7.10-1.5.18.jar",
+      "filename": "Waila-1.7.10-1.5.19.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/56406473",
+      "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.5.19/Waila-1.7.10-1.5.19.jar",
       "license": "CC BY-NC-SA 4.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/waila/"
@@ -1442,15 +1442,15 @@
     },
     {
       "name": "WitcheryExtras",
-      "version": "1.1.4",
-      "tagged_at": "2022-02-02T22:38:05",
+      "version": "1.1.5",
+      "tagged_at": "2022-02-10T16:30:42",
       "repo_url": "https://github.com/GTNewHorizons/WitcheryExtras",
-      "filename": "WitcheryExtras-1.7.10-1.1.4.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/WitcheryExtras/releases/assets/55677977",
-      "browser_download_url": "https://github.com/GTNewHorizons/WitcheryExtras/releases/download/1.1.4/WitcheryExtras-1.7.10-1.1.4.jar",
+      "filename": "WitcheryExtras-1.7.10-1.1.5.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/WitcheryExtras/releases/assets/56406228",
+      "browser_download_url": "https://github.com/GTNewHorizons/WitcheryExtras/releases/download/1.1.5/WitcheryExtras-1.7.10-1.1.5.jar",
       "license": "GNU General Public License v3.0",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WitcheryExtras/"
     },
     {
       "name": "WitchingGadgets",
