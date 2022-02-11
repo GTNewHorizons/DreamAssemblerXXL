@@ -134,12 +134,12 @@
     },
     {
       "name": "Battlegear2",
-      "version": "1.1.1.8",
-      "tagged_at": "2022-02-04T20:00:49",
+      "version": "1.1.1.9",
+      "tagged_at": "2022-02-11T15:01:44",
       "repo_url": "https://github.com/GTNewHorizons/Battlegear2",
-      "filename": "battlegear2-1.7.10-1.1.1.8.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Battlegear2/releases/assets/55873164",
-      "browser_download_url": "https://github.com/GTNewHorizons/Battlegear2/releases/download/1.1.1.8/battlegear2-1.7.10-1.1.1.8.jar",
+      "filename": "battlegear2-1.7.10-1.1.1.9.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Battlegear2/releases/assets/56516784",
+      "browser_download_url": "https://github.com/GTNewHorizons/Battlegear2/releases/download/1.1.1.9/battlegear2-1.7.10-1.1.1.9.jar",
       "license": "GNU General Public License v3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Battlegear2/"
@@ -326,12 +326,12 @@
     },
     {
       "name": "CodeChickenCore",
-      "version": "1.1.3",
-      "tagged_at": "2022-01-18T04:25:19",
+      "version": "1.1.4",
+      "tagged_at": "2022-02-11T16:26:07",
       "repo_url": "https://github.com/GTNewHorizons/CodeChickenCore",
-      "filename": "CodeChickenCore-1.7.10-1.1.3.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/CodeChickenCore/releases/assets/54239571",
-      "browser_download_url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.1.3/CodeChickenCore-1.7.10-1.1.3.jar",
+      "filename": "CodeChickenCore-1.7.10-1.1.4.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/CodeChickenCore/releases/assets/56524540",
+      "browser_download_url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.1.4/CodeChickenCore-1.7.10-1.1.4.jar",
       "license": "MIT License",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CodeChickenCore/"
@@ -554,15 +554,15 @@
     },
     {
       "name": "Gadomancy",
-      "version": "1.0.8.4",
-      "tagged_at": "2022-01-16T13:13:32",
+      "version": "1.0.8.5",
+      "tagged_at": "2022-02-11T16:27:06",
       "repo_url": "https://github.com/GTNewHorizons/Gadomancy",
-      "filename": "gadomancy-1.7.10-1.0.8.4.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Gadomancy/releases/assets/54113659",
-      "browser_download_url": "https://github.com/GTNewHorizons/Gadomancy/releases/download/1.0.8.4/gadomancy-1.7.10-1.0.8.4.jar",
+      "filename": "gadomancy-1.7.10-1.0.8.5.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Gadomancy/releases/assets/56524608",
+      "browser_download_url": "https://github.com/GTNewHorizons/Gadomancy/releases/download/1.0.8.5/gadomancy-1.7.10-1.0.8.5.jar",
       "license": "GNU Lesser General Public License v3.0",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Gadomancy/"
     },
     {
       "name": "GalacticGregGT5",
@@ -770,12 +770,12 @@
     },
     {
       "name": "inventory-tweaks",
-      "version": "1.5.13",
-      "tagged_at": "2022-01-18T06:23:26",
+      "version": "1.5.14",
+      "tagged_at": "2022-02-11T15:11:32",
       "repo_url": "https://github.com/GTNewHorizons/inventory-tweaks",
-      "filename": "inventorytweaks-1.7.10-1.5.13.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/inventory-tweaks/releases/assets/54245030",
-      "browser_download_url": "https://github.com/GTNewHorizons/inventory-tweaks/releases/download/1.5.13/inventorytweaks-1.7.10-1.5.13.jar",
+      "filename": "inventorytweaks-1.7.10-1.5.14.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/inventory-tweaks/releases/assets/56518102",
+      "browser_download_url": "https://github.com/GTNewHorizons/inventory-tweaks/releases/download/1.5.14/inventorytweaks-1.7.10-1.5.14.jar",
       "license": "MIT",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/inventory-tweaks/"
@@ -950,12 +950,12 @@
     },
     {
       "name": "NotEnoughItems",
-      "version": "2.2.6-GTNH",
-      "tagged_at": "2022-02-07T20:14:20",
+      "version": "2.2.7-GTNH",
+      "tagged_at": "2022-02-11T16:28:10",
       "repo_url": "https://github.com/GTNewHorizons/NotEnoughItems",
-      "filename": "NotEnoughItems-1.7.10-2.2.6-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/56105002",
-      "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.6-GTNH/NotEnoughItems-1.7.10-2.2.6-GTNH.jar",
+      "filename": "NotEnoughItems-1.7.10-2.2.7-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/56524720",
+      "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.7-GTNH/NotEnoughItems-1.7.10-2.2.7-GTNH.jar",
       "license": "original code MIT, GTNH changes LGPL 3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/"
@@ -974,12 +974,12 @@
     },
     {
       "name": "OCGlasses",
-      "version": "1.2.2-GTNH",
-      "tagged_at": "2022-02-08T18:59:32",
+      "version": "1.2.3-GTNH",
+      "tagged_at": "2022-02-11T16:25:31",
       "repo_url": "https://github.com/GTNewHorizons/OCGlasses",
-      "filename": "openglases-1.7.10-1.2.2-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/OCGlasses/releases/assets/56199912",
-      "browser_download_url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.2.2-GTNH/openglases-1.7.10-1.2.2-GTNH.jar",
+      "filename": "OpenGlasses-1.7.10-1.2.3-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/OCGlasses/releases/assets/56524485",
+      "browser_download_url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.2.3-GTNH/OpenGlasses-1.7.10-1.2.3-GTNH.jar",
       "license": "MIT License",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OCGlasses/"
@@ -1126,7 +1126,7 @@
       "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/v.2.0.0-carrot-beta10/SpiceOfLife-1.7.10-v.2.0.0-carrot-beta10.jar",
       "license": "original code under unlicense, GTNH changes LGPL 3.0",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SpiceOfLife/"
     },
     {
       "name": "Steve-s-Factory-Manager",
@@ -1378,7 +1378,7 @@
       "browser_download_url": "https://github.com/GTNewHorizons/WailaHarvestability/releases/download/1.1.9-gtnh/WailaHarvestability-1.7.10-1.1.9-gtnh.jar",
       "license": "The Unlicense",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WailaHarvestability/"
     },
     {
       "name": "WAILAPlugins",
