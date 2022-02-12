@@ -1160,7 +1160,7 @@
       "filename": "SpiceOfLife-1.7.10-2.0.1-carrot.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/56520728",
       "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.0.1-carrot/SpiceOfLife-1.7.10-2.0.1-carrot.jar",
-      "license": "original code under unlicense, GTNH changes LGPL 3.0",
+      "license": "",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SpiceOfLife/"
     },
