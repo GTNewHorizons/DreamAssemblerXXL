@@ -529,6 +529,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FindIt/"
     },
     {
+      "name": "ForbiddenMagic",
+      "version": "0.6.2-GTNH",
+      "tagged_at": "2022-02-12T21:27:51",
+      "repo_url": "https://github.com/GTNewHorizons/ForbiddenMagic",
+      "filename": "Forbidden.Magic-1.7.10-0.6.2-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ForbiddenMagic/releases/assets/56640195",
+      "browser_download_url": "https://github.com/GTNewHorizons/ForbiddenMagic/releases/download/0.6.2-GTNH/Forbidden.Magic-1.7.10-0.6.2-GTNH.jar",
+      "license": "Do What The F*ck You Want To Public License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForbiddenMagic/"
+    },
+    {
       "name": "ForestryMC",
       "version": "4.4.6",
       "tagged_at": "2022-02-12T21:18:02",
@@ -1142,12 +1154,12 @@
     },
     {
       "name": "SpiceOfLife",
-      "version": "v.2.0.0-carrot-beta10",
-      "tagged_at": "2022-01-17T07:30:07",
+      "version": "2.0.1-carrot",
+      "tagged_at": "2022-02-11T15:44:53",
       "repo_url": "https://github.com/GTNewHorizons/SpiceOfLife",
-      "filename": "SpiceOfLife-1.7.10-v.2.0.0-carrot-beta10.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/54166574",
-      "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/v.2.0.0-carrot-beta10/SpiceOfLife-1.7.10-v.2.0.0-carrot-beta10.jar",
+      "filename": "SpiceOfLife-1.7.10-2.0.1-carrot.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/56520728",
+      "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.0.1-carrot/SpiceOfLife-1.7.10-2.0.1-carrot.jar",
       "license": "original code under unlicense, GTNH changes LGPL 3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SpiceOfLife/"
@@ -1562,15 +1574,15 @@
     },
     {
       "name": "WitchingGadgets",
-      "version": "1.2.16-GTNH",
-      "tagged_at": "2022-01-22T14:16:44",
+      "version": "1.2.17-GTNH",
+      "tagged_at": "2022-02-12T22:20:31",
       "repo_url": "https://github.com/GTNewHorizons/WitchingGadgets",
-      "filename": "WitchingGadgets-1.7.10-1.2.16-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/54664884",
-      "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.2.16-GTNH/WitchingGadgets-1.7.10-1.2.16-GTNH.jar",
+      "filename": "WitchingGadgets-1.7.10-1.2.17-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/56643954",
+      "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.2.17-GTNH/WitchingGadgets-1.7.10-1.2.17-GTNH.jar",
       "license": "original code under custom license allowing for edit and redistribution as long as we mention original author, GTNH changes under LGPL 3.0",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WitchingGadgets/"
     },
     {
       "name": "Yamcl",
