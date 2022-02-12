@@ -14,15 +14,15 @@
     },
     {
       "name": "ae2stuff",
-      "version": "0.5.1.13-GTNH",
-      "tagged_at": "2021-12-20T22:06:25",
+      "version": "0.5.1.14-GTNH",
+      "tagged_at": "2022-02-12T21:27:18",
       "repo_url": "https://github.com/GTNewHorizons/ae2stuff",
-      "filename": "ae2stuff-1.7.10-0.5.1.13-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/ae2stuff/releases/assets/52233431",
-      "browser_download_url": "https://github.com/GTNewHorizons/ae2stuff/releases/download/0.5.1.13-GTNH/ae2stuff-1.7.10-0.5.1.13-GTNH.jar",
+      "filename": "ae2stuff-1.7.10-0.5.1.14-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ae2stuff/releases/assets/56640146",
+      "browser_download_url": "https://github.com/GTNewHorizons/ae2stuff/releases/download/0.5.1.14-GTNH/ae2stuff-1.7.10-0.5.1.14-GTNH.jar",
       "license": "MMPL",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ae2stuff/"
     },
     {
       "name": "AFSU",
@@ -182,24 +182,24 @@
     },
     {
       "name": "BetterLoadingScreen",
-      "version": "1.3.31-GTNH",
-      "tagged_at": "2021-12-20T23:00:31",
+      "version": "1.3.32-GTNH",
+      "tagged_at": "2022-02-12T21:31:41",
       "repo_url": "https://github.com/GTNewHorizons/BetterLoadingScreen",
-      "filename": "betterloadingscreen-1.7.10-1.3.31-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/52235824",
-      "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.31-GTNH/betterloadingscreen-1.7.10-1.3.31-GTNH.jar",
+      "filename": "betterloadingscreen-1.7.10-1.3.32-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/56640497",
+      "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.32-GTNH/betterloadingscreen-1.7.10-1.3.32-GTNH.jar",
       "license": "GNU General Public License v2.0",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/"
     },
     {
       "name": "BetterP2P",
-      "version": "1.0.5",
-      "tagged_at": "2022-02-07T19:12:59",
+      "version": "1.0.6",
+      "tagged_at": "2022-02-12T21:30:35",
       "repo_url": "https://github.com/GTNewHorizons/BetterP2P",
-      "filename": "betterp2p-1.7.10-1.0.5.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/BetterP2P/releases/assets/56100712",
-      "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.0.5/betterp2p-1.7.10-1.0.5.jar",
+      "filename": "betterp2p-1.7.10-1.0.6.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/BetterP2P/releases/assets/56640432",
+      "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.0.6/betterp2p-1.7.10-1.0.6.jar",
       "license": "GNU General Public License v3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterP2P/"
@@ -434,15 +434,15 @@
     },
     {
       "name": "Electro-Magic-Tools",
-      "version": "1.2.8.6",
-      "tagged_at": "2022-01-20T19:29:31",
+      "version": "1.2.8.7",
+      "tagged_at": "2022-02-12T21:22:24",
       "repo_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools",
-      "filename": "EMT-1.7.10-1.2.8.6.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/54498765",
-      "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.2.8.6/EMT-1.7.10-1.2.8.6.jar",
+      "filename": "EMT-1.7.10-1.2.8.7.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/56639772",
+      "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.2.8.7/EMT-1.7.10-1.2.8.7.jar",
       "license": "GPL 3.0",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Electro-Magic-Tools/"
     },
     {
       "name": "EnderCore",
@@ -458,12 +458,12 @@
     },
     {
       "name": "EnderIO",
-      "version": "2.3.1.29",
-      "tagged_at": "2022-02-06T23:36:35",
+      "version": "2.3.1.30",
+      "tagged_at": "2022-02-12T21:30:37",
       "repo_url": "https://github.com/GTNewHorizons/EnderIO",
-      "filename": "EnderIO-1.7.10-2.3.1.29.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/56031293",
-      "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.29/EnderIO-1.7.10-2.3.1.29.jar",
+      "filename": "EnderIO-1.7.10-2.3.1.30.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/56640435",
+      "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.30/EnderIO-1.7.10-2.3.1.30.jar",
       "license": "original code unlicensed, GTNH modifications are LGPL 3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/"
@@ -530,12 +530,12 @@
     },
     {
       "name": "ForestryMC",
-      "version": "4.4.5",
-      "tagged_at": "2022-01-19T20:26:07",
+      "version": "4.4.6",
+      "tagged_at": "2022-02-12T21:18:02",
       "repo_url": "https://github.com/GTNewHorizons/ForestryMC",
-      "filename": "Forestry-1.7.10-4.4.5.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/54404864",
-      "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.4.5/Forestry-1.7.10-4.4.5.jar",
+      "filename": "Forestry-1.7.10-4.4.6.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/56639436",
+      "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.4.6/Forestry-1.7.10-4.4.6.jar",
       "license": "LGPL 3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForestryMC/"
@@ -719,6 +719,18 @@
       "license": "GNU Lesser General Public License v3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HoloInventory/"
+    },
+    {
+      "name": "HungerOverhaul",
+      "version": "1.0.4-GTNH",
+      "tagged_at": "2022-02-12T21:32:08",
+      "repo_url": "https://github.com/GTNewHorizons/HungerOverhaul",
+      "filename": "HungerOverhaul-1.7.10-1.0.4-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/HungerOverhaul/releases/assets/56640514",
+      "browser_download_url": "https://github.com/GTNewHorizons/HungerOverhaul/releases/download/1.0.4-GTNH/HungerOverhaul-1.7.10-1.0.4-GTNH.jar",
+      "license": "ARR",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HungerOverhaul/"
     },
     {
       "name": "IFU",
@@ -1033,6 +1045,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Opis/"
     },
     {
+      "name": "OverloadedArmorBar",
+      "version": "1.0.1",
+      "tagged_at": "2022-02-12T21:18:55",
+      "repo_url": "https://github.com/GTNewHorizons/OverloadedArmorBar",
+      "filename": "overloadedarmorbar-1.7.10-1.0.1.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/OverloadedArmorBar/releases/assets/56639479",
+      "browser_download_url": "https://github.com/GTNewHorizons/OverloadedArmorBar/releases/download/1.0.1/overloadedarmorbar-1.7.10-1.0.1.jar",
+      "license": "MIT License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OverloadedArmorBar/"
+    },
+    {
       "name": "ProjectRed",
       "version": "4.7.4",
       "tagged_at": "2022-01-18T19:34:23",
@@ -1165,6 +1189,54 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers/"
     },
     {
+      "name": "StorageDrawers-BiomesOPlenty",
+      "version": "1.11.11-GTNH",
+      "tagged_at": "2022-02-12T21:26:20",
+      "repo_url": "https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty",
+      "filename": "StorageDrawersBop-1.7.10-1.11.11-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-BiomesOPlenty/releases/assets/56640071",
+      "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty/releases/download/1.11.11-GTNH/StorageDrawersBop-1.7.10-1.11.11-GTNH.jar",
+      "license": "MIT License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers-BiomesOPlenty/"
+    },
+    {
+      "name": "StorageDrawers-Forestry",
+      "version": "1.11.11-GTNH",
+      "tagged_at": "2022-02-12T21:26:22",
+      "repo_url": "https://github.com/GTNewHorizons/StorageDrawers-Forestry",
+      "filename": "StorageDrawersForestry-1.7.10-1.11.11-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Forestry/releases/assets/56640074",
+      "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Forestry/releases/download/1.11.11-GTNH/StorageDrawersForestry-1.7.10-1.11.11-GTNH.jar",
+      "license": "MIT License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers-Forestry/"
+    },
+    {
+      "name": "StorageDrawers-Misc",
+      "version": "1.11.11-GTNH",
+      "tagged_at": "2022-02-12T21:23:58",
+      "repo_url": "https://github.com/GTNewHorizons/StorageDrawers-Misc",
+      "filename": "StorageDrawersMisc-1.7.10-1.11.11-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Misc/releases/assets/56639898",
+      "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Misc/releases/download/1.11.11-GTNH/StorageDrawersMisc-1.7.10-1.11.11-GTNH.jar",
+      "license": "MIT License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers-Misc/"
+    },
+    {
+      "name": "StorageDrawers-Natura",
+      "version": "1.11.11-GTNH",
+      "tagged_at": "2022-02-12T21:24:17",
+      "repo_url": "https://github.com/GTNewHorizons/StorageDrawers-Natura",
+      "filename": "StorageDrawersNatura-1.7.10-1.11.11-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Natura/releases/assets/56639953",
+      "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Natura/releases/download/1.11.11-GTNH/StorageDrawersNatura-1.7.10-1.11.11-GTNH.jar",
+      "license": "MIT License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers-Natura/"
+    },
+    {
       "name": "StructureLib",
       "version": "1.0.15",
       "tagged_at": "2022-01-19T10:49:36",
@@ -1175,6 +1247,30 @@
       "license": "MIT",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StructureLib/"
+    },
+    {
+      "name": "Super-TiC",
+      "version": "1.2.2",
+      "tagged_at": "2022-02-12T21:18:20",
+      "repo_url": "https://github.com/GTNewHorizons/Super-TiC",
+      "filename": "SuperTic-1.7.10-1.2.2.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Super-TiC/releases/assets/56639458",
+      "browser_download_url": "https://github.com/GTNewHorizons/Super-TiC/releases/download/1.2.2/SuperTic-1.7.10-1.2.2.jar",
+      "license": "GNU Lesser General Public License v3.0",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Super-TiC/"
+    },
+    {
+      "name": "Tainted-Magic",
+      "version": "8.1.1.1-GTNH",
+      "tagged_at": "2022-02-12T21:28:53",
+      "repo_url": "https://github.com/GTNewHorizons/Tainted-Magic",
+      "filename": "Tainted-Magic-1.7.10-8.1.1.1-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Tainted-Magic/releases/assets/56640280",
+      "browser_download_url": "https://github.com/GTNewHorizons/Tainted-Magic/releases/download/8.1.1.1-GTNH/Tainted-Magic-1.7.10-8.1.1.1-GTNH.jar",
+      "license": "CC BY-NC-ND 4.0",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Tainted-Magic/"
     },
     {
       "name": "TC4Tweaks",
@@ -1309,6 +1405,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersMechworks/"
     },
     {
+      "name": "ToroHealth",
+      "version": "1.0.1",
+      "tagged_at": "2022-02-12T21:23:00",
+      "repo_url": "https://github.com/GTNewHorizons/ToroHealth",
+      "filename": "torohealth-1.7.10-1.0.1.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ToroHealth/releases/assets/56639791",
+      "browser_download_url": "https://github.com/GTNewHorizons/ToroHealth/releases/download/1.0.1/torohealth-1.7.10-1.0.1.jar",
+      "license": "GNU General Public License v3.0",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ToroHealth/"
+    },
+    {
       "name": "Translocators",
       "version": "1.1.2.19",
       "tagged_at": "2022-01-18T07:59:08",
@@ -1406,15 +1514,15 @@
     },
     {
       "name": "WAWLA",
-      "version": "1.1.2-GTNH",
-      "tagged_at": "2022-01-19T19:58:20",
+      "version": "1.1.3-GTNH",
+      "tagged_at": "2022-02-12T21:29:20",
       "repo_url": "https://github.com/GTNewHorizons/WAWLA",
-      "filename": "Wawla-1.7.10-1.1.2-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/WAWLA/releases/assets/54402629",
-      "browser_download_url": "https://github.com/GTNewHorizons/WAWLA/releases/download/1.1.2-GTNH/Wawla-1.7.10-1.1.2-GTNH.jar",
+      "filename": "Wawla-1.7.10-1.1.3-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/WAWLA/releases/assets/56640319",
+      "browser_download_url": "https://github.com/GTNewHorizons/WAWLA/releases/download/1.1.3-GTNH/Wawla-1.7.10-1.1.3-GTNH.jar",
       "license": "GNU Lesser General Public License v2.1",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WAWLA/"
     },
     {
       "name": "WirelessCraftingTerminal",
