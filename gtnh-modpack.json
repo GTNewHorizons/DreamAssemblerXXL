@@ -698,15 +698,15 @@
     },
     {
       "name": "Hodgepodge",
-      "version": "1.6.23",
-      "tagged_at": "2022-01-17T07:10:45",
+      "version": "1.7.0",
+      "tagged_at": "2022-02-12T04:54:53",
       "repo_url": "https://github.com/GTNewHorizons/Hodgepodge",
-      "filename": "hodgepodge-1.7.10-1.6.23.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/54165517",
-      "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/1.6.23/hodgepodge-1.7.10-1.6.23.jar",
+      "filename": "hodgepodge-1.7.10-1.7.0.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/56578793",
+      "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/1.7.0/hodgepodge-1.7.10-1.7.0.jar",
       "license": "GNU Lesser General Public License v3.0",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/"
     },
     {
       "name": "HoloInventory",
