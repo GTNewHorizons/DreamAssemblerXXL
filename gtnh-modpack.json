@@ -57,7 +57,7 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/56693282",
       "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.10/amunra-1.7.10-0.4.10.jar",
       "license": "MIT License",
-      "side": "BOTH",
+      "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/"
     },
     {
@@ -753,7 +753,7 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/HungerOverhaul/releases/assets/56640514",
       "browser_download_url": "https://github.com/GTNewHorizons/HungerOverhaul/releases/download/1.0.4-GTNH/HungerOverhaul-1.7.10-1.0.4-GTNH.jar",
       "license": "ARR",
-      "side": "BOTH",
+      "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HungerOverhaul/"
     },
     {
