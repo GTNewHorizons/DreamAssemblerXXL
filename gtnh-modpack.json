@@ -662,15 +662,15 @@
     },
     {
       "name": "GTNH-TC-Wands",
-      "version": "1.2.5",
-      "tagged_at": "2021-12-20T21:53:52",
+      "version": "1.2.6",
+      "tagged_at": "2022-02-13T14:31:04",
       "repo_url": "https://github.com/GTNewHorizons/GTNH-TC-Wands",
-      "filename": "GTNH-TC-Wands-1.7.10-1.2.5.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-TC-Wands/releases/assets/52232601",
-      "browser_download_url": "https://github.com/GTNewHorizons/GTNH-TC-Wands/releases/download/1.2.5/GTNH-TC-Wands-1.7.10-1.2.5.jar",
+      "filename": "GTNH-TC-Wands-1.7.10-1.2.6.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-TC-Wands/releases/assets/56699630",
+      "browser_download_url": "https://github.com/GTNewHorizons/GTNH-TC-Wands/releases/download/1.2.6/GTNH-TC-Wands-1.7.10-1.2.6.jar",
       "license": "Do What The F*ck You Want To Public License",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-TC-Wands/"
     },
     {
       "name": "GTplusplus",
