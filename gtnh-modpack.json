@@ -577,6 +577,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForgeMultipart/"
     },
     {
+      "name": "FTB-Library",
+      "version": "1.0.18.4",
+      "tagged_at": "2022-02-13T18:39:57",
+      "repo_url": "https://github.com/GTNewHorizons/FTB-Library",
+      "filename": "FTBLib-1.7.10-1.0.18.4.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/FTB-Library/releases/assets/56714967",
+      "browser_download_url": "https://github.com/GTNewHorizons/FTB-Library/releases/download/1.0.18.4/FTBLib-1.7.10-1.0.18.4.jar",
+      "license": "original code MIT, GTNH modifications LGPL",
+      "side": "NONE",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FTB-Library/"
+    },
+    {
       "name": "Gadomancy",
       "version": "1.0.8.5",
       "tagged_at": "2022-02-11T16:27:06",
