@@ -62,27 +62,27 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "version": "rv3-beta-76-GTNH",
-      "tagged_at": "2022-02-08T21:35:54",
+      "version": "rv3-beta-77-GTNH",
+      "tagged_at": "2022-02-13T04:47:06",
       "repo_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial",
-      "filename": "appliedenergistics2-1.7.10-rv3-beta-76-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/56211612",
-      "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-76-GTNH/appliedenergistics2-1.7.10-rv3-beta-76-GTNH.jar",
+      "filename": "appliedenergistics2-1.7.10-rv3-beta-77-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/56666635",
+      "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-77-GTNH/appliedenergistics2-1.7.10-rv3-beta-77-GTNH.jar",
       "license": "LGPL v3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/"
     },
     {
       "name": "ArchitectureCraft",
-      "version": "1.7.5",
-      "tagged_at": "2022-02-03T19:11:05",
+      "version": "1.7.6",
+      "tagged_at": "2022-02-12T22:45:08",
       "repo_url": "https://github.com/GTNewHorizons/ArchitectureCraft",
-      "filename": "ArchitectureCraft-1.7.10-1.7.5.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/ArchitectureCraft/releases/assets/55768805",
-      "browser_download_url": "https://github.com/GTNewHorizons/ArchitectureCraft/releases/download/1.7.5/ArchitectureCraft-1.7.10-1.7.5.jar",
+      "filename": "ArchitectureCraft-1.7.10-1.7.6.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ArchitectureCraft/releases/assets/56645810",
+      "browser_download_url": "https://github.com/GTNewHorizons/ArchitectureCraft/releases/download/1.7.6/ArchitectureCraft-1.7.10-1.7.6.jar",
       "license": "MIT License",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ArchitectureCraft/"
     },
     {
       "name": "AsieLib",
