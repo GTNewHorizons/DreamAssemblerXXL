@@ -35,7 +35,6 @@
   "ZenScript",
   "ProjectBlue",
   "WarpTheory",
-  "Realistic-World-Gen",
   "build-system-updater",
   "MBPSPatcher",
   "MyTown2-Client",
@@ -45,7 +44,6 @@
   "Alfheim",
   "MicdoodleCore",
   "AdvancedSystemsManager",
-  "HungerOverhaul",
   "MyTown2",
   "thaumcraft-api",
   "MyPermissions",
@@ -58,7 +56,6 @@
   "GTNH-GuideBook-i18n",
   "Prism",
   "AVRcore",
-  "amunra",
   "Railcraft-Localization",
   "MobiusCore",
   "Thermos",
@@ -73,5 +70,6 @@
   "GTNewHorizons-3.0",
   "FastLeafDecay",
   "NotEnoughThaumcraftTabs",
-  "Railcraft-API"
+  "Railcraft-API",
+  "GTSU"
 ]
