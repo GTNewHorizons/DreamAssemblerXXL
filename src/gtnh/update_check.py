@@ -39,7 +39,7 @@ def check_mod_for_update(all_repos: Dict[str, Repository], mod: ModInfo) -> None
     print(f"Checking {mod.name}:{mod.version} for updates")
     repo = all_repos.get(mod.name, None)
     if repo is None:
-        print(f"Couldn't find repo {mod.name}")
+        print(f"{Fore.RED}Couldn't find repo {Style.DIM}{mod.name}")
         return
 
     latest_release = get_latest_release(repo)
@@ -87,8 +87,8 @@ if __name__ == "__main__":
 
     missing_repos = check_for_missing_repos(all_repos, gtnh)
     if len(missing_repos):
-        print(f"****** Missing Mods: {', '.join(sorted(missing_repos))}")
+        print(f"{Fore.RED}****** Missing Mods:{Style.RESET_ALL} {', '.join(sorted(missing_repos))}")
 
     missing_maven = check_for_missing_maven(gtnh)
     if len(missing_maven):
-        print(f"****** Missing Maven: {', '.join(sorted(missing_maven))}")
+        print(f"{Fore.RED}****** Missing Maven:{Style.RESET_ALL} {', '.join(sorted(missing_maven))}")
