@@ -61,6 +61,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/"
     },
     {
+      "name": "AngerMod",
+      "version": "0.6.3",
+      "tagged_at": "2022-02-14T21:02:26",
+      "repo_url": "https://github.com/GTNewHorizons/AngerMod",
+      "filename": "AngerMod-1.7.10-0.6.3.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/AngerMod/releases/assets/56828265",
+      "browser_download_url": "https://github.com/GTNewHorizons/AngerMod/releases/download/0.6.3/AngerMod-1.7.10-0.6.3.jar",
+      "license": "Do What The F*ck You Want To Public License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AngerMod/"
+    },
+    {
       "name": "AppleCore",
       "version": "3.1.9",
       "tagged_at": "2022-02-02T23:36:11",
@@ -241,6 +253,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Binnie/"
     },
     {
+      "name": "BlockLimiter",
+      "version": "0.55",
+      "tagged_at": "2022-02-14T21:01:47",
+      "repo_url": "https://github.com/GTNewHorizons/BlockLimiter",
+      "filename": "BlockLimiter-1.7.10-0.55.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/BlockLimiter/releases/assets/56828211",
+      "browser_download_url": "https://github.com/GTNewHorizons/BlockLimiter/releases/download/0.55/BlockLimiter-1.7.10-0.55.jar",
+      "license": "Do What The F*ck You Want To Public License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BlockLimiter/"
+    },
+    {
       "name": "BloodArsenal",
       "version": "1.2.4",
       "tagged_at": "2022-02-05T21:57:19",
@@ -278,15 +302,15 @@
     },
     {
       "name": "Botanic-horizons",
-      "version": "1.0.3-GTNH",
-      "tagged_at": "2022-02-02T22:51:30",
+      "version": "1.0.4-GTNH",
+      "tagged_at": "2022-02-14T21:18:55",
       "repo_url": "https://github.com/GTNewHorizons/Botanic-horizons",
-      "filename": "BotanicHorizons-1.7.10-1.0.3-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/55678890",
-      "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.3-GTNH/BotanicHorizons-1.7.10-1.0.3-GTNH.jar",
+      "filename": "BotanicHorizons-1.7.10-1.0.4-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/56830258",
+      "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.4-GTNH/BotanicHorizons-1.7.10-1.0.4-GTNH.jar",
       "license": "CC:BY-NC-SA 4.0, special permission given to GTNH",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botanic-horizons/"
     },
     {
       "name": "BuildCraft",
@@ -1382,27 +1406,27 @@
     },
     {
       "name": "TCNEIAdditions",
-      "version": "1.1.0.5",
-      "tagged_at": "2022-01-27T20:31:48",
+      "version": "1.1.0.6",
+      "tagged_at": "2022-02-14T20:59:34",
       "repo_url": "https://github.com/GTNewHorizons/TCNEIAdditions",
-      "filename": "tcneiadditions-1.7.10-1.1.0.5.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/TCNEIAdditions/releases/assets/55136972",
-      "browser_download_url": "https://github.com/GTNewHorizons/TCNEIAdditions/releases/download/1.1.0.5/tcneiadditions-1.7.10-1.1.0.5.jar",
+      "filename": "tcneiadditions-1.7.10-1.1.0.6.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/TCNEIAdditions/releases/assets/56828055",
+      "browser_download_url": "https://github.com/GTNewHorizons/TCNEIAdditions/releases/download/1.1.0.6/tcneiadditions-1.7.10-1.1.0.6.jar",
       "license": "GNU General Public License v3.0",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TCNEIAdditions/"
     },
     {
       "name": "TCNodeTracker",
-      "version": "1.1.4",
-      "tagged_at": "2021-12-11T21:13:27",
+      "version": "1.1.5",
+      "tagged_at": "2022-02-14T21:00:17",
       "repo_url": "https://github.com/GTNewHorizons/TCNodeTracker",
-      "filename": "tcnodetracker-1.7.10-1.1.4.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/TCNodeTracker/releases/assets/51561525",
-      "browser_download_url": "https://github.com/GTNewHorizons/TCNodeTracker/releases/download/1.1.4/tcnodetracker-1.7.10-1.1.4.jar",
+      "filename": "tcnodetracker-1.7.10-1.1.5.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/TCNodeTracker/releases/assets/56828116",
+      "browser_download_url": "https://github.com/GTNewHorizons/TCNodeTracker/releases/download/1.1.5/tcnodetracker-1.7.10-1.1.5.jar",
       "license": "CC BY-NC-SA 4.0",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TCNodeTracker/"
     },
     {
       "name": "TecTech",
@@ -1415,6 +1439,18 @@
       "license": "MIT",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/"
+    },
+    {
+      "name": "thaumcraft-research-tweaks",
+      "version": "1.0.3",
+      "tagged_at": "2022-02-14T21:04:50",
+      "repo_url": "https://github.com/GTNewHorizons/thaumcraft-research-tweaks",
+      "filename": "ThaumcraftResearchTweaks-1.7.10-1.0.3.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/thaumcraft-research-tweaks/releases/assets/56828487",
+      "browser_download_url": "https://github.com/GTNewHorizons/thaumcraft-research-tweaks/releases/download/1.0.3/ThaumcraftResearchTweaks-1.7.10-1.0.3.jar",
+      "license": "MIT License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/thaumcraft-research-tweaks/"
     },
     {
       "name": "Thaumic_Exploration",
@@ -1466,12 +1502,12 @@
     },
     {
       "name": "ThaumicTinkerer",
-      "version": "2.6.3",
-      "tagged_at": "2022-02-11T00:46:59",
+      "version": "2.6.4",
+      "tagged_at": "2022-02-14T21:04:24",
       "repo_url": "https://github.com/GTNewHorizons/ThaumicTinkerer",
-      "filename": "ThaumicTinkerer-1.7.10-2.6.3.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicTinkerer/releases/assets/56449166",
-      "browser_download_url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.6.3/ThaumicTinkerer-1.7.10-2.6.3.jar",
+      "filename": "ThaumicTinkerer-1.7.10-2.6.4.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicTinkerer/releases/assets/56828449",
+      "browser_download_url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.6.4/ThaumicTinkerer-1.7.10-2.6.4.jar",
       "license": "CC BY-NC-SA 3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicTinkerer/"
