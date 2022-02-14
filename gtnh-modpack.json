@@ -578,12 +578,12 @@
     },
     {
       "name": "FTB-Library",
-      "version": "1.0.18.4",
-      "tagged_at": "2022-02-13T18:39:57",
+      "version": "1.0.18.5-GTNH",
+      "tagged_at": "2022-02-13T21:55:42",
       "repo_url": "https://github.com/GTNewHorizons/FTB-Library",
-      "filename": "FTBLib-1.7.10-1.0.18.4.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/FTB-Library/releases/assets/56714967",
-      "browser_download_url": "https://github.com/GTNewHorizons/FTB-Library/releases/download/1.0.18.4/FTBLib-1.7.10-1.0.18.4.jar",
+      "filename": "FTBLib-1.7.10-1.0.18.5-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/FTB-Library/releases/assets/56728332",
+      "browser_download_url": "https://github.com/GTNewHorizons/FTB-Library/releases/download/1.0.18.5-GTNH/FTBLib-1.7.10-1.0.18.5-GTNH.jar",
       "license": "original code MIT, GTNH modifications LGPL",
       "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FTB-Library/"
