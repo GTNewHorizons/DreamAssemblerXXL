@@ -213,7 +213,7 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/56640497",
       "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.32-GTNH/betterloadingscreen-1.7.10-1.3.32-GTNH.jar",
       "license": "GNU General Public License v2.0",
-      "side": "BOTH",
+      "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/"
     },
     {
@@ -837,7 +837,7 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/InGame-Info-XML/releases/assets/56436396",
       "browser_download_url": "https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.8.3.90/InGameInfoXML-1.7.10-2.8.3.89.jar",
       "license": "MIT License",
-      "side": "BOTH",
+      "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/InGame-Info-XML/"
     },
     {
@@ -1005,7 +1005,7 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/Netty-Patcher/releases/assets/56698166",
       "browser_download_url": "https://github.com/GTNewHorizons/Netty-Patcher/releases/download/0.3.1/NettyPatch-1.7.10-0.3.1.jar",
       "license": "GNU General Public License v3.0",
-      "side": "BOTH",
+      "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Netty-Patcher/"
     },
     {
@@ -1137,7 +1137,7 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/OverloadedArmorBar/releases/assets/56639479",
       "browser_download_url": "https://github.com/GTNewHorizons/OverloadedArmorBar/releases/download/1.0.1/overloadedarmorbar-1.7.10-1.0.1.jar",
       "license": "MIT License",
-      "side": "BOTH",
+      "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OverloadedArmorBar/"
     },
     {
@@ -1413,7 +1413,7 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/TCNEIAdditions/releases/assets/56828055",
       "browser_download_url": "https://github.com/GTNewHorizons/TCNEIAdditions/releases/download/1.1.0.6/tcneiadditions-1.7.10-1.1.0.6.jar",
       "license": "GNU General Public License v3.0",
-      "side": "BOTH",
+      "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TCNEIAdditions/"
     },
     {
@@ -1425,7 +1425,7 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/TCNodeTracker/releases/assets/56828116",
       "browser_download_url": "https://github.com/GTNewHorizons/TCNodeTracker/releases/download/1.1.5/tcnodetracker-1.7.10-1.1.5.jar",
       "license": "CC BY-NC-SA 4.0",
-      "side": "BOTH",
+      "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TCNodeTracker/"
     },
     {
@@ -1545,7 +1545,7 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/ToroHealth/releases/assets/56639791",
       "browser_download_url": "https://github.com/GTNewHorizons/ToroHealth/releases/download/1.0.1/torohealth-1.7.10-1.0.1.jar",
       "license": "GNU General Public License v3.0",
-      "side": "BOTH",
+      "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ToroHealth/"
     },
     {
