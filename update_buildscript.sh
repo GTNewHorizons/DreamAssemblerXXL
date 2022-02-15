@@ -7,6 +7,6 @@ curl https://raw.githubusercontent.com/GTNewHorizons/ExampleMod1.7.10/main/.gith
 curl https://raw.githubusercontent.com/GTNewHorizons/ExampleMod1.7.10/main/.github/workflows/build-and-test.yml -o .github/workflows/build-and-test.yml -sS && echo "Build and Test action downloaded"
 curl https://raw.githubusercontent.com/GTNewHorizons/ExampleMod1.7.10/main/.editorconfig -o .editorconfig -sS && echo "editorconfig downloaded"
 
-git add CODEOWNERS .github/scripts/test-no-error-reports.sh .github/workflows/release-tags.yml .github/workflows/build-and-test.yml build.gradle && echo "Everything added to git"
+git add CODEOWNERS .github/scripts/test-no-error-reports.sh .github/workflows/release-tags.yml .github/workflows/build-and-test.yml .editorconfig build.gradle && echo "Everything added to git"
 git update-index --chmod=+x .github/scripts/test-no-error-reports.sh && chmod +x .github/scripts/test-no-error-reports.sh
 git update-index --chmod=+x gradlew && chmod +x gradlew
