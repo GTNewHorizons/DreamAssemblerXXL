@@ -422,12 +422,12 @@
     },
     {
       "name": "CropLoadCore",
-      "version": "0.1.8",
-      "tagged_at": "2022-02-02T23:08:26",
+      "version": "0.1.9",
+      "tagged_at": "2022-02-16T20:36:33",
       "repo_url": "https://github.com/GTNewHorizons/CropLoadCore",
-      "filename": "CropLoadCore-1.7.10-0.1.8.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/CropLoadCore/releases/assets/55679944",
-      "browser_download_url": "https://github.com/GTNewHorizons/CropLoadCore/releases/download/0.1.8/CropLoadCore-1.7.10-0.1.8.jar",
+      "filename": "CropLoadCore-1.7.10-0.1.9.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/CropLoadCore/releases/assets/57062561",
+      "browser_download_url": "https://github.com/GTNewHorizons/CropLoadCore/releases/download/0.1.9/CropLoadCore-1.7.10-0.1.9.jar",
       "license": "GNU Lesser General Public License v3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CropLoadCore/"
@@ -1082,15 +1082,15 @@
     },
     {
       "name": "OpenBlocks",
-      "version": "1.6.7",
-      "tagged_at": "2021-12-02T19:45:38",
+      "version": "1.6.8-GTNH",
+      "tagged_at": "2022-02-16T20:31:02",
       "repo_url": "https://github.com/GTNewHorizons/OpenBlocks",
-      "filename": "OpenBlocks-1.7.10-1.6.7.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/50858690",
-      "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.6.7/OpenBlocks-1.7.10-1.6.7.jar",
+      "filename": "OpenBlocks-1.7.10-1.6.8-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/57062114",
+      "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.6.8-GTNH/OpenBlocks-1.7.10-1.6.8-GTNH.jar",
       "license": "MIT",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenBlocks/"
     },
     {
       "name": "OpenComputers",
@@ -1298,15 +1298,15 @@
     },
     {
       "name": "StevesAddons",
-      "version": "0.10.21",
-      "tagged_at": "2022-01-29T20:09:20",
+      "version": "0.10.22",
+      "tagged_at": "2022-02-16T19:02:01",
       "repo_url": "https://github.com/GTNewHorizons/StevesAddons",
-      "filename": "StevesAddons-1.7.10-0.10.21.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/StevesAddons/releases/assets/55305431",
-      "browser_download_url": "https://github.com/GTNewHorizons/StevesAddons/releases/download/0.10.21/StevesAddons-1.7.10-0.10.21.jar",
+      "filename": "StevesAddons-1.7.10-0.10.22.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/StevesAddons/releases/assets/57054692",
+      "browser_download_url": "https://github.com/GTNewHorizons/StevesAddons/releases/download/0.10.22/StevesAddons-1.7.10-0.10.22.jar",
       "license": "Don't be a jerk license",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StevesAddons/"
     },
     {
       "name": "StorageDrawers",
