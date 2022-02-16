@@ -61,6 +61,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/"
     },
     {
+      "name": "AngerMod",
+      "version": "0.6.3",
+      "tagged_at": "2022-02-14T21:02:26",
+      "repo_url": "https://github.com/GTNewHorizons/AngerMod",
+      "filename": "AngerMod-1.7.10-0.6.3.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/AngerMod/releases/assets/56828265",
+      "browser_download_url": "https://github.com/GTNewHorizons/AngerMod/releases/download/0.6.3/AngerMod-1.7.10-0.6.3.jar",
+      "license": "Do What The F*ck You Want To Public License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AngerMod/"
+    },
+    {
       "name": "AppleCore",
       "version": "3.1.9",
       "tagged_at": "2022-02-02T23:36:11",
@@ -201,7 +213,7 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/56640497",
       "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.32-GTNH/betterloadingscreen-1.7.10-1.3.32-GTNH.jar",
       "license": "GNU General Public License v2.0",
-      "side": "BOTH",
+      "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/"
     },
     {
@@ -241,6 +253,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Binnie/"
     },
     {
+      "name": "BlockLimiter",
+      "version": "0.55",
+      "tagged_at": "2022-02-14T21:01:47",
+      "repo_url": "https://github.com/GTNewHorizons/BlockLimiter",
+      "filename": "BlockLimiter-1.7.10-0.55.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/BlockLimiter/releases/assets/56828211",
+      "browser_download_url": "https://github.com/GTNewHorizons/BlockLimiter/releases/download/0.55/BlockLimiter-1.7.10-0.55.jar",
+      "license": "Do What The F*ck You Want To Public License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BlockLimiter/"
+    },
+    {
       "name": "BloodArsenal",
       "version": "1.2.4",
       "tagged_at": "2022-02-05T21:57:19",
@@ -278,15 +302,15 @@
     },
     {
       "name": "Botanic-horizons",
-      "version": "1.0.3-GTNH",
-      "tagged_at": "2022-02-02T22:51:30",
+      "version": "1.0.4-GTNH",
+      "tagged_at": "2022-02-14T21:18:55",
       "repo_url": "https://github.com/GTNewHorizons/Botanic-horizons",
-      "filename": "BotanicHorizons-1.7.10-1.0.3-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/55678890",
-      "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.3-GTNH/BotanicHorizons-1.7.10-1.0.3-GTNH.jar",
+      "filename": "BotanicHorizons-1.7.10-1.0.4-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/56830258",
+      "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.4-GTNH/BotanicHorizons-1.7.10-1.0.4-GTNH.jar",
       "license": "CC:BY-NC-SA 4.0, special permission given to GTNH",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botanic-horizons/"
     },
     {
       "name": "BuildCraft",
@@ -398,12 +422,12 @@
     },
     {
       "name": "CropLoadCore",
-      "version": "0.1.8",
-      "tagged_at": "2022-02-02T23:08:26",
+      "version": "0.1.9",
+      "tagged_at": "2022-02-16T20:36:33",
       "repo_url": "https://github.com/GTNewHorizons/CropLoadCore",
-      "filename": "CropLoadCore-1.7.10-0.1.8.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/CropLoadCore/releases/assets/55679944",
-      "browser_download_url": "https://github.com/GTNewHorizons/CropLoadCore/releases/download/0.1.8/CropLoadCore-1.7.10-0.1.8.jar",
+      "filename": "CropLoadCore-1.7.10-0.1.9.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/CropLoadCore/releases/assets/57062561",
+      "browser_download_url": "https://github.com/GTNewHorizons/CropLoadCore/releases/download/0.1.9/CropLoadCore-1.7.10-0.1.9.jar",
       "license": "GNU Lesser General Public License v3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CropLoadCore/"
@@ -674,12 +698,12 @@
     },
     {
       "name": "GT5-Unofficial",
-      "version": "5.09.40.34",
-      "tagged_at": "2022-02-11T17:18:50",
+      "version": "5.09.40.35",
+      "tagged_at": "2022-02-15T17:27:57",
       "repo_url": "https://github.com/GTNewHorizons/GT5-Unofficial",
-      "filename": "gregtech-1.7.10-5.09.40.34.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/56529019",
-      "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.34/gregtech-1.7.10-5.09.40.34.jar",
+      "filename": "gregtech-1.7.10-5.09.40.35.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/56924509",
+      "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.35/gregtech-1.7.10-5.09.40.35.jar",
       "license": "GNU Lesser General Public License v3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/"
@@ -698,12 +722,12 @@
     },
     {
       "name": "GTplusplus",
-      "version": "1.7.27",
-      "tagged_at": "2022-01-30T16:12:46",
+      "version": "1.7.28",
+      "tagged_at": "2022-02-15T17:47:41",
       "repo_url": "https://github.com/GTNewHorizons/GTplusplus",
-      "filename": "GT-PlusPlus-1.7.10-1.7.27.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/55360320",
-      "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.27/GT-PlusPlus-1.7.10-1.7.27.jar",
+      "filename": "GT-PlusPlus-1.7.10-1.7.28.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/56926311",
+      "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.28/GT-PlusPlus-1.7.10-1.7.28.jar",
       "license": "GNU General Public License v3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/"
@@ -813,7 +837,7 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/InGame-Info-XML/releases/assets/56436396",
       "browser_download_url": "https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.8.3.90/InGameInfoXML-1.7.10-2.8.3.89.jar",
       "license": "MIT License",
-      "side": "BOTH",
+      "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/InGame-Info-XML/"
     },
     {
@@ -981,7 +1005,7 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/Netty-Patcher/releases/assets/56698166",
       "browser_download_url": "https://github.com/GTNewHorizons/Netty-Patcher/releases/download/0.3.1/NettyPatch-1.7.10-0.3.1.jar",
       "license": "GNU General Public License v3.0",
-      "side": "BOTH",
+      "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Netty-Patcher/"
     },
     {
@@ -1033,6 +1057,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Nuclear-Control/"
     },
     {
+      "name": "oauth",
+      "version": "1.06.1-GTNH",
+      "tagged_at": "2022-02-16T17:51:58",
+      "repo_url": "https://github.com/GTNewHorizons/oauth",
+      "filename": "oauth-1.7.10-1.06.1-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/oauth/releases/assets/57049118",
+      "browser_download_url": "https://github.com/GTNewHorizons/oauth/releases/download/1.06.1-GTNH/oauth-1.7.10-1.06.1-GTNH.jar",
+      "license": "GNU General Public License v3.0",
+      "side": "CLIENT",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/oauth/"
+    },
+    {
       "name": "OCGlasses",
       "version": "1.2.3-GTNH",
       "tagged_at": "2022-02-11T16:25:31",
@@ -1046,15 +1082,15 @@
     },
     {
       "name": "OpenBlocks",
-      "version": "1.6.7",
-      "tagged_at": "2021-12-02T19:45:38",
+      "version": "1.6.8-GTNH",
+      "tagged_at": "2022-02-16T20:31:02",
       "repo_url": "https://github.com/GTNewHorizons/OpenBlocks",
-      "filename": "OpenBlocks-1.7.10-1.6.7.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/50858690",
-      "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.6.7/OpenBlocks-1.7.10-1.6.7.jar",
+      "filename": "OpenBlocks-1.7.10-1.6.8-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/57062114",
+      "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.6.8-GTNH/OpenBlocks-1.7.10-1.6.8-GTNH.jar",
       "license": "MIT",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenBlocks/"
     },
     {
       "name": "OpenComputers",
@@ -1113,7 +1149,7 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/OverloadedArmorBar/releases/assets/56639479",
       "browser_download_url": "https://github.com/GTNewHorizons/OverloadedArmorBar/releases/download/1.0.1/overloadedarmorbar-1.7.10-1.0.1.jar",
       "license": "MIT License",
-      "side": "BOTH",
+      "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OverloadedArmorBar/"
     },
     {
@@ -1250,27 +1286,27 @@
     },
     {
       "name": "Steve-s-Factory-Manager",
-      "version": "1.0.0-GTNH",
-      "tagged_at": "2022-01-23T20:29:06",
+      "version": "1.0.1-GTNH",
+      "tagged_at": "2022-02-16T17:53:31",
       "repo_url": "https://github.com/GTNewHorizons/Steve-s-Factory-Manager",
-      "filename": "StevesFactoryManager-1.7.10-1.0.0-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Steve-s-Factory-Manager/releases/assets/54751386",
-      "browser_download_url": "https://github.com/GTNewHorizons/Steve-s-Factory-Manager/releases/download/1.0.0-GTNH/StevesFactoryManager-1.7.10-1.0.0-GTNH.jar",
+      "filename": "StevesFactoryManager-1.7.10-1.0.1-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Steve-s-Factory-Manager/releases/assets/57049308",
+      "browser_download_url": "https://github.com/GTNewHorizons/Steve-s-Factory-Manager/releases/download/1.0.1-GTNH/StevesFactoryManager-1.7.10-1.0.1-GTNH.jar",
       "license": "MIT - granted permissions by mod author to anyone that have access to the source code: https://twitter.com/Steves_Carts/status/795197105849729024",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Steve-s-Factory-Manager/"
     },
     {
       "name": "StevesAddons",
-      "version": "0.10.21",
-      "tagged_at": "2022-01-29T20:09:20",
+      "version": "0.10.22",
+      "tagged_at": "2022-02-16T19:02:01",
       "repo_url": "https://github.com/GTNewHorizons/StevesAddons",
-      "filename": "StevesAddons-1.7.10-0.10.21.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/StevesAddons/releases/assets/55305431",
-      "browser_download_url": "https://github.com/GTNewHorizons/StevesAddons/releases/download/0.10.21/StevesAddons-1.7.10-0.10.21.jar",
+      "filename": "StevesAddons-1.7.10-0.10.22.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/StevesAddons/releases/assets/57054692",
+      "browser_download_url": "https://github.com/GTNewHorizons/StevesAddons/releases/download/0.10.22/StevesAddons-1.7.10-0.10.22.jar",
       "license": "Don't be a jerk license",
       "side": "BOTH",
-      "maven": null
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StevesAddons/"
     },
     {
       "name": "StorageDrawers",
@@ -1382,27 +1418,27 @@
     },
     {
       "name": "TCNEIAdditions",
-      "version": "1.1.0.5",
-      "tagged_at": "2022-01-27T20:31:48",
+      "version": "1.1.0.6",
+      "tagged_at": "2022-02-14T20:59:34",
       "repo_url": "https://github.com/GTNewHorizons/TCNEIAdditions",
-      "filename": "tcneiadditions-1.7.10-1.1.0.5.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/TCNEIAdditions/releases/assets/55136972",
-      "browser_download_url": "https://github.com/GTNewHorizons/TCNEIAdditions/releases/download/1.1.0.5/tcneiadditions-1.7.10-1.1.0.5.jar",
+      "filename": "tcneiadditions-1.7.10-1.1.0.6.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/TCNEIAdditions/releases/assets/56828055",
+      "browser_download_url": "https://github.com/GTNewHorizons/TCNEIAdditions/releases/download/1.1.0.6/tcneiadditions-1.7.10-1.1.0.6.jar",
       "license": "GNU General Public License v3.0",
-      "side": "BOTH",
-      "maven": null
+      "side": "CLIENT",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TCNEIAdditions/"
     },
     {
       "name": "TCNodeTracker",
-      "version": "1.1.4",
-      "tagged_at": "2021-12-11T21:13:27",
+      "version": "1.1.5",
+      "tagged_at": "2022-02-14T21:00:17",
       "repo_url": "https://github.com/GTNewHorizons/TCNodeTracker",
-      "filename": "tcnodetracker-1.7.10-1.1.4.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/TCNodeTracker/releases/assets/51561525",
-      "browser_download_url": "https://github.com/GTNewHorizons/TCNodeTracker/releases/download/1.1.4/tcnodetracker-1.7.10-1.1.4.jar",
+      "filename": "tcnodetracker-1.7.10-1.1.5.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/TCNodeTracker/releases/assets/56828116",
+      "browser_download_url": "https://github.com/GTNewHorizons/TCNodeTracker/releases/download/1.1.5/tcnodetracker-1.7.10-1.1.5.jar",
       "license": "CC BY-NC-SA 4.0",
-      "side": "BOTH",
-      "maven": null
+      "side": "CLIENT",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TCNodeTracker/"
     },
     {
       "name": "TecTech",
@@ -1415,6 +1451,18 @@
       "license": "MIT",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/"
+    },
+    {
+      "name": "thaumcraft-research-tweaks",
+      "version": "1.0.3",
+      "tagged_at": "2022-02-14T21:04:50",
+      "repo_url": "https://github.com/GTNewHorizons/thaumcraft-research-tweaks",
+      "filename": "ThaumcraftResearchTweaks-1.7.10-1.0.3.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/thaumcraft-research-tweaks/releases/assets/56828487",
+      "browser_download_url": "https://github.com/GTNewHorizons/thaumcraft-research-tweaks/releases/download/1.0.3/ThaumcraftResearchTweaks-1.7.10-1.0.3.jar",
+      "license": "MIT License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/thaumcraft-research-tweaks/"
     },
     {
       "name": "Thaumic_Exploration",
@@ -1466,12 +1514,12 @@
     },
     {
       "name": "ThaumicTinkerer",
-      "version": "2.6.3",
-      "tagged_at": "2022-02-11T00:46:59",
+      "version": "2.6.4",
+      "tagged_at": "2022-02-14T21:04:24",
       "repo_url": "https://github.com/GTNewHorizons/ThaumicTinkerer",
-      "filename": "ThaumicTinkerer-1.7.10-2.6.3.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicTinkerer/releases/assets/56449166",
-      "browser_download_url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.6.3/ThaumicTinkerer-1.7.10-2.6.3.jar",
+      "filename": "ThaumicTinkerer-1.7.10-2.6.4.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicTinkerer/releases/assets/56828449",
+      "browser_download_url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.6.4/ThaumicTinkerer-1.7.10-2.6.4.jar",
       "license": "CC BY-NC-SA 3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicTinkerer/"
@@ -1509,7 +1557,7 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/ToroHealth/releases/assets/56639791",
       "browser_download_url": "https://github.com/GTNewHorizons/ToroHealth/releases/download/1.0.1/torohealth-1.7.10-1.0.1.jar",
       "license": "GNU General Public License v3.0",
-      "side": "BOTH",
+      "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ToroHealth/"
     },
     {
