@@ -997,6 +997,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyPermissions/"
     },
     {
+      "name": "MyTown2",
+      "version": "0.5.3-GTNH",
+      "tagged_at": "2022-03-04T20:38:31",
+      "repo_url": "https://github.com/GTNewHorizons/MyTown2",
+      "filename": "MyTown2-1.7.10-0.5.3-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/MyTown2/releases/assets/58585904",
+      "browser_download_url": "https://github.com/GTNewHorizons/MyTown2/releases/download/0.5.3-GTNH/MyTown2-1.7.10-0.5.3-GTNH.jar",
+      "license": "The Unlicense",
+      "side": "NONE",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyTown2/"
+    },
+    {
       "name": "Natura",
       "version": "2.4.9",
       "tagged_at": "2022-01-19T08:49:19",
