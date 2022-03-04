@@ -410,12 +410,12 @@
     },
     {
       "name": "CraftTweaker",
-      "version": "3.2.6",
-      "tagged_at": "2022-01-20T06:49:02",
+      "version": "3.2.7",
+      "tagged_at": "2022-03-04T22:16:25",
       "repo_url": "https://github.com/GTNewHorizons/CraftTweaker",
-      "filename": "CraftTweaker-1.7.10-3.2.6.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/CraftTweaker/releases/assets/54442228",
-      "browser_download_url": "https://github.com/GTNewHorizons/CraftTweaker/releases/download/3.2.6/CraftTweaker-1.7.10-3.2.6.jar",
+      "filename": "CraftTweaker-1.7.10-3.2.7.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/CraftTweaker/releases/assets/58594948",
+      "browser_download_url": "https://github.com/GTNewHorizons/CraftTweaker/releases/download/3.2.7/CraftTweaker-1.7.10-3.2.7.jar",
       "license": "Our version - Non Commercial - Latest Versions MIT",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CraftTweaker/"
@@ -709,6 +709,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/"
     },
     {
+      "name": "GTNEIOrePlugin",
+      "version": "1.0.11",
+      "tagged_at": "2022-03-04T22:14:35",
+      "repo_url": "https://github.com/GTNewHorizons/GTNEIOrePlugin",
+      "filename": "gtneioreplugin-1.7.10-1.0.11.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/GTNEIOrePlugin/releases/assets/58594814",
+      "browser_download_url": "https://github.com/GTNewHorizons/GTNEIOrePlugin/releases/download/1.0.11/gtneioreplugin-1.7.10-1.0.11.jar",
+      "license": "LGPL 3.0",
+      "side": "CLIENT",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNEIOrePlugin/"
+    },
+    {
       "name": "GTNH-Lanthanides",
       "version": "0.8.6",
       "tagged_at": "2022-03-02T23:48:09",
@@ -817,6 +829,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HungerOverhaul/"
     },
     {
+      "name": "HydroEnergy",
+      "version": "1.0.11",
+      "tagged_at": "2022-03-04T21:56:43",
+      "repo_url": "https://github.com/GTNewHorizons/HydroEnergy",
+      "filename": "hydroenergy-1.7.10-1.0.11.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/HydroEnergy/releases/assets/58593348",
+      "browser_download_url": "https://github.com/GTNewHorizons/HydroEnergy/releases/download/1.0.11/hydroenergy-1.7.10-1.0.11.jar",
+      "license": "MIT License",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HydroEnergy/"
+    },
+    {
       "name": "IFU",
       "version": "1.9.2",
       "tagged_at": "2022-02-08T21:14:26",
@@ -914,12 +938,12 @@
     },
     {
       "name": "Jabba",
-      "version": "1.2.14",
-      "tagged_at": "2022-03-02T17:44:25",
+      "version": "1.2.15",
+      "tagged_at": "2022-03-04T22:29:42",
       "repo_url": "https://github.com/GTNewHorizons/Jabba",
-      "filename": "JABBA-1.7.10-1.2.14.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Jabba/releases/assets/58358399",
-      "browser_download_url": "https://github.com/GTNewHorizons/Jabba/releases/download/1.2.14/JABBA-1.7.10-1.2.14.jar",
+      "filename": "JABBA-1.7.10-1.2.15.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Jabba/releases/assets/58595636",
+      "browser_download_url": "https://github.com/GTNewHorizons/Jabba/releases/download/1.2.15/JABBA-1.7.10-1.2.15.jar",
       "license": "CC BY-NC-SA",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Jabba/"
@@ -998,12 +1022,12 @@
     },
     {
       "name": "MyTown2",
-      "version": "0.5.3-GTNH",
-      "tagged_at": "2022-03-04T20:38:31",
+      "version": "0.5.3.1-GTNH",
+      "tagged_at": "2022-03-04T21:27:04",
       "repo_url": "https://github.com/GTNewHorizons/MyTown2",
-      "filename": "MyTown2-1.7.10-0.5.3-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/MyTown2/releases/assets/58585904",
-      "browser_download_url": "https://github.com/GTNewHorizons/MyTown2/releases/download/0.5.3-GTNH/MyTown2-1.7.10-0.5.3-GTNH.jar",
+      "filename": "MyTown2-1.7.10-0.5.3.1-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/MyTown2/releases/assets/58590953",
+      "browser_download_url": "https://github.com/GTNewHorizons/MyTown2/releases/download/0.5.3.1-GTNH/MyTown2-1.7.10-0.5.3.1-GTNH.jar",
       "license": "The Unlicense",
       "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyTown2/"
