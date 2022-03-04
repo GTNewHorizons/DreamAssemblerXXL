@@ -973,6 +973,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Mantle/"
     },
     {
+      "name": "MyEssentials-Core",
+      "version": "1.19r",
+      "tagged_at": "2022-03-04T19:33:24",
+      "repo_url": "https://github.com/GTNewHorizons/MyEssentials-Core",
+      "filename": "MyEssentials-Core-1.7.10-1.19r.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/MyEssentials-Core/releases/assets/58580945",
+      "browser_download_url": "https://github.com/GTNewHorizons/MyEssentials-Core/releases/download/1.19r/MyEssentials-Core-1.7.10-1.19r.jar",
+      "license": "The Unlicense",
+      "side": "NONE",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyEssentials-Core/"
+    },
+    {
       "name": "Natura",
       "version": "2.4.9",
       "tagged_at": "2022-01-19T08:49:19",
@@ -1046,12 +1058,12 @@
     },
     {
       "name": "NotEnoughItems",
-      "version": "2.2.8-GTNH",
-      "tagged_at": "2022-02-18T02:51:03",
+      "version": "2.2.9-GTNH",
+      "tagged_at": "2022-03-03T16:27:07",
       "repo_url": "https://github.com/GTNewHorizons/NotEnoughItems",
-      "filename": "NotEnoughItems-1.7.10-2.2.8-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/57211336",
-      "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.8-GTNH/NotEnoughItems-1.7.10-2.2.8-GTNH.jar",
+      "filename": "NotEnoughItems-1.7.10-2.2.9-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/58458418",
+      "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.9-GTNH/NotEnoughItems-1.7.10-2.2.9-GTNH.jar",
       "license": "original code MIT, GTNH changes LGPL 3.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/"
