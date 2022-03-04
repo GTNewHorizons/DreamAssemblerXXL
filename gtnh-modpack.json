@@ -985,6 +985,18 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyEssentials-Core/"
     },
     {
+      "name": "MyPermissions",
+      "version": "1.0-GTNH",
+      "tagged_at": "2022-03-04T20:08:28",
+      "repo_url": "https://github.com/GTNewHorizons/MyPermissions",
+      "filename": "MyPermissions-1.7.10-1.0-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/MyPermissions/releases/assets/58583731",
+      "browser_download_url": "https://github.com/GTNewHorizons/MyPermissions/releases/download/1.0-GTNH/MyPermissions-1.7.10-1.0-GTNH.jar",
+      "license": "The Unlicense",
+      "side": "NONE",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyPermissions/"
+    },
+    {
       "name": "Natura",
       "version": "2.4.9",
       "tagged_at": "2022-01-19T08:49:19",
