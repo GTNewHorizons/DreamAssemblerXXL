@@ -495,7 +495,8 @@
     "license": "GPL 3.0"
   },
   "Logistic Pipes": {
-    "url": "https://github.com/GTNewHorizons/LogisticsPipes"
+    "url": "https://github.com/GTNewHorizons/LogisticsPipes",
+    "license": "MMPL"
   },
   "Loot games": {
     "url": "https://github.com/GTNewHorizons/LootGames",
