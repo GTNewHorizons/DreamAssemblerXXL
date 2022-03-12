@@ -9,12 +9,11 @@ from github.Organization import Organization
 from mod_info import GTNHModpack, ModInfo
 from retry import retry
 from utils import get_token, load_gtnh_manifest
-
+from exceptions import NoReleasesException
 CACHE_DIR = "cache"
 
 
-class NoReleasesException(Exception):
-    pass
+
 
 
 def get_latest_releases(gtnh_modpack: GTNHModpack) -> None:
