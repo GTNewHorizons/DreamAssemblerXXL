@@ -24,8 +24,9 @@ MOD_AND_VERSION = re.compile(r"[\"\']com\.github\.GTNewHorizons:([^:]+):([^:^)]+
 MOD_VERSION_REPLACE = "com.github.GTNewHorizons:{mod_name}:{version}"
 GTNH_MAVEN = """
     maven {
-        name = "GTNH Maven"
-        url = "http://jenkins.usrv.eu:8081/nexus/content/groups/public/"
+        name 'GTNH Maven'
+        url 'http://jenkins.usrv.eu:8081/nexus/content/groups/public/'
+        allowInsecureProtocol
     }
 """
 

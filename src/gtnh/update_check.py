@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from typing import Dict
-
+from colorama import init, Fore, Back, Style
 from defs import OTHER, UNKNOWN
 from github import Github
 from github.Repository import Repository
@@ -18,6 +18,8 @@ from utils import (
     load_gtnh_manifest,
     sort_and_write_modpack,
 )
+
+init(autoreset=True)
 
 
 class NoReleasesException(Exception):
@@ -37,7 +39,7 @@ def check_mod_for_update(all_repos: Dict[str, Repository], mod: ModInfo) -> None
     print(f"Checking {mod.name}:{mod.version} for updates")
     repo = all_repos.get(mod.name, None)
     if repo is None:
-        print(f"Couldn't find repo {mod.name}")
+        print(f"{Fore.RED}Couldn't find repo {Style.DIM}{mod.name}")
         return
 
     latest_release = get_latest_release(repo)
@@ -45,7 +47,9 @@ def check_mod_for_update(all_repos: Dict[str, Repository], mod: ModInfo) -> None
     latest_version = latest_release.tag_name
 
     if latest_version > mod.version:
-        print(f"Update found for {mod.name} {mod.version} -> {latest_version}")
+        print(
+            f"Update found for {mod.name} {Style.DIM}{Fore.GREEN}{mod.version}{Style.RESET_ALL} -> {Fore.GREEN}{latest_version}"
+        )
         mod.version = latest_version
         version_updated = True
 
@@ -83,8 +87,8 @@ if __name__ == "__main__":
 
     missing_repos = check_for_missing_repos(all_repos, gtnh)
     if len(missing_repos):
-        print(f"****** Missing Mods: {', '.join(missing_repos)}")
+        print(f"{Fore.RED}****** Missing Mods:{Style.RESET_ALL} {', '.join(sorted(missing_repos))}")
 
     missing_maven = check_for_missing_maven(gtnh)
     if len(missing_maven):
-        print(f"****** Missing Maven: {', '.join(missing_maven)}")
+        print(f"{Fore.RED}****** Missing Maven:{Style.RESET_ALL} {', '.join(sorted(missing_maven))}")
