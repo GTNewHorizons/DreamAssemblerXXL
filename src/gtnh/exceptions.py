@@ -12,3 +12,7 @@ class RepoNotFoundException(Exception):
 
 class ModAlreadyExistsException(Exception):
     pass
+
+
+class NoModAssetFound(Exception):
+    pass

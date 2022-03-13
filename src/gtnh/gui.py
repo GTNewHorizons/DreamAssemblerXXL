@@ -3,17 +3,17 @@ import tkinter as tk
 from pathlib import Path
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import Progressbar
-from typing import AnyStr, Callable, List, Optional, Tuple
+from typing import Any, Callable, List, Optional, Tuple
 from zipfile import ZipFile
 
-from exceptions import LatestReleaseNotFound, RepoNotFoundException
 from github import Github
 from github.Organization import Organization
 
-from src.gtnh.add_mod import get_repo, new_mod_from_repo
-from src.gtnh.mod_info import GTNHModpack
-from src.gtnh.pack_downloader import download_mod, ensure_cache_dir
-from src.gtnh.utils import get_token, load_gtnh_manifest, sort_and_write_modpack
+from gtnh.add_mod import get_repo, new_mod_from_repo
+from gtnh.exceptions import LatestReleaseNotFound, RepoNotFoundException
+from gtnh.mod_info import GTNHModpack
+from gtnh.pack_downloader import download_mod, ensure_cache_dir
+from gtnh.utils import get_token, load_gtnh_manifest, sort_and_write_modpack
 
 
 def download_mods(
@@ -21,7 +21,7 @@ def download_mods(
     github: Github,
     organization: Organization,
     callback: Optional[Callable[[float, str], None]] = None,
-) -> Tuple[List[AnyStr], List[AnyStr]]:
+) -> Tuple[List[Path], List[Path]]:
     """
     method to download all the mods required for the pack.
 
@@ -162,8 +162,8 @@ class MainFrame(tk.Tk):
         self.btn_download.pack()
 
         # refs to popup toplevel widgets
-        self.repo_popup = None
-        self.archive_popup = None
+        self.repo_popup: Optional[AddRepoPopup] = None
+        self.archive_popup: Optional[ArchivePopup] = None
 
     def open_new_repo_popup(self) -> None:
         """
@@ -173,7 +173,7 @@ class MainFrame(tk.Tk):
         :return: None
         """
 
-        def _unlock_popup(_) -> None:
+        def _unlock_popup(_: Any) -> None:
             """
             Method used to change the state var called is_new_repo_popup_open to False when the popup is closed.
 
@@ -207,7 +207,7 @@ class MainFrame(tk.Tk):
         :return: None
         """
 
-        def _unlock_popup(_) -> None:
+        def _unlock_popup(_: Any) -> None:
             """
             Method used to change the state var called is_archive_popup_open to False when the popup is closed.
 
@@ -295,9 +295,7 @@ class AddRepoPopup(tk.Toplevel):
 
                     # let the user know that the repository has no release, therefore it won't be added to the list
                     except LatestReleaseNotFound:
-                        showerror(
-                            "no release availiable on the repository", f"the repository {name} has no release, aborting"
-                        )
+                        showerror("no release availiable on the repository", f"the repository {name} has no release, aborting")
 
             # releasing the blocking
             self.is_messagebox_open = False
@@ -351,9 +349,7 @@ class ArchivePopup(tk.Toplevel):
         self.progress_label["text"] = label.format(self.progress_bar["value"])
         self.update()
 
-    def download_mods_client(
-        self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization
-    ) -> Tuple[List[AnyStr], List[AnyStr]]:
+    def download_mods_client(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> Tuple[List[Path], List[Path]]:
         """
         client version of download_mods.
 

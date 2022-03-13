@@ -16,7 +16,8 @@ import os.path
 import re
 
 from in_place import InPlace
-from utils import load_gtnh_manifest
+
+from gtnh.utils import load_gtnh_manifest
 
 DEP_FILE = "dependencies.gradle"
 REPO_FILE = "repositories.gradle"
