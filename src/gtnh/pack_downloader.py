@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
 import os
+from pathlib import Path
+from typing import List, AnyStr
 
 import requests
 from github import Github
@@ -10,10 +12,8 @@ from mod_info import GTNHModpack, ModInfo
 from retry import retry
 from utils import get_token, load_gtnh_manifest
 from exceptions import NoReleasesException
+
 CACHE_DIR = "cache"
-
-
-
 
 
 def get_latest_releases(gtnh_modpack: GTNHModpack) -> None:
@@ -25,10 +25,10 @@ def get_latest_releases(gtnh_modpack: GTNHModpack) -> None:
 
 
 @retry(delay=5, tries=3)
-def download_mod(g: Github, o: Organization, mod: ModInfo) -> None:
+def download_mod(g: Github, o: Organization, mod: ModInfo) -> List[AnyStr]:
     print("***********************************************************")
     print(f"Downloading {mod.name}:{mod.version}")
-
+    paths = []
     repo = o.get_repo(mod.name)
     release: GitRelease = repo.get_release(mod.version)
 
@@ -39,18 +39,19 @@ def download_mod(g: Github, o: Organization, mod: ModInfo) -> None:
     release_assets = release.get_assets()
     for asset in release_assets:
         if (
-            not asset.name.endswith(".jar")
-            or asset.name.endswith("dev.jar")
-            or asset.name.endswith("sources.jar")
-            or asset.name.endswith("api.jar")
+                not asset.name.endswith(".jar")
+                or asset.name.endswith("dev.jar")
+                or asset.name.endswith("sources.jar")
+                or asset.name.endswith("api.jar")
         ):
             continue
 
         print(f"Found Release at {asset.browser_download_url}")
         cache_dir = ensure_cache_dir()
-        mod_filename = cache_dir + "/" + asset.name
+        mod_filename = cache_dir / "mods" / asset.name
         if os.path.exists(mod_filename):
             print(f"Skipping re-redownload of {asset.name}")
+            paths.append(mod_filename)
             continue
 
         print(f"Downloading {asset.name} to {mod_filename}")
@@ -66,11 +67,13 @@ def download_mod(g: Github, o: Organization, mod: ModInfo) -> None:
                 for chunk in r.iter_content(chunk_size=8192):
                     f.write(chunk)
         print("Download successful")
+        paths.append(mod_filename)
+    return paths
 
 
 def ensure_cache_dir() -> str:
-    cache_dir = os.getcwd() + "/" + CACHE_DIR
-    os.makedirs(cache_dir, exist_ok=True)
+    cache_dir = Path(os.getcwd()) / CACHE_DIR
+    os.makedirs(cache_dir / "mods", exist_ok=True)
 
     return cache_dir
 
