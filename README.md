@@ -9,4 +9,4 @@ Scripts to update dependencies and add GTNH maven
 * [add_mod.py](src/gtnh/add_mod.py): Add a new mod to the pack
 * [update_check.py](src/gtnh/update_check.py): Check for new releases on GitHub
 * [update_buildscript.sh](update_buildscript.sh): Script to add CODEOWNERS for maven publication
-* [requirements.txt](requirements.txt): Python modules you'll need to run - Python 3.9+ recommended
+* [requirements.txt](requirements.txt): Python modules you'll need to run - Python 3.9+ is required

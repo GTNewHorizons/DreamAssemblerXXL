@@ -11,10 +11,9 @@ from github.GithubException import UnknownObjectException
 from github.Organization import Organization
 from github.Repository import Repository
 from mod_info import GTNHModpack
+from exceptions import LatestReleaseNotFound
 
 
-class LatestReleaseNotFound(Exception):
-    pass
 
 
 @cache
