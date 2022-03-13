@@ -1,23 +1,27 @@
+import os
 import tkinter as tk
+from pathlib import Path
+from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import Progressbar
-from tkinter.messagebox import showinfo, showerror, showwarning
-from typing import Tuple, List, AnyStr, Optional, Callable
+from typing import AnyStr, Callable, List, Optional, Tuple
+from zipfile import ZipFile
 
+from exceptions import LatestReleaseNotFound, RepoNotFoundException
 from github import Github
 from github.Organization import Organization
 
 from src.gtnh.add_mod import get_repo, new_mod_from_repo
 from src.gtnh.mod_info import GTNHModpack
 from src.gtnh.pack_downloader import download_mod, ensure_cache_dir
-from src.gtnh.utils import load_gtnh_manifest, sort_and_write_modpack, get_token
-from exceptions import RepoNotFoundException, LatestReleaseNotFound
-from zipfile import ZipFile
-import os
-from pathlib import Path
+from src.gtnh.utils import get_token, load_gtnh_manifest, sort_and_write_modpack
 
 
-def download_mods(gtnh_modpack: GTNHModpack, github: Github, organization: Organization,
-                  callback: Optional[Callable[[float, str], None]] = None) -> Tuple[List[AnyStr], List[AnyStr]]:
+def download_mods(
+    gtnh_modpack: GTNHModpack,
+    github: Github,
+    organization: Organization,
+    callback: Optional[Callable[[float, str], None]] = None,
+) -> Tuple[List[AnyStr], List[AnyStr]]:
     """
     method to download all the mods required for the pack.
 
@@ -56,8 +60,7 @@ def download_mods(gtnh_modpack: GTNHModpack, github: Github, organization: Organ
     return client_paths, server_paths
 
 
-def pack_clientpack(client_paths: List[Path], callback: Optional[Callable[[float, str], None]] = None) -> \
-        None:
+def pack_clientpack(client_paths: List[Path], callback: Optional[Callable[[float, str], None]] = None) -> None:
     """
     Method used to pack all the client files into a client archive.
 
@@ -93,8 +96,7 @@ def pack_clientpack(client_paths: List[Path], callback: Optional[Callable[[float
     os.chdir(cwd)
 
 
-def pack_serverpack(server_paths: List[Path], callback: Optional[Callable[[float, str], None]] = None) -> \
-        None:
+def pack_serverpack(server_paths: List[Path], callback: Optional[Callable[[float, str], None]] = None) -> None:
     """
     Method used to pack all the server files into a client archive.
 
@@ -293,8 +295,9 @@ class AddRepoPopup(tk.Toplevel):
 
                     # let the user know that the repository has no release, therefore it won't be added to the list
                     except LatestReleaseNotFound:
-                        showerror("no release availiable on the repository",
-                                  f"the repository {name} has no release, aborting")
+                        showerror(
+                            "no release availiable on the repository", f"the repository {name} has no release, aborting"
+                        )
 
             # releasing the blocking
             self.is_messagebox_open = False
@@ -345,11 +348,12 @@ class ArchivePopup(tk.Toplevel):
         # updating the progress bar
         self.progress_bar["value"] += delta_progress
         self.progress_bar["value"] = min(100.0, float(format(self.progress_bar["value"], ".2f")))
-        self.progress_label["text"] = label.format(self.progress_bar['value'])
+        self.progress_label["text"] = label.format(self.progress_bar["value"])
         self.update()
 
-    def download_mods_client(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> \
-            Tuple[List[AnyStr], List[AnyStr]]:
+    def download_mods_client(
+        self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization
+    ) -> Tuple[List[AnyStr], List[AnyStr]]:
         """
         client version of download_mods.
 
