@@ -2,16 +2,16 @@
 
 import os
 from pathlib import Path
-from typing import List, AnyStr
+from typing import AnyStr, List
 
 import requests
+from exceptions import NoReleasesException
 from github import Github
 from github.GitRelease import GitRelease
 from github.Organization import Organization
 from mod_info import GTNHModpack, ModInfo
 from retry import retry
 from utils import get_token, load_gtnh_manifest
-from exceptions import NoReleasesException
 
 CACHE_DIR = "cache"
 
@@ -39,10 +39,10 @@ def download_mod(g: Github, o: Organization, mod: ModInfo) -> List[AnyStr]:
     release_assets = release.get_assets()
     for asset in release_assets:
         if (
-                not asset.name.endswith(".jar")
-                or asset.name.endswith("dev.jar")
-                or asset.name.endswith("sources.jar")
-                or asset.name.endswith("api.jar")
+            not asset.name.endswith(".jar")
+            or asset.name.endswith("dev.jar")
+            or asset.name.endswith("sources.jar")
+            or asset.name.endswith("api.jar")
         ):
             continue
 

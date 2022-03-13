@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
 from typing import Dict
-from colorama import init, Fore, Back, Style
+
+from colorama import Back, Fore, Style, init
 from defs import OTHER, UNKNOWN
 from github import Github
 from github.Repository import Repository

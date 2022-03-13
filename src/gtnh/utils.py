@@ -5,15 +5,13 @@ from typing import Dict, Optional, Set
 
 import requests
 from defs import BLACKLISTED_REPOS_FILE, GTNH_MODPACK_FILE, MAVEN_BASE_URL, OTHER, UNKNOWN
+from exceptions import LatestReleaseNotFound
 from github.GitRelease import GitRelease
 from github.GitReleaseAsset import GitReleaseAsset
 from github.GithubException import UnknownObjectException
 from github.Organization import Organization
 from github.Repository import Repository
 from mod_info import GTNHModpack
-from exceptions import LatestReleaseNotFound
-
-
 
 
 @cache
