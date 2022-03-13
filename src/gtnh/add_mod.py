@@ -15,14 +15,7 @@ from utils import (
     load_gtnh_manifest,
     sort_and_write_modpack,
 )
-
-
-class RepoNotFoundException(Exception):
-    pass
-
-
-class ModAlreadyExistsException(Exception):
-    pass
+from exceptions import RepoNotFoundException, ModAlreadyExistsException
 
 
 @click.command()
