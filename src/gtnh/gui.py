@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter.ttk import Progressbar
 from tkinter.messagebox import showinfo, showerror, showwarning
-from typing import Tuple, List, AnyStr
+from typing import Tuple, List, AnyStr, Optional, Callable
 
 from github import Github
 from github.Organization import Organization
@@ -14,6 +14,120 @@ from exceptions import RepoNotFoundException, LatestReleaseNotFound
 from zipfile import ZipFile
 import os
 from pathlib import Path
+
+
+def download_mods(gtnh_modpack: GTNHModpack, github: Github, organization: Organization,
+                  callback: Optional[Callable[[float, str], None]] = None) -> Tuple[List[AnyStr], List[AnyStr]]:
+    """
+    method to download all the mods required for the pack.
+
+    :param gtnh_modpack: GTNHModpack object. Represents the metadata of the modpack.
+    :param github: Github object.
+    :param organization: Organization object. Represent the GTNH organization.
+    :param callback: Callable that takes a float and a string in parameters. (mainly the method to update the
+                progress bar that takes a progress step per call and the label used to display infos to the user)
+    :return: a list holding all the paths to the clientside mods and a list holding all the paths to the serverside
+            mod.
+    """
+    # computation of the progress per mod for the progressbar
+    delta_progress = 100 / len(gtnh_modpack.github_mods)
+
+    # lists holding the paths to the mods
+    client_paths = []
+    server_paths = []
+
+    # download of the mods
+    for mod in gtnh_modpack.github_mods:
+        if callback is not None:
+            callback(delta_progress, f"downloading mods. current mod: {mod.name} Progress: {{0}}%")
+
+        # do the actual work
+        paths = download_mod(github, organization, mod)
+        if mod.side == "BOTH":
+            client_paths.extend(paths)
+            server_paths.extend(paths)
+        elif mod.side == "CLIENT":
+            client_paths.extend(paths)
+        elif mod.side == "SERVER":
+            server_paths.extend(paths)
+
+    # todo: make a similar thing for the curse mods
+
+    return client_paths, server_paths
+
+
+def pack_clientpack(client_paths: List[Path], callback: Optional[Callable[[float, str], None]] = None) -> \
+        None:
+    """
+    Method used to pack all the client files into a client archive.
+
+    :param client_paths: a list containing all the Path objects refering to the files needed client side.
+    :param callback: Callable that takes a float and a string in parameters. (mainly the method to update the
+            progress bar that takes a progress step per call and the label used to display infos to the user)
+    :return: None
+    """
+
+    # computation of the progress per mod for the progressbar
+    delta_progress = 100 / len(client_paths)
+
+    # remembering the cwd because it'll be changed during the zip operation
+    cwd = os.getcwd()
+    cache_dir = Path(ensure_cache_dir())
+    os.chdir(cache_dir)
+
+    # deleting any previous client archive
+    if os.path.exists("client.zip"):
+        os.remove("client.zip")
+        print("previous client archive deleted")
+
+    # zipping the files in the archive
+    with ZipFile("client.zip", "w") as client_archive:
+        for mod_path in client_paths:
+            if callback is not None:
+                callback(delta_progress, f"Packing client archive: {mod_path.name}. Progress: {{0}}%")
+
+            # writing the file in the zip
+            client_archive.write(mod_path, mod_path.relative_to(cache_dir))
+
+    # restoring the cwd
+    os.chdir(cwd)
+
+
+def pack_serverpack(server_paths: List[Path], callback: Optional[Callable[[float, str], None]] = None) -> \
+        None:
+    """
+    Method used to pack all the server files into a client archive.
+
+    :param server_paths: a list containing all the Path objects refering to the files needed server side.
+    :param callback: Callable that takes a float and a string in parameters. (mainly the method to update the
+            progress bar that takes a progress step per call and the label used to display infos to the user)
+    :return: None
+    """
+
+    # computation of the progress per mod for the progressbar
+    delta_progress = 100 / len(server_paths)
+
+    # remembering the cwd because it'll be changed during the zip operation
+    cwd = os.getcwd()
+    cache_dir = Path(ensure_cache_dir())
+    os.chdir(cache_dir)
+
+    # deleting any previous client archive
+    if os.path.exists("server.zip"):
+        os.remove("server.zip")
+        print("previous server archive deleted")
+
+    # zipping the files in the archive
+    with ZipFile("server.zip", "w") as server_archive:
+        for mod_path in server_paths:
+            if callback is not None:
+                callback(delta_progress, f"Packing server archive: {mod_path.name}. Progress: {{0}}%")
+
+            # writing the file in the zip
+            server_archive.write(mod_path, Path("mods") / mod_path.name)
+
+    # restoring the cwd
+    os.chdir(cwd)
 
 
 class MainFrame(tk.Tk):
@@ -218,19 +332,26 @@ class ArchivePopup(tk.Toplevel):
         github = Github(get_token())
         organization = github.get_organization("GTNewHorizons")
         gtnh_modpack = load_gtnh_manifest()
-        client_paths, server_paths = self.download_mods(gtnh_modpack, github, organization)
+        client_paths, server_paths = self.download_mods_client(gtnh_modpack, github, organization)
 
         self.handle_pack_extra_files()
-        self.pack_client(client_paths)
-        self.pack_server(server_paths)
+        self.pack_clientpack_client(client_paths)
+        self.pack_serverpack_client(server_paths)
         self.pack_technic()
         self.make_deploader_json()
         self.pack_curse()
 
-    def download_mods(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> \
+    def _progress_callback(self, delta_progress: float, label: str) -> None:
+        # updating the progress bar
+        self.progress_bar["value"] += delta_progress
+        self.progress_bar["value"] = min(100.0, float(format(self.progress_bar["value"], ".2f")))
+        self.progress_label["text"] = label.format(self.progress_bar['value'])
+        self.update()
+
+    def download_mods_client(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> \
             Tuple[List[AnyStr], List[AnyStr]]:
         """
-        method to download all the mods required for the pack.
+        client version of download_mods.
 
         :param gtnh_modpack: GTNHModpack object. Represents the metadata of the modpack.
         :param github: Github object.
@@ -238,108 +359,25 @@ class ArchivePopup(tk.Toplevel):
         :return: a list holding all the paths to the clientside mods and a list holding all the paths to the serverside
                 mod.
         """
-        # computation of the progress per mod for the progressbar
-        delta_progress = 100 / len(gtnh_modpack.github_mods)
+        return download_mods(gtnh_modpack, github, organization, self._progress_callback)
 
-        # lists holding the paths to the mods
-        client_paths = []
-        server_paths = []
-
-        # download of the mods
-        for mod in gtnh_modpack.github_mods:
-            # update progress bar
-            self.progress_bar["value"] += delta_progress
-            self.progress_bar["value"] = min(100.0, float(format(self.progress_bar["value"], ".2f")))
-            self.progress_label["text"] = f"downloading mods. Progress: {self.progress_bar['value']}%"
-            self.update()
-
-            # do the actual work
-            paths = download_mod(github, organization, mod)
-            if mod.side == "BOTH":
-                client_paths.extend(paths)
-                server_paths.extend(paths)
-            elif mod.side == "CLIENT":
-                client_paths.extend(paths)
-            elif mod.side == "SERVER":
-                server_paths.extend(paths)
-
-        # todo: make a similar thing for the curse mods
-
-        return client_paths, server_paths
-
-    def pack_client(self, client_paths: List[Path]) -> None:
+    def pack_clientpack_client(self, client_paths: List[Path]) -> None:
         """
-        Method used to pack all the client files into a client archive.
+        Client version of pack_clientpack.
 
         :param client_paths: a list containing all the Path objects refering to the files needed client side.
         :return: None
         """
+        pack_clientpack(client_paths, self._progress_callback)
 
-        # computation of the progress per mod for the progressbar
-        delta_progress = 100 / len(client_paths)
-
-        # remembering the cwd because it'll be changed during the zip operation
-        cwd = os.getcwd()
-        cache_dir = Path(ensure_cache_dir())
-        os.chdir(cache_dir)
-
-        # deleting any previous client archive
-        if os.path.exists("client.zip"):
-            os.remove("client.zip")
-            print("previous client archive deleted")
-
-        # zipping the files in the archive
-        with ZipFile("client.zip", "w") as client_archive:
-            for mod_path in client_paths:
-                # updating the progress bar
-                self.progress_bar["value"] += delta_progress
-                self.progress_bar["value"] = min(100.0, float(format(self.progress_bar["value"], ".2f")))
-                self.progress_label["text"] = f"Packing client archive: {mod_path.name}." \
-                                              f"Progress: {self.progress_bar['value']}%"
-                self.update()
-
-                # writing the file in the zip
-                client_archive.write(mod_path, mod_path.relative_to(cache_dir))
-
-        # restoring the cwd
-        os.chdir(cwd)
-
-    def pack_server(self, server_paths: List[Path]) -> None:
+    def pack_serverpack_client(self, server_paths: List[Path]) -> None:
         """
-        Method used to pack all the server files into a client archive.
+        Client version of pack_serverpack
 
         :param server_paths: a list containing all the Path objects refering to the files needed server side.
         :return: None
         """
-
-        # computation of the progress per mod for the progressbar
-        delta_progress = 100 / len(server_paths)
-
-        # remembering the cwd because it'll be changed during the zip operation
-        cwd = os.getcwd()
-        cache_dir = Path(ensure_cache_dir())
-        os.chdir(cache_dir)
-
-        # deleting any previous client archive
-        if os.path.exists("server.zip"):
-            os.remove("server.zip")
-            print("previous server archive deleted")
-
-        # zipping the files in the archive
-        with ZipFile("server.zip", "w") as server_archive:
-            for mod_path in server_paths:
-                # updating the progress bar
-                self.progress_bar["value"] += delta_progress
-                self.progress_bar["value"] = min(100.0, float(format(self.progress_bar["value"], ".2f")))
-                self.progress_label["text"] = f"Packing server archive: {mod_path.name}." \
-                                              f"Progress: {self.progress_bar['value']}%"
-                self.update()
-
-                # writing the file in the zip
-                server_archive.write(mod_path, Path("mods") / mod_path.name)
-
-        # restoring the cwd
-        os.chdir(cwd)
+        pack_serverpack(server_paths, self._progress_callback)
 
     def handle_pack_extra_files(self) -> None:
         """
@@ -378,6 +416,7 @@ class HandleDepUpdatePopup(tk.Toplevel):
     """
     Window allowing you to update the dependencies.
     """
+
     def __init__(self) -> None:
         """
         Constructor of HandleDepUpdatePopup class.
