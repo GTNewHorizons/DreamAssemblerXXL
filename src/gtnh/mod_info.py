@@ -2,8 +2,9 @@ from datetime import datetime
 from functools import cached_property
 from typing import Dict, List, Optional
 
-from defs import UNKNOWN, Side
 from pydantic import BaseModel, Field
+
+from gtnh.defs import UNKNOWN, Side
 
 
 class ModInfo(BaseModel):
@@ -26,8 +27,8 @@ class GTNHModpack(BaseModel):
     def _github_modmap(self) -> Dict[str, ModInfo]:
         return {mod.name: mod for mod in self.github_mods}
 
-    def has_github_mod(self, mod_name: str):
+    def has_github_mod(self, mod_name: str) -> bool:
         return mod_name in self._github_modmap
 
-    def get_github_mod(self, mod_name: str):
-        return self._github_modmap.get(mod_name)
+    def get_github_mod(self, mod_name: str) -> ModInfo:
+        return self._github_modmap[mod_name]

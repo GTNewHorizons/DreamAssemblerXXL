@@ -4,18 +4,19 @@ from functools import cache
 from typing import Dict, Optional, Set
 
 import requests
-from defs import BLACKLISTED_REPOS_FILE, GTNH_MODPACK_FILE, MAVEN_BASE_URL, OTHER, UNKNOWN
-from exceptions import LatestReleaseNotFound
 from github.GitRelease import GitRelease
 from github.GitReleaseAsset import GitReleaseAsset
 from github.GithubException import UnknownObjectException
 from github.Organization import Organization
 from github.Repository import Repository
-from mod_info import GTNHModpack
+
+from gtnh.defs import BLACKLISTED_REPOS_FILE, GTNH_MODPACK_FILE, MAVEN_BASE_URL, OTHER, UNKNOWN
+from gtnh.exceptions import LatestReleaseNotFound, NoModAssetFound
+from gtnh.mod_info import GTNHModpack
 
 
 @cache
-def get_token():
+def get_token() -> Optional[str]:
     if os.getenv("GITHUB_TOKEN", None) is None:
         token_file = os.path.expanduser("~/.github_personal_token")
         if os.path.exists(token_file):
@@ -29,7 +30,7 @@ def get_token():
 
 
 @cache
-def get_all_repos(o: Organization):
+def get_all_repos(o: Organization) -> Dict[str, Repository]:
     return {r.name: r for r in o.get_repos()}
 
 
@@ -49,7 +50,7 @@ def load_gtnh_manifest() -> GTNHModpack:
     return gtnh_modpack
 
 
-def sort_and_write_modpack(gtnh: GTNHModpack):
+def sort_and_write_modpack(gtnh: GTNHModpack) -> None:
     gtnh.github_mods.sort(key=lambda m: m.name.lower())
     with open(modpack_manifest(), "w+") as f:
         f.write(gtnh.json(indent=2, exclude={"_github_modmap"}))
@@ -85,15 +86,12 @@ def get_latest_release(repo: Repository) -> GitRelease:
 def get_mod_asset(release: GitRelease) -> GitReleaseAsset:
     release_assets = release.get_assets()
     for asset in release_assets:
-        if (
-            not asset.name.endswith(".jar")
-            or asset.name.endswith("dev.jar")
-            or asset.name.endswith("sources.jar")
-            or asset.name.endswith("api.jar")
-        ):
+        if not asset.name.endswith(".jar") or any(asset.name.endswith(s) for s in ["dev.jar", "sources.jar", "api.jar", "api2.jar"]):
             continue
 
         return asset
+
+    raise NoModAssetFound()
 
 
 def get_maven(mod_name: str) -> Optional[str]:

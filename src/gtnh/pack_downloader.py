@@ -2,16 +2,16 @@
 
 import os
 from pathlib import Path
-from typing import AnyStr, List
+from typing import List
 
 import requests
-from exceptions import NoReleasesException
 from github import Github
 from github.GitRelease import GitRelease
 from github.Organization import Organization
-from mod_info import GTNHModpack, ModInfo
 from retry import retry
-from utils import get_token, load_gtnh_manifest
+
+from gtnh.mod_info import GTNHModpack, ModInfo
+from gtnh.utils import get_token, load_gtnh_manifest
 
 CACHE_DIR = "cache"
 
@@ -25,7 +25,7 @@ def get_latest_releases(gtnh_modpack: GTNHModpack) -> None:
 
 
 @retry(delay=5, tries=3)
-def download_mod(g: Github, o: Organization, mod: ModInfo) -> List[AnyStr]:
+def download_mod(g: Github, o: Organization, mod: ModInfo) -> List[Path]:
     print("***********************************************************")
     print(f"Downloading {mod.name}:{mod.version}")
     paths = []
@@ -34,16 +34,11 @@ def download_mod(g: Github, o: Organization, mod: ModInfo) -> List[AnyStr]:
 
     if not release:
         print(f"*** No release found for {mod.name}:{mod.version}")
-        return
+        return []
 
     release_assets = release.get_assets()
     for asset in release_assets:
-        if (
-            not asset.name.endswith(".jar")
-            or asset.name.endswith("dev.jar")
-            or asset.name.endswith("sources.jar")
-            or asset.name.endswith("api.jar")
-        ):
+        if not asset.name.endswith(".jar") or asset.name.endswith("dev.jar") or asset.name.endswith("sources.jar") or asset.name.endswith("api.jar"):
             continue
 
         print(f"Found Release at {asset.browser_download_url}")
@@ -59,7 +54,7 @@ def download_mod(g: Github, o: Organization, mod: ModInfo) -> List[AnyStr]:
         headers = {"Authorization": f"token {get_token()}", "Accept": "application/octet-stream"}
 
         if repo.private:
-            print(f"Private Repo!")
+            print("Private Repo!")
 
         with requests.get(asset.url, stream=True, headers=headers) as r:
             r.raise_for_status()
@@ -71,7 +66,7 @@ def download_mod(g: Github, o: Organization, mod: ModInfo) -> List[AnyStr]:
     return paths
 
 
-def ensure_cache_dir() -> str:
+def ensure_cache_dir() -> Path:
     cache_dir = Path(os.getcwd()) / CACHE_DIR
     os.makedirs(cache_dir / "mods", exist_ok=True)
 

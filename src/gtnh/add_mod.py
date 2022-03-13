@@ -3,11 +3,12 @@
 import sys
 
 import click
-from exceptions import ModAlreadyExistsException, RepoNotFoundException
 from github import Github
 from github.Repository import Repository
-from mod_info import ModInfo
-from utils import (
+
+from gtnh.exceptions import RepoNotFoundException
+from gtnh.mod_info import ModInfo
+from gtnh.utils import (
     get_latest_release,
     get_license,
     get_maven,

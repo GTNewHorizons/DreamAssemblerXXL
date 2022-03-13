@@ -3,6 +3,7 @@
 Scripts to update dependencies and add GTNH maven
 
 * [gtnh-modpack.json](gtnh-modpack.json): Modpack Manifest: Mods, licenses, version, etc
+* [releases](releases): Manifests for each officially released modpack version
 * [repo-blacklist.json](repo-blacklist.json): GitHub repositories that are not part of the pack
 * [update_deps.py](src/gtnh/update_deps.py): Update dependencies.gradle & repositories.gradle (run in the project directory)
 * [pack_downloader.py](src/gtnh/pack_downloader.py): Download the pack

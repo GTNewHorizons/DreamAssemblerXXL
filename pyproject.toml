@@ -14,13 +14,16 @@ requests = "~=2.25.1"
 retry = "~=0.9.2"
 click = "^8.0.3"
 colorama = "^0.4.4"
-
-[tool.poetry.dev-dependencies]
+types-requests = "^2.27.12"
+types-retry = "^0.9.5"
+mypy = "^0.940"
+flake8 = "^4.0.1"
+pytest = "^7.1.0"
 black = "^22.1.0"
 isort = "^5.10.1"
 
 [tool.black]
-line-length = 120
+line-length = 160
 target-version = ['py38']
 exclude = '''
     (

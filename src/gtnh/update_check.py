@@ -2,12 +2,13 @@
 
 from typing import Dict
 
-from colorama import Back, Fore, Style, init
-from defs import OTHER, UNKNOWN
+from colorama import Fore, Style, init
 from github import Github
 from github.Repository import Repository
-from mod_info import GTNHModpack, ModInfo
-from utils import (
+
+from gtnh.defs import OTHER, UNKNOWN
+from gtnh.mod_info import GTNHModpack, ModInfo
+from gtnh.utils import (
     check_for_missing_maven,
     check_for_missing_repos,
     get_all_repos,
@@ -48,9 +49,7 @@ def check_mod_for_update(all_repos: Dict[str, Repository], mod: ModInfo) -> None
     latest_version = latest_release.tag_name
 
     if latest_version > mod.version:
-        print(
-            f"Update found for {mod.name} {Style.DIM}{Fore.GREEN}{mod.version}{Style.RESET_ALL} -> {Fore.GREEN}{latest_version}"
-        )
+        print(f"Update found for {mod.name} {Style.DIM}{Fore.GREEN}{mod.version}{Style.RESET_ALL} -> {Fore.GREEN}{latest_version}")
         mod.version = latest_version
         version_updated = True
 
