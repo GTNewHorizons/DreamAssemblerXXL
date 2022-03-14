@@ -1,6 +1,7 @@
 import json
 import os
 from functools import cache
+from pathlib import Path
 from typing import Dict, Optional, Set
 
 import requests
@@ -13,7 +14,6 @@ from github.Repository import Repository
 from gtnh.defs import BLACKLISTED_REPOS_FILE, GTNH_MODPACK_FILE, MAVEN_BASE_URL, OTHER, UNKNOWN
 from gtnh.exceptions import LatestReleaseNotFound, NoModAssetFound
 from gtnh.mod_info import GTNHModpack
-from pathlib import Path
 
 
 @cache
@@ -87,8 +87,7 @@ def get_latest_release(repo: Repository) -> GitRelease:
 def get_mod_asset(release: GitRelease) -> GitReleaseAsset:
     release_assets = release.get_assets()
     for asset in release_assets:
-        if not asset.name.endswith(".jar") or any(
-                asset.name.endswith(s) for s in ["dev.jar", "sources.jar", "api.jar", "api2.jar"]):
+        if not asset.name.endswith(".jar") or any(asset.name.endswith(s) for s in ["dev.jar", "sources.jar", "api.jar", "api2.jar"]):
             continue
 
         return asset

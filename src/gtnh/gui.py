@@ -1,7 +1,7 @@
 import os
 import tkinter as tk
 from pathlib import Path
-from shutil import rmtree, move, copy
+from shutil import copy, rmtree
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import Progressbar
 from typing import Any, Callable, List, Optional, Tuple
@@ -12,17 +12,17 @@ from github import Github
 from github.Organization import Organization
 
 from gtnh.add_mod import get_repo, new_mod_from_repo
-from gtnh.exceptions import LatestReleaseNotFound, RepoNotFoundException, PackingInterruptException
+from gtnh.exceptions import LatestReleaseNotFound, PackingInterruptException, RepoNotFoundException
 from gtnh.mod_info import GTNHModpack
 from gtnh.pack_downloader import download_mod, ensure_cache_dir
-from gtnh.utils import get_token, load_gtnh_manifest, sort_and_write_modpack, get_latest_release
+from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, sort_and_write_modpack
 
 
 def download_mods(
-        gtnh_modpack: GTNHModpack,
-        github: Github,
-        organization: Organization,
-        callback: Optional[Callable[[float, str], None]] = None,
+    gtnh_modpack: GTNHModpack,
+    github: Github,
+    organization: Organization,
+    callback: Optional[Callable[[float, str], None]] = None,
 ) -> Tuple[List[Path], List[Path]]:
     """
     method to download all the mods required for the pack.
@@ -62,8 +62,7 @@ def download_mods(
     return client_paths, server_paths
 
 
-def pack_clientpack(client_paths: List[Path], pack_version: str,
-                    callback: Optional[Callable[[float, str], None]] = None) -> None:
+def pack_clientpack(client_paths: List[Path], pack_version: str, callback: Optional[Callable[[float, str], None]] = None) -> None:
     """
     Method used to pack all the client files into a client archive.
 
@@ -95,8 +94,7 @@ def pack_clientpack(client_paths: List[Path], pack_version: str,
     with ZipFile(archive_name, "w") as client_archive:
         for mod_path in client_paths:
             if callback is not None:
-                callback(delta_progress,
-                         f"Packing client archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
+                callback(delta_progress, f"Packing client archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
 
             # writing the file in the zip
             client_archive.write(mod_path, mod_path.relative_to(cache_dir / "client_archive"))
@@ -107,8 +105,7 @@ def pack_clientpack(client_paths: List[Path], pack_version: str,
     os.chdir(cwd)
 
 
-def pack_serverpack(server_paths: List[Path], pack_version: str,
-                    callback: Optional[Callable[[float, str], None]] = None) -> None:
+def pack_serverpack(server_paths: List[Path], pack_version: str, callback: Optional[Callable[[float, str], None]] = None) -> None:
     """
     Method used to pack all the server files into a client archive.
 
@@ -140,8 +137,7 @@ def pack_serverpack(server_paths: List[Path], pack_version: str,
     with ZipFile(archive_name, "w") as server_archive:
         for mod_path in server_paths:
             if callback is not None:
-                callback(delta_progress,
-                         f"Packing server archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
+                callback(delta_progress, f"Packing server archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
 
             # writing the file in the zip
             server_archive.write(mod_path, mod_path.relative_to(cache_dir / "server_archive"))
@@ -270,7 +266,7 @@ def handle_pack_extra_files() -> None:
     os.makedirs(temp_dir, exist_ok=True)
 
     # unzip
-    with ZipFile(gtnh_archive_path, 'r') as zip_ref:
+    with ZipFile(gtnh_archive_path, "r") as zip_ref:
         zip_ref.extractall(temp_dir)
     print("unzipped the pack")
 
@@ -461,8 +457,7 @@ class AddRepoPopup(tk.Toplevel):
 
                     # let the user know that the repository has no release, therefore it won't be added to the list
                     except LatestReleaseNotFound:
-                        showerror("no release availiable on the repository",
-                                  f"the repository {name} has no release, aborting")
+                        showerror("no release availiable on the repository", f"the repository {name} has no release, aborting")
 
             # releasing the blocking
             self.is_messagebox_open = False
@@ -522,8 +517,7 @@ class ArchivePopup(tk.Toplevel):
         self.progress_label["text"] = label.format(self.progress_bar["value"])
         self.update()
 
-    def download_mods_client(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> Tuple[
-        List[Path], List[Path]]:
+    def download_mods_client(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> Tuple[List[Path], List[Path]]:
         """
         client version of download_mods.
 
