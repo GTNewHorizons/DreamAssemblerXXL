@@ -13,6 +13,7 @@ from github.Repository import Repository
 from gtnh.defs import BLACKLISTED_REPOS_FILE, GTNH_MODPACK_FILE, MAVEN_BASE_URL, OTHER, UNKNOWN
 from gtnh.exceptions import LatestReleaseNotFound, NoModAssetFound
 from gtnh.mod_info import GTNHModpack
+from pathlib import Path
 
 
 @cache
@@ -35,16 +36,17 @@ def get_all_repos(o: Organization) -> Dict[str, Repository]:
 
 
 def modpack_manifest() -> str:
-    return os.path.abspath(os.path.dirname(__file__)) + "/../../" + GTNH_MODPACK_FILE
+    return (Path(__file__).parent.parent.parent / GTNH_MODPACK_FILE).absolute()
 
 
 def get_blacklisted_repos() -> Set[str]:
-    with open(os.path.abspath(os.path.dirname(__file__)) + "/../../" + BLACKLISTED_REPOS_FILE) as f:
+    with open((Path(__file__).parent.parent.parent / BLACKLISTED_REPOS_FILE).absolute()) as f:
         return set(json.loads(f.read()))
 
 
 def load_gtnh_manifest() -> GTNHModpack:
     with open(modpack_manifest()) as f:
+        print(modpack_manifest())
         gtnh_modpack = GTNHModpack.parse_raw(f.read())
 
     return gtnh_modpack
@@ -86,7 +88,8 @@ def get_latest_release(repo: Repository) -> GitRelease:
 def get_mod_asset(release: GitRelease) -> GitReleaseAsset:
     release_assets = release.get_assets()
     for asset in release_assets:
-        if not asset.name.endswith(".jar") or any(asset.name.endswith(s) for s in ["dev.jar", "sources.jar", "api.jar", "api2.jar"]):
+        if not asset.name.endswith(".jar") or any(
+                asset.name.endswith(s) for s in ["dev.jar", "sources.jar", "api.jar", "api2.jar"]):
             continue
 
         return asset
