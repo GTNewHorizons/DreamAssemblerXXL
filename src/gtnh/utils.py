@@ -35,7 +35,7 @@ def get_all_repos(o: Organization) -> Dict[str, Repository]:
     return {r.name: r for r in o.get_repos()}
 
 
-def modpack_manifest() -> str:
+def modpack_manifest() -> Path:
     return (Path(__file__).parent.parent.parent / GTNH_MODPACK_FILE).absolute()
 
 

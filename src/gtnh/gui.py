@@ -15,9 +15,7 @@ from gtnh.add_mod import get_repo, new_mod_from_repo
 from gtnh.exceptions import LatestReleaseNotFound, RepoNotFoundException, PackingInterruptException
 from gtnh.mod_info import GTNHModpack
 from gtnh.pack_downloader import download_mod, ensure_cache_dir
-from gtnh.utils import get_token, load_gtnh_manifest, sort_and_write_modpack
-
-from src.gtnh.utils import get_latest_release
+from gtnh.utils import get_token, load_gtnh_manifest, sort_and_write_modpack, get_latest_release
 
 
 def download_mods(
@@ -289,8 +287,8 @@ def handle_pack_extra_files() -> None:
 
     # listing of all the files for the archive
     availiable_files = set(crawl(temp_dir))
-    client_files = availiable_files - set(client_exclusions)
-    server_files = availiable_files - set(server_exclusions)
+    client_files = list(availiable_files - set(client_exclusions))
+    server_files = list(availiable_files - set(server_exclusions))
 
     # moving the files where they must go
     print("moving files for the client archive")
