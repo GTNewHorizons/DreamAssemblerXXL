@@ -1,26 +1,30 @@
 import os
 import tkinter as tk
 from pathlib import Path
+from shutil import rmtree, move, copy
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import Progressbar
 from typing import Any, Callable, List, Optional, Tuple
 from zipfile import ZipFile
 
+import requests
 from github import Github
 from github.Organization import Organization
 
 from gtnh.add_mod import get_repo, new_mod_from_repo
-from gtnh.exceptions import LatestReleaseNotFound, RepoNotFoundException
+from gtnh.exceptions import LatestReleaseNotFound, RepoNotFoundException, PackingInterruptException
 from gtnh.mod_info import GTNHModpack
 from gtnh.pack_downloader import download_mod, ensure_cache_dir
 from gtnh.utils import get_token, load_gtnh_manifest, sort_and_write_modpack
 
+from src.gtnh.utils import get_latest_release
+
 
 def download_mods(
-    gtnh_modpack: GTNHModpack,
-    github: Github,
-    organization: Organization,
-    callback: Optional[Callable[[float, str], None]] = None,
+        gtnh_modpack: GTNHModpack,
+        github: Github,
+        organization: Organization,
+        callback: Optional[Callable[[float, str], None]] = None,
 ) -> Tuple[List[Path], List[Path]]:
     """
     method to download all the mods required for the pack.
@@ -60,11 +64,13 @@ def download_mods(
     return client_paths, server_paths
 
 
-def pack_clientpack(client_paths: List[Path], callback: Optional[Callable[[float, str], None]] = None) -> None:
+def pack_clientpack(client_paths: List[Path], pack_version: str,
+                    callback: Optional[Callable[[float, str], None]] = None) -> None:
     """
     Method used to pack all the client files into a client archive.
 
     :param client_paths: a list containing all the Path objects refering to the files needed client side.
+    :param pack_version: the version of the pack.
     :param callback: Callable that takes a float and a string in parameters. (mainly the method to update the
             progress bar that takes a progress step per call and the label used to display infos to the user)
     :return: None
@@ -78,29 +84,38 @@ def pack_clientpack(client_paths: List[Path], callback: Optional[Callable[[float
     cache_dir = Path(ensure_cache_dir())
     os.chdir(cache_dir)
 
+    # archive name
+    archive_name = f"client-{pack_version}.zip"
+
     # deleting any previous client archive
-    if os.path.exists("client.zip"):
-        os.remove("client.zip")
+    if os.path.exists(archive_name):
+        os.remove(archive_name)
         print("previous client archive deleted")
 
+    print("zipping client archive")
     # zipping the files in the archive
-    with ZipFile("client.zip", "w") as client_archive:
+    with ZipFile(archive_name, "w") as client_archive:
         for mod_path in client_paths:
             if callback is not None:
-                callback(delta_progress, f"Packing client archive: {mod_path.name}. Progress: {{0}}%")
+                callback(delta_progress,
+                         f"Packing client archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
 
             # writing the file in the zip
-            client_archive.write(mod_path, mod_path.relative_to(cache_dir))
+            client_archive.write(mod_path, mod_path.relative_to(cache_dir / "client_archive"))
+
+    print("success!")
 
     # restoring the cwd
     os.chdir(cwd)
 
 
-def pack_serverpack(server_paths: List[Path], callback: Optional[Callable[[float, str], None]] = None) -> None:
+def pack_serverpack(server_paths: List[Path], pack_version: str,
+                    callback: Optional[Callable[[float, str], None]] = None) -> None:
     """
     Method used to pack all the server files into a client archive.
 
     :param server_paths: a list containing all the Path objects refering to the files needed server side.
+    :param pack_version: the version of the pack.
     :param callback: Callable that takes a float and a string in parameters. (mainly the method to update the
             progress bar that takes a progress step per call and the label used to display infos to the user)
     :return: None
@@ -114,22 +129,175 @@ def pack_serverpack(server_paths: List[Path], callback: Optional[Callable[[float
     cache_dir = Path(ensure_cache_dir())
     os.chdir(cache_dir)
 
+    # archive name
+    archive_name = f"server-{pack_version}.zip"
+
     # deleting any previous client archive
-    if os.path.exists("server.zip"):
-        os.remove("server.zip")
+    if os.path.exists(archive_name):
+        os.remove(archive_name)
         print("previous server archive deleted")
 
+    print("zipping client archive")
     # zipping the files in the archive
-    with ZipFile("server.zip", "w") as server_archive:
+    with ZipFile(archive_name, "w") as server_archive:
         for mod_path in server_paths:
             if callback is not None:
-                callback(delta_progress, f"Packing server archive: {mod_path.name}. Progress: {{0}}%")
+                callback(delta_progress,
+                         f"Packing server archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
 
             # writing the file in the zip
-            server_archive.write(mod_path, Path("mods") / mod_path.name)
+            server_archive.write(mod_path, mod_path.relative_to(cache_dir / "server_archive"))
+
+    print("success!")
 
     # restoring the cwd
     os.chdir(cwd)
+
+
+def download_pack_archive() -> Path:
+    """
+    Method used to download the latest gtnh modpack archive.
+
+    :return: the path of the downloaded archive
+    """
+    gtnh_modpack_repo = get_repo("GT-New-Horizons-Modpack")
+
+    gtnh_archive_release = get_latest_release(gtnh_modpack_repo)
+    print("***********************************************************")
+    print(f"Downloading {'GT-New-Horizons-Modpack'}:{gtnh_archive_release.title}")
+
+    if not gtnh_archive_release:
+        print(f"*** No release found for {'GT-New-Horizons-Modpack'}:{gtnh_archive_release.title}")
+        raise LatestReleaseNotFound
+
+    release_assets = gtnh_archive_release.get_assets()
+    for asset in release_assets:
+        if not asset.name.endswith(".zip"):
+            continue
+
+        print(f"Found Release at {asset.browser_download_url}")
+        cache_dir = ensure_cache_dir()
+        gtnh_archive_path = cache_dir / asset.name
+
+        if os.path.exists(gtnh_archive_path):
+            print(f"Skipping re-redownload of {asset.name}")
+            continue
+
+        print(f"Downloading {asset.name} to {gtnh_archive_path}")
+
+        headers = {"Authorization": f"token {get_token()}", "Accept": "application/octet-stream"}
+
+        with requests.get(asset.url, stream=True, headers=headers) as r:
+            r.raise_for_status()
+            with open(gtnh_archive_path, "wb") as f:
+                for chunk in r.iter_content(chunk_size=8192):
+                    f.write(chunk)
+        print("Download successful")
+    return gtnh_archive_path
+
+
+def move_file_to_folder(path_list: List[Path], source_root: Path, destination_root: Path) -> None:
+    """
+    Function used to move files from the source folder to the destination folder, while keeping the relative path.
+
+    :param path_list: the list of files to move.
+    :param source_root: the root folder of the files to move. It is assumed that path_list has files comming from the
+                        same root folder.
+    :param destination_root: the root folder for the destination.
+    :return: None
+    """
+    for file in path_list:
+        dst = destination_root / file.relative_to(source_root)
+        if not dst.parent.is_dir():
+            os.makedirs(dst.parent)
+        copy(file, dst)
+
+
+def crawl(path: Path) -> List[Path]:
+    """
+    Function that will recursively list all the files of a folder.
+
+    :param path: The folder to scan
+    :return: The list of all the files contained in that folder
+    """
+    files = [x for x in path.iterdir() if x.is_file()]
+    for folder in [x for x in path.iterdir() if x.is_dir()]:
+        files.extend(crawl(folder))
+    return files
+
+
+def move_mods(client_paths: List[Path], server_paths: List[Path]) -> None:
+    """
+    Method used to move the mods in their correct archive folder after they have been downloaded.
+
+    :param client_paths: the paths for the mods clientside
+    :param server_paths: the paths for the mods serverside
+    :return: None
+    """
+    client_folder = Path(__file__).parent / "cache" / "client_archive"
+    server_folder = Path(__file__).parent / "cache" / "server_archive"
+    source_root = Path(__file__).parent / "cache"
+
+    if client_folder.exists():
+        rmtree(client_folder)
+        os.makedirs(client_folder)
+
+    if server_folder.exists():
+        rmtree(server_folder)
+        os.makedirs(server_folder)
+
+    move_file_to_folder(client_paths, source_root, client_folder)
+    move_file_to_folder(server_paths, source_root, server_folder)
+
+
+def handle_pack_extra_files() -> None:
+    """
+    Method used to handle all the files needed by the pack like the configs or the scripts.
+
+    :return: None
+    """
+
+    # download the gtnh modpack archive
+    # catch is overkill but we never know
+    try:
+        gtnh_archive_path = download_pack_archive()
+    except LatestReleaseNotFound:
+        showerror("release not found", "The gtnh modpack repo has no release. Aborting.")
+        raise PackingInterruptException
+
+    # prepare for the temp dir receiving the unzip of the archive
+    temp_dir = Path(gtnh_archive_path.parent / "temp")
+    if temp_dir.exists():
+        rmtree(temp_dir)
+    os.makedirs(temp_dir, exist_ok=True)
+
+    # unzip
+    with ZipFile(gtnh_archive_path, 'r') as zip_ref:
+        zip_ref.extractall(temp_dir)
+    print("unzipped the pack")
+
+    # load gtnh metadata
+    gtnh_metadata = load_gtnh_manifest()
+
+    # path for the prepared archives
+    client_folder = Path(__file__).parent / "cache" / "client_archive"
+    server_folder = Path(__file__).parent / "cache" / "server_archive"
+
+    # exclusion lists
+    client_exclusions = [temp_dir / exclusion for exclusion in gtnh_metadata.client_exclusions]
+    server_exclusions = [temp_dir / exclusion for exclusion in gtnh_metadata.server_exclusions]
+
+    # listing of all the files for the archive
+    availiable_files = set(crawl(temp_dir))
+    client_files = availiable_files - set(client_exclusions)
+    server_files = availiable_files - set(server_exclusions)
+
+    # moving the files where they must go
+    print("moving files for the client archive")
+    move_file_to_folder(client_files, temp_dir, client_folder)
+    print("moving files for the server archive")
+    move_file_to_folder(server_files, temp_dir, server_folder)
+    print("success")
 
 
 class MainFrame(tk.Tk):
@@ -295,7 +463,8 @@ class AddRepoPopup(tk.Toplevel):
 
                     # let the user know that the repository has no release, therefore it won't be added to the list
                     except LatestReleaseNotFound:
-                        showerror("no release availiable on the repository", f"the repository {name} has no release, aborting")
+                        showerror("no release availiable on the repository",
+                                  f"the repository {name} has no release, aborting")
 
             # releasing the blocking
             self.is_messagebox_open = False
@@ -333,14 +502,20 @@ class ArchivePopup(tk.Toplevel):
         github = Github(get_token())
         organization = github.get_organization("GTNewHorizons")
         gtnh_modpack = load_gtnh_manifest()
-        client_paths, server_paths = self.download_mods_client(gtnh_modpack, github, organization)
+        client_folder = Path(__file__).parent / "cache" / "client_archive"
+        server_folder = Path(__file__).parent / "cache" / "server_archive"
 
-        self.handle_pack_extra_files()
-        self.pack_clientpack_client(client_paths)
-        self.pack_serverpack_client(server_paths)
-        self.pack_technic()
-        self.make_deploader_json()
-        self.pack_curse()
+        try:
+            client_paths, server_paths = self.download_mods_client(gtnh_modpack, github, organization)
+            move_mods(client_paths, server_paths)
+            handle_pack_extra_files()
+            self.pack_clientpack_client(crawl(client_folder), gtnh_modpack.modpack_version)
+            self.pack_serverpack_client(crawl(server_folder), gtnh_modpack.modpack_version)
+            self.pack_technic()
+            self.make_deploader_json()
+            self.pack_curse()
+        except PackingInterruptException:
+            pass
 
     def _progress_callback(self, delta_progress: float, label: str) -> None:
         # updating the progress bar
@@ -349,7 +524,8 @@ class ArchivePopup(tk.Toplevel):
         self.progress_label["text"] = label.format(self.progress_bar["value"])
         self.update()
 
-    def download_mods_client(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> Tuple[List[Path], List[Path]]:
+    def download_mods_client(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> Tuple[
+        List[Path], List[Path]]:
         """
         client version of download_mods.
 
@@ -361,31 +537,25 @@ class ArchivePopup(tk.Toplevel):
         """
         return download_mods(gtnh_modpack, github, organization, self._progress_callback)
 
-    def pack_clientpack_client(self, client_paths: List[Path]) -> None:
+    def pack_clientpack_client(self, client_paths: List[Path], pack_version: str) -> None:
         """
         Client version of pack_clientpack.
 
         :param client_paths: a list containing all the Path objects refering to the files needed client side.
+        :param pack_version: the pack version.
         :return: None
         """
-        pack_clientpack(client_paths, self._progress_callback)
+        pack_clientpack(client_paths, pack_version, self._progress_callback)
 
-    def pack_serverpack_client(self, server_paths: List[Path]) -> None:
+    def pack_serverpack_client(self, server_paths: List[Path], pack_version: str) -> None:
         """
         Client version of pack_serverpack
 
         :param server_paths: a list containing all the Path objects refering to the files needed server side.
+        :param pack_version: the pack version.
         :return: None
         """
-        pack_serverpack(server_paths, self._progress_callback)
-
-    def handle_pack_extra_files(self) -> None:
-        """
-        Method used to handle all the files needed by the pack like the configs or the scripts.
-
-        :return: None
-        """
-        pass
+        pack_serverpack(server_paths, pack_version, self._progress_callback)
 
     def make_deploader_json(self) -> None:
         """

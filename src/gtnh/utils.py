@@ -46,7 +46,6 @@ def get_blacklisted_repos() -> Set[str]:
 
 def load_gtnh_manifest() -> GTNHModpack:
     with open(modpack_manifest()) as f:
-        print(modpack_manifest())
         gtnh_modpack = GTNHModpack.parse_raw(f.read())
 
     return gtnh_modpack
