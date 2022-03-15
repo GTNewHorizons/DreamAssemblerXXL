@@ -190,7 +190,7 @@ def download_pack_archive() -> Path:
     return gtnh_archive_path
 
 
-def move_file_to_folder(path_list: List[Path], source_root: Path, destination_root: Path) -> None:
+def copy_file_to_folder(path_list: List[Path], source_root: Path, destination_root: Path) -> None:
     """
     Function used to move files from the source folder to the destination folder, while keeping the relative path.
 
@@ -240,8 +240,8 @@ def move_mods(client_paths: List[Path], server_paths: List[Path]) -> None:
         rmtree(server_folder)
         os.makedirs(server_folder)
 
-    move_file_to_folder(client_paths, source_root, client_folder)
-    move_file_to_folder(server_paths, source_root, server_folder)
+    copy_file_to_folder(client_paths, source_root, client_folder)
+    copy_file_to_folder(server_paths, source_root, server_folder)
 
 
 def handle_pack_extra_files() -> None:
@@ -288,9 +288,9 @@ def handle_pack_extra_files() -> None:
 
     # moving the files where they must go
     print("moving files for the client archive")
-    move_file_to_folder(client_files, temp_dir, client_folder)
+    copy_file_to_folder(client_files, temp_dir, client_folder)
     print("moving files for the server archive")
-    move_file_to_folder(server_files, temp_dir, server_folder)
+    copy_file_to_folder(server_files, temp_dir, server_folder)
     print("success")
 
 
