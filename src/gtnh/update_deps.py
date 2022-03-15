@@ -32,13 +32,13 @@ GTNH_MAVEN = """
     }
 """
 
-LOGGER = logging.getLogger("update_deps")
-LOGGER.setLevel(logging.ERROR)
+log = logging.getLogger("update_deps")
+log.setLevel(logging.ERROR)
 
 
 def find_and_update_deps() -> None:
     if not os.path.exists(DEP_FILE):
-        LOGGER.error(f"Unable to locate {DEP_FILE} in the current directory")
+        log.error(f"Unable to locate {DEP_FILE} in the current directory")
         return
     gtnh_mod_info = load_gtnh_manifest()
 
@@ -51,7 +51,7 @@ def find_and_update_deps() -> None:
                     mod_info = gtnh_mod_info.get_github_mod(mod_name)
                     latest_version = mod_info.version
                     if mod_version != latest_version:
-                        print(f"Updating {mod_name} from `{mod_version}` to '{latest_version}'")
+                        log.info(f"Updating {mod_name} from `{mod_version}` to '{latest_version}'")
                         line = line.replace(
                             MOD_VERSION_REPLACE.format(mod_name=mod_name, version=mod_version),
                             MOD_VERSION_REPLACE.format(mod_name=mod_name, version=latest_version),
@@ -59,9 +59,9 @@ def find_and_update_deps() -> None:
                         fp.write(line)
                         continue
                     else:
-                        LOGGER.info(f"{mod_name} is already at the latest version '{latest_version}'")
+                        log.info(f"{mod_name} is already at the latest version '{latest_version}'")
                 else:
-                    LOGGER.info(f"No latest version info for mod {mod_name}")
+                    log.info(f"No latest version info for mod {mod_name}")
 
             # No match
             fp.write(line)
@@ -69,17 +69,17 @@ def find_and_update_deps() -> None:
 
 def verify_gtnh_maven() -> None:
     if not os.path.exists(REPO_FILE):
-        LOGGER.error(f"Unable to locate {REPO_FILE} in the current directory")
+        log.error(f"Unable to locate {REPO_FILE} in the current directory")
         return
 
     with open(REPO_FILE) as fp:
         repos = fp.read()
         if repos.find("http://jenkins.usrv.eu:8081/nexus/content/groups/public/") != -1:
-            LOGGER.info("GTNH Maven already found")
+            log.info("GTNH Maven already found")
             return
 
     with InPlace(REPO_FILE) as fp:
-        LOGGER.info("Adding GTNH Maven")
+        log.info("Adding GTNH Maven")
         repos = fp.read()
         repos = repos.replace("repositories {\n", "repositories {" + GTNH_MAVEN)
         fp.write(repos)
