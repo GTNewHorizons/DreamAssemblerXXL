@@ -1,6 +1,7 @@
 import json
 import os
 from functools import cache
+from pathlib import Path
 from typing import Dict, Optional, Set
 
 import requests
@@ -34,12 +35,12 @@ def get_all_repos(o: Organization) -> Dict[str, Repository]:
     return {r.name: r for r in o.get_repos()}
 
 
-def modpack_manifest() -> str:
-    return os.path.abspath(os.path.dirname(__file__)) + "/../../" + GTNH_MODPACK_FILE
+def modpack_manifest() -> Path:
+    return (Path(__file__).parent.parent.parent / GTNH_MODPACK_FILE).absolute()
 
 
 def get_blacklisted_repos() -> Set[str]:
-    with open(os.path.abspath(os.path.dirname(__file__)) + "/../../" + BLACKLISTED_REPOS_FILE) as f:
+    with open((Path(__file__).parent.parent.parent / BLACKLISTED_REPOS_FILE).absolute()) as f:
         return set(json.loads(f.read()))
 
 

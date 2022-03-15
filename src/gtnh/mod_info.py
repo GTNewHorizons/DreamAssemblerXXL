@@ -22,6 +22,10 @@ class ModInfo(BaseModel):
 
 class GTNHModpack(BaseModel):
     github_mods: List[ModInfo]
+    external_mods: List[ModInfo] = Field(default_factory=list)
+    modpack_version: str = Field(default="nightly")
+    server_exclusions: List[str] = Field(default_factory=list)
+    client_exclusions: List[str] = Field(default_factory=list)
 
     @cached_property
     def _github_modmap(self) -> Dict[str, ModInfo]:

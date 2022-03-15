@@ -16,3 +16,7 @@ class ModAlreadyExistsException(Exception):
 
 class NoModAssetFound(Exception):
     pass
+
+
+class PackingInterruptException(Exception):
+    pass
