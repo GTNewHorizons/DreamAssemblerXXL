@@ -313,6 +313,9 @@ class MainFrame(tk.Tk):
         tk.Tk.__init__(self)
         self.title("DreamAssemblerXXL - Main menu")
 
+        # setting up a gtnh metadata instance
+        self.gtnh_modpack = load_gtnh_manifest()
+
         # setting up the icon of the window
         imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
         self.tk.call('wm', 'iconphoto', self._w, imgicon)
@@ -365,7 +368,7 @@ class MainFrame(tk.Tk):
         # prevent the popup from appearing more than once
         if not self.is_new_repo_popup_open:
             self.is_new_repo_popup_open = True
-            self.repo_popup = AddRepoPopup()
+            self.repo_popup = AddRepoPopup(self)
             self.repo_popup.bind("<Destroy>", _unlock_popup)
 
     def handle_dependencies_update(self) -> None:
@@ -399,7 +402,7 @@ class MainFrame(tk.Tk):
         # prevent the popup from appearing more than once
         if not self.is_archive_popup_open:
             self.is_archive_popup_open = True
-            self.archive_popup = ArchivePopup()
+            self.archive_popup = ArchivePopup(self)
             self.archive_popup.bind("<Destroy>", _unlock_popup)
 
     def open_exclusion_popup(self) -> None:
@@ -424,11 +427,73 @@ class MainFrame(tk.Tk):
         # prevent the popup from appearing more than once
         if not self.is_exclusion_popup_open:
             self.is_exclusion_popup_open = True
-            self.exclusion_popup = HandleFileExclusionPopup()
+            self.exclusion_popup = HandleFileExclusionPopup(self)
             self.exclusion_popup.bind("<Destroy>", _unlock_popup)
 
 
-class AddRepoPopup(tk.Toplevel):
+class BasePopup(tk.Toplevel):
+    """
+    Base popup class.
+    """
+
+    def __init__(self, root: MainFrame,
+                 popup_name: str = "DreamAssemblerXXL",
+                 window_width: int = 200,
+                 window_height: int = 200,
+                 *args: Any,
+                 **kwargs: Any) -> None:
+        """
+        Constructor of the BasePopup class.
+
+        :param root: the MainFrame widget.
+        :param popup_name: Name of the popup window
+        :param window_width: width in pixel of the window by default
+        :param window_height: height in pixel of the window by default
+        :param args:
+        :param kwargs:
+        :return: None
+        """
+        tk.Toplevel.__init__(self, root, *args, **kwargs)
+        self.title(popup_name)
+        self.window_width = window_width
+        self.window_height = window_height
+        self.root = root
+
+        # setting up the icon of the window
+        imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
+        self.tk.call('wm', 'iconphoto', self._w, imgicon)
+
+        # setting up the size of the window
+        self.setup_size_windows()
+
+    def setup_size_windows(self) -> None:
+        """
+        Method setting up the size of the windows.
+
+        :return: None
+        """
+
+        self.geometry(f"{self.window_width}x{self.window_height}")
+        self.minsize(self.window_width, self.window_height)
+
+    def reload_gtnh_metadata(self) -> None:
+        """
+        Method to reload the metadata from disk.
+
+        :return: None
+        """
+        self.root.gtnh_modpack = load_gtnh_manifest()
+
+    def save_gtnh_metadata(self) -> None:
+        """
+        Method to save the metadata to disk.
+
+        :return: None
+        """
+        save_gtnh_manifest(self.root.gtnh_modpack)
+
+
+class AddRepoPopup(BasePopup):
     """
     Window allowing you to manage repositories in the github list contained in DreamAssemblerXXL.
     When adding a new Repository, the following things can happen:
@@ -437,34 +502,21 @@ class AddRepoPopup(tk.Toplevel):
     - Will raise you a tkinter info messagebox when the repository is successfully added to the list.
     """
 
-    def __init__(self) -> None:
+    def __init__(self, root: MainFrame) -> None:
         """
         Constructor of the AddRepoPopup class.
 
+        :param root: the MainFrame instance
         :return: None
         """
-        tk.Toplevel.__init__(self)
-        self.title("DreamAssemblerXXL - Repository adder")
-
-        # setting up the icon of the window
-        imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
-        self.tk.call('wm', 'iconphoto', self._w, imgicon)
-
-        # setting up the size of the window
-        self.geometry("200x200")
-        self.minsize(200, 200)
+        BasePopup.__init__(self,
+                           root,
+                           popup_name="DreamAssemblerXXL - Repository adder")
 
         # widgets in the window
-        self.label_name_repo = tk.Label(self, text="Add the new repository below")
-        self.stringvar_name_repo = tk.StringVar(self)
-        self.entry_name_repo = tk.Entry(self, textvariable=self.stringvar_name_repo, width=30)
-        self.btn_validate = tk.Button(self, text="validate", command=self.validate)
         self.custom_frame = CustomLabelFrame(self, self.get_repos(), False, add_callback=self.validate_callback)
 
         # grid manager
-        # self.label_name_repo.grid(row=0, column=0)
-        # self.entry_name_repo.grid(row=1, column=0)
-        # self.btn_validate.grid(row=2, column=0)
         self.custom_frame.grid(row=0, column=0)
 
         # state control vars
@@ -472,51 +524,6 @@ class AddRepoPopup(tk.Toplevel):
 
     def get_repos(self):
         return ["test 1"]
-
-    def validate(self) -> None:
-        """
-        Method executed when self.btn_validate is pressed by the user.
-
-        :return: None
-        """
-        # if no messagebox had been opened
-        if not self.is_messagebox_open:
-            self.is_messagebox_open = True
-
-            # resolving the name from the widget
-            name = self.stringvar_name_repo.get()
-
-            # checking the repo on github
-            try:
-                new_repo = get_repo(name)
-
-            # let the user know that the repository doesn't exist
-            except RepoNotFoundException:
-                showerror("repository not found", f"the repository {name} was not found on github.")
-
-            else:
-                # checking if the repo is already added
-                gtnh = load_gtnh_manifest()
-
-                # let the user know that the repository is already added
-                if gtnh.get_github_mod(new_repo.name):
-                    showwarning("repository already added", f"the repository {name} is already added.")
-
-                # adding the repo
-                else:
-                    try:
-                        new_mod = new_mod_from_repo(new_repo)
-                        gtnh.github_mods.append(new_mod)
-                        sort_and_write_modpack(gtnh)
-                        showinfo("repository added successfully", f"the repo {name} was added successfully!")
-
-                    # let the user know that the repository has no release, therefore it won't be added to the list
-                    except LatestReleaseNotFound:
-                        showerror("no release availiable on the repository",
-                                  f"the repository {name} has no release, aborting")
-
-            # releasing the blocking
-            self.is_messagebox_open = False
 
     def validate_callback(self, repo_name) -> bool:
         """
@@ -539,19 +546,17 @@ class AddRepoPopup(tk.Toplevel):
                 showerror("repository not found", f"the repository {repo_name} was not found on github.")
 
             else:
-                # checking if the repo is already added
-                gtnh = load_gtnh_manifest()
-
                 # let the user know that the repository is already added
-                if gtnh.get_github_mod(new_repo.name):
+                if self.root.gtnh_modpack.get_github_mod(new_repo.name):
                     showwarning("repository already added", f"the repository {repo_name} is already added.")
 
                 # adding the repo
                 else:
                     try:
                         new_mod = new_mod_from_repo(new_repo)
-                        gtnh.github_mods.append(new_mod)
-                        sort_and_write_modpack(gtnh)
+                        self.root.gtnh_modpack.github_mods.append(new_mod)
+                        sort_and_write_modpack(self.root.gtnh_modpack)
+                        self.reload_gtnh_metadata()
                         showinfo("repository added successfully", f"the repo {repo_name} was added successfully!")
                         repo_added = True
 
@@ -565,27 +570,23 @@ class AddRepoPopup(tk.Toplevel):
             return repo_added
 
 
-class ArchivePopup(tk.Toplevel):
+class ArchivePopup(BasePopup):
     """
     Window allowing you to pack the archives for all the supported plateforms.
     """
 
-    def __init__(self) -> None:
+    def __init__(self, root: MainFrame) -> None:
         """
         Constructor of the ArchivePopup class.
 
+        :param root: the MainFrame instance
         :return: None
         """
-        tk.Toplevel.__init__(self)
-        self.title("DreamAssemblerXXL - Archive packager")
-
-        # setting up the icon of the window
-        imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
-        self.tk.call('wm', 'iconphoto', self._w, imgicon)
-
-        # setting up the size of the window
-        self.geometry("500x70")
-        self.minsize(500, 70)
+        BasePopup.__init__(self,
+                           root,
+                           popup_name="DreamAssemblerXXL - Archive packager",
+                           window_width=500,
+                           window_height=80)
 
         # widgets on the window
         self.progress_bar = Progressbar(self, orient="horizontal", mode="determinate", length=500)
@@ -605,16 +606,15 @@ class ArchivePopup(tk.Toplevel):
         """
         github = Github(get_token())
         organization = github.get_organization("GTNewHorizons")
-        gtnh_modpack = load_gtnh_manifest()
         client_folder = Path(__file__).parent / "cache" / "client_archive"
         server_folder = Path(__file__).parent / "cache" / "server_archive"
 
         try:
-            client_paths, server_paths = self.download_mods_client(gtnh_modpack, github, organization)
+            client_paths, server_paths = self.download_mods_client(self.root.gtnh_modpack, github, organization)
             move_mods(client_paths, server_paths)
             handle_pack_extra_files()
-            self.pack_clientpack_client(crawl(client_folder), gtnh_modpack.modpack_version)
-            self.pack_serverpack_client(crawl(server_folder), gtnh_modpack.modpack_version)
+            self.pack_clientpack_client(crawl(client_folder), self.root.gtnh_modpack.modpack_version)
+            self.pack_serverpack_client(crawl(server_folder), self.root.gtnh_modpack.modpack_version)
             self.pack_technic()
             self.make_deploader_json()
             self.pack_curse()
@@ -628,8 +628,8 @@ class ArchivePopup(tk.Toplevel):
         self.progress_label["text"] = label.format(self.progress_bar["value"])
         self.update()
 
-    def download_mods_client(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> Tuple[
-        List[Path], List[Path]]:
+    def download_mods_client(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> \
+            Tuple[List[Path], List[Path]]:
         """
         client version of download_mods.
 
@@ -686,55 +686,50 @@ class ArchivePopup(tk.Toplevel):
         pass
 
 
-class HandleDepUpdatePopup(tk.Toplevel):
+class HandleDepUpdatePopup(BasePopup):
     """
     Window allowing you to update the dependencies.
     """
 
-    def __init__(self) -> None:
+    def __init__(self, root: MainFrame) -> None:
         """
         Constructor of HandleDepUpdatePopup class.
+
+        :param root: the MainFrame instance
+        :return: None
         """
-        tk.Toplevel.__init__(self)
-        self.title("DreamAssemblerXXL - gradle updater")
-
-        # setting up the icon of the window
-        imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
-        self.tk.call('wm', 'iconphoto', self._w, imgicon)
-
-        # setting up the size of the window
-        self.geometry("200x200")
-        self.minsize(200, 200)
+        BasePopup.__init__(self,
+                           root,
+                           popup_name="DreamAssemblerXXL - gradle updater",
+                           window_width=200,
+                           window_height=200)
 
 
-class HandleFileExclusionPopup(tk.Toplevel):
+class HandleFileExclusionPopup(BasePopup):
     """
     Window allowing you to update the files dedicated to clientside or serverside.
     """
 
-    # todo: make an edit checker and add a warning if the popup is closed without saving
-    def __init__(self, *args: Any, **kwargs: Any) -> None:
+    # todo: make an edit checker and add a warning if the popup is closed without saving, or use the callbacks of the
+    # CustomFrame to insta save when the user performs an action
+    def __init__(self, root: MainFrame) -> None:
         """
         Constructor of HandleFileExclusionPopup class.
+
+        :param root: the MainFrame instance
+        :return: None
         """
-        tk.Toplevel.__init__(self, *args, **kwargs)
-        self.title("DreamAssemblerXXL - Exclusions editor")
 
-        # setting up the icon of the window
-        imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
-        self.tk.call('wm', 'iconphoto', self._w, imgicon)
-
-        # setting up the size of the window
-        self.geometry("400x225")
-        self.minsize(400, 225)
-
-        # loading modpack metadata
-        self.gtnh_modpack: GTNHModpack = load_gtnh_manifest()
+        BasePopup.__init__(self,
+                           root,
+                           popup_name="DreamAssemblerXXL - Exclusions editor",
+                           window_width=200,
+                           window_height=200)
 
         # widgets
-        self.exclusion_frame_client = CustomLabelFrame(self, self.gtnh_modpack.client_exclusions, True,
+        self.exclusion_frame_client = CustomLabelFrame(self, self.root.gtnh_modpack.client_exclusions, True,
                                                        text="client entries")
-        self.exclusion_frame_server = CustomLabelFrame(self, self.gtnh_modpack.server_exclusions, True,
+        self.exclusion_frame_server = CustomLabelFrame(self, self.root.gtnh_modpack.server_exclusions, True,
                                                        text="server entries")
         self.btn_save = tk.Button(self, text="save modifications", command=self.save)
 
@@ -751,9 +746,9 @@ class HandleFileExclusionPopup(tk.Toplevel):
         """
 
         # todo: indicate to the user that the metadata had been saved
-        self.gtnh_modpack.client_exclusions = self.exclusion_frame_client.get_listbox_content()
-        self.gtnh_modpack.server_exclusions = self.exclusion_frame_server.get_listbox_content()
-        save_gtnh_manifest(self.gtnh_modpack)
+        self.root.gtnh_modpack.client_exclusions = self.exclusion_frame_client.get_listbox_content()
+        self.root.gtnh_modpack.server_exclusions = self.exclusion_frame_server.get_listbox_content()
+        self.save_gtnh_metadata()
 
 
 class CustomLabelFrame(tk.LabelFrame, tk.Frame):
@@ -841,6 +836,7 @@ class CustomLabelFrame(tk.LabelFrame, tk.Frame):
         :return: the list of entries contained in the listbox.
         """
         return [str(item) for item in self.listbox.get(0, tk.END)]
+
 
 if __name__ == "__main__":
     m = MainFrame()
