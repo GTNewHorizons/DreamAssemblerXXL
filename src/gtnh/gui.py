@@ -459,7 +459,7 @@ class AddRepoPopup(tk.Toplevel):
         self.stringvar_name_repo = tk.StringVar(self)
         self.entry_name_repo = tk.Entry(self, textvariable=self.stringvar_name_repo, width=30)
         self.btn_validate = tk.Button(self, text="validate", command=self.validate)
-        self.custom_frame = CustomFrame(self, self.get_repos(), add_callback=self.validate_callback)
+        self.custom_frame = CustomLabelFrame(self, self.get_repos(), False, add_callback=self.validate_callback)
 
         # grid manager
         # self.label_name_repo.grid(row=0, column=0)
@@ -732,9 +732,9 @@ class HandleFileExclusionPopup(tk.Toplevel):
         self.gtnh_modpack: GTNHModpack = load_gtnh_manifest()
 
         # widgets
-        self.exclusion_frame_client = CustomLabelFrame(self, self.gtnh_modpack.client_exclusions,
+        self.exclusion_frame_client = CustomLabelFrame(self, self.gtnh_modpack.client_exclusions, True,
                                                        text="client entries")
-        self.exclusion_frame_server = CustomLabelFrame(self, self.gtnh_modpack.server_exclusions,
+        self.exclusion_frame_server = CustomLabelFrame(self, self.gtnh_modpack.server_exclusions, True,
                                                        text="server entries")
         self.btn_save = tk.Button(self, text="save modifications", command=self.save)
 
@@ -756,21 +756,27 @@ class HandleFileExclusionPopup(tk.Toplevel):
         save_gtnh_manifest(self.gtnh_modpack)
 
 
-class CustomLabelFrame(tk.LabelFrame):
+class CustomLabelFrame(tk.LabelFrame, tk.Frame):
     """
-    Widget used in the HandleFileExclusionPopup class.
+    Widget providing a basic set of subwidgets to make an editable listbox.
     """
 
     def __init__(self,
                  master: Any,
                  entries: List[str],
+                 framed: bool,
                  add_callback=None,
                  delete_callback=None,
                  *args: Any, **kwargs: Any) -> None:
         """
         Constructor of CustomLabelFrame class.
         """
-        tk.LabelFrame.__init__(self, master, *args, **kwargs)
+        # select the appropriate frame
+        if framed:
+            tk.LabelFrame.__init__(self, master, *args, **kwargs)
+        else:
+            tk.Frame.__init__(self, master, *args, **kwargs)
+
         # callback memory
         self.add_callback = add_callback
         self.delete_callback = delete_callback
@@ -799,7 +805,7 @@ class CustomLabelFrame(tk.LabelFrame):
 
     def add(self) -> None:
         """
-        Method bound to self.btn_add. Let the user add the text in the entry as a new exclusion.
+        Method bound to self.btn_add. Let the user add the text in the entry in the listbox.
 
         :return: None
         """
@@ -835,89 +841,6 @@ class CustomLabelFrame(tk.LabelFrame):
         :return: the list of entries contained in the listbox.
         """
         return [str(item) for item in self.listbox.get(0, tk.END)]
-
-
-class CustomFrame(tk.LabelFrame):
-    """
-    Frame version of CustomLabelFrame.
-    """
-
-    def __init__(self,
-                 master: Any,
-                 entries: List[str],
-                 add_callback: Callable = None,
-                 delete_callback: Callable = None,
-                 *args: Any, **kwargs: Any) -> None:
-        """
-        Constructor of CustomFrame class.
-        """
-        tk.Frame.__init__(self, master, *args, **kwargs)
-
-        # callback memory
-        self.add_callback = add_callback
-        self.delete_callback = delete_callback
-
-        # widgets
-        self.listbox = tk.Listbox(self)
-        self.scrollbar = tk.Scrollbar(self)
-        self.stringvar = tk.StringVar(self, value="")
-        self.entry = tk.Entry(self, textvariable=self.stringvar)
-        self.btn_add = tk.Button(self, text="add", command=self.add)
-        self.btn_remove = tk.Button(self, text="remove", command=self.remove)
-
-        # bind the scrollbar
-        self.scrollbar.config(command=self.listbox.yview)
-
-        # populate the listbox
-        for entry in entries:
-            self.listbox.insert(tk.END, entry)
-
-        # grid manager
-        self.listbox.grid(row=0, column=0, columnspan=2)
-        self.scrollbar.grid(row=0, column=2, sticky="NS")
-        self.entry.grid(row=1, column=0, columnspan=2)
-        self.btn_add.grid(row=2, column=0, sticky="WE")
-        self.btn_remove.grid(row=2, column=1, sticky="WE")
-
-    def add(self) -> None:
-        """
-        Method bound to self.btn_add. Let the user add the text in the entry as a new exclusion.
-
-        :return: None
-        """
-        # todo: prevent duplicates and highlight the duplicated entry in the listbox
-        if self.add_callback is not None:
-            if self.add_callback(self.entry.get()):
-                self.listbox.insert(tk.END, self.entry.get())
-        else:
-            self.listbox.insert(tk.END, self.entry.get())
-
-    def remove(self) -> None:
-        """
-        Method bound to self.btn_remove. Let the user remove the selected entry in the listbox. Does nothing if no entry
-        had been selected in the listbox.
-
-        :return: None
-        """
-        # ignoring errors if the delete button had been pressed without selecting an item in the listbox
-        try:
-            index = self.listbox.curselection()[0]
-            if self.delete_callback is not None:
-                if self.delete_callback(self.listbox.get(index)):
-                    self.listbox.delete(index)
-            else:
-                self.listbox.delete(index)
-        except IndexError:
-            pass
-
-    def get_listbox_content(self) -> List[str]:
-        """
-        Method to return the list of the entries contained in the listbox.
-
-        :return: the list of entries contained in the listbox.
-        """
-        return [str(item) for item in self.listbox.get(0, tk.END)]
-
 
 if __name__ == "__main__":
     m = MainFrame()
