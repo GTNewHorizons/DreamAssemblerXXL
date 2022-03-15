@@ -440,6 +440,7 @@ class BasePopup(tk.Toplevel):
                  popup_name: str = "DreamAssemblerXXL",
                  window_width: int = 200,
                  window_height: int = 200,
+                 enforce_window_size: bool = False,
                  *args: Any,
                  **kwargs: Any) -> None:
         """
@@ -449,6 +450,7 @@ class BasePopup(tk.Toplevel):
         :param popup_name: Name of the popup window
         :param window_width: width in pixel of the window by default
         :param window_height: height in pixel of the window by default
+        :param enforce_window_size: activate windows size setup or not
         :param args:
         :param kwargs:
         :return: None
@@ -464,7 +466,8 @@ class BasePopup(tk.Toplevel):
         self.tk.call('wm', 'iconphoto', self._w, imgicon)
 
         # setting up the size of the window
-        self.setup_size_windows()
+        if enforce_window_size:
+            self.setup_size_windows()
 
     def setup_size_windows(self) -> None:
         """
