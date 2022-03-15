@@ -15,7 +15,7 @@ from gtnh.add_mod import get_repo, new_mod_from_repo
 from gtnh.exceptions import LatestReleaseNotFound, PackingInterruptException, RepoNotFoundException
 from gtnh.mod_info import GTNHModpack
 from gtnh.pack_downloader import download_mod, ensure_cache_dir
-from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, sort_and_write_modpack
+from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, sort_and_write_modpack, save_gtnh_manifest
 
 
 def download_mods(
@@ -312,20 +312,24 @@ class MainFrame(tk.Tk):
         # state control vars
         self.is_new_repo_popup_open = False
         self.is_archive_popup_open = False
+        self.is_exclusion_popup_open = False
 
         # widgets in the window
         self.btn_add_repo = tk.Button(self, text="add a new repository", command=self.open_new_repo_popup)
         self.btn_update_dep = tk.Button(self, text="update dependencies", command=self.handle_dependencies_update)
         self.btn_download = tk.Button(self, text="build archive", command=self.open_archive_popup)
+        self.btn_exclusions = tk.Button(self, text="edit exclusions", command=self.open_exclusion_popup)
 
         # grid manager
         self.btn_add_repo.pack()
         self.btn_update_dep.pack()
         self.btn_download.pack()
+        self.btn_exclusions.pack()
 
         # refs to popup toplevel widgets
         self.repo_popup: Optional[AddRepoPopup] = None
         self.archive_popup: Optional[ArchivePopup] = None
+        self.exclusion_popup: Optional[HandleFileExclusionPopup] = None
 
     def open_new_repo_popup(self) -> None:
         """
@@ -386,6 +390,30 @@ class MainFrame(tk.Tk):
             self.archive_popup = ArchivePopup()
             self.archive_popup.bind("<Destroy>", _unlock_popup)
 
+    def open_exclusion_popup(self) -> None:
+        """
+        Opens a new HandleFileExclusionPopup popup window. While this window is still open, the main window can't spawn
+        a new one of this type.
+
+        :return: None
+        """
+
+        def _unlock_popup(_: Any) -> None:
+            """
+            Method used to change the state var called is_archive_popup_open to False when the popup is closed.
+
+            :param _: Event passed by tkinter that we don't care as we know already on what even this function will be
+                      bound
+            :return: None
+            """
+            self.is_exclusion_popup_open = False
+            self.exclusion_popup = None
+
+        # prevent the popup from appearing more than once
+        if not self.is_exclusion_popup_open:
+            self.is_exclusion_popup_open = True
+            self.exclusion_popup = HandleFileExclusionPopup()
+            self.exclusion_popup.bind("<Destroy>", _unlock_popup)
 
 class AddRepoPopup(tk.Toplevel):
     """
@@ -584,6 +612,105 @@ class HandleDepUpdatePopup(tk.Toplevel):
         Constructor of HandleDepUpdatePopup class.
         """
         tk.Toplevel.__init__(self)
+
+
+class HandleFileExclusionPopup(tk.Toplevel):
+    """
+    Window allowing you to update the files dedicated to clientside or serverside.
+    """
+    # todo: make an edit checker and add a warning if the popup is closed without saving
+    def __init__(self, *args, **kwargs) -> None:
+        """
+        Constructor of HandleFileExclusionPopup class.
+        """
+        tk.Toplevel.__init__(self, *args, **kwargs)
+
+        #loading modpack metadata
+        self.gtnh_modpack: GTNHModpack = load_gtnh_manifest()
+
+        # widgets
+        self.exclusion_frame_client = ExclusionFrame(self,self.gtnh_modpack.client_exclusions, text="client exclusions")
+        self.exclusion_frame_server = ExclusionFrame(self,self.gtnh_modpack.server_exclusions, text="server exclusions")
+        self.btn_save = tk.Button(self, text="save modifications", command=self.save)
+
+        # grid manager
+        self.exclusion_frame_client.pack()
+        self.exclusion_frame_server.pack()
+        self.btn_save.pack()
+
+    def save(self) -> None:
+        """
+        Method called to save the metadata.
+
+        :return: None
+        """
+
+        # todo: indicate to the user that the metadata had been saved
+        self.gtnh_modpack.client_exclusions = self.exclusion_frame_client.get_exclusions()
+        self.gtnh_modpack.server_exclusions = self.exclusion_frame_server.get_exclusions()
+        save_gtnh_manifest(self.gtnh_modpack)
+
+
+class ExclusionFrame(tk.LabelFrame):
+    """
+    Widget used in the HandleFileExclusionPopup class.
+    """
+
+    def __init__(self, master, exclusions, *args, **kwargs) -> None:
+        """
+        Constructor of ExclusionFrame class.
+        """
+        tk.LabelFrame.__init__(self, master=master, *args, **kwargs)
+
+        # widgets
+        # todo: add a scrollbar
+        self.listbox = tk.Listbox(self)
+        self.stringvar = tk.StringVar(self, value="")
+        self.entry = tk.Entry(self, textvar=self.stringvar)
+        self.btn_add = tk.Button(self, text="add", command=self.add)
+        self.btn_remove = tk.Button(self, text="remove", command=self.remove)
+
+        #populate the listbox
+        for exclusion in exclusions:
+            self.listbox.insert(tk.END, exclusion)
+
+        # grid manager
+        self.listbox.pack()
+        self.entry.pack()
+        self.btn_add.pack()
+        self.btn_remove.pack()
+
+
+    def add(self) -> None:
+        """
+        Method bound to self.btn_add. Let the user add the text in the entry as a new exclusion.
+
+        :return: None
+        """
+        # todo: prevent duplicates and highlight the duplicated entry in the listbox
+        self.listbox.insert(tk.END, self.entry.get())
+
+    def remove(self) -> None:
+        """
+        Method bound to self.btn_remove. Let the user remove the selected entry in the listbox. Does nothing if no entry
+        had been selected in the listbox.
+
+        :return: None
+        """
+        # ignoring errors if the delete button had been pressed without selecting an item in the listbox
+        try:
+            self.listbox.delete(self.listbox.curselection()[0])
+        except IndexError:
+            pass
+
+    def get_exclusions(self) -> List[str]:
+        """
+        Method to return the list of the exclusions contained in the listbox.
+
+        :return: the list of exclusions contained in the listbox.
+        """
+        return self.listbox.get(0, tk.END)
+
 
 
 if __name__ == "__main__":

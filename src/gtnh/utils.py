@@ -50,6 +50,9 @@ def load_gtnh_manifest() -> GTNHModpack:
 
     return gtnh_modpack
 
+def save_gtnh_manifest(gtnh_modpack:GTNHModpack) -> None:
+    with open(modpack_manifest(), "w") as f:
+        f.write(gtnh_modpack.json())
 
 def sort_and_write_modpack(gtnh: GTNHModpack) -> None:
     gtnh.github_mods.sort(key=lambda m: m.name.lower())
