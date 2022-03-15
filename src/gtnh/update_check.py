@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import logging
 from typing import Dict
 
 from colorama import Fore, Style, init
@@ -21,6 +22,9 @@ from gtnh.utils import (
     sort_and_write_modpack,
 )
 
+LOGGER = logging.getLogger("update_check")
+LOGGER.setLevel(logging.WARNING)
+
 init(autoreset=True)
 
 
@@ -29,7 +33,7 @@ class NoReleasesException(Exception):
 
 
 def check_for_updates(all_repos: Dict[str, Repository], gtnh_modpack: GTNHModpack) -> None:
-    print("Checking for updates")
+    LOGGER.info("Checking for updates")
 
     for mod in gtnh_modpack.github_mods:
         check_mod_for_update(all_repos, mod)
@@ -38,10 +42,10 @@ def check_for_updates(all_repos: Dict[str, Repository], gtnh_modpack: GTNHModpac
 def check_mod_for_update(all_repos: Dict[str, Repository], mod: ModInfo) -> None:
     version_updated = False
 
-    print(f"Checking {mod.name}:{mod.version} for updates")
+    LOGGER.info(f"Checking {mod.name}:{mod.version} for updates")
     repo = all_repos.get(mod.name, None)
     if repo is None:
-        print(f"{Fore.RED}Couldn't find repo {Style.DIM}{mod.name}")
+        LOGGER.warning(f"{Fore.RED}Couldn't find repo {Style.DIM}{mod.name}")
         return
 
     latest_release = get_latest_release(repo)
@@ -49,7 +53,7 @@ def check_mod_for_update(all_repos: Dict[str, Repository], mod: ModInfo) -> None
     latest_version = latest_release.tag_name
 
     if latest_version > mod.version:
-        print(f"Update found for {mod.name} {Style.DIM}{Fore.GREEN}{mod.version}{Style.RESET_ALL} -> {Fore.GREEN}{latest_version}")
+        LOGGER.info(f"Update found for {mod.name} {Style.DIM}{Fore.GREEN}{mod.version}{Style.RESET_ALL} -> {Fore.GREEN}{latest_version}")
         mod.version = latest_version
         version_updated = True
 
@@ -77,7 +81,7 @@ if __name__ == "__main__":
     g = Github(get_token())
     o = g.get_organization("GTNewHorizons")
 
-    print("Grabbing all repository information")
+    LOGGER.info("Grabbing all repository information")
     all_repos = get_all_repos(o)
     gtnh = load_gtnh_manifest()
 
@@ -87,8 +91,8 @@ if __name__ == "__main__":
 
     missing_repos = check_for_missing_repos(all_repos, gtnh)
     if len(missing_repos):
-        print(f"{Fore.RED}****** Missing Mods:{Style.RESET_ALL} {', '.join(sorted(missing_repos))}")
+        LOGGER.warning(f"{Fore.RED}****** Missing Mods:{Style.RESET_ALL} {', '.join(sorted(missing_repos))}")
 
     missing_maven = check_for_missing_maven(gtnh)
     if len(missing_maven):
-        print(f"{Fore.RED}****** Missing Maven:{Style.RESET_ALL} {', '.join(sorted(missing_maven))}")
+        LOGGER.warning(f"{Fore.RED}****** Missing Maven:{Style.RESET_ALL} {', '.join(sorted(missing_maven))}")

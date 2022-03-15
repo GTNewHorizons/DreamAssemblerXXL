@@ -12,6 +12,7 @@
 # Requires python3 and the `in_place` package
 #
 
+import logging
 import os.path
 import re
 
@@ -31,10 +32,13 @@ GTNH_MAVEN = """
     }
 """
 
+LOGGER = logging.getLogger("update_deps")
+LOGGER.setLevel(logging.ERROR)
+
 
 def find_and_update_deps() -> None:
     if not os.path.exists(DEP_FILE):
-        print(f"ERROR: Unable to locate {DEP_FILE} in the current directory")
+        LOGGER.error(f"Unable to locate {DEP_FILE} in the current directory")
         return
     gtnh_mod_info = load_gtnh_manifest()
 
@@ -55,9 +59,9 @@ def find_and_update_deps() -> None:
                         fp.write(line)
                         continue
                     else:
-                        print(f"{mod_name} is already at the latest version '{latest_version}'")
+                        LOGGER.info(f"{mod_name} is already at the latest version '{latest_version}'")
                 else:
-                    print(f"No latest version info for mod {mod_name}")
+                    LOGGER.info(f"No latest version info for mod {mod_name}")
 
             # No match
             fp.write(line)
@@ -65,17 +69,17 @@ def find_and_update_deps() -> None:
 
 def verify_gtnh_maven() -> None:
     if not os.path.exists(REPO_FILE):
-        print(f"ERROR: Unable to locate {REPO_FILE} in the current directory")
+        LOGGER.error(f"Unable to locate {REPO_FILE} in the current directory")
         return
 
     with open(REPO_FILE) as fp:
         repos = fp.read()
         if repos.find("http://jenkins.usrv.eu:8081/nexus/content/groups/public/") != -1:
-            print("GTNH Maven already found")
+            LOGGER.info("GTNH Maven already found")
             return
 
     with InPlace(REPO_FILE) as fp:
-        print("Adding GTNH Maven")
+        LOGGER.info("Adding GTNH Maven")
         repos = fp.read()
         repos = repos.replace("repositories {\n", "repositories {" + GTNH_MAVEN)
         fp.write(repos)

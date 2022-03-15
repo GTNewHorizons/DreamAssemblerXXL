@@ -1,3 +1,4 @@
+import logging
 import os
 import tkinter as tk
 from pathlib import Path
@@ -16,6 +17,9 @@ from gtnh.exceptions import LatestReleaseNotFound, PackingInterruptException, Re
 from gtnh.mod_info import GTNHModpack
 from gtnh.pack_downloader import download_mod, ensure_cache_dir
 from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, sort_and_write_modpack
+
+LOGGER = logging.getLogger("gui")
+LOGGER.setLevel(logging.WARNING)
 
 
 def download_mods(
@@ -87,9 +91,9 @@ def pack_clientpack(client_paths: List[Path], pack_version: str, callback: Optio
     # deleting any previous client archive
     if os.path.exists(archive_name):
         os.remove(archive_name)
-        print("previous client archive deleted")
+        LOGGER.info("previous client archive deleted")
 
-    print("zipping client archive")
+    LOGGER.info("zipping client archive")
     # zipping the files in the archive
     with ZipFile(archive_name, "w") as client_archive:
         for mod_path in client_paths:
@@ -99,7 +103,7 @@ def pack_clientpack(client_paths: List[Path], pack_version: str, callback: Optio
             # writing the file in the zip
             client_archive.write(mod_path, mod_path.relative_to(cache_dir / "client_archive"))
 
-    print("success!")
+    LOGGER.info("success!")
 
     # restoring the cwd
     os.chdir(cwd)
@@ -130,9 +134,9 @@ def pack_serverpack(server_paths: List[Path], pack_version: str, callback: Optio
     # deleting any previous client archive
     if os.path.exists(archive_name):
         os.remove(archive_name)
-        print("previous server archive deleted")
+        LOGGER.info("previous server archive deleted")
 
-    print("zipping client archive")
+    LOGGER.info("zipping client archive")
     # zipping the files in the archive
     with ZipFile(archive_name, "w") as server_archive:
         for mod_path in server_paths:
@@ -142,7 +146,7 @@ def pack_serverpack(server_paths: List[Path], pack_version: str, callback: Optio
             # writing the file in the zip
             server_archive.write(mod_path, mod_path.relative_to(cache_dir / "server_archive"))
 
-    print("success!")
+    LOGGER.info("success!")
 
     # restoring the cwd
     os.chdir(cwd)
@@ -157,11 +161,11 @@ def download_pack_archive() -> Path:
     gtnh_modpack_repo = get_repo("GT-New-Horizons-Modpack")
 
     gtnh_archive_release = get_latest_release(gtnh_modpack_repo)
-    print("***********************************************************")
-    print(f"Downloading {'GT-New-Horizons-Modpack'}:{gtnh_archive_release.title}")
+    LOGGER.info("***********************************************************")
+    LOGGER.info(f"Downloading {'GT-New-Horizons-Modpack'}:{gtnh_archive_release.title}")
 
     if not gtnh_archive_release:
-        print(f"*** No release found for {'GT-New-Horizons-Modpack'}:{gtnh_archive_release.title}")
+        LOGGER.warning(f"*** No release found for {'GT-New-Horizons-Modpack'}:{gtnh_archive_release.title}")
         raise LatestReleaseNotFound
 
     release_assets = gtnh_archive_release.get_assets()
@@ -169,15 +173,15 @@ def download_pack_archive() -> Path:
         if not asset.name.endswith(".zip"):
             continue
 
-        print(f"Found Release at {asset.browser_download_url}")
+        LOGGER.info(f"Found Release at {asset.browser_download_url}")
         cache_dir = ensure_cache_dir()
         gtnh_archive_path = cache_dir / asset.name
 
         if os.path.exists(gtnh_archive_path):
-            print(f"Skipping re-redownload of {asset.name}")
+            LOGGER.info(f"Skipping re-redownload of {asset.name}")
             continue
 
-        print(f"Downloading {asset.name} to {gtnh_archive_path}")
+        LOGGER.info(f"Downloading {asset.name} to {gtnh_archive_path}")
 
         headers = {"Authorization": f"token {get_token()}", "Accept": "application/octet-stream"}
 
@@ -186,7 +190,7 @@ def download_pack_archive() -> Path:
             with open(gtnh_archive_path, "wb") as f:
                 for chunk in r.iter_content(chunk_size=8192):
                     f.write(chunk)
-        print("Download successful")
+        LOGGER.info("Download successful")
     return gtnh_archive_path
 
 
@@ -268,7 +272,7 @@ def handle_pack_extra_files() -> None:
     # unzip
     with ZipFile(gtnh_archive_path, "r") as zip_ref:
         zip_ref.extractall(temp_dir)
-    print("unzipped the pack")
+    LOGGER.info("unzipped the pack")
 
     # load gtnh metadata
     gtnh_metadata = load_gtnh_manifest()
@@ -287,11 +291,11 @@ def handle_pack_extra_files() -> None:
     server_files = list(availiable_files - set(server_exclusions))
 
     # moving the files where they must go
-    print("moving files for the client archive")
+    LOGGER.info("moving files for the client archive")
     move_file_to_folder(client_files, temp_dir, client_folder)
-    print("moving files for the server archive")
+    LOGGER.info("moving files for the server archive")
     move_file_to_folder(server_files, temp_dir, server_folder)
-    print("success")
+    LOGGER.info("success")
 
 
 class MainFrame(tk.Tk):
