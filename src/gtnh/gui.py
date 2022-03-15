@@ -547,7 +547,7 @@ class AddRepoPopup(BasePopup):
 
             else:
                 # let the user know that the repository is already added
-                if self.root.gtnh_modpack.get_github_mod(new_repo.name):
+                if self.root.gtnh_modpack.has_github_mod(new_repo.name):
                     showwarning("repository already added", f"the repository {repo_name} is already added.")
 
                 # adding the repo
