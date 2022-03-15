@@ -307,7 +307,15 @@ class MainFrame(tk.Tk):
         :return: None
         """
         tk.Tk.__init__(self)
-        self.title("DreamAssemblerXXL")
+        self.title("DreamAssemblerXXL - Main menu")
+
+        # setting up the icon of the window
+        imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
+        self.tk.call('wm', 'iconphoto', self._w, imgicon)
+
+        # setting up the size of the window
+        self.geometry("200x200")
+        self.minsize(200, 200)
 
         # state control vars
         self.is_new_repo_popup_open = False
@@ -432,6 +440,15 @@ class AddRepoPopup(tk.Toplevel):
         :return: None
         """
         tk.Toplevel.__init__(self)
+        self.title("DreamAssemblerXXL - Repository adder")
+
+        # setting up the icon of the window
+        imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
+        self.tk.call('wm', 'iconphoto', self._w, imgicon)
+
+        # setting up the size of the window
+        self.geometry("200x200")
+        self.minsize(200, 200)
 
         # widgets in the window
         self.label_name_repo = tk.Label(self, text="Add the new repository below")
@@ -504,6 +521,15 @@ class ArchivePopup(tk.Toplevel):
         :return: None
         """
         tk.Toplevel.__init__(self)
+        self.title("DreamAssemblerXXL - Archive packager")
+
+        # setting up the icon of the window
+        imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
+        self.tk.call('wm', 'iconphoto', self._w, imgicon)
+
+        # setting up the size of the window
+        self.geometry("500x70")
+        self.minsize(500, 70)
 
         # widgets on the window
         self.progress_bar = Progressbar(self, orient="horizontal", mode="determinate", length=500)
@@ -613,6 +639,15 @@ class HandleDepUpdatePopup(tk.Toplevel):
         Constructor of HandleDepUpdatePopup class.
         """
         tk.Toplevel.__init__(self)
+        self.title("DreamAssemblerXXL - gradle updater")
+
+        # setting up the icon of the window
+        imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
+        self.tk.call('wm', 'iconphoto', self._w, imgicon)
+
+        # setting up the size of the window
+        self.geometry("200x200")
+        self.minsize(200, 200)
 
 
 class HandleFileExclusionPopup(tk.Toplevel):
@@ -626,6 +661,15 @@ class HandleFileExclusionPopup(tk.Toplevel):
         Constructor of HandleFileExclusionPopup class.
         """
         tk.Toplevel.__init__(self, *args, **kwargs)
+        self.title("DreamAssemblerXXL - Exclusions editor")
+
+        # setting up the icon of the window
+        imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
+        self.tk.call('wm', 'iconphoto', self._w, imgicon)
+
+        # setting up the size of the window
+        self.geometry("400x225")
+        self.minsize(400, 225)
 
         # loading modpack metadata
         self.gtnh_modpack: GTNHModpack = load_gtnh_manifest()
