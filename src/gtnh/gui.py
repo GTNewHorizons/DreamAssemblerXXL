@@ -19,10 +19,10 @@ from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, save_g
 
 
 def download_mods(
-    gtnh_modpack: GTNHModpack,
-    github: Github,
-    organization: Organization,
-    callback: Optional[Callable[[float, str], None]] = None,
+        gtnh_modpack: GTNHModpack,
+        github: Github,
+        organization: Organization,
+        callback: Optional[Callable[[float, str], None]] = None,
 ) -> Tuple[List[Path], List[Path]]:
     """
     method to download all the mods required for the pack.
@@ -62,7 +62,8 @@ def download_mods(
     return client_paths, server_paths
 
 
-def pack_clientpack(client_paths: List[Path], pack_version: str, callback: Optional[Callable[[float, str], None]] = None) -> None:
+def pack_clientpack(client_paths: List[Path], pack_version: str,
+                    callback: Optional[Callable[[float, str], None]] = None) -> None:
     """
     Method used to pack all the client files into a client archive.
 
@@ -94,7 +95,8 @@ def pack_clientpack(client_paths: List[Path], pack_version: str, callback: Optio
     with ZipFile(archive_name, "w") as client_archive:
         for mod_path in client_paths:
             if callback is not None:
-                callback(delta_progress, f"Packing client archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
+                callback(delta_progress,
+                         f"Packing client archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
 
             # writing the file in the zip
             client_archive.write(mod_path, mod_path.relative_to(cache_dir / "client_archive"))
@@ -105,7 +107,8 @@ def pack_clientpack(client_paths: List[Path], pack_version: str, callback: Optio
     os.chdir(cwd)
 
 
-def pack_serverpack(server_paths: List[Path], pack_version: str, callback: Optional[Callable[[float, str], None]] = None) -> None:
+def pack_serverpack(server_paths: List[Path], pack_version: str,
+                    callback: Optional[Callable[[float, str], None]] = None) -> None:
     """
     Method used to pack all the server files into a client archive.
 
@@ -137,7 +140,8 @@ def pack_serverpack(server_paths: List[Path], pack_version: str, callback: Optio
     with ZipFile(archive_name, "w") as server_archive:
         for mod_path in server_paths:
             if callback is not None:
-                callback(delta_progress, f"Packing server archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
+                callback(delta_progress,
+                         f"Packing server archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
 
             # writing the file in the zip
             server_archive.write(mod_path, mod_path.relative_to(cache_dir / "server_archive"))
@@ -326,7 +330,7 @@ class MainFrame(tk.Tk):
         self.btn_add_repo = tk.Button(self, text="add a new repository", command=self.open_new_repo_popup)
         self.btn_update_dep = tk.Button(self, text="update dependencies", command=self.handle_dependencies_update)
         self.btn_download = tk.Button(self, text="build archive", command=self.open_archive_popup)
-        self.btn_exclusions = tk.Button(self, text="edit exclusions", command=self.open_exclusion_popup)
+        self.btn_exclusions = tk.Button(self, text="edit entries", command=self.open_exclusion_popup)
 
         # grid manager
         self.btn_add_repo.grid(row=0, column=0, sticky="WE")
@@ -455,14 +459,19 @@ class AddRepoPopup(tk.Toplevel):
         self.stringvar_name_repo = tk.StringVar(self)
         self.entry_name_repo = tk.Entry(self, textvariable=self.stringvar_name_repo, width=30)
         self.btn_validate = tk.Button(self, text="validate", command=self.validate)
+        self.custom_frame = CustomFrame(self, self.get_repos(), add_callback=self.validate_callback)
 
         # grid manager
-        self.label_name_repo.grid(row=0, column=0)
-        self.entry_name_repo.grid(row=1, column=0)
-        self.btn_validate.grid(row=2, column=0)
+        # self.label_name_repo.grid(row=0, column=0)
+        # self.entry_name_repo.grid(row=1, column=0)
+        # self.btn_validate.grid(row=2, column=0)
+        self.custom_frame.grid(row=0, column=0)
 
         # state control vars
         self.is_messagebox_open = False
+
+    def get_repos(self):
+        return ["test 1"]
 
     def validate(self) -> None:
         """
@@ -503,10 +512,57 @@ class AddRepoPopup(tk.Toplevel):
 
                     # let the user know that the repository has no release, therefore it won't be added to the list
                     except LatestReleaseNotFound:
-                        showerror("no release availiable on the repository", f"the repository {name} has no release, aborting")
+                        showerror("no release availiable on the repository",
+                                  f"the repository {name} has no release, aborting")
 
             # releasing the blocking
             self.is_messagebox_open = False
+
+    def validate_callback(self, repo_name) -> bool:
+        """
+        Method executed when self.btn_validate is pressed by the user.
+
+        :return: if the repo was added or not.
+        """
+        repo_added = False
+
+        # if no messagebox had been opened
+        if not self.is_messagebox_open:
+            self.is_messagebox_open = True
+
+            # checking the repo on github
+            try:
+                new_repo = get_repo(repo_name)
+
+            # let the user know that the repository doesn't exist
+            except RepoNotFoundException:
+                showerror("repository not found", f"the repository {repo_name} was not found on github.")
+
+            else:
+                # checking if the repo is already added
+                gtnh = load_gtnh_manifest()
+
+                # let the user know that the repository is already added
+                if gtnh.get_github_mod(new_repo.name):
+                    showwarning("repository already added", f"the repository {repo_name} is already added.")
+
+                # adding the repo
+                else:
+                    try:
+                        new_mod = new_mod_from_repo(new_repo)
+                        gtnh.github_mods.append(new_mod)
+                        sort_and_write_modpack(gtnh)
+                        showinfo("repository added successfully", f"the repo {repo_name} was added successfully!")
+                        repo_added = True
+
+                    # let the user know that the repository has no release, therefore it won't be added to the list
+                    except LatestReleaseNotFound:
+                        showerror("no release availiable on the repository",
+                                  f"the repository {repo_name} has no release, aborting")
+
+            # releasing the blocking
+            self.is_messagebox_open = False
+            return repo_added
 
 
 class ArchivePopup(tk.Toplevel):
@@ -572,7 +628,8 @@ class ArchivePopup(tk.Toplevel):
         self.progress_label["text"] = label.format(self.progress_bar["value"])
         self.update()
 
-    def download_mods_client(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> Tuple[List[Path], List[Path]]:
+    def download_mods_client(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> Tuple[
+        List[Path], List[Path]]:
         """
         client version of download_mods.
 
@@ -675,8 +732,10 @@ class HandleFileExclusionPopup(tk.Toplevel):
         self.gtnh_modpack: GTNHModpack = load_gtnh_manifest()
 
         # widgets
-        self.exclusion_frame_client = CustomLabelFrame(self, self.gtnh_modpack.client_exclusions, text="client exclusions")
-        self.exclusion_frame_server = CustomLabelFrame(self, self.gtnh_modpack.server_exclusions, text="server exclusions")
+        self.exclusion_frame_client = CustomLabelFrame(self, self.gtnh_modpack.client_exclusions,
+                                                       text="client entries")
+        self.exclusion_frame_server = CustomLabelFrame(self, self.gtnh_modpack.server_exclusions,
+                                                       text="server entries")
         self.btn_save = tk.Button(self, text="save modifications", command=self.save)
 
         # grid manager
@@ -692,8 +751,8 @@ class HandleFileExclusionPopup(tk.Toplevel):
         """
 
         # todo: indicate to the user that the metadata had been saved
-        self.gtnh_modpack.client_exclusions = self.exclusion_frame_client.get_exclusions()
-        self.gtnh_modpack.server_exclusions = self.exclusion_frame_server.get_exclusions()
+        self.gtnh_modpack.client_exclusions = self.exclusion_frame_client.get_listbox_content()
+        self.gtnh_modpack.server_exclusions = self.exclusion_frame_server.get_listbox_content()
         save_gtnh_manifest(self.gtnh_modpack)
 
 
@@ -702,11 +761,19 @@ class CustomLabelFrame(tk.LabelFrame):
     Widget used in the HandleFileExclusionPopup class.
     """
 
-    def __init__(self, master: Any, exclusions: List[str], *args: Any, **kwargs: Any) -> None:
+    def __init__(self,
+                 master: Any,
+                 entries: List[str],
+                 add_callback=None,
+                 delete_callback=None,
+                 *args: Any, **kwargs: Any) -> None:
         """
         Constructor of CustomLabelFrame class.
         """
         tk.LabelFrame.__init__(self, master, *args, **kwargs)
+        # callback memory
+        self.add_callback = add_callback
+        self.delete_callback = delete_callback
 
         # widgets
         self.listbox = tk.Listbox(self)
@@ -720,8 +787,8 @@ class CustomLabelFrame(tk.LabelFrame):
         self.scrollbar.config(command=self.listbox.yview)
 
         # populate the listbox
-        for exclusion in exclusions:
-            self.listbox.insert(tk.END, exclusion)
+        for entry in entries:
+            self.listbox.insert(tk.END, entry)
 
         # grid manager
         self.listbox.grid(row=0, column=0, columnspan=2)
@@ -737,7 +804,11 @@ class CustomLabelFrame(tk.LabelFrame):
         :return: None
         """
         # todo: prevent duplicates and highlight the duplicated entry in the listbox
-        self.listbox.insert(tk.END, self.entry.get())
+        if self.add_callback is not None:
+            if self.add_callback(self.entry.get()):
+                self.listbox.insert(tk.END, self.entry.get())
+        else:
+            self.listbox.insert(tk.END, self.entry.get())
 
     def remove(self) -> None:
         """
@@ -748,15 +819,102 @@ class CustomLabelFrame(tk.LabelFrame):
         """
         # ignoring errors if the delete button had been pressed without selecting an item in the listbox
         try:
-            self.listbox.delete(self.listbox.curselection()[0])
+            index = self.listbox.curselection()[0]
+            if self.delete_callback is not None:
+                if self.delete_callback(self.listbox.get(index)):
+                    self.listbox.delete(index)
+            else:
+                self.listbox.delete(index)
         except IndexError:
             pass
 
-    def get_exclusions(self) -> List[str]:
+    def get_listbox_content(self) -> List[str]:
         """
-        Method to return the list of the exclusions contained in the listbox.
+        Method to return the list of the entries contained in the listbox.
 
-        :return: the list of exclusions contained in the listbox.
+        :return: the list of entries contained in the listbox.
+        """
+        return [str(item) for item in self.listbox.get(0, tk.END)]
+
+
+class CustomFrame(tk.LabelFrame):
+    """
+    Frame version of CustomLabelFrame.
+    """
+
+    def __init__(self,
+                 master: Any,
+                 entries: List[str],
+                 add_callback: Callable = None,
+                 delete_callback: Callable = None,
+                 *args: Any, **kwargs: Any) -> None:
+        """
+        Constructor of CustomFrame class.
+        """
+        tk.Frame.__init__(self, master, *args, **kwargs)
+
+        # callback memory
+        self.add_callback = add_callback
+        self.delete_callback = delete_callback
+
+        # widgets
+        self.listbox = tk.Listbox(self)
+        self.scrollbar = tk.Scrollbar(self)
+        self.stringvar = tk.StringVar(self, value="")
+        self.entry = tk.Entry(self, textvariable=self.stringvar)
+        self.btn_add = tk.Button(self, text="add", command=self.add)
+        self.btn_remove = tk.Button(self, text="remove", command=self.remove)
+
+        # bind the scrollbar
+        self.scrollbar.config(command=self.listbox.yview)
+
+        # populate the listbox
+        for entry in entries:
+            self.listbox.insert(tk.END, entry)
+
+        # grid manager
+        self.listbox.grid(row=0, column=0, columnspan=2)
+        self.scrollbar.grid(row=0, column=2, sticky="NS")
+        self.entry.grid(row=1, column=0, columnspan=2)
+        self.btn_add.grid(row=2, column=0, sticky="WE")
+        self.btn_remove.grid(row=2, column=1, sticky="WE")
+
+    def add(self) -> None:
+        """
+        Method bound to self.btn_add. Let the user add the text in the entry as a new exclusion.
+
+        :return: None
+        """
+        # todo: prevent duplicates and highlight the duplicated entry in the listbox
+        if self.add_callback is not None:
+            if self.add_callback(self.entry.get()):
+                self.listbox.insert(tk.END, self.entry.get())
+        else:
+            self.listbox.insert(tk.END, self.entry.get())
+
+    def remove(self) -> None:
+        """
+        Method bound to self.btn_remove. Let the user remove the selected entry in the listbox. Does nothing if no entry
+        had been selected in the listbox.
+
+        :return: None
+        """
+        # ignoring errors if the delete button had been pressed without selecting an item in the listbox
+        try:
+            index = self.listbox.curselection()[0]
+            if self.delete_callback is not None:
+                if self.delete_callback(self.listbox.get(index)):
+                    self.listbox.delete(index)
+            else:
+                self.listbox.delete(index)
+        except IndexError:
+            pass
+
+    def get_listbox_content(self) -> List[str]:
+        """
+        Method to return the list of the entries contained in the listbox.
+
+        :return: the list of entries contained in the listbox.
         """
         return [str(item) for item in self.listbox.get(0, tk.END)]
 
