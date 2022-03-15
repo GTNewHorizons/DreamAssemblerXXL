@@ -4,7 +4,7 @@ from pathlib import Path
 from shutil import copy, rmtree
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import Progressbar
-from typing import Any, Callable, List, Optional, Tuple, Union
+from typing import Any, Callable, List, Optional, Tuple
 from zipfile import ZipFile
 
 import requests
@@ -294,7 +294,6 @@ def handle_pack_extra_files() -> None:
     print("success")
 
 
-# todo: change pack for grid
 class MainFrame(tk.Tk):
     """
     Main windows of DreamAssemblerXXL. Lets you select what you want to do with it via the buttons. Each button spawns
@@ -322,10 +321,10 @@ class MainFrame(tk.Tk):
         self.btn_exclusions = tk.Button(self, text="edit exclusions", command=self.open_exclusion_popup)
 
         # grid manager
-        self.btn_add_repo.pack()
-        self.btn_update_dep.pack()
-        self.btn_download.pack()
-        self.btn_exclusions.pack()
+        self.btn_add_repo.grid(row=0, column=0, sticky="WE")
+        self.btn_update_dep.grid(row=1, column=0, sticky="WE")
+        self.btn_download.grid(row=2, column=0, sticky="WE")
+        self.btn_exclusions.grid(row=3, column=0, sticky="WE")
 
         # refs to popup toplevel widgets
         self.repo_popup: Optional[AddRepoPopup] = None
@@ -441,9 +440,9 @@ class AddRepoPopup(tk.Toplevel):
         self.btn_validate = tk.Button(self, text="validate", command=self.validate)
 
         # grid manager
-        self.label_name_repo.pack()
-        self.entry_name_repo.pack()
-        self.btn_validate.pack()
+        self.label_name_repo.grid(row=0, column=0)
+        self.entry_name_repo.grid(row=1, column=0)
+        self.btn_validate.grid(row=2, column=0)
 
         # state control vars
         self.is_messagebox_open = False
@@ -512,9 +511,9 @@ class ArchivePopup(tk.Toplevel):
         self.btn_start = tk.Button(self, text="start", command=self.start)
 
         # grid manager
-        self.progress_bar.pack()
-        self.progress_label.pack()
-        self.btn_start.pack()
+        self.progress_bar.grid(row=0, column=0)
+        self.progress_label.grid(row=1, column=0)
+        self.btn_start.grid(row=2, column=0)
 
     def start(self) -> None:
         """
@@ -637,9 +636,9 @@ class HandleFileExclusionPopup(tk.Toplevel):
         self.btn_save = tk.Button(self, text="save modifications", command=self.save)
 
         # grid manager
-        self.exclusion_frame_client.pack()
-        self.exclusion_frame_server.pack()
-        self.btn_save.pack()
+        self.exclusion_frame_client.grid(row=0, column=0)
+        self.exclusion_frame_server.grid(row=0, column=2)
+        self.btn_save.grid(row=0, column=1)
 
     def save(self) -> None:
         """
@@ -681,11 +680,11 @@ class ExclusionFrame(tk.LabelFrame):
             self.listbox.insert(tk.END, exclusion)
 
         # grid manager
-        self.listbox.pack()
-        self.entry.pack()
-        self.btn_add.pack()
-        self.btn_remove.pack()
-        self.scrollbar.pack()
+        self.listbox.grid(row=0, column=0, columnspan=2)
+        self.scrollbar.grid(row=0, column=2, sticky="NS")
+        self.entry.grid(row=1, column=0, columnspan=2)
+        self.btn_add.grid(row=2, column=0, sticky="WE")
+        self.btn_remove.grid(row=2, column=1, sticky="WE")
 
     def add(self) -> None:
         """
