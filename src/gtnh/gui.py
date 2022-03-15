@@ -4,7 +4,7 @@ from pathlib import Path
 from shutil import copy, rmtree
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import Progressbar
-from typing import Any, Callable, List, Optional, Tuple
+from typing import Any, Callable, List, Optional, Tuple, Union
 from zipfile import ZipFile
 
 import requests
@@ -15,7 +15,7 @@ from gtnh.add_mod import get_repo, new_mod_from_repo
 from gtnh.exceptions import LatestReleaseNotFound, PackingInterruptException, RepoNotFoundException
 from gtnh.mod_info import GTNHModpack
 from gtnh.pack_downloader import download_mod, ensure_cache_dir
-from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, sort_and_write_modpack, save_gtnh_manifest
+from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, save_gtnh_manifest, sort_and_write_modpack
 
 
 def download_mods(
@@ -152,7 +152,7 @@ def download_pack_archive() -> Path:
     """
     Method used to download the latest gtnh modpack archive.
 
-    :return: the path of the downloaded archive
+    :return: the path of the downloaded archive. None is returned if somehow it wasn't able to download any release.
     """
     gtnh_modpack_repo = get_repo("GT-New-Horizons-Modpack")
 
@@ -293,7 +293,8 @@ def handle_pack_extra_files() -> None:
     copy_file_to_folder(server_files, temp_dir, server_folder)
     print("success")
 
-#todo: change pack for grid
+
+# todo: change pack for grid
 class MainFrame(tk.Tk):
     """
     Main windows of DreamAssemblerXXL. Lets you select what you want to do with it via the buttons. Each button spawns
@@ -414,6 +415,7 @@ class MainFrame(tk.Tk):
             self.is_exclusion_popup_open = True
             self.exclusion_popup = HandleFileExclusionPopup()
             self.exclusion_popup.bind("<Destroy>", _unlock_popup)
+
 
 class AddRepoPopup(tk.Toplevel):
     """
@@ -618,19 +620,20 @@ class HandleFileExclusionPopup(tk.Toplevel):
     """
     Window allowing you to update the files dedicated to clientside or serverside.
     """
+
     # todo: make an edit checker and add a warning if the popup is closed without saving
-    def __init__(self, *args, **kwargs) -> None:
+    def __init__(self, *args: Any, **kwargs: Any) -> None:
         """
         Constructor of HandleFileExclusionPopup class.
         """
         tk.Toplevel.__init__(self, *args, **kwargs)
 
-        #loading modpack metadata
+        # loading modpack metadata
         self.gtnh_modpack: GTNHModpack = load_gtnh_manifest()
 
         # widgets
-        self.exclusion_frame_client = ExclusionFrame(self,self.gtnh_modpack.client_exclusions, text="client exclusions")
-        self.exclusion_frame_server = ExclusionFrame(self,self.gtnh_modpack.server_exclusions, text="server exclusions")
+        self.exclusion_frame_client = ExclusionFrame(self, self.gtnh_modpack.client_exclusions, text="client exclusions")
+        self.exclusion_frame_server = ExclusionFrame(self, self.gtnh_modpack.server_exclusions, text="server exclusions")
         self.btn_save = tk.Button(self, text="save modifications", command=self.save)
 
         # grid manager
@@ -656,24 +659,24 @@ class ExclusionFrame(tk.LabelFrame):
     Widget used in the HandleFileExclusionPopup class.
     """
 
-    def __init__(self, master, exclusions, *args, **kwargs) -> None:
+    def __init__(self, master: Any, exclusions: List[str], *args: Any, **kwargs: Any) -> None:
         """
         Constructor of ExclusionFrame class.
         """
-        tk.LabelFrame.__init__(self, master=master, *args, **kwargs)
+        tk.LabelFrame.__init__(self, master, *args, **kwargs)
 
         # widgets
         self.listbox = tk.Listbox(self)
         self.scrollbar = tk.Scrollbar(self)
         self.stringvar = tk.StringVar(self, value="")
-        self.entry = tk.Entry(self, textvar=self.stringvar)
+        self.entry = tk.Entry(self, textvariable=self.stringvar)
         self.btn_add = tk.Button(self, text="add", command=self.add)
         self.btn_remove = tk.Button(self, text="remove", command=self.remove)
 
-        #bind the scrollbar
+        # bind the scrollbar
         self.scrollbar.config(command=self.listbox.yview)
 
-        #populate the listbox
+        # populate the listbox
         for exclusion in exclusions:
             self.listbox.insert(tk.END, exclusion)
 
@@ -683,7 +686,6 @@ class ExclusionFrame(tk.LabelFrame):
         self.btn_add.pack()
         self.btn_remove.pack()
         self.scrollbar.pack()
-
 
     def add(self) -> None:
         """
@@ -713,8 +715,7 @@ class ExclusionFrame(tk.LabelFrame):
 
         :return: the list of exclusions contained in the listbox.
         """
-        return self.listbox.get(0, tk.END)
-
+        return [str(item) for item in self.listbox.get(0, tk.END)]
 
 
 if __name__ == "__main__":
