@@ -526,7 +526,7 @@ class AddRepoPopup(BasePopup):
         self.is_messagebox_open = False
 
     def get_repos(self):
-        return ["test 1"]
+        return [repo.name for repo in self.root.gtnh_modpack.github_mods]
 
     def validate_callback(self, repo_name) -> bool:
         """
@@ -748,10 +748,10 @@ class HandleFileExclusionPopup(BasePopup):
         :return: None
         """
 
-        # todo: indicate to the user that the metadata had been saved
         self.root.gtnh_modpack.client_exclusions = self.exclusion_frame_client.get_listbox_content()
         self.root.gtnh_modpack.server_exclusions = self.exclusion_frame_server.get_listbox_content()
         self.save_gtnh_metadata()
+        print("metadata saved!")
 
 
 class CustomLabelFrame(tk.LabelFrame, tk.Frame):
@@ -780,7 +780,7 @@ class CustomLabelFrame(tk.LabelFrame, tk.Frame):
         self.delete_callback = delete_callback
 
         # widgets
-        self.listbox = tk.Listbox(self)
+        self.listbox = tk.Listbox(self, width=max([len(x) for x in entries]))
         self.scrollbar = tk.Scrollbar(self)
         self.stringvar = tk.StringVar(self, value="")
         self.entry = tk.Entry(self, textvariable=self.stringvar)
@@ -789,15 +789,15 @@ class CustomLabelFrame(tk.LabelFrame, tk.Frame):
 
         # bind the scrollbar
         self.scrollbar.config(command=self.listbox.yview)
-
+        self.listbox.config(yscrollcommand=self.scrollbar.set)
         # populate the listbox
         for entry in entries:
             self.listbox.insert(tk.END, entry)
 
         # grid manager
-        self.listbox.grid(row=0, column=0, columnspan=2)
+        self.listbox.grid(row=0, column=0, columnspan=2, sticky="WE")
         self.scrollbar.grid(row=0, column=2, sticky="NS")
-        self.entry.grid(row=1, column=0, columnspan=2)
+        self.entry.grid(row=1, column=0, columnspan=2, sticky="WE")
         self.btn_add.grid(row=2, column=0, sticky="WE")
         self.btn_remove.grid(row=2, column=1, sticky="WE")
 
@@ -807,12 +807,13 @@ class CustomLabelFrame(tk.LabelFrame, tk.Frame):
 
         :return: None
         """
-        # todo: prevent duplicates and highlight the duplicated entry in the listbox
+        # duplicate handling is supposed to be made in the callback
         if self.add_callback is not None:
             if self.add_callback(self.entry.get()):
                 self.listbox.insert(tk.END, self.entry.get())
         else:
             self.listbox.insert(tk.END, self.entry.get())
+            self.listbox.configure(width=max([len(x) for x in self.get_listbox_content()]))
 
     def remove(self) -> None:
         """
