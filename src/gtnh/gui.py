@@ -675,8 +675,8 @@ class HandleFileExclusionPopup(tk.Toplevel):
         self.gtnh_modpack: GTNHModpack = load_gtnh_manifest()
 
         # widgets
-        self.exclusion_frame_client = ExclusionFrame(self, self.gtnh_modpack.client_exclusions, text="client exclusions")
-        self.exclusion_frame_server = ExclusionFrame(self, self.gtnh_modpack.server_exclusions, text="server exclusions")
+        self.exclusion_frame_client = CustomLabelFrame(self, self.gtnh_modpack.client_exclusions, text="client exclusions")
+        self.exclusion_frame_server = CustomLabelFrame(self, self.gtnh_modpack.server_exclusions, text="server exclusions")
         self.btn_save = tk.Button(self, text="save modifications", command=self.save)
 
         # grid manager
@@ -697,14 +697,14 @@ class HandleFileExclusionPopup(tk.Toplevel):
         save_gtnh_manifest(self.gtnh_modpack)
 
 
-class ExclusionFrame(tk.LabelFrame):
+class CustomLabelFrame(tk.LabelFrame):
     """
     Widget used in the HandleFileExclusionPopup class.
     """
 
     def __init__(self, master: Any, exclusions: List[str], *args: Any, **kwargs: Any) -> None:
         """
-        Constructor of ExclusionFrame class.
+        Constructor of CustomLabelFrame class.
         """
         tk.LabelFrame.__init__(self, master, *args, **kwargs)
 
