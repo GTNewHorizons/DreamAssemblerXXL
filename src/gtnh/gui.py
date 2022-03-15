@@ -293,7 +293,7 @@ def handle_pack_extra_files() -> None:
     copy_file_to_folder(server_files, temp_dir, server_folder)
     print("success")
 
-
+#todo: change pack for grid
 class MainFrame(tk.Tk):
     """
     Main windows of DreamAssemblerXXL. Lets you select what you want to do with it via the buttons. Each button spawns
@@ -663,12 +663,15 @@ class ExclusionFrame(tk.LabelFrame):
         tk.LabelFrame.__init__(self, master=master, *args, **kwargs)
 
         # widgets
-        # todo: add a scrollbar
         self.listbox = tk.Listbox(self)
+        self.scrollbar = tk.Scrollbar(self)
         self.stringvar = tk.StringVar(self, value="")
         self.entry = tk.Entry(self, textvar=self.stringvar)
         self.btn_add = tk.Button(self, text="add", command=self.add)
         self.btn_remove = tk.Button(self, text="remove", command=self.remove)
+
+        #bind the scrollbar
+        self.scrollbar.config(command=self.listbox.yview)
 
         #populate the listbox
         for exclusion in exclusions:
@@ -679,6 +682,7 @@ class ExclusionFrame(tk.LabelFrame):
         self.entry.pack()
         self.btn_add.pack()
         self.btn_remove.pack()
+        self.scrollbar.pack()
 
 
     def add(self) -> None:
