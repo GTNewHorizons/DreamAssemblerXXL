@@ -317,10 +317,10 @@ class MainFrame(tk.Tk):
         self.tk.call("wm", "iconphoto", self._w, imgicon)
 
         # widgets in the window
-        self.repo_popup: AddRepoPopup = AddRepoPopup(self)
-        self.archive_popup: ArchivePopup = ArchivePopup(self)
-        self.exclusion_popup: HandleFileExclusionPopup = HandleFileExclusionPopup(self)
-        self.dependencies_popup: HandleDepUpdatePopup = HandleDepUpdatePopup(self)
+        self.repo_popup: AddRepoFrame = AddRepoFrame(self)
+        self.archive_popup: ArchiveFrame = ArchiveFrame(self)
+        self.exclusion_popup: HandleFileExclusionFrame = HandleFileExclusionFrame(self)
+        self.dependencies_popup: HandleDepUpdateFrame = HandleDepUpdateFrame(self)
 
         # grid manager
         self.repo_popup.grid(row=0, column=0, sticky="WE")
@@ -330,7 +330,7 @@ class MainFrame(tk.Tk):
 
     def handle_dependencies_update(self) -> None:
         """
-        Opens a new HandleDepUpdatePopup popup window. While this window is still open, the main window can't spawn a
+        Opens a new HandleDepUpdateFrame popup window. While this window is still open, the main window can't spawn a
         new one of this type.
 
         :return: None
@@ -338,14 +338,14 @@ class MainFrame(tk.Tk):
         pass
 
 
-class BasePopup(tk.LabelFrame):
+class BaseFrame(tk.LabelFrame):
     """
     Base popup class.
     """
 
     def __init__(self, root: MainFrame, popup_name: str = "DreamAssemblerXXL", *args: Any, **kwargs: Any) -> None:
         """
-        Constructor of the BasePopup class.
+        Constructor of the BaseFrame class.
 
         :param root: the MainFrame widget.
         :param popup_name: Name of the popup window
@@ -376,7 +376,7 @@ class BasePopup(tk.LabelFrame):
         save_gtnh_manifest(self.root.gtnh_modpack)
 
 
-class AddRepoPopup(BasePopup):
+class AddRepoFrame(BaseFrame):
     """
     Window allowing you to manage repositories in the github list contained in DreamAssemblerXXL.
     When adding a new Repository, the following things can happen:
@@ -387,12 +387,12 @@ class AddRepoPopup(BasePopup):
 
     def __init__(self, root: MainFrame) -> None:
         """
-        Constructor of the AddRepoPopup class.
+        Constructor of the AddRepoFrame class.
 
         :param root: the MainFrame instance
         :return: None
         """
-        BasePopup.__init__(self, root, popup_name="Repository adder")
+        BaseFrame.__init__(self, root, popup_name="Repository adder")
 
         # widgets in the window
         self.custom_frame = CustomLabelFrame(self, self.get_repos(), False, add_callback=self.validate_callback)
@@ -450,19 +450,19 @@ class AddRepoPopup(BasePopup):
         return repo_added
 
 
-class ArchivePopup(BasePopup):
+class ArchiveFrame(BaseFrame):
     """
     Window allowing you to pack the archives for all the supported plateforms.
     """
 
     def __init__(self, root: MainFrame) -> None:
         """
-        Constructor of the ArchivePopup class.
+        Constructor of the ArchiveFrame class.
 
         :param root: the MainFrame instance
         :return: None
         """
-        BasePopup.__init__(self, root, popup_name="Archive packager")
+        BaseFrame.__init__(self, root, popup_name="Archive packager")
 
         # widgets on the window
         self.progress_bar = Progressbar(self, orient="horizontal", mode="determinate", length=500)
@@ -594,22 +594,22 @@ class ArchivePopup(BasePopup):
         pass
 
 
-class HandleDepUpdatePopup(BasePopup):
+class HandleDepUpdateFrame(BaseFrame):
     """
     Window allowing you to update the dependencies.
     """
 
     def __init__(self, root: MainFrame) -> None:
         """
-        Constructor of HandleDepUpdatePopup class.
+        Constructor of HandleDepUpdateFrame class.
 
         :param root: the MainFrame instance
         :return: None
         """
-        BasePopup.__init__(self, root, popup_name="gradle updater")
+        BaseFrame.__init__(self, root, popup_name="gradle updater")
 
 
-class HandleFileExclusionPopup(BasePopup):
+class HandleFileExclusionFrame(BaseFrame):
     """
     Window allowing you to update the files dedicated to clientside or serverside.
     """
@@ -618,13 +618,13 @@ class HandleFileExclusionPopup(BasePopup):
     # CustomFrame to insta save when the user performs an action
     def __init__(self, root: MainFrame) -> None:
         """
-        Constructor of HandleFileExclusionPopup class.
+        Constructor of HandleFileExclusionFrame class.
 
         :param root: the MainFrame instance
         :return: None
         """
 
-        BasePopup.__init__(self, root, popup_name="Exclusions editor")
+        BaseFrame.__init__(self, root, popup_name="Exclusions editor")
 
         # widgets
         self.exclusion_frame_client = CustomLabelFrame(self, self.root.gtnh_modpack.client_exclusions, True, text="client entries")
