@@ -15,7 +15,7 @@ from gtnh.add_mod import get_repo, new_mod_from_repo
 from gtnh.exceptions import LatestReleaseNotFound, PackingInterruptException, RepoNotFoundException
 from gtnh.mod_info import GTNHModpack
 from gtnh.pack_downloader import download_mod, ensure_cache_dir
-from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, save_gtnh_manifest, sort_and_write_modpack
+from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, save_gtnh_manifest
 
 
 def download_mods(
@@ -314,7 +314,8 @@ class MainFrame(tk.Tk):
 
         # setting up the icon of the window
         imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
-        self.tk.call("wm", "iconphoto", self._w, imgicon)
+        # getattr hack to please mypy instead of self._w
+        self.tk.call("wm", "iconphoto", getattr(self, "_w"), imgicon)
 
         # widgets in the window
         self.repo_popup: AddRepoFrame = AddRepoFrame(self)
@@ -650,13 +651,12 @@ class HandleFileExclusionFrame(BaseFrame):
         self.save_gtnh_metadata()
 
 
-
-class CustomLabelFrame(tk.LabelFrame, tk.Frame):
+class CustomLabelFrame(tk.LabelFrame):
     """
     Widget providing a basic set of subwidgets to make an editable listbox.
     """
 
-    def __init__(self, master: Any, entries: List[str], framed: bool, add_callback: Any=None, delete_callback: Any=None, *args: Any, **kwargs: Any) -> None:
+    def __init__(self, master: Any, entries: List[str], framed: bool, add_callback: Any = None, delete_callback: Any = None, *args: Any, **kwargs: Any) -> None:
         """
         Constructor of CustomLabelFrame class.
         """
@@ -664,7 +664,7 @@ class CustomLabelFrame(tk.LabelFrame, tk.Frame):
         if framed:
             tk.LabelFrame.__init__(self, master, *args, **kwargs)
         else:
-            tk.Frame.__init__(self, master, *args, **kwargs)
+            tk.LabelFrame.__init__(self, master, relief="flat", *args, **kwargs)
 
         # callback memory
         self.add_callback = add_callback
