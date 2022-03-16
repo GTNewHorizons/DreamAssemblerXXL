@@ -53,7 +53,7 @@ def load_gtnh_manifest() -> GTNHModpack:
 
 def save_gtnh_manifest(gtnh_modpack: GTNHModpack) -> None:
     with open(modpack_manifest(), "w") as f:
-        f.write(gtnh_modpack.json())
+        f.write(gtnh_modpack.json(indent=2, exclude={"_github_modmap"}))
 
 
 def sort_and_write_modpack(gtnh: GTNHModpack) -> None:

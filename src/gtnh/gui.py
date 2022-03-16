@@ -366,6 +366,7 @@ class BaseFrame(tk.LabelFrame):
         :return: None
         """
         self.root.gtnh_modpack = load_gtnh_manifest()
+        print("metadata loaded!")
 
     def save_gtnh_metadata(self) -> None:
         """
@@ -374,6 +375,7 @@ class BaseFrame(tk.LabelFrame):
         :return: None
         """
         save_gtnh_manifest(self.root.gtnh_modpack)
+        print("metadata saved!")
 
 
 class AddRepoFrame(BaseFrame):
@@ -436,8 +438,8 @@ class AddRepoFrame(BaseFrame):
                     try:
                         new_mod = new_mod_from_repo(new_repo)
                         self.root.gtnh_modpack.github_mods.append(new_mod)
-                        sort_and_write_modpack(self.root.gtnh_modpack)
-                        self.reload_gtnh_metadata()
+                        self.root.gtnh_modpack.github_mods.sort()
+                        self.save_gtnh_metadata()
                         showinfo("repository added successfully", f"the repo {repo_name} was added successfully!")
                         repo_added = True
 
@@ -646,7 +648,7 @@ class HandleFileExclusionFrame(BaseFrame):
         self.root.gtnh_modpack.client_exclusions = self.exclusion_frame_client.get_listbox_content()
         self.root.gtnh_modpack.server_exclusions = self.exclusion_frame_server.get_listbox_content()
         self.save_gtnh_metadata()
-        print("metadata saved!")
+
 
 
 class CustomLabelFrame(tk.LabelFrame, tk.Frame):
