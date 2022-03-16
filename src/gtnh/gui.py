@@ -19,10 +19,10 @@ from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, save_g
 
 
 def download_mods(
-        gtnh_modpack: GTNHModpack,
-        github: Github,
-        organization: Organization,
-        callback: Optional[Callable[[float, str], None]] = None,
+    gtnh_modpack: GTNHModpack,
+    github: Github,
+    organization: Organization,
+    callback: Optional[Callable[[float, str], None]] = None,
 ) -> Tuple[List[Path], List[Path]]:
     """
     method to download all the mods required for the pack.
@@ -62,8 +62,7 @@ def download_mods(
     return client_paths, server_paths
 
 
-def pack_clientpack(client_paths: List[Path], pack_version: str,
-                    callback: Optional[Callable[[float, str], None]] = None) -> None:
+def pack_clientpack(client_paths: List[Path], pack_version: str, callback: Optional[Callable[[float, str], None]] = None) -> None:
     """
     Method used to pack all the client files into a client archive.
 
@@ -95,8 +94,7 @@ def pack_clientpack(client_paths: List[Path], pack_version: str,
     with ZipFile(archive_name, "w") as client_archive:
         for mod_path in client_paths:
             if callback is not None:
-                callback(delta_progress,
-                         f"Packing client archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
+                callback(delta_progress, f"Packing client archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
 
             # writing the file in the zip
             client_archive.write(mod_path, mod_path.relative_to(cache_dir / "client_archive"))
@@ -107,8 +105,7 @@ def pack_clientpack(client_paths: List[Path], pack_version: str,
     os.chdir(cwd)
 
 
-def pack_serverpack(server_paths: List[Path], pack_version: str,
-                    callback: Optional[Callable[[float, str], None]] = None) -> None:
+def pack_serverpack(server_paths: List[Path], pack_version: str, callback: Optional[Callable[[float, str], None]] = None) -> None:
     """
     Method used to pack all the server files into a client archive.
 
@@ -140,8 +137,7 @@ def pack_serverpack(server_paths: List[Path], pack_version: str,
     with ZipFile(archive_name, "w") as server_archive:
         for mod_path in server_paths:
             if callback is not None:
-                callback(delta_progress,
-                         f"Packing server archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
+                callback(delta_progress, f"Packing server archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
 
             # writing the file in the zip
             server_archive.write(mod_path, mod_path.relative_to(cache_dir / "server_archive"))
@@ -304,72 +300,33 @@ class MainFrame(tk.Tk):
     a new window allowing you to do the selected task(s).
     """
 
-    def __init__(self) -> None:
+    def __init__(self, *args: Any, **kwargs: Any) -> None:
         """
         Constructor of the MainFrame class.
 
         :return: None
         """
-        tk.Tk.__init__(self)
-        self.title("DreamAssemblerXXL - Main menu")
+        tk.Tk.__init__(self, *args, **kwargs)
+        self.title("DreamAssemblerXXL")
 
         # setting up a gtnh metadata instance
         self.gtnh_modpack = load_gtnh_manifest()
 
         # setting up the icon of the window
         imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
-        self.tk.call('wm', 'iconphoto', self._w, imgicon)
-
-        # setting up the size of the window
-        self.geometry("200x200")
-        self.minsize(200, 200)
-
-        # state control vars
-        self.is_new_repo_popup_open = False
-        self.is_archive_popup_open = False
-        self.is_exclusion_popup_open = False
+        self.tk.call("wm", "iconphoto", self._w, imgicon)
 
         # widgets in the window
-        self.btn_add_repo = tk.Button(self, text="add a new repository", command=self.open_new_repo_popup)
-        self.btn_update_dep = tk.Button(self, text="update dependencies", command=self.handle_dependencies_update)
-        self.btn_download = tk.Button(self, text="build archive", command=self.open_archive_popup)
-        self.btn_exclusions = tk.Button(self, text="edit entries", command=self.open_exclusion_popup)
+        self.repo_popup: AddRepoPopup = AddRepoPopup(self)
+        self.archive_popup: ArchivePopup = ArchivePopup(self)
+        self.exclusion_popup: HandleFileExclusionPopup = HandleFileExclusionPopup(self)
+        self.dependencies_popup: HandleDepUpdatePopup = HandleDepUpdatePopup(self)
 
         # grid manager
-        self.btn_add_repo.grid(row=0, column=0, sticky="WE")
-        self.btn_update_dep.grid(row=1, column=0, sticky="WE")
-        self.btn_download.grid(row=2, column=0, sticky="WE")
-        self.btn_exclusions.grid(row=3, column=0, sticky="WE")
-
-        # refs to popup toplevel widgets
-        self.repo_popup: Optional[AddRepoPopup] = None
-        self.archive_popup: Optional[ArchivePopup] = None
-        self.exclusion_popup: Optional[HandleFileExclusionPopup] = None
-
-    def open_new_repo_popup(self) -> None:
-        """
-        Opens a new AddRepoPopup popup window. While this window is still open, the main window can't spawn a new one of
-        this type.
-
-        :return: None
-        """
-
-        def _unlock_popup(_: Any) -> None:
-            """
-            Method used to change the state var called is_new_repo_popup_open to False when the popup is closed.
-
-            :param _: Event passed by tkinter that we don't care as we know already on what even this function will be
-                      bound
-            :return: None
-            """
-            self.is_new_repo_popup_open = False
-            self.repo_popup = None
-
-        # prevent the popup from appearing more than once
-        if not self.is_new_repo_popup_open:
-            self.is_new_repo_popup_open = True
-            self.repo_popup = AddRepoPopup(self)
-            self.repo_popup.bind("<Destroy>", _unlock_popup)
+        self.repo_popup.grid(row=0, column=0, sticky="WE")
+        self.archive_popup.grid(row=0, column=1, sticky="WENS")
+        self.exclusion_popup.grid(row=1, column=0, columnspan=2, sticky="WE")
+        self.dependencies_popup.grid(row=1, column=1, sticky="WE")
 
     def handle_dependencies_update(self) -> None:
         """
@@ -380,69 +337,13 @@ class MainFrame(tk.Tk):
         """
         pass
 
-    def open_archive_popup(self) -> None:
-        """
-        Opens a new ArchivePopup popup window. While this window is still open, the main window can't spawn a new one of
-        this type.
 
-        :return: None
-        """
-
-        def _unlock_popup(_: Any) -> None:
-            """
-            Method used to change the state var called is_archive_popup_open to False when the popup is closed.
-
-            :param _: Event passed by tkinter that we don't care as we know already on what even this function will be
-                      bound
-            :return: None
-            """
-            self.is_archive_popup_open = False
-            self.archive_popup = None
-
-        # prevent the popup from appearing more than once
-        if not self.is_archive_popup_open:
-            self.is_archive_popup_open = True
-            self.archive_popup = ArchivePopup(self)
-            self.archive_popup.bind("<Destroy>", _unlock_popup)
-
-    def open_exclusion_popup(self) -> None:
-        """
-        Opens a new HandleFileExclusionPopup popup window. While this window is still open, the main window can't spawn
-        a new one of this type.
-
-        :return: None
-        """
-
-        def _unlock_popup(_: Any) -> None:
-            """
-            Method used to change the state var called is_archive_popup_open to False when the popup is closed.
-
-            :param _: Event passed by tkinter that we don't care as we know already on what even this function will be
-                      bound
-            :return: None
-            """
-            self.is_exclusion_popup_open = False
-            self.exclusion_popup = None
-
-        # prevent the popup from appearing more than once
-        if not self.is_exclusion_popup_open:
-            self.is_exclusion_popup_open = True
-            self.exclusion_popup = HandleFileExclusionPopup(self)
-            self.exclusion_popup.bind("<Destroy>", _unlock_popup)
-
-
-class BasePopup(tk.Toplevel):
+class BasePopup(tk.LabelFrame):
     """
     Base popup class.
     """
 
-    def __init__(self, root: MainFrame,
-                 popup_name: str = "DreamAssemblerXXL",
-                 window_width: int = 200,
-                 window_height: int = 200,
-                 enforce_window_size: bool = False,
-                 *args: Any,
-                 **kwargs: Any) -> None:
+    def __init__(self, root: MainFrame, popup_name: str = "DreamAssemblerXXL", *args: Any, **kwargs: Any) -> None:
         """
         Constructor of the BasePopup class.
 
@@ -455,29 +356,8 @@ class BasePopup(tk.Toplevel):
         :param kwargs:
         :return: None
         """
-        tk.Toplevel.__init__(self, root, *args, **kwargs)
-        self.title(popup_name)
-        self.window_width = window_width
-        self.window_height = window_height
+        tk.LabelFrame.__init__(self, root, text=popup_name, *args, **kwargs)
         self.root = root
-
-        # setting up the icon of the window
-        imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
-        self.tk.call('wm', 'iconphoto', self._w, imgicon)
-
-        # setting up the size of the window
-        if enforce_window_size:
-            self.setup_size_windows()
-
-    def setup_size_windows(self) -> None:
-        """
-        Method setting up the size of the windows.
-
-        :return: None
-        """
-
-        self.geometry(f"{self.window_width}x{self.window_height}")
-        self.minsize(self.window_width, self.window_height)
 
     def reload_gtnh_metadata(self) -> None:
         """
@@ -512,9 +392,7 @@ class AddRepoPopup(BasePopup):
         :param root: the MainFrame instance
         :return: None
         """
-        BasePopup.__init__(self,
-                           root,
-                           popup_name="DreamAssemblerXXL - Repository adder")
+        BasePopup.__init__(self, root, popup_name="Repository adder")
 
         # widgets in the window
         self.custom_frame = CustomLabelFrame(self, self.get_repos(), False, add_callback=self.validate_callback)
@@ -525,10 +403,10 @@ class AddRepoPopup(BasePopup):
         # state control vars
         self.is_messagebox_open = False
 
-    def get_repos(self):
+    def get_repos(self) -> List[str]:
         return [repo.name for repo in self.root.gtnh_modpack.github_mods]
 
-    def validate_callback(self, repo_name) -> bool:
+    def validate_callback(self, repo_name: str) -> bool:
         """
         Method executed when self.btn_validate is pressed by the user.
 
@@ -565,12 +443,11 @@ class AddRepoPopup(BasePopup):
 
                     # let the user know that the repository has no release, therefore it won't be added to the list
                     except LatestReleaseNotFound:
-                        showerror("no release availiable on the repository",
-                                  f"the repository {repo_name} has no release, aborting")
+                        showerror("no release availiable on the repository", f"the repository {repo_name} has no release, aborting")
 
             # releasing the blocking
             self.is_messagebox_open = False
-            return repo_added
+        return repo_added
 
 
 class ArchivePopup(BasePopup):
@@ -585,11 +462,7 @@ class ArchivePopup(BasePopup):
         :param root: the MainFrame instance
         :return: None
         """
-        BasePopup.__init__(self,
-                           root,
-                           popup_name="DreamAssemblerXXL - Archive packager",
-                           window_width=500,
-                           window_height=80)
+        BasePopup.__init__(self, root, popup_name="Archive packager")
 
         # widgets on the window
         self.progress_bar = Progressbar(self, orient="horizontal", mode="determinate", length=500)
@@ -617,63 +490,35 @@ class ArchivePopup(BasePopup):
         server_folder = Path(__file__).parent / "cache" / "server_archive"
 
         try:
-            delta_progress_global = 100/8
+            delta_progress_global = 100 / 8
 
-            self._progress_callback(delta_progress_global,
-                                    "dowloading mods",
-                                    self.progress_bar_global,
-                                    self.progress_label_global)
+            self._progress_callback(delta_progress_global, "dowloading mods", self.progress_bar_global, self.progress_label_global)
             client_paths, server_paths = self.download_mods_client(self.root.gtnh_modpack, github, organization)
 
-            self._progress_callback(delta_progress_global,
-                                    "sort client/server side mods",
-                                    self.progress_bar_global,
-                                    self.progress_label_global)
+            self._progress_callback(delta_progress_global, "sort client/server side mods", self.progress_bar_global, self.progress_label_global)
             move_mods(client_paths, server_paths)
 
-            self._progress_callback(delta_progress_global,
-                                    "adding extra files",
-                                    self.progress_bar_global,
-                                    self.progress_label_global)
+            self._progress_callback(delta_progress_global, "adding extra files", self.progress_bar_global, self.progress_label_global)
             handle_pack_extra_files()
 
-            self._progress_callback(delta_progress_global,
-                                    "generating client archive",
-                                    self.progress_bar_global,
-                                    self.progress_label_global)
+            self._progress_callback(delta_progress_global, "generating client archive", self.progress_bar_global, self.progress_label_global)
             self.pack_clientpack_client(crawl(client_folder), self.root.gtnh_modpack.modpack_version)
 
-            self._progress_callback(delta_progress_global,
-                                    "generating server archive",
-                                    self.progress_bar_global,
-                                    self.progress_label_global)
+            self._progress_callback(delta_progress_global, "generating server archive", self.progress_bar_global, self.progress_label_global)
             self.pack_serverpack_client(crawl(server_folder), self.root.gtnh_modpack.modpack_version)
 
-            self._progress_callback(delta_progress_global,
-                                    "generating technic assets",
-                                    self.progress_bar_global,
-                                    self.progress_label_global)
+            self._progress_callback(delta_progress_global, "generating technic assets", self.progress_bar_global, self.progress_label_global)
             self.pack_technic()
 
-            self._progress_callback(delta_progress_global,
-                                    "generating deploader for curse",
-                                    self.progress_bar_global,
-                                    self.progress_label_global)
+            self._progress_callback(delta_progress_global, "generating deploader for curse", self.progress_bar_global, self.progress_label_global)
             self.make_deploader_json()
 
-            self._progress_callback(delta_progress_global,
-                                    "generating curse archive",
-                                    self.progress_bar_global,
-                                    self.progress_label_global)
+            self._progress_callback(delta_progress_global, "generating curse archive", self.progress_bar_global, self.progress_label_global)
             self.pack_curse()
         except PackingInterruptException:
             pass
 
-    def _progress_callback(self,
-                           delta_progress: float,
-                           label: str,
-                           progress_bar_w: Optional[Progressbar] = None,
-                           label_w: Optional[tk.Label] = None) -> None:
+    def _progress_callback(self, delta_progress: float, label: str, progress_bar_w: Optional[Progressbar] = None, label_w: Optional[tk.Label] = None) -> None:
         """
         Method used to update a progress bar.
 
@@ -692,8 +537,7 @@ class ArchivePopup(BasePopup):
         label_widget["text"] = label.format(progress_bar_widget["value"])
         self.update()
 
-    def download_mods_client(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> \
-            Tuple[List[Path], List[Path]]:
+    def download_mods_client(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> Tuple[List[Path], List[Path]]:
         """
         client version of download_mods.
 
@@ -762,11 +606,7 @@ class HandleDepUpdatePopup(BasePopup):
         :param root: the MainFrame instance
         :return: None
         """
-        BasePopup.__init__(self,
-                           root,
-                           popup_name="DreamAssemblerXXL - gradle updater",
-                           window_width=200,
-                           window_height=200)
+        BasePopup.__init__(self, root, popup_name="gradle updater")
 
 
 class HandleFileExclusionPopup(BasePopup):
@@ -784,17 +624,11 @@ class HandleFileExclusionPopup(BasePopup):
         :return: None
         """
 
-        BasePopup.__init__(self,
-                           root,
-                           popup_name="DreamAssemblerXXL - Exclusions editor",
-                           window_width=200,
-                           window_height=200)
+        BasePopup.__init__(self, root, popup_name="Exclusions editor")
 
         # widgets
-        self.exclusion_frame_client = CustomLabelFrame(self, self.root.gtnh_modpack.client_exclusions, True,
-                                                       text="client entries")
-        self.exclusion_frame_server = CustomLabelFrame(self, self.root.gtnh_modpack.server_exclusions, True,
-                                                       text="server entries")
+        self.exclusion_frame_client = CustomLabelFrame(self, self.root.gtnh_modpack.client_exclusions, True, text="client entries")
+        self.exclusion_frame_server = CustomLabelFrame(self, self.root.gtnh_modpack.server_exclusions, True, text="server entries")
         self.btn_save = tk.Button(self, text="save modifications", command=self.save)
 
         # grid manager
@@ -820,13 +654,7 @@ class CustomLabelFrame(tk.LabelFrame, tk.Frame):
     Widget providing a basic set of subwidgets to make an editable listbox.
     """
 
-    def __init__(self,
-                 master: Any,
-                 entries: List[str],
-                 framed: bool,
-                 add_callback=None,
-                 delete_callback=None,
-                 *args: Any, **kwargs: Any) -> None:
+    def __init__(self, master: Any, entries: List[str], framed: bool, add_callback: Any=None, delete_callback: Any=None, *args: Any, **kwargs: Any) -> None:
         """
         Constructor of CustomLabelFrame class.
         """
