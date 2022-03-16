@@ -593,13 +593,17 @@ class ArchivePopup(BasePopup):
 
         # widgets on the window
         self.progress_bar = Progressbar(self, orient="horizontal", mode="determinate", length=500)
+        self.progress_bar_global = Progressbar(self, orient="horizontal", mode="determinate", length=500)
+        self.progress_label_global = tk.Label(self, text="")
         self.progress_label = tk.Label(self, text="")
         self.btn_start = tk.Button(self, text="start", command=self.start)
 
         # grid manager
-        self.progress_bar.grid(row=0, column=0)
-        self.progress_label.grid(row=1, column=0)
-        self.btn_start.grid(row=2, column=0)
+        self.progress_bar_global.grid(row=0, column=0)
+        self.progress_label_global.grid(row=1, column=0)
+        self.progress_bar.grid(row=2, column=0)
+        self.progress_label.grid(row=3, column=0)
+        self.btn_start.grid(row=4, column=0)
 
     def start(self) -> None:
         """
@@ -613,22 +617,79 @@ class ArchivePopup(BasePopup):
         server_folder = Path(__file__).parent / "cache" / "server_archive"
 
         try:
+            delta_progress_global = 100/8
+
+            self._progress_callback(delta_progress_global,
+                                    "dowloading mods",
+                                    self.progress_bar_global,
+                                    self.progress_label_global)
             client_paths, server_paths = self.download_mods_client(self.root.gtnh_modpack, github, organization)
+
+            self._progress_callback(delta_progress_global,
+                                    "sort client/server side mods",
+                                    self.progress_bar_global,
+                                    self.progress_label_global)
             move_mods(client_paths, server_paths)
+
+            self._progress_callback(delta_progress_global,
+                                    "adding extra files",
+                                    self.progress_bar_global,
+                                    self.progress_label_global)
             handle_pack_extra_files()
+
+            self._progress_callback(delta_progress_global,
+                                    "generating client archive",
+                                    self.progress_bar_global,
+                                    self.progress_label_global)
             self.pack_clientpack_client(crawl(client_folder), self.root.gtnh_modpack.modpack_version)
+
+            self._progress_callback(delta_progress_global,
+                                    "generating server archive",
+                                    self.progress_bar_global,
+                                    self.progress_label_global)
             self.pack_serverpack_client(crawl(server_folder), self.root.gtnh_modpack.modpack_version)
+
+            self._progress_callback(delta_progress_global,
+                                    "generating technic assets",
+                                    self.progress_bar_global,
+                                    self.progress_label_global)
             self.pack_technic()
+
+            self._progress_callback(delta_progress_global,
+                                    "generating deploader for curse",
+                                    self.progress_bar_global,
+                                    self.progress_label_global)
             self.make_deploader_json()
+
+            self._progress_callback(delta_progress_global,
+                                    "generating curse archive",
+                                    self.progress_bar_global,
+                                    self.progress_label_global)
             self.pack_curse()
         except PackingInterruptException:
             pass
 
-    def _progress_callback(self, delta_progress: float, label: str) -> None:
+    def _progress_callback(self,
+                           delta_progress: float,
+                           label: str,
+                           progress_bar_w: Optional[Progressbar] = None,
+                           label_w: Optional[tk.Label] = None) -> None:
+        """
+        Method used to update a progress bar.
+
+        :param delta_progress: progress to add
+        :param label: text to display
+        :param progress_bar_w: the progress bar widget
+        :param label_w: the label widget
+        :return: None
+        """
+        progress_bar_widget = self.progress_bar if progress_bar_w is None else progress_bar_w
+        label_widget = self.progress_label if label_w is None else label_w
+
         # updating the progress bar
-        self.progress_bar["value"] += delta_progress
-        self.progress_bar["value"] = min(100.0, float(format(self.progress_bar["value"], ".2f")))
-        self.progress_label["text"] = label.format(self.progress_bar["value"])
+        progress_bar_widget["value"] += delta_progress
+        progress_bar_widget["value"] = min(100.0, float(format(progress_bar_widget["value"], ".2f")))
+        label_widget["text"] = label.format(progress_bar_widget["value"])
         self.update()
 
     def download_mods_client(self, gtnh_modpack: GTNHModpack, github: Github, organization: Organization) -> \
