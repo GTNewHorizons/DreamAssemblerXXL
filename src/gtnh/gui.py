@@ -472,7 +472,7 @@ class ArchiveFrame(BaseFrame):
         self.progress_bar_global = Progressbar(self, orient="horizontal", mode="determinate", length=500)
         self.progress_label_global = tk.Label(self, text="")
         self.progress_label = tk.Label(self, text="")
-        self.btn_start = tk.Button(self, text="start", command=self.start)
+        self.btn_start = tk.Button(self, text="start", command=self.start, width=20)
 
         # grid manager
         self.progress_bar_global.grid(row=0, column=0)
