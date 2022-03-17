@@ -7,13 +7,14 @@ from tkinter.ttk import Progressbar
 from typing import Any, Callable, List, Optional, Tuple
 from zipfile import ZipFile
 
+import pydantic
 import requests
 from github import Github
 from github.Organization import Organization
 
 from gtnh.add_mod import get_repo, new_mod_from_repo
 from gtnh.exceptions import LatestReleaseNotFound, PackingInterruptException, RepoNotFoundException
-from gtnh.mod_info import GTNHModpack
+from gtnh.mod_info import GTNHModpack, ModInfo
 from gtnh.pack_downloader import download_mod, ensure_cache_dir
 from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, save_gtnh_manifest
 
@@ -494,34 +495,100 @@ class AddCurseModFrame(BaseFrame):
         self.entry_file_name = tk.Entry(self, textvariable=self.sv_file_name)
         self.entry_maven_url = tk.Entry(self, textvariable=self.sv_maven_url)
 
+        self.custom_label_frame = CustomLabelFrame(self, [x.name for x in self.root.gtnh_modpack.external_mods], False, add_callback=self.add_callback, delete_callback=self.delete_callback)
 
+        #dirty hack to reshape the custom label frame without making a new class
+        self.custom_label_frame.listbox.configure(height=20)
+        self.custom_label_frame.btn_add.grid_forget()
+        self.custom_label_frame.btn_remove.grid_forget()
+        self.custom_label_frame.btn_remove.grid(row=3, column=0, columnspan=2, sticky="WE")
+        self.custom_label_frame.listbox.bind('<<ListboxSelect>>', self.fill_fields)
 
-        self.btn_add = tk.Button(self, text="add", command=self.add)
+        self.btn_add = tk.Button(self, text="add/update", command=self.add)
 
         #grid manager
-        self.label_name.grid(row=0, column=0, sticky="WE")
-        self.entry_name.grid(row=1, column=0, sticky="WE")
-        self.label_page_url.grid(row=2, column=0, sticky="WE")
-        self.entry_page_url.grid(row=3, column=0, sticky="WE")
-        self.label_license.grid(row=4, column=0, sticky="WE")
-        self.entry_license.grid(row=5, column=0, sticky="WE")
-        self.label_version.grid(row=6, column=0, sticky="WE")
-        self.entry_version.grid(row=7, column=0, sticky="WE")
-        self.label_browser_url.grid(row=8, column=0, sticky="WE")
-        self.entry_browser_url.grid(row=9, column=0, sticky="WE")
-        self.label_download_url.grid(row=10, column=0, sticky="WE")
-        self.entry_download_url.grid(row=11, column=0, sticky="WE")
-        self.label_release_date.grid(row=12, column=0, sticky="WE")
-        self.entry_release_date.grid(row=13, column=0, sticky="WE")
-        self.label_file_name.grid(row=14, column=0, sticky="WE")
-        self.entry_file_name.grid(row=15, column=0, sticky="WE")
-        self.label_maven_url.grid(row=16, column=0, sticky="WE")
-        self.entry_maven_url.grid(row=17, column=0, sticky="WE")
-        self.btn_add.grid(row=18, column=0, sticky="WE")
+        self.custom_label_frame.grid(row=0, column=0, rowspan=19, sticky="NS")
+        self.label_name.grid(row=0, column=1, sticky="WE")
+        self.entry_name.grid(row=1, column=1, sticky="WE")
+        self.label_page_url.grid(row=2, column=1, sticky="WE")
+        self.entry_page_url.grid(row=3, column=1, sticky="WE")
+        self.label_license.grid(row=4, column=1, sticky="WE")
+        self.entry_license.grid(row=5, column=1, sticky="WE")
+        self.label_version.grid(row=6, column=1, sticky="WE")
+        self.entry_version.grid(row=7, column=1, sticky="WE")
+        self.label_browser_url.grid(row=8, column=1, sticky="WE")
+        self.entry_browser_url.grid(row=9, column=1, sticky="WE")
+        self.label_download_url.grid(row=10, column=1, sticky="WE")
+        self.entry_download_url.grid(row=11, column=1, sticky="WE")
+        self.label_release_date.grid(row=12, column=1, sticky="WE")
+        self.entry_release_date.grid(row=13, column=1, sticky="WE")
+        self.label_file_name.grid(row=14, column=1, sticky="WE")
+        self.entry_file_name.grid(row=15, column=1, sticky="WE")
+        self.label_maven_url.grid(row=16, column=1, sticky="WE")
+        self.entry_maven_url.grid(row=17, column=1, sticky="WE")
+        self.btn_add.grid(row=18, column=1, sticky="WE")
 
     def add(self):
-        pass
+        try:
+            new_mod = ModInfo(name=self.sv_name.get(),
+                              repo_url=self.sv_page_url.get(),
+                              license=self.sv_license.get(),
+                              version=self.sv_version.get(),
+                              browser_download_url=self.sv_browser_url.get(),
+                              download_url=self.sv_download_url.get(),
+                              tagged_at=self.sv_release_date.get(),
+                              filename=self.sv_file_name.get(),
+                              maven=self.sv_maven_url.get())
+        except pydantic.error_wrappers.ValidationError:
+            showerror("invalid date format", f"{self.sv_release_date.get()} is an invalid format. It must be written as: YYYY-MM-DD hh:mm:ss")
+            return
 
+        # refreshing the modlist in case the mod is already in the list
+        external_mods = [mod for mod in self.root.gtnh_modpack.external_mods if not mod.name == new_mod.name]
+        external_mods.append(new_mod)
+        self.root.gtnh_modpack.external_mods=external_mods
+
+        #save/reload because the cached properties doesn't update otherwise
+        self.save_gtnh_metadata()
+        self.reload_gtnh_metadata()
+
+        content = self.custom_label_frame.get_listbox_content()
+        content.append(new_mod.name)
+        content = list(set(content))
+        self.custom_label_frame.listbox.delete(0, tk.END)
+        for entry in sorted(content):
+            self.custom_label_frame.listbox.insert(tk.END, entry)
+
+
+
+
+
+    def fill_fields(self, *args):
+        listbox=self.custom_label_frame.listbox
+        name = listbox.get(listbox.curselection()[0])
+        modinfo = self.root.gtnh_modpack.get_external_mod(name)
+        bindings = (("name", self.sv_name),
+                    ("repo_url", self.sv_page_url),
+                    ("license", self.sv_license),
+                    ("version", self.sv_version),
+                    ("browser_download_url", self.sv_browser_url),
+                    ("download_url", self.sv_download_url),
+                    ("tagged_at", self.sv_release_date),
+                    ("filename", self.sv_file_name),
+                    ("maven", self.sv_maven_url))
+
+        for modinfo_field, stringvar in bindings:
+            stringvar.set(getattr(modinfo, modinfo_field))
+
+
+    def add_callback(self):
+        return self.save
+
+    def delete_callback(self):
+        return self.save()
+
+    def save(self):
+        return True
 
 class ArchiveFrame(BaseFrame):
     """
