@@ -617,8 +617,6 @@ class HandleFileExclusionFrame(BaseFrame):
     Window allowing you to update the files dedicated to clientside or serverside.
     """
 
-    # todo: make an edit checker and add a warning if the popup is closed without saving, or use the callbacks of the
-    # CustomFrame to insta save when the user performs an action
     def __init__(self, root: MainFrame) -> None:
         """
         Constructor of HandleFileExclusionFrame class.
@@ -630,25 +628,77 @@ class HandleFileExclusionFrame(BaseFrame):
         BaseFrame.__init__(self, root, popup_name="Exclusions editor")
 
         # widgets
-        self.exclusion_frame_client = CustomLabelFrame(self, self.root.gtnh_modpack.client_exclusions, True, text="client entries")
-        self.exclusion_frame_server = CustomLabelFrame(self, self.root.gtnh_modpack.server_exclusions, True, text="server entries")
-        self.btn_save = tk.Button(self, text="save modifications", command=self.save)
+        self.exclusion_frame_client = CustomLabelFrame(
+            self, sorted(self.root.gtnh_modpack.client_exclusions), True, text="client entries", add_callback=self.add_client, delete_callback=self.del_client
+        )
+        self.exclusion_frame_server = CustomLabelFrame(
+            self, sorted(self.root.gtnh_modpack.server_exclusions), True, text="server entries", add_callback=self.add_server, delete_callback=self.del_server
+        )
 
         # grid manager
         self.exclusion_frame_client.grid(row=0, column=0)
-        self.exclusion_frame_server.grid(row=0, column=2)
-        self.btn_save.grid(row=0, column=1)
+        self.exclusion_frame_server.grid(row=0, column=1)
 
-    def save(self) -> None:
+    def save(self, entry: str, mode: str = "client", *args: Any, **kwargs: Any) -> bool:
         """
         Method called to save the metadata.
 
-        :return: None
+        :return: true
         """
+        if mode == "client":
+            exclusions = self.exclusion_frame_client.get_listbox_content()
+            if entry == "":
+                exclusions.append(entry)
+            self.root.gtnh_modpack.client_exclusions = sorted(exclusions)
 
-        self.root.gtnh_modpack.client_exclusions = self.exclusion_frame_client.get_listbox_content()
-        self.root.gtnh_modpack.server_exclusions = self.exclusion_frame_server.get_listbox_content()
+        elif mode == "server":
+            exclusions = self.exclusion_frame_server.get_listbox_content()
+            if entry == "":
+                exclusions.append(entry)
+            self.root.gtnh_modpack.server_exclusions = sorted(exclusions)
+
         self.save_gtnh_metadata()
+        return True
+
+    def add_client(self, entry: str, *args: Any, **kwargs: Any) -> bool:
+        """
+        called when the button add of the client exclusion list is called.
+        :param entry: the new exclusion
+        :param args:
+        :param kwargs:
+        :return: true
+        """
+        return self.save(entry, "client", *args, **kwargs)
+
+    def add_server(self, entry: str, *args: Any, **kwargs: Any) -> bool:
+        """
+        called when the button add of the server exclusion list is called.
+        :param entry: the new exclusion
+        :param args:
+        :param kwargs:
+        :return: true
+        """
+        return self.save(entry, "server", *args, **kwargs)
+
+    def del_client(self, _: str, *args: Any, **kwargs: Any) -> bool:
+        """
+        called when the button remove of the client exclusion list is called.
+        :param _: the deleted exclusion
+        :param args:
+        :param kwargs:
+        :return: true
+        """
+        return self.save("", "client", *args, **kwargs)
+
+    def del_server(self, _: str, *args: Any, **kwargs: Any) -> bool:
+        """
+        called when the button remove of the server exclusion list is called.
+        :param _: the deleted exclusion
+        :param args:
+        :param kwargs:
+        :return: true
+        """
+        return self.save("", "server", *args, **kwargs)
 
 
 class CustomLabelFrame(tk.LabelFrame):
@@ -671,26 +721,32 @@ class CustomLabelFrame(tk.LabelFrame):
         self.delete_callback = delete_callback
 
         # widgets
-        self.listbox = tk.Listbox(self, width=max([len(x) for x in entries]))
-        self.scrollbar = tk.Scrollbar(self)
+        self.listbox = tk.Listbox(self, width=80)
+        self.scrollbar_vertical = tk.Scrollbar(self)
+        self.scrollbar_horizontal = tk.Scrollbar(self, orient=tk.HORIZONTAL)
         self.stringvar = tk.StringVar(self, value="")
         self.entry = tk.Entry(self, textvariable=self.stringvar)
         self.btn_add = tk.Button(self, text="add", command=self.add)
         self.btn_remove = tk.Button(self, text="remove", command=self.remove)
 
-        # bind the scrollbar
-        self.scrollbar.config(command=self.listbox.yview)
-        self.listbox.config(yscrollcommand=self.scrollbar.set)
+        # bind the scrollbars
+        self.scrollbar_vertical.config(command=self.listbox.yview)
+        self.listbox.config(yscrollcommand=self.scrollbar_vertical.set)
+
+        self.scrollbar_horizontal.config(command=self.listbox.xview)
+        self.listbox.config(xscrollcommand=self.scrollbar_horizontal.set)
+
         # populate the listbox
         for entry in entries:
             self.listbox.insert(tk.END, entry)
 
         # grid manager
         self.listbox.grid(row=0, column=0, columnspan=2, sticky="WE")
-        self.scrollbar.grid(row=0, column=2, sticky="NS")
-        self.entry.grid(row=1, column=0, columnspan=2, sticky="WE")
-        self.btn_add.grid(row=2, column=0, sticky="WE")
-        self.btn_remove.grid(row=2, column=1, sticky="WE")
+        self.scrollbar_vertical.grid(row=0, column=2, sticky="NS")
+        self.scrollbar_horizontal.grid(row=1, column=0, columnspan=2, sticky="WE")
+        self.entry.grid(row=2, column=0, columnspan=2, sticky="WE")
+        self.btn_add.grid(row=3, column=0, sticky="WE")
+        self.btn_remove.grid(row=3, column=1, sticky="WE")
 
     def add(self) -> None:
         """
@@ -704,7 +760,6 @@ class CustomLabelFrame(tk.LabelFrame):
                 self.listbox.insert(tk.END, self.entry.get())
         else:
             self.listbox.insert(tk.END, self.entry.get())
-            self.listbox.configure(width=max([len(x) for x in self.get_listbox_content()]))
 
     def remove(self) -> None:
         """
