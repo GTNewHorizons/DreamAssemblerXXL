@@ -26,7 +26,7 @@ def add_mod(name: str) -> None:
 
     new_repo = get_repo(name)
     gtnh = load_gtnh_manifest()
-    if gtnh.get_github_mod(new_repo.name):
+    if gtnh.has_github_mod(new_repo.name):
         print(f"Mod already added {name}")
         sys.exit()
 
