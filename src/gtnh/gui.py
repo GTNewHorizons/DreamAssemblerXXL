@@ -821,25 +821,30 @@ class HandleFileExclusionFrame(BaseFrame):
         self.exclusion_frame_client.grid(row=0, column=0)
         self.exclusion_frame_server.grid(row=0, column=1)
 
-    def save(self, entry: str, mode: str = "client", *args: Any, **kwargs: Any) -> bool:
+    def save(self, entry: str, side: str = "client", mode:str="add", *args: Any, **kwargs: Any) -> bool:
         """
         Method called to save the metadata.
 
         :return: true
         """
-        if mode == "client":
+        if side == "client":
             exclusions = self.exclusion_frame_client.get_listbox_content()
-            if entry == "":
+            if mode == "add":
                 exclusions.append(entry)
-            self.root.gtnh_modpack.client_exclusions = sorted(exclusions)
+            else:
+                exclusions = [exclusion for exclusion in exclusions if exclusion!=entry]
+            self.root.gtnh_modpack.client_exclusions = sorted(list(set(exclusions)))
 
-        elif mode == "server":
+        elif side == "server":
             exclusions = self.exclusion_frame_server.get_listbox_content()
-            if entry == "":
+            if mode == "add":
                 exclusions.append(entry)
-            self.root.gtnh_modpack.server_exclusions = sorted(exclusions)
+            else:
+                exclusions = [exclusion for exclusion in exclusions if exclusion!=entry]
+            self.root.gtnh_modpack.server_exclusions = sorted(list(set(exclusions)))
 
         self.save_gtnh_metadata()
+        self.reload_gtnh_metadata()
         return True
 
     def add_client(self, entry: str, *args: Any, **kwargs: Any) -> bool:
@@ -850,7 +855,7 @@ class HandleFileExclusionFrame(BaseFrame):
         :param kwargs:
         :return: true
         """
-        return self.save(entry, "client", *args, **kwargs)
+        return self.save(entry, "client", "add", *args, **kwargs)
 
     def add_server(self, entry: str, *args: Any, **kwargs: Any) -> bool:
         """
@@ -860,27 +865,27 @@ class HandleFileExclusionFrame(BaseFrame):
         :param kwargs:
         :return: true
         """
-        return self.save(entry, "server", *args, **kwargs)
+        return self.save(entry, "server", "add", *args, **kwargs)
 
-    def del_client(self, _: str, *args: Any, **kwargs: Any) -> bool:
+    def del_client(self, entry: str, *args: Any, **kwargs: Any) -> bool:
         """
         called when the button remove of the client exclusion list is called.
-        :param _: the deleted exclusion
+        :param entry: the deleted exclusion
         :param args:
         :param kwargs:
         :return: true
         """
-        return self.save("", "client", *args, **kwargs)
+        return self.save(entry, "client", "remove", *args, **kwargs)
 
-    def del_server(self, _: str, *args: Any, **kwargs: Any) -> bool:
+    def del_server(self, entry: str, *args: Any, **kwargs: Any) -> bool:
         """
         called when the button remove of the server exclusion list is called.
-        :param _: the deleted exclusion
+        :param entry: the deleted exclusion
         :param args:
         :param kwargs:
         :return: true
         """
-        return self.save("", "server", *args, **kwargs)
+        return self.save(entry, "server", "remove", *args, **kwargs)
 
 
 class CustomLabelFrame(tk.LabelFrame):
