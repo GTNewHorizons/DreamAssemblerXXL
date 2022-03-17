@@ -21,11 +21,11 @@ def get_latest_releases(gtnh_modpack: GTNHModpack) -> None:
     o = g.get_organization("GTNewHorizons")
 
     for mod in gtnh_modpack.github_mods:
-        download_mod(g, o, mod)
+        download_github_mod(g, o, mod)
 
 
 @retry(delay=5, tries=3)
-def download_mod(g: Github, o: Organization, mod: ModInfo) -> List[Path]:
+def download_github_mod(g: Github, o: Organization, mod: ModInfo) -> List[Path]:
     print("***********************************************************")
     print(f"Downloading {mod.name}:{mod.version}")
     paths = []

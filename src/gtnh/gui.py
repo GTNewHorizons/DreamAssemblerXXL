@@ -3,7 +3,7 @@ import tkinter as tk
 from pathlib import Path
 from shutil import copy, rmtree
 from tkinter.messagebox import showerror, showinfo, showwarning
-from tkinter.ttk import Progressbar
+from tkinter.ttk import Progressbar, Combobox
 from typing import Any, Callable, List, Optional, Tuple
 from zipfile import ZipFile
 
@@ -15,9 +15,29 @@ from github.Organization import Organization
 from gtnh.add_mod import get_repo, new_mod_from_repo
 from gtnh.exceptions import LatestReleaseNotFound, PackingInterruptException, RepoNotFoundException
 from gtnh.mod_info import GTNHModpack, ModInfo
-from gtnh.pack_downloader import download_mod, ensure_cache_dir
+from gtnh.pack_downloader import download_github_mod, ensure_cache_dir
 from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, save_gtnh_manifest
 
+def download_external_mod(mod:ModInfo) -> List[Path]:
+    cache_dir = ensure_cache_dir()
+    mod_filename = cache_dir / "mods" / mod.filename
+    if os.path.exists(mod_filename):
+        print(f"Skipping re-redownload of {mod.filename}")
+        return [mod_filename]
+
+
+    print(f"Downloading {mod.filename} to {mod_filename}")
+
+    headers = {"Accept": "application/octet-stream"}
+
+
+    with requests.get(mod.download_url, stream=True, headers=headers) as r:
+        r.raise_for_status()
+        with open(mod_filename, "wb") as f:
+            for chunk in r.iter_content(chunk_size=8192):
+                f.write(chunk)
+    print("Download successful")
+    return [mod_filename]
 
 def download_mods(
     gtnh_modpack: GTNHModpack,
@@ -37,19 +57,19 @@ def download_mods(
             mod.
     """
     # computation of the progress per mod for the progressbar
-    delta_progress = 100 / len(gtnh_modpack.github_mods)
+    delta_progress = 100 / (len(gtnh_modpack.github_mods)+len(gtnh_modpack.external_mods))
 
     # lists holding the paths to the mods
     client_paths = []
     server_paths = []
 
-    # download of the mods
+    # download of the github mods
     for mod in gtnh_modpack.github_mods:
         if callback is not None:
-            callback(delta_progress, f"downloading mods. current mod: {mod.name} Progress: {{0}}%")
+            callback(delta_progress, f"downloading github mods. current mod: {mod.name} Progress: {{0}}%")
 
         # do the actual work
-        paths = download_mod(github, organization, mod)
+        paths = download_github_mod(github, organization, mod)
         if mod.side == "BOTH":
             client_paths.extend(paths)
             server_paths.extend(paths)
@@ -58,7 +78,19 @@ def download_mods(
         elif mod.side == "SERVER":
             server_paths.extend(paths)
 
-    # todo: make a similar thing for the curse mods
+    for mod in gtnh_modpack.external_mods:
+        if callback is not None:
+            callback(delta_progress, f"downloading external mods. current mod: {mod.name} Progress: {{0}}%")
+
+        # do the actual work
+        paths = download_external_mod(mod)
+        if mod.side == "BOTH":
+            client_paths.extend(paths)
+            server_paths.extend(paths)
+        elif mod.side == "CLIENT":
+            client_paths.extend(paths)
+        elif mod.side == "SERVER":
+            server_paths.extend(paths)
 
     return client_paths, server_paths
 
@@ -474,6 +506,7 @@ class AddCurseModFrame(BaseFrame):
         self.label_release_date = tk.Label(self, text="release date")
         self.label_file_name = tk.Label(self, text="file name")
         self.label_maven_url = tk.Label(self, text="maven url")
+        self.label_side = tk.Label(self, text="client/server side")
 
         self.sv_name = tk.StringVar(self)
         self.sv_page_url = tk.StringVar(self)
@@ -495,7 +528,10 @@ class AddCurseModFrame(BaseFrame):
         self.entry_file_name = tk.Entry(self, textvariable=self.sv_file_name)
         self.entry_maven_url = tk.Entry(self, textvariable=self.sv_maven_url)
 
-        self.custom_label_frame = CustomLabelFrame(self, [x.name for x in self.root.gtnh_modpack.external_mods], False, add_callback=self.add_callback, delete_callback=self.delete_callback)
+        self.combo_box_sides = Combobox(self, values=["CLIENT", "SERVER", "BOTH"])
+        self.combo_box_sides.current(2)
+
+        self.custom_label_frame = CustomLabelFrame(self, [x.name for x in self.root.gtnh_modpack.external_mods], False, delete_callback=self.delete_callback)
 
         #dirty hack to reshape the custom label frame without making a new class
         self.custom_label_frame.listbox.configure(height=20)
@@ -507,7 +543,7 @@ class AddCurseModFrame(BaseFrame):
         self.btn_add = tk.Button(self, text="add/update", command=self.add)
 
         #grid manager
-        self.custom_label_frame.grid(row=0, column=0, rowspan=19, sticky="NS")
+        self.custom_label_frame.grid(row=0, column=0, rowspan=21, sticky="NS")
         self.label_name.grid(row=0, column=1, sticky="WE")
         self.entry_name.grid(row=1, column=1, sticky="WE")
         self.label_page_url.grid(row=2, column=1, sticky="WE")
@@ -526,7 +562,9 @@ class AddCurseModFrame(BaseFrame):
         self.entry_file_name.grid(row=15, column=1, sticky="WE")
         self.label_maven_url.grid(row=16, column=1, sticky="WE")
         self.entry_maven_url.grid(row=17, column=1, sticky="WE")
-        self.btn_add.grid(row=18, column=1, sticky="WE")
+        self.label_side.grid(row=18, column=1, sticky="WE")
+        self.combo_box_sides.grid(row=19, column=1, sticky="WE")
+        self.btn_add.grid(row=20, column=1, sticky="WE")
 
     def add(self):
         try:
@@ -538,7 +576,8 @@ class AddCurseModFrame(BaseFrame):
                               download_url=self.sv_download_url.get(),
                               tagged_at=self.sv_release_date.get(),
                               filename=self.sv_file_name.get(),
-                              maven=self.sv_maven_url.get())
+                              maven=self.sv_maven_url.get(),
+                              side=self.combo_box_sides.get())
         except pydantic.error_wrappers.ValidationError:
             showerror("invalid date format", f"{self.sv_release_date.get()} is an invalid format. It must be written as: YYYY-MM-DD hh:mm:ss")
             return
@@ -564,8 +603,15 @@ class AddCurseModFrame(BaseFrame):
 
 
     def fill_fields(self, *args):
+        combo_box_mappings = {0: "CLIENT", 1: "SERVER", 2: "BOTH", "CLIENT":0, "SERVER":1, "BOTH":2}
         listbox=self.custom_label_frame.listbox
-        name = listbox.get(listbox.curselection()[0])
+
+        #catch weird edge cases of listbox selection
+        try:
+            name = listbox.get(listbox.curselection()[0])
+        except IndexError:
+            return
+
         modinfo = self.root.gtnh_modpack.get_external_mod(name)
         bindings = (("name", self.sv_name),
                     ("repo_url", self.sv_page_url),
@@ -577,18 +623,17 @@ class AddCurseModFrame(BaseFrame):
                     ("filename", self.sv_file_name),
                     ("maven", self.sv_maven_url))
 
+
         for modinfo_field, stringvar in bindings:
             stringvar.set(getattr(modinfo, modinfo_field))
+        self.combo_box_sides.set(modinfo.side)
 
-
-    def add_callback(self):
-        return self.save
-
-    def delete_callback(self):
-        return self.save()
-
-    def save(self):
+    def delete_callback(self, mod_name):
+        self.root.gtnh_modpack.external_mods = [mod for mod in self.root.gtnh_modpack.external_mods if not mod.name == mod_name]
+        self.save_gtnh_metadata()
+        self.reload_gtnh_metadata()
         return True
+
 
 class ArchiveFrame(BaseFrame):
     """
