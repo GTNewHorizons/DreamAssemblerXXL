@@ -322,10 +322,12 @@ class MainFrame(tk.Tk):
         self.archive_popup: ArchiveFrame = ArchiveFrame(self)
         self.exclusion_popup: HandleFileExclusionFrame = HandleFileExclusionFrame(self)
         self.dependencies_popup: HandleDepUpdateFrame = HandleDepUpdateFrame(self)
+        self.curse_popup: AddCurseModFrame = AddCurseModFrame(self)
 
         # grid manager
         self.repo_popup.grid(row=0, column=0, sticky="WE")
         self.archive_popup.grid(row=0, column=1, sticky="WENS")
+        self.curse_popup.grid(row=0, column=2, sticky="WE")
         self.exclusion_popup.grid(row=1, column=0, columnspan=2, sticky="WE")
         self.dependencies_popup.grid(row=1, column=1, sticky="WE")
 
@@ -381,7 +383,7 @@ class BaseFrame(tk.LabelFrame):
 
 class AddRepoFrame(BaseFrame):
     """
-    Window allowing you to manage repositories in the github list contained in DreamAssemblerXXL.
+    Frame allowing you to manage repositories in the github list contained in DreamAssemblerXXL.
     When adding a new Repository, the following things can happen:
     - Will raise you a tkinter error messagebox when the repository is not found.
     - Will raise you a tkinter warning messagebox when the repository is already added.
@@ -451,6 +453,74 @@ class AddRepoFrame(BaseFrame):
             # releasing the blocking
             self.is_messagebox_open = False
         return repo_added
+
+
+class AddCurseModFrame(BaseFrame):
+    """
+    Frame allowing you to add a curse mod in the metadata.
+    """
+
+    def __init__(self, root:MainFrame) -> None:
+        BaseFrame.__init__(self, root, popup_name="Curse mods management")
+
+        #widgets
+        self.label_name = tk.Label(self, text="mod name")
+        self.label_page_url = tk.Label(self, text="project url")
+        self.label_license = tk.Label(self, text="license")
+        self.label_version = tk.Label(self, text="mod version")
+        self.label_browser_url = tk.Label(self, text="url of the download page")
+        self.label_download_url = tk.Label(self, text="direct download url of the mod file")
+        self.label_release_date = tk.Label(self, text="release date")
+        self.label_file_name = tk.Label(self, text="file name")
+        self.label_maven_url = tk.Label(self, text="maven url")
+
+        self.sv_name = tk.StringVar(self)
+        self.sv_page_url = tk.StringVar(self)
+        self.sv_license = tk.StringVar(self)
+        self.sv_version = tk.StringVar(self)
+        self.sv_browser_url = tk.StringVar(self)
+        self.sv_download_url = tk.StringVar(self)
+        self.sv_release_date = tk.StringVar(self)
+        self.sv_file_name = tk.StringVar(self)
+        self.sv_maven_url = tk.StringVar(self)
+
+        self.entry_name = tk.Entry(self, textvariable=self.sv_name)
+        self.entry_page_url = tk.Entry(self, textvariable=self.sv_page_url)
+        self.entry_license = tk.Entry(self, textvariable=self.sv_license)
+        self.entry_version = tk.Entry(self, textvariable=self.sv_version)
+        self.entry_browser_url = tk.Entry(self, textvariable=self.sv_browser_url)
+        self.entry_download_url = tk.Entry(self, textvariable=self.sv_download_url)
+        self.entry_release_date = tk.Entry(self, textvariable=self.sv_release_date)
+        self.entry_file_name = tk.Entry(self, textvariable=self.sv_file_name)
+        self.entry_maven_url = tk.Entry(self, textvariable=self.sv_maven_url)
+
+
+
+        self.btn_add = tk.Button(self, text="add", command=self.add)
+
+        #grid manager
+        self.label_name.grid(row=0, column=0, sticky="WE")
+        self.entry_name.grid(row=1, column=0, sticky="WE")
+        self.label_page_url.grid(row=2, column=0, sticky="WE")
+        self.entry_page_url.grid(row=3, column=0, sticky="WE")
+        self.label_license.grid(row=4, column=0, sticky="WE")
+        self.entry_license.grid(row=5, column=0, sticky="WE")
+        self.label_version.grid(row=6, column=0, sticky="WE")
+        self.entry_version.grid(row=7, column=0, sticky="WE")
+        self.label_browser_url.grid(row=8, column=0, sticky="WE")
+        self.entry_browser_url.grid(row=9, column=0, sticky="WE")
+        self.label_download_url.grid(row=10, column=0, sticky="WE")
+        self.entry_download_url.grid(row=11, column=0, sticky="WE")
+        self.label_release_date.grid(row=12, column=0, sticky="WE")
+        self.entry_release_date.grid(row=13, column=0, sticky="WE")
+        self.label_file_name.grid(row=14, column=0, sticky="WE")
+        self.entry_file_name.grid(row=15, column=0, sticky="WE")
+        self.label_maven_url.grid(row=16, column=0, sticky="WE")
+        self.entry_maven_url.grid(row=17, column=0, sticky="WE")
+        self.btn_add.grid(row=18, column=0, sticky="WE")
+
+    def add(self):
+        pass
 
 
 class ArchiveFrame(BaseFrame):
