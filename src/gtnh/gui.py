@@ -3,6 +3,7 @@ from pathlib import Path
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import Combobox, Progressbar
 from typing import Any, List, Optional, Tuple
+from urllib import parse
 
 import pydantic
 from github import Github
@@ -12,8 +13,8 @@ from gtnh.add_mod import get_repo, new_mod_from_repo
 from gtnh.exceptions import LatestReleaseNotFound, PackingInterruptException, RepoNotFoundException
 from gtnh.mod_info import GTNHModpack, ModInfo
 from gtnh.pack_assembler import handle_pack_extra_files, pack_clientpack, pack_serverpack
-from gtnh.pack_downloader import download_mods
-from gtnh.utils import crawl, get_token, load_gtnh_manifest, move_mods, save_gtnh_manifest
+from gtnh.pack_downloader import download_mods, ensure_cache_dir
+from gtnh.utils import crawl, get_token, load_gtnh_manifest, move_mods, save_gtnh_manifest, verify_url
 
 
 class MainFrame(tk.Tk):
@@ -36,22 +37,21 @@ class MainFrame(tk.Tk):
 
         # setting up the icon of the window
         imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
-        # getattr hack to please mypy instead of self._w
-        self.tk.call("wm", "iconphoto", getattr(self, "_w"), imgicon)
+        self.iconphoto(True, imgicon)
 
         # widgets in the window
         self.repo_popup: AddRepoFrame = AddRepoFrame(self)
         self.archive_popup: ArchiveFrame = ArchiveFrame(self)
         self.exclusion_popup: HandleFileExclusionFrame = HandleFileExclusionFrame(self)
-        self.dependencies_popup: HandleDepUpdateFrame = HandleDepUpdateFrame(self)
+        # self.dependencies_popup: HandleDepUpdateFrame = HandleDepUpdateFrame(self)
         self.curse_popup: AddCurseModFrame = AddCurseModFrame(self)
 
         # grid manager
-        self.repo_popup.grid(row=0, column=0, sticky="WE")
+        self.repo_popup.grid(row=0, column=0, sticky="WENS")
         self.archive_popup.grid(row=0, column=1, sticky="WENS")
-        self.curse_popup.grid(row=0, column=2, sticky="WE")
-        self.exclusion_popup.grid(row=1, column=0, columnspan=2, sticky="WE")
-        self.dependencies_popup.grid(row=1, column=1, sticky="WE")
+        self.curse_popup.grid(row=0, column=2, sticky="WENS")
+        self.exclusion_popup.grid(row=1, column=0, columnspan=2, sticky="WENS")
+        # self.dependencies_popup.grid(row=1, column=1, sticky="WENS")
 
 
 class BaseFrame(tk.LabelFrame):
@@ -114,6 +114,9 @@ class AddRepoFrame(BaseFrame):
 
         # widgets in the window
         self.custom_frame = CustomLabelFrame(self, self.get_repos(), False, add_callback=self.validate_callback)
+
+        # dirty hack to reshape the custom label frame without making a new class
+        self.custom_frame.listbox.configure(height=20)
 
         # grid manager
         self.custom_frame.grid(row=0, column=0)
@@ -195,7 +198,6 @@ class AddCurseModFrame(BaseFrame):
         self.label_browser_url = tk.Label(self, text="url of the download page")
         self.label_download_url = tk.Label(self, text="direct download url of the mod file")
         self.label_release_date = tk.Label(self, text="release date")
-        self.label_file_name = tk.Label(self, text="file name")
         self.label_maven_url = tk.Label(self, text="maven url")
         self.label_side = tk.Label(self, text="client/server side")
 
@@ -206,7 +208,6 @@ class AddCurseModFrame(BaseFrame):
         self.sv_browser_url = tk.StringVar(self)
         self.sv_download_url = tk.StringVar(self)
         self.sv_release_date = tk.StringVar(self)
-        self.sv_file_name = tk.StringVar(self)
         self.sv_maven_url = tk.StringVar(self)
 
         self.entry_name = tk.Entry(self, textvariable=self.sv_name)
@@ -216,7 +217,6 @@ class AddCurseModFrame(BaseFrame):
         self.entry_browser_url = tk.Entry(self, textvariable=self.sv_browser_url)
         self.entry_download_url = tk.Entry(self, textvariable=self.sv_download_url)
         self.entry_release_date = tk.Entry(self, textvariable=self.sv_release_date)
-        self.entry_file_name = tk.Entry(self, textvariable=self.sv_file_name)
         self.entry_maven_url = tk.Entry(self, textvariable=self.sv_maven_url)
 
         self.combo_box_sides = Combobox(self, values=["CLIENT", "SERVER", "BOTH"])
@@ -249,8 +249,6 @@ class AddCurseModFrame(BaseFrame):
         self.entry_download_url.grid(row=11, column=1, sticky="WE")
         self.label_release_date.grid(row=12, column=1, sticky="WE")
         self.entry_release_date.grid(row=13, column=1, sticky="WE")
-        self.label_file_name.grid(row=14, column=1, sticky="WE")
-        self.entry_file_name.grid(row=15, column=1, sticky="WE")
         self.label_maven_url.grid(row=16, column=1, sticky="WE")
         self.entry_maven_url.grid(row=17, column=1, sticky="WE")
         self.label_side.grid(row=18, column=1, sticky="WE")
@@ -264,6 +262,28 @@ class AddCurseModFrame(BaseFrame):
         :return: None
         """
         try:
+            errored_url = [
+                label["text"]
+                for label, stringvar in [
+                    (self.label_page_url, self.sv_page_url),
+                    (self.label_browser_url, self.sv_browser_url),
+                    (self.label_download_url, self.sv_browser_url),
+                ]
+                if not verify_url(stringvar.get())
+            ]
+
+            if len(errored_url) > 0:
+                showerror("invalid url detected", f"""{",".join(errored_url)} are invalid. Please check.""")
+                return
+
+            filename = Path(parse.urlparse(self.sv_download_url.get()).path).name
+
+            if not (filename.endswith(".jar") or filename.endswith(".zip")):
+                showerror("wrong download url", "the url for the download doesn't end up with .zip or .jar. Please check")
+                print(filename)
+                print(Path(parse.urlparse(self.sv_download_url.get()).path))
+                return
+
             new_mod = ModInfo(
                 name=self.sv_name.get(),
                 repo_url=self.sv_page_url.get(),
@@ -272,7 +292,7 @@ class AddCurseModFrame(BaseFrame):
                 browser_download_url=self.sv_browser_url.get(),
                 download_url=self.sv_download_url.get(),
                 tagged_at=self.sv_release_date.get(),
-                filename=self.sv_file_name.get(),
+                filename=filename,
                 maven=self.sv_maven_url.get(),
                 side=self.combo_box_sides.get(),
             )
@@ -323,7 +343,7 @@ class AddCurseModFrame(BaseFrame):
             ("browser_download_url", self.sv_browser_url),
             ("download_url", self.sv_download_url),
             ("tagged_at", self.sv_release_date),
-            ("filename", self.sv_file_name),
+            # ("filename", self.sv_file_name),
             ("maven", self.sv_maven_url),
         )
 
@@ -364,6 +384,9 @@ class ArchiveFrame(BaseFrame):
         self.progress_bar_global = Progressbar(self, orient="horizontal", mode="determinate", length=500)
         self.progress_label_global = tk.Label(self, text="")
         self.progress_label = tk.Label(self, text="")
+        self.label_pack_version = tk.Label(self, text="pack_version")
+        self.sv_pack_version = tk.StringVar(self, value=self.root.gtnh_modpack.modpack_version)
+        self.entry_pack_version = tk.Entry(self, textvariable=self.sv_pack_version)
         self.btn_start = tk.Button(self, text="start", command=self.start, width=20)
 
         # grid manager
@@ -371,7 +394,9 @@ class ArchiveFrame(BaseFrame):
         self.progress_label_global.grid(row=1, column=0)
         self.progress_bar.grid(row=2, column=0)
         self.progress_label.grid(row=3, column=0)
-        self.btn_start.grid(row=4, column=0)
+        self.label_pack_version.grid(row=4, column=0)
+        self.entry_pack_version.grid(row=5, column=0)
+        self.btn_start.grid(row=6, column=0)
 
     def start(self) -> None:
         """
@@ -379,6 +404,19 @@ class ArchiveFrame(BaseFrame):
 
         :return: None
         """
+        # rudimentary version parser
+        if self.sv_pack_version.get() == "" or "." not in self.sv_pack_version.get():
+            showerror("incorrect versionning", f"{self.sv_pack_version.get()} is incorrect: it must not be empty and have dots (ie 2.1.2.0) in it.")
+            return
+
+        # update pack_version
+        self.root.gtnh_modpack.modpack_version = self.sv_pack_version.get()
+        self.save_gtnh_metadata()
+        self.reload_gtnh_metadata()
+
+        # disabling the entry during the whole process
+        self.entry_pack_version.config(state=tk.DISABLED)
+
         github = Github(get_token())
         organization = github.get_organization("GTNewHorizons")
         client_folder = Path(__file__).parent / "cache" / "client_archive"
@@ -413,8 +451,14 @@ class ArchiveFrame(BaseFrame):
 
             self._progress_callback(delta_progress_global, "generating curse archive", self.progress_bar_global, self.progress_label_global)
             self.pack_curse()
+
+            showinfo(
+                f"packing of version {self.root.gtnh_modpack.modpack_version} successful", f"client pack and server pack are availiable in {ensure_cache_dir()}"
+            )
         except PackingInterruptException:
             pass
+
+        self.entry_pack_version.config(state=tk.NORMAL)
 
     def _progress_callback(self, delta_progress: float, label: str, progress_bar_w: Optional[Progressbar] = None, label_w: Optional[tk.Label] = None) -> None:
         """

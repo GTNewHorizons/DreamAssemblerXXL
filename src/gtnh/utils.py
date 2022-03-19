@@ -4,6 +4,7 @@ from functools import cache
 from pathlib import Path
 from shutil import copy, rmtree
 from typing import Dict, List, Optional, Set
+from urllib import parse
 
 import requests
 from github.GitRelease import GitRelease
@@ -179,3 +180,14 @@ def move_mods(client_paths: List[Path], server_paths: List[Path]) -> None:
 
     copy_file_to_folder(client_paths, source_root, client_folder)
     copy_file_to_folder(server_paths, source_root, server_folder)
+
+
+def verify_url(url: str) -> bool:
+    """
+    Url validator.
+
+    :param url: the url to be checked
+    :return: if yes or no it's valid
+    """
+    parse_result = parse.urlparse(url)
+    return parse_result.scheme in ["https", "http"] and parse_result.netloc != ""
