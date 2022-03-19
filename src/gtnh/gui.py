@@ -280,8 +280,6 @@ class AddCurseModFrame(BaseFrame):
 
             if not (filename.endswith(".jar") or filename.endswith(".zip")):
                 showerror("wrong download url", "the url for the download doesn't end up with .zip or .jar. Please check")
-                print(filename)
-                print(Path(parse.urlparse(self.sv_download_url.get()).path))
                 return
 
             new_mod = ModInfo(
