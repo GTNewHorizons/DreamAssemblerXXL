@@ -1899,19 +1899,19 @@
   ],
   "external_mods": [
     {
-      "name": "AdventureBackpack2",
-      "version": "1.0.4-GTNH",
-      "tagged_at": "2022-02-02T23:17:36",
-      "repo_url": "https://github.com/GTNewHorizons/AdventureBackpack2",
-      "filename": "adventurebackpack-1.7.10-1.0.4-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/AdventureBackpack2/releases/assets/55680585",
-      "browser_download_url": "https://github.com/GTNewHorizons/AdventureBackpack2/releases/download/1.0.4-GTNH/adventurebackpack-1.7.10-1.0.4-GTNH.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "name": "AromaBackup",
+      "version": "1.7.10-0.1.0.0",
+      "tagged_at": "2016-02-29T11:58:00",
+      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/aromabackup",
+      "filename": "AromaBackup-1.7.10-0.1.0.0.jar",
+      "download_url": "https://media.forgecdn.net/files/2284/754/AromaBackup-1.7.10-0.1.0.0.jar",
+      "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/aromabackup/files/2284754",
+      "license": "custom (see curse project page)",
       "side": "BOTH",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AdventureBackpack2/"
+      "maven": "need to be changed later"
     }
   ],
-  "modpack_version": "test",
+  "modpack_version": "2.1.2.4",
   "server_exclusions": [
     "mods/OpenSecurity/sounds/alarms/alarm-SG1.ogg",
     "mods/OpenSecurity/sounds/alarms/alarm-SG1evac.ogg",
