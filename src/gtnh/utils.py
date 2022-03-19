@@ -2,7 +2,8 @@ import json
 import os
 from functools import cache
 from pathlib import Path
-from typing import Dict, Optional, Set
+from shutil import copy, rmtree
+from typing import Dict, List, Optional, Set
 
 import requests
 from github.GitRelease import GitRelease
@@ -124,3 +125,57 @@ def check_for_missing_maven(gtnh_modpack: GTNHModpack) -> Set[str]:
     all_modpack_names = set(k for k, v in gtnh_modpack._github_modmap.items() if v.maven is None)
 
     return all_modpack_names
+
+
+def copy_file_to_folder(path_list: List[Path], source_root: Path, destination_root: Path) -> None:
+    """
+    Function used to move files from the source folder to the destination folder, while keeping the relative path.
+
+    :param path_list: the list of files to move.
+    :param source_root: the root folder of the files to move. It is assumed that path_list has files comming from the
+                        same root folder.
+    :param destination_root: the root folder for the destination.
+    :return: None
+    """
+    for file in path_list:
+        dst = destination_root / file.relative_to(source_root)
+        if not dst.parent.is_dir():
+            os.makedirs(dst.parent)
+        copy(file, dst)
+
+
+def crawl(path: Path) -> List[Path]:
+    """
+    Function that will recursively list all the files of a folder.
+
+    :param path: The folder to scan
+    :return: The list of all the files contained in that folder
+    """
+    files = [x for x in path.iterdir() if x.is_file()]
+    for folder in [x for x in path.iterdir() if x.is_dir()]:
+        files.extend(crawl(folder))
+    return files
+
+
+def move_mods(client_paths: List[Path], server_paths: List[Path]) -> None:
+    """
+    Method used to move the mods in their correct archive folder after they have been downloaded.
+
+    :param client_paths: the paths for the mods clientside
+    :param server_paths: the paths for the mods serverside
+    :return: None
+    """
+    client_folder = Path(__file__).parent / "cache" / "client_archive"
+    server_folder = Path(__file__).parent / "cache" / "server_archive"
+    source_root = Path(__file__).parent / "cache"
+
+    if client_folder.exists():
+        rmtree(client_folder)
+        os.makedirs(client_folder)
+
+    if server_folder.exists():
+        rmtree(server_folder)
+        os.makedirs(server_folder)
+
+    copy_file_to_folder(client_paths, source_root, client_folder)
+    copy_file_to_folder(server_paths, source_root, server_folder)

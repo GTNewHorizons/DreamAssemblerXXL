@@ -1,330 +1,19 @@
-import os
 import tkinter as tk
 from pathlib import Path
-from shutil import copy, rmtree
 from tkinter.messagebox import showerror, showinfo, showwarning
-from tkinter.ttk import Progressbar, Combobox
-from typing import Any, Callable, List, Optional, Tuple
-from zipfile import ZipFile
+from tkinter.ttk import Combobox, Progressbar
+from typing import Any, List, Optional, Tuple
 
 import pydantic
-import requests
 from github import Github
 from github.Organization import Organization
 
 from gtnh.add_mod import get_repo, new_mod_from_repo
 from gtnh.exceptions import LatestReleaseNotFound, PackingInterruptException, RepoNotFoundException
 from gtnh.mod_info import GTNHModpack, ModInfo
-from gtnh.pack_downloader import download_github_mod, ensure_cache_dir
-from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, save_gtnh_manifest
-
-def download_external_mod(mod:ModInfo) -> List[Path]:
-    cache_dir = ensure_cache_dir()
-    mod_filename = cache_dir / "mods" / mod.filename
-    if os.path.exists(mod_filename):
-        print(f"Skipping re-redownload of {mod.filename}")
-        return [mod_filename]
-
-
-    print(f"Downloading {mod.filename} to {mod_filename}")
-
-    headers = {"Accept": "application/octet-stream"}
-
-
-    with requests.get(mod.download_url, stream=True, headers=headers) as r:
-        r.raise_for_status()
-        with open(mod_filename, "wb") as f:
-            for chunk in r.iter_content(chunk_size=8192):
-                f.write(chunk)
-    print("Download successful")
-    return [mod_filename]
-
-def download_mods(
-    gtnh_modpack: GTNHModpack,
-    github: Github,
-    organization: Organization,
-    callback: Optional[Callable[[float, str], None]] = None,
-) -> Tuple[List[Path], List[Path]]:
-    """
-    method to download all the mods required for the pack.
-
-    :param gtnh_modpack: GTNHModpack object. Represents the metadata of the modpack.
-    :param github: Github object.
-    :param organization: Organization object. Represent the GTNH organization.
-    :param callback: Callable that takes a float and a string in parameters. (mainly the method to update the
-                progress bar that takes a progress step per call and the label used to display infos to the user)
-    :return: a list holding all the paths to the clientside mods and a list holding all the paths to the serverside
-            mod.
-    """
-    # computation of the progress per mod for the progressbar
-    delta_progress = 100 / (len(gtnh_modpack.github_mods)+len(gtnh_modpack.external_mods))
-
-    # lists holding the paths to the mods
-    client_paths = []
-    server_paths = []
-
-    # download of the github mods
-    for mod in gtnh_modpack.github_mods:
-        if callback is not None:
-            callback(delta_progress, f"downloading github mods. current mod: {mod.name} Progress: {{0}}%")
-
-        # do the actual work
-        paths = download_github_mod(github, organization, mod)
-        if mod.side == "BOTH":
-            client_paths.extend(paths)
-            server_paths.extend(paths)
-        elif mod.side == "CLIENT":
-            client_paths.extend(paths)
-        elif mod.side == "SERVER":
-            server_paths.extend(paths)
-
-    for mod in gtnh_modpack.external_mods:
-        if callback is not None:
-            callback(delta_progress, f"downloading external mods. current mod: {mod.name} Progress: {{0}}%")
-
-        # do the actual work
-        paths = download_external_mod(mod)
-        if mod.side == "BOTH":
-            client_paths.extend(paths)
-            server_paths.extend(paths)
-        elif mod.side == "CLIENT":
-            client_paths.extend(paths)
-        elif mod.side == "SERVER":
-            server_paths.extend(paths)
-
-    return client_paths, server_paths
-
-
-def pack_clientpack(client_paths: List[Path], pack_version: str, callback: Optional[Callable[[float, str], None]] = None) -> None:
-    """
-    Method used to pack all the client files into a client archive.
-
-    :param client_paths: a list containing all the Path objects refering to the files needed client side.
-    :param pack_version: the version of the pack.
-    :param callback: Callable that takes a float and a string in parameters. (mainly the method to update the
-            progress bar that takes a progress step per call and the label used to display infos to the user)
-    :return: None
-    """
-
-    # computation of the progress per mod for the progressbar
-    delta_progress = 100 / len(client_paths)
-
-    # remembering the cwd because it'll be changed during the zip operation
-    cwd = os.getcwd()
-    cache_dir = Path(ensure_cache_dir())
-    os.chdir(cache_dir)
-
-    # archive name
-    archive_name = f"client-{pack_version}.zip"
-
-    # deleting any previous client archive
-    if os.path.exists(archive_name):
-        os.remove(archive_name)
-        print("previous client archive deleted")
-
-    print("zipping client archive")
-    # zipping the files in the archive
-    with ZipFile(archive_name, "w") as client_archive:
-        for mod_path in client_paths:
-            if callback is not None:
-                callback(delta_progress, f"Packing client archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
-
-            # writing the file in the zip
-            client_archive.write(mod_path, mod_path.relative_to(cache_dir / "client_archive"))
-
-    print("success!")
-
-    # restoring the cwd
-    os.chdir(cwd)
-
-
-def pack_serverpack(server_paths: List[Path], pack_version: str, callback: Optional[Callable[[float, str], None]] = None) -> None:
-    """
-    Method used to pack all the server files into a client archive.
-
-    :param server_paths: a list containing all the Path objects refering to the files needed server side.
-    :param pack_version: the version of the pack.
-    :param callback: Callable that takes a float and a string in parameters. (mainly the method to update the
-            progress bar that takes a progress step per call and the label used to display infos to the user)
-    :return: None
-    """
-
-    # computation of the progress per mod for the progressbar
-    delta_progress = 100 / len(server_paths)
-
-    # remembering the cwd because it'll be changed during the zip operation
-    cwd = os.getcwd()
-    cache_dir = Path(ensure_cache_dir())
-    os.chdir(cache_dir)
-
-    # archive name
-    archive_name = f"server-{pack_version}.zip"
-
-    # deleting any previous client archive
-    if os.path.exists(archive_name):
-        os.remove(archive_name)
-        print("previous server archive deleted")
-
-    print("zipping client archive")
-    # zipping the files in the archive
-    with ZipFile(archive_name, "w") as server_archive:
-        for mod_path in server_paths:
-            if callback is not None:
-                callback(delta_progress, f"Packing server archive version {pack_version}: {mod_path.name}. Progress: {{0}}%")
-
-            # writing the file in the zip
-            server_archive.write(mod_path, mod_path.relative_to(cache_dir / "server_archive"))
-
-    print("success!")
-
-    # restoring the cwd
-    os.chdir(cwd)
-
-
-def download_pack_archive() -> Path:
-    """
-    Method used to download the latest gtnh modpack archive.
-
-    :return: the path of the downloaded archive. None is returned if somehow it wasn't able to download any release.
-    """
-    gtnh_modpack_repo = get_repo("GT-New-Horizons-Modpack")
-
-    gtnh_archive_release = get_latest_release(gtnh_modpack_repo)
-    print("***********************************************************")
-    print(f"Downloading {'GT-New-Horizons-Modpack'}:{gtnh_archive_release.title}")
-
-    if not gtnh_archive_release:
-        print(f"*** No release found for {'GT-New-Horizons-Modpack'}:{gtnh_archive_release.title}")
-        raise LatestReleaseNotFound
-
-    release_assets = gtnh_archive_release.get_assets()
-    for asset in release_assets:
-        if not asset.name.endswith(".zip"):
-            continue
-
-        print(f"Found Release at {asset.browser_download_url}")
-        cache_dir = ensure_cache_dir()
-        gtnh_archive_path = cache_dir / asset.name
-
-        if os.path.exists(gtnh_archive_path):
-            print(f"Skipping re-redownload of {asset.name}")
-            continue
-
-        print(f"Downloading {asset.name} to {gtnh_archive_path}")
-
-        headers = {"Authorization": f"token {get_token()}", "Accept": "application/octet-stream"}
-
-        with requests.get(asset.url, stream=True, headers=headers) as r:
-            r.raise_for_status()
-            with open(gtnh_archive_path, "wb") as f:
-                for chunk in r.iter_content(chunk_size=8192):
-                    f.write(chunk)
-        print("Download successful")
-    return gtnh_archive_path
-
-
-def copy_file_to_folder(path_list: List[Path], source_root: Path, destination_root: Path) -> None:
-    """
-    Function used to move files from the source folder to the destination folder, while keeping the relative path.
-
-    :param path_list: the list of files to move.
-    :param source_root: the root folder of the files to move. It is assumed that path_list has files comming from the
-                        same root folder.
-    :param destination_root: the root folder for the destination.
-    :return: None
-    """
-    for file in path_list:
-        dst = destination_root / file.relative_to(source_root)
-        if not dst.parent.is_dir():
-            os.makedirs(dst.parent)
-        copy(file, dst)
-
-
-def crawl(path: Path) -> List[Path]:
-    """
-    Function that will recursively list all the files of a folder.
-
-    :param path: The folder to scan
-    :return: The list of all the files contained in that folder
-    """
-    files = [x for x in path.iterdir() if x.is_file()]
-    for folder in [x for x in path.iterdir() if x.is_dir()]:
-        files.extend(crawl(folder))
-    return files
-
-
-def move_mods(client_paths: List[Path], server_paths: List[Path]) -> None:
-    """
-    Method used to move the mods in their correct archive folder after they have been downloaded.
-
-    :param client_paths: the paths for the mods clientside
-    :param server_paths: the paths for the mods serverside
-    :return: None
-    """
-    client_folder = Path(__file__).parent / "cache" / "client_archive"
-    server_folder = Path(__file__).parent / "cache" / "server_archive"
-    source_root = Path(__file__).parent / "cache"
-
-    if client_folder.exists():
-        rmtree(client_folder)
-        os.makedirs(client_folder)
-
-    if server_folder.exists():
-        rmtree(server_folder)
-        os.makedirs(server_folder)
-
-    copy_file_to_folder(client_paths, source_root, client_folder)
-    copy_file_to_folder(server_paths, source_root, server_folder)
-
-
-def handle_pack_extra_files() -> None:
-    """
-    Method used to handle all the files needed by the pack like the configs or the scripts.
-
-    :return: None
-    """
-
-    # download the gtnh modpack archive
-    # catch is overkill but we never know
-    try:
-        gtnh_archive_path = download_pack_archive()
-    except LatestReleaseNotFound:
-        showerror("release not found", "The gtnh modpack repo has no release. Aborting.")
-        raise PackingInterruptException
-
-    # prepare for the temp dir receiving the unzip of the archive
-    temp_dir = Path(gtnh_archive_path.parent / "temp")
-    if temp_dir.exists():
-        rmtree(temp_dir)
-    os.makedirs(temp_dir, exist_ok=True)
-
-    # unzip
-    with ZipFile(gtnh_archive_path, "r") as zip_ref:
-        zip_ref.extractall(temp_dir)
-    print("unzipped the pack")
-
-    # load gtnh metadata
-    gtnh_metadata = load_gtnh_manifest()
-
-    # path for the prepared archives
-    client_folder = Path(__file__).parent / "cache" / "client_archive"
-    server_folder = Path(__file__).parent / "cache" / "server_archive"
-
-    # exclusion lists
-    client_exclusions = [temp_dir / exclusion for exclusion in gtnh_metadata.client_exclusions]
-    server_exclusions = [temp_dir / exclusion for exclusion in gtnh_metadata.server_exclusions]
-
-    # listing of all the files for the archive
-    availiable_files = set(crawl(temp_dir))
-    client_files = list(availiable_files - set(client_exclusions))
-    server_files = list(availiable_files - set(server_exclusions))
-
-    # moving the files where they must go
-    print("moving files for the client archive")
-    copy_file_to_folder(client_files, temp_dir, client_folder)
-    print("moving files for the server archive")
-    copy_file_to_folder(server_files, temp_dir, server_folder)
-    print("success")
+from gtnh.pack_assembler import handle_pack_extra_files, pack_clientpack, pack_serverpack
+from gtnh.pack_downloader import download_mods
+from gtnh.utils import crawl, get_token, load_gtnh_manifest, move_mods, save_gtnh_manifest
 
 
 class MainFrame(tk.Tk):
@@ -363,15 +52,6 @@ class MainFrame(tk.Tk):
         self.curse_popup.grid(row=0, column=2, sticky="WE")
         self.exclusion_popup.grid(row=1, column=0, columnspan=2, sticky="WE")
         self.dependencies_popup.grid(row=1, column=1, sticky="WE")
-
-    def handle_dependencies_update(self) -> None:
-        """
-        Opens a new HandleDepUpdateFrame popup window. While this window is still open, the main window can't spawn a
-        new one of this type.
-
-        :return: None
-        """
-        pass
 
 
 class BaseFrame(tk.LabelFrame):
@@ -442,6 +122,11 @@ class AddRepoFrame(BaseFrame):
         self.is_messagebox_open = False
 
     def get_repos(self) -> List[str]:
+        """
+        Method to get a list of all the repository names in the metadata.
+
+        :return: the list of all the repository names.
+        """
         return [repo.name for repo in self.root.gtnh_modpack.github_mods]
 
     def validate_callback(self, repo_name: str) -> bool:
@@ -493,10 +178,16 @@ class AddCurseModFrame(BaseFrame):
     Frame allowing you to add a curse mod in the metadata.
     """
 
-    def __init__(self, root:MainFrame) -> None:
+    def __init__(self, root: MainFrame) -> None:
+        """
+        Constructor of the AddCurseModFrame class.
+
+        :param root: the MainFrame instance
+        :return: None
+        """
         BaseFrame.__init__(self, root, popup_name="Curse mods management")
 
-        #widgets
+        # widgets
         self.label_name = tk.Label(self, text="mod name")
         self.label_page_url = tk.Label(self, text="project url")
         self.label_license = tk.Label(self, text="license")
@@ -533,16 +224,16 @@ class AddCurseModFrame(BaseFrame):
 
         self.custom_label_frame = CustomLabelFrame(self, [x.name for x in self.root.gtnh_modpack.external_mods], False, delete_callback=self.delete_callback)
 
-        #dirty hack to reshape the custom label frame without making a new class
+        self.btn_add = tk.Button(self, text="add/update", command=self.add)
+
+        # dirty hack to reshape the custom label frame without making a new class
         self.custom_label_frame.listbox.configure(height=20)
         self.custom_label_frame.btn_add.grid_forget()
         self.custom_label_frame.btn_remove.grid_forget()
         self.custom_label_frame.btn_remove.grid(row=3, column=0, columnspan=2, sticky="WE")
-        self.custom_label_frame.listbox.bind('<<ListboxSelect>>', self.fill_fields)
+        self.custom_label_frame.listbox.bind("<<ListboxSelect>>", self.fill_fields)
 
-        self.btn_add = tk.Button(self, text="add/update", command=self.add)
-
-        #grid manager
+        # grid manager
         self.custom_label_frame.grid(row=0, column=0, rowspan=21, sticky="NS")
         self.label_name.grid(row=0, column=1, sticky="WE")
         self.entry_name.grid(row=1, column=1, sticky="WE")
@@ -566,28 +257,37 @@ class AddCurseModFrame(BaseFrame):
         self.combo_box_sides.grid(row=19, column=1, sticky="WE")
         self.btn_add.grid(row=20, column=1, sticky="WE")
 
-    def add(self):
+    def add(self) -> None:
+        """
+        Method used to parse all the data to add a new external mod.
+
+        :return: None
+        """
         try:
-            new_mod = ModInfo(name=self.sv_name.get(),
-                              repo_url=self.sv_page_url.get(),
-                              license=self.sv_license.get(),
-                              version=self.sv_version.get(),
-                              browser_download_url=self.sv_browser_url.get(),
-                              download_url=self.sv_download_url.get(),
-                              tagged_at=self.sv_release_date.get(),
-                              filename=self.sv_file_name.get(),
-                              maven=self.sv_maven_url.get(),
-                              side=self.combo_box_sides.get())
+            new_mod = ModInfo(
+                name=self.sv_name.get(),
+                repo_url=self.sv_page_url.get(),
+                license=self.sv_license.get(),
+                version=self.sv_version.get(),
+                browser_download_url=self.sv_browser_url.get(),
+                download_url=self.sv_download_url.get(),
+                tagged_at=self.sv_release_date.get(),
+                filename=self.sv_file_name.get(),
+                maven=self.sv_maven_url.get(),
+                side=self.combo_box_sides.get(),
+            )
+
+        # catching datetime format errors
         except pydantic.error_wrappers.ValidationError:
-            showerror("invalid date format", f"{self.sv_release_date.get()} is an invalid format. It must be written as: YYYY-MM-DD hh:mm:ss")
+            showerror("invalid date format", f"{self.sv_release_date.get()} is an invalid date format. It must be written as: YYYY-MM-DD hh:mm:ss")
             return
 
         # refreshing the modlist in case the mod is already in the list
         external_mods = [mod for mod in self.root.gtnh_modpack.external_mods if not mod.name == new_mod.name]
         external_mods.append(new_mod)
-        self.root.gtnh_modpack.external_mods=external_mods
+        self.root.gtnh_modpack.external_mods = external_mods
 
-        #save/reload because the cached properties doesn't update otherwise
+        # save/reload because the cached properties doesn't update otherwise
         self.save_gtnh_metadata()
         self.reload_gtnh_metadata()
 
@@ -598,37 +298,47 @@ class AddCurseModFrame(BaseFrame):
         for entry in sorted(content):
             self.custom_label_frame.listbox.insert(tk.END, entry)
 
+    def fill_fields(self, *args: Any) -> None:
+        """
+        Method used to populate the fields of an external mod when it's name is clicked in the listbox.
 
+        :param args:
+        :return: None
+        """
 
+        listbox = self.custom_label_frame.listbox
 
-
-    def fill_fields(self, *args):
-        combo_box_mappings = {0: "CLIENT", 1: "SERVER", 2: "BOTH", "CLIENT":0, "SERVER":1, "BOTH":2}
-        listbox=self.custom_label_frame.listbox
-
-        #catch weird edge cases of listbox selection
+        # catch weird edge cases of listbox selection
         try:
             name = listbox.get(listbox.curselection()[0])
         except IndexError:
             return
 
         modinfo = self.root.gtnh_modpack.get_external_mod(name)
-        bindings = (("name", self.sv_name),
-                    ("repo_url", self.sv_page_url),
-                    ("license", self.sv_license),
-                    ("version", self.sv_version),
-                    ("browser_download_url", self.sv_browser_url),
-                    ("download_url", self.sv_download_url),
-                    ("tagged_at", self.sv_release_date),
-                    ("filename", self.sv_file_name),
-                    ("maven", self.sv_maven_url))
+        bindings = (
+            ("name", self.sv_name),
+            ("repo_url", self.sv_page_url),
+            ("license", self.sv_license),
+            ("version", self.sv_version),
+            ("browser_download_url", self.sv_browser_url),
+            ("download_url", self.sv_download_url),
+            ("tagged_at", self.sv_release_date),
+            ("filename", self.sv_file_name),
+            ("maven", self.sv_maven_url),
+        )
 
-
+        # filling the fields
         for modinfo_field, stringvar in bindings:
             stringvar.set(getattr(modinfo, modinfo_field))
         self.combo_box_sides.set(modinfo.side)
 
-    def delete_callback(self, mod_name):
+    def delete_callback(self, mod_name: str) -> bool:
+        """
+        Method called when the selected mod in the listbox is deleted.
+
+        :param mod_name: the name of the deleted mod.
+        :return: True
+        """
         self.root.gtnh_modpack.external_mods = [mod for mod in self.root.gtnh_modpack.external_mods if not mod.name == mod_name]
         self.save_gtnh_metadata()
         self.reload_gtnh_metadata()
@@ -674,6 +384,9 @@ class ArchiveFrame(BaseFrame):
         client_folder = Path(__file__).parent / "cache" / "client_archive"
         server_folder = Path(__file__).parent / "cache" / "server_archive"
 
+        def error_callback_handle_extra_files() -> None:
+            showerror("release not found", "The gtnh modpack repo has no release. Aborting.")
+
         try:
             delta_progress_global = 100 / 8
 
@@ -684,7 +397,7 @@ class ArchiveFrame(BaseFrame):
             move_mods(client_paths, server_paths)
 
             self._progress_callback(delta_progress_global, "adding extra files", self.progress_bar_global, self.progress_label_global)
-            handle_pack_extra_files()
+            handle_pack_extra_files(error_callback=error_callback_handle_extra_files)
 
             self._progress_callback(delta_progress_global, "generating client archive", self.progress_bar_global, self.progress_label_global)
             self.pack_clientpack_client(crawl(client_folder), self.root.gtnh_modpack.modpack_version)
@@ -821,7 +534,7 @@ class HandleFileExclusionFrame(BaseFrame):
         self.exclusion_frame_client.grid(row=0, column=0)
         self.exclusion_frame_server.grid(row=0, column=1)
 
-    def save(self, entry: str, side: str = "client", mode:str="add", *args: Any, **kwargs: Any) -> bool:
+    def save(self, entry: str, side: str = "client", mode: str = "add", *args: Any, **kwargs: Any) -> bool:
         """
         Method called to save the metadata.
 
@@ -832,7 +545,7 @@ class HandleFileExclusionFrame(BaseFrame):
             if mode == "add":
                 exclusions.append(entry)
             else:
-                exclusions = [exclusion for exclusion in exclusions if exclusion!=entry]
+                exclusions = [exclusion for exclusion in exclusions if exclusion != entry]
             self.root.gtnh_modpack.client_exclusions = sorted(list(set(exclusions)))
 
         elif side == "server":
@@ -840,7 +553,7 @@ class HandleFileExclusionFrame(BaseFrame):
             if mode == "add":
                 exclusions.append(entry)
             else:
-                exclusions = [exclusion for exclusion in exclusions if exclusion!=entry]
+                exclusions = [exclusion for exclusion in exclusions if exclusion != entry]
             self.root.gtnh_modpack.server_exclusions = sorted(list(set(exclusions)))
 
         self.save_gtnh_metadata()
