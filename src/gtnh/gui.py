@@ -112,14 +112,23 @@ class AddRepoFrame(BaseFrame):
         """
         BaseFrame.__init__(self, root, popup_name="Repository adder")
 
+        # ModInfo memory
+        self.curr_mod = None
+
         # widgets in the window
         self.custom_frame = CustomLabelFrame(self, self.get_repos(), False, add_callback=self.validate_callback)
+        self.combobox_side = Combobox(self, values=["CLIENT", "SERVER", "BOTH", "NONE"])
+        self.combobox_side.bind("<<ComboboxSelected>>", self.update_mod)
+        self.label_mod = tk.Label(self, text="current selected mod: ")
 
         # dirty hack to reshape the custom label frame without making a new class
         self.custom_frame.listbox.configure(height=20)
+        self.custom_frame.listbox.bind("<<ListboxSelect>>", self.fill_fields)
 
         # grid manager
-        self.custom_frame.grid(row=0, column=0)
+        self.custom_frame.grid(row=0, column=0, columnspan=2)
+        self.label_mod.grid(row=1, column=0)
+        self.combobox_side.grid(row=1, column=1, sticky="E")
 
         # state control vars
         self.is_messagebox_open = False
@@ -174,6 +183,46 @@ class AddRepoFrame(BaseFrame):
             # releasing the blocking
             self.is_messagebox_open = False
         return repo_added
+
+    def fill_fields(self, *args: Any):
+        """
+        Method used to populate the combobox representing the side of the github mod when it's name is clicked in the
+        listbox.
+
+        :param args:
+        :return: None
+        """
+
+        listbox = self.custom_frame.listbox
+
+        # catch weird edge cases of listbox selection
+        try:
+            name = listbox.get(listbox.curselection()[0])
+        except IndexError:
+            return
+
+        self.curr_mod = self.root.gtnh_modpack.get_github_mod(name)
+        self.label_mod.configure(text=f"current selected mod: {name}")
+        self.combobox_side.set(self.curr_mod.side)
+
+
+    def update_mod(self, *args: Any):
+        """
+        Method called when a side in the combobox is selected.
+
+        :param args:
+        :return: None
+        """
+
+        if self.curr_mod is None:
+            return
+
+        self.curr_mod.side = self.combobox_side.get()
+        github_mods = [mod for mod in self.root.gtnh_modpack.github_mods if mod.name != self.curr_mod.name]
+        github_mods.append(self.curr_mod)
+        self.root.gtnh_modpack.github_mods = github_mods
+        self.save_gtnh_metadata()
+        self.reload_gtnh_metadata()
 
 
 class AddCurseModFrame(BaseFrame):
