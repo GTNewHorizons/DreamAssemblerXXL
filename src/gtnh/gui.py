@@ -113,7 +113,7 @@ class AddRepoFrame(BaseFrame):
         BaseFrame.__init__(self, root, popup_name="Repository adder")
 
         # widgets in the window
-        self.custom_frame = CustomLabelFrame(self, sorted(self.get_repos()), False, add_callback=self.validate_callback)
+        self.custom_frame = CustomLabelFrame(self, self.get_repos(), False, add_callback=self.validate_callback)
 
         # dirty hack to reshape the custom label frame without making a new class
         self.custom_frame.listbox.configure(height=20)
@@ -223,7 +223,7 @@ class AddCurseModFrame(BaseFrame):
         self.combo_box_sides.current(2)
 
         self.custom_label_frame = CustomLabelFrame(
-            self, sorted([x.name for x in self.root.gtnh_modpack.external_mods]), False, delete_callback=self.delete_callback
+            self, [x.name for x in self.root.gtnh_modpack.external_mods], False, delete_callback=self.delete_callback
         )
 
         self.btn_add = tk.Button(self, text="add/update", command=self.add)
@@ -316,7 +316,9 @@ class AddCurseModFrame(BaseFrame):
         content.append(new_mod.name)
         content = list(set(content))
         self.custom_label_frame.listbox.delete(0, tk.END)
-        self.custom_label_frame.listbox.insert(tk.END, *sorted(content))
+        self.custom_label_frame.listbox.insert(tk.END, *sorted(content, key=lambda x: x.lower()))
+
+        print(len(self.root.gtnh_modpack.external_mods))
 
     def fill_fields(self, *args: Any) -> None:
         """
@@ -568,10 +570,10 @@ class HandleFileExclusionFrame(BaseFrame):
 
         # widgets
         self.exclusion_frame_client = CustomLabelFrame(
-            self, sorted(self.root.gtnh_modpack.client_exclusions), True, text="client entries", add_callback=self.add_client, delete_callback=self.del_client
+            self, self.root.gtnh_modpack.client_exclusions, True, text="client entries", add_callback=self.add_client, delete_callback=self.del_client
         )
         self.exclusion_frame_server = CustomLabelFrame(
-            self, sorted(self.root.gtnh_modpack.server_exclusions), True, text="server entries", add_callback=self.add_server, delete_callback=self.del_server
+            self, self.root.gtnh_modpack.server_exclusions, True, text="server entries", add_callback=self.add_server, delete_callback=self.del_server
         )
 
         # grid manager
@@ -681,7 +683,7 @@ class CustomLabelFrame(tk.LabelFrame):
         self.listbox.config(xscrollcommand=self.scrollbar_horizontal.set)
 
         # populate the listbox
-        self.listbox.insert(tk.END, *entries)
+        self.listbox.insert(tk.END, *sorted(entries, key=lambda x: x.lower()))
 
         # grid manager
         self.listbox.grid(row=0, column=0, columnspan=2, sticky="WE")
@@ -705,7 +707,7 @@ class CustomLabelFrame(tk.LabelFrame):
             self.listbox.insert(tk.END, self.entry.get())
 
         entries = self.get_listbox_content()
-        entries.sort()
+        entries.sort(key=lambda x: x.lower())
         self.listbox.delete(0, tk.END)
         self.listbox.insert(tk.END, *entries)
 
