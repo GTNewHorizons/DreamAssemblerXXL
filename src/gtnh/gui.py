@@ -10,7 +10,7 @@ from github import Github
 from github.Organization import Organization
 
 from gtnh.add_mod import get_repo, new_mod_from_repo
-from gtnh.exceptions import LatestReleaseNotFound, PackingInterruptException, RepoNotFoundException
+from gtnh.exceptions import LatestReleaseNotFound, PackingInterruptException, RepoNotFoundException, NoModAssetFound
 from gtnh.mod_info import GTNHModpack, ModInfo
 from gtnh.pack_assembler import handle_pack_extra_files, pack_clientpack, pack_serverpack
 from gtnh.pack_downloader import download_mods, ensure_cache_dir
@@ -179,6 +179,10 @@ class AddRepoFrame(BaseFrame):
                     # let the user know that the repository has no release, therefore it won't be added to the list
                     except LatestReleaseNotFound:
                         showerror("no release availiable on the repository", f"the repository {repo_name} has no release, aborting")
+
+                    # if no mod asset found:
+                    except NoModAssetFound:
+                        showwarning("no asset found", f"the repository {repo_name} has no asset found. This usually means it has no jar file in the release. Aborting.")
 
             # releasing the blocking
             self.is_messagebox_open = False
