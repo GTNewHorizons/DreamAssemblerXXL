@@ -222,14 +222,15 @@ class AddCurseModFrame(BaseFrame):
         self.combo_box_sides = Combobox(self, values=["CLIENT", "SERVER", "BOTH"])
         self.combo_box_sides.current(2)
 
-        self.custom_label_frame = CustomLabelFrame(self, [x.name for x in self.root.gtnh_modpack.external_mods], False, delete_callback=self.delete_callback)
+        self.custom_label_frame = CustomLabelFrame(self, sorted([x.name for x in self.root.gtnh_modpack.external_mods]), False, delete_callback=self.delete_callback)
 
         self.btn_add = tk.Button(self, text="add/update", command=self.add)
 
         # dirty hack to reshape the custom label frame without making a new class
-        self.custom_label_frame.listbox.configure(height=20)
+        self.custom_label_frame.listbox.configure(height=21)
         self.custom_label_frame.btn_add.grid_forget()
         self.custom_label_frame.btn_remove.grid_forget()
+        self.custom_label_frame.entry.grid_forget()
         self.custom_label_frame.btn_remove.grid(row=3, column=0, columnspan=2, sticky="WE")
         self.custom_label_frame.listbox.bind("<<ListboxSelect>>", self.fill_fields)
 
