@@ -219,7 +219,7 @@ class AddCurseModFrame(BaseFrame):
         self.entry_release_date = tk.Entry(self, textvariable=self.sv_release_date)
         self.entry_maven_url = tk.Entry(self, textvariable=self.sv_maven_url)
 
-        self.combo_box_sides = Combobox(self, values=["CLIENT", "SERVER", "BOTH"])
+        self.combo_box_sides = Combobox(self, values=["CLIENT", "SERVER", "BOTH", "NONE"])
         self.combo_box_sides.current(2)
 
         self.custom_label_frame = CustomLabelFrame(
