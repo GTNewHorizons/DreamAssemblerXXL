@@ -113,7 +113,7 @@ class AddRepoFrame(BaseFrame):
         BaseFrame.__init__(self, root, popup_name="Repository adder")
 
         # widgets in the window
-        self.custom_frame = CustomLabelFrame(self, self.get_repos(), False, add_callback=self.validate_callback)
+        self.custom_frame = CustomLabelFrame(self, sorted(self.get_repos()), False, add_callback=self.validate_callback)
 
         # dirty hack to reshape the custom label frame without making a new class
         self.custom_frame.listbox.configure(height=20)
@@ -316,8 +316,7 @@ class AddCurseModFrame(BaseFrame):
         content.append(new_mod.name)
         content = list(set(content))
         self.custom_label_frame.listbox.delete(0, tk.END)
-        for entry in sorted(content):
-            self.custom_label_frame.listbox.insert(tk.END, entry)
+        self.custom_label_frame.listbox.insert(tk.END, *sorted(content))
 
     def fill_fields(self, *args: Any) -> None:
         """
@@ -682,8 +681,7 @@ class CustomLabelFrame(tk.LabelFrame):
         self.listbox.config(xscrollcommand=self.scrollbar_horizontal.set)
 
         # populate the listbox
-        for entry in entries:
-            self.listbox.insert(tk.END, entry)
+        self.listbox.insert(tk.END, *entries)
 
         # grid manager
         self.listbox.grid(row=0, column=0, columnspan=2, sticky="WE")
