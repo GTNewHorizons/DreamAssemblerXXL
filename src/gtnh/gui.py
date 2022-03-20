@@ -222,7 +222,9 @@ class AddCurseModFrame(BaseFrame):
         self.combo_box_sides = Combobox(self, values=["CLIENT", "SERVER", "BOTH"])
         self.combo_box_sides.current(2)
 
-        self.custom_label_frame = CustomLabelFrame(self, sorted([x.name for x in self.root.gtnh_modpack.external_mods]), False, delete_callback=self.delete_callback)
+        self.custom_label_frame = CustomLabelFrame(
+            self, sorted([x.name for x in self.root.gtnh_modpack.external_mods]), False, delete_callback=self.delete_callback
+        )
 
         self.btn_add = tk.Button(self, text="add/update", command=self.add)
 
