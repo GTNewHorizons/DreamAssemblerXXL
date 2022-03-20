@@ -162,8 +162,8 @@ class AddRepoFrame(BaseFrame):
                     try:
                         new_mod = new_mod_from_repo(new_repo)
                         self.root.gtnh_modpack.github_mods.append(new_mod)
-                        self.root.gtnh_modpack.github_mods.sort()
                         self.save_gtnh_metadata()
+                        self.reload_gtnh_metadata()
                         showinfo("repository added successfully", f"the repo {repo_name} was added successfully!")
                         repo_added = True
 
@@ -705,6 +705,11 @@ class CustomLabelFrame(tk.LabelFrame):
                 self.listbox.insert(tk.END, self.entry.get())
         else:
             self.listbox.insert(tk.END, self.entry.get())
+
+        entries = self.get_listbox_content()
+        entries.sort()
+        self.listbox.delete(0, tk.END)
+        self.listbox.insert(tk.END, *entries)
 
     def remove(self) -> None:
         """
