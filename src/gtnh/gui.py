@@ -477,29 +477,38 @@ class ArchiveFrame(BaseFrame):
             showerror("release not found", "The gtnh modpack repo has no release. Aborting.")
 
         try:
+            self.progress_bar["value"]=0
+            self.progress_bar_global["value"]=0
             delta_progress_global = 100 / 8
 
             self._progress_callback(delta_progress_global, "dowloading mods", self.progress_bar_global, self.progress_label_global)
             client_paths, server_paths = self.download_mods_client(self.root.gtnh_modpack, github, organization)
 
+            self.progress_bar["value"] = 0
             self._progress_callback(delta_progress_global, "sort client/server side mods", self.progress_bar_global, self.progress_label_global)
             move_mods(client_paths, server_paths)
 
+            self.progress_bar["value"] = 0
             self._progress_callback(delta_progress_global, "adding extra files", self.progress_bar_global, self.progress_label_global)
             handle_pack_extra_files(error_callback=error_callback_handle_extra_files)
 
+            self.progress_bar["value"] = 0
             self._progress_callback(delta_progress_global, "generating client archive", self.progress_bar_global, self.progress_label_global)
             self.pack_clientpack_client(crawl(client_folder), self.root.gtnh_modpack.modpack_version)
 
+            self.progress_bar["value"] = 0
             self._progress_callback(delta_progress_global, "generating server archive", self.progress_bar_global, self.progress_label_global)
             self.pack_serverpack_client(crawl(server_folder), self.root.gtnh_modpack.modpack_version)
 
+            self.progress_bar["value"] = 0
             self._progress_callback(delta_progress_global, "generating technic assets", self.progress_bar_global, self.progress_label_global)
             self.pack_technic()
 
+            self.progress_bar["value"] = 0
             self._progress_callback(delta_progress_global, "generating deploader for curse", self.progress_bar_global, self.progress_label_global)
             self.make_deploader_json()
 
+            self.progress_bar["value"] = 0
             self._progress_callback(delta_progress_global, "generating curse archive", self.progress_bar_global, self.progress_label_global)
             self.pack_curse()
 
