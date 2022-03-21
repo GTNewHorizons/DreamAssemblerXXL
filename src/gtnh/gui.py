@@ -330,7 +330,7 @@ class AddCurseModFrame(BaseFrame):
                 showerror("invalid url detected", f"""{",".join(errored_url)} are invalid. Please check.""")
                 return
 
-            filename = Path(parse.urlparse(self.sv_download_url.get()).path).name
+            filename = parse.unquote_plus(Path(parse.urlparse(self.sv_download_url.get()).path).name)
 
             if not (filename.endswith(".jar") or filename.endswith(".zip")):
                 showerror("wrong download url", "the url for the download doesn't end up with .zip or .jar. Please check")
@@ -368,8 +368,6 @@ class AddCurseModFrame(BaseFrame):
         content = list(set(content))
         self.custom_label_frame.listbox.delete(0, tk.END)
         self.custom_label_frame.listbox.insert(tk.END, *sorted(content, key=lambda x: x.lower()))
-
-        print(len(self.root.gtnh_modpack.external_mods))
 
     def fill_fields(self, *args: Any) -> None:
         """
