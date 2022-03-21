@@ -10,10 +10,10 @@ from github.GitRelease import GitRelease
 from github.Organization import Organization
 from retry import retry
 
-from gtnh.add_mod import get_repo
+from gtnh.add_mod import get_repo, new_mod_from_repo
 from gtnh.exceptions import LatestReleaseNotFound
 from gtnh.mod_info import GTNHModpack, ModInfo
-from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest
+from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, save_gtnh_manifest
 
 CACHE_DIR = "cache"
 
@@ -40,7 +40,7 @@ def download_github_mod(g: Github, o: Organization, mod: ModInfo) -> List[Path]:
 
     release_assets = release.get_assets()
     for asset in release_assets:
-        if not asset.name.endswith(".jar") or asset.name.endswith("dev.jar") or asset.name.endswith("sources.jar") or asset.name.endswith("api.jar"):
+        if not asset.name.endswith(".jar") or asset.name.endswith("dev.jar") or asset.name.endswith("sources.jar") or asset.name.endswith("api.jar") or asset.name.endswith("api2.jar"):
             continue
 
         print(f"Found Release at {asset.browser_download_url}")
@@ -192,6 +192,26 @@ def ensure_cache_dir() -> Path:
 
     return cache_dir
 
+def update_releases(github: Github, organization: Organization, gtnh_modpack: GTNHModpack) -> None:
+    """
+    Method to update the github mods to latest releases.
+
+    :param github:
+    :param organization:
+    :param gtnh_modpack:
+    :return: None
+    """
+    github_mods = gtnh_modpack.github_mods
+    gtnh_modpack.github_mods = []
+    for i, mod in enumerate(github_mods):
+        print(f"updating {mod.name} ({i+1}/{len(github_mods)})")
+        try:
+            gtnh_modpack.github_mods.append(new_mod_from_repo(get_repo(mod.name)))
+        except BaseException as e:
+            print(e)
+            gtnh_modpack.github_mods.append([x for x in github_mods if x.name == mod.name][0])
+
+    save_gtnh_manifest(gtnh_modpack)
 
 if __name__ == "__main__":
     github_mods = load_gtnh_manifest()
