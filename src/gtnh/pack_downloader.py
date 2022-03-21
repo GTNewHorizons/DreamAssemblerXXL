@@ -40,7 +40,13 @@ def download_github_mod(g: Github, o: Organization, mod: ModInfo) -> List[Path]:
 
     release_assets = release.get_assets()
     for asset in release_assets:
-        if not asset.name.endswith(".jar") or asset.name.endswith("dev.jar") or asset.name.endswith("sources.jar") or asset.name.endswith("api.jar") or asset.name.endswith("api2.jar"):
+        if (
+            not asset.name.endswith(".jar")
+            or asset.name.endswith("dev.jar")
+            or asset.name.endswith("sources.jar")
+            or asset.name.endswith("api.jar")
+            or asset.name.endswith("api2.jar")
+        ):
             continue
 
         print(f"Found Release at {asset.browser_download_url}")
@@ -192,6 +198,7 @@ def ensure_cache_dir() -> Path:
 
     return cache_dir
 
+
 def update_releases(github: Github, organization: Organization, gtnh_modpack: GTNHModpack) -> None:
     """
     Method to update the github mods to latest releases.
@@ -212,6 +219,7 @@ def update_releases(github: Github, organization: Organization, gtnh_modpack: GT
             gtnh_modpack.github_mods.append([x for x in github_mods if x.name == mod.name][0])
 
     save_gtnh_manifest(gtnh_modpack)
+
 
 if __name__ == "__main__":
     github_mods = load_gtnh_manifest()

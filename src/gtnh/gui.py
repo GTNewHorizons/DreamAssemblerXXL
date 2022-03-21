@@ -2,7 +2,7 @@ import tkinter as tk
 from pathlib import Path
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import Combobox, Progressbar
-from typing import Any, List, Optional, Tuple
+from typing import Any, List, Optional, Tuple, Union
 from urllib import parse
 
 import pydantic
@@ -10,7 +10,8 @@ from github import Github
 from github.Organization import Organization
 
 from gtnh.add_mod import get_repo, new_mod_from_repo
-from gtnh.exceptions import LatestReleaseNotFound, PackingInterruptException, RepoNotFoundException, NoModAssetFound
+from gtnh.defs import Side
+from gtnh.exceptions import LatestReleaseNotFound, NoModAssetFound, PackingInterruptException, RepoNotFoundException
 from gtnh.mod_info import GTNHModpack, ModInfo
 from gtnh.pack_assembler import handle_pack_extra_files, pack_clientpack, pack_serverpack
 from gtnh.pack_downloader import download_mods, ensure_cache_dir
@@ -113,7 +114,7 @@ class AddRepoFrame(BaseFrame):
         BaseFrame.__init__(self, root, popup_name="Repository adder")
 
         # ModInfo memory
-        self.curr_mod = None
+        self.curr_mod: Union[ModInfo, None] = None
 
         # widgets in the window
         self.custom_frame = CustomLabelFrame(self, self.get_repos(), False, add_callback=self.validate_callback)
@@ -182,13 +183,15 @@ class AddRepoFrame(BaseFrame):
 
                     # if no mod asset found:
                     except NoModAssetFound:
-                        showwarning("no asset found", f"the repository {repo_name} has no asset found. This usually means it has no jar file in the release. Aborting.")
+                        showwarning(
+                            "no asset found", f"the repository {repo_name} has no asset found. This usually means it has no jar file in the release. Aborting."
+                        )
 
             # releasing the blocking
             self.is_messagebox_open = False
         return repo_added
 
-    def fill_fields(self, *args: Any):
+    def fill_fields(self, *args: Any) -> None:
         """
         Method used to populate the combobox representing the side of the github mod when it's name is clicked in the
         listbox.
@@ -209,8 +212,7 @@ class AddRepoFrame(BaseFrame):
         self.label_mod.configure(text=f"current selected mod: {name}")
         self.combobox_side.set(self.curr_mod.side)
 
-
-    def update_mod(self, *args: Any):
+    def update_mod(self, *args: Any) -> None:
         """
         Method called when a side in the combobox is selected.
 
@@ -221,7 +223,7 @@ class AddRepoFrame(BaseFrame):
         if self.curr_mod is None:
             return
 
-        self.curr_mod.side = self.combobox_side.get()
+        self.curr_mod.side = Side(self.combobox_side.get())
         github_mods = [mod for mod in self.root.gtnh_modpack.github_mods if mod.name != self.curr_mod.name]
         github_mods.append(self.curr_mod)
         self.root.gtnh_modpack.github_mods = github_mods
@@ -477,8 +479,8 @@ class ArchiveFrame(BaseFrame):
             showerror("release not found", "The gtnh modpack repo has no release. Aborting.")
 
         try:
-            self.progress_bar["value"]=0
-            self.progress_bar_global["value"]=0
+            self.progress_bar["value"] = 0
+            self.progress_bar_global["value"] = 0
             delta_progress_global = 100 / 8
 
             self._progress_callback(delta_progress_global, "dowloading mods", self.progress_bar_global, self.progress_label_global)
