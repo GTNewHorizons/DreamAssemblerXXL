@@ -213,10 +213,12 @@ def update_releases(github: Github, organization: Organization, gtnh_modpack: GT
     for i, mod in enumerate(github_mods):
         print(f"updating {mod.name} ({i+1}/{len(github_mods)})")
         try:
-            gtnh_modpack.github_mods.append(new_mod_from_repo(get_repo(mod.name)))
+            curr_mod = new_mod_from_repo(get_repo(mod.name))
         except BaseException as e:
             print(e)
-            gtnh_modpack.github_mods.append([x for x in github_mods if x.name == mod.name][0])
+            curr_mod = [x for x in github_mods if x.name == mod.name][0]
+        curr_mod.side = mod.side
+        gtnh_modpack.github_mods.append(curr_mod)
 
     save_gtnh_manifest(gtnh_modpack)
 
@@ -224,3 +226,6 @@ def update_releases(github: Github, organization: Organization, gtnh_modpack: GT
 if __name__ == "__main__":
     github_mods = load_gtnh_manifest()
     get_latest_releases(github_mods)
+    # g = Github(get_token())
+    # o = g.get_organization("GTNewHorizons")
+    # update_releases(g, o, github_mods)
