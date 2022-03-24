@@ -42,16 +42,16 @@ class MainFrame(tk.Tk):
 
         # widgets in the window
         self.repo_popup: AddRepoFrame = AddRepoFrame(self)
-        self.archive_popup: ArchiveFrame = ArchiveFrame(self)
+        self.archive_popup: ArchiveFrame = ArchiveFrame(self, length=300)
         self.exclusion_popup: HandleFileExclusionFrame = HandleFileExclusionFrame(self)
         # self.dependencies_popup: HandleDepUpdateFrame = HandleDepUpdateFrame(self)
         self.curse_popup: AddCurseModFrame = AddCurseModFrame(self)
 
         # grid manager
-        self.repo_popup.grid(row=0, column=0, sticky="WENS")
-        self.archive_popup.grid(row=0, column=1, sticky="WENS")
-        self.curse_popup.grid(row=0, column=2, sticky="WENS")
-        self.exclusion_popup.grid(row=1, column=0, columnspan=2, sticky="WENS")
+        self.repo_popup.grid(row=0, column=0, sticky="WNS")
+        self.curse_popup.grid(row=0, column=1, sticky="WENS")
+        self.archive_popup.grid(row=0, column=2, sticky="WENS")
+        self.exclusion_popup.grid(row=1, column=0, columnspan=2, sticky="WNS")
         # self.dependencies_popup.grid(row=1, column=1, sticky="WENS")
 
 
@@ -423,18 +423,19 @@ class ArchiveFrame(BaseFrame):
     Window allowing you to pack the archives for all the supported plateforms.
     """
 
-    def __init__(self, root: MainFrame) -> None:
+    def __init__(self, root: MainFrame, length:int=500) -> None:
         """
         Constructor of the ArchiveFrame class.
 
         :param root: the MainFrame instance
+        :param length: size of the progress bars
         :return: None
         """
         BaseFrame.__init__(self, root, popup_name="Archive packager")
 
         # widgets on the window
-        self.progress_bar = Progressbar(self, orient="horizontal", mode="determinate", length=500)
-        self.progress_bar_global = Progressbar(self, orient="horizontal", mode="determinate", length=500)
+        self.progress_bar = Progressbar(self, orient="horizontal", mode="determinate", length=length)
+        self.progress_bar_global = Progressbar(self, orient="horizontal", mode="determinate", length=length)
         self.progress_label_global = tk.Label(self, text="")
         self.progress_label = tk.Label(self, text="")
         self.label_pack_version = tk.Label(self, text="pack_version")
