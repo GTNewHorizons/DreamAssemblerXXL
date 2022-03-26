@@ -423,7 +423,7 @@ class ArchiveFrame(BaseFrame):
     Window allowing you to pack the archives for all the supported plateforms.
     """
 
-    def __init__(self, root: MainFrame, length:int=500) -> None:
+    def __init__(self, root: MainFrame, length: int = 500) -> None:
         """
         Constructor of the ArchiveFrame class.
 

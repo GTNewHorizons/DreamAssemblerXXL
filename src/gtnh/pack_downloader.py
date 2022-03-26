@@ -18,7 +18,7 @@ from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, save_g
 CACHE_DIR = "cache"
 
 
-def get_latest_releases(gtnh_modpack: GTNHModpack) -> None:
+def get_releases(gtnh_modpack: GTNHModpack) -> None:
     g = Github(get_token())
     o = g.get_organization("GTNewHorizons")
 
@@ -225,7 +225,6 @@ def update_releases(github: Github, organization: Organization, gtnh_modpack: GT
 
 if __name__ == "__main__":
     github_mods = load_gtnh_manifest()
-    get_latest_releases(github_mods)
-    # g = Github(get_token())
-    # o = g.get_organization("GTNewHorizons")
-    # update_releases(g, o, github_mods)
+    g = Github(get_token())
+    o = g.get_organization("GTNewHorizons")
+    update_releases(g, o, github_mods)
