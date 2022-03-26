@@ -14,7 +14,7 @@ from gtnh.defs import Side
 from gtnh.exceptions import LatestReleaseNotFound, NoModAssetFound, PackingInterruptException, RepoNotFoundException
 from gtnh.mod_info import GTNHModpack, ModInfo
 from gtnh.pack_assembler import handle_pack_extra_files, pack_clientpack, pack_serverpack
-from gtnh.pack_downloader import download_mods, ensure_cache_dir
+from gtnh.pack_downloader import download_mods, ensure_cache_dir, update_releases
 from gtnh.utils import crawl, get_token, load_gtnh_manifest, move_mods, save_gtnh_manifest, verify_url
 
 
@@ -442,6 +442,7 @@ class ArchiveFrame(BaseFrame):
         self.sv_pack_version = tk.StringVar(self, value=self.root.gtnh_modpack.modpack_version)
         self.entry_pack_version = tk.Entry(self, textvariable=self.sv_pack_version)
         self.btn_start = tk.Button(self, text="start", command=self.start, width=20)
+        self.btn_update = tk.Button(self,text="update github mods", command=self.update_github_releases, width=20)
 
         # grid manager
         self.progress_bar_global.grid(row=0, column=0)
@@ -451,6 +452,7 @@ class ArchiveFrame(BaseFrame):
         self.label_pack_version.grid(row=4, column=0)
         self.entry_pack_version.grid(row=5, column=0)
         self.btn_start.grid(row=6, column=0)
+        self.btn_update.grid(row=7, column=0)
 
     def start(self) -> None:
         """
@@ -468,8 +470,9 @@ class ArchiveFrame(BaseFrame):
         self.save_gtnh_metadata()
         self.reload_gtnh_metadata()
 
-        # disabling the entry during the whole process
+        # disabling certain widgets the whole process
         self.entry_pack_version.config(state=tk.DISABLED)
+        self.btn_update.config(state=tk.DISABLED)
 
         github = Github(get_token())
         organization = github.get_organization("GTNewHorizons")
@@ -522,6 +525,7 @@ class ArchiveFrame(BaseFrame):
             pass
 
         self.entry_pack_version.config(state=tk.NORMAL)
+        self.btn_update.config(state=tk.NORMAL)
 
     def _progress_callback(self, delta_progress: float, label: str, progress_bar_w: Optional[Progressbar] = None, label_w: Optional[tk.Label] = None) -> None:
         """
@@ -597,6 +601,16 @@ class ArchiveFrame(BaseFrame):
         :return: None
         """
         pass
+
+    def update_github_releases(self) -> None:
+        """
+        Method to update the github releases in the metadata.
+
+        :return: None
+        """
+        self.progress_bar["value"] = 0
+        self.progress_bar_global["value"] = 0
+        update_releases(lambda delta_progress, text: self._progress_callback(delta_progress, text, self.progress_bar_global, self.progress_label_global))
 
 
 class HandleDepUpdateFrame(BaseFrame):

@@ -199,19 +199,23 @@ def ensure_cache_dir() -> Path:
     return cache_dir
 
 
-def update_releases(github: Github, organization: Organization, gtnh_modpack: GTNHModpack) -> None:
+def update_releases(callback: Optional[Callable] = None) -> None:
     """
     Method to update the github mods to latest releases.
 
-    :param github:
-    :param organization:
-    :param gtnh_modpack:
+    :param callback: Optional callback called for each mod updated
     :return: None
     """
+    gtnh_modpack = load_gtnh_manifest()
     github_mods = gtnh_modpack.github_mods
     gtnh_modpack.github_mods = []
+    delta_progress = 100/len(github_mods)
+
     for i, mod in enumerate(github_mods):
-        print(f"updating {mod.name} ({i+1}/{len(github_mods)})")
+        text = f"updating {mod.name} ({i+1}/{len(github_mods)})"
+        print(text)
+        if callback is not None:
+            callback(delta_progress, text)
         try:
             curr_mod = new_mod_from_repo(get_repo(mod.name))
         except BaseException as e:
@@ -224,7 +228,4 @@ def update_releases(github: Github, organization: Organization, gtnh_modpack: GT
 
 
 if __name__ == "__main__":
-    github_mods = load_gtnh_manifest()
-    g = Github(get_token())
-    o = g.get_organization("GTNewHorizons")
-    update_releases(g, o, github_mods)
+    update_releases()
