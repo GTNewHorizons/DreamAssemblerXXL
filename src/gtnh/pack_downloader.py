@@ -199,7 +199,7 @@ def ensure_cache_dir() -> Path:
     return cache_dir
 
 
-def update_releases(callback: Optional[Callable] = None) -> None:
+def update_releases(callback: Optional[Callable[[float, str], None]] = None) -> None:
     """
     Method to update the github mods to latest releases.
 
@@ -209,7 +209,7 @@ def update_releases(callback: Optional[Callable] = None) -> None:
     gtnh_modpack = load_gtnh_manifest()
     github_mods = gtnh_modpack.github_mods
     gtnh_modpack.github_mods = []
-    delta_progress = 100/len(github_mods)
+    delta_progress = 100 / len(github_mods)
 
     for i, mod in enumerate(github_mods):
         text = f"updating {mod.name} ({i+1}/{len(github_mods)})"

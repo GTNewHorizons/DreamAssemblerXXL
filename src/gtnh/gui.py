@@ -442,7 +442,7 @@ class ArchiveFrame(BaseFrame):
         self.sv_pack_version = tk.StringVar(self, value=self.root.gtnh_modpack.modpack_version)
         self.entry_pack_version = tk.Entry(self, textvariable=self.sv_pack_version)
         self.btn_start = tk.Button(self, text="start", command=self.start, width=20)
-        self.btn_update = tk.Button(self,text="update github mods", command=self.update_github_releases, width=20)
+        self.btn_update = tk.Button(self, text="update github mods", command=self.update_github_releases, width=20)
 
         # grid manager
         self.progress_bar_global.grid(row=0, column=0)
