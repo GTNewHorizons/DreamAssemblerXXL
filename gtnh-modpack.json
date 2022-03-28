@@ -3015,18 +3015,6 @@
       "maven": "needs to be changed later"
     },
     {
-      "name": "ztones",
-      "version": "2.2.2",
-      "tagged_at": "2020-12-20T21:53:00",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/ztones",
-      "filename": "Ztones-1.7.10-2.2.2.jar",
-      "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/Ztones-1.7.10-2.2.2.jar",
-      "browser_download_url": "https://www.curseforge.com/project/224369/license",
-      "license": "https://www.curseforge.com/project/224369/license",
-      "side": "BOTH",
-      "maven": "needs to be changed later"
-    },
-    {
       "name": "Travellers Gear",
       "version": "1.16.8-GTNH",
       "tagged_at": "2022-01-04T22:26:00",
@@ -3156,6 +3144,18 @@
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/morpheus/files/2280761",
       "license": "https://www.curseforge.com/project/69118/license",
       "side": "SERVER",
+      "maven": "needs to be changed later"
+    },
+    {
+      "name": "ztones",
+      "version": "2.2.2",
+      "tagged_at": "2020-12-20T21:53:00",
+      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/ztones",
+      "filename": "Ztones-1.7.10-2.2.2.jar",
+      "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/Ztones-1.7.10-2.2.2.jar",
+      "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/ztones/files",
+      "license": "https://www.curseforge.com/project/224369/license",
+      "side": "BOTH",
       "maven": "needs to be changed later"
     }
   ],
