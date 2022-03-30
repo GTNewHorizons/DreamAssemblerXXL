@@ -8,7 +8,7 @@
       "filename": "adventurebackpack-1.7.10-1.0.4-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/AdventureBackpack2/releases/assets/55680585",
       "browser_download_url": "https://github.com/GTNewHorizons/AdventureBackpack2/releases/download/1.0.4-GTNH/adventurebackpack-1.7.10-1.0.4-GTNH.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AdventureBackpack2/"
     },
@@ -20,7 +20,7 @@
       "filename": "ae2stuff-1.7.10-0.5.1.15-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ae2stuff/releases/assets/58077226",
       "browser_download_url": "https://github.com/GTNewHorizons/ae2stuff/releases/download/0.5.1.15-GTNH/ae2stuff-1.7.10-0.5.1.15-GTNH.jar",
-      "license": "MMPL",
+      "license": "Minecraft Mod Public License v1.0.1.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ae2stuff/"
     },
@@ -32,7 +32,7 @@
       "filename": "AFSU-1.7.10-1.2.6-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/AFSU/releases/assets/56111092",
       "browser_download_url": "https://github.com/GTNewHorizons/AFSU/releases/download/1.2.6-GTNH/AFSU-1.7.10-1.2.6-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AFSU/"
     },
@@ -44,7 +44,7 @@
       "filename": "AngerMod-1.7.10-0.6.3.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/AngerMod/releases/assets/56828265",
       "browser_download_url": "https://github.com/GTNewHorizons/AngerMod/releases/download/0.6.3/AngerMod-1.7.10-0.6.3.jar",
-      "license": "Do What The F*ck You Want To Public License",
+      "license": "Do What The Fuck You Want To Public License v2.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AngerMod/"
     },
@@ -56,7 +56,7 @@
       "filename": "AppleCore-1.7.10-3.1.9.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/AppleCore/releases/assets/55681844",
       "browser_download_url": "https://github.com/GTNewHorizons/AppleCore/releases/download/3.1.9/AppleCore-1.7.10-3.1.9.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AppleCore/"
     },
@@ -68,7 +68,7 @@
       "filename": "appliedenergistics2-1.7.10-rv3-beta-82-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/59433036",
       "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-82-GTNH/appliedenergistics2-1.7.10-rv3-beta-82-GTNH.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/"
     },
@@ -80,7 +80,7 @@
       "filename": "ArchitectureCraft-1.7.10-1.7.6.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ArchitectureCraft/releases/assets/56645810",
       "browser_download_url": "https://github.com/GTNewHorizons/ArchitectureCraft/releases/download/1.7.6/ArchitectureCraft-1.7.10-1.7.6.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ArchitectureCraft/"
     },
@@ -92,7 +92,7 @@
       "filename": "AsieLib-1.7.10-0.5.3.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/AsieLib/releases/assets/58079353",
       "browser_download_url": "https://github.com/GTNewHorizons/AsieLib/releases/download/0.5.3/AsieLib-1.7.10-0.5.3.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AsieLib/"
     },
@@ -104,7 +104,7 @@
       "filename": "Avaritia-1.7.10-1.25.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Avaritia/releases/assets/58084811",
       "browser_download_url": "https://github.com/GTNewHorizons/Avaritia/releases/download/1.25/Avaritia-1.7.10-1.25.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Avaritia/"
     },
@@ -116,7 +116,7 @@
       "filename": "Avaritiaddons-1.7.10-1.5.3-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Avaritiaddons/releases/assets/55768590",
       "browser_download_url": "https://github.com/GTNewHorizons/Avaritiaddons/releases/download/1.5.3-GTNH/Avaritiaddons-1.7.10-1.5.3-GTNH.jar",
-      "license": "Mozilla Public License 2.0",
+      "license": "Mozilla Public License 2.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Avaritiaddons/"
     },
@@ -128,7 +128,7 @@
       "filename": "bartworks-1.7.10-0.5.41.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/58775549",
       "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.41/bartworks-1.7.10-0.5.41.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/"
     },
@@ -140,7 +140,7 @@
       "filename": "Baubles-1.7.10-1.0.1.14.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Baubles/releases/assets/54250391",
       "browser_download_url": "https://github.com/GTNewHorizons/Baubles/releases/download/1.0.1.14/Baubles-1.7.10-1.0.1.14.jar",
-      "license": "CC BY-NC-SA 3.0",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Baubles/"
     },
@@ -152,7 +152,7 @@
       "filename": "bdlib-1.7.10-1.9.6.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/bdlib/releases/assets/54294646",
       "browser_download_url": "https://github.com/GTNewHorizons/bdlib/releases/download/1.9.6/bdlib-1.7.10-1.9.6.jar",
-      "license": "MMPL",
+      "license": "Minecraft Mod Public License v1.0.1.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bdlib/"
     },
@@ -164,7 +164,7 @@
       "filename": "BetterBuildersWands-1.7.10-0.9.2-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/BetterBuildersWands/releases/assets/56075284",
       "browser_download_url": "https://github.com/GTNewHorizons/BetterBuildersWands/releases/download/0.9.2-GTNH/BetterBuildersWands-1.7.10-0.9.2-GTNH.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterBuildersWands/"
     },
@@ -176,7 +176,7 @@
       "filename": "betterp2p-1.7.10-1.0.7.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/BetterP2P/releases/assets/58599181",
       "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.0.7/betterp2p-1.7.10-1.0.7.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterP2P/"
     },
@@ -188,7 +188,7 @@
       "filename": "BetterQuesting-1.7.10-3.0.355-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/56318298",
       "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.355-GTNH/BetterQuesting-1.7.10-3.0.355-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/"
     },
@@ -200,7 +200,7 @@
       "filename": "binnie-mods-1.7.10-2.0.34.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/56698436",
       "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.0.34/binnie-mods-1.7.10-2.0.34.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Binnie/"
     },
@@ -212,7 +212,7 @@
       "filename": "BlockLimiter-1.7.10-0.55.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/BlockLimiter/releases/assets/56828211",
       "browser_download_url": "https://github.com/GTNewHorizons/BlockLimiter/releases/download/0.55/BlockLimiter-1.7.10-0.55.jar",
-      "license": "Do What The F*ck You Want To Public License",
+      "license": "Do What The Fuck You Want To Public License v2.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BlockLimiter/"
     },
@@ -224,7 +224,7 @@
       "filename": "BloodArsenal-1.7.10-1.2.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/BloodArsenal/releases/assets/58080549",
       "browser_download_url": "https://github.com/GTNewHorizons/BloodArsenal/releases/download/1.2.5/BloodArsenal-1.7.10-1.2.5.jar",
-      "license": "Creative Commons Attribution 4.0 International",
+      "license": "Creative Commons Attribution 4.0 International.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BloodArsenal/"
     },
@@ -236,7 +236,7 @@
       "filename": "BloodMagic-1.7.10-1.3.8.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/BloodMagic/releases/assets/58218781",
       "browser_download_url": "https://github.com/GTNewHorizons/BloodMagic/releases/download/1.3.8/BloodMagic-1.7.10-1.3.8.jar",
-      "license": "CC BY 4.0",
+      "license": "Creative Commons Attribution 4.0 International.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BloodMagic/"
     },
@@ -248,7 +248,7 @@
       "filename": "Botania-1.7.10-1.9.2-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Botania/releases/assets/56698211",
       "browser_download_url": "https://github.com/GTNewHorizons/Botania/releases/download/1.9.2-GTNH/Botania-1.7.10-1.9.2-GTNH.jar",
-      "license": "Botania License",
+      "license": "Botania License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botania/"
     },
@@ -260,7 +260,7 @@
       "filename": "BotanicHorizons-1.7.10-1.0.5-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/58081119",
       "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.5-GTNH/BotanicHorizons-1.7.10-1.0.5-GTNH.jar",
-      "license": "CC BY-NC-SA 4.0, special permission given to GTNH",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, special permission given to GTNH.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botanic-horizons/"
     },
@@ -272,7 +272,7 @@
       "filename": "buildcraft-1.7.10-7.1.27.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraft/releases/assets/56205477",
       "browser_download_url": "https://github.com/GTNewHorizons/BuildCraft/releases/download/7.1.27/buildcraft-1.7.10-7.1.27.jar",
-      "license": "MMPL, MIT for the API (https://github.com/GTNewHorizons/BuildCraft",
+      "license": "Mod licensed under the Minecraft Mod Public License v1.0.1, BuildCraft API licensed under the MIT License (https://github.com/GTNewHorizons/BuildCraft).",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BuildCraft/"
     },
@@ -284,7 +284,7 @@
       "filename": "buildcraft-compat-1.7.10-7.1.11.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/BuildCraftCompat/releases/assets/55678207",
       "browser_download_url": "https://github.com/GTNewHorizons/BuildCraftCompat/releases/download/7.1.11/buildcraft-compat-1.7.10-7.1.11.jar",
-      "license": "MMPL 1.0.1 according to curse (https://www.curseforge.com/minecraft/mc-mods/buildcraft-compat)",
+      "license": "Minecraft Mod Public License v1.0.1 according to CurseForge (https://www.curseforge.com/minecraft/mc-mods/buildcraft-compat).",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BuildCraftCompat/"
     },
@@ -296,7 +296,7 @@
       "filename": "catwalks-1.7.10-2.1.3-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Catwalks-2/releases/assets/58081296",
       "browser_download_url": "https://github.com/GTNewHorizons/Catwalks-2/releases/download/2.1.3-GTNH/catwalks-1.7.10-2.1.3-GTNH.jar",
-      "license": "explicit permission (german)",
+      "license": "Explicit Permission (german).",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Catwalks-2/"
     },
@@ -308,7 +308,7 @@
       "filename": "chisel-1.7.10-2.10.9-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/58084486",
       "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.10.9-GTNH/chisel-1.7.10-2.10.9-GTNH.jar",
-      "license": "GNU General Public License v2.0",
+      "license": "GNU General Public License v2.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Chisel/"
     },
@@ -320,7 +320,7 @@
       "filename": "CodeChickenCore-1.7.10-1.1.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/CodeChickenCore/releases/assets/57173267",
       "browser_download_url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.1.5/CodeChickenCore-1.7.10-1.1.5.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CodeChickenCore/"
     },
@@ -332,7 +332,7 @@
       "filename": "CodeChickenLib-1.7.10-1.1.5.3.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/CodeChickenLib/releases/assets/55680730",
       "browser_download_url": "https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.1.5.3/CodeChickenLib-1.7.10-1.1.5.3.jar",
-      "license": "GNU Lesser General Public License v2.1",
+      "license": "GNU Lesser General Public License v2.1.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CodeChickenLib/"
     },
@@ -344,7 +344,7 @@
       "filename": "Computronics-1.7.10-1.6.11-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Computronics/releases/assets/58084771",
       "browser_download_url": "https://github.com/GTNewHorizons/Computronics/releases/download/1.6.11-GTNH/Computronics-1.7.10-1.6.11-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Computronics/"
     },
@@ -356,7 +356,7 @@
       "filename": "CookingForBlockheads-1.7.10-1.2.8-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/CookingForBlockheads/releases/assets/58082015",
       "browser_download_url": "https://github.com/GTNewHorizons/CookingForBlockheads/releases/download/1.2.8-GTNH/CookingForBlockheads-1.7.10-1.2.8-GTNH.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CookingForBlockheads/"
     },
@@ -368,7 +368,7 @@
       "filename": "CraftTweaker-1.7.10-3.2.8.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/CraftTweaker/releases/assets/58650108",
       "browser_download_url": "https://github.com/GTNewHorizons/CraftTweaker/releases/download/3.2.8/CraftTweaker-1.7.10-3.2.8.jar",
-      "license": "Our version - Non Commercial - Latest Versions MIT",
+      "license": "Our version - Non-Commercial - Latest Versions licensed under MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CraftTweaker/"
     },
@@ -380,7 +380,7 @@
       "filename": "creativecore-1.7.10-1.3.26-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/CreativeCore/releases/assets/59778147",
       "browser_download_url": "https://github.com/GTNewHorizons/CreativeCore/releases/download/1.3.26-GTNH/creativecore-1.7.10-1.3.26-GTNH.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CreativeCore/"
     },
@@ -392,7 +392,7 @@
       "filename": "CropLoadCore-1.7.10-0.1.10.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/CropLoadCore/releases/assets/57144069",
       "browser_download_url": "https://github.com/GTNewHorizons/CropLoadCore/releases/download/0.1.10/CropLoadCore-1.7.10-0.1.10.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CropLoadCore/"
     },
@@ -404,7 +404,7 @@
       "filename": "CropsPP-1.7.10-1.3.5.9.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Crops-plus-plus/releases/assets/55680086",
       "browser_download_url": "https://github.com/GTNewHorizons/Crops-plus-plus/releases/download/1.3.5.9/CropsPP-1.7.10-1.3.5.9.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Crops-plus-plus/"
     },
@@ -416,7 +416,7 @@
       "filename": "GT.Scanner.Mod-1.7.10-1.6.6.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/DetravScannerMod/releases/assets/58086612",
       "browser_download_url": "https://github.com/GTNewHorizons/DetravScannerMod/releases/download/1.6.6/GT.Scanner.Mod-1.7.10-1.6.6.jar",
-      "license": "???",
+      "license": "Unknown. Pending community outreach.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DetravScannerMod/"
     },
@@ -428,7 +428,7 @@
       "filename": "Draconic-Evolution-1.7.10-1.1.2.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/55375159",
       "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.2/Draconic-Evolution-1.7.10-1.1.2.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/"
     },
@@ -440,7 +440,7 @@
       "filename": "EMT-1.7.10-1.2.8.8.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/58599520",
       "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.2.8.8/EMT-1.7.10-1.2.8.8.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Electro-Magic-Tools/"
     },
@@ -452,7 +452,7 @@
       "filename": "endercore-1.7.10-0.2.6.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/EnderCore/releases/assets/54244050",
       "browser_download_url": "https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.6/endercore-1.7.10-0.2.6.jar",
-      "license": "Creative Commons Zero v1.0 Universal",
+      "license": "CC0 1.0 Universal Public Domain Dedication.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderCore/"
     },
@@ -464,7 +464,7 @@
       "filename": "EnderIO-1.7.10-2.3.1.32.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/58599248",
       "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.32/EnderIO-1.7.10-2.3.1.32.jar",
-      "license": "original code unlicensed, GTNH modifications are LGPL 3.0",
+      "license": "Original code is All Rights Reserved, GTNH modifications are licensed under the GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/"
     },
@@ -476,7 +476,7 @@
       "filename": "EnderStorage-1.7.10-1.4.11.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/EnderStorage/releases/assets/54290444",
       "browser_download_url": "https://github.com/GTNewHorizons/EnderStorage/releases/download/1.4.11/EnderStorage-1.7.10-1.4.11.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderStorage/"
     },
@@ -488,7 +488,7 @@
       "filename": "EnderZoo-1.7.10-1.0.23.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/EnderZoo/releases/assets/56698392",
       "browser_download_url": "https://github.com/GTNewHorizons/EnderZoo/releases/download/1.0.23/EnderZoo-1.7.10-1.0.23.jar",
-      "license": "Creative Commons Zero v1.0 Universal",
+      "license": "CC0 1.0 Universal Public Domain Dedication.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderZoo/"
     },
@@ -500,7 +500,7 @@
       "filename": "ExtraCells-1.7.10-2.5.10.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ExtraCells2/releases/assets/56827222",
       "browser_download_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.10/ExtraCells-1.7.10-2.5.10.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ExtraCells2/"
     },
@@ -512,7 +512,7 @@
       "filename": "findit-1.7.10-1.0.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/FindIt/releases/assets/58083212",
       "browser_download_url": "https://github.com/GTNewHorizons/FindIt/releases/download/1.0.5/findit-1.7.10-1.0.5.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FindIt/"
     },
@@ -524,7 +524,7 @@
       "filename": "Forbidden.Magic-1.7.10-0.6.2-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ForbiddenMagic/releases/assets/56640195",
       "browser_download_url": "https://github.com/GTNewHorizons/ForbiddenMagic/releases/download/0.6.2-GTNH/Forbidden.Magic-1.7.10-0.6.2-GTNH.jar",
-      "license": "Do What The F*ck You Want To Public License",
+      "license": "Do What The Fuck You Want To Public License v2.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForbiddenMagic/"
     },
@@ -536,7 +536,7 @@
       "filename": "Forestry-1.7.10-4.4.6.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/56639436",
       "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.4.6/Forestry-1.7.10-4.4.6.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForestryMC/"
     },
@@ -548,7 +548,7 @@
       "filename": "ForgeMultipart-1.7.10-1.2.7.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ForgeMultipart/releases/assets/54244264",
       "browser_download_url": "https://github.com/GTNewHorizons/ForgeMultipart/releases/download/1.2.7/ForgeMultipart-1.7.10-1.2.7.jar",
-      "license": "LGPL 2.1",
+      "license": "GNU Lesser General Public License v2.1.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForgeMultipart/"
     },
@@ -560,7 +560,7 @@
       "filename": "gadomancy-1.7.10-1.0.8.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Gadomancy/releases/assets/56524608",
       "browser_download_url": "https://github.com/GTNewHorizons/Gadomancy/releases/download/1.0.8.5/gadomancy-1.7.10-1.0.8.5.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Gadomancy/"
     },
@@ -572,7 +572,7 @@
       "filename": "galacticgreg-1.7.10-1.0.7.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/GalacticGregGT5/releases/assets/54337046",
       "browser_download_url": "https://github.com/GTNewHorizons/GalacticGregGT5/releases/download/1.0.7/galacticgreg-1.7.10-1.0.7.jar",
-      "license": "GNU General Public License v2.0",
+      "license": "GNU General Public License v2.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GalacticGregGT5/"
     },
@@ -584,7 +584,7 @@
       "filename": "Galacticraft-1.7.10-3.0.40-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/58084518",
       "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.40-GTNH/Galacticraft-1.7.10-3.0.40-GTNH.jar",
-      "license": "explicit permission for GTNH",
+      "license": "Explicit Permission.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Galacticraft/"
     },
@@ -596,7 +596,7 @@
       "filename": "GalaxySpace-1.7.10-1.1.16b-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/59384426",
       "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.16b-GTNH/GalaxySpace-1.7.10-1.1.16b-GTNH.jar",
-      "license": "explicit permissions for GTNH",
+      "license": "Explicit Permission.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Galaxy-Space-GTNH/"
     },
@@ -608,7 +608,7 @@
       "filename": "gendustry-1.7.10-1.6.5.3-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/gendustry/releases/assets/54295607",
       "browser_download_url": "https://github.com/GTNewHorizons/gendustry/releases/download/1.6.5.3-GTNH/gendustry-1.7.10-1.6.5.3-GTNH.jar",
-      "license": "MMPL 1.0",
+      "license": "Minecraft Mod Public License v1.0.1.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/gendustry/"
     },
@@ -620,7 +620,7 @@
       "filename": "GoodGenerator-1.7.10-0.4.1.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/58085375",
       "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.1/GoodGenerator-1.7.10-0.4.1.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/"
     },
@@ -632,7 +632,7 @@
       "filename": "gregtech-1.7.10-5.09.40.39.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/58382677",
       "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.39/gregtech-1.7.10-5.09.40.39.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/"
     },
@@ -644,7 +644,7 @@
       "filename": "gtnhlanth-1.7.10-0.8.6.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/58388137",
       "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.8.6/gtnhlanth-1.7.10-0.8.6.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Lanthanides/"
     },
@@ -656,7 +656,7 @@
       "filename": "GTNH-TC-Wands-1.7.10-1.2.6.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-TC-Wands/releases/assets/56699630",
       "browser_download_url": "https://github.com/GTNewHorizons/GTNH-TC-Wands/releases/download/1.2.6/GTNH-TC-Wands-1.7.10-1.2.6.jar",
-      "license": "Do What The F*ck You Want To Public License",
+      "license": "Do What The Fuck You Want To Public License v2.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-TC-Wands/"
     },
@@ -668,7 +668,7 @@
       "filename": "GT-PlusPlus-1.7.10-1.7.29.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/58650029",
       "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.29/GT-PlusPlus-1.7.10-1.7.29.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/"
     },
@@ -680,7 +680,7 @@
       "filename": "HardcoreEnderExpansion-1.7.10-1.9.2-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/56318664",
       "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.9.2-GTNH/HardcoreEnderExpansion-1.7.10-1.9.2-GTNH.jar",
-      "license": "Explicit permissions",
+      "license": "Explicit Permission.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hardcore-Ender-Expansion/"
     },
@@ -692,7 +692,7 @@
       "filename": "Pam.s_Harvestcraft-1.7.10-1.0.12-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/harvestcraft/releases/assets/55872629",
       "browser_download_url": "https://github.com/GTNewHorizons/harvestcraft/releases/download/1.0.12-GTNH/Pam.s_Harvestcraft-1.7.10-1.0.12-GTNH.jar",
-      "license": "explicit permissions",
+      "license": "Explicit Permission.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/harvestcraft/"
     },
@@ -704,7 +704,7 @@
       "filename": "hodgepodge-1.7.10-1.7.1.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/58357216",
       "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/1.7.1/hodgepodge-1.7.10-1.7.1.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/"
     },
@@ -716,7 +716,7 @@
       "filename": "holoinventory-1.7.10-2.1.7-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/HoloInventory/releases/assets/55864173",
       "browser_download_url": "https://github.com/GTNewHorizons/HoloInventory/releases/download/2.1.7-GTNH/holoinventory-1.7.10-2.1.7-GTNH.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HoloInventory/"
     },
@@ -728,7 +728,7 @@
       "filename": "hydroenergy-1.7.10-1.0.11.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/HydroEnergy/releases/assets/58593348",
       "browser_download_url": "https://github.com/GTNewHorizons/HydroEnergy/releases/download/1.0.11/hydroenergy-1.7.10-1.0.11.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HydroEnergy/"
     },
@@ -740,7 +740,7 @@
       "filename": "ifu-1.7.10-1.9.2.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/IFU/releases/assets/56209739",
       "browser_download_url": "https://github.com/GTNewHorizons/IFU/releases/download/1.9.2/ifu-1.7.10-1.9.2.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/IFU/"
     },
@@ -752,7 +752,7 @@
       "filename": "IguanaTweaksTConstruct-1.7.10-2.2.2.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/IguanaTweaksTConstruct/releases/assets/55882969",
       "browser_download_url": "https://github.com/GTNewHorizons/IguanaTweaksTConstruct/releases/download/2.2.2/IguanaTweaksTConstruct-1.7.10-2.2.2.jar",
-      "license": "Creative Commons Attribution Share Alike 4.0 International",
+      "license": "Creative Commons Attribution-ShareAlike 4.0 International.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/IguanaTweaksTConstruct/"
     },
@@ -764,7 +764,7 @@
       "filename": "InGameInfoXML-1.7.10-2.8.3.91.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/InGame-Info-XML/releases/assets/58357794",
       "browser_download_url": "https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.8.3.91/InGameInfoXML-1.7.10-2.8.3.91.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/InGame-Info-XML/"
     },
@@ -776,7 +776,7 @@
       "filename": "INpureCore-1.7.10-1.1.1-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/INpureCore/releases/assets/55307383",
       "browser_download_url": "https://github.com/GTNewHorizons/INpureCore/releases/download/1.1.1-GTNH/INpureCore-1.7.10-1.1.1-GTNH.jar",
-      "license": "The IDGAF License v1.0",
+      "license": "IDGAF License v1.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/INpureCore/"
     },
@@ -788,7 +788,7 @@
       "filename": "IronChest-1.7.10-6.0.70.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ironchest/releases/assets/56075374",
       "browser_download_url": "https://github.com/GTNewHorizons/ironchest/releases/download/6.0.70/IronChest-1.7.10-6.0.70.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ironchest/"
     },
@@ -800,7 +800,7 @@
       "filename": "IronChestMinecarts-1.7.10-1.0.8.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/IronChestMinecarts/releases/assets/56075321",
       "browser_download_url": "https://github.com/GTNewHorizons/IronChestMinecarts/releases/download/1.0.8/IronChestMinecarts-1.7.10-1.0.8.jar",
-      "license": "explicit permissions",
+      "license": "Explicit Permission.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/IronChestMinecarts/"
     },
@@ -812,7 +812,7 @@
       "filename": "irontanks-1.7.10-1.2.6.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Irontanks/releases/assets/56407424",
       "browser_download_url": "https://github.com/GTNewHorizons/Irontanks/releases/download/1.2.6/irontanks-1.7.10-1.2.6.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Irontanks/"
     },
@@ -824,7 +824,7 @@
       "filename": "JABBA-1.7.10-1.2.15.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Jabba/releases/assets/58595636",
       "browser_download_url": "https://github.com/GTNewHorizons/Jabba/releases/download/1.2.15/JABBA-1.7.10-1.2.15.jar",
-      "license": "CC BY-NC-SA",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Jabba/"
     },
@@ -836,7 +836,7 @@
       "filename": "kekztech-1.7.10-0.6.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/KekzTech/releases/assets/58650219",
       "browser_download_url": "https://github.com/GTNewHorizons/KekzTech/releases/download/0.6.5/kekztech-1.7.10-0.6.5.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KekzTech/"
     },
@@ -848,7 +848,7 @@
       "filename": "littletiles-1.7.10-1.2.2-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/59786526",
       "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.2.2-GTNH/littletiles-1.7.10-1.2.2-GTNH.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LittleTiles/"
     },
@@ -860,7 +860,7 @@
       "filename": "logisticspipes-1.7.10-0.9.4.5.4-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/LogisticsPipes/releases/assets/58596983",
       "browser_download_url": "https://github.com/GTNewHorizons/LogisticsPipes/releases/download/0.9.4.5.4-GTNH/logisticspipes-1.7.10-0.9.4.5.4-GTNH.jar",
-      "license": "MMPL",
+      "license": "Minecraft Mod Public License v1.0.1.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LogisticsPipes/"
     },
@@ -872,7 +872,7 @@
       "filename": "lootgames-1.7.10-2.0.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/LootGames/releases/assets/56320179",
       "browser_download_url": "https://github.com/GTNewHorizons/LootGames/releases/download/2.0.5/lootgames-1.7.10-2.0.5.jar",
-      "license": "ARR for people outside of the NH organization, might need some clarifications",
+      "license": "All Rights Reserved for people outside of the NH organization, might need some clarifications, pending community outreach.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LootGames/"
     },
@@ -884,7 +884,7 @@
       "filename": "LunatriusCore-1.7.10-1.1.6-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/LunatriusCore/releases/assets/58360289",
       "browser_download_url": "https://github.com/GTNewHorizons/LunatriusCore/releases/download/1.1.6-GTNH/LunatriusCore-1.7.10-1.1.6-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LunatriusCore/"
     },
@@ -896,7 +896,7 @@
       "filename": "magicbees-1.7.10-2.5.9-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/MagicBees/releases/assets/59686186",
       "browser_download_url": "https://github.com/GTNewHorizons/MagicBees/releases/download/2.5.9-GTNH/magicbees-1.7.10-2.5.9-GTNH.jar",
-      "license": "Do what the fuck you want license 2.0",
+      "license": "Do What The Fuck You Want To Public License v2.0",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MagicBees/"
     },
@@ -908,7 +908,7 @@
       "filename": "Mantle-1.7.10-0.3.4.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Mantle/releases/assets/54248232",
       "browser_download_url": "https://github.com/GTNewHorizons/Mantle/releases/download/0.3.4/Mantle-1.7.10-0.3.4.jar",
-      "license": "MIT",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Mantle/"
     },
@@ -920,7 +920,7 @@
       "filename": "backpack-1.7.10-2.2.6-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Minecraft-Backpack-Mod/releases/assets/59584778",
       "browser_download_url": "https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/releases/download/2.2.6-GTNH/backpack-1.7.10-2.2.6-GTNH.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Minecraft-Backpack-Mod/"
     },
@@ -932,7 +932,7 @@
       "filename": "Natura-1.7.10-2.5.0.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Natura/releases/assets/58746590",
       "browser_download_url": "https://github.com/GTNewHorizons/Natura/releases/download/2.5.0/Natura-1.7.10-2.5.0.jar",
-      "license": "original code is CC0, original texutures are CC3, GTNH modifications are LGPL 3.0",
+      "license": "Original code is CC0 1.0 Universal Public Domain Dedication, original texutures are Creative Commons 3.0 (no license specified, assuming Creative Commons 3.0 Attribution Unported), GTNH modifications are licensed under the GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Natura/"
     },
@@ -944,7 +944,7 @@
       "filename": "NEICustomDiagram-1.7.10-1.4.4.4.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/nei-custom-diagram/releases/assets/56407318",
       "browser_download_url": "https://github.com/GTNewHorizons/nei-custom-diagram/releases/download/1.4.4.4/NEICustomDiagram-1.7.10-1.4.4.4.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/nei-custom-diagram/"
     },
@@ -956,7 +956,7 @@
       "filename": "NEIAddons-1.7.10-1.12.19.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/neiaddons/releases/assets/56407625",
       "browser_download_url": "https://github.com/GTNewHorizons/neiaddons/releases/download/1.12.19/NEIAddons-1.7.10-1.12.19.jar",
-      "license": "MMPL 1.0",
+      "license": "Minecraft Mod Public License v1.0.1",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/neiaddons/"
     },
@@ -968,7 +968,7 @@
       "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.21.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/58382233",
       "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.21/GTNewHorizonsCoreMod-1.7.10-1.9.21.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NewHorizonsCoreMod/"
     },
@@ -980,7 +980,7 @@
       "filename": "NotEnoughEnergistics-1.7.10-1.3.11.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/58360797",
       "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.3.11/NotEnoughEnergistics-1.7.10-1.3.11.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughEnergistics/"
     },
@@ -992,7 +992,7 @@
       "filename": "NotEnoughItems-1.7.10-2.2.10-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/58650928",
       "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.10-GTNH/NotEnoughItems-1.7.10-2.2.10-GTNH.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/"
     },
@@ -1004,7 +1004,7 @@
       "filename": "IC2NuclearControl-1.7.10-2.4.8.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Nuclear-Control/releases/assets/54333668",
       "browser_download_url": "https://github.com/GTNewHorizons/Nuclear-Control/releases/download/2.4.8/IC2NuclearControl-1.7.10-2.4.8.jar",
-      "license": "original code with a custom license allowing edit and redistribution, GTNH changes LGPL 3.0",
+      "license": "Original code with a custom license allowing edit and redistribution, GTNH changes licensed under the GNU Lesser General Public Library v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Nuclear-Control/"
     },
@@ -1016,7 +1016,7 @@
       "filename": "OpenGlasses-1.7.10-1.2.3-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/OCGlasses/releases/assets/56524485",
       "browser_download_url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.2.3-GTNH/OpenGlasses-1.7.10-1.2.3-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OCGlasses/"
     },
@@ -1028,7 +1028,7 @@
       "filename": "OpenBlocks-1.7.10-1.6.8-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/57062114",
       "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.6.8-GTNH/OpenBlocks-1.7.10-1.6.8-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenBlocks/"
     },
@@ -1040,7 +1040,7 @@
       "filename": "OpenComputers-1.7.10-1.7.5.25-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/58650324",
       "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.7.5.25-GTNH/OpenComputers-1.7.10-1.7.5.25-GTNH.jar",
-      "license": "CC0 1.0",
+      "license": "CC0 1.0 Universal Public Domain Dedication.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenComputers/"
     },
@@ -1052,7 +1052,7 @@
       "filename": "OpenModsLibs-1.7.10-0.10.6.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/OpenModsLib/releases/assets/58362082",
       "browser_download_url": "https://github.com/GTNewHorizons/OpenModsLib/releases/download/0.10.6/OpenModsLibs-1.7.10-0.10.6.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenModsLib/"
     },
@@ -1064,7 +1064,7 @@
       "filename": "OpenModularTurrets-1.7.10-2.2.11-247.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/OpenModularTurrets/releases/assets/56221820",
       "browser_download_url": "https://github.com/GTNewHorizons/OpenModularTurrets/releases/download/2.2.11-247/OpenModularTurrets-1.7.10-2.2.11-247.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenModularTurrets/"
     },
@@ -1076,7 +1076,7 @@
       "filename": "Opis-1.7.10-1.3.3-mapless.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Opis/releases/assets/56300556",
       "browser_download_url": "https://github.com/GTNewHorizons/Opis/releases/download/1.3.3-mapless/Opis-1.7.10-1.3.3-mapless.jar",
-      "license": "CC BY-NC-SA 4.0",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Opis/"
     },
@@ -1088,7 +1088,7 @@
       "filename": "ProjRed-1.7.10-4.7.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ProjectRed/releases/assets/58368708",
       "browser_download_url": "https://github.com/GTNewHorizons/ProjectRed/releases/download/4.7.5/ProjRed-1.7.10-4.7.5.jar",
-      "license": "custom license allowing to compile and redistribute",
+      "license": "Custom license allowing NH to compile and redistribute",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ProjectRed/"
     },
@@ -1100,7 +1100,7 @@
       "filename": "questbook-1.7.10-2.1.3-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/QuestBook/releases/assets/56698125",
       "browser_download_url": "https://github.com/GTNewHorizons/QuestBook/releases/download/2.1.3-GTNH/questbook-1.7.10-2.1.3-GTNH.jar",
-      "license": "???",
+      "license": "Unknown. Pending community outreach.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/QuestBook/"
     },
@@ -1112,7 +1112,7 @@
       "filename": "Railcraft-1.7.10-9.13.7.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/58650955",
       "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.13.7/Railcraft-1.7.10-9.13.7.jar",
-      "license": "explicit permissions",
+      "license": "Explicit Permission.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Railcraft/"
     },
@@ -1124,7 +1124,7 @@
       "filename": "RWG-1.7.10-alpha-1.3.2.1.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Realistic-World-Gen/releases/assets/56644365",
       "browser_download_url": "https://github.com/GTNewHorizons/Realistic-World-Gen/releases/download/alpha-1.3.2.1/RWG-1.7.10-alpha-1.3.2.1.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Realistic-World-Gen/"
     },
@@ -1136,7 +1136,7 @@
       "filename": "RemoteIO-1.7.10-2.4.6.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/RemoteIO/releases/assets/59693125",
       "browser_download_url": "https://github.com/GTNewHorizons/RemoteIO/releases/download/2.4.6/RemoteIO-1.7.10-2.4.6.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/RemoteIO/"
     },
@@ -1148,7 +1148,7 @@
       "filename": "roguelike-1.7.10-1.5.3-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Roguelike-Dungeons/releases/assets/59693101",
       "browser_download_url": "https://github.com/GTNewHorizons/Roguelike-Dungeons/releases/download/1.5.3-GTNH/roguelike-1.7.10-1.5.3-GTNH.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Roguelike-Dungeons/"
     },
@@ -1160,7 +1160,7 @@
       "filename": "StevesCarts-1.7.10-2.0.1.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/SC2/releases/assets/54334720",
       "browser_download_url": "https://github.com/GTNewHorizons/SC2/releases/download/2.0.1/StevesCarts-1.7.10-2.0.1.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SC2/"
     },
@@ -1172,7 +1172,7 @@
       "filename": "SGCraft-1.7.10-1.3.12-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/SGCraft/releases/assets/56296056",
       "browser_download_url": "https://github.com/GTNewHorizons/SGCraft/releases/download/1.3.12-GTNH/SGCraft-1.7.10-1.3.12-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SGCraft/"
     },
@@ -1184,7 +1184,7 @@
       "filename": "sleepingbag-1.7.10-0.1.2.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/SleepingBags/releases/assets/55864062",
       "browser_download_url": "https://github.com/GTNewHorizons/SleepingBags/releases/download/0.1.2/sleepingbag-1.7.10-0.1.2.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SleepingBags/"
     },
@@ -1196,7 +1196,7 @@
       "filename": "SpiceOfLife-1.7.10-2.0.1-carrot.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/56520728",
       "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.0.1-carrot/SpiceOfLife-1.7.10-2.0.1-carrot.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SpiceOfLife/"
     },
@@ -1208,7 +1208,7 @@
       "filename": "StandardExpansion-1.7.10-3.0.190-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/StandardQuestingPack/releases/assets/56698112",
       "browser_download_url": "https://github.com/GTNewHorizons/StandardQuestingPack/releases/download/3.0.190-GTNH/StandardExpansion-1.7.10-3.0.190-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StandardQuestingPack/"
     },
@@ -1220,7 +1220,7 @@
       "filename": "StevesFactoryManager-1.7.10-1.1.0-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Steve-s-Factory-Manager/releases/assets/57225444",
       "browser_download_url": "https://github.com/GTNewHorizons/Steve-s-Factory-Manager/releases/download/1.1.0-GTNH/StevesFactoryManager-1.7.10-1.1.0-GTNH.jar",
-      "license": "MIT - granted permissions by mod author to anyone that have access to the source code: https://twitter.com/Steves_Carts/status/795197105849729024",
+      "license": "MIT License - granted permissions by mod author to anyone that has access to the source code: https://twitter.com/Steves_Carts/status/795197105849729024",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Steve-s-Factory-Manager/"
     },
@@ -1232,7 +1232,7 @@
       "filename": "StevesAddons-1.7.10-0.10.23.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/StevesAddons/releases/assets/58363198",
       "browser_download_url": "https://github.com/GTNewHorizons/StevesAddons/releases/download/0.10.23/StevesAddons-1.7.10-0.10.23.jar",
-      "license": "Don't be a jerk license",
+      "license": "Don’t Be a Jerk Non-Commercial License",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StevesAddons/"
     },
@@ -1244,7 +1244,7 @@
       "filename": "StorageDrawers-1.7.10-1.11.13-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/56406113",
       "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.13-GTNH/StorageDrawers-1.7.10-1.11.13-GTNH.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers/"
     },
@@ -1256,7 +1256,7 @@
       "filename": "StorageDrawersBop-1.7.10-1.11.11-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-BiomesOPlenty/releases/assets/56640071",
       "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty/releases/download/1.11.11-GTNH/StorageDrawersBop-1.7.10-1.11.11-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers-BiomesOPlenty/"
     },
@@ -1268,7 +1268,7 @@
       "filename": "StorageDrawersForestry-1.7.10-1.11.11-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Forestry/releases/assets/56640074",
       "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Forestry/releases/download/1.11.11-GTNH/StorageDrawersForestry-1.7.10-1.11.11-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers-Forestry/"
     },
@@ -1280,7 +1280,7 @@
       "filename": "StorageDrawersMisc-1.7.10-1.11.11-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Misc/releases/assets/56639898",
       "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Misc/releases/download/1.11.11-GTNH/StorageDrawersMisc-1.7.10-1.11.11-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers-Misc/"
     },
@@ -1292,7 +1292,7 @@
       "filename": "StorageDrawersNatura-1.7.10-1.11.11-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Natura/releases/assets/56639953",
       "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Natura/releases/download/1.11.11-GTNH/StorageDrawersNatura-1.7.10-1.11.11-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers-Natura/"
     },
@@ -1304,7 +1304,7 @@
       "filename": "structurelib-1.7.10-1.0.16.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/StructureLib/releases/assets/58248684",
       "browser_download_url": "https://github.com/GTNewHorizons/StructureLib/releases/download/1.0.16/structurelib-1.7.10-1.0.16.jar",
-      "license": "MIT",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StructureLib/"
     },
@@ -1316,7 +1316,7 @@
       "filename": "SuperTic-1.7.10-1.2.2.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Super-TiC/releases/assets/56639458",
       "browser_download_url": "https://github.com/GTNewHorizons/Super-TiC/releases/download/1.2.2/SuperTic-1.7.10-1.2.2.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Super-TiC/"
     },
@@ -1328,7 +1328,7 @@
       "filename": "Thaumcraft4Tweaks-1.7.10-1.4.16.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/TC4Tweaks/releases/assets/56698150",
       "browser_download_url": "https://github.com/GTNewHorizons/TC4Tweaks/releases/download/1.4.16/Thaumcraft4Tweaks-1.7.10-1.4.16.jar",
-      "license": "GNU Affero General Public License v3.0",
+      "license": "GNU Affero General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TC4Tweaks/"
     },
@@ -1340,7 +1340,7 @@
       "filename": "tcneiadditions-1.7.10-1.1.0.6.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/TCNEIAdditions/releases/assets/56828055",
       "browser_download_url": "https://github.com/GTNewHorizons/TCNEIAdditions/releases/download/1.1.0.6/tcneiadditions-1.7.10-1.1.0.6.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TCNEIAdditions/"
     },
@@ -1352,7 +1352,7 @@
       "filename": "TecTech-1.7.10-5.0.6.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/58369478",
       "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.6/TecTech-1.7.10-5.0.6.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/"
     },
@@ -1364,7 +1364,7 @@
       "filename": "ThaumcraftResearchTweaks-1.7.10-1.0.3.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/thaumcraft-research-tweaks/releases/assets/56828487",
       "browser_download_url": "https://github.com/GTNewHorizons/thaumcraft-research-tweaks/releases/download/1.0.3/ThaumcraftResearchTweaks-1.7.10-1.0.3.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/thaumcraft-research-tweaks/"
     },
@@ -1376,7 +1376,7 @@
       "filename": "Thaumic-Exploration-1.7.10-1.1.85-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Thaumic_Exploration/releases/assets/58650059",
       "browser_download_url": "https://github.com/GTNewHorizons/Thaumic_Exploration/releases/download/1.1.85-GTNH/Thaumic-Exploration-1.7.10-1.1.85-GTNH.jar",
-      "license": "CC BY-NC-SA 4.0",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Thaumic_Exploration/"
     },
@@ -1388,7 +1388,7 @@
       "filename": "Thaumic-Based-1.7.10-1.4.29.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicBases/releases/assets/58354267",
       "browser_download_url": "https://github.com/GTNewHorizons/ThaumicBases/releases/download/1.4.29/Thaumic-Based-1.7.10-1.4.29.jar",
-      "license": "Creative Commons Zero v1.0 Universal",
+      "license": "CC0 1.0 Universal Public Domain Dedication.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicBases/"
     },
@@ -1400,7 +1400,7 @@
       "filename": "thaumicenergistics-1.7.10-1.3.16-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/54303099",
       "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.3.16-GTNH/thaumicenergistics-1.7.10-1.3.16-GTNH.jar",
-      "license": "original code MIT, GTNH changes LGPL 3.0",
+      "license": "Original code licensed under the MIT License, GTNH changes licensed under the GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicEnergistics/"
     },
@@ -1412,7 +1412,7 @@
       "filename": "ThaumicHorizons-1.7.10-1.2.1.2.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicHorizons/releases/assets/56301291",
       "browser_download_url": "https://github.com/GTNewHorizons/ThaumicHorizons/releases/download/1.2.1.2/ThaumicHorizons-1.7.10-1.2.1.2.jar",
-      "license": "**ARR according to curseforge (https://www.curseforge.com/minecraft/mc-mods/thaumic-horizons)**",
+      "license": "**All Rights Reserved according to CurseForge (https://www.curseforge.com/minecraft/mc-mods/thaumic-horizons)**",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicHorizons/"
     },
@@ -1424,7 +1424,7 @@
       "filename": "ThaumicTinkerer-1.7.10-2.6.4.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicTinkerer/releases/assets/56828449",
       "browser_download_url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.6.4/ThaumicTinkerer-1.7.10-2.6.4.jar",
-      "license": "CC BY-NC-SA 3.0",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicTinkerer/"
     },
@@ -1436,7 +1436,7 @@
       "filename": "TConstruct-1.7.10-1.9.0.14-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/58369495",
       "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.0.14-GTNH/TConstruct-1.7.10-1.9.0.14-GTNH.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/"
     },
@@ -1448,7 +1448,7 @@
       "filename": "TMechworks-1.7.10-0.2.16.3.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersMechworks/releases/assets/55681608",
       "browser_download_url": "https://github.com/GTNewHorizons/TinkersMechworks/releases/download/0.2.16.3/TMechworks-1.7.10-0.2.16.3.jar",
-      "license": "MIT",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersMechworks/"
     },
@@ -1460,7 +1460,7 @@
       "filename": "Translocator-1.7.10-1.1.2.19.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Translocators/releases/assets/54251065",
       "browser_download_url": "https://github.com/GTNewHorizons/Translocators/releases/download/1.1.2.19/Translocator-1.7.10-1.1.2.19.jar",
-      "license": "original code MIT, GTNH changes LGPL 3.0",
+      "license": "Original code licensed under the MIT License, GTNH changes licensed under the GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Translocators/"
     },
@@ -1472,7 +1472,7 @@
       "filename": "TwilightForest-1.7.10-2.3.8.14.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/58370619",
       "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.3.8.14/TwilightForest-1.7.10-2.3.8.14.jar",
-      "license": "GNU Lesser General Public License v2.1",
+      "license": "GNU Lesser General Public License v2.1.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/twilightforest/"
     },
@@ -1484,7 +1484,7 @@
       "filename": "Universal-Singularities-1.7.10-8.6.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Universal-Singularities/releases/assets/56406020",
       "browser_download_url": "https://github.com/GTNewHorizons/Universal-Singularities/releases/download/8.6.5/Universal-Singularities-1.7.10-8.6.5.jar",
-      "license": "Explicit permissions",
+      "license": "Explicit Permission.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Universal-Singularities/"
     },
@@ -1496,7 +1496,7 @@
       "filename": "visualprospecting-1.7.10-1.0.28.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/56296495",
       "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.0.28/visualprospecting-1.7.10-1.0.28.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/VisualProspecting/"
     },
@@ -1508,7 +1508,7 @@
       "filename": "Waila-1.7.10-1.5.20.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/58371462",
       "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.5.20/Waila-1.7.10-1.5.20.jar",
-      "license": "CC BY-NC-SA 4.0",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/waila/"
     },
@@ -1520,7 +1520,7 @@
       "filename": "WailaHarvestability-1.7.10-1.1.10-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/WailaHarvestability/releases/assets/56524758",
       "browser_download_url": "https://github.com/GTNewHorizons/WailaHarvestability/releases/download/1.1.10-GTNH/WailaHarvestability-1.7.10-1.1.10-GTNH.jar",
-      "license": "The Unlicense",
+      "license": "Public Domain.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WailaHarvestability/"
     },
@@ -1532,7 +1532,7 @@
       "filename": "WAILAPlugins-1.7.10-0.2.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/WAILAPlugins/releases/assets/55261746",
       "browser_download_url": "https://github.com/GTNewHorizons/WAILAPlugins/releases/download/0.2.5/WAILAPlugins-1.7.10-0.2.5.jar",
-      "license": "CC BY-NC-SA 4.0",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WAILAPlugins/"
     },
@@ -1544,7 +1544,7 @@
       "filename": "WanionLib-1.7.10-1.8.2.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/WanionLib/releases/assets/54294287",
       "browser_download_url": "https://github.com/GTNewHorizons/WanionLib/releases/download/1.8.2/WanionLib-1.7.10-1.8.2.jar",
-      "license": "Mozilla Public License 2.0",
+      "license": "Mozilla Public License 2.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WanionLib/"
     },
@@ -1556,7 +1556,7 @@
       "filename": "Wawla-1.7.10-1.1.3-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/WAWLA/releases/assets/56640319",
       "browser_download_url": "https://github.com/GTNewHorizons/WAWLA/releases/download/1.1.3-GTNH/Wawla-1.7.10-1.1.3-GTNH.jar",
-      "license": "GNU Lesser General Public License v2.1",
+      "license": "GNU Lesser General Public License v2.1.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WAWLA/"
     },
@@ -1568,7 +1568,7 @@
       "filename": "WirelessCraftingTerminal-1.7.10-1.8.8.4.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/WirelessCraftingTerminal/releases/assets/58650130",
       "browser_download_url": "https://github.com/GTNewHorizons/WirelessCraftingTerminal/releases/download/1.8.8.4/WirelessCraftingTerminal-1.7.10-1.8.8.4.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WirelessCraftingTerminal/"
     },
@@ -1580,7 +1580,7 @@
       "filename": "WR-CBE-1.7.10-1.4.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/WirelessRedstone-CBE/releases/assets/58368816",
       "browser_download_url": "https://github.com/GTNewHorizons/WirelessRedstone-CBE/releases/download/1.4.5/WR-CBE-1.7.10-1.4.5.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WirelessRedstone-CBE/"
     },
@@ -1592,7 +1592,7 @@
       "filename": "WitcheryExtras-1.7.10-1.1.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/WitcheryExtras/releases/assets/56406228",
       "browser_download_url": "https://github.com/GTNewHorizons/WitcheryExtras/releases/download/1.1.5/WitcheryExtras-1.7.10-1.1.5.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WitcheryExtras/"
     },
@@ -1604,7 +1604,7 @@
       "filename": "WitchingGadgets-1.7.10-1.2.18-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/58371148",
       "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.2.18-GTNH/WitchingGadgets-1.7.10-1.2.18-GTNH.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WitchingGadgets/"
     },
@@ -1616,7 +1616,7 @@
       "filename": "YAMCore-1.7.10-0.5.82.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Yamcl/releases/assets/54334793",
       "browser_download_url": "https://github.com/GTNewHorizons/Yamcl/releases/download/0.5.82/YAMCore-1.7.10-0.5.82.jar",
-      "license": "GNU General Public License v2.0",
+      "license": "GNU General Public License v2.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Yamcl/"
     },
@@ -1628,7 +1628,7 @@
       "filename": "ModTweaker2-1.7.10-0.9.8.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ModTweaker/releases/assets/55279768",
       "browser_download_url": "https://github.com/GTNewHorizons/ModTweaker/releases/download/0.9.8/ModTweaker2-1.7.10-0.9.8.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModTweaker/"
     },
@@ -1640,7 +1640,7 @@
       "filename": "NEIIntegration-1.7.10-1.1.4.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/NEI-Integration/releases/assets/58593017",
       "browser_download_url": "https://github.com/GTNewHorizons/NEI-Integration/releases/download/1.1.4/NEIIntegration-1.7.10-1.1.4.jar",
-      "license": "original code MIT, GTNH modifications LGPL 3.0",
+      "license": "Original code licensed under the MIT License, GTNH modifications licensed under the GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NEI-Integration/"
     },
@@ -1652,7 +1652,7 @@
       "filename": "battlegear2-1.7.10-1.1.1.9.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Battlegear2/releases/assets/56516784",
       "browser_download_url": "https://github.com/GTNewHorizons/Battlegear2/releases/download/1.1.1.9/battlegear2-1.7.10-1.1.1.9.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Battlegear2/"
     },
@@ -1664,7 +1664,7 @@
       "filename": "EnhancedLootBags-1.7.10-1.0.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/EnhancedLootBags/releases/assets/51510699",
       "browser_download_url": "https://github.com/GTNewHorizons/EnhancedLootBags/releases/download/1.0.5/EnhancedLootBags-1.7.10-1.0.5.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": null
     },
@@ -1676,7 +1676,7 @@
       "filename": "Forgelin-1.9.2-GTNH-1.7.10-Edition.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Forgelin/releases/assets/60063236",
       "browser_download_url": "https://github.com/GTNewHorizons/Forgelin/releases/download/1.9.2-GTNH-1.7.10-Edition/Forgelin-1.9.2-GTNH-1.7.10-Edition.jar",
-      "license": "LGPL 3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": null
     },
@@ -1688,7 +1688,7 @@
       "filename": "WarpTheory-1.7.10-1.2.6-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/WarpTheory/releases/assets/54402652",
       "browser_download_url": "https://github.com/GTNewHorizons/WarpTheory/releases/download/1.2.6-GTNH/WarpTheory-1.7.10-1.2.6-GTNH.jar",
-      "license": "custom license, allows for redistribution and edit",
+      "license": "Custom license, allows for redistribution and edit",
       "side": "BOTH",
       "maven": null
     },
@@ -1700,7 +1700,7 @@
       "filename": "TooMuchLoot-1.7.10-4.1.0-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/TooMuchLoot/releases/assets/51504450",
       "browser_download_url": "https://github.com/GTNewHorizons/TooMuchLoot/releases/download/4.1.0-GTNH/TooMuchLoot-1.7.10-4.1.0-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": null
     },
@@ -1712,7 +1712,7 @@
       "filename": "ThaumcraftMobAspects-1.7.10-1.0.0-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumcraftMobAspects/releases/assets/51513020",
       "browser_download_url": "https://github.com/GTNewHorizons/ThaumcraftMobAspects/releases/download/1.0.0-GTNH/ThaumcraftMobAspects-1.7.10-1.0.0-GTNH.jar",
-      "license": "The Unlicense",
+      "license": "Public Domain.",
       "side": "BOTH",
       "maven": null
     },
@@ -1724,7 +1724,7 @@
       "filename": "TGregworks-1.7.10-GTNH-1.0.23.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersGregworks/releases/assets/50852894",
       "browser_download_url": "https://github.com/GTNewHorizons/TinkersGregworks/releases/download/GTNH-1.0.23/TGregworks-1.7.10-GTNH-1.0.23.jar",
-      "license": "Educational Public License 1.0",
+      "license": "Educational Public License 1.0.",
       "side": "BOTH",
       "maven": null
     },
@@ -1736,7 +1736,7 @@
       "filename": "gtneioreplugin-1.7.10-1.0.11.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/GTNEIOrePlugin/releases/assets/58594814",
       "browser_download_url": "https://github.com/GTNewHorizons/GTNEIOrePlugin/releases/download/1.0.11/gtneioreplugin-1.7.10-1.0.11.jar",
-      "license": "LGPL 3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNEIOrePlugin/"
     },
@@ -1748,7 +1748,7 @@
       "filename": "HungerOverhaul-1.7.10-1.0.4-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/HungerOverhaul/releases/assets/56640514",
       "browser_download_url": "https://github.com/GTNewHorizons/HungerOverhaul/releases/download/1.0.4-GTNH/HungerOverhaul-1.7.10-1.0.4-GTNH.jar",
-      "license": "ARR",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HungerOverhaul/"
     },
@@ -1760,7 +1760,7 @@
       "filename": "InfernalMobs-1.7.10-1.7.5-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Infernal-Mobs/releases/assets/50872331",
       "browser_download_url": "https://github.com/GTNewHorizons/Infernal-Mobs/releases/download/1.7.5-GTNH/InfernalMobs-1.7.10-1.7.5-GTNH.jar",
-      "license": "Non-Commercial",
+      "license": "Custom License, Non-Commercial clause for modpacks.",
       "side": "BOTH",
       "maven": null
     },
@@ -1772,7 +1772,7 @@
       "filename": "NodalMechanics-1.7.10-1.1.-6-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Nodal-Mechanics/releases/assets/52235570",
       "browser_download_url": "https://github.com/GTNewHorizons/Nodal-Mechanics/releases/download/1.1.-6-GTNH/NodalMechanics-1.7.10-1.1.-6-GTNH.jar",
-      "license": "Custom license, code must be open source",
+      "license": "Custom License, code must be open source, no derivative license specified.",
       "side": "BOTH",
       "maven": null
     },
@@ -1784,7 +1784,7 @@
       "filename": "ProjectBlue-1.7.10-1.1.7-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ProjectBlue/releases/assets/50913951",
       "browser_download_url": "https://github.com/GTNewHorizons/ProjectBlue/releases/download/1.1.7-GTNH/ProjectBlue-1.7.10-1.1.7-GTNH.jar",
-      "license": "permission to do what we we want with the mod",
+      "license": "Permission is granted to use, modify and distribute in modified or unmodified form without restriction.",
       "side": "BOTH",
       "maven": null
     },
@@ -1796,7 +1796,7 @@
       "filename": "BiomesOPlenty-1.7.10-2.1.3-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-O-Plenty/releases/assets/54111936",
       "browser_download_url": "https://github.com/GTNewHorizons/GTNH-O-Plenty/releases/download/2.1.3-GTNH/BiomesOPlenty-1.7.10-2.1.3-GTNH.jar",
-      "license": "ARR, mainly here as a decompiled source for any mixin/ASM needed",
+      "license": "All Rights Reserved, mainly here as a decompiled source for any mixin/ASM needed.",
       "side": "BOTH",
       "maven": null
     },
@@ -1808,7 +1808,7 @@
       "filename": "SpongeMixins-1.5.0.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/SpongeMixins/releases/assets/60687128",
       "browser_download_url": "https://github.com/GTNewHorizons/SpongeMixins/releases/download/1.5.0/SpongeMixins-1.5.0.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": null
     },
@@ -1820,7 +1820,7 @@
       "filename": "guideapi-1.7.10-1.0.2.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Guide-API/releases/assets/55936498",
       "browser_download_url": "https://github.com/GTNewHorizons/Guide-API/releases/download/1.0.2/guideapi-1.7.10-1.0.2.jar",
-      "license": "Minecrat Mod Public License",
+      "license": "Minecraft Mod Public License v2.0.2.",
       "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Guide-API/"
     },
@@ -1832,7 +1832,7 @@
       "filename": "AMDIForge-1.7.10-1.0.3.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/AMDIForge/releases/assets/55864296",
       "browser_download_url": "https://github.com/GTNewHorizons/AMDIForge/releases/download/1.0.3/AMDIForge-1.7.10-1.0.3.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AMDIForge/"
     },
@@ -1844,7 +1844,7 @@
       "filename": "amunra-1.7.10-0.4.10.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/56693282",
       "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.10/amunra-1.7.10-0.4.10.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/"
     },
@@ -1856,7 +1856,7 @@
       "filename": "enklume-1.7.10-1.1.1.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Enklume/releases/assets/56170761",
       "browser_download_url": "https://github.com/GTNewHorizons/Enklume/releases/download/1.1.1/enklume-1.7.10-1.1.1.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Enklume/"
     },
@@ -1868,7 +1868,7 @@
       "filename": "FTBLib-1.7.10-1.0.18.5-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/FTB-Library/releases/assets/56728332",
       "browser_download_url": "https://github.com/GTNewHorizons/FTB-Library/releases/download/1.0.18.5-GTNH/FTBLib-1.7.10-1.0.18.5-GTNH.jar",
-      "license": "original code MIT, GTNH modifications LGPL",
+      "license": "Original code licensed under the MIT License, GTNH modifications licensed under the GNU Lesser General Public License v3.0.",
       "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FTB-Library/"
     },
@@ -1880,7 +1880,7 @@
       "filename": "FTBUtilities-1.7.10-1.0.18.6-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/FTB-Utilities/releases/assets/56727787",
       "browser_download_url": "https://github.com/GTNewHorizons/FTB-Utilities/releases/download/1.0.18.6-GTNH/FTBUtilities-1.7.10-1.0.18.6-GTNH.jar",
-      "license": "original code MIT, GTNH modifications LGPL",
+      "license": "Original code licensed under the MIT License, GTNH modifications licensed under the GNU Lesser General Public License v3.0.",
       "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FTB-Utilities/"
     },
@@ -1892,7 +1892,7 @@
       "filename": "MyEssentials-Core-1.7.10-1.19r.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/MyEssentials-Core/releases/assets/58580945",
       "browser_download_url": "https://github.com/GTNewHorizons/MyEssentials-Core/releases/download/1.19r/MyEssentials-Core-1.7.10-1.19r.jar",
-      "license": "The Unlicense",
+      "license": "Public Domain.",
       "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyEssentials-Core/"
     },
@@ -1904,7 +1904,7 @@
       "filename": "MyPermissions-1.7.10-1.0-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/MyPermissions/releases/assets/58583731",
       "browser_download_url": "https://github.com/GTNewHorizons/MyPermissions/releases/download/1.0-GTNH/MyPermissions-1.7.10-1.0-GTNH.jar",
-      "license": "The Unlicense",
+      "license": "Public Domain.",
       "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyPermissions/"
     },
@@ -1916,7 +1916,7 @@
       "filename": "MyTown2-1.7.10-0.5.3.1-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/MyTown2/releases/assets/58590953",
       "browser_download_url": "https://github.com/GTNewHorizons/MyTown2/releases/download/0.5.3.1-GTNH/MyTown2-1.7.10-0.5.3.1-GTNH.jar",
-      "license": "The Unlicense",
+      "license": "Public Domain.",
       "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyTown2/"
     },
@@ -1928,7 +1928,7 @@
       "filename": "QmunityLib-1.7.10-0.1.115.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/QmunityLib/releases/assets/54406793",
       "browser_download_url": "https://github.com/GTNewHorizons/QmunityLib/releases/download/0.1.115/QmunityLib-1.7.10-0.1.115.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/QmunityLib/"
     },
@@ -1940,7 +1940,7 @@
       "filename": "SpecialMobs-1.7.10-3.3.9.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/SpecialMobs/releases/assets/51512889",
       "browser_download_url": "https://github.com/GTNewHorizons/SpecialMobs/releases/download/3.3.9/SpecialMobs-1.7.10-3.3.9.jar",
-      "license": "**ARR according to curseforge (https://www.curseforge.com/minecraft/mc-mods/special-mobs)**",
+      "license": "**All Rights Reserved according to CurseForge (https://www.curseforge.com/minecraft/mc-mods/special-mobs)**",
       "side": "BOTH",
       "maven": null
     },
@@ -1952,7 +1952,7 @@
       "filename": "GTTweaker-1.7.10-1.7.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Minetweaker-Gregtech-5-Addon/releases/assets/60678244",
       "browser_download_url": "https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/releases/download/1.7.5/GTTweaker-1.7.10-1.7.5.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": null
     },
@@ -1964,7 +1964,7 @@
       "filename": "BugTorch-1.1.2-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/BugTorch/releases/assets/60678532",
       "browser_download_url": "https://github.com/GTNewHorizons/BugTorch/releases/download/1.1.2-GTNH/BugTorch-1.1.2-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": null
     },
@@ -1976,7 +1976,7 @@
       "filename": "modmixins-1.7.10-0.0.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ModMixins/releases/assets/60678747",
       "browser_download_url": "https://github.com/GTNewHorizons/ModMixins/releases/download/0.0.5/modmixins-1.7.10-0.0.5.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": null
     },
@@ -1988,7 +1988,7 @@
       "filename": "CompactKineticGenerators-1.7.10-1.0.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/CompactKineticGenerators/releases/assets/60679962",
       "browser_download_url": "https://github.com/GTNewHorizons/CompactKineticGenerators/releases/download/1.0/CompactKineticGenerators-1.7.10-1.0.jar",
-      "license": "???",
+      "license": "Free to include in modpacks, no specific license related to binaries based on modified source, pending community outreach.",
       "side": "BOTH",
       "maven": null
     },
@@ -2000,7 +2000,7 @@
       "filename": "SSP-1.1.2-GT-NH-Mod.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/supersolarpanels/releases/assets/60680302",
       "browser_download_url": "https://github.com/GTNewHorizons/supersolarpanels/releases/download/1.1.2-GT-NH-Mod/SSP-1.1.2-GT-NH-Mod.jar",
-      "license": "Mozilla Public License 2.0",
+      "license": "Mozilla Public License v2.0.",
       "side": "BOTH",
       "maven": null
     },
@@ -2012,7 +2012,7 @@
       "filename": "Tainted-Magic-1.7.10-8.1.1.1-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Tainted-Magic/releases/assets/56640280",
       "browser_download_url": "https://github.com/GTNewHorizons/Tainted-Magic/releases/download/8.1.1.1-GTNH/Tainted-Magic-1.7.10-8.1.1.1-GTNH.jar",
-      "license": "CC BY-NC-ND 4.0",
+      "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.",
       "side": "NONE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Tainted-Magic/"
     },
@@ -2024,7 +2024,7 @@
       "filename": "betterloadingscreen-1.7.10-1.3.32-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/56640497",
       "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.32-GTNH/betterloadingscreen-1.7.10-1.3.32-GTNH.jar",
-      "license": "GNU General Public License v2.0",
+      "license": "GNU General Public License v2.0.",
       "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/"
     },
@@ -2036,7 +2036,7 @@
       "filename": "inventorytweaks-1.7.10-1.5.14.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/inventory-tweaks/releases/assets/56518102",
       "browser_download_url": "https://github.com/GTNewHorizons/inventory-tweaks/releases/download/1.5.14/inventorytweaks-1.7.10-1.5.14.jar",
-      "license": "GNU Lesser General Public License v3.0",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/inventory-tweaks/"
     },
@@ -2048,7 +2048,7 @@
       "filename": "NettyPatch-1.7.10-0.3.1.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Netty-Patcher/releases/assets/56698166",
       "browser_download_url": "https://github.com/GTNewHorizons/Netty-Patcher/releases/download/0.3.1/NettyPatch-1.7.10-0.3.1.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Netty-Patcher/"
     },
@@ -2060,7 +2060,7 @@
       "filename": "oauth-1.7.10-1.06.1-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/oauth/releases/assets/57049118",
       "browser_download_url": "https://github.com/GTNewHorizons/oauth/releases/download/1.06.1-GTNH/oauth-1.7.10-1.06.1-GTNH.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/oauth/"
     },
@@ -2072,7 +2072,7 @@
       "filename": "overloadedarmorbar-1.7.10-1.0.1.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/OverloadedArmorBar/releases/assets/56639479",
       "browser_download_url": "https://github.com/GTNewHorizons/OverloadedArmorBar/releases/download/1.0.1/overloadedarmorbar-1.7.10-1.0.1.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OverloadedArmorBar/"
     },
@@ -2084,7 +2084,7 @@
       "filename": "Schematica-1.7.10-1.8.5-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Schematica/releases/assets/58362663",
       "browser_download_url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.8.5-GTNH/Schematica-1.7.10-1.8.5-GTNH.jar",
-      "license": "MIT License",
+      "license": "MIT License.",
       "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Schematica/"
     },
@@ -2096,7 +2096,7 @@
       "filename": "tcnodetracker-1.7.10-1.1.5.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/TCNodeTracker/releases/assets/56828116",
       "browser_download_url": "https://github.com/GTNewHorizons/TCNodeTracker/releases/download/1.1.5/tcnodetracker-1.7.10-1.1.5.jar",
-      "license": "CC BY-NC-SA 4.0",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.",
       "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TCNodeTracker/"
     },
@@ -2108,7 +2108,7 @@
       "filename": "TiCTooltips-1.7.10-1.2.10.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/TiC-Tooltips/releases/assets/59693143",
       "browser_download_url": "https://github.com/GTNewHorizons/TiC-Tooltips/releases/download/1.2.10/TiCTooltips-1.7.10-1.2.10.jar",
-      "license": "The Unlicense",
+      "license": "Public Domain.",
       "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TiC-Tooltips/"
     },
@@ -2120,7 +2120,7 @@
       "filename": "torohealth-1.7.10-1.0.1.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/ToroHealth/releases/assets/56639791",
       "browser_download_url": "https://github.com/GTNewHorizons/ToroHealth/releases/download/1.0.1/torohealth-1.7.10-1.0.1.jar",
-      "license": "GNU General Public License v3.0",
+      "license": "GNU General Public License v3.0.",
       "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ToroHealth/"
     }
@@ -2134,7 +2134,7 @@
       "filename": "AFSU-1.2.3a-Freeza.jar",
       "download_url": "https://media.forgecdn.net/files/2286/587/AFSU-1.2.3a-Freeza.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/afsu-mod/files/2286587",
-      "license": "https://www.curseforge.com/project/242782/license",
+      "license": "MIT License.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2146,7 +2146,7 @@
       "filename": "Aroma1997Core-1.7.10-1.0.2.16.jar",
       "download_url": "https://media.forgecdn.net/files/2257/644/Aroma1997Core-1.7.10-1.0.2.16.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/aroma1997core/files/2257644",
-      "license": "https://www.curseforge.com/project/223735/license",
+      "license": "GNU General Public License v3.0.",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2158,7 +2158,7 @@
       "filename": "AromaBackup-1.7.10-0.1.0.0.jar",
       "download_url": "https://media.forgecdn.net/files/2284/754/AromaBackup-1.7.10-0.1.0.0.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/aromabackup/files/2284754",
-      "license": "https://www.curseforge.com/project/225658/license",
+      "license": "Custom License, permission to distribute derivative works granted since GTNH is provided through CurseForge. (https://www.curseforge.com/project/225658/license)",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2170,7 +2170,7 @@
       "filename": "Automagy-1.7.10-0.28.2.jar",
       "download_url": "https://media.forgecdn.net/files/2285/272/Automagy-1.7.10-0.28.2.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/automagy/files/2285272",
-      "license": "https://www.curseforge.com/project/222153/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2182,7 +2182,7 @@
       "filename": "bdlib-1.9.4.109-mc1.7.10.jar",
       "download_url": "https://media.forgecdn.net/files/2269/259/bdlib-1.9.4.109-mc1.7.10.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/bdlib/files/2269259",
-      "license": "https://www.curseforge.com/project/70496/license",
+      "license": "MIT License.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2194,7 +2194,7 @@
       "filename": "BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar",
       "download_url": "https://media.forgecdn.net/files/2356/820/BetterBuildersWands-0.8.1-1.7.10r92%2Baec06c3.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/better-builders-wands/files/2356820",
-      "license": "https://www.curseforge.com/project/238403/license",
+      "license": "All Rights Reserved.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2206,7 +2206,7 @@
       "filename": "questbook-3.0.0-1.7.10.jar",
       "download_url": "https://media.forgecdn.net/files/2933/973/questbook-3.0.0-1.7.10.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book/files/2933973",
-      "license": "https://www.curseforge.com/project/242106/license",
+      "license": "All Rights Reserved.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2218,7 +2218,7 @@
       "filename": "BiblioCraft[v1.11.7][MC1.7.10].jar",
       "download_url": "https://media.forgecdn.net/files/2423/369/BiblioCraft%5bv1.11.7%5d%5bMC1.7.10%5d.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft/files/2423369",
-      "license": "https://www.curseforge.com/project/228027/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2230,7 +2230,7 @@
       "filename": "BiblioWoods[BiomesOPlenty][v1.9].jar",
       "download_url": "https://media.forgecdn.net/files/2229/577/BiblioWoods%5bBiomesOPlenty%5d%5bv1.9%5d.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition/files/2229577",
-      "license": "https://www.curseforge.com/project/228362/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2242,7 +2242,7 @@
       "filename": "BiblioWoods[Forestry][v1.7].jar",
       "download_url": "https://media.forgecdn.net/files/2229/574/BiblioWoods%5bForestry%5d%5bv1.7%5d.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition/files/2229574",
-      "license": "https://www.curseforge.com/project/228363/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2254,7 +2254,7 @@
       "filename": "BiblioWoods[Natura][v1.5].jar",
       "download_url": "https://media.forgecdn.net/files/2229/581/BiblioWoods%5bNatura%5d%5bv1.5%5d.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-natura-edition/files/2229581",
-      "license": "https://www.curseforge.com/project/228364/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2266,7 +2266,7 @@
       "filename": "BrandonsCore-1.0.0.12.jar",
       "download_url": "https://media.forgecdn.net/files/2292/125/BrandonsCore-1.0.0.12.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/brandons-core/files/2292125",
-      "license": "https://www.curseforge.com/project/231382/license",
+      "license": "Don't Be a Jerk License, permission granted as a modpack to redistribute this mod in its entirety as source or compiled code.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2278,7 +2278,7 @@
       "filename": "buildcraft-7.1.24.jar",
       "download_url": "https://media.forgecdn.net/files/3538/651/buildcraft-7.1.24.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/buildcraft/files/3538651",
-      "license": "https://www.curseforge.com/project/61811/license",
+      "license": "Minecraft Mod Public License v1.0.1.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2290,7 +2290,7 @@
       "filename": "witchery-1.7.10-0.24.1.jar",
       "download_url": "https://media.forgecdn.net/files/2234/410/witchery-1.7.10-0.24.1.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/witchery/files/2234410",
-      "license": "https://www.curseforge.com/project/69673/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2302,7 +2302,7 @@
       "filename": "WanionLib-1.7.10-1.8.jar",
       "download_url": "https://media.forgecdn.net/files/2430/662/WanionLib-1.7.10-1.8.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/wanionlib/files/2430662",
-      "license": "https://www.curseforge.com/project/253043/license",
+      "license": "Mozilla Public License v2.0.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2314,7 +2314,7 @@
       "filename": "Translocator-1.7.10-1.1.2.16-universal.jar",
       "download_url": "https://media.forgecdn.net/files/2300/180/Translocator-1.7.10-1.1.2.16-universal.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/translocators/files/2300180",
-      "license": "https://www.curseforge.com/project/229318/license",
+      "license": "All Rights Reserved.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2326,7 +2326,7 @@
       "filename": "tcinventoryscan-mc1.7.10-1.0.11.jar",
       "download_url": "https://media.forgecdn.net/files/2286/894/tcinventoryscan-mc1.7.10-1.0.11.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning/files/2286894",
-      "license": "https://www.curseforge.com/project/238003/license",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2338,7 +2338,7 @@
       "filename": "tcnodetracker-1.7.10-1.1.2.jar",
       "download_url": "https://media.forgecdn.net/files/2247/224/tcnodetracker-1.7.10-1.1.2.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-node-tracker/files/2247224",
-      "license": "https://www.curseforge.com/project/227328/license",
+      "license": "Do What The Fuck You Want To License v2.0.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2350,7 +2350,7 @@
       "filename": "thaumcraftneiplugin-1.7.10-1.7a.jar",
       "download_url": "https://media.forgecdn.net/files/2241/913/thaumcraftneiplugin-1.7.10-1.7a.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin/files/2241913",
-      "license": "https://www.curseforge.com/project/225095/license",
+      "license": "Do What The Fuck You Want To License v2.0.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2362,7 +2362,7 @@
       "filename": "SuperTiC-1.2.1.jar",
       "download_url": "https://media.forgecdn.net/files/2580/975/SuperTiC-1.2.1.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/supertic/files/2580975",
-      "license": "https://www.curseforge.com/project/289109/license",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2374,7 +2374,7 @@
       "filename": "SleepingBag-1.7.10-0.1.1.jar",
       "download_url": "https://media.forgecdn.net/files/2455/469/SleepingBag-1.7.10-0.1.1.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/bag-o-sleep/files/2455469",
-      "license": "https://www.curseforge.com/project/272649/license",
+      "license": "MIT License.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2386,7 +2386,7 @@
       "filename": "RandomThings-2.2.4.jar",
       "download_url": "https://media.forgecdn.net/files/2225/310/RandomThings-2.2.4.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/random-things/files/2225310",
-      "license": "https://www.curseforge.com/project/59816/license",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2398,7 +2398,7 @@
       "filename": "PlayerAPI-1.7.10-1.4.jar",
       "download_url": "https://media.forgecdn.net/files/2248/928/PlayerAPI-1.7.10-1.4.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/player-api/files/2248928",
-      "license": "https://www.curseforge.com/project/228969/license",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2410,7 +2410,7 @@
       "filename": "Pam's Harvest the Nether 1.7.10a.jar",
       "download_url": "https://media.forgecdn.net/files/2241/397/Pam%27s+Harvest+the+Nether+1.7.10a.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether/files/2241397",
-      "license": "https://www.curseforge.com/project/231262/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2422,7 +2422,7 @@
       "filename": "OpenSecurity-1.7.10-1.0-117.jar",
       "download_url": "https://media.forgecdn.net/files/2655/945/OpenSecurity-1.7.10-1.0-117.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/opensecurity/files/2655945",
-      "license": "https://www.curseforge.com/project/231687/license",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2434,7 +2434,7 @@
       "filename": "OpenPrinter-MC1.7.10-0.1.0.132.jar",
       "download_url": "https://media.forgecdn.net/files/2289/193/OpenPrinter-MC1.7.10-0.1.0.132.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/openprinter/files/2289193",
-      "license": "https://www.curseforge.com/project/225127/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2446,7 +2446,7 @@
       "filename": "OpenModularTurrets-1.7.10-2.2.11-245.jar",
       "download_url": "https://media.forgecdn.net/files/2549/788/OpenModularTurrets-1.7.10-2.2.11-245.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/openmodularturrets/files/2549788",
-      "license": "https://www.curseforge.com/project/224663/license",
+      "license": "GNU General Public License v3.0.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2458,7 +2458,7 @@
       "filename": "NEIIntegration-MC1.7.10-1.1.2.jar",
       "download_url": "https://media.forgecdn.net/files/2282/522/NEIIntegration-MC1.7.10-1.1.2.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/nei-integration/files/2282522",
-      "license": "https://www.curseforge.com/project/225251/license",
+      "license": "MIT License.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2470,7 +2470,7 @@
       "filename": "NaturesCompass-1.7.10-1.3.1.jar",
       "download_url": "https://media.forgecdn.net/files/2451/823/NaturesCompass-1.7.10-1.3.1.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/natures-compass/files/2451823",
-      "license": "https://www.curseforge.com/project/252848/license",
+      "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2482,7 +2482,7 @@
       "filename": "MouseTweaks-2.4.4-mc1.7.10.jar",
       "download_url": "https://media.forgecdn.net/files/2209/265/MouseTweaks-2.4.4-mc1.7.10.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/files/2209265",
-      "license": "https://www.curseforge.com/project/60089/license",
+      "license": "All Rights Reserved.",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2494,7 +2494,7 @@
       "filename": "ModTweaker2-0.9.6.jar",
       "download_url": "https://media.forgecdn.net/files/2313/730/ModTweaker2-0.9.6.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/modtweaker/files/2313730",
-      "license": "https://www.curseforge.com/project/220954/license",
+      "license": "MIT License.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2506,7 +2506,7 @@
       "filename": "Mantle-1.7.10-0.3.2b.jar",
       "download_url": "https://media.forgecdn.net/files/2264/244/Mantle-1.7.10-0.3.2b.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/mantle/files/2264244",
-      "license": "https://www.curseforge.com/project/74924/license",
+      "license": "MIT License.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2518,7 +2518,7 @@
       "filename": "malisisdoors-1.7.10-1.13.2.jar",
       "download_url": "https://media.forgecdn.net/files/2284/380/malisisdoors-1.7.10-1.13.2.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/malisisdoors/files/2284380",
-      "license": "https://www.curseforge.com/project/223891/license",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2530,7 +2530,7 @@
       "filename": "malisiscore-1.7.10-0.14.3.jar",
       "download_url": "https://media.forgecdn.net/files/2283/267/malisiscore-1.7.10-0.14.3.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/malisiscore/files/2283267",
-      "license": "https://www.curseforge.com/project/223896/license",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2542,7 +2542,7 @@
       "filename": "LunatriusCore-1.7.10-1.1.2.21-universal.jar",
       "download_url": "https://media.forgecdn.net/files/2225/146/LunatriusCore-1.7.10-1.1.2.21-universal.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/lunatriuscore/files/2225146",
-      "license": "https://www.curseforge.com/project/225605/license",
+      "license": "MIT License.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2554,7 +2554,7 @@
       "filename": "LittleTiles v1.2.0 mc1.7.10.jar",
       "download_url": "https://media.forgecdn.net/files/2462/370/LittleTiles+v1.2.0+mc1.7.10.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/littletiles/files/2462370",
-      "license": "https://www.curseforge.com/project/257818/license",
+      "license": "GNU Lesser General Public License v2.1.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2566,7 +2566,7 @@
       "filename": "itlt-1.7.x-1.0.3.jar",
       "download_url": "https://media.forgecdn.net/files/3335/234/itlt-1.7.x-1.0.3.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/its-the-little-things/files/3335234",
-      "license": "https://www.curseforge.com/project/232791/license",
+      "license": "MIT License.",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2578,7 +2578,7 @@
       "filename": "IronChestMinecarts-1.0.4.jar",
       "download_url": "https://media.forgecdn.net/files/2271/882/IronChestMinecarts-1.0.4.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/iron-chest-minecarts/files/2271882",
-      "license": "https://www.curseforge.com/project/224989/license",
+      "license": "All Rights Reserved.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2590,7 +2590,7 @@
       "filename": "INpureCore-[1.7.10]1.0.0B9-62.jar",
       "download_url": "https://media.forgecdn.net/files/2238/507/INpureCore-%5b1.7.10%5d1.0.0B9-62.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/inpurecore/files/2238507",
-      "license": "https://www.curseforge.com/project/223792/license",
+      "license": "IDGAF License v1.0.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2602,7 +2602,7 @@
       "filename": "IC2 Crop Plugin Version 1.7.10-1.3.1.jar",
       "download_url": "https://media.forgecdn.net/files/2941/926/IC2+Crop+Plugin+Version+1.7.10-1.3.1.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/ic2-nei-crop-plugin/files/2941926",
-      "license": "https://www.curseforge.com/project/236609/license",
+      "license": "All Rights Reserved.",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2614,7 +2614,7 @@
       "filename": "HelpFixer-1.0.7.jar",
       "download_url": "https://media.forgecdn.net/files/2223/813/HelpFixer-1.0.7.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/helpfixer/files/2223813",
-      "license": "https://www.curseforge.com/project/223797/license",
+      "license": "Do What The Fuck You Want To License v2.0.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2626,7 +2626,7 @@
       "filename": "HardcoreDarkness-MC1.7.10-1.7.jar",
       "download_url": "https://media.forgecdn.net/files/2262/352/HardcoreDarkness-MC1.7.10-1.7.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness/files/2262352",
-      "license": "https://www.curseforge.com/project/225957/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2638,7 +2638,7 @@
       "filename": "FloodLights-1.7.10-1.2.8-137.jar",
       "download_url": "https://media.forgecdn.net/files/2320/32/FloodLights-1.7.10-1.2.8-137.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/floodlights/files/2320032",
-      "license": "https://www.curseforge.com/project/224728/license",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2650,7 +2650,7 @@
       "filename": "fastcraft-1.25.jar",
       "download_url": "https://media.forgecdn.net/files/2522/249/fastcraft-1.25.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/fastcraft/files/2522249",
-      "license": "https://www.curseforge.com/project/242677/license",
+      "license": "All Rights Reserved.",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2662,7 +2662,7 @@
       "filename": "EternalSingularity-1.7.10-1.0.4b.jar",
       "download_url": "https://media.forgecdn.net/files/2577/977/EternalSingularity-1.7.10-1.0.4b.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/eternal-singularity/files/2577977",
-      "license": "https://www.curseforge.com/project/253077/license",
+      "license": "Creative Commons Public License, assumed to be Creative Commons Attribution-ShareAlike 3.0 Unported.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2674,7 +2674,7 @@
       "filename": "EnhancedPortals_1.7.10-universal-3.0.12.jar",
       "download_url": "https://media.forgecdn.net/files/2242/378/EnhancedPortals_1.7.10-universal-3.0.12.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/enhanced-portals-3/files/2242378",
-      "license": "https://www.curseforge.com/project/225921/license",
+      "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2686,7 +2686,7 @@
       "filename": "DummyCore1.13.jar",
       "download_url": "https://media.forgecdn.net/files/2244/260/DummyCore1.13.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/dummycore/files/2244260",
-      "license": "https://www.curseforge.com/project/230103/license",
+      "license": "Creative Commons Attribution 3.0 Unported.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2698,7 +2698,7 @@
       "filename": "DefaultWorldGenerator-1.7.10-0.1-b13-universal.jar",
       "download_url": "https://media.forgecdn.net/files/2225/179/DefaultWorldGenerator-1.7.10-0.1-b13-universal.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/default-world-generator/files/2225179",
-      "license": "https://www.curseforge.com/project/226188/license",
+      "license": "MIT License.",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2710,7 +2710,7 @@
       "filename": "CustomMainMenu-MC1.7.10-1.9.2.jar",
       "download_url": "https://media.forgecdn.net/files/2264/779/CustomMainMenu-MC1.7.10-1.9.2.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu/files/2264779",
-      "license": "https://www.curseforge.com/project/226406/license",
+      "license": "MIT License.",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2722,7 +2722,7 @@
       "filename": "CTMLib-MC1.7.10-1.4.1.5.jar",
       "download_url": "https://media.forgecdn.net/files/2273/524/CTMLib-MC1.7.10-1.4.1.5.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/ctmlib/files/2273524",
-      "license": "https://www.curseforge.com/project/232154/license",
+      "license": "GNU Lesser General Public Library v2.1.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2734,7 +2734,7 @@
       "filename": "CreativeCore v1.3.24 mc1.7.10.jar",
       "download_url": "https://media.forgecdn.net/files/2462/369/CreativeCore+v1.3.24+mc1.7.10.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/creativecore/files/2462369",
-      "license": "https://www.curseforge.com/project/257814/license",
+      "license": "GNU Lesser General Public Library v2.1.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2746,7 +2746,7 @@
       "filename": "CraftPresence-Forge-1.7.10-Release-1.8.2.jar",
       "download_url": "https://media.forgecdn.net/files/3343/600/CraftPresence-Forge-1.7.10-Release-1.8.2.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/craftpresence/files/3343600",
-      "license": "https://www.curseforge.com/project/297038/license",
+      "license": "MIT License.",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2758,7 +2758,7 @@
       "filename": "CoFHLib-[1.7.10]1.2.1-185.jar",
       "download_url": "https://media.forgecdn.net/files/2388/747/CoFHLib-%5b1.7.10%5d1.2.1-185.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-lib/files/2388747",
-      "license": "https://www.curseforge.com/project/220333/license\u00b2",
+      "license": "GNU Lesser General Public Library v3.0.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2770,7 +2770,7 @@
       "filename": "CoFHCore-[1.7.10]3.1.4-329.jar",
       "download_url": "https://media.forgecdn.net/files/2388/750/CoFHCore-%5b1.7.10%5d3.1.4-329.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-core/files/2388750",
-      "license": "https://www.curseforge.com/project/69162/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2782,7 +2782,7 @@
       "filename": "ChiselTones-1.7.10-1.0-3.jar",
       "download_url": "https://media.forgecdn.net/files/2254/543/ChiselTones-1.7.10-1.0-3.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/chiseltones/files/2254543",
-      "license": "https://www.curseforge.com/project/228004/license",
+      "license": "Minecraft Mod Public License v2.0.2.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2794,7 +2794,7 @@
       "filename": "catwalks-2.0.4.jar",
       "download_url": "https://media.forgecdn.net/files/2296/725/catwalks-2.0.4.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/catwalks-2/files/2296725",
-      "license": "https://www.curseforge.com/project/236460/license",
+      "license": "MIT License.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2806,7 +2806,7 @@
       "filename": "Carpenter's Blocks v3.3.8.2 - MC 1.7.10.jar",
       "download_url": "https://media.forgecdn.net/files/2719/376/Carpenter%27s+Blocks+v3.3.8.2+-+MC+1.7.10.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/carpenters-blocks/files/2719376",
-      "license": "https://www.curseforge.com/project/228932/license",
+      "license": "GNU Lesser General Public Library v2.1.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2818,7 +2818,7 @@
       "filename": "buildcraft-compat-7.1.8.jar",
       "download_url": "https://media.forgecdn.net/files/3538/654/buildcraft-compat-7.1.8.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/buildcraft-compat/files/3538654",
-      "license": "https://www.curseforge.com/project/233140/license",
+      "license": "Minecraft Mod Public License v1.0.1.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2830,7 +2830,7 @@
       "filename": "BeeBetterAtBees-0.3.jar",
       "download_url": "https://media.forgecdn.net/files/2297/397/BeeBetterAtBees-0.3.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/beebetteratbees/files/2297397",
-      "license": "https://www.curseforge.com/project/244516/license",
+      "license": "All Rights Reserved.",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2842,7 +2842,7 @@
       "filename": "BetterAchievements-1.7.10-0.1.0.jar",
       "download_url": "https://media.forgecdn.net/files/2260/793/BetterAchievements-1.7.10-0.1.0.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/betterachievements/files/2260793",
-      "license": "https://www.curseforge.com/project/235716/license",
+      "license": "Don’t Be a Jerk Non-Commercial License",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2854,7 +2854,7 @@
       "filename": "p455w0rdslib-1.7.10-1.0.4.jar",
       "download_url": "https://media.forgecdn.net/files/2359/471/p455w0rdslib-1.7.10-1.0.4.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library/files/2359471",
-      "license": "https://www.curseforge.com/project/255232/license",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2866,7 +2866,7 @@
       "filename": "ResourceLoader-MC1.7.10-1.3.jar",
       "download_url": "https://media.forgecdn.net/files/2292/845/ResourceLoader-MC1.7.10-1.3.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/resource-loader/files/2292845",
-      "license": "https://www.curseforge.com/project/226447/license",
+      "license": "All Rights Reserved.",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2878,7 +2878,7 @@
       "filename": "Healer-1.2.0.jar",
       "download_url": "https://media.forgecdn.net/files/3568/545/Healer-1.2.0.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/healer/files/3568545",
-      "license": "https://www.curseforge.com/project/554840/license",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2890,7 +2890,7 @@
       "filename": "Schematica-1.7.10-1.7.6.131-universal.jar",
       "download_url": "https://media.forgecdn.net/files/2274/295/Schematica-1.7.10-1.7.6.131-universal.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/schematica/files/2274295",
-      "license": "https://www.curseforge.com/project/225603/license",
+      "license": "MIT License.",
       "side": "NONE",
       "maven": "needs to be changed later"
     },
@@ -2902,7 +2902,7 @@
       "filename": "Thaumcraft-1.7.10-4.2.3.5.jar",
       "download_url": "https://media.forgecdn.net/files/2227/552/Thaumcraft-1.7.10-4.2.3.5.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft/files/2227552",
-      "license": "https://www.curseforge.com/project/223628/license",
+      "license": "Unknown. Requires checking.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2914,7 +2914,7 @@
       "filename": "journeymap-1.7.10-5.1.4p2-fairplay.jar",
       "download_url": "https://media.forgecdn.net/files/2367/916/journeymap-1.7.10-5.1.4p2-fairplay.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/journeymap/files/2367916",
-      "license": "https://www.curseforge.com/project/32274/license",
+      "license": "All Rights Reserved.",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2926,7 +2926,7 @@
       "filename": "JourneyMapServer1.0.5_MC1.7.10.jar",
       "download_url": "https://media.forgecdn.net/files/2232/619/JourneyMapServer1.0.5_MC1.7.10.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/journeymap-server/files/2232619",
-      "license": "https://www.curseforge.com/project/225341/license",
+      "license": "All Rights Reserved.",
       "side": "SERVER",
       "maven": "needs to be changed later"
     },
@@ -2938,7 +2938,7 @@
       "filename": "CB4BQ-3.jar",
       "download_url": "https://media.forgecdn.net/files/2737/661/CB4BQ-3.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/command-blocks-for-better-questing/files/2737661",
-      "license": "https://www.curseforge.com/project/326290/license",
+      "license": "MIT License.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2950,7 +2950,7 @@
       "filename": "defaultserverlist-1.7.10-1.0.jar",
       "download_url": "https://media.forgecdn.net/files/3642/140/defaultserverlist-1.7.10-1.0.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/defaultserverlist/files/3642140",
-      "license": "https://www.curseforge.com/project/577749/license",
+      "license": "GNU Lesser General Public Library v2.1.",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2962,7 +2962,7 @@
       "filename": "Controlling-1.7.10-1.0.0.jar",
       "download_url": "https://media.forgecdn.net/files/2328/181/Controlling-1.7.10-1.0.0.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/controlling/files/2328181",
-      "license": "https://www.curseforge.com/project/250398/license",
+      "license": "MIT License.",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2974,7 +2974,7 @@
       "filename": "BuildCraftOilTweak-1.7.10-1.0.3.jar",
       "download_url": "https://files.vexatos.com/BuildCraftOilTweak/BuildCraftOilTweak-1.7.10-1.0.3.jar",
       "browser_download_url": "https://files.vexatos.com/?dir=BuildCraftOilTweak",
-      "license": "ARR",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2986,7 +2986,7 @@
       "filename": "Thaumic Machina-1.7.10-0.2.1.jar",
       "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/Thaumic%20Machina-1.7.10-0.2.1.jar",
       "browser_download_url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2200956-wip-1-7-10-open-beta-thaumcraft-4-2-addon-thaumic",
-      "license": "ARR",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -2998,19 +2998,19 @@
       "filename": "Tinkers-Defense-1.2.1d.jar",
       "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/Tinkers-Defense-1.2.1d.jar",
       "browser_download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/",
-      "license": "https://www.curseforge.com/project/226910/license",
+      "license": "GNU General Public Library v3.0.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
     {
-      "name": "utility worlds",
+      "name": "Utility Worlds",
       "version": "1.0.9e",
       "tagged_at": "2020-12-20T21:53:00",
       "repo_url": "https://www.curseforge.com/minecraft/mc-mods/utility-worlds",
       "filename": "utilityworlds-1.0.9e.jar",
       "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/utilityworlds-1.0.9e.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/utility-worlds/files",
-      "license": "https://www.curseforge.com/project/228979/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -3022,7 +3022,7 @@
       "filename": "TravellersGear-1.7.10-1.16.8-GTNH.jar",
       "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/TravellersGear-1.7.10-1.16.8-GTNH.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/travellers-gear/files",
-      "license": "https://www.curseforge.com/project/224440/license",
+      "license": "Ask-Me-Before-You-Do License. Has clause against custom mod builds. Needs checking.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -3034,7 +3034,7 @@
       "filename": "AdvancedSolarPanel-1.7.10-3.5.1a.jar",
       "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/AdvancedSolarPanel-1.7.10-3.5.1a.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels/files",
-      "license": "https://www.curseforge.com/project/362768/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -3046,7 +3046,7 @@
       "filename": "extrautilities-1.2.13a.jar",
       "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/extrautilities-1.2.13a.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/extra-utilities/files",
-      "license": "https://www.curseforge.com/project/225561/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -3058,7 +3058,7 @@
       "filename": "industrialcraft-2-2.2.828a-experimental.jar",
       "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/industrialcraft-2-2.2.828a-experimental.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/industrial-craft/files",
-      "license": "https://www.curseforge.com/project/242638/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -3070,7 +3070,7 @@
       "filename": "GraviSuite-1.7.10-2.0.68u.jar",
       "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/GraviSuite-1.7.10-2.0.68u.jar",
       "browser_download_url": "https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/",
-      "license": "ARR",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -3082,7 +3082,7 @@
       "filename": "netherportalfix-mc1.7.10-1.1.1.jar",
       "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/netherportalfix-mc1.7.10-1.1.1.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/netherportalfix/files",
-      "license": "https://www.curseforge.com/project/241160/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -3094,7 +3094,7 @@
       "filename": "Tainted-Magic-r7.6.jar",
       "download_url": "https://media.forgecdn.net/files/2345/241/Tainted-Magic-r7.6.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/tainted-magic/files/2345241",
-      "license": "https://www.curseforge.com/project/231061/license",
+      "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -3106,7 +3106,7 @@
       "filename": "MrTJPCore-1.1.0.33-universal.jar",
       "download_url": "https://media.forgecdn.net/files/2279/413/MrTJPCore-1.1.0.33-universal.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/mrtjpcore/files/2279413",
-      "license": "https://www.curseforge.com/project/229002/license",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -3118,7 +3118,7 @@
       "filename": "ForgeRelocation-0.0.1.4-universal.jar",
       "download_url": "https://media.forgecdn.net/files/2249/874/ForgeRelocation-0.0.1.4-universal.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation/files/2249874",
-      "license": "https://www.curseforge.com/project/232075/license",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -3130,7 +3130,7 @@
       "filename": "ForgeRelocationFMP-0.0.1.2-universal.jar",
       "download_url": "https://media.forgecdn.net/files/2244/822/ForgeRelocationFMP-0.0.1.2-universal.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation-fmp-plugin/files/2244822",
-      "license": "https://www.curseforge.com/project/232076/license",
+      "license": "GNU General Public License v3.0.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     },
@@ -3142,19 +3142,19 @@
       "filename": "Morpheus-1.7.10-1.6.21.jar",
       "download_url": "https://media.forgecdn.net/files/2280/761/Morpheus-1.7.10-1.6.21.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/morpheus/files/2280761",
-      "license": "https://www.curseforge.com/project/69118/license",
+      "license": "All Rights Reserved.",
       "side": "SERVER",
       "maven": "needs to be changed later"
     },
     {
-      "name": "ztones",
+      "name": "Ztones",
       "version": "2.2.2",
       "tagged_at": "2020-12-20T21:53:00",
       "repo_url": "https://www.curseforge.com/minecraft/mc-mods/ztones",
       "filename": "Ztones-1.7.10-2.2.2.jar",
       "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/Ztones-1.7.10-2.2.2.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/ztones/files",
-      "license": "https://www.curseforge.com/project/224369/license",
+      "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
     }
