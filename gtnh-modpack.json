@@ -296,7 +296,7 @@
       "filename": "catwalks-1.7.10-2.1.3-GTNH.jar",
       "download_url": "https://api.github.com/repos/GTNewHorizons/Catwalks-2/releases/assets/58081296",
       "browser_download_url": "https://github.com/GTNewHorizons/Catwalks-2/releases/download/2.1.3-GTNH/catwalks-1.7.10-2.1.3-GTNH.jar",
-      "license": "Explicit Permission (german).",
+      "license": "Explicit Permission.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Catwalks-2/"
     },
