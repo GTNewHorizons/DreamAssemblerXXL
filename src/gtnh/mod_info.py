@@ -31,8 +31,18 @@ class GTNHModpack(BaseModel):
     def _github_modmap(self) -> Dict[str, ModInfo]:
         return {mod.name: mod for mod in self.github_mods}
 
+    @cached_property
+    def _external_modmap(self) -> Dict[str, ModInfo]:
+        return {mod.name: mod for mod in self.external_mods}
+
     def has_github_mod(self, mod_name: str) -> bool:
         return mod_name in self._github_modmap
 
+    def has_external_mod(self, mod_name: str) -> bool:
+        return mod_name in self._external_modmap
+
     def get_github_mod(self, mod_name: str) -> ModInfo:
         return self._github_modmap[mod_name]
+
+    def get_external_mod(self, mod_name: str) -> ModInfo:
+        return self._external_modmap[mod_name]
