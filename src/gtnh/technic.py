@@ -8,6 +8,7 @@ from urllib import parse
 from zipfile import ZipFile
 
 import requests
+
 from gtnh.exceptions import MissingModFileException
 from gtnh.pack_downloader import ensure_cache_dir
 from gtnh.utils import load_gtnh_manifest
