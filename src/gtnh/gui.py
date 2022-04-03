@@ -15,6 +15,7 @@ from gtnh.exceptions import LatestReleaseNotFound, NoModAssetFound, PackingInter
 from gtnh.mod_info import GTNHModpack, ModInfo
 from gtnh.pack_assembler import handle_pack_extra_files, pack_clientpack, pack_serverpack
 from gtnh.pack_downloader import download_mods, ensure_cache_dir, update_releases
+from gtnh.technic import process_files
 from gtnh.utils import crawl, get_token, load_gtnh_manifest, move_mods, save_gtnh_manifest, verify_url
 
 
@@ -487,33 +488,41 @@ class ArchiveFrame(BaseFrame):
             self.progress_bar_global["value"] = 0
             delta_progress_global = 100 / 8
 
+            # mod downloading
             self._progress_callback(delta_progress_global, "dowloading mods", self.progress_bar_global, self.progress_label_global)
             client_paths, server_paths = self.download_mods_client(self.root.gtnh_modpack, github, organization)
 
+            # sorting clientside / serverside mods
             self.progress_bar["value"] = 0
             self._progress_callback(delta_progress_global, "sort client/server side mods", self.progress_bar_global, self.progress_label_global)
             move_mods(client_paths, server_paths)
 
+            # adding extra files for the pack
             self.progress_bar["value"] = 0
             self._progress_callback(delta_progress_global, "adding extra files", self.progress_bar_global, self.progress_label_global)
             handle_pack_extra_files(error_callback=error_callback_handle_extra_files)
 
+            # packing devpack client archive
             self.progress_bar["value"] = 0
             self._progress_callback(delta_progress_global, "generating client archive", self.progress_bar_global, self.progress_label_global)
             self.pack_clientpack_client(crawl(client_folder), self.root.gtnh_modpack.modpack_version)
 
+            # packing devpack server archive
             self.progress_bar["value"] = 0
             self._progress_callback(delta_progress_global, "generating server archive", self.progress_bar_global, self.progress_label_global)
             self.pack_serverpack_client(crawl(server_folder), self.root.gtnh_modpack.modpack_version)
 
+            # generating technic assets
             self.progress_bar["value"] = 0
             self._progress_callback(delta_progress_global, "generating technic assets", self.progress_bar_global, self.progress_label_global)
             self.pack_technic()
 
+            # generating deploader for curse
             self.progress_bar["value"] = 0
             self._progress_callback(delta_progress_global, "generating deploader for curse", self.progress_bar_global, self.progress_label_global)
             self.make_deploader_json()
 
+            # generating curse pack
             self.progress_bar["value"] = 0
             self._progress_callback(delta_progress_global, "generating curse archive", self.progress_bar_global, self.progress_label_global)
             self.pack_curse()
@@ -600,7 +609,7 @@ class ArchiveFrame(BaseFrame):
 
         :return: None
         """
-        pass
+        process_files(self.root.gtnh_modpack.modpack_version, self._progress_callback)
 
     def update_github_releases(self) -> None:
         """

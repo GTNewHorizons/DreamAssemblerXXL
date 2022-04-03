@@ -1,15 +1,16 @@
+import logging
 import os
 import re
 from pathlib import Path
 from shutil import copy, rmtree
-from typing import Optional, Dict
+from typing import Callable, Dict, Optional
 from urllib import parse
 from zipfile import ZipFile
-import logging
+
 import requests
-from exceptions import MissingModFileException
-from pack_assembler import ensure_cache_dir
-from utils import load_gtnh_manifest
+from gtnh.exceptions import MissingModFileException
+from gtnh.pack_downloader import ensure_cache_dir
+from gtnh.utils import load_gtnh_manifest
 
 log = logging.getLogger("technic process")
 log.setLevel(logging.INFO)
@@ -30,7 +31,7 @@ def ensure_technic_root_folder() -> Path:
     return cache_dir
 
 
-def process_files(modpack_version: str)->None:
+def process_files(modpack_version: str, callback: Optional[Callable[[float, str], None]] = None) -> None:
     """
     takes the list of files destinated to the client and assemble a solder architecture.
 
@@ -53,11 +54,16 @@ def process_files(modpack_version: str)->None:
     # load mod cache folder
     mod_cache_dir = ensure_cache_dir() / "mods"
 
-    # for each mod, processing it
+    # generating mod list
     modlist = [mod for mod in gtnh_modpack.github_mods + gtnh_modpack.external_mods if mod.side in ["CLIENT", "BOTH"]]
+
+    # progress step for callback
+    delta_progress = 100 / (len(modlist) + 2)
+
     for mod in modlist:
         log.info(f"processing the mod {mod.name}")
-
+        if callback is not None:
+            callback(delta_progress, f"generating technic assets for {mod.name}")
         # get mod stripped name
         mod_name = get_mod_name(mod.name)
 
@@ -68,6 +74,9 @@ def process_files(modpack_version: str)->None:
         # get the corresponding jar in the mod cache
         try:
             # blame boubou_19 for mixing up browser_download_url and download_url
+            if mod.browser_download_url is None or mod.download_url is None:
+                raise ValueError(f"mod {mod.name} has its download_url and/or browser_download_url missing")
+
             url = mod.browser_download_url if mod.browser_download_url.endswith(".jar") else mod.download_url
 
             # get ride of any %20 like chars in urls
@@ -84,6 +93,10 @@ def process_files(modpack_version: str)->None:
             log.error("mods are supposed to be downloaded first before packing the technic assets")
             return
 
+        except ValueError as error:
+            log.error(error)
+            log.error("Please check the mod attributes and retry.")
+
         # making temp dir structure for the zip
         os.makedirs(mod_dir / "mods")
         copy(mod_file_path, mod_dir / "mods")
@@ -98,7 +111,8 @@ def process_files(modpack_version: str)->None:
         rmtree(mod_dir / "mods")
 
     # handling of the modpack repo
-
+    if callback is not None:
+        callback(delta_progress, "generating technic assets for additional modpack files")
     # path for the already made client dev pack archive
     modpack_folder = ensure_cache_dir() / "client_archive"
 
@@ -119,6 +133,8 @@ def process_files(modpack_version: str)->None:
         crawl_zip(modpack_folder)
 
     # handling forge asset
+    if callback is not None:
+        callback(delta_progress, "generating technic assets for forge")
 
     forge_path = destination / "modpack" / "modpack-1.7.10-10.13.4.1614.zip"
     os.makedirs(forge_path.parent)
@@ -136,12 +152,14 @@ def get_mod_name(mod_name: str) -> str:
 
     return re.sub("[^a-zA-Z0-9]", "", mod_name).lower()
 
-def download_file(url:str, path:Path, headers:Optional[Dict]=None) ->None:
+
+def download_file(url: str, path: Path, headers: Optional[Dict[str, str]] = None) -> None:
     """
     Downloads a file from the url and save it to path
 
     :param url: specified url
     :param path: specified path
+    :param headers: optional headers when dowloading the file
     :return: None
     """
     if headers is None:
@@ -152,6 +170,7 @@ def download_file(url:str, path:Path, headers:Optional[Dict]=None) ->None:
         with open(path, "wb") as f:
             for chunk in r.iter_content(chunk_size=8192):
                 f.write(chunk)
+
 
 if __name__ == "__main__":
     process_files("2.1.2.4")
