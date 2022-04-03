@@ -1,17 +1,23 @@
+import os
 import re
 from pathlib import Path
-import os
-from shutil import rmtree, copy
-from zipfile import ZipFile
-
-from utils import load_gtnh_manifest, crawl
-from pack_assembler import ensure_cache_dir
+from shutil import copy, rmtree
+from typing import Optional, Dict
 from urllib import parse
+from zipfile import ZipFile
+import logging
+import requests
 from exceptions import MissingModFileException
+from pack_assembler import ensure_cache_dir
+from utils import load_gtnh_manifest
+
+log = logging.getLogger("technic process")
+log.setLevel(logging.INFO)
 
 CACHE_DIR = "cache"
 
-def ensure_technic_root_folder()->Path:
+
+def ensure_technic_root_folder() -> Path:
     """
     returns the path of the technic root folder and make the missing folders if they don't exist.
 
@@ -23,12 +29,13 @@ def ensure_technic_root_folder()->Path:
 
     return cache_dir
 
-def process_files(modpack_version:str):
+
+def process_files(modpack_version: str)->None:
     """
     takes the list of files destinated to the client and assemble a solder architecture.
 
     :param modpack_version: string representing the version of the pack
-    :return:
+    :return: None
     """
 
     # flush technic folders if they exist
@@ -37,9 +44,10 @@ def process_files(modpack_version:str):
     destination = root / modpack_version
     if destination.is_dir():
         rmtree(destination)
+        log.warn(f"deleted previous instance of {destination}")
     os.makedirs(destination, exist_ok=True)
 
-    #load gtnh metadata
+    # load gtnh metadata
     gtnh_modpack = load_gtnh_manifest()
 
     # load mod cache folder
@@ -48,7 +56,9 @@ def process_files(modpack_version:str):
     # for each mod, processing it
     modlist = [mod for mod in gtnh_modpack.github_mods + gtnh_modpack.external_mods if mod.side in ["CLIENT", "BOTH"]]
     for mod in modlist:
-        #get mod stripped name
+        log.info(f"processing the mod {mod.name}")
+
+        # get mod stripped name
         mod_name = get_mod_name(mod.name)
 
         # destination folder
@@ -61,13 +71,7 @@ def process_files(modpack_version:str):
             url = mod.browser_download_url if mod.browser_download_url.endswith(".jar") else mod.download_url
 
             # get ride of any %20 like chars in urls
-            mod_file_name = parse.unquote_plus(
-                Path(
-                    parse.urlparse(
-                        url
-                    ).path
-                ).name
-            )
+            mod_file_name = parse.unquote_plus(Path(parse.urlparse(url).path).name)
 
             # path to the mod in the cache
             mod_file_path = mod_cache_dir / mod_file_name
@@ -76,8 +80,8 @@ def process_files(modpack_version:str):
                 raise MissingModFileException(mod_file_name)
 
         except MissingModFileException as error:
-            print(error)
-            print("mods are supposed to be downloaded first before packing the technic assets")
+            log.error(error)
+            log.error("mods are supposed to be downloaded first before packing the technic assets")
             return
 
         # making temp dir structure for the zip
@@ -93,7 +97,6 @@ def process_files(modpack_version:str):
         # removing temp dir structure
         rmtree(mod_dir / "mods")
 
-
     # handling of the modpack repo
 
     # path for the already made client dev pack archive
@@ -101,27 +104,54 @@ def process_files(modpack_version:str):
 
     # zipping of the archive
     os.makedirs(destination / "gtnhmodpack", exist_ok=True)
+    log.info("Processing gtnh modpack assets.")
     with ZipFile(destination / "gtnhmodpack" / f"gtnhmodpack-{modpack_version}.zip", "w") as mod_archive:
-        def crawl_zip(path:Path)->None:
+
+        def crawl_zip(path: Path) -> None:
             for x in path.iterdir():
                 if x.is_dir():
                     crawl_zip(x)
-                elif x.is_file() and not x.name.endswith(".jar"): # excluding all the jar files as we use the client dev
-                                                                  # pack folder that is already filled with mod jars
+                elif x.is_file() and not x.name.endswith(".jar"):  # excluding all the jar files as we use the client dev
+                    # pack folder that is already filled with mod jars
                     mod_archive.write(x, x.relative_to(modpack_folder))
-                    print(f"zipped {x.relative_to(modpack_folder)}")
+                    log.info(f"zipped {x.relative_to(modpack_folder)}")
 
         crawl_zip(modpack_folder)
 
+    # handling forge asset
 
-    print("success")
+    forge_path = destination / "modpack" / "modpack-1.7.10-10.13.4.1614.zip"
+    os.makedirs(forge_path.parent)
+    log.info("downloading forge assets")
+    download_file("http://downloads.gtnewhorizons.com/DreamAssemblerXXL/Technic/modpack-1.7.10-10.13.4.1614.zip", forge_path)
+
+    log.info(f"successfully finished the assembling of technic assets. Folder availiable for upload at {destination}")
+
+
 def get_mod_name(mod_name: str) -> str:
     """
     takes the mod name and process it so it has only lower alphanumerical chars
-    :return: the a
+    :return: the normalised mod name
     """
 
     return re.sub("[^a-zA-Z0-9]", "", mod_name).lower()
+
+def download_file(url:str, path:Path, headers:Optional[Dict]=None) ->None:
+    """
+    Downloads a file from the url and save it to path
+
+    :param url: specified url
+    :param path: specified path
+    :return: None
+    """
+    if headers is None:
+        headers = {"Accept": "application/octet-stream"}
+
+    with requests.get(url, stream=True, headers=headers) as r:
+        r.raise_for_status()
+        with open(path, "wb") as f:
+            for chunk in r.iter_content(chunk_size=8192):
+                f.write(chunk)
 
 if __name__ == "__main__":
     process_files("2.1.2.4")
