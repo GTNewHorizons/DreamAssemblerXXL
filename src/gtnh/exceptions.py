@@ -20,3 +20,7 @@ class NoModAssetFound(Exception):
 
 class PackingInterruptException(Exception):
     pass
+
+
+class MissingModFileException(Exception):
+    pass
