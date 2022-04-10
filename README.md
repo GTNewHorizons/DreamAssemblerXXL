@@ -15,7 +15,7 @@ Scripts to update dependencies and add GTNH maven
 
 # Github Personal Access Token
 
-A personal access token is required to hit the github API without getting rate limited, and to be able to view any private repositories.  Create a github personal access token with the following permissions, and place it into `~/.github_personal_token` on linux or `C:\users\<you>\.github_personal_token` on Windows
+A personal access token is required to hit the github API without getting rate limited, and to be able to view any private repositories.  Create a github personal access token with the following permissions, and paste it into `~/.github_personal_token` on linux or `C:\users\<you>\.github_personal_token` on Windows, with a newline at the end.
 
 ![image](https://user-images.githubusercontent.com/1894689/162634764-7d343964-bdee-4e87-aa4a-8aa2fd90cd2c.png)
 
