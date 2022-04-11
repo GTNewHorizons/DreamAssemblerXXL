@@ -122,13 +122,13 @@
     },
     {
       "name": "bartworks",
-      "version": "0.5.41",
-      "tagged_at": "2022-03-07T07:42:37",
+      "version": "0.5.42",
+      "tagged_at": "2022-04-11T17:25:21",
       "repo_url": "https://github.com/GTNewHorizons/bartworks",
-      "filename": "bartworks-1.7.10-0.5.41.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/58775549",
-      "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.41/bartworks-1.7.10-0.5.41.jar",
       "license": "GNU Lesser General Public License v3.0.",
+      "filename": "bartworks-1.7.10-0.5.42.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/62243005",
+      "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.42/bartworks-1.7.10-0.5.42.jar",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/"
     },
@@ -146,12 +146,12 @@
     },
     {
       "name": "bdlib",
-      "version": "1.9.6",
-      "tagged_at": "2022-01-18T17:43:05",
+      "version": "1.9.7-GTNH",
+      "tagged_at": "2022-03-27T16:58:03",
       "repo_url": "https://github.com/GTNewHorizons/bdlib",
-      "filename": "bdlib-1.7.10-1.9.6.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/bdlib/releases/assets/54294646",
-      "browser_download_url": "https://github.com/GTNewHorizons/bdlib/releases/download/1.9.6/bdlib-1.7.10-1.9.6.jar",
+      "filename": "bdlib-1.7.10-1.9.7-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/bdlib/releases/assets/60759964",
+      "browser_download_url": "https://github.com/GTNewHorizons/bdlib/releases/download/1.9.7-GTNH/bdlib-1.7.10-1.9.7-GTNH.jar",
       "license": "Minecraft Mod Public License v1.0.1.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bdlib/"
@@ -182,13 +182,13 @@
     },
     {
       "name": "BetterQuesting",
-      "version": "3.0.355-GTNH",
-      "tagged_at": "2022-02-09T21:04:35",
+      "version": "3.0.356-GTNH",
+      "tagged_at": "2022-04-11T08:25:06",
       "repo_url": "https://github.com/GTNewHorizons/BetterQuesting",
-      "filename": "BetterQuesting-1.7.10-3.0.355-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/56318298",
-      "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.355-GTNH/BetterQuesting-1.7.10-3.0.355-GTNH.jar",
       "license": "MIT License.",
+      "filename": "BetterQuesting-1.7.10-3.0.356-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/62198066",
+      "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.356-GTNH/BetterQuesting-1.7.10-3.0.356-GTNH.jar",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/"
     },
@@ -590,12 +590,12 @@
     },
     {
       "name": "Galaxy-Space-GTNH",
-      "version": "1.1.16b-GTNH",
-      "tagged_at": "2022-03-13T14:13:23",
+      "version": "1.1.16c-GTNH",
+      "tagged_at": "2022-03-28T18:03:02",
       "repo_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH",
-      "filename": "GalaxySpace-1.7.10-1.1.16b-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/59384426",
-      "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.16b-GTNH/GalaxySpace-1.7.10-1.1.16b-GTNH.jar",
+      "filename": "GalaxySpace-1.7.10-1.1.16c-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/60855092",
+      "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.16c-GTNH/GalaxySpace-1.7.10-1.1.16c-GTNH.jar",
       "license": "Explicit Permission.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Galaxy-Space-GTNH/"
@@ -626,13 +626,13 @@
     },
     {
       "name": "GT5-Unofficial",
-      "version": "5.09.40.39",
-      "tagged_at": "2022-03-02T22:26:20",
+      "version": "5.09.40.44",
+      "tagged_at": "2022-04-11T17:28:38",
       "repo_url": "https://github.com/GTNewHorizons/GT5-Unofficial",
-      "filename": "gregtech-1.7.10-5.09.40.39.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/58382677",
-      "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.39/gregtech-1.7.10-5.09.40.39.jar",
       "license": "GNU Lesser General Public License v3.0.",
+      "filename": "gregtech-1.7.10-5.09.40.44.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/62243284",
+      "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.44/gregtech-1.7.10-5.09.40.44.jar",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/"
     },
@@ -662,13 +662,13 @@
     },
     {
       "name": "GTplusplus",
-      "version": "1.7.29",
-      "tagged_at": "2022-03-05T16:15:01",
+      "version": "1.7.30",
+      "tagged_at": "2022-04-08T16:09:04",
       "repo_url": "https://github.com/GTNewHorizons/GTplusplus",
-      "filename": "GT-PlusPlus-1.7.10-1.7.29.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/58650029",
-      "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.29/GT-PlusPlus-1.7.10-1.7.29.jar",
       "license": "GNU General Public License v3.0.",
+      "filename": "GT-PlusPlus-1.7.10-1.7.30.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/61965172",
+      "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.30/GT-PlusPlus-1.7.10-1.7.30.jar",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/"
     },
@@ -854,12 +854,12 @@
     },
     {
       "name": "LogisticsPipes",
-      "version": "0.9.4.5.4-GTNH",
-      "tagged_at": "2022-03-04T22:46:05",
+      "version": "0.9.4.5.5",
+      "tagged_at": "2022-04-03T21:26:21",
       "repo_url": "https://github.com/GTNewHorizons/LogisticsPipes",
-      "filename": "logisticspipes-1.7.10-0.9.4.5.4-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/LogisticsPipes/releases/assets/58596983",
-      "browser_download_url": "https://github.com/GTNewHorizons/LogisticsPipes/releases/download/0.9.4.5.4-GTNH/logisticspipes-1.7.10-0.9.4.5.4-GTNH.jar",
+      "filename": "logisticspipes-1.7.10-0.9.4.5.5.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/LogisticsPipes/releases/assets/61450179",
+      "browser_download_url": "https://github.com/GTNewHorizons/LogisticsPipes/releases/download/0.9.4.5.5/logisticspipes-1.7.10-0.9.4.5.5.jar",
       "license": "Minecraft Mod Public License v1.0.1.",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LogisticsPipes/"
@@ -962,13 +962,13 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "version": "1.9.21",
-      "tagged_at": "2022-03-02T22:21:55",
+      "version": "1.9.23",
+      "tagged_at": "2022-04-11T17:30:04",
       "repo_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod",
-      "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.21.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/58382233",
-      "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.21/GTNewHorizonsCoreMod-1.7.10-1.9.21.jar",
       "license": "GNU General Public License v3.0.",
+      "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.23.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/62243376",
+      "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.23/GTNewHorizonsCoreMod-1.7.10-1.9.23.jar",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NewHorizonsCoreMod/"
     },
@@ -986,13 +986,13 @@
     },
     {
       "name": "NotEnoughItems",
-      "version": "2.2.10-GTNH",
-      "tagged_at": "2022-03-05T16:37:27",
+      "version": "2.2.11-GTNH",
+      "tagged_at": "2022-04-09T10:43:31",
       "repo_url": "https://github.com/GTNewHorizons/NotEnoughItems",
-      "filename": "NotEnoughItems-1.7.10-2.2.10-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/58650928",
-      "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.10-GTNH/NotEnoughItems-1.7.10-2.2.10-GTNH.jar",
       "license": "GNU Lesser General Public License v3.0.",
+      "filename": "NotEnoughItems-1.7.10-2.2.11-GTNH.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/62042009",
+      "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.11-GTNH/NotEnoughItems-1.7.10-2.2.11-GTNH.jar",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/"
     },
@@ -1091,18 +1091,6 @@
       "license": "Custom license allowing NH to compile and redistribute",
       "side": "BOTH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ProjectRed/"
-    },
-    {
-      "name": "QuestBook",
-      "version": "2.1.3-GTNH",
-      "tagged_at": "2022-02-13T14:04:18",
-      "repo_url": "https://github.com/GTNewHorizons/QuestBook",
-      "filename": "questbook-1.7.10-2.1.3-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/QuestBook/releases/assets/56698125",
-      "browser_download_url": "https://github.com/GTNewHorizons/QuestBook/releases/download/2.1.3-GTNH/questbook-1.7.10-2.1.3-GTNH.jar",
-      "license": "Unknown. Pending community outreach.",
-      "side": "BOTH",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/QuestBook/"
     },
     {
       "name": "Railcraft",
@@ -1789,18 +1777,6 @@
       "maven": null
     },
     {
-      "name": "GTNH-O-Plenty",
-      "version": "2.1.3-GTNH",
-      "tagged_at": "2022-01-16T12:28:44",
-      "repo_url": "https://github.com/GTNewHorizons/GTNH-O-Plenty",
-      "filename": "BiomesOPlenty-1.7.10-2.1.3-GTNH.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-O-Plenty/releases/assets/54111936",
-      "browser_download_url": "https://github.com/GTNewHorizons/GTNH-O-Plenty/releases/download/2.1.3-GTNH/BiomesOPlenty-1.7.10-2.1.3-GTNH.jar",
-      "license": "All Rights Reserved, mainly here as a decompiled source for any mixin/ASM needed.",
-      "side": "BOTH",
-      "maven": null
-    },
-    {
       "name": "SpongeMixins",
       "version": "1.5.0",
       "tagged_at": "2022-03-26T18:08:36",
@@ -1933,18 +1909,6 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/QmunityLib/"
     },
     {
-      "name": "SpecialMobs",
-      "version": "3.3.9",
-      "tagged_at": "2021-12-11T00:07:31",
-      "repo_url": "https://github.com/GTNewHorizons/SpecialMobs",
-      "filename": "SpecialMobs-1.7.10-3.3.9.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/SpecialMobs/releases/assets/51512889",
-      "browser_download_url": "https://github.com/GTNewHorizons/SpecialMobs/releases/download/3.3.9/SpecialMobs-1.7.10-3.3.9.jar",
-      "license": "**All Rights Reserved according to CurseForge (https://www.curseforge.com/minecraft/mc-mods/special-mobs)**",
-      "side": "BOTH",
-      "maven": null
-    },
-    {
       "name": "Minetweaker-Gregtech-5-Addon",
       "version": "1.7.5",
       "tagged_at": "2022-03-26T14:59:28",
@@ -1977,18 +1941,6 @@
       "download_url": "https://api.github.com/repos/GTNewHorizons/ModMixins/releases/assets/60678747",
       "browser_download_url": "https://github.com/GTNewHorizons/ModMixins/releases/download/0.0.5/modmixins-1.7.10-0.0.5.jar",
       "license": "MIT License.",
-      "side": "BOTH",
-      "maven": null
-    },
-    {
-      "name": "CompactKineticGenerators",
-      "version": "1.0",
-      "tagged_at": "2022-03-26T15:32:09",
-      "repo_url": "https://github.com/GTNewHorizons/CompactKineticGenerators",
-      "filename": "CompactKineticGenerators-1.7.10-1.0.jar",
-      "download_url": "https://api.github.com/repos/GTNewHorizons/CompactKineticGenerators/releases/assets/60679962",
-      "browser_download_url": "https://github.com/GTNewHorizons/CompactKineticGenerators/releases/download/1.0/CompactKineticGenerators-1.7.10-1.0.jar",
-      "license": "Free to include in modpacks, no specific license related to binaries based on modified source, pending community outreach.",
       "side": "BOTH",
       "maven": null
     },
@@ -2123,6 +2075,30 @@
       "license": "GNU General Public License v3.0.",
       "side": "CLIENT",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ToroHealth/"
+    },
+    {
+      "name": "SpecialMobs",
+      "version": "3.3.10",
+      "tagged_at": "2022-04-10T17:50:48",
+      "repo_url": "https://github.com/GTNewHorizons/SpecialMobs",
+      "filename": "SpecialMobs-1.7.10-3.3.10.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/SpecialMobs/releases/assets/62146974",
+      "browser_download_url": "https://github.com/GTNewHorizons/SpecialMobs/releases/download/3.3.10/SpecialMobs-1.7.10-3.3.10.jar",
+      "license": "Explicit Permission.",
+      "side": "BOTH",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SpecialMobs/"
+    },
+    {
+      "name": "SpecialAI",
+      "version": "1.1.2",
+      "tagged_at": "2022-04-10T14:36:42",
+      "repo_url": "https://github.com/GTNewHorizons/SpecialAI",
+      "filename": "SpecialAI-1.7.10-1.1.2.jar",
+      "download_url": "https://api.github.com/repos/GTNewHorizons/SpecialAI/releases/assets/62135857",
+      "browser_download_url": "https://github.com/GTNewHorizons/SpecialAI/releases/download/1.1.2/SpecialAI-1.7.10-1.1.2.jar",
+      "license": "Explicit Permission.",
+      "side": "NONE",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SpecialAI/"
     }
   ],
   "external_mods": [
@@ -2184,7 +2160,7 @@
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/bdlib/files/2269259",
       "license": "MIT License.",
       "side": "NONE",
-      "maven": "needs to be changed later"
+      "maven": "https://jenkins.bdew.net/maven/net/bdew/bdlib/"
     },
     {
       "name": "Better Builder's Wands",
@@ -2194,18 +2170,6 @@
       "filename": "BetterBuildersWands-0.8.1-1.7.10r92+aec06c3.jar",
       "download_url": "https://media.forgecdn.net/files/2356/820/BetterBuildersWands-0.8.1-1.7.10r92%2Baec06c3.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/better-builders-wands/files/2356820",
-      "license": "All Rights Reserved.",
-      "side": "NONE",
-      "maven": "needs to be changed later"
-    },
-    {
-      "name": "Better Questing - Quest Book",
-      "version": "3.0.0",
-      "tagged_at": "2021-12-15T13:54:00",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book",
-      "filename": "questbook-3.0.0-1.7.10.jar",
-      "download_url": "https://media.forgecdn.net/files/2933/973/questbook-3.0.0-1.7.10.jar",
-      "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book/files/2933973",
       "license": "All Rights Reserved.",
       "side": "NONE",
       "maven": "needs to be changed later"
@@ -2280,7 +2244,7 @@
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/buildcraft/files/3538651",
       "license": "Minecraft Mod Public License v1.0.1.",
       "side": "NONE",
-      "maven": "needs to be changed later"
+      "maven": "https://mod-buildcraft.com/releases/BuildCraft/"
     },
     {
       "name": "Witchery",
@@ -2316,7 +2280,7 @@
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/translocators/files/2300180",
       "license": "All Rights Reserved.",
       "side": "NONE",
-      "maven": "needs to be changed later"
+      "maven": "https://chickenbones.net/maven/"
     },
     {
       "name": "Thaumic Inventory Scanning",
@@ -2448,7 +2412,7 @@
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/openmodularturrets/files/2549788",
       "license": "GNU General Public License v3.0.",
       "side": "NONE",
-      "maven": "needs to be changed later"
+      "maven": "https://jenkins.ironhide.de/job/OMTTeam/job/OpenModularTurrets/"
     },
     {
       "name": "NEI Integration",
@@ -2544,7 +2508,7 @@
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/lunatriuscore/files/2225146",
       "license": "MIT License.",
       "side": "NONE",
-      "maven": "needs to be changed later"
+      "maven": "http://mc.lunatri.us/files/com.github.lunatrius/LunatriusCore/"
     },
     {
       "name": "LittleTiles",
@@ -2640,7 +2604,7 @@
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/floodlights/files/2320032",
       "license": "GNU Lesser General Public License v3.0.",
       "side": "BOTH",
-      "maven": "needs to be changed later"
+      "maven": "https://jenkins.ironhide.de/job/Keridos%20Mods/job/FloodLights-1.7.10/"
     },
     {
       "name": "FastCraft",
@@ -2724,7 +2688,7 @@
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/ctmlib/files/2273524",
       "license": "GNU Lesser General Public Library v2.1.",
       "side": "NONE",
-      "maven": "needs to be changed later"
+      "maven": "https://maven.tterrag.com/team/chisel/ctmlib/CTMLib/"
     },
     {
       "name": "CreativeCore",
@@ -2820,7 +2784,7 @@
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/buildcraft-compat/files/3538654",
       "license": "Minecraft Mod Public License v1.0.1.",
       "side": "NONE",
-      "maven": "needs to be changed later"
+      "maven": "https://mod-buildcraft.com/releases/BuildCraftCompat/"
     },
     {
       "name": "BeeBetterAtBees",
@@ -2842,7 +2806,7 @@
       "filename": "BetterAchievements-1.7.10-0.1.0.jar",
       "download_url": "https://media.forgecdn.net/files/2260/793/BetterAchievements-1.7.10-0.1.0.jar",
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/betterachievements/files/2260793",
-      "license": "Don’t Be a Jerk Non-Commercial License",
+      "license": "Don't Be a Jerk Non-Commercial License",
       "side": "CLIENT",
       "maven": "needs to be changed later"
     },
@@ -2892,7 +2856,7 @@
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/schematica/files/2274295",
       "license": "MIT License.",
       "side": "NONE",
-      "maven": "needs to be changed later"
+      "maven": "http://mc.lunatri.us/files/com.github.lunatrius/Schematica/"
     },
     {
       "name": "Thaumcraft",
@@ -2976,7 +2940,7 @@
       "browser_download_url": "https://files.vexatos.com/?dir=BuildCraftOilTweak",
       "license": "All Rights Reserved.",
       "side": "BOTH",
-      "maven": "needs to be changed later"
+      "maven": "https://files.vexatos.com/BuildCraftOilTweak/"
     },
     {
       "name": "Thaumic Machina",
@@ -3060,19 +3024,19 @@
       "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/industrial-craft/files",
       "license": "All Rights Reserved.",
       "side": "BOTH",
-      "maven": "needs to be changed later"
+      "maven": "https://maven.ic2.player.to/net/industrial-craft/industrialcraft-2/"
     },
     {
       "name": "Gravitation Suite",
       "version": "2.0.68u",
       "tagged_at": "2020-12-20T21:53:00",
-      "repo_url": "https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/",
+      "repo_url": null,
       "filename": "GraviSuite-1.7.10-2.0.68u.jar",
       "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/GraviSuite-1.7.10-2.0.68u.jar",
-      "browser_download_url": "https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/",
+      "browser_download_url": null,
       "license": "All Rights Reserved.",
       "side": "BOTH",
-      "maven": "needs to be changed later"
+      "maven": null
     },
     {
       "name": "NetherPortalFix",
@@ -3157,6 +3121,42 @@
       "license": "All Rights Reserved.",
       "side": "BOTH",
       "maven": "needs to be changed later"
+    },
+    {
+      "name": "Biomes O' Plenty",
+      "version": "2.1.0.2308",
+      "tagged_at": "2017-11-13T04:06:00",
+      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty",
+      "filename": "BiomesOPlenty-1.7.10-2.1.0.2308-universal.jar",
+      "download_url": "https://media.forgecdn.net/files/2499/612/BiomesOPlenty-1.7.10-2.1.0.2308-universal.jar",
+      "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty/files/2499612",
+      "license": "All Rights Reserved.",
+      "side": "BOTH",
+      "maven": null
+    },
+    {
+      "name": "Compact Kinetic Generators",
+      "version": "1.0",
+      "tagged_at": "2016-05-09T12:00:00",
+      "repo_url": "https://forum.industrial-craft.net/thread/12724-ic2-exp-1-7-10-compact-kinetic-generators/",
+      "filename": "CompactKineticGenerators-1.7.10-1.0.jar",
+      "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/CompactKineticGenerators-1.7.10-1.0.jar",
+      "browser_download_url": "https://drive.google.com/file/d/0Bwod9-SE78mFTEhZanZnNlZuRGs/view?resourcekey=0-XP2l3BSAzfMxqUARxRFgHA",
+      "license": "All Rights Reserved.",
+      "side": "BOTH",
+      "maven": null
+    },
+    {
+      "name": "Better Questing - Quest Book",
+      "version": "3.0.0",
+      "tagged_at": "2020-04-18T12:40:00",
+      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book",
+      "filename": "questbook-3.0.0-1.7.10.jar",
+      "download_url": "https://media.forgecdn.net/files/2933/973/questbook-3.0.0-1.7.10.jar",
+      "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book/files/2933973",
+      "license": "All Rights Reserved.",
+      "side": "BOTH",
+      "maven": null
     }
   ],
   "modpack_version": "2.1.2.4",
