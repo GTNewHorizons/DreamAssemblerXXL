@@ -13,9 +13,7 @@ from retry import retry
 from gtnh.add_mod import get_repo, new_mod_from_repo
 from gtnh.exceptions import LatestReleaseNotFound
 from gtnh.mod_info import GTNHModpack, ModInfo
-from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, save_gtnh_manifest
-
-CACHE_DIR = "cache"
+from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, save_gtnh_manifest, ensure_cache_dir
 
 
 def get_releases(gtnh_modpack: GTNHModpack) -> None:
@@ -192,11 +190,6 @@ def download_pack_archive() -> Path:
     return gtnh_archive_path
 
 
-def ensure_cache_dir() -> Path:
-    cache_dir = Path(os.getcwd()) / CACHE_DIR
-    os.makedirs(cache_dir / "mods", exist_ok=True)
-
-    return cache_dir
 
 
 def update_releases(callback: Optional[Callable[[float, str], None]] = None) -> None:

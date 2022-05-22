@@ -126,8 +126,9 @@ def handle_pack_extra_files(error_callback: Optional[Callable[[], None]] = None)
     gtnh_metadata = load_gtnh_manifest()
 
     # path for the prepared archives
-    client_folder = Path(__file__).parent / "cache" / "client_archive"
-    server_folder = Path(__file__).parent / "cache" / "server_archive"
+    cache_dir = ensure_cache_dir()
+    client_folder = cache_dir / "client_archive"
+    server_folder = cache_dir / "server_archive"
 
     # exclusion lists
     client_exclusions = [temp_dir / exclusion for exclusion in gtnh_metadata.client_exclusions]

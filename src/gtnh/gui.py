@@ -477,8 +477,9 @@ class ArchiveFrame(BaseFrame):
 
         github = Github(get_token())
         organization = github.get_organization("GTNewHorizons")
-        client_folder = Path(__file__).parent / "cache" / "client_archive"
-        server_folder = Path(__file__).parent / "cache" / "server_archive"
+        cache_dir = ensure_cache_dir()
+        client_folder = cache_dir / "client_archive"
+        server_folder = cache_dir / "server_archive"
 
         def error_callback_handle_extra_files() -> None:
             showerror("release not found", "The gtnh modpack repo has no release. Aborting.")
