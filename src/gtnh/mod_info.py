@@ -15,7 +15,7 @@ class ModInfo(BaseModel):
     filename: Optional[str] = Field(default=None)
     download_url: Optional[str] = Field(default=None)
     browser_download_url: Optional[str] = Field(default=None)
-    license: str = Field(default=UNKNOWN)
+    license: Optional[str] = Field(default=UNKNOWN)
     side: Side = Field(default=Side.BOTH)
     maven: Optional[str] = Field(default=None)
 

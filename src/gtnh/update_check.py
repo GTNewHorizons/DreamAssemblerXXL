@@ -53,7 +53,7 @@ def check_mod_for_update(all_repos: Dict[str, Repository], mod: ModInfo) -> None
         mod.version = latest_version
         version_updated = True
 
-    if mod.license in [UNKNOWN, OTHER]:
+    if mod.license in [UNKNOWN, OTHER, None]:
         license = get_license(repo)
         if license is not None:
             mod.license = license

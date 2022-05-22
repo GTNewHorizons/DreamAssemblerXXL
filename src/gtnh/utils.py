@@ -17,6 +17,8 @@ from gtnh.defs import BLACKLISTED_REPOS_FILE, GTNH_MODPACK_FILE, MAVEN_BASE_URL,
 from gtnh.exceptions import LatestReleaseNotFound, NoModAssetFound
 from gtnh.mod_info import GTNHModpack
 
+CACHE_DIR = "cache"
+
 
 @cache
 def get_token() -> Optional[str]:
@@ -158,6 +160,13 @@ def crawl(path: Path) -> List[Path]:
     return files
 
 
+def ensure_cache_dir() -> Path:
+    cache_dir = Path(os.getcwd()) / CACHE_DIR
+    os.makedirs(cache_dir / "mods", exist_ok=True)
+
+    return cache_dir
+
+
 def move_mods(client_paths: List[Path], server_paths: List[Path]) -> None:
     """
     Method used to move the mods in their correct archive folder after they have been downloaded.
@@ -166,9 +175,10 @@ def move_mods(client_paths: List[Path], server_paths: List[Path]) -> None:
     :param server_paths: the paths for the mods serverside
     :return: None
     """
-    client_folder = Path(__file__).parent / "cache" / "client_archive"
-    server_folder = Path(__file__).parent / "cache" / "server_archive"
-    source_root = Path(__file__).parent / "cache"
+    cache_dir = ensure_cache_dir()
+    client_folder = cache_dir / "client_archive"
+    server_folder = cache_dir / "server_archive"
+    source_root = cache_dir
 
     if client_folder.exists():
         rmtree(client_folder)

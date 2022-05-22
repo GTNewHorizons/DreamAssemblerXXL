@@ -5,8 +5,8 @@ from typing import Callable, List, Optional
 from zipfile import ZipFile
 
 from gtnh.exceptions import LatestReleaseNotFound, PackingInterruptException
-from gtnh.pack_downloader import download_pack_archive, ensure_cache_dir
-from gtnh.utils import copy_file_to_folder, crawl, load_gtnh_manifest
+from gtnh.pack_downloader import download_pack_archive
+from gtnh.utils import copy_file_to_folder, crawl, ensure_cache_dir, load_gtnh_manifest
 
 
 def pack_clientpack(client_paths: List[Path], pack_version: str, callback: Optional[Callable[[float, str], None]] = None) -> None:
@@ -126,8 +126,9 @@ def handle_pack_extra_files(error_callback: Optional[Callable[[], None]] = None)
     gtnh_metadata = load_gtnh_manifest()
 
     # path for the prepared archives
-    client_folder = Path(__file__).parent / "cache" / "client_archive"
-    server_folder = Path(__file__).parent / "cache" / "server_archive"
+    cache_dir = ensure_cache_dir()
+    client_folder = cache_dir / "client_archive"
+    server_folder = cache_dir / "server_archive"
 
     # exclusion lists
     client_exclusions = [temp_dir / exclusion for exclusion in gtnh_metadata.client_exclusions]
