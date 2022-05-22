@@ -16,7 +16,7 @@ from gtnh.mod_info import GTNHModpack, ModInfo
 from gtnh.pack_assembler import handle_pack_extra_files, pack_clientpack, pack_serverpack
 from gtnh.pack_downloader import download_mods, update_releases
 from gtnh.technic import process_files
-from gtnh.utils import crawl, get_token, load_gtnh_manifest, move_mods, save_gtnh_manifest, verify_url, ensure_cache_dir
+from gtnh.utils import crawl, ensure_cache_dir, get_token, load_gtnh_manifest, move_mods, save_gtnh_manifest, verify_url
 
 
 class MainFrame(tk.Tk):
