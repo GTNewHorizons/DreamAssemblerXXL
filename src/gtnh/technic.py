@@ -10,8 +10,7 @@ from zipfile import ZipFile
 import requests
 
 from gtnh.exceptions import MissingModFileException
-from gtnh.pack_downloader import ensure_cache_dir
-from gtnh.utils import load_gtnh_manifest
+from gtnh.utils import load_gtnh_manifest, ensure_cache_dir
 
 log = logging.getLogger("technic process")
 log.setLevel(logging.INFO)
