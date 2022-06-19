@@ -2248,6 +2248,24 @@
       "versions": []
     },
     {
+      "name": "DefaultServerList",
+      "license": "GNU Lesser General Public License v2.1",
+      "repo_url": "https://github.com/GTNewHorizons/DefaultServerList",
+      "maven": null,
+      "side": "CLIENT",
+      "latest_version": "1.0",
+      "versions": [
+        {
+          "version_tag": "1.0",
+          "prerelease": false,
+          "tagged_at": "2022-06-19T16:17:51",
+          "filename": "defaultserverlist-1.7.10-1.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/DefaultServerList/releases/assets/68949568",
+          "browser_download_url": "https://github.com/GTNewHorizons/DefaultServerList/releases/download/1.0/defaultserverlist-1.7.10-1.0.jar"
+        }
+      ]
+    },
+    {
       "name": "DefaultWorldGenerator",
       "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/DefaultWorldGenerator",
@@ -11020,15 +11038,6 @@
       "maven": "needs to be changed later",
       "side": "BOTH",
       "latest_version": "3",
-      "versions": []
-    },
-    {
-      "name": "DefaultServerList",
-      "license": "GNU Lesser General Public Library v2.1.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/defaultserverlist",
-      "maven": "needs to be changed later",
-      "side": "CLIENT",
-      "latest_version": "1.0",
       "versions": []
     },
     {
