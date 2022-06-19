@@ -3,13 +3,15 @@ from typing import Optional
 
 from github.GitRelease import GitRelease
 from github.GitReleaseAsset import GitReleaseAsset
-from pydantic import BaseModel, Field
+from pydantic import Field
 from structlog import get_logger
+
+from gtnh.models.base import GTNHBaseModel
 
 log = get_logger(__name__)
 
 
-class ModVersion(BaseModel):
+class ModVersion(GTNHBaseModel):
     version_tag: str
     prerelease: bool = Field(default=False)
     tagged_at: Optional[datetime] = Field(default=None)

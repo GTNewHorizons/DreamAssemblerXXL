@@ -3,7 +3,7 @@
 A replacement for DreamMasterXXL, minus the nerfs.
 
 * [gtnh-mods.json](gtnh-mods.json): All Mods that are part of the modpack, including license, versions, etc
-* [versions](versions): Manifests for each officially released modpack version
+* [releases](releases): Manifests for each officially released modpack version
 * [repo-blacklist.json](repo-blacklist.json): GitHub repositories that are not part of the pack
 
 

@@ -1,19 +1,14 @@
 import bisect
 from functools import cached_property
-from typing import Any, Callable, Dict, List
+from typing import Dict, List
 
-import orjson
-from pydantic import BaseModel, Field
+from pydantic import Field
 
+from gtnh.models.base import GTNHBaseModel
 from gtnh.models.mod_info import ModInfo
 
 
-def orjson_dumps(v: Any, *, default: Callable[..., Any]) -> str:
-    # orjson.dumps returns bytes, to match standard json.dumps we need to decode
-    return orjson.dumps(v, default=default, option=orjson.OPT_INDENT_2).decode()
-
-
-class AvailableMods(BaseModel):
+class AvailableMods(GTNHBaseModel):
     github_mods: List[ModInfo]
     external_mods: List[ModInfo] = Field(default_factory=list)
 
@@ -43,7 +38,3 @@ class AvailableMods(BaseModel):
 
     def get_external_mod(self, mod_name: str) -> ModInfo:
         return self._external_modmap[mod_name]
-
-    class Config:
-        json_loads = orjson.loads
-        json_dumps = orjson_dumps

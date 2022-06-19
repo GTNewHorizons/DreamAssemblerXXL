@@ -1,12 +1,10 @@
-from typing import List
+from pydantic import Field
 
-from pydantic import BaseModel, Field
-
-from gtnh.models.gtnh_release import GTNHRelease
+from gtnh.models.base import GTNHBaseModel
 
 
-class GTNHModpack(BaseModel):
-    releases = List[GTNHRelease]
+class GTNHModpack(GTNHBaseModel):
+    releases: set[str]  # Set of releases, found in the `releases` directory
 
-    default_server_exclusions: List[str] = Field(default_factory=list)
-    default_client_exclusions: List[str] = Field(default_factory=list)
+    server_exclusions: list[str] = Field(default_factory=list)
+    client_exclusions: list[str] = Field(default_factory=list)
