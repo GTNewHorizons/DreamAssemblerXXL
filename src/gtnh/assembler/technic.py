@@ -9,8 +9,9 @@ from zipfile import ZipFile
 
 import requests
 
+from gtnh.assembler.downloader import ensure_cache_dir
 from gtnh.exceptions import MissingModFileException
-from gtnh.utils import ensure_cache_dir, load_gtnh_manifest
+from gtnh.utils import load_gtnh_manifest
 
 log = logging.getLogger("technic process")
 log.setLevel(logging.INFO)
@@ -102,7 +103,7 @@ def process_files(modpack_version: str, callback: Optional[Callable[[float, str]
         copy(mod_file_path, mod_dir / "mods")
 
         # zipping with technic format
-        with ZipFile(mod_dir / f"{mod_name}-{mod.version}.zip", "w") as mod_archive:
+        with ZipFile(mod_dir / f"{mod_name}-{mod.version_tag}.zip", "w") as mod_archive:
             for x in (mod_dir / "mods").iterdir():
                 if x.is_file():
                     mod_archive.write(x, x.relative_to(mod_dir))

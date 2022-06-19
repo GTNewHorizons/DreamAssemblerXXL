@@ -10,10 +10,11 @@ from github.GitRelease import GitRelease
 from github.Organization import Organization
 from retry import retry
 
-from gtnh.add_mod import get_repo, new_mod_from_repo
+from gtnh.cli.add_mod import get_repo, new_mod_from_repo
+from gtnh.defs import CACHE_DIR, MODS_CACHE_DIR
 from gtnh.exceptions import LatestReleaseNotFound
 from gtnh.mod_info import GTNHModpack, ModInfo
-from gtnh.utils import ensure_cache_dir, get_latest_release, get_token, load_gtnh_manifest, save_gtnh_manifest
+from gtnh.utils import get_latest_release, get_token, load_gtnh_manifest, save_gtnh_manifest
 
 
 def get_releases(gtnh_modpack: GTNHModpack) -> None:
@@ -190,16 +191,22 @@ def download_pack_archive() -> Path:
     return gtnh_archive_path
 
 
+def ensure_cache_dir() -> Path:
+    os.makedirs(MODS_CACHE_DIR, exist_ok=True)
+
+    return CACHE_DIR
+
+
 def update_releases(callback: Optional[Callable[[float, str], None]] = None) -> None:
     """
-    Method to update the github mods to latest releases.
+    Method to update the github mods with the list of releases
 
     :param callback: Optional callback called for each mod updated
     :return: None
     """
-    gtnh_modpack = load_gtnh_manifest()
-    github_mods = gtnh_modpack.github_mods
-    gtnh_modpack.github_mods = []
+    gtnh_mods = load_gtnh_manifest()
+    github_mods = gtnh_mods.github_mods
+    gtnh_mods.github_mods = []
     delta_progress = 100 / len(github_mods)
 
     for i, mod in enumerate(github_mods):
@@ -213,9 +220,9 @@ def update_releases(callback: Optional[Callable[[float, str], None]] = None) -> 
             print(e)
             curr_mod = [x for x in github_mods if x.name == mod.name][0]
         curr_mod.side = mod.side
-        gtnh_modpack.github_mods.append(curr_mod)
+        gtnh_mods.github_mods.append(curr_mod)
 
-    save_gtnh_manifest(gtnh_modpack)
+    save_gtnh_manifest(gtnh_mods)
 
 
 if __name__ == "__main__":

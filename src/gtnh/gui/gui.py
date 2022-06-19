@@ -9,14 +9,14 @@ import pydantic
 from github import Github
 from github.Organization import Organization
 
-from gtnh.add_mod import get_repo, new_mod_from_repo
-from gtnh.defs import Side
+from gtnh.assembler.assembler import handle_pack_extra_files, pack_clientpack, pack_serverpack
+from gtnh.assembler.downloader import download_mods, ensure_cache_dir, update_releases
+from gtnh.assembler.technic import process_files
+from gtnh.cli.add_mod import get_repo, new_mod_from_repo
+from gtnh.defs import ROOT_DIR, Side
 from gtnh.exceptions import LatestReleaseNotFound, NoModAssetFound, PackingInterruptException, RepoNotFoundException
 from gtnh.mod_info import GTNHModpack, ModInfo
-from gtnh.pack_assembler import handle_pack_extra_files, pack_clientpack, pack_serverpack
-from gtnh.pack_downloader import download_mods, update_releases
-from gtnh.technic import process_files
-from gtnh.utils import crawl, ensure_cache_dir, get_token, load_gtnh_manifest, move_mods, save_gtnh_manifest, verify_url
+from gtnh.utils import crawl, get_token, load_gtnh_manifest, move_mods, save_gtnh_manifest, verify_url
 
 
 class MainFrame(tk.Tk):
@@ -38,7 +38,7 @@ class MainFrame(tk.Tk):
         self.gtnh_modpack = load_gtnh_manifest()
 
         # setting up the icon of the window
-        imgicon = tk.PhotoImage(file=Path(__file__).parent / "icon.png")
+        imgicon = tk.PhotoImage(file=ROOT_DIR / "icon.png")
         self.iconphoto(True, imgicon)
 
         # widgets in the window
@@ -477,9 +477,8 @@ class ArchiveFrame(BaseFrame):
 
         github = Github(get_token())
         organization = github.get_organization("GTNewHorizons")
-        cache_dir = ensure_cache_dir()
-        client_folder = cache_dir / "client_archive"
-        server_folder = cache_dir / "server_archive"
+        client_folder = ROOT_DIR / "cache" / "client_archive"
+        server_folder = ROOT_DIR / "cache" / "server_archive"
 
         def error_callback_handle_extra_files() -> None:
             showerror("release not found", "The gtnh modpack repo has no release. Aborting.")

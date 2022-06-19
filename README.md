@@ -1,21 +1,42 @@
 # DreamAssemblerXXL
 
-Scripts to update dependencies and add GTNH maven
+A replacement for DreamMasterXXL, minus the nerfs.
 
-* [gtnh-modpack.json](gtnh-modpack.json): Modpack Manifest: Mods, licenses, version, etc
-* [releases](releases): Manifests for each officially released modpack version
+* [gtnh-mods.json](gtnh-mods.json): All Mods that are part of the modpack, including license, versions, etc
+* [versions](versions): Manifests for each officially released modpack version
 * [repo-blacklist.json](repo-blacklist.json): GitHub repositories that are not part of the pack
-* [update_deps.py](src/gtnh/update_deps.py): Update dependencies.gradle & repositories.gradle (run in the project directory)
-* [pack_downloader.py](src/gtnh/pack_downloader.py): Download the pack
-* [add_mod.py](src/gtnh/add_mod.py): Add a new mod to the pack
-* [update_check.py](src/gtnh/update_check.py): Check for new releases on GitHub
-* [update_buildscript.sh](update_buildscript.sh): Script to add CODEOWNERS for maven publication
-* [requirements.txt](requirements.txt): Python modules you'll need to run - Python 3.9+ is required
+
+
+### CLI - CLI Tools
+* [add_mod.py](src/gtnh/cli/add_mod.py): Add a new (github) mod to the pack
+* [update_check.py](src/gtnh/cli/update_check.py): Check for new releases on GitHub
+* [update_deps.py](src/gtnh/cli/update_deps.py): Update dependencies.gradle & repositories.gradle (run in the project directory)
+
+### Assembler - Modpack Assemble!
+* [assembler.py](src/gtnh/assembler/assembler.py) Assemble the client and server pack
+* [curse.py](src/gtnh/assembler/curse.py) Maybe, at some point, assemble the pack for Curse
+* [downloader.py](src/gtnh/assembler/downloader.py): Download and cache the pack's mods
+* [modrinth.py](src/gtnh/assembler/modrinth.py) Hopefully in the near future assemble the pack for Modrinth
+* [multi_poly.py](src/gtnh/assembler/multi_poly.py) Hopefully in the near future assemble the pack for MultiMC/PolyMC
+* [technic.py](src/gtnh/assembler/technic.py) Assemble the pack for Technic
+
+### Scripts
+* [black.sh](scripts/black.sh): Format things using the Black Formatter
+* [isort.sh](scripts/isort.sh): Sort all the includes
+* [lint.sh](scripts/lint.sh): Lint everything
+* [mypy.sh](scripts/mypy.sh): Typing the untypable 
+* [update_buildscript.sh](scripts/update_buildscript.sh): Script to add CODEOWNERS for maven publication
+
+### GUI
+* [gui.py](src/gui/gui.py) GUI Frontend to the DreamAssemblerXXL
+
 
 
 # Github Personal Access Token
 
-A personal access token is required to hit the github API without getting rate limited, and to be able to view any private repositories.  Create a github personal access token with the following permissions, and paste it into `~/.github_personal_token` on linux or `C:\users\<you>\.github_personal_token` on Windows, with a newline at the end.
+A personal access token is required to hit the github API without getting rate limited, and to be able to view any private repositories.  
+Create a github personal access token with the following permissions, and paste it into `~/.github_personal_token` on linux or `C:\users\<you>\.github_personal_token` 
+on Windows, with a newline at the end.
 
 ![image](https://user-images.githubusercontent.com/1894689/162634764-7d343964-bdee-4e87-aa4a-8aa2fd90cd2c.png)
 
