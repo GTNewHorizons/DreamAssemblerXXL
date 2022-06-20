@@ -8,15 +8,15 @@ from urllib import parse
 from zipfile import ZipFile
 
 import requests
+from pip._internal.cli.cmdoptions import cache_dir
 
 from gtnh.assembler.downloader import ensure_cache_dir
+from gtnh.defs import TECHNIC_CACHE_DIR
 from gtnh.exceptions import MissingModFileException
 from gtnh.utils import load_gtnh_manifest
 
 log = logging.getLogger("technic process")
 log.setLevel(logging.INFO)
-
-CACHE_DIR = "cache"
 
 
 def ensure_technic_root_folder() -> Path:
@@ -26,8 +26,7 @@ def ensure_technic_root_folder() -> Path:
     :return: the path object pointing the technic root folder
     """
 
-    cache_dir = Path(os.getcwd()) / CACHE_DIR / "technic"
-    os.makedirs(cache_dir, exist_ok=True)
+    os.makedirs(TECHNIC_CACHE_DIR, exist_ok=True)
 
     return cache_dir
 

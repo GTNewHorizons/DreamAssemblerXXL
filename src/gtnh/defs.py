@@ -5,12 +5,15 @@ from pathlib import Path
 ROOT_DIR = Path(__file__).parent.parent.parent
 CACHE_DIR = ROOT_DIR / "cache"
 MODS_CACHE_DIR = CACHE_DIR / "mods"
+TECHNIC_CACHE_DIR = CACHE_DIR / "technic"
 CONFIG_CACHE_DIR = CACHE_DIR / "config"
 WORKING_DIR = ROOT_DIR / "working"
 CLIENT_WORKING_DIR = WORKING_DIR / "client"
 SERVER_WORKING_DIR = WORKING_DIR / "server"
-RELEASE_DIR = ROOT_DIR / "releases"
 
+RELEASE_DIR = ROOT_DIR / "releases"
+RELEASE_MANIFEST_DIR = RELEASE_DIR / "manifests"
+RELEASE_ZIP_DIR = RELEASE_DIR / "zip"
 
 AVAILABLE_MODS_FILE = "gtnh-mods.json"
 GTNH_MODPACK_FILE = "gtnh-modpack.json"

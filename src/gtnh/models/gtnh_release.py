@@ -4,7 +4,7 @@ from colorama import Fore
 from pydantic import Field
 from structlog import get_logger
 
-from gtnh.defs import GREEN_CHECK, RED_CROSS, RELEASE_DIR
+from gtnh.defs import GREEN_CHECK, RED_CROSS, RELEASE_MANIFEST_DIR
 from gtnh.models.available_mods import AvailableMods
 from gtnh.models.base import GTNHBaseModel
 
@@ -46,7 +46,7 @@ class GTNHRelease(GTNHBaseModel):
 
 
 def load_release(release: str) -> GTNHRelease | None:
-    release_file = RELEASE_DIR / (release + ".json")
+    release_file = RELEASE_MANIFEST_DIR / (release + ".json")
     if not release_file.exists():
         log.error(f"Release `{Fore.LIGHTRED_EX}{release_file}{Fore.RESET}` not found!")
         return None
@@ -56,7 +56,7 @@ def load_release(release: str) -> GTNHRelease | None:
 
 
 def save_release(release: GTNHRelease, update: bool = False) -> bool:
-    release_file = RELEASE_DIR / (release.version + ".json")
+    release_file = RELEASE_MANIFEST_DIR / (release.version + ".json")
     if not update and release_file.exists():
         log.error(f"Release `{Fore.LIGHTRED_EX}{release_file}{Fore.RESET}` already exists and update not specified!")
         return False
@@ -77,6 +77,6 @@ if __name__ == "__main__":
     from gtnh.mod_manager import GTNHModManager
 
     m = GTNHModManager()
-    r = m.get_release("nightly")
-
-    download_release(m, r)
+    release = m.get_release("nightly")
+    if release:
+        download_release(m, release)

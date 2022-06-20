@@ -13,6 +13,7 @@ from gtnh.defs import CACHE_DIR, GREEN_CHECK, MODS_CACHE_DIR, RED_CROSS
 from gtnh.mod_manager import GTNHModManager
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.mod_info import ModInfo
+from gtnh.models.mod_version import ModVersion
 from gtnh.utils import get_token
 
 log = get_logger(__name__)
@@ -26,13 +27,18 @@ def ensure_cache_dir(mod_name: str | None = None) -> Path:
     return CACHE_DIR
 
 
+def get_mod_version_cache_location(mod_name: str, version: ModVersion) -> Path:
+    cache_dir = ensure_cache_dir(mod_name)
+    return cache_dir / "mods" / mod_name / str(version.filename)
+
+
 @retry(delay=5, tries=3)
 def download_github_mod(mod: ModInfo, mod_version: str | None = None) -> Path | None:
     if mod_version is None:
         mod_version = mod.latest_version
 
     version = mod.get_version(mod_version)
-    if not version:
+    if not version or not version.filename or not version.download_url:
         log.error(
             f"{RED_CROSS} {Fore.RED}Version `{Fore.YELLOW}{mod_version}{Fore.RED}` not found for Github Mod " f"`{Fore.CYAN}{mod.name}{Fore.RED}`{Fore.RESET}"
         )
@@ -41,8 +47,7 @@ def download_github_mod(mod: ModInfo, mod_version: str | None = None) -> Path | 
     private_repo = f" {Fore.MAGENTA}<PRIVATE REPO>{Fore.RESET}" if mod.private else ""
     log.info(f"Downloading Github Mod `{Fore.CYAN}{mod.name}:{Fore.YELLOW}{mod_version}{Fore.RESET}` from {version.browser_download_url}{private_repo}")
 
-    cache_dir = ensure_cache_dir(mod.name)
-    mod_filename = cache_dir / "mods" / mod.name / version.filename
+    mod_filename = get_mod_version_cache_location(mod.name, version)
 
     if os.path.exists(mod_filename):
         log.info(f"{Fore.YELLOW}Skipping re-redownload of {mod_filename}{Fore.RESET}")
@@ -65,16 +70,15 @@ def download_external_mod(mod: ModInfo, mod_version: str | None = None) -> Path 
         mod_version = mod.latest_version
 
     version = mod.get_version(mod_version)
-    if not version:
+    if not version or not version.filename:
         log.error(
             f"{RED_CROSS} {Fore.RED}Version `{Fore.YELLOW}{mod_version}{Fore.RED}` not found for External Mod " f"`{Fore.CYAN}{mod.name}{Fore.RED}`{Fore.RESET}"
         )
         return None
 
-    log.info(f"Downloading External Mod `{Fore.CYAN}{mod.name}:{Fore.YELLOW}{mod_version}{Fore.RESET}` from {version.browser_download_url}{private_repo}")
+    log.info(f"Downloading External Mod `{Fore.CYAN}{mod.name}:{Fore.YELLOW}{mod_version}{Fore.RESET}` from {version.browser_download_url}")
 
-    cache_dir = ensure_cache_dir(mod.name)
-    mod_filename = cache_dir / "mods" / str(mod.filename)
+    mod_filename = get_mod_version_cache_location(mod.name, version)
 
     if os.path.exists(mod_filename):
         log.info(f"{Fore.YELLOW}Skipping re-redownload of {mod_filename}{Fore.RESET}")
