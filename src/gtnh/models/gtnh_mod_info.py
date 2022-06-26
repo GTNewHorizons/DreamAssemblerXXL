@@ -13,13 +13,7 @@ from structlog import get_logger
 
 from gtnh.defs import MAVEN_BASE_URL, OTHER, ROOT_DIR, UNKNOWN, Side
 from gtnh.models.base import GTNHBaseModel
-from gtnh.models.versionable import (
-    Versionable,
-    get_latest_github_release,
-    update_versions_from_repo,
-    version_is_newer,
-    version_sort_key,
-)
+from gtnh.models.versionable import Versionable, get_latest_github_release, update_versions_from_repo, version_is_newer
 
 log = get_logger(__name__)
 
@@ -102,7 +96,8 @@ def update_github_mod_from_repo(mod: GTNHModInfo, repo: Repository) -> bool:
         log.info(f"Updated Private Repo Status: {mod.private}")
         mod_updated = True
 
-    if version_updated or not mod.versions or not mod.versions == sorted(mod.versions, key=version_sort_key):
+    # Versionable
+    if version_updated or not mod.versions:
         mod_updated |= update_versions_from_repo(mod, repo)
 
     return mod_updated

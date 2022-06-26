@@ -14,7 +14,7 @@ from gtnh.models.gtnh_config import CONFIG_REPO_NAME
 from gtnh.models.gtnh_mod_info import GTNHModInfo, mod_from_repo, update_github_mod_from_repo
 from gtnh.models.gtnh_modpack import GTNHModpack
 from gtnh.models.gtnh_release import GTNHRelease, load_release, save_release
-from gtnh.models.versionable import update_versions_from_repo, version_sort_key
+from gtnh.models.versionable import get_latest_github_release, update_versions_from_repo, version_is_newer
 from gtnh.utils import get_token
 
 log = get_logger(__name__)
@@ -94,7 +94,17 @@ class GTNHModpackManager:
         if not repo:
             raise Exception("GTNH Modpack Config repo not found")
         config = self.assets.config
-        if not config.versions or not config.versions == sorted(config.versions, key=version_sort_key):
+
+        latest_release = get_latest_github_release(repo)
+
+        latest_version = latest_release.tag_name if latest_release else "<unknown>"
+
+        version_updated = False
+        if version_is_newer(latest_version, config.latest_version):
+            # Candidate update found
+            version_updated = True
+
+        if not config.versions or version_updated:
             update_versions_from_repo(config, repo)
 
         return True
@@ -108,6 +118,7 @@ class GTNHModpackManager:
         if overrides:
             log.info(f"Using overrides: `{Fore.GREEN}{overrides}{Fore.RESET}`")
 
+        config = self.assets.config.latest_version
         github_mods: dict[str, str] = {}
         for mod in self.assets.github_mods:
             if mod.disabled:
@@ -126,7 +137,7 @@ class GTNHModpackManager:
             github_mods[mod.name] = mod.latest_version
         external_mods: dict[str, str] = {}
 
-        return GTNHRelease(version=version, github_mods=github_mods, external_mods=external_mods)
+        return GTNHRelease(version=version, config=config, github_mods=github_mods, external_mods=external_mods)
 
     def add_github_mod(self, name: str) -> GTNHModInfo | None:
         """

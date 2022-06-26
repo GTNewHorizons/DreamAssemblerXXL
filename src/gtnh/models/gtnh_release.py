@@ -16,6 +16,7 @@ class GTNHRelease(GTNHBaseModel):
     last_updated: datetime = Field(default_factory=datetime.utcnow)
 
     # ModName, Version
+    config: str
     github_mods: dict[str, str]
     external_mods: dict[str, str]
 
