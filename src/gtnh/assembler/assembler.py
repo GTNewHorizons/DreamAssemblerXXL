@@ -7,13 +7,13 @@ from structlog import get_logger
 
 from gtnh.assembler.downloader import get_mod_version_cache_location
 from gtnh.defs import RELEASE_ZIP_DIR, Side
-from gtnh.mod_manager import GTNHModManager
 from gtnh.models.gtnh_release import GTNHRelease
+from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
 
 
-def assemble_release(mod_manager: GTNHModManager, side: Side, release: GTNHRelease, callback: Optional[Callable[[float, str], None]] = None) -> None:
+def assemble_release(mod_manager: GTNHModpackManager, side: Side, release: GTNHRelease, callback: Optional[Callable[[float, str], None]] = None) -> None:
     """
     Assemble a release.  Assumes the mods have already been downloaded and cached.
     :param mod_manager: GTNH Mod Manager
@@ -40,7 +40,7 @@ def assemble_release(mod_manager: GTNHModManager, side: Side, release: GTNHRelea
 
     with ZipFile(archive_name, "w") as archive:
         for mod_name, mod_version in release.github_mods.items():
-            mod = mod_manager.mods.get_github_mod(mod_name)
+            mod = mod_manager.assets.get_github_mod(mod_name)
             if not mod:
                 log.error(f"Cannot find mod {mod_name}")
                 return

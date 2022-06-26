@@ -5,7 +5,7 @@ from pydantic import Field
 from structlog import get_logger
 
 from gtnh.defs import GREEN_CHECK, RED_CROSS, RELEASE_MANIFEST_DIR
-from gtnh.models.available_mods import AvailableMods
+from gtnh.models.available_assets import AvailableAssets
 from gtnh.models.base import GTNHBaseModel
 
 log = get_logger(__name__)
@@ -19,15 +19,15 @@ class GTNHRelease(GTNHBaseModel):
     github_mods: dict[str, str]
     external_mods: dict[str, str]
 
-    def validate_release(self, available_mods: AvailableMods) -> bool:
+    def validate_release(self, available_assets: AvailableAssets) -> bool:
         """
         Validate's a release against `available_mods`
-        :param available_mods: A list of available github and external mods
+        :param available_assets: A list of available github and external mods
         :return: Validity as a boolean
         """
 
         for mod_name, mod_version in self.github_mods.items():
-            mod = available_mods.get_github_mod(mod_name)
+            mod = available_assets.get_github_mod(mod_name)
             if mod is None:
                 log.error(f"{RED_CROSS} {Fore.RED}Github Mod " f"`{Fore.CYAN}{mod_name}:{Fore.YELLOW}{mod_version}{Fore.RED}` not found!{Fore.RESET}")
                 return False
@@ -74,9 +74,9 @@ def save_release(release: GTNHRelease, update: bool = False) -> bool:
 
 if __name__ == "__main__":
     from gtnh.assembler.downloader import download_release
-    from gtnh.mod_manager import GTNHModManager
+    from gtnh.modpack_manager import GTNHModpackManager
 
-    m = GTNHModManager()
+    m = GTNHModpackManager()
     release = m.get_release("nightly")
     if release:
         download_release(m, release)

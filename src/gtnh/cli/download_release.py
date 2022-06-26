@@ -2,7 +2,7 @@ import click
 from structlog import get_logger
 
 from gtnh.assembler.downloader import download_release
-from gtnh.mod_manager import GTNHModManager
+from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
 
@@ -10,7 +10,7 @@ log = get_logger(__name__)
 @click.command()
 @click.argument("release-name")
 def do_download_release(release_name: str) -> None:
-    m = GTNHModManager()
+    m = GTNHModpackManager()
     release = m.get_release(release_name)
     if release:
         download_release(mod_manager=m, release=release)

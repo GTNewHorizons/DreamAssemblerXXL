@@ -10,10 +10,10 @@ from retry import retry
 from structlog import get_logger
 
 from gtnh.defs import CACHE_DIR, GREEN_CHECK, MODS_CACHE_DIR, RED_CROSS
-from gtnh.mod_manager import GTNHModManager
+from gtnh.models.gtnh_mod_info import GTNHModInfo
 from gtnh.models.gtnh_release import GTNHRelease
-from gtnh.models.mod_info import ModInfo
-from gtnh.models.mod_version import ModVersion
+from gtnh.models.gtnh_version import GTNHVersion
+from gtnh.modpack_manager import GTNHModpackManager
 from gtnh.utils import get_token
 
 log = get_logger(__name__)
@@ -27,13 +27,13 @@ def ensure_cache_dir(mod_name: str | None = None) -> Path:
     return CACHE_DIR
 
 
-def get_mod_version_cache_location(mod_name: str, version: ModVersion) -> Path:
+def get_mod_version_cache_location(mod_name: str, version: GTNHVersion) -> Path:
     cache_dir = ensure_cache_dir(mod_name)
     return cache_dir / "mods" / mod_name / str(version.filename)
 
 
 @retry(delay=5, tries=3)
-def download_github_mod(mod: ModInfo, mod_version: str | None = None) -> Path | None:
+def download_github_mod(mod: GTNHModInfo, mod_version: str | None = None) -> Path | None:
     if mod_version is None:
         mod_version = mod.latest_version
 
@@ -65,7 +65,7 @@ def download_github_mod(mod: ModInfo, mod_version: str | None = None) -> Path | 
     return mod_filename
 
 
-def download_external_mod(mod: ModInfo, mod_version: str | None = None) -> Path | None:
+def download_external_mod(mod: GTNHModInfo, mod_version: str | None = None) -> Path | None:
     if mod_version is None:
         mod_version = mod.latest_version
 
@@ -97,7 +97,7 @@ def download_external_mod(mod: ModInfo, mod_version: str | None = None) -> Path 
 
 
 def download_release(
-    mod_manager: GTNHModManager,
+    mod_manager: GTNHModpackManager,
     release: GTNHRelease,
     callback: Callable[[float, str], None] | None = None,
 ) -> list[Path]:
@@ -122,7 +122,7 @@ def download_release(
     log.info(f"Downloading {Fore.GREEN}{len(release.github_mods)}{Fore.RESET} Github Mod(s)")
     # download of the github mods
     for mod_name, mod_version in release.github_mods.items():
-        mod = mod_manager.mods.get_github_mod(mod_name)
+        mod = mod_manager.assets.get_github_mod(mod_name)
 
         if callback is not None:
             callback(delta_progress, f"downloading github mods. current mod: {mod.name} Progress: {{0}}%")
@@ -132,7 +132,7 @@ def download_release(
             downloaded.append(path)
 
     for mod_name, mod_version in release.external_mods.items():
-        mod = mod_manager.mods.get_external_mod(mod_name)
+        mod = mod_manager.assets.get_external_mod(mod_name)
         if callback is not None:
             callback(delta_progress, f"downloading external mods. current mod: {mod.name} Progress: {{0}}%")
 

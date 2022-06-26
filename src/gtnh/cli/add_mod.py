@@ -1,7 +1,7 @@
 import click
 from structlog import get_logger
 
-from gtnh.mod_manager import GTNHModManager
+from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
 
@@ -10,9 +10,9 @@ log = get_logger(__name__)
 @click.argument("name")
 def add_mod(name: str) -> None:
     log.info(f"Trying to add mod {name}")
-    m = GTNHModManager()
+    m = GTNHModpackManager()
     if m.add_github_mod(name):
-        m.save_mods()
+        m.save_assets()
 
 
 if __name__ == "__main__":

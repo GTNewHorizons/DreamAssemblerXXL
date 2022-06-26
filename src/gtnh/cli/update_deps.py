@@ -18,7 +18,7 @@ import re
 from in_place import InPlace
 from structlog import get_logger
 
-from gtnh.mod_manager import GTNHModManager
+from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
 
@@ -39,15 +39,15 @@ def find_and_update_deps() -> None:
     if not os.path.exists(DEP_FILE):
         log.error(f"ERROR: Unable to locate {DEP_FILE} in the current directory")
         return
-    m = GTNHModManager()
+    m = GTNHModpackManager()
 
     with InPlace(DEP_FILE) as fp:
         for line in fp:
             match = MOD_AND_VERSION.search(line)
             if match is not None:
                 mod_name, mod_version = match[1], match[2]
-                if m.mods.has_github_mod(mod_name):
-                    mod_info = m.mods.get_github_mod(mod_name)
+                if m.assets.has_github_mod(mod_name):
+                    mod_info = m.assets.get_github_mod(mod_name)
                     latest_version = mod_info.latest_version
                     if mod_version != latest_version:
                         log.info(f"Updating {mod_name} from `{mod_version}` to '{latest_version}'")

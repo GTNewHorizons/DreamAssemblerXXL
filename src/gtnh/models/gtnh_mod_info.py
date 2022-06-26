@@ -1,62 +1,47 @@
-import bisect
 import json
-from typing import List, Optional
+from typing import Optional
 
 import requests
-from colorama import Fore, Style
+from colorama import Fore
 from github.GitRelease import GitRelease
 from github.GithubException import UnknownObjectException
 from github.Repository import Repository
 
 # Using LegacyVersion because we want everything to be comparable
-from packaging.version import LegacyVersion
 from pydantic import Field
 from structlog import get_logger
 
 from gtnh.defs import MAVEN_BASE_URL, OTHER, ROOT_DIR, UNKNOWN, Side
 from gtnh.models.base import GTNHBaseModel
-from gtnh.models.mod_version import ModVersion, version_from_release
+from gtnh.models.versionable import (
+    Versionable,
+    get_latest_github_release,
+    update_versions_from_repo,
+    version_is_newer,
+    version_sort_key,
+)
 
 log = get_logger(__name__)
 
 
-class ModInfo(GTNHBaseModel):
-    name: str
+class GTNHModInfo(GTNHBaseModel, Versionable):
     license: Optional[str] = Field(default=UNKNOWN)
     repo_url: Optional[str] = Field(default=None)
     maven: Optional[str] = Field(default=None)
     side: Side = Field(default=Side.BOTH)
-    latest_version: str
 
     private: bool = Field(default=False)
     disabled: bool = Field(default=False)
 
-    versions: List[ModVersion] = Field(default_factory=list)
 
-    def add_version(self, version: ModVersion) -> None:
-        bisect.insort_right(self.versions, version, key=version_sort_key)  # type: ignore
-
-    def get_latest_version(self) -> ModVersion | None:
-        return self.versions[-1] if self.versions else None
-
-    def get_version(self, version: str) -> ModVersion | None:
-        i = bisect.bisect_left(self.versions, LegacyVersion(version), key=version_sort_key)  # type: ignore
-        if i != len(self.versions) and self.versions[i] and self.versions[i].version_tag == version:
-            return self.versions[i]
-        return None
-
-    def has_version(self, version: str) -> bool:
-        return self.get_version(version) is not None
-
-
-def mod_from_repo(repo: Repository, side: Side = Side.BOTH) -> ModInfo:
+def mod_from_repo(repo: Repository, side: Side = Side.BOTH) -> GTNHModInfo:
     try:
         latest_release: GitRelease = repo.get_latest_release()
         latest_version = latest_release.tag_name
     except UnknownObjectException:
         latest_version = "<unknown>"
 
-    mod = ModInfo(
+    mod = GTNHModInfo(
         name=repo.name,
         license=get_license(repo),
         repo_url=repo.html_url,
@@ -73,15 +58,7 @@ def mod_from_repo(repo: Repository, side: Side = Side.BOTH) -> ModInfo:
     return mod
 
 
-def version_sort_key(version: ModVersion) -> LegacyVersion:
-    return LegacyVersion(version.version_tag)
-
-
-def version_is_newer(test_version: str, existing_version: str) -> bool:
-    return LegacyVersion(test_version) > LegacyVersion(existing_version)
-
-
-def update_github_mod_from_repo(mod: ModInfo, repo: Repository) -> bool:
+def update_github_mod_from_repo(mod: GTNHModInfo, repo: Repository) -> bool:
     """
     Attempt to update a github mod from a github repository.
     :param mod: The mod to check for update
@@ -129,46 +106,6 @@ def update_github_mod_from_repo(mod: ModInfo, repo: Repository) -> bool:
         mod_updated |= update_versions_from_repo(mod, repo)
 
     return mod_updated
-
-
-def update_versions_from_repo(mod: ModInfo, repo: Repository) -> bool:
-    releases = repo.get_releases()
-    version_updated = False
-
-    mod.versions = sorted(mod.versions, key=version_sort_key)
-
-    for release in releases:
-        version = version_from_release(release)
-        if not version:
-            log.error(f"{Fore.RED}No assets found for mod `{Fore.CYAN}{mod.name}{Fore.RESET}` release " f"`{release.tag_name}, skipping.{Style.RESET_ALL}")
-            continue
-
-        if version_is_newer(version.version_tag, mod.latest_version):
-            log.info(
-                f"Updating latest version for `{Fore.CYAN}{mod.name}{Fore.RESET}` "
-                f"{Style.DIM}{Fore.GREEN}{mod.latest_version}{Style.RESET_ALL} -> "
-                f"{Fore.GREEN}{version.version_tag}{Style.RESET_ALL}"
-            )
-            mod.latest_version = version.version_tag
-
-        if mod.has_version(version.version_tag):
-            log.info(f"Mod `{Fore.CYAN}{mod.name}{Fore.RESET}` already has version " f"`{Fore.YELLOW}{version.version_tag}{Fore.RESET}` skipping")
-        else:
-            log.info(f"Adding version {Fore.GREEN}`{version.version_tag}`{Style.RESET_ALL} to mod " f"`{Fore.CYAN}{mod.name}{Fore.RESET}`")
-            mod.add_version(version)
-
-        version_updated = True
-    return version_updated
-
-
-def get_latest_github_release(repo: Repository) -> GitRelease | None:
-    try:
-        latest_release = repo.get_latest_release()
-    except UnknownObjectException:
-        log.error(f"{Fore.RED}No latest release found for {Fore.CYAN}{repo.name}{Style.RESET_ALL}")
-        latest_release = None
-
-    return latest_release
 
 
 def get_license(repo: Repository) -> str | None:

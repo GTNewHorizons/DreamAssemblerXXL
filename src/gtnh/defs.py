@@ -15,7 +15,7 @@ RELEASE_DIR = ROOT_DIR / "releases"
 RELEASE_MANIFEST_DIR = RELEASE_DIR / "manifests"
 RELEASE_ZIP_DIR = RELEASE_DIR / "zip"
 
-AVAILABLE_MODS_FILE = "gtnh-mods.json"
+AVAILABLE_ASSETS_FILE = "gtnh-assets.json"
 GTNH_MODPACK_FILE = "gtnh-modpack.json"
 BLACKLISTED_REPOS_FILE = "repo-blacklist.json"
 UNKNOWN = "Unknown"
@@ -31,3 +31,8 @@ class Side(str, Enum):
     CLIENT = "CLIENT"
     BOTH = "BOTH"
     NONE = "NONE"
+
+
+class VersionableType(str, Enum):
+    mod = "mod"
+    config = "config"

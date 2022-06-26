@@ -3,7 +3,7 @@ import click
 from colorama import Fore, Style, init
 from structlog import get_logger
 
-from gtnh.mod_manager import GTNHModManager
+from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
 
@@ -26,10 +26,12 @@ def update_check(mods: str | None = None) -> None:
     if mods_to_update:
         log.info(f"Attemting to update mod(s): `{mods_to_update}`")
 
-    m = GTNHModManager()
+    m = GTNHModpackManager()
 
     log.info("Grabbing all repository information...")
-    m.update_available_mods(mods_to_update)
+    m.get_all_repos()
+    log.info("Updating things...")
+    m.update_all(mods_to_update)
 
     missing_repos = m.get_missing_repos(m.get_all_repos())
     if len(missing_repos):
