@@ -365,7 +365,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-86-GTNH",
+      "latest_version": "rv3-beta-88-GTNH-pre",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -550,6 +550,22 @@
           "filename": "appliedenergistics2-1.7.10-rv3-beta-86-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/68282235",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-86-GTNH/appliedenergistics2-1.7.10-rv3-beta-86-GTNH.jar"
+        },
+        {
+          "version_tag": "rv3-beta-87-GTNH",
+          "prerelease": false,
+          "tagged_at": "2022-06-23T16:11:50+00:00",
+          "filename": "appliedenergistics2-1.7.10-rv3-beta-87-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/69404664",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-87-GTNH/appliedenergistics2-1.7.10-rv3-beta-87-GTNH.jar"
+        },
+        {
+          "version_tag": "rv3-beta-88-GTNH-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-26T12:55:24+00:00",
+          "filename": "appliedenergistics2-1.7.10-rv3-beta-88-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/69681357",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-88-GTNH-pre/appliedenergistics2-1.7.10-rv3-beta-88-GTNH-pre.jar"
         }
       ],
       "type": "mod",
@@ -798,7 +814,7 @@
     },
     {
       "name": "bartworks",
-      "latest_version": "0.5.48-pre",
+      "latest_version": "0.5.53-pre",
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -991,6 +1007,30 @@
           "filename": "bartworks-1.7.10-0.5.47-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/68899165",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.48-pre/bartworks-1.7.10-0.5.47-pre.jar"
+        },
+        {
+          "version_tag": "0.5.51-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T18:55:41+00:00",
+          "filename": "bartworks-1.7.10-0.5.51-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/69534112",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.51-pre/bartworks-1.7.10-0.5.51-pre.jar"
+        },
+        {
+          "version_tag": "0.5.52-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T20:10:07+00:00",
+          "filename": "bartworks-1.7.10-0.5.52-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/69539537",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.52-pre/bartworks-1.7.10-0.5.52-pre.jar"
+        },
+        {
+          "version_tag": "0.5.53-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-26T11:53:16+00:00",
+          "filename": "bartworks-1.7.10-0.5.53-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/69678174",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.53-pre/bartworks-1.7.10-0.5.53-pre.jar"
         }
       ],
       "type": "mod",
@@ -1581,7 +1621,7 @@
     },
     {
       "name": "BloodMagic",
-      "latest_version": "1.3.9",
+      "latest_version": "1.3.10",
       "versions": [
         {
           "version_tag": "1.3.3-29",
@@ -1654,6 +1694,14 @@
           "filename": "BloodMagic-1.7.10-1.3.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BloodMagic/releases/assets/68040373",
           "browser_download_url": "https://github.com/GTNewHorizons/BloodMagic/releases/download/1.3.9/BloodMagic-1.7.10-1.3.9.jar"
+        },
+        {
+          "version_tag": "1.3.10",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T19:09:38+00:00",
+          "filename": "BloodMagic-1.7.10-1.3.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BloodMagic/releases/assets/69534934",
+          "browser_download_url": "https://github.com/GTNewHorizons/BloodMagic/releases/download/1.3.10/BloodMagic-1.7.10-1.3.10.jar"
         }
       ],
       "type": "mod",
@@ -1711,7 +1759,7 @@
     },
     {
       "name": "Botanic-horizons",
-      "latest_version": "1.0.7-GTNH-dev",
+      "latest_version": "1.0.8-GTNH",
       "versions": [
         {
           "version_tag": "1.0.1-GTNH",
@@ -1768,6 +1816,14 @@
           "filename": "BotanicHorizons-1.7.10-1.0.7-GTNH-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/68492991",
           "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.7-GTNH-dev/BotanicHorizons-1.7.10-1.0.7-GTNH-dev.jar"
+        },
+        {
+          "version_tag": "1.0.8-GTNH",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T19:16:57+00:00",
+          "filename": "BotanicHorizons-1.7.10-1.0.8-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/69535448",
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.8-GTNH/BotanicHorizons-1.7.10-1.0.8-GTNH.jar"
         }
       ],
       "type": "mod",
@@ -1912,7 +1968,7 @@
     },
     {
       "name": "Chisel",
-      "latest_version": "2.10.11-GTNH-dev",
+      "latest_version": "2.10.12-GTNH",
       "versions": [
         {
           "version_tag": "2.9.7",
@@ -2009,6 +2065,14 @@
           "filename": "chisel-1.7.10-2.10.10-GTNH-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/68282432",
           "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.10.11-GTNH-dev/chisel-1.7.10-2.10.10-GTNH-dev.jar"
+        },
+        {
+          "version_tag": "2.10.12-GTNH",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T19:15:23+00:00",
+          "filename": "chisel-1.7.10-2.10.12-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/69535379",
+          "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.10.12-GTNH/chisel-1.7.10-2.10.12-GTNH.jar"
         }
       ],
       "type": "mod",
@@ -2730,7 +2794,7 @@
     },
     {
       "name": "EnderCore",
-      "latest_version": "0.2.7",
+      "latest_version": "0.2.9",
       "versions": [
         {
           "version_tag": "0.2.1",
@@ -2787,6 +2851,30 @@
           "filename": "endercore-1.7.10-0.2.7.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderCore/releases/assets/68498195",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.7/endercore-1.7.10-0.2.7.jar"
+        },
+        {
+          "version_tag": "0.2.8-dev",
+          "prerelease": false,
+          "tagged_at": "2022-06-21T18:22:12+00:00",
+          "filename": "endercore-1.7.10-0.2.8-dev.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderCore/releases/assets/69161721",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.8-dev/endercore-1.7.10-0.2.8-dev.jar"
+        },
+        {
+          "version_tag": "0.2.8",
+          "prerelease": false,
+          "tagged_at": "2022-06-22T09:34:38+00:00",
+          "filename": "endercore-1.7.10-0.2.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderCore/releases/assets/69233747",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.8/endercore-1.7.10-0.2.8.jar"
+        },
+        {
+          "version_tag": "0.2.9",
+          "prerelease": false,
+          "tagged_at": "2022-06-25T17:26:48+00:00",
+          "filename": "endercore-1.7.10-0.2.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderCore/releases/assets/69613862",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.9/endercore-1.7.10-0.2.9.jar"
         }
       ],
       "type": "mod",
@@ -2799,7 +2887,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.3.1.34-dev",
+      "latest_version": "2.3.1.38",
       "versions": [
         {
           "version_tag": "2.3.0.433",
@@ -2952,6 +3040,38 @@
           "filename": "EnderIO-1.7.10-2.3.1.34-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/68608151",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.34-dev/EnderIO-1.7.10-2.3.1.34-dev.jar"
+        },
+        {
+          "version_tag": "2.3.1.35",
+          "prerelease": false,
+          "tagged_at": "2022-06-22T09:33:27+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.35.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/69233682",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.35/EnderIO-1.7.10-2.3.1.35.jar"
+        },
+        {
+          "version_tag": "2.3.1.36-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-25T17:57:02+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.36-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/69615565",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.36-pre/EnderIO-1.7.10-2.3.1.36-pre.jar"
+        },
+        {
+          "version_tag": "2.3.1.37-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-25T18:38:47+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.37-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/69617830",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.37-pre/EnderIO-1.7.10-2.3.1.37-pre.jar"
+        },
+        {
+          "version_tag": "2.3.1.38",
+          "prerelease": false,
+          "tagged_at": "2022-06-26T11:46:15+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.38.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/69677859",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.38/EnderIO-1.7.10-2.3.1.38.jar"
         }
       ],
       "type": "mod",
@@ -3141,7 +3261,7 @@
     },
     {
       "name": "ExtraCells2",
-      "latest_version": "2.5.12-dev",
+      "latest_version": "2.5.14",
       "versions": [
         {
           "version_tag": "2.3.1-17",
@@ -3270,6 +3390,22 @@
           "filename": "ExtraCells-1.7.10-2.5.12-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ExtraCells2/releases/assets/68607142",
           "browser_download_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.12-dev/ExtraCells-1.7.10-2.5.12-dev.jar"
+        },
+        {
+          "version_tag": "2.5.13-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-22T09:59:02+00:00",
+          "filename": "ExtraCells-1.7.10-2.5.13-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ExtraCells2/releases/assets/69236551",
+          "browser_download_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.13-pre/ExtraCells-1.7.10-2.5.13-pre.jar"
+        },
+        {
+          "version_tag": "2.5.14",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T19:02:12+00:00",
+          "filename": "ExtraCells-1.7.10-2.5.13-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ExtraCells2/releases/assets/69534572",
+          "browser_download_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.14/ExtraCells-1.7.10-2.5.13-pre.jar"
         }
       ],
       "type": "mod",
@@ -3735,7 +3871,7 @@
     },
     {
       "name": "Galacticraft",
-      "latest_version": "3.0.42-GTNH",
+      "latest_version": "3.0.43-GTNH",
       "versions": [
         {
           "version_tag": "3.0.33-GTNH",
@@ -3808,6 +3944,14 @@
           "filename": "Galacticraft-1.7.10-3.0.42-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/68499590",
           "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.42-GTNH/Galacticraft-1.7.10-3.0.42-GTNH.jar"
+        },
+        {
+          "version_tag": "3.0.43-GTNH",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T19:11:08+00:00",
+          "filename": "Galacticraft-1.7.10-3.0.43-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/69535077",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.43-GTNH/Galacticraft-1.7.10-3.0.43-GTNH.jar"
         }
       ],
       "type": "mod",
@@ -3820,7 +3964,7 @@
     },
     {
       "name": "Galaxy-Space-GTNH",
-      "latest_version": "1.1.16-GTNH",
+      "latest_version": "1.1.16g-GTNH",
       "versions": [
         {
           "version_tag": "1.1.8-GTNH",
@@ -3917,6 +4061,14 @@
           "filename": "GalaxySpace-1.7.10-1.1.16-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/58086574",
           "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.16-GTNH/GalaxySpace-1.7.10-1.1.16-GTNH.jar"
+        },
+        {
+          "version_tag": "1.1.16g-GTNH",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T19:14:19+00:00",
+          "filename": "GalaxySpace-1.7.10-1.1.16g-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/69535310",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.16g-GTNH/GalaxySpace-1.7.10-1.1.16g-GTNH.jar"
         }
       ],
       "type": "mod",
@@ -3966,7 +4118,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.4.4",
+      "latest_version": "0.4.5",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -4103,6 +4255,14 @@
           "filename": "GoodGenerator-1.7.10-0.4.4.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/68491467",
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.4/GoodGenerator-1.7.10-0.4.4.jar"
+        },
+        {
+          "version_tag": "0.4.5",
+          "prerelease": false,
+          "tagged_at": "2022-06-22T09:36:10+00:00",
+          "filename": "GoodGenerator-1.7.10-0.4.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/69233894",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.5/GoodGenerator-1.7.10-0.4.5.jar"
         }
       ],
       "type": "mod",
@@ -4115,7 +4275,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.40.55-dev",
+      "latest_version": "5.09.40.65-pre",
       "versions": [
         {
           "version_tag": "5.09.40.01",
@@ -4580,6 +4740,86 @@
           "filename": "gregtech-1.7.10-5.09.40.55-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/68697095",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.55-dev/gregtech-1.7.10-5.09.40.55-dev.jar"
+        },
+        {
+          "version_tag": "5.09.40.56-dev",
+          "prerelease": false,
+          "tagged_at": "2022-06-19T23:17:23+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.56-dev.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/68972775",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.56-dev/gregtech-1.7.10-5.09.40.56-dev.jar"
+        },
+        {
+          "version_tag": "5.09.40.57-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-22T15:52:14+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.57-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/69275772",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.57-pre/gregtech-1.7.10-5.09.40.57-pre.jar"
+        },
+        {
+          "version_tag": "5.09.40.58",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T01:13:45+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.58.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/69448388",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.58/gregtech-1.7.10-5.09.40.58.jar"
+        },
+        {
+          "version_tag": "5.09.40.59",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T18:19:28+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.59.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/69531792",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.59/gregtech-1.7.10-5.09.40.59.jar"
+        },
+        {
+          "version_tag": "5.09.40.60-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T18:19:33+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.60-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/69531799",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.60-pre/gregtech-1.7.10-5.09.40.60-pre.jar"
+        },
+        {
+          "version_tag": "5.09.40.61-dev",
+          "prerelease": false,
+          "tagged_at": "2022-06-25T00:06:01+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.61-dev.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/69556382",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.61-dev/gregtech-1.7.10-5.09.40.61-dev.jar"
+        },
+        {
+          "version_tag": "5.09.40.62-dev",
+          "prerelease": false,
+          "tagged_at": "2022-06-25T01:28:55+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.59-dev.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/69561041",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.62-dev/gregtech-1.7.10-5.09.40.59-dev.jar"
+        },
+        {
+          "version_tag": "5.09.40.63-dev",
+          "prerelease": false,
+          "tagged_at": "2022-06-25T02:09:54+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.63-dev.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/69562702",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.63-dev/gregtech-1.7.10-5.09.40.63-dev.jar"
+        },
+        {
+          "version_tag": "5.09.40.64-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-25T19:06:00+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.64-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/69620250",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.64-pre/gregtech-1.7.10-5.09.40.64-pre.jar"
+        },
+        {
+          "version_tag": "5.09.40.65-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-26T11:18:13+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.65-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/69675499",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.65-pre/gregtech-1.7.10-5.09.40.65-pre.jar"
         }
       ],
       "type": "mod",
@@ -4621,7 +4861,7 @@
     },
     {
       "name": "GTNH-Lanthanides",
-      "latest_version": "0.8.8",
+      "latest_version": "0.8.9",
       "versions": [
         {
           "version_tag": "0.8.1",
@@ -4686,6 +4926,14 @@
           "filename": "gtnhlanth-1.7.10-0.8.8.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/68492759",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.8.8/gtnhlanth-1.7.10-0.8.8.jar"
+        },
+        {
+          "version_tag": "0.8.9",
+          "prerelease": false,
+          "tagged_at": "2022-06-25T18:04:55+00:00",
+          "filename": "gtnhlanth-1.7.10-0.8.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/69615878",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.8.9/gtnhlanth-1.7.10-0.8.9.jar"
         }
       ],
       "type": "mod",
@@ -4775,7 +5023,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.7.42-dev",
+      "latest_version": "1.7.44",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -4944,6 +5192,22 @@
           "filename": "GT-PlusPlus-1.7.10-1.7.42-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/68698079",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.42-dev/GT-PlusPlus-1.7.10-1.7.42-dev.jar"
+        },
+        {
+          "version_tag": "1.7.43-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-22T08:23:11+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.43-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/69225228",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.43-pre/GT-PlusPlus-1.7.10-1.7.43-pre.jar"
+        },
+        {
+          "version_tag": "1.7.44",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T18:42:58+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.44.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/69533374",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.44/GT-PlusPlus-1.7.10-1.7.44.jar"
         }
       ],
       "type": "mod",
@@ -5232,7 +5496,7 @@
     },
     {
       "name": "HoloInventory",
-      "latest_version": "2.1.9-GTNH",
+      "latest_version": "2.1.10-GTNH-pre",
       "versions": [
         {
           "version_tag": "1.9.2-GTNH",
@@ -5313,6 +5577,14 @@
           "filename": "holoinventory-1.7.10-2.1.9-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/HoloInventory/releases/assets/68500461",
           "browser_download_url": "https://github.com/GTNewHorizons/HoloInventory/releases/download/2.1.9-GTNH/holoinventory-1.7.10-2.1.9-GTNH.jar"
+        },
+        {
+          "version_tag": "2.1.10-GTNH-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-25T18:01:02+00:00",
+          "filename": "holoinventory-1.7.10-2.1.10-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/HoloInventory/releases/assets/69615778",
+          "browser_download_url": "https://github.com/GTNewHorizons/HoloInventory/releases/download/2.1.10-GTNH-pre/holoinventory-1.7.10-2.1.10-GTNH-pre.jar"
         }
       ],
       "type": "mod",
@@ -5929,7 +6201,7 @@
     },
     {
       "name": "KekzTech",
-      "latest_version": "0.6.6",
+      "latest_version": "0.6.7",
       "versions": [
         {
           "version_tag": "0.6.0",
@@ -5994,6 +6266,14 @@
           "filename": "kekztech-1.7.10-0.6.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/KekzTech/releases/assets/68040898",
           "browser_download_url": "https://github.com/GTNewHorizons/KekzTech/releases/download/0.6.6/kekztech-1.7.10-0.6.6.jar"
+        },
+        {
+          "version_tag": "0.6.7",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T19:21:52+00:00",
+          "filename": "kekztech-1.7.10-0.6.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KekzTech/releases/assets/69535722",
+          "browser_download_url": "https://github.com/GTNewHorizons/KekzTech/releases/download/0.6.7/kekztech-1.7.10-0.6.7.jar"
         }
       ],
       "type": "mod",
@@ -6813,7 +7093,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "1.9.28-dev",
+      "latest_version": "1.9.31-pre",
       "versions": [
         {
           "version_tag": "1.9.11",
@@ -6950,6 +7230,30 @@
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.28-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/68698140",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.28-dev/GTNewHorizonsCoreMod-1.7.10-1.9.28-dev.jar"
+        },
+        {
+          "version_tag": "1.9.29",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T18:27:43+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.29.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/69532264",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.29/GTNewHorizonsCoreMod-1.7.10-1.9.29.jar"
+        },
+        {
+          "version_tag": "1.9.30-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-25T18:03:58+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.30-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/69615842",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.30-pre/GTNewHorizonsCoreMod-1.7.10-1.9.30-pre.jar"
+        },
+        {
+          "version_tag": "1.9.31-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-26T11:29:54+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.31-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/69676905",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.31-pre/GTNewHorizonsCoreMod-1.7.10-1.9.31-pre.jar"
         }
       ],
       "type": "mod",
@@ -7044,7 +7348,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.2.16-dev-GTNH",
+      "latest_version": "2.2.18-GTNH-pre",
       "versions": [
         {
           "version_tag": "v2.0.0",
@@ -7057,7 +7361,7 @@
         {
           "version_tag": "v2.0.1",
           "prerelease": false,
-          "tagged_at": "2020-03-20T17:38:44",
+          "tagged_at": "2020-03-20T17:38:44+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.1-GTNH-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/18858822",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/v2.0.1/NotEnoughItems-1.7.10-2.0.1-GTNH-universal.jar"
@@ -7065,7 +7369,7 @@
         {
           "version_tag": "v2.0.6",
           "prerelease": false,
-          "tagged_at": "2020-12-27T02:24:48",
+          "tagged_at": "2020-12-27T02:24:48+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.6-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/30004505",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/v2.0.6/NotEnoughItems-1.7.10-2.0.6-GTNH-src.jar"
@@ -7073,7 +7377,7 @@
         {
           "version_tag": "1.0.6-GTNH",
           "prerelease": false,
-          "tagged_at": "2019-06-15T19:48:12",
+          "tagged_at": "2019-06-15T19:48:12+00:00",
           "filename": "NotEnoughItems-1.7.10-1.0.6-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/13217482",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/1.0.6-GTNH/NotEnoughItems-1.7.10-1.0.6-GTNH-src.jar"
@@ -7081,7 +7385,7 @@
         {
           "version_tag": "2.0.0-beta-1-GTNH",
           "prerelease": false,
-          "tagged_at": "2020-01-17T19:54:56",
+          "tagged_at": "2020-01-17T19:54:56+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.0-beta-1-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17416273",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-1-GTNH/NotEnoughItems-1.7.10-2.0.0-beta-1-GTNH-src.jar"
@@ -7089,7 +7393,7 @@
         {
           "version_tag": "2.0.0-beta-2",
           "prerelease": false,
-          "tagged_at": "2020-01-20T17:44:56",
+          "tagged_at": "2020-01-20T17:44:56+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.0-beta-2-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17463000",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-2/NotEnoughItems-1.7.10-2.0.0-beta-2-GTNH-src.jar"
@@ -7097,7 +7401,7 @@
         {
           "version_tag": "2.0.0-beta-3",
           "prerelease": false,
-          "tagged_at": "2020-01-22T04:23:02",
+          "tagged_at": "2020-01-22T04:23:02+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.0-beta-3-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17496522",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-3/NotEnoughItems-1.7.10-2.0.0-beta-3-GTNH-src.jar"
@@ -7105,7 +7409,7 @@
         {
           "version_tag": "2.0.0-beta-4",
           "prerelease": false,
-          "tagged_at": "2020-02-02T17:51:58",
+          "tagged_at": "2020-02-02T17:51:58+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.0-beta-4-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17746305",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-4/NotEnoughItems-1.7.10-2.0.0-beta-4-GTNH-src.jar"
@@ -7113,7 +7417,7 @@
         {
           "version_tag": "2.0.0-beta-5",
           "prerelease": false,
-          "tagged_at": "2020-02-02T18:47:03",
+          "tagged_at": "2020-02-02T18:47:03+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.0-beta-5-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17746882",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-5/NotEnoughItems-1.7.10-2.0.0-beta-5-GTNH-src.jar"
@@ -7121,7 +7425,7 @@
         {
           "version_tag": "2.0.0-beta-6",
           "prerelease": false,
-          "tagged_at": "2020-02-05T04:14:54",
+          "tagged_at": "2020-02-05T04:14:54+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.0-beta-6-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17806599",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-6/NotEnoughItems-1.7.10-2.0.0-beta-6-GTNH-src.jar"
@@ -7129,7 +7433,7 @@
         {
           "version_tag": "2.0.0-pre-8-GTNH",
           "prerelease": false,
-          "tagged_at": "2020-01-02T16:01:28",
+          "tagged_at": "2020-01-02T16:01:28+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.0-pre-8-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17105093",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-8-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-8-GTNH-src.jar"
@@ -7137,7 +7441,7 @@
         {
           "version_tag": "2.0.0-pre-9-GTNH",
           "prerelease": false,
-          "tagged_at": "2020-01-02T20:31:54",
+          "tagged_at": "2020-01-02T20:31:54+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.0-pre-9-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17109210",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-9-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-9-GTNH-src.jar"
@@ -7145,7 +7449,7 @@
         {
           "version_tag": "2.0.0-pre-10-GTNH",
           "prerelease": false,
-          "tagged_at": "2020-01-03T16:58:45",
+          "tagged_at": "2020-01-03T16:58:45+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.0-pre-10-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17125044",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-10-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-10-GTNH-src.jar"
@@ -7153,7 +7457,7 @@
         {
           "version_tag": "2.0.0-pre-11-GTNH",
           "prerelease": false,
-          "tagged_at": "2020-01-05T20:59:40",
+          "tagged_at": "2020-01-05T20:59:40+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.0-pre-11-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17154137",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-11-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-11-GTNH-src.jar"
@@ -7161,7 +7465,7 @@
         {
           "version_tag": "2.0.0-pre-12-GTNH",
           "prerelease": false,
-          "tagged_at": "2020-01-07T19:57:47",
+          "tagged_at": "2020-01-07T19:57:47+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.0-pre-12-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17193124",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-12-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-12-GTNH-src.jar"
@@ -7169,7 +7473,7 @@
         {
           "version_tag": "2.0.0-pre-13-GTNH",
           "prerelease": false,
-          "tagged_at": "2020-01-10T20:01:29",
+          "tagged_at": "2020-01-10T20:01:29+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.0-pre-13-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17264106",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-13-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-13-GTNH-src.jar"
@@ -7177,7 +7481,7 @@
         {
           "version_tag": "2.0.8-GTNH",
           "prerelease": false,
-          "tagged_at": "2021-01-30T21:30:39",
+          "tagged_at": "2021-01-30T21:30:39+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.8-GTNH-src.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/31416786",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.8-GTNH/NotEnoughItems-1.7.10-2.0.8-GTNH-src.jar"
@@ -7185,7 +7489,7 @@
         {
           "version_tag": "2.1.0-GTNH-beta2",
           "prerelease": true,
-          "tagged_at": "2021-03-24T06:36:17",
+          "tagged_at": "2021-03-24T06:36:17+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-beta2-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/33905896",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta2/NotEnoughItems-1.7.10-2.1.0-GTNH-beta2-universal.jar"
@@ -7193,7 +7497,7 @@
         {
           "version_tag": "2.1.0-GTNH-beta4",
           "prerelease": true,
-          "tagged_at": "2021-03-26T04:38:57",
+          "tagged_at": "2021-03-26T04:38:57+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-beta4-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/34014176",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta4/NotEnoughItems-1.7.10-2.1.0-GTNH-beta4-universal.jar"
@@ -7201,7 +7505,7 @@
         {
           "version_tag": "2.1.0-GTNH-beta5",
           "prerelease": true,
-          "tagged_at": "2021-03-27T20:33:03",
+          "tagged_at": "2021-03-27T20:33:03+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-beta5-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/34085641",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta5/NotEnoughItems-1.7.10-2.1.0-GTNH-beta5-universal.jar"
@@ -7209,7 +7513,7 @@
         {
           "version_tag": "2.1.0-GTNH-beta9",
           "prerelease": true,
-          "tagged_at": "2021-04-01T17:12:29",
+          "tagged_at": "2021-04-01T17:12:29+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-beta9-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/34329639",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta9/NotEnoughItems-1.7.10-2.1.0-GTNH-beta9-universal.jar"
@@ -7217,7 +7521,7 @@
         {
           "version_tag": "2.1.0-GTNH-beta11",
           "prerelease": true,
-          "tagged_at": "2021-04-09T18:41:27",
+          "tagged_at": "2021-04-09T18:41:27+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-beta11-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/34725274",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta11/NotEnoughItems-1.7.10-2.1.0-GTNH-beta11-universal.jar"
@@ -7225,7 +7529,7 @@
         {
           "version_tag": "2.1.0-GTNH-beta12",
           "prerelease": true,
-          "tagged_at": "2021-04-10T17:07:10",
+          "tagged_at": "2021-04-10T17:07:10+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-beta12-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/34764280",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta12/NotEnoughItems-1.7.10-2.1.0-GTNH-beta12-universal.jar"
@@ -7233,7 +7537,7 @@
         {
           "version_tag": "2.1.0-GTNH-beta13",
           "prerelease": true,
-          "tagged_at": "2021-04-10T22:39:23",
+          "tagged_at": "2021-04-10T22:39:23+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-beta13-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/34777354",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta13/NotEnoughItems-1.7.10-2.1.0-GTNH-beta13-universal.jar"
@@ -7241,7 +7545,7 @@
         {
           "version_tag": "2.1.0-GTNH",
           "prerelease": false,
-          "tagged_at": "2021-04-13T03:22:27",
+          "tagged_at": "2021-04-13T03:22:27+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/34907033",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH/NotEnoughItems-1.7.10-2.1.0-GTNH-universal.jar"
@@ -7249,7 +7553,7 @@
         {
           "version_tag": "2.1.2-GTNH",
           "prerelease": false,
-          "tagged_at": "2021-04-18T23:07:42",
+          "tagged_at": "2021-04-18T23:07:42+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.2-GTNH-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/35344779",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.2-GTNH/NotEnoughItems-1.7.10-2.1.2-GTNH-universal.jar"
@@ -7257,7 +7561,7 @@
         {
           "version_tag": "2.1.3-GTNH",
           "prerelease": false,
-          "tagged_at": "2021-05-16T17:41:24",
+          "tagged_at": "2021-05-16T17:41:24+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.3-GTNH-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/37030769",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.3-GTNH/NotEnoughItems-1.7.10-2.1.3-GTNH-universal.jar"
@@ -7265,7 +7569,7 @@
         {
           "version_tag": "2.1.5-GTNH",
           "prerelease": false,
-          "tagged_at": "2021-06-06T16:36:41",
+          "tagged_at": "2021-06-06T16:36:41+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.5-GTNH-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/38158160",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.5-GTNH/NotEnoughItems-1.7.10-2.1.5-GTNH-universal.jar"
@@ -7273,7 +7577,7 @@
         {
           "version_tag": "2.1.16-GTNH",
           "prerelease": false,
-          "tagged_at": "2021-11-22T17:07:01",
+          "tagged_at": "2021-11-22T17:07:01+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.16-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/50058552",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.16-GTNH/NotEnoughItems-1.7.10-2.1.16-GTNH.jar"
@@ -7281,7 +7585,7 @@
         {
           "version_tag": "2.1.18-GTNH",
           "prerelease": false,
-          "tagged_at": "2021-12-11T19:02:42",
+          "tagged_at": "2021-12-11T19:02:42+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.18-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/51555316",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.18-GTNH/NotEnoughItems-1.7.10-2.1.18-GTNH.jar"
@@ -7289,7 +7593,7 @@
         {
           "version_tag": "2.1.19-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-01-02T21:38:43",
+          "tagged_at": "2022-01-02T21:38:43+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.19-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/53054970",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.19-GTNH/NotEnoughItems-1.7.10-2.1.19-GTNH.jar"
@@ -7297,7 +7601,7 @@
         {
           "version_tag": "2.1.20-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-01-05T05:48:28",
+          "tagged_at": "2022-01-05T05:48:28+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.20-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/53229556",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.20-GTNH/NotEnoughItems-1.7.10-2.1.20-GTNH.jar"
@@ -7305,7 +7609,7 @@
         {
           "version_tag": "2.1.21-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-01-16T05:26:01",
+          "tagged_at": "2022-01-16T05:26:01+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.21-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/54094809",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.21-GTNH/NotEnoughItems-1.7.10-2.1.21-GTNH.jar"
@@ -7313,7 +7617,7 @@
         {
           "version_tag": "2.1.22-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-01-18T05:49:24",
+          "tagged_at": "2022-01-18T05:49:24+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.22-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/54243479",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.22-GTNH/NotEnoughItems-1.7.10-2.1.22-GTNH.jar"
@@ -7321,7 +7625,7 @@
         {
           "version_tag": "2.2.0-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-01-22T17:47:16",
+          "tagged_at": "2022-01-22T17:47:16+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/54673707",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.0-GTNH/NotEnoughItems-1.7.10-2.2.0-GTNH.jar"
@@ -7329,7 +7633,7 @@
         {
           "version_tag": "2.2.1-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-01-23T02:32:13",
+          "tagged_at": "2022-01-23T02:32:13+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/54699783",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.1-GTNH/NotEnoughItems-1.7.10-2.2.1-GTNH.jar"
@@ -7337,7 +7641,7 @@
         {
           "version_tag": "2.2.3-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-01-27T07:36:09",
+          "tagged_at": "2022-01-27T07:36:09+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.3-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/55079403",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.3-GTNH/NotEnoughItems-1.7.10-2.2.3-GTNH.jar"
@@ -7345,7 +7649,7 @@
         {
           "version_tag": "2.2.4-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-01-30T16:07:44",
+          "tagged_at": "2022-01-30T16:07:44+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.4-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/55360144",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.4-GTNH/NotEnoughItems-1.7.10-2.2.4-GTNH.jar"
@@ -7353,7 +7657,7 @@
         {
           "version_tag": "2.2.5-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-01-31T02:43:29",
+          "tagged_at": "2022-01-31T02:43:29+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.5-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/55394223",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.5-GTNH/NotEnoughItems-1.7.10-2.2.5-GTNH.jar"
@@ -7361,7 +7665,7 @@
         {
           "version_tag": "2.2.6-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-02-07T20:14:20",
+          "tagged_at": "2022-02-07T20:14:20+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.6-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/56105002",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.6-GTNH/NotEnoughItems-1.7.10-2.2.6-GTNH.jar"
@@ -7369,7 +7673,7 @@
         {
           "version_tag": "2.2.7-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-02-11T16:28:10",
+          "tagged_at": "2022-02-11T16:28:10+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.7-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/56524720",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.7-GTNH/NotEnoughItems-1.7.10-2.2.7-GTNH.jar"
@@ -7377,31 +7681,15 @@
         {
           "version_tag": "2.2.8-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-02-18T02:51:03",
+          "tagged_at": "2022-02-18T02:51:03+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.8-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/57211336",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.8-GTNH/NotEnoughItems-1.7.10-2.2.8-GTNH.jar"
         },
         {
-          "version_tag": "2.2.9-GTNH",
-          "prerelease": false,
-          "tagged_at": "2022-03-03T16:27:07",
-          "filename": "NotEnoughItems-1.7.10-2.2.9-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/58458418",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.9-GTNH/NotEnoughItems-1.7.10-2.2.9-GTNH.jar"
-        },
-        {
-          "version_tag": "2.2.10-GTNH",
-          "prerelease": false,
-          "tagged_at": "2022-03-05T16:37:27",
-          "filename": "NotEnoughItems-1.7.10-2.2.10-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/58650928",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.10-GTNH/NotEnoughItems-1.7.10-2.2.10-GTNH.jar"
-        },
-        {
           "version_tag": "2.2.11-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-04-09T10:43:31",
+          "tagged_at": "2022-04-09T10:43:31+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/62042009",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.11-GTNH/NotEnoughItems-1.7.10-2.2.11-GTNH.jar"
@@ -7409,7 +7697,7 @@
         {
           "version_tag": "2.2.12-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-04-20T15:22:05",
+          "tagged_at": "2022-04-20T15:22:05+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.12-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/63118394",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.12-GTNH/NotEnoughItems-1.7.10-2.2.12-GTNH.jar"
@@ -7417,7 +7705,7 @@
         {
           "version_tag": "2.2.13-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-05-29T18:28:28",
+          "tagged_at": "2022-05-29T18:28:28+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.13-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/66966390",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.13-GTNH/NotEnoughItems-1.7.10-2.2.13-GTNH.jar"
@@ -7425,7 +7713,7 @@
         {
           "version_tag": "2.2.14-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-05-29T19:27:27",
+          "tagged_at": "2022-05-29T19:27:27+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.14-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/66969656",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.14-GTNH/NotEnoughItems-1.7.10-2.2.14-GTNH.jar"
@@ -7433,7 +7721,7 @@
         {
           "version_tag": "2.2.15-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-06-01T04:19:25",
+          "tagged_at": "2022-06-01T04:19:25+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.15-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/67198558",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.15-GTNH/NotEnoughItems-1.7.10-2.2.15-GTNH.jar"
@@ -7441,10 +7729,26 @@
         {
           "version_tag": "2.2.16-dev-GTNH",
           "prerelease": false,
-          "tagged_at": "2022-06-09T20:26:34",
+          "tagged_at": "2022-06-09T20:26:34+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.16-dev-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/68039024",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.16-dev-GTNH/NotEnoughItems-1.7.10-2.2.16-dev-GTNH.jar"
+        },
+        {
+          "version_tag": "2.2.17-GTNH",
+          "prerelease": false,
+          "tagged_at": "2022-06-23T16:06:50+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.2.17-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/69404193",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.17-GTNH/NotEnoughItems-1.7.10-2.2.17-GTNH.jar"
+        },
+        {
+          "version_tag": "2.2.18-GTNH-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T13:46:03+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.2.18-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/69506885",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.18-GTNH-pre/NotEnoughItems-1.7.10-2.2.18-GTNH-pre.jar"
         }
       ],
       "type": "mod",
@@ -7862,7 +8166,7 @@
     },
     {
       "name": "PersonalSpace",
-      "latest_version": "1.0.3-GTNH",
+      "latest_version": "1.0.4-GTNH",
       "versions": [
         {
           "version_tag": "1.0.3-GTNH",
@@ -7871,6 +8175,14 @@
           "filename": "personalspace-1.7.10-1.0.3-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/67703342",
           "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.3-GTNH/personalspace-1.7.10-1.0.3-GTNH.jar"
+        },
+        {
+          "version_tag": "1.0.4-GTNH",
+          "prerelease": false,
+          "tagged_at": "2022-06-26T18:16:06+00:00",
+          "filename": "personalspace-1.7.10-1.0.4-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/69699610",
+          "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.4-GTNH/personalspace-1.7.10-1.0.4-GTNH.jar"
         }
       ],
       "type": "mod",
@@ -8611,7 +8923,7 @@
     },
     {
       "name": "StandardQuestingPack",
-      "latest_version": "3.0.191-GTNH-dev",
+      "latest_version": "3.0.193-GTNH",
       "versions": [
         {
           "version_tag": "3.0.187-GTNH",
@@ -8652,6 +8964,22 @@
           "filename": "StandardExpansion-1.7.10-3.0.191-GTNH-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StandardQuestingPack/releases/assets/68701171",
           "browser_download_url": "https://github.com/GTNewHorizons/StandardQuestingPack/releases/download/3.0.191-GTNH-dev/StandardExpansion-1.7.10-3.0.191-GTNH-dev.jar"
+        },
+        {
+          "version_tag": "3.0.192-GTNH-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-22T09:27:39+00:00",
+          "filename": "StandardExpansion-1.7.10-3.0.192-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StandardQuestingPack/releases/assets/69233344",
+          "browser_download_url": "https://github.com/GTNewHorizons/StandardQuestingPack/releases/download/3.0.192-GTNH-pre/StandardExpansion-1.7.10-3.0.192-GTNH-pre.jar"
+        },
+        {
+          "version_tag": "3.0.193-GTNH",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T19:01:13+00:00",
+          "filename": "StandardExpansion-1.7.10-3.0.193-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StandardQuestingPack/releases/assets/69534492",
+          "browser_download_url": "https://github.com/GTNewHorizons/StandardQuestingPack/releases/download/3.0.193-GTNH/StandardExpansion-1.7.10-3.0.193-GTNH.jar"
         }
       ],
       "type": "mod",
@@ -9228,7 +9556,7 @@
     },
     {
       "name": "TCNEIAdditions",
-      "latest_version": "1.1.0.8-dev",
+      "latest_version": "1.1.0.10",
       "versions": [
         {
           "version_tag": "1.0.1.0",
@@ -9325,6 +9653,22 @@
           "filename": "tcneiadditions-1.7.10-1.1.0.8-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TCNEIAdditions/releases/assets/68696969",
           "browser_download_url": "https://github.com/GTNewHorizons/TCNEIAdditions/releases/download/1.1.0.8-dev/tcneiadditions-1.7.10-1.1.0.8-dev.jar"
+        },
+        {
+          "version_tag": "1.1.0.9-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-22T09:27:53+00:00",
+          "filename": "tcneiadditions-1.7.10-1.1.0.9-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TCNEIAdditions/releases/assets/69233363",
+          "browser_download_url": "https://github.com/GTNewHorizons/TCNEIAdditions/releases/download/1.1.0.9-pre/tcneiadditions-1.7.10-1.1.0.9-pre.jar"
+        },
+        {
+          "version_tag": "1.1.0.10",
+          "prerelease": false,
+          "tagged_at": "2022-06-24T19:04:23+00:00",
+          "filename": "tcneiadditions-1.7.10-1.1.0.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TCNEIAdditions/releases/assets/69534684",
+          "browser_download_url": "https://github.com/GTNewHorizons/TCNEIAdditions/releases/download/1.1.0.10/tcneiadditions-1.7.10-1.1.0.10.jar"
         }
       ],
       "type": "mod",
@@ -9374,7 +9718,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.0.7-dev",
+      "latest_version": "5.0.8-pre",
       "versions": [
         {
           "version_tag": "4.10.12",
@@ -9455,6 +9799,14 @@
           "filename": "TecTech-1.7.10-5.0.7-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/68281719",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.7-dev/TecTech-1.7.10-5.0.7-dev.jar"
+        },
+        {
+          "version_tag": "5.0.8-pre",
+          "prerelease": false,
+          "tagged_at": "2022-06-26T11:35:35+00:00",
+          "filename": "TecTech-1.7.10-5.0.8-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/69677276",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.8-pre/TecTech-1.7.10-5.0.8-pre.jar"
         }
       ],
       "type": "mod",
@@ -9623,7 +9975,7 @@
     },
     {
       "name": "ThaumicEnergistics",
-      "latest_version": "1.3.17-GTNH",
+      "latest_version": "1.3.19-GTNH",
       "versions": [
         {
           "version_tag": "1.1.3.1",
@@ -9656,6 +10008,22 @@
           "filename": "thaumicenergistics-1.7.10-1.3.17-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/68032543",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.3.17-GTNH/thaumicenergistics-1.7.10-1.3.17-GTNH.jar"
+        },
+        {
+          "version_tag": "1.3.18-GTNH",
+          "prerelease": false,
+          "tagged_at": "2022-06-26T11:42:53+00:00",
+          "filename": "thaumicenergistics-1.7.10-1.3.18-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/69677677",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.3.18-GTNH/thaumicenergistics-1.7.10-1.3.18-GTNH.jar"
+        },
+        {
+          "version_tag": "1.3.19-GTNH",
+          "prerelease": false,
+          "tagged_at": "2022-06-26T11:42:47+00:00",
+          "filename": "thaumicenergistics-1.7.10-1.3.19-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/69677669",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.3.19-GTNH/thaumicenergistics-1.7.10-1.3.19-GTNH.jar"
         }
       ],
       "type": "mod",
@@ -10387,7 +10755,7 @@
     },
     {
       "name": "VisualProspecting",
-      "latest_version": "1.0.29",
+      "latest_version": "1.0.30",
       "versions": [
         {
           "version_tag": "1.0.22b",
@@ -10444,6 +10812,14 @@
           "filename": "visualprospecting-1.7.10-1.0.29.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/68042093",
           "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.0.29/visualprospecting-1.7.10-1.0.29.jar"
+        },
+        {
+          "version_tag": "1.0.30",
+          "prerelease": false,
+          "tagged_at": "2022-06-25T18:01:21+00:00",
+          "filename": "visualprospecting-1.7.10-1.0.30.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/69615788",
+          "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.0.30/visualprospecting-1.7.10-1.0.30.jar"
         }
       ],
       "type": "mod",

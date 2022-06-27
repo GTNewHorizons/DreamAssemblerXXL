@@ -1,13 +1,12 @@
 from datetime import datetime
 from typing import Optional
 
-from github.GitRelease import GitRelease
-from github.GitReleaseAsset import GitReleaseAsset
 from pydantic import Field
 from structlog import get_logger
 
 from gtnh.defs import VersionableType
 from gtnh.models.base import GTNHBaseModel
+from gtnh.utils import AttributeDict
 
 log = get_logger(__name__)
 
@@ -21,7 +20,7 @@ class GTNHVersion(GTNHBaseModel):
     browser_download_url: Optional[str] = Field(default=None)
 
 
-def version_from_release(release: GitRelease, type: VersionableType) -> GTNHVersion | None:
+def version_from_release(release: AttributeDict, type: VersionableType) -> GTNHVersion | None:
     """
     Get ModVersion and assets from a GitRelease
     :param release: GithubRelease
@@ -43,16 +42,16 @@ def version_from_release(release: GitRelease, type: VersionableType) -> GTNHVers
     )
 
 
-def get_asset(release: GitRelease, type: VersionableType) -> GitReleaseAsset | None:
+def get_asset(release: AttributeDict, type: VersionableType) -> AttributeDict | None:
     """
     Get mod assets from a release; excludes dev, source, and api jars
-    :param release: GithubRelease
-    :return: GithubReleaseAsset
+    :param release: A github release
+    :return: A github release asset
     """
     tag_name = release.tag_name
     is_dev = tag_name.endswith("-dev")
 
-    release_assets = release.get_assets()
+    release_assets = [AttributeDict(a) for a in release.assets]
     for asset in release_assets:
         asset_name = asset.name
 

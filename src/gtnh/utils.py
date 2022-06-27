@@ -2,10 +2,21 @@ import os
 from functools import cache
 from pathlib import Path
 from shutil import copy, rmtree
-from typing import List, Optional
+from typing import Any, List, Optional
 from urllib import parse
 
 from gtnh.defs import CLIENT_WORKING_DIR, SERVER_WORKING_DIR
+
+
+class AttributeDict(dict):
+    def __getattr__(self, name: str) -> Any:
+        res = self.get(name)
+        if isinstance(res, dict):
+            return AttributeDict(res)
+        return res
+
+    def __setattr__(self, name: str, val: Any):
+        self[name] = val
 
 
 @cache
