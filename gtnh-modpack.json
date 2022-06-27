@@ -2920,12 +2920,12 @@
     },
     {
       "name": "Controlling",
-      "version": "1.0.0",
-      "tagged_at": "2016-09-03T17:03:00",
+      "version": "1.0.0.3",
+      "tagged_at": "2022-06-01T18:08:09",
       "repo_url": "https://www.curseforge.com/minecraft/mc-mods/controlling",
-      "filename": "Controlling-1.7.10-1.0.0.jar",
-      "download_url": "https://media.forgecdn.net/files/2328/181/Controlling-1.7.10-1.0.0.jar",
-      "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/controlling/files/2328181",
+      "filename": "Controlling-1.7.10-1.0.0.3.jar",
+      "download_url": "https://media.forgecdn.net/files/3812/685/Controlling-1.7.10-1.0.0.3.jar",
+      "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/controlling/files/3812685",
       "license": "MIT License.",
       "side": "CLIENT",
       "maven": "needs to be changed later"
