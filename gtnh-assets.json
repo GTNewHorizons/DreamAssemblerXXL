@@ -9680,6 +9680,7 @@
       "license": "GNU General Public License v3.0.",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/aroma1997core",
+      "project_id": 223735,
       "slug": "aroma1997core"
     },
     {
@@ -9689,6 +9690,7 @@
       "license": "Custom License, permission to distribute derivative works granted since GTNH is provided through CurseForge. (https://www.curseforge.com/project/225658/license)",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/aromabackup",
+      "project_id": 225658,
       "slug": "aromabackup"
     },
     {
@@ -9697,6 +9699,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/automagy",
+      "project_id": 222153,
       "slug": "automagy"
     },
     {
@@ -9705,6 +9708,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft",
+      "project_id": 228027,
       "slug": "bibliocraft"
     },
     {
@@ -9713,6 +9717,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition",
+      "project_id": 228362,
       "slug": "bibliocraft-bibliowoods-biomes-oplenty-edition"
     },
     {
@@ -9721,6 +9726,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition",
+      "project_id": 228363,
       "slug": "bibliocraft-bibliowoods-forestry-edition"
     },
     {
@@ -9729,6 +9735,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-natura-edition",
+      "project_id": 228364,
       "slug": "bibliocraft-bibliowoods-natura-edition"
     },
     {
@@ -9737,6 +9744,7 @@
       "versions": [],
       "license": "Don't Be a Jerk License, permission granted as a modpack to redistribute this mod in its entirety as source or compiled code.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/brandons-core",
+      "project_id": 231382,
       "slug": "brandons-core"
     },
     {
@@ -9745,6 +9753,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/witchery",
+      "project_id": 69673,
       "slug": "witchery"
     },
     {
@@ -9754,6 +9763,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/ModdingForBlockheads/ThaumicInventoryScanning",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning",
+      "project_id": 238003,
       "slug": "thaumcraft-inventory-scanning"
     },
     {
@@ -9762,6 +9772,7 @@
       "versions": [],
       "license": "You have my permission to include \"Thaumcraft NEI Plugin\" in any modpack, public or private, provided that credit is given, the source files are not modified and the overall mod pack is distributed free of charge.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin",
+      "project_id": 225095,
       "slug": "thaumcraft-nei-plugin"
     },
     {
@@ -9770,6 +9781,7 @@
       "versions": [],
       "license": "MIT License.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/random-things",
+      "project_id": 59816,
       "slug": "random-things"
     },
     {
@@ -9778,6 +9790,7 @@
       "versions": [],
       "license": "GNU Lesser General Public License v3.0.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/player-api",
+      "project_id": 228969,
       "slug": "player-api"
     },
     {
@@ -9786,6 +9799,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether",
+      "project_id": 231262,
       "slug": "pams-harvest-the-nether"
     },
     {
@@ -9795,6 +9809,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/PC-Logix/OpenSecurity",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/opensecurity",
+      "project_id": 231687,
       "slug": "opensecurity"
     },
     {
@@ -9804,6 +9819,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/PC-Logix/OpenPrinter",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/openprinter",
+      "project_id": 225127,
       "slug": "openprinter"
     },
     {
@@ -9813,6 +9829,7 @@
       "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.",
       "repo_url": "https://github.com/MattCzyr/NaturesCompass",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/natures-compass",
+      "project_id": 252848,
       "slug": "natures-compass"
     },
     {
@@ -9823,6 +9840,7 @@
       "repo_url": "https://github.com/YaLTeR/MouseTweaks",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+      "project_id": 60089,
       "slug": "mouse-tweaks"
     },
     {
@@ -9832,6 +9850,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/Ordinastie/MalisisDoors",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/malisisdoors",
+      "project_id": 223891,
       "slug": "malisisdoors"
     },
     {
@@ -9841,6 +9860,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/Ordinastie/MalisisCore",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/malisiscore",
+      "project_id": 223896,
       "slug": "malisiscore"
     },
     {
@@ -9851,6 +9871,7 @@
       "repo_url": "https://github.com/zlepper/itlt",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/its-the-little-things",
+      "project_id": 232791,
       "slug": "its-the-little-things"
     },
     {
@@ -9860,6 +9881,7 @@
       "license": "All Rights Reserved.",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/ic2-nei-crop-plugin",
+      "project_id": 236609,
       "slug": "ic2-nei-crop-plugin"
     },
     {
@@ -9869,6 +9891,7 @@
       "license": "Do What The Fuck You Want To License v2.0.",
       "repo_url": "https://github.com/matthewprenger/HelpFixer",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/helpfixer",
+      "project_id": 223797,
       "slug": "helpfixer"
     },
     {
@@ -9878,6 +9901,7 @@
       "license": "All Rights Reserved.",
       "repo_url": "https://github.com/lumien231/Hardcore-Darkness",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness",
+      "project_id": 225957,
       "slug": "hardcore-darkness"
     },
     {
@@ -9888,6 +9912,7 @@
       "repo_url": "https://github.com/Keridos/FloodLights",
       "maven": "https://jenkins.ironhide.de/job/Keridos%20Mods/job/FloodLights-1.7.10/",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/floodlights",
+      "project_id": 224728,
       "slug": "floodlights"
     },
     {
@@ -9897,6 +9922,7 @@
       "license": "All Rights Reserved.",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/fastcraft",
+      "project_id": 242677,
       "slug": "fastcraft"
     },
     {
@@ -9906,6 +9932,7 @@
       "license": "GNU Lesser General Public License v3.0.",
       "repo_url": "https://github.com/enhancedportals/enhancedportals",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/enhanced-portals-3",
+      "project_id": 225921,
       "slug": "enhanced-portals-3"
     },
     {
@@ -9915,6 +9942,7 @@
       "license": "Creative Commons Attribution 3.0 share-alike",
       "repo_url": "https://github.com/Modbder/DummyCore",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/dummycore",
+      "project_id": 230103,
       "slug": "dummycore"
     },
     {
@@ -9925,18 +9953,8 @@
       "repo_url": "https://github.com/lumien231/Custom-Main-Menu",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu",
+      "project_id": 226406,
       "slug": "custom-main-menu"
-    },
-    {
-      "name": "CTMLib",
-      "latest_version": "1.4.1.5",
-      "versions": [],
-      "license": "GNU Lesser General Public Library v2.1.",
-      "repo_url": "https://github.com/Chisel-Team/CTMLib",
-      "maven": "https://maven.tterrag.com/team/chisel/ctmlib/CTMLib/",
-      "side": "NONE",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/ctmlib",
-      "slug": "ctmlib"
     },
     {
       "name": "CraftPresence",
@@ -9946,6 +9964,7 @@
       "repo_url": "https://gitlab.com/CDAGaming/CraftPresence",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/craftpresence",
+      "project_id": 297038,
       "slug": "craftpresence"
     },
     {
@@ -9955,6 +9974,7 @@
       "license": "GNU Lesser General Public Library v3.0.",
       "repo_url": "https://github.com/CoFH/CoFHLib-1.7.10-Legacy",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-lib",
+      "project_id": 220333,
       "slug": "cofh-lib"
     },
     {
@@ -9964,6 +9984,7 @@
       "license": "All Rights Reserved.",
       "repo_url": "https://github.com/CoFH/CoFHCore-1.12-Legacy/tree/1.7.10",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-core",
+      "project_id": 69162,
       "slug": "cofh-core"
     },
     {
@@ -9973,6 +9994,7 @@
       "license": "Minecraft Mod Public License v2.0.2.",
       "repo_url": "https://github.com/TehNut-Mods/ChiselTones",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/chiseltones",
+      "project_id": 228004,
       "slug": "chiseltones"
     },
     {
@@ -9982,6 +10004,7 @@
       "license": "GNU Lesser General Public Library v2.1.",
       "repo_url": "https://github.com/Mineshopper/carpentersblocks",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/carpenters-blocks",
+      "project_id": 228932,
       "slug": "carpenters-blocks"
     },
     {
@@ -9991,6 +10014,7 @@
       "license": "Quick licence notice: ARR - you're of course allowed to put it into packs and all other stuff. The licence is meant for redistribution on other websites and copying.",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/beebetteratbees",
+      "project_id": 244516,
       "slug": "beebetteratbees"
     },
     {
@@ -10001,6 +10025,7 @@
       "repo_url": "https://github.com/way2muchnoise/BetterAchievements/tree/1.7.10",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/betterachievements",
+      "project_id": 235716,
       "slug": "betterachievements"
     },
     {
@@ -10010,6 +10035,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/p455w0rd/p455w0rds-Library",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library",
+      "project_id": 255232,
       "slug": "p455w0rds-library"
     },
     {
@@ -10020,6 +10046,7 @@
       "repo_url": "https://github.com/lumien231/Resource-Loader",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/resource-loader",
+      "project_id": 226447,
       "slug": "resource-loader"
     },
     {
@@ -10029,6 +10056,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/Glease/Healer",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/healer",
+      "project_id": 554840,
       "slug": "healer"
     },
     {
@@ -10037,6 +10065,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft",
+      "project_id": 223628,
       "slug": "thaumcraft"
     },
     {
@@ -10046,6 +10075,7 @@
       "license": "All Rights Reserved.",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/journeymap",
+      "project_id": 32274,
       "slug": "journeymap"
     },
     {
@@ -10055,6 +10085,7 @@
       "license": "All Rights Reserved.",
       "side": "SERVER",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/journeymap-server",
+      "project_id": 225341,
       "slug": "journeymap-server"
     },
     {
@@ -10064,6 +10095,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/bartimaeusnek/CB-for-BQ",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/command-blocks-for-better-questing",
+      "project_id": 326290,
       "slug": "command-blocks-for-better-questing"
     },
     {
@@ -10074,6 +10106,7 @@
       "repo_url": "https://github.com/jaredlll08/Controlling",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/controlling",
+      "project_id": 250398,
       "slug": "controlling"
     },
     {
@@ -10100,6 +10133,7 @@
       "license": "GNU General Public Library v3.0.",
       "repo_url": "https://github.com/GTNewHorizons/Tinkers-Defense",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/compendium",
+      "project_id": 226910,
       "slug": "compendium"
     },
     {
@@ -10109,6 +10143,7 @@
       "license": "Ask-Me-Before-You-Do License. Has clause against custom mod builds. ",
       "repo_url": "https://github.com/BluSunrize/TravellersGear",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/travellers-gear",
+      "project_id": 224440,
       "slug": "travellers-gear"
     },
     {
@@ -10117,6 +10152,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels",
+      "project_id": 362768,
       "slug": "advancedsolarpanels"
     },
     {
@@ -10125,6 +10161,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/extra-utilities",
+      "project_id": 225561,
       "slug": "extra-utilities"
     },
     {
@@ -10134,6 +10171,7 @@
       "license": "All Rights Reserved.",
       "maven": "https://maven.ic2.player.to/net/industrial-craft/industrialcraft-2/",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/industrial-craft",
+      "project_id": 242638,
       "slug": "industrial-craft"
     },
     {
@@ -10150,6 +10188,7 @@
       "license": "All Rights Reserved.",
       "repo_url": "https://github.com/ModdingForBlockheads/NetherPortalFix",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/netherportalfix",
+      "project_id": 241160,
       "slug": "netherportalfix"
     },
     {
@@ -10159,6 +10198,7 @@
       "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.",
       "repo_url": "https://github.com/yorkeJohn/Tainted-Magic",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/tainted-magic",
+      "project_id": 231061,
       "slug": "tainted-magic"
     },
     {
@@ -10168,6 +10208,7 @@
       "license": "GNU General Public License v3.0.",
       "repo_url": "https://github.com/MrTJP/MrTJPCore",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/mrtjpcore",
+      "project_id": 229002,
       "slug": "mrtjpcore"
     },
     {
@@ -10177,6 +10218,7 @@
       "license": "GNU General Public License v3.0.",
       "repo_url": "https://github.com/MrTJP/ForgeRelocation",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation",
+      "project_id": 232075,
       "slug": "forge-relocation"
     },
     {
@@ -10186,6 +10228,7 @@
       "license": "GNU General Public License v3.0.",
       "repo_url": "https://github.com/MrTJP/ForgeRelocationFMP",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation-fmp-plugin",
+      "project_id": 232076,
       "slug": "forge-relocation-fmp-plugin"
     },
     {
@@ -10196,6 +10239,7 @@
       "repo_url": "https://github.com/Quetzi/Morpheus",
       "side": "SERVER",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/morpheus",
+      "project_id": 69118,
       "slug": "morpheus"
     },
     {
@@ -10204,14 +10248,16 @@
       "versions": [],
       "license": "All Rights Reserved. - You have my permission to use this mod in any mod pack, public or private.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/ztones",
+      "project_id": 224369,
       "slug": "ztones"
     },
     {
       "name": "Biomes O' Plenty",
       "latest_version": "2.1.0.2308",
       "versions": [],
-      "license": "All Rights Reserved.",
+      "license": "Creative Commons BY-NC-ND 4.0",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty",
+      "project_id": 220318,
       "slug": "biomes-o-plenty"
     },
     {
@@ -10230,6 +10276,7 @@
       "license": "All Rights Reserved.",
       "repo_url": "https://github.com/Drethic/QuestBook",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book",
+      "project_id": 242106,
       "slug": "better-questing-quest-book"
     }
   ]

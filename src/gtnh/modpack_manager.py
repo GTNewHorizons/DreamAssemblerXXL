@@ -25,6 +25,7 @@ from gtnh.defs import (
     RED_CROSS,
     ROOT_DIR,
     UNKNOWN,
+    ModSource,
     Side,
 )
 from gtnh.exceptions import RepoNotFoundException
@@ -34,7 +35,7 @@ from gtnh.models.gtnh_config import CONFIG_REPO_NAME
 from gtnh.models.gtnh_modpack import GTNHModpack
 from gtnh.models.gtnh_release import GTNHRelease, load_release, save_release
 from gtnh.models.gtnh_version import version_from_release
-from gtnh.models.mod_info import GTNHModInfo
+from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
 from gtnh.models.versionable import Versionable, version_is_newer, version_sort_key
 from gtnh.utils import AttributeDict, get_github_token
 
@@ -103,6 +104,21 @@ class GTNHModpackManager:
 
         gathered = await asyncio.gather(*tasks, return_exceptions=True)
         return any([r for r in gathered])
+
+    async def update_curse_assets(self, assets_to_update: list[str] | None = None) -> bool:
+        curseforge_assets = [m for m in self.assets.external_mods if m.source == ModSource.curse]
+
+        to_update = []
+        for asset in curseforge_assets:
+            if (assets_to_update and asset.name not in assets_to_update) or (asset.source != ModSource.curse):
+                continue
+            to_update.append(asset)
+
+        return await self.update_assets_from_curse(to_update)
+
+    async def update_assets_from_curse(self, assets: list[ExternalModInfo]) -> bool:
+
+        return False
 
     async def update_versionable_from_repo(self, versionable: Versionable, repo: AttributeDict) -> bool:
         """

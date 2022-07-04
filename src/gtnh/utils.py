@@ -1,8 +1,9 @@
+import itertools
 import os
 from functools import cache
 from pathlib import Path
 from shutil import copy, rmtree
-from typing import Any, List
+from typing import Any, Iterable, Iterator, List
 from urllib import parse
 
 from gtnh.defs import CLIENT_WORKING_DIR, SERVER_WORKING_DIR
@@ -17,6 +18,11 @@ class AttributeDict(dict):  # type: ignore
 
     def __setattr__(self, name: str, val: Any) -> Any:
         self[name] = val
+
+
+def grouper(n: int, iterable: Iterable[Any]) -> Iterator[Any]:
+    iterable = iter(iterable)
+    return iter(lambda: list(itertools.islice(iterable, n)), [])
 
 
 @cache
