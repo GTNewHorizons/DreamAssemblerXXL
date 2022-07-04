@@ -14,7 +14,7 @@ class GTNHModInfo(GTNHBaseModel, Versionable):
     repo_url: str | None = Field(default=None)
     maven: str | None = Field(default=None)
     side: Side = Field(default=Side.BOTH)
-    source: ModSource = Field(default=ModSource.curse)
+    source: ModSource = Field(default=ModSource.github)
 
     disabled: bool = Field(default=False)
 

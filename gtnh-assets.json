@@ -10082,16 +10082,16 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "maven": "https://files.vexatos.com/BuildCraftOilTweak/",
-      "external_url": "https://files.vexatos.com/?dir=BuildCraftOilTweak",
-      "source": "other"
+      "source": "other",
+      "external_url": "https://files.vexatos.com/?dir=BuildCraftOilTweak"
     },
     {
       "name": "Thaumic Machina",
       "latest_version": "0.2.1",
       "versions": [],
       "license": "All Rights Reserved. - You may use this mod in mod packs IF you give credit to me, I don't care what pack you are or what other mods you run with, as long as you give me credit for my work, you are allowed to redestribute my mod under your mod pack. If you wish to generate revenue off my work, you require permission from me to do so within the terms of this license.",
-      "external_url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2200956-wip-1-7-10-open-beta-thaumcraft-4-2-addon-thaumic",
-      "source": "other"
+      "source": "other",
+      "external_url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2200956-wip-1-7-10-open-beta-thaumcraft-4-2-addon-thaumic"
     },
     {
       "name": "Tinkers' Defense",
@@ -10219,9 +10219,9 @@
       "latest_version": "1.0",
       "versions": [],
       "license": "All Rights Reserved. - You are freely to add this mod to your modpack, permission is NOT required.",
-      "external_url": "https://forum.industrial-craft.net/thread/12724-ic2-exp-1-7-10-compact-kinetic-generators/",
       "repo_url": "https://github.com/PinkaLulan/CompactKineticGenerators",
-      "source": "other"
+      "source": "other",
+      "external_url": "https://forum.industrial-craft.net/thread/12724-ic2-exp-1-7-10-compact-kinetic-generators/"
     },
     {
       "name": "Better Questing - Quest Book",
