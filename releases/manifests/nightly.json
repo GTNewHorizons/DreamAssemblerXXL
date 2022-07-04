@@ -1,6 +1,6 @@
 {
   "version": "nightly",
-  "last_updated": "2022-06-27T02:46:43.738744",
+  "last_updated": "2022-06-30T21:32:54.909421",
   "config": "2.1.2.4-13-pre",
   "github_mods": {
     "AdventureBackpack2": "1.0.5-GTNH",
@@ -123,7 +123,7 @@
     "OpenModularTurrets": "2.2.11-247",
     "Opis": "1.3.3-mapless",
     "OverloadedArmorBar": "1.0.1",
-    "PersonalSpace": "1.0.4-GTNH",
+    "PersonalSpace": "1.0.7-GTNH",
     "ProjectBlue": "1.1.7-GTNH",
     "ProjectRed": "4.7.7-GTNH",
     "QmunityLib": "0.1.115",

@@ -55,11 +55,11 @@ class GTNHModpackManager:
         self.client = client
         self.gh = GitHubAPI(self.client, "DreamAssemblerXXL", oauth_token=get_token())
 
-    @AsyncLRU(maxsize=None)
+    @AsyncLRU(maxsize=None)  # type: ignore
     async def get_all_repos(self) -> dict[str, AttributeDict]:
         return {r["name"]: AttributeDict(r) async for r in self.gh.getiter(org_repos_uri(self.org))}
 
-    @AsyncLRU(maxsize=None)
+    @AsyncLRU(maxsize=None)  # type: ignore
     async def get_repo(self, name: str) -> AttributeDict:
         try:
             return AttributeDict(await self.gh.getitem(repo_uri(self.org, name)))
@@ -126,7 +126,7 @@ class GTNHModpackManager:
             log.info(f"Found candidate newer version for mod {Fore.CYAN}{mod.name}:{Fore.YELLOW}{latest_version}{Fore.RESET}")
 
         if mod.license in [UNKNOWN, OTHER]:
-            mod_license = self.get_license(repo)
+            mod_license = await self.get_license(repo)
             if mod_license is not None:
                 log.info(f"Updated License: {mod_license}")
                 mod.license = mod_license
@@ -147,7 +147,7 @@ class GTNHModpackManager:
                 mod_updated = True
 
         if mod.private != repo.get("private"):
-            mod.private = repo.get("private")
+            mod.private = bool(repo.get("private"))
             log.info(f"Updated Private Repo Status: {mod.private}")
             mod_updated = True
 
@@ -324,7 +324,7 @@ class GTNHModpackManager:
     async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
         try:
             latest_release = await self.get_latest_github_release(repo)
-            latest_version = latest_release.tag_name
+            latest_version = latest_release.tag_name if latest_release else "<unknown>"
         except Exception:
             latest_version = "<unknown>"
 
@@ -468,11 +468,11 @@ class GTNHModpackManager:
             return mod_filename
 
         headers = {"Accept": "application/octet-stream"}
-
-        async with self.client.stream(url=version.download_url, stream=True, headers=headers, method="GET", follow_redirects=True) as r:
+        assert version.download_url
+        async with self.client.stream(url=version.download_url, headers=headers, method="GET", follow_redirects=True) as r:
             r.raise_for_status()
             with open(mod_filename, "wb") as f:
-                async for chunk in r.iter_content(chunk_size=8192):
+                async for chunk in r.aiter_bytes(chunk_size=8192):
                     f.write(chunk)
         log.info(f"{GREEN_CHECK} Download successful `{mod_filename}`")
 
@@ -490,7 +490,7 @@ class GTNHModpackManager:
                 mod.
         """
 
-        log.info(f"Downloading mods for Release `{Fore.LIGHTRED_EX}{release.version}{Fore.RESET}`")
+        log.info(f"Downloading mods for Release `{Fore.LIGHTYELLOW_EX}{release.version}{Fore.RESET}`")
 
         # computation of the progress per mod for the progressbar
         delta_progress = 100 / (len(release.github_mods) + len(release.external_mods))

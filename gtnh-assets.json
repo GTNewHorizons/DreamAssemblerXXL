@@ -8166,7 +8166,7 @@
     },
     {
       "name": "PersonalSpace",
-      "latest_version": "1.0.4-GTNH",
+      "latest_version": "1.0.7-GTNH",
       "versions": [
         {
           "version_tag": "1.0.3-GTNH",
@@ -8183,6 +8183,22 @@
           "filename": "personalspace-1.7.10-1.0.4-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/69699610",
           "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.4-GTNH/personalspace-1.7.10-1.0.4-GTNH.jar"
+        },
+        {
+          "version_tag": "1.0.6-GTNH",
+          "prerelease": false,
+          "tagged_at": "2022-06-27T21:37:14+00:00",
+          "filename": "personalspace-1.7.10-1.0.6-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/69828326",
+          "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.6-GTNH/personalspace-1.7.10-1.0.6-GTNH.jar"
+        },
+        {
+          "version_tag": "1.0.7-GTNH",
+          "prerelease": false,
+          "tagged_at": "2022-06-28T16:58:10+00:00",
+          "filename": "personalspace-1.7.10-1.0.7-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/69926137",
+          "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.7-GTNH/personalspace-1.7.10-1.0.7-GTNH.jar"
         }
       ],
       "type": "mod",

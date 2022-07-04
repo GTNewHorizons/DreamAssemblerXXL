@@ -15,6 +15,8 @@
 import os.path
 import re
 
+import asyncclick as click
+import httpx
 from in_place import InPlace
 from structlog import get_logger
 
@@ -35,11 +37,13 @@ GTNH_MAVEN = """
 """
 
 
-def find_and_update_deps() -> None:
+@click.command()
+async def find_and_update_deps() -> None:
     if not os.path.exists(DEP_FILE):
         log.error(f"ERROR: Unable to locate {DEP_FILE} in the current directory")
         return
-    m = GTNHModpackManager()
+    async with httpx.AsyncClient(http2=True) as client:
+        m = GTNHModpackManager(client)
 
     with InPlace(DEP_FILE) as fp:
         for line in fp:

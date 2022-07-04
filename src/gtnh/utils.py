@@ -8,14 +8,14 @@ from urllib import parse
 from gtnh.defs import CLIENT_WORKING_DIR, SERVER_WORKING_DIR
 
 
-class AttributeDict(dict):
+class AttributeDict(dict):  # type: ignore
     def __getattr__(self, name: str) -> Any:
         res = self.get(name)
         if isinstance(res, dict):
             return AttributeDict(res)
         return res
 
-    def __setattr__(self, name: str, val: Any):
+    def __setattr__(self, name: str, val: Any) -> Any:
         self[name] = val
 
 

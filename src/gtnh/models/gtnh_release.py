@@ -71,13 +71,3 @@ def save_release(release: GTNHRelease, update: bool = False) -> bool:
     else:
         log.error("Save aborted, empty save result")
         return False
-
-
-if __name__ == "__main__":
-    from gtnh.assembler.downloader import download_release
-    from gtnh.modpack_manager import GTNHModpackManager
-
-    m = GTNHModpackManager()
-    release = m.get_release("nightly")
-    if release:
-        download_release(m, release)
