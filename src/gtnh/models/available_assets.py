@@ -8,8 +8,8 @@ from structlog import get_logger
 from gtnh.defs import Side
 from gtnh.models.base import GTNHBaseModel
 from gtnh.models.gtnh_config import GTNHConfig
-from gtnh.models.gtnh_mod_info import GTNHModInfo
 from gtnh.models.gtnh_version import GTNHVersion
+from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
 
 log = get_logger(__name__)
 
@@ -17,7 +17,7 @@ log = get_logger(__name__)
 class AvailableAssets(GTNHBaseModel):
     config: GTNHConfig
     github_mods: List[GTNHModInfo] = Field(default_factory=list)
-    external_mods: List[GTNHModInfo] = Field(default_factory=list)
+    external_mods: List[ExternalModInfo] = Field(default_factory=list)
 
     def add_github_mod(self, mod: GTNHModInfo) -> None:
         bisect.insort_right(self.github_mods, mod, key=self._mod_sort_key)  # type: ignore

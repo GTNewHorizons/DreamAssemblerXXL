@@ -25,6 +25,13 @@ GREEN_CHECK = "\N{white heavy check mark}"
 RED_CROSS = "\N{cross mark}"
 
 
+CURSE_BASE_URL = "https://api.curseforge.com"
+
+CURSE_MINECRAFT_ID = 432
+CURSE_FORGE_MODLOADER_ID = 1
+CURSE_GAME_VERSION_TYPE_ID = 5
+
+
 class Side(str, Enum):
     SERVER = "SERVER"
     CLIENT = "CLIENT"
@@ -35,3 +42,9 @@ class Side(str, Enum):
 class VersionableType(str, Enum):
     mod = "mod"
     config = "config"
+
+
+class ModSource(str, Enum):
+    curse = "curse"
+    modrinth = "modrinth"
+    other = "other"

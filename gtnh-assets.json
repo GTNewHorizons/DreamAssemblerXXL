@@ -2,6 +2,7 @@
   "config": {
     "name": "GT-New-Horizons-Modpack",
     "latest_version": "2.1.2.4-14-pre",
+    "private": false,
     "versions": [
       {
         "version_tag": "2.1.2.3qf-test",
@@ -91,6 +92,7 @@
     {
       "name": "AdventureBackpack2",
       "latest_version": "1.0.5-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.0-GTNH",
@@ -146,12 +148,12 @@
       "repo_url": "https://github.com/GTNewHorizons/AdventureBackpack2",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AdventureBackpack2/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ae2stuff",
       "latest_version": "0.5.1.15-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.5.1.13-GTNH",
@@ -183,12 +185,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ae2stuff",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ae2stuff/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "AFSU",
       "latest_version": "1.2.6-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.2.5-GTNH",
@@ -212,12 +214,12 @@
       "repo_url": "https://github.com/GTNewHorizons/AFSU",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/reposimtories/releases/com/github/GTNewHorizons/AFSU/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "AMDIForge",
       "latest_version": "1.0.3",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.3",
@@ -233,12 +235,12 @@
       "repo_url": "https://github.com/GTNewHorizons/AMDIForge",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AMDIForge/",
       "side": "NONE",
-      "private": false,
       "disabled": false
     },
     {
       "name": "amunra",
       "latest_version": "0.4.10",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.4.10",
@@ -254,12 +256,12 @@
       "repo_url": "https://github.com/GTNewHorizons/amunra",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/",
       "side": "NONE",
-      "private": false,
       "disabled": false
     },
     {
       "name": "AngerMod",
       "latest_version": "0.6.3",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.6.2",
@@ -283,12 +285,12 @@
       "repo_url": "https://github.com/GTNewHorizons/AngerMod",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AngerMod/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "AppleCore",
       "latest_version": "3.2.0",
+      "private": false,
       "versions": [
         {
           "version_tag": "3.1.2",
@@ -368,12 +370,12 @@
       "repo_url": "https://github.com/GTNewHorizons/AppleCore",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AppleCore/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
       "latest_version": "rv3-beta-88-GTNH-pre",
+      "private": false,
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -581,12 +583,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ArchitectureCraft",
       "latest_version": "1.7.6",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.4.2",
@@ -626,12 +628,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ArchitectureCraft",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ArchitectureCraft/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "AsieLib",
       "latest_version": "0.5.3",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.5.0",
@@ -671,12 +673,12 @@
       "repo_url": "https://github.com/GTNewHorizons/AsieLib",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AsieLib/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Avaritia",
       "latest_version": "1.27",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.14",
@@ -780,12 +782,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Avaritia",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Avaritia/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Avaritiaddons",
       "latest_version": "1.5.4-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.5.2-GTNH",
@@ -817,12 +819,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Avaritiaddons",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Avaritiaddons/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "bartworks",
       "latest_version": "0.5.53-pre",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -1046,12 +1048,12 @@
       "repo_url": "https://github.com/GTNewHorizons/bartworks",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Battlegear2",
       "latest_version": "1.1.1.10",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.8.5",
@@ -1163,12 +1165,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Battlegear2",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Battlegear2/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Baubles",
       "latest_version": "1.0.1.14",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.1.13",
@@ -1192,12 +1194,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Baubles",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Baubles/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "bdlib",
       "latest_version": "1.9.8-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.9.5",
@@ -1237,12 +1239,12 @@
       "repo_url": "https://github.com/GTNewHorizons/bdlib",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bdlib/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "BetterBuildersWands",
       "latest_version": "0.9.3-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.9.0-GTNH",
@@ -1282,12 +1284,12 @@
       "repo_url": "https://github.com/GTNewHorizons/BetterBuildersWands",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterBuildersWands/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "BetterLoadingScreen",
       "latest_version": "1.3.33-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.3.30-GTNH",
@@ -1327,12 +1329,12 @@
       "repo_url": "https://github.com/GTNewHorizons/BetterLoadingScreen",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/",
       "side": "CLIENT",
-      "private": false,
       "disabled": false
     },
     {
       "name": "BetterP2P",
       "latest_version": "1.0.8",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.3",
@@ -1388,12 +1390,12 @@
       "repo_url": "https://github.com/GTNewHorizons/BetterP2P",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterP2P/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "BetterQuesting",
       "latest_version": "3.0.359-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "3.0.351-GTNH",
@@ -1473,12 +1475,12 @@
       "repo_url": "https://github.com/GTNewHorizons/BetterQuesting",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Binnie",
       "latest_version": "2.0.34",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.0.24",
@@ -1558,12 +1560,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Binnie",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Binnie/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "BlockLimiter",
       "latest_version": "0.55",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.54",
@@ -1587,12 +1589,12 @@
       "repo_url": "https://github.com/GTNewHorizons/BlockLimiter",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BlockLimiter/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "BloodArsenal",
       "latest_version": "1.2.6",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.2.4",
@@ -1624,12 +1626,12 @@
       "repo_url": "https://github.com/GTNewHorizons/BloodArsenal",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BloodArsenal/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "BloodMagic",
       "latest_version": "1.3.10",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.3.3-29",
@@ -1717,12 +1719,12 @@
       "repo_url": "https://github.com/GTNewHorizons/BloodMagic",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BloodMagic/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Botania",
       "latest_version": "1.9.4-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.9.0-GTNH",
@@ -1762,12 +1764,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Botania",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botania/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Botanic-horizons",
       "latest_version": "1.0.8-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.1-GTNH",
@@ -1839,12 +1841,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Botanic-horizons",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botanic-horizons/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "BugTorch",
       "latest_version": "1.1.6.2",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.2-GTNH",
@@ -1868,12 +1870,12 @@
       "repo_url": "https://github.com/GTNewHorizons/BugTorch",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BugTorch/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "BuildCraft",
       "latest_version": "7.1.27",
+      "private": false,
       "versions": [
         {
           "version_tag": "7.1.24",
@@ -1913,12 +1915,12 @@
       "repo_url": "https://github.com/GTNewHorizons/BuildCraft",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BuildCraft/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "BuildCraftCompat",
       "latest_version": "7.1.11",
+      "private": false,
       "versions": [
         {
           "version_tag": "7.1.10",
@@ -1942,12 +1944,12 @@
       "repo_url": "https://github.com/GTNewHorizons/BuildCraftCompat",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BuildCraftCompat/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Catwalks-2",
       "latest_version": "2.1.3-GTNH",
+      "private": true,
       "versions": [
         {
           "version_tag": "2.1.2-GTNH",
@@ -1971,12 +1973,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Catwalks-2",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Catwalks-2/",
       "side": "BOTH",
-      "private": true,
       "disabled": false
     },
     {
       "name": "Chisel",
       "latest_version": "2.10.12-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.9.7",
@@ -2088,12 +2090,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Chisel",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Chisel/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "CodeChickenCore",
       "latest_version": "1.1.5",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.0",
@@ -2149,12 +2151,12 @@
       "repo_url": "https://github.com/GTNewHorizons/CodeChickenCore",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CodeChickenCore/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "CodeChickenLib",
       "latest_version": "1.1.5.4",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.4.1",
@@ -2210,12 +2212,12 @@
       "repo_url": "https://github.com/GTNewHorizons/CodeChickenLib",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CodeChickenLib/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Computronics",
       "latest_version": "1.6.12-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.6.10",
@@ -2255,12 +2257,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Computronics",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Computronics/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "CookingForBlockheads",
       "latest_version": "1.2.9-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.2.7-GTNH",
@@ -2292,12 +2294,12 @@
       "repo_url": "https://github.com/GTNewHorizons/CookingForBlockheads",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CookingForBlockheads/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "CraftTweaker",
       "latest_version": "3.2.9",
+      "private": false,
       "versions": [
         {
           "version_tag": "3.2.4",
@@ -2353,12 +2355,12 @@
       "repo_url": "https://github.com/GTNewHorizons/CraftTweaker",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CraftTweaker/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "CreativeCore",
       "latest_version": "1.3.27-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.3.25-GTNH",
@@ -2390,12 +2392,12 @@
       "repo_url": "https://github.com/GTNewHorizons/CreativeCore",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CreativeCore/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "CropLoadCore",
       "latest_version": "0.1.10",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.1.6",
@@ -2443,12 +2445,12 @@
       "repo_url": "https://github.com/GTNewHorizons/CropLoadCore",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CropLoadCore/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Crops-plus-plus",
       "latest_version": "1.3.6.0",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.3.5.9",
@@ -2472,24 +2474,24 @@
       "repo_url": "https://github.com/GTNewHorizons/Crops-plus-plus",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Crops-plus-plus/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "CropsNH",
       "latest_version": "<unknown>",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/CropsNH",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": true
     },
     {
       "name": "DefaultServerList",
       "latest_version": "1.0",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0",
@@ -2505,12 +2507,12 @@
       "repo_url": "https://github.com/GTNewHorizons/DefaultServerList",
       "maven": null,
       "side": "CLIENT",
-      "private": false,
       "disabled": false
     },
     {
       "name": "DefaultWorldGenerator",
       "latest_version": "0.1-b13",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.1-b13",
@@ -2526,12 +2528,12 @@
       "repo_url": "https://github.com/GTNewHorizons/DefaultWorldGenerator",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "DetravScannerMod",
       "latest_version": "1.6.7",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0",
@@ -2643,12 +2645,12 @@
       "repo_url": "https://github.com/GTNewHorizons/DetravScannerMod",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DetravScannerMod/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Draconic-Evolution",
       "latest_version": "1.1.2",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.1",
@@ -2672,12 +2674,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Draconic-Evolution",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Electro-Magic-Tools",
       "latest_version": "1.2.8.9",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.2.6.5",
@@ -2797,12 +2799,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Electro-Magic-Tools/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "EnderCore",
       "latest_version": "0.2.9",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.2.1",
@@ -2890,12 +2892,12 @@
       "repo_url": "https://github.com/GTNewHorizons/EnderCore",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderCore/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "EnderIO",
       "latest_version": "2.3.1.38",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.3.0.433",
@@ -3087,12 +3089,12 @@
       "repo_url": "https://github.com/GTNewHorizons/EnderIO",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "EnderStorage",
       "latest_version": "1.4.11",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.4.9",
@@ -3124,12 +3126,12 @@
       "repo_url": "https://github.com/GTNewHorizons/EnderStorage",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderStorage/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "EnderZoo",
       "latest_version": "1.9.20",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.16",
@@ -3201,12 +3203,12 @@
       "repo_url": "https://github.com/GTNewHorizons/EnderZoo",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderZoo/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "EnhancedLootBags",
       "latest_version": "1.0.5",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.5",
@@ -3222,12 +3224,12 @@
       "repo_url": "https://github.com/GTNewHorizons/EnhancedLootBags",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Enklume",
       "latest_version": "1.1.1",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.1",
@@ -3243,12 +3245,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Enklume",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Enklume/",
       "side": "NONE",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Eternal-Singularity",
       "latest_version": "1.0.4b",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.4b",
@@ -3264,12 +3266,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Eternal-Singularity",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ExtraCells2",
       "latest_version": "2.5.14",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.3.1-17",
@@ -3421,12 +3423,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ExtraCells2",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ExtraCells2/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "FindIt",
       "latest_version": "1.0.6",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.3",
@@ -3466,12 +3468,12 @@
       "repo_url": "https://github.com/GTNewHorizons/FindIt",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FindIt/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ForbiddenMagic",
       "latest_version": "0.6.3-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.6-GTNH",
@@ -3511,12 +3513,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ForbiddenMagic",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForbiddenMagic/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ForestryMC",
       "latest_version": "4.4.7",
+      "private": false,
       "versions": [
         {
           "version_tag": "4.2.19.0",
@@ -3636,12 +3638,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ForestryMC",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForestryMC/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Forgelin",
       "latest_version": "1.9.2-GTNH-1.7.10-Edition",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.8.4-GTNH-1.7.10pre",
@@ -3665,12 +3667,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Forgelin",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ForgeMultipart",
       "latest_version": "1.2.8",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.2.4",
@@ -3718,12 +3720,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ForgeMultipart",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForgeMultipart/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "FTB-Library",
       "latest_version": "1.0.18.5-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.18.4",
@@ -3747,12 +3749,12 @@
       "repo_url": "https://github.com/GTNewHorizons/FTB-Library",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FTB-Library/",
       "side": "NONE",
-      "private": false,
       "disabled": false
     },
     {
       "name": "FTB-Utilities",
       "latest_version": "1.0.18.6-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.18.6-GTNH",
@@ -3768,12 +3770,12 @@
       "repo_url": "https://github.com/GTNewHorizons/FTB-Utilities",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FTB-Utilities/",
       "side": "NONE",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Gadomancy",
       "latest_version": "1.0.8.5",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.7.4QF",
@@ -3821,12 +3823,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Gadomancy",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Gadomancy/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "GalacticGregGT5",
       "latest_version": "1.0.8",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.4",
@@ -3874,12 +3876,12 @@
       "repo_url": "https://github.com/GTNewHorizons/GalacticGregGT5",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GalacticGregGT5/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Galacticraft",
       "latest_version": "3.0.43-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "3.0.33-GTNH",
@@ -3967,12 +3969,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Galacticraft",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Galacticraft/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Galaxy-Space-GTNH",
       "latest_version": "1.1.16g-GTNH",
+      "private": true,
       "versions": [
         {
           "version_tag": "1.1.8-GTNH",
@@ -4084,12 +4086,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Galaxy-Space-GTNH/",
       "side": "BOTH",
-      "private": true,
       "disabled": false
     },
     {
       "name": "gendustry",
       "latest_version": "1.6.5.4-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.6.5.2-GTNH",
@@ -4121,12 +4123,12 @@
       "repo_url": "https://github.com/GTNewHorizons/gendustry",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/gendustry/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "GoodGenerator",
       "latest_version": "0.4.5",
+      "private": false,
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -4278,12 +4280,12 @@
       "repo_url": "https://github.com/GTNewHorizons/GoodGenerator",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "GT5-Unofficial",
       "latest_version": "5.09.40.66-pre",
+      "private": false,
       "versions": [
         {
           "version_tag": "5.09.40.01",
@@ -4843,12 +4845,12 @@
       "repo_url": "https://github.com/GTNewHorizons/GT5-Unofficial",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "GTNEIOrePlugin",
       "latest_version": "1.0.11",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.10",
@@ -4872,12 +4874,12 @@
       "repo_url": "https://github.com/GTNewHorizons/GTNEIOrePlugin",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNEIOrePlugin/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "GTNH-Lanthanides",
       "latest_version": "0.8.9",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.8.1",
@@ -4957,12 +4959,12 @@
       "repo_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Lanthanides/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "GTNH-TC-Wands",
       "latest_version": "1.2.6",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.3",
@@ -5034,12 +5036,12 @@
       "repo_url": "https://github.com/GTNewHorizons/GTNH-TC-Wands",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-TC-Wands/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "GTplusplus",
       "latest_version": "1.7.44",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -5231,12 +5233,12 @@
       "repo_url": "https://github.com/GTNewHorizons/GTplusplus",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Guide-API",
       "latest_version": "1.0.2",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.2",
@@ -5252,12 +5254,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Guide-API",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Guide-API/",
       "side": "NONE",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Hardcore-Ender-Expansion",
       "latest_version": "1.9.3-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.9.0-GTNH",
@@ -5297,12 +5299,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hardcore-Ender-Expansion/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "harvestcraft",
       "latest_version": "1.0.13-GTNH",
+      "private": true,
       "versions": [
         {
           "version_tag": "1.0.8-GTNH",
@@ -5358,12 +5360,12 @@
       "repo_url": "https://github.com/GTNewHorizons/harvestcraft",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/harvestcraft/",
       "side": "BOTH",
-      "private": true,
       "disabled": false
     },
     {
       "name": "Hodgepodge",
       "latest_version": "1.7.3",
+      "private": false,
       "versions": [
         {
           "version_tag": "v1.2.0",
@@ -5507,12 +5509,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Hodgepodge",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "HoloInventory",
       "latest_version": "2.1.10-GTNH-pre",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.9.2-GTNH",
@@ -5608,12 +5610,12 @@
       "repo_url": "https://github.com/GTNewHorizons/HoloInventory",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HoloInventory/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "HungerOverhaul",
       "latest_version": "1.0.4-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.3-GTNH",
@@ -5637,12 +5639,12 @@
       "repo_url": "https://github.com/GTNewHorizons/HungerOverhaul",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HungerOverhaul/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "HydroEnergy",
       "latest_version": "1.0.11",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.10",
@@ -5666,12 +5668,12 @@
       "repo_url": "https://github.com/GTNewHorizons/HydroEnergy",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HydroEnergy/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "IFU",
       "latest_version": "1.9.2",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.3",
@@ -5719,12 +5721,12 @@
       "repo_url": "https://github.com/GTNewHorizons/IFU",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/IFU/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "IguanaTweaksTConstruct",
       "latest_version": "2.2.2",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.1.9",
@@ -5764,12 +5766,12 @@
       "repo_url": "https://github.com/GTNewHorizons/IguanaTweaksTConstruct",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/IguanaTweaksTConstruct/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Infernal-Mobs",
       "latest_version": "1.7.5-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.7.0-GTNH",
@@ -5809,12 +5811,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Infernal-Mobs",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "InGame-Info-XML",
       "latest_version": "2.8.3.91",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.8.1.83",
@@ -5878,12 +5880,12 @@
       "repo_url": "https://github.com/GTNewHorizons/InGame-Info-XML",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/InGame-Info-XML/",
       "side": "CLIENT",
-      "private": false,
       "disabled": false
     },
     {
       "name": "INpureCore",
       "latest_version": "1.1.2-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.0-GTNH",
@@ -5915,12 +5917,12 @@
       "repo_url": "https://github.com/GTNewHorizons/INpureCore",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/INpureCore/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "inventory-tweaks",
       "latest_version": "1.5.15",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.5.11",
@@ -5968,12 +5970,12 @@
       "repo_url": "https://github.com/GTNewHorizons/inventory-tweaks",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/inventory-tweaks/",
       "side": "CLIENT",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ironchest",
       "latest_version": "6.0.71",
+      "private": false,
       "versions": [
         {
           "version_tag": "6.0.66",
@@ -6029,12 +6031,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ironchest",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ironchest/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "IronChestMinecarts",
       "latest_version": "1.0.8",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.5",
@@ -6074,12 +6076,12 @@
       "repo_url": "https://github.com/GTNewHorizons/IronChestMinecarts",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/IronChestMinecarts/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Irontanks",
       "latest_version": "1.2.6",
+      "private": false,
       "versions": [
         {
           "version_tag": "v1.1.17",
@@ -6135,12 +6137,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Irontanks",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Irontanks/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Jabba",
       "latest_version": "1.2.16",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.2.5",
@@ -6212,12 +6214,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Jabba",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Jabba/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "KekzTech",
       "latest_version": "0.6.7",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.6.0",
@@ -6297,12 +6299,12 @@
       "repo_url": "https://github.com/GTNewHorizons/KekzTech",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KekzTech/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "LittleTiles",
       "latest_version": "1.2.3-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.2.1-GTNH",
@@ -6334,12 +6336,12 @@
       "repo_url": "https://github.com/GTNewHorizons/LittleTiles",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LittleTiles/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "LogisticsPipes",
       "latest_version": "0.9.4.5.6-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.9.4.5.4-GTNH",
@@ -6371,12 +6373,12 @@
       "repo_url": "https://github.com/GTNewHorizons/LogisticsPipes",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LogisticsPipes/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "LootGames",
       "latest_version": "2.0.5",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.0.1",
@@ -6424,12 +6426,12 @@
       "repo_url": "https://github.com/GTNewHorizons/LootGames",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LootGames/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "LunatriusCore",
       "latest_version": "1.1.6-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.4",
@@ -6461,12 +6463,12 @@
       "repo_url": "https://github.com/GTNewHorizons/LunatriusCore",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LunatriusCore/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "MagicBees",
       "latest_version": "2.5.10-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.5.2-GTNH",
@@ -6506,12 +6508,12 @@
       "repo_url": "https://github.com/GTNewHorizons/MagicBees",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MagicBees/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Mantle",
       "latest_version": "0.3.4",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.3.4",
@@ -6527,12 +6529,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Mantle",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Mantle/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Minecraft-Backpack-Mod",
       "latest_version": "2.2.6-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.2.5-GTNH",
@@ -6556,12 +6558,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Minecraft-Backpack-Mod",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Minecraft-Backpack-Mod/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Minetweaker-Gregtech-5-Addon",
       "latest_version": "1.7.5",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.7.6",
@@ -6729,12 +6731,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ModMixins",
       "latest_version": "0.0.5",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.0.5",
@@ -6750,12 +6752,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ModMixins",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ModTweaker",
       "latest_version": "0.9.8",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.9.8",
@@ -6771,12 +6773,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ModTweaker",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModTweaker/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "MyEssentials-Core",
       "latest_version": "1.19r",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.19r",
@@ -6792,12 +6794,12 @@
       "repo_url": "https://github.com/GTNewHorizons/MyEssentials-Core",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyEssentials-Core/",
       "side": "NONE",
-      "private": false,
       "disabled": false
     },
     {
       "name": "MyPermissions",
       "latest_version": "1.0-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0-GTNH",
@@ -6813,12 +6815,12 @@
       "repo_url": "https://github.com/GTNewHorizons/MyPermissions",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyPermissions/",
       "side": "NONE",
-      "private": false,
       "disabled": false
     },
     {
       "name": "MyTown2",
       "latest_version": "0.5.3.1-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.5.3-GTNH",
@@ -6842,12 +6844,12 @@
       "repo_url": "https://github.com/GTNewHorizons/MyTown2",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyTown2/",
       "side": "NONE",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Natura",
       "latest_version": "2.5.0",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.4.3-dev",
@@ -6927,12 +6929,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Natura",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Natura/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "nei-custom-diagram",
       "latest_version": "1.4.4.5",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.4.3",
@@ -6980,12 +6982,12 @@
       "repo_url": "https://github.com/GTNewHorizons/nei-custom-diagram",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/nei-custom-diagram/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "NEI-Integration",
       "latest_version": "1.2.0",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.3",
@@ -7017,12 +7019,12 @@
       "repo_url": "https://github.com/GTNewHorizons/NEI-Integration",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NEI-Integration/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "neiaddons",
       "latest_version": "1.12.19",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.12.17",
@@ -7054,12 +7056,12 @@
       "repo_url": "https://github.com/GTNewHorizons/neiaddons",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/neiaddons/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "NetherPortalFix",
       "latest_version": "1.1.1",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.1",
@@ -7075,12 +7077,12 @@
       "repo_url": "https://github.com/GTNewHorizons/NetherPortalFix",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Netty-Patcher",
       "latest_version": "0.3.1",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.3",
@@ -7104,12 +7106,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Netty-Patcher",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Netty-Patcher/",
       "side": "CLIENT",
-      "private": false,
       "disabled": false
     },
     {
       "name": "NewHorizonsCoreMod",
       "latest_version": "1.9.31-pre",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.9.11",
@@ -7277,12 +7279,12 @@
       "repo_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NewHorizonsCoreMod/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Nodal-Mechanics",
       "latest_version": "1.1.-6-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "Nodal-Mechanics",
@@ -7306,12 +7308,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Nodal-Mechanics",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "NotEnoughEnergistics",
       "latest_version": "1.3.12",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.3.8",
@@ -7359,12 +7361,12 @@
       "repo_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughEnergistics/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "NotEnoughItems",
       "latest_version": "2.2.18-GTNH-pre",
+      "private": false,
       "versions": [
         {
           "version_tag": "v2.0.0",
@@ -7772,12 +7774,12 @@
       "repo_url": "https://github.com/GTNewHorizons/NotEnoughItems",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Nuclear-Control",
       "latest_version": "2.4.9",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.4.7",
@@ -7809,12 +7811,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Nuclear-Control",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Nuclear-Control/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "oauth",
       "latest_version": "1.06.1-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.06.1-GTNH",
@@ -7830,12 +7832,12 @@
       "repo_url": "https://github.com/GTNewHorizons/oauth",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/oauth/",
       "side": "CLIENT",
-      "private": false,
       "disabled": false
     },
     {
       "name": "OCGlasses",
       "latest_version": "1.2.3-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.2-GTNH",
@@ -7875,12 +7877,12 @@
       "repo_url": "https://github.com/GTNewHorizons/OCGlasses",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OCGlasses/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "OpenBlocks",
       "latest_version": "1.6.9-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.6.1",
@@ -7920,12 +7922,12 @@
       "repo_url": "https://github.com/GTNewHorizons/OpenBlocks",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenBlocks/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "OpenComputers",
       "latest_version": "1.7.5.26-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.7.4.1",
@@ -8029,12 +8031,12 @@
       "repo_url": "https://github.com/GTNewHorizons/OpenComputers",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenComputers/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "OpenModsLib",
       "latest_version": "0.10.6",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.10.2",
@@ -8082,12 +8084,12 @@
       "repo_url": "https://github.com/GTNewHorizons/OpenModsLib",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenModsLib/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "OpenModularTurrets",
       "latest_version": "2.2.11-247",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.2.11-246",
@@ -8111,12 +8113,12 @@
       "repo_url": "https://github.com/GTNewHorizons/OpenModularTurrets",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenModularTurrets/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Opis",
       "latest_version": "1.3.3-mapless",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.3.2-mapless",
@@ -8140,12 +8142,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Opis",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Opis/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "OverloadedArmorBar",
       "latest_version": "1.0.1",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.0-beta5",
@@ -8177,12 +8179,12 @@
       "repo_url": "https://github.com/GTNewHorizons/OverloadedArmorBar",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OverloadedArmorBar/",
       "side": "CLIENT",
-      "private": false,
       "disabled": false
     },
     {
       "name": "PersonalSpace",
       "latest_version": "1.0.8-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.3-GTNH",
@@ -8230,12 +8232,12 @@
       "repo_url": "https://github.com/GTNewHorizons/PersonalSpace",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/PersonalSpace/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ProjectBlue",
       "latest_version": "1.1.7-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.7-GTNH",
@@ -8251,12 +8253,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ProjectBlue",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ProjectRed",
       "latest_version": "4.7.7-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "4.7.1",
@@ -8320,12 +8322,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ProjectRed",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ProjectRed/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "QmunityLib",
       "latest_version": "0.1.115",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.1.115",
@@ -8341,12 +8343,12 @@
       "repo_url": "https://github.com/GTNewHorizons/QmunityLib",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/QmunityLib/",
       "side": "NONE",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Railcraft",
       "latest_version": "9.13.8",
+      "private": false,
       "versions": [
         {
           "version_tag": "9.12.7",
@@ -8434,12 +8436,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Railcraft",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Railcraft/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Realistic-World-Gen",
       "latest_version": "alpha-1.3.2.1",
+      "private": false,
       "versions": [
         {
           "version_tag": "alpha-1.3.2.1",
@@ -8455,12 +8457,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Realistic-World-Gen",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Realistic-World-Gen/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "RemoteIO",
       "latest_version": "2.4.7",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.4.3",
@@ -8508,12 +8510,12 @@
       "repo_url": "https://github.com/GTNewHorizons/RemoteIO",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/RemoteIO/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Roguelike-Dungeons",
       "latest_version": "1.5.3-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.5.2-GTNH",
@@ -8537,12 +8539,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Roguelike-Dungeons",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Roguelike-Dungeons/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "SC2",
       "latest_version": "2.0.2",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.0.0.b21",
@@ -8582,12 +8584,12 @@
       "repo_url": "https://github.com/GTNewHorizons/SC2",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SC2/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Schematica",
       "latest_version": "1.8.7-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.8.0-GTNH",
@@ -8659,12 +8661,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Schematica",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Schematica/",
       "side": "CLIENT",
-      "private": false,
       "disabled": false
     },
     {
       "name": "SGCraft",
       "latest_version": "1.3.13-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.3.12-GTNH",
@@ -8688,12 +8690,12 @@
       "repo_url": "https://github.com/GTNewHorizons/SGCraft",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SGCraft/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Share-Where-I-am",
       "latest_version": "0.2.0",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.1.0-pre",
@@ -8749,12 +8751,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Share-Where-I-am",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Share-Where-I-am/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "SleepingBags",
       "latest_version": "0.1.2",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.1.2",
@@ -8770,12 +8772,12 @@
       "repo_url": "https://github.com/GTNewHorizons/SleepingBags",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SleepingBags/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "SpecialAI",
       "latest_version": "1.1.2",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.2",
@@ -8791,12 +8793,12 @@
       "repo_url": "https://github.com/GTNewHorizons/SpecialAI",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SpecialAI/",
       "side": "NONE",
-      "private": false,
       "disabled": false
     },
     {
       "name": "SpecialMobs",
       "latest_version": "3.3.11",
+      "private": false,
       "versions": [
         {
           "version_tag": "3.3.1",
@@ -8860,12 +8862,12 @@
       "repo_url": "https://github.com/GTNewHorizons/SpecialMobs",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SpecialMobs/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "SpiceOfLife",
       "latest_version": "2.0.2-corrot",
+      "private": false,
       "versions": [
         {
           "version_tag": "v2.0.0-carrot-beta1",
@@ -8929,12 +8931,12 @@
       "repo_url": "https://github.com/GTNewHorizons/SpiceOfLife",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SpiceOfLife/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "SpongeMixins",
       "latest_version": "1.5.0",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.2.0",
@@ -8958,12 +8960,12 @@
       "repo_url": "https://github.com/GTNewHorizons/SpongeMixins",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "StandardQuestingPack",
       "latest_version": "3.0.193-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "3.0.187-GTNH",
@@ -9027,12 +9029,12 @@
       "repo_url": "https://github.com/GTNewHorizons/StandardQuestingPack",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StandardQuestingPack/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Steve-s-Factory-Manager",
       "latest_version": "1.1.1-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "A94-GTNH",
@@ -9080,12 +9082,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Steve-s-Factory-Manager",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Steve-s-Factory-Manager/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "StevesAddons",
       "latest_version": "0.10.23",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.1.0.24",
@@ -9149,12 +9151,12 @@
       "repo_url": "https://github.com/GTNewHorizons/StevesAddons",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StevesAddons/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "StorageDrawers",
       "latest_version": "1.11.14-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.10.8b",
@@ -9234,12 +9236,12 @@
       "repo_url": "https://github.com/GTNewHorizons/StorageDrawers",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "StorageDrawers-BiomesOPlenty",
       "latest_version": "1.11.12-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.11.9-gtnh",
@@ -9279,12 +9281,12 @@
       "repo_url": "https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers-BiomesOPlenty/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "StorageDrawers-Forestry",
       "latest_version": "1.11.12-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.11.9-gtnh",
@@ -9324,12 +9326,12 @@
       "repo_url": "https://github.com/GTNewHorizons/StorageDrawers-Forestry",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers-Forestry/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "StorageDrawers-Misc",
       "latest_version": "1.11.11-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.11.9-gtnh",
@@ -9361,12 +9363,12 @@
       "repo_url": "https://github.com/GTNewHorizons/StorageDrawers-Misc",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers-Misc/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "StorageDrawers-Natura",
       "latest_version": "1.11.11-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.11.9-gtnh",
@@ -9398,12 +9400,12 @@
       "repo_url": "https://github.com/GTNewHorizons/StorageDrawers-Natura",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers-Natura/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "StructureLib",
       "latest_version": "1.0.16",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.11",
@@ -9443,12 +9445,12 @@
       "repo_url": "https://github.com/GTNewHorizons/StructureLib",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StructureLib/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Super-TiC",
       "latest_version": "1.2.3",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.2.2",
@@ -9472,12 +9474,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Super-TiC",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Super-TiC/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "supersolarpanels",
       "latest_version": "1.1.2-GT-NH-Mod",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.2-GT-NH-Mod",
@@ -9493,12 +9495,12 @@
       "repo_url": "https://github.com/GTNewHorizons/supersolarpanels",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Tainted-Magic",
       "latest_version": "8.1.1.1-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "r7.83",
@@ -9538,12 +9540,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Tainted-Magic",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Tainted-Magic/",
       "side": "NONE",
-      "private": false,
       "disabled": false
     },
     {
       "name": "TC4Tweaks",
       "latest_version": "1.4.16",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.4.7",
@@ -9591,12 +9593,12 @@
       "repo_url": "https://github.com/GTNewHorizons/TC4Tweaks",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TC4Tweaks/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "TCNEIAdditions",
       "latest_version": "1.1.0.10",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.1.0",
@@ -9716,12 +9718,12 @@
       "repo_url": "https://github.com/GTNewHorizons/TCNEIAdditions",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TCNEIAdditions/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "TCNodeTracker",
       "latest_version": "1.1.5",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.3",
@@ -9753,12 +9755,12 @@
       "repo_url": "https://github.com/GTNewHorizons/TCNodeTracker",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TCNodeTracker/",
       "side": "CLIENT",
-      "private": false,
       "disabled": false
     },
     {
       "name": "TecTech",
       "latest_version": "5.0.8-pre",
+      "private": false,
       "versions": [
         {
           "version_tag": "4.10.12",
@@ -9854,12 +9856,12 @@
       "repo_url": "https://github.com/GTNewHorizons/TecTech",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "thaumcraft-research-tweaks",
       "latest_version": "1.0.3",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.3",
@@ -9875,12 +9877,12 @@
       "repo_url": "https://github.com/GTNewHorizons/thaumcraft-research-tweaks",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/thaumcraft-research-tweaks/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ThaumcraftMobAspects",
       "latest_version": "1.0.0-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.0-GTNH",
@@ -9896,12 +9898,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ThaumcraftMobAspects",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Thaumic_Exploration",
       "latest_version": "1.1.85-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.56",
@@ -9949,12 +9951,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Thaumic_Exploration",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Thaumic_Exploration/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ThaumicBases",
       "latest_version": "1.4.29",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.4.18",
@@ -10010,12 +10012,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ThaumicBases",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicBases/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ThaumicEnergistics",
       "latest_version": "1.3.19-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.3.1",
@@ -10071,12 +10073,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ThaumicEnergistics",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicEnergistics/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ThaumicHorizons",
       "latest_version": "1.2.1.3",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.9.8",
@@ -10172,12 +10174,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ThaumicHorizons",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicHorizons/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ThaumicTinkerer",
       "latest_version": "2.6.4",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.5.541",
@@ -10257,12 +10259,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ThaumicTinkerer",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicTinkerer/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "TiC-Tooltips",
       "latest_version": "1.2.10",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.2.7",
@@ -10294,12 +10296,12 @@
       "repo_url": "https://github.com/GTNewHorizons/TiC-Tooltips",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TiC-Tooltips/",
       "side": "CLIENT",
-      "private": false,
       "disabled": false
     },
     {
       "name": "TinkersConstruct",
       "latest_version": "1.9.0.14-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1,8.9-GTNH",
@@ -10507,12 +10509,12 @@
       "repo_url": "https://github.com/GTNewHorizons/TinkersConstruct",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "TinkersGregworks",
       "latest_version": "GTNH-1.0.23",
+      "private": false,
       "versions": [
         {
           "version_tag": "GTNH-1.0.22",
@@ -10536,12 +10538,12 @@
       "repo_url": "https://github.com/GTNewHorizons/TinkersGregworks",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "TinkersMechworks",
       "latest_version": "0.2.16.3",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.2.16.2",
@@ -10565,12 +10567,12 @@
       "repo_url": "https://github.com/GTNewHorizons/TinkersMechworks",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersMechworks/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "TooMuchLoot",
       "latest_version": "4.1.0-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "4.1.0-GTNH",
@@ -10586,12 +10588,12 @@
       "repo_url": "https://github.com/GTNewHorizons/TooMuchLoot",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "ToroHealth",
       "latest_version": "1.0.1",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.0-beta2",
@@ -10631,12 +10633,12 @@
       "repo_url": "https://github.com/GTNewHorizons/ToroHealth",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ToroHealth/",
       "side": "CLIENT",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Translocators",
       "latest_version": "1.1.2.19",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.2.17",
@@ -10668,12 +10670,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Translocators",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Translocators/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "twilightforest",
       "latest_version": "2.3.8.15",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.3.8.9",
@@ -10737,12 +10739,12 @@
       "repo_url": "https://github.com/GTNewHorizons/twilightforest",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/twilightforest/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Universal-Singularities",
       "latest_version": "8.6.5",
+      "private": false,
       "versions": [
         {
           "version_tag": "8.5a",
@@ -10790,12 +10792,12 @@
       "repo_url": "https://github.com/GTNewHorizons/Universal-Singularities",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Universal-Singularities/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "VisualProspecting",
       "latest_version": "1.0.30",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.22b",
@@ -10867,12 +10869,12 @@
       "repo_url": "https://github.com/GTNewHorizons/VisualProspecting",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/VisualProspecting/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "waila",
       "latest_version": "1.5.21",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.5.12",
@@ -10960,12 +10962,12 @@
       "repo_url": "https://github.com/GTNewHorizons/waila",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/waila/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "WailaHarvestability",
       "latest_version": "1.1.10-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.7-gtnh",
@@ -11005,12 +11007,12 @@
       "repo_url": "https://github.com/GTNewHorizons/WailaHarvestability",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WailaHarvestability/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "WAILAPlugins",
       "latest_version": "0.2.5",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.2.1",
@@ -11058,12 +11060,12 @@
       "repo_url": "https://github.com/GTNewHorizons/WAILAPlugins",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WAILAPlugins/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "WanionLib",
       "latest_version": "1.8.2",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.8.1",
@@ -11087,12 +11089,12 @@
       "repo_url": "https://github.com/GTNewHorizons/WanionLib",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WanionLib/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "WarpTheory",
       "latest_version": "1.2.6-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0k-dev",
@@ -11172,12 +11174,12 @@
       "repo_url": "https://github.com/GTNewHorizons/WarpTheory",
       "maven": null,
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "WAWLA",
       "latest_version": "1.1.3-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.0-GTNH",
@@ -11217,12 +11219,12 @@
       "repo_url": "https://github.com/GTNewHorizons/WAWLA",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WAWLA/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "WirelessCraftingTerminal",
       "latest_version": "1.8.8.5",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.8.7.4-bigbass-1",
@@ -11278,12 +11280,12 @@
       "repo_url": "https://github.com/GTNewHorizons/WirelessCraftingTerminal",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WirelessCraftingTerminal/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "WirelessRedstone-CBE",
       "latest_version": "1.4.6",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.4.2",
@@ -11331,12 +11333,12 @@
       "repo_url": "https://github.com/GTNewHorizons/WirelessRedstone-CBE",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WirelessRedstone-CBE/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "WitcheryExtras",
       "latest_version": "1.1.6-dev",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.3",
@@ -11376,12 +11378,12 @@
       "repo_url": "https://github.com/GTNewHorizons/WitcheryExtras",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WitcheryExtras/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "WitchingGadgets",
       "latest_version": "1.2.18-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.2.9j",
@@ -11477,12 +11479,12 @@
       "repo_url": "https://github.com/GTNewHorizons/WitchingGadgets",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WitchingGadgets/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     },
     {
       "name": "Yamcl",
       "latest_version": "0.5.84",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.5.81",
@@ -11514,1042 +11516,1017 @@
       "repo_url": "https://github.com/GTNewHorizons/Yamcl",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Yamcl/",
       "side": "BOTH",
-      "private": false,
       "disabled": false
     }
   ],
   "external_mods": [
     {
-      "name": "AFSU Mod",
-      "latest_version": "1.2.3a-Freeza",
-      "versions": [],
-      "type": "mod",
-      "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/afsu-mod",
-      "maven": "needs to be changed later",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
-    },
-    {
       "name": "Aroma1997Core",
       "latest_version": "1.0.2.16",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "GNU General Public License v3.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/aroma1997core",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "CLIENT",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/aroma1997core",
+      "project_id": null,
+      "slug": "aroma1997core",
+      "source": "curse"
     },
     {
       "name": "AromaBackup",
       "latest_version": "0.1.0.0",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "Custom License, permission to distribute derivative works granted since GTNH is provided through CurseForge. (https://www.curseforge.com/project/225658/license)",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/aromabackup",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "CLIENT",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/aromabackup",
+      "project_id": null,
+      "slug": "aromabackup",
+      "source": "curse"
     },
     {
       "name": "Automagy",
       "latest_version": "0.28.2",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/automagy",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "BdLib",
-      "latest_version": "1.9.4.109",
-      "versions": [],
-      "type": "mod",
-      "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/bdlib",
-      "maven": "https://jenkins.bdew.net/maven/net/bdew/bdlib/",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "Better Builder's Wands",
-      "latest_version": "0.8.1-1.7.10r92+aec06c3",
-      "versions": [],
-      "type": "mod",
-      "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/better-builders-wands",
-      "maven": "needs to be changed later",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/automagy",
+      "project_id": null,
+      "slug": "automagy",
+      "source": "curse"
     },
     {
       "name": "BiblioCraft",
       "latest_version": "1.11.7",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft",
+      "project_id": null,
+      "slug": "bibliocraft",
+      "source": "curse"
     },
     {
       "name": "BiblioCraft: BiblioWoods Biomes O'Plenty Edition",
       "latest_version": "1.9",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition",
+      "project_id": null,
+      "slug": "bibliocraft-bibliowoods-biomes-oplenty-edition",
+      "source": "curse"
     },
     {
       "name": "BiblioCraft: BiblioWoods Forestry Edition",
       "latest_version": "1.7",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition",
+      "project_id": null,
+      "slug": "bibliocraft-bibliowoods-forestry-edition",
+      "source": "curse"
     },
     {
       "name": "BiblioCraft: BiblioWoods Natura Edition",
       "latest_version": "1.5",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-natura-edition",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-natura-edition",
+      "project_id": null,
+      "slug": "bibliocraft-bibliowoods-natura-edition",
+      "source": "curse"
     },
     {
       "name": "Brandon's Core",
       "latest_version": "1.0.0.12",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "Don't Be a Jerk License, permission granted as a modpack to redistribute this mod in its entirety as source or compiled code.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/brandons-core",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "Buildcraft",
-      "latest_version": "7.1.24",
-      "versions": [],
-      "type": "mod",
-      "license": "Minecraft Mod Public License v1.0.1.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/buildcraft",
-      "maven": "https://mod-buildcraft.com/releases/BuildCraft/",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/brandons-core",
+      "project_id": null,
+      "slug": "brandons-core",
+      "source": "curse"
     },
     {
       "name": "Witchery",
       "latest_version": "0.24.1",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/witchery",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "WanionLib",
-      "latest_version": "1.8",
-      "versions": [],
-      "type": "mod",
-      "license": "Mozilla Public License v2.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/wanionlib",
-      "maven": "needs to be changed later",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "Translocators",
-      "latest_version": "1.1.2.16",
-      "versions": [],
-      "type": "mod",
-      "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/translocators",
-      "maven": "https://chickenbones.net/maven/",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/witchery",
+      "project_id": null,
+      "slug": "witchery",
+      "source": "curse"
     },
     {
       "name": "Thaumic Inventory Scanning",
       "latest_version": "1.0.11",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/ModdingForBlockheads/ThaumicInventoryScanning",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "Thaumcraft Node Tracker",
-      "latest_version": "1.1.2",
-      "versions": [],
-      "type": "mod",
-      "license": "Do What The Fuck You Want To License v2.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-node-tracker",
-      "maven": "needs to be changed later",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning",
+      "project_id": null,
+      "slug": "thaumcraft-inventory-scanning",
+      "source": "curse"
     },
     {
       "name": "Thaumcraft NEI Plugin",
       "latest_version": "1.7a",
+      "private": false,
       "versions": [],
       "type": "mod",
-      "license": "Do What The Fuck You Want To License v2.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin",
-      "maven": "needs to be changed later",
+      "license": "You have my permission to include \"Thaumcraft NEI Plugin\" in any modpack, public or private, provided that credit is given, the source files are not modified and the overall mod pack is distributed free of charge.",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "SuperTiC",
-      "latest_version": "1.2.1",
-      "versions": [],
-      "type": "mod",
-      "license": "GNU Lesser General Public License v3.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/supertic",
-      "maven": "needs to be changed later",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "Sleeping Bag",
-      "latest_version": "0.1.1",
-      "versions": [],
-      "type": "mod",
-      "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/bag-o-sleep",
-      "maven": "needs to be changed later",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin",
+      "project_id": null,
+      "slug": "thaumcraft-nei-plugin",
+      "source": "curse"
     },
     {
       "name": "Random Things",
       "latest_version": "2.2.4",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/random-things",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/random-things",
+      "project_id": null,
+      "slug": "random-things",
+      "source": "curse"
     },
     {
       "name": "Player API",
       "latest_version": "1.4",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "GNU Lesser General Public License v3.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/player-api/files/2248928",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/player-api",
+      "project_id": null,
+      "slug": "player-api",
+      "source": "curse"
     },
     {
       "name": "Pam's Harvest the Nether",
       "latest_version": "1.7.10a",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether",
+      "project_id": null,
+      "slug": "pams-harvest-the-nether",
+      "source": "curse"
     },
     {
       "name": "OpenSecurity",
       "latest_version": "1.0-117",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/opensecurity",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/PC-Logix/OpenSecurity",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/opensecurity",
+      "project_id": null,
+      "slug": "opensecurity",
+      "source": "curse"
     },
     {
       "name": "OpenPrinter",
       "latest_version": "0.1.0.132",
-      "versions": [],
-      "type": "mod",
-      "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/openprinter",
-      "maven": "needs to be changed later",
-      "side": "BOTH",
       "private": false,
-      "disabled": false
-    },
-    {
-      "name": "Open Modular Turrets",
-      "latest_version": "2.2.11-245",
-      "versions": [],
-      "type": "mod",
-      "license": "GNU General Public License v3.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/openmodularturrets",
-      "maven": "https://jenkins.ironhide.de/job/OMTTeam/job/OpenModularTurrets/",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "NEI Integration",
-      "latest_version": "1.1.2",
       "versions": [],
       "type": "mod",
       "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/nei-integration",
-      "maven": "needs to be changed later",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
+      "repo_url": "https://github.com/PC-Logix/OpenPrinter",
+      "maven": "",
+      "side": "BOTH",
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/openprinter",
+      "project_id": null,
+      "slug": "openprinter",
+      "source": "curse"
     },
     {
       "name": "Nature's Compass",
       "latest_version": "1.3.1",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/natures-compass",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/MattCzyr/NaturesCompass",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/natures-compass",
+      "project_id": null,
+      "slug": "natures-compass",
+      "source": "curse"
     },
     {
       "name": "Mouse Tweaks",
       "latest_version": "2.4.4",
+      "private": false,
       "versions": [],
       "type": "mod",
-      "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
-      "maven": "needs to be changed later",
+      "license": "BSD 3-Clause",
+      "repo_url": "https://github.com/YaLTeR/MouseTweaks",
+      "maven": "",
       "side": "CLIENT",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "ModTweaker",
-      "latest_version": "0.9.6",
-      "versions": [],
-      "type": "mod",
-      "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/modtweaker",
-      "maven": "needs to be changed later",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "Mantle",
-      "latest_version": "0.3.2b",
-      "versions": [],
-      "type": "mod",
-      "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/mantle",
-      "maven": "needs to be changed later",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+      "project_id": null,
+      "slug": "mouse-tweaks",
+      "source": "curse"
     },
     {
       "name": "MalisisDoor",
       "latest_version": "1.13.2",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/malisisdoors",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/Ordinastie/MalisisDoors",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/malisisdoors",
+      "project_id": null,
+      "slug": "malisisdoors",
+      "source": "curse"
     },
     {
       "name": "MalisisCore",
       "latest_version": "0.14.3",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/malisiscore",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/Ordinastie/MalisisCore",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "LunatriusCore",
-      "latest_version": "1.1.2.21",
-      "versions": [],
-      "type": "mod",
-      "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/lunatriuscore",
-      "maven": "http://mc.lunatri.us/files/com.github.lunatrius/LunatriusCore/",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "LittleTiles",
-      "latest_version": "1.2.0",
-      "versions": [],
-      "type": "mod",
-      "license": "GNU Lesser General Public License v2.1.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/littletiles",
-      "maven": "needs to be changed later",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/malisiscore",
+      "project_id": null,
+      "slug": "malisiscore",
+      "source": "curse"
     },
     {
       "name": "It's the little things",
       "latest_version": "1.0.3",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/its-the-little-things",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/zlepper/itlt",
+      "maven": "",
       "side": "CLIENT",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "Iron Chest Minecarts",
-      "latest_version": "1.0.4",
-      "versions": [],
-      "type": "mod",
-      "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/iron-chest-minecarts",
-      "maven": "needs to be changed later",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "INpureCore",
-      "latest_version": "1.0.0B9-62",
-      "versions": [],
-      "type": "mod",
-      "license": "IDGAF License v1.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/inpurecore",
-      "maven": "needs to be changed later",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/its-the-little-things",
+      "project_id": null,
+      "slug": "its-the-little-things",
+      "source": "curse"
     },
     {
       "name": "IC2 Crop-Breeding Plugin",
       "latest_version": "1.3.1",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/ic2-nei-crop-plugin",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "CLIENT",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/ic2-nei-crop-plugin",
+      "project_id": null,
+      "slug": "ic2-nei-crop-plugin",
+      "source": "curse"
     },
     {
       "name": "HelpFixer",
       "latest_version": "1.0.7",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "Do What The Fuck You Want To License v2.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/helpfixer",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/matthewprenger/HelpFixer",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/helpfixer",
+      "project_id": null,
+      "slug": "helpfixer",
+      "source": "curse"
     },
     {
       "name": "Hardcore Darkness",
       "latest_version": "1.7",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/lumien231/Hardcore-Darkness",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness",
+      "project_id": null,
+      "slug": "hardcore-darkness",
+      "source": "curse"
     },
     {
       "name": "Floodlights",
       "latest_version": "1.2.8-137",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "GNU Lesser General Public License v3.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/floodlights",
+      "repo_url": "https://github.com/Keridos/FloodLights",
       "maven": "https://jenkins.ironhide.de/job/Keridos%20Mods/job/FloodLights-1.7.10/",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/floodlights",
+      "project_id": null,
+      "slug": "floodlights",
+      "source": "curse"
     },
     {
       "name": "FastCraft",
       "latest_version": "1.25",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/fastcraft",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "CLIENT",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "Eternal Singularity",
-      "latest_version": "1.0.4b",
-      "versions": [],
-      "type": "mod",
-      "license": "Creative Commons Public License, assumed to be Creative Commons Attribution-ShareAlike 3.0 Unported.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/eternal-singularity",
-      "maven": "needs to be changed later",
-      "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/fastcraft",
+      "project_id": null,
+      "slug": "fastcraft",
+      "source": "curse"
     },
     {
       "name": "Enhanced Portals 3",
       "latest_version": "3.0.12",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "GNU Lesser General Public License v3.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/enhanced-portals-3",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/enhancedportals/enhancedportals",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/enhanced-portals-3",
+      "project_id": null,
+      "slug": "enhanced-portals-3",
+      "source": "curse"
     },
     {
       "name": "DummyCore",
       "latest_version": "1.13",
+      "private": false,
       "versions": [],
       "type": "mod",
-      "license": "Creative Commons Attribution 3.0 Unported.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/dummycore",
-      "maven": "needs to be changed later",
+      "license": "Creative Commons Attribution 3.0 share-alike",
+      "repo_url": "https://github.com/Modbder/DummyCore",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "Default World Generator",
-      "latest_version": "0.1-b13",
-      "versions": [],
-      "type": "mod",
-      "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/default-world-generator",
-      "maven": "needs to be changed later",
-      "side": "CLIENT",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/dummycore",
+      "project_id": null,
+      "slug": "dummycore",
+      "source": "curse"
     },
     {
       "name": "Custom Main Menu",
       "latest_version": "1.9.2",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/lumien231/Custom-Main-Menu",
+      "maven": "",
       "side": "CLIENT",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu",
+      "project_id": null,
+      "slug": "custom-main-menu",
+      "source": "curse"
     },
     {
       "name": "CTMLib",
       "latest_version": "1.4.1.5",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "GNU Lesser General Public Library v2.1.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/ctmlib",
+      "repo_url": "https://github.com/Chisel-Team/CTMLib",
       "maven": "https://maven.tterrag.com/team/chisel/ctmlib/CTMLib/",
       "side": "NONE",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "CreativeCore",
-      "latest_version": "1.3.24",
-      "versions": [],
-      "type": "mod",
-      "license": "GNU Lesser General Public Library v2.1.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/creativecore",
-      "maven": "needs to be changed later",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/ctmlib",
+      "project_id": null,
+      "slug": "ctmlib",
+      "source": "curse"
     },
     {
       "name": "CraftPresence",
       "latest_version": "1.8.2",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/craftpresence",
-      "maven": "needs to be changed later",
+      "repo_url": "https://gitlab.com/CDAGaming/CraftPresence",
+      "maven": "",
       "side": "CLIENT",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/craftpresence",
+      "project_id": null,
+      "slug": "craftpresence",
+      "source": "curse"
     },
     {
       "name": "CoFH Lib",
       "latest_version": "1.2.1-185",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "GNU Lesser General Public Library v3.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-lib",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/CoFH/CoFHLib-1.7.10-Legacy",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-lib",
+      "project_id": null,
+      "slug": "cofh-lib",
+      "source": "curse"
     },
     {
       "name": "CoFH Core",
       "latest_version": "3.1.4-329",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-core",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/CoFH/CoFHCore-1.12-Legacy/tree/1.7.10",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-core",
+      "project_id": null,
+      "slug": "cofh-core",
+      "source": "curse"
     },
     {
       "name": "ChiselTones",
       "latest_version": "1.0.3",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "Minecraft Mod Public License v2.0.2.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/chiseltones",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/TehNut-Mods/ChiselTones",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "Catwalks 2",
-      "latest_version": "2.0.4",
-      "versions": [],
-      "type": "mod",
-      "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/catwalks-2",
-      "maven": "needs to be changed later",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/chiseltones",
+      "project_id": null,
+      "slug": "chiseltones",
+      "source": "curse"
     },
     {
       "name": "Carpenter's Blocks",
       "latest_version": "3.3.8.2",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "GNU Lesser General Public Library v2.1.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/carpenters-blocks",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/Mineshopper/carpentersblocks",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/carpenters-blocks",
+      "project_id": null,
+      "slug": "carpenters-blocks",
+      "source": "curse"
     },
     {
       "name": "BeeBetterAtBees",
       "latest_version": "0.3",
+      "private": false,
       "versions": [],
       "type": "mod",
-      "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/beebetteratbees",
-      "maven": "needs to be changed later",
+      "license": "Quick licence notice: ARR - you're of course allowed to put it into packs and all other stuff. The licence is meant for redistribution on other websites and copying.",
+      "repo_url": null,
+      "maven": "",
       "side": "CLIENT",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/beebetteratbees",
+      "project_id": null,
+      "slug": "beebetteratbees",
+      "source": "curse"
     },
     {
       "name": "BetterAchievements",
       "latest_version": "0.1.0",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "Don't Be a Jerk Non-Commercial License",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/betterachievements",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/way2muchnoise/BetterAchievements/tree/1.7.10",
+      "maven": "",
       "side": "CLIENT",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/betterachievements",
+      "project_id": null,
+      "slug": "betterachievements",
+      "source": "curse"
     },
     {
       "name": "p455w0rd's Library",
       "latest_version": "1.0.4",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library/files/2359471",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/p455w0rd/p455w0rds-Library",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library",
+      "project_id": null,
+      "slug": "p455w0rds-library",
+      "source": "curse"
     },
     {
       "name": "Resource Loader",
       "latest_version": "1.3",
+      "private": false,
       "versions": [],
       "type": "mod",
-      "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/resource-loader",
-      "maven": "needs to be changed later",
+      "license": "All Rights Reserved. - You can use this mod in any modpack without asking first",
+      "repo_url": "https://github.com/lumien231/Resource-Loader",
+      "maven": "",
       "side": "CLIENT",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/resource-loader",
+      "project_id": null,
+      "slug": "resource-loader",
+      "source": "curse"
     },
     {
       "name": "Healer",
       "latest_version": "1.2.0",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/healer",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/Glease/Healer",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "Schematica",
-      "latest_version": "1.7.6.131",
-      "versions": [],
-      "type": "mod",
-      "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/schematica",
-      "maven": "http://mc.lunatri.us/files/com.github.lunatrius/Schematica/",
-      "side": "NONE",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/healer",
+      "project_id": null,
+      "slug": "healer",
+      "source": "curse"
     },
     {
       "name": "Thaumcraft",
       "latest_version": "4.2.3.5",
+      "private": false,
       "versions": [],
       "type": "mod",
-      "license": "Unknown. Requires checking.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft",
-      "maven": "needs to be changed later",
+      "license": "All Rights Reserved.",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft",
+      "project_id": null,
+      "slug": "thaumcraft",
+      "source": "curse"
     },
     {
       "name": "JourneyMap",
       "latest_version": "5.1.4p2-fairplay",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/journeymap",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "CLIENT",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/journeymap",
+      "project_id": null,
+      "slug": "journeymap",
+      "source": "curse"
     },
     {
       "name": "JourneyMap Server",
       "latest_version": "1.0.5",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/journeymap-server",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "SERVER",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/journeymap-server",
+      "project_id": null,
+      "slug": "journeymap-server",
+      "source": "curse"
     },
     {
       "name": "Command Blocks for Better Questing",
       "latest_version": "3",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/command-blocks-for-better-questing",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/bartimaeusnek/CB-for-BQ",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/command-blocks-for-better-questing",
+      "project_id": null,
+      "slug": "command-blocks-for-better-questing",
+      "source": "curse"
     },
     {
       "name": "Controlling",
-      "latest_version": "1.0.0",
+      "latest_version": "1.0.3",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "MIT License.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/controlling",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/jaredlll08/Controlling",
+      "maven": "",
       "side": "CLIENT",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/controlling",
+      "project_id": null,
+      "slug": "controlling",
+      "source": "curse"
     },
     {
       "name": "Buildcraft Oil Tweaks",
       "latest_version": "1.0.3",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://files.vexatos.com/?dir=BuildCraftOilTweak",
+      "repo_url": null,
       "maven": "https://files.vexatos.com/BuildCraftOilTweak/",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://files.vexatos.com/?dir=BuildCraftOilTweak",
+      "project_id": null,
+      "slug": null,
+      "source": "other"
     },
     {
       "name": "Thaumic Machina",
       "latest_version": "0.2.1",
+      "private": false,
       "versions": [],
       "type": "mod",
-      "license": "All Rights Reserved.",
-      "repo_url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2200956-wip-1-7-10-open-beta-thaumcraft-4-2-addon-thaumic",
-      "maven": "needs to be changed later",
+      "license": "All Rights Reserved. - ou may use this mod in mod packs IF you give credit to me, I don't care what pack you are or what other mods you run with, as long as you give me credit for my work, you are allowed to redestribute my mod under your mod pack. If you wish to generate revenue off my work, you require permission from me to do so within the terms of this license.",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2200956-wip-1-7-10-open-beta-thaumcraft-4-2-addon-thaumic",
+      "project_id": null,
+      "slug": null,
+      "source": "other"
     },
     {
       "name": "Tinkers' Defense",
       "latest_version": "1.2.1d",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "GNU General Public Library v3.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/compendium",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/GTNewHorizons/Tinkers-Defense",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
-    },
-    {
-      "name": "Utility Worlds",
-      "latest_version": "1.0.9e",
-      "versions": [],
-      "type": "mod",
-      "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/utility-worlds",
-      "maven": "needs to be changed later",
-      "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/compendium",
+      "project_id": null,
+      "slug": "compendium",
+      "source": "curse"
     },
     {
       "name": "Travellers Gear",
       "latest_version": "1.16.8-GTNH",
+      "private": false,
       "versions": [],
       "type": "mod",
-      "license": "Ask-Me-Before-You-Do License. Has clause against custom mod builds. Needs checking.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/travellers-gear",
-      "maven": "needs to be changed later",
+      "license": "Ask-Me-Before-You-Do License. Has clause against custom mod builds. ",
+      "repo_url": "https://github.com/BluSunrize/TravellersGear",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/travellers-gear",
+      "project_id": null,
+      "slug": "travellers-gear",
+      "source": "curse"
     },
     {
       "name": "Advanced Solar Panel For 1.7.10 (Unofficial)",
       "latest_version": "1.7.10 Edition",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels",
+      "project_id": null,
+      "slug": "advancedsolarpanels",
+      "source": "curse"
     },
     {
       "name": "Extra Utilities",
       "latest_version": "1.2.13a",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/extra-utilities",
-      "maven": "needs to be changed later",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/extra-utilities",
+      "project_id": null,
+      "slug": "extra-utilities",
+      "source": "curse"
     },
     {
       "name": "Industrial Craft 2",
       "latest_version": "2.2.82a-experimental",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/industrial-craft",
+      "repo_url": null,
       "maven": "https://maven.ic2.player.to/net/industrial-craft/industrialcraft-2/",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/industrial-craft",
+      "project_id": null,
+      "slug": "industrial-craft",
+      "source": "curse"
     },
     {
       "name": "Gravitation Suite",
       "latest_version": "2.0.68u",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
       "repo_url": null,
       "maven": null,
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": null,
+      "project_id": null,
+      "slug": null,
+      "source": "other"
     },
     {
       "name": "NetherPortalFix",
       "latest_version": "1.1.1",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/netherportalfix",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/ModdingForBlockheads/NetherPortalFix",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/netherportalfix",
+      "project_id": null,
+      "slug": "netherportalfix",
+      "source": "curse"
     },
     {
       "name": "Tainted Magic",
       "latest_version": "r7.6",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/tainted-magic",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/yorkeJohn/Tainted-Magic",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/tainted-magic",
+      "project_id": null,
+      "slug": "tainted-magic",
+      "source": "curse"
     },
     {
       "name": "MrTJPCore",
       "latest_version": "1.1.0.33",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "GNU General Public License v3.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/mrtjpcore/files/2279413",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/MrTJP/MrTJPCore",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/mrtjpcore",
+      "project_id": null,
+      "slug": "mrtjpcore",
+      "source": "curse"
     },
     {
       "name": "Forge Relocation",
       "latest_version": "0.0.1.4",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "GNU General Public License v3.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/MrTJP/ForgeRelocation",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation",
+      "project_id": null,
+      "slug": "forge-relocation",
+      "source": "curse"
     },
     {
       "name": "Forge Relocation - FMP Plugin",
       "latest_version": "0.0.1.2",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "GNU General Public License v3.0.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation-fmp-plugin",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/MrTJP/ForgeRelocationFMP",
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation-fmp-plugin",
+      "project_id": null,
+      "slug": "forge-relocation-fmp-plugin",
+      "source": "curse"
     },
     {
       "name": "Morpheus",
       "latest_version": "1.6.21",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/morpheus",
-      "maven": "needs to be changed later",
+      "repo_url": "https://github.com/Quetzi/Morpheus",
+      "maven": "",
       "side": "SERVER",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/morpheus",
+      "project_id": null,
+      "slug": "morpheus",
+      "source": "curse"
     },
     {
       "name": "Ztones",
       "latest_version": "2.2.2",
+      "private": false,
       "versions": [],
       "type": "mod",
-      "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/ztones",
-      "maven": "needs to be changed later",
+      "license": "All Rights Reserved. - You have my permission to use this mod in any mod pack, public or private.",
+      "repo_url": null,
+      "maven": "",
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/ztones",
+      "project_id": null,
+      "slug": "ztones",
+      "source": "curse"
     },
     {
       "name": "Biomes O' Plenty",
       "latest_version": "2.1.0.2308",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty",
+      "repo_url": null,
       "maven": null,
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty",
+      "project_id": null,
+      "slug": "biomes-o-plenty",
+      "source": "curse"
     },
     {
       "name": "Compact Kinetic Generators",
       "latest_version": "1.0",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://forum.industrial-craft.net/thread/12724-ic2-exp-1-7-10-compact-kinetic-generators/",
+      "repo_url": null,
       "maven": null,
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://forum.industrial-craft.net/thread/12724-ic2-exp-1-7-10-compact-kinetic-generators/",
+      "project_id": null,
+      "slug": null,
+      "source": "other"
     },
     {
       "name": "Better Questing - Quest Book",
       "latest_version": "3.0.0",
+      "private": false,
       "versions": [],
       "type": "mod",
       "license": "All Rights Reserved.",
-      "repo_url": "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book",
+      "repo_url": "https://github.com/Drethic/QuestBook",
       "maven": null,
       "side": "BOTH",
-      "private": false,
-      "disabled": false
+      "disabled": false,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book",
+      "project_id": null,
+      "slug": "better-questing-quest-book",
+      "source": "curse"
     }
   ]
 }

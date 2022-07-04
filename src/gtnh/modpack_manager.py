@@ -31,10 +31,10 @@ from gtnh.exceptions import RepoNotFoundException
 from gtnh.github.uri import latest_release_uri, org_repos_uri, repo_releases_uri, repo_uri
 from gtnh.models.available_assets import AvailableAssets
 from gtnh.models.gtnh_config import CONFIG_REPO_NAME
-from gtnh.models.gtnh_mod_info import GTNHModInfo
 from gtnh.models.gtnh_modpack import GTNHModpack
 from gtnh.models.gtnh_release import GTNHRelease, load_release, save_release
 from gtnh.models.gtnh_version import version_from_release
+from gtnh.models.mod_info import GTNHModInfo
 from gtnh.models.versionable import Versionable, version_is_newer, version_sort_key
 from gtnh.utils import AttributeDict, get_github_token
 

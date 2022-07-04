@@ -4,7 +4,7 @@ from typing import Optional
 from pydantic import Field
 from structlog import get_logger
 
-from gtnh.defs import UNKNOWN, Side
+from gtnh.defs import UNKNOWN, ModSource, Side
 from gtnh.models.base import GTNHBaseModel
 from gtnh.models.versionable import Versionable
 
@@ -18,3 +18,10 @@ class GTNHModInfo(GTNHBaseModel, Versionable):
     side: Side = Field(default=Side.BOTH)
 
     disabled: bool = Field(default=False)
+
+
+class ExternalModInfo(GTNHModInfo):
+    external_url: str | None
+    project_id: str | None
+    slug: str | None
+    source: ModSource = Field(default=ModSource.curse)

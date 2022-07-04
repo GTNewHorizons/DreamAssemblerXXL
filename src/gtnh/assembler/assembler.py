@@ -9,9 +9,9 @@ from structlog import get_logger
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.defs import RELEASE_ZIP_DIR, Side
-from gtnh.models.gtnh_mod_info import GTNHModInfo
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
+from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
