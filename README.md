@@ -9,11 +9,15 @@ A replacement for DreamMasterXXL, minus the nerfs.
 
 ### CLI - CLI Tools
 * [add_mod.py](src/gtnh/cli/add_mod.py): Add a new (github) mod to the pack
+* [assemble_release.py](src/gtnh/cli/assemble_release.py): Assemble a release ZIP (CLIENT/SERVER)
+* [download_mod.py](src/gtnh/cli/download_mod.py): Download a mod to the cache
+* [download_release.py](src/gtnh/cli/download_release.py): Download an entire release to the cache
+* [generate_nightly.py](src/gtnh/cli/generate_nightly.py): Generate a manifest for a nightly release based on the latest version for all mods and config
 * [update_check.py](src/gtnh/cli/update_check.py): Check for new releases on GitHub
 * [update_deps.py](src/gtnh/cli/update_deps.py): Update dependencies.gradle & repositories.gradle (run in the project directory)
 
 ### Assembler - Modpack Assemble!
-* [assembler.py](src/gtnh/assembler/assembler.py) Assemble the client and server pack
+* [assembler.py](src/gtnh/assembler/assembler.py) Assemble the client and server pack (ZIP)
 * [curse.py](src/gtnh/assembler/curse.py) Maybe, at some point, assemble the pack for Curse
 * [downloader.py](src/gtnh/assembler/downloader.py): Download and cache the pack's mods
 * [modrinth.py](src/gtnh/assembler/modrinth.py) Hopefully in the near future assemble the pack for Modrinth
