@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_updated": "2022-06-30T21:32:54.909421",
-  "config": "2.1.2.4-13-pre",
+  "last_updated": "2022-07-04T01:20:25.634076",
+  "config": "2.1.2.4-14-pre",
   "github_mods": {
     "AdventureBackpack2": "1.0.5-GTNH",
     "ae2stuff": "0.5.1.15-GTNH",
@@ -68,7 +68,7 @@
     "Galaxy-Space-GTNH": "1.1.16g-GTNH",
     "gendustry": "1.6.5.4-GTNH",
     "GoodGenerator": "0.4.5",
-    "GT5-Unofficial": "5.09.40.65-pre",
+    "GT5-Unofficial": "5.09.40.66-pre",
     "GTNEIOrePlugin": "1.0.11",
     "GTNH-Lanthanides": "0.8.9",
     "GTNH-TC-Wands": "1.2.6",
@@ -123,7 +123,7 @@
     "OpenModularTurrets": "2.2.11-247",
     "Opis": "1.3.3-mapless",
     "OverloadedArmorBar": "1.0.1",
-    "PersonalSpace": "1.0.7-GTNH",
+    "PersonalSpace": "1.0.8-GTNH",
     "ProjectBlue": "1.1.7-GTNH",
     "ProjectRed": "4.7.7-GTNH",
     "QmunityLib": "0.1.115",

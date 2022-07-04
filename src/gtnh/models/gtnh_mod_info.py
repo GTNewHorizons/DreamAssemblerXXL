@@ -17,5 +17,4 @@ class GTNHModInfo(GTNHBaseModel, Versionable):
     maven: Optional[str] = Field(default=None)
     side: Side = Field(default=Side.BOTH)
 
-    private: bool = Field(default=False)
     disabled: bool = Field(default=False)

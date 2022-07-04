@@ -31,6 +31,7 @@ async def update_check(mods: str | None = None) -> None:
         m = GTNHModpackManager(client)
 
         log.info("Grabbing all repository information...")
+        # Things get cached here
         await m.get_all_repos()
         log.info("Updating things...")
         await m.update_all(mods_to_update)

@@ -1,4 +1,5 @@
 import asyncio
+import itertools
 import json
 import os
 from pathlib import Path
@@ -13,7 +14,7 @@ from packaging.version import LegacyVersion
 from retry import retry
 from structlog import get_logger
 
-from gtnh.assembler.downloader import get_mod_version_cache_location
+from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.defs import (
     AVAILABLE_ASSETS_FILE,
     BLACKLISTED_REPOS_FILE,
@@ -79,52 +80,69 @@ class GTNHModpackManager:
         if release_name in self.mod_pack.releases:
             return load_release(release_name)
 
-        log.error(f"Release `{Fore.LIGHTRED_EX}{release_name}{Fore.RESET}` not found!")
         return None
 
     async def update_all(self, mods_to_update: list[str] | None = None) -> None:
-        updated = False
-        updated |= await self.update_available_mods(mods_to_update)
-        updated |= await self.update_config()
-
-        if updated:
+        if await self.update_available_assets(mods_to_update):
             self.save_assets()
 
-    async def update_available_mods(self, mods_to_update: list[str] | None = None) -> bool:
+    async def update_available_assets(self, assets_to_update: list[str] | None = None) -> bool:
         all_repos = await self.get_all_repos()
 
         tasks = []
-        for mod in self.assets.github_mods:
-            if mods_to_update and mod.name not in mods_to_update:
+        to_update: list[Versionable] = list(itertools.chain(self.assets.github_mods, [self.assets.config]))
+        for asset in to_update:
+            if assets_to_update and asset.name not in assets_to_update:
                 continue
 
-            repo = all_repos.get(mod.name)
+            repo = all_repos.get(asset.name)
             if not repo:
-                log.error(f"{Fore.RED}Missing repo for {Fore.CYAN}{mod.name}{Fore.RED}, skipping update check.{Fore.RESET}")
+                log.error(f"{Fore.RED}Missing repo for {Fore.CYAN}{asset.name}{Fore.RED}, skipping update check.{Fore.RESET}")
                 continue
-            tasks.append(self.update_github_mod_from_repo(mod, repo))
+            tasks.append(self.update_versionable_from_repo(asset, repo))
+
         gathered = await asyncio.gather(*tasks, return_exceptions=True)
         return any([r for r in gathered])
 
-    async def update_github_mod_from_repo(self, mod: GTNHModInfo, repo: AttributeDict) -> bool:
+    async def update_versionable_from_repo(self, versionable: Versionable, repo: AttributeDict) -> bool:
         """
-        Attempt to update a github mod from a github repository.
-        :param mod: The mod to check for update
-        :param repo: The repo corresponding to the mod
-        :return: True if the mod, or any releases were updated; False otherwise
+        Attempt to update a versionable asset from a github repository.
+        :param versionable: The asset to check for update
+        :param repo: The repo corresponding to the asset
+        :return: True if the asset, or any releases were updated; False otherwise
         """
         version_updated = False
-        mod_updated = False
-        log.info(f"Checking {Fore.CYAN}{mod.name}:{Fore.YELLOW}{mod.latest_version}{Fore.RESET} for updates")
+        versionable_updated = False
+        log.info(f"Checking {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{versionable.latest_version}{Fore.RESET} for updates")
         latest_release = await self.get_latest_github_release(repo)
 
         latest_version = latest_release.tag_name if latest_release else "<unknown>"
 
-        if version_is_newer(latest_version, mod.latest_version):
+        if version_is_newer(latest_version, versionable.latest_version):
             # Candidate update found
             version_updated = True
-            log.info(f"Found candidate newer version for mod {Fore.CYAN}{mod.name}:{Fore.YELLOW}{latest_version}{Fore.RESET}")
+            log.info(f"Found candidate newer version for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}{Fore.RESET}")
 
+        if isinstance(versionable, GTNHModInfo):
+            versionable_updated |= await self.update_github_mod_from_repo(versionable, repo)
+
+        # Versionable
+        if version_updated or not versionable.versions:
+            versionable_updated |= await self.update_versions_from_repo(versionable, repo)
+
+        if versionable_updated:
+            log.info(f"Updated {Fore.CYAN}{versionable.name}{Fore.RESET}!")
+
+        return versionable_updated
+
+    async def update_github_mod_from_repo(self, mod: GTNHModInfo, repo: AttributeDict) -> bool:
+        """
+        Additional updates only applicable to a mod
+        :param mod: The mod to check for update
+        :param repo: The repo corresonding to the mod
+        :return: True if the mod, or any releases were updated
+        """
+        mod_updated = False
         if mod.license in [UNKNOWN, OTHER]:
             mod_license = await self.get_license(repo)
             if mod_license is not None:
@@ -150,13 +168,6 @@ class GTNHModpackManager:
             mod.private = bool(repo.get("private"))
             log.info(f"Updated Private Repo Status: {mod.private}")
             mod_updated = True
-
-        # Versionable
-        if version_updated or not mod.versions:
-            mod_updated |= await self.update_versions_from_repo(mod, repo)
-
-        if mod_updated:
-            log.info(f"Updated {Fore.CYAN}{mod.name}{Fore.RESET}!")
 
         return mod_updated
 
@@ -248,27 +259,6 @@ class GTNHModpackManager:
             raise Exception(f"Maven unreachable status: {response.status_code}")
 
         return None
-
-    async def update_config(self) -> bool:
-        # all_repo = self.get_all_repos()
-        # repo = all_repo.get(self.assets.config.name)
-        # if not repo:
-        #     raise Exception("GTNH Modpack Config repo not found")
-        # config = self.assets.config
-        #
-        # latest_release = get_latest_github_release(repo)
-        #
-        # latest_version = latest_release.tag_name if latest_release else "<unknown>"
-        #
-        # version_updated = False
-        # if version_is_newer(latest_version, config.latest_version):
-        #     # Candidate update found
-        #     version_updated = True
-        #
-        # if not config.versions or version_updated:
-        #     update_versions_from_repo(config, repo)
-
-        return True
 
     async def generate_release(self, version: str, update_available: bool = True, overrides: dict[str, str] | None = None) -> GTNHRelease:
         if update_available:
@@ -415,60 +405,35 @@ class GTNHModpackManager:
         return ROOT_DIR / BLACKLISTED_REPOS_FILE
 
     @retry(delay=5, tries=3)
-    async def download_github_mod(self, mod: GTNHModInfo, mod_version: str | None = None) -> Path | None:
-        if mod_version is None:
-            mod_version = mod.latest_version
+    async def download_asset(self, asset: Versionable, asset_version: str | None = None, is_github: bool = False) -> Path | None:
+        if asset_version is None:
+            asset_version = asset.latest_version
 
-        version = mod.get_version(mod_version)
+        type = "Github" if is_github else "External"
+        version = asset.get_version(asset_version)
         if not version or not version.filename or not version.download_url:
             log.error(
-                f"{RED_CROSS} {Fore.RED}Version `{Fore.YELLOW}{mod_version}{Fore.RED}` not found for Github Mod "
-                f"`{Fore.CYAN}{mod.name}{Fore.RED}`{Fore.RESET}"
+                f"{RED_CROSS} {Fore.RED}Version `{Fore.YELLOW}{asset_version}{Fore.RED}` not found for {type} Asset "
+                f"`{Fore.CYAN}{asset.name}{Fore.RED}`{Fore.RESET}"
             )
             return None
 
-        private_repo = f" {Fore.MAGENTA}<PRIVATE REPO>{Fore.RESET}" if mod.private else ""
-        log.info(f"Downloading Github Mod `{Fore.CYAN}{mod.name}:{Fore.YELLOW}{mod_version}{Fore.RESET}` from {version.browser_download_url}{private_repo}")
+        private_repo = f" {Fore.MAGENTA}<PRIVATE REPO>{Fore.RESET}" if asset.private else ""
 
-        mod_filename = get_mod_version_cache_location(mod.name, version)
+        log.info(
+            f"Downloading {type} Asset `{Fore.CYAN}{asset.name}:{Fore.YELLOW}{asset_version}{Fore.RESET}` from {version.browser_download_url}{private_repo}"
+        )
 
-        if os.path.exists(mod_filename):
-            log.info(f"{Fore.YELLOW}Skipping re-redownload of {mod_filename}{Fore.RESET}")
-            return mod_filename
-
-        headers = {"Authorization": f"token {get_token()}", "Accept": "application/octet-stream"}
-
-        async with self.client.stream(url=version.download_url, headers=headers, method="GET", follow_redirects=True) as r:
-            r.raise_for_status()
-            with open(mod_filename, "wb") as f:
-                async for chunk in r.aiter_bytes(chunk_size=8192):
-                    f.write(chunk)
-        log.info(f"{GREEN_CHECK} Download successful `{mod_filename}`")
-
-        return mod_filename
-
-    async def download_external_mod(self, mod: GTNHModInfo, mod_version: str | None = None) -> Path | None:
-        if mod_version is None:
-            mod_version = mod.latest_version
-
-        version = mod.get_version(mod_version)
-        if not version or not version.filename:
-            log.error(
-                f"{RED_CROSS} {Fore.RED}Version `{Fore.YELLOW}{mod_version}{Fore.RED}` not found for External Mod "
-                f"`{Fore.CYAN}{mod.name}{Fore.RED}`{Fore.RESET}"
-            )
-            return None
-
-        log.info(f"Downloading External Mod `{Fore.CYAN}{mod.name}:{Fore.YELLOW}{mod_version}{Fore.RESET}` from {version.browser_download_url}")
-
-        mod_filename = get_mod_version_cache_location(mod.name, version)
+        mod_filename = get_asset_version_cache_location(asset, version)
 
         if os.path.exists(mod_filename):
             log.info(f"{Fore.YELLOW}Skipping re-redownload of {mod_filename}{Fore.RESET}")
             return mod_filename
 
         headers = {"Accept": "application/octet-stream"}
-        assert version.download_url
+        if is_github:
+            headers |= {"Authorization": f"token {get_token()}"}
+
         async with self.client.stream(url=version.download_url, headers=headers, method="GET", follow_redirects=True) as r:
             r.raise_for_status()
             with open(mod_filename, "wb") as f:
@@ -495,8 +460,6 @@ class GTNHModpackManager:
         # computation of the progress per mod for the progressbar
         delta_progress = 100 / (len(release.github_mods) + len(release.external_mods))
 
-        downloaded: list[Path] = []
-
         log.info(f"Downloading {Fore.GREEN}{len(release.github_mods)}{Fore.RESET} Github Mod(s)")
         # download of the github mods
         downloaders = []
@@ -506,7 +469,9 @@ class GTNHModpackManager:
             if callback is not None:
                 callback(delta_progress, f"downloading github mods. current mod: {mod.name} Progress: {{0}}%")
 
-            downloaders.append(self.download_github_mod(mod, mod_version))
+            downloaders.append(self.download_asset(mod, mod_version, is_github=True))
+
+        downloaders.append(self.download_asset(self.assets.config, release.config, is_github=True))
 
         for mod_name, mod_version in release.external_mods.items():
             mod = self.assets.get_external_mod(mod_name)
@@ -514,8 +479,8 @@ class GTNHModpackManager:
                 callback(delta_progress, f"downloading external mods. current mod: {mod.name} Progress: {{0}}%")
 
             # do the actual work
-            downloaders.append(self.download_external_mod(mod, mod_version))
+            downloaders.append(self.download_asset(mod, mod_version, is_github=False))
 
-        downloaded = [d for d in await asyncio.gather(*downloaders) if d is not None]
+        downloaded: list[Path] = [d for d in await asyncio.gather(*downloaders) if d is not None]
 
         return downloaded

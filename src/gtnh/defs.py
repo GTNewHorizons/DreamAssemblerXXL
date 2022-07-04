@@ -4,7 +4,6 @@ from pathlib import Path
 # Root is two levels up
 ROOT_DIR = Path(__file__).parent.parent.parent
 CACHE_DIR = ROOT_DIR / "cache"
-MODS_CACHE_DIR = CACHE_DIR / "mods"
 TECHNIC_CACHE_DIR = CACHE_DIR / "technic"
 CONFIG_CACHE_DIR = CACHE_DIR / "config"
 WORKING_DIR = ROOT_DIR / "working"

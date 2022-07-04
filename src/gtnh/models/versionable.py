@@ -13,6 +13,7 @@ log = get_logger(__name__)
 class Versionable(BaseModel):
     name: str
     latest_version: str
+    private: bool = Field(default=False)
 
     versions: list[GTNHVersion] = Field(default_factory=list)
     type: VersionableType = Field(default=VersionableType.mod)

@@ -3,10 +3,15 @@ from functools import cached_property
 from typing import Dict, List
 
 from pydantic import Field
+from structlog import get_logger
 
+from gtnh.defs import Side
 from gtnh.models.base import GTNHBaseModel
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_mod_info import GTNHModInfo
+from gtnh.models.gtnh_version import GTNHVersion
+
+log = get_logger(__name__)
 
 
 class AvailableAssets(GTNHBaseModel):
@@ -40,3 +45,16 @@ class AvailableAssets(GTNHBaseModel):
 
     def get_external_mod(self, mod_name: str) -> GTNHModInfo:
         return self._external_modmap[mod_name]
+
+    def get_github_mod_and_version(self, mod_name: str, mod_version: str, valid_sides: set[Side]) -> tuple[GTNHModInfo, GTNHVersion] | None:
+        mod = self.get_github_mod(mod_name)
+
+        if mod.side not in valid_sides:
+            return None
+
+        version = mod.get_version(mod_version)
+        if not version:
+            log.error(f"Cannot find {mod_name}:{version}")
+            return None
+
+        return mod, version

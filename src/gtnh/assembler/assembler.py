@@ -1,115 +1,86 @@
 import os
+import shutil
 from pathlib import Path
 from typing import Callable, Optional
-from zipfile import ZipFile
+from zipfile import ZIP_DEFLATED, ZipFile
 
+from colorama import Fore
 from structlog import get_logger
 
-from gtnh.assembler.downloader import get_mod_version_cache_location
+from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.defs import RELEASE_ZIP_DIR, Side
+from gtnh.models.gtnh_mod_info import GTNHModInfo
 from gtnh.models.gtnh_release import GTNHRelease
+from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
 
 
-def assemble_release(mod_manager: GTNHModpackManager, side: Side, release: GTNHRelease, callback: Optional[Callable[[float, str], None]] = None) -> None:
-    """
-    Assemble a release.  Assumes the mods have already been downloaded and cached.
-    :param mod_manager: GTNH Mod Manager
-    :param release: GTNHRelease specifying the release to assemble
-    :param callback: Callable to update the progress bar
-    """
-    if side not in {Side.CLIENT, Side.SERVER}:
-        log.error("Can only assemble release for CLIENT or SERVER, not BOTH")
-        return
+class ReleaseAssembler:
+    def __init__(
+        self, mod_manager: GTNHModpackManager, release: GTNHRelease, callback: Optional[Callable[[float, str], None]] = None, verbose: bool = False
+    ) -> None:
+        self.mod_manager = mod_manager
+        self.release = release
+        self.callback = callback
+        self.verbose = verbose
 
-    valid_sides = {side, Side.BOTH}
+        # computation of the progress per mod for the progressbar
+        self.count = 0.0
+        self.progress = 0.0
+        self.delta_progress = 0.0
 
-    # computation of the progress per mod for the progressbar
-    delta_progress = 100 / (len(release.github_mods) + len(release.external_mods))
+    def assemble(self, side: Side) -> None:
+        if side not in {Side.CLIENT, Side.SERVER}:
+            raise Exception("Can only assemble release for CLIENT or SERVER, not BOTH")
 
-    archive_name = RELEASE_ZIP_DIR / f"GTNewHorizons-{side}-{release.version}.zip"
+        valid_sides = {side, Side.BOTH}
 
-    # deleting any existing archive
-    if os.path.exists(archive_name):
-        os.remove(archive_name)
-        log.warn(f"Previous archive `{archive_name}` deleted")
+        archive_name = RELEASE_ZIP_DIR / f"GTNewHorizons-{side}-{self.release.version}.zip"
+        get_mod = self.mod_manager.assets.get_github_mod_and_version
+        github_mods = list(filter(None, (get_mod(name, version, valid_sides) for name, version in self.release.github_mods.items())))
 
-    log.info(f"Constructing {side} archive at `{archive_name}`")
+        self.count = len(github_mods) + 1  # + len(self.release.external_mods)
+        self.delta_progress = 100.0 / self.count
 
-    with ZipFile(archive_name, "w") as archive:
-        for mod_name, mod_version in release.github_mods.items():
-            mod = mod_manager.assets.get_github_mod(mod_name)
-            if not mod:
-                log.error(f"Cannot find mod {mod_name}")
-                return
+        # deleting any existing archive
+        if os.path.exists(archive_name):
+            os.remove(archive_name)
+            log.warn(f"Previous archive {Fore.YELLOW}'{archive_name}'{Fore.RESET} deleted")
 
-            if mod.side not in valid_sides:
-                continue
+        log.info(f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{archive_name}'{Fore.RESET}")
 
-            version = mod.get_version(mod_version)
-            if not version:
-                log.error(f"Cannot find {mod_name}:{mod_version}")
-                return
+        with ZipFile(archive_name, "w") as archive:
+            self.add_mods(side, github_mods, archive)
+            self.add_config(side, archive)
 
-            source_file = get_mod_version_cache_location(mod.name, version)
-
-            if callback is not None:
-                callback(delta_progress, f"Packing client archive version {release.version}: {source_file}. Progress: {{0}}%")
+    def add_mods(self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile) -> None:
+        for mod, version in mods:
+            source_file = get_asset_version_cache_location(mod, version)
+            self.update_progress(side, source_file)
             archive_path = Path("mods") / source_file.name
             archive.write(source_file, arcname=archive_path)
 
-    log.info(f"Zip {archive_name} created")
+    def add_config(self, side: Side, archive: ZipFile) -> None:
+        config = self.mod_manager.assets.config
+        version = config.get_version(self.release.config)
+        assert version
+        config_file = get_asset_version_cache_location(config, version)
+        exclusions = self.mod_manager.mod_pack.client_exclusions if side == Side.CLIENT else self.mod_manager.mod_pack.server_exclusions
+        with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
+            self.update_progress(side, config_file)
 
+            for item in config_zip.namelist():
+                if item in exclusions:
+                    continue
+                with config_zip.open(item) as config_item:
+                    with archive.open(item, "w") as target:
+                        shutil.copyfileobj(config_item, target)
 
-#
-# def handle_pack_extra_files(error_callback: Optional[Callable[[], None]] = None) -> None:
-#     """
-#     Method used to handle all the files needed by the pack like the configs or the scripts.
-#
-#     :return: None
-#     """
-#
-#     # download the gtnh modpack archive
-#     # catch is overkill but we never know
-#     try:
-#         gtnh_archive_path = download_pack_archive()
-#     except LatestReleaseNotFound:
-#         if error_callback is not None:
-#             error_callback()
-#         raise PackingInterruptException
-#
-#     # prepare for the temp dir receiving the unzip of the archive
-#     temp_dir = Path(gtnh_archive_path.parent / "temp")
-#     if temp_dir.exists():
-#         rmtree(temp_dir)
-#     os.makedirs(temp_dir, exist_ok=True)
-#
-#     # unzip
-#     with ZipFile(gtnh_archive_path, "r") as zip_ref:
-#         zip_ref.extractall(temp_dir)
-#     print("unzipped the pack")
-#
-#     # load gtnh metadata
-#     gtnh_metadata = load_gtnh_manifest()
-#
-#     # path for the prepared archives
-#     client_folder = Path(__file__).parent / "cache" / "client_archive"
-#     server_folder = Path(__file__).parent / "cache" / "server_archive"
-#
-#     # exclusion lists
-#     client_exclusions = [temp_dir / exclusion for exclusion in gtnh_metadata.client_exclusions]
-#     server_exclusions = [temp_dir / exclusion for exclusion in gtnh_metadata.server_exclusions]
-#
-#     # listing of all the files for the archive
-#     availiable_files = set(crawl(temp_dir))
-#     client_files = list(availiable_files - set(client_exclusions))
-#     server_files = list(availiable_files - set(server_exclusions))
-#
-#     # moving the files where they must go
-#     print("moving files for the client archive")
-#     copy_file_to_folder(client_files, temp_dir, client_folder)
-#     print("moving files for the server archive")
-#     copy_file_to_folder(server_files, temp_dir, server_folder)
-#     print("success")
+    def update_progress(self, side: Side, source_file: Path) -> None:
+        if self.callback is not None:
+            self.callback(self.delta_progress, f"Packing {side.value} archive version {self.release.version}: {source_file}. Progress: {{0}}%")
+        if self.verbose:
+            self.progress += self.delta_progress
+            log.info(f"({self.progress:3.0f}%) Adding `{Fore.GREEN}{source_file}{Fore.RESET}`")

@@ -17,7 +17,7 @@ async def download_mod(mod_name: str, version: str | None = None) -> None:
         log.info(f"Trying to Download mod `{Fore.CYAN}{mod_name}{Fore.RESET}:{Fore.YELLOW}{version or '<latest>'}{Fore.RESET}`")
         mod = m.assets.get_github_mod(mod_name)
         if mod is not None:
-            await m.download_github_mod(mod, version)
+            await m.download_asset(mod, version)
 
 
 if __name__ == "__main__":
