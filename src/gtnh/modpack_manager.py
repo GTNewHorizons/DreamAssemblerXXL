@@ -355,7 +355,7 @@ class GTNHModpackManager:
         Saves the Available Mods Manifest
         """
         log.info(f"Saving assets to from {self.gtnh_asset_manifest_path}")
-        dumped = self.assets.json(exclude={"_github_modmap", "_external_modmap"})
+        dumped = self.assets.json(exclude={"_github_modmap", "_external_modmap"}, exclude_unset=True, exclude_none=True, exclude_defaults=True)
         if dumped:
             with open(self.gtnh_asset_manifest_path, "w", encoding="utf-8") as f:
                 f.write(dumped)
