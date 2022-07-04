@@ -16,7 +16,7 @@ from gtnh.cli.add_mod import get_repo, new_mod_from_repo
 from gtnh.defs import ROOT_DIR, Side
 from gtnh.exceptions import LatestReleaseNotFound, NoModAssetFound, PackingInterruptException, RepoNotFoundException
 from gtnh.mod_info import GTNHModpack, ModInfo
-from gtnh.utils import crawl, get_token, load_gtnh_manifest, move_mods, save_gtnh_manifest, verify_url
+from gtnh.utils import crawl, get_github_token, load_gtnh_manifest, move_mods, save_gtnh_manifest, verify_url
 
 
 class MainFrame(tk.Tk):
@@ -475,7 +475,7 @@ class ArchiveFrame(BaseFrame):
         self.entry_pack_version.config(state=tk.DISABLED)
         self.btn_update.config(state=tk.DISABLED)
 
-        github = Github(get_token())
+        github = Github(get_github_token())
         organization = github.get_organization("GTNewHorizons")
         client_folder = ROOT_DIR / "cache" / "client_archive"
         server_folder = ROOT_DIR / "cache" / "server_archive"

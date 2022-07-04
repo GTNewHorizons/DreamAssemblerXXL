@@ -20,17 +20,25 @@ class AttributeDict(dict):  # type: ignore
 
 
 @cache
-def get_token() -> Optional[str]:
-    if os.getenv("GITHUB_TOKEN", None) is None:
-        token_file = os.path.expanduser("~/.github_personal_token")
+def get_github_token() -> Optional[str]:
+    return _get_token("Github", "GITHUB_TOKEN", "~/.github_personal_token")
+
+
+@cache
+def get_curse_token() -> Optional[str]:
+    return _get_token("Curse", "CURSE_TOKEN", "~/.curse_token")
+
+
+def _get_token(token_name: str, token_env: str, token_path: str):
+    if os.getenv(token_name, None) is None:
+        token_file = os.path.expanduser(token_path)
         if os.path.exists(token_file):
             with open(token_file) as f:
                 token = f.readline()[:-1]
-                os.environ["GITHUB_TOKEN"] = token
+                os.environ[token_name] = token
         else:
-            raise Exception("No token ENV and no token file")
-
-    return os.getenv("GITHUB_TOKEN")
+            raise Exception(f"Token '{token_name}' not found in '{token_env}' or '{token_file}'")
+    return os.getenv(token_name)
 
 
 def copy_file_to_folder(path_list: List[Path], source_root: Path, destination_root: Path) -> None:

@@ -36,7 +36,7 @@ from gtnh.models.gtnh_modpack import GTNHModpack
 from gtnh.models.gtnh_release import GTNHRelease, load_release, save_release
 from gtnh.models.gtnh_version import version_from_release
 from gtnh.models.versionable import Versionable, version_is_newer, version_sort_key
-from gtnh.utils import AttributeDict, get_token
+from gtnh.utils import AttributeDict, get_github_token
 
 log = get_logger(__name__)
 
@@ -54,7 +54,7 @@ class GTNHModpackManager:
         self.blacklisted_repos = self.load_blacklisted_repos()
         self.org = "GTNewHorizons"
         self.client = client
-        self.gh = GitHubAPI(self.client, "DreamAssemblerXXL", oauth_token=get_token())
+        self.gh = GitHubAPI(self.client, "DreamAssemblerXXL", oauth_token=get_github_token())
 
     @AsyncLRU(maxsize=None)  # type: ignore
     async def get_all_repos(self) -> dict[str, AttributeDict]:
@@ -432,7 +432,7 @@ class GTNHModpackManager:
 
         headers = {"Accept": "application/octet-stream"}
         if is_github:
-            headers |= {"Authorization": f"token {get_token()}"}
+            headers |= {"Authorization": f"token {get_github_token()}"}
 
         async with self.client.stream(url=version.download_url, headers=headers, method="GET", follow_redirects=True) as r:
             r.raise_for_status()
