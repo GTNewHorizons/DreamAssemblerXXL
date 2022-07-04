@@ -6,8 +6,6 @@ from typing import Any, List, Optional, Tuple, Union
 from urllib import parse
 
 import pydantic
-from github import Github
-from github.Organization import Organization
 
 from gtnh.assembler.assembler import handle_pack_extra_files, pack_clientpack, pack_serverpack
 from gtnh.assembler.downloader import download_mods, ensure_cache_dir, update_releases

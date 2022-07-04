@@ -32,7 +32,7 @@ async def slug_to_project_id(slug: str, client: AsyncClient) -> str:
     curse_info = response.json()
     data = curse_info["data"]
     if len(data) == 1:
-        return data[0]["id"]
+        return str(data[0]["id"])
     elif len(data) == 0:
         log.error(f"Could not find by slug {slug}")
     else:
@@ -60,14 +60,14 @@ async def get_mods(mods: list[ExternalModInfo], client: AsyncClient) -> list[dic
     return curse_info
 
 
-async def get_mod_files(mod: ExternalModInfo, client: AsyncClient):
+async def get_mod_files(mod: ExternalModInfo, client: AsyncClient) -> list[dict[str, Any]]:
     params = {
         "gameVersionTypeId": CURSE_GAME_VERSION_TYPE_ID,
         "modLoaderType": CURSE_FORGE_MODLOADER_ID,
     }
     index = 0
     has_more = True
-    mod_files = []
+    mod_files: list[dict[str, Any]] = []
     while has_more:
         response = await client.get(
             url=CURSE_BASE_URL + f"/v1/mods/{mod.project_id}/files",
