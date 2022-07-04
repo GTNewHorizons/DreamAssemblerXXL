@@ -21,7 +21,7 @@ def assemble_release(side: Side, release_name: str, verbose: bool) -> None:
         log.error(f"Release `{Fore.LIGHTRED_EX}{release_name}{Fore.RESET}` not found! Error building {Fore.YELLOW}{side.value}{Fore.RESET} archive.")
         return
 
-    ReleaseAssembler(modpack_manager, release, verbose=verbose).assemble(side)
+    ReleaseAssembler(modpack_manager, release).assemble(side, verbose=verbose)
 
 
 if __name__ == "__main__":

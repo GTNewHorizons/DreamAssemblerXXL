@@ -15,9 +15,9 @@ class GTNHVersion(GTNHBaseModel):
     version_tag: str
     prerelease: bool = Field(default=False)
     tagged_at: Optional[datetime] = Field(default=None)
-    filename: Optional[str] = Field(default=None)
-    download_url: Optional[str] = Field(default=None)
-    browser_download_url: Optional[str] = Field(default=None)
+    filename: str | None = Field(default=None)
+    download_url: str | None = Field(default=None)
+    browser_download_url: str | None = Field(default=None)
 
 
 def version_from_release(release: AttributeDict, type: VersionableType) -> GTNHVersion | None:

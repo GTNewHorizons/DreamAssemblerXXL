@@ -90,8 +90,8 @@ class GTNHModpackManager:
         all_repos = await self.get_all_repos()
 
         tasks = []
-        to_update: list[Versionable] = list(itertools.chain(self.assets.github_mods, [self.assets.config]))
-        for asset in to_update:
+        to_update_from_repos: list[Versionable] = list(itertools.chain(self.assets.github_mods, [self.assets.config]))
+        for asset in to_update_from_repos:
             if assets_to_update and asset.name not in assets_to_update:
                 continue
 
@@ -144,7 +144,7 @@ class GTNHModpackManager:
         """
         mod_updated = False
         if mod.license in [UNKNOWN, OTHER]:
-            mod_license = await self.get_license(repo)
+            mod_license = await self.get_license_from_repo(repo)
             if mod_license is not None:
                 log.info(f"Updated License: {mod_license}")
                 mod.license = mod_license
@@ -216,7 +216,7 @@ class GTNHModpackManager:
 
         return version_updated
 
-    async def get_license(self, repo: AttributeDict) -> str | None:
+    async def get_license_from_repo(self, repo: AttributeDict, allow_fallback: bool = True) -> str | None:
         """
         Attempt to find a license for a mod, based on the repository; falling back to some manually collected licenses
         :param repo: Github Repository
@@ -231,7 +231,7 @@ class GTNHModpackManager:
         except BadRequest:
             log.info("No license found from repo")
 
-        if mod_license in [None, UNKNOWN, OTHER]:
+        if mod_license in [None, UNKNOWN, OTHER] and allow_fallback:
             with open(ROOT_DIR / "licenses_from_boubou.json") as f:
                 manual_licenses = json.loads(f.read())
                 by_url = {v["url"]: v.get("license", None) for v in manual_licenses.values()}
@@ -240,7 +240,8 @@ class GTNHModpackManager:
                     log.info(f"Found fallback license {Fore.YELLOW}{mod_license}{Fore.RESET}.")
 
         if not mod_license:
-            log.info("No license found!")
+            log.warn("No license found!")
+            mod_license = "All Rights Reserved (fallback)"
 
         return mod_license
 
@@ -320,7 +321,7 @@ class GTNHModpackManager:
 
         mod = GTNHModInfo(
             name=repo.name,
-            license=await self.get_license(repo),
+            license=await self.get_license_from_repo(repo),
             repo_url=repo.html_url,
             maven=await self.get_maven(repo.name),
             side=side,

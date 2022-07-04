@@ -45,6 +45,7 @@ class VersionableType(str, Enum):
 
 
 class ModSource(str, Enum):
+    github = "github"
     curse = "curse"
     modrinth = "modrinth"
     other = "other"

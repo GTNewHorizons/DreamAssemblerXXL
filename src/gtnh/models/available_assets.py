@@ -5,7 +5,7 @@ from typing import Dict, List
 from pydantic import Field
 from structlog import get_logger
 
-from gtnh.defs import Side
+from gtnh.defs import ModSource, Side
 from gtnh.models.base import GTNHBaseModel
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_version import GTNHVersion
@@ -31,7 +31,7 @@ class AvailableAssets(GTNHBaseModel):
         return {mod.name: mod for mod in self.github_mods}
 
     @cached_property
-    def _external_modmap(self) -> Dict[str, GTNHModInfo]:
+    def _external_modmap(self) -> Dict[str, ExternalModInfo]:
         return {mod.name: mod for mod in self.external_mods}
 
     def has_github_mod(self, mod_name: str) -> bool:
@@ -43,11 +43,13 @@ class AvailableAssets(GTNHBaseModel):
     def get_github_mod(self, mod_name: str) -> GTNHModInfo:
         return self._github_modmap[mod_name]
 
-    def get_external_mod(self, mod_name: str) -> GTNHModInfo:
+    def get_external_mod(self, mod_name: str) -> ExternalModInfo:
         return self._external_modmap[mod_name]
 
-    def get_github_mod_and_version(self, mod_name: str, mod_version: str, valid_sides: set[Side]) -> tuple[GTNHModInfo, GTNHVersion] | None:
-        mod = self.get_github_mod(mod_name)
+    def get_mod_and_version(
+        self, mod_name: str, mod_version: str, valid_sides: set[Side], source: ModSource
+    ) -> tuple[GTNHModInfo | ExternalModInfo, GTNHVersion] | None:
+        mod = self.get_github_mod(mod_name) if source == ModSource.github else self.get_external_mod(mod_name)
 
         if mod.side not in valid_sides:
             return None

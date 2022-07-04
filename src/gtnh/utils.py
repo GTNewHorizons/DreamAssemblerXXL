@@ -2,7 +2,7 @@ import os
 from functools import cache
 from pathlib import Path
 from shutil import copy, rmtree
-from typing import Any, List, Optional
+from typing import Any, List
 from urllib import parse
 
 from gtnh.defs import CLIENT_WORKING_DIR, SERVER_WORKING_DIR
@@ -20,16 +20,16 @@ class AttributeDict(dict):  # type: ignore
 
 
 @cache
-def get_github_token() -> Optional[str]:
+def get_github_token() -> str:
     return _get_token("Github", "GITHUB_TOKEN", "~/.github_personal_token")
 
 
 @cache
-def get_curse_token() -> Optional[str]:
+def get_curse_token() -> str:
     return _get_token("Curse", "CURSE_TOKEN", "~/.curse_token")
 
 
-def _get_token(token_name: str, token_env: str, token_path: str):
+def _get_token(token_name: str, token_env: str, token_path: str) -> str:
     if os.getenv(token_name, None) is None:
         token_file = os.path.expanduser(token_path)
         if os.path.exists(token_file):
@@ -38,7 +38,7 @@ def _get_token(token_name: str, token_env: str, token_path: str):
                 os.environ[token_name] = token
         else:
             raise Exception(f"Token '{token_name}' not found in '{token_env}' or '{token_file}'")
-    return os.getenv(token_name)
+    return os.getenv(token_name, "<unset>")
 
 
 def copy_file_to_folder(path_list: List[Path], source_root: Path, destination_root: Path) -> None:
