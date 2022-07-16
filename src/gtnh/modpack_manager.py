@@ -242,7 +242,7 @@ class GTNHModpackManager:
         try:
             repo_license = repo.license
             if repo_license:
-                mod_license = repo_license.license.name
+                mod_license = repo_license.name
                 log.info(f"Found license `{Fore.YELLOW}{mod_license}{Fore.RESET}` from repo")
         except BadRequest:
             log.info("No license found from repo")

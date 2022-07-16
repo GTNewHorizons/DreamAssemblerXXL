@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.1.2.4-14-pre",
+    "latest_version": "2.1.2.4-20-pre",
     "versions": [
       {
         "version_tag": "2.1.2.3qf-test",
@@ -72,6 +72,48 @@
         "filename": "2.1.2.4-14-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/69678300",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-14-pre/2.1.2.4-14-pre.zip"
+      },
+      {
+        "version_tag": "2.1.2.4-15-pre",
+        "tagged_at": "2022-07-05T15:02:22+00:00",
+        "filename": "2.1.2.4-15-pre.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70638192",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-15-pre/2.1.2.4-15-pre.zip"
+      },
+      {
+        "version_tag": "2.1.2.4-16-pre",
+        "tagged_at": "2022-07-05T16:05:03+00:00",
+        "filename": "2.1.2.4-16-pre.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70644281",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-16-pre/2.1.2.4-16-pre.zip"
+      },
+      {
+        "version_tag": "2.1.2.4-17-pre",
+        "tagged_at": "2022-07-06T12:51:23+00:00",
+        "filename": "2.1.2.4-17-pre.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70736026",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-17-pre/2.1.2.4-17-pre.zip"
+      },
+      {
+        "version_tag": "2.1.2.4-18-pre",
+        "tagged_at": "2022-07-08T10:11:46+00:00",
+        "filename": "2.1.2.4-18-pre.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70956071",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-18-pre/2.1.2.4-18-pre.zip"
+      },
+      {
+        "version_tag": "2.1.2.4-19-pre",
+        "tagged_at": "2022-07-12T13:41:36+00:00",
+        "filename": "2.1.2.4-19-pre.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/71341083",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-19-pre/2.1.2.4-19-pre.zip"
+      },
+      {
+        "version_tag": "2.1.2.4-20-pre",
+        "tagged_at": "2022-07-13T14:55:55+00:00",
+        "filename": "2.1.2.4-20-pre.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/71463118",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-20-pre/2.1.2.4-20-pre.zip"
       }
     ],
     "type": "config",
@@ -128,6 +170,43 @@
       "license": "GNU Lesser General Public License v3.0.",
       "repo_url": "https://github.com/GTNewHorizons/AdventureBackpack2",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AdventureBackpack2/"
+    },
+    {
+      "name": "AE2FluidCraft-Rework",
+      "latest_version": "1.0.3-gtnh",
+      "versions": [
+        {
+          "version_tag": "1.0.0-gtnh",
+          "tagged_at": "2022-06-05T16:19:57+00:00",
+          "filename": "ae2fc-1.7.10-gtnh.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/67615505",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.0-gtnh/ae2fc-1.7.10-gtnh.jar"
+        },
+        {
+          "version_tag": "1.0.1-gtnh",
+          "tagged_at": "2022-06-09T21:56:04+00:00",
+          "filename": "ae2fc-1.7.10-1.0.1-gtnh.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/68044847",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.1-gtnh/ae2fc-1.7.10-1.0.1-gtnh.jar"
+        },
+        {
+          "version_tag": "1.0.2-gtnh",
+          "tagged_at": "2022-06-22T09:26:44+00:00",
+          "filename": "ae2fc-1.7.10-1.0.2-gtnh.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/69233259",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.2-gtnh/ae2fc-1.7.10-1.0.2-gtnh.jar"
+        },
+        {
+          "version_tag": "1.0.3-gtnh",
+          "tagged_at": "2022-07-12T04:33:01+00:00",
+          "filename": "ae2fc-1.7.10-1.0.3-gtnh.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/71295279",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.3-gtnh/ae2fc-1.7.10-1.0.3-gtnh.jar"
+        }
+      ],
+      "license": "GNU Lesser General Public License v3.0",
+      "repo_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/"
     },
     {
       "name": "ae2stuff",
@@ -313,7 +392,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-88-GTNH-pre",
+      "latest_version": "rv3-beta-91-GTNH",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -489,6 +568,27 @@
           "filename": "appliedenergistics2-1.7.10-rv3-beta-88-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/69681357",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-88-GTNH-pre/appliedenergistics2-1.7.10-rv3-beta-88-GTNH-pre.jar"
+        },
+        {
+          "version_tag": "rv3-beta-89-GTNH",
+          "tagged_at": "2022-07-05T16:14:09+00:00",
+          "filename": "appliedenergistics2-1.7.10-rv3-beta-89-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/70645134",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-89-GTNH/appliedenergistics2-1.7.10-rv3-beta-89-GTNH.jar"
+        },
+        {
+          "version_tag": "rv3-beta-90-GTNH",
+          "tagged_at": "2022-07-08T10:40:33+00:00",
+          "filename": "appliedenergistics2-1.7.10-rv3-beta-90-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/70958967",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-90-GTNH/appliedenergistics2-1.7.10-rv3-beta-90-GTNH.jar"
+        },
+        {
+          "version_tag": "rv3-beta-91-GTNH",
+          "tagged_at": "2022-07-12T13:56:05+00:00",
+          "filename": "appliedenergistics2-1.7.10-rv3-beta-91-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/71343087",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-91-GTNH/appliedenergistics2-1.7.10-rv3-beta-91-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -694,7 +794,7 @@
     },
     {
       "name": "bartworks",
-      "latest_version": "0.5.53-pre",
+      "latest_version": "0.5.60",
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -884,6 +984,55 @@
           "filename": "bartworks-1.7.10-0.5.53-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/69678174",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.53-pre/bartworks-1.7.10-0.5.53-pre.jar"
+        },
+        {
+          "version_tag": "0.5.54-pre",
+          "tagged_at": "2022-07-05T11:10:58+00:00",
+          "filename": "bartworks-1.7.10-0.5.54-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/70615162",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.54-pre/bartworks-1.7.10-0.5.54-pre.jar"
+        },
+        {
+          "version_tag": "0.5.55",
+          "tagged_at": "2022-07-05T11:50:18+00:00",
+          "filename": "bartworks-1.7.10-0.5.55.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/70619205",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.55/bartworks-1.7.10-0.5.55.jar"
+        },
+        {
+          "version_tag": "0.5.56",
+          "tagged_at": "2022-07-06T13:01:22+00:00",
+          "filename": "bartworks-1.7.10-0.5.56.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/70736829",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.56/bartworks-1.7.10-0.5.56.jar"
+        },
+        {
+          "version_tag": "0.5.57",
+          "tagged_at": "2022-07-08T10:45:30+00:00",
+          "filename": "bartworks-1.7.10-0.5.57.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/70959272",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.57/bartworks-1.7.10-0.5.57.jar"
+        },
+        {
+          "version_tag": "0.5.58",
+          "tagged_at": "2022-07-12T13:54:15+00:00",
+          "filename": "bartworks-1.7.10-0.5.58.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/71342925",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.58/bartworks-1.7.10-0.5.58.jar"
+        },
+        {
+          "version_tag": "0.5.59",
+          "tagged_at": "2022-07-13T09:56:13+00:00",
+          "filename": "bartworks-1.7.10-0.5.59.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/71436630",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.59/bartworks-1.7.10-0.5.59.jar"
+        },
+        {
+          "version_tag": "0.5.60",
+          "tagged_at": "2022-07-15T21:53:35+00:00",
+          "filename": "bartworks-1.7.10-0.5.60.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/71715424",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.60/bartworks-1.7.10-0.5.60.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -1178,7 +1327,7 @@
     },
     {
       "name": "BetterQuesting",
-      "latest_version": "3.0.359-GTNH",
+      "latest_version": "3.0.362-GTNH",
       "versions": [
         {
           "version_tag": "3.0.351-GTNH",
@@ -1242,6 +1391,27 @@
           "filename": "BetterQuesting-1.7.10-3.0.359-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/68495782",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.359-GTNH/BetterQuesting-1.7.10-3.0.359-GTNH.jar"
+        },
+        {
+          "version_tag": "3.0.360-GTNH-pre",
+          "tagged_at": "2022-07-05T16:09:38+00:00",
+          "filename": "BetterQuesting-1.7.10-3.0.360-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/70644672",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.360-GTNH-pre/BetterQuesting-1.7.10-3.0.360-GTNH-pre.jar"
+        },
+        {
+          "version_tag": "3.0.361-GTNH",
+          "tagged_at": "2022-07-08T10:34:52+00:00",
+          "filename": "BetterQuesting-1.7.10-3.0.361-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/70958392",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.361-GTNH/BetterQuesting-1.7.10-3.0.361-GTNH.jar"
+        },
+        {
+          "version_tag": "3.0.362-GTNH",
+          "tagged_at": "2022-07-12T13:57:06+00:00",
+          "filename": "BetterQuesting-1.7.10-3.0.362-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/71343143",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.362-GTNH/BetterQuesting-1.7.10-3.0.362-GTNH.jar"
         }
       ],
       "license": "MIT License.",
@@ -1250,7 +1420,7 @@
     },
     {
       "name": "Binnie",
-      "latest_version": "2.0.34",
+      "latest_version": "2.0.38",
       "versions": [
         {
           "version_tag": "2.0.24",
@@ -1314,6 +1484,34 @@
           "filename": "binnie-mods-1.7.10-2.0.34.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/56698436",
           "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.0.34/binnie-mods-1.7.10-2.0.34.jar"
+        },
+        {
+          "version_tag": "2.0.35",
+          "tagged_at": "2022-07-05T16:19:31+00:00",
+          "filename": "binnie-mods-1.7.10-2.0.35.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/70646435",
+          "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.0.35/binnie-mods-1.7.10-2.0.35.jar"
+        },
+        {
+          "version_tag": "2.0.36-pre",
+          "tagged_at": "2022-07-06T13:10:54+00:00",
+          "filename": "binnie-mods-1.7.10-2.0.36-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/70737475",
+          "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.0.36-pre/binnie-mods-1.7.10-2.0.36-pre.jar"
+        },
+        {
+          "version_tag": "2.0.37",
+          "tagged_at": "2022-07-11T04:16:56+00:00",
+          "filename": "binnie-mods-1.7.10-2.0.37.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/71188193",
+          "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.0.37/binnie-mods-1.7.10-2.0.37.jar"
+        },
+        {
+          "version_tag": "2.0.38",
+          "tagged_at": "2022-07-13T09:54:18+00:00",
+          "filename": "binnie-mods-1.7.10-2.0.37.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/71436472",
+          "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.0.38/binnie-mods-1.7.10-2.0.37.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -1454,7 +1652,7 @@
     },
     {
       "name": "Botania",
-      "latest_version": "1.9.4-GTNH",
+      "latest_version": "1.9.5-GTNH",
       "versions": [
         {
           "version_tag": "1.9.0-GTNH",
@@ -1483,6 +1681,13 @@
           "filename": "Botania-1.7.10-1.9.4-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botania/releases/assets/68496255",
           "browser_download_url": "https://github.com/GTNewHorizons/Botania/releases/download/1.9.4-GTNH/Botania-1.7.10-1.9.4-GTNH.jar"
+        },
+        {
+          "version_tag": "1.9.5-GTNH",
+          "tagged_at": "2022-07-05T17:26:49+00:00",
+          "filename": "Botania-1.7.10-1.9.5-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Botania/releases/assets/70651174",
+          "browser_download_url": "https://github.com/GTNewHorizons/Botania/releases/download/1.9.5-GTNH/Botania-1.7.10-1.9.5-GTNH.jar"
         }
       ],
       "license": "Botania License.",
@@ -1553,6 +1758,22 @@
       "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, special permission given to GTNH.",
       "repo_url": "https://github.com/GTNewHorizons/Botanic-horizons",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botanic-horizons/"
+    },
+    {
+      "name": "BrandonsCore",
+      "latest_version": "1.0.0.13-GTNH",
+      "versions": [
+        {
+          "version_tag": "1.0.0.13-GTNH",
+          "tagged_at": "2022-07-10T15:03:58+00:00",
+          "filename": "BrandonsCore-1.7.10-1.0.0.13-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BrandonsCore/releases/assets/71144366",
+          "browser_download_url": "https://github.com/GTNewHorizons/BrandonsCore/releases/download/1.0.0.13-GTNH/BrandonsCore-1.7.10-1.0.0.13-GTNH.jar"
+        }
+      ],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/BrandonsCore",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BrandonsCore/"
     },
     {
       "name": "BugTorch",
@@ -1638,6 +1859,22 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BuildCraftCompat/"
     },
     {
+      "name": "CarpentersBlocks",
+      "latest_version": "3.3.8.2-GTNH",
+      "versions": [
+        {
+          "version_tag": "3.3.8.2-GTNH",
+          "tagged_at": "2022-07-06T12:09:34+00:00",
+          "filename": "CarpentersBlocks-1.7.10-3.3.8.2-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CarpentersBlocks/releases/assets/70733119",
+          "browser_download_url": "https://github.com/GTNewHorizons/CarpentersBlocks/releases/download/3.3.8.2-GTNH/CarpentersBlocks-1.7.10-3.3.8.2-GTNH.jar"
+        }
+      ],
+      "license": "GNU Lesser General Public License v2.1",
+      "repo_url": "https://github.com/GTNewHorizons/CarpentersBlocks",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CarpentersBlocks/"
+    },
+    {
       "name": "Catwalks-2",
       "latest_version": "2.1.3-GTNH",
       "private": true,
@@ -1663,7 +1900,7 @@
     },
     {
       "name": "Chisel",
-      "latest_version": "2.10.12-GTNH",
+      "latest_version": "2.10.13-GTNH",
       "versions": [
         {
           "version_tag": "2.9.7",
@@ -1755,11 +1992,34 @@
           "filename": "chisel-1.7.10-2.10.12-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/69535379",
           "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.10.12-GTNH/chisel-1.7.10-2.10.12-GTNH.jar"
+        },
+        {
+          "version_tag": "2.10.13-GTNH",
+          "tagged_at": "2022-07-05T17:32:09+00:00",
+          "filename": "chisel-1.7.10-2.10.13-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/70651533",
+          "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.10.13-GTNH/chisel-1.7.10-2.10.13-GTNH.jar"
         }
       ],
       "license": "GNU General Public License v2.0.",
       "repo_url": "https://github.com/GTNewHorizons/Chisel",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Chisel/"
+    },
+    {
+      "name": "ChiselTones",
+      "latest_version": "1.0.4-GTNH",
+      "versions": [
+        {
+          "version_tag": "1.0.4-GTNH",
+          "tagged_at": "2022-07-06T12:29:25+00:00",
+          "filename": "chiseltones-1.7.10-1.0.4-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ChiselTones/releases/assets/70734463",
+          "browser_download_url": "https://github.com/GTNewHorizons/ChiselTones/releases/download/1.0.4-GTNH/chiseltones-1.7.10-1.0.4-GTNH.jar"
+        }
+      ],
+      "license": "All Rights Reserved (fallback)",
+      "repo_url": "https://github.com/GTNewHorizons/ChiselTones",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ChiselTones/"
     },
     {
       "name": "CodeChickenCore",
@@ -1864,8 +2124,31 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CodeChickenLib/"
     },
     {
+      "name": "CompactKineticGenerators",
+      "latest_version": "1.0.1",
+      "versions": [
+        {
+          "version_tag": "1.0",
+          "tagged_at": "2022-03-26T15:32:09+00:00",
+          "filename": "CompactKineticGenerators-1.7.10-1.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CompactKineticGenerators/releases/assets/60679962",
+          "browser_download_url": "https://github.com/GTNewHorizons/CompactKineticGenerators/releases/download/1.0/CompactKineticGenerators-1.7.10-1.0.jar"
+        },
+        {
+          "version_tag": "1.0.1",
+          "tagged_at": "2022-06-14T22:50:20+00:00",
+          "filename": "CompactKineticGenerators-1.7.10-1.0.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CompactKineticGenerators/releases/assets/68497445",
+          "browser_download_url": "https://github.com/GTNewHorizons/CompactKineticGenerators/releases/download/1.0.1/CompactKineticGenerators-1.7.10-1.0.1.jar"
+        }
+      ],
+      "license": "???",
+      "repo_url": "https://github.com/GTNewHorizons/CompactKineticGenerators",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CompactKineticGenerators/"
+    },
+    {
       "name": "Computronics",
-      "latest_version": "1.6.12-GTNH",
+      "latest_version": "1.6.14-GTNH",
       "versions": [
         {
           "version_tag": "1.6.10",
@@ -1894,6 +2177,20 @@
           "filename": "Computronics-1.7.10-1.6.12-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Computronics/releases/assets/68275170",
           "browser_download_url": "https://github.com/GTNewHorizons/Computronics/releases/download/1.6.12-GTNH/Computronics-1.7.10-1.6.12-GTNH.jar"
+        },
+        {
+          "version_tag": "1.6.13-GTNH",
+          "tagged_at": "2022-07-05T16:24:55+00:00",
+          "filename": "Computronics-1.7.10-1.6.13-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Computronics/releases/assets/70646917",
+          "browser_download_url": "https://github.com/GTNewHorizons/Computronics/releases/download/1.6.13-GTNH/Computronics-1.7.10-1.6.13-GTNH.jar"
+        },
+        {
+          "version_tag": "1.6.14-GTNH",
+          "tagged_at": "2022-07-08T10:41:18+00:00",
+          "filename": "Computronics-1.7.10-1.6.14-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Computronics/releases/assets/70959041",
+          "browser_download_url": "https://github.com/GTNewHorizons/Computronics/releases/download/1.6.14-GTNH/Computronics-1.7.10-1.6.14-GTNH.jar"
         }
       ],
       "license": "MIT License.",
@@ -1929,6 +2226,29 @@
       "license": "GNU Lesser General Public License v3.0.",
       "repo_url": "https://github.com/GTNewHorizons/CookingForBlockheads",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CookingForBlockheads/"
+    },
+    {
+      "name": "CraftPresence",
+      "latest_version": "1.8.8",
+      "versions": [
+        {
+          "version_tag": "1.8.3-GTNH",
+          "tagged_at": "2022-07-08T09:44:10+00:00",
+          "filename": "craftpresence-1.7.10-1.8.3-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CraftPresence/releases/assets/70953173",
+          "browser_download_url": "https://github.com/GTNewHorizons/CraftPresence/releases/download/1.8.3-GTNH/craftpresence-1.7.10-1.8.3-GTNH.jar"
+        },
+        {
+          "version_tag": "1.8.8",
+          "tagged_at": "2022-07-08T19:25:48+00:00",
+          "filename": "craftpresence-1.7.10-1.8.3-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CraftPresence/releases/assets/70999657",
+          "browser_download_url": "https://github.com/GTNewHorizons/CraftPresence/releases/download/1.8.8/craftpresence-1.7.10-1.8.3-GTNH.jar"
+        }
+      ],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/CraftPresence",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CraftPresence/"
     },
     {
       "name": "CraftTweaker",
@@ -2057,7 +2377,7 @@
     },
     {
       "name": "Crops-plus-plus",
-      "latest_version": "1.3.6.0",
+      "latest_version": "1.3.6.1",
       "versions": [
         {
           "version_tag": "1.3.5.9",
@@ -2072,6 +2392,13 @@
           "filename": "CropsPP-1.7.10-1.3.6.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Crops-plus-plus/releases/assets/68041440",
           "browser_download_url": "https://github.com/GTNewHorizons/Crops-plus-plus/releases/download/1.3.6.0/CropsPP-1.7.10-1.3.6.0.jar"
+        },
+        {
+          "version_tag": "1.3.6.1",
+          "tagged_at": "2022-07-05T15:59:08+00:00",
+          "filename": "CropsPP-1.7.10-1.3.6.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Crops-plus-plus/releases/assets/70643778",
+          "browser_download_url": "https://github.com/GTNewHorizons/Crops-plus-plus/releases/download/1.3.6.1/CropsPP-1.7.10-1.3.6.1.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -2085,6 +2412,13 @@
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/CropsNH",
       "disabled": true
+    },
+    {
+      "name": "Custom-Main-Menu",
+      "latest_version": "<unknown>",
+      "versions": [],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/Custom-Main-Menu"
     },
     {
       "name": "DefaultServerList",
@@ -2240,6 +2574,13 @@
       "license": "GNU Lesser General Public License v3.0.",
       "repo_url": "https://github.com/GTNewHorizons/Draconic-Evolution",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/"
+    },
+    {
+      "name": "DummyCore",
+      "latest_version": "<unknown>",
+      "versions": [],
+      "license": "All Rights Reserved (fallback)",
+      "repo_url": "https://github.com/GTNewHorizons/DummyCore"
     },
     {
       "name": "Electro-Magic-Tools",
@@ -2429,7 +2770,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.3.1.38",
+      "latest_version": "2.3.1.39",
       "versions": [
         {
           "version_tag": "2.3.0.433",
@@ -2591,6 +2932,13 @@
           "filename": "EnderIO-1.7.10-2.3.1.38.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/69677859",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.38/EnderIO-1.7.10-2.3.1.38.jar"
+        },
+        {
+          "version_tag": "2.3.1.39",
+          "tagged_at": "2022-07-05T16:27:43+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.39.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/70647148",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.39/EnderIO-1.7.10-2.3.1.39.jar"
         }
       ],
       "license": "Original code is All Rights Reserved, GTNH modifications are licensed under the GNU Lesser General Public License v3.0.",
@@ -2876,7 +3224,7 @@
     },
     {
       "name": "FindIt",
-      "latest_version": "1.0.6",
+      "latest_version": "1.0.7",
       "versions": [
         {
           "version_tag": "1.0.3",
@@ -2905,11 +3253,25 @@
           "filename": "findit-1.7.10-1.0.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/FindIt/releases/assets/68498584",
           "browser_download_url": "https://github.com/GTNewHorizons/FindIt/releases/download/1.0.6/findit-1.7.10-1.0.6.jar"
+        },
+        {
+          "version_tag": "1.0.7",
+          "tagged_at": "2022-07-15T01:24:12+00:00",
+          "filename": "findit-1.7.10-1.0.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/FindIt/releases/assets/71627644",
+          "browser_download_url": "https://github.com/GTNewHorizons/FindIt/releases/download/1.0.7/findit-1.7.10-1.0.7.jar"
         }
       ],
       "license": "MIT License.",
       "repo_url": "https://github.com/GTNewHorizons/FindIt",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FindIt/"
+    },
+    {
+      "name": "FloodLights",
+      "latest_version": "<unknown>",
+      "versions": [],
+      "license": "GNU Lesser General Public License v3.0",
+      "repo_url": "https://github.com/GTNewHorizons/FloodLights"
     },
     {
       "name": "ForbiddenMagic",
@@ -2950,7 +3312,7 @@
     },
     {
       "name": "ForestryMC",
-      "latest_version": "4.4.7",
+      "latest_version": "4.4.9",
       "versions": [
         {
           "version_tag": "4.2.19.0",
@@ -3049,6 +3411,20 @@
           "filename": "Forestry-1.7.10-4.4.7.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/68499171",
           "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.4.7/Forestry-1.7.10-4.4.7.jar"
+        },
+        {
+          "version_tag": "4.4.8",
+          "tagged_at": "2022-07-05T17:04:25+00:00",
+          "filename": "Forestry-1.7.10-4.4.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/70649527",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.4.8/Forestry-1.7.10-4.4.8.jar"
+        },
+        {
+          "version_tag": "4.4.9",
+          "tagged_at": "2022-07-15T22:14:45+00:00",
+          "filename": "Forestry-1.7.10-4.4.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/71717202",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.4.9/Forestry-1.7.10-4.4.9.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -3057,7 +3433,7 @@
     },
     {
       "name": "Forgelin",
-      "latest_version": "1.9.2-GTNH-1.7.10-Edition",
+      "latest_version": "1.9.5-GTNH",
       "versions": [
         {
           "version_tag": "1.8.4-GTNH-1.7.10pre",
@@ -3073,10 +3449,25 @@
           "filename": "Forgelin-1.9.2-GTNH-1.7.10-Edition.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Forgelin/releases/assets/60063236",
           "browser_download_url": "https://github.com/GTNewHorizons/Forgelin/releases/download/1.9.2-GTNH-1.7.10-Edition/Forgelin-1.9.2-GTNH-1.7.10-Edition.jar"
+        },
+        {
+          "version_tag": "1.9.3-GTNH-1.7.10-Edition",
+          "tagged_at": "2022-07-12T16:21:09+00:00",
+          "filename": "forgelin-1.7.10-1.9.3-GTNH-1.7.10-Edition.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Forgelin/releases/assets/71356711",
+          "browser_download_url": "https://github.com/GTNewHorizons/Forgelin/releases/download/1.9.3-GTNH-1.7.10-Edition/forgelin-1.7.10-1.9.3-GTNH-1.7.10-Edition.jar"
+        },
+        {
+          "version_tag": "1.9.5-GTNH",
+          "tagged_at": "2022-07-14T10:59:06+00:00",
+          "filename": "forgelin-1.7.10-1.9.5-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Forgelin/releases/assets/71553262",
+          "browser_download_url": "https://github.com/GTNewHorizons/Forgelin/releases/download/1.9.5-GTNH/forgelin-1.7.10-1.9.5-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
-      "repo_url": "https://github.com/GTNewHorizons/Forgelin"
+      "repo_url": "https://github.com/GTNewHorizons/Forgelin",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Forgelin/"
     },
     {
       "name": "ForgeMultipart",
@@ -3332,7 +3723,7 @@
     },
     {
       "name": "Galaxy-Space-GTNH",
-      "latest_version": "1.1.16g-GTNH",
+      "latest_version": "1.1.16h-GTNH",
       "private": true,
       "versions": [
         {
@@ -3425,6 +3816,13 @@
           "filename": "GalaxySpace-1.7.10-1.1.16g-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/69535310",
           "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.16g-GTNH/GalaxySpace-1.7.10-1.1.16g-GTNH.jar"
+        },
+        {
+          "version_tag": "1.1.16h-GTNH",
+          "tagged_at": "2022-07-05T16:17:58+00:00",
+          "filename": "GalaxySpace-1.7.10-1.1.16h-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/70646320",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.16h-GTNH/GalaxySpace-1.7.10-1.1.16h-GTNH.jar"
         }
       ],
       "license": "Explicit Permission.",
@@ -3463,7 +3861,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.4.5",
+      "latest_version": "0.4.9",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -3590,6 +3988,34 @@
           "filename": "GoodGenerator-1.7.10-0.4.5.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/69233894",
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.5/GoodGenerator-1.7.10-0.4.5.jar"
+        },
+        {
+          "version_tag": "0.4.6",
+          "tagged_at": "2022-07-05T16:04:28+00:00",
+          "filename": "GoodGenerator-1.7.10-0.4.6.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/70644229",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.6/GoodGenerator-1.7.10-0.4.6.jar"
+        },
+        {
+          "version_tag": "0.4.7-pre",
+          "tagged_at": "2022-07-12T13:33:34+00:00",
+          "filename": "GoodGenerator-1.7.10-0.4.7-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/71340378",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.7-pre/GoodGenerator-1.7.10-0.4.7-pre.jar"
+        },
+        {
+          "version_tag": "0.4.8",
+          "tagged_at": "2022-07-15T05:36:27+00:00",
+          "filename": "GoodGenerator-1.7.10-0.4.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/71640915",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.8/GoodGenerator-1.7.10-0.4.8.jar"
+        },
+        {
+          "version_tag": "0.4.9",
+          "tagged_at": "2022-07-15T22:00:16+00:00",
+          "filename": "GoodGenerator-1.7.10-0.4.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/71715961",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.9/GoodGenerator-1.7.10-0.4.9.jar"
         }
       ],
       "license": "MIT License.",
@@ -3598,7 +4024,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.40.66-pre",
+      "latest_version": "5.09.40.75-pre",
       "versions": [
         {
           "version_tag": "5.09.40.01",
@@ -4082,6 +4508,62 @@
           "filename": "gregtech-1.7.10-5.09.40.66-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/70426747",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.66-pre/gregtech-1.7.10-5.09.40.66-pre.jar"
+        },
+        {
+          "version_tag": "5.09.40.67-pre",
+          "tagged_at": "2022-07-05T10:48:36+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.67-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/70611826",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.67-pre/gregtech-1.7.10-5.09.40.67-pre.jar"
+        },
+        {
+          "version_tag": "5.09.40.68-pre",
+          "tagged_at": "2022-07-05T15:06:26+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.68-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/70638481",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.68-pre/gregtech-1.7.10-5.09.40.68-pre.jar"
+        },
+        {
+          "version_tag": "5.09.40.69-pre",
+          "tagged_at": "2022-07-05T17:44:16+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.69-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/70652175",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.69-pre/gregtech-1.7.10-5.09.40.69-pre.jar"
+        },
+        {
+          "version_tag": "5.09.40.70-pre",
+          "tagged_at": "2022-07-06T13:02:23+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.70-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/70736894",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.70-pre/gregtech-1.7.10-5.09.40.70-pre.jar"
+        },
+        {
+          "version_tag": "5.09.40.71-pre",
+          "tagged_at": "2022-07-08T10:01:16+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.71-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/70955012",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.71-pre/gregtech-1.7.10-5.09.40.71-pre.jar"
+        },
+        {
+          "version_tag": "5.09.40.72",
+          "tagged_at": "2022-07-13T13:42:46+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.72.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/71456981",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.72/gregtech-1.7.10-5.09.40.72.jar"
+        },
+        {
+          "version_tag": "5.09.40.74-pre",
+          "tagged_at": "2022-07-13T14:50:49+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.74-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/71462757",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.74-pre/gregtech-1.7.10-5.09.40.74-pre.jar"
+        },
+        {
+          "version_tag": "5.09.40.75-pre",
+          "tagged_at": "2022-07-14T13:12:04+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.75-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/71564829",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.75-pre/gregtech-1.7.10-5.09.40.75-pre.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -4090,7 +4572,7 @@
     },
     {
       "name": "GTNEIOrePlugin",
-      "latest_version": "1.0.11",
+      "latest_version": "1.0.14",
       "versions": [
         {
           "version_tag": "1.0.10",
@@ -4105,6 +4587,27 @@
           "filename": "gtneioreplugin-1.7.10-1.0.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNEIOrePlugin/releases/assets/58594814",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNEIOrePlugin/releases/download/1.0.11/gtneioreplugin-1.7.10-1.0.11.jar"
+        },
+        {
+          "version_tag": "1.0.12",
+          "tagged_at": "2022-07-08T10:47:10+00:00",
+          "filename": "gtneioreplugin-1.7.10-1.0.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNEIOrePlugin/releases/assets/70959400",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNEIOrePlugin/releases/download/1.0.12/gtneioreplugin-1.7.10-1.0.12.jar"
+        },
+        {
+          "version_tag": "1.0.13-pre",
+          "tagged_at": "2022-07-12T13:43:19+00:00",
+          "filename": "gtneioreplugin-1.7.10-1.0.13-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNEIOrePlugin/releases/assets/71341207",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNEIOrePlugin/releases/download/1.0.13-pre/gtneioreplugin-1.7.10-1.0.13-pre.jar"
+        },
+        {
+          "version_tag": "1.0.14",
+          "tagged_at": "2022-07-12T20:29:18+00:00",
+          "filename": "gtneioreplugin-1.7.10-1.0.14.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNEIOrePlugin/releases/assets/71376516",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNEIOrePlugin/releases/download/1.0.14/gtneioreplugin-1.7.10-1.0.14.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -4112,8 +4615,15 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNEIOrePlugin/"
     },
     {
+      "name": "GTNH-Custom-Overlays",
+      "latest_version": "<unknown>",
+      "versions": [],
+      "license": "All Rights Reserved (fallback)",
+      "repo_url": "https://github.com/GTNewHorizons/GTNH-Custom-Overlays"
+    },
+    {
       "name": "GTNH-Lanthanides",
-      "latest_version": "0.8.9",
+      "latest_version": "0.9.4",
       "versions": [
         {
           "version_tag": "0.8.1",
@@ -4177,6 +4687,34 @@
           "filename": "gtnhlanth-1.7.10-0.8.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/69615878",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.8.9/gtnhlanth-1.7.10-0.8.9.jar"
+        },
+        {
+          "version_tag": "0.9.0",
+          "tagged_at": "2022-07-05T16:00:47+00:00",
+          "filename": "gtnhlanth-1.7.10-0.9.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/70643908",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.9.0/gtnhlanth-1.7.10-0.9.0.jar"
+        },
+        {
+          "version_tag": "0.9.2-pre",
+          "tagged_at": "2022-07-12T14:57:25+00:00",
+          "filename": "gtnhlanth-1.7.10-0.9.2-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/71348755",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.9.2-pre/gtnhlanth-1.7.10-0.9.2-pre.jar"
+        },
+        {
+          "version_tag": "0.9.3",
+          "tagged_at": "2022-07-13T09:42:09+00:00",
+          "filename": "gtnhlanth-1.7.10-0.9.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/71435155",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.9.3/gtnhlanth-1.7.10-0.9.3.jar"
+        },
+        {
+          "version_tag": "0.9.4",
+          "tagged_at": "2022-07-15T22:01:38+00:00",
+          "filename": "gtnhlanth-1.7.10-0.9.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/71716083",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.9.4/gtnhlanth-1.7.10-0.9.4.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -4250,7 +4788,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.7.44",
+      "latest_version": "1.7.55",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -4412,6 +4950,83 @@
           "filename": "GT-PlusPlus-1.7.10-1.7.44.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/69533374",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.44/GT-PlusPlus-1.7.10-1.7.44.jar"
+        },
+        {
+          "version_tag": "1.7.45-pre",
+          "tagged_at": "2022-07-05T15:44:27+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.45-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/70642480",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.45-pre/GT-PlusPlus-1.7.10-1.7.45-pre.jar"
+        },
+        {
+          "version_tag": "1.7.46-pre",
+          "tagged_at": "2022-07-05T15:54:40+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.46-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/70643454",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.46-pre/GT-PlusPlus-1.7.10-1.7.46-pre.jar"
+        },
+        {
+          "version_tag": "1.7.47",
+          "tagged_at": "2022-07-05T17:38:48+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.47.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/70651855",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.47/GT-PlusPlus-1.7.10-1.7.47.jar"
+        },
+        {
+          "version_tag": "1.7.48",
+          "tagged_at": "2022-07-06T13:05:48+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.48.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/70737128",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.48/GT-PlusPlus-1.7.10-1.7.48.jar"
+        },
+        {
+          "version_tag": "1.7.49",
+          "tagged_at": "2022-07-08T10:19:25+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.49.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/70956963",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.49/GT-PlusPlus-1.7.10-1.7.49.jar"
+        },
+        {
+          "version_tag": "1.7.50",
+          "tagged_at": "2022-07-12T04:31:38+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.50.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/71295183",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.50/GT-PlusPlus-1.7.10-1.7.50.jar"
+        },
+        {
+          "version_tag": "1.7.51",
+          "tagged_at": "2022-07-12T13:41:18+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.51.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/71341048",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.51/GT-PlusPlus-1.7.10-1.7.51.jar"
+        },
+        {
+          "version_tag": "1.7.52",
+          "tagged_at": "2022-07-13T14:52:59+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.52.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/71462898",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.52/GT-PlusPlus-1.7.10-1.7.52.jar"
+        },
+        {
+          "version_tag": "1.7.53-pre",
+          "tagged_at": "2022-07-13T14:55:31+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.53-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/71463040",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.53-pre/GT-PlusPlus-1.7.10-1.7.53-pre.jar"
+        },
+        {
+          "version_tag": "1.7.54-pre",
+          "tagged_at": "2022-07-14T13:11:20+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.54-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/71564799",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.54-pre/GT-PlusPlus-1.7.10-1.7.54-pre.jar"
+        },
+        {
+          "version_tag": "1.7.55",
+          "tagged_at": "2022-07-15T22:06:38+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.55.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/71716519",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.55/GT-PlusPlus-1.7.10-1.7.55.jar"
         }
       ],
       "license": "GNU General Public License v3.0.",
@@ -4654,7 +5269,7 @@
     },
     {
       "name": "HoloInventory",
-      "latest_version": "2.1.10-GTNH-pre",
+      "latest_version": "2.1.13-GTNH",
       "versions": [
         {
           "version_tag": "1.9.2-GTNH",
@@ -4733,6 +5348,27 @@
           "filename": "holoinventory-1.7.10-2.1.10-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/HoloInventory/releases/assets/69615778",
           "browser_download_url": "https://github.com/GTNewHorizons/HoloInventory/releases/download/2.1.10-GTNH-pre/holoinventory-1.7.10-2.1.10-GTNH-pre.jar"
+        },
+        {
+          "version_tag": "2.1.11-GTNH-pre",
+          "tagged_at": "2022-07-07T15:27:10+00:00",
+          "filename": "holoinventory-1.7.10-2.1.11-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/HoloInventory/releases/assets/70870390",
+          "browser_download_url": "https://github.com/GTNewHorizons/HoloInventory/releases/download/2.1.11-GTNH-pre/holoinventory-1.7.10-2.1.11-GTNH-pre.jar"
+        },
+        {
+          "version_tag": "2.1.12-GTNH",
+          "tagged_at": "2022-07-12T02:32:42+00:00",
+          "filename": "holoinventory-1.7.10-2.1.12-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/HoloInventory/releases/assets/71289375",
+          "browser_download_url": "https://github.com/GTNewHorizons/HoloInventory/releases/download/2.1.12-GTNH/holoinventory-1.7.10-2.1.12-GTNH.jar"
+        },
+        {
+          "version_tag": "2.1.13-GTNH",
+          "tagged_at": "2022-07-13T09:53:12+00:00",
+          "filename": "holoinventory-1.7.10-2.1.13-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/HoloInventory/releases/assets/71436391",
+          "browser_download_url": "https://github.com/GTNewHorizons/HoloInventory/releases/download/2.1.13-GTNH/holoinventory-1.7.10-2.1.13-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -4787,7 +5423,7 @@
     },
     {
       "name": "IFU",
-      "latest_version": "1.9.2",
+      "latest_version": "1.9.3",
       "versions": [
         {
           "version_tag": "1.3",
@@ -4823,6 +5459,13 @@
           "filename": "ifu-1.7.10-1.9.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/IFU/releases/assets/56209739",
           "browser_download_url": "https://github.com/GTNewHorizons/IFU/releases/download/1.9.2/ifu-1.7.10-1.9.2.jar"
+        },
+        {
+          "version_tag": "1.9.3",
+          "tagged_at": "2022-07-15T01:23:12+00:00",
+          "filename": "ifu-1.7.10-1.9.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/IFU/releases/assets/71627594",
+          "browser_download_url": "https://github.com/GTNewHorizons/IFU/releases/download/1.9.3/ifu-1.7.10-1.9.3.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -5344,7 +5987,7 @@
     },
     {
       "name": "LogisticsPipes",
-      "latest_version": "0.9.4.5.6-GTNH",
+      "latest_version": "0.9.4.5.7-GTNH",
       "versions": [
         {
           "version_tag": "0.9.4.5.4-GTNH",
@@ -5366,6 +6009,13 @@
           "filename": "logisticspipes-1.7.10-0.9.4.5.6-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LogisticsPipes/releases/assets/68611764",
           "browser_download_url": "https://github.com/GTNewHorizons/LogisticsPipes/releases/download/0.9.4.5.6-GTNH/logisticspipes-1.7.10-0.9.4.5.6-GTNH.jar"
+        },
+        {
+          "version_tag": "0.9.4.5.7-GTNH",
+          "tagged_at": "2022-07-12T14:32:23+00:00",
+          "filename": "logisticspipes-1.7.10-0.9.4.5.7-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LogisticsPipes/releases/assets/71346348",
+          "browser_download_url": "https://github.com/GTNewHorizons/LogisticsPipes/releases/download/0.9.4.5.7-GTNH/logisticspipes-1.7.10-0.9.4.5.7-GTNH.jar"
         }
       ],
       "license": "Minecraft Mod Public License v1.0.1.",
@@ -5482,6 +6132,45 @@
       "license": "Do What The Fuck You Want To Public License v2.0",
       "repo_url": "https://github.com/GTNewHorizons/MagicBees",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MagicBees/"
+    },
+    {
+      "name": "MalisisCore",
+      "latest_version": "0.14.5-GTNH",
+      "versions": [
+        {
+          "version_tag": "0.14.4-GTNH",
+          "tagged_at": "2022-07-10T15:03:56+00:00",
+          "filename": "malisiscore-1.7.10-0.14.4-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MalisisCore/releases/assets/71144362",
+          "browser_download_url": "https://github.com/GTNewHorizons/MalisisCore/releases/download/0.14.4-GTNH/malisiscore-1.7.10-0.14.4-GTNH.jar"
+        },
+        {
+          "version_tag": "0.14.5-GTNH",
+          "tagged_at": "2022-07-11T11:38:46+00:00",
+          "filename": "malisiscore-1.7.10-0.14.5-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MalisisCore/releases/assets/71221400",
+          "browser_download_url": "https://github.com/GTNewHorizons/MalisisCore/releases/download/0.14.5-GTNH/malisiscore-1.7.10-0.14.5-GTNH.jar"
+        }
+      ],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/MalisisCore",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MalisisCore/"
+    },
+    {
+      "name": "MalisisDoors",
+      "latest_version": "1.13.3-GTNH",
+      "versions": [
+        {
+          "version_tag": "1.13.3-GTNH",
+          "tagged_at": "2022-07-11T11:46:12+00:00",
+          "filename": "malisisdoors-1.7.10-1.13.3-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MalisisDoors/releases/assets/71222039",
+          "browser_download_url": "https://github.com/GTNewHorizons/MalisisDoors/releases/download/1.13.3-GTNH/malisisdoors-1.7.10-1.13.3-GTNH.jar"
+        }
+      ],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/MalisisDoors",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MalisisDoors/"
     },
     {
       "name": "Mantle",
@@ -5704,6 +6393,22 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModTweaker/"
     },
     {
+      "name": "MouseTweaks",
+      "latest_version": "2.4.5-GTNH",
+      "versions": [
+        {
+          "version_tag": "2.4.5-GTNH",
+          "tagged_at": "2022-07-13T09:50:29+00:00",
+          "filename": "MouseTweaks-1.7.10-2.4.5-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MouseTweaks/releases/assets/71436041",
+          "browser_download_url": "https://github.com/GTNewHorizons/MouseTweaks/releases/download/2.4.5-GTNH/MouseTweaks-1.7.10-2.4.5-GTNH.jar"
+        }
+      ],
+      "license": "All Rights Reserved (fallback)",
+      "repo_url": "https://github.com/GTNewHorizons/MouseTweaks",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MouseTweaks/"
+    },
+    {
       "name": "MyEssentials-Core",
       "latest_version": "1.19r",
       "versions": [
@@ -5763,7 +6468,7 @@
     },
     {
       "name": "Natura",
-      "latest_version": "2.5.0",
+      "latest_version": "2.5.3",
       "versions": [
         {
           "version_tag": "2.4.3-dev",
@@ -5827,11 +6532,48 @@
           "filename": "Natura-1.7.10-2.5.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Natura/releases/assets/58746590",
           "browser_download_url": "https://github.com/GTNewHorizons/Natura/releases/download/2.5.0/Natura-1.7.10-2.5.0.jar"
+        },
+        {
+          "version_tag": "2.5.1",
+          "tagged_at": "2022-07-05T14:35:14+00:00",
+          "filename": "Natura-1.7.10-2.5.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Natura/releases/assets/70635511",
+          "browser_download_url": "https://github.com/GTNewHorizons/Natura/releases/download/2.5.1/Natura-1.7.10-2.5.1.jar"
+        },
+        {
+          "version_tag": "2.5.2",
+          "tagged_at": "2022-07-05T15:57:07+00:00",
+          "filename": "Natura-1.7.10-2.5.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Natura/releases/assets/70643647",
+          "browser_download_url": "https://github.com/GTNewHorizons/Natura/releases/download/2.5.2/Natura-1.7.10-2.5.2.jar"
+        },
+        {
+          "version_tag": "2.5.3",
+          "tagged_at": "2022-07-10T22:27:26+00:00",
+          "filename": "Natura-1.7.10-2.5.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Natura/releases/assets/71169307",
+          "browser_download_url": "https://github.com/GTNewHorizons/Natura/releases/download/2.5.3/Natura-1.7.10-2.5.3.jar"
         }
       ],
       "license": "Original code is CC0 1.0 Universal Public Domain Dedication, original texutures are Creative Commons 3.0 (no license specified, assuming Creative Commons 3.0 Attribution Unported), GTNH modifications are licensed under the GNU Lesser General Public License v3.0.",
       "repo_url": "https://github.com/GTNewHorizons/Natura",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Natura/"
+    },
+    {
+      "name": "NaturesCompass",
+      "latest_version": "1.3.2-GTNH",
+      "versions": [
+        {
+          "version_tag": "1.3.2-GTNH",
+          "tagged_at": "2022-07-06T13:21:51+00:00",
+          "filename": "naturescompass-1.7.10-1.3.2-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NaturesCompass/releases/assets/70738220",
+          "browser_download_url": "https://github.com/GTNewHorizons/NaturesCompass/releases/download/1.3.2-GTNH/naturescompass-1.7.10-1.3.2-GTNH.jar"
+        }
+      ],
+      "license": "All Rights Reserved (fallback)",
+      "repo_url": "https://github.com/GTNewHorizons/NaturesCompass",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NaturesCompass/"
     },
     {
       "name": "nei-custom-diagram",
@@ -5978,7 +6720,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "1.9.31-pre",
+      "latest_version": "1.9.37",
       "versions": [
         {
           "version_tag": "1.9.11",
@@ -6119,6 +6861,48 @@
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.31-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/69676905",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.31-pre/GTNewHorizonsCoreMod-1.7.10-1.9.31-pre.jar"
+        },
+        {
+          "version_tag": "1.9.32-pre",
+          "tagged_at": "2022-07-05T09:15:32+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.32-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/70601957",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.32-pre/GTNewHorizonsCoreMod-1.7.10-1.9.32-pre.jar"
+        },
+        {
+          "version_tag": "1.9.33-pre",
+          "tagged_at": "2022-07-05T15:01:52+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.33-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/70638150",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.33-pre/GTNewHorizonsCoreMod-1.7.10-1.9.33-pre.jar"
+        },
+        {
+          "version_tag": "1.9.34",
+          "tagged_at": "2022-07-06T12:59:28+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.34.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/70736653",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.34/GTNewHorizonsCoreMod-1.7.10-1.9.34.jar"
+        },
+        {
+          "version_tag": "1.9.35",
+          "tagged_at": "2022-07-12T13:40:29+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.35.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/71340924",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.35/GTNewHorizonsCoreMod-1.7.10-1.9.35.jar"
+        },
+        {
+          "version_tag": "1.9.36",
+          "tagged_at": "2022-07-13T09:44:03+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.36.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/71435401",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.36/GTNewHorizonsCoreMod-1.7.10-1.9.36.jar"
+        },
+        {
+          "version_tag": "1.9.37",
+          "tagged_at": "2022-07-14T13:11:10+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.37.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/71564789",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.37/GTNewHorizonsCoreMod-1.7.10-1.9.37.jar"
         }
       ],
       "license": "GNU General Public License v3.0.",
@@ -6149,7 +6933,7 @@
     },
     {
       "name": "NotEnoughEnergistics",
-      "latest_version": "1.3.12",
+      "latest_version": "1.3.14",
       "versions": [
         {
           "version_tag": "1.3.8",
@@ -6185,6 +6969,20 @@
           "filename": "NotEnoughEnergistics-1.7.10-1.3.12.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/68282040",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.3.12/NotEnoughEnergistics-1.7.10-1.3.12.jar"
+        },
+        {
+          "version_tag": "1.3.13-pre",
+          "tagged_at": "2022-07-12T13:22:58+00:00",
+          "filename": "NotEnoughEnergistics-1.7.10-1.3.13-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/71338683",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.3.13-pre/NotEnoughEnergistics-1.7.10-1.3.13-pre.jar"
+        },
+        {
+          "version_tag": "1.3.14",
+          "tagged_at": "2022-07-13T00:20:50+00:00",
+          "filename": "NotEnoughEnergistics-1.7.10-1.3.14.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/71394462",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.3.14/NotEnoughEnergistics-1.7.10-1.3.14.jar"
         }
       ],
       "license": "MIT License.",
@@ -6193,7 +6991,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.2.18-GTNH-pre",
+      "latest_version": "2.2.19-GTNH",
       "versions": [
         {
           "version_tag": "v2.0.0",
@@ -6551,6 +7349,13 @@
           "filename": "NotEnoughItems-1.7.10-2.2.18-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/69506885",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.18-GTNH-pre/NotEnoughItems-1.7.10-2.2.18-GTNH-pre.jar"
+        },
+        {
+          "version_tag": "2.2.19-GTNH",
+          "tagged_at": "2022-07-05T17:25:08+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.2.19-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/70651020",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.19-GTNH/NotEnoughItems-1.7.10-2.2.19-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -6679,8 +7484,15 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenBlocks/"
     },
     {
+      "name": "OpenCC-3D-printer-models",
+      "latest_version": "<unknown>",
+      "versions": [],
+      "license": "The Unlicense",
+      "repo_url": "https://github.com/GTNewHorizons/OpenCC-3D-printer-models"
+    },
+    {
       "name": "OpenComputers",
-      "latest_version": "1.7.5.26-GTNH",
+      "latest_version": "1.7.5.28-GTNH",
       "versions": [
         {
           "version_tag": "1.7.4.1",
@@ -6765,6 +7577,20 @@
           "filename": "OpenComputers-1.7.10-1.7.5.26-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/68041786",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.7.5.26-GTNH/OpenComputers-1.7.10-1.7.5.26-GTNH.jar"
+        },
+        {
+          "version_tag": "1.7.5.27-GTNH",
+          "tagged_at": "2022-07-05T16:24:18+00:00",
+          "filename": "OpenComputers-1.7.10-1.7.5.27-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/70646842",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.7.5.27-GTNH/OpenComputers-1.7.10-1.7.5.27-GTNH.jar"
+        },
+        {
+          "version_tag": "1.7.5.28-GTNH",
+          "tagged_at": "2022-07-15T22:08:38+00:00",
+          "filename": "OpenComputers-1.7.10-1.7.5.28-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/71716642",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.7.5.28-GTNH/OpenComputers-1.7.10-1.7.5.28-GTNH.jar"
         }
       ],
       "license": "CC0 1.0 Universal Public Domain Dedication.",
@@ -6839,6 +7665,36 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenModularTurrets/"
     },
     {
+      "name": "OpenPrinter",
+      "latest_version": "<unknown>",
+      "versions": [],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/OpenPrinter"
+    },
+    {
+      "name": "OpenSecurity",
+      "latest_version": "1.0.119-GTNH",
+      "versions": [
+        {
+          "version_tag": "1.0.118-GTNH",
+          "tagged_at": "2022-07-06T13:13:33+00:00",
+          "filename": "opensecurity-1.7.10-1.0.118-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenSecurity/releases/assets/70737632",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenSecurity/releases/download/1.0.118-GTNH/opensecurity-1.7.10-1.0.118-GTNH.jar"
+        },
+        {
+          "version_tag": "1.0.119-GTNH",
+          "tagged_at": "2022-07-08T10:23:31+00:00",
+          "filename": "opensecurity-1.7.10-1.0.119-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenSecurity/releases/assets/70957329",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenSecurity/releases/download/1.0.119-GTNH/opensecurity-1.7.10-1.0.119-GTNH.jar"
+        }
+      ],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/OpenSecurity",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenSecurity/"
+    },
+    {
       "name": "Opis",
       "latest_version": "1.3.3-mapless",
       "versions": [
@@ -6895,7 +7751,7 @@
     },
     {
       "name": "PersonalSpace",
-      "latest_version": "1.0.8-GTNH",
+      "latest_version": "1.0.11-GTNH",
       "versions": [
         {
           "version_tag": "1.0.3-GTNH",
@@ -6931,6 +7787,27 @@
           "filename": "personalspace-1.7.10-1.0.8-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/70384069",
           "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.8-GTNH/personalspace-1.7.10-1.0.8-GTNH.jar"
+        },
+        {
+          "version_tag": "1.0.9-GTNH",
+          "tagged_at": "2022-07-05T17:01:36+00:00",
+          "filename": "personalspace-1.7.10-1.0.9-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/70649284",
+          "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.9-GTNH/personalspace-1.7.10-1.0.9-GTNH.jar"
+        },
+        {
+          "version_tag": "1.0.10-GTNH",
+          "tagged_at": "2022-07-07T17:15:20+00:00",
+          "filename": "personalspace-1.7.10-1.0.10-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/70879147",
+          "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.10-GTNH/personalspace-1.7.10-1.0.10-GTNH.jar"
+        },
+        {
+          "version_tag": "1.0.11-GTNH",
+          "tagged_at": "2022-07-07T17:20:22+00:00",
+          "filename": "personalspace-1.7.10-1.0.11-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/70879402",
+          "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.11-GTNH/personalspace-1.7.10-1.0.11-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -7228,7 +8105,7 @@
     },
     {
       "name": "Schematica",
-      "latest_version": "1.8.7-GTNH",
+      "latest_version": "1.8.8-GTNH-pre",
       "versions": [
         {
           "version_tag": "1.8.0-GTNH",
@@ -7285,6 +8162,20 @@
           "filename": "Schematica-1.7.10-1.8.7-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Schematica/releases/assets/68283908",
           "browser_download_url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.8.7-GTNH/Schematica-1.7.10-1.8.7-GTNH.jar"
+        },
+        {
+          "version_tag": "1.8.8-GTNH_FP",
+          "tagged_at": "2022-07-05T16:36:20+00:00",
+          "filename": "SchematicaFairplay-1.7.10-1.8.8-GTNH_FP.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Schematica/releases/assets/70647706",
+          "browser_download_url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.8.8-GTNH_FP/SchematicaFairplay-1.7.10-1.8.8-GTNH_FP.jar"
+        },
+        {
+          "version_tag": "1.8.8-GTNH-pre",
+          "tagged_at": "2022-07-05T16:37:00+00:00",
+          "filename": "Schematica-1.7.10-1.8.8-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Schematica/releases/assets/70647749",
+          "browser_download_url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.8.8-GTNH-pre/Schematica-1.7.10-1.8.8-GTNH-pre.jar"
         }
       ],
       "license": "MIT License.",
@@ -7368,7 +8259,7 @@
     },
     {
       "name": "SleepingBags",
-      "latest_version": "0.1.2",
+      "latest_version": "0.1.3",
       "versions": [
         {
           "version_tag": "0.1.2",
@@ -7376,6 +8267,13 @@
           "filename": "sleepingbag-1.7.10-0.1.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SleepingBags/releases/assets/55864062",
           "browser_download_url": "https://github.com/GTNewHorizons/SleepingBags/releases/download/0.1.2/sleepingbag-1.7.10-0.1.2.jar"
+        },
+        {
+          "version_tag": "0.1.3",
+          "tagged_at": "2022-07-10T22:43:32+00:00",
+          "filename": "sleepingbag-1.7.10-0.1.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/SleepingBags/releases/assets/71170451",
+          "browser_download_url": "https://github.com/GTNewHorizons/SleepingBags/releases/download/0.1.3/sleepingbag-1.7.10-0.1.3.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -7906,7 +8804,7 @@
     },
     {
       "name": "StructureLib",
-      "latest_version": "1.0.16",
+      "latest_version": "1.0.17",
       "versions": [
         {
           "version_tag": "1.0.11",
@@ -7935,6 +8833,13 @@
           "filename": "structurelib-1.7.10-1.0.16.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StructureLib/releases/assets/58248684",
           "browser_download_url": "https://github.com/GTNewHorizons/StructureLib/releases/download/1.0.16/structurelib-1.7.10-1.0.16.jar"
+        },
+        {
+          "version_tag": "1.0.17",
+          "tagged_at": "2022-07-08T10:05:42+00:00",
+          "filename": "structurelib-1.7.10-1.0.17.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StructureLib/releases/assets/70955348",
+          "browser_download_url": "https://github.com/GTNewHorizons/StructureLib/releases/download/1.0.17/structurelib-1.7.10-1.0.17.jar"
         }
       ],
       "license": "MIT License.",
@@ -8063,7 +8968,7 @@
     },
     {
       "name": "TCNEIAdditions",
-      "latest_version": "1.1.0.10",
+      "latest_version": "1.1.1.1",
       "versions": [
         {
           "version_tag": "1.0.1.0",
@@ -8162,6 +9067,20 @@
           "filename": "tcneiadditions-1.7.10-1.1.0.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TCNEIAdditions/releases/assets/69534684",
           "browser_download_url": "https://github.com/GTNewHorizons/TCNEIAdditions/releases/download/1.1.0.10/tcneiadditions-1.7.10-1.1.0.10.jar"
+        },
+        {
+          "version_tag": "1.1.1.0-pre",
+          "tagged_at": "2022-07-05T16:37:25+00:00",
+          "filename": "tcneiadditions-1.7.10-1.1.1.0-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TCNEIAdditions/releases/assets/70647789",
+          "browser_download_url": "https://github.com/GTNewHorizons/TCNEIAdditions/releases/download/1.1.1.0-pre/tcneiadditions-1.7.10-1.1.1.0-pre.jar"
+        },
+        {
+          "version_tag": "1.1.1.1",
+          "tagged_at": "2022-07-12T02:20:27+00:00",
+          "filename": "tcneiadditions-1.7.10-1.1.1.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TCNEIAdditions/releases/assets/71288776",
+          "browser_download_url": "https://github.com/GTNewHorizons/TCNEIAdditions/releases/download/1.1.1.1/tcneiadditions-1.7.10-1.1.1.1.jar"
         }
       ],
       "license": "GNU General Public License v3.0.",
@@ -8201,7 +9120,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.0.8-pre",
+      "latest_version": "5.0.10",
       "versions": [
         {
           "version_tag": "4.10.12",
@@ -8279,6 +9198,20 @@
           "filename": "TecTech-1.7.10-5.0.8-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/69677276",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.8-pre/TecTech-1.7.10-5.0.8-pre.jar"
+        },
+        {
+          "version_tag": "5.0.9-pre",
+          "tagged_at": "2022-07-05T10:54:30+00:00",
+          "filename": "TecTech-1.7.10-5.0.9-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/70613128",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.9-pre/TecTech-1.7.10-5.0.9-pre.jar"
+        },
+        {
+          "version_tag": "5.0.10",
+          "tagged_at": "2022-07-13T09:45:37+00:00",
+          "filename": "TecTech-1.7.10-5.0.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/71435526",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.10/TecTech-1.7.10-5.0.10.jar"
         }
       ],
       "license": "MIT License.",
@@ -8362,7 +9295,7 @@
     },
     {
       "name": "ThaumicBases",
-      "latest_version": "1.4.29",
+      "latest_version": "1.4.30",
       "versions": [
         {
           "version_tag": "1.4.18",
@@ -8405,6 +9338,13 @@
           "filename": "Thaumic-Based-1.7.10-1.4.29.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicBases/releases/assets/58354267",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicBases/releases/download/1.4.29/Thaumic-Based-1.7.10-1.4.29.jar"
+        },
+        {
+          "version_tag": "1.4.30",
+          "tagged_at": "2022-07-05T16:28:14+00:00",
+          "filename": "Thaumic-Based-1.7.10-1.4.30.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicBases/releases/assets/70647183",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicBases/releases/download/1.4.30/Thaumic-Based-1.7.10-1.4.30.jar"
         }
       ],
       "license": "CC0 1.0 Universal Public Domain Dedication.",
@@ -8547,6 +9487,22 @@
       "license": "**All Rights Reserved according to CurseForge (https://www.curseforge.com/minecraft/mc-mods/thaumic-horizons)**",
       "repo_url": "https://github.com/GTNewHorizons/ThaumicHorizons",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicHorizons/"
+    },
+    {
+      "name": "ThaumicInventoryScanning",
+      "latest_version": "1.0.12-GTNH",
+      "versions": [
+        {
+          "version_tag": "1.0.12-GTNH",
+          "tagged_at": "2022-07-10T15:01:28+00:00",
+          "filename": "tcinventoryscan-1.7.10-1.0.12-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicInventoryScanning/releases/assets/71144207",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicInventoryScanning/releases/download/1.0.12-GTNH/tcinventoryscan-1.7.10-1.0.12-GTNH.jar"
+        }
+      ],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/ThaumicInventoryScanning",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicInventoryScanning/"
     },
     {
       "name": "ThaumicTinkerer",
@@ -9425,7 +10381,7 @@
     },
     {
       "name": "WirelessCraftingTerminal",
-      "latest_version": "1.8.8.5",
+      "latest_version": "1.8.8.6",
       "versions": [
         {
           "version_tag": "1.8.7.4-bigbass-1",
@@ -9468,6 +10424,13 @@
           "filename": "WirelessCraftingTerminal-1.7.10-1.8.8.5.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/WirelessCraftingTerminal/releases/assets/67691516",
           "browser_download_url": "https://github.com/GTNewHorizons/WirelessCraftingTerminal/releases/download/1.8.8.5/WirelessCraftingTerminal-1.7.10-1.8.8.5.jar"
+        },
+        {
+          "version_tag": "1.8.8.6",
+          "tagged_at": "2022-07-05T16:13:40+00:00",
+          "filename": "WirelessCraftingTerminal-1.7.10-1.8.8.6.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WirelessCraftingTerminal/releases/assets/70645075",
+          "browser_download_url": "https://github.com/GTNewHorizons/WirelessCraftingTerminal/releases/download/1.8.8.6/WirelessCraftingTerminal-1.7.10-1.8.8.6.jar"
         }
       ],
       "license": "GNU General Public License v3.0.",
@@ -9520,7 +10483,7 @@
     },
     {
       "name": "WitcheryExtras",
-      "latest_version": "1.1.6-dev",
+      "latest_version": "1.1.7",
       "versions": [
         {
           "version_tag": "1.1.3",
@@ -9549,6 +10512,13 @@
           "filename": "WitcheryExtras-1.7.10-1.1.6-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/WitcheryExtras/releases/assets/68699317",
           "browser_download_url": "https://github.com/GTNewHorizons/WitcheryExtras/releases/download/1.1.6-dev/WitcheryExtras-1.7.10-1.1.6-dev.jar"
+        },
+        {
+          "version_tag": "1.1.7",
+          "tagged_at": "2022-07-05T16:24:08+00:00",
+          "filename": "WitcheryExtras-1.7.10-1.1.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WitcheryExtras/releases/assets/70646828",
+          "browser_download_url": "https://github.com/GTNewHorizons/WitcheryExtras/releases/download/1.1.7/WitcheryExtras-1.7.10-1.1.7.jar"
         }
       ],
       "license": "GNU General Public License v3.0.",
@@ -9557,7 +10527,7 @@
     },
     {
       "name": "WitchingGadgets",
-      "latest_version": "1.2.18-GTNH",
+      "latest_version": "1.2.19-GTNH",
       "versions": [
         {
           "version_tag": "1.2.9j",
@@ -9635,6 +10605,13 @@
           "filename": "WitchingGadgets-1.7.10-1.2.18-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/58371148",
           "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.2.18-GTNH/WitchingGadgets-1.7.10-1.2.18-GTNH.jar"
+        },
+        {
+          "version_tag": "1.2.19-GTNH",
+          "tagged_at": "2022-07-11T04:18:14+00:00",
+          "filename": "WitchingGadgets-1.7.10-1.2.19-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WitchingGadgets/releases/assets/71188368",
+          "browser_download_url": "https://github.com/GTNewHorizons/WitchingGadgets/releases/download/1.2.19-GTNH/WitchingGadgets-1.7.10-1.2.19-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -9680,7 +10657,7 @@
       "license": "GNU General Public License v3.0.",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/aroma1997core",
-      "project_id": 223735,
+      "project_id": "223735",
       "slug": "aroma1997core"
     },
     {
@@ -9690,7 +10667,7 @@
       "license": "Custom License, permission to distribute derivative works granted since GTNH is provided through CurseForge. (https://www.curseforge.com/project/225658/license)",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/aromabackup",
-      "project_id": 225658,
+      "project_id": "225658",
       "slug": "aromabackup"
     },
     {
@@ -9699,7 +10676,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/automagy",
-      "project_id": 222153,
+      "project_id": "222153",
       "slug": "automagy"
     },
     {
@@ -9708,7 +10685,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft",
-      "project_id": 228027,
+      "project_id": "228027",
       "slug": "bibliocraft"
     },
     {
@@ -9717,7 +10694,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition",
-      "project_id": 228362,
+      "project_id": "228362",
       "slug": "bibliocraft-bibliowoods-biomes-oplenty-edition"
     },
     {
@@ -9726,7 +10703,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition",
-      "project_id": 228363,
+      "project_id": "228363",
       "slug": "bibliocraft-bibliowoods-forestry-edition"
     },
     {
@@ -9735,7 +10712,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-natura-edition",
-      "project_id": 228364,
+      "project_id": "228364",
       "slug": "bibliocraft-bibliowoods-natura-edition"
     },
     {
@@ -9743,9 +10720,9 @@
       "latest_version": "1.0.0.12",
       "versions": [],
       "license": "MIT License.",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/brandons-core",
       "repo_url": "https://github.com/GTNewHorizons/BrandonsCore",
-      "project_id": 231382,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/brandons-core",
+      "project_id": "231382",
       "slug": "brandons-core"
     },
     {
@@ -9754,7 +10731,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/witchery",
-      "project_id": 69673,
+      "project_id": "69673",
       "slug": "witchery"
     },
     {
@@ -9764,7 +10741,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/GTNewHorizons/ThaumicInventoryScanning ",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning",
-      "project_id": 238003,
+      "project_id": "238003",
       "slug": "thaumcraft-inventory-scanning"
     },
     {
@@ -9773,7 +10750,7 @@
       "versions": [],
       "license": "You have my permission to include \"Thaumcraft NEI Plugin\" in any modpack, public or private, provided that credit is given, the source files are not modified and the overall mod pack is distributed free of charge.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin",
-      "project_id": 225095,
+      "project_id": "225095",
       "slug": "thaumcraft-nei-plugin"
     },
     {
@@ -9781,9 +10758,9 @@
       "latest_version": "2.2.4",
       "versions": [],
       "license": "MIT License.",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/random-things",
       "repo_url": "https://github.com/GTNewHorizons/Random-Things",
-      "project_id": 59816,
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/random-things",
+      "project_id": "59816",
       "slug": "random-things"
     },
     {
@@ -9792,7 +10769,7 @@
       "versions": [],
       "license": "GNU Lesser General Public License v3.0.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/player-api",
-      "project_id": 228969,
+      "project_id": "228969",
       "slug": "player-api"
     },
     {
@@ -9801,7 +10778,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether",
-      "project_id": 231262,
+      "project_id": "231262",
       "slug": "pams-harvest-the-nether"
     },
     {
@@ -9811,7 +10788,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/GTNewHorizons/OpenSecurity",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/opensecurity",
-      "project_id": 231687,
+      "project_id": "231687",
       "slug": "opensecurity"
     },
     {
@@ -9821,7 +10798,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/GTNewHorizons/OpenPrinter",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/openprinter",
-      "project_id": 225127,
+      "project_id": "225127",
       "slug": "openprinter"
     },
     {
@@ -9831,7 +10808,7 @@
       "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.",
       "repo_url": "https://github.com/GTNewHorizons/NaturesCompass",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/natures-compass",
-      "project_id": 252848,
+      "project_id": "252848",
       "slug": "natures-compass"
     },
     {
@@ -9842,7 +10819,7 @@
       "repo_url": "https://github.com/GTNewHorizons/MouseTweaks",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
-      "project_id": 60089,
+      "project_id": "60089",
       "slug": "mouse-tweaks"
     },
     {
@@ -9852,7 +10829,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/GTNewHorizons/MalisisDoors",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/malisisdoors",
-      "project_id": 223891,
+      "project_id": "223891",
       "slug": "malisisdoors"
     },
     {
@@ -9862,7 +10839,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/GTNewHorizons/MalisisCore",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/malisiscore",
-      "project_id": 223896,
+      "project_id": "223896",
       "slug": "malisiscore"
     },
     {
@@ -9873,7 +10850,7 @@
       "repo_url": "https://github.com/GTNewHorizons/itlt",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/its-the-little-things",
-      "project_id": 232791,
+      "project_id": "232791",
       "slug": "its-the-little-things"
     },
     {
@@ -9883,7 +10860,7 @@
       "license": "All Rights Reserved.",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/ic2-nei-crop-plugin",
-      "project_id": 236609,
+      "project_id": "236609",
       "slug": "ic2-nei-crop-plugin"
     },
     {
@@ -9893,7 +10870,7 @@
       "license": "Do What The Fuck You Want To License v2.0.",
       "repo_url": "https://github.com/matthewprenger/HelpFixer",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/helpfixer",
-      "project_id": 223797,
+      "project_id": "223797",
       "slug": "helpfixer"
     },
     {
@@ -9903,7 +10880,7 @@
       "license": "All Rights Reserved.",
       "repo_url": "https://github.com/lumien231/Hardcore-Darkness",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness",
-      "project_id": 225957,
+      "project_id": "225957",
       "slug": "hardcore-darkness"
     },
     {
@@ -9914,7 +10891,7 @@
       "repo_url": "https://github.com/GTNewHorizons/FloodLights",
       "maven": "https://jenkins.ironhide.de/job/Keridos%20Mods/job/FloodLights-1.7.10/",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/floodlights",
-      "project_id": 224728,
+      "project_id": "224728",
       "slug": "floodlights"
     },
     {
@@ -9924,7 +10901,7 @@
       "license": "All Rights Reserved.",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/fastcraft",
-      "project_id": 242677,
+      "project_id": "242677",
       "slug": "fastcraft"
     },
     {
@@ -9934,7 +10911,7 @@
       "license": "Creative Commons Attribution 3.0 share-alike",
       "repo_url": "https://github.com/GTNewHorizons/DummyCore",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/dummycore",
-      "project_id": 230103,
+      "project_id": "230103",
       "slug": "dummycore"
     },
     {
@@ -9945,7 +10922,7 @@
       "repo_url": "https://github.com/GTNewHorizons/Custom-Main-Menu",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/custom-main-menu",
-      "project_id": 226406,
+      "project_id": "226406",
       "slug": "custom-main-menu"
     },
     {
@@ -9956,7 +10933,7 @@
       "repo_url": "https://github.com/GTNewHorizons/CraftPresence",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/craftpresence",
-      "project_id": 297038,
+      "project_id": "297038",
       "slug": "craftpresence"
     },
     {
@@ -9966,7 +10943,7 @@
       "license": "GNU Lesser General Public Library v3.0.",
       "repo_url": "https://github.com/CoFH/CoFHLib-1.7.10-Legacy",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-lib",
-      "project_id": 220333,
+      "project_id": "220333",
       "slug": "cofh-lib"
     },
     {
@@ -9976,7 +10953,7 @@
       "license": "All Rights Reserved.",
       "repo_url": "https://github.com/CoFH/CoFHCore-1.12-Legacy/tree/1.7.10",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-core",
-      "project_id": 69162,
+      "project_id": "69162",
       "slug": "cofh-core"
     },
     {
@@ -9986,7 +10963,7 @@
       "license": "Minecraft Mod Public License v2.0.2.",
       "repo_url": "https://github.com/GTNewHorizons/ChiselTones",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/chiseltones",
-      "project_id": 228004,
+      "project_id": "228004",
       "slug": "chiseltones"
     },
     {
@@ -9996,7 +10973,7 @@
       "license": "GNU Lesser General Public Library v2.1.",
       "repo_url": "https://github.com/GTNewHorizons/CarpentersBlocks",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/carpenters-blocks",
-      "project_id": 228932,
+      "project_id": "228932",
       "slug": "carpenters-blocks"
     },
     {
@@ -10006,7 +10983,7 @@
       "license": "Quick licence notice: ARR - you're of course allowed to put it into packs and all other stuff. The licence is meant for redistribution on other websites and copying.",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/beebetteratbees",
-      "project_id": 244516,
+      "project_id": "244516",
       "slug": "beebetteratbees"
     },
     {
@@ -10017,7 +10994,7 @@
       "repo_url": "https://github.com/way2muchnoise/BetterAchievements/tree/1.7.10",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/betterachievements",
-      "project_id": 235716,
+      "project_id": "235716",
       "slug": "betterachievements"
     },
     {
@@ -10027,7 +11004,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/p455w0rd/p455w0rds-Library",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library",
-      "project_id": 255232,
+      "project_id": "255232",
       "slug": "p455w0rds-library"
     },
     {
@@ -10038,7 +11015,7 @@
       "repo_url": "https://github.com/lumien231/Resource-Loader",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/resource-loader",
-      "project_id": 226447,
+      "project_id": "226447",
       "slug": "resource-loader"
     },
     {
@@ -10048,7 +11025,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/Glease/Healer",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/healer",
-      "project_id": 554840,
+      "project_id": "554840",
       "slug": "healer"
     },
     {
@@ -10057,7 +11034,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft",
-      "project_id": 223628,
+      "project_id": "223628",
       "slug": "thaumcraft"
     },
     {
@@ -10067,7 +11044,7 @@
       "license": "All Rights Reserved.",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/journeymap",
-      "project_id": 32274,
+      "project_id": "32274",
       "slug": "journeymap"
     },
     {
@@ -10077,7 +11054,7 @@
       "license": "All Rights Reserved.",
       "side": "SERVER",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/journeymap-server",
-      "project_id": 225341,
+      "project_id": "225341",
       "slug": "journeymap-server"
     },
     {
@@ -10087,7 +11064,7 @@
       "license": "MIT License.",
       "repo_url": "https://github.com/bartimaeusnek/CB-for-BQ",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/command-blocks-for-better-questing",
-      "project_id": 326290,
+      "project_id": "326290",
       "slug": "command-blocks-for-better-questing"
     },
     {
@@ -10098,7 +11075,7 @@
       "repo_url": "https://github.com/jaredlll08/Controlling",
       "side": "CLIENT",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/controlling",
-      "project_id": 250398,
+      "project_id": "250398",
       "slug": "controlling"
     },
     {
@@ -10125,7 +11102,7 @@
       "license": "GNU General Public Library v3.0.",
       "repo_url": "https://github.com/GTNewHorizons/Tinkers-Defense",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/compendium",
-      "project_id": 226910,
+      "project_id": "226910",
       "slug": "compendium"
     },
     {
@@ -10135,7 +11112,7 @@
       "license": "Ask-Me-Before-You-Do License. Has clause against custom mod builds. ",
       "repo_url": "https://github.com/BluSunrize/TravellersGear",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/travellers-gear",
-      "project_id": 224440,
+      "project_id": "224440",
       "slug": "travellers-gear"
     },
     {
@@ -10144,7 +11121,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels",
-      "project_id": 362768,
+      "project_id": "362768",
       "slug": "advancedsolarpanels"
     },
     {
@@ -10153,7 +11130,7 @@
       "versions": [],
       "license": "All Rights Reserved.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/extra-utilities",
-      "project_id": 225561,
+      "project_id": "225561",
       "slug": "extra-utilities"
     },
     {
@@ -10163,7 +11140,7 @@
       "license": "All Rights Reserved.",
       "maven": "https://maven.ic2.player.to/net/industrial-craft/industrialcraft-2/",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/industrial-craft",
-      "project_id": 242638,
+      "project_id": "242638",
       "slug": "industrial-craft"
     },
     {
@@ -10180,7 +11157,7 @@
       "license": "All Rights Reserved.",
       "repo_url": "https://github.com/ModdingForBlockheads/NetherPortalFix",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/netherportalfix",
-      "project_id": 241160,
+      "project_id": "241160",
       "slug": "netherportalfix"
     },
     {
@@ -10190,7 +11167,7 @@
       "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.",
       "repo_url": "https://github.com/yorkeJohn/Tainted-Magic",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/tainted-magic",
-      "project_id": 231061,
+      "project_id": "231061",
       "slug": "tainted-magic"
     },
     {
@@ -10200,7 +11177,7 @@
       "license": "GNU General Public License v3.0.",
       "repo_url": "https://github.com/MrTJP/MrTJPCore",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/mrtjpcore",
-      "project_id": 229002,
+      "project_id": "229002",
       "slug": "mrtjpcore"
     },
     {
@@ -10210,7 +11187,7 @@
       "license": "GNU General Public License v3.0.",
       "repo_url": "https://github.com/MrTJP/ForgeRelocation",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation",
-      "project_id": 232075,
+      "project_id": "232075",
       "slug": "forge-relocation"
     },
     {
@@ -10220,7 +11197,7 @@
       "license": "GNU General Public License v3.0.",
       "repo_url": "https://github.com/MrTJP/ForgeRelocationFMP",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation-fmp-plugin",
-      "project_id": 232076,
+      "project_id": "232076",
       "slug": "forge-relocation-fmp-plugin"
     },
     {
@@ -10231,7 +11208,7 @@
       "repo_url": "https://github.com/Quetzi/Morpheus",
       "side": "SERVER",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/morpheus",
-      "project_id": 69118,
+      "project_id": "69118",
       "slug": "morpheus"
     },
     {
@@ -10240,7 +11217,7 @@
       "versions": [],
       "license": "All Rights Reserved. - You have my permission to use this mod in any mod pack, public or private.",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/ztones",
-      "project_id": 224369,
+      "project_id": "224369",
       "slug": "ztones"
     },
     {
@@ -10249,7 +11226,7 @@
       "versions": [],
       "license": "Creative Commons BY-NC-ND 4.0",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty",
-      "project_id": 220318,
+      "project_id": "220318",
       "slug": "biomes-o-plenty"
     },
     {
@@ -10268,7 +11245,7 @@
       "license": "All Rights Reserved.",
       "repo_url": "https://github.com/Drethic/QuestBook",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book",
-      "project_id": 242106,
+      "project_id": "242106",
       "slug": "better-questing-quest-book"
     }
   ]
