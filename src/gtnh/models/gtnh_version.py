@@ -13,6 +13,7 @@ log = get_logger(__name__)
 
 class GTNHVersion(GTNHBaseModel):
     version_tag: str
+    changelog: str = Field(default="")
     prerelease: bool = Field(default=False)
     tagged_at: Optional[datetime] = Field(default=None)
     filename: str | None = Field(default=None)
@@ -34,6 +35,7 @@ def version_from_release(release: AttributeDict, type: VersionableType) -> GTNHV
 
     return GTNHVersion(
         version_tag=version,
+        changelog=release.body or "",
         prerelease=release.prerelease,
         tagged_at=asset.created_at,
         filename=asset.name,

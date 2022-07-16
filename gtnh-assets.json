@@ -3539,7 +3539,7 @@
     },
     {
       "name": "FTB-Utilities",
-      "latest_version": "1.0.18.6-GTNH",
+      "latest_version": "1.0.18.7-GTNH",
       "versions": [
         {
           "version_tag": "1.0.18.6-GTNH",
@@ -3547,6 +3547,14 @@
           "filename": "FTBUtilities-1.7.10-1.0.18.6-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/FTB-Utilities/releases/assets/56727787",
           "browser_download_url": "https://github.com/GTNewHorizons/FTB-Utilities/releases/download/1.0.18.6-GTNH/FTBUtilities-1.7.10-1.0.18.6-GTNH.jar"
+        },
+        {
+          "version_tag": "1.0.18.7-GTNH",
+          "changelog": "## What's Changed\r\n* Fix backup alarms being printed with no players on server by @vlaetansky in https://github.com/GTNewHorizons/FTB-Utilities/pull/5\r\n\r\n## New Contributors\r\n* @vlaetansky made their first contribution in https://github.com/GTNewHorizons/FTB-Utilities/pull/5\r\n\r\n**Full Changelog**: https://github.com/GTNewHorizons/FTB-Utilities/compare/1.0.18.6-GTNH...1.0.18.7-GTNH",
+          "tagged_at": "2022-07-16T16:21:56+00:00",
+          "filename": "FTBUtilities-1.7.10-1.0.18.7-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/FTB-Utilities/releases/assets/71773178",
+          "browser_download_url": "https://github.com/GTNewHorizons/FTB-Utilities/releases/download/1.0.18.7-GTNH/FTBUtilities-1.7.10-1.0.18.7-GTNH.jar"
         }
       ],
       "license": "Original code licensed under the MIT License, GTNH modifications licensed under the GNU Lesser General Public License v3.0.",
@@ -4024,7 +4032,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.40.75-pre",
+      "latest_version": "5.09.40.76",
       "versions": [
         {
           "version_tag": "5.09.40.01",
@@ -4564,6 +4572,14 @@
           "filename": "gregtech-1.7.10-5.09.40.75-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/71564829",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.75-pre/gregtech-1.7.10-5.09.40.75-pre.jar"
+        },
+        {
+          "version_tag": "5.09.40.76",
+          "changelog": "## What's Changed\r\n* Fix dependency by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1131\r\n* more tiers of quad input hatches by @GlodBlock in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1123\r\n* fix npe from get output by @GlodBlock in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1133\r\n* DTPF Fixes by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1132\r\n* Add recipe owner display by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1135\r\n\r\n\r\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.72...5.09.40.76",
+          "tagged_at": "2022-07-16T03:35:11+00:00",
+          "filename": "gregtech-1.7.10-5.09.40.76.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/71733800",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.40.76/gregtech-1.7.10-5.09.40.76.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",

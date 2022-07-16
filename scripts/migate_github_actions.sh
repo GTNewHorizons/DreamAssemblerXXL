@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 mkdir -p .github/workflows
+if [ ! -e .github/workflows/release-tags.yml ]; then
+  echo "Repository does not have any workflows"
+  exit 1
+fi
 
 if grep -Fq 'GTNH-Actions-Workflows' .github/workflows/release-tags.yml &> /dev/null; then
   printf 'Repository already processed!\n' >&2
