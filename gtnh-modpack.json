@@ -3174,7 +3174,8 @@
     "CODEOWNERS",
     "LICENSE",
     "README.md",
-    "resourcepacks/Realistic Sky GT New Horizons.zip"
+    "resourcepacks/Realistic Sky GT New Horizons.zip",
+    "servers.json"
   ],
   "client_exclusions": [
     ".gitignore",
@@ -3183,6 +3184,7 @@
     "LICENSE",
     "README.md",
     "server.properties",
-    "server-icon.png"
+    "server-icon.png",
+    "servers.json"
   ]
 }
