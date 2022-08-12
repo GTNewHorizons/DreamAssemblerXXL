@@ -107,7 +107,7 @@ class Window(tk.Tk):
         """
         if not self.init:
             self.init = True
-            print(await self.get_repos())
+            self.github_mod_frame.populate_data(await self.get_repos())
         while True:
             self.update()
             await asyncio.sleep(ASYNC_SLEEP)
@@ -201,9 +201,10 @@ class GithubModList(tk.LabelFrame):
 
         self.master.update_idletasks()
 
-    def populate_data(self, data: Any) -> None:
+    def populate_data(self, data: List[str]) -> None:
         """method used to populate the widget from parent"""
-        pass
+        for repo_name in sorted(data):
+            self.lb_mods.insert(tk.END, repo_name)
 
 
 class GithubModFrame(tk.LabelFrame):
@@ -231,9 +232,9 @@ class GithubModFrame(tk.LabelFrame):
         self.github_mod_list.show()
         self.mod_info_frame.show()
 
-    def populate_data(self, data: Any) -> None:
+    def populate_data(self, data: List[str]) -> None:
         """method used to populate the widget from parent"""
-        pass
+        self.github_mod_list.populate_data(data)
 
 
 class ExternalModList(tk.LabelFrame):
