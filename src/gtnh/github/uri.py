@@ -19,3 +19,7 @@ def repo_releases_uri(org: str, repo: str) -> str:
 
 def repo_license_uri(org: str, repo: str) -> str:
     return f"{API_BASE_URI}/repos/{org}/{repo}/license"
+
+
+def repo_issues_uri(org: str, repo: str, issue_num: int | None = None) -> str:
+    return f"{API_BASE_URI}/repos/{org}/{repo}/issues" + (f"/{issue_num}" if issue_num is not None else "")
