@@ -34,7 +34,7 @@ class Window(tk.Tk):
         self._modpack_manager: Optional[GTNHModpackManager] = None
         self.github_mods: Dict[str, str] = {}
         self.init: bool = False
-        self.protocol("WM_DELETE_WINDOW", self.close_app)
+        self.protocol("WM_DELETE_WINDOW", lambda: asyncio.ensure_future(self.close_app()))
 
         # frame for the github mods
         self.github_mod_frame = GithubModFrame(self, frame_name="github mods data")
@@ -116,6 +116,7 @@ class Window(tk.Tk):
         """Method used whenever the app is closed"""
         if self._client is not None:
             await self._client.aclose()
+        self.destroy()
 
 
 class ModInfoFrame(tk.LabelFrame):
