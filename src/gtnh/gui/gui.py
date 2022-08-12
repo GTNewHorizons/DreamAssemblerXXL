@@ -7,6 +7,8 @@ from typing import Any, Callable, Dict, List, Optional
 import httpx
 
 from gtnh.defs import Side
+from gtnh.models.gtnh_version import GTNHVersion
+from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 ASYNC_SLEEP = 0.05
@@ -163,7 +165,11 @@ class ModInfoFrame(tk.LabelFrame):
 
     def populate_data(self, data: Any) -> None:
         """method used to populate data"""
-        pass
+        self.sv_mod_name.set(data["name"])
+        self.cb_version["values"] = data["versions"]
+        self.cb_version.set(data["current_version"])
+        self.sv_license.set(data["license"])
+        self.cb_side.set(data["side"])
 
 
 class GithubModList(tk.LabelFrame):
@@ -171,13 +177,17 @@ class GithubModList(tk.LabelFrame):
     Widget used to rule the addition/deletion of a mod
     """
 
-    def __init__(self, master: Any, frame_name: str, **kwargs: Any):
+    def __init__(self, master: Any, frame_name: str, mod_info_callback: Callable, **kwargs: Any):
         tk.LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.ypadding = 20  # todo: tune this
         self.xpadding = 0  # todo: tune this
         self.sv_repo_name = tk.StringVar(self, value="")
 
+        self.mod_info_callback = mod_info_callback
+
         self.lb_mods = tk.Listbox(self)
+        self.lb_mods.bind('<<ListboxSelect>>', lambda event: asyncio.ensure_future(self.on_listbox_click(event)))
+
         self.label_entry = tk.Label(self, text="enter the new repo here")
         self.entry = tk.Entry(self, textvariable=self.sv_repo_name)
 
@@ -201,10 +211,34 @@ class GithubModList(tk.LabelFrame):
 
         self.master.update_idletasks()
 
+
     def populate_data(self, data: List[str]) -> None:
         """method used to populate the widget from parent"""
         for repo_name in sorted(data):
             self.lb_mods.insert(tk.END, repo_name)
+
+    async def on_listbox_click(self, event: Any, ) -> None:
+        index = self.lb_mods.curselection()[0]
+        gtnh: GTNHModpackManager = await self.master.master._get_modpack_manager()  # todo: change ugly modpack manager instance access
+        mod_info: GTNHModInfo = gtnh.assets.get_github_mod(self.lb_mods.get(index))
+        name: str = mod_info.name
+        mod_versions: list[GTNHVersion] = mod_info.versions
+
+        current_version = self.master.master.github_mods[name] if name in self.master.master.github_mods else mod_info.get_latest_version()
+        license: str = mod_info.license
+        side: str= mod_info.side
+
+        data = {
+            "name":name,
+            "versions":[version.version_tag for version in mod_versions],
+            "current_version":current_version.version_tag,
+            "license":license,
+            "side":side
+        }
+
+        self.mod_info_callback(data)
+
+
 
 
 class GithubModFrame(tk.LabelFrame):
@@ -216,8 +250,9 @@ class GithubModFrame(tk.LabelFrame):
         tk.LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.ypadding = 100  # todo: tune this
         self.xpadding = 0  # todo: tune this
-        self.github_mod_list = GithubModList(self, frame_name="github mod list")
         self.mod_info_frame = ModInfoFrame(self, frame_name="github mod info")
+        self.github_mod_list = GithubModList(self, frame_name="github mod list",
+                                             mod_info_callback=self.mod_info_frame.populate_data)
 
     def show(self) -> None:
         """method used to show the widget's elements and its child widgets"""
@@ -389,7 +424,8 @@ class ActionFrame(tk.LabelFrame):
         self.sv_pb_global = tk.StringVar(self, value="current task: Coding DreamAssemblerXXL")
         self.label_pb_global = tk.Label(self, textvariable=self.sv_pb_global)
 
-        self.pb_current_task = ttk.Progressbar(self, orient="horizontal", mode="determinate", length=progress_bar_length)
+        self.pb_current_task = ttk.Progressbar(self, orient="horizontal", mode="determinate",
+                                               length=progress_bar_length)
         self.sv_pb_current_task = tk.StringVar(self, value="doing stuff")
         self.label_pb_current_task = tk.Label(self, textvariable=self.sv_pb_current_task)
 
