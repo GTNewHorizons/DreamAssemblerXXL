@@ -367,6 +367,19 @@ class GTNHModpackManager:
         with open(self.modpack_manifest_path, encoding="utf-8") as f:
             return GTNHModpack.parse_raw(f.read())
 
+    def save_modpack(self) -> None:
+        """
+        Save the GTNH Modpack manifest
+        """
+        log.info(f"Saving modpack asset to from {self.modpack_manifest_path}")
+        dumped = self.mod_pack.json(exclude_unset=True, exclude_none=True, exclude_defaults=True)
+        if dumped:
+            with open(self.modpack_manifest_path, "w", encoding="utf-8") as f:
+                f.write(dumped)
+        else:
+            log.error("Save aborted, empty save result")
+
+
     def save_assets(self) -> None:
         """
         Saves the Available Mods Manifest
