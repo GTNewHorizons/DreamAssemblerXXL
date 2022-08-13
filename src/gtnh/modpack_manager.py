@@ -26,7 +26,7 @@ from gtnh.defs import (
     ROOT_DIR,
     UNKNOWN,
     ModSource,
-    Side,
+    Side, RELEASE_MANIFEST_DIR,
 )
 from gtnh.exceptions import RepoNotFoundException
 from gtnh.github.uri import latest_release_uri, org_repos_uri, repo_releases_uri, repo_uri
@@ -306,6 +306,14 @@ class GTNHModpackManager:
         external_mods: dict[str, str] = {}
 
         return GTNHRelease(version=version, config=config, github_mods=github_mods, external_mods=external_mods)
+
+    def delete_release(self, release_name: str):
+        release = self.get_release(release_name)
+        if release:
+            manifest_path = RELEASE_MANIFEST_DIR / (release.version + ".json")
+            manifest_path.unlink(missing_ok=True) # file deletion
+            self.mod_pack.releases.remove(release_name)
+            self.save_modpack()
 
     async def add_github_mod(self, name: str) -> GTNHModInfo | None:
         """
