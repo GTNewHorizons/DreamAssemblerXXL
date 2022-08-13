@@ -2,11 +2,12 @@ import asyncio
 import tkinter as tk
 from tkinter import ttk
 from tkinter.ttk import Combobox
-from typing import Any, Callable, Dict, List, Optional
-
+from tkinter.messagebox import showinfo, showerror
+from typing import Any, Callable, Dict, List, Optional, Coroutine, Union, Tuple
 import httpx
 
 from gtnh.defs import Side
+from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
@@ -39,13 +40,24 @@ class Window(tk.Tk):
         self.protocol("WM_DELETE_WINDOW", lambda: asyncio.ensure_future(self.close_app()))
 
         # frame for the github mods
-        self.github_mod_frame = GithubModFrame(self, frame_name="github mods data")
+        self.github_mod_frame = GithubModFrame(self, frame_name="github mods data",
+                                               get_gtnh_callback=self._get_modpack_manager,
+                                               get_github_mods_callback=self.get_github_mods)
 
         # frame for the external mods
         self.external_mod_frame = ExternalModFrame(self, frame_name="external mod data")
 
         # frame for the modpack handling
-        self.modpack_list_frame = ModPackFrame(self, frame_name="modpack release actions")
+        modpack_list_callbacks = {
+            "load": lambda release_name: asyncio.ensure_future(self.load_gtnh_version(release_name)),
+            "add": lambda release_name: asyncio.ensure_future(self.add_gtnh_version(release_name)),
+            "delete": lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)),
+            "update_assets": lambda: asyncio.ensure_future(self.update_assets()),
+            "generate_nightly": lambda: asyncio.ensure_future(self.generate_nightly())
+        }
+
+        self.modpack_list_frame = ModPackFrame(self, frame_name="modpack release actions",
+                                               callbacks=modpack_list_callbacks)
 
         exclusion_client_callbacks = {"add": lambda: None, "del": lambda: None}
 
@@ -62,6 +74,10 @@ class Window(tk.Tk):
         m: GTNHModpackManager = await self._get_modpack_manager()
         return [x.name for x in m.assets.github_mods]
 
+    def get_github_mods(self) -> Dict[str, str]:
+        """getter for self.github_mods"""
+        return self.github_mods
+
     async def _get_client(self) -> httpx.AsyncClient:
         """internal method returning the httpx client instance, creating it if it doesn't exist"""
         if self._client is None:
@@ -73,6 +89,78 @@ class Window(tk.Tk):
         if self._modpack_manager is None:
             self._modpack_manager = GTNHModpackManager(await self._get_client())
         return self._modpack_manager
+
+    async def update_assets(self) -> None:
+        """method to update all the assets"""
+        gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        await gtnh.update_all()
+        showinfo("assets updated successfully!", "all the assets have been updated correctly!")
+
+    async def generate_nightly(self) -> None:
+        """method to update the nightly build"""
+        gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        release: GTNHRelease = await gtnh.generate_release("nightly", update_available=True)
+        gtnh.add_release(release, update=True)
+        gtnh.save_modpack()
+        showinfo("updated the nightly release metadata", "The nightly release metadata had been updated!")
+
+    async def get_releases(self) -> List[GTNHRelease]:
+        """
+        Method used to return a list of known releases with valid metadata.
+        The list is sorted in ascending order (from oldest to the latest)
+        """
+        gtnh: GTNHModpackManager = await self._get_modpack_manager()
+
+        releases: List[GTNHRelease] = []
+
+        # if there is any release, chose last
+        if len(gtnh.mod_pack.releases) > 0:
+            # gtnh.mod_pack.releases is actually a set of the release names
+            for release_name in gtnh.mod_pack.releases:
+                release: Optional[GTNHRelease] = gtnh.get_release(release_name)
+
+                # discarding all the None releases, as it means the json data couldn't be loaded
+                if release is not None:
+                    releases.append(release)
+
+            # sorting releases by date
+            releases = sorted(releases, key=lambda release: release.last_updated)
+
+        return releases
+
+    async def load_gtnh_version(self, release: Union[GTNHRelease, str], init: bool = False) -> None:
+        """Method to load a version in memory"""
+
+        if isinstance(release, str):
+            gtnh: GTNHModpackManager = await self._get_modpack_manager()
+            release_object: GTNHRelease = gtnh.get_release(release)
+            if release_object is not None:
+                self.github_mods = release_object.github_mods
+            else:
+                showerror("incorrect version detected", f"modpack version {release} doesn't exist")
+                return
+
+        else:
+            release_object: GTNHRelease = release
+            self.github_mods = release.github_mods
+        if not init:
+            showinfo(f"version loaded successfully!", f"modpack version {release_object.version} loaded successfully!")
+
+    async def add_gtnh_version(self, release_name: str) -> None:
+        """method to generate a new version"""
+
+        gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        release = await gtnh.generate_release(release_name,
+                                              update_available=False)  # we don't want to update assets this way
+        if gtnh.add_release(release, update=True):
+            gtnh.save_modpack()
+            showinfo("release successfully generated", f"modpack version {release_name} successfully generated!")
+
+    async def delete_gtnh_version(self, release_name: str) -> None:
+        """method used to delete a version matching the provided release name"""
+        gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        gtnh.delete_release(release_name)
+        showinfo("release successfully deleted", f"modpack version {release_name} successfully deleted!")
 
     def show(self) -> None:
         """method used to show the widget elements and its child widgets"""
@@ -109,7 +197,14 @@ class Window(tk.Tk):
         """
         if not self.init:
             self.init = True
+            # load last gtnh version if there is any:
+            releases: List[GTNHRelease] = await self.get_releases()
+            if len(releases) > 0:
+                await self.load_gtnh_version(releases[-1], init=True)
+
             self.github_mod_frame.populate_data(await self.get_repos())
+            self.modpack_list_frame.populate_data(await self.get_releases())
+
         while True:
             self.update()
             await asyncio.sleep(ASYNC_SLEEP)
@@ -177,15 +272,20 @@ class GithubModList(tk.LabelFrame):
     Widget used to rule the addition/deletion of a mod
     """
 
-    def __init__(self, master: Any, frame_name: str, mod_info_callback: Callable, **kwargs: Any):
+    def __init__(self, master: Any, frame_name: str, mod_info_callback: Callable[[Any], None],
+                 get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
+                 get_github_mods_callback: Callable[[], Dict[str, str]], **kwargs: Any):
         tk.LabelFrame.__init__(self, master, text=frame_name, **kwargs)
+        self.get_gtnh_callback = get_gtnh_callback
+        self.get_github_mods_callback = get_github_mods_callback
         self.ypadding = 20  # todo: tune this
         self.xpadding = 0  # todo: tune this
+
         self.sv_repo_name = tk.StringVar(self, value="")
 
         self.mod_info_callback = mod_info_callback
 
-        self.lb_mods = tk.Listbox(self)
+        self.lb_mods = tk.Listbox(self, exportselection=False)
         self.lb_mods.bind('<<ListboxSelect>>', lambda event: asyncio.ensure_future(self.on_listbox_click(event)))
 
         self.label_entry = tk.Label(self, text="enter the new repo here")
@@ -211,34 +311,33 @@ class GithubModList(tk.LabelFrame):
 
         self.master.update_idletasks()
 
-
     def populate_data(self, data: List[str]) -> None:
         """method used to populate the widget from parent"""
         for repo_name in sorted(data):
             self.lb_mods.insert(tk.END, repo_name)
 
-    async def on_listbox_click(self, event: Any, ) -> None:
+    async def on_listbox_click(self, event: Any) -> None:
+
         index = self.lb_mods.curselection()[0]
-        gtnh: GTNHModpackManager = await self.master.master._get_modpack_manager()  # todo: change ugly modpack manager instance access
+        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
         mod_info: GTNHModInfo = gtnh.assets.get_github_mod(self.lb_mods.get(index))
         name: str = mod_info.name
         mod_versions: list[GTNHVersion] = mod_info.versions
 
-        current_version = self.master.master.github_mods[name] if name in self.master.master.github_mods else mod_info.get_latest_version()
-        license: str = mod_info.license
-        side: str= mod_info.side
+        current_version = self.get_github_mods_callback()[
+            name] if name in self.get_github_mods_callback() else mod_info.get_latest_version()
+        license: str = mod_info.license or "No license detected"
+        side: str = mod_info.side
 
         data = {
-            "name":name,
-            "versions":[version.version_tag for version in mod_versions],
-            "current_version":current_version.version_tag,
-            "license":license,
-            "side":side
+            "name": name,
+            "versions": [version.version_tag for version in mod_versions],
+            "current_version": current_version,
+            "license": license,
+            "side": side
         }
 
         self.mod_info_callback(data)
-
-
 
 
 class GithubModFrame(tk.LabelFrame):
@@ -246,13 +345,18 @@ class GithubModFrame(tk.LabelFrame):
     Widget ruling all the github related mods
     """
 
-    def __init__(self, master: Any, frame_name: str, **kwargs: Any):
+    def __init__(self, master: Any, frame_name: str,
+                 get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
+                 get_github_mods_callback: Callable[[], Dict[str, str]],
+                 **kwargs: Any):
         tk.LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.ypadding = 100  # todo: tune this
         self.xpadding = 0  # todo: tune this
         self.mod_info_frame = ModInfoFrame(self, frame_name="github mod info")
         self.github_mod_list = GithubModList(self, frame_name="github mod list",
-                                             mod_info_callback=self.mod_info_frame.populate_data)
+                                             mod_info_callback=self.mod_info_frame.populate_data,
+                                             get_gtnh_callback=get_gtnh_callback,
+                                             get_github_mods_callback=get_github_mods_callback)
 
     def show(self) -> None:
         """method used to show the widget's elements and its child widgets"""
@@ -280,7 +384,7 @@ class ExternalModList(tk.LabelFrame):
         self.ypadding, self.xpadding = 20, 0  # todo: tune this
         self.sv_repo_name = tk.StringVar(self, value="")
 
-        self.lb_mods = tk.Listbox(self)
+        self.lb_mods = tk.Listbox(self, exportselection=False)
 
         self.btn_add = tk.Button(self, text="add new")
         self.btn_rem = tk.Button(self, text="delete highlighted")
@@ -335,9 +439,10 @@ class ExternalModFrame(tk.LabelFrame):
 class ModPackFrame(tk.LabelFrame):
     """Widget ruling all the packaging stuff"""
 
-    def __init__(self, master: Any, frame_name: str, **kwargs: Any) -> None:
+    def __init__(self, master: Any, frame_name: str, callbacks, **kwargs: Any) -> None:
         tk.LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding, self.ypadding = 0, 20  # todo: tune this
+        self.generate_nightly_callback = callbacks["generate_nightly"]
         action_callbacks = {
             "client_cf": lambda: None,
             "client_modrinth": lambda: None,
@@ -348,9 +453,30 @@ class ModPackFrame(tk.LabelFrame):
             "server_mmc": lambda: None,
             "server_technic": lambda: None,
             "generate_all": lambda: None,
+            "generate_nightly": self.update_nightly,
+            "update_assets": callbacks["update_assets"]
         }
-        self.modpack_list = ModpackList(self, frame_name="Modpack Versions")
         self.action_frame = ActionFrame(self, frame_name="availiable tasks", callbacks=action_callbacks)
+
+        modpack_list_callbacks = {
+            "load": callbacks["load"],
+            "delete": callbacks["delete"],
+            "add": callbacks["add"]
+        }
+        self.modpack_list = ModpackList(self, frame_name="Modpack Versions", callbacks=modpack_list_callbacks)
+
+    def update_nightly(self):
+        """method used to trigger different actions in both ActionFrame and ModpackList"""
+        a = self.generate_nightly_callback()
+
+        data: List[str] = list(self.modpack_list.lb_modpack_versions.get(0, tk.END))
+        print("nightly" not in data)
+        if "nightly" not in data:
+            data.insert(0, "nightly")
+            self.modpack_list.lb_modpack_versions.delete(0, tk.END)
+            self.modpack_list.lb_modpack_versions.insert(tk.END, *data)
+
+
 
     def show(self) -> None:
         """method used to show the widget's elements and its child widgets"""
@@ -368,33 +494,75 @@ class ModPackFrame(tk.LabelFrame):
 
     def populate_data(self, data: Any) -> None:
         """method used to populate the widget from parent"""
-        pass
+        self.modpack_list.populate_data(data)
 
 
 class ModpackList(tk.LabelFrame):
     """Widget ruling the list of modpack versions"""
 
-    def __init__(self, master: Any, frame_name: str, **kwargs: Any) -> None:
+    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Callable[[...], None]],
+                 **kwargs: Any) -> None:
         tk.LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding, self.ypadding = 0, 20  # todo: tune this
-        self.lb_modpack_versions = tk.Listbox(self)
-        self.btn_load = tk.Button(self, text="Load version")
-        self.btn_del = tk.Button(self, text="Delete version")
+        self.lb_modpack_versions = tk.Listbox(self, exportselection=False)
+        self.lb_modpack_versions.bind('<<ListboxSelect>>', self.on_listbox_click)
+
+        self.btn_load = tk.Button(self, text="Load version", command=lambda: self.btn_load_command(callbacks["load"]))
+        self.btn_del = tk.Button(self, text="Delete version", command=lambda: self.btn_del_command(callbacks["delete"]))
+        self.sv_entry = tk.StringVar(self)
+        self.entry = tk.Entry(self, textvariable=self.sv_entry)
+        self.btn_add = tk.Button(self, text="add/update", command=lambda: self.btn_add_command(callbacks["add"]))
 
     def show(self) -> None:
         """method used to show the widget's elements and its child widgets"""
         self.columnconfigure(0, weight=1, pad=self.ypadding)
         self.columnconfigure(1, weight=1, pad=self.ypadding)
         self.rowconfigure(0, weight=1, pad=self.xpadding)
-        self.rowconfigure(0, weight=1, pad=self.xpadding)
+        self.rowconfigure(1, weight=1, pad=self.xpadding)
+        self.rowconfigure(2, weight=1, pad=self.xpadding)
 
         self.lb_modpack_versions.grid(row=0, column=0, columnspan=2, sticky="WE")
         self.btn_load.grid(row=1, column=0, sticky="WE")
         self.btn_del.grid(row=1, column=1, sticky="WE")
+        self.entry.grid(row=2, column=0, sticky="WE")
+        self.btn_add.grid(row=2, column=1, sticky="WE")
 
-    def populate_data(self, data: Any) -> None:
+    def on_listbox_click(self, event: Any):
+        """Method used to fill the entry widget when a modpack version is selected"""
+        index: int = self.lb_modpack_versions.curselection()[0]
+        self.sv_entry.set(self.lb_modpack_versions.get(index))
+
+    def btn_load_command(self, callback=None):
+        """method used when the loading button gets clicked on"""
+        if self.lb_modpack_versions.curselection():
+            index: int = self.lb_modpack_versions.curselection()[0]
+            release_name = self.lb_modpack_versions.get(index)
+
+            if callback is not None:
+                callback(release_name)
+
+    def btn_add_command(self, callback=None):
+        """method used when the add/update button gets clicked on"""
+        release_name: str = self.sv_entry.get()
+        if release_name != "":
+            if callback is not None:
+                callback(release_name)
+
+            self.lb_modpack_versions.insert(tk.END, release_name)
+
+    def btn_del_command(self, callback=None):
+        sel: Tuple = self.lb_modpack_versions.curselection()
+        if sel:
+            index: int = sel[0]
+            release_name: str = self.lb_modpack_versions.get(index)
+            self.lb_modpack_versions.delete(index)
+            if callback is not None:
+                callback(release_name)
+
+    def populate_data(self, data: List[GTNHRelease]) -> None:
         """method used to populate the widget from parent"""
-        pass
+        for release in data:
+            self.lb_modpack_versions.insert(tk.END, release.version)
 
 
 class ActionFrame(tk.LabelFrame):
@@ -418,6 +586,8 @@ class ActionFrame(tk.LabelFrame):
         self.btn_client_modrinth = tk.Button(self, text="client archive", command=callbacks["client_modrinth"])
         self.btn_server_modrinth = tk.Button(self, text="server archive", command=callbacks["server_modrinth"])
         self.btn_generate_all = tk.Button(self, text="generate all", command=callbacks["generate_all"])
+        self.btn_update_nightly = tk.Button(self, text="update nightly", command=callbacks["generate_nightly"])
+        self.btn_update_assets = tk.Button(self, text="update assets", command=callbacks["update_assets"])
 
         progress_bar_length = 500
         self.pb_global = ttk.Progressbar(self, orient="horizontal", mode="determinate", length=progress_bar_length)
@@ -459,6 +629,8 @@ class ActionFrame(tk.LabelFrame):
         self.btn_client_mmc.grid(row=x + 5, column=y + 3, sticky="WE")
         self.btn_server_mmc.grid(row=x + 6, column=y + 3, sticky="WE")
         self.btn_generate_all.grid(row=x + 7, column=y + 1, columnspan=2)
+        self.btn_update_nightly.grid(row=x + 7, column=y, columnspan=2)
+        self.btn_update_assets.grid(row=x + 7, column=y + 2, columnspan=2)
 
 
 class ExclusionFrame(tk.LabelFrame):
@@ -467,7 +639,7 @@ class ExclusionFrame(tk.LabelFrame):
     def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Callable[[], None]], **kwargs: Any) -> None:
         tk.LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding, self.ypadding = 0, 20  # todo: tune this
-        self.listbox = tk.Listbox(self)
+        self.listbox = tk.Listbox(self, exportselection=False)
         self.sv_entry = tk.StringVar(value="")
         self.entry = tk.Entry(self, textvariable=self.sv_entry)
         self.btn_add = tk.Button(self, text="add new exclusion", command=self.add)
