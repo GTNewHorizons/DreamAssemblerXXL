@@ -23,10 +23,11 @@ from gtnh.defs import (
     MAVEN_BASE_URL,
     OTHER,
     RED_CROSS,
+    RELEASE_MANIFEST_DIR,
     ROOT_DIR,
     UNKNOWN,
     ModSource,
-    Side, RELEASE_MANIFEST_DIR,
+    Side,
 )
 from gtnh.exceptions import RepoNotFoundException
 from gtnh.github.uri import latest_release_uri, org_repos_uri, repo_releases_uri, repo_uri
@@ -307,11 +308,11 @@ class GTNHModpackManager:
 
         return GTNHRelease(version=version, config=config, github_mods=github_mods, external_mods=external_mods)
 
-    def delete_release(self, release_name: str):
+    def delete_release(self, release_name: str) -> None:
         release = self.get_release(release_name)
         if release:
             manifest_path = RELEASE_MANIFEST_DIR / (release.version + ".json")
-            manifest_path.unlink(missing_ok=True) # file deletion
+            manifest_path.unlink(missing_ok=True)  # file deletion
             self.mod_pack.releases.remove(release_name)
             self.save_modpack()
 
@@ -386,7 +387,6 @@ class GTNHModpackManager:
                 f.write(dumped)
         else:
             log.error("Save aborted, empty save result")
-
 
     def save_assets(self) -> None:
         """

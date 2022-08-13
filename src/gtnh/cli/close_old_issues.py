@@ -17,7 +17,7 @@ log = get_logger(__name__)
 async def close_old_issues() -> None:
     async with httpx.AsyncClient(http2=True) as client:
         gh = GitHubAPI(client, "DreamAssemblerXXL", oauth_token=get_github_token())
-        log.info(f"Closing older issues")
+        log.info("Closing older issues")
         org = "GTNewHorizons"
         repo = "GT-New-Horizons-Modpack"
         issues = gh.getiter(repo_issues_uri(org, repo))
@@ -29,7 +29,7 @@ async def close_old_issues() -> None:
                     gh.patch(
                         repo_issues_uri(org, repo, issue.number),
                         data={
-                            "labels": list(set(l.get("name") for l in issue.labels) | {"Status: stale", "Comment to reopen"}),
+                            "labels": list(set(label.get("name") for label in issue.labels) | {"Status: stale", "Comment to reopen"}),
                             "state": "closed",
                             "state_reason": "not_planned",
                         },
@@ -49,7 +49,7 @@ def display(issue: AttributeDict) -> str:
     return f"{issue.number} - {issue.title}"
 
 
-def log_reason(issue: AttributeDict, should_close: bool, reason: str):
+def log_reason(issue: AttributeDict, should_close: bool, reason: str) -> None:
     log.info(f""" {"Will" if should_close else "Won't"} close issue {display(issue)} - {reason}""")
 
 
