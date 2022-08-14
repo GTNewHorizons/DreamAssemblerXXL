@@ -646,6 +646,7 @@ class ModpackList(tk.LabelFrame):
             if callback is not None:
                 callback(release_name)
 
+        if not release_name in self.lb_modpack_versions.get(0, tk.END):
             self.lb_modpack_versions.insert(tk.END, release_name)
 
     def btn_del_command(self, callback: Optional[Callable[[str], None]] = None) -> None:
