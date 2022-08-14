@@ -749,7 +749,8 @@ class ActionFrame(tk.LabelFrame):
 
     def update_current_task_progress_bar(self, progress: float, data: str) -> None:
         self.pb_current_task["value"] += progress
-        self.label_pb_current_task.configure(text=data)
+        self.sv_pb_current_task.set(data)
+        self.update_idletasks()
 
     def show(self) -> None:
         """method used to show the widget's elements and its child widgets"""
