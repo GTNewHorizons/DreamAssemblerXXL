@@ -50,15 +50,15 @@ class Window(tk.Tk):
             "get_gtnh": self._get_modpack_manager,
             "get_github_mods": self.get_github_mods,
             "set_github_mod_version": self.set_github_mod_version,
-            "set_github_mod_side":lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)),
-            "set_modpack_version": self.set_modpack_version
+            "set_github_mod_side": lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)),
+            "set_modpack_version": self.set_modpack_version,
         }
 
         self.github_mod_frame = GithubModFrame(self, frame_name="github mods data", callbacks=github_frame_callbacks)
 
         # frame for the external mods
 
-        external_frame_callbacks = {"set_external_mod_version": self.set_external_mod_version, "set_external_mod_side":lambda name, side: None}
+        external_frame_callbacks = {"set_external_mod_version": self.set_external_mod_version, "set_external_mod_side": lambda name, side: None}
         self.external_mod_frame = ExternalModFrame(self, frame_name="external mod data", callbacks=external_frame_callbacks)
 
         # frame for the modpack handling
@@ -82,11 +82,12 @@ class Window(tk.Tk):
         # frame for the server side exclusions
         self.exclusion_frame_server = ExclusionFrame(self, "server exclusions", callbacks=exclusion_server_callbacks)
 
-    async def set_github_mod_side(self,mod_name:str, side:str) -> None:
+    async def set_github_mod_side(self, mod_name: str, side: str) -> None:
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         if not gtnh.set_github_mod_side(mod_name, side):
-            showerror("Error setting up the side of the mod",
-                      f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details")
+            showerror(
+                "Error setting up the side of the mod", f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details"
+            )
 
     def set_github_mod_version(self, github_mod_name: str, mod_version: str) -> None:
         """callback used when a github mod version is selected"""
@@ -285,7 +286,7 @@ class ModInfoFrame(tk.LabelFrame):
         self.cb_side = Combobox(self, textvariable=self.sv_side, values=[])
         self.cb_side.bind("<<ComboboxSelected>>", self.set_mod_side)
 
-    def set_mod_side(self, event:Any)->None:
+    def set_mod_side(self, event: Any) -> None:
         mod_name: str = self.sv_mod_name.get()
         if mod_name == "":
             raise ValueError("empty mod cannot have a side")
@@ -326,7 +327,6 @@ class ModInfoFrame(tk.LabelFrame):
         self.cb_version.set(data["current_version"])
         self.sv_license.set(data["license"])
         self.cb_side.set(data["side"])
-
 
 
 class GithubModList(tk.LabelFrame):
@@ -423,7 +423,7 @@ class GithubModFrame(tk.LabelFrame):
         modpack_version_callbacks = {"set_modpack_version": callbacks["set_modpack_version"]}
         self.modpack_version_frame = ModpackVersionFrame(self, frame_name="Modpack version", callbacks=modpack_version_callbacks)
 
-        mod_info_callbacks = {"set_mod_version": callbacks["set_github_mod_version"],"set_mod_side":callbacks["set_github_mod_side"]}
+        mod_info_callbacks = {"set_mod_version": callbacks["set_github_mod_version"], "set_mod_side": callbacks["set_github_mod_side"]}
 
         self.mod_info_frame = ModInfoFrame(self, frame_name="github mod info", callbacks=mod_info_callbacks)
 
@@ -525,7 +525,7 @@ class ExternalModFrame(tk.LabelFrame):
         self.xpadding = 0  # todo: tune this
         tk.LabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
-        mod_info_callbacks = {"set_mod_version": callbacks["set_external_mod_version"], "set_mod_side":callbacks["set_external_mod_side"]}
+        mod_info_callbacks = {"set_mod_version": callbacks["set_external_mod_version"], "set_mod_side": callbacks["set_external_mod_side"]}
         self.mod_info_frame = ModInfoFrame(self, frame_name="external mod info", callbacks=mod_info_callbacks)
         self.external_mod_list = ExternalModList(self, frame_name="external mod list")
 
