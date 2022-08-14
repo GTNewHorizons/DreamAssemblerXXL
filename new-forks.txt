@@ -1,0 +1,17 @@
+https://github.com/GTNewHorizons/BrandonsCore - MIT
+https://github.com/GTNewHorizons/ThaumicInventoryScanning - MIT
+https://www.curseforge.com/minecraft/mc-mods/player-api - LGPL - Needs Decompilation (or source)
+https://github.com/GTNewHorizons/OpenSecurity - MIT
+https://github.com/GTNewHorizons/OpenPrinter - MIT
+https://github.com/GTNewHorizons/NaturesCompass - Attribution-NonCommercial-ShareAlike 4.0 International
+https://github.com/GTNewHorizons/MouseTweaks - BSD 3-Clause
+https://github.com/GTNewHorizons/MalisisDoors - MIT
+https://github.com/GTNewHorizons/MalisisCore - MIT
+https://github.com/GTNewHorizons/itlt - MIT
+https://github.com/GTNewHorizons/FloodLights - LGPL 3.0
+https://github.com/GTNewHorizons/DummyCore - CC-SA
+https://github.com/GTNewHorizons/Custom-Main-Menu - MIT
+https://github.com/GTNewHorizons/CraftPresence - MIT
+https://github.com/GTNewHorizons/ChiselTones - Minecraft Mod Public License v2.0.2
+https://github.com/GTNewHorizons/CarpentersBlocks - LGPL
+
