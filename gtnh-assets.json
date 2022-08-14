@@ -5366,6 +5366,23 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-TC-Wands/"
     },
     {
+      "name": "GTNHLib",
+      "latest_version": "0.0.1",
+      "versions": [
+        {
+          "version_tag": "0.0.1",
+          "changelog": "## What's Changed\r\n* ItemStackMap by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/1\r\n\r\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/commits/0.0.1",
+          "tagged_at": "2022-08-13T22:10:24+00:00",
+          "filename": "gtnhlib-1.7.10-0.0.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/74631542",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.0.1/gtnhlib-1.7.10-0.0.1.jar"
+        }
+      ],
+      "license": "GNU Lesser General Public License v3.0",
+      "repo_url": "https://github.com/GTNewHorizons/GTNHLib",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNHLib/"
+    },
+    {
       "name": "GTplusplus",
       "latest_version": "1.7.62-pre",
       "versions": [

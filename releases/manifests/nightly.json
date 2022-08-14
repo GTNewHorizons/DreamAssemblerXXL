@@ -1,6 +1,6 @@
 {
   "version": "nightly",
-  "last_updated": "2022-08-14T17:40:02.047731",
+  "last_updated": "2022-08-14T17:41:42.081016",
   "config": "2.1.2.4-26-pre",
   "github_mods": {
     "AdventureBackpack2": "1.0.5-GTNH",
@@ -78,6 +78,7 @@
     "GTNEIOrePlugin": "1.0.15",
     "GTNH-Lanthanides": "0.9.7",
     "GTNH-TC-Wands": "1.2.6",
+    "GTNHLib": "0.0.1",
     "GTplusplus": "1.7.62-pre",
     "Guide-API": "1.0.2",
     "Hardcore-Ender-Expansion": "1.9.3-GTNH",
