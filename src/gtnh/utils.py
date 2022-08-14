@@ -1,3 +1,4 @@
+from bisect import bisect_left
 import itertools
 import os
 from functools import cache
@@ -110,3 +111,16 @@ def verify_url(url: str) -> bool:
     """
     parse_result = parse.urlparse(url)
     return parse_result.scheme in ["https", "http"] and parse_result.netloc != ""
+
+def index(elements_list:List[Any], element:Any) -> int:
+    """
+    Locate the leftmost value exactly equal to element in element_list.
+
+    :param elements_list: the list of element looked into
+    :param element: the element looked for
+    :return: the position of element in elements_list
+    """
+    i = bisect_left(elements_list, element)
+    if i != len(elements_list) and elements_list[i] == element:
+        return i
+    raise ValueError
