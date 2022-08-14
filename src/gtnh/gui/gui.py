@@ -7,6 +7,7 @@ from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 
 import httpx
 
+from gtnh.assembler.assembler import ReleaseAssembler
 from gtnh.defs import Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
@@ -25,7 +26,7 @@ class App:
         Coroutine used to run all the stuff
         """
         self.instance = Window(asyncio.get_event_loop())
-        self.instance.modpack_list_frame.action_frame.pb_current_task["value"] = 69
+
         await self.instance.run()
 
 
@@ -39,8 +40,9 @@ class Window(tk.Tk):
         self._modpack_manager: Optional[GTNHModpackManager] = None
 
         self.github_mods: Dict[str, str] = {}
-        self.gtnh_config: str = ""
+        self.gtnh_config: str = ""  # modpack asset version
         self.external_mods: Dict[str, str] = {}
+        self.version: str = ""  # modpack release name
 
         self.init: bool = False
         self.protocol("WM_DELETE_WINDOW", lambda: asyncio.ensure_future(self.close_app()))
@@ -68,6 +70,8 @@ class Window(tk.Tk):
             "delete": lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)),
             "update_assets": lambda: asyncio.ensure_future(self.update_assets()),
             "generate_nightly": lambda: asyncio.ensure_future(self.generate_nightly()),
+            "client_mmc": lambda: asyncio.ensure_future(self.assemble_mmc_release("CLIENT")),
+            "server_mmc": lambda: asyncio.ensure_future(self.assemble_mmc_release("SERVER")),
         }
 
         self.modpack_list_frame = ModPackFrame(self, frame_name="modpack release actions", callbacks=modpack_list_callbacks)
@@ -87,6 +91,12 @@ class Window(tk.Tk):
 
         # frame for the server side exclusions
         self.exclusion_frame_server = ExclusionFrame(self, "server exclusions", callbacks=exclusion_server_callbacks)
+
+    async def assemble_mmc_release(self, side: str) -> None:
+        gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        release: GTNHRelease = GTNHRelease(version=self.version, config=self.gtnh_config, github_mods=self.github_mods, external_mods=self.external_mods)
+        await gtnh.download_release(release, callback=self.modpack_list_frame.action_frame.update_current_task_progress_bar)
+        ReleaseAssembler(gtnh, release).assemble(Side[side], verbose=True)
 
     async def add_exclusion(self, side: str, exclusion: str) -> None:
         """method used to set the exclusions for the modpack"""
@@ -200,6 +210,7 @@ class Window(tk.Tk):
             self.github_mods = release_object.github_mods
             self.gtnh_config = release_object.config
             self.external_mods = release_object.external_mods
+            self.version = release_object.version
         else:
             showerror("incorrect version detected", f"modpack version {release} doesn't exist")
             return
@@ -278,6 +289,7 @@ class Window(tk.Tk):
             self.exclusion_frame_client.populate_data({"exclusions": await self.get_modpack_exclusions("client")})
         while True:
             self.update()
+            self.update_idletasks()
             await asyncio.sleep(ASYNC_SLEEP)
 
     async def close_app(self) -> None:
@@ -586,11 +598,11 @@ class ModPackFrame(tk.LabelFrame):
         action_callbacks = {
             "client_cf": lambda: None,
             "client_modrinth": lambda: None,
-            "client_mmc": lambda: None,
+            "client_mmc": callbacks["client_mmc"],
             "client_technic": lambda: None,
             "server_cf": lambda: None,
             "server_modrinth": lambda: None,
-            "server_mmc": lambda: None,
+            "server_mmc": callbacks["server_mmc"],
             "server_technic": lambda: None,
             "generate_all": lambda: None,
             "generate_nightly": self.update_nightly,
@@ -734,6 +746,10 @@ class ActionFrame(tk.LabelFrame):
     def populate_data(self, data: Any) -> None:
         """method used to populate the widget from parent"""
         pass
+
+    def update_current_task_progress_bar(self, progress: float, data: str) -> None:
+        self.pb_current_task["value"] += progress
+        self.label_pb_current_task.configure(text=data)
 
     def show(self) -> None:
         """method used to show the widget's elements and its child widgets"""
