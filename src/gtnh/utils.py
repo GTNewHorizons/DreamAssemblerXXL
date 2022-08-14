@@ -1,6 +1,6 @@
-from bisect import bisect_left
 import itertools
 import os
+from bisect import bisect_left
 from functools import cache
 from pathlib import Path
 from shutil import copy, rmtree
@@ -112,7 +112,8 @@ def verify_url(url: str) -> bool:
     parse_result = parse.urlparse(url)
     return parse_result.scheme in ["https", "http"] and parse_result.netloc != ""
 
-def index(elements_list:List[Any], element:Any) -> int:
+
+def index(elements_list: List[Any], element: Any) -> int:
     """
     Locate the leftmost value exactly equal to element in element_list.
 

@@ -555,8 +555,8 @@ class GTNHModpackManager:
             log.error(f"Release `{Fore.RED}{mod_name} is not a github mod{Fore.RESET}")
             return False
 
-    def add_exclusion(self, side:str, exclusion:str) -> bool:
-        if side=="client":
+    def add_exclusion(self, side: str, exclusion: str) -> bool:
+        if side == "client":
             if exclusion in self.mod_pack.client_exclusions:
                 log.warn(f"{Fore.YELLOW}{exclusion} is already in {side} side exclusions{Fore.RESET}")
                 return False
@@ -565,7 +565,7 @@ class GTNHModpackManager:
                 log.info(f"{Fore.GREEN}{exclusion} has been added to {side} side exclusions{Fore.RESET}")
                 return True
 
-        if side=="server":
+        if side == "server":
             if exclusion in self.mod_pack.server_exclusions:
                 log.warn(f"{Fore.YELLOW}{exclusion} is already in {side} side exclusions{Fore.RESET}")
                 return False
@@ -576,8 +576,8 @@ class GTNHModpackManager:
         else:
             raise ValueError(f"{side} isn't a valid side")
 
-    def delete_exclusion(self, side:str, exclusion:str) -> bool:
-        if side=="client":
+    def delete_exclusion(self, side: str, exclusion: str) -> bool:
+        if side == "client":
             if exclusion not in self.mod_pack.client_exclusions:
                 log.warn(f"{Fore.YELLOW}{exclusion} is not in {side} side exclusions{Fore.RESET}")
                 return False
@@ -587,7 +587,7 @@ class GTNHModpackManager:
                 log.info(f"{Fore.GREEN}{exclusion} has been removed from {side} side exclusions{Fore.RESET}")
                 return True
 
-        if side=="server":
+        if side == "server":
             if exclusion not in self.mod_pack.server_exclusions:
                 log.warn(f"{Fore.YELLOW}{exclusion} is not in {side} side exclusions{Fore.RESET}")
                 return False

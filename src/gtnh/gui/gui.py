@@ -72,33 +72,39 @@ class Window(tk.Tk):
 
         self.modpack_list_frame = ModPackFrame(self, frame_name="modpack release actions", callbacks=modpack_list_callbacks)
 
-        exclusion_client_callbacks = {"add": lambda exclusion: asyncio.ensure_future(self.add_exclusion("client", exclusion)), "del": lambda exclusion: asyncio.ensure_future(self.del_exclusion("client", exclusion))}
+        exclusion_client_callbacks = {
+            "add": lambda exclusion: asyncio.ensure_future(self.add_exclusion("client", exclusion)),
+            "del": lambda exclusion: asyncio.ensure_future(self.del_exclusion("client", exclusion)),
+        }
 
         # frame for the client file exclusions
         self.exclusion_frame_client = ExclusionFrame(self, "client exclusions", callbacks=exclusion_client_callbacks)
 
-        exclusion_server_callbacks = {"add": lambda exclusion: asyncio.ensure_future(self.add_exclusion("server", exclusion)), "del": lambda exclusion: asyncio.ensure_future(self.del_exclusion("server", exclusion))}
+        exclusion_server_callbacks = {
+            "add": lambda exclusion: asyncio.ensure_future(self.add_exclusion("server", exclusion)),
+            "del": lambda exclusion: asyncio.ensure_future(self.del_exclusion("server", exclusion)),
+        }
 
         # frame for the server side exclusions
         self.exclusion_frame_server = ExclusionFrame(self, "server exclusions", callbacks=exclusion_server_callbacks)
 
-    async def add_exclusion(self, side:str, exclusion: str) -> None:
+    async def add_exclusion(self, side: str, exclusion: str) -> None:
         """method used to set the exclusions for the modpack"""
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         gtnh.add_exclusion(side, exclusion)
         gtnh.save_modpack()
 
-    async def del_exclusion(self, side:str, exclusion: str) -> None:
+    async def del_exclusion(self, side: str, exclusion: str) -> None:
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         gtnh.delete_exclusion(side, exclusion)
         gtnh.save_modpack()
 
-    async def get_modpack_exclusions(self, side:str) -> List[str]:
+    async def get_modpack_exclusions(self, side: str) -> List[str]:
         """method used to gather the file exclusions of the modpack"""
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        if side=="client":
+        if side == "client":
             return sorted([exclusion for exclusion in gtnh.mod_pack.client_exclusions])
-        elif side=="server":
+        elif side == "server":
             return sorted([exclusion for exclusion in gtnh.mod_pack.server_exclusions])
         else:
             raise ValueError(f"side {side} is an invalid side")
@@ -762,7 +768,7 @@ class ActionFrame(tk.LabelFrame):
 class ExclusionFrame(tk.LabelFrame):
     """Widget ruling the exclusion file list"""
 
-    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Callable[[], None]], **kwargs: Any) -> None:
+    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Any], **kwargs: Any) -> None:
         tk.LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding, self.ypadding = 0, 20  # todo: tune this
         self.listbox = tk.Listbox(self, exportselection=False)
@@ -773,7 +779,7 @@ class ExclusionFrame(tk.LabelFrame):
         self.add_callback = callbacks["add"]
         self.del_callback = callbacks["del"]
 
-    def add_to_list_sorted(self, elem):
+    def add_to_list_sorted(self, elem: str) -> None:
         exclusions = list(self.listbox.get(0, tk.END))
         if elem in exclusions:
             return
@@ -784,14 +790,12 @@ class ExclusionFrame(tk.LabelFrame):
 
     def add(self) -> None:
         """Method called when self.btn_add is triggered"""
-        exclusion:str = self.sv_entry.get()
+        exclusion: str = self.sv_entry.get()
         if exclusion == "":
             return
 
         self.add_to_list_sorted(exclusion)
         self.add_callback(exclusion)
-
-
 
     def delete(self) -> None:
         """Method called when self.btn_del is triggered"""
@@ -816,7 +820,7 @@ class ExclusionFrame(tk.LabelFrame):
         self.btn_add.grid(row=x + 2, column=y, sticky="WE")
         self.btn_del.grid(row=x + 2, column=y + 1, sticky="WE")
 
-    def populate_data(self, data:Dict[str, any]) -> None:
+    def populate_data(self, data: Dict[str, Any]) -> None:
         """method used to populate the widget from parent"""
         self.listbox.insert(tk.END, *data["exclusions"])
 
