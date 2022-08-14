@@ -522,3 +522,36 @@ class GTNHModpackManager:
         downloaded: list[Path] = [d for d in await asyncio.gather(*downloaders) if d is not None]
 
         return downloaded
+
+    def set_github_mod_side(self, mod_name:str, side:str) -> bool:
+        if self.assets.has_github_mod(mod_name):
+            mod:GTNHModInfo = self.assets.get_github_mod(mod_name)
+        else:
+            log.error(f"Release `{Fore.RED}{mod_name} is not a github mod{Fore.RESET}")
+            return False
+
+        if mod.side==side:
+            log.warn(f"{Fore.YELLOW}{mod.name}'s side is already set to {side}{Fore.RESET}")
+            return False
+
+        if side in [side.name for side in Side]:
+            mod.side = side
+            # idk a better way of doing this
+            index:int = 0
+            for i, elem in enumerate(self.assets.github_mods):
+                if elem.name != mod.name:
+                    continue
+
+                index = i
+                break
+
+            self.assets.github_mods[index]=mod
+            self.save_assets()
+            self.assets = self.load_assets() # doing that to update cached properties
+
+            log.info(f"{Fore.GREEN}Side of {mod.name} has been set to {mod.side}{Fore.RESET}")
+            return True
+        else:
+            log.error(f"Release `{Fore.RED}{mod_name} is not a github mod{Fore.RESET}")
+            return False
+
