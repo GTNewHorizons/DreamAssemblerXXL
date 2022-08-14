@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showerror, showinfo
 from tkinter.ttk import Combobox
-from typing import Any, Callable, Coroutine, Dict, List, Optional, Tuple, Union
+from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 
 import httpx
 
@@ -50,23 +50,15 @@ class Window(tk.Tk):
             "get_gtnh": self._get_modpack_manager,
             "get_github_mods": self.get_github_mods,
             "set_github_mod_version": self.set_github_mod_version,
-            "set_modpack_version": self.set_modpack_version
+            "set_modpack_version": self.set_modpack_version,
         }
 
-        self.github_mod_frame = GithubModFrame(
-            self,
-            frame_name="github mods data",
-            callbacks=github_frame_callbacks
-        )
+        self.github_mod_frame = GithubModFrame(self, frame_name="github mods data", callbacks=github_frame_callbacks)
 
         # frame for the external mods
 
-        external_frame_callbacks = {
-            "set_external_mod_version": self.set_external_mod_version
-        }
-        self.external_mod_frame = ExternalModFrame(self,
-                                                   frame_name="external mod data",
-                                                   callbacks=external_frame_callbacks)
+        external_frame_callbacks = {"set_external_mod_version": self.set_external_mod_version}
+        self.external_mod_frame = ExternalModFrame(self, frame_name="external mod data", callbacks=external_frame_callbacks)
 
         # frame for the modpack handling
         modpack_list_callbacks = {
@@ -77,21 +69,14 @@ class Window(tk.Tk):
             "generate_nightly": lambda: asyncio.ensure_future(self.generate_nightly()),
         }
 
-        self.modpack_list_frame = ModPackFrame(self, frame_name="modpack release actions",
-                                               callbacks=modpack_list_callbacks)
+        self.modpack_list_frame = ModPackFrame(self, frame_name="modpack release actions", callbacks=modpack_list_callbacks)
 
-        exclusion_client_callbacks = {
-            "add": lambda: None,
-            "del": lambda: None
-        }
+        exclusion_client_callbacks = {"add": lambda: None, "del": lambda: None}
 
         # frame for the client file exclusions
         self.exclusion_frame_client = ExclusionFrame(self, "client exclusions", callbacks=exclusion_client_callbacks)
 
-        exclusion_server_callbacks = {
-            "add": lambda: None,
-            "del": lambda: None
-        }
+        exclusion_server_callbacks = {"add": lambda: None, "del": lambda: None}
 
         # frame for the server side exclusions
         self.exclusion_frame_server = ExclusionFrame(self, "server exclusions", callbacks=exclusion_server_callbacks)
@@ -192,8 +177,7 @@ class Window(tk.Tk):
 
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
 
-        release = GTNHRelease(version=release_name, config=self.gtnh_config, github_mods=self.github_mods,
-                              external_mods=self.external_mods)
+        release = GTNHRelease(version=release_name, config=self.gtnh_config, github_mods=self.github_mods, external_mods=self.external_mods)
         if gtnh.add_release(release, update=True):
             gtnh.save_modpack()
             showinfo("release successfully generated", f"modpack version {release_name} successfully generated!")
@@ -250,10 +234,7 @@ class Window(tk.Tk):
                 await self.load_gtnh_version(releases[-1], init=True)
             data = {
                 "github_mod_list": await self.get_repos(),
-                "modpack_version_frame": {
-                    "combobox": await self.get_modpack_version(),
-                    "stringvar": self.gtnh_config
-                }
+                "modpack_version_frame": {"combobox": await self.get_modpack_version(), "stringvar": self.gtnh_config},
             }
 
             self.github_mod_frame.populate_data(data)
@@ -275,11 +256,7 @@ class ModInfoFrame(tk.LabelFrame):
     Widget used to display info about a mod passed to it
     """
 
-    def __init__(self,
-                 master: Any,
-                 frame_name: str,
-                 callbacks: Dict[str, Callable[[str, str], None]],
-                 **kwargs: Any):
+    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Callable[[str, str], None]], **kwargs: Any):
         tk.LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.ypadding = 5  # todo: tune this
         self.xpadding = 0  # todo: tune this
@@ -300,7 +277,7 @@ class ModInfoFrame(tk.LabelFrame):
         self.label_license_value = tk.Label(self, textvariable=self.sv_license)
         self.cb_side = Combobox(self, textvariable=self.sv_side, values=[side.value for side in Side])
 
-    def set_mod_version(self, event: Any):
+    def set_mod_version(self, event: Any) -> None:
         mod_name: str = self.sv_mod_name.get()
         if mod_name == "":
             raise ValueError("empty mod cannot have a version")
@@ -341,11 +318,11 @@ class GithubModList(tk.LabelFrame):
     """
 
     def __init__(
-            self,
-            master: Any,
-            frame_name: str,
-            callbacks: Dict[str, Any],
-            **kwargs: Any,
+        self,
+        master: Any,
+        frame_name: str,
+        callbacks: Dict[str, Any],
+        **kwargs: Any,
     ):
         tk.LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.get_gtnh_callback = callbacks["get_gtnh"]
@@ -396,8 +373,7 @@ class GithubModList(tk.LabelFrame):
         name: str = mod_info.name
         mod_versions: list[GTNHVersion] = mod_info.versions
 
-        current_version = self.get_github_mods_callback()[
-            name] if name in self.get_github_mods_callback() else mod_info.get_latest_version()
+        current_version = self.get_github_mods_callback()[name] if name in self.get_github_mods_callback() else mod_info.get_latest_version()
         license: str = mod_info.license or "No license detected"
         side: str = mod_info.side
 
@@ -418,41 +394,29 @@ class GithubModFrame(tk.LabelFrame):
     """
 
     def __init__(
-            self,
-            master: Any,
-            frame_name: str,
-            callbacks: Dict[str, Any],
-            **kwargs: Any,
+        self,
+        master: Any,
+        frame_name: str,
+        callbacks: Dict[str, Any],
+        **kwargs: Any,
     ):
         tk.LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.ypadding = 100  # todo: tune this
         self.xpadding = 0  # todo: tune this
-        modpack_version_callbacks = {
-            "set_modpack_version": callbacks["set_modpack_version"]
-        }
-        self.modpack_version_frame = ModpackVersionFrame(self,
-                                                         frame_name="Modpack version",
-                                                         callbacks=modpack_version_callbacks)
+        modpack_version_callbacks = {"set_modpack_version": callbacks["set_modpack_version"]}
+        self.modpack_version_frame = ModpackVersionFrame(self, frame_name="Modpack version", callbacks=modpack_version_callbacks)
 
-        mod_info_callbacks = {
-            "set_mod_version": callbacks["set_github_mod_version"]
-        }
+        mod_info_callbacks = {"set_mod_version": callbacks["set_github_mod_version"]}
 
-        self.mod_info_frame = ModInfoFrame(self,
-                                           frame_name="github mod info",
-                                           callbacks=mod_info_callbacks)
+        self.mod_info_frame = ModInfoFrame(self, frame_name="github mod info", callbacks=mod_info_callbacks)
 
         github_mod_list_callbacks = {
             "mod_info": self.mod_info_frame.populate_data,
             "get_github_mods": callbacks["get_github_mods"],
-            "get_gtnh": callbacks["get_gtnh"]
+            "get_gtnh": callbacks["get_gtnh"],
         }
 
-        self.github_mod_list = GithubModList(
-            self,
-            frame_name="github mod list",
-            callbacks=github_mod_list_callbacks
-        )
+        self.github_mod_list = GithubModList(self, frame_name="github mod list", callbacks=github_mod_list_callbacks)
 
     def show(self) -> None:
         """method used to show the widget's elements and its child widgets"""
@@ -478,24 +442,17 @@ class GithubModFrame(tk.LabelFrame):
 
 class ModpackVersionFrame(tk.LabelFrame):
     """
-       Widget ruling all the github related mods
-       """
+    Widget ruling all the github related mods
+    """
 
-    def __init__(
-            self,
-            master: Any,
-            frame_name: str,
-            callbacks: Dict[str, Callable[[str], None]],
-            **kwargs: Any
-    ):
+    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Callable[[str], None]], **kwargs: Any):
         tk.LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.ypadding = 100  # todo: tune this
         self.xpadding = 0  # todo: tune this
         self.label_modpack_version = tk.Label(self, text="Modpack_version:")
         self.sv_version = tk.StringVar(value="")
         self.cb_modpack_version = Combobox(self, textvariable=self.sv_version, values=[])
-        self.cb_modpack_version.bind('<<ComboboxSelected>>',
-                                     lambda event: callbacks["set_modpack_version"](self.sv_version.get()))
+        self.cb_modpack_version.bind("<<ComboboxSelected>>", lambda event: callbacks["set_modpack_version"](self.sv_version.get()))
 
     def show(self) -> None:
         """method used to show the widget's elements and its child widgets"""
@@ -551,11 +508,8 @@ class ExternalModFrame(tk.LabelFrame):
         self.xpadding = 0  # todo: tune this
         tk.LabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
-        mod_info_callbacks = {
-            "set_mod_version": callbacks["set_external_mod_version"]
-        }
-        self.mod_info_frame = ModInfoFrame(self, frame_name="external mod info",
-                                           callbacks=mod_info_callbacks)
+        mod_info_callbacks = {"set_mod_version": callbacks["set_external_mod_version"]}
+        self.mod_info_frame = ModInfoFrame(self, frame_name="external mod info", callbacks=mod_info_callbacks)
         self.external_mod_list = ExternalModList(self, frame_name="external mod list")
 
     def show(self) -> None:
@@ -599,11 +553,7 @@ class ModPackFrame(tk.LabelFrame):
         }
         self.action_frame = ActionFrame(self, frame_name="availiable tasks", callbacks=action_callbacks)
 
-        modpack_list_callbacks = {
-            "load": callbacks["load"],
-            "delete": callbacks["delete"],
-            "add": callbacks["add"]
-        }
+        modpack_list_callbacks = {"load": callbacks["load"], "delete": callbacks["delete"], "add": callbacks["add"]}
 
         self.modpack_list = ModpackList(self, frame_name="Modpack Versions", callbacks=modpack_list_callbacks)
 
@@ -685,7 +635,7 @@ class ModpackList(tk.LabelFrame):
             if callback is not None:
                 callback(release_name)
 
-        if not release_name in self.lb_modpack_versions.get(0, tk.END):
+        if release_name not in self.lb_modpack_versions.get(0, tk.END):
             self.lb_modpack_versions.insert(tk.END, release_name)
 
     def btn_del_command(self, callback: Optional[Callable[[str], None]] = None) -> None:
@@ -732,8 +682,7 @@ class ActionFrame(tk.LabelFrame):
         self.sv_pb_global = tk.StringVar(self, value="current task: Coding DreamAssemblerXXL")
         self.label_pb_global = tk.Label(self, textvariable=self.sv_pb_global)
 
-        self.pb_current_task = ttk.Progressbar(self, orient="horizontal", mode="determinate",
-                                               length=progress_bar_length)
+        self.pb_current_task = ttk.Progressbar(self, orient="horizontal", mode="determinate", length=progress_bar_length)
         self.sv_pb_current_task = tk.StringVar(self, value="doing stuff")
         self.label_pb_current_task = tk.Label(self, textvariable=self.sv_pb_current_task)
 
