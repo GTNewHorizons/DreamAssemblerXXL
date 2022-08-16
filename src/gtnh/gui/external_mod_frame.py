@@ -130,7 +130,7 @@ class ExternalModFrame(LabelFrame):
         :param callbacks: a dict of callbacks passed to this instance
         :param kwargs: params to init the parent class
         """
-        self.ypadding: int = 20  # todo:tune this
+        self.ypadding: int = 0  # todo:tune this
         self.xpadding: int = 0  # todo: tune this
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
 

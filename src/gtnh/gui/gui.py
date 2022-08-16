@@ -113,7 +113,10 @@ class Window(Tk):
             self, "server exclusions", callbacks=exclusion_server_callbacks
         )
 
-        self.btn_debug = Button(text="update", command=self.github_mod_frame.update_widget)
+        width: int = self.github_mod_frame.get_width()
+        self.external_mod_frame.set_width(width)
+
+        self.btn_debug = Button(text="update", command=self.external_mod_frame.update_widget)
 
     async def assemble_mmc_release(self, side: str) -> None:
         """

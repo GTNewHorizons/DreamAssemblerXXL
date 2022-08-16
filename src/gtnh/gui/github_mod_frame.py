@@ -185,6 +185,7 @@ class GithubModFrame(LabelFrame):
         master: Any,
         frame_name: str,
         callbacks: Dict[str, Any],
+        width: Optional[int]=None,
         **kwargs: Any,
     ):
         """
@@ -198,6 +199,7 @@ class GithubModFrame(LabelFrame):
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.ypadding: int = 0  # todo: tune this
         self.xpadding: int = 0  # todo: tune this
+        self.width: Optional[int] = width
 
         modpack_version_callbacks: Dict[str, Any] = {"set_modpack_version": callbacks["set_modpack_version"]}
 
@@ -224,10 +226,46 @@ class GithubModFrame(LabelFrame):
             self, frame_name="github mod list", callbacks=github_mod_list_callbacks
         )
 
-        width: int = self.github_mod_list.get_width()
-        self.mod_info_frame.set_width(width)
-        self.modpack_version_frame.set_width(width)
+        if self.width is None:
+            self.width = self.github_mod_list.get_width()
+        else:
+            self.github_mod_list.set_width(self.width)
+
+        self.mod_info_frame.set_width(self.width)
+        self.modpack_version_frame.set_width(self.width)
+
         self.update_widget()
+
+
+    def configure_widgets(self) -> None:
+        """
+        Method to configure the widgets.
+
+        :return: None
+        """
+        self.mod_info_frame.configure_widgets()
+        self.modpack_version_frame.configure_widgets()
+        self.github_mod_list.configure_widgets()
+
+    def set_width(self, width: int) -> None:
+        """
+        Method to set the widgets' width.
+
+        :param width: the new width
+        :return: None
+        """
+        self.width = width
+        self.mod_info_frame.set_width(self.width)
+        self.modpack_version_frame.set_width(self.width)
+        self.github_mod_list.set_width(self.width)
+
+    def get_width(self) -> int:
+        """
+        Getter for self.width.
+
+        :return: the width in character sizes of the normalised widgets
+        """
+        return self.width
 
     def update_widget(self) -> None:
         """
