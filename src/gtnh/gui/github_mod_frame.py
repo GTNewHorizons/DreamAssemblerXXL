@@ -107,7 +107,7 @@ class GithubModList(LabelFrame):
         self.btn_add.grid_forget()
         self.btn_rem.grid_forget()
 
-        self.master.update_idletasks()
+        self.update_idletasks()
 
     def show(self) -> None:
         """
@@ -130,7 +130,7 @@ class GithubModList(LabelFrame):
         self.btn_add.grid(row=x + 2, column=y)
         self.btn_rem.grid(row=x + 2, column=y + 1, columnspan=2)
 
-        self.master.update_idletasks()
+        self.update_idletasks()
 
     def populate_data(self, data: List[str]) -> None:
         """
@@ -256,7 +256,7 @@ class GithubModFrame(LabelFrame):
         self.github_mod_list.hide()
         self.mod_info_frame.hide()
 
-        self.master.update_idletasks()
+        self.update_idletasks()
 
     def configure_widgets(self) -> None:
         """
@@ -280,11 +280,12 @@ class GithubModFrame(LabelFrame):
         self.modpack_version_frame.grid(row=0, column=0, sticky="WE")
         self.github_mod_list.grid(row=1, column=0)  # ref widget
         self.mod_info_frame.grid(row=2, column=0, sticky="WE")
-        self.master.update_idletasks()
 
         self.modpack_version_frame.show()
         self.github_mod_list.show()
         self.mod_info_frame.show()
+
+        self.update_idletasks()
 
     def populate_data(self, data: Dict[str, Any]) -> None:
         """
@@ -375,7 +376,7 @@ class ModpackVersionFrame(LabelFrame):
         self.label_modpack_version.grid_forget()
         self.cb_modpack_version.grid_forget()
 
-        self.master.update_idletasks()
+        self.update_idletasks()
 
     def show(self) -> None:
         """

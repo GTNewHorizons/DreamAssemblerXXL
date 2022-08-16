@@ -148,7 +148,7 @@ class ModInfoFrame(LabelFrame):
         self.label_side.grid_forget()
         self.cb_side.grid_forget()
 
-        self.master.update_idletasks()
+        self.update_idletasks()
 
     def show(self) -> None:
         """
@@ -172,6 +172,8 @@ class ModInfoFrame(LabelFrame):
         self.label_license_value.grid(row=x + 2, column=y + 1)
         self.label_side.grid(row=x + 3, column=y)
         self.cb_side.grid(row=x + 3, column=y + 1)
+
+        self.update_idletasks()
 
     def populate_data(self, data: Any) -> None:
         """

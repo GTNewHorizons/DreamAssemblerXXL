@@ -72,10 +72,10 @@ class ModpackFrame(LabelFrame):
         self.modpack_list.grid(row=0, column=0)
         self.action_frame.grid(row=0, column=1)
 
-        self.master.update_idletasks()
-
         self.modpack_list.show()
         self.action_frame.show()
+
+        self.update_idletasks()
 
     def populate_data(self, data: Any) -> None:
         """
@@ -118,6 +118,8 @@ class ModpackList(LabelFrame):
         self.sv_entry: StringVar = StringVar(self)
         self.entry: Entry = Entry(self, textvariable=self.sv_entry)
         self.btn_add: Button = Button(self, text="add/update", command=lambda: self.btn_add_command(callbacks["add"]))
+
+        self.update_idletasks()
 
     def show(self) -> None:
         """
@@ -339,3 +341,5 @@ class ActionFrame(LabelFrame):
         self.btn_generate_all.grid(row=x + 7, column=y + 1, columnspan=2)
         self.btn_update_nightly.grid(row=x + 7, column=y, columnspan=2)
         self.btn_update_assets.grid(row=x + 7, column=y + 2, columnspan=2)
+
+        self.update_idletasks()
