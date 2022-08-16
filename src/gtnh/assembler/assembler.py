@@ -18,7 +18,12 @@ log = get_logger(__name__)
 
 
 class ReleaseAssembler:
-    def __init__(self, mod_manager: GTNHModpackManager, release: GTNHRelease, callback: Optional[Callable[[float, str], None]] = None) -> None:
+    def __init__(
+        self,
+        mod_manager: GTNHModpackManager,
+        release: GTNHRelease,
+        callback: Optional[Callable[[float, str], None]] = None,
+    ) -> None:
         self.mod_manager = mod_manager
         self.release = release
         self.callback = callback
@@ -36,7 +41,15 @@ class ReleaseAssembler:
 
         archive_name = RELEASE_ZIP_DIR / f"GTNewHorizons-{side}-{self.release.version}.zip"
         get_mod = self.mod_manager.assets.get_mod_and_version
-        github_mods = list(filter(None, (get_mod(name, version, valid_sides, source=ModSource.github) for name, version in self.release.github_mods.items())))
+        github_mods = list(
+            filter(
+                None,
+                (
+                    get_mod(name, version, valid_sides, source=ModSource.github)
+                    for name, version in self.release.github_mods.items()
+                ),
+            )
+        )
 
         self.count = len(github_mods) + 1  # + len(self.release.external_mods)
         self.delta_progress = 100.0 / self.count
@@ -52,7 +65,9 @@ class ReleaseAssembler:
             self.add_mods(side, github_mods, archive, verbose=verbose)
             self.add_config(side, archive, verbose=verbose)
 
-    def add_mods(self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False) -> None:
+    def add_mods(
+        self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
+    ) -> None:
         for mod, version in mods:
             source_file = get_asset_version_cache_location(mod, version)
             self.update_progress(side, source_file, verbose=verbose)
@@ -64,7 +79,11 @@ class ReleaseAssembler:
         version = config.get_version(self.release.config)
         assert version
         config_file = get_asset_version_cache_location(config, version)
-        exclusions = self.mod_manager.mod_pack.client_exclusions if side == Side.CLIENT else self.mod_manager.mod_pack.server_exclusions
+        exclusions = (
+            self.mod_manager.mod_pack.client_exclusions
+            if side == Side.CLIENT
+            else self.mod_manager.mod_pack.server_exclusions
+        )
         with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
             self.update_progress(side, config_file, verbose=verbose)
 
@@ -77,7 +96,10 @@ class ReleaseAssembler:
 
     def update_progress(self, side: Side, source_file: Path, verbose: bool = False) -> None:
         if self.callback is not None:
-            self.callback(self.delta_progress, f"Packing {side.value} archive version {self.release.version}: {source_file}. Progress: {{0}}%")
+            self.callback(
+                self.delta_progress,
+                f"Packing {side.value} archive version {self.release.version}: {source_file}. Progress: {{0}}%",
+            )
         if verbose:
             self.progress += self.delta_progress
             log.info(f"({self.progress:3.0f}%) Adding `{Fore.GREEN}{source_file}{Fore.RESET}`")

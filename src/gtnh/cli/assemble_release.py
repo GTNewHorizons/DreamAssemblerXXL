@@ -18,7 +18,9 @@ def assemble_release(side: Side, release_name: str, verbose: bool) -> None:
     modpack_manager = GTNHModpackManager(AsyncClient(http2=True))
     release = modpack_manager.get_release(release_name)
     if not release:
-        log.error(f"Release `{Fore.LIGHTRED_EX}{release_name}{Fore.RESET}` not found! Error building {Fore.YELLOW}{side.value}{Fore.RESET} archive.")
+        log.error(
+            f"Release `{Fore.LIGHTRED_EX}{release_name}{Fore.RESET}` not found! Error building {Fore.YELLOW}{side.value}{Fore.RESET} archive."
+        )
         return
 
     ReleaseAssembler(modpack_manager, release).assemble(side, verbose=verbose)

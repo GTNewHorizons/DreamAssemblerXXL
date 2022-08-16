@@ -30,7 +30,10 @@ class GTNHRelease(GTNHBaseModel):
         for mod_name, mod_version in self.github_mods.items():
             mod = available_assets.get_github_mod(mod_name)
             if mod is None:
-                log.error(f"{RED_CROSS} {Fore.RED}Github Mod " f"`{Fore.CYAN}{mod_name}:{Fore.YELLOW}{mod_version}{Fore.RED}` not found!{Fore.RESET}")
+                log.error(
+                    f"{RED_CROSS} {Fore.RED}Github Mod "
+                    f"`{Fore.CYAN}{mod_name}:{Fore.YELLOW}{mod_version}{Fore.RED}` not found!{Fore.RESET}"
+                )
                 return False
 
             version = mod.get_version(mod_version)
@@ -41,7 +44,9 @@ class GTNHRelease(GTNHBaseModel):
                 )
                 return False
 
-            log.info(f"{GREEN_CHECK} Validated Github Mod `{Fore.CYAN}{mod_name}:{Fore.YELLOW}{mod_version}{Fore.RESET}`")
+            log.info(
+                f"{GREEN_CHECK} Validated Github Mod `{Fore.CYAN}{mod_name}:{Fore.YELLOW}{mod_version}{Fore.RESET}`"
+            )
 
         return True
 

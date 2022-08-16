@@ -62,7 +62,9 @@ def get_asset(release: AttributeDict, type: VersionableType) -> AttributeDict | 
             asset_name = asset_name.replace("-dev", "", 1)
 
         if type == VersionableType.mod:
-            if not asset_name.endswith(".jar") or any(asset_name.endswith(s) for s in ["dev.jar", "sources.jar", "api.jar", "api2.jar"]):
+            if not asset_name.endswith(".jar") or any(
+                asset_name.endswith(s) for s in ["dev.jar", "sources.jar", "api.jar", "api2.jar"]
+            ):
                 continue
         elif type == VersionableType.config:
             if not asset_name.endswith(".zip"):
