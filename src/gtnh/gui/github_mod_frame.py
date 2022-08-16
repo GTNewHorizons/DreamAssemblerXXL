@@ -185,7 +185,7 @@ class GithubModFrame(LabelFrame):
         master: Any,
         frame_name: str,
         callbacks: Dict[str, Any],
-        width: Optional[int]=None,
+        width: Optional[int] = None,
         **kwargs: Any,
     ):
         """
@@ -236,7 +236,6 @@ class GithubModFrame(LabelFrame):
 
         self.update_widget()
 
-
     def configure_widgets(self) -> None:
         """
         Method to configure the widgets.
@@ -265,6 +264,7 @@ class GithubModFrame(LabelFrame):
 
         :return: the width in character sizes of the normalised widgets
         """
+        assert self.width # can't be None because how it's defined in the constructor
         return self.width
 
     def update_widget(self) -> None:
@@ -295,14 +295,6 @@ class GithubModFrame(LabelFrame):
         self.mod_info_frame.hide()
 
         self.update_idletasks()
-
-    def configure_widgets(self) -> None:
-        """
-        Method to configure the widgets.
-
-        :return: None
-        """
-        pass
 
     def show(self) -> None:
         """

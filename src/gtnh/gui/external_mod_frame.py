@@ -7,7 +7,9 @@ from gtnh.gui.mod_info_frame import ModInfoFrame
 class ExternalModList(LabelFrame):
     """Widget handling the list of external mods."""
 
-    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any):
+    def __init__(
+        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+    ):
         """
         Constructor of the ExternalModList class.
 
@@ -121,7 +123,9 @@ class ExternalModList(LabelFrame):
 class ExternalModFrame(LabelFrame):
     """Main frame widget for the external mods' management."""
 
-    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Any], width:Optional[int]=None, **kwargs: Any):
+    def __init__(
+        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+    ):
         """
         Constructor of the ExternalModFrame class.
 
@@ -134,7 +138,7 @@ class ExternalModFrame(LabelFrame):
         self.xpadding: int = 0  # todo: tune this
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
-        self.width:Optional[int] = width
+        self.width: Optional[int] = width
 
         mod_info_callbacks: Dict[str, Any] = {
             "set_mod_version": callbacks["set_external_mod_version"],
@@ -147,7 +151,7 @@ class ExternalModFrame(LabelFrame):
 
         if self.width is None:
             self.width = self.external_mod_list.get_width()
-            self.mod_info_frame.set_width(width)
+            self.mod_info_frame.set_width(self.width)
             self.update_widget()
 
         else:
@@ -180,15 +184,8 @@ class ExternalModFrame(LabelFrame):
 
         :return: the width in character sizes of the normalised widgets
         """
+        assert self.width # can't be None because how it's defined in the constructor
         return self.width
-
-    def configure_widgets(self) -> None:
-        """
-        Method to configure the widgets.
-
-        :return: None
-        """
-        pass
 
     def update_widget(self) -> None:
         """
