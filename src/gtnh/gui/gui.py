@@ -44,6 +44,7 @@ class Window(Tk):
         Tk.__init__(self)
         self._client: Optional[httpx.AsyncClient] = None
         self._modpack_manager: Optional[GTNHModpackManager] = None
+        self._run: bool = True
 
         self.github_mods: Dict[str, str] = {}  # name <-> version of github mods mappings for the current release
         self.gtnh_config: str = ""  # modpack asset version
@@ -396,7 +397,7 @@ class Window(Tk):
             self.modpack_list_frame.populate_data(await self.get_releases())
             self.exclusion_frame_server.populate_data({"exclusions": await self.get_modpack_exclusions("server")})
             self.exclusion_frame_client.populate_data({"exclusions": await self.get_modpack_exclusions("client")})
-        while True:
+        while self._run:
             self.update()
             self.update_idletasks()
             await asyncio.sleep(ASYNC_SLEEP)
@@ -409,6 +410,7 @@ class Window(Tk):
         """
         if self._client is not None:
             await self._client.aclose()
+            self._run = False
         self.destroy()
 
 
