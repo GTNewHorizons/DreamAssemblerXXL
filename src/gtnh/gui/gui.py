@@ -1,5 +1,5 @@
 import asyncio
-from tkinter import END, Button, Entry, Label, LabelFrame, Listbox, StringVar, Tk
+from tkinter import END, Button, Entry, Label, LabelFrame, Listbox, Scrollbar, StringVar, Tk
 from tkinter.messagebox import showerror, showinfo
 from tkinter.ttk import Combobox, Progressbar
 from typing import Any, Callable, Coroutine, Dict, List, Optional, Tuple, Union
@@ -576,6 +576,10 @@ class GithubModList(LabelFrame):
         self.btn_add: Button = Button(self, text="add repository")
         self.btn_rem: Button = Button(self, text="delete highlighted")
 
+        self.scrollbar: Scrollbar = Scrollbar(self)
+        self.lb_mods.configure(yscrollcommand=self.scrollbar.set)
+        self.scrollbar.configure(command=self.lb_mods.yview)
+
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -591,6 +595,7 @@ class GithubModList(LabelFrame):
             self.rowconfigure(i, weight=1, pad=self.xpadding)
 
         self.lb_mods.grid(row=x, column=y, columnspan=2, sticky="WE")
+        self.scrollbar.grid(row=x, column=y+2, columnspan=2, sticky="NS")
         self.label_entry.grid(row=x + 1, column=y, sticky="WE")
         self.entry.grid(row=x + 1, column=y + 1, sticky="WE")
         self.btn_add.grid(row=x + 2, column=y, sticky="WE")
@@ -789,6 +794,10 @@ class ExternalModList(LabelFrame):
         self.btn_add: Button = Button(self, text="add new")
         self.btn_rem: Button = Button(self, text="delete highlighted")
 
+        self.scrollbar: Scrollbar = Scrollbar(self)
+        self.lb_mods.configure(yscrollcommand=self.scrollbar.set)
+        self.scrollbar.configure(command=self.lb_mods.yview)
+
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -804,6 +813,7 @@ class ExternalModList(LabelFrame):
         self.rowconfigure(2, weight=1, pad=self.xpadding)
 
         self.lb_mods.grid(row=x, column=y, columnspan=2, sticky="WE")
+        self.scrollbar.grid(row=x, column=y+2, columnspan=2, sticky="NS")
         self.btn_add.grid(row=x + 1, column=y, sticky="WE")
         self.btn_rem.grid(row=x + 1, column=y + 1, sticky="WE")
 
@@ -970,6 +980,10 @@ class ModpackList(LabelFrame):
         self.lb_modpack_versions: Listbox = Listbox(self, exportselection=False)
         self.lb_modpack_versions.bind("<<ListboxSelect>>", self.on_listbox_click)
 
+        self.scrollbar: Scrollbar = Scrollbar(self)
+        self.lb_modpack_versions.configure(yscrollcommand=self.scrollbar.set)
+        self.scrollbar.configure(command=self.lb_modpack_versions.yview)
+
         self.btn_load: Button = Button(
             self, text="Load version", command=lambda: self.btn_load_command(callbacks["load"])
         )
@@ -993,6 +1007,7 @@ class ModpackList(LabelFrame):
         self.rowconfigure(2, weight=1, pad=self.xpadding)
 
         self.lb_modpack_versions.grid(row=0, column=0, columnspan=2, sticky="WE")
+        self.scrollbar.grid(row=0, column=2, columnspan=2, sticky="NS")
         self.btn_load.grid(row=1, column=0, sticky="WE")
         self.btn_del.grid(row=1, column=1, sticky="WE")
         self.entry.grid(row=2, column=0, sticky="WE")
@@ -1189,6 +1204,10 @@ class ExclusionFrame(LabelFrame):
         self.add_callback: Callable[[str], None] = callbacks["add"]
         self.del_callback: Callable[[str], None] = callbacks["del"]
 
+        self.scrollbar: Scrollbar = Scrollbar(self)
+        self.listbox.configure(yscrollcommand=self.scrollbar.set)
+        self.scrollbar.configure(command=self.listbox.yview)
+
     def add_to_list_sorted(self, elem: str) -> None:
         """
         Method used to insert an element into the listbox and sort the elements at the same time.
@@ -1244,8 +1263,9 @@ class ExclusionFrame(LabelFrame):
         self.columnconfigure(0, weight=1, pad=self.ypadding)
         self.columnconfigure(1, weight=1, pad=self.ypadding)
 
-        self.listbox.grid(row=x, column=y, columnspan=2, sticky="WEN")
-        self.entry.grid(row=x + 1, column=y, columnspan=2, sticky="WEN")
+        self.listbox.grid(row=x, column=y, columnspan=2, sticky="WENS")
+        self.scrollbar.grid(row=x, column=y+2, columnspan=2, sticky="NS")
+        self.entry.grid(row=x + 1, column=y, columnspan=2, sticky="WE")
         self.btn_add.grid(row=x + 2, column=y, sticky="WE")
         self.btn_del.grid(row=x + 2, column=y + 1, sticky="WE")
 
