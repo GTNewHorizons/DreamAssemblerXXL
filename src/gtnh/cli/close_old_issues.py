@@ -29,7 +29,10 @@ async def close_old_issues() -> None:
                     gh.patch(
                         repo_issues_uri(org, repo, issue.number),
                         data={
-                            "labels": list(set(label.get("name") for label in issue.labels) | {"Status: stale", "Comment to reopen"}),
+                            "labels": list(
+                                set(label.get("name") for label in issue.labels)
+                                | {"Status: stale", "Comment to reopen"}
+                            ),
                             "state": "closed",
                             "state_reason": "not_planned",
                         },
@@ -42,7 +45,9 @@ async def get_issue(num: int) -> AttributeDict:
     async with httpx.AsyncClient(http2=True) as client:
         gh = GitHubAPI(client, "DreamAssemblerXXL", oauth_token=get_github_token())
         log.info(f"Getting issue {num}")
-        return AttributeDict(await gh.getitem(f"{API_BASE_URI}/repos/GTNewHorizons/GT-New-Horizons-Modpack/issues/{num}"))
+        return AttributeDict(
+            await gh.getitem(f"{API_BASE_URI}/repos/GTNewHorizons/GT-New-Horizons-Modpack/issues/{num}")
+        )
 
 
 def display(issue: AttributeDict) -> str:

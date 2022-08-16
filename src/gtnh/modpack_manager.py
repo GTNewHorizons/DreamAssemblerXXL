@@ -99,7 +99,9 @@ class GTNHModpackManager:
 
             repo = all_repos.get(asset.name)
             if not repo:
-                log.error(f"{Fore.RED}Missing repo for {Fore.CYAN}{asset.name}{Fore.RED}, skipping update check.{Fore.RESET}")
+                log.error(
+                    f"{Fore.RED}Missing repo for {Fore.CYAN}{asset.name}{Fore.RED}, skipping update check.{Fore.RESET}"
+                )
                 continue
             tasks.append(self.update_versionable_from_repo(asset, repo))
 
@@ -130,7 +132,9 @@ class GTNHModpackManager:
         """
         version_updated = False
         versionable_updated = False
-        log.info(f"Checking {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{versionable.latest_version}{Fore.RESET} for updates")
+        log.info(
+            f"Checking {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{versionable.latest_version}{Fore.RESET} for updates"
+        )
         latest_release = await self.get_latest_github_release(repo)
 
         latest_version = latest_release.tag_name if latest_release else "<unknown>"
@@ -138,7 +142,9 @@ class GTNHModpackManager:
         if version_is_newer(latest_version, versionable.latest_version):
             # Candidate update found
             version_updated = True
-            log.info(f"Found candidate newer version for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}{Fore.RESET}")
+            log.info(
+                f"Found candidate newer version for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}{Fore.RESET}"
+            )
 
         if isinstance(versionable, GTNHModInfo):
             versionable_updated |= await self.update_github_mod_from_repo(versionable, repo)
@@ -215,7 +221,8 @@ class GTNHModpackManager:
             version = version_from_release(release, asset.type)
             if not version:
                 log.error(
-                    f"{Fore.RED}No assets found for asset `{Fore.CYAN}{asset.name}{Fore.RESET}` release " f"`{release.tag_name}, skipping.{Style.RESET_ALL}"
+                    f"{Fore.RED}No assets found for asset `{Fore.CYAN}{asset.name}{Fore.RESET}` release "
+                    f"`{release.tag_name}, skipping.{Style.RESET_ALL}"
                 )
                 continue
 
@@ -227,7 +234,10 @@ class GTNHModpackManager:
                 )
                 asset.latest_version = version.version_tag
 
-            log.info(f"Adding version {Fore.GREEN}`{version.version_tag}`{Style.RESET_ALL} for asset " f"`{Fore.CYAN}{asset.name}{Fore.RESET}`")
+            log.info(
+                f"Adding version {Fore.GREEN}`{version.version_tag}`{Style.RESET_ALL} for asset "
+                f"`{Fore.CYAN}{asset.name}{Fore.RESET}`"
+            )
             asset.add_version(version)
             version_updated = True
 
@@ -278,7 +288,9 @@ class GTNHModpackManager:
 
         return None
 
-    async def generate_release(self, version: str, update_available: bool = True, overrides: dict[str, str] | None = None) -> GTNHRelease:
+    async def generate_release(
+        self, version: str, update_available: bool = True, overrides: dict[str, str] | None = None
+    ) -> GTNHRelease:
         if update_available:
             log.info("Updating assets")
             await self.update_all()
@@ -298,7 +310,9 @@ class GTNHModpackManager:
             mod_version = override if override else mod.latest_version
 
             if not mod.has_version(mod_version):
-                log.warn(f"Version `{Fore.YELLOW}{mod_version}{Fore.RESET} not found for Mod `{Fore.CYAN}{mod.name}{Fore.RESET}`, skipping")
+                log.warn(
+                    f"Version `{Fore.YELLOW}{mod_version}{Fore.RESET} not found for Mod `{Fore.CYAN}{mod.name}{Fore.RESET}`, skipping"
+                )
                 continue
 
             overide_str = f"{Fore.RED} ** OVERRIDE **{Fore.RESET}" if override else ""
@@ -393,7 +407,9 @@ class GTNHModpackManager:
         Saves the Available Mods Manifest
         """
         log.info(f"Saving assets to from {self.gtnh_asset_manifest_path}")
-        dumped = self.assets.json(exclude={"_github_modmap", "_external_modmap"}, exclude_unset=True, exclude_none=True, exclude_defaults=True)
+        dumped = self.assets.json(
+            exclude={"_github_modmap", "_external_modmap"}, exclude_unset=True, exclude_none=True, exclude_defaults=True
+        )
         if dumped:
             with open(self.gtnh_asset_manifest_path, "w", encoding="utf-8") as f:
                 f.write(dumped)
@@ -443,7 +459,9 @@ class GTNHModpackManager:
         return ROOT_DIR / BLACKLISTED_REPOS_FILE
 
     @retry(delay=5, tries=3)
-    async def download_asset(self, asset: Versionable, asset_version: str | None = None, is_github: bool = False) -> Path | None:
+    async def download_asset(
+        self, asset: Versionable, asset_version: str | None = None, is_github: bool = False
+    ) -> Path | None:
         if asset_version is None:
             asset_version = asset.latest_version
 
@@ -472,7 +490,9 @@ class GTNHModpackManager:
         if is_github:
             headers |= {"Authorization": f"token {get_github_token()}"}
 
-        async with self.client.stream(url=version.download_url, headers=headers, method="GET", follow_redirects=True) as r:
+        async with self.client.stream(
+            url=version.download_url, headers=headers, method="GET", follow_redirects=True
+        ) as r:
             r.raise_for_status()
             with open(mod_filename, "wb") as f:
                 async for chunk in r.aiter_bytes(chunk_size=8192):
@@ -481,7 +501,9 @@ class GTNHModpackManager:
 
         return mod_filename
 
-    async def download_release(self, release: GTNHRelease, callback: Callable[[float, str], None] | None = None) -> list[Path]:
+    async def download_release(
+        self, release: GTNHRelease, callback: Callable[[float, str], None] | None = None
+    ) -> list[Path]:
         """
         method to download all the mods required for a release of the pack
 
