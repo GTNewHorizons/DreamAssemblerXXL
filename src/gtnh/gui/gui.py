@@ -112,6 +112,8 @@ class Window(Tk):
             self, "server exclusions", callbacks=exclusion_server_callbacks
         )
 
+        self.btn_debug = Button(text="update", command=self.github_mod_frame.update_widget)
+
     async def assemble_mmc_release(self, side: str) -> None:
         """
         Method used to trigger the assembling of the mmc pack archive corresponding to the provided side.
@@ -370,11 +372,13 @@ class Window(Tk):
             self.rowconfigure(i, weight=1)
 
         # display child widgets
-        self.github_mod_frame.grid(row=0, column=0, sticky="WE")
-        self.external_mod_frame.grid(row=2, column=0, sticky="WE")
+        self.github_mod_frame.grid(row=0, column=0)
+        self.external_mod_frame.grid(row=2, column=0)
         self.modpack_list_frame.grid(row=0, column=1, columnspan=2, sticky="WENS")
         self.exclusion_frame_client.grid(row=1, column=1, sticky="WENS", rowspan=3)
         self.exclusion_frame_server.grid(row=1, column=2, sticky="WENS", rowspan=2)
+
+        self.btn_debug.grid(row=10, column=10)
 
         # child widget's inner display
         self.github_mod_frame.show()
@@ -446,7 +450,12 @@ class ModInfoFrame(LabelFrame):
     """
 
     def __init__(
-        self, master: Any, frame_name: str, callbacks: Dict[str, Callable[[str, str], None]], **kwargs: Any
+        self,
+        master: Any,
+        frame_name: str,
+        callbacks: Dict[str, Callable[[str, str], None]],
+        width: Optional[int] = None,
+        **kwargs: Any,
     ) -> None:
         """
         Constructor of the ModInfoFrame class.
@@ -457,13 +466,29 @@ class ModInfoFrame(LabelFrame):
         :param kwargs: params to init the parent class
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
-        self.ypadding: int = 5  # todo: tune this
+        self.ypadding: int = 0  # todo: tune this
         self.xpadding: int = 0  # todo: tune this
         self.callbacks: Dict[str, Any] = callbacks
-        self.label_mod_name: Label = Label(self, text="mod name:")
-        self.label_version: Label = Label(self, text="mod version:")
-        self.label_license: Label = Label(self, text="mod license:")
-        self.label_side: Label = Label(self, text="mod side:")
+
+        self.label_mod_name_text: str = "mod name:"
+        self.label_version_text: str = "mod version:"
+        self.label_license_text: str = "mod license:"
+        self.label_size_text: str = "mod side:"
+
+        self.width = (
+            width
+            if width is not None
+            else max(
+                len(self.label_mod_name_text),
+                len(self.label_version_text),
+                len(self.label_license_text),
+                len(self.label_size_text),
+            )
+        )
+        self.label_mod_name: Label = Label(self, text=self.label_mod_name_text)
+        self.label_version: Label = Label(self, text=self.label_version_text)
+        self.label_license: Label = Label(self, text=self.label_license_text)
+        self.label_side: Label = Label(self, text=self.label_size_text)
 
         self.sv_mod_name: StringVar = StringVar(self, value="")
         self.sv_version: StringVar = StringVar(self, value="")
@@ -504,6 +529,65 @@ class ModInfoFrame(LabelFrame):
 
         mod_version: str = self.sv_version.get()
         self.callbacks["set_mod_version"](mod_name, mod_version)
+
+    def configure_widgets(self) -> None:
+        """
+        Method to configure the widgets.
+
+        :return: None
+        """
+        self.label_mod_name.configure(width=self.width)
+        self.label_version.configure(width=self.width)
+        self.label_license.configure(width=self.width)
+        self.label_side.configure(width=self.width)
+        self.label_mod_name_value.configure(width=self.width)
+        self.cb_version.configure(width=self.width)
+        self.label_license_value.configure(width=self.width)
+        self.cb_side.configure(width=self.width)
+
+    def set_width(self, width: int) -> None:
+        """
+        Method to set the widgets' width.
+
+        :param width: the new width
+        :return: None
+        """
+        self.width = width
+        self.configure_widgets()
+
+    def get_width(self) -> int:
+        """
+        Getter for self.width.
+
+        :return: the width in character sizes of the normalised widgets
+        """
+        return self.width
+
+    def update_widget(self) -> None:
+        """
+        Method to update the widget and all its childs
+
+        :return: None
+        """
+        self.hide()
+        self.configure_widgets()
+        self.show()
+
+    def hide(self) -> None:
+        """
+        Method to hide the widget and all its childs
+        :return None:
+        """
+        self.label_mod_name.grid_forget()
+        self.label_mod_name_value.grid_forget()
+        self.label_version.grid_forget()
+        self.cb_version.grid_forget()
+        self.label_license.grid_forget()
+        self.label_license_value.grid_forget()
+        self.label_side.grid_forget()
+        self.cb_side.grid_forget()
+
+        self.master.update_idletasks()
 
     def show(self) -> None:
         """
@@ -548,7 +632,9 @@ class GithubModList(LabelFrame):
     Widget handling the list of github mods.
     """
 
-    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Any], **kwargs: Any):
+    def __init__(
+        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+    ):
         """
         Constructor of the GithubModList class.
 
@@ -560,8 +646,15 @@ class GithubModList(LabelFrame):
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
         self.get_github_mods_callback: Callable[[], Dict[str, str]] = callbacks["get_github_mods"]
-        self.ypadding: int = 20  # todo: tune this
+        self.ypadding: int = 0  # todo: tune this
         self.xpadding: int = 0  # todo: tune this
+
+        new_repo_text: str = "enter the new repo here"
+        add_repo_text: str = "add repository"
+        del_repo_text: str = "delete highlighted"
+        self.width: int = (
+            width if width is not None else max(len(new_repo_text), len(add_repo_text), len(del_repo_text))
+        )
 
         self.sv_repo_name: StringVar = StringVar(self, value="")
 
@@ -570,15 +663,69 @@ class GithubModList(LabelFrame):
         self.lb_mods: Listbox = Listbox(self, exportselection=False)
         self.lb_mods.bind("<<ListboxSelect>>", lambda event: asyncio.ensure_future(self.on_listbox_click(event)))
 
-        self.label_entry: Label = Label(self, text="enter the new repo here")
+        self.label_entry: Label = Label(self, text=new_repo_text)
         self.entry: Entry = Entry(self, textvariable=self.sv_repo_name)
 
-        self.btn_add: Button = Button(self, text="add repository")
-        self.btn_rem: Button = Button(self, text="delete highlighted")
+        self.btn_add: Button = Button(self, text=add_repo_text)
+        self.btn_rem: Button = Button(self, text=del_repo_text)
 
         self.scrollbar: Scrollbar = Scrollbar(self)
         self.lb_mods.configure(yscrollcommand=self.scrollbar.set)
         self.scrollbar.configure(command=self.lb_mods.yview)
+
+    def configure_widgets(self) -> None:
+        """
+        Method to configure the widgets.
+
+        :return: None
+        """
+        self.label_entry.configure(width=self.width)
+        self.entry.configure(width=self.width + 4)
+
+        self.btn_add.configure(width=self.width)
+        self.btn_rem.configure(width=self.width)
+
+    def set_width(self, width: int) -> None:
+        """
+        Method to set the widgets' width.
+
+        :param width: the new width
+        :return: None
+        """
+        self.width = width
+        self.configure_widgets()
+
+    def get_width(self) -> int:
+        """
+        Getter for self.width.
+
+        :return: the width in character sizes of the normalised widgets
+        """
+        return self.width
+
+    def update_widget(self) -> None:
+        """
+        Method to update the widget and all its childs
+
+        :return: None
+        """
+        self.hide()
+        self.configure_widgets()
+        self.show()
+
+    def hide(self) -> None:
+        """
+        Method to hide the widget and all its childs
+        :return None:
+        """
+        self.lb_mods.grid_forget()
+        self.scrollbar.grid_forget()
+        self.label_entry.grid_forget()
+        self.entry.grid_forget()
+        self.btn_add.grid_forget()
+        self.btn_rem.grid_forget()
+
+        self.master.update_idletasks()
 
     def show(self) -> None:
         """
@@ -595,11 +742,11 @@ class GithubModList(LabelFrame):
             self.rowconfigure(i, weight=1, pad=self.xpadding)
 
         self.lb_mods.grid(row=x, column=y, columnspan=2, sticky="WE")
-        self.scrollbar.grid(row=x, column=y+2, columnspan=2, sticky="NS")
-        self.label_entry.grid(row=x + 1, column=y, sticky="WE")
-        self.entry.grid(row=x + 1, column=y + 1, sticky="WE")
-        self.btn_add.grid(row=x + 2, column=y, sticky="WE")
-        self.btn_rem.grid(row=x + 2, column=y + 1, sticky="WE")
+        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky="NS")
+        self.label_entry.grid(row=x + 1, column=y)
+        self.entry.grid(row=x + 1, column=y + 1, columnspan=2)
+        self.btn_add.grid(row=x + 2, column=y)
+        self.btn_rem.grid(row=x + 2, column=y + 1, columnspan=2)
 
         self.master.update_idletasks()
 
@@ -667,9 +814,11 @@ class GithubModFrame(LabelFrame):
         :param kwargs: params to init the parent class
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
-        self.ypadding: int = 100  # todo: tune this
+        self.ypadding: int = 0  # todo: tune this
         self.xpadding: int = 0  # todo: tune this
+
         modpack_version_callbacks: Dict[str, Any] = {"set_modpack_version": callbacks["set_modpack_version"]}
+
         self.modpack_version_frame: ModpackVersionFrame = ModpackVersionFrame(
             self, frame_name="Modpack version", callbacks=modpack_version_callbacks
         )
@@ -693,6 +842,48 @@ class GithubModFrame(LabelFrame):
             self, frame_name="github mod list", callbacks=github_mod_list_callbacks
         )
 
+        width: int = self.github_mod_list.get_width()
+        self.mod_info_frame.set_width(width)
+        self.modpack_version_frame.set_width(width)
+        self.update_widget()
+
+    def update_widget(self) -> None:
+        """
+        Method to update the widget and all its childs
+
+        :return: None
+        """
+        self.hide()
+        self.configure_widgets()
+        self.show()
+
+        self.modpack_version_frame.update_widget()
+        self.mod_info_frame.update_widget()
+        self.github_mod_list.update_widget()
+
+    def hide(self) -> None:
+        """
+        Method to hide the widget and all its childs
+        :return None:
+        """
+        self.modpack_version_frame.grid_forget()
+        self.github_mod_list.grid_forget()  # ref widget
+        self.mod_info_frame.grid_forget()
+
+        self.modpack_version_frame.hide()
+        self.github_mod_list.hide()
+        self.mod_info_frame.hide()
+
+        self.master.update_idletasks()
+
+    def configure_widgets(self) -> None:
+        """
+        Method to configure the widgets.
+
+        :return: None
+        """
+        pass
+
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -705,7 +896,7 @@ class GithubModFrame(LabelFrame):
         self.rowconfigure(2, weight=1, pad=self.xpadding)
 
         self.modpack_version_frame.grid(row=0, column=0, sticky="WE")
-        self.github_mod_list.grid(row=1, column=0, sticky="WE")
+        self.github_mod_list.grid(row=1, column=0)  # ref widget
         self.mod_info_frame.grid(row=2, column=0, sticky="WE")
         self.master.update_idletasks()
 
@@ -729,7 +920,14 @@ class ModpackVersionFrame(LabelFrame):
     Frame to chose the gtnh modpack repo assets' version.
     """
 
-    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Callable[[str], None]], **kwargs: Any):
+    def __init__(
+        self,
+        master: Any,
+        frame_name: str,
+        callbacks: Dict[str, Callable[[str], None]],
+        width: Optional[int] = None,
+        **kwargs: Any,
+    ):
         """
         Constructor of the ModpackVersionFrame.
 
@@ -739,14 +937,63 @@ class ModpackVersionFrame(LabelFrame):
         :param kwargs: params to init the parent class
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
-        self.ypadding: int = 100  # todo: tune this
+        self.ypadding: int = 0  # todo: tune this
         self.xpadding: int = 0  # todo: tune this
-        self.label_modpack_version: Label = Label(self, text="Modpack_version:")
+        modpack_version_text: str = "Modpack version:"
+        self.width: int = width if width is not None else len(modpack_version_text)
+        self.label_modpack_version: Label = Label(self, text=modpack_version_text)
         self.sv_version: StringVar = StringVar(value="")
         self.cb_modpack_version: Combobox = Combobox(self, textvariable=self.sv_version, values=[])
         self.cb_modpack_version.bind(
             "<<ComboboxSelected>>", lambda event: callbacks["set_modpack_version"](self.sv_version.get())
         )
+
+    def configure_widgets(self) -> None:
+        """
+        Method to configure the widgets.
+
+        :return: None
+        """
+        self.label_modpack_version.configure(width=self.width)
+        self.cb_modpack_version.configure(width=self.width)
+
+    def set_width(self, width: int) -> None:
+        """
+        Method to set the widgets' width.
+
+        :param width: the new width
+        :return: None
+        """
+        self.width = width
+        self.configure_widgets()
+
+    def get_width(self) -> int:
+        """
+        Getter for self.width.
+
+        :return: the width in character sizes of the normalised widgets
+        """
+        return self.width
+
+    def update_widget(self) -> None:
+        """
+        Method to update the widget and all its childs
+
+        :return: None
+        """
+        self.hide()
+        self.configure_widgets()
+        self.show()
+
+    def hide(self) -> None:
+        """
+        Method to hide the widget and all its childs
+        :return None:
+        """
+        self.label_modpack_version.grid_forget()
+        self.cb_modpack_version.grid_forget()
+
+        self.master.update_idletasks()
 
     def show(self) -> None:
         """
@@ -758,8 +1005,8 @@ class ModpackVersionFrame(LabelFrame):
         self.columnconfigure(1, weight=1, pad=self.ypadding)
         self.rowconfigure(0, weight=1, pad=self.xpadding)
 
-        self.label_modpack_version.grid(row=0, column=0, sticky="WE")
-        self.cb_modpack_version.grid(row=0, column=1, sticky="WE")
+        self.label_modpack_version.grid(row=0, column=0)
+        self.cb_modpack_version.grid(row=0, column=1)
 
     def populate_data(self, data: Dict[str, Any]) -> None:
         """
@@ -813,7 +1060,7 @@ class ExternalModList(LabelFrame):
         self.rowconfigure(2, weight=1, pad=self.xpadding)
 
         self.lb_mods.grid(row=x, column=y, columnspan=2, sticky="WE")
-        self.scrollbar.grid(row=x, column=y+2, columnspan=2, sticky="NS")
+        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky="NS")
         self.btn_add.grid(row=x + 1, column=y, sticky="WE")
         self.btn_rem.grid(row=x + 1, column=y + 1, sticky="WE")
 
@@ -1095,21 +1342,56 @@ class ActionFrame(LabelFrame):
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0  # todo: tune this
         self.ypadding: int = 20  # todo: tune this
+        client_archive_text: str = "client archive"
+        server_archive_text: str = "server archive"
+        generate_all_text: str = "Generate all archives"
+        update_nightly_text: str = "Update nightly"
+        update_assets_text: str = "Update assets"
+        button_size: int = max(
+            len(client_archive_text),
+            len(server_archive_text),
+            len(generate_all_text),
+            len(update_nightly_text),
+            len(update_assets_text),
+        )
+
         self.label_cf: Label = Label(self, text="CurseForge")
-        self.btn_client_cf: Button = Button(self, text="client archive", command=callbacks["client_cf"])
-        self.btn_server_cf: Button = Button(self, text="server archive", command=callbacks["server_cf"])
+        self.btn_client_cf: Button = Button(
+            self, text=client_archive_text, command=callbacks["client_cf"], width=button_size
+        )
+        self.btn_server_cf: Button = Button(
+            self, text=server_archive_text, command=callbacks["server_cf"], width=button_size
+        )
         self.label_technic: Label = Label(self, text="Technic")
-        self.btn_client_technic: Button = Button(self, text="client archive", command=callbacks["client_technic"])
-        self.btn_server_technic: Button = Button(self, text="server archive", command=callbacks["server_technic"])
+        self.btn_client_technic: Button = Button(
+            self, text=client_archive_text, command=callbacks["client_technic"], width=button_size
+        )
+        self.btn_server_technic: Button = Button(
+            self, text=server_archive_text, command=callbacks["server_technic"], width=button_size
+        )
         self.label_mmc: Label = Label(self, text="MultiMC")
-        self.btn_client_mmc: Button = Button(self, text="client archive", command=callbacks["client_mmc"])
-        self.btn_server_mmc: Button = Button(self, text="server archive", command=callbacks["server_mmc"])
+        self.btn_client_mmc: Button = Button(
+            self, text=client_archive_text, command=callbacks["client_mmc"], width=button_size
+        )
+        self.btn_server_mmc: Button = Button(
+            self, text=server_archive_text, command=callbacks["server_mmc"], width=button_size
+        )
         self.label_modrinth: Label = Label(self, text="Modrinth")
-        self.btn_client_modrinth: Button = Button(self, text="client archive", command=callbacks["client_modrinth"])
-        self.btn_server_modrinth: Button = Button(self, text="server archive", command=callbacks["server_modrinth"])
-        self.btn_generate_all: Button = Button(self, text="generate all", command=callbacks["generate_all"])
-        self.btn_update_nightly: Button = Button(self, text="update nightly", command=callbacks["generate_nightly"])
-        self.btn_update_assets: Button = Button(self, text="update assets", command=callbacks["update_assets"])
+        self.btn_client_modrinth: Button = Button(
+            self, text=client_archive_text, command=callbacks["client_modrinth"], width=button_size
+        )
+        self.btn_server_modrinth: Button = Button(
+            self, text=server_archive_text, command=callbacks["server_modrinth"], width=button_size
+        )
+        self.btn_generate_all: Button = Button(
+            self, text="generate all", command=callbacks["generate_all"], width=button_size
+        )
+        self.btn_update_nightly: Button = Button(
+            self, text="update nightly", command=callbacks["generate_nightly"], width=button_size
+        )
+        self.btn_update_assets: Button = Button(
+            self, text="update assets", command=callbacks["update_assets"], width=button_size
+        )
 
         progress_bar_length: int = 500
 
@@ -1264,7 +1546,7 @@ class ExclusionFrame(LabelFrame):
         self.columnconfigure(1, weight=1, pad=self.ypadding)
 
         self.listbox.grid(row=x, column=y, columnspan=2, sticky="WENS")
-        self.scrollbar.grid(row=x, column=y+2, columnspan=2, sticky="NS")
+        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky="NS")
         self.entry.grid(row=x + 1, column=y, columnspan=2, sticky="WE")
         self.btn_add.grid(row=x + 2, column=y, sticky="WE")
         self.btn_del.grid(row=x + 2, column=y + 1, sticky="WE")
