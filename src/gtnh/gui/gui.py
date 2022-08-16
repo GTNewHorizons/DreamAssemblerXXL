@@ -63,12 +63,19 @@ class Window(Tk):
             "set_modpack_version": self.set_modpack_version,
         }
 
-        self.github_mod_frame: GithubModFrame = GithubModFrame(self, frame_name="github mods data", callbacks=github_frame_callbacks)
+        self.github_mod_frame: GithubModFrame = GithubModFrame(
+            self, frame_name="github mods data", callbacks=github_frame_callbacks
+        )
 
         # frame for the external mods
 
-        external_frame_callbacks: Dict[str, Any] = {"set_external_mod_version": self.set_external_mod_version, "set_external_mod_side": lambda name, side: None}
-        self.external_mod_frame: ExternalModFrame = ExternalModFrame(self, frame_name="external mod data", callbacks=external_frame_callbacks)
+        external_frame_callbacks: Dict[str, Any] = {
+            "set_external_mod_version": self.set_external_mod_version,
+            "set_external_mod_side": lambda name, side: None,
+        }
+        self.external_mod_frame: ExternalModFrame = ExternalModFrame(
+            self, frame_name="external mod data", callbacks=external_frame_callbacks
+        )
 
         # frame for the modpack handling
         modpack_list_callbacks: Dict[str, Any] = {
@@ -81,7 +88,9 @@ class Window(Tk):
             "server_mmc": lambda: asyncio.ensure_future(self.assemble_mmc_release("SERVER")),
         }
 
-        self.modpack_list_frame: ModPackFrame = ModPackFrame(self, frame_name="modpack release actions", callbacks=modpack_list_callbacks)
+        self.modpack_list_frame: ModPackFrame = ModPackFrame(
+            self, frame_name="modpack release actions", callbacks=modpack_list_callbacks
+        )
 
         exclusion_client_callbacks: Dict[str, Any] = {
             "add": lambda exclusion: asyncio.ensure_future(self.add_exclusion("client", exclusion)),
@@ -89,7 +98,9 @@ class Window(Tk):
         }
 
         # frame for the client file exclusions
-        self.exclusion_frame_client: ExclusionFrame = ExclusionFrame(self, "client exclusions", callbacks=exclusion_client_callbacks)
+        self.exclusion_frame_client: ExclusionFrame = ExclusionFrame(
+            self, "client exclusions", callbacks=exclusion_client_callbacks
+        )
 
         exclusion_server_callbacks: Dict[str, Any] = {
             "add": lambda exclusion: asyncio.ensure_future(self.add_exclusion("server", exclusion)),
@@ -97,7 +108,9 @@ class Window(Tk):
         }
 
         # frame for the server side exclusions
-        self.exclusion_frame_server: ExclusionFrame = ExclusionFrame(self, "server exclusions", callbacks=exclusion_server_callbacks)
+        self.exclusion_frame_server: ExclusionFrame = ExclusionFrame(
+            self, "server exclusions", callbacks=exclusion_server_callbacks
+        )
 
     async def assemble_mmc_release(self, side: str) -> None:
         """
@@ -107,8 +120,15 @@ class Window(Tk):
         :return: None
         """
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        release: GTNHRelease = GTNHRelease(version=self.version, config=self.gtnh_config, github_mods=self.github_mods, external_mods=self.external_mods)
-        await gtnh.download_release(release, callback=self.modpack_list_frame.action_frame.update_current_task_progress_bar)
+        release: GTNHRelease = GTNHRelease(
+            version=self.version,
+            config=self.gtnh_config,
+            github_mods=self.github_mods,
+            external_mods=self.external_mods,
+        )
+        await gtnh.download_release(
+            release, callback=self.modpack_list_frame.action_frame.update_current_task_progress_bar
+        )
         ReleaseAssembler(gtnh, release).assemble(Side[side], verbose=True)
 
     async def add_exclusion(self, side: str, exclusion: str) -> None:
@@ -161,7 +181,8 @@ class Window(Tk):
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         if not gtnh.set_github_mod_side(mod_name, side):
             showerror(
-                "Error setting up the side of the mod", f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details"
+                "Error setting up the side of the mod",
+                f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details",
             )
 
     def set_github_mod_version(self, github_mod_name: str, mod_version: str) -> None:
@@ -314,7 +335,12 @@ class Window(Tk):
         """
 
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        release: GTNHRelease = GTNHRelease(version=release_name, config=self.gtnh_config, github_mods=self.github_mods, external_mods=self.external_mods)
+        release: GTNHRelease = GTNHRelease(
+            version=release_name,
+            config=self.gtnh_config,
+            github_mods=self.github_mods,
+            external_mods=self.external_mods,
+        )
 
         if gtnh.add_release(release, update=True):
             gtnh.save_modpack()
@@ -419,7 +445,9 @@ class ModInfoFrame(LabelFrame):
     Widget used to display info about a mod passed to it.
     """
 
-    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Callable[[str, str], None]], **kwargs: Any) -> None:
+    def __init__(
+        self, master: Any, frame_name: str, callbacks: Dict[str, Callable[[str, str], None]], **kwargs: Any
+    ) -> None:
         """
         Constructor of the ModInfoFrame class.
 
@@ -594,7 +622,11 @@ class GithubModList(LabelFrame):
         mod_versions: list[GTNHVersion] = mod_info.versions
         latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
         assert latest_version
-        current_version: str = self.get_github_mods_callback()[name] if name in self.get_github_mods_callback() else latest_version.version_tag
+        current_version: str = (
+            self.get_github_mods_callback()[name]
+            if name in self.get_github_mods_callback()
+            else latest_version.version_tag
+        )
         license: str = mod_info.license or "No license detected"
         side: str = mod_info.side
 
@@ -633,11 +665,18 @@ class GithubModFrame(LabelFrame):
         self.ypadding: int = 100  # todo: tune this
         self.xpadding: int = 0  # todo: tune this
         modpack_version_callbacks: Dict[str, Any] = {"set_modpack_version": callbacks["set_modpack_version"]}
-        self.modpack_version_frame: ModpackVersionFrame = ModpackVersionFrame(self, frame_name="Modpack version", callbacks=modpack_version_callbacks)
+        self.modpack_version_frame: ModpackVersionFrame = ModpackVersionFrame(
+            self, frame_name="Modpack version", callbacks=modpack_version_callbacks
+        )
 
-        mod_info_callbacks: Dict[str, Any] = {"set_mod_version": callbacks["set_github_mod_version"], "set_mod_side": callbacks["set_github_mod_side"]}
+        mod_info_callbacks: Dict[str, Any] = {
+            "set_mod_version": callbacks["set_github_mod_version"],
+            "set_mod_side": callbacks["set_github_mod_side"],
+        }
 
-        self.mod_info_frame: ModInfoFrame = ModInfoFrame(self, frame_name="github mod info", callbacks=mod_info_callbacks)
+        self.mod_info_frame: ModInfoFrame = ModInfoFrame(
+            self, frame_name="github mod info", callbacks=mod_info_callbacks
+        )
 
         github_mod_list_callbacks: Dict[str, Any] = {
             "mod_info": self.mod_info_frame.populate_data,
@@ -645,7 +684,9 @@ class GithubModFrame(LabelFrame):
             "get_gtnh": callbacks["get_gtnh"],
         }
 
-        self.github_mod_list: GithubModList = GithubModList(self, frame_name="github mod list", callbacks=github_mod_list_callbacks)
+        self.github_mod_list: GithubModList = GithubModList(
+            self, frame_name="github mod list", callbacks=github_mod_list_callbacks
+        )
 
     def show(self) -> None:
         """
@@ -698,7 +739,9 @@ class ModpackVersionFrame(LabelFrame):
         self.label_modpack_version: Label = Label(self, text="Modpack_version:")
         self.sv_version: StringVar = StringVar(value="")
         self.cb_modpack_version: Combobox = Combobox(self, textvariable=self.sv_version, values=[])
-        self.cb_modpack_version.bind("<<ComboboxSelected>>", lambda event: callbacks["set_modpack_version"](self.sv_version.get()))
+        self.cb_modpack_version.bind(
+            "<<ComboboxSelected>>", lambda event: callbacks["set_modpack_version"](self.sv_version.get())
+        )
 
     def show(self) -> None:
         """
@@ -790,8 +833,13 @@ class ExternalModFrame(LabelFrame):
         self.xpadding: int = 0  # todo: tune this
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
-        mod_info_callbacks: Dict[str, Any] = {"set_mod_version": callbacks["set_external_mod_version"], "set_mod_side": callbacks["set_external_mod_side"]}
-        self.mod_info_frame: ModInfoFrame = ModInfoFrame(self, frame_name="external mod info", callbacks=mod_info_callbacks)
+        mod_info_callbacks: Dict[str, Any] = {
+            "set_mod_version": callbacks["set_external_mod_version"],
+            "set_mod_side": callbacks["set_external_mod_side"],
+        }
+        self.mod_info_frame: ModInfoFrame = ModInfoFrame(
+            self, frame_name="external mod info", callbacks=mod_info_callbacks
+        )
         self.external_mod_list: ExternalModList = ExternalModList(self, frame_name="external mod list", callbacks={})
 
     def show(self) -> None:
@@ -853,9 +901,15 @@ class ModPackFrame(LabelFrame):
         }
         self.action_frame: ActionFrame = ActionFrame(self, frame_name="availiable tasks", callbacks=action_callbacks)
 
-        modpack_list_callbacks: Dict[str, Any] = {"load": callbacks["load"], "delete": callbacks["delete"], "add": callbacks["add"]}
+        modpack_list_callbacks: Dict[str, Any] = {
+            "load": callbacks["load"],
+            "delete": callbacks["delete"],
+            "add": callbacks["add"],
+        }
 
-        self.modpack_list: ModpackList = ModpackList(self, frame_name="Modpack Versions", callbacks=modpack_list_callbacks)
+        self.modpack_list: ModpackList = ModpackList(
+            self, frame_name="Modpack Versions", callbacks=modpack_list_callbacks
+        )
 
     def update_nightly(self) -> None:
         """
@@ -916,8 +970,12 @@ class ModpackList(LabelFrame):
         self.lb_modpack_versions: Listbox = Listbox(self, exportselection=False)
         self.lb_modpack_versions.bind("<<ListboxSelect>>", self.on_listbox_click)
 
-        self.btn_load: Button = Button(self, text="Load version", command=lambda: self.btn_load_command(callbacks["load"]))
-        self.btn_del: Button = Button(self, text="Delete version", command=lambda: self.btn_del_command(callbacks["delete"]))
+        self.btn_load: Button = Button(
+            self, text="Load version", command=lambda: self.btn_load_command(callbacks["load"])
+        )
+        self.btn_del: Button = Button(
+            self, text="Delete version", command=lambda: self.btn_del_command(callbacks["delete"])
+        )
         self.sv_entry: StringVar = StringVar(self)
         self.entry: Entry = Entry(self, textvariable=self.sv_entry)
         self.btn_add: Button = Button(self, text="add/update", command=lambda: self.btn_add_command(callbacks["add"]))
@@ -1040,11 +1098,15 @@ class ActionFrame(LabelFrame):
 
         progress_bar_length: int = 500
 
-        self.pb_global: Progressbar = Progressbar(self, orient="horizontal", mode="determinate", length=progress_bar_length)
+        self.pb_global: Progressbar = Progressbar(
+            self, orient="horizontal", mode="determinate", length=progress_bar_length
+        )
         self.sv_pb_global: StringVar = StringVar(self, value="current task: Coding DreamAssemblerXXL")
         self.label_pb_global: Label = Label(self, textvariable=self.sv_pb_global)
 
-        self.pb_current_task: Progressbar = Progressbar(self, orient="horizontal", mode="determinate", length=progress_bar_length)
+        self.pb_current_task: Progressbar = Progressbar(
+            self, orient="horizontal", mode="determinate", length=progress_bar_length
+        )
         self.sv_pb_current_task: StringVar = StringVar(self, value="doing stuff")
         self.label_pb_current_task: Label = Label(self, textvariable=self.sv_pb_current_task)
 
