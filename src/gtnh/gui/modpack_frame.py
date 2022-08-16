@@ -19,7 +19,7 @@ class ModpackFrame(LabelFrame):
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0  # todo: tune this
-        self.ypadding: int = 20  # todo: tune this
+        self.ypadding: int = 0  # todo: tune this
         self.generate_nightly_callback: Callable[[], None] = callbacks["generate_nightly"]
         action_callbacks: Dict[str, Any] = {
             "client_cf": lambda: None,
@@ -59,6 +59,54 @@ class ModpackFrame(LabelFrame):
             self.modpack_list.lb_modpack_versions.delete(0, END)
             self.modpack_list.lb_modpack_versions.insert(END, *data)
 
+    def configure_widgets(self) -> None:
+        """
+        Method to configure the widgets.
+
+        :return: None
+        """
+        self.modpack_list.configure_widgets()
+        self.action_frame.configure_widgets()
+
+    def set_width(self, width: int) -> None:
+        """
+        Method to set the widgets' width.
+
+        :param width: the new width
+        :return: None
+        """
+        self.width = width
+        self.modpack_list.set_width(self.width)
+        self.action_frame.set_width(self.width)
+
+    def get_width(self) -> int:
+        """
+        Getter for self.width.
+
+        :return: the width in character sizes of the normalised widgets
+        """
+        return self.width
+
+    def update_widget(self) -> None:
+        """
+        Method to update the widget and all its childs
+
+        :return: None
+        """
+        self.hide()
+        self.configure_widgets()
+        self.show()
+
+    def hide(self) -> None:
+        """
+        Method to hide the widget and all its childs
+        :return None:
+        """
+        self.modpack_list.hide()
+        self.action_frame.hide()
+
+        self.update_idletasks()
+
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -70,7 +118,7 @@ class ModpackFrame(LabelFrame):
         self.rowconfigure(0, weight=1, pad=self.xpadding)
 
         self.modpack_list.grid(row=0, column=0)
-        self.action_frame.grid(row=0, column=1)
+        self.action_frame.grid(row=0, column=1, sticky="NS")
 
         self.modpack_list.show()
         self.action_frame.show()
@@ -90,7 +138,7 @@ class ModpackFrame(LabelFrame):
 class ModpackList(LabelFrame):
     """Widget ruling the list of modpack versions"""
 
-    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Any], **kwargs: Any) -> None:
+    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Any],width: Optional[int]=None, **kwargs: Any) -> None:
         """
         Constructor of the ModpackList class.
 
@@ -100,8 +148,15 @@ class ModpackList(LabelFrame):
         :param kwargs: params to init the parent class
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
-        self.xpadding: int = 20  # todo: tune this
+        self.xpadding: int = 0  # todo: tune this
         self.ypadding: int = 0  # todo: tune this
+
+        self.btn_load_text:str = "Load version"
+        self.btn_del_text:str = "Delete version"
+        self.btn_add_text:str = "Add / Update"
+
+        self.width:int = width if width is not None else max(len(self.btn_del_text), len(self.btn_add_text), len(self.btn_load_text))
+
         self.lb_modpack_versions: Listbox = Listbox(self, exportselection=False)
         self.lb_modpack_versions.bind("<<ListboxSelect>>", self.on_listbox_click)
 
@@ -110,14 +165,66 @@ class ModpackList(LabelFrame):
         self.scrollbar.configure(command=self.lb_modpack_versions.yview)
 
         self.btn_load: Button = Button(
-            self, text="Load version", command=lambda: self.btn_load_command(callbacks["load"])
+            self, text=self.btn_load_text, command=lambda: self.btn_load_command(callbacks["load"])
         )
         self.btn_del: Button = Button(
-            self, text="Delete version", command=lambda: self.btn_del_command(callbacks["delete"])
+            self, text=self.btn_del_text, command=lambda: self.btn_del_command(callbacks["delete"])
         )
         self.sv_entry: StringVar = StringVar(self)
         self.entry: Entry = Entry(self, textvariable=self.sv_entry)
-        self.btn_add: Button = Button(self, text="add/update", command=lambda: self.btn_add_command(callbacks["add"]))
+        self.btn_add: Button = Button(self, text=self.btn_add_text, command=lambda: self.btn_add_command(callbacks["add"]))
+
+        self.update_widget()
+
+    def configure_widgets(self) -> None:
+        """
+        Method to configure the widgets.
+
+        :return: None
+        """
+        self.btn_load.configure(width=self.width)
+        self.btn_del.configure(width=self.width)
+        self.entry.configure(width=self.width+4)
+        self.btn_add.configure(width=self.width)
+
+    def set_width(self, width: int) -> None:
+        """
+        Method to set the widgets' width.
+
+        :param width: the new width
+        :return: None
+        """
+        self.width = width
+        self.configure_widgets()
+
+    def get_width(self) -> int:
+        """
+        Getter for self.width.
+
+        :return: the width in character sizes of the normalised widgets
+        """
+        return self.width
+
+    def update_widget(self) -> None:
+        """
+        Method to update the widget and all its childs
+
+        :return: None
+        """
+        self.hide()
+        self.configure_widgets()
+        self.show()
+
+    def hide(self) -> None:
+        """
+        Method to hide the widget and all its childs
+        :return None:
+        """
+        self.lb_modpack_versions.grid_forget()
+        self.btn_load.grid_forget()
+        self.btn_del.grid_forget()
+        self.entry.grid_forget()
+        self.btn_add.grid_forget()
 
         self.update_idletasks()
 
@@ -135,10 +242,12 @@ class ModpackList(LabelFrame):
 
         self.lb_modpack_versions.grid(row=0, column=0, columnspan=2, sticky="WE")
         self.scrollbar.grid(row=0, column=2, columnspan=2, sticky="NS")
-        self.btn_load.grid(row=1, column=0, sticky="WE")
-        self.btn_del.grid(row=1, column=1, sticky="WE")
-        self.entry.grid(row=2, column=0, sticky="WE")
-        self.btn_add.grid(row=2, column=1, sticky="WE")
+        self.btn_load.grid(row=1, column=0)
+        self.btn_del.grid(row=1, column=1, columnspan=2)
+        self.entry.grid(row=2, column=0)
+        self.btn_add.grid(row=2, column=1, columnspan=2)
+
+        self.update_idletasks()
 
     def on_listbox_click(self, event: Any) -> None:
         """
@@ -210,7 +319,7 @@ class ActionFrame(LabelFrame):
     Widget managing all the buttons related to pack assembling.
     """
 
-    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Any], **kwargs: Any):
+    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Any], width:Optional[int]=None, **kwargs: Any):
         """
         Constructor of the ActionFrame class.
 
@@ -221,56 +330,64 @@ class ActionFrame(LabelFrame):
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0  # todo: tune this
-        self.ypadding: int = 20  # todo: tune this
+        self.ypadding: int = 0  # todo: tune this
         client_archive_text: str = "client archive"
         server_archive_text: str = "server archive"
         generate_all_text: str = "Generate all archives"
         update_nightly_text: str = "Update nightly"
         update_assets_text: str = "Update assets"
-        button_size: int = max(
+        cf_text:str="CurseForge"
+        technic_text:str="Technic"
+        mr_text:str="Modrinth"
+        mmc_text:str="MultiMC"
+        self.width: int = width if width is not None else max(
             len(client_archive_text),
             len(server_archive_text),
             len(generate_all_text),
             len(update_nightly_text),
             len(update_assets_text),
+            len(cf_text),
+            len(technic_text),
+            len(mr_text),
+            len(mmc_text)
         )
 
-        self.label_cf: Label = Label(self, text="CurseForge")
+        self.label_cf: Label = Label(self, text=cf_text)
         self.btn_client_cf: Button = Button(
-            self, text=client_archive_text, command=callbacks["client_cf"], width=button_size
+            self, text=client_archive_text, command=callbacks["client_cf"]
         )
         self.btn_server_cf: Button = Button(
-            self, text=server_archive_text, command=callbacks["server_cf"], width=button_size
+            self, text=server_archive_text, command=callbacks["server_cf"]
         )
-        self.label_technic: Label = Label(self, text="Technic")
+        self.label_technic: Label = Label(self, text=technic_text)
         self.btn_client_technic: Button = Button(
-            self, text=client_archive_text, command=callbacks["client_technic"], width=button_size
+            self, text=client_archive_text, command=callbacks["client_technic"]
         )
         self.btn_server_technic: Button = Button(
-            self, text=server_archive_text, command=callbacks["server_technic"], width=button_size
+            self, text=server_archive_text, command=callbacks["server_technic"]
         )
-        self.label_mmc: Label = Label(self, text="MultiMC")
+        self.label_mmc: Label = Label(self, text=mmc_text)
         self.btn_client_mmc: Button = Button(
-            self, text=client_archive_text, command=callbacks["client_mmc"], width=button_size
+            self, text=client_archive_text, command=callbacks["client_mmc"]
         )
         self.btn_server_mmc: Button = Button(
-            self, text=server_archive_text, command=callbacks["server_mmc"], width=button_size
+            self, text=server_archive_text, command=callbacks["server_mmc"]
         )
-        self.label_modrinth: Label = Label(self, text="Modrinth")
+        self.label_modrinth: Label = Label(self, text=mr_text)
         self.btn_client_modrinth: Button = Button(
-            self, text=client_archive_text, command=callbacks["client_modrinth"], width=button_size
+            self, text=client_archive_text, command=callbacks["client_modrinth"]
         )
         self.btn_server_modrinth: Button = Button(
-            self, text=server_archive_text, command=callbacks["server_modrinth"], width=button_size
+            self, text=server_archive_text, command=callbacks["server_modrinth"]
         )
         self.btn_generate_all: Button = Button(
-            self, text="generate all", command=callbacks["generate_all"], width=button_size
+            self, text="generate all", command=callbacks["generate_all"]
         )
         self.btn_update_nightly: Button = Button(
-            self, text="update nightly", command=callbacks["generate_nightly"], width=button_size
+            self, text="update nightly", command=callbacks["generate_nightly"]
         )
         self.btn_update_assets: Button = Button(
-            self, text="update assets", command=callbacks["update_assets"], width=button_size
+            self, text="update assets", command=callbacks["update_assets"]
         )
 
         progress_bar_length: int = 500
@@ -286,6 +403,8 @@ class ActionFrame(LabelFrame):
         )
         self.sv_pb_current_task: StringVar = StringVar(self, value="doing stuff")
         self.label_pb_current_task: Label = Label(self, textvariable=self.sv_pb_current_task)
+
+        self.update_widget()
 
     def populate_data(self, data: Any) -> None:
         """
@@ -327,19 +446,97 @@ class ActionFrame(LabelFrame):
         self.label_pb_current_task.grid(row=x + 2, column=y, columnspan=4)
         self.pb_current_task.grid(row=x + 3, column=y, columnspan=4)
         self.label_cf.grid(row=x + 4, column=y)
-        self.btn_client_cf.grid(row=x + 5, column=y, sticky="WE")
-        self.btn_server_cf.grid(row=x + 6, column=y, sticky="WE")
+        self.btn_client_cf.grid(row=x + 5, column=y)
+        self.btn_server_cf.grid(row=x + 6, column=y)
         self.label_technic.grid(row=x + 4, column=y + 1)
-        self.btn_client_technic.grid(row=x + 5, column=y + 1, sticky="WE")
-        self.btn_server_technic.grid(row=x + 6, column=y + 1, sticky="WE")
+        self.btn_client_technic.grid(row=x + 5, column=y + 1)
+        self.btn_server_technic.grid(row=x + 6, column=y + 1)
         self.label_modrinth.grid(row=x + 4, column=y + 2)
-        self.btn_client_modrinth.grid(row=x + 5, column=y + 2, sticky="WE")
-        self.btn_server_modrinth.grid(row=x + 6, column=y + 2, sticky="WE")
+        self.btn_client_modrinth.grid(row=x + 5, column=y + 2)
+        self.btn_server_modrinth.grid(row=x + 6, column=y + 2)
         self.label_mmc.grid(row=x + 4, column=y + 3)
-        self.btn_client_mmc.grid(row=x + 5, column=y + 3, sticky="WE")
-        self.btn_server_mmc.grid(row=x + 6, column=y + 3, sticky="WE")
+        self.btn_client_mmc.grid(row=x + 5, column=y + 3)
+        self.btn_server_mmc.grid(row=x + 6, column=y + 3)
         self.btn_generate_all.grid(row=x + 7, column=y + 1, columnspan=2)
         self.btn_update_nightly.grid(row=x + 7, column=y, columnspan=2)
         self.btn_update_assets.grid(row=x + 7, column=y + 2, columnspan=2)
+
+        self.update_idletasks()
+
+    def configure_widgets(self) -> None:
+        """
+        Method to configure the widgets.
+
+        :return: None
+        """
+
+        self.label_cf.configure(width=self.width)
+        self.btn_client_cf.configure(width=self.width)
+        self.btn_server_cf.configure(width=self.width)
+        self.label_technic.configure(width=self.width)
+        self.btn_client_technic.configure(width=self.width)
+        self.btn_server_technic.configure(width=self.width)
+        self.label_modrinth.configure(width=self.width)
+        self.btn_client_modrinth.configure(width=self.width)
+        self.btn_server_modrinth.configure(width=self.width)
+        self.label_mmc.configure(width=self.width)
+        self.btn_client_mmc.configure(width=self.width)
+        self.btn_server_mmc.configure(width=self.width)
+        self.btn_generate_all.configure(width=self.width)
+        self.btn_update_nightly.configure(width=self.width)
+        self.btn_update_assets.configure(width=self.width)
+
+    def set_width(self, width: int) -> None:
+        """
+        Method to set the widgets' width.
+
+        :param width: the new width
+        :return: None
+        """
+        self.width = width
+        self.configure_widgets()
+
+    def get_width(self) -> int:
+        """
+        Getter for self.width.
+
+        :return: the width in character sizes of the normalised widgets
+        """
+        return self.width
+
+    def update_widget(self) -> None:
+        """
+        Method to update the widget and all its childs
+
+        :return: None
+        """
+        self.hide()
+        self.configure_widgets()
+        self.show()
+
+    def hide(self) -> None:
+        """
+        Method to hide the widget and all its childs
+        :return None:
+        """
+        self.label_pb_global.grid_forget()
+        self.pb_global.grid_forget()
+        self.label_pb_current_task.grid_forget()
+        self.pb_current_task.grid_forget()
+        self.label_cf.grid_forget()
+        self.btn_client_cf.grid_forget()
+        self.btn_server_cf.grid_forget()
+        self.label_technic.grid_forget()
+        self.btn_client_technic.grid_forget()
+        self.btn_server_technic.grid_forget()
+        self.label_modrinth.grid_forget()
+        self.btn_client_modrinth.grid_forget()
+        self.btn_server_modrinth.grid_forget()
+        self.label_mmc.grid_forget()
+        self.btn_client_mmc.grid_forget()
+        self.btn_server_mmc.grid_forget()
+        self.btn_generate_all.grid_forget()
+        self.btn_update_nightly.grid_forget()
+        self.btn_update_assets.grid_forget()
 
         self.update_idletasks()
