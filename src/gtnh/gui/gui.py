@@ -1,5 +1,6 @@
 import asyncio
-from tkinter import Tk
+from pathlib import Path
+from tkinter import PhotoImage, Tk
 from tkinter.messagebox import showerror, showinfo
 from typing import Any, Dict, List, Optional, Union
 
@@ -15,7 +16,8 @@ from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.modpack_manager import GTNHModpackManager
 
-ASYNC_SLEEP = 0.05
+ASYNC_SLEEP: float = 0.05
+ICON: Path = Path(__file__).parent.parent.parent.parent / "icon.png"
 
 
 class App:
@@ -46,6 +48,8 @@ class Window(Tk):
         self._client: Optional[httpx.AsyncClient] = None
         self._modpack_manager: Optional[GTNHModpackManager] = None
         self._run: bool = True
+        self.title("DreamAssemblerXXL")
+        self.iconphoto(False, PhotoImage(file=ICON))
 
         self.github_mods: Dict[str, str] = {}  # name <-> version of github mods mappings for the current release
         self.gtnh_config: str = ""  # modpack asset version
