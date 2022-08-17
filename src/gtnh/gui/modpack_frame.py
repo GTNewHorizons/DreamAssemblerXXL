@@ -117,8 +117,8 @@ class ModpackFrame(LabelFrame):
         self.columnconfigure(1, weight=1, pad=self.ypadding)
         self.rowconfigure(0, weight=1, pad=self.xpadding)
 
-        self.modpack_list.grid(row=0, column=0)
-        self.action_frame.grid(row=0, column=1, sticky="NS")
+        self.modpack_list.grid(row=0, column=0, sticky="WENS")
+        self.action_frame.grid(row=0, column=1, sticky="WENS")
 
         self.modpack_list.show()
         self.action_frame.show()
@@ -242,10 +242,10 @@ class ModpackList(LabelFrame):
 
         self.lb_modpack_versions.grid(row=0, column=0, columnspan=2, sticky="WE")
         self.scrollbar.grid(row=0, column=2, columnspan=2, sticky="NS")
-        self.btn_load.grid(row=1, column=0)
-        self.btn_del.grid(row=1, column=1, columnspan=2)
-        self.entry.grid(row=2, column=0)
-        self.btn_add.grid(row=2, column=1, columnspan=2)
+        self.btn_load.grid(row=1, column=0, sticky="ES")
+        self.btn_del.grid(row=1, column=1, columnspan=2, sticky="WS")
+        self.entry.grid(row=2, column=0, sticky="EN")
+        self.btn_add.grid(row=2, column=1, columnspan=2, sticky="WN")
 
         self.update_idletasks()
 
@@ -445,21 +445,25 @@ class ActionFrame(LabelFrame):
         self.pb_global.grid(row=x + 1, column=y, columnspan=4)
         self.label_pb_current_task.grid(row=x + 2, column=y, columnspan=4)
         self.pb_current_task.grid(row=x + 3, column=y, columnspan=4)
-        self.label_cf.grid(row=x + 4, column=y)
-        self.btn_client_cf.grid(row=x + 5, column=y)
-        self.btn_server_cf.grid(row=x + 6, column=y)
-        self.label_technic.grid(row=x + 4, column=y + 1)
-        self.btn_client_technic.grid(row=x + 5, column=y + 1)
-        self.btn_server_technic.grid(row=x + 6, column=y + 1)
-        self.label_modrinth.grid(row=x + 4, column=y + 2)
-        self.btn_client_modrinth.grid(row=x + 5, column=y + 2)
-        self.btn_server_modrinth.grid(row=x + 6, column=y + 2)
-        self.label_mmc.grid(row=x + 4, column=y + 3)
-        self.btn_client_mmc.grid(row=x + 5, column=y + 3)
-        self.btn_server_mmc.grid(row=x + 6, column=y + 3)
-        self.btn_generate_all.grid(row=x + 7, column=y + 1, columnspan=2)
-        self.btn_update_nightly.grid(row=x + 7, column=y, columnspan=2)
-        self.btn_update_assets.grid(row=x + 7, column=y + 2, columnspan=2)
+
+        self.label_cf.grid(row=x + 4, column=y, sticky="S")
+        self.label_technic.grid(row=x + 4, column=y + 1, sticky="S")
+        self.label_modrinth.grid(row=x + 4, column=y + 2, sticky="S")
+        self.label_mmc.grid(row=x + 4, column=y + 3, sticky="S")
+
+        self.btn_client_cf.grid(row=x + 5, column=y, sticky="S")
+        self.btn_client_technic.grid(row=x + 5, column=y + 1, sticky="S")
+        self.btn_client_modrinth.grid(row=x + 5, column=y + 2, sticky="S")
+        self.btn_client_mmc.grid(row=x + 5, column=y + 3, sticky="S")
+
+        self.btn_server_cf.grid(row=x + 6, column=y, sticky="N")
+        self.btn_server_technic.grid(row=x + 6, column=y + 1, sticky="N")
+        self.btn_server_modrinth.grid(row=x + 6, column=y + 2, sticky="N")
+        self.btn_server_mmc.grid(row=x + 6, column=y + 3, sticky="N")
+
+        self.btn_generate_all.grid(row=x + 7, column=y + 1, columnspan=2, sticky="N")
+        self.btn_update_nightly.grid(row=x + 7, column=y, columnspan=2, sticky="N")
+        self.btn_update_assets.grid(row=x + 7, column=y + 2, columnspan=2, sticky="N")
 
         self.update_idletasks()
 

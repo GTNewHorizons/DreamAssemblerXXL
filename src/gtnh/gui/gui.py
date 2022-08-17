@@ -1,5 +1,6 @@
 import asyncio
 from tkinter import Button, Tk
+
 from tkinter.messagebox import showerror, showinfo
 from typing import Any, Dict, List, Optional, Union
 
@@ -16,7 +17,6 @@ from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.modpack_manager import GTNHModpackManager
 
 ASYNC_SLEEP = 0.05
-
 
 class App:
     """
@@ -115,8 +115,6 @@ class Window(Tk):
 
         width: int = self.github_mod_frame.get_width()
         self.external_mod_frame.set_width(width)
-
-        self.btn_debug = Button(text="update", command=self.modpack_list_frame.action_frame.update_widget)
 
     async def assemble_mmc_release(self, side: str) -> None:
         """
@@ -371,25 +369,24 @@ class Window(Tk):
         """
 
         # auto resize config
-        for i in range(5):
+        for i in range(6):
             self.columnconfigure(i, weight=1)
             self.rowconfigure(i, weight=1)
 
         # display child widgets
-        self.github_mod_frame.grid(row=0, column=0, rowspan=2)
-        self.external_mod_frame.grid(row=2, column=0, rowspan=2)
-        self.modpack_list_frame.grid(row=0, column=1, columnspan=2, sticky="N")
-        #self.exclusion_frame_client.grid(row=1, column=1, sticky="WENS", rowspan=3)
-        #self.exclusion_frame_server.grid(row=1, column=2, sticky="WENS", rowspan=2)
+        self.github_mod_frame.grid(row=0, column=0, rowspan=1, sticky="WENS")
+        self.external_mod_frame.grid(row=1, column=0, rowspan=1, sticky="WENS")
+        self.modpack_list_frame.grid(row=0, column=1, columnspan=4, sticky="WENS")
+        self.exclusion_frame_client.grid(row=1, column=1, columnspan=2, sticky="WENS")
+        self.exclusion_frame_server.grid(row=1, column=3, columnspan=2, sticky="WENS")
 
-        self.btn_debug.grid(row=10, column=10)
 
         # child widget's inner display
         self.github_mod_frame.show()
         self.external_mod_frame.show()
         self.modpack_list_frame.show()
-        #self.exclusion_frame_client.show()
-        #self.exclusion_frame_server.show()
+        self.exclusion_frame_client.show()
+        self.exclusion_frame_server.show()
 
     async def get_modpack_versions(self) -> List[str]:
         """

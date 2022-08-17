@@ -1,11 +1,11 @@
 from tkinter import END, Button, Entry, LabelFrame, Listbox, Scrollbar, StringVar
-from typing import Any, Callable, Dict, List, Tuple
+from typing import Any, Callable, Dict, List, Tuple, Optional
 
 
 class ExclusionFrame(LabelFrame):
     """Widget managing an exclusion list."""
 
-    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Any], **kwargs: Any) -> None:
+    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Any], width:Optional[int]=None, **kwargs: Any) -> None:
         """
         Constructor of the ExclusionFrame class.
 
@@ -16,8 +16,11 @@ class ExclusionFrame(LabelFrame):
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0  # todo: tune this
-        self.ypadding: int = 20  # todo: tune this
-        self.listbox: Listbox = Listbox(self, exportselection=False)
+        self.ypadding: int = 0  # todo: tune this
+        self.btn_add_text:str = "add new exclusion"
+        self.btn_del_text:str = "remove highlighted"
+        self.width:int = width if width is not None else max(len(self.btn_add_text), len(self.btn_del_text))
+        self.listbox: Listbox = Listbox(self, exportselection=False, height=16)
         self.sv_entry: StringVar = StringVar(value="")
         self.entry: Entry = Entry(self, textvariable=self.sv_entry)
         self.btn_add: Button = Button(self, text="add new exclusion", command=self.add)
@@ -28,6 +31,8 @@ class ExclusionFrame(LabelFrame):
         self.scrollbar: Scrollbar = Scrollbar(self)
         self.listbox.configure(yscrollcommand=self.scrollbar.set)
         self.scrollbar.configure(command=self.listbox.yview)
+
+        self.update_widget()
 
     def add_to_list_sorted(self, elem: str) -> None:
         """
@@ -69,6 +74,56 @@ class ExclusionFrame(LabelFrame):
             self.listbox.delete(position)
             self.del_callback(exclusion)
 
+    def configure_widgets(self) -> None:
+        """
+        Method to configure the widgets.
+
+        :return: None
+        """
+
+        self.entry.configure(width=2*(self.width+4))
+        self.btn_add.configure(width=self.width)
+        self.btn_del.configure(width=self.width)
+
+    def set_width(self, width: int) -> None:
+        """
+        Method to set the widgets' width.
+
+        :param width: the new width
+        :return: None
+        """
+        self.width = width
+        self.configure_widgets()
+
+    def get_width(self) -> int:
+        """
+        Getter for self.width.
+
+        :return: the width in character sizes of the normalised widgets
+        """
+        return self.width
+
+    def update_widget(self) -> None:
+        """
+        Method to update the widget and all its childs
+
+        :return: None
+        """
+        self.hide()
+        self.configure_widgets()
+        self.show()
+
+    def hide(self) -> None:
+        """
+        Method to hide the widget and all its childs
+        :return None:
+        """
+        self.listbox.grid_forget()
+        self.scrollbar.grid_forget()
+        self.entry.grid_forget()
+        self.btn_add.grid_forget()
+        self.btn_del.grid_forget()
+
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -84,11 +139,11 @@ class ExclusionFrame(LabelFrame):
         self.columnconfigure(0, weight=1, pad=self.ypadding)
         self.columnconfigure(1, weight=1, pad=self.ypadding)
 
-        self.listbox.grid(row=x, column=y, columnspan=2, sticky="WENS")
+        self.listbox.grid(row=x, column=y, columnspan=2, sticky="WE")
         self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky="NS")
-        self.entry.grid(row=x + 1, column=y, columnspan=2, sticky="WE")
-        self.btn_add.grid(row=x + 2, column=y, sticky="WE")
-        self.btn_del.grid(row=x + 2, column=y + 1, sticky="WE")
+        self.entry.grid(row=x + 1, column=y, columnspan=3)
+        self.btn_add.grid(row=x + 2, column=y, sticky="NE")
+        self.btn_del.grid(row=x + 2, column=y + 1, columnspan=2, sticky="WN")
 
     def populate_data(self, data: Dict[str, Any]) -> None:
         """
