@@ -116,7 +116,7 @@ class Window(Tk):
         width: int = self.github_mod_frame.get_width()
         self.external_mod_frame.set_width(width)
 
-        self.btn_debug = Button(text="update", command=self.external_mod_frame.update_widget)
+        self.btn_debug = Button(text="update", command=self.modpack_list_frame.action_frame.update_widget)
 
     async def assemble_mmc_release(self, side: str) -> None:
         """
@@ -371,16 +371,16 @@ class Window(Tk):
         """
 
         # auto resize config
-        for i in range(3):
+        for i in range(5):
             self.columnconfigure(i, weight=1)
             self.rowconfigure(i, weight=1)
 
         # display child widgets
-        self.github_mod_frame.grid(row=0, column=0)
-        self.external_mod_frame.grid(row=2, column=0)
-        self.modpack_list_frame.grid(row=0, column=1, columnspan=2, sticky="WENS")
-        self.exclusion_frame_client.grid(row=1, column=1, sticky="WENS", rowspan=3)
-        self.exclusion_frame_server.grid(row=1, column=2, sticky="WENS", rowspan=2)
+        self.github_mod_frame.grid(row=0, column=0, rowspan=2)
+        self.external_mod_frame.grid(row=2, column=0, rowspan=2)
+        self.modpack_list_frame.grid(row=0, column=1, columnspan=2, sticky="N")
+        #self.exclusion_frame_client.grid(row=1, column=1, sticky="WENS", rowspan=3)
+        #self.exclusion_frame_server.grid(row=1, column=2, sticky="WENS", rowspan=2)
 
         self.btn_debug.grid(row=10, column=10)
 
@@ -388,8 +388,8 @@ class Window(Tk):
         self.github_mod_frame.show()
         self.external_mod_frame.show()
         self.modpack_list_frame.show()
-        self.exclusion_frame_client.show()
-        self.exclusion_frame_server.show()
+        #self.exclusion_frame_client.show()
+        #self.exclusion_frame_server.show()
 
     async def get_modpack_versions(self) -> List[str]:
         """
