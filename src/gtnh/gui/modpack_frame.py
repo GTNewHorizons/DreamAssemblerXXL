@@ -161,7 +161,7 @@ class ModpackList(LabelFrame):
         self.lb_modpack_versions.bind("<<ListboxSelect>>", self.on_listbox_click)
 
         self.scrollbar: Scrollbar = Scrollbar(self)
-        self.lb_modpack_versions.configure(yscrollcommand=self.scrollbar.set)
+        self.lb_modpack_versions.configure(yscrollcommand=self.scrollbar.set, height=19)
         self.scrollbar.configure(command=self.lb_modpack_versions.yview)
 
         self.btn_load: Button = Button(
