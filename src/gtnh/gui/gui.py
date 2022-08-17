@@ -1,6 +1,5 @@
 import asyncio
-from tkinter import Button, Tk
-
+from tkinter import Tk
 from tkinter.messagebox import showerror, showinfo
 from typing import Any, Dict, List, Optional, Union
 
@@ -17,6 +16,7 @@ from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.modpack_manager import GTNHModpackManager
 
 ASYNC_SLEEP = 0.05
+
 
 class App:
     """
@@ -379,7 +379,6 @@ class Window(Tk):
         self.modpack_list_frame.grid(row=0, column=1, columnspan=4, sticky="WENS")
         self.exclusion_frame_client.grid(row=1, column=1, columnspan=2, sticky="WENS")
         self.exclusion_frame_server.grid(row=1, column=3, columnspan=2, sticky="WENS")
-
 
         # child widget's inner display
         self.github_mod_frame.show()

@@ -138,7 +138,9 @@ class ModpackFrame(LabelFrame):
 class ModpackList(LabelFrame):
     """Widget ruling the list of modpack versions"""
 
-    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Any],width: Optional[int]=None, **kwargs: Any) -> None:
+    def __init__(
+        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+    ) -> None:
         """
         Constructor of the ModpackList class.
 
@@ -151,11 +153,13 @@ class ModpackList(LabelFrame):
         self.xpadding: int = 0  # todo: tune this
         self.ypadding: int = 0  # todo: tune this
 
-        self.btn_load_text:str = "Load version"
-        self.btn_del_text:str = "Delete version"
-        self.btn_add_text:str = "Add / Update"
+        self.btn_load_text: str = "Load version"
+        self.btn_del_text: str = "Delete version"
+        self.btn_add_text: str = "Add / Update"
 
-        self.width:int = width if width is not None else max(len(self.btn_del_text), len(self.btn_add_text), len(self.btn_load_text))
+        self.width: int = (
+            width if width is not None else max(len(self.btn_del_text), len(self.btn_add_text), len(self.btn_load_text))
+        )
 
         self.lb_modpack_versions: Listbox = Listbox(self, exportselection=False)
         self.lb_modpack_versions.bind("<<ListboxSelect>>", self.on_listbox_click)
@@ -172,7 +176,9 @@ class ModpackList(LabelFrame):
         )
         self.sv_entry: StringVar = StringVar(self)
         self.entry: Entry = Entry(self, textvariable=self.sv_entry)
-        self.btn_add: Button = Button(self, text=self.btn_add_text, command=lambda: self.btn_add_command(callbacks["add"]))
+        self.btn_add: Button = Button(
+            self, text=self.btn_add_text, command=lambda: self.btn_add_command(callbacks["add"])
+        )
 
         self.update_widget()
 
@@ -184,7 +190,7 @@ class ModpackList(LabelFrame):
         """
         self.btn_load.configure(width=self.width)
         self.btn_del.configure(width=self.width)
-        self.entry.configure(width=self.width+4)
+        self.entry.configure(width=self.width + 4)
         self.btn_add.configure(width=self.width)
 
     def set_width(self, width: int) -> None:
@@ -319,7 +325,9 @@ class ActionFrame(LabelFrame):
     Widget managing all the buttons related to pack assembling.
     """
 
-    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Any], width:Optional[int]=None, **kwargs: Any):
+    def __init__(
+        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+    ):
         """
         Constructor of the ActionFrame class.
 
@@ -336,59 +344,41 @@ class ActionFrame(LabelFrame):
         generate_all_text: str = "Generate all archives"
         update_nightly_text: str = "Update nightly"
         update_assets_text: str = "Update assets"
-        cf_text:str="CurseForge"
-        technic_text:str="Technic"
-        mr_text:str="Modrinth"
-        mmc_text:str="MultiMC"
-        self.width: int = width if width is not None else max(
-            len(client_archive_text),
-            len(server_archive_text),
-            len(generate_all_text),
-            len(update_nightly_text),
-            len(update_assets_text),
-            len(cf_text),
-            len(technic_text),
-            len(mr_text),
-            len(mmc_text)
+        cf_text: str = "CurseForge"
+        technic_text: str = "Technic"
+        mr_text: str = "Modrinth"
+        mmc_text: str = "MultiMC"
+        self.width: int = (
+            width
+            if width is not None
+            else max(
+                len(client_archive_text),
+                len(server_archive_text),
+                len(generate_all_text),
+                len(update_nightly_text),
+                len(update_assets_text),
+                len(cf_text),
+                len(technic_text),
+                len(mr_text),
+                len(mmc_text),
+            )
         )
 
         self.label_cf: Label = Label(self, text=cf_text)
-        self.btn_client_cf: Button = Button(
-            self, text=client_archive_text, command=callbacks["client_cf"]
-        )
-        self.btn_server_cf: Button = Button(
-            self, text=server_archive_text, command=callbacks["server_cf"]
-        )
+        self.btn_client_cf: Button = Button(self, text=client_archive_text, command=callbacks["client_cf"])
+        self.btn_server_cf: Button = Button(self, text=server_archive_text, command=callbacks["server_cf"])
         self.label_technic: Label = Label(self, text=technic_text)
-        self.btn_client_technic: Button = Button(
-            self, text=client_archive_text, command=callbacks["client_technic"]
-        )
-        self.btn_server_technic: Button = Button(
-            self, text=server_archive_text, command=callbacks["server_technic"]
-        )
+        self.btn_client_technic: Button = Button(self, text=client_archive_text, command=callbacks["client_technic"])
+        self.btn_server_technic: Button = Button(self, text=server_archive_text, command=callbacks["server_technic"])
         self.label_mmc: Label = Label(self, text=mmc_text)
-        self.btn_client_mmc: Button = Button(
-            self, text=client_archive_text, command=callbacks["client_mmc"]
-        )
-        self.btn_server_mmc: Button = Button(
-            self, text=server_archive_text, command=callbacks["server_mmc"]
-        )
+        self.btn_client_mmc: Button = Button(self, text=client_archive_text, command=callbacks["client_mmc"])
+        self.btn_server_mmc: Button = Button(self, text=server_archive_text, command=callbacks["server_mmc"])
         self.label_modrinth: Label = Label(self, text=mr_text)
-        self.btn_client_modrinth: Button = Button(
-            self, text=client_archive_text, command=callbacks["client_modrinth"]
-        )
-        self.btn_server_modrinth: Button = Button(
-            self, text=server_archive_text, command=callbacks["server_modrinth"]
-        )
-        self.btn_generate_all: Button = Button(
-            self, text="generate all", command=callbacks["generate_all"]
-        )
-        self.btn_update_nightly: Button = Button(
-            self, text="update nightly", command=callbacks["generate_nightly"]
-        )
-        self.btn_update_assets: Button = Button(
-            self, text="update assets", command=callbacks["update_assets"]
-        )
+        self.btn_client_modrinth: Button = Button(self, text=client_archive_text, command=callbacks["client_modrinth"])
+        self.btn_server_modrinth: Button = Button(self, text=server_archive_text, command=callbacks["server_modrinth"])
+        self.btn_generate_all: Button = Button(self, text="generate all", command=callbacks["generate_all"])
+        self.btn_update_nightly: Button = Button(self, text="update nightly", command=callbacks["generate_nightly"])
+        self.btn_update_assets: Button = Button(self, text="update assets", command=callbacks["update_assets"])
 
         progress_bar_length: int = 500
 

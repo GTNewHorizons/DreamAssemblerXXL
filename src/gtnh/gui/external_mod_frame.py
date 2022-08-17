@@ -184,7 +184,7 @@ class ExternalModFrame(LabelFrame):
 
         :return: the width in character sizes of the normalised widgets
         """
-        assert self.width # can't be None because how it's defined in the constructor
+        assert self.width  # can't be None because how it's defined in the constructor
         return self.width
 
     def update_widget(self) -> None:

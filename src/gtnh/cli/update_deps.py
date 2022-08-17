@@ -6,7 +6,8 @@
 # Run in a directory with `dependencies.gradle`.
 #
 # It will :
-# 1) look for any deps of the format "com.github.GTNewHorizons:{mod_name}:{version}'[:qualifier]" and update them to the latest in this file
+# 1) look for any deps of the format "com.github.GTNewHorizons:{mod_name}:{version}'[:qualifier]" and update them to
+# the latest in this file
 # 2) Ensure `repositories.gradle` has the GTNH maven
 #
 # Requires python3 and the `in_place` package

@@ -15,7 +15,8 @@ async def download_mod(mod_name: str, version: str | None = None) -> None:
     async with httpx.AsyncClient(http2=True) as client:
         m = GTNHModpackManager(client)
         log.info(
-            f"Trying to Download mod `{Fore.CYAN}{mod_name}{Fore.RESET}:{Fore.YELLOW}{version or '<latest>'}{Fore.RESET}`"
+            f"Trying to Download mod `{Fore.CYAN}{mod_name}{Fore.RESET}:{Fore.YELLOW}{version or '<latest>'}"
+            f"{Fore.RESET}`"
         )
         mod = m.assets.get_github_mod(mod_name)
         if mod is not None:

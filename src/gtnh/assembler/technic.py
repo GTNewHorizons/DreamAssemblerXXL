@@ -125,7 +125,8 @@
 #             for x in path.iterdir():
 #                 if x.is_dir():
 #                     crawl_zip(x)
-#                 elif x.is_file() and not x.name.endswith(".jar"):  # excluding all the jar files as we use the client dev
+#                 # excluding all the jar files as we use the client dev
+#                 elif x.is_file() and not x.name.endswith(".jar"):
 #                     # pack folder that is already filled with mod jars
 #                     mod_archive.write(x, x.relative_to(modpack_folder))
 #                     log.info(f"zipped {x.relative_to(modpack_folder)}")
@@ -139,7 +140,8 @@
 #     forge_path = destination / "modpack" / "modpack-1.7.10-10.13.4.1614.zip"
 #     os.makedirs(forge_path.parent)
 #     log.info("downloading forge assets")
-#     download_file("http://downloads.gtnewhorizons.com/DreamAssemblerXXL/Technic/modpack-1.7.10-10.13.4.1614.zip", forge_path)
+#     download_file("http://downloads.gtnewhorizons.com/DreamAssemblerXXL/Technic/modpack-1.7.10-10.13.4.1614.zip",
+#     forge_path)
 #
 #     log.info(f"successfully finished the assembling of technic assets. Folder availiable for upload at {destination}")
 #

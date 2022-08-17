@@ -1,11 +1,13 @@
 from tkinter import END, Button, Entry, LabelFrame, Listbox, Scrollbar, StringVar
-from typing import Any, Callable, Dict, List, Tuple, Optional
+from typing import Any, Callable, Dict, List, Optional, Tuple
 
 
 class ExclusionFrame(LabelFrame):
     """Widget managing an exclusion list."""
 
-    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Any], width:Optional[int]=None, **kwargs: Any) -> None:
+    def __init__(
+        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+    ) -> None:
         """
         Constructor of the ExclusionFrame class.
 
@@ -17,9 +19,9 @@ class ExclusionFrame(LabelFrame):
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0  # todo: tune this
         self.ypadding: int = 0  # todo: tune this
-        self.btn_add_text:str = "add new exclusion"
-        self.btn_del_text:str = "remove highlighted"
-        self.width:int = width if width is not None else max(len(self.btn_add_text), len(self.btn_del_text))
+        self.btn_add_text: str = "add new exclusion"
+        self.btn_del_text: str = "remove highlighted"
+        self.width: int = width if width is not None else max(len(self.btn_add_text), len(self.btn_del_text))
         self.listbox: Listbox = Listbox(self, exportselection=False, height=16)
         self.sv_entry: StringVar = StringVar(value="")
         self.entry: Entry = Entry(self, textvariable=self.sv_entry)
@@ -81,7 +83,7 @@ class ExclusionFrame(LabelFrame):
         :return: None
         """
 
-        self.entry.configure(width=2*(self.width+4))
+        self.entry.configure(width=2 * (self.width + 4))
         self.btn_add.configure(width=self.width)
         self.btn_del.configure(width=self.width)
 

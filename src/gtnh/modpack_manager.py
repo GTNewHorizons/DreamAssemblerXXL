@@ -143,7 +143,8 @@ class GTNHModpackManager:
             # Candidate update found
             version_updated = True
             log.info(
-                f"Found candidate newer version for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}{Fore.RESET}"
+                f"Found candidate newer version for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}"
+                f"{Fore.RESET}"
             )
 
         if isinstance(versionable, GTNHModInfo):
@@ -311,7 +312,8 @@ class GTNHModpackManager:
 
             if not mod.has_version(mod_version):
                 log.warn(
-                    f"Version `{Fore.YELLOW}{mod_version}{Fore.RESET} not found for Mod `{Fore.CYAN}{mod.name}{Fore.RESET}`, skipping"
+                    f"Version `{Fore.YELLOW}{mod_version}{Fore.RESET} not found for Mod `{Fore.CYAN}{mod.name}"
+                    f"{Fore.RESET}`, skipping"
                 )
                 continue
 
@@ -477,7 +479,8 @@ class GTNHModpackManager:
         private_repo = f" {Fore.MAGENTA}<PRIVATE REPO>{Fore.RESET}" if asset.private else ""
 
         log.info(
-            f"Downloading {type} Asset `{Fore.CYAN}{asset.name}:{Fore.YELLOW}{asset_version}{Fore.RESET}` from {version.browser_download_url}{private_repo}"
+            f"Downloading {type} Asset `{Fore.CYAN}{asset.name}:{Fore.YELLOW}{asset_version}{Fore.RESET}` from "
+            f"{version.browser_download_url}{private_repo}"
         )
 
         mod_filename = get_asset_version_cache_location(asset, version)
