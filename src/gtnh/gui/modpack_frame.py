@@ -8,18 +8,22 @@ from gtnh.models.gtnh_release import GTNHRelease
 class ModpackFrame(LabelFrame):
     """Main frame for managing the releases."""
 
-    def __init__(self, master: Any, frame_name: str, callbacks: Dict[str, Any], **kwargs: Any) -> None:
+    def __init__(
+        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+    ) -> None:
         """
         Constructor of the ModpackFrame class.
 
         :param master: the parent widget
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
+        :param width: the width to harmonize widgets in characters
         :param kwargs: params to init the parent class
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
-        self.xpadding: int = 0  # todo: tune this
-        self.ypadding: int = 0  # todo: tune this
+        self.xpadding: int = 0
+        self.ypadding: int = 0
+        self.width = width if width is not None else 20  # arbitrary value
         self.generate_nightly_callback: Callable[[], None] = callbacks["generate_nightly"]
         action_callbacks: Dict[str, Any] = {
             "client_cf": lambda: None,
@@ -147,11 +151,12 @@ class ModpackList(LabelFrame):
         :param master: the parent widget
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
+        :param width: the width to harmonize widgets in characters
         :param kwargs: params to init the parent class
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
-        self.xpadding: int = 0  # todo: tune this
-        self.ypadding: int = 0  # todo: tune this
+        self.xpadding: int = 0
+        self.ypadding: int = 0
 
         self.btn_load_text: str = "Load version"
         self.btn_del_text: str = "Delete version"
@@ -334,11 +339,12 @@ class ActionFrame(LabelFrame):
         :param master: the parent widget
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
+        :param width: the width to harmonize widgets in characters
         :param kwargs: params to init the parent class
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
-        self.xpadding: int = 0  # todo: tune this
-        self.ypadding: int = 0  # todo: tune this
+        self.xpadding: int = 0
+        self.ypadding: int = 0
         client_archive_text: str = "client archive"
         server_archive_text: str = "server archive"
         generate_all_text: str = "Generate all archives"

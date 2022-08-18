@@ -24,11 +24,12 @@ class ModInfoFrame(LabelFrame):
         :param master: the parent widget
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
+        :param width: the width to harmonize widgets in characters
         :param kwargs: params to init the parent class
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
-        self.ypadding: int = 0  # todo: tune this
-        self.xpadding: int = 0  # todo: tune this
+        self.ypadding: int = 0
+        self.xpadding: int = 0
         self.callbacks: Dict[str, Any] = callbacks
 
         self.label_mod_name_text: str = "mod name:"

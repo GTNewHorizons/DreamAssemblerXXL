@@ -14,11 +14,12 @@ class ExclusionFrame(LabelFrame):
         :param master: the parent widget
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
+        :param width: the width to harmonize widgets in characters
         :param kwargs: params to init the parent class
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
-        self.xpadding: int = 0  # todo: tune this
-        self.ypadding: int = 0  # todo: tune this
+        self.xpadding: int = 0
+        self.ypadding: int = 0
         self.btn_add_text: str = "add new exclusion"
         self.btn_del_text: str = "remove highlighted"
         self.width: int = width if width is not None else max(len(self.btn_add_text), len(self.btn_del_text))

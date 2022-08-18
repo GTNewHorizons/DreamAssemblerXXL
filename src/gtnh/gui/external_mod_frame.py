@@ -16,11 +16,12 @@ class ExternalModList(LabelFrame):
         :param master: the parent widget
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
+        :param width: the width to harmonize widgets in characters
         :param kwargs: params to init the parent class
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
-        self.ypadding: int = 0  # todo: tune this
-        self.xpadding: int = 0  # todo: tune this
+        self.ypadding: int = 0
+        self.xpadding: int = 0
 
         self.btn_add_text = "add new"
         self.btn_rem_text = "delete highlighted"
@@ -132,10 +133,11 @@ class ExternalModFrame(LabelFrame):
         :param master: the parent widget
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
+        :param width: the width to harmonize widgets in characters
         :param kwargs: params to init the parent class
         """
-        self.ypadding: int = 0  # todo:tune this
-        self.xpadding: int = 0  # todo: tune this
+        self.ypadding: int = 0
+        self.xpadding: int = 0
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
         self.width: Optional[int] = width

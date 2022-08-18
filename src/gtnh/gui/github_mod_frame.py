@@ -23,13 +23,14 @@ class GithubModList(LabelFrame):
         :param master: the parent widget
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
+        :param width: the width to harmonize widgets in characters
         :param kwargs: params to init the parent class
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
         self.get_github_mods_callback: Callable[[], Dict[str, str]] = callbacks["get_github_mods"]
-        self.ypadding: int = 0  # todo: tune this
-        self.xpadding: int = 0  # todo: tune this
+        self.ypadding: int = 0
+        self.xpadding: int = 0
 
         new_repo_text: str = "enter the new repo here"
         add_repo_text: str = "add repository"
@@ -194,11 +195,12 @@ class GithubModFrame(LabelFrame):
         :param master: the parent widget
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
+        :param width: the width to harmonize widgets in characters
         :param kwargs: params to init the parent class
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
-        self.ypadding: int = 0  # todo: tune this
-        self.xpadding: int = 0  # todo: tune this
+        self.ypadding: int = 0
+        self.xpadding: int = 0
         self.width: Optional[int] = width
 
         modpack_version_callbacks: Dict[str, Any] = {"set_modpack_version": callbacks["set_modpack_version"]}
@@ -347,11 +349,12 @@ class ModpackVersionFrame(LabelFrame):
         :param master: the parent widget
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
+        :param width: the width to harmonize widgets in characters
         :param kwargs: params to init the parent class
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
-        self.ypadding: int = 0  # todo: tune this
-        self.xpadding: int = 0  # todo: tune this
+        self.ypadding: int = 0
+        self.xpadding: int = 0
         modpack_version_text: str = "Modpack version:"
         self.width: int = width if width is not None else len(modpack_version_text)
         self.label_modpack_version: Label = Label(self, text=modpack_version_text)
