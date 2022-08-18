@@ -5,7 +5,8 @@ from zipfile import ZipFile
 
 from colorama import Fore
 
-from gtnh.assembler.assembler import log
+from structlog import get_logger
+
 from gtnh.defs import ModSource, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
@@ -13,6 +14,7 @@ from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
+log = get_logger(__name__)
 
 class GenericAssembler:
     def __init__(
@@ -41,7 +43,7 @@ class GenericAssembler:
         ]
 
         external_mods: List[Optional[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]] = [
-            get_mod(name, version, valid_sides, ModSource.github) for name, version in self.release.github_mods.items()
+            get_mod(name, version, valid_sides, ModSource.github) for name, version in self.release.external_mods.items()
         ]
 
         mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = list(filter(None, github_mods + external_mods))
