@@ -1,40 +1,51 @@
 import os
 from pathlib import Path
-from typing import Optional, Callable, List, Tuple, Set, Union, Dict
+from typing import Callable, Dict, List, Optional, Set, Tuple, Union
 from zipfile import ZipFile
 
 from colorama import Fore
 
 from gtnh.assembler.assembler import log
-from gtnh.defs import Side, ModSource
+from gtnh.defs import ModSource, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
-from gtnh.models.mod_info import GTNHModInfo, ExternalModInfo
+from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 
 class GenericAssembler:
-    def __init__(self, gtnh_modpack: GTNHModpackManager, release: GTNHRelease,
-                 progress_callback: Optional[Callable[[str, int], None]] = None):
+    def __init__(
+        self,
+        gtnh_modpack: GTNHModpackManager,
+        release: GTNHRelease,
+        progress_callback: Optional[Callable[[float, str], None]] = None,
+    ):
         self.modpack_manager: GTNHModpackManager = gtnh_modpack
         self.release: GTNHRelease = release
-        self.callback: Optional[Callable[[str, int], None]]
+        self.callback: Optional[Callable[[float, str], None]]
         self.progress_callback = progress_callback
-        self.exclusions: Dict[str, List[str]] = {Side.CLIENT: self.modpack_manager.mod_pack.client_exclusions,
-                                                 Side.SERVER: self.modpack_manager.mod_pack.server_exclusions}
+        self.exclusions: Dict[str, List[str]] = {
+            Side.CLIENT: self.modpack_manager.mod_pack.client_exclusions,
+            Side.SERVER: self.modpack_manager.mod_pack.server_exclusions,
+        }
 
-    def get_mods(self, side):
-        get_mod: Callable[[str, str, Set[Side], ModSource], Optional[
-            tuple[Union[GTNHModInfo, ExternalModInfo], GTNHVersion]]] = self.modpack_manager.assets.get_mod_and_version
+    def get_mods(self, side: Side) -> List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]:
+        get_mod: Callable[
+            [str, str, Set[Side], ModSource], Optional[tuple[Union[GTNHModInfo, ExternalModInfo], GTNHVersion]]
+        ] = self.modpack_manager.assets.get_mod_and_version
         valid_sides: Set[Side] = {side, Side.BOTH}
 
-        github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = [get_mod(name, version, valid_sides, ModSource.github) for
-                                                              name, version in self.release.github_mods.items()]
-        external_mods: List[Tuple[ExternalModInfo, GTNHVersion]] = [
-            get_mod(name, version, valid_sides, ModSource.github) for name, version in self.release.github_mods.items()]
+        github_mods: List[Optional[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]] = [
+            get_mod(name, version, valid_sides, ModSource.github) for name, version in self.release.github_mods.items()
+        ]
 
-        return list(filter(None, github_mods + external_mods))
+        external_mods: List[Optional[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]] = [
+            get_mod(name, version, valid_sides, ModSource.github) for name, version in self.release.github_mods.items()
+        ]
+
+        mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = list(filter(None, github_mods + external_mods))
+        return mods
 
     def get_config(self) -> Tuple[GTNHConfig, GTNHVersion]:
         """
@@ -49,7 +60,7 @@ class GenericAssembler:
         return config, version
 
     def add_mods(
-            self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
+        self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
     ) -> None:
         """
         Method to add mods in the zip archive.
@@ -62,8 +73,9 @@ class GenericAssembler:
         """
         pass
 
-    def add_config(self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile,
-                   verbose: bool = False) -> None:
+    def add_config(
+        self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
+    ) -> None:
         """
         Method to add config in the zip archive.
 
@@ -107,7 +119,7 @@ class GenericAssembler:
         if side not in {Side.CLIENT, Side.SERVER}:
             raise Exception("Can only assemble release for CLIENT or SERVER, not BOTH")
 
-        archive_name:Path = self.get_archive_path(side)
+        archive_name: Path = self.get_archive_path(side)
 
         # deleting any existing archive
         if os.path.exists(archive_name):
@@ -116,14 +128,14 @@ class GenericAssembler:
 
         log.info(f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{archive_name}'{Fore.RESET}")
 
-        with ZipFile(self.get_archive_path(), "w") as archive:
+        with ZipFile(self.get_archive_path(side), "w") as archive:
             log.info("Adding mods to the archive")
             self.add_mods(side, self.get_mods(side), archive, verbose=verbose)
             log.info("Adding config to the archive")
             self.add_config(side, self.get_config(), archive, verbose=verbose)
             self.remove_excluded_files(side, verbose=verbose)
 
-    def get_archive_path(self, side:Side) -> Path:
+    def get_archive_path(self, side: Side) -> Path:
         """
         Method to get the path to the assembled pack release.
 

@@ -1,9 +1,13 @@
-from typing import Optional, Callable
+from typing import Callable, Optional
+
+from structlog import get_logger
 
 from gtnh.assembler.zip_assembler import ZipAssembler
 from gtnh.defs import Side
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.modpack_manager import GTNHModpackManager
+
+log = get_logger(__name__)
 
 
 class ReleaseAssembler:
@@ -29,7 +33,7 @@ class ReleaseAssembler:
         self.release: GTNHRelease = release
         self.callback: Optional[Callable[[float, str], None]] = global_callback
 
-        self.zip_assembler:ZipAssembler = ZipAssembler(mod_manager, release, task_callback)
+        self.zip_assembler: ZipAssembler = ZipAssembler(mod_manager, release, task_callback)
 
         # computation of the progress per mod for the progressbar
         self.count: float = 0.0
@@ -47,5 +51,5 @@ class ReleaseAssembler:
 
         self.assemble_zip(side, verbose)
 
-    def assemble_zip(self, side:Side, verbose:bool=False) -> None:
+    def assemble_zip(self, side: Side, verbose: bool = False) -> None:
         self.zip_assembler.assemble(side, verbose)

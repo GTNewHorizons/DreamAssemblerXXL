@@ -1,11 +1,11 @@
 import shutil
 from pathlib import Path
-from typing import Optional, Callable, Tuple
-from zipfile import ZipFile, ZIP_DEFLATED
+from typing import Callable, Optional, Tuple
+from zipfile import ZIP_DEFLATED, ZipFile
 
-from generic_assembler import GenericAssembler
 from gtnh.assembler.downloader import get_asset_version_cache_location
-from gtnh.defs import Side, RELEASE_ZIP_DIR
+from gtnh.assembler.generic_assembler import GenericAssembler
+from gtnh.defs import RELEASE_ZIP_DIR, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
@@ -14,13 +14,16 @@ from gtnh.modpack_manager import GTNHModpackManager
 
 
 class ZipAssembler(GenericAssembler):
-
-    def __init__(self, gtnh_modpack: GTNHModpackManager, release: GTNHRelease,
-                 progress_callback: Optional[Callable[[str, int], None]] = None):
+    def __init__(
+        self,
+        gtnh_modpack: GTNHModpackManager,
+        release: GTNHRelease,
+        progress_callback: Optional[Callable[[float, str], None]] = None,
+    ):
         GenericAssembler.__init__(self, gtnh_modpack=gtnh_modpack, release=release, progress_callback=progress_callback)
 
     def add_mods(
-            self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
+        self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
     ) -> None:
 
         for mod, version in mods:
@@ -29,8 +32,9 @@ class ZipAssembler(GenericAssembler):
             archive_path: Path = Path("mods") / source_file.name
             archive.write(source_file, arcname=archive_path)
 
-    def add_config(self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile,
-                   verbose: bool = False) -> None:
+    def add_config(
+        self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
+    ) -> None:
         modpack_config: GTNHConfig
         config_version: Optional[GTNHVersion]
         modpack_config, config_version = config
