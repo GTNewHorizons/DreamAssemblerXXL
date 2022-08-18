@@ -19,7 +19,8 @@ def assemble_release(side: Side, release_name: str, verbose: bool) -> None:
     release = modpack_manager.get_release(release_name)
     if not release:
         log.error(
-            f"Release `{Fore.LIGHTRED_EX}{release_name}{Fore.RESET}` not found! Error building {Fore.YELLOW}{side.value}{Fore.RESET} archive."
+            f"Release `{Fore.LIGHTRED_EX}{release_name}{Fore.RESET}` not found! Error building {Fore.YELLOW}"
+            f"{side.value}{Fore.RESET} archive."
         )
         return
 
