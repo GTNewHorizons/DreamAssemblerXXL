@@ -26,8 +26,8 @@ class ExclusionFrame(LabelFrame):
         self.listbox: Listbox = Listbox(self, exportselection=False, height=16)
         self.sv_entry: StringVar = StringVar(value="")
         self.entry: Entry = Entry(self, textvariable=self.sv_entry)
-        self.btn_add: Button = Button(self, text="add new exclusion", command=self.add)
-        self.btn_del: Button = Button(self, text="remove highlighted", command=self.delete)
+        self.btn_add: Button = Button(self, text=self.btn_add_text, command=self.add)
+        self.btn_del: Button = Button(self, text=self.btn_del_text, command=self.delete)
         self.add_callback: Callable[[str], None] = callbacks["add"]
         self.del_callback: Callable[[str], None] = callbacks["del"]
 
