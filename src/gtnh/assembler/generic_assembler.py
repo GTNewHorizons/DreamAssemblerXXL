@@ -100,6 +100,9 @@ class GenericAssembler:
         :param verbose: flag to enable the verbose mode
         :return: None
         """
+        if side not in {Side.CLIENT, Side.SERVER}:
+            raise Exception("Can only assemble release for CLIENT or SERVER, not BOTH")
+        
         with ZipFile(self.get_archive_path(), "w") as archive:
             self.add_mods(side, self.get_mods(side), archive, verbose=verbose)
             self.add_config(side, self.get_config(), archive, verbose=verbose)
