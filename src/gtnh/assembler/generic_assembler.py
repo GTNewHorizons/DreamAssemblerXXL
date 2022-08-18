@@ -1,7 +1,11 @@
+import os
 from pathlib import Path
 from typing import Optional, Callable, List, Tuple, Set, Union, Dict
 from zipfile import ZipFile
 
+from colorama import Fore
+
+from gtnh.assembler.assembler import log
 from gtnh.defs import Side, ModSource
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
@@ -102,13 +106,24 @@ class GenericAssembler:
         """
         if side not in {Side.CLIENT, Side.SERVER}:
             raise Exception("Can only assemble release for CLIENT or SERVER, not BOTH")
-        
+
+        archive_name:Path = self.get_archive_path(side)
+
+        # deleting any existing archive
+        if os.path.exists(archive_name):
+            os.remove(archive_name)
+            log.warn(f"Previous archive {Fore.YELLOW}'{archive_name}'{Fore.RESET} deleted")
+
+        log.info(f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{archive_name}'{Fore.RESET}")
+
         with ZipFile(self.get_archive_path(), "w") as archive:
+            log.info("Adding mods to the archive")
             self.add_mods(side, self.get_mods(side), archive, verbose=verbose)
+            log.info("Adding config to the archive")
             self.add_config(side, self.get_config(), archive, verbose=verbose)
             self.remove_excluded_files(side, verbose=verbose)
 
-    def get_archive_path(self) -> Path:
+    def get_archive_path(self, side:Side) -> Path:
         """
         Method to get the path to the assembled pack release.
 
