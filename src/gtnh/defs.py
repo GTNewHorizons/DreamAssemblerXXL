@@ -13,6 +13,7 @@ SERVER_WORKING_DIR = WORKING_DIR / "server"
 RELEASE_DIR = ROOT_DIR / "releases"
 RELEASE_MANIFEST_DIR = RELEASE_DIR / "manifests"
 RELEASE_ZIP_DIR = RELEASE_DIR / "zip"
+RELEASE_MMC_DIR = RELEASE_DIR / "multi_poly"
 
 AVAILABLE_ASSETS_FILE = "gtnh-assets.json"
 GTNH_MODPACK_FILE = "gtnh-modpack.json"

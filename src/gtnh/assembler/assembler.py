@@ -2,6 +2,7 @@ from typing import Callable, Optional
 
 from structlog import get_logger
 
+from gtnh.assembler.multi_poly import MMCAssembler
 from gtnh.assembler.zip_assembler import ZipAssembler
 from gtnh.defs import Side
 from gtnh.models.gtnh_release import GTNHRelease
@@ -34,6 +35,7 @@ class ReleaseAssembler:
         self.callback: Optional[Callable[[float, str], None]] = global_callback
 
         self.zip_assembler: ZipAssembler = ZipAssembler(mod_manager, release, task_callback)
+        self.mmc_assembler: MMCAssembler = MMCAssembler(mod_manager, release, task_callback)
 
         # computation of the progress per mod for the progressbar
         self.count: float = 0.0
@@ -50,6 +52,10 @@ class ReleaseAssembler:
         """
 
         self.assemble_zip(side, verbose)
+        self.assemble_mmc(side, verbose)
 
     def assemble_zip(self, side: Side, verbose: bool = False) -> None:
         self.zip_assembler.assemble(side, verbose)
+
+    def assemble_mmc(self, side: Side, verbose: bool = False) -> None:
+        self.mmc_assembler.assemble(side, verbose)
