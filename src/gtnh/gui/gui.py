@@ -1,4 +1,5 @@
 import asyncio
+from enum import Enum
 from pathlib import Path
 from tkinter import PhotoImage, Tk
 from tkinter.messagebox import showerror, showinfo
@@ -18,6 +19,14 @@ from gtnh.modpack_manager import GTNHModpackManager
 
 ASYNC_SLEEP: float = 0.05
 ICON: Path = Path(__file__).parent.parent.parent.parent / "icon.png"
+
+
+class Archive(str, Enum):
+    MMC = "MMC"
+    TECHNIC = "Technic"
+    ZIP = "zip"
+    CURSEFORGE = "CurseForge"
+    MODRINTH = "Modrinth"
 
 
 class App:
@@ -91,6 +100,8 @@ class Window(Tk):
             "generate_nightly": lambda: asyncio.ensure_future(self.generate_nightly()),
             "client_mmc": lambda: asyncio.ensure_future(self.assemble_mmc_release("CLIENT")),
             "server_mmc": lambda: asyncio.ensure_future(self.assemble_mmc_release("SERVER")),
+            "client_zip": lambda: asyncio.ensure_future(self.assemble_zip_release("CLIENT")),
+            "server_zip": lambda: asyncio.ensure_future(self.assemble_zip_release("SERVER")),
         }
 
         self.modpack_list_frame: ModpackFrame = ModpackFrame(
@@ -120,13 +131,27 @@ class Window(Tk):
         width: int = self.github_mod_frame.get_width()
         self.external_mod_frame.set_width(width)
 
-    async def assemble_mmc_release(self, side: str) -> None:
+    async def assemble_mmc_release(self, side: Side) -> None:
         """
         Method used to trigger the assembling of the mmc pack archive corresponding to the provided side.
 
         :param side: side of the modpack
         :return: None
         """
+        release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.MMC)
+        release_assembler.assemble_mmc(side, verbose=True)
+
+    async def assemble_zip_release(self, side: Side) -> None:
+        """
+        Method used to trigger the assembling of the zip pack archive corresponding to the provided side.
+
+        :param side: side of the modpack
+        :return: None
+        """
+        release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.ZIP)
+        release_assembler.assemble_zip(side, verbose=True)
+
+    async def pre_assembling(self, archive: Archive) -> ReleaseAssembler:
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         release: GTNHRelease = GTNHRelease(
             version=self.version,
@@ -152,9 +177,8 @@ class Window(Tk):
         global_callback(delta_progress, "Downloading assets")
         await gtnh.download_release(release, callback=progress_callback)
         current_task_reset_callback()
-        global_callback(delta_progress, "Assembling the MMC archive")
-        ReleaseAssembler(gtnh, release, task_callback=progress_callback, global_callback=global_callback) \
-            .assemble_mmc(Side[side], verbose=True)
+        global_callback(delta_progress, f"Assembling the {archive} archive")
+        return ReleaseAssembler(gtnh, release, task_callback=progress_callback, global_callback=global_callback)
 
     async def add_exclusion(self, side: str, exclusion: str) -> None:
         """
