@@ -2,6 +2,7 @@ import asyncio
 import itertools
 import json
 import os
+from collections import defaultdict
 from pathlib import Path
 from typing import Callable, Optional
 
@@ -38,7 +39,7 @@ from gtnh.models.gtnh_release import GTNHRelease, load_release, save_release
 from gtnh.models.gtnh_version import version_from_release
 from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
 from gtnh.models.versionable import Versionable, version_is_newer, version_sort_key
-from gtnh.utils import AttributeDict, get_github_token, index
+from gtnh.utils import AttributeDict, blockquote, get_github_token, index
 
 log = get_logger(__name__)
 
@@ -585,6 +586,61 @@ class GTNHModpackManager:
 
         return downloaded
 
+    def generate_changelog(
+        self, release: GTNHRelease, previous_release: GTNHRelease | None = None, include_no_changelog: bool = False
+    ) -> dict[str, list[str]]:
+        """
+        Generate a changelog between two releases.  If the `previous_release` is None, generate it for all of history
+        :returns: dict[mod_name, list[version_changes]]
+        """
+        removed_mods = set()
+        new_mods = set()
+        version_changes = {}
+
+        changelog: dict[str, list[str]] = defaultdict(list)
+
+        if previous_release is not None:
+            removed_mods |= set(previous_release.github_mods.keys() - release.github_mods.keys())
+            removed_mods |= set(previous_release.external_mods.keys() - release.external_mods.keys())
+
+            new_mods |= set(release.github_mods.keys() - previous_release.github_mods.keys())
+            new_mods |= set(release.external_mods.keys() - previous_release.external_mods.keys())
+
+            changed_github_mods = set(release.github_mods.keys() & previous_release.github_mods.keys())
+            for mod_name in changed_github_mods | new_mods:
+                version_changes[mod_name] = (
+                    previous_release.github_mods.get(mod_name, None),
+                    release.github_mods[mod_name],
+                )
+        else:
+            changed_github_mods = set(release.github_mods.keys())
+            for mod_name in changed_github_mods:
+                version_changes[mod_name] = (None, release.github_mods[mod_name])
+
+        # Changes
+        for mod_name, (old_version, new_version) in version_changes.items():
+            if old_version == new_version:
+                continue
+
+            mod = self.assets.get_github_mod(mod_name)
+            mod_versions = mod.get_versions(left=old_version, right=new_version)
+
+            changes = changelog[mod_name]
+
+            if mod_name in new_mods:
+                changes.append(f"# New Mod - {mod_name}:{new_version}")
+            else:
+                old_version_str = f"{old_version} -->" if old_version else ""
+                changes.append(f"# Updated - {mod_name} - {old_version_str}{new_version}")
+
+            for version in reversed(mod_versions):
+                if version.changelog:
+                    changes.append(f"## *{version.version_tag}*\n" + blockquote(version.changelog) + "\n")
+                elif include_no_changelog:
+                    changes.append(f">## *{version.version_tag}*\n" + ">**No Changelog Found**" + "\n")
+
+        return changelog
+
     def set_github_mod_side(self, mod_name: str, side: str) -> bool:
         if self.assets.has_github_mod(mod_name):
             mod: GTNHModInfo = self.assets.get_github_mod(mod_name)
@@ -596,7 +652,7 @@ class GTNHModpackManager:
             log.warn(f"{Fore.YELLOW}{mod.name}'s side is already set to {side}{Fore.RESET}")
             return False
 
-        if side in [side.name for side in Side]:
+        if side in [s.name for s in Side]:
             mod.side = Side[side]
             # idk a better way of doing this
             index: int = 0
