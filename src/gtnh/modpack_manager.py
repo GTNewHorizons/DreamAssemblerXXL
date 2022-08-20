@@ -617,6 +617,14 @@ class GTNHModpackManager:
             for mod_name in changed_github_mods:
                 version_changes[mod_name] = (None, release.github_mods[mod_name])
 
+        if new_mods:
+            changelog["new_mods"].append("# New Mods: ")
+            changelog["new_mods"].extend([f"> {mod_name}" for mod_name in new_mods])
+
+        if removed_mods:
+            changelog["removed_mods"].append("# Mods Removed: ")
+            changelog["removed_mods"].extend([f"> {mod_name}" for mod_name in removed_mods])
+
         # Changes
         for mod_name, (old_version, new_version) in version_changes.items():
             if old_version == new_version:
