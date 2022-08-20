@@ -125,3 +125,7 @@ def index(elements_list: List[Any], element: Any) -> int:
     if i != len(elements_list) and elements_list[i] == element:
         return i
     raise ValueError
+
+
+def blockquote(input_str: str) -> str:
+    return "\n".join(f">{s}" for s in input_str.split("\n"))

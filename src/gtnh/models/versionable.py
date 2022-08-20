@@ -43,6 +43,15 @@ class Versionable(BaseModel):
     def has_version(self, version: str) -> bool:
         return self.get_version_idx(version) is not None
 
+    def get_versions(self, left: str | None, right: str) -> list[GTNHVersion]:
+        if not left:
+            right_idx = bisect.bisect_left(self.versions, LegacyVersion(right), key=version_sort_key)  # type: ignore
+            return self.versions[:right_idx]
+
+        left_idx = bisect.bisect_left(self.versions, LegacyVersion(left), key=version_sort_key)  # type: ignore
+        right_idx = bisect.bisect_left(self.versions, LegacyVersion(right), key=version_sort_key)  # type: ignore
+        return self.versions[left_idx:right_idx]
+
 
 def version_sort_key(version: GTNHVersion) -> LegacyVersion:
     return LegacyVersion(version.version_tag)
