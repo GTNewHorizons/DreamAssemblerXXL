@@ -26,17 +26,17 @@ class ModpackFrame(LabelFrame):
         self.width = width if width is not None else 20  # arbitrary value
         self.generate_nightly_callback: Callable[[], None] = callbacks["generate_nightly"]
         action_callbacks: Dict[str, Any] = {
-            "client_cf": lambda: None,
-            "client_modrinth": lambda: None,
+            "client_cf": callbacks["client_curse"],
+            "client_modrinth": callbacks["client_modrinth"],
             "client_mmc": callbacks["client_mmc"],
-            "client_technic": lambda: None,
+            "client_technic": callbacks["client_technic"],
             "client_zip": callbacks["server_zip"],
-            "server_cf": lambda: None,
-            "server_modrinth": lambda: None,
+            "server_cf": callbacks["server_curse"],
+            "server_modrinth": callbacks["server_modrinth"],
             "server_mmc": callbacks["server_mmc"],
-            "server_technic": lambda: None,
+            "server_technic": callbacks["server_technic"],
             "server_zip": callbacks["server_zip"],
-            "generate_all": lambda: None,
+            "generate_all": callbacks["all"],
             "generate_nightly": self.update_nightly,
             "update_assets": callbacks["update_assets"],
         }

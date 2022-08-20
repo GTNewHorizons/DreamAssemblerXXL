@@ -14,6 +14,16 @@ RELEASE_DIR = ROOT_DIR / "releases"
 RELEASE_MANIFEST_DIR = RELEASE_DIR / "manifests"
 RELEASE_ZIP_DIR = RELEASE_DIR / "zip"
 RELEASE_MMC_DIR = RELEASE_DIR / "multi_poly"
+RELEASE_TECHNIC_DIR = RELEASE_DIR / "technic"
+RELEASE_CURSE_DIR = RELEASE_DIR / "curse"
+RELEASE_MODRINTH_DIR = RELEASE_DIR / "modrinth"
+
+class Archive(str, Enum):
+    MMC = "MMC"
+    TECHNIC = "Technic"
+    ZIP = "zip"
+    CURSEFORGE = "CurseForge"
+    MODRINTH = "Modrinth"
 
 AVAILABLE_ASSETS_FILE = "gtnh-assets.json"
 GTNH_MODPACK_FILE = "gtnh-modpack.json"

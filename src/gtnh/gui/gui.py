@@ -8,7 +8,7 @@ from typing import Any, Callable, Dict, List, Optional, Union
 import httpx
 
 from gtnh.assembler.assembler import ReleaseAssembler
-from gtnh.defs import Side
+from gtnh.defs import Side, Archive
 from gtnh.gui.exclusion_frame import ExclusionFrame
 from gtnh.gui.external_mod_frame import ExternalModFrame
 from gtnh.gui.github_mod_frame import GithubModFrame
@@ -21,12 +21,6 @@ ASYNC_SLEEP: float = 0.05
 ICON: Path = Path(__file__).parent.parent.parent.parent / "icon.png"
 
 
-class Archive(str, Enum):
-    MMC = "MMC"
-    TECHNIC = "Technic"
-    ZIP = "zip"
-    CURSEFORGE = "CurseForge"
-    MODRINTH = "Modrinth"
 
 
 class App:
@@ -98,10 +92,17 @@ class Window(Tk):
             "delete": lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)),
             "update_assets": lambda: asyncio.ensure_future(self.update_assets()),
             "generate_nightly": lambda: asyncio.ensure_future(self.generate_nightly()),
-            "client_mmc": lambda: asyncio.ensure_future(self.assemble_mmc_release("CLIENT")),
-            "server_mmc": lambda: asyncio.ensure_future(self.assemble_mmc_release("SERVER")),
-            "client_zip": lambda: asyncio.ensure_future(self.assemble_zip_release("CLIENT")),
-            "server_zip": lambda: asyncio.ensure_future(self.assemble_zip_release("SERVER")),
+            "client_mmc": lambda: asyncio.ensure_future(self.assemble_mmc_release(Side.CLIENT)),
+            "server_mmc": lambda: asyncio.ensure_future(self.assemble_mmc_release(Side.SERVER)),
+            "client_zip": lambda: asyncio.ensure_future(self.assemble_zip_release(Side.CLIENT)),
+            "server_zip": lambda: asyncio.ensure_future(self.assemble_zip_release(Side.SERVER)),
+            "server_curse": lambda: asyncio.ensure_future(self.assemble_curse_release(Side.SERVER)),
+            "client_curse": lambda: asyncio.ensure_future(self.assemble_curse_release(Side.CLIENT)),
+            "server_modrinth": lambda: asyncio.ensure_future(self.assemble_modrinth_release(Side.SERVER)),
+            "client_modrinth": lambda: asyncio.ensure_future(self.assemble_modrinth_release(Side.CLIENT)),
+            "server_technic": lambda: asyncio.ensure_future(self.assemble_technic_release(Side.SERVER)),
+            "client_technic": lambda: asyncio.ensure_future(self.assemble_technic_release(Side.CLIENT)),
+            "all": lambda: asyncio.ensure_future(self.assemble_all)
         }
 
         self.modpack_list_frame: ModpackFrame = ModpackFrame(
@@ -151,6 +152,36 @@ class Window(Tk):
         release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.ZIP)
         release_assembler.assemble_zip(side, verbose=True)
 
+    async def assemble_technic_release(self, side: Side) -> None:
+        """
+        Method used to trigger the assembling of the technic pack archive corresponding to the provided side.
+
+        :param side: side of the modpack
+        :return: None
+        """
+        release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.ZIP)
+        release_assembler.assemble_technic(side, verbose=True)
+
+    async def assemble_modrinth_release(self, side: Side) -> None:
+        """
+        Method used to trigger the assembling of the modrinth pack archive corresponding to the provided side.
+
+        :param side: side of the modpack
+        :return: None
+        """
+        release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.MODRINTH)
+        release_assembler.assemble_modrinth(side, verbose=True)
+
+    async def assemble_curse_release(self, side: Side) -> None:
+        """
+        Method used to trigger the assembling of the curse pack archive corresponding to the provided side.
+
+        :param side: side of the modpack
+        :return: None
+        """
+        release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.CURSEFORGE)
+        release_assembler.assemble_curse(side, verbose=True)
+
     async def pre_assembling(self, archive: Archive) -> ReleaseAssembler:
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         release: GTNHRelease = GTNHRelease(
@@ -179,6 +210,17 @@ class Window(Tk):
         current_task_reset_callback()
         global_callback(delta_progress, f"Assembling the {archive} archive")
         return ReleaseAssembler(gtnh, release, task_callback=progress_callback, global_callback=global_callback)
+
+    async def assemble_all(self)->None:
+        """
+        Assemble all the archives.
+
+        :return: None
+        """
+        release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.CURSEFORGE)
+        release_assembler.set_progress(100/(1+5+5)) # download + archives for client + archive for server
+        for side in [Side.CLIENT, Side.SERVER]:
+            release_assembler.assemble(side, verbose=True)
 
     async def add_exclusion(self, side: str, exclusion: str) -> None:
         """

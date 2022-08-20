@@ -176,3 +176,41 @@
 #
 # if __name__ == "__main__":
 #     process_files("2.1.2.4")
+from pathlib import Path
+from typing import Optional, Callable
+
+from gtnh.assembler.generic_assembler import GenericAssembler
+from gtnh.defs import Side, RELEASE_TECHNIC_DIR
+from gtnh.models.gtnh_release import GTNHRelease
+from gtnh.modpack_manager import GTNHModpackManager
+
+
+class TechnicAssembler(GenericAssembler):
+    """
+    Technic assembler class. Allows for the assembling of technic archives.
+    """
+    def __init__(
+        self,
+        gtnh_modpack: GTNHModpackManager,
+        release: GTNHRelease,
+        task_progress_callback: Optional[Callable[[float, str], None]] = None,
+        global_progress_callback: Optional[Callable[[float, str], None]] = None,
+    ):
+        """
+        Constructor of the TechnicAssembler class.
+
+        :param gtnh_modpack: the modpack manager instance
+        :param release: the target release object
+        :param task_progress_callback: the callback to report the progress of the task
+        :param global_progress_callback: the callback to report the global progress
+        """
+        GenericAssembler.__init__(
+            self,
+            gtnh_modpack=gtnh_modpack,
+            release=release,
+            task_progress_callback=task_progress_callback,
+            global_progress_callback=global_progress_callback,
+        )
+
+    def get_archive_path(self, side: Side) -> Path:
+        return RELEASE_TECHNIC_DIR / f"GTNewHorizons-{side}-{self.release.version}.zip"
