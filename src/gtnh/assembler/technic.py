@@ -31,7 +31,7 @@
 #     return cache_dir
 #
 #
-# def process_files(modpack_version: str, callback: Optional[Callable[[float, str], None]] = None) -> None:
+# def process_files(modpack_version: str, global_progress_callback: Optional[Callable[[float, str], None]] = None) -> None:
 #     """
 #     takes the list of files destinated to the client and assemble a solder architecture.
 #
@@ -57,13 +57,13 @@
 #     # generating mod list
 #     modlist = [mod for mod in gtnh_modpack.github_mods + gtnh_modpack.external_mods if mod.side in ["CLIENT", "BOTH"]]
 #
-#     # progress step for callback
+#     # progress step for global_progress_callback
 #     delta_progress = 100 / (len(modlist) + 2)
 #
 #     for mod in modlist:
 #         log.info(f"processing the mod {mod.name}")
-#         if callback is not None:
-#             callback(delta_progress, f"generating technic assets for {mod.name}")
+#         if global_progress_callback is not None:
+#             global_progress_callback(delta_progress, f"generating technic assets for {mod.name}")
 #         # get mod stripped name
 #         mod_name = get_mod_name(mod.name)
 #
@@ -111,8 +111,8 @@
 #         rmtree(mod_dir / "mods")
 #
 #     # handling of the modpack repo
-#     if callback is not None:
-#         callback(delta_progress, "generating technic assets for additional modpack files")
+#     if global_progress_callback is not None:
+#         global_progress_callback(delta_progress, "generating technic assets for additional modpack files")
 #     # path for the already made client dev pack archive
 #     modpack_folder = ensure_cache_dir() / "client_archive"
 #
@@ -134,8 +134,8 @@
 #         crawl_zip(modpack_folder)
 #
 #     # handling forge asset
-#     if callback is not None:
-#         callback(delta_progress, "generating technic assets for forge")
+#     if global_progress_callback is not None:
+#         global_progress_callback(delta_progress, "generating technic assets for forge")
 #
 #     forge_path = destination / "modpack" / "modpack-1.7.10-10.13.4.1614.zip"
 #     os.makedirs(forge_path.parent)
@@ -176,3 +176,42 @@
 #
 # if __name__ == "__main__":
 #     process_files("2.1.2.4")
+from pathlib import Path
+from typing import Callable, Optional
+
+from gtnh.assembler.generic_assembler import GenericAssembler
+from gtnh.defs import RELEASE_TECHNIC_DIR, Side
+from gtnh.models.gtnh_release import GTNHRelease
+from gtnh.modpack_manager import GTNHModpackManager
+
+
+class TechnicAssembler(GenericAssembler):
+    """
+    Technic assembler class. Allows for the assembling of technic archives.
+    """
+
+    def __init__(
+        self,
+        gtnh_modpack: GTNHModpackManager,
+        release: GTNHRelease,
+        task_progress_callback: Optional[Callable[[float, str], None]] = None,
+        global_progress_callback: Optional[Callable[[float, str], None]] = None,
+    ):
+        """
+        Constructor of the TechnicAssembler class.
+
+        :param gtnh_modpack: the modpack manager instance
+        :param release: the target release object
+        :param task_progress_callback: the callback to report the progress of the task
+        :param global_progress_callback: the callback to report the global progress
+        """
+        GenericAssembler.__init__(
+            self,
+            gtnh_modpack=gtnh_modpack,
+            release=release,
+            task_progress_callback=task_progress_callback,
+            global_progress_callback=global_progress_callback,
+        )
+
+    def get_archive_path(self, side: Side) -> Path:
+        return RELEASE_TECHNIC_DIR / f"GTNewHorizons-{side}-{self.release.version}.zip"

@@ -1,105 +1,135 @@
-import os
-import shutil
-from pathlib import Path
-from typing import Callable, Optional
-from zipfile import ZIP_DEFLATED, ZipFile
+from typing import Callable, Dict, Optional
 
-from colorama import Fore
 from structlog import get_logger
 
-from gtnh.assembler.downloader import get_asset_version_cache_location
-from gtnh.defs import RELEASE_ZIP_DIR, ModSource, Side
+from gtnh.assembler.curse import CurseAssembler
+from gtnh.assembler.modrinth import ModrinthAssembler
+from gtnh.assembler.multi_poly import MMCAssembler
+from gtnh.assembler.technic import TechnicAssembler
+from gtnh.assembler.zip_assembler import ZipAssembler
+from gtnh.defs import Archive, Side
 from gtnh.models.gtnh_release import GTNHRelease
-from gtnh.models.gtnh_version import GTNHVersion
-from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
 
 
 class ReleaseAssembler:
+    """
+    Main class to assemble a release.
+    """
+
     def __init__(
         self,
         mod_manager: GTNHModpackManager,
         release: GTNHRelease,
-        callback: Optional[Callable[[float, str], None]] = None,
+        task_callback: Optional[Callable[[float, str], None]] = None,
+        global_callback: Optional[Callable[[float, str], None]] = None,
     ) -> None:
-        self.mod_manager = mod_manager
-        self.release = release
-        self.callback = callback
+        """
+        Constructor of the ReleaseAssemblerClass.
+
+        :param mod_manager: the GTNHModpackManager instance
+        :param release: the target GTNHRelease
+        :param global_progress_callback: the global_progress_callback to use to report progress
+        """
+        self.mod_manager: GTNHModpackManager = mod_manager
+        self.release: GTNHRelease = release
+        self.callback: Optional[Callable[[float, str], None]] = global_callback
+
+        self.zip_assembler: ZipAssembler = ZipAssembler(mod_manager, release, task_callback)
+        self.mmc_assembler: MMCAssembler = MMCAssembler(mod_manager, release, task_callback)
+        self.curse_assembler: CurseAssembler = CurseAssembler(mod_manager, release, task_callback)
+        self.technic_assembler: TechnicAssembler = TechnicAssembler(mod_manager, release, task_callback)
+        self.modrinth_assembler: ModrinthAssembler = ModrinthAssembler(mod_manager, release, task_callback)
 
         # computation of the progress per mod for the progressbar
-        self.count = 0.0
-        self.progress = 0.0
-        self.delta_progress = 0.0
+        self.delta_progress: float = 0.0
+
+    def set_progress(self, progress: float) -> None:
+        """
+        Setter for self.delta_progress.
+
+        :param progress: new delta progress
+        :return: None
+        """
+        self.delta_progress = progress
+
+    def get_progress(self) -> float:
+        """
+        Getter for self.delta_progress.
+
+        :return: the delta progress
+        """
+        return self.delta_progress
 
     def assemble(self, side: Side, verbose: bool = False) -> None:
-        if side not in {Side.CLIENT, Side.SERVER}:
-            raise Exception("Can only assemble release for CLIENT or SERVER, not BOTH")
+        """
+        Method called to assemble the release for all the supports.
 
-        valid_sides = {side, Side.BOTH}
+        :param side: the target side
+        :param verbose: bool flag enabling verbose mod
+        :return: None
+        """
 
-        archive_name = RELEASE_ZIP_DIR / f"GTNewHorizons-{side}-{self.release.version}.zip"
-        get_mod = self.mod_manager.assets.get_mod_and_version
-        github_mods = list(
-            filter(
-                None,
-                (
-                    get_mod(name, version, valid_sides, source=ModSource.github)
-                    for name, version in self.release.github_mods.items()
-                ),
-            )
-        )
+        assemblers: Dict[str, Callable[[Side, bool], None]] = {
+            Archive.ZIP: self.assemble_zip,
+            Archive.MMC: self.assemble_mmc,
+            Archive.CURSEFORGE: self.assemble_curse,
+            Archive.MODRINTH: self.assemble_modrinth,
+            Archive.TECHNIC: self.assemble_technic,
+        }
 
-        self.count = len(github_mods) + 1  # + len(self.release.external_mods)
-        self.delta_progress = 100.0 / self.count
+        for plateform, assembling in assemblers.items():
+            self.callback(self.get_progress(), f"Assembling {side} {plateform} archive")  # type: ignore
+            assembling(side, verbose)
 
-        # deleting any existing archive
-        if os.path.exists(archive_name):
-            os.remove(archive_name)
-            log.warn(f"Previous archive {Fore.YELLOW}'{archive_name}'{Fore.RESET} deleted")
+    def assemble_zip(self, side: Side, verbose: bool = False) -> None:
+        """
+        Method called to assemble the zip archive.
 
-        log.info(f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{archive_name}'{Fore.RESET}")
+        :param side: targetted side
+        :param verbose: flag to control verbose mode
+        :return: None
+        """
+        self.zip_assembler.assemble(side, verbose)
 
-        with ZipFile(archive_name, "w") as archive:
-            self.add_mods(side, github_mods, archive, verbose=verbose)
-            self.add_config(side, archive, verbose=verbose)
+    def assemble_mmc(self, side: Side, verbose: bool = False) -> None:
+        """
+        Method called to assemble the zip archive.
 
-    def add_mods(
-        self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
-    ) -> None:
-        for mod, version in mods:
-            source_file = get_asset_version_cache_location(mod, version)
-            self.update_progress(side, source_file, verbose=verbose)
-            archive_path = Path("mods") / source_file.name
-            archive.write(source_file, arcname=archive_path)
+        :param side: targetted side
+        :param verbose: flag to control verbose mode
+        :return: None
+        """
+        self.mmc_assembler.assemble(side, verbose)
 
-    def add_config(self, side: Side, archive: ZipFile, verbose: bool = False) -> None:
-        config = self.mod_manager.assets.config
-        version = config.get_version(self.release.config)
-        assert version
-        config_file = get_asset_version_cache_location(config, version)
-        exclusions = (
-            self.mod_manager.mod_pack.client_exclusions
-            if side == Side.CLIENT
-            else self.mod_manager.mod_pack.server_exclusions
-        )
-        with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
-            self.update_progress(side, config_file, verbose=verbose)
+    def assemble_curse(self, side: Side, verbose: bool = False) -> None:
+        """
+        Method called to assemble the curse archive.
 
-            for item in config_zip.namelist():
-                if item in exclusions:
-                    continue
-                with config_zip.open(item) as config_item:
-                    with archive.open(item, "w") as target:
-                        shutil.copyfileobj(config_item, target)
+        :param side: targetted side
+        :param verbose: flag to control verbose mode
+        :return: None
+        """
+        self.curse_assembler.assemble(side, verbose)
 
-    def update_progress(self, side: Side, source_file: Path, verbose: bool = False) -> None:
-        if self.callback is not None:
-            self.callback(
-                self.delta_progress,
-                f"Packing {side.value} archive version {self.release.version}: {source_file}. Progress: {{0}}%",
-            )
-        if verbose:
-            self.progress += self.delta_progress
-            log.info(f"({self.progress:3.0f}%) Adding `{Fore.GREEN}{source_file}{Fore.RESET}`")
+    def assemble_modrinth(self, side: Side, verbose: bool = False) -> None:
+        """
+        Method called to assemble the modrinth archive.
+
+        :param side: targetted side
+        :param verbose: flag to control verbose mode
+        :return: None
+        """
+        self.modrinth_assembler.assemble(side, verbose)
+
+    def assemble_technic(self, side: Side, verbose: bool = False) -> None:
+        """
+        Method called to assemble the technic archive.
+
+        :param side: targetted side
+        :param verbose: flag to control verbose mode
+        :return: None
+        """
+        self.technic_assembler.assemble(side, verbose)

@@ -13,6 +13,19 @@ SERVER_WORKING_DIR = WORKING_DIR / "server"
 RELEASE_DIR = ROOT_DIR / "releases"
 RELEASE_MANIFEST_DIR = RELEASE_DIR / "manifests"
 RELEASE_ZIP_DIR = RELEASE_DIR / "zip"
+RELEASE_MMC_DIR = RELEASE_DIR / "multi_poly"
+RELEASE_TECHNIC_DIR = RELEASE_DIR / "technic"
+RELEASE_CURSE_DIR = RELEASE_DIR / "curse"
+RELEASE_MODRINTH_DIR = RELEASE_DIR / "modrinth"
+
+
+class Archive(str, Enum):
+    MMC = "MMC"
+    TECHNIC = "Technic"
+    ZIP = "zip"
+    CURSEFORGE = "CurseForge"
+    MODRINTH = "Modrinth"
+
 
 AVAILABLE_ASSETS_FILE = "gtnh-assets.json"
 GTNH_MODPACK_FILE = "gtnh-modpack.json"
@@ -30,6 +43,27 @@ CURSE_BASE_URL = "https://api.curseforge.com"
 CURSE_MINECRAFT_ID = 432
 CURSE_FORGE_MODLOADER_ID = 1
 CURSE_GAME_VERSION_TYPE_ID = 5
+
+MMC_PACK_JSON = """{
+    "components": [
+        {
+            "dependencyOnly": true,
+            "uid": "org.lwjgl",
+            "version": "2.9.4-nightly-20150209"
+        },
+        {
+            "important": true,
+            "uid": "net.minecraft",
+            "version": "1.7.10"
+        },
+        {
+            "uid": "net.minecraftforge",
+            "version": "10.13.4.1614"
+        }
+    ],
+    "formatVersion": 1
+}
+"""
 
 
 class Side(str, Enum):
