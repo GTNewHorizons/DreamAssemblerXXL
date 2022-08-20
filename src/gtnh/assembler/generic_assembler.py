@@ -90,16 +90,6 @@ class GenericAssembler:
         """
         pass
 
-    def remove_excluded_files(self, side: Side, verbose: bool = False) -> None:
-        """
-        Method to remove the excluded files from the archive.
-
-        :param side: target side
-        :param verbose: flag to enable the verbose mode
-        :return: None
-        """
-        pass
-
     def update_progress(self, side: Side, source_file: Path, verbose: bool = False) -> None:
         """
         Method used to report progress.
@@ -136,7 +126,7 @@ class GenericAssembler:
             self.add_mods(side, self.get_mods(side), archive, verbose=verbose)
             log.info("Adding config to the archive")
             self.add_config(side, self.get_config(), archive, verbose=verbose)
-            self.remove_excluded_files(side, verbose=verbose)
+            log.info("Archive created successfully!")
 
     def get_archive_path(self, side: Side) -> Path:
         """
