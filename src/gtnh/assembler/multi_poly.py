@@ -52,8 +52,10 @@ class MMCAssembler(GenericAssembler):
             source_file: Path = get_asset_version_cache_location(mod, version)
             self.update_progress(side, source_file, verbose=verbose)
             archive_path: Path = self.mmc_modpack_mods / source_file.name
-            print(archive_path)
             archive.write(source_file, arcname=archive_path)
+            if self.task_progress_callback is not None:
+                self.task_progress_callback(self.get_progress(),
+                                            f"adding mod {mod.name} : version {version.version_tag} to the archive")
 
     def add_config(
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
@@ -79,6 +81,9 @@ class MMCAssembler(GenericAssembler):
                         # Path objects will lead to the creation of empty files for
                         # every folder.
                         shutil.copyfileobj(config_item, target)
+                        if self.task_progress_callback is not None:
+                            self.task_progress_callback(self.get_progress(),
+                                                        f"adding {item} to the archive")
 
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_MMC_DIR / f"GT New Horizons {self.release.version} (MMC).zip"
@@ -87,6 +92,8 @@ class MMCAssembler(GenericAssembler):
         if side != Side.CLIENT:
             raise ValueError(f"Only valid side is {Side.CLIENT}, got {side}")
 
+        # +1 for the metadata file
+        self.set_progress(100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + 1))
         GenericAssembler.assemble(self, side, verbose)
 
         if side == Side.CLIENT:
@@ -102,3 +109,5 @@ class MMCAssembler(GenericAssembler):
 
         with ZipFile(self.get_archive_path(side), "a") as archive:
             archive.writestr(str(self.mmc_archive_root) + "/mmc-pack.json", MMC_PACK_JSON)
+            if self.task_progress_callback is not None:
+                self.task_progress_callback(self.get_progress(), "adding archive's metadata to the archive")

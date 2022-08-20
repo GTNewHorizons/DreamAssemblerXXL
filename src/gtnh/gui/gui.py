@@ -153,7 +153,8 @@ class Window(Tk):
         await gtnh.download_release(release, callback=progress_callback)
         current_task_reset_callback()
         global_callback(delta_progress, "Assembling the MMC archive")
-        ReleaseAssembler(gtnh, release).assemble_mmc(Side[side], verbose=True)
+        ReleaseAssembler(gtnh, release, task_callback=progress_callback, global_callback=global_callback) \
+            .assemble_mmc(Side[side], verbose=True)
 
     async def add_exclusion(self, side: str, exclusion: str) -> None:
         """

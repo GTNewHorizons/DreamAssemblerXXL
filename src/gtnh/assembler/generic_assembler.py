@@ -1,11 +1,12 @@
 import os
 from pathlib import Path
 from typing import Callable, Dict, List, Optional, Set, Tuple, Union
-from zipfile import ZipFile
+from zipfile import ZipFile, ZIP_DEFLATED
 
 from colorama import Fore
 from structlog import get_logger
 
+from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.defs import ModSource, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
@@ -22,11 +23,11 @@ class GenericAssembler:
     """
 
     def __init__(
-        self,
-        gtnh_modpack: GTNHModpackManager,
-        release: GTNHRelease,
-        task_progress_callback: Optional[Callable[[float, str], None]] = None,
-        global_progress_callback: Optional[Callable[[float, str], None]] = None,
+            self,
+            gtnh_modpack: GTNHModpackManager,
+            release: GTNHRelease,
+            task_progress_callback: Optional[Callable[[float, str], None]] = None,
+            global_progress_callback: Optional[Callable[[float, str], None]] = None,
     ):
         """
         Constructor of the GenericAssembler class.
@@ -44,6 +45,40 @@ class GenericAssembler:
             Side.CLIENT: self.modpack_manager.mod_pack.client_exclusions,
             Side.SERVER: self.modpack_manager.mod_pack.server_exclusions,
         }
+        self.delta_progress: float = 0.0
+
+    def get_progress(self) -> float:
+        """
+        Getter for self.delta_progress.
+
+        :return: current delta progress value
+        """
+        return self.delta_progress
+
+    def set_progress(self, delta_progress: float) -> None:
+        """
+        Setter for self.delta_progress.
+
+        :param delta_progress: the new delta progress
+        :return: None
+        """
+        self.delta_progress = delta_progress
+
+    def get_amount_of_files_in_config(self, side:Side)->int:
+        """
+        Method to get the amount of files inside the config zip.
+
+        :param side: targetted side for the release
+        :return: the amount of files
+        """
+        modpack_config:GTNHConfig
+        config_version:GTNHVersion
+
+        modpack_config, config_version = self.get_config()
+        config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
+
+        with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
+            return len([item for item in config_zip.namelist() if item not in self.exclusions[side]])
 
     def get_mods(self, side: Side) -> List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]:
         """
@@ -82,7 +117,7 @@ class GenericAssembler:
         return config, version
 
     def add_mods(
-        self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
+            self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
     ) -> None:
         """
         Method to add mods in the zip archive.
@@ -96,7 +131,7 @@ class GenericAssembler:
         pass
 
     def add_config(
-        self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
+            self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
         """
         Method to add config in the zip archive.
