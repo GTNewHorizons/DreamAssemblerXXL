@@ -1,14 +1,13 @@
-from typing import Callable, Optional, Dict
+from typing import Callable, Dict, Optional
 
 from structlog import get_logger
 
 from gtnh.assembler.curse import CurseAssembler
-from gtnh.assembler.generic_assembler import GenericAssembler
 from gtnh.assembler.modrinth import ModrinthAssembler
 from gtnh.assembler.multi_poly import MMCAssembler
 from gtnh.assembler.technic import TechnicAssembler
 from gtnh.assembler.zip_assembler import ZipAssembler
-from gtnh.defs import Side, Archive
+from gtnh.defs import Archive, Side
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.modpack_manager import GTNHModpackManager
 
@@ -47,7 +46,7 @@ class ReleaseAssembler:
         # computation of the progress per mod for the progressbar
         self.delta_progress: float = 0.0
 
-    def set_progress(self, progress:float)->None:
+    def set_progress(self, progress: float) -> None:
         """
         Setter for self.delta_progress.
 
@@ -56,7 +55,7 @@ class ReleaseAssembler:
         """
         self.delta_progress = progress
 
-    def get_progress(self)->float:
+    def get_progress(self) -> float:
         """
         Getter for self.delta_progress.
 
@@ -74,15 +73,15 @@ class ReleaseAssembler:
         """
 
         assemblers: Dict[str, Callable[[Side, bool], None]] = {
-            Archive.ZIP:self.assemble_zip,
-            Archive.MMC:self.assemble_mmc,
-            Archive.CURSEFORGE:self.assemble_curse,
-            Archive.MODRINTH:self.assemble_modrinth,
-            Archive.TECHNIC:self.assemble_technic
+            Archive.ZIP: self.assemble_zip,
+            Archive.MMC: self.assemble_mmc,
+            Archive.CURSEFORGE: self.assemble_curse,
+            Archive.MODRINTH: self.assemble_modrinth,
+            Archive.TECHNIC: self.assemble_technic,
         }
 
         for plateform, assembling in assemblers.items():
-            self.callback(self.get_progress(), f"Assembling {side} {plateform} archive")
+            self.callback(self.get_progress(), f"Assembling {side} {plateform} archive")  # type: ignore
             assembling(side, verbose)
 
     def assemble_zip(self, side: Side, verbose: bool = False) -> None:
@@ -134,6 +133,3 @@ class ReleaseAssembler:
         :return: None
         """
         self.technic_assembler.assemble(side, verbose)
-
-
-

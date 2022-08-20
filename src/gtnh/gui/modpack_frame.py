@@ -370,7 +370,7 @@ class ActionFrame(LabelFrame):
                 len(technic_text),
                 len(mr_text),
                 len(mmc_text),
-                len(zip_text)
+                len(zip_text),
             )
         )
 
@@ -499,7 +499,7 @@ class ActionFrame(LabelFrame):
         self.btn_server_mmc.grid(row=x + 6, column=y + 3, sticky="N")
         self.btn_server_zip.grid(row=x + 6, column=y + 4, sticky="N")
 
-        self.btn_update_nightly.grid(row=x + 7, column=y+1, columnspan=1, sticky="N")
+        self.btn_update_nightly.grid(row=x + 7, column=y + 1, columnspan=1, sticky="N")
         self.btn_generate_all.grid(row=x + 7, column=y + 2, columnspan=1, sticky="N")
         self.btn_update_assets.grid(row=x + 7, column=y + 3, columnspan=1, sticky="N")
 

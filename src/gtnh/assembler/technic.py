@@ -177,10 +177,10 @@
 # if __name__ == "__main__":
 #     process_files("2.1.2.4")
 from pathlib import Path
-from typing import Optional, Callable
+from typing import Callable, Optional
 
 from gtnh.assembler.generic_assembler import GenericAssembler
-from gtnh.defs import Side, RELEASE_TECHNIC_DIR
+from gtnh.defs import RELEASE_TECHNIC_DIR, Side
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.modpack_manager import GTNHModpackManager
 
@@ -189,6 +189,7 @@ class TechnicAssembler(GenericAssembler):
     """
     Technic assembler class. Allows for the assembling of technic archives.
     """
+
     def __init__(
         self,
         gtnh_modpack: GTNHModpackManager,

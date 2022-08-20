@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 from typing import Callable, Dict, List, Optional, Set, Tuple, Union
-from zipfile import ZipFile, ZIP_DEFLATED
+from zipfile import ZIP_DEFLATED, ZipFile
 
 from colorama import Fore
 from structlog import get_logger
@@ -23,11 +23,11 @@ class GenericAssembler:
     """
 
     def __init__(
-            self,
-            gtnh_modpack: GTNHModpackManager,
-            release: GTNHRelease,
-            task_progress_callback: Optional[Callable[[float, str], None]] = None,
-            global_progress_callback: Optional[Callable[[float, str], None]] = None,
+        self,
+        gtnh_modpack: GTNHModpackManager,
+        release: GTNHRelease,
+        task_progress_callback: Optional[Callable[[float, str], None]] = None,
+        global_progress_callback: Optional[Callable[[float, str], None]] = None,
     ):
         """
         Constructor of the GenericAssembler class.
@@ -64,15 +64,15 @@ class GenericAssembler:
         """
         self.delta_progress = delta_progress
 
-    def get_amount_of_files_in_config(self, side:Side)->int:
+    def get_amount_of_files_in_config(self, side: Side) -> int:
         """
         Method to get the amount of files inside the config zip.
 
         :param side: targetted side for the release
         :return: the amount of files
         """
-        modpack_config:GTNHConfig
-        config_version:GTNHVersion
+        modpack_config: GTNHConfig
+        config_version: GTNHVersion
 
         modpack_config, config_version = self.get_config()
         config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
@@ -117,7 +117,7 @@ class GenericAssembler:
         return config, version
 
     def add_mods(
-            self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
+        self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
     ) -> None:
         """
         Method to add mods in the zip archive.
@@ -131,7 +131,7 @@ class GenericAssembler:
         pass
 
     def add_config(
-            self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
+        self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
         """
         Method to add config in the zip archive.

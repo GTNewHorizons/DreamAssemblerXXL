@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import Optional, Callable
+from typing import Callable, Optional
 
 from gtnh.assembler.generic_assembler import GenericAssembler
 from gtnh.defs import RELEASE_MODRINTH_DIR, Side
@@ -11,6 +11,7 @@ class ModrinthAssembler(GenericAssembler):
     """
     Modrinth assembler class. Allows for the assembling of modrinth archives.
     """
+
     def __init__(
         self,
         gtnh_modpack: GTNHModpackManager,

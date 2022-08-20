@@ -1,5 +1,4 @@
 import asyncio
-from enum import Enum
 from pathlib import Path
 from tkinter import PhotoImage, Tk
 from tkinter.messagebox import showerror, showinfo
@@ -8,7 +7,7 @@ from typing import Any, Callable, Dict, List, Optional, Union
 import httpx
 
 from gtnh.assembler.assembler import ReleaseAssembler
-from gtnh.defs import Side, Archive
+from gtnh.defs import Archive, Side
 from gtnh.gui.exclusion_frame import ExclusionFrame
 from gtnh.gui.external_mod_frame import ExternalModFrame
 from gtnh.gui.github_mod_frame import GithubModFrame
@@ -19,8 +18,6 @@ from gtnh.modpack_manager import GTNHModpackManager
 
 ASYNC_SLEEP: float = 0.05
 ICON: Path = Path(__file__).parent.parent.parent.parent / "icon.png"
-
-
 
 
 class App:
@@ -102,7 +99,7 @@ class Window(Tk):
             "client_modrinth": lambda: asyncio.ensure_future(self.assemble_modrinth_release(Side.CLIENT)),
             "server_technic": lambda: asyncio.ensure_future(self.assemble_technic_release(Side.SERVER)),
             "client_technic": lambda: asyncio.ensure_future(self.assemble_technic_release(Side.CLIENT)),
-            "all": lambda: asyncio.ensure_future(self.assemble_all)
+            "all": lambda: asyncio.ensure_future(self.assemble_all()),
         }
 
         self.modpack_list_frame: ModpackFrame = ModpackFrame(
@@ -211,14 +208,14 @@ class Window(Tk):
         global_callback(delta_progress, f"Assembling the {archive} archive")
         return ReleaseAssembler(gtnh, release, task_callback=progress_callback, global_callback=global_callback)
 
-    async def assemble_all(self)->None:
+    async def assemble_all(self) -> None:
         """
         Assemble all the archives.
 
         :return: None
         """
         release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.CURSEFORGE)
-        release_assembler.set_progress(100/(1+5+5)) # download + archives for client + archive for server
+        release_assembler.set_progress(100 / (1 + 5 + 5))  # download + archives for client + archive for server
         for side in [Side.CLIENT, Side.SERVER]:
             release_assembler.assemble(side, verbose=True)
 

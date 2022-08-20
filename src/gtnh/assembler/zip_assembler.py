@@ -19,11 +19,11 @@ class ZipAssembler(GenericAssembler):
     """
 
     def __init__(
-            self,
-            gtnh_modpack: GTNHModpackManager,
-            release: GTNHRelease,
-            task_progress_callback: Optional[Callable[[float, str], None]] = None,
-            global_progress_callback: Optional[Callable[[float, str], None]] = None,
+        self,
+        gtnh_modpack: GTNHModpackManager,
+        release: GTNHRelease,
+        task_progress_callback: Optional[Callable[[float, str], None]] = None,
+        global_progress_callback: Optional[Callable[[float, str], None]] = None,
     ):
         """
         Constructor of the ZipAssembler class.
@@ -42,7 +42,7 @@ class ZipAssembler(GenericAssembler):
         )
 
     def add_mods(
-            self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
+        self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
     ) -> None:
 
         for mod, version in mods:
@@ -51,11 +51,12 @@ class ZipAssembler(GenericAssembler):
             archive_path: Path = Path("mods") / source_file.name
             archive.write(source_file, arcname=archive_path)
             if self.task_progress_callback is not None:
-                self.task_progress_callback(self.get_progress(),
-                                            f"adding mod {mod.name} : version {version.version_tag} to the archive")
+                self.task_progress_callback(
+                    self.get_progress(), f"adding mod {mod.name} : version {version.version_tag} to the archive"
+                )
 
     def add_config(
-            self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
+        self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
         modpack_config: GTNHConfig
         config_version: Optional[GTNHVersion]
@@ -73,8 +74,7 @@ class ZipAssembler(GenericAssembler):
                     with archive.open(item, "w") as target:
                         shutil.copyfileobj(config_item, target)
                         if self.task_progress_callback is not None:
-                            self.task_progress_callback(self.get_progress(),
-                                                        f"adding {item} to the archive")
+                            self.task_progress_callback(self.get_progress(), f"adding {item} to the archive")
 
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_ZIP_DIR / f"GTNewHorizons-{side}-{self.release.version}.zip"

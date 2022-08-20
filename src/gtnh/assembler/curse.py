@@ -92,10 +92,10 @@
 #
 #     return mod_files
 from pathlib import Path
-from typing import Optional, Callable
+from typing import Callable, Optional
 
 from gtnh.assembler.generic_assembler import GenericAssembler
-from gtnh.defs import Side, RELEASE_CURSE_DIR
+from gtnh.defs import RELEASE_CURSE_DIR, Side
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.modpack_manager import GTNHModpackManager
 
@@ -104,6 +104,7 @@ class CurseAssembler(GenericAssembler):
     """
     Curse assembler class. Allows for the assembling of curse archives.
     """
+
     def __init__(
         self,
         gtnh_modpack: GTNHModpackManager,
