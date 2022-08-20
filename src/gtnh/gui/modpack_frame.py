@@ -391,14 +391,14 @@ class ActionFrame(LabelFrame):
         self.pb_global: Progressbar = Progressbar(
             self, orient="horizontal", mode="determinate", length=progress_bar_length
         )
-        self.sv_pb_global: StringVar = StringVar(self, value="current task: Coding DreamAssemblerXXL")
-        self.label_pb_global: Label = Label(self, textvariable=self.sv_pb_global)
+        self.sv_pb_global: StringVar = StringVar(self, value="")
+        self.label_pb_global: Label = Label(self, textvariable=self.sv_pb_global, width=100)
 
         self.pb_current_task: Progressbar = Progressbar(
             self, orient="horizontal", mode="determinate", length=progress_bar_length
         )
-        self.sv_pb_current_task: StringVar = StringVar(self, value="doing stuff")
-        self.label_pb_current_task: Label = Label(self, textvariable=self.sv_pb_current_task)
+        self.sv_pb_current_task: StringVar = StringVar(self, value="")
+        self.label_pb_current_task: Label = Label(self, textvariable=self.sv_pb_current_task, width=100)
 
         self.update_widget()
 
@@ -421,6 +421,38 @@ class ActionFrame(LabelFrame):
         """
         self.pb_current_task["value"] += progress
         self.sv_pb_current_task.set(data)
+        self.update_idletasks()
+
+    def reset_current_task_progress_bar(self) -> None:
+        """
+        Callback to reset the progress bar for the current task.
+
+        :return: None
+        """
+        self.pb_current_task["value"] = 0
+        self.sv_pb_current_task.set("")
+        self.update_idletasks()
+
+    def update_global_progress_bar(self, progress: float, data: str) -> None:
+        """
+        Callback to update the task bar showing the global progress.
+
+        :param progress: value to add to the progress
+        :param data: what is currently done
+        :return: None
+        """
+        self.pb_global["value"] += progress
+        self.sv_pb_global.set(data)
+        self.update_idletasks()
+
+    def reset_global_progress_bar(self) -> None:
+        """
+        Callback to reset the progress bar for the global progress.
+
+        :return: None
+        """
+        self.pb_global["value"] = 0
+        self.sv_pb_global.set("")
         self.update_idletasks()
 
     def show(self) -> None:

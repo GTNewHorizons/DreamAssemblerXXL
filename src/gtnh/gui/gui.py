@@ -2,7 +2,7 @@ import asyncio
 from pathlib import Path
 from tkinter import PhotoImage, Tk
 from tkinter.messagebox import showerror, showinfo
-from typing import Any, Dict, List, Optional, Union
+from typing import Any, Callable, Dict, List, Optional, Union
 
 import httpx
 
@@ -134,10 +134,26 @@ class Window(Tk):
             github_mods=self.github_mods,
             external_mods=self.external_mods,
         )
-        await gtnh.download_release(
-            release, callback=self.modpack_list_frame.action_frame.update_current_task_progress_bar
-        )
-        ReleaseAssembler(gtnh, release).assemble(Side[side], verbose=True)
+        global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.update_global_progress_bar
+        global_reset_callback: Callable[[], None] = self.modpack_list_frame.action_frame.reset_global_progress_bar
+        progress_callback: Callable[
+            [float, str], None
+        ] = self.modpack_list_frame.action_frame.update_current_task_progress_bar
+        current_task_reset_callback: Callable[
+            [], None
+        ] = self.modpack_list_frame.action_frame.reset_current_task_progress_bar
+
+        delta_progress: float = 100 / 2
+
+        # clean the previous state of the progress bars
+        global_reset_callback()
+        current_task_reset_callback()
+
+        global_callback(delta_progress, "Downloading assets")
+        await gtnh.download_release(release, callback=progress_callback)
+        current_task_reset_callback()
+        global_callback(delta_progress, "Assembling the MMC archive")
+        ReleaseAssembler(gtnh, release).assemble_mmc(Side[side], verbose=True)
 
     async def add_exclusion(self, side: str, exclusion: str) -> None:
         """
@@ -303,7 +319,7 @@ class Window(Tk):
                     releases.append(release)
 
             # sorting releases by date
-            releases = sorted(releases, key=lambda release: release.last_updated)
+            releases = sorted(releases, key=lambda release_object: release_object.last_updated)
 
         return releases
 

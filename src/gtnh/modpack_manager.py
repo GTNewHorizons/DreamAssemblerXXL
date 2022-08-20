@@ -462,7 +462,11 @@ class GTNHModpackManager:
 
     @retry(delay=5, tries=3)
     async def download_asset(
-        self, asset: Versionable, asset_version: str | None = None, is_github: bool = False, callback:Optional[Callable[[str], None]]=None
+        self,
+        asset: Versionable,
+        asset_version: str | None = None,
+        is_github: bool = False,
+        callback: Optional[Callable[[str], None]] = None,
     ) -> Path | None:
         if asset_version is None:
             asset_version = asset.latest_version
@@ -510,7 +514,7 @@ class GTNHModpackManager:
         return mod_filename
 
     async def download_release(
-        self, release: GTNHRelease, callback: Callable[[float, str], None] | None = None
+        self, release: GTNHRelease, callback: Optional[Callable[[float, str], None]] = None
     ) -> list[Path]:
         """
         method to download all the mods required for a release of the pack
@@ -534,7 +538,14 @@ class GTNHModpackManager:
         for mod_name, mod_version in release.github_mods.items():
             mod = self.assets.get_github_mod(mod_name)
             if callback is not None:
-                downloaders.append(self.download_asset(mod, mod_version, is_github=True, callback = lambda name: callback(delta_progress, f"mod {name} downloaded!")))
+                downloaders.append(
+                    self.download_asset(
+                        mod,
+                        mod_version,
+                        is_github=True,
+                        callback=lambda name: callback(delta_progress, f"mod {name} downloaded!"),  # type: ignore
+                    )
+                )
             else:
                 downloaders.append(self.download_asset(mod, mod_version, is_github=True))
 
@@ -544,15 +555,29 @@ class GTNHModpackManager:
             mod = self.assets.get_external_mod(mod_name)
 
             if callback is not None:
-                downloaders.append(self.download_asset(mod, mod_version, is_github=False,
-                                                       callback=lambda name: callback(delta_progress,
-                                                                                      f"mod {name} downloaded!")))
+                downloaders.append(
+                    self.download_asset(
+                        mod,
+                        mod_version,
+                        is_github=False,
+                        callback=lambda name: callback(delta_progress, f"mod {name} downloaded!"),  # type: ignore
+                    )
+                )
             else:
                 downloaders.append(self.download_asset(mod, mod_version, is_github=False))
 
         # download the modpack configs
         if callback is not None:
-            downloaders.append(self.download_asset(self.assets.config, release.config, is_github=True, callback = lambda name: callback(delta_progress, f"config for release {release.version} downloaded!")))
+            downloaders.append(
+                self.download_asset(
+                    self.assets.config,
+                    release.config,
+                    is_github=True,
+                    callback=lambda name: callback(
+                        delta_progress, f"config for release {release.version} downloaded!"
+                    ),  # type: ignore
+                )
+            )
         else:
             downloaders.append(self.download_asset(self.assets.config, release.config, is_github=True))
 
