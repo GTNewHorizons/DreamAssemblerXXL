@@ -32,6 +32,27 @@ CURSE_MINECRAFT_ID = 432
 CURSE_FORGE_MODLOADER_ID = 1
 CURSE_GAME_VERSION_TYPE_ID = 5
 
+MMC_PACK_JSON = """{
+    "components": [
+        {
+            "dependencyOnly": true,
+            "uid": "org.lwjgl",
+            "version": "2.9.4-nightly-20150209"
+        },
+        {
+            "important": true,
+            "uid": "net.minecraft",
+            "version": "1.7.10"
+        },
+        {
+            "uid": "net.minecraftforge",
+            "version": "10.13.4.1614"
+        }
+    ],
+    "formatVersion": 1
+}
+"""
+
 
 class Side(str, Enum):
     SERVER = "SERVER"
