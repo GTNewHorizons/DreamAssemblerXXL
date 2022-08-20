@@ -3,7 +3,7 @@ import itertools
 import json
 import os
 from pathlib import Path
-from typing import Callable
+from typing import Callable, Optional
 
 from cache import AsyncLRU
 from colorama import Fore, Style
@@ -462,7 +462,7 @@ class GTNHModpackManager:
 
     @retry(delay=5, tries=3)
     async def download_asset(
-        self, asset: Versionable, asset_version: str | None = None, is_github: bool = False
+        self, asset: Versionable, asset_version: str | None = None, is_github: bool = False, callback:Optional[Callable[[str], None]]=None
     ) -> Path | None:
         if asset_version is None:
             asset_version = asset.latest_version
@@ -487,6 +487,8 @@ class GTNHModpackManager:
 
         if os.path.exists(mod_filename):
             log.info(f"{Fore.YELLOW}Skipping re-redownload of {mod_filename}{Fore.RESET}")
+            if callback:
+                callback(str(mod_filename.name))
             return mod_filename
 
         headers = {"Accept": "application/octet-stream"}
@@ -501,6 +503,9 @@ class GTNHModpackManager:
                 async for chunk in r.aiter_bytes(chunk_size=8192):
                     f.write(chunk)
         log.info(f"{GREEN_CHECK} Download successful `{mod_filename}`")
+
+        if callback:
+            callback(str(mod_filename.name))
 
         return mod_filename
 
@@ -521,28 +526,35 @@ class GTNHModpackManager:
         log.info(f"Downloading mods for Release `{Fore.LIGHTYELLOW_EX}{release.version}{Fore.RESET}`")
 
         # computation of the progress per mod for the progressbar
-        delta_progress = 100 / (len(release.github_mods) + len(release.external_mods))
+        delta_progress = 100 / (len(release.github_mods) + len(release.external_mods) + 1)  # +1 for the config
 
-        log.info(f"Downloading {Fore.GREEN}{len(release.github_mods)}{Fore.RESET} Github Mod(s)")
         # download of the github mods
+        log.info(f"Downloading {Fore.GREEN}{len(release.github_mods)}{Fore.RESET} Github Mod(s)")
         downloaders = []
         for mod_name, mod_version in release.github_mods.items():
             mod = self.assets.get_github_mod(mod_name)
-
             if callback is not None:
-                callback(delta_progress, f"downloading github mods. current mod: {mod.name} Progress: {{0}}%")
+                downloaders.append(self.download_asset(mod, mod_version, is_github=True, callback = lambda name: callback(delta_progress, f"mod {name} downloaded!")))
+            else:
+                downloaders.append(self.download_asset(mod, mod_version, is_github=True))
 
-            downloaders.append(self.download_asset(mod, mod_version, is_github=True))
-
-        downloaders.append(self.download_asset(self.assets.config, release.config, is_github=True))
-
+        # download of the external mods
+        log.info(f"Downloading {Fore.GREEN}{len(release.github_mods)}{Fore.RESET} External Mod(s)")
         for mod_name, mod_version in release.external_mods.items():
             mod = self.assets.get_external_mod(mod_name)
-            if callback is not None:
-                callback(delta_progress, f"downloading external mods. current mod: {mod.name} Progress: {{0}}%")
 
-            # do the actual work
-            downloaders.append(self.download_asset(mod, mod_version, is_github=False))
+            if callback is not None:
+                downloaders.append(self.download_asset(mod, mod_version, is_github=False,
+                                                       callback=lambda name: callback(delta_progress,
+                                                                                      f"mod {name} downloaded!")))
+            else:
+                downloaders.append(self.download_asset(mod, mod_version, is_github=False))
+
+        # download the modpack configs
+        if callback is not None:
+            downloaders.append(self.download_asset(self.assets.config, release.config, is_github=True, callback = lambda name: callback(delta_progress, f"config for release {release.version} downloaded!")))
+        else:
+            downloaders.append(self.download_asset(self.assets.config, release.config, is_github=True))
 
         downloaded: list[Path] = [d for d in await asyncio.gather(*downloaders) if d is not None]
 
