@@ -28,7 +28,7 @@ class ReleaseAssembler:
 
         :param mod_manager: the GTNHModpackManager instance
         :param release: the target GTNHRelease
-        :param callback: the callback to use to report progress
+        :param global_progress_callback: the global_progress_callback to use to report progress
         """
         self.mod_manager: GTNHModpackManager = mod_manager
         self.release: GTNHRelease = release
@@ -44,7 +44,7 @@ class ReleaseAssembler:
 
     def assemble(self, side: Side, verbose: bool = False) -> None:
         """
-        Method called to assemble the release.
+        Method called to assemble the release for all the supports.
 
         :param side: the target side
         :param verbose: bool flag enabling verbose mod
@@ -55,7 +55,21 @@ class ReleaseAssembler:
         self.assemble_mmc(side, verbose)
 
     def assemble_zip(self, side: Side, verbose: bool = False) -> None:
+        """
+        Method called to assemble the zip archive.
+
+        :param side: targetted side
+        :param verbose: flag to control verbose mode
+        :return: None
+        """
         self.zip_assembler.assemble(side, verbose)
 
     def assemble_mmc(self, side: Side, verbose: bool = False) -> None:
+        """
+        Method called to assemble the zip archive.
+
+        :param side: targetted side
+        :param verbose: flag to control verbose mode
+        :return: None
+        """
         self.mmc_assembler.assemble(side, verbose)

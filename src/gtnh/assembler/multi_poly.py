@@ -14,13 +14,32 @@ from gtnh.modpack_manager import GTNHModpackManager
 
 
 class MMCAssembler(GenericAssembler):
+    """
+    MMC assembler class. Allows for the assembling of mmc archives.
+    """
+
     def __init__(
         self,
         gtnh_modpack: GTNHModpackManager,
         release: GTNHRelease,
-        progress_callback: Optional[Callable[[float, str], None]] = None,
+        task_progress_callback: Optional[Callable[[float, str], None]] = None,
+        global_progress_callback: Optional[Callable[[float, str], None]] = None,
     ):
-        GenericAssembler.__init__(self, gtnh_modpack=gtnh_modpack, release=release, progress_callback=progress_callback)
+        """
+        Constructor of the MMCAssembler class.
+
+        :param gtnh_modpack: the modpack manager instance
+        :param release: the target release object
+        :param task_progress_callback: the callback to report the progress of the task
+        :param global_progress_callback: the callback to report the global progress
+        """
+        GenericAssembler.__init__(
+            self,
+            gtnh_modpack=gtnh_modpack,
+            release=release,
+            task_progress_callback=task_progress_callback,
+            global_progress_callback=global_progress_callback,
+        )
         self.mmc_archive_root: Path = Path(f"GT New Horizons {self.release.version}")
         self.mmc_modpack_files: Path = self.mmc_archive_root / ".minecraft"
         self.mmc_modpack_mods: Path = self.mmc_modpack_files / "mods"

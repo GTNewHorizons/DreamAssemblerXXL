@@ -31,7 +31,7 @@
 #     return cache_dir
 #
 #
-# def process_files(modpack_version: str, callback: Optional[Callable[[float, str], None]] = None) -> None:
+# def process_files(modpack_version: str, global_progress_callback: Optional[Callable[[float, str], None]] = None) -> None:
 #     """
 #     takes the list of files destinated to the client and assemble a solder architecture.
 #
@@ -57,13 +57,13 @@
 #     # generating mod list
 #     modlist = [mod for mod in gtnh_modpack.github_mods + gtnh_modpack.external_mods if mod.side in ["CLIENT", "BOTH"]]
 #
-#     # progress step for callback
+#     # progress step for global_progress_callback
 #     delta_progress = 100 / (len(modlist) + 2)
 #
 #     for mod in modlist:
 #         log.info(f"processing the mod {mod.name}")
-#         if callback is not None:
-#             callback(delta_progress, f"generating technic assets for {mod.name}")
+#         if global_progress_callback is not None:
+#             global_progress_callback(delta_progress, f"generating technic assets for {mod.name}")
 #         # get mod stripped name
 #         mod_name = get_mod_name(mod.name)
 #
@@ -111,8 +111,8 @@
 #         rmtree(mod_dir / "mods")
 #
 #     # handling of the modpack repo
-#     if callback is not None:
-#         callback(delta_progress, "generating technic assets for additional modpack files")
+#     if global_progress_callback is not None:
+#         global_progress_callback(delta_progress, "generating technic assets for additional modpack files")
 #     # path for the already made client dev pack archive
 #     modpack_folder = ensure_cache_dir() / "client_archive"
 #
@@ -134,8 +134,8 @@
 #         crawl_zip(modpack_folder)
 #
 #     # handling forge asset
-#     if callback is not None:
-#         callback(delta_progress, "generating technic assets for forge")
+#     if global_progress_callback is not None:
+#         global_progress_callback(delta_progress, "generating technic assets for forge")
 #
 #     forge_path = destination / "modpack" / "modpack-1.7.10-10.13.4.1614.zip"
 #     os.makedirs(forge_path.parent)

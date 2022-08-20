@@ -17,22 +17,41 @@ log = get_logger(__name__)
 
 
 class GenericAssembler:
+    """
+    Generic assembler class.
+    """
+
     def __init__(
         self,
         gtnh_modpack: GTNHModpackManager,
         release: GTNHRelease,
-        progress_callback: Optional[Callable[[float, str], None]] = None,
+        task_progress_callback: Optional[Callable[[float, str], None]] = None,
+        global_progress_callback: Optional[Callable[[float, str], None]] = None,
     ):
+        """
+        Constructor of the GenericAssembler class.
+
+        :param gtnh_modpack: the modpack manager instance
+        :param release: the target release object
+        :param task_progress_callback: the callback to report the progress of the task
+        :param global_progress_callback: the callback to report the global progress
+        """
         self.modpack_manager: GTNHModpackManager = gtnh_modpack
         self.release: GTNHRelease = release
-        self.callback: Optional[Callable[[float, str], None]]
-        self.progress_callback = progress_callback
+        self.global_progress_callback: Optional[Callable[[float, str], None]] = global_progress_callback
+        self.task_progress_callback: Optional[Callable[[float, str], None]] = task_progress_callback
         self.exclusions: Dict[str, List[str]] = {
             Side.CLIENT: self.modpack_manager.mod_pack.client_exclusions,
             Side.SERVER: self.modpack_manager.mod_pack.server_exclusions,
         }
 
     def get_mods(self, side: Side) -> List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]:
+        """
+        Method to grab the mod info objects as well as their targetted version.
+
+        :param side: the targetted side
+        :return: a list of couples where the first object is the mod info object, the second is the targetted version.
+        """
         get_mod: Callable[
             [str, str, Set[Side], ModSource], Optional[tuple[Union[GTNHModInfo, ExternalModInfo], GTNHVersion]]
         ] = self.modpack_manager.assets.get_mod_and_version
