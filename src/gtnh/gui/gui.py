@@ -105,7 +105,9 @@ class Window(Tk):
         # frame for the modpack handling
         modpack_list_callbacks: Dict[str, Any] = {
             "load": lambda release_name: asyncio.ensure_future(self.load_gtnh_version(release_name)),
-            "add": lambda release_name: asyncio.ensure_future(self.add_gtnh_version(release_name)),
+            "add": lambda release_name, previous_version: asyncio.ensure_future(
+                self.add_gtnh_version(release_name, previous_version)
+            ),
             "delete": lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)),
             "update_assets": lambda: asyncio.ensure_future(self.update_assets()),
             "generate_nightly": lambda: asyncio.ensure_future(self.generate_nightly()),
@@ -472,11 +474,12 @@ class Window(Tk):
             # display the loaded version at boot
             self.modpack_list_frame.modpack_list.set_loaded_version(self.version)
 
-    async def add_gtnh_version(self, release_name: str) -> None:
+    async def add_gtnh_version(self, release_name: str, previous_version: str) -> None:
         """
         Callback to add a new modpack version.
 
         :param release_name: the name of the release
+        :param previous_version: the previous modpack version
         :return: None
         """
 
@@ -486,6 +489,7 @@ class Window(Tk):
             config=self.gtnh_config,
             github_mods=self.github_mods,
             external_mods=self.external_mods,
+            previous_version=previous_version,
         )
 
         if gtnh.add_release(release, update=True):

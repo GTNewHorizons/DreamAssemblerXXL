@@ -1,4 +1,5 @@
-from tkinter import END, Button, Entry, Frame, Label, LabelFrame, Listbox, Scrollbar, StringVar
+from tkinter import END, Button, Entry, Frame, Label, LabelFrame, Listbox, Scrollbar, StringVar, simpledialog
+from tkinter.messagebox import showerror
 from tkinter.ttk import Progressbar
 from typing import Any, Callable, Dict, List, Optional, Tuple
 
@@ -307,7 +308,7 @@ class ModpackList(LabelFrame):
 
             self.set_loaded_version(release_name)
 
-    def btn_add_command(self, callback: Optional[Callable[[str], None]] = None) -> None:
+    def btn_add_command(self, callback: Optional[Callable[[str, str], None]] = None) -> None:
         """
         Callback for the button self.btn_add.
 
@@ -316,8 +317,22 @@ class ModpackList(LabelFrame):
         """
         release_name: str = self.sv_entry.get()
         if release_name != "":
+            previous_release: Optional[str] = simpledialog.askstring(
+                title="Enter the previous modpack version", prompt="Please enter the previous modpack version:"
+            )
+            if previous_release is None:  # pressed cancel
+                return
+
+            # invalid input
+            if previous_release not in self.lb_modpack_versions.get(0, END) or previous_release == release_name:
+                showerror(
+                    "Invalid previous version",
+                    "You must provide a valid version corresponding to the previous pack version.",
+                )
+                return
+
             if callback is not None:
-                callback(release_name)
+                callback(release_name, previous_release)
 
         if release_name not in self.lb_modpack_versions.get(0, END):
             self.lb_modpack_versions.insert(END, release_name)

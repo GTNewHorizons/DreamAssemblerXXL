@@ -17,6 +17,7 @@ RELEASE_MMC_DIR = RELEASE_DIR / "multi_poly"
 RELEASE_TECHNIC_DIR = RELEASE_DIR / "technic"
 RELEASE_CURSE_DIR = RELEASE_DIR / "curse"
 RELEASE_MODRINTH_DIR = RELEASE_DIR / "modrinth"
+RELEASE_CHANGELOG_DIR = RELEASE_DIR / "changelogs"
 
 
 class Archive(str, Enum):
