@@ -105,12 +105,12 @@ class Window(Tk):
             "delete": lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)),
             "update_assets": lambda: asyncio.ensure_future(self.update_assets()),
             "generate_nightly": lambda: asyncio.ensure_future(self.generate_nightly()),
-            "client_mmc": lambda: asyncio.ensure_future(self.assemble_mmc_release()),
-            "client_zip": lambda: asyncio.ensure_future(self.assemble_zip_release(Side.CLIENT)),
-            "server_zip": lambda: asyncio.ensure_future(self.assemble_zip_release(Side.SERVER)),
-            "client_curse": lambda: asyncio.ensure_future(self.assemble_curse_release()),
-            "client_modrinth": lambda: asyncio.ensure_future(self.assemble_modrinth_release()),
-            "client_technic": lambda: asyncio.ensure_future(self.assemble_technic_release()),
+            "client_mmc": lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.MMC)),
+            "client_zip": lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.ZIP)),
+            "server_zip": lambda: asyncio.ensure_future(self.assemble_release(Side.SERVER, Archive.ZIP)),
+            "client_curse": lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.CURSEFORGE)),
+            "client_modrinth": lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.MODRINTH)),
+            "client_technic": lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.TECHNIC)),
             "all": lambda: asyncio.ensure_future(self.assemble_all()),
         }
 
@@ -173,68 +173,34 @@ class Window(Tk):
                 for child in widget.winfo_children():
                     self.toggle(child)
 
-    async def assemble_mmc_release(self) -> None:
+    async def assemble_release(self, side: Side, archive_type: Archive) -> None:
         """
-        Method used to trigger the assembling of the mmc pack archive corresponding to the provided side.
+        Method used to trigger the assembling of the client archive corresponding to the provided source.
 
         :return: None
         """
+        global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.update_global_progress_bar
+
         self.set_progress(100 / 2)
         self.trigger_toggle()
-        release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.MMC)
-        release_assembler.assemble_mmc(Side.CLIENT, verbose=True)
+        release_assembler: ReleaseAssembler = await self.pre_assembling()
+        assembler_dict: Dict[Archive, Callable[[Side, bool], None]] = {
+            Archive.ZIP: release_assembler.assemble_zip,
+            Archive.MMC: release_assembler.assemble_mmc,
+            Archive.MODRINTH: release_assembler.assemble_modrinth,
+            Archive.CURSEFORGE: release_assembler.assemble_curse,
+            Archive.TECHNIC: release_assembler.assemble_technic,
+        }
+        global_callback(self.get_progress(), f"Assembling {side} {archive_type} archive")
+        assembler_dict[archive_type](side=side, verbose=True)  # type: ignore
         self.trigger_toggle()
 
-    async def assemble_zip_release(self, side: Side) -> None:
+    async def pre_assembling(self) -> ReleaseAssembler:
         """
-        Method used to trigger the assembling of the zip pack archive corresponding to the provided side.
+        Method to downloads the mods before constructing the ReleaseAssembler object.
 
-        :param side: side of the modpack
-        :return: None
+        :return: the ReleaseAssembler object constructed
         """
-        self.set_progress(100 / 2)
-        self.trigger_toggle()
-        release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.ZIP)
-        release_assembler.assemble_zip(side, verbose=True)
-        self.trigger_toggle()
-
-    async def assemble_technic_release(self) -> None:
-        """
-        Method used to trigger the assembling of the technic pack archive corresponding to the provided side.
-
-        :return: None
-        """
-        self.set_progress(100 / 2)
-        self.trigger_toggle()
-        release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.ZIP)
-        release_assembler.assemble_technic(Side.CLIENT, verbose=True)
-        self.trigger_toggle()
-
-    async def assemble_modrinth_release(self) -> None:
-        """
-        Method used to trigger the assembling of the modrinth pack archive corresponding to the provided side.
-
-        :return: None
-        """
-        self.set_progress(100 / 2)
-        self.trigger_toggle()
-        release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.MODRINTH)
-        release_assembler.assemble_modrinth(Side.CLIENT, verbose=True)
-        self.trigger_toggle()
-
-    async def assemble_curse_release(self) -> None:
-        """
-        Method used to trigger the assembling of the curse pack archive corresponding to the provided side.
-
-        :return: None
-        """
-        self.set_progress(100 / 2)
-        self.trigger_toggle()
-        release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.CURSEFORGE)
-        release_assembler.assemble_curse(Side.CLIENT, verbose=True)
-        self.trigger_toggle()
-
-    async def pre_assembling(self, archive: Archive) -> ReleaseAssembler:
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         release: GTNHRelease = GTNHRelease(
             version=self.version,
@@ -271,7 +237,7 @@ class Window(Tk):
         self.trigger_toggle()
 
         self.set_progress(100 / (1 + 5 + 1))  # download + archives for client + archive for server
-        release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.CURSEFORGE)
+        release_assembler: ReleaseAssembler = await self.pre_assembling()
 
         release_assembler.set_progress(self.get_progress())
 
