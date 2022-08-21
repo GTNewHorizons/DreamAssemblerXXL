@@ -31,7 +31,7 @@ class ExternalModList(LabelFrame):
 
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
 
-        self.width = width if width is not None else max(len(self.btn_add_text), len(self.btn_rem_text))
+        self.width: int = width if width is not None else max(len(self.btn_add_text), len(self.btn_rem_text))
 
         self.sv_repo_name: StringVar = StringVar(self, value="")
 

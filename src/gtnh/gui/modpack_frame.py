@@ -24,7 +24,7 @@ class ModpackFrame(LabelFrame):
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0
         self.ypadding: int = 0
-        self.width = width if width is not None else 20  # arbitrary value
+        self.width: int = width if width is not None else 20  # arbitrary value
         self.generate_nightly_callback: Callable[[], None] = callbacks["generate_nightly"]
         action_callbacks: Dict[str, Any] = {
             "client_cf": callbacks["client_curse"],

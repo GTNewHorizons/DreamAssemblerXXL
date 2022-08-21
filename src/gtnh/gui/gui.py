@@ -27,7 +27,7 @@ def check(widget: Widget) -> bool:
     :param widget: the given widget
     :return: if yes or no it can be disabled
     """
-    widget_list = ["button", "entry", "listbox", "combobox"]
+    widget_list: List[str] = ["button", "entry", "listbox", "combobox"]
     for widget_type in widget_list:
         if widget_type in str(widget):
             return True
@@ -446,6 +446,7 @@ class Window(Tk):
         :param init: bool indicating if this is done manually or at init
         :return: None
         """
+        release_object: Optional[GTNHRelease]
 
         if isinstance(release, str):
             gtnh: GTNHModpackManager = await self._get_modpack_manager()

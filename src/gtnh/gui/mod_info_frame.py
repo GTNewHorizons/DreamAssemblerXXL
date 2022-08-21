@@ -37,7 +37,7 @@ class ModInfoFrame(LabelFrame):
         self.label_license_text: str = "mod license:"
         self.label_size_text: str = "mod side:"
 
-        self.width = (
+        self.width: int = (
             width
             if width is not None
             else max(
