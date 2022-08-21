@@ -184,7 +184,15 @@ class ModpackList(LabelFrame):
             self, text=self.btn_add_text, command=lambda: self.btn_add_command(callbacks["add"])
         )
 
+        self.text_loaded_version = "Loaded version: {0}"
+        self.sv_loaded_version: StringVar = StringVar(self)
+        self.sv_loaded_version.set(self.text_loaded_version.format(""))
+        self.label_loaded_version: Label = Label(self, textvariable=self.sv_loaded_version)
+
         self.update_widget()
+
+    def set_loaded_version(self, version: str) -> None:
+        self.sv_loaded_version.set(self.text_loaded_version.format(version))
 
     def configure_widgets(self) -> None:
         """
@@ -235,6 +243,7 @@ class ModpackList(LabelFrame):
         self.btn_del.grid_forget()
         self.entry.grid_forget()
         self.btn_add.grid_forget()
+        self.label_loaded_version.grid_forget()
 
         self.update_idletasks()
 
@@ -244,18 +253,24 @@ class ModpackList(LabelFrame):
 
         :return: None
         """
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.columnconfigure(1, weight=1, pad=self.ypadding)
-        self.rowconfigure(0, weight=1, pad=self.xpadding)
-        self.rowconfigure(1, weight=1, pad=self.xpadding)
-        self.rowconfigure(2, weight=1, pad=self.xpadding)
+        x: int = 0
+        y: int = 0
+        rows: int = 3
+        columns: int = 2
 
-        self.lb_modpack_versions.grid(row=0, column=0, columnspan=2, sticky="WE")
-        self.scrollbar.grid(row=0, column=2, columnspan=2, sticky="NS")
-        self.btn_load.grid(row=1, column=0, sticky="ES")
-        self.btn_del.grid(row=1, column=1, columnspan=2, sticky="WS")
-        self.entry.grid(row=2, column=0, sticky="EN")
-        self.btn_add.grid(row=2, column=1, columnspan=2, sticky="WN")
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
+
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
+
+        self.lb_modpack_versions.grid(row=x, column=y, columnspan=2, sticky="WE")
+        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky="NS")
+        self.label_loaded_version.grid(row=x + 1, column=y, columnspan=3, sticky="W")
+        self.btn_load.grid(row=x + 2, column=y, sticky="ES")
+        self.btn_del.grid(row=x + 2, column=y + 1, columnspan=2, sticky="WS")
+        self.entry.grid(row=x + 3, column=y, sticky="EN")
+        self.btn_add.grid(row=x + 3, column=y + 1, columnspan=2, sticky="WN")
 
         self.update_idletasks()
 
@@ -278,10 +293,12 @@ class ModpackList(LabelFrame):
         """
         if self.lb_modpack_versions.curselection():
             index: int = self.lb_modpack_versions.curselection()[0]
-            release_name = self.lb_modpack_versions.get(index)
+            release_name: str = self.lb_modpack_versions.get(index)
 
             if callback is not None:
                 callback(release_name)
+
+            self.set_loaded_version(release_name)
 
     def btn_add_command(self, callback: Optional[Callable[[str], None]] = None) -> None:
         """
@@ -297,6 +314,8 @@ class ModpackList(LabelFrame):
 
         if release_name not in self.lb_modpack_versions.get(0, END):
             self.lb_modpack_versions.insert(END, release_name)
+
+        self.set_loaded_version(release_name)
 
     def btn_del_command(self, callback: Optional[Callable[[str], None]] = None) -> None:
         """

@@ -465,6 +465,9 @@ class Window(Tk):
 
         if not init:
             showinfo("version loaded successfully!", f"modpack version {release_object.version} loaded successfully!")
+        else:
+            # display the loaded version at boot
+            self.modpack_list_frame.modpack_list.set_loaded_version(self.version)
 
     async def add_gtnh_version(self, release_name: str) -> None:
         """
