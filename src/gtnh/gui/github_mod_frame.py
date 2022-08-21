@@ -1,8 +1,10 @@
 import asyncio
 from tkinter import END, Button, Entry, Label, LabelFrame, Listbox, Scrollbar, StringVar
+from tkinter.messagebox import showinfo, showerror, showwarning
 from tkinter.ttk import Combobox
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
+from gtnh.exceptions import RepoNotFoundException
 from gtnh.gui.mod_info_frame import ModInfoFrame
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
@@ -49,7 +51,7 @@ class GithubModList(LabelFrame):
         self.label_entry: Label = Label(self, text=new_repo_text)
         self.entry: Entry = Entry(self, textvariable=self.sv_repo_name)
 
-        self.btn_add: Button = Button(self, text=add_repo_text)
+        self.btn_add: Button = Button(self, text=add_repo_text, command=lambda: asyncio.ensure_future(self.add_repo()))
         self.btn_rem: Button = Button(self, text=del_repo_text)
 
         self.scrollbar: Scrollbar = Scrollbar(self)
@@ -175,6 +177,31 @@ class GithubModList(LabelFrame):
 
         self.mod_info_callback(data)
 
+    async def add_repo(self):
+        repo_name: str = self.sv_repo_name.get()
+        if repo_name == "":
+            return
+
+        repo_list: List[str] = list(self.lb_mods.get(0, END))
+        if repo_name in repo_list:
+            showwarning("Repository already in the assets", f"{repo_name} is already in the assets.")
+            return
+
+        gtnh_modpack: GTNHModpackManager = await self.get_gtnh_callback()
+        try:
+            await gtnh_modpack.add_github_mod(repo_name)
+            gtnh_modpack.save_assets()
+            repo_list += [repo_name]
+            self.lb_mods.delete(0, END)
+            self.lb_mods.insert(END, *sorted(repo_list))
+            showinfo("Repository added successfully", f"{repo_name} has been added successfully to the assets!")
+
+        except RepoNotFoundException:
+            showerror("Error while adding the repository",
+                      f"{repo_name} is not a valid NH repository. A couple things to check:"
+                      "\n- Did you used the repository's url instead of its name?"
+                      "\n- Did you spelled it correctly?"
+                      "\n- Did you registered your token in DreamAssemblerXXL in case of a private repo?")
 
 class GithubModFrame(LabelFrame):
     """
