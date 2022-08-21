@@ -17,6 +17,7 @@ RELEASE_MMC_DIR = RELEASE_DIR / "multi_poly"
 RELEASE_TECHNIC_DIR = RELEASE_DIR / "technic"
 RELEASE_CURSE_DIR = RELEASE_DIR / "curse"
 RELEASE_MODRINTH_DIR = RELEASE_DIR / "modrinth"
+RELEASE_CHANGELOG_DIR = RELEASE_DIR / "changelogs"
 
 
 class Archive(str, Enum):
@@ -83,3 +84,18 @@ class ModSource(str, Enum):
     curse = "curse"
     modrinth = "modrinth"
     other = "other"
+
+
+class Position(str, Enum):
+    UP = "N"
+    DOWN = "S"
+    LEFT = "W"
+    RIGHT = "E"
+    UP_LEFT = "WN"
+    UP_RIGHT = "EN"
+    DOWN_LEFT = "WS"
+    DOWN_RIGHT = "ES"
+    HORIZONTAL = "WE"
+    VERTICAL = "NS"
+    ALL = "WENS"
+    NONE = ""

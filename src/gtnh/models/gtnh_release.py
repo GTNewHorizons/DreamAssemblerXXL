@@ -13,6 +13,7 @@ log = get_logger(__name__)
 
 class GTNHRelease(GTNHBaseModel):
     version: str = Field(default="nightly")
+    last_version: str | None = Field(default=None)
     last_updated: datetime = Field(default_factory=datetime.utcnow)
 
     # ModName, Version

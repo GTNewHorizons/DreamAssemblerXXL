@@ -1,7 +1,9 @@
-from tkinter import END, Button, Entry, Label, LabelFrame, Listbox, Scrollbar, StringVar
+from tkinter import END, Button, Entry, Frame, Label, LabelFrame, Listbox, Scrollbar, StringVar, simpledialog
+from tkinter.messagebox import showerror
 from tkinter.ttk import Progressbar
 from typing import Any, Callable, Dict, List, Optional, Tuple
 
+from gtnh.defs import Position
 from gtnh.models.gtnh_release import GTNHRelease
 
 
@@ -23,18 +25,14 @@ class ModpackFrame(LabelFrame):
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0
         self.ypadding: int = 0
-        self.width = width if width is not None else 20  # arbitrary value
+        self.width: int = width if width is not None else 20  # arbitrary value
         self.generate_nightly_callback: Callable[[], None] = callbacks["generate_nightly"]
         action_callbacks: Dict[str, Any] = {
             "client_cf": callbacks["client_curse"],
             "client_modrinth": callbacks["client_modrinth"],
             "client_mmc": callbacks["client_mmc"],
             "client_technic": callbacks["client_technic"],
-            "client_zip": callbacks["server_zip"],
-            "server_cf": callbacks["server_curse"],
-            "server_modrinth": callbacks["server_modrinth"],
-            "server_mmc": callbacks["server_mmc"],
-            "server_technic": callbacks["server_technic"],
+            "client_zip": callbacks["client_zip"],
             "server_zip": callbacks["server_zip"],
             "generate_all": callbacks["all"],
             "generate_nightly": self.update_nightly,
@@ -119,12 +117,19 @@ class ModpackFrame(LabelFrame):
 
         :return: None
         """
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.columnconfigure(1, weight=1, pad=self.ypadding)
-        self.rowconfigure(0, weight=1, pad=self.xpadding)
+        x: int = 0
+        y: int = 0
+        rows: int = 1
+        columns: int = 2
 
-        self.modpack_list.grid(row=0, column=0, sticky="WENS")
-        self.action_frame.grid(row=0, column=1, sticky="WENS")
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
+
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
+
+        self.modpack_list.grid(row=x, column=y, sticky=Position.ALL)
+        self.action_frame.grid(row=x, column=y + 1, sticky=Position.ALL)
 
         self.modpack_list.show()
         self.action_frame.show()
@@ -187,7 +192,15 @@ class ModpackList(LabelFrame):
             self, text=self.btn_add_text, command=lambda: self.btn_add_command(callbacks["add"])
         )
 
+        self.text_loaded_version = "Loaded version: {0}"
+        self.sv_loaded_version: StringVar = StringVar(self)
+        self.sv_loaded_version.set(self.text_loaded_version.format(""))
+        self.label_loaded_version: Label = Label(self, textvariable=self.sv_loaded_version)
+
         self.update_widget()
+
+    def set_loaded_version(self, version: str) -> None:
+        self.sv_loaded_version.set(self.text_loaded_version.format(version))
 
     def configure_widgets(self) -> None:
         """
@@ -238,6 +251,7 @@ class ModpackList(LabelFrame):
         self.btn_del.grid_forget()
         self.entry.grid_forget()
         self.btn_add.grid_forget()
+        self.label_loaded_version.grid_forget()
 
         self.update_idletasks()
 
@@ -247,18 +261,24 @@ class ModpackList(LabelFrame):
 
         :return: None
         """
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.columnconfigure(1, weight=1, pad=self.ypadding)
-        self.rowconfigure(0, weight=1, pad=self.xpadding)
-        self.rowconfigure(1, weight=1, pad=self.xpadding)
-        self.rowconfigure(2, weight=1, pad=self.xpadding)
+        x: int = 0
+        y: int = 0
+        rows: int = 3
+        columns: int = 2
 
-        self.lb_modpack_versions.grid(row=0, column=0, columnspan=2, sticky="WE")
-        self.scrollbar.grid(row=0, column=2, columnspan=2, sticky="NS")
-        self.btn_load.grid(row=1, column=0, sticky="ES")
-        self.btn_del.grid(row=1, column=1, columnspan=2, sticky="WS")
-        self.entry.grid(row=2, column=0, sticky="EN")
-        self.btn_add.grid(row=2, column=1, columnspan=2, sticky="WN")
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
+
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
+
+        self.lb_modpack_versions.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky=Position.VERTICAL)
+        self.label_loaded_version.grid(row=x + 1, column=y, columnspan=3, sticky=Position.LEFT)
+        self.btn_load.grid(row=x + 2, column=y, sticky=Position.DOWN_RIGHT)
+        self.btn_del.grid(row=x + 2, column=y + 1, columnspan=2, sticky=Position.DOWN_LEFT)
+        self.entry.grid(row=x + 3, column=y, sticky=Position.UP_RIGHT)
+        self.btn_add.grid(row=x + 3, column=y + 1, columnspan=2, sticky=Position.UP_LEFT)
 
         self.update_idletasks()
 
@@ -281,12 +301,14 @@ class ModpackList(LabelFrame):
         """
         if self.lb_modpack_versions.curselection():
             index: int = self.lb_modpack_versions.curselection()[0]
-            release_name = self.lb_modpack_versions.get(index)
+            release_name: str = self.lb_modpack_versions.get(index)
 
             if callback is not None:
                 callback(release_name)
 
-    def btn_add_command(self, callback: Optional[Callable[[str], None]] = None) -> None:
+            self.set_loaded_version(release_name)
+
+    def btn_add_command(self, callback: Optional[Callable[[str, str], None]] = None) -> None:
         """
         Callback for the button self.btn_add.
 
@@ -295,11 +317,27 @@ class ModpackList(LabelFrame):
         """
         release_name: str = self.sv_entry.get()
         if release_name != "":
+            previous_release: Optional[str] = simpledialog.askstring(
+                title="Enter the previous modpack version", prompt="Please enter the previous modpack version:"
+            )
+            if previous_release is None:  # pressed cancel
+                return
+
+            # invalid input
+            if previous_release not in self.lb_modpack_versions.get(0, END) or previous_release == release_name:
+                showerror(
+                    "Invalid previous version",
+                    "You must provide a valid version corresponding to the previous pack version.",
+                )
+                return
+
             if callback is not None:
-                callback(release_name)
+                callback(release_name, previous_release)
 
         if release_name not in self.lb_modpack_versions.get(0, END):
             self.lb_modpack_versions.insert(END, release_name)
+
+        self.set_loaded_version(release_name)
 
     def btn_del_command(self, callback: Optional[Callable[[str], None]] = None) -> None:
         """
@@ -347,53 +385,59 @@ class ActionFrame(LabelFrame):
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0
         self.ypadding: int = 0
-        client_archive_text: str = "client archive"
-        server_archive_text: str = "server archive"
+
         generate_all_text: str = "Generate all archives"
         update_nightly_text: str = "Update nightly"
         update_assets_text: str = "Update assets"
-        cf_text: str = "CurseForge"
-        technic_text: str = "Technic"
-        mr_text: str = "Modrinth"
-        mmc_text: str = "MultiMC"
-        zip_text: str = "Zip"
+
+        client_cf_text: str = "CurseForge client archive"
+        client_technic_text: str = "Technic client archive"
+        client_mr_text: str = "Modrinth client archive"
+        client_mmc_text: str = "MultiMC client archive"
+        client_zip_text: str = "Zip client archive"
+        server_zip_text: str = "Zip server archive"
+
         self.width: int = (
             width
             if width is not None
             else max(
-                len(client_archive_text),
-                len(server_archive_text),
                 len(generate_all_text),
                 len(update_nightly_text),
                 len(update_assets_text),
-                len(cf_text),
-                len(technic_text),
-                len(mr_text),
-                len(mmc_text),
-                len(zip_text),
+                len(server_zip_text),
+                len(client_cf_text),
+                len(client_mr_text),
+                len(client_mmc_text),
+                len(client_technic_text),
+                len(client_zip_text),
             )
         )
 
-        self.label_cf: Label = Label(self, text=cf_text)
-        self.btn_client_cf: Button = Button(self, text=client_archive_text, command=callbacks["client_cf"])
-        self.btn_server_cf: Button = Button(self, text=server_archive_text, command=callbacks["server_cf"])
-        self.label_technic: Label = Label(self, text=technic_text)
-        self.btn_client_technic: Button = Button(self, text=client_archive_text, command=callbacks["client_technic"])
-        self.btn_server_technic: Button = Button(self, text=server_archive_text, command=callbacks["server_technic"])
-        self.label_mmc: Label = Label(self, text=mmc_text)
-        self.btn_client_mmc: Button = Button(self, text=client_archive_text, command=callbacks["client_mmc"])
-        self.btn_server_mmc: Button = Button(self, text=server_archive_text, command=callbacks["server_mmc"])
-        self.label_modrinth: Label = Label(self, text=mr_text)
-        self.btn_client_modrinth: Button = Button(self, text=client_archive_text, command=callbacks["client_modrinth"])
-        self.btn_server_modrinth: Button = Button(self, text=server_archive_text, command=callbacks["server_modrinth"])
-        self.btn_generate_all: Button = Button(self, text=generate_all_text, command=callbacks["generate_all"])
-        self.btn_update_nightly: Button = Button(self, text=update_nightly_text, command=callbacks["generate_nightly"])
-        self.btn_update_assets: Button = Button(self, text=update_assets_text, command=callbacks["update_assets"])
-        self.label_zip: Label = Label(self, text=zip_text)
-        self.btn_client_zip: Button = Button(self, text=client_archive_text, command=callbacks["client_zip"])
-        self.btn_server_zip: Button = Button(self, text=server_archive_text, command=callbacks["server_zip"])
+        self.frame_btn: Frame = Frame(self)
 
-        progress_bar_length: int = 700
+        self.btn_client_cf: Button = Button(self.frame_btn, text=client_cf_text, command=callbacks["client_cf"])
+        self.btn_client_technic: Button = Button(
+            self.frame_btn, text=client_technic_text, command=callbacks["client_technic"]
+        )
+        self.btn_client_mmc: Button = Button(self.frame_btn, text=client_mmc_text, command=callbacks["client_mmc"])
+        self.btn_client_modrinth: Button = Button(
+            self.frame_btn, text=client_mr_text, command=callbacks["client_modrinth"]
+        )
+        self.btn_generate_all: Button = Button(
+            self.frame_btn, text=generate_all_text, command=callbacks["generate_all"]
+        )
+        self.btn_update_nightly: Button = Button(
+            self.frame_btn, text=update_nightly_text, command=callbacks["generate_nightly"]
+        )
+        self.btn_update_assets: Button = Button(
+            self.frame_btn, text=update_assets_text, command=callbacks["update_assets"]
+        )
+        self.btn_client_zip: Button = Button(self.frame_btn, text=client_zip_text, command=callbacks["client_zip"])
+        self.btn_server_zip: Button = Button(self.frame_btn, text=server_zip_text, command=callbacks["server_zip"])
+
+        self.label_spacer: Label = Label(self, text="")
+
+        progress_bar_length: int = 500
 
         self.pb_global: Progressbar = Progressbar(
             self, orient="horizontal", mode="determinate", length=progress_bar_length
@@ -470,38 +514,47 @@ class ActionFrame(LabelFrame):
         """
         x: int = 0
         y: int = 0
-        for i in range(8):
+        rows: int = 5
+        columns: int = 1
+
+        for i in range(rows):
             self.rowconfigure(i, weight=1, pad=self.xpadding)
 
-        for i in range(5):
+        self.rowconfigure(rows + 1, weight=3)  # allocate more space for the btn frame
+
+        for i in range(columns):
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
-        self.label_pb_global.grid(row=x, column=y, columnspan=5)
-        self.pb_global.grid(row=x + 1, column=y, columnspan=5)
-        self.label_pb_current_task.grid(row=x + 2, column=y, columnspan=5)
-        self.pb_current_task.grid(row=x + 3, column=y, columnspan=5)
+        self.label_pb_global.grid(row=x, column=y)
+        self.pb_global.grid(row=x + 1, column=y)
+        self.label_pb_current_task.grid(row=x + 2, column=y)
+        self.pb_current_task.grid(row=x + 3, column=y)
 
-        self.label_cf.grid(row=x + 4, column=y, sticky="S")
-        self.label_technic.grid(row=x + 4, column=y + 1, sticky="S")
-        self.label_modrinth.grid(row=x + 4, column=y + 2, sticky="S")
-        self.label_mmc.grid(row=x + 4, column=y + 3, sticky="S")
-        self.label_zip.grid(row=x + 4, column=y + 4, sticky="S")
+        self.label_spacer.grid(row=x + 4, column=y)
 
-        self.btn_client_cf.grid(row=x + 5, column=y, sticky="S")
-        self.btn_client_technic.grid(row=x + 5, column=y + 1, sticky="S")
-        self.btn_client_modrinth.grid(row=x + 5, column=y + 2, sticky="S")
-        self.btn_client_mmc.grid(row=x + 5, column=y + 3, sticky="S")
-        self.btn_client_zip.grid(row=x + 5, column=y + 4, sticky="S")
+        self.frame_btn.grid(row=x + 5, column=y, sticky=Position.UP)
 
-        self.btn_server_cf.grid(row=x + 6, column=y, sticky="N")
-        self.btn_server_technic.grid(row=x + 6, column=y + 1, sticky="N")
-        self.btn_server_modrinth.grid(row=x + 6, column=y + 2, sticky="N")
-        self.btn_server_mmc.grid(row=x + 6, column=y + 3, sticky="N")
-        self.btn_server_zip.grid(row=x + 6, column=y + 4, sticky="N")
+        # grid withing the self.fram_btn
+        pad: int = 3
+        frame_rows: int = 3
+        frame_columns: int = 3
+        for i in range(frame_rows):
+            self.frame_btn.rowconfigure(i, weight=1, pad=pad)
 
-        self.btn_update_nightly.grid(row=x + 7, column=y + 1, columnspan=1, sticky="N")
-        self.btn_generate_all.grid(row=x + 7, column=y + 2, columnspan=1, sticky="N")
-        self.btn_update_assets.grid(row=x + 7, column=y + 3, columnspan=1, sticky="N")
+        for i in range(frame_columns):
+            self.frame_btn.columnconfigure(i, weight=1, pad=pad)
+
+        self.btn_client_cf.grid(row=0, column=0)
+        self.btn_client_zip.grid(row=0, column=1)
+        self.btn_client_technic.grid(row=0, column=2)
+
+        self.btn_client_modrinth.grid(row=1, column=0)
+        self.btn_server_zip.grid(row=1, column=1)
+        self.btn_client_mmc.grid(row=1, column=2)
+
+        self.btn_update_nightly.grid(row=2, column=0)
+        self.btn_generate_all.grid(row=2, column=1)
+        self.btn_update_assets.grid(row=2, column=2)
 
         self.update_idletasks()
 
@@ -512,22 +565,13 @@ class ActionFrame(LabelFrame):
         :return: None
         """
 
-        self.label_cf.configure(width=self.width)
         self.btn_client_cf.configure(width=self.width)
-        self.btn_server_cf.configure(width=self.width)
-        self.label_technic.configure(width=self.width)
         self.btn_client_technic.configure(width=self.width)
-        self.btn_server_technic.configure(width=self.width)
-        self.label_modrinth.configure(width=self.width)
         self.btn_client_modrinth.configure(width=self.width)
-        self.btn_server_modrinth.configure(width=self.width)
-        self.label_mmc.configure(width=self.width)
         self.btn_client_mmc.configure(width=self.width)
-        self.btn_server_mmc.configure(width=self.width)
         self.btn_generate_all.configure(width=self.width)
         self.btn_update_nightly.configure(width=self.width)
         self.btn_update_assets.configure(width=self.width)
-        self.label_zip.configure(width=self.width)
         self.btn_client_zip.configure(width=self.width)
         self.btn_server_zip.configure(width=self.width)
 
@@ -568,22 +612,14 @@ class ActionFrame(LabelFrame):
         self.pb_global.grid_forget()
         self.label_pb_current_task.grid_forget()
         self.pb_current_task.grid_forget()
-        self.label_cf.grid_forget()
+        self.label_spacer.grid_forget()
         self.btn_client_cf.grid_forget()
-        self.btn_server_cf.grid_forget()
-        self.label_technic.grid_forget()
         self.btn_client_technic.grid_forget()
-        self.btn_server_technic.grid_forget()
-        self.label_modrinth.grid_forget()
         self.btn_client_modrinth.grid_forget()
-        self.btn_server_modrinth.grid_forget()
-        self.label_mmc.grid_forget()
         self.btn_client_mmc.grid_forget()
-        self.btn_server_mmc.grid_forget()
         self.btn_generate_all.grid_forget()
         self.btn_update_nightly.grid_forget()
         self.btn_update_assets.grid_forget()
-        self.label_zip.grid_forget()
         self.btn_client_zip.grid_forget()
         self.btn_server_zip.grid_forget()
 

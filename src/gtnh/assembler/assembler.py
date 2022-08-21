@@ -1,4 +1,4 @@
-from typing import Callable, Dict, Optional
+from typing import Callable, Dict, List, Optional
 
 from structlog import get_logger
 
@@ -7,7 +7,7 @@ from gtnh.assembler.modrinth import ModrinthAssembler
 from gtnh.assembler.multi_poly import MMCAssembler
 from gtnh.assembler.technic import TechnicAssembler
 from gtnh.assembler.zip_assembler import ZipAssembler
-from gtnh.defs import Archive, Side
+from gtnh.defs import RELEASE_CHANGELOG_DIR, Archive, Side
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.modpack_manager import GTNHModpackManager
 
@@ -83,6 +83,7 @@ class ReleaseAssembler:
         for plateform, assembling in assemblers.items():
             self.callback(self.get_progress(), f"Assembling {side} {plateform} archive")  # type: ignore
             assembling(side, verbose)
+        self.generate_changelog()
 
     def assemble_zip(self, side: Side, verbose: bool = False) -> None:
         """
@@ -93,6 +94,7 @@ class ReleaseAssembler:
         :return: None
         """
         self.zip_assembler.assemble(side, verbose)
+        self.generate_changelog()
 
     def assemble_mmc(self, side: Side, verbose: bool = False) -> None:
         """
@@ -103,6 +105,7 @@ class ReleaseAssembler:
         :return: None
         """
         self.mmc_assembler.assemble(side, verbose)
+        self.generate_changelog()
 
     def assemble_curse(self, side: Side, verbose: bool = False) -> None:
         """
@@ -113,6 +116,7 @@ class ReleaseAssembler:
         :return: None
         """
         self.curse_assembler.assemble(side, verbose)
+        self.generate_changelog()
 
     def assemble_modrinth(self, side: Side, verbose: bool = False) -> None:
         """
@@ -123,6 +127,7 @@ class ReleaseAssembler:
         :return: None
         """
         self.modrinth_assembler.assemble(side, verbose)
+        self.generate_changelog()
 
     def assemble_technic(self, side: Side, verbose: bool = False) -> None:
         """
@@ -133,3 +138,28 @@ class ReleaseAssembler:
         :return: None
         """
         self.technic_assembler.assemble(side, verbose)
+        self.generate_changelog()
+
+    def generate_changelog(self) -> None:
+        """
+        Method to generate the changelog of a release.
+
+        :return: None
+        """
+
+        current_version: str = self.release.version
+        previous_version: Optional[str] = self.release.last_version
+        previous_release: Optional[GTNHRelease] = (
+            None if previous_version is None else self.mod_manager.get_release(previous_version)
+        )
+        changelog: Dict[str, List[str]] = self.mod_manager.generate_changelog(self.release, previous_release)
+
+        with open(RELEASE_CHANGELOG_DIR / f"changelog from {previous_version} to {current_version}.md", "w") as file:
+
+            for mod, mod_changelog in changelog.items():
+
+                try:
+                    file.write("\n".join([mod] + mod_changelog) + "\n")
+                except UnicodeEncodeError:
+                    print(mod)
+                    print(mod_changelog)

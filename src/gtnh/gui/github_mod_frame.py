@@ -1,8 +1,11 @@
 import asyncio
 from tkinter import END, Button, Entry, Label, LabelFrame, Listbox, Scrollbar, StringVar
+from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import Combobox
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
+from gtnh.defs import Position
+from gtnh.exceptions import RepoNotFoundException
 from gtnh.gui.mod_info_frame import ModInfoFrame
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
@@ -49,8 +52,8 @@ class GithubModList(LabelFrame):
         self.label_entry: Label = Label(self, text=new_repo_text)
         self.entry: Entry = Entry(self, textvariable=self.sv_repo_name)
 
-        self.btn_add: Button = Button(self, text=add_repo_text)
-        self.btn_rem: Button = Button(self, text=del_repo_text)
+        self.btn_add: Button = Button(self, text=add_repo_text, command=lambda: asyncio.ensure_future(self.add_repo()))
+        self.btn_rem: Button = Button(self, text=del_repo_text, command=lambda: asyncio.ensure_future(self.del_repo()))
 
         self.scrollbar: Scrollbar = Scrollbar(self)
         self.lb_mods.configure(yscrollcommand=self.scrollbar.set)
@@ -118,14 +121,17 @@ class GithubModList(LabelFrame):
         """
         x: int = 0
         y: int = 0
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.columnconfigure(1, weight=1, pad=self.ypadding)
+        rows: int = 5
+        columns: int = 2
 
-        for i in range(0, 5):
+        for i in range(rows):
             self.rowconfigure(i, weight=1, pad=self.xpadding)
 
-        self.lb_mods.grid(row=x, column=y, columnspan=2, sticky="WE")
-        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky="NS")
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
+
+        self.lb_mods.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky=Position.VERTICAL)
         self.label_entry.grid(row=x + 1, column=y)
         self.entry.grid(row=x + 1, column=y + 1, columnspan=2)
         self.btn_add.grid(row=x + 2, column=y)
@@ -174,6 +180,49 @@ class GithubModList(LabelFrame):
         }
 
         self.mod_info_callback(data)
+
+    async def add_repo(self) -> None:
+        """
+        Method called when the button to add the github repository to assets is pressed.
+
+        :return: None
+        """
+        repo_name: str = self.sv_repo_name.get()
+        if repo_name == "":
+            return
+
+        repo_list: List[str] = list(self.lb_mods.get(0, END))
+        if repo_name in repo_list:
+            showwarning("Repository already in the assets", f"{repo_name} is already in the assets.")
+            return
+
+        gtnh_modpack: GTNHModpackManager = await self.get_gtnh_callback()
+        try:
+            await gtnh_modpack.add_github_mod(repo_name)
+            gtnh_modpack.save_assets()
+            repo_list += [repo_name]
+            self.lb_mods.delete(0, END)
+            self.lb_mods.insert(END, *sorted(repo_list))
+            showinfo("Repository added successfully", f"{repo_name} has been added successfully to the assets!")
+
+        except RepoNotFoundException:
+            showerror(
+                "Error while adding the repository",
+                f"{repo_name} is not a valid NH repository. A couple things to check:"
+                "\n- Did you used the repository's url instead of its name?"
+                "\n- Did you spelled it correctly?"
+                "\n- Did you registered your token in DreamAssemblerXXL in case of a private repo?",
+            )
+
+    async def del_repo(self) -> None:
+        """
+        Method called when the button to delete the highlighted github repository is pressed.
+
+        :return: None
+        """
+        showerror(
+            "Feature not yet implemented", "The removal of github repositories from assets is not yet implemented."
+        )
 
 
 class GithubModFrame(LabelFrame):
@@ -304,14 +353,20 @@ class GithubModFrame(LabelFrame):
 
         :return: None
         """
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.rowconfigure(0, weight=1, pad=self.xpadding)
-        self.rowconfigure(1, weight=1, pad=self.xpadding)
-        self.rowconfigure(2, weight=1, pad=self.xpadding)
+        x: int = 0
+        y: int = 0
+        rows: int = 3
+        columns: int = 1
 
-        self.modpack_version_frame.grid(row=0, column=0, sticky="WE")
-        self.github_mod_list.grid(row=1, column=0)  # ref widget
-        self.mod_info_frame.grid(row=2, column=0, sticky="WE")
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
+
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
+
+        self.modpack_version_frame.grid(row=x, column=y, sticky=Position.HORIZONTAL)
+        self.github_mod_list.grid(row=x + 1, column=y)  # ref widget
+        self.mod_info_frame.grid(row=x + 2, column=y, sticky=Position.HORIZONTAL)
 
         self.modpack_version_frame.show()
         self.github_mod_list.show()
@@ -417,12 +472,19 @@ class ModpackVersionFrame(LabelFrame):
 
         :return: None
         """
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.columnconfigure(1, weight=1, pad=self.ypadding)
-        self.rowconfigure(0, weight=1, pad=self.xpadding)
+        x: int = 0
+        y: int = 0
+        rows: int = 1
+        columns: int = 2
 
-        self.label_modpack_version.grid(row=0, column=0)
-        self.cb_modpack_version.grid(row=0, column=1)
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
+
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
+
+        self.label_modpack_version.grid(row=x, column=y)
+        self.cb_modpack_version.grid(row=x, column=y + 1)
 
     def populate_data(self, data: Dict[str, Any]) -> None:
         """

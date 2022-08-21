@@ -1,7 +1,11 @@
+import asyncio
 from tkinter import Button, LabelFrame, Listbox, Scrollbar, StringVar
-from typing import Any, Dict, Optional
+from tkinter.messagebox import showerror
+from typing import Any, Callable, Coroutine, Dict, Optional
 
+from gtnh.defs import Position
 from gtnh.gui.mod_info_frame import ModInfoFrame
+from gtnh.modpack_manager import GTNHModpackManager
 
 
 class ExternalModList(LabelFrame):
@@ -23,17 +27,24 @@ class ExternalModList(LabelFrame):
         self.ypadding: int = 0
         self.xpadding: int = 0
 
-        self.btn_add_text = "add new"
-        self.btn_rem_text = "delete highlighted"
+        self.btn_add_text: str = "add new"
+        self.btn_rem_text: str = "delete highlighted"
 
-        self.width = width if width is not None else max(len(self.btn_add_text), len(self.btn_rem_text))
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
+
+        self.width: int = width if width is not None else max(len(self.btn_add_text), len(self.btn_rem_text))
 
         self.sv_repo_name: StringVar = StringVar(self, value="")
 
         self.lb_mods: Listbox = Listbox(self, exportselection=False)
 
-        self.btn_add: Button = Button(self, text="add new")
-        self.btn_rem: Button = Button(self, text="delete highlighted")
+        self.btn_add: Button = Button(
+            self, text="add new", command=lambda: asyncio.ensure_future(self.add_external_mod())
+        )
+
+        self.btn_rem: Button = Button(
+            self, text="delete highlighted", command=lambda: asyncio.ensure_future(self.del_external_mod())
+        )
 
         self.scrollbar: Scrollbar = Scrollbar(self)
         self.lb_mods.configure(yscrollcommand=self.scrollbar.set)
@@ -96,20 +107,37 @@ class ExternalModList(LabelFrame):
         """
         x: int = 0
         y: int = 0
+        rows: int = 3
+        columns: int = 2
 
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.columnconfigure(1, weight=1, pad=self.ypadding)
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
 
-        self.rowconfigure(0, weight=1, pad=self.xpadding)
-        self.rowconfigure(1, weight=1, pad=self.xpadding)
-        self.rowconfigure(2, weight=1, pad=self.xpadding)
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
 
-        self.lb_mods.grid(row=x, column=y, columnspan=2, sticky="WE")
-        self.scrollbar.grid(row=x, column=y + 2, sticky="NS")
+        self.lb_mods.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+        self.scrollbar.grid(row=x, column=y + 2, sticky=Position.VERTICAL)
         self.btn_add.grid(row=x + 1, column=y)
         self.btn_rem.grid(row=x + 1, column=y + 1, columnspan=2)
 
         self.update_idletasks()
+
+    async def del_external_mod(self) -> None:
+        """
+        Method called when the button to delete the highlighted external mod is pressed.
+
+        :return: None
+        """
+        showerror("Feature not yet implemented", "The removal of external mods from assets is not yet implemented.")
+
+    async def add_external_mod(self) -> None:
+        """
+        Method called when the button to add an external mod is pressed.
+
+        :return: None
+        """
+        showerror("Feature not yet implemented", "The addition of external mods to the assets is not yet implemented.")
 
     def populate_data(self, data: Any) -> None:
         """
@@ -149,7 +177,11 @@ class ExternalModFrame(LabelFrame):
         self.mod_info_frame: ModInfoFrame = ModInfoFrame(
             self, frame_name="external mod info", callbacks=mod_info_callbacks
         )
-        self.external_mod_list: ExternalModList = ExternalModList(self, frame_name="external mod list", callbacks={})
+
+        external_mod_list_callbacks: Dict[str, Any] = {"get_gtnh": callbacks["get_gtnh"]}
+        self.external_mod_list: ExternalModList = ExternalModList(
+            self, frame_name="external mod list", callbacks=external_mod_list_callbacks
+        )
 
         if self.width is None:
             self.width = self.external_mod_list.get_width()
@@ -221,12 +253,19 @@ class ExternalModFrame(LabelFrame):
 
         :return: None
         """
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.rowconfigure(0, weight=1, pad=self.xpadding)
-        self.rowconfigure(1, weight=1, pad=self.xpadding)
+        x: int = 0
+        y: int = 0
+        rows: int = 2
+        columns: int = 1
 
-        self.external_mod_list.grid(row=0, column=0)
-        self.mod_info_frame.grid(row=1, column=0)
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
+
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
+
+        self.external_mod_list.grid(row=x, column=y)
+        self.mod_info_frame.grid(row=x + 1, column=y)
 
         self.external_mod_list.show()
         self.mod_info_frame.show()

@@ -37,7 +37,7 @@ class ModInfoFrame(LabelFrame):
         self.label_license_text: str = "mod license:"
         self.label_size_text: str = "mod side:"
 
-        self.width = (
+        self.width: int = (
             width
             if width is not None
             else max(
@@ -159,11 +159,14 @@ class ModInfoFrame(LabelFrame):
         """
         x: int = 0
         y: int = 0
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.columnconfigure(1, weight=2, pad=self.ypadding)
+        rows: int = 4
+        columns: int = 2
 
-        for i in range(0, 4):
+        for i in range(rows):
             self.rowconfigure(i, weight=1, pad=self.xpadding)
+
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
 
         self.label_mod_name.grid(row=x, column=y)
         self.label_mod_name_value.grid(row=x, column=y + 1)
