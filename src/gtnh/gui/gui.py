@@ -1,6 +1,6 @@
 import asyncio
 from pathlib import Path
-from tkinter import PhotoImage, Tk
+from tkinter import DISABLED, NORMAL, Button, PhotoImage, Tk, Widget
 from tkinter.messagebox import showerror, showinfo
 from typing import Any, Callable, Dict, List, Optional, Union
 
@@ -18,6 +18,20 @@ from gtnh.modpack_manager import GTNHModpackManager
 
 ASYNC_SLEEP: float = 0.05
 ICON: Path = Path(__file__).parent.parent.parent.parent / "icon.png"
+
+
+def check(widget: Widget) -> bool:
+    """
+    Check if the given widget is matching one of the types that can be disabled.
+
+    :param widget: the given widget
+    :return: if yes or no it can be disabled
+    """
+    widget_list = ["button", "entry", "listbox", "combobox"]
+    for widget_type in widget_list:
+        if widget_type in str(widget):
+            return True
+    return False
 
 
 class App:
@@ -127,6 +141,38 @@ class Window(Tk):
         width: int = self.github_mod_frame.get_width()
         self.external_mod_frame.set_width(width)
 
+        self.toggled = True
+        self.btn_debug = Button(self, text="toggle", command=self.trigger_toggle)
+
+    def trigger_toggle(self) -> None:
+        """
+        Enable/disable the widgets that can be toggled.
+
+        :return: None
+        """
+        self.toggled = not self.toggled
+        self.toggle(self)
+
+    def toggle(self, widget: Any) -> None:
+        """
+        Recursion algorithm to toggle the widgets.
+
+        :param widget: the widget to recurse from
+        :return: None
+        """
+        state: str
+        if self.toggled:
+            state = NORMAL
+        else:
+            state = DISABLED
+
+        if check(widget):
+            widget.configure(state=state)  # type: ignore
+        else:
+            if len(widget.winfo_children()) > 0:
+                for child in widget.winfo_children():
+                    self.toggle(child)
+
     async def assemble_mmc_release(self) -> None:
         """
         Method used to trigger the assembling of the mmc pack archive corresponding to the provided side.
@@ -134,8 +180,10 @@ class Window(Tk):
         :return: None
         """
         self.set_progress(100 / 2)
+        self.trigger_toggle()
         release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.MMC)
         release_assembler.assemble_mmc(Side.CLIENT, verbose=True)
+        self.trigger_toggle()
 
     async def assemble_zip_release(self, side: Side) -> None:
         """
@@ -145,8 +193,10 @@ class Window(Tk):
         :return: None
         """
         self.set_progress(100 / 2)
+        self.trigger_toggle()
         release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.ZIP)
         release_assembler.assemble_zip(side, verbose=True)
+        self.trigger_toggle()
 
     async def assemble_technic_release(self) -> None:
         """
@@ -155,8 +205,10 @@ class Window(Tk):
         :return: None
         """
         self.set_progress(100 / 2)
+        self.trigger_toggle()
         release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.ZIP)
         release_assembler.assemble_technic(Side.CLIENT, verbose=True)
+        self.trigger_toggle()
 
     async def assemble_modrinth_release(self) -> None:
         """
@@ -165,8 +217,10 @@ class Window(Tk):
         :return: None
         """
         self.set_progress(100 / 2)
+        self.trigger_toggle()
         release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.MODRINTH)
         release_assembler.assemble_modrinth(Side.CLIENT, verbose=True)
+        self.trigger_toggle()
 
     async def assemble_curse_release(self) -> None:
         """
@@ -175,8 +229,10 @@ class Window(Tk):
         :return: None
         """
         self.set_progress(100 / 2)
+        self.trigger_toggle()
         release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.CURSEFORGE)
         release_assembler.assemble_curse(Side.CLIENT, verbose=True)
+        self.trigger_toggle()
 
     async def pre_assembling(self, archive: Archive) -> ReleaseAssembler:
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
@@ -212,6 +268,8 @@ class Window(Tk):
         """
         global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.update_global_progress_bar
 
+        self.trigger_toggle()
+
         self.set_progress(100 / (1 + 5 + 1))  # download + archives for client + archive for server
         release_assembler: ReleaseAssembler = await self.pre_assembling(Archive.CURSEFORGE)
 
@@ -220,6 +278,8 @@ class Window(Tk):
         release_assembler.assemble(Side.CLIENT, verbose=True)
         global_callback(self.get_progress(), f"Assembling {Side.SERVER} {Archive.ZIP} archive")
         release_assembler.assemble_zip(Side.SERVER, verbose=True)
+
+        self.trigger_toggle()
 
     def set_progress(self, delta_progress: float) -> None:
         """
@@ -482,6 +542,8 @@ class Window(Tk):
         self.modpack_list_frame.grid(row=0, column=1, columnspan=4, sticky="WENS")
         self.exclusion_frame_client.grid(row=1, column=1, columnspan=2, sticky="WENS")
         self.exclusion_frame_server.grid(row=1, column=3, columnspan=2, sticky="WENS")
+
+        self.btn_debug.grid(row=20, column=20)
 
         # child widget's inner display
         self.github_mod_frame.show()
