@@ -424,8 +424,11 @@ class Window(Tk):
 
         :return: None
         """
+        # todo: add a callback to report progress
+        self.trigger_toggle()
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         await gtnh.update_all()
+        self.trigger_toggle()
         showinfo("assets updated successfully!", "all the assets have been updated correctly!")
 
     async def generate_nightly(self) -> None:
@@ -434,10 +437,13 @@ class Window(Tk):
 
         :return: None
         """
+        # todo: add a callback to report progress
+        self.trigger_toggle()
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         release: GTNHRelease = await gtnh.generate_release("nightly", update_available=True)
         gtnh.add_release(release, update=True)
         gtnh.save_modpack()
+        self.trigger_toggle()
         showinfo("updated the nightly release metadata", "The nightly release metadata had been updated!")
 
     async def get_releases(self) -> List[GTNHRelease]:
