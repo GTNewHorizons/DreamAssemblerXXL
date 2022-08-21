@@ -1,6 +1,6 @@
 import asyncio
 from pathlib import Path
-from tkinter import DISABLED, NORMAL, Button, PhotoImage, Tk, Widget
+from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
 from tkinter.messagebox import showerror, showinfo
 from typing import Any, Callable, Dict, List, Optional, Union
 
@@ -141,8 +141,7 @@ class Window(Tk):
         width: int = self.github_mod_frame.get_width()
         self.external_mod_frame.set_width(width)
 
-        self.toggled = True
-        self.btn_debug = Button(self, text="toggle", command=self.trigger_toggle)
+        self.toggled: bool = True  # state variable indicating if the widgets are disabled or not
 
     def trigger_toggle(self) -> None:
         """
@@ -514,8 +513,6 @@ class Window(Tk):
         self.modpack_list_frame.grid(row=0, column=1, columnspan=4, sticky="WENS")
         self.exclusion_frame_client.grid(row=1, column=1, columnspan=2, sticky="WENS")
         self.exclusion_frame_server.grid(row=1, column=3, columnspan=2, sticky="WENS")
-
-        self.btn_debug.grid(row=20, column=20)
 
         # child widget's inner display
         self.github_mod_frame.show()
