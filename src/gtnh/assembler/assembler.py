@@ -157,9 +157,8 @@ class ReleaseAssembler:
         with open(RELEASE_CHANGELOG_DIR / f"changelog from {previous_version} to {current_version}.md", "w") as file:
 
             for mod, mod_changelog in changelog.items():
-
-                try:
-                    file.write("\n".join([mod] + mod_changelog) + "\n")
-                except UnicodeEncodeError:
-                    print(mod)
-                    print(mod_changelog)
+                for item in [mod] + mod_changelog:
+                    try:
+                        file.write(item + "\n")
+                    except UnicodeEncodeError:
+                        file.write((item + "\n").encode("ascii", "ignore").decode())
