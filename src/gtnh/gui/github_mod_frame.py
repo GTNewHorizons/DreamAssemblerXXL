@@ -4,6 +4,7 @@ from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import Combobox
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
+from gtnh.defs import Position
 from gtnh.exceptions import RepoNotFoundException
 from gtnh.gui.mod_info_frame import ModInfoFrame
 from gtnh.models.gtnh_version import GTNHVersion
@@ -120,14 +121,17 @@ class GithubModList(LabelFrame):
         """
         x: int = 0
         y: int = 0
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.columnconfigure(1, weight=1, pad=self.ypadding)
+        rows: int = 5
+        columns: int = 2
 
-        for i in range(0, 5):
+        for i in range(rows):
             self.rowconfigure(i, weight=1, pad=self.xpadding)
 
-        self.lb_mods.grid(row=x, column=y, columnspan=2, sticky="WE")
-        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky="NS")
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
+
+        self.lb_mods.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky=Position.VERTICAL)
         self.label_entry.grid(row=x + 1, column=y)
         self.entry.grid(row=x + 1, column=y + 1, columnspan=2)
         self.btn_add.grid(row=x + 2, column=y)
@@ -349,14 +353,20 @@ class GithubModFrame(LabelFrame):
 
         :return: None
         """
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.rowconfigure(0, weight=1, pad=self.xpadding)
-        self.rowconfigure(1, weight=1, pad=self.xpadding)
-        self.rowconfigure(2, weight=1, pad=self.xpadding)
+        x: int = 0
+        y: int = 0
+        rows: int = 3
+        columns: int = 1
 
-        self.modpack_version_frame.grid(row=0, column=0, sticky="WE")
-        self.github_mod_list.grid(row=1, column=0)  # ref widget
-        self.mod_info_frame.grid(row=2, column=0, sticky="WE")
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
+
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
+
+        self.modpack_version_frame.grid(row=x, column=y, sticky=Position.HORIZONTAL)
+        self.github_mod_list.grid(row=x + 1, column=y)  # ref widget
+        self.mod_info_frame.grid(row=x + 2, column=y, sticky=Position.HORIZONTAL)
 
         self.modpack_version_frame.show()
         self.github_mod_list.show()
@@ -462,12 +472,19 @@ class ModpackVersionFrame(LabelFrame):
 
         :return: None
         """
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.columnconfigure(1, weight=1, pad=self.ypadding)
-        self.rowconfigure(0, weight=1, pad=self.xpadding)
+        x: int = 0
+        y: int = 0
+        rows: int = 1
+        columns: int = 2
 
-        self.label_modpack_version.grid(row=0, column=0)
-        self.cb_modpack_version.grid(row=0, column=1)
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
+
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
+
+        self.label_modpack_version.grid(row=x, column=y)
+        self.cb_modpack_version.grid(row=x, column=y + 1)
 
     def populate_data(self, data: Dict[str, Any]) -> None:
         """

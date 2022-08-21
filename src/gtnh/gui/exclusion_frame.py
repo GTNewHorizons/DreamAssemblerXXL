@@ -1,6 +1,8 @@
 from tkinter import END, Button, Entry, LabelFrame, Listbox, Scrollbar, StringVar
 from typing import Any, Callable, Dict, List, Optional, Tuple
 
+from gtnh.defs import Position
+
 
 class ExclusionFrame(LabelFrame):
     """Widget managing an exclusion list."""
@@ -135,18 +137,20 @@ class ExclusionFrame(LabelFrame):
         """
         x: int = 0
         y: int = 0
+        rows: int = 3
+        columns: int = 2
 
-        self.rowconfigure(0, weight=1, pad=self.xpadding)
-        self.rowconfigure(1, weight=1, pad=self.xpadding)
-        self.rowconfigure(2, weight=1, pad=self.xpadding)
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.columnconfigure(1, weight=1, pad=self.ypadding)
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
 
-        self.listbox.grid(row=x, column=y, columnspan=2, sticky="WE")
-        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky="NS")
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
+
+        self.listbox.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky=Position.VERTICAL)
         self.entry.grid(row=x + 1, column=y, columnspan=3)
-        self.btn_add.grid(row=x + 2, column=y, sticky="NE")
-        self.btn_del.grid(row=x + 2, column=y + 1, columnspan=2, sticky="WN")
+        self.btn_add.grid(row=x + 2, column=y, sticky=Position.UP_RIGHT)
+        self.btn_del.grid(row=x + 2, column=y + 1, columnspan=2, sticky=Position.UP_LEFT)
 
     def populate_data(self, data: Dict[str, Any]) -> None:
         """

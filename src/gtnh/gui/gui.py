@@ -7,7 +7,7 @@ from typing import Any, Callable, Dict, List, Optional, Union
 import httpx
 
 from gtnh.assembler.assembler import ReleaseAssembler
-from gtnh.defs import Archive, Side
+from gtnh.defs import Archive, Position, Side
 from gtnh.gui.exclusion_frame import ExclusionFrame
 from gtnh.gui.external_mod_frame import ExternalModFrame
 from gtnh.gui.github_mod_frame import GithubModFrame
@@ -64,6 +64,9 @@ class Window(Tk):
         self._run: bool = True
         self.title("DreamAssemblerXXL")
         self.iconphoto(False, PhotoImage(file=ICON))
+
+        self.xpadding: int = 0
+        self.ypadding: int = 0
 
         self.github_mods: Dict[str, str] = {}  # name <-> version of github mods mappings for the current release
         self.gtnh_config: str = ""  # modpack asset version
@@ -506,18 +509,23 @@ class Window(Tk):
 
         :return: None
         """
+        x: int = 0
+        y: int = 0
+        rows: int = 2
+        columns: int = 5
 
-        # auto resize config
-        for i in range(6):
-            self.columnconfigure(i, weight=1)
-            self.rowconfigure(i, weight=1)
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
+
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
 
         # display child widgets
-        self.github_mod_frame.grid(row=0, column=0, rowspan=1, sticky="WENS")
-        self.external_mod_frame.grid(row=1, column=0, rowspan=1, sticky="WENS")
-        self.modpack_list_frame.grid(row=0, column=1, columnspan=4, sticky="WENS")
-        self.exclusion_frame_client.grid(row=1, column=1, columnspan=2, sticky="WENS")
-        self.exclusion_frame_server.grid(row=1, column=3, columnspan=2, sticky="WENS")
+        self.github_mod_frame.grid(row=x, column=y, rowspan=1, sticky=Position.ALL)
+        self.modpack_list_frame.grid(row=x, column=y + 1, columnspan=4, sticky=Position.ALL)
+        self.external_mod_frame.grid(row=x + 1, column=y, rowspan=1, sticky=Position.ALL)
+        self.exclusion_frame_client.grid(row=x + 1, column=y + 1, columnspan=2, sticky=Position.ALL)
+        self.exclusion_frame_server.grid(row=x + 1, column=y + 3, columnspan=2, sticky=Position.ALL)
 
         # child widget's inner display
         self.github_mod_frame.show()

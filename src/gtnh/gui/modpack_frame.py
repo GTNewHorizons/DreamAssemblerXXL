@@ -116,12 +116,19 @@ class ModpackFrame(LabelFrame):
 
         :return: None
         """
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.columnconfigure(1, weight=1, pad=self.ypadding)
-        self.rowconfigure(0, weight=1, pad=self.xpadding)
+        x: int = 0
+        y: int = 0
+        rows: int = 1
+        columns: int = 2
 
-        self.modpack_list.grid(row=0, column=0, sticky="WENS")
-        self.action_frame.grid(row=0, column=1, sticky="WENS")
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
+
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
+
+        self.modpack_list.grid(row=x, column=y, sticky=Position.ALL)
+        self.action_frame.grid(row=x, column=y + 1, sticky=Position.ALL)
 
         self.modpack_list.show()
         self.action_frame.show()
@@ -264,13 +271,13 @@ class ModpackList(LabelFrame):
         for i in range(rows):
             self.rowconfigure(i, weight=1, pad=self.xpadding)
 
-        self.lb_modpack_versions.grid(row=x, column=y, columnspan=2, sticky="WE")
-        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky="NS")
-        self.label_loaded_version.grid(row=x + 1, column=y, columnspan=3, sticky="W")
-        self.btn_load.grid(row=x + 2, column=y, sticky="ES")
-        self.btn_del.grid(row=x + 2, column=y + 1, columnspan=2, sticky="WS")
-        self.entry.grid(row=x + 3, column=y, sticky="EN")
-        self.btn_add.grid(row=x + 3, column=y + 1, columnspan=2, sticky="WN")
+        self.lb_modpack_versions.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky=Position.VERTICAL)
+        self.label_loaded_version.grid(row=x + 1, column=y, columnspan=3, sticky=Position.LEFT)
+        self.btn_load.grid(row=x + 2, column=y, sticky=Position.DOWN_RIGHT)
+        self.btn_del.grid(row=x + 2, column=y + 1, columnspan=2, sticky=Position.DOWN_LEFT)
+        self.entry.grid(row=x + 3, column=y, sticky=Position.UP_RIGHT)
+        self.btn_add.grid(row=x + 3, column=y + 1, columnspan=2, sticky=Position.UP_LEFT)
 
         self.update_idletasks()
 
@@ -492,12 +499,15 @@ class ActionFrame(LabelFrame):
         """
         x: int = 0
         y: int = 0
+        rows: int = 5
+        columns: int = 1
 
-        for i in range(5):
+        for i in range(rows):
             self.rowconfigure(i, weight=1, pad=self.xpadding)
-        self.rowconfigure(5, weight=3)  # allocate more space for the btn frame
 
-        for i in range(1):
+        self.rowconfigure(rows + 1, weight=3)  # allocate more space for the btn frame
+
+        for i in range(columns):
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
         self.label_pb_global.grid(row=x, column=y)
@@ -511,10 +521,12 @@ class ActionFrame(LabelFrame):
 
         # grid withing the self.fram_btn
         pad: int = 3
-        for i in range(3):
+        frame_rows: int = 3
+        frame_columns: int = 3
+        for i in range(frame_rows):
             self.frame_btn.rowconfigure(i, weight=1, pad=pad)
 
-        for i in range(3):
+        for i in range(frame_columns):
             self.frame_btn.columnconfigure(i, weight=1, pad=pad)
 
         self.btn_client_cf.grid(row=0, column=0)

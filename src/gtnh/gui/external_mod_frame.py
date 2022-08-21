@@ -3,6 +3,7 @@ from tkinter import Button, LabelFrame, Listbox, Scrollbar, StringVar
 from tkinter.messagebox import showerror
 from typing import Any, Callable, Coroutine, Dict, Optional
 
+from gtnh.defs import Position
 from gtnh.gui.mod_info_frame import ModInfoFrame
 from gtnh.modpack_manager import GTNHModpackManager
 
@@ -106,16 +107,17 @@ class ExternalModList(LabelFrame):
         """
         x: int = 0
         y: int = 0
+        rows: int = 3
+        columns: int = 2
 
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.columnconfigure(1, weight=1, pad=self.ypadding)
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
 
-        self.rowconfigure(0, weight=1, pad=self.xpadding)
-        self.rowconfigure(1, weight=1, pad=self.xpadding)
-        self.rowconfigure(2, weight=1, pad=self.xpadding)
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
 
-        self.lb_mods.grid(row=x, column=y, columnspan=2, sticky="WE")
-        self.scrollbar.grid(row=x, column=y + 2, sticky="NS")
+        self.lb_mods.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+        self.scrollbar.grid(row=x, column=y + 2, sticky=Position.VERTICAL)
         self.btn_add.grid(row=x + 1, column=y)
         self.btn_rem.grid(row=x + 1, column=y + 1, columnspan=2)
 
@@ -251,12 +253,19 @@ class ExternalModFrame(LabelFrame):
 
         :return: None
         """
-        self.columnconfigure(0, weight=1, pad=self.ypadding)
-        self.rowconfigure(0, weight=1, pad=self.xpadding)
-        self.rowconfigure(1, weight=1, pad=self.xpadding)
+        x: int = 0
+        y: int = 0
+        rows: int = 2
+        columns: int = 1
 
-        self.external_mod_list.grid(row=0, column=0)
-        self.mod_info_frame.grid(row=1, column=0)
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
+
+        for i in range(columns):
+            self.columnconfigure(i, weight=1, pad=self.ypadding)
+
+        self.external_mod_list.grid(row=x, column=y)
+        self.mod_info_frame.grid(row=x + 1, column=y)
 
         self.external_mod_list.show()
         self.mod_info_frame.show()
