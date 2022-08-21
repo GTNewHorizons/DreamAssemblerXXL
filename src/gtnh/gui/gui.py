@@ -93,6 +93,7 @@ class Window(Tk):
         external_frame_callbacks: Dict[str, Any] = {
             "set_external_mod_version": self.set_external_mod_version,
             "set_external_mod_side": lambda name, side: None,
+            "get_gtnh": self._get_modpack_manager,
         }
         self.external_mod_frame: ExternalModFrame = ExternalModFrame(
             self, frame_name="external mod data", callbacks=external_frame_callbacks

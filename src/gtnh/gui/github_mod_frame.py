@@ -1,6 +1,6 @@
 import asyncio
 from tkinter import END, Button, Entry, Label, LabelFrame, Listbox, Scrollbar, StringVar
-from tkinter.messagebox import showinfo, showerror, showwarning
+from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import Combobox
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
@@ -52,7 +52,7 @@ class GithubModList(LabelFrame):
         self.entry: Entry = Entry(self, textvariable=self.sv_repo_name)
 
         self.btn_add: Button = Button(self, text=add_repo_text, command=lambda: asyncio.ensure_future(self.add_repo()))
-        self.btn_rem: Button = Button(self, text=del_repo_text)
+        self.btn_rem: Button = Button(self, text=del_repo_text, command=lambda: asyncio.ensure_future(self.del_repo()))
 
         self.scrollbar: Scrollbar = Scrollbar(self)
         self.lb_mods.configure(yscrollcommand=self.scrollbar.set)
@@ -177,7 +177,12 @@ class GithubModList(LabelFrame):
 
         self.mod_info_callback(data)
 
-    async def add_repo(self):
+    async def add_repo(self) -> None:
+        """
+        Method called when the button to add the github repository to assets is pressed.
+
+        :return: None
+        """
         repo_name: str = self.sv_repo_name.get()
         if repo_name == "":
             return
@@ -197,11 +202,24 @@ class GithubModList(LabelFrame):
             showinfo("Repository added successfully", f"{repo_name} has been added successfully to the assets!")
 
         except RepoNotFoundException:
-            showerror("Error while adding the repository",
-                      f"{repo_name} is not a valid NH repository. A couple things to check:"
-                      "\n- Did you used the repository's url instead of its name?"
-                      "\n- Did you spelled it correctly?"
-                      "\n- Did you registered your token in DreamAssemblerXXL in case of a private repo?")
+            showerror(
+                "Error while adding the repository",
+                f"{repo_name} is not a valid NH repository. A couple things to check:"
+                "\n- Did you used the repository's url instead of its name?"
+                "\n- Did you spelled it correctly?"
+                "\n- Did you registered your token in DreamAssemblerXXL in case of a private repo?",
+            )
+
+    async def del_repo(self) -> None:
+        """
+        Method called when the button to delete the highlighted github repository is pressed.
+
+        :return: None
+        """
+        showerror(
+            "Feature not yet implemented", "The removal of github repositories from assets is not yet implemented."
+        )
+
 
 class GithubModFrame(LabelFrame):
     """

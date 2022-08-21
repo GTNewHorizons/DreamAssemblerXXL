@@ -1,7 +1,10 @@
+import asyncio
 from tkinter import Button, LabelFrame, Listbox, Scrollbar, StringVar
-from typing import Any, Dict, Optional
+from tkinter.messagebox import showerror
+from typing import Any, Callable, Coroutine, Dict, Optional
 
 from gtnh.gui.mod_info_frame import ModInfoFrame
+from gtnh.modpack_manager import GTNHModpackManager
 
 
 class ExternalModList(LabelFrame):
@@ -23,8 +26,10 @@ class ExternalModList(LabelFrame):
         self.ypadding: int = 0
         self.xpadding: int = 0
 
-        self.btn_add_text = "add new"
-        self.btn_rem_text = "delete highlighted"
+        self.btn_add_text: str = "add new"
+        self.btn_rem_text: str = "delete highlighted"
+
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
 
         self.width = width if width is not None else max(len(self.btn_add_text), len(self.btn_rem_text))
 
@@ -32,8 +37,13 @@ class ExternalModList(LabelFrame):
 
         self.lb_mods: Listbox = Listbox(self, exportselection=False)
 
-        self.btn_add: Button = Button(self, text="add new")
-        self.btn_rem: Button = Button(self, text="delete highlighted")
+        self.btn_add: Button = Button(
+            self, text="add new", command=lambda: asyncio.ensure_future(self.add_external_mod())
+        )
+
+        self.btn_rem: Button = Button(
+            self, text="delete highlighted", command=lambda: asyncio.ensure_future(self.del_external_mod())
+        )
 
         self.scrollbar: Scrollbar = Scrollbar(self)
         self.lb_mods.configure(yscrollcommand=self.scrollbar.set)
@@ -111,6 +121,22 @@ class ExternalModList(LabelFrame):
 
         self.update_idletasks()
 
+    async def del_external_mod(self) -> None:
+        """
+        Method called when the button to delete the highlighted external mod is pressed.
+
+        :return: None
+        """
+        showerror("Feature not yet implemented", "The removal of external mods from assets is not yet implemented.")
+
+    async def add_external_mod(self) -> None:
+        """
+        Method called when the button to add an external mod is pressed.
+
+        :return: None
+        """
+        showerror("Feature not yet implemented", "The addition of external mods to the assets is not yet implemented.")
+
     def populate_data(self, data: Any) -> None:
         """
         Method called by parent class to populate data in this class.
@@ -149,7 +175,11 @@ class ExternalModFrame(LabelFrame):
         self.mod_info_frame: ModInfoFrame = ModInfoFrame(
             self, frame_name="external mod info", callbacks=mod_info_callbacks
         )
-        self.external_mod_list: ExternalModList = ExternalModList(self, frame_name="external mod list", callbacks={})
+
+        external_mod_list_callbacks: Dict[str, Any] = {"get_gtnh": callbacks["get_gtnh"]}
+        self.external_mod_list: ExternalModList = ExternalModList(
+            self, frame_name="external mod list", callbacks=external_mod_list_callbacks
+        )
 
         if self.width is None:
             self.width = self.external_mod_list.get_width()
