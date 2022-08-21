@@ -83,3 +83,18 @@ class ModSource(str, Enum):
     curse = "curse"
     modrinth = "modrinth"
     other = "other"
+
+
+class Position(str, Enum):
+    UP = "N"
+    DOWN = "S"
+    LEFT = "W"
+    RIGHT = "E"
+    UP_LEFT = "WN"
+    UP_RIGHT = "EN"
+    DOWN_LEFT = "WS"
+    DOWN_RIGHT = "ES"
+    HORIZONTAL = "WE"
+    VERTICAL = "NS"
+    ALL = "WENS"
+    NONE = ""
