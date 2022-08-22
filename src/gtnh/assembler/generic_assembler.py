@@ -117,7 +117,11 @@ class GenericAssembler:
         return config, version
 
     def add_mods(
-        self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
+        self,
+        side: Side,
+        mods: list[tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]],
+        archive: ZipFile,
+        verbose: bool = False,
     ) -> None:
         """
         Method to add mods in the zip archive.

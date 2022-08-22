@@ -9,7 +9,7 @@ from gtnh.defs import MMC_PACK_JSON, RELEASE_MMC_DIR, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
-from gtnh.models.mod_info import GTNHModInfo
+from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 
@@ -45,7 +45,11 @@ class MMCAssembler(GenericAssembler):
         self.mmc_modpack_mods: Path = self.mmc_modpack_files / "mods"
 
     def add_mods(
-        self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
+        self,
+        side: Side,
+        mods: list[tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]],
+        archive: ZipFile,
+        verbose: bool = False,
     ) -> None:
 
         for mod, version in mods:
