@@ -51,7 +51,6 @@ class ZipAssembler(GenericAssembler):
 
         for mod, version in mods:
             source_file: Path = get_asset_version_cache_location(mod, version)
-            self.update_progress(side, source_file, verbose=verbose)
             archive_path: Path = Path("mods") / source_file.name
             archive.write(source_file, arcname=archive_path)
             if self.task_progress_callback is not None:
@@ -69,7 +68,6 @@ class ZipAssembler(GenericAssembler):
         config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
 
         with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
-            self.update_progress(side, config_file, verbose=verbose)
 
             for item in config_zip.namelist():
                 if item in self.exclusions[side]:

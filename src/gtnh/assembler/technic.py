@@ -53,7 +53,6 @@ class TechnicAssembler(GenericAssembler):
 
         for mod, version in mods:
             source_file: Path = get_asset_version_cache_location(mod, version)
-            self.update_progress(side, source_file, verbose=verbose)
             archive_path: Path = Path("mods") / source_file.name
 
             # set up temp zip
@@ -80,7 +79,6 @@ class TechnicAssembler(GenericAssembler):
         modpack_config, config_version = config
 
         config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
-        self.update_progress(side, config_file, verbose=verbose)
 
         temp_zip_path: Path = Path("./temp.zip")
 
@@ -89,7 +87,6 @@ class TechnicAssembler(GenericAssembler):
 
             # reading the config files
             with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
-                self.update_progress(side, config_file, verbose=verbose)
 
                 for item in config_zip.namelist():
                     # excluding files

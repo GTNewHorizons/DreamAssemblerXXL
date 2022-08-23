@@ -148,17 +148,6 @@ class GenericAssembler:
         """
         pass
 
-    def update_progress(self, side: Side, source_file: Path, verbose: bool = False) -> None:
-        """
-        Method used to report progress.
-
-        :param side: target side
-        :param source_file: file path being added
-        :param verbose: flag to turn on verbose mode
-        :return: None
-        """
-        pass
-
     def assemble(self, side: Side, verbose: bool = False) -> None:
         """
         Method to assemble the release.
