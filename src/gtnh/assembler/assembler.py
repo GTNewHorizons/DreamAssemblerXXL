@@ -25,6 +25,7 @@ class ReleaseAssembler:
         release: GTNHRelease,
         task_callback: Optional[Callable[[float, str], None]] = None,
         global_callback: Optional[Callable[[float, str], None]] = None,
+        current_task_reset_callback: Optional[Callable[[], None]] = None,
     ) -> None:
         """
         Constructor of the ReleaseAssemblerClass.
@@ -32,10 +33,12 @@ class ReleaseAssembler:
         :param mod_manager: the GTNHModpackManager instance
         :param release: the target GTNHRelease
         :param global_progress_callback: the global_progress_callback to use to report progress
+        :param current_task_reset_callback: the callback to reset the progress bar for the current task
         """
         self.mod_manager: GTNHModpackManager = mod_manager
         self.release: GTNHRelease = release
         self.callback: Optional[Callable[[float, str], None]] = global_callback
+        self.current_task_reset_callback = current_task_reset_callback
 
         self.zip_assembler: ZipAssembler = ZipAssembler(mod_manager, release, task_callback)
         self.mmc_assembler: MMCAssembler = MMCAssembler(mod_manager, release, task_callback)
@@ -71,6 +74,8 @@ class ReleaseAssembler:
         :param verbose: bool flag enabling verbose mod
         :return: None
         """
+        if self.current_task_reset_callback is not None:
+            self.current_task_reset_callback()
 
         assemblers: Dict[str, Callable[[Side, bool], None]] = {
             Archive.ZIP: self.assemble_zip,
@@ -81,6 +86,9 @@ class ReleaseAssembler:
         }
 
         for plateform, assembling in assemblers.items():
+            if self.current_task_reset_callback is not None:
+                self.current_task_reset_callback()
+
             self.callback(self.get_progress(), f"Assembling {side} {plateform} archive")  # type: ignore
             assembling(side, verbose)
         self.generate_changelog()

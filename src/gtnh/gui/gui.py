@@ -229,7 +229,13 @@ class Window(Tk):
         global_callback(self.get_progress(), "Downloading assets")
         await gtnh.download_release(release, callback=progress_callback)
         current_task_reset_callback()
-        return ReleaseAssembler(gtnh, release, task_callback=progress_callback, global_callback=global_callback)
+        return ReleaseAssembler(
+            gtnh,
+            release,
+            task_callback=progress_callback,
+            global_callback=global_callback,
+            current_task_reset_callback=current_task_reset_callback,
+        )
 
     async def assemble_all(self) -> None:
         """
@@ -247,6 +253,11 @@ class Window(Tk):
         release_assembler.set_progress(self.get_progress())
 
         release_assembler.assemble(Side.CLIENT, verbose=True)
+
+        # todo: redo the bar resets less hacky: they are all spread all over the place and it's inconsistent
+        if release_assembler.current_task_reset_callback is not None:
+            release_assembler.current_task_reset_callback()
+
         global_callback(self.get_progress(), f"Assembling {Side.SERVER} {Archive.ZIP} archive")
         release_assembler.assemble_zip(Side.SERVER, verbose=True)
 
