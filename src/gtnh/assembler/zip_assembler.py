@@ -79,7 +79,7 @@ class ZipAssembler(GenericAssembler):
                             self.task_progress_callback(self.get_progress(), f"adding {item} to the archive")
 
     def get_archive_path(self, side: Side) -> Path:
-        return RELEASE_ZIP_DIR / f"GTNewHorizons-{side}-{self.release.version}.zip"
+        return RELEASE_ZIP_DIR / f"GT New Horizons {self.release.version} {side}.zip"
 
     def assemble(self, side: Side, verbose: bool = False) -> None:
         self.set_progress(100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side)))
