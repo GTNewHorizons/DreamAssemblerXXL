@@ -98,8 +98,7 @@ class MMCAssembler(GenericAssembler):
         self.set_progress(100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + 1))
         GenericAssembler.assemble(self, side, verbose)
 
-        if side == Side.CLIENT:
-            self.add_mmc_meta_data(side)
+        self.add_mmc_meta_data(side)
 
     def add_mmc_meta_data(self, side: Side) -> None:
         """
