@@ -95,9 +95,11 @@ class Window(Tk):
 
         external_frame_callbacks: Dict[str, Any] = {
             "set_external_mod_version": self.set_external_mod_version,
-            "set_external_mod_side": lambda name, side: None,
+            "set_external_mod_side": lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)),
             "get_gtnh": self._get_modpack_manager,
+            "get_external_mods": self.get_github_mods
         }
+
         self.external_mod_frame: ExternalModFrame = ExternalModFrame(
             self, frame_name="external mod data", callbacks=external_frame_callbacks
         )
@@ -334,6 +336,21 @@ class Window(Tk):
                 f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details",
             )
 
+    async def set_external_mod_side(self, mod_name: str, side: str) -> None:
+        """
+        Method used to set the side of an external mod.
+
+        :param mod_name: the mod name
+        :param side: side of the pack
+        :return: None
+        """
+        gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        if not gtnh.set_external_mod_side(mod_name, side):
+            showerror(
+                "Error setting up the side of the mod",
+                f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details",
+            )
+
     def set_github_mod_version(self, github_mod_name: str, mod_version: str) -> None:
         """
         Callback used when a github mod version is selected.
@@ -379,6 +396,14 @@ class Window(Tk):
         :return: self.github_mods
         """
         return self.github_mods
+
+    def get_external_mods(self) -> Dict[str, str]:
+        """
+        Getter for self.external_mods.
+
+        :return: self.external_mods
+        """
+        return self.external_mods
 
     async def _get_client(self) -> httpx.AsyncClient:
         """
@@ -580,12 +605,20 @@ class Window(Tk):
             releases: List[GTNHRelease] = await self.get_releases()
             if len(releases) > 0:
                 await self.load_gtnh_version(releases[-1], init=True)
-            data = {
+
+            data_github_mods: Dict[str, Any] = {
                 "github_mod_list": await self.get_repos(),
                 "modpack_version_frame": {"combobox": await self.get_modpack_versions(), "stringvar": self.gtnh_config},
             }
 
-            self.github_mod_frame.populate_data(data)
+            self.github_mod_frame.populate_data(data_github_mods)
+
+            data_external_mods: Dict[str, Any] = {
+                "external_mod_list": [mod for mod in self.get_external_mods().keys()]
+            }
+
+            self.external_mod_frame.populate_data(data_external_mods)
+
             self.modpack_list_frame.populate_data(await self.get_releases())
             self.exclusion_frame_server.populate_data({"exclusions": await self.get_modpack_exclusions("server")})
             self.exclusion_frame_client.populate_data({"exclusions": await self.get_modpack_exclusions("client")})

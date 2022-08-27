@@ -1,10 +1,12 @@
 import asyncio
-from tkinter import Button, LabelFrame, Listbox, Scrollbar, StringVar
+from tkinter import Button, LabelFrame, Listbox, Scrollbar, StringVar, END
 from tkinter.messagebox import showerror
-from typing import Any, Callable, Coroutine, Dict, Optional
+from typing import Any, Callable, Coroutine, Dict, Optional, List
 
 from gtnh.defs import Position
 from gtnh.gui.mod_info_frame import ModInfoFrame
+from gtnh.models.gtnh_version import GTNHVersion
+from gtnh.models.mod_info import GTNHModInfo, ExternalModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 
@@ -31,12 +33,15 @@ class ExternalModList(LabelFrame):
         self.btn_rem_text: str = "delete highlighted"
 
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
+        self.get_external_mods_callback: Callable[[], Dict[str, str]] = callbacks["get_external_mods"]
+        self.mod_info_callback: Callable[[Any], None] = callbacks["mod_info"]
 
         self.width: int = width if width is not None else max(len(self.btn_add_text), len(self.btn_rem_text))
 
         self.sv_repo_name: StringVar = StringVar(self, value="")
 
         self.lb_mods: Listbox = Listbox(self, exportselection=False)
+        self.lb_mods.bind("<<ListboxSelect>>", lambda event: asyncio.ensure_future(self.on_listbox_click(event)))
 
         self.btn_add: Button = Button(
             self, text="add new", command=lambda: asyncio.ensure_future(self.add_external_mod())
@@ -146,7 +151,40 @@ class ExternalModList(LabelFrame):
         :param data: the data to pass to this class
         :return: None
         """
-        pass
+
+        self.lb_mods.insert(END, *data)
+
+    async def on_listbox_click(self, event):
+        """
+        Callback used when the user clicks on the external mods' listbox.
+
+        :param event: the tkinter event passed by the tkinter in the Callback (unused)
+        :return: None
+        """
+
+        index: int = self.lb_mods.curselection()[0]
+        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        mod_info: ExternalModInfo = gtnh.assets.get_external_mod(self.lb_mods.get(index))
+        name: str = mod_info.name
+        mod_versions: list[GTNHVersion] = mod_info.versions
+        latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
+        assert latest_version
+        current_version: str = (
+            self.get_external_mods_callback()[name]
+            if name in self.get_external_mods_callback()
+            else latest_version.version_tag
+        )
+        license: str = mod_info.license or "No license detected"
+        side: str = mod_info.side
+
+        data = {
+            "name": name,
+            "versions": [version.version_tag for version in mod_versions],
+            "current_version": current_version,
+            "license": license,
+            "side": side,
+        }
+        self.mod_info_callback(data)
 
 
 class ExternalModFrame(LabelFrame):
@@ -178,7 +216,12 @@ class ExternalModFrame(LabelFrame):
             self, frame_name="external mod info", callbacks=mod_info_callbacks
         )
 
-        external_mod_list_callbacks: Dict[str, Any] = {"get_gtnh": callbacks["get_gtnh"]}
+        external_mod_list_callbacks: Dict[str, Any] = {
+            "get_gtnh": callbacks["get_gtnh"],
+            "get_external_mods": callbacks["get_external_mods"],
+            "mod_info": self.mod_info_frame.populate_data
+        }
+
         self.external_mod_list: ExternalModList = ExternalModList(
             self, frame_name="external mod list", callbacks=external_mod_list_callbacks
         )
@@ -279,4 +322,6 @@ class ExternalModFrame(LabelFrame):
         :param data: the data to pass to this class
         :return: None
         """
-        pass
+        mod_list: List[str] = data["external_mod_list"]
+        self.external_mod_list.populate_data(mod_list)
+
