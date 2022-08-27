@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.1.2.0",
-  "last_updated": "2022-08-27T18:17:03.535960",
+  "last_updated": "2022-08-27T20:45:11.069824",
   "config": "2.1.2.4-28-pre",
   "github_mods": {
     "AdventureBackpack2": "1.0.5-GTNH",
@@ -57,7 +57,7 @@
     "EnderCore": "0.2.10",
     "EnderIO": "2.3.1.43",
     "EnderStorage": "1.4.12",
-    "EnderZoo": "1.9.20",
+    "EnderZoo": "1.0.23",
     "EnhancedLootBags": "1.0.5",
     "Enklume": "1.1.1",
     "Eternal-Singularity": "1.0.4b",
@@ -136,7 +136,7 @@
     "OpenSecurity": "1.0.119-GTNH",
     "Opis": "1.3.4-mapless",
     "OverloadedArmorBar": "1.0.1",
-    "PersonalSpace": "1.0.13",
+    "PersonalSpace": "1.0.14",
     "ProjectBlue": "1.1.8-GTNH",
     "ProjectRed": "4.7.7-GTNH",
     "QmunityLib": "0.1.115",
