@@ -4,7 +4,7 @@ import json
 import os
 from collections import defaultdict
 from pathlib import Path
-from typing import Callable, Optional
+from typing import Any, Callable, Optional, cast
 
 from cache import AsyncLRU
 from colorama import Fore, Style
@@ -27,10 +27,9 @@ from gtnh.defs import (
     RELEASE_MANIFEST_DIR,
     ROOT_DIR,
     UNKNOWN,
-    ModSource,
     Side,
 )
-from gtnh.exceptions import RepoNotFoundException
+from gtnh.exceptions import InvalidReleaseException, RepoNotFoundException
 from gtnh.github.uri import latest_release_uri, org_repos_uri, repo_releases_uri, repo_uri
 from gtnh.models.available_assets import AvailableAssets
 from gtnh.models.gtnh_config import CONFIG_REPO_NAME
@@ -110,19 +109,21 @@ class GTNHModpackManager:
         return any([r for r in gathered])
 
     async def update_curse_assets(self, assets_to_update: list[str] | None = None) -> bool:
-        curseforge_assets = [m for m in self.assets.external_mods if m.source == ModSource.curse]
+        # curseforge_assets = [m for m in self.assets.external_mods if m.source == ModSource.curse]
+        #
+        # to_update = []
+        # for asset in curseforge_assets:
+        #     if (assets_to_update and asset.name not in assets_to_update) or (asset.source != ModSource.curse):
+        #         continue
+        #     to_update.append(asset)
+        #
+        # return await self.update_assets_from_curse(to_update)
 
-        to_update = []
-        for asset in curseforge_assets:
-            if (assets_to_update and asset.name not in assets_to_update) or (asset.source != ModSource.curse):
-                continue
-            to_update.append(asset)
-
-        return await self.update_assets_from_curse(to_update)
+        raise NotImplementedError("Not currently implemented")
 
     async def update_assets_from_curse(self, assets: list[ExternalModInfo]) -> bool:
-
-        return False
+        # return False
+        raise NotImplementedError("Not currently implemented")
 
     async def update_versionable_from_repo(self, versionable: Versionable, repo: AttributeDict) -> bool:
         """
@@ -303,25 +304,37 @@ class GTNHModpackManager:
 
         config = self.assets.config.latest_version
         github_mods: dict[str, str] = {}
-        for mod in self.assets.github_mods:
-            if mod.disabled:
-                log.warn(f"Mod `{Fore.CYAN}{mod.name}{Fore.RESET}` is disabled, skipping")
-                continue
-
-            override = overrides and overrides.get(mod.name)
-            mod_version = override if override else mod.latest_version
-
-            if not mod.has_version(mod_version):
-                log.warn(
-                    f"Version `{Fore.YELLOW}{mod_version}{Fore.RESET} not found for Mod `{Fore.CYAN}{mod.name}"
-                    f"{Fore.RESET}`, skipping"
-                )
-                continue
-
-            overide_str = f"{Fore.RED} ** OVERRIDE **{Fore.RESET}" if override else ""
-            log.info(f"Using `{Fore.CYAN}{mod.name}{Fore.RESET}:{Fore.YELLOW}{mod_version}{Fore.RESET}{overide_str}")
-            github_mods[mod.name] = mod.latest_version
         external_mods: dict[str, str] = {}
+
+        for is_github, mods in [(True, self.assets.github_mods), (False, self.assets.external_mods)]:
+            modmap = github_mods if is_github else external_mods
+            for mod in cast(list[Any], mods):
+                source_str = "[ Github Mod ]" if is_github else "[External Mod]"
+
+                if mod.disabled:
+                    log.warn(f"{source_str} Mod `{Fore.CYAN}{mod.name}{Fore.RESET}` is disabled, skipping")
+                    continue
+
+                override = overrides and overrides.get(mod.name)
+                mod_version = override if override else mod.latest_version
+
+                if not mod.has_version(mod_version):
+                    log.warn(
+                        f"{source_str} Version `{Fore.YELLOW}{mod_version}{Fore.RESET} not found for Mod `{Fore.CYAN}{mod.name}"
+                        f"{Fore.RESET}`, skipping"
+                    )
+                    continue
+
+                overide_str = f"{Fore.RED} ** OVERRIDE **{Fore.RESET}" if override else ""
+                log.info(
+                    f"{source_str} Using `{Fore.CYAN}{mod.name}{Fore.RESET}:{Fore.YELLOW}{mod_version}{Fore.RESET}{overide_str}"
+                )
+                modmap[mod.name] = mod.latest_version
+
+        duplicate_mods = github_mods.keys() & external_mods.keys()
+
+        if duplicate_mods:
+            raise InvalidReleaseException(f"Duplicate Mods: {duplicate_mods}")
 
         return GTNHRelease(version=version, config=config, github_mods=github_mods, external_mods=external_mods)
 
@@ -533,39 +546,16 @@ class GTNHModpackManager:
         # computation of the progress per mod for the progressbar
         delta_progress = 100 / (len(release.github_mods) + len(release.external_mods) + 1)  # +1 for the config
 
-        # download of the github mods
-        log.info(f"Downloading {Fore.GREEN}{len(release.github_mods)}{Fore.RESET} Github Mod(s)")
+        # Download Mods
+        log.info(f"Downloading {Fore.GREEN}{len(release.github_mods)}{Fore.RESET} Mod(s)")
         downloaders = []
-        for mod_name, mod_version in release.github_mods.items():
-            mod = self.assets.get_github_mod(mod_name)
-            if callback is not None:
-                downloaders.append(
-                    self.download_asset(
-                        mod,
-                        mod_version,
-                        is_github=True,
-                        callback=lambda name: callback(delta_progress, f"mod {name} downloaded!"),  # type: ignore
-                    )
-                )
-            else:
-                downloaders.append(self.download_asset(mod, mod_version, is_github=True))
-
-        # download of the external mods
-        log.info(f"Downloading {Fore.GREEN}{len(release.github_mods)}{Fore.RESET} External Mod(s)")
-        for mod_name, mod_version in release.external_mods.items():
-            mod = self.assets.get_external_mod(mod_name)
-
-            if callback is not None:
-                downloaders.append(
-                    self.download_asset(
-                        mod,
-                        mod_version,
-                        is_github=False,
-                        callback=lambda name: callback(delta_progress, f"mod {name} downloaded!"),  # type: ignore
-                    )
-                )
-            else:
-                downloaders.append(self.download_asset(mod, mod_version, is_github=False))
+        for is_github, mods in [(True, release.github_mods), (False, release.external_mods)]:
+            for mod_name, mod_version in mods.items():
+                mod = self.assets.get_github_mod(mod_name) if is_github else self.assets.get_external_mod(mod_name)
+                mod_callback = (
+                    lambda name: callback(delta_progress, f"mod {name} downloaded!") if callback else None
+                )  # noqa, type: ignore
+                downloaders.append(self.download_asset(mod, mod_version, is_github=is_github, callback=mod_callback))
 
         # download the modpack configs
         if callback is not None:

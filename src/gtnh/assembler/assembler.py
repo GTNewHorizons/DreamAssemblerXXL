@@ -89,7 +89,8 @@ class ReleaseAssembler:
             if self.current_task_reset_callback is not None:
                 self.current_task_reset_callback()
 
-            self.callback(self.get_progress(), f"Assembling {side} {plateform} archive")  # type: ignore
+            if self.callback:
+                self.callback(self.get_progress(), f"Assembling {side} {plateform} archive")  # type: ignore
             assembling(side, verbose)
         self.generate_changelog()
 
