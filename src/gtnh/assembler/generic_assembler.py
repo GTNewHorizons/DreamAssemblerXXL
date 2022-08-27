@@ -117,7 +117,11 @@ class GenericAssembler:
         return config, version
 
     def add_mods(
-        self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
+        self,
+        side: Side,
+        mods: list[tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]],
+        archive: ZipFile,
+        verbose: bool = False,
     ) -> None:
         """
         Method to add mods in the zip archive.
@@ -139,17 +143,6 @@ class GenericAssembler:
         :param side: target side
         :param config: a tuple giving the config object and the version object of the config
         :param archive: archive being built
-        :param verbose: flag to turn on verbose mode
-        :return: None
-        """
-        pass
-
-    def update_progress(self, side: Side, source_file: Path, verbose: bool = False) -> None:
-        """
-        Method used to report progress.
-
-        :param side: target side
-        :param source_file: file path being added
         :param verbose: flag to turn on verbose mode
         :return: None
         """

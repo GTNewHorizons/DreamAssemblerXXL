@@ -9,7 +9,7 @@ from gtnh.defs import MMC_PACK_JSON, RELEASE_MMC_DIR, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
-from gtnh.models.mod_info import GTNHModInfo
+from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 
@@ -45,12 +45,15 @@ class MMCAssembler(GenericAssembler):
         self.mmc_modpack_mods: Path = self.mmc_modpack_files / "mods"
 
     def add_mods(
-        self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
+        self,
+        side: Side,
+        mods: list[tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]],
+        archive: ZipFile,
+        verbose: bool = False,
     ) -> None:
 
         for mod, version in mods:
             source_file: Path = get_asset_version_cache_location(mod, version)
-            self.update_progress(side, source_file, verbose=verbose)
             archive_path: Path = self.mmc_modpack_mods / source_file.name
             archive.write(source_file, arcname=archive_path)
             if self.task_progress_callback is not None:
@@ -68,7 +71,6 @@ class MMCAssembler(GenericAssembler):
         config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
 
         with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
-            self.update_progress(side, config_file, verbose=verbose)
 
             for item in config_zip.namelist():
                 if item in self.exclusions[side]:
@@ -96,8 +98,7 @@ class MMCAssembler(GenericAssembler):
         self.set_progress(100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + 1))
         GenericAssembler.assemble(self, side, verbose)
 
-        if side == Side.CLIENT:
-            self.add_mmc_meta_data(side)
+        self.add_mmc_meta_data(side)
 
     def add_mmc_meta_data(self, side: Side) -> None:
         """
