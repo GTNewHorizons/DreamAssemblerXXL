@@ -609,11 +609,11 @@ class GTNHModpackManager:
 
         if new_mods:
             changelog["new_mods"].append("# New Mods: ")
-            changelog["new_mods"].extend([f"> {mod_name}" for mod_name in new_mods])
+            changelog["new_mods"].extend([f"> * {mod_name}" for mod_name in new_mods])
 
         if removed_mods:
             changelog["removed_mods"].append("# Mods Removed: ")
-            changelog["removed_mods"].extend([f"> {mod_name}" for mod_name in removed_mods])
+            changelog["removed_mods"].extend([f"> * {mod_name}" for mod_name in removed_mods])
 
         # Changes
         for mod_name, (old_version, new_version) in version_changes.items():

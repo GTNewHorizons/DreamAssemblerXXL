@@ -1,5 +1,6 @@
 {
   "releases": [
+    "2.1.2.0",
     "nightly"
   ],
   "server_exclusions": [
