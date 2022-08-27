@@ -97,8 +97,7 @@ class GenericAssembler:
         ]
 
         external_mods: List[Optional[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]] = [
-            get_mod(name, version, valid_sides, ModSource.github)
-            for name, version in self.release.external_mods.items()
+            get_mod(name, version, valid_sides, ModSource.other) for name, version in self.release.external_mods.items()
         ]
 
         mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = list(filter(None, github_mods + external_mods))

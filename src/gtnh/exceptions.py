@@ -24,3 +24,7 @@ class PackingInterruptException(Exception):
 
 class MissingModFileException(Exception):
     pass
+
+
+class InvalidReleaseException(Exception):
+    pass
