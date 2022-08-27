@@ -74,7 +74,6 @@ class GTNHModpackManager:
         if not update and release.version in self.mod_pack.releases:
             log.error(f"Release `{Fore.RED}{release.version}{Fore.RESET} already exists, and update was not specified!")
             return False
-
         self.mod_pack.releases |= {release.version}
         return save_release(release, update=update)
 
@@ -631,7 +630,10 @@ class GTNHModpackManager:
                 old_version_str = f"{old_version} -->" if old_version else ""
                 changes.append(f"# Updated - {mod_name} - {old_version_str}{new_version}")
 
-            for version in reversed(mod_versions):
+            for i, version in enumerate(reversed(mod_versions)):
+                if i != 0 and version.prerelease:
+                    # Only include prerelease changes if it's the latest release
+                    continue
                 if version.changelog:
                     changes.append(f"## *{version.version_tag}*\n" + blockquote(version.changelog) + "\n")
                 elif include_no_changelog:
