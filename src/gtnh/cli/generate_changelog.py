@@ -16,7 +16,9 @@ def generate_changelog(release_name: str, previous_release_name: str | None) -> 
     if not release:
         raise Exception(f"Release not found {release_name}")
 
-    previous_release = modpack_manager.get_release(release_name) if previous_release_name else None
+    log.debug(f"Release: {release_name}, Previous Release: {previous_release_name}")
+    previous_release_name = release.last_version if release.last_version and not previous_release_name else None
+    previous_release = modpack_manager.get_release(previous_release_name) if previous_release_name else None
 
     changelog = modpack_manager.generate_changelog(release, previous_release=previous_release)
 
