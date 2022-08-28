@@ -10,7 +10,7 @@ from cache import AsyncLRU
 from colorama import Fore, Style
 from gidgethub import BadRequest
 from gidgethub.httpx import GitHubAPI
-from httpx import AsyncClient
+from httpx import AsyncClient, HTTPStatusError
 from packaging.version import LegacyVersion
 from retry import retry
 from structlog import get_logger
@@ -519,11 +519,23 @@ class GTNHModpackManager:
         async with self.client.stream(
             url=version.download_url, headers=headers, method="GET", follow_redirects=True
         ) as r:
-            r.raise_for_status()
-            with open(mod_filename, "wb") as f:
-                async for chunk in r.aiter_bytes(chunk_size=8192):
-                    f.write(chunk)
-        log.info(f"{GREEN_CHECK} Download successful `{mod_filename}`")
+            try:
+                r.raise_for_status()
+                with open(mod_filename, "wb") as f:
+                    async for chunk in r.aiter_bytes(chunk_size=8192):
+                        f.write(chunk)
+                log.info(f"{GREEN_CHECK} Download successful `{mod_filename}`")
+            except HTTPStatusError as e:
+                log.error(
+                    f"{RED_CROSS} {Fore.RED}The following HTTP error while downloading`{Fore.YELLOW}{asset_version}"
+                    f"{Fore.RED}` while downloading {Fore.CYAN}{asset.name}{Fore.RED} ({type} asset): {e}{Fore.RESET}"
+                )
+                if error_callback:
+                    error_callback(
+                        f"The following HTTP error while downloading`{asset_version}` while downloading{asset.name}"
+                        f"({type} asset): {e}"
+                    )
+                return None
 
         if download_callback:
             download_callback(str(mod_filename.name))
