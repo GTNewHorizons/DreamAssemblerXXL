@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.1.2.4-28-pre",
+    "latest_version": "2.1.2.4-29-pre",
     "versions": [
       {
         "version_tag": "2.1.2.3qf-test",
@@ -170,6 +170,13 @@
         "filename": "2.1.2.4-28-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/74969236",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-28-pre/2.1.2.4-28-pre.zip"
+      },
+      {
+        "version_tag": "2.1.2.4-29-pre",
+        "tagged_at": "2022-08-28T13:50:59+00:00",
+        "filename": "2.1.2.4-29-pre.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/76105656",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-29-pre/2.1.2.4-29-pre.zip"
       }
     ],
     "type": "config",
@@ -229,7 +236,7 @@
     },
     {
       "name": "AE2FluidCraft-Rework",
-      "latest_version": "1.0.9-gtnh",
+      "latest_version": "1.0.10-gtnh",
       "versions": [
         {
           "version_tag": "1.0.0-gtnh",
@@ -306,6 +313,14 @@
           "filename": "ae2fc-1.7.10-1.0.9-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/75566729",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.9-gtnh/ae2fc-1.7.10-1.0.9-gtnh.jar"
+        },
+        {
+          "version_tag": "1.0.10-gtnh",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.9-gtnh...1.0.10-gtnh",
+          "tagged_at": "2022-08-27T23:26:28+00:00",
+          "filename": "ae2fc-1.7.10-1.0.10-gtnh.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/76059658",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.10-gtnh/ae2fc-1.7.10-1.0.10-gtnh.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -986,7 +1001,7 @@
     },
     {
       "name": "bartworks",
-      "latest_version": "0.5.78",
+      "latest_version": "0.5.79",
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -1369,6 +1384,14 @@
           "filename": "bartworks-1.7.10-0.5.78.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/76008982",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.78/bartworks-1.7.10-0.5.78.jar"
+        },
+        {
+          "version_tag": "0.5.79",
+          "changelog": "## What's Changed\n* Update buildscript & apply spotless by @eigenraven in https://github.com/GTNewHorizons/bartworks/pull/192\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.5.78...0.5.79",
+          "tagged_at": "2022-08-27T23:26:01+00:00",
+          "filename": "bartworks-1.7.10-0.5.79.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/76059642",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.79/bartworks-1.7.10-0.5.79.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -1571,6 +1594,39 @@
       "license": "GNU General Public License v3.0.",
       "repo_url": "https://github.com/GTNewHorizons/BetterBuildersWands",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterBuildersWands/"
+    },
+    {
+      "name": "BetterCrashes",
+      "latest_version": "1.1.5-GTNH",
+      "versions": [
+        {
+          "version_tag": "1.1.3-GTNH",
+          "changelog": "## What's Changed\n* Update build by @miozune in https://github.com/GTNewHorizons/BetterCrashes/pull/1\n\n## New Contributors\n* @miozune made their first contribution in https://github.com/GTNewHorizons/BetterCrashes/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/commits/1.1.3-GTNH",
+          "tagged_at": "2022-07-18T06:06:57+00:00",
+          "filename": "bettercrashes-1.7.10-1.1.3-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterCrashes/releases/assets/71891835",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterCrashes/releases/download/1.1.3-GTNH/bettercrashes-1.7.10-1.1.3-GTNH.jar"
+        },
+        {
+          "version_tag": "1.1.4-GTNH",
+          "changelog": "## What's Changed\n* Use finish instead of pause on load crash by @miozune in https://github.com/GTNewHorizons/BetterCrashes/pull/2\n* GTNHfy & reorganize lang file by @miozune in https://github.com/GTNewHorizons/BetterCrashes/pull/3\n* Use different thread to upload crash report by @miozune in https://github.com/GTNewHorizons/BetterCrashes/pull/4\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.1.3-GTNH...1.1.4-GTNH",
+          "tagged_at": "2022-07-31T15:00:16+00:00",
+          "filename": "bettercrashes-1.7.10-1.1.4-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterCrashes/releases/assets/73248597",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterCrashes/releases/download/1.1.4-GTNH/bettercrashes-1.7.10-1.1.4-GTNH.jar"
+        },
+        {
+          "version_tag": "1.1.5-GTNH",
+          "changelog": "## What's Changed\n* Add limit for number of logs generated by @miozune in https://github.com/GTNewHorizons/BetterCrashes/pull/5\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.1.4-GTNH...1.1.5-GTNH",
+          "tagged_at": "2022-08-15T14:45:56+00:00",
+          "filename": "bettercrashes-1.7.10-1.1.5-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterCrashes/releases/assets/74778631",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterCrashes/releases/download/1.1.5-GTNH/bettercrashes-1.7.10-1.1.5-GTNH.jar"
+        }
+      ],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/BetterCrashes",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterCrashes/"
     },
     {
       "name": "BetterLoadingScreen",
@@ -4695,7 +4751,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.4.20",
+      "latest_version": "0.4.21",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -4946,6 +5002,14 @@
           "filename": "GoodGenerator-1.7.10-0.4.20.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/75603830",
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.20/GoodGenerator-1.7.10-0.4.20.jar"
+        },
+        {
+          "version_tag": "0.4.21",
+          "changelog": "## What's Changed\n* Enable electrolyzing Zinc Chloride by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/74\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.20...0.4.21",
+          "tagged_at": "2022-08-27T23:25:58+00:00",
+          "filename": "GoodGenerator-1.7.10-0.4.21.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/76059638",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.21/GoodGenerator-1.7.10-0.4.21.jar"
         }
       ],
       "license": "MIT License.",
@@ -7769,6 +7833,87 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KekzTech/"
     },
     {
+      "name": "KubaTech",
+      "latest_version": "0.4",
+      "versions": [
+        {
+          "version_tag": "0.1",
+          "changelog": "## What's Changed\n* Add actions by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/2\n* Add \"Mob Drops\" NEI page + Extreme Extermination Chamber by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/1\n\n## New Contributors\n* @kuba6000 made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/2\n\n**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/commits/0.1",
+          "tagged_at": "2022-08-14T13:21:11+00:00",
+          "filename": "kubatech-1.7.10-0.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/74680534",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.1/kubatech-1.7.10-0.1.jar"
+        },
+        {
+          "version_tag": "0.1.1",
+          "changelog": "## What's Changed\n* Fix server crash from Blood Magic entities by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/3\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.1...0.1.1",
+          "tagged_at": "2022-08-14T14:29:35+00:00",
+          "filename": "kubatech-1.7.10-0.1.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/74684696",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.1.1/kubatech-1.7.10-0.1.1.jar"
+        },
+        {
+          "version_tag": "0.1.2-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.1.1...0.1.2-pre",
+          "tagged_at": "2022-08-18T13:57:16+00:00",
+          "filename": "kubatech-1.7.10-0.1.2-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/75113666",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.1.2-pre/kubatech-1.7.10-0.1.2-pre.jar"
+        },
+        {
+          "version_tag": "0.2",
+          "changelog": "## What's Changed\n* Cache Mob Handler Map by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/5\n* New Extreme Extermination Chamber structure by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/4\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.1.1...0.2",
+          "tagged_at": "2022-08-19T12:20:52+00:00",
+          "filename": "kubatech-1.7.10-0.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/75214122",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.2/kubatech-1.7.10-0.2.jar"
+        },
+        {
+          "version_tag": "0.2.1-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.2...0.2.1-pre",
+          "tagged_at": "2022-08-20T07:45:39+00:00",
+          "filename": "kubatech-1.7.10-0.2.1-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/75292499",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.2.1-pre/kubatech-1.7.10-0.2.1-pre.jar"
+        },
+        {
+          "version_tag": "0.2.2",
+          "changelog": "## What's Changed\n* Fix crash on controller removal by @miozune in https://github.com/GTNewHorizons/KubaTech/pull/7\n\n## New Contributors\n* @miozune made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/7\n\n**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.2...0.2.2",
+          "tagged_at": "2022-08-20T18:00:48+00:00",
+          "filename": "kubatech-1.7.10-0.2.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/75324246",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.2.2/kubatech-1.7.10-0.2.2.jar"
+        },
+        {
+          "version_tag": "0.3",
+          "changelog": "## What's Changed\n* Add Config to override mob drops. by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/8\n* Buff Extreme Extermination Chamber by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/6\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.2.2...0.3",
+          "tagged_at": "2022-08-23T16:02:58+00:00",
+          "filename": "kubatech-1.7.10-0.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/75610063",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.3/kubatech-1.7.10-0.3.jar"
+        },
+        {
+          "version_tag": "0.3.1",
+          "changelog": "## What's Changed\n* Fix additions on empty mobs not generating EEC map by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/9\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.3...0.3.1",
+          "tagged_at": "2022-08-23T18:22:30+00:00",
+          "filename": "kubatech-1.7.10-0.3.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/75622094",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.3.1/kubatech-1.7.10-0.3.1.jar"
+        },
+        {
+          "version_tag": "0.4",
+          "changelog": "## What's Changed\n* Add Secret Tea collection by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/10\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.3.1...0.4",
+          "tagged_at": "2022-08-25T18:00:35+00:00",
+          "filename": "kubatech-1.7.10-0.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/75848214",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.4/kubatech-1.7.10-0.4.jar"
+        }
+      ],
+      "license": "GNU Lesser General Public License v3.0",
+      "repo_url": "https://github.com/GTNewHorizons/KubaTech",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KubaTech/"
+    },
+    {
       "name": "LittleTiles",
       "latest_version": "1.2.3-GTNH",
       "versions": [
@@ -8191,6 +8336,23 @@
       "repo_url": "https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon"
     },
     {
+      "name": "Mixingasm",
+      "latest_version": "v0.2.3",
+      "versions": [
+        {
+          "version_tag": "v0.2.3",
+          "changelog": "## What's Changed\n* Adapt to our buildscript by @vlaetansky in https://github.com/GTNewHorizons/Mixingasm/pull/2\n* Add dummy gitignore by @vlaetansky in https://github.com/GTNewHorizons/Mixingasm/pull/3\n\n## New Contributors\n* @vlaetansky made their first contribution in https://github.com/GTNewHorizons/Mixingasm/pull/2\n\n**Full Changelog**: https://github.com/GTNewHorizons/Mixingasm/compare/v0.2.2...v0.2.3",
+          "tagged_at": "2022-08-15T14:10:26+00:00",
+          "filename": "mixingasm-1.7.10-v0.2.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Mixingasm/releases/assets/74775860",
+          "browser_download_url": "https://github.com/GTNewHorizons/Mixingasm/releases/download/v0.2.3/mixingasm-1.7.10-v0.2.3.jar"
+        }
+      ],
+      "license": "The Unlicense",
+      "repo_url": "https://github.com/GTNewHorizons/Mixingasm",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Mixingasm/"
+    },
+    {
       "name": "ModMixins",
       "latest_version": "0.0.5",
       "versions": [
@@ -8244,6 +8406,43 @@
       "license": "All Rights Reserved (fallback)",
       "repo_url": "https://github.com/GTNewHorizons/MouseTweaks",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MouseTweaks/"
+    },
+    {
+      "name": "MX-Random",
+      "latest_version": "0.1.3",
+      "versions": [
+        {
+          "version_tag": "0.1.0",
+          "tagged_at": "2022-05-13T04:29:51+00:00",
+          "filename": "mxrandom-1.7.10-0.1.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MX-Random/releases/assets/65372134",
+          "browser_download_url": "https://github.com/GTNewHorizons/MX-Random/releases/download/0.1.0/mxrandom-1.7.10-0.1.0.jar"
+        },
+        {
+          "version_tag": "0.1.1",
+          "tagged_at": "2022-05-13T12:21:54+00:00",
+          "filename": "mxrandom-1.7.10-0.1.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MX-Random/releases/assets/65413827",
+          "browser_download_url": "https://github.com/GTNewHorizons/MX-Random/releases/download/0.1.1/mxrandom-1.7.10-0.1.1.jar"
+        },
+        {
+          "version_tag": "0.1.2",
+          "tagged_at": "2022-06-02T14:57:57+00:00",
+          "filename": "mxrandom-1.7.10-0.1.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MX-Random/releases/assets/67353221",
+          "browser_download_url": "https://github.com/GTNewHorizons/MX-Random/releases/download/0.1.2/mxrandom-1.7.10-0.1.2.jar"
+        },
+        {
+          "version_tag": "0.1.3",
+          "tagged_at": "2022-08-27T08:23:37+00:00",
+          "filename": "mxrandom-1.7.10-0.1.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/MX-Random/releases/assets/76008773",
+          "browser_download_url": "https://github.com/GTNewHorizons/MX-Random/releases/download/0.1.3/mxrandom-1.7.10-0.1.3.jar"
+        }
+      ],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/MX-Random",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MX-Random/"
     },
     {
       "name": "MyEssentials-Core",
@@ -8557,7 +8756,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "1.9.59",
+      "latest_version": "1.9.60",
       "versions": [
         {
           "version_tag": "1.9.11",
@@ -8908,6 +9107,14 @@
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.59.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76008976",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.59/GTNewHorizonsCoreMod-1.7.10-1.9.59.jar"
+        },
+        {
+          "version_tag": "1.9.60",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.59...1.9.60",
+          "tagged_at": "2022-08-27T23:23:12+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.60.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76059485",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.60/GTNewHorizonsCoreMod-1.7.10-1.9.60.jar"
         }
       ],
       "license": "GNU General Public License v3.0.",
@@ -9012,7 +9219,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.2.31-GTNH",
+      "latest_version": "2.2.32-GTNH",
       "versions": [
         {
           "version_tag": "v2.0.0",
@@ -9489,6 +9696,14 @@
           "filename": "NotEnoughItems-1.7.10-2.2.31-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76008866",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.31-GTNH/NotEnoughItems-1.7.10-2.2.31-GTNH.jar"
+        },
+        {
+          "version_tag": "2.2.32-GTNH",
+          "changelog": "## What's Changed\n* README.md: Add some documentation for getting started on development by @firenoo in https://github.com/GTNewHorizons/NotEnoughItems/pull/283\n\n## New Contributors\n* @firenoo made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/283\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.31-GTNH...2.2.32-GTNH",
+          "tagged_at": "2022-08-27T23:25:46+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.2.32-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76059621",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.32-GTNH/NotEnoughItems-1.7.10-2.2.32-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -9980,7 +10195,7 @@
     },
     {
       "name": "PersonalSpace",
-      "latest_version": "1.0.13",
+      "latest_version": "1.0.14",
       "versions": [
         {
           "version_tag": "1.0.3-GTNH",
@@ -10053,6 +10268,14 @@
           "filename": "personalspace-1.7.10-1.0.13.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/74871832",
           "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.13/personalspace-1.7.10-1.0.13.jar"
+        },
+        {
+          "version_tag": "1.0.14",
+          "changelog": "## What's Changed\n* New textures by Jimbno, update buildscript by @eigenraven in https://github.com/GTNewHorizons/PersonalSpace/pull/8\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.13...1.0.14",
+          "tagged_at": "2022-08-27T18:36:57+00:00",
+          "filename": "personalspace-1.7.10-1.0.14.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/76042074",
+          "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.14/personalspace-1.7.10-1.0.14.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -10156,6 +10379,29 @@
       "repo_url": "https://github.com/GTNewHorizons/QmunityLib",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/QmunityLib/",
       "side": "NONE"
+    },
+    {
+      "name": "QuestBook",
+      "latest_version": "2.1.3-GTNH",
+      "versions": [
+        {
+          "version_tag": "2.1.2-GTNH",
+          "tagged_at": "2022-01-01T23:21:12+00:00",
+          "filename": "questbook-1.7.10-2.1.2-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/QuestBook/releases/assets/52997384",
+          "browser_download_url": "https://github.com/GTNewHorizons/QuestBook/releases/download/2.1.2-GTNH/questbook-1.7.10-2.1.2-GTNH.jar"
+        },
+        {
+          "version_tag": "2.1.3-GTNH",
+          "tagged_at": "2022-02-13T14:04:18+00:00",
+          "filename": "questbook-1.7.10-2.1.3-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/QuestBook/releases/assets/56698125",
+          "browser_download_url": "https://github.com/GTNewHorizons/QuestBook/releases/download/2.1.3-GTNH/questbook-1.7.10-2.1.3-GTNH.jar"
+        }
+      ],
+      "license": "???",
+      "repo_url": "https://github.com/GTNewHorizons/QuestBook",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/QuestBook/"
     },
     {
       "name": "Railcraft",
@@ -10915,7 +11161,7 @@
     },
     {
       "name": "StorageDrawers",
-      "latest_version": "1.11.16-GTNH",
+      "latest_version": "1.11.17-GTNH",
       "versions": [
         {
           "version_tag": "1.10.8b",
@@ -10995,6 +11241,14 @@
           "filename": "StorageDrawers-1.7.10-1.11.16-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/75214584",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.16-GTNH/StorageDrawers-1.7.10-1.11.16-GTNH.jar"
+        },
+        {
+          "version_tag": "1.11.17-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.16-GTNH...1.11.17-GTNH",
+          "tagged_at": "2022-08-28T13:04:50+00:00",
+          "filename": "StorageDrawers-1.7.10-1.11.17-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/76103137",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.17-GTNH/StorageDrawers-1.7.10-1.11.17-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -11003,7 +11257,7 @@
     },
     {
       "name": "StorageDrawers-BiomesOPlenty",
-      "latest_version": "1.11.12-GTNH",
+      "latest_version": "1.11.17-GTNH",
       "versions": [
         {
           "version_tag": "1.11.9-gtnh",
@@ -11032,6 +11286,14 @@
           "filename": "StorageDrawersBop-1.7.10-1.11.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-BiomesOPlenty/releases/assets/68971743",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty/releases/download/1.11.12-GTNH/StorageDrawersBop-1.7.10-1.11.11-GTNH.jar"
+        },
+        {
+          "version_tag": "1.11.17-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty/compare/1.11.11-GTNH...1.11.17-GTNH",
+          "tagged_at": "2022-08-28T12:59:22+00:00",
+          "filename": "StorageDrawersBop-1.7.10-1.11.17-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-BiomesOPlenty/releases/assets/76102748",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty/releases/download/1.11.17-GTNH/StorageDrawersBop-1.7.10-1.11.17-GTNH.jar"
         }
       ],
       "license": "MIT License.",
@@ -11040,7 +11302,7 @@
     },
     {
       "name": "StorageDrawers-Forestry",
-      "latest_version": "1.11.12-GTNH",
+      "latest_version": "1.11.17-GTNH",
       "versions": [
         {
           "version_tag": "1.11.9-gtnh",
@@ -11069,6 +11331,14 @@
           "filename": "StorageDrawersForestry-1.7.10-1.11.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Forestry/releases/assets/68972047",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Forestry/releases/download/1.11.12-GTNH/StorageDrawersForestry-1.7.10-1.11.11-GTNH.jar"
+        },
+        {
+          "version_tag": "1.11.17-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Forestry/compare/1.11.11-GTNH...1.11.17-GTNH",
+          "tagged_at": "2022-08-28T13:01:54+00:00",
+          "filename": "StorageDrawersForestry-1.7.10-1.11.17-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Forestry/releases/assets/76102878",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Forestry/releases/download/1.11.17-GTNH/StorageDrawersForestry-1.7.10-1.11.17-GTNH.jar"
         }
       ],
       "license": "MIT License.",
@@ -11077,7 +11347,7 @@
     },
     {
       "name": "StorageDrawers-Misc",
-      "latest_version": "1.11.11-GTNH",
+      "latest_version": "1.11.17-GTNH",
       "versions": [
         {
           "version_tag": "1.11.9-gtnh",
@@ -11099,6 +11369,14 @@
           "filename": "StorageDrawersMisc-1.7.10-1.11.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Misc/releases/assets/56639898",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Misc/releases/download/1.11.11-GTNH/StorageDrawersMisc-1.7.10-1.11.11-GTNH.jar"
+        },
+        {
+          "version_tag": "1.11.17-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Misc/compare/1.11.11-GTNH...1.11.17-GTNH",
+          "tagged_at": "2022-08-28T13:01:52+00:00",
+          "filename": "StorageDrawersMisc-1.7.10-1.11.17-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Misc/releases/assets/76102875",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Misc/releases/download/1.11.17-GTNH/StorageDrawersMisc-1.7.10-1.11.17-GTNH.jar"
         }
       ],
       "license": "MIT License.",
@@ -11107,7 +11385,7 @@
     },
     {
       "name": "StorageDrawers-Natura",
-      "latest_version": "1.11.11-GTNH",
+      "latest_version": "1.11.17-GTNH",
       "versions": [
         {
           "version_tag": "1.11.9-gtnh",
@@ -11129,11 +11407,44 @@
           "filename": "StorageDrawersNatura-1.7.10-1.11.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Natura/releases/assets/56639953",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Natura/releases/download/1.11.11-GTNH/StorageDrawersNatura-1.7.10-1.11.11-GTNH.jar"
+        },
+        {
+          "version_tag": "1.11.17-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Natura/compare/1.11.11-GTNH...1.11.17-GTNH",
+          "tagged_at": "2022-08-28T13:02:27+00:00",
+          "filename": "StorageDrawersNatura-1.7.10-1.11.17-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Natura/releases/assets/76102925",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Natura/releases/download/1.11.17-GTNH/StorageDrawersNatura-1.7.10-1.11.17-GTNH.jar"
         }
       ],
       "license": "MIT License.",
       "repo_url": "https://github.com/GTNewHorizons/StorageDrawers-Natura",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers-Natura/"
+    },
+    {
+      "name": "StructureCompat",
+      "latest_version": "0.2.0",
+      "versions": [
+        {
+          "version_tag": "0.1",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/commits/0.1",
+          "tagged_at": "2022-08-14T17:36:05+00:00",
+          "filename": "structurecompat-1.7.10-0.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StructureCompat/releases/assets/74696922",
+          "browser_download_url": "https://github.com/GTNewHorizons/StructureCompat/releases/download/0.1/structurecompat-1.7.10-0.1.jar"
+        },
+        {
+          "version_tag": "0.2.0",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.1...0.2.0",
+          "tagged_at": "2022-08-25T08:22:15+00:00",
+          "filename": "structurecompat-1.7.10-0.2.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StructureCompat/releases/assets/75797294",
+          "browser_download_url": "https://github.com/GTNewHorizons/StructureCompat/releases/download/0.2.0/structurecompat-1.7.10-0.2.0.jar"
+        }
+      ],
+      "license": "GNU Affero General Public License v3.0",
+      "repo_url": "https://github.com/GTNewHorizons/StructureCompat",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StructureCompat/"
     },
     {
       "name": "StructureLib",
@@ -12126,6 +12437,23 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicHorizons/"
     },
     {
+      "name": "thaumicinsurgence",
+      "latest_version": "0.0.1",
+      "versions": [
+        {
+          "version_tag": "0.0.1",
+          "changelog": "## What's Changed\n* Adding a \"readme\" file by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/1\n* updating readme by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/3\n* I forgot to add in a line giving credit to the Arcana team. by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/4\n\n## New Contributors\n* @Alastors made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/commits/0.0.1",
+          "tagged_at": "2022-08-28T12:48:28+00:00",
+          "filename": "thaumicinsurgence-1.7.10-0.0.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/thaumicinsurgence/releases/assets/76102286",
+          "browser_download_url": "https://github.com/GTNewHorizons/thaumicinsurgence/releases/download/0.0.1/thaumicinsurgence-1.7.10-0.0.1.jar"
+        }
+      ],
+      "license": "GNU General Public License v3.0",
+      "repo_url": "https://github.com/GTNewHorizons/thaumicinsurgence",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/thaumicinsurgence/"
+    },
+    {
       "name": "ThaumicInventoryScanning",
       "latest_version": "1.0.12-GTNH",
       "versions": [
@@ -12254,185 +12582,225 @@
     },
     {
       "name": "TinkersConstruct",
-      "latest_version": "1.9.0.14-GTNH",
+      "latest_version": "1.9.0-17-GTNH",
       "versions": [
         {
           "version_tag": "1,8.9-GTNH",
-          "tagged_at": "2016-03-10T03:10:50",
+          "changelog": "If \"Remove Gold Cast Recipes\" config setting is enabled like so: https://github.com/GTNewHorizons/NewHorizons/commit/723e05e85d97e3e9206c5f3800564db26f1b41ea.\n\nIt will force the use of the only other material to make casts in Tinkers' Construct, Aluminum.\nAll gold casts are back if set to false of course.\n",
+          "tagged_at": "2016-03-10T03:10:50+00:00",
           "filename": "TConstruct-1.7.10-1.8.9-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/1404789",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1%2C8.9-GTNH/TConstruct-1.7.10-1.8.9-GTNH.jar"
         },
         {
           "version_tag": "1.8.9.1-GTNH",
-          "tagged_at": "2017-03-05T09:46:57",
+          "changelog": "\r\n",
+          "tagged_at": "2017-03-05T09:46:57+00:00",
           "filename": "TConstruct-1.7.10-1.8.9.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/3325855",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.8.9.1-GTNH/TConstruct-1.7.10-1.8.9.1-GTNH.jar"
         },
         {
           "version_tag": "1.8.9.2-GTNH",
-          "tagged_at": "2017-03-08T17:38:08",
+          "changelog": "## What's Changed\n* SoulBound support for additional TC slots by @Ugachaga in https://github.com/GTNewHorizons/TinkersConstruct/pull/3\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.8.9.1-GTNH...1.8.9.2-GTNH",
+          "tagged_at": "2017-03-08T17:38:08+00:00",
           "filename": "TConstruct-1.7.10-1.8.9.2-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/3347734",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.8.9.2-GTNH/TConstruct-1.7.10-1.8.9.2-GTNH.jar"
         },
         {
           "version_tag": "1.8.9.3-GTNH",
-          "tagged_at": "2017-03-20T18:41:54",
+          "changelog": "## What's Changed\n* Probable solution by @Technus in https://github.com/GTNewHorizons/TinkersConstruct/pull/4\n\n## New Contributors\n* @Technus made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/4\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.8.9.2-GTNH...1.8.9.3-GTNH",
+          "tagged_at": "2017-03-20T18:41:54+00:00",
           "filename": "TConstruct-1.7.10-1.8.9.3-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/3447595",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.8.9.3-GTNH/TConstruct-1.7.10-1.8.9.3-GTNH.jar"
         },
         {
           "version_tag": "1.8.9.4-GTNH",
-          "tagged_at": "2017-03-22T15:25:12",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.8.9.3-GTNH...1.8.9.4-GTNH",
+          "tagged_at": "2017-03-22T15:25:12+00:00",
           "filename": "TConstruct-1.7.10-1.8.9.4-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/3463593",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.8.9.4-GTNH/TConstruct-1.7.10-1.8.9.4-GTNH.jar"
         },
         {
           "version_tag": "1.8.9.5-GTNH",
-          "tagged_at": "2017-08-31T20:32:59",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.8.9.4-GTNH...1.8.9.5-GTNH",
+          "tagged_at": "2017-08-31T20:32:59+00:00",
           "filename": "TConstruct-1.7.10-1.8.9.5-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/4717025",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.8.9.5-GTNH/TConstruct-1.7.10-1.8.9.5-GTNH.jar"
         },
         {
           "version_tag": "1.8.9.6-GTNH",
-          "tagged_at": "2017-12-22T21:58:00",
+          "changelog": "## What's Changed\n* Backport lumberaxe tree chop task from master by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/8\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.8.9.5-GTNH...1.8.9.6-GTNH",
+          "tagged_at": "2017-12-22T21:58:00+00:00",
           "filename": "TConstruct-1.7.10-1.8.9.6-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/5700421",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.8.9.6-GTNH/TConstruct-1.7.10-1.8.9.6-GTNH.jar"
         },
         {
           "version_tag": "1.8.9.7-GTNH",
-          "tagged_at": "2018-01-01T19:06:15",
+          "changelog": "\r\n",
+          "tagged_at": "2018-01-01T19:06:15+00:00",
           "filename": "TConstruct-1.7.10-1.8.9.7-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/5754020",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.8.9.7-GTNH/TConstruct-1.7.10-1.8.9.7-GTNH.jar"
         },
         {
           "version_tag": "1.8.9.8-GTNH",
-          "tagged_at": "2018-01-25T18:14:42",
+          "changelog": "## What's Changed\n* Changed Dependencies to prevent missing \"tile.unlitTorch_Stone\" errors. by @bartimaeusnek in https://github.com/GTNewHorizons/TinkersConstruct/pull/10\n\n## New Contributors\n* @bartimaeusnek made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/10\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.8.9.7-GTNH...1.8.9.8-GTNH",
+          "tagged_at": "2018-01-25T18:14:42+00:00",
           "filename": "TConstruct-1.7.10-1.8.9.8-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/5986050",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.8.9.8-GTNH/TConstruct-1.7.10-1.8.9.8-GTNH.jar"
         },
         {
           "version_tag": "1.8.9.9-GTNH",
-          "tagged_at": "2018-01-30T08:39:40",
+          "changelog": "## What's Changed\n* Add a null check in case there is no current equipped item by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/11\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.8.9.8-GTNH...1.8.9.9-GTNH",
+          "tagged_at": "2018-01-30T08:39:40+00:00",
           "filename": "TConstruct-1.7.10-1.8.9.9-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/6028889",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.8.9.9-GTNH/TConstruct-1.7.10-1.8.9.9-GTNH.jar"
         },
         {
           "version_tag": "1.8.9.10-GTNH",
-          "tagged_at": "2018-02-23T09:12:29",
+          "changelog": "## What's Changed\n* Tinkers bows in Battlegear slots by @Kortako in https://github.com/GTNewHorizons/TinkersConstruct/pull/12\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.8.9.9-GTNH...1.8.9.10-GTNH",
+          "tagged_at": "2018-02-23T09:12:29+00:00",
           "filename": "TConstruct-1.7.10-1.8.9.10-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/6302914",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.8.9.10-GTNH/TConstruct-1.7.10-1.8.9.10-GTNH.jar"
         },
         {
           "version_tag": "1.8.9.11-GTNH",
-          "tagged_at": "2018-03-07T08:42:56",
+          "changelog": "## What's Changed\n* Fixed issue with crossbow not being able to attack an enemy the playe… by @Kortako in https://github.com/GTNewHorizons/TinkersConstruct/pull/13\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.8.9.10-GTNH...1.8.9.11-GTNH",
+          "tagged_at": "2018-03-07T08:42:56+00:00",
           "filename": "TConstruct-1.7.10-1.8.9.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/6430824",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.8.9.11-GTNH/TConstruct-1.7.10-1.8.9.11-GTNH.jar"
         },
         {
           "version_tag": "1.8.9.12-GTNH",
-          "tagged_at": "2018-03-11T17:52:55",
+          "changelog": "## What's Changed\n* Add a null check to avoid what looks like a battlesign related crash by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/14\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.8.9.11-GTNH...1.8.9.12-GTNH",
+          "tagged_at": "2018-03-11T17:52:55+00:00",
           "filename": "TConstruct-1.7.10-1.8.9.12-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/6476154",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.8.9.12-GTNH/TConstruct-1.7.10-1.8.9.12-GTNH.jar"
         },
         {
           "version_tag": "1.8.9.14-GTNH",
-          "tagged_at": "2020-01-02T15:42:29",
+          "changelog": "## What's Changed\n* Maybe fix lumber axe error by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/15\n* Totally compatible now by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/16\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.8.9.12-GTNH...1.8.9.14-GTNH",
+          "tagged_at": "2020-01-02T15:42:29+00:00",
           "filename": "TConstruct-1.7.10-1.8.9.14-GTNH-lib.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/17104659",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.8.9.14-GTNH/TConstruct-1.7.10-1.8.9.14-GTNH-lib.jar"
         },
         {
           "version_tag": "1.8.9.15-GTNH",
-          "tagged_at": "2020-02-23T18:51:25",
+          "changelog": "## What's Changed\n* Show progress by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/17\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.8.9.14-GTNH...1.8.9.15-GTNH",
+          "tagged_at": "2020-02-23T18:51:25+00:00",
           "filename": "TConstruct-1.7.10-1.8.9-GTNH.build15-deobf.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/18238033",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.8.9.15-GTNH/TConstruct-1.7.10-1.8.9-GTNH.build15-deobf.jar"
         },
         {
           "version_tag": "1.9.0-14-GTNH",
-          "tagged_at": "2022-02-19T18:07:32",
+          "changelog": "## What's Changed\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/TinkersConstruct/pull/18\n* Add support for swapping belt toolbars in inventory GUIs. by @dvdmandt in https://github.com/GTNewHorizons/TinkersConstruct/pull/19\n* Fix possible packet hacking [REDACTED] by @Sirse in https://github.com/GTNewHorizons/TinkersConstruct/pull/20\n* Fixed a lot of NPE's and few duplication glitches by @Sirse in https://github.com/GTNewHorizons/TinkersConstruct/pull/21\n* Revert to slowly killing mobs in smelteries, so regen enders are once… by @dvdmandt in https://github.com/GTNewHorizons/TinkersConstruct/pull/22\n* Update `hideItemPanelSlot` to account for the bookmark panel on NEI-GTNH by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/23\n* Add fluid localization entry by @Kiwi233 in https://github.com/GTNewHorizons/TinkersConstruct/pull/24\n* Fix Tool Station and Tool Forge button not respect the resource domain setting by @chavalitp in https://github.com/GTNewHorizons/TinkersConstruct/pull/25\n* Fix NEI mouse position calculation by @D-Cysteine in https://github.com/GTNewHorizons/TinkersConstruct/pull/26\n* Add a fall back if we try to look up a missing material by @D-Cysteine in https://github.com/GTNewHorizons/TinkersConstruct/pull/27\n* Update ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TinkersConstruct/pull/28\n* Make green slime blocks harvestable by axe by @Glease in https://github.com/GTNewHorizons/TinkersConstruct/pull/29\n* attempt to fix incorrect smeltry display for molten metals in German and Russian by @bombcar in https://github.com/GTNewHorizons/TinkersConstruct/pull/30\n* Update ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TinkersConstruct/pull/31\n* Unified build script by @SinTh0r4s in https://github.com/GTNewHorizons/TinkersConstruct/pull/32\n* Update build script and CI by @SinTh0r4s in https://github.com/GTNewHorizons/TinkersConstruct/pull/33\n* Update License by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/34\n* Stencil Table and NEI overlap by @slprime in https://github.com/GTNewHorizons/TinkersConstruct/pull/36\n* CraftingStation side chest now work with any IInventory with a configurable blacklist. by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/35\n* Fix clicking on inventory slots by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/37\n* Fix Mantle Version Requirement by @glowredman in https://github.com/GTNewHorizons/TinkersConstruct/pull/38\n* Yay boolean logic errors by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/39\n* update buildscipt to fix mantle transitive dep by @Glease in https://github.com/GTNewHorizons/TinkersConstruct/pull/41\n* LGPL-3.0 by @bombcar in https://github.com/GTNewHorizons/TinkersConstruct/pull/42\n* Add a way to ignore NBT in casting recipes by @miozune in https://github.com/GTNewHorizons/TinkersConstruct/pull/43\n* Fix Tinkers Crafting Tables Height by @slprime in https://github.com/GTNewHorizons/TinkersConstruct/pull/45\n\n## New Contributors\n* @dvdmandt made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/19\n* @Sirse made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/20\n* @chavalitp made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/25\n* @D-Cysteine made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/26\n* @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/28\n* @Glease made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/29\n* @bombcar made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/30\n* @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/32\n* @slprime made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/36\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/38\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.8.9.15-GTNH...1.9.0-14-GTNH",
+          "tagged_at": "2022-02-19T18:07:32+00:00",
           "filename": "TConstruct-1.7.10-1.9.0-14-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/57353799",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.0-14-GTNH/TConstruct-1.7.10-1.9.0-14-GTNH.jar"
         },
         {
           "version_tag": "1.9.0-15-GTNH",
-          "tagged_at": "2022-05-30T21:56:52",
+          "changelog": "## What's Changed\n* Added Slime Boots & Slimesling. by @draknyte1 in https://github.com/GTNewHorizons/TinkersConstruct/pull/44\n* Implement IFluidContainerItem for LavaTankItemBlock by @MuXiu1997 in https://github.com/GTNewHorizons/TinkersConstruct/pull/46\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/TinkersConstruct/pull/47\n* Make crafting stations slots use ISidedInventory/IInventory validation logic by @eigenraven in https://github.com/GTNewHorizons/TinkersConstruct/pull/48\n\n## New Contributors\n* @draknyte1 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/44\n* @MuXiu1997 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/46\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.0-14-GTNH...1.9.0-15-GTNH",
+          "tagged_at": "2022-05-30T21:56:52+00:00",
           "filename": "TConstruct-1.7.10-1.9.0-15-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/67071602",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.0-15-GTNH/TConstruct-1.7.10-1.9.0-15-GTNH.jar"
         },
         {
+          "version_tag": "1.9.0-16-GTNH",
+          "tagged_at": "2022-06-24T19:22:39+00:00",
+          "filename": "TConstruct-1.7.10-1.9.0-16-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/69535756",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.0-16-GTNH/TConstruct-1.7.10-1.9.0-16-GTNH.jar"
+        },
+        {
+          "version_tag": "1.9.0-17-GTNH",
+          "changelog": "## What's Changed\n* Add null check by @miozune in https://github.com/GTNewHorizons/TinkersConstruct/pull/50\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.0-16-GTNH...1.9.0-17-GTNH",
+          "tagged_at": "2022-08-15T14:58:41+00:00",
+          "filename": "TConstruct-1.7.10-1.9.0-17-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/74779750",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.0-17-GTNH/TConstruct-1.7.10-1.9.0-17-GTNH.jar"
+        },
+        {
           "version_tag": "1.9.0.6-GTNH",
-          "tagged_at": "2021-12-11T21:20:36",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.0-15-GTNH...1.9.0.6-GTNH",
+          "tagged_at": "2021-12-11T21:20:36+00:00",
           "filename": "TConstruct-1.7.10-1.9.0.6-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/51561856",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.0.6-GTNH/TConstruct-1.7.10-1.9.0.6-GTNH.jar"
         },
         {
           "version_tag": "1.9.0.8-GTNH",
-          "tagged_at": "2022-01-16T05:36:57",
+          "changelog": "## What's Changed\n* Stencil Table and NEI overlap by @slprime in https://github.com/GTNewHorizons/TinkersConstruct/pull/36\n* CraftingStation side chest now work with any IInventory with a configurable blacklist. by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/35\n* Fix clicking on inventory slots by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/37\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.0.6-GTNH...1.9.0.8-GTNH",
+          "tagged_at": "2022-01-16T05:36:57+00:00",
           "filename": "TConstruct-1.7.10-1.9.0.8-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/54095522",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.0.8-GTNH/TConstruct-1.7.10-1.9.0.8-GTNH.jar"
         },
         {
           "version_tag": "1.9.0.9-GTNH",
-          "tagged_at": "2022-01-18T19:24:07",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.0.8-GTNH...1.9.0.9-GTNH",
+          "tagged_at": "2022-01-18T19:24:07+00:00",
           "filename": "TConstruct-1.7.10-1.9.0.9-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/54301337",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.0.9-GTNH/TConstruct-1.7.10-1.9.0.9-GTNH.jar"
         },
         {
           "version_tag": "1.9.0.10-GTNH",
-          "tagged_at": "2022-01-18T19:26:08",
+          "changelog": "## What's Changed\n* Fix Mantle Version Requirement by @glowredman in https://github.com/GTNewHorizons/TinkersConstruct/pull/38\n\n## New Contributors\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/38\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.0.9-GTNH...1.9.0.10-GTNH",
+          "tagged_at": "2022-01-18T19:26:08+00:00",
           "filename": "TConstruct-1.7.10-1.9.0.10-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/54301441",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.0.10-GTNH/TConstruct-1.7.10-1.9.0.10-GTNH.jar"
         },
         {
           "version_tag": "1.9.0.11-GTNH",
-          "tagged_at": "2022-01-27T20:39:58",
+          "changelog": "## What's Changed\n* Yay boolean logic errors by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/39\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.0.10-GTNH...1.9.0.11-GTNH",
+          "tagged_at": "2022-01-27T20:39:58+00:00",
           "filename": "TConstruct-1.7.10-1.9.0.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/55137668",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.0.11-GTNH/TConstruct-1.7.10-1.9.0.11-GTNH.jar"
         },
         {
           "version_tag": "1.9.0.12-GTNH",
-          "tagged_at": "2022-01-29T05:59:11",
+          "changelog": "## What's Changed\n* update buildscipt to fix mantle transitive dep by @Glease in https://github.com/GTNewHorizons/TinkersConstruct/pull/41\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.0.11-GTNH...1.9.0.12-GTNH",
+          "tagged_at": "2022-01-29T05:59:11+00:00",
           "filename": "TConstruct-1.7.10-1.9.0.12-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/55270086",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.0.12-GTNH/TConstruct-1.7.10-1.9.0.12-GTNH.jar"
         },
         {
           "version_tag": "1.9.0.13-GTNH",
-          "tagged_at": "2022-02-04T17:44:12",
+          "changelog": "## What's Changed\n* LGPL-3.0 by @bombcar in https://github.com/GTNewHorizons/TinkersConstruct/pull/42\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.0.12-GTNH...1.9.0.13-GTNH",
+          "tagged_at": "2022-02-04T17:44:12+00:00",
           "filename": "TConstruct-1.7.10-1.9.0.13-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/55863898",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.0.13-GTNH/TConstruct-1.7.10-1.9.0.13-GTNH.jar"
         },
         {
           "version_tag": "1.9.0.14-GTNH",
-          "tagged_at": "2022-03-02T19:51:01",
+          "changelog": "## What's Changed\n* Add a way to ignore NBT in casting recipes by @miozune in https://github.com/GTNewHorizons/TinkersConstruct/pull/43\n* Fix Tinkers Crafting Tables Height by @slprime in https://github.com/GTNewHorizons/TinkersConstruct/pull/45\n* Added Slime Boots & Slimesling. by @draknyte1 in https://github.com/GTNewHorizons/TinkersConstruct/pull/44\n\n## New Contributors\n* @draknyte1 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/44\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.0.13-GTNH...1.9.0.14-GTNH",
+          "tagged_at": "2022-03-02T19:51:01+00:00",
           "filename": "TConstruct-1.7.10-1.9.0.14-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/58369495",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.0.14-GTNH/TConstruct-1.7.10-1.9.0.14-GTNH.jar"
         }
       ],
-      "license": "GNU Lesser General Public License v3.0.",
+      "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/TinkersConstruct",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/"
     },
@@ -13526,6 +13894,7 @@
       ],
       "license": "MIT License.",
       "repo_url": "https://github.com/GTNewHorizons/BrandonsCore",
+      "side": "NONE",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/brandons-core",
       "project_id": "231382",
       "slug": "brandons-core"
@@ -13561,6 +13930,7 @@
       ],
       "license": "MIT License.",
       "repo_url": "https://github.com/GTNewHorizons/ThaumicInventoryScanning ",
+      "side": "NONE",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/thaumcraft-inventory-scanning",
       "project_id": "238003",
       "slug": "thaumcraft-inventory-scanning"
@@ -13666,6 +14036,7 @@
       ],
       "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.",
       "repo_url": "https://github.com/GTNewHorizons/NaturesCompass",
+      "side": "NONE",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/natures-compass",
       "project_id": "252848",
       "slug": "natures-compass"
@@ -13684,7 +14055,7 @@
       ],
       "license": "BSD 3-Clause",
       "repo_url": "https://github.com/GTNewHorizons/MouseTweaks",
-      "side": "CLIENT",
+      "side": "NONE",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
       "project_id": "60089",
       "slug": "mouse-tweaks"
@@ -13703,6 +14074,7 @@
       ],
       "license": "MIT License.",
       "repo_url": "https://github.com/GTNewHorizons/MalisisDoors",
+      "side": "NONE",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/malisisdoors",
       "project_id": "223891",
       "slug": "malisisdoors"
@@ -13904,6 +14276,7 @@
       ],
       "license": "GNU Lesser General Public Library v2.1.",
       "repo_url": "https://github.com/GTNewHorizons/CarpentersBlocks",
+      "side": "NONE",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/carpenters-blocks",
       "project_id": "228932",
       "slug": "carpenters-blocks"
@@ -14365,6 +14738,7 @@
       ],
       "license": "All Rights Reserved. - You are freely to add this mod to your modpack, permission is NOT required.",
       "repo_url": "https://github.com/PinkaLulan/CompactKineticGenerators",
+      "side": "NONE",
       "source": "other",
       "external_url": "https://forum.industrial-craft.net/thread/12724-ic2-exp-1-7-10-compact-kinetic-generators/"
     },
@@ -14382,6 +14756,7 @@
       ],
       "license": "All Rights Reserved.",
       "repo_url": "https://github.com/Drethic/QuestBook",
+      "side": "NONE",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/better-questing-quest-book",
       "project_id": "242106",
       "slug": "better-questing-quest-book"
