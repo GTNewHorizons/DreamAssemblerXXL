@@ -31,5 +31,4 @@ def get_asset_version_cache_location(asset: Versionable, version: GTNHVersion) -
     cache_dir = ensure_cache_dir(asset)
 
     path: Path = cache_dir / Path(re.sub(forbidden_chars, "", str(Path(asset.type.value) / asset.name / str(version.filename))))
-    print(f"raw path: {path}\nsafe path:{path}")
     return path
