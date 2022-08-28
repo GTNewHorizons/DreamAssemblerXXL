@@ -152,7 +152,7 @@ class ExternalModList(LabelFrame):
         :return: None
         """
 
-        self.lb_mods.insert(END, *data)
+        self.lb_mods.insert(END, *sorted(data))
 
     async def on_listbox_click(self, event):
         """
