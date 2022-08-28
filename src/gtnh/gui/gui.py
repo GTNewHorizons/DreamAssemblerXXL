@@ -8,6 +8,7 @@ import httpx
 
 from gtnh.assembler.assembler import ReleaseAssembler
 from gtnh.defs import Archive, Position, Side
+from gtnh.exceptions import NoModAssetFound
 from gtnh.gui.exclusion_frame import ExclusionFrame
 from gtnh.gui.external_mod_frame import ExternalModFrame
 from gtnh.gui.github_mod_frame import GithubModFrame
@@ -72,6 +73,8 @@ class Window(Tk):
         self.gtnh_config: str = ""  # modpack asset version
         self.external_mods: Dict[str, str] = {}  # name <-> version of external mods mappings for the current release
         self.version: str = ""  # modpack release name
+
+        self.download_error_list: List[str] = []  # list of errors happened during the download of a release's assets
 
         self.init: bool = False
         self.protocol("WM_DELETE_WINDOW", lambda: asyncio.ensure_future(self.close_app()))
@@ -229,8 +232,19 @@ class Window(Tk):
         current_task_reset_callback()
 
         global_callback(self.get_progress(), "Downloading assets")
-        await gtnh.download_release(release, callback=progress_callback)
+        await gtnh.download_release(release, download_callback=progress_callback, error_callback=self.add_error_message)
         current_task_reset_callback()
+
+        if len(self.download_error_list) > 0:
+            error = "The following error(s) happened during the downloading of assets:\n" + \
+                    "\n".join(self.download_error_list)
+
+            showerror("Error(s) happened during the downloading of assets", error)
+            self.download_error_list = []
+            self.trigger_toggle()
+
+            raise NoModAssetFound(error)
+
         return ReleaseAssembler(
             gtnh,
             release,
@@ -238,6 +252,15 @@ class Window(Tk):
             global_callback=global_callback,
             current_task_reset_callback=current_task_reset_callback,
         )
+
+    def add_error_message(self, error_message: str) -> None:
+        """
+        Method used as error callback when an error happens during the download of a mod/release.
+
+        :param error_message: the error message to add to the error list
+        :return: None
+        """
+        self.download_error_list.append(error_message)
 
     async def assemble_all(self) -> None:
         """
