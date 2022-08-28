@@ -1,12 +1,12 @@
 import asyncio
-from tkinter import Button, LabelFrame, Listbox, Scrollbar, StringVar, END
+from tkinter import END, Button, LabelFrame, Listbox, Scrollbar, StringVar
 from tkinter.messagebox import showerror
-from typing import Any, Callable, Coroutine, Dict, Optional, List
+from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import Position
 from gtnh.gui.mod_info_frame import ModInfoFrame
 from gtnh.models.gtnh_version import GTNHVersion
-from gtnh.models.mod_info import GTNHModInfo, ExternalModInfo
+from gtnh.models.mod_info import ExternalModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 
@@ -154,7 +154,7 @@ class ExternalModList(LabelFrame):
 
         self.lb_mods.insert(END, *sorted(data))
 
-    async def on_listbox_click(self, event):
+    async def on_listbox_click(self, event: Any) -> None:
         """
         Callback used when the user clicks on the external mods' listbox.
 
@@ -219,7 +219,7 @@ class ExternalModFrame(LabelFrame):
         external_mod_list_callbacks: Dict[str, Any] = {
             "get_gtnh": callbacks["get_gtnh"],
             "get_external_mods": callbacks["get_external_mods"],
-            "mod_info": self.mod_info_frame.populate_data
+            "mod_info": self.mod_info_frame.populate_data,
         }
 
         self.external_mod_list: ExternalModList = ExternalModList(
@@ -324,4 +324,3 @@ class ExternalModFrame(LabelFrame):
         """
         mod_list: List[str] = data["external_mod_list"]
         self.external_mod_list.populate_data(mod_list)
-

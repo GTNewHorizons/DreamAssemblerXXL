@@ -1,6 +1,7 @@
 import shutil
+from json import dump, loads
 from pathlib import Path
-from typing import Callable, Optional, List, Tuple, Dict
+from typing import Any, Callable, Dict, List, Optional, Tuple
 from zipfile import ZipFile
 
 from colorama import Fore
@@ -8,16 +9,15 @@ from structlog import get_logger
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
-from gtnh.defs import RELEASE_CURSE_DIR, Side, ModSource, CACHE_DIR, ROOT_DIR
+from gtnh.defs import CACHE_DIR, RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
-from gtnh.models.mod_info import GTNHModInfo, ExternalModInfo
+from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
-from json import dump, dumps, loads
-
 log = get_logger(__name__)
+
 
 class CurseAssembler(GenericAssembler):
     """
@@ -109,30 +109,41 @@ class CurseAssembler(GenericAssembler):
                         if self.task_progress_callback is not None:
                             self.task_progress_callback(self.get_progress(), f"adding {item} to the archive")
 
-    def generate_json_dep(self, side:Side, archive:ZipFile):
+    def generate_json_dep(self, side: Side, archive: ZipFile) -> None:
+        """
+        Generates the dependencies.json and puts it in the archive.
+
+        :param side: the side of the archive
+        :param archive: the zipfile object
+        :return: None
+        """
         mod_list: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = self.get_mods(side)
         mod: GTNHModInfo | ExternalModInfo
         version: GTNHVersion
         dep_json: List[Dict[str, str]] = []
         for mod, version in mod_list:
             if mod.source != ModSource.curse:
-                mod_obj: Dict[str, str] = {
-                    "path":f"mods/{version.filename}",
-                    "url":version.download_url
-                }
+                url: Optional[str] = version.download_url
+                assert url
+                mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
 
                 dep_json.append(mod_obj)
 
         with open(self.tempfile, "w") as temp:
-            dump(dep_json,temp, indent=2)
+            dump(dep_json, temp, indent=2)
 
         archive.write(self.tempfile, arcname=str(self.dependencies_json))
 
+    def generate_meta_data(self, side: Side, archive: ZipFile) -> None:
+        """
+        Generates the manifest.json and places it in the archive.
 
+        :param side: the side of the pack
+        :param archive: the zipfile
+        :return: None
+        """
 
-    def generate_meta_data(self, side:Side, archive:ZipFile):
-        metadata=\
-"""{
+        metadata: str = """{
   "minecraft": {
     "version": "1.7.10",
     "modLoaders": [
@@ -150,17 +161,21 @@ class CurseAssembler(GenericAssembler):
   "files": [],
   "overrides": "overrides"
 }"""
-        metadata_object = loads(metadata)
+        metadata_object: Dict[str, Any] = loads(metadata)
         metadata_object["version"] = metadata_object["version"].format(self.release.version)
+
+        mod: GTNHModInfo | ExternalModInfo
+        version: GTNHVersion
         for mod, version in self.get_mods(side):
-            if mod.source == ModSource.curse:
-                data: Dict[str, int|bool]={
+            if mod.source == ModSource.curse and isinstance(mod, ExternalModInfo):
+                assert version.browser_download_url
+                data: Dict[str, Any] = {
                     "projectID": mod.project_id,
                     "fileID": version.browser_download_url.split("/")[-1],  # hacky af but i don't want to go in the
-                                                                            # process of readding them all by hand
-                                                                            # while the data is still stored somewhere
-                                                                            # else in the metadata
-                    "required": True
+                    # process of readding them all by hand
+                    # while the data is still stored somewhere
+                    # else in the metadata
+                    "required": True,
                 }
                 metadata_object["files"].append(data)
 
@@ -168,4 +183,3 @@ class CurseAssembler(GenericAssembler):
             dump(metadata_object, temp, indent=2)
 
         archive.write(self.tempfile, arcname=str(self.manifest_json))
-

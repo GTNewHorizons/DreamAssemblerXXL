@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+import re
 from pathlib import Path
 
 from structlog import get_logger
@@ -7,7 +8,6 @@ from structlog import get_logger
 from gtnh.defs import CACHE_DIR
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.versionable import Versionable
-import re
 
 log = get_logger(__name__)
 
@@ -16,6 +16,7 @@ log = get_logger(__name__)
 # '\' is excluded because it's used when stringifying a Path object
 
 forbidden_chars = re.compile(r'[<>:"\/|\?\*]')
+
 
 def ensure_cache_dir(asset: Versionable | None = None) -> Path:
     os.makedirs(CACHE_DIR, exist_ok=True)
@@ -30,5 +31,7 @@ def ensure_cache_dir(asset: Versionable | None = None) -> Path:
 def get_asset_version_cache_location(asset: Versionable, version: GTNHVersion) -> Path:
     cache_dir = ensure_cache_dir(asset)
 
-    path: Path = cache_dir / Path(re.sub(forbidden_chars, "", str(Path(asset.type.value) / asset.name / str(version.filename))))
+    path: Path = cache_dir / Path(
+        re.sub(forbidden_chars, "", str(Path(asset.type.value) / asset.name / str(version.filename)))
+    )
     return path

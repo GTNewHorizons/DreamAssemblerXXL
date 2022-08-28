@@ -100,7 +100,7 @@ class Window(Tk):
             "set_external_mod_version": self.set_external_mod_version,
             "set_external_mod_side": lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)),
             "get_gtnh": self._get_modpack_manager,
-            "get_external_mods": self.get_github_mods
+            "get_external_mods": self.get_github_mods,
         }
 
         self.external_mod_frame: ExternalModFrame = ExternalModFrame(
@@ -236,8 +236,9 @@ class Window(Tk):
         current_task_reset_callback()
 
         if len(self.download_error_list) > 0:
-            error = "The following error(s) happened during the downloading of assets:\n" + \
-                    "\n".join(self.download_error_list)
+            error = "The following error(s) happened during the downloading of assets:\n" + "\n".join(
+                self.download_error_list
+            )
 
             showerror("Error(s) happened during the downloading of assets", error)
             self.download_error_list = []
@@ -636,9 +637,7 @@ class Window(Tk):
 
             self.github_mod_frame.populate_data(data_github_mods)
 
-            data_external_mods: Dict[str, Any] = {
-                "external_mod_list": [mod for mod in self.get_external_mods().keys()]
-            }
+            data_external_mods: Dict[str, Any] = {"external_mod_list": [mod for mod in self.get_external_mods().keys()]}
 
             self.external_mod_frame.populate_data(data_external_mods)
 

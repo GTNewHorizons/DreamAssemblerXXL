@@ -481,7 +481,7 @@ class GTNHModpackManager:
         asset_version: str | None = None,
         is_github: bool = False,
         download_callback: Optional[Callable[[str], None]] = None,
-        error_callback: Optional[Callable[[str], None]] = None
+        error_callback: Optional[Callable[[str], None]] = None,
     ) -> Path | None:
         if asset_version is None:
             asset_version = asset.latest_version
@@ -543,8 +543,10 @@ class GTNHModpackManager:
         return mod_filename
 
     async def download_release(
-        self, release: GTNHRelease, download_callback: Optional[Callable[[float, str], None]] = None,
-            error_callback: Optional[Callable[[str], None]] = None
+        self,
+        release: GTNHRelease,
+        download_callback: Optional[Callable[[float, str], None]] = None,
+        error_callback: Optional[Callable[[str], None]] = None,
     ) -> list[Path]:
         """
         method to download all the mods required for a release of the pack
@@ -570,10 +572,19 @@ class GTNHModpackManager:
             for mod_name, mod_version in mods.items():
                 mod = self.assets.get_github_mod(mod_name) if is_github else self.assets.get_external_mod(mod_name)
                 mod_callback = (
-                    lambda name: download_callback(delta_progress, f"mod {name} downloaded!") if download_callback else None
+                    lambda name: download_callback(delta_progress, f"mod {name} downloaded!")
+                    if download_callback
+                    else None
                 )  # noqa, type: ignore
-                downloaders.append(self.download_asset(mod, mod_version, is_github=is_github,
-                                                       download_callback=mod_callback, error_callback=error_callback))
+                downloaders.append(
+                    self.download_asset(
+                        mod,
+                        mod_version,
+                        is_github=is_github,
+                        download_callback=mod_callback,
+                        error_callback=error_callback,
+                    )
+                )
 
         # download the modpack configs
         if download_callback is not None:
