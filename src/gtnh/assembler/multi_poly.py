@@ -24,6 +24,7 @@ class MMCAssembler(GenericAssembler):
         release: GTNHRelease,
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
+        changelog_path: Optional[Path] = None
     ):
         """
         Constructor of the MMCAssembler class.
@@ -39,6 +40,7 @@ class MMCAssembler(GenericAssembler):
             release=release,
             task_progress_callback=task_progress_callback,
             global_progress_callback=global_progress_callback,
+            changelog_path=changelog_path
         )
         self.mmc_archive_root: Path = Path(f"GT New Horizons {self.release.version}")
         self.mmc_modpack_files: Path = self.mmc_archive_root / ".minecraft"
@@ -86,6 +88,8 @@ class MMCAssembler(GenericAssembler):
                         shutil.copyfileobj(config_item, target)
                         if self.task_progress_callback is not None:
                             self.task_progress_callback(self.get_progress(), f"adding {item} to the archive")
+
+        self.add_changelog(archive, arcname=self.mmc_modpack_files / self.changelog_path.name)
 
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_MMC_DIR / f"GT New Horizons {self.release.version} (MMC).zip"
