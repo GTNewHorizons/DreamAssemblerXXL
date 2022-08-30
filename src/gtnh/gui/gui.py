@@ -8,6 +8,7 @@ import httpx
 
 from gtnh.assembler.assembler import ReleaseAssembler
 from gtnh.defs import Archive, Position, Side
+from gtnh.exceptions import ReleaseNotFoundException
 from gtnh.gui.exclusion_frame import ExclusionFrame
 from gtnh.gui.external_mod_frame import ExternalModFrame
 from gtnh.gui.github_mod_frame import GithubModFrame
@@ -110,7 +111,7 @@ class Window(Tk):
             ),
             "delete": lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)),
             "update_assets": lambda: asyncio.ensure_future(self.update_assets()),
-            "generate_nightly": lambda: asyncio.ensure_future(self.generate_nightly()),
+            "generate_nightly": lambda: asyncio.ensure_future(self.update_nightly()),
             "client_mmc": lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.MMC)),
             "client_zip": lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.ZIP)),
             "server_zip": lambda: asyncio.ensure_future(self.assemble_release(Side.SERVER, Archive.ZIP)),
@@ -413,7 +414,7 @@ class Window(Tk):
         self.trigger_toggle()
         showinfo("assets updated successfully!", "all the assets have been updated correctly!")
 
-    async def generate_nightly(self) -> None:
+    async def update_nightly(self) -> None:
         """
         Callback used to generate/update the nightly build.
 
@@ -422,7 +423,13 @@ class Window(Tk):
         # todo: add a callback to report progress
         self.trigger_toggle()
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        release: GTNHRelease = await gtnh.generate_release("nightly", update_available=True)
+        existing_release = gtnh.get_release("nightly")
+        if not existing_release:
+            raise ReleaseNotFoundException("Nightly release not found")
+
+        release: GTNHRelease = await gtnh.update_release(
+            "nightly", existing_release=existing_release, update_available=True
+        )
         gtnh.add_release(release, update=True)
         gtnh.save_modpack()
         self.trigger_toggle()

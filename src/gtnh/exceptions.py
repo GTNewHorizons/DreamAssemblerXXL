@@ -28,3 +28,7 @@ class MissingModFileException(Exception):
 
 class InvalidReleaseException(Exception):
     pass
+
+
+class ReleaseNotFoundException(Exception):
+    pass

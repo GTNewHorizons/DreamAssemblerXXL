@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.1.2.4-28-pre",
+    "latest_version": "2.1.2.4-29-pre",
     "versions": [
       {
         "version_tag": "2.1.2.3qf-test",
@@ -170,6 +170,13 @@
         "filename": "2.1.2.4-28-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/74969236",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-28-pre/2.1.2.4-28-pre.zip"
+      },
+      {
+        "version_tag": "2.1.2.4-29-pre",
+        "tagged_at": "2022-08-28T13:50:59+00:00",
+        "filename": "2.1.2.4-29-pre.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/76105656",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-29-pre/2.1.2.4-29-pre.zip"
       }
     ],
     "type": "config",
@@ -235,7 +242,7 @@
     },
     {
       "name": "AE2FluidCraft-Rework",
-      "latest_version": "1.0.9-gtnh",
+      "latest_version": "1.0.10-gtnh",
       "versions": [
         {
           "version_tag": "1.0.0-gtnh",
@@ -316,6 +323,14 @@
           "filename": "ae2fc-1.7.10-1.0.9-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/75566729",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.9-gtnh/ae2fc-1.7.10-1.0.9-gtnh.jar"
+        },
+        {
+          "version_tag": "1.0.10-gtnh",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.9-gtnh...1.0.10-gtnh",
+          "tagged_at": "2022-08-27T23:26:28+00:00",
+          "filename": "ae2fc-1.7.10-1.0.10-gtnh.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/76059658",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.10-gtnh/ae2fc-1.7.10-1.0.10-gtnh.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -1066,7 +1081,7 @@
     },
     {
       "name": "bartworks",
-      "latest_version": "0.5.78",
+      "latest_version": "0.5.79",
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -1501,6 +1516,14 @@
           "filename": "bartworks-1.7.10-0.5.78.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/76008982",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.78/bartworks-1.7.10-0.5.78.jar"
+        },
+        {
+          "version_tag": "0.5.79",
+          "changelog": "## What's Changed\n* Update buildscript & apply spotless by @eigenraven in https://github.com/GTNewHorizons/bartworks/pull/192\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.5.78...0.5.79",
+          "tagged_at": "2022-08-27T23:26:01+00:00",
+          "filename": "bartworks-1.7.10-0.5.79.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/76059642",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.79/bartworks-1.7.10-0.5.79.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -5161,7 +5184,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.4.20",
+      "latest_version": "0.4.21",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -5439,6 +5462,14 @@
           "filename": "GoodGenerator-1.7.10-0.4.20.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/75603830",
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.20/GoodGenerator-1.7.10-0.4.20.jar"
+        },
+        {
+          "version_tag": "0.4.21",
+          "changelog": "## What's Changed\n* Enable electrolyzing Zinc Chloride by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/74\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.20...0.4.21",
+          "tagged_at": "2022-08-27T23:25:58+00:00",
+          "filename": "GoodGenerator-1.7.10-0.4.21.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/76059638",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.21/GoodGenerator-1.7.10-0.4.21.jar"
         }
       ],
       "license": "MIT License.",
@@ -9438,7 +9469,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "1.9.59",
+      "latest_version": "1.9.60",
       "versions": [
         {
           "version_tag": "1.9.11",
@@ -9829,6 +9860,14 @@
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.59.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76008976",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.59/GTNewHorizonsCoreMod-1.7.10-1.9.59.jar"
+        },
+        {
+          "version_tag": "1.9.60",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.59...1.9.60",
+          "tagged_at": "2022-08-27T23:23:12+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.60.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76059485",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.60/GTNewHorizonsCoreMod-1.7.10-1.9.60.jar"
         }
       ],
       "license": "GNU General Public License v3.0.",
@@ -9944,7 +9983,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.2.31-GTNH",
+      "latest_version": "2.2.32-GTNH",
       "versions": [
         {
           "version_tag": "v2.0.0",
@@ -10478,6 +10517,14 @@
           "filename": "NotEnoughItems-1.7.10-2.2.31-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76008866",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.31-GTNH/NotEnoughItems-1.7.10-2.2.31-GTNH.jar"
+        },
+        {
+          "version_tag": "2.2.32-GTNH",
+          "changelog": "## What's Changed\n* README.md: Add some documentation for getting started on development by @firenoo in https://github.com/GTNewHorizons/NotEnoughItems/pull/283\n\n## New Contributors\n* @firenoo made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/283\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.31-GTNH...2.2.32-GTNH",
+          "tagged_at": "2022-08-27T23:25:46+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.2.32-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76059621",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.32-GTNH/NotEnoughItems-1.7.10-2.2.32-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -12047,7 +12094,7 @@
     },
     {
       "name": "StorageDrawers",
-      "latest_version": "1.11.16-GTNH",
+      "latest_version": "1.11.17-GTNH",
       "versions": [
         {
           "version_tag": "1.10.8b",
@@ -12137,6 +12184,14 @@
           "filename": "StorageDrawers-1.7.10-1.11.16-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/75214584",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.16-GTNH/StorageDrawers-1.7.10-1.11.16-GTNH.jar"
+        },
+        {
+          "version_tag": "1.11.17-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.16-GTNH...1.11.17-GTNH",
+          "tagged_at": "2022-08-28T13:04:50+00:00",
+          "filename": "StorageDrawers-1.7.10-1.11.17-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/76103137",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.17-GTNH/StorageDrawers-1.7.10-1.11.17-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -12145,7 +12200,7 @@
     },
     {
       "name": "StorageDrawers-BiomesOPlenty",
-      "latest_version": "1.11.12-GTNH",
+      "latest_version": "1.11.17-GTNH",
       "versions": [
         {
           "version_tag": "1.11.9-gtnh",
@@ -12178,6 +12233,14 @@
           "filename": "StorageDrawersBop-1.7.10-1.11.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-BiomesOPlenty/releases/assets/68971743",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty/releases/download/1.11.12-GTNH/StorageDrawersBop-1.7.10-1.11.11-GTNH.jar"
+        },
+        {
+          "version_tag": "1.11.17-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty/compare/1.11.11-GTNH...1.11.17-GTNH",
+          "tagged_at": "2022-08-28T12:59:22+00:00",
+          "filename": "StorageDrawersBop-1.7.10-1.11.17-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-BiomesOPlenty/releases/assets/76102748",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty/releases/download/1.11.17-GTNH/StorageDrawersBop-1.7.10-1.11.17-GTNH.jar"
         }
       ],
       "license": "MIT License.",
@@ -12186,7 +12249,7 @@
     },
     {
       "name": "StorageDrawers-Forestry",
-      "latest_version": "1.11.12-GTNH",
+      "latest_version": "1.11.17-GTNH",
       "versions": [
         {
           "version_tag": "1.11.9-gtnh",
@@ -12219,6 +12282,14 @@
           "filename": "StorageDrawersForestry-1.7.10-1.11.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Forestry/releases/assets/68972047",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Forestry/releases/download/1.11.12-GTNH/StorageDrawersForestry-1.7.10-1.11.11-GTNH.jar"
+        },
+        {
+          "version_tag": "1.11.17-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Forestry/compare/1.11.11-GTNH...1.11.17-GTNH",
+          "tagged_at": "2022-08-28T13:01:54+00:00",
+          "filename": "StorageDrawersForestry-1.7.10-1.11.17-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Forestry/releases/assets/76102878",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Forestry/releases/download/1.11.17-GTNH/StorageDrawersForestry-1.7.10-1.11.17-GTNH.jar"
         }
       ],
       "license": "MIT License.",
@@ -12227,7 +12298,7 @@
     },
     {
       "name": "StorageDrawers-Misc",
-      "latest_version": "1.11.11-GTNH",
+      "latest_version": "1.11.17-GTNH",
       "versions": [
         {
           "version_tag": "1.11.9-gtnh",
@@ -12252,6 +12323,14 @@
           "filename": "StorageDrawersMisc-1.7.10-1.11.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Misc/releases/assets/56639898",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Misc/releases/download/1.11.11-GTNH/StorageDrawersMisc-1.7.10-1.11.11-GTNH.jar"
+        },
+        {
+          "version_tag": "1.11.17-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Misc/compare/1.11.11-GTNH...1.11.17-GTNH",
+          "tagged_at": "2022-08-28T13:01:52+00:00",
+          "filename": "StorageDrawersMisc-1.7.10-1.11.17-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Misc/releases/assets/76102875",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Misc/releases/download/1.11.17-GTNH/StorageDrawersMisc-1.7.10-1.11.17-GTNH.jar"
         }
       ],
       "license": "MIT License.",
@@ -12260,7 +12339,7 @@
     },
     {
       "name": "StorageDrawers-Natura",
-      "latest_version": "1.11.11-GTNH",
+      "latest_version": "1.11.17-GTNH",
       "versions": [
         {
           "version_tag": "1.11.9-gtnh",
@@ -12285,6 +12364,14 @@
           "filename": "StorageDrawersNatura-1.7.10-1.11.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Natura/releases/assets/56639953",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Natura/releases/download/1.11.11-GTNH/StorageDrawersNatura-1.7.10-1.11.11-GTNH.jar"
+        },
+        {
+          "version_tag": "1.11.17-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Natura/compare/1.11.11-GTNH...1.11.17-GTNH",
+          "tagged_at": "2022-08-28T13:02:27+00:00",
+          "filename": "StorageDrawersNatura-1.7.10-1.11.17-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers-Natura/releases/assets/76102925",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers-Natura/releases/download/1.11.17-GTNH/StorageDrawersNatura-1.7.10-1.11.17-GTNH.jar"
         }
       ],
       "license": "MIT License.",
@@ -12293,7 +12380,7 @@
     },
     {
       "name": "StructureLib",
-      "latest_version": "1.1.6",
+      "latest_version": "1.1.7",
       "versions": [
         {
           "version_tag": "1.0.11",
@@ -12390,6 +12477,14 @@
           "filename": "structurelib-1.7.10-1.1.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StructureLib/releases/assets/75796905",
           "browser_download_url": "https://github.com/GTNewHorizons/StructureLib/releases/download/1.1.6/structurelib-1.7.10-1.1.6.jar"
+        },
+        {
+          "version_tag": "1.1.7",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.1.6...1.1.7",
+          "tagged_at": "2022-08-28T16:53:54+00:00",
+          "filename": "structurelib-1.7.10-1.1.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StructureLib/releases/assets/76115844",
+          "browser_download_url": "https://github.com/GTNewHorizons/StructureLib/releases/download/1.1.7/structurelib-1.7.10-1.1.7.jar"
         }
       ],
       "license": "MIT License.",
