@@ -77,7 +77,7 @@ class CurseAssembler(GenericAssembler):
         release: GTNHRelease,
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
-        changelog_path: Optional[Path] = None
+        changelog_path: Optional[Path] = None,
     ):
         """
         Constructor of the CurseAssembler class.
@@ -93,7 +93,7 @@ class CurseAssembler(GenericAssembler):
             release=release,
             task_progress_callback=task_progress_callback,
             global_progress_callback=global_progress_callback,
-            changelog_path=changelog_path
+            changelog_path=changelog_path,
         )
 
         self.overrides_folder = Path("overrides")
@@ -170,6 +170,7 @@ class CurseAssembler(GenericAssembler):
                         if self.task_progress_callback is not None:
                             self.task_progress_callback(self.get_progress(), f"adding {item} to the archive")
 
+        assert self.changelog_path
         self.add_changelog(archive, arcname=self.overrides_folder / self.changelog_path.name)
 
     def generate_json_dep(self, side: Side, archive: ZipFile) -> None:

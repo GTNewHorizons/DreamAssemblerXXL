@@ -28,7 +28,7 @@ class GenericAssembler:
         release: GTNHRelease,
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
-        changelog_path: Optional[Path] = None
+        changelog_path: Optional[Path] = None,
     ):
         """
         Constructor of the GenericAssembler class.
@@ -185,7 +185,7 @@ class GenericAssembler:
         """
         raise NotImplementedError
 
-    def add_changelog(self, archive: ZipFile, arcname:Optional[Path] = None) -> None:
+    def add_changelog(self, archive: ZipFile, arcname: Optional[Path] = None) -> None:
         """
         Method to add the changelog to the archive.
 

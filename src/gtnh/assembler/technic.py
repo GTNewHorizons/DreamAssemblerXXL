@@ -28,7 +28,7 @@ class TechnicAssembler(GenericAssembler):
         release: GTNHRelease,
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
-        changelog_path: Optional[Path] = None
+        changelog_path: Optional[Path] = None,
     ):
         """
         Constructor of the TechnicAssembler class.
@@ -44,7 +44,7 @@ class TechnicAssembler(GenericAssembler):
             release=release,
             task_progress_callback=task_progress_callback,
             global_progress_callback=global_progress_callback,
-            changelog_path=changelog_path
+            changelog_path=changelog_path,
         )
 
     def add_mods(

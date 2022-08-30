@@ -43,11 +43,21 @@ class ReleaseAssembler:
 
         changelog_path: Path = self.generate_changelog()
 
-        self.zip_assembler: ZipAssembler = ZipAssembler(mod_manager, release, task_callback, changelog_path=changelog_path)
-        self.mmc_assembler: MMCAssembler = MMCAssembler(mod_manager, release, task_callback, changelog_path=changelog_path)
-        self.curse_assembler: CurseAssembler = CurseAssembler(mod_manager, release, task_callback, changelog_path=changelog_path)
-        self.technic_assembler: TechnicAssembler = TechnicAssembler(mod_manager, release, task_callback, changelog_path=changelog_path)
-        self.modrinth_assembler: ModrinthAssembler = ModrinthAssembler(mod_manager, release, task_callback, changelog_path=changelog_path)
+        self.zip_assembler: ZipAssembler = ZipAssembler(
+            mod_manager, release, task_callback, changelog_path=changelog_path
+        )
+        self.mmc_assembler: MMCAssembler = MMCAssembler(
+            mod_manager, release, task_callback, changelog_path=changelog_path
+        )
+        self.curse_assembler: CurseAssembler = CurseAssembler(
+            mod_manager, release, task_callback, changelog_path=changelog_path
+        )
+        self.technic_assembler: TechnicAssembler = TechnicAssembler(
+            mod_manager, release, task_callback, changelog_path=changelog_path
+        )
+        self.modrinth_assembler: ModrinthAssembler = ModrinthAssembler(
+            mod_manager, release, task_callback, changelog_path=changelog_path
+        )
 
         # computation of the progress per mod for the progressbar
         self.delta_progress: float = 0.0
