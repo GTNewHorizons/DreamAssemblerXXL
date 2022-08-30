@@ -73,6 +73,7 @@ class Window(Tk):
         self.gtnh_config: str = ""  # modpack asset version
         self.external_mods: Dict[str, str] = {}  # name <-> version of external mods mappings for the current release
         self.version: str = ""  # modpack release name
+        self.last_version: Optional[str] = None # last version of the release
 
         self.download_error_list: List[str] = []  # list of errors happened during the download of a release's assets
 
@@ -217,6 +218,7 @@ class Window(Tk):
             config=self.gtnh_config,
             github_mods=self.github_mods,
             external_mods=self.external_mods,
+            last_version=self.last_version
         )
         global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.update_global_progress_bar
         global_reset_callback: Callable[[], None] = self.modpack_list_frame.action_frame.reset_global_progress_bar
@@ -530,6 +532,7 @@ class Window(Tk):
             self.gtnh_config = release_object.config
             self.external_mods = release_object.external_mods
             self.version = release_object.version
+            self.last_version = release_object.last_version
         else:
             showerror("incorrect version detected", f"modpack version {release} doesn't exist")
             return
@@ -555,10 +558,14 @@ class Window(Tk):
             config=self.gtnh_config,
             github_mods=self.github_mods,
             external_mods=self.external_mods,
-            previous_version=previous_version,
+            last_version=previous_version,
         )
 
-        if gtnh.add_release(release, update=True):
+        self.last_version = previous_version
+
+        is_release_added: bool = gtnh.add_release(release, update=True)
+
+        if is_release_added:
             gtnh.save_modpack()
             showinfo("release successfully generated", f"modpack version {release_name} successfully generated!")
 
