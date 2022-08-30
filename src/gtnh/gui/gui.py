@@ -73,7 +73,7 @@ class Window(Tk):
         self.gtnh_config: str = ""  # modpack asset version
         self.external_mods: Dict[str, str] = {}  # name <-> version of external mods mappings for the current release
         self.version: str = ""  # modpack release name
-        self.last_version: Optional[str] = None # last version of the release
+        self.last_version: Optional[str] = None  # last version of the release
 
         self.download_error_list: List[str] = []  # list of errors happened during the download of a release's assets
 
@@ -218,7 +218,7 @@ class Window(Tk):
             config=self.gtnh_config,
             github_mods=self.github_mods,
             external_mods=self.external_mods,
-            last_version=self.last_version
+            last_version=self.last_version,
         )
         global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.update_global_progress_bar
         global_reset_callback: Callable[[], None] = self.modpack_list_frame.action_frame.reset_global_progress_bar
