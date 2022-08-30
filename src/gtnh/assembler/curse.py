@@ -1,7 +1,7 @@
 import shutil
 from json import dump, loads
 from pathlib import Path
-from typing import Any, Callable, Dict, List, Optional, Tuple
+from typing import Any, Callable, Dict, List, Optional, Tuple, Set
 from zipfile import ZipFile
 
 from colorama import Fore
@@ -18,6 +18,50 @@ from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
 
+def is_valid_curse_mod(mod: GTNHModInfo|ExternalModInfo, version:GTNHVersion)-> bool:
+    """
+     Returns whether or not a given mod is a valid curse mod or not.
+
+    :param mod: the given mod object
+    :param version: its corresponding version
+    :return: true if it is a valid curse mod
+    """
+    if isinstance(mod, GTNHModInfo):
+        return False
+
+    if version.browser_download_url is None:
+        return False
+
+    if mod.project_id is None:
+        return False
+
+    try:
+        int(version.browser_download_url.split("/")[-1])
+        return True
+    except:
+        return False
+
+
+def is_mod_from_hidden_repo(mod: GTNHModInfo|ExternalModInfo) -> bool:
+    """
+    Returns whether or not a given mod is from a private github repo.
+
+    :param mod: the given mod object
+    :return: true if it's from a private repo, false otherwise
+    """
+    if isinstance(mod, ExternalModInfo):
+        return False
+
+    return mod.private
+
+def is_mod_from_github(mod: GTNHModInfo|ExternalModInfo) -> bool:
+    """
+    Returns wheter or not a given mod is from github.
+
+    :param mod: the given mod object
+    :return: true if it's from github
+    """
+    return isinstance(mod, GTNHModInfo)
 
 class CurseAssembler(GenericAssembler):
     """
@@ -77,9 +121,23 @@ class CurseAssembler(GenericAssembler):
             self.generate_meta_data(side, archive)
             log.info("Adding dependencies.json to the archive")
             self.generate_json_dep(side, archive)
-            archive.write(self.overrides, arcname="overrides/overrides.png")
 
+            archive.write(self.overrides, arcname="overrides/overrides.png")
             archive.write(self.overrideslash, arcname="overrides/overrideslash.png")
+
+            valid_sides: Set[Side] = {side, Side.BOTH}
+
+            mods_to_override: List[GTNHModInfo|ExternalModInfo, GTNHVersion] = [(mod, version)
+                                                                                for mod, version in self.get_mods(side)
+                                                                                if is_mod_from_github(mod)]
+            log.info("Adding github mods in the archive")  # if curse reject the archive because reasons, we will have
+                                                           # to find an alternative for that, as downloading the files
+                                                           # hosted on github from the deploader will get the players
+                                                           # rate limited and the deploader will receive 403 http errors
+            for mod, version in mods_to_override:
+                source_file: Path = get_asset_version_cache_location(mod, version)
+                archive_path: Path = self.overrides_folder / "mods" / source_file.name
+                archive.write(source_file, arcname=archive_path)
 
             log.info("Archive created successfully!")
 
@@ -122,7 +180,11 @@ class CurseAssembler(GenericAssembler):
         version: GTNHVersion
         dep_json: List[Dict[str, str]] = []
         for mod, version in mod_list:
-            if mod.source != ModSource.curse:
+            if (
+                    not is_valid_curse_mod(mod, version) and
+                    not is_mod_from_github(mod)
+            ):
+
                 url: Optional[str] = version.download_url
                 assert url
                 mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
@@ -133,6 +195,7 @@ class CurseAssembler(GenericAssembler):
             dump(dep_json, temp, indent=2)
 
         archive.write(self.tempfile, arcname=str(self.dependencies_json))
+        self.tempfile.unlink()
 
     def generate_meta_data(self, side: Side, archive: ZipFile) -> None:
         """
@@ -167,19 +230,20 @@ class CurseAssembler(GenericAssembler):
         mod: GTNHModInfo | ExternalModInfo
         version: GTNHVersion
         for mod, version in self.get_mods(side):
-            if mod.source == ModSource.curse and isinstance(mod, ExternalModInfo):
-                assert version.browser_download_url
-                data: Dict[str, Any] = {
-                    "projectID": mod.project_id,
-                    "fileID": version.browser_download_url.split("/")[-1],  # hacky af but i don't want to go in the
-                    # process of readding them all by hand
-                    # while the data is still stored somewhere
-                    # else in the metadata
-                    "required": True,
-                }
-                metadata_object["files"].append(data)
+
+            if is_valid_curse_mod(mod, version):
+
+                    data: Dict[str, Any] = {
+                        "projectID": int(mod.project_id),
+                        "fileID": int(version.browser_download_url.split("/")[-1]),  # hacky af but i don't want to go
+                        # in the process of readding them all by hand while the data is still stored somewhere
+                        # else in the metadata
+                        "required": True,
+                    }
+                    metadata_object["files"].append(data)
 
         with open(self.tempfile, "w") as temp:
             dump(metadata_object, temp, indent=2)
 
         archive.write(self.tempfile, arcname=str(self.manifest_json))
+        self.tempfile.unlink()
