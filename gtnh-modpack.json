@@ -1,7 +1,7 @@
 {
   "releases": [
-    "nightly",
-    "2.1.2.4-pre29"
+    "2.1.2.4-pre29",
+    "nightly"
   ],
   "server_exclusions": [
     "mods/OpenSecurity/sounds/alarms/alarm-SG1.ogg",
