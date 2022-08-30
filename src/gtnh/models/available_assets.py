@@ -6,6 +6,7 @@ from pydantic import Field
 from structlog import get_logger
 
 from gtnh.defs import ModSource, Side
+from gtnh.exceptions import NoModAssetFound
 from gtnh.models.base import GTNHBaseModel
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_version import GTNHVersion
@@ -39,6 +40,22 @@ class AvailableAssets(GTNHBaseModel):
 
     def has_external_mod(self, mod_name: str) -> bool:
         return mod_name in self._external_modmap
+
+    def get_mod(self, mod_name: str) -> GTNHModInfo:
+        """
+        Get a mod, preferring github mods over external mods
+        """
+        if self.has_github_mod(mod_name):
+            mod = self.get_github_mod(mod_name)
+            if mod.latest_version and mod.latest_version != "<unknown>":
+                return mod
+
+        if self.has_external_mod(mod_name):
+            mod = self.get_external_mod(mod_name)
+            if mod.latest_version and mod.latest_version != "<unknown>":
+                return mod
+
+        raise NoModAssetFound(f"{mod_name} not found")
 
     def get_github_mod(self, mod_name: str) -> GTNHModInfo:
         return self._github_modmap[mod_name]

@@ -4,7 +4,7 @@ import json
 import os
 from collections import defaultdict
 from pathlib import Path
-from typing import Any, Callable, Optional, cast
+from typing import Callable, Optional
 
 from cache import AsyncLRU
 from colorama import Fore, Style
@@ -74,7 +74,6 @@ class GTNHModpackManager:
         if not update and release.version in self.mod_pack.releases:
             log.error(f"Release `{Fore.RED}{release.version}{Fore.RESET} already exists, and update was not specified!")
             return False
-
         self.mod_pack.releases |= {release.version}
         return save_release(release, update=update)
 
@@ -288,12 +287,29 @@ class GTNHModpackManager:
             return maven_url
         elif response.status_code >= 500:
             raise Exception(f"Maven unreachable status: {response.status_code}")
-
         return None
 
-    async def generate_release(
-        self, version: str, update_available: bool = True, overrides: dict[str, str] | None = None
+    async def update_release(
+        self,
+        version: str,
+        existing_release: GTNHRelease,
+        update_available: bool = True,
+        overrides: dict[str, str] | None = None,
+        exclude: set[str] | None = None,
+        new_mods: set[str] | None = None,
+        last_version: str | None = None,
     ) -> GTNHRelease:
+        """
+        Updates a release
+        :param version: Version of the release we're updating to
+        :param existing_release: Existing release we're updating from
+        :param update_available: Should we update assets first?
+        :param overrides: Overrides for (mod_name, version) instead of pulling latest
+        :param exclude: List of mod names to exclude from update checks -- keep the existing version
+        :param new_mods: New mods to be included in this release
+        :param last_version: Optional last version - used generally when rolling a nightly forward after a new modpack release
+        :return: The generated release
+        """
         if update_available:
             log.info("Updating assets")
             await self.update_all()
@@ -302,15 +318,33 @@ class GTNHModpackManager:
         if overrides:
             log.info(f"Using overrides: `{Fore.GREEN}{overrides}{Fore.RESET}`")
 
+        exclude = exclude or set()
+
+        if exclude:
+            log.info(f"Excluding update checks for `{Fore.GREEN}{exclude}{Fore.RESET}`")
+
         config = self.assets.config.latest_version
         github_mods: dict[str, str] = {}
         external_mods: dict[str, str] = {}
 
-        for is_github, mods in [(True, self.assets.github_mods), (False, self.assets.external_mods)]:
-            modmap = github_mods if is_github else external_mods
-            for mod in cast(list[Any], mods):
-                source_str = "[ Github Mod ]" if is_github else "[External Mod]"
+        def _add_mod(mod: GTNHModInfo) -> None:
+            modmap = external_mods if isinstance(mod, ExternalModInfo) else github_mods
+            modmap[mod.name] = mod.latest_version
 
+        for is_github, existing_mods in [(True, existing_release.github_mods), (False, existing_release.external_mods)]:
+            for mod_name, previous_version in existing_mods.items():
+                if mod_name in exclude:
+                    source_str = "[ Github Mod ]" if is_github else "[External Mod]"
+                    log.warn(
+                        f"{source_str} Mod `{Fore.CYAN}{mod_name}{Fore.RESET}` is excluded from update check, "
+                        f"keeping existing version {Fore.YELLOW}{previous_version}{Fore.RESET}"
+                    )
+                    modmap = github_mods if is_github else external_mods
+                    modmap[mod_name] = previous_version
+                    continue
+
+                mod = self.assets.get_mod(mod_name)
+                source_str = "[ Github Mod ]" if not isinstance(mod, ExternalModInfo) else "[External Mod]"
                 if mod.disabled:
                     log.warn(f"{source_str} Mod `{Fore.CYAN}{mod.name}{Fore.RESET}` is disabled, skipping")
                     continue
@@ -329,14 +363,24 @@ class GTNHModpackManager:
                 log.info(
                     f"{source_str} Using `{Fore.CYAN}{mod.name}{Fore.RESET}:{Fore.YELLOW}{mod_version}{Fore.RESET}{overide_str}"
                 )
-                modmap[mod.name] = mod.latest_version
+                _add_mod(mod)
+
+        for mod_name in new_mods or []:
+            mod = self.assets.get_mod(mod_name)
+            _add_mod(mod)
 
         duplicate_mods = github_mods.keys() & external_mods.keys()
 
         if duplicate_mods:
             raise InvalidReleaseException(f"Duplicate Mods: {duplicate_mods}")
 
-        return GTNHRelease(version=version, config=config, github_mods=github_mods, external_mods=external_mods)
+        return GTNHRelease(
+            version=version,
+            config=config,
+            github_mods=github_mods,
+            external_mods=external_mods,
+            last_version=last_version or existing_release.last_version,
+        )
 
     def delete_release(self, release_name: str) -> None:
         release = self.get_release(release_name)
@@ -638,14 +682,15 @@ class GTNHModpackManager:
 
         if new_mods:
             changelog["new_mods"].append("# New Mods: ")
-            changelog["new_mods"].extend([f"> {mod_name}" for mod_name in new_mods])
+            changelog["new_mods"].extend([f"> * {mod_name}" for mod_name in sorted(new_mods)])
 
         if removed_mods:
             changelog["removed_mods"].append("# Mods Removed: ")
-            changelog["removed_mods"].extend([f"> {mod_name}" for mod_name in removed_mods])
+            changelog["removed_mods"].extend([f"> * {mod_name}" for mod_name in sorted(removed_mods)])
 
         # Changes
-        for mod_name, (old_version, new_version) in version_changes.items():
+        for mod_name in sorted(version_changes.keys()):
+            (old_version, new_version) = version_changes[mod_name]
             if old_version == new_version:
                 continue
 
@@ -660,7 +705,10 @@ class GTNHModpackManager:
                 old_version_str = f"{old_version} -->" if old_version else ""
                 changes.append(f"# Updated - {mod_name} - {old_version_str}{new_version}")
 
-            for version in reversed(mod_versions):
+            for i, version in enumerate(reversed(mod_versions)):
+                if i != 0 and version.prerelease:
+                    # Only include prerelease changes if it's the latest release
+                    continue
                 if version.changelog:
                     changes.append(f"## *{version.version_tag}*\n" + blockquote(version.changelog) + "\n")
                 elif include_no_changelog:
