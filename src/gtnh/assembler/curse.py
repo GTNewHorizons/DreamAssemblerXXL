@@ -1,7 +1,7 @@
 import shutil
 from json import dump, loads
 from pathlib import Path
-from typing import Any, Callable, Dict, List, Optional, Tuple, Set
+from typing import Any, Callable, Dict, List, Optional, Tuple
 from zipfile import ZipFile
 
 from colorama import Fore
@@ -9,7 +9,7 @@ from structlog import get_logger
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
-from gtnh.defs import CACHE_DIR, RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side
+from gtnh.defs import CACHE_DIR, RELEASE_CURSE_DIR, ROOT_DIR, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
@@ -18,7 +18,8 @@ from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
 
-def is_valid_curse_mod(mod: GTNHModInfo|ExternalModInfo, version:GTNHVersion)-> bool:
+
+def is_valid_curse_mod(mod: GTNHModInfo | ExternalModInfo, version: GTNHVersion) -> bool:
     """
      Returns whether or not a given mod is a valid curse mod or not.
 
@@ -38,11 +39,11 @@ def is_valid_curse_mod(mod: GTNHModInfo|ExternalModInfo, version:GTNHVersion)-> 
     try:
         int(version.browser_download_url.split("/")[-1])
         return True
-    except:
+    except ValueError:
         return False
 
 
-def is_mod_from_hidden_repo(mod: GTNHModInfo|ExternalModInfo) -> bool:
+def is_mod_from_hidden_repo(mod: GTNHModInfo | ExternalModInfo) -> bool:
     """
     Returns whether or not a given mod is from a private github repo.
 
@@ -54,7 +55,8 @@ def is_mod_from_hidden_repo(mod: GTNHModInfo|ExternalModInfo) -> bool:
 
     return mod.private
 
-def is_mod_from_github(mod: GTNHModInfo|ExternalModInfo) -> bool:
+
+def is_mod_from_github(mod: GTNHModInfo | ExternalModInfo) -> bool:
     """
     Returns wheter or not a given mod is from github.
 
@@ -62,6 +64,7 @@ def is_mod_from_github(mod: GTNHModInfo|ExternalModInfo) -> bool:
     :return: true if it's from github
     """
     return isinstance(mod, GTNHModInfo)
+
 
 class CurseAssembler(GenericAssembler):
     """
@@ -125,15 +128,13 @@ class CurseAssembler(GenericAssembler):
             archive.write(self.overrides, arcname="overrides/overrides.png")
             archive.write(self.overrideslash, arcname="overrides/overrideslash.png")
 
-            valid_sides: Set[Side] = {side, Side.BOTH}
-
-            mods_to_override: List[GTNHModInfo|ExternalModInfo, GTNHVersion] = [(mod, version)
-                                                                                for mod, version in self.get_mods(side)
-                                                                                if is_mod_from_github(mod)]
+            mods_to_override: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = [
+                (mod, version) for mod, version in self.get_mods(side) if is_mod_from_github(mod)
+            ]
             log.info("Adding github mods in the archive")  # if curse reject the archive because reasons, we will have
-                                                           # to find an alternative for that, as downloading the files
-                                                           # hosted on github from the deploader will get the players
-                                                           # rate limited and the deploader will receive 403 http errors
+            # to find an alternative for that, as downloading the files
+            # hosted on github from the deploader will get the players
+            # rate limited and the deploader will receive 403 http errors
             for mod, version in mods_to_override:
                 source_file: Path = get_asset_version_cache_location(mod, version)
                 archive_path: Path = self.overrides_folder / "mods" / source_file.name
@@ -180,10 +181,7 @@ class CurseAssembler(GenericAssembler):
         version: GTNHVersion
         dep_json: List[Dict[str, str]] = []
         for mod, version in mod_list:
-            if (
-                    not is_valid_curse_mod(mod, version) and
-                    not is_mod_from_github(mod)
-            ):
+            if not is_valid_curse_mod(mod, version) and not is_mod_from_github(mod):
 
                 url: Optional[str] = version.download_url
                 assert url
@@ -232,15 +230,15 @@ class CurseAssembler(GenericAssembler):
         for mod, version in self.get_mods(side):
 
             if is_valid_curse_mod(mod, version):
-
-                    data: Dict[str, Any] = {
-                        "projectID": int(mod.project_id),
-                        "fileID": int(version.browser_download_url.split("/")[-1]),  # hacky af but i don't want to go
-                        # in the process of readding them all by hand while the data is still stored somewhere
-                        # else in the metadata
-                        "required": True,
-                    }
-                    metadata_object["files"].append(data)
+                # ignoring mypy errors here because it's all good in the check above
+                data: Dict[str, Any] = {
+                    "projectID": int(mod.project_id),  # type: ignore
+                    # hacky af but i don't want to go in the process of readding them all by hand while the data is
+                    # still stored somewhere else in the metadata
+                    "fileID": int(version.browser_download_url.split("/")[-1]),  # type: ignore
+                    "required": True,
+                }
+                metadata_object["files"].append(data)
 
         with open(self.tempfile, "w") as temp:
             dump(metadata_object, temp, indent=2)
