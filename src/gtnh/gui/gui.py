@@ -2,12 +2,14 @@ import asyncio
 from pathlib import Path
 from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
 from tkinter.messagebox import showerror, showinfo
-from typing import Any, Callable, Dict, List, Optional, Union
+from typing import Any, Callable, Dict, List, Optional, Set, Tuple, Union
 
 import httpx
+from colorama import Fore
+from structlog import get_logger
 
 from gtnh.assembler.assembler import ReleaseAssembler
-from gtnh.defs import Archive, Position, Side
+from gtnh.defs import Archive, ModSource, Position, Side
 from gtnh.exceptions import NoModAssetFound, ReleaseNotFoundException
 from gtnh.gui.exclusion_frame import ExclusionFrame
 from gtnh.gui.external_mod_frame import ExternalModFrame
@@ -15,7 +17,11 @@ from gtnh.gui.github_mod_frame import GithubModFrame
 from gtnh.gui.modpack_frame import ModpackFrame
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
+from gtnh.models.gtnh_version import GTNHVersion
+from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
+
+logger = get_logger(__name__)
 
 ASYNC_SLEEP: float = 0.05
 ICON: Path = Path(__file__).parent.parent.parent.parent / "icon.png"
@@ -362,6 +368,13 @@ class Window(Tk):
                 f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details",
             )
 
+        if side == Side.NONE and mod_name in self.github_mods:
+            del self.github_mods[mod_name]
+
+        if side != Side.NONE and mod_name not in self.github_mods:
+            # dirty hack to add the mod back if it's switched from disabled to something else
+            self.github_mods[mod_name] = self.github_mod_frame.mod_info_frame.sv_version.get()
+
     async def set_external_mod_side(self, mod_name: str, side: str) -> None:
         """
         Method used to set the side of an external mod.
@@ -376,6 +389,13 @@ class Window(Tk):
                 "Error setting up the side of the mod",
                 f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details",
             )
+
+        if side == Side.NONE and mod_name in self.external_mods:
+            del self.external_mods[mod_name]
+
+        if side != Side.NONE and mod_name not in self.external_mods:
+            # dirty hack to add the mod back if it's switched from disabled to something else
+            self.external_mods[mod_name] = self.external_mod_frame.mod_info_frame.sv_version.get()
 
     def set_github_mod_version(self, github_mod_name: str, mod_version: str) -> None:
         """
@@ -528,11 +548,13 @@ class Window(Tk):
             release_object = release
 
         if release_object is not None:
+            release_object = await self.strip_disabled_mods(release_object)
             self.github_mods = release_object.github_mods
             self.gtnh_config = release_object.config
             self.external_mods = release_object.external_mods
             self.version = release_object.version
             self.last_version = release_object.last_version
+            logger.info(f"Loaded pack version {Fore.CYAN}{release_object.version}{Fore.RESET} in memory.")
         else:
             showerror("incorrect version detected", f"modpack version {release} doesn't exist")
             return
@@ -542,6 +564,55 @@ class Window(Tk):
         else:
             # display the loaded version at boot
             self.modpack_list_frame.modpack_list.set_loaded_version(self.version)
+
+    async def strip_disabled_mods(self, release: GTNHRelease) -> GTNHRelease:
+        """
+        Method used to strip the disabled mods from any release improperly generated during its loading.
+
+        :param gtnh_modpack: the modpack manager instance. It is passed externally to make this function synced
+        :return: the release with the stripped disabled mods
+        """
+        # todo: create a new instance for release object and edit it instead, because mutating args is bad mkay?
+        mod_name: str
+        version: str
+        gtnh_modpack: GTNHModpackManager = await self._get_modpack_manager()
+        github_mods: Dict[str, str] = release.github_mods
+        external_mods: Dict[str, str] = release.external_mods
+        valid_side: Set[Side] = {Side.NONE}
+        github_mods_to_delete: List[str] = []
+        external_mods_to_delete: List[str] = []
+        mod_data: Optional[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = None
+        for mod_name, version in github_mods.items():
+            mod_data = gtnh_modpack.assets.get_mod_and_version(
+                mod_name, version, valid_sides=valid_side, source=ModSource.github
+            )
+            if mod_data is not None:
+                logger.warn(
+                    f"{Fore.YELLOW}Release {release.version} had github mod {mod_name}"
+                    " in its manifest but it is disabled. Stripping it from memory.{Fore.RESET}"
+                )
+                github_mods_to_delete.append(mod_name)
+
+        for mod_name in github_mods_to_delete:
+            del github_mods[mod_name]
+
+        for mod_name, version in external_mods.items():
+            mod_data = gtnh_modpack.assets.get_mod_and_version(
+                mod_name, version, valid_sides=valid_side, source=ModSource.other
+            )
+            if mod_data is not None:
+                logger.warn(
+                    f"{Fore.YELLOW}Release {self.version} had external mod {mod_name}"
+                    "in its manifest but it is disabled. Stripping it from memory.{Fore.RESET}"
+                )
+                external_mods_to_delete.append(mod_name)
+
+        for mod_name in external_mods_to_delete:
+            del external_mods[mod_name]
+
+        release.github_mods = github_mods
+        release.external_mods = external_mods
+        return release
 
     async def add_gtnh_version(self, release_name: str, previous_version: str) -> None:
         """
