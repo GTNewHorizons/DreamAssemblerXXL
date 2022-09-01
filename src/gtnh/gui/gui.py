@@ -213,9 +213,11 @@ class Window(Tk):
             assembler_dict[archive_type](side=side, verbose=True)  # type: ignore
             self.trigger_toggle()
         except BaseException as e:
-            showerror(f"An error occured during the assembling {side} {archive_type} archive",
-                      f"An error occurended during the assembling {side} {archive_type} archive."
-                      "\n Please check the logs for more information")
+            showerror(
+                f"An error occured during the assembling {side} {archive_type} archive",
+                f"An error occurended during the assembling {side} {archive_type} archive."
+                "\n Please check the logs for more information",
+            )
             if self.toggled:
                 self.trigger_toggle()
             raise e
@@ -306,9 +308,11 @@ class Window(Tk):
             self.trigger_toggle()
 
         except BaseException as e:
-            showerror("An error occured during the update of the assembling of the archives",
-                      "An error occurended during the update of the assembling of the archives."
-                      "\n Please check the logs for more information")
+            showerror(
+                "An error occured during the update of the assembling of the archives",
+                "An error occurended during the update of the assembling of the archives."
+                "\n Please check the logs for more information",
+            )
             if self.toggled:
                 self.trigger_toggle()
             raise e
@@ -501,9 +505,10 @@ class Window(Tk):
             self.trigger_toggle()
             showinfo("assets updated successfully!", "all the assets have been updated correctly!")
         except BaseException as e:
-            showerror("An error occured during the update of the assets",
-                      "An error occurended during the update of the assets."
-                      "\n Please check the logs for more information")
+            showerror(
+                "An error occured during the update of the assets",
+                "An error occurended during the update of the assets." "\n Please check the logs for more information",
+            )
             if self.toggled:
                 self.trigger_toggle()
             raise e
@@ -530,9 +535,11 @@ class Window(Tk):
             self.trigger_toggle()
             showinfo("updated the nightly release metadata", "The nightly release metadata had been updated!")
         except BaseException as e:
-            showerror("An error occured during the update of the nightly build",
-                      "An error occurended during the update of the nightly build."
-                      "\n Please check the logs for more information")
+            showerror(
+                "An error occured during the update of the nightly build",
+                "An error occurended during the update of the nightly build."
+                "\n Please check the logs for more information",
+            )
             if self.toggled:
                 self.trigger_toggle()
             raise e
