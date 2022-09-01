@@ -198,19 +198,27 @@ class Window(Tk):
         """
         global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.update_global_progress_bar
 
-        self.set_progress(100 / 2)
-        self.trigger_toggle()
-        release_assembler: ReleaseAssembler = await self.pre_assembling()
-        assembler_dict: Dict[Archive, Callable[[Side, bool], None]] = {
-            Archive.ZIP: release_assembler.assemble_zip,
-            Archive.MMC: release_assembler.assemble_mmc,
-            Archive.MODRINTH: release_assembler.assemble_modrinth,
-            Archive.CURSEFORGE: release_assembler.assemble_curse,
-            Archive.TECHNIC: release_assembler.assemble_technic,
-        }
-        global_callback(self.get_progress(), f"Assembling {side} {archive_type} archive")
-        assembler_dict[archive_type](side=side, verbose=True)  # type: ignore
-        self.trigger_toggle()
+        try:
+            self.set_progress(100 / 2)
+            self.trigger_toggle()
+            release_assembler: ReleaseAssembler = await self.pre_assembling()
+            assembler_dict: Dict[Archive, Callable[[Side, bool], None]] = {
+                Archive.ZIP: release_assembler.assemble_zip,
+                Archive.MMC: release_assembler.assemble_mmc,
+                Archive.MODRINTH: release_assembler.assemble_modrinth,
+                Archive.CURSEFORGE: release_assembler.assemble_curse,
+                Archive.TECHNIC: release_assembler.assemble_technic,
+            }
+            global_callback(self.get_progress(), f"Assembling {side} {archive_type} archive")
+            assembler_dict[archive_type](side=side, verbose=True)  # type: ignore
+            self.trigger_toggle()
+        except BaseException as e:
+            showerror(f"An error occured during the assembling {side} {archive_type} archive",
+                      f"An error occurended during the assembling {side} {archive_type} archive."
+                      "\n Please check the logs for more information")
+            if self.toggled:
+                self.trigger_toggle()
+            raise e
 
     async def pre_assembling(self) -> ReleaseAssembler:
         """
@@ -278,24 +286,32 @@ class Window(Tk):
         :return: None
         """
         global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.update_global_progress_bar
+        try:
+            self.trigger_toggle()
 
-        self.trigger_toggle()
+            self.set_progress(100 / (1 + 5 + 1))  # download + archives for client + archive for server
+            release_assembler: ReleaseAssembler = await self.pre_assembling()
 
-        self.set_progress(100 / (1 + 5 + 1))  # download + archives for client + archive for server
-        release_assembler: ReleaseAssembler = await self.pre_assembling()
+            release_assembler.set_progress(self.get_progress())
 
-        release_assembler.set_progress(self.get_progress())
+            release_assembler.assemble(Side.CLIENT, verbose=True)
 
-        release_assembler.assemble(Side.CLIENT, verbose=True)
+            # todo: redo the bar resets less hacky: they are all spread all over the place and it's inconsistent
+            if release_assembler.current_task_reset_callback is not None:
+                release_assembler.current_task_reset_callback()
 
-        # todo: redo the bar resets less hacky: they are all spread all over the place and it's inconsistent
-        if release_assembler.current_task_reset_callback is not None:
-            release_assembler.current_task_reset_callback()
+            global_callback(self.get_progress(), f"Assembling {Side.SERVER} {Archive.ZIP} archive")
+            release_assembler.assemble_zip(Side.SERVER, verbose=True)
 
-        global_callback(self.get_progress(), f"Assembling {Side.SERVER} {Archive.ZIP} archive")
-        release_assembler.assemble_zip(Side.SERVER, verbose=True)
+            self.trigger_toggle()
 
-        self.trigger_toggle()
+        except BaseException as e:
+            showerror("An error occured during the update of the assembling of the archives",
+                      "An error occurended during the update of the assembling of the archives."
+                      "\n Please check the logs for more information")
+            if self.toggled:
+                self.trigger_toggle()
+            raise e
 
     def set_progress(self, delta_progress: float) -> None:
         """
@@ -478,11 +494,19 @@ class Window(Tk):
         :return: None
         """
         # todo: add a callback to report progress
-        self.trigger_toggle()
-        gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        await gtnh.update_all()
-        self.trigger_toggle()
-        showinfo("assets updated successfully!", "all the assets have been updated correctly!")
+        try:
+            self.trigger_toggle()
+            gtnh: GTNHModpackManager = await self._get_modpack_manager()
+            await gtnh.update_all()
+            self.trigger_toggle()
+            showinfo("assets updated successfully!", "all the assets have been updated correctly!")
+        except BaseException as e:
+            showerror("An error occured during the update of the assets",
+                      "An error occurended during the update of the assets."
+                      "\n Please check the logs for more information")
+            if self.toggled:
+                self.trigger_toggle()
+            raise e
 
     async def update_nightly(self) -> None:
         """
@@ -491,19 +515,27 @@ class Window(Tk):
         :return: None
         """
         # todo: add a callback to report progress
-        self.trigger_toggle()
-        gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        existing_release = gtnh.get_release("nightly")
-        if not existing_release:
-            raise ReleaseNotFoundException("Nightly release not found")
+        try:
+            self.trigger_toggle()
+            gtnh: GTNHModpackManager = await self._get_modpack_manager()
+            existing_release = gtnh.get_release("nightly")
+            if not existing_release:
+                raise ReleaseNotFoundException("Nightly release not found")
 
-        release: GTNHRelease = await gtnh.update_release(
-            "nightly", existing_release=existing_release, update_available=True
-        )
-        gtnh.add_release(release, update=True)
-        gtnh.save_modpack()
-        self.trigger_toggle()
-        showinfo("updated the nightly release metadata", "The nightly release metadata had been updated!")
+            release: GTNHRelease = await gtnh.update_release(
+                "nightly", existing_release=existing_release, update_available=True
+            )
+            gtnh.add_release(release, update=True)
+            gtnh.save_modpack()
+            self.trigger_toggle()
+            showinfo("updated the nightly release metadata", "The nightly release metadata had been updated!")
+        except BaseException as e:
+            showerror("An error occured during the update of the nightly build",
+                      "An error occurended during the update of the nightly build."
+                      "\n Please check the logs for more information")
+            if self.toggled:
+                self.trigger_toggle()
+            raise e
 
     async def get_releases(self) -> List[GTNHRelease]:
         """
