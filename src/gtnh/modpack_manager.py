@@ -727,26 +727,11 @@ class GTNHModpackManager:
             log.warn(f"{Fore.YELLOW}{mod.name}'s side is already set to {side}{Fore.RESET}")
             return False
 
-        if side in [s.name for s in Side]:
-            mod.side = Side[side]
-            # idk a better way of doing this
-            index: int = 0
-            for i, elem in enumerate(self.assets.github_mods):
-                if elem.name != mod.name:
-                    continue
+        mod.side = Side[side]
+        self.save_assets()
 
-                index = i
-                break
-
-            self.assets.github_mods[index] = mod
-            self.save_assets()
-            self.assets = self.load_assets()  # doing that to update cached properties
-
-            log.info(f"{Fore.GREEN}Side of {mod.name} has been set to {mod.side}{Fore.RESET}")
-            return True
-        else:
-            log.error(f"Release `{Fore.RED}{mod_name} is not a github mod{Fore.RESET}")
-            return False
+        log.info(f"{Fore.GREEN}Side of {mod.name} has been set to {mod.side}{Fore.RESET}")
+        return True
 
     def set_external_mod_side(self, mod_name: str, side: str) -> bool:
         if self.assets.has_external_mod(mod_name):
@@ -759,26 +744,11 @@ class GTNHModpackManager:
             log.warn(f"{Fore.YELLOW}{mod.name}'s side is already set to {side}{Fore.RESET}")
             return False
 
-        if side in [s.name for s in Side]:
-            mod.side = Side[side]
-            # idk a better way of doing this
-            index: int = 0
-            for i, elem in enumerate(self.assets.external_mods):
-                if elem.name != mod.name:
-                    continue
+        mod.side = Side[side]
+        self.save_assets()
 
-                index = i
-                break
-
-            self.assets.external_mods[index] = mod
-            self.save_assets()
-            self.assets = self.load_assets()  # doing that to update cached properties
-
-            log.info(f"{Fore.GREEN}Side of {mod.name} has been set to {mod.side}{Fore.RESET}")
-            return True
-        else:
-            log.error(f"Release `{Fore.RED}{mod_name} is not an external mod{Fore.RESET}")
-            return False
+        log.info(f"{Fore.GREEN}Side of {mod.name} has been set to {mod.side}{Fore.RESET}")
+        return True
 
     def add_exclusion(self, side: str, exclusion: str) -> bool:
         if side == "client":
