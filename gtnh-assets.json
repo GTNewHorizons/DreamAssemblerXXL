@@ -236,7 +236,7 @@
     },
     {
       "name": "AE2FluidCraft-Rework",
-      "latest_version": "1.0.10-gtnh",
+      "latest_version": "1.0.11-gtnh",
       "versions": [
         {
           "version_tag": "1.0.0-gtnh",
@@ -321,6 +321,14 @@
           "filename": "ae2fc-1.7.10-1.0.10-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/76059658",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.10-gtnh/ae2fc-1.7.10-1.0.10-gtnh.jar"
+        },
+        {
+          "version_tag": "1.0.11-gtnh",
+          "changelog": "## What's Changed\n* fix int overflow in fluid storage cell by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/13\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.10-gtnh...1.0.11-gtnh",
+          "tagged_at": "2022-09-01T10:40:39+00:00",
+          "filename": "ae2fc-1.7.10-1.0.11-gtnh.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/76537559",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.11-gtnh/ae2fc-1.7.10-1.0.11-gtnh.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -511,7 +519,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-102-GTNH",
+      "latest_version": "rv3-beta-103-GTNH",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -796,6 +804,14 @@
           "filename": "appliedenergistics2-1.7.10-rv3-beta-102-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/76229656",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-102-GTNH/appliedenergistics2-1.7.10-rv3-beta-102-GTNH.jar"
+        },
+        {
+          "version_tag": "rv3-beta-103-GTNH",
+          "changelog": "## What's Changed\n* change Inscriber recipe match with forming press by @Dream-Master in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/174\n* Fix potential missed updates in the level emitter. by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/173\n\n## New Contributors\n* @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/174\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-102-GTNH...rv3-beta-103-GTNH",
+          "tagged_at": "2022-09-01T11:00:35+00:00",
+          "filename": "appliedenergistics2-1.7.10-rv3-beta-103-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/76539688",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-103-GTNH/appliedenergistics2-1.7.10-rv3-beta-103-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -2575,7 +2591,7 @@
     },
     {
       "name": "CodeChickenCore",
-      "latest_version": "1.1.5",
+      "latest_version": "1.1.6",
       "versions": [
         {
           "version_tag": "1.1.0",
@@ -2618,6 +2634,14 @@
           "filename": "CodeChickenCore-1.7.10-1.1.5.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CodeChickenCore/releases/assets/57173267",
           "browser_download_url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.1.5/CodeChickenCore-1.7.10-1.1.5.jar"
+        },
+        {
+          "version_tag": "1.1.6",
+          "changelog": "## What's Changed\n* remove @InterfaceDependancyTransformer by @Glease in https://github.com/GTNewHorizons/CodeChickenCore/pull/8\n\n## New Contributors\n* @Glease made their first contribution in https://github.com/GTNewHorizons/CodeChickenCore/pull/8\n\n**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.1.5...1.1.6",
+          "tagged_at": "2022-08-31T14:34:52+00:00",
+          "filename": "CodeChickenCore-1.7.10-1.1.6.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CodeChickenCore/releases/assets/76434132",
+          "browser_download_url": "https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.1.6/CodeChickenCore-1.7.10-1.1.6.jar"
         }
       ],
       "license": "MIT License.",
@@ -2626,7 +2650,7 @@
     },
     {
       "name": "CodeChickenLib",
-      "latest_version": "1.1.5.4",
+      "latest_version": "1.1.5.5",
       "versions": [
         {
           "version_tag": "1.1.4.1",
@@ -2669,6 +2693,14 @@
           "filename": "CodeChickenLib-1.7.10-1.1.5.4.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CodeChickenLib/releases/assets/68702014",
           "browser_download_url": "https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.1.5.4/CodeChickenLib-1.7.10-1.1.5.4.jar"
+        },
+        {
+          "version_tag": "1.1.5.5",
+          "changelog": "## What's Changed\n* Fix NPE by @DrParadox7 in https://github.com/GTNewHorizons/CodeChickenLib/pull/6\n\n## New Contributors\n* @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/CodeChickenLib/pull/6\n\n**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenLib/compare/1.1.5.4...1.1.5.5",
+          "tagged_at": "2022-08-30T20:00:30+00:00",
+          "filename": "CodeChickenLib-1.7.10-1.1.5.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CodeChickenLib/releases/assets/76343564",
+          "browser_download_url": "https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.1.5.5/CodeChickenLib-1.7.10-1.1.5.5.jar"
         }
       ],
       "license": "GNU Lesser General Public License v2.1.",
@@ -2700,7 +2732,7 @@
     },
     {
       "name": "Computronics",
-      "latest_version": "1.6.14-GTNH",
+      "latest_version": "1.6.15-GTNH",
       "versions": [
         {
           "version_tag": "1.6.10",
@@ -2743,6 +2775,14 @@
           "filename": "Computronics-1.7.10-1.6.14-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Computronics/releases/assets/70959041",
           "browser_download_url": "https://github.com/GTNewHorizons/Computronics/releases/download/1.6.14-GTNH/Computronics-1.7.10-1.6.14-GTNH.jar"
+        },
+        {
+          "version_tag": "1.6.15-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.6.14-GTNH...1.6.15-GTNH",
+          "tagged_at": "2022-08-30T20:10:42+00:00",
+          "filename": "Computronics-1.7.10-1.6.15-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Computronics/releases/assets/76344479",
+          "browser_download_url": "https://github.com/GTNewHorizons/Computronics/releases/download/1.6.15-GTNH/Computronics-1.7.10-1.6.15-GTNH.jar"
         }
       ],
       "license": "MIT License.",
@@ -3747,7 +3787,7 @@
     },
     {
       "name": "EnderZoo",
-      "latest_version": "1.9.20",
+      "latest_version": "1.0.23",
       "versions": [
         {
           "version_tag": "1.0.16",
@@ -3797,13 +3837,6 @@
           "filename": "EnderZoo-1.7.10-1.0.23.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderZoo/releases/assets/56698392",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderZoo/releases/download/1.0.23/EnderZoo-1.7.10-1.0.23.jar"
-        },
-        {
-          "version_tag": "1.9.20",
-          "tagged_at": "2021-11-24T20:55:42",
-          "filename": "EnderZoo-1.7.10-1.9.20.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderZoo/releases/assets/50246576",
-          "browser_download_url": "https://github.com/GTNewHorizons/EnderZoo/releases/download/untagged-681c7994d855a6e3888d/EnderZoo-1.7.10-1.9.20.jar"
         }
       ],
       "license": "CC0 1.0 Universal Public Domain Dedication.",
@@ -4042,7 +4075,7 @@
     },
     {
       "name": "FindIt",
-      "latest_version": "1.0.9",
+      "latest_version": "1.0.10",
       "versions": [
         {
           "version_tag": "1.0.3",
@@ -4094,6 +4127,14 @@
           "filename": "findit-1.7.10-1.0.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/FindIt/releases/assets/75567658",
           "browser_download_url": "https://github.com/GTNewHorizons/FindIt/releases/download/1.0.9/findit-1.7.10-1.0.9.jar"
+        },
+        {
+          "version_tag": "1.0.10",
+          "changelog": "## What's Changed\n* findit/util/AbstractStackFinder: Add check for whether NEI Search is focused by @firenoo in https://github.com/GTNewHorizons/FindIt/pull/8\n\n## New Contributors\n* @firenoo made their first contribution in https://github.com/GTNewHorizons/FindIt/pull/8\n\n**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.0.8...1.0.10",
+          "tagged_at": "2022-08-31T13:38:13+00:00",
+          "filename": "findit-1.7.10-1.0.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/FindIt/releases/assets/76429094",
+          "browser_download_url": "https://github.com/GTNewHorizons/FindIt/releases/download/1.0.10/findit-1.7.10-1.0.10.jar"
         }
       ],
       "license": "MIT License.",
@@ -4613,7 +4654,7 @@
     },
     {
       "name": "Galaxy-Space-GTNH",
-      "latest_version": "1.1.16k-GTNH",
+      "latest_version": "1.1.16o-pre",
       "private": true,
       "versions": [
         {
@@ -4737,6 +4778,38 @@
           "filename": "GalaxySpace-1.7.10-1.1.16k-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/75293587",
           "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.16k-GTNH/GalaxySpace-1.7.10-1.1.16k-GTNH.jar"
+        },
+        {
+          "version_tag": "1.1.16l-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.16k-GTNH...1.1.16l-GTNH-pre",
+          "tagged_at": "2022-08-31T12:06:02+00:00",
+          "filename": "GalaxySpace-1.7.10-1.1.16l-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/76420761",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.16l-GTNH-pre/GalaxySpace-1.7.10-1.1.16l-GTNH-pre.jar"
+        },
+        {
+          "version_tag": "1.1.16m-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.16l-GTNH-pre...1.1.16m-pre",
+          "tagged_at": "2022-08-31T12:06:32+00:00",
+          "filename": "GalaxySpace-1.7.10-1.1.16m-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/76420790",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.16m-pre/GalaxySpace-1.7.10-1.1.16m-pre.jar"
+        },
+        {
+          "version_tag": "1.1.16n-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.16l-GTNH-pre...1.1.16n-pre",
+          "tagged_at": "2022-08-31T12:06:05+00:00",
+          "filename": "GalaxySpace-1.7.10-1.1.16n-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/76420763",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.16n-pre/GalaxySpace-1.7.10-1.1.16n-pre.jar"
+        },
+        {
+          "version_tag": "1.1.16o-pre",
+          "changelog": "## What's Changed\n* Fix \"dimension provider\" crash by @miozune in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/43\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.16k-GTNH...1.1.16o-pre",
+          "tagged_at": "2022-08-31T13:31:50+00:00",
+          "filename": "GalaxySpace-1.7.10-1.1.16o-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/76428515",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.16o-pre/GalaxySpace-1.7.10-1.1.16o-pre.jar"
         }
       ],
       "license": "Explicit Permission.",
@@ -5042,7 +5115,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.41.20-pre",
+      "latest_version": "5.09.41.23",
       "versions": [
         {
           "version_tag": "5.09.40.01",
@@ -5958,6 +6031,30 @@
           "filename": "gregtech-1.7.10-5.09.41.20-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/76343099",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.20-pre/gregtech-1.7.10-5.09.41.20-pre.jar"
+        },
+        {
+          "version_tag": "5.09.41.21-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.20-pre...5.09.41.21-pre",
+          "tagged_at": "2022-08-30T21:19:10+00:00",
+          "filename": "gregtech-1.7.10-5.09.41.21-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/76349815",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.21-pre/gregtech-1.7.10-5.09.41.21-pre.jar"
+        },
+        {
+          "version_tag": "5.09.41.22-pre",
+          "changelog": "## What's Changed\n* Spotless apply for branch SI-change for #1323 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1325\n* Two slots wiremill by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1324\n* Spotless apply for branch Sodium-Potassium for #1322 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1328\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.21-pre...5.09.41.22-pre",
+          "tagged_at": "2022-08-31T13:33:56+00:00",
+          "filename": "gregtech-1.7.10-5.09.41.22-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/76428688",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.22-pre/gregtech-1.7.10-5.09.41.22-pre.jar"
+        },
+        {
+          "version_tag": "5.09.41.23",
+          "changelog": "## What's Changed\n* Two slots wiremill by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1324\n* Change AE processor recipes to use SIsg by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1323\n* Sodium potassium by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1322\n* Digitalize Super Tank part 2 by @Quarri6343 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1331\n* clean up output hatch lock code by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1321\n* impl(covers): functional covers uses machine casing by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1317\n* various loading time optimization by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1330\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.18...5.09.41.23",
+          "tagged_at": "2022-09-01T11:27:55+00:00",
+          "filename": "gregtech-1.7.10-5.09.41.23.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/76543800",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.23/gregtech-1.7.10-5.09.41.23.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -6033,7 +6130,7 @@
     },
     {
       "name": "GTNH-Lanthanides",
-      "latest_version": "0.9.14",
+      "latest_version": "0.9.15",
       "versions": [
         {
           "version_tag": "0.8.1",
@@ -6205,6 +6302,14 @@
           "filename": "gtnhlanth-1.7.10-0.9.14.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/75324291",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.9.14/gtnhlanth-1.7.10-0.9.14.jar"
+        },
+        {
+          "version_tag": "0.9.15",
+          "changelog": "## What's Changed\n* Cleanup checkRecipe by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/30\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.9.14...0.9.15",
+          "tagged_at": "2022-09-01T10:40:31+00:00",
+          "filename": "gtnhlanth-1.7.10-0.9.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/76537537",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.9.15/gtnhlanth-1.7.10-0.9.15.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -6278,7 +6383,7 @@
     },
     {
       "name": "GTNHLib",
-      "latest_version": "0.0.1",
+      "latest_version": "0.0.2",
       "versions": [
         {
           "version_tag": "0.0.1",
@@ -6287,6 +6392,14 @@
           "filename": "gtnhlib-1.7.10-0.0.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/74631542",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.0.1/gtnhlib-1.7.10-0.0.1.jar"
+        },
+        {
+          "version_tag": "0.0.2",
+          "changelog": "## What's Changed\n* Implement some useful optional features to make this faster by @Glease in https://github.com/GTNewHorizons/GTNHLib/pull/3\n\n## New Contributors\n* @Glease made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/3\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.0.1...0.0.2",
+          "tagged_at": "2022-09-01T11:00:25+00:00",
+          "filename": "gtnhlib-1.7.10-0.0.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/76539671",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.0.2/gtnhlib-1.7.10-0.0.2.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -6295,7 +6408,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.7.81",
+      "latest_version": "1.7.84",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -6736,6 +6849,30 @@
           "filename": "GT-PlusPlus-1.7.10-1.7.81.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76293458",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.81/GT-PlusPlus-1.7.10-1.7.81.jar"
+        },
+        {
+          "version_tag": "1.7.82-pre",
+          "changelog": "## What's Changed\n* Spotless apply for branch gt_pump_cover for #327 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/328\n* a less buggy and more performant canBufferOutput implementation for fluid management by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/317\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.81...1.7.82-pre",
+          "tagged_at": "2022-08-30T20:07:56+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.82-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76344315",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.82-pre/GT-PlusPlus-1.7.10-1.7.82-pre.jar"
+        },
+        {
+          "version_tag": "1.7.83",
+          "changelog": "## What's Changed\n* a less buggy and more performant canBufferOutput implementation for fluid management by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/317\n* Remove Railcraft asm as we have the source code now by @eigenraven in https://github.com/GTNewHorizons/GTplusplus/pull/332\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.81...1.7.83",
+          "tagged_at": "2022-08-31T13:53:50+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.83.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76430309",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.83/GT-PlusPlus-1.7.10-1.7.83.jar"
+        },
+        {
+          "version_tag": "1.7.84",
+          "changelog": "## What's Changed\n* a less buggy and more performant canBufferOutput implementation for fluid management by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/317\n* Remove Railcraft asm as we have the source code now by @eigenraven in https://github.com/GTNewHorizons/GTplusplus/pull/332\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.81...1.7.84",
+          "tagged_at": "2022-09-01T11:00:03+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.84.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76539613",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.84/GT-PlusPlus-1.7.10-1.7.84.jar"
         }
       ],
       "license": "GNU General Public License v3.0.",
@@ -6866,7 +7003,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "1.7.13",
+      "latest_version": "1.7.15-pre",
       "versions": [
         {
           "version_tag": "v1.2.0",
@@ -7074,6 +7211,22 @@
           "filename": "hodgepodge-1.7.10-1.7.13.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/75913276",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/1.7.13/hodgepodge-1.7.10-1.7.13.jar"
+        },
+        {
+          "version_tag": "1.7.14-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/1.7.13...1.7.14-pre",
+          "tagged_at": "2022-08-31T14:00:13+00:00",
+          "filename": "hodgepodge-1.7.10-1.7.14-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/76430985",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/1.7.14-pre/hodgepodge-1.7.10-1.7.14-pre.jar"
+        },
+        {
+          "version_tag": "1.7.15-pre",
+          "changelog": "## What's Changed\n* Spotless apply for branch feature/loading-time-optimize for #89 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/90\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/1.7.14-pre...1.7.15-pre",
+          "tagged_at": "2022-08-31T14:00:17+00:00",
+          "filename": "hodgepodge-1.7.10-1.7.15-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/76431001",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/1.7.15-pre/hodgepodge-1.7.10-1.7.15-pre.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -8669,7 +8822,7 @@
     },
     {
       "name": "NaturesCompass",
-      "latest_version": "1.3.2-GTNH",
+      "latest_version": "1.3.3-GTNH",
       "versions": [
         {
           "version_tag": "1.3.2-GTNH",
@@ -8677,6 +8830,14 @@
           "filename": "naturescompass-1.7.10-1.3.2-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NaturesCompass/releases/assets/70738220",
           "browser_download_url": "https://github.com/GTNewHorizons/NaturesCompass/releases/download/1.3.2-GTNH/naturescompass-1.7.10-1.3.2-GTNH.jar"
+        },
+        {
+          "version_tag": "1.3.3-GTNH",
+          "changelog": "## What's Changed\n* backport search bar and lag free search method by @bjin2000 in https://github.com/GTNewHorizons/NaturesCompass/pull/2\n\n## New Contributors\n* @bjin2000 made their first contribution in https://github.com/GTNewHorizons/NaturesCompass/pull/2\n\n**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.3.2-GTNH...1.3.3-GTNH",
+          "tagged_at": "2022-09-01T10:41:02+00:00",
+          "filename": "naturescompass-1.7.10-1.3.3-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NaturesCompass/releases/assets/76537606",
+          "browser_download_url": "https://github.com/GTNewHorizons/NaturesCompass/releases/download/1.3.3-GTNH/naturescompass-1.7.10-1.3.3-GTNH.jar"
         }
       ],
       "license": "All Rights Reserved (fallback)",
@@ -8828,7 +8989,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "1.9.62-pre",
+      "latest_version": "1.9.65",
       "versions": [
         {
           "version_tag": "1.9.11",
@@ -9203,6 +9364,30 @@
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.62-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76343222",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.62-pre/GTNewHorizonsCoreMod-1.7.10-1.9.62-pre.jar"
+        },
+        {
+          "version_tag": "1.9.63-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.62-pre...1.9.63-pre",
+          "tagged_at": "2022-08-30T21:13:26+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.63-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76349282",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.63-pre/GTNewHorizonsCoreMod-1.7.10-1.9.63-pre.jar"
+        },
+        {
+          "version_tag": "1.9.64-pre",
+          "changelog": "## What's Changed\n* add two slots to wiremil by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/403\n* add a Diode recipe using Wafer and Tantalum wire by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/399\n* add recipes from script to core mod by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/396\n* removed unused item recipe from Netherstarfragment by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/401\n* Put bio ball recipes to code by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/397\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.63-pre...1.9.64-pre",
+          "tagged_at": "2022-08-31T13:34:10+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.64-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76428719",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.64-pre/GTNewHorizonsCoreMod-1.7.10-1.9.64-pre.jar"
+        },
+        {
+          "version_tag": "1.9.65",
+          "changelog": "## What's Changed\n* add two slots to wiremil by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/403\n* add a Diode recipe using Wafer and Tantalum wire by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/399\n* add recipes from script to core mod by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/396\n* removed unused item recipe from Netherstarfragment by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/401\n* Put bio ball recipes to code by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/397\n* change Si to Sisg by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/402\n* Sodium potassium by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/398\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.61...1.9.65",
+          "tagged_at": "2022-09-01T10:58:13+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.65.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76539378",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.65/GTNewHorizonsCoreMod-1.7.10-1.9.65.jar"
         }
       ],
       "license": "GNU General Public License v3.0.",
@@ -9307,7 +9492,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.2.32-GTNH",
+      "latest_version": "2.2.334-GTNH",
       "versions": [
         {
           "version_tag": "v2.0.0",
@@ -9792,6 +9977,22 @@
           "filename": "NotEnoughItems-1.7.10-2.2.32-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76059621",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.32-GTNH/NotEnoughItems-1.7.10-2.2.32-GTNH.jar"
+        },
+        {
+          "version_tag": "2.2.33-GTNH",
+          "changelog": "## What's Changed\n* Fix crash when itempanel is not initialized yet by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/285\n* Show message while loading itempanel by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/286\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.32-GTNH...2.2.33-GTNH",
+          "tagged_at": "2022-08-31T13:38:15+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.2.33-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76429097",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.33-GTNH/NotEnoughItems-1.7.10-2.2.33-GTNH.jar"
+        },
+        {
+          "version_tag": "2.2.334-GTNH",
+          "changelog": "## What's Changed\n* Update Handlers by @DrParadox7 in https://github.com/GTNewHorizons/NotEnoughItems/pull/288\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.33-GTNH...2.2.334-GTNH",
+          "tagged_at": "2022-09-01T11:35:25+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.2.334-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76544587",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.334-GTNH/NotEnoughItems-1.7.10-2.2.334-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -10493,7 +10694,7 @@
     },
     {
       "name": "Railcraft",
-      "latest_version": "9.13.9",
+      "latest_version": "9.13.10",
       "versions": [
         {
           "version_tag": "9.12.7",
@@ -10572,6 +10773,14 @@
           "filename": "Railcraft-1.7.10-9.13.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/74779177",
           "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.13.9/Railcraft-1.7.10-9.13.9.jar"
+        },
+        {
+          "version_tag": "9.13.10",
+          "changelog": "## What's Changed\n* updateBuildScript & spotlessApply by @eigenraven in https://github.com/GTNewHorizons/Railcraft/pull/27\n* Fix bad fluid container handling, eating IC2 cells and similar by @eigenraven in https://github.com/GTNewHorizons/Railcraft/pull/28\n\n## New Contributors\n* @eigenraven made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/27\n\n**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.13.9...9.13.10",
+          "tagged_at": "2022-08-31T13:52:25+00:00",
+          "filename": "Railcraft-1.7.10-9.13.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/76430174",
+          "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.13.10/Railcraft-1.7.10-9.13.10.jar"
         }
       ],
       "license": "Explicit Permission.",
@@ -11968,7 +12177,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.0.32",
+      "latest_version": "5.0.33",
       "versions": [
         {
           "version_tag": "4.10.12",
@@ -12220,6 +12429,14 @@
           "filename": "TecTech-1.7.10-5.0.32.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/76008826",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.32/TecTech-1.7.10-5.0.32.jar"
+        },
+        {
+          "version_tag": "5.0.33",
+          "changelog": "## What's Changed\n* Computation Timeout by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/91\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.32...5.0.33",
+          "tagged_at": "2022-09-01T10:58:59+00:00",
+          "filename": "TecTech-1.7.10-5.0.33.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/76539465",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.33/TecTech-1.7.10-5.0.33.jar"
         }
       ],
       "license": "MIT License.",
@@ -12259,7 +12476,7 @@
     },
     {
       "name": "Thaumic_Exploration",
-      "latest_version": "1.1.89-GTNH",
+      "latest_version": "1.1.90-GTNH",
       "versions": [
         {
           "version_tag": "1.1.56",
@@ -12319,6 +12536,14 @@
           "filename": "Thaumic-Exploration-1.7.10-1.1.89-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Thaumic_Exploration/releases/assets/74679960",
           "browser_download_url": "https://github.com/GTNewHorizons/Thaumic_Exploration/releases/download/1.1.89-GTNH/Thaumic-Exploration-1.7.10-1.1.89-GTNH.jar"
+        },
+        {
+          "version_tag": "1.1.90-GTNH",
+          "changelog": "## What's Changed\n* Fix mechanist cap crash with synthetic node from ThaumicHorizon by @Glease in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/21\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.1.89-GTNH...1.1.90-GTNH",
+          "tagged_at": "2022-08-30T20:04:00+00:00",
+          "filename": "Thaumic-Exploration-1.7.10-1.1.90-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Thaumic_Exploration/releases/assets/76343947",
+          "browser_download_url": "https://github.com/GTNewHorizons/Thaumic_Exploration/releases/download/1.1.90-GTNH/Thaumic-Exploration-1.7.10-1.1.90-GTNH.jar"
         }
       ],
       "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.",
@@ -12538,7 +12763,7 @@
     },
     {
       "name": "thaumicinsurgence",
-      "latest_version": "0.0.2",
+      "latest_version": "0.0.1",
       "versions": [
         {
           "version_tag": "0.0.1",
@@ -12547,14 +12772,6 @@
           "filename": "thaumicinsurgence-1.7.10-0.0.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/thaumicinsurgence/releases/assets/76102286",
           "browser_download_url": "https://github.com/GTNewHorizons/thaumicinsurgence/releases/download/0.0.1/thaumicinsurgence-1.7.10-0.0.1.jar"
-        },
-        {
-          "version_tag": "0.0.2",
-          "changelog": "## What's Changed\n* Cleanup by @kuba6000 in https://github.com/GTNewHorizons/thaumicinsurgence/pull/5\n\n## New Contributors\n* @kuba6000 made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/5\n\n**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.0.1...0.0.2",
-          "tagged_at": "2022-08-30T19:36:07+00:00",
-          "filename": "thaumicinsurgence-1.7.10-0.0.2.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/thaumicinsurgence/releases/assets/76341337",
-          "browser_download_url": "https://github.com/GTNewHorizons/thaumicinsurgence/releases/download/0.0.2/thaumicinsurgence-1.7.10-0.0.2.jar"
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -13616,7 +13833,7 @@
     },
     {
       "name": "WirelessRedstone-CBE",
-      "latest_version": "1.4.7",
+      "latest_version": "1.4.8",
       "versions": [
         {
           "version_tag": "1.4.2",
@@ -13660,6 +13877,14 @@
           "filename": "WR-CBE-1.7.10-1.4.7.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/WirelessRedstone-CBE/releases/assets/74964575",
           "browser_download_url": "https://github.com/GTNewHorizons/WirelessRedstone-CBE/releases/download/1.4.7/WR-CBE-1.7.10-1.4.7.jar"
+        },
+        {
+          "version_tag": "1.4.8",
+          "changelog": "## What's Changed\n* remove use of @InterfaceDependancies by @Glease in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/8\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.4.7...1.4.8",
+          "tagged_at": "2022-08-31T13:42:05+00:00",
+          "filename": "WR-CBE-1.7.10-1.4.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WirelessRedstone-CBE/releases/assets/76429371",
+          "browser_download_url": "https://github.com/GTNewHorizons/WirelessRedstone-CBE/releases/download/1.4.8/WR-CBE-1.7.10-1.4.8.jar"
         }
       ],
       "license": "MIT License.",
