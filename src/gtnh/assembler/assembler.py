@@ -1,3 +1,4 @@
+from pathlib import Path
 from typing import Callable, Dict, List, Optional
 
 from structlog import get_logger
@@ -40,11 +41,23 @@ class ReleaseAssembler:
         self.callback: Optional[Callable[[float, str], None]] = global_callback
         self.current_task_reset_callback = current_task_reset_callback
 
-        self.zip_assembler: ZipAssembler = ZipAssembler(mod_manager, release, task_callback)
-        self.mmc_assembler: MMCAssembler = MMCAssembler(mod_manager, release, task_callback)
-        self.curse_assembler: CurseAssembler = CurseAssembler(mod_manager, release, task_callback)
-        self.technic_assembler: TechnicAssembler = TechnicAssembler(mod_manager, release, task_callback)
-        self.modrinth_assembler: ModrinthAssembler = ModrinthAssembler(mod_manager, release, task_callback)
+        changelog_path: Path = self.generate_changelog()
+
+        self.zip_assembler: ZipAssembler = ZipAssembler(
+            mod_manager, release, task_callback, changelog_path=changelog_path
+        )
+        self.mmc_assembler: MMCAssembler = MMCAssembler(
+            mod_manager, release, task_callback, changelog_path=changelog_path
+        )
+        self.curse_assembler: CurseAssembler = CurseAssembler(
+            mod_manager, release, task_callback, changelog_path=changelog_path
+        )
+        self.technic_assembler: TechnicAssembler = TechnicAssembler(
+            mod_manager, release, task_callback, changelog_path=changelog_path
+        )
+        self.modrinth_assembler: ModrinthAssembler = ModrinthAssembler(
+            mod_manager, release, task_callback, changelog_path=changelog_path
+        )
 
         # computation of the progress per mod for the progressbar
         self.delta_progress: float = 0.0
@@ -80,9 +93,9 @@ class ReleaseAssembler:
         assemblers: Dict[str, Callable[[Side, bool], None]] = {
             Archive.ZIP: self.assemble_zip,
             Archive.MMC: self.assemble_mmc,
+            Archive.TECHNIC: self.assemble_technic,
             Archive.CURSEFORGE: self.assemble_curse,
             Archive.MODRINTH: self.assemble_modrinth,
-            Archive.TECHNIC: self.assemble_technic,
         }
 
         for plateform, assembling in assemblers.items():
@@ -92,7 +105,6 @@ class ReleaseAssembler:
             if self.callback:
                 self.callback(self.get_progress(), f"Assembling {side} {plateform} archive")  # type: ignore
             assembling(side, verbose)
-        self.generate_changelog()
 
     def assemble_zip(self, side: Side, verbose: bool = False) -> None:
         """
@@ -103,7 +115,6 @@ class ReleaseAssembler:
         :return: None
         """
         self.zip_assembler.assemble(side, verbose)
-        self.generate_changelog()
 
     def assemble_mmc(self, side: Side, verbose: bool = False) -> None:
         """
@@ -114,7 +125,6 @@ class ReleaseAssembler:
         :return: None
         """
         self.mmc_assembler.assemble(side, verbose)
-        self.generate_changelog()
 
     def assemble_curse(self, side: Side, verbose: bool = False) -> None:
         """
@@ -125,7 +135,6 @@ class ReleaseAssembler:
         :return: None
         """
         self.curse_assembler.assemble(side, verbose)
-        self.generate_changelog()
 
     def assemble_modrinth(self, side: Side, verbose: bool = False) -> None:
         """
@@ -136,7 +145,6 @@ class ReleaseAssembler:
         :return: None
         """
         self.modrinth_assembler.assemble(side, verbose)
-        self.generate_changelog()
 
     def assemble_technic(self, side: Side, verbose: bool = False) -> None:
         """
@@ -147,13 +155,12 @@ class ReleaseAssembler:
         :return: None
         """
         self.technic_assembler.assemble(side, verbose)
-        self.generate_changelog()
 
-    def generate_changelog(self) -> None:
+    def generate_changelog(self) -> Path:
         """
         Method to generate the changelog of a release.
 
-        :return: None
+        :return: the path to the changelog
         """
 
         current_version: str = self.release.version
@@ -163,11 +170,17 @@ class ReleaseAssembler:
         )
         changelog: Dict[str, List[str]] = self.mod_manager.generate_changelog(self.release, previous_release)
 
-        with open(RELEASE_CHANGELOG_DIR / f"changelog from {previous_version} to {current_version}.md", "w") as file:
+        changelog_path: Path = RELEASE_CHANGELOG_DIR / f"changelog from {previous_version} to {current_version}.md"
+
+        with open(changelog_path, "w") as file:
 
             for mod, mod_changelog in changelog.items():
                 for item in [mod] + mod_changelog:
+                    if item in ["new_mods", "removed_mods"]:  # skipping useless lines
+                        continue
                     try:
                         file.write(item + "\n")
                     except UnicodeEncodeError:
                         file.write((item + "\n").encode("ascii", "ignore").decode())
+
+        return changelog_path

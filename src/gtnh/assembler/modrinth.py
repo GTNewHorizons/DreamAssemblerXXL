@@ -18,6 +18,7 @@ class ModrinthAssembler(GenericAssembler):
         release: GTNHRelease,
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
+        changelog_path: Optional[Path] = None,
     ):
         """
         Constructor of the ModrinthAssembler class.
@@ -33,7 +34,11 @@ class ModrinthAssembler(GenericAssembler):
             release=release,
             task_progress_callback=task_progress_callback,
             global_progress_callback=global_progress_callback,
+            changelog_path=changelog_path,
         )
+
+    def assemble(self, side: Side, verbose: bool = False) -> None:
+        return
 
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_MODRINTH_DIR / f"GTNewHorizons-{side}-{self.release.version}.zip"

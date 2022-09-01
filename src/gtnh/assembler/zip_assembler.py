@@ -24,6 +24,7 @@ class ZipAssembler(GenericAssembler):
         release: GTNHRelease,
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
+        changelog_path: Optional[Path] = None,
     ):
         """
         Constructor of the ZipAssembler class.
@@ -39,6 +40,7 @@ class ZipAssembler(GenericAssembler):
             release=release,
             task_progress_callback=task_progress_callback,
             global_progress_callback=global_progress_callback,
+            changelog_path=changelog_path,
         )
 
     def add_mods(
@@ -78,9 +80,12 @@ class ZipAssembler(GenericAssembler):
                         if self.task_progress_callback is not None:
                             self.task_progress_callback(self.get_progress(), f"adding {item} to the archive")
 
+        self.add_changelog(archive)
+
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_ZIP_DIR / f"GT New Horizons {self.release.version} {side}.zip"
 
     def assemble(self, side: Side, verbose: bool = False) -> None:
-        self.set_progress(100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side)))
+        # +1 for the changelog
+        self.set_progress(100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + 1))
         GenericAssembler.assemble(self, side, verbose)

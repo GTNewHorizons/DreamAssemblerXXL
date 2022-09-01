@@ -28,6 +28,7 @@ class GenericAssembler:
         release: GTNHRelease,
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
+        changelog_path: Optional[Path] = None,
     ):
         """
         Constructor of the GenericAssembler class.
@@ -41,6 +42,8 @@ class GenericAssembler:
         self.release: GTNHRelease = release
         self.global_progress_callback: Optional[Callable[[float, str], None]] = global_progress_callback
         self.task_progress_callback: Optional[Callable[[float, str], None]] = task_progress_callback
+        self.changelog_path: Optional[Path] = changelog_path
+
         self.exclusions: Dict[str, List[str]] = {
             Side.CLIENT: self.modpack_manager.mod_pack.client_exclusions,
             Side.SERVER: self.modpack_manager.mod_pack.server_exclusions,
@@ -131,7 +134,7 @@ class GenericAssembler:
         :param verbose: flag to turn on verbose mode
         :return: None
         """
-        pass
+        raise NotImplementedError
 
     def add_config(
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
@@ -145,7 +148,7 @@ class GenericAssembler:
         :param verbose: flag to turn on verbose mode
         :return: None
         """
-        pass
+        self.add_changelog(archive)
 
     def assemble(self, side: Side, verbose: bool = False) -> None:
         """
@@ -180,4 +183,20 @@ class GenericAssembler:
 
         :return: the path to the release
         """
-        pass
+        raise NotImplementedError
+
+    def add_changelog(self, archive: ZipFile, arcname: Optional[Path] = None) -> None:
+        """
+        Method to add the changelog to the archive.
+
+        :param archive: the archive object
+        :return: None
+        """
+
+        if self.changelog_path is not None:
+            if self.task_progress_callback is not None:
+                self.task_progress_callback(self.get_progress(), "adding changelog to the archive")
+            if arcname is None:
+                archive.write(self.changelog_path, arcname=self.changelog_path.name)
+            else:
+                archive.write(self.changelog_path, arcname=arcname)

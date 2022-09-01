@@ -10,7 +10,7 @@ from cache import AsyncLRU
 from colorama import Fore, Style
 from gidgethub import BadRequest
 from gidgethub.httpx import GitHubAPI
-from httpx import AsyncClient
+from httpx import AsyncClient, HTTPStatusError
 from packaging.version import LegacyVersion
 from retry import retry
 from structlog import get_logger
@@ -524,7 +524,8 @@ class GTNHModpackManager:
         asset: Versionable,
         asset_version: str | None = None,
         is_github: bool = False,
-        callback: Optional[Callable[[str], None]] = None,
+        download_callback: Optional[Callable[[str], None]] = None,
+        error_callback: Optional[Callable[[str], None]] = None,
     ) -> Path | None:
         if asset_version is None:
             asset_version = asset.latest_version
@@ -536,6 +537,8 @@ class GTNHModpackManager:
                 f"{RED_CROSS} {Fore.RED}Version `{Fore.YELLOW}{asset_version}{Fore.RED}` not found for {type} Asset "
                 f"`{Fore.CYAN}{asset.name}{Fore.RED}`{Fore.RESET}"
             )
+            if error_callback:
+                error_callback(f"Version `{asset_version}` not found for {type} Asset `{asset.name}`")
             return None
 
         private_repo = f" {Fore.MAGENTA}<PRIVATE REPO>{Fore.RESET}" if asset.private else ""
@@ -549,8 +552,8 @@ class GTNHModpackManager:
 
         if os.path.exists(mod_filename):
             log.info(f"{Fore.YELLOW}Skipping re-redownload of {mod_filename}{Fore.RESET}")
-            if callback:
-                callback(str(mod_filename.name))
+            if download_callback:
+                download_callback(str(mod_filename.name))
             return mod_filename
 
         headers = {"Accept": "application/octet-stream"}
@@ -560,27 +563,43 @@ class GTNHModpackManager:
         async with self.client.stream(
             url=version.download_url, headers=headers, method="GET", follow_redirects=True
         ) as r:
-            r.raise_for_status()
-            with open(mod_filename, "wb") as f:
-                async for chunk in r.aiter_bytes(chunk_size=8192):
-                    f.write(chunk)
-        log.info(f"{GREEN_CHECK} Download successful `{mod_filename}`")
+            try:
+                r.raise_for_status()
+                with open(mod_filename, "wb") as f:
+                    async for chunk in r.aiter_bytes(chunk_size=8192):
+                        f.write(chunk)
+                log.info(f"{GREEN_CHECK} Download successful `{mod_filename}`")
+            except HTTPStatusError as e:
+                log.error(
+                    f"{RED_CROSS} {Fore.RED}The following HTTP error while downloading`{Fore.YELLOW}{asset_version}"
+                    f"{Fore.RED}` while downloading {Fore.CYAN}{asset.name}{Fore.RED} ({type} asset): {e}{Fore.RESET}"
+                )
+                if error_callback:
+                    error_callback(
+                        f"The following HTTP error while downloading`{asset_version}` while downloading{asset.name}"
+                        f"({type} asset): {e}"
+                    )
+                return None
 
-        if callback:
-            callback(str(mod_filename.name))
+        if download_callback:
+            download_callback(str(mod_filename.name))
 
         return mod_filename
 
     async def download_release(
-        self, release: GTNHRelease, callback: Optional[Callable[[float, str], None]] = None
+        self,
+        release: GTNHRelease,
+        download_callback: Optional[Callable[[float, str], None]] = None,
+        error_callback: Optional[Callable[[str], None]] = None,
     ) -> list[Path]:
         """
         method to download all the mods required for a release of the pack
 
-        :param mod_manager: The Modpack Manager
         :param release: Release to download
-        :param callback: Callable that takes a float and a string in parameters. (mainly the method to update the
-                    progress bar that takes a progress step per call and the label used to display infos to the user)
+        :param download_callback: Callable that takes a float and a string in parameters. (mainly the method to update
+                                  the progress bar that takes a progress step per call and the label used to display
+                                  infos to the user)
+        :param error_callback: Callable that takes a string in parameters indicating error messages
         :return: a list holding all the paths to the clientside mods and a list holding all the paths to the serverside
                 mod.
         """
@@ -597,18 +616,28 @@ class GTNHModpackManager:
             for mod_name, mod_version in mods.items():
                 mod = self.assets.get_github_mod(mod_name) if is_github else self.assets.get_external_mod(mod_name)
                 mod_callback = (
-                    lambda name: callback(delta_progress, f"mod {name} downloaded!") if callback else None
+                    lambda name: download_callback(delta_progress, f"mod {name} downloaded!")
+                    if download_callback
+                    else None
                 )  # noqa, type: ignore
-                downloaders.append(self.download_asset(mod, mod_version, is_github=is_github, callback=mod_callback))
+                downloaders.append(
+                    self.download_asset(
+                        mod,
+                        mod_version,
+                        is_github=is_github,
+                        download_callback=mod_callback,
+                        error_callback=error_callback,
+                    )
+                )
 
         # download the modpack configs
-        if callback is not None:
+        if download_callback is not None:
             downloaders.append(
                 self.download_asset(
                     self.assets.config,
                     release.config,
                     is_github=True,
-                    callback=lambda name: callback(
+                    download_callback=lambda name: download_callback(
                         delta_progress, f"config for release {release.version} downloaded!"
                     ),  # type: ignore
                 )
@@ -698,26 +727,28 @@ class GTNHModpackManager:
             log.warn(f"{Fore.YELLOW}{mod.name}'s side is already set to {side}{Fore.RESET}")
             return False
 
-        if side in [s.name for s in Side]:
-            mod.side = Side[side]
-            # idk a better way of doing this
-            index: int = 0
-            for i, elem in enumerate(self.assets.github_mods):
-                if elem.name != mod.name:
-                    continue
+        mod.side = Side[side]
+        self.save_assets()
 
-                index = i
-                break
+        log.info(f"{Fore.GREEN}Side of {mod.name} has been set to {mod.side}{Fore.RESET}")
+        return True
 
-            self.assets.github_mods[index] = mod
-            self.save_assets()
-            self.assets = self.load_assets()  # doing that to update cached properties
-
-            log.info(f"{Fore.GREEN}Side of {mod.name} has been set to {mod.side}{Fore.RESET}")
-            return True
+    def set_external_mod_side(self, mod_name: str, side: str) -> bool:
+        if self.assets.has_external_mod(mod_name):
+            mod: ExternalModInfo = self.assets.get_external_mod(mod_name)
         else:
-            log.error(f"Release `{Fore.RED}{mod_name} is not a github mod{Fore.RESET}")
+            log.error(f"Release `{Fore.RED}{mod_name} is not an external mod{Fore.RESET}")
             return False
+
+        if mod.side == side:
+            log.warn(f"{Fore.YELLOW}{mod.name}'s side is already set to {side}{Fore.RESET}")
+            return False
+
+        mod.side = Side[side]
+        self.save_assets()
+
+        log.info(f"{Fore.GREEN}Side of {mod.name} has been set to {mod.side}{Fore.RESET}")
+        return True
 
     def add_exclusion(self, side: str, exclusion: str) -> bool:
         if side == "client":

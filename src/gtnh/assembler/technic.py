@@ -28,6 +28,7 @@ class TechnicAssembler(GenericAssembler):
         release: GTNHRelease,
         task_progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[float, str], None]] = None,
+        changelog_path: Optional[Path] = None,
     ):
         """
         Constructor of the TechnicAssembler class.
@@ -43,6 +44,7 @@ class TechnicAssembler(GenericAssembler):
             release=release,
             task_progress_callback=task_progress_callback,
             global_progress_callback=global_progress_callback,
+            changelog_path=changelog_path,
         )
 
     def add_mods(
@@ -104,6 +106,8 @@ class TechnicAssembler(GenericAssembler):
 
                             if self.task_progress_callback is not None:
                                 self.task_progress_callback(self.get_progress(), f"adding {item} to the archive")
+
+            self.add_changelog(temp_zip)
 
         # writing the config zip in the technic archive
         archive.write(

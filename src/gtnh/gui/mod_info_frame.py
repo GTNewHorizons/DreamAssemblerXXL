@@ -85,12 +85,16 @@ class ModInfoFrame(LabelFrame):
         :param event: the tkinter event passed by the tkinter in the Callback (unused)
         :return: None
         """
-        mod_name: str = self.sv_mod_name.get()
-        if mod_name == "":
-            raise ValueError("empty mod cannot have a version")
+        if self.sv_side.get() not in [
+            "",
+            Side.NONE,
+        ]:  # preventing from adding versions to manifest if it's not init or disabled
+            mod_name: str = self.sv_mod_name.get()
+            if mod_name == "":
+                raise ValueError("empty mod cannot have a version")
 
-        mod_version: str = self.sv_version.get()
-        self.callbacks["set_mod_version"](mod_name, mod_version)
+            mod_version: str = self.sv_version.get()
+            self.callbacks["set_mod_version"](mod_name, mod_version)
 
     def configure_widgets(self) -> None:
         """

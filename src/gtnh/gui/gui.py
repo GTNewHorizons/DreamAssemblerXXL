@@ -2,20 +2,26 @@ import asyncio
 from pathlib import Path
 from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
 from tkinter.messagebox import showerror, showinfo
-from typing import Any, Callable, Dict, List, Optional, Union
+from typing import Any, Callable, Dict, List, Optional, Set, Tuple, Union
 
 import httpx
+from colorama import Fore
+from structlog import get_logger
 
 from gtnh.assembler.assembler import ReleaseAssembler
-from gtnh.defs import Archive, Position, Side
-from gtnh.exceptions import ReleaseNotFoundException
+from gtnh.defs import Archive, ModSource, Position, Side
+from gtnh.exceptions import NoModAssetFound, ReleaseNotFoundException
 from gtnh.gui.exclusion_frame import ExclusionFrame
 from gtnh.gui.external_mod_frame import ExternalModFrame
 from gtnh.gui.github_mod_frame import GithubModFrame
 from gtnh.gui.modpack_frame import ModpackFrame
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
+from gtnh.models.gtnh_version import GTNHVersion
+from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
+
+logger = get_logger(__name__)
 
 ASYNC_SLEEP: float = 0.05
 ICON: Path = Path(__file__).parent.parent.parent.parent / "icon.png"
@@ -73,6 +79,9 @@ class Window(Tk):
         self.gtnh_config: str = ""  # modpack asset version
         self.external_mods: Dict[str, str] = {}  # name <-> version of external mods mappings for the current release
         self.version: str = ""  # modpack release name
+        self.last_version: Optional[str] = None  # last version of the release
+
+        self.download_error_list: List[str] = []  # list of errors happened during the download of a release's assets
 
         self.init: bool = False
         self.protocol("WM_DELETE_WINDOW", lambda: asyncio.ensure_future(self.close_app()))
@@ -96,9 +105,11 @@ class Window(Tk):
 
         external_frame_callbacks: Dict[str, Any] = {
             "set_external_mod_version": self.set_external_mod_version,
-            "set_external_mod_side": lambda name, side: None,
+            "set_external_mod_side": lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)),
             "get_gtnh": self._get_modpack_manager,
+            "get_external_mods": self.get_github_mods,
         }
+
         self.external_mod_frame: ExternalModFrame = ExternalModFrame(
             self, frame_name="external mod data", callbacks=external_frame_callbacks
         )
@@ -187,19 +198,29 @@ class Window(Tk):
         """
         global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.update_global_progress_bar
 
-        self.set_progress(100 / 2)
-        self.trigger_toggle()
-        release_assembler: ReleaseAssembler = await self.pre_assembling()
-        assembler_dict: Dict[Archive, Callable[[Side, bool], None]] = {
-            Archive.ZIP: release_assembler.assemble_zip,
-            Archive.MMC: release_assembler.assemble_mmc,
-            Archive.MODRINTH: release_assembler.assemble_modrinth,
-            Archive.CURSEFORGE: release_assembler.assemble_curse,
-            Archive.TECHNIC: release_assembler.assemble_technic,
-        }
-        global_callback(self.get_progress(), f"Assembling {side} {archive_type} archive")
-        assembler_dict[archive_type](side=side, verbose=True)  # type: ignore
-        self.trigger_toggle()
+        try:
+            self.set_progress(100 / 2)
+            self.trigger_toggle()
+            release_assembler: ReleaseAssembler = await self.pre_assembling()
+            assembler_dict: Dict[Archive, Callable[[Side, bool], None]] = {
+                Archive.ZIP: release_assembler.assemble_zip,
+                Archive.MMC: release_assembler.assemble_mmc,
+                Archive.MODRINTH: release_assembler.assemble_modrinth,
+                Archive.CURSEFORGE: release_assembler.assemble_curse,
+                Archive.TECHNIC: release_assembler.assemble_technic,
+            }
+            global_callback(self.get_progress(), f"Assembling {side} {archive_type} archive")
+            assembler_dict[archive_type](side=side, verbose=True)  # type: ignore
+            self.trigger_toggle()
+        except BaseException as e:
+            showerror(
+                f"An error occured during the assembling {side} {archive_type} archive",
+                f"An error occurended during the assembling {side} {archive_type} archive."
+                "\n Please check the logs for more information",
+            )
+            if not self.toggled:
+                self.trigger_toggle()
+            raise e
 
     async def pre_assembling(self) -> ReleaseAssembler:
         """
@@ -213,6 +234,7 @@ class Window(Tk):
             config=self.gtnh_config,
             github_mods=self.github_mods,
             external_mods=self.external_mods,
+            last_version=self.last_version,
         )
         global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.update_global_progress_bar
         global_reset_callback: Callable[[], None] = self.modpack_list_frame.action_frame.reset_global_progress_bar
@@ -228,8 +250,20 @@ class Window(Tk):
         current_task_reset_callback()
 
         global_callback(self.get_progress(), "Downloading assets")
-        await gtnh.download_release(release, callback=progress_callback)
+        await gtnh.download_release(release, download_callback=progress_callback, error_callback=self.add_error_message)
         current_task_reset_callback()
+
+        if len(self.download_error_list) > 0:
+            error = "The following error(s) happened during the downloading of assets:\n" + "\n".join(
+                self.download_error_list
+            )
+
+            showerror("Error(s) happened during the downloading of assets", error)
+            self.download_error_list = []
+            self.trigger_toggle()
+
+            raise NoModAssetFound(error)
+
         return ReleaseAssembler(
             gtnh,
             release,
@@ -238,6 +272,15 @@ class Window(Tk):
             current_task_reset_callback=current_task_reset_callback,
         )
 
+    def add_error_message(self, error_message: str) -> None:
+        """
+        Method used as error callback when an error happens during the download of a mod/release.
+
+        :param error_message: the error message to add to the error list
+        :return: None
+        """
+        self.download_error_list.append(error_message)
+
     async def assemble_all(self) -> None:
         """
         Assemble all the archives.
@@ -245,24 +288,34 @@ class Window(Tk):
         :return: None
         """
         global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.update_global_progress_bar
+        try:
+            self.trigger_toggle()
 
-        self.trigger_toggle()
+            self.set_progress(100 / (1 + 5 + 1))  # download + archives for client + archive for server
+            release_assembler: ReleaseAssembler = await self.pre_assembling()
 
-        self.set_progress(100 / (1 + 5 + 1))  # download + archives for client + archive for server
-        release_assembler: ReleaseAssembler = await self.pre_assembling()
+            release_assembler.set_progress(self.get_progress())
 
-        release_assembler.set_progress(self.get_progress())
+            release_assembler.assemble(Side.CLIENT, verbose=True)
 
-        release_assembler.assemble(Side.CLIENT, verbose=True)
+            # todo: redo the bar resets less hacky: they are all spread all over the place and it's inconsistent
+            if release_assembler.current_task_reset_callback is not None:
+                release_assembler.current_task_reset_callback()
 
-        # todo: redo the bar resets less hacky: they are all spread all over the place and it's inconsistent
-        if release_assembler.current_task_reset_callback is not None:
-            release_assembler.current_task_reset_callback()
+            global_callback(self.get_progress(), f"Assembling {Side.SERVER} {Archive.ZIP} archive")
+            release_assembler.assemble_zip(Side.SERVER, verbose=True)
 
-        global_callback(self.get_progress(), f"Assembling {Side.SERVER} {Archive.ZIP} archive")
-        release_assembler.assemble_zip(Side.SERVER, verbose=True)
+            self.trigger_toggle()
 
-        self.trigger_toggle()
+        except BaseException as e:
+            showerror(
+                "An error occured during the update of the assembling of the archives",
+                "An error occurended during the update of the assembling of the archives."
+                "\n Please check the logs for more information",
+            )
+            if not self.toggled:
+                self.trigger_toggle()
+            raise e
 
     def set_progress(self, delta_progress: float) -> None:
         """
@@ -335,6 +388,35 @@ class Window(Tk):
                 f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details",
             )
 
+        if side == Side.NONE and mod_name in self.github_mods:
+            del self.github_mods[mod_name]
+
+        if side != Side.NONE and mod_name not in self.github_mods:
+            # dirty hack to add the mod back if it's switched from disabled to something else
+            self.github_mods[mod_name] = self.github_mod_frame.mod_info_frame.sv_version.get()
+
+    async def set_external_mod_side(self, mod_name: str, side: str) -> None:
+        """
+        Method used to set the side of an external mod.
+
+        :param mod_name: the mod name
+        :param side: side of the pack
+        :return: None
+        """
+        gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        if not gtnh.set_external_mod_side(mod_name, side):
+            showerror(
+                "Error setting up the side of the mod",
+                f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details",
+            )
+
+        if side == Side.NONE and mod_name in self.external_mods:
+            del self.external_mods[mod_name]
+
+        if side != Side.NONE and mod_name not in self.external_mods:
+            # dirty hack to add the mod back if it's switched from disabled to something else
+            self.external_mods[mod_name] = self.external_mod_frame.mod_info_frame.sv_version.get()
+
     def set_github_mod_version(self, github_mod_name: str, mod_version: str) -> None:
         """
         Callback used when a github mod version is selected.
@@ -381,6 +463,14 @@ class Window(Tk):
         """
         return self.github_mods
 
+    def get_external_mods(self) -> Dict[str, str]:
+        """
+        Getter for self.external_mods.
+
+        :return: self.external_mods
+        """
+        return self.external_mods
+
     async def _get_client(self) -> httpx.AsyncClient:
         """
         Internal getter for the httpx client instance, creating it if it doesn't exist.
@@ -408,11 +498,20 @@ class Window(Tk):
         :return: None
         """
         # todo: add a callback to report progress
-        self.trigger_toggle()
-        gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        await gtnh.update_all()
-        self.trigger_toggle()
-        showinfo("assets updated successfully!", "all the assets have been updated correctly!")
+        try:
+            self.trigger_toggle()
+            gtnh: GTNHModpackManager = await self._get_modpack_manager()
+            await gtnh.update_all()
+            self.trigger_toggle()
+            showinfo("assets updated successfully!", "all the assets have been updated correctly!")
+        except BaseException as e:
+            showerror(
+                "An error occured during the update of the assets",
+                "An error occurended during the update of the assets." "\n Please check the logs for more information",
+            )
+            if not self.toggled:
+                self.trigger_toggle()
+            raise e
 
     async def update_nightly(self) -> None:
         """
@@ -421,19 +520,29 @@ class Window(Tk):
         :return: None
         """
         # todo: add a callback to report progress
-        self.trigger_toggle()
-        gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        existing_release = gtnh.get_release("nightly")
-        if not existing_release:
-            raise ReleaseNotFoundException("Nightly release not found")
+        try:
+            self.trigger_toggle()
+            gtnh: GTNHModpackManager = await self._get_modpack_manager()
+            existing_release = gtnh.get_release("nightly")
+            if not existing_release:
+                raise ReleaseNotFoundException("Nightly release not found")
 
-        release: GTNHRelease = await gtnh.update_release(
-            "nightly", existing_release=existing_release, update_available=True
-        )
-        gtnh.add_release(release, update=True)
-        gtnh.save_modpack()
-        self.trigger_toggle()
-        showinfo("updated the nightly release metadata", "The nightly release metadata had been updated!")
+            release: GTNHRelease = await gtnh.update_release(
+                "nightly", existing_release=existing_release, update_available=True
+            )
+            gtnh.add_release(release, update=True)
+            gtnh.save_modpack()
+            self.trigger_toggle()
+            showinfo("updated the nightly release metadata", "The nightly release metadata had been updated!")
+        except BaseException as e:
+            showerror(
+                "An error occured during the update of the nightly build",
+                "An error occurended during the update of the nightly build."
+                "\n Please check the logs for more information",
+            )
+            if not self.toggled:
+                self.trigger_toggle()
+            raise e
 
     async def get_releases(self) -> List[GTNHRelease]:
         """
@@ -478,10 +587,13 @@ class Window(Tk):
             release_object = release
 
         if release_object is not None:
+            release_object = await self.strip_disabled_mods(release_object)
             self.github_mods = release_object.github_mods
             self.gtnh_config = release_object.config
             self.external_mods = release_object.external_mods
             self.version = release_object.version
+            self.last_version = release_object.last_version
+            logger.info(f"Loaded pack version {Fore.CYAN}{release_object.version}{Fore.RESET} in memory.")
         else:
             showerror("incorrect version detected", f"modpack version {release} doesn't exist")
             return
@@ -491,6 +603,55 @@ class Window(Tk):
         else:
             # display the loaded version at boot
             self.modpack_list_frame.modpack_list.set_loaded_version(self.version)
+
+    async def strip_disabled_mods(self, release: GTNHRelease) -> GTNHRelease:
+        """
+        Method used to strip the disabled mods from any release improperly generated during its loading.
+
+        :param gtnh_modpack: the modpack manager instance. It is passed externally to make this function synced
+        :return: the release with the stripped disabled mods
+        """
+        # todo: create a new instance for release object and edit it instead, because mutating args is bad mkay?
+        mod_name: str
+        version: str
+        gtnh_modpack: GTNHModpackManager = await self._get_modpack_manager()
+        github_mods: Dict[str, str] = release.github_mods
+        external_mods: Dict[str, str] = release.external_mods
+        valid_side: Set[Side] = {Side.NONE}
+        github_mods_to_delete: List[str] = []
+        external_mods_to_delete: List[str] = []
+        mod_data: Optional[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = None
+        for mod_name, version in github_mods.items():
+            mod_data = gtnh_modpack.assets.get_mod_and_version(
+                mod_name, version, valid_sides=valid_side, source=ModSource.github
+            )
+            if mod_data is not None:
+                logger.warn(
+                    f"{Fore.YELLOW}Release {release.version} had github mod {mod_name}"
+                    " in its manifest but it is disabled. Stripping it from memory.{Fore.RESET}"
+                )
+                github_mods_to_delete.append(mod_name)
+
+        for mod_name in github_mods_to_delete:
+            del github_mods[mod_name]
+
+        for mod_name, version in external_mods.items():
+            mod_data = gtnh_modpack.assets.get_mod_and_version(
+                mod_name, version, valid_sides=valid_side, source=ModSource.other
+            )
+            if mod_data is not None:
+                logger.warn(
+                    f"{Fore.YELLOW}Release {self.version} had external mod {mod_name}"
+                    "in its manifest but it is disabled. Stripping it from memory.{Fore.RESET}"
+                )
+                external_mods_to_delete.append(mod_name)
+
+        for mod_name in external_mods_to_delete:
+            del external_mods[mod_name]
+
+        release.github_mods = github_mods
+        release.external_mods = external_mods
+        return release
 
     async def add_gtnh_version(self, release_name: str, previous_version: str) -> None:
         """
@@ -507,10 +668,14 @@ class Window(Tk):
             config=self.gtnh_config,
             github_mods=self.github_mods,
             external_mods=self.external_mods,
-            previous_version=previous_version,
+            last_version=previous_version,
         )
 
-        if gtnh.add_release(release, update=True):
+        self.last_version = previous_version
+
+        is_release_added: bool = gtnh.add_release(release, update=True)
+
+        if is_release_added:
             gtnh.save_modpack()
             showinfo("release successfully generated", f"modpack version {release_name} successfully generated!")
 
@@ -587,12 +752,18 @@ class Window(Tk):
             releases: List[GTNHRelease] = await self.get_releases()
             if len(releases) > 0:
                 await self.load_gtnh_version(releases[-1], init=True)
-            data = {
+
+            data_github_mods: Dict[str, Any] = {
                 "github_mod_list": await self.get_repos(),
                 "modpack_version_frame": {"combobox": await self.get_modpack_versions(), "stringvar": self.gtnh_config},
             }
 
-            self.github_mod_frame.populate_data(data)
+            self.github_mod_frame.populate_data(data_github_mods)
+
+            data_external_mods: Dict[str, Any] = {"external_mod_list": [mod for mod in self.get_external_mods().keys()]}
+
+            self.external_mod_frame.populate_data(data_external_mods)
+
             self.modpack_list_frame.populate_data(await self.get_releases())
             self.exclusion_frame_server.populate_data({"exclusions": await self.get_modpack_exclusions("server")})
             self.exclusion_frame_client.populate_data({"exclusions": await self.get_modpack_exclusions("client")})
