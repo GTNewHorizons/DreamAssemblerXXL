@@ -218,7 +218,7 @@ class Window(Tk):
                 f"An error occurended during the assembling {side} {archive_type} archive."
                 "\n Please check the logs for more information",
             )
-            if self.toggled:
+            if not self.toggled:
                 self.trigger_toggle()
             raise e
 
@@ -313,7 +313,7 @@ class Window(Tk):
                 "An error occurended during the update of the assembling of the archives."
                 "\n Please check the logs for more information",
             )
-            if self.toggled:
+            if not self.toggled:
                 self.trigger_toggle()
             raise e
 
@@ -509,7 +509,7 @@ class Window(Tk):
                 "An error occured during the update of the assets",
                 "An error occurended during the update of the assets." "\n Please check the logs for more information",
             )
-            if self.toggled:
+            if not self.toggled:
                 self.trigger_toggle()
             raise e
 
@@ -540,7 +540,7 @@ class Window(Tk):
                 "An error occurended during the update of the nightly build."
                 "\n Please check the logs for more information",
             )
-            if self.toggled:
+            if not self.toggled:
                 self.trigger_toggle()
             raise e
 
