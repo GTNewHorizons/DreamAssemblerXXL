@@ -161,6 +161,17 @@ class Window(Tk):
 
         self.toggled: bool = True  # state variable indicating if the widgets are disabled or not
 
+        self.progress_callback: Callable[
+            [float, str], None
+        ] = self.modpack_list_frame.action_frame.update_current_task_progress_bar
+        self.global_callback: Callable[
+            [float, str], None
+        ] = self.modpack_list_frame.action_frame.update_global_progress_bar
+        self.global_reset_callback: Callable[[], None] = self.modpack_list_frame.action_frame.reset_global_progress_bar
+        self.current_task_reset_callback: Callable[
+            [], None
+        ] = self.modpack_list_frame.action_frame.reset_current_task_progress_bar
+
     def trigger_toggle(self) -> None:
         """
         Enable/disable the widgets that can be toggled.
@@ -236,22 +247,16 @@ class Window(Tk):
             external_mods=self.external_mods,
             last_version=self.last_version,
         )
-        global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.update_global_progress_bar
-        global_reset_callback: Callable[[], None] = self.modpack_list_frame.action_frame.reset_global_progress_bar
-        progress_callback: Callable[
-            [float, str], None
-        ] = self.modpack_list_frame.action_frame.update_current_task_progress_bar
-        current_task_reset_callback: Callable[
-            [], None
-        ] = self.modpack_list_frame.action_frame.reset_current_task_progress_bar
 
         # clean the previous state of the progress bars
-        global_reset_callback()
-        current_task_reset_callback()
+        self.global_reset_callback()
+        self.current_task_reset_callback()
 
-        global_callback(self.get_progress(), "Downloading assets")
-        await gtnh.download_release(release, download_callback=progress_callback, error_callback=self.add_error_message)
-        current_task_reset_callback()
+        self.global_callback(self.get_progress(), "Downloading assets")
+        await gtnh.download_release(
+            release, download_callback=self.progress_callback, error_callback=self.add_error_message
+        )
+        self.current_task_reset_callback()
 
         if len(self.download_error_list) > 0:
             error = "The following error(s) happened during the downloading of assets:\n" + "\n".join(
@@ -267,9 +272,9 @@ class Window(Tk):
         return ReleaseAssembler(
             gtnh,
             release,
-            task_callback=progress_callback,
-            global_callback=global_callback,
-            current_task_reset_callback=current_task_reset_callback,
+            task_callback=self.progress_callback,
+            global_callback=self.global_callback,
+            current_task_reset_callback=self.current_task_reset_callback,
         )
 
     def add_error_message(self, error_message: str) -> None:
@@ -497,11 +502,18 @@ class Window(Tk):
 
         :return: None
         """
-        # todo: add a callback to report progress
+
+        self.global_reset_callback()
+        self.current_task_reset_callback()
+
         try:
             self.trigger_toggle()
             gtnh: GTNHModpackManager = await self._get_modpack_manager()
-            await gtnh.update_all()
+            global_delta_progress: float = 100 / (1 + 1)  # 1 for the syncing of the mods, 1 for update checks
+            await gtnh.update_all(
+                progress_callback=self.progress_callback,
+                global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
+            )
             self.trigger_toggle()
             showinfo("assets updated successfully!", "all the assets have been updated correctly!")
         except BaseException as e:
@@ -519,7 +531,10 @@ class Window(Tk):
 
         :return: None
         """
-        # todo: add a callback to report progress
+
+        self.current_task_reset_callback()
+        self.global_reset_callback()
+
         try:
             self.trigger_toggle()
             gtnh: GTNHModpackManager = await self._get_modpack_manager()
@@ -527,8 +542,15 @@ class Window(Tk):
             if not existing_release:
                 raise ReleaseNotFoundException("Nightly release not found")
 
+            # 1 for the data download on github, 1 for the asset updates and 1 for the nightly build update
+            global_delta_progress: float = 100 / (1 + 1 + 1)
             release: GTNHRelease = await gtnh.update_release(
-                "nightly", existing_release=existing_release, update_available=True
+                "nightly",
+                existing_release=existing_release,
+                update_available=True,
+                progress_callback=self.progress_callback,
+                reset_progress_callback=self.current_task_reset_callback,
+                global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
             )
             gtnh.add_release(release, update=True)
             gtnh.save_modpack()

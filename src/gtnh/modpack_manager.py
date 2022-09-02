@@ -83,20 +83,49 @@ class GTNHModpackManager:
 
         return None
 
-    async def update_all(self, mods_to_update: list[str] | None = None) -> None:
-        if await self.update_available_assets(mods_to_update):
+    async def update_all(
+        self,
+        mods_to_update: list[str] | None = None,
+        progress_callback: Optional[Callable[[float, str], None]] = None,
+        global_progress_callback: Optional[Callable[[str], None]] = None,
+    ) -> None:
+        if await self.update_available_assets(
+            mods_to_update, progress_callback=progress_callback, global_progress_callback=global_progress_callback
+        ):
             self.save_assets()
 
-    async def update_available_assets(self, assets_to_update: list[str] | None = None) -> bool:
+    async def update_available_assets(
+        self,
+        assets_to_update: list[str] | None = None,
+        progress_callback: Optional[Callable[[float, str], None]] = None,
+        global_progress_callback: Optional[Callable[[str], None]] = None,
+    ) -> bool:
+
+        if global_progress_callback is not None:
+            global_progress_callback("Downloading data from Github")
+
         all_repos = await self.get_all_repos()
 
         tasks = []
         to_update_from_repos: list[Versionable] = list(itertools.chain(self.assets.github_mods, [self.assets.config]))
+
+        delta_progress: float = 100 / len(to_update_from_repos)
+        if global_progress_callback is not None:
+            global_progress_callback("Updating assets")
+
         for asset in to_update_from_repos:
             if assets_to_update and asset.name not in assets_to_update:
+                if progress_callback is not None:
+                    progress_callback(
+                        delta_progress, ""
+                    )  # skipped mod is part of the process so we update the progress
                 continue
 
             repo = all_repos.get(asset.name)
+
+            if progress_callback is not None:
+                progress_callback(delta_progress, f"updating {asset.name}")
+
             if not repo:
                 log.error(
                     f"{Fore.RED}Missing repo for {Fore.CYAN}{asset.name}{Fore.RED}, skipping update check.{Fore.RESET}"
@@ -298,6 +327,9 @@ class GTNHModpackManager:
         exclude: set[str] | None = None,
         new_mods: set[str] | None = None,
         last_version: str | None = None,
+        progress_callback: Optional[Callable[[float, str], None]] = None,
+        reset_progress_callback: Optional[Callable[[], None]] = None,
+        global_progress_callback: Optional[Callable[[str], None]] = None,
     ) -> GTNHRelease:
         """
         Updates a release
@@ -308,11 +340,22 @@ class GTNHModpackManager:
         :param exclude: List of mod names to exclude from update checks -- keep the existing version
         :param new_mods: New mods to be included in this release
         :param last_version: Optional last version - used generally when rolling a nightly forward after a new modpack release
+        :param progress_callback: Optional callback to update the progress bar for the current task in the gui
+        :param reset_progress_callback: Optional callback to reset the progress bar for the current task in the gui
+        :param global_progress_callback: Optional callback to update the global progress bar in the gui
+
         :return: The generated release
         """
         if update_available:
             log.info("Updating assets")
-            await self.update_all()
+            await self.update_all(
+                progress_callback=progress_callback, global_progress_callback=global_progress_callback
+            )
+            if reset_progress_callback is not None:
+                reset_progress_callback()
+
+            if global_progress_callback is not None:
+                global_progress_callback("Updating nightly build")
 
         log.info(f"Assembling release: `{Fore.GREEN}{version}{Fore.RESET}`")
         if overrides:
@@ -323,7 +366,13 @@ class GTNHModpackManager:
         if exclude:
             log.info(f"Excluding update checks for `{Fore.GREEN}{exclude}{Fore.RESET}`")
 
+        delta_progress: float = 100 / (1 + len(existing_release.github_mods) + len(existing_release.external_mods))
+
         config = self.assets.config.latest_version
+
+        if progress_callback is not None:
+            progress_callback(delta_progress, "Updating config to last version")
+
         github_mods: dict[str, str] = {}
         external_mods: dict[str, str] = {}
 
@@ -341,12 +390,19 @@ class GTNHModpackManager:
                     )
                     modmap = github_mods if is_github else external_mods
                     modmap[mod_name] = previous_version
+
+                    if progress_callback is not None:
+                        progress_callback(delta_progress, "")  # to stay synced with the progress
                     continue
 
                 mod = self.assets.get_mod(mod_name)
                 source_str = "[ Github Mod ]" if not isinstance(mod, ExternalModInfo) else "[External Mod]"
                 if mod.disabled:
                     log.warn(f"{source_str} Mod `{Fore.CYAN}{mod.name}{Fore.RESET}` is disabled, skipping")
+
+                    if progress_callback is not None:
+                        progress_callback(delta_progress, "")  # to stay synced with the progress
+
                     continue
 
                 override = overrides and overrides.get(mod.name)
@@ -357,12 +413,19 @@ class GTNHModpackManager:
                         f"{source_str} Version `{Fore.YELLOW}{mod_version}{Fore.RESET} not found for Mod `{Fore.CYAN}{mod.name}"
                         f"{Fore.RESET}`, skipping"
                     )
+
+                    if progress_callback is not None:
+                        progress_callback(delta_progress, "")  # to stay synced with the progress
                     continue
 
                 overide_str = f"{Fore.RED} ** OVERRIDE **{Fore.RESET}" if override else ""
                 log.info(
                     f"{source_str} Using `{Fore.CYAN}{mod.name}{Fore.RESET}:{Fore.YELLOW}{mod_version}{Fore.RESET}{overide_str}"
                 )
+
+                if progress_callback is not None:
+                    progress_callback(delta_progress, f"Updating {mod.name}")
+
                 _add_mod(mod)
 
         for mod_name in new_mods or []:
