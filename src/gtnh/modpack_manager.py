@@ -83,20 +83,50 @@ class GTNHModpackManager:
 
         return None
 
-    async def update_all(self, mods_to_update: list[str] | None = None) -> None:
-        if await self.update_available_assets(mods_to_update):
+    async def update_all(
+        self,
+        mods_to_update: list[str] | None = None,
+        progress_callback: Optional[Callable[[float, str], None]] = None,
+        global_progress_callback: Optional[Callable[[float, str], None]] = None,
+    ) -> None:
+        if await self.update_available_assets(
+            mods_to_update, progress_callback=progress_callback, global_progress_callback=global_progress_callback
+        ):
             self.save_assets()
 
-    async def update_available_assets(self, assets_to_update: list[str] | None = None) -> bool:
+    async def update_available_assets(
+        self,
+        assets_to_update: list[str] | None = None,
+        progress_callback: Optional[Callable[[float, str], None]] = None,
+        global_progress_callback: Optional[Callable[[float, str], None]] = None,
+    ) -> bool:
+
+        global_delta_progress: float = 100 / (1 + 1)  # 1 for the syncing of the mods, 1 for update checks
+        if global_progress_callback is not None:
+            global_progress_callback(global_delta_progress, "Downloading data from Github")
+
         all_repos = await self.get_all_repos()
 
         tasks = []
         to_update_from_repos: list[Versionable] = list(itertools.chain(self.assets.github_mods, [self.assets.config]))
+
+        delta_progress: float = 100 / len(to_update_from_repos)
+        if global_progress_callback is not None:
+            global_progress_callback(global_delta_progress, "Updating assets")
+
         for asset in to_update_from_repos:
             if assets_to_update and asset.name not in assets_to_update:
+                if progress_callback is not None:
+                    progress_callback(
+                        delta_progress, ""
+                    )  # skipped mod is part of the process so we update the progress
                 continue
 
             repo = all_repos.get(asset.name)
+
+            if progress_callback is not None:
+                progress_callback(delta_progress, f"updating {asset.name}")
+
             if not repo:
                 log.error(
                     f"{Fore.RED}Missing repo for {Fore.CYAN}{asset.name}{Fore.RED}, skipping update check.{Fore.RESET}"
