@@ -110,6 +110,12 @@ class CurseAssembler(GenericAssembler):
         if side not in {Side.CLIENT}:
             raise Exception("Can only assemble release for CLIENT")
 
+        # + 2 pictures in the overrides + manifest.json + dependencies.json
+        delta_progress: float = 100 / (
+            len(self.get_mods_to_override(side)) + 2 + self.get_amount_of_files_in_config(side) + 1 + 1
+        )
+        self.set_progress(delta_progress)
+
         archive_name: Path = self.get_archive_path(side)
 
         # deleting any existing archive
@@ -126,23 +132,46 @@ class CurseAssembler(GenericAssembler):
             self.generate_meta_data(side, archive)
             log.info("Adding dependencies.json to the archive")
             self.generate_json_dep(side, archive)
-
-            archive.write(self.overrides, arcname="overrides/overrides.png")
-            archive.write(self.overrideslash, arcname="overrides/overrideslash.png")
-
-            mods_to_override: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = [
-                (mod, version) for mod, version in self.get_mods(side) if is_mod_from_github(mod)
-            ]
-            log.info("Adding github mods in the archive")  # if curse reject the archive because reasons, we will have
-            # to find an alternative for that, as downloading the files
-            # hosted on github from the deploader will get the players
-            # rate limited and the deploader will receive 403 http errors
-            for mod, version in mods_to_override:
-                source_file: Path = get_asset_version_cache_location(mod, version)
-                archive_path: Path = self.overrides_folder / "mods" / source_file.name
-                archive.write(source_file, arcname=archive_path)
-
+            log.info("Adding overrides to the archive")
+            self.add_overrides(side, archive)
             log.info("Archive created successfully!")
+
+    def get_mods_to_override(self, side: Side) -> List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]:
+        """
+        Method to get the mods to override in the curse archive.
+
+        :param side: client side
+        :return: a list of couples where the first element is the mod object and the second is the version object
+        """
+        mods_to_override: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = [
+            (mod, version) for mod, version in self.get_mods(side) if is_mod_from_github(mod)
+        ]
+
+        return mods_to_override
+
+    def add_overrides(self, side: Side, archive: ZipFile) -> None:
+        """
+        Method to add the overrides to the curse archive.
+
+        :param side: client side
+        :param archive: curse archive
+        :return: None
+        """
+        archive.write(self.overrides, arcname="overrides/overrides.png")
+        archive.write(self.overrideslash, arcname="overrides/overrideslash.png")
+
+        mods_to_override: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = self.get_mods_to_override(side)
+        # if curse reject the archive because reasons, we will have
+        # to find an alternative for that, as downloading the files
+        # hosted on github from the deploader will get the players
+        # rate limited and the deploader will receive 403 http errors
+
+        for mod, version in mods_to_override:
+            source_file: Path = get_asset_version_cache_location(mod, version)
+            archive_path: Path = self.overrides_folder / "mods" / source_file.name
+            archive.write(source_file, arcname=archive_path)
+            if self.task_progress_callback is not None:
+                self.task_progress_callback(self.get_progress(), f"adding {source_file.name} to the archive")
 
     def add_config(
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
@@ -198,6 +227,8 @@ class CurseAssembler(GenericAssembler):
             dump(dep_json, temp, indent=2)
 
         archive.write(self.tempfile, arcname=str(self.dependencies_json))
+        if self.task_progress_callback is not None:
+            self.task_progress_callback(self.get_progress(), f"adding {self.dependencies_json} to the archive")
         self.tempfile.unlink()
 
     def generate_meta_data(self, side: Side, archive: ZipFile) -> None:
@@ -249,4 +280,8 @@ class CurseAssembler(GenericAssembler):
             dump(metadata_object, temp, indent=2)
 
         archive.write(self.tempfile, arcname=str(self.manifest_json))
+
+        if self.task_progress_callback is not None:
+            self.task_progress_callback(self.get_progress(), f"adding {self.manifest_json} to the archive")
+
         self.tempfile.unlink()
