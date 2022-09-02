@@ -509,8 +509,10 @@ class Window(Tk):
         try:
             self.trigger_toggle()
             gtnh: GTNHModpackManager = await self._get_modpack_manager()
+            global_delta_progress: float = 100 / (1 + 1)  # 1 for the syncing of the mods, 1 for update checks
             await gtnh.update_all(
-                progress_callback=self.progress_callback, global_progress_callback=self.global_callback
+                progress_callback=self.progress_callback,
+                global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
             )
             self.trigger_toggle()
             showinfo("assets updated successfully!", "all the assets have been updated correctly!")
@@ -529,7 +531,10 @@ class Window(Tk):
 
         :return: None
         """
-        # todo: add a callback to report progress
+
+        self.current_task_reset_callback()
+        self.global_reset_callback()
+
         try:
             self.trigger_toggle()
             gtnh: GTNHModpackManager = await self._get_modpack_manager()
@@ -537,8 +542,15 @@ class Window(Tk):
             if not existing_release:
                 raise ReleaseNotFoundException("Nightly release not found")
 
+            # 1 for the data download on github, 1 for the asset updates and 1 for the nightly build update
+            global_delta_progress: float = 100 / (1 + 1 + 1)
             release: GTNHRelease = await gtnh.update_release(
-                "nightly", existing_release=existing_release, update_available=True
+                "nightly",
+                existing_release=existing_release,
+                update_available=True,
+                progress_callback=self.progress_callback,
+                reset_progress_callback=self.current_task_reset_callback,
+                global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
             )
             gtnh.add_release(release, update=True)
             gtnh.save_modpack()
