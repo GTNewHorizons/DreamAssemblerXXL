@@ -13,6 +13,7 @@ log = get_logger(__name__)
 class Versionable(BaseModel):
     name: str
     latest_version: str
+    needs_attention: bool = Field(default=False)
     private: bool = Field(default=False)
 
     versions: list[GTNHVersion] = Field(default_factory=list)
@@ -24,6 +25,28 @@ class Versionable(BaseModel):
             self.versions[idx] = version
         else:
             bisect.insort_right(self.versions, version, key=version_sort_key)  # type: ignore
+        self.reset_latest()
+
+    def remove_version(self, version: GTNHVersion) -> bool:
+        return self.remove_version_tag(version.version_tag)
+
+    def remove_version_tag(self, version_tag: str) -> bool:
+        idx = self.get_version_idx(version_tag)
+
+        if idx is not None:
+            del self.versions[idx]
+            self.reset_latest()
+            return True
+
+        return False
+
+    def reset_latest(self) -> bool:
+        latest_version = self.get_latest_version()
+        if latest_version is not None and self.latest_version != latest_version.version_tag:
+            self.latest_version = latest_version.version_tag
+            self.needs_attention = False
+            return True
+        return False
 
     def get_latest_version(self) -> GTNHVersion | None:
         return self.versions[-1] if self.versions else None
@@ -58,3 +81,7 @@ def version_sort_key(version: GTNHVersion) -> LegacyVersion:
 
 def version_is_newer(test_version: str, existing_version: str) -> bool:
     return LegacyVersion(test_version) > LegacyVersion(existing_version)
+
+
+def version_is_older(test_version: str, existing_version: str) -> bool:
+    return LegacyVersion(test_version) < LegacyVersion(existing_version)
