@@ -37,7 +37,7 @@ from gtnh.models.gtnh_modpack import GTNHModpack
 from gtnh.models.gtnh_release import GTNHRelease, load_release, save_release
 from gtnh.models.gtnh_version import version_from_release
 from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
-from gtnh.models.versionable import Versionable, version_is_newer, version_sort_key
+from gtnh.models.versionable import Versionable, version_is_newer, version_is_older, version_sort_key
 from gtnh.utils import AttributeDict, blockquote, get_github_token, index
 
 log = get_logger(__name__)
@@ -162,6 +162,7 @@ class GTNHModpackManager:
         """
         version_updated = False
         versionable_updated = False
+        version_outdated = False
         log.info(
             f"Checking {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{versionable.latest_version}{Fore.RESET} for updates"
         )
@@ -176,6 +177,14 @@ class GTNHModpackManager:
                 f"Found candidate newer version for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}"
                 f"{Fore.RESET}"
             )
+        elif version_is_older(latest_version, versionable.latest_version):
+            log.warn(
+                f"Latest release by date for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}"
+                f"{Fore.RESET} is LOWER than the current latest release per DreamAssembler: "
+                f"{Fore.RED}{versionable.latest_version}{Fore.RESET}"
+            )
+            version_outdated = True
+            versionable.needs_attention = True
 
         if isinstance(versionable, GTNHModInfo):
             versionable_updated |= await self.update_github_mod_from_repo(versionable, repo)
@@ -185,9 +194,10 @@ class GTNHModpackManager:
             versionable_updated |= await self.update_versions_from_repo(versionable, repo)
 
         if versionable_updated:
+            self.needs_attention = False
             log.info(f"Updated {Fore.CYAN}{versionable.name}{Fore.RESET}!")
 
-        return versionable_updated
+        return versionable_updated or version_outdated  # If outdated we've flagged it and want to save the asset
 
     async def update_github_mod_from_repo(self, mod: GTNHModInfo, repo: AttributeDict) -> bool:
         """
