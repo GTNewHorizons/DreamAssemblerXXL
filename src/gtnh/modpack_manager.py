@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Callable, Optional
 
 from cache import AsyncLRU
-from colorama import Fore, Style
+from colorama import Back, Fore, Style
 from gidgethub import BadRequest
 from gidgethub.httpx import GitHubAPI
 from httpx import AsyncClient, HTTPStatusError
@@ -179,9 +179,9 @@ class GTNHModpackManager:
             )
         elif version_is_older(latest_version, versionable.latest_version):
             log.warn(
-                f"Latest release by date for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}"
+                f"{Back.MAGENTA}Latest release by date for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}"
                 f"{Fore.RESET} is LOWER than the current latest release per DreamAssembler: "
-                f"{Fore.RED}{versionable.latest_version}{Fore.RESET}"
+                f"{Fore.RED}{versionable.latest_version}{Fore.RESET}{Back.RESET}"
             )
             version_outdated = True
             versionable.needs_attention = True
@@ -483,6 +483,33 @@ class GTNHModpackManager:
 
         log.info(f"Successfully added {name}!")
         return new_mod
+
+    async def delete_github_mod(self, name: str) -> bool:
+        """
+        Attempts to delete a github repository from the assets.
+
+        :param name: the name of the repository
+        :return: true if the repo has been deleted from assets
+        """
+        log.info(f"Trying to delete `{name}`.")
+
+        if not self.assets.has_github_mod(name):
+            log.info(f"Mod `{name}` is not present in the assets.")
+            return False
+
+        mod_index: int = 0
+
+        for i, mod in enumerate(self.assets.github_mods):
+            if mod.name == name:
+                mod_index = i
+                break
+
+        del self.assets.github_mods[mod_index]
+        del self.assets._github_modmap
+        self.save_assets()
+
+        log.info(f"Successfully deleted {name}!")
+        return True
 
     async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
         try:

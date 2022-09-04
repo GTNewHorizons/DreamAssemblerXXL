@@ -102,12 +102,11 @@ class ReleaseAssembler:
             Archive.MODRINTH: self.assemble_modrinth,
         }
 
-        assemblers_server: Dict[str, Callable[[Side, bool], None]] = {
-            Archive.ZIP: self.assemble_zip
-        }
+        assemblers_server: Dict[str, Callable[[Side, bool], None]] = {Archive.ZIP: self.assemble_zip}
 
-        assemblers: Dict[str, Callable[[Side, bool], None]] = assemblers_client if side == Side.CLIENT else assemblers_server
-
+        assemblers: Dict[str, Callable[[Side, bool], None]] = (
+            assemblers_client if side == Side.CLIENT else assemblers_server
+        )
 
         for plateform, assembling in assemblers.items():
             if self.current_task_reset_callback is not None:

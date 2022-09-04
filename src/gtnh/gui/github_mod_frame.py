@@ -38,13 +38,17 @@ class GithubModList(LabelFrame):
         new_repo_text: str = "enter the new repo here"
         add_repo_text: str = "add repository"
         del_repo_text: str = "delete highlighted"
+        refresh_repo_text: str = "refresh repository data"
         self.width: int = (
-            width if width is not None else max(len(new_repo_text), len(add_repo_text), len(del_repo_text))
+            width
+            if width is not None
+            else max(len(new_repo_text), len(add_repo_text), len(del_repo_text), len(refresh_repo_text))
         )
 
         self.sv_repo_name: StringVar = StringVar(self, value="")
 
         self.mod_info_callback: Callable[[Any], None] = callbacks["mod_info"]
+        self.reset_mod_info_callback: Callable[[], None] = callbacks["reset_mod_info"]
 
         self.lb_mods: Listbox = Listbox(self, exportselection=False)
         self.lb_mods.bind("<<ListboxSelect>>", lambda event: asyncio.ensure_future(self.on_listbox_click(event)))
@@ -54,6 +58,9 @@ class GithubModList(LabelFrame):
 
         self.btn_add: Button = Button(self, text=add_repo_text, command=lambda: asyncio.ensure_future(self.add_repo()))
         self.btn_rem: Button = Button(self, text=del_repo_text, command=lambda: asyncio.ensure_future(self.del_repo()))
+        self.btn_refresh: Button = Button(
+            self, text=refresh_repo_text, command=lambda: asyncio.ensure_future(self.refresh_repo())
+        )
 
         self.scrollbar: Scrollbar = Scrollbar(self)
         self.lb_mods.configure(yscrollcommand=self.scrollbar.set)
@@ -70,6 +77,7 @@ class GithubModList(LabelFrame):
 
         self.btn_add.configure(width=self.width)
         self.btn_rem.configure(width=self.width)
+        self.btn_refresh.configure(width=self.width)
 
     def set_width(self, width: int) -> None:
         """
@@ -110,6 +118,7 @@ class GithubModList(LabelFrame):
         self.entry.grid_forget()
         self.btn_add.grid_forget()
         self.btn_rem.grid_forget()
+        self.btn_refresh.grid_forget()
 
         self.update_idletasks()
 
@@ -121,7 +130,7 @@ class GithubModList(LabelFrame):
         """
         x: int = 0
         y: int = 0
-        rows: int = 5
+        rows: int = 10
         columns: int = 2
 
         for i in range(rows):
@@ -136,6 +145,7 @@ class GithubModList(LabelFrame):
         self.entry.grid(row=x + 1, column=y + 1, columnspan=2)
         self.btn_add.grid(row=x + 2, column=y)
         self.btn_rem.grid(row=x + 2, column=y + 1, columnspan=2)
+        self.btn_refresh.grid(row=x + 3, column=y + 1, columnspan=2)
 
         self.update_idletasks()
 
@@ -148,7 +158,7 @@ class GithubModList(LabelFrame):
         """
         self.lb_mods.insert(END, *data)
 
-    async def on_listbox_click(self, event: Any) -> None:
+    async def on_listbox_click(self, event: Optional[Any] = None) -> None:
         """
         Callback used when the user clicks on the github mods' listbox.
 
@@ -181,18 +191,21 @@ class GithubModList(LabelFrame):
 
         self.mod_info_callback(data)
 
-    async def add_repo(self) -> None:
+    async def add_repo(self, name_override: Optional[str] = None) -> None:
         """
         Method called when the button to add the github repository to assets is pressed.
 
+        :param name_override: override passed when called by refresh_repo
         :return: None
         """
-        repo_name: str = self.sv_repo_name.get()
+        repo_name: str = self.sv_repo_name.get() if name_override is None else name_override
         if repo_name == "":
             return
 
         repo_list: List[str] = list(self.lb_mods.get(0, END))
-        if repo_name in repo_list:
+
+        if repo_name in repo_list and name_override is None:
+            # skipping check if called by refresh_repo, as the name will be already in the list
             showwarning("Repository already in the assets", f"{repo_name} is already in the assets.")
             return
 
@@ -200,10 +213,14 @@ class GithubModList(LabelFrame):
         try:
             await gtnh_modpack.add_github_mod(repo_name)
             gtnh_modpack.save_assets()
-            repo_list += [repo_name]
-            self.lb_mods.delete(0, END)
-            self.lb_mods.insert(END, *sorted(repo_list))
-            showinfo("Repository added successfully", f"{repo_name} has been added successfully to the assets!")
+
+            if name_override is None:  # no need to readd the mod if this is called by refresh_repo
+                repo_list += [repo_name]
+                self.lb_mods.delete(0, END)
+                self.lb_mods.insert(END, *sorted(repo_list))
+
+                # not showing the info if this is called by refresh_mod
+                showinfo("Repository added successfully", f"{repo_name} has been added successfully to the assets!")
 
         except RepoNotFoundException:
             showerror(
@@ -214,15 +231,45 @@ class GithubModList(LabelFrame):
                 "\n- Did you registered your token in DreamAssemblerXXL in case of a private repo?",
             )
 
-    async def del_repo(self) -> None:
+    async def del_repo(self, verbose: bool = True) -> None:
         """
         Method called when the button to delete the highlighted github repository is pressed.
 
+        :param verbose: if set to true show the error boxes
         :return: None
         """
-        showerror(
-            "Feature not yet implemented", "The removal of github repositories from assets is not yet implemented."
-        )
+        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        try:
+            repo_name = self.lb_mods.get(self.lb_mods.curselection()[0])
+        except IndexError:
+            showerror("No repository name selected.", "Please select a repository before trying to edit it.")
+            return
+
+        if await gtnh.delete_github_mod(repo_name) and verbose:
+
+            repo_list: List[str] = sorted([name for name in self.lb_mods.get(0, END) if name != repo_name])
+            self.lb_mods.delete(0, END)
+            self.lb_mods.insert(END, *repo_list)
+            self.reset_mod_info_callback()
+
+            showinfo("Repository successfully deleted", f"{repo_name} has been successfully deleted from assets.")
+
+    async def refresh_repo(self) -> None:
+        """
+        Method to rebuild the assets for a specified repository.
+
+        :return: None
+        """
+        try:
+            repo_name = self.lb_mods.get(self.lb_mods.curselection()[0])
+        except IndexError:
+            showerror("No repository name selected.", "Please select a repository before trying to edit it.")
+            return
+
+        await self.del_repo(verbose=False)
+        await self.add_repo(repo_name)
+        await self.on_listbox_click()
+        showinfo("Repository refreshed successfully", f"{repo_name} has been refreshed successfully!")
 
 
 class GithubModFrame(LabelFrame):
@@ -271,6 +318,7 @@ class GithubModFrame(LabelFrame):
             "mod_info": self.mod_info_frame.populate_data,
             "get_github_mods": callbacks["get_github_mods"],
             "get_gtnh": callbacks["get_gtnh"],
+            "reset_mod_info": self.mod_info_frame.reset,
         }
 
         self.github_mod_list: GithubModList = GithubModList(

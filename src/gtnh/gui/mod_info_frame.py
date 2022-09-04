@@ -196,3 +196,17 @@ class ModInfoFrame(LabelFrame):
         self.cb_version.set(data["current_version"])
         self.sv_license.set(data["license"])
         self.cb_side.set(data["side"])
+
+    def reset(self) -> None:
+        """
+        Method to reset all the fields.
+
+        :return: None
+        """
+
+        self.sv_mod_name.set("")
+        self.cb_version["values"] = []
+        self.cb_side["values"] = []
+        self.cb_version.set("")
+        self.sv_license.set("")
+        self.cb_side.set("")
