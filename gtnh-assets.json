@@ -243,7 +243,7 @@
     },
     {
       "name": "AE2FluidCraft-Rework",
-      "latest_version": "1.0.11-gtnh",
+      "latest_version": "1.0.12-gtnh",
       "versions": [
         {
           "version_tag": "1.0.0-gtnh",
@@ -336,6 +336,14 @@
           "filename": "ae2fc-1.7.10-1.0.11-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/76537559",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.11-gtnh/ae2fc-1.7.10-1.0.11-gtnh.jar"
+        },
+        {
+          "version_tag": "1.0.12-gtnh",
+          "changelog": "## What's Changed\n* update zh lang and fix import export bus shift click transfer upgrade card by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/14\n\n## New Contributors\n* @asdflj made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/14\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.11-gtnh...1.0.12-gtnh",
+          "tagged_at": "2022-09-04T15:51:32+00:00",
+          "filename": "ae2fc-1.7.10-1.0.12-gtnh.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/76843321",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.12-gtnh/ae2fc-1.7.10-1.0.12-gtnh.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -526,7 +534,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-103-GTNH",
+      "latest_version": "rv3-beta-104-GTNH",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -819,6 +827,14 @@
           "filename": "appliedenergistics2-1.7.10-rv3-beta-103-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/76539688",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-103-GTNH/appliedenergistics2-1.7.10-rv3-beta-103-GTNH.jar"
+        },
+        {
+          "version_tag": "rv3-beta-104-GTNH",
+          "changelog": "## What's Changed\n* Update buildscript, apply spotless by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/175\n* Fix NPE on client by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/177\n\n## New Contributors\n* @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/177\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-103-GTNH...rv3-beta-104-GTNH",
+          "tagged_at": "2022-09-04T15:45:41+00:00",
+          "filename": "appliedenergistics2-1.7.10-rv3-beta-104-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/76842939",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-104-GTNH/appliedenergistics2-1.7.10-rv3-beta-104-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -1455,7 +1471,7 @@
     },
     {
       "name": "Battlegear2",
-      "latest_version": "1.1.1.9",
+      "latest_version": "1.1.2.0",
       "versions": [
         {
           "version_tag": "1.0.8.5",
@@ -1540,6 +1556,14 @@
           "filename": "battlegear2-1.7.10-1.1.1.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Battlegear2/releases/assets/56516784",
           "browser_download_url": "https://github.com/GTNewHorizons/Battlegear2/releases/download/1.1.1.9/battlegear2-1.7.10-1.1.1.9.jar"
+        },
+        {
+          "version_tag": "1.1.2.0",
+          "changelog": "## What's Changed\n* fix missing MCVersion by @bombcar in https://github.com/GTNewHorizons/Battlegear2/pull/12\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.1.1.8...1.1.2.0",
+          "tagged_at": "2022-09-04T16:35:23+00:00",
+          "filename": "battlegear2-1.7.10-1.1.2.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Battlegear2/releases/assets/76845964",
+          "browser_download_url": "https://github.com/GTNewHorizons/Battlegear2/releases/download/1.1.2.0/battlegear2-1.7.10-1.1.2.0.jar"
         }
       ],
       "license": "GNU General Public License v3.0.",
@@ -3274,7 +3298,7 @@
     },
     {
       "name": "Electro-Magic-Tools",
-      "latest_version": "1.2.18-pre",
+      "latest_version": "1.2.8.20",
       "needs_attention": true,
       "versions": [
         {
@@ -3456,12 +3480,20 @@
           "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.2.8.18/EMT-1.7.10-1.2.8.18.jar"
         },
         {
-          "version_tag": "1.2.18-pre",
-          "changelog": "## What's Changed\n* Purge OpV (fix error voltage) by @miozune in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/47\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.2.8.18...1.2.18-pre",
-          "tagged_at": "2022-08-25T12:40:18+00:00",
-          "filename": "EMT-1.7.10-1.2.18-pre.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/75819668",
-          "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.2.18-pre/EMT-1.7.10-1.2.18-pre.jar"
+          "version_tag": "1.2.8.19",
+          "changelog": "## What's Changed\n* Purge OpV (fix error voltage) by @miozune in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/47\n* Make industrial wand recharger a valid energy consumer by @greesyB in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/46\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.2.8.18...1.2.8.19",
+          "tagged_at": "2022-08-29T20:27:05+00:00",
+          "filename": "EMT-1.7.10-1.2.8.19.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/76229534",
+          "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.2.8.19/EMT-1.7.10-1.2.8.19.jar"
+        },
+        {
+          "version_tag": "1.2.8.20",
+          "changelog": "## What's Changed\n* Purge OpV (fix error voltage) by @miozune in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/47\n* Make industrial wand recharger a valid energy consumer by @greesyB in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/46\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.2.8.18...1.2.8.20",
+          "tagged_at": "2022-09-03T10:18:12+00:00",
+          "filename": "EMT-1.7.10-1.2.8.20.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/76750965",
+          "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.2.8.20/EMT-1.7.10-1.2.8.20.jar"
         }
       ],
       "license": "GNU General Public License v3.0.",
@@ -5164,7 +5196,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.41.27",
+      "latest_version": "5.09.41.28",
       "versions": [
         {
           "version_tag": "5.09.40.01",
@@ -6136,6 +6168,14 @@
           "filename": "gregtech-1.7.10-5.09.41.27.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/76769070",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.27/gregtech-1.7.10-5.09.41.27.jar"
+        },
+        {
+          "version_tag": "5.09.41.28",
+          "changelog": "## What's Changed\n* Move steam valves to circuit 5 by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1341\n* Fix blaze recycle recipes not being generated by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1343\n* Fix temperature of Molten Reinforced Glass by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1342\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.27...5.09.41.28",
+          "tagged_at": "2022-09-04T15:46:04+00:00",
+          "filename": "gregtech-1.7.10-5.09.41.28.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/76842975",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.28/gregtech-1.7.10-5.09.41.28.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -6489,7 +6529,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.7.85",
+      "latest_version": "1.7.86",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -6962,6 +7002,14 @@
           "filename": "GT-PlusPlus-1.7.10-1.7.85.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76770025",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.85/GT-PlusPlus-1.7.10-1.7.85.jar"
+        },
+        {
+          "version_tag": "1.7.86",
+          "changelog": "## What's Changed\n* allow separate input bus for wiremill by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/335\n* Fix PSS average i/o scanner display by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/336\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.85...1.7.86",
+          "tagged_at": "2022-09-04T16:09:09+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.86.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76844621",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.86/GT-PlusPlus-1.7.10-1.7.86.jar"
         }
       ],
       "license": "GNU General Public License v3.0.",
@@ -9011,7 +9059,7 @@
     },
     {
       "name": "NEI-Integration",
-      "latest_version": "1.2.0",
+      "latest_version": "1.2.2",
       "needs_attention": true,
       "versions": [
         {
@@ -9034,6 +9082,14 @@
           "filename": "NEIIntegration-1.7.10-1.2.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NEI-Integration/releases/assets/51403245",
           "browser_download_url": "https://github.com/GTNewHorizons/NEI-Integration/releases/download/1.2.0/NEIIntegration-1.7.10-1.2.0.jar"
+        },
+        {
+          "version_tag": "1.2.2",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NEI-Integration/compare/1.1.4...1.2.2",
+          "tagged_at": "2022-09-04T16:29:04+00:00",
+          "filename": "NEIIntegration-1.7.10-1.2.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NEI-Integration/releases/assets/76845678",
+          "browser_download_url": "https://github.com/GTNewHorizons/NEI-Integration/releases/download/1.2.2/NEIIntegration-1.7.10-1.2.2.jar"
         }
       ],
       "license": "Original code licensed under the MIT License, GTNH modifications licensed under the GNU Lesser General Public License v3.0.",
@@ -9111,7 +9167,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "1.9.68-pre",
+      "latest_version": "1.9.69",
       "versions": [
         {
           "version_tag": "1.9.11",
@@ -9534,6 +9590,14 @@
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.68-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76770634",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.68-pre/GTNewHorizonsCoreMod-1.7.10-1.9.68-pre.jar"
+        },
+        {
+          "version_tag": "1.9.69",
+          "changelog": "## What's Changed\n* Nano armor by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/407\n* Fix Glass Fiber Wiremill Recipe by @LewisSaber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/408\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.67...1.9.69",
+          "tagged_at": "2022-09-04T15:53:44+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.69.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76843467",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.69/GTNewHorizonsCoreMod-1.7.10-1.9.69.jar"
         }
       ],
       "license": "GNU General Public License v3.0.",
@@ -9638,7 +9702,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.2.334-GTNH",
+      "latest_version": "2.3.0-GTNH",
       "needs_attention": true,
       "versions": [
         {
@@ -10134,12 +10198,28 @@
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.33-GTNH/NotEnoughItems-1.7.10-2.2.33-GTNH.jar"
         },
         {
+          "version_tag": "2.2.34-GTNH",
+          "changelog": "## What's Changed\n* Allow using handlerId for handler order by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/290\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.334-GTNH...2.2.34-GTNH",
+          "tagged_at": "2022-09-03T09:18:15+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.2.34-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76747559",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.34-GTNH/NotEnoughItems-1.7.10-2.2.34-GTNH.jar"
+        },
+        {
           "version_tag": "2.2.334-GTNH",
           "changelog": "## What's Changed\n* Update Handlers by @DrParadox7 in https://github.com/GTNewHorizons/NotEnoughItems/pull/288\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.33-GTNH...2.2.334-GTNH",
           "tagged_at": "2022-09-01T11:35:25+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.334-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76544587",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.334-GTNH/NotEnoughItems-1.7.10-2.2.334-GTNH.jar"
+        },
+        {
+          "version_tag": "2.3.0-GTNH",
+          "changelog": "## What's Changed\n* Update Handlers by @DrParadox7 in https://github.com/GTNewHorizons/NotEnoughItems/pull/288\n* Allow using handlerId for handler order by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/290\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.33-GTNH...2.3.0-GTNH",
+          "tagged_at": "2022-09-04T15:57:56+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.3.0-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76843839",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.0-GTNH/NotEnoughItems-1.7.10-2.3.0-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -10639,7 +10719,7 @@
     },
     {
       "name": "PersonalSpace",
-      "latest_version": "1.0.14",
+      "latest_version": "1.0.15",
       "versions": [
         {
           "version_tag": "1.0.3-GTNH",
@@ -10720,6 +10800,14 @@
           "filename": "personalspace-1.7.10-1.0.14.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/76042074",
           "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.14/personalspace-1.7.10-1.0.14.jar"
+        },
+        {
+          "version_tag": "1.0.15",
+          "changelog": "## What's Changed\n* More diagnostics if getConfig() returns null by @eigenraven in https://github.com/GTNewHorizons/PersonalSpace/pull/9\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.14...1.0.15",
+          "tagged_at": "2022-09-04T11:10:05+00:00",
+          "filename": "personalspace-1.7.10-1.0.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/76829240",
+          "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.15/personalspace-1.7.10-1.0.15.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -11064,7 +11152,7 @@
     },
     {
       "name": "Schematica",
-      "latest_version": "1.8.8-GTNH-pre",
+      "latest_version": "1.9.0-GTNH",
       "needs_attention": true,
       "versions": [
         {
@@ -11136,6 +11224,14 @@
           "filename": "Schematica-1.7.10-1.8.8-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Schematica/releases/assets/70647749",
           "browser_download_url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.8.8-GTNH-pre/Schematica-1.7.10-1.8.8-GTNH-pre.jar"
+        },
+        {
+          "version_tag": "1.9.0-GTNH",
+          "changelog": "## What's Changed\n* Buildscript, Lotr mod compatibility, credits update, Schematic name on screen by @mist475 in https://github.com/GTNewHorizons/Schematica/pull/11\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.8.8-GTNH-pre...1.9.0-GTNH",
+          "tagged_at": "2022-09-04T16:27:30+00:00",
+          "filename": "Schematica-1.7.10-1.9.0-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Schematica/releases/assets/76845612",
+          "browser_download_url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.9.0-GTNH/Schematica-1.7.10-1.9.0-GTNH.jar"
         }
       ],
       "license": "MIT License.",
@@ -11333,7 +11429,7 @@
     },
     {
       "name": "SpiceOfLife",
-      "latest_version": "2.0.4-carrot",
+      "latest_version": "2.0.5-carrot",
       "needs_attention": true,
       "versions": [
         {
@@ -11409,6 +11505,14 @@
           "filename": "SpiceOfLife-1.7.10-2.0.4-carrot.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/73524638",
           "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.0.4-carrot/SpiceOfLife-1.7.10-2.0.4-carrot.jar"
+        },
+        {
+          "version_tag": "2.0.5-carrot",
+          "changelog": "## What's Changed\n* Show HP tooltip even when diminishing returns is disabled by @glowredman in https://github.com/GTNewHorizons/SpiceOfLife/pull/23\n\n## New Contributors\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/SpiceOfLife/pull/23\n\n**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.0.2-corrot...2.0.5-carrot",
+          "tagged_at": "2022-09-04T16:32:23+00:00",
+          "filename": "SpiceOfLife-1.7.10-2.0.5-carrot.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/76845815",
+          "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.0.5-carrot/SpiceOfLife-1.7.10-2.0.5-carrot.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -11573,7 +11677,7 @@
     },
     {
       "name": "StevesAddons",
-      "latest_version": "0.10.23",
+      "latest_version": "0.10.24",
       "versions": [
         {
           "version_tag": "0.1.0.24",
@@ -11623,6 +11727,14 @@
           "filename": "StevesAddons-1.7.10-0.10.23.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StevesAddons/releases/assets/58363198",
           "browser_download_url": "https://github.com/GTNewHorizons/StevesAddons/releases/download/0.10.23/StevesAddons-1.7.10-0.10.23.jar"
+        },
+        {
+          "version_tag": "0.10.24",
+          "changelog": "## What's Changed\n* Fix crash when slot tank is null by @Glease in https://github.com/GTNewHorizons/StevesAddons/pull/9\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.10.23...0.10.24",
+          "tagged_at": "2022-09-04T15:51:56+00:00",
+          "filename": "StevesAddons-1.7.10-0.10.24.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StevesAddons/releases/assets/76843337",
+          "browser_download_url": "https://github.com/GTNewHorizons/StevesAddons/releases/download/0.10.24/StevesAddons-1.7.10-0.10.24.jar"
         }
       ],
       "license": "Don’t Be a Jerk Non-Commercial License",
@@ -12366,7 +12478,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.0.33",
+      "latest_version": "5.0.34",
       "versions": [
         {
           "version_tag": "4.10.12",
@@ -12626,6 +12738,14 @@
           "filename": "TecTech-1.7.10-5.0.33.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/76539465",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.33/TecTech-1.7.10-5.0.33.jar"
+        },
+        {
+          "version_tag": "5.0.34",
+          "changelog": "## What's Changed\n* Spotless apply for branch uev-update for #92 by @github-actions in https://github.com/GTNewHorizons/TecTech/pull/93\n* Use UEV SC for UEV Energy Hatch and Dynamo Hatch by @miozune in https://github.com/GTNewHorizons/TecTech/pull/92\n* Fix Assembly Line Slave Connector dropping all Data Sticks by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/94\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.33...5.0.34",
+          "tagged_at": "2022-09-04T15:46:46+00:00",
+          "filename": "TecTech-1.7.10-5.0.34.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/76843047",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.34/TecTech-1.7.10-5.0.34.jar"
         }
       ],
       "license": "MIT License.",
