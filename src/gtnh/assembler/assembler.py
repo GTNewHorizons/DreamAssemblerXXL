@@ -87,16 +87,27 @@ class ReleaseAssembler:
         :param verbose: bool flag enabling verbose mod
         :return: None
         """
+
+        if side not in {side.CLIENT, side.SERVER}:
+            raise ValueError(f"Only valid sides are {Side.CLIENT} or {Side.SERVER}, got {side}")
+
         if self.current_task_reset_callback is not None:
             self.current_task_reset_callback()
 
-        assemblers: Dict[str, Callable[[Side, bool], None]] = {
+        assemblers_client: Dict[str, Callable[[Side, bool], None]] = {
             Archive.ZIP: self.assemble_zip,
             Archive.MMC: self.assemble_mmc,
             Archive.TECHNIC: self.assemble_technic,
             Archive.CURSEFORGE: self.assemble_curse,
             Archive.MODRINTH: self.assemble_modrinth,
         }
+
+        assemblers_server: Dict[str, Callable[[Side, bool], None]] = {
+            Archive.ZIP: self.assemble_zip
+        }
+
+        assemblers: Dict[str, Callable[[Side, bool], None]] = assemblers_client if side == Side.CLIENT else assemblers_server
+
 
         for plateform, assembling in assemblers.items():
             if self.current_task_reset_callback is not None:
