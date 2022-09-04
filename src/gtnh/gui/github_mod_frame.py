@@ -38,11 +38,18 @@ class GithubModList(LabelFrame):
         new_repo_text: str = "enter the new repo here"
         add_repo_text: str = "add repository"
         del_repo_text: str = "delete highlighted"
+        refresh_all_text: str = "refresh all the repositories"
         refresh_repo_text: str = "refresh repository data"
         self.width: int = (
             width
             if width is not None
-            else max(len(new_repo_text), len(add_repo_text), len(del_repo_text), len(refresh_repo_text))
+            else max(
+                len(new_repo_text),
+                len(add_repo_text),
+                len(del_repo_text),
+                len(refresh_repo_text),
+                len(refresh_all_text),
+            )
         )
 
         self.sv_repo_name: StringVar = StringVar(self, value="")
@@ -61,6 +68,9 @@ class GithubModList(LabelFrame):
         self.btn_refresh: Button = Button(
             self, text=refresh_repo_text, command=lambda: asyncio.ensure_future(self.refresh_repo())
         )
+        self.btn_refresh_all: Button = Button(
+            self, text=refresh_all_text, command=lambda: asyncio.ensure_future(self.refresh_all())
+        )
 
         self.scrollbar: Scrollbar = Scrollbar(self)
         self.lb_mods.configure(yscrollcommand=self.scrollbar.set)
@@ -78,6 +88,7 @@ class GithubModList(LabelFrame):
         self.btn_add.configure(width=self.width)
         self.btn_rem.configure(width=self.width)
         self.btn_refresh.configure(width=self.width)
+        self.btn_refresh_all.configure(width=self.width)
 
     def set_width(self, width: int) -> None:
         """
@@ -119,6 +130,7 @@ class GithubModList(LabelFrame):
         self.btn_add.grid_forget()
         self.btn_rem.grid_forget()
         self.btn_refresh.grid_forget()
+        self.btn_refresh_all.grid_forget()
 
         self.update_idletasks()
 
@@ -146,6 +158,7 @@ class GithubModList(LabelFrame):
         self.btn_add.grid(row=x + 2, column=y)
         self.btn_rem.grid(row=x + 2, column=y + 1, columnspan=2)
         self.btn_refresh.grid(row=x + 3, column=y + 1, columnspan=2)
+        self.btn_refresh_all.grid(row=x + 3, column=y)
 
         self.update_idletasks()
 
@@ -270,6 +283,16 @@ class GithubModList(LabelFrame):
         await self.add_repo(repo_name)
         await self.on_listbox_click()
         showinfo("Repository refreshed successfully", f"{repo_name} has been refreshed successfully!")
+
+    async def refresh_all(self) -> None:
+        """
+        Method used to refresh all the github mod assets.
+
+        :return: None
+        """
+        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        await gtnh.regen_github_assets()
+        showinfo("Github assets had been updated successfully", "All the github assets had been updated successfully!")
 
 
 class GithubModFrame(LabelFrame):

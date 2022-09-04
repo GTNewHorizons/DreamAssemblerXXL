@@ -511,6 +511,13 @@ class GTNHModpackManager:
         log.info(f"Successfully deleted {name}!")
         return True
 
+    async def regen_github_assets(self) -> None:
+        log.info("refreshing all the github mods")
+        repo_names = [repo.name for repo in self.assets.github_mods]
+        for repo_name in repo_names:
+            await self.delete_github_mod(repo_name)
+            await self.add_github_mod(repo_name)
+
     async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
         try:
             latest_release = await self.get_latest_github_release(repo)
