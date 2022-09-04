@@ -32,6 +32,13 @@ class GithubModList(LabelFrame):
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
         self.get_github_mods_callback: Callable[[], Dict[str, str]] = callbacks["get_github_mods"]
+        self.update_current_task_progress_bar: Callable[[float, str], None] = callbacks[
+            "update_current_task_progress_bar"
+        ]
+        self.update_global_progress_bar: Callable[[float, str], None] = callbacks["update_global_progress_bar"]
+        self.reset_current_task_progress_bar: Callable[[], None] = callbacks["reset_current_task_progress_bar"]
+        self.reset_global_progress_bar: Callable[[], None] = callbacks["reset_global_progress_bar"]
+
         self.ypadding: int = 0
         self.xpadding: int = 0
 
@@ -284,14 +291,28 @@ class GithubModList(LabelFrame):
         await self.on_listbox_click()
         showinfo("Repository refreshed successfully", f"{repo_name} has been refreshed successfully!")
 
+    def _update_callback(self, delta_progress: float, msg: str) -> None:
+        """
+        callback used in refresh_all to update the progress bars.
+
+        :param delta_progress: the progress to add to the progress bar
+        :param msg: the message to display for the current task progress bar
+        :return: None
+        """
+        self.update_global_progress_bar(delta_progress, "Regenerating github assets")
+        self.update_current_task_progress_bar(delta_progress, msg)
+
     async def refresh_all(self) -> None:
         """
         Method used to refresh all the github mod assets.
 
         :return: None
         """
+        self.reset_global_progress_bar()
+        self.reset_current_task_progress_bar()
+
         gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-        await gtnh.regen_github_assets()
+        await gtnh.regen_github_assets(callback=self._update_callback)
         showinfo("Github assets had been updated successfully", "All the github assets had been updated successfully!")
 
 
@@ -342,6 +363,10 @@ class GithubModFrame(LabelFrame):
             "get_github_mods": callbacks["get_github_mods"],
             "get_gtnh": callbacks["get_gtnh"],
             "reset_mod_info": self.mod_info_frame.reset,
+            "update_current_task_progress_bar": callbacks["update_current_task_progress_bar"],
+            "update_global_progress_bar": callbacks["update_global_progress_bar"],
+            "reset_current_task_progress_bar": callbacks["reset_current_task_progress_bar"],
+            "reset_global_progress_bar": callbacks["reset_global_progress_bar"],
         }
 
         self.github_mod_list: GithubModList = GithubModList(

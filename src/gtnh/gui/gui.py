@@ -88,32 +88,6 @@ class Window(Tk):
 
         self.delta_progress: float = 0  # progression between 2 tasks (in %) for the global progress bar
 
-        # frame for the github mods
-        github_frame_callbacks: Dict[str, Any] = {
-            "get_gtnh": self._get_modpack_manager,
-            "get_github_mods": self.get_github_mods,
-            "set_github_mod_version": self.set_github_mod_version,
-            "set_github_mod_side": lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)),
-            "set_modpack_version": self.set_modpack_version,
-        }
-
-        self.github_mod_frame: GithubModFrame = GithubModFrame(
-            self, frame_name="github mods data", callbacks=github_frame_callbacks
-        )
-
-        # frame for the external mods
-
-        external_frame_callbacks: Dict[str, Any] = {
-            "set_external_mod_version": self.set_external_mod_version,
-            "set_external_mod_side": lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)),
-            "get_gtnh": self._get_modpack_manager,
-            "get_external_mods": self.get_github_mods,
-        }
-
-        self.external_mod_frame: ExternalModFrame = ExternalModFrame(
-            self, frame_name="external mod data", callbacks=external_frame_callbacks
-        )
-
         # frame for the modpack handling
         modpack_list_callbacks: Dict[str, Any] = {
             "load": lambda release_name: asyncio.ensure_future(self.load_gtnh_version(release_name)),
@@ -134,6 +108,47 @@ class Window(Tk):
 
         self.modpack_list_frame: ModpackFrame = ModpackFrame(
             self, frame_name="modpack release actions", callbacks=modpack_list_callbacks
+        )
+
+        self.progress_callback: Callable[
+            [float, str], None
+        ] = self.modpack_list_frame.action_frame.update_current_task_progress_bar
+        self.global_callback: Callable[
+            [float, str], None
+        ] = self.modpack_list_frame.action_frame.update_global_progress_bar
+        self.global_reset_callback: Callable[[], None] = self.modpack_list_frame.action_frame.reset_global_progress_bar
+        self.current_task_reset_callback: Callable[
+            [], None
+        ] = self.modpack_list_frame.action_frame.reset_current_task_progress_bar
+
+        # frame for the github mods
+        github_frame_callbacks: Dict[str, Any] = {
+            "get_gtnh": self._get_modpack_manager,
+            "get_github_mods": self.get_github_mods,
+            "set_github_mod_version": self.set_github_mod_version,
+            "set_github_mod_side": lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)),
+            "set_modpack_version": self.set_modpack_version,
+            "update_current_task_progress_bar": self.progress_callback,
+            "update_global_progress_bar": self.global_callback,
+            "reset_current_task_progress_bar": self.current_task_reset_callback,
+            "reset_global_progress_bar": self.global_reset_callback,
+        }
+
+        self.github_mod_frame: GithubModFrame = GithubModFrame(
+            self, frame_name="github mods data", callbacks=github_frame_callbacks
+        )
+
+        # frame for the external mods
+
+        external_frame_callbacks: Dict[str, Any] = {
+            "set_external_mod_version": self.set_external_mod_version,
+            "set_external_mod_side": lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)),
+            "get_gtnh": self._get_modpack_manager,
+            "get_external_mods": self.get_github_mods,
+        }
+
+        self.external_mod_frame: ExternalModFrame = ExternalModFrame(
+            self, frame_name="external mod data", callbacks=external_frame_callbacks
         )
 
         exclusion_client_callbacks: Dict[str, Any] = {
@@ -160,17 +175,6 @@ class Window(Tk):
         self.external_mod_frame.set_width(width)
 
         self.toggled: bool = True  # state variable indicating if the widgets are disabled or not
-
-        self.progress_callback: Callable[
-            [float, str], None
-        ] = self.modpack_list_frame.action_frame.update_current_task_progress_bar
-        self.global_callback: Callable[
-            [float, str], None
-        ] = self.modpack_list_frame.action_frame.update_global_progress_bar
-        self.global_reset_callback: Callable[[], None] = self.modpack_list_frame.action_frame.reset_global_progress_bar
-        self.current_task_reset_callback: Callable[
-            [], None
-        ] = self.modpack_list_frame.action_frame.reset_current_task_progress_bar
 
     def trigger_toggle(self) -> None:
         """

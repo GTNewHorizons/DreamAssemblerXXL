@@ -482,6 +482,7 @@ class GTNHModpackManager:
         del self.assets._github_modmap
 
         log.info(f"Successfully added {name}!")
+        self.save_assets()
         return new_mod
 
     async def delete_github_mod(self, name: str) -> bool:
@@ -511,10 +512,13 @@ class GTNHModpackManager:
         log.info(f"Successfully deleted {name}!")
         return True
 
-    async def regen_github_assets(self) -> None:
+    async def regen_github_assets(self, callback: Optional[Callable[[float, str], None]] = None) -> None:
         log.info("refreshing all the github mods")
         repo_names = [repo.name for repo in self.assets.github_mods]
+        delta_progress: float = 100 / len(repo_names)
         for repo_name in repo_names:
+            if callback is not None:
+                callback(delta_progress, f"regenerating assets for {repo_name}")
             await self.delete_github_mod(repo_name)
             await self.add_github_mod(repo_name)
 
