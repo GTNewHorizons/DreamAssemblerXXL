@@ -32,10 +32,10 @@ class ModInfoFrame(LabelFrame):
         self.xpadding: int = 0
         self.callbacks: Dict[str, Any] = callbacks
 
-        self.label_mod_name_text: str = "mod name:"
-        self.label_version_text: str = "mod version:"
-        self.label_license_text: str = "mod license:"
-        self.label_size_text: str = "mod side:"
+        self.label_mod_name_text: str = "Mod name:"
+        self.label_version_text: str = "Mod version:"
+        self.label_license_text: str = "Mod license:"
+        self.label_size_text: str = "Mod side:"
 
         self.width: int = (
             width

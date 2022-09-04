@@ -42,11 +42,11 @@ class GithubModList(LabelFrame):
         self.ypadding: int = 0
         self.xpadding: int = 0
 
-        new_repo_text: str = "enter the new repo here"
-        add_repo_text: str = "add repository"
-        del_repo_text: str = "delete highlighted"
-        refresh_all_text: str = "refresh all the repositories"
-        refresh_repo_text: str = "refresh repository data"
+        new_repo_text: str = "Enter the new repo here"
+        add_repo_text: str = "Add repository"
+        del_repo_text: str = "Delete highlighted"
+        refresh_all_text: str = "Refresh all the repositories"
+        refresh_repo_text: str = "Refresh repository data"
         self.width: int = (
             width
             if width is not None
@@ -355,7 +355,7 @@ class GithubModFrame(LabelFrame):
         }
 
         self.mod_info_frame: ModInfoFrame = ModInfoFrame(
-            self, frame_name="github mod info", callbacks=mod_info_callbacks
+            self, frame_name="Github mod info", callbacks=mod_info_callbacks
         )
 
         github_mod_list_callbacks: Dict[str, Any] = {
@@ -370,7 +370,7 @@ class GithubModFrame(LabelFrame):
         }
 
         self.github_mod_list: GithubModList = GithubModList(
-            self, frame_name="github mod list", callbacks=github_mod_list_callbacks
+            self, frame_name="Github mod list", callbacks=github_mod_list_callbacks
         )
 
         if self.width is None:

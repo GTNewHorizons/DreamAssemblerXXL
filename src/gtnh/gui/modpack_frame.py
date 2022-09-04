@@ -38,7 +38,7 @@ class ModpackFrame(LabelFrame):
             "generate_nightly": self.update_nightly,
             "update_assets": callbacks["update_assets"],
         }
-        self.action_frame: ActionFrame = ActionFrame(self, frame_name="availiable tasks", callbacks=action_callbacks)
+        self.action_frame: ActionFrame = ActionFrame(self, frame_name="Availiable tasks", callbacks=action_callbacks)
 
         modpack_list_callbacks: Dict[str, Any] = {
             "load": callbacks["load"],

@@ -107,7 +107,7 @@ class Window(Tk):
         }
 
         self.modpack_list_frame: ModpackFrame = ModpackFrame(
-            self, frame_name="modpack release actions", callbacks=modpack_list_callbacks
+            self, frame_name="Modpack release actions", callbacks=modpack_list_callbacks
         )
 
         self.progress_callback: Callable[
@@ -135,7 +135,7 @@ class Window(Tk):
         }
 
         self.github_mod_frame: GithubModFrame = GithubModFrame(
-            self, frame_name="github mods data", callbacks=github_frame_callbacks
+            self, frame_name="Github mods data", callbacks=github_frame_callbacks
         )
 
         # frame for the external mods
@@ -148,7 +148,7 @@ class Window(Tk):
         }
 
         self.external_mod_frame: ExternalModFrame = ExternalModFrame(
-            self, frame_name="external mod data", callbacks=external_frame_callbacks
+            self, frame_name="External mod data", callbacks=external_frame_callbacks
         )
 
         exclusion_client_callbacks: Dict[str, Any] = {
@@ -158,7 +158,7 @@ class Window(Tk):
 
         # frame for the client file exclusions
         self.exclusion_frame_client: ExclusionFrame = ExclusionFrame(
-            self, "client exclusions", callbacks=exclusion_client_callbacks
+            self, "Client exclusions", callbacks=exclusion_client_callbacks
         )
 
         exclusion_server_callbacks: Dict[str, Any] = {
@@ -168,7 +168,7 @@ class Window(Tk):
 
         # frame for the server side exclusions
         self.exclusion_frame_server: ExclusionFrame = ExclusionFrame(
-            self, "server exclusions", callbacks=exclusion_server_callbacks
+            self, "Server exclusions", callbacks=exclusion_server_callbacks
         )
 
         width: int = self.github_mod_frame.get_width()

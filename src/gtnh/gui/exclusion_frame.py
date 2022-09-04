@@ -22,8 +22,8 @@ class ExclusionFrame(LabelFrame):
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0
         self.ypadding: int = 0
-        self.btn_add_text: str = "add new exclusion"
-        self.btn_del_text: str = "remove highlighted"
+        self.btn_add_text: str = "Add new exclusion"
+        self.btn_del_text: str = "Remove highlighted"
         self.width: int = width if width is not None else max(len(self.btn_add_text), len(self.btn_del_text))
         self.listbox: Listbox = Listbox(self, exportselection=False, height=16)
         self.sv_entry: StringVar = StringVar(value="")
