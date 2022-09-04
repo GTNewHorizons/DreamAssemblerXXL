@@ -7,7 +7,7 @@ from pathlib import Path
 from typing import Callable, Optional
 
 from cache import AsyncLRU
-from colorama import Back, Fore, Style
+from colorama import Fore, Style
 from gidgethub import BadRequest
 from gidgethub.httpx import GitHubAPI
 from httpx import AsyncClient, HTTPStatusError
@@ -179,9 +179,9 @@ class GTNHModpackManager:
             )
         elif version_is_older(latest_version, versionable.latest_version):
             log.warn(
-                f"{Back.MAGENTA}Latest release by date for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}"
+                f"Latest release by date for mod {Fore.CYAN}{versionable.name}:{Fore.RED}{latest_version}"
                 f"{Fore.RESET} is LOWER than the current latest release per DreamAssembler: "
-                f"{Fore.RED}{versionable.latest_version}{Fore.RESET}{Back.RESET}"
+                f"{Fore.RED}{versionable.latest_version}{Fore.RESET}"
             )
             version_outdated = True
             versionable.needs_attention = True
