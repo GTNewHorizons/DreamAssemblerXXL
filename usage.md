@@ -10,7 +10,7 @@ To run DreamAssemblerXXL do type the following commands in a terminal/console at
 - (only if you are on windows) `chcp 65001`
 - `poetry run python -m gtnh.gui.gui`
 
-DreamAssemblerXXL can be splitted up in 3 categories: Modpack management( in red) Mod management(in green) and File exclusion management(in yellow)
+DreamAssemblerXXL can be splitted up in 3 categories: Modpack management (in green), Mod management (in red) and File exclusion management (in yellow)
 
 ![image](https://user-images.githubusercontent.com/12850933/187891144-e9cd9402-eaea-4a10-a658-a46094884f8b.png)
 
