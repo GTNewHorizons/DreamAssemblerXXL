@@ -41,7 +41,7 @@ def _get_token(token_name: str, token_env: str, token_path: str) -> str:
         token_file = os.path.expanduser(token_path)
         if os.path.exists(token_file):
             with open(token_file) as f:
-                token = f.readline()[:-1]
+                token = f.readline().rstrip()
                 os.environ[token_name] = token
         else:
             raise Exception(f"Token '{token_name}' not found in '{token_env}' or '{token_file}'")
