@@ -29,8 +29,8 @@ class ExternalModList(LabelFrame):
         self.ypadding: int = 0
         self.xpadding: int = 0
 
-        self.btn_add_text: str = "add new"
-        self.btn_rem_text: str = "delete highlighted"
+        self.btn_add_text: str = "Add new"
+        self.btn_rem_text: str = "Delete highlighted"
 
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
         self.get_external_mods_callback: Callable[[], Dict[str, str]] = callbacks["get_external_mods"]
@@ -44,11 +44,11 @@ class ExternalModList(LabelFrame):
         self.lb_mods.bind("<<ListboxSelect>>", lambda event: asyncio.ensure_future(self.on_listbox_click(event)))
 
         self.btn_add: Button = Button(
-            self, text="add new", command=lambda: asyncio.ensure_future(self.add_external_mod())
+            self, text=self.btn_add_text, command=lambda: asyncio.ensure_future(self.add_external_mod())
         )
 
         self.btn_rem: Button = Button(
-            self, text="delete highlighted", command=lambda: asyncio.ensure_future(self.del_external_mod())
+            self, text=self.btn_rem_text, command=lambda: asyncio.ensure_future(self.del_external_mod())
         )
 
         self.scrollbar: Scrollbar = Scrollbar(self)
@@ -213,7 +213,7 @@ class ExternalModFrame(LabelFrame):
             "set_mod_side": callbacks["set_external_mod_side"],
         }
         self.mod_info_frame: ModInfoFrame = ModInfoFrame(
-            self, frame_name="external mod info", callbacks=mod_info_callbacks
+            self, frame_name="External mod info", callbacks=mod_info_callbacks
         )
 
         external_mod_list_callbacks: Dict[str, Any] = {
@@ -223,7 +223,7 @@ class ExternalModFrame(LabelFrame):
         }
 
         self.external_mod_list: ExternalModList = ExternalModList(
-            self, frame_name="external mod list", callbacks=external_mod_list_callbacks
+            self, frame_name="External mod list", callbacks=external_mod_list_callbacks
         )
 
         if self.width is None:

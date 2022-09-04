@@ -32,10 +32,10 @@ class ModInfoFrame(LabelFrame):
         self.xpadding: int = 0
         self.callbacks: Dict[str, Any] = callbacks
 
-        self.label_mod_name_text: str = "mod name:"
-        self.label_version_text: str = "mod version:"
-        self.label_license_text: str = "mod license:"
-        self.label_size_text: str = "mod side:"
+        self.label_mod_name_text: str = "Mod name:"
+        self.label_version_text: str = "Mod version:"
+        self.label_license_text: str = "Mod license:"
+        self.label_size_text: str = "Mod side:"
 
         self.width: int = (
             width
@@ -196,3 +196,17 @@ class ModInfoFrame(LabelFrame):
         self.cb_version.set(data["current_version"])
         self.sv_license.set(data["license"])
         self.cb_side.set(data["side"])
+
+    def reset(self) -> None:
+        """
+        Method to reset all the fields.
+
+        :return: None
+        """
+
+        self.sv_mod_name.set("")
+        self.cb_version["values"] = []
+        self.cb_side["values"] = []
+        self.cb_version.set("")
+        self.sv_license.set("")
+        self.cb_side.set("")

@@ -1,7 +1,7 @@
 import asyncio
 from pathlib import Path
 from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
-from tkinter.messagebox import showerror, showinfo
+from tkinter.messagebox import showerror, showinfo, showwarning
 from typing import Any, Callable, Dict, List, Optional, Set, Tuple, Union
 
 import httpx
@@ -88,32 +88,6 @@ class Window(Tk):
 
         self.delta_progress: float = 0  # progression between 2 tasks (in %) for the global progress bar
 
-        # frame for the github mods
-        github_frame_callbacks: Dict[str, Any] = {
-            "get_gtnh": self._get_modpack_manager,
-            "get_github_mods": self.get_github_mods,
-            "set_github_mod_version": self.set_github_mod_version,
-            "set_github_mod_side": lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)),
-            "set_modpack_version": self.set_modpack_version,
-        }
-
-        self.github_mod_frame: GithubModFrame = GithubModFrame(
-            self, frame_name="github mods data", callbacks=github_frame_callbacks
-        )
-
-        # frame for the external mods
-
-        external_frame_callbacks: Dict[str, Any] = {
-            "set_external_mod_version": self.set_external_mod_version,
-            "set_external_mod_side": lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)),
-            "get_gtnh": self._get_modpack_manager,
-            "get_external_mods": self.get_github_mods,
-        }
-
-        self.external_mod_frame: ExternalModFrame = ExternalModFrame(
-            self, frame_name="external mod data", callbacks=external_frame_callbacks
-        )
-
         # frame for the modpack handling
         modpack_list_callbacks: Dict[str, Any] = {
             "load": lambda release_name: asyncio.ensure_future(self.load_gtnh_version(release_name)),
@@ -133,33 +107,8 @@ class Window(Tk):
         }
 
         self.modpack_list_frame: ModpackFrame = ModpackFrame(
-            self, frame_name="modpack release actions", callbacks=modpack_list_callbacks
+            self, frame_name="Modpack release actions", callbacks=modpack_list_callbacks
         )
-
-        exclusion_client_callbacks: Dict[str, Any] = {
-            "add": lambda exclusion: asyncio.ensure_future(self.add_exclusion("client", exclusion)),
-            "del": lambda exclusion: asyncio.ensure_future(self.del_exclusion("client", exclusion)),
-        }
-
-        # frame for the client file exclusions
-        self.exclusion_frame_client: ExclusionFrame = ExclusionFrame(
-            self, "client exclusions", callbacks=exclusion_client_callbacks
-        )
-
-        exclusion_server_callbacks: Dict[str, Any] = {
-            "add": lambda exclusion: asyncio.ensure_future(self.add_exclusion("server", exclusion)),
-            "del": lambda exclusion: asyncio.ensure_future(self.del_exclusion("server", exclusion)),
-        }
-
-        # frame for the server side exclusions
-        self.exclusion_frame_server: ExclusionFrame = ExclusionFrame(
-            self, "server exclusions", callbacks=exclusion_server_callbacks
-        )
-
-        width: int = self.github_mod_frame.get_width()
-        self.external_mod_frame.set_width(width)
-
-        self.toggled: bool = True  # state variable indicating if the widgets are disabled or not
 
         self.progress_callback: Callable[
             [float, str], None
@@ -171,6 +120,61 @@ class Window(Tk):
         self.current_task_reset_callback: Callable[
             [], None
         ] = self.modpack_list_frame.action_frame.reset_current_task_progress_bar
+
+        # frame for the github mods
+        github_frame_callbacks: Dict[str, Any] = {
+            "get_gtnh": self._get_modpack_manager,
+            "get_github_mods": self.get_github_mods,
+            "set_github_mod_version": self.set_github_mod_version,
+            "set_github_mod_side": lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)),
+            "set_modpack_version": self.set_modpack_version,
+            "update_current_task_progress_bar": self.progress_callback,
+            "update_global_progress_bar": self.global_callback,
+            "reset_current_task_progress_bar": self.current_task_reset_callback,
+            "reset_global_progress_bar": self.global_reset_callback,
+        }
+
+        self.github_mod_frame: GithubModFrame = GithubModFrame(
+            self, frame_name="Github mods data", callbacks=github_frame_callbacks
+        )
+
+        # frame for the external mods
+
+        external_frame_callbacks: Dict[str, Any] = {
+            "set_external_mod_version": self.set_external_mod_version,
+            "set_external_mod_side": lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)),
+            "get_gtnh": self._get_modpack_manager,
+            "get_external_mods": self.get_github_mods,
+        }
+
+        self.external_mod_frame: ExternalModFrame = ExternalModFrame(
+            self, frame_name="External mod data", callbacks=external_frame_callbacks
+        )
+
+        exclusion_client_callbacks: Dict[str, Any] = {
+            "add": lambda exclusion: asyncio.ensure_future(self.add_exclusion("client", exclusion)),
+            "del": lambda exclusion: asyncio.ensure_future(self.del_exclusion("client", exclusion)),
+        }
+
+        # frame for the client file exclusions
+        self.exclusion_frame_client: ExclusionFrame = ExclusionFrame(
+            self, "Client exclusions", callbacks=exclusion_client_callbacks
+        )
+
+        exclusion_server_callbacks: Dict[str, Any] = {
+            "add": lambda exclusion: asyncio.ensure_future(self.add_exclusion("server", exclusion)),
+            "del": lambda exclusion: asyncio.ensure_future(self.del_exclusion("server", exclusion)),
+        }
+
+        # frame for the server side exclusions
+        self.exclusion_frame_server: ExclusionFrame = ExclusionFrame(
+            self, "Server exclusions", callbacks=exclusion_server_callbacks
+        )
+
+        width: int = self.github_mod_frame.get_width()
+        self.external_mod_frame.set_width(width)
+
+        self.toggled: bool = True  # state variable indicating if the widgets are disabled or not
 
     def trigger_toggle(self) -> None:
         """
@@ -515,7 +519,29 @@ class Window(Tk):
                 global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
             )
             self.trigger_toggle()
-            showinfo("assets updated successfully!", "all the assets have been updated correctly!")
+            errored_mods = []
+
+            # checking for errored mods
+            for mod in gtnh.assets.github_mods:
+                if mod.needs_attention:
+                    errored_mods.append(mod)
+
+            if len(errored_mods) == 0:
+                showinfo("assets updated successfully!", "all the assets have been updated correctly!")
+            else:
+                showwarning(
+                    "updated the nightly release metadata",
+                    "The nightly release metadata had been updated BUT:\n"
+                    + "\n".join(
+                        [
+                            f"mod {mod.name} has {mod.latest_version} which is "
+                            "older than newest version availiable on github"
+                            for mod in errored_mods
+                        ]
+                    )
+                    + "\nThis means tags had been done wrongly.",
+                )
+
         except BaseException as e:
             showerror(
                 "An error occured during the update of the assets",
@@ -555,7 +581,28 @@ class Window(Tk):
             gtnh.add_release(release, update=True)
             gtnh.save_modpack()
             self.trigger_toggle()
-            showinfo("updated the nightly release metadata", "The nightly release metadata had been updated!")
+            errored_mods = []
+
+            # checking for errored mods
+            for mod in gtnh.assets.github_mods:
+                if mod.needs_attention:
+                    errored_mods.append(mod)
+
+            if len(errored_mods) == 0:
+                showinfo("updated the nightly release metadata", "The nightly release metadata had been updated!")
+            else:
+                showwarning(
+                    "updated the nightly release metadata",
+                    "The nightly release metadata had been updated BUT:\n"
+                    + "\n".join(
+                        [
+                            f"mod {mod.name} has {mod.latest_version} which is "
+                            "older than newest version availiable on github"
+                            for mod in errored_mods
+                        ]
+                    )
+                    + "\nThis means tags had been done wrongly.",
+                )
         except BaseException as e:
             showerror(
                 "An error occured during the update of the nightly build",

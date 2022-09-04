@@ -179,7 +179,7 @@ class GTNHModpackManager:
             )
         elif version_is_older(latest_version, versionable.latest_version):
             log.warn(
-                f"Latest release by date for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}"
+                f"Latest release by date for mod {Fore.CYAN}{versionable.name}:{Fore.RED}{latest_version}"
                 f"{Fore.RESET} is LOWER than the current latest release per DreamAssembler: "
                 f"{Fore.RED}{versionable.latest_version}{Fore.RESET}"
             )
@@ -482,7 +482,45 @@ class GTNHModpackManager:
         del self.assets._github_modmap
 
         log.info(f"Successfully added {name}!")
+        self.save_assets()
         return new_mod
+
+    async def delete_github_mod(self, name: str) -> bool:
+        """
+        Attempts to delete a github repository from the assets.
+
+        :param name: the name of the repository
+        :return: true if the repo has been deleted from assets
+        """
+        log.info(f"Trying to delete `{name}`.")
+
+        if not self.assets.has_github_mod(name):
+            log.info(f"Mod `{name}` is not present in the assets.")
+            return False
+
+        mod_index: int = 0
+
+        for i, mod in enumerate(self.assets.github_mods):
+            if mod.name == name:
+                mod_index = i
+                break
+
+        del self.assets.github_mods[mod_index]
+        del self.assets._github_modmap
+        self.save_assets()
+
+        log.info(f"Successfully deleted {name}!")
+        return True
+
+    async def regen_github_assets(self, callback: Optional[Callable[[float, str], None]] = None) -> None:
+        log.info("refreshing all the github mods")
+        repo_names = [repo.name for repo in self.assets.github_mods]
+        delta_progress: float = 100 / len(repo_names)
+        for repo_name in repo_names:
+            if callback is not None:
+                callback(delta_progress, f"regenerating assets for {repo_name}")
+            await self.delete_github_mod(repo_name)
+            await self.add_github_mod(repo_name)
 
     async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
         try:
