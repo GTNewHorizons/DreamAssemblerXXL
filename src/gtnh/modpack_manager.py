@@ -527,7 +527,8 @@ class GTNHModpackManager:
         side: Side = self.assets.get_github_mod(repo_name).side
         await self.delete_github_mod(repo_name)
         await self.add_github_mod(repo_name)
-        self.set_github_mod_side(repo_name, side)
+        if side != Side.BOTH: #by default the side is set to BOTH
+            self.set_github_mod_side(repo_name, side)
         self.save_assets()
 
     async def regen_config_assets(self):
