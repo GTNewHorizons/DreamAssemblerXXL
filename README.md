@@ -32,7 +32,7 @@ A replacement for DreamMasterXXL, minus the nerfs.
 * [update_buildscript.sh](scripts/update_buildscript.sh): Script to add CODEOWNERS for maven publication
 
 ### GUI
-* [gui.py](src/gui/gui.py) GUI Frontend to the DreamAssemblerXXL
+* [gui.py](src/gtnh/gui/gui.py) GUI Frontend to the DreamAssemblerXXL
 
 
 
