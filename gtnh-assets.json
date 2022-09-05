@@ -6624,13 +6624,6 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNEIOrePlugin/"
     },
     {
-      "name": "GTNH-Custom-Overlays",
-      "latest_version": "<unknown>",
-      "versions": [],
-      "license": "All Rights Reserved (fallback)",
-      "repo_url": "https://github.com/GTNewHorizons/GTNH-Custom-Overlays"
-    },
-    {
       "name": "GTNH-Lanthanides",
       "latest_version": "0.9.15",
       "versions": [
@@ -11166,13 +11159,6 @@
       "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/OpenBlocks",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenBlocks/"
-    },
-    {
-      "name": "OpenCC-3D-printer-models",
-      "latest_version": "<unknown>",
-      "versions": [],
-      "license": "The Unlicense",
-      "repo_url": "https://github.com/GTNewHorizons/OpenCC-3D-printer-models"
     },
     {
       "name": "OpenComputers",

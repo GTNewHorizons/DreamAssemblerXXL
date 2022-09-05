@@ -76,5 +76,7 @@
   "build-system-updater",
   "crop-breeding-simulator",
   "thaumcraft-api",
-  "GTNH-Actions-Workflows"
+  "GTNH-Actions-Workflows",
+  "GTNH-Custom-Overlays",
+  "OpenCC-3D-printer-models"
 ]
