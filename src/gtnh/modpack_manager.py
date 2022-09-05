@@ -517,10 +517,18 @@ class GTNHModpackManager:
         repo_names = [repo.name for repo in self.assets.github_mods]
         delta_progress: float = 100 / len(repo_names)
         for repo_name in repo_names:
-            if callback is not None:
-                callback(delta_progress, f"regenerating assets for {repo_name}")
-            await self.delete_github_mod(repo_name)
-            await self.add_github_mod(repo_name)
+            await self.regen_github_repo_asset(repo_name, callback=callback, delta_progress=delta_progress)
+
+    async def regen_github_repo_asset(self,repo_name: str, callback: Optional[Callable[[float, str], None]] = None,
+                                      delta_progress:Optional[float]=None) -> None:
+
+        if callback is not None and delta_progress is not None:
+            callback(delta_progress, f"regenerating assets for {repo_name}")
+        side: Side = self.assets.get_github_mod(repo_name).side
+        await self.delete_github_mod(repo_name)
+        await self.add_github_mod(repo_name)
+        self.set_github_mod_side(repo_name, side)
+        self.save_assets()
 
     async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
         try:
