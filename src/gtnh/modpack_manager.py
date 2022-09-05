@@ -530,6 +530,12 @@ class GTNHModpackManager:
         self.set_github_mod_side(repo_name, side)
         self.save_assets()
 
+    async def regen_config_assets(self):
+        self.assets.config.versions = []
+        self.assets.config.latest_version = "0.0.0"
+        await self.update_versionable_from_repo(self.assets.config, await self.get_repo(self.assets.config.name))
+        self.save_assets()
+
     async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
         try:
             latest_release = await self.get_latest_github_release(repo)
