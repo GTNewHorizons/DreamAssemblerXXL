@@ -286,8 +286,8 @@ class GithubModList(LabelFrame):
             showerror("No repository name selected.", "Please select a repository before trying to edit it.")
             return
 
-        await self.del_repo(verbose=False)
-        await self.add_repo(repo_name)
+        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        await gtnh.regen_github_repo_asset(repo_name)
         await self.on_listbox_click()
         showinfo("Repository refreshed successfully", f"{repo_name} has been refreshed successfully!")
 
@@ -343,7 +343,10 @@ class GithubModFrame(LabelFrame):
         self.xpadding: int = 0
         self.width: Optional[int] = width
 
-        modpack_version_callbacks: Dict[str, Any] = {"set_modpack_version": callbacks["set_modpack_version"]}
+        modpack_version_callbacks: Dict[str, Any] = {
+            "set_modpack_version": callbacks["set_modpack_version"],
+            "get_gtnh": callbacks["get_gtnh"],
+        }
 
         self.modpack_version_frame: ModpackVersionFrame = ModpackVersionFrame(
             self, frame_name="Modpack version", callbacks=modpack_version_callbacks
@@ -490,7 +493,7 @@ class ModpackVersionFrame(LabelFrame):
         self,
         master: Any,
         frame_name: str,
-        callbacks: Dict[str, Callable[[str], None]],
+        callbacks: Dict[str, Any],
         width: Optional[int] = None,
         **kwargs: Any,
     ):
@@ -507,13 +510,30 @@ class ModpackVersionFrame(LabelFrame):
         self.ypadding: int = 0
         self.xpadding: int = 0
         modpack_version_text: str = "Modpack version:"
-        self.width: int = width if width is not None else len(modpack_version_text)
+        refresh_modpack_text: str = "Refresh modpack assets"
+        self.width: int = width if width is not None else max(len(modpack_version_text), len(refresh_modpack_text))
         self.label_modpack_version: Label = Label(self, text=modpack_version_text)
         self.sv_version: StringVar = StringVar(value="")
         self.cb_modpack_version: Combobox = Combobox(self, textvariable=self.sv_version, values=[])
         self.cb_modpack_version.bind(
             "<<ComboboxSelected>>", lambda event: callbacks["set_modpack_version"](self.sv_version.get())
         )
+        self.btn_refresh: Button = Button(
+            self, text=refresh_modpack_text, command=lambda: asyncio.ensure_future(self.refresh_modpack_assets())
+        )
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
+
+    async def refresh_modpack_assets(self) -> None:
+        """
+        Method used to refresh assets for the modpack repository.
+
+        :return: None
+        """
+        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        await gtnh.regen_config_assets()
+        self.cb_modpack_version["values"] = [version.version_tag for version in gtnh.assets.config.versions]
+        self.sv_version.set(gtnh.assets.config.latest_version)
+        showinfo("Modpack assets refreshed", "Modpack assets refreshed successfully!")
 
     def configure_widgets(self) -> None:
         """
@@ -559,6 +579,7 @@ class ModpackVersionFrame(LabelFrame):
         """
         self.label_modpack_version.grid_forget()
         self.cb_modpack_version.grid_forget()
+        self.btn_refresh.grid_forget()
 
         self.update_idletasks()
 
@@ -570,7 +591,7 @@ class ModpackVersionFrame(LabelFrame):
         """
         x: int = 0
         y: int = 0
-        rows: int = 1
+        rows: int = 2
         columns: int = 2
 
         for i in range(rows):
@@ -580,7 +601,8 @@ class ModpackVersionFrame(LabelFrame):
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
         self.label_modpack_version.grid(row=x, column=y)
-        self.cb_modpack_version.grid(row=x, column=y + 1)
+        self.cb_modpack_version.grid(row=x, column=y + 1, sticky=Position.HORIZONTAL)
+        self.btn_refresh.grid(row=x + 1, column=y + 1, sticky=Position.HORIZONTAL)
 
     def populate_data(self, data: Dict[str, Any]) -> None:
         """

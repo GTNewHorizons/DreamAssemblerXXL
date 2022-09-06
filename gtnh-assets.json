@@ -433,7 +433,8 @@
       ],
       "license": "GNU General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/AMDIForge",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AMDIForge/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AMDIForge/",
+      "side": "NONE"
     },
     {
       "name": "amunra",
@@ -450,7 +451,8 @@
       ],
       "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/amunra",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/",
+      "side": "NONE"
     },
     {
       "name": "AngerMod",
@@ -1890,7 +1892,8 @@
       ],
       "license": "GNU General Public License v2.0",
       "repo_url": "https://github.com/GTNewHorizons/BetterLoadingScreen",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/",
+      "side": "CLIENT"
     },
     {
       "name": "BetterP2P",
@@ -3386,7 +3389,8 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/DefaultServerList",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DefaultServerList/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DefaultServerList/",
+      "side": "CLIENT"
     },
     {
       "name": "DefaultWorldGenerator",
@@ -4076,7 +4080,8 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/Enklume",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Enklume/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Enklume/",
+      "side": "NONE"
     },
     {
       "name": "Eternal-Singularity",
@@ -4733,7 +4738,8 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/FTB-Library",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FTB-Library/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FTB-Library/",
+      "side": "NONE"
     },
     {
       "name": "FTB-Utilities",
@@ -4758,7 +4764,8 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/FTB-Utilities",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FTB-Utilities/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FTB-Utilities/",
+      "side": "NONE"
     },
     {
       "name": "Gadomancy",
@@ -5469,7 +5476,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.41.29",
+      "latest_version": "5.09.41.30",
       "versions": [
         {
           "version_tag": "5.09.40.01",
@@ -6551,6 +6558,14 @@
           "filename": "gregtech-1.7.10-5.09.41.29.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/76852907",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.29/gregtech-1.7.10-5.09.41.29.jar"
+        },
+        {
+          "version_tag": "5.09.41.30",
+          "changelog": "## What's Changed\n* feat(API): Implements a featured API for GT_Fluid by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1345\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.29...5.09.41.30",
+          "tagged_at": "2022-09-05T19:45:24+00:00",
+          "filename": "gregtech-1.7.10-5.09.41.30.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/76953106",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.30/gregtech-1.7.10-5.09.41.30.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -6933,7 +6948,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.7.86",
+      "latest_version": "1.7.88",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -7453,6 +7468,22 @@
           "filename": "GT-PlusPlus-1.7.10-1.7.86.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76844621",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.86/GT-PlusPlus-1.7.10-1.7.86.jar"
+        },
+        {
+          "version_tag": "1.7.87",
+          "changelog": "## What's Changed\n* Fixes EU discount typo in Adv_DistillationTower by @joegnis in https://github.com/GTNewHorizons/GTplusplus/pull/337\n\n## New Contributors\n* @joegnis made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/337\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.86...1.7.87",
+          "tagged_at": "2022-09-05T06:27:36+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.87.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76892580",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.87/GT-PlusPlus-1.7.10-1.7.87.jar"
+        },
+        {
+          "version_tag": "1.7.88",
+          "changelog": "## What's Changed\n* adv dt fixes by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/338\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.87...1.7.88",
+          "tagged_at": "2022-09-05T19:31:19+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.88.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76952406",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.88/GT-PlusPlus-1.7.10-1.7.88.jar"
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -7474,7 +7505,8 @@
       ],
       "license": "Minecraft Mod Public License v2.0.2.",
       "repo_url": "https://github.com/GTNewHorizons/Guide-API",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Guide-API/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Guide-API/",
+      "side": "NONE"
     },
     {
       "name": "Hardcore-Ender-Expansion",
@@ -7593,7 +7625,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "1.7.17",
+      "latest_version": "1.7.18",
       "versions": [
         {
           "version_tag": "v1.2.0",
@@ -7850,6 +7882,14 @@
           "filename": "hodgepodge-1.7.10-1.7.17.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/76748149",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/1.7.17/hodgepodge-1.7.10-1.7.17.jar"
+        },
+        {
+          "version_tag": "1.7.18",
+          "changelog": "## What's Changed\n* Fix fullscreen when tabing out by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/97\n* Add TCP_NO_DELAY by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/98\n* Add a debug message in the chat when toggling vanilla debug options by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/99\n* implement an opt-in render debug mode by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/95\n* Keep the inventory centered when the player has potion effects by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/100\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/1.7.17...1.7.18",
+          "tagged_at": "2022-09-05T19:45:15+00:00",
+          "filename": "hodgepodge-1.7.10-1.7.18.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/76953098",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/1.7.18/hodgepodge-1.7.10-1.7.18.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -8272,7 +8312,8 @@
       ],
       "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/InGame-Info-XML",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/InGame-Info-XML/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/InGame-Info-XML/",
+      "side": "CLIENT"
     },
     {
       "name": "INpureCore",
@@ -8354,7 +8395,8 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/inventory-tweaks",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/inventory-tweaks/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/inventory-tweaks/",
+      "side": "CLIENT"
     },
     {
       "name": "ironchest",
@@ -9461,7 +9503,8 @@
       ],
       "license": "The Unlicense",
       "repo_url": "https://github.com/GTNewHorizons/MyEssentials-Core",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyEssentials-Core/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyEssentials-Core/",
+      "side": "NONE"
     },
     {
       "name": "MyPermissions",
@@ -9478,7 +9521,8 @@
       ],
       "license": "The Unlicense",
       "repo_url": "https://github.com/GTNewHorizons/MyPermissions",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyPermissions/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyPermissions/",
+      "side": "NONE"
     },
     {
       "name": "MyTown2",
@@ -9503,7 +9547,8 @@
       ],
       "license": "The Unlicense",
       "repo_url": "https://github.com/GTNewHorizons/MyTown2",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyTown2/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MyTown2/",
+      "side": "NONE"
     },
     {
       "name": "Natura",
@@ -9807,7 +9852,8 @@
       ],
       "license": "GNU General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/Netty-Patcher",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Netty-Patcher/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Netty-Patcher/",
+      "side": "CLIENT"
     },
     {
       "name": "NewHorizonsCoreMod",
@@ -10390,7 +10436,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.3.0-GTNH",
+      "latest_version": "2.3.1-GTNH",
       "versions": [
         {
           "version_tag": "v2.0.0",
@@ -10958,6 +11004,14 @@
           "filename": "NotEnoughItems-1.7.10-2.3.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76843839",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.0-GTNH/NotEnoughItems-1.7.10-2.3.0-GTNH.jar"
+        },
+        {
+          "version_tag": "2.3.1-GTNH",
+          "changelog": "## What's Changed\n* Fix other mods cannot mixin GuiContainer.java when NEI is loaded by @Quarri6343 in https://github.com/GTNewHorizons/NotEnoughItems/pull/291\n\n## New Contributors\n* @Quarri6343 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/291\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.34-GTNH...2.3.1-GTNH",
+          "tagged_at": "2022-09-05T18:30:10+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.3.1-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76948587",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.1-GTNH/NotEnoughItems-1.7.10-2.3.1-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -11060,7 +11114,8 @@
       ],
       "license": "GNU General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/oauth",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/oauth/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/oauth/",
+      "side": "CLIENT"
     },
     {
       "name": "OCGlasses",
@@ -11162,7 +11217,7 @@
     },
     {
       "name": "OpenComputers",
-      "latest_version": "1.7.5.32-GTNH",
+      "latest_version": "1.7.7.1-GTNH",
       "versions": [
         {
           "version_tag": "1.7.4.1",
@@ -11307,6 +11362,14 @@
           "filename": "OpenComputers-1.7.10-1.7.5.32-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/74890407",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.7.5.32-GTNH/OpenComputers-1.7.10-1.7.5.32-GTNH.jar"
+        },
+        {
+          "version_tag": "1.7.7.1-GTNH",
+          "changelog": "## What's Changed\n* Merge branch 'OC1.7-MC1.7.10' into HEAD (-> OC 1.7.7) by @asiekierka in https://github.com/GTNewHorizons/OpenComputers/pull/77\n* Merge branch 'master-MC1.7.10' into gtnh-oc-1.8.0-20220904 (-> OC 1.8.0-snapshot-20220904) by @asiekierka in https://github.com/GTNewHorizons/OpenComputers/pull/78\n\n## New Contributors\n* @asiekierka made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/77\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.7.5.32-GTNH...1.7.7.1-GTNH",
+          "tagged_at": "2022-09-05T06:52:08+00:00",
+          "filename": "OpenComputers-1.7.10-1.7.7.1-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/76894167",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.7.7.1-GTNH/OpenComputers-1.7.10-1.7.7.1-GTNH.jar"
         }
       ],
       "license": "MIT License",
@@ -11475,7 +11538,8 @@
       ],
       "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/OverloadedArmorBar",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OverloadedArmorBar/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OverloadedArmorBar/",
+      "side": "CLIENT"
     },
     {
       "name": "PersonalSpace",
@@ -11695,7 +11759,8 @@
       ],
       "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/QmunityLib",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/QmunityLib/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/QmunityLib/",
+      "side": "NONE"
     },
     {
       "name": "QuestBook",
@@ -12054,7 +12119,8 @@
       ],
       "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/Schematica",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Schematica/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Schematica/",
+      "side": "CLIENT"
     },
     {
       "name": "SGCraft",
@@ -12179,7 +12245,8 @@
       ],
       "license": "Explicit Permission.",
       "repo_url": "https://github.com/GTNewHorizons/SpecialAI",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SpecialAI/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SpecialAI/",
+      "side": "NONE"
     },
     {
       "name": "SpecialMobs",
@@ -12909,7 +12976,7 @@
     },
     {
       "name": "StructureLib",
-      "latest_version": "1.1.9",
+      "latest_version": "1.1.10",
       "versions": [
         {
           "version_tag": "1.0.11",
@@ -13044,6 +13111,14 @@
           "filename": "structurelib-1.7.10-1.1.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StructureLib/releases/assets/76747568",
           "browser_download_url": "https://github.com/GTNewHorizons/StructureLib/releases/download/1.1.9/structurelib-1.7.10-1.1.9.jar"
+        },
+        {
+          "version_tag": "1.1.10",
+          "changelog": "## What's Changed\n* Allow client to auto build multiblocks by @Quarri6343 in https://github.com/GTNewHorizons/StructureLib/pull/12\n\n## New Contributors\n* @Quarri6343 made their first contribution in https://github.com/GTNewHorizons/StructureLib/pull/12\n\n**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.1.9...1.1.10",
+          "tagged_at": "2022-09-05T19:44:42+00:00",
+          "filename": "structurelib-1.7.10-1.1.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StructureLib/releases/assets/76953079",
+          "browser_download_url": "https://github.com/GTNewHorizons/StructureLib/releases/download/1.1.10/structurelib-1.7.10-1.1.10.jar"
         }
       ],
       "license": "MIT License.",
@@ -13138,7 +13213,8 @@
       ],
       "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.",
       "repo_url": "https://github.com/GTNewHorizons/Tainted-Magic",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Tainted-Magic/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Tainted-Magic/",
+      "side": "NONE"
     },
     {
       "name": "TC4Tweaks",
@@ -13401,7 +13477,8 @@
       ],
       "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International.",
       "repo_url": "https://github.com/GTNewHorizons/TCNodeTracker",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TCNodeTracker/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TCNodeTracker/",
+      "side": "CLIENT"
     },
     {
       "name": "TecTech",
@@ -14230,7 +14307,8 @@
       ],
       "license": "The Unlicense",
       "repo_url": "https://github.com/GTNewHorizons/TiC-Tooltips",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TiC-Tooltips/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TiC-Tooltips/",
+      "side": "CLIENT"
     },
     {
       "name": "TinkersConstruct",
@@ -14594,7 +14672,8 @@
       ],
       "license": "GNU General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/ToroHealth",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ToroHealth/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ToroHealth/",
+      "side": "CLIENT"
     },
     {
       "name": "Translocators",
