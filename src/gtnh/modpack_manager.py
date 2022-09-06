@@ -519,19 +519,23 @@ class GTNHModpackManager:
         for repo_name in repo_names:
             await self.regen_github_repo_asset(repo_name, callback=callback, delta_progress=delta_progress)
 
-    async def regen_github_repo_asset(self,repo_name: str, callback: Optional[Callable[[float, str], None]] = None,
-                                      delta_progress:Optional[float]=None) -> None:
+    async def regen_github_repo_asset(
+        self,
+        repo_name: str,
+        callback: Optional[Callable[[float, str], None]] = None,
+        delta_progress: Optional[float] = None,
+    ) -> None:
 
         if callback is not None and delta_progress is not None:
             callback(delta_progress, f"regenerating assets for {repo_name}")
         side: Side = self.assets.get_github_mod(repo_name).side
         await self.delete_github_mod(repo_name)
         await self.add_github_mod(repo_name)
-        if side != Side.BOTH: #by default the side is set to BOTH
+        if side != Side.BOTH:  # by default the side is set to BOTH
             self.set_github_mod_side(repo_name, side)
         self.save_assets()
 
-    async def regen_config_assets(self):
+    async def regen_config_assets(self) -> None:
         self.assets.config.versions = []
         self.assets.config.latest_version = "0.0.0"
         await self.update_versionable_from_repo(self.assets.config, await self.get_repo(self.assets.config.name))

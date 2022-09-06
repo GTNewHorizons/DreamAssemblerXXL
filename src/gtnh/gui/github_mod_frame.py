@@ -345,7 +345,7 @@ class GithubModFrame(LabelFrame):
 
         modpack_version_callbacks: Dict[str, Any] = {
             "set_modpack_version": callbacks["set_modpack_version"],
-            "get_gtnh": callbacks["get_gtnh"]
+            "get_gtnh": callbacks["get_gtnh"],
         }
 
         self.modpack_version_frame: ModpackVersionFrame = ModpackVersionFrame(
@@ -518,8 +518,9 @@ class ModpackVersionFrame(LabelFrame):
         self.cb_modpack_version.bind(
             "<<ComboboxSelected>>", lambda event: callbacks["set_modpack_version"](self.sv_version.get())
         )
-        self.btn_refresh: Button = Button(self, text=refresh_modpack_text,
-                                          command=lambda: asyncio.ensure_future(self.refresh_modpack_assets()))
+        self.btn_refresh: Button = Button(
+            self, text=refresh_modpack_text, command=lambda: asyncio.ensure_future(self.refresh_modpack_assets())
+        )
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
 
     async def refresh_modpack_assets(self) -> None:
@@ -533,7 +534,6 @@ class ModpackVersionFrame(LabelFrame):
         self.cb_modpack_version["values"] = [version.version_tag for version in gtnh.assets.config.versions]
         self.sv_version.set(gtnh.assets.config.latest_version)
         showinfo("Modpack assets refreshed", "Modpack assets refreshed successfully!")
-
 
     def configure_widgets(self) -> None:
         """
@@ -602,7 +602,7 @@ class ModpackVersionFrame(LabelFrame):
 
         self.label_modpack_version.grid(row=x, column=y)
         self.cb_modpack_version.grid(row=x, column=y + 1, sticky=Position.HORIZONTAL)
-        self.btn_refresh.grid(row=x+1, column=y+1, sticky=Position.HORIZONTAL)
+        self.btn_refresh.grid(row=x + 1, column=y + 1, sticky=Position.HORIZONTAL)
 
     def populate_data(self, data: Dict[str, Any]) -> None:
         """
