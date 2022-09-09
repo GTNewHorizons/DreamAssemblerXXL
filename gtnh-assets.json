@@ -1859,7 +1859,8 @@
       ],
       "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/BetterCrashes",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterCrashes/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterCrashes/",
+      "side": "CLIENT"
     },
     {
       "name": "BetterLoadingScreen",
@@ -3448,7 +3449,8 @@
       ],
       "license": "MIT according to curse (https://www.curseforge.com/project/226188/license)",
       "repo_url": "https://github.com/GTNewHorizons/DefaultWorldGenerator",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DefaultWorldGenerator/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DefaultWorldGenerator/",
+      "side": "CLIENT"
     },
     {
       "name": "DetravScannerMod",
@@ -9562,7 +9564,8 @@
       ],
       "license": "All Rights Reserved (fallback)",
       "repo_url": "https://github.com/GTNewHorizons/MouseTweaks",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MouseTweaks/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/MouseTweaks/",
+      "side": "CLIENT"
     },
     {
       "name": "MX-Random",
