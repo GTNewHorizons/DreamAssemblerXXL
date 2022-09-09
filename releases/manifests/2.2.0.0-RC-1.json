@@ -1,7 +1,7 @@
 {
-  "version": "nightly",
+  "version": "2.2.0.0-RC-1",
   "last_version": "2.1.2.0",
-  "last_updated": "2022-09-09T11:57:16.699818",
+  "last_updated": "2022-09-09T12:05:03.884407",
   "config": "2.2.0.0-RC-1",
   "github_mods": {
     "AdventureBackpack2": "1.0.5-GTNH",
@@ -63,7 +63,7 @@
     "FindIt": "1.0.11",
     "ForbiddenMagic": "0.6.3-GTNH",
     "ForestryMC": "4.4.14",
-    "Forgelin": "1.9.5-GTNH",
+    "Forgelin": "1.9.2-GTNH-1.7.10-Edition",
     "ForgeMultipart": "1.2.8",
     "Gadomancy": "1.0.8.5",
     "GalacticGregGT5": "1.0.8",
