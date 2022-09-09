@@ -104,7 +104,7 @@ class CurseAssembler(GenericAssembler):
         self.overrideslash = ROOT_DIR / "overrideslash.png"
 
     def get_archive_path(self, side: Side) -> Path:
-        return RELEASE_CURSE_DIR / f"GTNewHorizons-{side}-{self.release.version}.zip"
+        return RELEASE_CURSE_DIR / f"GT_New_Horizons_{self.release.version}.zip"
 
     def assemble(self, side: Side, verbose: bool = False) -> None:
         if side not in {Side.CLIENT}:

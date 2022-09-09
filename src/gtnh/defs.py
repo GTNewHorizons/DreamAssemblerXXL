@@ -66,6 +66,21 @@ MMC_PACK_JSON = """{
 }
 """
 
+MMC_PACK_INSTANCE = """InstanceType=OneSix
+JoinServerOnLaunch=false
+OverrideCommands=false
+OverrideConsole=false
+OverrideGameTime=false
+OverrideJavaArgs=false
+OverrideJavaLocation=false
+OverrideMemory=false
+OverrideNativeWorkarounds=false
+OverrideWindow=false
+iconKey=default
+name={}
+notes=
+"""
+
 
 class Side(str, Enum):
     SERVER = "SERVER"

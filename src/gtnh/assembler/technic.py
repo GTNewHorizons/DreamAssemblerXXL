@@ -119,7 +119,7 @@ class TechnicAssembler(GenericAssembler):
         temp_zip_path.unlink()
 
     def get_archive_path(self, side: Side) -> Path:
-        return RELEASE_TECHNIC_DIR / f"GT New Horizons {self.release.version} (technic).zip"
+        return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(technic).zip"
 
     def assemble(self, side: Side, verbose: bool = False) -> None:
         if side != Side.CLIENT:

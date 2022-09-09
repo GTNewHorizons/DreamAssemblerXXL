@@ -3061,25 +3061,7 @@ ForgeMultipart
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.2.4...1.2.5
 
 Forgelin
-# Updated - Forgelin - 1.9.2-GTNH -->1.9.5-GTNH
-## *1.9.5-GTNH*
->## What's Changed
->* fix the build by @Glease in https://github.com/GTNewHorizons/Forgelin/pull/7
->
->## New Contributors
->* @Glease made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/7
->
->**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.3-GTNH-1.7.10-Edition...1.9.5-GTNH
-
-## *1.9.3-GTNH-1.7.10-Edition*
->## What's Changed
->* LGPL-3.0 by @bombcar in https://github.com/GTNewHorizons/Forgelin/pull/5
->
->## New Contributors
->* @bombcar made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/5
->
->**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.2-GTNH-1.7.10-Edition...1.9.3-GTNH-1.7.10-Edition
-
+# Updated - Forgelin - 1.9.2-GTNH -->1.9.2-GTNH-1.7.10-Edition
 ## *1.9.2-GTNH-1.7.10-Edition*
 >remove java 9 metadata classes from jar
 
