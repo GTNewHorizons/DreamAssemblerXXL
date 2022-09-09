@@ -66,7 +66,7 @@ MMC_PACK_JSON = """{
 }
 """
 
-MMC_PACK_INSTANCE="""InstanceType=OneSix
+MMC_PACK_INSTANCE = """InstanceType=OneSix
 JoinServerOnLaunch=false
 OverrideCommands=false
 OverrideConsole=false

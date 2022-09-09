@@ -41,4 +41,4 @@ class ModrinthAssembler(GenericAssembler):
         return
 
     def get_archive_path(self, side: Side) -> Path:
-        return RELEASE_MODRINTH_DIR / f"GTNewHorizons-{side}-{self.release.version}.zip"
+        return RELEASE_MODRINTH_DIR / f"GT_New_Horizons_{side}_{self.release.version}.zip"
