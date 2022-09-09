@@ -5,7 +5,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
-from gtnh.defs import MMC_PACK_JSON, RELEASE_MMC_DIR, Side
+from gtnh.defs import MMC_PACK_JSON, RELEASE_MMC_DIR, Side, MMC_PACK_INSTANCE
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
@@ -113,6 +113,8 @@ class MMCAssembler(GenericAssembler):
         """
 
         with ZipFile(self.get_archive_path(side), "a") as archive:
-            archive.writestr(str(self.mmc_archive_root) + "/mmc-pack.json", MMC_PACK_JSON)
             if self.task_progress_callback is not None:
                 self.task_progress_callback(self.get_progress(), "adding archive's metadata to the archive")
+            archive.writestr(str(self.mmc_archive_root) + "/mmc-pack.json", MMC_PACK_JSON)
+            archive.writestr(str(self.mmc_archive_root) + "/instance.cfg",
+                             MMC_PACK_INSTANCE.format(f"GTNH {self.release.version}"))
