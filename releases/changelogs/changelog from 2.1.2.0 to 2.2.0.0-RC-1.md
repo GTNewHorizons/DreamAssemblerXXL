@@ -37,7 +37,6 @@
 > * Mouse Tweaks
 > * Nature's Compass
 > * Thaumic Inventory Scanning
-AE2FluidCraft-Rework
 # New Mod - AE2FluidCraft-Rework:1.0.13-gtnh
 ## *1.0.13-gtnh*
 >## What's Changed
@@ -132,7 +131,6 @@ AE2FluidCraft-Rework
 ## *1.0.0-gtnh*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/commits/1.0.0-gtnh
 
-AFSU
 # Updated - AFSU - 1.2.3a -->1.2.6-GTNH
 ## *1.2.6-GTNH*
 >## What's Changed
@@ -152,7 +150,6 @@ AFSU
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/AFSU/commits/1.2.5-GTNH
 
-AdventureBackpack2
 # Updated - AdventureBackpack2 - 1.0.0-GTNH -->1.0.5-GTNH
 ## *1.0.5-GTNH*
 >## What's Changed
@@ -204,7 +201,6 @@ AdventureBackpack2
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/commits/1.0.0-GTNH
 
-AngerMod
 # Updated - AngerMod - 0.6.2 -->0.6.3
 ## *0.6.3*
 >## What's Changed
@@ -224,7 +220,6 @@ AngerMod
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.6.1...0.6.2
 
-AppleCore
 # Updated - AppleCore - 3.1.3 -->3.2.0
 ## *3.2.0*
 >## What's Changed
@@ -285,7 +280,6 @@ AppleCore
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.1.2...3.1.3
 
-Applied-Energistics-2-Unofficial
 # Updated - Applied-Energistics-2-Unofficial - rv3-beta-64-GTNH -->rv3-beta-104-GTNH
 ## *rv3-beta-104-GTNH*
 >## What's Changed
@@ -618,7 +612,6 @@ Applied-Energistics-2-Unofficial
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-63-GTNH...rv3-beta-64-GTNH
 
-ArchitectureCraft
 # Updated - ArchitectureCraft - 1.7.4 -->1.7.6
 ## *1.7.6*
 >## What's Changed
@@ -640,7 +633,6 @@ ArchitectureCraft
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.7.3...1.7.5
 
-AsieLib
 # Updated - AsieLib - 0.5.0 -->0.5.3
 ## *0.5.3*
 >## What's Changed
@@ -662,7 +654,6 @@ AsieLib
 ## *0.5.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/AsieLib/commits/0.5.0
 
-Avaritia
 # Updated - Avaritia - 1,19 -->1.29
 ## *1.29*
 >## What's Changed
@@ -779,7 +770,6 @@ Avaritia
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.13...1.14
 
-Avaritiaddons
 # Updated - Avaritiaddons - 1.5.2-GTNH -->1.5.4-GTNH
 ## *1.5.4-GTNH*
 >## What's Changed
@@ -809,7 +799,6 @@ Avaritiaddons
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/commits/1.5.2-GTNH
 
-Battlegear2
 # Updated - Battlegear2 - 1.1.1.7 -->1.1.2.0
 ## *1.1.2.0*
 >## What's Changed
@@ -832,7 +821,6 @@ Battlegear2
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.1.1.6...1.1.1.7
 
-Baubles
 # Updated - Baubles - 1.0.1.12 -->1.0.1.14
 ## *1.0.1.14*
 >## What's Changed
@@ -846,7 +834,6 @@ Baubles
 ## *1.0.1.13*
 >**Full Changelog**: https://github.com/GTNewHorizons/Baubles/compare/1.0.1.12...1.0.1.13
 
-BetterBuildersWands
 # Updated - BetterBuildersWands - 0.8.1 -->0.9.3-GTNH
 ## *0.9.3-GTNH*
 >## What's Changed
@@ -885,7 +872,6 @@ BetterBuildersWands
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterBuildersWands/commits/0.9.0-GTNH
 
-BetterCrashes
 # New Mod - BetterCrashes:1.1.5-GTNH
 ## *1.1.5-GTNH*
 >## What's Changed
@@ -912,7 +898,6 @@ BetterCrashes
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/commits/1.1.3-GTNH
 
-BetterLoadingScreen
 # Updated - BetterLoadingScreen - 1.3.30-GTNH -->1.3.34-GTNH
 ## *1.3.34-GTNH*
 >## What's Changed
@@ -961,7 +946,6 @@ BetterLoadingScreen
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/commits/1.3.30-GTNH
 
-BetterP2P
 # New Mod - BetterP2P:1.0.10
 ## *1.0.10*
 >## What's Changed
@@ -1018,7 +1002,6 @@ BetterP2P
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.0.2...1.0.3
 
-BetterQuesting
 # Updated - BetterQuesting - 3.0.350-GTNH -->3.0.363-GTNH
 ## *3.0.363-GTNH*
 >## What's Changed
@@ -1171,7 +1154,6 @@ BetterQuesting
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/commits/3.0.351-GTNH
 
-Binnie
 # Updated - Binnie - 2.0.31 -->2.0.42
 ## *2.0.42*
 >## What's Changed
@@ -1256,7 +1238,6 @@ Binnie
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.0.28...2.0.31
 
-BlockLimiter
 # Updated - BlockLimiter - 0.54 -->0.55
 ## *0.55*
 >## What's Changed
@@ -1276,7 +1257,6 @@ BlockLimiter
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/compare/0.53...0.54
 
-BloodArsenal
 # Updated - BloodArsenal - 1.2.3 -->1.2.6
 ## *1.2.6*
 >## What's Changed
@@ -1310,7 +1290,6 @@ BloodArsenal
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.2.3...1.2.4
 
-BloodMagic
 # Updated - BloodMagic - 1.3.3-44 -->1.3.13
 ## *1.3.13*
 >## What's Changed
@@ -1410,7 +1389,6 @@ BloodMagic
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.3.3-29...1.3.4
 
-Botania
 # New Mod - Botania:1.9.7-GTNH
 ## *1.9.7-GTNH*
 >## What's Changed
@@ -1469,7 +1447,6 @@ Botania
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Botania/commits/1.9.0-GTNH
 
-Botanic-horizons
 # New Mod - Botanic-horizons:1.0.11-GTNH
 ## *1.0.11-GTNH*
 >## What's Changed
@@ -1545,7 +1522,6 @@ Botanic-horizons
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/commits/1.0.1-GTNH
 
-BrandonsCore
 # New Mod - BrandonsCore:1.0.0.13-GTNH
 ## *1.0.0.13-GTNH*
 >## What's Changed
@@ -1556,7 +1532,6 @@ BrandonsCore
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/BrandonsCore/commits/1.0.0.13-GTNH
 
-BugTorch
 # Updated - BugTorch - 1.1.2-GTNH -->1.1.6.4-GTNH
 ## *1.1.6.4-GTNH*
 >## What's Changed
@@ -1594,7 +1569,6 @@ BugTorch
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/BugTorch/commits/1.1.2-GTNH
 
-BuildCraft
 # Updated - BuildCraft - 7.1.24 -->7.1.27
 ## *7.1.27*
 >## What's Changed
@@ -1632,7 +1606,6 @@ BuildCraft
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.22...7.1.24
 
-BuildCraftCompat
 # Updated - BuildCraftCompat - 7.1.8 -->7.1.12
 ## *7.1.12*
 >**Full Changelog**: https://github.com/GTNewHorizons/BuildCraftCompat/compare/7.1.11...7.1.12
@@ -1656,7 +1629,6 @@ BuildCraftCompat
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/BuildCraftCompat/compare/7.1.9...7.1.10
 
-CarpentersBlocks
 # New Mod - CarpentersBlocks:3.3.8.2-GTNH
 ## *3.3.8.2-GTNH*
 >## What's Changed
@@ -1667,7 +1639,6 @@ CarpentersBlocks
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/CarpentersBlocks/commits/3.3.8.2-GTNH
 
-Catwalks-2
 # Updated - Catwalks-2 - 2.0.4 -->2.1.3-GTNH
 ## *2.1.3-GTNH*
 >## What's Changed
@@ -1692,7 +1663,6 @@ Catwalks-2
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Catwalks-2/commits/2.1.2-GTNH
 
-Chisel
 # Updated - Chisel - 2.10.2-GTNH -->2.10.15-GTNH
 ## *2.10.15-GTNH*
 >## What's Changed
@@ -1790,7 +1760,6 @@ Chisel
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.10.1-GTNH...2.10.2-GTNH
 
-ChiselTones
 # Updated - ChiselTones - 1.0-3 -->1.0.4-GTNH
 ## *1.0.4-GTNH*
 >## What's Changed
@@ -1801,7 +1770,6 @@ ChiselTones
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ChiselTones/commits/1.0.4-GTNH
 
-CodeChickenCore
 # Updated - CodeChickenCore - 1.1.0 -->1.1.6
 ## *1.1.6*
 >## What's Changed
@@ -1853,7 +1821,6 @@ CodeChickenCore
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.0.9...1.1.0
 
-CodeChickenLib
 # Updated - CodeChickenLib - 1.1.4.1 -->1.1.5.5
 ## *1.1.5.5*
 >## What's Changed
@@ -1900,7 +1867,6 @@ CodeChickenLib
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenLib/compare/1.1.4...1.1.4.1
 
-CompactKineticGenerators
 # New Mod - CompactKineticGenerators:1.0.1
 ## *1.0.1*
 >## What's Changed
@@ -1916,7 +1882,6 @@ CompactKineticGenerators
 ## *1.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/CompactKineticGenerators/commits/1.0
 
-Computronics
 # Updated - Computronics - 1.6.9-GTNH -->1.6.15-GTNH
 ## *1.6.15-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.6.14-GTNH...1.6.15-GTNH
@@ -1977,7 +1942,6 @@ Computronics
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Computronics/commits/1.6.10
 
-CookingForBlockheads
 # Updated - CookingForBlockheads - 1.2.5-GTNH -->1.2.11-GTNH
 ## *1.2.11-GTNH*
 >## What's Changed
@@ -2039,7 +2003,6 @@ CookingForBlockheads
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/commits/1.2.7-GTNH
 
-CraftPresence
 # Updated - CraftPresence - 1.8.2 -->1.8.8
 ## *1.8.8*
 >**Full Changelog**: https://github.com/GTNewHorizons/CraftPresence/compare/1.8.3-GTNH...1.8.8
@@ -2053,7 +2016,6 @@ CraftPresence
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/CraftPresence/commits/1.8.3-GTNH
 
-CraftTweaker
 # Updated - CraftTweaker - 3.2.3 -->3.2.9
 ## *3.2.9*
 >## What's Changed
@@ -2098,7 +2060,6 @@ CraftTweaker
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/CraftTweaker/compare/3.2.3...3.2.4
 
-CreativeCore
 # Updated - CreativeCore - 1.3.24 -->1.3.27-GTNH
 ## *1.3.27-GTNH*
 >## What's Changed
@@ -2121,7 +2082,6 @@ CreativeCore
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/CreativeCore/commits/1.3.25-GTNH
 
-CropLoadCore
 # Updated - CropLoadCore - 0.1.5 -->0.1.10
 ## *0.1.10*
 >## What's Changed
@@ -2150,7 +2110,6 @@ CropLoadCore
 ## *0.1.6*
 >**Full Changelog**: https://github.com/GTNewHorizons/CropLoadCore/compare/0.1.5...0.1.6
 
-Crops-plus-plus
 # Updated - Crops-plus-plus - 1.3.5.6 -->1.3.6.3
 ## *1.3.6.3*
 >## What's Changed
@@ -2198,7 +2157,6 @@ Crops-plus-plus
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.3.5.8...1.3.5.9
 
-DefaultServerList
 # New Mod - DefaultServerList:1.1.1-GTNH
 ## *1.1.1-GTNH*
 >## What's Changed
@@ -2221,7 +2179,6 @@ DefaultServerList
 ## *1.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/DefaultServerList/commits/1.0
 
-DefaultWorldGenerator
 # Updated - DefaultWorldGenerator - 0.1-b13 -->0.2
 ## *0.2*
 >## What's Changed
@@ -2237,7 +2194,6 @@ DefaultWorldGenerator
 ## *0.1-b13*
 >**Full Changelog**: https://github.com/GTNewHorizons/DefaultWorldGenerator/commits/0.1-b13
 
-DetravScannerMod
 # New Mod - DetravScannerMod:1.6.9
 ## *1.6.9*
 >## What's Changed
@@ -2341,7 +2297,6 @@ DetravScannerMod
 ## *1.1*
 >The new compiled version, more difficult than ever!
 
-Draconic-Evolution
 # Updated - Draconic-Evolution - 1.1.0-gt -->1.1.5-GTNH
 ## *1.1.5-GTNH*
 >## What's Changed
@@ -2406,7 +2361,6 @@ Draconic-Evolution
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/commits/1.1.1
 
-Electro-Magic-Tools
 # Updated - Electro-Magic-Tools - 1.2.8.4 -->1.2.8.20
 ## *1.2.8.20*
 >## What's Changed
@@ -2543,7 +2497,6 @@ Electro-Magic-Tools
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.2.7.5...1.2.8.5
 
-EnderCore
 # Updated - EnderCore - 0.2.4 -->0.2.10
 ## *0.2.10*
 >## What's Changed
@@ -2595,7 +2548,6 @@ EnderCore
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.3...0.2.4
 
-EnderIO
 # Updated - EnderIO - 2.3.1.23 -->2.3.1.43
 ## *2.3.1.43*
 >## What's Changed
@@ -2629,7 +2581,6 @@ EnderIO
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.39...2.3.1.40
 
-EnderStorage
 # Updated - EnderStorage - 1.4.9 -->1.4.12
 ## *1.4.12*
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderStorage/compare/1.4.11...1.4.12
@@ -2661,7 +2612,6 @@ EnderStorage
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderStorage/compare/1.4.8...1.4.9
 
-EnderZoo
 # Updated - EnderZoo - 1.0.21 -->1.0.23
 ## *1.0.23*
 >## What's Changed
@@ -2688,7 +2638,6 @@ EnderZoo
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderZoo/compare/1.0.20...1.0.21
 
-ExtraCells2
 # Updated - ExtraCells2 - 2.5.1 -->2.5.22
 ## *2.5.22*
 >## What's Changed
@@ -2863,7 +2812,6 @@ ExtraCells2
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ExtraCells2/compare/2.4.2...2.5.2
 
-FindIt
 # Updated - FindIt - 1.0.2 -->1.0.11
 ## *1.0.11*
 >## What's Changed
@@ -2943,9 +2891,7 @@ FindIt
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.0.2...1.0.3
 
-ForbiddenMagic
 # Updated - ForbiddenMagic - 0.575-gtnh-2 -->0.6.3-GTNH
-ForestryMC
 # Updated - ForestryMC - 4.4.3 -->4.4.14
 ## *4.4.14*
 >## What's Changed
@@ -3033,7 +2979,6 @@ ForestryMC
 ## *4.4.3*
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.4.2...4.4.3
 
-ForgeMultipart
 # Updated - ForgeMultipart - 1.2.5 -->1.2.8
 ## *1.2.8*
 >## What's Changed
@@ -3060,12 +3005,10 @@ ForgeMultipart
 ## *1.2.5*
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.2.4...1.2.5
 
-Forgelin
 # Updated - Forgelin - 1.9.2-GTNH -->1.9.2-GTNH-1.7.10-Edition
 ## *1.9.2-GTNH-1.7.10-Edition*
 >remove java 9 metadata classes from jar
 
-GT5-Unofficial
 # Updated - GT5-Unofficial - 5.09.40.11 -->5.09.41.34
 ## *5.09.41.34*
 >## What's Changed
@@ -4168,7 +4111,6 @@ GT5-Unofficial
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.10...5.09.40.11
 
-GTNEIOrePlugin
 # Updated - GTNEIOrePlugin - 1.0.9 -->1.0.16
 ## *1.0.16*
 >## What's Changed
@@ -4222,7 +4164,6 @@ GTNEIOrePlugin
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNEIOrePlugin/compare/1.0.9...1.0.10
 
-GTNH-Lanthanides
 # New Mod - GTNH-Lanthanides:0.9.15
 ## *0.9.15*
 >## What's Changed
@@ -4373,7 +4314,6 @@ GTNH-Lanthanides
 ## *0.8.1*
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.8...0.8.1
 
-GTNH-TC-Wands
 # Updated - GTNH-TC-Wands - 1.2.4 -->1.2.6
 ## *1.2.6*
 >## What's Changed
@@ -4398,7 +4338,6 @@ GTNH-TC-Wands
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.2.1...1.2.5
 
-GTNHLib
 # New Mod - GTNHLib:0.0.3
 ## *0.0.3*
 >## What's Changed
@@ -4424,7 +4363,6 @@ GTNHLib
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/commits/0.0.1
 
-GTplusplus
 # Updated - GTplusplus - 1.7.20.GTNH -->1.7.88
 ## *1.7.88*
 >## What's Changed
@@ -4949,7 +4887,6 @@ GTplusplus
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.16...1.7.22
 
-Gadomancy
 # Updated - Gadomancy - 1.0.8.3 -->1.0.8.5
 ## *1.0.8.5*
 >## What's Changed
@@ -4984,7 +4921,6 @@ Gadomancy
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.0.7.6...1.0.8.4
 
-GalacticGregGT5
 # Updated - GalacticGregGT5 - 1.0.5 -->1.0.8
 ## *1.0.8*
 >## What's Changed
@@ -5010,7 +4946,6 @@ GalacticGregGT5
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/GalacticGregGT5/compare/1.0.4...1.0.5
 
-Galacticraft
 # Updated - Galacticraft - 3.0.33-GTNH -->3.0.44-GTNH
 ## *3.0.44-GTNH*
 >## What's Changed
@@ -5134,9 +5069,7 @@ Galacticraft
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/commits/3.0.33-GTNH
 
-Galaxy-Space-GTNH
 # Updated - Galaxy-Space-GTNH - 1.2.1-GTNH -->1.1.16p-GTNH
-GoodGenerator
 # Updated - GoodGenerator - 0.3.2 -->0.4.22
 ## *0.4.22*
 >## What's Changed
@@ -5342,7 +5275,6 @@ GoodGenerator
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/v0.1.1...0.3.6
 
-Hardcore-Ender-Expansion
 # Updated - Hardcore-Ender-Expansion - 1.9.0-GTNH -->1.9.3-GTNH
 ## *1.9.3-GTNH*
 >## What's Changed
@@ -5389,7 +5321,6 @@ Hardcore-Ender-Expansion
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/commits/1.9.0-GTNH
 
-Hodgepodge
 # Updated - Hodgepodge - 1.6.18 -->1.7.20
 ## *1.7.20*
 >## What's Changed
@@ -5617,7 +5548,6 @@ Hodgepodge
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/1.6.17...1.6.18
 
-HoloInventory
 # Updated - HoloInventory - 2.1.6-GTNH.7 -->2.1.13-GTNH
 ## *2.1.13-GTNH*
 >## What's Changed
@@ -5662,7 +5592,6 @@ HoloInventory
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.1.3-beta...2.1.7-GTNH
 
-HungerOverhaul
 # Updated - HungerOverhaul - 1.0.2 -->1.0.4-GTNH
 ## *1.0.4-GTNH*
 >## What's Changed
@@ -5682,7 +5611,6 @@ HungerOverhaul
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/HungerOverhaul/commits/1.0.3-GTNH
 
-HydroEnergy
 # Updated - HydroEnergy - 1.0.8 -->1.0.12
 ## *1.0.12*
 >## What's Changed
@@ -5710,7 +5638,6 @@ HydroEnergy
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.0.9...1.0.10
 
-IFU
 # Updated - IFU - 1.9.1 -->1.9.4
 ## *1.9.4*
 >## What's Changed
@@ -5759,7 +5686,6 @@ IFU
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/IFU/compare/1.5...1.9.1
 
-INpureCore
 # Updated - INpureCore - 1.0.0B9-62 -->1.1.2-GTNH
 ## *1.1.2-GTNH*
 >## What's Changed
@@ -5776,7 +5702,6 @@ INpureCore
 ## *1.1.0-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/INpureCore/commits/1.1.0-GTNH
 
-IguanaTweaksTConstruct
 # Updated - IguanaTweaksTConstruct - 2.2.0 -->2.2.2
 ## *2.2.2*
 >## What's Changed
@@ -5805,7 +5730,6 @@ IguanaTweaksTConstruct
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.1.9...2.2.0
 
-InGame-Info-XML
 # Updated - InGame-Info-XML - 2.8.2.6-universal -->2.8.3.93
 ## *2.8.3.93*
 >## What's Changed
@@ -5862,7 +5786,6 @@ InGame-Info-XML
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.1.85...2.8.3.88
 
-IronChestMinecarts
 # Updated - IronChestMinecarts - 1.0.4 -->1.0.8
 ## *1.0.8*
 >## What's Changed
@@ -5898,7 +5821,6 @@ IronChestMinecarts
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/IronChestMinecarts/commits/1.0.5
 
-Irontanks
 # Updated - Irontanks - 1.2.4 -->1.2.6
 ## *1.2.6*
 >## What's Changed
@@ -5916,7 +5838,6 @@ Irontanks
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Irontanks/compare/1.2.3...1.2.4
 
-Jabba
 # Updated - Jabba - 1.2.11 -->1.2.21
 ## *1.2.21*
 >## What's Changed
@@ -6001,7 +5922,6 @@ Jabba
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.2.10...1.2.11
 
-KekzTech
 # Updated - KekzTech - 0.5.8 -->0.6.14
 ## *0.6.14*
 >## What's Changed
@@ -6097,7 +6017,6 @@ KekzTech
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.5.9...0.6.0
 
-KubaTech
 # New Mod - KubaTech:0.5.3
 ## *0.5.3*
 >## What's Changed
@@ -6189,7 +6108,6 @@ KubaTech
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/commits/0.1
 
-LittleTiles
 # Updated - LittleTiles - v1.2.0 -->1.2.3-GTNH
 ## *1.2.3-GTNH*
 >## What's Changed
@@ -6220,7 +6138,6 @@ LittleTiles
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/commits/1.2.1-GTNH
 
-LogisticsPipes
 # Updated - LogisticsPipes - 0.9.4.5.2 -->0.9.4.5.7-GTNH
 ## *0.9.4.5.7-GTNH*
 >## What's Changed
@@ -6263,7 +6180,6 @@ LogisticsPipes
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/commits/0.9.4.5.4-GTNH
 
-LootGames
 # Updated - LootGames - 2.0.3 -->2.0.5
 ## *2.0.5*
 >## What's Changed
@@ -6291,7 +6207,6 @@ LootGames
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.0.2...2.0.3
 
-LunatriusCore
 # Updated - LunatriusCore - 1.1.2.21-universal -->1.1.6-GTNH
 ## *1.1.6-GTNH*
 >## What's Changed
@@ -6319,9 +6234,7 @@ LunatriusCore
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/LunatriusCore/compare/1.1.3...1.1.4
 
-MX-Random
 # New Mod - MX-Random:0.1.3
-MagicBees
 # Updated - MagicBees - 2.5.7-GTNH -->2.5.11-GTNH
 ## *2.5.11-GTNH*
 >## What's Changed
@@ -6372,7 +6285,6 @@ MagicBees
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.5.2-GTNH...2.5.8-GTNH
 
-MalisisCore
 # Updated - MalisisCore - 0.14.3 -->0.14.5-GTNH
 ## *0.14.5-GTNH*
 >## What's Changed
@@ -6388,7 +6300,6 @@ MalisisCore
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/MalisisCore/commits/0.14.4-GTNH
 
-MalisisDoors
 # New Mod - MalisisDoors:1.13.3-GTNH
 ## *1.13.3-GTNH*
 >## What's Changed
@@ -6399,7 +6310,6 @@ MalisisDoors
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/MalisisDoors/commits/1.13.3-GTNH
 
-Mantle
 # Updated - Mantle - 0.3.2b -->0.3.5
 ## *0.3.5*
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.3.4...0.3.5
@@ -6413,7 +6323,6 @@ Mantle
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.3.2...0.3.4
 
-Minecraft-Backpack-Mod
 # New Mod - Minecraft-Backpack-Mod:2.2.6-GTNH
 ## *2.2.6-GTNH*
 >## What's Changed
@@ -6429,7 +6338,6 @@ Minecraft-Backpack-Mod
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/commits/2.2.5-GTNH
 
-Mixingasm
 # New Mod - Mixingasm:v0.2.3
 ## *v0.2.3*
 >## What's Changed
@@ -6441,7 +6349,6 @@ Mixingasm
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Mixingasm/compare/v0.2.2...v0.2.3
 
-ModTweaker
 # Updated - ModTweaker - 0.9.6.173 -->0.9.9
 ## *0.9.9*
 >## What's Changed
@@ -6463,7 +6370,6 @@ ModTweaker
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.9.7...0.9.8
 
-MouseTweaks
 # New Mod - MouseTweaks:2.4.5-GTNH
 ## *2.4.5-GTNH*
 >## What's Changed
@@ -6474,7 +6380,6 @@ MouseTweaks
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/commits/2.4.5-GTNH
 
-NEI-Integration
 # Updated - NEI-Integration - 1.1.2 -->1.2.2
 ## *1.2.2*
 >**Full Changelog**: https://github.com/GTNewHorizons/NEI-Integration/compare/1.1.4...1.2.2
@@ -6499,7 +6404,6 @@ NEI-Integration
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/NEI-Integration/compare/1.1.2...1.1.3
 
-Natura
 # Updated - Natura - 2.4.5 -->2.5.3
 ## *2.5.3*
 >## What's Changed
@@ -6567,7 +6471,6 @@ Natura
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.4.5-dev...2.4.5
 
-NaturesCompass
 # New Mod - NaturesCompass:1.3.4-GTNH
 ## *1.3.4-GTNH*
 >## What's Changed
@@ -6594,7 +6497,6 @@ NaturesCompass
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/commits/1.3.2-GTNH
 
-Netty-Patcher
 # Updated - Netty-Patcher - 0.3 -->0.3.1
 ## *0.3.1*
 >## What's Changed
@@ -6614,7 +6516,6 @@ Netty-Patcher
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Netty-Patcher/commits/0.3
 
-NewHorizonsCoreMod
 # Updated - NewHorizonsCoreMod - 1.9.09 -->1.9.70
 ## *1.9.70*
 >## What's Changed
@@ -7061,7 +6962,6 @@ NewHorizonsCoreMod
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.10...1.9.11
 
-Nodal-Mechanics
 # Updated - Nodal-Mechanics - 1.1-5-GTNH -->1.1.-6-GTNH
 ## *1.1.-6-GTNH*
 >## What's Changed
@@ -7083,7 +6983,6 @@ Nodal-Mechanics
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Nodal-Mechanics/compare/Nodal-Mechanics...1.1.-6-GTNH
 
-NotEnoughEnergistics
 # Updated - NotEnoughEnergistics - 1.0.0 -->1.3.16
 ## *1.3.16*
 >## What's Changed
@@ -7143,7 +7042,6 @@ NotEnoughEnergistics
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.3.7...1.3.8
 
-NotEnoughItems
 # Updated - NotEnoughItems - 2.1.18-GTNH -->2.3.2-GTNH
 ## *2.3.2-GTNH*
 >## What's Changed
@@ -7590,7 +7488,6 @@ NotEnoughItems
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.1.16-GTNH...2.1.18-GTNH
 
-Nuclear-Control
 # Updated - Nuclear-Control - 2.4.6a -->2.4.15
 ## *2.4.15*
 >## What's Changed
@@ -7663,7 +7560,6 @@ Nuclear-Control
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/commits/2.4.7
 
-OCGlasses
 # Updated - OCGlasses - 1.1-GTNH.2 -->1.2.5-GTNH
 ## *1.2.5-GTNH*
 >## What's Changed
@@ -7715,7 +7611,6 @@ OCGlasses
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/commits/1.2-GTNH
 
-OpenBlocks
 # Updated - OpenBlocks - 1.6.7 -->1.6.9-GTNH
 ## *1.6.9-GTNH*
 >## What's Changed
@@ -7750,7 +7645,6 @@ OpenBlocks
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.6.1...1.6.7
 
-OpenComputers
 # Updated - OpenComputers - 1.7.5.16-GTNH.163 -->1.7.7.1-GTNH
 ## *1.7.7.1-GTNH*
 >## What's Changed
@@ -7934,7 +7828,6 @@ OpenComputers
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.7.5.2...1.7.5.17-GTNH
 
-OpenModsLib
 # New Mod - OpenModsLib:0.10.6
 ## *0.10.6*
 >## What's Changed
@@ -7966,7 +7859,6 @@ OpenModsLib
 ## *0.10.2*
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenModsLib/compare/0.10.1...0.10.2
 
-OpenModularTurrets
 # Updated - OpenModularTurrets - 2.2.11-245 -->2.2.11-247
 ## *2.2.11-247*
 >## What's Changed
@@ -7980,7 +7872,6 @@ OpenModularTurrets
 ## *2.2.11-246*
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/commits/2.2.11-246
 
-OpenSecurity
 # Updated - OpenSecurity - 1.0.117 -->1.0.119-GTNH
 ## *1.0.119-GTNH*
 >## What's Changed
@@ -7996,7 +7887,6 @@ OpenSecurity
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenSecurity/commits/1.0.118-GTNH
 
-Opis
 # New Mod - Opis:1.3.4-mapless
 ## *1.3.4-mapless*
 >## What's Changed
@@ -8021,7 +7911,6 @@ Opis
 >- a ConcurrentModificationException crash in Opis
 >- a NullPointer Exception in MobiusCore
 
-OverloadedArmorBar
 # Updated - OverloadedArmorBar - 1.0.0 -->1.0.1
 ## *1.0.1*
 >## What's Changed
@@ -8038,7 +7927,6 @@ OverloadedArmorBar
 >- Promoting to non beta version
 >- add build.properties
 
-PersonalSpace
 # New Mod - PersonalSpace:1.0.16
 ## *1.0.16*
 >## What's Changed
@@ -8125,7 +8013,6 @@ PersonalSpace
 ## *1.0.3-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/commits/1.0.3-GTNH
 
-ProjectBlue
 # Updated - ProjectBlue - 1.1.7-GTNH -->1.1.8-GTNH
 ## *1.1.8-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectBlue/compare/1.1.7-GTNH...1.1.8-GTNH
@@ -8139,7 +8026,6 @@ ProjectBlue
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectBlue/commits/1.1.7-GTNH
 
-ProjectRed
 # Updated - ProjectRed - 4.7.1 -->4.7.7-GTNH
 ## *4.7.7-GTNH*
 >## What's Changed
@@ -8201,9 +8087,7 @@ ProjectRed
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/commits/4.7.1
 
-QuestBook
 # New Mod - QuestBook:2.1.3-GTNH
-Railcraft
 # Updated - Railcraft - 9.13.1 -->9.13.10
 ## *9.13.10*
 >## What's Changed
@@ -8284,7 +8168,6 @@ Railcraft
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.13.0...9.13.1
 
-Realistic-World-Gen
 # Updated - Realistic-World-Gen - alpha-1.3.2 -->alpha-1.3.2.1
 ## *alpha-1.3.2.1*
 >## What's Changed
@@ -8296,7 +8179,6 @@ Realistic-World-Gen
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen/commits/alpha-1.3.2.1
 
-RemoteIO
 # Updated - RemoteIO - 2.4.2 -->2.4.7
 ## *2.4.7*
 >## What's Changed
@@ -8343,7 +8225,6 @@ RemoteIO
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.4.2...2.4.3
 
-Roguelike-Dungeons
 # Updated - Roguelike-Dungeons - 1.5.1 -->1.5.3-GTNH
 ## *1.5.3-GTNH*
 >## What's Changed
@@ -8363,7 +8244,6 @@ Roguelike-Dungeons
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Roguelike-Dungeons/commits/1.5.2-GTNH
 
-SC2
 # Updated - SC2 - 2.0.0.b22 -->2.0.2
 ## *2.0.2*
 >## What's Changed
@@ -8386,9 +8266,7 @@ SC2
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.0.0.b21...2.0.0.b22
 
-SGCraft
 # Updated - SGCraft - 1.13.11-GTNH -->1.3.13-GTNH
-Schematica
 # Updated - Schematica - 1.7.6.131 -->1.9.0-GTNH
 ## *1.9.0-GTNH*
 >## What's Changed
@@ -8450,7 +8328,6 @@ Schematica
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/commits/1.8.0-GTNH
 
-Share-Where-I-am
 # New Mod - Share-Where-I-am:0.2.0
 ## *0.2.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/0.1.3...0.2.0
@@ -8473,7 +8350,6 @@ Share-Where-I-am
 ## *0.1.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/0.1.0-pre...0.1.0
 
-SleepingBags
 # Updated - SleepingBags - 0.1.1 -->0.1.3
 ## *0.1.3*
 >## What's Changed
@@ -8493,7 +8369,6 @@ SleepingBags
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/SleepingBags/commits/0.1.2
 
-SpecialMobs
 # Updated - SpecialMobs - 3.3.9 -->3.3.13
 ## *3.3.13*
 >## What's Changed
@@ -8545,7 +8420,6 @@ SpecialMobs
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/SpecialMobs/compare/3.3.5...3.3.9
 
-SpiceOfLife
 # Updated - SpiceOfLife - 2.0.0-carrot-beta9 -->2.0.5-carrot
 ## *2.0.5-carrot*
 >## What's Changed
@@ -8591,7 +8465,6 @@ SpiceOfLife
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/v.2.0.0-carrot-beta10...2.0.1-carrot
 
-SpongeMixins
 # Updated - SpongeMixins - 1.4.0 -->1.5.0
 ## *1.5.0*
 >## What's Changed
@@ -8600,7 +8473,6 @@ SpongeMixins
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/SpongeMixins/compare/1.4.0...1.5.0
 
-StandardQuestingPack
 # Updated - StandardQuestingPack - 3.0.186-GTNH -->3.0.197-GTNH
 ## *3.0.197-GTNH*
 >## What's Changed
@@ -8677,7 +8549,6 @@ StandardQuestingPack
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/StandardQuestingPack/commits/3.0.187-GTNH
 
-Steve-s-Factory-Manager
 # Updated - Steve-s-Factory-Manager - A98-GTNH -->1.1.1-GTNH
 ## *1.1.1-GTNH*
 >## What's Changed
@@ -8721,7 +8592,6 @@ Steve-s-Factory-Manager
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Steve-s-Factory-Manager/compare/A94-GTNH...1.0.0-GTNH
 
-StevesAddons
 # Updated - StevesAddons - 0.10.17 -->0.10.24
 ## *0.10.24*
 >## What's Changed
@@ -8773,7 +8643,6 @@ StevesAddons
 ## *0.10.18*
 >**Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.1.0.24...0.10.18
 
-StorageDrawers
 # Updated - StorageDrawers - 1.11.8-GTNH -->1.11.17-GTNH
 ## *1.11.17-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.16-GTNH...1.11.17-GTNH
@@ -8836,7 +8705,6 @@ StorageDrawers
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.4-gtnh...1.11.9-gtnh
 
-StorageDrawers-BiomesOPlenty
 # Updated - StorageDrawers-BiomesOPlenty - 1.11.9-GTNH -->1.11.17-GTNH
 ## *1.11.17-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty/compare/1.11.11-GTNH...1.11.17-GTNH
@@ -8865,7 +8733,6 @@ StorageDrawers-BiomesOPlenty
 ## *1.11.9-gtnh*
 >**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty/commits/1.11.9-gtnh
 
-StorageDrawers-Forestry
 # Updated - StorageDrawers-Forestry - 1.11.9-GTNH -->1.11.17-GTNH
 ## *1.11.17-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Forestry/compare/1.11.11-GTNH...1.11.17-GTNH
@@ -8894,7 +8761,6 @@ StorageDrawers-Forestry
 ## *1.11.9-gtnh*
 >**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Forestry/commits/1.11.9-gtnh
 
-StorageDrawers-Misc
 # Updated - StorageDrawers-Misc - 1.11.9-GTNH -->1.11.17-GTNH
 ## *1.11.17-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Misc/compare/1.11.11-GTNH...1.11.17-GTNH
@@ -8920,7 +8786,6 @@ StorageDrawers-Misc
 ## *1.11.9-gtnh*
 >**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Misc/commits/1.11.9-gtnh
 
-StorageDrawers-Natura
 # Updated - StorageDrawers-Natura - 1.11.9-GTNH -->1.11.17-GTNH
 ## *1.11.17-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Natura/compare/1.11.11-GTNH...1.11.17-GTNH
@@ -8946,7 +8811,6 @@ StorageDrawers-Natura
 ## *1.11.9-gtnh*
 >**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Natura/commits/1.11.9-gtnh
 
-StructureCompat
 # New Mod - StructureCompat:0.2.0
 ## *0.2.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.1...0.2.0
@@ -8954,7 +8818,6 @@ StructureCompat
 ## *0.1*
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/commits/0.1
 
-StructureLib
 # Updated - StructureLib - 1.0.12 -->1.1.12
 ## *1.1.12*
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.1.11...1.1.12
@@ -9044,7 +8907,6 @@ StructureLib
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.0.11...1.0.14
 
-Super-TiC
 # Updated - Super-TiC - 1.2.1 -->1.2.4
 ## *1.2.4*
 >## What's Changed
@@ -9073,7 +8935,6 @@ Super-TiC
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Super-TiC/commits/1.2.2
 
-TC4Tweaks
 # Updated - TC4Tweaks - 1.4.7 -->1.4.16
 ## *1.4.16*
 >## What's Changed
@@ -9112,7 +8973,6 @@ TC4Tweaks
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/TC4Tweaks/compare/1.4.5...1.4.7
 
-TCNEIAdditions
 # Updated - TCNEIAdditions - 1.1.0.3 -->1.1.1.5
 ## *1.1.1.5*
 >## What's Changed
@@ -9177,7 +9037,6 @@ TCNEIAdditions
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.1.0.2...1.1.0.3
 
-TCNodeTracker
 # Updated - TCNodeTracker - 1.1.4 -->1.1.6
 ## *1.1.6*
 >## What's Changed
@@ -9204,7 +9063,6 @@ TCNodeTracker
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/TCNodeTracker/compare/1.1.3...1.1.4
 
-TecTech
 # Updated - TecTech - 4.10.10 -->5.0.35
 ## *5.0.35*
 >## What's Changed
@@ -9454,7 +9312,6 @@ TecTech
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/4.10.11...4.10.12
 
-ThaumicBases
 # Updated - ThaumicBases - 1.4.27 -->1.4.31
 ## *1.4.31*
 >## What's Changed
@@ -9515,7 +9372,6 @@ ThaumicBases
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.4.20...1.4.27
 
-ThaumicEnergistics
 # Updated - ThaumicEnergistics - 1.1.3.14-GTNH -->1.3.19-GTNH
 ## *1.3.19-GTNH*
 >## What's Changed
@@ -9580,7 +9436,6 @@ ThaumicEnergistics
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.1.3.1...1.3.15-GTNH
 
-ThaumicHorizons
 # Updated - ThaumicHorizons - 1.2.0.5-GTNH -->1.2.1.4
 ## *1.2.1.4*
 >## What's Changed
@@ -9653,7 +9508,6 @@ ThaumicHorizons
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.1.9.15...1.2.1.0
 
-ThaumicInventoryScanning
 # New Mod - ThaumicInventoryScanning:1.0.12-GTNH
 ## *1.0.12-GTNH*
 >## What's Changed
@@ -9664,7 +9518,6 @@ ThaumicInventoryScanning
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicInventoryScanning/commits/1.0.12-GTNH
 
-ThaumicTinkerer
 # Updated - ThaumicTinkerer - 2.5-3 -->2.6.5
 ## *2.6.5*
 >## What's Changed
@@ -9742,7 +9595,6 @@ ThaumicTinkerer
 >Added Blacklist config for Focus of Dislocation 
 >
 
-Thaumic_Exploration
 # Updated - Thaumic_Exploration - 1.1.81-GTNH-0 -->1.1.91-GTNH
 ## *1.1.91-GTNH*
 >## What's Changed
@@ -9830,7 +9682,6 @@ Thaumic_Exploration
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.1.57...1.1.83-GTNH
 
-TiC-Tooltips
 # Updated - TiC-Tooltips - 1.2.7 -->1.2.10
 ## *1.2.10*
 >## What's Changed
@@ -9852,7 +9703,6 @@ TiC-Tooltips
 ## *1.2.7*
 >**Full Changelog**: https://github.com/GTNewHorizons/TiC-Tooltips/compare/1.2.6...1.2.7
 
-TinkersConstruct
 # Updated - TinkersConstruct - 1.9.0.6-GTNH -->1.9.1-GTNH
 ## *1.9.1-GTNH*
 >## What's Changed
@@ -9917,7 +9767,6 @@ TinkersConstruct
 ## *1.9.0.6-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.0-15-GTNH...1.9.0.6-GTNH
 
-TinkersMechworks
 # Updated - TinkersMechworks - 0.2.16.2 -->0.2.16.4
 ## *0.2.16.4*
 >**Full Changelog**: https://github.com/GTNewHorizons/TinkersMechworks/compare/0.2.16.3...0.2.16.4
@@ -9928,7 +9777,6 @@ TinkersMechworks
 ## *0.2.16.2*
 >**Full Changelog**: https://github.com/GTNewHorizons/TinkersMechworks/compare/0.2.16.1...0.2.16.2
 
-ToroHealth
 # Updated - ToroHealth - 1.0.0 -->1.0.1
 ## *1.0.1*
 >## What's Changed
@@ -9944,7 +9792,6 @@ ToroHealth
 >- add always show config option
 >- promoting to non beta version
 
-Translocators
 # Updated - Translocators - 1.1.2.16 -->1.1.2.20
 ## *1.1.2.20*
 >**Full Changelog**: https://github.com/GTNewHorizons/Translocators/compare/1.1.2.19...1.1.2.20
@@ -9971,7 +9818,6 @@ Translocators
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Translocators/compare/1.1.2.16...1.1.2.17
 
-Universal-Singularities
 # Updated - Universal-Singularities - 8.6.3 -->8.6.5
 ## *8.6.5*
 >## What's Changed
@@ -9999,7 +9845,6 @@ Universal-Singularities
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.6...8.6.4
 
-VisualProspecting
 # Updated - VisualProspecting - 1.0.24b -->1.0.31
 ## *1.0.31*
 >## What's Changed
@@ -10069,7 +9914,6 @@ VisualProspecting
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.0.22b...1.0.24b
 
-WAILAPlugins
 # Updated - WAILAPlugins - 0.2.3.2-24 -->0.2.5
 ## *0.2.5*
 >## What's Changed
@@ -10100,7 +9944,6 @@ WAILAPlugins
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.2.3...0.2.4
 
-WAWLA
 # Updated - WAWLA - 1.1.0-GTNH -->1.1.3-GTNH
 ## *1.1.3-GTNH*
 >## What's Changed
@@ -10132,7 +9975,6 @@ WAWLA
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/WAWLA/commits/1.1.0-GTNH
 
-WailaHarvestability
 # Updated - WailaHarvestability - 1.1.8-GTNH -->1.1.10-GTNH
 ## *1.1.10-GTNH*
 >## What's Changed
@@ -10155,7 +9997,6 @@ WailaHarvestability
 ## *1.1.8-gtnh*
 >**Full Changelog**: https://github.com/GTNewHorizons/WailaHarvestability/compare/1.1.7-gtnh...1.1.8-gtnh
 
-WanionLib
 # Updated - WanionLib - 1.8 -->1.8.3
 ## *1.8.3*
 >**Full Changelog**: https://github.com/GTNewHorizons/WanionLib/compare/1.8.2...1.8.3
@@ -10172,7 +10013,6 @@ WanionLib
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/WanionLib/commits/1.8.1
 
-WarpTheory
 # Updated - WarpTheory - 1.2.4-GTNH -->1.2.6-GTNH
 ## *1.2.6-GTNH*
 >## What's Changed
@@ -10197,7 +10037,6 @@ WarpTheory
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.2.3-GTNH...1.2.4-GTNH
 
-WirelessCraftingTerminal
 # Updated - WirelessCraftingTerminal - 1.8.8.1-GTNH -->1.8.8.8
 ## *1.8.8.8*
 >## What's Changed
@@ -10260,7 +10099,6 @@ WirelessCraftingTerminal
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.8.8.1...1.8.8.2
 
-WirelessRedstone-CBE
 # Updated - WirelessRedstone-CBE - 1.4.2-GTNH -->1.4.8
 ## *1.4.8*
 >## What's Changed
@@ -10317,7 +10155,6 @@ WirelessRedstone-CBE
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.4.2...1.4.3
 
-WitcheryExtras
 # Updated - WitcheryExtras - 1.1.2 -->1.1.11
 ## *1.1.11*
 >## What's Changed
@@ -10368,7 +10205,6 @@ WitcheryExtras
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.1.2...1.1.3
 
-WitchingGadgets
 # Updated - WitchingGadgets - 1.2.14-GTNH -->1.2.21-GTNH
 ## *1.2.21-GTNH*
 >## What's Changed
@@ -10441,7 +10277,6 @@ WitchingGadgets
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.2.11-GTNH...1.2.15-GTNH
 
-Yamcl
 # Updated - Yamcl - 0.5.81 -->0.5.84
 ## *0.5.84*
 >**Full Changelog**: https://github.com/GTNewHorizons/Yamcl/compare/0.5.81...0.5.84
@@ -10455,7 +10290,6 @@ Yamcl
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Yamcl/compare/0.5.80...0.5.81
 
-ae2stuff
 # Updated - ae2stuff - 0.5.1.12-GTNH -->0.5.1.15-GTNH
 ## *0.5.1.15-GTNH*
 >## What's Changed
@@ -10490,7 +10324,6 @@ ae2stuff
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ae2stuff/commits/0.5.1.13-GTNH
 
-bartworks
 # Updated - bartworks - 0.5.31 -->0.5.82
 ## *0.5.82*
 >## What's Changed
@@ -10858,7 +10691,6 @@ bartworks
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.5.30...0.5.31
 
-bdlib
 # Updated - bdlib - 1.9.4.109 -->1.9.8-GTNH
 ## *1.9.8-GTNH*
 >## What's Changed
@@ -10883,7 +10715,6 @@ bdlib
 ## *1.9.5*
 >**Full Changelog**: https://github.com/GTNewHorizons/bdlib/compare/1.9.4...1.9.5
 
-gendustry
 # Updated - gendustry - 1.6.5.2-GTNH -->1.6.5.4-GTNH
 ## *1.6.5.4-GTNH*
 >## What's Changed
@@ -10912,7 +10743,6 @@ gendustry
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/gendustry/commits/1.6.5.2-GTNH
 
-harvestcraft
 # Updated - harvestcraft - 1.0.7-GTNH -->1.0.15-GTNH
 ## *1.0.15-GTNH*
 >## What's Changed
@@ -11002,7 +10832,6 @@ harvestcraft
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/commits/1.0.8-GTNH
 
-inventory-tweaks
 # Updated - inventory-tweaks - 1.5.11 -->1.5.15
 ## *1.5.15*
 >## What's Changed
@@ -11043,7 +10872,6 @@ inventory-tweaks
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/inventory-tweaks/compare/1.5.10...1.5.11
 
-ironchest
 # Updated - ironchest - 6.0.66 -->6.0.71
 ## *6.0.71*
 >## What's Changed
@@ -11099,7 +10927,6 @@ ironchest
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.65...6.0.66
 
-nei-custom-diagram
 # Updated - nei-custom-diagram - 1.4.0 -->1.4.4.5
 ## *1.4.4.5*
 >## What's Changed
@@ -11147,7 +10974,6 @@ nei-custom-diagram
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.1.1...1.4.3
 
-neiaddons
 # New Mod - neiaddons:1.12.19
 ## *1.12.19*
 >## What's Changed
@@ -11170,7 +10996,6 @@ neiaddons
 ## *1.12.17*
 >**Full Changelog**: https://github.com/GTNewHorizons/neiaddons/compare/1.12.16...1.12.17
 
-oauth
 # Updated - oauth - 1.06.1 -->1.06.1-GTNH
 ## *1.06.1-GTNH*
 >## What's Changed
@@ -11183,7 +11008,6 @@ oauth
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/oauth/commits/1.06.1-GTNH
 
-thaumcraft-research-tweaks
 # Updated - thaumcraft-research-tweaks - 1.0.2 -->1.0.3
 ## *1.0.3*
 >## What's Changed
@@ -11199,7 +11023,6 @@ thaumcraft-research-tweaks
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/thaumcraft-research-tweaks/commits/1.0.3
 
-thaumicinsurgence
 # New Mod - thaumicinsurgence:0.0.5
 ## *0.0.5*
 >**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.0.0.3...0.0.5
@@ -11234,7 +11057,6 @@ thaumicinsurgence
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.0.1...0.0.0.1
 
-twilightforest
 # Updated - twilightforest - 2.3.8.8 -->2.3.8.16
 ## *2.3.8.16*
 >## What's Changed
@@ -11299,7 +11121,6 @@ twilightforest
 ## *2.3.8.9*
 >**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.3.8.7...2.3.8.9
 
-waila
 # Updated - waila - 1.5.16 -->1.5.21
 ## *1.5.21*
 >## What's Changed

@@ -1,4 +1,3 @@
-AppleCore
 # Updated - AppleCore - 3.2.0 -->3.2.1
 ## *3.2.1*
 >## What's Changed
@@ -20,7 +19,6 @@ AppleCore
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.1.9...3.2.0
 
-CookingForBlockheads
 # Updated - CookingForBlockheads - 1.2.11-GTNH -->1.2.12-GTNH
 ## *1.2.12-GTNH*
 >## What's Changed
@@ -38,7 +36,6 @@ CookingForBlockheads
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.2.10-GTNH...1.2.11-GTNH
 
-Forgelin
 # Updated - Forgelin - 1.9.2-GTNH-1.7.10-Edition -->1.9.6-GTNH
 ## *1.9.6-GTNH*
 >## What's Changed
@@ -68,7 +65,6 @@ Forgelin
 ## *1.9.2-GTNH-1.7.10-Edition*
 >remove java 9 metadata classes from jar
 
-GT5-Unofficial
 # Updated - GT5-Unofficial - 5.09.41.34 -->5.09.41.39
 ## *5.09.41.39*
 >## What's Changed
@@ -128,7 +124,6 @@ GT5-Unofficial
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.31...5.09.41.34
 
-GTNH-Lanthanides
 # Updated - GTNH-Lanthanides - 0.9.15 -->0.9.16
 ## *0.9.16*
 >## What's Changed
@@ -144,7 +139,6 @@ GTNH-Lanthanides
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.9.14...0.9.15
 
-GTplusplus
 # Updated - GTplusplus - 1.7.88 -->1.7.90
 ## *1.7.90*
 >## What's Changed
@@ -167,7 +161,6 @@ GTplusplus
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.87...1.7.88
 
-GoodGenerator
 # Updated - GoodGenerator - 0.4.22 -->0.4.23
 ## *0.4.23*
 >## What's Changed
@@ -183,7 +176,6 @@ GoodGenerator
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.21...0.4.22
 
-Hodgepodge
 # Updated - Hodgepodge - 1.7.20 -->1.7.24
 ## *1.7.24*
 >## What's Changed
@@ -220,7 +212,6 @@ Hodgepodge
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/1.7.19...1.7.20
 
-KubaTech
 # Updated - KubaTech - 0.5.3 -->0.5.4
 ## *0.5.4*
 >## What's Changed
@@ -236,7 +227,6 @@ KubaTech
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.5.1...0.5.3
 
-NewHorizonsCoreMod
 # Updated - NewHorizonsCoreMod - 1.9.70 -->1.9.71
 ## *1.9.71*
 >## What's Changed
@@ -256,7 +246,6 @@ NewHorizonsCoreMod
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.69...1.9.70
 
-NotEnoughEnergistics
 # Updated - NotEnoughEnergistics - 1.3.16 -->1.3.18
 ## *1.3.18*
 >## What's Changed
@@ -281,7 +270,6 @@ NotEnoughEnergistics
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.3.14...1.3.16
 
-VisualProspecting
 # Updated - VisualProspecting - 1.0.31 -->1.0.33
 ## *1.0.33*
 >## What's Changed
@@ -305,7 +293,6 @@ VisualProspecting
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.0.30...1.0.31
 
-bartworks
 # Updated - bartworks - 0.5.82 -->0.5.83
 ## *0.5.83*
 >## What's Changed

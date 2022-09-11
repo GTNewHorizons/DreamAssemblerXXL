@@ -185,9 +185,7 @@ class ReleaseAssembler:
         with open(changelog_path, "w") as file:
 
             for mod, mod_changelog in changelog.items():
-                for item in [mod] + mod_changelog:
-                    if item in ["new_mods", "removed_mods"]:  # skipping useless lines
-                        continue
+                for item in mod_changelog:
                     try:
                         file.write(item + "\n")
                     except UnicodeEncodeError:
