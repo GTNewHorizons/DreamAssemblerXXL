@@ -1,9 +1,9 @@
 import itertools
 import os
+import re
 from bisect import bisect_left
 from functools import cache
 from pathlib import Path
-import re
 from shutil import copy, rmtree
 from typing import Any, Iterable, Iterator, List
 from urllib import parse
@@ -139,11 +139,11 @@ def compress_changelog(file_path):
     :param file_path: the path of the file
     :return: none
     """
-    currentEntry = None
-    inChangesMode = False
-    currentVersion = ""
+    current_entry = None
+    in_changes_mode = False
+    current_version = ""
     entries = []
-    initialLines = []
+    initial_lines = []
     with open(file_path, "r") as file:
         data = file.readlines()
         for line in data:
@@ -152,59 +152,75 @@ def compress_changelog(file_path):
                 m = re.search("^# New Mod - (.*?):(.*?)$", line)
                 name = m.group(1)
                 version = m.group(2)
-                currentEntry = ModEntry(name, version, True)
-                inChangesMode = False
-                entries.append(currentEntry)
+                current_entry = ModEntry(name, version, True)
+                in_changes_mode = False
+                entries.append(current_entry)
             elif line.startswith("# Updated - "):
                 m = re.search("^# Updated - (.*?) - (.*?) -->(.*?)$", line)
                 name = m.group(1)
-                versionFrom = m.group(2)
-                versionTo = m.group(3)
-                version = versionFrom + "..." + versionTo
-                currentEntry = ModEntry(name, version, False)
-                inChangesMode = False
-                entries.append(currentEntry)
-            elif currentEntry != None:
+                version_from = m.group(2)
+                version_to = m.group(3)
+                version = version_from + "..." + version_to
+                current_entry = ModEntry(name, version, False)
+                in_changes_mode = False
+                entries.append(current_entry)
+            elif current_entry != None:
                 if line == ">## What's Changed":
-                    inChangesMode = True
+                    in_changes_mode = True
                 elif line == ">## New Contributors":
-                    inChangesMode = False
+                    in_changes_mode = False
                 elif line.startswith("## *"):
-                    currentVersion = line[4: -1]
+                    current_version = line[4:-1]
                 elif line.startswith(">* "):
-                    if inChangesMode:
-                        currentEntry.changes.append(line[3:] + " (" + currentVersion + ")")
+                    if in_changes_mode:
+                        current_entry.changes.append(line[3:] + " (" + current_version + ")")
                     else:
-                        currentEntry.newContributors.append(line[3:] + " (" + currentVersion + ")")
+                        current_entry.new_contributors.append(line[3:] + " (" + current_version + ")")
                 elif line.startswith(">**Full Changelog**: "):
                     m = re.search("(compare|commits)/(.*?)(\.\.\.(.*))?$", line)
                     if m.group(1) == "compare":
-                        currentEntry.oldestLinkVersion = m.group(2)
-                        if currentEntry.newestLinkVersion == "":
-                            currentEntry.newestLinkVersion = m.group(4)
+                        current_entry.oldest_link_version = m.group(2)
+                        if current_entry.newest_link_version == "":
+                            current_entry.newest_link_version = m.group(4)
                     else:
-                        currentEntry.oldestLinkVersion = m.group(2)
+                        current_entry.oldest_link_version = m.group(2)
             else:
-                initialLines.append(line)
+                initial_lines.append(line)
 
     with open(file_path, "w") as file:
-        for line in initialLines:
+        for line in initial_lines:
             file.write(line + "\n")
 
         for ent in entries:
-            if ent.isNew:
+            if ent.is_new:
                 file.write("# New Mod - " + ent.name + " (" + ent.version + ")\n")
             else:
                 file.write(
-                    "# Updated " + ent.name + " (" + re.sub('^(.*)\.\.\.(.*)$', r'\1 --> \2', ent.version) + ")\n")
+                    "# Updated " + ent.name + " (" + re.sub("^(.*)\.\.\.(.*)$", r"\1 --> \2", ent.version) + ")\n"
+                )
 
-            if ent.isNew or ent.newestLinkVersion == "":
-                file.write("**Full Changelog**: https://github.com/GTNewHorizons/" + ent.name + "/commits/" + (
-                    ent.newestLinkVersion if ent.newestLinkVersion != "" else (
-                        ent.oldestLinkVersion if ent.oldestLinkVersion != "" else ent.version)) + "\n")
+            if ent.is_new or ent.newest_link_version == "":
+                file.write(
+                    "**Full Changelog**: https://github.com/GTNewHorizons/"
+                    + ent.name
+                    + "/commits/"
+                    + (
+                        ent.newest_link_version
+                        if ent.newest_link_version != ""
+                        else (ent.oldest_link_version if ent.oldest_link_version != "" else ent.version)
+                    )
+                    + "\n"
+                )
             else:
                 file.write(
-                    "**Full Changelog**: https://github.com/GTNewHorizons/" + ent.name + "/compare/" + ent.oldestLinkVersion + "..." + ent.newestLinkVersion + "\n")
+                    "**Full Changelog**: https://github.com/GTNewHorizons/"
+                    + ent.name
+                    + "/compare/"
+                    + ent.oldest_link_version
+                    + "..."
+                    + ent.newest_link_version
+                    + "\n"
+                )
 
             if ent.changes:
                 file.write(">## What's Changed\n")
@@ -212,11 +228,10 @@ def compress_changelog(file_path):
                     file.write("> * " + ch + "\n")
                 file.write(">\n")
 
-            if ent.newContributors:
+            if ent.new_contributors:
                 file.write(">## New Contributors\n")
-                for nc in ent.newContributors:
+                for nc in ent.new_contributors:
                     file.write("> * " + nc + "\n")
                 file.write(">\n")
 
             file.write("\n")
-
