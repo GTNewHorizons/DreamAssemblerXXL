@@ -237,8 +237,7 @@ class CurseAssembler(GenericAssembler):
             if not is_valid_curse_mod(mod, version):
                 url: Optional[str]
                 if is_mod_from_hidden_repo(mod):
-                    # get_maven_url(mod, version)
-                    print(get_maven_url(mod, version))
+                    url = get_maven_url(mod, version)
                 else:
                     url = version.download_url
                 assert url
