@@ -114,3 +114,13 @@ class Position(str, Enum):
     VERTICAL = "NS"
     ALL = "WENS"
     NONE = ""
+
+class ModEntry:
+    def __init__(self, name, version, isNew):
+        self.name = name
+        self.version = version
+        self.isNew = isNew
+        self.changes = []
+        self.newContributors = []
+        self.oldestLinkVersion = ""
+        self.newestLinkVersion = ""
