@@ -5,7 +5,7 @@ from bisect import bisect_left
 from functools import cache
 from pathlib import Path
 from shutil import copy, rmtree
-from typing import Any, Iterable, Iterator, List
+from typing import Any, Iterable, Iterator, List, Match, Optional
 from urllib import parse
 
 from gtnh.defs import CLIENT_WORKING_DIR, SERVER_WORKING_DIR, ModEntry
@@ -132,39 +132,48 @@ def blockquote(input_str: str) -> str:
     return "\n".join(f">{s}" for s in input_str.split("\n"))
 
 
-def compress_changelog(file_path):
+def compress_changelog(file_path: Path) -> None:
     """
     Compress the changelog matching the given changelog path.
 
     :param file_path: the path of the file
     :return: none
     """
-    current_entry = None
-    in_changes_mode = False
-    current_version = ""
-    entries = []
-    initial_lines = []
+    current_entry: Optional[ModEntry] = None
+    in_changes_mode: bool = False
+    current_version: str = ""
+    entries: List[ModEntry] = []
+    initial_lines: List[str] = []
+
+    matches: Optional[Match[str]]
+    name: str
+    version: str
+    version_to: str
+    version_from: str
+
     with open(file_path, "r") as file:
         data = file.readlines()
         for line in data:
             line = line.strip()
             if line.startswith("# New Mod - "):
-                m = re.search("^# New Mod - (.*?):(.*?)$", line)
-                name = m.group(1)
-                version = m.group(2)
+                matches = re.search("^# New Mod - (.*?):(.*?)$", line)
+                assert matches
+                name = matches.group(1)
+                version = matches.group(2)
                 current_entry = ModEntry(name, version, True)
                 in_changes_mode = False
                 entries.append(current_entry)
             elif line.startswith("# Updated - "):
-                m = re.search("^# Updated - (.*?) - (.*?) -->(.*?)$", line)
-                name = m.group(1)
-                version_from = m.group(2)
-                version_to = m.group(3)
+                matches = re.search("^# Updated - (.*?) - (.*?) -->(.*?)$", line)
+                assert matches
+                name = matches.group(1)
+                version_from = matches.group(2)
+                version_to = matches.group(3)
                 version = version_from + "..." + version_to
                 current_entry = ModEntry(name, version, False)
                 in_changes_mode = False
                 entries.append(current_entry)
-            elif current_entry != None:
+            elif current_entry:
                 if line == ">## What's Changed":
                     in_changes_mode = True
                 elif line == ">## New Contributors":
@@ -173,17 +182,18 @@ def compress_changelog(file_path):
                     current_version = line[4:-1]
                 elif line.startswith(">* "):
                     if in_changes_mode:
-                        current_entry.changes.append(line[3:] + " (" + current_version + ")")
+                        current_entry.changes.append(f"{line[3:]} ({current_version})")
                     else:
-                        current_entry.new_contributors.append(line[3:] + " (" + current_version + ")")
+                        current_entry.new_contributors.append(f"{line[3:]} ({current_version})")
                 elif line.startswith(">**Full Changelog**: "):
-                    m = re.search("(compare|commits)/(.*?)(\.\.\.(.*))?$", line)
-                    if m.group(1) == "compare":
-                        current_entry.oldest_link_version = m.group(2)
+                    matches = re.search("(compare|commits)/(.*?)(\\.\\.\\.(.*))?$", line)
+                    assert matches
+                    if matches.group(1) == "compare":
+                        current_entry.oldest_link_version = matches.group(2)
                         if current_entry.newest_link_version == "":
-                            current_entry.newest_link_version = m.group(4)
+                            current_entry.newest_link_version = matches.group(4)
                     else:
-                        current_entry.oldest_link_version = m.group(2)
+                        current_entry.oldest_link_version = matches.group(2)
             else:
                 initial_lines.append(line)
 
@@ -196,7 +206,7 @@ def compress_changelog(file_path):
                 file.write("# New Mod - " + ent.name + " (" + ent.version + ")\n")
             else:
                 file.write(
-                    "# Updated " + ent.name + " (" + re.sub("^(.*)\.\.\.(.*)$", r"\1 --> \2", ent.version) + ")\n"
+                    "# Updated " + ent.name + " (" + re.sub("^(.*)\\.\\.\\.(.*)$", r"\1 --> \2", ent.version) + ")\n"
                 )
 
             if ent.is_new or ent.newest_link_version == "":
