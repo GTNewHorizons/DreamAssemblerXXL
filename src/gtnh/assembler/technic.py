@@ -26,7 +26,7 @@ def technify(string: str) -> str:
     :return: the formatted string
     """
     pattern_separators = re.compile("[ _]")
-    pattern_strip = re.compile("[^a-z0-9-]")
+    pattern_strip = re.compile("[^a-z0-9.-]")
     formatted_string = re.sub(pattern_separators, "-", string.lower())
     formatted_string = re.sub(pattern_strip, "", formatted_string)
 
