@@ -79,10 +79,7 @@ class TechnicAssembler(GenericAssembler):
 
             archive.write(
                 temp_zip_path,
-                arcname=(
-                    f"mods/{technify(mod.name)}/{technify(mod.name)}"
-                    f"-{technify(version.version_tag)}.zip"
-                ),
+                arcname=(f"mods/{technify(mod.name)}/{technify(mod.name)}" f"-{technify(version.version_tag)}.zip"),
             )
 
             if self.task_progress_callback is not None:
