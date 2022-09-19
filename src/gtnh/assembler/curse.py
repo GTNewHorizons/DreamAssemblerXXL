@@ -4,12 +4,13 @@ from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Tuple
 from zipfile import ZipFile
 
+import httpx
 from colorama import Fore
 from structlog import get_logger
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
-from gtnh.defs import CACHE_DIR, RELEASE_CURSE_DIR, ROOT_DIR, Side
+from gtnh.defs import CACHE_DIR, RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
@@ -85,6 +86,25 @@ def get_maven_url(mod: GTNHModInfo | ExternalModInfo, version: GTNHVersion) -> s
     return url
 
 
+def resolve_github_url(mod: GTNHModInfo, version: GTNHVersion) -> str:
+    """
+    Method to check if maven download url is availiable. If not, falling back to github. For now, it is resonable, but
+    we may hit the anonymous request quota limit if we have too much missing maven urls. Better not to rely too much on
+    this.
+
+    :param mod: the github mod
+    :param version: it's associated version
+    """
+
+    with httpx.Client(http2=True) as client:
+        url = get_maven_url(mod, version)
+        response: httpx.Response = client.get(url)
+        if response.status_code != 200:
+            assert version.browser_download_url
+            return version.browser_download_url
+        return url
+
+
 class CurseAssembler(GenericAssembler):
     """
     Curse assembler class. Allows for the assembling of curse archives.
@@ -130,9 +150,7 @@ class CurseAssembler(GenericAssembler):
             raise Exception("Can only assemble release for CLIENT")
 
         # + 2 pictures in the overrides + manifest.json + dependencies.json
-        delta_progress: float = 100 / (
-            len(self.get_mods_to_override(side)) + 2 + self.get_amount_of_files_in_config(side) + 1 + 1
-        )
+        delta_progress: float = 100 / (2 + self.get_amount_of_files_in_config(side) + 1 + 1)
         self.set_progress(delta_progress)
 
         archive_name: Path = self.get_archive_path(side)
@@ -155,19 +173,6 @@ class CurseAssembler(GenericAssembler):
             self.add_overrides(side, archive)
             log.info("Archive created successfully!")
 
-    def get_mods_to_override(self, side: Side) -> List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]:
-        """
-        Method to get the mods to override in the curse archive.
-
-        :param side: client side
-        :return: a list of couples where the first element is the mod object and the second is the version object
-        """
-        mods_to_override: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = [
-            (mod, version) for mod, version in self.get_mods(side) if is_mod_from_github(mod)
-        ]
-
-        return mods_to_override
-
     def add_overrides(self, side: Side, archive: ZipFile) -> None:
         """
         Method to add the overrides to the curse archive.
@@ -176,21 +181,14 @@ class CurseAssembler(GenericAssembler):
         :param archive: curse archive
         :return: None
         """
-        archive.write(self.overrides, arcname="overrides/overrides.png")
-        archive.write(self.overrideslash, arcname="overrides/overrideslash.png")
-
-        mods_to_override: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = self.get_mods_to_override(side)
-        # if curse reject the archive because reasons, we will have
-        # to find an alternative for that, as downloading the files
-        # hosted on github from the deploader will get the players
-        # rate limited and the deploader will receive 403 http errors
-
-        for mod, version in mods_to_override:
-            source_file: Path = get_asset_version_cache_location(mod, version)
-            archive_path: Path = self.overrides_folder / "mods" / source_file.name
-            archive.write(source_file, arcname=archive_path)
-            if self.task_progress_callback is not None:
-                self.task_progress_callback(self.get_progress(), f"adding {source_file.name} to the archive")
+        archive.write(self.overrides, arcname=self.overrides_folder / "overrides.png")
+        archive.write(self.overrideslash, arcname=self.overrides_folder / "overrideslash.png")
+        coremod, coremod_version = [
+            (mod, version) for mod, version in self.get_mods(side) if mod.name == "NewHorizonsCoreMod"
+        ][0]
+        source_file: Path = get_asset_version_cache_location(coremod, coremod_version)
+        archive_path: Path = self.overrides_folder / "mods" / source_file.name
+        archive.write(source_file, arcname=archive_path)
 
     def add_config(
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
@@ -234,16 +232,18 @@ class CurseAssembler(GenericAssembler):
         version: GTNHVersion
         dep_json: List[Dict[str, str]] = []
         for mod, version in mod_list:
-            if not is_valid_curse_mod(mod, version):
-                url: Optional[str]
-                if is_mod_from_hidden_repo(mod):
-                    url = get_maven_url(mod, version)
-                else:
-                    url = version.download_url
-                assert url
-                mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
+            if mod.name == "NewHorizonsCoreMod" or is_valid_curse_mod(mod, version):
+                continue  # skipping it as it's in the overrides
 
-                dep_json.append(mod_obj)
+            url: Optional[str]
+            if mod.source == ModSource.github:  # somehow all the mods are casted to GTNHModInfo so need to check this
+                url = resolve_github_url(mod, version)
+            else:
+                url = version.download_url
+            assert url
+            mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
+
+            dep_json.append(mod_obj)
 
         with open(self.tempfile, "w") as temp:
             dump(dep_json, temp, indent=2)
