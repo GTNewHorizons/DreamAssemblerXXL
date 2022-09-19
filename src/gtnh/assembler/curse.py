@@ -66,6 +66,25 @@ def is_mod_from_github(mod: GTNHModInfo | ExternalModInfo) -> bool:
     return isinstance(mod, GTNHModInfo)
 
 
+def get_maven_url(mod: GTNHModInfo | ExternalModInfo, version: GTNHVersion) -> str:
+    """
+    Returns the maven url for a github mod.
+
+    :param mod: the github mod
+    :param version: the mod version
+    :return: the url from the GT:NH maven
+    """
+    if not isinstance(mod, GTNHModInfo):
+        raise TypeError("Only github mods have a maven url")
+
+    url: str = (
+        "http://jenkins.usrv.eu:8081/nexus/service/local/repositories/releases/content/com/github/"
+        f"GTNewHorizons/{mod.name}/{version.version_tag}/{mod.name}-{version.version_tag}.jar"
+    )
+
+    return url
+
+
 class CurseAssembler(GenericAssembler):
     """
     Curse assembler class. Allows for the assembling of curse archives.
@@ -215,9 +234,13 @@ class CurseAssembler(GenericAssembler):
         version: GTNHVersion
         dep_json: List[Dict[str, str]] = []
         for mod, version in mod_list:
-            if not is_valid_curse_mod(mod, version) and not is_mod_from_github(mod):
-
-                url: Optional[str] = version.download_url
+            if not is_valid_curse_mod(mod, version):
+                url: Optional[str]
+                if is_mod_from_hidden_repo(mod):
+                    # get_maven_url(mod, version)
+                    print(get_maven_url(mod, version))
+                else:
+                    url = version.download_url
                 assert url
                 mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
 
