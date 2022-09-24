@@ -2,6 +2,8 @@ from enum import Enum
 from pathlib import Path
 
 # Root is two levels up
+from typing import List
+
 ROOT_DIR = Path(__file__).parent.parent.parent
 CACHE_DIR = ROOT_DIR / "cache"
 TECHNIC_CACHE_DIR = CACHE_DIR / "technic"
@@ -114,3 +116,14 @@ class Position(str, Enum):
     VERTICAL = "NS"
     ALL = "WENS"
     NONE = ""
+
+
+class ModEntry:
+    def __init__(self, name: str, version: str, is_new: bool) -> None:
+        self.name: str = name
+        self.version: str = version
+        self.is_new: bool = is_new
+        self.changes: List[str] = []
+        self.new_contributors: List[str] = []
+        self.oldest_link_version = ""
+        self.newest_link_version = ""

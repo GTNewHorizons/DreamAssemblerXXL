@@ -1,13 +1,14 @@
 import itertools
 import os
+import re
 from bisect import bisect_left
 from functools import cache
 from pathlib import Path
 from shutil import copy, rmtree
-from typing import Any, Iterable, Iterator, List
+from typing import Any, Iterable, Iterator, List, Match, Optional
 from urllib import parse
 
-from gtnh.defs import CLIENT_WORKING_DIR, SERVER_WORKING_DIR
+from gtnh.defs import CLIENT_WORKING_DIR, SERVER_WORKING_DIR, ModEntry
 
 
 class AttributeDict(dict):  # type: ignore
@@ -129,3 +130,118 @@ def index(elements_list: List[Any], element: Any) -> int:
 
 def blockquote(input_str: str) -> str:
     return "\n".join(f">{s}" for s in input_str.split("\n"))
+
+
+def compress_changelog(file_path: Path) -> None:
+    """
+    Compress the changelog matching the given changelog path.
+
+    :param file_path: the path of the file
+    :return: none
+    """
+    current_entry: Optional[ModEntry] = None
+    in_changes_mode: bool = False
+    current_version: str = ""
+    entries: List[ModEntry] = []
+    initial_lines: List[str] = []
+
+    matches: Optional[Match[str]]
+    name: str
+    version: str
+    version_to: str
+    version_from: str
+
+    with open(file_path, "r") as file:
+        data = file.readlines()
+        for line in data:
+            line = line.strip()
+            if line.startswith("# New Mod - "):
+                matches = re.search("^# New Mod - (.*?):(.*?)$", line)
+                assert matches
+                name = matches.group(1)
+                version = matches.group(2)
+                current_entry = ModEntry(name, version, True)
+                in_changes_mode = False
+                entries.append(current_entry)
+            elif line.startswith("# Updated - "):
+                matches = re.search("^# Updated - (.*?) - (.*?) -->(.*?)$", line)
+                assert matches
+                name = matches.group(1)
+                version_from = matches.group(2)
+                version_to = matches.group(3)
+                version = version_from + "..." + version_to
+                current_entry = ModEntry(name, version, False)
+                in_changes_mode = False
+                entries.append(current_entry)
+            elif current_entry:
+                if line == ">## What's Changed":
+                    in_changes_mode = True
+                elif line == ">## New Contributors":
+                    in_changes_mode = False
+                elif line.startswith("## *"):
+                    current_version = line[4:-1]
+                elif line.startswith(">* "):
+                    if in_changes_mode:
+                        current_entry.changes.append(f"{line[3:]} ({current_version})")
+                    else:
+                        current_entry.new_contributors.append(f"{line[3:]} ({current_version})")
+                elif line.startswith(">**Full Changelog**: "):
+                    matches = re.search("(compare|commits)/(.*?)(\\.\\.\\.(.*))?$", line)
+                    assert matches
+                    if matches.group(1) == "compare":
+                        current_entry.oldest_link_version = matches.group(2)
+                        if current_entry.newest_link_version == "":
+                            current_entry.newest_link_version = matches.group(4)
+                    else:
+                        current_entry.oldest_link_version = matches.group(2)
+            else:
+                initial_lines.append(line)
+
+    with open(file_path, "w") as file:
+        for line in initial_lines:
+            file.write(line + "\n")
+
+        for ent in entries:
+            if ent.is_new:
+                file.write("# New Mod - " + ent.name + " (" + ent.version + ")\n")
+            else:
+                file.write(
+                    "# Updated " + ent.name + " (" + re.sub("^(.*)\\.\\.\\.(.*)$", r"\1 --> \2", ent.version) + ")\n"
+                )
+
+            if ent.is_new or ent.newest_link_version == "":
+                file.write(
+                    "**Full Changelog**: https://github.com/GTNewHorizons/"
+                    + ent.name
+                    + "/commits/"
+                    + (
+                        ent.newest_link_version
+                        if ent.newest_link_version != ""
+                        else (ent.oldest_link_version if ent.oldest_link_version != "" else ent.version)
+                    )
+                    + "\n"
+                )
+            else:
+                file.write(
+                    "**Full Changelog**: https://github.com/GTNewHorizons/"
+                    + ent.name
+                    + "/compare/"
+                    + ent.oldest_link_version
+                    + "..."
+                    + ent.newest_link_version
+                    + "\n"
+                )
+
+            if ent.changes:
+                file.write(">## What's Changed\n")
+                for ch in ent.changes:
+                    file.write("> * " + ch + "\n")
+                file.write(">\n")
+
+            if ent.new_contributors:
+                file.write(">## New Contributors\n")
+                for nc in ent.new_contributors:
+                    file.write("> * " + nc + "\n")
+                file.write(">\n")
+
+            file.write("\n")
