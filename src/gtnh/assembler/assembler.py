@@ -11,6 +11,7 @@ from gtnh.assembler.zip_assembler import ZipAssembler
 from gtnh.defs import RELEASE_CHANGELOG_DIR, Archive, Side
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.modpack_manager import GTNHModpackManager
+from gtnh.utils import compress_changelog
 
 log = get_logger(__name__)
 
@@ -190,5 +191,7 @@ class ReleaseAssembler:
                         file.write(item + "\n")
                     except UnicodeEncodeError:
                         file.write((item + "\n").encode("ascii", "ignore").decode())
+
+        compress_changelog(changelog_path)
 
         return changelog_path
