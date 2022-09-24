@@ -1,4 +1,5 @@
 import logging
+import re
 import shutil
 from pathlib import Path
 from typing import Callable, Optional, Tuple
@@ -15,6 +16,21 @@ from gtnh.modpack_manager import GTNHModpackManager
 
 log = logging.getLogger("technic process")
 log.setLevel(logging.INFO)
+
+
+def technify(string: str) -> str:
+    """
+    format the given string to be only lower case letters or numbers or dashes.
+
+    :param string: the given string
+    :return: the formatted string
+    """
+    pattern_separators = re.compile("[ _]")
+    pattern_strip = re.compile("[^a-z0-9.-]")
+    formatted_string = re.sub(pattern_separators, "-", string.lower())
+    formatted_string = re.sub(pattern_strip, "", formatted_string)
+
+    return formatted_string
 
 
 class TechnicAssembler(GenericAssembler):
@@ -61,7 +77,10 @@ class TechnicAssembler(GenericAssembler):
             with ZipFile(temp_zip_path, "w") as temp_zip:
                 temp_zip.write(source_file, arcname=archive_path)
 
-            archive.write(temp_zip_path, arcname=f"mods/{mod.name}/{mod.name}-{version.version_tag}.zip")
+            archive.write(
+                temp_zip_path,
+                arcname=(f"mods/{technify(mod.name)}/{technify(mod.name)}" f"-{technify(version.version_tag)}.zip"),
+            )
 
             if self.task_progress_callback is not None:
                 self.task_progress_callback(
@@ -112,7 +131,10 @@ class TechnicAssembler(GenericAssembler):
         # writing the config zip in the technic archive
         archive.write(
             temp_zip_path,
-            arcname=f"mods/{modpack_config.name}/{modpack_config.name}-{config_version.version_tag}.zip",
+            arcname=(
+                f"mods/{technify(modpack_config.name)}/{technify(modpack_config.name)}"
+                f"-{technify(config_version.version_tag)}.zip"
+            ),
         )
 
         # deleting temp zip
