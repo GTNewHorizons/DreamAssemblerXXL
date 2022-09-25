@@ -1320,9 +1320,12 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/5 (1.9.3-GTNH-1.7.10-Edition)
 >
 
-# Updated GT5-Unofficial (5.09.40.11 --> 5.09.41.53)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.10...5.09.41.53
+# Updated GT5-Unofficial (5.09.40.11 --> 5.09.41.55)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.10...5.09.41.55
 >## What's Changed
+> * Minor turbine fixes: correct EU/t display in scanner, update flow multipliers in plasma turbine by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1409 (5.09.41.55)
+> * Revert "Fix plasma turbine consuming way too much plasma" by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1410 (5.09.41.55)
+> * Fix plasma turbine consuming way too much plasma by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1408 (5.09.41.54)
 > * rollback(materials): tin ores multipliers by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1406 (5.09.41.53)
 > * reduce RNG-ness for some centrifuge recipes by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1405 (5.09.41.53)
 > * rollback(materials): tin ores multipliers by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1406 (5.09.41.52)
@@ -1991,9 +1994,11 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/3 (0.0.2)
 >
 
-# Updated GTplusplus (1.7.20.GTNH --> 1.7.107)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.16...1.7.107
+# Updated GTplusplus (1.7.20.GTNH --> 1.7.109)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.16...1.7.109
 >## What's Changed
+> * Revert "Fix XL plasma turbine consuming way too much plasma" by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/373 (1.7.109)
+> * Fix XL plasma turbine consuming way too much plasma by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/372 (1.7.108)
 > * fix multiblock misbehavior after mode change by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/370 (1.7.107)
 > * Fix XL turbine dupe bug by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/369 (1.7.107)
 > * Corrected offsets in survival placement by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/366 (1.7.106)
