@@ -21,7 +21,7 @@ RELEASE_CURSE_DIR = RELEASE_DIR / "curse"
 RELEASE_MODRINTH_DIR = RELEASE_DIR / "modrinth"
 RELEASE_CHANGELOG_DIR = RELEASE_DIR / "changelogs"
 
-
+SERVER_ASSETS_DIR = ROOT_DIR / "server_assets"
 class Archive(str, Enum):
     MMC = "MMC"
     TECHNIC = "Technic"
@@ -117,6 +117,9 @@ class Position(str, Enum):
     ALL = "WENS"
     NONE = ""
 
+class ServerBrand(str, Enum):
+    forge = "forge"
+    thermos = "thermos"
 
 class ModEntry:
     def __init__(self, name: str, version: str, is_new: bool) -> None:
