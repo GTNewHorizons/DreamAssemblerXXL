@@ -1,16 +1,20 @@
 import shutil
 from pathlib import Path
-from typing import Callable, Optional, Tuple
+from typing import Callable, List, Optional, Tuple
 from zipfile import ZIP_DEFLATED, ZipFile
+
+from structlog import get_logger
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
-from gtnh.defs import RELEASE_ZIP_DIR, Side
+from gtnh.defs import RELEASE_ZIP_DIR, SERVER_ASSETS_DIR, ServerBrand, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
+
+log = get_logger(__name__)
 
 
 class ZipAssembler(GenericAssembler):
@@ -60,6 +64,14 @@ class ZipAssembler(GenericAssembler):
                     self.get_progress(), f"adding mod {mod.name} : version {version.version_tag} to the archive"
                 )
 
+    def add_server_assets(self, archive: ZipFile, server_brand: ServerBrand) -> None:
+        assets = self.get_server_assets(server_brand)
+
+        for asset in assets:
+            archive.write(asset, arcname=asset.relative_to(SERVER_ASSETS_DIR / server_brand.value))
+            if self.task_progress_callback is not None:
+                self.task_progress_callback(self.get_progress(), f"adding server asset {asset.name} to the archive")
+
     def add_config(
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
@@ -85,7 +97,47 @@ class ZipAssembler(GenericAssembler):
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_ZIP_DIR / f"GT_New_Horizons_{self.release.version}_{side}.zip"
 
-    def assemble(self, side: Side, verbose: bool = False) -> None:
+    def assemble(self, side: Side, verbose: bool = False, server_brand: ServerBrand = ServerBrand.forge) -> None:
+        """
+        Method to assemble the release.
+
+        :param side: target side
+        :param verbose: flag to enable the verbose mode
+        :param server_brand: server brand used to create the archive if it's a server one
+        :return: None
+        """
         # +1 for the changelog
-        self.set_progress(100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + 1))
+        amount_of_files: int = len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + 1
+
+        if side == Side.SERVER:
+            amount_of_files += len(self.get_server_assets(server_brand))
+
+        self.set_progress(100 / amount_of_files)
         GenericAssembler.assemble(self, side, verbose)
+
+        if side == Side.SERVER:
+            log.info("Adding server assets to the server release.")
+            with ZipFile(self.get_archive_path(side), "a") as archive:
+                self.add_server_assets(archive, server_brand)
+
+    def get_server_assets(self, server_brand: ServerBrand) -> List[Path]:
+        """
+        return the list of Path objects corresponding to the server brand's assets.
+
+        :param server_brand: the server brand to fetch assets for
+        :return: a list of Path objects
+        """
+        path_objects: List[Path] = [path_object for path_object in (SERVER_ASSETS_DIR / server_brand.value).iterdir()]
+
+        assets: List[Path] = []
+        folders: List[Path]
+
+        while len(path_objects) > 0:
+            assets.extend([file for file in path_objects if file.is_file()])
+
+            folders = [folder for folder in path_objects if folder.is_dir()]
+            path_objects = []
+            for folder in folders:
+                path_objects.extend([path for path in folder.iterdir()])
+
+        return assets

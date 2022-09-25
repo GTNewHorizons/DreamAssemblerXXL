@@ -21,6 +21,8 @@ RELEASE_CURSE_DIR = RELEASE_DIR / "curse"
 RELEASE_MODRINTH_DIR = RELEASE_DIR / "modrinth"
 RELEASE_CHANGELOG_DIR = RELEASE_DIR / "changelogs"
 
+SERVER_ASSETS_DIR = ROOT_DIR / "server_assets"
+
 
 class Archive(str, Enum):
     MMC = "MMC"
@@ -116,6 +118,11 @@ class Position(str, Enum):
     VERTICAL = "NS"
     ALL = "WENS"
     NONE = ""
+
+
+class ServerBrand(str, Enum):
+    forge = "forge"
+    thermos = "thermos"
 
 
 class ModEntry:
