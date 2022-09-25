@@ -1,13 +1,13 @@
 import shutil
 from pathlib import Path
-from typing import Callable, Optional, Tuple, List
+from typing import Callable, List, Optional, Tuple
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from structlog import get_logger
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
-from gtnh.defs import RELEASE_ZIP_DIR, Side, ServerBrand, SERVER_ASSETS_DIR
+from gtnh.defs import RELEASE_ZIP_DIR, SERVER_ASSETS_DIR, ServerBrand, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
@@ -15,6 +15,7 @@ from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
+
 
 class ZipAssembler(GenericAssembler):
     """
@@ -119,7 +120,7 @@ class ZipAssembler(GenericAssembler):
             with ZipFile(self.get_archive_path(side), "a") as archive:
                 self.add_server_assets(archive, server_brand)
 
-    def get_server_assets(self, server_brand:ServerBrand) -> List[Path]:
+    def get_server_assets(self, server_brand: ServerBrand) -> List[Path]:
         """
         return the list of Path objects corresponding to the server brand's assets.
 
