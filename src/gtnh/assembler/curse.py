@@ -28,12 +28,13 @@ def is_valid_curse_mod(mod: GTNHModInfo | ExternalModInfo, version: GTNHVersion)
     :param version: its corresponding version
     :return: true if it is a valid curse mod
     """
-    if isinstance(mod, GTNHModInfo):
+    if mod.source == ModSource.github:  # instance checks are borked somehow
         return False
 
     if version.browser_download_url is None:
         return False
 
+    assert isinstance(mod, ExternalModInfo)
     if mod.project_id is None:
         return False
 
@@ -238,6 +239,8 @@ class CurseAssembler(GenericAssembler):
             url: Optional[str]
             if mod.source == ModSource.github:  # somehow all the mods are casted to GTNHModInfo so need to check this
                 url = resolve_github_url(mod, version)
+            elif is_valid_curse_mod(mod, version):
+                continue
             else:
                 url = version.download_url
             assert url
@@ -286,7 +289,6 @@ class CurseAssembler(GenericAssembler):
         mod: GTNHModInfo | ExternalModInfo
         version: GTNHVersion
         for mod, version in self.get_mods(side):
-
             if is_valid_curse_mod(mod, version):
                 # ignoring mypy errors here because it's all good in the check above
                 data: Dict[str, Any] = {
