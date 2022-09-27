@@ -4274,12 +4274,199 @@
       "latest_version": "2.3.1.46",
       "versions": [
         {
-          "version_tag": "2.3.1.40",
-          "changelog": "## What's Changed\n* Fix weather obelisk not working anywhere but overworld by @vlaetansky in https://github.com/GTNewHorizons/EnderIO/pull/77\n* Update buildscript & spotlessApply by @eigenraven in https://github.com/GTNewHorizons/EnderIO/pull/78\n* [FIX] Anchor distance config option not working by @vlaetansky in https://github.com/GTNewHorizons/EnderIO/pull/79\n\n## New Contributors\n* @vlaetansky made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/77\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.39...2.3.1.40",
-          "tagged_at": "2022-07-22T18:00:38+00:00",
-          "filename": "EnderIO-1.7.10-2.3.1.40.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/72392956",
-          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/untagged-152ddbbf60891d56242f/EnderIO-1.7.10-2.3.1.40.jar"
+          "version_tag": "2.3.0.433",
+          "changelog": "## What's Changed\n* Allow Galacticraft handles SoulBound itself by @Ugachaga in https://github.com/GTNewHorizons/EnderIO/pull/4\n* Revert \"Allow Galacticraft handles SoulBound itself\" by @Dream-Master in https://github.com/GTNewHorizons/EnderIO/pull/5\n* Added Grinding Balls and End Steel by @Zokonius in https://github.com/GTNewHorizons/EnderIO/pull/6\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.0.432...2.3.0.433",
+          "tagged_at": "2020-02-03T22:44:05+00:00",
+          "filename": "EnderIO-1.7.10-2.3.0.433_beta.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/17772631",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.0.433/EnderIO-1.7.10-2.3.0.433_beta.jar"
+        },
+        {
+          "version_tag": "2.3.0.434",
+          "changelog": "## What's Changed\n* EnderIO 1.12 stuff by @Zokonius in https://github.com/GTNewHorizons/EnderIO/pull/7\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.0.433...2.3.0.434",
+          "tagged_at": "2020-02-08T22:31:36+00:00",
+          "filename": "EnderIO-1.7.10-2.3.0.434_beta.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/17896211",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.0.434/EnderIO-1.7.10-2.3.0.434_beta.jar"
+        },
+        {
+          "version_tag": "2.3.1.0",
+          "changelog": "## What's Changed\n* Fixed Upgrades by @Zokonius in https://github.com/GTNewHorizons/EnderIO/pull/8\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.0.434...2.3.1.0",
+          "tagged_at": "2020-03-12T21:07:26+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.0_beta.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/18670316",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.0/EnderIO-1.7.10-2.3.1.0_beta.1.jar"
+        },
+        {
+          "version_tag": "2.3.1.1",
+          "changelog": "## What's Changed\n* Fixed Armor & new Conduit texture by @Zokonius in https://github.com/GTNewHorizons/EnderIO/pull/9\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.0...2.3.1.1",
+          "tagged_at": "2020-03-13T22:49:15+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.1_beta.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/18698071",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.1/EnderIO-1.7.10-2.3.1.1_beta.1.jar"
+        },
+        {
+          "version_tag": "2.3.1.2",
+          "changelog": "## What's Changed\n* Fixed Armor again by @Zokonius in https://github.com/GTNewHorizons/EnderIO/pull/10\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.1...2.3.1.2",
+          "tagged_at": "2020-03-14T12:07:07+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.2_beta.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/18706718",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.2/EnderIO-1.7.10-2.3.1.2_beta.1.jar"
+        },
+        {
+          "version_tag": "2.3.1.21",
+          "changelog": "## What's Changed\n* Fixed Conduit Filter by @Zokonius in https://github.com/GTNewHorizons/EnderIO/pull/12\n* Added Big Item Filter by @Zokonius in https://github.com/GTNewHorizons/EnderIO/pull/13\n* Capacitors, Conduits, Stellar Armor by @Dream-Master in https://github.com/GTNewHorizons/EnderIO/pull/14\n* Fixed basic ItemFilter by @Dream-Master in https://github.com/GTNewHorizons/EnderIO/pull/15\n* 1.12 stuff by @Dream-Master in https://github.com/GTNewHorizons/EnderIO/pull/16\n* Fixed Capacitor bug by @bartimaeusnek in https://github.com/GTNewHorizons/EnderIO/pull/17\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/EnderIO/pull/18\n* Update TooltipHandlerBurnTime.java by @TataTawa in https://github.com/GTNewHorizons/EnderIO/pull/19\n* Update TileConduitBundle.java by @TataTawa in https://github.com/GTNewHorizons/EnderIO/pull/20\n* Hide tile.blockLightNode.name in NEI by @glowredman in https://github.com/GTNewHorizons/EnderIO/pull/21\n* Change fused quartz blast resistance 2000 -> 20 by @Prometheus0000 in https://github.com/GTNewHorizons/EnderIO/pull/22\n* Ignore dead entities when capturing mobs with soul vial by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/24\n* Added forestry sapling support to farm station by @mitchej123 in https://github.com/GTNewHorizons/EnderIO/pull/25\n* Add round-robin button to ender conduit by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/27\n* Initial support for channels on EnderFluidConduits by @dvdmandt in https://github.com/GTNewHorizons/EnderIO/pull/26\n* Fix Burn Time tooltip by @mitchej123 in https://github.com/GTNewHorizons/EnderIO/pull/28\n* fix a crash with capacitor banks by @charagarlnad in https://github.com/GTNewHorizons/EnderIO/pull/29\n* Item Filter Improvements by @TimeConqueror in https://github.com/GTNewHorizons/EnderIO/pull/30\n* Fix capacitor NBT conversion by @D-Cysteine in https://github.com/GTNewHorizons/EnderIO/pull/31\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/EnderIO/pull/32\n* Implement advanced ender fluid conduits by @D-Cysteine in https://github.com/GTNewHorizons/EnderIO/pull/33\n* Fix accidentally swapping core and segment textures by @D-Cysteine in https://github.com/GTNewHorizons/EnderIO/pull/34\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/EnderIO/pull/35\n* Fill from sanity by @mitchej123 in https://github.com/GTNewHorizons/EnderIO/pull/38\n* Add more ender fluid conduit types by @D-Cysteine in https://github.com/GTNewHorizons/EnderIO/pull/36\n* Optimize filter code by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/37\n* Optimize ExistingItemFilter by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/39\n* update forge by @bombcar in https://github.com/GTNewHorizons/EnderIO/pull/40\n* Fix tooltip mB -> L by @bombcar in https://github.com/GTNewHorizons/EnderIO/pull/41\n\n## New Contributors\n* @bartimaeusnek made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/17\n* @Prometheus0000 made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/22\n* @dvdmandt made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/26\n* @charagarlnad made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/29\n* @TimeConqueror made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/30\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.2...2.3.1.21",
+          "tagged_at": "2021-12-02T10:38:48+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.21.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/50818090",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.21/EnderIO-1.7.10-2.3.1.21.jar"
+        },
+        {
+          "version_tag": "2.3.1.22",
+          "changelog": "## What's Changed\n* Update build script by @SinTh0r4s in https://github.com/GTNewHorizons/EnderIO/pull/42\n* Attempt fix of test&run by @SinTh0r4s in https://github.com/GTNewHorizons/EnderIO/pull/43\n* Fix EnderIO API artifact by @SinTh0r4s in https://github.com/GTNewHorizons/EnderIO/pull/44\n\n## New Contributors\n* @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/42\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.21...2.3.1.22",
+          "tagged_at": "2021-12-03T18:33:09+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.22.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/50944439",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.22/EnderIO-1.7.10-2.3.1.22.jar"
+        },
+        {
+          "version_tag": "2.3.1.23",
+          "changelog": "## What's Changed\n* Update License by @mitchej123 in https://github.com/GTNewHorizons/EnderIO/pull/45\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.22...2.3.1.23",
+          "tagged_at": "2021-12-11T15:50:32+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.23.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/51548324",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.23/EnderIO-1.7.10-2.3.1.23.jar"
+        },
+        {
+          "version_tag": "2.3.1.24",
+          "changelog": "## What's Changed\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/EnderIO/pull/46\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.23...2.3.1.24",
+          "tagged_at": "2021-12-20T23:21:10+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.24.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/52236456",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.24/EnderIO-1.7.10-2.3.1.24.jar"
+        },
+        {
+          "version_tag": "2.3.1.25",
+          "changelog": "## What's Changed\n* Fix error migrating advanced ender fluid conduits by @D-Cysteine in https://github.com/GTNewHorizons/EnderIO/pull/47\n* Update ru_RU.lang by @Zereff06 in https://github.com/GTNewHorizons/EnderIO/pull/48\n* Update ru_RU.lang by @Zereff06 in https://github.com/GTNewHorizons/EnderIO/pull/49\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.24...2.3.1.25",
+          "tagged_at": "2022-01-16T05:38:57+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.25.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/54095699",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.25/EnderIO-1.7.10-2.3.1.25.jar"
+        },
+        {
+          "version_tag": "2.3.1.26",
+          "changelog": "## What's Changed\n* Update en_US.lang, Update en_US.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/EnderIO/pull/50\n\n## New Contributors\n* @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/50\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.25...2.3.1.26",
+          "tagged_at": "2022-01-16T12:59:11+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.26.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/54113111",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.26/EnderIO-1.7.10-2.3.1.26.jar"
+        },
+        {
+          "version_tag": "2.3.1.27",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.26...2.3.1.27",
+          "tagged_at": "2022-01-18T08:15:05+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.27.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/54251849",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.27/EnderIO-1.7.10-2.3.1.27.jar"
+        },
+        {
+          "version_tag": "2.3.1.28",
+          "changelog": "## What's Changed\n* LGPL-3.0 by @bombcar in https://github.com/GTNewHorizons/EnderIO/pull/51\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.27...2.3.1.28",
+          "tagged_at": "2022-01-28T22:56:04+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.28.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/55246540",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.28/EnderIO-1.7.10-2.3.1.28.jar"
+        },
+        {
+          "version_tag": "2.3.1.29",
+          "changelog": "## What's Changed\n* update dependencies, including buildscript and buildcraft by @bombcar in https://github.com/GTNewHorizons/EnderIO/pull/52\n* update buildcraft by @bombcar in https://github.com/GTNewHorizons/EnderIO/pull/53\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.28...2.3.1.29",
+          "tagged_at": "2022-02-06T23:36:35+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.29.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/56031293",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.29/EnderIO-1.7.10-2.3.1.29.jar"
+        },
+        {
+          "version_tag": "2.3.1.30",
+          "changelog": "## What's Changed\n* small correction \"==\" -> \"=\" by @Zereff06 in https://github.com/GTNewHorizons/EnderIO/pull/54\n* Make Forestry a soft-dependency by @glowredman in https://github.com/GTNewHorizons/EnderIO/pull/55\n* Update .github scripts and buildscript by @bombcar in https://github.com/GTNewHorizons/EnderIO/pull/56\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.29...2.3.1.30",
+          "tagged_at": "2022-02-12T21:30:37+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.30.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/56640435",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.30/EnderIO-1.7.10-2.3.1.30.jar"
+        },
+        {
+          "version_tag": "2.3.1.31",
+          "changelog": "## What's Changed\n* fix AE2 version check in crash callback by @repo-alt in https://github.com/GTNewHorizons/EnderIO/pull/57\n\n## New Contributors\n* @repo-alt made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/57\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.30...2.3.1.31",
+          "tagged_at": "2022-02-27T21:36:23+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.31.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/58082582",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.31/EnderIO-1.7.10-2.3.1.31.jar"
+        },
+        {
+          "version_tag": "2.3.1.32",
+          "changelog": "## What's Changed\n* EIO capacitor fix by @Pnc6lx in https://github.com/GTNewHorizons/EnderIO/pull/58\n\n## New Contributors\n* @Pnc6lx made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/58\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.31...2.3.1.32",
+          "tagged_at": "2022-03-04T23:24:00+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.32.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/58599248",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.32/EnderIO-1.7.10-2.3.1.32.jar"
+        },
+        {
+          "version_tag": "2.3.1.33",
+          "changelog": "## What's Changed\n* Fix tooltip for coolant by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/59\n* fix farming station range by @boubou19 in https://github.com/GTNewHorizons/EnderIO/pull/60\n* fix: moving around buttons in Big Advanced Item Filter by @theyugin in https://github.com/GTNewHorizons/EnderIO/pull/61\n* Travel Anchor improvements by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/62\n* Fix chat spam when try to blink but staff does not have enough power by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/63\n* Fix overflow with XP container machines by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/64\n* Allow blinking onto the roof by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/65\n* Fix Travel Upgrade by @MuXiu1997 in https://github.com/GTNewHorizons/EnderIO/pull/66\n* Add Garden Soil from Ztones to recognized farmland list for CustomSee… by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/68\n* Fix powered spawner wrong behavior by @DianeXD in https://github.com/GTNewHorizons/EnderIO/pull/67\n* Update en_US.lang by @MuXiu1997 in https://github.com/GTNewHorizons/EnderIO/pull/69\n* Save ServerChannelRegister on every world save, and avoid saving corrupted data on server crashes. by @eigenraven in https://github.com/GTNewHorizons/EnderIO/pull/70\n\n## New Contributors\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/60\n* @theyugin made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/61\n* @MuXiu1997 made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/66\n* @DianeXD made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/67\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.32...2.3.1.33",
+          "tagged_at": "2022-06-10T20:22:01+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.33.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/68134633",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.33/EnderIO-1.7.10-2.3.1.33.jar"
+        },
+        {
+          "version_tag": "2.3.1.34-dev",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.33...2.3.1.34-dev",
+          "prerelease": true,
+          "tagged_at": "2022-06-15T22:44:22+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.34-dev.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/68608151",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.34-dev/EnderIO-1.7.10-2.3.1.34-dev.jar"
+        },
+        {
+          "version_tag": "2.3.1.35",
+          "changelog": "## What's Changed\n* Patch 1 by @TataTawa in https://github.com/GTNewHorizons/EnderIO/pull/72\n* Fix log spam with Dimensional Transceiver by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/73\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.34-dev...2.3.1.35",
+          "tagged_at": "2022-06-22T09:33:27+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.35.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/69233682",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.35/EnderIO-1.7.10-2.3.1.35.jar"
+        },
+        {
+          "version_tag": "2.3.1.36-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.35...2.3.1.36-pre",
+          "prerelease": true,
+          "tagged_at": "2022-06-25T17:57:02+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.36-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/69615565",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.36-pre/EnderIO-1.7.10-2.3.1.36-pre.jar"
+        },
+        {
+          "version_tag": "2.3.1.37-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.36-pre...2.3.1.37-pre",
+          "prerelease": true,
+          "tagged_at": "2022-06-25T18:38:47+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.37-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/69617830",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.37-pre/EnderIO-1.7.10-2.3.1.37-pre.jar"
+        },
+        {
+          "version_tag": "2.3.1.38",
+          "changelog": "## What's Changed\n* Conduit gui 1.12.2 backport by @eigenraven in https://github.com/GTNewHorizons/EnderIO/pull/74\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.37-pre...2.3.1.38",
+          "tagged_at": "2022-06-26T11:46:15+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.38.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/69677859",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.38/EnderIO-1.7.10-2.3.1.38.jar"
+        },
+        {
+          "version_tag": "2.3.1.39",
+          "changelog": "## What's Changed\n* make ender io conduit can drain from multi fluid tank by @GlodBlock in https://github.com/GTNewHorizons/EnderIO/pull/75\n* Conduit gui fixes by @eigenraven in https://github.com/GTNewHorizons/EnderIO/pull/76\n\n## New Contributors\n* @GlodBlock made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/75\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.38...2.3.1.39",
+          "tagged_at": "2022-07-05T16:27:43+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.39.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/70647148",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.39/EnderIO-1.7.10-2.3.1.39.jar"
         },
         {
           "version_tag": "2.3.1.41",
@@ -6059,7 +6246,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.41.59",
+      "latest_version": "5.09.41.61",
       "versions": [
         {
           "version_tag": "5.09.40.01",
@@ -7381,6 +7568,22 @@
           "filename": "gregtech-1.7.10-5.09.41.59.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/79133606",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.59/gregtech-1.7.10-5.09.41.59.jar"
+        },
+        {
+          "version_tag": "5.09.41.60",
+          "changelog": "## What's Changed\n* Revert \"Fix charger slot in Regulator not dropping item stored when broken\" to fix stable crash by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1419\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.59...5.09.41.60",
+          "tagged_at": "2022-09-27T15:31:10+00:00",
+          "filename": "gregtech-1.7.10-5.09.41.60.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/79189243",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.60/gregtech-1.7.10-5.09.41.60.jar"
+        },
+        {
+          "version_tag": "5.09.41.61",
+          "changelog": "## What's Changed\n* Proper fix for charger slot in Regulator not dropping item stored when broken by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1420\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.60...5.09.41.61",
+          "tagged_at": "2022-09-27T16:24:29+00:00",
+          "filename": "gregtech-1.7.10-5.09.41.61.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/79193775",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.61/gregtech-1.7.10-5.09.41.61.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",

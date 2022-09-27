@@ -1128,7 +1128,7 @@
 >
 
 # Updated EnderIO (2.3.1.23 --> 2.3.1.46)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.39...2.3.1.46
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.22...2.3.1.46
 >## What's Changed
 > * Remove per-recipe logging: -170kiB of logs in GTNH by @eigenraven in https://github.com/GTNewHorizons/EnderIO/pull/85 (2.3.1.46)
 > * Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/EnderIO/pull/84 (2.3.1.45)
@@ -1136,12 +1136,47 @@
 > * collapse continuous glPushAttrib into one call by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/82 (2.3.1.43)
 > * Fix teleport server error by @vlaetansky in https://github.com/GTNewHorizons/EnderIO/pull/81 (2.3.1.42)
 > * Fix crash when Waila is loaded and Chisel is not loaded by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/80 (2.3.1.41)
-> * Fix weather obelisk not working anywhere but overworld by @vlaetansky in https://github.com/GTNewHorizons/EnderIO/pull/77 (2.3.1.40)
-> * Update buildscript & spotlessApply by @eigenraven in https://github.com/GTNewHorizons/EnderIO/pull/78 (2.3.1.40)
-> * [FIX] Anchor distance config option not working by @vlaetansky in https://github.com/GTNewHorizons/EnderIO/pull/79 (2.3.1.40)
+> * make ender io conduit can drain from multi fluid tank by @GlodBlock in https://github.com/GTNewHorizons/EnderIO/pull/75 (2.3.1.39)
+> * Conduit gui fixes by @eigenraven in https://github.com/GTNewHorizons/EnderIO/pull/76 (2.3.1.39)
+> * Conduit gui 1.12.2 backport by @eigenraven in https://github.com/GTNewHorizons/EnderIO/pull/74 (2.3.1.38)
+> * Patch 1 by @TataTawa in https://github.com/GTNewHorizons/EnderIO/pull/72 (2.3.1.35)
+> * Fix log spam with Dimensional Transceiver by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/73 (2.3.1.35)
+> * Fix tooltip for coolant by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/59 (2.3.1.33)
+> * fix farming station range by @boubou19 in https://github.com/GTNewHorizons/EnderIO/pull/60 (2.3.1.33)
+> * fix: moving around buttons in Big Advanced Item Filter by @theyugin in https://github.com/GTNewHorizons/EnderIO/pull/61 (2.3.1.33)
+> * Travel Anchor improvements by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/62 (2.3.1.33)
+> * Fix chat spam when try to blink but staff does not have enough power by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/63 (2.3.1.33)
+> * Fix overflow with XP container machines by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/64 (2.3.1.33)
+> * Allow blinking onto the roof by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/65 (2.3.1.33)
+> * Fix Travel Upgrade by @MuXiu1997 in https://github.com/GTNewHorizons/EnderIO/pull/66 (2.3.1.33)
+> * Add Garden Soil from Ztones to recognized farmland list for CustomSee… by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/68 (2.3.1.33)
+> * Fix powered spawner wrong behavior by @DianeXD in https://github.com/GTNewHorizons/EnderIO/pull/67 (2.3.1.33)
+> * Update en_US.lang by @MuXiu1997 in https://github.com/GTNewHorizons/EnderIO/pull/69 (2.3.1.33)
+> * Save ServerChannelRegister on every world save, and avoid saving corrupted data on server crashes. by @eigenraven in https://github.com/GTNewHorizons/EnderIO/pull/70 (2.3.1.33)
+> * EIO capacitor fix by @Pnc6lx in https://github.com/GTNewHorizons/EnderIO/pull/58 (2.3.1.32)
+> * fix AE2 version check in crash callback by @repo-alt in https://github.com/GTNewHorizons/EnderIO/pull/57 (2.3.1.31)
+> * small correction "==" -> "=" by @Zereff06 in https://github.com/GTNewHorizons/EnderIO/pull/54 (2.3.1.30)
+> * Make Forestry a soft-dependency by @glowredman in https://github.com/GTNewHorizons/EnderIO/pull/55 (2.3.1.30)
+> * Update .github scripts and buildscript by @bombcar in https://github.com/GTNewHorizons/EnderIO/pull/56 (2.3.1.30)
+> * update dependencies, including buildscript and buildcraft by @bombcar in https://github.com/GTNewHorizons/EnderIO/pull/52 (2.3.1.29)
+> * update buildcraft by @bombcar in https://github.com/GTNewHorizons/EnderIO/pull/53 (2.3.1.29)
+> * LGPL-3.0 by @bombcar in https://github.com/GTNewHorizons/EnderIO/pull/51 (2.3.1.28)
+> * Update en_US.lang, Update en_US.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/EnderIO/pull/50 (2.3.1.26)
+> * Fix error migrating advanced ender fluid conduits by @D-Cysteine in https://github.com/GTNewHorizons/EnderIO/pull/47 (2.3.1.25)
+> * Update ru_RU.lang by @Zereff06 in https://github.com/GTNewHorizons/EnderIO/pull/48 (2.3.1.25)
+> * Update ru_RU.lang by @Zereff06 in https://github.com/GTNewHorizons/EnderIO/pull/49 (2.3.1.25)
+> * Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/EnderIO/pull/46 (2.3.1.24)
+> * Update License by @mitchej123 in https://github.com/GTNewHorizons/EnderIO/pull/45 (2.3.1.23)
 >
 >## New Contributors
-> * @vlaetansky made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/77 (2.3.1.40)
+> * @GlodBlock made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/75 (2.3.1.39)
+> * @boubou19 made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/60 (2.3.1.33)
+> * @theyugin made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/61 (2.3.1.33)
+> * @MuXiu1997 made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/66 (2.3.1.33)
+> * @DianeXD made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/67 (2.3.1.33)
+> * @Pnc6lx made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/58 (2.3.1.32)
+> * @repo-alt made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/57 (2.3.1.31)
+> * @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/50 (2.3.1.26)
 >
 
 # Updated EnderStorage (1.4.9 --> 1.4.12)
@@ -1324,9 +1359,11 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/5 (1.9.3-GTNH-1.7.10-Edition)
 >
 
-# Updated GT5-Unofficial (5.09.40.11 --> 5.09.41.59)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.10...5.09.41.59
+# Updated GT5-Unofficial (5.09.40.11 --> 5.09.41.61)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.10...5.09.41.61
 >## What's Changed
+> * Proper fix for charger slot in Regulator not dropping item stored when broken by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1420 (5.09.41.61)
+> * Revert "Fix charger slot in Regulator not dropping item stored when broken" to fix stable crash by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1419 (5.09.41.60)
 > * Fix charger slot in Regulator not dropping item stored when broken by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1417 (5.09.41.59)
 > * Fix createIndexedRecipeListCache not considering recipes smaller than 3x3 by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1416 (5.09.41.58)
 > * Fix muffler not stopping to run when multi is broken by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1411 (5.09.41.57)
