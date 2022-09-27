@@ -1127,9 +1127,10 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/3 (0.2.4)
 >
 
-# Updated EnderIO (2.3.1.23 --> 2.3.1.45)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.39...2.3.1.45
+# Updated EnderIO (2.3.1.23 --> 2.3.1.46)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.39...2.3.1.46
 >## What's Changed
+> * Remove per-recipe logging: -170kiB of logs in GTNH by @eigenraven in https://github.com/GTNewHorizons/EnderIO/pull/85 (2.3.1.46)
 > * Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/EnderIO/pull/84 (2.3.1.45)
 > * Infinite staff by @boubou19 in https://github.com/GTNewHorizons/EnderIO/pull/83 (2.3.1.44)
 > * collapse continuous glPushAttrib into one call by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/82 (2.3.1.43)
@@ -1172,9 +1173,10 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/EnderZoo/pull/6 (1.0.22)
 >
 
-# Updated ExtraCells2 (2.5.1 --> 2.5.23)
-**Full Changelog**: https://github.com/GTNewHorizons/ExtraCells2/compare/2.4.2...2.5.23
+# Updated ExtraCells2 (2.5.1 --> 2.5.24)
+**Full Changelog**: https://github.com/GTNewHorizons/ExtraCells2/compare/2.4.2...2.5.24
 >## What's Changed
+> * Add number formatting for EC2 cells by @Connor-Colenso in https://github.com/GTNewHorizons/ExtraCells2/pull/70 (2.5.24)
 > * Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/ExtraCells2/pull/69 (2.5.23)
 > * Fixed fluid in terminal showing negative numbers by @asdflj in https://github.com/GTNewHorizons/ExtraCells2/pull/68 (2.5.22)
 > * Update some features by @asdflj in https://github.com/GTNewHorizons/ExtraCells2/pull/67 (2.5.21)
@@ -1222,6 +1224,7 @@
 > * Set dependencies to master by @SinTh0r4s in https://github.com/GTNewHorizons/ExtraCells2/pull/38 (2.5.2)
 >
 >## New Contributors
+> * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/ExtraCells2/pull/70 (2.5.24)
 > * @asdflj made their first contribution in https://github.com/GTNewHorizons/ExtraCells2/pull/67 (2.5.21)
 > * @slprime made their first contribution in https://github.com/GTNewHorizons/ExtraCells2/pull/64 (2.5.20)
 > * @karmaBonfire made their first contribution in https://github.com/GTNewHorizons/ExtraCells2/pull/60 (2.5.18)
@@ -1294,9 +1297,10 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/16 (4.4.6)
 >
 
-# Updated ForgeMultipart (1.2.5 --> 1.2.9)
-**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.2.4...1.2.9
+# Updated ForgeMultipart (1.2.5 --> 1.3.0)
+**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.2.4...1.3.0
 >## What's Changed
+> * Remove logging of all microblock materials: -400kiB of logs on GTNH by @eigenraven in https://github.com/GTNewHorizons/ForgeMultipart/pull/12 (1.3.0)
 > * Update codechickenlib by @eigenraven in https://github.com/GTNewHorizons/ForgeMultipart/pull/11 (1.2.9)
 > * Ducttape crash by @miozune in https://github.com/GTNewHorizons/ForgeMultipart/pull/10 (1.2.8)
 > * Update dependencies by @bombcar in https://github.com/GTNewHorizons/ForgeMultipart/pull/8 (1.2.6)
@@ -1320,9 +1324,18 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/5 (1.9.3-GTNH-1.7.10-Edition)
 >
 
-# Updated GT5-Unofficial (5.09.40.11 --> 5.09.41.53)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.10...5.09.41.53
+# Updated GT5-Unofficial (5.09.40.11 --> 5.09.41.59)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.10...5.09.41.59
 >## What's Changed
+> * Fix charger slot in Regulator not dropping item stored when broken by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1417 (5.09.41.59)
+> * Fix createIndexedRecipeListCache not considering recipes smaller than 3x3 by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1416 (5.09.41.58)
+> * Fix muffler not stopping to run when multi is broken by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1411 (5.09.41.57)
+> * Add chemical formula to ore tooltip by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1413 (5.09.41.57)
+> * Adapt some multiblock GUIs for configuration circuit by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1415 (5.09.41.57)
+> * Fix incorrect mutation block name for explosive bee by @vlaetansky in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1412 (5.09.41.56)
+> * Minor turbine fixes: correct EU/t display in scanner, update flow multipliers in plasma turbine by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1409 (5.09.41.55)
+> * Revert "Fix plasma turbine consuming way too much plasma" by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1410 (5.09.41.55)
+> * Fix plasma turbine consuming way too much plasma by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1408 (5.09.41.54)
 > * rollback(materials): tin ores multipliers by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1406 (5.09.41.53)
 > * reduce RNG-ness for some centrifuge recipes by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1405 (5.09.41.53)
 > * rollback(materials): tin ores multipliers by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1406 (5.09.41.52)
@@ -1991,9 +2004,16 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/3 (0.0.2)
 >
 
-# Updated GTplusplus (1.7.20.GTNH --> 1.7.107)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.16...1.7.107
+# Updated GTplusplus (1.7.20.GTNH --> 1.7.110)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.16...1.7.110
 >## What's Changed
+> * Fix EU/t display in large turbine multiblocks by @eigenraven in https://github.com/GTNewHorizons/GTplusplus/pull/374 (1.7.110)
+> * Fix NPE with Crop Harvester by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/378 (1.7.110)
+> * Made super bus recipe time not tier dependend by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/376 (1.7.110)
+> * Fix mixer requiring input busses to work by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/375 (1.7.110)
+> * Fix fluid-extraction recipes for Redstone Alloy are incorrectly overwritten by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/377 (1.7.110)
+> * Revert "Fix XL plasma turbine consuming way too much plasma" by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/373 (1.7.109)
+> * Fix XL plasma turbine consuming way too much plasma by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/372 (1.7.108)
 > * fix multiblock misbehavior after mode change by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/370 (1.7.107)
 > * Fix XL turbine dupe bug by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/369 (1.7.107)
 > * Corrected offsets in survival placement by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/366 (1.7.106)
@@ -2364,9 +2384,11 @@
 # Updated Galaxy-Space-GTNH (1.2.1-GTNH --> 1.1.16p-GTNH)
 **Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/commits/1.2.1-GTNH...1.1.16p-GTNH
 
-# Updated GoodGenerator (0.3.2 --> 0.4.29)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/v0.1.1...0.4.29
+# Updated GoodGenerator (0.3.2 --> 0.4.31)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/v0.1.1...0.4.31
 >## What's Changed
+> * Fix possible dupe bug in NA by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/87 (0.4.31)
+> * Fix possible dupe bug in NA by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/87 (0.4.30)
 > * Fix dupe bugs with stocking input bus by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/86 (0.4.29)
 > * Fix pollution produce by @DianeXD in https://github.com/GTNewHorizons/GoodGenerator/pull/84 (0.4.28)
 > * Reset mUpdate timer when base cyclicUpdate_EM() is triggered by @eigenraven in https://github.com/GTNewHorizons/GoodGenerator/pull/81 (0.4.27)
@@ -2464,9 +2486,10 @@
 > * @draknyte1 made their first contribution in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/6 (1.9.0-GTNH)
 >
 
-# Updated Hodgepodge (1.6.18 --> 1.7.34)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/1.6.17...1.7.34
+# Updated Hodgepodge (1.6.18 --> 1.7.35)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/1.6.17...1.7.35
 >## What's Changed
+> * Make Journeymap an optional mod by @eigenraven in https://github.com/GTNewHorizons/Hodgepodge/pull/128 (1.7.35)
 > * option to not render potion particles from yourself by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/125 (1.7.34)
 > * Longer chat history, makes chat box transparent if chat is closed by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/126 (1.7.34)
 > * prevent_optifine_guiscale_crash by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/123 (1.7.33)
@@ -3030,9 +3053,10 @@
 > * @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/Netty-Patcher/pull/1 (0.3)
 >
 
-# Updated NewHorizonsCoreMod (1.9.09 --> 1.9.79)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.10...1.9.79
+# Updated NewHorizonsCoreMod (1.9.09 --> 1.9.80)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.10...1.9.80
 >## What's Changed
+> * Fix recursive recipes for ae2fc storage components being cheaper than assembler recipes by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/419 (1.9.80)
 > * Clean room by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/418 (1.9.79)
 > * added extreme shaped recipe for the creative staff of travelling by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/417 (1.9.78)
 > * convert ticon dusts to gt dusts in some recipes by @llk89 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/416 (1.9.75)
@@ -3757,9 +3781,10 @@
 # New Mod - QuestBook (2.1.3-GTNH)
 **Full Changelog**: https://github.com/GTNewHorizons/QuestBook/commits/2.1.3-GTNH
 
-# Updated Railcraft (9.13.1 --> 9.13.11)
-**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.13.0...9.13.11
+# Updated Railcraft (9.13.1 --> 9.13.12)
+**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.13.0...9.13.12
 >## What's Changed
+> * Remove 2000 lines (350kiB) of logs on startup by @eigenraven in https://github.com/GTNewHorizons/Railcraft/pull/30 (9.13.12)
 > * Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/Railcraft/pull/29 (9.13.11)
 > * updateBuildScript & spotlessApply by @eigenraven in https://github.com/GTNewHorizons/Railcraft/pull/27 (9.13.10)
 > * Fix bad fluid container handling, eating IC2 cells and similar by @eigenraven in https://github.com/GTNewHorizons/Railcraft/pull/28 (9.13.10)
@@ -4146,9 +4171,11 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/TCNodeTracker/pull/5 (1.1.5)
 >
 
-# Updated TecTech (4.10.10 --> 5.0.38)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/4.10.11...5.0.38
+# Updated TecTech (4.10.10 --> 5.0.39)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/4.10.11...5.0.39
 >## What's Changed
+> * Added start and end processing call to infuser to sync ME bus by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/100 (5.0.39)
+> * Allow any of 360k coolant for UHV Energy Hatch / Dynamo Hatch by @miozune in https://github.com/GTNewHorizons/TecTech/pull/101 (5.0.39)
 > * Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/TecTech/pull/98 (5.0.38)
 > * Fix ME Stocking input bus dupe fix for all TT based MBs by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/99 (5.0.37)
 > * Fix dense plates in stargate-radiation-containment-plate recipe by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/97 (5.0.36)
@@ -4735,9 +4762,10 @@
 > * @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/ae2stuff/pull/4 (0.5.1.13-GTNH)
 >
 
-# Updated bartworks (0.5.31 --> 0.5.85)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.5.30...0.5.85
+# Updated bartworks (0.5.31 --> 0.5.86)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.5.30...0.5.86
 >## What's Changed
+> * Fix dupe bugs by @minecraft7771 in https://github.com/GTNewHorizons/bartworks/pull/206 (0.5.86)
 > * Windmill-reblance by @iouter in https://github.com/GTNewHorizons/bartworks/pull/205 (0.5.85)
 > * fix aoobe by @Quarri6343 in https://github.com/GTNewHorizons/bartworks/pull/204 (0.5.84)
 > * Adapt to Wiremill Configuration Circuit support by @miozune in https://github.com/GTNewHorizons/bartworks/pull/201 (0.5.83)

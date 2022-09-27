@@ -1253,7 +1253,7 @@
     },
     {
       "name": "bartworks",
-      "latest_version": "0.5.85",
+      "latest_version": "0.5.86",
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -1743,6 +1743,14 @@
           "filename": "bartworks-1.7.10-0.5.85.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/78805522",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.85/bartworks-1.7.10-0.5.85.jar"
+        },
+        {
+          "version_tag": "0.5.86",
+          "changelog": "## What's Changed\n* Fix dupe bugs by @minecraft7771 in https://github.com/GTNewHorizons/bartworks/pull/206\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.5.85...0.5.86",
+          "tagged_at": "2022-09-26T16:12:27+00:00",
+          "filename": "bartworks-1.7.10-0.5.86.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/79072253",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.86/bartworks-1.7.10-0.5.86.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -4256,7 +4264,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.3.1.45",
+      "latest_version": "2.3.1.46",
       "versions": [
         {
           "version_tag": "2.3.1.40",
@@ -4305,6 +4313,14 @@
           "filename": "EnderIO-1.7.10-2.3.1.45.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/78870890",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.45/EnderIO-1.7.10-2.3.1.45.jar"
+        },
+        {
+          "version_tag": "2.3.1.46",
+          "changelog": "## What's Changed\n* Remove per-recipe logging: -170kiB of logs in GTNH by @eigenraven in https://github.com/GTNewHorizons/EnderIO/pull/85\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.45...2.3.1.46",
+          "tagged_at": "2022-09-26T18:49:14+00:00",
+          "filename": "EnderIO-1.7.10-2.3.1.46.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/79086050",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.46/EnderIO-1.7.10-2.3.1.46.jar"
         }
       ],
       "license": "Original code is All Rights Reserved, GTNH modifications are licensed under the GNU Lesser General Public License v3.0.",
@@ -4525,7 +4541,7 @@
     },
     {
       "name": "ExtraCells2",
-      "latest_version": "2.5.23",
+      "latest_version": "2.5.24",
       "versions": [
         {
           "version_tag": "2.3.1-17",
@@ -4744,6 +4760,14 @@
           "filename": "ExtraCells-1.7.10-2.5.23.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ExtraCells2/releases/assets/78870914",
           "browser_download_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.23/ExtraCells-1.7.10-2.5.23.jar"
+        },
+        {
+          "version_tag": "2.5.24",
+          "changelog": "## What's Changed\n* Add number formatting for EC2 cells by @Connor-Colenso in https://github.com/GTNewHorizons/ExtraCells2/pull/70\n\n## New Contributors\n* @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/ExtraCells2/pull/70\n\n**Full Changelog**: https://github.com/GTNewHorizons/ExtraCells2/compare/2.5.23...2.5.24",
+          "tagged_at": "2022-09-26T17:03:09+00:00",
+          "filename": "ExtraCells-1.7.10-2.5.24.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ExtraCells2/releases/assets/79077555",
+          "browser_download_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.24/ExtraCells-1.7.10-2.5.24.jar"
         }
       ],
       "license": "MIT License",
@@ -5124,7 +5148,7 @@
     },
     {
       "name": "ForgeMultipart",
-      "latest_version": "1.2.9",
+      "latest_version": "1.3.0",
       "versions": [
         {
           "version_tag": "1.2.4",
@@ -5173,6 +5197,14 @@
           "filename": "ForgeMultipart-1.7.10-1.2.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForgeMultipart/releases/assets/78334483",
           "browser_download_url": "https://github.com/GTNewHorizons/ForgeMultipart/releases/download/1.2.9/ForgeMultipart-1.7.10-1.2.9.jar"
+        },
+        {
+          "version_tag": "1.3.0",
+          "changelog": "## What's Changed\n* Remove logging of all microblock materials: -400kiB of logs on GTNH by @eigenraven in https://github.com/GTNewHorizons/ForgeMultipart/pull/12\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.2.9...1.3.0",
+          "tagged_at": "2022-09-26T18:48:33+00:00",
+          "filename": "ForgeMultipart-1.7.10-1.3.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForgeMultipart/releases/assets/79085998",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForgeMultipart/releases/download/1.3.0/ForgeMultipart-1.7.10-1.3.0.jar"
         }
       ],
       "license": "GNU Lesser General Public License v2.1.",
@@ -5648,7 +5680,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.4.29",
+      "latest_version": "0.4.31",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -5996,6 +6028,22 @@
           "filename": "GoodGenerator-1.7.10-0.4.29.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/78906106",
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.29/GoodGenerator-1.7.10-0.4.29.jar"
+        },
+        {
+          "version_tag": "0.4.30",
+          "changelog": "## What's Changed\n* Fix possible dupe bug in NA by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/87\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.29...0.4.30",
+          "tagged_at": "2022-09-26T14:33:47+00:00",
+          "filename": "GoodGenerator-1.7.10-0.4.30.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/79063435",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.30/GoodGenerator-1.7.10-0.4.30.jar"
+        },
+        {
+          "version_tag": "0.4.31",
+          "changelog": "## What's Changed\n* Fix possible dupe bug in NA by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/87\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.29...0.4.31",
+          "tagged_at": "2022-09-26T16:12:23+00:00",
+          "filename": "GoodGenerator-1.7.10-0.4.31.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/79072248",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.31/GoodGenerator-1.7.10-0.4.31.jar"
         }
       ],
       "license": "MIT License",
@@ -6004,7 +6052,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.41.55",
+      "latest_version": "5.09.41.59",
       "versions": [
         {
           "version_tag": "5.09.40.01",
@@ -7294,6 +7342,38 @@
           "filename": "gregtech-1.7.10-5.09.41.55.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/78966894",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.55/gregtech-1.7.10-5.09.41.55.jar"
+        },
+        {
+          "version_tag": "5.09.41.56",
+          "changelog": "## What's Changed\n* Fix incorrect mutation block name for explosive bee by @vlaetansky in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1412\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.55...5.09.41.56",
+          "tagged_at": "2022-09-26T08:55:10+00:00",
+          "filename": "gregtech-1.7.10-5.09.41.56.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/79033162",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.56/gregtech-1.7.10-5.09.41.56.jar"
+        },
+        {
+          "version_tag": "5.09.41.57",
+          "changelog": "## What's Changed\n* Fix muffler not stopping to run when multi is broken by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1411\n* Add chemical formula to ore tooltip by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1413\n* Adapt some multiblock GUIs for configuration circuit by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1415\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.56...5.09.41.57",
+          "tagged_at": "2022-09-26T16:13:09+00:00",
+          "filename": "gregtech-1.7.10-5.09.41.57.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/79072300",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.57/gregtech-1.7.10-5.09.41.57.jar"
+        },
+        {
+          "version_tag": "5.09.41.58",
+          "changelog": "## What's Changed\n* Fix createIndexedRecipeListCache not considering recipes smaller than 3x3 by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1416\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.57...5.09.41.58",
+          "tagged_at": "2022-09-26T18:51:05+00:00",
+          "filename": "gregtech-1.7.10-5.09.41.58.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/79086182",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.58/gregtech-1.7.10-5.09.41.58.jar"
+        },
+        {
+          "version_tag": "5.09.41.59",
+          "changelog": "## What's Changed\n* Fix charger slot in Regulator not dropping item stored when broken by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1417\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.58...5.09.41.59",
+          "tagged_at": "2022-09-27T05:44:06+00:00",
+          "filename": "gregtech-1.7.10-5.09.41.59.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/79133606",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.59/gregtech-1.7.10-5.09.41.59.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -7724,7 +7804,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.7.109",
+      "latest_version": "1.7.110",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -8420,6 +8500,14 @@
           "filename": "GT-PlusPlus-1.7.10-1.7.109.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/78967161",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.109/GT-PlusPlus-1.7.10-1.7.109.jar"
+        },
+        {
+          "version_tag": "1.7.110",
+          "changelog": "## What's Changed\n* Fix EU/t display in large turbine multiblocks by @eigenraven in https://github.com/GTNewHorizons/GTplusplus/pull/374\n* Fix NPE with Crop Harvester by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/378\n* Made super bus recipe time not tier dependend by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/376\n* Fix mixer requiring input busses to work by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/375\n* Fix fluid-extraction recipes for Redstone Alloy are incorrectly overwritten by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/377\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.109...1.7.110",
+          "tagged_at": "2022-09-26T16:11:29+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.110.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/79072151",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.110/GT-PlusPlus-1.7.10-1.7.110.jar"
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -8561,7 +8649,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "1.7.34",
+      "latest_version": "1.7.35",
       "versions": [
         {
           "version_tag": "v1.2.0",
@@ -8954,6 +9042,14 @@
           "filename": "hodgepodge-1.7.10-1.7.34.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/78873044",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/1.7.34/hodgepodge-1.7.10-1.7.34.jar"
+        },
+        {
+          "version_tag": "1.7.35",
+          "changelog": "## What's Changed\n* Make Journeymap an optional mod by @eigenraven in https://github.com/GTNewHorizons/Hodgepodge/pull/128\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/1.7.34...1.7.35",
+          "tagged_at": "2022-09-26T18:09:15+00:00",
+          "filename": "hodgepodge-1.7.10-1.7.35.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/79082886",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/1.7.35/hodgepodge-1.7.10-1.7.35.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -11145,7 +11241,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "1.9.79",
+      "latest_version": "1.9.80",
       "versions": [
         {
           "version_tag": "1.9.11",
@@ -11690,6 +11786,14 @@
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.79.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/78663887",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.79/GTNewHorizonsCoreMod-1.7.10-1.9.79.jar"
+        },
+        {
+          "version_tag": "1.9.80",
+          "changelog": "## What's Changed\n* Fix recursive recipes for ae2fc storage components being cheaper than assembler recipes by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/419\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.79...1.9.80",
+          "tagged_at": "2022-09-27T05:45:19+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.80.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/79133681",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.80/GTNewHorizonsCoreMod-1.7.10-1.9.80.jar"
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -13307,7 +13411,7 @@
     },
     {
       "name": "Railcraft",
-      "latest_version": "9.13.11",
+      "latest_version": "9.13.12",
       "versions": [
         {
           "version_tag": "9.12.7",
@@ -13412,6 +13516,14 @@
           "filename": "Railcraft-1.7.10-9.13.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/78906348",
           "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.13.11/Railcraft-1.7.10-9.13.11.jar"
+        },
+        {
+          "version_tag": "9.13.12",
+          "changelog": "## What's Changed\n* Remove 2000 lines (350kiB) of logs on startup by @eigenraven in https://github.com/GTNewHorizons/Railcraft/pull/30\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.13.11...9.13.12",
+          "tagged_at": "2022-09-26T18:50:20+00:00",
+          "filename": "Railcraft-1.7.10-9.13.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/79086141",
+          "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.13.12/Railcraft-1.7.10-9.13.12.jar"
         }
       ],
       "license": "Explicit Permission.",
@@ -15058,7 +15170,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.0.38",
+      "latest_version": "5.0.39",
       "versions": [
         {
           "version_tag": "4.10.12",
@@ -15366,6 +15478,14 @@
           "filename": "TecTech-1.7.10-5.0.38.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/78906080",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.38/TecTech-1.7.10-5.0.38.jar"
+        },
+        {
+          "version_tag": "5.0.39",
+          "changelog": "## What's Changed\n* Added start and end processing call to infuser to sync ME bus by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/100\n* Allow any of 360k coolant for UHV Energy Hatch / Dynamo Hatch by @miozune in https://github.com/GTNewHorizons/TecTech/pull/101\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.38...5.0.39",
+          "tagged_at": "2022-09-26T16:11:28+00:00",
+          "filename": "TecTech-1.7.10-5.0.39.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/79072149",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.39/TecTech-1.7.10-5.0.39.jar"
         }
       ],
       "license": "MIT License",
