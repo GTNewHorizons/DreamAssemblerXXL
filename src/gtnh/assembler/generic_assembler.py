@@ -7,7 +7,7 @@ from colorama import Fore
 from structlog import get_logger
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
-from gtnh.defs import ModSource, Side
+from gtnh.defs import README_TEMPLATE, RELEASE_README_DIR, ModSource, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
@@ -90,21 +90,59 @@ class GenericAssembler:
         :param side: the targetted side
         :return: a list of couples where the first object is the mod info object, the second is the targetted version.
         """
+
+        valid_sides: Set[Side] = {side, Side.BOTH}
+
+        github_mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = self.github_mods(valid_sides)
+
+        external_mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = self.external_mods(valid_sides)
+
+        mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = github_mods + external_mods
+        return mods
+
+    def external_mods(self, valid_sides: Set[Side]) -> List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]:
+        """
+        Method to grab the external mod info objects as well as their targetted version.
+
+        :param valid_sides: a set of valid sides to retrieve the mods from.
+        """
         get_mod: Callable[
             [str, str, Set[Side], ModSource], Optional[tuple[Union[GTNHModInfo, ExternalModInfo], GTNHVersion]]
         ] = self.modpack_manager.assets.get_mod_and_version
-        valid_sides: Set[Side] = {side, Side.BOTH}
 
-        github_mods: List[Optional[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]] = [
-            get_mod(name, version, valid_sides, ModSource.github) for name, version in self.release.github_mods.items()
-        ]
+        external_mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = list(
+            filter(
+                None,
+                [
+                    get_mod(name, version, valid_sides, ModSource.other)
+                    for name, version in self.release.external_mods.items()
+                ],
+            )
+        )
 
-        external_mods: List[Optional[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]] = [
-            get_mod(name, version, valid_sides, ModSource.other) for name, version in self.release.external_mods.items()
-        ]
+        return external_mods
 
-        mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = list(filter(None, github_mods + external_mods))
-        return mods
+    def github_mods(self, valid_sides: Set[Side]) -> List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]:
+        """
+        Method to grab the github mod info objects as well as their targetted version.
+
+        :param valid_sides: a set of valid sides to retrieve the mods from.
+        """
+        get_mod: Callable[
+            [str, str, Set[Side], ModSource], Optional[tuple[Union[GTNHModInfo, ExternalModInfo], GTNHVersion]]
+        ] = self.modpack_manager.assets.get_mod_and_version
+
+        github_mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = list(
+            filter(
+                None,
+                [
+                    get_mod(name, version, valid_sides, ModSource.github)
+                    for name, version in self.release.github_mods.items()
+                ],
+            )
+        )
+
+        return github_mods
 
     def get_config(self) -> Tuple[GTNHConfig, GTNHVersion]:
         """
@@ -175,6 +213,8 @@ class GenericAssembler:
             self.add_mods(side, self.get_mods(side), archive, verbose=verbose)
             log.info("Adding config to the archive")
             self.add_config(side, self.get_config(), archive, verbose=verbose)
+            log.info("Generating the readme for the modpack repo")
+            self.generate_readme()
             log.info("Archive created successfully!")
 
     def get_archive_path(self, side: Side) -> Path:
@@ -200,3 +240,44 @@ class GenericAssembler:
                 archive.write(self.changelog_path, arcname=self.changelog_path.name)
             else:
                 archive.write(self.changelog_path, arcname=arcname)
+
+    def generate_readme(self) -> None:
+        """
+        Generates the readme for the modpack repo, based on the mods in the given release.
+
+        :param version: the given release
+        :return: None
+        """
+
+        with open(README_TEMPLATE, "r") as file:
+            data = "".join(file.readlines())
+
+            data = data.format(self.generate_modlist())
+            with open(RELEASE_README_DIR / f"README_{self.release.version}.MD", "w") as readme:
+                readme.write(data)
+
+    def generate_modlist(self) -> str:
+        """
+        Generates the markdown for the modlist in the readme for the given release.
+
+        :return: the string for the modlist
+        """
+        valid_sides: Set[Side] = {Side.CLIENT, Side.SERVER, Side.BOTH}
+        lines: List[str] = []
+
+        # it seems i'm obligated to get mods separatedly because self.get_mods is somehow
+        # casting external mods into github mods
+
+        github_mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = self.github_mods(valid_sides)
+
+        for mod, version in github_mods:
+            assert isinstance(mod, GTNHModInfo)
+            lines.append(f"| [{mod.name}]({mod.repo_url}) | {version.version_tag} |")
+
+        external_mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = self.external_mods(valid_sides)
+
+        for mod, version in external_mods:
+            assert isinstance(mod, ExternalModInfo)
+            lines.append(f"| [{mod.name}]({mod.external_url}) | {version.version_tag} |")
+
+        return "\n".join(sorted(lines, key=lambda x: x.lower()))

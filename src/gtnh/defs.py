@@ -20,8 +20,11 @@ RELEASE_TECHNIC_DIR = RELEASE_DIR / "technic"
 RELEASE_CURSE_DIR = RELEASE_DIR / "curse"
 RELEASE_MODRINTH_DIR = RELEASE_DIR / "modrinth"
 RELEASE_CHANGELOG_DIR = RELEASE_DIR / "changelogs"
+RELEASE_README_DIR = RELEASE_DIR / "readmes"
 
 SERVER_ASSETS_DIR = ROOT_DIR / "server_assets"
+
+README_TEMPLATE = ROOT_DIR / "readme_template.md"
 
 
 class Archive(str, Enum):
