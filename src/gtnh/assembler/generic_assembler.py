@@ -252,7 +252,11 @@ class GenericAssembler:
         with open(README_TEMPLATE, "r") as file:
             data = "".join(file.readlines())
 
-            data = data.format(self.generate_modlist())
+            version: str = self.release.version
+            release_date: str = str(self.release.last_updated.date())
+            mod_list: str = self.generate_modlist()
+
+            data = data.format(version, release_date, mod_list)
             with open(RELEASE_README_DIR / f"README_{self.release.version}.MD", "w") as readme:
                 readme.write(data)
 

@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.2.0.0 is out 27.09.2022
+Version 2.2.0.0 is out 2022-09-27
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
