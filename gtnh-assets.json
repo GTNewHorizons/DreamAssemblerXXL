@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.2.0.0-RC-4",
+    "latest_version": "2.2.0.0",
     "versions": [
       {
         "version_tag": "2.1.2.3qf-test",
@@ -205,6 +205,13 @@
         "filename": "2.2.0.0-RC-4.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/78870238",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0-RC-4/2.2.0.0-RC-4.zip"
+      },
+      {
+        "version_tag": "2.2.0.0",
+        "tagged_at": "2022-09-27T14:03:52+00:00",
+        "filename": "2.2.0.0.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/79179822",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0/2.2.0.0.zip"
       }
     ],
     "type": "config",
