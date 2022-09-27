@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.1.2.0",
-  "last_updated": "2022-09-27T05:46:22.248662",
-  "config": "2.2.0.0-RC-4",
+  "last_updated": "2022-09-27T14:11:49.920405",
+  "config": "2.2.0.0",
   "github_mods": {
     "AdventureBackpack2": "1.0.5-GTNH",
     "AE2FluidCraft-Rework": "1.0.18-gtnh",
