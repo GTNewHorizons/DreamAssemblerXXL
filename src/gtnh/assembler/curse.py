@@ -232,23 +232,25 @@ class CurseAssembler(GenericAssembler):
         mod: GTNHModInfo | ExternalModInfo
         version: GTNHVersion
         dep_json: List[Dict[str, str]] = []
-        with ZipFile(RELEASE_CURSE_DIR / f"downloads.zip", "w") as file:
+        with ZipFile(RELEASE_CURSE_DIR / "downloads.zip", "w") as file:
             for mod, version in mod_list:
                 if mod.name == "NewHorizonsCoreMod" or is_valid_curse_mod(mod, version):
                     continue  # skipping it as it's in the overrides
 
                 url: Optional[str]
-                if mod.source == ModSource.github:  # somehow all the mods are casted to GTNHModInfo so need to check this
+                if (
+                    mod.source == ModSource.github
+                ):  # somehow all the mods are casted to GTNHModInfo so need to check this
                     url = resolve_github_url(mod, version)
                 elif is_valid_curse_mod(mod, version):
                     continue
                 else:
                     url = version.download_url
 
-                path:Path = get_asset_version_cache_location(mod, version)
+                path: Path = get_asset_version_cache_location(mod, version)
                 file.write(path, arcname=path.name)
                 assert url
-                url = f"http://downloads.gtnewhorizons.com/Mods_for_Twitch/{path.name}" # temporary override until maven is fixed
+                url = f"http://downloads.gtnewhorizons.com/Mods_for_Twitch/{path.name}"  # temporary override until maven is fixed
                 mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
 
                 dep_json.append(mod_obj)
