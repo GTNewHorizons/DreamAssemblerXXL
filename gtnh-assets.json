@@ -18337,6 +18337,24 @@
       "slug": "aroma1997core"
     },
     {
+      "name": "NotEnoughIds",
+      "latest_version": "1.4.3.4",
+      "versions": [
+        {
+          "version_tag": "1.4.3.4",
+          "tagged_at": "2016-06-19T12:06:00",
+          "filename": "NotEnoughIDs-1.4.3.4.jar",
+          "download_url": "https://mediafiles.forgecdn.net/files/2308/819/NotEnoughIDs-1.4.3.4.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/notenoughids/files/2308819"
+        }
+      ],
+      "license": "MIT",
+      "side": "BOTH",
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/notenoughids",
+      "project_id": "235107",
+      "slug": "notenoughids"
+    },
+    {
       "name": "AromaBackup",
       "latest_version": "0.1.0.0",
       "versions": [

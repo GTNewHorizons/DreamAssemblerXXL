@@ -144,7 +144,7 @@ class Window(Tk):
             "set_external_mod_version": self.set_external_mod_version,
             "set_external_mod_side": lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)),
             "get_gtnh": self._get_modpack_manager,
-            "get_external_mods": self.get_github_mods,
+            "get_external_mods": self.get_external_mods,
         }
 
         self.external_mod_frame: ExternalModFrame = ExternalModFrame(

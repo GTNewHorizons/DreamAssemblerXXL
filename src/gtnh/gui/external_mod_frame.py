@@ -169,11 +169,9 @@ class ExternalModList(LabelFrame):
         mod_versions: list[GTNHVersion] = mod_info.versions
         latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
         assert latest_version
-        current_version: str = (
-            self.get_external_mods_callback()[name]
-            if name in self.get_external_mods_callback()
-            else latest_version.version_tag
-        )
+        external_mods: Dict[str, str] = self.get_external_mods_callback()
+        current_version: str = external_mods[name] if name in external_mods else latest_version.version_tag
+
         license: str = mod_info.license or "No license detected"
         side: str = mod_info.side
 
