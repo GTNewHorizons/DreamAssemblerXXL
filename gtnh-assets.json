@@ -2666,7 +2666,8 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/BlockRenderer6343",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BlockRenderer6343/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BlockRenderer6343/",
+      "side": "CLIENT"
     },
     {
       "name": "BloodArsenal",
