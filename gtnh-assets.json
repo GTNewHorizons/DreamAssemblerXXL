@@ -2639,6 +2639,36 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BlockLimiter/"
     },
     {
+      "name": "BlockRenderer6343",
+      "latest_version": "1.0.0-RC3",
+      "versions": [
+        {
+          "version_tag": "1.0.0-RC1",
+          "tagged_at": "2022-09-17T09:23:03+00:00",
+          "filename": "blockrenderer6343-1.7.10-1.0.0-RC1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BlockRenderer6343/releases/assets/78156841",
+          "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.0.0-RC1/blockrenderer6343-1.7.10-1.0.0-RC1.jar"
+        },
+        {
+          "version_tag": "1.0.0-RC2",
+          "tagged_at": "2022-09-17T10:09:26+00:00",
+          "filename": "blockrenderer6343-1.7.10-1.0.0-RC2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BlockRenderer6343/releases/assets/78159041",
+          "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.0.0-RC2/blockrenderer6343-1.7.10-1.0.0-RC2.jar"
+        },
+        {
+          "version_tag": "1.0.0-RC3",
+          "tagged_at": "2022-09-19T18:42:52+00:00",
+          "filename": "blockrenderer6343-1.7.10-1.0.0-RC3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BlockRenderer6343/releases/assets/78371341",
+          "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.0.0-RC3/blockrenderer6343-1.7.10-1.0.0-RC3.jar"
+        }
+      ],
+      "license": "GNU Lesser General Public License v3.0",
+      "repo_url": "https://github.com/GTNewHorizons/BlockRenderer6343",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BlockRenderer6343/"
+    },
+    {
       "name": "BloodArsenal",
       "latest_version": "1.2.6",
       "versions": [
@@ -18349,7 +18379,6 @@
         }
       ],
       "license": "MIT",
-      "side": "BOTH",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/notenoughids",
       "project_id": "235107",
       "slug": "notenoughids"
