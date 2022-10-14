@@ -235,9 +235,12 @@ class GTNHModpackManager:
 
         return mod_updated
 
-    async def get_latest_github_release(self, repo: AttributeDict) -> AttributeDict | None:
+    async def get_latest_github_release(self, repo: AttributeDict | str) -> AttributeDict | None:
         try:
-            latest_release = AttributeDict(await self.gh.getitem(latest_release_uri(self.org, repo.name)))
+            if isinstance(repo, str):
+                latest_release = AttributeDict(await self.gh.getitem(latest_release_uri(self.org, repo)))
+            else:
+                latest_release = AttributeDict(await self.gh.getitem(latest_release_uri(self.org, repo.name)))
         except BadRequest:
             log.error(f"{Fore.RED}No latest release found for {Fore.CYAN}{repo.get('name')}{Style.RESET_ALL}")
             latest_release = None

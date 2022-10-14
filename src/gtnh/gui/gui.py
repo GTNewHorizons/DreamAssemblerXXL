@@ -132,6 +132,8 @@ class Window(Tk):
             "update_global_progress_bar": self.global_callback,
             "reset_current_task_progress_bar": self.current_task_reset_callback,
             "reset_global_progress_bar": self.global_reset_callback,
+            "add_mod_in_memory": self._add_github_mod,
+            "del_mod_in_memory":self._del_github_mod
         }
 
         self.github_mod_frame: GithubModFrame = GithubModFrame(
@@ -145,6 +147,8 @@ class Window(Tk):
             "set_external_mod_side": lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)),
             "get_gtnh": self._get_modpack_manager,
             "get_external_mods": self.get_external_mods,
+            "add_mod_in_memory": self._add_external_mod,
+            "del_mod_in_memory":self._del_external_mod
         }
 
         self.external_mod_frame: ExternalModFrame = ExternalModFrame(
@@ -175,6 +179,44 @@ class Window(Tk):
         self.external_mod_frame.set_width(width)
 
         self.toggled: bool = True  # state variable indicating if the widgets are disabled or not
+
+    def _add_github_mod(self, name, version):
+        """
+        add a mod to inmemory github modlist.
+
+        :param name: mod name
+        :param version: mod version
+        :return: None
+        """
+        self.github_mods[name]=version
+
+    def _del_github_mod(self, name):
+        """
+        remove a mod from inmemory github modlist.
+
+        :param name: mod name
+        :return: None
+        """
+        del self.github_mods[name]
+
+    def _add_external_mod(self, name, version):
+        """
+        add a mod to inmemory external modlist.
+
+        :param name: mod name
+        :param version: mod version
+        :return: None
+        """
+        self.external_mods[name] = version
+
+    def _del_external_mod(self, name):
+        """
+        remove a mod from inmemory external modlist.
+
+        :param name: mod name
+        :return: None
+        """
+        del self.external_mods[name]
 
     def trigger_toggle(self) -> None:
         """
@@ -762,7 +804,7 @@ class Window(Tk):
         if self.version == release_name:
             releases: List[GTNHRelease] = await self.get_releases()
             await self.load_gtnh_version(releases[-1], init=True)
-            
+
         gtnh.delete_release(release_name)
         showinfo("release successfully deleted", f"modpack version {release_name} successfully deleted!")
 
