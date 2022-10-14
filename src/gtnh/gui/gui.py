@@ -251,6 +251,7 @@ class Window(Tk):
             external_mods=self.external_mods,
             last_version=self.last_version,
         )
+        logger.info(f"version: {self.version}")
 
         # clean the previous state of the progress bars
         self.global_reset_callback()
@@ -745,8 +746,10 @@ class Window(Tk):
         is_release_added: bool = gtnh.add_release(release, update=True)
 
         if is_release_added:
+            await self.load_gtnh_version(release)
             gtnh.save_modpack()
             showinfo("release successfully generated", f"modpack version {release_name} successfully generated!")
+
 
     async def delete_gtnh_version(self, release_name: str) -> None:
         """
@@ -756,8 +759,13 @@ class Window(Tk):
         :return: None
         """
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        if self.version == release_name:
+            releases: List[GTNHRelease] = await self.get_releases()
+            await self.load_gtnh_version(releases[-1], init=True)
+            
         gtnh.delete_release(release_name)
         showinfo("release successfully deleted", f"modpack version {release_name} successfully deleted!")
+
 
     def show(self) -> None:
         """
