@@ -39,8 +39,8 @@ class GithubModList(LabelFrame):
         self.reset_current_task_progress_bar: Callable[[], None] = callbacks["reset_current_task_progress_bar"]
         self.reset_global_progress_bar: Callable[[], None] = callbacks["reset_global_progress_bar"]
 
-        self.add_mod_to_memory: Callable[[str, str], None]  = callbacks["add_mod_in_memory"]
-        self.del_mod_from_memory: Callable[[str], None]  = callbacks["del_mod_in_memory"]
+        self.add_mod_to_memory: Callable[[str, str], None] = callbacks["add_mod_in_memory"]
+        self.del_mod_from_memory: Callable[[str], None] = callbacks["del_mod_in_memory"]
 
         self.ypadding: int = 0
         self.xpadding: int = 0
@@ -237,9 +237,9 @@ class GithubModList(LabelFrame):
             await gtnh_modpack.add_github_mod(repo_name)
             gtnh_modpack.save_assets()
             repo = await gtnh_modpack.get_latest_github_release(repo_name)
+            assert repo
             version = repo.tag_name
             self.add_mod_to_memory(repo_name, version)
-
 
             if name_override is None:  # no need to readd the mod if this is called by refresh_repo
                 repo_list += [repo_name]
@@ -379,8 +379,8 @@ class GithubModFrame(LabelFrame):
             "update_global_progress_bar": callbacks["update_global_progress_bar"],
             "reset_current_task_progress_bar": callbacks["reset_current_task_progress_bar"],
             "reset_global_progress_bar": callbacks["reset_global_progress_bar"],
-            "add_mod_in_memory" : callbacks["add_mod_in_memory"],
-            "del_mod_in_memory" : callbacks["del_mod_in_memory"]
+            "add_mod_in_memory": callbacks["add_mod_in_memory"],
+            "del_mod_in_memory": callbacks["del_mod_in_memory"],
         }
 
         self.github_mod_list: GithubModList = GithubModList(

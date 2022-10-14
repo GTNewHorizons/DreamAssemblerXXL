@@ -133,7 +133,7 @@ class Window(Tk):
             "reset_current_task_progress_bar": self.current_task_reset_callback,
             "reset_global_progress_bar": self.global_reset_callback,
             "add_mod_in_memory": self._add_github_mod,
-            "del_mod_in_memory":self._del_github_mod
+            "del_mod_in_memory": self._del_github_mod,
         }
 
         self.github_mod_frame: GithubModFrame = GithubModFrame(
@@ -148,7 +148,7 @@ class Window(Tk):
             "get_gtnh": self._get_modpack_manager,
             "get_external_mods": self.get_external_mods,
             "add_mod_in_memory": self._add_external_mod,
-            "del_mod_in_memory":self._del_external_mod
+            "del_mod_in_memory": self._del_external_mod,
         }
 
         self.external_mod_frame: ExternalModFrame = ExternalModFrame(
@@ -180,7 +180,7 @@ class Window(Tk):
 
         self.toggled: bool = True  # state variable indicating if the widgets are disabled or not
 
-    def _add_github_mod(self, name, version):
+    def _add_github_mod(self, name: str, version: str) -> None:
         """
         add a mod to inmemory github modlist.
 
@@ -188,9 +188,9 @@ class Window(Tk):
         :param version: mod version
         :return: None
         """
-        self.github_mods[name]=version
+        self.github_mods[name] = version
 
-    def _del_github_mod(self, name):
+    def _del_github_mod(self, name: str) -> None:
         """
         remove a mod from inmemory github modlist.
 
@@ -199,7 +199,7 @@ class Window(Tk):
         """
         del self.github_mods[name]
 
-    def _add_external_mod(self, name, version):
+    def _add_external_mod(self, name: str, version: str) -> None:
         """
         add a mod to inmemory external modlist.
 
@@ -209,7 +209,7 @@ class Window(Tk):
         """
         self.external_mods[name] = version
 
-    def _del_external_mod(self, name):
+    def _del_external_mod(self, name: str) -> None:
         """
         remove a mod from inmemory external modlist.
 
@@ -792,7 +792,6 @@ class Window(Tk):
             gtnh.save_modpack()
             showinfo("release successfully generated", f"modpack version {release_name} successfully generated!")
 
-
     async def delete_gtnh_version(self, release_name: str) -> None:
         """
         Callback used to delete a modpack version.
@@ -807,7 +806,6 @@ class Window(Tk):
 
         gtnh.delete_release(release_name)
         showinfo("release successfully deleted", f"modpack version {release_name} successfully deleted!")
-
 
     def show(self) -> None:
         """

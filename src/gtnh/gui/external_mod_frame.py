@@ -36,7 +36,7 @@ class ExternalModList(LabelFrame):
         self.get_external_mods_callback: Callable[[], Dict[str, str]] = callbacks["get_external_mods"]
         self.mod_info_callback: Callable[[Any], None] = callbacks["mod_info"]
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks["add_mod_in_memory"]
-        self.del_mod_from_memory: Callable[[str], None]  = callbacks["del_mod_in_memory"]
+        self.del_mod_from_memory: Callable[[str], None] = callbacks["del_mod_in_memory"]
 
         self.width: int = width if width is not None else max(len(self.btn_add_text), len(self.btn_rem_text))
 
@@ -223,7 +223,7 @@ class ExternalModFrame(LabelFrame):
             "get_external_mods": callbacks["get_external_mods"],
             "mod_info": self.mod_info_frame.populate_data,
             "add_mod_in_memory": callbacks["add_mod_in_memory"],
-            "del_mod_in_memory": callbacks["del_mod_in_memory"]
+            "del_mod_in_memory": callbacks["del_mod_in_memory"],
         }
 
         self.external_mod_list: ExternalModList = ExternalModList(
