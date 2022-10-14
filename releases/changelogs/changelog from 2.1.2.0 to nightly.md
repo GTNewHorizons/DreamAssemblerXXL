@@ -40,9 +40,11 @@
 > * OpenPrinter
 > * StandardQuestingPack
 > * Thaumic Inventory Scanning
-# New Mod - AE2FluidCraft-Rework (1.0.22-gtnh)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/commits/1.0.22-gtnh
+# New Mod - AE2FluidCraft-Rework (1.0.24-gtnh)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/commits/1.0.24-gtnh
 >## What's Changed
+> * fix AIOOBE in amount set packet by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/26 (1.0.24-gtnh)
+> * fix wrong invert trigger by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/25 (1.0.23-gtnh)
 > * fix wrong bytes display when ingrentent isn't enough and a possible d… by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/23 (1.0.22-gtnh)
 > * crafting card support for fluid export bus by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/22 (1.0.21-gtnh)
 > * Update and fix some bug by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/20 (1.0.20-gtnh)
@@ -143,9 +145,10 @@
 > * @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/AppleCore/pull/4 (3.1.3)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-64-GTNH --> rv3-beta-111-GTNH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-63-GTNH...rv3-beta-111-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-64-GTNH --> rv3-beta-112-GTNH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-63-GTNH...rv3-beta-112-GTNH
 >## What's Changed
+> * Performance Improvements When Channel Is Disabled by @xyqyear in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/190 (rv3-beta-112-GTNH)
 > * Unbind toggle focus key by default by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/189 (rv3-beta-111-GTNH)
 > * fix neg items by right clicking by @GlodBlock in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/188 (rv3-beta-110-GTNH)
 > * don't display 1 in fake slot by @GlodBlock in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/186 (rv3-beta-110-GTNH)
@@ -240,6 +243,7 @@
 > * Make grinder recipes just as optional as the grinder itself by @repo-alt in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/81 (rv3-beta-64-GTNH)
 >
 >## New Contributors
+> * @xyqyear made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/190 (rv3-beta-112-GTNH)
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/179 (rv3-beta-106-GTNH)
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/177 (rv3-beta-104-GTNH)
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/174 (rv3-beta-103-GTNH)
@@ -520,9 +524,11 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/52 (3.0.351-GTNH)
 >
 
-# Updated Binnie (2.0.31 --> 2.0.43)
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.0.28...2.0.43
+# Updated Binnie (2.0.31 --> 2.0.44)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.0.28...2.0.44
 >## What's Changed
+> * Add kuba6000 to chad bee by @Runakai1 in https://github.com/GTNewHorizons/Binnie/pull/21 (2.0.44)
+> * Add All Mighty Merge Master by @Runakai1 in https://github.com/GTNewHorizons/Binnie/pull/22 (2.0.44)
 > * Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/Binnie/pull/20 (2.0.43)
 > * Updated lang file for chad bee so it finally works by @Runakai1 in https://github.com/GTNewHorizons/Binnie/pull/19 (2.0.42)
 > * Genetics - Better info for Acclimatiser and Isolator by @AlbertoPirillo in https://github.com/GTNewHorizons/Binnie/pull/18 (2.0.41)
@@ -974,13 +980,19 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/32 (1.3.5.9)
 >
 
-# New Mod - DefaultServerList (1.1.1-GTNH)
-**Full Changelog**: https://github.com/GTNewHorizons/DefaultServerList/commits/1.1.1-GTNH
+# New Mod - DefaultServerList (1.1.2)
+**Full Changelog**: https://github.com/GTNewHorizons/DefaultServerList/commits/1.1.2
 >## What's Changed
+> * Pull from upstream by @glowredman in https://github.com/GTNewHorizons/DefaultServerList/pull/1 (1.1.2)
+> * Allow swapping default servers order by @Quarri6343 in https://github.com/GTNewHorizons/DefaultServerList/pull/2 (1.1.2)
+> * Fix server list being unable to refresh by @wohaopa in https://github.com/GTNewHorizons/DefaultServerList/pull/3 (1.1.2)
 > * Allow swapping default servers order by @Quarri6343 in https://github.com/GTNewHorizons/DefaultServerList/pull/2 (1.1.1-GTNH)
 > * Pull from upstream by @glowredman in https://github.com/GTNewHorizons/DefaultServerList/pull/1 (1.1-GTNH)
 >
 >## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/DefaultServerList/pull/1 (1.1.2)
+> * @Quarri6343 made their first contribution in https://github.com/GTNewHorizons/DefaultServerList/pull/2 (1.1.2)
+> * @wohaopa made their first contribution in https://github.com/GTNewHorizons/DefaultServerList/pull/3 (1.1.2)
 > * @Quarri6343 made their first contribution in https://github.com/GTNewHorizons/DefaultServerList/pull/2 (1.1.1-GTNH)
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/DefaultServerList/pull/1 (1.1-GTNH)
 >
@@ -1331,9 +1343,10 @@
 # Updated ForbiddenMagic (0.575-gtnh-2 --> 0.6.4-GTNH)
 **Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/commits/0.575-gtnh-2...0.6.4-GTNH
 
-# Updated ForestryMC (4.4.3 --> 4.4.16)
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.4.2...4.4.16
+# Updated ForestryMC (4.4.3 --> 4.5.0)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.4.2...4.5.0
 >## What's Changed
+> * Apply new bee production chance formula by @kuba6000 in https://github.com/GTNewHorizons/ForestryMC/pull/31 (4.5.0)
 > * forget invalid recipe entries by @Glease in https://github.com/GTNewHorizons/ForestryMC/pull/30 (4.4.16)
 > * fix swarmer's hive spawn by @bjin2000 in https://github.com/GTNewHorizons/ForestryMC/pull/29 (4.4.15)
 > * Vegetable is not fruit by @miozune in https://github.com/GTNewHorizons/ForestryMC/pull/28 (4.4.14)
@@ -1386,9 +1399,18 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/5 (1.9.3-GTNH-1.7.10-Edition)
 >
 
-# Updated GT5-Unofficial (5.09.40.11 --> 5.09.41.74)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.10...5.09.41.74
+# Updated GT5-Unofficial (5.09.40.11 --> 5.09.41.77)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.10...5.09.41.77
 >## What's Changed
+> * Apply new Bees formula in Industrial Apiary and move all gendustry upgrades to Gregtech by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1447 (5.09.41.77)
+> * only save necessary info on super tank break by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1448 (5.09.41.76)
+> * duct tape by right click by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1451 (5.09.41.76)
+> * pump no uncommanded auto retract by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1449 (5.09.41.76)
+> * digital chests improvements by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1450 (5.09.41.76)
+> * Indium Bee nerf by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1442 (5.09.41.75)
+> * Cryotheum bee change by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1443 (5.09.41.75)
+> * Added batch mode to Processing Arrays adding up to 128 parallel by @S4mpsa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1446 (5.09.41.75)
+> * Add Processing Option for GT++ Solar Salt in the LHE by @Steelux8 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1444 (5.09.41.75)
 > * Indium Bee nerf by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1442 (5.09.41.74)
 > * Cryotheum bee change by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1443 (5.09.41.74)
 > * Added batch mode to Processing Arrays adding up to 128 parallel by @S4mpsa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1446 (5.09.41.74)
@@ -1969,6 +1991,7 @@
 > * Fix discrepancy between structure check and hologram by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/801 (5.09.40.11)
 >
 >## New Contributors
+> * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1446 (5.09.41.75)
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1446 (5.09.41.74)
 > * @dipo33 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1401 (5.09.41.66)
 > * @ChromicRedBrick made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1388 (5.09.41.44)
@@ -2890,9 +2913,10 @@
 > * @D-Cysteine made their first contribution in https://github.com/GTNewHorizons/Jabba/pull/15 (1.2.11)
 >
 
-# Updated KekzTech (0.5.8 --> 0.6.16)
-**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.5.9...0.6.16
+# Updated KekzTech (0.5.8 --> 0.6.17)
+**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.5.9...0.6.17
 >## What's Changed
+> * Fix division by zero error by @miozune in https://github.com/GTNewHorizons/KekzTech/pull/44 (0.6.17)
 > * Change way average is calculated for LSC (now shows actual useful values) by @TrainerSnow in https://github.com/GTNewHorizons/KekzTech/pull/43 (0.6.16)
 > * Lsc fix by @Connor-Colenso in https://github.com/GTNewHorizons/KekzTech/pull/42 (0.6.15)
 > * autoplace integration by @Glease in https://github.com/GTNewHorizons/KekzTech/pull/41 (0.6.14)
@@ -3190,9 +3214,13 @@
 > * @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/Netty-Patcher/pull/1 (0.3)
 >
 
-# Updated NewHorizonsCoreMod (1.9.09 --> 1.9.83)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.10...1.9.83
+# Updated NewHorizonsCoreMod (1.9.09 --> 1.9.87)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.10...1.9.87
 >## What's Changed
+> * Move upgrade recipes from GT5 and scripts by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/429 (1.9.87)
+> * Move upgrade recipes from GT5 and scripts by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/429 (1.9.86)
+> * replace small coils in high tier circuits with inductor smd by @GlodBlock in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/424 (1.9.84)
+> * Indusctors by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/425 (1.9.84)
 > * Buff some steam age recipes (mostly time buffs) by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/422 (1.9.82)
 > * Use the same number for programmed circuit and item meta except for 0 in Ztones recipes by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/423 (1.9.82)
 > * Delete duplicate key by @ChromicRedBrick in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/421 (1.9.81)
@@ -3353,6 +3381,8 @@
 > * Draft for unified build script by @SinTh0r4s in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/220 (1.9.11)
 >
 >## New Contributors
+> * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/429 (1.9.87)
+> * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/429 (1.9.86)
 > * @ChromicRedBrick made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/421 (1.9.81)
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/410 (1.9.71)
 > * @Shadowsoftime99 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/409 (1.9.70)
@@ -4309,9 +4339,10 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/TCNodeTracker/pull/5 (1.1.5)
 >
 
-# Updated TecTech (4.10.10 --> 5.0.42)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/4.10.11...5.0.42
+# Updated TecTech (4.10.10 --> 5.0.43)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/4.10.11...5.0.43
 >## What's Changed
+> * replace coils in high tier circuits with inductor smd by @GlodBlock in https://github.com/GTNewHorizons/TecTech/pull/105 (5.0.43)
 > * fix Tesla Tower can't recognize LuV coil by @albus12138 in https://github.com/GTNewHorizons/TecTech/pull/104 (5.0.42)
 > * no-more-duplicate-key by @iouter in https://github.com/GTNewHorizons/TecTech/pull/103 (5.0.42)
 > * fix Tesla Tower can't recognize LuV coil by @albus12138 in https://github.com/GTNewHorizons/TecTech/pull/104 (5.0.41-pre)
@@ -4613,9 +4644,10 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/TiC-Tooltips/pull/5 (1.2.10)
 >
 
-# Updated TinkersConstruct (1.9.0.6-GTNH --> 1.9.6-GTNH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.0-15-GTNH...1.9.6-GTNH
+# Updated TinkersConstruct (1.9.0.6-GTNH --> 1.9.7-GTNH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.0-15-GTNH...1.9.7-GTNH
 >## What's Changed
+> * Fix Tinker Addons by @DrParadox7 in https://github.com/GTNewHorizons/TinkersConstruct/pull/58 (1.9.7-GTNH)
 > * actively update drain comparator output  by @Glease in https://github.com/GTNewHorizons/TinkersConstruct/pull/57 (1.9.6-GTNH)
 > * Improve smeltry GUI tooltip by @Glease in https://github.com/GTNewHorizons/TinkersConstruct/pull/56 (1.9.5-GTNH)
 > * Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/TinkersConstruct/pull/55 (1.9.4-GTNH)
@@ -4915,9 +4947,14 @@
 > * @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/ae2stuff/pull/4 (0.5.1.13-GTNH)
 >
 
-# Updated bartworks (0.5.31 --> 0.5.90)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.5.30...0.5.90
+# Updated bartworks (0.5.31 --> 0.5.93)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.5.30...0.5.93
 >## What's Changed
+> * fix Windmill item dupe by @iouter in https://github.com/GTNewHorizons/bartworks/pull/214 (0.5.93)
+> * EIG: Fix multiple input hatches beeing ignored & Make setup modes faster. by @kuba6000 in https://github.com/GTNewHorizons/bartworks/pull/210 (0.5.92)
+> * inductor wrap recipe by @GlodBlock in https://github.com/GTNewHorizons/bartworks/pull/212 (0.5.92)
+> * add foil for bw material by @GlodBlock in https://github.com/GTNewHorizons/bartworks/pull/213 (0.5.92)
+> * Add Bio Fluid Block lang key by @Quarri6343 in https://github.com/GTNewHorizons/bartworks/pull/209 (0.5.91)
 > * Adds 2 new tiers of glass by @BlueWeabo in https://github.com/GTNewHorizons/bartworks/pull/208 (0.5.90)
 > * no-more-duplicate-key by @iouter in https://github.com/GTNewHorizons/bartworks/pull/207 (0.5.89)
 > * Add Compat for bartworks and Cell-less PA change by @BlueWeabo in https://github.com/GTNewHorizons/bartworks/pull/200 (0.5.89)
