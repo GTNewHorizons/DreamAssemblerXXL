@@ -149,6 +149,7 @@ class Window(Tk):
             "get_external_mods": self.get_external_mods,
             "add_mod_in_memory": self._add_external_mod,
             "del_mod_in_memory": self._del_external_mod,
+            "freeze": self.trigger_toggle
         }
 
         self.external_mod_frame: ExternalModFrame = ExternalModFrame(
