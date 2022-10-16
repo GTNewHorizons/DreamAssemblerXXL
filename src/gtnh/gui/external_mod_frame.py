@@ -186,11 +186,11 @@ class ExternalModList(LabelFrame):
 
         self.lb_mods.insert(END, *sorted(data))
 
-    async def on_listbox_click(self, event: Any) -> None:
+    async def on_listbox_click(self, _: Any) -> None:
         """
         Callback used when the user clicks on the external mods' listbox.
 
-        :param event: the tkinter event passed by the tkinter in the Callback (unused)
+        :param _: the tkinter event passed by the tkinter in the Callback (unused)
         :return: None
         """
 
@@ -204,7 +204,7 @@ class ExternalModList(LabelFrame):
         external_mods: Dict[str, str] = self.get_external_mods_callback()
         current_version: str = external_mods[name] if name in external_mods else latest_version.version_tag
 
-        license: str = mod_info.license or "No license detected"
+        _license: str = mod_info.license or "No license detected"
         side: str = mod_info.side
 
         data = {
