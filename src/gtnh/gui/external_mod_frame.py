@@ -393,9 +393,18 @@ class ModAdditionFrame(LabelFrame):
         self.btn_src_other:Radiobutton = Radiobutton(self, text=self.btn_src_other_text, variable=self.int_var_src, value=2, command=self.update_widget)
         self.btn_src_curse:Radiobutton = Radiobutton(self, text=self.btn_src_curse_text, variable=self.int_var_src, value=1, command=self.update_widget)
 
+        self.label_name_text:str = "Mod name:"
+        self.label_name: Label = Label(self, text=self.label_name_text)
+        self.sv_name:StringVar = StringVar()
+        self.entry_mod_name:Entry = Entry(self, textvariable = self.sv_name)
+
+        self.label_version_text:str = "Mod version:"
+        self.label_version:Label = Label(self, text=self.label_version_text)
+        self.sv_version:StringVar = StringVar()
+        self.entry_version:Entry = Entry(self, textvariable=self.sv_version)
+
         self.label_download_link_text:str = "Download link\n(check your download history to get it)"
         self.label_download_link:Label = Label(self, text=self.label_download_link_text)
-
 
         self.label_cf_project_id_text:str = "project ID"
         self.label_cf_project_id:Label = Label(self, text=self.label_cf_project_id_text)
@@ -422,6 +431,14 @@ class ModAdditionFrame(LabelFrame):
 
         :return: None
         """
+        if self.sv_name.get() =="":
+            showerror("Error", "Mod name is empty.")
+            return
+
+        if self.sv_version.get() =="":
+            showerror("Error", "Mod version is empty.")
+            return
+
         valid_download_url: bool = False
         valid_project_id: bool = False
         valid_browser_url: bool = False
@@ -476,6 +493,11 @@ class ModAdditionFrame(LabelFrame):
 
         :return: None
         """
+        self.label_name.configure(width=self.width)
+        self.entry_mod_name.configure(width=2*self.width)
+        self.label_version.configure(width=self.width)
+        self.entry_version.configure(width=2*self.width)
+
         self.label_source.configure(width=self.width)
         self.btn_src_other.configure(width=self.width)
         self.btn_src_curse.configure(width=self.width)
@@ -525,6 +547,11 @@ class ModAdditionFrame(LabelFrame):
         Method to hide the widget and all its childs
         :return None:
         """
+        self.label_name.grid_forget()
+        self.entry_mod_name.grid_forget()
+        self.label_version.grid_forget()
+        self.entry_version.grid_forget()
+
         self.label_source.grid_forget()
         self.btn_src_curse.grid_forget()
         self.btn_src_other.grid_forget()
@@ -548,7 +575,7 @@ class ModAdditionFrame(LabelFrame):
         """
         x: int = 0
         y: int = 0
-        rows: int = 5
+        rows: int = 7
         columns: int = 3
 
         for i in range(rows+1):
@@ -557,19 +584,26 @@ class ModAdditionFrame(LabelFrame):
         for i in range(columns+1):
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
+
         self.label_source.grid(row=x, column=y)
         self.btn_src_curse.grid(row=x, column=y+1)
         self.btn_src_other.grid(row=x, column=y+2)
-        self.label_download_link.grid(row=x+1, column=y)
-        self.entry_download_link.grid(row=x+1, column=y+1, columnspan=2)
+
+        self.label_name.grid(row=x+1, column=y)
+        self.entry_mod_name.grid(row=x+1, column=y+1, columnspan=2)
+        self.label_version.grid(row=x+2, column=y)
+        self.entry_version.grid(row=x+2, column=y+1, columnspan=2)
+
+        self.label_download_link.grid(row=x+3, column=y)
+        self.entry_download_link.grid(row=x+3, column=y+1, columnspan=2)
 
         if self.int_var_src.get() == 1: # for curse mods
-            self.label_cf_project_id.grid(row=x+2, column=y)
-            self.entry_cf_project_id.grid(row=x+2, column=y+1, columnspan=2)
-            self.label_cf_browser_url.grid(row=x+3, column=y)
-            self.entry_cf_browser_url.grid(row=x+3, column=y+1, columnspan=2)
+            self.label_cf_project_id.grid(row=x+4, column=y)
+            self.entry_cf_project_id.grid(row=x+4, column=y+1, columnspan=2)
+            self.label_cf_browser_url.grid(row=x+5, column=y)
+            self.entry_cf_browser_url.grid(row=x+5, column=y+1, columnspan=2)
 
-        self.btn_add.grid(row=x+4, column=1)
+        self.btn_add.grid(row=x+6, column=1)
 
         self.update_idletasks()
 
