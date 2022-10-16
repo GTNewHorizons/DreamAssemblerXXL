@@ -170,7 +170,8 @@ class ExternalModList(LabelFrame):
         # don't forget to use self.add_mod_in_memory when implementing this
         self.toggle_freeze()
         top_level: Toplevel = Toplevel(self)
-        callbacks = {"freeze": self.toggle_freeze}
+        top_level.protocol("WM_DELETE_WINDOW", lambda: (self.toggle_freeze(), top_level.destroy()))
+        callbacks = {}
         mod_addition_frame: ModAdditionFrame = ModAdditionFrame(top_level, "external mod adder", callbacks=callbacks)
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()
@@ -365,7 +366,7 @@ class ModAdditionFrame(LabelFrame):
     """
 
     def __init__(
-        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, mod_name: Optional[str] = None, **kwargs: Any
     ):
         """
         Constructor of the ModAdditionFrame class.
@@ -374,6 +375,7 @@ class ModAdditionFrame(LabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
+        :param mod_name: optional parameter passed to this class if the mod exists already in DAXXL.
         :param kwargs: params to init the parent class
         """
         self.ypadding: int = 0
@@ -381,6 +383,9 @@ class ModAdditionFrame(LabelFrame):
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
         self.width: int = width or 50
+
+        self.already_existing = mod_name is None
+        self.mod_name = mod_name
 
         self.label_source_text: str = "Choose a source type for the mod"
         self.btn_src_other_text: str = "Other"
@@ -407,7 +412,7 @@ class ModAdditionFrame(LabelFrame):
         self.sv_version: StringVar = StringVar()
         self.entry_version: Entry = Entry(self, textvariable=self.sv_version)
 
-        self.label_download_link_text: str = "Download link\n(check your download history to get it)"
+        self.label_download_link_text: str = "Download link (check your download history to get it):"
         self.label_download_link: Label = Label(self, text=self.label_download_link_text)
 
         self.label_cf_project_id_text: str = "project ID"
@@ -416,7 +421,7 @@ class ModAdditionFrame(LabelFrame):
         self.sv_cf_project_id: StringVar = StringVar()
         self.entry_cf_project_id: Entry = Entry(self, textvariable=self.sv_cf_project_id)
 
-        self.label_cf_browser_url_text: str = "browser download page url\n(page where you can download the file)"
+        self.label_cf_browser_url_text: str = "browser download page url (page where you can download the file):"
         self.label_cf_browser_url: Label = Label(self, text=self.label_cf_browser_url_text)
 
         self.sv_cf_browser_url: StringVar = StringVar()
@@ -427,7 +432,6 @@ class ModAdditionFrame(LabelFrame):
 
         self.btn_add_text: str = "Add external mod to DreamAssemblerXXL"
         self.btn_add: Button = Button(self, text=self.btn_add_text, command=self.add_mod)
-        self.exit_func = callbacks["freeze"]
 
     def add_mod(self) -> None:
         """
@@ -435,7 +439,7 @@ class ModAdditionFrame(LabelFrame):
 
         :return: None
         """
-        if self.sv_name.get() == "":
+        if not self.already_existing and self.sv_name.get() == "":
             showerror("Error", "Mod name is empty.")
             return
 
@@ -595,8 +599,10 @@ class ModAdditionFrame(LabelFrame):
         self.btn_src_curse.grid(row=x, column=y + 1)
         self.btn_src_other.grid(row=x, column=y + 2)
 
-        self.label_name.grid(row=x + 1, column=y)
-        self.entry_mod_name.grid(row=x + 1, column=y + 1, columnspan=2)
+        if not self.already_existing:
+            self.label_name.grid(row=x + 1, column=y)
+            self.entry_mod_name.grid(row=x + 1, column=y + 1, columnspan=2)
+
         self.label_version.grid(row=x + 2, column=y)
         self.entry_version.grid(row=x + 2, column=y + 1, columnspan=2)
 
