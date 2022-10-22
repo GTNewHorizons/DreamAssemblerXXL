@@ -41,7 +41,7 @@ class AvailableAssets(GTNHBaseModel):
     def has_external_mod(self, mod_name: str) -> bool:
         return mod_name in self._external_modmap
 
-    def get_mod(self, mod_name: str) -> GTNHModInfo:
+    def get_mod(self, mod_name: str) -> GTNHModInfo | ExternalModInfo:
         """
         Get a mod, preferring github mods over external mods
         """

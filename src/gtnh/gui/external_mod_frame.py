@@ -1,6 +1,6 @@
 import asyncio
 from tkinter import END, Button, Entry, IntVar, Label, LabelFrame, Listbox, Radiobutton, Scrollbar, StringVar, Toplevel
-from tkinter.messagebox import showerror, showinfo
+from tkinter.messagebox import showerror, showinfo, showwarning
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import Position
@@ -8,6 +8,8 @@ from gtnh.gui.mod_info_frame import ModInfoFrame
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import ExternalModInfo
 from gtnh.modpack_manager import GTNHModpackManager
+
+from datetime import datetime
 
 
 class ExternalModList(LabelFrame):
@@ -149,7 +151,17 @@ class ExternalModList(LabelFrame):
 
         :return: None
         """
-        pass
+        try:
+           index:int = self.lb_mods.curselection()[0]
+           print(self.lb_mods.get(index))
+        except IndexError:
+            showerror("No curseforge mod selected", "In order to add a new version to a curseforge mod, you must select one first")
+            return
+
+        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        print(gtnh.assets.get_external_mod(self.lb_mods.get(index)).versions)
+
+
 
     async def del_external_mod(self) -> None:
         """
@@ -171,7 +183,9 @@ class ExternalModList(LabelFrame):
         self.toggle_freeze()
         top_level: Toplevel = Toplevel(self)
         top_level.protocol("WM_DELETE_WINDOW", lambda: (self.toggle_freeze(), top_level.destroy()))
-        callbacks = {}
+        callbacks = {
+            "get_gtnh": self.get_gtnh_callback
+        }
         mod_addition_frame: ModAdditionFrame = ModAdditionFrame(top_level, "external mod adder", callbacks=callbacks)
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()
@@ -382,10 +396,13 @@ class ModAdditionFrame(LabelFrame):
         self.xpadding: int = 0
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
+
         self.width: int = width or 50
 
-        self.already_existing = mod_name is None
+        self.add_version_only = mod_name is not None
         self.mod_name = mod_name
+
 
         self.label_source_text: str = "Choose a source type for the mod"
         self.btn_src_other_text: str = "Other"
@@ -431,76 +448,92 @@ class ModAdditionFrame(LabelFrame):
         self.entry_download_link: Entry = Entry(self, textvariable=self.sv_download_link)
 
         self.btn_add_text: str = "Add external mod to DreamAssemblerXXL"
-        self.btn_add: Button = Button(self, text=self.btn_add_text, command=self.add_mod)
+        self.btn_add: Button = Button(self, text=self.btn_add_text, command = lambda: asyncio.ensure_future(self.add_mod()))
 
-    def add_mod(self) -> None:
+    def check_inputs(self) -> Dict[str, bool]:
+        name:str = self.mod_name if self.mod_name is not None else self.sv_name.get()
+        version: str = self.sv_version.get()
+        download_url: str = self.entry_download_link.get()
+        project_id = self.entry_cf_project_id.get()
+        browser_url = self.entry_cf_browser_url.get()
+        check_results:Dict[str, bool] = {
+            "name": False,
+            "version": False,
+            "download_url": False,
+            "project_id": False,
+            "browser_url": False
+        }
+
+        if name != "":
+            check_results["name"] = True
+
+        if version != "":
+            check_results["version"] = True
+
+        if download_url.endswith(".jar") and (download_url.startswith("http://") or download_url.startswith("https://")):
+            check_results["download_url"] = True
+
+        try:
+            int(project_id)
+            check_results["project_id"] = True
+        except ValueError:
+            pass
+
+        try:
+            if (download_url.startswith("http://") or download_url.startswith("https://")):
+                int(browser_url.split("/")[-1])
+                check_results["download_url"] = True
+        except ValueError:
+            pass
+
+        return check_results
+
+    async def add_mod(self) -> None:
         """
         Method to add an external mod to DAXXL.
 
         :return: None
         """
-        if not self.already_existing and self.sv_name.get() == "":
-            showerror("Error", "Mod name is empty.")
-            return
+        error_messages = {
+            "name": "Mod name is empty",
+            "version": "Version is empty",
+            "project_id": "The project id contains other characters than numbers",
+            "download_url":"The download url isn't a valid http(s) link or isn't ending with '.jar'. Make sure you use the correct download link",
+            "browser_url":"The browser download page link isn't a valid http(s) link or doesn't terminate by a number. Make sure you use the correct link."
+        }
 
-        if self.sv_version.get() == "":
-            showerror("Error", "Mod version is empty.")
-            return
+        validation = self.check_inputs()
 
-        valid_download_url: bool = False
-        valid_project_id: bool = False
-        valid_browser_url: bool = False
+        not_curse_src:bool = self.int_var_src.get() != 1
+        curse_src:bool = self.int_var_src.get() == 1
 
-        download_url: str = self.entry_download_link.get()
-        if download_url.endswith(".jar") and (
-            download_url.startswith("http://") or download_url.startswith("https://")
-        ):
-            valid_download_url = True
+        blacklist_external_source = ["project_id", "browser_url"]
+        blacklist_external_source_new_version = ["project_id", "browser_url"]
+        blacklist_curse_new_version = ["project_id"]
+        blacklist_curse = []
 
-        if self.int_var_src.get() != 1:  # not curse
-            if valid_download_url:
-                showinfo("Operation successful", "The mod was added successfully to DreamAssemblerXXL")
-            else:
-                showerror(
-                    "Error",
-                    "The download url isn't a valid http(s) link or isn't ending with '.jar'. Make sure you use the correct download link",
-                )
-            return
+        only_mod_external = self.add_version_only and not_curse_src
+        only_mod_curse = self.add_version_only and curse_src
+        external_mod = not self.add_version_only and not_curse_src
+        curse_mod = not self.add_version_only and curse_src
 
-        project_id = self.entry_cf_project_id.get()
-        try:
-            int(project_id)
-            valid_project_id = True
-        except ValueError:
-            pass
-
-        browser_url = self.entry_cf_browser_url.get()
-        try:
-            int(browser_url.split("/")[-1])
-            valid_browser_url = True
-        except ValueError:
-            pass
-        if not (download_url.startswith("http://") or download_url.startswith("https://")):
-            valid_browser_url = False
-
-        if valid_download_url and valid_project_id and valid_browser_url:
-            showinfo("Operation successful", "The mod was added successfully to DreamAssemblerXXL")
+        if only_mod_external: #new mod version for external source
+            blacklist = blacklist_external_source_new_version
+        elif only_mod_curse: #new mod version for curse source
+            blacklist = blacklist_curse_new_version
+        elif external_mod: #new mod for external source
+            blacklist = blacklist_external_source
+        elif curse_mod:
+            blacklist = blacklist_curse
         else:
-            error_list: list[str] = []
-            if not valid_download_url:
-                error_list.append(
-                    "The download url isn't a valid http(s) link or isn't ending with '.jar'. Make sure you use the correct download link"
-                )
-            if not valid_project_id:
-                error_list.append("The project id contains other characters than numbers")
-            if not valid_browser_url:
-                error_list.append(
-                    "The browser download page link isn't a valid http(s) link or doesn't terminate by a number. Make sure you use the correct link."
-                )
+            raise NotImplementedError("something went wrong during the addition of a new curse mod: unsupported mod type.")
 
-            showerror("Error", "The following error(s) occured:\n" + "\n".join(error_list))
+        error_list = [error_messages[key] for key, value in validation.items() if not value and key not in blacklist]
 
-        return
+        if error_list:
+            showerror("Error","There was the following errors while trying to add a new external mod:\n- "+"\n- ".join(error_list))
+            return
+
 
     def configure_widgets(self) -> None:
         """
@@ -599,7 +632,7 @@ class ModAdditionFrame(LabelFrame):
         self.btn_src_curse.grid(row=x, column=y + 1)
         self.btn_src_other.grid(row=x, column=y + 2)
 
-        if not self.already_existing:
+        if not self.add_version_only:
             self.label_name.grid(row=x + 1, column=y)
             self.entry_mod_name.grid(row=x + 1, column=y + 1, columnspan=2)
 
