@@ -387,7 +387,7 @@ class ModAdditionFrame(LabelFrame):
 
     def __init__(
         self,
-        master: Any,
+        master: Toplevel,
         frame_name: str,
         callbacks: Dict[str, Any],
         width: Optional[int] = None,
@@ -407,7 +407,7 @@ class ModAdditionFrame(LabelFrame):
         self.ypadding: int = 0
         self.xpadding: int = 0
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
-
+        self.master: Toplevel = master
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
 
         self.width: int = width or 50
@@ -480,6 +480,14 @@ class ModAdditionFrame(LabelFrame):
         if self.add_version_only:
             asyncio.ensure_future(self.set_mod_source())
 
+    def destroy(self) -> None:
+        """
+        Method used to close manually the window.
+
+        :return: None
+        """
+        self.master.destroy()
+
     async def set_mod_source(self) -> None:
         """
         method used to set up the intvar corresponding to the source of the mod when it's just a mod version added.
@@ -503,7 +511,7 @@ class ModAdditionFrame(LabelFrame):
         download_url: str = self.entry_download_link.get()
         project_id = self.entry_cf_project_id.get()
         browser_url = self.entry_browser_url.get()
-        license = self.entry_license.get()
+        _license = self.entry_license.get()
         project_url = self.entry_project_url.get()
 
         check_results: Dict[str, bool] = {
@@ -522,7 +530,7 @@ class ModAdditionFrame(LabelFrame):
         if version != "":
             check_results["version"] = True
 
-        if license != "":
+        if _license != "":
             check_results["license"] = True
 
         if download_url.endswith(".jar") and (
@@ -626,14 +634,14 @@ class ModAdditionFrame(LabelFrame):
             mod: ExternalModInfo
             # adding mod
             if self.add_mod_and_version:
-                license: str = self.entry_license.get()
+                _license: str = self.entry_license.get()
                 project_url: str = self.entry_project_url.get()
                 project_id: str = self.entry_cf_project_id.get()
 
                 mod = ExternalModInfo(
                     latest_version=version,
                     name=name,
-                    license=license,
+                    license=_license,
                     repo_url=None,
                     maven=None,
                     side=Side.BOTH,
@@ -674,6 +682,7 @@ class ModAdditionFrame(LabelFrame):
                 )
             else:
                 showinfo("Mod added successfully!", f"Mod {mod.name} has been successfully added!")
+            self.destroy()
 
     def configure_widgets(self) -> None:
         """
