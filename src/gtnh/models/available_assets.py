@@ -23,6 +23,9 @@ class AvailableAssets(GTNHBaseModel):
     def add_github_mod(self, mod: GTNHModInfo) -> None:
         bisect.insort_right(self.github_mods, mod, key=self._mod_sort_key)  # type: ignore
 
+    def add_external_mod(self, mod: ExternalModInfo) -> None:
+        bisect.insort_right(self.external_mods, mod, key=self._mod_sort_key)  # type: ignore
+
     @staticmethod
     def _mod_sort_key(mod: GTNHModInfo) -> str:
         return mod.name.lower()
