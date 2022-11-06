@@ -41,6 +41,7 @@ class ExternalModList(LabelFrame):
         self.mod_info_callback: Callable[[Any], None] = callbacks["mod_info"]
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks["add_mod_in_memory"]
         self.del_mod_from_memory: Callable[[str], None] = callbacks["del_mod_in_memory"]
+        self.refresh_external_modlist: Callable[[], None] = callbacks["refresh_external_mods"]
 
         self.width: int = (
             width
@@ -156,7 +157,18 @@ class ExternalModList(LabelFrame):
             mod_name: str = self.lb_mods.get(index)
             self.toggle_freeze()
             top_level: Toplevel = Toplevel(self)
-            top_level.protocol("WM_DELETE_WINDOW", lambda: (self.toggle_freeze(), top_level.destroy()))  # type: ignore
+
+            def close(event: Any = None) -> None:
+                """
+                Method called when toplevel is destroyed.
+
+                :return: None
+                """
+                if event.widget is top_level:
+                    self.toggle_freeze()
+                    asyncio.ensure_future(self.refresh_external_modlist())  # type: ignore
+
+            top_level.bind("<Destroy>", close)
             callbacks = {"get_gtnh": self.get_gtnh_callback}
             mod_addition_frame: ModAdditionFrame = ModAdditionFrame(
                 top_level, "external version adder", callbacks=callbacks, mod_name=mod_name
@@ -190,7 +202,18 @@ class ExternalModList(LabelFrame):
         # don't forget to use self.add_mod_in_memory when implementing this
         self.toggle_freeze()
         top_level: Toplevel = Toplevel(self)
-        top_level.protocol("WM_DELETE_WINDOW", lambda: (self.toggle_freeze(), top_level.destroy()))  # type: ignore
+
+        def close(event: Any = None) -> None:
+            """
+            Method called when toplevel is destroyed.
+
+            :return: None
+            """
+            if event.widget is top_level:
+                self.toggle_freeze()
+                asyncio.ensure_future(self.refresh_external_modlist())  # type: ignore
+
+        top_level.bind("<Destroy>", close)
         callbacks = {"get_gtnh": self.get_gtnh_callback}
         mod_addition_frame: ModAdditionFrame = ModAdditionFrame(top_level, "external mod adder", callbacks=callbacks)
         mod_addition_frame.grid()
@@ -204,7 +227,7 @@ class ExternalModList(LabelFrame):
         :param data: the data to pass to this class
         :return: None
         """
-
+        self.lb_mods.delete(0, END)
         self.lb_mods.insert(END, *sorted(data))
 
     async def on_listbox_click(self, _: Any) -> None:
@@ -274,6 +297,7 @@ class ExternalModFrame(LabelFrame):
             "add_mod_in_memory": callbacks["add_mod_in_memory"],
             "del_mod_in_memory": callbacks["del_mod_in_memory"],
             "freeze": callbacks["freeze"],
+            "refresh_external_mods": callbacks["refresh_external_mods"],
         }
 
         self.external_mod_list: ExternalModList = ExternalModList(
@@ -480,14 +504,6 @@ class ModAdditionFrame(LabelFrame):
         if self.add_version_only:
             asyncio.ensure_future(self.set_mod_source())
 
-    def destroy(self) -> None:
-        """
-        Method used to close manually the window.
-
-        :return: None
-        """
-        self.master.destroy()
-
     async def set_mod_source(self) -> None:
         """
         method used to set up the intvar corresponding to the source of the mod when it's just a mod version added.
@@ -570,14 +586,18 @@ class ModAdditionFrame(LabelFrame):
             "license": "missing license",
         }
 
+        self.sv_version.set("0.26")
+        self.sv_download_link.set("http://www.witchery.com/witchery-0.26.jar")
+        self.sv_browser_url.set("http://www.witchery.com/witchery")
+
         validation = self.check_inputs()
 
         not_curse_src: bool = self.int_var_src.get() != 1
         curse_src: bool = self.int_var_src.get() == 1
 
         blacklist_external_source: List[str] = ["project_id"]
-        blacklist_external_source_new_version: List[str] = ["project_id", "project_url"]
-        blacklist_curse_new_version: List[str] = ["project_id", "project_url"]
+        blacklist_external_source_new_version: List[str] = ["project_id", "project_url", "license"]
+        blacklist_curse_new_version: List[str] = ["project_id", "project_url", "license"]
         blacklist_curse: List[str] = []
         only_mod: bool = self.add_version_only
         only_mod_external: bool = self.add_version_only and not_curse_src
@@ -678,11 +698,11 @@ class ModAdditionFrame(LabelFrame):
             if self.add_version_only:
                 showinfo(
                     "Version added successfully!",
-                    f"Mod version {mod_version.version_tag} has been successfully added to {mod}'s version!",
+                    f"Mod version {mod_version.version_tag} has been successfully added to {mod.name}'s version!",
                 )
             else:
                 showinfo("Mod added successfully!", f"Mod {mod.name} has been successfully added!")
-            self.destroy()
+            self.master.destroy()
 
     def configure_widgets(self) -> None:
         """
@@ -807,9 +827,10 @@ class ModAdditionFrame(LabelFrame):
                 self.label_cf_project_id.grid(row=x + 4, column=y)
                 self.entry_cf_project_id.grid(row=x + 4, column=y + 1, columnspan=2)
 
+        self.label_browser_url.grid(row=x + 5, column=y)
+        self.entry_browser_url.grid(row=x + 5, column=y + 1, columnspan=2)
+
         if self.add_mod_and_version:
-            self.label_browser_url.grid(row=x + 5, column=y)
-            self.entry_browser_url.grid(row=x + 5, column=y + 1, columnspan=2)
             self.label_license.grid(row=x + 6, column=y)
             self.entry_license.grid(row=x + 6, column=y + 1, columnspan=2)
             self.label_project_url.grid(row=x + 7, column=y)

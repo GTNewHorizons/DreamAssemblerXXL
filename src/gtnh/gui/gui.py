@@ -149,6 +149,7 @@ class Window(Tk):
             "get_external_mods": self.get_external_mods,
             "add_mod_in_memory": self._add_external_mod,
             "del_mod_in_memory": self._del_external_mod,
+            "refresh_external_mods": self.refresh_external_mods,
             "freeze": self.trigger_toggle,
         }
 
@@ -226,6 +227,7 @@ class Window(Tk):
         :return: None
         """
         self.toggled = not self.toggled
+        # print(f"{'toggled' if not self.toggled else 'untoggled'}") # debug
         self.toggle(self)
 
     def toggle(self, widget: Any) -> None:
@@ -478,7 +480,8 @@ class Window(Tk):
         :param mod_version: mod version
         :return: None
         """
-        self.github_mods[github_mod_name] = mod_version
+        if github_mod_name in self.github_mods:
+            self.github_mods[github_mod_name] = mod_version
 
     def set_external_mod_version(self, external_mod_name: str, mod_version: str) -> None:
         """
@@ -488,7 +491,8 @@ class Window(Tk):
         :param mod_version: mod version
         :return: None
         """
-        self.external_mods[external_mod_name] = mod_version
+        if external_mod_name in self.external_mods:
+            self.external_mods[external_mod_name] = mod_version
 
     def set_modpack_version(self, modpack_version: str) -> None:
         """
@@ -839,6 +843,15 @@ class Window(Tk):
         self.exclusion_frame_client.show()
         self.exclusion_frame_server.show()
 
+    async def get_external_modlist(self) -> List[str]:
+        """
+        Method to get all the external mods from the assets.
+
+        :return: a list of string with all the external mods availiable
+        """
+        gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        return [mod.name for mod in gtnh.assets.external_mods]
+
     async def get_modpack_versions(self) -> List[str]:
         """
         Method used to gather all the version of the GT-New-Horizons-Modpack repo.
@@ -878,7 +891,7 @@ class Window(Tk):
 
             self.github_mod_frame.populate_data(data_github_mods)
 
-            data_external_mods: Dict[str, Any] = {"external_mod_list": [mod for mod in self.get_external_mods().keys()]}
+            data_external_mods: Dict[str, Any] = {"external_mod_list": await self.get_external_modlist()}
 
             self.external_mod_frame.populate_data(data_external_mods)
 
@@ -889,6 +902,16 @@ class Window(Tk):
             self.update()
             self.update_idletasks()
             await asyncio.sleep(ASYNC_SLEEP)
+
+    async def refresh_external_mods(self) -> None:
+        """
+        Method used to refresh the external modlist.
+
+        :return: None
+        """
+        data_external_mods: Dict[str, Any] = {"external_mod_list": await self.get_external_modlist()}
+
+        self.external_mod_frame.populate_data(data_external_mods)
 
     async def close_app(self) -> None:
         """
