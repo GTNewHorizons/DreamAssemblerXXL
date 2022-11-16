@@ -198,6 +198,7 @@ class ExternalModList(LabelFrame):
 
         :return: None
         """
+
         # showerror("Feature not yet implemented", "The addition of external mods to the assets is not yet implemented.")
         # don't forget to use self.add_mod_in_memory when implementing this
         self.toggle_freeze()
