@@ -517,6 +517,17 @@ class ModAdditionFrame(LabelFrame):
         if self.add_version_only:
             asyncio.ensure_future(self.set_mod_source())
 
+        # debugging purposes
+        self.debug = True
+        if self.debug:
+            self.sv_name.set("TC4Tweaks")
+            self.sv_version.set("1.4.22")
+            self.sv_license.set("GNU Affero General Public License")
+            self.sv_browser_url.set("https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/files/4057879")
+            self.sv_download_link.set("https://mediafilez.forgecdn.net/files/4057/879/Thaumcraft4Tweaks-1.4.22.jar")
+            self.sv_project_url.set("https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/")
+            self.sv_cf_project_id.set("431297")
+
     async def set_mod_source(self) -> None:
         """
         method used to set up the intvar corresponding to the source of the mod when it's just a mod version added.
@@ -598,10 +609,6 @@ class ModAdditionFrame(LabelFrame):
             "browser_url": "The browser download page link isn't a valid http(s) link or doesn't terminate by a number. Make sure you use the correct link.",
             "license": "missing license",
         }
-
-        self.sv_version.set("0.26")
-        self.sv_download_link.set("http://www.witchery.com/witchery-0.26.jar")
-        self.sv_browser_url.set("http://www.witchery.com/witchery")
 
         validation = self.check_inputs()
 
@@ -687,6 +694,7 @@ class ModAdditionFrame(LabelFrame):
                 )
                 gtnh.assets.add_external_mod(mod)
                 gtnh.save_assets()
+                del gtnh.assets._external_modmap
 
             # adding version
             else:
