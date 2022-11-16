@@ -437,11 +437,20 @@ class Window(Tk):
         :return: None
         """
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        previous_side: Side = gtnh.assets.get_github_mod(mod_name).side
+        if previous_side == side:
+            showwarning(
+                "Side already set up",
+                f"{mod_name}'s side is already set on {side}",
+            )
+            return
+
         if not gtnh.set_github_mod_side(mod_name, side):
             showerror(
                 "Error setting up the side of the mod",
                 f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details",
             )
+            return
 
         if side == Side.NONE and mod_name in self.github_mods:
             del self.github_mods[mod_name]
@@ -459,11 +468,20 @@ class Window(Tk):
         :return: None
         """
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
+        previous_side:Side = gtnh.assets.get_external_mod(mod_name).side
+        if previous_side == side:
+            showwarning(
+                "Side already set up",
+                f"{mod_name}'s side is already set on {side}",
+            )
+            return
+
         if not gtnh.set_external_mod_side(mod_name, side):
             showerror(
                 "Error setting up the side of the mod",
                 f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details",
             )
+            return
 
         if side == Side.NONE and mod_name in self.external_mods:
             del self.external_mods[mod_name]
