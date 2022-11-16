@@ -518,7 +518,7 @@ class ModAdditionFrame(LabelFrame):
             asyncio.ensure_future(self.set_mod_source())
 
         # debugging purposes
-        self.debug = True
+        self.debug = False
         if self.debug:
             self.sv_name.set("TC4Tweaks")
             self.sv_version.set("1.4.22")
