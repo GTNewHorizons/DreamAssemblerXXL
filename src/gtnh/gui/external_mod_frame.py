@@ -189,8 +189,20 @@ class ExternalModList(LabelFrame):
 
         :return: None
         """
-        showerror("Feature not yet implemented", "The removal of external mods from assets is not yet implemented.")
+        # showerror("Feature not yet implemented", "The removal of external mods from assets is not yet implemented.")
         # don't forget to use self.del_mod_from_memory when implementing this
+        try:
+            index: int = self.lb_mods.curselection()[0]
+            mod_name: str = self.lb_mods.get(index)
+            gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+            self.lb_mods.delete(index)
+            await gtnh.delete_external_mod(mod_name)
+        except IndexError:
+            showerror(
+                "No curseforge mod selected",
+                "In order to add a new version to a curseforge mod, you must select one first",
+            )
+            return
 
     async def add_external_mod(self) -> None:
         """
