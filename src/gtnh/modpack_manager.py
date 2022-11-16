@@ -519,6 +519,33 @@ class GTNHModpackManager:
         log.info(f"Successfully deleted {name}!")
         return True
 
+    async def delete_external_mod(self, name: str) -> bool:
+        """
+        Attempts to delete an external mod from the assets.
+
+        :param name: the name of the mod
+        :return: true if the mod has been deleted from assets
+        """
+        log.info(f"Trying to delete `{name}` in external assets.")
+
+        if not self.assets.has_external_mod(name):
+            log.info(f"Mod `{name}` is not present in the external assets.")
+            return False
+
+        mod_index: int = 0
+
+        for i, mod in enumerate(self.assets.external_mods):
+            if mod.name == name:
+                mod_index = i
+                break
+
+        del self.assets.external_mods[mod_index]
+        del self.assets._external_modmap
+        self.save_assets()
+
+        log.info(f"Successfully deleted {name} from the external assets!")
+        return True
+
     async def regen_github_assets(self, callback: Optional[Callable[[float, str], None]] = None) -> None:
         log.info("refreshing all the github mods")
         repo_names = [repo.name for repo in self.assets.github_mods]
