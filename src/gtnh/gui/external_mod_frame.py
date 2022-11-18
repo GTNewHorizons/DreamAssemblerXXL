@@ -169,7 +169,11 @@ class ExternalModList(LabelFrame):
                     asyncio.ensure_future(self.refresh_external_modlist())  # type: ignore
 
             top_level.bind("<Destroy>", close)
-            callbacks = {"get_gtnh": self.get_gtnh_callback}
+            callbacks = {
+                "get_gtnh": self.get_gtnh_callback,
+                "add_mod_in_memory": self.add_mod_to_memory,
+                "del_mod_from_memory": self.del_mod_from_memory
+                         }
             mod_addition_frame: ModAdditionFrame = ModAdditionFrame(
                 top_level, "external version adder", callbacks=callbacks, mod_name=mod_name
             )
@@ -227,7 +231,11 @@ class ExternalModList(LabelFrame):
                 asyncio.ensure_future(self.refresh_external_modlist())  # type: ignore
 
         top_level.bind("<Destroy>", close)
-        callbacks = {"get_gtnh": self.get_gtnh_callback}
+        callbacks = {
+            "get_gtnh": self.get_gtnh_callback,
+            "add_mod_in_memory": self.add_mod_to_memory,
+            "del_mod_from_memory": self.del_mod_from_memory
+        }
         mod_addition_frame: ModAdditionFrame = ModAdditionFrame(top_level, "external mod adder", callbacks=callbacks)
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()
@@ -446,6 +454,8 @@ class ModAdditionFrame(LabelFrame):
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.master: Toplevel = master
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
+        self.add_mod_to_memory: Callable[[str, str], None] = callbacks["add_mod_in_memory"]
+        self.del_mod_from_memory: Callable[[str], None] = callbacks["del_mod_from_memory"]
 
         self.width: int = width or 50
 
@@ -518,7 +528,7 @@ class ModAdditionFrame(LabelFrame):
             asyncio.ensure_future(self.set_mod_source())
 
         # debugging purposes
-        self.debug = False
+        self.debug = True
         if self.debug:
             self.sv_name.set("TC4Tweaks")
             self.sv_version.set("1.4.22")
@@ -723,6 +733,7 @@ class ModAdditionFrame(LabelFrame):
                 )
             else:
                 showinfo("Mod added successfully!", f"Mod {mod.name} has been successfully added!")
+            self.add_mod_to_memory(mod.name, mod_version.version_tag)
             self.master.destroy()
 
     def configure_widgets(self) -> None:
