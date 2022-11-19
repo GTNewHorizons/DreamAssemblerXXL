@@ -36,10 +36,10 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.0.363-GTNH...3.0.364-GTNH-pre
 
 ## *3.0.363-GTNH*
->## What's Changed
->* Prevent editmode from being written to json by @miozune in https://github.com/GTNewHorizons/BetterQuesting/pull/71
->
->
+>## What's Changed
+>* Prevent editmode from being written to json by @miozune in https://github.com/GTNewHorizons/BetterQuesting/pull/71
+>
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.0.362-GTNH...3.0.363-GTNH
 
 # Updated - Botania - 1.9.7-GTNH -->1.9.8-GTNH

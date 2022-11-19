@@ -18,10 +18,14 @@ log = get_logger(__name__)
 forbidden_chars = re.compile(r'[<>:"\/|\?\*]')
 
 
+def sanitize(to_sanitize: str) -> str:
+    return re.sub(forbidden_chars, "_", to_sanitize)
+
+
 def ensure_cache_dir(asset: Versionable | None = None) -> Path:
     os.makedirs(CACHE_DIR, exist_ok=True)
     if asset is not None:
-        path: Path = CACHE_DIR / Path(re.sub(forbidden_chars, "", str(Path(asset.type.value) / asset.name)))
+        path: Path = CACHE_DIR / sanitize(asset.type.value) / sanitize(asset.name)
 
         os.makedirs(path, exist_ok=True)
 
@@ -31,7 +35,4 @@ def ensure_cache_dir(asset: Versionable | None = None) -> Path:
 def get_asset_version_cache_location(asset: Versionable, version: GTNHVersion) -> Path:
     cache_dir = ensure_cache_dir(asset)
 
-    path: Path = cache_dir / Path(
-        re.sub(forbidden_chars, "", str(Path(asset.type.value) / asset.name / str(version.filename)))
-    )
-    return path
+    return cache_dir / sanitize(asset.type.value) / sanitize(asset.name) / sanitize(str(version.filename))

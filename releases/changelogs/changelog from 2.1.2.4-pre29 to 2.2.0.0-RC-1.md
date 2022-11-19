@@ -968,9 +968,9 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.0.1...0.0.2
 
 ## *0.0.1*
->## What's Changed
->* ItemStackMap by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/1
->
+>## What's Changed
+>* ItemStackMap by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/1
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/commits/0.0.1
 
 # Updated - GTplusplus - 1.7.69-pre -->1.7.88
@@ -2366,9 +2366,9 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.1.3...1.1.4
 
 ## *1.1.3*
->## What's Changed
->* Use ItemStackMap from GTNHLib by @mitchej123 in https://github.com/GTNewHorizons/StructureLib/pull/9
->
+>## What's Changed
+>* Use ItemStackMap from GTNHLib by @mitchej123 in https://github.com/GTNewHorizons/StructureLib/pull/9
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.1.2...1.1.3
 
 # Updated - Super-TiC - 1.2.3 -->1.2.4
@@ -2813,14 +2813,14 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.0.0.1...0.0.0.3
 
 ## *0.0.0.2*
->Just a minor change to update the release tag to how it's labeled in my code and everywhere else. (Just from the 0.0.0 ver labeling system to the 0.0.0.0 ver labeling system)
->
->## What's Changed
->* Cleanup by @kuba6000 in https://github.com/GTNewHorizons/thaumicinsurgence/pull/5
->
->## New Contributors
->* @kuba6000 made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/5
->
+>Just a minor change to update the release tag to how it's labeled in my code and everywhere else. (Just from the 0.0.0 ver labeling system to the 0.0.0.0 ver labeling system)
+>
+>## What's Changed
+>* Cleanup by @kuba6000 in https://github.com/GTNewHorizons/thaumicinsurgence/pull/5
+>
+>## New Contributors
+>* @kuba6000 made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/5
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.0.1...0.0.0.2
 
 ## *0.0.0.1*
