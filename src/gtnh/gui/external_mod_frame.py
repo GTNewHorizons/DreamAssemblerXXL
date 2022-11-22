@@ -1,10 +1,11 @@
 import asyncio
 from datetime import datetime
-from tkinter import END, Button, Entry, IntVar, Label, LabelFrame, Listbox, Radiobutton, Scrollbar, StringVar, Toplevel
+from tkinter import END, Button, IntVar, Label, LabelFrame, Listbox, Radiobutton, Scrollbar, StringVar, Toplevel
 from tkinter.messagebox import showerror, showinfo, showwarning
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import ModSource, Position, Side
+from gtnh.gui.lib.text_entry import TextEntry
 from gtnh.gui.mod_info_frame import ModInfoFrame
 from gtnh.models import versionable
 from gtnh.models.gtnh_version import GTNHVersion
@@ -172,8 +173,8 @@ class ExternalModList(LabelFrame):
             callbacks = {
                 "get_gtnh": self.get_gtnh_callback,
                 "add_mod_in_memory": self.add_mod_to_memory,
-                "del_mod_from_memory": self.del_mod_from_memory
-                         }
+                "del_mod_from_memory": self.del_mod_from_memory,
+            }
             mod_addition_frame: ModAdditionFrame = ModAdditionFrame(
                 top_level, "external version adder", callbacks=callbacks, mod_name=mod_name
             )
@@ -234,7 +235,7 @@ class ExternalModList(LabelFrame):
         callbacks = {
             "get_gtnh": self.get_gtnh_callback,
             "add_mod_in_memory": self.add_mod_to_memory,
-            "del_mod_from_memory": self.del_mod_from_memory
+            "del_mod_from_memory": self.del_mod_from_memory,
         }
         mod_addition_frame: ModAdditionFrame = ModAdditionFrame(top_level, "external mod adder", callbacks=callbacks)
         mod_addition_frame.grid()
@@ -479,45 +480,15 @@ class ModAdditionFrame(LabelFrame):
             self, text=self.btn_src_curse_text, variable=self.int_var_src, value=1, command=self.update_widget
         )
 
-        self.label_name_text: str = "Mod name:"
-        self.label_name: Label = Label(self, text=self.label_name_text)
-        self.sv_name: StringVar = StringVar(self)
-        self.entry_mod_name: Entry = Entry(self, textvariable=self.sv_name)
-
-        self.label_version_text: str = "Mod version:"
-        self.label_version: Label = Label(self, text=self.label_version_text)
-        self.sv_version: StringVar = StringVar(self)
-        self.entry_version: Entry = Entry(self, textvariable=self.sv_version)
-
-        self.label_download_link_text: str = "Download link (check your download history to get it):"
-        self.label_download_link: Label = Label(self, text=self.label_download_link_text)
-
-        self.label_cf_project_id_text: str = "project ID"
-        self.label_cf_project_id: Label = Label(self, text=self.label_cf_project_id_text)
-
-        self.sv_cf_project_id: StringVar = StringVar(self)
-        self.entry_cf_project_id: Entry = Entry(self, textvariable=self.sv_cf_project_id)
-
-        self.label_browser_url_text: str = "browser download page url (page where you can download the file):"
-        self.label_browser_url: Label = Label(self, text=self.label_browser_url_text)
-
-        self.sv_browser_url: StringVar = StringVar(self)
-        self.entry_browser_url: Entry = Entry(self, textvariable=self.sv_browser_url)
-
-        self.sv_download_link: StringVar = StringVar(self)
-        self.entry_download_link: Entry = Entry(self, textvariable=self.sv_download_link)
-
-        self.label_license_text = "Mod License"
-        self.label_license: Label = Label(self, text=self.label_license_text)
-
-        self.sv_license: StringVar = StringVar(self)
-        self.entry_license: Entry = Entry(self, textvariable=self.sv_license)
-
-        self.label_project_url_text: str = "Project url (page explaining the mod)"
-        self.label_project_url: Label = Label(self, text=self.label_project_url_text)
-
-        self.sv_project_url: StringVar = StringVar(self)
-        self.entry_project_url: Entry = Entry(self, textvariable=self.sv_project_url)
+        self.name: TextEntry = TextEntry(self, "Mod name:")
+        self.version: TextEntry = TextEntry(self, "Mod version:")
+        self.download_url: TextEntry = TextEntry(self, "Download link (check your download history to get it):")
+        self.project_id: TextEntry = TextEntry(self, "project ID")
+        self.browser_url: TextEntry = TextEntry(
+            self, "browser download page url (page where you can download the file):"
+        )
+        self.license: TextEntry = TextEntry(self, "Mod License")
+        self.project_url: TextEntry = TextEntry(self, "Project url (page explaining the mod)")
 
         self.btn_add_text: str = "Add external mod to DreamAssemblerXXL"
         self.btn_add: Button = Button(
@@ -527,16 +498,26 @@ class ModAdditionFrame(LabelFrame):
         if self.add_version_only:
             asyncio.ensure_future(self.set_mod_source())
 
+        self.text_entry_list = [
+            self.name,
+            self.version,
+            self.project_id,
+            self.license,
+            self.browser_url,
+            self.download_url,
+            self.project_url,
+        ]
+
         # debugging purposes
         self.debug = True
         if self.debug:
-            self.sv_name.set("TC4Tweaks_test")
-            self.sv_version.set("1.4.22")
-            self.sv_license.set("GNU Affero General Public License")
-            self.sv_browser_url.set("https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/files/4057879")
-            self.sv_download_link.set("https://mediafilez.forgecdn.net/files/4057/879/Thaumcraft4Tweaks-1.4.22.jar")
-            self.sv_project_url.set("https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/")
-            self.sv_cf_project_id.set("431297")
+            self.name.set("TC4Tweaks_test")
+            self.version.set("1.4.22")
+            self.license.set("GNU Affero General Public License")
+            self.browser_url.set("https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/files/4057879")
+            self.download_url.set("https://mediafilez.forgecdn.net/files/4057/879/Thaumcraft4Tweaks-1.4.22.jar")
+            self.project_url.set("https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/")
+            self.project_id.set("431297")
 
     async def set_mod_source(self) -> None:
         """
@@ -556,13 +537,13 @@ class ModAdditionFrame(LabelFrame):
 
         :return: a dict with the tests as key and the value of the tests as values
         """
-        name: str = self.mod_name if self.mod_name is not None else self.sv_name.get()
-        version: str = self.sv_version.get()
-        download_url: str = self.entry_download_link.get()
-        project_id = self.entry_cf_project_id.get()
-        browser_url = self.entry_browser_url.get()
-        _license = self.entry_license.get()
-        project_url = self.entry_project_url.get()
+        name: str = self.mod_name if self.mod_name is not None else self.name.get()
+        version: str = self.version.get()
+        download_url: str = self.download_url.get()
+        project_id = self.project_id.get()
+        browser_url = self.browser_url.get()
+        _license = self.license.get()
+        project_url = self.project_url.get()
 
         check_results: Dict[str, bool] = {
             "name": False,
@@ -662,15 +643,15 @@ class ModAdditionFrame(LabelFrame):
         else:
             gtnh = await self.get_gtnh_callback()
 
-            name: str = self.mod_name if only_mod else self.sv_name.get()  # type: ignore
+            name: str = self.mod_name if only_mod else self.name.get()  # type: ignore
 
             if gtnh.assets.has_external_mod(name) and self.add_mod_and_version:
                 showwarning("Mod already existing", f"the mod {name} already exists in the database.")
                 return
 
-            version: str = self.sv_version.get()
-            download_url: str = self.entry_download_link.get()
-            browser_url = self.entry_browser_url.get()
+            version: str = self.version.get()
+            download_url: str = self.download_url.get()
+            browser_url = self.browser_url.get()
 
             mod_version: GTNHVersion = GTNHVersion(
                 version_tag=version,
@@ -684,9 +665,9 @@ class ModAdditionFrame(LabelFrame):
             mod: ExternalModInfo
             # adding mod
             if self.add_mod_and_version:
-                _license: str = self.entry_license.get()
-                project_url: str = self.entry_project_url.get()
-                project_id: str = self.entry_cf_project_id.get()
+                _license: str = self.license.get()
+                project_url: str = self.project_url.get()
+                project_id: str = self.project_id.get()
 
                 mod = ExternalModInfo(
                     latest_version=version,
@@ -742,27 +723,14 @@ class ModAdditionFrame(LabelFrame):
 
         :return: None
         """
-        self.label_name.configure(width=self.width)
-        self.entry_mod_name.configure(width=2 * self.width)
-        self.label_version.configure(width=self.width)
-        self.entry_version.configure(width=2 * self.width)
-
         self.label_source.configure(width=self.width)
         self.btn_src_other.configure(width=self.width)
         self.btn_src_curse.configure(width=self.width)
-        self.label_download_link.configure(width=self.width)
-        self.entry_download_link.configure(width=2 * self.width)
 
-        self.label_cf_project_id.configure(width=self.width)
-        self.entry_cf_project_id.configure(width=2 * self.width)
-        self.label_browser_url.configure(width=self.width)
-        self.entry_browser_url.configure(width=2 * self.width)
         self.btn_add.configure(width=self.width)
-        self.label_license.configure(width=self.width)
-        self.entry_license.configure(width=2 * self.width)
 
-        self.label_project_url.configure(width=self.width)
-        self.entry_project_url.configure(width=2 * self.width)
+        for widget in self.text_entry_list:
+            widget.configure(width=2 * self.width)
 
     def set_width(self, width: int) -> None:
         """
@@ -797,29 +765,13 @@ class ModAdditionFrame(LabelFrame):
         Method to hide the widget and all its childs
         :return None:
         """
-        self.label_name.grid_forget()
-        self.entry_mod_name.grid_forget()
-        self.label_version.grid_forget()
-        self.entry_version.grid_forget()
-
         self.label_source.grid_forget()
         self.btn_src_curse.grid_forget()
         self.btn_src_other.grid_forget()
-        self.entry_download_link.grid_forget()
-        self.label_download_link.grid_forget()
-
-        self.label_cf_project_id.grid_forget()
-        self.entry_cf_project_id.grid_forget()
-        self.label_browser_url.grid_forget()
-        self.entry_browser_url.grid_forget()
-
         self.btn_add.grid_forget()
 
-        self.entry_license.grid_forget()
-        self.label_license.grid_forget()
-
-        self.label_project_url.grid_forget()
-        self.entry_project_url.grid_forget()
+        for widget in self.text_entry_list:
+            widget.grid_forget()
 
         self.update_idletasks()
 
@@ -845,28 +797,21 @@ class ModAdditionFrame(LabelFrame):
             self.btn_src_curse.grid(row=x, column=y + 1)
             self.btn_src_other.grid(row=x, column=y + 2)
 
-            self.label_name.grid(row=x + 1, column=y)
-            self.entry_mod_name.grid(row=x + 1, column=y + 1, columnspan=2)
+            self.name.grid(row=x + 1, column=y + 1, columnspan=2)
 
-        self.label_version.grid(row=x + 2, column=y)
-        self.entry_version.grid(row=x + 2, column=y + 1, columnspan=2)
+        self.version.grid(row=x + 2, column=y + 1, columnspan=2)
 
-        self.label_download_link.grid(row=x + 3, column=y)
-        self.entry_download_link.grid(row=x + 3, column=y + 1, columnspan=2)
+        self.download_url.grid(row=x + 3, column=y + 1, columnspan=2)
 
         if self.int_var_src.get() == 1:  # for curse mods
             if self.add_mod_and_version:
-                self.label_cf_project_id.grid(row=x + 4, column=y)
-                self.entry_cf_project_id.grid(row=x + 4, column=y + 1, columnspan=2)
+                self.project_id.grid(row=x + 4, column=y + 1, columnspan=2)
 
-        self.label_browser_url.grid(row=x + 5, column=y)
-        self.entry_browser_url.grid(row=x + 5, column=y + 1, columnspan=2)
+        self.browser_url.grid(row=x + 5, column=y + 1, columnspan=2)
 
         if self.add_mod_and_version:
-            self.label_license.grid(row=x + 6, column=y)
-            self.entry_license.grid(row=x + 6, column=y + 1, columnspan=2)
-            self.label_project_url.grid(row=x + 7, column=y)
-            self.entry_project_url.grid(row=x + 7, column=y + 1, columnspan=2)
+            self.license.grid(row=x + 6, column=y + 1, columnspan=2)
+            self.project_url.grid(row=x + 7, column=y + 1, columnspan=2)
 
         self.btn_add.grid(row=x + 8, column=1)
 
