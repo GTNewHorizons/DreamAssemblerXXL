@@ -530,7 +530,7 @@ class ModAdditionFrame(LabelFrame):
         # debugging purposes
         self.debug = True
         if self.debug:
-            self.sv_name.set("TC4Tweaks")
+            self.sv_name.set("TC4Tweaks_test")
             self.sv_version.set("1.4.22")
             self.sv_license.set("GNU Affero General Public License")
             self.sv_browser_url.set("https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/files/4057879")

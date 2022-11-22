@@ -69,7 +69,11 @@ class AvailableAssets(GTNHBaseModel):
     def get_mod_and_version(
         self, mod_name: str, mod_version: str, valid_sides: set[Side], source: ModSource
     ) -> tuple[GTNHModInfo | ExternalModInfo, GTNHVersion] | None:
-        mod = self.get_github_mod(mod_name) if source == ModSource.github else self.get_external_mod(mod_name)
+        try:
+            mod = self.get_github_mod(mod_name) if source == ModSource.github else self.get_external_mod(mod_name)
+        except KeyError:
+            log.warn(f"Mod {mod_name} in {source} cannot be found, returning None")
+            return None
 
         if mod.side not in valid_sides:
             return None
