@@ -1,6 +1,6 @@
 import asyncio
 from datetime import datetime
-from tkinter import END, Button, IntVar, Label, LabelFrame, Listbox, Radiobutton, Scrollbar, StringVar, Toplevel
+from tkinter import END, Button, LabelFrame, Listbox, Scrollbar, StringVar, Toplevel
 from tkinter.messagebox import showerror, showinfo, showwarning
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
@@ -783,24 +783,24 @@ class ModAdditionFrame(LabelFrame):
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
         if self.add_mod_and_version:
-            self.mod_choice.grid(row=x, column=y, columnspan=1)
-            self.name.grid(row=x + 1, column=y + 1, columnspan=2)
+            self.mod_choice.grid(row=x, column=y, columnspan=2)
+            self.name.grid(row=x + 1, column=y, columnspan=2)
 
-        self.version.grid(row=x + 2, column=y + 1, columnspan=2)
+        self.version.grid(row=x + 2, column=y, columnspan=2)
 
-        self.download_url.grid(row=x + 3, column=y + 1, columnspan=2)
+        self.download_url.grid(row=x + 3, column=y, columnspan=2)
 
         if self.mod_choice.get() == 1:  # for curse mods
             if self.add_mod_and_version:
-                self.project_id.grid(row=x + 4, column=y + 1, columnspan=2)
+                self.project_id.grid(row=x + 4, column=y, columnspan=2)
 
-        self.browser_url.grid(row=x + 5, column=y + 1, columnspan=2)
+        self.browser_url.grid(row=x + 5, column=y, columnspan=2)
 
         if self.add_mod_and_version:
-            self.license.grid(row=x + 6, column=y + 1, columnspan=2)
-            self.project_url.grid(row=x + 7, column=y + 1, columnspan=2)
+            self.license.grid(row=x + 6, column=y, columnspan=2)
+            self.project_url.grid(row=x + 7, column=y, columnspan=2)
 
-        self.btn_add.grid(row=x + 8, column=1)
+        self.btn_add.grid(row=x + 8, column=y)
 
         self.update_idletasks()
 
