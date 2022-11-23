@@ -5,6 +5,8 @@ from tkinter.messagebox import showerror, showinfo, showwarning
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import ModSource, Position, Side
+from gtnh.gui.lib.button import CustomButton
+from gtnh.gui.lib.radio_choice import RadioChoice
 from gtnh.gui.lib.text_entry import TextEntry
 from gtnh.gui.mod_info_frame import ModInfoFrame
 from gtnh.models import versionable
@@ -464,21 +466,13 @@ class ModAdditionFrame(LabelFrame):
         self.add_mod_and_version = mod_name is None
 
         self.mod_name = mod_name
-
-        self.label_source_text: str = "Choose a source type for the mod"
-        self.btn_src_other_text: str = "Other"
-        self.btn_src_curse_text: str = "CurseForge"
-
-        self.int_var_src: IntVar = IntVar()
-        self.int_var_src.set(1)
-
-        self.label_source: Label = Label(self, text=self.label_source_text)
-        self.btn_src_other: Radiobutton = Radiobutton(
-            self, text=self.btn_src_other_text, variable=self.int_var_src, value=2, command=self.update_widget
-        )
-        self.btn_src_curse: Radiobutton = Radiobutton(
-            self, text=self.btn_src_curse_text, variable=self.int_var_src, value=1, command=self.update_widget
-        )
+        self.mod_choice = RadioChoice(self, label_text="Choose a source type for the mod",
+                                      update_command=self.update_widget,
+                                      choices={
+                                          "CurseForge":1,
+                                          "Other":2
+                                      },
+                                      default_value=1)
 
         self.name: TextEntry = TextEntry(self, "Mod name:")
         self.version: TextEntry = TextEntry(self, "Mod version:")
@@ -490,9 +484,10 @@ class ModAdditionFrame(LabelFrame):
         self.license: TextEntry = TextEntry(self, "Mod License")
         self.project_url: TextEntry = TextEntry(self, "Project url (page explaining the mod)")
 
-        self.btn_add_text: str = "Add external mod to DreamAssemblerXXL"
-        self.btn_add: Button = Button(
-            self, text=self.btn_add_text, command=lambda: asyncio.ensure_future(self.add_mod())
+        self.btn_add: CustomButton = CustomButton(
+            self,
+            text="Add external mod to DreamAssemblerXXL",
+            command=lambda: asyncio.ensure_future(self.add_mod())
         )
 
         if self.add_version_only:
@@ -603,8 +598,8 @@ class ModAdditionFrame(LabelFrame):
 
         validation = self.check_inputs()
 
-        not_curse_src: bool = self.int_var_src.get() != 1
-        curse_src: bool = self.int_var_src.get() == 1
+        not_curse_src: bool = self.mod_choice.get() != 1
+        curse_src: bool = self.mod_choice.get() == 1
 
         blacklist_external_source: List[str] = ["project_id"]
         blacklist_external_source_new_version: List[str] = ["project_id", "project_url", "license"]
@@ -723,10 +718,7 @@ class ModAdditionFrame(LabelFrame):
 
         :return: None
         """
-        self.label_source.configure(width=self.width)
-        self.btn_src_other.configure(width=self.width)
-        self.btn_src_curse.configure(width=self.width)
-
+        self.mod_choice.configure(width=self.width)
         self.btn_add.configure(width=self.width)
 
         for widget in self.text_entry_list:
@@ -765,9 +757,7 @@ class ModAdditionFrame(LabelFrame):
         Method to hide the widget and all its childs
         :return None:
         """
-        self.label_source.grid_forget()
-        self.btn_src_curse.grid_forget()
-        self.btn_src_other.grid_forget()
+        self.mod_choice.grid_forget()
         self.btn_add.grid_forget()
 
         for widget in self.text_entry_list:
@@ -793,17 +783,14 @@ class ModAdditionFrame(LabelFrame):
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
         if self.add_mod_and_version:
-            self.label_source.grid(row=x, column=y)
-            self.btn_src_curse.grid(row=x, column=y + 1)
-            self.btn_src_other.grid(row=x, column=y + 2)
-
+            self.mod_choice.grid(row=x, column=y, columnspan=1)
             self.name.grid(row=x + 1, column=y + 1, columnspan=2)
 
         self.version.grid(row=x + 2, column=y + 1, columnspan=2)
 
         self.download_url.grid(row=x + 3, column=y + 1, columnspan=2)
 
-        if self.int_var_src.get() == 1:  # for curse mods
+        if self.mod_choice.get() == 1:  # for curse mods
             if self.add_mod_and_version:
                 self.project_id.grid(row=x + 4, column=y + 1, columnspan=2)
 

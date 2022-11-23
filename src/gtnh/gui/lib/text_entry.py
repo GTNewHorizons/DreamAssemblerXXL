@@ -22,6 +22,13 @@ class TextEntry(Frame):
         super().grid_forget()
 
     def grid(self, *args: Any, **kwargs: Any) -> None:
-        self.label.grid(row=0, column=0)
-        self.entry.grid(row=0, column=1)
+        self.label.grid(row=0, column=0, sticky="WE")
+        self.entry.grid(row=0, column=1, sticky="WE")
         super().grid(*args, **kwargs)
+
+    def configure(self, *args:Any, **kwargs:Any) -> None:
+        if "width" in kwargs:
+            self.label.configure(width=kwargs["width"])
+            self.entry.configure(width=2*kwargs["width"])
+            del kwargs["width"]
+        super().configure(*args, **kwargs)
