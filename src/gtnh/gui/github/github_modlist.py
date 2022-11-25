@@ -1,10 +1,11 @@
 import asyncio
-from tkinter import Button, LabelFrame
+from tkinter import LabelFrame
 from tkinter.messagebox import showerror, showinfo, showwarning
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import Position
 from gtnh.exceptions import RepoNotFoundException
+from gtnh.gui.lib.button import CustomButton
 from gtnh.gui.lib.listbox import CustomListbox
 from gtnh.gui.lib.text_entry import TextEntry
 from gtnh.models.gtnh_version import GTNHVersion
@@ -46,39 +47,30 @@ class GithubModList(LabelFrame):
         self.ypadding: int = 0
         self.xpadding: int = 0
 
-        new_repo_text: str = "Enter the new repo here"
-        add_repo_text: str = "Add repository"
-        del_repo_text: str = "Delete highlighted"
-        refresh_all_text: str = "Refresh all the repositories"
-        refresh_repo_text: str = "Refresh repository data"
-        self.width: int = (
-            width
-            if width is not None
-            else max(
-                len(new_repo_text),
-                len(add_repo_text),
-                len(del_repo_text),
-                len(refresh_repo_text),
-                len(refresh_all_text),
-            )
-        )
-
         self.mod_info_callback: Callable[[Any], None] = callbacks["mod_info"]
         self.reset_mod_info_callback: Callable[[], None] = callbacks["reset_mod_info"]
 
         self.repository: TextEntry = TextEntry(self, label_text="Enter the new repo here")
 
-        self.btn_add: Button = Button(self, text=add_repo_text, command=lambda: asyncio.ensure_future(self.add_repo()))
-        self.btn_rem: Button = Button(self, text=del_repo_text, command=lambda: asyncio.ensure_future(self.del_repo()))
-        self.btn_refresh: Button = Button(
-            self, text=refresh_repo_text, command=lambda: asyncio.ensure_future(self.refresh_repo())
+        self.btn_add: CustomButton = CustomButton(
+            self, text="Add repository", command=lambda: asyncio.ensure_future(self.add_repo())
         )
-        self.btn_refresh_all: Button = Button(
-            self, text=refresh_all_text, command=lambda: asyncio.ensure_future(self.refresh_all())
+        self.btn_rem: CustomButton = CustomButton(
+            self, text="Delete highlighted", command=lambda: asyncio.ensure_future(self.del_repo())
+        )
+        self.btn_refresh: CustomButton = CustomButton(
+            self, text="Refresh repository data", command=lambda: asyncio.ensure_future(self.refresh_repo())
+        )
+        self.btn_refresh_all: CustomButton = CustomButton(
+            self, text="Refresh all the repositories", command=lambda: asyncio.ensure_future(self.refresh_all())
         )
 
         self.listbox: CustomListbox = CustomListbox(self, "List of availiable github mods:", exportselection=False,
                                                     on_selection=lambda event: asyncio.ensure_future(self.on_listbox_click(event)))
+
+        self.widgets = [self.repository, self.btn_add, self.btn_rem, self.btn_refresh, self.btn_refresh_all, self.listbox]
+
+        self.width: int = width if width is not None else max([widget.get_description_size() for widget in self.widgets])
 
     def configure_widgets(self) -> None:
         """
@@ -86,7 +78,7 @@ class GithubModList(LabelFrame):
 
         :return: None
         """
-        self.repository.configure(width=self.width - 7)  # magic number don't ask it just fits well with 7
+        self.repository.configure(width=self.width - 8)  # magic number don't ask it just fits well with 8
 
         self.btn_add.configure(width=self.width)
         self.btn_rem.configure(width=self.width)
@@ -126,13 +118,8 @@ class GithubModList(LabelFrame):
         Method to hide the widget and all its childs
         :return None:
         """
-        self.btn_add.grid_forget()
-        self.btn_rem.grid_forget()
-        self.btn_refresh.grid_forget()
-        self.btn_refresh_all.grid_forget()
-
-        self.listbox.grid_forget()
-        self.repository.grid_forget()
+        for widget in self.widgets:
+            widget.grid_forget()
 
         self.update_idletasks()
 
