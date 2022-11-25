@@ -1,11 +1,12 @@
 import asyncio
-from tkinter import Button, Entry, Label, LabelFrame, StringVar
+from tkinter import Button, LabelFrame
 from tkinter.messagebox import showerror, showinfo, showwarning
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import Position
 from gtnh.exceptions import RepoNotFoundException
 from gtnh.gui.lib.listbox import CustomListbox
+from gtnh.gui.lib.text_entry import TextEntry
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
 
@@ -62,13 +63,10 @@ class GithubModList(LabelFrame):
             )
         )
 
-        self.sv_repo_name: StringVar = StringVar(self, value="")
-
         self.mod_info_callback: Callable[[Any], None] = callbacks["mod_info"]
         self.reset_mod_info_callback: Callable[[], None] = callbacks["reset_mod_info"]
 
-        self.label_entry: Label = Label(self, text=new_repo_text)
-        self.entry: Entry = Entry(self, textvariable=self.sv_repo_name)
+        self.repository: TextEntry = TextEntry(self, label_text="Enter the new repo here")
 
         self.btn_add: Button = Button(self, text=add_repo_text, command=lambda: asyncio.ensure_future(self.add_repo()))
         self.btn_rem: Button = Button(self, text=del_repo_text, command=lambda: asyncio.ensure_future(self.del_repo()))
@@ -88,8 +86,7 @@ class GithubModList(LabelFrame):
 
         :return: None
         """
-        self.label_entry.configure(width=self.width)
-        self.entry.configure(width=self.width + 4)
+        self.repository.configure(width=self.width - 7)  # magic number don't ask it just fits well with 7
 
         self.btn_add.configure(width=self.width)
         self.btn_rem.configure(width=self.width)
@@ -129,14 +126,13 @@ class GithubModList(LabelFrame):
         Method to hide the widget and all its childs
         :return None:
         """
-        self.label_entry.grid_forget()
-        self.entry.grid_forget()
         self.btn_add.grid_forget()
         self.btn_rem.grid_forget()
         self.btn_refresh.grid_forget()
         self.btn_refresh_all.grid_forget()
 
         self.listbox.grid_forget()
+        self.repository.grid_forget()
 
         self.update_idletasks()
 
@@ -159,8 +155,8 @@ class GithubModList(LabelFrame):
 
         self.listbox.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
 
-        self.label_entry.grid(row=x + 1, column=y)
-        self.entry.grid(row=x + 1, column=y + 1, columnspan=2)
+        self.repository.grid(row=x + 1, column=y, columnspan=2)
+
         self.btn_add.grid(row=x + 2, column=y)
         self.btn_rem.grid(row=x + 2, column=y + 1, columnspan=2)
         self.btn_refresh.grid(row=x + 3, column=y + 1, columnspan=2)
@@ -219,7 +215,7 @@ class GithubModList(LabelFrame):
         :param name_override: override passed when called by refresh_repo
         :return: None
         """
-        repo_name: str = self.sv_repo_name.get() if name_override is None else name_override
+        repo_name: str = self.repository.get() if name_override is None else name_override
         if repo_name == "":
             return
 
