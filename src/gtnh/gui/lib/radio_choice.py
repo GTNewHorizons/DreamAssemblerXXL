@@ -2,25 +2,27 @@ from tkinter import Frame, IntVar, Label, Radiobutton
 from typing import Any, Callable, Dict, List
 
 from gtnh.defs import Position
+from gtnh.gui.lib.custom_widget import CustomWidget
 
 
-class RadioChoice(Frame):
+class RadioChoice(Frame, CustomWidget):
     def __init__(
         self,
         master: Any,
         label_text: str,
-        update_command: Callable[[None], None],
+        update_command: Callable[[], None],
         choices: Dict[str, int],
-        default_value=0,
-        *args,
-        **kwargs,
-    ):
+        default_value: int = 0,
+        *args: Any,
+        **kwargs: Any,
+    ) -> None:
         Frame.__init__(self, master, *args, **kwargs)
+        CustomWidget.__init__(self, text=label_text)
+
         self.default_value = default_value
         self.int_var: IntVar = IntVar()
         self.int_var.set(default_value)
 
-        self.label_text = label_text
         self.label: Label = Label(self, text=label_text)
         self.update_command = update_command
 
@@ -50,7 +52,7 @@ class RadioChoice(Frame):
             widget.grid(row=0, column=i + 1)
         super().grid(*args, **kwargs)
 
-    def configure(self, *args: Any, **kwargs: Any) -> None:
+    def configure(self, *args: Any, **kwargs: Any) -> None:  # type: ignore
         if "width" in kwargs:
             width = kwargs["width"]
             self.label.configure(width=width)
@@ -59,8 +61,5 @@ class RadioChoice(Frame):
             del kwargs["width"]
         super().configure(*args, **kwargs)
 
-    def get_description(self) -> str:
-        return self.label_text
-
-    def get_description_size(self) -> int:
-        return len(self.label_text)
+    def reset(self) -> None:
+        pass

@@ -1,9 +1,10 @@
 from tkinter import LabelFrame
-from typing import Any, Callable, Dict, Optional
+from typing import Any, Callable, Dict, List, Optional
 
 from gtnh.defs import Position, Side
 from gtnh.gui.lib.CustomLabel import CustomLabel
 from gtnh.gui.lib.combo_box import CustomCombobox
+from gtnh.gui.lib.custom_widget import CustomWidget
 
 
 class ModInfoFrame(LabelFrame):
@@ -38,7 +39,7 @@ class ModInfoFrame(LabelFrame):
         self.license = CustomLabel(self, label_text="Mod license:", value="")
         self.side = CustomCombobox(self, label_text="Mod side:", values=[], on_selection=self.set_mod_side)
 
-        self.widgets = [self.mod_name, self.version, self.license, self.side]
+        self.widgets: List[CustomWidget] = [self.mod_name, self.version, self.license, self.side]
         self.width: int = (
             width if width is not None else max([widget.get_description_size() for widget in self.widgets])
         )

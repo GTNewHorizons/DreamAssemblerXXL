@@ -1,13 +1,15 @@
 from tkinter import Frame, Label, StringVar
-from typing import Any, List
+from typing import Any
 
 from gtnh.defs import Position
+from gtnh.gui.lib.custom_widget import CustomWidget
 
 
-class CustomLabel(Frame):
-    def __init__(self, master: Any, label_text: str, value: str, *args, **kwargs) -> None:
+class CustomLabel(Frame, CustomWidget):
+    def __init__(self, master: Any, label_text: str, value: str, *args: Any, **kwargs: Any) -> None:
         Frame.__init__(self, master, *args, *kwargs)
-        self.label_text: str = label_text
+        CustomWidget.__init__(self, text=label_text)
+
         self.label: Label = Label(self, text=label_text)
         self.string_var: StringVar = StringVar(value=value)
         self.var_label: Label = Label(self, textvariable=self.string_var)
@@ -28,18 +30,12 @@ class CustomLabel(Frame):
         self.var_label.grid(row=0, column=1, sticky=Position.HORIZONTAL)
         super().grid(*args, **kwargs)
 
-    def configure(self, *args: Any, **kwargs: Any) -> None:
+    def configure(self, *args: Any, **kwargs: Any) -> None:  # type: ignore
         if "width" in kwargs:
             self.label.configure(width=kwargs["width"])
             self.var_label.configure(width=kwargs["width"])
             del kwargs["width"]
         super().configure(*args, **kwargs)
-
-    def get_description(self) -> str:
-        return self.label_text
-
-    def get_description_size(self) -> int:
-        return len(self.label_text)
 
     def reset(self) -> None:
         self.set("")

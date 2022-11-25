@@ -1,27 +1,28 @@
 from tkinter import END, Frame, Label, Listbox, Scrollbar
-from typing import Any, Callable, List, Optional
+from typing import Any, Callable, List, Optional, Tuple
 
 from gtnh.defs import Position
+from gtnh.gui.lib.custom_widget import CustomWidget
 
 
-class CustomListbox(Frame):
+class CustomListbox(Frame, CustomWidget):
     def __init__(
         self,
-        master,
-        label_text,
-        exportselection=False,
+        master: Any,
+        label_text: str,
+        exportselection: bool = False,
         on_selection: Optional[Callable[[Any], Any]] = None,
-        *args,
-        **kwargs,
-    ):
+        *args: Any,
+        **kwargs: Any,
+    ) -> None:
         Frame.__init__(self, master, *args, **kwargs)
+        CustomWidget.__init__(self, text=label_text)
 
-        self.label_text: str = label_text
         self.label: Label = Label(self, text=label_text)
 
         self.listbox: Listbox = Listbox(self, exportselection=exportselection)
 
-        self.callback_on_selection: Callable[[Any], None] = on_selection
+        self.callback_on_selection: Optional[Callable[[Any], None]] = on_selection
         if self.callback_on_selection is not None:
             self.listbox.bind("<<ListboxSelect>>", on_selection)
 
@@ -39,52 +40,49 @@ class CustomListbox(Frame):
             self.columnconfigure(i, weight=1, pad=0)
 
     def get_values(self) -> List[str]:
-        return self.listbox.get(0, END)
+        return self.listbox.get(0, END)  # type: ignore
 
     def set_values(self, values: List[str]) -> None:
         self.listbox.delete(0, END)
         self.listbox.insert(0, *values)
 
     def get(self) -> int:
-        return self.listbox.curselection()[0]  # no quard against listboxes with no selection
+        if not self.has_selection():
+            raise IndexError("The listbox has no selection but was asked one")
+        selection: Tuple[int] = self.listbox.curselection()
+        return selection[0]
 
     def set(self, value: int) -> None:
         self.listbox.select_set(value)
 
     def has_selection(self) -> bool:
-        return self.listbox.curselection() != ()
+        return self.listbox.curselection() != ()  # type: ignore
 
-    def get_value_at_index(self, index) -> str:
-        return self.listbox.get(index)
+    def get_value_at_index(self, index: int) -> str:
+        return self.listbox.get(index)  # type: ignore
 
-    def set_on_selection_callback(self, callback: Callable[[None], None]) -> None:
+    def set_on_selection_callback(self, callback: Callable[[Any], Any]) -> None:
         self.listbox.bind("<<ListboxSelect>>", callback, False)
 
-    def grid_forget(self, *args: Any, **kwargs: Any) -> None:
+    def grid_forget(self) -> None:
         self.label.grid_forget()
         self.listbox.grid_forget()
         self.scrollbar.grid_forget()
         super().grid_forget()
 
-    def grid(self, *args: Any, **kwargs: Any) -> None:
+    def grid(self, *args: Any, **kwargs: Any) -> None:  # type: ignore
         self.label.grid(row=0, column=0, sticky=Position.LEFT)
         self.listbox.grid(row=1, column=0, columnspan=2, sticky=Position.HORIZONTAL)
         self.scrollbar.grid(row=1, column=2, sticky=Position.VERTICAL)
         super().grid(*args, **kwargs)
 
-    def configure(self, *args: Any, **kwargs: Any) -> None:
+    def configure(self, *args: Any, **kwargs: Any) -> None:  # type: ignore
         if "width" in kwargs:
             self.label.configure(width=kwargs["width"])
             self.listbox.configure(width=kwargs["width"])
             del kwargs["width"]
         super().configure(*args, **kwargs)
 
-    def get_description(self) -> str:
-        return self.label_text
-
-    def get_description_size(self) -> int:
-        return len(self.label_text)
-
-    def reset(self):
+    def reset(self) -> None:
         self.set(0)
         self.set_values([])

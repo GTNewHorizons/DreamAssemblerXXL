@@ -457,7 +457,7 @@ class Window(Tk):
 
         if side != Side.NONE and mod_name not in self.github_mods:
             # dirty hack to add the mod back if it's switched from disabled to something else
-            self.github_mods[mod_name] = self.github_mod_frame.mod_info_frame.sv_version.get()
+            self.github_mods[mod_name] = self.github_mod_frame.mod_info_frame.version.get()
 
     async def set_external_mod_side(self, mod_name: str, side: str) -> None:
         """
@@ -488,7 +488,7 @@ class Window(Tk):
 
         if side != Side.NONE and mod_name not in self.external_mods:
             # dirty hack to add the mod back if it's switched from disabled to something else
-            self.external_mods[mod_name] = self.external_mod_frame.mod_info_frame.sv_version.get()
+            self.external_mods[mod_name] = self.external_mod_frame.mod_info_frame.version.get()
 
     def set_github_mod_version(self, github_mod_name: str, mod_version: str) -> None:
         """

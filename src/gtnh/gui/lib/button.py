@@ -1,14 +1,22 @@
 from tkinter import Button
 from typing import Any
 
+from gtnh.gui.lib.custom_widget import CustomWidget
 
-class CustomButton(Button):
+
+class CustomButton(Button, CustomWidget):
     def __init__(self, *args: Any, **kwargs: Any):
         Button.__init__(self, *args, **kwargs)
-        self.text = self["text"]
+        CustomWidget.__init__(self, text=self["text"])
 
-    def get_description(self) -> str:
-        return self.text
+    def configure(self, *args, **kwargs) -> None:  # type: ignore
+        Button.configure(self, *args, **kwargs)
 
-    def get_description_size(self) -> int:
-        return len(self.text)
+    def grid_forget(self) -> None:
+        return Button.grid_forget(self)
+
+    def grid(self, *args, **kwargs) -> None:  # type: ignore
+        return Button.grid(self, *args, **kwargs)
+
+    def reset(self) -> None:
+        pass

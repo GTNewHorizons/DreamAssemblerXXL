@@ -6,6 +6,7 @@ from typing import Any, Callable, Coroutine, Dict, List, Optional
 from gtnh.defs import Position
 from gtnh.exceptions import RepoNotFoundException
 from gtnh.gui.lib.button import CustomButton
+from gtnh.gui.lib.custom_widget import CustomWidget
 from gtnh.gui.lib.listbox import CustomListbox
 from gtnh.gui.lib.text_entry import TextEntry
 from gtnh.models.gtnh_version import GTNHVersion
@@ -71,7 +72,7 @@ class GithubModList(LabelFrame):
             on_selection=lambda event: asyncio.ensure_future(self.on_listbox_click(event)),
         )
 
-        self.widgets = [
+        self.widgets: List[CustomWidget] = [
             self.repository,
             self.btn_add,
             self.btn_rem,

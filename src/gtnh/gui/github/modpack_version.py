@@ -1,11 +1,12 @@
 import asyncio
 from tkinter import LabelFrame
 from tkinter.messagebox import showinfo
-from typing import Any, Callable, Coroutine, Dict, Optional
+from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import Position
 from gtnh.gui.lib.button import CustomButton
 from gtnh.gui.lib.combo_box import CustomCombobox
+from gtnh.gui.lib.custom_widget import CustomWidget
 from gtnh.modpack_manager import GTNHModpackManager
 
 
@@ -43,7 +44,7 @@ class ModpackVersion(LabelFrame):
         self.btn_refresh: CustomButton = CustomButton(
             self, text="Refresh modpack assets", command=lambda: asyncio.ensure_future(self.refresh_modpack_assets())
         )
-        self.widgets = [self.modpack_version, self.btn_refresh]
+        self.widgets: List[CustomWidget] = [self.modpack_version, self.btn_refresh]
 
         self.width: int = (
             width if width is not None else max([widget.get_description_size() for widget in self.widgets])
