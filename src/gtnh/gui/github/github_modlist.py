@@ -1,12 +1,14 @@
 import asyncio
-from tkinter import END, Button, Entry, Label, LabelFrame, Listbox, Scrollbar, StringVar
+from tkinter import Button, Entry, Label, LabelFrame, StringVar
 from tkinter.messagebox import showerror, showinfo, showwarning
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import Position
 from gtnh.exceptions import RepoNotFoundException
+from gtnh.gui.lib.listbox import CustomListbox
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
+
 from gtnh.modpack_manager import GTNHModpackManager
 
 
@@ -16,7 +18,7 @@ class GithubModList(LabelFrame):
     """
 
     def __init__(
-        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+            self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
     ):
         """
         Constructor of the GithubModList class.
@@ -65,9 +67,6 @@ class GithubModList(LabelFrame):
         self.mod_info_callback: Callable[[Any], None] = callbacks["mod_info"]
         self.reset_mod_info_callback: Callable[[], None] = callbacks["reset_mod_info"]
 
-        self.lb_mods: Listbox = Listbox(self, exportselection=False)
-        self.lb_mods.bind("<<ListboxSelect>>", lambda event: asyncio.ensure_future(self.on_listbox_click(event)))
-
         self.label_entry: Label = Label(self, text=new_repo_text)
         self.entry: Entry = Entry(self, textvariable=self.sv_repo_name)
 
@@ -80,9 +79,8 @@ class GithubModList(LabelFrame):
             self, text=refresh_all_text, command=lambda: asyncio.ensure_future(self.refresh_all())
         )
 
-        self.scrollbar: Scrollbar = Scrollbar(self)
-        self.lb_mods.configure(yscrollcommand=self.scrollbar.set)
-        self.scrollbar.configure(command=self.lb_mods.yview)
+        self.listbox: CustomListbox = CustomListbox(self, "List of availiable github mods:", exportselection=False,
+                                                    on_selection=lambda event: asyncio.ensure_future(self.on_listbox_click(event)))
 
     def configure_widgets(self) -> None:
         """
@@ -131,14 +129,14 @@ class GithubModList(LabelFrame):
         Method to hide the widget and all its childs
         :return None:
         """
-        self.lb_mods.grid_forget()
-        self.scrollbar.grid_forget()
         self.label_entry.grid_forget()
         self.entry.grid_forget()
         self.btn_add.grid_forget()
         self.btn_rem.grid_forget()
         self.btn_refresh.grid_forget()
         self.btn_refresh_all.grid_forget()
+
+        self.listbox.grid_forget()
 
         self.update_idletasks()
 
@@ -150,7 +148,7 @@ class GithubModList(LabelFrame):
         """
         x: int = 0
         y: int = 0
-        rows: int = 10
+        rows: int = 11
         columns: int = 2
 
         for i in range(rows):
@@ -159,8 +157,8 @@ class GithubModList(LabelFrame):
         for i in range(columns):
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
-        self.lb_mods.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
-        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky=Position.VERTICAL)
+        self.listbox.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+
         self.label_entry.grid(row=x + 1, column=y)
         self.entry.grid(row=x + 1, column=y + 1, columnspan=2)
         self.btn_add.grid(row=x + 2, column=y)
@@ -177,19 +175,21 @@ class GithubModList(LabelFrame):
         :param data: the data to pass to this class
         :return: None
         """
-        self.lb_mods.insert(END, *data)
+        self.listbox.set_values(data)
 
-    async def on_listbox_click(self, event: Optional[Any] = None) -> None:
+    async def on_listbox_click(self, _: Optional[Any] = None) -> None:
         """
         Callback used when the user clicks on the github mods' listbox.
 
-        :param event: the tkinter event passed by the tkinter in the Callback (unused)
+        :param _: the tkinter event passed by the tkinter in the Callback (unused)
         :return: None
         """
+        if not self.listbox.has_selection():
+            return
 
-        index: int = self.lb_mods.curselection()[0]
+        index: int = self.listbox.get()
         gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-        mod_info: GTNHModInfo = gtnh.assets.get_github_mod(self.lb_mods.get(index))
+        mod_info: GTNHModInfo = gtnh.assets.get_github_mod(self.listbox.get_value_at_index(index))
         name: str = mod_info.name
         mod_versions: list[GTNHVersion] = mod_info.versions
         latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
@@ -199,14 +199,14 @@ class GithubModList(LabelFrame):
             if name in self.get_github_mods_callback()
             else latest_version.version_tag
         )
-        license: str = mod_info.license or "No license detected"
+        mod_license: str = mod_info.license or "No license detected"
         side: str = mod_info.side
 
         data = {
             "name": name,
             "versions": [version.version_tag for version in mod_versions],
             "current_version": current_version,
-            "license": license,
+            "license": mod_license,
             "side": side,
         }
 
@@ -223,7 +223,7 @@ class GithubModList(LabelFrame):
         if repo_name == "":
             return
 
-        repo_list: List[str] = list(self.lb_mods.get(0, END))
+        repo_list: List[str] = self.listbox.get_values()
 
         if repo_name in repo_list and name_override is None:
             # skipping check if called by refresh_repo, as the name will be already in the list
@@ -241,8 +241,7 @@ class GithubModList(LabelFrame):
 
             if name_override is None:  # no need to readd the mod if this is called by refresh_repo
                 repo_list += [repo_name]
-                self.lb_mods.delete(0, END)
-                self.lb_mods.insert(END, *sorted(repo_list))
+                self.listbox.set_values(sorted(repo_list))
 
                 # not showing the info if this is called by refresh_mod
                 showinfo("Repository added successfully", f"{repo_name} has been added successfully to the assets!")
@@ -264,21 +263,19 @@ class GithubModList(LabelFrame):
         :return: None
         """
         gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-        try:
-            repo_name = self.lb_mods.get(self.lb_mods.curselection()[0])
-        except IndexError:
+        if self.listbox.has_selection():
+            repo_name = self.listbox.get_value_at_index(self.listbox.get())
+        else:
             showerror("No repository name selected.", "Please select a repository before trying to edit it.")
             return
 
-        repo_list: List[str] = sorted([name for name in self.lb_mods.get(0, END) if name != repo_name])
-        self.lb_mods.delete(0, END)
-        self.lb_mods.insert(END, *repo_list)
+        repo_list: List[str] = sorted([name for name in self.listbox.get_values() if name != repo_name])
+        self.listbox.set_values(repo_list)
         self.reset_mod_info_callback()
 
         self.del_mod_from_memory(repo_name)
 
         if await gtnh.delete_github_mod(repo_name) and verbose:
-
             showinfo("Repository successfully deleted", f"{repo_name} has been successfully deleted from assets.")
 
     async def refresh_repo(self) -> None:
@@ -287,9 +284,9 @@ class GithubModList(LabelFrame):
 
         :return: None
         """
-        try:
-            repo_name = self.lb_mods.get(self.lb_mods.curselection()[0])
-        except IndexError:
+        if self.listbox.has_selection():
+            repo_name = self.listbox.get_value_at_index(self.listbox.get())
+        else:
             showerror("No repository name selected.", "Please select a repository before trying to edit it.")
             return
 
@@ -321,4 +318,3 @@ class GithubModList(LabelFrame):
         gtnh: GTNHModpackManager = await self.get_gtnh_callback()
         await gtnh.regen_github_assets(callback=self._update_callback)
         showinfo("Github assets had been updated successfully", "All the github assets had been updated successfully!")
-
