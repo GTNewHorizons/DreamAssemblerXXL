@@ -1,11 +1,13 @@
 import asyncio
-from tkinter import  Button, Label, LabelFrame, StringVar
-from tkinter.messagebox import  showinfo
-from tkinter.ttk import Combobox
+from tkinter import LabelFrame
+from tkinter.messagebox import showinfo
 from typing import Any, Callable, Coroutine, Dict, Optional
 
 from gtnh.defs import Position
+from gtnh.gui.lib.button import CustomButton
+from gtnh.gui.lib.combo_box import CustomCombobox
 from gtnh.modpack_manager import GTNHModpackManager
+
 
 class ModpackVersion(LabelFrame):
     """
@@ -13,12 +15,12 @@ class ModpackVersion(LabelFrame):
     """
 
     def __init__(
-        self,
-        master: Any,
-        frame_name: str,
-        callbacks: Dict[str, Any],
-        width: Optional[int] = None,
-        **kwargs: Any,
+            self,
+            master: Any,
+            frame_name: str,
+            callbacks: Dict[str, Any],
+            width: Optional[int] = None,
+            **kwargs: Any,
     ):
         """
         Constructor of the ModpackVersionFrame.
@@ -32,18 +34,17 @@ class ModpackVersion(LabelFrame):
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.ypadding: int = 0
         self.xpadding: int = 0
-        modpack_version_text: str = "Modpack version:"
-        refresh_modpack_text: str = "Refresh modpack assets"
-        self.width: int = width if width is not None else max(len(modpack_version_text), len(refresh_modpack_text))
-        self.label_modpack_version: Label = Label(self, text=modpack_version_text)
-        self.sv_version: StringVar = StringVar(value="")
-        self.cb_modpack_version: Combobox = Combobox(self, textvariable=self.sv_version, values=[])
-        self.cb_modpack_version.bind(
-            "<<ComboboxSelected>>", lambda event: callbacks["set_modpack_version"](self.sv_version.get())
+
+        self.modpack_version: CustomCombobox = CustomCombobox(self, label_text="Modpack version:", values=[])
+        self.modpack_version.set_on_selection_callback(lambda event: callbacks["set_modpack_version"](self.modpack_version.get()))
+
+        self.btn_refresh: CustomButton = CustomButton(
+            self, text="Refresh modpack assets", command=lambda: asyncio.ensure_future(self.refresh_modpack_assets())
         )
-        self.btn_refresh: Button = Button(
-            self, text=refresh_modpack_text, command=lambda: asyncio.ensure_future(self.refresh_modpack_assets())
-        )
+        self.widgets = [self.modpack_version, self.btn_refresh]
+
+        self.width: int = width if width is not None else max([widget.get_description_size() for widget in self.widgets])
+
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
 
     async def refresh_modpack_assets(self) -> None:
@@ -54,8 +55,9 @@ class ModpackVersion(LabelFrame):
         """
         gtnh: GTNHModpackManager = await self.get_gtnh_callback()
         await gtnh.regen_config_assets()
-        self.cb_modpack_version["values"] = [version.version_tag for version in gtnh.assets.config.versions]
-        self.sv_version.set(gtnh.assets.config.latest_version)
+        self.modpack_version.set_values([version.version_tag for version in gtnh.assets.config.versions])
+        self.modpack_version.set(gtnh.assets.config.latest_version)
+
         showinfo("Modpack assets refreshed", "Modpack assets refreshed successfully!")
 
     def configure_widgets(self) -> None:
@@ -64,8 +66,8 @@ class ModpackVersion(LabelFrame):
 
         :return: None
         """
-        self.label_modpack_version.configure(width=self.width)
-        self.cb_modpack_version.configure(width=self.width)
+        for widget in self.widgets:
+            widget.configure(width=self.width)
 
     def set_width(self, width: int) -> None:
         """
@@ -100,9 +102,8 @@ class ModpackVersion(LabelFrame):
         Method to hide the widget and all its childs
         :return None:
         """
-        self.label_modpack_version.grid_forget()
-        self.cb_modpack_version.grid_forget()
-        self.btn_refresh.grid_forget()
+        for widget in self.widgets:
+            widget.grid_forget()
 
         self.update_idletasks()
 
@@ -123,8 +124,7 @@ class ModpackVersion(LabelFrame):
         for i in range(columns):
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
-        self.label_modpack_version.grid(row=x, column=y)
-        self.cb_modpack_version.grid(row=x, column=y + 1, sticky=Position.HORIZONTAL)
+        self.modpack_version.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
         self.btn_refresh.grid(row=x + 1, column=y + 1, sticky=Position.HORIZONTAL)
 
     def populate_data(self, data: Dict[str, Any]) -> None:
@@ -134,5 +134,5 @@ class ModpackVersion(LabelFrame):
         :param data: the data to pass to this class
         :return: None
         """
-        self.cb_modpack_version["values"] = data["combobox"]
-        self.sv_version.set(data["stringvar"])
+        self.modpack_version.set_values(data["combobox"])
+        self.modpack_version.set(data["stringvar"])
