@@ -13,7 +13,7 @@ from gtnh.defs import Archive, ModSource, Position, Side
 from gtnh.exceptions import NoModAssetFound, ReleaseNotFoundException
 from gtnh.gui.exclusion_frame import ExclusionFrame
 from gtnh.gui.external_mod_frame import ExternalModFrame
-from gtnh.gui.github_mod_frame import GithubModFrame
+from gtnh.gui.github.github_panel import GithubPanel
 from gtnh.gui.modpack_frame import ModpackFrame
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
@@ -136,7 +136,7 @@ class Window(Tk):
             "del_mod_in_memory": self._del_github_mod,
         }
 
-        self.github_mod_frame: GithubModFrame = GithubModFrame(
+        self.github_mod_frame: GithubPanel = GithubPanel(
             self, frame_name="Github mods data", callbacks=github_frame_callbacks
         )
 
