@@ -1,11 +1,19 @@
-from tkinter import Frame, Listbox, Label, Scrollbar, END
-from typing import Any, List, Optional, Callable
+from tkinter import END, Frame, Label, Listbox, Scrollbar
+from typing import Any, Callable, List, Optional
 
 from gtnh.defs import Position
 
 
 class CustomListbox(Frame):
-    def __init__(self, master, label_text, exportselection=False, on_selection: Optional[Callable[[Any], Any]] = None, *args, **kwargs):
+    def __init__(
+        self,
+        master,
+        label_text,
+        exportselection=False,
+        on_selection: Optional[Callable[[Any], Any]] = None,
+        *args,
+        **kwargs,
+    ):
         Frame.__init__(self, master, *args, **kwargs)
 
         self.label_text: str = label_text
@@ -22,7 +30,7 @@ class CustomListbox(Frame):
         self.scrollbar.configure(command=self.listbox.yview)
 
         rows: int = 2
-        columns: int = 2 # not resizing the scrollbar column on demand
+        columns: int = 2  # not resizing the scrollbar column on demand
 
         for i in range(rows):
             self.rowconfigure(i, weight=1, pad=0)

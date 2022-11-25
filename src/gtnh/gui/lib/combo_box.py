@@ -1,12 +1,20 @@
-from tkinter import StringVar, Label, Frame
+from tkinter import Frame, Label, StringVar
 from tkinter.ttk import Combobox
-from typing import List, Optional, Callable, Any
+from typing import Any, Callable, List, Optional
 
 from gtnh.defs import Position
 
 
 class CustomCombobox(Frame):
-    def __init__(self, master:Any, label_text: str, values: List[str] = [], on_selection: Optional[Callable[[Any], None]] = None, *args, **kwargs) -> None:
+    def __init__(
+        self,
+        master: Any,
+        label_text: str,
+        values: List[str] = [],
+        on_selection: Optional[Callable[[Any], None]] = None,
+        *args,
+        **kwargs,
+    ) -> None:
         Frame.__init__(self, master, *args, *kwargs)
         self.label_text: str = label_text
         self.label: Label = Label(self, text=label_text)
@@ -48,10 +56,10 @@ class CustomCombobox(Frame):
             del kwargs["width"]
         super().configure(*args, **kwargs)
 
-    def get_description(self)-> str:
+    def get_description(self) -> str:
         return self.label_text
 
-    def get_description_size(self)-> int:
+    def get_description_size(self) -> int:
         return len(self.label_text)
 
     def reset(self):

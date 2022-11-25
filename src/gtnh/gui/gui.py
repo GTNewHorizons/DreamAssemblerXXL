@@ -468,7 +468,7 @@ class Window(Tk):
         :return: None
         """
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        previous_side:Side = gtnh.assets.get_external_mod(mod_name).side
+        previous_side: Side = gtnh.assets.get_external_mod(mod_name).side
         if previous_side == side:
             showwarning(
                 "Side already set up",

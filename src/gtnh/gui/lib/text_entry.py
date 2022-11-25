@@ -28,10 +28,10 @@ class TextEntry(Frame):
         self.entry.grid(row=0, column=1, sticky=Position.HORIZONTAL)
         super().grid(*args, **kwargs)
 
-    def configure(self, *args:Any, **kwargs:Any) -> None:
+    def configure(self, *args: Any, **kwargs: Any) -> None:
         if "width" in kwargs:
             self.label.configure(width=kwargs["width"])
-            self.entry.configure(width=2*kwargs["width"])
+            self.entry.configure(width=2 * kwargs["width"])
             del kwargs["width"]
         super().configure(*args, **kwargs)
 
@@ -41,5 +41,5 @@ class TextEntry(Frame):
     def get_description_size(self) -> int:
         return len(self.label_text)
 
-    def reset(self)->None:
+    def reset(self) -> None:
         self.set("")

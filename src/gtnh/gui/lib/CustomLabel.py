@@ -1,11 +1,11 @@
 from tkinter import Frame, Label, StringVar
-from typing import List, Any
+from typing import Any, List
 
 from gtnh.defs import Position
 
 
 class CustomLabel(Frame):
-    def __init__(self, master:Any, label_text: str, value: str, *args, **kwargs) -> None:
+    def __init__(self, master: Any, label_text: str, value: str, *args, **kwargs) -> None:
         Frame.__init__(self, master, *args, *kwargs)
         self.label_text: str = label_text
         self.label: Label = Label(self, text=label_text)
@@ -41,5 +41,5 @@ class CustomLabel(Frame):
     def get_description_size(self) -> int:
         return len(self.label_text)
 
-    def reset(self)->None:
+    def reset(self) -> None:
         self.set("")

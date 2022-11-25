@@ -6,6 +6,7 @@ from gtnh.gui.github.github_modlist import GithubModList
 from gtnh.gui.github.modpack_version import ModpackVersion
 from gtnh.gui.mod_info_frame import ModInfoFrame
 
+
 class GithubPanel(LabelFrame):
     """
     Main frame widget for the github mods' management.
@@ -174,5 +175,3 @@ class GithubPanel(LabelFrame):
         """
         self.github_mod_list.populate_data(data["github_mod_list"])
         self.modpack_version_frame.populate_data(data["modpack_version_frame"])
-
-

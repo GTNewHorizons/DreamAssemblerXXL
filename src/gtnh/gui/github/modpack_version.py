@@ -15,12 +15,12 @@ class ModpackVersion(LabelFrame):
     """
 
     def __init__(
-            self,
-            master: Any,
-            frame_name: str,
-            callbacks: Dict[str, Any],
-            width: Optional[int] = None,
-            **kwargs: Any,
+        self,
+        master: Any,
+        frame_name: str,
+        callbacks: Dict[str, Any],
+        width: Optional[int] = None,
+        **kwargs: Any,
     ):
         """
         Constructor of the ModpackVersionFrame.
@@ -36,14 +36,18 @@ class ModpackVersion(LabelFrame):
         self.xpadding: int = 0
 
         self.modpack_version: CustomCombobox = CustomCombobox(self, label_text="Modpack version:", values=[])
-        self.modpack_version.set_on_selection_callback(lambda event: callbacks["set_modpack_version"](self.modpack_version.get()))
+        self.modpack_version.set_on_selection_callback(
+            lambda event: callbacks["set_modpack_version"](self.modpack_version.get())
+        )
 
         self.btn_refresh: CustomButton = CustomButton(
             self, text="Refresh modpack assets", command=lambda: asyncio.ensure_future(self.refresh_modpack_assets())
         )
         self.widgets = [self.modpack_version, self.btn_refresh]
 
-        self.width: int = width if width is not None else max([widget.get_description_size() for widget in self.widgets])
+        self.width: int = (
+            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
+        )
 
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
 

@@ -10,7 +10,6 @@ from gtnh.gui.lib.listbox import CustomListbox
 from gtnh.gui.lib.text_entry import TextEntry
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
-
 from gtnh.modpack_manager import GTNHModpackManager
 
 
@@ -20,7 +19,7 @@ class GithubModList(LabelFrame):
     """
 
     def __init__(
-            self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
     ):
         """
         Constructor of the GithubModList class.
@@ -65,12 +64,25 @@ class GithubModList(LabelFrame):
             self, text="Refresh all the repositories", command=lambda: asyncio.ensure_future(self.refresh_all())
         )
 
-        self.listbox: CustomListbox = CustomListbox(self, "List of availiable github mods:", exportselection=False,
-                                                    on_selection=lambda event: asyncio.ensure_future(self.on_listbox_click(event)))
+        self.listbox: CustomListbox = CustomListbox(
+            self,
+            "List of availiable github mods:",
+            exportselection=False,
+            on_selection=lambda event: asyncio.ensure_future(self.on_listbox_click(event)),
+        )
 
-        self.widgets = [self.repository, self.btn_add, self.btn_rem, self.btn_refresh, self.btn_refresh_all, self.listbox]
+        self.widgets = [
+            self.repository,
+            self.btn_add,
+            self.btn_rem,
+            self.btn_refresh,
+            self.btn_refresh_all,
+            self.listbox,
+        ]
 
-        self.width: int = width if width is not None else max([widget.get_description_size() for widget in self.widgets])
+        self.width: int = (
+            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
+        )
 
     def configure_widgets(self) -> None:
         """

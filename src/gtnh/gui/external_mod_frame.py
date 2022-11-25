@@ -466,13 +466,13 @@ class ModAdditionFrame(LabelFrame):
         self.add_mod_and_version = mod_name is None
 
         self.mod_name = mod_name
-        self.mod_choice = RadioChoice(self, label_text="Choose a source type for the mod",
-                                      update_command=self.update_widget,
-                                      choices={
-                                          "CurseForge":1,
-                                          "Other":2
-                                      },
-                                      default_value=1)
+        self.mod_choice = RadioChoice(
+            self,
+            label_text="Choose a source type for the mod",
+            update_command=self.update_widget,
+            choices={"CurseForge": 1, "Other": 2},
+            default_value=1,
+        )
 
         self.name: TextEntry = TextEntry(self, "Mod name:")
         self.version: TextEntry = TextEntry(self, "Mod version:")
@@ -485,9 +485,7 @@ class ModAdditionFrame(LabelFrame):
         self.project_url: TextEntry = TextEntry(self, "Project url (page explaining the mod)")
 
         self.btn_add: CustomButton = CustomButton(
-            self,
-            text="Add external mod to DreamAssemblerXXL",
-            command=lambda: asyncio.ensure_future(self.add_mod())
+            self, text="Add external mod to DreamAssemblerXXL", command=lambda: asyncio.ensure_future(self.add_mod())
         )
 
         if self.add_version_only:
