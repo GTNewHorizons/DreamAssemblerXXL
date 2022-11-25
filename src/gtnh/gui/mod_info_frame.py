@@ -1,8 +1,9 @@
-from tkinter import Label, LabelFrame, StringVar
-from tkinter.ttk import Combobox
+from tkinter import LabelFrame
 from typing import Any, Callable, Dict, Optional
 
-from gtnh.defs import Side
+from gtnh.defs import Side, Position
+from gtnh.gui.lib.CustomLabel import CustomLabel
+from gtnh.gui.lib.combo_box import CustomCombobox
 
 
 class ModInfoFrame(LabelFrame):
@@ -32,38 +33,13 @@ class ModInfoFrame(LabelFrame):
         self.xpadding: int = 0
         self.callbacks: Dict[str, Any] = callbacks
 
-        self.label_mod_name_text: str = "Mod name:"
-        self.label_version_text: str = "Mod version:"
-        self.label_license_text: str = "Mod license:"
-        self.label_size_text: str = "Mod side:"
+        self.mod_name = CustomLabel(self, label_text="Mod name:", value="")
+        self.version = CustomCombobox(self, label_text="Mod version:", values=[], on_selection=self.set_mod_version)
+        self.license = CustomLabel(self, label_text="Mod license:", value="")
+        self.side = CustomCombobox(self, label_text="Mod side:", values=[], on_selection=self.set_mod_side)
 
-        self.width: int = (
-            width
-            if width is not None
-            else max(
-                len(self.label_mod_name_text),
-                len(self.label_version_text),
-                len(self.label_license_text),
-                len(self.label_size_text),
-            )
-        )
-        self.label_mod_name: Label = Label(self, text=self.label_mod_name_text)
-        self.label_version: Label = Label(self, text=self.label_version_text)
-        self.label_license: Label = Label(self, text=self.label_license_text)
-        self.label_side: Label = Label(self, text=self.label_size_text)
-
-        self.sv_mod_name: StringVar = StringVar(self, value="")
-        self.sv_version: StringVar = StringVar(self, value="")
-        self.sv_license: StringVar = StringVar(self, value="")
-        self.sv_side: StringVar = StringVar(self, value="")
-
-        self.label_mod_name_value: Label = Label(self, textvariable=self.sv_mod_name)
-        self.cb_version: Combobox = Combobox(self, textvariable=self.sv_version, values=[])
-        self.cb_version.bind("<<ComboboxSelected>>", self.set_mod_version)
-
-        self.label_license_value: Label = Label(self, textvariable=self.sv_license)
-        self.cb_side: Combobox = Combobox(self, textvariable=self.sv_side, values=[])
-        self.cb_side.bind("<<ComboboxSelected>>", self.set_mod_side)
+        self.widgets = [self.mod_name, self.version, self.license, self.side]
+        self.width: int = width if width is not None else max([widget.get_description_size() for widget in self.widgets])
 
     def set_mod_side(self, event: Any) -> None:
         """
@@ -72,10 +48,10 @@ class ModInfoFrame(LabelFrame):
         :param event: the tkinter event passed by the tkinter in the Callback (unused)
         :return: None
         """
-        mod_name: str = self.sv_mod_name.get()
+        mod_name: str = self.mod_name.get()
         if mod_name == "":
             raise ValueError("empty mod cannot have a side")
-        side: str = self.sv_side.get()
+        side: str = self.side.get()
         self.callbacks["set_mod_side"](mod_name, side)
 
     def set_mod_version(self, event: Any) -> None:
@@ -85,15 +61,15 @@ class ModInfoFrame(LabelFrame):
         :param event: the tkinter event passed by the tkinter in the Callback (unused)
         :return: None
         """
-        if self.sv_side.get() not in [
+        if self.side.get() not in [
             "",
             Side.NONE,
         ]:  # preventing from adding versions to manifest if it's not init or disabled
-            mod_name: str = self.sv_mod_name.get()
+            mod_name: str = self.mod_name.get()
             if mod_name == "":
                 raise ValueError("empty mod cannot have a version")
 
-            mod_version: str = self.sv_version.get()
+            mod_version: str = self.version.get()
             self.callbacks["set_mod_version"](mod_name, mod_version)
 
     def configure_widgets(self) -> None:
@@ -102,14 +78,8 @@ class ModInfoFrame(LabelFrame):
 
         :return: None
         """
-        self.label_mod_name.configure(width=self.width)
-        self.label_version.configure(width=self.width)
-        self.label_license.configure(width=self.width)
-        self.label_side.configure(width=self.width)
-        self.label_mod_name_value.configure(width=self.width)
-        self.cb_version.configure(width=self.width)
-        self.label_license_value.configure(width=self.width)
-        self.cb_side.configure(width=self.width)
+        for widget in self.widgets:
+            widget.configure(width=self.width)
 
     def set_width(self, width: int) -> None:
         """
@@ -144,14 +114,8 @@ class ModInfoFrame(LabelFrame):
         Method to hide the widget and all its childs
         :return None:
         """
-        self.label_mod_name.grid_forget()
-        self.label_mod_name_value.grid_forget()
-        self.label_version.grid_forget()
-        self.cb_version.grid_forget()
-        self.label_license.grid_forget()
-        self.label_license_value.grid_forget()
-        self.label_side.grid_forget()
-        self.cb_side.grid_forget()
+        for widget in self.widgets:
+            widget.grid_forget()
 
         self.update_idletasks()
 
@@ -161,10 +125,8 @@ class ModInfoFrame(LabelFrame):
 
         :return: None
         """
-        x: int = 0
-        y: int = 0
         rows: int = 4
-        columns: int = 2
+        columns: int = 1
 
         for i in range(rows):
             self.rowconfigure(i, weight=1, pad=self.xpadding)
@@ -172,14 +134,9 @@ class ModInfoFrame(LabelFrame):
         for i in range(columns):
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
-        self.label_mod_name.grid(row=x, column=y)
-        self.label_mod_name_value.grid(row=x, column=y + 1)
-        self.label_version.grid(row=x + 1, column=y)
-        self.cb_version.grid(row=x + 1, column=y + 1)
-        self.label_license.grid(row=x + 2, column=y)
-        self.label_license_value.grid(row=x + 2, column=y + 1)
-        self.label_side.grid(row=x + 3, column=y)
-        self.cb_side.grid(row=x + 3, column=y + 1)
+        for i, widget in enumerate(self.widgets):
+            widget.grid(row=i, column=0, sticky=Position.LEFT)
+
 
         self.update_idletasks()
 
@@ -190,12 +147,15 @@ class ModInfoFrame(LabelFrame):
         :param data: the data to pass to this class
         :return: None
         """
-        self.sv_mod_name.set(data["name"])
-        self.cb_version["values"] = data["versions"]
-        self.cb_side["values"] = [side.name for side in Side]
-        self.cb_version.set(data["current_version"])
-        self.sv_license.set(data["license"])
-        self.cb_side.set(data["side"])
+        self.mod_name.set(data["name"])
+
+        self.version.set_values(data["versions"])
+        self.version.set(data["current_version"])
+
+        self.license.set(data["license"])
+
+        self.side.set_values([side.name for side in Side])
+        self.side.set(data["side"])
 
     def reset(self) -> None:
         """
@@ -203,10 +163,5 @@ class ModInfoFrame(LabelFrame):
 
         :return: None
         """
-
-        self.sv_mod_name.set("")
-        self.cb_version["values"] = []
-        self.cb_side["values"] = []
-        self.cb_version.set("")
-        self.sv_license.set("")
-        self.cb_side.set("")
+        for widget in self.widgets:
+            widget.reset()

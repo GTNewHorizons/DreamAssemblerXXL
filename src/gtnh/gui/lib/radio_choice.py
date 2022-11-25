@@ -1,6 +1,8 @@
 from tkinter import Frame, IntVar, Label, Radiobutton
 from typing import Callable, Dict, List, Any
 
+from gtnh.defs import Position
+
 
 class RadioChoice(Frame):
     def __init__(self, master: Any, label_text: str, update_command: Callable[[None], None], choices: Dict[str, int],
@@ -38,7 +40,7 @@ class RadioChoice(Frame):
         super().grid_forget()
 
     def grid(self, *args: Any, **kwargs: Any) -> None:
-        self.label.grid(row=0, column=0, sticky="WE")
+        self.label.grid(row=0, column=0, sticky=Position.HORIZONTAL)
         for i, widget in enumerate(self.choice_list):
             widget.grid(row=0, column=i+1)
         super().grid(*args, **kwargs)
@@ -51,3 +53,9 @@ class RadioChoice(Frame):
                 widget.configure(width=width)
             del kwargs["width"]
         super().configure(*args, **kwargs)
+
+    def get_description(self) -> str:
+        return self.label_text
+
+    def get_description_size(self) -> int:
+        return len(self.label_text)
