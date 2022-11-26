@@ -34,12 +34,12 @@ class CustomListbox(Frame, CustomWidget):
             self.listbox.bind("<<ListboxSelect>>", on_selection)
 
         self.scrollbar_horizontal: Scrollbar = Scrollbar(self, orient=HORIZONTAL)
-        self.listbox.configure(yscrollcommand=self.scrollbar_horizontal.set)
-        self.scrollbar_horizontal.configure(command=self.listbox.yview)
+        self.listbox.configure(xscrollcommand=self.scrollbar_horizontal.set)
+        self.scrollbar_horizontal.configure(command=self.listbox.xview)
 
         self.scrollbar_vertical: Scrollbar = Scrollbar(self, orient=VERTICAL)
-        self.listbox.configure(xscrollcommand=self.scrollbar_vertical.set)
-        self.scrollbar_vertical.configure(command=self.listbox.xview)
+        self.listbox.configure(yscrollcommand=self.scrollbar_vertical.set)
+        self.scrollbar_vertical.configure(command=self.listbox.yview)
 
         rows: int = 1
         columns: int = 1
