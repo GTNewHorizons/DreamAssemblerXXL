@@ -1,10 +1,13 @@
 import asyncio
-from tkinter import END, Button, LabelFrame, Listbox, Scrollbar, StringVar, Toplevel
+from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror
-from typing import Any, Callable, Coroutine, Dict, Optional
+from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import Position
 from gtnh.gui.external.mod_adder_window import ModAdderWindow
+from gtnh.gui.lib.button import CustomButton
+from gtnh.gui.lib.custom_widget import CustomWidget
+from gtnh.gui.lib.listbox import CustomListbox
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import ExternalModInfo
 from gtnh.modpack_manager import GTNHModpackManager
@@ -29,10 +32,6 @@ class ExternalModList(LabelFrame):
         self.ypadding: int = 0
         self.xpadding: int = 0
 
-        self.btn_add_text: str = "Add new mod"
-        self.btn_add_version_text: str = "Add new version to highlighted"
-        self.btn_rem_text: str = "Delete highlighted"
-
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
         self.get_external_mods_callback: Callable[[], Dict[str, str]] = callbacks["get_external_mods"]
         self.toggle_freeze: Callable[[], None] = callbacks["freeze"]
@@ -41,32 +40,29 @@ class ExternalModList(LabelFrame):
         self.del_mod_from_memory: Callable[[str], None] = callbacks["del_mod_in_memory"]
         self.refresh_external_modlist: Callable[[], None] = callbacks["refresh_external_mods"]
 
+        self.listbox: CustomListbox = CustomListbox(
+            self,
+            label_text="External mods:",
+            exportselection=False,
+            on_selection=lambda event: asyncio.ensure_future(self.on_listbox_click(event)),
+        )
+
+        self.btn_add: CustomButton = CustomButton(
+            self, text="Add new mod", command=lambda: asyncio.ensure_future(self.add_external_mod())
+        )
+
+        self.btn_add_version: CustomButton = CustomButton(
+            self, text="Add new version to highlighted", command=lambda: asyncio.ensure_future(self.add_new_version())
+        )
+
+        self.btn_rem: CustomButton = CustomButton(
+            self, text="Delete highlighted", command=lambda: asyncio.ensure_future(self.del_external_mod())
+        )
+
+        self.widgets: List[CustomWidget] = [self.btn_add, self.btn_rem, self.btn_add_version, self.listbox]
         self.width: int = (
-            width
-            if width is not None
-            else max(len(self.btn_add_text), len(self.btn_rem_text), len(self.btn_add_version_text))
+            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
         )
-
-        self.sv_repo_name: StringVar = StringVar(self, value="")
-
-        self.lb_mods: Listbox = Listbox(self, exportselection=False)
-        self.lb_mods.bind("<<ListboxSelect>>", lambda event: asyncio.ensure_future(self.on_listbox_click(event)))
-
-        self.btn_add: Button = Button(
-            self, text=self.btn_add_text, command=lambda: asyncio.ensure_future(self.add_external_mod())
-        )
-
-        self.btn_add_version: Button = Button(
-            self, text=self.btn_add_version_text, command=lambda: asyncio.ensure_future(self.add_new_version())
-        )
-
-        self.btn_rem: Button = Button(
-            self, text=self.btn_rem_text, command=lambda: asyncio.ensure_future(self.del_external_mod())
-        )
-
-        self.scrollbar: Scrollbar = Scrollbar(self)
-        self.lb_mods.configure(yscrollcommand=self.scrollbar.set)
-        self.scrollbar.configure(command=self.lb_mods.yview)
 
     def configure_widgets(self) -> None:
         """
@@ -111,11 +107,8 @@ class ExternalModList(LabelFrame):
         Method to hide the widget and all its childs
         :return None:
         """
-        self.lb_mods.grid_forget()
-        self.scrollbar.grid_forget()
-        self.btn_add.grid_forget()
-        self.btn_add_version.grid_forget()
-        self.btn_rem.grid_forget()
+        for widget in self.widgets:
+            widget.grid_forget()
 
         self.update_idletasks()
 
@@ -136,8 +129,7 @@ class ExternalModList(LabelFrame):
         for i in range(columns):
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
-        self.lb_mods.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
-        self.scrollbar.grid(row=x, column=y + 2, sticky=Position.VERTICAL)
+        self.listbox.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
         self.btn_add.grid(row=x + 1, column=y)
         self.btn_rem.grid(row=x + 1, column=y + 1, columnspan=2)
         self.btn_add_version.grid(row=x + 2, column=y)
@@ -150,9 +142,9 @@ class ExternalModList(LabelFrame):
 
         :return: None
         """
-        try:
-            index: int = self.lb_mods.curselection()[0]
-            mod_name: str = self.lb_mods.get(index)
+        if self.listbox.has_selection():
+            index: int = self.listbox.get()
+            mod_name: str = self.listbox.get_value_at_index(index)
             self.toggle_freeze()
             top_level: Toplevel = Toplevel(self)
 
@@ -178,7 +170,7 @@ class ExternalModList(LabelFrame):
             mod_addition_frame.grid()
             mod_addition_frame.update_widget()
             top_level.title("External mod addition")
-        except IndexError:
+        else:
             showerror(
                 "No curseforge mod selected",
                 "In order to add a new version to a curseforge mod, you must select one first",
@@ -193,13 +185,13 @@ class ExternalModList(LabelFrame):
         """
         # showerror("Feature not yet implemented", "The removal of external mods from assets is not yet implemented.")
         # don't forget to use self.del_mod_from_memory when implementing this
-        try:
-            index: int = self.lb_mods.curselection()[0]
-            mod_name: str = self.lb_mods.get(index)
+        if self.listbox.has_selection():
+            index: int = self.listbox.get()
+            mod_name: str = self.listbox.get_value_at_index(index)
             gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-            self.lb_mods.delete(index)
+            self.listbox.del_value_at_index(index)
             await gtnh.delete_external_mod(mod_name)
-        except IndexError:
+        else:
             showerror(
                 "No curseforge mod selected",
                 "In order to add a new version to a curseforge mod, you must select one first",
@@ -246,8 +238,7 @@ class ExternalModList(LabelFrame):
         :param data: the data to pass to this class
         :return: None
         """
-        self.lb_mods.delete(0, END)
-        self.lb_mods.insert(END, *sorted(data))
+        self.listbox.set_values(sorted(data))
 
     async def on_listbox_click(self, _: Any) -> None:
         """
@@ -256,25 +247,25 @@ class ExternalModList(LabelFrame):
         :param _: the tkinter event passed by the tkinter in the Callback (unused)
         :return: None
         """
+        if self.listbox.has_selection():
+            index: int = self.listbox.get()
+            gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+            mod_info: ExternalModInfo = gtnh.assets.get_external_mod(self.listbox.get_value_at_index(index))
+            name: str = mod_info.name
+            mod_versions: list[GTNHVersion] = mod_info.versions
+            latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
+            assert latest_version
+            external_mods: Dict[str, str] = self.get_external_mods_callback()
+            current_version: str = external_mods[name] if name in external_mods else latest_version.version_tag
 
-        index: int = self.lb_mods.curselection()[0]
-        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-        mod_info: ExternalModInfo = gtnh.assets.get_external_mod(self.lb_mods.get(index))
-        name: str = mod_info.name
-        mod_versions: list[GTNHVersion] = mod_info.versions
-        latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
-        assert latest_version
-        external_mods: Dict[str, str] = self.get_external_mods_callback()
-        current_version: str = external_mods[name] if name in external_mods else latest_version.version_tag
+            _license: str = mod_info.license or "No license detected"
+            side: str = mod_info.side
 
-        _license: str = mod_info.license or "No license detected"
-        side: str = mod_info.side
-
-        data = {
-            "name": name,
-            "versions": [version.version_tag for version in mod_versions],
-            "current_version": current_version,
-            "license": _license,
-            "side": side,
-        }
-        self.mod_info_callback(data)
+            data = {
+                "name": name,
+                "versions": [version.version_tag for version in mod_versions],
+                "current_version": current_version,
+                "license": _license,
+                "side": side,
+            }
+            self.mod_info_callback(data)
