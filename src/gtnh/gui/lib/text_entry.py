@@ -14,6 +14,13 @@ class TextEntry(Frame, CustomWidget):
         self.string_var: StringVar = StringVar(self)
         self.entry: Entry = Entry(self, textvariable=self.string_var)
 
+        if hide_label:
+            self.columnconfigure(0, weight=1)
+            self.columnconfigure(1, weight=1)
+        else:
+            self.columnconfigure(0, weight=10)  # keep label on screen
+            self.columnconfigure(1, weight=1)
+
     def set(self, value: str) -> None:
         self.string_var.set(value)
 
@@ -29,14 +36,17 @@ class TextEntry(Frame, CustomWidget):
     def grid(self, *args: Any, **kwargs: Any) -> None:  # type: ignore
         if not self.hide_label:
             self.label.grid(row=0, column=0, sticky=Position.LEFT)
-        self.entry.grid(row=0, column=1, sticky=Position.HORIZONTAL)
+            self.entry.grid(row=0, column=1, sticky=Position.HORIZONTAL)
+        else:
+            self.entry.grid(row=0, column=0, columnspan=2, sticky=Position.HORIZONTAL)
+
         super().grid(*args, **kwargs)
 
     def configure(self, *args: Any, **kwargs: Any) -> None:  # type: ignore
         if "width" in kwargs:
             if not self.hide_label:
                 self.label.configure(width=kwargs["width"])
-            self.entry.configure(width=2 * kwargs["width"])
+            self.entry.configure(width=kwargs["width"])
             del kwargs["width"]
         if "state" in kwargs:
             self.entry.configure(state=kwargs["state"])

@@ -38,11 +38,16 @@ class ExclusionPanel(LabelFrame):
         self.btn_add: CustomButton = CustomButton(self, text="Add new exclusion", command=self.add)
         self.btn_del: CustomButton = CustomButton(self, text="Remove highlighted", command=self.delete)
 
-        self.widgets: List[CustomWidget] = [self.exclusion, self.btn_add, self.btn_del, self.listbox]
+        self.widgets: List[CustomWidget] = [self.btn_add, self.btn_del, self.listbox]
 
         self.width: int = (
             width if width is not None else max([widget.get_description_size() for widget in self.widgets])
         )
+
+        self.columnconfigure(0, weight=1, pad=self.ypadding)
+        self.columnconfigure(1, weight=1, pad=self.ypadding)
+
+        # no rowconfigure to avoid space between elements
 
         self.update_widget()
 
@@ -94,6 +99,9 @@ class ExclusionPanel(LabelFrame):
         for widget in self.widgets:
             widget.configure(width=self.width)
 
+        # overriding exclusion widget to get proper size
+        # self.exclusion.configure(width=2 * (self.width + 6))
+
     def set_width(self, width: int) -> None:
         """
         Method to set the widgets' width.
@@ -138,19 +146,11 @@ class ExclusionPanel(LabelFrame):
         """
         x: int = 0
         y: int = 0
-        rows: int = 3
-        columns: int = 2
-
-        for i in range(rows):
-            self.rowconfigure(i, weight=1, pad=self.xpadding)
-
-        for i in range(columns):
-            self.columnconfigure(i, weight=1, pad=self.ypadding)
 
         self.listbox.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
-        self.exclusion.grid(row=x + 1, column=y, columnspan=2)
-        self.btn_add.grid(row=x + 2, column=y, sticky=Position.UP_RIGHT)
-        self.btn_del.grid(row=x + 2, column=y + 1, columnspan=2, sticky=Position.UP_LEFT)
+        self.exclusion.grid(row=x + 1, column=y, columnspan=2, stick=Position.HORIZONTAL)
+        self.btn_add.grid(row=x + 2, column=y, sticky=Position.HORIZONTAL)
+        self.btn_del.grid(row=x + 2, column=y + 1, sticky=Position.HORIZONTAL)
 
     def populate_data(self, data: Dict[str, Any]) -> None:
         """
