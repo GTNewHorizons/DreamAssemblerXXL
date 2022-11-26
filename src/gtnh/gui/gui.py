@@ -1,4 +1,5 @@
 import asyncio
+import sys
 from pathlib import Path
 from tkinter import DISABLED, NORMAL, PhotoImage, Widget
 from tkinter.messagebox import showerror, showinfo, showwarning
@@ -66,7 +67,8 @@ class Window(ThemedTk):
         """
         Constructor of the Window class.
         """
-        ThemedTk.__init__(self, theme="plastik")
+        theme = "winnative" if sys.platform == "win32" else "plastik"
+        ThemedTk.__init__(self, theme=theme)
         self._client: Optional[httpx.AsyncClient] = None
         self._modpack_manager: Optional[GTNHModpackManager] = None
         self._run: bool = True
