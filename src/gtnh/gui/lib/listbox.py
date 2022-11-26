@@ -1,4 +1,4 @@
-from tkinter import END, Frame, Label, Listbox, Scrollbar
+from tkinter import END, Frame, Label, Listbox, Scrollbar, HORIZONTAL, VERTICAL
 from typing import Any, Callable, List, Optional, Tuple
 
 from gtnh.defs import Position
@@ -13,11 +13,17 @@ class CustomListbox(Frame, CustomWidget):
         exportselection: bool = False,
         on_selection: Optional[Callable[[Any], Any]] = None,
         height: int = 11,
+        display_horizontal_scrollbar: bool = False,
+        display_vertical_scrollbar: bool = True,
         *args: Any,
         **kwargs: Any,
     ) -> None:
         Frame.__init__(self, master, *args, **kwargs)
         CustomWidget.__init__(self, text=label_text)
+
+        self.display_horizontal_scrollbar: bool = display_horizontal_scrollbar
+        self.display_vertical_scrollbar: bool = display_vertical_scrollbar
+
 
         self.label: Label = Label(self, text=label_text)
 
@@ -27,12 +33,16 @@ class CustomListbox(Frame, CustomWidget):
         if self.callback_on_selection is not None:
             self.listbox.bind("<<ListboxSelect>>", on_selection)
 
-        self.scrollbar: Scrollbar = Scrollbar(self)
-        self.listbox.configure(yscrollcommand=self.scrollbar.set)
-        self.scrollbar.configure(command=self.listbox.yview)
+        self.scrollbar_horizontal: Scrollbar = Scrollbar(self, orient=HORIZONTAL)
+        self.listbox.configure(yscrollcommand=self.scrollbar_horizontal.set)
+        self.scrollbar_horizontal.configure(command=self.listbox.yview)
 
-        rows: int = 2
-        columns: int = 2  # not resizing the scrollbar column on demand
+        self.scrollbar_vertical: Scrollbar = Scrollbar(self, orient=VERTICAL)
+        self.listbox.configure(xscrollcommand=self.scrollbar_vertical.set)
+        self.scrollbar_vertical.configure(command=self.listbox.xview)
+
+        rows: int = 1
+        columns: int = 1
 
         for i in range(rows):
             self.rowconfigure(i, weight=1, pad=0)
@@ -56,6 +66,12 @@ class CustomListbox(Frame, CustomWidget):
     def set(self, value: int) -> None:
         self.listbox.select_set(value)
 
+    def insert(self, position:int, value:str)-> None:
+        if position == -1:
+            self.listbox.insert(END, value)
+        else:
+            self.listbox.insert(position, value)
+
     def has_selection(self) -> bool:
         return self.listbox.curselection() != ()  # type: ignore
 
@@ -71,13 +87,20 @@ class CustomListbox(Frame, CustomWidget):
     def grid_forget(self) -> None:
         self.label.grid_forget()
         self.listbox.grid_forget()
-        self.scrollbar.grid_forget()
+        self.scrollbar_horizontal.grid_forget()
+        self.scrollbar_vertical.grid_forget()
         super().grid_forget()
 
     def grid(self, *args: Any, **kwargs: Any) -> None:  # type: ignore
-        self.label.grid(row=0, column=0, sticky=Position.LEFT)
-        self.listbox.grid(row=1, column=0, columnspan=2, sticky=Position.HORIZONTAL)
-        self.scrollbar.grid(row=1, column=2, sticky=Position.VERTICAL)
+        x=0
+        y=0
+        self.label.grid(row=x+0, column=y+0, sticky=Position.LEFT)
+        self.listbox.grid(row=x+1, column=y+0, columnspan=1, sticky=Position.HORIZONTAL)
+        if self.display_horizontal_scrollbar:
+            self.scrollbar_horizontal.grid(row=x+2, column=y+0, sticky=Position.HORIZONTAL)
+        if self.display_vertical_scrollbar:
+            self.scrollbar_vertical.grid(row=x+1, column=y+1, sticky=Position.VERTICAL)
+
         super().grid(*args, **kwargs)
 
     def configure(self, *args: Any, **kwargs: Any) -> None:  # type: ignore

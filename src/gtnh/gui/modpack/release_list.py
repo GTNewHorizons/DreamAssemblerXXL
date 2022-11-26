@@ -1,8 +1,13 @@
-from tkinter import END, Button, Entry, Label, LabelFrame, Listbox, Scrollbar, StringVar, simpledialog
+from tkinter import LabelFrame, simpledialog
 from tkinter.messagebox import showerror
-from typing import Any, Callable, Dict, List, Optional, Tuple
+from typing import Any, Callable, Dict, List, Optional
 
 from gtnh.defs import Position
+from gtnh.gui.lib.CustomLabel import CustomLabel
+from gtnh.gui.lib.button import CustomButton
+from gtnh.gui.lib.custom_widget import CustomWidget
+from gtnh.gui.lib.listbox import CustomListbox
+from gtnh.gui.lib.text_entry import TextEntry
 from gtnh.models.gtnh_release import GTNHRelease
 
 
@@ -10,7 +15,7 @@ class ReleaseList(LabelFrame):
     """Widget ruling the list of modpack versions"""
 
     def __init__(
-        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+            self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
     ) -> None:
         """
         Constructor of the ReleaseList class.
@@ -25,42 +30,30 @@ class ReleaseList(LabelFrame):
         self.xpadding: int = 0
         self.ypadding: int = 0
 
-        self.btn_load_text: str = "Load version"
-        self.btn_del_text: str = "Delete version"
-        self.btn_add_text: str = "Add / Update"
+        self.listbox: CustomListbox = CustomListbox(self, label_text="Modpack versions:", exportselection=False, on_selection=self.on_listbox_click)
 
-        self.width: int = (
-            width if width is not None else max(len(self.btn_del_text), len(self.btn_add_text), len(self.btn_load_text))
+        self.btn_load: CustomButton = CustomButton(
+            self, text="Load version", command=lambda: self.btn_load_command(callbacks["load"])
+        )
+        self.btn_del: CustomButton = CustomButton(
+            self, text="Delete version", command=lambda: self.btn_del_command(callbacks["delete"])
+        )
+        self.btn_add: CustomButton = CustomButton(
+            self, text="Add / Update", command=lambda: self.btn_add_command(callbacks["add"])
         )
 
-        self.lb_modpack_versions: Listbox = Listbox(self, exportselection=False)
-        self.lb_modpack_versions.bind("<<ListboxSelect>>", self.on_listbox_click)
+        self.modpack: TextEntry = TextEntry(self, "", hide_label=True)
 
-        self.scrollbar: Scrollbar = Scrollbar(self)
-        self.lb_modpack_versions.configure(yscrollcommand=self.scrollbar.set, height=19)
-        self.scrollbar.configure(command=self.lb_modpack_versions.yview)
+        self.loaded_version: CustomLabel = CustomLabel(self, label_text="Loaded version:", value="")
 
-        self.btn_load: Button = Button(
-            self, text=self.btn_load_text, command=lambda: self.btn_load_command(callbacks["load"])
-        )
-        self.btn_del: Button = Button(
-            self, text=self.btn_del_text, command=lambda: self.btn_del_command(callbacks["delete"])
-        )
-        self.sv_entry: StringVar = StringVar(self)
-        self.entry: Entry = Entry(self, textvariable=self.sv_entry)
-        self.btn_add: Button = Button(
-            self, text=self.btn_add_text, command=lambda: self.btn_add_command(callbacks["add"])
-        )
+        self.widgets: List[CustomWidget] = [self.listbox, self.btn_add, self.btn_load, self.btn_del, self.modpack, self.loaded_version]
 
-        self.text_loaded_version = "Loaded version: {0}"
-        self.sv_loaded_version: StringVar = StringVar(self)
-        self.sv_loaded_version.set(self.text_loaded_version.format(""))
-        self.label_loaded_version: Label = Label(self, textvariable=self.sv_loaded_version)
+        self.width: int = width if width is not None else max([widget.get_description_size() for widget in self.widgets])
 
         self.update_widget()
 
     def set_loaded_version(self, version: str) -> None:
-        self.sv_loaded_version.set(self.text_loaded_version.format(version))
+        self.loaded_version.set(version)
 
     def configure_widgets(self) -> None:
         """
@@ -70,8 +63,10 @@ class ReleaseList(LabelFrame):
         """
         self.btn_load.configure(width=self.width)
         self.btn_del.configure(width=self.width)
-        self.entry.configure(width=self.width + 4)
         self.btn_add.configure(width=self.width)
+
+        for widget in self.widgets:
+            widget.configure(width=self.width)
 
     def set_width(self, width: int) -> None:
         """
@@ -106,12 +101,8 @@ class ReleaseList(LabelFrame):
         Method to hide the widget and all its childs
         :return None:
         """
-        self.lb_modpack_versions.grid_forget()
-        self.btn_load.grid_forget()
-        self.btn_del.grid_forget()
-        self.entry.grid_forget()
-        self.btn_add.grid_forget()
-        self.label_loaded_version.grid_forget()
+        for widget in self.widgets:
+            widget.grid_forget()
 
         self.update_idletasks()
 
@@ -132,25 +123,25 @@ class ReleaseList(LabelFrame):
         for i in range(rows):
             self.rowconfigure(i, weight=1, pad=self.xpadding)
 
-        self.lb_modpack_versions.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
-        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky=Position.VERTICAL)
-        self.label_loaded_version.grid(row=x + 1, column=y, columnspan=3, sticky=Position.LEFT)
+        self.listbox.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+        self.loaded_version.grid(row=x + 1, column=y, columnspan=3, sticky=Position.LEFT)
         self.btn_load.grid(row=x + 2, column=y, sticky=Position.DOWN_RIGHT)
         self.btn_del.grid(row=x + 2, column=y + 1, columnspan=2, sticky=Position.DOWN_LEFT)
-        self.entry.grid(row=x + 3, column=y, sticky=Position.UP_RIGHT)
+        self.modpack.grid(row=x + 3, column=y, sticky=Position.UP_RIGHT)
         self.btn_add.grid(row=x + 3, column=y + 1, columnspan=2, sticky=Position.UP_LEFT)
 
         self.update_idletasks()
 
-    def on_listbox_click(self, event: Any) -> None:
+    def on_listbox_click(self, _: Any) -> None:
         """
         Callback used to fill the entry widget when a modpack version is selected.
 
-        :param event: the tkinter event passed by the tkinter in the Callback (unused)
+        :param _: the tkinter event passed by the tkinter in the Callback (unused)
         :return: None
         """
-        index: int = self.lb_modpack_versions.curselection()[0]
-        self.sv_entry.set(self.lb_modpack_versions.get(index))
+        if self.listbox.has_selection():
+            index: int = self.listbox.get()
+            self.modpack.set(self.listbox.get_value_at_index(index))
 
     def btn_load_command(self, callback: Optional[Callable[[str], None]] = None) -> None:
         """
@@ -159,9 +150,9 @@ class ReleaseList(LabelFrame):
         :param callback: external call back to process added release name.
         :return: None
         """
-        if self.lb_modpack_versions.curselection():
-            index: int = self.lb_modpack_versions.curselection()[0]
-            release_name: str = self.lb_modpack_versions.get(index)
+        if self.listbox.has_selection():
+            index: int = self.listbox.get()
+            release_name: str = self.listbox.get_value_at_index(index)
 
             if callback is not None:
                 callback(release_name)
@@ -175,7 +166,8 @@ class ReleaseList(LabelFrame):
         :param callback: external call back to process added release name.
         :return: None
         """
-        release_name: str = self.sv_entry.get()
+        release_name: str = self.modpack.get()
+        listbox_entries: List[str] = self.listbox.get_values()
         if release_name != "":
             previous_release: Optional[str] = simpledialog.askstring(
                 title="Enter the previous modpack version", prompt="Please enter the previous modpack version:"
@@ -184,7 +176,7 @@ class ReleaseList(LabelFrame):
                 return
 
             # invalid input
-            if previous_release not in self.lb_modpack_versions.get(0, END) or previous_release == release_name:
+            if previous_release not in listbox_entries or previous_release == release_name:
                 showerror(
                     "Invalid previous version",
                     "You must provide a valid version corresponding to the previous pack version.",
@@ -194,8 +186,8 @@ class ReleaseList(LabelFrame):
             if callback is not None:
                 callback(release_name, previous_release)
 
-        if release_name not in self.lb_modpack_versions.get(0, END):
-            self.lb_modpack_versions.insert(END, release_name)
+        if release_name not in listbox_entries:
+            self.listbox.insert(-1, release_name)
 
         self.set_loaded_version(release_name)
 
@@ -206,11 +198,11 @@ class ReleaseList(LabelFrame):
         :param callback: external call back to process deleted release name.
         :return: None
         """
-        sel: Tuple[int] = self.lb_modpack_versions.curselection()
-        if sel:
-            index: int = sel[0]
-            release_name: str = self.lb_modpack_versions.get(index)
-            self.lb_modpack_versions.delete(index)
+
+        if self.listbox.has_selection():
+            index: int = self.listbox.get()
+            release_name: str = self.listbox.get_value_at_index(index)
+            self.listbox.del_value_at_index(index)
             if callback is not None:
                 callback(release_name)
 
@@ -221,5 +213,4 @@ class ReleaseList(LabelFrame):
         :param data: the data to pass to this class
         :return: None
         """
-        for release in data:
-            self.lb_modpack_versions.insert(END, release.version)
+        self.listbox.set_values([release.version for release in data])

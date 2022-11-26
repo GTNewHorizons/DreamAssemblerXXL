@@ -1,4 +1,4 @@
-from tkinter import END, LabelFrame
+from tkinter import LabelFrame
 from typing import Any, Callable, Dict, List, Optional
 
 from gtnh.defs import Position
@@ -56,11 +56,10 @@ class ModpackPanel(LabelFrame):
         :return: None
         """
         self.generate_nightly_callback()
-        data: List[str] = list(self.modpack_list.lb_modpack_versions.get(0, END))
+        data: List[str] = list(self.modpack_list.listbox.get_values())
         if "nightly" not in data:
             data.insert(0, "nightly")
-            self.modpack_list.lb_modpack_versions.delete(0, END)
-            self.modpack_list.lb_modpack_versions.insert(END, *data)
+            self.modpack_list.listbox.set_values(data)
 
     def configure_widgets(self) -> None:
         """
