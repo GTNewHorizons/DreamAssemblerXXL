@@ -1,4 +1,4 @@
-from tkinter import END, Frame, Label, Listbox, Scrollbar, HORIZONTAL, VERTICAL
+from tkinter import END, HORIZONTAL, VERTICAL, Frame, Label, Listbox, Scrollbar
 from typing import Any, Callable, List, Optional, Tuple
 
 from gtnh.defs import Position
@@ -23,7 +23,6 @@ class CustomListbox(Frame, CustomWidget):
 
         self.display_horizontal_scrollbar: bool = display_horizontal_scrollbar
         self.display_vertical_scrollbar: bool = display_vertical_scrollbar
-
 
         self.label: Label = Label(self, text=label_text)
 
@@ -66,7 +65,7 @@ class CustomListbox(Frame, CustomWidget):
     def set(self, value: int) -> None:
         self.listbox.select_set(value)
 
-    def insert(self, position:int, value:str)-> None:
+    def insert(self, position: int, value: str) -> None:
         if position == -1:
             self.listbox.insert(END, value)
         else:
@@ -92,14 +91,14 @@ class CustomListbox(Frame, CustomWidget):
         super().grid_forget()
 
     def grid(self, *args: Any, **kwargs: Any) -> None:  # type: ignore
-        x=0
-        y=0
-        self.label.grid(row=x+0, column=y+0, sticky=Position.LEFT)
-        self.listbox.grid(row=x+1, column=y+0, columnspan=1, sticky=Position.HORIZONTAL)
+        x = 0
+        y = 0
+        self.label.grid(row=x + 0, column=y + 0, sticky=Position.LEFT)
+        self.listbox.grid(row=x + 1, column=y + 0, columnspan=1, sticky=Position.HORIZONTAL)
         if self.display_horizontal_scrollbar:
-            self.scrollbar_horizontal.grid(row=x+2, column=y+0, sticky=Position.HORIZONTAL)
+            self.scrollbar_horizontal.grid(row=x + 2, column=y + 0, sticky=Position.HORIZONTAL)
         if self.display_vertical_scrollbar:
-            self.scrollbar_vertical.grid(row=x+1, column=y+1, sticky=Position.VERTICAL)
+            self.scrollbar_vertical.grid(row=x + 1, column=y + 1, sticky=Position.VERTICAL)
 
         super().grid(*args, **kwargs)
 

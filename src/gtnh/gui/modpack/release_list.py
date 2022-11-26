@@ -15,7 +15,7 @@ class ReleaseList(LabelFrame):
     """Widget ruling the list of modpack versions"""
 
     def __init__(
-            self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
     ) -> None:
         """
         Constructor of the ReleaseList class.
@@ -30,7 +30,9 @@ class ReleaseList(LabelFrame):
         self.xpadding: int = 0
         self.ypadding: int = 0
 
-        self.listbox: CustomListbox = CustomListbox(self, label_text="Modpack versions:", exportselection=False, on_selection=self.on_listbox_click)
+        self.listbox: CustomListbox = CustomListbox(
+            self, label_text="Modpack versions:", exportselection=False, on_selection=self.on_listbox_click
+        )
 
         self.btn_load: CustomButton = CustomButton(
             self, text="Load version", command=lambda: self.btn_load_command(callbacks["load"])
@@ -46,9 +48,18 @@ class ReleaseList(LabelFrame):
 
         self.loaded_version: CustomLabel = CustomLabel(self, label_text="Loaded version:", value="")
 
-        self.widgets: List[CustomWidget] = [self.listbox, self.btn_add, self.btn_load, self.btn_del, self.modpack, self.loaded_version]
+        self.widgets: List[CustomWidget] = [
+            self.listbox,
+            self.btn_add,
+            self.btn_load,
+            self.btn_del,
+            self.modpack,
+            self.loaded_version,
+        ]
 
-        self.width: int = width if width is not None else max([widget.get_description_size() for widget in self.widgets])
+        self.width: int = (
+            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
+        )
 
         self.update_widget()
 

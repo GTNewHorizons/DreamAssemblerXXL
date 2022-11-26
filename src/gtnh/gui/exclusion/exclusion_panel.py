@@ -29,7 +29,9 @@ class ExclusionPanel(LabelFrame):
         self.add_callback: Callable[[str], None] = callbacks["add"]
         self.del_callback: Callable[[str], None] = callbacks["del"]
 
-        self.listbox: CustomListbox = CustomListbox(self, label_text=frame_name, exportselection=False, height=16)
+        self.listbox: CustomListbox = CustomListbox(
+            self, label_text=frame_name, exportselection=False, height=12, display_horizontal_scrollbar=True
+        )
 
         self.exclusion: TextEntry = TextEntry(self, label_text="", hide_label=True)
 
