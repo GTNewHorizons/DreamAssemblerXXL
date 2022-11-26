@@ -1,8 +1,10 @@
-from tkinter import Button, Frame, Label, LabelFrame, StringVar
+from tkinter import Frame, Label, LabelFrame, StringVar
 from tkinter.ttk import Progressbar
-from typing import Any, Dict, Optional
+from typing import Any, Dict, List, Optional
 
 from gtnh.defs import Position
+from gtnh.gui.lib.button import CustomButton
+from gtnh.gui.lib.custom_widget import CustomWidget
 
 
 class ButtonArray(LabelFrame):
@@ -26,54 +28,35 @@ class ButtonArray(LabelFrame):
         self.xpadding: int = 0
         self.ypadding: int = 0
 
-        generate_all_text: str = "Generate all archives"
-        update_nightly_text: str = "Update nightly"
-        update_assets_text: str = "Update assets"
-
-        client_cf_text: str = "CurseForge client archive"
-        client_technic_text: str = "Technic client archive"
-        client_mr_text: str = "Modrinth client archive"
-        client_mmc_text: str = "MultiMC client archive"
-        client_zip_text: str = "Zip client archive"
-        server_zip_text: str = "Zip server archive"
-
-        self.width: int = (
-            width
-            if width is not None
-            else max(
-                len(generate_all_text),
-                len(update_nightly_text),
-                len(update_assets_text),
-                len(server_zip_text),
-                len(client_cf_text),
-                len(client_mr_text),
-                len(client_mmc_text),
-                len(client_technic_text),
-                len(client_zip_text),
-            )
-        )
-
         self.frame_btn: Frame = Frame(self)
 
-        self.btn_client_cf: Button = Button(self.frame_btn, text=client_cf_text, command=callbacks["client_cf"])
-        self.btn_client_technic: Button = Button(
-            self.frame_btn, text=client_technic_text, command=callbacks["client_technic"]
+        self.btn_client_cf: CustomButton = CustomButton(
+            self.frame_btn, text="CurseForge client archive", command=callbacks["client_cf"]
         )
-        self.btn_client_mmc: Button = Button(self.frame_btn, text=client_mmc_text, command=callbacks["client_mmc"])
-        self.btn_client_modrinth: Button = Button(
-            self.frame_btn, text=client_mr_text, command=callbacks["client_modrinth"]
+        self.btn_client_technic: CustomButton = CustomButton(
+            self.frame_btn, text="Technic client archive", command=callbacks["client_technic"]
         )
-        self.btn_generate_all: Button = Button(
-            self.frame_btn, text=generate_all_text, command=callbacks["generate_all"]
+        self.btn_client_mmc: CustomButton = CustomButton(
+            self.frame_btn, text="MultiMC client archive", command=callbacks["client_mmc"]
         )
-        self.btn_update_nightly: Button = Button(
-            self.frame_btn, text=update_nightly_text, command=callbacks["generate_nightly"]
+        self.btn_client_modrinth: CustomButton = CustomButton(
+            self.frame_btn, text="Modrinth client archive", command=callbacks["client_modrinth"]
         )
-        self.btn_update_assets: Button = Button(
-            self.frame_btn, text=update_assets_text, command=callbacks["update_assets"]
+        self.btn_generate_all: CustomButton = CustomButton(
+            self.frame_btn, text="Generate all archives", command=callbacks["generate_all"]
         )
-        self.btn_client_zip: Button = Button(self.frame_btn, text=client_zip_text, command=callbacks["client_zip"])
-        self.btn_server_zip: Button = Button(self.frame_btn, text=server_zip_text, command=callbacks["server_zip"])
+        self.btn_update_nightly: CustomButton = CustomButton(
+            self.frame_btn, text="Update nightly", command=callbacks["generate_nightly"]
+        )
+        self.btn_update_assets: CustomButton = CustomButton(
+            self.frame_btn, text="Update assets", command=callbacks["update_assets"]
+        )
+        self.btn_client_zip: CustomButton = CustomButton(
+            self.frame_btn, text="Zip client archive", command=callbacks["client_zip"]
+        )
+        self.btn_server_zip: CustomButton = CustomButton(
+            self.frame_btn, text="Zip server archive", command=callbacks["server_zip"]
+        )
 
         self.label_spacer: Label = Label(self, text="")
 
@@ -90,6 +73,21 @@ class ButtonArray(LabelFrame):
         )
         self.sv_pb_current_task: StringVar = StringVar(self, value="")
         self.label_pb_current_task: Label = Label(self, textvariable=self.sv_pb_current_task, width=100)
+
+        self.widgets: List[CustomWidget] = [
+            self.btn_client_cf,
+            self.btn_client_technic,
+            self.btn_client_modrinth,
+            self.btn_client_mmc,
+            self.btn_update_assets,
+            self.btn_update_nightly,
+            self.btn_generate_all,
+            self.btn_client_zip,
+            self.btn_server_zip,
+        ]
+        self.width: int = (
+            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
+        )
 
         self.update_widget()
 
@@ -204,16 +202,8 @@ class ButtonArray(LabelFrame):
 
         :return: None
         """
-
-        self.btn_client_cf.configure(width=self.width)
-        self.btn_client_technic.configure(width=self.width)
-        self.btn_client_modrinth.configure(width=self.width)
-        self.btn_client_mmc.configure(width=self.width)
-        self.btn_generate_all.configure(width=self.width)
-        self.btn_update_nightly.configure(width=self.width)
-        self.btn_update_assets.configure(width=self.width)
-        self.btn_client_zip.configure(width=self.width)
-        self.btn_server_zip.configure(width=self.width)
+        for widget in self.widgets:
+            widget.configure(width=self.width)
 
     def set_width(self, width: int) -> None:
         """
@@ -248,19 +238,7 @@ class ButtonArray(LabelFrame):
         Method to hide the widget and all its childs
         :return None:
         """
-        self.label_pb_global.grid_forget()
-        self.pb_global.grid_forget()
-        self.label_pb_current_task.grid_forget()
-        self.pb_current_task.grid_forget()
-        self.label_spacer.grid_forget()
-        self.btn_client_cf.grid_forget()
-        self.btn_client_technic.grid_forget()
-        self.btn_client_modrinth.grid_forget()
-        self.btn_client_mmc.grid_forget()
-        self.btn_generate_all.grid_forget()
-        self.btn_update_nightly.grid_forget()
-        self.btn_update_assets.grid_forget()
-        self.btn_client_zip.grid_forget()
-        self.btn_server_zip.grid_forget()
+        for widget in self.widgets:
+            widget.grid_forget()
 
         self.update_idletasks()
