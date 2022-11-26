@@ -1,13 +1,12 @@
 import asyncio
 from tkinter import LabelFrame
-from tkinter.messagebox import showinfo, showerror
-from typing import Any, Dict, Optional, Callable, Coroutine, List
-from warnings import showwarning
+from tkinter.messagebox import showerror, showinfo, showwarning
+from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import Position
 from gtnh.exceptions import RepoNotFoundException
-from gtnh.gui.github.modpack_version import ModpackVersion
 from gtnh.gui.lib.button import CustomButton
+from gtnh.gui.lib.combo_box import CustomCombobox
 from gtnh.gui.lib.custom_widget import CustomWidget
 from gtnh.gui.lib.listbox import CustomListbox
 from gtnh.gui.lib.text_entry import TextEntry
@@ -23,12 +22,12 @@ class GithubPanel(LabelFrame):
     """
 
     def __init__(
-            self,
-            master: Any,
-            frame_name: str,
-            callbacks: Dict[str, Any],
-            width: Optional[int] = None,
-            **kwargs: Any,
+        self,
+        master: Any,
+        frame_name: str,
+        callbacks: Dict[str, Any],
+        width: Optional[int] = None,
+        **kwargs: Any,
     ):
         """
         Constructor of the GithubModFrame class.
@@ -40,19 +39,8 @@ class GithubPanel(LabelFrame):
         :param kwargs: params to init the parent class
         """
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
-        self.ypadding: int = 0
-        self.xpadding: int = 0
-        self.width: Optional[int] = width
 
-        modpack_version_callbacks: Dict[str, Any] = {
-            "set_modpack_version": callbacks["set_modpack_version"],
-            "get_gtnh": callbacks["get_gtnh"],
-        }
-
-        self.modpack_version_frame: ModpackVersion = ModpackVersion(
-            self, frame_name="Modpack version", callbacks=modpack_version_callbacks
-        )
-
+        # Early widget:
         mod_info_callbacks: Dict[str, Any] = {
             "set_mod_version": callbacks["set_github_mod_version"],
             "set_mod_side": callbacks["set_github_mod_side"],
@@ -62,6 +50,7 @@ class GithubPanel(LabelFrame):
             self, frame_name="Github mod info", callbacks=mod_info_callbacks
         )
 
+        # Callbacks:
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
         self.get_github_mods_callback: Callable[[], Dict[str, str]] = callbacks["get_github_mods"]
         self.update_current_task_progress_bar: Callable[[float, str], None] = callbacks[
@@ -74,13 +63,29 @@ class GithubPanel(LabelFrame):
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks["add_mod_in_memory"]
         self.del_mod_from_memory: Callable[[str], None] = callbacks["del_mod_in_memory"]
 
-        self.ypadding: int = 0
-        self.xpadding: int = 0
-
         self.mod_info_callback: Callable[[Any], None] = self.mod_info_frame.populate_data
         self.reset_mod_info_callback: Callable[[], None] = self.mod_info_frame.reset
 
-        self.repository: TextEntry = TextEntry(self, label_text="Enter the new repo here", hide_label=False, position_sticky_entry=None, position_sticky_label=None)
+        # Widgets
+
+        self.modpack_version: CustomCombobox = CustomCombobox(
+            self, label_text="Modpack version:", values=[], position_sticky_label=None, position_sticky_combobox=None
+        )
+        self.modpack_version.set_on_selection_callback(
+            lambda event: callbacks["set_modpack_version"](self.modpack_version.get())
+        )
+
+        self.btn_refresh_modpack: CustomButton = CustomButton(
+            self, text="Refresh modpack assets", command=lambda: asyncio.ensure_future(self.refresh_modpack_assets())
+        )
+
+        self.repository: TextEntry = TextEntry(
+            self,
+            label_text="Enter the new repo here",
+            hide_label=False,
+            position_sticky_entry=None,
+            position_sticky_label=None,
+        )
 
         self.btn_add: CustomButton = CustomButton(
             self, text="Add repository", command=lambda: asyncio.ensure_future(self.add_repo())
@@ -109,12 +114,15 @@ class GithubPanel(LabelFrame):
             self.btn_refresh,
             self.btn_refresh_all,
             self.listbox,
+            self.modpack_version,
+            self.btn_refresh_modpack,
         ]
 
-        self.width: int = width if width is not None else max([widget.get_description_size() for widget in self.widgets])
+        self.width: int = (
+            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
+        )
 
         self.mod_info_frame.set_width(self.width)
-        self.modpack_version_frame.set_width(self.width)
 
         self.update_widget()
 
@@ -125,7 +133,6 @@ class GithubPanel(LabelFrame):
         :return: None
         """
         self.mod_info_frame.configure_widgets()
-        self.modpack_version_frame.configure_widgets()
 
         for widget in self.widgets:
             widget.configure(width=self.width)
@@ -141,7 +148,6 @@ class GithubPanel(LabelFrame):
         """
         self.width = width
         self.mod_info_frame.set_width(self.width)
-        self.modpack_version_frame.set_width(self.width)
         self.configure_widgets()
 
     def get_width(self) -> int:
@@ -162,19 +168,15 @@ class GithubPanel(LabelFrame):
         self.configure_widgets()
         self.show()
 
-        self.modpack_version_frame.update_widget()
         self.mod_info_frame.update_widget()
-        # self.github_mod_list.update_widget()
 
     def hide(self) -> None:
         """
         Method to hide the widget and all its childs
         :return None:
         """
-        self.modpack_version_frame.grid_forget()
         self.mod_info_frame.grid_forget()
 
-        self.modpack_version_frame.hide()
         self.mod_info_frame.hide()
 
         for widget in self.widgets:
@@ -192,34 +194,40 @@ class GithubPanel(LabelFrame):
         y: int = 0
         # rows: int = 0
         columns: int = 2
-        #
-        # for i in range(rows):
-        #     self.rowconfigure(i, weight=1, pad=self.xpadding)
-        #
+
         for i in range(columns):
-            self.columnconfigure(i, weight=1, pad=self.ypadding)
+            self.columnconfigure(i, weight=1)
 
-        self.modpack_version_frame.grid(row=x, column=y,columnspan=2, sticky=Position.HORIZONTAL)
+        self.modpack_version.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+        self.btn_refresh_modpack.grid(row=x + 1, column=y + 1)
 
-        self.listbox.grid(row=x+1, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+        self.listbox.grid(row=x + 2, column=y, columnspan=2, sticky=Position.HORIZONTAL)
 
-        self.repository.grid(row=x + 2, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+        self.repository.grid(row=x + 3, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+        #
+        self.btn_add.grid(row=x + 4, column=y)
+        self.btn_rem.grid(row=x + 4, column=y + 1, columnspan=1)
+        self.btn_refresh.grid(row=x + 5, column=y + 1, columnspan=1)
+        self.btn_refresh_all.grid(row=x + 5, column=y)
+        #
+        self.mod_info_frame.grid(row=x + 6, column=y, columnspan=2, sticky=Position.HORIZONTAL)
 
-        # self.btn_add.grid(row=x + 3, column=y,sticky=Position.HORIZONTAL)
-        # self.btn_rem.grid(row=x + 3, column=y + 1, columnspan=1,sticky=Position.HORIZONTAL)
-        # self.btn_refresh.grid(row=x + 4, column=y + 1, columnspan=1,sticky=Position.HORIZONTAL)
-        # self.btn_refresh_all.grid(row=x + 4, column=y,sticky=Position.HORIZONTAL)
-        self.btn_add.grid(row=x + 3, column=y)
-        self.btn_rem.grid(row=x + 3, column=y + 1, columnspan=1)
-        self.btn_refresh.grid(row=x + 4, column=y + 1, columnspan=1)
-        self.btn_refresh_all.grid(row=x + 4, column=y)
-
-        self.mod_info_frame.grid(row=x + 5, column=y,columnspan=2, sticky=Position.HORIZONTAL)
-
-        self.modpack_version_frame.show()
         self.mod_info_frame.show()
 
         self.update_idletasks()
+
+    async def refresh_modpack_assets(self) -> None:
+        """
+        Method used to refresh assets for the modpack repository.
+
+        :return: None
+        """
+        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        await gtnh.regen_config_assets()
+        self.modpack_version.set_values([version.version_tag for version in gtnh.assets.config.versions])
+        self.modpack_version.set(gtnh.assets.config.latest_version)
+
+        showinfo("Modpack assets refreshed", "Modpack assets refreshed successfully!")
 
     def populate_data(self, data: Dict[str, Any]) -> None:
         """
@@ -229,7 +237,9 @@ class GithubPanel(LabelFrame):
         :return: None
         """
         self.listbox.set_values(data["github_mod_list"])
-        self.modpack_version_frame.populate_data(data["modpack_version_frame"])
+
+        self.modpack_version.set_values(data["modpack_version_frame"]["combobox"])
+        self.modpack_version.set(data["modpack_version_frame"]["stringvar"])
 
     async def on_listbox_click(self, _: Optional[Any] = None) -> None:
         """
