@@ -1,4 +1,5 @@
-from tkinter import Frame, IntVar, Label, Radiobutton
+from tkinter import IntVar
+from tkinter.ttk import Frame, Label, Radiobutton
 from typing import Any, Callable, Dict, List
 
 from gtnh.defs import Position

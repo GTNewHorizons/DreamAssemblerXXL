@@ -1,4 +1,4 @@
-from tkinter import Button
+from tkinter.ttk import Button
 from typing import Any
 
 from gtnh.gui.lib.custom_widget import CustomWidget

@@ -1,5 +1,5 @@
-from tkinter import Frame, Label, StringVar
-from tkinter.ttk import Combobox
+from tkinter import StringVar
+from tkinter.ttk import Combobox, Frame, Label
 from typing import Any, Callable, List, Optional
 
 from gtnh.defs import Position

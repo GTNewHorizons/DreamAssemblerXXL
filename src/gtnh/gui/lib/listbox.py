@@ -1,4 +1,5 @@
-from tkinter import END, HORIZONTAL, VERTICAL, Frame, Label, Listbox, Scrollbar
+from tkinter import END, HORIZONTAL, VERTICAL, Listbox
+from tkinter.ttk import Frame, Label, Scrollbar
 from typing import Any, Callable, List, Optional, Tuple
 
 from gtnh.defs import Position

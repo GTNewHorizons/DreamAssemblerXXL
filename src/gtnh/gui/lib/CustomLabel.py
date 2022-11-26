@@ -1,4 +1,5 @@
-from tkinter import Frame, Label, StringVar
+from tkinter import StringVar
+from tkinter.ttk import Frame, Label
 from typing import Any
 
 from gtnh.defs import Position

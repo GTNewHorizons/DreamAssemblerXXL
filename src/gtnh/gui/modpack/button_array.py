@@ -1,5 +1,5 @@
-from tkinter import Frame, Label, LabelFrame, StringVar
-from tkinter.ttk import Progressbar
+from tkinter import StringVar
+from tkinter.ttk import Frame, Label, LabelFrame, Progressbar
 from typing import Any, Dict, List, Optional
 
 from gtnh.defs import Position

@@ -1,7 +1,8 @@
 import asyncio
 from datetime import datetime
-from tkinter import LabelFrame, Toplevel
+from tkinter import Toplevel
 from tkinter.messagebox import showerror, showinfo, showwarning
+from tkinter.ttk import LabelFrame
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import ModSource, Side

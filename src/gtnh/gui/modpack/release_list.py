@@ -1,5 +1,6 @@
-from tkinter import LabelFrame, simpledialog
+from tkinter import simpledialog
 from tkinter.messagebox import showerror
+from tkinter.ttk import LabelFrame
 from typing import Any, Callable, Dict, List, Optional
 
 from gtnh.defs import Position
