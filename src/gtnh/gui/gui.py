@@ -1,13 +1,13 @@
 import asyncio
 from pathlib import Path
-from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
+from tkinter import DISABLED, NORMAL, PhotoImage, Widget
 from tkinter.messagebox import showerror, showinfo, showwarning
-from ttkthemes import ThemedTk
 from typing import Any, Callable, Dict, List, Optional, Set, Tuple, Union
 
 import httpx
 from colorama import Fore
 from structlog import get_logger
+from ttkthemes import ThemedTk
 
 from gtnh.assembler.assembler import ReleaseAssembler
 from gtnh.defs import Archive, ModSource, Position, Side
@@ -66,7 +66,7 @@ class Window(ThemedTk):
         """
         Constructor of the Window class.
         """
-        ThemedTk.__init__(self, theme = "plastik")
+        ThemedTk.__init__(self, theme="plastik")
         self._client: Optional[httpx.AsyncClient] = None
         self._modpack_manager: Optional[GTNHModpackManager] = None
         self._run: bool = True

@@ -594,6 +594,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "types-ttkthemes"
+version = "3.2.4.2"
+description = "Typing stubs for ttkthemes"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "types-urllib3"
 version = "1.26.22"
 description = "Typing stubs for urllib3"
@@ -620,7 +628,7 @@ python-versions = ">=3.6"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "6719492d7afefffe11b488ec9edbaf81e352fd466933f6b77a30ea0f3cfd3fa1"
+content-hash = "11ecfca9a8eb00d16c7843d4404993b0153884f5b211edd2b6693d4cfd0b46bf"
 
 [metadata.files]
 anyio = [
@@ -1082,6 +1090,10 @@ types-requests = [
 types-retry = [
     {file = "types-retry-0.9.9.tar.gz", hash = "sha256:b1087b274680b542c796549e8488898d0b22cd89988ef1016ef56d4367ff4f41"},
     {file = "types_retry-0.9.9-py3-none-any.whl", hash = "sha256:c5208407527661c37ee826a81abe8e7560e138c8deeccce61bf3f5441f2085f0"},
+]
+types-ttkthemes = [
+    {file = "types-ttkthemes-3.2.4.2.tar.gz", hash = "sha256:9d743e747f74f1173f1bc403bc57c3c511eb96263537df4db253cb14746e896f"},
+    {file = "types_ttkthemes-3.2.4.2-py3-none-any.whl", hash = "sha256:5b9e31f05fe233ebf66b15006e142af0ca638e9cd161dba8c035d8e7c191810f"},
 ]
 types-urllib3 = [
     {file = "types-urllib3-1.26.22.tar.gz", hash = "sha256:b05af90e73889e688094008a97ca95788db8bf3736e2776fd43fb6b171485d94"},
