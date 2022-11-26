@@ -40,14 +40,11 @@ class CustomListbox(Frame, CustomWidget):
         self.listbox.configure(yscrollcommand=self.scrollbar_vertical.set)
         self.scrollbar_vertical.configure(command=self.listbox.yview)
 
-        rows: int = 1
-        columns: int = 1
+        self.rowconfigure(0, weight=1, pad=0)
+        self.rowconfigure(1, weight=10, pad=0)
 
-        for i in range(rows):
-            self.rowconfigure(i, weight=1, pad=0)
-
-        for i in range(columns):
-            self.columnconfigure(i, weight=1, pad=0)
+        self.columnconfigure(0, weight=1, pad=0)
+        # no resizing of the vertical scrollbar, hence the only columnconfigure
 
     def get_values(self) -> List[str]:
         return self.listbox.get(0, END)  # type: ignore
