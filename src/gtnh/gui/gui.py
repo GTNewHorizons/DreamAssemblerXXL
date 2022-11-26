@@ -2,6 +2,7 @@ import asyncio
 from pathlib import Path
 from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
 from tkinter.messagebox import showerror, showinfo, showwarning
+from ttkthemes import ThemedTk
 from typing import Any, Callable, Dict, List, Optional, Set, Tuple, Union
 
 import httpx
@@ -56,7 +57,7 @@ class App:
         await self.instance.run()
 
 
-class Window(Tk):
+class Window(ThemedTk):
     """
     Main class for the GUI.
     """
@@ -65,7 +66,7 @@ class Window(Tk):
         """
         Constructor of the Window class.
         """
-        Tk.__init__(self)
+        ThemedTk.__init__(self, theme = "plastik")
         self._client: Optional[httpx.AsyncClient] = None
         self._modpack_manager: Optional[GTNHModpackManager] = None
         self._run: bool = True

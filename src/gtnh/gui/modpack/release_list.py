@@ -1,4 +1,5 @@
-from tkinter import LabelFrame, simpledialog
+from tkinter import simpledialog
+from tkinter.ttk import LabelFrame
 from tkinter.messagebox import showerror
 from typing import Any, Callable, Dict, List, Optional
 

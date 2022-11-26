@@ -1,6 +1,7 @@
 import asyncio
 from datetime import datetime
-from tkinter import LabelFrame, Toplevel
+from tkinter import Toplevel
+from tkinter.ttk import LabelFrame
 from tkinter.messagebox import showerror, showinfo, showwarning
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 

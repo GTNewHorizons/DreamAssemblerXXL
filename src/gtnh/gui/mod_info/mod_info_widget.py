@@ -1,4 +1,4 @@
-from tkinter import LabelFrame
+from tkinter.ttk import LabelFrame
 from typing import Any, Callable, Dict, List, Optional
 
 from gtnh.defs import Position, Side

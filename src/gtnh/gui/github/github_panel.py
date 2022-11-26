@@ -1,5 +1,5 @@
 import asyncio
-from tkinter import LabelFrame
+from tkinter.ttk import LabelFrame
 from tkinter.messagebox import showerror, showinfo, showwarning
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
