@@ -11,10 +11,10 @@ from structlog import get_logger
 from gtnh.assembler.assembler import ReleaseAssembler
 from gtnh.defs import Archive, ModSource, Position, Side
 from gtnh.exceptions import NoModAssetFound, ReleaseNotFoundException
-from gtnh.gui.exclusion_frame import ExclusionFrame
-from gtnh.gui.external_mod_frame import ExternalModFrame
+from gtnh.gui.exclusion.exclusion_panel import ExclusionPanel
+from gtnh.gui.external.external_panel import ExternalPanel
 from gtnh.gui.github.github_panel import GithubPanel
-from gtnh.gui.modpack_frame import ModpackFrame
+from gtnh.gui.modpack.modpack_panel import ModpackPanel
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
@@ -106,7 +106,7 @@ class Window(Tk):
             "all": lambda: asyncio.ensure_future(self.assemble_all()),
         }
 
-        self.modpack_list_frame: ModpackFrame = ModpackFrame(
+        self.modpack_list_frame: ModpackPanel = ModpackPanel(
             self, frame_name="Modpack release actions", callbacks=modpack_list_callbacks
         )
 
@@ -136,7 +136,7 @@ class Window(Tk):
             "del_mod_in_memory": self._del_github_mod,
         }
 
-        self.github_mod_frame: GithubPanel = GithubPanel(
+        self.github_panel: GithubPanel = GithubPanel(
             self, frame_name="Github mods data", callbacks=github_frame_callbacks
         )
 
@@ -153,7 +153,7 @@ class Window(Tk):
             "freeze": self.trigger_toggle,
         }
 
-        self.external_mod_frame: ExternalModFrame = ExternalModFrame(
+        self.external_mod_frame: ExternalPanel = ExternalPanel(
             self, frame_name="External mod data", callbacks=external_frame_callbacks
         )
 
@@ -163,7 +163,7 @@ class Window(Tk):
         }
 
         # frame for the client file exclusions
-        self.exclusion_frame_client: ExclusionFrame = ExclusionFrame(
+        self.exclusion_frame_client: ExclusionPanel = ExclusionPanel(
             self, "Client exclusions", callbacks=exclusion_client_callbacks
         )
 
@@ -173,11 +173,11 @@ class Window(Tk):
         }
 
         # frame for the server side exclusions
-        self.exclusion_frame_server: ExclusionFrame = ExclusionFrame(
+        self.exclusion_frame_server: ExclusionPanel = ExclusionPanel(
             self, "Server exclusions", callbacks=exclusion_server_callbacks
         )
 
-        width: int = self.github_mod_frame.get_width()
+        width: int = self.github_panel.get_width()
         self.external_mod_frame.set_width(width)
 
         self.toggled: bool = True  # state variable indicating if the widgets are disabled or not
@@ -457,7 +457,7 @@ class Window(Tk):
 
         if side != Side.NONE and mod_name not in self.github_mods:
             # dirty hack to add the mod back if it's switched from disabled to something else
-            self.github_mods[mod_name] = self.github_mod_frame.mod_info_frame.version.get()
+            self.github_mods[mod_name] = self.github_panel.mod_info_frame.version.get()
 
     async def set_external_mod_side(self, mod_name: str, side: str) -> None:
         """
@@ -848,14 +848,14 @@ class Window(Tk):
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
         # display child widgets
-        self.github_mod_frame.grid(row=x, column=y, rowspan=1, sticky=Position.ALL)
+        self.github_panel.grid(row=x, column=y, rowspan=1, sticky=Position.ALL)
         self.modpack_list_frame.grid(row=x, column=y + 1, columnspan=4, sticky=Position.ALL)
         self.external_mod_frame.grid(row=x + 1, column=y, rowspan=1, sticky=Position.ALL)
         self.exclusion_frame_client.grid(row=x + 1, column=y + 1, columnspan=2, sticky=Position.ALL)
         self.exclusion_frame_server.grid(row=x + 1, column=y + 3, columnspan=2, sticky=Position.ALL)
 
         # child widget's inner display
-        self.github_mod_frame.show()
+        self.github_panel.show()
         self.external_mod_frame.show()
         self.modpack_list_frame.show()
         self.exclusion_frame_client.show()
@@ -907,7 +907,7 @@ class Window(Tk):
                 "modpack_version_frame": {"combobox": await self.get_modpack_versions(), "stringvar": self.gtnh_config},
             }
 
-            self.github_mod_frame.populate_data(data_github_mods)
+            self.github_panel.populate_data(data_github_mods)
 
             data_external_mods: Dict[str, Any] = {"external_mod_list": await self.get_external_modlist()}
 

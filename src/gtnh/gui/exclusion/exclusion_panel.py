@@ -1,10 +1,14 @@
-from tkinter import END, Button, Entry, LabelFrame, Listbox, Scrollbar, StringVar
-from typing import Any, Callable, Dict, List, Optional, Tuple
+from tkinter import LabelFrame
+from typing import Any, Callable, Dict, List, Optional
 
 from gtnh.defs import Position
+from gtnh.gui.lib.button import CustomButton
+from gtnh.gui.lib.custom_widget import CustomWidget
+from gtnh.gui.lib.listbox import CustomListbox
+from gtnh.gui.lib.text_entry import TextEntry
 
 
-class ExclusionFrame(LabelFrame):
+class ExclusionPanel(LabelFrame):
     """Widget managing an exclusion list."""
 
     def __init__(
@@ -22,20 +26,21 @@ class ExclusionFrame(LabelFrame):
         LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0
         self.ypadding: int = 0
-        self.btn_add_text: str = "Add new exclusion"
-        self.btn_del_text: str = "Remove highlighted"
-        self.width: int = width if width is not None else max(len(self.btn_add_text), len(self.btn_del_text))
-        self.listbox: Listbox = Listbox(self, exportselection=False, height=16)
-        self.sv_entry: StringVar = StringVar(value="")
-        self.entry: Entry = Entry(self, textvariable=self.sv_entry)
-        self.btn_add: Button = Button(self, text=self.btn_add_text, command=self.add)
-        self.btn_del: Button = Button(self, text=self.btn_del_text, command=self.delete)
         self.add_callback: Callable[[str], None] = callbacks["add"]
         self.del_callback: Callable[[str], None] = callbacks["del"]
 
-        self.scrollbar: Scrollbar = Scrollbar(self)
-        self.listbox.configure(yscrollcommand=self.scrollbar.set)
-        self.scrollbar.configure(command=self.listbox.yview)
+        self.listbox: CustomListbox = CustomListbox(self, label_text=frame_name, exportselection=False, height=16)
+
+        self.exclusion: TextEntry = TextEntry(self, label_text="", hide_label=True)
+
+        self.btn_add: CustomButton = CustomButton(self, text="Add new exclusion", command=self.add)
+        self.btn_del: CustomButton = CustomButton(self, text="Remove highlighted", command=self.delete)
+
+        self.widgets: List[CustomWidget] = [self.exclusion, self.btn_add, self.btn_del, self.listbox]
+
+        self.width: int = (
+            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
+        )
 
         self.update_widget()
 
@@ -46,13 +51,12 @@ class ExclusionFrame(LabelFrame):
         :param elem: the element to add in the listbox
         :return: None
         """
-        exclusions: List[str] = list(self.listbox.get(0, END))
+        exclusions: List[str] = self.listbox.get_values()
         if elem in exclusions:
             return
 
         exclusions.append(elem)
-        self.listbox.delete(0, END)
-        self.listbox.insert(0, *(sorted(exclusions)))
+        self.listbox.set_values(sorted(exclusions))
 
     def add(self) -> None:
         """
@@ -60,7 +64,7 @@ class ExclusionFrame(LabelFrame):
 
         :return: None
         """
-        exclusion: str = self.sv_entry.get()
+        exclusion: str = self.exclusion.get()
         if exclusion == "":
             return
 
@@ -73,10 +77,10 @@ class ExclusionFrame(LabelFrame):
 
         :return: None
         """
-        position: Tuple[int] = self.listbox.curselection()
-        if position:
-            exclusion: str = self.listbox.get(position[0])
-            self.listbox.delete(position)
+        if self.listbox.has_selection():
+            position: int = self.listbox.get()
+            exclusion: str = self.listbox.get_value_at_index(position)
+            self.listbox.del_value_at_index(position)
             self.del_callback(exclusion)
 
     def configure_widgets(self) -> None:
@@ -85,10 +89,8 @@ class ExclusionFrame(LabelFrame):
 
         :return: None
         """
-
-        self.entry.configure(width=2 * (self.width + 4))
-        self.btn_add.configure(width=self.width)
-        self.btn_del.configure(width=self.width)
+        for widget in self.widgets:
+            widget.configure(width=self.width)
 
     def set_width(self, width: int) -> None:
         """
@@ -123,11 +125,8 @@ class ExclusionFrame(LabelFrame):
         Method to hide the widget and all its childs
         :return None:
         """
-        self.listbox.grid_forget()
-        self.scrollbar.grid_forget()
-        self.entry.grid_forget()
-        self.btn_add.grid_forget()
-        self.btn_del.grid_forget()
+        for widget in self.widgets:
+            widget.grid_forget()
 
     def show(self) -> None:
         """
@@ -147,8 +146,7 @@ class ExclusionFrame(LabelFrame):
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
         self.listbox.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
-        self.scrollbar.grid(row=x, column=y + 2, columnspan=2, sticky=Position.VERTICAL)
-        self.entry.grid(row=x + 1, column=y, columnspan=3)
+        self.exclusion.grid(row=x + 1, column=y, columnspan=2)
         self.btn_add.grid(row=x + 2, column=y, sticky=Position.UP_RIGHT)
         self.btn_del.grid(row=x + 2, column=y + 1, columnspan=2, sticky=Position.UP_LEFT)
 
@@ -159,4 +157,4 @@ class ExclusionFrame(LabelFrame):
         :param data: the data to pass to this class
         :return: None
         """
-        self.listbox.insert(END, *data["exclusions"])
+        self.listbox.set_values(data["exclusions"])

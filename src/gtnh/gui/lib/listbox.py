@@ -12,6 +12,7 @@ class CustomListbox(Frame, CustomWidget):
         label_text: str,
         exportselection: bool = False,
         on_selection: Optional[Callable[[Any], Any]] = None,
+        height: int = 11,
         *args: Any,
         **kwargs: Any,
     ) -> None:
@@ -20,7 +21,7 @@ class CustomListbox(Frame, CustomWidget):
 
         self.label: Label = Label(self, text=label_text)
 
-        self.listbox: Listbox = Listbox(self, exportselection=exportselection)
+        self.listbox: Listbox = Listbox(self, exportselection=exportselection, height=height)
 
         self.callback_on_selection: Optional[Callable[[Any], None]] = on_selection
         if self.callback_on_selection is not None:
@@ -61,6 +62,9 @@ class CustomListbox(Frame, CustomWidget):
     def get_value_at_index(self, index: int) -> str:
         return self.listbox.get(index)  # type: ignore
 
+    def del_value_at_index(self, index: int) -> None:
+        self.listbox.delete(index)
+
     def set_on_selection_callback(self, callback: Callable[[Any], Any]) -> None:
         self.listbox.bind("<<ListboxSelect>>", callback, False)
 
@@ -81,6 +85,9 @@ class CustomListbox(Frame, CustomWidget):
             self.label.configure(width=kwargs["width"])
             self.listbox.configure(width=kwargs["width"])
             del kwargs["width"]
+        if "state" in kwargs:
+            self.listbox.configure(state=kwargs["state"])
+            del kwargs["state"]
         super().configure(*args, **kwargs)
 
     def reset(self) -> None:

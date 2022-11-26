@@ -7,7 +7,7 @@ from gtnh.gui.lib.combo_box import CustomCombobox
 from gtnh.gui.lib.custom_widget import CustomWidget
 
 
-class ModInfoFrame(LabelFrame):
+class ModInfoWidget(LabelFrame):
     """
     Widget used to display info about a mod passed to it.
     """
@@ -21,7 +21,7 @@ class ModInfoFrame(LabelFrame):
         **kwargs: Any,
     ) -> None:
         """
-        Constructor of the ModInfoFrame class.
+        Constructor of the ModInfoWidget class.
 
         :param master: the parent widget
         :param frame_name: the name displayed in the framebox

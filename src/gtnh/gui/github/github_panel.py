@@ -4,7 +4,7 @@ from typing import Any, Dict, Optional
 from gtnh.defs import Position
 from gtnh.gui.github.github_modlist import GithubModList
 from gtnh.gui.github.modpack_version import ModpackVersion
-from gtnh.gui.mod_info_frame import ModInfoFrame
+from gtnh.gui.mod_info.mod_info_widget import ModInfoWidget
 
 
 class GithubPanel(LabelFrame):
@@ -48,7 +48,7 @@ class GithubPanel(LabelFrame):
             "set_mod_side": callbacks["set_github_mod_side"],
         }
 
-        self.mod_info_frame: ModInfoFrame = ModInfoFrame(
+        self.mod_info_frame: ModInfoWidget = ModInfoWidget(
             self, frame_name="Github mod info", callbacks=mod_info_callbacks
         )
 

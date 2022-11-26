@@ -55,6 +55,9 @@ class CustomCombobox(Frame, CustomWidget):
             self.label.configure(width=kwargs["width"])
             self.combobox.configure(width=kwargs["width"])
             del kwargs["width"]
+        if "state" in kwargs:
+            self.combobox.configure(state=kwargs["state"])
+            del kwargs["state"]
         super().configure(*args, **kwargs)
 
     def reset(self) -> None:
