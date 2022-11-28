@@ -1,4 +1,5 @@
-from tkinter.ttk import LabelFrame
+from tkinter import LabelFrame
+from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Dict, List, Optional
 
 from gtnh.defs import Position
@@ -8,11 +9,17 @@ from gtnh.gui.lib.listbox import CustomListbox
 from gtnh.gui.lib.text_entry import TextEntry
 
 
-class ExclusionPanel(LabelFrame):
+class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
     """Widget managing an exclusion list."""
 
     def __init__(
-        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+        self,
+        master: Any,
+        frame_name: str,
+        callbacks: Dict[str, Any],
+        width: Optional[int] = None,
+        themed: bool = False,
+        **kwargs: Any,
     ) -> None:
         """
         Constructor of the ExclusionFrame class.
@@ -21,22 +28,34 @@ class ExclusionPanel(LabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
+        :param themed: for those who prefered themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
-        LabelFrame.__init__(self, master, text=frame_name, **kwargs)
+        self.themed = themed
+        if themed:
+            LabelFrame.__init__(self, master, text=frame_name, **kwargs)
+        else:
+            TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0
         self.ypadding: int = 0
         self.add_callback: Callable[[str], None] = callbacks["add"]
         self.del_callback: Callable[[str], None] = callbacks["del"]
 
         self.listbox: CustomListbox = CustomListbox(
-            self, label_text=frame_name, exportselection=False, height=12, display_horizontal_scrollbar=True
+            self,
+            label_text=frame_name,
+            exportselection=False,
+            height=12,
+            display_horizontal_scrollbar=True,
+            themed=self.themed,
         )
 
-        self.exclusion: TextEntry = TextEntry(self, label_text="", hide_label=True)
+        self.exclusion: TextEntry = TextEntry(self, label_text="", hide_label=True, themed=self.themed)
 
-        self.btn_add: CustomButton = CustomButton(self, text="Add new exclusion", command=self.add)
-        self.btn_del: CustomButton = CustomButton(self, text="Remove highlighted", command=self.delete)
+        self.btn_add: CustomButton = CustomButton(self, text="Add new exclusion", command=self.add, themed=self.themed)
+        self.btn_del: CustomButton = CustomButton(
+            self, text="Remove highlighted", command=self.delete, themed=self.themed
+        )
 
         self.widgets: List[CustomWidget] = [self.btn_add, self.btn_del, self.listbox]
 

@@ -1,12 +1,17 @@
-from tkinter.ttk import Button
+from tkinter import Button
+from tkinter.ttk import Button as TtkButton
 from typing import Any
 
 from gtnh.gui.lib.custom_widget import CustomWidget
 
 
-class CustomButton(Button, CustomWidget):
-    def __init__(self, *args: Any, **kwargs: Any):
-        Button.__init__(self, *args, **kwargs)
+class CustomButton(Button, TtkButton, CustomWidget):  # type: ignore
+    def __init__(self, *args: Any, themed: bool = False, **kwargs: Any):
+        self.themed = themed
+        if themed:
+            TtkButton.__init__(self, *args, **kwargs)
+        else:
+            Button.__init__(self, *args, **kwargs)
         CustomWidget.__init__(self, text=self["text"])
 
     def configure(self, *args, **kwargs) -> None:  # type: ignore

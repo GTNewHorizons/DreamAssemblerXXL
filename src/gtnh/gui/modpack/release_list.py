@@ -1,6 +1,6 @@
-from tkinter import simpledialog
+from tkinter import LabelFrame, simpledialog
 from tkinter.messagebox import showerror
-from tkinter.ttk import LabelFrame
+from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Dict, List, Optional
 
 from gtnh.defs import Position
@@ -12,11 +12,17 @@ from gtnh.gui.lib.text_entry import TextEntry
 from gtnh.models.gtnh_release import GTNHRelease
 
 
-class ReleaseList(LabelFrame):
+class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
     """Widget ruling the list of modpack versions"""
 
     def __init__(
-        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+        self,
+        master: Any,
+        frame_name: str,
+        callbacks: Dict[str, Any],
+        width: Optional[int] = None,
+        themed: bool = False,
+        **kwargs: Any,
     ) -> None:
         """
         Constructor of the ReleaseList class.
@@ -25,29 +31,38 @@ class ReleaseList(LabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
+        :param themed: for those who prefered themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
-        LabelFrame.__init__(self, master, text=frame_name, **kwargs)
+        self.themed = themed
+        if themed:
+            TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
+        else:
+            LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0
         self.ypadding: int = 0
 
         self.listbox: CustomListbox = CustomListbox(
-            self, label_text="Modpack versions:", exportselection=False, on_selection=self.on_listbox_click
+            self,
+            label_text="Modpack versions:",
+            exportselection=False,
+            on_selection=self.on_listbox_click,
+            themed=self.themed,
         )
 
         self.btn_load: CustomButton = CustomButton(
-            self, text="Load version", command=lambda: self.btn_load_command(callbacks["load"])
+            self, text="Load version", command=lambda: self.btn_load_command(callbacks["load"]), themed=self.themed
         )
         self.btn_del: CustomButton = CustomButton(
-            self, text="Delete version", command=lambda: self.btn_del_command(callbacks["delete"])
+            self, text="Delete version", command=lambda: self.btn_del_command(callbacks["delete"]), themed=self.themed
         )
         self.btn_add: CustomButton = CustomButton(
-            self, text="Add / Update", command=lambda: self.btn_add_command(callbacks["add"])
+            self, text="Add / Update", command=lambda: self.btn_add_command(callbacks["add"]), themed=self.themed
         )
 
-        self.modpack: TextEntry = TextEntry(self, "", hide_label=True)
+        self.modpack: TextEntry = TextEntry(self, "", hide_label=True, themed=self.themed)
 
-        self.loaded_version: CustomLabel = CustomLabel(self, label_text="Loaded version:", value="")
+        self.loaded_version: CustomLabel = CustomLabel(self, label_text="Loaded version:", value="", themed=self.themed)
 
         self.widgets: List[CustomWidget] = [
             self.listbox,

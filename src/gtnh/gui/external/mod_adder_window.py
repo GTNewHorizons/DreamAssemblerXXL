@@ -1,8 +1,8 @@
 import asyncio
 from datetime import datetime
-from tkinter import Toplevel
+from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror, showinfo, showwarning
-from tkinter.ttk import LabelFrame
+from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import ModSource, Side
@@ -15,7 +15,7 @@ from gtnh.models.mod_info import ExternalModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 
-class ModAdderWindow(LabelFrame):
+class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
     """
     Class handling the widgets for the toplevel window about the mod addition.
     """
@@ -27,6 +27,7 @@ class ModAdderWindow(LabelFrame):
         callbacks: Dict[str, Any],
         width: Optional[int] = None,
         mod_name: Optional[str] = None,
+        themed: bool = False,
         **kwargs: Any,
     ):
         """
@@ -37,11 +38,18 @@ class ModAdderWindow(LabelFrame):
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
         :param mod_name: optional parameter passed to this class if the mod exists already in DAXXL.
+        :param themed: for those who prefered themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
+        self.themed = themed
         self.ypadding: int = 0
         self.xpadding: int = 0
-        LabelFrame.__init__(self, master, text=frame_name, **kwargs)
+
+        if themed:
+            LabelFrame.__init__(self, master, text=frame_name, **kwargs)
+        else:
+            TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
+
         self.master: Toplevel = master
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks["add_mod_in_memory"]
@@ -59,20 +67,26 @@ class ModAdderWindow(LabelFrame):
             update_command=self.update_widget,
             choices={"CurseForge": 1, "Other": 2},
             default_value=1,
+            themed=self.themed,
         )
 
-        self.name: TextEntry = TextEntry(self, "Mod name:")
-        self.version: TextEntry = TextEntry(self, "Mod version:")
-        self.download_url: TextEntry = TextEntry(self, "Download link (check your download history to get it):")
-        self.project_id: TextEntry = TextEntry(self, "project ID")
-        self.browser_url: TextEntry = TextEntry(
-            self, "browser download page url (page where you can download the file):"
+        self.name: TextEntry = TextEntry(self, "Mod name:", themed=self.themed)
+        self.version: TextEntry = TextEntry(self, "Mod version:", themed=self.themed)
+        self.download_url: TextEntry = TextEntry(
+            self, "Download link (check your download history to get it):", themed=self.themed
         )
-        self.license: TextEntry = TextEntry(self, "Mod License")
-        self.project_url: TextEntry = TextEntry(self, "Project url (page explaining the mod)")
+        self.project_id: TextEntry = TextEntry(self, "project ID", themed=self.themed)
+        self.browser_url: TextEntry = TextEntry(
+            self, "browser download page url (page where you can download the file):", themed=self.themed
+        )
+        self.license: TextEntry = TextEntry(self, "Mod License", themed=self.themed)
+        self.project_url: TextEntry = TextEntry(self, "Project url (page explaining the mod)", themed=self.themed)
 
         self.btn_add: CustomButton = CustomButton(
-            self, text="Add external mod to DreamAssemblerXXL", command=lambda: asyncio.ensure_future(self.add_mod())
+            self,
+            text="Add external mod to DreamAssemblerXXL",
+            command=lambda: asyncio.ensure_future(self.add_mod()),
+            themed=self.themed,
         )
 
         if self.add_version_only:

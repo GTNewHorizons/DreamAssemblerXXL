@@ -1,4 +1,5 @@
-from tkinter.ttk import LabelFrame
+from tkinter import LabelFrame
+from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Dict, List, Optional
 
 from gtnh.defs import Position, Side
@@ -7,7 +8,7 @@ from gtnh.gui.lib.combo_box import CustomCombobox
 from gtnh.gui.lib.custom_widget import CustomWidget
 
 
-class ModInfoWidget(LabelFrame):
+class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
     """
     Widget used to display info about a mod passed to it.
     """
@@ -18,6 +19,7 @@ class ModInfoWidget(LabelFrame):
         frame_name: str,
         callbacks: Dict[str, Callable[[str, str], None]],
         width: Optional[int] = None,
+        themed: bool = False,
         **kwargs: Any,
     ) -> None:
         """
@@ -27,17 +29,26 @@ class ModInfoWidget(LabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
+        :param themed: for those who prefered themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
-        LabelFrame.__init__(self, master, text=frame_name, **kwargs)
+        self.themed = themed
+        if themed:
+            TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
+        else:
+            LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.ypadding: int = 0
         self.xpadding: int = 0
         self.callbacks: Dict[str, Any] = callbacks
 
-        self.mod_name = CustomLabel(self, label_text="Mod name:", value="")
-        self.version = CustomCombobox(self, label_text="Mod version:", values=[], on_selection=self.set_mod_version)
-        self.license = CustomLabel(self, label_text="Mod license:", value="")
-        self.side = CustomCombobox(self, label_text="Mod side:", values=[], on_selection=self.set_mod_side)
+        self.mod_name: CustomLabel = CustomLabel(self, label_text="Mod name:", value="", themed=self.themed)
+        self.version: CustomCombobox = CustomCombobox(
+            self, label_text="Mod version:", values=[], on_selection=self.set_mod_version, themed=self.themed
+        )
+        self.license: CustomLabel = CustomLabel(self, label_text="Mod license:", value="", themed=self.themed)
+        self.side: CustomCombobox = CustomCombobox(
+            self, label_text="Mod side:", values=[], on_selection=self.set_mod_side, themed=self.themed
+        )
 
         self.widgets: List[CustomWidget] = [self.mod_name, self.version, self.license, self.side]
         self.width: int = (

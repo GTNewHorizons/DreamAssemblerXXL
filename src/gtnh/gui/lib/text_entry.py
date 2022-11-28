@@ -1,12 +1,12 @@
-from tkinter import StringVar
-from tkinter.ttk import Entry, Frame, Label
-from typing import Any, Optional
+from tkinter import Entry, Frame, Label, StringVar
+from tkinter.ttk import Entry as TtkEntry, Frame as TtkFrame, Label as TtkLabel
+from typing import Any, Optional, Union
 
 from gtnh.defs import Position
 from gtnh.gui.lib.custom_widget import CustomWidget
 
 
-class TextEntry(Frame, CustomWidget):
+class TextEntry(Frame, TtkFrame, CustomWidget):  # type: ignore
     def __init__(
         self,
         master: Any,
@@ -14,10 +14,15 @@ class TextEntry(Frame, CustomWidget):
         hide_label: bool = False,
         position_sticky_label: Optional[Position] = Position.HORIZONTAL,
         position_sticky_entry: Optional[Position] = Position.HORIZONTAL,
+        themed: bool = False,
         *args: Any,
         **kwargs: Any,
     ):
-        Frame.__init__(self, master, *args, **kwargs)
+        self.themed = themed
+        if themed:
+            TtkFrame.__init__(self, master, *args, **kwargs)
+        else:
+            Frame.__init__(self, master, *args, **kwargs)
         CustomWidget.__init__(self, text=label_text)
         self.hide_label: bool = hide_label
         self.position_sticky_label: Position = (
@@ -26,9 +31,14 @@ class TextEntry(Frame, CustomWidget):
         self.position_sticky_entry: Position = (
             position_sticky_entry if position_sticky_entry is not None else Position.NONE
         )
-        self.label: Label = Label(self, text=self.label_text)
+        self.label: Union[TtkLabel, Label] = (
+            TtkLabel(self, text=self.label_text) if themed else Label(self, text=self.label_text)
+        )
+
         self.string_var: StringVar = StringVar(self)
-        self.entry: Entry = Entry(self, textvariable=self.string_var)
+        self.entry: Entry = (
+            TtkEntry(self, textvariable=self.string_var) if themed else Entry(self, textvariable=self.string_var)
+        )
 
         self.columnconfigure(0, weight=1)
         self.columnconfigure(1, weight=1)

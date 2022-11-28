@@ -1,12 +1,12 @@
-from tkinter import StringVar
-from tkinter.ttk import Combobox, Frame, Label
-from typing import Any, Callable, List, Optional
+from tkinter import Frame, Label, StringVar
+from tkinter.ttk import Combobox, Frame as TtkFrame, Label as TtkLabel
+from typing import Any, Callable, List, Optional, Union
 
 from gtnh.defs import Position
 from gtnh.gui.lib.custom_widget import CustomWidget
 
 
-class CustomCombobox(Frame, CustomWidget):
+class CustomCombobox(Frame, TtkFrame, CustomWidget):  # type: ignore
     def __init__(
         self,
         master: Any,
@@ -16,12 +16,18 @@ class CustomCombobox(Frame, CustomWidget):
         on_selection: Optional[Callable[[Any], None]] = None,
         position_sticky_label: Optional[Position] = Position.HORIZONTAL,
         position_sticky_combobox: Optional[Position] = Position.HORIZONTAL,
+        themed: bool = False,
         *args: Any,
         **kwargs: Any,
     ) -> None:
-        Frame.__init__(self, master, *args, *kwargs)
+        self.themed = themed
+        if themed:
+            TtkFrame.__init__(self, master, *args, *kwargs)
+        else:
+            Frame.__init__(self, master, *args, *kwargs)
+
         CustomWidget.__init__(self, text=label_text)
-        self.label: Label = Label(self, text=label_text)
+        self.label: Union[Label, TtkLabel] = TtkLabel(self, text=label_text) if themed else Label(self, text=label_text)
 
         self.string_var: StringVar = StringVar(value="")
 

@@ -1,7 +1,7 @@
 import asyncio
-from tkinter import Toplevel
+from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror
-from tkinter.ttk import LabelFrame
+from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import Position
@@ -15,11 +15,17 @@ from gtnh.models.mod_info import ExternalModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 
-class ExternalPanel(LabelFrame):
+class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
     """Main frame widget for the external mods' management."""
 
     def __init__(
-        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+        self,
+        master: Any,
+        frame_name: str,
+        callbacks: Dict[str, Any],
+        width: Optional[int] = None,
+        themed: bool = False,
+        **kwargs: Any,
     ):
         """
         Constructor of the ExternalPanel class.
@@ -28,11 +34,16 @@ class ExternalPanel(LabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
+        :param themed: for those who prefered themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
+        self.themed = themed
         self.ypadding: int = 0
         self.xpadding: int = 0
-        LabelFrame.__init__(self, master, text=frame_name, **kwargs)
+        if themed:
+            LabelFrame.__init__(self, master, text=frame_name, **kwargs)
+        else:
+            TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
         mod_info_callbacks: Dict[str, Any] = {
             "set_mod_version": callbacks["set_external_mod_version"],
@@ -57,18 +68,25 @@ class ExternalPanel(LabelFrame):
             exportselection=False,
             on_selection=lambda event: asyncio.ensure_future(self.on_listbox_click(event)),
             display_horizontal_scrollbar=True,
+            themed=self.themed,
         )
 
         self.btn_add: CustomButton = CustomButton(
-            self, text="Add new mod", command=lambda: asyncio.ensure_future(self.add_external_mod())
+            self, text="Add new mod", command=lambda: asyncio.ensure_future(self.add_external_mod()), themed=self.themed
         )
 
         self.btn_add_version: CustomButton = CustomButton(
-            self, text="Add new version to highlighted", command=lambda: asyncio.ensure_future(self.add_new_version())
+            self,
+            text="Add new version to highlighted",
+            command=lambda: asyncio.ensure_future(self.add_new_version()),
+            themed=self.themed,
         )
 
         self.btn_rem: CustomButton = CustomButton(
-            self, text="Delete highlighted", command=lambda: asyncio.ensure_future(self.del_external_mod())
+            self,
+            text="Delete highlighted",
+            command=lambda: asyncio.ensure_future(self.del_external_mod()),
+            themed=self.themed,
         )
 
         self.widgets: List[CustomWidget] = [self.btn_add, self.btn_rem, self.btn_add_version, self.listbox]
@@ -234,7 +252,9 @@ class ExternalPanel(LabelFrame):
             "add_mod_in_memory": self.add_mod_to_memory,
             "del_mod_from_memory": self.del_mod_from_memory,
         }
-        mod_addition_frame: ModAdderWindow = ModAdderWindow(top_level, "external mod adder", callbacks=callbacks)
+        mod_addition_frame: ModAdderWindow = ModAdderWindow(
+            top_level, "external mod adder", callbacks=callbacks, themed=self.themed
+        )
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()
         top_level.title("External mod addition")
@@ -289,7 +309,7 @@ class ExternalPanel(LabelFrame):
                 "del_mod_from_memory": self.del_mod_from_memory,
             }
             mod_addition_frame: ModAdderWindow = ModAdderWindow(
-                top_level, "external version adder", callbacks=callbacks, mod_name=mod_name
+                top_level, "external version adder", callbacks=callbacks, mod_name=mod_name, themed=self.themed
             )
             mod_addition_frame.grid()
             mod_addition_frame.update_widget()

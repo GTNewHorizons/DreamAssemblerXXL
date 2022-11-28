@@ -1,6 +1,7 @@
 import asyncio
+from tkinter import LabelFrame
 from tkinter.messagebox import showerror, showinfo, showwarning
-from tkinter.ttk import LabelFrame
+from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import Position
@@ -16,7 +17,7 @@ from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 
-class GithubPanel(LabelFrame):
+class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
     """
     Main frame widget for the github mods' management.
     """
@@ -27,6 +28,7 @@ class GithubPanel(LabelFrame):
         frame_name: str,
         callbacks: Dict[str, Any],
         width: Optional[int] = None,
+        themed: bool = False,
         **kwargs: Any,
     ):
         """
@@ -36,9 +38,14 @@ class GithubPanel(LabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
+        :param themed: for those who prefered themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
-        LabelFrame.__init__(self, master, text=frame_name, **kwargs)
+        self.themed = themed
+        if themed:
+            LabelFrame.__init__(self, master, text=frame_name, **kwargs)
+        else:
+            TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
         # Early widget:
         mod_info_callbacks: Dict[str, Any] = {
@@ -69,14 +76,22 @@ class GithubPanel(LabelFrame):
         # Widgets
 
         self.modpack_version: CustomCombobox = CustomCombobox(
-            self, label_text="Modpack version:", values=[], position_sticky_label=None, position_sticky_combobox=None
+            self,
+            label_text="Modpack version:",
+            values=[],
+            position_sticky_label=None,
+            position_sticky_combobox=None,
+            themed=self.themed,
         )
         self.modpack_version.set_on_selection_callback(
             lambda event: callbacks["set_modpack_version"](self.modpack_version.get())
         )
 
         self.btn_refresh_modpack: CustomButton = CustomButton(
-            self, text="Refresh modpack assets", command=lambda: asyncio.ensure_future(self.refresh_modpack_assets())
+            self,
+            text="Refresh modpack assets",
+            command=lambda: asyncio.ensure_future(self.refresh_modpack_assets()),
+            themed=self.themed,
         )
 
         self.repository: TextEntry = TextEntry(
@@ -85,19 +100,26 @@ class GithubPanel(LabelFrame):
             hide_label=False,
             position_sticky_entry=None,
             position_sticky_label=None,
+            themed=self.themed,
         )
 
         self.btn_add: CustomButton = CustomButton(
-            self, text="Add repository", command=lambda: asyncio.ensure_future(self.add_repo())
+            self, text="Add repository", command=lambda: asyncio.ensure_future(self.add_repo()), themed=self.themed
         )
         self.btn_rem: CustomButton = CustomButton(
-            self, text="Delete highlighted", command=lambda: asyncio.ensure_future(self.del_repo())
+            self, text="Delete highlighted", command=lambda: asyncio.ensure_future(self.del_repo()), themed=self.themed
         )
         self.btn_refresh: CustomButton = CustomButton(
-            self, text="Refresh repository data", command=lambda: asyncio.ensure_future(self.refresh_repo())
+            self,
+            text="Refresh repository data",
+            command=lambda: asyncio.ensure_future(self.refresh_repo()),
+            themed=self.themed,
         )
         self.btn_refresh_all: CustomButton = CustomButton(
-            self, text="Refresh all the repositories", command=lambda: asyncio.ensure_future(self.refresh_all())
+            self,
+            text="Refresh all the repositories",
+            command=lambda: asyncio.ensure_future(self.refresh_all()),
+            themed=self.themed,
         )
 
         self.listbox: CustomListbox = CustomListbox(
@@ -105,6 +127,7 @@ class GithubPanel(LabelFrame):
             "List of availiable github mods:",
             exportselection=False,
             on_selection=lambda event: asyncio.ensure_future(self.on_listbox_click(event)),
+            themed=self.themed,
         )
 
         self.widgets: List[CustomWidget] = [

@@ -1,12 +1,12 @@
-from tkinter import END, HORIZONTAL, VERTICAL, Listbox
-from tkinter.ttk import Frame, Label, Scrollbar
-from typing import Any, Callable, List, Optional, Tuple
+from tkinter import END, HORIZONTAL, VERTICAL, Frame, Label, Listbox, Scrollbar
+from tkinter.ttk import Frame as TtkFrame, Label as TtkLabel, Scrollbar as TtkScrollbar
+from typing import Any, Callable, List, Optional, Tuple, Union
 
 from gtnh.defs import Position
 from gtnh.gui.lib.custom_widget import CustomWidget
 
 
-class CustomListbox(Frame, CustomWidget):
+class CustomListbox(Frame, TtkFrame, CustomWidget):  # type: ignore
     def __init__(
         self,
         master: Any,
@@ -16,16 +16,20 @@ class CustomListbox(Frame, CustomWidget):
         height: int = 11,
         display_horizontal_scrollbar: bool = False,
         display_vertical_scrollbar: bool = True,
+        themed: bool = False,
         *args: Any,
         **kwargs: Any,
     ) -> None:
-        Frame.__init__(self, master, *args, **kwargs)
+        if themed:
+            TtkFrame.__init__(self, master, *args, **kwargs)
+        else:
+            Frame.__init__(self, master, *args, **kwargs)
         CustomWidget.__init__(self, text=label_text)
 
         self.display_horizontal_scrollbar: bool = display_horizontal_scrollbar
         self.display_vertical_scrollbar: bool = display_vertical_scrollbar
 
-        self.label: Label = Label(self, text=label_text)
+        self.label: Union[Label, TtkLabel] = TtkLabel(self, text=label_text) if themed else Label(self, text=label_text)
 
         self.listbox: Listbox = Listbox(self, exportselection=exportselection, height=height)
 
@@ -33,11 +37,15 @@ class CustomListbox(Frame, CustomWidget):
         if self.callback_on_selection is not None:
             self.listbox.bind("<<ListboxSelect>>", on_selection)
 
-        self.scrollbar_horizontal: Scrollbar = Scrollbar(self, orient=HORIZONTAL)
+        self.scrollbar_horizontal: Scrollbar = (
+            TtkScrollbar(self, orient=HORIZONTAL) if themed else Scrollbar(self, orient=HORIZONTAL)
+        )
         self.listbox.configure(xscrollcommand=self.scrollbar_horizontal.set)
         self.scrollbar_horizontal.configure(command=self.listbox.xview)
 
-        self.scrollbar_vertical: Scrollbar = Scrollbar(self, orient=VERTICAL)
+        self.scrollbar_vertical: Scrollbar = (
+            TtkScrollbar(self, orient=VERTICAL) if themed else Scrollbar(self, orient=VERTICAL)
+        )
         self.listbox.configure(yscrollcommand=self.scrollbar_vertical.set)
         self.scrollbar_vertical.configure(command=self.listbox.yview)
 

@@ -1,4 +1,5 @@
-from tkinter.ttk import LabelFrame
+from tkinter import LabelFrame
+from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Dict, List, Optional
 
 from gtnh.defs import Position
@@ -6,11 +7,17 @@ from gtnh.gui.modpack.button_array import ButtonArray
 from gtnh.gui.modpack.release_list import ReleaseList
 
 
-class ModpackPanel(LabelFrame):
+class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
     """Main frame for managing the releases."""
 
     def __init__(
-        self, master: Any, frame_name: str, callbacks: Dict[str, Any], width: Optional[int] = None, **kwargs: Any
+        self,
+        master: Any,
+        frame_name: str,
+        callbacks: Dict[str, Any],
+        width: Optional[int] = None,
+        themed: bool = False,
+        **kwargs: Any,
     ) -> None:
         """
         Constructor of the ModpackPanel class.
@@ -19,9 +26,14 @@ class ModpackPanel(LabelFrame):
         :param frame_name: the name displayed in the framebox
         :param callbacks: a dict of callbacks passed to this instance
         :param width: the width to harmonize widgets in characters
+        :param themed: for those who prefered themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
-        LabelFrame.__init__(self, master, text=frame_name, **kwargs)
+        self.themed = themed
+        if themed:
+            TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
+        else:
+            LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0
         self.ypadding: int = 0
         self.width: int = width if width is not None else 20  # arbitrary value
@@ -37,7 +49,9 @@ class ModpackPanel(LabelFrame):
             "generate_nightly": self.update_nightly,
             "update_assets": callbacks["update_assets"],
         }
-        self.action_frame: ButtonArray = ButtonArray(self, frame_name="Availiable tasks", callbacks=action_callbacks)
+        self.action_frame: ButtonArray = ButtonArray(
+            self, frame_name="Availiable tasks", callbacks=action_callbacks, themed=self.themed
+        )
 
         modpack_list_callbacks: Dict[str, Any] = {
             "load": callbacks["load"],
@@ -46,7 +60,7 @@ class ModpackPanel(LabelFrame):
         }
 
         self.modpack_list: ReleaseList = ReleaseList(
-            self, frame_name="Modpack Versions", callbacks=modpack_list_callbacks
+            self, frame_name="Modpack Versions", callbacks=modpack_list_callbacks, themed=self.themed
         )
 
     def update_nightly(self) -> None:

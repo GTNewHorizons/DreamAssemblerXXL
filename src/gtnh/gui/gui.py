@@ -1,7 +1,7 @@
 import asyncio
 import sys
 from pathlib import Path
-from tkinter import DISABLED, NORMAL, PhotoImage, Widget
+from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
 from tkinter.messagebox import showerror, showinfo, showwarning
 from typing import Any, Callable, Dict, List, Optional, Set, Tuple, Union
 
@@ -48,8 +48,8 @@ class App:
     Wrapper class to start the GUI.
     """
 
-    def __init__(self) -> None:
-        self.instance: Window = Window()
+    def __init__(self, themed:bool=False) -> None:
+        self.instance: Window = Window(themed=themed)
 
     async def exec(self) -> None:
         """
@@ -58,17 +58,23 @@ class App:
         await self.instance.run()
 
 
-class Window(ThemedTk):
+class Window(ThemedTk, Tk):
     """
     Main class for the GUI.
     """
 
-    def __init__(self) -> None:
+    def __init__(self, themed: bool = False) -> None:
         """
         Constructor of the Window class.
+
+        :param themed: for those who prefered themed versions of the widget. Default to false.
         """
-        theme = "winnative" if sys.platform == "win32" else "plastik"
-        ThemedTk.__init__(self, theme=theme)
+        self.themed = themed
+        if themed:
+            theme = "winnative" if sys.platform == "win32" else "plastik"
+            ThemedTk.__init__(self, theme=theme)
+        else:
+            Tk.__init__(self)
         self._client: Optional[httpx.AsyncClient] = None
         self._modpack_manager: Optional[GTNHModpackManager] = None
         self._run: bool = True
@@ -157,7 +163,7 @@ class Window(ThemedTk):
         }
 
         self.external_mod_frame: ExternalPanel = ExternalPanel(
-            self, frame_name="External mod data", callbacks=external_frame_callbacks
+            self, frame_name="External mod data", callbacks=external_frame_callbacks, themed=self.themed
         )
 
         exclusion_client_callbacks: Dict[str, Any] = {
@@ -167,7 +173,7 @@ class Window(ThemedTk):
 
         # frame for the client file exclusions
         self.exclusion_frame_client: ExclusionPanel = ExclusionPanel(
-            self, "Client exclusions", callbacks=exclusion_client_callbacks
+            self, "Client exclusions", callbacks=exclusion_client_callbacks, themed=self.themed
         )
 
         exclusion_server_callbacks: Dict[str, Any] = {
@@ -177,7 +183,7 @@ class Window(ThemedTk):
 
         # frame for the server side exclusions
         self.exclusion_frame_server: ExclusionPanel = ExclusionPanel(
-            self, "Server exclusions", callbacks=exclusion_server_callbacks
+            self, "Server exclusions", callbacks=exclusion_server_callbacks, themed=self.themed
         )
 
         width: int = self.github_panel.get_width()
@@ -947,4 +953,4 @@ class Window(ThemedTk):
 
 
 if __name__ == "__main__":
-    asyncio.run(App().exec())
+    asyncio.run(App(themed=False).exec())
