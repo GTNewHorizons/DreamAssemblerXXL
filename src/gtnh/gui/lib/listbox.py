@@ -13,7 +13,7 @@ class CustomListbox(Frame, TtkFrame, CustomWidget):  # type: ignore
         label_text: str,
         exportselection: bool = False,
         on_selection: Optional[Callable[[Any], Any]] = None,
-        height: int = 11,
+        height: int = 8,
         display_horizontal_scrollbar: bool = False,
         display_vertical_scrollbar: bool = True,
         themed: bool = False,
@@ -100,7 +100,7 @@ class CustomListbox(Frame, TtkFrame, CustomWidget):  # type: ignore
         x = 0
         y = 0
         self.label.grid(row=x + 0, column=y + 0, sticky=Position.LEFT)
-        self.listbox.grid(row=x + 1, column=y + 0, columnspan=1, sticky=Position.HORIZONTAL)
+        self.listbox.grid(row=x + 1, column=y + 0, columnspan=1, sticky=Position.ALL)
         if self.display_horizontal_scrollbar:
             self.scrollbar_horizontal.grid(row=x + 2, column=y + 0, sticky=Position.HORIZONTAL)
         if self.display_vertical_scrollbar:

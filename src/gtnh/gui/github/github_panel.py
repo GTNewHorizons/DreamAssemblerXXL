@@ -160,8 +160,6 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         for widget in self.widgets:
             widget.configure(width=self.width)
 
-        print(f"internal width: {self.width}, entry width: {self.repository.entry['width']}")
-
     def set_width(self, width: int) -> None:
         """
         Method to set the widgets' width.

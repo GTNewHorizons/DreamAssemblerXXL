@@ -67,7 +67,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             label_text="External mods:",
             exportselection=False,
             on_selection=lambda event: asyncio.ensure_future(self.on_listbox_click(event)),
-            display_horizontal_scrollbar=True,
+            display_horizontal_scrollbar=False,
             themed=self.themed,
         )
 

@@ -72,7 +72,10 @@ class TextEntry(Frame, TtkFrame, CustomWidget):  # type: ignore
                     width=kwargs["width"] + 6
                 )  # +6 to compensate for the char losts because inner grid manager compared to outer grid manager
             else:
-                self.entry.configure(width=kwargs["width"])
+                self.entry.configure(
+                    width=kwargs["width"] + 4
+                )  # +4 to compensate for the char losts because inner grid manager compared to outer grid manager
+
             del kwargs["width"]
         if "state" in kwargs:
             self.entry.configure(state=kwargs["state"])

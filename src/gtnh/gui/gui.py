@@ -856,19 +856,35 @@ class Window(ThemedTk, Tk):
         for i in range(columns):
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
-        # display child widgets
-        self.github_panel.grid(row=x, column=y, rowspan=1, sticky=Position.ALL)
-        self.modpack_list_frame.grid(row=x, column=y + 1, columnspan=4, sticky=Position.ALL)
-        self.external_mod_frame.grid(row=x + 1, column=y, rowspan=1, sticky=Position.ALL)
-        self.exclusion_frame_client.grid(row=x + 1, column=y + 1, columnspan=2, sticky=Position.ALL)
-        self.exclusion_frame_server.grid(row=x + 1, column=y + 3, columnspan=2, sticky=Position.ALL)
+        debug: bool = False
+        if debug:
+            # display child widgets
+            # self.github_panel.grid(row=x, column=y, rowspan=1, sticky=Position.ALL)
+            self.modpack_list_frame.grid(row=x, column=y + 1, columnspan=4, sticky=Position.ALL)
+            # self.external_mod_frame.grid(row=x + 1, column=y, rowspan=1, sticky=Position.ALL)
+            # self.exclusion_frame_client.grid(row=x + 1, column=y + 1, columnspan=2, sticky=Position.ALL)
+            # self.exclusion_frame_server.grid(row=x + 1, column=y + 3, columnspan=2, sticky=Position.ALL)
+            #
+            # child widget's inner display
+            # self.github_panel.show()
+            self.modpack_list_frame.show()
+            # self.external_mod_frame.show()
+            # self.exclusion_frame_client.show()
+            # self.exclusion_frame_server.show()
+        else:
+            # display child widgets
+            self.github_panel.grid(row=x, column=y, rowspan=1, sticky=Position.ALL)
+            self.modpack_list_frame.grid(row=x, column=y + 1, columnspan=4, sticky=Position.ALL)
+            self.external_mod_frame.grid(row=x + 1, column=y, rowspan=1, sticky=Position.ALL)
+            self.exclusion_frame_client.grid(row=x + 1, column=y + 1, columnspan=2, sticky=Position.ALL)
+            self.exclusion_frame_server.grid(row=x + 1, column=y + 3, columnspan=2, sticky=Position.ALL)
 
-        # child widget's inner display
-        self.github_panel.show()
-        self.external_mod_frame.show()
-        self.modpack_list_frame.show()
-        self.exclusion_frame_client.show()
-        self.exclusion_frame_server.show()
+            # child widget's inner display
+            self.github_panel.show()
+            self.modpack_list_frame.show()
+            self.external_mod_frame.show()
+            self.exclusion_frame_client.show()
+            self.exclusion_frame_server.show()
 
     async def get_external_modlist(self) -> List[str]:
         """

@@ -2,7 +2,6 @@ from tkinter import Frame, Label, StringVar
 from tkinter.ttk import Frame as TtkFrame, Label as TtkLabel
 from typing import Any, Union
 
-from gtnh.defs import Position
 from gtnh.gui.lib.custom_widget import CustomWidget
 
 
@@ -18,7 +17,6 @@ class CustomLabel(Frame, TtkFrame, CustomWidget):  # type: ignore
 
         CustomWidget.__init__(self, text=label_text)
 
-        self.label: Union[Label, TtkLabel] = TtkLabel(self, text=label_text) if themed else Label(self, text=label_text)
         self.string_var: StringVar = StringVar(value=value)
         self.var_label: Union[Label, TtkLabel] = (
             TtkLabel(self, textvariable=self.string_var) if themed else Label(self, textvariable=self.string_var)
@@ -28,21 +26,18 @@ class CustomLabel(Frame, TtkFrame, CustomWidget):  # type: ignore
         return self.string_var.get()
 
     def set(self, value: str) -> None:
-        self.string_var.set(value)
+        self.string_var.set(self.label_text.format(value))
 
     def grid_forget(self, *args: Any, **kwargs: Any) -> None:
-        self.label.grid_forget()
         self.var_label.grid_forget()
         super().grid_forget()
 
     def grid(self, *args: Any, **kwargs: Any) -> None:
-        self.label.grid(row=0, column=0, sticky=Position.LEFT)
-        self.var_label.grid(row=0, column=1, sticky=Position.HORIZONTAL)
+        self.var_label.grid(row=0, column=0)
         super().grid(*args, **kwargs)
 
     def configure(self, *args: Any, **kwargs: Any) -> None:  # type: ignore
         if "width" in kwargs:
-            self.label.configure(width=kwargs["width"])
             self.var_label.configure(width=kwargs["width"])
             del kwargs["width"]
         super().configure(*args, **kwargs)

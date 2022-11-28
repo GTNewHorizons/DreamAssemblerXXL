@@ -41,11 +41,11 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         self.xpadding: int = 0
         self.callbacks: Dict[str, Any] = callbacks
 
-        self.mod_name: CustomLabel = CustomLabel(self, label_text="Mod name:", value="", themed=self.themed)
+        self.mod_name: CustomLabel = CustomLabel(self, label_text="Mod name: {0}", value="", themed=self.themed)
         self.version: CustomCombobox = CustomCombobox(
             self, label_text="Mod version:", values=[], on_selection=self.set_mod_version, themed=self.themed
         )
-        self.license: CustomLabel = CustomLabel(self, label_text="Mod license:", value="", themed=self.themed)
+        self.license: CustomLabel = CustomLabel(self, label_text="Mod license: {0}", value="", themed=self.themed)
         self.side: CustomCombobox = CustomCombobox(
             self, label_text="Mod side:", values=[], on_selection=self.set_mod_side, themed=self.themed
         )

@@ -62,7 +62,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
 
         self.modpack: TextEntry = TextEntry(self, "", hide_label=True, themed=self.themed)
 
-        self.loaded_version: CustomLabel = CustomLabel(self, label_text="Loaded version:", value="", themed=self.themed)
+        self.loaded_version: CustomLabel = CustomLabel(self, label_text="Loaded version: {0}", value="", themed=self.themed)
 
         self.widgets: List[CustomWidget] = [
             self.listbox,
@@ -88,12 +88,10 @@ class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
 
         :return: None
         """
-        self.btn_load.configure(width=self.width)
-        self.btn_del.configure(width=self.width)
-        self.btn_add.configure(width=self.width)
-
         for widget in self.widgets:
             widget.configure(width=self.width)
+
+        print(f"internal width: {self.width}, entry width: {self.modpack.entry['width']}")
 
     def set_width(self, width: int) -> None:
         """
@@ -141,7 +139,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
         """
         x: int = 0
         y: int = 0
-        rows: int = 3
+        rows: int = 1
         columns: int = 2
 
         for i in range(columns):
@@ -150,12 +148,12 @@ class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
         for i in range(rows):
             self.rowconfigure(i, weight=1, pad=self.xpadding)
 
-        self.listbox.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
-        self.loaded_version.grid(row=x + 1, column=y, columnspan=3, sticky=Position.LEFT)
-        self.btn_load.grid(row=x + 2, column=y, sticky=Position.DOWN_RIGHT)
-        self.btn_del.grid(row=x + 2, column=y + 1, columnspan=2, sticky=Position.DOWN_LEFT)
-        self.modpack.grid(row=x + 3, column=y, sticky=Position.UP_RIGHT)
-        self.btn_add.grid(row=x + 3, column=y + 1, columnspan=2, sticky=Position.UP_LEFT)
+        self.listbox.grid(row=x, column=y, columnspan=2, sticky=Position.ALL)
+        self.loaded_version.grid(row=x + 1, column=y)
+        self.btn_load.grid(row=x + 2, column=y)
+        self.btn_del.grid(row=x + 2, column=y + 1)
+        self.modpack.grid(row=x + 3, column=y)
+        self.btn_add.grid(row=x + 3, column=y + 1)
 
         self.update_idletasks()
 
