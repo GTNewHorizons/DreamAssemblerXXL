@@ -1,10 +1,10 @@
-from tkinter import Frame, Label, LabelFrame, StringVar
-from tkinter.ttk import Frame as TtkFrame, Label as TtkLabel, LabelFrame as TtkLabelFrame, Progressbar
+from tkinter import Frame, LabelFrame
+from tkinter.ttk import Frame as TtkFrame, LabelFrame as TtkLabelFrame
 from typing import Any, Dict, List, Optional, Union
 
-from gtnh.defs import Position
 from gtnh.gui.lib.button import CustomButton
 from gtnh.gui.lib.custom_widget import CustomWidget
+from gtnh.gui.lib.progress_bar import CustomProgressBar
 
 
 class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
@@ -69,28 +69,14 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
             self.frame_btn, text="Zip server archive", command=callbacks["server_zip"], themed=self.themed
         )
 
-        self.label_spacer: Union[Label, TtkLabel] = TtkLabel(self, text="") if themed else Label(self, text="")
-
         progress_bar_length: int = 500
 
-        self.pb_global: Progressbar = Progressbar(
-            self, orient="horizontal", mode="determinate", length=progress_bar_length
-        )
-        self.sv_pb_global: StringVar = StringVar(self, value="")
-        self.label_pb_global: Union[Label, TtkLabel] = (
-            TtkLabel(self, textvariable=self.sv_pb_global, width=100)
-            if themed
-            else Label(self, textvariable=self.sv_pb_global, width=100)
+        self.progress_bar_global = CustomProgressBar(
+            self, label_text="test global", progress_bar_length=progress_bar_length
         )
 
-        self.pb_current_task: Progressbar = Progressbar(
-            self, orient="horizontal", mode="determinate", length=progress_bar_length
-        )
-        self.sv_pb_current_task: StringVar = StringVar(self, value="")
-        self.label_pb_current_task: Union[Label, TtkLabel] = (
-            TtkLabel(self, textvariable=self.sv_pb_current_task, width=100)
-            if themed
-            else Label(self, textvariable=self.sv_pb_current_task, width=100)
+        self.progress_bar_current_task = CustomProgressBar(
+            self, label_text="test current task", progress_bar_length=progress_bar_length
         )
 
         self.widgets: List[CustomWidget] = [
@@ -103,10 +89,19 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
             self.btn_generate_all,
             self.btn_client_zip,
             self.btn_server_zip,
+            self.progress_bar_global,
+            self.progress_bar_current_task,
         ]
         self.width: int = (
             width if width is not None else max([widget.get_description_size() for widget in self.widgets])
         )
+
+        rows: int = 5
+
+        for i in range(rows):
+            self.rowconfigure(i, weight=1, pad=self.xpadding)
+
+        self.columnconfigure(0, weight=1, pad=self.ypadding)
 
         self.update_widget()
 
@@ -119,50 +114,6 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         """
         pass
 
-    def update_current_task_progress_bar(self, progress: float, data: str) -> None:
-        """
-        Callback to update the task bar showing the current task's progress.
-
-        :param progress: value to add to the progress
-        :param data: what is currently done
-        :return: None
-        """
-        self.pb_current_task["value"] += progress
-        self.sv_pb_current_task.set(data)
-        self.update_idletasks()
-
-    def reset_current_task_progress_bar(self) -> None:
-        """
-        Callback to reset the progress bar for the current task.
-
-        :return: None
-        """
-        self.pb_current_task["value"] = 0
-        self.sv_pb_current_task.set("")
-        self.update_idletasks()
-
-    def update_global_progress_bar(self, progress: float, data: str) -> None:
-        """
-        Callback to update the task bar showing the global progress.
-
-        :param progress: value to add to the progress
-        :param data: what is currently done
-        :return: None
-        """
-        self.pb_global["value"] += progress
-        self.sv_pb_global.set(data)
-        self.update_idletasks()
-
-    def reset_global_progress_bar(self) -> None:
-        """
-        Callback to reset the progress bar for the global progress.
-
-        :return: None
-        """
-        self.pb_global["value"] = 0
-        self.sv_pb_global.set("")
-        self.update_idletasks()
-
     def show(self) -> None:
         """
         Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
@@ -171,32 +122,15 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         """
         x: int = 0
         y: int = 0
-        rows: int = 5
-        columns: int = 1
 
-        for i in range(rows):
-            self.rowconfigure(i, weight=1, pad=self.xpadding)
+        self.progress_bar_global.grid(row=x, column=y)
+        self.progress_bar_current_task.grid(row=x + 2, column=y)
 
-        self.rowconfigure(rows + 1, weight=3)  # allocate more space for the btn frame
-
-        for i in range(columns):
-            self.columnconfigure(i, weight=1, pad=self.ypadding)
-
-        self.label_pb_global.grid(row=x, column=y)
-        self.pb_global.grid(row=x + 1, column=y)
-        self.label_pb_current_task.grid(row=x + 2, column=y)
-        self.pb_current_task.grid(row=x + 3, column=y)
-
-        self.label_spacer.grid(row=x + 4, column=y)
-
-        self.frame_btn.grid(row=x + 5, column=y, sticky=Position.UP)
+        self.frame_btn.grid(row=x + 4, column=y)
 
         # grid withing the self.fram_btn
         pad: int = 3
-        frame_rows: int = 3
         frame_columns: int = 3
-        for i in range(frame_rows):
-            self.frame_btn.rowconfigure(i, weight=1, pad=pad)
 
         for i in range(frame_columns):
             self.frame_btn.columnconfigure(i, weight=1, pad=pad)
@@ -223,6 +157,11 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         """
         for widget in self.widgets:
             widget.configure(width=self.width)
+
+        # manual override
+        length_coef: int = 4  # coef used arbitrarily to demultiply the length of the labels for progress bars
+        self.progress_bar_global.configure(width=length_coef * self.width)
+        self.progress_bar_current_task.configure(width=length_coef * self.width)
 
     def set_width(self, width: int) -> None:
         """

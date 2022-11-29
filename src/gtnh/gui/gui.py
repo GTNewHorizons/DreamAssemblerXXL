@@ -48,7 +48,7 @@ class App:
     Wrapper class to start the GUI.
     """
 
-    def __init__(self, themed:bool=False) -> None:
+    def __init__(self, themed: bool = False) -> None:
         self.instance: Window = Window(themed=themed)
 
     async def exec(self) -> None:
@@ -121,14 +121,14 @@ class Window(ThemedTk, Tk):
 
         self.progress_callback: Callable[
             [float, str], None
-        ] = self.modpack_list_frame.action_frame.update_current_task_progress_bar
+        ] = self.modpack_list_frame.action_frame.progress_bar_current_task.add_progress
         self.global_callback: Callable[
             [float, str], None
-        ] = self.modpack_list_frame.action_frame.update_global_progress_bar
-        self.global_reset_callback: Callable[[], None] = self.modpack_list_frame.action_frame.reset_global_progress_bar
+        ] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        self.global_reset_callback: Callable[[], None] = self.modpack_list_frame.action_frame.progress_bar_global.reset
         self.current_task_reset_callback: Callable[
             [], None
-        ] = self.modpack_list_frame.action_frame.reset_current_task_progress_bar
+        ] = self.modpack_list_frame.action_frame.progress_bar_current_task.reset
 
         # frame for the github mods
         github_frame_callbacks: Dict[str, Any] = {
@@ -265,7 +265,9 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.update_global_progress_bar
+        global_callback: Callable[
+            [float, str], None
+        ] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
 
         try:
             self.set_progress(100 / 2)
@@ -351,7 +353,9 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.update_global_progress_bar
+        global_callback: Callable[
+            [float, str], None
+        ] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
         try:
             self.trigger_toggle()
 
@@ -752,7 +756,7 @@ class Window(ThemedTk, Tk):
         """
         Method used to strip the disabled mods from any release improperly generated during its loading.
 
-        :param gtnh_modpack: the modpack manager instance. It is passed externally to make this function synced
+        :param release: the target release
         :return: the release with the stripped disabled mods
         """
         # todo: create a new instance for release object and edit it instead, because mutating args is bad mkay?

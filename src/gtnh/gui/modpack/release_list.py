@@ -62,7 +62,9 @@ class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
 
         self.modpack: TextEntry = TextEntry(self, "", hide_label=True, themed=self.themed)
 
-        self.loaded_version: CustomLabel = CustomLabel(self, label_text="Loaded version: {0}", value="", themed=self.themed)
+        self.loaded_version: CustomLabel = CustomLabel(
+            self, label_text="Loaded version: {0}", value="", themed=self.themed
+        )
 
         self.widgets: List[CustomWidget] = [
             self.listbox,
