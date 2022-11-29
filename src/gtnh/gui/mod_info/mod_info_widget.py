@@ -2,7 +2,7 @@ from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Dict, List, Optional
 
-from gtnh.defs import Position, Side
+from gtnh.defs import Side
 from gtnh.gui.lib.CustomLabel import CustomLabel
 from gtnh.gui.lib.combo_box import CustomCombobox
 from gtnh.gui.lib.custom_widget import CustomWidget
@@ -55,11 +55,11 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
             width if width is not None else max([widget.get_description_size() for widget in self.widgets])
         )
 
-    def set_mod_side(self, event: Any) -> None:
+    def set_mod_side(self, _: Any) -> None:
         """
         Callback used when the user selects a mod side.
 
-        :param event: the tkinter event passed by the tkinter in the Callback (unused)
+        :param _: the tkinter event passed by the tkinter in the Callback (unused)
         :return: None
         """
         mod_name: str = self.mod_name.get()
@@ -68,11 +68,11 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         side: str = self.side.get()
         self.callbacks["set_mod_side"](mod_name, side)
 
-    def set_mod_version(self, event: Any) -> None:
+    def set_mod_version(self, _: Any) -> None:
         """
         Callback used when a mod version is being set by the user.
 
-        :param event: the tkinter event passed by the tkinter in the Callback (unused)
+        :param _: the tkinter event passed by the tkinter in the Callback (unused)
         :return: None
         """
         if self.side.get() not in [
@@ -139,7 +139,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
 
         :return: None
         """
-        rows: int = 4
+        rows: int = len(self.widgets)
         columns: int = 1
 
         for i in range(rows):
@@ -149,7 +149,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
         for i, widget in enumerate(self.widgets):
-            widget.grid(row=i, column=0, sticky=Position.LEFT)
+            widget.grid(row=i, column=0)
 
         self.update_idletasks()
 

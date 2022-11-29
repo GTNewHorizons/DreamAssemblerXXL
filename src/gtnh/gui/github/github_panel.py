@@ -213,8 +213,9 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         """
         x: int = 0
         y: int = 0
-        # rows: int = 0
+
         columns: int = 2
+        self.rowconfigure(x + 2, weight=1)
 
         for i in range(columns):
             self.columnconfigure(i, weight=1)
@@ -222,7 +223,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         self.modpack_version.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
         self.btn_refresh_modpack.grid(row=x + 1, column=y + 1)
 
-        self.listbox.grid(row=x + 2, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+        self.listbox.grid(row=x + 2, column=y, columnspan=2, sticky=Position.ALL)
 
         self.repository.grid(row=x + 3, column=y, columnspan=2, sticky=Position.HORIZONTAL)
         #
@@ -230,8 +231,8 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         self.btn_rem.grid(row=x + 4, column=y + 1, columnspan=1)
         self.btn_refresh.grid(row=x + 5, column=y + 1, columnspan=1)
         self.btn_refresh_all.grid(row=x + 5, column=y)
-        #
-        self.mod_info_frame.grid(row=x + 6, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+
+        self.mod_info_frame.grid(row=x + 6, column=y, columnspan=2, sticky=Position.ALL)
 
         self.mod_info_frame.show()
 
