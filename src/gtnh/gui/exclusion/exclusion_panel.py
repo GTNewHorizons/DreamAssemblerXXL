@@ -63,6 +63,8 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             width if width is not None else max([widget.get_description_size() for widget in self.widgets])
         )
 
+        self.rowconfigure(0, weight=1)
+
         self.columnconfigure(0, weight=1, pad=self.ypadding)
         self.columnconfigure(1, weight=1, pad=self.ypadding)
 
@@ -166,7 +168,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         x: int = 0
         y: int = 0
 
-        self.listbox.grid(row=x, column=y, columnspan=2, sticky=Position.HORIZONTAL)
+        self.listbox.grid(row=x, column=y, columnspan=2, sticky=Position.ALL)
         self.exclusion.grid(row=x + 1, column=y, columnspan=2, stick=Position.HORIZONTAL)
         self.btn_add.grid(row=x + 2, column=y, sticky=Position.HORIZONTAL)
         self.btn_del.grid(row=x + 2, column=y + 1, sticky=Position.HORIZONTAL)
