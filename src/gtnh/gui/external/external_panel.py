@@ -5,14 +5,35 @@ from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
 from gtnh.defs import Position
-from gtnh.gui.external.mod_adder_window import ModAdderWindow
+from gtnh.gui.external.mod_adder_window import ModAdderCallback, ModAdderWindow
 from gtnh.gui.lib.button import CustomButton
 from gtnh.gui.lib.custom_widget import CustomWidget
 from gtnh.gui.lib.listbox import CustomListbox
-from gtnh.gui.mod_info.mod_info_widget import ModInfoWidget
+from gtnh.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import ExternalModInfo
 from gtnh.modpack_manager import GTNHModpackManager
+
+
+class ExternalPanelCallback(ModInfoCallback):
+    def __init__(
+        self,
+        set_mod_version: Callable[[str, str], None],
+        set_mod_side: Callable[[str, str], None],
+        get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
+        get_external_mods_callback: Callable[[], Dict[str, str]],
+        toggle_freeze: Callable[[], None],
+        add_mod_in_memory: Callable[[str, str], None],
+        del_mod_in_memory: Callable[[str], None],
+        refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]],
+    ):
+        ModInfoCallback.__init__(self, set_mod_version=set_mod_version, set_mod_side=set_mod_side)
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = get_gtnh_callback
+        self.get_external_mods_callback: Callable[[], Dict[str, str]] = get_external_mods_callback
+        self.toggle_freeze: Callable[[], None] = toggle_freeze
+        self.add_mod_in_memory: Callable[[str, str], None] = add_mod_in_memory
+        self.del_mod_in_memory: Callable[[str], None] = del_mod_in_memory
+        self.refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]] = refresh_external_modlist
 
 
 class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
@@ -22,7 +43,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         self,
         master: Any,
         frame_name: str,
-        callbacks: Dict[str, Any],
+        callbacks: ExternalPanelCallback,
         width: Optional[int] = None,
         themed: bool = False,
         **kwargs: Any,
@@ -45,22 +66,25 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         else:
             TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
-        mod_info_callbacks: Dict[str, Any] = {
-            "set_mod_version": callbacks["set_external_mod_version"],
-            "set_mod_side": callbacks["set_external_mod_side"],
-        }
-        self.mod_info_frame: ModInfoWidget = ModInfoWidget(
-            self, frame_name="External mod info", callbacks=mod_info_callbacks
-        )
+        self.callbacks = callbacks
+
+        self.mod_info_frame: ModInfoWidget = ModInfoWidget(self, frame_name="External mod info", callbacks=callbacks)
 
         # start
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
-        self.get_external_mods_callback: Callable[[], Dict[str, str]] = callbacks["get_external_mods"]
-        self.toggle_freeze: Callable[[], None] = callbacks["freeze"]
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks.get_gtnh_callback
+        self.get_external_mods_callback: Callable[[], Dict[str, str]] = callbacks.get_external_mods_callback
+        self.toggle_freeze: Callable[[], None] = callbacks.toggle_freeze
+        self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_in_memory
+        self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_in_memory
+        self.refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]] = callbacks.refresh_external_modlist
+
         self.mod_info_callback: Callable[[Any], None] = self.mod_info_frame.populate_data
-        self.add_mod_to_memory: Callable[[str, str], None] = callbacks["add_mod_in_memory"]
-        self.del_mod_from_memory: Callable[[str], None] = callbacks["del_mod_in_memory"]
-        self.refresh_external_modlist: Callable[[], None] = callbacks["refresh_external_mods"]
+
+        self.mod_adder_callbacks: ModAdderCallback = ModAdderCallback(
+            get_gtnh_callback=self.get_gtnh_callback,
+            add_mod_to_memory=self.add_mod_to_memory,
+            del_mod_from_memory=self.del_mod_from_memory,
+        )
 
         self.listbox: CustomListbox = CustomListbox(
             self,
@@ -133,7 +157,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and all its childs
+        Method to update the widget and update_all its childs
 
         :return: None
         """
@@ -145,7 +169,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and all its childs
+        Method to hide the widget and update_all its childs
         :return None:
         """
         for widget in self.widgets:
@@ -247,13 +271,9 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
                 asyncio.ensure_future(self.refresh_external_modlist())  # type: ignore
 
         top_level.bind("<Destroy>", close)
-        callbacks = {
-            "get_gtnh": self.get_gtnh_callback,
-            "add_mod_in_memory": self.add_mod_to_memory,
-            "del_mod_from_memory": self.del_mod_from_memory,
-        }
+
         mod_addition_frame: ModAdderWindow = ModAdderWindow(
-            top_level, "external mod adder", callbacks=callbacks, themed=self.themed
+            top_level, "external mod adder", callbacks=self.mod_adder_callbacks, themed=self.themed
         )
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()
@@ -303,13 +323,13 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
                     asyncio.ensure_future(self.refresh_external_modlist())  # type: ignore
 
             top_level.bind("<Destroy>", close)
-            callbacks = {
-                "get_gtnh": self.get_gtnh_callback,
-                "add_mod_in_memory": self.add_mod_to_memory,
-                "del_mod_from_memory": self.del_mod_from_memory,
-            }
+
             mod_addition_frame: ModAdderWindow = ModAdderWindow(
-                top_level, "external version adder", callbacks=callbacks, mod_name=mod_name, themed=self.themed
+                top_level,
+                "external version adder",
+                callbacks=self.mod_adder_callbacks,
+                mod_name=mod_name,
+                themed=self.themed,
             )
             mod_addition_frame.grid()
             mod_addition_frame.update_widget()

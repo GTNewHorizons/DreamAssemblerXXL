@@ -11,10 +11,40 @@ from gtnh.gui.lib.combo_box import CustomCombobox
 from gtnh.gui.lib.custom_widget import CustomWidget
 from gtnh.gui.lib.listbox import CustomListbox
 from gtnh.gui.lib.text_entry import TextEntry
-from gtnh.gui.mod_info.mod_info_widget import ModInfoWidget
+from gtnh.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
+
+
+class GithubPanelCallback(ModInfoCallback):
+    def __init__(
+        self,
+        set_mod_version: Callable[[str, str], None],
+        set_mod_side: Callable[[str, str], None],
+        get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
+        get_github_mods_callback: Callable[[], Dict[str, str]],
+        update_current_task_progress_bar: Callable[[float, str], None],
+        update_global_progress_bar: Callable[[float, str], None],
+        reset_current_task_progress_bar: Callable[[], None],
+        reset_global_progress_bar: Callable[[], None],
+        add_mod_in_memory: Callable[[str, str], None],
+        del_mod_in_memory: Callable[[str], None],
+        set_modpack_version: Callable[[str], None],
+    ):
+        ModInfoCallback.__init__(self, set_mod_version=set_mod_version, set_mod_side=set_mod_side)
+
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = get_gtnh_callback
+        self.get_github_mods_callback: Callable[[], Dict[str, str]] = get_github_mods_callback
+        self.update_current_task_progress_bar: Callable[[float, str], None] = update_current_task_progress_bar
+
+        self.update_global_progress_bar: Callable[[float, str], None] = update_global_progress_bar
+        self.reset_current_task_progress_bar: Callable[[], None] = reset_current_task_progress_bar
+        self.reset_global_progress_bar: Callable[[], None] = reset_global_progress_bar
+
+        self.add_mod_in_memory: Callable[[str, str], None] = add_mod_in_memory
+        self.del_mod_in_memory: Callable[[str], None] = del_mod_in_memory
+        self.set_modpack_version: Callable[[str], None] = set_modpack_version
 
 
 class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
@@ -26,7 +56,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         self,
         master: Any,
         frame_name: str,
-        callbacks: Dict[str, Any],
+        callbacks: GithubPanelCallback,
         width: Optional[int] = None,
         themed: bool = False,
         **kwargs: Any,
@@ -48,27 +78,19 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
         # Early widget:
-        mod_info_callbacks: Dict[str, Any] = {
-            "set_mod_version": callbacks["set_github_mod_version"],
-            "set_mod_side": callbacks["set_github_mod_side"],
-        }
 
-        self.mod_info_frame: ModInfoWidget = ModInfoWidget(
-            self, frame_name="Github mod info", callbacks=mod_info_callbacks
-        )
+        self.mod_info_frame: ModInfoWidget = ModInfoWidget(self, frame_name="Github mod info", callbacks=callbacks)
 
         # Callbacks:
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
-        self.get_github_mods_callback: Callable[[], Dict[str, str]] = callbacks["get_github_mods"]
-        self.update_current_task_progress_bar: Callable[[float, str], None] = callbacks[
-            "update_current_task_progress_bar"
-        ]
-        self.update_global_progress_bar: Callable[[float, str], None] = callbacks["update_global_progress_bar"]
-        self.reset_current_task_progress_bar: Callable[[], None] = callbacks["reset_current_task_progress_bar"]
-        self.reset_global_progress_bar: Callable[[], None] = callbacks["reset_global_progress_bar"]
-
-        self.add_mod_to_memory: Callable[[str, str], None] = callbacks["add_mod_in_memory"]
-        self.del_mod_from_memory: Callable[[str], None] = callbacks["del_mod_in_memory"]
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks.get_gtnh_callback
+        self.get_github_mods_callback: Callable[[], Dict[str, str]] = callbacks.get_github_mods_callback
+        self.update_current_task_progress_bar: Callable[[float, str], None] = callbacks.update_current_task_progress_bar
+        self.update_global_progress_bar: Callable[[float, str], None] = callbacks.update_global_progress_bar
+        self.reset_current_task_progress_bar: Callable[[], None] = callbacks.reset_current_task_progress_bar
+        self.reset_global_progress_bar: Callable[[], None] = callbacks.reset_global_progress_bar
+        self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_in_memory
+        self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_in_memory
+        self.set_modpack_version: Callable[[str], None] = callbacks.set_modpack_version
 
         self.mod_info_callback: Callable[[Any], None] = self.mod_info_frame.populate_data
         self.reset_mod_info_callback: Callable[[], None] = self.mod_info_frame.reset
@@ -84,7 +106,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             themed=self.themed,
         )
         self.modpack_version.set_on_selection_callback(
-            lambda event: callbacks["set_modpack_version"](self.modpack_version.get())
+            lambda event: callbacks.set_modpack_version(self.modpack_version.get())
         )
 
         self.btn_refresh_modpack: CustomButton = CustomButton(
@@ -117,7 +139,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         )
         self.btn_refresh_all: CustomButton = CustomButton(
             self,
-            text="Refresh all the repositories",
+            text="Refresh update_all the repositories",
             command=lambda: asyncio.ensure_future(self.refresh_all()),
             themed=self.themed,
         )
@@ -181,7 +203,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and all its childs
+        Method to update the widget and update_all its childs
 
         :return: None
         """
@@ -193,7 +215,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and all its childs
+        Method to hide the widget and update_all its childs
         :return None:
         """
         self.mod_info_frame.grid_forget()
@@ -394,7 +416,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     async def refresh_all(self) -> None:
         """
-        Method used to refresh all the github mod assets.
+        Method used to refresh update_all the github mod assets.
 
         :return: None
         """

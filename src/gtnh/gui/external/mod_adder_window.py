@@ -15,6 +15,18 @@ from gtnh.models.mod_info import ExternalModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 
+class ModAdderCallback:
+    def __init__(
+        self,
+        get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
+        add_mod_to_memory: Callable[[str, str], None],
+        del_mod_from_memory: Callable[[str], None],
+    ):
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = get_gtnh_callback
+        self.add_mod_to_memory: Callable[[str, str], None] = add_mod_to_memory
+        self.del_mod_from_memory: Callable[[str], None] = del_mod_from_memory
+
+
 class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
     """
     Class handling the widgets for the toplevel window about the mod addition.
@@ -24,7 +36,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
         self,
         master: Toplevel,
         frame_name: str,
-        callbacks: Dict[str, Any],
+        callbacks: ModAdderCallback,
         width: Optional[int] = None,
         mod_name: Optional[str] = None,
         themed: bool = False,
@@ -51,9 +63,9 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
             TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
         self.master: Toplevel = master
-        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks["get_gtnh"]
-        self.add_mod_to_memory: Callable[[str, str], None] = callbacks["add_mod_in_memory"]
-        self.del_mod_from_memory: Callable[[str], None] = callbacks["del_mod_from_memory"]
+        self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks.get_gtnh_callback
+        self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_to_memory
+        self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_from_memory
 
         self.width: int = width or 50
 
@@ -343,7 +355,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and all its childs
+        Method to update the widget and update_all its childs
 
         :return: None
         """
@@ -353,7 +365,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and all its childs
+        Method to hide the widget and update_all its childs
         :return None:
         """
         self.mod_choice.grid_forget()

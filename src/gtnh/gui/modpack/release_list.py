@@ -1,7 +1,7 @@
 from tkinter import LabelFrame, simpledialog
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Dict, List, Optional
+from typing import Any, Callable, List, Optional
 
 from gtnh.defs import Position
 from gtnh.gui.lib.CustomLabel import CustomLabel
@@ -12,6 +12,19 @@ from gtnh.gui.lib.text_entry import TextEntry
 from gtnh.models.gtnh_release import GTNHRelease
 
 
+class ReleaseListCallback:
+    def __init__(
+        self,
+        load: Callable[[str], None],
+        delete: Callable[[str], None],
+        add: Callable[[str, str], None],
+    ):
+
+        self.load: Callable[[str], None] = load
+        self.delete: Callable[[str], None] = delete
+        self.add: Callable[[str, str], None] = add
+
+
 class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
     """Widget ruling the list of modpack versions"""
 
@@ -19,7 +32,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
         self,
         master: Any,
         frame_name: str,
-        callbacks: Dict[str, Any],
+        callbacks: ReleaseListCallback,
         width: Optional[int] = None,
         themed: bool = False,
         **kwargs: Any,
@@ -51,13 +64,13 @@ class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
         )
 
         self.btn_load: CustomButton = CustomButton(
-            self, text="Load version", command=lambda: self.btn_load_command(callbacks["load"]), themed=self.themed
+            self, text="Load version", command=lambda: self.btn_load_command(callbacks.load), themed=self.themed
         )
         self.btn_del: CustomButton = CustomButton(
-            self, text="Delete version", command=lambda: self.btn_del_command(callbacks["delete"]), themed=self.themed
+            self, text="Delete version", command=lambda: self.btn_del_command(callbacks.delete), themed=self.themed
         )
         self.btn_add: CustomButton = CustomButton(
-            self, text="Add / Update", command=lambda: self.btn_add_command(callbacks["add"]), themed=self.themed
+            self, text="Add / Update", command=lambda: self.btn_add_command(callbacks.add), themed=self.themed
         )
 
         self.modpack: TextEntry = TextEntry(self, "", hide_label=True, themed=self.themed)
@@ -115,7 +128,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and all its childs
+        Method to update the widget and update_all its childs
 
         :return: None
         """
@@ -125,7 +138,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and all its childs
+        Method to hide the widget and update_all its childs
         :return None:
         """
         for widget in self.widgets:

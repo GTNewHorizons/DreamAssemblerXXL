@@ -1,10 +1,42 @@
 from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Dict, List, Optional
+from typing import Any, Callable, List, Optional
 
 from gtnh.defs import Position
-from gtnh.gui.modpack.button_array import ButtonArray
-from gtnh.gui.modpack.release_list import ReleaseList
+from gtnh.gui.modpack.button_array import ButtonArray, ButtonArrayCallback
+from gtnh.gui.modpack.release_list import ReleaseList, ReleaseListCallback
+
+
+class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
+    def __init__(
+        self,
+        update_asset: Callable[[], None],
+        generate_nightly: Callable[[], None],
+        client_mmc: Callable[[], None],
+        client_zip: Callable[[], None],
+        server_zip: Callable[[], None],
+        client_curse: Callable[[], None],
+        client_modrinth: Callable[[], None],
+        client_technic: Callable[[], None],
+        update_all: Callable[[], None],
+        load: Callable[[str], None],
+        delete: Callable[[str], None],
+        add: Callable[[str, str], None],
+    ):
+        ButtonArrayCallback.__init__(
+            self,
+            update_asset=update_asset,
+            generate_nightly=generate_nightly,
+            client_mmc=client_mmc,
+            client_zip=client_zip,
+            server_zip=server_zip,
+            client_curse=client_curse,
+            client_modrinth=client_modrinth,
+            client_technic=client_technic,
+            update_all=update_all,
+        )
+
+        ReleaseListCallback.__init__(self, load=load, delete=delete, add=add)
 
 
 class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
@@ -14,7 +46,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         self,
         master: Any,
         frame_name: str,
-        callbacks: Dict[str, Any],
+        callbacks: ModpackPanelCallback,
         width: Optional[int] = None,
         themed: bool = False,
         **kwargs: Any,
@@ -37,30 +69,19 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         self.xpadding: int = 0
         self.ypadding: int = 0
         self.width: int = width if width is not None else 20  # arbitrary value
-        self.generate_nightly_callback: Callable[[], None] = callbacks["generate_nightly"]
-        action_callbacks: Dict[str, Any] = {
-            "client_cf": callbacks["client_curse"],
-            "client_modrinth": callbacks["client_modrinth"],
-            "client_mmc": callbacks["client_mmc"],
-            "client_technic": callbacks["client_technic"],
-            "client_zip": callbacks["client_zip"],
-            "server_zip": callbacks["server_zip"],
-            "generate_all": callbacks["all"],
-            "generate_nightly": self.update_nightly,
-            "update_assets": callbacks["update_assets"],
-        }
+
+        self.callbacks: ModpackPanelCallback = callbacks
+
         self.action_frame: ButtonArray = ButtonArray(
-            self, frame_name="Availiable tasks", callbacks=action_callbacks, themed=self.themed
+            self,
+            frame_name="Availiable tasks",
+            callbacks=self.callbacks,
+            update_nightly=self.update_nightly,
+            themed=self.themed,
         )
 
-        modpack_list_callbacks: Dict[str, Any] = {
-            "load": callbacks["load"],
-            "delete": callbacks["delete"],
-            "add": callbacks["add"],
-        }
-
         self.modpack_list: ReleaseList = ReleaseList(
-            self, frame_name="Modpack Versions", callbacks=modpack_list_callbacks, themed=self.themed
+            self, frame_name="Modpack Versions", callbacks=self.callbacks, themed=self.themed
         )
 
     def update_nightly(self) -> None:
@@ -69,7 +90,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
         :return: None
         """
-        self.generate_nightly_callback()
+        self.callbacks.generate_nightly()
         data: List[str] = list(self.modpack_list.listbox.get_values())
         if "nightly" not in data:
             data.insert(0, "nightly")
@@ -105,7 +126,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and all its childs
+        Method to update the widget and update_all its childs
 
         :return: None
         """
@@ -115,7 +136,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and all its childs
+        Method to hide the widget and update_all its childs
         :return None:
         """
         self.modpack_list.hide()

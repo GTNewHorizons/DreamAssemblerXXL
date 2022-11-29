@@ -1,11 +1,17 @@
 from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
-from typing import Any, Callable, Dict, List, Optional
+from typing import Any, Callable, List, Optional
 
 from gtnh.defs import Side
 from gtnh.gui.lib.CustomLabel import CustomLabel
 from gtnh.gui.lib.combo_box import CustomCombobox
 from gtnh.gui.lib.custom_widget import CustomWidget
+
+
+class ModInfoCallback:
+    def __init__(self, set_mod_version: Callable[[str, str], None], set_mod_side: Callable[[str, str], None]):
+        self.set_mod_version: Callable[[str, str], None] = set_mod_version
+        self.set_mod_side: Callable[[str, str], None] = set_mod_side
 
 
 class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
@@ -17,7 +23,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         self,
         master: Any,
         frame_name: str,
-        callbacks: Dict[str, Callable[[str, str], None]],
+        callbacks: ModInfoCallback,
         width: Optional[int] = None,
         themed: bool = False,
         **kwargs: Any,
@@ -39,7 +45,9 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
             LabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.ypadding: int = 0
         self.xpadding: int = 0
-        self.callbacks: Dict[str, Any] = callbacks
+        self.callbacks: ModInfoCallback = callbacks
+        self._set_mod_side: Callable[[str, str], None] = callbacks.set_mod_side
+        self._set_mod_version: Callable[[str, str], None] = callbacks.set_mod_version
 
         self.mod_name: CustomLabel = CustomLabel(self, label_text="Mod name: {0}", value="", themed=self.themed)
         self.version: CustomCombobox = CustomCombobox(
@@ -66,7 +74,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         if mod_name == "":
             raise ValueError("empty mod cannot have a side")
         side: str = self.side.get()
-        self.callbacks["set_mod_side"](mod_name, side)
+        self._set_mod_side(mod_name, side)
 
     def set_mod_version(self, _: Any) -> None:
         """
@@ -84,7 +92,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
                 raise ValueError("empty mod cannot have a version")
 
             mod_version: str = self.version.get()
-            self.callbacks["set_mod_version"](mod_name, mod_version)
+            self._set_mod_version(mod_name, mod_version)
 
     def configure_widgets(self) -> None:
         """
@@ -115,7 +123,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and all its childs
+        Method to update the widget and update_all its childs
 
         :return: None
         """
@@ -125,7 +133,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and all its childs
+        Method to hide the widget and update_all its childs
         :return None:
         """
         for widget in self.widgets:
@@ -172,7 +180,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def reset(self) -> None:
         """
-        Method to reset all the fields.
+        Method to reset update_all the fields.
 
         :return: None
         """

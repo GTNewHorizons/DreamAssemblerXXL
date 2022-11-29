@@ -9,6 +9,12 @@ from gtnh.gui.lib.listbox import CustomListbox
 from gtnh.gui.lib.text_entry import TextEntry
 
 
+class ExclusionPanelCallback:
+    def __init__(self, add: Callable[[str], None], delete: Callable[[str], None]):
+        self.add: Callable[[str], None] = add
+        self.delete: Callable[[str], None] = delete
+
+
 class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
     """Widget managing an exclusion list."""
 
@@ -16,7 +22,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         self,
         master: Any,
         frame_name: str,
-        callbacks: Dict[str, Any],
+        callbacks: ExclusionPanelCallback,
         width: Optional[int] = None,
         themed: bool = False,
         **kwargs: Any,
@@ -38,8 +44,8 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0
         self.ypadding: int = 0
-        self.add_callback: Callable[[str], None] = callbacks["add"]
-        self.del_callback: Callable[[str], None] = callbacks["del"]
+        self.add_callback: Callable[[str], None] = callbacks.add
+        self.del_callback: Callable[[str], None] = callbacks.delete
 
         self.listbox: CustomListbox = CustomListbox(
             self,
@@ -143,7 +149,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and all its childs
+        Method to update the widget and update_all its childs
 
         :return: None
         """
@@ -153,7 +159,7 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and all its childs
+        Method to hide the widget and update_all its childs
         :return None:
         """
         for widget in self.widgets:

@@ -1,22 +1,47 @@
 from tkinter import Frame, LabelFrame
 from tkinter.ttk import Frame as TtkFrame, LabelFrame as TtkLabelFrame
-from typing import Any, Dict, List, Optional, Union
+from typing import Any, Callable, List, Optional, Union
 
 from gtnh.gui.lib.button import CustomButton
 from gtnh.gui.lib.custom_widget import CustomWidget
 from gtnh.gui.lib.progress_bar import CustomProgressBar
 
 
+class ButtonArrayCallback:
+    def __init__(
+        self,
+        update_asset: Callable[[], None],
+        generate_nightly: Callable[[], None],
+        client_mmc: Callable[[], None],
+        client_zip: Callable[[], None],
+        server_zip: Callable[[], None],
+        client_curse: Callable[[], None],
+        client_modrinth: Callable[[], None],
+        client_technic: Callable[[], None],
+        update_all: Callable[[], None],
+    ) -> None:
+        self.update_assets: Callable[[], None] = update_asset
+        self.generate_nightly: Callable[[], None] = generate_nightly
+        self.client_mmc: Callable[[], None] = client_mmc
+        self.client_zip: Callable[[], None] = client_zip
+        self.server_zip: Callable[[], None] = server_zip
+        self.client_curse: Callable[[], None] = client_curse
+        self.client_modrinth: Callable[[], None] = client_modrinth
+        self.client_technic: Callable[[], None] = client_technic
+        self.all: Callable[[], None] = update_all
+
+
 class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
     """
-    Widget managing all the buttons related to pack assembling.
+    Widget managing update_all the buttons related to pack assembling.
     """
 
     def __init__(
         self,
         master: Any,
         frame_name: str,
-        callbacks: Dict[str, Any],
+        callbacks: ButtonArrayCallback,
+        update_nightly: Callable[[], None],
         width: Optional[int] = None,
         themed: bool = False,
         **kwargs: Any,
@@ -41,32 +66,35 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
 
         self.frame_btn: Union[Frame, TtkFrame] = TtkFrame(self) if themed else Frame(self)
 
+        self.update_nightly: Callable[[], None] = update_nightly
+        self.callbacks: ButtonArrayCallback = callbacks
+
         self.btn_client_cf: CustomButton = CustomButton(
-            self.frame_btn, text="CurseForge client archive", command=callbacks["client_cf"], themed=self.themed
+            self.frame_btn, text="CurseForge client archive", command=callbacks.client_curse, themed=self.themed
         )
         self.btn_client_technic: CustomButton = CustomButton(
-            self.frame_btn, text="Technic client archive", command=callbacks["client_technic"], themed=self.themed
+            self.frame_btn, text="Technic client archive", command=callbacks.client_technic, themed=self.themed
         )
         self.btn_client_mmc: CustomButton = CustomButton(
-            self.frame_btn, text="MultiMC client archive", command=callbacks["client_mmc"], themed=self.themed
+            self.frame_btn, text="MultiMC client archive", command=callbacks.client_mmc, themed=self.themed
         )
         self.btn_client_modrinth: CustomButton = CustomButton(
-            self.frame_btn, text="Modrinth client archive", command=callbacks["client_modrinth"], themed=self.themed
+            self.frame_btn, text="Modrinth client archive", command=callbacks.client_modrinth, themed=self.themed
         )
         self.btn_generate_all: CustomButton = CustomButton(
-            self.frame_btn, text="Generate all archives", command=callbacks["generate_all"], themed=self.themed
+            self.frame_btn, text="Generate update_all archives", command=callbacks.all, themed=self.themed
         )
         self.btn_update_nightly: CustomButton = CustomButton(
-            self.frame_btn, text="Update nightly", command=callbacks["generate_nightly"], themed=self.themed
+            self.frame_btn, text="Update nightly", command=update_nightly, themed=self.themed
         )
         self.btn_update_assets: CustomButton = CustomButton(
-            self.frame_btn, text="Update assets", command=callbacks["update_assets"], themed=self.themed
+            self.frame_btn, text="Update assets", command=callbacks.update_assets, themed=self.themed
         )
         self.btn_client_zip: CustomButton = CustomButton(
-            self.frame_btn, text="Zip client archive", command=callbacks["client_zip"], themed=self.themed
+            self.frame_btn, text="Zip client archive", command=callbacks.client_zip, themed=self.themed
         )
         self.btn_server_zip: CustomButton = CustomButton(
-            self.frame_btn, text="Zip server archive", command=callbacks["server_zip"], themed=self.themed
+            self.frame_btn, text="Zip server archive", command=callbacks.server_zip, themed=self.themed
         )
 
         progress_bar_length: int = 500
@@ -183,7 +211,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and all its childs
+        Method to update the widget and update_all its childs
 
         :return: None
         """
@@ -193,7 +221,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and all its childs
+        Method to hide the widget and update_all its childs
         :return None:
         """
         for widget in self.widgets:
