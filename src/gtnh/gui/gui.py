@@ -39,6 +39,9 @@ def check(widget: Widget) -> bool:
     widget_list: List[str] = ["CustomButton", "TextWidget", "CustomListbox", "CustomCombobox"]
     for widget_type in widget_list:
         if widget_type.lower() in str(widget):
+            if widget_type == "CustomButton":
+                if widget["text"] == "Modrinth client archive":  # disabling modrinth archive packaging
+                    return False
             return True
     return False
 

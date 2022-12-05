@@ -1,4 +1,4 @@
-from tkinter import Frame, LabelFrame
+from tkinter import DISABLED, Frame, LabelFrame
 from tkinter.ttk import Frame as TtkFrame, LabelFrame as TtkLabelFrame
 from typing import Any, Callable, List, Optional, Union
 
@@ -79,7 +79,11 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
             self.frame_btn, text="MultiMC client archive", command=callbacks.client_mmc, themed=self.themed
         )
         self.btn_client_modrinth: CustomButton = CustomButton(
-            self.frame_btn, text="Modrinth client archive", command=callbacks.client_modrinth, themed=self.themed
+            self.frame_btn,
+            text="Modrinth client archive",
+            command=callbacks.client_modrinth,
+            themed=self.themed,
+            state=DISABLED,
         )
         self.btn_generate_all: CustomButton = CustomButton(
             self.frame_btn, text="Generate update_all archives", command=callbacks.all, themed=self.themed
