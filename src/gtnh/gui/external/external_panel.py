@@ -58,7 +58,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         :param themed: for those who prefered themed versions of the widget. Default to false.
         :param kwargs: params to init the parent class
         """
-        self.themed = themed
+        self.themed: bool = themed
         self.ypadding: int = 0
         self.xpadding: int = 0
         if themed:
