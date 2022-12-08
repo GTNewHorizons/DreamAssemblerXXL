@@ -4,7 +4,7 @@ from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
-from gtnh.defs import Position
+from gtnh.defs import Position, Side
 from gtnh.gui.external.mod_adder_window import ModAdderCallback, ModAdderWindow
 from gtnh.gui.lib.button import CustomButton
 from gtnh.gui.lib.custom_widget import CustomWidget
@@ -12,6 +12,7 @@ from gtnh.gui.lib.listbox import CustomListbox
 from gtnh.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import ExternalModInfo
+from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 
@@ -19,17 +20,20 @@ class ExternalPanelCallback(ModInfoCallback):
     def __init__(
         self,
         set_mod_version: Callable[[str, str], None],
-        set_mod_side: Callable[[str, str], None],
+        set_mod_side: Callable[[str, Side], None],
+        set_mod_side_default: Callable[[str, str], None],
         get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
-        get_external_mods_callback: Callable[[], Dict[str, str]],
+        get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]],
         toggle_freeze: Callable[[], None],
         add_mod_in_memory: Callable[[str, str], None],
         del_mod_in_memory: Callable[[str], None],
         refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]],
     ):
-        ModInfoCallback.__init__(self, set_mod_version=set_mod_version, set_mod_side=set_mod_side)
+        ModInfoCallback.__init__(
+            self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default
+        )
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = get_gtnh_callback
-        self.get_external_mods_callback: Callable[[], Dict[str, str]] = get_external_mods_callback
+        self.get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = get_external_mods_callback
         self.toggle_freeze: Callable[[], None] = toggle_freeze
         self.add_mod_in_memory: Callable[[str, str], None] = add_mod_in_memory
         self.del_mod_in_memory: Callable[[str], None] = del_mod_in_memory
@@ -72,7 +76,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
         # start
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks.get_gtnh_callback
-        self.get_external_mods_callback: Callable[[], Dict[str, str]] = callbacks.get_external_mods_callback
+        self.get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = callbacks.get_external_mods_callback
         self.toggle_freeze: Callable[[], None] = callbacks.toggle_freeze
         self.add_mod_to_memory: Callable[[str, str], None] = callbacks.add_mod_in_memory
         self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_in_memory
@@ -233,11 +237,12 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             mod_versions: list[GTNHVersion] = mod_info.versions
             latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
             assert latest_version
-            external_mods: Dict[str, str] = self.get_external_mods_callback()
-            current_version: str = external_mods[name] if name in external_mods else latest_version.version_tag
+            external_mods: Dict[str, ModVersionInfo] = self.get_external_mods_callback()
+            current_version: str = external_mods[name].version if name in external_mods else latest_version.version_tag
 
             _license: str = mod_info.license or "No license detected"
-            side: str = mod_info.side
+            side: str = external_mods[name].side if name in external_mods else Side.NONE  # type: ignore
+            side_default: str = mod_info.side
 
             data = {
                 "name": name,
@@ -245,6 +250,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
                 "current_version": current_version,
                 "license": _license,
                 "side": side,
+                "side_default": side_default,
             }
             self.mod_info_callback(data)
 

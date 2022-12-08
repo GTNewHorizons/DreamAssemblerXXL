@@ -4,7 +4,7 @@ import json
 import os
 from collections import defaultdict
 from pathlib import Path
-from typing import Callable, Optional
+from typing import Callable, Optional, Tuple
 
 from cache import AsyncLRU
 from colorama import Fore, Style
@@ -37,6 +37,7 @@ from gtnh.models.gtnh_modpack import GTNHModpack
 from gtnh.models.gtnh_release import GTNHRelease, load_release, save_release
 from gtnh.models.gtnh_version import version_from_release
 from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
+from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.models.versionable import Versionable, version_is_newer, version_is_older, version_sort_key
 from gtnh.utils import AttributeDict, blockquote, get_github_token, index
 
@@ -390,12 +391,12 @@ class GTNHModpackManager:
         if progress_callback is not None:
             progress_callback(delta_progress, "Updating config to last version")
 
-        github_mods: dict[str, str] = {}
-        external_mods: dict[str, str] = {}
+        github_mods: dict[str, ModVersionInfo] = {}
+        external_mods: dict[str, ModVersionInfo] = {}
 
         def _add_mod(mod: GTNHModInfo) -> None:
             modmap = external_mods if isinstance(mod, ExternalModInfo) else github_mods
-            modmap[mod.name] = mod.latest_version
+            modmap[mod.name] = ModVersionInfo(version=mod.latest_version, side=mod.side)
 
         for is_github, existing_mods in [(True, existing_release.github_mods), (False, existing_release.external_mods)]:
             for mod_name, previous_version in existing_mods.items():
@@ -787,7 +788,7 @@ class GTNHModpackManager:
                 downloaders.append(
                     self.download_asset(
                         mod,
-                        mod_version,
+                        mod_version.version,
                         is_github=is_github,
                         download_callback=mod_callback,
                         error_callback=error_callback,
@@ -822,7 +823,7 @@ class GTNHModpackManager:
         """
         removed_mods = set()
         new_mods = set()
-        version_changes = {}
+        version_changes: dict[str, Tuple[Optional[ModVersionInfo], ModVersionInfo]] = {}
 
         changelog: dict[str, list[str]] = defaultdict(list)
 
@@ -859,7 +860,9 @@ class GTNHModpackManager:
                 continue
 
             mod = self.assets.get_github_mod(mod_name)
-            mod_versions = mod.get_versions(left=old_version, right=new_version)
+            mod_versions = mod.get_versions(
+                left=old_version.version if old_version else None, right=new_version.version
+            )
 
             changes = changelog[mod_name]
 

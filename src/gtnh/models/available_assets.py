@@ -11,6 +11,7 @@ from gtnh.models.base import GTNHBaseModel
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
+from gtnh.models.mod_version_info import ModVersionInfo
 
 log = get_logger(__name__)
 
@@ -67,7 +68,7 @@ class AvailableAssets(GTNHBaseModel):
         return self._external_modmap[mod_name]
 
     def get_mod_and_version(
-        self, mod_name: str, mod_version: str, valid_sides: set[Side], source: ModSource
+        self, mod_name: str, mod_version: ModVersionInfo, valid_sides: set[Side], source: ModSource
     ) -> tuple[GTNHModInfo | ExternalModInfo, GTNHVersion] | None:
         try:
             mod = self.get_github_mod(mod_name) if source == ModSource.github else self.get_external_mod(mod_name)
@@ -75,10 +76,12 @@ class AvailableAssets(GTNHBaseModel):
             log.warn(f"Mod {mod_name} in {source} cannot be found, returning None")
             return None
 
-        if mod.side not in valid_sides:
+        side = mod_version.side if mod_version.side else mod.side
+
+        if side not in valid_sides:
             return None
 
-        version = mod.get_version(mod_version)
+        version = mod.get_version(mod_version.version)
         if not version:
             log.error(f"Cannot find {mod_name}:{version}")
             return None

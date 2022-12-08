@@ -7,11 +7,19 @@ from gtnh.gui.lib.CustomLabel import CustomLabel
 from gtnh.gui.lib.combo_box import CustomCombobox
 from gtnh.gui.lib.custom_widget import CustomWidget
 
+USE_DEFAULT = "NOT SET"
+
 
 class ModInfoCallback:
-    def __init__(self, set_mod_version: Callable[[str, str], None], set_mod_side: Callable[[str, str], None]):
+    def __init__(
+        self,
+        set_mod_version: Callable[[str, str], None],
+        set_mod_side: Callable[[str, Side], None],
+        set_mod_side_default: Callable[[str, str], None],
+    ):
         self.set_mod_version: Callable[[str, str], None] = set_mod_version
-        self.set_mod_side: Callable[[str, str], None] = set_mod_side
+        self.set_mod_side: Callable[[str, Side], None] = set_mod_side
+        self.set_mod_side_default: Callable[[str, str], None] = set_mod_side_default
 
 
 class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
@@ -46,7 +54,8 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         self.ypadding: int = 0
         self.xpadding: int = 0
         self.callbacks: ModInfoCallback = callbacks
-        self._set_mod_side: Callable[[str, str], None] = callbacks.set_mod_side
+        self._set_mod_side: Callable[[str, Side], None] = callbacks.set_mod_side
+        self._set_mod_side_default: Callable[[str, str], None] = callbacks.set_mod_side_default
         self._set_mod_version: Callable[[str, str], None] = callbacks.set_mod_version
 
         self.mod_name: CustomLabel = CustomLabel(self, label_text="Mod name: {0}", value="", themed=self.themed)
@@ -55,10 +64,14 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         )
         self.license: CustomLabel = CustomLabel(self, label_text="Mod license: {0}", value="", themed=self.themed)
         self.side: CustomCombobox = CustomCombobox(
-            self, label_text="Mod side:", values=[], on_selection=self.set_mod_side, themed=self.themed
+            self, label_text="Mod side this release:", values=[], on_selection=self.set_mod_side, themed=self.themed
         )
+        self.side_default: CustomCombobox = CustomCombobox(
+            self, label_text="Mod side default:", values=[], on_selection=self.set_mod_side_default, themed=self.themed
+        )
+        self.current_mod_name = ""
 
-        self.widgets: List[CustomWidget] = [self.mod_name, self.version, self.license, self.side]
+        self.widgets: List[CustomWidget] = [self.mod_name, self.version, self.license, self.side, self.side_default]
         self.width: int = (
             width if width is not None else max([widget.get_description_size() for widget in self.widgets])
         )
@@ -70,11 +83,27 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         :param _: the tkinter event passed by the tkinter in the Callback (unused)
         :return: None
         """
-        mod_name: str = self.mod_name.get()
+        mod_name: str = self.current_mod_name
         if mod_name == "":
             raise ValueError("empty mod cannot have a side")
-        side: str = self.side.get()
+        side: Side = Side(self.side.get())
+        if side == USE_DEFAULT:
+            raise ValueError("cannot set to USE_DEFAULT")
+        assert side
         self._set_mod_side(mod_name, side)
+
+    def set_mod_side_default(self, _: Any) -> None:
+        """
+        Callback used when the user selects a mod side.
+
+        :param _: the tkinter event passed by the tkinter in the Callback (unused)
+        :return: None
+        """
+        mod_name: str = self.current_mod_name
+        if mod_name == "":
+            raise ValueError("empty mod cannot have a side")
+        side: str = self.side_default.get()
+        self._set_mod_side_default(mod_name, side)
 
     def set_mod_version(self, _: Any) -> None:
         """
@@ -87,7 +116,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
             "",
             Side.NONE,
         ]:  # preventing from adding versions to manifest if it's not init or disabled
-            mod_name: str = self.mod_name.get()
+            mod_name: str = self.current_mod_name
             if mod_name == "":
                 raise ValueError("empty mod cannot have a version")
 
@@ -169,6 +198,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         :return: None
         """
         self.mod_name.set(data["name"])
+        self.current_mod_name = data["name"]
 
         self.version.set_values(data["versions"])
         self.version.set(data["current_version"])
@@ -176,7 +206,10 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         self.license.set(data["license"])
 
         self.side.set_values([side.name for side in Side])
-        self.side.set(data["side"])
+        self.side.set(data["side"] or USE_DEFAULT)
+
+        self.side_default.set_values([side.name for side in Side])
+        self.side_default.set(data["side_default"])
 
     def reset(self) -> None:
         """
