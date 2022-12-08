@@ -10,9 +10,9 @@ from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.defs import README_TEMPLATE, RELEASE_README_DIR, ModSource, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
-from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
+from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
@@ -108,7 +108,8 @@ class GenericAssembler:
         :param valid_sides: a set of valid sides to retrieve the mods from.
         """
         get_mod: Callable[
-            [str, ModVersionInfo, Set[Side], ModSource], Optional[tuple[Union[GTNHModInfo, ExternalModInfo], GTNHVersion]]
+            [str, ModVersionInfo, Set[Side], ModSource],
+            Optional[tuple[Union[GTNHModInfo, ExternalModInfo], GTNHVersion]],
         ] = self.modpack_manager.assets.get_mod_and_version
 
         external_mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = list(
@@ -130,7 +131,8 @@ class GenericAssembler:
         :param valid_sides: a set of valid sides to retrieve the mods from.
         """
         get_mod: Callable[
-            [str, ModVersionInfo, Set[Side], ModSource], Optional[tuple[Union[GTNHModInfo, ExternalModInfo], GTNHVersion]]
+            [str, ModVersionInfo, Set[Side], ModSource],
+            Optional[tuple[Union[GTNHModInfo, ExternalModInfo], GTNHVersion]],
         ] = self.modpack_manager.assets.get_mod_and_version
 
         github_mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = list(

@@ -1,4 +1,5 @@
 from datetime import datetime
+from typing import Dict
 
 from colorama import Fore
 from pydantic import Field, ValidationError
@@ -64,12 +65,8 @@ class __GTNHReleaseV1(GTNHBaseModel):
     external_mods: dict[str, str]
 
 
-def __process_mod_list(data: dict[str, str]):
-    return {
-        k: ModVersionInfo(version=v)
-        for k, v in
-        data.items()
-    }
+def __process_mod_list(data: dict[str, str]) -> Dict[str, ModVersionInfo]:
+    return {k: ModVersionInfo(version=v) for k, v in data.items()}
 
 
 def load_release(release: str) -> GTNHRelease | None:

@@ -8,7 +8,7 @@ class ModVersionInfo(GTNHBaseModel):
     version: str
     side: Optional[Side]
 
-    def __str__(self):
+    def __str__(self) -> str:
         if self.side:
             return self.version
         else:

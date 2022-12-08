@@ -19,9 +19,9 @@ from gtnh.gui.github.github_panel import GithubPanel, GithubPanelCallback
 from gtnh.gui.modpack.modpack_panel import ModpackPanel, ModpackPanelCallback
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
-from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
+from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 logger = get_logger(__name__)
@@ -88,9 +88,13 @@ class Window(ThemedTk, Tk):
         self.xpadding: int = 0
         self.ypadding: int = 0
 
-        self.github_mods: Dict[str, ModVersionInfo] = {}  # name <-> version of github mods mappings for the current release
+        self.github_mods: Dict[
+            str, ModVersionInfo
+        ] = {}  # name <-> version of github mods mappings for the current release
         self.gtnh_config: str = ""  # modpack asset version
-        self.external_mods: Dict[str, ModVersionInfo] = {}  # name <-> version of external mods mappings for the current release
+        self.external_mods: Dict[
+            str, ModVersionInfo
+        ] = {}  # name <-> version of external mods mappings for the current release
         self.version: str = ""  # modpack release name
         self.last_version: Optional[str] = None  # last version of the release
 
@@ -142,7 +146,9 @@ class Window(ThemedTk, Tk):
             get_github_mods_callback=self.get_github_mods,
             set_mod_version=self.set_github_mod_version,
             set_mod_side=lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)).result(),
-            set_mod_side_default=lambda name, side: asyncio.ensure_future(self.set_github_mod_side_default(name, side)).result(),
+            set_mod_side_default=lambda name, side: asyncio.ensure_future(
+                self.set_github_mod_side_default(name, side)
+            ).result(),
             set_modpack_version=self.set_modpack_version,
             update_current_task_progress_bar=self.progress_callback,
             update_global_progress_bar=self.global_callback,
@@ -161,7 +167,9 @@ class Window(ThemedTk, Tk):
         external_panel_callbacks: ExternalPanelCallback = ExternalPanelCallback(
             set_mod_version=self.set_external_mod_version,
             set_mod_side=lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)).result(),
-            set_mod_side_default=lambda name, side: asyncio.ensure_future(self.set_external_mod_side_default(name, side)).result(),
+            set_mod_side_default=lambda name, side: asyncio.ensure_future(
+                self.set_external_mod_side_default(name, side)
+            ).result(),
             get_gtnh_callback=self._get_modpack_manager,
             get_external_mods_callback=self.get_external_mods,
             toggle_freeze=self.trigger_toggle,
@@ -449,7 +457,7 @@ class Window(ThemedTk, Tk):
         else:
             raise ValueError(f"side {side} is an invalid side")
 
-    async def set_github_mod_side(self, mod_name: str, side: str) -> None:
+    async def set_github_mod_side(self, mod_name: str, side: Side) -> None:
         """
         Method used to set the side of a github mod.
 
@@ -469,7 +477,9 @@ class Window(ThemedTk, Tk):
             del self.github_mods[mod_name]
         else:
             if previous_side == Side.NONE:
-                self.github_mods[mod_name] = ModVersionInfo(version=self.github_panel.mod_info_frame.version.get(), side=side)
+                self.github_mods[mod_name] = ModVersionInfo(
+                    version=self.github_panel.mod_info_frame.version.get(), side=side
+                )
             else:
                 self.github_mods[mod_name].side = side
 
@@ -490,7 +500,7 @@ class Window(ThemedTk, Tk):
             )
             return
 
-    async def set_external_mod_side(self, mod_name: str, side: str) -> None:
+    async def set_external_mod_side(self, mod_name: str, side: Side) -> None:
         """
         Method used to set the side of an external mod.
 
@@ -510,7 +520,9 @@ class Window(ThemedTk, Tk):
             del self.github_mods[mod_name]
         else:
             if previous_side == Side.NONE:
-                self.external_mods[mod_name] = ModVersionInfo(version=self.external_mod_frame.mod_info_frame.version.get(), side=side)
+                self.external_mods[mod_name] = ModVersionInfo(
+                    version=self.external_mod_frame.mod_info_frame.version.get(), side=side
+                )
             else:
                 self.external_mods[mod_name].side = side
 
@@ -843,11 +855,15 @@ class Window(ThemedTk, Tk):
             version=release_name,
             config=self.gtnh_config,
             github_mods={
-                mod_name: ModVersionInfo(version=info.version, side=info.side if info.side else gtnh.assets.get_github_mod(mod_name).side)
+                mod_name: ModVersionInfo(
+                    version=info.version, side=info.side if info.side else gtnh.assets.get_github_mod(mod_name).side
+                )
                 for mod_name, info in self.github_mods.items()
             },
             external_mods={
-                mod_name: ModVersionInfo(version=info.version, side=info.side if info.side else gtnh.assets.get_external_mod(mod_name).side)
+                mod_name: ModVersionInfo(
+                    version=info.version, side=info.side if info.side else gtnh.assets.get_external_mod(mod_name).side
+                )
                 for mod_name, info in self.external_mods.items()
             },
             last_version=previous_version,

@@ -7,13 +7,18 @@ from gtnh.gui.lib.CustomLabel import CustomLabel
 from gtnh.gui.lib.combo_box import CustomCombobox
 from gtnh.gui.lib.custom_widget import CustomWidget
 
-USE_DEFAULT = 'NOT SET'
+USE_DEFAULT = "NOT SET"
 
 
 class ModInfoCallback:
-    def __init__(self, set_mod_version: Callable[[str, str], None], set_mod_side: Callable[[str, str], None], set_mod_side_default: Callable[[str, str], None]):
+    def __init__(
+        self,
+        set_mod_version: Callable[[str, str], None],
+        set_mod_side: Callable[[str, Side], None],
+        set_mod_side_default: Callable[[str, str], None],
+    ):
         self.set_mod_version: Callable[[str, str], None] = set_mod_version
-        self.set_mod_side: Callable[[str, str], None] = set_mod_side
+        self.set_mod_side: Callable[[str, Side], None] = set_mod_side
         self.set_mod_side_default: Callable[[str, str], None] = set_mod_side_default
 
 
@@ -49,7 +54,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         self.ypadding: int = 0
         self.xpadding: int = 0
         self.callbacks: ModInfoCallback = callbacks
-        self._set_mod_side: Callable[[str, str], None] = callbacks.set_mod_side
+        self._set_mod_side: Callable[[str, Side], None] = callbacks.set_mod_side
         self._set_mod_side_default: Callable[[str, str], None] = callbacks.set_mod_side_default
         self._set_mod_version: Callable[[str, str], None] = callbacks.set_mod_version
 
@@ -81,9 +86,10 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         mod_name: str = self.current_mod_name
         if mod_name == "":
             raise ValueError("empty mod cannot have a side")
-        side: Optional[str] = self.side.get()
+        side: Side = Side(self.side.get())
         if side == USE_DEFAULT:
             raise ValueError("cannot set to USE_DEFAULT")
+        assert side
         self._set_mod_side(mod_name, side)
 
     def set_mod_side_default(self, _: Any) -> None:
@@ -93,7 +99,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         :param _: the tkinter event passed by the tkinter in the Callback (unused)
         :return: None
         """
-        mod_name: str = current_mod_name
+        mod_name: str = self.current_mod_name
         if mod_name == "":
             raise ValueError("empty mod cannot have a side")
         side: str = self.side_default.get()

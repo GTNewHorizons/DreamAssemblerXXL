@@ -1,6 +1,6 @@
 import bisect
 from functools import cached_property
-from typing import Dict, List, Union
+from typing import Dict, List
 
 from pydantic import Field
 from structlog import get_logger
@@ -9,9 +9,9 @@ from gtnh.defs import ModSource, Side
 from gtnh.exceptions import NoModAssetFound
 from gtnh.models.base import GTNHBaseModel
 from gtnh.models.gtnh_config import GTNHConfig
-from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
+from gtnh.models.mod_version_info import ModVersionInfo
 
 log = get_logger(__name__)
 

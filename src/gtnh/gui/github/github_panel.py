@@ -12,9 +12,9 @@ from gtnh.gui.lib.custom_widget import CustomWidget
 from gtnh.gui.lib.listbox import CustomListbox
 from gtnh.gui.lib.text_entry import TextEntry
 from gtnh.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
-from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
+from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 
@@ -22,7 +22,7 @@ class GithubPanelCallback(ModInfoCallback):
     def __init__(
         self,
         set_mod_version: Callable[[str, str], None],
-        set_mod_side: Callable[[str, str], None],
+        set_mod_side: Callable[[str, Side], None],
         set_mod_side_default: Callable[[str, str], None],
         get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
         get_github_mods_callback: Callable[[], Dict[str, ModVersionInfo]],
@@ -34,7 +34,9 @@ class GithubPanelCallback(ModInfoCallback):
         del_mod_in_memory: Callable[[str], None],
         set_modpack_version: Callable[[str], None],
     ):
-        ModInfoCallback.__init__(self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default)
+        ModInfoCallback.__init__(
+            self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default
+        )
 
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = get_gtnh_callback
         self.get_github_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = get_github_mods_callback
@@ -310,12 +312,14 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             else latest_version.version_tag
         )
         mod_license: str = mod_info.license or "No license detected"
-        side: str = (
-            self.get_github_mods_callback()[name].side
-            if name in self.get_github_mods_callback()
+
+        side: Side = (
+            self.get_github_mods_callback()[name].side  # type: ignore
+            if (name in self.get_github_mods_callback() and self.get_github_mods_callback()[name].side is not None)
             else Side.NONE
         )
-        side_default: str = mod_info.side
+
+        side_default: Side = mod_info.side
 
         data = {
             "name": name,

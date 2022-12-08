@@ -35,9 +35,9 @@ from gtnh.models.available_assets import AvailableAssets
 from gtnh.models.gtnh_config import CONFIG_REPO_NAME
 from gtnh.models.gtnh_modpack import GTNHModpack
 from gtnh.models.gtnh_release import GTNHRelease, load_release, save_release
-from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.models.gtnh_version import version_from_release
 from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
+from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.models.versionable import Versionable, version_is_newer, version_is_older, version_sort_key
 from gtnh.utils import AttributeDict, blockquote, get_github_token, index
 
@@ -860,7 +860,9 @@ class GTNHModpackManager:
                 continue
 
             mod = self.assets.get_github_mod(mod_name)
-            mod_versions = mod.get_versions(left=old_version.version if old_version else None, right=new_version.version)
+            mod_versions = mod.get_versions(
+                left=old_version.version if old_version else None, right=new_version.version
+            )
 
             changes = changelog[mod_name]
 

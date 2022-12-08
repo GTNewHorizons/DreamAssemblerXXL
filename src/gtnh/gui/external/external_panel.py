@@ -10,9 +10,9 @@ from gtnh.gui.lib.button import CustomButton
 from gtnh.gui.lib.custom_widget import CustomWidget
 from gtnh.gui.lib.listbox import CustomListbox
 from gtnh.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
-from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import ExternalModInfo
+from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 
@@ -20,7 +20,7 @@ class ExternalPanelCallback(ModInfoCallback):
     def __init__(
         self,
         set_mod_version: Callable[[str, str], None],
-        set_mod_side: Callable[[str, str], None],
+        set_mod_side: Callable[[str, Side], None],
         set_mod_side_default: Callable[[str, str], None],
         get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
         get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]],
@@ -29,7 +29,9 @@ class ExternalPanelCallback(ModInfoCallback):
         del_mod_in_memory: Callable[[str], None],
         refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]],
     ):
-        ModInfoCallback.__init__(self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default)
+        ModInfoCallback.__init__(
+            self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default
+        )
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = get_gtnh_callback
         self.get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = get_external_mods_callback
         self.toggle_freeze: Callable[[], None] = toggle_freeze
@@ -239,7 +241,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             current_version: str = external_mods[name].version if name in external_mods else latest_version.version_tag
 
             _license: str = mod_info.license or "No license detected"
-            side: str = external_mods[name].side if name in external_mods else Side.NONE
+            side: str = external_mods[name].side if name in external_mods else Side.NONE  # type: ignore
             side_default: str = mod_info.side
 
             data = {
