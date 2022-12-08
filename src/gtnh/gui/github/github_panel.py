@@ -4,7 +4,7 @@ from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Coroutine, Dict, List, Optional
 
-from gtnh.defs import Position
+from gtnh.defs import Position, Side
 from gtnh.exceptions import RepoNotFoundException
 from gtnh.gui.lib.button import CustomButton
 from gtnh.gui.lib.combo_box import CustomCombobox
@@ -12,6 +12,7 @@ from gtnh.gui.lib.custom_widget import CustomWidget
 from gtnh.gui.lib.listbox import CustomListbox
 from gtnh.gui.lib.text_entry import TextEntry
 from gtnh.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
+from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
@@ -22,8 +23,9 @@ class GithubPanelCallback(ModInfoCallback):
         self,
         set_mod_version: Callable[[str, str], None],
         set_mod_side: Callable[[str, str], None],
+        set_mod_side_default: Callable[[str, str], None],
         get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
-        get_github_mods_callback: Callable[[], Dict[str, str]],
+        get_github_mods_callback: Callable[[], Dict[str, ModVersionInfo]],
         update_current_task_progress_bar: Callable[[float, str], None],
         update_global_progress_bar: Callable[[float, str], None],
         reset_current_task_progress_bar: Callable[[], None],
@@ -32,10 +34,10 @@ class GithubPanelCallback(ModInfoCallback):
         del_mod_in_memory: Callable[[str], None],
         set_modpack_version: Callable[[str], None],
     ):
-        ModInfoCallback.__init__(self, set_mod_version=set_mod_version, set_mod_side=set_mod_side)
+        ModInfoCallback.__init__(self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default)
 
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = get_gtnh_callback
-        self.get_github_mods_callback: Callable[[], Dict[str, str]] = get_github_mods_callback
+        self.get_github_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = get_github_mods_callback
         self.update_current_task_progress_bar: Callable[[float, str], None] = update_current_task_progress_bar
 
         self.update_global_progress_bar: Callable[[float, str], None] = update_global_progress_bar
@@ -83,7 +85,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
         # Callbacks:
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks.get_gtnh_callback
-        self.get_github_mods_callback: Callable[[], Dict[str, str]] = callbacks.get_github_mods_callback
+        self.get_github_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = callbacks.get_github_mods_callback
         self.update_current_task_progress_bar: Callable[[float, str], None] = callbacks.update_current_task_progress_bar
         self.update_global_progress_bar: Callable[[float, str], None] = callbacks.update_global_progress_bar
         self.reset_current_task_progress_bar: Callable[[], None] = callbacks.reset_current_task_progress_bar
@@ -303,12 +305,17 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
         assert latest_version
         current_version: str = (
-            self.get_github_mods_callback()[name]
+            self.get_github_mods_callback()[name].version
             if name in self.get_github_mods_callback()
             else latest_version.version_tag
         )
         mod_license: str = mod_info.license or "No license detected"
-        side: str = mod_info.side
+        side: str = (
+            self.get_github_mods_callback()[name].side
+            if name in self.get_github_mods_callback()
+            else Side.NONE
+        )
+        side_default: str = mod_info.side
 
         data = {
             "name": name,
@@ -316,6 +323,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             "current_version": current_version,
             "license": mod_license,
             "side": side,
+            "side_default": side_default,
         }
 
         self.mod_info_callback(data)

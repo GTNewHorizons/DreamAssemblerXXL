@@ -19,6 +19,7 @@ from gtnh.gui.github.github_panel import GithubPanel, GithubPanelCallback
 from gtnh.gui.modpack.modpack_panel import ModpackPanel, ModpackPanelCallback
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
+from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
@@ -87,9 +88,9 @@ class Window(ThemedTk, Tk):
         self.xpadding: int = 0
         self.ypadding: int = 0
 
-        self.github_mods: Dict[str, str] = {}  # name <-> version of github mods mappings for the current release
+        self.github_mods: Dict[str, ModVersionInfo] = {}  # name <-> version of github mods mappings for the current release
         self.gtnh_config: str = ""  # modpack asset version
-        self.external_mods: Dict[str, str] = {}  # name <-> version of external mods mappings for the current release
+        self.external_mods: Dict[str, ModVersionInfo] = {}  # name <-> version of external mods mappings for the current release
         self.version: str = ""  # modpack release name
         self.last_version: Optional[str] = None  # last version of the release
 
@@ -141,6 +142,7 @@ class Window(ThemedTk, Tk):
             get_github_mods_callback=self.get_github_mods,
             set_mod_version=self.set_github_mod_version,
             set_mod_side=lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)).result(),
+            set_mod_side_default=lambda name, side: asyncio.ensure_future(self.set_github_mod_side_default(name, side)).result(),
             set_modpack_version=self.set_modpack_version,
             update_current_task_progress_bar=self.progress_callback,
             update_global_progress_bar=self.global_callback,
@@ -159,6 +161,7 @@ class Window(ThemedTk, Tk):
         external_panel_callbacks: ExternalPanelCallback = ExternalPanelCallback(
             set_mod_version=self.set_external_mod_version,
             set_mod_side=lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)).result(),
+            set_mod_side_default=lambda name, side: asyncio.ensure_future(self.set_external_mod_side_default(name, side)).result(),
             get_gtnh_callback=self._get_modpack_manager,
             get_external_mods_callback=self.get_external_mods,
             toggle_freeze=self.trigger_toggle,
@@ -204,7 +207,7 @@ class Window(ThemedTk, Tk):
         :param version: mod version
         :return: None
         """
-        self.github_mods[name] = version
+        self.github_mods[name] = ModVersionInfo(version=version)
 
     def _del_github_mod(self, name: str) -> None:
         """
@@ -223,7 +226,7 @@ class Window(ThemedTk, Tk):
         :param version: mod version
         :return: None
         """
-        self.external_mods[name] = version
+        self.external_mods[name] = ModVersionInfo(version=version)
 
     def _del_external_mod(self, name: str) -> None:
         """
@@ -451,9 +454,26 @@ class Window(ThemedTk, Tk):
         Method used to set the side of a github mod.
 
         :param mod_name: the mod name
-        :param side: side of the pack
+        :param side: side of the pack, None if use default
         :return: None
         """
+        previous_side = self.github_mods[mod_name].side if mod_name in self.github_mods else Side.NONE
+        if previous_side == side:
+            showwarning(
+                "Side already set up",
+                f"{mod_name}'s side is already set to {side}",
+            )
+            return
+
+        if side == Side.NONE:
+            del self.github_mods[mod_name]
+        else:
+            if previous_side == Side.NONE:
+                self.github_mods[mod_name] = ModVersionInfo(version=self.github_panel.mod_info_frame.version.get(), side=side)
+            else:
+                self.github_mods[mod_name].side = side
+
+    async def set_github_mod_side_default(self, mod_name: str, side: str) -> None:
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         previous_side: Side = gtnh.assets.get_github_mod(mod_name).side
         if previous_side == side:
@@ -470,13 +490,6 @@ class Window(ThemedTk, Tk):
             )
             return
 
-        if side == Side.NONE and mod_name in self.github_mods:
-            del self.github_mods[mod_name]
-
-        if side != Side.NONE and mod_name not in self.github_mods:
-            # dirty hack to add the mod back if it's switched from disabled to something else
-            self.github_mods[mod_name] = self.github_panel.mod_info_frame.version.get()
-
     async def set_external_mod_side(self, mod_name: str, side: str) -> None:
         """
         Method used to set the side of an external mod.
@@ -485,6 +498,23 @@ class Window(ThemedTk, Tk):
         :param side: side of the pack
         :return: None
         """
+        previous_side = self.external_mods[mod_name].side
+        if previous_side == side:
+            showwarning(
+                "Side already set up",
+                f"{mod_name}'s side is already set on {side}",
+            )
+            return
+
+        if side == Side.NONE:
+            del self.github_mods[mod_name]
+        else:
+            if previous_side == Side.NONE:
+                self.external_mods[mod_name] = ModVersionInfo(version=self.external_mod_frame.mod_info_frame.version.get(), side=side)
+            else:
+                self.external_mods[mod_name].side = side
+
+    async def set_external_mod_side_default(self, mod_name: str, side: str) -> None:
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         previous_side: Side = gtnh.assets.get_external_mod(mod_name).side
         if previous_side == side:
@@ -501,13 +531,6 @@ class Window(ThemedTk, Tk):
             )
             return
 
-        if side == Side.NONE and mod_name in self.external_mods:
-            del self.external_mods[mod_name]
-
-        if side != Side.NONE and mod_name not in self.external_mods:
-            # dirty hack to add the mod back if it's switched from disabled to something else
-            self.external_mods[mod_name] = self.external_mod_frame.mod_info_frame.version.get()
-
     def set_github_mod_version(self, github_mod_name: str, mod_version: str) -> None:
         """
         Callback used when a github mod version is selected.
@@ -517,7 +540,7 @@ class Window(ThemedTk, Tk):
         :return: None
         """
         if github_mod_name in self.github_mods:
-            self.github_mods[github_mod_name] = mod_version
+            self.github_mods[github_mod_name].version = mod_version
 
     def set_external_mod_version(self, external_mod_name: str, mod_version: str) -> None:
         """
@@ -528,7 +551,7 @@ class Window(ThemedTk, Tk):
         :return: None
         """
         if external_mod_name in self.external_mods:
-            self.external_mods[external_mod_name] = mod_version
+            self.external_mods[external_mod_name].version = mod_version
 
     def set_modpack_version(self, modpack_version: str) -> None:
         """
@@ -548,7 +571,7 @@ class Window(ThemedTk, Tk):
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         return [x.name for x in gtnh.assets.github_mods]
 
-    def get_github_mods(self) -> Dict[str, str]:
+    def get_github_mods(self) -> Dict[str, ModVersionInfo]:
         """
         Getter for self.github_mods.
 
@@ -556,7 +579,7 @@ class Window(ThemedTk, Tk):
         """
         return self.github_mods
 
-    def get_external_mods(self) -> Dict[str, str]:
+    def get_external_mods(self) -> Dict[str, ModVersionInfo]:
         """
         Getter for self.external_mods.
 
@@ -766,10 +789,10 @@ class Window(ThemedTk, Tk):
         """
         # todo: create a new instance for release object and edit it instead, because mutating args is bad mkay?
         mod_name: str
-        version: str
+        version: ModVersionInfo
         gtnh_modpack: GTNHModpackManager = await self._get_modpack_manager()
-        github_mods: Dict[str, str] = release.github_mods
-        external_mods: Dict[str, str] = release.external_mods
+        github_mods: Dict[str, ModVersionInfo] = release.github_mods
+        external_mods: Dict[str, ModVersionInfo] = release.external_mods
         valid_side: Set[Side] = {Side.NONE}
         github_mods_to_delete: List[str] = []
         external_mods_to_delete: List[str] = []
@@ -781,7 +804,7 @@ class Window(ThemedTk, Tk):
             if mod_data is not None:
                 logger.warn(
                     f"{Fore.YELLOW}Release {release.version} had github mod {mod_name}"
-                    " in its manifest but it is disabled. Stripping it from memory.{Fore.RESET}"
+                    f" in its manifest but it is disabled. Stripping it from memory.{Fore.RESET}"
                 )
                 github_mods_to_delete.append(mod_name)
 
@@ -795,7 +818,7 @@ class Window(ThemedTk, Tk):
             if mod_data is not None:
                 logger.warn(
                     f"{Fore.YELLOW}Release {self.version} had external mod {mod_name}"
-                    "in its manifest but it is disabled. Stripping it from memory.{Fore.RESET}"
+                    f"in its manifest but it is disabled. Stripping it from memory.{Fore.RESET}"
                 )
                 external_mods_to_delete.append(mod_name)
 
@@ -819,8 +842,14 @@ class Window(ThemedTk, Tk):
         release: GTNHRelease = GTNHRelease(
             version=release_name,
             config=self.gtnh_config,
-            github_mods=self.github_mods,
-            external_mods=self.external_mods,
+            github_mods={
+                mod_name: ModVersionInfo(version=info.version, side=info.side if info.side else gtnh.assets.get_github_mod(mod_name).side)
+                for mod_name, info in self.github_mods.items()
+            },
+            external_mods={
+                mod_name: ModVersionInfo(version=info.version, side=info.side if info.side else gtnh.assets.get_external_mod(mod_name).side)
+                for mod_name, info in self.external_mods.items()
+            },
             last_version=previous_version,
         )
 
