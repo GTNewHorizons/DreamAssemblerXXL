@@ -330,8 +330,6 @@ class Window(ThemedTk, Tk):
         self.current_task_reset_callback()
 
         self.global_callback(self.get_progress(), "Downloading assets")
-        print([x for x in release.github_mods.keys()])
-        print([ x for x in release.external_mods.keys()])
         await gtnh.download_release(
             release, download_callback=self.progress_callback, error_callback=self.add_error_message
         )
