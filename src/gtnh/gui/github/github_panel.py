@@ -1,4 +1,5 @@
 import asyncio
+from asyncio import Task
 from tkinter import LabelFrame
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import LabelFrame as TtkLabelFrame
@@ -22,8 +23,8 @@ class GithubPanelCallback(ModInfoCallback):
     def __init__(
         self,
         set_mod_version: Callable[[str, str], None],
-        set_mod_side: Callable[[str, Side], None],
-        set_mod_side_default: Callable[[str, str], None],
+        set_mod_side: Callable[[str, Side], Task[None]],
+        set_mod_side_default: Callable[[str, str], Task[None]],
         get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
         get_github_mods_callback: Callable[[], Dict[str, ModVersionInfo]],
         update_current_task_progress_bar: Callable[[float, str], None],

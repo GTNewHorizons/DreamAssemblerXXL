@@ -1,3 +1,4 @@
+from asyncio import Task
 from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, List, Optional
@@ -14,12 +15,12 @@ class ModInfoCallback:
     def __init__(
         self,
         set_mod_version: Callable[[str, str], None],
-        set_mod_side: Callable[[str, Side], None],
-        set_mod_side_default: Callable[[str, str], None],
+        set_mod_side: Callable[[str, Side], Task[None]],
+        set_mod_side_default: Callable[[str, str], Task[None]],
     ):
         self.set_mod_version: Callable[[str, str], None] = set_mod_version
-        self.set_mod_side: Callable[[str, Side], None] = set_mod_side
-        self.set_mod_side_default: Callable[[str, str], None] = set_mod_side_default
+        self.set_mod_side: Callable[[str, Side], Task[None]] = set_mod_side
+        self.set_mod_side_default: Callable[[str, str], Task[None]] = set_mod_side_default
 
 
 class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
@@ -54,8 +55,8 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         self.ypadding: int = 0
         self.xpadding: int = 0
         self.callbacks: ModInfoCallback = callbacks
-        self._set_mod_side: Callable[[str, Side], None] = callbacks.set_mod_side
-        self._set_mod_side_default: Callable[[str, str], None] = callbacks.set_mod_side_default
+        self._set_mod_side: Callable[[str, Side], Task[None]] = callbacks.set_mod_side
+        self._set_mod_side_default: Callable[[str, str], Task[None]] = callbacks.set_mod_side_default
         self._set_mod_version: Callable[[str, str], None] = callbacks.set_mod_version
 
         self.mod_name: CustomLabel = CustomLabel(self, label_text="Mod name: {0}", value="", themed=self.themed)

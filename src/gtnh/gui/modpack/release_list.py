@@ -1,3 +1,4 @@
+from asyncio import Task
 from tkinter import LabelFrame, simpledialog
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
@@ -15,14 +16,14 @@ from gtnh.models.gtnh_release import GTNHRelease
 class ReleaseListCallback:
     def __init__(
         self,
-        load: Callable[[str], None],
-        delete: Callable[[str], None],
-        add: Callable[[str, str], None],
+        load: Callable[[str], Task[None]],
+        delete: Callable[[str], Task[None]],
+        add: Callable[[str, str], Task[None]],
     ):
 
-        self.load: Callable[[str], None] = load
-        self.delete: Callable[[str], None] = delete
-        self.add: Callable[[str, str], None] = add
+        self.load: Callable[[str], Task[None]] = load
+        self.delete: Callable[[str], Task[None]] = delete
+        self.add: Callable[[str, str], Task[None]] = add
 
 
 class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
@@ -183,7 +184,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
             index: int = self.listbox.get()
             self.modpack.set(self.listbox.get_value_at_index(index))
 
-    def btn_load_command(self, callback: Optional[Callable[[str], None]] = None) -> None:
+    def btn_load_command(self, callback: Optional[Callable[[str], Task[None]]] = None) -> None:
         """
         Callback for the button self.btn_load.
 
@@ -199,7 +200,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
 
             self.set_loaded_version(release_name)
 
-    def btn_add_command(self, callback: Optional[Callable[[str, str], None]] = None) -> None:
+    def btn_add_command(self, callback: Optional[Callable[[str, str], Task[None]]] = None) -> None:
         """
         Callback for the button self.btn_add.
 
@@ -231,7 +232,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
 
         self.set_loaded_version(release_name)
 
-    def btn_del_command(self, callback: Optional[Callable[[str], None]] = None) -> None:
+    def btn_del_command(self, callback: Optional[Callable[[str], Task[None]]] = None) -> None:
         """
         Callback for the button self.btn_del.
 

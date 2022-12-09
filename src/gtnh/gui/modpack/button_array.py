@@ -1,3 +1,4 @@
+from asyncio import Task
 from tkinter import DISABLED, Frame, LabelFrame
 from tkinter.ttk import Frame as TtkFrame, LabelFrame as TtkLabelFrame
 from typing import Any, Callable, List, Optional, Union
@@ -10,25 +11,25 @@ from gtnh.gui.lib.progress_bar import CustomProgressBar
 class ButtonArrayCallback:
     def __init__(
         self,
-        update_asset: Callable[[], None],
-        generate_nightly: Callable[[], None],
-        client_mmc: Callable[[], None],
-        client_zip: Callable[[], None],
-        server_zip: Callable[[], None],
-        client_curse: Callable[[], None],
-        client_modrinth: Callable[[], None],
-        client_technic: Callable[[], None],
-        update_all: Callable[[], None],
+        update_asset: Callable[[], Task[None]],
+        generate_nightly: Callable[[], Task[None]],
+        client_mmc: Callable[[], Task[None]],
+        client_zip: Callable[[], Task[None]],
+        server_zip: Callable[[], Task[None]],
+        client_curse: Callable[[], Task[None]],
+        client_modrinth: Callable[[], Task[None]],
+        client_technic: Callable[[], Task[None]],
+        update_all: Callable[[], Task[None]],
     ) -> None:
-        self.update_assets: Callable[[], None] = update_asset
-        self.generate_nightly: Callable[[], None] = generate_nightly
-        self.client_mmc: Callable[[], None] = client_mmc
-        self.client_zip: Callable[[], None] = client_zip
-        self.server_zip: Callable[[], None] = server_zip
-        self.client_curse: Callable[[], None] = client_curse
-        self.client_modrinth: Callable[[], None] = client_modrinth
-        self.client_technic: Callable[[], None] = client_technic
-        self.all: Callable[[], None] = update_all
+        self.update_assets: Callable[[], Task[None]] = update_asset
+        self.generate_nightly: Callable[[], Task[None]] = generate_nightly
+        self.client_mmc: Callable[[], Task[None]] = client_mmc
+        self.client_zip: Callable[[], Task[None]] = client_zip
+        self.server_zip: Callable[[], Task[None]] = server_zip
+        self.client_curse: Callable[[], Task[None]] = client_curse
+        self.client_modrinth: Callable[[], Task[None]] = client_modrinth
+        self.client_technic: Callable[[], Task[None]] = client_technic
+        self.all: Callable[[], Task[None]] = update_all
 
 
 class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore

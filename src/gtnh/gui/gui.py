@@ -113,9 +113,7 @@ class Window(ThemedTk, Tk):
             client_zip=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.ZIP)),
             server_zip=lambda: asyncio.ensure_future(self.assemble_release(Side.SERVER, Archive.ZIP)),
             client_curse=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.CURSEFORGE)),
-            client_modrinth=lambda: asyncio.ensure_future(
-                self.assemble_release(Side.CLIENT, Archive.MODRINTH)
-            ),
+            client_modrinth=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.MODRINTH)),
             client_technic=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.TECHNIC)),
             update_all=lambda: asyncio.ensure_future(self.assemble_all()),
             load=lambda release_name: asyncio.ensure_future(self.load_gtnh_version(release_name)),
@@ -146,9 +144,7 @@ class Window(ThemedTk, Tk):
             get_github_mods_callback=self.get_github_mods,
             set_mod_version=self.set_github_mod_version,
             set_mod_side=lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)),
-            set_mod_side_default=lambda name, side: asyncio.ensure_future(
-                self.set_github_mod_side_default(name, side)
-            ),
+            set_mod_side_default=lambda name, side: asyncio.ensure_future(self.set_github_mod_side_default(name, side)),
             set_modpack_version=self.set_modpack_version,
             update_current_task_progress_bar=self.progress_callback,
             update_global_progress_bar=self.global_callback,

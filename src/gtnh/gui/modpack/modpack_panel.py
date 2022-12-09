@@ -1,3 +1,4 @@
+from asyncio import Task
 from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, List, Optional
@@ -10,18 +11,18 @@ from gtnh.gui.modpack.release_list import ReleaseList, ReleaseListCallback
 class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
     def __init__(
         self,
-        update_asset: Callable[[], None],
-        generate_nightly: Callable[[], None],
-        client_mmc: Callable[[], None],
-        client_zip: Callable[[], None],
-        server_zip: Callable[[], None],
-        client_curse: Callable[[], None],
-        client_modrinth: Callable[[], None],
-        client_technic: Callable[[], None],
-        update_all: Callable[[], None],
-        load: Callable[[str], None],
-        delete: Callable[[str], None],
-        add: Callable[[str, str], None],
+        update_asset: Callable[[], Task[None]],
+        generate_nightly: Callable[[], Task[None]],
+        client_mmc: Callable[[], Task[None]],
+        client_zip: Callable[[], Task[None]],
+        server_zip: Callable[[], Task[None]],
+        client_curse: Callable[[], Task[None]],
+        client_modrinth: Callable[[], Task[None]],
+        client_technic: Callable[[], Task[None]],
+        update_all: Callable[[], Task[None]],
+        load: Callable[[str], Task[None]],
+        delete: Callable[[str], Task[None]],
+        add: Callable[[str, str], Task[None]],
     ):
         ButtonArrayCallback.__init__(
             self,

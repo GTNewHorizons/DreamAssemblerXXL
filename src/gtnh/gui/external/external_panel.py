@@ -1,4 +1,5 @@
 import asyncio
+from asyncio import Task
 from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
@@ -20,8 +21,8 @@ class ExternalPanelCallback(ModInfoCallback):
     def __init__(
         self,
         set_mod_version: Callable[[str, str], None],
-        set_mod_side: Callable[[str, Side], None],
-        set_mod_side_default: Callable[[str, str], None],
+        set_mod_side: Callable[[str, Side], Task[None]],
+        set_mod_side_default: Callable[[str, str], Task[None]],
         get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
         get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]],
         toggle_freeze: Callable[[], None],

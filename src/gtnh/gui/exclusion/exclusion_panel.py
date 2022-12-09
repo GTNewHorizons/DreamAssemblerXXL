@@ -1,3 +1,4 @@
+from asyncio import Task
 from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Dict, List, Optional
@@ -10,9 +11,9 @@ from gtnh.gui.lib.text_entry import TextEntry
 
 
 class ExclusionPanelCallback:
-    def __init__(self, add: Callable[[str], None], delete: Callable[[str], None]):
-        self.add: Callable[[str], None] = add
-        self.delete: Callable[[str], None] = delete
+    def __init__(self, add: Callable[[str], Task[None]], delete: Callable[[str], Task[None]]):
+        self.add: Callable[[str], Task[None]] = add
+        self.delete: Callable[[str], Task[None]] = delete
 
 
 class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
@@ -44,8 +45,8 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
         self.xpadding: int = 0
         self.ypadding: int = 0
-        self.add_callback: Callable[[str], None] = callbacks.add
-        self.del_callback: Callable[[str], None] = callbacks.delete
+        self.add_callback: Callable[[str], Task[None]] = callbacks.add
+        self.del_callback: Callable[[str], Task[None]] = callbacks.delete
 
         self.listbox: CustomListbox = CustomListbox(
             self,
