@@ -107,22 +107,22 @@ class Window(ThemedTk, Tk):
 
         # frame for the modpack handling
         modpack_panel_callbacks: ModpackPanelCallback = ModpackPanelCallback(
-            update_asset=lambda: asyncio.ensure_future(self.update_assets()).result(),
-            generate_nightly=lambda: asyncio.ensure_future(self.update_nightly()).result(),
-            client_mmc=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.MMC)).result(),
-            client_zip=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.ZIP)).result(),
-            server_zip=lambda: asyncio.ensure_future(self.assemble_release(Side.SERVER, Archive.ZIP)).result(),
-            client_curse=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.CURSEFORGE)).result(),
+            update_asset=lambda: asyncio.ensure_future(self.update_assets()),
+            generate_nightly=lambda: asyncio.ensure_future(self.update_nightly()),
+            client_mmc=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.MMC)),
+            client_zip=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.ZIP)),
+            server_zip=lambda: asyncio.ensure_future(self.assemble_release(Side.SERVER, Archive.ZIP)),
+            client_curse=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.CURSEFORGE)),
             client_modrinth=lambda: asyncio.ensure_future(
                 self.assemble_release(Side.CLIENT, Archive.MODRINTH)
-            ).result(),
-            client_technic=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.TECHNIC)).result(),
-            update_all=lambda: asyncio.ensure_future(self.assemble_all()).result(),
-            load=lambda release_name: asyncio.ensure_future(self.load_gtnh_version(release_name)).result(),
-            delete=lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)).result(),
+            ),
+            client_technic=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.TECHNIC)),
+            update_all=lambda: asyncio.ensure_future(self.assemble_all()),
+            load=lambda release_name: asyncio.ensure_future(self.load_gtnh_version(release_name)),
+            delete=lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)),
             add=lambda release_name, previous_version: asyncio.ensure_future(
                 self.add_gtnh_version(release_name, previous_version)
-            ).result(),
+            ),
         )
 
         self.modpack_list_frame: ModpackPanel = ModpackPanel(
@@ -145,10 +145,10 @@ class Window(ThemedTk, Tk):
             get_gtnh_callback=self._get_modpack_manager,
             get_github_mods_callback=self.get_github_mods,
             set_mod_version=self.set_github_mod_version,
-            set_mod_side=lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)).result(),
+            set_mod_side=lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)),
             set_mod_side_default=lambda name, side: asyncio.ensure_future(
                 self.set_github_mod_side_default(name, side)
-            ).result(),
+            ),
             set_modpack_version=self.set_modpack_version,
             update_current_task_progress_bar=self.progress_callback,
             update_global_progress_bar=self.global_callback,
@@ -166,10 +166,10 @@ class Window(ThemedTk, Tk):
 
         external_panel_callbacks: ExternalPanelCallback = ExternalPanelCallback(
             set_mod_version=self.set_external_mod_version,
-            set_mod_side=lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)).result(),
+            set_mod_side=lambda name, side: asyncio.ensure_future(self.set_external_mod_side(name, side)),
             set_mod_side_default=lambda name, side: asyncio.ensure_future(
                 self.set_external_mod_side_default(name, side)
-            ).result(),
+            ),
             get_gtnh_callback=self._get_modpack_manager,
             get_external_mods_callback=self.get_external_mods,
             toggle_freeze=self.trigger_toggle,
@@ -183,8 +183,8 @@ class Window(ThemedTk, Tk):
         )
 
         exclusion_client_callbacks: ExclusionPanelCallback = ExclusionPanelCallback(
-            add=lambda exclusion: asyncio.ensure_future(self.add_exclusion("client", exclusion)).result(),
-            delete=lambda exclusion: asyncio.ensure_future(self.del_exclusion("client", exclusion)).result(),
+            add=lambda exclusion: asyncio.ensure_future(self.add_exclusion("client", exclusion)),
+            delete=lambda exclusion: asyncio.ensure_future(self.del_exclusion("client", exclusion)),
         )
 
         # frame for the client file exclusions
@@ -193,8 +193,8 @@ class Window(ThemedTk, Tk):
         )
 
         exclusion_server_callbacks: ExclusionPanelCallback = ExclusionPanelCallback(
-            add=lambda exclusion: asyncio.ensure_future(self.add_exclusion("server", exclusion)).result(),
-            delete=lambda exclusion: asyncio.ensure_future(self.del_exclusion("server", exclusion)).result(),
+            add=lambda exclusion: asyncio.ensure_future(self.add_exclusion("server", exclusion)),
+            delete=lambda exclusion: asyncio.ensure_future(self.del_exclusion("server", exclusion)),
         )
 
         # frame for the server side exclusions
@@ -330,6 +330,8 @@ class Window(ThemedTk, Tk):
         self.current_task_reset_callback()
 
         self.global_callback(self.get_progress(), "Downloading assets")
+        print([x for x in release.github_mods.keys()])
+        print([ x for x in release.external_mods.keys()])
         await gtnh.download_release(
             release, download_callback=self.progress_callback, error_callback=self.add_error_message
         )
@@ -508,23 +510,30 @@ class Window(ThemedTk, Tk):
         :param side: side of the pack
         :return: None
         """
-        previous_side = self.external_mods[mod_name].side
-        if previous_side == side:
-            showwarning(
-                "Side already set up",
-                f"{mod_name}'s side is already set on {side}",
-            )
-            return
+        if mod_name in self.external_mods:
+            previous_side = self.external_mods[mod_name].side
+            if previous_side == side:
+                showwarning(
+                    "Side already set up",
+                    f"{mod_name}'s side is already set on {side}",
+                )
+                return
 
-        if side == Side.NONE:
-            del self.github_mods[mod_name]
+            if side == Side.NONE:
+                del self.github_mods[mod_name]
+            else:
+                if previous_side == Side.NONE:
+                    self.external_mods[mod_name] = ModVersionInfo(
+                        version=self.external_mod_frame.mod_info_frame.version.get(), side=side
+                    )
+                else:
+                    self.external_mods[mod_name].side = side
+
         else:
-            if previous_side == Side.NONE:
+            if side != Side.NONE:
                 self.external_mods[mod_name] = ModVersionInfo(
                     version=self.external_mod_frame.mod_info_frame.version.get(), side=side
                 )
-            else:
-                self.external_mods[mod_name].side = side
 
     async def set_external_mod_side_default(self, mod_name: str, side: str) -> None:
         gtnh: GTNHModpackManager = await self._get_modpack_manager()

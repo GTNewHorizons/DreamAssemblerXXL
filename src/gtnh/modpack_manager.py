@@ -836,10 +836,13 @@ class GTNHModpackManager:
 
             changed_github_mods = set(release.github_mods.keys() & previous_release.github_mods.keys())
             for mod_name in changed_github_mods | new_mods:
-                version_changes[mod_name] = (
-                    previous_release.github_mods.get(mod_name, None),
-                    release.github_mods[mod_name],
-                )
+                #looks like here there are some shenanigans happening, so i'm just going to check for mod presence before anything
+                #i don't quite get what's happenning here.
+                if mod_name in release.github_mods:
+                    version_changes[mod_name] = (
+                        previous_release.github_mods.get(mod_name, None),
+                        release.github_mods[mod_name],
+                    )
         else:
             changed_github_mods = set(release.github_mods.keys())
             for mod_name in changed_github_mods:
