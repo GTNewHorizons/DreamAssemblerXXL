@@ -115,7 +115,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
         ]
 
         # debugging purposes
-        self.debug = True
+        self.debug = False
         if self.debug:
             self.name.set("TC4Tweaks_test")
             self.version.set("1.4.22")
