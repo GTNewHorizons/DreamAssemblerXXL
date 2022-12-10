@@ -157,7 +157,8 @@ def compress_changelog(file_path: Path) -> None:
             line = line.strip()
             if line.startswith("# New Mod - "):
                 matches = re.search("^# New Mod - (.*?):(.*?)$", line)
-                assert matches
+                if matches is None:
+                    continue
                 name = matches.group(1)
                 version = matches.group(2)
                 current_entry = ModEntry(name, version, True)
@@ -165,7 +166,8 @@ def compress_changelog(file_path: Path) -> None:
                 entries.append(current_entry)
             elif line.startswith("# Updated - "):
                 matches = re.search("^# Updated - (.*?) - (.*?) -->(.*?)$", line)
-                assert matches
+                if matches is None:
+                    continue
                 name = matches.group(1)
                 version_from = matches.group(2)
                 version_to = matches.group(3)
@@ -187,7 +189,8 @@ def compress_changelog(file_path: Path) -> None:
                         current_entry.new_contributors.append(f"{line[3:]} ({current_version})")
                 elif line.startswith(">**Full Changelog**: "):
                     matches = re.search("(compare|commits)/(.*?)(\\.\\.\\.(.*))?$", line)
-                    assert matches
+                    if matches is None:
+                        continue
                     if matches.group(1) == "compare":
                         current_entry.oldest_link_version = matches.group(2)
                         if current_entry.newest_link_version == "":
