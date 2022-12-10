@@ -20,7 +20,7 @@ from gtnh.gui.modpack.modpack_panel import ModpackPanel, ModpackPanelCallback
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
-from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
+from gtnh.models.mod_info import GTNHModInfo
 from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
@@ -144,13 +144,15 @@ class Window(ThemedTk, Tk):
             get_github_mods_callback=self.get_github_mods,
             set_mod_version=self.set_github_mod_version,
             set_mod_side=lambda name, side: asyncio.ensure_future(self.set_github_mod_side(name, side)),
-            set_mod_side_default=lambda name, side: asyncio.ensure_future(self.set_github_mod_side_default(name, side)),
+            set_mod_side_default=lambda name, side: asyncio.ensure_future(
+                self.set_external_mod_side_default(name, side)
+            ),
             set_modpack_version=self.set_modpack_version,
             update_current_task_progress_bar=self.progress_callback,
             update_global_progress_bar=self.global_callback,
             reset_current_task_progress_bar=self.current_task_reset_callback,
             reset_global_progress_bar=self.global_reset_callback,
-            add_mod_in_memory=self._add_github_mod,
+            add_mod_in_memory=self._add_mod,
             del_mod_in_memory=self._del_github_mod,
         )
 
@@ -203,7 +205,7 @@ class Window(ThemedTk, Tk):
 
         self.toggled: bool = True  # state variable indicating if the widgets are disabled or not
 
-    def _add_github_mod(self, name: str, version: str) -> None:
+    def _add_mod(self, name: str, version: str) -> None:
         """
         add a mod to inmemory github modlist.
 
@@ -479,9 +481,9 @@ class Window(ThemedTk, Tk):
             else:
                 self.github_mods[mod_name].side = side
 
-    async def set_github_mod_side_default(self, mod_name: str, side: str) -> None:
+    async def set_mod_side_default(self, mod_name: str, side: str) -> None:
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        previous_side: Side = gtnh.assets.get_github_mod(mod_name).side
+        previous_side: Side = gtnh.assets.get_mod(mod_name).side
         if previous_side == side:
             showwarning(
                 "Side already set up",
@@ -489,7 +491,7 @@ class Window(ThemedTk, Tk):
             )
             return
 
-        if not gtnh.set_github_mod_side(mod_name, side):
+        if not gtnh.set_mod_side(mod_name, side):
             showerror(
                 "Error setting up the side of the mod",
                 f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details",
@@ -531,7 +533,7 @@ class Window(ThemedTk, Tk):
 
     async def set_external_mod_side_default(self, mod_name: str, side: str) -> None:
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        previous_side: Side = gtnh.assets.get_external_mod(mod_name).side
+        previous_side: Side = gtnh.assets.get_mod(mod_name).side
         if previous_side == side:
             showwarning(
                 "Side already set up",
@@ -539,7 +541,7 @@ class Window(ThemedTk, Tk):
             )
             return
 
-        if not gtnh.set_external_mod_side(mod_name, side):
+        if not gtnh.set_mod_side(mod_name, side):
             showerror(
                 "Error setting up the side of the mod",
                 f"Error during the process of setting up {mod_name}'s side to {side}. Check the logs for more details",
@@ -584,7 +586,7 @@ class Window(ThemedTk, Tk):
         :return: a list of github mod names
         """
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        return [x.name for x in gtnh.assets.github_mods]
+        return [x.name for x in gtnh.assets.mods if x.source == ModSource.github]
 
     def get_github_mods(self) -> Dict[str, ModVersionInfo]:
         """
@@ -644,7 +646,7 @@ class Window(ThemedTk, Tk):
             errored_mods = []
 
             # checking for errored mods
-            for mod in gtnh.assets.github_mods:
+            for mod in gtnh.assets.mods:
                 if mod.needs_attention:
                     errored_mods.append(mod)
 
@@ -706,7 +708,7 @@ class Window(ThemedTk, Tk):
             errored_mods = []
 
             # checking for errored mods
-            for mod in gtnh.assets.github_mods:
+            for mod in gtnh.assets.mods:
                 if mod.needs_attention:
                     errored_mods.append(mod)
 
@@ -811,7 +813,8 @@ class Window(ThemedTk, Tk):
         valid_side: Set[Side] = {Side.NONE}
         github_mods_to_delete: List[str] = []
         external_mods_to_delete: List[str] = []
-        mod_data: Optional[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = None
+        mod_data: Optional[Tuple[GTNHModInfo, GTNHVersion]]
+
         for mod_name, version in github_mods.items():
             mod_data = gtnh_modpack.assets.get_mod_and_version(
                 mod_name, version, valid_sides=valid_side, source=ModSource.github
@@ -859,13 +862,13 @@ class Window(ThemedTk, Tk):
             config=self.gtnh_config,
             github_mods={
                 mod_name: ModVersionInfo(
-                    version=info.version, side=info.side if info.side else gtnh.assets.get_github_mod(mod_name).side
+                    version=info.version, side=info.side if info.side else gtnh.assets.get_mod(mod_name).side
                 )
                 for mod_name, info in self.github_mods.items()
             },
             external_mods={
                 mod_name: ModVersionInfo(
-                    version=info.version, side=info.side if info.side else gtnh.assets.get_external_mod(mod_name).side
+                    version=info.version, side=info.side if info.side else gtnh.assets.get_mod(mod_name).side
                 )
                 for mod_name, info in self.external_mods.items()
             },
@@ -950,7 +953,7 @@ class Window(ThemedTk, Tk):
         :return: a list of string with update_all the external mods availiable
         """
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
-        return [mod.name for mod in gtnh.assets.external_mods]
+        return [mod.name for mod in gtnh.assets.mods if mod.source != ModSource.github]
 
     async def get_modpack_versions(self) -> List[str]:
         """

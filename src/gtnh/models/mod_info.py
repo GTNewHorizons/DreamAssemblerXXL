@@ -16,11 +16,12 @@ class GTNHModInfo(GTNHBaseModel, Versionable):
     side: Side = Field(default=Side.BOTH)
     source: ModSource = Field(default=ModSource.github)
 
+    external_url: str | None
+    project_id: str | None
+    slug: str | None
+
     disabled: bool = Field(default=False)
 
 
 class ExternalModInfo(GTNHModInfo):
-    external_url: str | None
-    project_id: str | None
-    slug: str | None
     source: ModSource = Field(default=ModSource.curse)

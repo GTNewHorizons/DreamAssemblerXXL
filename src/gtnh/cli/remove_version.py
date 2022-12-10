@@ -24,7 +24,7 @@ async def remove_version(mod_name: str, version_tag: str) -> None:
 
         m = GTNHModpackManager(client)
 
-        mod = m.assets.get_github_mod(mod_name)
+        mod = m.assets.get_mod(mod_name)
         if not mod:
             log.error(f"Mod not found {mod_name}")
             return

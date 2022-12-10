@@ -1,7 +1,7 @@
 import shutil
-from json import dump, loads
+from json import dump
 from pathlib import Path
-from typing import Any, Callable, Dict, List, Optional, Tuple
+from typing import Callable, Dict, List, Optional, Tuple
 from zipfile import ZipFile
 
 import httpx
@@ -28,21 +28,15 @@ def is_valid_curse_mod(mod: GTNHModInfo | ExternalModInfo, version: GTNHVersion)
     :param version: its corresponding version
     :return: true if it is a valid curse mod
     """
-    if mod.source == ModSource.github:  # instance checks are borked somehow
+    # If we don't have curse file info, it's not a valid curse file
+    if version.curse_file is None:
         return False
 
-    if version.browser_download_url is None:
+    # If we don't have a file no, or a project no, it's not a valid curse file
+    if not version.curse_file.file_no or not version.curse_file.project_no:
         return False
 
-    assert isinstance(mod, ExternalModInfo)
-    if mod.project_id is None:
-        return False
-
-    try:
-        int(version.browser_download_url.split("/")[-1])
-        return True
-    except ValueError:
-        return False
+    return True
 
 
 def is_mod_from_hidden_repo(mod: GTNHModInfo | ExternalModInfo) -> bool:
@@ -60,7 +54,7 @@ def is_mod_from_hidden_repo(mod: GTNHModInfo | ExternalModInfo) -> bool:
 
 def is_mod_from_github(mod: GTNHModInfo | ExternalModInfo) -> bool:
     """
-    Returns wheter or not a given mod is from github.
+    Returns whether or not a given mod is from github.
 
     :param mod: the given mod object
     :return: true if it's from github
@@ -99,7 +93,7 @@ def resolve_github_url(mod: GTNHModInfo, version: GTNHVersion) -> str:
 
     with httpx.Client(http2=True) as client:
         url = get_maven_url(mod, version)
-        response: httpx.Response = client.get(url)
+        response: httpx.Response = client.head(url)
         if response.status_code != 200:
             assert version.browser_download_url
             return version.browser_download_url
@@ -238,12 +232,8 @@ class CurseAssembler(GenericAssembler):
                     continue  # skipping it as it's in the overrides
 
                 url: Optional[str]
-                if (
-                    mod.source == ModSource.github
-                ):  # somehow all the mods are casted to GTNHModInfo so need to check this
+                if mod.source == ModSource.github:
                     url = resolve_github_url(mod, version)
-                elif is_valid_curse_mod(mod, version):
-                    continue
                 else:
                     url = version.download_url
 
@@ -272,43 +262,31 @@ class CurseAssembler(GenericAssembler):
         :return: None
         """
 
-        metadata: str = """{
-  "minecraft": {
-    "version": "1.7.10",
-    "modLoaders": [
-      {
-        "id": "forge-10.13.4.1614",
-        "primary": true
-      }
-    ]
-  },
-  "manifestType": "minecraftModpack",
-  "manifestVersion": 1,
-  "name": "GT New Horizons",
-  "version": "{0}-1.7.10",
-  "author": "DreamMasterXXL",
-  "files": [],
-  "overrides": "overrides"
-}"""
-        metadata_object: Dict[str, Any] = loads(metadata)
-        metadata_object["version"] = metadata_object["version"].format(self.release.version)
+        metadata = {
+            "minecraft": {"version": "1.7.10", "modLoaders": [{"id": "forge-10.13.4.1614", "primary": True}]},
+            "manifestType": "minecraftModpack",
+            "manifestVersion": 1,
+            "name": "GT New Horizons",
+            "version": "{0}-1.7.10".format(self.release.version),
+            "author": "DreamMasterXXL",
+            "overrides": "overrides",
+        }
 
         mod: GTNHModInfo | ExternalModInfo
         version: GTNHVersion
+        files = []
         for mod, version in self.get_mods(side):
             if is_valid_curse_mod(mod, version):
+                assert version.curse_file  # make mypy happy
                 # ignoring mypy errors here because it's all good in the check above
-                data: Dict[str, Any] = {
-                    "projectID": int(mod.project_id),  # type: ignore
-                    # hacky af but i don't want to go in the process of readding them all by hand while the data is
-                    # still stored somewhere else in the metadata
-                    "fileID": int(version.browser_download_url.split("/")[-1]),  # type: ignore
-                    "required": True,
-                }
-                metadata_object["files"].append(data)
+                files.append(
+                    {"projectID": version.curse_file.project_no, "fileID": version.curse_file.file_no, "required": True}
+                )
+
+        metadata["files"] = files
 
         with open(self.tempfile, "w") as temp:
-            dump(metadata_object, temp, indent=2)
+            dump(metadata, temp, indent=2)
 
         archive.write(self.tempfile, arcname=str(self.manifest_json))
 

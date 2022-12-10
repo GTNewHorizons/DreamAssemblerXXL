@@ -4,6 +4,7 @@ import httpx
 from gidgethub.httpx import GitHubAPI
 from structlog import get_logger
 
+from gtnh.defs import ModSource
 from gtnh.github.uri import repo_releases_uri
 from gtnh.modpack_manager import GTNHModpackManager
 from gtnh.utils import get_github_token
@@ -17,7 +18,9 @@ async def generate_old_changelogs() -> None:
         gh = GitHubAPI(client, "DreamAssemblerXXL", oauth_token=get_github_token())
         log.info("Generating Old Changelogs")
         m = GTNHModpackManager(client)
-        for mod in m.assets.github_mods:
+        for mod in m.assets.mods:
+            if mod.source != ModSource.github:
+                continue
             last_version = None
             for version in mod.versions:
                 if "-dev" in version.version_tag or "-pre" in version.version_tag:

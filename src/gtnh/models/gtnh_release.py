@@ -31,7 +31,7 @@ class GTNHRelease(GTNHBaseModel):
         """
 
         for mod_name, mod_version in self.github_mods.items():
-            mod = available_assets.get_github_mod(mod_name)
+            mod = available_assets.get_mod(mod_name)
             if mod is None:
                 log.error(
                     f"{RED_CROSS} {Fore.RED}Github Mod "

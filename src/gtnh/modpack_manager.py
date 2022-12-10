@@ -1,5 +1,4 @@
 import asyncio
-import itertools
 import json
 import os
 from collections import defaultdict
@@ -27,6 +26,7 @@ from gtnh.defs import (
     RELEASE_MANIFEST_DIR,
     ROOT_DIR,
     UNKNOWN,
+    ModSource,
     Side,
 )
 from gtnh.exceptions import InvalidReleaseException, RepoNotFoundException
@@ -108,7 +108,8 @@ class GTNHModpackManager:
         all_repos = await self.get_all_repos()
 
         tasks = []
-        to_update_from_repos: list[Versionable] = list(itertools.chain(self.assets.github_mods, [self.assets.config]))
+        to_update_from_repos: list[Versionable] = [mod for mod in self.assets.mods if mod.source == ModSource.github]
+        to_update_from_repos.append(self.assets.config)
 
         delta_progress: float = 100 / len(to_update_from_repos)
         if global_progress_callback is not None:
@@ -396,7 +397,7 @@ class GTNHModpackManager:
 
         def _add_mod(mod: GTNHModInfo) -> None:
             modmap = external_mods if isinstance(mod, ExternalModInfo) else github_mods
-            modmap[mod.name] = ModVersionInfo(version=mod.latest_version, side=mod.side)
+            modmap[mod.name] = ModVersionInfo.create(mod=mod)
 
         for is_github, existing_mods in [(True, existing_release.github_mods), (False, existing_release.external_mods)]:
             for mod_name, previous_version in existing_mods.items():
@@ -480,76 +481,49 @@ class GTNHModpackManager:
         log.info(f"Trying to add `{name}`.")
 
         new_repo = await self.get_repo(name)
-        if self.assets.has_github_mod(new_repo.name):
+        if self.assets.has_mod(new_repo.name):
             log.info(f"Mod `{name}` already exists.")
             return None
 
         new_mod = await self.mod_from_repo(new_repo)
-        self.assets.add_github_mod(new_mod)
+        self.assets.add_mod(new_mod)
 
-        del self.assets._github_modmap
+        del self.assets._modmap  # noqa
 
         log.info(f"Successfully added {name}!")
         self.save_assets()
         return new_mod
 
-    async def delete_github_mod(self, name: str) -> bool:
+    async def delete_mod(self, name: str) -> bool:
         """
-        Attempts to delete a github repository from the assets.
+        Attempts to delete a mod from the assets.
 
-        :param name: the name of the repository
+        :param name: the name of the repository/mod
         :return: true if the repo has been deleted from assets
         """
         log.info(f"Trying to delete `{name}`.")
 
-        if not self.assets.has_github_mod(name):
+        if not self.assets.has_mod(name):
             log.info(f"Mod `{name}` is not present in the assets.")
             return False
 
         mod_index: int = 0
 
-        for i, mod in enumerate(self.assets.github_mods):
+        for i, mod in enumerate(self.assets.mods):
             if mod.name == name:
                 mod_index = i
                 break
 
-        del self.assets.github_mods[mod_index]
-        del self.assets._github_modmap
+        del self.assets.mods[mod_index]
+        del self.assets._modmap  # noqa
         self.save_assets()
 
         log.info(f"Successfully deleted {name}!")
         return True
 
-    async def delete_external_mod(self, name: str) -> bool:
-        """
-        Attempts to delete an external mod from the assets.
-
-        :param name: the name of the mod
-        :return: true if the mod has been deleted from assets
-        """
-        log.info(f"Trying to delete `{name}` in external assets.")
-
-        if not self.assets.has_external_mod(name):
-            log.info(f"Mod `{name}` is not present in the external assets.")
-            return False
-
-        mod_index: int = 0
-
-        for i, mod in enumerate(self.assets.external_mods):
-            if mod.name == name:
-                mod_index = i
-                break
-
-        del self.assets.external_mods[mod_index]
-        del self.assets._external_modmap
-        self.save_assets()
-
-        log.info(f"Successfully deleted {name} from the external assets!")
-        return True
-
     async def regen_github_assets(self, callback: Optional[Callable[[float, str], None]] = None) -> None:
         log.info("refreshing all the github mods")
-        repo_names = [repo.name for repo in self.assets.github_mods]
+        repo_names = [mod.name for mod in self.assets.mods if mod.source == ModSource.github]
         delta_progress: float = 100 / len(repo_names)
         for repo_name in repo_names:
             await self.regen_github_repo_asset(repo_name, callback=callback, delta_progress=delta_progress)
@@ -563,11 +537,16 @@ class GTNHModpackManager:
 
         if callback is not None and delta_progress is not None:
             callback(delta_progress, f"regenerating assets for {repo_name}")
-        side: Side = self.assets.get_github_mod(repo_name).side
-        await self.delete_github_mod(repo_name)
+        side: Side
+        try:
+            side = self.assets.get_mod(repo_name).side
+        except Exception:
+            side = Side.BOTH
+
+        await self.delete_mod(repo_name)
         await self.add_github_mod(repo_name)
         if side != Side.BOTH:  # by default the side is set to BOTH
-            self.set_github_mod_side(repo_name, side)
+            self.set_mod_side(repo_name, side)
         self.save_assets()
 
     async def regen_config_assets(self) -> None:
@@ -632,9 +611,7 @@ class GTNHModpackManager:
         Saves the Available Mods Manifest
         """
         log.info(f"Saving assets to from {self.gtnh_asset_manifest_path}")
-        dumped = self.assets.json(
-            exclude={"_github_modmap", "_external_modmap"}, exclude_unset=True, exclude_none=True, exclude_defaults=True
-        )
+        dumped = self.assets.json(exclude={"_modmap"}, exclude_unset=True, exclude_none=True)
         if dumped:
             with open(self.gtnh_asset_manifest_path, "w", encoding="utf-8") as f:
                 f.write(dumped)
@@ -652,7 +629,7 @@ class GTNHModpackManager:
         :return: Set of repo names missing
         """
         all_repo_names = set((await self.get_all_repos()).keys())
-        all_github_mod_names = set(self.assets._github_modmap.keys())
+        all_github_mod_names = set(self.assets._modmap.keys())
         config_repo = CONFIG_REPO_NAME
         return all_repo_names - all_github_mod_names - self.blacklisted_repos - {config_repo}
 
@@ -661,7 +638,7 @@ class GTNHModpackManager:
         Return the list of github mods that are missing a maven
         :return: Set of repo anmes missing mavens
         """
-        all_github_mod_names = set(k for k, v in self.assets._github_modmap.items() if v.maven is None)
+        all_github_mod_names = set(k for k, v in self.assets._modmap.items() if v.maven is None)
 
         return all_github_mod_names
 
@@ -779,7 +756,7 @@ class GTNHModpackManager:
         downloaders = []
         for is_github, mods in [(True, release.github_mods), (False, release.external_mods)]:
             for mod_name, mod_version in mods.items():
-                mod = self.assets.get_github_mod(mod_name) if is_github else self.assets.get_external_mod(mod_name)
+                mod = self.assets.get_mod(mod_name)
                 mod_callback = (
                     lambda name: download_callback(delta_progress, f"mod {name} downloaded!")
                     if download_callback
@@ -862,7 +839,7 @@ class GTNHModpackManager:
             if old_version == new_version:
                 continue
 
-            mod = self.assets.get_github_mod(mod_name)
+            mod = self.assets.get_mod(mod_name)
             mod_versions = mod.get_versions(
                 left=old_version.version if old_version else None, right=new_version.version
             )
@@ -886,28 +863,11 @@ class GTNHModpackManager:
 
         return changelog
 
-    def set_github_mod_side(self, mod_name: str, side: str) -> bool:
-        if self.assets.has_github_mod(mod_name):
-            mod: GTNHModInfo = self.assets.get_github_mod(mod_name)
+    def set_mod_side(self, mod_name: str, side: str) -> bool:
+        if self.assets.has_mod(mod_name):
+            mod: GTNHModInfo = self.assets.get_mod(mod_name)
         else:
             log.error(f"Release `{Fore.RED}{mod_name} is not a github mod{Fore.RESET}")
-            return False
-
-        if mod.side == side:
-            log.warn(f"{Fore.YELLOW}{mod.name}'s side is already set to {side}{Fore.RESET}")
-            return False
-
-        mod.side = Side[side]
-        self.save_assets()
-
-        log.info(f"{Fore.GREEN}Side of {mod.name} has been set to {mod.side}{Fore.RESET}")
-        return True
-
-    def set_external_mod_side(self, mod_name: str, side: str) -> bool:
-        if self.assets.has_external_mod(mod_name):
-            mod: ExternalModInfo = self.assets.get_external_mod(mod_name)
-        else:
-            log.error(f"Release `{Fore.RED}{mod_name} is not an external mod{Fore.RESET}")
             return False
 
         if mod.side == side:
