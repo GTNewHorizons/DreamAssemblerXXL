@@ -516,7 +516,7 @@ class Window(ThemedTk, Tk):
                 return
 
             if side == Side.NONE:
-                del self.github_mods[mod_name]
+                del self.external_mods[mod_name]
             else:
                 if previous_side == Side.NONE:
                     self.external_mods[mod_name] = ModVersionInfo(
