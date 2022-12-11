@@ -1050,10 +1050,10 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.0.363-GTNH...3.0.364-GTNH-pre
 
 ## *3.0.363-GTNH*
->## What's Changed
->* Prevent editmode from being written to json by @miozune in https://github.com/GTNewHorizons/BetterQuesting/pull/71
->
->
+>## What's Changed
+>* Prevent editmode from being written to json by @miozune in https://github.com/GTNewHorizons/BetterQuesting/pull/71
+>
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.0.362-GTNH...3.0.363-GTNH
 
 ## *3.0.362-GTNH*
@@ -1612,16 +1612,16 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/BugTorch/compare/1.1.2-GTNH...1.1.6.2
 
 ## *1.1.2-GTNH*
->## What's Changed
->* fix mod loading on clientside by @charagarlnad in https://github.com/GTNewHorizons/BugTorch/pull/1
->* Replace XSTR with Xorshiro256** by @charagarlnad in https://github.com/GTNewHorizons/BugTorch/pull/2
->* include xoshiro256** class by @charagarlnad in https://github.com/GTNewHorizons/BugTorch/pull/3
->* Create zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/BugTorch/pull/4
->
->## New Contributors
->* @charagarlnad made their first contribution in https://github.com/GTNewHorizons/BugTorch/pull/1
->* @Kiwi233 made their first contribution in https://github.com/GTNewHorizons/BugTorch/pull/4
->
+>## What's Changed
+>* fix mod loading on clientside by @charagarlnad in https://github.com/GTNewHorizons/BugTorch/pull/1
+>* Replace XSTR with Xorshiro256** by @charagarlnad in https://github.com/GTNewHorizons/BugTorch/pull/2
+>* include xoshiro256** class by @charagarlnad in https://github.com/GTNewHorizons/BugTorch/pull/3
+>* Create zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/BugTorch/pull/4
+>
+>## New Contributors
+>* @charagarlnad made their first contribution in https://github.com/GTNewHorizons/BugTorch/pull/1
+>* @Kiwi233 made their first contribution in https://github.com/GTNewHorizons/BugTorch/pull/4
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/BugTorch/commits/1.1.2-GTNH
 
 # Updated - BuildCraft - 7.1.24 -->7.1.27
@@ -3724,69 +3724,69 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.82...5.09.40.84
 
 ## *5.09.40.83*
->## What's Changed
->* Require Better Glues in Graphene Production by @Steelux8 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1179
->* fix small ore and cass ore by @GlodBlock in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1150
->* Comment for developers. by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1153
->* Bees balance changes by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1166
->* Better Endgame Wireless EU by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1144
->* Added Mixer Recipe by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1177
->* Fix clicking FluidDisplay not working with digital tank overflow mode by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1149
->* Disable input filter on input buses by default by @xSkewer in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1167
->
->## New Contributors
->* @Runakai1 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1166
->
+>## What's Changed
+>* Require Better Glues in Graphene Production by @Steelux8 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1179
+>* fix small ore and cass ore by @GlodBlock in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1150
+>* Comment for developers. by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1153
+>* Bees balance changes by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1166
+>* Better Endgame Wireless EU by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1144
+>* Added Mixer Recipe by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1177
+>* Fix clicking FluidDisplay not working with digital tank overflow mode by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1149
+>* Disable input filter on input buses by default by @xSkewer in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1167
+>
+>## New Contributors
+>* @Runakai1 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1166
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.82...5.09.40.83
 
 ## *5.09.40.82*
->## What's Changed
->* Add water voiding recipe for Calcium Acetate Solution by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1163
->* Rework Turbine Materials and Useless Space Ores by @Steelux8 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1146
->* Add singleblock fluid recipe for Nitrous Oxide by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1165
->* A few GT Apiary Upgrade changes by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1164
->* Giga chad token by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1169
->* New coil textures. Credit to GDCloud and BlueRaven. by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1170
->* Expose some of the NEI methods and fields to addons by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1159
->* LCR Coil, Aesthetics by @POPlol333 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1172
->* Fix plasma turbine fuel overflow by @alexandre-tardif in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1173
->* Make Fusion Reactor shut down on energy shortage by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1174
->* Transcendent metal (almost) by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1171
->* Add energised tesseract by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1175
->* turned small and tiny dusts into dust for crops loots by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1178
->* Botania Materials with custom textures by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1168
->
->## New Contributors
->* @POPlol333 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1172
->
+>## What's Changed
+>* Add water voiding recipe for Calcium Acetate Solution by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1163
+>* Rework Turbine Materials and Useless Space Ores by @Steelux8 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1146
+>* Add singleblock fluid recipe for Nitrous Oxide by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1165
+>* A few GT Apiary Upgrade changes by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1164
+>* Giga chad token by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1169
+>* New coil textures. Credit to GDCloud and BlueRaven. by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1170
+>* Expose some of the NEI methods and fields to addons by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1159
+>* LCR Coil, Aesthetics by @POPlol333 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1172
+>* Fix plasma turbine fuel overflow by @alexandre-tardif in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1173
+>* Make Fusion Reactor shut down on energy shortage by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1174
+>* Transcendent metal (almost) by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1171
+>* Add energised tesseract by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1175
+>* turned small and tiny dusts into dust for crops loots by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1178
+>* Botania Materials with custom textures by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1168
+>
+>## New Contributors
+>* @POPlol333 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1172
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.81...5.09.40.82
 
 ## *5.09.40.81*
->## What's Changed
->* Generate raw silicon EBF recipe by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1140
->* Fix endstone and netherrack dust recipes by @xSkewer in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1141
->* Correct duration and EUt for Endstone / Netherrack centrifuge by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1142
->* Standardize Anti-Knock Agent recipes by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1143
->* Reduce cost of fluid filter covers by @xSkewer in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1145
->* Show voltage tier of transformer for Waila by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1148
->* MultiTileEntity MultiBlocks by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1006
->* Assembly line description fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1155
->* Allow robot using toolbox to fix maintenance issues not specify the hatch facing side by @repo-alt in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1152
->* don't allow pollution machine in cleanroom by @GlodBlock in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1147
->* update cleanroom's tooltip by @GlodBlock in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1156
->* add(api/enums): particle and sound effect enumerations by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1154
->* hotfix(SoundResource): off-by-one legacy id map by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1157
->* Set Huge Turbines to Higher Efficiency than Large by @Steelux8 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1151
->* Fix configuration circuit usage for bigger boilers by @repo-alt in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1139
->* Update NEI by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1158
->* New mats and items by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1161
->* Allow PA to parallel over 64 for UEV+ machines by @alexandre-tardif in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1162
->* Move Industrial Apiary to gregtech by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1107
->
->## New Contributors
->* @chochem made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1140
->* @alexandre-tardif made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1162
->
+>## What's Changed
+>* Generate raw silicon EBF recipe by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1140
+>* Fix endstone and netherrack dust recipes by @xSkewer in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1141
+>* Correct duration and EUt for Endstone / Netherrack centrifuge by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1142
+>* Standardize Anti-Knock Agent recipes by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1143
+>* Reduce cost of fluid filter covers by @xSkewer in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1145
+>* Show voltage tier of transformer for Waila by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1148
+>* MultiTileEntity MultiBlocks by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1006
+>* Assembly line description fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1155
+>* Allow robot using toolbox to fix maintenance issues not specify the hatch facing side by @repo-alt in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1152
+>* don't allow pollution machine in cleanroom by @GlodBlock in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1147
+>* update cleanroom's tooltip by @GlodBlock in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1156
+>* add(api/enums): particle and sound effect enumerations by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1154
+>* hotfix(SoundResource): off-by-one legacy id map by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1157
+>* Set Huge Turbines to Higher Efficiency than Large by @Steelux8 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1151
+>* Fix configuration circuit usage for bigger boilers by @repo-alt in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1139
+>* Update NEI by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1158
+>* New mats and items by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1161
+>* Allow PA to parallel over 64 for UEV+ machines by @alexandre-tardif in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1162
+>* Move Industrial Apiary to gregtech by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1107
+>
+>## New Contributors
+>* @chochem made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1140
+>* @alexandre-tardif made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1162
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.78...5.09.40.81
 
 ## *5.09.40.80-pre*
@@ -3819,14 +3819,14 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.76...5.09.40.77
 
 ## *5.09.40.76*
->## What's Changed
->* Fix dependency by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1131
->* more tiers of quad input hatches by @GlodBlock in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1123
->* fix npe from get output by @GlodBlock in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1133
->* DTPF Fixes by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1132
->* Add recipe owner display by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1135
->
->
+>## What's Changed
+>* Fix dependency by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1131
+>* more tiers of quad input hatches by @GlodBlock in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1123
+>* fix npe from get output by @GlodBlock in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1133
+>* DTPF Fixes by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1132
+>* Add recipe owner display by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1135
+>
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.40.72...5.09.40.76
 
 ## *5.09.40.72*
@@ -4554,9 +4554,9 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.0.1...0.0.2
 
 ## *0.0.1*
->## What's Changed
->* ItemStackMap by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/1
->
+>## What's Changed
+>* ItemStackMap by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/1
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/commits/0.0.1
 
 # Updated - GTplusplus - 1.7.20.GTNH -->1.7.98
@@ -4923,21 +4923,21 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.57...1.7.58-pre
 
 ## *1.7.57*
->## What's Changed
->* Fix Air Intake Hatches cannot be used for recipe input by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/254
->
->
+>## What's Changed
+>* Fix Air Intake Hatches cannot be used for recipe input by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/254
+>
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.56...1.7.57
 
 ## *1.7.56*
->## What's Changed
->* Chemical Plant fixes by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/248
->* Fix negative saw by @DianeXD in https://github.com/GTNewHorizons/GTplusplus/pull/249
->* fix ethanol disappear and add conversion recipe for certain fluid by @GlodBlock in https://github.com/GTNewHorizons/GTplusplus/pull/247
->* Correct melting point for Hydrazine by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/252
->* Add new GT++ foils for existing materials by @Connor-Colenso in https://github.com/GTNewHorizons/GTplusplus/pull/253
->
->
+>## What's Changed
+>* Chemical Plant fixes by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/248
+>* Fix negative saw by @DianeXD in https://github.com/GTNewHorizons/GTplusplus/pull/249
+>* fix ethanol disappear and add conversion recipe for certain fluid by @GlodBlock in https://github.com/GTNewHorizons/GTplusplus/pull/247
+>* Correct melting point for Hydrazine by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/252
+>* Add new GT++ foils for existing materials by @Connor-Colenso in https://github.com/GTNewHorizons/GTplusplus/pull/253
+>
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.55...1.7.56
 
 ## *1.7.55*
@@ -5448,12 +5448,12 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.10...0.4.11
 
 ## *0.4.10*
->## What's Changed
->* Fix duplicated recipes being generated for Large Centrifuge by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/55
->* Some LES bug fixes by @DianeXD in https://github.com/GTNewHorizons/GoodGenerator/pull/57
->* Fix ConcurrentModificationException by @DianeXD in https://github.com/GTNewHorizons/GoodGenerator/pull/59
->
->
+>## What's Changed
+>* Fix duplicated recipes being generated for Large Centrifuge by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/55
+>* Some LES bug fixes by @DianeXD in https://github.com/GTNewHorizons/GoodGenerator/pull/57
+>* Fix ConcurrentModificationException by @DianeXD in https://github.com/GTNewHorizons/GoodGenerator/pull/59
+>
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.9...0.4.10
 
 ## *0.4.9*
@@ -8209,13 +8209,13 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.7.5.29-GTNH...1.7.5.30-GTNH
 
 ## *1.7.5.29-GTNH*
->## What's Changed
->* Update buildscript by @eigenraven in https://github.com/GTNewHorizons/OpenComputers/pull/67
->* Allow robot "use" to actually use any side, including the side it is facing by @repo-alt in https://github.com/GTNewHorizons/OpenComputers/pull/68
->
->## New Contributors
->* @eigenraven made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/67
->
+>## What's Changed
+>* Update buildscript by @eigenraven in https://github.com/GTNewHorizons/OpenComputers/pull/67
+>* Allow robot "use" to actually use any side, including the side it is facing by @repo-alt in https://github.com/GTNewHorizons/OpenComputers/pull/68
+>
+>## New Contributors
+>* @eigenraven made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/67
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.7.5.28-GTNH...1.7.5.29-GTNH
 
 ## *1.7.5.28-GTNH*
@@ -8440,8 +8440,8 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.3.2-mapless...1.3.3-mapless
 
 ## *1.3.2-mapless*
->This release fixes 2 bugs:
->- a ConcurrentModificationException crash in Opis
+>This release fixes 2 bugs:
+>- a ConcurrentModificationException crash in Opis
 >- a NullPointer Exception in MobiusCore
 
 # Updated - OverloadedArmorBar - 1.0.0 -->1.0.1
@@ -8457,7 +8457,7 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/OverloadedArmorBar/compare/1.0.0...1.0.1
 
 ## *1.0.0*
->- Promoting to non beta version
+>- Promoting to non beta version
 >- add build.properties
 
 # New Mod - PersonalSpace:1.0.17
@@ -9008,10 +9008,10 @@
 
 # Updated - SpongeMixins - 1.4.0 -->1.5.0
 ## *1.5.0*
->## What's Changed
->* Add `findJarInClassPath`, Bump version by @mitchej123 in https://github.com/GTNewHorizons/SpongeMixins/pull/7
->
->
+>## What's Changed
+>* Add `findJarInClassPath`, Bump version by @mitchej123 in https://github.com/GTNewHorizons/SpongeMixins/pull/7
+>
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/SpongeMixins/compare/1.4.0...1.5.0
 
 # Updated - StandardQuestingPack - 3.0.186-GTNH -->3.0.197-GTNH
@@ -9418,9 +9418,9 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.1.3...1.1.4
 
 ## *1.1.3*
->## What's Changed
->* Use ItemStackMap from GTNHLib by @mitchej123 in https://github.com/GTNewHorizons/StructureLib/pull/9
->
+>## What's Changed
+>* Use ItemStackMap from GTNHLib by @mitchej123 in https://github.com/GTNewHorizons/StructureLib/pull/9
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.1.2...1.1.3
 
 ## *1.1.2*
@@ -10156,7 +10156,7 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.5.541...2.5.555-GTNH
 
 ## *2.5.541*
->Added Blacklist config for Focus of Dislocation 
+>Added Blacklist config for Focus of Dislocation 
 >
 
 # Updated - Thaumic_Exploration - 1.1.81-GTNH-0 -->1.1.91-GTNH
@@ -10361,8 +10361,8 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ToroHealth/compare/1.0.0...1.0.1
 
 ## *1.0.0*
-> - add build.properties
->- add always show config option
+> - add build.properties
+>- add always show config option
 >- promoting to non beta version
 
 # Updated - Translocators - 1.1.2.16 -->1.1.2.20
@@ -11087,27 +11087,27 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.5.60...0.5.63-pre
 
 ## *0.5.62*
->## What's Changed
->* Fix electric implosion compressor not accepting fluid recipes. by @Connor-Colenso in https://github.com/GTNewHorizons/bartworks/pull/164
->* Fix negative energy usage for EIC by @miozune in https://github.com/GTNewHorizons/bartworks/pull/170
->* Circuit Assembly Line enhanced tooltip by @kuba6000 in https://github.com/GTNewHorizons/bartworks/pull/171
->* Enable back piston work and use compacted inputs to check the recipe. by @kuba6000 in https://github.com/GTNewHorizons/bartworks/pull/169
->
->
+>## What's Changed
+>* Fix electric implosion compressor not accepting fluid recipes. by @Connor-Colenso in https://github.com/GTNewHorizons/bartworks/pull/164
+>* Fix negative energy usage for EIC by @miozune in https://github.com/GTNewHorizons/bartworks/pull/170
+>* Circuit Assembly Line enhanced tooltip by @kuba6000 in https://github.com/GTNewHorizons/bartworks/pull/171
+>* Enable back piston work and use compacted inputs to check the recipe. by @kuba6000 in https://github.com/GTNewHorizons/bartworks/pull/169
+>
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.5.61...0.5.62
 
 ## *0.5.61*
->## What's Changed
->* EIG: Refuse to run instead of voiding when power is downgraded by @kuba6000 in https://github.com/GTNewHorizons/bartworks/pull/161
->* Add whitelist to ignore ItemData check for EBF no gas recipe generation by @miozune in https://github.com/GTNewHorizons/bartworks/pull/163
->* Fix logic error by @miozune in https://github.com/GTNewHorizons/bartworks/pull/165
->* Replace Assline Solder in Bartworks Recipes by @miozune in https://github.com/GTNewHorizons/bartworks/pull/166
->* Fix radio hatch decay times by @greesyB in https://github.com/GTNewHorizons/bartworks/pull/168
->* Electric industrial greenhouse (EIG): Add support for several seeds by @kuba6000 in https://github.com/GTNewHorizons/bartworks/pull/167
->
->## New Contributors
->* @greesyB made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/168
->
+>## What's Changed
+>* EIG: Refuse to run instead of voiding when power is downgraded by @kuba6000 in https://github.com/GTNewHorizons/bartworks/pull/161
+>* Add whitelist to ignore ItemData check for EBF no gas recipe generation by @miozune in https://github.com/GTNewHorizons/bartworks/pull/163
+>* Fix logic error by @miozune in https://github.com/GTNewHorizons/bartworks/pull/165
+>* Replace Assline Solder in Bartworks Recipes by @miozune in https://github.com/GTNewHorizons/bartworks/pull/166
+>* Fix radio hatch decay times by @greesyB in https://github.com/GTNewHorizons/bartworks/pull/168
+>* Electric industrial greenhouse (EIG): Add support for several seeds by @kuba6000 in https://github.com/GTNewHorizons/bartworks/pull/167
+>
+>## New Contributors
+>* @greesyB made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/168
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.5.60...0.5.61
 
 ## *0.5.60*
@@ -11631,14 +11631,14 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.0.0.1...0.0.0.3
 
 ## *0.0.0.2*
->Just a minor change to update the release tag to how it's labeled in my code and everywhere else. (Just from the 0.0.0 ver labeling system to the 0.0.0.0 ver labeling system)
->
->## What's Changed
->* Cleanup by @kuba6000 in https://github.com/GTNewHorizons/thaumicinsurgence/pull/5
->
->## New Contributors
->* @kuba6000 made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/5
->
+>Just a minor change to update the release tag to how it's labeled in my code and everywhere else. (Just from the 0.0.0 ver labeling system to the 0.0.0.0 ver labeling system)
+>
+>## What's Changed
+>* Cleanup by @kuba6000 in https://github.com/GTNewHorizons/thaumicinsurgence/pull/5
+>
+>## New Contributors
+>* @kuba6000 made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/5
+>
 >**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.0.1...0.0.0.2
 
 ## *0.0.0.1*

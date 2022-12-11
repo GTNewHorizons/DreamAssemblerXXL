@@ -302,7 +302,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
         index: int = self.listbox.get()
         gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-        mod_info: GTNHModInfo = gtnh.assets.get_github_mod(self.listbox.get_value_at_index(index))
+        mod_info: GTNHModInfo = gtnh.assets.get_mod(self.listbox.get_value_at_index(index))
         name: str = mod_info.name
         mod_versions: list[GTNHVersion] = mod_info.versions
         latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
@@ -396,7 +396,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
         self.del_mod_from_memory(repo_name)
 
-        if await gtnh.delete_github_mod(repo_name) and verbose:
+        if await gtnh.delete_mod(repo_name) and verbose:
             showinfo("Repository successfully deleted", f"{repo_name} has been successfully deleted from assets.")
 
     async def refresh_repo(self) -> None:

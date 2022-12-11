@@ -10,8 +10,8 @@ from gtnh.gui.lib.button import CustomButton
 from gtnh.gui.lib.radio_choice import RadioChoice
 from gtnh.gui.lib.text_entry import TextEntry
 from gtnh.models import versionable
-from gtnh.models.gtnh_version import GTNHVersion
-from gtnh.models.mod_info import ExternalModInfo
+from gtnh.models.gtnh_version import CurseFile, GTNHVersion
+from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 
@@ -251,7 +251,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
             name: str = self.mod_name if only_mod else self.name.get()  # type: ignore
 
-            if gtnh.assets.has_external_mod(name) and self.add_mod_and_version:
+            if gtnh.assets.has_mod(name) and self.add_mod_and_version:
                 showwarning("Mod already existing", f"the mod {name} already exists in the database.")
                 return
 
@@ -268,14 +268,22 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
                 download_url=download_url,
                 browser_download_url=browser_url,
             )
-            mod: ExternalModInfo
+            if curse_src:
+                try:
+                    file_no = int(download_url.split("/")[-1])
+                    mod_version.curse_file = CurseFile(file_no=str(file_no), project_no=self.project_id.get())
+                except ValueError:
+                    showwarning("fileNo error", "Cannot parse fileno from provided URL for curse mod")
+                    return
+
+            mod: GTNHModInfo
             # adding mod
             if self.add_mod_and_version:
                 _license: str = self.license.get()
                 project_url: str = self.project_url.get()
                 project_id: str = self.project_id.get()
 
-                mod = ExternalModInfo(
+                mod = GTNHModInfo(
                     latest_version=version,
                     name=name,
                     license=_license,
@@ -289,13 +297,12 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
                     slug=None,
                     versions=[mod_version],
                 )
-                gtnh.assets.add_external_mod(mod)
+                gtnh.assets.add_mod(mod)
                 gtnh.save_assets()
-                del gtnh.assets._external_modmap
 
             # adding version
             else:
-                mod = gtnh.assets.get_external_mod(name)
+                mod = gtnh.assets.get_mod(name)
 
                 # if mod has already that version
                 if mod.has_version(mod_version.version_tag):

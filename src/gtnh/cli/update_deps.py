@@ -21,6 +21,7 @@ import httpx
 from in_place import InPlace
 from structlog import get_logger
 
+from gtnh.defs import ModSource
 from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
@@ -51,8 +52,10 @@ async def find_and_update_deps() -> None:
             match = MOD_AND_VERSION.search(line)
             if match is not None:
                 mod_name, mod_version = match[1], match[2]
-                if m.assets.has_github_mod(mod_name):
-                    mod_info = m.assets.get_github_mod(mod_name)
+                if m.assets.has_mod(mod_name):
+                    mod_info = m.assets.get_mod(mod_name)
+                    if mod_info.source != ModSource.github:
+                        log.warn(f"Found a non github mod for {mod_name}'")
                     latest_version = mod_info.latest_version
                     if mod_version != latest_version:
                         log.info(f"Updating {mod_name} from `{mod_version}` to '{latest_version}'")

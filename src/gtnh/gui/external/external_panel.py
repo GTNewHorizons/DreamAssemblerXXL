@@ -12,7 +12,7 @@ from gtnh.gui.lib.custom_widget import CustomWidget
 from gtnh.gui.lib.listbox import CustomListbox
 from gtnh.gui.mod_info.mod_info_widget import ModInfoCallback, ModInfoWidget
 from gtnh.models.gtnh_version import GTNHVersion
-from gtnh.models.mod_info import ExternalModInfo
+from gtnh.models.mod_info import GTNHModInfo
 from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
@@ -233,7 +233,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         if self.listbox.has_selection():
             index: int = self.listbox.get()
             gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-            mod_info: ExternalModInfo = gtnh.assets.get_external_mod(self.listbox.get_value_at_index(index))
+            mod_info: GTNHModInfo = gtnh.assets.get_mod(self.listbox.get_value_at_index(index))
             name: str = mod_info.name
             mod_versions: list[GTNHVersion] = mod_info.versions
             latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
@@ -299,7 +299,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             mod_name: str = self.listbox.get_value_at_index(index)
             gtnh: GTNHModpackManager = await self.get_gtnh_callback()
             self.listbox.del_value_at_index(index)
-            await gtnh.delete_external_mod(mod_name)
+            await gtnh.delete_mod(mod_name)
         else:
             showerror(
                 "No curseforge mod selected",
