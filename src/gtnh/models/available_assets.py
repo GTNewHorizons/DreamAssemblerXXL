@@ -31,7 +31,7 @@ class AvailableAssets(GTNHBaseModel):
 
     def refresh_modmap(self) -> None:
         # This is the correct way to reload a cached_property, but linter doesn't understand it whatsoever
-        if hasattr(self, '_modmap'):
+        if hasattr(self, "_modmap"):
             # noinspection PyPropertyAccess
             del self._modmap
 
