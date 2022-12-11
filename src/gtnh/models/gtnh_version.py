@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from datetime import datetime
 from typing import Optional
 
@@ -11,14 +13,31 @@ from gtnh.utils import AttributeDict
 log = get_logger(__name__)
 
 
+class CurseFile(GTNHBaseModel):
+    project_no: str
+    file_no: str
+
+
+class ModrinthFile(GTNHBaseModel):
+    sha1: str
+    sha512: str
+
+
 class GTNHVersion(GTNHBaseModel):
     version_tag: str
     changelog: str = Field(default="")
     prerelease: bool = Field(default=False)
     tagged_at: Optional[datetime] = Field(default=None)
+
+    # Primary Download Info
     filename: str | None = Field(default=None)
     download_url: str | None = Field(default=None)
     browser_download_url: str | None = Field(default=None)
+    maven_url: str | None = Field(default=None)
+
+    # Secondary Download info
+    curse_file: CurseFile | None = Field(default=None)
+    modrinth_file: ModrinthFile | None = Field(default=None)
 
 
 def version_from_release(release: AttributeDict, type: VersionableType) -> GTNHVersion | None:
@@ -63,7 +82,8 @@ def get_asset(release: AttributeDict, type: VersionableType) -> AttributeDict | 
 
         if type == VersionableType.mod:
             if not asset_name.endswith(".jar") or any(
-                asset_name.endswith(s) for s in ["dev.jar", "sources.jar", "api.jar", "api2.jar", "javadoc.jar"]
+                asset_name.endswith(s)
+                for s in ["dev.jar", "sources.jar", "api.jar", "api2.jar", "javadoc.jar", "processor.jar"]
             ):
                 continue
         elif type == VersionableType.config:

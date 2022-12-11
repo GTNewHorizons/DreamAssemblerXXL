@@ -1,7 +1,7 @@
 import shutil
-from json import dump, loads
+from json import dump
 from pathlib import Path
-from typing import Any, Callable, Dict, List, Optional, Tuple
+from typing import Callable, Dict, List, Optional, Tuple
 from zipfile import ZipFile
 
 import httpx
@@ -14,13 +14,13 @@ from gtnh.defs import CACHE_DIR, RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
-from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
+from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
 
 
-def is_valid_curse_mod(mod: GTNHModInfo | ExternalModInfo, version: GTNHVersion) -> bool:
+def is_valid_curse_mod(mod: GTNHModInfo, version: GTNHVersion) -> bool:
     """
      Returns whether or not a given mod is a valid curse mod or not.
 
@@ -28,39 +28,33 @@ def is_valid_curse_mod(mod: GTNHModInfo | ExternalModInfo, version: GTNHVersion)
     :param version: its corresponding version
     :return: true if it is a valid curse mod
     """
-    if mod.source == ModSource.github:  # instance checks are borked somehow
+    # If we don't have curse file info, it's not a valid curse file
+    if version.curse_file is None:
         return False
 
-    if version.browser_download_url is None:
+    # If we don't have a file no, or a project no, it's not a valid curse file
+    if not version.curse_file.file_no or not version.curse_file.project_no:
         return False
 
-    assert isinstance(mod, ExternalModInfo)
-    if mod.project_id is None:
-        return False
-
-    try:
-        int(version.browser_download_url.split("/")[-1])
-        return True
-    except ValueError:
-        return False
+    return True
 
 
-def is_mod_from_hidden_repo(mod: GTNHModInfo | ExternalModInfo) -> bool:
+def is_mod_from_hidden_repo(mod: GTNHModInfo) -> bool:
     """
     Returns whether or not a given mod is from a private github repo.
 
     :param mod: the given mod object
     :return: true if it's from a private repo, false otherwise
     """
-    if isinstance(mod, ExternalModInfo):
+    if not mod.is_github():
         return False
 
     return mod.private
 
 
-def is_mod_from_github(mod: GTNHModInfo | ExternalModInfo) -> bool:
+def is_mod_from_github(mod: GTNHModInfo) -> bool:
     """
-    Returns wheter or not a given mod is from github.
+    Returns whether or not a given mod is from github.
 
     :param mod: the given mod object
     :return: true if it's from github
@@ -68,7 +62,7 @@ def is_mod_from_github(mod: GTNHModInfo | ExternalModInfo) -> bool:
     return isinstance(mod, GTNHModInfo)
 
 
-def get_maven_url(mod: GTNHModInfo | ExternalModInfo, version: GTNHVersion) -> str:
+def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str | None:
     """
     Returns the maven url for a github mod.
 
@@ -79,17 +73,20 @@ def get_maven_url(mod: GTNHModInfo | ExternalModInfo, version: GTNHVersion) -> s
     if not isinstance(mod, GTNHModInfo):
         raise TypeError("Only github mods have a maven url")
 
-    url: str = (
-        "http://jenkins.usrv.eu:8081/nexus/service/local/repositories/releases/content/com/github/"
-        f"GTNewHorizons/{mod.name}/{version.version_tag}/{mod.name}-{version.version_tag}.jar"
-    )
+    if mod.maven:
+        base = mod.maven
+    else:
+        log.warn(f"Missing mod.maven for {mod.name}, trying fallback url.")
+        base = f"http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/{mod.name}/"
+
+    url: str = f"{base}{version.version_tag}/{mod.name}-{version.version_tag}.jar"
 
     return url
 
 
-def resolve_github_url(mod: GTNHModInfo, version: GTNHVersion) -> str:
+async def resolve_github_url(client: httpx.AsyncClient, mod: GTNHModInfo, version: GTNHVersion) -> str:
     """
-    Method to check if maven download url is availiable. If not, falling back to github. For now, it is resonable, but
+    Method to check if maven download url is availiable. If not, falling back to github. For now, it is reasonable, but
     we may hit the anonymous request quota limit if we have too much missing maven urls. Better not to rely too much on
     this.
 
@@ -97,13 +94,14 @@ def resolve_github_url(mod: GTNHModInfo, version: GTNHVersion) -> str:
     :param version: it's associated version
     """
 
-    with httpx.Client(http2=True) as client:
-        url = get_maven_url(mod, version)
-        response: httpx.Response = client.get(url)
-        if response.status_code != 200:
-            assert version.browser_download_url
-            return version.browser_download_url
-        return url
+    url = get_maven_url(mod, version)
+    if url:
+        response: httpx.Response = await client.head(url)
+        if response.status_code in {200, 204}:
+            return url
+    log.warn(f"Using fallback url, couldn't find {url}")
+    assert version.browser_download_url
+    return version.browser_download_url
 
 
 class CurseAssembler(GenericAssembler):
@@ -146,7 +144,7 @@ class CurseAssembler(GenericAssembler):
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_CURSE_DIR / f"GT_New_Horizons_{self.release.version}.zip"
 
-    def assemble(self, side: Side, verbose: bool = False) -> None:
+    async def assemble(self, side: Side, verbose: bool = False) -> None:
         if side not in {Side.CLIENT}:
             raise Exception("Can only assemble release for CLIENT")
 
@@ -169,7 +167,7 @@ class CurseAssembler(GenericAssembler):
             log.info("Adding manifest.json to the archive")
             self.generate_meta_data(side, archive)
             log.info("Adding dependencies.json to the archive")
-            self.generate_json_dep(side, archive)
+            await self.generate_json_dep(side, archive)
             log.info("Adding overrides to the archive")
             self.add_overrides(side, archive)
             log.info("Archive created successfully!")
@@ -220,7 +218,7 @@ class CurseAssembler(GenericAssembler):
         assert self.changelog_path
         self.add_changelog(archive, arcname=self.overrides_folder / self.changelog_path.name)
 
-    def generate_json_dep(self, side: Side, archive: ZipFile) -> None:
+    async def generate_json_dep(self, side: Side, archive: ZipFile) -> None:
         """
         Generates the dependencies.json and puts it in the archive.
 
@@ -228,32 +226,36 @@ class CurseAssembler(GenericAssembler):
         :param archive: the zipfile object
         :return: None
         """
-        mod_list: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = self.get_mods(side)
-        mod: GTNHModInfo | ExternalModInfo
+        mod_list: List[Tuple[GTNHModInfo, GTNHVersion]] = self.get_mods(side)
+        mod: GTNHModInfo
         version: GTNHVersion
         dep_json: List[Dict[str, str]] = []
         with ZipFile(RELEASE_CURSE_DIR / "downloads.zip", "w") as file:
-            for mod, version in mod_list:
-                if mod.name == "NewHorizonsCoreMod" or is_valid_curse_mod(mod, version):
-                    continue  # skipping it as it's in the overrides
+            async with httpx.AsyncClient(http2=True) as client:
+                for mod, version in mod_list:
+                    if mod.name == "NewHorizonsCoreMod" or is_valid_curse_mod(mod, version):
+                        continue  # skipping it as it's in the overrides
 
-                url: Optional[str]
-                if (
-                    mod.source == ModSource.github
-                ):  # somehow all the mods are casted to GTNHModInfo so need to check this
-                    url = resolve_github_url(mod, version)
-                elif is_valid_curse_mod(mod, version):
-                    continue
-                else:
-                    url = version.download_url
+                    url: Optional[str]
+                    if mod.source == ModSource.github:
+                        if not version.maven_url:
+                            url = await resolve_github_url(client, mod, version)
+                        else:
+                            url = version.maven_url
 
-                path: Path = get_asset_version_cache_location(mod, version)
-                file.write(path, arcname=path.name)
-                assert url
-                url = f"http://downloads.gtnewhorizons.com/Mods_for_Twitch/{path.name}"  # temporary override until maven is fixed
-                mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
+                        # Hacky detection
+                        if url and "jenkins.usrv.eu:8081" in url:
+                            version.maven_url = url
+                    else:
+                        url = version.download_url
 
-                dep_json.append(mod_obj)
+                    path: Path = get_asset_version_cache_location(mod, version)
+                    file.write(path, arcname=path.name)
+                    assert url
+                    # url = f"http://downloads.gtnewhorizons.com/Mods_for_Twitch/{path.name}"  # temporary override until maven is fixed
+                    mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
+
+                    dep_json.append(mod_obj)
 
         with open(self.tempfile, "w") as temp:
             dump(dep_json, temp, indent=2)
@@ -272,43 +274,31 @@ class CurseAssembler(GenericAssembler):
         :return: None
         """
 
-        metadata: str = """{
-  "minecraft": {
-    "version": "1.7.10",
-    "modLoaders": [
-      {
-        "id": "forge-10.13.4.1614",
-        "primary": true
-      }
-    ]
-  },
-  "manifestType": "minecraftModpack",
-  "manifestVersion": 1,
-  "name": "GT New Horizons",
-  "version": "{0}-1.7.10",
-  "author": "DreamMasterXXL",
-  "files": [],
-  "overrides": "overrides"
-}"""
-        metadata_object: Dict[str, Any] = loads(metadata)
-        metadata_object["version"] = metadata_object["version"].format(self.release.version)
+        metadata = {
+            "minecraft": {"version": "1.7.10", "modLoaders": [{"id": "forge-10.13.4.1614", "primary": True}]},
+            "manifestType": "minecraftModpack",
+            "manifestVersion": 1,
+            "name": "GT New Horizons",
+            "version": "{0}-1.7.10".format(self.release.version),
+            "author": "DreamMasterXXL",
+            "overrides": "overrides",
+        }
 
-        mod: GTNHModInfo | ExternalModInfo
+        mod: GTNHModInfo
         version: GTNHVersion
+        files = []
         for mod, version in self.get_mods(side):
             if is_valid_curse_mod(mod, version):
+                assert version.curse_file  # make mypy happy
                 # ignoring mypy errors here because it's all good in the check above
-                data: Dict[str, Any] = {
-                    "projectID": int(mod.project_id),  # type: ignore
-                    # hacky af but i don't want to go in the process of readding them all by hand while the data is
-                    # still stored somewhere else in the metadata
-                    "fileID": int(version.browser_download_url.split("/")[-1]),  # type: ignore
-                    "required": True,
-                }
-                metadata_object["files"].append(data)
+                files.append(
+                    {"projectID": version.curse_file.project_no, "fileID": version.curse_file.file_no, "required": True}
+                )
+
+        metadata["files"] = files
 
         with open(self.tempfile, "w") as temp:
-            dump(metadata_object, temp, indent=2)
+            dump(metadata, temp, indent=2)
 
         archive.write(self.tempfile, arcname=str(self.manifest_json))
 

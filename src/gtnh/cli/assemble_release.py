@@ -1,4 +1,4 @@
-import click
+import asyncclick as click
 from colorama import Fore
 from httpx import AsyncClient
 from structlog import get_logger
@@ -14,7 +14,7 @@ log = get_logger(__name__)
 @click.argument("side", type=click.Choice([Side.CLIENT, Side.SERVER]))
 @click.argument("release_name")
 @click.option("--verbose", default=False, is_flag=True)
-def assemble_release(side: Side, release_name: str, verbose: bool) -> None:
+async def assemble_release(side: Side, release_name: str, verbose: bool) -> None:
     modpack_manager = GTNHModpackManager(AsyncClient(http2=True))
     release = modpack_manager.get_release(release_name)
     if not release:
@@ -24,7 +24,7 @@ def assemble_release(side: Side, release_name: str, verbose: bool) -> None:
         )
         return
 
-    ReleaseAssembler(modpack_manager, release).assemble(side, verbose=verbose)
+    await ReleaseAssembler(modpack_manager, release).assemble(side, verbose=verbose)
 
 
 if __name__ == "__main__":

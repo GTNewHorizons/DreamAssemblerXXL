@@ -18,7 +18,7 @@ async def download_mod(mod_name: str, version: str | None = None) -> None:
             f"Trying to Download mod `{Fore.CYAN}{mod_name}{Fore.RESET}:{Fore.YELLOW}{version or '<latest>'}"
             f"{Fore.RESET}`"
         )
-        mod = m.assets.get_github_mod(mod_name)
+        mod = m.assets.get_mod(mod_name)
         if mod is not None:
             await m.download_asset(mod, version)
 

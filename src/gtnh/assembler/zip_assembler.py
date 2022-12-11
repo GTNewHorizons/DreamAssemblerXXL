@@ -11,7 +11,7 @@ from gtnh.defs import RELEASE_ZIP_DIR, SERVER_ASSETS_DIR, ServerBrand, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
-from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
+from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
@@ -50,7 +50,7 @@ class ZipAssembler(GenericAssembler):
     def add_mods(
         self,
         side: Side,
-        mods: list[tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]],
+        mods: list[tuple[GTNHModInfo, GTNHVersion]],
         archive: ZipFile,
         verbose: bool = False,
     ) -> None:
@@ -97,7 +97,7 @@ class ZipAssembler(GenericAssembler):
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_ZIP_DIR / f"GT_New_Horizons_{self.release.version}_{side}.zip"
 
-    def assemble(self, side: Side, verbose: bool = False, server_brand: ServerBrand = ServerBrand.forge) -> None:
+    async def assemble(self, side: Side, verbose: bool = False, server_brand: ServerBrand = ServerBrand.forge) -> None:
         """
         Method to assemble the release.
 
@@ -113,7 +113,7 @@ class ZipAssembler(GenericAssembler):
             amount_of_files += len(self.get_server_assets(server_brand))
 
         self.set_progress(100 / amount_of_files)
-        GenericAssembler.assemble(self, side, verbose)
+        await GenericAssembler.assemble(self, side, verbose)
 
         if side == Side.SERVER:
             log.info("Adding server assets to the server release.")

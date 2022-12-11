@@ -12,7 +12,7 @@
 *.[sS][vV][gG]          text
 *.[eE][pP][sS]          binary
 *.[xX][cC][fF]          binary
-
+*.[mM][dD]              text
 *.[kK][aA][rR]          binary
 *.[mM]4[aA]             binary
 *.[mM][iI][dD]          binary

@@ -1,247 +1,958 @@
 {
   "version": "nightly",
-  "last_version": "2.1.2.0",
-  "last_updated": "2022-10-09T11:23:11.755385",
-  "config": "2.2.4",
+  "last_version": "2.2.4",
+  "last_updated": "2022-12-11T18:53:45.566028",
+  "config": "2.2.6",
   "github_mods": {
-    "AdventureBackpack2": "1.0.5-GTNH",
-    "AE2FluidCraft-Rework": "1.0.24-gtnh",
-    "ae2stuff": "0.5.1.15-GTNH",
-    "AFSU": "1.2.6-GTNH",
-    "AngerMod": "0.6.3",
-    "AppleCore": "3.2.2",
-    "Applied-Energistics-2-Unofficial": "rv3-beta-112-GTNH",
-    "ArchitectureCraft": "1.7.6",
-    "AsieLib": "0.5.3",
-    "Avaritia": "1.30",
-    "Avaritiaddons": "1.5.4-GTNH",
-    "bartworks": "0.5.93",
-    "Battlegear2": "1.1.2.1",
-    "Baubles": "1.0.1.14",
-    "bdlib": "1.9.8-GTNH",
-    "BetterBuildersWands": "0.9.3-GTNH",
-    "BetterCrashes": "1.1.6-GTNH",
-    "BetterLoadingScreen": "1.3.36-GTNH",
-    "BetterP2P": "1.0.12",
-    "BetterQuesting": "3.1.0-GTNH",
-    "Binnie": "2.0.44",
-    "BlockLimiter": "0.55",
-    "BloodArsenal": "1.2.6",
-    "BloodMagic": "1.3.16",
-    "Botania": "1.9.10-GTNH",
-    "Botanic-horizons": "1.0.12-GTNH",
-    "BrandonsCore": "1.0.0.13-GTNH",
-    "BugTorch": "1.1.6.4-GTNH",
-    "BuildCraft": "7.1.27",
-    "BuildCraftCompat": "7.1.12",
-    "CarpentersBlocks": "3.3.8.2-GTNH",
-    "Catwalks-2": "2.1.3-GTNH",
-    "Chisel": "2.10.16-GTNH",
-    "ChiselTones": "1.0.4-GTNH",
-    "CodeChickenCore": "1.1.6",
-    "CodeChickenLib": "1.1.5.5",
-    "CompactKineticGenerators": "1.0.1",
-    "Computronics": "1.6.16-GTNH",
-    "CookingForBlockheads": "1.2.13-GTNH",
-    "CraftPresence": "1.8.8",
-    "CraftTweaker": "3.2.9",
-    "CreativeCore": "1.3.27-GTNH",
-    "CropLoadCore": "0.1.10",
-    "Crops-plus-plus": "1.3.6.4",
-    "DefaultServerList": "1.1.2",
-    "DefaultWorldGenerator": "0.2",
-    "DetravScannerMod": "1.6.9",
-    "Draconic-Evolution": "1.1.7-GTNH",
-    "Electro-Magic-Tools": "1.2.8.21",
-    "EnderCore": "0.2.11",
-    "EnderIO": "2.3.1.47",
-    "EnderStorage": "1.4.12",
-    "EnderZoo": "1.0.23",
-    "EnhancedLootBags": "1.0.5",
-    "Eternal-Singularity": "1.0.4b",
-    "ExtraCells2": "2.5.24",
-    "FindIt": "1.0.11",
-    "ForbiddenMagic": "0.6.4-GTNH",
-    "ForestryMC": "4.5.0",
-    "Forgelin": "1.9.6-GTNH",
-    "ForgeMultipart": "1.3.0",
-    "Gadomancy": "1.0.8.5",
-    "GalacticGregGT5": "1.0.8",
-    "Galacticraft": "3.0.45-GTNH",
-    "Galaxy-Space-GTNH": "1.1.16p-GTNH",
-    "gendustry": "1.6.5.4-GTNH",
-    "GoodGenerator": "0.4.33",
-    "GT5-Unofficial": "5.09.41.77",
-    "GTNEIOrePlugin": "1.0.17",
-    "GTNH-Lanthanides": "0.9.18",
-    "GTNH-TC-Wands": "1.2.6",
-    "GTNHLib": "0.0.6",
-    "GTplusplus": "1.7.118-pre",
-    "Hardcore-Ender-Expansion": "1.9.3-GTNH",
-    "harvestcraft": "1.0.15-GTNH",
-    "Hodgepodge": "1.7.37",
-    "HoloInventory": "2.1.17-GTNH",
-    "HungerOverhaul": "1.0.4-GTNH",
-    "HydroEnergy": "1.0.13",
-    "IFU": "1.9.4",
-    "IguanaTweaksTConstruct": "2.2.3",
-    "Infernal-Mobs": "1.7.6-GTNH",
-    "InGame-Info-XML": "2.8.3.93",
-    "INpureCore": "1.1.2-GTNH",
-    "inventory-tweaks": "1.5.15",
-    "ironchest": "6.0.71",
-    "IronChestMinecarts": "1.0.8",
-    "Irontanks": "1.2.6",
-    "Jabba": "1.2.21",
-    "KekzTech": "0.6.17",
-    "KubaTech": "0.5.11",
-    "LittleTiles": "1.2.7-GTNH",
-    "LogisticsPipes": "0.9.4.5.8-GTNH",
-    "LootGames": "2.0.6",
-    "LunatriusCore": "1.1.7-GTNH",
-    "MagicBees": "2.5.13-GTNH",
-    "MalisisCore": "0.14.5-GTNH",
-    "MalisisDoors": "1.13.5-GTNH",
-    "Mantle": "0.3.5",
-    "Minecraft-Backpack-Mod": "2.2.6-GTNH",
-    "Minetweaker-Gregtech-5-Addon": "1.7.5",
-    "Mixingasm": "v0.2.3",
-    "ModMixins": "0.0.5",
-    "ModTweaker": "0.9.9",
-    "MouseTweaks": "2.4.5-GTNH",
-    "MX-Random": "0.1.5",
-    "Natura": "2.5.3",
-    "NaturesCompass": "1.3.6-GTNH",
-    "nei-custom-diagram": "1.4.4.6",
-    "NEI-Integration": "1.2.3",
-    "neiaddons": "1.12.19",
-    "NetherPortalFix": "1.1.1",
-    "Netty-Patcher": "0.3.1",
-    "NewHorizonsCoreMod": "1.9.87",
-    "Nodal-Mechanics": "1.1.-6-GTNH",
-    "NotEnoughEnergistics": "1.3.21",
-    "NotEnoughItems": "2.3.7-GTNH",
-    "Nuclear-Control": "2.4.16",
-    "oauth": "1.06.1-GTNH",
-    "OCGlasses": "1.2.5-GTNH",
-    "OpenBlocks": "1.6.9-GTNH",
-    "OpenComputers": "1.8.0.0-GTNH-pre",
-    "OpenModsLib": "0.10.6",
-    "OpenModularTurrets": "2.2.11-247",
-    "OpenSecurity": "1.0.119-GTNH",
-    "Opis": "1.3.6-mapless",
-    "OverloadedArmorBar": "1.0.1",
-    "PersonalSpace": "1.0.19",
-    "ProjectBlue": "1.1.8-GTNH",
-    "ProjectRed": "4.7.7-GTNH",
-    "QuestBook": "2.1.3-GTNH",
-    "Railcraft": "9.13.12",
-    "Realistic-World-Gen": "alpha-1.3.3.0",
-    "RemoteIO": "2.4.7",
-    "Roguelike-Dungeons": "1.5.3-GTNH",
-    "SC2": "2.0.2",
-    "Schematica": "1.9.1-GTNH",
-    "SGCraft": "1.3.13-GTNH",
-    "Share-Where-I-am": "0.2.0",
-    "SleepingBags": "0.1.4",
-    "SpecialMobs": "3.3.13",
-    "SpiceOfLife": "2.0.5-carrot",
-    "SpongeMixins": "1.5.0",
-    "StandardQuestingPack": "3.0.199-GTNH",
-    "Steve-s-Factory-Manager": "1.1.1-GTNH",
-    "StevesAddons": "0.10.24",
-    "StorageDrawers": "1.11.18-GTNH",
-    "StorageDrawers-BiomesOPlenty": "1.11.17-GTNH",
-    "StorageDrawers-Forestry": "1.11.17-GTNH",
-    "StorageDrawers-Misc": "1.11.17-GTNH",
-    "StorageDrawers-Natura": "1.11.17-GTNH",
-    "StructureCompat": "0.2.0",
-    "StructureLib": "1.2.0-beta.2",
-    "Super-TiC": "1.2.5",
-    "supersolarpanels": "1.1.2-GT-NH-Mod",
-    "TC4Tweaks": "1.4.18",
-    "TCNEIAdditions": "1.1.1.5",
-    "TCNodeTracker": "1.1.6",
-    "TecTech": "5.0.43",
-    "thaumcraft-research-tweaks": "1.0.3",
-    "ThaumcraftMobAspects": "1.0.0-GTNH",
-    "Thaumic_Exploration": "1.1.92-GTNH",
-    "ThaumicBases": "1.4.31",
-    "ThaumicEnergistics": "1.3.19-GTNH",
-    "ThaumicHorizons": "1.2.1.7",
-    "thaumicinsurgence": "0.0.6",
-    "ThaumicInventoryScanning": "1.0.12-GTNH",
-    "ThaumicTinkerer": "2.6.5",
-    "TiC-Tooltips": "1.2.10",
-    "TinkersConstruct": "1.9.7-GTNH",
-    "TinkersGregworks": "GTNH-1.0.23",
-    "TinkersMechworks": "0.2.16.4",
-    "TooMuchLoot": "4.1.0-GTNH",
-    "ToroHealth": "1.0.1",
-    "Translocators": "1.1.2.20",
-    "twilightforest": "2.3.8.17",
-    "Universal-Singularities": "8.6.5",
-    "VisualProspecting": "1.0.34",
-    "waila": "1.5.22",
-    "WailaHarvestability": "1.1.10-GTNH",
-    "WAILAPlugins": "0.2.5",
-    "WanionLib": "1.8.3",
-    "WarpTheory": "1.2.7-GTNH",
-    "WAWLA": "1.1.3-GTNH",
-    "WirelessCraftingTerminal": "1.8.9.2",
-    "WirelessRedstone-CBE": "1.4.8",
-    "WitcheryExtras": "1.1.12",
-    "WitchingGadgets": "1.2.21-GTNH",
-    "Yamcl": "0.5.84",
-    "OpenPrinter": "0.1.2-GTNH"
+    "AdventureBackpack2": {
+      "version": "1.0.5-GTNH",
+      "side": "BOTH"
+    },
+    "AE2FluidCraft-Rework": {
+      "version": "1.0.40-gtnh",
+      "side": "BOTH"
+    },
+    "ae2stuff": {
+      "version": "0.5.1.15-GTNH",
+      "side": "BOTH"
+    },
+    "AFSU": {
+      "version": "1.2.6-GTNH",
+      "side": "BOTH"
+    },
+    "AngerMod": {
+      "version": "0.6.3",
+      "side": "BOTH"
+    },
+    "AppleCore": {
+      "version": "3.2.3",
+      "side": "BOTH"
+    },
+    "Applied-Energistics-2-Unofficial": {
+      "version": "rv3-beta-122-GTNH",
+      "side": "BOTH"
+    },
+    "ArchitectureCraft": {
+      "version": "1.7.6",
+      "side": "BOTH"
+    },
+    "AsieLib": {
+      "version": "0.5.3",
+      "side": "BOTH"
+    },
+    "Avaritia": {
+      "version": "1.31",
+      "side": "BOTH"
+    },
+    "Avaritiaddons": {
+      "version": "1.5.4-GTNH",
+      "side": "BOTH"
+    },
+    "bartworks": {
+      "version": "0.5.124-pre",
+      "side": "BOTH"
+    },
+    "Battlegear2": {
+      "version": "1.1.2.1",
+      "side": "BOTH"
+    },
+    "Baubles": {
+      "version": "1.0.1.14",
+      "side": "BOTH"
+    },
+    "bdlib": {
+      "version": "1.9.8-GTNH",
+      "side": "BOTH"
+    },
+    "BetterBuildersWands": {
+      "version": "0.9.3-GTNH",
+      "side": "BOTH"
+    },
+    "BetterCrashes": {
+      "version": "1.1.7-GTNH",
+      "side": "CLIENT"
+    },
+    "BetterLoadingScreen": {
+      "version": "1.3.36-GTNH",
+      "side": "CLIENT"
+    },
+    "BetterP2P": {
+      "version": "1.0.12",
+      "side": "BOTH"
+    },
+    "BetterQuesting": {
+      "version": "3.1.4-GTNH",
+      "side": "BOTH"
+    },
+    "Binnie": {
+      "version": "2.0.46",
+      "side": "BOTH"
+    },
+    "BlockLimiter": {
+      "version": "0.55",
+      "side": "BOTH"
+    },
+    "BloodArsenal": {
+      "version": "1.2.7",
+      "side": "BOTH"
+    },
+    "BloodMagic": {
+      "version": "1.3.18",
+      "side": "BOTH"
+    },
+    "Botania": {
+      "version": "1.9.11-GTNH",
+      "side": "BOTH"
+    },
+    "Botanic-horizons": {
+      "version": "1.0.12-GTNH",
+      "side": "BOTH"
+    },
+    "BrandonsCore": {
+      "version": "1.0.0.13-GTNH",
+      "side": "BOTH"
+    },
+    "BugTorch": {
+      "version": "1.1.6.5-GTNH",
+      "side": "BOTH"
+    },
+    "BuildCraft": {
+      "version": "7.1.28",
+      "side": "BOTH"
+    },
+    "BuildCraftCompat": {
+      "version": "7.1.12",
+      "side": "BOTH"
+    },
+    "CarpentersBlocks": {
+      "version": "3.3.8.2-GTNH",
+      "side": "BOTH"
+    },
+    "Catwalks-2": {
+      "version": "2.1.3-GTNH",
+      "side": "BOTH"
+    },
+    "Chisel": {
+      "version": "2.10.16-GTNH",
+      "side": "BOTH"
+    },
+    "ChiselTones": {
+      "version": "1.0.4-GTNH",
+      "side": "BOTH"
+    },
+    "CodeChickenCore": {
+      "version": "1.1.6",
+      "side": "BOTH"
+    },
+    "CodeChickenLib": {
+      "version": "1.1.5.5",
+      "side": "BOTH"
+    },
+    "CompactKineticGenerators": {
+      "version": "1.0.1",
+      "side": "BOTH"
+    },
+    "Computronics": {
+      "version": "1.6.17-GTNH",
+      "side": "BOTH"
+    },
+    "CookingForBlockheads": {
+      "version": "1.2.13-GTNH",
+      "side": "BOTH"
+    },
+    "CraftPresence": {
+      "version": "1.8.8",
+      "side": "CLIENT"
+    },
+    "CraftTweaker": {
+      "version": "3.2.9",
+      "side": "BOTH"
+    },
+    "CreativeCore": {
+      "version": "1.3.27-GTNH",
+      "side": "BOTH"
+    },
+    "CropLoadCore": {
+      "version": "0.1.10",
+      "side": "BOTH"
+    },
+    "Crops-plus-plus": {
+      "version": "1.3.6.10-pre",
+      "side": "BOTH"
+    },
+    "DefaultServerList": {
+      "version": "1.4.0",
+      "side": "CLIENT"
+    },
+    "DefaultWorldGenerator": {
+      "version": "0.2",
+      "side": "CLIENT"
+    },
+    "DetravScannerMod": {
+      "version": "1.6.9",
+      "side": "BOTH"
+    },
+    "Draconic-Evolution": {
+      "version": "1.1.7-GTNH",
+      "side": "BOTH"
+    },
+    "Electro-Magic-Tools": {
+      "version": "1.2.8.25",
+      "side": "BOTH"
+    },
+    "EnderCore": {
+      "version": "0.2.11",
+      "side": "BOTH"
+    },
+    "EnderIO": {
+      "version": "2.3.1.48",
+      "side": "BOTH"
+    },
+    "EnderStorage": {
+      "version": "1.4.12",
+      "side": "BOTH"
+    },
+    "EnderZoo": {
+      "version": "1.0.23",
+      "side": "BOTH"
+    },
+    "EnhancedLootBags": {
+      "version": "1.0.5",
+      "side": "BOTH"
+    },
+    "Eternal-Singularity": {
+      "version": "1.0.5",
+      "side": "BOTH"
+    },
+    "ExtraCells2": {
+      "version": "2.5.28",
+      "side": "BOTH"
+    },
+    "FindIt": {
+      "version": "1.0.11",
+      "side": "BOTH"
+    },
+    "ForbiddenMagic": {
+      "version": "0.6.4-GTNH",
+      "side": "BOTH"
+    },
+    "ForestryMC": {
+      "version": "4.5.6",
+      "side": "BOTH"
+    },
+    "Forgelin": {
+      "version": "1.9.6-GTNH",
+      "side": "BOTH"
+    },
+    "ForgeMultipart": {
+      "version": "1.3.0",
+      "side": "BOTH"
+    },
+    "Gadomancy": {
+      "version": "1.0.8.5",
+      "side": "BOTH"
+    },
+    "GalacticGregGT5": {
+      "version": "1.0.8",
+      "side": "BOTH"
+    },
+    "Galacticraft": {
+      "version": "3.0.57-GTNH-pre",
+      "side": "BOTH"
+    },
+    "Galaxy-Space-GTNH": {
+      "version": "1.1.22-GTNH",
+      "side": "BOTH"
+    },
+    "gendustry": {
+      "version": "1.6.5.5-GTNH",
+      "side": "BOTH"
+    },
+    "GoodGenerator": {
+      "version": "0.4.62-pre",
+      "side": "BOTH"
+    },
+    "GT5-Unofficial": {
+      "version": "5.09.41.166-pre",
+      "side": "BOTH"
+    },
+    "GTNEIOrePlugin": {
+      "version": "1.0.18",
+      "side": "BOTH"
+    },
+    "GTNH-Lanthanides": {
+      "version": "0.9.21-pre",
+      "side": "BOTH"
+    },
+    "GTNH-TC-Wands": {
+      "version": "1.2.6",
+      "side": "BOTH"
+    },
+    "GTNHLib": {
+      "version": "0.0.7",
+      "side": "BOTH"
+    },
+    "GTplusplus": {
+      "version": "1.7.156-pre",
+      "side": "BOTH"
+    },
+    "Hardcore-Ender-Expansion": {
+      "version": "1.9.3-GTNH",
+      "side": "BOTH"
+    },
+    "harvestcraft": {
+      "version": "1.0.18-GTNH",
+      "side": "BOTH"
+    },
+    "Hodgepodge": {
+      "version": "2.0.11",
+      "side": "BOTH"
+    },
+    "HoloInventory": {
+      "version": "2.1.19-GTNH",
+      "side": "BOTH"
+    },
+    "HungerOverhaul": {
+      "version": "1.0.4-GTNH",
+      "side": "BOTH"
+    },
+    "HydroEnergy": {
+      "version": "1.0.15-pre",
+      "side": "BOTH"
+    },
+    "IFU": {
+      "version": "1.9.5",
+      "side": "BOTH"
+    },
+    "IguanaTweaksTConstruct": {
+      "version": "2.2.3",
+      "side": "BOTH"
+    },
+    "Infernal-Mobs": {
+      "version": "1.7.7-GTNH",
+      "side": "BOTH"
+    },
+    "InGame-Info-XML": {
+      "version": "2.8.3.93",
+      "side": "CLIENT"
+    },
+    "INpureCore": {
+      "version": "1.1.2-GTNH",
+      "side": "BOTH"
+    },
+    "inventory-tweaks": {
+      "version": "1.5.15",
+      "side": "CLIENT"
+    },
+    "ironchest": {
+      "version": "6.0.71",
+      "side": "BOTH"
+    },
+    "IronChestMinecarts": {
+      "version": "1.0.8",
+      "side": "BOTH"
+    },
+    "Irontanks": {
+      "version": "1.2.6",
+      "side": "BOTH"
+    },
+    "Jabba": {
+      "version": "1.2.21",
+      "side": "BOTH"
+    },
+    "KekzTech": {
+      "version": "0.6.23-pre",
+      "side": "BOTH"
+    },
+    "KubaTech": {
+      "version": "0.6.7-pre",
+      "side": "BOTH"
+    },
+    "LittleTiles": {
+      "version": "1.2.7-GTNH",
+      "side": "BOTH"
+    },
+    "LogisticsPipes": {
+      "version": "0.9.4.5.9-GTNH",
+      "side": "BOTH"
+    },
+    "LootGames": {
+      "version": "2.0.6",
+      "side": "BOTH"
+    },
+    "LunatriusCore": {
+      "version": "1.1.7-GTNH",
+      "side": "BOTH"
+    },
+    "MagicBees": {
+      "version": "2.5.15-GTNH",
+      "side": "BOTH"
+    },
+    "MalisisCore": {
+      "version": "0.14.5-GTNH",
+      "side": "BOTH"
+    },
+    "MalisisDoors": {
+      "version": "1.13.6-GTNH",
+      "side": "BOTH"
+    },
+    "Mantle": {
+      "version": "0.3.5",
+      "side": "BOTH"
+    },
+    "Minecraft-Backpack-Mod": {
+      "version": "2.2.7-GTNH-pre",
+      "side": "BOTH"
+    },
+    "Minetweaker-Gregtech-5-Addon": {
+      "version": "1.7.5",
+      "side": "BOTH"
+    },
+    "Mixingasm": {
+      "version": "v0.2.3",
+      "side": "BOTH"
+    },
+    "ModTweaker": {
+      "version": "0.9.9",
+      "side": "BOTH"
+    },
+    "MouseTweaks": {
+      "version": "2.4.6-GTNH",
+      "side": "CLIENT"
+    },
+    "MX-Random": {
+      "version": "0.1.5",
+      "side": "BOTH"
+    },
+    "Natura": {
+      "version": "2.5.3",
+      "side": "BOTH"
+    },
+    "NaturesCompass": {
+      "version": "1.3.6-GTNH",
+      "side": "BOTH"
+    },
+    "nei-custom-diagram": {
+      "version": "1.4.4.6",
+      "side": "BOTH"
+    },
+    "NEI-Integration": {
+      "version": "1.2.3",
+      "side": "BOTH"
+    },
+    "neiaddons": {
+      "version": "1.12.22",
+      "side": "BOTH"
+    },
+    "NetherPortalFix": {
+      "version": "1.1.1",
+      "side": "BOTH"
+    },
+    "Netty-Patcher": {
+      "version": "0.3.1",
+      "side": "CLIENT"
+    },
+    "NewHorizonsCoreMod": {
+      "version": "1.9.111",
+      "side": "BOTH"
+    },
+    "Nodal-Mechanics": {
+      "version": "1.1.-6-GTNH",
+      "side": "BOTH"
+    },
+    "NotEnoughEnergistics": {
+      "version": "1.3.23",
+      "side": "BOTH"
+    },
+    "NotEnoughItems": {
+      "version": "2.3.16-GTNH",
+      "side": "BOTH"
+    },
+    "Nuclear-Control": {
+      "version": "2.4.16",
+      "side": "BOTH"
+    },
+    "oauth": {
+      "version": "1.06.1-GTNH",
+      "side": "CLIENT"
+    },
+    "OCGlasses": {
+      "version": "1.2.5-GTNH",
+      "side": "BOTH"
+    },
+    "OpenBlocks": {
+      "version": "1.6.9-GTNH",
+      "side": "BOTH"
+    },
+    "OpenComputers": {
+      "version": "1.8.0.2-GTNH",
+      "side": "BOTH"
+    },
+    "OpenModsLib": {
+      "version": "0.10.6",
+      "side": "BOTH"
+    },
+    "OpenModularTurrets": {
+      "version": "2.2.11-247",
+      "side": "BOTH"
+    },
+    "OpenSecurity": {
+      "version": "1.0.119-GTNH",
+      "side": "BOTH"
+    },
+    "Opis": {
+      "version": "1.3.7-mapless",
+      "side": "BOTH"
+    },
+    "OverloadedArmorBar": {
+      "version": "1.0.1",
+      "side": "CLIENT"
+    },
+    "PersonalSpace": {
+      "version": "1.0.19",
+      "side": "BOTH"
+    },
+    "ProjectBlue": {
+      "version": "1.1.8-GTNH",
+      "side": "BOTH"
+    },
+    "ProjectRed": {
+      "version": "4.7.9-GTNH",
+      "side": "BOTH"
+    },
+    "Railcraft": {
+      "version": "9.13.14",
+      "side": "BOTH"
+    },
+    "Realistic-World-Gen": {
+      "version": "alpha-1.3.3.0",
+      "side": "BOTH"
+    },
+    "RemoteIO": {
+      "version": "2.4.7",
+      "side": "BOTH"
+    },
+    "Roguelike-Dungeons": {
+      "version": "1.5.3-GTNH",
+      "side": "BOTH"
+    },
+    "SC2": {
+      "version": "2.0.2",
+      "side": "BOTH"
+    },
+    "Schematica": {
+      "version": "1.9.1-GTNH",
+      "side": "CLIENT"
+    },
+    "SGCraft": {
+      "version": "1.3.13-GTNH",
+      "side": "BOTH"
+    },
+    "Share-Where-I-am": {
+      "version": "0.2.0",
+      "side": "BOTH"
+    },
+    "SleepingBags": {
+      "version": "0.1.4",
+      "side": "BOTH"
+    },
+    "SpecialMobs": {
+      "version": "3.3.13",
+      "side": "BOTH"
+    },
+    "SpiceOfLife": {
+      "version": "2.0.6-corrot-pre",
+      "side": "BOTH"
+    },
+    "Steve-s-Factory-Manager": {
+      "version": "1.1.1-GTNH",
+      "side": "BOTH"
+    },
+    "StevesAddons": {
+      "version": "0.10.24",
+      "side": "BOTH"
+    },
+    "StorageDrawers": {
+      "version": "1.11.19-GTNH",
+      "side": "BOTH"
+    },
+    "StorageDrawers-BiomesOPlenty": {
+      "version": "1.11.17-GTNH",
+      "side": "BOTH"
+    },
+    "StorageDrawers-Forestry": {
+      "version": "1.11.17-GTNH",
+      "side": "BOTH"
+    },
+    "StorageDrawers-Misc": {
+      "version": "1.11.17-GTNH",
+      "side": "BOTH"
+    },
+    "StorageDrawers-Natura": {
+      "version": "1.11.17-GTNH",
+      "side": "BOTH"
+    },
+    "StructureCompat": {
+      "version": "0.3.0",
+      "side": "BOTH"
+    },
+    "StructureLib": {
+      "version": "1.2.0-beta.2",
+      "side": "BOTH"
+    },
+    "Super-TiC": {
+      "version": "1.2.5",
+      "side": "BOTH"
+    },
+    "supersolarpanels": {
+      "version": "1.1.2-GT-NH-Mod",
+      "side": "BOTH"
+    },
+    "TCNEIAdditions": {
+      "version": "1.1.1.7",
+      "side": "BOTH"
+    },
+    "TCNodeTracker": {
+      "version": "1.1.6",
+      "side": "CLIENT"
+    },
+    "TecTech": {
+      "version": "5.0.55-pre",
+      "side": "BOTH"
+    },
+    "thaumcraft-research-tweaks": {
+      "version": "1.0.3",
+      "side": "BOTH"
+    },
+    "ThaumcraftMobAspects": {
+      "version": "1.0.0-GTNH",
+      "side": "BOTH"
+    },
+    "Thaumic_Exploration": {
+      "version": "1.1.92-GTNH",
+      "side": "BOTH"
+    },
+    "ThaumicBases": {
+      "version": "1.4.31",
+      "side": "BOTH"
+    },
+    "ThaumicEnergistics": {
+      "version": "1.3.24-GTNH",
+      "side": "BOTH"
+    },
+    "ThaumicHorizons": {
+      "version": "1.2.1.8",
+      "side": "BOTH"
+    },
+    "thaumicinsurgence": {
+      "version": "0.0.8",
+      "side": "BOTH"
+    },
+    "ThaumicInventoryScanning": {
+      "version": "1.0.12-GTNH",
+      "side": "BOTH"
+    },
+    "ThaumicTinkerer": {
+      "version": "2.6.5",
+      "side": "BOTH"
+    },
+    "TiC-Tooltips": {
+      "version": "1.2.10",
+      "side": "CLIENT"
+    },
+    "TinkersConstruct": {
+      "version": "1.9.7-GTNH",
+      "side": "BOTH"
+    },
+    "TinkersMechworks": {
+      "version": "0.2.16.4",
+      "side": "BOTH"
+    },
+    "TooMuchLoot": {
+      "version": "4.1.0-GTNH",
+      "side": "BOTH"
+    },
+    "ToroHealth": {
+      "version": "1.0.1",
+      "side": "CLIENT"
+    },
+    "Translocators": {
+      "version": "1.1.2.20",
+      "side": "BOTH"
+    },
+    "twilightforest": {
+      "version": "2.3.8.17",
+      "side": "BOTH"
+    },
+    "Universal-Singularities": {
+      "version": "8.6.5",
+      "side": "BOTH"
+    },
+    "VisualProspecting": {
+      "version": "1.0.36",
+      "side": "BOTH"
+    },
+    "waila": {
+      "version": "1.5.22",
+      "side": "BOTH"
+    },
+    "WailaHarvestability": {
+      "version": "1.1.10-GTNH",
+      "side": "BOTH"
+    },
+    "WAILAPlugins": {
+      "version": "0.2.5",
+      "side": "BOTH"
+    },
+    "WanionLib": {
+      "version": "1.8.3",
+      "side": "BOTH"
+    },
+    "WarpTheory": {
+      "version": "1.2.7-GTNH",
+      "side": "BOTH"
+    },
+    "WAWLA": {
+      "version": "1.1.3-GTNH",
+      "side": "BOTH"
+    },
+    "WirelessCraftingTerminal": {
+      "version": "1.8.9.2",
+      "side": "BOTH"
+    },
+    "WirelessRedstone-CBE": {
+      "version": "1.4.8",
+      "side": "BOTH"
+    },
+    "WitcheryExtras": {
+      "version": "1.1.12",
+      "side": "BOTH"
+    },
+    "WitchingGadgets": {
+      "version": "1.2.21-GTNH",
+      "side": "BOTH"
+    },
+    "Yamcl": {
+      "version": "0.5.84",
+      "side": "BOTH"
+    },
+    "OpenPrinter": {
+      "version": "0.1.2-GTNH",
+      "side": "BOTH"
+    },
+    "BlockRenderer6343": {
+      "version": "1.0.0-RC3",
+      "side": "BOTH"
+    },
+    "GTNHMixins": {
+      "version": "2.1.3",
+      "side": "BOTH"
+    },
+    "ModularUI": {
+      "version": "1.0.27",
+      "side": "BOTH"
+    },
+    "TX-Loader": {
+      "version": "1.1",
+      "side": "CLIENT"
+    },
+    "GigaGramFab": {
+      "version": "0.0.2",
+      "side": "BOTH"
+    },
+    "NotEnoughIds": {
+      "version": "1.4.4",
+      "side": "BOTH"
+    }
   },
   "external_mods": {
-    "Aroma1997Core": "1.0.2.16",
-    "AromaBackup": "0.1.0.0",
-    "Automagy": "0.28.2",
-    "BiblioCraft": "1.11.7",
-    "BiblioCraft: BiblioWoods Biomes O'Plenty Edition": "1.9",
-    "BiblioCraft: BiblioWoods Forestry Edition": "1.7",
-    "BiblioCraft: BiblioWoods Natura Edition": "1.5",
-    "Witchery": "0.24.1",
-    "Thaumcraft NEI Plugin": "1.7a",
-    "Random Things": "2.2.4",
-    "Player API": "1.4",
-    "Pam's Harvest the Nether": "1.7.10a",
-    "It's the little things": "1.0.3",
-    "IC2 Crop-Breeding Plugin": "1.3.1",
-    "HelpFixer": "1.0.7",
-    "Hardcore Darkness": "1.7",
-    "Floodlights": "1.2.8-137",
-    "FastCraft": "1.25",
-    "DummyCore": "1.13",
-    "Custom Main Menu": "1.9.2",
-    "CoFH Lib": "1.2.1-185",
-    "CoFH Core": "3.1.4-329",
-    "BeeBetterAtBees": "0.3",
-    "BetterAchievements": "0.1.0",
-    "p455w0rd's Library": "1.0.4",
-    "Resource Loader": "1.3",
-    "Healer": "1.2.0",
-    "Thaumcraft": "4.2.3.5a",
-    "JourneyMap": "5.1.4p2-fairplay",
-    "JourneyMap Server": "1.0.5",
-    "Command Blocks for Better Questing": "3",
-    "Controlling": "1.0.0.3",
-    "Buildcraft Oil Tweaks": "1.0.3",
-    "Thaumic Machina": "0.2.1",
-    "Tinkers' Defense": "1.2.1d",
-    "Travellers Gear": "1.16.8-GTNH",
-    "Advanced Solar Panel For 1.7.10 (Unofficial)": "1.7.10 Edition",
-    "Extra Utilities": "1.2.13a",
-    "Industrial Craft 2": "2.2.82a-experimental",
-    "Gravitation Suite": "2.0.68u",
-    "Tainted Magic": "r7.6",
-    "MrTJPCore": "1.1.0.33",
-    "Forge Relocation": "0.0.1.4",
-    "Forge Relocation - FMP Plugin": "0.0.1.2",
-    "Morpheus": "1.6.21",
-    "Ztones": "2.2.2",
-    "Biomes O' Plenty": "2.1.0.2308"
+    "Aroma1997Core": {
+      "version": "1.0.2.16",
+      "side": "CLIENT"
+    },
+    "AromaBackup": {
+      "version": "0.1.0.0",
+      "side": "CLIENT"
+    },
+    "Automagy": {
+      "version": "0.28.2",
+      "side": "BOTH"
+    },
+    "BiblioCraft": {
+      "version": "1.11.7",
+      "side": "BOTH"
+    },
+    "BiblioCraft: BiblioWoods Biomes O'Plenty Edition": {
+      "version": "1.9",
+      "side": "BOTH"
+    },
+    "BiblioCraft: BiblioWoods Forestry Edition": {
+      "version": "1.7",
+      "side": "BOTH"
+    },
+    "BiblioCraft: BiblioWoods Natura Edition": {
+      "version": "1.5",
+      "side": "BOTH"
+    },
+    "Witchery": {
+      "version": "0.24.1",
+      "side": "BOTH"
+    },
+    "Thaumcraft NEI Plugin": {
+      "version": "1.7a",
+      "side": "BOTH"
+    },
+    "Random Things": {
+      "version": "2.2.4",
+      "side": "BOTH"
+    },
+    "Player API": {
+      "version": "1.4",
+      "side": "BOTH"
+    },
+    "Pam's Harvest the Nether": {
+      "version": "1.7.10a",
+      "side": "BOTH"
+    },
+    "It's the little things": {
+      "version": "1.0.3",
+      "side": "CLIENT"
+    },
+    "IC2 Crop-Breeding Plugin": {
+      "version": "1.3.1",
+      "side": "CLIENT"
+    },
+    "HelpFixer": {
+      "version": "1.0.7",
+      "side": "BOTH"
+    },
+    "Hardcore Darkness": {
+      "version": "1.7",
+      "side": "BOTH"
+    },
+    "Floodlights": {
+      "version": "1.2.8-137",
+      "side": "BOTH"
+    },
+    "FastCraft": {
+      "version": "1.25",
+      "side": "CLIENT"
+    },
+    "DummyCore": {
+      "version": "1.13",
+      "side": "BOTH"
+    },
+    "Custom Main Menu": {
+      "version": "1.9.2",
+      "side": "CLIENT"
+    },
+    "CoFH Lib": {
+      "version": "1.2.1-185",
+      "side": "BOTH"
+    },
+    "CoFH Core": {
+      "version": "3.1.4-329",
+      "side": "BOTH"
+    },
+    "BeeBetterAtBees": {
+      "version": "0.3",
+      "side": "CLIENT"
+    },
+    "BetterAchievements": {
+      "version": "0.1.0",
+      "side": "CLIENT"
+    },
+    "p455w0rd's Library": {
+      "version": "1.0.4",
+      "side": "BOTH"
+    },
+    "Healer": {
+      "version": "1.2.0",
+      "side": "BOTH"
+    },
+    "Thaumcraft": {
+      "version": "4.2.3.5a",
+      "side": "BOTH"
+    },
+    "JourneyMap": {
+      "version": "5.1.4p2-fairplay",
+      "side": "CLIENT"
+    },
+    "JourneyMap Server": {
+      "version": "1.0.5",
+      "side": "SERVER"
+    },
+    "Controlling": {
+      "version": "1.0.0.3",
+      "side": "CLIENT"
+    },
+    "Buildcraft Oil Tweaks": {
+      "version": "1.0.3",
+      "side": "BOTH"
+    },
+    "Thaumic Machina": {
+      "version": "0.2.1",
+      "side": "BOTH"
+    },
+    "Tinkers' Defense": {
+      "version": "1.2.1d",
+      "side": "BOTH"
+    },
+    "Travellers Gear": {
+      "version": "1.16.8-GTNH",
+      "side": "BOTH"
+    },
+    "Advanced Solar Panel For 1.7.10 (Unofficial)": {
+      "version": "1.7.10 Edition",
+      "side": "BOTH"
+    },
+    "Extra Utilities": {
+      "version": "1.2.13a",
+      "side": "BOTH"
+    },
+    "Industrial Craft 2": {
+      "version": "2.2.82a-experimental",
+      "side": "BOTH"
+    },
+    "Gravitation Suite": {
+      "version": "2.0.68u",
+      "side": "BOTH"
+    },
+    "Tainted Magic": {
+      "version": "r7.6",
+      "side": "BOTH"
+    },
+    "MrTJPCore": {
+      "version": "1.1.0.33",
+      "side": "BOTH"
+    },
+    "Forge Relocation": {
+      "version": "0.0.1.4",
+      "side": "BOTH"
+    },
+    "Forge Relocation - FMP Plugin": {
+      "version": "0.0.1.2",
+      "side": "BOTH"
+    },
+    "Morpheus": {
+      "version": "1.6.21",
+      "side": "SERVER"
+    },
+    "Ztones": {
+      "version": "2.2.2",
+      "side": "BOTH"
+    },
+    "Biomes O' Plenty": {
+      "version": "2.1.0.2308",
+      "side": "BOTH"
+    },
+    "TC-4-Tweaks": {
+      "version": "1.4.23",
+      "side": "BOTH"
+    },
+    "Tinkers-Gregworks": {
+      "version": "1.0.23",
+      "side": "BOTH"
+    }
   }
 }

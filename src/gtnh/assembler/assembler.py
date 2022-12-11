@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import Callable, Dict, List, Optional
+from typing import Awaitable, Callable, Dict, List, Optional
 
 from structlog import get_logger
 
@@ -80,7 +80,7 @@ class ReleaseAssembler:
         """
         return self.delta_progress
 
-    def assemble(self, side: Side, verbose: bool = False) -> None:
+    async def assemble(self, side: Side, verbose: bool = False) -> None:
         """
         Method called to assemble the release for all the supports.
 
@@ -95,7 +95,7 @@ class ReleaseAssembler:
         if self.current_task_reset_callback is not None:
             self.current_task_reset_callback()
 
-        assemblers_client: Dict[str, Callable[[Side, bool], None]] = {
+        assemblers_client: Dict[str, Callable[[Side, bool], Awaitable[None]]] = {
             Archive.ZIP: self.assemble_zip,
             Archive.MMC: self.assemble_mmc,
             Archive.TECHNIC: self.assemble_technic,
@@ -103,9 +103,9 @@ class ReleaseAssembler:
             Archive.MODRINTH: self.assemble_modrinth,
         }
 
-        assemblers_server: Dict[str, Callable[[Side, bool], None]] = {Archive.ZIP: self.assemble_zip}
+        assemblers_server: Dict[str, Callable[[Side, bool], Awaitable[None]]] = {Archive.ZIP: self.assemble_zip}
 
-        assemblers: Dict[str, Callable[[Side, bool], None]] = (
+        assemblers: Dict[str, Callable[[Side, bool], Awaitable[None]]] = (
             assemblers_client if side == Side.CLIENT else assemblers_server
         )
 
@@ -115,9 +115,12 @@ class ReleaseAssembler:
 
             if self.callback:
                 self.callback(self.get_progress(), f"Assembling {side} {plateform} archive")  # type: ignore
-            assembling(side, verbose)
+            await assembling(side, verbose)
 
-    def assemble_zip(self, side: Side, verbose: bool = False) -> None:
+        # TODO: Remove when the maven urls are calculated on add, instead of in curse
+        self.mod_manager.save_assets()
+
+    async def assemble_zip(self, side: Side, verbose: bool = False) -> None:
         """
         Method called to assemble the zip archive.
 
@@ -125,9 +128,9 @@ class ReleaseAssembler:
         :param verbose: flag to control verbose mode
         :return: None
         """
-        self.zip_assembler.assemble(side, verbose)
+        await self.zip_assembler.assemble(side, verbose)
 
-    def assemble_mmc(self, side: Side, verbose: bool = False) -> None:
+    async def assemble_mmc(self, side: Side, verbose: bool = False) -> None:
         """
         Method called to assemble the zip archive.
 
@@ -135,9 +138,9 @@ class ReleaseAssembler:
         :param verbose: flag to control verbose mode
         :return: None
         """
-        self.mmc_assembler.assemble(side, verbose)
+        await self.mmc_assembler.assemble(side, verbose)
 
-    def assemble_curse(self, side: Side, verbose: bool = False) -> None:
+    async def assemble_curse(self, side: Side, verbose: bool = False) -> None:
         """
         Method called to assemble the curse archive.
 
@@ -145,9 +148,9 @@ class ReleaseAssembler:
         :param verbose: flag to control verbose mode
         :return: None
         """
-        self.curse_assembler.assemble(side, verbose)
+        await self.curse_assembler.assemble(side, verbose)
 
-    def assemble_modrinth(self, side: Side, verbose: bool = False) -> None:
+    async def assemble_modrinth(self, side: Side, verbose: bool = False) -> None:
         """
         Method called to assemble the modrinth archive.
 
@@ -155,9 +158,9 @@ class ReleaseAssembler:
         :param verbose: flag to control verbose mode
         :return: None
         """
-        self.modrinth_assembler.assemble(side, verbose)
+        await self.modrinth_assembler.assemble(side, verbose)
 
-    def assemble_technic(self, side: Side, verbose: bool = False) -> None:
+    async def assemble_technic(self, side: Side, verbose: bool = False) -> None:
         """
         Method called to assemble the technic archive.
 
@@ -165,7 +168,7 @@ class ReleaseAssembler:
         :param verbose: flag to control verbose mode
         :return: None
         """
-        self.technic_assembler.assemble(side, verbose)
+        await self.technic_assembler.assemble(side, verbose)
 
     def generate_changelog(self) -> Path:
         """
