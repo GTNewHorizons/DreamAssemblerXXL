@@ -295,7 +295,7 @@ class Window(ThemedTk, Tk):
                 Archive.TECHNIC: release_assembler.assemble_technic,
             }
             global_callback(self.get_progress(), f"Assembling {side} {archive_type} archive")
-            assembler_dict[archive_type](side=side, verbose=True)  # type: ignore
+            await assembler_dict[archive_type](side=side, verbose=True)  # type: ignore
             self.trigger_toggle()
         except BaseException as e:
             showerror(
