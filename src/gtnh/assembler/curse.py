@@ -97,7 +97,7 @@ async def resolve_github_url(client: httpx.AsyncClient, mod: GTNHModInfo, versio
     url = get_maven_url(mod, version)
     if url:
         response: httpx.Response = await client.head(url)
-        if response.status_code == 200:
+        if response.status_code in {200, 204}:
             return url
     log.warn(f"Using fallback url, couldn't find {url}")
     assert version.browser_download_url
@@ -239,8 +239,13 @@ class CurseAssembler(GenericAssembler):
                     url: Optional[str]
                     if mod.source == ModSource.github:
                         if not version.maven_url:
-                            version.maven_url = await resolve_github_url(client, mod, version)
-                        url = version.maven_url
+                            url = await resolve_github_url(client, mod, version)
+                        else:
+                            url = version.maven_url
+
+                        # Hacky detection
+                        if url and "jenkins.usrv.eu:8081" in url:
+                            version.maven_url = url
                     else:
                         url = version.download_url
 

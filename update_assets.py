@@ -62,6 +62,20 @@ async def update_to_mod():
     m.save_assets()
 
 
+@click.command()
+async def cleanup_maven_urls():
+    async with httpx.AsyncClient(http2=True) as client:
+        m = GTNHModpackManager(client)
+
+    for mod in m.assets.mods:
+        for v in mod.versions:
+            if v.maven_url and "github.com" in v.maven_url:
+                v.maven_url = None
+
+    m.save_assets()
+
+
 if __name__ == "__main__":
     # update_external_mods()
-    m = update_to_mod()
+    # m = update_to_mod()
+    cleanup_maven_urls()
