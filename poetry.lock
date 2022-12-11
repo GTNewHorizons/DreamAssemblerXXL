@@ -535,14 +535,6 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
-name = "sortedcontainers"
-version = "2.4.0"
-description = "Sorted Containers -- Sorted List, Sorted Dict, Sorted Set"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "structlog"
 version = "21.5.0"
 description = "Structured Logging for Python"
@@ -636,7 +628,7 @@ python-versions = ">=3.6"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "3dd7598be9837fddda104388404c46df8ce4d8137194da435ea0b122627df3c3"
+content-hash = "2439311d37bca320f814e8dbe4e54baac925c5bb4c1f24bf1a4389ca2ae84231"
 
 [metadata.files]
 anyio = [
@@ -1078,10 +1070,6 @@ six = [
 sniffio = [
     {file = "sniffio-1.2.0-py3-none-any.whl", hash = "sha256:471b71698eac1c2112a40ce2752bb2f4a4814c22a54a3eed3676bc0f5ca9f663"},
     {file = "sniffio-1.2.0.tar.gz", hash = "sha256:c4666eecec1d3f50960c6bdf61ab7bc350648da6c126e3cf6898d8cd4ddcd3de"},
-]
-sortedcontainers = [
-    {file = "sortedcontainers-2.4.0-py2.py3-none-any.whl", hash = "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0"},
-    {file = "sortedcontainers-2.4.0.tar.gz", hash = "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88"},
 ]
 structlog = [
     {file = "structlog-21.5.0-py3-none-any.whl", hash = "sha256:fd7922e195262b337da85c2a91c84be94ccab1f8fd1957bd6986f6904e3761c8"},

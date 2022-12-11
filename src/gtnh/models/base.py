@@ -2,12 +2,11 @@ from typing import Any, Callable
 
 import orjson
 from pydantic import BaseModel
-from sortedcontainers import SortedSet
 
 
 def orjson_default(obj: Any) -> Any:
-    if isinstance(obj, SortedSet):
-        return list(obj)
+    if isinstance(obj, set):
+        return sorted(list(obj))
     raise TypeError
 
 
