@@ -240,7 +240,7 @@ class CurseAssembler(GenericAssembler):
                 path: Path = get_asset_version_cache_location(mod, version)
                 file.write(path, arcname=path.name)
                 assert url
-                url = f"http://downloads.gtnewhorizons.com/Mods_for_Twitch/{path.name}"  # temporary override until maven is fixed
+                # url = f"http://downloads.gtnewhorizons.com/Mods_for_Twitch/{path.name}"  # temporary override until maven is fixed
                 mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
 
                 dep_json.append(mod_obj)
