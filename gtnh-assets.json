@@ -11134,7 +11134,8 @@
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
-      "repo_url": "https://github.com/GTNewHorizons/GTNHMixins"
+      "repo_url": "https://github.com/GTNewHorizons/GTNHMixins",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/gtnewhorizon/gtnhmixins/"
     },
     {
       "name": "GTplusplus",
