@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.2.0.0",
-  "last_updated": "2022-12-11T01:34:55.574924",
+  "last_version": "2.2.4",
+  "last_updated": "2022-12-11T15:50:45.428897",
   "config": "2.2.6",
   "github_mods": {
     "AdventureBackpack2": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.0.56-GTNH",
+      "version": "3.0.57-GTNH-pre",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.41.163-pre",
+      "version": "5.09.41.166-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.7.152-pre",
+      "version": "1.7.154-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -617,7 +617,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.0.54",
+      "version": "5.0.55-pre",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -743,6 +743,22 @@
     "OpenPrinter": {
       "version": "0.1.2-GTNH",
       "side": "BOTH"
+    },
+    "BlockRenderer6343": {
+      "version": "1.0.0-RC3",
+      "side": "BOTH"
+    },
+    "GTNHMixins": {
+      "version": "2.1.3",
+      "side": "BOTH"
+    },
+    "ModularUI": {
+      "version": "1.0.27",
+      "side": "BOTH"
+    },
+    "TX-Loader": {
+      "version": "1.1",
+      "side": "CLIENT"
     }
   },
   "external_mods": {
@@ -845,10 +861,6 @@
     "p455w0rd's Library": {
       "version": "1.0.4",
       "side": "BOTH"
-    },
-    "Resource Loader": {
-      "version": "1.3",
-      "side": "CLIENT"
     },
     "Healer": {
       "version": "1.2.0",

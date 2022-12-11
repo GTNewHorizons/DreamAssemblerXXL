@@ -5,6 +5,8 @@
     "versions": [
       {
         "version_tag": "2.1.2.3qf-test",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-03-13T19:31:39+00:00",
         "filename": "2.1.2.3qf-test.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/59399229",
@@ -12,6 +14,8 @@
       },
       {
         "version_tag": "2.1.2.4-6-zeta-dev",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-06-10T09:29:55+00:00",
         "filename": "2.1.2.4-6-zeta-dev.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68088196",
@@ -19,6 +23,8 @@
       },
       {
         "version_tag": "2.1.2.4-7-dev",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-06-12T19:54:14+00:00",
         "filename": "2.1.2.4-7-dev.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68280382",
@@ -26,6 +32,8 @@
       },
       {
         "version_tag": "2.1.2.4-8-dev",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-06-12T20:54:38+00:00",
         "filename": "2.1.2.4-8-dev.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68283725",
@@ -33,6 +41,8 @@
       },
       {
         "version_tag": "2.1.2.4-9-dev",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-06-14T21:44:06+00:00",
         "filename": "2.1.2.4-9-dev.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68492443",
@@ -40,6 +50,8 @@
       },
       {
         "version_tag": "2.1.2.4-10",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-06-15T22:24:02+00:00",
         "filename": "2.1.2.4-10.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68606735",
@@ -47,6 +59,8 @@
       },
       {
         "version_tag": "2.1.2.4-11-dev",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-06-16T18:37:40+00:00",
         "filename": "2.1.2.4-11-dev.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68698851",
@@ -54,6 +68,8 @@
       },
       {
         "version_tag": "2.1.2.4-12-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-06-22T09:30:45+00:00",
         "filename": "2.1.2.4-12-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/69233541",
@@ -61,6 +77,8 @@
       },
       {
         "version_tag": "2.1.2.4-13-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-06-24T13:59:21+00:00",
         "filename": "2.1.2.4-13-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/69507877",
@@ -68,6 +86,8 @@
       },
       {
         "version_tag": "2.1.2.4-14-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-06-26T11:55:39+00:00",
         "filename": "2.1.2.4-14-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/69678300",
@@ -75,6 +95,8 @@
       },
       {
         "version_tag": "2.1.2.4-15-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-07-05T15:02:22+00:00",
         "filename": "2.1.2.4-15-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70638192",
@@ -82,6 +104,8 @@
       },
       {
         "version_tag": "2.1.2.4-16-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-07-05T16:05:03+00:00",
         "filename": "2.1.2.4-16-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70644281",
@@ -89,6 +113,8 @@
       },
       {
         "version_tag": "2.1.2.4-17-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-07-06T12:51:23+00:00",
         "filename": "2.1.2.4-17-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70736026",
@@ -96,6 +122,8 @@
       },
       {
         "version_tag": "2.1.2.4-18-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-07-08T10:11:46+00:00",
         "filename": "2.1.2.4-18-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70956071",
@@ -103,6 +131,8 @@
       },
       {
         "version_tag": "2.1.2.4-19-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-07-12T13:41:36+00:00",
         "filename": "2.1.2.4-19-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/71341083",
@@ -110,6 +140,8 @@
       },
       {
         "version_tag": "2.1.2.4-20-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-07-13T14:55:55+00:00",
         "filename": "2.1.2.4-20-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/71463118",
@@ -117,6 +149,8 @@
       },
       {
         "version_tag": "2.1.2.4-21-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-08-01T08:55:00+00:00",
         "filename": "2.1.2.4-21-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73316191",
@@ -124,6 +158,8 @@
       },
       {
         "version_tag": "2.1.2.4-22-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-08-01T10:19:23+00:00",
         "filename": "2.1.2.4-22-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73323921",
@@ -131,6 +167,8 @@
       },
       {
         "version_tag": "2.1.2.4-23-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-08-02T11:31:25+00:00",
         "filename": "2.1.2.4-23-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73442048",
@@ -138,6 +176,8 @@
       },
       {
         "version_tag": "2.1.2.4-24-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-08-03T01:40:44+00:00",
         "filename": "2.1.2.4-24-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73510337",
@@ -145,6 +185,8 @@
       },
       {
         "version_tag": "2.1.2.4-25-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-08-03T09:24:59+00:00",
         "filename": "2.1.2.4-25-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73544160",
@@ -152,6 +194,8 @@
       },
       {
         "version_tag": "2.1.2.4-26-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-08-14T14:06:43+00:00",
         "filename": "2.1.2.4-26-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/74683655",
@@ -159,6 +203,8 @@
       },
       {
         "version_tag": "2.1.2.4-27-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-08-16T19:31:57+00:00",
         "filename": "2.1.2.4-27-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/74909241",
@@ -166,6 +212,8 @@
       },
       {
         "version_tag": "2.1.2.4-28-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-08-17T09:35:21+00:00",
         "filename": "2.1.2.4-28-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/74969236",
@@ -173,6 +221,8 @@
       },
       {
         "version_tag": "2.1.2.4-29-pre",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-08-28T13:50:59+00:00",
         "filename": "2.1.2.4-29-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/76105656",
@@ -180,6 +230,8 @@
       },
       {
         "version_tag": "2.2.0.0-RC-1",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-09-06T17:38:04+00:00",
         "filename": "2.2.0.0-RC-1.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/77045842",
@@ -187,6 +239,8 @@
       },
       {
         "version_tag": "2.2.0.0-RC-2",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-09-10T14:06:49+00:00",
         "filename": "2.2.0.0-RC-2.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/77448203",
@@ -194,6 +248,8 @@
       },
       {
         "version_tag": "2.2.0.0-RC-3",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-09-18T09:34:49+00:00",
         "filename": "2.2.0.0-RC-3.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/78234075",
@@ -201,6 +257,8 @@
       },
       {
         "version_tag": "2.2.0.0-RC-4",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-09-24T10:28:46+00:00",
         "filename": "2.2.0.0-RC-4.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/78870238",
@@ -208,6 +266,8 @@
       },
       {
         "version_tag": "2.2.0.0",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-09-27T14:03:52+00:00",
         "filename": "2.2.0.0.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/79179822",
@@ -215,6 +275,8 @@
       },
       {
         "version_tag": "2.2.0.1",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-10-03T10:57:51+00:00",
         "filename": "2.2.0.1.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/79802269",
@@ -222,6 +284,8 @@
       },
       {
         "version_tag": "2.2.1",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-10-05T17:39:39+00:00",
         "filename": "2.2.1.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80064643",
@@ -229,6 +293,8 @@
       },
       {
         "version_tag": "2.2.2",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-10-06T09:06:44+00:00",
         "filename": "2.2.2.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80130363",
@@ -236,6 +302,8 @@
       },
       {
         "version_tag": "2.2.3",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-10-07T21:10:06+00:00",
         "filename": "2.2.3.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80312736",
@@ -243,6 +311,8 @@
       },
       {
         "version_tag": "2.2.4",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-10-09T11:22:11+00:00",
         "filename": "2.2.4.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80448153",
@@ -250,6 +320,8 @@
       },
       {
         "version_tag": "2.2.5",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-10-13T07:57:49+00:00",
         "filename": "2.2.5.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80863550",
@@ -257,6 +329,8 @@
       },
       {
         "version_tag": "2.2.6",
+        "changelog": "",
+        "prerelease": false,
         "tagged_at": "2022-12-10T12:33:18+00:00",
         "filename": "2.2.6.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/87698080",
@@ -6292,7 +6366,7 @@
     },
     {
       "name": "ExtraCells2",
-      "latest_version": "2.5.27",
+      "latest_version": "2.5.28",
       "versions": [
         {
           "version_tag": "2.3.1-17",
@@ -6544,6 +6618,15 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ExtraCells2/releases/assets/86068609",
           "browser_download_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.27/ExtraCells-1.7.10-2.5.27.jar",
           "maven_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.27/ExtraCells-1.7.10-2.5.27.jar"
+        },
+        {
+          "version_tag": "2.5.28",
+          "changelog": "## What's Changed\n* remove pointless allocations by @Glease in https://github.com/GTNewHorizons/ExtraCells2/pull/75\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ExtraCells2/compare/2.5.27...2.5.28\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T11:54:25+00:00",
+          "filename": "ExtraCells-1.7.10-2.5.28.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ExtraCells2/releases/assets/87789207",
+          "browser_download_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.28/ExtraCells-1.7.10-2.5.28.jar"
         }
       ],
       "license": "MIT License",
@@ -7303,7 +7386,7 @@
     },
     {
       "name": "Galacticraft",
-      "latest_version": "3.0.56-GTNH",
+      "latest_version": "3.0.57-GTNH-pre",
       "versions": [
         {
           "version_tag": "3.0.33-GTNH",
@@ -7491,6 +7574,15 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/87732087",
           "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.56-GTNH/Galacticraft-1.7.10-3.0.56-GTNH.jar",
           "maven_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.56-GTNH/Galacticraft-1.7.10-3.0.56-GTNH.jar"
+        },
+        {
+          "version_tag": "3.0.57-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.56-GTNH...3.0.57-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T11:52:17+00:00",
+          "filename": "Galacticraft-1.7.10-3.0.57-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/87789075",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.57-GTNH-pre/Galacticraft-1.7.10-3.0.57-GTNH-pre.jar"
         }
       ],
       "license": "Explicit Permission.",
@@ -8437,7 +8529,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.41.163-pre",
+      "latest_version": "5.09.41.166-pre",
       "versions": [
         {
           "version_tag": "5.09.40.01",
@@ -10592,6 +10684,33 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/87697779",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.163-pre/gregtech-1.7.10-5.09.41.163-pre.jar",
           "maven_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.163-pre/gregtech-1.7.10-5.09.41.163-pre.jar"
+        },
+        {
+          "version_tag": "5.09.41.164",
+          "changelog": "## What's Changed\n* Added Workaround for Coil Achievements Not Being Given by @ReignOfFROZE in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1538\n\n## New Contributors\n* @ReignOfFROZE made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1538\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.161...5.09.41.164\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T11:57:59+00:00",
+          "filename": "gregtech-1.7.10-5.09.41.164.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/87789427",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.164/gregtech-1.7.10-5.09.41.164.jar"
+        },
+        {
+          "version_tag": "5.09.41.165-pre",
+          "changelog": "## What's Changed\n* Move ModularUI to Base by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1510\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.164...5.09.41.165-pre\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T12:02:36+00:00",
+          "filename": "gregtech-1.7.10-5.09.41.165-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/87789675",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.165-pre/gregtech-1.7.10-5.09.41.165-pre.jar"
+        },
+        {
+          "version_tag": "5.09.41.166-pre",
+          "changelog": "## What's Changed\n* Add hazmat protection to End Steel / Stellar armors from EnderIO by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1539\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.165-pre...5.09.41.166-pre\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T14:11:47+00:00",
+          "filename": "gregtech-1.7.10-5.09.41.166-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/87796848",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.166-pre/gregtech-1.7.10-5.09.41.166-pre.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -11138,7 +11257,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.7.152-pre",
+      "latest_version": "1.7.154-pre",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -12179,6 +12298,24 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/87696666",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.152-pre/GT-PlusPlus-1.7.10-1.7.152-pre.jar",
           "maven_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.152-pre/GT-PlusPlus-1.7.10-1.7.152-pre.jar"
+        },
+        {
+          "version_tag": "1.7.153",
+          "changelog": "## What's Changed\n* Fixes Matter Fabricator controller recipe by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/450\n* Fix Thermal Boiler by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/451\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.150...1.7.153\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T11:54:09+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.153.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/87789186",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.153/GT-PlusPlus-1.7.10-1.7.153.jar"
+        },
+        {
+          "version_tag": "1.7.154-pre",
+          "changelog": "## What's Changed\n* Fix Thermal Boiler by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/451\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.152-pre...1.7.154-pre\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T11:57:13+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.154-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/87789397",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.154-pre/GT-PlusPlus-1.7.10-1.7.154-pre.jar"
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -18924,7 +19061,7 @@
       ],
       "license": "All Rights Reserved. - You can use this mod in any modpack without asking first",
       "repo_url": "https://github.com/lumien231/Resource-Loader",
-      "side": "CLIENT",
+      "side": "NONE",
       "source": "curse",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/resource-loader",
       "project_id": "226447",
@@ -20639,7 +20776,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.0.54",
+      "latest_version": "5.0.55-pre",
       "needs_attention": true,
       "versions": [
         {
@@ -21069,6 +21206,15 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/87591488",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.54/TecTech-1.7.10-5.0.54.jar",
           "maven_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.54/TecTech-1.7.10-5.0.54.jar"
+        },
+        {
+          "version_tag": "5.0.55-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.54...5.0.55-pre\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T11:56:42+00:00",
+          "filename": "TecTech-1.7.10-5.0.55-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/87789364",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.55-pre/TecTech-1.7.10-5.0.55-pre.jar"
         }
       ],
       "license": "MIT License",
@@ -22393,6 +22539,26 @@
       "license": "GNU Lesser General Public License v2.1",
       "repo_url": "https://github.com/GTNewHorizons/twilightforest",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/twilightforest/"
+    },
+    {
+      "name": "TX-Loader",
+      "latest_version": "1.1",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "1.1",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/commits/1.1\n",
+          "prerelease": false,
+          "tagged_at": "2022-11-22T23:55:44+00:00",
+          "filename": "txloader-1.7.10-1.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TX-Loader/releases/assets/85619148",
+          "browser_download_url": "https://github.com/GTNewHorizons/TX-Loader/releases/download/1.1/txloader-1.7.10-1.1.jar"
+        }
+      ],
+      "license": "GNU Lesser General Public License v3.0",
+      "repo_url": "https://github.com/GTNewHorizons/TX-Loader",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TX-Loader/",
+      "side": "CLIENT"
     },
     {
       "name": "Universal-Singularities",
