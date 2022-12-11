@@ -73,11 +73,13 @@ def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str | None:
     if not isinstance(mod, GTNHModInfo):
         raise TypeError("Only github mods have a maven url")
 
-    if not mod.maven:
-        log.warn(f"Missing mod.maven for {mod.name}, cannot generate a maven url.")
-        return None
+    if mod.maven:
+        base = mod.maven
+    else:
+        log.warn(f"Missing mod.maven for {mod.name}, trying fallback url.")
+        base = "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/"
 
-    url: str = f"{mod.maven}{mod.name}/{version.version_tag}/{mod.name}-{version.version_tag}.jar"
+    url: str = f"{base}{mod.name}/{version.version_tag}/{mod.name}-{version.version_tag}.jar"
 
     return url
 
