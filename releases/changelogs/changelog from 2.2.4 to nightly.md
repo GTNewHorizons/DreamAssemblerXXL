@@ -6,11 +6,13 @@
 > * NotEnoughIds
 > * TC-4-Tweaks
 > * TX-Loader
+> * Tinkers-Gregworks
 # Mods Removed:
 > * ModMixins
 > * Resource Loader
 > * SpongeMixins
 > * TC4Tweaks
+> * TinkersGregworks
 # Updated AE2FluidCraft-Rework (1.0.24-gtnh --> 1.0.40-gtnh@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.23-gtnh...1.0.40-gtnh
 >## What's Changed
@@ -1818,15 +1820,6 @@
 **Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.6-GTNH...1.9.7-GTNH
 >## What's Changed
 > * Fix Tinker Addons by @DrParadox7 in https://github.com/GTNewHorizons/TinkersConstruct/pull/58 (1.9.7-GTNH)
->
-
-# Updated TinkersGregworks (GTNH-1.0.23 --> GTNH-1.0.23@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersGregworks/compare/GTNH-1.0.22...GTNH-1.0.23
->## What's Changed
-> * Update build script by @SinTh0r4s in https://github.com/GTNewHorizons/TinkersGregworks/pull/9 (GTNH-1.0.23)
->
->## New Contributors
-> * @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/TinkersGregworks/pull/9 (GTNH-1.0.23)
 >
 
 # Updated TinkersMechworks (0.2.16.4 --> 0.2.16.4@BOTH)

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.4",
-  "last_updated": "2022-12-11T16:35:23.709585",
+  "last_updated": "2022-12-11T16:43:26.184935",
   "config": "2.2.6",
   "github_mods": {
     "AdventureBackpack2": {
@@ -664,10 +664,6 @@
       "version": "1.9.7-GTNH",
       "side": "BOTH"
     },
-    "TinkersGregworks": {
-      "version": "GTNH-1.0.23",
-      "side": "BOTH"
-    },
     "TinkersMechworks": {
       "version": "0.2.16.4",
       "side": "BOTH"
@@ -952,6 +948,10 @@
     },
     "TC-4-Tweaks": {
       "version": "1.4.23",
+      "side": "BOTH"
+    },
+    "Tinkers-Gregworks": {
+      "version": "1.0.23",
       "side": "BOTH"
     }
   }
