@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import Awaitable, Callable, Coroutine, Dict, List, Optional
+from typing import Awaitable, Callable, Dict, List, Optional
 
 from structlog import get_logger
 
