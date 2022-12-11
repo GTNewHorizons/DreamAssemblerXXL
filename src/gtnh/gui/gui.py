@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 from tkinter import DISABLED, NORMAL, PhotoImage, Tk, Widget
 from tkinter.messagebox import showerror, showinfo, showwarning
-from typing import Any, Callable, Dict, List, Optional, Set, Tuple, Union
+from typing import Any, Awaitable, Callable, Dict, List, Optional, Set, Tuple, Union
 
 import httpx
 from colorama import Fore
@@ -287,7 +287,7 @@ class Window(ThemedTk, Tk):
             self.set_progress(100 / 2)
             self.trigger_toggle()
             release_assembler: ReleaseAssembler = await self.pre_assembling()
-            assembler_dict: Dict[Archive, Callable[[Side, bool], None]] = {
+            assembler_dict: Dict[Archive, Callable[[Side, bool], Awaitable[None]]] = {
                 Archive.ZIP: release_assembler.assemble_zip,
                 Archive.MMC: release_assembler.assemble_mmc,
                 Archive.MODRINTH: release_assembler.assemble_modrinth,
@@ -378,14 +378,14 @@ class Window(ThemedTk, Tk):
 
             release_assembler.set_progress(self.get_progress())
 
-            release_assembler.assemble(Side.CLIENT, verbose=True)
+            await release_assembler.assemble(Side.CLIENT, verbose=True)
 
             # todo: redo the bar resets less hacky: they are update_all spread update_all over the place and it's inconsistent
             if release_assembler.current_task_reset_callback is not None:
                 release_assembler.current_task_reset_callback()
 
             global_callback(self.get_progress(), f"Assembling {Side.SERVER} {Archive.ZIP} archive")
-            release_assembler.assemble_zip(Side.SERVER, verbose=True)
+            await release_assembler.assemble_zip(Side.SERVER, verbose=True)
 
             self.trigger_toggle()
 

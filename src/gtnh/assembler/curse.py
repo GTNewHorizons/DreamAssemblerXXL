@@ -73,15 +73,15 @@ def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str:
     if not isinstance(mod, GTNHModInfo):
         raise TypeError("Only github mods have a maven url")
 
-    url: str = (
-        "http://jenkins.usrv.eu:8081/nexus/service/local/repositories/releases/content/com/github/"
-        f"GTNewHorizons/{mod.name}/{version.version_tag}/{mod.name}-{version.version_tag}.jar"
-    )
+    if not mod.maven:
+        raise TypeError(f"Missing mod.maven for {mod.name}")
+
+    url: str = f"{mod.maven}{mod.name}/{version.version_tag}/{mod.name}-{version.version_tag}.jar"
 
     return url
 
 
-def resolve_github_url(mod: GTNHModInfo, version: GTNHVersion) -> str:
+async def resolve_github_url(client: httpx.AsyncClient, mod: GTNHModInfo, version: GTNHVersion) -> str:
     """
     Method to check if maven download url is availiable. If not, falling back to github. For now, it is resonable, but
     we may hit the anonymous request quota limit if we have too much missing maven urls. Better not to rely too much on
@@ -91,13 +91,12 @@ def resolve_github_url(mod: GTNHModInfo, version: GTNHVersion) -> str:
     :param version: it's associated version
     """
 
-    with httpx.Client(http2=True) as client:
-        url = get_maven_url(mod, version)
-        response: httpx.Response = client.head(url)
-        if response.status_code != 200:
-            assert version.browser_download_url
-            return version.browser_download_url
-        return url
+    url = get_maven_url(mod, version)
+    response: httpx.Response = await client.head(url)
+    if response.status_code != 200:
+        assert version.browser_download_url
+        return version.browser_download_url
+    return url
 
 
 class CurseAssembler(GenericAssembler):
@@ -140,7 +139,7 @@ class CurseAssembler(GenericAssembler):
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_CURSE_DIR / f"GT_New_Horizons_{self.release.version}.zip"
 
-    def assemble(self, side: Side, verbose: bool = False) -> None:
+    async def assemble(self, side: Side, verbose: bool = False) -> None:
         if side not in {Side.CLIENT}:
             raise Exception("Can only assemble release for CLIENT")
 
@@ -163,7 +162,7 @@ class CurseAssembler(GenericAssembler):
             log.info("Adding manifest.json to the archive")
             self.generate_meta_data(side, archive)
             log.info("Adding dependencies.json to the archive")
-            self.generate_json_dep(side, archive)
+            await self.generate_json_dep(side, archive)
             log.info("Adding overrides to the archive")
             self.add_overrides(side, archive)
             log.info("Archive created successfully!")
@@ -214,7 +213,7 @@ class CurseAssembler(GenericAssembler):
         assert self.changelog_path
         self.add_changelog(archive, arcname=self.overrides_folder / self.changelog_path.name)
 
-    def generate_json_dep(self, side: Side, archive: ZipFile) -> None:
+    async def generate_json_dep(self, side: Side, archive: ZipFile) -> None:
         """
         Generates the dependencies.json and puts it in the archive.
 
@@ -227,23 +226,26 @@ class CurseAssembler(GenericAssembler):
         version: GTNHVersion
         dep_json: List[Dict[str, str]] = []
         with ZipFile(RELEASE_CURSE_DIR / "downloads.zip", "w") as file:
-            for mod, version in mod_list:
-                if mod.name == "NewHorizonsCoreMod" or is_valid_curse_mod(mod, version):
-                    continue  # skipping it as it's in the overrides
+            async with httpx.AsyncClient(http2=True) as client:
+                for mod, version in mod_list:
+                    if mod.name == "NewHorizonsCoreMod" or is_valid_curse_mod(mod, version):
+                        continue  # skipping it as it's in the overrides
 
-                url: Optional[str]
-                if mod.source == ModSource.github:
-                    url = resolve_github_url(mod, version)
-                else:
-                    url = version.download_url
+                    url: Optional[str]
+                    if mod.source == ModSource.github:
+                        if not version.maven_url:
+                            version.maven_url = await resolve_github_url(client, mod, version)
+                        url = version.maven_url
+                    else:
+                        url = version.download_url
 
-                path: Path = get_asset_version_cache_location(mod, version)
-                file.write(path, arcname=path.name)
-                assert url
-                # url = f"http://downloads.gtnewhorizons.com/Mods_for_Twitch/{path.name}"  # temporary override until maven is fixed
-                mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
+                    path: Path = get_asset_version_cache_location(mod, version)
+                    file.write(path, arcname=path.name)
+                    assert url
+                    # url = f"http://downloads.gtnewhorizons.com/Mods_for_Twitch/{path.name}"  # temporary override until maven is fixed
+                    mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
 
-                dep_json.append(mod_obj)
+                    dep_json.append(mod_obj)
 
         with open(self.tempfile, "w") as temp:
             dump(dep_json, temp, indent=2)

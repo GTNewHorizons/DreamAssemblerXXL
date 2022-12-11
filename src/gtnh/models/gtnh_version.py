@@ -33,6 +33,7 @@ class GTNHVersion(GTNHBaseModel):
     filename: str | None = Field(default=None)
     download_url: str | None = Field(default=None)
     browser_download_url: str | None = Field(default=None)
+    maven_url: str | None = Field(default=None)
 
     # Secondary Download info
     curse_file: CurseFile | None = Field(default=None)

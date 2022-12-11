@@ -94,13 +94,13 @@ class MMCAssembler(GenericAssembler):
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_MMC_DIR / f"GT_New_Horizons_{self.release.version}_(MMC).zip"
 
-    def assemble(self, side: Side, verbose: bool = False) -> None:
+    async def assemble(self, side: Side, verbose: bool = False) -> None:
         if side != Side.CLIENT:
             raise ValueError(f"Only valid side is {Side.CLIENT}, got {side}")
 
         # +1 for the metadata file
         self.set_progress(100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + 1))
-        GenericAssembler.assemble(self, side, verbose)
+        await GenericAssembler.assemble(self, side, verbose)
 
         self.add_mmc_meta_data(side)
 

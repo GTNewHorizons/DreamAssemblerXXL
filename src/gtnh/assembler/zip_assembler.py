@@ -97,7 +97,7 @@ class ZipAssembler(GenericAssembler):
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_ZIP_DIR / f"GT_New_Horizons_{self.release.version}_{side}.zip"
 
-    def assemble(self, side: Side, verbose: bool = False, server_brand: ServerBrand = ServerBrand.forge) -> None:
+    async def assemble(self, side: Side, verbose: bool = False, server_brand: ServerBrand = ServerBrand.forge) -> None:
         """
         Method to assemble the release.
 
@@ -113,7 +113,7 @@ class ZipAssembler(GenericAssembler):
             amount_of_files += len(self.get_server_assets(server_brand))
 
         self.set_progress(100 / amount_of_files)
-        GenericAssembler.assemble(self, side, verbose)
+        await GenericAssembler.assemble(self, side, verbose)
 
         if side == Side.SERVER:
             log.info("Adding server assets to the server release.")

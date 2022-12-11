@@ -191,7 +191,7 @@ class GenericAssembler:
         """
         self.add_changelog(archive)
 
-    def assemble(self, side: Side, verbose: bool = False) -> None:
+    async def assemble(self, side: Side, verbose: bool = False) -> None:
         """
         Method to assemble the release.
 

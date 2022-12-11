@@ -37,7 +37,7 @@ class ModrinthAssembler(GenericAssembler):
             changelog_path=changelog_path,
         )
 
-    def assemble(self, side: Side, verbose: bool = False) -> None:
+    async def assemble(self, side: Side, verbose: bool = False) -> None:
         return
 
     def get_archive_path(self, side: Side) -> Path:
