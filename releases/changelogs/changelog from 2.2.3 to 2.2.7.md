@@ -1358,9 +1358,10 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/Netty-Patcher/pull/2 (0.3.1)
 >
 
-# Updated NewHorizonsCoreMod (1.9.83 --> 1.9.111@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.82...1.9.111
+# Updated NewHorizonsCoreMod (1.9.83 --> 1.9.112@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.82...1.9.112
 >## What's Changed
+> * Add assembler recipes for Impregnated Frame, Apiary, Scented Paneling, all Alveary upgrades by @Alrightsc in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/452 (1.9.112)
 > * add reinforced glass alfglass managlass as boroglass replacement in multi structure by @Glease in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/451 (1.9.111)
 > * Add 2 new lenses for the Nano Forge by @BlueWeabo in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/450 (1.9.110)
 > * Fix Honey for Biomass by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/449 (1.9.109)
@@ -1389,6 +1390,7 @@
 > * Indusctors by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/425 (1.9.84)
 >
 >## New Contributors
+> * @Alrightsc made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/452 (1.9.112)
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/445 (1.9.104)
 > * @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/442 (1.9.103)
 > * @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/442 (1.9.102-pre)
