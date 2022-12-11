@@ -62,7 +62,7 @@ def is_mod_from_github(mod: GTNHModInfo) -> bool:
     return isinstance(mod, GTNHModInfo)
 
 
-def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str:
+def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str | None:
     """
     Returns the maven url for a github mod.
 
@@ -73,10 +73,13 @@ def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str:
     if not isinstance(mod, GTNHModInfo):
         raise TypeError("Only github mods have a maven url")
 
-    if not mod.maven:
-        raise TypeError(f"Missing mod.maven for {mod.name}")
+    if mod.maven:
+        base = mod.maven
+    else:
+        log.warn(f"Missing mod.maven for {mod.name}, trying fallback url.")
+        base = "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/"
 
-    url: str = f"{mod.maven}{mod.name}/{version.version_tag}/{mod.name}-{version.version_tag}.jar"
+    url: str = f"{base}{mod.name}/{version.version_tag}/{mod.name}-{version.version_tag}.jar"
 
     return url
 
@@ -92,11 +95,13 @@ async def resolve_github_url(client: httpx.AsyncClient, mod: GTNHModInfo, versio
     """
 
     url = get_maven_url(mod, version)
-    response: httpx.Response = await client.head(url)
-    if response.status_code != 200:
-        assert version.browser_download_url
-        return version.browser_download_url
-    return url
+    if url:
+        response: httpx.Response = await client.head(url)
+        if response.status_code == 200:
+            return url
+
+    assert version.browser_download_url
+    return version.browser_download_url
 
 
 class CurseAssembler(GenericAssembler):
