@@ -22,6 +22,5 @@ class GTNHModInfo(GTNHBaseModel, Versionable):
 
     disabled: bool = Field(default=False)
 
-
-class ExternalModInfo(GTNHModInfo):
-    source: ModSource = Field(default=ModSource.curse)
+    def is_github(self) -> bool:
+        return self.source == ModSource.github

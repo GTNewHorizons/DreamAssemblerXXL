@@ -10,7 +10,7 @@ from gtnh.exceptions import NoModAssetFound
 from gtnh.models.base import GTNHBaseModel
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_version import GTNHVersion
-from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
+from gtnh.models.mod_info import GTNHModInfo
 from gtnh.models.mod_version_info import ModVersionInfo
 
 log = get_logger(__name__)
@@ -37,7 +37,7 @@ class AvailableAssets(GTNHBaseModel):
     def has_mod(self, mod_name: str) -> bool:
         return mod_name in self._modmap
 
-    def get_mod(self, mod_name: str) -> GTNHModInfo | ExternalModInfo:
+    def get_mod(self, mod_name: str) -> GTNHModInfo:
         """
         Get a mod, preferring github mods over external mods
         """
@@ -50,7 +50,7 @@ class AvailableAssets(GTNHBaseModel):
 
     def get_mod_and_version(
         self, mod_name: str, mod_version: ModVersionInfo, valid_sides: set[Side], source: ModSource
-    ) -> tuple[GTNHModInfo | ExternalModInfo, GTNHVersion] | None:
+    ) -> tuple[GTNHModInfo, GTNHVersion] | None:
         try:
             mod = self.get_mod(mod_name)
         except KeyError:

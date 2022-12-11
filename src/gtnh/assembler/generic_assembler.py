@@ -11,7 +11,7 @@ from gtnh.defs import README_TEMPLATE, RELEASE_README_DIR, ModSource, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
-from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
+from gtnh.models.mod_info import GTNHModInfo
 from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
@@ -84,7 +84,7 @@ class GenericAssembler:
         with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
             return len([item for item in config_zip.namelist() if item not in self.exclusions[side]])
 
-    def get_mods(self, side: Side) -> List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]:
+    def get_mods(self, side: Side) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the mod info objects as well as their targetted version.
 
@@ -94,14 +94,14 @@ class GenericAssembler:
 
         valid_sides: Set[Side] = {side, Side.BOTH}
 
-        github_mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = self.github_mods(valid_sides)
+        github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
 
-        external_mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = self.external_mods(valid_sides)
+        external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides)
 
-        mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = github_mods + external_mods
+        mods: List[Tuple[GTNHModInfo, GTNHVersion]] = github_mods + external_mods
         return mods
 
-    def external_mods(self, valid_sides: Set[Side]) -> List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]:
+    def external_mods(self, valid_sides: Set[Side]) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the external mod info objects as well as their targetted version.
 
@@ -109,10 +109,10 @@ class GenericAssembler:
         """
         get_mod: Callable[
             [str, ModVersionInfo, Set[Side], ModSource],
-            Optional[tuple[Union[GTNHModInfo, ExternalModInfo], GTNHVersion]],
+            Optional[tuple[Union[GTNHModInfo], GTNHVersion]],
         ] = self.modpack_manager.assets.get_mod_and_version
 
-        external_mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = list(
+        external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = list(
             filter(
                 None,
                 [
@@ -124,7 +124,7 @@ class GenericAssembler:
 
         return external_mods
 
-    def github_mods(self, valid_sides: Set[Side]) -> List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]]:
+    def github_mods(self, valid_sides: Set[Side]) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the github mod info objects as well as their targetted version.
 
@@ -132,10 +132,10 @@ class GenericAssembler:
         """
         get_mod: Callable[
             [str, ModVersionInfo, Set[Side], ModSource],
-            Optional[tuple[Union[GTNHModInfo, ExternalModInfo], GTNHVersion]],
+            Optional[tuple[GTNHModInfo, GTNHVersion]],
         ] = self.modpack_manager.assets.get_mod_and_version
 
-        github_mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = list(
+        github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = list(
             filter(
                 None,
                 [
@@ -162,7 +162,7 @@ class GenericAssembler:
     def add_mods(
         self,
         side: Side,
-        mods: list[tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]],
+        mods: list[tuple[GTNHModInfo, GTNHVersion]],
         archive: ZipFile,
         verbose: bool = False,
     ) -> None:
@@ -275,16 +275,16 @@ class GenericAssembler:
         # it seems i'm obligated to get mods separatedly because self.get_mods is somehow
         # casting external mods into github mods
 
-        github_mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = self.github_mods(valid_sides)
+        github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
 
         for mod, version in github_mods:
             assert isinstance(mod, GTNHModInfo)
             lines.append(f"| [{mod.name}]({mod.repo_url}) | {version.version_tag} |")
 
-        external_mods: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = self.external_mods(valid_sides)
+        external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides)
 
         for mod, version in external_mods:
-            assert isinstance(mod, ExternalModInfo)
+            assert not mod.is_github()
             lines.append(f"| [{mod.name}]({mod.external_url}) | {version.version_tag} |")
 
         return "\n".join(sorted(lines, key=lambda x: x.lower()))

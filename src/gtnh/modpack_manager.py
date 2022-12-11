@@ -36,7 +36,7 @@ from gtnh.models.gtnh_config import CONFIG_REPO_NAME
 from gtnh.models.gtnh_modpack import GTNHModpack
 from gtnh.models.gtnh_release import GTNHRelease, load_release, save_release
 from gtnh.models.gtnh_version import version_from_release
-from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
+from gtnh.models.mod_info import GTNHModInfo
 from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.models.versionable import Versionable, version_is_newer, version_is_older, version_sort_key
 from gtnh.utils import AttributeDict, blockquote, get_github_token, index
@@ -151,7 +151,7 @@ class GTNHModpackManager:
 
         raise NotImplementedError("Not currently implemented")
 
-    async def update_assets_from_curse(self, assets: list[ExternalModInfo]) -> bool:
+    async def update_assets_from_curse(self, assets: list[GTNHModInfo]) -> bool:
         # return False
         raise NotImplementedError("Not currently implemented")
 
@@ -396,7 +396,7 @@ class GTNHModpackManager:
         external_mods: dict[str, ModVersionInfo] = {}
 
         def _add_mod(mod: GTNHModInfo) -> None:
-            modmap = external_mods if isinstance(mod, ExternalModInfo) else github_mods
+            modmap = github_mods if mod.is_github() else external_mods
             modmap[mod.name] = ModVersionInfo.create(mod=mod)
 
         for is_github, existing_mods in [(True, existing_release.github_mods), (False, existing_release.external_mods)]:
@@ -415,7 +415,7 @@ class GTNHModpackManager:
                     continue
 
                 mod = self.assets.get_mod(mod_name)
-                source_str = "[ Github Mod ]" if not isinstance(mod, ExternalModInfo) else "[External Mod]"
+                source_str = "[ Github Mod ]" if mod.is_github() else "[External Mod]"
                 if mod.disabled:
                     log.warn(f"{source_str} Mod `{Fore.CYAN}{mod.name}{Fore.RESET}` is disabled, skipping")
 

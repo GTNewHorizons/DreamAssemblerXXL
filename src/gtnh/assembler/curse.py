@@ -14,13 +14,13 @@ from gtnh.defs import CACHE_DIR, RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
-from gtnh.models.mod_info import ExternalModInfo, GTNHModInfo
+from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
 
 
-def is_valid_curse_mod(mod: GTNHModInfo | ExternalModInfo, version: GTNHVersion) -> bool:
+def is_valid_curse_mod(mod: GTNHModInfo, version: GTNHVersion) -> bool:
     """
      Returns whether or not a given mod is a valid curse mod or not.
 
@@ -39,20 +39,20 @@ def is_valid_curse_mod(mod: GTNHModInfo | ExternalModInfo, version: GTNHVersion)
     return True
 
 
-def is_mod_from_hidden_repo(mod: GTNHModInfo | ExternalModInfo) -> bool:
+def is_mod_from_hidden_repo(mod: GTNHModInfo) -> bool:
     """
     Returns whether or not a given mod is from a private github repo.
 
     :param mod: the given mod object
     :return: true if it's from a private repo, false otherwise
     """
-    if isinstance(mod, ExternalModInfo):
+    if not mod.is_github():
         return False
 
     return mod.private
 
 
-def is_mod_from_github(mod: GTNHModInfo | ExternalModInfo) -> bool:
+def is_mod_from_github(mod: GTNHModInfo) -> bool:
     """
     Returns whether or not a given mod is from github.
 
@@ -62,7 +62,7 @@ def is_mod_from_github(mod: GTNHModInfo | ExternalModInfo) -> bool:
     return isinstance(mod, GTNHModInfo)
 
 
-def get_maven_url(mod: GTNHModInfo | ExternalModInfo, version: GTNHVersion) -> str:
+def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str:
     """
     Returns the maven url for a github mod.
 
@@ -222,8 +222,8 @@ class CurseAssembler(GenericAssembler):
         :param archive: the zipfile object
         :return: None
         """
-        mod_list: List[Tuple[GTNHModInfo | ExternalModInfo, GTNHVersion]] = self.get_mods(side)
-        mod: GTNHModInfo | ExternalModInfo
+        mod_list: List[Tuple[GTNHModInfo, GTNHVersion]] = self.get_mods(side)
+        mod: GTNHModInfo
         version: GTNHVersion
         dep_json: List[Dict[str, str]] = []
         with ZipFile(RELEASE_CURSE_DIR / "downloads.zip", "w") as file:
@@ -272,7 +272,7 @@ class CurseAssembler(GenericAssembler):
             "overrides": "overrides",
         }
 
-        mod: GTNHModInfo | ExternalModInfo
+        mod: GTNHModInfo
         version: GTNHVersion
         files = []
         for mod, version in self.get_mods(side):

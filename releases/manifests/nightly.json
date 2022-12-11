@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.0.0",
-  "last_updated": "2022-12-10T22:54:16.745059",
+  "last_updated": "2022-12-11T01:10:08.763008",
   "config": "2.2.6",
   "github_mods": {
     "AdventureBackpack2": {
@@ -743,7 +743,9 @@
     "OpenPrinter": {
       "version": "0.1.2-GTNH",
       "side": "BOTH"
-    },
+    }
+  },
+  "external_mods": {
     "Aroma1997Core": {
       "version": "1.0.2.16",
       "side": "CLIENT"
@@ -928,6 +930,5 @@
       "version": "2.1.0.2308",
       "side": "BOTH"
     }
-  },
-  "external_mods": {}
+  }
 }
