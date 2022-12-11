@@ -12,6 +12,7 @@ from gidgethub.httpx import GitHubAPI
 from httpx import AsyncClient, HTTPStatusError
 from packaging.version import LegacyVersion
 from retry import retry
+from sortedcontainers import SortedSet
 from structlog import get_logger
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
@@ -75,7 +76,7 @@ class GTNHModpackManager:
         if not update and release.version in self.mod_pack.releases:
             log.error(f"Release `{Fore.RED}{release.version}{Fore.RESET} already exists, and update was not specified!")
             return False
-        self.mod_pack.releases |= {release.version}
+        self.mod_pack.releases |= SortedSet({release.version})
         return save_release(release, update=update)
 
     def get_release(self, release_name: str) -> GTNHRelease | None:
@@ -488,8 +489,6 @@ class GTNHModpackManager:
         new_mod = await self.mod_from_repo(new_repo)
         self.assets.add_mod(new_mod)
 
-        del self.assets._modmap  # noqa
-
         log.info(f"Successfully added {name}!")
         self.save_assets()
         return new_mod
@@ -515,7 +514,7 @@ class GTNHModpackManager:
                 break
 
         del self.assets.mods[mod_index]
-        del self.assets._modmap  # noqa
+        self.assets.clear_modmap()
         self.save_assets()
 
         log.info(f"Successfully deleted {name}!")

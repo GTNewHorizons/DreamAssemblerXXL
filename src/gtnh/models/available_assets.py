@@ -23,12 +23,14 @@ class AvailableAssets(GTNHBaseModel):
     def add_mod(self, mod: GTNHModInfo) -> None:
         log.info(f"Adding {mod.name}")
         bisect.insort_right(self.mods, mod, key=self._mod_sort_key)  # type: ignore
-        if hasattr(self, "_modmap"):
-            del self._modmap
+        self._modmap.clear()
 
     @staticmethod
     def _mod_sort_key(mod: GTNHModInfo) -> str:
         return mod.name.lower()
+
+    def clear_modmap(self) -> None:
+        self._modmap.clear()
 
     @cached_property
     def _modmap(self) -> Dict[str, GTNHModInfo]:
