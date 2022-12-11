@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.4",
-  "last_updated": "2022-12-11T15:50:45.428897",
+  "last_updated": "2022-12-11T16:35:23.709585",
   "config": "2.2.6",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "ExtraCells2": {
-      "version": "2.5.27",
+      "version": "2.5.28",
       "side": "BOTH"
     },
     "FindIt": {
@@ -759,6 +759,14 @@
     "TX-Loader": {
       "version": "1.1",
       "side": "CLIENT"
+    },
+    "GigaGramFab": {
+      "version": "0.0.2",
+      "side": "BOTH"
+    },
+    "NotEnoughIds": {
+      "version": "1.4.4",
+      "side": "BOTH"
     }
   },
   "external_mods": {
@@ -940,6 +948,10 @@
     },
     "Biomes O' Plenty": {
       "version": "2.1.0.2308",
+      "side": "BOTH"
+    },
+    "TC-4-Tweaks": {
+      "version": "1.4.23",
       "side": "BOTH"
     }
   }

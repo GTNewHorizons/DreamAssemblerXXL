@@ -1,7 +1,10 @@
 # New Mods:
 > * BlockRenderer6343
 > * GTNHMixins
+> * GigaGramFab
 > * ModularUI
+> * NotEnoughIds
+> * TC-4-Tweaks
 > * TX-Loader
 # Mods Removed:
 > * ModMixins
@@ -518,9 +521,10 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/Eternal-Singularity/pull/1 (1.0.4b)
 >
 
-# Updated ExtraCells2 (2.5.24 --> 2.5.27@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ExtraCells2/compare/2.5.23...2.5.27
+# Updated ExtraCells2 (2.5.24 --> 2.5.28@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ExtraCells2/compare/2.5.23...2.5.28
 >## What's Changed
+> * remove pointless allocations by @Glease in https://github.com/GTNewHorizons/ExtraCells2/pull/75 (2.5.28)
 > * Fix build by @kuba6000 in https://github.com/GTNewHorizons/ExtraCells2/pull/74 (2.5.27)
 > * fluid emitter and import export bus support nei drag and drop by @asdflj in https://github.com/GTNewHorizons/ExtraCells2/pull/73 (2.5.26)
 > * EC2 Parts rendering consistent to AE2 by @dipo33 in https://github.com/GTNewHorizons/ExtraCells2/pull/71 (2.5.25)
@@ -933,6 +937,9 @@
 > * @Phineasor made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/46 (1.1.17-GTNH)
 > * @POPlol333 made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/45 (1.1.16q-GTNH)
 >
+
+# New Mod - GigaGramFab (0.0.2@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/commits/0.0.2
 
 # Updated GoodGenerator (0.4.33 --> 0.4.62-pre@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.32...0.4.62-pre
@@ -1389,6 +1396,9 @@
 >## New Contributors
 > * @asdflj made their first contribution in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/22 (1.3.21)
 >
+
+# New Mod - NotEnoughIds (1.4.4@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/commits/1.4.4
 
 # Updated NotEnoughItems (2.3.7-GTNH --> 2.3.16-GTNH@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.6-GTNH...2.3.16-GTNH

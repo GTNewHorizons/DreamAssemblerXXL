@@ -310,7 +310,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [EnhancedLootBags](https://github.com/GTNewHorizons/EnhancedLootBags) | 1.0.5 |
 | [Eternal-Singularity](https://github.com/GTNewHorizons/Eternal-Singularity) | 1.0.5 |
 | [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities) | 1.2.13a |
-| [ExtraCells2](https://github.com/GTNewHorizons/ExtraCells2) | 2.5.27 |
+| [ExtraCells2](https://github.com/GTNewHorizons/ExtraCells2) | 2.5.28 |
 | [FastCraft](https://www.curseforge.com/minecraft/mc-mods/fastcraft) | 1.25 |
 | [FindIt](https://github.com/GTNewHorizons/FindIt) | 1.0.11 |
 | [Floodlights](https://www.curseforge.com/minecraft/mc-mods/floodlights) | 1.2.8-137 |
@@ -325,6 +325,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.0.57-GTNH-pre |
 | [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.1.21-GTNH |
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.6.5.5-GTNH |
+| [GigaGramFab](https://github.com/GTNewHorizons/GigaGramFab) | 0.0.2 |
 | [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.4.62-pre |
 | [Gravitation Suite](None) | 2.0.68u |
 | [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.41.166-pre |
@@ -387,6 +388,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 1.9.111 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.1.-6-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.3.23 |
+| [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 1.4.4 |
 | [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.3.16-GTNH |
 | [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.4.16 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.06.1-GTNH |
@@ -429,6 +431,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Super-TiC](https://github.com/GTNewHorizons/Super-TiC) | 1.2.5 |
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.1.2-GT-NH-Mod |
 | [Tainted Magic](https://www.curseforge.com/minecraft/mc-mods/tainted-magic) | r7.6 |
+| [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.4.23 |
 | [TCNEIAdditions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.1.1.7 |
 | [TCNodeTracker](https://github.com/GTNewHorizons/TCNodeTracker) | 1.1.6 |
 | [TecTech](https://github.com/GTNewHorizons/TecTech) | 5.0.55-pre |

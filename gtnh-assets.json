@@ -3621,7 +3621,8 @@
           "tagged_at": "2022-09-19T18:42:52+00:00",
           "filename": "blockrenderer6343-1.7.10-1.0.0-RC3.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BlockRenderer6343/releases/assets/78371341",
-          "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.0.0-RC3/blockrenderer6343-1.7.10-1.0.0-RC3.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.0.0-RC3/blockrenderer6343-1.7.10-1.0.0-RC3.jar",
+          "maven_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.0.0-RC3/blockrenderer6343-1.7.10-1.0.0-RC3.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -6626,7 +6627,8 @@
           "tagged_at": "2022-12-11T11:54:25+00:00",
           "filename": "ExtraCells-1.7.10-2.5.28.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ExtraCells2/releases/assets/87789207",
-          "browser_download_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.28/ExtraCells-1.7.10-2.5.28.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.28/ExtraCells-1.7.10-2.5.28.jar",
+          "maven_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.28/ExtraCells-1.7.10-2.5.28.jar"
         }
       ],
       "license": "MIT License",
@@ -7582,7 +7584,8 @@
           "tagged_at": "2022-12-11T11:52:17+00:00",
           "filename": "Galacticraft-1.7.10-3.0.57-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/87789075",
-          "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.57-GTNH-pre/Galacticraft-1.7.10-3.0.57-GTNH-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.57-GTNH-pre/Galacticraft-1.7.10-3.0.57-GTNH-pre.jar",
+          "maven_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.57-GTNH-pre/Galacticraft-1.7.10-3.0.57-GTNH-pre.jar"
         }
       ],
       "license": "Explicit Permission.",
@@ -7884,7 +7887,8 @@
           "tagged_at": "2022-11-17T07:58:18+00:00",
           "filename": "ggfab-1.7.10-0.0.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GigaGramFab/releases/assets/84934412",
-          "browser_download_url": "https://github.com/GTNewHorizons/GigaGramFab/releases/download/0.0.2/ggfab-1.7.10-0.0.2.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GigaGramFab/releases/download/0.0.2/ggfab-1.7.10-0.0.2.jar",
+          "maven_url": "https://github.com/GTNewHorizons/GigaGramFab/releases/download/0.0.2/ggfab-1.7.10-0.0.2.jar"
         }
       ],
       "license": "GNU Affero General Public License v3.0",
@@ -10710,7 +10714,8 @@
           "tagged_at": "2022-12-11T14:11:47+00:00",
           "filename": "gregtech-1.7.10-5.09.41.166-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/87796848",
-          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.166-pre/gregtech-1.7.10-5.09.41.166-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.166-pre/gregtech-1.7.10-5.09.41.166-pre.jar",
+          "maven_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.166-pre/gregtech-1.7.10-5.09.41.166-pre.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -11249,7 +11254,8 @@
           "tagged_at": "2022-12-10T16:34:47+00:00",
           "filename": "gtnhmixins-2.1.3.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHMixins/releases/assets/87712795",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTNHMixins/releases/download/2.1.3/gtnhmixins-2.1.3.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHMixins/releases/download/2.1.3/gtnhmixins-2.1.3.jar",
+          "maven_url": "https://github.com/GTNewHorizons/GTNHMixins/releases/download/2.1.3/gtnhmixins-2.1.3.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -12316,7 +12322,8 @@
           "tagged_at": "2022-12-11T11:57:13+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.154-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/87789397",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.154-pre/GT-PlusPlus-1.7.10-1.7.154-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.154-pre/GT-PlusPlus-1.7.10-1.7.154-pre.jar",
+          "maven_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.154-pre/GT-PlusPlus-1.7.10-1.7.154-pre.jar"
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -15522,7 +15529,8 @@
           "tagged_at": "2022-12-10T09:43:01+00:00",
           "filename": "modularui-1.7.10-1.0.27.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/87688706",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.27/modularui-1.7.10-1.0.27.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.27/modularui-1.7.10-1.0.27.jar",
+          "maven_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.27/modularui-1.7.10-1.0.27.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -17116,7 +17124,8 @@
           "tagged_at": "2022-10-11T23:00:25+00:00",
           "filename": "notenoughIDs-1.7.10-1.4.4.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughIds/releases/assets/80704004",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughIds/releases/download/1.4.4/notenoughIDs-1.7.10-1.4.4.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughIds/releases/download/1.4.4/notenoughIDs-1.7.10-1.4.4.jar",
+          "maven_url": "https://github.com/GTNewHorizons/NotEnoughIds/releases/download/1.4.4/notenoughIDs-1.7.10-1.4.4.jar"
         }
       ],
       "license": "All Rights Reserved (fallback)",
@@ -20477,6 +20486,31 @@
       "side": "NONE"
     },
     {
+      "name": "TC-4-Tweaks",
+      "latest_version": "1.4.23",
+      "versions": [
+        {
+          "version_tag": "1.4.23",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T17:19:06.097353",
+          "filename": "Thaumcraft4Tweaks-1.4.23.jar",
+          "download_url": "https://media.forgecdn.net/files/4102/503/Thaumcraft4Tweaks-1.4.23.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/files/4102503",
+          "curse_file": {
+            "project_no": "431297",
+            "file_no": "4102503"
+          }
+        }
+      ],
+      "license": "GNU",
+      "side": "BOTH",
+      "source": "curse",
+      "external_url": "https://www.curseforge.com/minecraft/mc-mods/tc4tweaks",
+      "project_id": "431297",
+      "disabled": false
+    },
+    {
       "name": "TC4Tweaks",
       "latest_version": "1.4.19-GTNH",
       "versions": [
@@ -21215,7 +21249,8 @@
           "tagged_at": "2022-12-11T11:56:42+00:00",
           "filename": "TecTech-1.7.10-5.0.55-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/87789364",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.55-pre/TecTech-1.7.10-5.0.55-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.55-pre/TecTech-1.7.10-5.0.55-pre.jar",
+          "maven_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.55-pre/TecTech-1.7.10-5.0.55-pre.jar"
         }
       ],
       "license": "MIT License",
@@ -22553,7 +22588,8 @@
           "tagged_at": "2022-11-22T23:55:44+00:00",
           "filename": "txloader-1.7.10-1.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TX-Loader/releases/assets/85619148",
-          "browser_download_url": "https://github.com/GTNewHorizons/TX-Loader/releases/download/1.1/txloader-1.7.10-1.1.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TX-Loader/releases/download/1.1/txloader-1.7.10-1.1.jar",
+          "maven_url": "https://github.com/GTNewHorizons/TX-Loader/releases/download/1.1/txloader-1.7.10-1.1.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
