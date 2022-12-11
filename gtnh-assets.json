@@ -7591,7 +7591,7 @@
     },
     {
       "name": "Galaxy-Space-GTNH",
-      "latest_version": "1.1.21-GTNH",
+      "latest_version": "1.1.22-GTNH",
       "private": true,
       "versions": [
         {
@@ -7818,6 +7818,15 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/87696916",
           "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.21-GTNH/GalaxySpace-1.7.10-1.1.21-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Galaxy-Space-GTNH/1.1.21-GTNH/Galaxy-Space-GTNH-1.1.21-GTNH.jar"
+        },
+        {
+          "version_tag": "1.1.22-GTNH",
+          "changelog": "## What's Changed\n* Added conrete requirement to tooltip by @minecraft7771 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/54\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.21-GTNH...1.1.22-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T16:32:06+00:00",
+          "filename": "GalaxySpace-1.7.10-1.1.22-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/87805986",
+          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.22-GTNH/GalaxySpace-1.7.10-1.1.22-GTNH.jar"
         }
       ],
       "license": "Explicit Permission.",
@@ -12554,7 +12563,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.0.10",
+      "latest_version": "2.0.11",
       "versions": [
         {
           "version_tag": "v1.2.0",
@@ -13059,6 +13068,15 @@
           "filename": "hodgepodge-1.7.10-2.0.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/86419725",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.0.10/hodgepodge-1.7.10-2.0.10.jar"
+        },
+        {
+          "version_tag": "2.0.11",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.0.10...2.0.11\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T17:05:19+00:00",
+          "filename": "hodgepodge-1.7.10-2.0.11.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/87808338",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.0.11/hodgepodge-1.7.10-2.0.11.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
