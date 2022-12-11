@@ -99,7 +99,7 @@ async def resolve_github_url(client: httpx.AsyncClient, mod: GTNHModInfo, versio
         response: httpx.Response = await client.head(url)
         if response.status_code == 200:
             return url
-
+    log.warn(f"Using fallback url, couldn't find {url}")
     assert version.browser_download_url
     return version.browser_download_url
 
