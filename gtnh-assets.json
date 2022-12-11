@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.2.6",
+    "latest_version": "2.2.7",
     "versions": [
       {
         "version_tag": "2.1.2.3qf-test",
@@ -335,6 +335,15 @@
         "filename": "2.2.6.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/87698080",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.6/2.2.6.zip"
+      },
+      {
+        "version_tag": "2.2.7",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2022-12-11T18:53:04+00:00",
+        "filename": "2.2.7.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/87815867",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.7/2.2.7.zip"
       }
     ],
     "type": "config",
@@ -1792,7 +1801,7 @@
     },
     {
       "name": "bartworks",
-      "latest_version": "0.5.123",
+      "latest_version": "0.5.124-pre",
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -2587,6 +2596,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/87703603",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.123/bartworks-1.7.10-0.5.123.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.5.123/bartworks-0.5.123.jar"
+        },
+        {
+          "version_tag": "0.5.124-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.5.123...0.5.124-pre\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T18:22:37+00:00",
+          "filename": "bartworks-1.7.10-0.5.124-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/87813529",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.124-pre/bartworks-1.7.10-0.5.124-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.5.124-pre/bartworks-0.5.124-pre.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -7826,7 +7845,8 @@
           "tagged_at": "2022-12-11T16:32:06+00:00",
           "filename": "GalaxySpace-1.7.10-1.1.22-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/87805986",
-          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.22-GTNH/GalaxySpace-1.7.10-1.1.22-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.22-GTNH/GalaxySpace-1.7.10-1.1.22-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Galaxy-Space-GTNH/1.1.22-GTNH/Galaxy-Space-GTNH-1.1.22-GTNH.jar"
         }
       ],
       "license": "Explicit Permission.",
@@ -11268,7 +11288,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.7.154-pre",
+      "latest_version": "1.7.156-pre",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -12327,6 +12347,25 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/87789397",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.154-pre/GT-PlusPlus-1.7.10-1.7.154-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.7.154-pre/GTplusplus-1.7.154-pre.jar"
+        },
+        {
+          "version_tag": "1.7.155-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.154-pre...1.7.155-pre\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T18:24:56+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.155-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/87813684",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.155-pre/GT-PlusPlus-1.7.10-1.7.155-pre.jar"
+        },
+        {
+          "version_tag": "1.7.156-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.155-pre...1.7.156-pre\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T18:41:51+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.156-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/87814672",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.156-pre/GT-PlusPlus-1.7.10-1.7.156-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.7.156-pre/GTplusplus-1.7.156-pre.jar"
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -13076,7 +13115,8 @@
           "tagged_at": "2022-12-11T17:05:19+00:00",
           "filename": "hodgepodge-1.7.10-2.0.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/87808338",
-          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.0.11/hodgepodge-1.7.10-2.0.11.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.0.11/hodgepodge-1.7.10-2.0.11.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/2.0.11/Hodgepodge-2.0.11.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -16151,7 +16191,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "1.9.111",
+      "latest_version": "1.9.112",
       "versions": [
         {
           "version_tag": "1.9.11",
@@ -16944,6 +16984,15 @@
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.111.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/86950875",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.111/GTNewHorizonsCoreMod-1.7.10-1.9.111.jar"
+        },
+        {
+          "version_tag": "1.9.112",
+          "changelog": "## What's Changed\n* Add assembler recipes for Impregnated Frame, Apiary, Scented Paneling, all Alveary upgrades by @Alrightsc in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/452\n\n## New Contributors\n* @Alrightsc made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/452\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.111...1.9.112\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-11T18:50:44+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.112.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/87815673",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.112/GTNewHorizonsCoreMod-1.7.10-1.9.112.jar"
         }
       ],
       "license": "GNU General Public License v3.0",
