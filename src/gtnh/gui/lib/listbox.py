@@ -56,7 +56,7 @@ class CustomListbox(Frame, TtkFrame, CustomWidget):  # type: ignore
         # no resizing of the vertical scrollbar, hence the only columnconfigure
 
     def get_values(self) -> List[str]:
-        return self.listbox.get(0, END)  # type: ignore
+        return list(self.listbox.get(0, END))  # type: ignore
 
     def set_values(self, values: List[str]) -> None:
         self.listbox.delete(0, END)
