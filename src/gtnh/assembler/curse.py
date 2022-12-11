@@ -77,16 +77,16 @@ def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str | None:
         base = mod.maven
     else:
         log.warn(f"Missing mod.maven for {mod.name}, trying fallback url.")
-        base = "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/"
+        base = f"http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/{mod.name}/"
 
-    url: str = f"{base}{mod.name}/{version.version_tag}/{mod.name}-{version.version_tag}.jar"
+    url: str = f"{base}{version.version_tag}/{mod.name}-{version.version_tag}.jar"
 
     return url
 
 
 async def resolve_github_url(client: httpx.AsyncClient, mod: GTNHModInfo, version: GTNHVersion) -> str:
     """
-    Method to check if maven download url is availiable. If not, falling back to github. For now, it is resonable, but
+    Method to check if maven download url is availiable. If not, falling back to github. For now, it is reasonable, but
     we may hit the anonymous request quota limit if we have too much missing maven urls. Better not to rely too much on
     this.
 
