@@ -270,7 +270,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
             )
             if curse_src:
                 try:
-                    file_no = int(download_url.split("/")[-1])
+                    file_no = int(browser_url.split("/")[-1])
                     mod_version.curse_file = CurseFile(file_no=str(file_no), project_no=self.project_id.get())
                 except ValueError:
                     showwarning("fileNo error", "Cannot parse fileno from provided URL for curse mod")
