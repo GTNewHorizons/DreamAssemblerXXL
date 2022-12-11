@@ -77,16 +77,16 @@ def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str | None:
         base = mod.maven
     else:
         log.warn(f"Missing mod.maven for {mod.name}, trying fallback url.")
-        base = "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/"
+        base = f"http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/{mod.name}/"
 
-    url: str = f"{base}{mod.name}/{version.version_tag}/{mod.name}-{version.version_tag}.jar"
+    url: str = f"{base}{version.version_tag}/{mod.name}-{version.version_tag}.jar"
 
     return url
 
 
 async def resolve_github_url(client: httpx.AsyncClient, mod: GTNHModInfo, version: GTNHVersion) -> str:
     """
-    Method to check if maven download url is availiable. If not, falling back to github. For now, it is resonable, but
+    Method to check if maven download url is availiable. If not, falling back to github. For now, it is reasonable, but
     we may hit the anonymous request quota limit if we have too much missing maven urls. Better not to rely too much on
     this.
 
@@ -97,9 +97,9 @@ async def resolve_github_url(client: httpx.AsyncClient, mod: GTNHModInfo, versio
     url = get_maven_url(mod, version)
     if url:
         response: httpx.Response = await client.head(url)
-        if response.status_code == 200:
+        if response.status_code in {200, 204}:
             return url
-
+    log.warn(f"Using fallback url, couldn't find {url}")
     assert version.browser_download_url
     return version.browser_download_url
 
@@ -239,8 +239,13 @@ class CurseAssembler(GenericAssembler):
                     url: Optional[str]
                     if mod.source == ModSource.github:
                         if not version.maven_url:
-                            version.maven_url = await resolve_github_url(client, mod, version)
-                        url = version.maven_url
+                            url = await resolve_github_url(client, mod, version)
+                        else:
+                            url = version.maven_url
+
+                        # Hacky detection
+                        if url and "jenkins.usrv.eu:8081" in url:
+                            version.maven_url = url
                     else:
                         url = version.download_url
 
