@@ -513,7 +513,7 @@ class GTNHModpackManager:
                 break
 
         del self.assets.mods[mod_index]
-        self.assets.clear_modmap()
+        self.assets.refresh_modmap()
         self.save_assets()
 
         log.info(f"Successfully deleted {name}!")
