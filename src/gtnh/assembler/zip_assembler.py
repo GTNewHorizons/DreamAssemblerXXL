@@ -211,7 +211,8 @@ class ZipAssembler(GenericAssembler):
             with ZipFile(self.get_archive_path(side), "a") as archive:
                 self.add_server_assets(archive, server_brand)
 
-    def get_server_assets(self, server_brand: ServerBrand) -> List[Path]:
+    @classmethod
+    def get_server_assets(cls, server_brand: ServerBrand) -> List[Path]:
         """
         Return the list of Path objects corresponding to the server brand's assets.
 
