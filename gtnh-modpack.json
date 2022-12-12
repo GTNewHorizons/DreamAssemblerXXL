@@ -28,7 +28,8 @@
     "LICENSE",
     "README.md",
     "resourcepacks/Realistic Sky GT New Horizons.zip",
-    "servers.json"
+    "servers.json",
+    "config/txloader/"
   ],
   "client_exclusions": [
     ".gitignore",

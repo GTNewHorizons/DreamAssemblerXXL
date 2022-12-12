@@ -7,6 +7,7 @@ from colorama import Fore
 from structlog import get_logger
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
+from gtnh.assembler.exclusions import Exclusions
 from gtnh.defs import README_TEMPLATE, RELEASE_README_DIR, ModSource, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
@@ -45,9 +46,9 @@ class GenericAssembler:
         self.task_progress_callback: Optional[Callable[[float, str], None]] = task_progress_callback
         self.changelog_path: Optional[Path] = changelog_path
 
-        self.exclusions: Dict[str, List[str]] = {
-            Side.CLIENT: self.modpack_manager.mod_pack.client_exclusions,
-            Side.SERVER: self.modpack_manager.mod_pack.server_exclusions,
+        self.exclusions: Dict[str, Exclusions] = {
+            Side.CLIENT: Exclusions(self.modpack_manager.mod_pack.client_exclusions),
+            Side.SERVER: Exclusions(self.modpack_manager.mod_pack.server_exclusions),
         }
         self.delta_progress: float = 0.0
 
