@@ -1,3 +1,4 @@
+"""Module providing a ZipAssembler class for assembling zip archives in DAXXL."""
 import shutil
 from pathlib import Path
 from typing import Callable, List, Optional, Tuple
@@ -18,9 +19,7 @@ log = get_logger(__name__)
 
 
 class ZipAssembler(GenericAssembler):
-    """
-    Zip assembler class. Allows for the assembling of zip archives.
-    """
+    """Zip assembler class. Allows for the assembling of zip archives."""
 
     def __init__(
         self,
@@ -31,12 +30,24 @@ class ZipAssembler(GenericAssembler):
         changelog_path: Optional[Path] = None,
     ):
         """
-        Constructor of the ZipAssembler class.
+        Construct the ZipAssembler class.
 
-        :param gtnh_modpack: the modpack manager instance
-        :param release: the target release object
-        :param task_progress_callback: the callback to report the progress of the task
-        :param global_progress_callback: the callback to report the global progress
+        Parameters
+        ----------
+        gtnh_modpack : GTNHModpackManager
+            The modpack manager instance.
+
+        release : GTNHRelease
+            The target release object.
+
+        task_progress_callback :  Optional[Callable[[float, str], None]]
+            The callback to report the progress of the task if provided.
+
+        global_progress_callback : Optional[Callable[[float, str], None]]
+            The callback to report the global progress if provided.
+
+        changelog_path : Optional[Path]
+            The path to the changelog if provided.
         """
         GenericAssembler.__init__(
             self,
@@ -54,7 +65,27 @@ class ZipAssembler(GenericAssembler):
         archive: ZipFile,
         verbose: bool = False,
     ) -> None:
+        """
+        Add mods to the archive being assembled.
 
+        Parameters
+        ----------
+        side : Side
+            The side of the archive being assembled.
+
+        mods : list[tuple[GTNHModInfo, GTNHVersion]]
+            List of (mod info / version) being added to the assembled archive.
+
+        archive : ZipFile
+            The assembled archive.
+
+        verbose : bool
+            Boolean controlling if yes or no the assembling process should be verbose.
+
+        Returns
+        -------
+        None.
+        """
         for mod, version in mods:
             source_file: Path = get_asset_version_cache_location(mod, version)
             archive_path: Path = Path("mods") / source_file.name
@@ -65,6 +96,21 @@ class ZipAssembler(GenericAssembler):
                 )
 
     def add_server_assets(self, archive: ZipFile, server_brand: ServerBrand) -> None:
+        """
+        Add server assets to the archive if it's a server side archive.
+
+        Parameters
+        ----------
+        archive : ZipFile
+            The assembled archive.
+
+        server_brand : ServerBrand
+            The type of server being used.
+
+        Returns
+        -------
+        None.
+        """
         assets = self.get_server_assets(server_brand)
 
         for asset in assets:
@@ -75,6 +121,28 @@ class ZipAssembler(GenericAssembler):
     def add_config(
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
+        """
+        Add config to the archive being assembled.
+
+        Parameters
+        ----------
+        side : Side
+            The side of the archive being assembled.
+
+        config: Tuple[GTNHConfig, GTNHVersion]
+            (config / version) couple used to determine config release used to assemble the pack.
+
+        archive : ZipFile
+            The assembled archive.
+
+        verbose : bool
+            Boolean controlling if yes or no the assembling process should be verbose.
+
+        Returns
+        -------
+        None.
+
+        """
         modpack_config: GTNHConfig
         config_version: Optional[GTNHVersion]
         modpack_config, config_version = config
@@ -95,16 +163,39 @@ class ZipAssembler(GenericAssembler):
         self.add_changelog(archive)
 
     def get_archive_path(self, side: Side) -> Path:
+        """
+        Get the archive path for the release.
+
+        Parameters
+        ----------
+        side : Side
+            The side of the archive being assembled.
+
+        Returns
+        -------
+        A Path object representing the archive's path.
+
+        """
         return RELEASE_ZIP_DIR / f"GT_New_Horizons_{self.release.version}_{side}.zip"
 
     async def assemble(self, side: Side, verbose: bool = False, server_brand: ServerBrand = ServerBrand.forge) -> None:
         """
-        Method to assemble the release.
+        Assemble the zip release.
 
-        :param side: target side
-        :param verbose: flag to enable the verbose mode
-        :param server_brand: server brand used to create the archive if it's a server one
-        :return: None
+        Parameters
+        ----------
+        side : Side
+            The side of the archive being assembled.
+
+        verbose : bool
+            Boolean controlling if yes or no the assembling process should be verbose.
+
+        server_brand : ServerBrand
+            The type of server being used.
+
+        Returns
+        -------
+        None.
         """
         # +1 for the changelog
         amount_of_files: int = len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + 1
@@ -122,10 +213,16 @@ class ZipAssembler(GenericAssembler):
 
     def get_server_assets(self, server_brand: ServerBrand) -> List[Path]:
         """
-        return the list of Path objects corresponding to the server brand's assets.
+        Return the list of Path objects corresponding to the server brand's assets.
 
-        :param server_brand: the server brand to fetch assets for
-        :return: a list of Path objects
+        Parameters
+        ----------
+        server_brand : ServerBrand
+            The type of server being used.
+
+        Returns
+        -------
+        A list of paths representing the server assets corresponding to the server brand.
         """
         path_objects: List[Path] = [path_object for path_object in (SERVER_ASSETS_DIR / server_brand.value).iterdir()]
 
