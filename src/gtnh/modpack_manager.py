@@ -901,6 +901,7 @@ class GTNHModpackManager:
 
     def delete_exclusion(self, side: str, exclusion: str) -> bool:
         if side == "client":
+            self.mod_pack.client_exclusions.sort()
             if exclusion not in self.mod_pack.client_exclusions:
                 log.warn(f"{Fore.YELLOW}{exclusion} is not in {side} side exclusions{Fore.RESET}")
                 return False
@@ -911,12 +912,13 @@ class GTNHModpackManager:
                 return True
 
         if side == "server":
+            self.mod_pack.server_exclusions.sort()
             if exclusion not in self.mod_pack.server_exclusions:
                 log.warn(f"{Fore.YELLOW}{exclusion} is not in {side} side exclusions{Fore.RESET}")
                 return False
             else:
-                position = index(self.mod_pack.client_exclusions, exclusion)
-                del self.mod_pack.client_exclusions[position]
+                position = index(self.mod_pack.server_exclusions, exclusion)
+                del self.mod_pack.server_exclusions[position]
                 log.info(f"{Fore.GREEN}{exclusion} has been removed from {side} side exclusions{Fore.RESET}")
                 return True
         else:

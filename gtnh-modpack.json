@@ -14,30 +14,31 @@
     "nightly"
   ],
   "server_exclusions": [
+    ".gitattributes",
+    ".gitignore",
+    "CODEOWNERS",
+    "LICENSE",
+    "README.md",
+    "mods/OpenSecurity/sounds/alarms/StargateAtlantisTheme.ogg",
     "mods/OpenSecurity/sounds/alarms/alarm-SG1.ogg",
     "mods/OpenSecurity/sounds/alarms/alarm-SG1evac.ogg",
     "mods/OpenSecurity/sounds/alarms/alarm-SGA.ogg",
     "mods/OpenSecurity/sounds/alarms/alarm-SGAoffworld.ogg",
     "mods/OpenSecurity/sounds/alarms/klaxon1.ogg",
     "mods/OpenSecurity/sounds/alarms/klaxon2.ogg",
-    "mods/OpenSecurity/sounds/alarms/StargateAtlantisTheme.ogg",
-    "scripts/ZZ-Client-Only.zs",
-    ".gitignore",
-    ".gitattributes",
-    "CODEOWNERS",
-    "LICENSE",
-    "README.md",
     "resourcepacks/Realistic Sky GT New Horizons.zip",
-    "servers.json"
+    "scripts/ZZ-Client-Only.zs",
+    "servers.json",
+    "config/txloader/"
   ],
   "client_exclusions": [
-    ".gitignore",
     ".gitattributes",
+    ".gitignore",
     "CODEOWNERS",
     "LICENSE",
     "README.md",
-    "server.properties",
     "server-icon.png",
+    "server.properties",
     "servers.json"
   ]
 }
