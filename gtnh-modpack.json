@@ -29,7 +29,7 @@
     "resourcepacks/Realistic Sky GT New Horizons.zip",
     "scripts/ZZ-Client-Only.zs",
     "servers.json",
-    "config/txloader"
+    "config/txloader/"
   ],
   "client_exclusions": [
     ".gitattributes",
