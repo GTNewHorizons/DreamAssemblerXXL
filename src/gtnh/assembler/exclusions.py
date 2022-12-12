@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import List, Iterable
+from typing import Iterable, List
 
 
 class Exclusions:
@@ -21,8 +21,8 @@ class Exclusions:
 
         return False
 
-    def append(self, exclusion:str):
+    def append(self, exclusion: str) -> None:
         self.exclusions.append(exclusion)
 
-    def extend(self, exclusions: Iterable[str]):
+    def extend(self, exclusions: Iterable[str]) -> None:
         self.exclusions.extend(exclusions)
