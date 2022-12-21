@@ -1,3 +1,4 @@
+"""Module handling the Technic pack releases."""
 import logging
 import re
 import shutil
@@ -20,10 +21,16 @@ log.setLevel(logging.INFO)
 
 def technify(string: str) -> str:
     """
-    format the given string to be only lower case letters or numbers or dashes.
+    Format the given string to be only lower case letters or numbers or dashes.
 
-    :param string: the given string
-    :return: the formatted string
+    Parameters
+    ----------
+    string: str
+        The given string.
+
+    Returns
+    -------
+    The formatted string.
     """
     pattern_separators = re.compile("[ _]")
     pattern_strip = re.compile("[^a-z0-9.-]")
@@ -34,9 +41,7 @@ def technify(string: str) -> str:
 
 
 class TechnicAssembler(GenericAssembler):
-    """
-    Technic assembler class. Allows for the assembling of technic archives.
-    """
+    """Technic assembler class. Allows for the assembling of technic archives."""
 
     def __init__(
         self,
@@ -47,12 +52,24 @@ class TechnicAssembler(GenericAssembler):
         changelog_path: Optional[Path] = None,
     ):
         """
-        Constructor of the TechnicAssembler class.
+        Construct the TechnicAssembler class.
 
-        :param gtnh_modpack: the modpack manager instance
-        :param release: the target release object
-        :param task_progress_callback: the callback to report the progress of the task
-        :param global_progress_callback: the callback to report the global progress
+        Parameters
+        ----------
+        gtnh_modpack: GTNHModpackManager
+            The modpack manager instance.
+
+        release: GTNHRelease
+            The targetted release.
+
+        task_progress_callback: Optional[Callable[[float, str], None]]
+            The callback used to report progress within the task process.
+
+        global_progress_callback: Optional[Callable[[float, str], None]]
+            The callback used to report total progress.
+
+        changelog_path: Optional[Path]
+            The path of the changelog.
         """
         GenericAssembler.__init__(
             self,
@@ -66,7 +83,27 @@ class TechnicAssembler(GenericAssembler):
     def add_mods(
         self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
     ) -> None:
+        """
+        Add mods to the archive being assembled.
 
+        Parameters
+        ----------
+        side: Side
+            The side of the archive being assembled.
+
+        mods: list[tuple[GTNHModInfo, GTNHVersion]]
+            List of (mod info / version) being added to the assembled archive.
+
+        archive: ZipFile
+            The assembled archive.
+
+        verbose: bool
+            Boolean controlling if yes or no the assembling process should be verbose.
+
+        Returns
+        -------
+        None.
+        """
         temp_zip_path: Path = Path("./temp.zip")
 
         for mod, version in mods:
@@ -94,7 +131,27 @@ class TechnicAssembler(GenericAssembler):
     def add_config(
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
+        """
+        Add config to the archive being assembled.
 
+        Parameters
+        ----------
+        side : Side
+            The side of the archive being assembled.
+
+        config: Tuple[GTNHConfig, GTNHVersion]
+            (config / version) couple used to determine config release used to assemble the pack.
+
+        archive : ZipFile
+            The assembled archive.
+
+        verbose : bool
+            Boolean controlling if yes or no the assembling process should be verbose.
+
+        Returns
+        -------
+        None.
+        """
         modpack_config: GTNHConfig
         config_version: Optional[GTNHVersion]
         modpack_config, config_version = config
@@ -141,9 +198,36 @@ class TechnicAssembler(GenericAssembler):
         temp_zip_path.unlink()
 
     def get_archive_path(self, side: Side) -> Path:
+        """
+        Get the archive path for the release.
+
+        Parameters
+        ----------
+        side : Side
+            The side of the archive being assembled.
+
+        Returns
+        -------
+        A Path object representing the archive's path.
+        """
         return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(technic).zip"
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
+        """
+        Assemble the release.
+
+        Parameters
+        ----------
+        side : Side
+            The side of the archive being assembled.
+
+        verbose : bool
+            Boolean controlling if yes or no the assembling process should be verbose.
+
+        Returns
+        -------
+        None.
+        """
         if side != Side.CLIENT:
             raise ValueError(f"Only valid side is {Side.CLIENT}, got {side}")
 

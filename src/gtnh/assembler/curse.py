@@ -1,3 +1,4 @@
+"""Module handling curse pack assembling."""
 import shutil
 from json import dump
 from pathlib import Path
@@ -22,11 +23,19 @@ log = get_logger(__name__)
 
 def is_valid_curse_mod(mod: GTNHModInfo, version: GTNHVersion) -> bool:
     """
-     Returns whether or not a given mod is a valid curse mod or not.
+    Tell if a given mod is a valid curseforge mod or not.
 
-    :param mod: the given mod object
-    :param version: its corresponding version
-    :return: true if it is a valid curse mod
+    Parameters
+    ----------
+    mod: GTNHModInfo
+        The given mod.
+
+    version: GTNHVersion
+        The associated version to the mod.
+
+    Returns
+    -------
+    True if it's a valid curseforge mod, False otherwise.
     """
     # If we don't have curse file info, it's not a valid curse file
     if version.curse_file is None:
@@ -41,10 +50,16 @@ def is_valid_curse_mod(mod: GTNHModInfo, version: GTNHVersion) -> bool:
 
 def is_mod_from_hidden_repo(mod: GTNHModInfo) -> bool:
     """
-    Returns whether or not a given mod is from a private github repo.
+    Tell if a given mod is from a private GitHub repository.
 
-    :param mod: the given mod object
-    :return: true if it's from a private repo, false otherwise
+    Parameters
+    ----------
+    mod: GTNHModInfo
+        The given mod.
+
+    Returns
+    -------
+    True if it's from a private repository, False otherwise.
     """
     if not mod.is_github():
         return False
@@ -54,21 +69,34 @@ def is_mod_from_hidden_repo(mod: GTNHModInfo) -> bool:
 
 def is_mod_from_github(mod: GTNHModInfo) -> bool:
     """
-    Returns whether or not a given mod is from github.
+    Tell if a mod is from GitHub.
 
-    :param mod: the given mod object
-    :return: true if it's from github
+    Parameters
+    ----------
+    mod: The given mod.
+
+    Returns
+    -------
+    True if the mod is from GitHub, False otherwise.
     """
     return isinstance(mod, GTNHModInfo)
 
 
-def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str | None:
+def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str:
     """
-    Returns the maven url for a github mod.
+    Return the maven url for a GitHub mod.
 
-    :param mod: the github mod
-    :param version: the mod version
-    :return: the url from the GT:NH maven
+    Parameters
+    ----------
+    mod: GTNHModInfo
+        The given mod.
+
+    version: GTNHVersion
+        The corresponding version.
+
+    Returns
+    -------
+    A string corresponding to the maven url.
     """
     if not isinstance(mod, GTNHModInfo):
         raise TypeError("Only github mods have a maven url")
@@ -86,14 +114,27 @@ def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str | None:
 
 async def resolve_github_url(client: httpx.AsyncClient, mod: GTNHModInfo, version: GTNHVersion) -> str:
     """
-    Method to check if maven download url is availiable. If not, falling back to github. For now, it is reasonable, but
-    we may hit the anonymous request quota limit if we have too much missing maven urls. Better not to rely too much on
-    this.
+    Check if maven download url is availiable.
 
-    :param mod: the github mod
-    :param version: it's associated version
+    If not, falling back to GitHub. For now, it is reasonable, but we may hit the anonymous request quota limit if we
+    have too much missing maven urls. Better not to rely too much on this.
+
+    Parameters
+    ----------
+    client: httpx.AsyncClient
+        The async client to make the requests.
+
+    mod: GTNHModInfo
+        The mod to get the GitHub url.
+
+    version: GTNHVersion
+        The corresponding version.
+
+
+    Returns
+    -------
+    A string corresponding to the mod's GitHub URL.
     """
-
     url = get_maven_url(mod, version)
     if url:
         response: httpx.Response = await client.head(url)
@@ -105,9 +146,7 @@ async def resolve_github_url(client: httpx.AsyncClient, mod: GTNHModInfo, versio
 
 
 class CurseAssembler(GenericAssembler):
-    """
-    Curse assembler class. Allows for the assembling of curse archives.
-    """
+    """Curseforge assembler class. Allows for the assembling of curse archives."""
 
     def __init__(
         self,
@@ -118,12 +157,24 @@ class CurseAssembler(GenericAssembler):
         changelog_path: Optional[Path] = None,
     ):
         """
-        Constructor of the CurseAssembler class.
+        Construct the CurseAssembler class.
 
-        :param gtnh_modpack: the modpack manager instance
-        :param release: the target release object
-        :param task_progress_callback: the callback to report the progress of the task
-        :param global_progress_callback: the callback to report the global progress
+        Parameters
+        ----------
+        gtnh_modpack: GTNHModpackManager
+            The modpack manager instance.
+
+        release: GTNHRelease
+            The targetted release.
+
+        task_progress_callback: Optional[Callable[[float, str], None]]
+            The callback used to report progress within the task process.
+
+        global_progress_callback: Optional[Callable[[float, str], None]]
+            The callback used to report total progress.
+
+        changelog_path: Optional[Path]
+            The path of the changelog.
         """
         GenericAssembler.__init__(
             self,
@@ -142,9 +193,36 @@ class CurseAssembler(GenericAssembler):
         self.overrideslash = ROOT_DIR / "overrideslash.png"
 
     def get_archive_path(self, side: Side) -> Path:
+        """
+        Get the archive path for the release.
+
+        Parameters
+        ----------
+        side : Side
+            The side of the archive being assembled.
+
+        Returns
+        -------
+        A Path object representing the archive's path.
+        """
         return RELEASE_CURSE_DIR / f"GT_New_Horizons_{self.release.version}.zip"
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
+        """
+        Assemble the release.
+
+        Parameters
+        ----------
+        side : Side
+            The side of the archive being assembled.
+
+        verbose : bool
+            Boolean controlling if yes or no the assembling process should be verbose.
+
+        Returns
+        -------
+        None.
+        """
         if side not in {Side.CLIENT}:
             raise Exception("Can only assemble release for CLIENT")
 
@@ -174,11 +252,19 @@ class CurseAssembler(GenericAssembler):
 
     def add_overrides(self, side: Side, archive: ZipFile) -> None:
         """
-        Method to add the overrides to the curse archive.
+        Add the overrides to the curseforge archive.
 
-        :param side: client side
-        :param archive: curse archive
-        :return: None
+        Parameters
+        ----------
+        side: Side
+            Client side.
+
+        archive: ZipFile
+            The archive being assembled.
+
+        Returns
+        -------
+        None.
         """
         archive.write(self.overrides, arcname=self.overrides_folder / "overrides.png")
         archive.write(self.overrideslash, arcname=self.overrides_folder / "overrideslash.png")
@@ -192,6 +278,28 @@ class CurseAssembler(GenericAssembler):
     def add_config(
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
+        """
+        Add config to the archive being assembled.
+
+        Parameters
+        ----------
+        side : Side
+            The side of the archive being assembled.
+
+        config: Tuple[GTNHConfig, GTNHVersion]
+            (config / version) couple used to determine config release used to assemble the pack.
+
+        archive : ZipFile
+            The assembled archive.
+
+        verbose : bool
+            Boolean controlling if yes or no the assembling process should be verbose.
+
+        Returns
+        -------
+        None.
+
+        """
         modpack_config: GTNHConfig
         config_version: Optional[GTNHVersion]
         modpack_config, config_version = config
@@ -220,11 +328,19 @@ class CurseAssembler(GenericAssembler):
 
     async def generate_json_dep(self, side: Side, archive: ZipFile) -> None:
         """
-        Generates the dependencies.json and puts it in the archive.
+        Generate the dependencies.json and put it in the archive.
 
-        :param side: the side of the archive
-        :param archive: the zipfile object
-        :return: None
+        Parameters
+        ----------
+        side: Side
+            Client side.
+
+        archive: ZipFile
+            The archive being assembled.
+
+        Returns
+        -------
+        None.
         """
         mod_list: List[Tuple[GTNHModInfo, GTNHVersion]] = self.get_mods(side)
         mod: GTNHModInfo
@@ -267,13 +383,20 @@ class CurseAssembler(GenericAssembler):
 
     def generate_meta_data(self, side: Side, archive: ZipFile) -> None:
         """
-        Generates the manifest.json and places it in the archive.
+        Generate the manifest.json and place it in the archive.
 
-        :param side: the side of the pack
-        :param archive: the zipfile
-        :return: None
+        Parameters
+        ----------
+        side: Side
+            CLient side.
+
+        archive: ZipFile
+            The archive being assembled.
+
+        Returns
+        -------
+        None.
         """
-
         metadata = {
             "minecraft": {"version": "1.7.10", "modLoaders": [{"id": "forge-10.13.4.1614", "primary": True}]},
             "manifestType": "minecraftModpack",

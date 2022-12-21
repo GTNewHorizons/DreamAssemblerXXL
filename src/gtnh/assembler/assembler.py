@@ -1,3 +1,4 @@
+"""Module handling all the assemblers."""
 from pathlib import Path
 from typing import Awaitable, Callable, Dict, List, Optional
 
@@ -17,9 +18,7 @@ log = get_logger(__name__)
 
 
 class ReleaseAssembler:
-    """
-    Main class to assemble a release.
-    """
+    """Main class to assemble a release."""
 
     def __init__(
         self,
@@ -30,12 +29,24 @@ class ReleaseAssembler:
         current_task_reset_callback: Optional[Callable[[], None]] = None,
     ) -> None:
         """
-        Constructor of the ReleaseAssemblerClass.
+        Construct the ReleaseAssemblerClass.
 
-        :param mod_manager: the GTNHModpackManager instance
-        :param release: the target GTNHRelease
-        :param global_progress_callback: the global_progress_callback to use to report progress
-        :param current_task_reset_callback: the callback to reset the progress bar for the current task
+        Parameters
+        ----------
+        mod_manager: GTNHModpackManager
+            The GTNHModpackManager instance.
+
+        release: GTNHRelease
+            The target GTNHRelease.
+
+        task_callback: Optional[Callable[[float, str], None]]
+            The callback used to report progress within the task process.
+
+        global_callback: Optional[Callable[[float, str], None]]
+            The callback used to report total progress.
+
+        current_task_reset_callback: Optional[Callable[[], None]]
+            The callback to reset the progress bar for the current task.
         """
         self.mod_manager: GTNHModpackManager = mod_manager
         self.release: GTNHRelease = release
@@ -65,30 +76,45 @@ class ReleaseAssembler:
 
     def set_progress(self, progress: float) -> None:
         """
-        Setter for self.delta_progress.
+        Set the value of self.delta_progress.
 
-        :param progress: new delta progress
-        :return: None
+        Parameters
+        ----------
+        progress: float
+            The new delta progress.
+
+        Returns
+        -------
+        None
         """
         self.delta_progress = progress
 
     def get_progress(self) -> float:
         """
-        Getter for self.delta_progress.
+        Get the value of self.delta_progress.
 
-        :return: the delta progress
+        Returns
+        -------
+        A float corresponding to the value of self.delta_progress.
         """
         return self.delta_progress
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         """
-        Method called to assemble the release for all the supports.
+        Assemble the release for all the supports.
 
-        :param side: the target side
-        :param verbose: bool flag enabling verbose mod
-        :return: None
+        Parameters
+        ----------
+        side: Side
+            The side of the archive being assembled.
+
+        verbose: bool
+            If True, show more detailled logs.
+
+        Returns
+        -------
+        None
         """
-
         if side not in {side.CLIENT, side.SERVER}:
             raise ValueError(f"Only valid sides are {Side.CLIENT} or {Side.SERVER}, got {side}")
 
@@ -122,61 +148,102 @@ class ReleaseAssembler:
 
     async def assemble_zip(self, side: Side, verbose: bool = False) -> None:
         """
-        Method called to assemble the zip archive.
+        Assemble the zip archive.
 
-        :param side: targetted side
-        :param verbose: flag to control verbose mode
-        :return: None
+        Parameters
+        ----------
+        side: Side
+            The side of the zip archive to be assembled.
+
+        verbose: bool
+            If True, show more detailled logs.
+
+        Returns
+        -------
+        None
         """
         await self.zip_assembler.assemble(side, verbose)
 
     async def assemble_mmc(self, side: Side, verbose: bool = False) -> None:
         """
-        Method called to assemble the zip archive.
+        Assemble the mmc archive.
 
-        :param side: targetted side
-        :param verbose: flag to control verbose mode
-        :return: None
+        Parameters
+        ----------
+        side: Side
+            The side of the zip archive to be assembled.
+
+        verbose: bool
+            If True, show more detailled logs.
+
+        Returns
+        -------
+        None
         """
         await self.mmc_assembler.assemble(side, verbose)
 
     async def assemble_curse(self, side: Side, verbose: bool = False) -> None:
         """
-        Method called to assemble the curse archive.
+        Assemble the curseforge archive.
 
-        :param side: targetted side
-        :param verbose: flag to control verbose mode
-        :return: None
+        Parameters
+        ----------
+        side: Side
+            The side of the zip archive to be assembled.
+
+        verbose: bool
+            If True, show more detailled logs.
+
+        Returns
+        -------
+        None
         """
         await self.curse_assembler.assemble(side, verbose)
 
     async def assemble_modrinth(self, side: Side, verbose: bool = False) -> None:
         """
-        Method called to assemble the modrinth archive.
+        Assemble the Modrinth archive.
 
-        :param side: targetted side
-        :param verbose: flag to control verbose mode
-        :return: None
+        Parameters
+        ----------
+        side: Side
+            The side of the zip archive to be assembled.
+
+        verbose: bool
+            If True, show more detailled logs.
+
+        Returns
+        -------
+        None
         """
         await self.modrinth_assembler.assemble(side, verbose)
 
     async def assemble_technic(self, side: Side, verbose: bool = False) -> None:
         """
-        Method called to assemble the technic archive.
+        Assemble the Technic archive.
 
-        :param side: targetted side
-        :param verbose: flag to control verbose mode
-        :return: None
+        Parameters
+        ----------
+        side: Side
+            The side of the zip archive to be assembled.
+
+        verbose: bool
+            If True, show more detailled logs.
+
+        Returns
+        -------
+        None
         """
         await self.technic_assembler.assemble(side, verbose)
 
     def generate_changelog(self) -> Path:
         """
-        Method to generate the changelog of a release.
+        Generate the changelog of a release.
 
-        :return: the path to the changelog
+        Returns
+        -------
+        A Path object pointing to the changelog file.
         """
-
         current_version: str = self.release.version
         previous_version: Optional[str] = self.release.last_version
         previous_release: Optional[GTNHRelease] = (

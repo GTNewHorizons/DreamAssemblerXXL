@@ -30,24 +30,24 @@ class ZipAssembler(GenericAssembler):
         changelog_path: Optional[Path] = None,
     ):
         """
-        Construct the ZipAssembler class.
+        Construct the GenericAssembler class.
 
         Parameters
         ----------
-        gtnh_modpack : GTNHModpackManager
+        gtnh_modpack: GTNHModpackManager
             The modpack manager instance.
 
-        release : GTNHRelease
-            The target release object.
+        release: GTNHRelease
+            The targetted release.
 
-        task_progress_callback :  Optional[Callable[[float, str], None]]
-            The callback to report the progress of the task if provided.
+        task_progress_callback: Optional[Callable[[float, str], None]]
+            The callback used to report progress within the task process.
 
-        global_progress_callback : Optional[Callable[[float, str], None]]
-            The callback to report the global progress if provided.
+        global_progress_callback: Optional[Callable[[float, str], None]]
+            The callback used to report total progress.
 
-        changelog_path : Optional[Path]
-            The path to the changelog if provided.
+        changelog_path: Optional[Path]
+            The path of the changelog.
         """
         GenericAssembler.__init__(
             self,
@@ -174,7 +174,6 @@ class ZipAssembler(GenericAssembler):
         Returns
         -------
         A Path object representing the archive's path.
-
         """
         return RELEASE_ZIP_DIR / f"GT_New_Horizons_{self.release.version}_{side}.zip"
 

@@ -1,3 +1,4 @@
+"""Module defining a generic assembler class which other assemblers will extend."""
 import os
 from pathlib import Path
 from typing import Callable, Dict, List, Optional, Set, Tuple, Union
@@ -20,9 +21,7 @@ log = get_logger(__name__)
 
 
 class GenericAssembler:
-    """
-    Generic assembler class.
-    """
+    """Generic assembler class."""
 
     def __init__(
         self,
@@ -33,12 +32,24 @@ class GenericAssembler:
         changelog_path: Optional[Path] = None,
     ):
         """
-        Constructor of the GenericAssembler class.
+        Construct the GenericAssembler class.
 
-        :param gtnh_modpack: the modpack manager instance
-        :param release: the target release object
-        :param task_progress_callback: the callback to report the progress of the task
-        :param global_progress_callback: the callback to report the global progress
+        Parameters
+        ----------
+        gtnh_modpack: GTNHModpackManager
+            The modpack manager instance.
+
+        release: GTNHRelease
+            The targetted release.
+
+        task_progress_callback: Optional[Callable[[float, str], None]]
+            The callback used to report progress within the task process.
+
+        global_progress_callback: Optional[Callable[[float, str], None]]
+            The callback used to report total progress.
+
+        changelog_path: Optional[Path]
+            The path of the changelog.
         """
         self.modpack_manager: GTNHModpackManager = gtnh_modpack
         self.release: GTNHRelease = release
@@ -54,27 +65,41 @@ class GenericAssembler:
 
     def get_progress(self) -> float:
         """
-        Getter for self.delta_progress.
+        Get the value of self.delta_progress.
 
-        :return: current delta progress value
+        Returns
+        -------
+        A float corresponding to the value  of self.delta_progress.
         """
         return self.delta_progress
 
     def set_progress(self, delta_progress: float) -> None:
         """
-        Setter for self.delta_progress.
+        Set the value of self.delta_progress.
 
-        :param delta_progress: the new delta progress
-        :return: None
+        Parameters
+        ----------
+        delta_progress: float
+            The new value.
+
+        Returns
+        -------
+        None
         """
         self.delta_progress = delta_progress
 
     def get_amount_of_files_in_config(self, side: Side) -> int:
         """
-        Method to get the amount of files inside the config zip.
+        Get the amount of files inside the config zip.
 
-        :param side: targetted side for the release
-        :return: the amount of files
+        Parameters
+        ----------
+        side: Side
+            The targeted side to assemble.
+
+        Returns
+        -------
+        An int corresponding to the amount of files in the config zip.
         """
         modpack_config: GTNHConfig
         config_version: GTNHVersion
@@ -87,12 +112,17 @@ class GenericAssembler:
 
     def get_mods(self, side: Side) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
         """
-        Method to grab the mod info objects as well as their targetted version.
+        Grab the mod info objects as well as their targeted version.
 
-        :param side: the targetted side
-        :return: a list of couples where the first object is the mod info object, the second is the targetted version.
+        Parameters
+        ----------
+        side: Side
+            The targeted side.
+
+        Returns
+        -------
+        A list of (mod, mod version).
         """
-
         valid_sides: Set[Side] = {side, Side.BOTH}
 
         github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
@@ -104,9 +134,16 @@ class GenericAssembler:
 
     def external_mods(self, valid_sides: Set[Side]) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
         """
-        Method to grab the external mod info objects as well as their targetted version.
+        Grab the external mod info objects as well as their targeted version.
 
-        :param valid_sides: a set of valid sides to retrieve the mods from.
+        Parameters
+        ----------
+        valid_sides: Set[Side]
+            A set of valid sides for the release.
+
+        Returns
+        -------
+        A list of couple (github mod, version).
         """
         get_mod: Callable[
             [str, ModVersionInfo, Set[Side], ModSource],
@@ -127,9 +164,16 @@ class GenericAssembler:
 
     def github_mods(self, valid_sides: Set[Side]) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
         """
-        Method to grab the github mod info objects as well as their targetted version.
+        Grab the GitHub mod info objects as well as their targeted version.
 
-        :param valid_sides: a set of valid sides to retrieve the mods from.
+        Parameters
+        ----------
+        valid_sides: Set[Side]
+            A set of valid sides for the release.
+
+        Returns
+        -------
+        A list of couple (github mod, version).
         """
         get_mod: Callable[
             [str, ModVersionInfo, Set[Side], ModSource],
@@ -150,11 +194,12 @@ class GenericAssembler:
 
     def get_config(self) -> Tuple[GTNHConfig, GTNHVersion]:
         """
-        Method to get the config file from the release.
+        Get the config file from the release.
 
-        :return: a tuple with the GTNHConfig and GTNHVersion of the release's config
+        Returns
+        -------
+        A couple (config, version) corresponding to the targeted release.
         """
-
         config: GTNHConfig = self.modpack_manager.assets.config
         version: Optional[GTNHVersion] = config.get_version(self.release.config)
         assert version
@@ -168,13 +213,25 @@ class GenericAssembler:
         verbose: bool = False,
     ) -> None:
         """
-        Method to add mods in the zip archive.
+        Add mods to the archive being assembled.
 
-        :param side: target side
-        :param mods: target mods
-        :param archive: archive being built
-        :param verbose: flag to turn on verbose mode
-        :return: None
+        Parameters
+        ----------
+        side: Side
+            The side of the archive being assembled.
+
+        mods: list[tuple[GTNHModInfo, GTNHVersion]]
+            List of (mod info / version) being added to the assembled archive.
+
+        archive: ZipFile
+            The assembled archive.
+
+        verbose: bool
+            Boolean controlling if yes or no the assembling process should be verbose.
+
+        Returns
+        -------
+        None.
         """
         raise NotImplementedError
 
@@ -182,23 +239,43 @@ class GenericAssembler:
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
         """
-        Method to add config in the zip archive.
+        Add config to the archive being assembled.
 
-        :param side: target side
-        :param config: a tuple giving the config object and the version object of the config
-        :param archive: archive being built
-        :param verbose: flag to turn on verbose mode
-        :return: None
+        Parameters
+        ----------
+        side : Side
+            The side of the archive being assembled.
+
+        config: Tuple[GTNHConfig, GTNHVersion]
+            (config / version) couple used to determine config release used to assemble the pack.
+
+        archive : ZipFile
+            The assembled archive.
+
+        verbose : bool
+            Boolean controlling if yes or no the assembling process should be verbose.
+
+        Returns
+        -------
+        None.
         """
         self.add_changelog(archive)
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         """
-        Method to assemble the release.
+        Assemble the release.
 
-        :param side: target side
-        :param verbose: flag to enable the verbose mode
-        :return: None
+        Parameters
+        ----------
+        side : Side
+            The side of the archive being assembled.
+
+        verbose : bool
+            Boolean controlling if yes or no the assembling process should be verbose.
+
+        Returns
+        -------
+        None.
         """
         if side not in {Side.CLIENT, Side.SERVER}:
             raise Exception("Can only assemble release for CLIENT or SERVER, not BOTH")
@@ -223,20 +300,35 @@ class GenericAssembler:
 
     def get_archive_path(self, side: Side) -> Path:
         """
-        Method to get the path to the assembled pack release.
+        Get the archive path for the release.
 
-        :return: the path to the release
+        Parameters
+        ----------
+        side : Side
+            The side of the archive being assembled.
+
+        Returns
+        -------
+        A Path object representing the archive's path.
         """
         raise NotImplementedError
 
     def add_changelog(self, archive: ZipFile, arcname: Optional[Path] = None) -> None:
         """
-        Method to add the changelog to the archive.
+        Add the changelog to the archive.
 
-        :param archive: the archive object
-        :return: None
+        Parameters
+        ----------
+        archive: ZipFile
+            The archive being created.
+
+        arcname: Optional[Path]
+            The path of the file inside the archive, if provided.
+
+        Returns
+        -------
+        None
         """
-
         if self.changelog_path is not None:
             if self.task_progress_callback is not None:
                 self.task_progress_callback(self.get_progress(), "adding changelog to the archive")
@@ -247,12 +339,12 @@ class GenericAssembler:
 
     def generate_readme(self) -> None:
         """
-        Generates the readme for the modpack repo, based on the mods in the given release.
+        Generate the readme for the modpack repo, based on the mods in the given release.
 
-        :param version: the given release
-        :return: None
+        Returns
+        -------
+        None
         """
-
         with open(README_TEMPLATE, "r") as file:
             data = "".join(file.readlines())
 
@@ -266,9 +358,11 @@ class GenericAssembler:
 
     def generate_modlist(self) -> str:
         """
-        Generates the markdown for the modlist in the readme for the given release.
+        Generate the markdown for the modlist in the readme for the given release.
 
-        :return: the string for the modlist
+        Returns
+        -------
+        A string for the modlist.
         """
         valid_sides: Set[Side] = {Side.CLIENT, Side.SERVER, Side.BOTH}
         lines: List[str] = []
