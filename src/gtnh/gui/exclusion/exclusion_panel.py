@@ -1,3 +1,4 @@
+"""Module providing a widget to handle file exclusions."""
 from asyncio import Task
 from tkinter import LabelFrame
 from tkinter.ttk import LabelFrame as TtkLabelFrame
@@ -11,7 +12,20 @@ from gtnh.gui.lib.text_entry import TextEntry
 
 
 class ExclusionPanelCallback:
+    """Exclusion Panel Callback class. The goal of this class is to provide a type for the ExclusionPanel callbacks."""
+
     def __init__(self, add: Callable[[str], Task[None]], delete: Callable[[str], Task[None]]):
+        """
+        Construct the ExclusionPanelCallback class.
+
+        Parameters
+        ----------
+        add: Callable[[str], Task[None]]
+            Callback used when a new exclusion is entered in the GUI.
+
+        delete: Callable[[str], Task[None]]
+            Callback used when the user wants to delete the highlighted exclusion in the listbox.
+        """
         self.add: Callable[[str], Task[None]] = add
         self.delete: Callable[[str], Task[None]] = delete
 
@@ -29,14 +43,27 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         **kwargs: Any,
     ) -> None:
         """
-        Constructor of the ExclusionFrame class.
+        Construct of the ExclusionFrame class.
 
-        :param master: the parent widget
-        :param frame_name: the name displayed in the framebox
-        :param callbacks: a dict of callbacks passed to this instance
-        :param width: the width to harmonize widgets in characters
-        :param themed: for those who prefered themed versions of the widget. Default to false.
-        :param kwargs: params to init the parent class
+        Parameters
+        ----------
+        master: Any
+            The master widget.
+
+        frame_name: str
+            The name of the frame.
+
+        callbacks: ExclusionPanelCallback
+            The callbacks used within this class.
+
+        width: Optional[int]
+            If provided, set the width of the subwidgets.
+
+        themed: bool
+            If yes, use the themed version of ttk.
+
+        kwargs: Any
+            Other keywords arguments that will be passed to the LabelFrame init.
         """
         self.themed = themed
         if themed:
@@ -81,10 +108,16 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def add_to_list_sorted(self, elem: str) -> None:
         """
-        Method used to insert an element into the listbox and sort the elements at the same time.
+        Insert an element into the listbox and sort the elements at the same time.
 
-        :param elem: the element to add in the listbox
-        :return: None
+        Parameters
+        ----------
+        elem: str
+            The element to add in the listbox.
+
+        Returns
+        -------
+        None.
         """
         exclusions: List[str] = self.listbox.get_values()
         if elem in exclusions:
@@ -95,9 +128,11 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def add(self) -> None:
         """
-        Callback of self.btn_add.
+        Add the exclusion typed in the GUI to the listbox.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         exclusion: str = self.exclusion.get()
         if exclusion == "":
@@ -108,9 +143,11 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def delete(self) -> None:
         """
-        Callback of self.btn_del.
+        Delete the exclusion highlighted in the listbox.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         if self.listbox.has_selection():
             position: int = self.listbox.get()
@@ -120,9 +157,11 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def configure_widgets(self) -> None:
         """
-        Method to configure the widgets.
+        Configure the widgets.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         for widget in self.widgets:
             widget.configure(width=self.width)
@@ -132,27 +171,37 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def set_width(self, width: int) -> None:
         """
-        Method to set the widgets' width.
+        Set the widgets' width.
 
-        :param width: the new width
-        :return: None
+        Parameters
+        ----------
+        width: int
+            The new width to apply.
+
+        Returns
+        -------
+        None.
         """
         self.width = width
         self.configure_widgets()
 
     def get_width(self) -> int:
         """
-        Getter for self.width.
+        Get self.width, the width applied to all the widgets.
 
-        :return: the width in character sizes of the normalised widgets
+        Returns
+        -------
+        The width applied to the widgets.
         """
         return self.width
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and update_all its childs
+        Update the widget and all its childs.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         self.hide()
         self.configure_widgets()
@@ -160,17 +209,22 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and update_all its childs
-        :return None:
+        Hide the widget and all its childs.
+
+        Returns
+        -------
+        None.
         """
         for widget in self.widgets:
             widget.grid_forget()
 
     def show(self) -> None:
         """
-        Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
+        Display the widgets and its child widgets, as well as configuring the "responsiveness" of the widgets.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         x: int = 0
         y: int = 0
@@ -182,9 +236,17 @@ class ExclusionPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def populate_data(self, data: Dict[str, Any]) -> None:
         """
-        Method called by parent class to populate data in this class.
+        Populate data in this instance.
 
-        :param data: the data to pass to this class
-        :return: None
+        Called by the parent class.
+
+        Parameters
+        ----------
+        data: Dict[str, Any]
+            The data used to populate the instance of the class.
+
+        Returns
+        -------
+        None.
         """
         self.listbox.set_values(data["exclusions"])
