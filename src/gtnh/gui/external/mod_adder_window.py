@@ -1,3 +1,4 @@
+"""Module providing a widget to add external mods in DAXXL."""
 import asyncio
 from datetime import datetime
 from tkinter import LabelFrame, Toplevel
@@ -16,21 +17,35 @@ from gtnh.modpack_manager import GTNHModpackManager
 
 
 class ModAdderCallback:
+    """ModAdderCallback class. The goal of this class is to provide a type for the ModAdder callbacks."""
+
     def __init__(
         self,
         get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]],
         add_mod_to_memory: Callable[[str, str], None],
         del_mod_from_memory: Callable[[str], None],
     ):
+        """
+        Construct the ModAdderCallback class.
+
+        Parameters
+        ----------
+        get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]]
+            Callback used to retrieve the modpack manager instance.
+
+        add_mod_to_memory: Callable[[str, str], None]
+            Callback used to add a mod in DAXXL's memory.
+
+        del_mod_from_memory: Callable[[str], None]
+            Callback used to delete a mod from DAXXL's memory.
+        """
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = get_gtnh_callback
         self.add_mod_to_memory: Callable[[str, str], None] = add_mod_to_memory
         self.del_mod_from_memory: Callable[[str], None] = del_mod_from_memory
 
 
 class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
-    """
-    Class handling the widgets for the toplevel window about the mod addition.
-    """
+    """Class handling the widgets for the toplevel window about the mod addition."""
 
     def __init__(
         self,
@@ -43,15 +58,31 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
         **kwargs: Any,
     ):
         """
-        Constructor of the ModAdderWindow class.
+        Construct the ModAdderWindow class.
 
-        :param master: the parent widget
-        :param frame_name: the name displayed in the framebox
-        :param callbacks: a dict of callbacks passed to this instance
-        :param width: the width to harmonize widgets in characters
-        :param mod_name: optional parameter passed to this class if the mod exists already in DAXXL.
-        :param themed: for those who prefered themed versions of the widget. Default to false.
-        :param kwargs: params to init the parent class
+        Parameters
+        ----------
+        master: Toplevel
+            The parent widget.
+
+        frame_name: str
+            The frame name.
+
+        callbacks: ModAdderCallback
+            The callbacks used in this widget.
+
+        width: Optional[int]
+            If provided, width used to resize the widgets.
+
+        mod_name: Optional[str]
+            If provided, means this widget is opened to add a new version of the provided mod. If not provided, then
+            this widget will consider the user wants to add a mod from scratch.
+
+        themed: bool
+            If True, will use themed ttk widgets, using default widgets otherwise.
+
+        kwargs: Any
+            Additional keyword parameters that will be passed to the frame init.
         """
         self.themed = themed
         self.ypadding: int = 0
@@ -127,9 +158,11 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
     async def set_mod_source(self) -> None:
         """
-        method used to set up the intvar corresponding to the source of the mod when it's just a mod version added.
+        Set up the intvar corresponding to the source of the mod when it's just a mod version added.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         gtnh: GTNHModpackManager = await self.get_gtnh_callback()
 
@@ -139,9 +172,11 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def check_inputs(self) -> Dict[str, bool]:
         """
-        Method used to check the inputs in the gui.
+        Check the inputs in the gui.
 
-        :return: a dict with the tests as key and the value of the tests as values
+        Returns
+        -------
+        A Dict[str, bool] where the keys are the tests and the values are the result of corresponding tests.
         """
         name: str = self.mod_name if self.mod_name is not None else self.name.get()
         version: str = self.version.get()
@@ -194,9 +229,11 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
     async def add_mod(self) -> None:
         """
-        Method to add an external mod to DAXXL.
+        Add an external mod to DAXXL.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         error_messages = {
             "name": "Mod name is empty",
@@ -332,9 +369,11 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def configure_widgets(self) -> None:
         """
-        Method to configure the widgets.
+        Configure the widgets.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         self.mod_choice.configure(width=self.width)
         self.btn_add.configure(width=self.width)
@@ -344,27 +383,37 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def set_width(self, width: int) -> None:
         """
-        Method to set the widgets' width.
+        Set the widgets' width.
 
-        :param width: the new width
-        :return: None
+        Parameters
+        ----------
+        width: int
+            The new width to apply.
+
+        Returns
+        -------
+        None.
         """
         self.width = width
         self.configure_widgets()
 
     def get_width(self) -> int:
         """
-        Getter for self.width.
+        Get self.width, the width applied to all the widgets.
 
-        :return: the width in character sizes of the normalised widgets
+        Returns
+        -------
+        The width applied to the widgets.
         """
         return self.width
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and update_all its childs
+        Update the widget and all its childs.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         self.hide()
         self.configure_widgets()
@@ -372,8 +421,11 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and update_all its childs
-        :return None:
+        Hide the widget and all its childs.
+
+        Returns
+        -------
+        None.
         """
         self.mod_choice.grid_forget()
         self.btn_add.grid_forget()
@@ -385,9 +437,11 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def show(self) -> None:
         """
-        Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
+        Display the widgets and its child widgets, as well as configuring the "responsiveness" of the widgets.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         x: int = 0
         y: int = 0
@@ -424,9 +478,17 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def populate_data(self, data: Any) -> None:
         """
-        Method called by parent class to populate data in this class.
+        Populate data in this instance.
 
-        :param data: the data to pass to this class
-        :return: None
+        Called by the parent class.
+
+        Parameters
+        ----------
+        data: Any
+            The data used to populate the instance of the class.
+
+        Returns
+        -------
+        None.
         """
         pass

@@ -1,3 +1,4 @@
+"""Module providing a widget for the external mod management in DAXXL."""
 import asyncio
 from asyncio import Task
 from tkinter import LabelFrame, Toplevel
@@ -18,6 +19,8 @@ from gtnh.modpack_manager import GTNHModpackManager
 
 
 class ExternalPanelCallback(ModInfoCallback):
+    """ModAdderCallback class. The goal of this class is to provide a type for the ExternalPanel callbacks."""
+
     def __init__(
         self,
         set_mod_version: Callable[[str, str], None],
@@ -30,6 +33,38 @@ class ExternalPanelCallback(ModInfoCallback):
         del_mod_in_memory: Callable[[str], None],
         refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]],
     ):
+        """
+        Construct the ExternalPanelCallback class.
+
+        Parameters
+        ----------
+        set_mod_version: Callable[[str, str], None]
+            Callback used to set the version of a mod in the current release.
+
+        set_mod_side: Callable[[str, Side], Task[None]]
+            Callback used to set the side of a mod.
+
+        set_mod_side_default: Callable[[str, str], Task[None]]
+            Callback used to set the default side for a mod.
+
+        get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]]
+            Callback used to retrieve the modpack manager instance.
+
+        get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]]
+            Callback used to retrieve the external mods from the assets.
+
+        toggle_freeze: Callable[[], None]
+            Callback used to (un)freeze the GUI to prevent any interaction in the GUI while performing a task.
+
+        add_mod_to_memory: Callable[[str, str], None]
+            Callback used to add a mod in DAXXL's memory.
+
+        del_mod_from_memory: Callable[[str], None]
+            Callback used to delete a mod from DAXXL's memory.
+
+        refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]]
+            Callback used to refresh the external modlist.
+        """
         ModInfoCallback.__init__(
             self, set_mod_version=set_mod_version, set_mod_side=set_mod_side, set_mod_side_default=set_mod_side_default
         )
@@ -54,14 +89,27 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         **kwargs: Any,
     ):
         """
-        Constructor of the ExternalPanel class.
+        Construct the ExternalPanel class.
 
-        :param master: the parent widget
-        :param frame_name: the name displayed in the framebox
-        :param callbacks: a dict of callbacks passed to this instance
-        :param width: the width to harmonize widgets in characters
-        :param themed: for those who prefered themed versions of the widget. Default to false.
-        :param kwargs: params to init the parent class
+        Parameters
+        ----------
+        master: Any
+            The parent widget.
+
+        frame_name: str
+            The name displayed in the framebox.
+
+        callbacks: ExternalPanelCallback
+            The callbacks passed to this instance.
+
+        width: Optional[int]
+            If provided, the width used to harmonize the child widgets.
+
+        themed: bool
+            If True, use the themed ttk widgets. Use normal widgets otherwise.
+
+        kwargs: Any
+            Keyword parameters passed to the constructor of the parent class.
         """
         self.themed: bool = themed
         self.ypadding: int = 0
@@ -133,9 +181,11 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def configure_widgets(self) -> None:
         """
-        Method to configure the widgets.
+        Configure the widgets.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         self.mod_info_frame.configure_widgets()
         for widget in self.widgets:
@@ -143,10 +193,16 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def set_width(self, width: int) -> None:
         """
-        Method to set the widgets' width.
+        Set the widgets' width.
 
-        :param width: the new width
-        :return: None
+        Parameters
+        ----------
+        width: int
+            The new width to apply.
+
+        Returns
+        -------
+        None.
         """
         self.width = width
         self.mod_info_frame.set_width(self.width)
@@ -154,17 +210,21 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def get_width(self) -> int:
         """
-        Getter for self.width.
+        Get self.width, the width applied to all the widgets.
 
-        :return: the width in character sizes of the normalised widgets
+        Returns
+        -------
+        The width applied to the widgets.
         """
         return self.width
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and update_all its childs
+        Update the widget and all its childs.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         self.hide()
         self.configure_widgets()
@@ -174,8 +234,11 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and update_all its childs
-        :return None:
+        Hide the widget and all its childs.
+
+        Returns
+        -------
+        None.
         """
         for widget in self.widgets:
             widget.grid_forget()
@@ -187,9 +250,11 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def show(self) -> None:
         """
-        Method used to display widgets and child widgets, as well as to configure the "responsiveness" of the widgets.
+        Display the widgets and its child widgets, as well as configuring the "responsiveness" of the widgets.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         x: int = 0
         y: int = 0
@@ -215,20 +280,34 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def populate_data(self, data: Any) -> None:
         """
-        Method called by parent class to populate data in this class.
+        Populate data in this instance.
 
-        :param data: the data to pass to this class
-        :return: None
+        Called by the parent class.
+
+        Parameters
+        ----------
+        data: Any
+            The data used to populate the instance of the class.
+
+        Returns
+        -------
+        None.
         """
         mod_list: List[str] = data["external_mod_list"]
         self.listbox.set_values(sorted(mod_list))
 
     async def on_listbox_click(self, _: Any) -> None:
         """
-        Callback used when the user clicks on the external mods' listbox.
+        React to the user's clicks on the external mods' listbox.
 
-        :param _: the tkinter event passed by the tkinter in the Callback (unused)
-        :return: None
+        Parameters
+        ----------
+        _: Any
+            The event passed. Unused.
+
+        Returns
+        -------
+        None.
         """
         if self.listbox.has_selection():
             index: int = self.listbox.get()
@@ -257,11 +336,12 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     async def add_external_mod(self) -> None:
         """
-        Method called when the button to add an external mod is pressed.
+        Add an external mod when the button is pressed.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
-
         # showerror("Feature not yet implemented", "The addition of external mods to the assets is not yet implemented.")
         # don't forget to use self.add_mod_in_memory when implementing this
         self.toggle_freeze()
@@ -269,9 +349,16 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
         def close(event: Any = None) -> None:
             """
-            Method called when toplevel is destroyed.
+            React when the toplevel is destroyed.
 
-            :return: None
+            Parameters
+            ----------
+            event: Optional[None]
+                The event triggering this function.
+
+            Returns
+            -------
+            None.
             """
             if event.widget is top_level:
                 self.toggle_freeze()
@@ -288,9 +375,11 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     async def del_external_mod(self) -> None:
         """
-        Method called when the button to delete the highlighted external mod is pressed.
+        Delete the highlighted external mod when the user click on the associated button.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         # showerror("Feature not yet implemented", "The removal of external mods from assets is not yet implemented.")
         # don't forget to use self.del_mod_from_memory when implementing this
@@ -309,9 +398,11 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     async def add_new_version(self) -> None:
         """
-        Method called when the button to add a new version to an external mod is pressed.
+        Add a new version to an external mod when the associated button is pressed.
 
-        :return: None
+        Returns
+        -------
+        None.
         """
         if self.listbox.has_selection():
             index: int = self.listbox.get()
@@ -321,9 +412,16 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
             def close(event: Any = None) -> None:
                 """
-                Method called when toplevel is destroyed.
+                React when the toplevel is destroyed.
 
-                :return: None
+                Parameters
+                ----------
+                event: Optional[None]
+                    The event triggering this function.
+
+                Returns
+                -------
+                None.
                 """
                 if event.widget is top_level:
                     self.toggle_freeze()
