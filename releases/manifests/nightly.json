@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.2.4",
-  "last_updated": "2022-12-11T21:35:01.179930",
+  "last_version": "2.2.7",
+  "last_updated": "2022-12-23T22:18:19.868620",
   "config": "2.2.7",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.0.40-gtnh",
+      "version": "1.0.43-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-122-GTNH",
+      "version": "rv3-beta-130-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.5.124-pre",
+      "version": "0.5.131",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.1.4-GTNH",
+      "version": "3.1.5-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.3.18",
+      "version": "1.3.19",
       "side": "BOTH"
     },
     "Botania": {
@@ -177,7 +177,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.3.6.10-pre",
+      "version": "1.3.6.11",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -205,7 +205,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.3.1.48",
+      "version": "2.3.1.49",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "ExtraCells2": {
-      "version": "2.5.28",
+      "version": "2.5.29",
       "side": "BOTH"
     },
     "FindIt": {
@@ -257,11 +257,11 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.0.57-GTNH-pre",
+      "version": "3.0.60-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.22-GTNH",
+      "version": "1.1.23-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -269,19 +269,19 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.4.62-pre",
+      "version": "0.4.72",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.41.166-pre",
+      "version": "5.09.41.184",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
-      "version": "1.0.18",
+      "version": "1.0.25",
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.9.21-pre",
+      "version": "0.9.23",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -289,19 +289,19 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.0.7",
+      "version": "0.0.8.1",
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.7.156-pre",
+      "version": "1.7.172",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
-      "version": "1.9.3-GTNH",
+      "version": "1.9.4-GTNH",
       "side": "BOTH"
     },
     "harvestcraft": {
-      "version": "1.0.18-GTNH",
+      "version": "1.0.19-GTNH",
       "side": "BOTH"
     },
     "Hodgepodge": {
@@ -317,7 +317,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.0.15-pre",
+      "version": "1.0.16",
       "side": "BOTH"
     },
     "IFU": {
@@ -361,11 +361,11 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.6.23-pre",
+      "version": "0.6.24",
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.6.7-pre",
+      "version": "0.7.2",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.2.7-GTNH-pre",
+      "version": "2.2.8-GTNH",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -453,7 +453,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "1.9.112",
+      "version": "1.9.117",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -461,11 +461,11 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.3.23",
+      "version": "1.3.25",
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.16-GTNH",
+      "version": "2.3.18-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
-      "version": "alpha-1.3.3.0",
+      "version": "alpha-1.3.3.2",
       "side": "BOTH"
     },
     "RemoteIO": {
@@ -561,7 +561,7 @@
       "side": "BOTH"
     },
     "SpiceOfLife": {
-      "version": "2.0.6-corrot-pre",
+      "version": "2.0.7-carrot",
       "side": "BOTH"
     },
     "Steve-s-Factory-Manager": {
@@ -617,11 +617,11 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.0.55-pre",
+      "version": "5.0.61",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
-      "version": "1.0.3",
+      "version": "1.0.4",
       "side": "BOTH"
     },
     "ThaumcraftMobAspects": {
@@ -661,7 +661,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.9.7-GTNH",
+      "version": "1.9.8-GTN",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.0.0-RC3",
+      "version": "1.0.0-RC6",
       "side": "BOTH"
     },
     "GTNHMixins": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.0.27",
+      "version": "1.0.31",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -757,15 +757,47 @@
       "side": "CLIENT"
     },
     "GigaGramFab": {
-      "version": "0.0.2",
+      "version": "0.0.9",
       "side": "BOTH"
     },
     "NotEnoughIds": {
       "version": "1.4.4",
       "side": "BOTH"
+    },
+    "FloodLights": {
+      "version": "1.2.9",
+      "side": "BOTH"
+    },
+    "ForgeRelocationFMP": {
+      "version": "0.0.3",
+      "side": "BOTH"
+    },
+    "ForgeRelocation": {
+      "version": "0.0.3",
+      "side": "BOTH"
+    },
+    "HelpFixer": {
+      "version": "1.1.0",
+      "side": "BOTH"
+    },
+    "itlt": {
+      "version": "1.0.4",
+      "side": "CLIENT"
+    },
+    "Player-API": {
+      "version": "1.4.2",
+      "side": "BOTH"
+    },
+    "BetterAchievements": {
+      "version": "0.1.1",
+      "side": "NONE"
     }
   },
   "external_mods": {
+    "Controlling": {
+      "version": "1.0.0.3",
+      "side": "CLIENT"
+    },
     "Aroma1997Core": {
       "version": "1.0.2.16",
       "side": "CLIENT"
@@ -806,41 +838,21 @@
       "version": "2.2.4",
       "side": "BOTH"
     },
-    "Player API": {
-      "version": "1.4",
-      "side": "BOTH"
-    },
     "Pam's Harvest the Nether": {
       "version": "1.7.10a",
       "side": "BOTH"
-    },
-    "It's the little things": {
-      "version": "1.0.3",
-      "side": "CLIENT"
     },
     "IC2 Crop-Breeding Plugin": {
       "version": "1.3.1",
       "side": "CLIENT"
     },
-    "HelpFixer": {
-      "version": "1.0.7",
-      "side": "BOTH"
-    },
     "Hardcore Darkness": {
       "version": "1.7",
-      "side": "BOTH"
-    },
-    "Floodlights": {
-      "version": "1.2.8-137",
       "side": "BOTH"
     },
     "FastCraft": {
       "version": "1.25",
       "side": "CLIENT"
-    },
-    "DummyCore": {
-      "version": "1.13",
-      "side": "BOTH"
     },
     "Custom Main Menu": {
       "version": "1.9.2",
@@ -856,10 +868,6 @@
     },
     "BeeBetterAtBees": {
       "version": "0.3",
-      "side": "CLIENT"
-    },
-    "BetterAchievements": {
-      "version": "0.1.0",
       "side": "CLIENT"
     },
     "p455w0rd's Library": {
@@ -881,10 +889,6 @@
     "JourneyMap Server": {
       "version": "1.0.5",
       "side": "SERVER"
-    },
-    "Controlling": {
-      "version": "1.0.0.3",
-      "side": "CLIENT"
     },
     "Buildcraft Oil Tweaks": {
       "version": "1.0.3",
@@ -926,14 +930,6 @@
       "version": "1.1.0.33",
       "side": "BOTH"
     },
-    "Forge Relocation": {
-      "version": "0.0.1.4",
-      "side": "BOTH"
-    },
-    "Forge Relocation - FMP Plugin": {
-      "version": "0.0.1.2",
-      "side": "BOTH"
-    },
     "Morpheus": {
       "version": "1.6.21",
       "side": "SERVER"
@@ -947,7 +943,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.4.23",
+      "version": "1.4.26",
       "side": "BOTH"
     },
     "Tinkers-Gregworks": {

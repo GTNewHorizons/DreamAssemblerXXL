@@ -784,7 +784,8 @@
           "tagged_at": "2022-12-19T18:07:47+00:00",
           "filename": "ae2fc-1.7.10-1.0.43-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/88799956",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.43-gtnh/ae2fc-1.7.10-1.0.43-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.43-gtnh/ae2fc-1.7.10-1.0.43-gtnh.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.43-gtnh/AE2FluidCraft-Rework-1.0.43-gtnh.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -1567,7 +1568,8 @@
           "tagged_at": "2022-12-21T10:31:11+00:00",
           "filename": "appliedenergistics2-1.7.10-rv3-beta-130-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/89008970",
-          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-130-GTNH/appliedenergistics2-1.7.10-rv3-beta-130-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-130-GTNH/appliedenergistics2-1.7.10-rv3-beta-130-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-130-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-130-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -2767,7 +2769,8 @@
           "tagged_at": "2022-12-19T18:03:04+00:00",
           "filename": "bartworks-1.7.10-0.5.131.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/88798941",
-          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.131/bartworks-1.7.10-0.5.131.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.131/bartworks-1.7.10-0.5.131.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.5.131/bartworks-0.5.131.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -3005,27 +3008,23 @@
     },
     {
       "name": "BetterAchievements",
-      "latest_version": "0.1.0",
+      "latest_version": "0.1.1",
+      "private": false,
       "versions": [
         {
-          "version_tag": "0.1.0",
-          "tagged_at": "2015-10-03T13:07:00",
-          "filename": "BetterAchievements-1.7.10-0.1.0.jar",
-          "download_url": "https://media.forgecdn.net/files/2260/793/BetterAchievements-1.7.10-0.1.0.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/betterachievements/files/2260793",
-          "curse_file": {
-            "project_no": "235716",
-            "file_no": "2260793"
-          }
+          "version_tag": "0.1.1",
+          "changelog": "## What's Changed\n* Update Buildscript by @glowredman in https://github.com/GTNewHorizons/BetterAchievements/pull/1\n\n## New Contributors\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/BetterAchievements/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterAchievements/compare/0.1.0...0.1.1\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-14T10:47:27+00:00",
+          "filename": "BetterAchievements-1.7.10-0.1.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterAchievements/releases/assets/88163847",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterAchievements/releases/download/0.1.1/BetterAchievements-1.7.10-0.1.1.jar"
         }
       ],
-      "license": "Don't Be a Jerk Non-Commercial License",
-      "repo_url": "https://github.com/way2muchnoise/BetterAchievements/tree/1.7.10",
-      "side": "CLIENT",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/betterachievements",
-      "project_id": "235716",
-      "slug": "betterachievements"
+      "license": "All Rights Reserved (fallback)",
+      "repo_url": "https://github.com/GTNewHorizons/BetterAchievements",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterAchievements/",
+      "side": "CLIENT"
     },
     {
       "name": "BetterBuildersWands",
@@ -3474,7 +3473,8 @@
           "tagged_at": "2022-12-12T20:46:41+00:00",
           "filename": "BetterQuesting-1.7.10-3.1.5-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/87943557",
-          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.1.5-GTNH/BetterQuesting-1.7.10-3.1.5-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.1.5-GTNH/BetterQuesting-1.7.10-3.1.5-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.1.5-GTNH/BetterQuesting-3.1.5-GTNH.jar"
         }
       ],
       "license": "MIT License",
@@ -3839,7 +3839,8 @@
           "tagged_at": "2022-12-20T06:53:39+00:00",
           "filename": "blockrenderer6343-1.7.10-1.0.0-RC6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BlockRenderer6343/releases/assets/88858371",
-          "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.0.0-RC6/blockrenderer6343-1.7.10-1.0.0-RC6.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.0.0-RC6/blockrenderer6343-1.7.10-1.0.0-RC6.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BlockRenderer6343/1.0.0-RC6/BlockRenderer6343-1.0.0-RC6.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -4037,7 +4038,8 @@
           "tagged_at": "2022-12-12T21:57:37+00:00",
           "filename": "BloodMagic-1.7.10-1.3.19.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BloodMagic/releases/assets/87950108",
-          "browser_download_url": "https://github.com/GTNewHorizons/BloodMagic/releases/download/1.3.19/BloodMagic-1.7.10-1.3.19.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/BloodMagic/releases/download/1.3.19/BloodMagic-1.7.10-1.3.19.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BloodMagic/1.3.19/BloodMagic-1.3.19.jar"
         }
       ],
       "license": "Creative Commons Attribution 4.0 International.",
@@ -5372,7 +5374,8 @@
           "tagged_at": "2022-12-14T11:39:27+00:00",
           "filename": "CropsPP-1.7.10-1.3.6.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Crops-plus-plus/releases/assets/88168694",
-          "browser_download_url": "https://github.com/GTNewHorizons/Crops-plus-plus/releases/download/1.3.6.11/CropsPP-1.7.10-1.3.6.11.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Crops-plus-plus/releases/download/1.3.6.11/CropsPP-1.7.10-1.3.6.11.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Crops-plus-plus/1.3.6.11/Crops-plus-plus-1.3.6.11.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -5702,26 +5705,32 @@
     },
     {
       "name": "DummyCore",
-      "latest_version": "1.13",
+      "latest_version": "1.15",
+      "private": false,
       "versions": [
         {
-          "version_tag": "1.13",
-          "tagged_at": "2015-06-25T11:18:00",
-          "filename": "DummyCore1.13.jar",
-          "download_url": "https://media.forgecdn.net/files/2244/260/DummyCore1.13.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/dummycore/files/2244260",
-          "curse_file": {
-            "project_no": "230103",
-            "file_no": "2244260"
-          }
+          "version_tag": "1.14",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/DummyCore/commits/1.14\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-21T21:50:57+00:00",
+          "filename": "DummyCore-1.7.10-1.14.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/DummyCore/releases/assets/89070233",
+          "browser_download_url": "https://github.com/GTNewHorizons/DummyCore/releases/download/1.14/DummyCore-1.7.10-1.14.jar"
+        },
+        {
+          "version_tag": "1.15",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/DummyCore/commits/1.15\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-23T22:15:10+00:00",
+          "filename": "DummyCore-1.7.10-1.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/DummyCore/releases/assets/89315215",
+          "browser_download_url": "https://github.com/GTNewHorizons/DummyCore/releases/download/1.15/DummyCore-1.7.10-1.15.jar"
         }
       ],
-      "license": "Creative Commons Attribution 3.0 share-alike",
+      "license": "Creative Commons Attribution Share Alike 4.0 International",
       "repo_url": "https://github.com/GTNewHorizons/DummyCore",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/dummycore",
-      "project_id": "230103",
-      "slug": "dummycore"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DummyCore/",
+      "side": "NONE"
     },
     {
       "name": "Electro-Magic-Tools",
@@ -6359,7 +6368,8 @@
           "tagged_at": "2022-12-20T06:56:06+00:00",
           "filename": "EnderIO-1.7.10-2.3.1.49.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/88858565",
-          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.49/EnderIO-1.7.10-2.3.1.49.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.49/EnderIO-1.7.10-2.3.1.49.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/2.3.1.49/EnderIO-2.3.1.49.jar"
         }
       ],
       "license": "Original code is All Rights Reserved, GTNH modifications are licensed under the GNU Lesser General Public License v3.0.",
@@ -6879,7 +6889,8 @@
           "tagged_at": "2022-12-20T06:58:00+00:00",
           "filename": "ExtraCells-1.7.10-2.5.29.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ExtraCells2/releases/assets/88858686",
-          "browser_download_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.29/ExtraCells-1.7.10-2.5.29.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ExtraCells2/releases/download/2.5.29/ExtraCells-1.7.10-2.5.29.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ExtraCells2/2.5.29/ExtraCells2-2.5.29.jar"
         }
       ],
       "license": "MIT License",
@@ -7002,7 +7013,8 @@
           "tagged_at": "2022-12-14T11:01:52+00:00",
           "filename": "FloodLights-1.7.10-1.2.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/FloodLights/releases/assets/88165297",
-          "browser_download_url": "https://github.com/GTNewHorizons/FloodLights/releases/download/1.2.9/FloodLights-1.7.10-1.2.9.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/FloodLights/releases/download/1.2.9/FloodLights-1.7.10-1.2.9.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/FloodLights/1.2.9/FloodLights-1.2.9.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -7028,6 +7040,7 @@
       "license": "GNU Lesser General Public License v3.0.",
       "repo_url": "https://github.com/GTNewHorizons/FloodLights",
       "maven": "https://jenkins.ironhide.de/job/Keridos%20Mods/job/FloodLights-1.7.10/",
+      "side": "NONE",
       "source": "curse",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/floodlights",
       "project_id": "224728",
@@ -7351,6 +7364,7 @@
       ],
       "license": "GNU General Public License v3.0.",
       "repo_url": "https://github.com/MrTJP/ForgeRelocation",
+      "side": "NONE",
       "source": "curse",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation",
       "project_id": "232075",
@@ -7374,6 +7388,7 @@
       ],
       "license": "GNU General Public License v3.0.",
       "repo_url": "https://github.com/MrTJP/ForgeRelocationFMP",
+      "side": "NONE",
       "source": "curse",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/forge-relocation-fmp-plugin",
       "project_id": "232076",
@@ -7495,6 +7510,66 @@
       "license": "GNU Lesser General Public License v2.1.",
       "repo_url": "https://github.com/GTNewHorizons/ForgeMultipart",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForgeMultipart/"
+    },
+    {
+      "name": "ForgeRelocation",
+      "latest_version": "0.0.3",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "0.0.2",
+          "changelog": "## What's Changed\n* Update Buildscript by @glowredman in https://github.com/GTNewHorizons/ForgeRelocation/pull/1\n\n## New Contributors\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/ForgeRelocation/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/commits/0.0.2\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-17T22:14:05+00:00",
+          "filename": "ForgeRelocation-1.7.10-0.0.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForgeRelocation/releases/assets/88612008",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForgeRelocation/releases/download/0.0.2/ForgeRelocation-1.7.10-0.0.2.jar"
+        },
+        {
+          "version_tag": "0.0.3",
+          "changelog": "## What's Changed\n* Fix Mod not being recognized by @glowredman in https://github.com/GTNewHorizons/ForgeRelocation/pull/2\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.0.2...0.0.3\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-20T18:07:58+00:00",
+          "filename": "ForgeRelocation-1.7.10-0.0.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForgeRelocation/releases/assets/88922770",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForgeRelocation/releases/download/0.0.3/ForgeRelocation-1.7.10-0.0.3.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForgeRelocation/0.0.3/ForgeRelocation-0.0.3.jar"
+        }
+      ],
+      "license": "All Rights Reserved (fallback)",
+      "repo_url": "https://github.com/GTNewHorizons/ForgeRelocation",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForgeRelocation/",
+      "side": "BOTH"
+    },
+    {
+      "name": "ForgeRelocationFMP",
+      "latest_version": "0.0.3",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "0.0.2",
+          "changelog": "## What's Changed\n* Update Buildscript by @glowredman in https://github.com/GTNewHorizons/ForgeRelocationFMP/pull/1\n\n## New Contributors\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/ForgeRelocationFMP/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocationFMP/commits/0.0.2\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-17T22:52:44+00:00",
+          "filename": "RelocationFMP-1.7.10-0.0.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForgeRelocationFMP/releases/assets/88614722",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForgeRelocationFMP/releases/download/0.0.2/RelocationFMP-1.7.10-0.0.2.jar"
+        },
+        {
+          "version_tag": "0.0.3",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocationFMP/compare/0.0.2...0.0.3\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-20T18:10:05+00:00",
+          "filename": "RelocationFMP-1.7.10-0.0.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForgeRelocationFMP/releases/assets/88922892",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForgeRelocationFMP/releases/download/0.0.3/RelocationFMP-1.7.10-0.0.3.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForgeRelocationFMP/0.0.3/ForgeRelocationFMP-0.0.3.jar"
+        }
+      ],
+      "license": "All Rights Reserved (fallback)",
+      "repo_url": "https://github.com/GTNewHorizons/ForgeRelocationFMP",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForgeRelocationFMP/",
+      "side": "BOTH"
     },
     {
       "name": "FTB-Library",
@@ -7873,7 +7948,8 @@
           "tagged_at": "2022-12-20T07:49:39+00:00",
           "filename": "Galacticraft-1.7.10-3.0.60-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/88862578",
-          "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.60-GTNH/Galacticraft-1.7.10-3.0.60-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.60-GTNH/Galacticraft-1.7.10-3.0.60-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Galacticraft/3.0.60-GTNH/Galacticraft-3.0.60-GTNH.jar"
         }
       ],
       "license": "Explicit Permission.",
@@ -8127,7 +8203,8 @@
           "tagged_at": "2022-12-21T10:28:42+00:00",
           "filename": "GalaxySpace-1.7.10-1.1.23-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/89008681",
-          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.23-GTNH/GalaxySpace-1.7.10-1.1.23-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.23-GTNH/GalaxySpace-1.7.10-1.1.23-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Galaxy-Space-GTNH/1.1.23-GTNH/Galaxy-Space-GTNH-1.1.23-GTNH.jar"
         }
       ],
       "license": "Explicit Permission.",
@@ -8258,7 +8335,8 @@
           "tagged_at": "2022-12-22T10:03:48+00:00",
           "filename": "ggfab-1.7.10-0.0.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GigaGramFab/releases/assets/89133378",
-          "browser_download_url": "https://github.com/GTNewHorizons/GigaGramFab/releases/download/0.0.9/ggfab-1.7.10-0.0.9.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GigaGramFab/releases/download/0.0.9/ggfab-1.7.10-0.0.9.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GigaGramFab/0.0.9/GigaGramFab-0.0.9.jar"
         }
       ],
       "license": "GNU Affero General Public License v3.0",
@@ -8267,7 +8345,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.4.71",
+      "latest_version": "0.4.72",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -8961,6 +9039,16 @@
           "filename": "GoodGenerator-1.7.10-0.4.71.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/89184040",
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.71/GoodGenerator-1.7.10-0.4.71.jar"
+        },
+        {
+          "version_tag": "0.4.72",
+          "changelog": "## What's Changed\n* enable the final step electrois recipe in naqline by @GlodBlock in https://github.com/GTNewHorizons/GoodGenerator/pull/120\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.71...0.4.72\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-23T20:15:33+00:00",
+          "filename": "GoodGenerator-1.7.10-0.4.72.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/89306287",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.72/GoodGenerator-1.7.10-0.4.72.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.4.72/GoodGenerator-0.4.72.jar"
         }
       ],
       "license": "MIT License",
@@ -11327,7 +11415,8 @@
           "tagged_at": "2022-12-22T18:24:44+00:00",
           "filename": "gregtech-1.7.10-5.09.41.184.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/89181846",
-          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.184/gregtech-1.7.10-5.09.41.184.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.184/gregtech-1.7.10-5.09.41.184.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.184/GT5-Unofficial-5.09.41.184.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -11473,7 +11562,8 @@
           "tagged_at": "2022-12-21T18:45:44+00:00",
           "filename": "gtneioreplugin-1.7.10-1.0.25.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNEIOrePlugin/releases/assets/89054881",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTNEIOrePlugin/releases/download/1.0.25/gtneioreplugin-1.7.10-1.0.25.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNEIOrePlugin/releases/download/1.0.25/gtneioreplugin-1.7.10-1.0.25.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNEIOrePlugin/1.0.25/GTNEIOrePlugin-1.0.25.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
@@ -11742,7 +11832,8 @@
           "tagged_at": "2022-12-22T20:06:12+00:00",
           "filename": "gtnhlanth-1.7.10-0.9.23.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/89190361",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.9.23/gtnhlanth-1.7.10-0.9.23.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.9.23/gtnhlanth-1.7.10-0.9.23.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Lanthanides/0.9.23/GTNH-Lanthanides-0.9.23.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -11909,7 +12000,8 @@
           "tagged_at": "2022-12-20T23:36:03+00:00",
           "filename": "gtnhlib-1.7.10-0.0.8.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNHLib/releases/assets/88953131",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.0.8.1/gtnhlib-1.7.10-0.0.8.1.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNHLib/releases/download/0.0.8.1/gtnhlib-1.7.10-0.0.8.1.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNHLib/0.0.8.1/GTNHLib-0.0.8.1.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -11983,7 +12075,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.7.171",
+      "latest_version": "1.7.172",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -13196,6 +13288,16 @@
           "filename": "GT-PlusPlus-1.7.10-1.7.171.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/89192995",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.171/GT-PlusPlus-1.7.10-1.7.171.jar"
+        },
+        {
+          "version_tag": "1.7.172",
+          "changelog": "## What's Changed\n* Fix recipe for Plastic Polymer Catalyst by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/462\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.171...1.7.172\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-23T20:17:04+00:00",
+          "filename": "GT-PlusPlus-1.7.10-1.7.172.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/89306379",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.172/GT-PlusPlus-1.7.10-1.7.172.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.7.172/GTplusplus-1.7.172.jar"
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -13287,7 +13389,8 @@
           "tagged_at": "2022-12-18T13:21:50+00:00",
           "filename": "HardcoreEnderExpansion-1.7.10-1.9.4-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hardcore-Ender-Expansion/releases/assets/88671659",
-          "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.9.4-GTNH/HardcoreEnderExpansion-1.7.10-1.9.4-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/releases/download/1.9.4-GTNH/HardcoreEnderExpansion-1.7.10-1.9.4-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hardcore-Ender-Expansion/1.9.4-GTNH/Hardcore-Ender-Expansion-1.9.4-GTNH.jar"
         }
       ],
       "license": "Explicit Permission.",
@@ -13395,7 +13498,8 @@
           "tagged_at": "2022-12-22T18:22:44+00:00",
           "filename": "harvestcraft-1.7.10-1.0.19-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/harvestcraft/releases/assets/89181699",
-          "browser_download_url": "https://github.com/GTNewHorizons/harvestcraft/releases/download/1.0.19-GTNH/harvestcraft-1.7.10-1.0.19-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/harvestcraft/releases/download/1.0.19-GTNH/harvestcraft-1.7.10-1.0.19-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/harvestcraft/1.0.19-GTNH/harvestcraft-1.0.19-GTNH.jar"
         }
       ],
       "license": "Explicit Permission.",
@@ -13427,26 +13531,24 @@
     },
     {
       "name": "HelpFixer",
-      "latest_version": "1.0.7",
+      "latest_version": "1.1.0",
+      "private": false,
       "versions": [
         {
-          "version_tag": "1.0.7",
-          "tagged_at": "2015-01-05T19:39:00",
-          "filename": "HelpFixer-1.0.7.jar",
-          "download_url": "https://media.forgecdn.net/files/2223/813/HelpFixer-1.0.7.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/helpfixer/files/2223813",
-          "curse_file": {
-            "project_no": "223797",
-            "file_no": "2223813"
-          }
+          "version_tag": "1.1.0",
+          "changelog": "## What's Changed\n* Update Buildscript by @glowredman in https://github.com/GTNewHorizons/HelpFixer/pull/1\n\n## New Contributors\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/HelpFixer/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/HelpFixer/commits/1.1.0\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-18T16:55:28+00:00",
+          "filename": "HelpFixer-1.7.10-1.1.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/HelpFixer/releases/assets/88685403",
+          "browser_download_url": "https://github.com/GTNewHorizons/HelpFixer/releases/download/1.1.0/HelpFixer-1.7.10-1.1.0.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HelpFixer/1.1.0/HelpFixer-1.1.0.jar"
         }
       ],
-      "license": "Do What The Fuck You Want To License v2.0.",
-      "repo_url": "https://github.com/matthewprenger/HelpFixer",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/helpfixer",
-      "project_id": "223797",
-      "slug": "helpfixer"
+      "license": "Do What The F*ck You Want To Public License",
+      "repo_url": "https://github.com/GTNewHorizons/HelpFixer",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HelpFixer/",
+      "side": "BOTH"
     },
     {
       "name": "Hodgepodge",
@@ -14239,7 +14341,8 @@
           "tagged_at": "2022-12-14T11:25:58+00:00",
           "filename": "hydroenergy-1.7.10-1.0.16.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/HydroEnergy/releases/assets/88167350",
-          "browser_download_url": "https://github.com/GTNewHorizons/HydroEnergy/releases/download/1.0.16/hydroenergy-1.7.10-1.0.16.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/HydroEnergy/releases/download/1.0.16/hydroenergy-1.7.10-1.0.16.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HydroEnergy/1.0.16/HydroEnergy-1.0.16.jar"
         }
       ],
       "license": "MIT License",
@@ -14812,11 +14915,32 @@
       ],
       "license": "MIT License.",
       "repo_url": "https://github.com/GTNewHorizons/itlt",
-      "side": "CLIENT",
+      "side": "NONE",
       "source": "curse",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/its-the-little-things",
       "project_id": "232791",
       "slug": "its-the-little-things"
+    },
+    {
+      "name": "itlt",
+      "latest_version": "1.0.4",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "1.0.4",
+          "changelog": "## What's Changed\n* Update Buildscript by @glowredman in https://github.com/GTNewHorizons/itlt/pull/1\n\n## New Contributors\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/itlt/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/itlt/commits/1.0.4\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-14T10:56:07+00:00",
+          "filename": "itlt-1.7.10-1.0.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/itlt/releases/assets/88164767",
+          "browser_download_url": "https://github.com/GTNewHorizons/itlt/releases/download/1.0.4/itlt-1.7.10-1.0.4.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/itlt/1.0.4/itlt-1.0.4.jar"
+        }
+      ],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/itlt",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/itlt/",
+      "side": "CLIENT"
     },
     {
       "name": "Jabba",
@@ -15191,7 +15315,8 @@
           "tagged_at": "2022-12-14T11:30:25+00:00",
           "filename": "kekztech-1.7.10-0.6.24.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/KekzTech/releases/assets/88167697",
-          "browser_download_url": "https://github.com/GTNewHorizons/KekzTech/releases/download/0.6.24/kekztech-1.7.10-0.6.24.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/KekzTech/releases/download/0.6.24/kekztech-1.7.10-0.6.24.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KekzTech/0.6.24/KekzTech-0.6.24.jar"
         }
       ],
       "license": "MIT License",
@@ -15468,7 +15593,8 @@
           "tagged_at": "2022-12-18T15:36:25+00:00",
           "filename": "kubatech-1.7.10-0.7.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/88680604",
-          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.7.2/kubatech-1.7.10-0.7.2.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.7.2/kubatech-1.7.10-0.7.2.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KubaTech/0.7.2/KubaTech-0.7.2.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -15935,7 +16061,8 @@
           "tagged_at": "2022-12-14T12:42:20+00:00",
           "filename": "backpack-1.7.10-2.2.8-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Minecraft-Backpack-Mod/releases/assets/88174598",
-          "browser_download_url": "https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/releases/download/2.2.8-GTNH/backpack-1.7.10-2.2.8-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/releases/download/2.2.8-GTNH/backpack-1.7.10-2.2.8-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Minecraft-Backpack-Mod/2.2.8-GTNH/Minecraft-Backpack-Mod-2.2.8-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -16517,7 +16644,8 @@
           "tagged_at": "2022-12-21T09:56:02+00:00",
           "filename": "modularui-1.7.10-1.0.31.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/89005911",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.31/modularui-1.7.10-1.0.31.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.31/modularui-1.7.10-1.0.31.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.0.31/ModularUI-1.0.31.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -17129,11 +17257,13 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "1.9.116",
+      "latest_version": "1.9.117",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.9.11",
           "changelog": "## What's Changed\n* move Si02 to electrolyzer and to hv by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/252\n* Add bulk wood plate by @bombcar in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/251\n* fixed  GTNewHorizons/GT-New-Horizons-Modpack#9106 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/254\n* remove useless iteration over all the materials and moved some pams recipe out of the soldering materials loop by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/253\n* Draft for unified build script by @SinTh0r4s in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/220\n\n## New Contributors\n* @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/220\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.10...1.9.11",
+          "prerelease": false,
           "tagged_at": "2021-12-21T08:32:02+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/52260760",
@@ -17142,6 +17272,7 @@
         {
           "version_tag": "1.9.12",
           "changelog": "## What's Changed\n* update build, https by @bombcar in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/255\n* Port of Holo-Inventory, SpiceOfLife, BiblioCraft and sleeping bags scripts into code. by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/256\n* add Red Sand to Grout recipe by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/257\n* Irondupe by @bombcar in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/258\n* fix steel bars by @bombcar in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/259\n* added 1 and 8 EU solar panels to the assembler by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/261\n* ported MT script of EnderZoo, Translocators, ForgeMultipart, BetterQuesting and JABBA by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/260\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.11...1.9.12",
+          "prerelease": false,
           "tagged_at": "2022-01-09T14:13:27+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.12.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/53547354",
@@ -17150,6 +17281,7 @@
         {
           "version_tag": "1.9.13",
           "changelog": "## What's Changed\n* add mixed metal ingot recipes in the assembler by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/262\n* Add a cache for Class.getSimpleName by @Glease in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/264\n* various fixes by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/263\n* buff assembler recipes for 1EU and 8EU solars by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/265\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.12...1.9.13",
+          "prerelease": false,
           "tagged_at": "2022-01-16T14:34:30+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.13.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/54117479",
@@ -17158,6 +17290,7 @@
         {
           "version_tag": "1.9.14",
           "changelog": "## What's Changed\n* Fix conflict in Ztones Garden Soil by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/266\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.13...1.9.14",
+          "prerelease": false,
           "tagged_at": "2022-01-21T20:41:39+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.14.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/54608961",
@@ -17166,6 +17299,7 @@
         {
           "version_tag": "1.9.15",
           "changelog": "## What's Changed\n* added alt recipes for reinforced XXX-iron plates by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/267\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.14...1.9.15",
+          "prerelease": false,
           "tagged_at": "2022-01-24T20:30:23+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.15.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/54845387",
@@ -17174,6 +17308,7 @@
         {
           "version_tag": "1.9.16",
           "changelog": "## What's Changed\n* Newbuild by @bombcar in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/268\n* fix typo for natura wood cases by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/269\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.15...1.9.16",
+          "prerelease": false,
           "tagged_at": "2022-01-24T20:30:11+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.16.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/54845352",
@@ -17182,6 +17317,7 @@
         {
           "version_tag": "1.9.17",
           "changelog": "## What's Changed\n* Update ore dict tags to allow for coloured tool tips on batteries. by @GTNH-Colen in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/270\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.16...1.9.17",
+          "prerelease": false,
           "tagged_at": "2022-01-28T21:09:00+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.17.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/55239065",
@@ -17190,6 +17326,7 @@
         {
           "version_tag": "1.9.18",
           "changelog": "## What's Changed\n* Re add thaumcraft aspects and make them actually usuable this time. by @GTNH-Colen in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/271\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.17...1.9.18",
+          "prerelease": false,
           "tagged_at": "2022-01-28T22:41:58+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.18.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/55245552",
@@ -17198,6 +17335,7 @@
         {
           "version_tag": "1.9.19",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.18...1.9.19",
+          "prerelease": false,
           "tagged_at": "2022-01-30T12:20:06+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.19.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/55349545",
@@ -17206,6 +17344,7 @@
         {
           "version_tag": "1.9.20",
           "changelog": "## What's Changed\n* port of AFSU, avaritia addons, iguana tweaks, computronics and architecturecraft minetweaker scripts by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/274\n* update dependencies by @bombcar in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/275\n* Add coins to be used for Botania's questbook entries by @combusterf in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/276\n\n## New Contributors\n* @combusterf made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/276\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.19...1.9.20",
+          "prerelease": false,
           "tagged_at": "2022-02-05T12:57:44+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.20.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/55927614",
@@ -17214,6 +17353,7 @@
         {
           "version_tag": "1.9.21",
           "changelog": "## What's Changed\n* update build by @bombcar in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/277\n* Fix not using ruridit bolt in T4 plate by @Glease in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/278\n* xSMD crafting recipes by @GTNH-Colen in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/273\n* new glass by @GlodBlock in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/280\n* Tooltips and typos by @GTNH-Colen in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/281\n* New recipes for recently created Opencomputer Stuff by @Retster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/282\n* Retster Tier down 4 Opencomputers recipe from HV to MV by @Retster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/283\n* change Neuro circuit research item to solve conflicts by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/285\n* fix RailCraft Tanks beyond Steel Need Material Recovery Options #9808 by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/284\n* Clay block mortar addon by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/288\n* fix/add New Use for TC Blue Slimedirt #9797 by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/289\n* Circuit0 fix by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/286\n* Removing some small/tiny dusts from recipes by @LewisSaber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/292\n\n## New Contributors\n* @Retster made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/282\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.20...1.9.21",
+          "prerelease": false,
           "tagged_at": "2022-03-02T22:21:55+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.21.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/58382233",
@@ -17222,6 +17362,7 @@
         {
           "version_tag": "1.9.23",
           "changelog": "## What's Changed\n* fake circuits by @GlodBlock in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/290\n* possible fix for New recipe of extra cells 2 storage components oredict #9611 by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/272\n* use oredict for iv field generator by @GlodBlock in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/293\n* Ic2 balance change by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/291\n* Fix neutron reflector recipe output by @LewisSaber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/294\n* Tiny Sunnarium Dust > Sunnarium Piece by @ScriptedPiky in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/295\n* Neutron Reflector Graphite Sanity Reduction by @ScriptedPiky in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/296\n* add filing cabinet mv assembler recipe by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/297\n* Fix alum dupe by @llk89 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/298\n* use oredict by @GlodBlock in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/300\n* Add Annealed copper support for Lv-Mv motor by @LewisSaber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/301\n* Piston assembler recipes by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/299\n* Add TiCon Brownstone recipes in Fluid Solidifier by @LewisSaber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/304\n* fix recipes by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/305\n* change Kanthal and nichrome recipes in EBF by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/302\n* added a recipe for the pollen kit by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/306\n* Add fluid slots for high tier sifting machines by @Elisis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/307\n* Fix dupe by disassembling Firebricks by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/308\n\n## New Contributors\n* @llk89 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/298\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.21...1.9.23",
+          "prerelease": false,
           "tagged_at": "2022-04-11T17:30:04+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.23.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/62243376",
@@ -17230,6 +17371,7 @@
         {
           "version_tag": "1.9.24",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.23...1.9.24",
+          "prerelease": false,
           "tagged_at": "2022-04-11T19:57:25+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.24.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/62255433",
@@ -17274,6 +17416,7 @@
         {
           "version_tag": "1.9.29",
           "changelog": "## What's Changed\n* Add Mysterious Crystal to output for processing Enceladus non-surface… by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/324\n* Give fluid support to higher tier laser engravers. by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/321\n* Adjust mixer recipes for SC and add final UEV recipe. by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/325\n* Infinity plasma forge support by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/326\n* silicone change by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/287\n* Change recipe for UV 16A Transformer by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/328\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.28-dev...1.9.29",
+          "prerelease": false,
           "tagged_at": "2022-06-24T18:27:43+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.29.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/69532264",
@@ -17318,6 +17461,7 @@
         {
           "version_tag": "1.9.34",
           "changelog": "## What's Changed\n* Standardization of Coremod Chemical Recipes by @GlodBlock in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/327\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.33-pre...1.9.34",
+          "prerelease": false,
           "tagged_at": "2022-07-06T12:59:28+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.34.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/70736653",
@@ -17326,6 +17470,7 @@
         {
           "version_tag": "1.9.35",
           "changelog": "## What's Changed\n* Remove old recipe for Compressed Mysterious Crystal Plate by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/334\n* Add hypogen recipes/new spacetime by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/333\n* Add compression recipe for Baby Chest by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/335\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.34...1.9.35",
+          "prerelease": false,
           "tagged_at": "2022-07-12T13:40:29+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.35.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/71340924",
@@ -17334,6 +17479,7 @@
         {
           "version_tag": "1.9.36",
           "changelog": "## What's Changed\n* Fix Transistor recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/338\n* Fix carelessness with Mars Stone Dust centrifuge by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/339\n* DTPF Typo by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/337\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.35...1.9.36",
+          "prerelease": false,
           "tagged_at": "2022-07-13T09:44:03+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.36.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/71435401",
@@ -17342,6 +17488,7 @@
         {
           "version_tag": "1.9.37",
           "changelog": "## What's Changed\n* remove the silicon dioxide electrosis recipe again by @GlodBlock in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/340\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.36...1.9.37",
+          "prerelease": false,
           "tagged_at": "2022-07-14T13:11:10+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.37.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/71564789",
@@ -17350,6 +17497,7 @@
         {
           "version_tag": "1.9.38",
           "changelog": "## What's Changed\n* Silicon smelting fixes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/341\n* Revert UMV hulls by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/342\n* Remove singleblock recipe from Aluminium Hydroxide by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/343\n* Disable recycling some of the Railcraft items that may lead to dupes by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/345\n* Display modpack version in debug GUI by @vlaetansky in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/349\n* Adds AsGa crystal fluid extraction by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/348\n* Multiple endgame DTPF adjustments by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/346\n* Standardize all electric components to use 1s LV assembler by @OrderedSet86 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/347\n* Add EBF Recipes to Space Ores for Turbines by @Steelux8 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/344\n* Make Aluminium Hydroxide actually craftable at MV by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/350\n* Quantium wires + tesseract by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/352\n* fix UV/UHV/UEV Brewery craft by @POPlol333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/355\n* Buffed xSMD usage for circuits by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/353\n* Re-erange Fluid Extractor recipes by @Runakai1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/351\n\n## New Contributors\n* @vlaetansky made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/349\n* @OrderedSet86 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/347\n* @POPlol333 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/355\n* @Runakai1 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/351\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.37...1.9.38",
+          "prerelease": false,
           "tagged_at": "2022-07-31T14:19:05+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.38.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/73246512",
@@ -17358,6 +17506,7 @@
         {
           "version_tag": "1.9.39",
           "changelog": "## What's Changed\n* fixing random high endgame machine recipe by @POPlol333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/356\n* Fix recipe for Ztones Booster by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/357\n* Fix Block of Olivine not being registered as blockPeridot by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/358\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.38...1.9.39",
+          "prerelease": false,
           "tagged_at": "2022-08-02T11:28:10+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.39.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/73441663",
@@ -17366,6 +17515,7 @@
         {
           "version_tag": "1.9.40",
           "changelog": "## What's Changed\n* Fix boolean error by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/360\n* OpV purge by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/359\n* Fix Heat Exchanger being stacked by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/361\n* Move tesseract recipe to core mod by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/364\n* Tesseract recipe adjustment by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/365\n* Adding SC UIV and UMV dust recipe + editing a bit of radox line cuz it's completely bullshit by @POPlol333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/366\n* Superconductor dtpf recipes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/368\n* add craft to infinity egg from witchery by @POPlol333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/367\n* Moved industrial Apiary to Coremod by @Runakai1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/370\n* Replace soldering alloy with indalloy for circuits assembler and CAL by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/369\n\n## New Contributors\n* @GDCloudstrike made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/365\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.39...1.9.40",
+          "prerelease": false,
           "tagged_at": "2022-08-14T08:18:56+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.40.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/74664081",
@@ -17374,6 +17524,7 @@
         {
           "version_tag": "1.9.41-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.40...1.9.41-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-15T14:21:26+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.41-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/74776772",
@@ -17382,6 +17533,7 @@
         {
           "version_tag": "1.9.42-pre",
           "changelog": "## What's Changed\n* Blacklist by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/373\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.41-pre...1.9.42-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-16T15:50:19+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.42-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/74890382",
@@ -17390,6 +17542,7 @@
         {
           "version_tag": "1.9.43-pre",
           "changelog": "## What's Changed\n* No reversing by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/374\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.42-pre...1.9.43-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-16T18:45:50+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.43-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/74905566",
@@ -17398,6 +17551,7 @@
         {
           "version_tag": "1.9.44",
           "changelog": "## What's Changed\n* Blacklist by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/373\n* No reversing by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/374\n* Moves AE2FC recipes to coremod and made them more greggy by @Runakai1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/371\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.40...1.9.44",
+          "prerelease": false,
           "tagged_at": "2022-08-16T19:07:57+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.44.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/74907300",
@@ -17406,6 +17560,7 @@
         {
           "version_tag": "1.9.45",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.44...1.9.45",
+          "prerelease": false,
           "tagged_at": "2022-08-17T08:29:35+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.45.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/74963971",
@@ -17414,6 +17569,7 @@
         {
           "version_tag": "1.9.46",
           "changelog": "## What's Changed\n* gt++ should probably be a compileOnly thing by @Glease in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/376\n* Add assembler recipes for Advanced Storage Housing and Fluid Storage Housing by @dipo33 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/375\n\n## New Contributors\n* @dipo33 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/375\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.45...1.9.46",
+          "prerelease": false,
           "tagged_at": "2022-08-18T08:22:38+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.46.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75082416",
@@ -17422,6 +17578,7 @@
         {
           "version_tag": "1.9.47",
           "changelog": "## What's Changed\n* Add recipes for ME Quantum Storage and ME Digital Singularity by @S4mpsa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/377\n\n## New Contributors\n* @S4mpsa made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/377\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.46...1.9.47",
+          "prerelease": false,
           "tagged_at": "2022-08-18T12:36:22+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.47.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75104837",
@@ -17430,6 +17587,7 @@
         {
           "version_tag": "1.9.48",
           "changelog": "## What's Changed\n* Add new inf recipe for DTPF by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/378\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.47...1.9.48",
+          "prerelease": false,
           "tagged_at": "2022-08-19T11:33:52+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.48.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75210272",
@@ -17438,6 +17596,7 @@
         {
           "version_tag": "1.9.49",
           "changelog": "## What's Changed\n* Fixed Crashing from missing PA code by @BlueWeabo in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/379\n\n## New Contributors\n* @BlueWeabo made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/379\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.48...1.9.49",
+          "prerelease": false,
           "tagged_at": "2022-08-19T13:46:00+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.49.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75220576",
@@ -17446,6 +17605,7 @@
         {
           "version_tag": "1.9.50",
           "changelog": "## What's Changed\n* Replace 4x and 16x co-processor recipes by @greesyB in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/380\n* Update GalliumArsenide by @Runakai1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/381\n\n## New Contributors\n* @greesyB made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/380\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.49...1.9.50",
+          "prerelease": false,
           "tagged_at": "2022-08-20T08:09:18+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.50.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75294124",
@@ -17454,6 +17614,7 @@
         {
           "version_tag": "1.9.51",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.50...1.9.51",
+          "prerelease": false,
           "tagged_at": "2022-08-20T20:03:50+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.51.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75330689",
@@ -17462,6 +17623,7 @@
         {
           "version_tag": "1.9.52",
           "changelog": "## What's Changed\n* impr(login_text): refactor more maintainable logint text by @leagris in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/382\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.51...1.9.52",
+          "prerelease": false,
           "tagged_at": "2022-08-20T21:38:26+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.52.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75335530",
@@ -17470,6 +17632,7 @@
         {
           "version_tag": "1.9.53",
           "changelog": "## What's Changed\n* Add recipes for ME Input Bus and ME Void Storage by @S4mpsa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/383\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.52...1.9.53",
+          "prerelease": false,
           "tagged_at": "2022-08-23T07:08:23+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.53.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75562004",
@@ -17478,6 +17641,7 @@
         {
           "version_tag": "1.9.55",
           "changelog": "## What's Changed\n* Add Oil Rig recipes for IV by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/384\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.53...1.9.55",
+          "prerelease": false,
           "tagged_at": "2022-08-23T12:06:16+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.55.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75587729",
@@ -17486,6 +17650,7 @@
         {
           "version_tag": "1.9.56-pre",
           "changelog": "## What's Changed\n* Purge OpV by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/386\n* Fix crafting recipe for UMV Hull by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/387\n* Make UMV Hull not reversible by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/388\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.55...1.9.56-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-25T12:22:09+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.56-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75818163",
@@ -17494,6 +17659,7 @@
         {
           "version_tag": "1.9.57-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.56-pre...1.9.57-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-25T13:21:27+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.57-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75823654",
@@ -17502,6 +17668,7 @@
         {
           "version_tag": "1.9.58-pre",
           "changelog": "## What's Changed\n* Purge OpV by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/386\n* Fix crafting recipe for UMV Hull by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/387\n* Make UMV Hull not reversible by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/388\n* Flower coin recipes by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/390\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.55...1.9.58-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-26T09:14:09+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.58-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75913082",
@@ -17510,6 +17677,7 @@
         {
           "version_tag": "1.9.59",
           "changelog": "## What's Changed\n* Purge OpV by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/386\n* Fix crafting recipe for UMV Hull by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/387\n* Make UMV Hull not reversible by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/388\n* Flower coin recipes by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/390\n* Fix import to also work on serverside by @S4mpsa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/391\n* Jabba upgrades by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/389\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.55...1.9.59",
+          "prerelease": false,
           "tagged_at": "2022-08-27T08:29:33+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.59.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76008976",
@@ -17518,6 +17686,7 @@
         {
           "version_tag": "1.9.60",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.59...1.9.60",
+          "prerelease": false,
           "tagged_at": "2022-08-27T23:23:12+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.60.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76059485",
@@ -17526,6 +17695,7 @@
         {
           "version_tag": "1.9.61",
           "changelog": "## What's Changed\n* Added Infinity and Cosmic Nt Comb Catalyst Recipes to DTPF by @Runakai1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/395\n* Rework Wooden Form by @Quarri6343 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/393\n\n## New Contributors\n* @Quarri6343 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/393\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.60...1.9.61",
+          "prerelease": false,
           "tagged_at": "2022-08-30T10:30:28+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.61.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76291171",
@@ -17534,6 +17704,7 @@
         {
           "version_tag": "1.9.62-pre",
           "changelog": "## What's Changed\n* Spotless apply for branch Diode for #399 by @github-actions in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/400\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.61...1.9.62-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-30T19:57:17+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.62-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76343222",
@@ -17542,6 +17713,7 @@
         {
           "version_tag": "1.9.63-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.62-pre...1.9.63-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-30T21:13:26+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.63-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76349282",
@@ -17550,6 +17722,7 @@
         {
           "version_tag": "1.9.64-pre",
           "changelog": "## What's Changed\n* add two slots to wiremil by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/403\n* add a Diode recipe using Wafer and Tantalum wire by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/399\n* add recipes from script to core mod by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/396\n* removed unused item recipe from Netherstarfragment by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/401\n* Put bio ball recipes to code by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/397\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.63-pre...1.9.64-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-31T13:34:10+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.64-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76428719",
@@ -17558,6 +17731,7 @@
         {
           "version_tag": "1.9.65",
           "changelog": "## What's Changed\n* add two slots to wiremil by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/403\n* add a Diode recipe using Wafer and Tantalum wire by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/399\n* add recipes from script to core mod by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/396\n* removed unused item recipe from Netherstarfragment by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/401\n* Put bio ball recipes to code by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/397\n* change Si to Sisg by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/402\n* Sodium potassium by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/398\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.61...1.9.65",
+          "prerelease": false,
           "tagged_at": "2022-09-01T10:58:13+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.65.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76539378",
@@ -17566,6 +17740,7 @@
         {
           "version_tag": "1.9.66",
           "changelog": "## What's Changed\n* Add recipe for NC2 panel memory card by @greesyB in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/405\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.65...1.9.66",
+          "prerelease": false,
           "tagged_at": "2022-09-02T11:57:25+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.66.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76667884",
@@ -17574,6 +17749,7 @@
         {
           "version_tag": "1.9.67",
           "changelog": "## What's Changed\n* add back the /dev/null by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/406\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.66...1.9.67",
+          "prerelease": false,
           "tagged_at": "2022-09-03T09:21:31+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.67.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76747684",
@@ -17582,6 +17758,7 @@
         {
           "version_tag": "1.9.68-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.67...1.9.68-pre",
+          "prerelease": false,
           "tagged_at": "2022-09-03T16:26:00+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.68-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76770634",
@@ -17590,6 +17767,7 @@
         {
           "version_tag": "1.9.69",
           "changelog": "## What's Changed\n* Nano armor by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/407\n* Fix Glass Fiber Wiremill Recipe by @LewisSaber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/408\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.67...1.9.69",
+          "prerelease": false,
           "tagged_at": "2022-09-04T15:53:44+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.69.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76843467",
@@ -17598,6 +17776,7 @@
         {
           "version_tag": "1.9.70",
           "changelog": "## What's Changed\n* Hid fake circuits from NEI by @Shadowsoftime99 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/409\n\n## New Contributors\n* @Shadowsoftime99 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/409\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.69...1.9.70",
+          "prerelease": false,
           "tagged_at": "2022-09-09T11:37:29+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.70.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/77350272",
@@ -17606,6 +17785,7 @@
         {
           "version_tag": "1.9.71",
           "changelog": "## What's Changed\n* minor text change by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/410\n\n## New Contributors\n* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/410\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.70...1.9.71",
+          "prerelease": false,
           "tagged_at": "2022-09-10T13:31:01+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.71.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/77446368",
@@ -17614,6 +17794,7 @@
         {
           "version_tag": "1.9.72",
           "changelog": "## What's Changed\n* rad hatch compact by @GlodBlock in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/411\n* Add Compressed Chest assembler recipe by @Quarri6343 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/412\n* Change Wooden Brickform durability by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/413\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.71...1.9.72",
+          "prerelease": false,
           "tagged_at": "2022-09-12T15:54:05+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.72.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/77631430",
@@ -17622,6 +17803,7 @@
         {
           "version_tag": "1.9.73",
           "changelog": "## What's Changed\n* Dtpf bee part2 by @Runakai1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/414\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.72...1.9.73",
+          "prerelease": false,
           "tagged_at": "2022-09-13T17:13:33+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.73.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/77753005",
@@ -17630,6 +17812,7 @@
         {
           "version_tag": "1.9.74",
           "changelog": "## What's Changed\n* Fix inconsistencies in GT Part Textures 1 by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/415\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.73...1.9.74",
+          "prerelease": false,
           "tagged_at": "2022-09-14T06:17:46+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.74.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/77810229",
@@ -17638,6 +17821,7 @@
         {
           "version_tag": "1.9.75",
           "changelog": "## What's Changed\n* convert ticon dusts to gt dusts in some recipes by @llk89 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/416\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.74...1.9.75",
+          "prerelease": false,
           "tagged_at": "2022-09-14T20:01:08+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.75.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/77888332",
@@ -17646,6 +17830,7 @@
         {
           "version_tag": "1.9.76",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.75...1.9.76",
+          "prerelease": false,
           "tagged_at": "2022-09-15T16:01:51+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.76.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/77981723",
@@ -17654,6 +17839,7 @@
         {
           "version_tag": "1.9.77",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.76...1.9.77",
+          "prerelease": false,
           "tagged_at": "2022-09-15T20:25:09+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.77.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/78004638",
@@ -17662,6 +17848,7 @@
         {
           "version_tag": "1.9.78",
           "changelog": "## What's Changed\n* added extreme shaped recipe for the creative staff of travelling by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/417\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.77...1.9.78",
+          "prerelease": false,
           "tagged_at": "2022-09-20T18:36:13+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.78.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/78482598",
@@ -17670,6 +17857,7 @@
         {
           "version_tag": "1.9.79",
           "changelog": "## What's Changed\n* Clean room by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/418\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.78...1.9.79",
+          "prerelease": false,
           "tagged_at": "2022-09-22T10:43:37+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.79.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/78663887",
@@ -17678,6 +17866,7 @@
         {
           "version_tag": "1.9.80",
           "changelog": "## What's Changed\n* Fix recursive recipes for ae2fc storage components being cheaper than assembler recipes by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/419\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.79...1.9.80",
+          "prerelease": false,
           "tagged_at": "2022-09-27T05:45:19+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.80.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/79133681",
@@ -17686,6 +17875,7 @@
         {
           "version_tag": "1.9.81",
           "changelog": "## What's Changed\n* Delete duplicate key by @ChromicRedBrick in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/421\n\n## New Contributors\n* @ChromicRedBrick made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/421\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.80...1.9.81",
+          "prerelease": false,
           "tagged_at": "2022-10-04T10:13:04+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.81.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/79904004",
@@ -17694,6 +17884,7 @@
         {
           "version_tag": "1.9.82",
           "changelog": "## What's Changed\n* Buff some steam age recipes (mostly time buffs) by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/422\n* Use the same number for programmed circuit and item meta except for 0 in Ztones recipes by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/423\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.81...1.9.82",
+          "prerelease": false,
           "tagged_at": "2022-10-05T16:09:50+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.82.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80057602",
@@ -17702,6 +17893,7 @@
         {
           "version_tag": "1.9.83",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.82...1.9.83",
+          "prerelease": false,
           "tagged_at": "2022-10-07T21:02:59+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.83.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80311676",
@@ -17710,6 +17902,7 @@
         {
           "version_tag": "1.9.84",
           "changelog": "## What's Changed\n* replace small coils in high tier circuits with inductor smd by @GlodBlock in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/424\n* Indusctors by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/425\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.83...1.9.84",
+          "prerelease": false,
           "tagged_at": "2022-10-08T15:01:13+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.84.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80376873",
@@ -17718,6 +17911,7 @@
         {
           "version_tag": "1.9.85",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.84...1.9.85",
+          "prerelease": false,
           "tagged_at": "2022-10-08T20:08:18+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.85.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80396407",
@@ -17726,6 +17920,7 @@
         {
           "version_tag": "1.9.86",
           "changelog": "## What's Changed\n* Move upgrade recipes from GT5 and scripts by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/429\n\n## New Contributors\n* @kuba6000 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/429\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.85...1.9.86",
+          "prerelease": false,
           "tagged_at": "2022-10-09T10:55:04+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.86.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80446772",
@@ -17734,6 +17929,7 @@
         {
           "version_tag": "1.9.87",
           "changelog": "## What's Changed\n* Move upgrade recipes from GT5 and scripts by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/429\n\n## New Contributors\n* @kuba6000 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/429\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.85...1.9.87",
+          "prerelease": false,
           "tagged_at": "2022-10-09T11:17:45+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.87.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80448055",
@@ -17742,6 +17938,7 @@
         {
           "version_tag": "1.9.88",
           "changelog": "## What's Changed\n* Adds recipes for UIV and UMV singleblock machines by @S4mpsa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/430\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.87...1.9.88",
+          "prerelease": false,
           "tagged_at": "2022-10-09T13:03:35+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.88.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80453860",
@@ -17750,6 +17947,7 @@
         {
           "version_tag": "1.9.89",
           "changelog": "## What's Changed\n* Prevent Dynamism Tablet from getting custom mob drops by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/432\n* Remove circuit 0 by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/431\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.88...1.9.89\n",
+          "prerelease": false,
           "tagged_at": "2022-10-12T17:06:26+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.89.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80790485",
@@ -17758,6 +17956,7 @@
         {
           "version_tag": "1.9.90",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.89...1.9.90\n",
+          "prerelease": false,
           "tagged_at": "2022-10-14T15:06:35+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.90.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/81024459",
@@ -17766,6 +17965,7 @@
         {
           "version_tag": "1.9.91",
           "changelog": "## What's Changed\n* Remove Zincite EBF recipe by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/433\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.90...1.9.91\n",
+          "prerelease": false,
           "tagged_at": "2022-10-15T09:10:46+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.91.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/81098303",
@@ -17774,6 +17974,7 @@
         {
           "version_tag": "1.9.92",
           "changelog": "## What's Changed\n* Replace Poison Ivy with cacti in upgrade by @Runakai1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/434\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.91...1.9.92\n",
+          "prerelease": false,
           "tagged_at": "2022-10-16T12:49:56+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.92.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/81196769",
@@ -17782,6 +17983,7 @@
         {
           "version_tag": "1.9.94",
           "changelog": "## What's Changed\n* Tps card craft by @POPlol333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/436\n* Spotless for 436 by @POPlol333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/437\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.93...1.9.94\n",
+          "prerelease": false,
           "tagged_at": "2022-10-20T16:44:56+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.94.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/81697413",
@@ -17790,6 +17992,7 @@
         {
           "version_tag": "1.9.95-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.94...1.9.95-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-10-22T09:51:56+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.95-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/81894456",
@@ -17798,6 +18001,7 @@
         {
           "version_tag": "1.9.96-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.95-pre...1.9.96-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-10-22T15:32:59+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.96-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/81913109",
@@ -17806,6 +18010,7 @@
         {
           "version_tag": "1.9.97",
           "changelog": "## What's Changed\n* hypogen->infinity coil by @POPlol333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/438\n* Changed Coil Recipes to the New Material by @Steelux8 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/363\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.94...1.9.97\n",
+          "prerelease": false,
           "tagged_at": "2022-10-23T20:06:58+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.97.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/82014801",
@@ -17814,6 +18019,7 @@
         {
           "version_tag": "1.9.98-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.97...1.9.98-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-10-26T18:36:39+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.98-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/82365308",
@@ -17822,6 +18028,7 @@
         {
           "version_tag": "1.9.99-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.98-pre...1.9.99-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-10-26T20:36:10+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.99-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/82376025",
@@ -17830,6 +18037,7 @@
         {
           "version_tag": "1.9.100-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.99-pre...1.9.100-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-10-27T06:46:43+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.100-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/82422725",
@@ -17838,6 +18046,7 @@
         {
           "version_tag": "1.9.101",
           "changelog": "## What's Changed\n* AFB should use all iv circuits by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/441\n* Tantalum change by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/440\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.97...1.9.101\n",
+          "prerelease": false,
           "tagged_at": "2022-10-27T17:13:39+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.101.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/82483385",
@@ -17846,6 +18055,7 @@
         {
           "version_tag": "1.9.102-pre",
           "changelog": "## What's Changed\n* Added recipe generation for cable diodes UHV and above by @minecraft7771 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/442\n* Spotless apply for branch Aluminate-tweak for #443 by @github-actions in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/444\n\n## New Contributors\n* @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/442\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.101...1.9.102-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-06T17:23:57+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.102-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/83653965",
@@ -17854,6 +18064,7 @@
         {
           "version_tag": "1.9.103",
           "changelog": "## What's Changed\n* Added recipe generation for cable diodes UHV and above by @minecraft7771 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/442\n* remove pure alu to sodium alunite recipes by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/443\n\n## New Contributors\n* @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/442\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.101...1.9.103\n",
+          "prerelease": false,
           "tagged_at": "2022-11-08T09:46:42+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.103.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/83854362",
@@ -17862,6 +18073,7 @@
         {
           "version_tag": "1.9.104",
           "changelog": "## What's Changed\n* Greggified recipes of fluid storage cells from AE2FC by @OneEyeMaker in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/445\n\n## New Contributors\n* @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/445\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.103...1.9.104\n",
+          "prerelease": false,
           "tagged_at": "2022-11-13T10:03:56+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.104.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/84441772",
@@ -17870,6 +18082,7 @@
         {
           "version_tag": "1.9.105-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.104...1.9.105-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-24T12:27:05+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.105-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/85819018",
@@ -17878,6 +18091,7 @@
         {
           "version_tag": "1.9.106",
           "changelog": "## What's Changed\n* Add Recipes to UMV transformers by @BlueWeabo in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/446\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.104...1.9.106\n",
+          "prerelease": false,
           "tagged_at": "2022-11-24T19:38:57+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.106.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/85858893",
@@ -17886,6 +18100,7 @@
         {
           "version_tag": "1.9.107",
           "changelog": "## What's Changed\n* Rewrite GUIs with ModularUI by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/447\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.106...1.9.107\n",
+          "prerelease": false,
           "tagged_at": "2022-11-26T21:32:52+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.107.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/86068768",
@@ -17894,6 +18109,7 @@
         {
           "version_tag": "1.9.108",
           "changelog": "## What's Changed\n* Make hazmat-proof armors protect player from custom hazard effects by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/448\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.107...1.9.108\n",
+          "prerelease": false,
           "tagged_at": "2022-11-28T19:23:44+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.108.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/86265674",
@@ -17902,6 +18118,7 @@
         {
           "version_tag": "1.9.109",
           "changelog": "## What's Changed\n* Fix Honey for Biomass by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/449\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.108...1.9.109\n",
+          "prerelease": false,
           "tagged_at": "2022-11-29T10:20:55+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.109.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/86341425",
@@ -17910,6 +18127,7 @@
         {
           "version_tag": "1.9.110",
           "changelog": "## What's Changed\n* Add 2 new lenses for the Nano Forge by @BlueWeabo in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/450\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.109...1.9.110\n",
+          "prerelease": false,
           "tagged_at": "2022-11-30T16:58:09+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.110.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/86522793",
@@ -17918,6 +18136,7 @@
         {
           "version_tag": "1.9.111",
           "changelog": "## What's Changed\n* add reinforced glass alfglass managlass as boroglass replacement in multi structure by @Glease in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/451\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.110...1.9.111\n",
+          "prerelease": false,
           "tagged_at": "2022-12-04T11:21:14+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.111.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/86950875",
@@ -17967,11 +18186,21 @@
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.116.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/88862326",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.116/GTNewHorizonsCoreMod-1.7.10-1.9.116.jar"
+        },
+        {
+          "version_tag": "1.9.117",
+          "changelog": "## What's Changed\n* Fix melodic capacitor recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/459\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.116...1.9.117\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-23T20:54:16+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.117.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/89308897",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.117/GTNewHorizonsCoreMod-1.7.10-1.9.117.jar"
         }
       ],
       "license": "GNU General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NewHorizonsCoreMod/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NewHorizonsCoreMod/",
+      "side": "BOTH"
     },
     {
       "name": "Nodal-Mechanics",
@@ -18147,7 +18376,8 @@
           "tagged_at": "2022-12-16T07:48:00+00:00",
           "filename": "NotEnoughEnergistics-1.7.10-1.3.25.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/88427969",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.3.25/NotEnoughEnergistics-1.7.10-1.3.25.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.3.25/NotEnoughEnergistics-1.7.10-1.3.25.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughEnergistics/1.3.25/NotEnoughEnergistics-1.3.25.jar"
         }
       ],
       "license": "MIT License",
@@ -18896,7 +19126,8 @@
           "tagged_at": "2022-12-22T20:01:28+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.18-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/89190019",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.18-GTNH/NotEnoughItems-1.7.10-2.3.18-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.18-GTNH/NotEnoughItems-1.7.10-2.3.18-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.18-GTNH/NotEnoughItems-2.3.18-GTNH.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -19727,10 +19958,41 @@
         }
       ],
       "license": "GNU Lesser General Public License v3.0.",
+      "side": "NONE",
       "source": "curse",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/player-api",
       "project_id": "228969",
       "slug": "player-api"
+    },
+    {
+      "name": "Player-API",
+      "latest_version": "1.4.2",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "1.4.1",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Player-API/commits/1.4.1\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-20T11:38:03+00:00",
+          "filename": "PlayerAPI-1.7.10-1.4.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Player-API/releases/assets/88885242",
+          "browser_download_url": "https://github.com/GTNewHorizons/Player-API/releases/download/1.4.1/PlayerAPI-1.7.10-1.4.1.jar"
+        },
+        {
+          "version_tag": "1.4.2",
+          "changelog": "## What's Changed\n* 1.4 Sources by @glowredman in https://github.com/GTNewHorizons/Player-API/pull/1\n\n## New Contributors\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/Player-API/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/Player-API/compare/1.4.1...1.4.2\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-22T19:53:59+00:00",
+          "filename": "PlayerAPI-1.7.10-1.4.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Player-API/releases/assets/89189497",
+          "browser_download_url": "https://github.com/GTNewHorizons/Player-API/releases/download/1.4.2/PlayerAPI-1.7.10-1.4.2.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Player-API/1.4.2/Player-API-1.4.2.jar"
+        }
+      ],
+      "license": "GNU Lesser General Public License v3.0",
+      "repo_url": "https://github.com/GTNewHorizons/Player-API",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Player-API/",
+      "side": "BOTH"
     },
     {
       "name": "ProjectBlue",
@@ -20079,7 +20341,8 @@
           "tagged_at": "2022-12-22T20:18:16+00:00",
           "filename": "RWG-1.7.10-alpha-1.3.3.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Realistic-World-Gen/releases/assets/89191391",
-          "browser_download_url": "https://github.com/GTNewHorizons/Realistic-World-Gen/releases/download/alpha-1.3.3.2/RWG-1.7.10-alpha-1.3.3.2.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Realistic-World-Gen/releases/download/alpha-1.3.3.2/RWG-1.7.10-alpha-1.3.3.2.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Realistic-World-Gen/alpha-1.3.3.2/Realistic-World-Gen-alpha-1.3.3.2.jar"
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -20665,7 +20928,8 @@
           "tagged_at": "2022-12-14T11:22:28+00:00",
           "filename": "SpiceOfLife-1.7.10-2.0.7-carrot.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/88167010",
-          "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.0.7-carrot/SpiceOfLife-1.7.10-2.0.7-carrot.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.0.7-carrot/SpiceOfLife-1.7.10-2.0.7-carrot.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SpiceOfLife/2.0.7-carrot/SpiceOfLife-2.0.7-carrot.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -21578,7 +21842,8 @@
     },
     {
       "name": "TC-4-Tweaks",
-      "latest_version": "1.4.23",
+      "latest_version": "1.4.26",
+      "needs_attention": false,
       "versions": [
         {
           "version_tag": "1.4.23",
@@ -21591,6 +21856,45 @@
           "curse_file": {
             "project_no": "431297",
             "file_no": "4102503"
+          }
+        },
+        {
+          "version_tag": "1.4.24",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2022-12-23T23:03:49.068844",
+          "filename": "Thaumcraft4Tweaks-1.4.24.jar",
+          "download_url": "https://media.forgecdn.net/files/4167/263/Thaumcraft4Tweaks-1.4.24.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/files/4167263",
+          "curse_file": {
+            "project_no": "",
+            "file_no": "4167263"
+          }
+        },
+        {
+          "version_tag": "1.4.25",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2022-12-23T23:05:13.293491",
+          "filename": "Thaumcraft4Tweaks-1.4.25.jar",
+          "download_url": "https://media.forgecdn.net/files/4180/788/Thaumcraft4Tweaks-1.4.25.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/files/4180788",
+          "curse_file": {
+            "project_no": "",
+            "file_no": "4180788"
+          }
+        },
+        {
+          "version_tag": "1.4.26",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2022-12-23T23:06:26.515608",
+          "filename": "Thaumcraft4Tweaks-1.4.26.jar",
+          "download_url": "https://media.forgecdn.net/files/4205/634/Thaumcraft4Tweaks-1.4.26.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/files/4205634",
+          "curse_file": {
+            "project_no": "",
+            "file_no": "4205634"
           }
         }
       ],
@@ -22407,7 +22711,8 @@
           "tagged_at": "2022-12-11T11:56:42+00:00",
           "filename": "TecTech-1.7.10-5.0.55-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/87789364",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.55-pre/TecTech-1.7.10-5.0.55-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.55-pre/TecTech-1.7.10-5.0.55-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.0.55-pre/TecTech-5.0.55-pre.jar"
         },
         {
           "version_tag": "5.0.56",
@@ -22461,7 +22766,8 @@
           "tagged_at": "2022-12-22T17:49:34+00:00",
           "filename": "TecTech-1.7.10-5.0.61.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/89179286",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.61/TecTech-1.7.10-5.0.61.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.61/TecTech-1.7.10-5.0.61.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.0.61/TecTech-5.0.61.jar"
         }
       ],
       "license": "MIT License",
@@ -22528,7 +22834,8 @@
           "tagged_at": "2022-12-14T11:31:49+00:00",
           "filename": "ThaumcraftResearchTweaks-1.7.10-1.0.4.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/thaumcraft-research-tweaks/releases/assets/88167857",
-          "browser_download_url": "https://github.com/GTNewHorizons/thaumcraft-research-tweaks/releases/download/1.0.4/ThaumcraftResearchTweaks-1.7.10-1.0.4.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/thaumcraft-research-tweaks/releases/download/1.0.4/ThaumcraftResearchTweaks-1.7.10-1.0.4.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/thaumcraft-research-tweaks/1.0.4/thaumcraft-research-tweaks-1.0.4.jar"
         }
       ],
       "license": "MIT License",
@@ -23554,7 +23861,8 @@
           "tagged_at": "2022-12-18T21:30:43+00:00",
           "filename": "TConstruct-1.7.10-1.9.8-GTN.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/88703264",
-          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.8-GTN/TConstruct-1.7.10-1.9.8-GTN.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.8-GTN/TConstruct-1.7.10-1.9.8-GTN.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/1.9.8-GTN/TinkersConstruct-1.9.8-GTN.jar"
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
