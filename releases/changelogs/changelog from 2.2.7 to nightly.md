@@ -1,4 +1,6 @@
 # New Mods:
+> * BetterAchievements
+> * DummyCore
 > * FloodLights
 > * ForgeRelocation
 > * ForgeRelocationFMP
@@ -6,6 +8,9 @@
 > * Player-API
 > * itlt
 # Mods Removed:
+> * BetterAchievements
+> * Controlling
+> * DummyCore
 > * Floodlights
 > * Forge Relocation
 > * Forge Relocation - FMP Plugin
@@ -44,6 +49,15 @@
 > * @asdflj made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/207 (rv3-beta-125-GTNH)
 >
 
+# New Mod - BetterAchievements (0.1.1@CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterAchievements/commits/0.1.1
+>## What's Changed
+> * Update Buildscript by @glowredman in https://github.com/GTNewHorizons/BetterAchievements/pull/1 (0.1.1)
+>
+>## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/BetterAchievements/pull/1 (0.1.1)
+>
+
 # Updated BetterQuesting (3.1.4-GTNH@BOTH --> 3.1.5-GTNH@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.1.3-GTNH...3.1.5-GTNH
 >## What's Changed
@@ -71,6 +85,9 @@
 >## New Contributors
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/49 (1.3.6.11)
 >
+
+# New Mod - DummyCore (1.15@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/DummyCore/commits/1.14
 
 # Updated EnderIO (2.3.1.48@BOTH --> 2.3.1.49@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.47...2.3.1.49

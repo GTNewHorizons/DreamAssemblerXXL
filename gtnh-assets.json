@@ -3018,7 +3018,8 @@
           "tagged_at": "2022-12-14T10:47:27+00:00",
           "filename": "BetterAchievements-1.7.10-0.1.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterAchievements/releases/assets/88163847",
-          "browser_download_url": "https://github.com/GTNewHorizons/BetterAchievements/releases/download/0.1.1/BetterAchievements-1.7.10-0.1.1.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterAchievements/releases/download/0.1.1/BetterAchievements-1.7.10-0.1.1.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterAchievements/0.1.1/BetterAchievements-0.1.1.jar"
         }
       ],
       "license": "All Rights Reserved (fallback)",
@@ -5724,7 +5725,8 @@
           "tagged_at": "2022-12-23T22:15:10+00:00",
           "filename": "DummyCore-1.7.10-1.15.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/DummyCore/releases/assets/89315215",
-          "browser_download_url": "https://github.com/GTNewHorizons/DummyCore/releases/download/1.15/DummyCore-1.7.10-1.15.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/DummyCore/releases/download/1.15/DummyCore-1.7.10-1.15.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DummyCore/1.15/DummyCore-1.15.jar"
         }
       ],
       "license": "Creative Commons Attribution Share Alike 4.0 International",

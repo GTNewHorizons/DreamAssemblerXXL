@@ -256,7 +256,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Baubles](https://github.com/GTNewHorizons/Baubles) | 1.0.1.14 |
 | [bdlib](https://github.com/GTNewHorizons/bdlib) | 1.9.8-GTNH |
 | [BeeBetterAtBees](https://www.curseforge.com/minecraft/mc-mods/beebetteratbees) | 0.3 |
-| [BetterAchievements](https://www.curseforge.com/minecraft/mc-mods/betterachievements) | 0.1.0 |
+| [BetterAchievements](https://github.com/GTNewHorizons/BetterAchievements) | 0.1.1 |
 | [BetterBuildersWands](https://github.com/GTNewHorizons/BetterBuildersWands) | 0.9.3-GTNH |
 | [BetterCrashes](https://github.com/GTNewHorizons/BetterCrashes) | 1.1.7-GTNH |
 | [BetterLoadingScreen](https://github.com/GTNewHorizons/BetterLoadingScreen) | 1.3.36-GTNH |
@@ -289,7 +289,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [CoFH Lib](https://www.curseforge.com/minecraft/mc-mods/cofh-lib) | 1.2.1-185 |
 | [CompactKineticGenerators](https://github.com/GTNewHorizons/CompactKineticGenerators) | 1.0.1 |
 | [Computronics](https://github.com/GTNewHorizons/Computronics) | 1.6.17-GTNH |
-| [Controlling](https://www.curseforge.com/minecraft/mc-mods/controlling) | 1.0.0.3 |
 | [CookingForBlockheads](https://github.com/GTNewHorizons/CookingForBlockheads) | 1.2.13-GTNH |
 | [CraftPresence](https://github.com/GTNewHorizons/CraftPresence) | 1.8.8 |
 | [CraftTweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.2.9 |
@@ -301,7 +300,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [DefaultWorldGenerator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.2 |
 | [DetravScannerMod](https://github.com/GTNewHorizons/DetravScannerMod) | 1.6.9 |
 | [Draconic-Evolution](https://github.com/GTNewHorizons/Draconic-Evolution) | 1.1.7-GTNH |
-| [DummyCore](https://www.curseforge.com/minecraft/mc-mods/dummycore) | 1.13 |
+| [DummyCore](https://github.com/GTNewHorizons/DummyCore) | 1.15 |
 | [Electro-Magic-Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.2.8.25 |
 | [EnderCore](https://github.com/GTNewHorizons/EnderCore) | 0.2.11 |
 | [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.3.1.49 |

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.7",
-  "last_updated": "2022-12-23T22:27:58.061481",
+  "last_updated": "2022-12-23T23:25:43.506737",
   "config": "2.2.7",
   "github_mods": {
     "AdventureBackpack2": {
@@ -795,6 +795,10 @@
     "DummyCore": {
       "version": "1.15",
       "side": "BOTH"
+    },
+    "Controlling": {
+      "version": "1.0.0.4",
+      "side": "CLIENT"
     }
   },
   "external_mods": {
