@@ -10,6 +10,7 @@
 > * itlt
 # Mods Removed:
 > * BetterAchievements
+> * CodeChickenLib
 > * Controlling
 > * DummyCore
 > * Floodlights

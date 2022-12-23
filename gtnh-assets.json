@@ -4854,6 +4854,7 @@
       ],
       "license": "GNU Lesser General Public Library v3.0.",
       "repo_url": "https://github.com/CoFH/CoFHLib-1.7.10-Legacy",
+      "side": "NONE",
       "source": "curse",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/cofh-lib",
       "project_id": "220333",

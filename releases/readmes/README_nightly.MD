@@ -284,7 +284,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.10.16-GTNH |
 | [ChiselTones](https://github.com/GTNewHorizons/ChiselTones) | 1.0.4-GTNH |
 | [CodeChickenCore](https://github.com/GTNewHorizons/CodeChickenCore) | 1.1.6 |
-| [CodeChickenLib](https://github.com/GTNewHorizons/CodeChickenLib) | 1.1.5.5 |
 | [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core) | 3.1.4-329 |
 | [CoFH Lib](https://www.curseforge.com/minecraft/mc-mods/cofh-lib) | 1.2.1-185 |
 | [CompactKineticGenerators](https://github.com/GTNewHorizons/CompactKineticGenerators) | 1.0.1 |

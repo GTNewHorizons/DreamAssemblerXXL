@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.7",
-  "last_updated": "2022-12-23T23:55:11.272995",
+  "last_updated": "2022-12-23T23:57:21.041622",
   "config": "2.2.7",
   "github_mods": {
     "AdventureBackpack2": {
@@ -857,10 +857,6 @@
     "Custom Main Menu": {
       "version": "1.9.2",
       "side": "CLIENT"
-    },
-    "CoFH Lib": {
-      "version": "1.2.1-185",
-      "side": "BOTH"
     },
     "CoFH Core": {
       "version": "3.1.4-329",
