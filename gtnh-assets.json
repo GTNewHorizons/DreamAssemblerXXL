@@ -5010,27 +5010,23 @@
     },
     {
       "name": "Controlling",
-      "latest_version": "1.0.0.3",
+      "latest_version": "1.0.0.4",
+      "private": false,
       "versions": [
         {
-          "version_tag": "1.0.0.3",
-          "tagged_at": "2022-06-01T18:08:09",
-          "filename": "Controlling-1.7.10-1.0.0.3.jar",
-          "download_url": "https://media.forgecdn.net/files/3812/685/Controlling-1.7.10-1.0.0.3.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/controlling/files/3812685",
-          "curse_file": {
-            "project_no": "250398",
-            "file_no": "3812685"
-          }
+          "version_tag": "1.0.0.4",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Controlling/commits/1.0.0.4\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-12T20:49:50+00:00",
+          "filename": "controlling-1.7.10-1.0.0.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Controlling/releases/assets/87943848",
+          "browser_download_url": "https://github.com/GTNewHorizons/Controlling/releases/download/1.0.0.4/controlling-1.7.10-1.0.0.4.jar"
         }
       ],
-      "license": "MIT License.",
-      "repo_url": "https://github.com/jaredlll08/Controlling",
-      "side": "NONE",
-      "source": "curse",
-      "external_url": "https://www.curseforge.com/minecraft/mc-mods/controlling",
-      "project_id": "250398",
-      "slug": "controlling"
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/Controlling",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Controlling/",
+      "side": "CLIENT"
     },
     {
       "name": "CookingForBlockheads",
@@ -7545,7 +7541,7 @@
     },
     {
       "name": "ForgeRelocationFMP",
-      "latest_version": "0.0.3",
+      "latest_version": "0.0.4",
       "private": false,
       "versions": [
         {
@@ -7566,6 +7562,15 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForgeRelocationFMP/releases/assets/88922892",
           "browser_download_url": "https://github.com/GTNewHorizons/ForgeRelocationFMP/releases/download/0.0.3/RelocationFMP-1.7.10-0.0.3.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForgeRelocationFMP/0.0.3/ForgeRelocationFMP-0.0.3.jar"
+        },
+        {
+          "version_tag": "0.0.4",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocationFMP/compare/0.0.3...0.0.4\n",
+          "prerelease": false,
+          "tagged_at": "2022-12-23T23:45:11+00:00",
+          "filename": "ForgeRelocationFMP-1.7.10-0.0.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForgeRelocationFMP/releases/assets/89320718",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForgeRelocationFMP/releases/download/0.0.4/ForgeRelocationFMP-1.7.10-0.0.4.jar"
         }
       ],
       "license": "All Rights Reserved (fallback)",

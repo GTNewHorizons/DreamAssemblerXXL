@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.7",
-  "last_updated": "2022-12-23T23:25:43.506737",
+  "last_updated": "2022-12-23T23:53:33.408751",
   "config": "2.2.7",
   "github_mods": {
     "AdventureBackpack2": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "ForgeRelocationFMP": {
-      "version": "0.0.3",
+      "version": "0.0.4",
       "side": "BOTH"
     },
     "ForgeRelocation": {
