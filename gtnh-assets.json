@@ -5730,7 +5730,7 @@
       "license": "Creative Commons Attribution Share Alike 4.0 International",
       "repo_url": "https://github.com/GTNewHorizons/DummyCore",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DummyCore/",
-      "side": "NONE"
+      "side": "BOTH"
     },
     {
       "name": "Electro-Magic-Tools",
