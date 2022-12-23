@@ -289,6 +289,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [CoFH Lib](https://www.curseforge.com/minecraft/mc-mods/cofh-lib) | 1.2.1-185 |
 | [CompactKineticGenerators](https://github.com/GTNewHorizons/CompactKineticGenerators) | 1.0.1 |
 | [Computronics](https://github.com/GTNewHorizons/Computronics) | 1.6.17-GTNH |
+| [Controlling](https://github.com/GTNewHorizons/Controlling) | 1.0.0.4 |
 | [CookingForBlockheads](https://github.com/GTNewHorizons/CookingForBlockheads) | 1.2.13-GTNH |
 | [CraftPresence](https://github.com/GTNewHorizons/CraftPresence) | 1.8.8 |
 | [CraftTweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.2.9 |
@@ -318,7 +319,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Forgelin](https://github.com/GTNewHorizons/Forgelin) | 1.9.6-GTNH |
 | [ForgeMultipart](https://github.com/GTNewHorizons/ForgeMultipart) | 1.3.0 |
 | [ForgeRelocation](https://github.com/GTNewHorizons/ForgeRelocation) | 0.0.3 |
-| [ForgeRelocationFMP](https://github.com/GTNewHorizons/ForgeRelocationFMP) | 0.0.3 |
+| [ForgeRelocationFMP](https://github.com/GTNewHorizons/ForgeRelocationFMP) | 0.0.4 |
 | [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.0.8.5 |
 | [GalacticGregGT5](https://github.com/GTNewHorizons/GalacticGregGT5) | 1.0.8 |
 | [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.0.60-GTNH |

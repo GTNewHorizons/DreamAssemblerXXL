@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.7",
-  "last_updated": "2022-12-23T23:53:33.408751",
+  "last_updated": "2022-12-23T23:55:11.272995",
   "config": "2.2.7",
   "github_mods": {
     "AdventureBackpack2": {
@@ -142,10 +142,6 @@
     },
     "CodeChickenCore": {
       "version": "1.1.6",
-      "side": "BOTH"
-    },
-    "CodeChickenLib": {
-      "version": "1.1.5.5",
       "side": "BOTH"
     },
     "CompactKineticGenerators": {

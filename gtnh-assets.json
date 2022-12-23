@@ -4810,7 +4810,8 @@
       ],
       "license": "GNU Lesser General Public License v2.1",
       "repo_url": "https://github.com/GTNewHorizons/CodeChickenLib",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CodeChickenLib/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CodeChickenLib/",
+      "side": "NONE"
     },
     {
       "name": "CoFH Core",

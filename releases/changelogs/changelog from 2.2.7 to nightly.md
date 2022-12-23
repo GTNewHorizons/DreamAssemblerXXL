@@ -1,5 +1,6 @@
 # New Mods:
 > * BetterAchievements
+> * Controlling
 > * DummyCore
 > * FloodLights
 > * ForgeRelocation
@@ -75,6 +76,9 @@
 > * Fix estimated amount display for meteor calculation by @ChromicRedBrick in https://github.com/GTNewHorizons/BloodMagic/pull/36 (1.3.18)
 >
 
+# New Mod - Controlling (1.0.0.4@CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/Controlling/commits/1.0.0.4
+
 # Updated Crops-plus-plus (1.3.6.10-pre@BOTH --> 1.3.6.11@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.3.6.9-pre...1.3.6.11
 >## What's Changed
@@ -122,8 +126,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/ForgeRelocation/pull/1 (0.0.2)
 >
 
-# New Mod - ForgeRelocationFMP (0.0.3@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocationFMP/commits/0.0.3
+# New Mod - ForgeRelocationFMP (0.0.4@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocationFMP/commits/0.0.4
 >## What's Changed
 > * Update Buildscript by @glowredman in https://github.com/GTNewHorizons/ForgeRelocationFMP/pull/1 (0.0.2)
 >
