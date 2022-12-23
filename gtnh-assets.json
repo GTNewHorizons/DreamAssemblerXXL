@@ -5025,7 +5025,7 @@
       ],
       "license": "MIT License.",
       "repo_url": "https://github.com/jaredlll08/Controlling",
-      "side": "CLIENT",
+      "side": "NONE",
       "source": "curse",
       "external_url": "https://www.curseforge.com/minecraft/mc-mods/controlling",
       "project_id": "250398",

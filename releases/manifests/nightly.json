@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.7",
-  "last_updated": "2022-12-23T22:18:19.868620",
+  "last_updated": "2022-12-23T22:23:22.880440",
   "config": "2.2.7",
   "github_mods": {
     "AdventureBackpack2": {
@@ -790,14 +790,14 @@
     },
     "BetterAchievements": {
       "version": "0.1.1",
-      "side": "NONE"
-    }
-  },
-  "external_mods": {
+      "side": "CLIENT"
+    },
     "Controlling": {
       "version": "1.0.0.3",
       "side": "CLIENT"
-    },
+    }
+  },
+  "external_mods": {
     "Aroma1997Core": {
       "version": "1.0.2.16",
       "side": "CLIENT"
