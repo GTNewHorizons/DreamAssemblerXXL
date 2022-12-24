@@ -10,6 +10,7 @@
 > * itlt
 # Mods Removed:
 > * BetterAchievements
+> * CoFH Lib
 > * CodeChickenLib
 > * Controlling
 > * DummyCore
