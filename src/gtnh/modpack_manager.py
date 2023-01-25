@@ -5,7 +5,6 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Callable, Optional, Tuple
 
-from cache import AsyncLRU
 from colorama import Fore, Style
 from gidgethub import BadRequest
 from gidgethub.httpx import GitHubAPI
@@ -14,6 +13,7 @@ from packaging.version import LegacyVersion
 from retry import retry
 from structlog import get_logger
 
+from cache import AsyncLRU
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.defs import (
     AVAILABLE_ASSETS_FILE,

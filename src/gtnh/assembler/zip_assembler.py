@@ -109,13 +109,13 @@ class ZipAssembler(GenericAssembler):
         # +1 for the changelog
         amount_of_files: int = len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + 1
 
-        if side == Side.SERVER:
+        if side.is_server():
             amount_of_files += len(self.get_server_assets(server_brand))
 
         self.set_progress(100 / amount_of_files)
         await GenericAssembler.assemble(self, side, verbose)
 
-        if side == Side.SERVER:
+        if side.is_server():
             log.info("Adding server assets to the server release.")
             with ZipFile(self.get_archive_path(side), "a") as archive:
                 self.add_server_assets(archive, server_brand)

@@ -92,11 +92,14 @@ class MMCAssembler(GenericAssembler):
         self.add_changelog(archive, arcname=self.mmc_modpack_files / self.changelog_path.name)
 
     def get_archive_path(self, side: Side) -> Path:
-        return RELEASE_MMC_DIR / f"GT_New_Horizons_{self.release.version}_(MMC).zip"
+        j9suffix = ""
+        if side.is_java9():
+            j9suffix = "_Java9"
+        return RELEASE_MMC_DIR / f"GT_New_Horizons_{self.release.version}_(MMC){j9suffix}.zip"
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
-        if side != Side.CLIENT:
-            raise ValueError(f"Only valid side is {Side.CLIENT}, got {side}")
+        if side not in {Side.CLIENT, Side.CLIENT_JAVA9}:
+            raise ValueError(f"Only valid sides are {Side.CLIENT}, got {side}")
 
         # +1 for the metadata file
         self.set_progress(100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + 1))

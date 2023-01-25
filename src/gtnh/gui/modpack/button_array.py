@@ -14,8 +14,10 @@ class ButtonArrayCallback:
         update_asset: Callable[[], Task[None]],
         generate_nightly: Callable[[], Task[None]],
         client_mmc: Callable[[], Task[None]],
+        client_mmc_j9: Callable[[], Task[None]],
         client_zip: Callable[[], Task[None]],
         server_zip: Callable[[], Task[None]],
+        server_zip_j9: Callable[[], Task[None]],
         client_curse: Callable[[], Task[None]],
         client_modrinth: Callable[[], Task[None]],
         client_technic: Callable[[], Task[None]],
@@ -24,8 +26,10 @@ class ButtonArrayCallback:
         self.update_assets: Callable[[], Task[None]] = update_asset
         self.generate_nightly: Callable[[], Task[None]] = generate_nightly
         self.client_mmc: Callable[[], Task[None]] = client_mmc
+        self.client_mmc_j9: Callable[[], Task[None]] = client_mmc_j9
         self.client_zip: Callable[[], Task[None]] = client_zip
         self.server_zip: Callable[[], Task[None]] = server_zip
+        self.server_zip_j9: Callable[[], Task[None]] = server_zip_j9
         self.client_curse: Callable[[], Task[None]] = client_curse
         self.client_modrinth: Callable[[], Task[None]] = client_modrinth
         self.client_technic: Callable[[], Task[None]] = client_technic
@@ -79,6 +83,9 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         self.btn_client_mmc: CustomButton = CustomButton(
             self.frame_btn, text="MultiMC client archive", command=callbacks.client_mmc, themed=self.themed
         )
+        self.btn_client_mmc_j9: CustomButton = CustomButton(
+            self.frame_btn, text="Java 9+ Prism archive", command=callbacks.client_mmc_j9, themed=self.themed
+        )
         self.btn_client_modrinth: CustomButton = CustomButton(
             self.frame_btn,
             text="Modrinth client archive",
@@ -101,6 +108,9 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         self.btn_server_zip: CustomButton = CustomButton(
             self.frame_btn, text="Zip server archive", command=callbacks.server_zip, themed=self.themed
         )
+        self.btn_server_zip_j9: CustomButton = CustomButton(
+            self.frame_btn, text="Java 9+ server archive", command=callbacks.server_zip_j9, themed=self.themed
+        )
 
         progress_bar_length: int = 500
 
@@ -117,11 +127,13 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
             self.btn_client_technic,
             self.btn_client_modrinth,
             self.btn_client_mmc,
+            self.btn_client_mmc_j9,
             self.btn_update_assets,
             self.btn_update_nightly,
             self.btn_generate_all,
             self.btn_client_zip,
             self.btn_server_zip,
+            self.btn_server_zip_j9,
             self.progress_bar_global,
             self.progress_bar_current_task,
         ]
@@ -179,6 +191,9 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         self.btn_update_nightly.grid(row=2, column=0)
         self.btn_generate_all.grid(row=2, column=1)
         self.btn_update_assets.grid(row=2, column=2)
+
+        self.btn_client_mmc_j9.grid(row=3, column=0)
+        self.btn_server_zip_j9.grid(row=3, column=1)
 
         self.update_idletasks()
 

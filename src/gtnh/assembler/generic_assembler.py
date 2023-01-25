@@ -49,6 +49,8 @@ class GenericAssembler:
         self.exclusions: Dict[str, Exclusions] = {
             Side.CLIENT: Exclusions(self.modpack_manager.mod_pack.client_exclusions),
             Side.SERVER: Exclusions(self.modpack_manager.mod_pack.server_exclusions),
+            Side.CLIENT_JAVA9: Exclusions(self.modpack_manager.mod_pack.client_exclusions),
+            Side.SERVER_JAVA9: Exclusions(self.modpack_manager.mod_pack.server_exclusions),
         }
         self.delta_progress: float = 0.0
 
@@ -93,7 +95,7 @@ class GenericAssembler:
         :return: a list of couples where the first object is the mod info object, the second is the targetted version.
         """
 
-        valid_sides: Set[Side] = {side, Side.BOTH}
+        valid_sides: Set[Side] = side.valid_mod_sides()
 
         github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
 
@@ -200,8 +202,8 @@ class GenericAssembler:
         :param verbose: flag to enable the verbose mode
         :return: None
         """
-        if side not in {Side.CLIENT, Side.SERVER}:
-            raise Exception("Can only assemble release for CLIENT or SERVER, not BOTH")
+        if side not in {Side.CLIENT, Side.SERVER, Side.CLIENT_JAVA9, Side.SERVER_JAVA9}:
+            raise Exception(f"Can only assemble release for CLIENT or SERVER, not {side}")
 
         archive_name: Path = self.get_archive_path(side)
 
@@ -270,7 +272,14 @@ class GenericAssembler:
 
         :return: the string for the modlist
         """
-        valid_sides: Set[Side] = {Side.CLIENT, Side.SERVER, Side.BOTH}
+        valid_sides: Set[Side] = {
+            Side.CLIENT,
+            Side.SERVER,
+            Side.BOTH,
+            Side.CLIENT_JAVA9,
+            Side.SERVER_JAVA9,
+            Side.BOTH_JAVA9,
+        }
         lines: List[str] = []
 
         # it seems i'm obligated to get mods separatedly because self.get_mods is somehow

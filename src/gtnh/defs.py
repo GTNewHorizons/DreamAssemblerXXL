@@ -1,8 +1,10 @@
+from __future__ import annotations
+
 from enum import Enum
 from pathlib import Path
 
 # Root is two levels up
-from typing import List
+from typing import List, Set
 
 ROOT_DIR = Path(__file__).parent.parent.parent
 CACHE_DIR = ROOT_DIR / "cache"
@@ -94,6 +96,37 @@ class Side(str, Enum):
     CLIENT = "CLIENT"
     BOTH = "BOTH"
     NONE = "NONE"
+    SERVER_JAVA9 = "SERVER_JAVA9"
+    CLIENT_JAVA9 = "CLIENT_JAVA9"
+    BOTH_JAVA9 = "BOTH_JAVA9"
+
+    def valid_mod_sides(self) -> Set[Side]:
+        mods_included_relations = {
+            Side.SERVER: {Side.BOTH, Side.SERVER},
+            Side.CLIENT: {Side.BOTH, Side.CLIENT},
+            Side.BOTH: {Side.BOTH, Side.SERVER, Side.CLIENT},
+            Side.NONE: {Side.NONE},
+            Side.SERVER_JAVA9: {Side.BOTH, Side.SERVER, Side.BOTH_JAVA9, Side.SERVER_JAVA9},
+            Side.CLIENT_JAVA9: {Side.BOTH, Side.CLIENT, Side.BOTH_JAVA9, Side.CLIENT_JAVA9},
+            Side.BOTH_JAVA9: {
+                Side.BOTH,
+                Side.SERVER,
+                Side.CLIENT,
+                Side.BOTH_JAVA9,
+                Side.SERVER_JAVA9,
+                Side.CLIENT_JAVA9,
+            },
+        }
+        return mods_included_relations[self]
+
+    def is_java9(self) -> bool:
+        return self in {Side.CLIENT_JAVA9, Side.SERVER_JAVA9, Side.BOTH_JAVA9}
+
+    def is_server(self) -> bool:
+        return self in {Side.SERVER, Side.SERVER_JAVA9}
+
+    def is_client(self) -> bool:
+        return self in {Side.CLIENT, Side.CLIENT_JAVA9}
 
 
 class VersionableType(str, Enum):
