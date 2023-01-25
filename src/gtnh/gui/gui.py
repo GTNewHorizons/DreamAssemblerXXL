@@ -87,6 +87,7 @@ class Window(ThemedTk, Tk):
 
         self.xpadding: int = 0
         self.ypadding: int = 0
+        self.minsize(1000, 600)  # Minimum to even see all the buttons
 
         self.github_mods: Dict[
             str, ModVersionInfo
