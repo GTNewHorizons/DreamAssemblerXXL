@@ -46,11 +46,12 @@ class GenericAssembler:
         self.task_progress_callback: Optional[Callable[[float, str], None]] = task_progress_callback
         self.changelog_path: Optional[Path] = changelog_path
 
+        mod_pack = self.modpack_manager.mod_pack
         self.exclusions: Dict[str, Exclusions] = {
-            Side.CLIENT: Exclusions(self.modpack_manager.mod_pack.client_exclusions),
-            Side.SERVER: Exclusions(self.modpack_manager.mod_pack.server_exclusions),
-            Side.CLIENT_JAVA9: Exclusions(self.modpack_manager.mod_pack.client_exclusions),
-            Side.SERVER_JAVA9: Exclusions(self.modpack_manager.mod_pack.server_exclusions),
+            Side.CLIENT: Exclusions(mod_pack.client_exclusions + mod_pack.client_java8_exclusions),
+            Side.SERVER: Exclusions(mod_pack.server_exclusions + mod_pack.server_java8_exclusions),
+            Side.CLIENT_JAVA9: Exclusions(mod_pack.client_exclusions + mod_pack.client_java9_exclusions),
+            Side.SERVER_JAVA9: Exclusions(mod_pack.server_exclusions + mod_pack.server_java9_exclusions),
         }
         self.delta_progress: float = 0.0
 
