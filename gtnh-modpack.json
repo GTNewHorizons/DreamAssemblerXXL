@@ -41,5 +41,10 @@
     "server-icon.png",
     "server.properties",
     "servers.json"
+  ],
+  "server_java8_exclusions": [
+    "java9args.txt",
+    "startserver-java9.bat",
+    "startserver-java9.sh"
   ]
 }

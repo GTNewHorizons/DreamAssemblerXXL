@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 flags=()
-printf 'Running Running mypy type validation\n'
+printf 'Running mypy type validation\n'
 if [ -n "${CI}" ]; then
   flags=(--check)
 fi

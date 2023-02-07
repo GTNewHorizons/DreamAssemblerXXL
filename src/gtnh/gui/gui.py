@@ -87,6 +87,7 @@ class Window(ThemedTk, Tk):
 
         self.xpadding: int = 0
         self.ypadding: int = 0
+        self.minsize(1000, 600)  # Minimum to even see all the buttons
 
         self.github_mods: Dict[
             str, ModVersionInfo
@@ -110,8 +111,10 @@ class Window(ThemedTk, Tk):
             update_asset=lambda: asyncio.ensure_future(self.update_assets()),
             generate_nightly=lambda: asyncio.ensure_future(self.update_nightly()),
             client_mmc=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.MMC)),
+            client_mmc_j9=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT_JAVA9, Archive.MMC)),
             client_zip=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.ZIP)),
             server_zip=lambda: asyncio.ensure_future(self.assemble_release(Side.SERVER, Archive.ZIP)),
+            server_zip_j9=lambda: asyncio.ensure_future(self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)),
             client_curse=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.CURSEFORGE)),
             client_modrinth=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.MODRINTH)),
             client_technic=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.TECHNIC)),

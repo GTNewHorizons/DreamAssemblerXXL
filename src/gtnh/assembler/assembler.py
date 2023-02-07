@@ -106,7 +106,7 @@ class ReleaseAssembler:
         assemblers_server: Dict[str, Callable[[Side, bool], Awaitable[None]]] = {Archive.ZIP: self.assemble_zip}
 
         assemblers: Dict[str, Callable[[Side, bool], Awaitable[None]]] = (
-            assemblers_client if side == Side.CLIENT else assemblers_server
+            assemblers_client if side.is_client() else assemblers_server
         )
 
         for plateform, assembling in assemblers.items():
