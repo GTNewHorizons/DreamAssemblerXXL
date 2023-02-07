@@ -59,13 +59,18 @@ class ZipAssembler(GenericAssembler):
             source_file: Path = get_asset_version_cache_location(mod, version)
             archive_path: Path = Path("mods") / source_file.name
             archive.write(source_file, arcname=archive_path)
+            if side.is_server():
+                for extra_asset in version.extra_assets:
+                    if extra_asset.filename.endswith("forgePatches.jar"):
+                        extra_asset_path: Path = get_asset_version_cache_location(mod, version, extra_asset.filename)
+                        archive.write(extra_asset_path, arcname=f"{mod.name}-forgePatches.jar")
             if self.task_progress_callback is not None:
                 self.task_progress_callback(
                     self.get_progress(), f"adding mod {mod.name} : version {version.version_tag} to the archive"
                 )
 
-    def add_server_assets(self, archive: ZipFile, server_brand: ServerBrand) -> None:
-        assets = self.get_server_assets(server_brand)
+    def add_server_assets(self, archive: ZipFile, server_brand: ServerBrand, side: Side) -> None:
+        assets = self.get_server_assets(server_brand, side)
 
         for asset in assets:
             archive.write(asset, arcname=asset.relative_to(SERVER_ASSETS_DIR / server_brand.value))
@@ -110,7 +115,7 @@ class ZipAssembler(GenericAssembler):
         amount_of_files: int = len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + 1
 
         if side.is_server():
-            amount_of_files += len(self.get_server_assets(server_brand))
+            amount_of_files += len(self.get_server_assets(server_brand, side))
 
         self.set_progress(100 / amount_of_files)
         await GenericAssembler.assemble(self, side, verbose)
@@ -118,24 +123,25 @@ class ZipAssembler(GenericAssembler):
         if side.is_server():
             log.info("Adding server assets to the server release.")
             with ZipFile(self.get_archive_path(side), "a") as archive:
-                self.add_server_assets(archive, server_brand)
+                self.add_server_assets(archive, server_brand, side)
 
-    def get_server_assets(self, server_brand: ServerBrand) -> List[Path]:
+    def get_server_assets(self, server_brand: ServerBrand, side: Side) -> List[Path]:
         """
         return the list of Path objects corresponding to the server brand's assets.
 
         :param server_brand: the server brand to fetch assets for
         :return: a list of Path objects
         """
-        path_objects: List[Path] = [path_object for path_object in (SERVER_ASSETS_DIR / server_brand.value).iterdir()]
+        assets_root: Path = SERVER_ASSETS_DIR / server_brand.value
+        path_objects: List[Path] = [path_object for path_object in assets_root.iterdir()]
 
         assets: List[Path] = []
         folders: List[Path]
 
         while len(path_objects) > 0:
-            assets.extend([file for file in path_objects if file.is_file()])
+            assets.extend([file for file in path_objects if file.is_file() and str(file.relative_to(assets_root)) not in self.exclusions[side]])
 
-            folders = [folder for folder in path_objects if folder.is_dir()]
+            folders = [folder for folder in path_objects if folder.is_dir() and str(folder.relative_to(assets_root)) not in self.exclusions[side]]
             path_objects = []
             for folder in folders:
                 path_objects.extend([path for path in folder.iterdir()])

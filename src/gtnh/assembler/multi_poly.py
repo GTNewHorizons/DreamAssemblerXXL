@@ -58,6 +58,14 @@ class MMCAssembler(GenericAssembler):
             source_file: Path = get_asset_version_cache_location(mod, version)
             archive_path: Path = self.mmc_modpack_mods / source_file.name
             archive.write(source_file, arcname=archive_path)
+            for extra_asset in version.extra_assets:
+                if extra_asset.filename.endswith("multimc.zip"):
+                    extra_asset_path: Path = get_asset_version_cache_location(mod, version, extra_asset.filename)
+                    with ZipFile(extra_asset_path, "r", compression=ZIP_DEFLATED) as mmc_patches_zip:
+                        for item in mmc_patches_zip.namelist():
+                            with mmc_patches_zip.open(item, "r") as mmc_patch:
+                                with archive.open(str(self.mmc_archive_root) + "/" + item, "w") as target:
+                                    shutil.copyfileobj(mmc_patch, target)
             if self.task_progress_callback is not None:
                 self.task_progress_callback(
                     self.get_progress(), f"adding mod {mod.name} : version {version.version_tag} to the archive"
@@ -118,7 +126,8 @@ class MMCAssembler(GenericAssembler):
         with ZipFile(self.get_archive_path(side), "a") as archive:
             if self.task_progress_callback is not None:
                 self.task_progress_callback(self.get_progress(), "adding archive's metadata to the archive")
-            archive.writestr(str(self.mmc_archive_root) + "/mmc-pack.json", MMC_PACK_JSON)
+            if not side.is_java9():
+                archive.writestr(str(self.mmc_archive_root) + "/mmc-pack.json", MMC_PACK_JSON)
             archive.writestr(
                 str(self.mmc_archive_root) + "/instance.cfg", MMC_PACK_INSTANCE.format(f"GTNH {self.release.version}")
             )

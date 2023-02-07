@@ -35,7 +35,7 @@ from gtnh.models.available_assets import AvailableAssets
 from gtnh.models.gtnh_config import CONFIG_REPO_NAME
 from gtnh.models.gtnh_modpack import GTNHModpack
 from gtnh.models.gtnh_release import GTNHRelease, load_release, save_release
-from gtnh.models.gtnh_version import version_from_release
+from gtnh.models.gtnh_version import version_from_release, ExtraAsset
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.models.versionable import Versionable, version_is_newer, version_is_older, version_sort_key
@@ -688,41 +688,44 @@ class GTNHModpackManager:
             f"{version.browser_download_url}{private_repo}"
         )
 
-        mod_filename = get_asset_version_cache_location(asset, version)
+        files_to_download = [(get_asset_version_cache_location(asset, version), version.download_url)]
+        for extra_asset in version.extra_assets:
+            files_to_download.append((get_asset_version_cache_location(asset, version, extra_asset.filename), extra_asset.download_url))
 
-        if os.path.exists(mod_filename):
-            log.info(f"{Fore.YELLOW}Skipping re-redownload of {mod_filename}{Fore.RESET}")
+        for mod_filename, download_url in files_to_download:
+            if os.path.exists(mod_filename):
+                log.info(f"{Fore.YELLOW}Skipping re-redownload of {mod_filename}{Fore.RESET}")
+                if download_callback:
+                    download_callback(str(mod_filename.name))
+                continue
+
+            headers = {"Accept": "application/octet-stream"}
+            if is_github:
+                headers |= {"Authorization": f"token {get_github_token()}"}
+
+            async with self.client.stream(
+                url=download_url, headers=headers, method="GET", follow_redirects=True
+            ) as r:
+                try:
+                    r.raise_for_status()
+                    with open(mod_filename, "wb") as f:
+                        async for chunk in r.aiter_bytes(chunk_size=8192):
+                            f.write(chunk)
+                    log.info(f"{GREEN_CHECK} Download successful `{mod_filename}`")
+                except HTTPStatusError as e:
+                    log.error(
+                        f"{RED_CROSS} {Fore.RED}The following HTTP error while downloading`{Fore.YELLOW}{asset_version}"
+                        f"{Fore.RED}` while downloading {Fore.CYAN}{mod_filename.name}{Fore.RED} ({type} asset): {e}{Fore.RESET}"
+                    )
+                    if error_callback:
+                        error_callback(
+                            f"The following HTTP error while downloading`{asset_version}` while downloading{mod_filename.name}"
+                            f"({type} asset): {e}"
+                        )
+                    return None
+
             if download_callback:
                 download_callback(str(mod_filename.name))
-            return mod_filename
-
-        headers = {"Accept": "application/octet-stream"}
-        if is_github:
-            headers |= {"Authorization": f"token {get_github_token()}"}
-
-        async with self.client.stream(
-            url=version.download_url, headers=headers, method="GET", follow_redirects=True
-        ) as r:
-            try:
-                r.raise_for_status()
-                with open(mod_filename, "wb") as f:
-                    async for chunk in r.aiter_bytes(chunk_size=8192):
-                        f.write(chunk)
-                log.info(f"{GREEN_CHECK} Download successful `{mod_filename}`")
-            except HTTPStatusError as e:
-                log.error(
-                    f"{RED_CROSS} {Fore.RED}The following HTTP error while downloading`{Fore.YELLOW}{asset_version}"
-                    f"{Fore.RED}` while downloading {Fore.CYAN}{asset.name}{Fore.RED} ({type} asset): {e}{Fore.RESET}"
-                )
-                if error_callback:
-                    error_callback(
-                        f"The following HTTP error while downloading`{asset_version}` while downloading{asset.name}"
-                        f"({type} asset): {e}"
-                    )
-                return None
-
-        if download_callback:
-            download_callback(str(mod_filename.name))
 
         return mod_filename
 
