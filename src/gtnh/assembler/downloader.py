@@ -6,7 +6,7 @@ from pathlib import Path
 from structlog import get_logger
 
 from gtnh.defs import CACHE_DIR
-from gtnh.models.gtnh_version import GTNHVersion, ExtraAsset
+from gtnh.models.gtnh_version import ExtraAsset, GTNHVersion
 from gtnh.models.versionable import Versionable
 
 log = get_logger(__name__)
@@ -32,13 +32,15 @@ def ensure_cache_dir(asset: Versionable | None = None) -> Path:
     return CACHE_DIR
 
 
-def get_asset_version_cache_location(asset: Versionable, version: GTNHVersion, extra_asset_suffix: str | None = None) -> Path:
+def get_asset_version_cache_location(
+    asset: Versionable, version: GTNHVersion, extra_asset_suffix: str | None = None
+) -> Path:
     cache_dir = ensure_cache_dir(asset)
 
     subasset: GTNHVersion | ExtraAsset = version
     if extra_asset_suffix is not None:
         for extra_asset in version.extra_assets:
-            if extra_asset.filename.endswith(extra_asset_suffix):
+            if extra_asset.filename is not None and extra_asset.filename.endswith(extra_asset_suffix):
                 subasset = extra_asset
                 break
         if subasset is version:

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from datetime import datetime
-from typing import Optional, List, Tuple
+from typing import List, Optional, Tuple
 
 from pydantic import Field
 from structlog import get_logger
@@ -68,11 +68,14 @@ def version_from_release(release: AttributeDict, type: VersionableType) -> GTNHV
         filename=asset.name,
         download_url=asset.url,
         browser_download_url=asset.browser_download_url,
-        extra_assets=[ExtraAsset(
-            filename=extra_asset.name,
-            download_url=extra_asset.url,
-            browser_download_url=extra_asset.browser_download_url,
-        ) for extra_asset in extra_assets],
+        extra_assets=[
+            ExtraAsset(
+                filename=extra_asset.name,
+                download_url=extra_asset.url,
+                browser_download_url=extra_asset.browser_download_url,
+            )
+            for extra_asset in extra_assets
+        ],
     )
 
 
@@ -104,14 +107,19 @@ def get_asset(release: AttributeDict, type: VersionableType) -> Tuple[AttributeD
                 continue
             if not asset_name.endswith(".jar") or any(
                 asset_name.endswith(s)
-                for s in ["dev.jar", "sources.jar", "api.jar", "api2.jar", "javadoc.jar", "processor.jar", "forgePatches.jar"]
+                for s in [
+                    "dev.jar",
+                    "sources.jar",
+                    "api.jar",
+                    "api2.jar",
+                    "javadoc.jar",
+                    "processor.jar",
+                    "forgePatches.jar",
+                ]
             ):
                 continue
         elif type == VersionableType.config:
             if not asset_name.endswith(".zip"):
-                continue
-        elif type == VersionableType.serverJar:
-            if not asset_name.endswith("-forgePatches.jar"):
                 continue
 
         found_main_asset = asset

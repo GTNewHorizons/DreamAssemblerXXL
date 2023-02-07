@@ -59,7 +59,7 @@ class MMCAssembler(GenericAssembler):
             archive_path: Path = self.mmc_modpack_mods / source_file.name
             archive.write(source_file, arcname=archive_path)
             for extra_asset in version.extra_assets:
-                if extra_asset.filename.endswith("multimc.zip"):
+                if extra_asset.filename is not None and extra_asset.filename.endswith("multimc.zip"):
                     extra_asset_path: Path = get_asset_version_cache_location(mod, version, extra_asset.filename)
                     with ZipFile(extra_asset_path, "r", compression=ZIP_DEFLATED) as mmc_patches_zip:
                         for item in mmc_patches_zip.namelist():

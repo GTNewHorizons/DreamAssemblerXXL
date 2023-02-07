@@ -61,9 +61,12 @@ class ZipAssembler(GenericAssembler):
             archive.write(source_file, arcname=archive_path)
             if side.is_server():
                 for extra_asset in version.extra_assets:
-                    if extra_asset.filename.endswith("forgePatches.jar"):
-                        extra_asset_path: Path = get_asset_version_cache_location(mod, version, extra_asset.filename)
-                        archive.write(extra_asset_path, arcname=f"{mod.name}-forgePatches.jar")
+                    if extra_asset.filename is not None:
+                        if extra_asset.filename.endswith("forgePatches.jar"):
+                            extra_asset_path: Path = get_asset_version_cache_location(
+                                mod, version, extra_asset.filename
+                            )
+                            archive.write(extra_asset_path, arcname=f"{mod.name}-forgePatches.jar")
             if self.task_progress_callback is not None:
                 self.task_progress_callback(
                     self.get_progress(), f"adding mod {mod.name} : version {version.version_tag} to the archive"
@@ -139,9 +142,19 @@ class ZipAssembler(GenericAssembler):
         folders: List[Path]
 
         while len(path_objects) > 0:
-            assets.extend([file for file in path_objects if file.is_file() and str(file.relative_to(assets_root)) not in self.exclusions[side]])
+            assets.extend(
+                [
+                    file
+                    for file in path_objects
+                    if file.is_file() and str(file.relative_to(assets_root)) not in self.exclusions[side]
+                ]
+            )
 
-            folders = [folder for folder in path_objects if folder.is_dir() and str(folder.relative_to(assets_root)) not in self.exclusions[side]]
+            folders = [
+                folder
+                for folder in path_objects
+                if folder.is_dir() and str(folder.relative_to(assets_root)) not in self.exclusions[side]
+            ]
             path_objects = []
             for folder in folders:
                 path_objects.extend([path for path in folder.iterdir()])
