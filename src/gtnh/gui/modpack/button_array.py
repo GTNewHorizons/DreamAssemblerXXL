@@ -188,12 +188,12 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         self.btn_server_zip.grid(row=1, column=1)
         self.btn_client_mmc.grid(row=1, column=2)
 
-        self.btn_update_nightly.grid(row=2, column=0)
-        self.btn_generate_all.grid(row=2, column=1)
-        self.btn_update_assets.grid(row=2, column=2)
+        self.btn_client_mmc_j9.grid(row=2, column=2)
+        self.btn_server_zip_j9.grid(row=2, column=1)
 
-        self.btn_client_mmc_j9.grid(row=3, column=0)
-        self.btn_server_zip_j9.grid(row=3, column=1)
+        self.btn_update_nightly.grid(row=3, column=0)
+        self.btn_generate_all.grid(row=3, column=1)
+        self.btn_update_assets.grid(row=3, column=2)
 
         self.update_idletasks()
 
