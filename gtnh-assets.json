@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.2.8",
+    "latest_version": "2.2.9",
     "versions": [
       {
         "version_tag": "2.1.2.3qf-test",
@@ -10,7 +10,8 @@
         "tagged_at": "2022-03-13T19:31:39+00:00",
         "filename": "2.1.2.3qf-test.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/59399229",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.3qf-test/2.1.2.3qf-test.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.3qf-test/2.1.2.3qf-test.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-6-zeta-dev",
@@ -19,7 +20,8 @@
         "tagged_at": "2022-06-10T09:29:55+00:00",
         "filename": "2.1.2.4-6-zeta-dev.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68088196",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-6-zeta-dev/2.1.2.4-6-zeta-dev.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-6-zeta-dev/2.1.2.4-6-zeta-dev.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-7-dev",
@@ -28,7 +30,8 @@
         "tagged_at": "2022-06-12T19:54:14+00:00",
         "filename": "2.1.2.4-7-dev.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68280382",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-7-dev/2.1.2.4-7-dev.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-7-dev/2.1.2.4-7-dev.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-8-dev",
@@ -37,7 +40,8 @@
         "tagged_at": "2022-06-12T20:54:38+00:00",
         "filename": "2.1.2.4-8-dev.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68283725",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-8-dev/2.1.2.4-8-dev.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-8-dev/2.1.2.4-8-dev.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-9-dev",
@@ -46,7 +50,8 @@
         "tagged_at": "2022-06-14T21:44:06+00:00",
         "filename": "2.1.2.4-9-dev.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68492443",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-9-dev/2.1.2.4-9-dev.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-9-dev/2.1.2.4-9-dev.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-10",
@@ -55,7 +60,8 @@
         "tagged_at": "2022-06-15T22:24:02+00:00",
         "filename": "2.1.2.4-10.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68606735",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-10/2.1.2.4-10.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-10/2.1.2.4-10.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-11-dev",
@@ -64,7 +70,8 @@
         "tagged_at": "2022-06-16T18:37:40+00:00",
         "filename": "2.1.2.4-11-dev.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/68698851",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-11-dev/2.1.2.4-11-dev.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-11-dev/2.1.2.4-11-dev.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-12-pre",
@@ -73,7 +80,8 @@
         "tagged_at": "2022-06-22T09:30:45+00:00",
         "filename": "2.1.2.4-12-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/69233541",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-12-pre/2.1.2.4-12-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-12-pre/2.1.2.4-12-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-13-pre",
@@ -82,7 +90,8 @@
         "tagged_at": "2022-06-24T13:59:21+00:00",
         "filename": "2.1.2.4-13-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/69507877",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-13-pre/2.1.2.4-13-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-13-pre/2.1.2.4-13-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-14-pre",
@@ -91,7 +100,8 @@
         "tagged_at": "2022-06-26T11:55:39+00:00",
         "filename": "2.1.2.4-14-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/69678300",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-14-pre/2.1.2.4-14-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-14-pre/2.1.2.4-14-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-15-pre",
@@ -100,7 +110,8 @@
         "tagged_at": "2022-07-05T15:02:22+00:00",
         "filename": "2.1.2.4-15-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70638192",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-15-pre/2.1.2.4-15-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-15-pre/2.1.2.4-15-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-16-pre",
@@ -109,7 +120,8 @@
         "tagged_at": "2022-07-05T16:05:03+00:00",
         "filename": "2.1.2.4-16-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70644281",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-16-pre/2.1.2.4-16-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-16-pre/2.1.2.4-16-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-17-pre",
@@ -118,7 +130,8 @@
         "tagged_at": "2022-07-06T12:51:23+00:00",
         "filename": "2.1.2.4-17-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70736026",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-17-pre/2.1.2.4-17-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-17-pre/2.1.2.4-17-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-18-pre",
@@ -127,7 +140,8 @@
         "tagged_at": "2022-07-08T10:11:46+00:00",
         "filename": "2.1.2.4-18-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/70956071",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-18-pre/2.1.2.4-18-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-18-pre/2.1.2.4-18-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-19-pre",
@@ -136,7 +150,8 @@
         "tagged_at": "2022-07-12T13:41:36+00:00",
         "filename": "2.1.2.4-19-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/71341083",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-19-pre/2.1.2.4-19-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-19-pre/2.1.2.4-19-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-20-pre",
@@ -145,7 +160,8 @@
         "tagged_at": "2022-07-13T14:55:55+00:00",
         "filename": "2.1.2.4-20-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/71463118",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-20-pre/2.1.2.4-20-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-20-pre/2.1.2.4-20-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-21-pre",
@@ -154,7 +170,8 @@
         "tagged_at": "2022-08-01T08:55:00+00:00",
         "filename": "2.1.2.4-21-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73316191",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-21-pre/2.1.2.4-21-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-21-pre/2.1.2.4-21-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-22-pre",
@@ -163,7 +180,8 @@
         "tagged_at": "2022-08-01T10:19:23+00:00",
         "filename": "2.1.2.4-22-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73323921",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-22-pre/2.1.2.4-22-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-22-pre/2.1.2.4-22-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-23-pre",
@@ -172,7 +190,8 @@
         "tagged_at": "2022-08-02T11:31:25+00:00",
         "filename": "2.1.2.4-23-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73442048",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-23-pre/2.1.2.4-23-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-23-pre/2.1.2.4-23-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-24-pre",
@@ -181,7 +200,8 @@
         "tagged_at": "2022-08-03T01:40:44+00:00",
         "filename": "2.1.2.4-24-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73510337",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-24-pre/2.1.2.4-24-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-24-pre/2.1.2.4-24-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-25-pre",
@@ -190,7 +210,8 @@
         "tagged_at": "2022-08-03T09:24:59+00:00",
         "filename": "2.1.2.4-25-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/73544160",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-25-pre/2.1.2.4-25-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-25-pre/2.1.2.4-25-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-26-pre",
@@ -199,7 +220,8 @@
         "tagged_at": "2022-08-14T14:06:43+00:00",
         "filename": "2.1.2.4-26-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/74683655",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-26-pre/2.1.2.4-26-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-26-pre/2.1.2.4-26-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-27-pre",
@@ -208,7 +230,8 @@
         "tagged_at": "2022-08-16T19:31:57+00:00",
         "filename": "2.1.2.4-27-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/74909241",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-27-pre/2.1.2.4-27-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-27-pre/2.1.2.4-27-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-28-pre",
@@ -217,7 +240,8 @@
         "tagged_at": "2022-08-17T09:35:21+00:00",
         "filename": "2.1.2.4-28-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/74969236",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-28-pre/2.1.2.4-28-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-28-pre/2.1.2.4-28-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.1.2.4-29-pre",
@@ -226,7 +250,8 @@
         "tagged_at": "2022-08-28T13:50:59+00:00",
         "filename": "2.1.2.4-29-pre.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/76105656",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-29-pre/2.1.2.4-29-pre.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.1.2.4-29-pre/2.1.2.4-29-pre.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.2.0.0-RC-1",
@@ -235,7 +260,8 @@
         "tagged_at": "2022-09-06T17:38:04+00:00",
         "filename": "2.2.0.0-RC-1.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/77045842",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0-RC-1/2.2.0.0-RC-1.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0-RC-1/2.2.0.0-RC-1.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.2.0.0-RC-2",
@@ -244,7 +270,8 @@
         "tagged_at": "2022-09-10T14:06:49+00:00",
         "filename": "2.2.0.0-RC-2.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/77448203",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0-RC-2/2.2.0.0-RC-2.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0-RC-2/2.2.0.0-RC-2.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.2.0.0-RC-3",
@@ -253,7 +280,8 @@
         "tagged_at": "2022-09-18T09:34:49+00:00",
         "filename": "2.2.0.0-RC-3.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/78234075",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0-RC-3/2.2.0.0-RC-3.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0-RC-3/2.2.0.0-RC-3.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.2.0.0-RC-4",
@@ -262,7 +290,8 @@
         "tagged_at": "2022-09-24T10:28:46+00:00",
         "filename": "2.2.0.0-RC-4.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/78870238",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0-RC-4/2.2.0.0-RC-4.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0-RC-4/2.2.0.0-RC-4.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.2.0.0",
@@ -271,7 +300,8 @@
         "tagged_at": "2022-09-27T14:03:52+00:00",
         "filename": "2.2.0.0.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/79179822",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0/2.2.0.0.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.0/2.2.0.0.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.2.0.1",
@@ -280,7 +310,8 @@
         "tagged_at": "2022-10-03T10:57:51+00:00",
         "filename": "2.2.0.1.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/79802269",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.1/2.2.0.1.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.0.1/2.2.0.1.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.2.1",
@@ -289,7 +320,8 @@
         "tagged_at": "2022-10-05T17:39:39+00:00",
         "filename": "2.2.1.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80064643",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.1/2.2.1.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.1/2.2.1.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.2.2",
@@ -298,7 +330,8 @@
         "tagged_at": "2022-10-06T09:06:44+00:00",
         "filename": "2.2.2.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80130363",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.2/2.2.2.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.2/2.2.2.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.2.3",
@@ -307,7 +340,8 @@
         "tagged_at": "2022-10-07T21:10:06+00:00",
         "filename": "2.2.3.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80312736",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.3/2.2.3.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.3/2.2.3.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.2.4",
@@ -316,7 +350,8 @@
         "tagged_at": "2022-10-09T11:22:11+00:00",
         "filename": "2.2.4.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80448153",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.4/2.2.4.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.4/2.2.4.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.2.5",
@@ -325,7 +360,8 @@
         "tagged_at": "2022-10-13T07:57:49+00:00",
         "filename": "2.2.5.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/80863550",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.5/2.2.5.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.5/2.2.5.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.2.6",
@@ -334,7 +370,8 @@
         "tagged_at": "2022-12-10T12:33:18+00:00",
         "filename": "2.2.6.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/87698080",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.6/2.2.6.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.6/2.2.6.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.2.7",
@@ -343,7 +380,8 @@
         "tagged_at": "2022-12-11T18:53:04+00:00",
         "filename": "2.2.7.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/87815867",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.7/2.2.7.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.7/2.2.7.zip",
+        "extra_assets": []
       },
       {
         "version_tag": "2.2.8",
@@ -352,7 +390,18 @@
         "tagged_at": "2022-12-24T00:03:09+00:00",
         "filename": "2.2.8.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/89321974",
-        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.8/2.2.8.zip"
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.8/2.2.8.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.2.9",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2023-02-12T17:58:29+00:00",
+        "filename": "2.2.9.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/95354576",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.9/2.2.9.zip",
+        "extra_assets": []
       }
     ],
     "type": "config",
