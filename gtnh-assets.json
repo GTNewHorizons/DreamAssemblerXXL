@@ -397,9 +397,9 @@
         "version_tag": "2.2.9",
         "changelog": "",
         "prerelease": false,
-        "tagged_at": "2023-02-12T17:58:29+00:00",
+        "tagged_at": "2023-02-12T18:50:20+00:00",
         "filename": "2.2.9.zip",
-        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/95354576",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/95359249",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.9/2.2.9.zip",
         "extra_assets": []
       }
@@ -15308,6 +15308,7 @@
           "filename": "gregtech-5.09.41.275.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/95350494",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.275/gregtech-5.09.41.275.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.275/GT5-Unofficial-5.09.41.275.jar",
           "extra_assets": []
         }
       ],
@@ -29951,6 +29952,7 @@
           "filename": "TecTech-5.0.95.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/95354119",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.95/TecTech-5.0.95.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.0.95/TecTech-5.0.95.jar",
           "extra_assets": []
         }
       ],
