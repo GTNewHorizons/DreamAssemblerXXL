@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.8",
-  "last_updated": "2023-02-12T15:49:27.905522",
+  "last_updated": "2023-02-12T16:59:02.216345",
   "config": "2.2.8",
   "github_mods": {
     "AdventureBackpack2": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.41.274",
+      "version": "5.09.41.275",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -441,7 +441,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "1.9.156",
+      "version": "1.9.157",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {

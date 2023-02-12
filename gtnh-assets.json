@@ -11478,7 +11478,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.41.274",
+      "latest_version": "5.09.41.275",
       "private": false,
       "versions": [
         {
@@ -15249,7 +15249,16 @@
           "filename": "gregtech-5.09.41.274.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/95341428",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.274/gregtech-5.09.41.274.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.274/GT5-Unofficial-5.09.41.274.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.41.275",
+          "changelog": "## What's Changed\n* Fix ore dict with space dusts by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1731\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.274...5.09.41.275\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-12T16:57:36+00:00",
+          "filename": "gregtech-5.09.41.275.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/95350494",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.275/gregtech-5.09.41.275.jar",
           "extra_assets": []
         }
       ],
@@ -22879,7 +22888,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "1.9.156",
+      "latest_version": "1.9.157",
       "private": false,
       "versions": [
         {
@@ -22889,7 +22898,8 @@
           "tagged_at": "2021-12-21T08:32:02+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/52260760",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.11/GTNewHorizonsCoreMod-1.7.10-1.9.11.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.11/GTNewHorizonsCoreMod-1.7.10-1.9.11.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.12",
@@ -22898,7 +22908,8 @@
           "tagged_at": "2022-01-09T14:13:27+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.12.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/53547354",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.12/GTNewHorizonsCoreMod-1.7.10-1.9.12.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.12/GTNewHorizonsCoreMod-1.7.10-1.9.12.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.13",
@@ -22907,7 +22918,8 @@
           "tagged_at": "2022-01-16T14:34:30+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.13.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/54117479",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.13/GTNewHorizonsCoreMod-1.7.10-1.9.13.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.13/GTNewHorizonsCoreMod-1.7.10-1.9.13.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.14",
@@ -22916,7 +22928,8 @@
           "tagged_at": "2022-01-21T20:41:39+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.14.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/54608961",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.14/GTNewHorizonsCoreMod-1.7.10-1.9.14.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.14/GTNewHorizonsCoreMod-1.7.10-1.9.14.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.15",
@@ -22925,7 +22938,8 @@
           "tagged_at": "2022-01-24T20:30:23+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.15.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/54845387",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.15/GTNewHorizonsCoreMod-1.7.10-1.9.15.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.15/GTNewHorizonsCoreMod-1.7.10-1.9.15.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.16",
@@ -22934,7 +22948,8 @@
           "tagged_at": "2022-01-24T20:30:11+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.16.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/54845352",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.16/GTNewHorizonsCoreMod-1.7.10-1.9.16.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.16/GTNewHorizonsCoreMod-1.7.10-1.9.16.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.17",
@@ -22943,7 +22958,8 @@
           "tagged_at": "2022-01-28T21:09:00+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.17.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/55239065",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.17/GTNewHorizonsCoreMod-1.7.10-1.9.17.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.17/GTNewHorizonsCoreMod-1.7.10-1.9.17.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.18",
@@ -22952,7 +22968,8 @@
           "tagged_at": "2022-01-28T22:41:58+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.18.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/55245552",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.18/GTNewHorizonsCoreMod-1.7.10-1.9.18.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.18/GTNewHorizonsCoreMod-1.7.10-1.9.18.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.19",
@@ -22961,7 +22978,8 @@
           "tagged_at": "2022-01-30T12:20:06+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.19.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/55349545",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.19/GTNewHorizonsCoreMod-1.7.10-1.9.19.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.19/GTNewHorizonsCoreMod-1.7.10-1.9.19.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.20",
@@ -22970,7 +22988,8 @@
           "tagged_at": "2022-02-05T12:57:44+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.20.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/55927614",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.20/GTNewHorizonsCoreMod-1.7.10-1.9.20.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.20/GTNewHorizonsCoreMod-1.7.10-1.9.20.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.21",
@@ -22979,7 +22998,8 @@
           "tagged_at": "2022-03-02T22:21:55+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.21.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/58382233",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.21/GTNewHorizonsCoreMod-1.7.10-1.9.21.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.21/GTNewHorizonsCoreMod-1.7.10-1.9.21.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.23",
@@ -22988,7 +23008,8 @@
           "tagged_at": "2022-04-11T17:30:04+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.23.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/62243376",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.23/GTNewHorizonsCoreMod-1.7.10-1.9.23.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.23/GTNewHorizonsCoreMod-1.7.10-1.9.23.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.24",
@@ -22997,7 +23018,8 @@
           "tagged_at": "2022-04-11T19:57:25+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.24.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/62255433",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.24/GTNewHorizonsCoreMod-1.7.10-1.9.24.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.24/GTNewHorizonsCoreMod-1.7.10-1.9.24.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.25-dev",
@@ -23006,7 +23028,8 @@
           "tagged_at": "2022-06-09T20:54:55+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.25-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/68040966",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.25-dev/GTNewHorizonsCoreMod-1.7.10-1.9.25-dev.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.25-dev/GTNewHorizonsCoreMod-1.7.10-1.9.25-dev.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.25-pre",
@@ -23015,7 +23038,8 @@
           "tagged_at": "2022-06-09T20:55:15+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.25-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/68040998",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.25-pre/GTNewHorizonsCoreMod-1.7.10-1.9.25-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.25-pre/GTNewHorizonsCoreMod-1.7.10-1.9.25-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.26-dev",
@@ -23024,7 +23048,8 @@
           "tagged_at": "2022-06-12T17:54:35+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.26-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/68274413",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.26-dev/GTNewHorizonsCoreMod-1.7.10-1.9.26-dev.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.26-dev/GTNewHorizonsCoreMod-1.7.10-1.9.26-dev.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.28-dev",
@@ -23033,7 +23058,8 @@
           "tagged_at": "2022-06-16T18:27:46+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.28-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/68698140",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.28-dev/GTNewHorizonsCoreMod-1.7.10-1.9.28-dev.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.28-dev/GTNewHorizonsCoreMod-1.7.10-1.9.28-dev.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.29",
@@ -23042,7 +23068,8 @@
           "tagged_at": "2022-06-24T18:27:43+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.29.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/69532264",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.29/GTNewHorizonsCoreMod-1.7.10-1.9.29.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.29/GTNewHorizonsCoreMod-1.7.10-1.9.29.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.30-pre",
@@ -23051,7 +23078,8 @@
           "tagged_at": "2022-06-25T18:03:58+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.30-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/69615842",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.30-pre/GTNewHorizonsCoreMod-1.7.10-1.9.30-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.30-pre/GTNewHorizonsCoreMod-1.7.10-1.9.30-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.31-pre",
@@ -23060,7 +23088,8 @@
           "tagged_at": "2022-06-26T11:29:54+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.31-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/69676905",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.31-pre/GTNewHorizonsCoreMod-1.7.10-1.9.31-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.31-pre/GTNewHorizonsCoreMod-1.7.10-1.9.31-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.32-pre",
@@ -23069,7 +23098,8 @@
           "tagged_at": "2022-07-05T09:15:32+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.32-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/70601957",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.32-pre/GTNewHorizonsCoreMod-1.7.10-1.9.32-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.32-pre/GTNewHorizonsCoreMod-1.7.10-1.9.32-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.33-pre",
@@ -23078,7 +23108,8 @@
           "tagged_at": "2022-07-05T15:01:52+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.33-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/70638150",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.33-pre/GTNewHorizonsCoreMod-1.7.10-1.9.33-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.33-pre/GTNewHorizonsCoreMod-1.7.10-1.9.33-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.34",
@@ -23087,7 +23118,8 @@
           "tagged_at": "2022-07-06T12:59:28+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.34.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/70736653",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.34/GTNewHorizonsCoreMod-1.7.10-1.9.34.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.34/GTNewHorizonsCoreMod-1.7.10-1.9.34.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.35",
@@ -23096,7 +23128,8 @@
           "tagged_at": "2022-07-12T13:40:29+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.35.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/71340924",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.35/GTNewHorizonsCoreMod-1.7.10-1.9.35.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.35/GTNewHorizonsCoreMod-1.7.10-1.9.35.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.36",
@@ -23105,7 +23138,8 @@
           "tagged_at": "2022-07-13T09:44:03+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.36.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/71435401",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.36/GTNewHorizonsCoreMod-1.7.10-1.9.36.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.36/GTNewHorizonsCoreMod-1.7.10-1.9.36.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.37",
@@ -23114,7 +23148,8 @@
           "tagged_at": "2022-07-14T13:11:10+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.37.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/71564789",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.37/GTNewHorizonsCoreMod-1.7.10-1.9.37.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.37/GTNewHorizonsCoreMod-1.7.10-1.9.37.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.38",
@@ -23123,7 +23158,8 @@
           "tagged_at": "2022-07-31T14:19:05+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.38.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/73246512",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.38/GTNewHorizonsCoreMod-1.7.10-1.9.38.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.38/GTNewHorizonsCoreMod-1.7.10-1.9.38.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.39",
@@ -23132,7 +23168,8 @@
           "tagged_at": "2022-08-02T11:28:10+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.39.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/73441663",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.39/GTNewHorizonsCoreMod-1.7.10-1.9.39.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.39/GTNewHorizonsCoreMod-1.7.10-1.9.39.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.40",
@@ -23141,7 +23178,8 @@
           "tagged_at": "2022-08-14T08:18:56+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.40.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/74664081",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.40/GTNewHorizonsCoreMod-1.7.10-1.9.40.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.40/GTNewHorizonsCoreMod-1.7.10-1.9.40.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.41-pre",
@@ -23150,7 +23188,8 @@
           "tagged_at": "2022-08-15T14:21:26+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.41-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/74776772",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.41-pre/GTNewHorizonsCoreMod-1.7.10-1.9.41-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.41-pre/GTNewHorizonsCoreMod-1.7.10-1.9.41-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.42-pre",
@@ -23159,7 +23198,8 @@
           "tagged_at": "2022-08-16T15:50:19+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.42-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/74890382",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.42-pre/GTNewHorizonsCoreMod-1.7.10-1.9.42-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.42-pre/GTNewHorizonsCoreMod-1.7.10-1.9.42-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.43-pre",
@@ -23168,7 +23208,8 @@
           "tagged_at": "2022-08-16T18:45:50+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.43-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/74905566",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.43-pre/GTNewHorizonsCoreMod-1.7.10-1.9.43-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.43-pre/GTNewHorizonsCoreMod-1.7.10-1.9.43-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.44",
@@ -23177,7 +23218,18 @@
           "tagged_at": "2022-08-16T19:07:57+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.44.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/74907300",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.44/GTNewHorizonsCoreMod-1.7.10-1.9.44.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.44/GTNewHorizonsCoreMod-1.7.10-1.9.44.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.45-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.144-pre...1.9.45-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-30T07:34:38+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.45-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/93563109",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.45-pre/GTNewHorizonsCoreMod-1.7.10-1.9.45-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.45",
@@ -23186,7 +23238,8 @@
           "tagged_at": "2022-08-17T08:29:35+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.45.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/74963971",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.45/GTNewHorizonsCoreMod-1.7.10-1.9.45.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.45/GTNewHorizonsCoreMod-1.7.10-1.9.45.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.46",
@@ -23195,7 +23248,8 @@
           "tagged_at": "2022-08-18T08:22:38+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.46.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75082416",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.46/GTNewHorizonsCoreMod-1.7.10-1.9.46.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.46/GTNewHorizonsCoreMod-1.7.10-1.9.46.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.47",
@@ -23204,7 +23258,8 @@
           "tagged_at": "2022-08-18T12:36:22+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.47.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75104837",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.47/GTNewHorizonsCoreMod-1.7.10-1.9.47.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.47/GTNewHorizonsCoreMod-1.7.10-1.9.47.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.48",
@@ -23213,7 +23268,8 @@
           "tagged_at": "2022-08-19T11:33:52+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.48.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75210272",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.48/GTNewHorizonsCoreMod-1.7.10-1.9.48.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.48/GTNewHorizonsCoreMod-1.7.10-1.9.48.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.49",
@@ -23222,7 +23278,8 @@
           "tagged_at": "2022-08-19T13:46:00+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.49.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75220576",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.49/GTNewHorizonsCoreMod-1.7.10-1.9.49.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.49/GTNewHorizonsCoreMod-1.7.10-1.9.49.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.50",
@@ -23231,7 +23288,8 @@
           "tagged_at": "2022-08-20T08:09:18+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.50.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75294124",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.50/GTNewHorizonsCoreMod-1.7.10-1.9.50.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.50/GTNewHorizonsCoreMod-1.7.10-1.9.50.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.51",
@@ -23240,7 +23298,8 @@
           "tagged_at": "2022-08-20T20:03:50+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.51.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75330689",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.51/GTNewHorizonsCoreMod-1.7.10-1.9.51.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.51/GTNewHorizonsCoreMod-1.7.10-1.9.51.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.52",
@@ -23249,7 +23308,8 @@
           "tagged_at": "2022-08-20T21:38:26+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.52.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75335530",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.52/GTNewHorizonsCoreMod-1.7.10-1.9.52.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.52/GTNewHorizonsCoreMod-1.7.10-1.9.52.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.53",
@@ -23258,7 +23318,8 @@
           "tagged_at": "2022-08-23T07:08:23+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.53.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75562004",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.53/GTNewHorizonsCoreMod-1.7.10-1.9.53.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.53/GTNewHorizonsCoreMod-1.7.10-1.9.53.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.55",
@@ -23267,7 +23328,8 @@
           "tagged_at": "2022-08-23T12:06:16+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.55.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75587729",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.55/GTNewHorizonsCoreMod-1.7.10-1.9.55.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.55/GTNewHorizonsCoreMod-1.7.10-1.9.55.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.56-pre",
@@ -23276,7 +23338,8 @@
           "tagged_at": "2022-08-25T12:22:09+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.56-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75818163",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.56-pre/GTNewHorizonsCoreMod-1.7.10-1.9.56-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.56-pre/GTNewHorizonsCoreMod-1.7.10-1.9.56-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.57-pre",
@@ -23285,7 +23348,8 @@
           "tagged_at": "2022-08-25T13:21:27+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.57-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75823654",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.57-pre/GTNewHorizonsCoreMod-1.7.10-1.9.57-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.57-pre/GTNewHorizonsCoreMod-1.7.10-1.9.57-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.58-pre",
@@ -23294,7 +23358,8 @@
           "tagged_at": "2022-08-26T09:14:09+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.58-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/75913082",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.58-pre/GTNewHorizonsCoreMod-1.7.10-1.9.58-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.58-pre/GTNewHorizonsCoreMod-1.7.10-1.9.58-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.59",
@@ -23303,7 +23368,8 @@
           "tagged_at": "2022-08-27T08:29:33+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.59.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76008976",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.59/GTNewHorizonsCoreMod-1.7.10-1.9.59.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.59/GTNewHorizonsCoreMod-1.7.10-1.9.59.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.60",
@@ -23312,7 +23378,8 @@
           "tagged_at": "2022-08-27T23:23:12+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.60.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76059485",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.60/GTNewHorizonsCoreMod-1.7.10-1.9.60.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.60/GTNewHorizonsCoreMod-1.7.10-1.9.60.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.61",
@@ -23321,7 +23388,8 @@
           "tagged_at": "2022-08-30T10:30:28+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.61.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76291171",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.61/GTNewHorizonsCoreMod-1.7.10-1.9.61.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.61/GTNewHorizonsCoreMod-1.7.10-1.9.61.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.62-pre",
@@ -23330,7 +23398,8 @@
           "tagged_at": "2022-08-30T19:57:17+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.62-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76343222",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.62-pre/GTNewHorizonsCoreMod-1.7.10-1.9.62-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.62-pre/GTNewHorizonsCoreMod-1.7.10-1.9.62-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.63-pre",
@@ -23339,7 +23408,8 @@
           "tagged_at": "2022-08-30T21:13:26+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.63-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76349282",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.63-pre/GTNewHorizonsCoreMod-1.7.10-1.9.63-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.63-pre/GTNewHorizonsCoreMod-1.7.10-1.9.63-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.64-pre",
@@ -23348,7 +23418,8 @@
           "tagged_at": "2022-08-31T13:34:10+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.64-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76428719",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.64-pre/GTNewHorizonsCoreMod-1.7.10-1.9.64-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.64-pre/GTNewHorizonsCoreMod-1.7.10-1.9.64-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.65",
@@ -23357,7 +23428,8 @@
           "tagged_at": "2022-09-01T10:58:13+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.65.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76539378",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.65/GTNewHorizonsCoreMod-1.7.10-1.9.65.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.65/GTNewHorizonsCoreMod-1.7.10-1.9.65.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.66",
@@ -23366,7 +23438,8 @@
           "tagged_at": "2022-09-02T11:57:25+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.66.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76667884",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.66/GTNewHorizonsCoreMod-1.7.10-1.9.66.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.66/GTNewHorizonsCoreMod-1.7.10-1.9.66.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.67",
@@ -23375,7 +23448,8 @@
           "tagged_at": "2022-09-03T09:21:31+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.67.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76747684",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.67/GTNewHorizonsCoreMod-1.7.10-1.9.67.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.67/GTNewHorizonsCoreMod-1.7.10-1.9.67.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.68-pre",
@@ -23384,7 +23458,8 @@
           "tagged_at": "2022-09-03T16:26:00+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.68-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76770634",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.68-pre/GTNewHorizonsCoreMod-1.7.10-1.9.68-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.68-pre/GTNewHorizonsCoreMod-1.7.10-1.9.68-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.69",
@@ -23393,7 +23468,8 @@
           "tagged_at": "2022-09-04T15:53:44+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.69.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/76843467",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.69/GTNewHorizonsCoreMod-1.7.10-1.9.69.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.69/GTNewHorizonsCoreMod-1.7.10-1.9.69.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.70",
@@ -23402,7 +23478,8 @@
           "tagged_at": "2022-09-09T11:37:29+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.70.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/77350272",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.70/GTNewHorizonsCoreMod-1.7.10-1.9.70.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.70/GTNewHorizonsCoreMod-1.7.10-1.9.70.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.71",
@@ -23411,7 +23488,8 @@
           "tagged_at": "2022-09-10T13:31:01+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.71.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/77446368",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.71/GTNewHorizonsCoreMod-1.7.10-1.9.71.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.71/GTNewHorizonsCoreMod-1.7.10-1.9.71.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.72",
@@ -23420,7 +23498,8 @@
           "tagged_at": "2022-09-12T15:54:05+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.72.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/77631430",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.72/GTNewHorizonsCoreMod-1.7.10-1.9.72.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.72/GTNewHorizonsCoreMod-1.7.10-1.9.72.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.73",
@@ -23429,7 +23508,8 @@
           "tagged_at": "2022-09-13T17:13:33+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.73.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/77753005",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.73/GTNewHorizonsCoreMod-1.7.10-1.9.73.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.73/GTNewHorizonsCoreMod-1.7.10-1.9.73.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.74",
@@ -23438,7 +23518,8 @@
           "tagged_at": "2022-09-14T06:17:46+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.74.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/77810229",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.74/GTNewHorizonsCoreMod-1.7.10-1.9.74.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.74/GTNewHorizonsCoreMod-1.7.10-1.9.74.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.75",
@@ -23447,7 +23528,8 @@
           "tagged_at": "2022-09-14T20:01:08+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.75.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/77888332",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.75/GTNewHorizonsCoreMod-1.7.10-1.9.75.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.75/GTNewHorizonsCoreMod-1.7.10-1.9.75.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.76",
@@ -23456,7 +23538,8 @@
           "tagged_at": "2022-09-15T16:01:51+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.76.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/77981723",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.76/GTNewHorizonsCoreMod-1.7.10-1.9.76.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.76/GTNewHorizonsCoreMod-1.7.10-1.9.76.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.77",
@@ -23465,7 +23548,8 @@
           "tagged_at": "2022-09-15T20:25:09+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.77.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/78004638",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.77/GTNewHorizonsCoreMod-1.7.10-1.9.77.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.77/GTNewHorizonsCoreMod-1.7.10-1.9.77.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.78",
@@ -23474,7 +23558,8 @@
           "tagged_at": "2022-09-20T18:36:13+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.78.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/78482598",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.78/GTNewHorizonsCoreMod-1.7.10-1.9.78.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.78/GTNewHorizonsCoreMod-1.7.10-1.9.78.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.79",
@@ -23483,7 +23568,8 @@
           "tagged_at": "2022-09-22T10:43:37+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.79.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/78663887",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.79/GTNewHorizonsCoreMod-1.7.10-1.9.79.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.79/GTNewHorizonsCoreMod-1.7.10-1.9.79.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.80",
@@ -23492,7 +23578,8 @@
           "tagged_at": "2022-09-27T05:45:19+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.80.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/79133681",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.80/GTNewHorizonsCoreMod-1.7.10-1.9.80.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.80/GTNewHorizonsCoreMod-1.7.10-1.9.80.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.81",
@@ -23501,7 +23588,8 @@
           "tagged_at": "2022-10-04T10:13:04+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.81.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/79904004",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.81/GTNewHorizonsCoreMod-1.7.10-1.9.81.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.81/GTNewHorizonsCoreMod-1.7.10-1.9.81.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.82",
@@ -23510,7 +23598,8 @@
           "tagged_at": "2022-10-05T16:09:50+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.82.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80057602",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.82/GTNewHorizonsCoreMod-1.7.10-1.9.82.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.82/GTNewHorizonsCoreMod-1.7.10-1.9.82.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.83",
@@ -23519,7 +23608,8 @@
           "tagged_at": "2022-10-07T21:02:59+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.83.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80311676",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.83/GTNewHorizonsCoreMod-1.7.10-1.9.83.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.83/GTNewHorizonsCoreMod-1.7.10-1.9.83.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.84",
@@ -23528,7 +23618,8 @@
           "tagged_at": "2022-10-08T15:01:13+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.84.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80376873",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.84/GTNewHorizonsCoreMod-1.7.10-1.9.84.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.84/GTNewHorizonsCoreMod-1.7.10-1.9.84.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.85",
@@ -23537,7 +23628,8 @@
           "tagged_at": "2022-10-08T20:08:18+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.85.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80396407",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.85/GTNewHorizonsCoreMod-1.7.10-1.9.85.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.85/GTNewHorizonsCoreMod-1.7.10-1.9.85.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.86",
@@ -23546,7 +23638,8 @@
           "tagged_at": "2022-10-09T10:55:04+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.86.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80446772",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.86/GTNewHorizonsCoreMod-1.7.10-1.9.86.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.86/GTNewHorizonsCoreMod-1.7.10-1.9.86.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.87",
@@ -23555,7 +23648,8 @@
           "tagged_at": "2022-10-09T11:17:45+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.87.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80448055",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.87/GTNewHorizonsCoreMod-1.7.10-1.9.87.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.87/GTNewHorizonsCoreMod-1.7.10-1.9.87.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.88",
@@ -23564,7 +23658,8 @@
           "tagged_at": "2022-10-09T13:03:35+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.88.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80453860",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.88/GTNewHorizonsCoreMod-1.7.10-1.9.88.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.88/GTNewHorizonsCoreMod-1.7.10-1.9.88.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.89",
@@ -23573,7 +23668,8 @@
           "tagged_at": "2022-10-12T17:06:26+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.89.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/80790485",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.89/GTNewHorizonsCoreMod-1.7.10-1.9.89.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.89/GTNewHorizonsCoreMod-1.7.10-1.9.89.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.90",
@@ -23582,7 +23678,8 @@
           "tagged_at": "2022-10-14T15:06:35+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.90.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/81024459",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.90/GTNewHorizonsCoreMod-1.7.10-1.9.90.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.90/GTNewHorizonsCoreMod-1.7.10-1.9.90.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.91",
@@ -23591,7 +23688,8 @@
           "tagged_at": "2022-10-15T09:10:46+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.91.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/81098303",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.91/GTNewHorizonsCoreMod-1.7.10-1.9.91.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.91/GTNewHorizonsCoreMod-1.7.10-1.9.91.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.92",
@@ -23600,7 +23698,8 @@
           "tagged_at": "2022-10-16T12:49:56+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.92.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/81196769",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.92/GTNewHorizonsCoreMod-1.7.10-1.9.92.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.92/GTNewHorizonsCoreMod-1.7.10-1.9.92.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.94",
@@ -23609,7 +23708,8 @@
           "tagged_at": "2022-10-20T16:44:56+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.94.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/81697413",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.94/GTNewHorizonsCoreMod-1.7.10-1.9.94.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.94/GTNewHorizonsCoreMod-1.7.10-1.9.94.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.95-pre",
@@ -23618,7 +23718,8 @@
           "tagged_at": "2022-10-22T09:51:56+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.95-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/81894456",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.95-pre/GTNewHorizonsCoreMod-1.7.10-1.9.95-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.95-pre/GTNewHorizonsCoreMod-1.7.10-1.9.95-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.96-pre",
@@ -23627,7 +23728,8 @@
           "tagged_at": "2022-10-22T15:32:59+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.96-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/81913109",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.96-pre/GTNewHorizonsCoreMod-1.7.10-1.9.96-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.96-pre/GTNewHorizonsCoreMod-1.7.10-1.9.96-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.97",
@@ -23636,7 +23738,8 @@
           "tagged_at": "2022-10-23T20:06:58+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.97.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/82014801",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.97/GTNewHorizonsCoreMod-1.7.10-1.9.97.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.97/GTNewHorizonsCoreMod-1.7.10-1.9.97.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.98-pre",
@@ -23645,7 +23748,8 @@
           "tagged_at": "2022-10-26T18:36:39+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.98-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/82365308",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.98-pre/GTNewHorizonsCoreMod-1.7.10-1.9.98-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.98-pre/GTNewHorizonsCoreMod-1.7.10-1.9.98-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.99-pre",
@@ -23654,7 +23758,8 @@
           "tagged_at": "2022-10-26T20:36:10+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.99-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/82376025",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.99-pre/GTNewHorizonsCoreMod-1.7.10-1.9.99-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.99-pre/GTNewHorizonsCoreMod-1.7.10-1.9.99-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.100-pre",
@@ -23663,7 +23768,8 @@
           "tagged_at": "2022-10-27T06:46:43+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.100-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/82422725",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.100-pre/GTNewHorizonsCoreMod-1.7.10-1.9.100-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.100-pre/GTNewHorizonsCoreMod-1.7.10-1.9.100-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.101",
@@ -23672,7 +23778,8 @@
           "tagged_at": "2022-10-27T17:13:39+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.101.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/82483385",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.101/GTNewHorizonsCoreMod-1.7.10-1.9.101.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.101/GTNewHorizonsCoreMod-1.7.10-1.9.101.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.102-pre",
@@ -23681,7 +23788,8 @@
           "tagged_at": "2022-11-06T17:23:57+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.102-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/83653965",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.102-pre/GTNewHorizonsCoreMod-1.7.10-1.9.102-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.102-pre/GTNewHorizonsCoreMod-1.7.10-1.9.102-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.103",
@@ -23690,7 +23798,8 @@
           "tagged_at": "2022-11-08T09:46:42+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.103.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/83854362",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.103/GTNewHorizonsCoreMod-1.7.10-1.9.103.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.103/GTNewHorizonsCoreMod-1.7.10-1.9.103.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.104",
@@ -23699,7 +23808,8 @@
           "tagged_at": "2022-11-13T10:03:56+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.104.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/84441772",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.104/GTNewHorizonsCoreMod-1.7.10-1.9.104.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.104/GTNewHorizonsCoreMod-1.7.10-1.9.104.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.105-pre",
@@ -23708,7 +23818,8 @@
           "tagged_at": "2022-11-24T12:27:05+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.105-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/85819018",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.105-pre/GTNewHorizonsCoreMod-1.7.10-1.9.105-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.105-pre/GTNewHorizonsCoreMod-1.7.10-1.9.105-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.106",
@@ -23717,7 +23828,8 @@
           "tagged_at": "2022-11-24T19:38:57+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.106.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/85858893",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.106/GTNewHorizonsCoreMod-1.7.10-1.9.106.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.106/GTNewHorizonsCoreMod-1.7.10-1.9.106.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.107",
@@ -23726,7 +23838,8 @@
           "tagged_at": "2022-11-26T21:32:52+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.107.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/86068768",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.107/GTNewHorizonsCoreMod-1.7.10-1.9.107.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.107/GTNewHorizonsCoreMod-1.7.10-1.9.107.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.108",
@@ -23735,7 +23848,8 @@
           "tagged_at": "2022-11-28T19:23:44+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.108.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/86265674",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.108/GTNewHorizonsCoreMod-1.7.10-1.9.108.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.108/GTNewHorizonsCoreMod-1.7.10-1.9.108.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.109",
@@ -23744,7 +23858,8 @@
           "tagged_at": "2022-11-29T10:20:55+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.109.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/86341425",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.109/GTNewHorizonsCoreMod-1.7.10-1.9.109.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.109/GTNewHorizonsCoreMod-1.7.10-1.9.109.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.110",
@@ -23753,7 +23868,8 @@
           "tagged_at": "2022-11-30T16:58:09+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.110.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/86522793",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.110/GTNewHorizonsCoreMod-1.7.10-1.9.110.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.110/GTNewHorizonsCoreMod-1.7.10-1.9.110.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.111",
@@ -23762,7 +23878,8 @@
           "tagged_at": "2022-12-04T11:21:14+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.111.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/86950875",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.111/GTNewHorizonsCoreMod-1.7.10-1.9.111.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.111/GTNewHorizonsCoreMod-1.7.10-1.9.111.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.112",
@@ -23771,7 +23888,8 @@
           "tagged_at": "2022-12-11T18:50:44+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.112.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/87815673",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.112/GTNewHorizonsCoreMod-1.7.10-1.9.112.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.112/GTNewHorizonsCoreMod-1.7.10-1.9.112.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.113",
@@ -23780,7 +23898,8 @@
           "tagged_at": "2022-12-14T21:52:50+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.113.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/88231189",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.113/GTNewHorizonsCoreMod-1.7.10-1.9.113.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.113/GTNewHorizonsCoreMod-1.7.10-1.9.113.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.114",
@@ -23789,7 +23908,8 @@
           "tagged_at": "2022-12-16T23:17:19+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.114.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/88519590",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.114/GTNewHorizonsCoreMod-1.7.10-1.9.114.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.114/GTNewHorizonsCoreMod-1.7.10-1.9.114.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.115",
@@ -23798,7 +23918,8 @@
           "tagged_at": "2022-12-18T21:30:45+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.115.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/88703269",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.115/GTNewHorizonsCoreMod-1.7.10-1.9.115.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.115/GTNewHorizonsCoreMod-1.7.10-1.9.115.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.116",
@@ -23807,7 +23928,8 @@
           "tagged_at": "2022-12-20T07:46:54+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.116.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/88862326",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.116/GTNewHorizonsCoreMod-1.7.10-1.9.116.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.116/GTNewHorizonsCoreMod-1.7.10-1.9.116.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.117",
@@ -23816,7 +23938,8 @@
           "tagged_at": "2022-12-23T20:54:16+00:00",
           "filename": "GTNewHorizonsCoreMod-1.7.10-1.9.117.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/89308897",
-          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.117/GTNewHorizonsCoreMod-1.7.10-1.9.117.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.117/GTNewHorizonsCoreMod-1.7.10-1.9.117.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.9.118",
@@ -24206,6 +24329,16 @@
           "filename": "GTNewHorizonsCoreMod-1.9.156.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/95333092",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.156/GTNewHorizonsCoreMod-1.9.156.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.157",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.156...1.9.157\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-12T16:48:50+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.9.157.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/95349805",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.157/GTNewHorizonsCoreMod-1.9.157.jar",
           "extra_assets": []
         }
       ],
