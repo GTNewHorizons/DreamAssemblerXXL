@@ -8,6 +8,7 @@
 > * MrTJPCore
 > * Random-Things
 > * Tainted-Magic
+> * lwjgl3ify
 # Mods Removed:
 > * Buildcraft Oil Tweaks
 > * CompactKineticGenerators
@@ -1827,6 +1828,15 @@
 >## New Contributors
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/inventory-tweaks/pull/5 (1.5.16)
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/inventory-tweaks/pull/4 (1.5.15)
+>
+
+# New Mod - lwjgl3ify (1.1.25@BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/commits/1.1.25
+>## What's Changed
+> * Improve performance of texture loading and stitching by using STB by @SuperCoder7979 in https://github.com/GTNewHorizons/lwjgl3ify/pull/14 (1.1.18)
+>
+>## New Contributors
+> * @SuperCoder7979 made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/14 (1.1.18)
 >
 
 # Updated nei-custom-diagram (1.4.4.6@BOTH --> 1.5.1@BOTH)

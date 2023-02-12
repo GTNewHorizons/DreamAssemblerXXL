@@ -364,6 +364,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 0.9.4.5.12-GTNH |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.0.8 |
 | [LunatriusCore](https://github.com/GTNewHorizons/LunatriusCore) | 1.1.7-GTNH |
+| [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 1.1.25 |
 | [MagicBees](https://github.com/GTNewHorizons/MagicBees) | 2.5.16-GTNH |
 | [MalisisCore](https://github.com/GTNewHorizons/MalisisCore) | 0.14.6-GTNH |
 | [MalisisDoors](https://github.com/GTNewHorizons/MalisisDoors) | 1.13.6-GTNH |
