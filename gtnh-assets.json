@@ -28961,7 +28961,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.0.94",
+      "latest_version": "5.0.95",
       "private": false,
       "versions": [
         {
@@ -28971,7 +28971,8 @@
           "tagged_at": "2021-12-20T23:05:34+00:00",
           "filename": "TecTech-1.7.10-4.10.12.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/52235990",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/4.10.12/TecTech-1.7.10-4.10.12.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/4.10.12/TecTech-1.7.10-4.10.12.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "4.10.13",
@@ -28980,7 +28981,8 @@
           "tagged_at": "2022-01-17T08:01:00+00:00",
           "filename": "TecTech-1.7.10-4.10.13.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/54168028",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/4.10.13/TecTech-1.7.10-4.10.13.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/4.10.13/TecTech-1.7.10-4.10.13.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "4.10.14",
@@ -28989,7 +28991,8 @@
           "tagged_at": "2022-01-19T04:49:37+00:00",
           "filename": "TecTech-1.7.10-4.10.14.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/54335414",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/4.10.14/TecTech-1.7.10-4.10.14.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/4.10.14/TecTech-1.7.10-4.10.14.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "4.10.15",
@@ -28998,7 +29001,8 @@
           "tagged_at": "2022-01-19T05:03:36+00:00",
           "filename": "TecTech-1.7.10-4.10.15.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/54336012",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/4.10.15/TecTech-1.7.10-4.10.15.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/4.10.15/TecTech-1.7.10-4.10.15.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "4.10.16",
@@ -29007,7 +29011,8 @@
           "tagged_at": "2022-01-19T18:30:10+00:00",
           "filename": "TecTech-1.7.10-4.10.16.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/54395971",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/4.10.16/TecTech-1.7.10-4.10.16.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/4.10.16/TecTech-1.7.10-4.10.16.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "4.10.17",
@@ -29016,7 +29021,8 @@
           "tagged_at": "2022-01-21T20:41:22+00:00",
           "filename": "TecTech-1.7.10-4.10.17.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/54608946",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/4.10.17/TecTech-1.7.10-4.10.17.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/4.10.17/TecTech-1.7.10-4.10.17.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "4.10.18",
@@ -29025,7 +29031,8 @@
           "tagged_at": "2022-01-29T20:29:10+00:00",
           "filename": "TecTech-1.7.10-4.10.18.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/55306212",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/4.10.18/TecTech-1.7.10-4.10.18.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/4.10.18/TecTech-1.7.10-4.10.18.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.5.1",
@@ -29034,7 +29041,8 @@
           "tagged_at": "2022-02-11T20:29:07+00:00",
           "filename": "TecTech-1.7.10-5.0.5.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/56545398",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.5.1/TecTech-1.7.10-5.0.5.1.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.5.1/TecTech-1.7.10-5.0.5.1.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.6",
@@ -29043,7 +29051,8 @@
           "tagged_at": "2022-03-02T19:50:53+00:00",
           "filename": "TecTech-1.7.10-5.0.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/58369478",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.6/TecTech-1.7.10-5.0.6.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.6/TecTech-1.7.10-5.0.6.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.7-dev",
@@ -29052,7 +29061,8 @@
           "tagged_at": "2022-06-12T20:14:44+00:00",
           "filename": "TecTech-1.7.10-5.0.7-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/68281719",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.7-dev/TecTech-1.7.10-5.0.7-dev.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.7-dev/TecTech-1.7.10-5.0.7-dev.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.8-pre",
@@ -29061,7 +29071,8 @@
           "tagged_at": "2022-06-26T11:35:35+00:00",
           "filename": "TecTech-1.7.10-5.0.8-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/69677276",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.8-pre/TecTech-1.7.10-5.0.8-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.8-pre/TecTech-1.7.10-5.0.8-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.9-pre",
@@ -29070,7 +29081,8 @@
           "tagged_at": "2022-07-05T10:54:30+00:00",
           "filename": "TecTech-1.7.10-5.0.9-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/70613128",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.9-pre/TecTech-1.7.10-5.0.9-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.9-pre/TecTech-1.7.10-5.0.9-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.10",
@@ -29079,7 +29091,8 @@
           "tagged_at": "2022-07-13T09:45:37+00:00",
           "filename": "TecTech-1.7.10-5.0.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/71435526",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.10/TecTech-1.7.10-5.0.10.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.10/TecTech-1.7.10-5.0.10.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.14",
@@ -29088,7 +29101,8 @@
           "tagged_at": "2022-07-31T13:53:58+00:00",
           "filename": "TecTech-1.7.10-5.0.14.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/73245308",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.14/TecTech-1.7.10-5.0.14.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.14/TecTech-1.7.10-5.0.14.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.15-pre",
@@ -29097,7 +29111,8 @@
           "tagged_at": "2022-08-01T09:38:58+00:00",
           "filename": "TecTech-1.7.10-5.0.15-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/73319065",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.15-pre/TecTech-1.7.10-5.0.15-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.15-pre/TecTech-1.7.10-5.0.15-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.16",
@@ -29106,7 +29121,8 @@
           "tagged_at": "2022-08-02T11:30:16+00:00",
           "filename": "TecTech-1.7.10-5.0.16.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/73441944",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.16/TecTech-1.7.10-5.0.16.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.16/TecTech-1.7.10-5.0.16.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.17-pre",
@@ -29115,7 +29131,8 @@
           "tagged_at": "2022-08-14T14:54:55+00:00",
           "filename": "TecTech-1.7.10-5.0.17-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/74686204",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.17-pre/TecTech-1.7.10-5.0.17-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.17-pre/TecTech-1.7.10-5.0.17-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.18-pre",
@@ -29124,7 +29141,8 @@
           "tagged_at": "2022-08-17T06:15:24+00:00",
           "filename": "TecTech-1.7.10-5.0.18-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/74954765",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.18-pre/TecTech-1.7.10-5.0.18-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.18-pre/TecTech-1.7.10-5.0.18-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.19-pre",
@@ -29133,7 +29151,8 @@
           "tagged_at": "2022-08-17T07:04:48+00:00",
           "filename": "TecTech-1.7.10-5.0.19-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/74957995",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.19-pre/TecTech-1.7.10-5.0.19-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.19-pre/TecTech-1.7.10-5.0.19-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.20-pre",
@@ -29142,7 +29161,8 @@
           "tagged_at": "2022-08-17T08:15:48+00:00",
           "filename": "TecTech-1.7.10-5.0.20-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/74963203",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.20-pre/TecTech-1.7.10-5.0.20-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.20-pre/TecTech-1.7.10-5.0.20-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.21-pre",
@@ -29151,7 +29171,8 @@
           "tagged_at": "2022-08-17T08:28:17+00:00",
           "filename": "TecTech-1.7.10-5.0.21-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/74963910",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.21-pre/TecTech-1.7.10-5.0.21-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.21-pre/TecTech-1.7.10-5.0.21-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.22",
@@ -29160,7 +29181,8 @@
           "tagged_at": "2022-08-19T12:07:38+00:00",
           "filename": "TecTech-1.7.10-5.0.22.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/75213077",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.22/TecTech-1.7.10-5.0.22.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.22/TecTech-1.7.10-5.0.22.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.23-pre",
@@ -29169,7 +29191,8 @@
           "tagged_at": "2022-08-19T22:31:16+00:00",
           "filename": "TecTech-1.7.10-5.0.23-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/75262639",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.23-pre/TecTech-1.7.10-5.0.23-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.23-pre/TecTech-1.7.10-5.0.23-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.24-pre",
@@ -29178,7 +29201,8 @@
           "tagged_at": "2022-08-19T23:19:30+00:00",
           "filename": "TecTech-1.7.10-5.0.24-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/75265495",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.24-pre/TecTech-1.7.10-5.0.24-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.24-pre/TecTech-1.7.10-5.0.24-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.25-pre",
@@ -29187,7 +29211,8 @@
           "tagged_at": "2022-08-20T07:41:57+00:00",
           "filename": "TecTech-1.7.10-5.0.25-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/75292277",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.25-pre/TecTech-1.7.10-5.0.25-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.25-pre/TecTech-1.7.10-5.0.25-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.26",
@@ -29196,7 +29221,8 @@
           "tagged_at": "2022-08-20T17:56:20+00:00",
           "filename": "TecTech-1.7.10-5.0.26.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/75323958",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.26/TecTech-1.7.10-5.0.26.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.26/TecTech-1.7.10-5.0.26.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.27-pre",
@@ -29205,7 +29231,8 @@
           "tagged_at": "2022-08-23T11:48:09+00:00",
           "filename": "TecTech-1.7.10-5.0.27-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/75586284",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.27-pre/TecTech-1.7.10-5.0.27-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.27-pre/TecTech-1.7.10-5.0.27-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.28",
@@ -29214,7 +29241,8 @@
           "tagged_at": "2022-08-23T12:06:50+00:00",
           "filename": "TecTech-1.7.10-5.0.28.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/75587804",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.28/TecTech-1.7.10-5.0.28.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.28/TecTech-1.7.10-5.0.28.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.29-pre",
@@ -29223,7 +29251,8 @@
           "tagged_at": "2022-08-25T12:37:23+00:00",
           "filename": "TecTech-1.7.10-5.0.29-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/75819410",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.29-pre/TecTech-1.7.10-5.0.29-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.29-pre/TecTech-1.7.10-5.0.29-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.30-pre",
@@ -29232,7 +29261,8 @@
           "tagged_at": "2022-08-25T12:37:36+00:00",
           "filename": "TecTech-1.7.10-5.0.30-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/75819429",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.30-pre/TecTech-1.7.10-5.0.30-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.30-pre/TecTech-1.7.10-5.0.30-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.31",
@@ -29241,7 +29271,8 @@
           "tagged_at": "2022-08-26T14:48:18+00:00",
           "filename": "TecTech-1.7.10-5.0.31.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/75939854",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.31/TecTech-1.7.10-5.0.31.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.31/TecTech-1.7.10-5.0.31.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.32",
@@ -29250,7 +29281,8 @@
           "tagged_at": "2022-08-27T08:24:35+00:00",
           "filename": "TecTech-1.7.10-5.0.32.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/76008826",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.32/TecTech-1.7.10-5.0.32.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.32/TecTech-1.7.10-5.0.32.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.33",
@@ -29259,7 +29291,8 @@
           "tagged_at": "2022-09-01T10:58:59+00:00",
           "filename": "TecTech-1.7.10-5.0.33.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/76539465",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.33/TecTech-1.7.10-5.0.33.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.33/TecTech-1.7.10-5.0.33.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.34",
@@ -29268,7 +29301,8 @@
           "tagged_at": "2022-09-04T15:46:46+00:00",
           "filename": "TecTech-1.7.10-5.0.34.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/76843047",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.34/TecTech-1.7.10-5.0.34.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.34/TecTech-1.7.10-5.0.34.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.35",
@@ -29277,7 +29311,8 @@
           "tagged_at": "2022-09-07T12:04:24+00:00",
           "filename": "TecTech-1.7.10-5.0.35.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/77127516",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.35/TecTech-1.7.10-5.0.35.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.35/TecTech-1.7.10-5.0.35.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.36",
@@ -29286,7 +29321,8 @@
           "tagged_at": "2022-09-13T16:41:29+00:00",
           "filename": "TecTech-1.7.10-5.0.36.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/77750909",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.36/TecTech-1.7.10-5.0.36.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.36/TecTech-1.7.10-5.0.36.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.37",
@@ -29295,7 +29331,8 @@
           "tagged_at": "2022-09-24T19:34:52+00:00",
           "filename": "TecTech-1.7.10-5.0.37.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/78899581",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.37/TecTech-1.7.10-5.0.37.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.37/TecTech-1.7.10-5.0.37.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.38",
@@ -29304,7 +29341,8 @@
           "tagged_at": "2022-09-24T21:31:28+00:00",
           "filename": "TecTech-1.7.10-5.0.38.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/78906080",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.38/TecTech-1.7.10-5.0.38.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.38/TecTech-1.7.10-5.0.38.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.39",
@@ -29313,7 +29351,8 @@
           "tagged_at": "2022-09-26T16:11:28+00:00",
           "filename": "TecTech-1.7.10-5.0.39.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/79072149",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.39/TecTech-1.7.10-5.0.39.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.39/TecTech-1.7.10-5.0.39.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.40",
@@ -29322,7 +29361,8 @@
           "tagged_at": "2022-09-28T19:21:01+00:00",
           "filename": "TecTech-1.7.10-5.0.40.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/79327894",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.40/TecTech-1.7.10-5.0.40.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.40/TecTech-1.7.10-5.0.40.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.41-pre",
@@ -29331,7 +29371,8 @@
           "tagged_at": "2022-09-30T18:28:37+00:00",
           "filename": "TecTech-1.7.10-5.0.41-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/79558855",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.41-pre/TecTech-1.7.10-5.0.41-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.41-pre/TecTech-1.7.10-5.0.41-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.42",
@@ -29340,7 +29381,8 @@
           "tagged_at": "2022-10-01T10:55:08+00:00",
           "filename": "TecTech-1.7.10-5.0.42.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/79626447",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.42/TecTech-1.7.10-5.0.42.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.42/TecTech-1.7.10-5.0.42.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.43",
@@ -29349,7 +29391,8 @@
           "tagged_at": "2022-10-08T15:01:32+00:00",
           "filename": "TecTech-1.7.10-5.0.43.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/80376900",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.43/TecTech-1.7.10-5.0.43.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.43/TecTech-1.7.10-5.0.43.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.44",
@@ -29358,7 +29401,8 @@
           "tagged_at": "2022-10-12T17:08:06+00:00",
           "filename": "TecTech-1.7.10-5.0.44.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/80790645",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.44/TecTech-1.7.10-5.0.44.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.44/TecTech-1.7.10-5.0.44.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.45",
@@ -29367,7 +29411,8 @@
           "tagged_at": "2022-10-22T11:13:01+00:00",
           "filename": "TecTech-1.7.10-5.0.45.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/81899150",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.45/TecTech-1.7.10-5.0.45.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.45/TecTech-1.7.10-5.0.45.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.46",
@@ -29376,7 +29421,8 @@
           "tagged_at": "2022-10-26T18:29:14+00:00",
           "filename": "TecTech-1.7.10-5.0.46.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/82364652",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.46/TecTech-1.7.10-5.0.46.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.46/TecTech-1.7.10-5.0.46.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.47",
@@ -29385,7 +29431,8 @@
           "tagged_at": "2022-10-29T07:54:38+00:00",
           "filename": "TecTech-1.7.10-5.0.47.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/82693054",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.47/TecTech-1.7.10-5.0.47.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.47/TecTech-1.7.10-5.0.47.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.48-pre",
@@ -29394,7 +29441,8 @@
           "tagged_at": "2022-11-17T16:17:38+00:00",
           "filename": "TecTech-1.7.10-5.0.48-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/84988449",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.48-pre/TecTech-1.7.10-5.0.48-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.48-pre/TecTech-1.7.10-5.0.48-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.50-pre",
@@ -29403,7 +29451,8 @@
           "tagged_at": "2022-11-20T10:06:17+00:00",
           "filename": "TecTech-1.7.10-5.0.50-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/85290690",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.50-pre/TecTech-1.7.10-5.0.50-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.50-pre/TecTech-1.7.10-5.0.50-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.51-pre",
@@ -29412,7 +29461,8 @@
           "tagged_at": "2022-11-24T12:30:06+00:00",
           "filename": "TecTech-1.7.10-5.0.51-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/85819357",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.51-pre/TecTech-1.7.10-5.0.51-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.51-pre/TecTech-1.7.10-5.0.51-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.52",
@@ -29421,7 +29471,8 @@
           "tagged_at": "2022-11-25T17:03:45+00:00",
           "filename": "TecTech-1.7.10-5.0.52.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/85960134",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.52/TecTech-1.7.10-5.0.52.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.52/TecTech-1.7.10-5.0.52.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.53",
@@ -29430,7 +29481,8 @@
           "tagged_at": "2022-11-30T16:50:35+00:00",
           "filename": "TecTech-1.7.10-5.0.53.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/86522059",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.53/TecTech-1.7.10-5.0.53.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.53/TecTech-1.7.10-5.0.53.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.54",
@@ -29439,7 +29491,8 @@
           "tagged_at": "2022-12-09T13:01:38+00:00",
           "filename": "TecTech-1.7.10-5.0.54.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/87591488",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.54/TecTech-1.7.10-5.0.54.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.54/TecTech-1.7.10-5.0.54.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.55-pre",
@@ -29449,7 +29502,7 @@
           "filename": "TecTech-1.7.10-5.0.55-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/87789364",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.55-pre/TecTech-1.7.10-5.0.55-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.0.55-pre/TecTech-5.0.55-pre.jar"
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.56",
@@ -29458,7 +29511,8 @@
           "tagged_at": "2022-12-13T22:09:28+00:00",
           "filename": "TecTech-1.7.10-5.0.56.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/88100114",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.56/TecTech-1.7.10-5.0.56.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.56/TecTech-1.7.10-5.0.56.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.57",
@@ -29467,7 +29521,8 @@
           "tagged_at": "2022-12-14T20:35:51+00:00",
           "filename": "TecTech-1.7.10-5.0.57.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/88223473",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.57/TecTech-1.7.10-5.0.57.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.57/TecTech-1.7.10-5.0.57.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.58",
@@ -29476,7 +29531,8 @@
           "tagged_at": "2022-12-19T11:04:25+00:00",
           "filename": "TecTech-1.7.10-5.0.58.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/88761387",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.58/TecTech-1.7.10-5.0.58.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.58/TecTech-1.7.10-5.0.58.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.59",
@@ -29485,7 +29541,8 @@
           "tagged_at": "2022-12-20T07:45:20+00:00",
           "filename": "TecTech-1.7.10-5.0.59.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/88862233",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.59/TecTech-1.7.10-5.0.59.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.59/TecTech-1.7.10-5.0.59.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.60",
@@ -29494,7 +29551,8 @@
           "tagged_at": "2022-12-20T17:37:26+00:00",
           "filename": "TecTech-1.7.10-5.0.60.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/88920125",
-          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.60/TecTech-1.7.10-5.0.60.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.60/TecTech-1.7.10-5.0.60.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.61",
@@ -29504,7 +29562,7 @@
           "filename": "TecTech-1.7.10-5.0.61.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/89179286",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.61/TecTech-1.7.10-5.0.61.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.0.61/TecTech-5.0.61.jar"
+          "extra_assets": []
         },
         {
           "version_tag": "5.0.62",
@@ -29834,7 +29892,16 @@
           "filename": "TecTech-5.0.94.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/95333341",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.94/TecTech-5.0.94.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.0.94/TecTech-5.0.94.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.0.95",
+          "changelog": "## What's Changed\n* Fix material referencing and some EOH stuff by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/152\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.94...5.0.95\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-12T17:52:10+00:00",
+          "filename": "TecTech-5.0.95.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/95354119",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.95/TecTech-5.0.95.jar",
           "extra_assets": []
         }
       ],
