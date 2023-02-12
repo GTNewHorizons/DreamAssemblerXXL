@@ -20977,6 +20977,563 @@
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LunatriusCore/"
     },
     {
+      "name": "lwjgl3ify",
+      "latest_version": "1.1.25",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "0.1.0",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/commits/0.1.0\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-15T13:42:51+00:00",
+          "filename": "lwjgl3ify-1.7.10-0.1.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/91769963",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/0.1.0/lwjgl3ify-1.7.10-0.1.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.0",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/0.1.0...1.0.0\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-18T17:02:57+00:00",
+          "filename": "lwjgl3ify-1.7.10-1.0.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92173374",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.0.0/lwjgl3ify-1.7.10-1.0.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.0",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.0.0...1.1.0\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-22T12:34:32+00:00",
+          "filename": "lwjgl3ify-1.7.10-1.1.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92611096",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.0/lwjgl3ify-1.7.10-1.1.0.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.0-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92611098",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.0/lwjgl3ify-1.0-forgePatches.jar"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.1",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.0...1.1.1\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-23T12:23:45+00:00",
+          "filename": "lwjgl3ify-1.1.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92718095",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.1/lwjgl3ify-1.1.1.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.0-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92718096",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.1/lwjgl3ify-1.0-forgePatches.jar"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.2",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.1...1.1.2\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-24T12:50:53+00:00",
+          "filename": "lwjgl3ify-1.1.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92849884",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.2/lwjgl3ify-1.1.2.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.2-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92849882",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.2/lwjgl3ify-1.1.2-forgePatches.jar"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.3",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.2...1.1.3\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-24T18:23:00+00:00",
+          "filename": "lwjgl3ify-1.1.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92884879",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.3/lwjgl3ify-1.1.3.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.3-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92884878",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.3/lwjgl3ify-1.1.3-forgePatches.jar"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.4",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.3...1.1.4\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-25T09:49:32+00:00",
+          "filename": "lwjgl3ify-1.1.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92964029",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.4/lwjgl3ify-1.1.4.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.4-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92964027",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.4/lwjgl3ify-1.1.4-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.4-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92964028",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.4/lwjgl3ify-1.1.4-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.5",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.4...1.1.5\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-25T12:23:21+00:00",
+          "filename": "lwjgl3ify-1.1.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92978804",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.5/lwjgl3ify-1.1.5.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.5-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92978810",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.5/lwjgl3ify-1.1.5-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.5-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92978809",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.5/lwjgl3ify-1.1.5-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.6",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.5...1.1.6\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-25T13:40:56+00:00",
+          "filename": "lwjgl3ify-1.1.6.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92987779",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.6/lwjgl3ify-1.1.6.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.6-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92987780",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.6/lwjgl3ify-1.1.6-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.6-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92987782",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.6/lwjgl3ify-1.1.6-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.7",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.6...1.1.7\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-25T14:35:58+00:00",
+          "filename": "lwjgl3ify-1.1.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92994207",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.7/lwjgl3ify-1.1.7.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.7-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92994208",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.7/lwjgl3ify-1.1.7-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.7-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/92994205",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.7/lwjgl3ify-1.1.7-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.8",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.7...1.1.8\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-25T15:42:06+00:00",
+          "filename": "lwjgl3ify-1.1.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93002919",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.8/lwjgl3ify-1.1.8.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.8-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93002917",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.8/lwjgl3ify-1.1.8-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.8-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93002918",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.8/lwjgl3ify-1.1.8-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.9",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.8...1.1.9\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-25T21:02:12+00:00",
+          "filename": "lwjgl3ify-1.1.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93036302",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.9/lwjgl3ify-1.1.9.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.9-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93036304",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.9/lwjgl3ify-1.1.9-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.9-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93036303",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.9/lwjgl3ify-1.1.9-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.10",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.9...1.1.10\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-25T21:08:19+00:00",
+          "filename": "lwjgl3ify-1.1.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93036917",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.10/lwjgl3ify-1.1.10.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.10-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93036915",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.10/lwjgl3ify-1.1.10-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.10-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93036914",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.10/lwjgl3ify-1.1.10-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.11",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.10...1.1.11\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-26T13:45:13+00:00",
+          "filename": "lwjgl3ify-1.1.11.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93122338",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.11/lwjgl3ify-1.1.11.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.11-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93122339",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.11/lwjgl3ify-1.1.11-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.11-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93122342",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.11/lwjgl3ify-1.1.11-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.12",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.11...1.1.12\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-26T22:10:21+00:00",
+          "filename": "lwjgl3ify-1.1.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93173940",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.12/lwjgl3ify-1.1.12.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.12-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93173941",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.12/lwjgl3ify-1.1.12-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.12-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93173943",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.12/lwjgl3ify-1.1.12-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.13",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.12...1.1.13\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-27T15:36:18+00:00",
+          "filename": "lwjgl3ify-1.1.13.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93271686",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.13/lwjgl3ify-1.1.13.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.13-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93271685",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.13/lwjgl3ify-1.1.13-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.13-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93271689",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.13/lwjgl3ify-1.1.13-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.14",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.13...1.1.14\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-31T13:20:50+00:00",
+          "filename": "lwjgl3ify-1.1.14.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93732578",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.14/lwjgl3ify-1.1.14.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.14-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93732575",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.14/lwjgl3ify-1.1.14-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.14-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93732580",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.14/lwjgl3ify-1.1.14-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.15",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.14...1.1.15\n",
+          "prerelease": false,
+          "tagged_at": "2023-01-31T18:46:05+00:00",
+          "filename": "lwjgl3ify-1.1.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93771697",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.15/lwjgl3ify-1.1.15.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.15-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93771694",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.15/lwjgl3ify-1.1.15-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.15-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93771699",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.15/lwjgl3ify-1.1.15-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.16",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.15...1.1.16\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-01T12:58:11+00:00",
+          "filename": "lwjgl3ify-1.1.16.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93882036",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.16/lwjgl3ify-1.1.16.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.16-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93882039",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.16/lwjgl3ify-1.1.16-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.16-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93882041",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.16/lwjgl3ify-1.1.16-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.17",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.16...1.1.17\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-01T18:58:39+00:00",
+          "filename": "lwjgl3ify-1.1.17.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93922899",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.17/lwjgl3ify-1.1.17.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.17-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93922895",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.17/lwjgl3ify-1.1.17-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.17-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/93922905",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.17/lwjgl3ify-1.1.17-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.18",
+          "changelog": "## What's Changed\n* Improve performance of texture loading and stitching by using STB by @SuperCoder7979 in https://github.com/GTNewHorizons/lwjgl3ify/pull/14\n\n## New Contributors\n* @SuperCoder7979 made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/14\n\n**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.17...1.1.18\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-02T19:42:38+00:00",
+          "filename": "lwjgl3ify-1.1.18.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94075719",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.18/lwjgl3ify-1.1.18.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.18-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94075721",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.18/lwjgl3ify-1.1.18-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.18-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94075724",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.18/lwjgl3ify-1.1.18-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.19",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.18...1.1.19\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-05T19:14:19+00:00",
+          "filename": "lwjgl3ify-1.1.19.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94413082",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.19/lwjgl3ify-1.1.19.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.19-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94413084",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.19/lwjgl3ify-1.1.19-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.19-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94413088",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.19/lwjgl3ify-1.1.19-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.20",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.19...1.1.20\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-06T19:30:59+00:00",
+          "filename": "lwjgl3ify-1.1.20.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94539371",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.20/lwjgl3ify-1.1.20.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.20-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94539370",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.20/lwjgl3ify-1.1.20-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.20-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94539375",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.20/lwjgl3ify-1.1.20-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.21",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.20...1.1.21\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-07T14:04:46+00:00",
+          "filename": "lwjgl3ify-1.1.21.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94652337",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.21/lwjgl3ify-1.1.21.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.21-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94652336",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.21/lwjgl3ify-1.1.21-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.21-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94652343",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.21/lwjgl3ify-1.1.21-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.22",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.21...1.1.22\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-09T09:52:55+00:00",
+          "filename": "lwjgl3ify-1.1.22.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94923812",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.22/lwjgl3ify-1.1.22.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.22-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94923811",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.22/lwjgl3ify-1.1.22-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.22-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/94923815",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.22/lwjgl3ify-1.1.22-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.23",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.22...1.1.23\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-11T21:37:58+00:00",
+          "filename": "lwjgl3ify-1.1.23.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/95256528",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.23/lwjgl3ify-1.1.23.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.23-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/95256527",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.23/lwjgl3ify-1.1.23-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.23-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/95256532",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.23/lwjgl3ify-1.1.23-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.24",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.23...1.1.24\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-11T22:00:07+00:00",
+          "filename": "lwjgl3ify-1.1.24.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/95259841",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.24/lwjgl3ify-1.1.24.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.24-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/95259843",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.24/lwjgl3ify-1.1.24-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.24-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/95259848",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.24/lwjgl3ify-1.1.24-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.25",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.24...1.1.25\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-11T22:06:54+00:00",
+          "filename": "lwjgl3ify-1.1.25.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/95260396",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.25/lwjgl3ify-1.1.25.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.25-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/95260394",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.25/lwjgl3ify-1.1.25-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.25-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/95260398",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.25/lwjgl3ify-1.1.25-multimc.zip"
+            }
+          ]
+        }
+      ],
+      "license": "GNU Lesser General Public License v3.0",
+      "repo_url": "https://github.com/GTNewHorizons/lwjgl3ify",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/lwjgl3ify/",
+      "side": "BOTH_JAVA9"
+    },
+    {
       "name": "MagicBees",
       "latest_version": "2.5.16-GTNH",
       "versions": [
