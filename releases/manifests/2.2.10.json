@@ -1,7 +1,7 @@
 {
   "version": "2.2.10",
   "last_version": "2.2.9",
-  "last_updated": "2023-02-17T21:55:48.409703",
+  "last_updated": "2023-02-17T23:10:06.791444",
   "config": "2.2.10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.0.76-gtnh-pre",
+      "version": "1.0.75-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
