@@ -93,9 +93,10 @@
 > * @zifnab06 made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/33 (1.1.12-GTNH)
 >
 
-# Updated EnderIO (2.3.1.58@BOTH --> 2.3.1.59@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.57...2.3.1.59
+# Updated EnderIO (2.3.1.58@BOTH --> 2.3.1.60@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.57...2.3.1.60
 >## What's Changed
+> * Apply max capacity config also for single solar cells without network by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/99 (2.3.1.60)
 > * Fix energy stored in Slice'N'Splice with Melodic Capacitor by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/98 (2.3.1.59)
 > * Fix NullReferenceException at getCapacity->getBlockMetadata by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/97 (2.3.1.58)
 >
@@ -235,8 +236,8 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (1.9.157@BOTH --> 1.9.160@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.156...1.9.160
+# Updated NewHorizonsCoreMod (1.9.157@BOTH --> 1.9.161@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.156...1.9.161
 >## What's Changed
 > * Move some GC script to coremod + add rocket parts assembler recipes by @LewisSaber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/518 (1.9.160)
 > * move the ASM to remove bibliocraft recipes from Hodgepodge to Dreamcraft by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/523 (1.9.159)
@@ -264,9 +265,10 @@
 > * @Midnight145 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/349 (2.3.31-GTNH)
 >
 
-# Updated OpenComputers (1.8.0.9-GTNH@BOTH --> 1.8.0.11-GTNH@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.8.0.8-GTNH...1.8.0.11-GTNH
+# Updated OpenComputers (1.8.0.9-GTNH@BOTH --> 1.8.0.12-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.8.0.8-GTNH...1.8.0.12-GTNH
 >## What's Changed
+> * Added string versions of getStoredEU/getEUCapacity for huge values by @repo-alt in https://github.com/GTNewHorizons/OpenComputers/pull/92 (1.8.0.12-GTNH)
 > * Ported ME Robot Upgrade from EC2 (with some code cleanup) by @repo-alt in https://github.com/GTNewHorizons/OpenComputers/pull/90 (1.8.0.11-GTNH)
 > * Update buildscript, fix version not being replaced by @eigenraven in https://github.com/GTNewHorizons/OpenComputers/pull/91 (1.8.0.11-GTNH)
 > * keybinds by @Alexdoru in https://github.com/GTNewHorizons/OpenComputers/pull/89 (1.8.0.9-GTNH)

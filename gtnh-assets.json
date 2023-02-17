@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.2.9",
+    "latest_version": "2.2.10",
     "versions": [
       {
         "version_tag": "2.1.2.3qf-test",
@@ -401,6 +401,16 @@
         "filename": "2.2.9.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/95359249",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.9/2.2.9.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.2.10",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2023-02-17T21:19:14+00:00",
+        "filename": "2.2.10.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/96113732",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.2.10/2.2.10.zip",
         "extra_assets": []
       }
     ],
@@ -7981,7 +7991,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.3.1.59",
+      "latest_version": "2.3.1.60",
       "versions": [
         {
           "version_tag": "2.3.0.433",
@@ -8353,6 +8363,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/95963168",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.59/EnderIO-2.3.1.59.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/2.3.1.59/EnderIO-2.3.1.59.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.3.1.60",
+          "changelog": "## What's Changed\n* Apply max capacity config also for single solar cells without network by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/99\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.59...2.3.1.60\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-17T21:05:13+00:00",
+          "filename": "EnderIO-2.3.1.60.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/96112245",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.60/EnderIO-2.3.1.60.jar",
           "extra_assets": []
         }
       ],
@@ -24133,7 +24153,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "1.9.160",
+      "latest_version": "1.9.161",
       "private": false,
       "versions": [
         {
@@ -25615,6 +25635,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/95793431",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.160/GTNewHorizonsCoreMod-1.9.160.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.161",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.160...1.9.161\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-17T20:52:03+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.9.161.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/96110914",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.161/GTNewHorizonsCoreMod-1.9.161.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -26970,7 +27000,7 @@
     },
     {
       "name": "OpenComputers",
-      "latest_version": "1.8.0.11-GTNH",
+      "latest_version": "1.8.0.12-GTNH",
       "versions": [
         {
           "version_tag": "1.7.4.1",
@@ -27247,6 +27277,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/95667062",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.8.0.11-GTNH/OpenComputers-1.8.0.11-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenComputers/1.8.0.11-GTNH/OpenComputers-1.8.0.11-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.0.12-GTNH",
+          "changelog": "## What's Changed\n* Added string versions of getStoredEU/getEUCapacity for huge values by @repo-alt in https://github.com/GTNewHorizons/OpenComputers/pull/92\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.8.0.11-GTNH...1.8.0.12-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-02-17T21:10:05+00:00",
+          "filename": "OpenComputers-1.8.0.12-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/96112951",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.8.0.12-GTNH/OpenComputers-1.8.0.12-GTNH.jar",
           "extra_assets": []
         }
       ],
