@@ -8373,6 +8373,7 @@
           "filename": "EnderIO-2.3.1.60.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/96112245",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.60/EnderIO-2.3.1.60.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/2.3.1.60/EnderIO-2.3.1.60.jar",
           "extra_assets": []
         }
       ],
@@ -27287,6 +27288,7 @@
           "filename": "OpenComputers-1.8.0.12-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/96112951",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.8.0.12-GTNH/OpenComputers-1.8.0.12-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenComputers/1.8.0.12-GTNH/OpenComputers-1.8.0.12-GTNH.jar",
           "extra_assets": []
         }
       ],
