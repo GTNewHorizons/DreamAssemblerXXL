@@ -1,7 +1,7 @@
 {
   "version": "2.2.10",
   "last_version": "2.2.9",
-  "last_updated": "2023-02-17T21:33:26.365235",
+  "last_updated": "2023-02-17T21:36:26.675076",
   "config": "2.2.10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -811,6 +811,10 @@
     "Tainted-Magic": {
       "version": "7.6.0-GTNH",
       "side": "BOTH"
+    },
+    "lwjgl3ify": {
+      "version": "1.1.29",
+      "side": "BOTH_JAVA9"
     }
   },
   "external_mods": {
