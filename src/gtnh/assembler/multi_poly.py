@@ -123,7 +123,7 @@ class MMCAssembler(GenericAssembler):
         :return: None
         """
 
-        with ZipFile(self.get_archive_path(side), "a") as archive:
+        with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
             if self.task_progress_callback is not None:
                 self.task_progress_callback(self.get_progress(), "adding archive's metadata to the archive")
             if not side.is_java9():

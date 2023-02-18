@@ -215,7 +215,7 @@ class GenericAssembler:
 
         log.info(f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{archive_name}'{Fore.RESET}")
 
-        with ZipFile(self.get_archive_path(side), "w") as archive:
+        with ZipFile(self.get_archive_path(side), "w", compression=ZIP_DEFLATED) as archive:
             log.info("Adding mods to the archive")
             self.add_mods(side, self.get_mods(side), archive, verbose=verbose)
             log.info("Adding config to the archive")

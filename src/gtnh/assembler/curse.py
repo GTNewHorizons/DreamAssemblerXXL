@@ -2,7 +2,7 @@ import shutil
 from json import dump
 from pathlib import Path
 from typing import Callable, Dict, List, Optional, Tuple
-from zipfile import ZipFile
+from zipfile import ZIP_DEFLATED, ZipFile
 
 import httpx
 from colorama import Fore
@@ -161,7 +161,7 @@ class CurseAssembler(GenericAssembler):
 
         log.info(f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{archive_name}'{Fore.RESET}")
 
-        with ZipFile(self.get_archive_path(side), "w") as archive:
+        with ZipFile(self.get_archive_path(side), "w", compression=ZIP_DEFLATED) as archive:
             log.info("Adding config to the archive")
             self.add_config(side, self.get_config(), archive, verbose=verbose)
             log.info("Adding manifest.json to the archive")
@@ -198,7 +198,7 @@ class CurseAssembler(GenericAssembler):
 
         config_file: Path = get_asset_version_cache_location(modpack_config, config_version)
 
-        with ZipFile(config_file, "r") as config_zip:
+        with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
 
             for item in config_zip.namelist():
                 if item in self.exclusions[side]:
@@ -230,7 +230,7 @@ class CurseAssembler(GenericAssembler):
         mod: GTNHModInfo
         version: GTNHVersion
         dep_json: List[Dict[str, str]] = []
-        with ZipFile(RELEASE_CURSE_DIR / "downloads.zip", "w") as file:
+        with ZipFile(RELEASE_CURSE_DIR / "downloads.zip", "w", compression=ZIP_DEFLATED) as file:
             async with httpx.AsyncClient(http2=True) as client:
                 for mod, version in mod_list:
                     if mod.name == "NewHorizonsCoreMod" or is_valid_curse_mod(mod, version):
