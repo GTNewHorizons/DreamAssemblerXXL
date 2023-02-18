@@ -74,7 +74,7 @@ class TechnicAssembler(GenericAssembler):
             archive_path: Path = Path("mods") / source_file.name
 
             # set up temp zip
-            with ZipFile(temp_zip_path, "w") as temp_zip:
+            with ZipFile(temp_zip_path, "w", compression=ZIP_DEFLATED) as temp_zip:
                 temp_zip.write(source_file, arcname=archive_path)
 
             archive.write(
@@ -104,7 +104,7 @@ class TechnicAssembler(GenericAssembler):
         temp_zip_path: Path = Path("./temp.zip")
 
         # set up a temp zip
-        with ZipFile(Path("./temp.zip"), "w") as temp_zip:
+        with ZipFile(Path("./temp.zip"), "w", compression=ZIP_DEFLATED) as temp_zip:
 
             # reading the config files
             with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:

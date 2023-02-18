@@ -125,7 +125,7 @@ class ZipAssembler(GenericAssembler):
 
         if side.is_server():
             log.info("Adding server assets to the server release.")
-            with ZipFile(self.get_archive_path(side), "a") as archive:
+            with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
                 self.add_server_assets(archive, server_brand, side)
 
     def get_server_assets(self, server_brand: ServerBrand, side: Side) -> List[Path]:
