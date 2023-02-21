@@ -48,5 +48,9 @@
     "java9args.txt",
     "startserver-java9.bat",
     "startserver-java9.sh"
+  ],
+  "server_java9_exclusions": [
+    "startserver.bat",
+    "startserver.sh"
   ]
 }
