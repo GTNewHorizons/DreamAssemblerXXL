@@ -1,5 +1,3 @@
-# Mods Removed:
-> * lwjgl3ify
 # Updated AE2FluidCraft-Rework (1.0.69-gtnh@BOTH --> 1.0.76-gtnh-pre@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.67-gtnh...1.0.76-gtnh-pre
 >## What's Changed
@@ -356,5 +354,15 @@
 >
 >## New Contributors
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/harvestcraft/pull/43 (1.0.20-GTNH)
+>
+
+# Updated lwjgl3ify (1.1.25@BOTH_JAVA9 --> 1.1.32@BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.24...1.1.32
+>## What's Changed
+> * HACK: Apply the same workaround for glColor4ub by @pftbest in https://github.com/GTNewHorizons/lwjgl3ify/pull/18 (1.1.29)
+> * HACK: Temporary workaround for glColor3ub crash on macOS by @pftbest in https://github.com/GTNewHorizons/lwjgl3ify/pull/17 (1.1.27)
+>
+>## New Contributors
+> * @pftbest made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/17 (1.1.27)
 >
 
