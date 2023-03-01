@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.10",
-  "last_updated": "2023-02-26T10:26:30.718355",
+  "last_updated": "2023-03-01T14:49:09.616568",
   "config": "2.2.11-nightly",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.0.85-gtnh",
+      "version": "1.0.88-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-168-GTNH",
+      "version": "rv3-beta-169-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.33",
+      "version": "1.34",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.5.159-pre",
+      "version": "0.5.162",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -77,11 +77,11 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.0.22-pre",
+      "version": "1.0.23",
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.2.0-GTNH-pre",
+      "version": "3.1.8-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.3.1.60",
+      "version": "2.3.1.63",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.55-GTNH-pre",
+      "version": "1.1.58-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -257,11 +257,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.4.84-pre",
+      "version": "0.4.87",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.41.298-pre",
+      "version": "5.09.41.306",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,11 +277,11 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.0.12",
+      "version": "0.0.13",
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.7.222-pre",
+      "version": "1.7.225",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.0.36",
+      "version": "2.0.37",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,11 +349,11 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.6.31",
+      "version": "0.6.32",
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.7.15-pre",
+      "version": "0.7.17",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -441,7 +441,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "1.9.165-pre",
+      "version": "1.9.168",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -453,7 +453,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.32-GTNH",
+      "version": "2.3.36-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -585,7 +585,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.2.2",
+      "version": "1.2.5",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -605,7 +605,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.0.107-pre",
+      "version": "5.0.109",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -649,7 +649,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.9.23-GTNH",
+      "version": "1.9.24-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.0.66",
+      "version": "1.0.68",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -809,12 +809,16 @@
       "side": "BOTH"
     },
     "Tainted-Magic": {
-      "version": "7.6.0-GTNH",
+      "version": "7.6.2-GTNH",
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.1.32",
+      "version": "1.1.33",
       "side": "BOTH_JAVA9"
+    },
+    "TravellersGearNeo": {
+      "version": "1.0",
+      "side": "BOTH"
     }
   },
   "external_mods": {
@@ -907,7 +911,7 @@
       "side": "BOTH"
     },
     "Travellers Gear": {
-      "version": "1.16.8-GTNH",
+      "version": "1.16.6",
       "side": "BOTH"
     },
     "Advanced Solar Panel For 1.7.10 (Unofficial)": {
@@ -947,7 +951,7 @@
       "side": "BOTH"
     },
     "Craft-Presence": {
-      "version": "2.0.0-Beta-1",
+      "version": "2.0.0-Beta-2",
       "side": "CLIENT"
     },
     "Gravitation-Suite-old": {
