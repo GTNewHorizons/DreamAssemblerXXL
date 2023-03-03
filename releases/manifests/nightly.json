@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.2.10",
-  "last_updated": "2023-03-03T11:42:59.974742",
+  "last_version": "2.3.0-RC-1",
+  "last_updated": "2023-03-03T11:48:04.518357",
   "config": "2.3.0-RC1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.0.89-gtnh",
+      "version": "1.0.88-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-171-GTNH",
+      "version": "rv3-beta-169-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.2.0-GTNH-pre",
+      "version": "3.1.8-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.3.1.64",
+      "version": "2.3.1.63",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -205,7 +205,7 @@
       "side": "BOTH"
     },
     "EnhancedLootBags": {
-      "version": "1.0.8",
+      "version": "1.0.7",
       "side": "BOTH"
     },
     "Eternal-Singularity": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.41.307",
+      "version": "5.09.41.306",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.0.38",
+      "version": "2.0.37",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -305,7 +305,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.0.19",
+      "version": "1.0.18",
       "side": "BOTH"
     },
     "IFU": {
@@ -313,7 +313,7 @@
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
-      "version": "2.2.9",
+      "version": "2.2.7",
       "side": "BOTH"
     },
     "Infernal-Mobs": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.2.9-GTNH",
+      "version": "2.2.8-GTNH",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -453,7 +453,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.37-GTNH",
+      "version": "2.3.36-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -469,7 +469,7 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.6.10-GTNH",
+      "version": "1.6.9-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
@@ -561,7 +561,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "1.11.20-GTNH",
+      "version": "1.11.19-GTNH",
       "side": "BOTH"
     },
     "StorageDrawers-BiomesOPlenty": {
@@ -605,7 +605,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.0.110",
+      "version": "5.0.109",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -669,7 +669,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.3.8.18",
+      "version": "2.3.8.17",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.0.69",
+      "version": "1.0.68",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.1.34",
+      "version": "1.1.33",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
@@ -911,7 +911,7 @@
       "side": "BOTH"
     },
     "Travellers Gear": {
-      "version": "1.16.8-GTNH",
+      "version": "1.16.6",
       "side": "BOTH"
     },
     "Advanced Solar Panel For 1.7.10 (Unofficial)": {
@@ -939,7 +939,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.4.26",
+      "version": "1.5.0",
       "side": "BOTH"
     },
     "Tinkers-Gregworks": {
