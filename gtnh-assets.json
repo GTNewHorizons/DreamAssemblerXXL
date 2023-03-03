@@ -34741,7 +34741,7 @@
     },
     {
       "name": "Travellers Gear",
-      "latest_version": "1.16.8-GTNH",
+      "latest_version": "1.16.6",
       "versions": [
         {
           "version_tag": "1.16.6",
@@ -34756,13 +34756,6 @@
             "file_no": "2262112"
           }
         },
-        {
-          "version_tag": "1.16.8-GTNH",
-          "tagged_at": "2022-01-04T22:26:00",
-          "filename": "TravellersGear-1.7.10-1.16.8-GTNH.jar",
-          "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/TravellersGear-1.7.10-1.16.8-GTNH.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/travellers-gear/files"
-        }
       ],
       "license": "Ask-Me-Before-You-Do License. Has clause against custom mod builds. ",
       "repo_url": "https://github.com/BluSunrize/TravellersGear",
