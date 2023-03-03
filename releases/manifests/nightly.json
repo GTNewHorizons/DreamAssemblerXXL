@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.0-RC-1",
-  "last_updated": "2023-03-03T11:57:22.145370",
+  "last_updated": "2023-03-03T12:02:31.807503",
   "config": "2.3.0-RC1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.2.0-GTNH-pre",
+      "version": "3.1.8-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -911,7 +911,7 @@
       "side": "BOTH"
     },
     "Travellers Gear": {
-      "version": "1.16.8-GTNH",
+      "version": "1.16.6",
       "side": "BOTH"
     },
     "Advanced Solar Panel For 1.7.10 (Unofficial)": {
