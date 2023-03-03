@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.3.0-RC1",
+    "latest_version": "2.3.0-RC2",
     "versions": [
       {
         "version_tag": "2.1.2.3qf-test",
@@ -432,6 +432,16 @@
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/97615711",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.0-RC1/2.3.0-RC1.zip",
         "extra_assets": []
+      },
+      {
+        "version_tag": "2.3.0-RC2",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2023-03-03T12:15:05+00:00",
+        "filename": "2.3.0-RC2.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/97901800",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.0-RC2/2.3.0-RC2.zip",
+        "extra_assets": []
       }
     ],
     "type": "config",
@@ -568,7 +578,7 @@
     },
     {
       "name": "AE2FluidCraft-Rework",
-      "latest_version": "1.0.88-gtnh",
+      "latest_version": "1.0.89-gtnh",
       "versions": [
         {
           "version_tag": "1.0.0-gtnh",
@@ -1389,6 +1399,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.88-gtnh/ae2fc-1.0.88-gtnh.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.88-gtnh/AE2FluidCraft-Rework-1.0.88-gtnh.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.89-gtnh",
+          "changelog": "## What's Changed\n* terminal does not update view by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/100\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.88-gtnh...1.0.89-gtnh\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-03T10:43:17+00:00",
+          "filename": "ae2fc-1.0.89-gtnh.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/97890661",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.89-gtnh/ae2fc-1.0.89-gtnh.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.89-gtnh/AE2FluidCraft-Rework-1.0.89-gtnh.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -1696,7 +1717,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-169-GTNH",
+      "latest_version": "rv3-beta-171-GTNH",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -2646,6 +2667,27 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/97573501",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-169-GTNH/appliedenergistics2-rv3-beta-169-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-169-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-169-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-170-GTNH",
+          "changelog": "## What's Changed\n* Even more ccv2 fixes by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/264\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-169-GTNH...rv3-beta-170-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-01T19:51:40+00:00",
+          "filename": "appliedenergistics2-rv3-beta-170-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/97656613",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-170-GTNH/appliedenergistics2-rv3-beta-170-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-171-GTNH",
+          "changelog": "## What's Changed\n* fix load stack size type error by @asdflj in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/266\n* crafting screen add display co-processing number of remaining operations by @asdflj in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/261\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-170-GTNH...rv3-beta-171-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-03T11:14:37+00:00",
+          "filename": "appliedenergistics2-rv3-beta-171-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/97894097",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-171-GTNH/appliedenergistics2-rv3-beta-171-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-171-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-171-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -8455,7 +8497,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.3.1.63",
+      "latest_version": "2.3.1.64",
       "versions": [
         {
           "version_tag": "2.3.0.433",
@@ -8870,6 +8912,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.63/EnderIO-2.3.1.63.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/2.3.1.63/EnderIO-2.3.1.63.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.3.1.64",
+          "changelog": "## What's Changed\n* fix item conduit settings not sent to server by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/103\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.63...2.3.1.64\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-02T18:35:44+00:00",
+          "filename": "EnderIO-2.3.1.64.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/97805033",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.3.1.64/EnderIO-2.3.1.64.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/2.3.1.64/EnderIO-2.3.1.64.jar",
+          "extra_assets": []
         }
       ],
       "license": "Original code is All Rights Reserved, GTNH modifications are licensed under the GNU Lesser General Public License v3.0.",
@@ -8986,7 +9039,7 @@
     },
     {
       "name": "EnhancedLootBags",
-      "latest_version": "1.0.7",
+      "latest_version": "1.0.8",
       "versions": [
         {
           "version_tag": "1.0.5",
@@ -9015,6 +9068,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnhancedLootBags/releases/assets/92518316",
           "browser_download_url": "https://github.com/GTNewHorizons/EnhancedLootBags/releases/download/1.0.7/EnhancedLootBags-1.7.10-1.0.7.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnhancedLootBags/1.0.7/EnhancedLootBags-1.0.7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.8",
+          "changelog": "## What's Changed\n* Fix DB not being loaded from existing save by @miozune in https://github.com/GTNewHorizons/EnhancedLootBags/pull/9\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.0.7...1.0.8\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-03T10:42:10+00:00",
+          "filename": "EnhancedLootBags-1.0.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnhancedLootBags/releases/assets/97890587",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnhancedLootBags/releases/download/1.0.8/EnhancedLootBags-1.0.8.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnhancedLootBags/1.0.8/EnhancedLootBags-1.0.8.jar",
           "extra_assets": []
         }
       ],
@@ -12492,7 +12556,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.41.306",
+      "latest_version": "5.09.41.307",
       "private": false,
       "versions": [
         {
@@ -16587,6 +16651,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.306/gregtech-5.09.41.306.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.306/GT5-Unofficial-5.09.41.306.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.41.307",
+          "changelog": "## What's Changed\n* Change steel bee breeding to GT steel block by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1780\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.306...5.09.41.307\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-03T10:50:10+00:00",
+          "filename": "gregtech-5.09.41.307.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/97891481",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.307/gregtech-5.09.41.307.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.307/GT5-Unofficial-5.09.41.307.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -19545,7 +19620,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.0.37",
+      "latest_version": "2.0.38",
       "versions": [
         {
           "version_tag": "v1.2.0",
@@ -20313,6 +20388,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.0.37/hodgepodge-2.0.37.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/2.0.37/Hodgepodge-2.0.37.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.38",
+          "changelog": "## What's Changed\n* Replace recursive line wrapping with iterative code, and prevent infinite loops. by @eigenraven in https://github.com/GTNewHorizons/Hodgepodge/pull/189\n* Stop saying twice in log which ASM transformers it's loading by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/190\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.0.37...2.0.38\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-03T11:35:57+00:00",
+          "filename": "hodgepodge-2.0.38.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/97896254",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.0.38/hodgepodge-2.0.38.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/2.0.38/Hodgepodge-2.0.38.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -20521,7 +20607,7 @@
     },
     {
       "name": "HydroEnergy",
-      "latest_version": "1.0.18",
+      "latest_version": "1.0.19",
       "versions": [
         {
           "version_tag": "latest",
@@ -20609,6 +20695,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/HydroEnergy/releases/assets/95249383",
           "browser_download_url": "https://github.com/GTNewHorizons/HydroEnergy/releases/download/1.0.18/hydroenergy-1.0.18.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HydroEnergy/1.0.18/HydroEnergy-1.0.18.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.19",
+          "changelog": "## What's Changed\n* fix IndexOutOfBounds Exception in HRPacketChunkUpdate.java by @GamerSocke in https://github.com/GTNewHorizons/HydroEnergy/pull/21\n\n## New Contributors\n* @GamerSocke made their first contribution in https://github.com/GTNewHorizons/HydroEnergy/pull/21\n\n**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.0.18...1.0.19\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-02T11:24:34+00:00",
+          "filename": "hydroenergy-1.0.19.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/HydroEnergy/releases/assets/97753797",
+          "browser_download_url": "https://github.com/GTNewHorizons/HydroEnergy/releases/download/1.0.19/hydroenergy-1.0.19.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/HydroEnergy/1.0.19/HydroEnergy-1.0.19.jar",
           "extra_assets": []
         }
       ],
@@ -20715,7 +20812,7 @@
     },
     {
       "name": "IguanaTweaksTConstruct",
-      "latest_version": "2.2.7",
+      "latest_version": "2.2.9",
       "versions": [
         {
           "version_tag": "2.1.9",
@@ -20797,6 +20894,27 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/IguanaTweaksTConstruct/releases/assets/94767499",
           "browser_download_url": "https://github.com/GTNewHorizons/IguanaTweaksTConstruct/releases/download/2.2.7/IguanaTweaksTConstruct-2.2.7.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/IguanaTweaksTConstruct/2.2.7/IguanaTweaksTConstruct-2.2.7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.8",
+          "changelog": "## What's Changed\n* do not add back gravel if there is no gravel nor flint by @Glease in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/12\n\n## New Contributors\n* @Glease made their first contribution in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/12\n\n**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.2.7...2.2.8\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-03T05:12:52+00:00",
+          "filename": "IguanaTweaksTConstruct-2.2.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/IguanaTweaksTConstruct/releases/assets/97857857",
+          "browser_download_url": "https://github.com/GTNewHorizons/IguanaTweaksTConstruct/releases/download/2.2.8/IguanaTweaksTConstruct-2.2.8.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.9",
+          "changelog": "## What's Changed\n* do not add back gravel if there is no gravel nor flint by @Glease in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/12\n\n## New Contributors\n* @Glease made their first contribution in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/12\n\n**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.2.7...2.2.9\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-03T10:42:56+00:00",
+          "filename": "IguanaTweaksTConstruct-2.2.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/IguanaTweaksTConstruct/releases/assets/97890633",
+          "browser_download_url": "https://github.com/GTNewHorizons/IguanaTweaksTConstruct/releases/download/2.2.9/IguanaTweaksTConstruct-2.2.9.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/IguanaTweaksTConstruct/2.2.9/IguanaTweaksTConstruct-2.2.9.jar",
           "extra_assets": []
         }
       ],
@@ -22526,7 +22644,7 @@
     },
     {
       "name": "lwjgl3ify",
-      "latest_version": "1.1.33",
+      "latest_version": "1.1.34",
       "private": false,
       "versions": [
         {
@@ -23242,6 +23360,27 @@
               "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.33/lwjgl3ify-1.1.33-multimc.zip"
             }
           ]
+        },
+        {
+          "version_tag": "1.1.34",
+          "changelog": "## What's Changed\n* add HoverEvent$Action to default extended enums for lotr mod compat by @mist475 in https://github.com/GTNewHorizons/lwjgl3ify/pull/26\n\n## New Contributors\n* @mist475 made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/26\n\n**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.33...1.1.34\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-02T11:23:46+00:00",
+          "filename": "lwjgl3ify-1.1.34.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/97753714",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.34/lwjgl3ify-1.1.34.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.34-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/97753711",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.34/lwjgl3ify-1.1.34-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.34-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/97753718",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.34/lwjgl3ify-1.1.34-multimc.zip"
+            }
+          ]
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -23516,7 +23655,7 @@
     },
     {
       "name": "Minecraft-Backpack-Mod",
-      "latest_version": "2.2.8-GTNH",
+      "latest_version": "2.2.9-GTNH",
       "versions": [
         {
           "version_tag": "2.2.5-GTNH",
@@ -23552,6 +23691,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Minecraft-Backpack-Mod/releases/assets/88174598",
           "browser_download_url": "https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/releases/download/2.2.8-GTNH/backpack-1.7.10-2.2.8-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Minecraft-Backpack-Mod/2.2.8-GTNH/Minecraft-Backpack-Mod-2.2.8-GTNH.jar"
+        },
+        {
+          "version_tag": "2.2.9-GTNH",
+          "changelog": "## What's Changed\n* unbind keybind by default by @Alexdoru in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/5\n\n## New Contributors\n* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/5\n\n**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.2.8-GTNH...2.2.9-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-02T22:49:18+00:00",
+          "filename": "backpack-2.2.9-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Minecraft-Backpack-Mod/releases/assets/97831985",
+          "browser_download_url": "https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/releases/download/2.2.9-GTNH/backpack-2.2.9-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Minecraft-Backpack-Mod/2.2.9-GTNH/Minecraft-Backpack-Mod-2.2.9-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -23813,7 +23963,7 @@
     },
     {
       "name": "ModularUI",
-      "latest_version": "1.0.68",
+      "latest_version": "1.0.69",
       "versions": [
         {
           "version_tag": "0.0.1",
@@ -24529,6 +24679,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/97283777",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.68/modularui-1.0.68.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.0.68/ModularUI-1.0.68.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.69",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.68...1.0.69\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-02T13:36:49+00:00",
+          "filename": "modularui-1.0.69.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/97768157",
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.69/modularui-1.0.69.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.0.69/ModularUI-1.0.69.jar",
           "extra_assets": []
         }
       ],
@@ -27190,7 +27351,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.3.36-GTNH",
+      "latest_version": "2.3.37-GTNH",
       "versions": [
         {
           "version_tag": "v2.0.0",
@@ -28089,6 +28250,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.36-GTNH/NotEnoughItems-2.3.36-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.36-GTNH/NotEnoughItems-2.3.36-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.3.37-GTNH",
+          "changelog": "## What's Changed\n* Prevent NPE with null overlayHandler by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/357\n* Prevent NPE with null value for keybind by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/358\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.36-GTNH...2.3.37-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-03T10:42:15+00:00",
+          "filename": "NotEnoughItems-2.3.37-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/97890601",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.37-GTNH/NotEnoughItems-2.3.37-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.37-GTNH/NotEnoughItems-2.3.37-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -28264,7 +28436,7 @@
     },
     {
       "name": "OpenBlocks",
-      "latest_version": "1.6.9-GTNH",
+      "latest_version": "1.6.10-GTNH",
       "versions": [
         {
           "version_tag": "1.6.1",
@@ -28298,6 +28470,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/68613342",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.6.9-GTNH/OpenBlocks-1.7.10-1.6.9-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenBlocks/1.6.9-GTNH/OpenBlocks-1.6.9-GTNH.jar"
+        },
+        {
+          "version_tag": "1.6.10-GTNH",
+          "changelog": "## What's Changed\n* unbind keybind by @Alexdoru in https://github.com/GTNewHorizons/OpenBlocks/pull/10\n\n## New Contributors\n* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/10\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.6.9-GTNH...1.6.10-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-02T22:53:54+00:00",
+          "filename": "OpenBlocks-1.6.10-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/97832253",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.6.10-GTNH/OpenBlocks-1.6.10-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenBlocks/1.6.10-GTNH/OpenBlocks-1.6.10-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
@@ -30597,7 +30780,7 @@
     },
     {
       "name": "StorageDrawers",
-      "latest_version": "1.11.19-GTNH",
+      "latest_version": "1.11.20-GTNH",
       "versions": [
         {
           "version_tag": "1.10.8b",
@@ -30711,6 +30894,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/80863446",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.19-GTNH/StorageDrawers-1.7.10-1.11.19-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers/1.11.19-GTNH/StorageDrawers-1.11.19-GTNH.jar"
+        },
+        {
+          "version_tag": "1.11.20-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.19-GTNH...1.11.20-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-01T19:17:17+00:00",
+          "filename": "StorageDrawers-1.11.20-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/97649203",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.20-GTNH/StorageDrawers-1.11.20-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers/1.11.20-GTNH/StorageDrawers-1.11.20-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -31338,7 +31532,7 @@
     },
     {
       "name": "TC-4-Tweaks",
-      "latest_version": "1.4.26",
+      "latest_version": "1.5.0",
       "needs_attention": false,
       "versions": [
         {
@@ -31392,6 +31586,19 @@
             "project_no": "",
             "file_no": "4205634"
           }
+        },
+        {
+          "version_tag": "1.5.0",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2023-03-03T12:47:35.667601",
+          "filename": "Thaumcraft4Tweaks-1.5.0.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/4419/275/Thaumcraft4Tweaks-1.5.0.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/files/4419275",
+          "curse_file": {
+            "project_no": "",
+            "file_no": "4419275"
+          }
         }
       ],
       "license": "GNU",
@@ -31403,7 +31610,7 @@
     },
     {
       "name": "TC4Tweaks",
-      "latest_version": "1.4.26",
+      "latest_version": "1.5.0",
       "versions": [
         {
           "version_tag": "1.4.7",
@@ -31478,6 +31685,16 @@
           "filename": "Thaumcraft4Tweaks-1.7.10-1.4.26.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TC4Tweaks/releases/assets/88761065",
           "browser_download_url": "https://github.com/GTNewHorizons/TC4Tweaks/releases/download/1.4.26/Thaumcraft4Tweaks-1.7.10-1.4.26.jar"
+        },
+        {
+          "version_tag": "1.5.0",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2023-03-03T11:27:06+00:00",
+          "filename": "Thaumcraft4Tweaks-1.5.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TC4Tweaks/releases/assets/97895474",
+          "browser_download_url": "https://github.com/GTNewHorizons/TC4Tweaks/releases/download/1.5.0/Thaumcraft4Tweaks-1.5.0.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Affero General Public License v3.0",
@@ -31762,7 +31979,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.0.109",
+      "latest_version": "5.0.110",
       "private": false,
       "versions": [
         {
@@ -32846,6 +33063,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/97354843",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.109/TecTech-5.0.109.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.0.109/TecTech-5.0.109.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.0.110",
+          "changelog": "## What's Changed\n* Remove Mistake in description of Energy Infuser by @LewisSaber in https://github.com/GTNewHorizons/TecTech/pull/169\n\n## New Contributors\n* @LewisSaber made their first contribution in https://github.com/GTNewHorizons/TecTech/pull/169\n\n**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.109...5.0.110\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-03T10:46:07+00:00",
+          "filename": "TecTech-5.0.110.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/97890919",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.110/TecTech-5.0.110.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.0.110/TecTech-5.0.110.jar",
           "extra_assets": []
         }
       ],
@@ -34523,7 +34751,7 @@
     },
     {
       "name": "Travellers Gear",
-      "latest_version": "1.16.8-GTNH",
+      "latest_version": "1.16.6",
       "versions": [
         {
           "version_tag": "1.16.6",
@@ -34537,13 +34765,6 @@
             "project_no": "",
             "file_no": "2262112"
           }
-        },
-        {
-          "version_tag": "1.16.8-GTNH",
-          "tagged_at": "2022-01-04T22:26:00",
-          "filename": "TravellersGear-1.7.10-1.16.8-GTNH.jar",
-          "download_url": "http://downloads.gtnewhorizons.com/Mods_for_Twitch/TravellersGear-1.7.10-1.16.8-GTNH.jar",
-          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/travellers-gear/files"
         }
       ],
       "license": "Ask-Me-Before-You-Do License. Has clause against custom mod builds. ",
@@ -34577,7 +34798,7 @@
     },
     {
       "name": "twilightforest",
-      "latest_version": "2.3.8.17",
+      "latest_version": "2.3.8.18",
       "versions": [
         {
           "version_tag": "2.3.8.9",
@@ -34651,6 +34872,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/79936516",
           "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.3.8.17/TwilightForest-1.7.10-2.3.8.17.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/twilightforest/2.3.8.17/twilightforest-2.3.8.17.jar"
+        },
+        {
+          "version_tag": "2.3.8.18",
+          "changelog": "## What's Changed\n* Fix tremendous lag from dropped item entitites by @Alexdoru in https://github.com/GTNewHorizons/twilightforest/pull/18\n\n## New Contributors\n* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/18\n\n**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.3.8.17...2.3.8.18\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-03T11:23:22+00:00",
+          "filename": "TwilightForest-2.3.8.18.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/97895138",
+          "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.3.8.18/TwilightForest-2.3.8.18.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/twilightforest/2.3.8.18/twilightforest-2.3.8.18.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v2.1",
