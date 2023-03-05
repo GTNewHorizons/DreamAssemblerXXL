@@ -383,6 +383,9 @@ class Window(ThemedTk, Tk):
 
             await release_assembler.assemble(Side.CLIENT, verbose=True)
 
+            await self.assemble_release(Side.CLIENT_JAVA9, Archive.MMC)
+            await self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)
+
             # todo: redo the bar resets less hacky: they are update_all spread update_all over the place and it's inconsistent
             if release_assembler.current_task_reset_callback is not None:
                 release_assembler.current_task_reset_callback()
