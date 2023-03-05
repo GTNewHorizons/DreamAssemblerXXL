@@ -165,7 +165,7 @@ class ReleaseList(LabelFrame, TtkLabelFrame):  # type: ignore
             self.rowconfigure(i, weight=1, pad=self.xpadding)
 
         self.listbox.grid(row=x, column=y, columnspan=2, sticky=Position.ALL)
-        self.loaded_version.grid(row=x + 1, column=y)
+        self.loaded_version.grid(row=x + 1, column=y, columnspan=2)
         self.btn_load.grid(row=x + 2, column=y)
         self.btn_del.grid(row=x + 2, column=y + 1)
         self.modpack.grid(row=x + 3, column=y)
