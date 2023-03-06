@@ -5,7 +5,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
-from gtnh.defs import MMC_PACK_INSTANCE, MMC_PACK_JSON, RELEASE_MMC_DIR, Side
+from gtnh.defs import JAVA_9_ARCHIVE_SUFFIX, MMC_PACK_INSTANCE, MMC_PACK_JSON, RELEASE_MMC_DIR, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
@@ -100,10 +100,10 @@ class MMCAssembler(GenericAssembler):
         self.add_changelog(archive, arcname=self.mmc_modpack_files / self.changelog_path.name)
 
     def get_archive_path(self, side: Side) -> Path:
-        j9suffix = ""
+        java_suffix = "_(MultiMC)"
         if side.is_java9():
-            j9suffix = "_Java9"
-        return RELEASE_MMC_DIR / f"GT_New_Horizons_{self.release.version}_(MMC){j9suffix}.zip"
+            java_suffix = "_(PrismLauncher)_" + JAVA_9_ARCHIVE_SUFFIX
+        return RELEASE_MMC_DIR / f"GT_New_Horizons_{self.release.version}{java_suffix}.zip"
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         if side not in {Side.CLIENT, Side.CLIENT_JAVA9}:
