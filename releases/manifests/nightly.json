@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "2.3.0-RC-1",
-  "last_updated": "2023-03-03T12:16:28.053408",
-  "config": "2.3.0-RC1",
+  "last_updated": "2023-03-06T06:44:24.254232",
+  "config": "2.3.0-RC2",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.0.8-GTNH",
+      "version": "1.0.9-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.0.89-gtnh",
+      "version": "1.0.91-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-171-GTNH",
+      "version": "rv3-beta-173-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -73,7 +73,7 @@
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
-      "version": "1.3.36-GTNH",
+      "version": "1.3.37-GTNH",
       "side": "CLIENT"
     },
     "BetterP2P": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.1.8-GTNH",
+      "version": "3.2.0-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.3.1.64",
+      "version": "2.3.1.68",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.58-GTNH",
+      "version": "1.1.60-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.41.307",
+      "version": "5.09.41.310",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.7.225",
+      "version": "1.7.226",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.0.38",
+      "version": "2.0.43",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.7.17",
+      "version": "0.7.18",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -453,7 +453,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.37-GTNH",
+      "version": "2.3.38-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -605,7 +605,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.0.110",
+      "version": "5.0.113",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -625,7 +625,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.3.28-GTNH",
+      "version": "1.3.29-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -633,7 +633,7 @@
       "side": "BOTH"
     },
     "thaumicinsurgence": {
-      "version": "0.1.2",
+      "version": "0.1.3",
       "side": "BOTH"
     },
     "ThaumicInventoryScanning": {
@@ -681,7 +681,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.5.23",
+      "version": "1.5.24",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -797,7 +797,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.0.5",
+      "version": "1.0.6",
       "side": "BOTH"
     },
     "MrTJPCore": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.1.34",
+      "version": "1.1.37",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
