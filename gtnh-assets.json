@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.3.0-RC2",
+    "latest_version": "2.3.0-RC3",
     "versions": [
       {
         "version_tag": "2.1.2.3qf-test",
@@ -441,6 +441,16 @@
         "filename": "2.3.0-RC2.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/97901800",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.0-RC2/2.3.0-RC2.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.3.0-RC3",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2023-03-06T07:02:42+00:00",
+        "filename": "2.3.0-RC3.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/98204591",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.0-RC3/2.3.0-RC3.zip",
         "extra_assets": []
       }
     ],
