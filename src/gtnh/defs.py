@@ -91,6 +91,9 @@ notes=
 """
 
 
+JAVA_9_ARCHIVE_SUFFIX = "Java_17-19"
+
+
 class Side(str, Enum):
     SERVER = "SERVER"
     CLIENT = "CLIENT"
@@ -127,6 +130,14 @@ class Side(str, Enum):
 
     def is_client(self) -> bool:
         return self in {Side.CLIENT, Side.CLIENT_JAVA9}
+
+    def archive_name(self) -> str:
+        if self == Side.CLIENT_JAVA9:
+            return f"Client_{JAVA_9_ARCHIVE_SUFFIX}"
+        elif self == Side.SERVER_JAVA9:
+            return f"Server_{JAVA_9_ARCHIVE_SUFFIX}"
+        else:
+            return self.value.capitalize()
 
 
 class VersionableType(str, Enum):

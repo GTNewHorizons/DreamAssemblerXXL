@@ -103,7 +103,7 @@ class ZipAssembler(GenericAssembler):
         self.add_changelog(archive)
 
     def get_archive_path(self, side: Side) -> Path:
-        return RELEASE_ZIP_DIR / f"GT_New_Horizons_{self.release.version}_{side.value}.zip"
+        return RELEASE_ZIP_DIR / f"GT_New_Horizons_{self.release.version}_{side.archive_name()}.zip"
 
     async def assemble(self, side: Side, verbose: bool = False, server_brand: ServerBrand = ServerBrand.forge) -> None:
         """
