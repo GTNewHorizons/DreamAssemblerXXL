@@ -100,10 +100,10 @@ class MMCAssembler(GenericAssembler):
         self.add_changelog(archive, arcname=self.mmc_modpack_files / self.changelog_path.name)
 
     def get_archive_path(self, side: Side) -> Path:
-        java_suffix = "_(MultiMC)"
+        suffix = "_(MultiMC)"
         if side.is_java9():
-            java_suffix = "_(PrismLauncher)_" + JAVA_9_ARCHIVE_SUFFIX
-        return RELEASE_MMC_DIR / f"GT_New_Horizons_{self.release.version}{java_suffix}.zip"
+            suffix = f"_(PrismLauncher)_{JAVA_9_ARCHIVE_SUFFIX}"
+        return RELEASE_MMC_DIR / f"GT_New_Horizons_{self.release.version}{suffix}.zip"
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         if side not in {Side.CLIENT, Side.CLIENT_JAVA9}:
