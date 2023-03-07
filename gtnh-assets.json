@@ -1461,6 +1461,7 @@
           "filename": "ae2fc-1.0.92-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/98443122",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.92-gtnh/ae2fc-1.0.92-gtnh.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.92-gtnh/AE2FluidCraft-Rework-1.0.92-gtnh.jar",
           "extra_assets": []
         }
       ],
@@ -2771,6 +2772,7 @@
           "filename": "appliedenergistics2-rv3-beta-174-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/98443062",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-174-GTNH/appliedenergistics2-rv3-beta-174-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-174-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-174-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -4328,6 +4330,7 @@
           "filename": "bartworks-0.5.163.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/98300409",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.5.163/bartworks-0.5.163.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.5.163/bartworks-0.5.163.jar",
           "extra_assets": []
         }
       ],
@@ -10990,6 +10993,7 @@
           "filename": "Galacticraft-3.0.67-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/98229636",
           "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.67-GTNH/Galacticraft-3.0.67-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Galacticraft/3.0.67-GTNH/Galacticraft-3.0.67-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -12753,6 +12757,7 @@
           "filename": "gravisuiteneo-1.0.8.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Gravitation-Suite-Neo/releases/assets/98443022",
           "browser_download_url": "https://github.com/GTNewHorizons/Gravitation-Suite-Neo/releases/download/1.0.8/gravisuiteneo-1.0.8.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Gravitation-Suite-Neo/1.0.8/Gravitation-Suite-Neo-1.0.8.jar",
           "extra_assets": []
         }
       ],
@@ -22835,6 +22840,7 @@
           "filename": "logisticspipes-0.9.4.5.13-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/LogisticsPipes/releases/assets/98229709",
           "browser_download_url": "https://github.com/GTNewHorizons/LogisticsPipes/releases/download/0.9.4.5.13-GTNH/logisticspipes-0.9.4.5.13-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LogisticsPipes/0.9.4.5.13-GTNH/LogisticsPipes-0.9.4.5.13-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -25084,6 +25090,7 @@
           "filename": "modularui-1.0.70.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/98349675",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.70/modularui-1.0.70.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.0.70/ModularUI-1.0.70.jar",
           "extra_assets": []
         }
       ],
@@ -28685,6 +28692,7 @@
           "filename": "NotEnoughItems-2.3.39-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/98287088",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.39-GTNH/NotEnoughItems-2.3.39-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.39-GTNH/NotEnoughItems-2.3.39-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -33540,6 +33548,7 @@
           "filename": "TecTech-5.0.114.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/98443105",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.114/TecTech-5.0.114.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.0.114/TecTech-5.0.114.jar",
           "extra_assets": []
         }
       ],
@@ -34038,6 +34047,7 @@
           "filename": "thaumicenergistics-1.3.30-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/98400457",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.3.30-GTNH/thaumicenergistics-1.3.30-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicEnergistics/1.3.30-GTNH/ThaumicEnergistics-1.3.30-GTNH.jar",
           "extra_assets": []
         }
       ],
