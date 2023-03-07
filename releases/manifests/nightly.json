@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.0-RC-2",
-  "last_updated": "2023-03-06T07:06:43.155491",
+  "last_updated": "2023-03-07T20:58:05.085503",
   "config": "2.3.0-RC3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.0.91-gtnh",
+      "version": "1.0.92-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-173-GTNH",
+      "version": "rv3-beta-174-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.5.162",
+      "version": "0.5.163",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.1.8-GTNH",
+      "version": "3.2.0-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.0.66-GTNH",
+      "version": "3.0.67-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "0.9.4.5.12-GTNH",
+      "version": "0.9.4.5.13-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -441,7 +441,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "1.9.168",
+      "version": "1.9.169",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -453,7 +453,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.38-GTNH",
+      "version": "2.3.39-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -605,7 +605,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.0.113",
+      "version": "5.0.114",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -625,7 +625,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.3.29-GTNH",
+      "version": "1.3.30-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.0.69",
+      "version": "1.0.70",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -797,7 +797,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.0.6",
+      "version": "1.0.8",
       "side": "BOTH"
     },
     "MrTJPCore": {
