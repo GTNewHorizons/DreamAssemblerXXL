@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.0-RC-3",
-  "last_updated": "2023-03-10T10:35:22.836046",
+  "last_updated": "2023-03-10T19:01:40.244535",
   "config": "2.3.0-RC4",
   "github_mods": {
     "AdventureBackpack2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.1.8-GTNH",
+      "version": "3.2.0-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.41.314",
+      "version": "5.09.41.315",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -441,7 +441,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "1.9.169",
+      "version": "1.9.170",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -649,7 +649,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.9.24-GTNH",
+      "version": "1.9.25-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {

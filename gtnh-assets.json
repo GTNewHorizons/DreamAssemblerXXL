@@ -12822,7 +12822,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.41.314",
+      "latest_version": "5.09.41.315",
       "private": false,
       "versions": [
         {
@@ -16999,6 +16999,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/98663127",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.314/gregtech-5.09.41.314.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.314/GT5-Unofficial-5.09.41.314.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.41.315",
+          "changelog": "## What's Changed\n* Fix advanced external redstone transmitter cover by @dipo33 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1793\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.314...5.09.41.315\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T17:35:38+00:00",
+          "filename": "gregtech-5.09.41.315.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/98869967",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.315/gregtech-5.09.41.315.jar",
           "extra_assets": []
         }
       ],
@@ -26027,7 +26037,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "1.9.169",
+      "latest_version": "1.9.170",
       "private": false,
       "versions": [
         {
@@ -27598,6 +27608,16 @@
           "filename": "GTNewHorizonsCoreMod-1.9.169.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/98284842",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.169/GTNewHorizonsCoreMod-1.9.169.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.170",
+          "changelog": "## What's Changed\n* add ae2fc cells recipe by @asdflj in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/537\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.169...1.9.170\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T18:18:33+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.9.170.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/98874148",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.170/GTNewHorizonsCoreMod-1.9.170.jar",
           "extra_assets": []
         }
       ],
@@ -34799,7 +34819,7 @@
     },
     {
       "name": "TinkersConstruct",
-      "latest_version": "1.9.24-GTNH",
+      "latest_version": "1.9.25-GTNH",
       "versions": [
         {
           "version_tag": "1,8.9-GTNH",
@@ -35250,6 +35270,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/97428516",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.24-GTNH/TConstruct-1.9.24-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/1.9.24-GTNH/TinkersConstruct-1.9.24-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.25-GTNH",
+          "changelog": "## What's Changed\n* Fix: Adding Tooltips to Modifier Items by @Ethryan in https://github.com/GTNewHorizons/TinkersConstruct/pull/77\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.24-GTNH...1.9.25-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T18:52:46+00:00",
+          "filename": "TConstruct-1.9.25-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/98877624",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.25-GTNH/TConstruct-1.9.25-GTNH.jar",
           "extra_assets": []
         }
       ],
