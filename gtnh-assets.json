@@ -4918,6 +4918,7 @@
           "filename": "betterloadingscreen-1.3.38-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/98899542",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.38-GTNH/betterloadingscreen-1.3.38-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/1.3.38-GTNH/BetterLoadingScreen-1.3.38-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -17030,6 +17031,7 @@
           "filename": "gregtech-5.09.41.316.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/98903784",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.316/gregtech-5.09.41.316.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.316/GT5-Unofficial-5.09.41.316.jar",
           "extra_assets": []
         }
       ],
