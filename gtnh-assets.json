@@ -4840,7 +4840,7 @@
     },
     {
       "name": "BetterLoadingScreen",
-      "latest_version": "1.3.37-GTNH",
+      "latest_version": "1.3.38-GTNH",
       "versions": [
         {
           "version_tag": "1.3.30-GTNH",
@@ -4908,6 +4908,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/98129073",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.37-GTNH/betterloadingscreen-1.3.37-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/1.3.37-GTNH/BetterLoadingScreen-1.3.37-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.38-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.3.37-GTNH...1.3.38-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T22:21:32+00:00",
+          "filename": "betterloadingscreen-1.3.38-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/98899542",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.38-GTNH/betterloadingscreen-1.3.38-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -12822,7 +12832,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.41.315",
+      "latest_version": "5.09.41.316",
       "private": false,
       "versions": [
         {
@@ -17010,6 +17020,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/98869967",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.315/gregtech-5.09.41.315.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.315/GT5-Unofficial-5.09.41.315.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.41.316",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.315...5.09.41.316\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T23:12:58+00:00",
+          "filename": "gregtech-5.09.41.316.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/98903784",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.316/gregtech-5.09.41.316.jar",
           "extra_assets": []
         }
       ],
@@ -23099,7 +23119,7 @@
     },
     {
       "name": "lwjgl3ify",
-      "latest_version": "1.1.37",
+      "latest_version": "1.1.38",
       "private": false,
       "versions": [
         {
@@ -23897,6 +23917,27 @@
               "filename": "lwjgl3ify-1.1.37-multimc.zip",
               "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/98121686",
               "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.37/lwjgl3ify-1.1.37-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.38",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.37...1.1.38\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T20:07:33+00:00",
+          "filename": "lwjgl3ify-1.1.38.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/98885924",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.38/lwjgl3ify-1.1.38.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.38-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/98885925",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.38/lwjgl3ify-1.1.38-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.38-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/98885928",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.38/lwjgl3ify-1.1.38-multimc.zip"
             }
           ]
         }
@@ -26038,7 +26079,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "1.9.170",
+      "latest_version": "1.9.171",
       "private": false,
       "versions": [
         {
@@ -27619,6 +27660,16 @@
           "filename": "GTNewHorizonsCoreMod-1.9.170.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/98874148",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.170/GTNewHorizonsCoreMod-1.9.170.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.171",
+          "changelog": "## What's Changed\n* Fix for Tungstensteel Ingots Needing TPV Coils by @Steelux8 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/538\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.170...1.9.171\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T23:10:14+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.9.171.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/98903515",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.171/GTNewHorizonsCoreMod-1.9.171.jar",
           "extra_assets": []
         }
       ],
