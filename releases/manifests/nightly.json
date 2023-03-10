@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.3.0-RC-2",
-  "last_updated": "2023-03-07T20:58:05.085503",
+  "last_version": "2.3.0-RC-3",
+  "last_updated": "2023-03-10T10:19:58.301898",
   "config": "2.3.0-RC3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-174-GTNH",
+      "version": "rv3-beta-175-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.5.163",
+      "version": "0.5.164",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.2.0-GTNH-pre",
+      "version": "3.1.8-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.60-GTNH",
+      "version": "1.1.61-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -257,11 +257,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.4.87",
+      "version": "0.4.88",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.41.310",
+      "version": "5.09.41.314",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.7.226",
+      "version": "1.7.227",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.7.18",
+      "version": "0.7.19",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -585,7 +585,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.2.5",
+      "version": "1.2.6",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -633,7 +633,7 @@
       "side": "BOTH"
     },
     "thaumicinsurgence": {
-      "version": "0.1.3",
+      "version": "0.1.4",
       "side": "BOTH"
     },
     "ThaumicInventoryScanning": {
@@ -689,7 +689,7 @@
       "side": "BOTH"
     },
     "WAILAPlugins": {
-      "version": "0.2.5",
+      "version": "0.2.6",
       "side": "BOTH"
     },
     "WanionLib": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.0.70",
+      "version": "1.0.71",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -939,7 +939,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.0",
+      "version": "1.5.3",
       "side": "BOTH"
     },
     "Tinkers-Gregworks": {
