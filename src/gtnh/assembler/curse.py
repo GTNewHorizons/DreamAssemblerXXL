@@ -292,7 +292,7 @@ class CurseAssembler(GenericAssembler):
                 assert version.curse_file  # make mypy happy
                 # ignoring mypy errors here because it's all good in the check above
                 files.append(
-                    {"projectID": version.curse_file.project_no, "fileID": version.curse_file.file_no, "required": True}
+                    {"projectID": int(version.curse_file.project_no), "fileID": int(version.curse_file.file_no), "required": True}
                 )
 
         metadata["files"] = files
