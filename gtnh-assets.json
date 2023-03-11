@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.3.0-RC4",
+    "latest_version": "2.3.0",
     "versions": [
       {
         "version_tag": "2.1.2.3qf-test",
@@ -461,6 +461,16 @@
         "filename": "2.3.0-RC4.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/98817489",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.0-RC4/2.3.0-RC4.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.3.0",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2023-03-11T08:39:47+00:00",
+        "filename": "2.3.0.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/98945674",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.0/2.3.0.zip",
         "extra_assets": []
       }
     ],
@@ -4840,7 +4850,7 @@
     },
     {
       "name": "BetterLoadingScreen",
-      "latest_version": "1.3.37-GTNH",
+      "latest_version": "1.3.39-GTNH",
       "versions": [
         {
           "version_tag": "1.3.30-GTNH",
@@ -4908,6 +4918,28 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/98129073",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.37-GTNH/betterloadingscreen-1.3.37-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/1.3.37-GTNH/BetterLoadingScreen-1.3.37-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.38-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.3.37-GTNH...1.3.38-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T22:21:32+00:00",
+          "filename": "betterloadingscreen-1.3.38-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/98899542",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.38-GTNH/betterloadingscreen-1.3.38-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/1.3.38-GTNH/BetterLoadingScreen-1.3.38-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.39-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.3.38-GTNH...1.3.39-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-11T08:23:25+00:00",
+          "filename": "betterloadingscreen-1.3.39-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/98944902",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.39-GTNH/betterloadingscreen-1.3.39-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/1.3.39-GTNH/BetterLoadingScreen-1.3.39-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -12822,7 +12854,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.41.314",
+      "latest_version": "5.09.41.317",
       "private": false,
       "versions": [
         {
@@ -16603,7 +16635,6 @@
           "filename": "gregtech-5.09.41.275.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/95350494",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.275/gregtech-5.09.41.275.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.275/GT5-Unofficial-5.09.41.275.jar",
           "extra_assets": []
         },
         {
@@ -16704,7 +16735,6 @@
           "filename": "gregtech-5.09.41.285.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/96095990",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.285/gregtech-5.09.41.285.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.285/GT5-Unofficial-5.09.41.285.jar",
           "extra_assets": []
         },
         {
@@ -16915,7 +16945,6 @@
           "filename": "gregtech-5.09.41.306.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/97600990",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.306/gregtech-5.09.41.306.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.306/GT5-Unofficial-5.09.41.306.jar",
           "extra_assets": []
         },
         {
@@ -16926,7 +16955,6 @@
           "filename": "gregtech-5.09.41.307.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/97891481",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.307/gregtech-5.09.41.307.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.307/GT5-Unofficial-5.09.41.307.jar",
           "extra_assets": []
         },
         {
@@ -16957,7 +16985,6 @@
           "filename": "gregtech-5.09.41.310.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/98120939",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.310/gregtech-5.09.41.310.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.310/GT5-Unofficial-5.09.41.310.jar",
           "extra_assets": []
         },
         {
@@ -16998,7 +17025,38 @@
           "filename": "gregtech-5.09.41.314.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/98663127",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.314/gregtech-5.09.41.314.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.314/GT5-Unofficial-5.09.41.314.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.41.315",
+          "changelog": "## What's Changed\n* Fix advanced external redstone transmitter cover by @dipo33 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1793\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.314...5.09.41.315\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T17:35:38+00:00",
+          "filename": "gregtech-5.09.41.315.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/98869967",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.315/gregtech-5.09.41.315.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.41.316",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.315...5.09.41.316\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T23:12:58+00:00",
+          "filename": "gregtech-5.09.41.316.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/98903784",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.316/gregtech-5.09.41.316.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.316/GT5-Unofficial-5.09.41.316.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.41.317",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.316...5.09.41.317\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T23:43:21+00:00",
+          "filename": "gregtech-5.09.41.317.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/98905775",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.41.317/gregtech-5.09.41.317.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.41.317/GT5-Unofficial-5.09.41.317.jar",
           "extra_assets": []
         }
       ],
@@ -23088,7 +23146,7 @@
     },
     {
       "name": "lwjgl3ify",
-      "latest_version": "1.1.37",
+      "latest_version": "1.1.38",
       "private": false,
       "versions": [
         {
@@ -23886,6 +23944,27 @@
               "filename": "lwjgl3ify-1.1.37-multimc.zip",
               "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/98121686",
               "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.37/lwjgl3ify-1.1.37-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.38",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.37...1.1.38\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T20:07:33+00:00",
+          "filename": "lwjgl3ify-1.1.38.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/98885924",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.38/lwjgl3ify-1.1.38.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.38-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/98885925",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.38/lwjgl3ify-1.1.38-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.38-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/98885928",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.38/lwjgl3ify-1.1.38-multimc.zip"
             }
           ]
         }
@@ -26027,7 +26106,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "1.9.169",
+      "latest_version": "1.9.171",
       "private": false,
       "versions": [
         {
@@ -27598,6 +27677,26 @@
           "filename": "GTNewHorizonsCoreMod-1.9.169.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/98284842",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.169/GTNewHorizonsCoreMod-1.9.169.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.170",
+          "changelog": "## What's Changed\n* add ae2fc cells recipe by @asdflj in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/537\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.169...1.9.170\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T18:18:33+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.9.170.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/98874148",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.170/GTNewHorizonsCoreMod-1.9.170.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.171",
+          "changelog": "## What's Changed\n* Fix for Tungstensteel Ingots Needing TPV Coils by @Steelux8 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/538\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.170...1.9.171\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T23:10:14+00:00",
+          "filename": "GTNewHorizonsCoreMod-1.9.171.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/98903515",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/1.9.171/GTNewHorizonsCoreMod-1.9.171.jar",
           "extra_assets": []
         }
       ],
@@ -34799,7 +34898,7 @@
     },
     {
       "name": "TinkersConstruct",
-      "latest_version": "1.9.24-GTNH",
+      "latest_version": "1.9.25-GTNH",
       "versions": [
         {
           "version_tag": "1,8.9-GTNH",
@@ -35250,6 +35349,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/97428516",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.24-GTNH/TConstruct-1.9.24-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/1.9.24-GTNH/TinkersConstruct-1.9.24-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.25-GTNH",
+          "changelog": "## What's Changed\n* Fix: Adding Tooltips to Modifier Items by @Ethryan in https://github.com/GTNewHorizons/TinkersConstruct/pull/77\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.24-GTNH...1.9.25-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-10T18:52:46+00:00",
+          "filename": "TConstruct-1.9.25-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/98877624",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.25-GTNH/TConstruct-1.9.25-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/1.9.25-GTNH/TinkersConstruct-1.9.25-GTNH.jar",
           "extra_assets": []
         }
       ],

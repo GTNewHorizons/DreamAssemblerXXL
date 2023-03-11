@@ -18,9 +18,16 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/273 (rv3-beta-173-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.41.310@BOTH --> 5.09.41.314@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.309...5.09.41.314
+# Updated BetterQuesting (3.1.8-GTNH@BOTH --> 3.2.0-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.1.7-GTNH...3.2.0-GTNH-pre
 >## What's Changed
+> * More quest resetting fixes by @eigenraven in https://github.com/GTNewHorizons/BetterQuesting/pull/88 (3.1.8-GTNH)
+>
+
+# Updated GT5-Unofficial (5.09.41.310@BOTH --> 5.09.41.315@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.309...5.09.41.315
+>## What's Changed
+> * Fix advanced external redstone transmitter cover by @dipo33 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1793 (5.09.41.315)
 > * Send cover data immediately when cover is placed by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1791 (5.09.41.314)
 > * migrate ore prefixes from gt++ and bw by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1792 (5.09.41.314)
 > * Fix EU/t on TPM showing as 0 because of wireless EU by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1789 (5.09.41.313)
@@ -98,9 +105,10 @@
 # Updated ModularUI (1.0.69@BOTH --> 1.0.71@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.68...1.0.71
 
-# Updated NewHorizonsCoreMod (1.9.168@BOTH --> 1.9.169@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.166...1.9.169
+# Updated NewHorizonsCoreMod (1.9.168@BOTH --> 1.9.170@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.166...1.9.170
 >## What's Changed
+> * add ae2fc cells recipe by @asdflj in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/537 (1.9.170)
 > * Iridium Neutron Reflector recipes skip by @RaitGamerGR in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/536 (1.9.169)
 > * Delete HoverModeFix and move it to GraviSuiteNeo by @Glease in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/535 (1.9.169)
 > * Use new method for tiered tooltips by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/534 (1.9.168)
@@ -138,6 +146,13 @@
 >
 >## New Contributors
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/35 (1.3.29-GTNH)
+>
+
+# Updated TinkersConstruct (1.9.24-GTNH@BOTH --> 1.9.25-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.23-GTNH...1.9.25-GTNH
+>## What's Changed
+> * Fix: Adding Tooltips to Modifier Items by @Ethryan in https://github.com/GTNewHorizons/TinkersConstruct/pull/77 (1.9.25-GTNH)
+> * Fix texture for alumite axe handle by @miozune in https://github.com/GTNewHorizons/TinkersConstruct/pull/76 (1.9.24-GTNH)
 >
 
 # Updated WAILAPlugins (0.2.5@BOTH --> 0.2.6@BOTH)
