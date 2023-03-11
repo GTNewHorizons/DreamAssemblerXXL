@@ -405,8 +405,8 @@
 > * @Kiwi233 made their first contribution in https://github.com/GTNewHorizons/BetterCrashes/pull/6 (1.1.6-GTNH)
 >
 
-# Updated BetterLoadingScreen (1.3.36-GTNH --> 1.3.38-GTNH@CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.3.35-GTNH...1.3.38-GTNH
+# Updated BetterLoadingScreen (1.3.36-GTNH --> 1.3.39-GTNH@CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.3.35-GTNH...1.3.39-GTNH
 >## What's Changed
 > * Fix zombie splash threads keeping MC alive if the main thread crashes by @eigenraven in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/14 (1.3.37-GTNH)
 >
@@ -1029,8 +1029,8 @@
 > * Fix forgelin coremod not being loaded by @Glease in https://github.com/GTNewHorizons/Forgelin/pull/8 (1.9.6-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.41.61 --> 5.09.41.316@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.60...5.09.41.316
+# Updated GT5-Unofficial (5.09.41.61 --> 5.09.41.317@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.60...5.09.41.317
 >## What's Changed
 > * Fix advanced external redstone transmitter cover by @dipo33 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1793 (5.09.41.315)
 > * Send cover data immediately when cover is placed by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1791 (5.09.41.314)
