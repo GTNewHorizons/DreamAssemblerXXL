@@ -4840,7 +4840,7 @@
     },
     {
       "name": "BetterLoadingScreen",
-      "latest_version": "1.3.38-GTNH",
+      "latest_version": "1.3.39-GTNH",
       "versions": [
         {
           "version_tag": "1.3.30-GTNH",
@@ -4919,6 +4919,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/98899542",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.38-GTNH/betterloadingscreen-1.3.38-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/1.3.38-GTNH/BetterLoadingScreen-1.3.38-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.39-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.3.38-GTNH...1.3.39-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-11T08:23:25+00:00",
+          "filename": "betterloadingscreen-1.3.39-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/98944902",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.39-GTNH/betterloadingscreen-1.3.39-GTNH.jar",
           "extra_assets": []
         }
       ],

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.0.0",
-  "last_updated": "2023-03-11T08:27:00.621649",
+  "last_updated": "2023-03-11T08:28:40.126290",
   "config": "2.3.0-RC4",
   "github_mods": {
     "AdventureBackpack2": {
@@ -73,7 +73,7 @@
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
-      "version": "1.3.38-GTNH",
+      "version": "1.3.39-GTNH",
       "side": "CLIENT"
     },
     "BetterP2P": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.1.8-GTNH",
+      "version": "3.2.0-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.41.316",
+      "version": "5.09.41.317",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
