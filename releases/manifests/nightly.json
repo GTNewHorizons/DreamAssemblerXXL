@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.0.0",
-  "last_updated": "2023-03-11T08:40:49.516464",
+  "last_updated": "2023-03-12T21:04:07.777553",
   "config": "2.3.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.0.92-gtnh",
+      "version": "1.0.94-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-175-GTNH",
+      "version": "rv3-beta-179-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.5.164",
+      "version": "0.6.0",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterCrashes": {
-      "version": "1.1.9-GTNH",
+      "version": "1.2.0-GTNH",
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.1.8-GTNH",
+      "version": "3.2.0-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.3.1.68",
+      "version": "2.4.1-pre",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -205,7 +205,7 @@
       "side": "BOTH"
     },
     "EnhancedLootBags": {
-      "version": "1.0.8",
+      "version": "1.1.0",
       "side": "BOTH"
     },
     "Eternal-Singularity": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "ExtraCells2": {
-      "version": "2.5.32",
+      "version": "2.5.33",
       "side": "BOTH"
     },
     "FindIt": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.61-GTNH",
+      "version": "1.1.63-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -261,11 +261,11 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.41.317",
+      "version": "5.09.42.00",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
-      "version": "1.0.28",
+      "version": "1.0.29",
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.7.227",
+      "version": "1.8.3",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.7.19",
+      "version": "0.8.0",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -441,7 +441,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "1.9.171",
+      "version": "2.0.0",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -529,7 +529,7 @@
       "side": "BOTH"
     },
     "Schematica": {
-      "version": "1.9.2-GTNH",
+      "version": "1.9.3-GTNH",
       "side": "CLIENT"
     },
     "SGCraft": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.0.71",
+      "version": "1.1.0",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -745,7 +745,7 @@
       "side": "CLIENT"
     },
     "GigaGramFab": {
-      "version": "0.1.8",
+      "version": "0.1.9",
       "side": "BOTH"
     },
     "NotEnoughIds": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.1.38",
+      "version": "1.1.39",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
