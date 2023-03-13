@@ -57,9 +57,10 @@
 > * TC4Tweaks
 > * Tainted Magic
 > * TinkersGregworks
-# Updated AE2FluidCraft-Rework (1.0.18-gtnh --> 1.0.94-gtnh@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.17-gtnh...1.0.94-gtnh
+# Updated AE2FluidCraft-Rework (1.0.18-gtnh --> 1.0.95-gtnh@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.17-gtnh...1.0.95-gtnh
 >## What's Changed
+> * craft confirm screen add cpu select support by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/99 (1.0.95-gtnh)
 > * fc terminal add type filter by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/98 (1.0.94-gtnh)
 > * fix fc pattern terminal shift click will use not support item to fill slot by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/103 (1.0.92-gtnh)
 > * fix cant Take/Put items in Universal Terminal by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/102 (1.0.91-gtnh)
@@ -416,9 +417,10 @@
 > * Fix zombie splash threads keeping MC alive if the main thread crashes by @eigenraven in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/14 (1.3.37-GTNH)
 >
 
-# Updated BetterP2P (1.0.12 --> 1.0.23@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.0.11...1.0.23
+# Updated BetterP2P (1.0.12 --> 1.0.24-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.0.11...1.0.24-pre
 >## What's Changed
+> * Dev/firenoo/filter by @Dream-Master in https://github.com/GTNewHorizons/BetterP2P/pull/22 (1.0.24-pre)
 > * Rework the Advanced Memory Card's internal mechanisms. by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/18 (1.0.23)
 > * Fix P2P interface voiding/not saving settings on Adv. Mem. Card rebind by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/19 (1.0.23)
 > * Fix disappearing bind button when renaming search by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/17 (1.0.19)
@@ -428,6 +430,7 @@
 > * keep search text by @asdflj in https://github.com/GTNewHorizons/BetterP2P/pull/13 (1.0.12)
 >
 >## New Contributors
+> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/BetterP2P/pull/22 (1.0.24-pre)
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/BetterP2P/pull/15 (1.0.16)
 >
 
@@ -786,8 +789,8 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/DefaultWorldGenerator/pull/2 (0.2)
 >
 
-# Updated DetravScannerMod (1.6.9 --> 1.6.9@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/DetravScannerMod/compare/1.6.8...1.6.9
+# Updated DetravScannerMod (1.6.9 --> 1.6.10-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/DetravScannerMod/compare/1.6.8...1.6.10-pre
 >## What's Changed
 > * Added missing gtpp ores by @minecraft7771 in https://github.com/GTNewHorizons/DetravScannerMod/pull/26 (1.6.9)
 > * Changed bw localization by @minecraft7771 in https://github.com/GTNewHorizons/DetravScannerMod/pull/27 (1.6.9)
@@ -979,8 +982,8 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/ForbiddenMagic/pull/9 (0.6.4-GTNH)
 >
 
-# Updated ForestryMC (4.4.15 --> 4.5.8@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.4.14...4.5.8
+# Updated ForestryMC (4.4.15 --> 4.5.9-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.4.14...4.5.9-pre
 >## What's Changed
 > * Fix typo by @Ethryan in https://github.com/GTNewHorizons/ForestryMC/pull/43 (4.5.8)
 > * Fixed Secondary Species Primary Production by @hacatu in https://github.com/GTNewHorizons/ForestryMC/pull/40 (4.5.7)
@@ -1038,8 +1041,8 @@
 > * Fix forgelin coremod not being loaded by @Glease in https://github.com/GTNewHorizons/Forgelin/pull/8 (1.9.6-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.41.61 --> 5.09.42.00@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.60...5.09.42.00
+# Updated GT5-Unofficial (5.09.41.61 --> 5.09.42.01-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.60...5.09.42.01-pre
 >## What's Changed
 > * Add regulator abilities to Steam Valve by @NexusNull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1785 (5.09.41.318)
 > * Fix advanced external redstone transmitter cover by @dipo33 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1793 (5.09.41.315)
@@ -2073,9 +2076,10 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/1 (0.0.4)
 >
 
-# Updated GoodGenerator (0.4.31 --> 0.4.88@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.29...0.4.88
+# Updated GoodGenerator (0.4.31 --> 0.4.89-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.29...0.4.89-pre
 >## What's Changed
+> * Fix typo (#142) by @Dream-Master in https://github.com/GTNewHorizons/GoodGenerator/pull/143 (0.4.89-pre)
 > * Fix typo in Compact Description by @LewisSaber in https://github.com/GTNewHorizons/GoodGenerator/pull/142 (0.4.88)
 > * Remove 64x power multiplier for components in CoAL by @MadMan310 in https://github.com/GTNewHorizons/GoodGenerator/pull/140 (0.4.87)
 > * More CoAL improvements by @MadMan310 in https://github.com/GTNewHorizons/GoodGenerator/pull/136 (0.4.86)
@@ -2208,9 +2212,11 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/HelpFixer/pull/1 (1.1.0)
 >
 
-# Updated Hodgepodge (1.7.35 --> 2.0.43@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/1.7.34...2.0.43
+# Updated Hodgepodge (1.7.35 --> 2.0.44-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/1.7.34...2.0.44-pre
 >## What's Changed
+> * Fix Thaumcraft Aspect sorting by @Dream-Master in https://github.com/GTNewHorizons/Hodgepodge/pull/198 (2.0.44-pre)
+> * Fix/renderdebug by @Dream-Master in https://github.com/GTNewHorizons/Hodgepodge/pull/199 (2.0.44-pre)
 > * make all debug keybinds require simultaneous ctrl and shift instead of just shift by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/194 (2.0.43)
 > * Immersive Engineering Java 12 compat: cancel the potion array resizing if already is big enough by @r1tsuu in https://github.com/GTNewHorizons/Hodgepodge/pull/192 (2.0.42)
 > * Fix FontRenderer indexoutofbounds by @eigenraven in https://github.com/GTNewHorizons/Hodgepodge/pull/193 (2.0.41)
@@ -2278,6 +2284,7 @@
 > * Make Journeymap an optional mod by @eigenraven in https://github.com/GTNewHorizons/Hodgepodge/pull/128 (1.7.35)
 >
 >## New Contributors
+> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/198 (2.0.44-pre)
 > * @kumquat-ir made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/187 (2.0.39)
 > * @r1tsuu made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/188 (2.0.37)
 > * @SuperCoder7979 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/177 (2.0.32)
@@ -2686,8 +2693,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/MrTJPCore/pull/1 (1.1.1)
 >
 
-# Updated NEI-Integration (1.2.3 --> 1.2.3@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NEI-Integration/compare/1.2.2...1.2.3
+# Updated NEI-Integration (1.2.3 --> 1.2.4-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NEI-Integration/compare/1.2.2...1.2.4-pre
 >## What's Changed
 > * Create zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/NEI-Integration/pull/4 (1.2.3)
 >
@@ -3134,8 +3141,8 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/18 (4.7.7-GTNH)
 >
 
-# Updated Railcraft (9.13.12 --> 9.13.19@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.13.11...9.13.19
+# Updated Railcraft (9.13.12 --> 9.13.20-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.13.11...9.13.20-pre
 >## What's Changed
 > * Miscellaneous fixes for tank behavior by @miozune in https://github.com/GTNewHorizons/Railcraft/pull/37 (9.13.19)
 > * fix slab not blocking light by @NexusNull in https://github.com/GTNewHorizons/Railcraft/pull/36 (9.13.18)
@@ -3310,8 +3317,8 @@
 # Updated StorageDrawers-Natura (1.11.17-GTNH --> 1.11.17-GTNH@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Natura/compare/1.11.11-GTNH...1.11.17-GTNH
 
-# Updated StructureCompat (0.2.0 --> 0.3.0@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.1...0.3.0
+# Updated StructureCompat (0.2.0 --> 0.3.1-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.1...0.3.1-pre
 
 # Updated StructureLib (1.2.0-beta.2 --> 1.2.6@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.1.12...1.2.6
@@ -3497,9 +3504,10 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/18 (1.4.31)
 >
 
-# Updated ThaumicEnergistics (1.3.19-GTNH --> 1.3.30-GTNH@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.3.18-GTNH...1.3.30-GTNH
+# Updated ThaumicEnergistics (1.3.19-GTNH --> 1.3.31-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.3.18-GTNH...1.3.31-GTNH-pre
 >## What's Changed
+> * Cell Microscope by @Dream-Master in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/37 (1.3.31-GTNH-pre)
 > * Revert Allow Arcane Assembler parallel by @greesyB in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/36 (1.3.30-GTNH)
 > * Spotless apply for branch fix-aspects for #34 by @github-actions in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/35 (1.3.29-GTNH)
 > * Fix Aspect Search in Essentia Terminal by @glowredman in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/34 (1.3.29-GTNH)
@@ -3514,6 +3522,7 @@
 > * Fix Essentia Condenser interaction by @repo-alt in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/24 (1.3.19-GTNH)
 >
 >## New Contributors
+> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/37 (1.3.31-GTNH-pre)
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/35 (1.3.29-GTNH)
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/32 (1.3.28-GTNH)
 > * @skizzerz made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/31 (1.3.27-GTNH)
@@ -3664,8 +3673,8 @@
 > * fix typos by @bombcar in https://github.com/GTNewHorizons/Universal-Singularities/pull/8 (8.6.5)
 >
 
-# Updated VisualProspecting (1.0.33 --> 1.0.37@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.0.31...1.0.37
+# Updated VisualProspecting (1.0.33 --> 1.0.38-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.0.31...1.0.38-pre
 >## What's Changed
 > * Fix Xaero's map issues by @kumquat-ir in https://github.com/GTNewHorizons/VisualProspecting/pull/25 (1.0.37)
 > * Update BuildScript by @dipo33 in https://github.com/GTNewHorizons/VisualProspecting/pull/23 (1.0.36)
@@ -4050,8 +4059,8 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/thaumcraft-research-tweaks/pull/6 (1.0.3)
 >
 
-# Updated thaumicinsurgence (0.0.6 --> 0.1.4@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.0.0.4...0.1.4
+# Updated thaumicinsurgence (0.0.6 --> 0.2.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.0.0.4...0.2.0
 >## What's Changed
 > * Ugh, accidently made main again by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/24 (0.1.4)
 > * Final Update for this Dev Cycle by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/23 (0.1.3)

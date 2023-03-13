@@ -619,7 +619,7 @@
     },
     {
       "name": "AE2FluidCraft-Rework",
-      "latest_version": "1.0.94-gtnh",
+      "latest_version": "1.0.95-gtnh",
       "versions": [
         {
           "version_tag": "1.0.0-gtnh",
@@ -1504,6 +1504,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/99109008",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.94-gtnh/ae2fc-1.0.94-gtnh.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.94-gtnh/AE2FluidCraft-Rework-1.0.94-gtnh.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.95-gtnh",
+          "changelog": "## What's Changed\n* craft confirm screen add cpu select support by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/99\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.94-gtnh...1.0.95-gtnh\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T07:22:33+00:00",
+          "filename": "ae2fc-1.0.95-gtnh.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/99156168",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.95-gtnh/ae2fc-1.0.95-gtnh.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.95-gtnh/AE2FluidCraft-Rework-1.0.95-gtnh.jar",
           "extra_assets": []
         }
       ],
@@ -5046,7 +5057,7 @@
     },
     {
       "name": "BetterP2P",
-      "latest_version": "1.0.23",
+      "latest_version": "1.0.24-pre",
       "versions": [
         {
           "version_tag": "1.0.3",
@@ -5239,6 +5250,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterP2P/releases/assets/97412195",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.0.23/betterp2p-1.0.23.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterP2P/1.0.23/BetterP2P-1.0.23.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.24-pre",
+          "changelog": "## What's Changed\n* Dev/firenoo/filter by @Dream-Master in https://github.com/GTNewHorizons/BetterP2P/pull/22\n\n## New Contributors\n* @Dream-Master made their first contribution in https://github.com/GTNewHorizons/BetterP2P/pull/22\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.0.23...1.0.24-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T07:50:23+00:00",
+          "filename": "betterp2p-1.0.24-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterP2P/releases/assets/99158667",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.0.24-pre/betterp2p-1.0.24-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterP2P/1.0.24-pre/BetterP2P-1.0.24-pre.jar",
           "extra_assets": []
         }
       ],
@@ -8037,7 +8059,7 @@
     },
     {
       "name": "DetravScannerMod",
-      "latest_version": "1.6.9",
+      "latest_version": "1.6.10-pre",
       "versions": [
         {
           "version_tag": "1.0",
@@ -8160,6 +8182,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/DetravScannerMod/releases/assets/77350971",
           "browser_download_url": "https://github.com/GTNewHorizons/DetravScannerMod/releases/download/1.6.9/GT.Scanner.Mod-1.7.10-1.6.9.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DetravScannerMod/1.6.9/DetravScannerMod-1.6.9.jar"
+        },
+        {
+          "version_tag": "1.6.10-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/DetravScannerMod/compare/1.6.9...1.6.10-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T07:46:28+00:00",
+          "filename": "GT.Scanner.Mod-1.6.10-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/DetravScannerMod/releases/assets/99158463",
+          "browser_download_url": "https://github.com/GTNewHorizons/DetravScannerMod/releases/download/1.6.10-pre/GT.Scanner.Mod-1.6.10-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DetravScannerMod/1.6.10-pre/DetravScannerMod-1.6.10-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "Unknown. Pending community outreach.",
@@ -10160,7 +10193,7 @@
     },
     {
       "name": "ForestryMC",
-      "latest_version": "4.5.8",
+      "latest_version": "4.5.9-pre",
       "versions": [
         {
           "version_tag": "4.2.19.0",
@@ -10423,6 +10456,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/96444473",
           "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.5.8/Forestry-4.5.8.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForestryMC/4.5.8/ForestryMC-4.5.8.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "4.5.9-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.5.8...4.5.9-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T07:30:31+00:00",
+          "filename": "Forestry-4.5.9-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/99156707",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.5.9-pre/Forestry-4.5.9-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForestryMC/4.5.9-pre/ForestryMC-4.5.9-pre.jar",
           "extra_assets": []
         }
       ],
@@ -12043,7 +12087,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.4.88",
+      "latest_version": "0.4.89-pre",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -12911,6 +12955,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.88/GoodGenerator-0.4.88.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.4.88/GoodGenerator-0.4.88.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "0.4.89-pre",
+          "changelog": "## What's Changed\n* Fix typo (#142) by @Dream-Master in https://github.com/GTNewHorizons/GoodGenerator/pull/143\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.87...0.4.89-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T07:38:41+00:00",
+          "filename": "GoodGenerator-0.4.89-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/99157765",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.4.89-pre/GoodGenerator-0.4.89-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.4.89-pre/GoodGenerator-0.4.89-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
@@ -13037,7 +13092,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.42.00",
+      "latest_version": "5.09.42.01-pre",
       "private": false,
       "versions": [
         {
@@ -17262,6 +17317,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.00/gregtech-5.09.42.00.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.00/GT5-Unofficial-5.09.42.00.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.01-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.00...5.09.42.01-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T07:44:46+00:00",
+          "filename": "gregtech-5.09.42.01-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/99158372",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.01-pre/gregtech-5.09.42.01-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.01-pre/GT5-Unofficial-5.09.42.01-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -20295,7 +20361,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.0.43",
+      "latest_version": "2.0.44-pre",
       "versions": [
         {
           "version_tag": "v1.2.0",
@@ -21124,6 +21190,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/98140000",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.0.43/hodgepodge-2.0.43.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/2.0.43/Hodgepodge-2.0.43.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.44-pre",
+          "changelog": "## What's Changed\n* Fix Thaumcraft Aspect sorting by @Dream-Master in https://github.com/GTNewHorizons/Hodgepodge/pull/198\n* Fix/renderdebug by @Dream-Master in https://github.com/GTNewHorizons/Hodgepodge/pull/199\n\n## New Contributors\n* @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/198\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.0.43...2.0.44-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T07:46:34+00:00",
+          "filename": "hodgepodge-2.0.44-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/99158471",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.0.44-pre/hodgepodge-2.0.44-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/2.0.44-pre/Hodgepodge-2.0.44-pre.jar",
           "extra_assets": []
         }
       ],
@@ -26263,7 +26340,7 @@
     },
     {
       "name": "NEI-Integration",
-      "latest_version": "1.2.3",
+      "latest_version": "1.2.4-pre",
       "versions": [
         {
           "version_tag": "1.1.3",
@@ -26305,6 +26382,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NEI-Integration/releases/assets/78870395",
           "browser_download_url": "https://github.com/GTNewHorizons/NEI-Integration/releases/download/1.2.3/NEIIntegration-1.7.10-1.2.3.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NEI-Integration/1.2.3/NEI-Integration-1.2.3.jar"
+        },
+        {
+          "version_tag": "1.2.4-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NEI-Integration/compare/1.2.3...1.2.4-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T07:40:37+00:00",
+          "filename": "NEIIntegration-1.2.4-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NEI-Integration/releases/assets/99157925",
+          "browser_download_url": "https://github.com/GTNewHorizons/NEI-Integration/releases/download/1.2.4-pre/NEIIntegration-1.2.4-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NEI-Integration/1.2.4-pre/NEI-Integration-1.2.4-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "Original code licensed under the MIT License, GTNH modifications licensed under the GNU Lesser General Public License v3.0.",
@@ -30467,7 +30555,7 @@
     },
     {
       "name": "Railcraft",
-      "latest_version": "9.13.19",
+      "latest_version": "9.13.20-pre",
       "versions": [
         {
           "version_tag": "9.12.7",
@@ -30648,6 +30736,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/95642921",
           "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.13.19/Railcraft-9.13.19.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Railcraft/9.13.19/Railcraft-9.13.19.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "9.13.20-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.13.19...9.13.20-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T07:41:58+00:00",
+          "filename": "Railcraft-9.13.20-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/99158179",
+          "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.13.20-pre/Railcraft-9.13.20-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Railcraft/9.13.20-pre/Railcraft-9.13.20-pre.jar",
           "extra_assets": []
         }
       ],
@@ -32109,7 +32208,7 @@
     },
     {
       "name": "StructureCompat",
-      "latest_version": "0.3.0",
+      "latest_version": "0.3.1-pre",
       "versions": [
         {
           "version_tag": "0.1",
@@ -32135,6 +32234,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/StructureCompat/releases/assets/81127358",
           "browser_download_url": "https://github.com/GTNewHorizons/StructureCompat/releases/download/0.3.0/structurecompat-1.7.10-0.3.0.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StructureCompat/0.3.0/StructureCompat-0.3.0.jar"
+        },
+        {
+          "version_tag": "0.3.1-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.3.0...0.3.1-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T07:42:40+00:00",
+          "filename": "structurecompat-0.3.1-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StructureCompat/releases/assets/99158216",
+          "browser_download_url": "https://github.com/GTNewHorizons/StructureCompat/releases/download/0.3.1-pre/structurecompat-0.3.1-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StructureCompat/0.3.1-pre/StructureCompat-0.3.1-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Affero General Public License v3.0",
@@ -34498,7 +34608,7 @@
     },
     {
       "name": "ThaumicEnergistics",
-      "latest_version": "1.3.30-GTNH",
+      "latest_version": "1.3.31-GTNH-pre",
       "versions": [
         {
           "version_tag": "1.1.3.1",
@@ -34650,6 +34760,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/98400457",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.3.30-GTNH/thaumicenergistics-1.3.30-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicEnergistics/1.3.30-GTNH/ThaumicEnergistics-1.3.30-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.31-GTNH-pre",
+          "changelog": "## What's Changed\n* Cell Microscope by @Dream-Master in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/37\n\n## New Contributors\n* @Dream-Master made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/37\n\n**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.3.30-GTNH...1.3.31-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T07:50:12+00:00",
+          "filename": "thaumicenergistics-1.3.31-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/99158656",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.3.31-GTNH-pre/thaumicenergistics-1.3.31-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicEnergistics/1.3.31-GTNH-pre/ThaumicEnergistics-1.3.31-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -34838,7 +34959,7 @@
     },
     {
       "name": "thaumicinsurgence",
-      "latest_version": "0.1.4",
+      "latest_version": "0.2.0",
       "versions": [
         {
           "version_tag": "0.0.0.1",
@@ -34976,6 +35097,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/thaumicinsurgence/releases/assets/98640108",
           "browser_download_url": "https://github.com/GTNewHorizons/thaumicinsurgence/releases/download/0.1.4/thaumicinsurgence-0.1.4.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/thaumicinsurgence/0.1.4/thaumicinsurgence-0.1.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.2.0",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.1.4...0.2.0\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T07:25:29+00:00",
+          "filename": "thaumicinsurgence-0.2.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/thaumicinsurgence/releases/assets/99156336",
+          "browser_download_url": "https://github.com/GTNewHorizons/thaumicinsurgence/releases/download/0.2.0/thaumicinsurgence-0.2.0.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/thaumicinsurgence/0.2.0/thaumicinsurgence-0.2.0.jar",
           "extra_assets": []
         }
       ],
@@ -36146,7 +36278,7 @@
     },
     {
       "name": "VisualProspecting",
-      "latest_version": "1.0.37",
+      "latest_version": "1.0.38-pre",
       "versions": [
         {
           "version_tag": "1.0.22b",
@@ -36270,6 +36402,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/90487500",
           "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.0.37/visualprospecting-1.7.10-1.0.37.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/VisualProspecting/1.0.37/VisualProspecting-1.0.37.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.38-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.0.37...1.0.38-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T07:42:11+00:00",
+          "filename": "visualprospecting-1.0.38-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/99158197",
+          "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.0.38-pre/visualprospecting-1.0.38-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/VisualProspecting/1.0.38-pre/VisualProspecting-1.0.38-pre.jar",
           "extra_assets": []
         }
       ],

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.0.0",
-  "last_updated": "2023-03-12T21:04:07.777553",
+  "last_updated": "2023-03-13T08:35:30.178165",
   "config": "2.3.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.0.94-gtnh",
+      "version": "1.0.95-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -77,7 +77,7 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.0.23",
+      "version": "1.0.24-pre",
       "side": "BOTH"
     },
     "BetterQuesting": {
@@ -177,7 +177,7 @@
       "side": "CLIENT"
     },
     "DetravScannerMod": {
-      "version": "1.6.9",
+      "version": "1.6.10-pre",
       "side": "BOTH"
     },
     "Draconic-Evolution": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.5.8",
+      "version": "4.5.9-pre",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -257,11 +257,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.4.88",
+      "version": "0.4.89-pre",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.00",
+      "version": "5.09.42.01-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.0.43",
+      "version": "2.0.44-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -425,7 +425,7 @@
       "side": "BOTH"
     },
     "NEI-Integration": {
-      "version": "1.2.3",
+      "version": "1.2.4-pre",
       "side": "BOTH"
     },
     "neiaddons": {
@@ -509,7 +509,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.13.19",
+      "version": "9.13.20-pre",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "StructureCompat": {
-      "version": "0.3.0",
+      "version": "0.3.1-pre",
       "side": "BOTH"
     },
     "StructureLib": {
@@ -625,7 +625,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.3.30-GTNH",
+      "version": "1.3.31-GTNH-pre",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -633,7 +633,7 @@
       "side": "BOTH"
     },
     "thaumicinsurgence": {
-      "version": "0.1.4",
+      "version": "0.2.0",
       "side": "BOTH"
     },
     "ThaumicInventoryScanning": {
@@ -677,7 +677,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.0.37",
+      "version": "1.0.38-pre",
       "side": "BOTH"
     },
     "waila": {
