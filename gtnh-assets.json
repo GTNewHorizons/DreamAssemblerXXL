@@ -8059,7 +8059,7 @@
     },
     {
       "name": "DetravScannerMod",
-      "latest_version": "1.6.10-pre",
+      "latest_version": "1.7.0",
       "versions": [
         {
           "version_tag": "1.0",
@@ -8192,6 +8192,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/DetravScannerMod/releases/assets/99158463",
           "browser_download_url": "https://github.com/GTNewHorizons/DetravScannerMod/releases/download/1.6.10-pre/GT.Scanner.Mod-1.6.10-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DetravScannerMod/1.6.10-pre/DetravScannerMod-1.6.10-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.0",
+          "changelog": "## What's Changed\n* compress prospecting packet using deflater by @Glease in https://github.com/GTNewHorizons/DetravScannerMod/pull/28\n\n## New Contributors\n* @Glease made their first contribution in https://github.com/GTNewHorizons/DetravScannerMod/pull/28\n\n**Full Changelog**: https://github.com/GTNewHorizons/DetravScannerMod/compare/1.6.9...1.7.0\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T20:18:43+00:00",
+          "filename": "GT.Scanner.Mod-1.7.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/DetravScannerMod/releases/assets/99241746",
+          "browser_download_url": "https://github.com/GTNewHorizons/DetravScannerMod/releases/download/1.7.0/GT.Scanner.Mod-1.7.0.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DetravScannerMod/1.7.0/DetravScannerMod-1.7.0.jar",
           "extra_assets": []
         }
       ],
@@ -18244,7 +18255,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.8.3",
+      "latest_version": "1.8.4",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -20053,6 +20064,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/99108870",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.3/GT-PlusPlus-1.8.3.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.3/GTplusplus-1.8.3.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.4",
+          "changelog": "## What's Changed\n* Hydroxide chem balance fix by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/568\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.3...1.8.4\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T21:03:52+00:00",
+          "filename": "GT-PlusPlus-1.8.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/99245720",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.4/GT-PlusPlus-1.8.4.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.4/GTplusplus-1.8.4.jar",
           "extra_assets": []
         }
       ],
@@ -23491,7 +23513,7 @@
     },
     {
       "name": "lwjgl3ify",
-      "latest_version": "1.1.39",
+      "latest_version": "1.1.42",
       "private": false,
       "versions": [
         {
@@ -24333,6 +24355,69 @@
               "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.39/lwjgl3ify-1.1.39-multimc.zip"
             }
           ]
+        },
+        {
+          "version_tag": "1.1.40",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.39...1.1.40\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T16:43:59+00:00",
+          "filename": "lwjgl3ify-1.1.40.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/99219179",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.40/lwjgl3ify-1.1.40.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.40-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/99219180",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.40/lwjgl3ify-1.1.40-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.40-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/99219184",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.40/lwjgl3ify-1.1.40-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.41",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.40...1.1.41\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T18:00:06+00:00",
+          "filename": "lwjgl3ify-1.1.41.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/99227918",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.41/lwjgl3ify-1.1.41.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.41-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/99227920",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.41/lwjgl3ify-1.1.41-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.41-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/99227924",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.41/lwjgl3ify-1.1.41-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.1.42",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.41...1.1.42\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T18:46:14+00:00",
+          "filename": "lwjgl3ify-1.1.42.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/99233228",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.42/lwjgl3ify-1.1.42.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.1.42-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/99233231",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.42/lwjgl3ify-1.1.42-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.1.42-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/99233232",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.1.42/lwjgl3ify-1.1.42-multimc.zip"
+            }
+          ]
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -24915,7 +25000,7 @@
     },
     {
       "name": "ModularUI",
-      "latest_version": "1.1.0",
+      "latest_version": "1.1.1-pre",
       "versions": [
         {
           "version_tag": "0.0.1",
@@ -25695,6 +25780,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/99052437",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.1.0/modularui-1.1.0.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.1.0/ModularUI-1.1.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.1-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.1-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T21:04:22+00:00",
+          "filename": "modularui-1.1.1-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/99245779",
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.1.1-pre/modularui-1.1.1-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.1.1-pre/ModularUI-1.1.1-pre.jar",
           "extra_assets": []
         }
       ],
@@ -30166,7 +30262,7 @@
     },
     {
       "name": "PersonalSpace",
-      "latest_version": "1.0.23",
+      "latest_version": "1.0.24",
       "versions": [
         {
           "version_tag": "1.0.3-GTNH",
@@ -30344,6 +30440,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/93502282",
           "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.23/personalspace-1.0.23.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/PersonalSpace/1.0.23/PersonalSpace-1.0.23.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.24",
+          "changelog": "## What's Changed\n* Better permission checks and messages in case they fail by @eigenraven in https://github.com/GTNewHorizons/PersonalSpace/pull/16\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.23...1.0.24\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-13T19:11:53+00:00",
+          "filename": "personalspace-1.0.24.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/PersonalSpace/releases/assets/99236067",
+          "browser_download_url": "https://github.com/GTNewHorizons/PersonalSpace/releases/download/1.0.24/personalspace-1.0.24.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/PersonalSpace/1.0.24/PersonalSpace-1.0.24.jar",
           "extra_assets": []
         }
       ],

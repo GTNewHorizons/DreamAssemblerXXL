@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.0.0",
-  "last_updated": "2023-03-13T08:35:30.178165",
+  "last_updated": "2023-03-13T21:33:44.299989",
   "config": "2.3.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -177,7 +177,7 @@
       "side": "CLIENT"
     },
     "DetravScannerMod": {
-      "version": "1.6.10-pre",
+      "version": "1.7.0",
       "side": "BOTH"
     },
     "Draconic-Evolution": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.8.3",
+      "version": "1.8.4",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -497,7 +497,7 @@
       "side": "CLIENT"
     },
     "PersonalSpace": {
-      "version": "1.0.23",
+      "version": "1.0.24",
       "side": "BOTH"
     },
     "ProjectBlue": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.1.0",
+      "version": "1.1.1-pre",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.1.39",
+      "version": "1.1.42",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {

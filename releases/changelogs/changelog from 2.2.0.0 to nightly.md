@@ -789,13 +789,15 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/DefaultWorldGenerator/pull/2 (0.2)
 >
 
-# Updated DetravScannerMod (1.6.9 --> 1.6.10-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/DetravScannerMod/compare/1.6.8...1.6.10-pre
+# Updated DetravScannerMod (1.6.9 --> 1.7.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/DetravScannerMod/compare/1.6.8...1.7.0
 >## What's Changed
+> * compress prospecting packet using deflater by @Glease in https://github.com/GTNewHorizons/DetravScannerMod/pull/28 (1.7.0)
 > * Added missing gtpp ores by @minecraft7771 in https://github.com/GTNewHorizons/DetravScannerMod/pull/26 (1.6.9)
 > * Changed bw localization by @minecraft7771 in https://github.com/GTNewHorizons/DetravScannerMod/pull/27 (1.6.9)
 >
 >## New Contributors
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/DetravScannerMod/pull/28 (1.7.0)
 > * @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/DetravScannerMod/pull/26 (1.6.9)
 >
 
@@ -1689,9 +1691,10 @@
 > * Add "Bukkit" to identified "coremods" (2.0.1)
 >
 
-# Updated GTplusplus (1.7.110 --> 1.8.3@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.109...1.8.3
+# Updated GTplusplus (1.7.110 --> 1.8.4@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.109...1.8.4
 >## What's Changed
+> * Hydroxide chem balance fix by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/568 (1.8.4)
 > * Tooltip typo fix by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/567 (1.8.3)
 > * Fix Bender Making Double Plate instead of Dense one by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/566 (1.8.2)
 > * set the amount of muffler hatches to 1 in the MABS by @boubou19 in https://github.com/GTNewHorizons/GTplusplus/pull/564 (1.8.1)
@@ -2626,8 +2629,8 @@
 > * @vlaetansky made their first contribution in https://github.com/GTNewHorizons/ModTweaker/pull/4 (0.9.9)
 >
 
-# New Mod - ModularUI (1.1.0@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/commits/1.1.0
+# New Mod - ModularUI (1.1.1-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/commits/1.1.1-pre
 >## What's Changed
 > * Fix scrollable performance before first scroll by @kuba6000 in https://github.com/GTNewHorizons/ModularUI/pull/44 (1.1.0)
 > * Fix ChangeableWidget by @kuba6000 in https://github.com/GTNewHorizons/ModularUI/pull/43 (1.0.73)
@@ -3103,9 +3106,10 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/2 (1.0.1)
 >
 
-# Updated PersonalSpace (1.0.19 --> 1.0.23@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.18...1.0.23
+# Updated PersonalSpace (1.0.19 --> 1.0.24@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.18...1.0.24
 >## What's Changed
+> * Better permission checks and messages in case they fail by @eigenraven in https://github.com/GTNewHorizons/PersonalSpace/pull/16 (1.0.24)
 > * Fix Crucible bug by @wohaopa in https://github.com/GTNewHorizons/PersonalSpace/pull/15 (1.0.20)
 > * Create zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/PersonalSpace/pull/14 (1.0.19)
 >
@@ -3984,8 +3988,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/itlt/pull/1 (1.0.4)
 >
 
-# New Mod - lwjgl3ify (1.1.39@BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/commits/1.1.39
+# New Mod - lwjgl3ify (1.1.42@BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/commits/1.1.42
 >## What's Changed
 > * Revert the glColor3ub hack by @pftbest in https://github.com/GTNewHorizons/lwjgl3ify/pull/30 (1.1.39)
 > * add HoverEvent$Action to default extended enums for lotr mod compat by @mist475 in https://github.com/GTNewHorizons/lwjgl3ify/pull/26 (1.1.34)

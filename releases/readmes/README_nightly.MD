@@ -297,7 +297,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Custom-Main-Menu](https://github.com/GTNewHorizons/Custom-Main-Menu) | 1.9.4 |
 | [DefaultServerList](https://github.com/GTNewHorizons/DefaultServerList) | 1.4.0 |
 | [DefaultWorldGenerator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.2 |
-| [DetravScannerMod](https://github.com/GTNewHorizons/DetravScannerMod) | 1.6.10-pre |
+| [DetravScannerMod](https://github.com/GTNewHorizons/DetravScannerMod) | 1.7.0 |
 | [Draconic-Evolution](https://github.com/GTNewHorizons/Draconic-Evolution) | 1.1.15-GTNH |
 | [DummyCore](https://github.com/GTNewHorizons/DummyCore) | 1.15 |
 | [Electro-Magic-Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.2.8.28 |
@@ -333,7 +333,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.2.6 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.0.13 |
 | [GTNHMixins](https://github.com/GTNewHorizons/GTNHMixins) | 2.1.13 |
-| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.8.3 |
+| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.8.4 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.9.7-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.0.21-GTNH |
@@ -364,7 +364,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 0.9.4.5.13-GTNH |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.0.8 |
 | [LunatriusCore](https://github.com/GTNewHorizons/LunatriusCore) | 1.1.7-GTNH |
-| [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 1.1.39 |
+| [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 1.1.42 |
 | [MagicBees](https://github.com/GTNewHorizons/MagicBees) | 2.5.16-GTNH |
 | [MalisisCore](https://github.com/GTNewHorizons/MalisisCore) | 0.14.7-GTNH |
 | [MalisisDoors](https://github.com/GTNewHorizons/MalisisDoors) | 1.13.7-GTNH |
@@ -373,7 +373,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 1.7.5 |
 | [Mixingasm](https://github.com/GTNewHorizons/Mixingasm) | v0.2.4 |
 | [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.9.10 |
-| [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.1.0 |
+| [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.1.1-pre |
 | [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) | 1.6.21 |
 | [MouseTweaks](https://github.com/GTNewHorizons/MouseTweaks) | 2.4.8-GTNH |
 | [MrTJPCore](https://github.com/GTNewHorizons/MrTJPCore) | 1.1.4 |
@@ -403,7 +403,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [OverloadedArmorBar](https://github.com/GTNewHorizons/OverloadedArmorBar) | 1.0.1 |
 | [p455w0rd's Library](https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library) | 1.0.4 |
 | [Pam's Harvest the Nether](https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether) | 1.7.10a |
-| [PersonalSpace](https://github.com/GTNewHorizons/PersonalSpace) | 1.0.23 |
+| [PersonalSpace](https://github.com/GTNewHorizons/PersonalSpace) | 1.0.24 |
 | [Player-API](https://github.com/GTNewHorizons/Player-API) | 1.4.2 |
 | [ProjectBlue](https://github.com/GTNewHorizons/ProjectBlue) | 1.1.8-GTNH |
 | [ProjectRed](https://github.com/GTNewHorizons/ProjectRed) | 4.7.9-GTNH |
