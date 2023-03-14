@@ -1691,9 +1691,10 @@
 > * Add "Bukkit" to identified "coremods" (2.0.1)
 >
 
-# Updated GTplusplus (1.7.110 --> 1.8.4@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.109...1.8.4
+# Updated GTplusplus (1.7.110 --> 1.8.5@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.109...1.8.5
 >## What's Changed
+> * Fix lava->pahoehoe lava recipie by @posiaden123 in https://github.com/GTNewHorizons/GTplusplus/pull/569 (1.8.5)
 > * Hydroxide chem balance fix by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/568 (1.8.4)
 > * Tooltip typo fix by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/567 (1.8.3)
 > * Fix Bender Making Double Plate instead of Dense one by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/566 (1.8.2)
@@ -1936,6 +1937,7 @@
 > * Fix fluid-extraction recipes for Redstone Alloy are incorrectly overwritten by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/377 (1.7.110)
 >
 >## New Contributors
+> * @posiaden123 made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/569 (1.8.5)
 > * @the-emerald made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/547 (1.7.217)
 > * @MarchingCube made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/538 (1.7.212)
 > * @Ethryan made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/507 (1.7.198)
@@ -2629,9 +2631,10 @@
 > * @vlaetansky made their first contribution in https://github.com/GTNewHorizons/ModTweaker/pull/4 (0.9.9)
 >
 
-# New Mod - ModularUI (1.1.1-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/commits/1.1.1-pre
+# New Mod - ModularUI (1.1.2@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/commits/1.1.2
 >## What's Changed
+> * fix hotbar key related vanilla functions by @Glease in https://github.com/GTNewHorizons/ModularUI/pull/45 (1.1.2)
 > * Fix scrollable performance before first scroll by @kuba6000 in https://github.com/GTNewHorizons/ModularUI/pull/44 (1.1.0)
 > * Fix ChangeableWidget by @kuba6000 in https://github.com/GTNewHorizons/ModularUI/pull/43 (1.0.73)
 > * Added supplier for button click sound by @minecraft7771 in https://github.com/GTNewHorizons/ModularUI/pull/42 (1.0.72)
@@ -2665,6 +2668,7 @@
 > * Fix shift-inserting into disabled slot not being forbidden by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/12 (1.0.10)
 >
 >## New Contributors
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/45 (1.1.2)
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/43 (1.0.73)
 > * @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/41 (1.0.67)
 > * @BlueWeabo made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/39 (1.0.58)
@@ -4063,8 +4067,8 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/thaumcraft-research-tweaks/pull/6 (1.0.3)
 >
 
-# Updated thaumicinsurgence (0.0.6 --> 0.2.0@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.0.0.4...0.2.0
+# Updated thaumicinsurgence (0.0.6 --> 0.2.1@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.0.0.4...0.2.1
 >## What's Changed
 > * Ugh, accidently made main again by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/24 (0.1.4)
 > * Final Update for this Dev Cycle by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/23 (0.1.3)

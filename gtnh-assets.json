@@ -18255,7 +18255,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.8.4",
+      "latest_version": "1.8.5",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -20075,6 +20075,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/99245720",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.4/GT-PlusPlus-1.8.4.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.4/GTplusplus-1.8.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.5",
+          "changelog": "## What's Changed\n* Fix lava->pahoehoe lava recipie by @posiaden123 in https://github.com/GTNewHorizons/GTplusplus/pull/569\n\n## New Contributors\n* @posiaden123 made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/569\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.4...1.8.5\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-14T06:47:24+00:00",
+          "filename": "GT-PlusPlus-1.8.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/99299967",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.5/GT-PlusPlus-1.8.5.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.5/GTplusplus-1.8.5.jar",
           "extra_assets": []
         }
       ],
@@ -25000,7 +25011,7 @@
     },
     {
       "name": "ModularUI",
-      "latest_version": "1.1.1-pre",
+      "latest_version": "1.1.2",
       "versions": [
         {
           "version_tag": "0.0.1",
@@ -25791,6 +25802,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/99245779",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.1.1-pre/modularui-1.1.1-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.1.1-pre/ModularUI-1.1.1-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.2",
+          "changelog": "## What's Changed\n* fix hotbar key related vanilla functions by @Glease in https://github.com/GTNewHorizons/ModularUI/pull/45\n\n## New Contributors\n* @Glease made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/45\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.2\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-14T02:41:16+00:00",
+          "filename": "modularui-1.1.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/99277029",
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.1.2/modularui-1.1.2.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.1.2/ModularUI-1.1.2.jar",
           "extra_assets": []
         }
       ],
@@ -35066,7 +35088,7 @@
     },
     {
       "name": "thaumicinsurgence",
-      "latest_version": "0.2.0",
+      "latest_version": "0.2.1",
       "versions": [
         {
           "version_tag": "0.0.0.1",
@@ -35215,6 +35237,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/thaumicinsurgence/releases/assets/99156336",
           "browser_download_url": "https://github.com/GTNewHorizons/thaumicinsurgence/releases/download/0.2.0/thaumicinsurgence-0.2.0.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/thaumicinsurgence/0.2.0/thaumicinsurgence-0.2.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.2.1",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.2.0...0.2.1\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-14T04:31:03+00:00",
+          "filename": "thaumicinsurgence-0.2.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/thaumicinsurgence/releases/assets/99287484",
+          "browser_download_url": "https://github.com/GTNewHorizons/thaumicinsurgence/releases/download/0.2.1/thaumicinsurgence-0.2.1.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/thaumicinsurgence/0.2.1/thaumicinsurgence-0.2.1.jar",
           "extra_assets": []
         }
       ],

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.2.0.0",
-  "last_updated": "2023-03-13T21:33:44.299989",
+  "last_updated": "2023-03-14T06:50:00.889381",
   "config": "2.3.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.8.4",
+      "version": "1.8.5",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -633,7 +633,7 @@
       "side": "BOTH"
     },
     "thaumicinsurgence": {
-      "version": "0.2.0",
+      "version": "0.2.1",
       "side": "BOTH"
     },
     "ThaumicInventoryScanning": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.1.1-pre",
+      "version": "1.1.2",
       "side": "BOTH"
     },
     "TX-Loader": {

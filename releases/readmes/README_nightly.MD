@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2023-03-13
+Version nightly is out 2023-03-14
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -333,7 +333,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.2.6 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.0.13 |
 | [GTNHMixins](https://github.com/GTNewHorizons/GTNHMixins) | 2.1.13 |
-| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.8.4 |
+| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.8.5 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.9.7-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.0.21-GTNH |
@@ -373,7 +373,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 1.7.5 |
 | [Mixingasm](https://github.com/GTNewHorizons/Mixingasm) | v0.2.4 |
 | [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.9.10 |
-| [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.1.1-pre |
+| [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.1.2 |
 | [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) | 1.6.21 |
 | [MouseTweaks](https://github.com/GTNewHorizons/MouseTweaks) | 2.4.8-GTNH |
 | [MrTJPCore](https://github.com/GTNewHorizons/MrTJPCore) | 1.1.4 |
@@ -444,7 +444,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ThaumicBases](https://github.com/GTNewHorizons/ThaumicBases) | 1.4.33 |
 | [ThaumicEnergistics](https://github.com/GTNewHorizons/ThaumicEnergistics) | 1.3.31-GTNH-pre |
 | [ThaumicHorizons](https://github.com/GTNewHorizons/ThaumicHorizons) | 1.2.1.12 |
-| [thaumicinsurgence](https://github.com/GTNewHorizons/thaumicinsurgence) | 0.2.0 |
+| [thaumicinsurgence](https://github.com/GTNewHorizons/thaumicinsurgence) | 0.2.1 |
 | [ThaumicInventoryScanning](https://github.com/GTNewHorizons/ThaumicInventoryScanning) | 1.0.12-GTNH |
 | [ThaumicTinkerer](https://github.com/GTNewHorizons/ThaumicTinkerer) | 2.6.12 |
 | [TiC-Tooltips](https://github.com/GTNewHorizons/TiC-Tooltips) | 1.2.10 |
