@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.2.0.0",
-  "last_updated": "2023-03-14T06:50:00.889381",
+  "last_version": "2.3.0",
+  "last_updated": "2023-03-14T07:25:03.200211",
   "config": "2.3.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -818,6 +818,10 @@
     },
     "TravellersGearNeo": {
       "version": "1.0",
+      "side": "BOTH"
+    },
+    "GTNH-Intergalactic": {
+      "version": "0.9.2-pre",
       "side": "BOTH"
     }
   },
