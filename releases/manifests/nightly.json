@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.0",
-  "last_updated": "2023-03-14T07:25:03.200211",
+  "last_updated": "2023-03-14T20:33:44.856193",
   "config": "2.3.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.0.95-gtnh",
+      "version": "1.1.0-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,11 +29,11 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-179-GTNH",
+      "version": "rv3-beta-180-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.7.6",
+      "version": "1.8.0",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.01-pre",
+      "version": "5.09.42.02",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.9.29",
+      "version": "0.9.30",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -605,7 +605,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.0.114",
+      "version": "5.0.115",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -621,7 +621,7 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.4.33",
+      "version": "1.5.0",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.1.42",
+      "version": "1.1.44",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {

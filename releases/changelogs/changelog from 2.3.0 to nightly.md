@@ -1,20 +1,35 @@
 # New Mods:
 > * GTNH-Intergalactic
-# Updated AE2FluidCraft-Rework (1.0.92-gtnh@BOTH --> 1.0.95-gtnh@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.91-gtnh...1.0.95-gtnh
+# Updated AE2FluidCraft-Rework (1.0.92-gtnh@BOTH --> 1.1.0-gtnh@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.91-gtnh...1.1.0-gtnh
 >## What's Changed
+> * Add unlocalized names to fluid drops&packets by @eigenraven in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/105 (1.1.0-gtnh)
 > * craft confirm screen add cpu select support by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/99 (1.0.95-gtnh)
 > * fc terminal add type filter by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/98 (1.0.94-gtnh)
 > * fix fc pattern terminal shift click will use not support item to fill slot by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/103 (1.0.92-gtnh)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-175-GTNH@BOTH --> rv3-beta-179-GTNH@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-174-GTNH...rv3-beta-179-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-175-GTNH@BOTH --> rv3-beta-180-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-174-GTNH...rv3-beta-180-GTNH
 >## What's Changed
+> * Fix NPE when viewing the crafting status without any CPUs by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/279 (rv3-beta-180-GTNH)
 > * Make PartP2PTunnel#getTypeTexture() public by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/278 (rv3-beta-179-GTNH)
 > * Copy interface settings, storage, and upgrades for p2p rebind by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/265 (rv3-beta-179-GTNH)
 > * Trim arrays to size after mutations for memory savings by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/277 (rv3-beta-177-GTNH)
 > * Deprecation updates by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/276 (rv3-beta-175-GTNH)
+>
+
+# Updated ArchitectureCraft (1.7.6@BOTH --> 1.8.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.7.5...1.8.0
+>## What's Changed
+> * Spotless apply for branch newShapes for #5 by @github-actions in https://github.com/GTNewHorizons/ArchitectureCraft/pull/6 (1.8.0)
+> * New shapes by @S4mpsa in https://github.com/GTNewHorizons/ArchitectureCraft/pull/5 (1.8.0)
+> * update buildscript by @bombcar in https://github.com/GTNewHorizons/ArchitectureCraft/pull/4 (1.7.6)
+>
+>## New Contributors
+> * @github-actions made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/6 (1.8.0)
+> * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/5 (1.8.0)
+> * @bombcar made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/4 (1.7.6)
 >
 
 # Updated BetterCrashes (1.1.9-GTNH@CLIENT --> 1.2.0-GTNH@CLIENT)
@@ -89,9 +104,11 @@
 > * @Ethryan made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/43 (4.5.8)
 >
 
-# Updated GT5-Unofficial (5.09.41.317@BOTH --> 5.09.42.01-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.316...5.09.42.01-pre
+# Updated GT5-Unofficial (5.09.41.317@BOTH --> 5.09.42.02@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.316...5.09.42.02
 >## What's Changed
+> * Untangle IEnergyConnected and IHasWorldObjectAndCoords by @repo-alt in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1794 (5.09.42.02)
+> * Fix Recipes starting because of discount by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1796 (5.09.42.02)
 > * Add regulator abilities to Steam Valve by @NexusNull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1785 (5.09.41.318)
 >
 
@@ -113,6 +130,16 @@
 >
 >## New Contributors
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/3 (0.9.1-pre)
+>
+
+# Updated GTNH-Lanthanides (0.9.29@BOTH --> 0.9.30@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.9.28...0.9.30
+>## What's Changed
+> * patch up europium tier skip by @Glease in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/52 (0.9.30)
+> * More Lanthanum ore proc fixes by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/51 (0.9.29)
+>
+>## New Contributors
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/52 (0.9.30)
 >
 
 # Updated GTplusplus (1.7.227@BOTH --> 1.8.5@BOTH)
@@ -229,6 +256,23 @@
 # Updated StructureCompat (0.3.0@BOTH --> 0.3.1-pre@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.2.0...0.3.1-pre
 
+# Updated TecTech (5.0.114@BOTH --> 5.0.115@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.113...5.0.115
+>## What's Changed
+> * patch weird NPE by @Glease in https://github.com/GTNewHorizons/TecTech/pull/174 (5.0.115)
+> * fix ChunkDataHandler causing CME at chunk unload by @Glease in https://github.com/GTNewHorizons/TecTech/pull/173 (5.0.114)
+>
+
+# Updated ThaumicBases (1.4.33@BOTH --> 1.5.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.4.32...1.5.0
+>## What's Changed
+> * Adjust recipes for stabilizer blocks by @chochem in https://github.com/GTNewHorizons/ThaumicBases/pull/21 (1.5.0)
+> * fix and rewrite Node Manipulator by @Zereff06 in https://github.com/GTNewHorizons/ThaumicBases/pull/20 (1.4.33)
+>
+>## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/21 (1.5.0)
+>
+
 # Updated ThaumicEnergistics (1.3.30-GTNH@BOTH --> 1.3.31-GTNH-pre@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.3.29-GTNH...1.3.31-GTNH-pre
 >## What's Changed
@@ -256,10 +300,17 @@
 > * remove enumhelper towards OrePrefixes and force gtnh gt by @Glease in https://github.com/GTNewHorizons/bartworks/pull/298 (0.5.164)
 >
 
-# Updated lwjgl3ify (1.1.38@BOTH_JAVA9 --> 1.1.42@BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.37...1.1.42
+# Updated lwjgl3ify (1.1.38@BOTH_JAVA9 --> 1.1.44@BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.37...1.1.44
 >## What's Changed
+> * Compatibility and warning fixes by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/41 (1.1.44)
+> * Add workaround for input method users by @kappa-maintainer in https://github.com/GTNewHorizons/lwjgl3ify/pull/33 (1.1.43)
+> * Add multibyte char event handling by duplicating key events when multiple chars happen after a single keypress by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/40 (1.1.43)
 > * Revert the glColor3ub hack by @pftbest in https://github.com/GTNewHorizons/lwjgl3ify/pull/30 (1.1.39)
+>
+>## New Contributors
+> * @kappa-maintainer made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/33 (1.1.43)
+> * @eigenraven made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/40 (1.1.43)
 >
 
 # Updated thaumicinsurgence (0.1.4@BOTH --> 0.2.1@BOTH)
