@@ -9,9 +9,10 @@
 > * fix fc pattern terminal shift click will use not support item to fill slot by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/103 (1.0.92-gtnh)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-175-GTNH@BOTH --> rv3-beta-180-GTNH@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-174-GTNH...rv3-beta-180-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-175-GTNH@BOTH --> rv3-beta-181-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-174-GTNH...rv3-beta-181-GTNH
 >## What's Changed
+> * FMP support fixed by @repo-alt in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/282 (rv3-beta-181-GTNH)
 > * Fix NPE when viewing the crafting status without any CPUs by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/279 (rv3-beta-180-GTNH)
 > * Make PartP2PTunnel#getTypeTexture() public by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/278 (rv3-beta-179-GTNH)
 > * Copy interface settings, storage, and upgrades for p2p rebind by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/265 (rv3-beta-179-GTNH)
@@ -53,10 +54,20 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/BetterP2P/pull/22 (1.0.24-pre)
 >
 
-# Updated BetterQuesting (3.1.8-GTNH@BOTH --> 3.2.0-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.1.7-GTNH...3.2.0-GTNH-pre
+# Updated BetterQuesting (3.1.8-GTNH@BOTH --> 3.2.1-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.1.7-GTNH...3.2.1-GTNH
 >## What's Changed
+> * Do not trigger task check for all inventory slots by @greesyB in https://github.com/GTNewHorizons/BetterQuesting/pull/90 (3.2.1-GTNH)
 > * More quest resetting fixes by @eigenraven in https://github.com/GTNewHorizons/BetterQuesting/pull/88 (3.1.8-GTNH)
+>
+>## New Contributors
+> * @greesyB made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/90 (3.2.1-GTNH)
+>
+
+# Updated BugTorch (1.2.5GTNH@BOTH --> 1.2.6-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BugTorch/compare/1.2.4-GTNH...1.2.6-GTNH
+>## What's Changed
+> * Dev by @Dream-Master in https://github.com/GTNewHorizons/BugTorch/pull/15 (1.2.6-GTNH)
 >
 
 # Updated DetravScannerMod (1.6.9@BOTH --> 1.7.0@BOTH)
@@ -104,9 +115,11 @@
 > * @Ethryan made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/43 (4.5.8)
 >
 
-# Updated GT5-Unofficial (5.09.41.317@BOTH --> 5.09.42.02@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.316...5.09.42.02
+# Updated GT5-Unofficial (5.09.41.317@BOTH --> 5.09.42.04@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.316...5.09.42.04
 >## What's Changed
+> * Added custom click sound for the power switch by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1798 (5.09.42.04)
+> * fix ghost chunk loading caused by ore blocks by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1797 (5.09.42.03)
 > * Untangle IEnergyConnected and IHasWorldObjectAndCoords by @repo-alt in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1794 (5.09.42.02)
 > * Fix Recipes starting because of discount by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1796 (5.09.42.02)
 > * Add regulator abilities to Steam Valve by @NexusNull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1785 (5.09.41.318)
@@ -122,13 +135,16 @@
 > * @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/GTNEIOrePlugin/pull/32 (1.0.28)
 >
 
-# New Mod - GTNH-Intergalactic (0.9.2-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/commits/0.9.2-pre
+# New Mod - GTNH-Intergalactic (1.0.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/commits/1.0.0
 >## What's Changed
+> * change code to work with newest bartworks by @Dream-Master in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/2 (1.0.0)
+> * Fix module power shutdown by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/5 (1.0.0)
 > * merge master by @Dream-Master in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/4 (0.9.2-pre)
 > * Update build-and-test.yml by @Dream-Master in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/3 (0.9.1-pre)
 >
 >## New Contributors
+> * @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/5 (1.0.0)
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/3 (0.9.1-pre)
 >
 
@@ -142,9 +158,10 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/52 (0.9.30)
 >
 
-# Updated GTplusplus (1.7.227@BOTH --> 1.8.5@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.226...1.8.5
+# Updated GTplusplus (1.7.227@BOTH --> 1.8.6@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.226...1.8.6
 >## What's Changed
+> * Fixed circuit NPE in LPF by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/570 (1.8.6)
 > * Fix lava->pahoehoe lava recipie by @posiaden123 in https://github.com/GTNewHorizons/GTplusplus/pull/569 (1.8.5)
 > * Hydroxide chem balance fix by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/568 (1.8.4)
 > * Tooltip typo fix by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/567 (1.8.3)
@@ -177,22 +194,34 @@
 > * Fix AAL working with no energy hatches by @minecraft7771 in https://github.com/GTNewHorizons/GigaGramFab/pull/5 (0.1.8)
 >
 
-# Updated GoodGenerator (0.4.88@BOTH --> 0.4.89-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.87...0.4.89-pre
+# Updated GoodGenerator (0.4.88@BOTH --> 0.5.1@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.87...0.5.1
 >## What's Changed
+> * Add mode toggle button to PrAss GUI by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/144 (0.5.1)
+> * Fix fusion recipe NPE by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/145 (0.5.1)
+> * add batch mode for neutron activator by @GlodBlock in https://github.com/GTNewHorizons/GoodGenerator/pull/141 (0.5.0)
 > * Fix typo (#142) by @Dream-Master in https://github.com/GTNewHorizons/GoodGenerator/pull/143 (0.4.89-pre)
 > * Fix typo in Compact Description by @LewisSaber in https://github.com/GTNewHorizons/GoodGenerator/pull/142 (0.4.88)
 >
 
-# Updated Hodgepodge (2.0.43@BOTH --> 2.0.44-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.0.42...2.0.44-pre
+# Updated Hodgepodge (2.0.43@BOTH --> 2.1.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.0.42...2.1.0
 >## What's Changed
+> * correct render debug injection point by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/197 (2.1.0)
+> * Fix Thaumcraft Aspect sorting by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/196 (2.1.0)
 > * Fix Thaumcraft Aspect sorting by @Dream-Master in https://github.com/GTNewHorizons/Hodgepodge/pull/198 (2.0.44-pre)
 > * Fix/renderdebug by @Dream-Master in https://github.com/GTNewHorizons/Hodgepodge/pull/199 (2.0.44-pre)
 > * make all debug keybinds require simultaneous ctrl and shift instead of just shift by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/194 (2.0.43)
 >
 >## New Contributors
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/198 (2.0.44-pre)
+>
+
+# Updated KekzTech (0.6.32@BOTH --> 0.7.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.6.31...0.7.0
+>## What's Changed
+> * Add wireless toggle button to LSC GUI by @minecraft7771 in https://github.com/GTNewHorizons/KekzTech/pull/62 (0.7.0)
+> * Make LSC wireless refill variable persistant by @minecraft7771 in https://github.com/GTNewHorizons/KekzTech/pull/60 (0.6.32)
 >
 
 # Updated KubaTech (0.7.19@BOTH --> 0.8.0@BOTH)
@@ -231,16 +260,27 @@
 > * Fix for Tungstensteel Ingots Needing TPV Coils by @Steelux8 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/538 (1.9.171)
 >
 
+# Updated NotEnoughEnergistics (1.3.30@BOTH --> 1.4.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.3.29...1.4.0
+>## What's Changed
+> * Add guard against invalid stack size by @miozune in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/34 (1.4.0)
+> * Lwjgl3ify fixes by @eigenraven in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/33 (1.3.30)
+>
+
 # Updated PersonalSpace (1.0.23@BOTH --> 1.0.24@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.22...1.0.24
 >## What's Changed
 > * Better permission checks and messages in case they fail by @eigenraven in https://github.com/GTNewHorizons/PersonalSpace/pull/16 (1.0.24)
 >
 
-# Updated Railcraft (9.13.19@BOTH --> 9.13.20-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.13.18...9.13.20-pre
+# Updated Railcraft (9.13.19@BOTH --> 9.14.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.13.18...9.14.0
 >## What's Changed
+> * Fix Rock Crusher by @glowredman in https://github.com/GTNewHorizons/Railcraft/pull/38 (9.14.0)
 > * Miscellaneous fixes for tank behavior by @miozune in https://github.com/GTNewHorizons/Railcraft/pull/37 (9.13.19)
+>
+>## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/38 (9.14.0)
 >
 
 # Updated Schematica (1.9.2-GTNH@CLIENT --> 1.9.3-GTNH@CLIENT)
@@ -253,8 +293,14 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Schematica/pull/15 (1.9.2-GTNH)
 >
 
-# Updated StructureCompat (0.3.0@BOTH --> 0.3.1-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.2.0...0.3.1-pre
+# Updated StructureCompat (0.3.0@BOTH --> 0.4.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.2.0...0.4.0
+>## What's Changed
+> * add structure info for railcraft multis by @Glease in https://github.com/GTNewHorizons/StructureCompat/pull/1 (0.4.0)
+>
+>## New Contributors
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/StructureCompat/pull/1 (0.4.0)
+>
 
 # Updated TecTech (5.0.114@BOTH --> 5.0.115@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.113...5.0.115
@@ -273,13 +319,15 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/21 (1.5.0)
 >
 
-# Updated ThaumicEnergistics (1.3.30-GTNH@BOTH --> 1.3.31-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.3.29-GTNH...1.3.31-GTNH-pre
+# Updated ThaumicEnergistics (1.3.30-GTNH@BOTH --> 1.4.0-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.3.29-GTNH...1.4.0-GTNH
 >## What's Changed
+> * Add bulk scanning by @27yearoldminecraftgaymer in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/33 (1.4.0-GTNH)
 > * Cell Microscope by @Dream-Master in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/37 (1.3.31-GTNH-pre)
 > * Revert Allow Arcane Assembler parallel by @greesyB in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/36 (1.3.30-GTNH)
 >
 >## New Contributors
+> * @27yearoldminecraftgaymer made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/33 (1.4.0-GTNH)
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/37 (1.3.31-GTNH-pre)
 >
 
@@ -300,9 +348,11 @@
 > * remove enumhelper towards OrePrefixes and force gtnh gt by @Glease in https://github.com/GTNewHorizons/bartworks/pull/298 (0.5.164)
 >
 
-# Updated lwjgl3ify (1.1.38@BOTH_JAVA9 --> 1.1.44@BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.37...1.1.44
+# Updated lwjgl3ify (1.1.38@BOTH_JAVA9 --> 1.2.1@BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.1.37...1.2.1
 >## What's Changed
+> * Major Keyboard input rewrite, IME support on par with modern vanilla by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/43 (1.2.0)
+> * Rewrite Keyboard to behave like lwjgl3 by @kappa-maintainer in https://github.com/GTNewHorizons/lwjgl3ify/pull/42 (1.1.45)
 > * Compatibility and warning fixes by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/41 (1.1.44)
 > * Add workaround for input method users by @kappa-maintainer in https://github.com/GTNewHorizons/lwjgl3ify/pull/33 (1.1.43)
 > * Add multibyte char event handling by duplicating key events when multiple chars happen after a single keypress by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/40 (1.1.43)
@@ -313,8 +363,8 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/40 (1.1.43)
 >
 
-# Updated thaumicinsurgence (0.1.4@BOTH --> 0.2.1@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.1.3...0.2.1
+# Updated thaumicinsurgence (0.1.4@BOTH --> 0.2.2@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.1.3...0.2.2
 >## What's Changed
 > * Ugh, accidently made main again by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/24 (0.1.4)
 >
