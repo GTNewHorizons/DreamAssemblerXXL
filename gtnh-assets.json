@@ -619,7 +619,7 @@
     },
     {
       "name": "AE2FluidCraft-Rework",
-      "latest_version": "1.1.0-gtnh",
+      "latest_version": "1.1.1-gtnh-pre",
       "versions": [
         {
           "version_tag": "1.0.0-gtnh",
@@ -1526,6 +1526,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/99394506",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.1.0-gtnh/ae2fc-1.1.0-gtnh.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.1.0-gtnh/AE2FluidCraft-Rework-1.1.0-gtnh.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.1-gtnh-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.0-gtnh...1.1.1-gtnh-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T02:08:34+00:00",
+          "filename": "ae2fc-1.1.1-gtnh-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/99731572",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.1.1-gtnh-pre/ae2fc-1.1.1-gtnh-pre.jar",
           "extra_assets": []
         }
       ],
@@ -3289,7 +3299,7 @@
     },
     {
       "name": "bartworks",
-      "latest_version": "0.6.0",
+      "latest_version": "0.6.1",
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -4513,6 +4523,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/99068777",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.6.0/bartworks-0.6.0.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.6.0/bartworks-0.6.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.6.1",
+          "changelog": "## What's Changed\n* Remove Extreme Industrial Greenhouse from BW (moved to KubaTech) by @kuba6000 in https://github.com/GTNewHorizons/bartworks/pull/301\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.0...0.6.1\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T18:33:44+00:00",
+          "filename": "bartworks-0.6.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/99838490",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.6.1/bartworks-0.6.1.jar",
           "extra_assets": []
         }
       ],
@@ -6252,7 +6272,7 @@
     },
     {
       "name": "Botania",
-      "latest_version": "1.9.15-GTNH",
+      "latest_version": "1.9.16-GTNH",
       "versions": [
         {
           "version_tag": "1.9.0-GTNH",
@@ -6383,6 +6403,16 @@
           "browser_download_url": "https://github.com/GTNewHorizons/Botania/releases/download/1.9.15-GTNH/Botania-1.9.15-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botania/1.9.15-GTNH/Botania-1.9.15-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.16-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.9.15-GTNH...1.9.16-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T19:27:22+00:00",
+          "filename": "Botania-1.9.16-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Botania/releases/assets/99845054",
+          "browser_download_url": "https://github.com/GTNewHorizons/Botania/releases/download/1.9.16-GTNH/Botania-1.9.16-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "All Rights Reserved (fallback)",
@@ -6391,7 +6421,7 @@
     },
     {
       "name": "Botanic-horizons",
-      "latest_version": "1.0.14-GTNH",
+      "latest_version": "1.0.16-GTNH-pre",
       "versions": [
         {
           "version_tag": "1.0.1-GTNH",
@@ -6511,6 +6541,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/92649449",
           "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.14-GTNH/BotanicHorizons-1.7.10-1.0.14-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botanic-horizons/1.0.14-GTNH/Botanic-horizons-1.0.14-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.15-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.14-GTNH...1.0.15-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T18:52:42+00:00",
+          "filename": "BotanicHorizons-1.0.15-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/99840870",
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.15-GTNH-pre/BotanicHorizons-1.0.15-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.16-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.14-GTNH...1.0.16-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T19:20:18+00:00",
+          "filename": "BotanicHorizons-1.0.16-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/99844377",
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.16-GTNH-pre/BotanicHorizons-1.0.16-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -13190,7 +13240,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.42.04",
+      "latest_version": "5.09.42.06-pre",
       "private": false,
       "versions": [
         {
@@ -17458,6 +17508,26 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.04/gregtech-5.09.42.04.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.04/GT5-Unofficial-5.09.42.04.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.05",
+          "changelog": "## What's Changed\n* Auto-stock for stocking input bus by @MadMan310 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1790\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.04...5.09.42.05\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T09:23:24+00:00",
+          "filename": "gregtech-5.09.42.05.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/99772892",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.05/gregtech-5.09.42.05.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.06-pre",
+          "changelog": "## What's Changed\n* merge master by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1800\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.03...5.09.42.06-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T17:10:21+00:00",
+          "filename": "gregtech-5.09.42.06-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/99828664",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.06-pre/gregtech-5.09.42.06-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -18438,7 +18508,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.8.6",
+      "latest_version": "1.8.9",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -20280,6 +20350,36 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/99676480",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.6/GT-PlusPlus-1.8.6.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.6/GTplusplus-1.8.6.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.7",
+          "changelog": "## What's Changed\n* prevent error when given hatch is gone by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/572\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.6...1.8.7\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T09:22:30+00:00",
+          "filename": "GT-PlusPlus-1.8.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/99772769",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.7/GT-PlusPlus-1.8.7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.8-pre",
+          "changelog": "## What's Changed\n* Uu matter and uu amplifier by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/573\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.7...1.8.8-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T17:16:11+00:00",
+          "filename": "GT-PlusPlus-1.8.8-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/99829185",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.8-pre/GT-PlusPlus-1.8.8-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.9",
+          "changelog": "## What's Changed\n* Changed Basic and added Advanced UUMatter recipes by @RaitGamerGR in https://github.com/GTNewHorizons/GTplusplus/pull/571\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.7...1.8.9\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T17:36:38+00:00",
+          "filename": "GT-PlusPlus-1.8.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/99831016",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.9/GT-PlusPlus-1.8.9.jar",
           "extra_assets": []
         }
       ],
@@ -22969,7 +23069,7 @@
     },
     {
       "name": "KubaTech",
-      "latest_version": "0.8.0",
+      "latest_version": "0.9.1-pre",
       "versions": [
         {
           "version_tag": "0.1",
@@ -23445,6 +23545,46 @@
           "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.8.0/kubatech-0.8.0.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KubaTech/0.8.0/KubaTech-0.8.0.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "0.8.1-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.8.0...0.8.1-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T17:18:13+00:00",
+          "filename": "kubatech-0.8.1-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/99829391",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.8.1-pre/kubatech-0.8.1-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.8.2",
+          "changelog": "## What's Changed\n* Show progress bar when generating Mob Recipe Map by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/59\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.8.0...0.8.2\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T18:20:55+00:00",
+          "filename": "kubatech-0.8.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/99836840",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.8.2/kubatech-0.8.2.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.9.0",
+          "changelog": "## What's Changed\n* Add Extreme Industrial Greenhouse (moved from BW) by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/60\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.8.2...0.9.0\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T18:49:38+00:00",
+          "filename": "kubatech-0.9.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/99840397",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.9.0/kubatech-0.9.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.9.1-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.0...0.9.1-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T19:30:12+00:00",
+          "filename": "kubatech-0.9.1-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/99845351",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.9.1-pre/kubatech-0.9.1-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -23740,7 +23880,7 @@
     },
     {
       "name": "lwjgl3ify",
-      "latest_version": "1.2.1",
+      "latest_version": "1.2.2",
       "private": false,
       "versions": [
         {
@@ -24748,6 +24888,27 @@
               "filename": "lwjgl3ify-1.2.1-multimc.zip",
               "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/99660231",
               "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.2.1/lwjgl3ify-1.2.1-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.2.2",
+          "changelog": "## What's Changed\n* Add a HotSwapAgent plugin to rerun asm transformers on hotswap by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/46\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.2.1...1.2.2\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-16T19:02:48+00:00",
+          "filename": "lwjgl3ify-1.2.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/99690030",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.2.2/lwjgl3ify-1.2.2.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.2.2-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/99690029",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.2.2/lwjgl3ify-1.2.2-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.2.2-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/99690035",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.2.2/lwjgl3ify-1.2.2-multimc.zip"
             }
           ]
         }
@@ -26779,7 +26940,7 @@
     },
     {
       "name": "NEI-Integration",
-      "latest_version": "1.2.4-pre",
+      "latest_version": "1.3.0",
       "versions": [
         {
           "version_tag": "1.1.3",
@@ -26831,6 +26992,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NEI-Integration/releases/assets/99157925",
           "browser_download_url": "https://github.com/GTNewHorizons/NEI-Integration/releases/download/1.2.4-pre/NEIIntegration-1.2.4-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NEI-Integration/1.2.4-pre/NEI-Integration-1.2.4-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.0",
+          "changelog": "## What's Changed\n* Readd Handlers by @glowredman in https://github.com/GTNewHorizons/NEI-Integration/pull/5\n\n## New Contributors\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/NEI-Integration/pull/5\n\n**Full Changelog**: https://github.com/GTNewHorizons/NEI-Integration/compare/1.2.3...1.3.0\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-17T09:26:02+00:00",
+          "filename": "NEIIntegration-1.3.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NEI-Integration/releases/assets/99773299",
+          "browser_download_url": "https://github.com/GTNewHorizons/NEI-Integration/releases/download/1.3.0/NEIIntegration-1.3.0.jar",
           "extra_assets": []
         }
       ],
