@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.0",
-  "last_updated": "2023-03-18T21:19:49.962914",
+  "last_updated": "2023-03-18T21:29:41.322049",
   "config": "2.3.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.0-gtnh",
+      "version": "1.1.1-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -396,10 +396,6 @@
       "version": "1.7.5",
       "side": "BOTH"
     },
-    "Mixingasm": {
-      "version": "v0.2.4",
-      "side": "BOTH"
-    },
     "ModTweaker": {
       "version": "0.9.10",
       "side": "BOTH"
@@ -732,10 +728,6 @@
       "version": "1.0.0-RC7",
       "side": "BOTH"
     },
-    "GTNHMixins": {
-      "version": "2.1.13",
-      "side": "BOTH"
-    },
     "ModularUI": {
       "version": "1.1.2",
       "side": "BOTH"
@@ -960,6 +952,10 @@
     },
     "Gravitation-Suite-old": {
       "version": "2.0.3",
+      "side": "BOTH"
+    },
+    "\nUniMixins": {
+      "version": "0.1.5",
       "side": "BOTH"
     }
   }

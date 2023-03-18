@@ -479,6 +479,26 @@
   },
   "mods": [
     {
+      "name": "\nUniMixins",
+      "latest_version": "0.1.5",
+      "versions": [
+        {
+          "version_tag": "0.1.5",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2023-03-18T22:28:38.815698",
+          "filename": "_unimixins-all-1.7.10-0.1.5.jar",
+          "download_url": "https://github.com/LegacyModdingMC/UniMixins/releases/download/0.1.5/_unimixins-all-1.7.10-0.1.5.jar",
+          "browser_download_url": "https://github.com/LegacyModdingMC/UniMixins/releases/tag/0.1.5"
+        }
+      ],
+      "license": "MIT/LGPL",
+      "side": "BOTH",
+      "source": "other",
+      "external_url": "https://github.com/LegacyModdingMC/UniMixins",
+      "disabled": false
+    },
+    {
       "name": "Gravitation-Suite-old",
       "latest_version": "2.0.3",
       "versions": [
@@ -18573,7 +18593,8 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/GTNHMixins",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/gtnewhorizon/gtnhmixins/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/gtnewhorizon/gtnhmixins/",
+      "side": "NONE"
     },
     {
       "name": "GTplusplus",
@@ -25568,7 +25589,8 @@
       ],
       "license": "The Unlicense",
       "repo_url": "https://github.com/GTNewHorizons/Mixingasm",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Mixingasm/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Mixingasm/",
+      "side": "NONE"
     },
     {
       "name": "ModMixins",
