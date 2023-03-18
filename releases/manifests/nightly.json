@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.0",
-  "last_updated": "2023-03-18T21:29:41.322049",
+  "last_updated": "2023-03-18T21:31:07.359979",
   "config": "2.3.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.1-gtnh-pre",
+      "version": "1.1.0-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.2.2-GTNH-pre",
+      "version": "3.2.1-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
