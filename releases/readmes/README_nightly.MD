@@ -261,7 +261,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BetterCrashes](https://github.com/GTNewHorizons/BetterCrashes) | 1.2.0-GTNH |
 | [BetterLoadingScreen](https://github.com/GTNewHorizons/BetterLoadingScreen) | 1.3.39-GTNH |
 | [BetterP2P](https://github.com/GTNewHorizons/BetterP2P) | 1.0.24-pre |
-| [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting) | 3.2.2-GTNH-pre |
+| [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting) | 3.2.1-GTNH |
 | [BiblioCraft: BiblioWoods Biomes O'Plenty Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition) | 1.9 |
 | [BiblioCraft: BiblioWoods Forestry Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition) | 1.7 |
 | [BiblioCraft: BiblioWoods Natura Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-natura-edition) | 1.5 |
@@ -333,7 +333,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.9.30 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.2.6 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.0.13 |
-| [GTNHMixins](https://github.com/GTNewHorizons/GTNHMixins) | 2.1.13 |
 | [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.8.10 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.9.7-GTNH |
@@ -372,7 +371,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.3.6 |
 | [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.2.9-GTNH |
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 1.7.5 |
-| [Mixingasm](https://github.com/GTNewHorizons/Mixingasm) | v0.2.4 |
 | [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.9.10 |
 | [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.1.2 |
 | [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) | 1.6.21 |
@@ -460,6 +458,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [TravellersGearNeo](https://github.com/GTNewHorizons/TravellersGearNeo) | 1.0 |
 | [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.3.8.18 |
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.5.1 |
+| [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.5 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.6.6 |
 | [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.0.38-pre |
 | [waila](https://github.com/GTNewHorizons/waila) | 1.5.24 |

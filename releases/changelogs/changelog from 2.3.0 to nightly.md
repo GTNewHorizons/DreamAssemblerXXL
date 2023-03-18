@@ -1,5 +1,9 @@
 # New Mods:
 > * GTNH-Intergalactic
+> * UniMixins
+# Mods Removed:
+> * GTNHMixins
+> * Mixingasm
 # Updated AE2FluidCraft-Rework (1.0.92-gtnh@BOTH --> 1.1.0-gtnh@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.91-gtnh...1.1.0-gtnh
 >## What's Changed
@@ -56,8 +60,8 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/BetterP2P/pull/22 (1.0.24-pre)
 >
 
-# Updated BetterQuesting (3.1.8-GTNH@BOTH --> 3.2.2-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.1.7-GTNH...3.2.2-GTNH-pre
+# Updated BetterQuesting (3.1.8-GTNH@BOTH --> 3.2.1-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.1.7-GTNH...3.2.1-GTNH
 >## What's Changed
 > * Do not trigger task check for all inventory slots by @greesyB in https://github.com/GTNewHorizons/BetterQuesting/pull/90 (3.2.1-GTNH)
 > * More quest resetting fixes by @eigenraven in https://github.com/GTNewHorizons/BetterQuesting/pull/88 (3.1.8-GTNH)
