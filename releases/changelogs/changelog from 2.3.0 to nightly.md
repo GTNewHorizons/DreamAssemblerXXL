@@ -304,8 +304,8 @@
 > * @Kiwi233 made their first contribution in https://github.com/GTNewHorizons/NEI-Integration/pull/4 (1.2.3)
 >
 
-# Updated NewHorizonsCoreMod (1.9.171@BOTH --> 2.0.0@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.170...2.0.0
+# Updated NewHorizonsCoreMod (1.9.171@BOTH --> 2.0.2@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.170...2.0.2
 >## What's Changed
 > * Move space assembler calls to GTNH intergalactic by @minecraft7771 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/539 (2.0.0)
 > * Fix for Tungstensteel Ingots Needing TPV Coils by @Steelux8 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/538 (1.9.171)

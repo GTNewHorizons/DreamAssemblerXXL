@@ -27488,7 +27488,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.0.0",
+      "latest_version": "2.0.2",
       "private": false,
       "versions": [
         {
@@ -29089,6 +29089,26 @@
           "filename": "GTNewHorizonsCoreMod-2.0.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/99045782",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.0/GTNewHorizonsCoreMod-2.0.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.1",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.0...2.0.1\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T12:16:15+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.0.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/100022433",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.1/GTNewHorizonsCoreMod-2.0.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.2",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.1...2.0.2\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T12:30:52+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.0.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/100023333",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.2/GTNewHorizonsCoreMod-2.0.2.jar",
           "extra_assets": []
         }
       ],
