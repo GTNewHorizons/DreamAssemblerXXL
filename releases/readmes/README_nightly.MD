@@ -331,7 +331,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GTNEIOrePlugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.0.29 |
 | [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.0.1 |
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.9.30 |
-| [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.2.6 |
+| [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.3.0 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.0.13 |
 | [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.8.10 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |

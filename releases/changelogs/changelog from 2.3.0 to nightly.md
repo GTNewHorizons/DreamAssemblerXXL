@@ -183,6 +183,16 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/52 (0.9.30)
 >
 
+# Updated GTNH-TC-Wands (1.2.6@BOTH --> 1.3.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.2.5...1.3.0
+>## What's Changed
+> * Add ChromatiCraft support by @KuroPeach in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/15 (1.3.0)
+> * update buildscript for maven by @bombcar in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/14 (1.2.6)
+>
+>## New Contributors
+> * @KuroPeach made their first contribution in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/15 (1.3.0)
+>
+
 # Updated GTplusplus (1.7.227@BOTH --> 1.8.10@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.226...1.8.10
 >## What's Changed
