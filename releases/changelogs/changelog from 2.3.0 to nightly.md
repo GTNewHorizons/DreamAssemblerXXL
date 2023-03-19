@@ -92,16 +92,6 @@
 > * @Zereff06 made their first contribution in https://github.com/GTNewHorizons/Botania/pull/23 (1.9.15-GTNH)
 >
 
-# Updated Botanic-horizons (1.0.14-GTNH@BOTH --> 1.0.16-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.13-GTNH...1.0.16-GTNH-pre
->## What's Changed
-> * Revert "Alternate tiny planet block recipe" by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/19 (1.0.14-GTNH)
-> * Add Tiny Planet Recipe by @BlueWeabo in https://github.com/GTNewHorizons/Botanic-horizons/pull/20 (1.0.14-GTNH)
->
->## New Contributors
-> * @BlueWeabo made their first contribution in https://github.com/GTNewHorizons/Botanic-horizons/pull/20 (1.0.14-GTNH)
->
-
 # Updated BugTorch (1.2.5GTNH@BOTH --> 1.2.6-GTNH@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BugTorch/compare/1.2.4-GTNH...1.2.6-GTNH
 >## What's Changed
@@ -143,15 +133,6 @@
 >
 >## New Contributors
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/ExtraCells2/pull/81 (2.5.33)
->
-
-# Updated ForestryMC (4.5.8@BOTH --> 4.5.9-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.5.7...4.5.9-pre
->## What's Changed
-> * Fix typo by @Ethryan in https://github.com/GTNewHorizons/ForestryMC/pull/43 (4.5.8)
->
->## New Contributors
-> * @Ethryan made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/43 (4.5.8)
 >
 
 # Updated GT5-Unofficial (5.09.41.317@BOTH --> 5.09.42.07@BOTH)
