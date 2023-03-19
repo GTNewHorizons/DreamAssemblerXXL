@@ -23377,6 +23377,7 @@
           "filename": "kekztech-0.7.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/KekzTech/releases/assets/100018395",
           "browser_download_url": "https://github.com/GTNewHorizons/KekzTech/releases/download/0.7.1/kekztech-0.7.1.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KekzTech/0.7.1/KekzTech-0.7.1.jar",
           "extra_assets": []
         }
       ],

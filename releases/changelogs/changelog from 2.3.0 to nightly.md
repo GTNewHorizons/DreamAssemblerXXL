@@ -248,11 +248,15 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/198 (2.0.44-pre)
 >
 
-# Updated KekzTech (0.6.32@BOTH --> 0.7.0@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.6.31...0.7.0
+# Updated KekzTech (0.6.32@BOTH --> 0.7.1@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.6.31...0.7.1
 >## What's Changed
+> * Fix space in gas turbine tooltip by @the-emerald in https://github.com/GTNewHorizons/KekzTech/pull/61 (0.7.1)
 > * Add wireless toggle button to LSC GUI by @minecraft7771 in https://github.com/GTNewHorizons/KekzTech/pull/62 (0.7.0)
 > * Make LSC wireless refill variable persistant by @minecraft7771 in https://github.com/GTNewHorizons/KekzTech/pull/60 (0.6.32)
+>
+>## New Contributors
+> * @the-emerald made their first contribution in https://github.com/GTNewHorizons/KekzTech/pull/61 (0.7.1)
 >
 
 # Updated KubaTech (0.7.19@BOTH --> 0.9.2@BOTH)
