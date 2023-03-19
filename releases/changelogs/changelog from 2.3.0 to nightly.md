@@ -13,9 +13,10 @@
 > * fix fc pattern terminal shift click will use not support item to fill slot by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/103 (1.0.92-gtnh)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-175-GTNH@BOTH --> rv3-beta-182-GTNH@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-174-GTNH...rv3-beta-182-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-175-GTNH@BOTH --> rv3-beta-183-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-174-GTNH...rv3-beta-183-GTNH
 >## What's Changed
+> * Quickfix for sorting to retain consistency w/ prev behavior by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/288 (rv3-beta-183-GTNH)
 > * Uncap ME chest stack size by @greesyB in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/286 (rv3-beta-182-GTNH)
 > * Sorter cleanup by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/287 (rv3-beta-182-GTNH)
 > * FMP support fixed by @repo-alt in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/282 (rv3-beta-181-GTNH)
@@ -39,6 +40,16 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/4 (1.7.6)
 >
 
+# Updated Battlegear2 (1.1.2.4@BOTH --> 1.2.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.1.2.3...1.2.0
+>## What's Changed
+> * Fix method name conflicts by @wohaopa in https://github.com/GTNewHorizons/Battlegear2/pull/16 (1.2.0)
+> * keybind conflict by @Alexdoru in https://github.com/GTNewHorizons/Battlegear2/pull/15 (1.1.2.4)
+>
+>## New Contributors
+> * @wohaopa made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/16 (1.2.0)
+>
+
 # Updated BetterCrashes (1.1.9-GTNH@CLIENT --> 1.2.0-GTNH@CLIENT)
 **Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.1.8-GTNH...1.2.0-GTNH
 >## What's Changed
@@ -49,9 +60,10 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/BetterCrashes/pull/9 (1.1.9-GTNH)
 >
 
-# Updated BetterP2P (1.0.23@BOTH --> 1.0.24-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.0.19...1.0.24-pre
+# Updated BetterP2P (1.0.23@BOTH --> 1.1.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.0.19...1.1.0
 >## What's Changed
+> * New Filtering System for Text Search by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/20 (1.1.0)
 > * Dev/firenoo/filter by @Dream-Master in https://github.com/GTNewHorizons/BetterP2P/pull/22 (1.0.24-pre)
 > * Rework the Advanced Memory Card's internal mechanisms. by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/18 (1.0.23)
 > * Fix P2P interface voiding/not saving settings on Adv. Mem. Card rebind by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/19 (1.0.23)
@@ -60,9 +72,10 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/BetterP2P/pull/22 (1.0.24-pre)
 >
 
-# Updated BetterQuesting (3.1.8-GTNH@BOTH --> 3.2.1-GTNH@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.1.7-GTNH...3.2.1-GTNH
+# Updated BetterQuesting (3.1.8-GTNH@BOTH --> 3.3.0-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.1.7-GTNH...3.3.0-GTNH
 >## What's Changed
+> * Use UUID for quest ID, and split up giant quest JSON file by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/89 (3.3.0-GTNH)
 > * Do not trigger task check for all inventory slots by @greesyB in https://github.com/GTNewHorizons/BetterQuesting/pull/90 (3.2.1-GTNH)
 > * More quest resetting fixes by @eigenraven in https://github.com/GTNewHorizons/BetterQuesting/pull/88 (3.1.8-GTNH)
 >
@@ -107,9 +120,10 @@
 > * @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/DetravScannerMod/pull/26 (1.6.9)
 >
 
-# Updated EnderIO (2.3.1.68@BOTH --> 2.4.1-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.67...2.4.1-pre
+# Updated EnderIO (2.3.1.68@BOTH --> 2.4.2@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.3.1.67...2.4.2
 >## What's Changed
+> * Ultra Dense ME Conduits by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/105 (2.4.2)
 > * More German Translation by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/110 (2.4.0)
 > * Revert "Fix ME Conduits onChunkUnload" by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/109 (2.3.1.68)
 >
@@ -228,9 +242,10 @@
 > * Fix AAL working with no energy hatches by @minecraft7771 in https://github.com/GTNewHorizons/GigaGramFab/pull/5 (0.1.8)
 >
 
-# Updated GoodGenerator (0.4.88@BOTH --> 0.5.1@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.87...0.5.1
+# Updated GoodGenerator (0.4.88@BOTH --> 0.5.2@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.87...0.5.2
 >## What's Changed
+> * Mane Neutron Activator Accept EV+ glass by @LewisSaber in https://github.com/GTNewHorizons/GoodGenerator/pull/146 (0.5.2)
 > * Add mode toggle button to PrAss GUI by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/144 (0.5.1)
 > * Fix fusion recipe NPE by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/145 (0.5.1)
 > * add batch mode for neutron activator by @GlodBlock in https://github.com/GTNewHorizons/GoodGenerator/pull/141 (0.5.0)
@@ -308,6 +323,28 @@
 > * Lwjgl3ify fixes by @eigenraven in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/33 (1.3.30)
 >
 
+# Updated OpenBlocks (1.6.10-GTNH@BOTH --> 1.7.0-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.6.9-GTNH...1.7.0-GTNH
+>## What's Changed
+> * Fix Scaffolding step sound by @jss2a98aj in https://github.com/GTNewHorizons/OpenBlocks/pull/11 (1.7.0-GTNH)
+> * Improve item config toggles by @jss2a98aj in https://github.com/GTNewHorizons/OpenBlocks/pull/12 (1.7.0-GTNH)
+> * unbind keybind by @Alexdoru in https://github.com/GTNewHorizons/OpenBlocks/pull/10 (1.6.10-GTNH)
+>
+>## New Contributors
+> * @jss2a98aj made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/11 (1.7.0-GTNH)
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/10 (1.6.10-GTNH)
+>
+
+# Updated OpenComputers (1.8.0.13-GTNH@BOTH --> 1.9.0-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.8.0.12-GTNH...1.9.0-GTNH
+>## What's Changed
+> * Fix patterns count by @LewisSaber in https://github.com/GTNewHorizons/OpenComputers/pull/94 (1.9.0-GTNH)
+> * Fix missing natives by @eigenraven in https://github.com/GTNewHorizons/OpenComputers/pull/93 (1.8.0.13-GTNH)
+>
+>## New Contributors
+> * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/94 (1.9.0-GTNH)
+>
+
 # Updated PersonalSpace (1.0.23@BOTH --> 1.0.24@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.22...1.0.24
 >## What's Changed
@@ -349,9 +386,10 @@
 > * Add BetterLoadingScreen Comapt by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/3 (1.5.1)
 >
 
-# Updated TecTech (5.0.114@BOTH --> 5.0.115@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.113...5.0.115
+# Updated TecTech (5.0.114@BOTH --> 5.0.116@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.113...5.0.116
 >## What's Changed
+> * Misc recipe fixes for EOH blocks by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/175 (5.0.116)
 > * patch weird NPE by @Glease in https://github.com/GTNewHorizons/TecTech/pull/174 (5.0.115)
 > * fix ChunkDataHandler causing CME at chunk unload by @Glease in https://github.com/GTNewHorizons/TecTech/pull/173 (5.0.114)
 >
@@ -378,12 +416,14 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/37 (1.3.31-GTNH-pre)
 >
 
-# Updated VisualProspecting (1.0.37@BOTH --> 1.0.38-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.0.36...1.0.38-pre
+# Updated VisualProspecting (1.0.37@BOTH --> 1.1.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.0.36...1.1.0
 >## What's Changed
+> * [After Stable] Mixin rework by @Alexdoru in https://github.com/GTNewHorizons/VisualProspecting/pull/27 (1.1.0)
 > * Fix Xaero's map issues by @kumquat-ir in https://github.com/GTNewHorizons/VisualProspecting/pull/25 (1.0.37)
 >
 >## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/27 (1.1.0)
 > * @kumquat-ir made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/25 (1.0.37)
 >
 

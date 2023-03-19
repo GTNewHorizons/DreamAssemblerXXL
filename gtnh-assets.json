@@ -639,337 +639,418 @@
     },
     {
       "name": "AE2FluidCraft-Rework",
-      "latest_version": "1.1.1-gtnh-pre",
-      "needs_attention": true,
+      "latest_version": "1.1.0-gtnh",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.0-gtnh",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/commits/1.0.0-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-06-05T16:19:57+00:00",
           "filename": "ae2fc-1.7.10-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/67615505",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.0-gtnh/ae2fc-1.7.10-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.0-gtnh/ae2fc-1.7.10-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.1-gtnh",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.0-gtnh...1.0.1-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-06-09T21:56:04+00:00",
           "filename": "ae2fc-1.7.10-1.0.1-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/68044847",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.1-gtnh/ae2fc-1.7.10-1.0.1-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.1-gtnh/ae2fc-1.7.10-1.0.1-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.2-gtnh",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.1-gtnh...1.0.2-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-06-22T09:26:44+00:00",
           "filename": "ae2fc-1.7.10-1.0.2-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/69233259",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.2-gtnh/ae2fc-1.7.10-1.0.2-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.2-gtnh/ae2fc-1.7.10-1.0.2-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.3-gtnh",
           "changelog": "## What's Changed\n* Update pattern terminal by @DianeXD in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/1\n* Adapt to gtnh version and add gtpp support by @DianeXD in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/2\n* upstream by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/3\n\n## New Contributors\n* @DianeXD made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.2-gtnh...1.0.3-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-07-12T04:33:01+00:00",
           "filename": "ae2fc-1.7.10-1.0.3-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/71295279",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.3-gtnh/ae2fc-1.7.10-1.0.3-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.3-gtnh/ae2fc-1.7.10-1.0.3-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.4-gtnh",
           "changelog": "## What's Changed\n* upstream by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/5\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.3-gtnh...1.0.4-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-07-31T14:23:05+00:00",
           "filename": "ae2fc-1.7.10-1.0.4-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/73246688",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.4-gtnh/ae2fc-1.7.10-1.0.4-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.4-gtnh/ae2fc-1.7.10-1.0.4-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.5-gtnh",
           "changelog": "## What's Changed\n* fix drops leak to item cell when discretizer go offline by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/6\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.4-gtnh...1.0.5-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-08-01T07:53:16+00:00",
           "filename": "ae2fc-1.7.10-1.0.5-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/73311386",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.5-gtnh/ae2fc-1.7.10-1.0.5-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.5-gtnh/ae2fc-1.7.10-1.0.5-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.6-gtnh",
           "changelog": "## What's Changed\n* fix npe from getItem() by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/7\n* Terminal by @Runakai1 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/8\n* Allows the use of the middle mouse button to modify the number of items in the pattern.  by @vfyjxf in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/9\n\n## New Contributors\n* @Runakai1 made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/8\n* @vfyjxf made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/9\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.5-gtnh...1.0.6-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-08-14T10:28:26+00:00",
           "filename": "ae2fc-1.7.10-1.0.6-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/74671064",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.6-gtnh/ae2fc-1.7.10-1.0.6-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.6-gtnh/ae2fc-1.7.10-1.0.6-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.7-gtnh",
           "changelog": "## What's Changed\n* fix crash when clicking priority button in dual interface by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/10\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.6-gtnh...1.0.7-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-08-20T07:52:55+00:00",
           "filename": "ae2fc-1.7.10-1.0.7-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/75293447",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.7-gtnh/ae2fc-1.7.10-1.0.7-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.7-gtnh/ae2fc-1.7.10-1.0.7-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.8-gtnh",
           "changelog": "## What's Changed\n* fix render npe from certain liquids by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/11\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.7-gtnh...1.0.8-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-08-22T10:45:38+00:00",
           "filename": "ae2fc-1.7.10-1.0.8-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/75464688",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.8-gtnh/ae2fc-1.7.10-1.0.8-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.8-gtnh/ae2fc-1.7.10-1.0.8-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.9-gtnh",
           "changelog": "## What's Changed\n* fix oc driver register crash by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/12\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.8-gtnh...1.0.9-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-08-23T08:06:35+00:00",
           "filename": "ae2fc-1.7.10-1.0.9-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/75566729",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.9-gtnh/ae2fc-1.7.10-1.0.9-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.9-gtnh/ae2fc-1.7.10-1.0.9-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.10-gtnh",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.9-gtnh...1.0.10-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-08-27T23:26:28+00:00",
           "filename": "ae2fc-1.7.10-1.0.10-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/76059658",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.10-gtnh/ae2fc-1.7.10-1.0.10-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.10-gtnh/ae2fc-1.7.10-1.0.10-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.11-gtnh",
           "changelog": "## What's Changed\n* fix int overflow in fluid storage cell by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/13\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.10-gtnh...1.0.11-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-09-01T10:40:39+00:00",
           "filename": "ae2fc-1.7.10-1.0.11-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/76537559",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.11-gtnh/ae2fc-1.7.10-1.0.11-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.11-gtnh/ae2fc-1.7.10-1.0.11-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.12-gtnh",
           "changelog": "## What's Changed\n* update zh lang and fix import export bus shift click transfer upgrade card by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/14\n\n## New Contributors\n* @asdflj made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/14\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.11-gtnh...1.0.12-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-09-04T15:51:32+00:00",
           "filename": "ae2fc-1.7.10-1.0.12-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/76843321",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.12-gtnh/ae2fc-1.7.10-1.0.12-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.12-gtnh/ae2fc-1.7.10-1.0.12-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.13-gtnh",
           "changelog": "## What's Changed\n* Display dual interface custom name by @DianeXD in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/15\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.12-gtnh...1.0.13-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-09-09T11:53:27+00:00",
           "filename": "ae2fc-1.7.10-1.0.13-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/77351664",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.13-gtnh/ae2fc-1.7.10-1.0.13-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.13-gtnh/ae2fc-1.7.10-1.0.13-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.14-gtnh-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.13-gtnh...1.0.14-gtnh-pre",
+          "prerelease": false,
           "tagged_at": "2022-09-17T09:19:27+00:00",
           "filename": "ae2fc-1.7.10-1.0.14-gtnh-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/78156682",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.14-gtnh-pre/ae2fc-1.7.10-1.0.14-gtnh-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.14-gtnh-pre/ae2fc-1.7.10-1.0.14-gtnh-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.15-gtnh",
           "changelog": "## What's Changed\n* update by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/16\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.13-gtnh...1.0.15-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-09-17T12:18:26+00:00",
           "filename": "ae2fc-1.7.10-1.0.15-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/78165154",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.15-gtnh/ae2fc-1.7.10-1.0.15-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.15-gtnh/ae2fc-1.7.10-1.0.15-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.16-gtnh",
           "changelog": "## What's Changed\n* asm packet return to crafting inventory by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/17\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.15-gtnh...1.0.16-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-09-21T07:30:04+00:00",
           "filename": "ae2fc-1.7.10-1.0.16-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/78535471",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.16-gtnh/ae2fc-1.7.10-1.0.16-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.16-gtnh/ae2fc-1.7.10-1.0.16-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.17-gtnh",
           "changelog": "## What's Changed\n* add obs check by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/19\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.16-gtnh...1.0.17-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-09-22T10:36:00+00:00",
           "filename": "ae2fc-1.7.10-1.0.17-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/78662893",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.17-gtnh/ae2fc-1.7.10-1.0.17-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.17-gtnh/ae2fc-1.7.10-1.0.17-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.18-gtnh",
           "changelog": "## What's Changed\n* me dual interface add insert mode by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/18\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.17-gtnh...1.0.18-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-09-22T20:13:19+00:00",
           "filename": "ae2fc-1.7.10-1.0.18-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/78711746",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.18-gtnh/ae2fc-1.7.10-1.0.18-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.18-gtnh/ae2fc-1.7.10-1.0.18-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.19-gtnh-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.18-gtnh...1.0.19-gtnh-pre",
+          "prerelease": false,
           "tagged_at": "2022-09-30T18:33:55+00:00",
           "filename": "ae2fc-1.7.10-1.0.19-gtnh-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/79559126",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.19-gtnh-pre/ae2fc-1.7.10-1.0.19-gtnh-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.19-gtnh-pre/ae2fc-1.7.10-1.0.19-gtnh-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.20-gtnh",
           "changelog": "## What's Changed\n* Update and fix some bug by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/20\n* eio conduct compact and fix transfer item and fluid in different dirs by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/21\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.18-gtnh...1.0.20-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-10-01T10:57:43+00:00",
           "filename": "ae2fc-1.7.10-1.0.20-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/79626518",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.20-gtnh/ae2fc-1.7.10-1.0.20-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.20-gtnh/ae2fc-1.7.10-1.0.20-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.21-gtnh",
           "changelog": "## What's Changed\n* crafting card support for fluid export bus by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/22\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.20-gtnh...1.0.21-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-10-04T10:15:58+00:00",
           "filename": "ae2fc-1.7.10-1.0.21-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/79904394",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.21-gtnh/ae2fc-1.7.10-1.0.21-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.21-gtnh/ae2fc-1.7.10-1.0.21-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.22-gtnh",
           "changelog": "## What's Changed\n* fix wrong bytes display when ingrentent isn't enough and a possible d… by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/23\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.21-gtnh...1.0.22-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-10-07T19:49:44+00:00",
           "filename": "ae2fc-1.7.10-1.0.22-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/80305630",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.22-gtnh/ae2fc-1.7.10-1.0.22-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.22-gtnh/ae2fc-1.7.10-1.0.22-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.23-gtnh",
           "changelog": "## What's Changed\n* fix wrong invert trigger by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/25\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.22-gtnh...1.0.23-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-10-08T15:03:46+00:00",
           "filename": "ae2fc-1.7.10-1.0.23-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/80377048",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.23-gtnh/ae2fc-1.7.10-1.0.23-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.23-gtnh/ae2fc-1.7.10-1.0.23-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.24-gtnh",
           "changelog": "## What's Changed\n* fix AIOOBE in amount set packet by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/26\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.23-gtnh...1.0.24-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-10-08T19:41:43+00:00",
           "filename": "ae2fc-1.7.10-1.0.24-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/80394564",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.24-gtnh/ae2fc-1.7.10-1.0.24-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.24-gtnh/ae2fc-1.7.10-1.0.24-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.25-gtnh",
           "changelog": "## What's Changed\n* Add filter tooltip to partitioned storage cells by @dipo33 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/27\n\n## New Contributors\n* @dipo33 made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/27\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.24-gtnh...1.0.25-gtnh",
+          "prerelease": false,
           "tagged_at": "2022-10-10T05:10:11+00:00",
           "filename": "ae2fc-1.7.10-1.0.25-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/80507090",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.25-gtnh/ae2fc-1.7.10-1.0.25-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.25-gtnh/ae2fc-1.7.10-1.0.25-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.26-gtnh",
           "changelog": "## What's Changed\n* add fluid terminal by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/28\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.25-gtnh...1.0.26-gtnh\n",
+          "prerelease": false,
           "tagged_at": "2022-10-20T16:43:41+00:00",
           "filename": "ae2fc-1.7.10-1.0.26-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/81697301",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.26-gtnh/ae2fc-1.7.10-1.0.26-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.26-gtnh/ae2fc-1.7.10-1.0.26-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.27-gtnh",
           "changelog": "## What's Changed\n* fluid terminal support long fluid amount by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/29\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.26-gtnh...1.0.27-gtnh\n",
+          "prerelease": false,
           "tagged_at": "2022-10-23T09:15:19+00:00",
           "filename": "ae2fc-1.7.10-1.0.27-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/81976710",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.27-gtnh/ae2fc-1.7.10-1.0.27-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.27-gtnh/ae2fc-1.7.10-1.0.27-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.28-gtnh",
           "changelog": "## What's Changed\n* make blocking mode work with fluid p2ps by @guineawheek in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/31\n* update lang and fix dual interface infinity export fluid bug by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/32\n\n## New Contributors\n* @guineawheek made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/31\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.27-gtnh...1.0.28-gtnh\n",
+          "prerelease": false,
           "tagged_at": "2022-10-26T18:29:01+00:00",
           "filename": "ae2fc-1.7.10-1.0.28-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/82364634",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.28-gtnh/ae2fc-1.7.10-1.0.28-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.28-gtnh/ae2fc-1.7.10-1.0.28-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.29-gtnh",
           "changelog": "## What's Changed\n* pattern terminal update by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/33\n* fluid terminal code clean up by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/30\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.28-gtnh...1.0.29-gtnh\n",
+          "prerelease": false,
           "tagged_at": "2022-10-28T17:49:07+00:00",
           "filename": "ae2fc-1.7.10-1.0.29-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/82631839",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.29-gtnh/ae2fc-1.7.10-1.0.29-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.29-gtnh/ae2fc-1.7.10-1.0.29-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.30-gtnh",
           "changelog": "## What's Changed\n* fix NPE crash with recent code change by @guineawheek in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/35\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.29-gtnh...1.0.30-gtnh\n",
+          "prerelease": false,
           "tagged_at": "2022-11-02T17:05:01+00:00",
           "filename": "ae2fc-1.7.10-1.0.30-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/83194589",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.30-gtnh/ae2fc-1.7.10-1.0.30-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.30-gtnh/ae2fc-1.7.10-1.0.30-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.31-gtnh",
           "changelog": "## What's Changed\n* Greggified recipes of fluid storage cells by @OneEyeMaker in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/37\n\n## New Contributors\n* @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/37\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.30-gtnh...1.0.31-gtnh\n",
+          "prerelease": false,
           "tagged_at": "2022-11-12T10:35:32+00:00",
           "filename": "ae2fc-1.7.10-1.0.31-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/84358532",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.31-gtnh/ae2fc-1.7.10-1.0.31-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.31-gtnh/ae2fc-1.7.10-1.0.31-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.32-gtnh",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.31-gtnh...1.0.32-gtnh\n",
+          "prerelease": false,
           "tagged_at": "2022-11-12T21:42:42+00:00",
           "filename": "ae2fc-1.7.10-1.0.32-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/84395776",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.32-gtnh/ae2fc-1.7.10-1.0.32-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.32-gtnh/ae2fc-1.7.10-1.0.32-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.33-gtnh",
           "changelog": "## What's Changed\n* add ME Level Maintainer by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/36\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.32-gtnh...1.0.33-gtnh\n",
+          "prerelease": false,
           "tagged_at": "2022-11-15T07:17:57+00:00",
           "filename": "ae2fc-1.7.10-1.0.33-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/84659672",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.33-gtnh/ae2fc-1.7.10-1.0.33-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.33-gtnh/ae2fc-1.7.10-1.0.33-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.34-gtnh",
           "changelog": "## What's Changed\n* fluid packet decoder add slot restricted input by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/39\n* oc api for me dual interface by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/40\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.33-gtnh...1.0.34-gtnh\n",
+          "prerelease": false,
           "tagged_at": "2022-11-18T18:17:16+00:00",
           "filename": "ae2fc-1.7.10-1.0.34-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/85134452",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.34-gtnh/ae2fc-1.7.10-1.0.34-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.34-gtnh/ae2fc-1.7.10-1.0.34-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.35-gtnh",
           "changelog": "## What's Changed\n* fix blocking mode and item amount change by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/38\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.34-gtnh...1.0.35-gtnh\n",
+          "prerelease": false,
           "tagged_at": "2022-11-19T16:38:26+00:00",
           "filename": "ae2fc-1.7.10-1.0.35-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/85225112",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.35-gtnh/ae2fc-1.7.10-1.0.35-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.35-gtnh/ae2fc-1.7.10-1.0.35-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.36-gtnh",
           "changelog": "## What's Changed\n* add level maintainer permission control by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/41\n* fix no environement return by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/42\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.35-gtnh...1.0.36-gtnh\n",
+          "prerelease": false,
           "tagged_at": "2022-11-24T12:36:18+00:00",
           "filename": "ae2fc-1.7.10-1.0.36-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/85819962",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.36-gtnh/ae2fc-1.7.10-1.0.36-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.36-gtnh/ae2fc-1.7.10-1.0.36-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.37-gtnh",
           "changelog": "## What's Changed\n* add waila support by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/43\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.36-gtnh...1.0.37-gtnh\n",
+          "prerelease": false,
           "tagged_at": "2022-11-30T16:46:39+00:00",
           "filename": "ae2fc-1.7.10-1.0.37-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/86521594",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.37-gtnh/ae2fc-1.7.10-1.0.37-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.37-gtnh/ae2fc-1.7.10-1.0.37-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.38-gtnh-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.37-gtnh...1.0.38-gtnh-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-12-03T10:41:17+00:00",
           "filename": "ae2fc-1.7.10-1.0.38-gtnh-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/86855647",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.38-gtnh-pre/ae2fc-1.7.10-1.0.38-gtnh-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.38-gtnh-pre/ae2fc-1.7.10-1.0.38-gtnh-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.39-gtnh-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.38-gtnh-pre...1.0.39-gtnh-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-12-04T12:43:24+00:00",
           "filename": "ae2fc-1.7.10-1.0.39-gtnh-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/86954983",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.39-gtnh-pre/ae2fc-1.7.10-1.0.39-gtnh-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.39-gtnh-pre/ae2fc-1.7.10-1.0.39-gtnh-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.40-gtnh",
           "changelog": "## What's Changed\n* Add option to make Fluid Interface sideless by @dipo33 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/24\n* fix tooltip format by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/45\n* Spotless apply for branch fixs for #44 by @github-actions in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/46\n* add contents display on cells and fix pattern terminal encode overflow by @GlodBlock in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/44\n\n## New Contributors\n* @github-actions made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/46\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.37-gtnh...1.0.40-gtnh\n",
+          "prerelease": false,
           "tagged_at": "2022-12-05T17:22:02+00:00",
           "filename": "ae2fc-1.7.10-1.0.40-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/87092504",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.40-gtnh/ae2fc-1.7.10-1.0.40-gtnh.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.40-gtnh/AE2FluidCraft-Rework-1.0.40-gtnh.jar"
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.41-gtnh-pre",
@@ -978,7 +1059,8 @@
           "tagged_at": "2022-12-16T08:05:06+00:00",
           "filename": "ae2fc-1.7.10-1.0.41-gtnh-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/88429182",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.41-gtnh-pre/ae2fc-1.7.10-1.0.41-gtnh-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.41-gtnh-pre/ae2fc-1.7.10-1.0.41-gtnh-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.42-gtnh",
@@ -987,7 +1069,8 @@
           "tagged_at": "2022-12-18T21:31:36+00:00",
           "filename": "ae2fc-1.7.10-1.0.42-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/88703338",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.42-gtnh/ae2fc-1.7.10-1.0.42-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.42-gtnh/ae2fc-1.7.10-1.0.42-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.43-gtnh",
@@ -997,7 +1080,7 @@
           "filename": "ae2fc-1.7.10-1.0.43-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/88799956",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.43-gtnh/ae2fc-1.7.10-1.0.43-gtnh.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.43-gtnh/AE2FluidCraft-Rework-1.0.43-gtnh.jar"
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.44-gtnh",
@@ -1267,7 +1350,6 @@
           "filename": "ae2fc-1.0.69-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/95332967",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.69-gtnh/ae2fc-1.0.69-gtnh.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.69-gtnh/AE2FluidCraft-Rework-1.0.69-gtnh.jar",
           "extra_assets": []
         },
         {
@@ -1338,7 +1420,6 @@
           "filename": "ae2fc-1.0.76-gtnh-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/95962996",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.76-gtnh-pre/ae2fc-1.0.76-gtnh-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.76-gtnh-pre/AE2FluidCraft-Rework-1.0.76-gtnh-pre.jar",
           "extra_assets": []
         },
         {
@@ -1459,7 +1540,6 @@
           "filename": "ae2fc-1.0.88-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/97412220",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.88-gtnh/ae2fc-1.0.88-gtnh.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.88-gtnh/AE2FluidCraft-Rework-1.0.88-gtnh.jar",
           "extra_assets": []
         },
         {
@@ -1470,7 +1550,6 @@
           "filename": "ae2fc-1.0.89-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/97890661",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.89-gtnh/ae2fc-1.0.89-gtnh.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.89-gtnh/AE2FluidCraft-Rework-1.0.89-gtnh.jar",
           "extra_assets": []
         },
         {
@@ -1491,7 +1570,6 @@
           "filename": "ae2fc-1.0.91-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/98009416",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.91-gtnh/ae2fc-1.0.91-gtnh.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.91-gtnh/AE2FluidCraft-Rework-1.0.91-gtnh.jar",
           "extra_assets": []
         },
         {
@@ -1502,7 +1580,6 @@
           "filename": "ae2fc-1.0.92-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/98443122",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.92-gtnh/ae2fc-1.0.92-gtnh.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.92-gtnh/AE2FluidCraft-Rework-1.0.92-gtnh.jar",
           "extra_assets": []
         },
         {
@@ -1513,7 +1590,6 @@
           "filename": "ae2fc-1.0.93-gtnh-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/99058256",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.93-gtnh-pre/ae2fc-1.0.93-gtnh-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.93-gtnh-pre/AE2FluidCraft-Rework-1.0.93-gtnh-pre.jar",
           "extra_assets": []
         },
         {
@@ -1524,7 +1600,6 @@
           "filename": "ae2fc-1.0.94-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/99109008",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.94-gtnh/ae2fc-1.0.94-gtnh.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.94-gtnh/AE2FluidCraft-Rework-1.0.94-gtnh.jar",
           "extra_assets": []
         },
         {
@@ -1535,7 +1610,6 @@
           "filename": "ae2fc-1.0.95-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/99156168",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.0.95-gtnh/ae2fc-1.0.95-gtnh.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.0.95-gtnh/AE2FluidCraft-Rework-1.0.95-gtnh.jar",
           "extra_assets": []
         },
         {
@@ -1546,23 +1620,13 @@
           "filename": "ae2fc-1.1.0-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/99394506",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.1.0-gtnh/ae2fc-1.1.0-gtnh.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.1.0-gtnh/AE2FluidCraft-Rework-1.1.0-gtnh.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "1.1.1-gtnh-pre",
-          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.0-gtnh...1.1.1-gtnh-pre\n",
-          "prerelease": false,
-          "tagged_at": "2023-03-17T02:08:34+00:00",
-          "filename": "ae2fc-1.1.1-gtnh-pre.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/99731572",
-          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.1.1-gtnh-pre/ae2fc-1.1.1-gtnh-pre.jar",
           "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/",
+      "side": "BOTH"
     },
     {
       "name": "ae2stuff",
@@ -1865,7 +1929,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-182-GTNH",
+      "latest_version": "rv3-beta-183-GTNH",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -2954,6 +3018,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/99952655",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-182-GTNH/appliedenergistics2-rv3-beta-182-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-182-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-182-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-183-GTNH",
+          "changelog": "## What's Changed\n* Quickfix for sorting to retain consistency w/ prev behavior by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/288\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-182-GTNH...rv3-beta-183-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T09:25:56+00:00",
+          "filename": "appliedenergistics2-rv3-beta-183-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/100010974",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-183-GTNH/appliedenergistics2-rv3-beta-183-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -4596,7 +4670,7 @@
     },
     {
       "name": "Battlegear2",
-      "latest_version": "1.1.2.4",
+      "latest_version": "1.2.0",
       "versions": [
         {
           "version_tag": "1.0.8.5",
@@ -4732,6 +4806,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Battlegear2/releases/assets/94769679",
           "browser_download_url": "https://github.com/GTNewHorizons/Battlegear2/releases/download/1.1.2.4/battlegear2-1.1.2.4.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Battlegear2/1.1.2.4/Battlegear2-1.1.2.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.2.0",
+          "changelog": "## What's Changed\n* Fix method name conflicts by @wohaopa in https://github.com/GTNewHorizons/Battlegear2/pull/16\n\n## New Contributors\n* @wohaopa made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/16\n\n**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.1.2.4...1.2.0\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T09:36:16+00:00",
+          "filename": "battlegear2-1.2.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Battlegear2/releases/assets/100011729",
+          "browser_download_url": "https://github.com/GTNewHorizons/Battlegear2/releases/download/1.2.0/battlegear2-1.2.0.jar",
           "extra_assets": []
         }
       ],
@@ -5175,7 +5259,7 @@
     },
     {
       "name": "BetterP2P",
-      "latest_version": "1.0.24-pre",
+      "latest_version": "1.1.0",
       "versions": [
         {
           "version_tag": "1.0.3",
@@ -5380,6 +5464,16 @@
           "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.0.24-pre/betterp2p-1.0.24-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterP2P/1.0.24-pre/BetterP2P-1.0.24-pre.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.0",
+          "changelog": "## What's Changed\n* New Filtering System for Text Search by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/20\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.0.23...1.1.0\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T09:30:13+00:00",
+          "filename": "betterp2p-1.1.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterP2P/releases/assets/100011393",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.1.0/betterp2p-1.1.0.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -5388,7 +5482,7 @@
     },
     {
       "name": "BetterQuesting",
-      "latest_version": "3.2.2-GTNH-pre",
+      "latest_version": "3.3.0-GTNH",
       "versions": [
         {
           "version_tag": "3.0.351-GTNH",
@@ -5648,6 +5742,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/99849764",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.2.2-GTNH-pre/BetterQuesting-3.2.2-GTNH-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.2.2-GTNH-pre/BetterQuesting-3.2.2-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.2.3-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.2.0-GTNH-pre...3.2.3-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T09:25:02+00:00",
+          "filename": "BetterQuesting-3.2.3-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/100010903",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.2.3-GTNH-pre/BetterQuesting-3.2.3-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.3.0-GTNH",
+          "changelog": "## What's Changed\n* Use UUID for quest ID, and split up giant quest JSON file by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/89\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.2.1-GTNH...3.3.0-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T09:41:08+00:00",
+          "filename": "BetterQuesting-3.3.0-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/100012075",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.0-GTNH/BetterQuesting-3.3.0-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -8991,7 +9105,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.4.1-pre",
+      "latest_version": "2.4.2",
       "versions": [
         {
           "version_tag": "2.3.0.433",
@@ -9479,6 +9593,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/99080474",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.4.1-pre/EnderIO-2.4.1-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/2.4.1-pre/EnderIO-2.4.1-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.4.2",
+          "changelog": "## What's Changed\n* Ultra Dense ME Conduits by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/105\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.0...2.4.2\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T09:38:27+00:00",
+          "filename": "EnderIO-2.4.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/100011950",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.4.2/EnderIO-2.4.2.jar",
           "extra_assets": []
         }
       ],
@@ -12281,7 +12405,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.5.1",
+      "latest_version": "0.5.2",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -13180,6 +13304,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/99676758",
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.5.1/GoodGenerator-0.5.1.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.5.1/GoodGenerator-0.5.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.5.2",
+          "changelog": "## What's Changed\n* Mane Neutron Activator Accept EV+ glass by @LewisSaber in https://github.com/GTNewHorizons/GoodGenerator/pull/146\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.1...0.5.2\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T09:49:52+00:00",
+          "filename": "GoodGenerator-0.5.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/100012783",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.5.2/GoodGenerator-0.5.2.jar",
           "extra_assets": []
         }
       ],
@@ -30291,7 +30425,7 @@
     },
     {
       "name": "OpenBlocks",
-      "latest_version": "1.6.10-GTNH",
+      "latest_version": "1.7.0-GTNH",
       "versions": [
         {
           "version_tag": "1.6.1",
@@ -30336,6 +30470,26 @@
           "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.6.10-GTNH/OpenBlocks-1.6.10-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenBlocks/1.6.10-GTNH/OpenBlocks-1.6.10-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.6.11-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.6.10-GTNH...1.6.11-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T09:24:39+00:00",
+          "filename": "OpenBlocks-1.6.11-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/100010884",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.6.11-GTNH-pre/OpenBlocks-1.6.11-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.7.0-GTNH",
+          "changelog": "## What's Changed\n* Fix Scaffolding step sound by @jss2a98aj in https://github.com/GTNewHorizons/OpenBlocks/pull/11\n* Improve item config toggles by @jss2a98aj in https://github.com/GTNewHorizons/OpenBlocks/pull/12\n\n## New Contributors\n* @jss2a98aj made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/11\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.6.10-GTNH...1.7.0-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T09:32:08+00:00",
+          "filename": "OpenBlocks-1.7.0-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/100011479",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.7.0-GTNH/OpenBlocks-1.7.0-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
@@ -30344,7 +30498,7 @@
     },
     {
       "name": "OpenComputers",
-      "latest_version": "1.8.0.13-GTNH",
+      "latest_version": "1.9.0-GTNH",
       "versions": [
         {
           "version_tag": "1.7.4.1",
@@ -30643,6 +30797,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/96219165",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.8.0.13-GTNH/OpenComputers-1.8.0.13-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenComputers/1.8.0.13-GTNH/OpenComputers-1.8.0.13-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.0.14-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.8.0.13-GTNH...1.8.0.14-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T09:31:39+00:00",
+          "filename": "OpenComputers-1.8.0.14-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/100011441",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.8.0.14-GTNH-pre/OpenComputers-1.8.0.14-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.0-GTNH",
+          "changelog": "## What's Changed\n* Fix patterns count by @LewisSaber in https://github.com/GTNewHorizons/OpenComputers/pull/94\n\n## New Contributors\n* @LewisSaber made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/94\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.8.0.13-GTNH...1.9.0-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T09:38:15+00:00",
+          "filename": "OpenComputers-1.9.0-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/100011915",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.9.0-GTNH/OpenComputers-1.9.0-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -31778,44 +31952,53 @@
     {
       "name": "SC2",
       "latest_version": "2.0.2",
+      "private": false,
       "versions": [
         {
           "version_tag": "2.0.0.b21",
           "changelog": "## What's Changed\n* Create zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/SC2/pull/1\n\n## New Contributors\n* @Kiwi233 made their first contribution in https://github.com/GTNewHorizons/SC2/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/SC2/commits/2.0.0.b21",
+          "prerelease": false,
           "tagged_at": "2021-12-02T19:53:16+00:00",
           "filename": "StevesCarts-1.7.10-2.0.0.b21.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SC2/releases/assets/50859196",
-          "browser_download_url": "https://github.com/GTNewHorizons/SC2/releases/download/2.0.0.b21/StevesCarts-1.7.10-2.0.0.b21.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/SC2/releases/download/2.0.0.b21/StevesCarts-1.7.10-2.0.0.b21.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.0.b22",
           "changelog": "## What's Changed\n* Migrated to unified build script by @SinTh0r4s in https://github.com/GTNewHorizons/SC2/pull/2\n\n## New Contributors\n* @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/SC2/pull/2\n\n**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.0.0.b21...2.0.0.b22",
+          "prerelease": false,
           "tagged_at": "2021-12-02T20:12:35+00:00",
           "filename": "StevesCarts-1.7.10-2.0.0.b22.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SC2/releases/assets/50860441",
-          "browser_download_url": "https://github.com/GTNewHorizons/SC2/releases/download/2.0.0.b22/StevesCarts-1.7.10-2.0.0.b22.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/SC2/releases/download/2.0.0.b22/StevesCarts-1.7.10-2.0.0.b22.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.1",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.0.0.b22...2.0.1",
+          "prerelease": false,
           "tagged_at": "2022-01-19T04:31:19+00:00",
           "filename": "StevesCarts-1.7.10-2.0.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SC2/releases/assets/54334720",
-          "browser_download_url": "https://github.com/GTNewHorizons/SC2/releases/download/2.0.1/StevesCarts-1.7.10-2.0.1.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/SC2/releases/download/2.0.1/StevesCarts-1.7.10-2.0.1.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.2",
           "changelog": "## What's Changed\n* Fix duplicate key by @MuXiu1997 in https://github.com/GTNewHorizons/SC2/pull/3\n\n## New Contributors\n* @MuXiu1997 made their first contribution in https://github.com/GTNewHorizons/SC2/pull/3\n\n**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.0.1...2.0.2",
+          "prerelease": false,
           "tagged_at": "2022-06-16T19:10:07+00:00",
           "filename": "StevesCarts-1.7.10-2.0.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SC2/releases/assets/68701316",
           "browser_download_url": "https://github.com/GTNewHorizons/SC2/releases/download/2.0.2/StevesCarts-1.7.10-2.0.2.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SC2/2.0.2/SC2-2.0.2.jar"
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/SC2",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SC2/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SC2/",
+      "side": "BOTH"
     },
     {
       "name": "Schematica",
@@ -33934,7 +34117,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.0.115",
+      "latest_version": "5.0.116",
       "private": false,
       "versions": [
         {
@@ -35082,6 +35265,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/99321722",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.115/TecTech-5.0.115.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.0.115/TecTech-5.0.115.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.0.116",
+          "changelog": "## What's Changed\n* Misc recipe fixes for EOH blocks by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/175\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.115...5.0.116\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T01:14:16+00:00",
+          "filename": "TecTech-5.0.116.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/99977418",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.116/TecTech-5.0.116.jar",
           "extra_assets": []
         }
       ],
@@ -37154,7 +37347,7 @@
     },
     {
       "name": "VisualProspecting",
-      "latest_version": "1.0.38-pre",
+      "latest_version": "1.1.0",
       "versions": [
         {
           "version_tag": "1.0.22b",
@@ -37289,6 +37482,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/99158197",
           "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.0.38-pre/visualprospecting-1.0.38-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/VisualProspecting/1.0.38-pre/VisualProspecting-1.0.38-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.0",
+          "changelog": "## What's Changed\n* [After Stable] Mixin rework by @Alexdoru in https://github.com/GTNewHorizons/VisualProspecting/pull/27\n\n## New Contributors\n* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/27\n\n**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.0.37...1.1.0\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-19T09:43:24+00:00",
+          "filename": "visualprospecting-1.1.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/100012318",
+          "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.1.0/visualprospecting-1.1.0.jar",
           "extra_assets": []
         }
       ],
