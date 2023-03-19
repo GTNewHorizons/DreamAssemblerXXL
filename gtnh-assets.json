@@ -1620,6 +1620,7 @@
           "filename": "ae2fc-1.1.0-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/99394506",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.1.0-gtnh/ae2fc-1.1.0-gtnh.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.1.0-gtnh/AE2FluidCraft-Rework-1.1.0-gtnh.jar",
           "extra_assets": []
         }
       ],
@@ -3028,6 +3029,7 @@
           "filename": "appliedenergistics2-rv3-beta-183-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/100010974",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-183-GTNH/appliedenergistics2-rv3-beta-183-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-183-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-183-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -4816,6 +4818,7 @@
           "filename": "battlegear2-1.2.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Battlegear2/releases/assets/100011729",
           "browser_download_url": "https://github.com/GTNewHorizons/Battlegear2/releases/download/1.2.0/battlegear2-1.2.0.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Battlegear2/1.2.0/Battlegear2-1.2.0.jar",
           "extra_assets": []
         }
       ],
@@ -5473,6 +5476,7 @@
           "filename": "betterp2p-1.1.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterP2P/releases/assets/100011393",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.1.0/betterp2p-1.1.0.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterP2P/1.1.0/BetterP2P-1.1.0.jar",
           "extra_assets": []
         }
       ],
@@ -5762,6 +5766,7 @@
           "filename": "BetterQuesting-3.3.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/100012075",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.0-GTNH/BetterQuesting-3.3.0-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.3.0-GTNH/BetterQuesting-3.3.0-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -9603,6 +9608,7 @@
           "filename": "EnderIO-2.4.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/100011950",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.4.2/EnderIO-2.4.2.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/2.4.2/EnderIO-2.4.2.jar",
           "extra_assets": []
         }
       ],
@@ -13314,6 +13320,7 @@
           "filename": "GoodGenerator-0.5.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/100012783",
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.5.2/GoodGenerator-0.5.2.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.5.2/GoodGenerator-0.5.2.jar",
           "extra_assets": []
         }
       ],
@@ -30489,6 +30496,7 @@
           "filename": "OpenBlocks-1.7.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenBlocks/releases/assets/100011479",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.7.0-GTNH/OpenBlocks-1.7.0-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenBlocks/1.7.0-GTNH/OpenBlocks-1.7.0-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -30817,6 +30825,7 @@
           "filename": "OpenComputers-1.9.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/100011915",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.9.0-GTNH/OpenComputers-1.9.0-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenComputers/1.9.0-GTNH/OpenComputers-1.9.0-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -31992,6 +32001,7 @@
           "filename": "StevesCarts-1.7.10-2.0.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/SC2/releases/assets/68701316",
           "browser_download_url": "https://github.com/GTNewHorizons/SC2/releases/download/2.0.2/StevesCarts-1.7.10-2.0.2.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SC2/2.0.2/SC2-2.0.2.jar",
           "extra_assets": []
         }
       ],
@@ -35275,6 +35285,7 @@
           "filename": "TecTech-5.0.116.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/99977418",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.0.116/TecTech-5.0.116.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.0.116/TecTech-5.0.116.jar",
           "extra_assets": []
         }
       ],
@@ -37492,6 +37503,7 @@
           "filename": "visualprospecting-1.1.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/100012318",
           "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.1.0/visualprospecting-1.1.0.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/VisualProspecting/1.1.0/VisualProspecting-1.1.0.jar",
           "extra_assets": []
         }
       ],
