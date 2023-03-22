@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.0",
-  "last_updated": "2023-03-19T12:44:58.385000",
+  "last_updated": "2023-03-22T21:33:01.947337",
   "config": "2.3.1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,11 +9,11 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.0-gtnh",
+      "version": "1.1.1-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.5.1.15-GTNH",
+      "version": "0.5.1.16-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-183-GTNH",
+      "version": "rv3-beta-184-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.6.2",
+      "version": "0.6.3",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -77,11 +77,11 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.1.0",
+      "version": "1.1.1-pre",
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.3.0-GTNH",
+      "version": "3.3.6-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -105,7 +105,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.0.14-GTNH",
+      "version": "1.0.16-GTNH-pre",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -113,7 +113,7 @@
       "side": "BOTH"
     },
     "BugTorch": {
-      "version": "1.2.6-GTNH",
+      "version": "1.2.7",
       "side": "BOTH"
     },
     "BuildCraft": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.4.2",
+      "version": "2.4.3-pre",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.5.8",
+      "version": "4.6.0",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -257,11 +257,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.5.2",
+      "version": "0.5.4",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.07",
+      "version": "5.09.42.12",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.8.10",
+      "version": "1.8.11",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -349,11 +349,11 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.7.1",
+      "version": "0.7.3",
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.9.2",
+      "version": "0.9.3",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -437,7 +437,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.0.2",
+      "version": "2.0.3",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -449,7 +449,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.39-GTNH",
+      "version": "2.3.40-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -601,7 +601,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.0.116",
+      "version": "5.1.0",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -621,7 +621,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.4.0-GTNH",
+      "version": "1.4.1-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
-      "version": "1.8.9.3",
+      "version": "1.9.0",
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
@@ -717,7 +717,7 @@
       "side": "BOTH"
     },
     "Yamcl": {
-      "version": "0.5.84",
+      "version": "0.5.86",
       "side": "BOTH"
     },
     "OpenPrinter": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "TX-Loader": {
-      "version": "1.5.1",
+      "version": "1.5.2",
       "side": "CLIENT"
     },
     "GigaGramFab": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.0.1",
+      "version": "1.0.3",
       "side": "BOTH"
     }
   },
