@@ -238,7 +238,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | --- | --- |
 | [Advanced Solar Panel For 1.7.10 (Unofficial)](https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels) | 1.7.10 Edition |
 | [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.0.9-GTNH |
-| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.1.0-gtnh |
+| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.1.2-gtnh |
 | [ae2stuff](https://github.com/GTNewHorizons/ae2stuff) | 0.5.1.16-GTNH |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.2.6-GTNH |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.6.3 |
@@ -273,7 +273,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BloodArsenal](https://github.com/GTNewHorizons/BloodArsenal) | 1.2.9 |
 | [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.3.25 |
 | [Botania](https://github.com/GTNewHorizons/Botania) | 1.9.16-GTNH |
-| [Botanic-horizons](https://github.com/GTNewHorizons/Botanic-horizons) | 1.0.14-GTNH |
+| [Botanic-horizons](https://github.com/GTNewHorizons/Botanic-horizons) | 1.0.16-GTNH-pre |
 | [BrandonsCore](https://github.com/GTNewHorizons/BrandonsCore) | 1.0.0.13-GTNH |
 | [BugTorch](https://github.com/GTNewHorizons/BugTorch) | 1.2.7 |
 | [BuildCraft](https://github.com/GTNewHorizons/BuildCraft) | 7.1.31 |
@@ -302,7 +302,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [DummyCore](https://github.com/GTNewHorizons/DummyCore) | 1.15 |
 | [Electro-Magic-Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.2.8.28 |
 | [EnderCore](https://github.com/GTNewHorizons/EnderCore) | 0.2.13 |
-| [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.4.5 |
+| [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.4.6 |
 | [EnderStorage](https://github.com/GTNewHorizons/EnderStorage) | 1.4.12 |
 | [EnderZoo](https://github.com/GTNewHorizons/EnderZoo) | 1.0.23 |
 | [EnhancedLootBags](https://github.com/GTNewHorizons/EnhancedLootBags) | 1.1.0 |
@@ -327,9 +327,9 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.5.4 |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.0.8 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.42.13 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.42.14 |
 | [GTNEIOrePlugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.0.29 |
-| [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.0.3 |
+| [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.0.4 |
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.9.30 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.3.0 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.0.13 |
@@ -359,7 +359,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.1.4p2-fairplay |
 | [KekzTech](https://github.com/GTNewHorizons/KekzTech) | 0.7.3 |
-| [KubaTech](https://github.com/GTNewHorizons/KubaTech) | 0.9.3 |
+| [KubaTech](https://github.com/GTNewHorizons/KubaTech) | 0.9.5 |
 | [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.2.7-GTNH |
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 0.9.4.5.13-GTNH |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.0.8 |
@@ -384,7 +384,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.12.22 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.1.2 |
 | [Netty-Patcher](https://github.com/GTNewHorizons/Netty-Patcher) | 0.3.1 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.0.3 |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.0.4 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.1.-6-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.4.0 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 1.4.6 |

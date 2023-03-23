@@ -1,3 +1,13 @@
+# Updated AE2FluidCraft-Rework (1.1.0-gtnh@BOTH --> 1.1.2-gtnh@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.95-gtnh...1.1.2-gtnh
+>## What's Changed
+> * Split large packets up by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/107 (1.1.2-gtnh)
+> * Add unlocalized names to fluid drops&packets by @eigenraven in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/105 (1.1.0-gtnh)
+>
+>## New Contributors
+> * @firenoo made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/107 (1.1.2-gtnh)
+>
+
 # Updated Applied-Energistics-2-Unofficial (rv3-beta-183-GTNH@BOTH --> rv3-beta-184-GTNH@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-182-GTNH...rv3-beta-184-GTNH
 >## What's Changed
@@ -23,15 +33,26 @@
 > * Use UUID for quest ID, and split up giant quest JSON file by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/89 (3.3.0-GTNH)
 >
 
+# Updated Botanic-horizons (1.0.14-GTNH@BOTH --> 1.0.16-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.13-GTNH...1.0.16-GTNH-pre
+>## What's Changed
+> * Revert "Alternate tiny planet block recipe" by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/19 (1.0.14-GTNH)
+> * Add Tiny Planet Recipe by @BlueWeabo in https://github.com/GTNewHorizons/Botanic-horizons/pull/20 (1.0.14-GTNH)
+>
+>## New Contributors
+> * @BlueWeabo made their first contribution in https://github.com/GTNewHorizons/Botanic-horizons/pull/20 (1.0.14-GTNH)
+>
+
 # Updated BugTorch (1.2.6-GTNH@BOTH --> 1.2.7@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BugTorch/compare/1.2.5GTNH...1.2.6-GTNH
 >## What's Changed
 > * Dev by @Dream-Master in https://github.com/GTNewHorizons/BugTorch/pull/15 (1.2.6-GTNH)
 >
 
-# Updated EnderIO (2.4.2@BOTH --> 2.4.5@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.0...2.4.5
+# Updated EnderIO (2.4.2@BOTH --> 2.4.6@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.0...2.4.6
 >## What's Changed
+> * `needUpdateConnections` only while updating cons by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/113 (2.4.6)
 > * Add comments for `needUpdateConnections` by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/112 (2.4.5)
 > * Improve canConnectToExternal() by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/111 (2.4.4)
 > * Ultra Dense ME Conduits by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/105 (2.4.2)
@@ -48,9 +69,10 @@
 > * @Ethryan made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/43 (4.5.8)
 >
 
-# Updated GT5-Unofficial (5.09.42.07@BOTH --> 5.09.42.13@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.05...5.09.42.13
+# Updated GT5-Unofficial (5.09.42.07@BOTH --> 5.09.42.14@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.05...5.09.42.14
 >## What's Changed
+> * Fix infinite drill loc by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1812 (5.09.42.14)
 > * Activity Sound by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1811 (5.09.42.13)
 > * Display Mode of Ore Processor to WAILA and Scanner by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1803 (5.09.42.12)
 > * Fix super tank output rate based on the pump used by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1810 (5.09.42.12)
@@ -65,9 +87,10 @@
 > * fix the machine's tooltip doesn't automatically generate when loading by @iouter in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1799 (5.09.42.07)
 >
 
-# Updated GTNH-Intergalactic (1.0.1@BOTH --> 1.0.3@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.0...1.0.3
+# Updated GTNH-Intergalactic (1.0.1@BOTH --> 1.0.4@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.0...1.0.4
 >## What's Changed
+> * Fixed research item of miner mk2 by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/11 (1.0.4)
 > * Made elevator travel up to T8 by default, T9 with MK-3 motor by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/10 (1.0.3)
 > * Added number of possible module slots to motor tooltip by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/8 (1.0.2)
 > * Updated motor top/bottom texture by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/6 (1.0.1)
@@ -100,9 +123,10 @@
 > * @the-emerald made their first contribution in https://github.com/GTNewHorizons/KekzTech/pull/61 (0.7.1)
 >
 
-# Updated KubaTech (0.9.2@BOTH --> 0.9.3@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.1...0.9.3
+# Updated KubaTech (0.9.2@BOTH --> 0.9.5@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.1...0.9.5
 >## What's Changed
+> * Fix Mob Recipe Map generation on servers with Thermos by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/65 (0.9.5)
 > * Fix wrong meta ID for EIG by @Pxx500 in https://github.com/GTNewHorizons/KubaTech/pull/63 (0.9.3)
 > * Extreme Industrial Greenhouse GUI improvements by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/62 (0.9.2)
 >
@@ -110,9 +134,12 @@
 > * @Pxx500 made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/63 (0.9.3)
 >
 
-# Updated NewHorizonsCoreMod (2.0.2@BOTH --> 2.0.3@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.1...2.0.3
+# Updated NewHorizonsCoreMod (2.0.2@BOTH --> 2.0.4@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.1...2.0.4
 >## What's Changed
+> * Ender io recipes by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/542 (2.0.4)
+> * Ender io recipes by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/544 (2.0.4)
+> * Ae2 cables change by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/545 (2.0.4)
 > * Update buildscript and dependencies by @eigenraven in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/540 (2.0.3)
 > * Added macerator, fluid extractor recipes for Glass Bottles by @Dioxop in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/541 (2.0.3)
 >

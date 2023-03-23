@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.1",
-  "last_updated": "2023-03-23T07:27:47.628243",
+  "last_updated": "2023-03-23T20:24:59.275481",
   "config": "2.3.1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.0-gtnh",
+      "version": "1.1.2-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -105,7 +105,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.0.14-GTNH",
+      "version": "1.0.16-GTNH-pre",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.4.5",
+      "version": "2.4.6",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.13",
+      "version": "5.09.42.14",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.9.3",
+      "version": "0.9.5",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -437,7 +437,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.0.3",
+      "version": "2.0.4",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.0.3",
+      "version": "1.0.4",
       "side": "BOTH"
     }
   },
