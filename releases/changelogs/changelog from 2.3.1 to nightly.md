@@ -11,9 +11,10 @@
 > * New Filtering System for Text Search by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/20 (1.1.0)
 >
 
-# Updated BetterQuesting (3.3.0-GTNH@BOTH --> 3.3.6-GTNH@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.2.1-GTNH...3.3.6-GTNH
+# Updated BetterQuesting (3.3.0-GTNH@BOTH --> 3.3.7-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.2.1-GTNH...3.3.7-GTNH
 >## What's Changed
+> * Add check for duplicate quest line order by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/95 (3.3.7-GTNH)
 > * Split up quest lines into separate files by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/94 (3.3.6-GTNH)
 > * Add shorter string encoding for UUIDs, and make saved quest data more stable by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/92 (3.3.5-GTNH)
 > * add clickable URI to quest description by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/93 (3.3.5-GTNH)
@@ -38,9 +39,11 @@
 > * Dev by @Dream-Master in https://github.com/GTNewHorizons/BugTorch/pull/15 (1.2.6-GTNH)
 >
 
-# Updated EnderIO (2.4.2@BOTH --> 2.4.3-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.0...2.4.3-pre
+# Updated EnderIO (2.4.2@BOTH --> 2.4.5@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.0...2.4.5
 >## What's Changed
+> * Add comments for `needUpdateConnections` by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/112 (2.4.5)
+> * Improve canConnectToExternal() by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/111 (2.4.4)
 > * Ultra Dense ME Conduits by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/105 (2.4.2)
 >
 
@@ -55,9 +58,10 @@
 > * @Ethryan made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/43 (4.5.8)
 >
 
-# Updated GT5-Unofficial (5.09.42.07@BOTH --> 5.09.42.12@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.05...5.09.42.12
+# Updated GT5-Unofficial (5.09.42.07@BOTH --> 5.09.42.13@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.05...5.09.42.13
 >## What's Changed
+> * Activity Sound by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1811 (5.09.42.13)
 > * Display Mode of Ore Processor to WAILA and Scanner by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1803 (5.09.42.12)
 > * Fix super tank output rate based on the pump used by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1810 (5.09.42.12)
 > * Fixed projects not unlocking if build elsewhere by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1808 (5.09.42.10)

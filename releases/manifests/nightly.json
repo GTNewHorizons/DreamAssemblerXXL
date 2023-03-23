@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.1",
-  "last_updated": "2023-03-22T21:34:02.061830",
+  "last_updated": "2023-03-23T07:06:12.639066",
   "config": "2.3.1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.3.6-GTNH",
+      "version": "3.3.7-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.4.3-pre",
+      "version": "2.4.5",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.12",
+      "version": "5.09.42.13",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
