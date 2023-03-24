@@ -15,9 +15,10 @@
 > * Quickfix for sorting to retain consistency w/ prev behavior by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/288 (rv3-beta-183-GTNH)
 >
 
-# Updated BetterP2P (1.1.0@BOTH --> 1.1.1-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.0.23...1.1.1-pre
+# Updated BetterP2P (1.1.0@BOTH --> 1.1.3@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.0.23...1.1.3
 >## What's Changed
+> * New GUI by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/23 (1.1.3)
 > * New Filtering System for Text Search by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/20 (1.1.0)
 >
 
@@ -113,6 +114,13 @@
 > * Mane Neutron Activator Accept EV+ glass by @LewisSaber in https://github.com/GTNewHorizons/GoodGenerator/pull/146 (0.5.2)
 >
 
+# Updated Hodgepodge (2.2.0@BOTH --> 2.2.2@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.1.0...2.2.2
+>## What's Changed
+> * fix rare different sprite animations out of sync  by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/202 (2.2.2)
+> * Use Unimixins by @eigenraven in https://github.com/GTNewHorizons/Hodgepodge/pull/201 (2.2.0)
+>
+
 # Updated KekzTech (0.7.1@BOTH --> 0.7.3@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.7.0...0.7.3
 >## What's Changed
@@ -165,9 +173,10 @@
 > * Add BetterLoadingScreen Comapt by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/3 (1.5.1)
 >
 
-# Updated TecTech (5.0.116@BOTH --> 5.1.0@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.115...5.1.0
+# Updated TecTech (5.0.116@BOTH --> 5.1.1-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.115...5.1.1-pre
 >## What's Changed
+> * Spotless apply for branch multiAmpWireless for #178 by @github-actions in https://github.com/GTNewHorizons/TecTech/pull/179 (5.1.1-pre)
 > * More Ultimate Battery recipes + 1-step Lapos by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/177 (5.1.0)
 > * Fix research station inventory by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/176 (5.1.0)
 > * Misc recipe fixes for EOH blocks by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/175 (5.0.116)
@@ -181,6 +190,13 @@
 >
 >## New Contributors
 > * @27yearoldminecraftgaymer made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/33 (1.4.0-GTNH)
+>
+
+# Updated WarpTheory (1.2.12-GTNH@BOTH --> 1.2.14-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.2.11-GTNH...1.2.14-GTNH
+>## What's Changed
+> * Fix fake creeper by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/29 (1.2.14-GTNH)
+> * Find player on event rather than caching it by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/28 (1.2.12-GTNH)
 >
 
 # Updated WirelessCraftingTerminal (1.8.9.3@BOTH --> 1.9.0@BOTH)
