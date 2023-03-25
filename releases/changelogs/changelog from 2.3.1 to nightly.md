@@ -1,6 +1,7 @@
-# Updated AE2FluidCraft-Rework (1.1.0-gtnh@BOTH --> 1.1.2-gtnh@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.95-gtnh...1.1.2-gtnh
+# Updated AE2FluidCraft-Rework (1.1.0-gtnh@BOTH --> 1.1.3-gtnh-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.95-gtnh...1.1.3-gtnh-pre
 >## What's Changed
+> * Fix fluid terminal interactions by @Dream-Master in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/112 (1.1.3-gtnh-pre)
 > * Split large packets up by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/107 (1.1.2-gtnh)
 > * Add unlocalized names to fluid drops&packets by @eigenraven in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/105 (1.1.0-gtnh)
 >
@@ -88,8 +89,8 @@
 > * fix the machine's tooltip doesn't automatically generate when loading by @iouter in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1799 (5.09.42.07)
 >
 
-# Updated GTNH-Intergalactic (1.0.1@BOTH --> 1.0.4@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.0...1.0.4
+# Updated GTNH-Intergalactic (1.0.1@BOTH --> 1.0.5-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.0...1.0.5-pre
 >## What's Changed
 > * Fixed research item of miner mk2 by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/11 (1.0.4)
 > * Made elevator travel up to T8 by default, T9 with MK-3 motor by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/10 (1.0.3)
@@ -98,9 +99,13 @@
 > * Adjusted siphon based fluids in space pumping by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/7 (1.0.1)
 >
 
-# Updated GTplusplus (1.8.10@BOTH --> 1.8.11@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.9...1.8.11
+# Updated GTplusplus (1.8.10@BOTH --> 1.8.17-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.9...1.8.17-pre
 >## What's Changed
+> * Spotless apply for branch Multiblock-EV-change for #579 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/582 (1.8.16-pre)
+> * Spotless apply for branch Multiblock-EV-change for #579 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/581 (1.8.15-pre)
+> * Spotless apply for branch Multiblock-EV-change for #579 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/580 (1.8.14-pre)
+> * clean up hand pump code by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/577 (1.8.12)
 > * Fix typo in printer tooltip by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/575 (1.8.11)
 > * Add Fusion MKIV Description by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/576 (1.8.11)
 > * Remove For Loops on Speed Multiplier for Multiplication by @BlueWeabo in https://github.com/GTNewHorizons/GTplusplus/pull/574 (1.8.10)
@@ -114,9 +119,10 @@
 > * Mane Neutron Activator Accept EV+ glass by @LewisSaber in https://github.com/GTNewHorizons/GoodGenerator/pull/146 (0.5.2)
 >
 
-# Updated Hodgepodge (2.2.0@BOTH --> 2.2.2@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.1.0...2.2.2
+# Updated Hodgepodge (2.2.0@BOTH --> 2.2.4@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.1.0...2.2.4
 >## What's Changed
+> * fix weird NPE introduced by #202 by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/203 (2.2.4)
 > * fix rare different sprite animations out of sync  by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/202 (2.2.2)
 > * Use Unimixins by @eigenraven in https://github.com/GTNewHorizons/Hodgepodge/pull/201 (2.2.0)
 >
@@ -173,9 +179,11 @@
 > * Add BetterLoadingScreen Comapt by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/3 (1.5.1)
 >
 
-# Updated TecTech (5.0.116@BOTH --> 5.1.1-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.115...5.1.1-pre
+# Updated TecTech (5.0.116@BOTH --> 5.1.2@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.0.115...5.1.2
 >## What's Changed
+> * Spotless apply for branch multiAmpWireless for #178 by @github-actions in https://github.com/GTNewHorizons/TecTech/pull/179 (5.1.2)
+> * Multi amp wireless hatches by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/178 (5.1.2)
 > * Spotless apply for branch multiAmpWireless for #178 by @github-actions in https://github.com/GTNewHorizons/TecTech/pull/179 (5.1.1-pre)
 > * More Ultimate Battery recipes + 1-step Lapos by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/177 (5.1.0)
 > * Fix research station inventory by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/176 (5.1.0)
@@ -226,13 +234,19 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/ae2stuff/pull/6 (0.5.1.15-GTNH)
 >
 
-# Updated bartworks (0.6.2@BOTH --> 0.6.3@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.1...0.6.3
+# Updated bartworks (0.6.2@BOTH --> 0.6.4-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.1...0.6.4-pre
 >## What's Changed
 > * Remove osmiridium replacement by @chochem in https://github.com/GTNewHorizons/bartworks/pull/303 (0.6.3)
 > * optimization bacterial vat by @Zereff06 in https://github.com/GTNewHorizons/bartworks/pull/302 (0.6.2)
 >
 >## New Contributors
 > * @Zereff06 made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/302 (0.6.2)
+>
+
+# Updated lwjgl3ify (1.3.0@BOTH_JAVA9 --> 1.3.1@BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.2.2...1.3.1
+>## What's Changed
+> * Use Unimixins instead of GTNHMixins by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/49 (1.3.0)
 >
 

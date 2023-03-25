@@ -649,7 +649,7 @@
     },
     {
       "name": "AE2FluidCraft-Rework",
-      "latest_version": "1.1.2-gtnh",
+      "latest_version": "1.1.3-gtnh-pre",
       "private": false,
       "versions": [
         {
@@ -1652,6 +1652,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/100637567",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.1.2-gtnh/ae2fc-1.1.2-gtnh.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.1.2-gtnh/AE2FluidCraft-Rework-1.1.2-gtnh.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.3-gtnh-pre",
+          "changelog": "## What's Changed\n* Fix fluid terminal interactions by @Dream-Master in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/112\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.2-gtnh...1.1.3-gtnh-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-25T11:55:59+00:00",
+          "filename": "ae2fc-1.1.3-gtnh-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/100901486",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.1.3-gtnh-pre/ae2fc-1.1.3-gtnh-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.1.3-gtnh-pre/AE2FluidCraft-Rework-1.1.3-gtnh-pre.jar",
           "extra_assets": []
         }
       ],
@@ -3471,7 +3482,7 @@
     },
     {
       "name": "bartworks",
-      "latest_version": "0.6.3",
+      "latest_version": "0.6.4-pre",
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -4727,6 +4738,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/100194303",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.6.3/bartworks-0.6.3.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.6.3/bartworks-0.6.3.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.6.4-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.3...0.6.4-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-25T11:58:56+00:00",
+          "filename": "bartworks-0.6.4-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/100901620",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.6.4-pre/bartworks-0.6.4-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.6.4-pre/bartworks-0.6.4-pre.jar",
           "extra_assets": []
         }
       ],
@@ -18316,7 +18338,7 @@
     },
     {
       "name": "GTNH-Intergalactic",
-      "latest_version": "1.0.4",
+      "latest_version": "1.0.5-pre",
       "private": false,
       "versions": [
         {
@@ -18402,6 +18424,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/100657768",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.0.4/gtnhintergalactic-1.0.4.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Intergalactic/1.0.4/GTNH-Intergalactic-1.0.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.5-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.4...1.0.5-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-25T11:54:33+00:00",
+          "filename": "gtnhintergalactic-1.0.5-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/100901355",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.0.5-pre/gtnhintergalactic-1.0.5-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Intergalactic/1.0.5-pre/GTNH-Intergalactic-1.0.5-pre.jar",
           "extra_assets": []
         }
       ],
@@ -19152,7 +19185,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.8.11",
+      "latest_version": "1.8.17-pre",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -21047,6 +21080,67 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.11/GT-PlusPlus-1.8.11.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.11/GTplusplus-1.8.11.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.12",
+          "changelog": "## What's Changed\n* clean up hand pump code by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/577\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.11...1.8.12\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-24T10:40:44+00:00",
+          "filename": "GT-PlusPlus-1.8.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/100752971",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.12/GT-PlusPlus-1.8.12.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.13-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.13-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-24T13:42:05+00:00",
+          "filename": "GT-PlusPlus-1.8.13-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/100775461",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.13-pre/GT-PlusPlus-1.8.13-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.14-pre",
+          "changelog": "## What's Changed\n* Spotless apply for branch Multiblock-EV-change for #579 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/580\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.13-pre...1.8.14-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-24T14:12:23+00:00",
+          "filename": "GT-PlusPlus-1.8.14-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/100779892",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.14-pre/GT-PlusPlus-1.8.14-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.15-pre",
+          "changelog": "## What's Changed\n* Spotless apply for branch Multiblock-EV-change for #579 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/581\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.14-pre...1.8.15-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-24T15:48:13+00:00",
+          "filename": "GT-PlusPlus-1.8.15-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/100798104",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.15-pre/GT-PlusPlus-1.8.15-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.16-pre",
+          "changelog": "## What's Changed\n* Spotless apply for branch Multiblock-EV-change for #579 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/582\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.15-pre...1.8.16-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-24T19:39:27+00:00",
+          "filename": "GT-PlusPlus-1.8.16-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/100827688",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.16-pre/GT-PlusPlus-1.8.16-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.17-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.16-pre...1.8.17-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-25T11:57:57+00:00",
+          "filename": "GT-PlusPlus-1.8.17-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/100901556",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.17-pre/GT-PlusPlus-1.8.17-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.17-pre/GTplusplus-1.8.17-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -21354,7 +21448,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.2.2",
+      "latest_version": "2.2.4",
       "versions": [
         {
           "version_tag": "v1.2.0",
@@ -22237,6 +22331,27 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/100747494",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.2.2/hodgepodge-2.2.2.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/2.2.2/Hodgepodge-2.2.2.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.3-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.2...2.2.3-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-24T12:03:03+00:00",
+          "filename": "hodgepodge-2.2.3-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/100764500",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.2.3-pre/hodgepodge-2.2.3-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.4",
+          "changelog": "## What's Changed\n* fix weird NPE introduced by #202 by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/203\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.2...2.2.4\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-24T14:29:01+00:00",
+          "filename": "hodgepodge-2.2.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/100782981",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.2.4/hodgepodge-2.2.4.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/2.2.4/Hodgepodge-2.2.4.jar",
           "extra_assets": []
         }
       ],
@@ -24708,7 +24823,7 @@
     },
     {
       "name": "lwjgl3ify",
-      "latest_version": "1.3.0",
+      "latest_version": "1.3.1",
       "private": false,
       "versions": [
         {
@@ -25758,6 +25873,27 @@
               "filename": "lwjgl3ify-1.3.0-multimc.zip",
               "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/99957650",
               "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.3.0/lwjgl3ify-1.3.0-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.3.1",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.3.0...1.3.1\r\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-24T11:58:42+00:00",
+          "filename": "lwjglx-debug-agent-1.0.0-agent.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/100763901",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.3.1/lwjglx-debug-agent-1.0.0-agent.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.3.1-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/100763154",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.3.1/lwjgl3ify-1.3.1-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.3.1-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/100763158",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.3.1/lwjgl3ify-1.3.1-multimc.zip"
             }
           ]
         }
@@ -34732,7 +34868,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.1.1-pre",
+      "latest_version": "5.1.2",
       "private": false,
       "versions": [
         {
@@ -35923,6 +36059,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/100731920",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.1.1-pre/TecTech-5.1.1-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.1.1-pre/TecTech-5.1.1-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.1.2",
+          "changelog": "## What's Changed\n* Spotless apply for branch multiAmpWireless for #178 by @github-actions in https://github.com/GTNewHorizons/TecTech/pull/179\n* Multi amp wireless hatches by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/178\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.0...5.1.2\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-25T12:03:32+00:00",
+          "filename": "TecTech-5.1.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/100901783",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.1.2/TecTech-5.1.2.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.1.2/TecTech-5.1.2.jar",
           "extra_assets": []
         }
       ],
