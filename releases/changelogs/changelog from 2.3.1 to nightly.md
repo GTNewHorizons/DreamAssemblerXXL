@@ -1,5 +1,5 @@
-# Updated AE2FluidCraft-Rework (1.1.0-gtnh@BOTH --> 1.1.3-gtnh-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.95-gtnh...1.1.3-gtnh-pre
+# Updated AE2FluidCraft-Rework (1.1.0-gtnh@BOTH --> 1.1.5-gtnh-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.95-gtnh...1.1.5-gtnh-pre
 >## What's Changed
 > * Fix fluid terminal interactions by @Dream-Master in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/112 (1.1.3-gtnh-pre)
 > * Split large packets up by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/107 (1.1.2-gtnh)
@@ -23,9 +23,10 @@
 > * New Filtering System for Text Search by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/20 (1.1.0)
 >
 
-# Updated BetterQuesting (3.3.0-GTNH@BOTH --> 3.3.7-GTNH@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.2.1-GTNH...3.3.7-GTNH
+# Updated BetterQuesting (3.3.0-GTNH@BOTH --> 3.3.8-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.2.1-GTNH...3.3.8-GTNH
 >## What's Changed
+> * fix compatibility for new log4j versions by @Pa4ok in https://github.com/GTNewHorizons/BetterQuesting/pull/96 (3.3.8-GTNH)
 > * Add check for duplicate quest line order by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/95 (3.3.7-GTNH)
 > * Split up quest lines into separate files by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/94 (3.3.6-GTNH)
 > * Add shorter string encoding for UUIDs, and make saved quest data more stable by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/92 (3.3.5-GTNH)
@@ -33,6 +34,9 @@
 > * Fix new db by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/91 (3.3.4-GTNH-pre)
 > * Fix new db by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/91 (3.3.3-GTNH)
 > * Use UUID for quest ID, and split up giant quest JSON file by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/89 (3.3.0-GTNH)
+>
+>## New Contributors
+> * @Pa4ok made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/96 (3.3.8-GTNH)
 >
 
 # Updated Botanic-horizons (1.0.14-GTNH@BOTH --> 1.0.16-GTNH-pre@BOTH)
@@ -60,6 +64,17 @@
 > * Ultra Dense ME Conduits by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/105 (2.4.2)
 >
 
+# Updated FindIt (1.0.11@BOTH --> 1.1.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.0.10...1.1.0
+>## What's Changed
+> * Remove hard-dependency on GregTech by @glowredman in https://github.com/GTNewHorizons/FindIt/pull/10 (1.1.0)
+> * Fix inventory slots not being highlighted by @miozune in https://github.com/GTNewHorizons/FindIt/pull/9 (1.0.11)
+>
+>## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/FindIt/pull/10 (1.1.0)
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/FindIt/pull/9 (1.0.11)
+>
+
 # Updated ForestryMC (4.5.8@BOTH --> 4.6.0@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.5.7...4.6.0
 >## What's Changed
@@ -71,9 +86,10 @@
 > * @Ethryan made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/43 (4.5.8)
 >
 
-# Updated GT5-Unofficial (5.09.42.07@BOTH --> 5.09.42.14@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.05...5.09.42.14
+# Updated GT5-Unofficial (5.09.42.07@BOTH --> 5.09.42.15@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.05...5.09.42.15
 >## What's Changed
+> * Display tier of nano forge in GUI by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1813 (5.09.42.15)
 > * Fix infinite drill loc by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1812 (5.09.42.14)
 > * Activity Sound by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1811 (5.09.42.13)
 > * Display Mode of Ore Processor to WAILA and Scanner by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1803 (5.09.42.12)
@@ -89,9 +105,10 @@
 > * fix the machine's tooltip doesn't automatically generate when loading by @iouter in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1799 (5.09.42.07)
 >
 
-# Updated GTNH-Intergalactic (1.0.1@BOTH --> 1.0.5-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.0...1.0.5-pre
+# Updated GTNH-Intergalactic (1.0.1@BOTH --> 1.0.6@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.0...1.0.6
 >## What's Changed
+> * Various Space Elevator Improvements by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/12 (1.0.6)
 > * Fixed research item of miner mk2 by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/11 (1.0.4)
 > * Made elevator travel up to T8 by default, T9 with MK-3 motor by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/10 (1.0.3)
 > * Added number of possible module slots to motor tooltip by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/8 (1.0.2)
@@ -99,9 +116,10 @@
 > * Adjusted siphon based fluids in space pumping by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/7 (1.0.1)
 >
 
-# Updated GTplusplus (1.8.10@BOTH --> 1.8.17-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.9...1.8.17-pre
+# Updated GTplusplus (1.8.10@BOTH --> 1.8.18@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.9...1.8.18
 >## What's Changed
+> * Downtier oreproc GT++ multis to EV and add new EV Mac Stack by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/579 (1.8.18)
 > * Spotless apply for branch Multiblock-EV-change for #579 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/582 (1.8.16-pre)
 > * Spotless apply for branch Multiblock-EV-change for #579 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/581 (1.8.15-pre)
 > * Spotless apply for branch Multiblock-EV-change for #579 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/580 (1.8.14-pre)
@@ -109,6 +127,13 @@
 > * Fix typo in printer tooltip by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/575 (1.8.11)
 > * Add Fusion MKIV Description by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/576 (1.8.11)
 > * Remove For Loops on Speed Multiplier for Multiplication by @BlueWeabo in https://github.com/GTNewHorizons/GTplusplus/pull/574 (1.8.10)
+>
+
+# Updated GigaGramFab (0.1.9@BOTH --> 0.2.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.1.8...0.2.0
+>## What's Changed
+> * fix rare underclock with adv assline by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/7 (0.2.0)
+> * add copypasting configuration between linked input bus by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/6 (0.1.9)
 >
 
 # Updated GoodGenerator (0.5.2@BOTH --> 0.5.4@BOTH)
@@ -148,9 +173,10 @@
 > * @Pxx500 made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/63 (0.9.3)
 >
 
-# Updated NewHorizonsCoreMod (2.0.2@BOTH --> 2.0.4@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.1...2.0.4
+# Updated NewHorizonsCoreMod (2.0.2@BOTH --> 2.0.5@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.1...2.0.5
 >## What's Changed
+> * Add recipe for humongous input hatch by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/546 (2.0.5)
 > * Ender io recipes by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/542 (2.0.4)
 > * Ender io recipes by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/544 (2.0.4)
 > * Ae2 cables change by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/545 (2.0.4)
@@ -234,9 +260,10 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/ae2stuff/pull/6 (0.5.1.15-GTNH)
 >
 
-# Updated bartworks (0.6.2@BOTH --> 0.6.4-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.1...0.6.4-pre
+# Updated bartworks (0.6.2@BOTH --> 0.6.5@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.1...0.6.5
 >## What's Changed
+> * Add Humongous input hatch by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/304 (0.6.5)
 > * Remove osmiridium replacement by @chochem in https://github.com/GTNewHorizons/bartworks/pull/303 (0.6.3)
 > * optimization bacterial vat by @Zereff06 in https://github.com/GTNewHorizons/bartworks/pull/302 (0.6.2)
 >
@@ -244,9 +271,21 @@
 > * @Zereff06 made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/302 (0.6.2)
 >
 
-# Updated lwjgl3ify (1.3.0@BOTH_JAVA9 --> 1.3.1@BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.2.2...1.3.1
+# Updated lwjgl3ify (1.3.0@BOTH_JAVA9 --> 1.3.3@BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.2.2...1.3.3
 >## What's Changed
+> * Delayed key release fix by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/52 (1.3.3)
 > * Use Unimixins instead of GTNHMixins by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/49 (1.3.0)
+>
+
+# Updated twilightforest (2.3.8.18@BOTH --> 2.4.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.3.8.17...2.4.0
+>## What's Changed
+> * bandaid fix for terrain gen NPE by @Glease in https://github.com/GTNewHorizons/twilightforest/pull/19 (2.4.0)
+> * Fix tremendous lag from dropped item entitites by @Alexdoru in https://github.com/GTNewHorizons/twilightforest/pull/18 (2.3.8.18)
+>
+>## New Contributors
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/19 (2.4.0)
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/18 (2.3.8.18)
 >
 
