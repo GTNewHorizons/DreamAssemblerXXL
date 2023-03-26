@@ -30216,148 +30216,177 @@
     {
       "name": "NotEnoughItems",
       "latest_version": "2.3.40-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "v2.0.0",
           "changelog": "Promote to non beta release\r\n* Fix cheat button alignment",
-          "tagged_at": "2020-02-23T04:41:33+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.0-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/18229635",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/v2.0.0/NotEnoughItems-1.7.10-2.0.0-GTNH-src.jar"
+          "prerelease": false,
+          "tagged_at": "2020-02-23T04:41:34+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.0.0-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/18229636",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/v2.0.0/NotEnoughItems-1.7.10-2.0.0-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "v2.0.1",
           "changelog": "Handle ArithmeticException from GC",
+          "prerelease": false,
           "tagged_at": "2020-03-20T17:38:44+00:00",
           "filename": "NotEnoughItems-1.7.10-2.0.1-GTNH-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/18858822",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/v2.0.1/NotEnoughItems-1.7.10-2.0.1-GTNH-universal.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/v2.0.1/NotEnoughItems-1.7.10-2.0.1-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "v2.0.6",
           "changelog": "V2.0.2\r\n* Chinese Translations\r\n\r\nV2.0.3\r\n* Parallelize recipe handlers\r\n\r\nV2.0.4\r\n* Fix crafttweaker item hiding\r\n\r\nV2.0.5\r\n* Class discovery to it's own thread\r\n* Return to previous GUI (BQ) when exiting NEI\r\n\r\nV2.0.6\r\n* Handle empty fuel & too many ingrediants\r\n",
-          "tagged_at": "2020-12-27T02:24:48+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.6-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/30004505",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/v2.0.6/NotEnoughItems-1.7.10-2.0.6-GTNH-src.jar"
+          "prerelease": false,
+          "tagged_at": "2020-12-27T02:24:49+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.0.6-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/30004506",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/v2.0.6/NotEnoughItems-1.7.10-2.0.6-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.6-GTNH",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/v2.0.6...1.0.6-GTNH",
+          "prerelease": false,
           "tagged_at": "2019-06-15T19:48:12+00:00",
-          "filename": "NotEnoughItems-1.7.10-1.0.6-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/13217482",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/1.0.6-GTNH/NotEnoughItems-1.7.10-1.0.6-GTNH-src.jar"
+          "filename": "NotEnoughItems-1.7.10-1.0.6-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/13217483",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/1.0.6-GTNH/NotEnoughItems-1.7.10-1.0.6-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.0-beta-1-GTNH",
           "changelog": "## What's Changed\n* New Features by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/2\n* Fixes and stuff by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/3\n* Add hotkeys to move around recipes by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/4\n* Save string ids instead of int ids. by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/5\n* Fix TCON workbench compat by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/6\n* Experimental - Don't load items every inventory load. by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/7\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/1.0.6-GTNH...2.0.0-beta-1-GTNH",
+          "prerelease": false,
           "tagged_at": "2020-01-17T19:54:56+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.0-beta-1-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17416273",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-1-GTNH/NotEnoughItems-1.7.10-2.0.0-beta-1-GTNH-src.jar"
+          "filename": "NotEnoughItems-1.7.10-2.0.0-beta-1-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17416272",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-1-GTNH/NotEnoughItems-1.7.10-2.0.0-beta-1-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.0-beta-2",
           "changelog": "Probably fix crash with Thermal Dynamics",
-          "tagged_at": "2020-01-20T17:44:56+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.0-beta-2-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17463000",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-2/NotEnoughItems-1.7.10-2.0.0-beta-2-GTNH-src.jar"
+          "prerelease": false,
+          "tagged_at": "2020-01-20T17:44:55+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.0.0-beta-2-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17462999",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-2/NotEnoughItems-1.7.10-2.0.0-beta-2-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.0-beta-3",
           "changelog": "Avoid divide by zero error when switching in/out of full screen",
+          "prerelease": false,
           "tagged_at": "2020-01-22T04:23:02+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.0-beta-3-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17496522",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-3/NotEnoughItems-1.7.10-2.0.0-beta-3-GTNH-src.jar"
+          "filename": "NotEnoughItems-1.7.10-2.0.0-beta-3-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17496521",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-3/NotEnoughItems-1.7.10-2.0.0-beta-3-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.0-beta-4",
           "changelog": "Fix clicking on items in Bookmark panel",
+          "prerelease": false,
           "tagged_at": "2020-02-02T17:51:58+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.0-beta-4-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17746305",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-4/NotEnoughItems-1.7.10-2.0.0-beta-4-GTNH-src.jar"
+          "filename": "NotEnoughItems-1.7.10-2.0.0-beta-4-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17746306",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-4/NotEnoughItems-1.7.10-2.0.0-beta-4-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.0-beta-5",
           "changelog": "Slightly better fix for clicking on bookmarks",
+          "prerelease": false,
           "tagged_at": "2020-02-02T18:47:03+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.0-beta-5-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17746882",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-5/NotEnoughItems-1.7.10-2.0.0-beta-5-GTNH-src.jar"
+          "filename": "NotEnoughItems-1.7.10-2.0.0-beta-5-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17746883",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-5/NotEnoughItems-1.7.10-2.0.0-beta-5-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.0-beta-6",
           "changelog": "Better fix for bookmark panel clicking.",
+          "prerelease": false,
           "tagged_at": "2020-02-05T04:14:54+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.0-beta-6-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17806599",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-6/NotEnoughItems-1.7.10-2.0.0-beta-6-GTNH-src.jar"
+          "filename": "NotEnoughItems-1.7.10-2.0.0-beta-6-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17806600",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-beta-6/NotEnoughItems-1.7.10-2.0.0-beta-6-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.0-pre-8-GTNH",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.0.0-beta-6...2.0.0-pre-8-GTNH",
           "prerelease": true,
           "tagged_at": "2020-01-02T16:01:28+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.0-pre-8-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17105093",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-8-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-8-GTNH-src.jar"
+          "filename": "NotEnoughItems-1.7.10-2.0.0-pre-8-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17105094",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-8-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-8-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.0-pre-9-GTNH",
           "changelog": "## What's Changed\n* Fixes and stuff by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/3\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.0.0-pre-8-GTNH...2.0.0-pre-9-GTNH",
           "prerelease": true,
-          "tagged_at": "2020-01-02T20:31:54+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.0-pre-9-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17109210",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-9-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-9-GTNH-src.jar"
+          "tagged_at": "2020-01-02T20:31:55+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.0.0-pre-9-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17109212",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-9-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-9-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.0-pre-10-GTNH",
           "changelog": "## What's Changed\n* Add hotkeys to move around recipes by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/4\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.0.0-pre-9-GTNH...2.0.0-pre-10-GTNH",
           "prerelease": true,
-          "tagged_at": "2020-01-03T16:58:45+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.0-pre-10-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17125044",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-10-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-10-GTNH-src.jar"
+          "tagged_at": "2020-01-03T16:58:46+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.0.0-pre-10-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17125045",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-10-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-10-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.0-pre-11-GTNH",
           "changelog": "## What's Changed\n* Save string ids instead of int ids. by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/5\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.0.0-pre-10-GTNH...2.0.0-pre-11-GTNH",
           "prerelease": true,
           "tagged_at": "2020-01-05T20:59:40+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.0-pre-11-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17154137",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-11-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-11-GTNH-src.jar"
+          "filename": "NotEnoughItems-1.7.10-2.0.0-pre-11-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17154138",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-11-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-11-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.0-pre-12-GTNH",
           "changelog": "## What's Changed\n* Fix TCON workbench compat by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/6\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.0.0-pre-11-GTNH...2.0.0-pre-12-GTNH",
           "prerelease": true,
           "tagged_at": "2020-01-07T19:57:47+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.0-pre-12-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17193124",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-12-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-12-GTNH-src.jar"
+          "filename": "NotEnoughItems-1.7.10-2.0.0-pre-12-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17193125",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-12-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-12-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.0-pre-13-GTNH",
           "changelog": "## What's Changed\n* Experimental - Don't load items every inventory load. by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/7\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.0.0-pre-12-GTNH...2.0.0-pre-13-GTNH",
           "prerelease": true,
           "tagged_at": "2020-01-10T20:01:29+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.0-pre-13-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17264106",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-13-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-13-GTNH-src.jar"
+          "filename": "NotEnoughItems-1.7.10-2.0.0-pre-13-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/17264107",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.0-pre-13-GTNH/NotEnoughItems-1.7.10-2.0.0-pre-13-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.0.8-GTNH",
           "changelog": "* Fix thread pool starvation lockup\r\n* Add lock around `getOreID` to guard against multiple threads creating a new ID at the same time",
-          "tagged_at": "2021-01-30T21:30:39+00:00",
-          "filename": "NotEnoughItems-1.7.10-2.0.8-GTNH-src.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/31416786",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.8-GTNH/NotEnoughItems-1.7.10-2.0.8-GTNH-src.jar"
+          "prerelease": false,
+          "tagged_at": "2021-01-30T21:30:40+00:00",
+          "filename": "NotEnoughItems-1.7.10-2.0.8-GTNH-universal.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/31416787",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.0.8-GTNH/NotEnoughItems-1.7.10-2.0.8-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.0-GTNH-beta2",
@@ -30366,7 +30395,8 @@
           "tagged_at": "2021-03-24T06:36:17+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-beta2-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/33905896",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta2/NotEnoughItems-1.7.10-2.1.0-GTNH-beta2-universal.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta2/NotEnoughItems-1.7.10-2.1.0-GTNH-beta2-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.0-GTNH-beta4",
@@ -30375,7 +30405,8 @@
           "tagged_at": "2021-03-26T04:38:57+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-beta4-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/34014176",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta4/NotEnoughItems-1.7.10-2.1.0-GTNH-beta4-universal.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta4/NotEnoughItems-1.7.10-2.1.0-GTNH-beta4-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.0-GTNH-beta5",
@@ -30384,7 +30415,8 @@
           "tagged_at": "2021-03-27T20:33:03+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-beta5-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/34085641",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta5/NotEnoughItems-1.7.10-2.1.0-GTNH-beta5-universal.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta5/NotEnoughItems-1.7.10-2.1.0-GTNH-beta5-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.0-GTNH-beta9",
@@ -30393,7 +30425,8 @@
           "tagged_at": "2021-04-01T17:12:29+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-beta9-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/34329639",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta9/NotEnoughItems-1.7.10-2.1.0-GTNH-beta9-universal.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta9/NotEnoughItems-1.7.10-2.1.0-GTNH-beta9-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.0-GTNH-beta11",
@@ -30402,7 +30435,8 @@
           "tagged_at": "2021-04-09T18:41:27+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-beta11-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/34725274",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta11/NotEnoughItems-1.7.10-2.1.0-GTNH-beta11-universal.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta11/NotEnoughItems-1.7.10-2.1.0-GTNH-beta11-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.0-GTNH-beta12",
@@ -30411,7 +30445,8 @@
           "tagged_at": "2021-04-10T17:07:10+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-beta12-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/34764280",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta12/NotEnoughItems-1.7.10-2.1.0-GTNH-beta12-universal.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta12/NotEnoughItems-1.7.10-2.1.0-GTNH-beta12-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.0-GTNH-beta13",
@@ -30420,183 +30455,228 @@
           "tagged_at": "2021-04-10T22:39:23+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-beta13-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/34777354",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta13/NotEnoughItems-1.7.10-2.1.0-GTNH-beta13-universal.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH-beta13/NotEnoughItems-1.7.10-2.1.0-GTNH-beta13-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.0-GTNH",
           "changelog": "## What's Changed\n* JEI Style Tabs + More by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/50\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.1.0-GTNH-beta13...2.1.0-GTNH",
+          "prerelease": false,
           "tagged_at": "2021-04-13T03:22:27+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.0-GTNH-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/34907033",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH/NotEnoughItems-1.7.10-2.1.0-GTNH-universal.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.0-GTNH/NotEnoughItems-1.7.10-2.1.0-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.2-GTNH",
           "changelog": "## What's Changed\n* BM CME fix by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/96\n* Fixes by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/103\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.1.0-GTNH...2.1.2-GTNH",
+          "prerelease": false,
           "tagged_at": "2021-04-18T23:07:42+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.2-GTNH-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/35344779",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.2-GTNH/NotEnoughItems-1.7.10-2.1.2-GTNH-universal.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.2-GTNH/NotEnoughItems-1.7.10-2.1.2-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.3-GTNH",
           "changelog": "## What's Changed\n* add handler for large naquadah reactor by @GlodBlock in https://github.com/GTNewHorizons/NotEnoughItems/pull/110\n* Add new handlers, and change display names by @PanSzelescik in https://github.com/GTNewHorizons/NotEnoughItems/pull/113\n\n## New Contributors\n* @PanSzelescik made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/113\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.1.2-GTNH...2.1.3-GTNH",
+          "prerelease": false,
           "tagged_at": "2021-05-16T17:41:24+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.3-GTNH-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/37030769",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.3-GTNH/NotEnoughItems-1.7.10-2.1.3-GTNH-universal.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.3-GTNH/NotEnoughItems-1.7.10-2.1.3-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.5-GTNH",
           "changelog": "## What's Changed\n* Add JEI-style item presence overlay when hovering over the ? button by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/130\n* add handle for Naquadah Fuel Refine Factory by @GlodBlock in https://github.com/GTNewHorizons/NotEnoughItems/pull/132\n* Fix some CMEs that pop up when opening inventory immediately after logging in by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/135\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.1.3-GTNH...2.1.5-GTNH",
+          "prerelease": false,
           "tagged_at": "2021-06-06T16:36:41+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.5-GTNH-universal.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/38158160",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.5-GTNH/NotEnoughItems-1.7.10-2.1.5-GTNH-universal.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.5-GTNH/NotEnoughItems-1.7.10-2.1.5-GTNH-universal.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.16-GTNH",
           "changelog": "## What's Changed\n* Don't take ghost slots into account when looking for items present for crafting by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/136\n* Fix tab icon lighting by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/141\n* Wrap string with comma in double-quotes by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/144\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/NotEnoughItems/pull/145\n* Added more handlers by @YuRaNnNzZZ in https://github.com/GTNewHorizons/NotEnoughItems/pull/146\n* DevJar will be built with shaded libs now  by @TimeConqueror in https://github.com/GTNewHorizons/NotEnoughItems/pull/148\n* Added couple of useful events by @TimeConqueror in https://github.com/GTNewHorizons/NotEnoughItems/pull/149\n* Always show quantity text field by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/150\n* Properly fix NEI quantity text field behavior by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/152\n* Added builders to register event because they are more handy by @TimeConqueror in https://github.com/GTNewHorizons/NotEnoughItems/pull/153\n* Add support for custom handler IDs by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/154\n* Remove IMC hack by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/156\n* Fix world getting dimmed when wither spawner is on screen by @makamys in https://github.com/GTNewHorizons/NotEnoughItems/pull/158\n* Prevent the load of client only classes on dedicated servers by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/159\n* attampt to fix imc by @GlodBlock in https://github.com/GTNewHorizons/NotEnoughItems/pull/161\n* Add back in removed unused public methods, which were actually used by some NEI add-ons by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/162\n* Add yshifts for BW handlers by @Prometheus0000 in https://github.com/GTNewHorizons/NotEnoughItems/pull/164\n* Some changes to NEI that are needed by NEI Custom Diagram by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/163\n* Fix height hack and add ordering config by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/165\n* Fix crash by @Prometheus0000 in https://github.com/GTNewHorizons/NotEnoughItems/pull/166\n* Bookmarks Improvements by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/174\n* Draft for unified build script by @SinTh0r4s in https://github.com/GTNewHorizons/NotEnoughItems/pull/175\n\n## New Contributors\n* @YuRaNnNzZZ made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/146\n* @TimeConqueror made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/148\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.1.5-GTNH...2.1.16-GTNH",
+          "prerelease": false,
           "tagged_at": "2021-11-22T17:07:01+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.16-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/50058552",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.16-GTNH/NotEnoughItems-1.7.10-2.1.16-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.16-GTNH/NotEnoughItems-1.7.10-2.1.16-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.18-GTNH",
           "changelog": "## What's Changed\n* Add regex support for height hack handlers config by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/177\n* Update build script and CI by @SinTh0r4s in https://github.com/GTNewHorizons/NotEnoughItems/pull/178\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.1.16-GTNH...2.1.18-GTNH",
+          "prerelease": false,
           "tagged_at": "2021-12-11T19:02:42+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.18-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/51555316",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.18-GTNH/NotEnoughItems-1.7.10-2.1.18-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.18-GTNH/NotEnoughItems-1.7.10-2.1.18-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.19-GTNH",
           "changelog": "## What's Changed\n* Dependencies by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/183\n* fix derpendencies.info by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/185\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/NotEnoughItems/pull/186\n* Add harvestcraft Garden handler by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/187\n* NEI Bookmarks improvements by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/188\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.1.18-GTNH...2.1.19-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-01-02T21:38:43+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.19-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/53054970",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.19-GTNH/NotEnoughItems-1.7.10-2.1.19-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.19-GTNH/NotEnoughItems-1.7.10-2.1.19-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.20-GTNH",
           "changelog": "## What's Changed\n* Drag and drop from NEI in the search bar; Use NEI to spawn item crash by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/191\n* Fix save last bookmarks set by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/192\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.1.19-GTNH...2.1.20-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-01-05T05:48:28+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.20-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/53229556",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.20-GTNH/NotEnoughItems-1.7.10-2.1.20-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.20-GTNH/NotEnoughItems-1.7.10-2.1.20-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.21-GTNH",
           "changelog": "## What's Changed\n* Fix crash with null fluid stack by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/193\n* Мove bookmarks.ini by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/194\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.1.20-GTNH...2.1.21-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-01-16T05:26:01+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.21-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/54094809",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.21-GTNH/NotEnoughItems-1.7.10-2.1.21-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.21-GTNH/NotEnoughItems-1.7.10-2.1.21-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.1.22-GTNH",
           "changelog": "## What's Changed\n* Make item loading timeout configurable by @makamys in https://github.com/GTNewHorizons/NotEnoughItems/pull/196\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.1.21-GTNH...2.1.22-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-01-18T05:49:24+00:00",
           "filename": "NotEnoughItems-1.7.10-2.1.22-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/54243479",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.22-GTNH/NotEnoughItems-1.7.10-2.1.22-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.1.22-GTNH/NotEnoughItems-1.7.10-2.1.22-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.0-GTNH",
           "changelog": "## What's Changed\n* Add RecipeCatalyst system by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/195\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.1.22-GTNH...2.2.0-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-01-22T17:47:16+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/54673707",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.0-GTNH/NotEnoughItems-1.7.10-2.2.0-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.0-GTNH/NotEnoughItems-1.7.10-2.2.0-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.1-GTNH",
           "changelog": "## What's Changed\n* Use String key for RecipeCatalyst instead of IRecipeHandler.class by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/197\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.0-GTNH...2.2.1-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-01-23T02:32:13+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/54699783",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.1-GTNH/NotEnoughItems-1.7.10-2.2.1-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.1-GTNH/NotEnoughItems-1.7.10-2.2.1-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.3-GTNH",
           "changelog": "## What's Changed\n* Use copy on write lists for handler lists by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/200\n* Adds a few more methods that weren't implemented and at least one that  NEI relied on by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/201\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.1-GTNH...2.2.3-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-01-27T07:36:09+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.3-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/55079403",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.3-GTNH/NotEnoughItems-1.7.10-2.2.3-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.3-GTNH/NotEnoughItems-1.7.10-2.2.3-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.4-GTNH",
           "changelog": "## What's Changed\n* Updates Handlers by @DrParadox7 in https://github.com/GTNewHorizons/NotEnoughItems/pull/203\n* RecipeCatalyst Enhancements by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/199\n\n## New Contributors\n* @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/203\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.3-GTNH...2.2.4-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-01-30T16:07:44+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.4-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/55360144",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.4-GTNH/NotEnoughItems-1.7.10-2.2.4-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.4-GTNH/NotEnoughItems-1.7.10-2.2.4-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.5-GTNH",
           "changelog": "## What's Changed\n* Made handler tab names customizable by @YannickMG in https://github.com/GTNewHorizons/NotEnoughItems/pull/206\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.4-GTNH...2.2.5-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-01-31T02:43:29+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.5-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/55394223",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.5-GTNH/NotEnoughItems-1.7.10-2.2.5-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.5-GTNH/NotEnoughItems-1.7.10-2.2.5-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.7-GTNH",
           "changelog": "## What's Changed\n* Ignore \"drop key\" presses in slot click handler. by @Meegooo in https://github.com/GTNewHorizons/NotEnoughItems/pull/207\n* LGPL-3.0 by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/215\n* Add a way to compare NBT leniently by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/209\n* Add mob overlay cache, optimize mob overlay spawn check by @socolio in https://github.com/GTNewHorizons/NotEnoughItems/pull/212\n* Add new chunk overlay mode for gregtech ore regions by @socolio in https://github.com/GTNewHorizons/NotEnoughItems/pull/211\n* Move fuel info from tooltip to foreground by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/210\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/NotEnoughItems/pull/213\n* Add more util function by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/216\n* Create presets module by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/214\n* update buildscript, fix mcmod info not displaying by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/217\n\n## New Contributors\n* @Meegooo made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/207\n* @socolio made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/212\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.5-GTNH...2.2.7-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-02-11T16:28:10+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.7-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/56524720",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.7-GTNH/NotEnoughItems-1.7.10-2.2.7-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.7-GTNH/NotEnoughItems-1.7.10-2.2.7-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.8-GTNH",
           "changelog": "## What's Changed\n* Hide Presets & Subsets Dropdown if window overlay it by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/221\n* Remove uncraftable catalysts by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/218\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.7-GTNH...2.2.8-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-02-18T02:51:03+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.8-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/57211336",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.8-GTNH/NotEnoughItems-1.7.10-2.2.8-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.8-GTNH/NotEnoughItems-1.7.10-2.2.8-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.11-GTNH",
           "changelog": "## What's Changed\n* Add support for Natura and Campfire Backport by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/226\n* Workaround for issue where GT++ registers Chemical Plant handler twice by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/225\n* Fix not being able to scroll recipes when hovering over ingredients by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/228\n* super unlikely NPE fix by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/229\n* fix weird cme by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/230\n* Add way to register catalysts via IMC by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/232\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.8-GTNH...2.2.11-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-04-09T10:43:31+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/62042009",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.11-GTNH/NotEnoughItems-1.7.10-2.2.11-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.11-GTNH/NotEnoughItems-1.7.10-2.2.11-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.12-GTNH",
           "changelog": "## What's Changed\n* typo correction, russification by @NoX-programer in https://github.com/GTNewHorizons/NotEnoughItems/pull/234\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/NotEnoughItems/pull/235\n\n## New Contributors\n* @NoX-programer made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/234\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.11-GTNH...2.2.12-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-04-20T15:22:05+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.12-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/63118394",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.12-GTNH/NotEnoughItems-1.7.10-2.2.12-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.12-GTNH/NotEnoughItems-1.7.10-2.2.12-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.13-GTNH",
           "changelog": "## What's Changed\n* Allow GuiRecipe to back to general GuiScreen by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/236\n* Fix scrolling recipes when hovering over ingredients changes stack size by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/237\n* Send chat to player when recipe loading was errored by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/241\n* Panel settings by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/240\n* Use shortcut key to trigger overlay recipe by @MuXiu1997 in https://github.com/GTNewHorizons/NotEnoughItems/pull/248\n* Fix AppleCore's Reflection by @glowredman in https://github.com/GTNewHorizons/NotEnoughItems/pull/249\n* Add option to cache item grid rendering by @embeddedt in https://github.com/GTNewHorizons/NotEnoughItems/pull/250\n* Make sure to use utf-8 for bookmark reading as well as writing by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/253\n\n## New Contributors\n* @MuXiu1997 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/248\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.12-GTNH...2.2.13-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-05-29T18:28:28+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.13-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/66966390",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.13-GTNH/NotEnoughItems-1.7.10-2.2.13-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.13-GTNH/NotEnoughItems-1.7.10-2.2.13-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.14-GTNH",
           "changelog": "## What's Changed\n* Use OverlayIdentifier for GT4 by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/244\n* Use a proper key implementation for the search cache by @embeddedt in https://github.com/GTNewHorizons/NotEnoughItems/pull/254\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.13-GTNH...2.2.14-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-05-29T19:27:27+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.14-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/66969656",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.14-GTNH/NotEnoughItems-1.7.10-2.2.14-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.14-GTNH/NotEnoughItems-1.7.10-2.2.14-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.15-GTNH",
           "changelog": "## What's Changed\n* Add config to ignore overlap with potion effect HUD by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/255\n* Added compat for TFC+, IE and other mods by @Jerome226 in https://github.com/GTNewHorizons/NotEnoughItems/pull/256\n\n## New Contributors\n* @Jerome226 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/256\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.14-GTNH...2.2.15-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-06-01T04:19:25+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.15-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/67198558",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.15-GTNH/NotEnoughItems-1.7.10-2.2.15-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.15-GTNH/NotEnoughItems-1.7.10-2.2.15-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.16-dev-GTNH",
@@ -30605,15 +30685,18 @@
           "tagged_at": "2022-06-09T20:26:34+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.16-dev-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/68039024",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.16-dev-GTNH/NotEnoughItems-1.7.10-2.2.16-dev-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.16-dev-GTNH/NotEnoughItems-1.7.10-2.2.16-dev-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.17-GTNH",
           "changelog": "## What's Changed\n* Add another bookmark view mode by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/261\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.16-dev-GTNH...2.2.17-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-06-23T16:06:50+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.17-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/69404193",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.17-GTNH/NotEnoughItems-1.7.10-2.2.17-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.17-GTNH/NotEnoughItems-1.7.10-2.2.17-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.18-GTNH-pre",
@@ -30622,296 +30705,368 @@
           "tagged_at": "2022-06-24T13:46:03+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.18-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/69506885",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.18-GTNH-pre/NotEnoughItems-1.7.10-2.2.18-GTNH-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.18-GTNH-pre/NotEnoughItems-1.7.10-2.2.18-GTNH-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.19-GTNH-pre",
           "changelog": "## What's Changed\n* Add catalysts for large boiler fuel by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/270\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.20-GTNH...2.2.19-GTNH-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-14T14:32:36+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.19-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/74684816",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.19-GTNH-pre/NotEnoughItems-1.7.10-2.2.19-GTNH-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.19-GTNH-pre/NotEnoughItems-1.7.10-2.2.19-GTNH-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.19-GTNH",
           "changelog": "## What's Changed\n* Update buildscript & apply automatic formatting rules by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/262\n* Focus the previous recipe if it's still visible when loading usage re… by @YannickMG in https://github.com/GTNewHorizons/NotEnoughItems/pull/263\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.18-GTNH-pre...2.2.19-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-07-05T17:25:08+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.19-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/70651020",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.19-GTNH/NotEnoughItems-1.7.10-2.2.19-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.19-GTNH/NotEnoughItems-1.7.10-2.2.19-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.20-GTNH-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.19-GTNH-pre...2.2.20-GTNH-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-16T16:11:12+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.20-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/74892237",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.20-GTNH-pre/NotEnoughItems-1.7.10-2.2.20-GTNH-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.20-GTNH-pre/NotEnoughItems-1.7.10-2.2.20-GTNH-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.20-GTNH",
           "changelog": "## What's Changed\n* Purge OpV by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/269\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.19-GTNH...2.2.20-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-03T05:53:19+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.20-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/73524973",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.20-GTNH/NotEnoughItems-1.7.10-2.2.20-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.20-GTNH/NotEnoughItems-1.7.10-2.2.20-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.21-GTNH-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.20-GTNH-pre...2.2.21-GTNH-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-18T14:00:45+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.21-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/75114037",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.21-GTNH-pre/NotEnoughItems-1.7.10-2.2.21-GTNH-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.21-GTNH-pre/NotEnoughItems-1.7.10-2.2.21-GTNH-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.22",
           "changelog": "## What's Changed\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/NotEnoughItems/pull/22\n* Continuation of Balthild's PR by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/24\n* Fix late itemhiding by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/25\n* Update NEIClientConfig.java by @TataTawa in https://github.com/GTNewHorizons/NotEnoughItems/pull/27\n* [NEEDS CAREFUL REVIEW] Highly experimental support for backing to BetterQuesting from recipe view by @dvdmandt in https://github.com/GTNewHorizons/NotEnoughItems/pull/28\n* Too many ingredients, and apparently an empty fuel? by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/31\n* Some reorganization and bugfixes by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/33\n* Backwards Compat by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/34\n* Fixes thread starvation issue with parallelStream in findFuels() by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/36\n* Merge OreDictBandAid fix by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/37\n* Prevent NEIClientConfig being loaded too early by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/38\n* Custom NBT <> JSON Encoder - Fix bookmark saving of items that require escaping by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/40\n* Don't crash with divide by zero error by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/41\n* Read/write lock for hiddenItems by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/42\n* JEI Style Tabs + More by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/50\n* BM CME fix by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/96\n* Fixes by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/103\n* add handler for large naquadah reactor by @GlodBlock in https://github.com/GTNewHorizons/NotEnoughItems/pull/110\n* Add new handlers, and change display names by @PanSzelescik in https://github.com/GTNewHorizons/NotEnoughItems/pull/113\n* Add JEI-style item presence overlay when hovering over the ? button by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/130\n* add handle for Naquadah Fuel Refine Factory by @GlodBlock in https://github.com/GTNewHorizons/NotEnoughItems/pull/132\n* Fix some CMEs that pop up when opening inventory immediately after logging in by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/135\n* Don't take ghost slots into account when looking for items present for crafting by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/136\n* Fix tab icon lighting by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/141\n* Wrap string with comma in double-quotes by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/144\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/NotEnoughItems/pull/145\n* Added more handlers by @YuRaNnNzZZ in https://github.com/GTNewHorizons/NotEnoughItems/pull/146\n* DevJar will be built with shaded libs now  by @TimeConqueror in https://github.com/GTNewHorizons/NotEnoughItems/pull/148\n* Added couple of useful events by @TimeConqueror in https://github.com/GTNewHorizons/NotEnoughItems/pull/149\n* Always show quantity text field by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/150\n* Properly fix NEI quantity text field behavior by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/152\n* Added builders to register event because they are more handy by @TimeConqueror in https://github.com/GTNewHorizons/NotEnoughItems/pull/153\n* Add support for custom handler IDs by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/154\n* Remove IMC hack by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/156\n* Fix world getting dimmed when wither spawner is on screen by @makamys in https://github.com/GTNewHorizons/NotEnoughItems/pull/158\n* Prevent the load of client only classes on dedicated servers by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/159\n* attampt to fix imc by @GlodBlock in https://github.com/GTNewHorizons/NotEnoughItems/pull/161\n* Add back in removed unused public methods, which were actually used by some NEI add-ons by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/162\n* Add yshifts for BW handlers by @Prometheus0000 in https://github.com/GTNewHorizons/NotEnoughItems/pull/164\n* Some changes to NEI that are needed by NEI Custom Diagram by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/163\n* Fix height hack and add ordering config by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/165\n* Fix crash by @Prometheus0000 in https://github.com/GTNewHorizons/NotEnoughItems/pull/166\n* Bookmarks Improvements by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/174\n* Draft for unified build script by @SinTh0r4s in https://github.com/GTNewHorizons/NotEnoughItems/pull/175\n* Add regex support for height hack handlers config by @D-Cysteine in https://github.com/GTNewHorizons/NotEnoughItems/pull/177\n* Update build script and CI by @SinTh0r4s in https://github.com/GTNewHorizons/NotEnoughItems/pull/178\n* Dependencies by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/183\n* fix derpendencies.info by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/185\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/NotEnoughItems/pull/186\n* Add harvestcraft Garden handler by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/187\n* NEI Bookmarks improvements by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/188\n* Drag and drop from NEI in the search bar; Use NEI to spawn item crash by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/191\n* Fix save last bookmarks set by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/192\n* Fix crash with null fluid stack by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/193\n* Мove bookmarks.ini by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/194\n* Make item loading timeout configurable by @makamys in https://github.com/GTNewHorizons/NotEnoughItems/pull/196\n* Add RecipeCatalyst system by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/195\n* Use String key for RecipeCatalyst instead of IRecipeHandler.class by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/197\n* Use copy on write lists for handler lists by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/200\n* Adds a few more methods that weren't implemented and at least one that  NEI relied on by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/201\n* Updates Handlers by @DrParadox7 in https://github.com/GTNewHorizons/NotEnoughItems/pull/203\n* RecipeCatalyst Enhancements by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/199\n* Made handler tab names customizable by @YannickMG in https://github.com/GTNewHorizons/NotEnoughItems/pull/206\n* Ignore \"drop key\" presses in slot click handler. by @Meegooo in https://github.com/GTNewHorizons/NotEnoughItems/pull/207\n* LGPL-3.0 by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/215\n* Add a way to compare NBT leniently by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/209\n* Add mob overlay cache, optimize mob overlay spawn check by @socolio in https://github.com/GTNewHorizons/NotEnoughItems/pull/212\n* Add new chunk overlay mode for gregtech ore regions by @socolio in https://github.com/GTNewHorizons/NotEnoughItems/pull/211\n* Move fuel info from tooltip to foreground by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/210\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/NotEnoughItems/pull/213\n* Add more util function by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/216\n* Create presets module by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/214\n* update buildscript, fix mcmod info not displaying by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/217\n* Hide Presets & Subsets Dropdown if window overlay it by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/221\n* Remove uncraftable catalysts by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/218\n* Add support for Natura and Campfire Backport by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/226\n* Workaround for issue where GT++ registers Chemical Plant handler twice by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/225\n* Fix not being able to scroll recipes when hovering over ingredients by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/228\n* super unlikely NPE fix by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/229\n* fix weird cme by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/230\n* Add way to register catalysts via IMC by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/232\n* typo correction, russification by @NoX-programer in https://github.com/GTNewHorizons/NotEnoughItems/pull/234\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/NotEnoughItems/pull/235\n* Allow GuiRecipe to back to general GuiScreen by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/236\n* Fix scrolling recipes when hovering over ingredients changes stack size by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/237\n* Send chat to player when recipe loading was errored by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/241\n* Panel settings by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/240\n* Use shortcut key to trigger overlay recipe by @MuXiu1997 in https://github.com/GTNewHorizons/NotEnoughItems/pull/248\n* Fix AppleCore's Reflection by @glowredman in https://github.com/GTNewHorizons/NotEnoughItems/pull/249\n* Add option to cache item grid rendering by @embeddedt in https://github.com/GTNewHorizons/NotEnoughItems/pull/250\n* Make sure to use utf-8 for bookmark reading as well as writing by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/253\n* Use OverlayIdentifier for GT4 by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/244\n* Use a proper key implementation for the search cache by @embeddedt in https://github.com/GTNewHorizons/NotEnoughItems/pull/254\n* Add config to ignore overlap with potion effect HUD by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/255\n* Added compat for TFC+, IE and other mods by @Jerome226 in https://github.com/GTNewHorizons/NotEnoughItems/pull/256\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/NotEnoughItems/pull/257\n* Fix minor memory leaks by @embeddedt in https://github.com/GTNewHorizons/NotEnoughItems/pull/258\n* Update handlers and catalysts by @glowredman in https://github.com/GTNewHorizons/NotEnoughItems/pull/259\n* Add another bookmark view mode by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/261\n* Update buildscript & apply automatic formatting rules by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/262\n* Focus the previous recipe if it's still visible when loading usage re… by @YannickMG in https://github.com/GTNewHorizons/NotEnoughItems/pull/263\n* Purge OpV by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/269\n* Add catalysts for large boiler fuel by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/270\n* Added keyboard shortcuts to NEI And More... by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/271\n\n## New Contributors\n* @Kiwi233 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/22\n* @TataTawa made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/27\n* @dvdmandt made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/28\n* @Glease made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/37\n* @GlodBlock made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/110\n* @PanSzelescik made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/113\n* @eigenraven made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/130\n* @D-Cysteine made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/144\n* @YuRaNnNzZZ made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/146\n* @TimeConqueror made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/148\n* @makamys made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/158\n* @slprime made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/174\n* @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/175\n* @bombcar made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/183\n* @miozune made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/187\n* @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/203\n* @YannickMG made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/206\n* @Meegooo made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/207\n* @socolio made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/212\n* @NoX-programer made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/234\n* @MuXiu1997 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/248\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/249\n* @embeddedt made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/250\n* @Jerome226 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/256\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/v2.0.1...2.2.22",
+          "prerelease": false,
           "tagged_at": "2022-08-19T12:05:32+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.22.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/75212998",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.22/NotEnoughItems-1.7.10-2.2.22.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.22/NotEnoughItems-1.7.10-2.2.22.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.23-GTNH-pre",
           "changelog": "## What's Changed\n* Spotless apply for branch drawSlotItem for #273 by @github-actions in https://github.com/GTNewHorizons/NotEnoughItems/pull/274\n* Spotless apply for branch drawSlotItem for #273 by @github-actions in https://github.com/GTNewHorizons/NotEnoughItems/pull/275\n\n## New Contributors\n* @github-actions made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/274\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.22...2.2.23-GTNH-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-20T07:52:18+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.23-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/75293324",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.23-GTNH-pre/NotEnoughItems-1.7.10-2.2.23-GTNH-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.23-GTNH-pre/NotEnoughItems-1.7.10-2.2.23-GTNH-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.24-GTNH",
           "changelog": "## What's Changed\n* Catch exception on drawSlotItem by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/273\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.22...2.2.24-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-20T09:43:13+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.24-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/75298295",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.24-GTNH/NotEnoughItems-1.7.10-2.2.24-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.24-GTNH/NotEnoughItems-1.7.10-2.2.24-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.25-GTNH-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.24-GTNH...2.2.25-GTNH-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-20T19:58:45+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.25-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/75330532",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.25-GTNH-pre/NotEnoughItems-1.7.10-2.2.25-GTNH-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.25-GTNH-pre/NotEnoughItems-1.7.10-2.2.25-GTNH-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.26-GTNH-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.26-GTNH...2.2.26-GTNH-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-26T09:22:20+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.26-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/75913870",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.26-GTNH-pre/NotEnoughItems-1.7.10-2.2.26-GTNH-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.26-GTNH-pre/NotEnoughItems-1.7.10-2.2.26-GTNH-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.26-GTNH",
           "changelog": "## What's Changed\n* Presets: Open List Fatal & Slot Overlay  by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/276\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.24-GTNH...2.2.26-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-21T13:11:06+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.26-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/75383662",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.26-GTNH/NotEnoughItems-1.7.10-2.2.26-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.26-GTNH/NotEnoughItems-1.7.10-2.2.26-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.27-GTNH",
           "changelog": "## What's Changed\n* Create ShortcutInputHandler api class by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/277\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.26-GTNH...2.2.27-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-21T14:55:29+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.27-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/75389610",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.27-GTNH/NotEnoughItems-1.7.10-2.2.27-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.27-GTNH/NotEnoughItems-1.7.10-2.2.27-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.28-GTNH",
           "changelog": "## What's Changed\n* fix dead loop when click certain gui with real item by @GlodBlock in https://github.com/GTNewHorizons/NotEnoughItems/pull/278\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.27-GTNH...2.2.28-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-23T07:13:22+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.28-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/75562216",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.28-GTNH/NotEnoughItems-1.7.10-2.2.28-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.28-GTNH/NotEnoughItems-1.7.10-2.2.28-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.29-GTNH",
           "changelog": "## What's Changed\n* Fix DnD Real Item as Ghost by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/279\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.28-GTNH...2.2.29-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-24T08:06:19+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.29-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/75683520",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.29-GTNH/NotEnoughItems-1.7.10-2.2.29-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.29-GTNH/NotEnoughItems-1.7.10-2.2.29-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.30-GTNH-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.29-GTNH...2.2.30-GTNH-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-26T09:22:09+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.30-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/75913855",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.30-GTNH-pre/NotEnoughItems-1.7.10-2.2.30-GTNH-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.30-GTNH-pre/NotEnoughItems-1.7.10-2.2.30-GTNH-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.31-GTNH",
           "changelog": "## What's Changed\n* Show handler order when hovering on tab and shift pressed by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/281\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.29-GTNH...2.2.31-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-27T08:26:22+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.31-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76008866",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.31-GTNH/NotEnoughItems-1.7.10-2.2.31-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.31-GTNH/NotEnoughItems-1.7.10-2.2.31-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.32-GTNH",
           "changelog": "## What's Changed\n* README.md: Add some documentation for getting started on development by @firenoo in https://github.com/GTNewHorizons/NotEnoughItems/pull/283\n\n## New Contributors\n* @firenoo made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/283\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.31-GTNH...2.2.32-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-27T23:25:46+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.32-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76059621",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.32-GTNH/NotEnoughItems-1.7.10-2.2.32-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.32-GTNH/NotEnoughItems-1.7.10-2.2.32-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.33-GTNH",
           "changelog": "## What's Changed\n* Fix crash when itempanel is not initialized yet by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/285\n* Show message while loading itempanel by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/286\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.32-GTNH...2.2.33-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-31T13:38:15+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.33-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76429097",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.33-GTNH/NotEnoughItems-1.7.10-2.2.33-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.33-GTNH/NotEnoughItems-1.7.10-2.2.33-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.2.34-GTNH",
           "changelog": "## What's Changed\n* Allow using handlerId for handler order by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/290\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.334-GTNH...2.2.34-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-09-03T09:18:15+00:00",
           "filename": "NotEnoughItems-1.7.10-2.2.34-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76747559",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.34-GTNH/NotEnoughItems-1.7.10-2.2.34-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.34-GTNH/NotEnoughItems-1.7.10-2.2.34-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.0-GTNH",
           "changelog": "## What's Changed\n* Update Handlers by @DrParadox7 in https://github.com/GTNewHorizons/NotEnoughItems/pull/288\n* Allow using handlerId for handler order by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/290\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.33-GTNH...2.3.0-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-09-04T15:57:56+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76843839",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.0-GTNH/NotEnoughItems-1.7.10-2.3.0-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.0-GTNH/NotEnoughItems-1.7.10-2.3.0-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.1-GTNH",
           "changelog": "## What's Changed\n* Fix other mods cannot mixin GuiContainer.java when NEI is loaded by @Quarri6343 in https://github.com/GTNewHorizons/NotEnoughItems/pull/291\n\n## New Contributors\n* @Quarri6343 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/291\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.34-GTNH...2.3.1-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-09-05T18:30:10+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/76948587",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.1-GTNH/NotEnoughItems-1.7.10-2.3.1-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.1-GTNH/NotEnoughItems-1.7.10-2.3.1-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.2-GTNH",
           "changelog": "## What's Changed\n* Fix other mods cannot mixin GuiContainer.java when NEI is loaded by @Quarri6343 in https://github.com/GTNewHorizons/NotEnoughItems/pull/291\n\n## New Contributors\n* @Quarri6343 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/291\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.2.34-GTNH...2.3.2-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-09-09T11:46:33+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.2-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/77351028",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.2-GTNH/NotEnoughItems-1.7.10-2.3.2-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.2-GTNH/NotEnoughItems-1.7.10-2.3.2-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.3-GTNH-pre",
           "changelog": "## What's Changed\n* Add search history by @Quarri6343 in https://github.com/GTNewHorizons/NotEnoughItems/pull/294\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.1-GTNH...2.3.3-GTNH-pre",
+          "prerelease": false,
           "tagged_at": "2022-09-12T19:33:46+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.3-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/77648575",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.3-GTNH-pre/NotEnoughItems-1.7.10-2.3.3-GTNH-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.3-GTNH-pre/NotEnoughItems-1.7.10-2.3.3-GTNH-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.4-GTNH-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.3-GTNH-pre...2.3.4-GTNH-pre",
+          "prerelease": false,
           "tagged_at": "2022-09-14T06:22:59+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.4-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/77810846",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.4-GTNH-pre/NotEnoughItems-1.7.10-2.3.4-GTNH-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.4-GTNH-pre/NotEnoughItems-1.7.10-2.3.4-GTNH-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.5-GTNH",
           "changelog": "## What's Changed\n* Add search history by @Quarri6343 in https://github.com/GTNewHorizons/NotEnoughItems/pull/294\n* Backport some of REI bookmark features by @Quarri6343 in https://github.com/GTNewHorizons/NotEnoughItems/pull/296\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.1-GTNH...2.3.5-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-09-18T10:09:44+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.5-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/78236114",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.5-GTNH/NotEnoughItems-1.7.10-2.3.5-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.5-GTNH/NotEnoughItems-1.7.10-2.3.5-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.6-GTNH",
           "changelog": "## What's Changed\n* Update CodeChickenLib by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/299\n* Fix incorrect color applied to GuiRecipeCatalyst by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/300\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.5-GTNH...2.3.6-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-09-19T11:29:31+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.6-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/78333758",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.6-GTNH/NotEnoughItems-1.7.10-2.3.6-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.6-GTNH/NotEnoughItems-1.7.10-2.3.6-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.7-GTNH",
           "changelog": "## What's Changed\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/NotEnoughItems/pull/301\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.6-GTNH...2.3.7-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-09-24T10:27:07+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.7-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/78870106",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.7-GTNH/NotEnoughItems-1.7.10-2.3.7-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.7-GTNH/NotEnoughItems-1.7.10-2.3.7-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.8-GTNH",
           "changelog": "## What's Changed\n* Add AE2 Stuff Inscriber to RecipeCatalyst by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/306\n* Fix Bookmarks by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/307\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.7-GTNH...2.3.8-GTNH\n",
+          "prerelease": false,
           "tagged_at": "2022-10-13T08:10:31+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.8-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/80865305",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.8-GTNH/NotEnoughItems-1.7.10-2.3.8-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.8-GTNH/NotEnoughItems-1.7.10-2.3.8-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.9-GTNH",
           "changelog": "## What's Changed\n* Bookmarks: save result that has output bigger than 64 by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/308\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.8-GTNH...2.3.9-GTNH\n",
+          "prerelease": false,
           "tagged_at": "2022-10-13T18:51:16+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.9-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/80928656",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.9-GTNH/NotEnoughItems-1.7.10-2.3.9-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.9-GTNH/NotEnoughItems-1.7.10-2.3.9-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.10-GTNH",
           "changelog": "## What's Changed\n* fix missing yShift by @GlodBlock in https://github.com/GTNewHorizons/NotEnoughItems/pull/309\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.9-GTNH...2.3.10-GTNH\n",
+          "prerelease": false,
           "tagged_at": "2022-10-16T12:50:42+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.10-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/81196806",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.10-GTNH/NotEnoughItems-1.7.10-2.3.10-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.10-GTNH/NotEnoughItems-1.7.10-2.3.10-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.11-GTNH",
           "changelog": "## What's Changed\n* Try/Catch AIOBE - maybe fixes #295 by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/312\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.10-GTNH...2.3.11-GTNH\n",
+          "prerelease": false,
           "tagged_at": "2022-10-17T09:36:14+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/81276630",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.11-GTNH/NotEnoughItems-1.7.10-2.3.11-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.11-GTNH/NotEnoughItems-1.7.10-2.3.11-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.12-GTNH",
           "changelog": "## What's Changed\n* Add config to not optimize computation for GUI overlap by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/314\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.11-GTNH...2.3.12-GTNH\n",
+          "prerelease": false,
           "tagged_at": "2022-10-17T19:00:43+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.12-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/81326535",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.12-GTNH/NotEnoughItems-1.7.10-2.3.12-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.12-GTNH/NotEnoughItems-1.7.10-2.3.12-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.13-GTNH",
           "changelog": "## What's Changed\n* Only mark item list as dirty if it's actually modified by @makamys in https://github.com/GTNewHorizons/NotEnoughItems/pull/316\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.12-GTNH...2.3.13-GTNH\n",
+          "prerelease": false,
           "tagged_at": "2022-10-23T11:42:59+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.13-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/81985628",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.13-GTNH/NotEnoughItems-1.7.10-2.3.13-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.13-GTNH/NotEnoughItems-1.7.10-2.3.13-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.14-GTNH",
           "changelog": "## What's Changed\n* Fix incorrect RecipeCatalysts for naquadah generators by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/318\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.13-GTNH...2.3.14-GTNH\n",
+          "prerelease": false,
           "tagged_at": "2022-11-08T07:23:20+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.14-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/83840056",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.14-GTNH/NotEnoughItems-1.7.10-2.3.14-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.14-GTNH/NotEnoughItems-1.7.10-2.3.14-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.15-GTNH",
           "changelog": "## What's Changed\n* Add Dangote Distillus to catalyst for distillery by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/319\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.14-GTNH...2.3.15-GTNH\n",
+          "prerelease": false,
           "tagged_at": "2022-11-18T06:38:04+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.15-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/85063876",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.15-GTNH/NotEnoughItems-1.7.10-2.3.15-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.15-GTNH/NotEnoughItems-1.7.10-2.3.15-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.16-GTNH",
           "changelog": "## What's Changed\n* fix overlap of ? button by @GlodBlock in https://github.com/GTNewHorizons/NotEnoughItems/pull/321\n* Fix inventory desync when closing GuiRecipe by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/320\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.15-GTNH...2.3.16-GTNH\n",
+          "prerelease": false,
           "tagged_at": "2022-11-29T17:23:23+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.16-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/86390321",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.16-GTNH/NotEnoughItems-1.7.10-2.3.16-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.16-GTNH/NotEnoughItems-2.3.16-GTNH.jar"
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.17-GTNH",
@@ -30920,7 +31075,8 @@
           "tagged_at": "2022-12-21T09:49:10+00:00",
           "filename": "NotEnoughItems-1.7.10-2.3.17-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/89005047",
-          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.17-GTNH/NotEnoughItems-1.7.10-2.3.17-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.17-GTNH/NotEnoughItems-1.7.10-2.3.17-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.18-GTNH",
@@ -30930,7 +31086,7 @@
           "filename": "NotEnoughItems-1.7.10-2.3.18-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/89190019",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.18-GTNH/NotEnoughItems-1.7.10-2.3.18-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.18-GTNH/NotEnoughItems-2.3.18-GTNH.jar"
+          "extra_assets": []
         },
         {
           "version_tag": "2.3.19-GTNH",
@@ -31040,7 +31196,6 @@
           "filename": "NotEnoughItems-2.3.29-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/95202499",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.29-GTNH/NotEnoughItems-2.3.29-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.29-GTNH/NotEnoughItems-2.3.29-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -31071,7 +31226,6 @@
           "filename": "NotEnoughItems-2.3.32-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/95790401",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.32-GTNH/NotEnoughItems-2.3.32-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.32-GTNH/NotEnoughItems-2.3.32-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -31112,7 +31266,6 @@
           "filename": "NotEnoughItems-2.3.36-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/97606394",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.36-GTNH/NotEnoughItems-2.3.36-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.36-GTNH/NotEnoughItems-2.3.36-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -31123,7 +31276,6 @@
           "filename": "NotEnoughItems-2.3.37-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/97890601",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.37-GTNH/NotEnoughItems-2.3.37-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.37-GTNH/NotEnoughItems-2.3.37-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -31134,7 +31286,6 @@
           "filename": "NotEnoughItems-2.3.38-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/98127400",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.38-GTNH/NotEnoughItems-2.3.38-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.38-GTNH/NotEnoughItems-2.3.38-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -31145,16 +31296,15 @@
           "filename": "NotEnoughItems-2.3.39-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/98287088",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.39-GTNH/NotEnoughItems-2.3.39-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.39-GTNH/NotEnoughItems-2.3.39-GTNH.jar",
           "extra_assets": []
         },
         {
           "version_tag": "2.3.40-GTNH",
           "changelog": "## What's Changed\n* Add handlers of Reikas mods plus fixes by @theOnly1iKnow in https://github.com/GTNewHorizons/NotEnoughItems/pull/362\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.39-GTNH...2.3.40-GTNH\n",
           "prerelease": false,
-          "tagged_at": "2023-03-20T15:34:13+00:00",
+          "tagged_at": "2023-03-23T09:39:47+00:00",
           "filename": "NotEnoughItems-2.3.40-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/100161953",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/100585879",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.40-GTNH/NotEnoughItems-2.3.40-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.40-GTNH/NotEnoughItems-2.3.40-GTNH.jar",
           "extra_assets": []
@@ -31162,7 +31312,8 @@
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/NotEnoughItems",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/",
+      "side": "BOTH"
     },
     {
       "name": "Nuclear-Control",
