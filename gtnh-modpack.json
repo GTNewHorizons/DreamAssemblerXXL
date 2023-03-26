@@ -29,6 +29,7 @@
     "CODEOWNERS",
     "LICENSE",
     "README.md",
+    "config/txloader/",
     "mods/OpenSecurity/sounds/alarms/StargateAtlantisTheme.ogg",
     "mods/OpenSecurity/sounds/alarms/alarm-SG1.ogg",
     "mods/OpenSecurity/sounds/alarms/alarm-SG1evac.ogg",
@@ -36,10 +37,9 @@
     "mods/OpenSecurity/sounds/alarms/alarm-SGAoffworld.ogg",
     "mods/OpenSecurity/sounds/alarms/klaxon1.ogg",
     "mods/OpenSecurity/sounds/alarms/klaxon2.ogg",
-    "resourcepacks/Realistic Sky GT New Horizons.zip",
+    "resourcepacks/",
     "scripts/ZZ-Client-Only.zs",
-    "servers.json",
-    "config/txloader/"
+    "servers.json"
   ],
   "client_exclusions": [
     ".gitattributes",
