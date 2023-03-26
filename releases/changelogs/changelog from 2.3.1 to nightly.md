@@ -173,8 +173,8 @@
 > * @Pxx500 made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/63 (0.9.3)
 >
 
-# Updated NewHorizonsCoreMod (2.0.2@BOTH --> 2.0.5@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.1...2.0.5
+# Updated NewHorizonsCoreMod (2.0.2@BOTH --> 2.0.6@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.1...2.0.6
 >## What's Changed
 > * Add recipe for humongous input hatch by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/546 (2.0.5)
 > * Ender io recipes by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/542 (2.0.4)

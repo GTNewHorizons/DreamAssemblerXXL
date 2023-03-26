@@ -28241,7 +28241,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.0.5",
+      "latest_version": "2.0.6",
       "private": false,
       "versions": [
         {
@@ -29892,6 +29892,16 @@
           "filename": "GTNewHorizonsCoreMod-2.0.5.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/100943347",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.5/GTNewHorizonsCoreMod-2.0.5.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.6",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.6\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-26T13:50:27+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.0.6.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/101022259",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.6/GTNewHorizonsCoreMod-2.0.6.jar",
           "extra_assets": []
         }
       ],
