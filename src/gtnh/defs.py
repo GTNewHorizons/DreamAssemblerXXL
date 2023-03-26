@@ -91,7 +91,7 @@ notes=
 """
 
 
-JAVA_9_ARCHIVE_SUFFIX = "Java_17-19"
+JAVA_9_ARCHIVE_SUFFIX = "Java_17-20"
 
 
 class Side(str, Enum):
