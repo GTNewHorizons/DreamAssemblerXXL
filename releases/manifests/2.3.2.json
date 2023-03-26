@@ -1,7 +1,7 @@
 {
   "version": "2.3.2",
   "last_version": "2.3.1",
-  "last_updated": "2023-03-26T14:04:24.898873",
+  "last_updated": "2023-03-26T17:57:56.707148",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -105,7 +105,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.0.16-GTNH-pre",
+      "version": "1.0.14-GTNH",
       "side": "BOTH"
     },
     "BrandonsCore": {

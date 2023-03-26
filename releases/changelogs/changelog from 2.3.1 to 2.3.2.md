@@ -39,16 +39,6 @@
 > * @Pa4ok made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/96 (3.3.8-GTNH)
 >
 
-# Updated Botanic-horizons (1.0.14-GTNH@BOTH --> 1.0.16-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.13-GTNH...1.0.16-GTNH-pre
->## What's Changed
-> * Revert "Alternate tiny planet block recipe" by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/19 (1.0.14-GTNH)
-> * Add Tiny Planet Recipe by @BlueWeabo in https://github.com/GTNewHorizons/Botanic-horizons/pull/20 (1.0.14-GTNH)
->
->## New Contributors
-> * @BlueWeabo made their first contribution in https://github.com/GTNewHorizons/Botanic-horizons/pull/20 (1.0.14-GTNH)
->
-
 # Updated BugTorch (1.2.6-GTNH@BOTH --> 1.2.7@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BugTorch/compare/1.2.5GTNH...1.2.6-GTNH
 >## What's Changed
