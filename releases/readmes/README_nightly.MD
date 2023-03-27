@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2023-03-26
+Version nightly is out 2023-03-27
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -273,7 +273,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BloodArsenal](https://github.com/GTNewHorizons/BloodArsenal) | 1.2.9 |
 | [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.3.25 |
 | [Botania](https://github.com/GTNewHorizons/Botania) | 1.9.16-GTNH |
-| [Botanic-horizons](https://github.com/GTNewHorizons/Botanic-horizons) | 1.0.16-GTNH-pre |
+| [Botanic-horizons](https://github.com/GTNewHorizons/Botanic-horizons) | 1.0.14-GTNH |
 | [BrandonsCore](https://github.com/GTNewHorizons/BrandonsCore) | 1.0.0.13-GTNH |
 | [BugTorch](https://github.com/GTNewHorizons/BugTorch) | 1.2.7 |
 | [BuildCraft](https://github.com/GTNewHorizons/BuildCraft) | 7.1.31 |

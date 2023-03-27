@@ -7010,6 +7010,7 @@
           "filename": "BotanicHorizons-1.7.10-1.0.14-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/92649449",
           "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.14-GTNH/BotanicHorizons-1.7.10-1.0.14-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botanic-horizons/1.0.14-GTNH/Botanic-horizons-1.0.14-GTNH.jar",
           "extra_assets": []
         }
       ],
