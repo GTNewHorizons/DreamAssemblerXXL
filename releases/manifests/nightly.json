@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-03-27T15:46:51.862932",
+  "last_updated": "2023-03-27T15:49:32.376661",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-184-GTNH",
+      "version": "rv3-beta-186-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.3.8-GTNH",
+      "version": "3.3.9-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.4.6",
+      "version": "2.4.7-pre",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.15",
+      "version": "5.09.42.16-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.8.18",
+      "version": "1.8.19-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "0.9.4.5.13-GTNH",
+      "version": "0.9.4.5.14-GTNH-pre",
       "side": "BOTH"
     },
     "LootGames": {
@@ -437,7 +437,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.0.6",
+      "version": "2.0.7",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -637,7 +637,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.6.12",
+      "version": "2.6.13",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
