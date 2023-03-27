@@ -2004,7 +2004,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-184-GTNH",
+      "latest_version": "rv3-beta-186-GTNH-pre",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -3115,6 +3115,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/100191630",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-184-GTNH/appliedenergistics2-rv3-beta-184-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-184-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-184-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-185-GTNH",
+          "changelog": "## What's Changed\n* sanity checks for `CraftingLinkNexsus.isDead()` by @Pilzinsel64 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/292\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-184-GTNH...rv3-beta-185-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-27T15:17:16+00:00",
+          "filename": "appliedenergistics2-rv3-beta-185-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/101163696",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-185-GTNH/appliedenergistics2-rv3-beta-185-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-186-GTNH-pre",
+          "changelog": "## What's Changed\n* Optimize how the ME terminals are updated. by @Dream-Master in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/293\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-185-GTNH...rv3-beta-186-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-27T15:23:43+00:00",
+          "filename": "appliedenergistics2-rv3-beta-186-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/101164595",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-186-GTNH-pre/appliedenergistics2-rv3-beta-186-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -5636,7 +5656,7 @@
     },
     {
       "name": "BetterQuesting",
-      "latest_version": "3.3.8-GTNH",
+      "latest_version": "3.3.9-GTNH-pre",
       "versions": [
         {
           "version_tag": "3.0.351-GTNH",
@@ -6000,6 +6020,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/101018116",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.8-GTNH/BetterQuesting-3.3.8-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.3.8-GTNH/BetterQuesting-3.3.8-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.3.9-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.8-GTNH...3.3.9-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-27T15:29:15+00:00",
+          "filename": "BetterQuesting-3.3.9-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/101165110",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.9-GTNH-pre/BetterQuesting-3.3.9-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -6839,47 +6869,58 @@
     },
     {
       "name": "Botanic-horizons",
-      "latest_version": "1.0.16-GTNH-pre",
+      "latest_version": "1.0.14-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.0.1-GTNH",
           "changelog": "## What's Changed\n* Unified build script by @SinTh0r4s in https://github.com/GTNewHorizons/Botanic-horizons/pull/1\n\n## New Contributors\n* @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/Botanic-horizons/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/commits/1.0.1-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-01-16T12:31:26+00:00",
           "filename": "BotanicHorizons-1.7.10-1.0.1-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/54112059",
-          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.1-GTNH/BotanicHorizons-1.7.10-1.0.1-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.1-GTNH/BotanicHorizons-1.7.10-1.0.1-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.2-GTNH",
           "changelog": "## What's Changed\n* Fix broken oredicts by @miozune in https://github.com/GTNewHorizons/Botanic-horizons/pull/2\n* Oredict typos by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/3\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.1-GTNH...1.0.2-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-01-30T11:47:43+00:00",
           "filename": "BotanicHorizons-1.7.10-1.0.2-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/55348082",
-          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.2-GTNH/BotanicHorizons-1.7.10-1.0.2-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.2-GTNH/BotanicHorizons-1.7.10-1.0.2-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.3-GTNH",
           "changelog": "## What's Changed\n* Add a bypass on the Thaumcraft API to fix unexpected oredictionary use by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/4\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.2-GTNH...1.0.3-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-02-02T22:51:30+00:00",
           "filename": "BotanicHorizons-1.7.10-1.0.3-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/55678890",
-          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.3-GTNH/BotanicHorizons-1.7.10-1.0.3-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.3-GTNH/BotanicHorizons-1.7.10-1.0.3-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.4-GTNH",
           "changelog": "## What's Changed\n* Create zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/Botanic-horizons/pull/5\n* BY-NC-SA 4.0 by @bombcar in https://github.com/GTNewHorizons/Botanic-horizons/pull/6\n\n## New Contributors\n* @Kiwi233 made their first contribution in https://github.com/GTNewHorizons/Botanic-horizons/pull/5\n* @bombcar made their first contribution in https://github.com/GTNewHorizons/Botanic-horizons/pull/6\n\n**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.3-GTNH...1.0.4-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-02-14T21:18:55+00:00",
           "filename": "BotanicHorizons-1.7.10-1.0.4-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/56830258",
-          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.4-GTNH/BotanicHorizons-1.7.10-1.0.4-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.4-GTNH/BotanicHorizons-1.7.10-1.0.4-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.5-GTNH",
           "changelog": "## What's Changed\n* Point gaia pylon to the correct cap flavour by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/7\n* Add magicbees ingredients to the apothecary, and generify the code by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/8\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.4-GTNH...1.0.5-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-02-27T21:12:25+00:00",
           "filename": "BotanicHorizons-1.7.10-1.0.5-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/58081119",
-          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.5-GTNH/BotanicHorizons-1.7.10-1.0.5-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.5-GTNH/BotanicHorizons-1.7.10-1.0.5-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.6-GTNH-dev",
@@ -6888,7 +6929,8 @@
           "tagged_at": "2022-06-12T20:13:38+00:00",
           "filename": "BotanicHorizons-1.7.10-1.0.6-GTNH-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/68281662",
-          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.6-GTNH-dev/BotanicHorizons-1.7.10-1.0.6-GTNH-dev.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.6-GTNH-dev/BotanicHorizons-1.7.10-1.0.6-GTNH-dev.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.7-GTNH-dev",
@@ -6897,48 +6939,58 @@
           "tagged_at": "2022-06-14T21:52:00+00:00",
           "filename": "BotanicHorizons-1.7.10-1.0.7-GTNH-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/68492991",
-          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.7-GTNH-dev/BotanicHorizons-1.7.10-1.0.7-GTNH-dev.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.7-GTNH-dev/BotanicHorizons-1.7.10-1.0.7-GTNH-dev.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.8-GTNH",
           "changelog": "## What's Changed\n* Fix Dandelifeon not being craftable by @miozune in https://github.com/GTNewHorizons/Botanic-horizons/pull/13\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.7-GTNH-dev...1.0.8-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-06-24T19:16:57+00:00",
           "filename": "BotanicHorizons-1.7.10-1.0.8-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/69535448",
-          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.8-GTNH/BotanicHorizons-1.7.10-1.0.8-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.8-GTNH/BotanicHorizons-1.7.10-1.0.8-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.9-GTNH",
           "changelog": "## What's Changed\n* Feature/gt material integration 1 by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/14\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.8-GTNH...1.0.9-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-07-31T09:54:13+00:00",
           "filename": "BotanicHorizons-1.7.10-1.0.9-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/73233340",
-          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.9-GTNH/BotanicHorizons-1.7.10-1.0.9-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.9-GTNH/BotanicHorizons-1.7.10-1.0.9-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.10-GTNH",
           "changelog": "## What's Changed\n* Add an endgame recipe for the creative tablet by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/11\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.9-GTNH...1.0.10-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-15T14:53:29+00:00",
           "filename": "BotanicHorizons-1.7.10-1.0.10-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/74779245",
-          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.10-GTNH/BotanicHorizons-1.7.10-1.0.10-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.10-GTNH/BotanicHorizons-1.7.10-1.0.10-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.11-GTNH",
           "changelog": "## What's Changed\n* Petal recipe change by @Dream-Master in https://github.com/GTNewHorizons/Botanic-horizons/pull/15\n* add Livingrock Plates to Mana pool by @Dream-Master in https://github.com/GTNewHorizons/Botanic-horizons/pull/16\n\n## New Contributors\n* @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Botanic-horizons/pull/15\n\n**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.10-GTNH...1.0.11-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-20T11:44:34+00:00",
           "filename": "BotanicHorizons-1.7.10-1.0.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/75304966",
-          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.11-GTNH/BotanicHorizons-1.7.10-1.0.11-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.11-GTNH/BotanicHorizons-1.7.10-1.0.11-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.12-GTNH",
           "changelog": "## What's Changed\n* Fix Apothecary recipes using #cropVine by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/17\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.11-GTNH...1.0.12-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-10-04T17:57:17+00:00",
           "filename": "BotanicHorizons-1.7.10-1.0.12-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/79954554",
           "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.12-GTNH/BotanicHorizons-1.7.10-1.0.12-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botanic-horizons/1.0.12-GTNH/Botanic-horizons-1.0.12-GTNH.jar"
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.13-GTNH",
@@ -6958,34 +7010,13 @@
           "filename": "BotanicHorizons-1.7.10-1.0.14-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/92649449",
           "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.14-GTNH/BotanicHorizons-1.7.10-1.0.14-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botanic-horizons/1.0.14-GTNH/Botanic-horizons-1.0.14-GTNH.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "1.0.15-GTNH-pre",
-          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.14-GTNH...1.0.15-GTNH-pre\n",
-          "prerelease": false,
-          "tagged_at": "2023-03-17T18:52:42+00:00",
-          "filename": "BotanicHorizons-1.0.15-GTNH-pre.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/99840870",
-          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.15-GTNH-pre/BotanicHorizons-1.0.15-GTNH-pre.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "1.0.16-GTNH-pre",
-          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.14-GTNH...1.0.16-GTNH-pre\n",
-          "prerelease": false,
-          "tagged_at": "2023-03-17T19:20:18+00:00",
-          "filename": "BotanicHorizons-1.0.16-GTNH-pre.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/99844377",
-          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.16-GTNH-pre/BotanicHorizons-1.0.16-GTNH-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botanic-horizons/1.0.16-GTNH-pre/Botanic-horizons-1.0.16-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
       "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International, special permission given to GTNH.",
       "repo_url": "https://github.com/GTNewHorizons/Botanic-horizons",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botanic-horizons/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botanic-horizons/",
+      "side": "BOTH"
     },
     {
       "name": "Brandon's Core",
@@ -9353,7 +9384,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.4.6",
+      "latest_version": "2.4.7-pre",
       "private": false,
       "versions": [
         {
@@ -9946,6 +9977,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/100666986",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.4.6/EnderIO-2.4.6.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/2.4.6/EnderIO-2.4.6.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.4.7-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.6...2.4.7-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-27T15:30:02+00:00",
+          "filename": "EnderIO-2.4.7-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/101165248",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.4.7-pre/EnderIO-2.4.7-pre.jar",
           "extra_assets": []
         }
       ],
@@ -13840,7 +13881,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.42.15",
+      "latest_version": "5.09.42.16-pre",
       "private": false,
       "versions": [
         {
@@ -18215,6 +18256,16 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.15/gregtech-5.09.42.15.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.15/GT5-Unofficial-5.09.42.15.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.16-pre",
+          "changelog": "## What's Changed\n* Change Bee things by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1817\n* Modpack 12931 by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1818\n* fix: redstone strong signal not resetting by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1819\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.15...5.09.42.16-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-27T15:28:50+00:00",
+          "filename": "gregtech-5.09.42.16-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/101165071",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.16-pre/gregtech-5.09.42.16-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -19272,7 +19323,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.8.18",
+      "latest_version": "1.8.19-pre",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -21238,6 +21289,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/100926729",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.18/GT-PlusPlus-1.8.18.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.18/GTplusplus-1.8.18.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.19-pre",
+          "changelog": "## What's Changed\n* Spotless apply for branch LFTR_Improvements for #584 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/585\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.18...1.8.19-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-27T15:30:28+00:00",
+          "filename": "GT-PlusPlus-1.8.19-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/101165308",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.19-pre/GT-PlusPlus-1.8.19-pre.jar",
           "extra_assets": []
         }
       ],
@@ -24700,7 +24761,7 @@
     },
     {
       "name": "LogisticsPipes",
-      "latest_version": "0.9.4.5.13-GTNH",
+      "latest_version": "0.9.4.5.14-GTNH-pre",
       "versions": [
         {
           "version_tag": "0.9.4.5.4-GTNH",
@@ -24791,6 +24852,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/LogisticsPipes/releases/assets/98229709",
           "browser_download_url": "https://github.com/GTNewHorizons/LogisticsPipes/releases/download/0.9.4.5.13-GTNH/logisticspipes-0.9.4.5.13-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LogisticsPipes/0.9.4.5.13-GTNH/LogisticsPipes-0.9.4.5.13-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.9.4.5.14-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/0.9.4.5.13-GTNH...0.9.4.5.14-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-27T15:27:05+00:00",
+          "filename": "logisticspipes-0.9.4.5.14-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LogisticsPipes/releases/assets/101164890",
+          "browser_download_url": "https://github.com/GTNewHorizons/LogisticsPipes/releases/download/0.9.4.5.14-GTNH-pre/logisticspipes-0.9.4.5.14-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -28251,7 +28322,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.0.6",
+      "latest_version": "2.0.7",
       "private": false,
       "versions": [
         {
@@ -29912,6 +29983,16 @@
           "filename": "GTNewHorizonsCoreMod-2.0.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/101022259",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.6/GTNewHorizonsCoreMod-2.0.6.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.7",
+          "changelog": "## What's Changed\n* Adjust according to tier by @Runakai1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/547\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.6...2.0.7\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-27T15:28:30+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.0.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/101165042",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.7/GTNewHorizonsCoreMod-2.0.7.jar",
           "extra_assets": []
         }
       ],
@@ -37310,7 +37391,7 @@
     },
     {
       "name": "ThaumicTinkerer",
-      "latest_version": "2.6.12",
+      "latest_version": "2.6.13",
       "versions": [
         {
           "version_tag": "2.5.541",
@@ -37463,6 +37544,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicTinkerer/releases/assets/95371053",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.6.12/ThaumicTinkerer-2.6.12.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicTinkerer/2.6.12/ThaumicTinkerer-2.6.12.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.6.13",
+          "changelog": "## What's Changed\n* should fix arrow exploits for gt materials by @chochem in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/29\n\n## New Contributors\n* @chochem made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/29\n\n**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.6.12...2.6.13\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-26T18:23:08+00:00",
+          "filename": "ThaumicTinkerer-2.6.13.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicTinkerer/releases/assets/101048526",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicTinkerer/releases/download/2.6.13/ThaumicTinkerer-2.6.13.jar",
           "extra_assets": []
         }
       ],
