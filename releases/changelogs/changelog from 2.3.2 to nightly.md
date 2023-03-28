@@ -21,8 +21,19 @@
 > * `needUpdateConnections` only while updating cons by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/113 (2.4.6)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.16-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.16-pre
+# Updated ForestryMC (4.6.0@BOTH --> 4.6.2-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.5.8...4.6.2-pre
+>## What's Changed
+> * Bees by @Dream-Master in https://github.com/GTNewHorizons/ForestryMC/pull/47 (4.6.2-pre)
+> * Add a way to simulate night by @kuba6000 in https://github.com/GTNewHorizons/ForestryMC/pull/46 (4.6.1)
+> * add setting to config-> disable butterflies spawn by @Quetz4l in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
+>
+>## New Contributors
+> * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
+>
+
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.17-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.17-pre
 >## What's Changed
 > * Change Bee things by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1817 (5.09.42.16-pre)
 > * Modpack 12931 by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1818 (5.09.42.16-pre)
@@ -30,17 +41,29 @@
 > * Display tier of nano forge in GUI by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1813 (5.09.42.15)
 >
 
-# Updated GTplusplus (1.8.18@BOTH --> 1.8.19-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.19-pre
+# Updated GTplusplus (1.8.18@BOTH --> 1.8.21-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.21-pre
 >## What's Changed
+> * Spotless apply for branch LFTR_Improvements for #584 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/585 (1.8.21-pre)
+> * Fix survival place offset of structure by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/586 (1.8.20)
 > * Spotless apply for branch LFTR_Improvements for #584 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/585 (1.8.19-pre)
 > * Downtier oreproc GT++ multis to EV and add new EV Mac Stack by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/579 (1.8.18)
 >
 
-# Updated LogisticsPipes (0.9.4.5.13-GTNH@BOTH --> 0.9.4.5.14-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/0.9.4.5.12-GTNH...0.9.4.5.14-GTNH-pre
+# Updated KubaTech (0.9.5@BOTH --> 0.9.6-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.3...0.9.6-pre
 >## What's Changed
+> * Fix Mob Recipe Map generation on servers with Thermos by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/65 (0.9.5)
+>
+
+# Updated LogisticsPipes (0.9.4.5.13-GTNH@BOTH --> 1.0.0-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/0.9.4.5.12-GTNH...1.0.0-GTNH
+>## What's Changed
+> * Put GTNH specific changes behind a dreamcraft check by @mitchej123 in https://github.com/GTNewHorizons/LogisticsPipes/pull/19 (1.0.0-GTNH)
 > * Fix backspace key not working with lwjgl3 by @miozune in https://github.com/GTNewHorizons/LogisticsPipes/pull/18 (0.9.4.5.13-GTNH)
+>
+>## New Contributors
+> * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/19 (1.0.0-GTNH)
 >
 
 # Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.7@BOTH)
