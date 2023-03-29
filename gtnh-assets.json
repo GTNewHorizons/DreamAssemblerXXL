@@ -2004,7 +2004,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-186-GTNH-pre",
+      "latest_version": "rv3-beta-190-GTNH",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -3136,6 +3136,47 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/101164595",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-186-GTNH-pre/appliedenergistics2-rv3-beta-186-GTNH-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-186-GTNH-pre/Applied-Energistics-2-Unofficial-rv3-beta-186-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-187-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-185-GTNH...rv3-beta-187-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-28T16:43:22+00:00",
+          "filename": "appliedenergistics2-rv3-beta-187-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/101325120",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-187-GTNH-pre/appliedenergistics2-rv3-beta-187-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-188-GTNH",
+          "changelog": "## What's Changed\n* Revert commit 84574778291f54e4bf32e545fd8d49c2e8d8f624 by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/295\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-185-GTNH...rv3-beta-188-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T07:09:53+00:00",
+          "filename": "appliedenergistics2-rv3-beta-188-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/101409516",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-188-GTNH/appliedenergistics2-rv3-beta-188-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-189-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-185-GTNH...rv3-beta-189-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T07:12:15+00:00",
+          "filename": "appliedenergistics2-rv3-beta-189-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/101409698",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-189-GTNH-pre/appliedenergistics2-rv3-beta-189-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-190-GTNH",
+          "changelog": "## What's Changed\n* Revert commit 84574778291f54e4bf32e545fd8d49c2e8d8f624 by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/295\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-185-GTNH...rv3-beta-190-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T20:13:46+00:00",
+          "filename": "appliedenergistics2-rv3-beta-190-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/101498075",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-190-GTNH/appliedenergistics2-rv3-beta-190-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-190-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-190-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -5301,7 +5342,7 @@
     },
     {
       "name": "BetterLoadingScreen",
-      "latest_version": "1.3.39-GTNH",
+      "latest_version": "1.3.40-GTNH-pre",
       "versions": [
         {
           "version_tag": "1.3.30-GTNH",
@@ -5392,6 +5433,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.39-GTNH/betterloadingscreen-1.3.39-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/1.3.39-GTNH/BetterLoadingScreen-1.3.39-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.40-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.3.39-GTNH...1.3.40-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T20:22:53+00:00",
+          "filename": "betterloadingscreen-1.3.40-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterLoadingScreen/releases/assets/101498967",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.40-GTNH-pre/betterloadingscreen-1.3.40-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterLoadingScreen/1.3.40-GTNH-pre/BetterLoadingScreen-1.3.40-GTNH-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v2.0",
@@ -5401,7 +5453,7 @@
     },
     {
       "name": "BetterP2P",
-      "latest_version": "1.1.3",
+      "latest_version": "1.1.4-pre",
       "versions": [
         {
           "version_tag": "1.0.3",
@@ -5649,6 +5701,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.1.3/betterp2p-1.1.3.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterP2P/1.1.3/BetterP2P-1.1.3.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.4-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.3...1.1.4-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T06:58:57+00:00",
+          "filename": "betterp2p-1.1.4-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterP2P/releases/assets/101408732",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.1.4-pre/betterp2p-1.1.4-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterP2P/1.1.4-pre/BetterP2P-1.1.4-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -5657,7 +5720,7 @@
     },
     {
       "name": "BetterQuesting",
-      "latest_version": "3.3.9-GTNH-pre",
+      "latest_version": "3.3.11-GTNH",
       "versions": [
         {
           "version_tag": "3.0.351-GTNH",
@@ -6032,6 +6095,27 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/101165110",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.9-GTNH-pre/BetterQuesting-3.3.9-GTNH-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.3.9-GTNH-pre/BetterQuesting-3.3.9-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.3.10-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.9-GTNH-pre...3.3.10-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-28T16:31:03+00:00",
+          "filename": "BetterQuesting-3.3.10-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/101323893",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.10-GTNH-pre/BetterQuesting-3.3.10-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.3.11-GTNH",
+          "changelog": "## What's Changed\n* fix clickable url hotzone detection not ignoring linebreaks in raw text by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/97\n* Some small fixes for BQ format by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/98\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.8-GTNH...3.3.11-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T07:08:14+00:00",
+          "filename": "BetterQuesting-3.3.11-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/101409354",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.11-GTNH/BetterQuesting-3.3.11-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.3.11-GTNH/BetterQuesting-3.3.11-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -9387,7 +9471,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.4.7-pre",
+      "latest_version": "2.4.8-pre",
       "private": false,
       "versions": [
         {
@@ -9991,6 +10075,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/101165248",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.4.7-pre/EnderIO-2.4.7-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/2.4.7-pre/EnderIO-2.4.7-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.4.8-pre",
+          "changelog": "## What's Changed\n* Try to fix energy overflow by @D-Cysteine in https://github.com/GTNewHorizons/EnderIO/pull/114\n* Prevent ghostloading by @Dream-Master in https://github.com/GTNewHorizons/EnderIO/pull/116\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.6...2.4.8-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T20:18:27+00:00",
+          "filename": "EnderIO-2.4.8-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/101498580",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.4.8-pre/EnderIO-2.4.8-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/2.4.8-pre/EnderIO-2.4.8-pre.jar",
           "extra_assets": []
         }
       ],
@@ -10911,7 +11006,7 @@
     },
     {
       "name": "ForestryMC",
-      "latest_version": "4.6.2-pre",
+      "latest_version": "4.6.3",
       "versions": [
         {
           "version_tag": "4.2.19.0",
@@ -11217,6 +11312,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/101252552",
           "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.6.2-pre/Forestry-4.6.2-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForestryMC/4.6.2-pre/ForestryMC-4.6.2-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "4.6.3",
+          "changelog": "## What's Changed\n* New bees formula by @kuba6000 in https://github.com/GTNewHorizons/ForestryMC/pull/45\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.1...4.6.3\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T20:19:36+00:00",
+          "filename": "Forestry-4.6.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForestryMC/releases/assets/101498670",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForestryMC/releases/download/4.6.3/Forestry-4.6.3.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForestryMC/4.6.3/ForestryMC-4.6.3.jar",
           "extra_assets": []
         }
       ],
@@ -12848,7 +12954,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.5.4",
+      "latest_version": "0.5.5",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -13780,6 +13886,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.5.4/GoodGenerator-0.5.4.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.5.4/GoodGenerator-0.5.4.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "0.5.5",
+          "changelog": "## What's Changed\n* Various NA fixes by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/151\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.4...0.5.5\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T20:18:42+00:00",
+          "filename": "GoodGenerator-0.5.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/101498596",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.5.5/GoodGenerator-0.5.5.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.5.5/GoodGenerator-0.5.5.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
@@ -13906,7 +14023,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.42.17-pre",
+      "latest_version": "5.09.42.21-pre",
       "private": false,
       "versions": [
         {
@@ -18303,6 +18420,47 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.17-pre/gregtech-5.09.42.17-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.17-pre/GT5-Unofficial-5.09.42.17-pre.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.18-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.17-pre...5.09.42.18-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-28T16:44:11+00:00",
+          "filename": "gregtech-5.09.42.18-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/101325207",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.18-pre/gregtech-5.09.42.18-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.19-pre",
+          "changelog": "## What's Changed\n* Fix PCB Factory not voiding output when trace size is above 100 by @foxwhite25 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1822\n\n## New Contributors\n* @foxwhite25 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1822\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.15...5.09.42.19-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T07:28:42+00:00",
+          "filename": "gregtech-5.09.42.19-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/101411160",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.19-pre/gregtech-5.09.42.19-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.20",
+          "changelog": "## What's Changed\n* Fix PCB Factory not voiding output when trace size is above 100 by @foxwhite25 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1822\n* Update production upgrades formula in Industrial Apiary by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1820\n\n## New Contributors\n* @foxwhite25 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1822\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.15...5.09.42.20\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T20:21:38+00:00",
+          "filename": "gregtech-5.09.42.20.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/101498874",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.20/gregtech-5.09.42.20.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.21-pre",
+          "changelog": "## What's Changed\n* Update production upgrades formula in Industrial Apiary by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1820\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.19-pre...5.09.42.21-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T20:27:02+00:00",
+          "filename": "gregtech-5.09.42.21-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/101499395",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.21-pre/gregtech-5.09.42.21-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.21-pre/GT5-Unofficial-5.09.42.21-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -18502,7 +18660,7 @@
     },
     {
       "name": "GTNH-Intergalactic",
-      "latest_version": "1.0.6",
+      "latest_version": "1.0.7",
       "private": false,
       "versions": [
         {
@@ -18610,6 +18768,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/100925364",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.0.6/gtnhintergalactic-1.0.6.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Intergalactic/1.0.6/GTNH-Intergalactic-1.0.6.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.7",
+          "changelog": "## What's Changed\n* Fixed fluid and item input getting in SpAss by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/13\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.6...1.0.7\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T20:18:06+00:00",
+          "filename": "gtnhintergalactic-1.0.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/101498524",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.0.7/gtnhintergalactic-1.0.7.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Intergalactic/1.0.7/GTNH-Intergalactic-1.0.7.jar",
           "extra_assets": []
         }
       ],
@@ -24177,7 +24346,7 @@
     },
     {
       "name": "KubaTech",
-      "latest_version": "0.9.6-pre",
+      "latest_version": "0.9.7",
       "versions": [
         {
           "version_tag": "0.1",
@@ -24757,6 +24926,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.9.6-pre/kubatech-0.9.6-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KubaTech/0.9.6-pre/KubaTech-0.9.6-pre.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "0.9.7",
+          "changelog": "## What's Changed\n* Update production modifier for the new bees formula in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/66\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.5...0.9.7\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T20:21:43+00:00",
+          "filename": "kubatech-0.9.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/101498890",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.9.7/kubatech-0.9.7.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KubaTech/0.9.7/KubaTech-0.9.7.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -25074,7 +25254,7 @@
     },
     {
       "name": "lwjgl3ify",
-      "latest_version": "1.3.3",
+      "latest_version": "1.3.4",
       "private": false,
       "versions": [
         {
@@ -26187,6 +26367,27 @@
               "filename": "lwjgl3ify-1.3.3-multimc.zip",
               "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/101012921",
               "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.3.3/lwjgl3ify-1.3.3-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.3.4",
+          "changelog": "## What's Changed\n* Add extensible enums for reika's mods by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/53\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.3.3...1.3.4\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-28T16:04:19+00:00",
+          "filename": "lwjgl3ify-1.3.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/101321029",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.3.4/lwjgl3ify-1.3.4.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.3.4-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/101321027",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.3.4/lwjgl3ify-1.3.4-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.3.4-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/101321030",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.3.4/lwjgl3ify-1.3.4-multimc.zip"
             }
           ]
         }
@@ -30378,7 +30579,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.3.40-GTNH",
+      "latest_version": "2.3.41-GTNH-pre",
       "private": false,
       "versions": [
         {
@@ -31470,6 +31671,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/100585879",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.40-GTNH/NotEnoughItems-2.3.40-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.40-GTNH/NotEnoughItems-2.3.40-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.3.41-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.40-GTNH...2.3.41-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-29T07:16:45+00:00",
+          "filename": "NotEnoughItems-2.3.41-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/101410101",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.41-GTNH-pre/NotEnoughItems-2.3.41-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.41-GTNH-pre/NotEnoughItems-2.3.41-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
