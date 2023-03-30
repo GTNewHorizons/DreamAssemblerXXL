@@ -1,3 +1,12 @@
+# Updated AE2FluidCraft-Rework (1.1.5-gtnh-pre@BOTH --> 1.1.6-gtnh-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.2-gtnh...1.1.6-gtnh-pre
+>## What's Changed
+> * Quantum fluid cell fix by @chochem in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.6-gtnh-pre)
+>
+>## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.6-gtnh-pre)
+>
+
 # Updated Applied-Energistics-2-Unofficial (rv3-beta-184-GTNH@BOTH --> rv3-beta-190-GTNH@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-183-GTNH...rv3-beta-190-GTNH
 >## What's Changed
@@ -17,8 +26,8 @@
 > * New GUI by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/23 (1.1.3)
 >
 
-# Updated BetterQuesting (3.3.8-GTNH@BOTH --> 3.3.11-GTNH@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.7-GTNH...3.3.11-GTNH
+# Updated BetterQuesting (3.3.8-GTNH@BOTH --> 3.3.12-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.7-GTNH...3.3.12-GTNH-pre
 >## What's Changed
 > * fix clickable url hotzone detection not ignoring linebreaks in raw text by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/97 (3.3.11-GTNH)
 > * Some small fixes for BQ format by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/98 (3.3.11-GTNH)
@@ -88,6 +97,13 @@
 > * Fusion sound by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/149 (0.5.4)
 >
 
+# Updated HoloInventory (2.1.19-GTNH@BOTH --> 2.2.0-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.1.18-GTNH...2.2.0-GTNH
+>## What's Changed
+> * fix incorrect use of weak reference by @Glease in https://github.com/GTNewHorizons/HoloInventory/pull/31 (2.2.0-GTNH)
+> * https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/10022 by @repo-alt in https://github.com/GTNewHorizons/HoloInventory/pull/30 (2.1.19-GTNH)
+>
+
 # Updated KubaTech (0.9.5@BOTH --> 0.9.7@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.3...0.9.7
 >## What's Changed
@@ -132,5 +148,14 @@
 >## What's Changed
 > * Add extensible enums for reika's mods by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/53 (1.3.4)
 > * Delayed key release fix by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/52 (1.3.3)
+>
+
+# Updated twilightforest (2.4.0@BOTH --> 2.4.1-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.3.8.18...2.4.1-pre
+>## What's Changed
+> * bandaid fix for terrain gen NPE by @Glease in https://github.com/GTNewHorizons/twilightforest/pull/19 (2.4.0)
+>
+>## New Contributors
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/19 (2.4.0)
 >
 

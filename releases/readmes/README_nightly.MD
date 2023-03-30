@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2023-03-29
+Version nightly is out 2023-03-30
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -238,7 +238,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | --- | --- |
 | [Advanced Solar Panel For 1.7.10 (Unofficial)](https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels) | 1.7.10 Edition |
 | [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.0.9-GTNH |
-| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.1.5-gtnh-pre |
+| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.1.6-gtnh-pre |
 | [ae2stuff](https://github.com/GTNewHorizons/ae2stuff) | 0.5.1.16-GTNH |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.2.6-GTNH |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.6.3 |
@@ -261,7 +261,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BetterCrashes](https://github.com/GTNewHorizons/BetterCrashes) | 1.2.0-GTNH |
 | [BetterLoadingScreen](https://github.com/GTNewHorizons/BetterLoadingScreen) | 1.3.40-GTNH-pre |
 | [BetterP2P](https://github.com/GTNewHorizons/BetterP2P) | 1.1.4-pre |
-| [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting) | 3.3.11-GTNH |
+| [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting) | 3.3.12-GTNH-pre |
 | [BiblioCraft: BiblioWoods Biomes O'Plenty Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition) | 1.9 |
 | [BiblioCraft: BiblioWoods Forestry Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition) | 1.7 |
 | [BiblioCraft: BiblioWoods Natura Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-natura-edition) | 1.5 |
@@ -340,7 +340,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.0 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.1.0 |
 | [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.2.4 |
-| [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.1.19-GTNH |
+| [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.2.0-GTNH |
 | [HungerOverhaul](https://github.com/GTNewHorizons/HungerOverhaul) | 1.0.4-GTNH |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.0.19 |
 | [IC2 Crop-Breeding Plugin](https://www.curseforge.com/minecraft/mc-mods/ic2-nei-crop-plugin) | 1.3.1 |
@@ -456,7 +456,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Translocators](https://github.com/GTNewHorizons/Translocators) | 1.1.2.21 |
 | [Travellers Gear](https://www.curseforge.com/minecraft/mc-mods/travellers-gear) | 1.16.6 |
 | [TravellersGearNeo](https://github.com/GTNewHorizons/TravellersGearNeo) | 1.0 |
-| [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.4.0 |
+| [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.4.1-pre |
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.5.2 |
 | [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.5 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.6.6 |

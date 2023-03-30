@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-03-29T20:38:20.685184",
+  "last_updated": "2023-03-30T21:04:47.615538",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.0.9-GTNH",
+      "version": "1.0.10-GTNH-pre",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.5-gtnh-pre",
+      "version": "1.1.4-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.3.11-GTNH",
+      "version": "3.3.13-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -113,7 +113,7 @@
       "side": "BOTH"
     },
     "BugTorch": {
-      "version": "1.2.7",
+      "version": "1.2.8-GTNH",
       "side": "BOTH"
     },
     "BuildCraft": {
@@ -257,11 +257,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.5.5",
+      "version": "0.5.6",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.21-pre",
+      "version": "5.09.42.23-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -293,11 +293,11 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.2.4",
+      "version": "2.2.5",
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.1.19-GTNH",
+      "version": "2.2.0-GTNH",
       "side": "BOTH"
     },
     "HungerOverhaul": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.9.7",
+      "version": "0.9.8-pre",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -449,7 +449,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.41-GTNH-pre",
+      "version": "2.3.42-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -601,7 +601,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.1.2",
+      "version": "5.1.3-pre",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -665,7 +665,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.4.0",
+      "version": "2.4.2",
       "side": "BOTH"
     },
     "Universal-Singularities": {
