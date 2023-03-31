@@ -558,7 +558,7 @@
     },
     {
       "name": "AdventureBackpack2",
-      "latest_version": "1.0.10-GTNH-pre",
+      "latest_version": "1.0.11-GTNH-pre",
       "versions": [
         {
           "version_tag": "1.0.0-GTNH",
@@ -660,6 +660,17 @@
           "filename": "adventurebackpack-1.0.10-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AdventureBackpack2/releases/assets/101635539",
           "browser_download_url": "https://github.com/GTNewHorizons/AdventureBackpack2/releases/download/1.0.10-GTNH-pre/adventurebackpack-1.0.10-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.11-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.10-GTNH-pre...1.0.11-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-31T06:00:57+00:00",
+          "filename": "adventurebackpack-1.0.11-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AdventureBackpack2/releases/assets/101712875",
+          "browser_download_url": "https://github.com/GTNewHorizons/AdventureBackpack2/releases/download/1.0.11-GTNH-pre/adventurebackpack-1.0.11-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AdventureBackpack2/1.0.11-GTNH-pre/AdventureBackpack2-1.0.11-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -1690,6 +1701,7 @@
           "filename": "ae2fc-1.1.4-gtnh-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/101657977",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.1.4-gtnh-pre/ae2fc-1.1.4-gtnh-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.1.4-gtnh-pre/AE2FluidCraft-Rework-1.1.4-gtnh-pre.jar",
           "extra_assets": []
         },
         {
@@ -6164,6 +6176,7 @@
           "filename": "BetterQuesting-3.3.13-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/101635310",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.13-GTNH-pre/BetterQuesting-3.3.13-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.3.13-GTNH-pre/BetterQuesting-3.3.13-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -7321,6 +7334,7 @@
           "filename": "bugtorch-1.2.8-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BugTorch/releases/assets/101660035",
           "browser_download_url": "https://github.com/GTNewHorizons/BugTorch/releases/download/1.2.8-GTNH/bugtorch-1.2.8-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BugTorch/1.2.8-GTNH/BugTorch-1.2.8-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -13974,6 +13988,7 @@
           "filename": "GoodGenerator-0.5.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/101634656",
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.5.6/GoodGenerator-0.5.6.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.5.6/GoodGenerator-0.5.6.jar",
           "extra_assets": []
         }
       ],
@@ -18558,6 +18573,7 @@
           "filename": "gregtech-5.09.42.23-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/101660335",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.23-pre/gregtech-5.09.42.23-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.23-pre/GT5-Unofficial-5.09.42.23-pre.jar",
           "extra_assets": []
         }
       ],
@@ -22847,6 +22863,7 @@
           "filename": "hodgepodge-2.2.5.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/101634735",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.2.5/hodgepodge-2.2.5.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/2.2.5/Hodgepodge-2.2.5.jar",
           "extra_assets": []
         }
       ],
@@ -25065,6 +25082,7 @@
           "filename": "kubatech-0.9.8-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/101656728",
           "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.9.8-pre/kubatech-0.9.8-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KubaTech/0.9.8-pre/KubaTech-0.9.8-pre.jar",
           "extra_assets": []
         }
       ],
@@ -31821,6 +31839,7 @@
           "filename": "NotEnoughItems-2.3.42-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/101657162",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.42-GTNH-pre/NotEnoughItems-2.3.42-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.42-GTNH-pre/NotEnoughItems-2.3.42-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -31940,7 +31959,7 @@
     },
     {
       "name": "OCGlasses",
-      "latest_version": "1.2.5-GTNH",
+      "latest_version": "1.2.6-GTNH-pre",
       "versions": [
         {
           "version_tag": "1.2-GTNH",
@@ -31990,6 +32009,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/OCGlasses/releases/assets/74778466",
           "browser_download_url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.2.5-GTNH/OpenGlasses-1.7.10-1.2.5-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OCGlasses/1.2.5-GTNH/OCGlasses-1.2.5-GTNH.jar"
+        },
+        {
+          "version_tag": "1.2.6-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.2.5-GTNH...1.2.6-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-31T06:00:43+00:00",
+          "filename": "OpenGlasses-1.2.6-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OCGlasses/releases/assets/101712853",
+          "browser_download_url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.2.6-GTNH-pre/OpenGlasses-1.2.6-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OCGlasses/1.2.6-GTNH-pre/OCGlasses-1.2.6-GTNH-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
@@ -36905,6 +36935,7 @@
           "filename": "TecTech-5.1.3-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/101656662",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.1.3-pre/TecTech-5.1.3-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.1.3-pre/TecTech-5.1.3-pre.jar",
           "extra_assets": []
         }
       ],
@@ -38888,6 +38919,7 @@
           "filename": "TwilightForest-2.4.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/twilightforest/releases/assets/101634815",
           "browser_download_url": "https://github.com/GTNewHorizons/twilightforest/releases/download/2.4.2/TwilightForest-2.4.2.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/twilightforest/2.4.2/twilightforest-2.4.2.jar",
           "extra_assets": []
         }
       ],

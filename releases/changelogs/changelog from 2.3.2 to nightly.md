@@ -1,10 +1,13 @@
-# Updated AE2FluidCraft-Rework (1.1.5-gtnh-pre@BOTH --> 1.1.6-gtnh-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.2-gtnh...1.1.6-gtnh-pre
+# Updated AE2FluidCraft-Rework (1.1.5-gtnh-pre@BOTH --> 1.1.4-gtnh-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/commits/1.1.5-gtnh-pre@BOTH...1.1.4-gtnh-pre@BOTH
+
+# Updated AdventureBackpack2 (1.0.9-GTNH@BOTH --> 1.0.11-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.8-GTNH...1.0.11-GTNH-pre
 >## What's Changed
-> * Quantum fluid cell fix by @chochem in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.6-gtnh-pre)
+> * Fix unequipping Piston Boots with armor stand not resets step height #12780 by @r1tsuu in https://github.com/GTNewHorizons/AdventureBackpack2/pull/12 (1.0.9-GTNH)
 >
 >## New Contributors
-> * @chochem made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.6-gtnh-pre)
+> * @r1tsuu made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/12 (1.0.9-GTNH)
 >
 
 # Updated Applied-Energistics-2-Unofficial (rv3-beta-184-GTNH@BOTH --> rv3-beta-190-GTNH@BOTH)
@@ -26,8 +29,8 @@
 > * New GUI by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/23 (1.1.3)
 >
 
-# Updated BetterQuesting (3.3.8-GTNH@BOTH --> 3.3.12-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.7-GTNH...3.3.12-GTNH-pre
+# Updated BetterQuesting (3.3.8-GTNH@BOTH --> 3.3.13-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.7-GTNH...3.3.13-GTNH-pre
 >## What's Changed
 > * fix clickable url hotzone detection not ignoring linebreaks in raw text by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/97 (3.3.11-GTNH)
 > * Some small fixes for BQ format by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/98 (3.3.11-GTNH)
@@ -35,6 +38,16 @@
 >
 >## New Contributors
 > * @Pa4ok made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/96 (3.3.8-GTNH)
+>
+
+# Updated BugTorch (1.2.7@BOTH --> 1.2.8-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BugTorch/compare/1.2.7...1.2.8-GTNH
+>## What's Changed
+> * Rebase on upstream by @eigenraven in https://github.com/GTNewHorizons/BugTorch/pull/17 (1.2.8-GTNH)
+> * More scaling damage options by @Dream-Master in https://github.com/GTNewHorizons/BugTorch/pull/13 (1.2.7-GTNH)
+>
+>## New Contributors
+> * @eigenraven made their first contribution in https://github.com/GTNewHorizons/BugTorch/pull/17 (1.2.8-GTNH)
 >
 
 # Updated EnderIO (2.4.6@BOTH --> 2.4.8-pre@BOTH)
@@ -57,9 +70,10 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.21-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.21-pre
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.23-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.23-pre
 >## What's Changed
+> * Fix TPM NPE by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1824 (5.09.42.22)
 > * Update production upgrades formula in Industrial Apiary by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1820 (5.09.42.21-pre)
 > * Fix PCB Factory not voiding output when trace size is above 100 by @foxwhite25 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1822 (5.09.42.20)
 > * Update production upgrades formula in Industrial Apiary by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1820 (5.09.42.20)
@@ -90,11 +104,23 @@
 > * Downtier oreproc GT++ multis to EV and add new EV Mac Stack by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/579 (1.8.18)
 >
 
-# Updated GoodGenerator (0.5.4@BOTH --> 0.5.5@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.3...0.5.5
+# Updated GoodGenerator (0.5.4@BOTH --> 0.5.6@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.3...0.5.6
 >## What's Changed
+> * Allow ME output hatch in compacts by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/152 (0.5.6)
+> * GT++ Aspect Localization by @Rosenlied-Iris in https://github.com/GTNewHorizons/GoodGenerator/pull/150 (0.5.6)
 > * Various NA fixes by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/151 (0.5.5)
 > * Fusion sound by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/149 (0.5.4)
+>
+>## New Contributors
+> * @Rosenlied-Iris made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/150 (0.5.6)
+>
+
+# Updated Hodgepodge (2.2.4@BOTH --> 2.2.5@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.2...2.2.5
+>## What's Changed
+> * fix weird NPE introduced by #202 by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/203 (2.2.5)
+> * fix weird NPE introduced by #202 by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/203 (2.2.4)
 >
 
 # Updated HoloInventory (2.1.19-GTNH@BOTH --> 2.2.0-GTNH@BOTH)
@@ -104,8 +130,8 @@
 > * https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/10022 by @repo-alt in https://github.com/GTNewHorizons/HoloInventory/pull/30 (2.1.19-GTNH)
 >
 
-# Updated KubaTech (0.9.5@BOTH --> 0.9.7@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.3...0.9.7
+# Updated KubaTech (0.9.5@BOTH --> 0.9.8-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.3...0.9.8-pre
 >## What's Changed
 > * Update production modifier for the new bees formula in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/66 (0.9.7)
 > * Fix Mob Recipe Map generation on servers with Thermos by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/65 (0.9.5)
@@ -127,10 +153,24 @@
 > * Adjust according to tier by @Runakai1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/547 (2.0.7)
 >
 
-# Updated NotEnoughItems (2.3.40-GTNH@BOTH --> 2.3.41-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.39-GTNH...2.3.41-GTNH-pre
+# Updated NotEnoughItems (2.3.40-GTNH@BOTH --> 2.3.42-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.39-GTNH...2.3.42-GTNH-pre
 >## What's Changed
+> * Ignore nonstackables in max overlaid recipe count calculation by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/365 (2.3.42-GTNH-pre)
 > * Add handlers of Reikas mods plus fixes by @theOnly1iKnow in https://github.com/GTNewHorizons/NotEnoughItems/pull/362 (2.3.40-GTNH)
+>
+
+# Updated OCGlasses (1.2.5-GTNH@BOTH --> 1.2.6-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.2.4-GTNH...1.2.6-GTNH-pre
+>## What's Changed
+> * Fix OpenGlasses not loading the dimension properly making them reset on every world load by @alexandre-tardif in https://github.com/GTNewHorizons/OCGlasses/pull/10 (1.2.5-GTNH)
+>
+
+# Updated TecTech (5.1.2@BOTH --> 5.1.3-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.0...5.1.3-pre
+>## What's Changed
+> * Spotless apply for branch multiAmpWireless for #178 by @github-actions in https://github.com/GTNewHorizons/TecTech/pull/179 (5.1.2)
+> * Multi amp wireless hatches by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/178 (5.1.2)
 >
 
 # Updated ThaumicTinkerer (2.6.12@BOTH --> 2.6.13@BOTH)
@@ -150,9 +190,10 @@
 > * Delayed key release fix by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/52 (1.3.3)
 >
 
-# Updated twilightforest (2.4.0@BOTH --> 2.4.1-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.3.8.18...2.4.1-pre
+# Updated twilightforest (2.4.0@BOTH --> 2.4.2@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.3.8.18...2.4.2
 >## What's Changed
+> * Fix not recognizing indirect player damage like from bows and crossbows by @eigenraven in https://github.com/GTNewHorizons/twilightforest/pull/20 (2.4.2)
 > * bandaid fix for terrain gen NPE by @Glease in https://github.com/GTNewHorizons/twilightforest/pull/19 (2.4.0)
 >
 >## New Contributors

@@ -1,11 +1,11 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-03-30T21:04:47.615538",
+  "last_updated": "2023-03-31T06:02:05.053389",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.0.10-GTNH-pre",
+      "version": "1.0.11-GTNH-pre",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -461,7 +461,7 @@
       "side": "CLIENT"
     },
     "OCGlasses": {
-      "version": "1.2.5-GTNH",
+      "version": "1.2.6-GTNH-pre",
       "side": "BOTH"
     },
     "OpenBlocks": {
