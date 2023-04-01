@@ -19740,7 +19740,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.8.21-pre",
+      "latest_version": "1.8.22",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -21738,6 +21738,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/101252473",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.21-pre/GT-PlusPlus-1.8.21-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.21-pre/GTplusplus-1.8.21-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.22",
+          "changelog": "## What's Changed\n* LFTR Chain Fixes, Buffs and Tweaks by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/584\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.20...1.8.22\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-01T13:46:42+00:00",
+          "filename": "GT-PlusPlus-1.8.22.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/101892602",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.22/GT-PlusPlus-1.8.22.jar",
           "extra_assets": []
         }
       ],
@@ -24579,7 +24589,7 @@
     },
     {
       "name": "KubaTech",
-      "latest_version": "0.9.8-pre",
+      "latest_version": "0.9.9",
       "versions": [
         {
           "version_tag": "0.1",
@@ -25180,6 +25190,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/101656728",
           "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.9.8-pre/kubatech-0.9.8-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KubaTech/0.9.8-pre/KubaTech-0.9.8-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.9.9",
+          "changelog": "## What's Changed\n* Fix EIG and EEC energy consumption by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/68\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.7...0.9.9\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-01T13:47:24+00:00",
+          "filename": "kubatech-0.9.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/101892618",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.9.9/kubatech-0.9.9.jar",
           "extra_assets": []
         }
       ],
