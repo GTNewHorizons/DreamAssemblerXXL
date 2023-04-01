@@ -161,8 +161,8 @@ gtnh-im.moddedminecraft.club (Ironman, no teleport)<BR>
 Craftersland
 Craftersland GTNH (EU-DE) gt.craftersland.net<BR>
 
-MineYourMine<BR>
-MineYourMine GTNH (EU) horizons.mineyourmind.net<BR>
+MineYourMind<BR>
+MineYourMind GTNH (EU) horizons.mineyourmind.net<BR>
 
 Zephyrus<BR>
 Zephyrus (NL) gtnh.zephyrus-mc.com<BR>
