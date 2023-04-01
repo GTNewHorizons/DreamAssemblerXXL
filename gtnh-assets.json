@@ -10232,6 +10232,7 @@
           "filename": "EnderIO-2.4.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/101890525",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.4.9/EnderIO-2.4.9.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/2.4.9/EnderIO-2.4.9.jar",
           "extra_assets": []
         }
       ],

@@ -65,9 +65,11 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/BugTorch/pull/17 (1.2.8-GTNH)
 >
 
-# Updated EnderIO (2.4.6@BOTH --> 2.4.8-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.5...2.4.8-pre
+# Updated EnderIO (2.4.6@BOTH --> 2.4.9@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.5...2.4.9
 >## What's Changed
+> * Try to fix energy overflow by @D-Cysteine in https://github.com/GTNewHorizons/EnderIO/pull/114 (2.4.9)
+> * prevent ghostloading by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/115 (2.4.9)
 > * Try to fix energy overflow by @D-Cysteine in https://github.com/GTNewHorizons/EnderIO/pull/114 (2.4.8-pre)
 > * Prevent ghostloading by @Dream-Master in https://github.com/GTNewHorizons/EnderIO/pull/116 (2.4.8-pre)
 > * `needUpdateConnections` only while updating cons by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/113 (2.4.6)
