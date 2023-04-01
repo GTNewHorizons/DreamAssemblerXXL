@@ -14181,7 +14181,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.42.25",
+      "latest_version": "5.09.42.26",
       "private": false,
       "versions": [
         {
@@ -18661,6 +18661,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/101885790",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.25/gregtech-5.09.42.25.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.25/GT5-Unofficial-5.09.42.25.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.26",
+          "changelog": "## What's Changed\n* Implement Power Logic, Pollution Logic and Processing Logic for MuTEs and many other things by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1823\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.25...5.09.42.26\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-01T14:08:55+00:00",
+          "filename": "gregtech-5.09.42.26.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/101894737",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.26/gregtech-5.09.42.26.jar",
           "extra_assets": []
         }
       ],
@@ -28870,7 +28880,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.0.8",
+      "latest_version": "2.0.9",
       "private": false,
       "versions": [
         {
@@ -30552,6 +30562,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/101813512",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.8/GTNewHorizonsCoreMod-2.0.8.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.9",
+          "changelog": "## What's Changed\n* Fix Reinforcement recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/550\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.8...2.0.9\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-01T14:33:24+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.0.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/101896965",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.9/GTNewHorizonsCoreMod-2.0.9.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -32087,7 +32107,7 @@
     },
     {
       "name": "OCGlasses",
-      "latest_version": "1.2.8-GTNH-pre",
+      "latest_version": "1.3.0-GTNH",
       "versions": [
         {
           "version_tag": "1.2-GTNH",
@@ -32169,6 +32189,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/OCGlasses/releases/assets/101888751",
           "browser_download_url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.2.8-GTNH-pre/OpenGlasses-1.2.8-GTNH-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OCGlasses/1.2.8-GTNH-pre/OCGlasses-1.2.8-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.0-GTNH",
+          "changelog": "## What's Changed\n* Add capability to interact with the HUD layer of glasses by @S4mpsa in https://github.com/GTNewHorizons/OCGlasses/pull/11\n\n## New Contributors\n* @S4mpsa made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/11\n\n**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.2.5-GTNH...1.3.0-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-01T14:27:27+00:00",
+          "filename": "OpenGlasses-1.3.0-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OCGlasses/releases/assets/101896621",
+          "browser_download_url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.3.0-GTNH/OpenGlasses-1.3.0-GTNH.jar",
           "extra_assets": []
         }
       ],

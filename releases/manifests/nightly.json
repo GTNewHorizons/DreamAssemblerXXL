@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-04-01T13:50:55.430849",
+  "last_updated": "2023-04-01T15:28:48.465276",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.25",
+      "version": "5.09.42.26",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -437,7 +437,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.0.8",
+      "version": "2.0.9",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -461,7 +461,7 @@
       "side": "CLIENT"
     },
     "OCGlasses": {
-      "version": "1.2.8-GTNH-pre",
+      "version": "1.3.0-GTNH",
       "side": "BOTH"
     },
     "OpenBlocks": {
