@@ -87,9 +87,10 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.25@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.25
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.26@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.26
 >## What's Changed
+> * Implement Power Logic, Pollution Logic and Processing Logic for MuTEs and many other things by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1823 (5.09.42.26)
 > * Add option for strong signal to Fluid Cover by @NexusNull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1825 (5.09.42.25)
 > * Implementation of A more useful Lava Boiler by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1814 (5.09.42.24)
 > * Steel bee + Salt bee change by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1815 (5.09.42.24)
@@ -118,9 +119,10 @@
 > * Various Space Elevator Improvements by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/12 (1.0.6)
 >
 
-# Updated GTplusplus (1.8.18@BOTH --> 1.8.21-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.21-pre
+# Updated GTplusplus (1.8.18@BOTH --> 1.8.22@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.22
 >## What's Changed
+> * LFTR Chain Fixes, Buffs and Tweaks by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/584 (1.8.22)
 > * Spotless apply for branch LFTR_Improvements for #584 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/585 (1.8.21-pre)
 > * Fix survival place offset of structure by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/586 (1.8.20)
 > * Spotless apply for branch LFTR_Improvements for #584 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/585 (1.8.19-pre)
@@ -153,9 +155,10 @@
 > * https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/10022 by @repo-alt in https://github.com/GTNewHorizons/HoloInventory/pull/30 (2.1.19-GTNH)
 >
 
-# Updated KubaTech (0.9.5@BOTH --> 0.9.8-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.3...0.9.8-pre
+# Updated KubaTech (0.9.5@BOTH --> 0.9.9@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.3...0.9.9
 >## What's Changed
+> * Fix EIG and EEC energy consumption by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/68 (0.9.9)
 > * Update production modifier for the new bees formula in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/66 (0.9.7)
 > * Fix Mob Recipe Map generation on servers with Thermos by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/65 (0.9.5)
 >
@@ -170,9 +173,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/19 (1.0.0-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.8@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.8
+# Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.9@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.9
 >## What's Changed
+> * Fix Reinforcement recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/550 (2.0.9)
 > * Add recipe to night upgrade by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/549 (2.0.8)
 > * Adjust according to tier by @Runakai1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/547 (2.0.7)
 >
@@ -184,10 +188,14 @@
 > * Add handlers of Reikas mods plus fixes by @theOnly1iKnow in https://github.com/GTNewHorizons/NotEnoughItems/pull/362 (2.3.40-GTNH)
 >
 
-# Updated OCGlasses (1.2.5-GTNH@BOTH --> 1.2.8-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.2.4-GTNH...1.2.8-GTNH-pre
+# Updated OCGlasses (1.2.5-GTNH@BOTH --> 1.3.0-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.2.4-GTNH...1.3.0-GTNH
 >## What's Changed
+> * Add capability to interact with the HUD layer of glasses by @S4mpsa in https://github.com/GTNewHorizons/OCGlasses/pull/11 (1.3.0-GTNH)
 > * Fix OpenGlasses not loading the dimension properly making them reset on every world load by @alexandre-tardif in https://github.com/GTNewHorizons/OCGlasses/pull/10 (1.2.5-GTNH)
+>
+>## New Contributors
+> * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/11 (1.3.0-GTNH)
 >
 
 # Updated TecTech (5.1.2@BOTH --> 5.1.5@BOTH)
