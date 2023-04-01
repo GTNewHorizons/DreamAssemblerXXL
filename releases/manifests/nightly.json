@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-03-31T20:55:41.980919",
+  "last_updated": "2023-04-01T13:01:11.685648",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.4-gtnh-pre",
+      "version": "1.1.7-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -73,15 +73,15 @@
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
-      "version": "1.3.40-GTNH-pre",
+      "version": "1.4.0-GTNH",
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.1.4-pre",
+      "version": "1.1.5",
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.3.13-GTNH-pre",
+      "version": "3.3.15-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.24",
+      "version": "5.09.42.25",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -461,7 +461,7 @@
       "side": "CLIENT"
     },
     "OCGlasses": {
-      "version": "1.2.7-GTNH-pre",
+      "version": "1.2.8-GTNH-pre",
       "side": "BOTH"
     },
     "OpenBlocks": {
@@ -601,7 +601,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.1.4-pre",
+      "version": "5.1.5",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -665,7 +665,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.4.2",
+      "version": "2.4.3",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.2.27-GTNH",
+      "version": "1.3.0-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.0.7",
+      "version": "1.0.8",
       "side": "BOTH"
     }
   },

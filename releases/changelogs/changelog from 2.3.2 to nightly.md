@@ -1,5 +1,15 @@
-# Updated AE2FluidCraft-Rework (1.1.5-gtnh-pre@BOTH --> 1.1.4-gtnh-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/commits/1.1.5-gtnh-pre@BOTH...1.1.4-gtnh-pre@BOTH
+# Updated AE2FluidCraft-Rework (1.1.5-gtnh-pre@BOTH --> 1.1.7-gtnh@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.2-gtnh...1.1.7-gtnh
+>## What's Changed
+> * Quantum fluid cell fix by @chochem in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.7-gtnh)
+> * Network throttle: Force ME update packets to be sent once every N ms. by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/110 (1.1.7-gtnh)
+> * Fix fluid terminal interactions by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/111 (1.1.7-gtnh)
+> * Quantum fluid cell fix by @chochem in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.6-gtnh-pre)
+>
+>## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.7-gtnh)
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.6-gtnh-pre)
+>
 
 # Updated AdventureBackpack2 (1.0.9-GTNH@BOTH --> 1.0.11-GTNH-pre@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.8-GTNH...1.0.11-GTNH-pre
@@ -20,18 +30,23 @@
 > * Don't prevent GridNode from destroying by @Pilzinsel64 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/289 (rv3-beta-184-GTNH)
 >
 
-# Updated BetterLoadingScreen (1.3.39-GTNH@CLIENT --> 1.3.40-GTNH-pre@CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.3.38-GTNH...1.3.40-GTNH-pre
-
-# Updated BetterP2P (1.1.3@BOTH --> 1.1.4-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.0...1.1.4-pre
+# Updated BetterLoadingScreen (1.3.39-GTNH@CLIENT --> 1.4.0-GTNH@CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.3.38-GTNH...1.4.0-GTNH
 >## What's Changed
+> * Add a simple memory usage bar to the loading screen by @eigenraven in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/15 (1.4.0-GTNH)
+>
+
+# Updated BetterP2P (1.1.3@BOTH --> 1.1.5@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.0...1.1.5
+>## What's Changed
+> * Fix client accessing the server world when it shouldn't by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/24 (1.1.5)
 > * New GUI by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/23 (1.1.3)
 >
 
-# Updated BetterQuesting (3.3.8-GTNH@BOTH --> 3.3.13-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.7-GTNH...3.3.13-GTNH-pre
+# Updated BetterQuesting (3.3.8-GTNH@BOTH --> 3.3.15-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.7-GTNH...3.3.15-GTNH
 >## What's Changed
+> * Split out quest line order by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/101 (3.3.15-GTNH)
 > * fix clickable url hotzone detection not ignoring linebreaks in raw text by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/97 (3.3.11-GTNH)
 > * Some small fixes for BQ format by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/98 (3.3.11-GTNH)
 > * fix compatibility for new log4j versions by @Pa4ok in https://github.com/GTNewHorizons/BetterQuesting/pull/96 (3.3.8-GTNH)
@@ -70,9 +85,10 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.24@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.24
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.25@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.25
 >## What's Changed
+> * Add option for strong signal to Fluid Cover by @NexusNull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1825 (5.09.42.25)
 > * Implementation of A more useful Lava Boiler by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1814 (5.09.42.24)
 > * Steel bee + Salt bee change by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1815 (5.09.42.24)
 > * fix: redstone strong signal not resetting by @NexusNull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1816 (5.09.42.24)
@@ -92,9 +108,10 @@
 > * @foxwhite25 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1822 (5.09.42.19-pre)
 >
 
-# Updated GTNH-Intergalactic (1.0.6@BOTH --> 1.0.7@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.4...1.0.7
+# Updated GTNH-Intergalactic (1.0.6@BOTH --> 1.0.8@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.4...1.0.8
 >## What's Changed
+> * Added white-/blacklist option to mining module by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/14 (1.0.8)
 > * Fixed fluid and item input getting in SpAss by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/13 (1.0.7)
 > * Various Space Elevator Improvements by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/12 (1.0.6)
 >
@@ -165,15 +182,17 @@
 > * Add handlers of Reikas mods plus fixes by @theOnly1iKnow in https://github.com/GTNewHorizons/NotEnoughItems/pull/362 (2.3.40-GTNH)
 >
 
-# Updated OCGlasses (1.2.5-GTNH@BOTH --> 1.2.7-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.2.4-GTNH...1.2.7-GTNH-pre
+# Updated OCGlasses (1.2.5-GTNH@BOTH --> 1.2.8-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.2.4-GTNH...1.2.8-GTNH-pre
 >## What's Changed
 > * Fix OpenGlasses not loading the dimension properly making them reset on every world load by @alexandre-tardif in https://github.com/GTNewHorizons/OCGlasses/pull/10 (1.2.5-GTNH)
 >
 
-# Updated TecTech (5.1.2@BOTH --> 5.1.4-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.0...5.1.4-pre
+# Updated TecTech (5.1.2@BOTH --> 5.1.5@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.0...5.1.5
 >## What's Changed
+> * Fix WAILA energy display by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/181 (5.1.5)
+> * Fix digital singularity amounts in spacetime compression field gens by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/180 (5.1.5)
 > * Fix/waila by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/182 (5.1.4-pre)
 > * fix digital singularity amounts by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/183 (5.1.4-pre)
 > * Spotless apply for branch multiAmpWireless for #178 by @github-actions in https://github.com/GTNewHorizons/TecTech/pull/179 (5.1.2)
@@ -190,6 +209,16 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/29 (2.6.13)
 >
 
+# Updated WitchingGadgets (1.2.27-GTNH@BOTH --> 1.3.0-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.2.25-GTNH...1.3.0-GTNH
+>## What's Changed
+> * Fix item equality check by @D-Cysteine in https://github.com/GTNewHorizons/WitchingGadgets/pull/39 (1.3.0-GTNH)
+> * Transfer coremod from ASM to Mixins by @Alexdoru in https://github.com/GTNewHorizons/WitchingGadgets/pull/38 (1.2.27-GTNH)
+>
+>## New Contributors
+> * @D-Cysteine made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/39 (1.3.0-GTNH)
+>
+
 # Updated lwjgl3ify (1.3.3@BOTH_JAVA9 --> 1.3.4@BOTH_JAVA9)
 **Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.3.2...1.3.4
 >## What's Changed
@@ -197,9 +226,10 @@
 > * Delayed key release fix by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/52 (1.3.3)
 >
 
-# Updated twilightforest (2.4.0@BOTH --> 2.4.2@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.3.8.18...2.4.2
+# Updated twilightforest (2.4.0@BOTH --> 2.4.3@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.3.8.18...2.4.3
 >## What's Changed
+> * Jabel, Generic injection and automatic code cleanup by @eigenraven in https://github.com/GTNewHorizons/twilightforest/pull/21 (2.4.3)
 > * Fix not recognizing indirect player damage like from bows and crossbows by @eigenraven in https://github.com/GTNewHorizons/twilightforest/pull/20 (2.4.2)
 > * bandaid fix for terrain gen NPE by @Glease in https://github.com/GTNewHorizons/twilightforest/pull/19 (2.4.0)
 >
