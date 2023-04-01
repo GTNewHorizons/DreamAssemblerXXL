@@ -70,9 +70,13 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.23-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.23-pre
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.24@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.24
 >## What's Changed
+> * Implementation of A more useful Lava Boiler by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1814 (5.09.42.24)
+> * Steel bee + Salt bee change by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1815 (5.09.42.24)
+> * fix: redstone strong signal not resetting by @NexusNull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1816 (5.09.42.24)
+> * Add night upgrade to Industrial Apiary by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1821 (5.09.42.24)
 > * Fix TPM NPE by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1824 (5.09.42.22)
 > * Update production upgrades formula in Industrial Apiary by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1820 (5.09.42.21-pre)
 > * Fix PCB Factory not voiding output when trace size is above 100 by @foxwhite25 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1822 (5.09.42.20)
@@ -147,9 +151,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/19 (1.0.0-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.7@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.7
+# Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.8@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.8
 >## What's Changed
+> * Add recipe to night upgrade by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/549 (2.0.8)
 > * Adjust according to tier by @Runakai1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/547 (2.0.7)
 >
 
@@ -160,15 +165,17 @@
 > * Add handlers of Reikas mods plus fixes by @theOnly1iKnow in https://github.com/GTNewHorizons/NotEnoughItems/pull/362 (2.3.40-GTNH)
 >
 
-# Updated OCGlasses (1.2.5-GTNH@BOTH --> 1.2.6-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.2.4-GTNH...1.2.6-GTNH-pre
+# Updated OCGlasses (1.2.5-GTNH@BOTH --> 1.2.7-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.2.4-GTNH...1.2.7-GTNH-pre
 >## What's Changed
 > * Fix OpenGlasses not loading the dimension properly making them reset on every world load by @alexandre-tardif in https://github.com/GTNewHorizons/OCGlasses/pull/10 (1.2.5-GTNH)
 >
 
-# Updated TecTech (5.1.2@BOTH --> 5.1.3-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.0...5.1.3-pre
+# Updated TecTech (5.1.2@BOTH --> 5.1.4-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.0...5.1.4-pre
 >## What's Changed
+> * Fix/waila by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/182 (5.1.4-pre)
+> * fix digital singularity amounts by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/183 (5.1.4-pre)
 > * Spotless apply for branch multiAmpWireless for #178 by @github-actions in https://github.com/GTNewHorizons/TecTech/pull/179 (5.1.2)
 > * Multi amp wireless hatches by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/178 (5.1.2)
 >

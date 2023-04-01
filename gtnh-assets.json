@@ -14116,7 +14116,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.42.23-pre",
+      "latest_version": "5.09.42.24",
       "private": false,
       "versions": [
         {
@@ -18574,6 +18574,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/101660335",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.23-pre/gregtech-5.09.42.23-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.23-pre/GT5-Unofficial-5.09.42.23-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.24",
+          "changelog": "## What's Changed\n* Implementation of A more useful Lava Boiler by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1814\n* Steel bee + Salt bee change by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1815\n* fix: redstone strong signal not resetting by @NexusNull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1816\n* Add night upgrade to Industrial Apiary by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1821\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.22...5.09.42.24\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-31T11:43:28+00:00",
+          "filename": "gregtech-5.09.42.24.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/101748210",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.24/gregtech-5.09.42.24.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.24/GT5-Unofficial-5.09.42.24.jar",
           "extra_assets": []
         }
       ],
@@ -28752,7 +28763,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.0.7",
+      "latest_version": "2.0.8",
       "private": false,
       "versions": [
         {
@@ -30424,6 +30435,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/101165042",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.7/GTNewHorizonsCoreMod-2.0.7.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.8",
+          "changelog": "## What's Changed\n* Add recipe to night upgrade by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/549\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.7...2.0.8\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-31T20:46:14+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.0.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/101813512",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.8/GTNewHorizonsCoreMod-2.0.8.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -31959,7 +31980,7 @@
     },
     {
       "name": "OCGlasses",
-      "latest_version": "1.2.6-GTNH-pre",
+      "latest_version": "1.2.7-GTNH-pre",
       "versions": [
         {
           "version_tag": "1.2-GTNH",
@@ -32019,6 +32040,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/OCGlasses/releases/assets/101712853",
           "browser_download_url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.2.6-GTNH-pre/OpenGlasses-1.2.6-GTNH-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OCGlasses/1.2.6-GTNH-pre/OCGlasses-1.2.6-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.2.7-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.2.6-GTNH-pre...1.2.7-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-31T20:48:34+00:00",
+          "filename": "OpenGlasses-1.2.7-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OCGlasses/releases/assets/101813717",
+          "browser_download_url": "https://github.com/GTNewHorizons/OCGlasses/releases/download/1.2.7-GTNH-pre/OpenGlasses-1.2.7-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OCGlasses/1.2.7-GTNH-pre/OCGlasses-1.2.7-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -35723,7 +35755,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.1.3-pre",
+      "latest_version": "5.1.4-pre",
       "private": false,
       "versions": [
         {
@@ -36936,6 +36968,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/101656662",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.1.3-pre/TecTech-5.1.3-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.1.3-pre/TecTech-5.1.3-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.1.4-pre",
+          "changelog": "## What's Changed\n* Fix/waila by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/182\n* fix digital singularity amounts by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/183\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.2...5.1.4-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-03-31T20:48:55+00:00",
+          "filename": "TecTech-5.1.4-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/101813743",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.1.4-pre/TecTech-5.1.4-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.1.4-pre/TecTech-5.1.4-pre.jar",
           "extra_assets": []
         }
       ],

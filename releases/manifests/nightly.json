@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-03-31T06:02:05.053389",
+  "last_updated": "2023-03-31T20:55:41.980919",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.23-pre",
+      "version": "5.09.42.24",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -437,7 +437,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.0.7",
+      "version": "2.0.8",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -461,7 +461,7 @@
       "side": "CLIENT"
     },
     "OCGlasses": {
-      "version": "1.2.6-GTNH-pre",
+      "version": "1.2.7-GTNH-pre",
       "side": "BOTH"
     },
     "OpenBlocks": {
@@ -601,7 +601,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.1.3-pre",
+      "version": "5.1.4-pre",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
