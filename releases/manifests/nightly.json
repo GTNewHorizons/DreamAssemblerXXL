@@ -1,11 +1,11 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-04-01T15:32:59.721308",
+  "last_updated": "2023-04-01T16:18:53.140064",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.0.11-GTNH-pre",
+      "version": "1.0.12-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.26",
+      "version": "5.09.42.28",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
