@@ -9607,7 +9607,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.4.8-pre",
+      "latest_version": "2.4.9",
       "private": false,
       "versions": [
         {
@@ -10222,6 +10222,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/101498580",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.4.8-pre/EnderIO-2.4.8-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/2.4.8-pre/EnderIO-2.4.8-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.4.9",
+          "changelog": "## What's Changed\n* Try to fix energy overflow by @D-Cysteine in https://github.com/GTNewHorizons/EnderIO/pull/114\n* prevent ghostloading by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/115\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.6...2.4.9\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-01T13:13:09+00:00",
+          "filename": "EnderIO-2.4.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/101890525",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.4.9/EnderIO-2.4.9.jar",
           "extra_assets": []
         }
       ],
