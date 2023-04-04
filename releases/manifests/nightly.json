@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-04-01T16:18:53.140064",
+  "last_updated": "2023-04-04T17:10:57.678103",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-190-GTNH",
+      "version": "rv3-beta-191-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -77,11 +77,11 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.1.5",
+      "version": "1.1.7",
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.3.15-GTNH",
+      "version": "3.3.16-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.28",
+      "version": "5.09.42.33",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.8.22",
+      "version": "1.8.23",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -437,7 +437,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.0.9",
+      "version": "2.0.10",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -449,7 +449,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.42-GTNH-pre",
+      "version": "2.3.43-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -601,7 +601,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.1.5",
+      "version": "5.1.6",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.0.8",
+      "version": "1.0.9",
       "side": "BOTH"
     }
   },

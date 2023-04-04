@@ -11,12 +11,14 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.6-gtnh-pre)
 >
 
-# Updated AdventureBackpack2 (1.0.9-GTNH@BOTH --> 1.0.11-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.8-GTNH...1.0.11-GTNH-pre
+# Updated AdventureBackpack2 (1.0.9-GTNH@BOTH --> 1.0.12-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.8-GTNH...1.0.12-GTNH
 >## What's Changed
+> * Fix hight step break boots from other mods by @Pilzinsel64 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 > * Fix unequipping Piston Boots with armor stand not resets step height #12780 by @r1tsuu in https://github.com/GTNewHorizons/AdventureBackpack2/pull/12 (1.0.9-GTNH)
 >
 >## New Contributors
+> * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 > * @r1tsuu made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/12 (1.0.9-GTNH)
 >
 
@@ -87,9 +89,11 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.26@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.26
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.28@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.28
 >## What's Changed
+> * update spotless formatting by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1827 (5.09.42.28)
+> * Recipe Adder v2 by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1770 (5.09.42.27)
 > * Implement Power Logic, Pollution Logic and Processing Logic for MuTEs and many other things by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1823 (5.09.42.26)
 > * Add option for strong signal to Fluid Cover by @NexusNull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1825 (5.09.42.25)
 > * Implementation of A more useful Lava Boiler by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1814 (5.09.42.24)
