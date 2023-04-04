@@ -22,8 +22,8 @@
 > * @r1tsuu made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/12 (1.0.9-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-184-GTNH@BOTH --> rv3-beta-190-GTNH@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-183-GTNH...rv3-beta-190-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-184-GTNH@BOTH --> rv3-beta-191-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-183-GTNH...rv3-beta-191-GTNH-pre
 >## What's Changed
 > * Revert commit 84574778291f54e4bf32e545fd8d49c2e8d8f624 by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/295 (rv3-beta-190-GTNH)
 > * Revert commit 84574778291f54e4bf32e545fd8d49c2e8d8f624 by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/295 (rv3-beta-188-GTNH)
@@ -38,22 +38,28 @@
 > * Add a simple memory usage bar to the loading screen by @eigenraven in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/15 (1.4.0-GTNH)
 >
 
-# Updated BetterP2P (1.1.3@BOTH --> 1.1.5@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.0...1.1.5
+# Updated BetterP2P (1.1.3@BOTH --> 1.1.7@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.0...1.1.7
 >## What's Changed
+> * Add additional checks for P2P selection by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/25 (1.1.7)
+> * Add additional checks for P2P selection by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/25 (1.1.6)
 > * Fix client accessing the server world when it shouldn't by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/24 (1.1.5)
 > * New GUI by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/23 (1.1.3)
 >
 
-# Updated BetterQuesting (3.3.8-GTNH@BOTH --> 3.3.15-GTNH@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.7-GTNH...3.3.15-GTNH
+# Updated BetterQuesting (3.3.8-GTNH@BOTH --> 3.3.16-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.7-GTNH...3.3.16-GTNH
 >## What's Changed
+> * Hqm import by @mitchej123 in https://github.com/GTNewHorizons/BetterQuesting/pull/102 (3.3.16-GTNH)
+> * Add HQM translations to `zh_CN.lang` by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/104 (3.3.16-GTNH)
+> * Update lang file handling by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/103 (3.3.16-GTNH)
 > * Split out quest line order by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/101 (3.3.15-GTNH)
 > * fix clickable url hotzone detection not ignoring linebreaks in raw text by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/97 (3.3.11-GTNH)
 > * Some small fixes for BQ format by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/98 (3.3.11-GTNH)
 > * fix compatibility for new log4j versions by @Pa4ok in https://github.com/GTNewHorizons/BetterQuesting/pull/96 (3.3.8-GTNH)
 >
 >## New Contributors
+> * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/102 (3.3.16-GTNH)
 > * @Pa4ok made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/96 (3.3.8-GTNH)
 >
 
@@ -89,9 +95,15 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.28@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.28
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.33@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.33
 >## What's Changed
+> * Add Living Bio Wafer & Chip  by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1835 (5.09.42.33)
+> * Modid work by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1833 (5.09.42.33)
+> * Fix: Basic heat vent works without water by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1832 (5.09.42.32)
+> * Fix RA2 bugs by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1830 (5.09.42.32)
+> * Jabel, Generic injection and mostly automatic code cleanup by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1829 (5.09.42.31)
+> * fix RA2 mistakes by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1828 (5.09.42.30)
 > * update spotless formatting by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1827 (5.09.42.28)
 > * Recipe Adder v2 by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1770 (5.09.42.27)
 > * Implement Power Logic, Pollution Logic and Processing Logic for MuTEs and many other things by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1823 (5.09.42.26)
@@ -115,17 +127,19 @@
 > * @foxwhite25 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1822 (5.09.42.19-pre)
 >
 
-# Updated GTNH-Intergalactic (1.0.6@BOTH --> 1.0.8@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.4...1.0.8
+# Updated GTNH-Intergalactic (1.0.6@BOTH --> 1.0.9@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.4...1.0.9
 >## What's Changed
+> * Allow lore translations to be weighted by @glowredman in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/15 (1.0.9)
 > * Added white-/blacklist option to mining module by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/14 (1.0.8)
 > * Fixed fluid and item input getting in SpAss by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/13 (1.0.7)
 > * Various Space Elevator Improvements by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/12 (1.0.6)
 >
 
-# Updated GTplusplus (1.8.18@BOTH --> 1.8.22@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.22
+# Updated GTplusplus (1.8.18@BOTH --> 1.8.23@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.23
 >## What's Changed
+> * Fix QFT Description by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/588 (1.8.23)
 > * LFTR Chain Fixes, Buffs and Tweaks by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/584 (1.8.22)
 > * Spotless apply for branch LFTR_Improvements for #584 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/585 (1.8.21-pre)
 > * Fix survival place offset of structure by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/586 (1.8.20)
@@ -177,19 +191,25 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/19 (1.0.0-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.9@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.9
+# Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.10@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.10
 >## What's Changed
+> * Fix rocket recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/551 (2.0.10)
 > * Fix Reinforcement recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/550 (2.0.9)
 > * Add recipe to night upgrade by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/549 (2.0.8)
 > * Adjust according to tier by @Runakai1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/547 (2.0.7)
 >
 
-# Updated NotEnoughItems (2.3.40-GTNH@BOTH --> 2.3.42-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.39-GTNH...2.3.42-GTNH-pre
+# Updated NotEnoughItems (2.3.40-GTNH@BOTH --> 2.3.43-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.39-GTNH...2.3.43-GTNH
 >## What's Changed
+> * Ignore nonstackables in max overlaid recipe count calculation by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/365 (2.3.43-GTNH)
+> * Add option to have the search widget under item panel by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/364 (2.3.43-GTNH)
 > * Ignore nonstackables in max overlaid recipe count calculation by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/365 (2.3.42-GTNH-pre)
 > * Add handlers of Reikas mods plus fixes by @theOnly1iKnow in https://github.com/GTNewHorizons/NotEnoughItems/pull/362 (2.3.40-GTNH)
+>
+>## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/364 (2.3.43-GTNH)
 >
 
 # Updated OCGlasses (1.2.5-GTNH@BOTH --> 1.3.0-GTNH@BOTH)
@@ -202,9 +222,10 @@
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/11 (1.3.0-GTNH)
 >
 
-# Updated TecTech (5.1.2@BOTH --> 5.1.5@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.0...5.1.5
+# Updated TecTech (5.1.2@BOTH --> 5.1.6@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.0...5.1.6
 >## What's Changed
+> * Fix some EOH rendering issues and buff EOH plasma output by 8x. DD now also gives all plasmas for exotic catalyst by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/184 (5.1.6)
 > * Fix WAILA energy display by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/181 (5.1.5)
 > * Fix digital singularity amounts in spacetime compression field gens by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/180 (5.1.5)
 > * Fix/waila by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/182 (5.1.4-pre)
