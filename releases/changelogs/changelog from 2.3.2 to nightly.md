@@ -95,9 +95,11 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.33@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.33
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.35@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.35
 >## What's Changed
+> * Add hazmat protection to GT++ armors by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1839 (5.09.42.35)
+> * add Missing mod ids by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1838 (5.09.42.34)
 > * Add Living Bio Wafer & Chip  by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1835 (5.09.42.33)
 > * Modid work by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1833 (5.09.42.33)
 > * Fix: Basic heat vent works without water by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1832 (5.09.42.32)
@@ -136,8 +138,8 @@
 > * Various Space Elevator Improvements by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/12 (1.0.6)
 >
 
-# Updated GTplusplus (1.8.18@BOTH --> 1.8.23@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.23
+# Updated GTplusplus (1.8.18@BOTH --> 1.8.24-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.24-pre
 >## What's Changed
 > * Fix QFT Description by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/588 (1.8.23)
 > * LFTR Chain Fixes, Buffs and Tweaks by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/584 (1.8.22)
@@ -147,15 +149,17 @@
 > * Downtier oreproc GT++ multis to EV and add new EV Mac Stack by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/579 (1.8.18)
 >
 
-# Updated GoodGenerator (0.5.4@BOTH --> 0.5.6@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.3...0.5.6
+# Updated GoodGenerator (0.5.4@BOTH --> 0.5.7@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.3...0.5.7
 >## What's Changed
+> * More CoAl fixes by @Phineasor in https://github.com/GTNewHorizons/GoodGenerator/pull/153 (0.5.7)
 > * Allow ME output hatch in compacts by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/152 (0.5.6)
 > * GT++ Aspect Localization by @Rosenlied-Iris in https://github.com/GTNewHorizons/GoodGenerator/pull/150 (0.5.6)
 > * Various NA fixes by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/151 (0.5.5)
 > * Fusion sound by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/149 (0.5.4)
 >
 >## New Contributors
+> * @Phineasor made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/153 (0.5.7)
 > * @Rosenlied-Iris made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/150 (0.5.6)
 >
 
@@ -191,9 +195,12 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/19 (1.0.0-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.10@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.10
+# Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.13@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.13
 >## What's Changed
+> * Add new bio circuit recipe aka bio SoC + adjust wetware SoC by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/554 (2.0.13)
+> * remove silly scala import by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/553 (2.0.12)
+> * Cleaning up code by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/552 (2.0.11)
 > * Fix rocket recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/551 (2.0.10)
 > * Fix Reinforcement recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/550 (2.0.9)
 > * Add recipe to night upgrade by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/549 (2.0.8)
@@ -252,6 +259,13 @@
 >
 >## New Contributors
 > * @D-Cysteine made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/39 (1.3.0-GTNH)
+>
+
+# Updated bartworks (0.6.5@BOTH --> 0.6.6@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.3...0.6.6
+>## What's Changed
+> * Add living bio chip wrap by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/306 (0.6.6)
+> * Add Humongous input hatch by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/304 (0.6.5)
 >
 
 # Updated lwjgl3ify (1.3.3@BOTH_JAVA9 --> 1.3.4@BOTH_JAVA9)

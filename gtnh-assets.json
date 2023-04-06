@@ -3636,7 +3636,7 @@
     },
     {
       "name": "bartworks",
-      "latest_version": "0.6.5",
+      "latest_version": "0.6.6",
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -4914,6 +4914,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/100920487",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.6.5/bartworks-0.6.5.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.6.5/bartworks-0.6.5.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.6.6",
+          "changelog": "## What's Changed\n* Add living bio chip wrap by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/306\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.5...0.6.6\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-06T07:59:17+00:00",
+          "filename": "bartworks-0.6.6.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/102534576",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.6.6/bartworks-0.6.6.jar",
           "extra_assets": []
         }
       ],
@@ -13154,7 +13164,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.5.6",
+      "latest_version": "0.5.7",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -14108,6 +14118,16 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.5.6/GoodGenerator-0.5.6.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.5.6/GoodGenerator-0.5.6.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "0.5.7",
+          "changelog": "## What's Changed\n* More CoAl fixes by @Phineasor in https://github.com/GTNewHorizons/GoodGenerator/pull/153\n\n## New Contributors\n* @Phineasor made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/153\n\n**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.6...0.5.7\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-06T07:57:42+00:00",
+          "filename": "GoodGenerator-0.5.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/102534412",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.5.7/GoodGenerator-0.5.7.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
@@ -14234,7 +14254,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.42.33",
+      "latest_version": "5.09.42.35",
       "private": false,
       "versions": [
         {
@@ -18798,6 +18818,26 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.33/gregtech-5.09.42.33.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.33/GT5-Unofficial-5.09.42.33.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.34",
+          "changelog": "## What's Changed\n* add Missing mod ids by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1838\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.33...5.09.42.34\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-04T22:13:32+00:00",
+          "filename": "gregtech-5.09.42.34.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/102330536",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.34/gregtech-5.09.42.34.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.35",
+          "changelog": "## What's Changed\n* Add hazmat protection to GT++ armors by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1839\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.34...5.09.42.35\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-06T08:00:34+00:00",
+          "filename": "gregtech-5.09.42.35.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/102534668",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.35/gregtech-5.09.42.35.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -19888,7 +19928,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.8.23",
+      "latest_version": "1.8.24-pre",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -21908,6 +21948,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/102297547",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.23/GT-PlusPlus-1.8.23.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.23/GTplusplus-1.8.23.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.24-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.23...1.8.24-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-06T08:12:44+00:00",
+          "filename": "GT-PlusPlus-1.8.24-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/102535861",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.24-pre/GT-PlusPlus-1.8.24-pre.jar",
           "extra_assets": []
         }
       ],
@@ -29030,7 +29080,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.0.10",
+      "latest_version": "2.0.13",
       "private": false,
       "versions": [
         {
@@ -30731,6 +30781,36 @@
           "filename": "GTNewHorizonsCoreMod-2.0.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/102145294",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.10/GTNewHorizonsCoreMod-2.0.10.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.11",
+          "changelog": "## What's Changed\n* Cleaning up code by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/552\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.10...2.0.11\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-04T17:51:42+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.0.11.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/102302590",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.11/GTNewHorizonsCoreMod-2.0.11.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.12",
+          "changelog": "## What's Changed\n* remove silly scala import by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/553\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.11...2.0.12\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-04T18:39:26+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.0.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/102308905",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.12/GTNewHorizonsCoreMod-2.0.12.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.13",
+          "changelog": "## What's Changed\n* Add new bio circuit recipe aka bio SoC + adjust wetware SoC by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/554\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.12...2.0.13\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-06T07:36:39+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.0.13.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/102532631",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.13/GTNewHorizonsCoreMod-2.0.13.jar",
           "extra_assets": []
         }
       ],

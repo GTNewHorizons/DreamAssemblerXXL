@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-04-04T17:25:10.422828",
+  "last_updated": "2023-04-06T08:16:03.635753",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.6.5",
+      "version": "0.6.6",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -257,11 +257,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.5.6",
+      "version": "0.5.7",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.33",
+      "version": "5.09.42.35",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.8.23",
+      "version": "1.8.24-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -437,7 +437,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.0.10",
+      "version": "2.0.13",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
