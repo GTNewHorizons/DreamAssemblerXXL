@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-04-06T08:16:03.635753",
+  "last_updated": "2023-04-06T19:25:36.502365",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.6.3",
+      "version": "4.6.4-pre",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.35",
+      "version": "5.09.42.36",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.8.24-pre",
+      "version": "1.8.26-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.0.9",
+      "version": "1.0.10-pre",
       "side": "BOTH"
     }
   },

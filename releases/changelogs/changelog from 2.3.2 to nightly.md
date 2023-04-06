@@ -83,8 +83,8 @@
 > * `needUpdateConnections` only while updating cons by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/113 (2.4.6)
 >
 
-# Updated ForestryMC (4.6.0@BOTH --> 4.6.3@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.5.8...4.6.3
+# Updated ForestryMC (4.6.0@BOTH --> 4.6.4-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.5.8...4.6.4-pre
 >## What's Changed
 > * New bees formula by @kuba6000 in https://github.com/GTNewHorizons/ForestryMC/pull/45 (4.6.3)
 > * Bees by @Dream-Master in https://github.com/GTNewHorizons/ForestryMC/pull/47 (4.6.2-pre)
@@ -95,9 +95,11 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.35@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.35
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.36@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.36
 >## What's Changed
+> * Monthly disassembler fix by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1840 (5.09.42.36)
+> * Fix mega ultimate battery achievement by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1841 (5.09.42.36)
 > * Add hazmat protection to GT++ armors by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1839 (5.09.42.35)
 > * add Missing mod ids by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1838 (5.09.42.34)
 > * Add Living Bio Wafer & Chip  by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1835 (5.09.42.33)
@@ -129,8 +131,8 @@
 > * @foxwhite25 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1822 (5.09.42.19-pre)
 >
 
-# Updated GTNH-Intergalactic (1.0.6@BOTH --> 1.0.9@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.4...1.0.9
+# Updated GTNH-Intergalactic (1.0.6@BOTH --> 1.0.10-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.4...1.0.10-pre
 >## What's Changed
 > * Allow lore translations to be weighted by @glowredman in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/15 (1.0.9)
 > * Added white-/blacklist option to mining module by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/14 (1.0.8)
@@ -138,9 +140,13 @@
 > * Various Space Elevator Improvements by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/12 (1.0.6)
 >
 
-# Updated GTplusplus (1.8.18@BOTH --> 1.8.24-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.24-pre
+# Updated GTplusplus (1.8.18@BOTH --> 1.8.26-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.26-pre
 >## What's Changed
+> * Fix NPE in dev with Blast Smelter recipes by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/592 (1.8.26-pre)
+> * Add tier tooltips to Charge Pack and quad batteries by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/591 (1.8.26-pre)
+> * Fix NPE in dev with Blast Smelter recipes by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/592 (1.8.25)
+> * Add tier tooltips to Charge Pack and quad batteries by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/591 (1.8.25)
 > * Fix QFT Description by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/588 (1.8.23)
 > * LFTR Chain Fixes, Buffs and Tweaks by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/584 (1.8.22)
 > * Spotless apply for branch LFTR_Improvements for #584 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/585 (1.8.21-pre)
