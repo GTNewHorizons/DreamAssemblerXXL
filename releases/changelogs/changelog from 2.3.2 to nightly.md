@@ -22,8 +22,8 @@
 > * @r1tsuu made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/12 (1.0.9-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-184-GTNH@BOTH --> rv3-beta-191-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-183-GTNH...rv3-beta-191-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-184-GTNH@BOTH --> rv3-beta-192-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-183-GTNH...rv3-beta-192-GTNH-pre
 >## What's Changed
 > * Revert commit 84574778291f54e4bf32e545fd8d49c2e8d8f624 by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/295 (rv3-beta-190-GTNH)
 > * Revert commit 84574778291f54e4bf32e545fd8d49c2e8d8f624 by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/295 (rv3-beta-188-GTNH)
@@ -57,9 +57,10 @@
 > * New GUI by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/23 (1.1.3)
 >
 
-# Updated BetterQuesting (3.3.8-GTNH@BOTH --> 3.3.16-GTNH@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.7-GTNH...3.3.16-GTNH
+# Updated BetterQuesting (3.3.8-GTNH@BOTH --> 3.3.17-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.7-GTNH...3.3.17-GTNH
 >## What's Changed
+> * Remove quest IDs from tooltips by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/105 (3.3.17-GTNH)
 > * Hqm import by @mitchej123 in https://github.com/GTNewHorizons/BetterQuesting/pull/102 (3.3.16-GTNH)
 > * Add HQM translations to `zh_CN.lang` by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/104 (3.3.16-GTNH)
 > * Update lang file handling by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/103 (3.3.16-GTNH)
@@ -118,9 +119,12 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.47-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.47-pre
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.48@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.48
 >## What's Changed
+> * Enable input separation button in EBF GUI by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1862 (5.09.42.48)
+> * Allow spray cans to color a chain of blocks when sneaking by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1863 (5.09.42.48)
+> * fix RA2 universal chemical target using inverted dispatch rule  by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1861 (5.09.42.47)
 > * add new mods to the mod enum by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1858 (5.09.42.46)
 > * add slot migration to disassembler by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1860 (5.09.42.46)
 > * Fix metal machine block support on break by @greesyB in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1859 (5.09.42.46)
