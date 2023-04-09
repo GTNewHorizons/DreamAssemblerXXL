@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-04-06T19:25:36.502365",
+  "last_updated": "2023-04-09T14:16:51.260876",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -33,7 +33,7 @@
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.8.1",
+      "version": "1.8.3",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.6.6",
+      "version": "0.6.7",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -117,7 +117,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.31",
+      "version": "7.1.33",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.6.4-pre",
+      "version": "4.6.5",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -257,11 +257,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.5.7",
+      "version": "0.5.8",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.36",
+      "version": "5.09.42.47-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.8.26-pre",
+      "version": "1.8.31",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.2.5",
+      "version": "2.2.6",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.5.1",
+      "version": "1.5.2",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -437,7 +437,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.0.13",
+      "version": "2.0.15",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "SpecialMobs": {
-      "version": "3.3.15",
+      "version": "3.4.0",
       "side": "BOTH"
     },
     "SpiceOfLife": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.0.10-pre",
+      "version": "1.0.11",
       "side": "BOTH"
     }
   },
