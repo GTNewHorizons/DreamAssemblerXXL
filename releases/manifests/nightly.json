@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-04-09T14:40:52.477787",
+  "last_updated": "2023-04-09T19:24:05.075270",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-191-GTNH-pre",
+      "version": "rv3-beta-192-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.3.16-GTNH",
+      "version": "3.3.17-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.47-pre",
+      "version": "5.09.42.48",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {

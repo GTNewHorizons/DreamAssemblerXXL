@@ -2064,7 +2064,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-191-GTNH-pre",
+      "latest_version": "rv3-beta-192-GTNH-pre",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -3248,6 +3248,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/101932998",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-191-GTNH-pre/appliedenergistics2-rv3-beta-191-GTNH-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-191-GTNH-pre/Applied-Energistics-2-Unofficial-rv3-beta-191-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-192-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-188-GTNH...rv3-beta-192-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-09T18:02:04+00:00",
+          "filename": "appliedenergistics2-rv3-beta-192-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/102943425",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-192-GTNH-pre/appliedenergistics2-rv3-beta-192-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -5877,7 +5887,7 @@
     },
     {
       "name": "BetterQuesting",
-      "latest_version": "3.3.16-GTNH",
+      "latest_version": "3.3.17-GTNH",
       "versions": [
         {
           "version_tag": "3.0.351-GTNH",
@@ -6327,6 +6337,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/102141563",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.16-GTNH/BetterQuesting-3.3.16-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.3.16-GTNH/BetterQuesting-3.3.16-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.3.17-GTNH",
+          "changelog": "## What's Changed\n* Remove quest IDs from tooltips by @D-Cysteine in https://github.com/GTNewHorizons/BetterQuesting/pull/105\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.16-GTNH...3.3.17-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-09T19:02:55+00:00",
+          "filename": "BetterQuesting-3.3.17-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/102948202",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.17-GTNH/BetterQuesting-3.3.17-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -14368,7 +14388,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.42.47-pre",
+      "latest_version": "5.09.42.48",
       "private": false,
       "versions": [
         {
@@ -19064,6 +19084,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/102924211",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.47-pre/gregtech-5.09.42.47-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.47-pre/GT5-Unofficial-5.09.42.47-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.47",
+          "changelog": "## What's Changed\n* fix RA2 universal chemical target using inverted dispatch rule  by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1861\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.46...5.09.42.47\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-09T17:35:26+00:00",
+          "filename": "gregtech-5.09.42.47.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/102941297",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.47/gregtech-5.09.42.47.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.48",
+          "changelog": "## What's Changed\n* Enable input separation button in EBF GUI by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1862\n* Allow spray cans to color a chain of blocks when sneaking by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1863\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.47...5.09.42.48\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-09T19:02:19+00:00",
+          "filename": "gregtech-5.09.42.48.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/102948146",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.48/gregtech-5.09.42.48.jar",
           "extra_assets": []
         }
       ],
