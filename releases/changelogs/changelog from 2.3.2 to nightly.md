@@ -42,6 +42,17 @@
 > * @Jimbno made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/7 (1.8.2)
 >
 
+# Updated Avaritia (1.34@BOTH --> 1.35@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.33...1.35
+>## What's Changed
+> * Optionally support GT machine blocks by @greesyB in https://github.com/GTNewHorizons/Avaritia/pull/28 (1.35)
+> * Add traveler boots ability by @JOOOCV in https://github.com/GTNewHorizons/Avaritia/pull/27 (1.34)
+>
+>## New Contributors
+> * @greesyB made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/28 (1.35)
+> * @JOOOCV made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/27 (1.34)
+>
+
 # Updated BetterLoadingScreen (1.3.39-GTNH@CLIENT --> 1.4.0-GTNH@CLIENT)
 **Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.3.38-GTNH...1.4.0-GTNH
 >## What's Changed
@@ -74,6 +85,16 @@
 > * @Pa4ok made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/96 (3.3.8-GTNH)
 >
 
+# Updated BloodMagic (1.3.25@BOTH --> 1.4.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.3.24...1.4.0
+>## What's Changed
+> * fix wrong biomeID by @albus12138 in https://github.com/GTNewHorizons/BloodMagic/pull/44 (1.4.0)
+> * Add waila support by @mitchej123 in https://github.com/GTNewHorizons/BloodMagic/pull/42 (1.3.25)
+>
+>## New Contributors
+> * @albus12138 made their first contribution in https://github.com/GTNewHorizons/BloodMagic/pull/44 (1.4.0)
+>
+
 # Updated BugTorch (1.2.7@BOTH --> 1.2.8-GTNH@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BugTorch/compare/1.2.7...1.2.8-GTNH
 >## What's Changed
@@ -96,9 +117,10 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/BuildCraft/pull/13 (7.1.32)
 >
 
-# Updated EnderIO (2.4.6@BOTH --> 2.4.9@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.5...2.4.9
+# Updated EnderIO (2.4.6@BOTH --> 2.4.10@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.5...2.4.10
 >## What's Changed
+> * Show travel message above hotbar by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/117 (2.4.10)
 > * Try to fix energy overflow by @D-Cysteine in https://github.com/GTNewHorizons/EnderIO/pull/114 (2.4.9)
 > * prevent ghostloading by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/115 (2.4.9)
 > * Try to fix energy overflow by @D-Cysteine in https://github.com/GTNewHorizons/EnderIO/pull/114 (2.4.8-pre)
@@ -119,9 +141,15 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.48@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.48
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.52@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.52
 >## What's Changed
+> * Next round of RA2 recipe fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1869 (5.09.42.52)
+> * Added tooltip line which displays the machine color, if any by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1868 (5.09.42.51)
+> * Rename UNCOLORED_RBGA -> UNCOLORED_RGBA by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1867 (5.09.42.50)
+> * More RA2 GT recipes fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1866 (5.09.42.50)
+> * Fix fusion recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1865 (5.09.42.49)
+> * Add missing Override by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1864 (5.09.42.49)
 > * Enable input separation button in EBF GUI by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1862 (5.09.42.48)
 > * Allow spray cans to color a chain of blocks when sneaking by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1863 (5.09.42.48)
 > * fix RA2 universal chemical target using inverted dispatch rule  by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1861 (5.09.42.47)
@@ -241,9 +269,10 @@
 > * https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/10022 by @repo-alt in https://github.com/GTNewHorizons/HoloInventory/pull/30 (2.1.19-GTNH)
 >
 
-# Updated KubaTech (0.9.5@BOTH --> 0.9.9@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.3...0.9.9
+# Updated KubaTech (0.9.5@BOTH --> 0.9.10@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.3...0.9.10
 >## What's Changed
+> * Better lighting fix for crops renderer by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/70 (0.9.10)
 > * Fix EIG and EEC energy consumption by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/68 (0.9.9)
 > * Update production modifier for the new bees formula in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/66 (0.9.7)
 > * Fix Mob Recipe Map generation on servers with Thermos by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/65 (0.9.5)
@@ -257,6 +286,17 @@
 >
 >## New Contributors
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/19 (1.0.0-GTNH)
+>
+
+# Updated MagicBees (2.5.16-GTNH@BOTH --> 2.6.0-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.5.15-GTNH...2.6.0-GTNH
+>## What's Changed
+> * Change Silicon Specialty by @Runakai1 in https://github.com/GTNewHorizons/MagicBees/pull/17 (2.6.0-GTNH)
+> * update buildscript and remove update checker by @Alexdoru in https://github.com/GTNewHorizons/MagicBees/pull/16 (2.5.16-GTNH)
+>
+>## New Contributors
+> * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/17 (2.6.0-GTNH)
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/16 (2.5.16-GTNH)
 >
 
 # Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.15@BOTH)
@@ -306,9 +346,10 @@
 > * @OvermindDL1 made their first contribution in https://github.com/GTNewHorizons/SpecialMobs/pull/18 (3.4.0)
 >
 
-# Updated TecTech (5.1.2@BOTH --> 5.1.6@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.0...5.1.6
+# Updated TecTech (5.1.2@BOTH --> 5.1.7@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.0...5.1.7
 >## What's Changed
+> * Cleanup by @boubou19 in https://github.com/GTNewHorizons/TecTech/pull/185 (5.1.7)
 > * Fix some EOH rendering issues and buff EOH plasma output by 8x. DD now also gives all plasmas for exotic catalyst by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/184 (5.1.6)
 > * Fix WAILA energy display by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/181 (5.1.5)
 > * Fix digital singularity amounts in spacetime compression field gens by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/180 (5.1.5)
@@ -338,9 +379,12 @@
 > * @D-Cysteine made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/39 (1.3.0-GTNH)
 >
 
-# Updated bartworks (0.6.5@BOTH --> 0.6.7@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.3...0.6.7
+# Updated bartworks (0.6.5@BOTH --> 0.6.9@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.3...0.6.9
 >## What's Changed
+> * Cleanup by @boubou19 in https://github.com/GTNewHorizons/bartworks/pull/308 (0.6.8)
+> * EIC improvements - Tiered parallel, survival construct support, batch mode by @greesyB in https://github.com/GTNewHorizons/bartworks/pull/310 (0.6.8)
+> * Add Waila Support for Imprinted CAL by @LewisSaber in https://github.com/GTNewHorizons/bartworks/pull/309 (0.6.8)
 > * Added imprinted circuit to CAL tooltip by @minecraft7771 in https://github.com/GTNewHorizons/bartworks/pull/307 (0.6.7)
 > * Add living bio chip wrap by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/306 (0.6.6)
 > * Add Humongous input hatch by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/304 (0.6.5)

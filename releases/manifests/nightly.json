@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-04-09T19:24:05.075270",
+  "last_updated": "2023-04-10T17:08:37.270433",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.34",
+      "version": "1.35",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.6.7",
+      "version": "0.6.9",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.3.25",
+      "version": "1.4.0",
       "side": "BOTH"
     },
     "Botania": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.4.9",
+      "version": "2.4.10",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.48",
+      "version": "5.09.42.52",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.9.9",
+      "version": "0.9.10",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.5.16-GTNH",
+      "version": "2.6.0-GTNH",
       "side": "BOTH"
     },
     "MalisisCore": {
@@ -601,7 +601,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.1.6",
+      "version": "5.1.7",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
