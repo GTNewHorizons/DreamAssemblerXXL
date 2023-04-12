@@ -141,9 +141,16 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.52@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.52
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.55@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.55
 >## What's Changed
+> * Adjust time and voltage for a few assembler recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1877 (5.09.42.55)
+> * Fix MuTE sound by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1878 (5.09.42.55)
+> * make lightning rod more cumbersome to use by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1875 (5.09.42.55)
+> * Fixed recipe lock not setting difference correctly by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1879 (5.09.42.55)
+> * Re-add a bunch of recipes that went missing by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1874 (5.09.42.54)
+> * Fix PCB factory texts by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1873 (5.09.42.53)
+> * Further RA2 recipe fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1870 (5.09.42.53)
 > * Next round of RA2 recipe fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1869 (5.09.42.52)
 > * Added tooltip line which displays the machine color, if any by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1868 (5.09.42.51)
 > * Rename UNCOLORED_RBGA -> UNCOLORED_RGBA by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1867 (5.09.42.50)
@@ -204,8 +211,8 @@
 > * @foxwhite25 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1822 (5.09.42.19-pre)
 >
 
-# Updated GTNH-Intergalactic (1.0.6@BOTH --> 1.0.11@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.4...1.0.11
+# Updated GTNH-Intergalactic (1.0.6@BOTH --> 1.0.12@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.4...1.0.12
 >## What's Changed
 > * Fix a broken spacemining recipe by @chochem in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/17 (1.0.11)
 > * Fix miner whitelist by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/16 (1.0.11)
@@ -218,9 +225,15 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/17 (1.0.11)
 >
 
-# Updated GTplusplus (1.8.18@BOTH --> 1.8.31@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.31
+# Updated GTplusplus (1.8.18@BOTH --> 1.8.35@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.35
 >## What's Changed
+> * Fix internal name of mk5 fusion blocks by @GDCloudstrike in https://github.com/GTNewHorizons/GTplusplus/pull/602 (1.8.35)
+> * Add Fusion Mk5 to RecipeCatalyst by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/601 (1.8.34)
+> * Revive Fusion mk5 by @GDCloudstrike in https://github.com/GTNewHorizons/GTplusplus/pull/597 (1.8.33)
+> * implement more new tooltips by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/596 (1.8.32)
+> * Fix migration code for ABS NBT by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/600 (1.8.32)
+> * fix incorrect ulv turbine tooltip by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/598 (1.8.32)
 > * Implement new tooltips by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/595 (1.8.31)
 > * clean up GT++ code by @boubou19 in https://github.com/GTNewHorizons/GTplusplus/pull/589 (1.8.30)
 > * Fix missing overrides for input separation by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/593 (1.8.29)
@@ -238,8 +251,14 @@
 > * Downtier oreproc GT++ multis to EV and add new EV Mac Stack by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/579 (1.8.18)
 >
 
-# Updated GoodGenerator (0.5.4@BOTH --> 0.5.8@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.3...0.5.8
+# Updated Galaxy-Space-GTNH (1.1.63-GTNH@BOTH --> 1.1.64-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.61-GTNH...1.1.64-GTNH
+>## What's Changed
+> * Remove Space Elevator and Planetary Gas Siphon by @minecraft7771 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/89 (1.1.63-GTNH)
+>
+
+# Updated GoodGenerator (0.5.4@BOTH --> 0.5.9@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.3...0.5.9
 >## What's Changed
 > * Kill Disassembler in GoodGenerator by @Connor-Colenso in https://github.com/GTNewHorizons/GoodGenerator/pull/154 (0.5.8)
 > * More CoAl fixes by @Phineasor in https://github.com/GTNewHorizons/GoodGenerator/pull/153 (0.5.7)
@@ -269,9 +288,10 @@
 > * https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/10022 by @repo-alt in https://github.com/GTNewHorizons/HoloInventory/pull/30 (2.1.19-GTNH)
 >
 
-# Updated KubaTech (0.9.5@BOTH --> 0.9.10@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.3...0.9.10
+# Updated KubaTech (0.9.5@BOTH --> 0.10.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.3...0.10.0
 >## What's Changed
+> * Tea Network update: still alpha by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/69 (0.10.0)
 > * Better lighting fix for crops renderer by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/70 (0.9.10)
 > * Fix EIG and EEC energy consumption by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/68 (0.9.9)
 > * Update production modifier for the new bees formula in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/66 (0.9.7)
@@ -288,9 +308,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/19 (1.0.0-GTNH)
 >
 
-# Updated MagicBees (2.5.16-GTNH@BOTH --> 2.6.0-GTNH@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.5.15-GTNH...2.6.0-GTNH
+# Updated MagicBees (2.5.16-GTNH@BOTH --> 2.6.1-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.5.15-GTNH...2.6.1-GTNH
 >## What's Changed
+> * Implement accelerated effect on Rejuvenating bee effect + Fix by @kuba6000 in https://github.com/GTNewHorizons/MagicBees/pull/18 (2.6.1-GTNH)
 > * Change Silicon Specialty by @Runakai1 in https://github.com/GTNewHorizons/MagicBees/pull/17 (2.6.0-GTNH)
 > * update buildscript and remove update checker by @Alexdoru in https://github.com/GTNewHorizons/MagicBees/pull/16 (2.5.16-GTNH)
 >
@@ -299,9 +320,11 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/16 (2.5.16-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.15@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.15
+# Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.17@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.17
 >## What's Changed
+> * AsGa fluid extraction fix by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/561 (2.0.17)
+> * Add Assembler recipes for Chisel blocks by @DaCurse in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/560 (2.0.16)
 > * Some more extracells cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/558 (2.0.15)
 > * Kill Disassembler in Core Mod by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/556 (2.0.15)
 > * Fix some ae recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/555 (2.0.14)
@@ -312,6 +335,9 @@
 > * Fix Reinforcement recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/550 (2.0.9)
 > * Add recipe to night upgrade by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/549 (2.0.8)
 > * Adjust according to tier by @Runakai1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/547 (2.0.7)
+>
+>## New Contributors
+> * @DaCurse made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/560 (2.0.16)
 >
 
 # Updated NotEnoughItems (2.3.40-GTNH@BOTH --> 2.3.43-GTNH@BOTH)
@@ -379,9 +405,10 @@
 > * @D-Cysteine made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/39 (1.3.0-GTNH)
 >
 
-# Updated bartworks (0.6.5@BOTH --> 0.6.9@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.3...0.6.9
+# Updated bartworks (0.6.5@BOTH --> 0.6.10@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.3...0.6.10
 >## What's Changed
+> * EIC - Fix overclock and support void protection by @greesyB in https://github.com/GTNewHorizons/bartworks/pull/311 (0.6.10)
 > * Cleanup by @boubou19 in https://github.com/GTNewHorizons/bartworks/pull/308 (0.6.8)
 > * EIC improvements - Tiered parallel, survival construct support, batch mode by @greesyB in https://github.com/GTNewHorizons/bartworks/pull/310 (0.6.8)
 > * Add Waila Support for Imprinted CAL by @LewisSaber in https://github.com/GTNewHorizons/bartworks/pull/309 (0.6.8)
