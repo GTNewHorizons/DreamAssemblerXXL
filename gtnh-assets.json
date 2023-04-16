@@ -3279,6 +3279,7 @@
           "filename": "appliedenergistics2-rv3-beta-194-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/103917904",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-194-GTNH-pre/appliedenergistics2-rv3-beta-194-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-194-GTNH-pre/Applied-Energistics-2-Unofficial-rv3-beta-194-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -3666,6 +3667,7 @@
           "filename": "Avaritia-1.36.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Avaritia/releases/assets/103747307",
           "browser_download_url": "https://github.com/GTNewHorizons/Avaritia/releases/download/1.36/Avaritia-1.36.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Avaritia/1.36/Avaritia-1.36.jar",
           "extra_assets": []
         }
       ],
@@ -5051,6 +5053,7 @@
           "filename": "bartworks-0.6.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/103853573",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.6.11/bartworks-0.6.11.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.6.11/bartworks-0.6.11.jar",
           "extra_assets": []
         }
       ],
@@ -6442,6 +6445,7 @@
           "filename": "BetterQuesting-3.3.18-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/103853922",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.18-GTNH/BetterQuesting-3.3.18-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.3.18-GTNH/BetterQuesting-3.3.18-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -7840,6 +7844,7 @@
           "filename": "CarpentersBlocks-3.4.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/CarpentersBlocks/releases/assets/103854002",
           "browser_download_url": "https://github.com/GTNewHorizons/CarpentersBlocks/releases/download/3.4.0-GTNH/CarpentersBlocks-3.4.0-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CarpentersBlocks/3.4.0-GTNH/CarpentersBlocks-3.4.0-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -13160,6 +13165,7 @@
           "filename": "GalaxySpace-1.1.65-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galaxy-Space-GTNH/releases/assets/103571904",
           "browser_download_url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH/releases/download/1.1.65-GTNH/GalaxySpace-1.1.65-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Galaxy-Space-GTNH/1.1.65-GTNH/Galaxy-Space-GTNH-1.1.65-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -14440,6 +14446,7 @@
           "filename": "GoodGenerator-0.5.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/103855171",
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.5.11/GoodGenerator-0.5.11.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.5.11/GoodGenerator-0.5.11.jar",
           "extra_assets": []
         }
       ],
@@ -19386,6 +19393,7 @@
           "filename": "gregtech-5.09.42.58.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/103913292",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.58/gregtech-5.09.42.58.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.58/GT5-Unofficial-5.09.42.58.jar",
           "extra_assets": []
         }
       ],
@@ -22664,6 +22672,7 @@
           "filename": "GT-PlusPlus-1.8.36.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/103853414",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.36/GT-PlusPlus-1.8.36.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.36/GTplusplus-1.8.36.jar",
           "extra_assets": []
         }
       ],
@@ -25536,6 +25545,7 @@
           "filename": "kekztech-0.7.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/KekzTech/releases/assets/103853614",
           "browser_download_url": "https://github.com/GTNewHorizons/KekzTech/releases/download/0.7.6/kekztech-0.7.6.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KekzTech/0.7.6/KekzTech-0.7.6.jar",
           "extra_assets": []
         }
       ],
@@ -34648,6 +34658,7 @@
           "filename": "Railcraft-9.14.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/103854320",
           "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.14.1/Railcraft-9.14.1.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Railcraft/9.14.1/Railcraft-9.14.1.jar",
           "extra_assets": []
         }
       ],
@@ -38403,6 +38414,7 @@
           "filename": "TecTech-5.1.11-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/103917318",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.1.11-pre/TecTech-5.1.11-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.1.11-pre/TecTech-5.1.11-pre.jar",
           "extra_assets": []
         }
       ],
