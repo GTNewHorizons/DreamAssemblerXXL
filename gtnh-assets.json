@@ -3678,6 +3678,7 @@
           "filename": "Avaritia-1.37.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Avaritia/releases/assets/103925243",
           "browser_download_url": "https://github.com/GTNewHorizons/Avaritia/releases/download/1.37/Avaritia-1.37.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Avaritia/1.37/Avaritia-1.37.jar",
           "extra_assets": []
         }
       ],
@@ -3722,6 +3723,7 @@
           "filename": "Avaritiaddons-1.5.5-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Avaritiaddons/releases/assets/103925447",
           "browser_download_url": "https://github.com/GTNewHorizons/Avaritiaddons/releases/download/1.5.5-GTNH/Avaritiaddons-1.5.5-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Avaritiaddons/1.5.5-GTNH/Avaritiaddons-1.5.5-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -10899,6 +10901,7 @@
           "filename": "eternalsingularity-1.1.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Eternal-Singularity/releases/assets/103926115",
           "browser_download_url": "https://github.com/GTNewHorizons/Eternal-Singularity/releases/download/1.1.0/eternalsingularity-1.1.0.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Eternal-Singularity/1.1.0/Eternal-Singularity-1.1.0.jar",
           "extra_assets": []
         }
       ],
@@ -40093,6 +40096,7 @@
           "filename": "TConstruct-1.9.26-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/103926498",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.26-GTNH/TConstruct-1.9.26-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/1.9.26-GTNH/TinkersConstruct-1.9.26-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -40605,6 +40609,7 @@
           "filename": "Universal-Singularities-8.6.7.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Universal-Singularities/releases/assets/103925430",
           "browser_download_url": "https://github.com/GTNewHorizons/Universal-Singularities/releases/download/8.6.7/Universal-Singularities-8.6.7.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Universal-Singularities/8.6.7/Universal-Singularities-8.6.7.jar",
           "extra_assets": []
         }
       ],
