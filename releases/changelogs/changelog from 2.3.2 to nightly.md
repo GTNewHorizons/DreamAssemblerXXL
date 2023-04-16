@@ -43,8 +43,8 @@
 > * @Jimbno made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/7 (1.8.2)
 >
 
-# Updated Avaritia (1.34@BOTH --> 1.36@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.33...1.36
+# Updated Avaritia (1.34@BOTH --> 1.37@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.33...1.37
 >## What's Changed
 > * Remove Default Inf Catalyst Recipe by @Connor-Colenso in https://github.com/GTNewHorizons/Avaritia/pull/29 (1.36)
 > * Optionally support GT machine blocks by @greesyB in https://github.com/GTNewHorizons/Avaritia/pull/28 (1.35)
@@ -54,6 +54,12 @@
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/29 (1.36)
 > * @greesyB made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/28 (1.35)
 > * @JOOOCV made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/27 (1.34)
+>
+
+# Updated Avaritiaddons (1.5.4-GTNH@BOTH --> 1.5.5-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.5.3-GTNH...1.5.5-GTNH
+>## What's Changed
+> * make ava's chest have correct drop behavior by @GlodBlock in https://github.com/GTNewHorizons/Avaritiaddons/pull/9 (1.5.4-GTNH)
 >
 
 # Updated BetterLoadingScreen (1.3.39-GTNH@CLIENT --> 1.4.0-GTNH@CLIENT)
@@ -141,6 +147,15 @@
 > * Try to fix energy overflow by @D-Cysteine in https://github.com/GTNewHorizons/EnderIO/pull/114 (2.4.8-pre)
 > * Prevent ghostloading by @Dream-Master in https://github.com/GTNewHorizons/EnderIO/pull/116 (2.4.8-pre)
 > * `needUpdateConnections` only while updating cons by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/113 (2.4.6)
+>
+
+# Updated Eternal-Singularity (1.0.10@BOTH --> 1.1.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Eternal-Singularity/compare/1.0.9...1.1.0
+>## What's Changed
+> * Update buildscript, dependencies and repositories by @eigenraven in https://github.com/GTNewHorizons/Eternal-Singularity/pull/7 (1.0.10)
+>
+>## New Contributors
+> * @eigenraven made their first contribution in https://github.com/GTNewHorizons/Eternal-Singularity/pull/7 (1.0.10)
 >
 
 # Updated ForestryMC (4.6.0@BOTH --> 4.6.5@BOTH)
@@ -446,6 +461,15 @@
 >## New Contributors
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/29 (2.6.13)
 >
+
+# Updated TinkersConstruct (1.9.25-GTNH@BOTH --> 1.9.26-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.24-GTNH...1.9.26-GTNH
+>## What's Changed
+> * Fix: Adding Tooltips to Modifier Items by @Ethryan in https://github.com/GTNewHorizons/TinkersConstruct/pull/77 (1.9.25-GTNH)
+>
+
+# Updated Universal-Singularities (8.6.6@BOTH --> 8.6.7@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.6.5...8.6.7
 
 # Updated WitchingGadgets (1.2.27-GTNH@BOTH --> 1.3.0-GTNH@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.2.25-GTNH...1.3.0-GTNH
