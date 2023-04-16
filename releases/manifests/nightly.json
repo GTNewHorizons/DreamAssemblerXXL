@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-04-12T22:25:05.440390",
+  "last_updated": "2023-04-16T09:20:23.059554",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-192-GTNH-pre",
+      "version": "rv3-beta-194-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.35",
+      "version": "1.36",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.6.10",
+      "version": "0.6.11",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.3.17-GTNH",
+      "version": "3.3.18-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -125,7 +125,7 @@
       "side": "BOTH"
     },
     "CarpentersBlocks": {
-      "version": "3.3.8.2-GTNH",
+      "version": "3.4.0-GTNH",
       "side": "BOTH"
     },
     "Catwalks-2": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.64-GTNH",
+      "version": "1.1.65-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -257,11 +257,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.5.9",
+      "version": "0.5.11",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.55",
+      "version": "5.09.42.58",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.8.35",
+      "version": "1.8.36",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.7.3",
+      "version": "0.7.6",
       "side": "BOTH"
     },
     "KubaTech": {
@@ -437,7 +437,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.0.17",
+      "version": "2.0.21",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -505,7 +505,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.14.0",
+      "version": "9.14.1",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -601,7 +601,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.1.7",
+      "version": "5.1.11-pre",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
