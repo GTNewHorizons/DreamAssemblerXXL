@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-04-16T11:08:28.038909",
+  "last_updated": "2023-04-18T06:15:04.280774",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-194-GTNH-pre",
+      "version": "rv3-beta-195-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -73,7 +73,7 @@
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
-      "version": "1.4.0-GTNH",
+      "version": "1.4.1-GTNH",
       "side": "CLIENT"
     },
     "BetterP2P": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.58",
+      "version": "5.09.42.61",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.9.30",
+      "version": "0.9.31-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.8.36",
+      "version": "1.8.37",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.2.6",
+      "version": "2.2.7",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -437,7 +437,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.0.21",
+      "version": "2.0.25-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -449,7 +449,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.43-GTNH",
+      "version": "2.3.45-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -469,7 +469,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.9.0-GTNH",
+      "version": "1.9.1-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -601,7 +601,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.1.11-pre",
+      "version": "5.1.12",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "WAILAPlugins": {
-      "version": "0.2.6",
+      "version": "0.2.7-pre",
       "side": "BOTH"
     },
     "WanionLib": {
