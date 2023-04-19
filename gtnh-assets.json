@@ -13495,7 +13495,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.5.11",
+      "latest_version": "0.5.12",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -14503,6 +14503,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.5.11/GoodGenerator-0.5.11.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.5.11/GoodGenerator-0.5.11.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "0.5.12",
+          "changelog": "## What's Changed\n* Fix compact mk5 research by @GDCloudstrike in https://github.com/GTNewHorizons/GoodGenerator/pull/156\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.11...0.5.12\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-18T15:17:40+00:00",
+          "filename": "GoodGenerator-0.5.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/104239644",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.5.12/GoodGenerator-0.5.12.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.5.12/GoodGenerator-0.5.12.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
@@ -14629,7 +14640,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.42.61",
+      "latest_version": "5.09.42.63-pre",
       "private": false,
       "versions": [
         {
@@ -19481,6 +19492,27 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.61/gregtech-5.09.42.61.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.61/GT5-Unofficial-5.09.42.61.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.62-pre",
+          "changelog": "## What's Changed\n* Added separate tank inventories for input separation by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1887\n* Misc Cleanup by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1888\n* MuTE improved hatch GUI and fluid output locking by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1889\n* Spotless apply for branch StellarCatalyst for #1893 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1894\n* Add Tengam materials by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1891\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.61...5.09.42.62-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-18T20:50:40+00:00",
+          "filename": "gregtech-5.09.42.62-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/104276464",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.62-pre/gregtech-5.09.42.62-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.42.63-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.62-pre...5.09.42.63-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-19T05:55:43+00:00",
+          "filename": "gregtech-5.09.42.63-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/104323481",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.42.63-pre/gregtech-5.09.42.63-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.42.63-pre/GT5-Unofficial-5.09.42.63-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -19864,7 +19896,7 @@
     },
     {
       "name": "GTNH-Lanthanides",
-      "latest_version": "0.9.31-pre",
+      "latest_version": "0.9.32",
       "versions": [
         {
           "version_tag": "0.8.1",
@@ -20209,6 +20241,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/104176109",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.9.31-pre/gtnhlanth-0.9.31-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Lanthanides/0.9.31-pre/GTNH-Lanthanides-0.9.31-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.9.32",
+          "changelog": "## What's Changed\n* Zirconolite fix by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/53\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.9.30...0.9.32\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-18T15:18:58+00:00",
+          "filename": "gtnhlanth-0.9.32.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/104239855",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.9.32/gtnhlanth-0.9.32.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Lanthanides/0.9.32/GTNH-Lanthanides-0.9.32.jar",
           "extra_assets": []
         }
       ],
@@ -26627,7 +26670,7 @@
     },
     {
       "name": "lwjgl3ify",
-      "latest_version": "1.3.4",
+      "latest_version": "1.3.5",
       "private": false,
       "versions": [
         {
@@ -27761,6 +27804,27 @@
               "filename": "lwjgl3ify-1.3.4-multimc.zip",
               "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/101321030",
               "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.3.4/lwjgl3ify-1.3.4-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.3.5",
+          "changelog": "## What's Changed\n* LWJGL 3.3.2 stable update by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/58\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.3.4...1.3.5\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-18T14:19:26+00:00",
+          "filename": "lwjgl3ify-1.3.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/104232353",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.3.5/lwjgl3ify-1.3.5.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.3.5-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/104232351",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.3.5/lwjgl3ify-1.3.5-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.3.5-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/104232355",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.3.5/lwjgl3ify-1.3.5-multimc.zip"
             }
           ]
         }
@@ -37308,7 +37372,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.1.12",
+      "latest_version": "5.1.13-pre",
       "private": false,
       "versions": [
         {
@@ -38617,6 +38681,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/103968675",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.1.12/TecTech-5.1.12.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.1.12/TecTech-5.1.12.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.1.13-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.12...5.1.13-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-19T05:55:40+00:00",
+          "filename": "TecTech-5.1.13-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/104323475",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.1.13-pre/TecTech-5.1.13-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.1.13-pre/TecTech-5.1.13-pre.jar",
           "extra_assets": []
         }
       ],
@@ -41105,7 +41180,7 @@
     },
     {
       "name": "WAILAPlugins",
-      "latest_version": "0.2.7-pre",
+      "latest_version": "0.2.8",
       "versions": [
         {
           "version_tag": "0.2.1",
@@ -41168,6 +41243,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/WAILAPlugins/releases/assets/104175754",
           "browser_download_url": "https://github.com/GTNewHorizons/WAILAPlugins/releases/download/0.2.7-pre/WAILAPlugins-0.2.7-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WAILAPlugins/0.2.7-pre/WAILAPlugins-0.2.7-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.2.8",
+          "changelog": "## What's Changed\n* Fix railcraft tank waila by @chochem in https://github.com/GTNewHorizons/WAILAPlugins/pull/15\n\n## New Contributors\n* @chochem made their first contribution in https://github.com/GTNewHorizons/WAILAPlugins/pull/15\n\n**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.2.6...0.2.8\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-18T15:19:01+00:00",
+          "filename": "WAILAPlugins-0.2.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WAILAPlugins/releases/assets/104239864",
+          "browser_download_url": "https://github.com/GTNewHorizons/WAILAPlugins/releases/download/0.2.8/WAILAPlugins-0.2.8.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WAILAPlugins/0.2.8/WAILAPlugins-0.2.8.jar",
           "extra_assets": []
         }
       ],

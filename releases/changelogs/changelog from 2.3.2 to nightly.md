@@ -176,9 +176,14 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.61@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.61
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.63-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.63-pre
 >## What's Changed
+> * Added separate tank inventories for input separation by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1887 (5.09.42.62-pre)
+> * Misc Cleanup by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1888 (5.09.42.62-pre)
+> * MuTE improved hatch GUI and fluid output locking by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1889 (5.09.42.62-pre)
+> * Spotless apply for branch StellarCatalyst for #1893 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1894 (5.09.42.62-pre)
+> * Add Tengam materials by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1891 (5.09.42.62-pre)
 > * allow data stick (contains assline recipe)render like ae2 pattern by @xkball in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1890 (5.09.42.61)
 > * allow data stick (contains assline recipe)render like ae2 pattern by @xkball in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1890 (5.09.42.60-pre)
 > * Spotless apply for branch StellarCatalyst for #1893 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1894 (5.09.42.60-pre)
@@ -270,9 +275,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/17 (1.0.11)
 >
 
-# Updated GTNH-Lanthanides (0.9.30@BOTH --> 0.9.31-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.9.29...0.9.31-pre
+# Updated GTNH-Lanthanides (0.9.30@BOTH --> 0.9.32@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.9.29...0.9.32
 >## What's Changed
+> * Zirconolite fix by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/53 (0.9.32)
 > * patch up europium tier skip by @Glease in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/52 (0.9.30)
 >
 >## New Contributors
@@ -313,9 +319,10 @@
 > * Remove Space Elevator and Planetary Gas Siphon by @minecraft7771 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/89 (1.1.63-GTNH)
 >
 
-# Updated GoodGenerator (0.5.4@BOTH --> 0.5.11@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.3...0.5.11
+# Updated GoodGenerator (0.5.4@BOTH --> 0.5.12@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.3...0.5.12
 >## What's Changed
+> * Fix compact mk5 research by @GDCloudstrike in https://github.com/GTNewHorizons/GoodGenerator/pull/156 (0.5.12)
 > * Re-enable compact mk5 + adjust mk4 by @GDCloudstrike in https://github.com/GTNewHorizons/GoodGenerator/pull/155 (0.5.11)
 > * Kill Disassembler in GoodGenerator by @Connor-Colenso in https://github.com/GTNewHorizons/GoodGenerator/pull/154 (0.5.8)
 > * More CoAl fixes by @Phineasor in https://github.com/GTNewHorizons/GoodGenerator/pull/153 (0.5.7)
@@ -477,8 +484,8 @@
 > * @OvermindDL1 made their first contribution in https://github.com/GTNewHorizons/SpecialMobs/pull/18 (3.4.0)
 >
 
-# Updated TecTech (5.1.2@BOTH --> 5.1.12@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.0...5.1.12
+# Updated TecTech (5.1.2@BOTH --> 5.1.13-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.0...5.1.13-pre
 >## What's Changed
 > * merge master by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/189 (5.1.12)
 > * Add UXV laser & multi-amp recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/188 (5.1.12)
@@ -514,12 +521,14 @@
 # Updated Universal-Singularities (8.6.6@BOTH --> 8.6.7@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.6.5...8.6.7
 
-# Updated WAILAPlugins (0.2.6@BOTH --> 0.2.7-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.2.5...0.2.7-pre
+# Updated WAILAPlugins (0.2.6@BOTH --> 0.2.8@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.2.5...0.2.8
 >## What's Changed
+> * Fix railcraft tank waila by @chochem in https://github.com/GTNewHorizons/WAILAPlugins/pull/15 (0.2.8)
 > * Water tank water production show feature by @r1tsuu in https://github.com/GTNewHorizons/WAILAPlugins/pull/14 (0.2.6)
 >
 >## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/WAILAPlugins/pull/15 (0.2.8)
 > * @r1tsuu made their first contribution in https://github.com/GTNewHorizons/WAILAPlugins/pull/14 (0.2.6)
 >
 
@@ -546,9 +555,10 @@
 > * Add Humongous input hatch by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/304 (0.6.5)
 >
 
-# Updated lwjgl3ify (1.3.3@BOTH_JAVA9 --> 1.3.4@BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.3.2...1.3.4
+# Updated lwjgl3ify (1.3.3@BOTH_JAVA9 --> 1.3.5@BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.3.2...1.3.5
 >## What's Changed
+> * LWJGL 3.3.2 stable update by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/58 (1.3.5)
 > * Add extensible enums for reika's mods by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/53 (1.3.4)
 > * Delayed key release fix by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/52 (1.3.3)
 >
