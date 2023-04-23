@@ -110,6 +110,16 @@
 > * @albus12138 made their first contribution in https://github.com/GTNewHorizons/BloodMagic/pull/44 (1.4.0)
 >
 
+# Updated Botanic-horizons (1.0.14-GTNH@BOTH --> 1.0.15-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.13-GTNH...1.0.15-GTNH
+>## What's Changed
+> * Revert "Alternate tiny planet block recipe" by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/19 (1.0.14-GTNH)
+> * Add Tiny Planet Recipe by @BlueWeabo in https://github.com/GTNewHorizons/Botanic-horizons/pull/20 (1.0.14-GTNH)
+>
+>## New Contributors
+> * @BlueWeabo made their first contribution in https://github.com/GTNewHorizons/Botanic-horizons/pull/20 (1.0.14-GTNH)
+>
+
 # Updated BugTorch (1.2.7@BOTH --> 1.2.8-GTNH@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BugTorch/compare/1.2.7...1.2.8-GTNH
 >## What's Changed
@@ -143,8 +153,24 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/CarpentersBlocks/pull/1 (3.3.8.2-GTNH)
 >
 
-# Updated EnderIO (2.4.6@BOTH --> 2.4.10@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.5...2.4.10
+# Updated Draconic-Evolution (1.1.15-GTNH@BOTH --> 1.1.16-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.14-GTNH...1.1.16-GTNH-pre
+>## What's Changed
+> * Consume 64 ender pearls at once by @LewisSaber in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
+>
+>## New Contributors
+> * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
+>
+
+# Updated Electro-Magic-Tools (1.2.8.28@BOTH --> 1.2.9@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.2.8.27...1.2.9
+>## What's Changed
+> * Fix Materials by @Dream-Master in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/58 (1.2.9)
+> * Less super fast by @mitchej123 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/57 (1.2.8.28)
+>
+
+# Updated EnderIO (2.4.6@BOTH --> 2.4.11@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.5...2.4.11
 >## What's Changed
 > * Show travel message above hotbar by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/117 (2.4.10)
 > * Try to fix energy overflow by @D-Cysteine in https://github.com/GTNewHorizons/EnderIO/pull/114 (2.4.9)
@@ -176,9 +202,31 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.63-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.63-pre
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.43.03@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.43.03
 >## What's Changed
+> * Forge direction by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1895 (5.09.43.03)
+> * MuTE overhaul and ACR by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1883 (5.09.43.01-pre)
+> * MuTE overhaul and ACR by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1883 (5.09.42.71)
+> * Add new mods to the Mods enum by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1903 (5.09.42.70)
+> * Stellar catalyst + catalyst fixes + new materials class by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1893 (5.09.42.70)
+> * Recipes ra2 by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1872 (5.09.42.70)
+> * Allow sound loop to be muffled by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1902 (5.09.42.69-pre)
+> * Add new mods to the Mods enum by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1903 (5.09.42.69-pre)
+> * Explain how to import GT5 by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1892 (5.09.42.68)
+> * Add 3 commits to .git-blame-ignore-revs by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1899 (5.09.42.68)
+> * Prevent NPE with large fluid cell renderer by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1898 (5.09.42.68)
+> * Account for EU discounts when calculating OCs/parallels in multis by @xSkewer in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1901 (5.09.42.68)
+> * Allow sound loop to be muffled by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1902 (5.09.42.68)
+> * Account for EU discounts when calculating OCs/parallels in multis by @xSkewer in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1901 (5.09.42.66-pre)
+> * Added separate tank inventories for input separation by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1887 (5.09.42.64-pre)
+> * Misc Cleanup by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1888 (5.09.42.64-pre)
+> * MuTE improved hatch GUI and fluid output locking by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1889 (5.09.42.64-pre)
+> * Spotless apply for branch StellarCatalyst for #1893 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1894 (5.09.42.64-pre)
+> * Add Tengam materials by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1891 (5.09.42.64-pre)
+> * Explain how to import GT5 by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1892 (5.09.42.64-pre)
+> * Add 3 commits to .git-blame-ignore-revs by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1899 (5.09.42.64-pre)
+> * Prevent NPE with large fluid cell renderer by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1898 (5.09.42.64-pre)
 > * Added separate tank inventories for input separation by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1887 (5.09.42.62-pre)
 > * Misc Cleanup by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1888 (5.09.42.62-pre)
 > * MuTE improved hatch GUI and fluid output locking by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1889 (5.09.42.62-pre)
@@ -255,15 +303,20 @@
 > * Display tier of nano forge in GUI by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1813 (5.09.42.15)
 >
 >## New Contributors
+> * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1892 (5.09.42.68)
+> * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1892 (5.09.42.64-pre)
 > * @xkball made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1890 (5.09.42.61)
 > * @xkball made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1890 (5.09.42.60-pre)
 > * @foxwhite25 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1822 (5.09.42.20)
 > * @foxwhite25 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1822 (5.09.42.19-pre)
 >
 
-# Updated GTNH-Intergalactic (1.0.6@BOTH --> 1.0.12@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.4...1.0.12
+# Updated GTNH-Intergalactic (1.0.6@BOTH --> 1.0.14@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.4...1.0.14
 >## What's Changed
+> * Added filter to the GUI of the mining module by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/18 (1.0.14)
+> * Fix Materials by @Dream-Master in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/19 (1.0.14)
+> * Added filter to the GUI of the mining module by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/18 (1.0.13-pre)
 > * Fix a broken spacemining recipe by @chochem in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/17 (1.0.11)
 > * Fix miner whitelist by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/16 (1.0.11)
 > * Allow lore translations to be weighted by @glowredman in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/15 (1.0.9)
@@ -285,9 +338,11 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/52 (0.9.30)
 >
 
-# Updated GTplusplus (1.8.18@BOTH --> 1.8.37@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.37
+# Updated GTplusplus (1.8.18@BOTH --> 1.8.40@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.12...1.8.39
 >## What's Changed
+> * Fix Material by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/605 (1.8.39)
+> * Fix assembler by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/606 (1.8.39)
 > * Don't require a min of output busses on sifter by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/604 (1.8.37)
 > * Fix null item name by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/603 (1.8.36)
 > * Fix internal name of mk5 fusion blocks by @GDCloudstrike in https://github.com/GTNewHorizons/GTplusplus/pull/602 (1.8.35)
@@ -313,15 +368,26 @@
 > * Downtier oreproc GT++ multis to EV and add new EV Mac Stack by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/579 (1.8.18)
 >
 
+# Updated Galacticraft (3.0.67-GTNH@BOTH --> 3.0.68-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.66-GTNH...3.0.68-GTNH
+>## What's Changed
+> * Update Dependencies by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/75 (3.0.68-GTNH)
+> * Fix Treasure Chests can output/input items if is locked. by @r1tsuu in https://github.com/GTNewHorizons/Galacticraft/pull/74 (3.0.67-GTNH)
+>
+>## New Contributors
+> * @r1tsuu made their first contribution in https://github.com/GTNewHorizons/Galacticraft/pull/74 (3.0.67-GTNH)
+>
+
 # Updated Galaxy-Space-GTNH (1.1.63-GTNH@BOTH --> 1.1.65-GTNH@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.61-GTNH...1.1.65-GTNH
 >## What's Changed
 > * Remove Space Elevator and Planetary Gas Siphon by @minecraft7771 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/89 (1.1.63-GTNH)
 >
 
-# Updated GoodGenerator (0.5.4@BOTH --> 0.5.12@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.3...0.5.12
+# Updated GoodGenerator (0.5.4@BOTH --> 0.5.18@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.3...0.5.18
 >## What's Changed
+> * Fix Materials by @Dream-Master in https://github.com/GTNewHorizons/GoodGenerator/pull/157 (0.5.18)
 > * Fix compact mk5 research by @GDCloudstrike in https://github.com/GTNewHorizons/GoodGenerator/pull/156 (0.5.12)
 > * Re-enable compact mk5 + adjust mk4 by @GDCloudstrike in https://github.com/GTNewHorizons/GoodGenerator/pull/155 (0.5.11)
 > * Kill Disassembler in GoodGenerator by @Connor-Colenso in https://github.com/GTNewHorizons/GoodGenerator/pull/154 (0.5.8)
@@ -337,9 +403,10 @@
 > * @Rosenlied-Iris made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/150 (0.5.6)
 >
 
-# Updated Hodgepodge (2.2.4@BOTH --> 2.2.7@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.2...2.2.7
+# Updated Hodgepodge (2.2.4@BOTH --> 2.2.8@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.2...2.2.8
 >## What's Changed
+> * add logging to ztones patch  by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/208 (2.2.8)
 > * Validate bibliocraft fancy sign updates server-side by @eigenraven in https://github.com/GTNewHorizons/Hodgepodge/pull/206 (2.2.7)
 > * Minechem Java 12 compat: Stop potion array expansion and add config for potion ID by @AshIndigo in https://github.com/GTNewHorizons/Hodgepodge/pull/207 (2.2.7)
 > * Show bed messages above hotbar by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/205 (2.2.6)
@@ -357,9 +424,10 @@
 > * https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/10022 by @repo-alt in https://github.com/GTNewHorizons/HoloInventory/pull/30 (2.1.19-GTNH)
 >
 
-# Updated KekzTech (0.7.3@BOTH --> 0.7.6@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.7.1...0.7.6
+# Updated KekzTech (0.7.3@BOTH --> 0.7.8@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.7.1...0.7.8
 >## What's Changed
+> * Fix Materials by @Dream-Master in https://github.com/GTNewHorizons/KekzTech/pull/66 (0.7.8)
 > * Fix LSC tooltip by @chochem in https://github.com/GTNewHorizons/KekzTech/pull/65 (0.7.6)
 > * Cleanup by @boubou19 in https://github.com/GTNewHorizons/KekzTech/pull/64 (0.7.5)
 > * UIV & UMV capacitor by @GDCloudstrike in https://github.com/GTNewHorizons/KekzTech/pull/63 (0.7.3)
@@ -401,9 +469,14 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/16 (2.5.16-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.25-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.25-pre
+# Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.31@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.31
 >## What's Changed
+> * Move all TC researches, recipes from scripts by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/482 (2.0.31)
+> * Fix materials by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/566 (2.0.31)
+> * Fix crash by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/567 (2.0.31)
+> * Add Stellar Catalyst DTPF recipes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/570 (2.0.31)
+> * Move all TC researches, recipes from scripts by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/482 (2.0.27-pre)
 > * Alumina and silicon dioxide changes by @Pxx500 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/562 (2.0.24-pre)
 > * Clay cast by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/565 (2.0.24-pre)
 > * Alumina and silicon dioxide changes by @Pxx500 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/562 (2.0.23-pre)
@@ -441,6 +514,16 @@
 >
 >## New Contributors
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/364 (2.3.43-GTNH)
+>
+
+# Updated Nuclear-Control (2.4.16@BOTH --> 2.4.18@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.4.15...2.4.18
+>## What's Changed
+> * Do not require "enter" press to save info panel text by @greesyB in https://github.com/GTNewHorizons/Nuclear-Control/pull/15 (2.4.18)
+> * remove dev capes they aren't found in the full pack anyways by @Alexdoru in https://github.com/GTNewHorizons/Nuclear-Control/pull/14 (2.4.16)
+>
+>## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Nuclear-Control/pull/14 (2.4.16)
 >
 
 # Updated OCGlasses (1.2.5-GTNH@BOTH --> 1.3.0-GTNH@BOTH)
@@ -484,9 +567,14 @@
 > * @OvermindDL1 made their first contribution in https://github.com/GTNewHorizons/SpecialMobs/pull/18 (3.4.0)
 >
 
-# Updated TecTech (5.1.2@BOTH --> 5.1.13-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.0...5.1.13-pre
+# Updated TecTech (5.1.2@BOTH --> 5.1.16@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.0...5.1.16
 >## What's Changed
+> * Deobfuscate parameters by @glowredman in https://github.com/GTNewHorizons/TecTech/pull/191 (5.1.16)
+> * Fix Material by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/192 (5.1.16)
+> * Use Attuned Tengam for UEV/UIV/UMV Motors by @glowredman in https://github.com/GTNewHorizons/TecTech/pull/193 (5.1.16)
+> * Fix EOH estimated eu/t formula by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/194 (5.1.16)
+> * Cleanup by @glowredman in https://github.com/GTNewHorizons/TecTech/pull/190 (5.1.14)
 > * merge master by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/189 (5.1.12)
 > * Add UXV laser & multi-amp recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/188 (5.1.12)
 > * Fusion mk5 recipes + mk4 recipe fix by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/186 (5.1.11-pre)
@@ -542,9 +630,10 @@
 > * @D-Cysteine made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/39 (1.3.0-GTNH)
 >
 
-# Updated bartworks (0.6.5@BOTH --> 0.6.11@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.3...0.6.11
+# Updated bartworks (0.6.5@BOTH --> 0.6.14@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.3...0.6.14
 >## What's Changed
+> * Fix Materials by @Dream-Master in https://github.com/GTNewHorizons/bartworks/pull/313 (0.6.13)
 > * Remove incorrect blockglass oredict on botania glass panes by @chochem in https://github.com/GTNewHorizons/bartworks/pull/312 (0.6.11)
 > * EIC - Fix overclock and support void protection by @greesyB in https://github.com/GTNewHorizons/bartworks/pull/311 (0.6.10)
 > * Cleanup by @boubou19 in https://github.com/GTNewHorizons/bartworks/pull/308 (0.6.8)

@@ -7370,7 +7370,7 @@
     },
     {
       "name": "Botanic-horizons",
-      "latest_version": "1.0.14-GTNH",
+      "latest_version": "1.0.15-GTNH",
       "private": false,
       "versions": [
         {
@@ -7512,6 +7512,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/92649449",
           "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.14-GTNH/BotanicHorizons-1.7.10-1.0.14-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Botanic-horizons/1.0.14-GTNH/Botanic-horizons-1.0.14-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.15-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.14-GTNH...1.0.15-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-23T09:21:15+00:00",
+          "filename": "BotanicHorizons-1.0.15-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Botanic-horizons/releases/assets/104910489",
+          "browser_download_url": "https://github.com/GTNewHorizons/Botanic-horizons/releases/download/1.0.15-GTNH/BotanicHorizons-1.0.15-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -9995,7 +10005,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.4.10",
+      "latest_version": "2.4.11",
       "private": false,
       "versions": [
         {
@@ -10632,6 +10642,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/103057559",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.4.10/EnderIO-2.4.10.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/2.4.10/EnderIO-2.4.10.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.4.11",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.10...2.4.11\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-23T09:18:34+00:00",
+          "filename": "EnderIO-2.4.11.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/104910125",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.4.11/EnderIO-2.4.11.jar",
           "extra_assets": []
         }
       ],
@@ -13565,7 +13585,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.5.17-pre",
+      "latest_version": "0.5.18",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -14633,6 +14653,16 @@
           "filename": "GoodGenerator-0.5.17-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/104678940",
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.5.17-pre/GoodGenerator-0.5.17-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.5.18",
+          "changelog": "## What's Changed\n* Fix Materials by @Dream-Master in https://github.com/GTNewHorizons/GoodGenerator/pull/157\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.12...0.5.18\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-23T08:31:46+00:00",
+          "filename": "GoodGenerator-0.5.18.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/104905218",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.5.18/GoodGenerator-0.5.18.jar",
           "extra_assets": []
         }
       ],
@@ -19942,7 +19972,7 @@
     },
     {
       "name": "GTNH-Intergalactic",
-      "latest_version": "1.0.13-pre",
+      "latest_version": "1.0.14",
       "private": false,
       "versions": [
         {
@@ -20126,6 +20156,16 @@
           "filename": "gtnhintergalactic-1.0.13-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/104497907",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.0.13-pre/gtnhintergalactic-1.0.13-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.14",
+          "changelog": "## What's Changed\n* Added filter to the GUI of the mining module by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/18\n* Fix Materials by @Dream-Master in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/19\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.12...1.0.14\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-23T09:38:55+00:00",
+          "filename": "gtnhintergalactic-1.0.14.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/104912939",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.0.14/gtnhintergalactic-1.0.14.jar",
           "extra_assets": []
         }
       ],
