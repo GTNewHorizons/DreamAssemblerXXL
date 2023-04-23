@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.3.2",
+    "latest_version": "2.3.3",
     "versions": [
       {
         "version_tag": "2.1.2.3qf-test",
@@ -491,6 +491,16 @@
         "filename": "2.3.2.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/101023197",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.2/2.3.2.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.3.3",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2023-04-23T11:11:45+00:00",
+        "filename": "2.3.3.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/104919769",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.3/2.3.3.zip",
         "extra_assets": []
       }
     ],
@@ -30428,7 +30438,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.0.31",
+      "latest_version": "2.0.32",
       "private": false,
       "versions": [
         {
@@ -32339,6 +32349,16 @@
           "filename": "GTNewHorizonsCoreMod-2.0.31.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/104899650",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.31/GTNewHorizonsCoreMod-2.0.31.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.0.32",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.0.32\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-23T11:10:45+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.0.32.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/104919710",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.0.32/GTNewHorizonsCoreMod-2.0.32.jar",
           "extra_assets": []
         }
       ],

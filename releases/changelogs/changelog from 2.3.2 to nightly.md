@@ -458,8 +458,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/16 (2.5.16-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.31@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.31
+# Updated NewHorizonsCoreMod (2.0.6@BOTH --> 2.0.32@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.5...2.0.32
 >## What's Changed
 > * Move all TC researches, recipes from scripts by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/482 (2.0.31)
 > * Fix materials by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/566 (2.0.31)

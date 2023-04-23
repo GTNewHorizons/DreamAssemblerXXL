@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-04-23T11:02:59.143993",
-  "config": "2.3.2",
+  "last_updated": "2023-04-23T11:13:30.985941",
+  "config": "2.3.3",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.12-GTNH",
@@ -437,7 +437,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.0.31",
+      "version": "2.0.32",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
