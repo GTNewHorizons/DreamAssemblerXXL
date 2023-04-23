@@ -202,11 +202,9 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/44 (4.6.0)
 >
 
-# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.43.03@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.43.03
+# Updated GT5-Unofficial (5.09.42.15@BOTH --> 5.09.42.71@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.14...5.09.42.71
 >## What's Changed
-> * Forge direction by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1895 (5.09.43.03)
-> * MuTE overhaul and ACR by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1883 (5.09.43.01-pre)
 > * MuTE overhaul and ACR by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1883 (5.09.42.71)
 > * Add new mods to the Mods enum by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1903 (5.09.42.70)
 > * Stellar catalyst + catalyst fixes + new materials class by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1893 (5.09.42.70)
