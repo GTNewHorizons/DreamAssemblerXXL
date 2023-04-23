@@ -41341,7 +41341,7 @@
     },
     {
       "name": "VisualProspecting",
-      "latest_version": "1.1.0",
+      "latest_version": "1.1.1",
       "versions": [
         {
           "version_tag": "1.0.22b",
@@ -41487,6 +41487,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/100012318",
           "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.1.0/visualprospecting-1.1.0.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/VisualProspecting/1.1.0/VisualProspecting-1.1.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.1",
+          "changelog": "## What's Changed\n* Better english translation for depleted veins by @chochem in https://github.com/GTNewHorizons/VisualProspecting/pull/28\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.1.0...1.1.1\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-23T10:19:41+00:00",
+          "filename": "visualprospecting-1.1.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/104916185",
+          "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.1.1/visualprospecting-1.1.1.jar",
           "extra_assets": []
         }
       ],

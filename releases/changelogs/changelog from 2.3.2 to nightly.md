@@ -153,15 +153,6 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/CarpentersBlocks/pull/1 (3.3.8.2-GTNH)
 >
 
-# Updated Draconic-Evolution (1.1.15-GTNH@BOTH --> 1.1.16-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.14-GTNH...1.1.16-GTNH-pre
->## What's Changed
-> * Consume 64 ender pearls at once by @LewisSaber in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
->
->## New Contributors
-> * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
->
-
 # Updated Electro-Magic-Tools (1.2.8.28@BOTH --> 1.2.9@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.2.8.27...1.2.9
 >## What's Changed
@@ -606,6 +597,16 @@
 
 # Updated Universal-Singularities (8.6.6@BOTH --> 8.6.7@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.6.5...8.6.7
+
+# Updated VisualProspecting (1.1.0@BOTH --> 1.1.1@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.0.37...1.1.1
+>## What's Changed
+> * Better english translation for depleted veins by @chochem in https://github.com/GTNewHorizons/VisualProspecting/pull/28 (1.1.1)
+> * [After Stable] Mixin rework by @Alexdoru in https://github.com/GTNewHorizons/VisualProspecting/pull/27 (1.1.0)
+>
+>## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/27 (1.1.0)
+>
 
 # Updated WAILAPlugins (0.2.6@BOTH --> 0.2.8@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.2.5...0.2.8
