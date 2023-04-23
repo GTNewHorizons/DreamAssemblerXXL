@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.2",
-  "last_updated": "2023-04-19T06:12:37.938653",
+  "last_updated": "2023-04-23T08:20:02.356691",
   "config": "2.3.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.6.11",
+      "version": "0.6.14",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -181,11 +181,11 @@
       "side": "BOTH"
     },
     "Draconic-Evolution": {
-      "version": "1.1.15-GTNH",
+      "version": "1.1.16-GTNH-pre",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.2.8.28",
+      "version": "1.2.9",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.0.67-GTNH",
+      "version": "3.0.68-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -257,11 +257,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.5.12",
+      "version": "0.5.17-pre",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.63-pre",
+      "version": "5.09.43.03",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.8.37",
+      "version": "1.8.40",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.2.7",
+      "version": "2.2.8",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.7.6",
+      "version": "0.7.8",
       "side": "BOTH"
     },
     "KubaTech": {
@@ -437,7 +437,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.0.25-pre",
+      "version": "2.0.31",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -453,7 +453,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.4.16",
+      "version": "2.4.18",
       "side": "BOTH"
     },
     "oauth": {
@@ -601,7 +601,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.1.13-pre",
+      "version": "5.1.16",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.0.12",
+      "version": "1.0.13-pre",
       "side": "BOTH"
     }
   },
