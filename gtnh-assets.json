@@ -41497,6 +41497,7 @@
           "filename": "visualprospecting-1.1.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/104916185",
           "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.1.1/visualprospecting-1.1.1.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/VisualProspecting/1.1.1/VisualProspecting-1.1.1.jar",
           "extra_assets": []
         }
       ],
