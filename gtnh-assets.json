@@ -37297,7 +37297,7 @@
     },
     {
       "name": "TC-4-Tweaks",
-      "latest_version": "1.5.6",
+      "latest_version": "1.5.7",
       "needs_attention": false,
       "versions": [
         {
@@ -37415,6 +37415,19 @@
           "curse_file": {
             "project_no": "",
             "file_no": "4481884"
+          }
+        },
+        {
+          "version_tag": "1.5.7",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2023-04-23T12:03:57.064905",
+          "filename": "Thaumcraft4Tweaks-1.5.7.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/4494/468/Thaumcraft4Tweaks-1.5.7.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/files/4494468",
+          "curse_file": {
+            "project_no": "",
+            "file_no": "4494468"
           }
         }
       ],
