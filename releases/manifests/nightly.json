@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.3.2",
-  "last_updated": "2023-04-23T11:13:30.985941",
+  "last_version": "2.3.3",
+  "last_updated": "2023-04-24T21:24:57.595217",
   "config": "2.3.3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.6.14",
+      "version": "0.6.15",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -101,7 +101,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.9.16-GTNH",
+      "version": "1.9.17-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "Draconic-Evolution": {
-      "version": "1.1.15-GTNH",
+      "version": "1.1.16-GTNH-pre",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.71",
+      "version": "5.09.42.79",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.8.40",
+      "version": "1.8.41-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -437,7 +437,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.0.32",
+      "version": "2.0.34",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -645,7 +645,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.9.26-GTNH",
+      "version": "1.9.27-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -814,6 +814,10 @@
     },
     "GTNH-Intergalactic": {
       "version": "1.0.14",
+      "side": "BOTH"
+    },
+    "amunra": {
+      "version": "0.4.11",
       "side": "BOTH"
     }
   },
