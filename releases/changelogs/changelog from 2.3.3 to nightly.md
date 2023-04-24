@@ -9,15 +9,6 @@
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/Botania/pull/25 (1.9.17-GTNH)
 >
 
-# Updated Draconic-Evolution (1.1.15-GTNH@BOTH --> 1.1.16-GTNH-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.14-GTNH...1.1.16-GTNH-pre
->## What's Changed
-> * Consume 64 ender pearls at once by @LewisSaber in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
->
->## New Contributors
-> * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
->
-
 # Updated GT5-Unofficial (5.09.42.71@BOTH --> 5.09.42.79@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.42.79
 >## What's Changed

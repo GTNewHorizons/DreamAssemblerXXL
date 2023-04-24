@@ -28918,313 +28918,418 @@
     },
     {
       "name": "ModularUI",
-      "latest_version": "1.1.2",
+      "latest_version": "1.1.3",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.0.1",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-09-08T12:36:57+00:00",
           "filename": "modularui-1.7.10-0.0.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/77241544",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.1/modularui-1.7.10-0.0.1.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.1/modularui-1.7.10-0.0.1.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "0.0.2",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-09-15T09:35:05+00:00",
           "filename": "modularui-1.7.10-0.0.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/77945448",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.2/modularui-1.7.10-0.0.2.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.2/modularui-1.7.10-0.0.2.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "0.0.3",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-09-21T03:10:07+00:00",
           "filename": "modularui-1.7.10-0.0.3.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/78519923",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.3/modularui-1.7.10-0.0.3.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.3/modularui-1.7.10-0.0.3.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "0.0.4",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-09-21T09:19:10+00:00",
           "filename": "modularui-1.7.10-0.0.4.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/78544836",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.4/modularui-1.7.10-0.0.4.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.4/modularui-1.7.10-0.0.4.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "0.0.5",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-09-30T09:02:45+00:00",
           "filename": "modularui-1.7.10-0.0.5.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/79510362",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.5/modularui-1.7.10-0.0.5.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.5/modularui-1.7.10-0.0.5.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "0.0.6",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-10-01T06:25:56+00:00",
           "filename": "modularui-1.7.10-0.0.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/79610047",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.6/modularui-1.7.10-0.0.6.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.6/modularui-1.7.10-0.0.6.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "0.0.7",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-10-15T12:06:59+00:00",
           "filename": "modularui-1.7.10-0.0.7.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/81109308",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.7/modularui-1.7.10-0.0.7.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.7/modularui-1.7.10-0.0.7.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "0.0.8",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-10-18T14:36:03+00:00",
           "filename": "modularui-1.7.10-0.0.8.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/81422741",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.8/modularui-1.7.10-0.0.8.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.8/modularui-1.7.10-0.0.8.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "0.0.9",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-10-24T04:12:32+00:00",
           "filename": "modularui-1.7.10-0.0.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/82043173",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.9/modularui-1.7.10-0.0.9.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.9/modularui-1.7.10-0.0.9.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "0.0.10",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-11-02T09:08:41+00:00",
           "filename": "modularui-1.7.10-0.0.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/83141620",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.10/modularui-1.7.10-0.0.10.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.10/modularui-1.7.10-0.0.10.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "0.0.11",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-11-06T06:03:24+00:00",
           "filename": "modularui-1.7.10-0.0.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/83611022",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.11/modularui-1.7.10-0.0.11.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.11/modularui-1.7.10-0.0.11.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "0.0.12",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-11-06T18:52:26+00:00",
           "filename": "modularui-1.7.10-0.0.12.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/83659051",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.12/modularui-1.7.10-0.0.12.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.12/modularui-1.7.10-0.0.12.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "0.0.13",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-11-07T02:44:30+00:00",
           "filename": "modularui-1.7.10-0.0.13.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/83693219",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.13/modularui-1.7.10-0.0.13.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/0.0.13/modularui-1.7.10-0.0.13.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.0",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-11-10T03:47:53+00:00",
           "filename": "modularui-1.7.10-1.0.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/84086191",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.0/modularui-1.7.10-1.0.0.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.0/modularui-1.7.10-1.0.0.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.1",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-11-10T08:21:12+00:00",
           "filename": "modularui-1.7.10-1.0.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/84107231",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.1/modularui-1.7.10-1.0.1.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.1/modularui-1.7.10-1.0.1.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.2",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-11-10T12:35:37+00:00",
           "filename": "modularui-1.7.10-1.0.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/84135104",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.2/modularui-1.7.10-1.0.2.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.2/modularui-1.7.10-1.0.2.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.3",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-11-11T12:32:38+00:00",
           "filename": "modularui-1.7.10-1.0.3.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/84263657",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.3/modularui-1.7.10-1.0.3.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.3/modularui-1.7.10-1.0.3.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.4",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-11-12T12:31:08+00:00",
           "filename": "modularui-1.7.10-1.0.4.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/84363849",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.4/modularui-1.7.10-1.0.4.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.4/modularui-1.7.10-1.0.4.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.5",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-11-13T03:10:21+00:00",
           "filename": "modularui-1.7.10-1.0.5.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/84416922",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.5/modularui-1.7.10-1.0.5.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.5/modularui-1.7.10-1.0.5.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.6",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-11-13T05:48:54+00:00",
           "filename": "modularui-1.7.10-1.0.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/84427781",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.6/modularui-1.7.10-1.0.6.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.6/modularui-1.7.10-1.0.6.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.7",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-11-14T11:40:19+00:00",
           "filename": "modularui-1.7.10-1.0.7.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/84549006",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.7/modularui-1.7.10-1.0.7.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.7/modularui-1.7.10-1.0.7.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.8",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-11-16T14:39:04+00:00",
           "filename": "modularui-1.7.10-1.0.8.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/84839691",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.8/modularui-1.7.10-1.0.8.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.8/modularui-1.7.10-1.0.8.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.9",
+          "changelog": "",
+          "prerelease": false,
           "tagged_at": "2022-11-17T10:42:01+00:00",
           "filename": "modularui-1.7.10-1.0.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/84950483",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.9/modularui-1.7.10-1.0.9.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.9/modularui-1.7.10-1.0.9.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.10",
           "changelog": "## What's Changed\n* Fix shift-inserting into disabled slot not being forbidden by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/12\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.9...1.0.10\n",
+          "prerelease": false,
           "tagged_at": "2022-11-18T06:31:31+00:00",
           "filename": "modularui-1.7.10-1.0.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/85063442",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.10/modularui-1.7.10-1.0.10.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.10/modularui-1.7.10-1.0.10.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.11",
           "changelog": "## What's Changed\n* Allow dynamic background for all widgets by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/13\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.10...1.0.11\n",
+          "prerelease": false,
           "tagged_at": "2022-11-18T13:07:43+00:00",
           "filename": "modularui-1.7.10-1.0.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/85100047",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.11/modularui-1.7.10-1.0.11.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.11/modularui-1.7.10-1.0.11.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.12",
           "changelog": "## What's Changed\n* Add DoubleSyncer by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/14\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.11...1.0.12\n",
+          "prerelease": false,
           "tagged_at": "2022-11-19T04:11:45+00:00",
           "filename": "modularui-1.7.10-1.0.12.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/85178933",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.12/modularui-1.7.10-1.0.12.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.12/modularui-1.7.10-1.0.12.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.13",
           "changelog": "## What's Changed\n* Add getLastText for BaseTextFieldWidget by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/15\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.12...1.0.13\n",
+          "prerelease": false,
           "tagged_at": "2022-11-19T11:42:15+00:00",
           "filename": "modularui-1.7.10-1.0.13.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/85206935",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.13/modularui-1.7.10-1.0.13.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.13/modularui-1.7.10-1.0.13.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.14",
           "changelog": "## What's Changed\n* Fix slot click denial not preventing vanilla slot interaction by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/16\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.13...1.0.14\n",
+          "prerelease": false,
           "tagged_at": "2022-11-20T03:15:04+00:00",
           "filename": "modularui-1.7.10-1.0.14.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/85264943",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.14/modularui-1.7.10-1.0.14.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.14/modularui-1.7.10-1.0.14.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.15",
           "changelog": "## What's Changed\n* Fix NEI fast transfer incorrectly being triggered by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/17\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.14...1.0.15\n",
+          "prerelease": false,
           "tagged_at": "2022-11-20T06:33:32+00:00",
           "filename": "modularui-1.7.10-1.0.15.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/85277641",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.15/modularui-1.7.10-1.0.15.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.15/modularui-1.7.10-1.0.15.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.16",
           "changelog": "## What's Changed\n* Fix incorrect color applied to Rectangle by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/18\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.15...1.0.16\n",
+          "prerelease": false,
           "tagged_at": "2022-11-20T09:21:21+00:00",
           "filename": "modularui-1.7.10-1.0.16.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/85286666",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.16/modularui-1.7.10-1.0.16.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.16/modularui-1.7.10-1.0.16.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.17",
           "changelog": "## What's Changed\n* Fix client may execute detectAndSendChanges by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/19\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.16...1.0.17\n",
+          "prerelease": false,
           "tagged_at": "2022-11-24T20:29:54+00:00",
           "filename": "modularui-1.7.10-1.0.17.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/85862274",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.17/modularui-1.7.10-1.0.17.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.17/modularui-1.7.10-1.0.17.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.18",
           "changelog": "## What's Changed\n* Fix NEI text field not being unfocused on GUI click by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/20\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.17...1.0.18\n",
+          "prerelease": false,
           "tagged_at": "2022-11-25T12:03:37+00:00",
           "filename": "modularui-1.7.10-1.0.18.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/85932032",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.18/modularui-1.7.10-1.0.18.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.18/modularui-1.7.10-1.0.18.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.19",
           "changelog": "## What's Changed\n* Fix DynamicTextWidget not updating visual text dynamically if sync is enabled by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/21\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.18...1.0.19\n",
+          "prerelease": false,
           "tagged_at": "2022-11-26T07:46:31+00:00",
           "filename": "modularui-1.7.10-1.0.19.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/86016895",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.19/modularui-1.7.10-1.0.19.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.19/modularui-1.7.10-1.0.19.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.20",
           "changelog": "## What's Changed\n* Fix (once more) DynamicTextWidget not updating visual text by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/22\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.19...1.0.20\n",
+          "prerelease": false,
           "tagged_at": "2022-11-26T08:04:03+00:00",
           "filename": "modularui-1.7.10-1.0.20.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/86017743",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.20/modularui-1.7.10-1.0.20.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.20/modularui-1.7.10-1.0.20.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.21",
           "changelog": "## What's Changed\n* Fix blending after general drawing item with enchantment by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/23\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.20...1.0.21\n",
+          "prerelease": false,
           "tagged_at": "2022-11-27T12:32:35+00:00",
           "filename": "modularui-1.7.10-1.0.21.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/86121390",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.21/modularui-1.7.10-1.0.21.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.21/modularui-1.7.10-1.0.21.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.22",
           "changelog": "## What's Changed\n* Fix depth while showing tooltip by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/24\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.21...1.0.22\n",
+          "prerelease": false,
           "tagged_at": "2022-11-27T13:09:04+00:00",
           "filename": "modularui-1.7.10-1.0.22.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/86123411",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.22/modularui-1.7.10-1.0.22.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.22/modularui-1.7.10-1.0.22.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.23",
           "changelog": "## What's Changed\n* Patches 2022/11/30 by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/25\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.22...1.0.23\n",
+          "prerelease": false,
           "tagged_at": "2022-11-29T16:06:35+00:00",
           "filename": "modularui-1.7.10-1.0.23.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/86380454",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.23/modularui-1.7.10-1.0.23.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.23/modularui-1.7.10-1.0.23.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.24",
           "changelog": "## What's Changed\n* Fix incorrect uv used for AdaptableUITexture by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/26\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.23...1.0.24\n",
+          "prerelease": false,
           "tagged_at": "2022-12-01T09:47:34+00:00",
           "filename": "modularui-1.7.10-1.0.24.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/86609152",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.24/modularui-1.7.10-1.0.24.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.24/modularui-1.7.10-1.0.24.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.25",
           "changelog": "## What's Changed\n* Allow specifying custom background for VanillaButtonWidget by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/27\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.24...1.0.25\n",
+          "prerelease": false,
           "tagged_at": "2022-12-06T19:23:09+00:00",
           "filename": "modularui-1.7.10-1.0.25.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/87237264",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.25/modularui-1.7.10-1.0.25.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.25/modularui-1.7.10-1.0.25.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.26",
           "changelog": "## What's Changed\n* Fix SizedDrawable not delegating applyThemeColor by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/28\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.25...1.0.26\n",
+          "prerelease": false,
           "tagged_at": "2022-12-09T00:08:21+00:00",
           "filename": "modularui-1.7.10-1.0.26.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/87528779",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.26/modularui-1.7.10-1.0.26.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.26/modularui-1.7.10-1.0.26.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.27",
           "changelog": "## What's Changed\n* Patches 2022/12/10 by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/29\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.0.26...1.0.27\n",
+          "prerelease": false,
           "tagged_at": "2022-12-10T09:43:01+00:00",
           "filename": "modularui-1.7.10-1.0.27.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/87688706",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.27/modularui-1.7.10-1.0.27.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.0.27/ModularUI-1.0.27.jar"
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.28",
@@ -29233,7 +29338,8 @@
           "tagged_at": "2022-12-16T08:54:33+00:00",
           "filename": "modularui-1.7.10-1.0.28.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/88434845",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.28/modularui-1.7.10-1.0.28.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.28/modularui-1.7.10-1.0.28.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.29",
@@ -29242,7 +29348,8 @@
           "tagged_at": "2022-12-17T09:20:39+00:00",
           "filename": "modularui-1.7.10-1.0.29.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/88560432",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.29/modularui-1.7.10-1.0.29.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.29/modularui-1.7.10-1.0.29.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.30",
@@ -29251,7 +29358,8 @@
           "tagged_at": "2022-12-21T04:44:56+00:00",
           "filename": "modularui-1.7.10-1.0.30.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/88979279",
-          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.30/modularui-1.7.10-1.0.30.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.30/modularui-1.7.10-1.0.30.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.31",
@@ -29261,7 +29369,7 @@
           "filename": "modularui-1.7.10-1.0.31.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/89005911",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.31/modularui-1.7.10-1.0.31.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.0.31/ModularUI-1.0.31.jar"
+          "extra_assets": []
         },
         {
           "version_tag": "1.0.32",
@@ -29561,7 +29669,6 @@
           "filename": "modularui-1.0.61.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/95302517",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.61/modularui-1.0.61.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.0.61/ModularUI-1.0.61.jar",
           "extra_assets": []
         },
         {
@@ -29602,7 +29709,6 @@
           "filename": "modularui-1.0.65.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/95921893",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.65/modularui-1.0.65.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.0.65/ModularUI-1.0.65.jar",
           "extra_assets": []
         },
         {
@@ -29633,7 +29739,6 @@
           "filename": "modularui-1.0.68.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/97283777",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.68/modularui-1.0.68.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.0.68/ModularUI-1.0.68.jar",
           "extra_assets": []
         },
         {
@@ -29644,7 +29749,6 @@
           "filename": "modularui-1.0.69.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/97768157",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.69/modularui-1.0.69.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.0.69/ModularUI-1.0.69.jar",
           "extra_assets": []
         },
         {
@@ -29655,7 +29759,6 @@
           "filename": "modularui-1.0.70.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/98349675",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.70/modularui-1.0.70.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.0.70/ModularUI-1.0.70.jar",
           "extra_assets": []
         },
         {
@@ -29666,7 +29769,6 @@
           "filename": "modularui-1.0.71.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/98687755",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.0.71/modularui-1.0.71.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.0.71/ModularUI-1.0.71.jar",
           "extra_assets": []
         },
         {
@@ -29697,7 +29799,6 @@
           "filename": "modularui-1.1.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/99052437",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.1.0/modularui-1.1.0.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.1.0/ModularUI-1.1.0.jar",
           "extra_assets": []
         },
         {
@@ -29708,7 +29809,6 @@
           "filename": "modularui-1.1.1-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/99245779",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.1.1-pre/modularui-1.1.1-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.1.1-pre/ModularUI-1.1.1-pre.jar",
           "extra_assets": []
         },
         {
@@ -29719,13 +29819,23 @@
           "filename": "modularui-1.1.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/99277029",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.1.2/modularui-1.1.2.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.1.2/ModularUI-1.1.2.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.3",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/ModularUI-old/compare/1.1.2...1.1.3\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-24T12:30:19+00:00",
+          "filename": "modularui-1.1.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/105052327",
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.1.3/modularui-1.1.3.jar",
           "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/ModularUI",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/",
+      "side": "BOTH"
     },
     {
       "name": "Morpheus",
