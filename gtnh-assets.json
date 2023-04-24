@@ -29819,6 +29819,7 @@
           "filename": "modularui-1.1.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/99277029",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.1.2/modularui-1.1.2.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.1.2/ModularUI-1.1.2.jar",
           "extra_assets": []
         },
         {

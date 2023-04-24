@@ -26,6 +26,15 @@
 # Updated GTplusplus (1.8.40@BOTH --> 1.8.41-pre@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.8.41-pre
 
+# Updated ModularUI (1.1.2@BOTH --> 1.1.3@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.3
+>## What's Changed
+> * fix hotbar key related vanilla functions by @Glease in https://github.com/GTNewHorizons/ModularUI/pull/45 (1.1.2)
+>
+>## New Contributors
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/45 (1.1.2)
+>
+
 # Updated NewHorizonsCoreMod (2.0.32@BOTH --> 2.0.34@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.0.34
 >## What's Changed
