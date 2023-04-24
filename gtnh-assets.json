@@ -1871,6 +1871,7 @@
           "filename": "amunra-0.4.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/105012618",
           "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.11/amunra-0.4.11.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/0.4.11/amunra-0.4.11.jar",
           "extra_assets": []
         }
       ],
