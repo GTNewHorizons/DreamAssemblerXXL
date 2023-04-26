@@ -1,7 +1,24 @@
 # New Mods:
 > * amunra
-# Updated Botania (1.9.16-GTNH@BOTH --> 1.9.17-GTNH@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.9.15-GTNH...1.9.17-GTNH
+# Updated Avaritia (1.37@BOTH --> 1.39@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.36...1.39
+>## What's Changed
+> * Update dependencies.gradle by @Dream-Master in https://github.com/GTNewHorizons/Avaritia/pull/31 (1.38)
+> * Update repositories.gradle by @Dream-Master in https://github.com/GTNewHorizons/Avaritia/pull/30 (1.38)
+>
+>## New Contributors
+> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/31 (1.38)
+>
+
+# Updated BetterP2P (1.1.7@BOTH --> 1.1.9@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.5...1.1.9
+>## What's Changed
+> * Change rename to commit on KEY_ENTER press by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/26 (1.1.9)
+> * Add additional checks for P2P selection by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/25 (1.1.7)
+>
+
+# Updated Botania (1.9.16-GTNH@BOTH --> 1.9.18-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.9.15-GTNH...1.9.18-GTNH-pre
 >## What's Changed
 > * Ring of loki improvement by @LewisSaber in https://github.com/GTNewHorizons/Botania/pull/25 (1.9.17-GTNH)
 >
@@ -9,9 +26,35 @@
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/Botania/pull/25 (1.9.17-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@BOTH --> 5.09.42.79@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.42.79
+# Updated Chisel (2.10.17-GTNH@BOTH --> 2.10.19-GTNH@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.10.16-GTNH...2.10.19-GTNH
 >## What's Changed
+> * Added 7 new sets of blocks by @Jimbno in https://github.com/GTNewHorizons/Chisel/pull/27 (2.10.19-GTNH)
+> * Disable mob spawn on the chisel blocks by @Zereff06 in https://github.com/GTNewHorizons/Chisel/pull/26 (2.10.17-GTNH)
+>
+>## New Contributors
+> * @Jimbno made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/27 (2.10.19-GTNH)
+> * @Zereff06 made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/26 (2.10.17-GTNH)
+>
+
+# Updated CraftTweaker (3.2.11@BOTH --> 3.2.12@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/CraftTweaker/compare/3.2.10...3.2.12
+
+# Updated Draconic-Evolution (1.1.15-GTNH@BOTH --> 1.1.16-GTNH-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.14-GTNH...1.1.16-GTNH-pre
+>## What's Changed
+> * Consume 64 ender pearls at once by @LewisSaber in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
+>
+>## New Contributors
+> * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
+>
+
+# Updated GT5-Unofficial (5.09.42.71@BOTH --> 5.09.42.82@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.42.82
+>## What's Changed
+> * Revert redstone cover changes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1925 (5.09.42.81)
+> * fix merge conflict correctly by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1926 (5.09.42.81)
+> * Fix missing polymer recipes (for dev) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1922 (5.09.42.80)
 > * Arc Furnace Fix (for dev) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1920 (5.09.42.79)
 > * Unify creosote block recipe (for dev branch) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1918 (5.09.42.78)
 > * RA2 fix number 17 (for dev branch) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1915 (5.09.42.77)
@@ -23,8 +66,32 @@
 > * MuTE overhaul and ACR by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1883 (5.09.42.71)
 >
 
-# Updated GTplusplus (1.8.40@BOTH --> 1.8.41-pre@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.8.41-pre
+# Updated GTplusplus (1.8.40@BOTH --> 1.8.43-pre@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.8.43-pre
+>## What's Changed
+> * fix crop harvester energy drain and non-last optimal level crops by @Denostrov in https://github.com/GTNewHorizons/GTplusplus/pull/609 (1.8.42)
+>
+>## New Contributors
+> * @Denostrov made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/609 (1.8.42)
+>
+
+# Updated Hodgepodge (2.2.8@BOTH --> 2.2.9@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.7...2.2.9
+>## What's Changed
+> * Add a priority to the TextureMap mixin by @quentin452 in https://github.com/GTNewHorizons/Hodgepodge/pull/209 (2.2.9)
+> * add logging to ztones patch  by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/208 (2.2.8)
+>
+>## New Contributors
+> * @quentin452 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/209 (2.2.9)
+>
+
+# Updated KubaTech (0.10.0@BOTH --> 0.10.2@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.10...0.10.2
+>## What's Changed
+> * Move the research to GTNH tab for now by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/72 (0.10.2)
+> * Add mod logo by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/71 (0.10.1)
+> * Tea Network update: still alpha by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/69 (0.10.0)
+>
 
 # Updated ModularUI (1.1.2@BOTH --> 1.1.3@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.3
@@ -35,11 +102,46 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/45 (1.1.2)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@BOTH --> 2.0.34@BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.0.34
+# Updated NEI-Integration (1.3.0@BOTH --> 1.3.1@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NEI-Integration/compare/1.2.3...1.3.1
 >## What's Changed
+> * Actually re-enable removed handlers, update buildscript & dependencies by @SteelShot in https://github.com/GTNewHorizons/NEI-Integration/pull/6 (1.3.1)
+> * Readd Handlers by @glowredman in https://github.com/GTNewHorizons/NEI-Integration/pull/5 (1.3.0)
+>
+>## New Contributors
+> * @SteelShot made their first contribution in https://github.com/GTNewHorizons/NEI-Integration/pull/6 (1.3.1)
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/NEI-Integration/pull/5 (1.3.0)
+>
+
+# Updated NewHorizonsCoreMod (2.0.32@BOTH --> 2.0.37@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.0.37
+>## What's Changed
+> * fix sieve by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/573 (2.0.37)
+> * Fix Phial recipe by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/572 (2.0.37)
 > * Enable GalacticGreg oregen for Amun-Ra by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/568 (2.0.34)
 > * Oredicts diodes and inductors for 2A-16A diodes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/571 (2.0.33)
+>
+
+# Updated TecTech (5.1.16@BOTH --> 5.1.19@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.1.19
+>## What's Changed
+> * Parametrizer Memory Card improvements by @miozune in https://github.com/GTNewHorizons/TecTech/pull/197 (5.1.19)
+> * no tengam by @chochem in https://github.com/GTNewHorizons/TecTech/pull/195 (5.1.17)
+> * Deobfuscate parameters by @glowredman in https://github.com/GTNewHorizons/TecTech/pull/191 (5.1.16)
+> * Fix Material by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/192 (5.1.16)
+> * Use Attuned Tengam for UEV/UIV/UMV Motors by @glowredman in https://github.com/GTNewHorizons/TecTech/pull/193 (5.1.16)
+> * Fix EOH estimated eu/t formula by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/194 (5.1.16)
+>
+
+# Updated ThaumicTinkerer (2.6.13@BOTH --> 2.7.0@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.6.12...2.7.0
+>## What's Changed
+> * Bug: Aspect Crops will never yield a certain valid drop by @bearsdotzone in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/30 (2.7.0)
+> * should fix arrow exploits for gt materials by @chochem in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/29 (2.6.13)
+>
+>## New Contributors
+> * @bearsdotzone made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/30 (2.7.0)
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/29 (2.6.13)
 >
 
 # Updated TinkersConstruct (1.9.26-GTNH@BOTH --> 1.9.27-GTNH@BOTH)
