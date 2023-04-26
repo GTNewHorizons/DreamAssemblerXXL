@@ -700,7 +700,7 @@
     },
     {
       "name": "AE2FluidCraft-Rework",
-      "latest_version": "1.1.7-gtnh",
+      "latest_version": "1.1.8-gtnh",
       "private": false,
       "versions": [
         {
@@ -1754,6 +1754,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/101889166",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.1.7-gtnh/ae2fc-1.1.7-gtnh.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.1.7-gtnh/AE2FluidCraft-Rework-1.1.7-gtnh.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.8-gtnh",
+          "changelog": "## What's Changed\n* Add null check when determining potential tanks to import by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/116\n* fix by @Dream-Master in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/117\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.7-gtnh...1.1.8-gtnh\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-26T20:43:59+00:00",
+          "filename": "ae2fc-1.1.8-gtnh.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/105471632",
+          "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.1.8-gtnh/ae2fc-1.1.8-gtnh.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.1.8-gtnh/AE2FluidCraft-Rework-1.1.8-gtnh.jar",
           "extra_assets": []
         }
       ],

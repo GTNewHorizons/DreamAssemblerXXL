@@ -1,5 +1,18 @@
 # New Mods:
 > * amunra
+# Updated AE2FluidCraft-Rework (1.1.7-gtnh@BOTH --> 1.1.8-gtnh@BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.2-gtnh...1.1.8-gtnh
+>## What's Changed
+> * Add null check when determining potential tanks to import by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/116 (1.1.8-gtnh)
+> * fix by @Dream-Master in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/117 (1.1.8-gtnh)
+> * Quantum fluid cell fix by @chochem in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.7-gtnh)
+> * Network throttle: Force ME update packets to be sent once every N ms. by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/110 (1.1.7-gtnh)
+> * Fix fluid terminal interactions by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/111 (1.1.7-gtnh)
+>
+>## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.7-gtnh)
+>
+
 # Updated Avaritia (1.37@BOTH --> 1.39@BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.36...1.39
 >## What's Changed
