@@ -21,10 +21,12 @@ Here is our Discord server in case you want to take a look at it:
 
 [![Join the Discord Server](https://discordapp.com/api/guilds/181078474394566657/widget.png?style=banner4)](https://discord.gg/gtnh)
 
-## Installing and Downloads
+## Installing
  
 <p align="justify">
-    Instructions on installing can be found at <a href="http://gtnh.miraheze.org/wiki/Installing_and_Migrating">here</a> and downloads can be found at <a href="http://downloads.gtnewhorizons.com">downloads.gtnewhorizons.com</a> - do not try to download the mods from the Modlist below, use the installer zips.
+    To install the GTNH modpack, please follow the instructions on the page <a href="http://gtnh.miraheze.org/wiki/Installing_and_Migrating">Installing and Migrating</a>.<BR>
+    The installation files can be found at <a href="http://downloads.gtnewhorizons.com">downloads.gtnewhorizons.com</a>.<BR>
+    Do not download the mods separately from the Modlist below - it is provided for reference purposes.
 </p>
 
 ## Quotes
