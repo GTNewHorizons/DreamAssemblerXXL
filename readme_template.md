@@ -136,13 +136,13 @@ Here is our Discord server in case you want to take a look at it:
 </p>
 
 ---
-## How do I join a server?
+## How to join a server
 
 <p align="justify">
     Go to the multiplayer menu and choose the server you would like to play on. If the server is whitelisted (check out the list below) you have to contact the staff on the linked website/discord first. For the official servers you can either apply directly on our website or type the "!apply" command on our discord (both linked below) to get further instructions on how to join! 
 </p>
 
-## EU Servers:<BR>
+### EU Servers:<BR>
 
 Official EU Server Public (whitelist)<BR>
 http://www.gtnewhorizons.com/ <BR>
@@ -173,7 +173,7 @@ Wiki: http://wiki.arcturus-official.eu/ <BR>
 play.arcturus-official.eu<BR>
 
 
-## US/Canada Servers:<BR>
+### US/Canada Servers:<BR>
 
 Prospercraft (greylist)<BR>
 http://www.prospercraft.com/ <BR>
@@ -199,7 +199,7 @@ IP: gtnh.stonehuts.net<BR>
 http://stonehuts.net <BR>
 
 
-## German Server:<BR>
+### German Server:<BR>
 
 MyFTB Public (open)<BR>
 https://myftb.de/ <BR>
@@ -207,7 +207,7 @@ gtnewhorizons.myftb.de<BR>
 
 
 
-## Russian Server:<BR>
+### Russian Servers:<BR>
 
 Hitechmine.ru  GTNG Server Russia<BR>
 hitechmine.ru:25565
