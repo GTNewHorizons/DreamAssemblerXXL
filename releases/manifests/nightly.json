@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-04-26T20:48:07.845650",
+  "last_updated": "2023-04-29T17:58:54.360013",
   "config": "2.3.3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.8-gtnh",
+      "version": "1.1.9-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-195-GTNH",
+      "version": "rv3-beta-197-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.0.48",
+      "version": "2.1.0",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.4.0",
+      "version": "1.4.1",
       "side": "BOTH"
     },
     "Botania": {
@@ -121,7 +121,7 @@
       "side": "BOTH"
     },
     "BuildCraftCompat": {
-      "version": "7.1.12",
+      "version": "7.1.14",
       "side": "BOTH"
     },
     "CarpentersBlocks": {
@@ -133,7 +133,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.10.19-GTNH",
+      "version": "2.11.0-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.6.5",
+      "version": "4.6.7",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.3.2",
+      "version": "1.3.3",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.8.43-pre",
+      "version": "1.8.45-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.10.2",
+      "version": "0.10.3",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.0.0-GTNH",
+      "version": "1.0.1-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.5.2",
+      "version": "1.5.4",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -437,7 +437,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.0.37",
+      "version": "2.0.38",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -449,7 +449,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.45-GTNH",
+      "version": "2.3.46-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -461,7 +461,7 @@
       "side": "CLIENT"
     },
     "OCGlasses": {
-      "version": "1.3.0-GTNH",
+      "version": "1.3.1-GTNH",
       "side": "BOTH"
     },
     "OpenBlocks": {
@@ -469,7 +469,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.9.1-GTNH",
+      "version": "1.9.3-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -493,7 +493,7 @@
       "side": "CLIENT"
     },
     "PersonalSpace": {
-      "version": "1.0.24",
+      "version": "1.0.25",
       "side": "BOTH"
     },
     "ProjectBlue": {
@@ -645,7 +645,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.9.27-GTNH",
+      "version": "1.9.29-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.3.5",
+      "version": "1.3.6",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.0.14",
+      "version": "1.0.15",
       "side": "BOTH"
     },
     "amunra": {
