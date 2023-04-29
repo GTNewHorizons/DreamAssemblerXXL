@@ -21,10 +21,12 @@ Here is our Discord server in case you want to take a look at it:
 
 [![Join the Discord Server](https://discordapp.com/api/guilds/181078474394566657/widget.png?style=banner4)](https://discord.gg/gtnh)
 
-## Installing and Downloads
+## Installing
  
 <p align="justify">
-    Instructions on installing can be found at <a href="http://gtnh.miraheze.org/wiki/Installing_and_Migrating">here</a> and downloads can be found at <a href="http://downloads.gtnewhorizons.com">downloads.gtnewhorizons.com</a> - do not try to download the mods from the Modlist below, use the installer zips.
+    To install the GTNH modpack, please follow the instructions on the page <a href="http://gtnh.miraheze.org/wiki/Installing_and_Migrating">Installing and Migrating</a>.<BR>
+    The installation files can be found at <a href="http://downloads.gtnewhorizons.com">downloads.gtnewhorizons.com</a>.<BR>
+    Do not download the mods separately from the Modlist below - it is provided for reference purposes.
 </p>
 
 ## Quotes
@@ -136,13 +138,13 @@ Here is our Discord server in case you want to take a look at it:
 </p>
 
 ---
-## How do I join a server?
+## How to join a server
 
 <p align="justify">
     Go to the multiplayer menu and choose the server you would like to play on. If the server is whitelisted (check out the list below) you have to contact the staff on the linked website/discord first. For the official servers you can either apply directly on our website or type the "!apply" command on our discord (both linked below) to get further instructions on how to join! 
 </p>
 
-## EU Servers:<BR>
+### EU Servers:<BR>
 
 Official EU Server Public (whitelist)<BR>
 http://www.gtnewhorizons.com/ <BR>
@@ -173,7 +175,7 @@ Wiki: http://wiki.arcturus-official.eu/ <BR>
 play.arcturus-official.eu<BR>
 
 
-## US/Canada Servers:<BR>
+### US/Canada Servers:<BR>
 
 Prospercraft (greylist)<BR>
 http://www.prospercraft.com/ <BR>
@@ -199,7 +201,7 @@ IP: gtnh.stonehuts.net<BR>
 http://stonehuts.net <BR>
 
 
-## German Server:<BR>
+### German Server:<BR>
 
 MyFTB Public (open)<BR>
 https://myftb.de/ <BR>
@@ -207,7 +209,7 @@ gtnewhorizons.myftb.de<BR>
 
 
 
-## Russian Server:<BR>
+### Russian Servers:<BR>
 
 Hitechmine.ru  GTNG Server Russia<BR>
 hitechmine.ru:25565
@@ -226,6 +228,12 @@ Discord Link: https://discord.com/invite/gtnh <BR>
 Forum Link: http://gtnewhorizons.com/ <BR>
 WIKI Link: https://gtnh.miraheze.org/wiki/Main_Page
 
+### Contributing
+
+Want to contribute to GTNH? Join our Discord with the link above and read the development manual: https://gtnh.miraheze.org/wiki/Development.
+
+
+
 ## Resource Realistic Sky GT New Horizons
 A resource pack created by MajaProduction that needs Optifine installed, you can find it in your resource folder<BR>
 
@@ -240,4 +248,4 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 
 ---
 
-Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes, Warlord Wossman, SanMan911, Bigbass1997, Ugachaga, MineAnPlay, Giovanni_NL, Ethryan, MTesseracT, Bryfer, Bartimaeusnek, codewarrior, Moronwmachinegun, Mitchej, Zoko061602, Spartak, Highbeam, 0lafe, Teirdalin, Prometheus, KiloJoel, Glease, Kiwi, Bot, LeaGris, Boubou, Glowredman, Repo, DvDManDT, Moller, Colen, Minecraft7771, MuXiu1997, Runakai, YannickMG, SinTh0r4s, Alexdoru, Kiwi, bombcar, vlaetansky, POPlol333, Raven, miozune, GlodBlock, asdflj, D-Cysteine, DianeXD, Ethryan, BlueWeabo, Kuba, Quarri, Steelux8, S4mpsa , chochem, iouter, Elisis and many more.
+Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes, Warlord Wossman, SanMan911, Bigbass1997, Ugachaga, MineAnPlay, Giovanni_NL, Ethryan, MTesseracT, Bryfer, Bartimaeusnek, codewarrior, Moronwmachinegun, Mitchej, Zoko061602, Spartak, Highbeam, 0lafe, Teirdalin, Prometheus, KiloJoel, Glease, Kiwi, Bot, LeaGris, Boubou, Glowredman, Repo, DvDManDT, Moller, Colen, Minecraft7771, MuXiu1997, Runakai, YannickMG, SinTh0r4s, Alexdoru, Kiwi, bombcar, vlaetansky, POPlol333, Raven, miozune, GlodBlock, asdflj, D-Cysteine, DianeXD, Ethryan, BlueWeabo, Kuba, Quarri, Steelux8, S4mpsa, chochem, iouter, Elisis and many more.
