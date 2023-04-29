@@ -226,6 +226,12 @@ Discord Link: https://discord.com/invite/gtnh <BR>
 Forum Link: http://gtnewhorizons.com/ <BR>
 WIKI Link: https://gtnh.miraheze.org/wiki/Main_Page
 
+### Contributing
+
+Want to contribute to GTNH? Join our Discord with the link above and read the development manual: https://gtnh.miraheze.org/wiki/Development.
+
+
+
 ## Resource Realistic Sky GT New Horizons
 A resource pack created by MajaProduction that needs Optifine installed, you can find it in your resource folder<BR>
 
