@@ -1,7 +1,5 @@
-# New Mods:
-> * amunra
-# Updated AE2FluidCraft-Rework (1.1.7-gtnh@Side.BOTH --> 1.1.9-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.2-gtnh...1.1.9-gtnh
+# Updated AE2FluidCraft-Rework (1.1.7-gtnh@Side.BOTH --> 1.1.11-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.2-gtnh...1.1.11-gtnh-pre
 >## What's Changed
 > * Add null check for tanks by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/118 (1.1.9-gtnh)
 > * Add null check when determining potential tanks to import by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/116 (1.1.8-gtnh)
@@ -61,9 +59,10 @@
 > * @albus12138 made their first contribution in https://github.com/GTNewHorizons/BloodMagic/pull/44 (1.4.0)
 >
 
-# Updated Botania (1.9.16-GTNH@Side.BOTH --> 1.9.18-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.9.15-GTNH...1.9.18-GTNH-pre
+# Updated Botania (1.9.16-GTNH@Side.BOTH --> 1.9.20-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.9.15-GTNH...1.9.20-GTNH-pre
 >## What's Changed
+> * Fix ring of loki range by @LewisSaber in https://github.com/GTNewHorizons/Botania/pull/26 (1.9.19-GTNH)
 > * Ring of loki improvement by @LewisSaber in https://github.com/GTNewHorizons/Botania/pull/25 (1.9.17-GTNH)
 >
 >## New Contributors
@@ -96,15 +95,6 @@
 # Updated CraftTweaker (3.2.11@Side.BOTH --> 3.2.12@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/CraftTweaker/compare/3.2.10...3.2.12
 
-# Updated Draconic-Evolution (1.1.15-GTNH@Side.BOTH --> 1.1.16-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.14-GTNH...1.1.16-GTNH-pre
->## What's Changed
-> * Consume 64 ender pearls at once by @LewisSaber in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
->
->## New Contributors
-> * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
->
-
 # Updated ForestryMC (4.6.5@Side.BOTH --> 4.6.7@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.3...4.6.7
 >## What's Changed
@@ -128,9 +118,12 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.42.82@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.42.82
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.42.84@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.42.84
 >## What's Changed
+> * Some more ra2 fixes (for dev branch) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1933 (5.09.42.84)
+> * Titaniumtetrachloride Fix (for dev branch) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1928 (5.09.42.83)
+> * crop autoclave fix (for dev) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1930 (5.09.42.83)
 > * Revert redstone cover changes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1925 (5.09.42.81)
 > * fix merge conflict correctly by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1926 (5.09.42.81)
 > * Fix missing polymer recipes (for dev) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1922 (5.09.42.80)
@@ -153,8 +146,8 @@
 > * Fix Materials by @Dream-Master in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/19 (1.0.14)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.8.45-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.8.45-pre
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.8.46-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.8.46-pre
 >## What's Changed
 > * fix missing industrial hcl by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/610 (1.8.45-pre)
 > * fix missing industrial hcl by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/610 (1.8.44)
@@ -164,9 +157,10 @@
 > * @Denostrov made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/609 (1.8.42)
 >
 
-# Updated Hodgepodge (2.2.8@Side.BOTH --> 2.2.9@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.7...2.2.9
+# Updated Hodgepodge (2.2.8@Side.BOTH --> 2.2.10@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.7...2.2.10
 >## What's Changed
+> * Validate datawatcher and custom payload packets during construction for precise stacktraces by @eigenraven in https://github.com/GTNewHorizons/Hodgepodge/pull/210 (2.2.10)
 > * Add a priority to the TextureMap mixin by @quentin452 in https://github.com/GTNewHorizons/Hodgepodge/pull/209 (2.2.9)
 > * add logging to ztones patch  by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/208 (2.2.8)
 >
@@ -192,6 +186,16 @@
 >## New Contributors
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/20 (1.0.1-GTNH)
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/19 (1.0.0-GTNH)
+>
+
+# Updated MagicBees (2.6.1-GTNH@Side.BOTH --> 2.6.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.6.0-GTNH...2.6.2-GTNH
+>## What's Changed
+> * Collector's Bee Ring feature by @Cardinalstars in https://github.com/GTNewHorizons/MagicBees/pull/19 (2.6.2-GTNH)
+> * Implement accelerated effect on Rejuvenating bee effect + Fix by @kuba6000 in https://github.com/GTNewHorizons/MagicBees/pull/18 (2.6.1-GTNH)
+>
+>## New Contributors
+> * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/19 (2.6.2-GTNH)
 >
 
 # Updated ModularUI (1.1.2@Side.BOTH --> 1.1.3@Side.BOTH)
@@ -259,9 +263,10 @@
 > * Better permission checks and messages in case they fail by @eigenraven in https://github.com/GTNewHorizons/PersonalSpace/pull/16 (1.0.24)
 >
 
-# Updated TecTech (5.1.16@Side.BOTH --> 5.1.19@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.1.19
+# Updated TecTech (5.1.16@Side.BOTH --> 5.1.20@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.1.20
 >## What's Changed
+> * Remove unused GT_Container and GT_GUIContainer extenders by @miozune in https://github.com/GTNewHorizons/TecTech/pull/198 (5.1.20)
 > * Parametrizer Memory Card improvements by @miozune in https://github.com/GTNewHorizons/TecTech/pull/197 (5.1.19)
 > * no tengam by @chochem in https://github.com/GTNewHorizons/TecTech/pull/195 (5.1.17)
 > * Deobfuscate parameters by @glowredman in https://github.com/GTNewHorizons/TecTech/pull/191 (5.1.16)
@@ -292,19 +297,6 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/81 (1.9.29-GTNH)
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/81 (1.9.28-GTNH)
 > * @StrangeMan1580 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/79 (1.9.27-GTNH)
->
-
-# New Mod - amunra (0.4.11@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.11
->## What's Changed
-> * Fix duplicate channel name by @glowredman in https://github.com/GTNewHorizons/amunra/pull/2 (0.4.11)
-> * Update Buildscript by @glowredman in https://github.com/GTNewHorizons/amunra/pull/3 (0.4.11)
-> * Spotless apply for branch dev for #4 by @github-actions in https://github.com/GTNewHorizons/amunra/pull/5 (0.4.11)
-> * Various Fixes by @glowredman in https://github.com/GTNewHorizons/amunra/pull/4 (0.4.11)
-> * Migrate to new buildscript by @glowredman in https://github.com/GTNewHorizons/amunra/pull/1 (0.4.10)
->
->## New Contributors
-> * @github-actions made their first contribution in https://github.com/GTNewHorizons/amunra/pull/5 (0.4.11)
 >
 
 # Updated bartworks (0.6.14@Side.BOTH --> 0.6.15@Side.BOTH)

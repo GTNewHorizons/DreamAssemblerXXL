@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-04-29T17:58:54.360013",
+  "last_updated": "2023-04-30T10:09:19.396237",
   "config": "2.3.3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.9-gtnh",
+      "version": "1.1.11-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -101,7 +101,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.9.18-GTNH-pre",
+      "version": "1.9.20-GTNH-pre",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "Draconic-Evolution": {
-      "version": "1.1.16-GTNH-pre",
+      "version": "1.1.15-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.42.82",
+      "version": "5.09.42.84",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.8.45-pre",
+      "version": "1.8.46-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.2.9",
+      "version": "2.2.10",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.6.1-GTNH",
+      "version": "2.6.2-GTNH",
       "side": "BOTH"
     },
     "MalisisCore": {
@@ -601,7 +601,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.1.19",
+      "version": "5.1.20",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -814,10 +814,6 @@
     },
     "GTNH-Intergalactic": {
       "version": "1.0.15",
-      "side": "BOTH"
-    },
-    "amunra": {
-      "version": "0.4.11",
       "side": "BOTH"
     }
   },
