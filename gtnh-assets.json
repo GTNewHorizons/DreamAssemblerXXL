@@ -1939,14 +1939,17 @@
     {
       "name": "amunra",
       "latest_version": "0.4.14",
+      "private": false,
       "versions": [
         {
           "version_tag": "0.4.10",
           "changelog": "## What's Changed\n* Migrate to new buildscript by @glowredman in https://github.com/GTNewHorizons/amunra/pull/1\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.8...0.4.10",
+          "prerelease": false,
           "tagged_at": "2022-02-13T12:53:03+00:00",
           "filename": "amunra-1.7.10-0.4.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/56693282",
-          "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.10/amunra-1.7.10-0.4.10.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.10/amunra-1.7.10-0.4.10.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "0.4.11",
@@ -1956,7 +1959,6 @@
           "filename": "amunra-0.4.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/105012618",
           "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.11/amunra-0.4.11.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/0.4.11/amunra-0.4.11.jar",
           "extra_assets": []
         },
         {
@@ -1987,13 +1989,14 @@
           "filename": "amunra-0.4.14.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/106446277",
           "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.14/amunra-0.4.14.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/0.4.14/amunra-0.4.14.jar",
           "extra_assets": []
         }
       ],
       "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/amunra",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/",
-      "side": "NONE"
+      "side": "BOTH"
     },
     {
       "name": "AngerMod",
@@ -11871,7 +11874,8 @@
       ],
       "license": "MIT License",
       "repo_url": "https://github.com/GTNewHorizons/ExtraCells2",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ExtraCells2/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ExtraCells2/",
+      "side": "NONE"
     },
     {
       "name": "FastCraft",

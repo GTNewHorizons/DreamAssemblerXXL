@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-05-05T18:53:01.389860",
+  "last_updated": "2023-05-05T19:01:25.217143",
   "config": "2.3.3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -210,10 +210,6 @@
     },
     "Eternal-Singularity": {
       "version": "1.1.0",
-      "side": "BOTH"
-    },
-    "ExtraCells2": {
-      "version": "2.5.34",
       "side": "BOTH"
     },
     "FindIt": {
@@ -814,6 +810,10 @@
     },
     "GTNH-Intergalactic": {
       "version": "1.1.2",
+      "side": "BOTH"
+    },
+    "amunra": {
+      "version": "0.4.14",
       "side": "BOTH"
     }
   },

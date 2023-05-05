@@ -1,3 +1,7 @@
+# New Mods:
+> * amunra
+# Mods Removed:
+> * ExtraCells2
 # Updated AE2FluidCraft-Rework (1.1.7-gtnh@Side.BOTH --> 1.1.15-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.2-gtnh...1.1.15-gtnh
 >## What's Changed
@@ -132,17 +136,6 @@
 **Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.10...2.4.13
 >## What's Changed
 > * Use config for transceiver's energy buffer by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/119 (2.4.13)
->
-
-# Updated ExtraCells2 (2.5.33@Side.BOTH --> 2.5.34@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ExtraCells2/compare/2.5.32...2.5.34
->## What's Changed
-> * Fix typo in warning by @chill-was-taken in https://github.com/GTNewHorizons/ExtraCells2/pull/82 (2.5.34)
-> * Self destruct. (FStorage bus, FImport/Export bus, and more) by @firenoo in https://github.com/GTNewHorizons/ExtraCells2/pull/81 (2.5.33)
->
->## New Contributors
-> * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/ExtraCells2/pull/82 (2.5.34)
-> * @firenoo made their first contribution in https://github.com/GTNewHorizons/ExtraCells2/pull/81 (2.5.33)
 >
 
 # Updated ForestryMC (4.6.5@Side.BOTH --> 4.6.7@Side.BOTH)
@@ -532,6 +525,23 @@
 >## What's Changed
 > * Fix spawned doppelgänger by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/30 (1.2.16-GTNH)
 > * Fix fake creeper by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/29 (1.2.14-GTNH)
+>
+
+# New Mod - amunra (0.4.14@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.14
+>## What's Changed
+> * A lot of cleanup by @glowredman in https://github.com/GTNewHorizons/amunra/pull/9 (0.4.14)
+> * Allow offline servers in dev env by @glowredman in https://github.com/GTNewHorizons/amunra/pull/8 (0.4.13)
+> * Spotless apply for branch fixes for #6 by @github-actions in https://github.com/GTNewHorizons/amunra/pull/7 (0.4.12)
+> * Various Fixes by @glowredman in https://github.com/GTNewHorizons/amunra/pull/6 (0.4.12)
+> * Fix duplicate channel name by @glowredman in https://github.com/GTNewHorizons/amunra/pull/2 (0.4.11)
+> * Update Buildscript by @glowredman in https://github.com/GTNewHorizons/amunra/pull/3 (0.4.11)
+> * Spotless apply for branch dev for #4 by @github-actions in https://github.com/GTNewHorizons/amunra/pull/5 (0.4.11)
+> * Various Fixes by @glowredman in https://github.com/GTNewHorizons/amunra/pull/4 (0.4.11)
+> * Migrate to new buildscript by @glowredman in https://github.com/GTNewHorizons/amunra/pull/1 (0.4.10)
+>
+>## New Contributors
+> * @github-actions made their first contribution in https://github.com/GTNewHorizons/amunra/pull/5 (0.4.11)
 >
 
 # Updated bartworks (0.6.14@Side.BOTH --> 0.7.2@Side.BOTH)

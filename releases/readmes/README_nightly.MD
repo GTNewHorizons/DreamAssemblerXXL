@@ -249,6 +249,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.1.15-gtnh |
 | [ae2stuff](https://github.com/GTNewHorizons/ae2stuff) | 0.5.1.16-GTNH |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.2.6-GTNH |
+| [amunra](https://github.com/GTNewHorizons/amunra) | 0.4.14 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.6.3 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.2.10 |
 | [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-204-GTNH |
@@ -316,7 +317,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [EnhancedLootBags](https://github.com/GTNewHorizons/EnhancedLootBags) | 1.1.0 |
 | [Eternal-Singularity](https://github.com/GTNewHorizons/Eternal-Singularity) | 1.1.0 |
 | [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities) | 1.2.13a |
-| [ExtraCells2](https://github.com/GTNewHorizons/ExtraCells2) | 2.5.34 |
 | [FastCraft](https://www.curseforge.com/minecraft/mc-mods/fastcraft) | 1.25 |
 | [FindIt](https://github.com/GTNewHorizons/FindIt) | 1.1.0 |
 | [FloodLights](https://github.com/GTNewHorizons/FloodLights) | 1.2.9 |
