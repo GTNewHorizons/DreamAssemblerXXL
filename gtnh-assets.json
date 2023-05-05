@@ -9145,7 +9145,7 @@
     },
     {
       "name": "Craft-Presence",
-      "latest_version": "2.0.0-RC-1",
+      "latest_version": "2.0.0-RC-3",
       "needs_attention": false,
       "versions": [
         {
@@ -9198,6 +9198,32 @@
           "curse_file": {
             "project_no": "",
             "file_no": "4458235"
+          }
+        },
+        {
+          "version_tag": "2.0.0-RC-2",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2023-05-05T21:20:40.535282",
+          "filename": "CraftPresence-2.0.0-rc.2%2B1.7.10.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/4483/532/CraftPresence-2.0.0-rc.2%2B1.7.10.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/craftpresence/files/4483532",
+          "curse_file": {
+            "project_no": "",
+            "file_no": "4483532"
+          }
+        },
+        {
+          "version_tag": "2.0.0-RC-3",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2023-05-05T21:21:28.454290",
+          "filename": "CraftPresence-2.0.0-rc.3%2B1.7.10.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/4515/29/CraftPresence-2.0.0-rc.3%2B1.7.10.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/craftpresence/files/4515029",
+          "curse_file": {
+            "project_no": "",
+            "file_no": "4515029"
           }
         }
       ],
