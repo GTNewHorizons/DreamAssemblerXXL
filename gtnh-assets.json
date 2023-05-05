@@ -34048,7 +34048,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.3.47-GTNH",
+      "latest_version": "2.3.48-GTNH",
       "private": false,
       "versions": [
         {
@@ -35216,6 +35216,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/106894084",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.47-GTNH/NotEnoughItems-2.3.47-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.47-GTNH/NotEnoughItems-2.3.47-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.3.48-GTNH",
+          "changelog": "## What's Changed\n* Make sure NEI plugins are loaded before processing key bindings by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/375\n\n## New Contributors\n* @wlhlm made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/375\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.47-GTNH...2.3.48-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-05T19:04:20+00:00",
+          "filename": "NotEnoughItems-2.3.48-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/106904136",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.48-GTNH/NotEnoughItems-2.3.48-GTNH.jar",
           "extra_assets": []
         }
       ],
