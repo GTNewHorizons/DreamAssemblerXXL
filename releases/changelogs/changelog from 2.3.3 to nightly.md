@@ -417,14 +417,16 @@
 > * Oredicts diodes and inductors for 2A-16A diodes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/571 (2.0.33)
 >
 
-# Updated NotEnoughItems (2.3.45-GTNH@Side.BOTH --> 2.3.47-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.43-GTNH...2.3.47-GTNH
+# Updated NotEnoughItems (2.3.45-GTNH@Side.BOTH --> 2.3.48-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.43-GTNH...2.3.48-GTNH
 >## What's Changed
+> * Make sure NEI plugins are loaded before processing key bindings by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/375 (2.3.48-GTNH)
 > * Readme: fix wording by @chill-was-taken in https://github.com/GTNewHorizons/NotEnoughItems/pull/374 (2.3.47-GTNH)
 > * Create handlers for Fusion Crafting (DE-), Techguns and some missing NC recipes by @MalTeeez in https://github.com/GTNewHorizons/NotEnoughItems/pull/372 (2.3.46-GTNH)
 > * More robust IMC handling by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/371 (2.3.45-GTNH)
 >
 >## New Contributors
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/375 (2.3.48-GTNH)
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/374 (2.3.47-GTNH)
 > * @MalTeeez made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/372 (2.3.46-GTNH)
 >

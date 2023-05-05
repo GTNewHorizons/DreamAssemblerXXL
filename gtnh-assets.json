@@ -510,7 +510,7 @@
   "mods": [
     {
       "name": "UniMixins",
-      "latest_version": "0.1.5",
+      "latest_version": "0.1.7.1",
       "versions": [
         {
           "version_tag": "0.1.5",
@@ -520,6 +520,15 @@
           "filename": "unimixins-all-1.7.10-0.1.5.jar",
           "download_url": "https://github.com/LegacyModdingMC/UniMixins/releases/download/0.1.5/_unimixins-all-1.7.10-0.1.5.jar",
           "browser_download_url": "https://github.com/LegacyModdingMC/UniMixins/releases/tag/0.1.5"
+        },
+		        {
+          "version_tag": "0.1.7.1",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2023-05-05T22:05:00.815698",
+          "filename": "unimixins-all-1.7.10-0.1.7.1.jar",
+          "download_url": "https://github.com/LegacyModdingMC/UniMixins/releases/download/0.1.7.1/-unimixins-all-1.7.10-0.1.7.1.jar",
+          "browser_download_url": "https://github.com/LegacyModdingMC/UniMixins/releases/tag/0.1.7.1"
         }
       ],
       "license": "MIT/LGPL",
