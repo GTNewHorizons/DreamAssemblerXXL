@@ -4006,7 +4006,7 @@
     },
     {
       "name": "bartworks",
-      "latest_version": "0.7.2",
+      "latest_version": "0.7.3",
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -5434,6 +5434,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.2/bartworks-0.7.2.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.7.2/bartworks-0.7.2.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "0.7.3",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.2...0.7.3\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-06T07:15:33+00:00",
+          "filename": "bartworks-0.7.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/106966149",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.3/bartworks-0.7.3.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.7.3/bartworks-0.7.3.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -6065,7 +6076,7 @@
     },
     {
       "name": "BetterP2P",
-      "latest_version": "1.1.9",
+      "latest_version": "1.1.10",
       "versions": [
         {
           "version_tag": "1.0.3",
@@ -6376,6 +6387,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterP2P/releases/assets/105464186",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.1.9/betterp2p-1.1.9.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterP2P/1.1.9/BetterP2P-1.1.9.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.10",
+          "changelog": "## What's Changed\n* Update buildscript by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/27\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.9...1.1.10\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-06T06:44:19+00:00",
+          "filename": "betterp2p-1.1.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterP2P/releases/assets/106964200",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.1.10/betterp2p-1.1.10.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterP2P/1.1.10/BetterP2P-1.1.10.jar",
           "extra_assets": []
         }
       ],
@@ -7205,7 +7227,7 @@
     },
     {
       "name": "BlockRenderer6343",
-      "latest_version": "1.0.0-RC7",
+      "latest_version": "1.0.1",
       "versions": [
         {
           "version_tag": "1.0.0-RC1",
@@ -7266,6 +7288,27 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BlockRenderer6343/releases/assets/89324200",
           "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.0.0-RC7/blockrenderer6343-1.7.10-1.0.0-RC7.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BlockRenderer6343/1.0.0-RC7/BlockRenderer6343-1.0.0-RC7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.0-RC8-pre",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2023-05-05T21:19:31+00:00",
+          "filename": "blockrenderer6343-1.0.0-RC8-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BlockRenderer6343/releases/assets/106915795",
+          "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.0.0-RC8-pre/blockrenderer6343-1.0.0-RC8-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.1",
+          "changelog": "## What's Changed\n* Forge Direction fix by @Dream-Master in https://github.com/GTNewHorizons/BlockRenderer6343/pull/5\n\n## New Contributors\n* @Dream-Master made their first contribution in https://github.com/GTNewHorizons/BlockRenderer6343/pull/5\n\n**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.0.0-RC7...1.0.1\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-06T06:39:35+00:00",
+          "filename": "blockrenderer6343-1.0.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BlockRenderer6343/releases/assets/106963973",
+          "browser_download_url": "https://github.com/GTNewHorizons/BlockRenderer6343/releases/download/1.0.1/blockrenderer6343-1.0.1.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BlockRenderer6343/1.0.1/BlockRenderer6343-1.0.1.jar",
           "extra_assets": []
         }
       ],
@@ -10084,7 +10127,7 @@
     },
     {
       "name": "Electro-Magic-Tools",
-      "latest_version": "1.3.0",
+      "latest_version": "1.3.1",
       "versions": [
         {
           "version_tag": "1.2.6.5",
@@ -10396,6 +10439,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/106165749",
           "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.3.0/EMT-1.3.0.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Electro-Magic-Tools/1.3.0/Electro-Magic-Tools-1.3.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.1",
+          "changelog": "## What's Changed\n* Adding a maintenance foci, thaumic alternative to carrying a toolbox/duct-tape by @Cardinalstars in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/60\n\n## New Contributors\n* @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/60\n\n**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.3.0...1.3.1\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-06T06:45:01+00:00",
+          "filename": "EMT-1.3.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Electro-Magic-Tools/releases/assets/106964253",
+          "browser_download_url": "https://github.com/GTNewHorizons/Electro-Magic-Tools/releases/download/1.3.1/EMT-1.3.1.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Electro-Magic-Tools/1.3.1/Electro-Magic-Tools-1.3.1.jar",
           "extra_assets": []
         }
       ],
@@ -12074,7 +12128,7 @@
     },
     {
       "name": "ForbiddenMagic",
-      "latest_version": "0.6.6-GTNH",
+      "latest_version": "0.6.7-GTNH",
       "versions": [
         {
           "version_tag": "0.6-GTNH",
@@ -12136,6 +12190,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ForbiddenMagic/releases/assets/95332983",
           "browser_download_url": "https://github.com/GTNewHorizons/ForbiddenMagic/releases/download/0.6.6-GTNH/Forbidden.Magic-0.6.6-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForbiddenMagic/0.6.6-GTNH/ForbiddenMagic-0.6.6-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.6.7-GTNH",
+          "changelog": "## What's Changed\n* Fixing dependencies by @Cardinalstars in https://github.com/GTNewHorizons/ForbiddenMagic/pull/12\n\n## New Contributors\n* @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForbiddenMagic/pull/12\n\n**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.6.6-GTNH...0.6.7-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-06T07:16:22+00:00",
+          "filename": "Forbidden.Magic-0.6.7-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ForbiddenMagic/releases/assets/106966185",
+          "browser_download_url": "https://github.com/GTNewHorizons/ForbiddenMagic/releases/download/0.6.7-GTNH/Forbidden.Magic-0.6.7-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ForbiddenMagic/0.6.7-GTNH/ForbiddenMagic-0.6.7-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -15460,7 +15525,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.11-pre",
+      "latest_version": "5.09.43.12",
       "private": false,
       "versions": [
         {
@@ -20634,6 +20699,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/106901866",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.11-pre/gregtech-5.09.43.11-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.11-pre/GT5-Unofficial-5.09.43.11-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.12",
+          "changelog": "## What's Changed\n* Default facing fixes by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1945\n* ULV OCs should not overclock too much and waste power by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1951\n* Display multiblock name&icon in AE2 interface terminal and crafting tree view instead of the hatch by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1944\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.10...5.09.43.12\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-06T07:01:03+00:00",
+          "filename": "gregtech-5.09.43.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/106965478",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.12/gregtech-5.09.43.12.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.12/GT5-Unofficial-5.09.43.12.jar",
           "extra_assets": []
         }
       ],
@@ -26694,7 +26770,7 @@
     },
     {
       "name": "KekzTech",
-      "latest_version": "0.8.0",
+      "latest_version": "0.8.1",
       "private": false,
       "versions": [
         {
@@ -27130,6 +27206,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/KekzTech/releases/assets/106171610",
           "browser_download_url": "https://github.com/GTNewHorizons/KekzTech/releases/download/0.8.0/kekztech-0.8.0.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KekzTech/0.8.0/KekzTech-0.8.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.8.1",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.8.0...0.8.1\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-06T08:38:11+00:00",
+          "filename": "kekztech-0.8.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KekzTech/releases/assets/106971598",
+          "browser_download_url": "https://github.com/GTNewHorizons/KekzTech/releases/download/0.8.1/kekztech-0.8.1.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KekzTech/0.8.1/KekzTech-0.8.1.jar",
           "extra_assets": []
         }
       ],
@@ -31759,7 +31846,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.3",
+      "latest_version": "2.1.4",
       "private": false,
       "versions": [
         {
@@ -33780,6 +33867,16 @@
           "filename": "GTNewHorizonsCoreMod-2.1.3.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/106894071",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.3/GTNewHorizonsCoreMod-2.1.3.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.4",
+          "changelog": "## What's Changed\n* Integrate BW material replacements by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/580\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.3...2.1.4\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-06T08:36:56+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/106971445",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.4/GTNewHorizonsCoreMod-2.1.4.jar",
           "extra_assets": []
         }
       ],
@@ -39369,7 +39466,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.2.4",
+      "latest_version": "5.2.5",
       "private": false,
       "versions": [
         {
@@ -40814,6 +40911,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/106898535",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.2.4/TecTech-5.2.4.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.2.4/TecTech-5.2.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.2.5",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.4...5.2.5\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-06T07:24:10+00:00",
+          "filename": "TecTech-5.2.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/106966813",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.2.5/TecTech-5.2.5.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.2.5/TecTech-5.2.5.jar",
           "extra_assets": []
         }
       ],
