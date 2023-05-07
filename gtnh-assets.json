@@ -1868,6 +1868,7 @@
           "filename": "ae2fc-1.1.17-gtnh-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/AE2FluidCraft-Rework/releases/assets/107102785",
           "browser_download_url": "https://github.com/GTNewHorizons/AE2FluidCraft-Rework/releases/download/1.1.17-gtnh-pre/ae2fc-1.1.17-gtnh-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AE2FluidCraft-Rework/1.1.17-gtnh-pre/AE2FluidCraft-Rework-1.1.17-gtnh-pre.jar",
           "extra_assets": []
         }
       ],
@@ -3572,6 +3573,7 @@
           "filename": "appliedenergistics2-rv3-beta-206-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/107099339",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-206-GTNH/appliedenergistics2-rv3-beta-206-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-206-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-206-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -5494,6 +5496,7 @@
           "filename": "bartworks-0.7.4.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/107000463",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.4/bartworks-0.7.4.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.7.4/bartworks-0.7.4.jar",
           "extra_assets": []
         }
       ],
@@ -20810,6 +20813,7 @@
           "filename": "gregtech-5.09.43.17.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107100332",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.17/gregtech-5.09.43.17.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.17/GT5-Unofficial-5.09.43.17.jar",
           "extra_assets": []
         }
       ],
@@ -24599,6 +24603,7 @@
           "filename": "harvestcraft-1.1.0-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/harvestcraft/releases/assets/106999209",
           "browser_download_url": "https://github.com/GTNewHorizons/harvestcraft/releases/download/1.1.0-GTNH/harvestcraft-1.1.0-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/harvestcraft/1.1.0-GTNH/harvestcraft-1.1.0-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -27347,6 +27352,7 @@
           "filename": "kekztech-0.8.3.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/KekzTech/releases/assets/107000252",
           "browser_download_url": "https://github.com/GTNewHorizons/KekzTech/releases/download/0.8.3/kekztech-0.8.3.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KekzTech/0.8.3/KekzTech-0.8.3.jar",
           "extra_assets": []
         }
       ],
@@ -31121,6 +31127,7 @@
           "filename": "modularui-1.1.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/107059845",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.1.6/modularui-1.1.6.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.1.6/ModularUI-1.1.6.jar",
           "extra_assets": []
         }
       ],
@@ -35579,6 +35586,7 @@
           "filename": "NotEnoughItems-2.3.49-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/107100931",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.49-GTNH-pre/NotEnoughItems-2.3.49-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.49-GTNH-pre/NotEnoughItems-2.3.49-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -36278,6 +36286,7 @@
           "filename": "OpenComputers-1.9.5-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/107100639",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.9.5-GTNH/OpenComputers-1.9.5-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenComputers/1.9.5-GTNH/OpenComputers-1.9.5-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -41162,6 +41171,7 @@
           "filename": "TecTech-5.2.6-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/107103099",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.2.6-pre/TecTech-5.2.6-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.2.6-pre/TecTech-5.2.6-pre.jar",
           "extra_assets": []
         }
       ],
@@ -42886,6 +42896,7 @@
           "filename": "TConstruct-1.9.31-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/107100377",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.31-GTNH/TConstruct-1.9.31-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/1.9.31-GTNH/TinkersConstruct-1.9.31-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -43695,6 +43706,7 @@
           "filename": "Waila-1.6.0.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/waila/releases/assets/107001327",
           "browser_download_url": "https://github.com/GTNewHorizons/waila/releases/download/1.6.0/Waila-1.6.0.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/waila/1.6.0/waila-1.6.0.jar",
           "extra_assets": []
         }
       ],
