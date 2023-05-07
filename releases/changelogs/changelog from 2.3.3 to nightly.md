@@ -2,9 +2,10 @@
 > * amunra
 # Mods Removed:
 > * ExtraCells2
-# Updated AE2FluidCraft-Rework (1.1.7-gtnh@Side.BOTH --> 1.1.15-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.2-gtnh...1.1.15-gtnh
+# Updated AE2FluidCraft-Rework (1.1.7-gtnh@Side.BOTH --> 1.1.17-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.2-gtnh...1.1.17-gtnh-pre
 >## What's Changed
+> * More ec2 mappings by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/124 (1.1.16-gtnh)
 > * Add support for the Advanced Blocking Card to Dual Interfaces by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/123 (1.1.15-gtnh)
 > * Fix FluidContainerRegistry interactions w/ Certus Quart Tank by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/122 (1.1.14-gtnh)
 > * Allow all 63 partition items to be used for fluid cells by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/121 (1.1.14-gtnh)
@@ -21,9 +22,11 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.7-gtnh)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-204-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-204-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-206-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-206-GTNH
 >## What's Changed
+> * Fullscreen crafting tree and tall crafting list by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/313 (rv3-beta-206-GTNH)
+> * ru translate by @Quetz4l in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/312 (rv3-beta-205-GTNH)
 > * Hotfix: Pattern Refiller by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/311 (rv3-beta-204-GTNH)
 > * Hotfix: Make the interface part work with adv. blocking card by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/310 (rv3-beta-203-GTNH)
 > * Feature: Add Advanced Blocking Card for interfaces by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/308 (rv3-beta-202-GTNH)
@@ -35,6 +38,9 @@
 > * Fix crash with Ars Magica by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/304 (rv3-beta-197-GTNH)
 > * Dep by @Dream-Master in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/302 (rv3-beta-196-GTNH)
 > * Allow null in part deprecation to "skip" migration by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/299 (rv3-beta-195-GTNH)
+>
+>## New Contributors
+> * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/312 (rv3-beta-205-GTNH)
 >
 
 # Updated Avaritia (1.37@Side.BOTH --> 1.39@Side.BOTH)
@@ -185,9 +191,18 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.12@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.12
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.17@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.17
 >## What's Changed
+> * Convert more recipes to RA2 by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1957 (5.09.43.17)
+> * Fix cover data never being set by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1958 (5.09.43.15)
+> * Add docs to mute by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1960 (5.09.43.15)
+> * Brick electrolyzer fix by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1956 (5.09.43.14)
+> * ULV OCs should not overclock too much and waste power by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1951 (5.09.43.13)
+> * Display multiblock name&icon in AE2 interface terminal and crafting tree view instead of the hatch by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1944 (5.09.43.13)
+> * Show energy flow amperage and correct voltage tier in WAILA for machine blocks by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1955 (5.09.43.13)
+> * Split MetaTE loader and integrate bw material replacement by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1954 (5.09.43.13)
+> * Exploring some various ForgeDirection fixes by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1950 (5.09.43.13)
 > * Default facing fixes by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1945 (5.09.43.12)
 > * ULV OCs should not overclock too much and waste power by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1951 (5.09.43.12)
 > * Display multiblock name&icon in AE2 interface terminal and crafting tree view instead of the hatch by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1944 (5.09.43.12)
@@ -236,6 +251,7 @@
 > * MuTE overhaul and ACR by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1883 (5.09.42.71)
 >
 >## New Contributors
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1955 (5.09.43.13)
 > * @kstvr32 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1946 (5.09.43.10)
 >
 
@@ -351,9 +367,10 @@
 > * prevent onAttack from firing if damage is caused by reflection by @Glease in https://github.com/GTNewHorizons/Infernal-Mobs/pull/12 (1.7.7-GTNH)
 >
 
-# Updated KekzTech (0.7.8@Side.BOTH --> 0.8.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.7.6...0.8.1
+# Updated KekzTech (0.7.8@Side.BOTH --> 0.8.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.7.6...0.8.3
 >## What's Changed
+> * Remove BW luvtierenhancer references by @chochem in https://github.com/GTNewHorizons/KekzTech/pull/68 (0.8.2)
 > * ForgeDirection by @mitchej123 in https://github.com/GTNewHorizons/KekzTech/pull/67 (0.8.0)
 > * Fix Materials by @Dream-Master in https://github.com/GTNewHorizons/KekzTech/pull/66 (0.7.8)
 >
@@ -410,8 +427,8 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/19 (2.6.2-GTNH)
 >
 
-# Updated ModularUI (1.1.2@Side.BOTH --> 1.1.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.3
+# Updated ModularUI (1.1.2@Side.BOTH --> 1.1.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.6
 >## What's Changed
 > * fix hotbar key related vanilla functions by @Glease in https://github.com/GTNewHorizons/ModularUI/pull/45 (1.1.2)
 >
@@ -430,9 +447,13 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/NEI-Integration/pull/5 (1.3.0)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.4
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.9-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.9-pre
 >## What's Changed
+> * Add vanilla chest assembler recipes for GT++ wood logs by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/587 (2.1.9-pre)
+> * Add brick electrolyzer recipe instead of centrifuge and adjust brick formula to a more reasonable one by @Pxx500 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/583 (2.1.8)
+> * Add ingotHot oredict for Hot Nether Brick by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/582 (2.1.7)
+> * Yeet ec2 by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/581 (2.1.6)
 > * Integrate BW material replacements by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/580 (2.1.4)
 > * Add missing centrifuge, compressor and extractor recipes by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/579 (2.1.3)
 > * Remove normal recipes by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/578 (2.1.2)
@@ -444,9 +465,12 @@
 > * Enable GalacticGreg oregen for Amun-Ra by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/568 (2.0.34)
 > * Oredicts diodes and inductors for 2A-16A diodes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/571 (2.0.33)
 >
+>## New Contributors
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/582 (2.1.7)
+>
 
-# Updated NotEnoughItems (2.3.45-GTNH@Side.BOTH --> 2.3.48-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.43-GTNH...2.3.48-GTNH
+# Updated NotEnoughItems (2.3.45-GTNH@Side.BOTH --> 2.3.49-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.43-GTNH...2.3.49-GTNH-pre
 >## What's Changed
 > * Make sure NEI plugins are loaded before processing key bindings by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/375 (2.3.48-GTNH)
 > * Readme: fix wording by @chill-was-taken in https://github.com/GTNewHorizons/NotEnoughItems/pull/374 (2.3.47-GTNH)
@@ -469,9 +493,10 @@
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/11 (1.3.0-GTNH)
 >
 
-# Updated OpenComputers (1.9.1-GTNH@Side.BOTH --> 1.9.4-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.0-GTNH...1.9.4-GTNH
+# Updated OpenComputers (1.9.1-GTNH@Side.BOTH --> 1.9.5-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.0-GTNH...1.9.5-GTNH
 >## What's Changed
+> * Update mainline to 1.8.0 stable by @asiekierka in https://github.com/GTNewHorizons/OpenComputers/pull/99 (1.9.5-GTNH)
 > * Increase MFU range from 3 to 16 blocks by @S4mpsa in https://github.com/GTNewHorizons/OpenComputers/pull/98 (1.9.4-GTNH)
 > * Make GT dependency optional by @repo-alt in https://github.com/GTNewHorizons/OpenComputers/pull/97 (1.9.3-GTNH)
 > * update Dependencies by @Dream-Master in https://github.com/GTNewHorizons/OpenComputers/pull/96 (1.9.2-GTNH)
@@ -504,8 +529,8 @@
 > * Fix possible crash with thePlayer being null by @miozune in https://github.com/GTNewHorizons/TCNEIAdditions/pull/20 (1.1.1.10)
 >
 
-# Updated TecTech (5.1.16@Side.BOTH --> 5.2.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.2.5
+# Updated TecTech (5.1.16@Side.BOTH --> 5.2.6-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.2.6-pre
 >## What's Changed
 > * Integrate BW material replacements by @chochem in https://github.com/GTNewHorizons/TecTech/pull/203 (5.2.4)
 > * Re add Tengam for AmunRa by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/196 (5.2.4)
@@ -535,15 +560,17 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/29 (2.6.13)
 >
 
-# Updated TinkersConstruct (1.9.26-GTNH@Side.BOTH --> 1.9.30-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.25-GTNH...1.9.30-GTNH
+# Updated TinkersConstruct (1.9.26-GTNH@Side.BOTH --> 1.9.31-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.25-GTNH...1.9.31-GTNH
 >## What's Changed
+> * Readme: remove the workspace step by @chill-was-taken in https://github.com/GTNewHorizons/TinkersConstruct/pull/83 (1.9.31-GTNH)
 > * fix smeltery tps lag by clearing drain array before structure check by @Denostrov in https://github.com/GTNewHorizons/TinkersConstruct/pull/82 (1.9.30-GTNH)
 > * bump dep to have working fmp by @chochem in https://github.com/GTNewHorizons/TinkersConstruct/pull/81 (1.9.29-GTNH)
 > * bump dep to have working fmp by @chochem in https://github.com/GTNewHorizons/TinkersConstruct/pull/81 (1.9.28-GTNH)
 > * Replace some hard-coded tooltips with translatable text by @StrangeMan1580 in https://github.com/GTNewHorizons/TinkersConstruct/pull/79 (1.9.27-GTNH)
 >
 >## New Contributors
+> * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/83 (1.9.31-GTNH)
 > * @Denostrov made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/82 (1.9.30-GTNH)
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/81 (1.9.29-GTNH)
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/81 (1.9.28-GTNH)
@@ -574,9 +601,10 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/amunra/pull/5 (0.4.11)
 >
 
-# Updated bartworks (0.6.14@Side.BOTH --> 0.7.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.13...0.7.3
+# Updated bartworks (0.6.14@Side.BOTH --> 0.7.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.13...0.7.4
 >## What's Changed
+> * Remove LuVtier enhancements by @chochem in https://github.com/GTNewHorizons/bartworks/pull/320 (0.7.4)
 > * Fix NPE with Radio Hatch by @miozune in https://github.com/GTNewHorizons/bartworks/pull/317 (0.7.2)
 > * add channels to mega oil cracker by @kstvr32 in https://github.com/GTNewHorizons/bartworks/pull/319 (0.7.2)
 > * ForgeDirection by @mitchej123 in https://github.com/GTNewHorizons/bartworks/pull/316 (0.7.1)
@@ -586,6 +614,16 @@
 >## New Contributors
 > * @kstvr32 made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/319 (0.7.2)
 > * @MarchingCube made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/315 (0.6.16)
+>
+
+# Updated harvestcraft (1.0.21-GTNH@Side.BOTH --> 1.1.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.0.20-GTNH...1.1.0-GTNH
+>## What's Changed
+> * Make pie recipes shaped to avoid tofu conflicts by @Pxx500 in https://github.com/GTNewHorizons/harvestcraft/pull/45 (1.1.0-GTNH)
+> * Fix some smoothies not having oredict listAllsmoothie by @miozune in https://github.com/GTNewHorizons/harvestcraft/pull/44 (1.0.21-GTNH)
+>
+>## New Contributors
+> * @Pxx500 made their first contribution in https://github.com/GTNewHorizons/harvestcraft/pull/45 (1.1.0-GTNH)
 >
 
 # Updated lwjgl3ify (1.3.5@Side.BOTH_JAVA9 --> 1.3.6@Side.BOTH_JAVA9)
@@ -615,5 +653,17 @@
 >## New Contributors
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/25 (0.2.3)
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/26 (0.2.3)
+>
+
+# Updated waila (1.5.24@Side.BOTH --> 1.6.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.5.23...1.6.0
+>## What's Changed
+> * Fixing dependencies.gradle by @Cardinalstars in https://github.com/GTNewHorizons/waila/pull/12 (1.6.0)
+> * Update buildscript, dependencies and repositories. by @eigenraven in https://github.com/GTNewHorizons/waila/pull/10 (1.5.24)
+> * Use Aspect's name instead of tag by @glowredman in https://github.com/GTNewHorizons/waila/pull/11 (1.5.24)
+>
+>## New Contributors
+> * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/waila/pull/12 (1.6.0)
+> * @eigenraven made their first contribution in https://github.com/GTNewHorizons/waila/pull/10 (1.5.24)
 >
 
