@@ -132,15 +132,6 @@
 # Updated CraftTweaker (3.2.11@Side.BOTH --> 3.2.12@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/CraftTweaker/compare/3.2.10...3.2.12
 
-# Updated Draconic-Evolution (1.1.15-GTNH@Side.BOTH --> 1.1.16-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.14-GTNH...1.1.16-GTNH-pre
->## What's Changed
-> * Consume 64 ender pearls at once by @LewisSaber in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
->
->## New Contributors
-> * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
->
-
 # Updated Electro-Magic-Tools (1.2.9@Side.BOTH --> 1.3.1@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.2.8.28...1.3.1
 >## What's Changed
