@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-05-07T15:26:17.881307",
+  "last_updated": "2023-05-11T09:53:58.682543",
   "config": "2.3.3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.17-gtnh-pre",
+      "version": "1.1.19-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,11 +29,11 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-206-GTNH",
+      "version": "rv3-beta-211-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.8.3",
+      "version": "1.8.6",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.4",
+      "version": "0.7.6",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -145,7 +145,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.6.19-GTNH",
+      "version": "1.7.0-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -177,11 +177,11 @@
       "side": "CLIENT"
     },
     "DetravScannerMod": {
-      "version": "1.7.0",
+      "version": "1.7.2",
       "side": "BOTH"
     },
     "Draconic-Evolution": {
-      "version": "1.1.15-GTNH",
+      "version": "1.1.16-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.4.13",
+      "version": "2.4.16",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GalacticGregGT5": {
-      "version": "1.0.8",
+      "version": "1.0.9",
       "side": "BOTH"
     },
     "Galacticraft": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.2.1-GTNH",
+      "version": "1.2.2-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.1",
+      "version": "0.6.2",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.17",
+      "version": "5.09.43.27-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.3",
+      "version": "1.9.7",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,11 +289,11 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.2.10",
+      "version": "2.2.12",
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.2.0-GTNH",
+      "version": "2.2.1-GTNH",
       "side": "BOTH"
     },
     "HungerOverhaul": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.8.3",
+      "version": "0.8.4",
       "side": "BOTH"
     },
     "KubaTech": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.5.4",
+      "version": "1.5.5",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.9-pre",
+      "version": "2.1.14-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -445,7 +445,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.49-GTNH-pre",
+      "version": "2.3.52-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -589,7 +589,7 @@
       "side": "BOTH"
     },
     "TCNEIAdditions": {
-      "version": "1.2.0",
+      "version": "1.2.2",
       "side": "BOTH"
     },
     "TCNodeTracker": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.6-pre",
+      "version": "5.2.9",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -625,7 +625,7 @@
       "side": "BOTH"
     },
     "thaumicinsurgence": {
-      "version": "0.2.3",
+      "version": "0.2.4",
       "side": "BOTH"
     },
     "ThaumicInventoryScanning": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.1.6",
+      "version": "1.1.7",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -733,7 +733,7 @@
       "side": "CLIENT"
     },
     "GigaGramFab": {
-      "version": "0.2.1",
+      "version": "0.2.2",
       "side": "BOTH"
     },
     "NotEnoughIds": {
@@ -809,11 +809,11 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.1.2",
+      "version": "1.1.3",
       "side": "BOTH"
     },
     "amunra": {
-      "version": "0.4.14",
+      "version": "0.4.15",
       "side": "BOTH"
     }
   },
