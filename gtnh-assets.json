@@ -1989,7 +1989,7 @@
     },
     {
       "name": "amunra",
-      "latest_version": "0.4.15",
+      "latest_version": "0.4.16",
       "private": false,
       "versions": [
         {
@@ -2052,6 +2052,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/107410501",
           "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.15/amunra-0.4.15.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/0.4.15/amunra-0.4.15.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.4.16",
+          "changelog": "## What's Changed\n* Make Jet Engine fuel configurable by @glowredman in https://github.com/GTNewHorizons/amunra/pull/11\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.15...0.4.16\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-11T20:39:33+00:00",
+          "filename": "amunra-0.4.16.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/107755038",
+          "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.16/amunra-0.4.16.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/0.4.16/amunra-0.4.16.jar",
           "extra_assets": []
         }
       ],
@@ -21368,7 +21379,7 @@
     },
     {
       "name": "GTNH-Intergalactic",
-      "latest_version": "1.1.3",
+      "latest_version": "1.1.5",
       "private": false,
       "versions": [
         {
@@ -21617,6 +21628,27 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/107529751",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.1.3/gtnhintergalactic-1.1.3.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Intergalactic/1.1.3/GTNH-Intergalactic-1.1.3.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.4",
+          "changelog": "## What's Changed\n* Added space pump void protection and batch mode by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/24\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.3...1.1.4\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-11T13:14:55+00:00",
+          "filename": "gtnhintergalactic-1.1.4.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/107699698",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.1.4/gtnhintergalactic-1.1.4.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.5",
+          "changelog": "## What's Changed\n* Added doc that modules automatically pause by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/25\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.4...1.1.5\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-11T20:34:12+00:00",
+          "filename": "gtnhintergalactic-1.1.5.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/107754363",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.1.5/gtnhintergalactic-1.1.5.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Intergalactic/1.1.5/GTNH-Intergalactic-1.1.5.jar",
           "extra_assets": []
         }
       ],
@@ -22400,7 +22432,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.9.7",
+      "latest_version": "1.9.8",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -24744,6 +24776,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/107667183",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.7/GT-PlusPlus-1.9.7.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.7/GTplusplus-1.9.7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.8",
+          "changelog": "## What's Changed\n* Fix GT++ material cable rendering by @wlhlm in https://github.com/GTNewHorizons/GTplusplus/pull/626\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.7...1.9.8\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-11T20:38:28+00:00",
+          "filename": "GT-PlusPlus-1.9.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/107754887",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.8/GT-PlusPlus-1.9.8.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.8/GTplusplus-1.9.8.jar",
           "extra_assets": []
         }
       ],
@@ -38449,7 +38492,7 @@
     },
     {
       "name": "SpiceOfLife",
-      "latest_version": "2.0.9-carrot",
+      "latest_version": "2.1.0-carrot",
       "versions": [
         {
           "version_tag": "v2.0.0-carrot-beta1",
@@ -38579,6 +38622,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/96418541",
           "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.0.9-carrot/SpiceOfLife-2.0.9-carrot.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SpiceOfLife/2.0.9-carrot/SpiceOfLife-2.0.9-carrot.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.0-carrot",
+          "changelog": "## What's Changed\n* EvalEx shadowing fix by @wlhlm in https://github.com/GTNewHorizons/SpiceOfLife/pull/29\n\n## New Contributors\n* @wlhlm made their first contribution in https://github.com/GTNewHorizons/SpiceOfLife/pull/29\n\n**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.0.9-carrot...2.1.0-carrot\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-11T20:29:47+00:00",
+          "filename": "SpiceOfLife-2.1.0-carrot.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/SpiceOfLife/releases/assets/107753892",
+          "browser_download_url": "https://github.com/GTNewHorizons/SpiceOfLife/releases/download/2.1.0-carrot/SpiceOfLife-2.1.0-carrot.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/SpiceOfLife/2.1.0-carrot/SpiceOfLife-2.1.0-carrot.jar",
           "extra_assets": []
         }
       ],

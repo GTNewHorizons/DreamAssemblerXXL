@@ -308,9 +308,11 @@
 > * @kstvr32 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1946 (5.09.43.10)
 >
 
-# Updated GTNH-Intergalactic (1.0.14@Side.BOTH --> 1.1.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.12...1.1.3
+# Updated GTNH-Intergalactic (1.0.14@Side.BOTH --> 1.1.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.12...1.1.5
 >## What's Changed
+> * Added doc that modules automatically pause by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/25 (1.1.5)
+> * Added space pump void protection and batch mode by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/24 (1.1.4)
 > * Update dependencies by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/23 (1.1.3)
 > * Regenerate whitelist on world load or when user changes it by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/22 (1.1.2)
 > * ForgeDirection by @mitchej123 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/21 (1.1.1)
@@ -334,9 +336,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.7@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.7
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.8
 >## What's Changed
+> * Fix GT++ material cable rendering by @wlhlm in https://github.com/GTNewHorizons/GTplusplus/pull/626 (1.9.8)
 > * Fix fluid input restrictor wrench side mapping by @leagris in https://github.com/GTNewHorizons/GTplusplus/pull/625 (1.9.7)
 > * Remove Computer Cube MKII by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/622 (1.9.7)
 > * Fix GT++ material pipe rendering by @wlhlm in https://github.com/GTNewHorizons/GTplusplus/pull/621 (1.9.6)
@@ -626,6 +629,16 @@
 > * Better permission checks and messages in case they fail by @eigenraven in https://github.com/GTNewHorizons/PersonalSpace/pull/16 (1.0.24)
 >
 
+# Updated SpiceOfLife (2.0.9-carrot@Side.BOTH --> 2.1.0-carrot@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.0.8-carrot...2.1.0-carrot
+>## What's Changed
+> * EvalEx shadowing fix by @wlhlm in https://github.com/GTNewHorizons/SpiceOfLife/pull/29 (2.1.0-carrot)
+> * Don't minimize by @mitchej123 in https://github.com/GTNewHorizons/SpiceOfLife/pull/26 (2.0.9-carrot)
+>
+>## New Contributors
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/SpiceOfLife/pull/29 (2.1.0-carrot)
+>
+
 # Updated StructureLib (1.2.6@Side.BOTH --> 1.2.7@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.2.5...1.2.7
 >## What's Changed
@@ -704,9 +717,10 @@
 > * Fix fake creeper by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/29 (1.2.14-GTNH)
 >
 
-# New Mod - amunra (0.4.15@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.15
+# New Mod - amunra (0.4.16@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.16
 >## What's Changed
+> * Make Jet Engine fuel configurable by @glowredman in https://github.com/GTNewHorizons/amunra/pull/11 (0.4.16)
 > * Fix two NPEs by @glowredman in https://github.com/GTNewHorizons/amunra/pull/10 (0.4.15)
 > * A lot of cleanup by @glowredman in https://github.com/GTNewHorizons/amunra/pull/9 (0.4.14)
 > * Allow offline servers in dev env by @glowredman in https://github.com/GTNewHorizons/amunra/pull/8 (0.4.13)
