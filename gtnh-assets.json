@@ -32484,7 +32484,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.14-pre",
+      "latest_version": "2.1.15",
       "private": false,
       "versions": [
         {
@@ -34615,6 +34615,16 @@
           "filename": "GTNewHorizonsCoreMod-2.1.14-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/107668375",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.14-pre/GTNewHorizonsCoreMod-2.1.14-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.15",
+          "changelog": "## What's Changed\n* Ra2 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/592\n* Add buffering to recipe removals by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/595\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.13...2.1.15\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-11T10:55:38+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/107680786",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.15/GTNewHorizonsCoreMod-2.1.15.jar",
           "extra_assets": []
         }
       ],

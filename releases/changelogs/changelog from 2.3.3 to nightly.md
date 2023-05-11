@@ -539,9 +539,11 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/NEI-Integration/pull/5 (1.3.0)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.14-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.14-pre
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.15@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.15
 >## What's Changed
+> * Ra2 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/592 (2.1.15)
+> * Add buffering to recipe removals by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/595 (2.1.15)
 > * Ra2 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/592 (2.1.14-pre)
 > * Add vanilla chest assembler recipes for GT++ wood logs by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/587 (2.1.13)
 > * Ra2 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/589 (2.1.13)
