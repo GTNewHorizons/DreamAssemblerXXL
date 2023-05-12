@@ -233,9 +233,12 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.27-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.27-pre
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.29@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.29
 >## What's Changed
+> * Add cell item for some fluids by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1974 (5.09.43.29)
+> * Fix sodium fluid corrupting fluid registry by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1977 (5.09.43.29)
+> * Add Eternity material + Timepiece by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1973 (5.09.43.29)
 > * Add cell item for some fluids by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1974 (5.09.43.27-pre)
 > * Slight adjustment for TPM NEI by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1972 (5.09.43.26)
 > * Fix ME Output Hatch not outputting other fluids if one gets stuck by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1971 (5.09.43.26)
@@ -542,9 +545,21 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/NEI-Integration/pull/5 (1.3.0)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.15@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.15
+# Updated Natura (2.5.5@Side.BOTH --> 2.5.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.5.3...2.5.6
 >## What's Changed
+> * Fix possible crash with getIcon by @miozune in https://github.com/GTNewHorizons/Natura/pull/16 (2.5.6)
+> * Gunpowder by @Dream-Master in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
+>
+>## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/Natura/pull/16 (2.5.6)
+> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
+>
+
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.17@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.17
+>## What's Changed
+> * Fix recipe remover by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/596 (2.1.17)
 > * Ra2 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/592 (2.1.15)
 > * Add buffering to recipe removals by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/595 (2.1.15)
 > * Ra2 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/592 (2.1.14-pre)
