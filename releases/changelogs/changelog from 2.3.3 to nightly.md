@@ -654,6 +654,9 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/SpiceOfLife/pull/29 (2.1.0-carrot)
 >
 
+# Updated StorageDrawers (1.11.20-GTNH@Side.BOTH --> 1.2.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/commits/1.11.20-GTNH@Side.BOTH...1.2.0-GTNH@Side.BOTH
+
 # Updated StructureLib (1.2.6@Side.BOTH --> 1.2.7@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.2.5...1.2.7
 >## What's Changed

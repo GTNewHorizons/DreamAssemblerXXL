@@ -6275,7 +6275,7 @@
     },
     {
       "name": "BetterP2P",
-      "latest_version": "1.1.10",
+      "latest_version": "1.1.11-pre",
       "versions": [
         {
           "version_tag": "1.0.3",
@@ -6597,6 +6597,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterP2P/releases/assets/106964200",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.1.10/betterp2p-1.1.10.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterP2P/1.1.10/BetterP2P-1.1.10.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.11-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.10...1.1.11-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-12T20:09:36+00:00",
+          "filename": "betterp2p-1.1.11-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterP2P/releases/assets/107919806",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.1.11-pre/betterp2p-1.1.11-pre.jar",
           "extra_assets": []
         }
       ],
@@ -15842,7 +15852,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.29",
+      "latest_version": "5.09.43.30",
       "private": false,
       "versions": [
         {
@@ -21200,6 +21210,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107845708",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.29/gregtech-5.09.43.29.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.29/GT5-Unofficial-5.09.43.29.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.30",
+          "changelog": "## What's Changed\n* Rhodium plated palladium fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1980\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.29...5.09.43.30\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-12T20:06:33+00:00",
+          "filename": "gregtech-5.09.43.30.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107919529",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.30/gregtech-5.09.43.30.jar",
           "extra_assets": []
         }
       ],
@@ -32559,7 +32579,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.17",
+      "latest_version": "2.1.18",
       "private": false,
       "versions": [
         {
@@ -34720,6 +34740,16 @@
           "filename": "GTNewHorizonsCoreMod-2.1.17.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/107845546",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.17/GTNewHorizonsCoreMod-2.1.17.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.18",
+          "changelog": "## What's Changed\n* Remove broken duplicate recipes with forestry slabs and other duplicate slab recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/597\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.17...2.1.18\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-12T20:05:36+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.18.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/107919456",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.18/GTNewHorizonsCoreMod-2.1.18.jar",
           "extra_assets": []
         }
       ],
@@ -39044,120 +39074,159 @@
     },
     {
       "name": "StorageDrawers",
-      "latest_version": "1.11.20-GTNH",
+      "latest_version": "1.2.0-GTNH",
+      "private": false,
       "versions": [
+        {
+          "version_tag": "1.2.0-GTNH",
+          "changelog": "## What's Changed\n* Fix merge behavior not respecting stackability by @miozune in https://github.com/GTNewHorizons/StorageDrawers/pull/20\n\n## New Contributors\n* @miozune made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/20\n\n**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.20-GTNH...1.2.0-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-12T20:06:42+00:00",
+          "filename": "StorageDrawers-1.2.0-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/107919535",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.2.0-GTNH/StorageDrawers-1.2.0-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers/1.2.0-GTNH/StorageDrawers-1.2.0-GTNH.jar",
+          "extra_assets": []
+        },
         {
           "version_tag": "1.10.8b",
           "changelog": "## What's Changed\n* Removed unnecessary NEI handler by @OneEyeMaker in https://github.com/GTNewHorizons/StorageDrawers/pull/1\n\n## New Contributors\n* @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/commits/1.10.8b",
-          "tagged_at": "2017-08-14T17:17:03+00:00",
-          "filename": "StorageDrawers-1.7.10-1.10.8b.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/4576630",
-          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.10.8b/StorageDrawers-1.7.10-1.10.8b.jar"
+          "prerelease": false,
+          "tagged_at": "2017-08-14T17:27:34+00:00",
+          "filename": "StorageDrawers-Natura-1.7.10-1.1.1b.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/4576705",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.10.8b/StorageDrawers-Natura-1.7.10-1.1.1b.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.11.0-gtnh",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.10.8b...1.11.0-gtnh",
+          "prerelease": false,
           "tagged_at": "2020-02-03T21:45:50+00:00",
           "filename": "StorageDrawers-1.7.10-1.11.0-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/17771274",
-          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.0-gtnh/StorageDrawers-1.7.10-1.11.0-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.0-gtnh/StorageDrawers-1.7.10-1.11.0-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.11.2-gtnh",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.0-gtnh...1.11.2-gtnh",
+          "prerelease": false,
           "tagged_at": "2020-02-17T19:28:50+00:00",
           "filename": "StorageDrawers-1.7.10-1.11.2-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/18100424",
-          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.2-gtnh/StorageDrawers-1.7.10-1.11.2-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.2-gtnh/StorageDrawers-1.7.10-1.11.2-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.11.3-gtnh",
           "changelog": "## What's Changed\n* fix(recipe): upgrade template workbench recipe by @leagris in https://github.com/GTNewHorizons/StorageDrawers/pull/2\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.2-gtnh...1.11.3-gtnh",
+          "prerelease": false,
           "tagged_at": "2020-02-21T10:27:43+00:00",
           "filename": "StorageDrawers-1.7.10-1.11.3-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/18195417",
-          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.3-gtnh/StorageDrawers-1.7.10-1.11.3-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.3-gtnh/StorageDrawers-1.7.10-1.11.3-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.11.4-gtnh",
           "changelog": "## What's Changed\n* Address issue #5678 Recipe change for storage drawer upgrades is probably unintended by @leagris in https://github.com/GTNewHorizons/StorageDrawers/pull/3\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.3-gtnh...1.11.4-gtnh",
+          "prerelease": false,
           "tagged_at": "2020-03-04T07:40:33+00:00",
           "filename": "StorageDrawers-1.7.10-1.11.4-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/18457813",
-          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.4-gtnh/StorageDrawers-1.7.10-1.11.4-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.4-gtnh/StorageDrawers-1.7.10-1.11.4-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.11.9-gtnh",
           "changelog": "## What's Changed\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/StorageDrawers/pull/4\n* Backported Storage Downgrade by @johnch18 in https://github.com/GTNewHorizons/StorageDrawers/pull/5\n* feat(controller): maxDrawers config by @leagris in https://github.com/GTNewHorizons/StorageDrawers/pull/6\n* bump version and add translations for new config by @leagris in https://github.com/GTNewHorizons/StorageDrawers/pull/7\n* fix npe on clientUpdateCount by @Skiftcha in https://github.com/GTNewHorizons/StorageDrawers/pull/8\n* Fix hopper drawer bug by @Sonnicon in https://github.com/GTNewHorizons/StorageDrawers/pull/9\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/StorageDrawers/pull/10\n\n## New Contributors\n* @Kiwi233 made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/4\n* @johnch18 made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/5\n* @Skiftcha made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/8\n* @Sonnicon made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/9\n\n**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.4-gtnh...1.11.9-gtnh",
+          "prerelease": false,
           "tagged_at": "2021-12-02T08:07:26+00:00",
           "filename": "StorageDrawers-1.7.10-1.11.9-gtnh.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/50808544",
-          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.9-gtnh/StorageDrawers-1.7.10-1.11.9-gtnh.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.9-gtnh/StorageDrawers-1.7.10-1.11.9-gtnh.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.11.11-GTNH",
           "changelog": "## What's Changed\n* Update License by @mitchej123 in https://github.com/GTNewHorizons/StorageDrawers/pull/12\n\n## New Contributors\n* @mitchej123 made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/12\n\n**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.9-gtnh...1.11.11-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-01-18T07:46:07+00:00",
           "filename": "StorageDrawers-1.7.10-1.11.11-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/54250043",
-          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.11-GTNH/StorageDrawers-1.7.10-1.11.11-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.11-GTNH/StorageDrawers-1.7.10-1.11.11-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.11.13-GTNH",
           "changelog": "## What's Changed\n* LGPL-3.0 by @bombcar in https://github.com/GTNewHorizons/StorageDrawers/pull/13\n* update buildscropt by @bombcar in https://github.com/GTNewHorizons/StorageDrawers/pull/14\n\n## New Contributors\n* @bombcar made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/13\n\n**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.11-GTNH...1.11.13-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-02-10T16:30:09+00:00",
           "filename": "StorageDrawers-1.7.10-1.11.13-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/56406113",
-          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.13-GTNH/StorageDrawers-1.7.10-1.11.13-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.13-GTNH/StorageDrawers-1.7.10-1.11.13-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.11.14-GTNH",
           "changelog": "## What's Changed\n* Fix drawers not marking the chunk they're in for saving, which caused lost/duped items by @eigenraven in https://github.com/GTNewHorizons/StorageDrawers/pull/15\n\n## New Contributors\n* @eigenraven made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/15\n\n**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.13-GTNH...1.11.14-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-06-09T14:22:39+00:00",
           "filename": "StorageDrawers-1.7.10-1.11.14-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/68005430",
-          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.14-GTNH/StorageDrawers-1.7.10-1.11.14-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.14-GTNH/StorageDrawers-1.7.10-1.11.14-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.11.15-GTNH-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.14-GTNH...1.11.15-GTNH-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-14T20:21:43+00:00",
           "filename": "StorageDrawers-1.7.10-1.11.15-GTNH-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/74707313",
-          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.15-GTNH-pre/StorageDrawers-1.7.10-1.11.15-GTNH-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.15-GTNH-pre/StorageDrawers-1.7.10-1.11.15-GTNH-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.11.16-GTNH",
           "changelog": "## What's Changed\n* Fix incorrect inventory size returned by drawers tiles by @vlaetansky in https://github.com/GTNewHorizons/StorageDrawers/pull/16\n\n## New Contributors\n* @vlaetansky made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/16\n\n**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.14-GTNH...1.11.16-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-19T12:26:12+00:00",
           "filename": "StorageDrawers-1.7.10-1.11.16-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/75214584",
-          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.16-GTNH/StorageDrawers-1.7.10-1.11.16-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.16-GTNH/StorageDrawers-1.7.10-1.11.16-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.11.17-GTNH",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.16-GTNH...1.11.17-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-28T13:04:50+00:00",
           "filename": "StorageDrawers-1.7.10-1.11.17-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/76103137",
-          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.17-GTNH/StorageDrawers-1.7.10-1.11.17-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.17-GTNH/StorageDrawers-1.7.10-1.11.17-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.11.18-GTNH",
           "changelog": "## What's Changed\n* Breaking a drawer will drop fewer items by @wohaopa in https://github.com/GTNewHorizons/StorageDrawers/pull/17\n\n## New Contributors\n* @wohaopa made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/17\n\n**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.17-GTNH...1.11.18-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-10-04T10:11:16+00:00",
           "filename": "StorageDrawers-1.7.10-1.11.18-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/79903797",
-          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.18-GTNH/StorageDrawers-1.7.10-1.11.18-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.18-GTNH/StorageDrawers-1.7.10-1.11.18-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.11.19-GTNH",
           "changelog": "## What's Changed\n* CFBH compat fix by @mitchej123 in https://github.com/GTNewHorizons/StorageDrawers/pull/18\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.18-GTNH...1.11.19-GTNH\n",
+          "prerelease": false,
           "tagged_at": "2022-10-13T07:56:46+00:00",
           "filename": "StorageDrawers-1.7.10-1.11.19-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/80863446",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.19-GTNH/StorageDrawers-1.7.10-1.11.19-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers/1.11.19-GTNH/StorageDrawers-1.11.19-GTNH.jar"
+          "extra_assets": []
         },
         {
           "version_tag": "1.11.20-GTNH",
@@ -39167,13 +39236,13 @@
           "filename": "StorageDrawers-1.11.20-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/97649203",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.20-GTNH/StorageDrawers-1.11.20-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers/1.11.20-GTNH/StorageDrawers-1.11.20-GTNH.jar",
           "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/StorageDrawers",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers/",
+      "side": "BOTH"
     },
     {
       "name": "StorageDrawers-BiomesOPlenty",

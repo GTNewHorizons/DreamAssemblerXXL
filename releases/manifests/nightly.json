@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-05-12T10:59:27.545647",
+  "last_updated": "2023-05-12T20:11:25.058686",
   "config": "2.3.3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -553,7 +553,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "1.11.20-GTNH",
+      "version": "1.2.0-GTNH",
       "side": "BOTH"
     },
     "StorageDrawers-BiomesOPlenty": {
