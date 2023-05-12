@@ -72,8 +72,8 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/31 (1.38)
 >
 
-# Updated BetterP2P (1.1.7@Side.BOTH --> 1.1.10@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.5...1.1.10
+# Updated BetterP2P (1.1.7@Side.BOTH --> 1.1.11-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.5...1.1.11-pre
 >## What's Changed
 > * Update buildscript by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/27 (1.1.10)
 > * Change rename to commit on KEY_ENTER press by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/26 (1.1.9)
@@ -233,9 +233,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.29@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.29
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.30@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.30
 >## What's Changed
+> * Rhodium plated palladium fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1980 (5.09.43.30)
 > * Add cell item for some fluids by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1974 (5.09.43.29)
 > * Fix sodium fluid corrupting fluid registry by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1977 (5.09.43.29)
 > * Add Eternity material + Timepiece by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1973 (5.09.43.29)
@@ -556,9 +557,10 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.17@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.17
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.18@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.18
 >## What's Changed
+> * Remove broken duplicate recipes with forestry slabs and other duplicate slab recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/597 (2.1.18)
 > * Fix recipe remover by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/596 (2.1.17)
 > * Ra2 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/592 (2.1.15)
 > * Add buffering to recipe removals by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/595 (2.1.15)

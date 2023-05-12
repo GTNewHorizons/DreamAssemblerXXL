@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-05-12T20:11:25.058686",
+  "last_updated": "2023-05-12T20:18:37.984203",
   "config": "2.3.3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -77,7 +77,7 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.1.10",
+      "version": "1.1.11-pre",
       "side": "BOTH"
     },
     "BetterQuesting": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.29",
+      "version": "5.09.43.30",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.17",
+      "version": "2.1.18",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
