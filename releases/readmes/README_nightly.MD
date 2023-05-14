@@ -365,7 +365,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [itlt](https://github.com/GTNewHorizons/itlt) | 1.0.4 |
 | [Jabba](https://github.com/GTNewHorizons/Jabba) | 1.2.22 |
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
-| [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.1.4p2-fairplay |
+| [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.1.4p6-fairplay |
 | [KekzTech](https://github.com/GTNewHorizons/KekzTech) | 0.8.5 |
 | [KubaTech](https://github.com/GTNewHorizons/KubaTech) | 0.11.0 |
 | [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.2.7-GTNH |

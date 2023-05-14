@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-05-14T17:12:13.141507",
+  "last_updated": "2023-05-14T17:22:11.621613",
   "config": "2.3.3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -891,7 +891,7 @@
       "side": "BOTH"
     },
     "JourneyMap": {
-      "version": "5.1.4p2-fairplay",
+      "version": "5.1.4p6-fairplay",
       "side": "CLIENT"
     },
     "JourneyMap Server": {

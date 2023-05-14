@@ -27650,7 +27650,8 @@
     },
     {
       "name": "JourneyMap",
-      "latest_version": "5.1.4p2-fairplay",
+      "latest_version": "5.1.4p6-fairplay",
+      "needs_attention": false,
       "versions": [
         {
           "version_tag": "5.1.4p2-fairplay",
@@ -27661,6 +27662,19 @@
           "curse_file": {
             "project_no": "32274",
             "file_no": "2367916"
+          }
+        },
+        {
+          "version_tag": "5.1.4p6-fairplay",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2023-05-14T19:22:03.613806",
+          "filename": "journeymap-1.7.10-5.1.4p6-fairplay.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/4500/659/journeymap-1.7.10-5.1.4p6-fairplay.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/journeymap/download/4500659",
+          "curse_file": {
+            "project_no": "",
+            "file_no": "4500659"
           }
         }
       ],
