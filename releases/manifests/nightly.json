@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-05-14T17:22:11.621613",
+  "last_updated": "2023-05-15T19:35:57.807637",
   "config": "2.3.3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-212-GTNH",
+      "version": "rv3-beta-213-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -77,11 +77,11 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.1.12-pre",
+      "version": "1.1.13",
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.3.20-GTNH-pre",
+      "version": "3.3.21-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.2",
+      "version": "0.6.3",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.34-pre",
+      "version": "5.09.43.36",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
-      "version": "1.7.5",
+      "version": "2.0.0",
       "side": "BOTH"
     },
     "ModTweaker": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.19-pre",
+      "version": "2.1.20",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.14-pre",
+      "version": "5.2.16",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -641,7 +641,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.9.31-GTNH",
+      "version": "1.9.32-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {

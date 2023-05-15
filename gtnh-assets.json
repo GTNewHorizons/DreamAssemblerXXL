@@ -2318,7 +2318,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-212-GTNH",
+      "latest_version": "rv3-beta-213-GTNH",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -3721,6 +3721,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/108103794",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-212-GTNH/appliedenergistics2-rv3-beta-212-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-212-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-212-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-213-GTNH",
+          "changelog": "## What's Changed\n* Forge direction backwards compat by @greesyB in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/320\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-212-GTNH...rv3-beta-213-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-15T07:37:13+00:00",
+          "filename": "appliedenergistics2-rv3-beta-213-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/108205725",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-213-GTNH/appliedenergistics2-rv3-beta-213-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-213-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-213-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -6360,7 +6371,7 @@
     },
     {
       "name": "BetterP2P",
-      "latest_version": "1.1.12-pre",
+      "latest_version": "1.1.13",
       "versions": [
         {
           "version_tag": "1.0.3",
@@ -6705,6 +6716,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.1.12-pre/betterp2p-1.1.12-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterP2P/1.1.12-pre/BetterP2P-1.1.12-pre.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.13",
+          "changelog": "## What's Changed\n* Completely overhaul the Advanced Memory Card by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/29\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.10...1.1.13\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-15T18:46:31+00:00",
+          "filename": "betterp2p-1.1.13.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterP2P/releases/assets/108281773",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterP2P/releases/download/1.1.13/betterp2p-1.1.13.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterP2P/1.1.13/BetterP2P-1.1.13.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -6713,7 +6735,7 @@
     },
     {
       "name": "BetterQuesting",
-      "latest_version": "3.3.20-GTNH-pre",
+      "latest_version": "3.3.21-GTNH",
       "versions": [
         {
           "version_tag": "3.0.351-GTNH",
@@ -7206,6 +7228,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/108127679",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.20-GTNH-pre/BetterQuesting-3.3.20-GTNH-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.3.20-GTNH-pre/BetterQuesting-3.3.20-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.3.21-GTNH",
+          "changelog": "## What's Changed\n* Remember last search term and clear search field on right click by @wlhlm in https://github.com/GTNewHorizons/BetterQuesting/pull/109\n\n## New Contributors\n* @wlhlm made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/109\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.19-GTNH...3.3.21-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-14T19:29:38+00:00",
+          "filename": "BetterQuesting-3.3.21-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/108140520",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.21-GTNH/BetterQuesting-3.3.21-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.3.21-GTNH/BetterQuesting-3.3.21-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -14776,7 +14809,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.6.2",
+      "latest_version": "0.6.3",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -15888,6 +15921,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.6.2/GoodGenerator-0.6.2.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.6.2/GoodGenerator-0.6.2.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "0.6.3",
+          "changelog": "## What's Changed\n* any glass for structures by @Quetz4l in https://github.com/GTNewHorizons/GoodGenerator/pull/160\n\n## New Contributors\n* @Quetz4l made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/160\n\n**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.2...0.6.3\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-15T18:43:59+00:00",
+          "filename": "GoodGenerator-0.6.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/108281566",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.6.3/GoodGenerator-0.6.3.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.6.3/GoodGenerator-0.6.3.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
@@ -16035,7 +16079,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.34-pre",
+      "latest_version": "5.09.43.36",
       "private": false,
       "versions": [
         {
@@ -21445,6 +21489,27 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108126998",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.34-pre/gregtech-5.09.43.34-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.34-pre/GT5-Unofficial-5.09.43.34-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.35",
+          "changelog": "## What's Changed\n* Various GT recipe fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1990\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.33...5.09.43.35\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-15T05:54:15+00:00",
+          "filename": "gregtech-5.09.43.35.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108188654",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.35/gregtech-5.09.43.35.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.36",
+          "changelog": "## What's Changed\n* cleanroom -> botania glass by @Quetz4l in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1993\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.35...5.09.43.36\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-15T18:47:23+00:00",
+          "filename": "gregtech-5.09.43.36.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108281846",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.36/gregtech-5.09.43.36.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.36/GT5-Unofficial-5.09.43.36.jar",
           "extra_assets": []
         }
       ],
@@ -30799,7 +30864,7 @@
     },
     {
       "name": "Minetweaker-Gregtech-5-Addon",
-      "latest_version": "1.7.5",
+      "latest_version": "2.0.0",
       "versions": [
         {
           "version_tag": "0.7.6",
@@ -30962,10 +31027,22 @@
           "filename": "GTTweaker-1.7.10-1.7.5.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Minetweaker-Gregtech-5-Addon/releases/assets/60678244",
           "browser_download_url": "https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/releases/download/1.7.5/GTTweaker-1.7.10-1.7.5.jar"
+        },
+        {
+          "version_tag": "2.0.0",
+          "changelog": "## What's Changed\n* Add Disassembler by @Pilad in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/56\n* Add RA2 builder and recipe remover by @kuba6000 in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/59\n\n## New Contributors\n* @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/59\n\n**Full Changelog**: https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/compare/1.7.5...2.0.0\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-15T06:15:08+00:00",
+          "filename": "GTTweaker-2.0.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Minetweaker-Gregtech-5-Addon/releases/assets/108190017",
+          "browser_download_url": "https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/releases/download/2.0.0/GTTweaker-2.0.0.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Minetweaker-Gregtech-5-Addon/2.0.0/Minetweaker-Gregtech-5-Addon-2.0.0.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
-      "repo_url": "https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon"
+      "repo_url": "https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Minetweaker-Gregtech-5-Addon/"
     },
     {
       "name": "Mixingasm",
@@ -32914,7 +32991,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.19-pre",
+      "latest_version": "2.1.20",
       "private": false,
       "versions": [
         {
@@ -35095,6 +35172,16 @@
           "filename": "GTNewHorizonsCoreMod-2.1.19-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/108103892",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.19-pre/GTNewHorizonsCoreMod-2.1.19-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.20",
+          "changelog": "## What's Changed\n* Fix recipe remover and some recipe additions by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/598\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.18...2.1.20\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-15T05:54:22+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.20.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/108188664",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.20/GTNewHorizonsCoreMod-2.1.20.jar",
           "extra_assets": []
         }
       ],
@@ -40819,7 +40906,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.2.14-pre",
+      "latest_version": "5.2.16",
       "private": false,
       "versions": [
         {
@@ -42369,6 +42456,27 @@
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.2.14-pre/TecTech-5.2.14-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.2.14-pre/TecTech-5.2.14-pre.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.2.15",
+          "changelog": "## What's Changed\n* Fix infinity plate by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/207\n* Enable MuTEs to have lasers by @BlueWeabo in https://github.com/GTNewHorizons/TecTech/pull/187\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.9...5.2.15\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-14T20:07:30+00:00",
+          "filename": "TecTech-5.2.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/108143040",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.2.15/TecTech-5.2.15.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.2.16",
+          "changelog": "## What's Changed\n* Rework EOH overclock formula by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/208\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.15...5.2.16\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-14T20:13:06+00:00",
+          "filename": "TecTech-5.2.16.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/108143529",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.2.16/TecTech-5.2.16.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.2.16/TecTech-5.2.16.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
@@ -43588,7 +43696,7 @@
     },
     {
       "name": "TinkersConstruct",
-      "latest_version": "1.9.31-GTNH",
+      "latest_version": "1.9.32-GTNH",
       "versions": [
         {
           "version_tag": "1,8.9-GTNH",
@@ -44115,6 +44223,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/107100377",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.31-GTNH/TConstruct-1.9.31-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/1.9.31-GTNH/TinkersConstruct-1.9.31-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.32-GTNH",
+          "changelog": "## What's Changed\n* Use compileOnlyApi for CoFH by @miozune in https://github.com/GTNewHorizons/TinkersConstruct/pull/84\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.31-GTNH...1.9.32-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-15T06:11:42+00:00",
+          "filename": "TConstruct-1.9.32-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/108189766",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.32-GTNH/TConstruct-1.9.32-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/1.9.32-GTNH/TinkersConstruct-1.9.32-GTNH.jar",
           "extra_assets": []
         }
       ],

@@ -27,9 +27,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.7-gtnh)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-212-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-212-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-213-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-213-GTNH
 >## What's Changed
+> * Forge direction backwards compat by @greesyB in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/320 (rv3-beta-213-GTNH)
 > * Fix ME Chest storage bus integration by @greesyB in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/318 (rv3-beta-212-GTNH)
 > * Add check for adjacent interfaces that are part of same network by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/319 (rv3-beta-212-GTNH)
 > * Update de_DE.lang - translate storage cells & storage components by @Pilzinsel64 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/316 (rv3-beta-211-GTNH)
@@ -76,21 +77,24 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/31 (1.38)
 >
 
-# Updated BetterP2P (1.1.7@Side.BOTH --> 1.1.12-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.5...1.1.12-pre
+# Updated BetterP2P (1.1.7@Side.BOTH --> 1.1.13@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.5...1.1.13
 >## What's Changed
+> * Completely overhaul the Advanced Memory Card by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/29 (1.1.13)
 > * Update buildscript by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/27 (1.1.10)
 > * Change rename to commit on KEY_ENTER press by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/26 (1.1.9)
 > * Add additional checks for P2P selection by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/25 (1.1.7)
 >
 
-# Updated BetterQuesting (3.3.18-GTNH@Side.BOTH --> 3.3.20-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.17-GTNH...3.3.20-GTNH-pre
+# Updated BetterQuesting (3.3.18-GTNH@Side.BOTH --> 3.3.21-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.17-GTNH...3.3.21-GTNH
 >## What's Changed
+> * Remember last search term and clear search field on right click by @wlhlm in https://github.com/GTNewHorizons/BetterQuesting/pull/109 (3.3.21-GTNH)
 > * Update build dependencies by @rekongstor in https://github.com/GTNewHorizons/BetterQuesting/pull/108 (3.3.19-GTNH)
 > * stronger oss set check by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/106 (3.3.18-GTNH)
 >
 >## New Contributors
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/109 (3.3.21-GTNH)
 > * @rekongstor made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/108 (3.3.19-GTNH)
 >
 
@@ -278,9 +282,11 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.34-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.34-pre
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.36@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.36
 >## What's Changed
+> * cleanroom -> botania glass by @Quetz4l in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1993 (5.09.43.36)
+> * Various GT recipe fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1990 (5.09.43.35)
 > * glasses for structure by @Quetz4l in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1986 (5.09.43.33)
 > * Nerf Phosphorus Bee, Buff Fluid bees by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1985 (5.09.43.32)
 > * More ReverseArcSmelting fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1979 (5.09.43.31)
@@ -466,14 +472,16 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/8 (0.2.1)
 >
 
-# Updated GoodGenerator (0.5.18@Side.BOTH --> 0.6.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.12...0.6.2
+# Updated GoodGenerator (0.5.18@Side.BOTH --> 0.6.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.12...0.6.3
 >## What's Changed
+> * any glass for structures by @Quetz4l in https://github.com/GTNewHorizons/GoodGenerator/pull/160 (0.6.3)
 > * Update dependencies by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/159 (0.6.2)
 > * ForgeDirection by @mitchej123 in https://github.com/GTNewHorizons/GoodGenerator/pull/158 (0.6.1)
 > * Fix Materials by @Dream-Master in https://github.com/GTNewHorizons/GoodGenerator/pull/157 (0.5.18)
 >
 >## New Contributors
+> * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/160 (0.6.3)
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/158 (0.6.1)
 >
 
@@ -607,6 +615,17 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/19 (2.6.2-GTNH)
 >
 
+# Updated Minetweaker-Gregtech-5-Addon (1.7.5@Side.BOTH --> 2.0.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/compare/1.7.4...2.0.0
+>## What's Changed
+> * Add Disassembler by @Pilad in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/56 (2.0.0)
+> * Add RA2 builder and recipe remover by @kuba6000 in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/59 (2.0.0)
+> * Patch 1 by @Pilad in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/55 (1.7.5)
+>
+>## New Contributors
+> * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/59 (2.0.0)
+>
+
 # Updated ModularUI (1.1.2@Side.BOTH --> 1.1.7@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.7
 >## What's Changed
@@ -638,9 +657,10 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.19-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.19-pre
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.20@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.20
 >## What's Changed
+> * Fix recipe remover and some recipe additions by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/598 (2.1.20)
 > * Remove broken duplicate recipes with forestry slabs and other duplicate slab recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/597 (2.1.18)
 > * Fix recipe remover by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/596 (2.1.17)
 > * Ra2 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/592 (2.1.15)
@@ -762,9 +782,12 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/TCNEIAdditions/pull/21 (1.2.2)
 >
 
-# Updated TecTech (5.1.16@Side.BOTH --> 5.2.14-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.2.14-pre
+# Updated TecTech (5.1.16@Side.BOTH --> 5.2.16@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.2.16
 >## What's Changed
+> * Rework EOH overclock formula by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/208 (5.2.16)
+> * Fix infinity plate by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/207 (5.2.15)
+> * Enable MuTEs to have lasers by @BlueWeabo in https://github.com/GTNewHorizons/TecTech/pull/187 (5.2.15)
 > * Spotless apply for branch fix-Infinity-Plate for #207 by @github-actions in https://github.com/GTNewHorizons/TecTech/pull/211 (5.2.12-pre)
 > * Spotless apply for branch fix-Infinity-Plate for #207 by @github-actions in https://github.com/GTNewHorizons/TecTech/pull/212 (5.2.12-pre)
 > * Spotless apply for branch fix-Infinity-Plate for #207 by @github-actions in https://github.com/GTNewHorizons/TecTech/pull/209 (5.2.11-pre)
@@ -811,9 +834,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/29 (2.6.13)
 >
 
-# Updated TinkersConstruct (1.9.26-GTNH@Side.BOTH --> 1.9.31-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.25-GTNH...1.9.31-GTNH
+# Updated TinkersConstruct (1.9.26-GTNH@Side.BOTH --> 1.9.32-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.25-GTNH...1.9.32-GTNH
 >## What's Changed
+> * Use compileOnlyApi for CoFH by @miozune in https://github.com/GTNewHorizons/TinkersConstruct/pull/84 (1.9.32-GTNH)
 > * Readme: remove the workspace step by @chill-was-taken in https://github.com/GTNewHorizons/TinkersConstruct/pull/83 (1.9.31-GTNH)
 > * fix smeltery tps lag by clearing drain array before structure check by @Denostrov in https://github.com/GTNewHorizons/TinkersConstruct/pull/82 (1.9.30-GTNH)
 > * bump dep to have working fmp by @chochem in https://github.com/GTNewHorizons/TinkersConstruct/pull/81 (1.9.29-GTNH)
