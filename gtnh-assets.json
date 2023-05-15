@@ -4,6 +4,16 @@
     "latest_version": "2.3.3",
     "versions": [
       {
+        "version_tag": "nightly-15-05-23",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2023-05-15T19:49:28+00:00",
+        "filename": "nightly-15-05-23.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/108287978",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/nightly-15-05-23/nightly-15-05-23.zip",
+        "extra_assets": []
+      },
+      {
         "version_tag": "2.1.2.3qf-test",
         "changelog": "",
         "prerelease": false,
