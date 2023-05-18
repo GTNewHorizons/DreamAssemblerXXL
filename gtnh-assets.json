@@ -33191,7 +33191,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.24",
+      "latest_version": "2.1.25",
       "private": false,
       "versions": [
         {
@@ -35422,6 +35422,16 @@
           "filename": "GTNewHorizonsCoreMod-2.1.24.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/108741670",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.24/GTNewHorizonsCoreMod-2.1.24.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.25",
+          "changelog": "## What's Changed\n* Small recipe fixes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/609\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.24...2.1.25\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-18T13:51:30+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.25.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/108743738",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.25/GTNewHorizonsCoreMod-2.1.25.jar",
           "extra_assets": []
         }
       ],

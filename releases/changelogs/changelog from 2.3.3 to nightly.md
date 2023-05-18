@@ -691,9 +691,10 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.24@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.24
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.25@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.25
 >## What's Changed
+> * Small recipe fixes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/609 (2.1.25)
 > * Recipe and unification fixes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/606 (2.1.24)
 > * Add final eternity related recipes + quantum/astral titanium dtpf recipe by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/604 (2.1.24)
 > * Assembler recipes for some crafts by @TheEpicGamer274 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/607 (2.1.24)
