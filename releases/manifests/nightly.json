@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-05-15T19:50:25.322273",
-  "config": "nightly-15-05-23",
+  "last_updated": "2023-05-18T13:36:23.110222",
+  "config": "2.3.3",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.12-GTNH",
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.41",
+      "version": "1.42",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.7",
+      "version": "0.7.8",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -101,7 +101,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.9.22-GTNH",
+      "version": "1.9.23-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.3",
+      "version": "0.6.5",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.36",
+      "version": "5.09.43.41",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.9",
+      "version": "1.9.13",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.2.1-GTNH",
+      "version": "2.2.2-GTNH",
       "side": "BOTH"
     },
     "HungerOverhaul": {
@@ -309,7 +309,7 @@
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
-      "version": "2.2.9",
+      "version": "2.3.0",
       "side": "BOTH"
     },
     "Infernal-Mobs": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.20",
+      "version": "2.1.24",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -449,7 +449,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.4.18",
+      "version": "2.4.19",
       "side": "BOTH"
     },
     "oauth": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.16",
+      "version": "5.2.17",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -669,7 +669,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.1.3",
+      "version": "1.1.4",
       "side": "BOTH"
     },
     "waila": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "amunra": {
-      "version": "0.4.19",
+      "version": "0.4.20-pre",
       "side": "BOTH"
     }
   },
