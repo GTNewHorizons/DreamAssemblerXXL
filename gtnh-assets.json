@@ -33343,7 +33343,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.27",
+      "latest_version": "2.1.28",
       "private": false,
       "versions": [
         {
@@ -35604,6 +35604,16 @@
           "filename": "GTNewHorizonsCoreMod-2.1.27.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/108952369",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.27/GTNewHorizonsCoreMod-2.1.27.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.28",
+          "changelog": "## What's Changed\n* Resolve paperroll/carton recipe conflict to make carton craftable by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/614\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.27...2.1.28\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-19T20:55:37+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.28.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/108954707",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.28/GTNewHorizonsCoreMod-2.1.28.jar",
           "extra_assets": []
         }
       ],

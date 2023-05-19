@@ -722,9 +722,10 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.27@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.27
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.28@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.28
 >## What's Changed
+> * Resolve paperroll/carton recipe conflict to make carton craftable by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/614 (2.1.28)
 > * Remove duplicate vac freezer recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/613 (2.1.27)
 > * Remove 3 broken vac freezer recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/611 (2.1.26)
 > * Found one more broken vac freezer recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/612 (2.1.26)
