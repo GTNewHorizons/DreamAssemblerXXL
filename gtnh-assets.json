@@ -14918,7 +14918,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.6.7-pre",
+      "latest_version": "0.6.8",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -16083,6 +16083,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.6.7-pre/GoodGenerator-0.6.7-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.6.7-pre/GoodGenerator-0.6.7-pre.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "0.6.8",
+          "changelog": "## What's Changed\n* Remove mention to EC2 by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/165\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.6...0.6.8\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-19T20:26:27+00:00",
+          "filename": "GoodGenerator-0.6.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/108951847",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.6.8/GoodGenerator-0.6.8.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.6.8/GoodGenerator-0.6.8.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
@@ -16230,7 +16241,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.43-pre",
+      "latest_version": "5.09.43.44",
       "private": false,
       "versions": [
         {
@@ -21734,6 +21745,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.43-pre/gregtech-5.09.43.43-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.43-pre/GT5-Unofficial-5.09.43.43-pre.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.44",
+          "changelog": "## What's Changed\n* More recipe collision fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2010\n* Yet another round of ra2 conversions by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2006\n* Cable recipe collision fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2009\n* Debug for recipe collisions by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2008\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.42...5.09.43.44\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-19T20:28:05+00:00",
+          "filename": "gregtech-5.09.43.44.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108952077",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.44/gregtech-5.09.43.44.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.44/GT5-Unofficial-5.09.43.44.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -21933,7 +21955,7 @@
     },
     {
       "name": "GTNH-Intergalactic",
-      "latest_version": "1.1.9",
+      "latest_version": "1.1.10",
       "private": false,
       "versions": [
         {
@@ -22245,6 +22267,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/108786290",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.1.9/gtnhintergalactic-1.1.9.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Intergalactic/1.1.9/GTNH-Intergalactic-1.1.9.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.10",
+          "changelog": "## What's Changed\n* Actively connect modules by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/30\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.9...1.1.10\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-19T20:30:35+00:00",
+          "filename": "gtnhintergalactic-1.1.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/108952327",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.1.10/gtnhintergalactic-1.1.10.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Intergalactic/1.1.10/GTNH-Intergalactic-1.1.10.jar",
           "extra_assets": []
         }
       ],
@@ -33310,7 +33343,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.26",
+      "latest_version": "2.1.27",
       "private": false,
       "versions": [
         {
@@ -35561,6 +35594,16 @@
           "filename": "GTNewHorizonsCoreMod-2.1.26.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/108871689",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.26/GTNewHorizonsCoreMod-2.1.26.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.27",
+          "changelog": "## What's Changed\n* Remove duplicate vac freezer recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/613\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.26...2.1.27\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-19T20:30:51+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.27.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/108952369",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.27/GTNewHorizonsCoreMod-2.1.27.jar",
           "extra_assets": []
         }
       ],
@@ -41296,7 +41339,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.2.17",
+      "latest_version": "5.2.18",
       "private": false,
       "versions": [
         {
@@ -42878,6 +42921,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.2.17/TecTech-5.2.17.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.2.17/TecTech-5.2.17.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.2.18",
+          "changelog": "## What's Changed\n* Adjust uxv part recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/215\n* Debug Generator GUI Improvements by @MeiTianyou in https://github.com/GTNewHorizons/TecTech/pull/214\n\n## New Contributors\n* @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/TecTech/pull/214\n\n**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.17...5.2.18\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-19T20:31:29+00:00",
+          "filename": "TecTech-5.2.18.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/108952397",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.2.18/TecTech-5.2.18.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.2.18/TecTech-5.2.18.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
@@ -44097,7 +44151,7 @@
     },
     {
       "name": "TinkersConstruct",
-      "latest_version": "1.9.33-GTNH-pre",
+      "latest_version": "1.9.34-GTNH",
       "versions": [
         {
           "version_tag": "1,8.9-GTNH",
@@ -44646,6 +44700,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/108872745",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.33-GTNH-pre/TConstruct-1.9.33-GTNH-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/1.9.33-GTNH-pre/TinkersConstruct-1.9.33-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.34-GTNH",
+          "changelog": "## What's Changed\n* fix smeltery acceleration and comparator output by @Denostrov in https://github.com/GTNewHorizons/TinkersConstruct/pull/86\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.32-GTNH...1.9.34-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-19T20:27:23+00:00",
+          "filename": "TConstruct-1.9.34-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/108951975",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.34-GTNH/TConstruct-1.9.34-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/1.9.34-GTNH/TinkersConstruct-1.9.34-GTNH.jar",
           "extra_assets": []
         }
       ],

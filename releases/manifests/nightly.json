@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-05-19T10:36:12.087160",
+  "last_updated": "2023-05-19T20:41:27.944183",
   "config": "2.3.3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.7-pre",
+      "version": "0.6.8",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.43-pre",
+      "version": "5.09.43.44",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.26",
+      "version": "2.1.27",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.17",
+      "version": "5.2.18",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -641,7 +641,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.9.33-GTNH-pre",
+      "version": "1.9.34-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -809,7 +809,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.1.9",
+      "version": "1.1.10",
       "side": "BOTH"
     },
     "amunra": {

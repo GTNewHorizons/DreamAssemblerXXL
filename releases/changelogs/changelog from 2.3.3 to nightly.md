@@ -297,9 +297,13 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.43-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.43-pre
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.44@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.44
 >## What's Changed
+> * More recipe collision fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2010 (5.09.43.44)
+> * Yet another round of ra2 conversions by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2006 (5.09.43.44)
+> * Cable recipe collision fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2009 (5.09.43.44)
+> * Debug for recipe collisions by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2008 (5.09.43.44)
 > * Don't allow steel steam machines to do MV recipe by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2007 (5.09.43.42)
 > * a few small fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2003 (5.09.43.41)
 > * Don't add cell recipe for Replicator if dust one is already available by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2005 (5.09.43.41)
@@ -394,9 +398,10 @@
 > * @kstvr32 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1946 (5.09.43.10)
 >
 
-# Updated GTNH-Intergalactic (1.0.14@Side.BOTH --> 1.1.9@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.12...1.1.9
+# Updated GTNH-Intergalactic (1.0.14@Side.BOTH --> 1.1.10@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.12...1.1.10
 >## What's Changed
+> * Actively connect modules by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/30 (1.1.10)
 > * make toxic everglades great again by @Fiyorin in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/29 (1.1.9)
 > * Added new textures by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/28 (1.1.8)
 > * Minor fixes by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/27 (1.1.6)
@@ -507,9 +512,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/8 (0.2.1)
 >
 
-# Updated GoodGenerator (0.5.18@Side.BOTH --> 0.6.7-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.12...0.6.7-pre
+# Updated GoodGenerator (0.5.18@Side.BOTH --> 0.6.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.12...0.6.8
 >## What's Changed
+> * Remove mention to EC2 by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/165 (0.6.8)
 > * yottank information by @Quetz4l in https://github.com/GTNewHorizons/GoodGenerator/pull/163 (0.6.6)
 > * Fix tengam in component assemblyline by @GDCloudstrike in https://github.com/GTNewHorizons/GoodGenerator/pull/162 (0.6.5)
 > * Add Fluid Solidifier recipes for Shirabon by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/161 (0.6.4)
@@ -716,9 +722,10 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.26@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.26
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.27@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.27
 >## What's Changed
+> * Remove duplicate vac freezer recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/613 (2.1.27)
 > * Remove 3 broken vac freezer recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/611 (2.1.26)
 > * Found one more broken vac freezer recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/612 (2.1.26)
 > * Small recipe fixes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/609 (2.1.25)
@@ -863,9 +870,11 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/TCNEIAdditions/pull/21 (1.2.2)
 >
 
-# Updated TecTech (5.1.16@Side.BOTH --> 5.2.17@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.2.17
+# Updated TecTech (5.1.16@Side.BOTH --> 5.2.18@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.2.18
 >## What's Changed
+> * Adjust uxv part recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/215 (5.2.18)
+> * Debug Generator GUI Improvements by @MeiTianyou in https://github.com/GTNewHorizons/TecTech/pull/214 (5.2.18)
 > * Use Avaritia variant of Tinkers' parts by @miozune in https://github.com/GTNewHorizons/TecTech/pull/213 (5.2.17)
 > * Rework EOH overclock formula by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/208 (5.2.16)
 > * Fix infinity plate by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/207 (5.2.15)
@@ -890,6 +899,7 @@
 > * Fix EOH estimated eu/t formula by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/194 (5.1.16)
 >
 >## New Contributors
+> * @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/TecTech/pull/214 (5.2.18)
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/TecTech/pull/205 (5.2.9)
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/TecTech/pull/199 (5.2.1)
 >
@@ -916,9 +926,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/29 (2.6.13)
 >
 
-# Updated TinkersConstruct (1.9.26-GTNH@Side.BOTH --> 1.9.33-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.25-GTNH...1.9.33-GTNH-pre
+# Updated TinkersConstruct (1.9.26-GTNH@Side.BOTH --> 1.9.34-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.25-GTNH...1.9.34-GTNH
 >## What's Changed
+> * fix smeltery acceleration and comparator output by @Denostrov in https://github.com/GTNewHorizons/TinkersConstruct/pull/86 (1.9.34-GTNH)
 > * Use compileOnlyApi for CoFH by @miozune in https://github.com/GTNewHorizons/TinkersConstruct/pull/84 (1.9.32-GTNH)
 > * Readme: remove the workspace step by @chill-was-taken in https://github.com/GTNewHorizons/TinkersConstruct/pull/83 (1.9.31-GTNH)
 > * fix smeltery tps lag by clearing drain array before structure check by @Denostrov in https://github.com/GTNewHorizons/TinkersConstruct/pull/82 (1.9.30-GTNH)
