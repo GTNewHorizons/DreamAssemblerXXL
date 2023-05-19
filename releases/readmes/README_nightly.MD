@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2023-05-18
+Version nightly is out 2023-05-19
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -245,14 +245,14 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | Name | Version |
 | --- | --- |
 | [Advanced Solar Panel For 1.7.10 (Unofficial)](https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels) | 1.7.10 Edition |
-| [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.0.12-GTNH |
+| [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.0.13-GTNH-pre |
 | [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.1.20-gtnh |
 | [ae2stuff](https://github.com/GTNewHorizons/ae2stuff) | 0.5.1.16-GTNH |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.2.6-GTNH |
-| [amunra](https://github.com/GTNewHorizons/amunra) | 0.4.20-pre |
+| [amunra](https://github.com/GTNewHorizons/amunra) | 0.4.21-pre |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.6.3 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.2.10 |
-| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-213-GTNH |
+| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-214-GTNH |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.8.6 |
 | [Aroma1997Core](https://www.curseforge.com/minecraft/mc-mods/aroma1997core) | 1.0.2.16 |
 | [AromaBackup](https://www.curseforge.com/minecraft/mc-mods/aromabackup) | 0.1.0.0 |
@@ -302,7 +302,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [CraftTweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.2.12 |
 | [CreativeCore](https://github.com/GTNewHorizons/CreativeCore) | 1.3.27-GTNH |
 | [CropLoadCore](https://github.com/GTNewHorizons/CropLoadCore) | 0.1.10 |
-| [Crops-plus-plus](https://github.com/GTNewHorizons/Crops-plus-plus) | 1.4.0 |
+| [Crops-plus-plus](https://github.com/GTNewHorizons/Crops-plus-plus) | 1.4.1 |
 | [Custom-Main-Menu](https://github.com/GTNewHorizons/Custom-Main-Menu) | 1.9.4 |
 | [DefaultServerList](https://github.com/GTNewHorizons/DefaultServerList) | 1.4.0 |
 | [DefaultWorldGenerator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.2 |
@@ -332,16 +332,16 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.2.3-GTNH |
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.6.5.5-GTNH |
 | [GigaGramFab](https://github.com/GTNewHorizons/GigaGramFab) | 0.2.2 |
-| [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.6.5 |
+| [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.6.7-pre |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.0.10 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.43.41 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.43.43-pre |
 | [GTNEIOrePlugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.0.29 |
-| [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.1.8 |
+| [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.1.9 |
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.10.0 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.3.0 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.0.13 |
-| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.9.13 |
+| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.9.14 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.9.7-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.0-GTNH |
@@ -377,7 +377,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [MalisisCore](https://github.com/GTNewHorizons/MalisisCore) | 0.14.7-GTNH |
 | [MalisisDoors](https://github.com/GTNewHorizons/MalisisDoors) | 1.13.7-GTNH |
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.3.6 |
-| [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.2.9-GTNH |
+| [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.2.10-GTNH-pre |
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 2.0.0 |
 | [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.9.10 |
 | [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.1.7 |
@@ -392,7 +392,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.12.22 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.1.2 |
 | [Netty-Patcher](https://github.com/GTNewHorizons/Netty-Patcher) | 0.3.1 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.1.25 |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.1.26 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.1.-6-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.4.0 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 1.4.6 |
@@ -457,7 +457,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [TiC-Tooltips](https://github.com/GTNewHorizons/TiC-Tooltips) | 1.2.10 |
 | [Tinkers' Defense](https://www.curseforge.com/minecraft/mc-mods/compendium) | 1.2.1d |
 | [Tinkers-Gregworks](https://github.com/Vexatos/TinkersGregworks/tree/GT-NH) | 1.0.23 |
-| [TinkersConstruct](https://github.com/GTNewHorizons/TinkersConstruct) | 1.9.32-GTNH |
+| [TinkersConstruct](https://github.com/GTNewHorizons/TinkersConstruct) | 1.9.33-GTNH-pre |
 | [TinkersMechworks](https://github.com/GTNewHorizons/TinkersMechworks) | 0.2.16.4 |
 | [TooMuchLoot](https://github.com/GTNewHorizons/TooMuchLoot) | 4.1.0-GTNH |
 | [ToroHealth](https://github.com/GTNewHorizons/ToroHealth) | 1.0.1 |

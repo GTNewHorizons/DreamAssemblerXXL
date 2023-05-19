@@ -27,9 +27,19 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.7-gtnh)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-213-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-213-GTNH
+# Updated AdventureBackpack2 (1.0.12-GTNH@Side.BOTH --> 1.0.13-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.9-GTNH...1.0.13-GTNH-pre
 >## What's Changed
+> * Fix hight step break boots from other mods by @Pilzinsel64 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
+>
+>## New Contributors
+> * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
+>
+
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-214-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-214-GTNH
+>## What's Changed
+> * AE API: Add a method to blacklist items/provide filters based on item/fluid by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/322 (rv3-beta-214-GTNH)
 > * Forge direction backwards compat by @greesyB in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/320 (rv3-beta-213-GTNH)
 > * Fix ME Chest storage bus integration by @greesyB in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/318 (rv3-beta-212-GTNH)
 > * Add check for adjacent interfaces that are part of same network by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/319 (rv3-beta-212-GTNH)
@@ -202,13 +212,15 @@
 # Updated CraftTweaker (3.2.11@Side.BOTH --> 3.2.12@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/CraftTweaker/compare/3.2.10...3.2.12
 
-# Updated Crops-plus-plus (1.3.6.12@Side.BOTH --> 1.4.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.3.6.11...1.4.0
+# Updated Crops-plus-plus (1.3.6.12@Side.BOTH --> 1.4.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.3.6.11...1.4.1
 >## What's Changed
+> * Fix broken recipe by @chochem in https://github.com/GTNewHorizons/Crops-plus-plus/pull/52 (1.4.1)
 > * ForgeDirection by @miozune in https://github.com/GTNewHorizons/Crops-plus-plus/pull/51 (1.4.0)
 > * Fix random number checks in GarnydniaCrop.java by @D-Cysteine in https://github.com/GTNewHorizons/Crops-plus-plus/pull/50 (1.3.6.12)
 >
 >## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/52 (1.4.1)
 > * @D-Cysteine made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/50 (1.3.6.12)
 >
 
@@ -285,9 +297,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.41@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.41
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.43-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.43-pre
 >## What's Changed
+> * Don't allow steel steam machines to do MV recipe by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2007 (5.09.43.42)
 > * a few small fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2003 (5.09.43.41)
 > * Don't add cell recipe for Replicator if dust one is already available by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2005 (5.09.43.41)
 > * Fix gt++ solidfying materials without fluid by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2004 (5.09.43.41)
@@ -381,9 +394,10 @@
 > * @kstvr32 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1946 (5.09.43.10)
 >
 
-# Updated GTNH-Intergalactic (1.0.14@Side.BOTH --> 1.1.8@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.12...1.1.8
+# Updated GTNH-Intergalactic (1.0.14@Side.BOTH --> 1.1.9@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.12...1.1.9
 >## What's Changed
+> * make toxic everglades great again by @Fiyorin in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/29 (1.1.9)
 > * Added new textures by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/28 (1.1.8)
 > * Minor fixes by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/27 (1.1.6)
 > * adds a bunch of useful ores to the spaceminer by @Fiyorin in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/26 (1.1.6)
@@ -413,9 +427,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.13@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.13
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.14@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.14
 >## What's Changed
+> * Make sure that GT++ Cokes have recipes in the Advanced Coke Oven by @MeiTianyou in https://github.com/GTNewHorizons/GTplusplus/pull/634 (1.9.14)
 > * ExxonMobile Chemical Plant: Fix the Blockrenderer Structure Preview  by @Fiyorin in https://github.com/GTNewHorizons/GTplusplus/pull/632 (1.9.13)
 > * Add Temporal Harmonizer Catalyst by @GDCloudstrike in https://github.com/GTNewHorizons/GTplusplus/pull/633 (1.9.12)
 > * Fixes several minor bugs by @MeiTianyou in https://github.com/GTNewHorizons/GTplusplus/pull/630 (1.9.11)
@@ -492,9 +507,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/8 (0.2.1)
 >
 
-# Updated GoodGenerator (0.5.18@Side.BOTH --> 0.6.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.12...0.6.5
+# Updated GoodGenerator (0.5.18@Side.BOTH --> 0.6.7-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.12...0.6.7-pre
 >## What's Changed
+> * yottank information by @Quetz4l in https://github.com/GTNewHorizons/GoodGenerator/pull/163 (0.6.6)
 > * Fix tengam in component assemblyline by @GDCloudstrike in https://github.com/GTNewHorizons/GoodGenerator/pull/162 (0.6.5)
 > * Add Fluid Solidifier recipes for Shirabon by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/161 (0.6.4)
 > * any glass for structures by @Quetz4l in https://github.com/GTNewHorizons/GoodGenerator/pull/160 (0.6.3)
@@ -649,6 +665,15 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/19 (2.6.2-GTNH)
 >
 
+# Updated Minecraft-Backpack-Mod (2.2.9-GTNH@Side.BOTH --> 2.2.10-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.2.8-GTNH...2.2.10-GTNH-pre
+>## What's Changed
+> * unbind keybind by default by @Alexdoru in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/5 (2.2.9-GTNH)
+>
+>## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/5 (2.2.9-GTNH)
+>
+
 # Updated Minetweaker-Gregtech-5-Addon (1.7.5@Side.BOTH --> 2.0.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/compare/1.7.4...2.0.0
 >## What's Changed
@@ -691,9 +716,11 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.25@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.25
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.26@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.26
 >## What's Changed
+> * Remove 3 broken vac freezer recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/611 (2.1.26)
+> * Found one more broken vac freezer recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/612 (2.1.26)
 > * Small recipe fixes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/609 (2.1.25)
 > * Recipe and unification fixes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/606 (2.1.24)
 > * Add final eternity related recipes + quantum/astral titanium dtpf recipe by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/604 (2.1.24)
@@ -889,8 +916,8 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/29 (2.6.13)
 >
 
-# Updated TinkersConstruct (1.9.26-GTNH@Side.BOTH --> 1.9.32-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.25-GTNH...1.9.32-GTNH
+# Updated TinkersConstruct (1.9.26-GTNH@Side.BOTH --> 1.9.33-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.25-GTNH...1.9.33-GTNH-pre
 >## What's Changed
 > * Use compileOnlyApi for CoFH by @miozune in https://github.com/GTNewHorizons/TinkersConstruct/pull/84 (1.9.32-GTNH)
 > * Readme: remove the workspace step by @chill-was-taken in https://github.com/GTNewHorizons/TinkersConstruct/pull/83 (1.9.31-GTNH)
@@ -925,8 +952,8 @@
 > * Fix fake creeper by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/29 (1.2.14-GTNH)
 >
 
-# New Mod - amunra (0.4.20-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.20-pre
+# New Mod - amunra (0.4.21-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.21-pre
 >## What's Changed
 > * Spotless apply for branch nhify for #13 by @github-actions in https://github.com/GTNewHorizons/amunra/pull/14 (0.4.18)
 > * Only register recipes if NH Core is loaded by @glowredman in https://github.com/GTNewHorizons/amunra/pull/13 (0.4.18)

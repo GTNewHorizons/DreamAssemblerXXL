@@ -1,11 +1,11 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-05-18T13:53:29.531716",
+  "last_updated": "2023-05-19T10:36:12.087160",
   "config": "2.3.3",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.0.12-GTNH",
+      "version": "1.0.13-GTNH-pre",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-213-GTNH",
+      "version": "rv3-beta-214-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.4.0",
+      "version": "1.4.1",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.5",
+      "version": "0.6.7-pre",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.41",
+      "version": "5.09.43.43-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.13",
+      "version": "1.9.14",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -385,7 +385,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.2.9-GTNH",
+      "version": "2.2.10-GTNH-pre",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.25",
+      "version": "2.1.26",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -641,7 +641,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.9.32-GTNH",
+      "version": "1.9.33-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -809,11 +809,11 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.1.8",
+      "version": "1.1.9",
       "side": "BOTH"
     },
     "amunra": {
-      "version": "0.4.20-pre",
+      "version": "0.4.21-pre",
       "side": "BOTH"
     }
   },
