@@ -36,10 +36,9 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-214-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-214-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-213-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-213-GTNH
 >## What's Changed
-> * AE API: Add a method to blacklist items/provide filters based on item/fluid by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/322 (rv3-beta-214-GTNH)
 > * Forge direction backwards compat by @greesyB in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/320 (rv3-beta-213-GTNH)
 > * Fix ME Chest storage bus integration by @greesyB in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/318 (rv3-beta-212-GTNH)
 > * Add check for adjacent interfaces that are part of same network by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/319 (rv3-beta-212-GTNH)
