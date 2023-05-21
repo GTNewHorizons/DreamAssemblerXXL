@@ -2,9 +2,10 @@
 > * amunra
 # Mods Removed:
 > * ExtraCells2
-# Updated AE2FluidCraft-Rework (1.1.7-gtnh@Side.BOTH --> 1.1.20-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.2-gtnh...1.1.20-gtnh
+# Updated AE2FluidCraft-Rework (1.1.7-gtnh@Side.BOTH --> 1.1.21-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.2-gtnh...1.1.21-gtnh
 >## What's Changed
+> * Update APIs by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/130 (1.1.21-gtnh)
 > * Fix NPE with FCStackStringifyHandler by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/129 (1.1.20-gtnh)
 > * ForgeDirection fix & update dependencies by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/128 (1.1.19-gtnh)
 > * Fix fluid animation with Hodgepodge loaded by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/126 (1.1.18-gtnh)
@@ -36,9 +37,11 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-213-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-213-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-215-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-215-GTNH
 >## What's Changed
+> * Use interface instead of class for generalization by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/323 (rv3-beta-215-GTNH)
+> * AE API: Add a method to blacklist items/provide filters based on item/fluid by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/322 (rv3-beta-214-GTNH)
 > * Forge direction backwards compat by @greesyB in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/320 (rv3-beta-213-GTNH)
 > * Fix ME Chest storage bus integration by @greesyB in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/318 (rv3-beta-212-GTNH)
 > * Add check for adjacent interfaces that are part of same network by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/319 (rv3-beta-212-GTNH)
@@ -87,13 +90,17 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/31 (1.38)
 >
 
-# Updated BetterP2P (1.1.7@Side.BOTH --> 1.1.13@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.5...1.1.13
+# Updated BetterP2P (1.1.7@Side.BOTH --> 1.1.14@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.5...1.1.14
 >## What's Changed
+> * Refactoring by @chill-was-taken in https://github.com/GTNewHorizons/BetterP2P/pull/30 (1.1.14)
 > * Completely overhaul the Advanced Memory Card by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/29 (1.1.13)
 > * Update buildscript by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/27 (1.1.10)
 > * Change rename to commit on KEY_ENTER press by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/26 (1.1.9)
 > * Add additional checks for P2P selection by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/25 (1.1.7)
+>
+>## New Contributors
+> * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/BetterP2P/pull/30 (1.1.14)
 >
 
 # Updated BetterQuesting (3.3.18-GTNH@Side.BOTH --> 3.3.21-GTNH@Side.BOTH)
@@ -199,12 +206,14 @@
 > * @Zereff06 made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/26 (2.10.17-GTNH)
 >
 
-# Updated Computronics (1.6.19-GTNH@Side.BOTH --> 1.7.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.6.18-GTNH...1.7.0-GTNH
+# Updated Computronics (1.6.19-GTNH@Side.BOTH --> 1.7.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.6.18-GTNH...1.7.1-GTNH
 >## What's Changed
+> * Stop OC from executing getInfoData in its worker thread by @MeiTianyou in https://github.com/GTNewHorizons/Computronics/pull/21 (1.7.1-GTNH)
 > * spotlessApply & update dependencies by @miozune in https://github.com/GTNewHorizons/Computronics/pull/20 (1.7.0-GTNH)
 >
 >## New Contributors
+> * @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/Computronics/pull/21 (1.7.1-GTNH)
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/Computronics/pull/20 (1.7.0-GTNH)
 >
 
@@ -296,9 +305,12 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.44@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.44
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.46@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.46
 >## What's Changed
+> * Fix typo in SteamPower by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2012 (5.09.43.46)
+> * GT Charged Certus Quartz fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2013 (5.09.43.46)
+> * Singleblock machine internal fluid tank scaling standardization by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1999 (5.09.43.46)
 > * More recipe collision fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2010 (5.09.43.44)
 > * Yet another round of ra2 conversions by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2006 (5.09.43.44)
 > * Cable recipe collision fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2009 (5.09.43.44)
@@ -397,9 +409,10 @@
 > * @kstvr32 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1946 (5.09.43.10)
 >
 
-# Updated GTNH-Intergalactic (1.0.14@Side.BOTH --> 1.1.10@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.12...1.1.10
+# Updated GTNH-Intergalactic (1.0.14@Side.BOTH --> 1.1.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.12...1.1.11
 >## What's Changed
+> * Space Miner: add molybdenum and nether quartz ore by @Fiyorin in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/31 (1.1.11)
 > * Actively connect modules by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/30 (1.1.10)
 > * make toxic everglades great again by @Fiyorin in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/29 (1.1.9)
 > * Added new textures by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/28 (1.1.8)
@@ -670,6 +683,17 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/19 (2.6.2-GTNH)
 >
 
+# Updated Mantle (0.3.6@Side.BOTH --> 0.3.7@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.3.5...0.3.7
+>## What's Changed
+> * fix smeltery not being able to handle more than 256 items at a time by @Denostrov in https://github.com/GTNewHorizons/Mantle/pull/4 (0.3.7)
+> * Change serialized name of second unlocalizedName by @BlueWeabo in https://github.com/GTNewHorizons/Mantle/pull/2 (0.3.6)
+>
+>## New Contributors
+> * @Denostrov made their first contribution in https://github.com/GTNewHorizons/Mantle/pull/4 (0.3.7)
+> * @BlueWeabo made their first contribution in https://github.com/GTNewHorizons/Mantle/pull/2 (0.3.6)
+>
+
 # Updated Minecraft-Backpack-Mod (2.2.9-GTNH@Side.BOTH --> 2.2.10-GTNH-pre@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.2.8-GTNH...2.2.10-GTNH-pre
 >## What's Changed
@@ -721,9 +745,13 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.28@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.28
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.30@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.30
 >## What's Changed
+> * Recipe fixes for changed stone and glass by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/618 (2.1.30)
+> * Cleanup ae2 script file by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/616 (2.1.29)
+> * Charged certus quartz fixes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/617 (2.1.29)
+> * update tank capacity on GT machines in coremod by @Pxx500 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/615 (2.1.29)
 > * Resolve paperroll/carton recipe conflict to make carton craftable by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/614 (2.1.28)
 > * Remove duplicate vac freezer recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/613 (2.1.27)
 > * Remove 3 broken vac freezer recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/611 (2.1.26)
@@ -904,9 +932,11 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/TecTech/pull/199 (5.2.1)
 >
 
-# Updated ThaumicEnergistics (1.4.1-GTNH@Side.BOTH --> 1.4.2-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.0-GTNH...1.4.2-GTNH
+# Updated ThaumicEnergistics (1.4.1-GTNH@Side.BOTH --> 1.4.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.0-GTNH...1.4.3-GTNH
 >## What's Changed
+> * Spotless apply for branch refactoring for #41 by @github-actions in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/42 (1.4.3-GTNH)
+> * Refactoring by @firenoo in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/41 (1.4.3-GTNH)
 > * Spotless apply for branch depUpdate for #39 by @github-actions in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/40 (1.4.2-GTNH)
 > * Update BS + Deps by @firenoo in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/39 (1.4.2-GTNH)
 > * Add basic accelerator aspects by @greesyB in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/38 (1.4.1-GTNH)
@@ -945,9 +975,10 @@
 > * @StrangeMan1580 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/79 (1.9.27-GTNH)
 >
 
-# Updated VisualProspecting (1.1.1@Side.BOTH --> 1.1.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.1.0...1.1.4
+# Updated VisualProspecting (1.1.1@Side.BOTH --> 1.1.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.1.0...1.1.5
 >## What's Changed
+> * lang for new ore mixes by @chochem in https://github.com/GTNewHorizons/VisualProspecting/pull/32 (1.1.5)
 > * Check for null NBT tag in Written Book mixin by @wlhlm in https://github.com/GTNewHorizons/VisualProspecting/pull/31 (1.1.4)
 > * Bs+sa by @Dream-Master in https://github.com/GTNewHorizons/VisualProspecting/pull/29 (1.1.3)
 > * Better english translation for depleted veins by @chochem in https://github.com/GTNewHorizons/VisualProspecting/pull/28 (1.1.1)
@@ -963,8 +994,8 @@
 > * Fix fake creeper by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/29 (1.2.14-GTNH)
 >
 
-# New Mod - amunra (0.4.21-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.21-pre
+# New Mod - amunra (0.4.22-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.22-pre
 >## What's Changed
 > * Spotless apply for branch nhify for #13 by @github-actions in https://github.com/GTNewHorizons/amunra/pull/14 (0.4.18)
 > * Only register recipes if NH Core is loaded by @glowredman in https://github.com/GTNewHorizons/amunra/pull/13 (0.4.18)

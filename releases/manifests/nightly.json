@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-05-19T21:11:04.622344",
-  "config": "nightly-19-05-23",
+  "last_updated": "2023-05-21T10:23:05.532870",
+  "config": "2.3.3",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.13-GTNH-pre",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.20-gtnh",
+      "version": "1.1.21-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-213-GTNH",
+      "version": "rv3-beta-215-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -77,7 +77,7 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.1.13",
+      "version": "1.1.14",
       "side": "BOTH"
     },
     "BetterQuesting": {
@@ -145,7 +145,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.7.0-GTNH",
+      "version": "1.7.1-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.44",
+      "version": "5.09.43.46",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -381,7 +381,7 @@
       "side": "BOTH"
     },
     "Mantle": {
-      "version": "0.3.6",
+      "version": "0.3.7",
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.28",
+      "version": "2.1.30",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.4.2-GTNH",
+      "version": "1.4.3-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -669,7 +669,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.1.4",
+      "version": "1.1.5",
       "side": "BOTH"
     },
     "waila": {
@@ -809,11 +809,11 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.1.10",
+      "version": "1.1.11",
       "side": "BOTH"
     },
     "amunra": {
-      "version": "0.4.21-pre",
+      "version": "0.4.22-pre",
       "side": "BOTH"
     }
   },
