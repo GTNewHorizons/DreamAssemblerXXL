@@ -28,12 +28,40 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.7-gtnh)
 >
 
-# Updated AdventureBackpack2 (1.0.12-GTNH@Side.BOTH --> 1.0.13-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.9-GTNH...1.0.13-GTNH-pre
+# Updated AdventureBackpack2 (1.0.12-GTNH@Side.BOTH --> 1.0.14-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.9-GTNH...1.0.14-GTNH
 >## What's Changed
+> * Refactoring and pruning by @chill-was-taken in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
+> * Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/1 (1.0.14)
+> * https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/7091 by @repo-alt in https://github.com/GTNewHorizons/AdventureBackpack2/pull/2 (1.0.14)
+> * Migrate to unified build script by @SinTh0r4s in https://github.com/GTNewHorizons/AdventureBackpack2/pull/3 (1.0.14)
+> * Tank tooltip fix by @YannickMG in https://github.com/GTNewHorizons/AdventureBackpack2/pull/4 (1.0.14)
+> * Don't spill OpenGL's states out of the mod by @ElNounch in https://github.com/GTNewHorizons/AdventureBackpack2/pull/5 (1.0.14)
+> * add chatSpam config option by @bombcar in https://github.com/GTNewHorizons/AdventureBackpack2/pull/6 (1.0.14)
+> * LGPL-3.0 by @bombcar in https://github.com/GTNewHorizons/AdventureBackpack2/pull/7 (1.0.14)
+> * Overlay recipe by @MuXiu1997 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/8 (1.0.14)
+> * minor changes by @Alexdoru in https://github.com/GTNewHorizons/AdventureBackpack2/pull/9 (1.0.14)
+> * unbind unuse keybind by default by @Alexdoru in https://github.com/GTNewHorizons/AdventureBackpack2/pull/10 (1.0.14)
+> * remove recipe registration if NHCore is present by @boubou19 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/11 (1.0.14)
+> * Fix unequipping Piston Boots with armor stand not resets step height #12780 by @r1tsuu in https://github.com/GTNewHorizons/AdventureBackpack2/pull/12 (1.0.14)
+> * Fix hight step break boots from other mods by @Pilzinsel64 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.14)
+> * Refactoring and pruning by @chill-was-taken in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14)
 > * Fix hight step break boots from other mods by @Pilzinsel64 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 >
 >## New Contributors
+> * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
+> * @Kiwi233 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/1 (1.0.14)
+> * @repo-alt made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/2 (1.0.14)
+> * @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/3 (1.0.14)
+> * @YannickMG made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/4 (1.0.14)
+> * @ElNounch made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/5 (1.0.14)
+> * @bombcar made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/6 (1.0.14)
+> * @MuXiu1997 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/8 (1.0.14)
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/9 (1.0.14)
+> * @boubou19 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/11 (1.0.14)
+> * @r1tsuu made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/12 (1.0.14)
+> * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.14)
+> * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14)
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 >
 
@@ -694,12 +722,14 @@
 > * @BlueWeabo made their first contribution in https://github.com/GTNewHorizons/Mantle/pull/2 (0.3.6)
 >
 
-# Updated Minecraft-Backpack-Mod (2.2.9-GTNH@Side.BOTH --> 2.2.10-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.2.8-GTNH...2.2.10-GTNH-pre
+# Updated Minecraft-Backpack-Mod (2.2.9-GTNH@Side.BOTH --> 2.2.11-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.2.8-GTNH...2.2.11-GTNH
 >## What's Changed
+> * Refactor with intellij by @chill-was-taken in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/6 (2.2.11-GTNH)
 > * unbind keybind by default by @Alexdoru in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/5 (2.2.9-GTNH)
 >
 >## New Contributors
+> * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/6 (2.2.11-GTNH)
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/5 (2.2.9-GTNH)
 >
 
@@ -1016,9 +1046,10 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/amunra/pull/5 (0.4.11)
 >
 
-# Updated bartworks (0.6.14@Side.BOTH --> 0.7.8@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.13...0.7.8
+# Updated bartworks (0.6.14@Side.BOTH --> 0.7.9@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.13...0.7.9
 >## What's Changed
+> * Void Miner: Don't suggest muffler/data access hatch in BlockRenderer by @Fiyorin in https://github.com/GTNewHorizons/bartworks/pull/325 (0.7.9)
 > * Add eternity mhdcsm recipes by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/324 (0.7.8)
 > * Move Ross128 system closer to solar system by @glowredman in https://github.com/GTNewHorizons/bartworks/pull/323 (0.7.7)
 > * Update dependencies by @miozune in https://github.com/GTNewHorizons/bartworks/pull/322 (0.7.6)
@@ -1031,6 +1062,7 @@
 > * Add oredicts for diode and inductor for 2A-16A diode by @chochem in https://github.com/GTNewHorizons/bartworks/pull/314 (0.6.15)
 >
 >## New Contributors
+> * @Fiyorin made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/325 (0.7.9)
 > * @kstvr32 made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/319 (0.7.2)
 > * @MarchingCube made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/315 (0.6.16)
 >

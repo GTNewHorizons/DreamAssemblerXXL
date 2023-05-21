@@ -598,7 +598,7 @@
     },
     {
       "name": "AdventureBackpack2",
-      "latest_version": "1.0.13-GTNH-pre",
+      "latest_version": "1.0.14-GTNH",
       "versions": [
         {
           "version_tag": "1.0.0-GTNH",
@@ -732,6 +732,28 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/AdventureBackpack2/releases/assets/108873622",
           "browser_download_url": "https://github.com/GTNewHorizons/AdventureBackpack2/releases/download/1.0.13-GTNH-pre/adventurebackpack-1.0.13-GTNH-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AdventureBackpack2/1.0.13-GTNH-pre/AdventureBackpack2-1.0.13-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.14",
+          "changelog": "## What's Changed\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/1\n* https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/7091 by @repo-alt in https://github.com/GTNewHorizons/AdventureBackpack2/pull/2\n* Migrate to unified build script by @SinTh0r4s in https://github.com/GTNewHorizons/AdventureBackpack2/pull/3\n* Tank tooltip fix by @YannickMG in https://github.com/GTNewHorizons/AdventureBackpack2/pull/4\n* Don't spill OpenGL's states out of the mod by @ElNounch in https://github.com/GTNewHorizons/AdventureBackpack2/pull/5\n* add chatSpam config option by @bombcar in https://github.com/GTNewHorizons/AdventureBackpack2/pull/6\n* LGPL-3.0 by @bombcar in https://github.com/GTNewHorizons/AdventureBackpack2/pull/7\n* Overlay recipe by @MuXiu1997 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/8\n* minor changes by @Alexdoru in https://github.com/GTNewHorizons/AdventureBackpack2/pull/9\n* unbind unuse keybind by default by @Alexdoru in https://github.com/GTNewHorizons/AdventureBackpack2/pull/10\n* remove recipe registration if NHCore is present by @boubou19 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/11\n* Fix unequipping Piston Boots with armor stand not resets step height #12780 by @r1tsuu in https://github.com/GTNewHorizons/AdventureBackpack2/pull/12\n* Fix hight step break boots from other mods by @Pilzinsel64 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13\n* Refactoring and pruning by @chill-was-taken in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15\n\n## New Contributors\n* @Kiwi233 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/1\n* @repo-alt made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/2\n* @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/3\n* @YannickMG made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/4\n* @ElNounch made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/5\n* @bombcar made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/6\n* @MuXiu1997 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/8\n* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/9\n* @boubou19 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/11\n* @r1tsuu made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/12\n* @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13\n* @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15\n\n**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/v0.6.6...1.0.14\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-21T10:49:08+00:00",
+          "filename": "adventurebackpack-1.0.14.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AdventureBackpack2/releases/assets/109122127",
+          "browser_download_url": "https://github.com/GTNewHorizons/AdventureBackpack2/releases/download/1.0.14/adventurebackpack-1.0.14.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AdventureBackpack2/1.0.14/AdventureBackpack2-1.0.14.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.14-GTNH",
+          "changelog": "## What's Changed\n* Refactoring and pruning by @chill-was-taken in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15\n\n## New Contributors\n* @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15\n\n**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.12-GTNH...1.0.14-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-21T11:21:34+00:00",
+          "filename": "adventurebackpack-1.0.14-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/AdventureBackpack2/releases/assets/109124075",
+          "browser_download_url": "https://github.com/GTNewHorizons/AdventureBackpack2/releases/download/1.0.14-GTNH/adventurebackpack-1.0.14-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/AdventureBackpack2/1.0.14-GTNH/AdventureBackpack2-1.0.14-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -4367,7 +4389,7 @@
     },
     {
       "name": "bartworks",
-      "latest_version": "0.7.8",
+      "latest_version": "0.7.9",
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -5869,6 +5891,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/108651200",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.8/bartworks-0.7.8.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.7.8/bartworks-0.7.8.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.7.9",
+          "changelog": "## What's Changed\n* Void Miner: Don't suggest muffler/data access hatch in BlockRenderer by @Fiyorin in https://github.com/GTNewHorizons/bartworks/pull/325\n\n## New Contributors\n* @Fiyorin made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/325\n\n**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.8...0.7.9\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-21T10:45:30+00:00",
+          "filename": "bartworks-0.7.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/109121867",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.9/bartworks-0.7.9.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.7.9/bartworks-0.7.9.jar",
           "extra_assets": []
         }
       ],
@@ -31258,7 +31291,7 @@
     },
     {
       "name": "Minecraft-Backpack-Mod",
-      "latest_version": "2.2.10-GTNH-pre",
+      "latest_version": "2.2.11-GTNH",
       "versions": [
         {
           "version_tag": "2.2.5-GTNH",
@@ -31315,6 +31348,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Minecraft-Backpack-Mod/releases/assets/108873846",
           "browser_download_url": "https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/releases/download/2.2.10-GTNH-pre/backpack-2.2.10-GTNH-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Minecraft-Backpack-Mod/2.2.10-GTNH-pre/Minecraft-Backpack-Mod-2.2.10-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.11-GTNH",
+          "changelog": "## What's Changed\n* Refactor with intellij by @chill-was-taken in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/6\n\n## New Contributors\n* @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/6\n\n**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.2.9-GTNH...2.2.11-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-21T10:55:59+00:00",
+          "filename": "backpack-2.2.11-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Minecraft-Backpack-Mod/releases/assets/109122619",
+          "browser_download_url": "https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/releases/download/2.2.11-GTNH/backpack-2.2.11-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Minecraft-Backpack-Mod/2.2.11-GTNH/Minecraft-Backpack-Mod-2.2.11-GTNH.jar",
           "extra_assets": []
         }
       ],
