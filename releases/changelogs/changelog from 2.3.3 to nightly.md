@@ -299,9 +299,10 @@
 > * Fix TextureErrorRemover crash with Java 12+ env by @miozune in https://github.com/GTNewHorizons/EnderCore/pull/12 (0.2.13)
 >
 
-# Updated EnderIO (2.4.11@Side.BOTH --> 2.4.16@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.10...2.4.16
+# Updated EnderIO (2.4.11@Side.BOTH --> 2.4.17@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.10...2.4.17
 >## What's Changed
+> * Fix fluid conduit connecting to non-fluid GT tiles by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/123 (2.4.17)
 > * Minor hotfix + more cleanup for PowerConduitEndergy by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/122 (2.4.16)
 > * Fix crash with outOfRange on server by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/120 (2.4.14)
 > * Cleanup PowerConduitEndergy by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/121 (2.4.14)
@@ -341,9 +342,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.46@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.46
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.47@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.47
 >## What's Changed
+> * Nerf Sunnarium Bee, Add Endstone to Endstone Bee by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2014 (5.09.43.47)
 > * Fix typo in SteamPower by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2012 (5.09.43.46)
 > * GT Charged Certus Quartz fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2013 (5.09.43.46)
 > * Singleblock machine internal fluid tank scaling standardization by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1999 (5.09.43.46)
@@ -1036,9 +1038,10 @@
 > * Fix fake creeper by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/29 (1.2.14-GTNH)
 >
 
-# New Mod - amunra (0.4.22-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.22-pre
+# New Mod - amunra (0.4.23@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.23
 >## What's Changed
+> * Some Bugfixes by @glowredman in https://github.com/GTNewHorizons/amunra/pull/15 (0.4.23)
 > * Spotless apply for branch nhify for #13 by @github-actions in https://github.com/GTNewHorizons/amunra/pull/14 (0.4.18)
 > * Only register recipes if NH Core is loaded by @glowredman in https://github.com/GTNewHorizons/amunra/pull/13 (0.4.18)
 > * Move offline-check to init by @glowredman in https://github.com/GTNewHorizons/amunra/pull/12 (0.4.17)
