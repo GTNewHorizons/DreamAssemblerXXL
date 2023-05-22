@@ -5912,6 +5912,7 @@
           "filename": "bartworks-0.7.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/109228335",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.10/bartworks-0.7.10.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.7.10/bartworks-0.7.10.jar",
           "extra_assets": []
         }
       ],
@@ -7724,6 +7725,7 @@
           "filename": "binnie-mods-2.1.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/109158840",
           "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.1.1/binnie-mods-2.1.1.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Binnie/2.1.1/Binnie-2.1.1.jar",
           "extra_assets": []
         }
       ],
@@ -11261,6 +11263,7 @@
           "filename": "endercore-0.2.14.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderCore/releases/assets/109227637",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.14/endercore-0.2.14.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderCore/0.2.14/EnderCore-0.2.14.jar",
           "extra_assets": []
         }
       ],
@@ -25649,6 +25652,7 @@
           "filename": "GT-PlusPlus-1.9.15.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/109228043",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.15/GT-PlusPlus-1.9.15.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.15/GTplusplus-1.9.15.jar",
           "extra_assets": []
         }
       ],
@@ -44974,6 +44978,7 @@
           "filename": "TConstruct-1.9.35-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/109228108",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.35-GTNH/TConstruct-1.9.35-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/1.9.35-GTNH/TinkersConstruct-1.9.35-GTNH.jar",
           "extra_assets": []
         }
       ],
