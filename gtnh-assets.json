@@ -4389,7 +4389,7 @@
     },
     {
       "name": "bartworks",
-      "latest_version": "0.7.9",
+      "latest_version": "0.7.10",
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -5902,6 +5902,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/109121867",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.9/bartworks-0.7.9.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.7.9/bartworks-0.7.9.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.7.10",
+          "changelog": "## What's Changed\n* change tooltip to be clearer by @MeiTianyou in https://github.com/GTNewHorizons/bartworks/pull/326\n\n## New Contributors\n* @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/326\n\n**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.9...0.7.10\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-22T07:53:16+00:00",
+          "filename": "bartworks-0.7.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/109228335",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.10/bartworks-0.7.10.jar",
           "extra_assets": []
         }
       ],
@@ -7510,7 +7520,7 @@
     },
     {
       "name": "Binnie",
-      "latest_version": "2.1.0",
+      "latest_version": "2.1.1",
       "versions": [
         {
           "version_tag": "2.0.24",
@@ -7704,6 +7714,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/105832068",
           "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.1.0/binnie-mods-2.1.0.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Binnie/2.1.0/Binnie-2.1.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.1",
+          "changelog": "## What's Changed\n* Add OrderedSky to Chadbee whitelist by @Runakai1 in https://github.com/GTNewHorizons/Binnie/pull/28\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.0...2.1.1\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-21T19:09:22+00:00",
+          "filename": "binnie-mods-2.1.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/109158840",
+          "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.1.1/binnie-mods-2.1.1.jar",
           "extra_assets": []
         }
       ],
@@ -11112,7 +11132,7 @@
     },
     {
       "name": "EnderCore",
-      "latest_version": "0.2.13",
+      "latest_version": "0.2.14",
       "versions": [
         {
           "version_tag": "0.2.1",
@@ -11231,6 +11251,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderCore/releases/assets/95202460",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.13/endercore-0.2.13.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderCore/0.2.13/EnderCore-0.2.13.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.2.14",
+          "changelog": "## What's Changed\n* updateBuildScript & spotlessApply by @miozune in https://github.com/GTNewHorizons/EnderCore/pull/13\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.13...0.2.14\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-22T07:43:55+00:00",
+          "filename": "endercore-0.2.14.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderCore/releases/assets/109227637",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.14/endercore-0.2.14.jar",
           "extra_assets": []
         }
       ],
@@ -23191,7 +23221,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.9.14",
+      "latest_version": "1.9.15",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -25609,6 +25639,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/108872095",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.14/GT-PlusPlus-1.9.14.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.14/GTplusplus-1.9.14.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.15",
+          "changelog": "## What's Changed\n* Fix HV semifluid gen recipe by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/635\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.14...1.9.15\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-22T07:49:33+00:00",
+          "filename": "GT-PlusPlus-1.9.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/109228043",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.15/GT-PlusPlus-1.9.15.jar",
           "extra_assets": []
         }
       ],
@@ -33495,7 +33535,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.30",
+      "latest_version": "2.1.32",
       "private": false,
       "versions": [
         {
@@ -35786,6 +35826,26 @@
           "filename": "GTNewHorizonsCoreMod-2.1.30.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/109062629",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.30/GTNewHorizonsCoreMod-2.1.30.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.31",
+          "changelog": "## What's Changed\n* Fix 0 EUt recipe by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/619\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.30...2.1.31\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-21T14:18:43+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.31.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/109136983",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.31/GTNewHorizonsCoreMod-2.1.31.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.32",
+          "changelog": "## What's Changed\n* Eternity adjustment by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/620\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.31...2.1.32\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-21T18:57:25+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.32.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/109158055",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.32/GTNewHorizonsCoreMod-2.1.32.jar",
           "extra_assets": []
         }
       ],
@@ -44344,7 +44404,7 @@
     },
     {
       "name": "TinkersConstruct",
-      "latest_version": "1.9.34-GTNH",
+      "latest_version": "1.9.35-GTNH",
       "versions": [
         {
           "version_tag": "1,8.9-GTNH",
@@ -44904,6 +44964,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/108951975",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.34-GTNH/TConstruct-1.9.34-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/1.9.34-GTNH/TinkersConstruct-1.9.34-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.35-GTNH",
+          "changelog": "## What's Changed\n* fix crash when opening stencil table with cast by @Denostrov in https://github.com/GTNewHorizons/TinkersConstruct/pull/87\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.34-GTNH...1.9.35-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-22T07:50:17+00:00",
+          "filename": "TConstruct-1.9.35-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/109228108",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.35-GTNH/TConstruct-1.9.35-GTNH.jar",
           "extra_assets": []
         }
       ],

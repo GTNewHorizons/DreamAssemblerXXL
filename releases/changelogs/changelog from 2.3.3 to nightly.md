@@ -143,9 +143,10 @@
 > * @rekongstor made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/108 (3.3.19-GTNH)
 >
 
-# Updated Binnie (2.0.48@Side.BOTH --> 2.1.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.0.46...2.1.0
+# Updated Binnie (2.0.48@Side.BOTH --> 2.1.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.0.46...2.1.1
 >## What's Changed
+> * Add OrderedSky to Chadbee whitelist by @Runakai1 in https://github.com/GTNewHorizons/Binnie/pull/28 (2.1.1)
 > * Fix frame overrides not respecting `maxDamage` field by @DStrand1 in https://github.com/GTNewHorizons/Binnie/pull/27 (2.1.0)
 > * Make reflection Java 12+ compatible, mark mods as children of the main mod by @eigenraven in https://github.com/GTNewHorizons/Binnie/pull/26 (2.0.48)
 >
@@ -289,6 +290,13 @@
 >
 >## New Contributors
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/60 (1.3.1)
+>
+
+# Updated EnderCore (0.2.13@Side.BOTH --> 0.2.14@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.12...0.2.14
+>## What's Changed
+> * updateBuildScript & spotlessApply by @miozune in https://github.com/GTNewHorizons/EnderCore/pull/13 (0.2.14)
+> * Fix TextureErrorRemover crash with Java 12+ env by @miozune in https://github.com/GTNewHorizons/EnderCore/pull/12 (0.2.13)
 >
 
 # Updated EnderIO (2.4.11@Side.BOTH --> 2.4.16@Side.BOTH)
@@ -472,9 +480,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.14@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.14
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.15@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.15
 >## What's Changed
+> * Fix HV semifluid gen recipe by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/635 (1.9.15)
 > * Make sure that GT++ Cokes have recipes in the Advanced Coke Oven by @MeiTianyou in https://github.com/GTNewHorizons/GTplusplus/pull/634 (1.9.14)
 > * ExxonMobile Chemical Plant: Fix the Blockrenderer Structure Preview  by @Fiyorin in https://github.com/GTNewHorizons/GTplusplus/pull/632 (1.9.13)
 > * Add Temporal Harmonizer Catalyst by @GDCloudstrike in https://github.com/GTNewHorizons/GTplusplus/pull/633 (1.9.12)
@@ -775,9 +784,11 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.30@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.30
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.32@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.32
 >## What's Changed
+> * Eternity adjustment by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/620 (2.1.32)
+> * Fix 0 EUt recipe by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/619 (2.1.31)
 > * Recipe fixes for changed stone and glass by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/618 (2.1.30)
 > * Cleanup ae2 script file by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/616 (2.1.29)
 > * Charged certus quartz fixes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/617 (2.1.29)
@@ -986,9 +997,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/29 (2.6.13)
 >
 
-# Updated TinkersConstruct (1.9.26-GTNH@Side.BOTH --> 1.9.34-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.25-GTNH...1.9.34-GTNH
+# Updated TinkersConstruct (1.9.26-GTNH@Side.BOTH --> 1.9.35-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.25-GTNH...1.9.35-GTNH
 >## What's Changed
+> * fix crash when opening stencil table with cast by @Denostrov in https://github.com/GTNewHorizons/TinkersConstruct/pull/87 (1.9.35-GTNH)
 > * fix smeltery acceleration and comparator output by @Denostrov in https://github.com/GTNewHorizons/TinkersConstruct/pull/86 (1.9.34-GTNH)
 > * Use compileOnlyApi for CoFH by @miozune in https://github.com/GTNewHorizons/TinkersConstruct/pull/84 (1.9.32-GTNH)
 > * Readme: remove the workspace step by @chill-was-taken in https://github.com/GTNewHorizons/TinkersConstruct/pull/83 (1.9.31-GTNH)
@@ -1046,9 +1058,10 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/amunra/pull/5 (0.4.11)
 >
 
-# Updated bartworks (0.6.14@Side.BOTH --> 0.7.9@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.13...0.7.9
+# Updated bartworks (0.6.14@Side.BOTH --> 0.7.10@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.13...0.7.10
 >## What's Changed
+> * change tooltip to be clearer by @MeiTianyou in https://github.com/GTNewHorizons/bartworks/pull/326 (0.7.10)
 > * Void Miner: Don't suggest muffler/data access hatch in BlockRenderer by @Fiyorin in https://github.com/GTNewHorizons/bartworks/pull/325 (0.7.9)
 > * Add eternity mhdcsm recipes by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/324 (0.7.8)
 > * Move Ross128 system closer to solar system by @glowredman in https://github.com/GTNewHorizons/bartworks/pull/323 (0.7.7)
@@ -1062,6 +1075,7 @@
 > * Add oredicts for diode and inductor for 2A-16A diode by @chochem in https://github.com/GTNewHorizons/bartworks/pull/314 (0.6.15)
 >
 >## New Contributors
+> * @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/326 (0.7.10)
 > * @Fiyorin made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/325 (0.7.9)
 > * @kstvr32 made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/319 (0.7.2)
 > * @MarchingCube made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/315 (0.6.16)

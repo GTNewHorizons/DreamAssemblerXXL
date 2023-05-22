@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.9",
+      "version": "0.7.10",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.1.0",
+      "version": "2.1.1",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -189,7 +189,7 @@
       "side": "BOTH"
     },
     "EnderCore": {
-      "version": "0.2.13",
+      "version": "0.2.14",
       "side": "BOTH"
     },
     "EnderIO": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.14",
+      "version": "1.9.15",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.30",
+      "version": "2.1.32",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -641,7 +641,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.9.34-GTNH",
+      "version": "1.9.35-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
