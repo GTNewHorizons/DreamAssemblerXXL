@@ -2075,7 +2075,7 @@
     },
     {
       "name": "amunra",
-      "latest_version": "0.4.23",
+      "latest_version": "0.4.24",
       "private": false,
       "versions": [
         {
@@ -2224,6 +2224,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/109288265",
           "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.23/AmunRa-GC-0.4.23.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/0.4.23/amunra-0.4.23.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.4.24",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.23...0.4.24\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-23T08:32:14+00:00",
+          "filename": "AmunRa-GC-0.4.24.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/109390433",
+          "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.24/AmunRa-GC-0.4.24.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/0.4.24/amunra-0.4.24.jar",
           "extra_assets": []
         }
       ],
@@ -2437,7 +2448,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-215-GTNH",
+      "latest_version": "rv3-beta-216-GTNH",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -3873,6 +3884,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/109014680",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-215-GTNH/appliedenergistics2-rv3-beta-215-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-215-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-215-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-216-GTNH",
+          "changelog": "## What's Changed\n* Feature Configs by @DrParadox7 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/325\n\n## New Contributors\n* @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/325\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-215-GTNH...rv3-beta-216-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-22T20:03:43+00:00",
+          "filename": "appliedenergistics2-rv3-beta-216-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/109315006",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-216-GTNH/appliedenergistics2-rv3-beta-216-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-216-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-216-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -16404,7 +16426,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.47",
+      "latest_version": "5.09.43.48",
       "private": false,
       "versions": [
         {
@@ -21951,6 +21973,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.47/gregtech-5.09.43.47.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.47/GT5-Unofficial-5.09.43.47.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.48",
+          "changelog": "## What's Changed\n* Speedup Recycler recipe lookup by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2016\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.47...5.09.43.48\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-23T08:31:30+00:00",
+          "filename": "gregtech-5.09.43.48.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109390365",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.48/gregtech-5.09.43.48.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.48/GT5-Unofficial-5.09.43.48.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -22150,7 +22183,7 @@
     },
     {
       "name": "GTNH-Intergalactic",
-      "latest_version": "1.1.11",
+      "latest_version": "1.1.12",
       "private": false,
       "versions": [
         {
@@ -22484,6 +22517,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/109074515",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.1.11/gtnhintergalactic-1.1.11.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Intergalactic/1.1.11/GTNH-Intergalactic-1.1.11.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.12",
+          "changelog": "## What's Changed\n* SE Controller: improve tooltip by @Fiyorin in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/33\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.11...1.1.12\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-23T08:31:12+00:00",
+          "filename": "gtnhintergalactic-1.1.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/109390335",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.1.12/gtnhintergalactic-1.1.12.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Intergalactic/1.1.12/GTNH-Intergalactic-1.1.12.jar",
           "extra_assets": []
         }
       ],
@@ -23267,7 +23311,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.9.15",
+      "latest_version": "1.9.16",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -25696,6 +25740,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/109228043",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.15/GT-PlusPlus-1.9.15.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.15/GTplusplus-1.9.15.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.16",
+          "changelog": "## What's Changed\n* Arc Furnace: Fix Blockrenderer Preview by @Fiyorin in https://github.com/GTNewHorizons/GTplusplus/pull/636\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.15...1.9.16\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-23T08:32:27+00:00",
+          "filename": "GT-PlusPlus-1.9.16.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/109390446",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.16/GT-PlusPlus-1.9.16.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.16/GTplusplus-1.9.16.jar",
           "extra_assets": []
         }
       ],
@@ -33582,7 +33637,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.32",
+      "latest_version": "2.1.35",
       "private": false,
       "versions": [
         {
@@ -35893,6 +35948,36 @@
           "filename": "GTNewHorizonsCoreMod-2.1.32.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/109158055",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.32/GTNewHorizonsCoreMod-2.1.32.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.33",
+          "changelog": "## What's Changed\n* fix broken wire definitions for uhv-umv machines by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/621\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.32...2.1.33\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-22T20:28:19+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.33.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/109318423",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.33/GTNewHorizonsCoreMod-2.1.33.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.34",
+          "changelog": "## What's Changed\n* Add correct recycling recipes for railcraft boiler tanks, steam loco, etc by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/622\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.33...2.1.34\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-23T08:32:30+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.34.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/109390453",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.34/GTNewHorizonsCoreMod-2.1.34.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.35",
+          "changelog": "## What's Changed\n* Change Alveary Sieve Recipe in Assembler by @MeiTianyou in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/623\n\n## New Contributors\n* @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/623\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.34...2.1.35\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-23T16:25:50+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.35.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/109466447",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.35/GTNewHorizonsCoreMod-2.1.35.jar",
           "extra_assets": []
         }
       ],

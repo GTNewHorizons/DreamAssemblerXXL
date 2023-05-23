@@ -65,9 +65,10 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-215-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-215-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-216-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-216-GTNH
 >## What's Changed
+> * Feature Configs by @DrParadox7 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/325 (rv3-beta-216-GTNH)
 > * Use interface instead of class for generalization by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/323 (rv3-beta-215-GTNH)
 > * AE API: Add a method to blacklist items/provide filters based on item/fluid by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/322 (rv3-beta-214-GTNH)
 > * Forge direction backwards compat by @greesyB in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/320 (rv3-beta-213-GTNH)
@@ -91,6 +92,7 @@
 > * Allow null in part deprecation to "skip" migration by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/299 (rv3-beta-195-GTNH)
 >
 >## New Contributors
+> * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/325 (rv3-beta-216-GTNH)
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/312 (rv3-beta-205-GTNH)
 >
 
@@ -342,9 +344,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.47@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.47
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.48@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.48
 >## What's Changed
+> * Speedup Recycler recipe lookup by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2016 (5.09.43.48)
 > * Nerf Sunnarium Bee, Add Endstone to Endstone Bee by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2014 (5.09.43.47)
 > * Fix typo in SteamPower by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2012 (5.09.43.46)
 > * GT Charged Certus Quartz fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2013 (5.09.43.46)
@@ -447,9 +450,10 @@
 > * @kstvr32 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1946 (5.09.43.10)
 >
 
-# Updated GTNH-Intergalactic (1.0.14@Side.BOTH --> 1.1.11@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.12...1.1.11
+# Updated GTNH-Intergalactic (1.0.14@Side.BOTH --> 1.1.12@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.0.12...1.1.12
 >## What's Changed
+> * SE Controller: improve tooltip by @Fiyorin in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/33 (1.1.12)
 > * Space Miner: add molybdenum and nether quartz ore by @Fiyorin in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/31 (1.1.11)
 > * Actively connect modules by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/30 (1.1.10)
 > * make toxic everglades great again by @Fiyorin in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/29 (1.1.9)
@@ -482,9 +486,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.15@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.15
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.16@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.16
 >## What's Changed
+> * Arc Furnace: Fix Blockrenderer Preview by @Fiyorin in https://github.com/GTNewHorizons/GTplusplus/pull/636 (1.9.16)
 > * Fix HV semifluid gen recipe by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/635 (1.9.15)
 > * Make sure that GT++ Cokes have recipes in the Advanced Coke Oven by @MeiTianyou in https://github.com/GTNewHorizons/GTplusplus/pull/634 (1.9.14)
 > * ExxonMobile Chemical Plant: Fix the Blockrenderer Structure Preview  by @Fiyorin in https://github.com/GTNewHorizons/GTplusplus/pull/632 (1.9.13)
@@ -786,9 +791,12 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.32@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.32
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.35@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.35
 >## What's Changed
+> * Change Alveary Sieve Recipe in Assembler by @MeiTianyou in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/623 (2.1.35)
+> * Add correct recycling recipes for railcraft boiler tanks, steam loco, etc by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/622 (2.1.34)
+> * fix broken wire definitions for uhv-umv machines by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/621 (2.1.33)
 > * Eternity adjustment by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/620 (2.1.32)
 > * Fix 0 EUt recipe by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/619 (2.1.31)
 > * Recipe fixes for changed stone and glass by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/618 (2.1.30)
@@ -845,6 +853,7 @@
 > * Oredicts diodes and inductors for 2A-16A diodes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/571 (2.0.33)
 >
 >## New Contributors
+> * @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/623 (2.1.35)
 > * @Fiyorin made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/600 (2.1.21)
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/582 (2.1.7)
 >
@@ -1038,8 +1047,8 @@
 > * Fix fake creeper by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/29 (1.2.14-GTNH)
 >
 
-# New Mod - amunra (0.4.23@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.23
+# New Mod - amunra (0.4.24@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.24
 >## What's Changed
 > * Some Bugfixes by @glowredman in https://github.com/GTNewHorizons/amunra/pull/15 (0.4.23)
 > * Spotless apply for branch nhify for #13 by @github-actions in https://github.com/GTNewHorizons/amunra/pull/14 (0.4.18)
