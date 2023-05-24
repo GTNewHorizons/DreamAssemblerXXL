@@ -344,9 +344,11 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.48@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.48
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.49@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.49
 >## What's Changed
+> * list update for recipe in coremod by @TheEpicGamer274 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2017 (5.09.43.49)
+> * Add tooltip for gas proof for fluid pipe by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2018 (5.09.43.49)
 > * Speedup Recycler recipe lookup by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2016 (5.09.43.48)
 > * Nerf Sunnarium Bee, Add Endstone to Endstone Bee by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2014 (5.09.43.47)
 > * Fix typo in SteamPower by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2012 (5.09.43.46)
@@ -791,8 +793,8 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.35@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.35
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.36-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.36-pre
 >## What's Changed
 > * Change Alveary Sieve Recipe in Assembler by @MeiTianyou in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/623 (2.1.35)
 > * Add correct recycling recipes for railcraft boiler tanks, steam loco, etc by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/622 (2.1.34)
@@ -1047,8 +1049,8 @@
 > * Fix fake creeper by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/29 (1.2.14-GTNH)
 >
 
-# New Mod - amunra (0.4.24@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.24
+# New Mod - amunra (0.4.25@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.25
 >## What's Changed
 > * Some Bugfixes by @glowredman in https://github.com/GTNewHorizons/amunra/pull/15 (0.4.23)
 > * Spotless apply for branch nhify for #13 by @github-actions in https://github.com/GTNewHorizons/amunra/pull/14 (0.4.18)
@@ -1070,9 +1072,10 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/amunra/pull/5 (0.4.11)
 >
 
-# Updated bartworks (0.6.14@Side.BOTH --> 0.7.10@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.13...0.7.10
+# Updated bartworks (0.6.14@Side.BOTH --> 0.7.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.13...0.7.11
 >## What's Changed
+> * Fix neutronium machine block registration by @greesyB in https://github.com/GTNewHorizons/bartworks/pull/327 (0.7.11)
 > * change tooltip to be clearer by @MeiTianyou in https://github.com/GTNewHorizons/bartworks/pull/326 (0.7.10)
 > * Void Miner: Don't suggest muffler/data access hatch in BlockRenderer by @Fiyorin in https://github.com/GTNewHorizons/bartworks/pull/325 (0.7.9)
 > * Add eternity mhdcsm recipes by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/324 (0.7.8)
@@ -1103,8 +1106,8 @@
 > * @Pxx500 made their first contribution in https://github.com/GTNewHorizons/harvestcraft/pull/45 (1.1.0-GTNH)
 >
 
-# Updated lwjgl3ify (1.3.5@Side.BOTH_JAVA9 --> 1.3.7@Side.BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.3.4...1.3.7
+# Updated lwjgl3ify (1.3.5@Side.BOTH_JAVA9 --> 1.3.9@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.3.4...1.3.9
 >## What's Changed
 > * Add extensible enum for Et Futurum Requiem by @miozune in https://github.com/GTNewHorizons/lwjgl3ify/pull/62 (1.3.7)
 > * Don't spam log when hotswap by @miozune in https://github.com/GTNewHorizons/lwjgl3ify/pull/59 (1.3.6)
