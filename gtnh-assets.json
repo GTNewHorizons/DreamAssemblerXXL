@@ -2075,7 +2075,7 @@
     },
     {
       "name": "amunra",
-      "latest_version": "0.4.25",
+      "latest_version": "0.4.26",
       "private": false,
       "versions": [
         {
@@ -2246,6 +2246,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/109584991",
           "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.25/AmunRa-GC-0.4.25.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/0.4.25/amunra-0.4.25.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.4.26",
+          "changelog": "## What's Changed\n* Fix the dataWatcher casting error by @Hikari1nVoid in https://github.com/GTNewHorizons/amunra/pull/16\n\n## New Contributors\n* @Hikari1nVoid made their first contribution in https://github.com/GTNewHorizons/amunra/pull/16\n\n**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.25...0.4.26\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-25T15:04:39+00:00",
+          "filename": "AmunRa-GC-0.4.26.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/109784151",
+          "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.26/AmunRa-GC-0.4.26.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/0.4.26/amunra-0.4.26.jar",
           "extra_assets": []
         }
       ],
@@ -2459,7 +2470,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-216-GTNH",
+      "latest_version": "rv3-beta-217-GTNH",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -3906,6 +3917,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/109315006",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-216-GTNH/appliedenergistics2-rv3-beta-216-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-216-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-216-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-217-GTNH",
+          "changelog": "## What's Changed\n* Add enough API to make NEE no longer require asming into ae2 by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/326\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-216-GTNH...rv3-beta-217-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-25T18:40:11+00:00",
+          "filename": "appliedenergistics2-rv3-beta-217-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/109813384",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-217-GTNH/appliedenergistics2-rv3-beta-217-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-217-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-217-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -10666,7 +10688,7 @@
     },
     {
       "name": "Draconic-Evolution",
-      "latest_version": "1.1.16-GTNH",
+      "latest_version": "1.1.17-GTNH-pre",
       "versions": [
         {
           "version_tag": "1.1.1",
@@ -10828,6 +10850,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/107244743",
           "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.16-GTNH/Draconic-Evolution-1.1.16-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/1.1.16-GTNH/Draconic-Evolution-1.1.16-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.17-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.16-GTNH...1.1.17-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-25T07:06:03+00:00",
+          "filename": "Draconic-Evolution-1.1.17-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/109717789",
+          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.17-GTNH-pre/Draconic-Evolution-1.1.17-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/1.1.17-GTNH-pre/Draconic-Evolution-1.1.17-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -16325,7 +16358,7 @@
     },
     {
       "name": "Gravitation-Suite-Neo",
-      "latest_version": "1.0.10",
+      "latest_version": "1.0.11-pre",
       "private": false,
       "versions": [
         {
@@ -16439,6 +16472,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/Gravitation-Suite-Neo/releases/download/1.0.10/gravisuiteneo-1.0.10.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Gravitation-Suite-Neo/1.0.10/Gravitation-Suite-Neo-1.0.10.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.11-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.10...1.0.11-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-25T21:22:47+00:00",
+          "filename": "gravisuiteneo-1.0.11-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Gravitation-Suite-Neo/releases/assets/109832009",
+          "browser_download_url": "https://github.com/GTNewHorizons/Gravitation-Suite-Neo/releases/download/1.0.11-pre/gravisuiteneo-1.0.11-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Gravitation-Suite-Neo/1.0.11-pre/Gravitation-Suite-Neo-1.0.11-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "All Rights Reserved (fallback)",
@@ -16448,7 +16492,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.49",
+      "latest_version": "5.09.43.51",
       "private": false,
       "versions": [
         {
@@ -22017,6 +22061,27 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.49/gregtech-5.09.43.49.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.49/GT5-Unofficial-5.09.43.49.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.50",
+          "changelog": "## What's Changed\n* Fixed mixer recipe map ending up without programmed circuits by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2020\n* Adjust overrides to allow opening machine GUI by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2019\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.49...5.09.43.50\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-24T21:44:39+00:00",
+          "filename": "gregtech-5.09.43.50.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109663123",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.50/gregtech-5.09.43.50.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.51",
+          "changelog": "## What's Changed\n* Texture update for a few QFT items by @EmeraldsEmerald in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2021\n\n## New Contributors\n* @EmeraldsEmerald made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2021\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.50...5.09.43.51\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-26T05:48:29+00:00",
+          "filename": "gregtech-5.09.43.51.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109887267",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.51/gregtech-5.09.43.51.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.51/GT5-Unofficial-5.09.43.51.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -22026,7 +22091,7 @@
     },
     {
       "name": "GTNEIOrePlugin",
-      "latest_version": "1.0.29",
+      "latest_version": "1.1.0",
       "versions": [
         {
           "version_tag": "1.0.10",
@@ -22207,6 +22272,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNEIOrePlugin/releases/assets/99019489",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNEIOrePlugin/releases/download/1.0.29/gtneioreplugin-1.0.29.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNEIOrePlugin/1.0.29/GTNEIOrePlugin-1.0.29.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.0",
+          "changelog": "## What's Changed\n* Cleanup by @glowredman in https://github.com/GTNewHorizons/GTNEIOrePlugin/pull/34\n\n## New Contributors\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/GTNEIOrePlugin/pull/34\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNEIOrePlugin/compare/1.0.29...1.1.0\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-25T17:11:21+00:00",
+          "filename": "gtneioreplugin-1.1.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNEIOrePlugin/releases/assets/109801583",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNEIOrePlugin/releases/download/1.1.0/gtneioreplugin-1.1.0.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNEIOrePlugin/1.1.0/GTNEIOrePlugin-1.1.0.jar",
           "extra_assets": []
         }
       ],
@@ -23344,7 +23420,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.9.16",
+      "latest_version": "1.9.18",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -25784,6 +25860,27 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/109390446",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.16/GT-PlusPlus-1.9.16.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.16/GTplusplus-1.9.16.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.17-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.16...1.9.17-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-25T07:05:43+00:00",
+          "filename": "GT-PlusPlus-1.9.17-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/109717760",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.17-pre/GT-PlusPlus-1.9.17-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.18",
+          "changelog": "## What's Changed\n* added chisel input busses by @Quetz4l in https://github.com/GTNewHorizons/GTplusplus/pull/638\n* Deprecation cleanup by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/637\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.16...1.9.18\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-26T05:47:25+00:00",
+          "filename": "GT-PlusPlus-1.9.18.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/109887086",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.18/GT-PlusPlus-1.9.18.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.18/GTplusplus-1.9.18.jar",
           "extra_assets": []
         }
       ],
@@ -33712,7 +33809,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.36-pre",
+      "latest_version": "2.1.38",
       "private": false,
       "versions": [
         {
@@ -36064,6 +36161,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/109493614",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.36-pre/GTNewHorizonsCoreMod-2.1.36-pre.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.37-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.36-pre...2.1.37-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-24T19:42:24+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.37-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/109650379",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.37-pre/GTNewHorizonsCoreMod-2.1.37-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.38",
+          "changelog": "## What's Changed\n* Sulfur Cloud recipe fix by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/625\n* Add Amun-Ra Recipes by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/624\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.35...2.1.38\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-26T05:54:43+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.38.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/109887844",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.38/GTNewHorizonsCoreMod-2.1.38.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -36097,7 +36214,7 @@
     },
     {
       "name": "NotEnoughEnergistics",
-      "latest_version": "1.4.0",
+      "latest_version": "1.4.1-pre",
       "versions": [
         {
           "version_tag": "1.3.8",
@@ -36310,6 +36427,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/99528431",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.4.0/NotEnoughEnergistics-1.4.0.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughEnergistics/1.4.0/NotEnoughEnergistics-1.4.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.1-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.4.0...1.4.1-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-25T18:59:57+00:00",
+          "filename": "NotEnoughEnergistics-1.4.1-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/109816209",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.4.1-pre/NotEnoughEnergistics-1.4.1-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughEnergistics/1.4.1-pre/NotEnoughEnergistics-1.4.1-pre.jar",
           "extra_assets": []
         }
       ],
@@ -43748,7 +43876,7 @@
     },
     {
       "name": "ThaumicEnergistics",
-      "latest_version": "1.4.3-GTNH",
+      "latest_version": "1.4.4-GTNH",
       "versions": [
         {
           "version_tag": "1.1.3.1",
@@ -43955,6 +44083,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/109058382",
           "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.4.3-GTNH/thaumicenergistics-1.4.3-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicEnergistics/1.4.3-GTNH/ThaumicEnergistics-1.4.3-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.4-GTNH",
+          "changelog": "## What's Changed\n* Making the name more accurate by @Alastors in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/43\n\n## New Contributors\n* @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/43\n\n**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.3-GTNH...1.4.4-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-25T17:40:27+00:00",
+          "filename": "thaumicenergistics-1.4.4-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ThaumicEnergistics/releases/assets/109805143",
+          "browser_download_url": "https://github.com/GTNewHorizons/ThaumicEnergistics/releases/download/1.4.4-GTNH/thaumicenergistics-1.4.4-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ThaumicEnergistics/1.4.4-GTNH/ThaumicEnergistics-1.4.4-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -46449,7 +46588,7 @@
     },
     {
       "name": "WirelessCraftingTerminal",
-      "latest_version": "1.9.0",
+      "latest_version": "1.9.2",
       "versions": [
         {
           "version_tag": "1.8.8.1",
@@ -46576,6 +46715,27 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/WirelessCraftingTerminal/releases/assets/100196003",
           "browser_download_url": "https://github.com/GTNewHorizons/WirelessCraftingTerminal/releases/download/1.9.0/WirelessCraftingTerminal-1.9.0.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WirelessCraftingTerminal/1.9.0/WirelessCraftingTerminal-1.9.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.1-pre",
+          "changelog": "## What's Changed\n* Spotless apply for branch firenoo/update for #27 by @github-actions in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/28\n\n## New Contributors\n* @github-actions made their first contribution in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/28\n\n**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.9.0...1.9.1-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-25T17:14:28+00:00",
+          "filename": "WirelessCraftingTerminal-1.9.1-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WirelessCraftingTerminal/releases/assets/109801840",
+          "browser_download_url": "https://github.com/GTNewHorizons/WirelessCraftingTerminal/releases/download/1.9.1-pre/WirelessCraftingTerminal-1.9.1-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.2",
+          "changelog": "## What's Changed\n* Spotless apply for branch firenoo/update for #27 by @github-actions in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/28\n* Compat update by @firenoo in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/27\n\n## New Contributors\n* @github-actions made their first contribution in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/28\n* @firenoo made their first contribution in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/27\n\n**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.9.0...1.9.2\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-25T17:38:24+00:00",
+          "filename": "WirelessCraftingTerminal-1.9.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/WirelessCraftingTerminal/releases/assets/109804865",
+          "browser_download_url": "https://github.com/GTNewHorizons/WirelessCraftingTerminal/releases/download/1.9.2/WirelessCraftingTerminal-1.9.2.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/WirelessCraftingTerminal/1.9.2/WirelessCraftingTerminal-1.9.2.jar",
           "extra_assets": []
         }
       ],

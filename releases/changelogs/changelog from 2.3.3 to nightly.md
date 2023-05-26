@@ -65,9 +65,10 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-216-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-216-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-217-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-217-GTNH
 >## What's Changed
+> * Add enough API to make NEE no longer require asming into ae2 by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/326 (rv3-beta-217-GTNH)
 > * Feature Configs by @DrParadox7 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/325 (rv3-beta-216-GTNH)
 > * Use interface instead of class for generalization by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/323 (rv3-beta-215-GTNH)
 > * AE API: Add a method to blacklist items/provide filters based on item/fluid by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/322 (rv3-beta-214-GTNH)
@@ -274,8 +275,8 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/DetravScannerMod/pull/28 (1.7.0)
 >
 
-# Updated Draconic-Evolution (1.1.15-GTNH@Side.BOTH --> 1.1.16-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.14-GTNH...1.1.16-GTNH
+# Updated Draconic-Evolution (1.1.15-GTNH@Side.BOTH --> 1.1.17-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.14-GTNH...1.1.17-GTNH-pre
 >## What's Changed
 > * Consume 64 ender pearls at once by @LewisSaber in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
 >
@@ -344,9 +345,12 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.49@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.49
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.51@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.51
 >## What's Changed
+> * Texture update for a few QFT items by @EmeraldsEmerald in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2021 (5.09.43.51)
+> * Fixed mixer recipe map ending up without programmed circuits by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2020 (5.09.43.50)
+> * Adjust overrides to allow opening machine GUI by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2019 (5.09.43.50)
 > * list update for recipe in coremod by @TheEpicGamer274 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2017 (5.09.43.49)
 > * Add tooltip for gas proof for fluid pipe by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2018 (5.09.43.49)
 > * Speedup Recycler recipe lookup by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2016 (5.09.43.48)
@@ -446,10 +450,21 @@
 > * MuTE overhaul and ACR by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1883 (5.09.42.71)
 >
 >## New Contributors
+> * @EmeraldsEmerald made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2021 (5.09.43.51)
 > * @Fiyorin made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1996 (5.09.43.37)
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1986 (5.09.43.33)
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1955 (5.09.43.13)
 > * @kstvr32 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1946 (5.09.43.10)
+>
+
+# Updated GTNEIOrePlugin (1.0.29@Side.BOTH --> 1.1.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNEIOrePlugin/compare/1.0.28...1.1.0
+>## What's Changed
+> * Cleanup by @glowredman in https://github.com/GTNewHorizons/GTNEIOrePlugin/pull/34 (1.1.0)
+> * Fix server crash with I18n by @miozune in https://github.com/GTNewHorizons/GTNEIOrePlugin/pull/33 (1.0.29)
+>
+>## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/GTNEIOrePlugin/pull/34 (1.1.0)
 >
 
 # Updated GTNH-Intergalactic (1.0.14@Side.BOTH --> 1.1.12@Side.BOTH)
@@ -488,9 +503,11 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.16@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.16
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.18@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.18
 >## What's Changed
+> * added chisel input busses by @Quetz4l in https://github.com/GTNewHorizons/GTplusplus/pull/638 (1.9.18)
+> * Deprecation cleanup by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/637 (1.9.18)
 > * Arc Furnace: Fix Blockrenderer Preview by @Fiyorin in https://github.com/GTNewHorizons/GTplusplus/pull/636 (1.9.16)
 > * Fix HV semifluid gen recipe by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/635 (1.9.15)
 > * Make sure that GT++ Cokes have recipes in the Advanced Coke Oven by @MeiTianyou in https://github.com/GTNewHorizons/GTplusplus/pull/634 (1.9.14)
@@ -587,8 +604,8 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/158 (0.6.1)
 >
 
-# Updated Gravitation-Suite-Neo (1.0.8@Side.BOTH --> 1.0.10@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.7...1.0.10
+# Updated Gravitation-Suite-Neo (1.0.8@Side.BOTH --> 1.0.11-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.7...1.0.11-pre
 >## What's Changed
 > * Spotless apply for branch fix-quantum-shield for #9 by @github-actions in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/10 (1.0.10)
 > * Fix 2/3 Quantum Shield Bugs by @glowredman in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/9 (1.0.10)
@@ -793,9 +810,11 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.36-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.36-pre
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.38@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.38
 >## What's Changed
+> * Sulfur Cloud recipe fix by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/625 (2.1.38)
+> * Add Amun-Ra Recipes by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/624 (2.1.38)
 > * Change Alveary Sieve Recipe in Assembler by @MeiTianyou in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/623 (2.1.35)
 > * Add correct recycling recipes for railcraft boiler tanks, steam loco, etc by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/622 (2.1.34)
 > * fix broken wire definitions for uhv-umv machines by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/621 (2.1.33)
@@ -858,6 +877,12 @@
 > * @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/623 (2.1.35)
 > * @Fiyorin made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/600 (2.1.21)
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/582 (2.1.7)
+>
+
+# Updated NotEnoughEnergistics (1.4.0@Side.BOTH --> 1.4.1-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.3.30...1.4.1-pre
+>## What's Changed
+> * Add guard against invalid stack size by @miozune in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/34 (1.4.0)
 >
 
 # Updated NotEnoughItems (2.3.45-GTNH@Side.BOTH --> 2.3.53-GTNH@Side.BOTH)
@@ -986,9 +1011,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/TecTech/pull/199 (5.2.1)
 >
 
-# Updated ThaumicEnergistics (1.4.1-GTNH@Side.BOTH --> 1.4.3-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.0-GTNH...1.4.3-GTNH
+# Updated ThaumicEnergistics (1.4.1-GTNH@Side.BOTH --> 1.4.4-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.0-GTNH...1.4.4-GTNH
 >## What's Changed
+> * Making the name more accurate by @Alastors in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/43 (1.4.4-GTNH)
 > * Spotless apply for branch refactoring for #41 by @github-actions in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/42 (1.4.3-GTNH)
 > * Refactoring by @firenoo in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/41 (1.4.3-GTNH)
 > * Spotless apply for branch depUpdate for #39 by @github-actions in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/40 (1.4.2-GTNH)
@@ -996,6 +1022,7 @@
 > * Add basic accelerator aspects by @greesyB in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/38 (1.4.1-GTNH)
 >
 >## New Contributors
+> * @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/43 (1.4.4-GTNH)
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/39 (1.4.2-GTNH)
 >
 
@@ -1049,9 +1076,25 @@
 > * Fix fake creeper by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/29 (1.2.14-GTNH)
 >
 
-# New Mod - amunra (0.4.25@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.25
+# Updated WirelessCraftingTerminal (1.9.0@Side.BOTH --> 1.9.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.8.9.3...1.9.2
 >## What's Changed
+> * Spotless apply for branch firenoo/update for #27 by @github-actions in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/28 (1.9.2)
+> * Compat update by @firenoo in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/27 (1.9.2)
+> * Spotless apply for branch firenoo/update for #27 by @github-actions in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/28 (1.9.1-pre)
+> * Use more uniquie key names by @Pilzinsel64 in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/26 (1.9.0)
+>
+>## New Contributors
+> * @github-actions made their first contribution in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/28 (1.9.2)
+> * @firenoo made their first contribution in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/27 (1.9.2)
+> * @github-actions made their first contribution in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/28 (1.9.1-pre)
+> * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/26 (1.9.0)
+>
+
+# New Mod - amunra (0.4.26@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.26
+>## What's Changed
+> * Fix the dataWatcher casting error by @Hikari1nVoid in https://github.com/GTNewHorizons/amunra/pull/16 (0.4.26)
 > * Some Bugfixes by @glowredman in https://github.com/GTNewHorizons/amunra/pull/15 (0.4.23)
 > * Spotless apply for branch nhify for #13 by @github-actions in https://github.com/GTNewHorizons/amunra/pull/14 (0.4.18)
 > * Only register recipes if NH Core is loaded by @glowredman in https://github.com/GTNewHorizons/amunra/pull/13 (0.4.18)
@@ -1069,6 +1112,7 @@
 > * Migrate to new buildscript by @glowredman in https://github.com/GTNewHorizons/amunra/pull/1 (0.4.10)
 >
 >## New Contributors
+> * @Hikari1nVoid made their first contribution in https://github.com/GTNewHorizons/amunra/pull/16 (0.4.26)
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/amunra/pull/5 (0.4.11)
 >
 

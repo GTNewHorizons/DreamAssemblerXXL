@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-05-24T11:09:57.909704",
+  "last_updated": "2023-05-26T05:57:28.748920",
   "config": "nightly-22-05-23",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-216-GTNH",
+      "version": "rv3-beta-217-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "Draconic-Evolution": {
-      "version": "1.1.16-GTNH",
+      "version": "1.1.17-GTNH-pre",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -257,11 +257,11 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.49",
+      "version": "5.09.43.51",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
-      "version": "1.0.29",
+      "version": "1.1.0",
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.16",
+      "version": "1.9.18",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.36-pre",
+      "version": "2.1.38",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -441,7 +441,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.4.0",
+      "version": "1.4.1-pre",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.4.3-GTNH",
+      "version": "1.4.4-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -697,7 +697,7 @@
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
-      "version": "1.9.0",
+      "version": "1.9.2",
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
@@ -785,7 +785,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.0.10",
+      "version": "1.0.11-pre",
       "side": "BOTH"
     },
     "MrTJPCore": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "amunra": {
-      "version": "0.4.25",
+      "version": "0.4.26",
       "side": "BOTH"
     }
   },
