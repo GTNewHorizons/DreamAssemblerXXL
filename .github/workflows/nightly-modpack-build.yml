@@ -1,0 +1,134 @@
+name: lint-and-test
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 2 * * *' # 2:30am UTC every day
+
+jobs:
+  nightly-modpack-build:
+    runs-on: ubuntu-latest
+    steps:
+      #  check-out repo and set-up python
+      - name: Check out repository
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
+          fetch-depth: 1
+      - name: Set up python
+        id: setup-python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.10.5
+      - name: Setup private repo access token
+        shell: bash
+        run: echo "${{ secrets.NIGHTLY_GITHUB_TOKEN }}" > ~/.github_personal_token
+
+      # install & configure poetry
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+          installer-parallel: true
+
+      # load cached venv if cache exists
+      - name: Load cached venv
+        id: cached-poetry-dependencies
+        uses: actions/cache@v3
+        with:
+          path: .venv
+          key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
+
+      # install dependencies if cache does not exist
+      - name: Install dependencies
+        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+        run: poetry install --no-interaction --no-root
+
+      # install your root project, if required
+      - name: Install library
+        run: poetry install --no-interaction
+
+      - name: Load cached mod zips
+        uses: actions/cache@v3
+        with:
+          path: cache
+          key: daxxl-${{ runner.os }}
+
+      - name: Build modpack archives
+        shell: bash
+        run: |
+          poetry run python -m gtnh.cli.generate_nightly --update-available
+          poetry run python -m gtnh.cli.assemble_nightly
+
+      - name: Get current date
+        id: date
+        shell: bash
+        run: |
+          echo "today=$(date --iso-8601)" > "$GITHUB_OUTPUT"
+
+      # Upload modpack
+
+      - name: Upload manifset
+        uses: actions/upload-artifact@v3
+        # Upload all archives even if one of the zips fails to upload
+        if: success() || failure()
+        with:
+          name: ${{ steps.date.outputs.today }}-manifest.json
+          path: releases/manifests/nightly.json
+
+      - name: Upload client zip
+        uses: actions/upload-artifact@v3
+        # Upload all archives even if one of the zips fails to upload
+        if: success() || failure()
+        with:
+          name: ${{ steps.date.outputs.today }}-client.zip
+          path: releases/zip/GT_New_Horizons_nightly_Client.zip
+
+      - name: Upload server zip
+        uses: actions/upload-artifact@v3
+        # Upload all archives even if one of the zips fails to upload
+        if: success() || failure()
+        with:
+          name: ${{ steps.date.outputs.today }}-server.zip
+          path: releases/zip/GT_New_Horizons_nightly_Server.zip
+
+      - name: Upload modern java server zip
+        uses: actions/upload-artifact@v3
+        # Upload all archives even if one of the zips fails to upload
+        if: success() || failure()
+        with:
+          name: ${{ steps.date.outputs.today }}-server_new_java.zip
+          path: releases/zip/GT_New_Horizons_nightly_Server_Java*.zip
+
+      - name: Upload MMC zip
+        uses: actions/upload-artifact@v3
+        # Upload all archives even if one of the zips fails to upload
+        if: success() || failure()
+        with:
+          name: ${{ steps.date.outputs.today }}-multimc_old_java.zip
+          path: releases/multi_poly/GT_New_Horizons_nightly_(MultiMC).zip
+
+      - name: Upload modern java Prism zip
+        uses: actions/upload-artifact@v3
+        # Upload all archives even if one of the zips fails to upload
+        if: success() || failure()
+        with:
+          name: ${{ steps.date.outputs.today }}-prismlauncher_new_java.zip
+          path: releases/multi_poly/GT_New_Horizons_nightly_(PrismLauncher)_*.zip
+
+      - name: Upload Technic zip
+        uses: actions/upload-artifact@v3
+        # Upload all archives even if one of the zips fails to upload
+        if: success() || failure()
+        with:
+          name: ${{ steps.date.outputs.today }}-technic.zip
+          path: releases/technic/GT_New_Horizons_nightly_(technic).zip
+
+      - name: Upload Curse zip
+        uses: actions/upload-artifact@v3
+        # Upload all archives even if one of the zips fails to upload
+        if: success() || failure()
+        with:
+          name: ${{ steps.date.outputs.today }}-curse.zip
+          path: releases/curse/GT_New_Horizons_nightly.zip
