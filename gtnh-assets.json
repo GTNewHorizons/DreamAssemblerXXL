@@ -10969,6 +10969,26 @@
           "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.16-GTNH/Draconic-Evolution-1.1.16-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/1.1.16-GTNH/Draconic-Evolution-1.1.16-GTNH.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.16-GTNH",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.15-GTNH...1.1.16-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-08T16:27:35+00:00",
+          "filename": "Draconic-Evolution-1.1.16-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/107244743",
+          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.16-GTNH/Draconic-Evolution-1.1.16-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.17-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.16-GTNH...1.1.17-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-25T07:06:03+00:00",
+          "filename": "Draconic-Evolution-1.1.17-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/109717789",
+          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.17-GTNH-pre/Draconic-Evolution-1.1.17-GTNH-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -22324,6 +22344,566 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110434331",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.62/gregtech-5.09.43.62.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.62/GT5-Unofficial-5.09.43.62.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.04",
+          "changelog": "## What's Changed\n* Allow SMD inductor for MV transformer by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1907\n* T9 Oreveins by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1906\n* Mask direction patches by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1908\n* RA2 fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1910\n* Re-add circuits to distilling by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1912\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.03...5.09.43.04\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-24T13:05:43+00:00",
+          "filename": "gregtech-5.09.43.04.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/105057540",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.04/gregtech-5.09.43.04.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.05",
+          "changelog": "## What's Changed\n* Adds Borax to Salt Bee by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1924\n* Unify creosote block recipe by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1919\n* Fix missing polymer recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1923\n* Arc Furnace Fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1921\n* Ra2 Fix Number 17 by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1916\n* Titaniumtetrachloride Fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1927\n* Crop Autoclave fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1929\n* Revert #1816 and #1825 by @NexusNull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1931\n* Remove unwanted assembler recipes (RA2 fix) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1934\n* Some more ra2 fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1932\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.04...5.09.43.05\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-30T12:46:53+00:00",
+          "filename": "gregtech-5.09.43.05.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/106043076",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.05/gregtech-5.09.43.05.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.06",
+          "changelog": "## What's Changed\n* RA2 fix: Remove unnecessary not consumed cells from recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1938\n* More Distilling RA2 Fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1936\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.05...5.09.43.06\n",
+          "prerelease": false,
+          "tagged_at": "2023-04-30T15:16:11+00:00",
+          "filename": "gregtech-5.09.43.06.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/106054419",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.06/gregtech-5.09.43.06.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.07",
+          "changelog": "## What's Changed\n* Add combs tooltip by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1940\n* Fix all of the ore chem bathing by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1941\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.06...5.09.43.07\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-01T09:46:47+00:00",
+          "filename": "gregtech-5.09.43.07.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/106149044",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.07/gregtech-5.09.43.07.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.08",
+          "changelog": "## What's Changed\n* Add mods to mod enum by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1943\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.07...5.09.43.08\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-01T12:00:17+00:00",
+          "filename": "gregtech-5.09.43.08.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/106161416",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.08/gregtech-5.09.43.08.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.09",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.08...5.09.43.09\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-01T16:12:56+00:00",
+          "filename": "gregtech-5.09.43.09.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/106183897",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.09/gregtech-5.09.43.09.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.10",
+          "changelog": "## What's Changed\r\n* allow mute registers to be made outside of gt5u by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1947\r\n* Adds 1 manual slot to Stocking Input Bus for lenses/molds by @kstvr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1946\r\n* Adjust new ore lines (bauxite, ruby, etc) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1948\r\n\r\n## New Contributors\r\n* @kstvr32 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1946\r\n\r\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.09...5.09.43.10\r\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-04T12:54:27+00:00",
+          "filename": "gregtech-5.09.43.10.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/106687846",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.10/gregtech-5.09.43.10.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.11-pre",
+          "changelog": "## What's Changed\n* Default facing fixes by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1945\n* ULV OCs should not overclock too much and waste power by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1951\n* Display multiblock name&icon in AE2 interface terminal and crafting tree view instead of the hatch by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1944\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.10...5.09.43.11-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-05T18:42:40+00:00",
+          "filename": "gregtech-5.09.43.11-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/106901866",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.11-pre/gregtech-5.09.43.11-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.12",
+          "changelog": "## What's Changed\n* Default facing fixes by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1945\n* ULV OCs should not overclock too much and waste power by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1951\n* Display multiblock name&icon in AE2 interface terminal and crafting tree view instead of the hatch by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1944\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.10...5.09.43.12\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-06T07:01:03+00:00",
+          "filename": "gregtech-5.09.43.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/106965478",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.12/gregtech-5.09.43.12.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.13",
+          "changelog": "## What's Changed\n* ULV OCs should not overclock too much and waste power by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1951\n* Display multiblock name&icon in AE2 interface terminal and crafting tree view instead of the hatch by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1944\n* Show energy flow amperage and correct voltage tier in WAILA for machine blocks by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1955\n* Split MetaTE loader and integrate bw material replacement by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1954\n* Exploring some various ForgeDirection fixes by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1950\n\n## New Contributors\n* @wlhlm made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1955\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.10...5.09.43.13\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-06T15:21:45+00:00",
+          "filename": "gregtech-5.09.43.13.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107000976",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.13/gregtech-5.09.43.13.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.14",
+          "changelog": "## What's Changed\n* Brick electrolyzer fix by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1956\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.13...5.09.43.14\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-06T17:16:38+00:00",
+          "filename": "gregtech-5.09.43.14.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107010288",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.14/gregtech-5.09.43.14.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.15",
+          "changelog": "## What's Changed\n* Fix cover data never being set by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1958\n* Add docs to mute by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1960\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.14...5.09.43.15\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-07T14:22:13+00:00",
+          "filename": "gregtech-5.09.43.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107098995",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.15/gregtech-5.09.43.15.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.16-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.14...5.09.43.16-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-07T14:25:46+00:00",
+          "filename": "gregtech-5.09.43.16-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107099321",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.16-pre/gregtech-5.09.43.16-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.17",
+          "changelog": "## What's Changed\n* Convert more recipes to RA2 by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1957\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.15...5.09.43.17\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-07T14:39:29+00:00",
+          "filename": "gregtech-5.09.43.17.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107100332",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.17/gregtech-5.09.43.17.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.18",
+          "changelog": "## What's Changed\n* deprecate all the recipes adders by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1961\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.17...5.09.43.18\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-07T18:14:39+00:00",
+          "filename": "gregtech-5.09.43.18.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107117451",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.18/gregtech-5.09.43.18.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.19-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.18...5.09.43.19-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-08T07:09:05+00:00",
+          "filename": "gregtech-5.09.43.19-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107179386",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.19-pre/gregtech-5.09.43.19-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.20",
+          "changelog": "## What's Changed\n* Migrate to FluidSlotWidget from FluidDisplaySlotWidget by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1963\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.18...5.09.43.20\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-08T08:32:26+00:00",
+          "filename": "gregtech-5.09.43.20.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107186051",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.20/gregtech-5.09.43.20.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.21",
+          "changelog": "## What's Changed\n* Use compileOnlyApi where appropriate by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1965\n* Make sodium have a fluid with only gt5u by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1967\n* Sodium backwards compat by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1968\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.20...5.09.43.21\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-08T20:13:12+00:00",
+          "filename": "gregtech-5.09.43.21.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107268359",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.21/gregtech-5.09.43.21.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.22-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.20...5.09.43.22-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-08T21:34:21+00:00",
+          "filename": "gregtech-5.09.43.22-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107276035",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.22-pre/gregtech-5.09.43.22-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.23-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.22-pre...5.09.43.23-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-09T06:50:44+00:00",
+          "filename": "gregtech-5.09.43.23-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107329097",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.23-pre/gregtech-5.09.43.23-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.24",
+          "changelog": "## What's Changed\n* And back Obsidian Ingots by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1969\n* Some more ra2 recipe conversions by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1966\n* Adjust rutile amounts from bauxite and ilmenite by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1970\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.21...5.09.43.24\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-09T17:09:50+00:00",
+          "filename": "gregtech-5.09.43.24.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107404445",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.24/gregtech-5.09.43.24.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.25-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.24...5.09.43.25-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-10T06:57:39+00:00",
+          "filename": "gregtech-5.09.43.25-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107491075",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.25-pre/gregtech-5.09.43.25-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.26",
+          "changelog": "## What's Changed\n* Slight adjustment for TPM NEI by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1972\n* Fix ME Output Hatch not outputting other fluids if one gets stuck by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1971\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.24...5.09.43.26\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-10T10:25:14+00:00",
+          "filename": "gregtech-5.09.43.26.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107525864",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.26/gregtech-5.09.43.26.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.27-pre",
+          "changelog": "## What's Changed\n* Add cell item for some fluids by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1974\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.26...5.09.43.27-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-11T09:44:14+00:00",
+          "filename": "gregtech-5.09.43.27-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107670886",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.27-pre/gregtech-5.09.43.27-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.28-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.24...5.09.43.28-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-12T09:39:54+00:00",
+          "filename": "gregtech-5.09.43.28-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107834363",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.28-pre/gregtech-5.09.43.28-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.29",
+          "changelog": "## What's Changed\n* Add cell item for some fluids by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1974\n* Fix sodium fluid corrupting fluid registry by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1977\n* Add Eternity material + Timepiece by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1973\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.26...5.09.43.29\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-12T10:43:08+00:00",
+          "filename": "gregtech-5.09.43.29.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107845708",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.29/gregtech-5.09.43.29.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.30",
+          "changelog": "## What's Changed\n* Rhodium plated palladium fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1980\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.29...5.09.43.30\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-12T20:06:33+00:00",
+          "filename": "gregtech-5.09.43.30.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/107919529",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.30/gregtech-5.09.43.30.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.31",
+          "changelog": "## What's Changed\n* More ReverseArcSmelting fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1979\n* Next round of Ra2 conversions  by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1982\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.30...5.09.43.31\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-13T20:26:31+00:00",
+          "filename": "gregtech-5.09.43.31.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108033050",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.31/gregtech-5.09.43.31.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.32",
+          "changelog": "## What's Changed\n* Nerf Phosphorus Bee, Buff Fluid bees by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1985\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.31...5.09.43.32\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-14T12:06:18+00:00",
+          "filename": "gregtech-5.09.43.32.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108103579",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.32/gregtech-5.09.43.32.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.33",
+          "changelog": "## What's Changed\n* glasses for structure by @Quetz4l in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1986\n\n## New Contributors\n* @Quetz4l made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1986\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.32...5.09.43.33\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-14T16:05:06+00:00",
+          "filename": "gregtech-5.09.43.33.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108123173",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.33/gregtech-5.09.43.33.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.34-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.33...5.09.43.34-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-14T16:58:47+00:00",
+          "filename": "gregtech-5.09.43.34-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108126998",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.34-pre/gregtech-5.09.43.34-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.35",
+          "changelog": "## What's Changed\n* Various GT recipe fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1990\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.33...5.09.43.35\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-15T05:54:15+00:00",
+          "filename": "gregtech-5.09.43.35.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108188654",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.35/gregtech-5.09.43.35.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.36",
+          "changelog": "## What's Changed\n* cleanroom -> botania glass by @Quetz4l in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1993\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.35...5.09.43.36\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-15T18:47:23+00:00",
+          "filename": "gregtech-5.09.43.36.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108281846",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.36/gregtech-5.09.43.36.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.37",
+          "changelog": "## What's Changed\n* PA doesn't take a muffler -> fix blockrenderer and hologram projector by @Fiyorin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1996\n\n## New Contributors\n* @Fiyorin made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1996\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.36...5.09.43.37\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-16T15:14:24+00:00",
+          "filename": "gregtech-5.09.43.37.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108427131",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.37/gregtech-5.09.43.37.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.38",
+          "changelog": "## What's Changed\n* more Ra2 recipe conversions and some small fixes/improvements in GT recipe generation by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1994\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.37...5.09.43.38\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-16T17:23:52+00:00",
+          "filename": "gregtech-5.09.43.38.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108442213",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.38/gregtech-5.09.43.38.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.39",
+          "changelog": "## What's Changed\n* Eternity nanites by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1997\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.38...5.09.43.39\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-16T20:09:48+00:00",
+          "filename": "gregtech-5.09.43.39.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108460917",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.39/gregtech-5.09.43.39.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.40",
+          "changelog": "## What's Changed\n* bump the deps version of ae2 and buildcraft by @Fiyorin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2001\n* Various GT fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2002\n* More RA2 conversion for automatic gt recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2000\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.39...5.09.43.40\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-17T21:45:36+00:00",
+          "filename": "gregtech-5.09.43.40.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108642067",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.40/gregtech-5.09.43.40.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.41",
+          "changelog": "## What's Changed\n* a few small fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2003\n* Don't add cell recipe for Replicator if dust one is already available by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2005\n* Fix gt++ solidfying materials without fluid by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2004\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.40...5.09.43.41\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-18T13:35:24+00:00",
+          "filename": "gregtech-5.09.43.41.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108741791",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.41/gregtech-5.09.43.41.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.42",
+          "changelog": "## What's Changed\n* Don't allow steel steam machines to do MV recipe by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2007\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.41...5.09.43.42\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-19T10:13:16+00:00",
+          "filename": "gregtech-5.09.43.42.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108871797",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.42/gregtech-5.09.43.42.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.43-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.42...5.09.43.43-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-19T10:23:08+00:00",
+          "filename": "gregtech-5.09.43.43-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108873115",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.43-pre/gregtech-5.09.43.43-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.44",
+          "changelog": "## What's Changed\n* More recipe collision fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2010\n* Yet another round of ra2 conversions by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2006\n* Cable recipe collision fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2009\n* Debug for recipe collisions by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2008\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.42...5.09.43.44\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-19T20:28:05+00:00",
+          "filename": "gregtech-5.09.43.44.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/108952077",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.44/gregtech-5.09.43.44.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.45-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.44...5.09.43.45-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-20T12:57:51+00:00",
+          "filename": "gregtech-5.09.43.45-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109028568",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.45-pre/gregtech-5.09.43.45-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.46",
+          "changelog": "## What's Changed\n* Fix typo in SteamPower by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2012\n* GT Charged Certus Quartz fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2013\n* Singleblock machine internal fluid tank scaling standardization by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1999\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.44...5.09.43.46\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-20T18:04:09+00:00",
+          "filename": "gregtech-5.09.43.46.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109050310",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.46/gregtech-5.09.43.46.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.47",
+          "changelog": "## What's Changed\n* Nerf Sunnarium Bee, Add Endstone to Endstone Bee by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2014\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.46...5.09.43.47\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-22T15:40:39+00:00",
+          "filename": "gregtech-5.09.43.47.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109288322",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.47/gregtech-5.09.43.47.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.48",
+          "changelog": "## What's Changed\n* Speedup Recycler recipe lookup by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2016\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.47...5.09.43.48\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-23T08:31:30+00:00",
+          "filename": "gregtech-5.09.43.48.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109390365",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.48/gregtech-5.09.43.48.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.49",
+          "changelog": "## What's Changed\n* list update for recipe in coremod by @TheEpicGamer274 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2017\n* Add tooltip for gas proof for fluid pipe by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2018\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.48...5.09.43.49\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-24T11:04:54+00:00",
+          "filename": "gregtech-5.09.43.49.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109584980",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.49/gregtech-5.09.43.49.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.50",
+          "changelog": "## What's Changed\n* Fixed mixer recipe map ending up without programmed circuits by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2020\n* Adjust overrides to allow opening machine GUI by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2019\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.49...5.09.43.50\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-24T21:44:39+00:00",
+          "filename": "gregtech-5.09.43.50.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109663123",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.50/gregtech-5.09.43.50.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.51",
+          "changelog": "## What's Changed\n* Texture update for a few QFT items by @EmeraldsEmerald in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2021\n\n## New Contributors\n* @EmeraldsEmerald made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2021\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.50...5.09.43.51\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-26T05:48:29+00:00",
+          "filename": "gregtech-5.09.43.51.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109887267",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.51/gregtech-5.09.43.51.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.52",
+          "changelog": "## What's Changed\n* Fix warnings about ModularUI methods that can only be overridden by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2022\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.51...5.09.43.52\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-26T11:10:08+00:00",
+          "filename": "gregtech-5.09.43.52.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109927322",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.52/gregtech-5.09.43.52.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.53-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.52...5.09.43.53-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-26T11:15:20+00:00",
+          "filename": "gregtech-5.09.43.53-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109927919",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.53-pre/gregtech-5.09.43.53-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.54",
+          "changelog": "## What's Changed\n* Add void protection mode to fluid and ore drillers by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2023\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.52...5.09.43.54\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-26T12:12:12+00:00",
+          "filename": "gregtech-5.09.43.54.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109938178",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.54/gregtech-5.09.43.54.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.55-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.54...5.09.43.55-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-27T14:17:02+00:00",
+          "filename": "gregtech-5.09.43.55-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110085033",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.55-pre/gregtech-5.09.43.55-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.56-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.55-pre...5.09.43.56-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-27T14:40:58+00:00",
+          "filename": "gregtech-5.09.43.56-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110086542",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.56-pre/gregtech-5.09.43.56-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.57-pre",
+          "changelog": "## What's Changed\n* Refactor checkExoticAndNormalEnergyHatches by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2025\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.56-pre...5.09.43.57-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T02:17:04+00:00",
+          "filename": "gregtech-5.09.43.57-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110139197",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.57-pre/gregtech-5.09.43.57-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.58",
+          "changelog": "## What's Changed\n* Refactor checkExoticAndNormalEnergyHatches by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2025\n* Simplify logic expressions by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2026\n* Add new mode for void protection & implement it for more multis by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2024\n* Simplify ifs by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2027\n* Make private fields final where possible by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2028\n* Make enum fields final where possible by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2029\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.54...5.09.43.58\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T09:26:26+00:00",
+          "filename": "gregtech-5.09.43.58.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110169803",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.58/gregtech-5.09.43.58.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.59",
+          "changelog": "## What's Changed\n* Delegate blast resistance call to MetaPipeEntity to allow overriding by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2030\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.58...5.09.43.59\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T09:40:05+00:00",
+          "filename": "gregtech-5.09.43.59.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110170838",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.59/gregtech-5.09.43.59.jar",
           "extra_assets": []
         }
       ],
@@ -41175,6 +41755,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/110282556",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.12.0-GTNH/StorageDrawers-1.12.0-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers/1.12.0-GTNH/StorageDrawers-1.12.0-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.12.0-GTNH",
+          "changelog": "## What's Changed\n* Fix merge behavior not respecting stackability by @miozune in https://github.com/GTNewHorizons/StorageDrawers/pull/20\n\n## New Contributors\n* @miozune made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/20\n\n**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.20-GTNH...1.12.0-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-29T08:34:45+00:00",
+          "filename": "StorageDrawers-1.12.0-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/110282556",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.12.0-GTNH/StorageDrawers-1.12.0-GTNH.jar",
           "extra_assets": []
         }
       ],
