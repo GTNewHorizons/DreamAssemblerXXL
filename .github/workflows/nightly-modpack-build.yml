@@ -1,4 +1,4 @@
-name: lint-and-test
+name: Nightly modpack build
 
 on:
   workflow_dispatch:
@@ -57,6 +57,8 @@ jobs:
 
       - name: Build modpack archives
         shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
         run: |
           poetry run python -m gtnh.cli.generate_nightly --update-available
           poetry run python -m gtnh.cli.assemble_nightly
@@ -74,7 +76,7 @@ jobs:
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: ${{ steps.date.outputs.today }}-manifest.json
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-manifest.json
           path: releases/manifests/nightly.json
 
       - name: Upload client zip
@@ -82,7 +84,7 @@ jobs:
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: ${{ steps.date.outputs.today }}-client.zip
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-client.zip
           path: releases/zip/GT_New_Horizons_nightly_Client.zip
 
       - name: Upload server zip
@@ -90,7 +92,7 @@ jobs:
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: ${{ steps.date.outputs.today }}-server.zip
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-server.zip
           path: releases/zip/GT_New_Horizons_nightly_Server.zip
 
       - name: Upload modern java server zip
@@ -98,7 +100,7 @@ jobs:
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: ${{ steps.date.outputs.today }}-server_new_java.zip
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-server_new_java.zip
           path: releases/zip/GT_New_Horizons_nightly_Server_Java*.zip
 
       - name: Upload MMC zip
@@ -106,7 +108,7 @@ jobs:
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: ${{ steps.date.outputs.today }}-multimc_old_java.zip
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-multimc_old_java.zip
           path: releases/multi_poly/GT_New_Horizons_nightly_(MultiMC).zip
 
       - name: Upload modern java Prism zip
@@ -114,7 +116,7 @@ jobs:
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: ${{ steps.date.outputs.today }}-prismlauncher_new_java.zip
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-prismlauncher_new_java.zip
           path: releases/multi_poly/GT_New_Horizons_nightly_(PrismLauncher)_*.zip
 
       - name: Upload Technic zip
@@ -122,7 +124,7 @@ jobs:
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: ${{ steps.date.outputs.today }}-technic.zip
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-technic.zip
           path: releases/technic/GT_New_Horizons_nightly_(technic).zip
 
       - name: Upload Curse zip
@@ -130,5 +132,5 @@ jobs:
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: ${{ steps.date.outputs.today }}-curse.zip
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-curse.zip
           path: releases/curse/GT_New_Horizons_nightly.zip
