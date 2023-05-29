@@ -50,7 +50,7 @@ jobs:
         run: poetry install --no-interaction
 
       - name: Load cached mod zips
-        uses: actions/cache@v3
+        uses: actions/cache/restore@v3
         with:
           path: cache
           key: daxxl-${{ runner.os }}
@@ -62,6 +62,13 @@ jobs:
         run: |
           poetry run python -m gtnh.cli.generate_nightly --update-available
           poetry run python -m gtnh.cli.assemble_nightly
+
+      - name: Save cached mod zips
+        uses: actions/cache/save@v3
+        if: success() || failure()
+        with:
+          path: cache
+          key: daxxl-${{ runner.os }}
 
       - name: Get current date
         id: date
