@@ -86,14 +86,6 @@ jobs:
           name: gtnh-nightly-${{ steps.date.outputs.today }}-manifest.json
           path: releases/manifests/nightly.json
 
-      - name: Upload client zip
-        uses: actions/upload-artifact@v3
-        # Upload all archives even if one of the zips fails to upload
-        if: success() || failure()
-        with:
-          name: gtnh-nightly-${{ steps.date.outputs.today }}-client.zip
-          path: releases/zip/GT_New_Horizons_nightly_Client.zip
-
       - name: Upload server zip
         uses: actions/upload-artifact@v3
         # Upload all archives even if one of the zips fails to upload
@@ -126,18 +118,3 @@ jobs:
           name: gtnh-nightly-${{ steps.date.outputs.today }}-prismlauncher_new_java.zip
           path: releases/multi_poly/GT_New_Horizons_nightly_(PrismLauncher)_*.zip
 
-      - name: Upload Technic zip
-        uses: actions/upload-artifact@v3
-        # Upload all archives even if one of the zips fails to upload
-        if: success() || failure()
-        with:
-          name: gtnh-nightly-${{ steps.date.outputs.today }}-technic.zip
-          path: releases/technic/GT_New_Horizons_nightly_(technic).zip
-
-      - name: Upload Curse zip
-        uses: actions/upload-artifact@v3
-        # Upload all archives even if one of the zips fails to upload
-        if: success() || failure()
-        with:
-          name: gtnh-nightly-${{ steps.date.outputs.today }}-curse.zip
-          path: releases/curse/GT_New_Horizons_nightly.zip
