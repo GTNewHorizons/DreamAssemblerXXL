@@ -300,7 +300,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [CookingForBlockheads](https://github.com/GTNewHorizons/CookingForBlockheads) | 1.2.14-GTNH |
 | [Craft-Presence](https://www.curseforge.com/minecraft/mc-mods/craftpresence/) | 2.0.0-RC-3 |
 | [CraftTweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.2.12 |
-| [CreativeCore](https://github.com/GTNewHorizons/CreativeCore) | 1.3.28-GTNH-pre |
+| [CreativeCore](https://github.com/GTNewHorizons/CreativeCore) | 1.3.29-GTNH |
 | [CropLoadCore](https://github.com/GTNewHorizons/CropLoadCore) | 0.1.10 |
 | [Crops-plus-plus](https://github.com/GTNewHorizons/Crops-plus-plus) | 1.4.1 |
 | [Custom-Main-Menu](https://github.com/GTNewHorizons/Custom-Main-Menu) | 1.9.4 |
@@ -368,7 +368,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.1.4p6-fairplay |
 | [KekzTech](https://github.com/GTNewHorizons/KekzTech) | 0.8.5 |
 | [KubaTech](https://github.com/GTNewHorizons/KubaTech) | 0.11.0 |
-| [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.2.8-GTNH-pre |
+| [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.2.9-GTNH |
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.0.1-GTNH |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.0.8 |
 | [LunatriusCore](https://github.com/GTNewHorizons/LunatriusCore) | 1.1.7-GTNH |
