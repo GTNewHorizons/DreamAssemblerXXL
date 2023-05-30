@@ -13848,7 +13848,7 @@
     },
     {
       "name": "FTB-Utilities",
-      "latest_version": "1.0.19-GTNH",
+      "latest_version": "1.1.0-GTNH",
       "versions": [
         {
           "version_tag": "1.0.18.6-GTNH",
@@ -13874,6 +13874,16 @@
           "filename": "FTBUtilities-1.0.19-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/FTB-Utilities/releases/assets/96299960",
           "browser_download_url": "https://github.com/GTNewHorizons/FTB-Utilities/releases/download/1.0.19-GTNH/FTBUtilities-1.0.19-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.0-GTNH",
+          "changelog": "## What's Changed\n* Add a config item for disable cross-dimension warp by @Cyrus-Vance in https://github.com/GTNewHorizons/FTB-Utilities/pull/10\n\n## New Contributors\n* @Cyrus-Vance made their first contribution in https://github.com/GTNewHorizons/FTB-Utilities/pull/10\n\n**Full Changelog**: https://github.com/GTNewHorizons/FTB-Utilities/compare/1.0.19-GTNH...1.1.0-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-30T15:25:08+00:00",
+          "filename": "FTBUtilities-1.1.0-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/FTB-Utilities/releases/assets/110477997",
+          "browser_download_url": "https://github.com/GTNewHorizons/FTB-Utilities/releases/download/1.1.0-GTNH/FTBUtilities-1.1.0-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -23766,7 +23776,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.9.25",
+      "latest_version": "1.9.26",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -26300,6 +26310,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110468395",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.25/GT-PlusPlus-1.9.25.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.25/GTplusplus-1.9.25.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.26",
+          "changelog": "## What's Changed\n* Reservoir hatch refill fix by @GDCloudstrike in https://github.com/GTNewHorizons/GTplusplus/pull/645\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.25...1.9.26\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-30T15:30:37+00:00",
+          "filename": "GT-PlusPlus-1.9.26.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110478688",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.26/GT-PlusPlus-1.9.26.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.26/GTplusplus-1.9.26.jar",
           "extra_assets": []
         }
       ],

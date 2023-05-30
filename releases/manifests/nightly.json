@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-05-30T15:19:35.562223",
+  "last_updated": "2023-05-30T15:32:19.987753",
   "config": "2.3.4-nightly-2023-05-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.25",
+      "version": "1.9.26",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {

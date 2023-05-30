@@ -540,9 +540,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.25@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.25
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.26@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.26
 >## What's Changed
+> * Reservoir hatch refill fix by @GDCloudstrike in https://github.com/GTNewHorizons/GTplusplus/pull/645 (1.9.26)
 > * Remove recipe removal for rocket fuels by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/643 (1.9.25)
 > * Cleanup reservoir hatch tooltip by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/644 (1.9.25)
 > * Fix voiding mode not being saved by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/642 (1.9.25)
