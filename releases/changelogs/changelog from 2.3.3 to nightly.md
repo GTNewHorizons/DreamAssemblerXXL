@@ -253,12 +253,14 @@
 # Updated CraftTweaker (3.2.11@Side.BOTH --> 3.2.12@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/CraftTweaker/compare/3.2.10...3.2.12
 
-# Updated CreativeCore (1.3.27-GTNH@Side.BOTH --> 1.3.28-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/CreativeCore/compare/1.3.26-GTNH...1.3.28-GTNH-pre
+# Updated CreativeCore (1.3.27-GTNH@Side.BOTH --> 1.3.29-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/CreativeCore/compare/1.3.26-GTNH...1.3.29-GTNH
 >## What's Changed
+> * Add API for item GUI slot blocking by @miozune in https://github.com/GTNewHorizons/CreativeCore/pull/3 (1.3.29-GTNH)
 > * update build for maven by @bombcar in https://github.com/GTNewHorizons/CreativeCore/pull/2 (1.3.27-GTNH)
 >
 >## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/CreativeCore/pull/3 (1.3.29-GTNH)
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/CreativeCore/pull/2 (1.3.27-GTNH)
 >
 
@@ -459,6 +461,11 @@
 > * Re-add circuits to distilling by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1912 (5.09.43.04)
 > * Forge direction by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1895 (5.09.43.03)
 > * MuTE overhaul and ACR by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1883 (5.09.43.01-pre)
+> * Adjust new ore lines (bauxite, ruby, etc) (for dev branch) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1949 (5.09.42.89)
+> * Fix all of the ore chem bathing (for dev branch) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1942 (5.09.42.87)
+> * RA2 fix: Remove unnecessary not consumed cells from recipes  (for dev branch) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1939 (5.09.42.86)
+> * Remove unwanted assembler recipes (RA2 fix)  (for dev branch) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1935 (5.09.42.85)
+> * More Distilling RA2 Fixes (for dev branch) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1937 (5.09.42.85)
 > * Some more ra2 fixes (for dev branch) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1933 (5.09.42.84)
 > * Titaniumtetrachloride Fix (for dev branch) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1928 (5.09.42.83)
 > * crop autoclave fix (for dev) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1930 (5.09.42.83)
@@ -752,10 +759,14 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/74 (0.11.0)
 >
 
-# Updated LittleTiles (1.2.7-GTNH@Side.BOTH --> 1.2.8-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.2.6-GTNH...1.2.8-GTNH-pre
+# Updated LittleTiles (1.2.7-GTNH@Side.BOTH --> 1.2.9-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.2.6-GTNH...1.2.9-GTNH
 >## What's Changed
+> * Fix item GUI slot blocking by @miozune in https://github.com/GTNewHorizons/LittleTiles/pull/8 (1.2.9-GTNH)
 > * Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/LittleTiles/pull/7 (1.2.7-GTNH)
+>
+>## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/LittleTiles/pull/8 (1.2.9-GTNH)
 >
 
 # Updated LogisticsPipes (1.0.0-GTNH@Side.BOTH --> 1.0.1-GTNH@Side.BOTH)
@@ -1021,8 +1032,10 @@
 **Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.19-GTNH...1.12.0-GTNH
 >## What's Changed
 > * Fix merge behavior not respecting stackability by @miozune in https://github.com/GTNewHorizons/StorageDrawers/pull/20 (1.12.0-GTNH)
+> * Fix merge behavior not respecting stackability by @miozune in https://github.com/GTNewHorizons/StorageDrawers/pull/20 (1.12.0-GTNH)
 >
 >## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/20 (1.12.0-GTNH)
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/20 (1.12.0-GTNH)
 >
 
