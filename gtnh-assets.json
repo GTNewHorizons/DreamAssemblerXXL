@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.3.3",
+    "latest_version": "2.3.4-nightly-2023-05-29",
     "needs_attention": true,
     "versions": [
       {
@@ -532,6 +532,16 @@
         "filename": "2.3.3.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/104919769",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.3/2.3.3.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.3.4-nightly-2023-05-29",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2023-05-29T08:36:11+00:00",
+        "filename": "2.3.4-nightly-2023-05-29.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/110282706",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.4-nightly-2023-05-29/2.3.4-nightly-2023-05-29.zip",
         "extra_assets": []
       }
     ],
@@ -2075,7 +2085,7 @@
     },
     {
       "name": "amunra",
-      "latest_version": "0.4.26",
+      "latest_version": "0.4.29",
       "private": false,
       "versions": [
         {
@@ -2257,6 +2267,38 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/109784151",
           "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.26/AmunRa-GC-0.4.26.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/0.4.26/amunra-0.4.26.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.4.27",
+          "changelog": "## What's Changed\n* Move Amun-Ra system far away from solar system by @glowredman in https://github.com/GTNewHorizons/amunra/pull/17\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.26...0.4.27\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-27T07:32:51+00:00",
+          "filename": "AmunRa-GC-0.4.27.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/110056641",
+          "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.27/AmunRa-GC-0.4.27.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/0.4.27/amunra-0.4.27.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.4.28-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.27...0.4.28-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-30T14:29:18+00:00",
+          "filename": "AmunRa-GC-0.4.28-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/110470544",
+          "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.28-pre/AmunRa-GC-0.4.28-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.4.29",
+          "changelog": "## What's Changed\n* Add compat to electricity/fluid slots by @glowredman in https://github.com/GTNewHorizons/amunra/pull/18\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.27...0.4.29\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-30T14:46:13+00:00",
+          "filename": "AmunRa-GC-0.4.29.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/110472687",
+          "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.29/AmunRa-GC-0.4.29.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/0.4.29/amunra-0.4.29.jar",
           "extra_assets": []
         }
       ],
@@ -4465,7 +4507,7 @@
     },
     {
       "name": "bartworks",
-      "latest_version": "0.7.11",
+      "latest_version": "0.7.15",
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -6000,6 +6042,50 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/109584967",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.11/bartworks-0.7.11.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.7.11/bartworks-0.7.11.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.7.12",
+          "changelog": "## What's Changed\n* Move Ross128 system out a bit again by @glowredman in https://github.com/GTNewHorizons/bartworks/pull/328\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.11...0.7.12\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-27T07:32:59+00:00",
+          "filename": "bartworks-0.7.12.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/110056660",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.12/bartworks-0.7.12.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.7.12/bartworks-0.7.12.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.7.13-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.12...0.7.13-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T06:51:02+00:00",
+          "filename": "bartworks-0.7.13-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/110160425",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.13-pre/bartworks-0.7.13-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.7.13-pre/bartworks-0.7.13-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.7.14",
+          "changelog": "## What's Changed\n* Fix version replacement by @miozune in https://github.com/GTNewHorizons/bartworks/pull/330\n* Update to new void protection API & implement it for some multi by @miozune in https://github.com/GTNewHorizons/bartworks/pull/329\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.12...0.7.14\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T09:29:08+00:00",
+          "filename": "bartworks-0.7.14.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/110169991",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.14/bartworks-0.7.14.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.7.14/bartworks-0.7.14.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.7.15",
+          "changelog": "## What's Changed\n* butcher eic recipe time by @POPlol333 in https://github.com/GTNewHorizons/bartworks/pull/331\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.14...0.7.15\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-29T13:58:21+00:00",
+          "filename": "bartworks-0.7.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/110316592",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.15/bartworks-0.7.15.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.7.15/bartworks-0.7.15.jar",
           "extra_assets": []
         }
       ],
@@ -7608,7 +7694,7 @@
     },
     {
       "name": "Binnie",
-      "latest_version": "2.1.1",
+      "latest_version": "2.1.2",
       "versions": [
         {
           "version_tag": "2.0.24",
@@ -7813,6 +7899,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/109158840",
           "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.1.1/binnie-mods-2.1.1.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Binnie/2.1.1/Binnie-2.1.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.2",
+          "changelog": "## What's Changed\n* Fix Swamp Gum Tree by @DrParadox7 in https://github.com/GTNewHorizons/Binnie/pull/29\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.1...2.1.2\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-30T14:33:22+00:00",
+          "filename": "binnie-mods-2.1.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Binnie/releases/assets/110471107",
+          "browser_download_url": "https://github.com/GTNewHorizons/Binnie/releases/download/2.1.2/binnie-mods-2.1.2.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Binnie/2.1.2/Binnie-2.1.2.jar",
           "extra_assets": []
         }
       ],
@@ -10133,7 +10230,7 @@
     },
     {
       "name": "CreativeCore",
-      "latest_version": "1.3.27-GTNH",
+      "latest_version": "1.3.29-GTNH",
       "versions": [
         {
           "version_tag": "1.3.25-GTNH",
@@ -10159,6 +10256,27 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/CreativeCore/releases/assets/68498184",
           "browser_download_url": "https://github.com/GTNewHorizons/CreativeCore/releases/download/1.3.27-GTNH/creativecore-1.7.10-1.3.27-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CreativeCore/1.3.27-GTNH/CreativeCore-1.3.27-GTNH.jar"
+        },
+        {
+          "version_tag": "1.3.28-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/CreativeCore/compare/1.3.27-GTNH...1.3.28-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-30T12:27:34+00:00",
+          "filename": "creativecore-1.3.28-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CreativeCore/releases/assets/110454274",
+          "browser_download_url": "https://github.com/GTNewHorizons/CreativeCore/releases/download/1.3.28-GTNH-pre/creativecore-1.3.28-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/CreativeCore/1.3.28-GTNH-pre/CreativeCore-1.3.28-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.3.29-GTNH",
+          "changelog": "## What's Changed\n* Add API for item GUI slot blocking by @miozune in https://github.com/GTNewHorizons/CreativeCore/pull/3\n\n## New Contributors\n* @miozune made their first contribution in https://github.com/GTNewHorizons/CreativeCore/pull/3\n\n**Full Changelog**: https://github.com/GTNewHorizons/CreativeCore/compare/1.3.27-GTNH...1.3.29-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-30T14:53:49+00:00",
+          "filename": "creativecore-1.3.29-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/CreativeCore/releases/assets/110473466",
+          "browser_download_url": "https://github.com/GTNewHorizons/CreativeCore/releases/download/1.3.29-GTNH/creativecore-1.3.29-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -10688,64 +10806,78 @@
     },
     {
       "name": "Draconic-Evolution",
-      "latest_version": "1.1.17-GTNH-pre",
+      "latest_version": "1.1.16-GTNH",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.1.1",
           "changelog": "## What's Changed\n* Configuration fix by @Dream-Master in https://github.com/GTNewHorizons/Draconic-Evolution/pull/1\n* 1.0.2f by @Dream-Master in https://github.com/GTNewHorizons/Draconic-Evolution/pull/2\n* Added config options to change outer block of Energy Core. by @Dream-Master in https://github.com/GTNewHorizons/Draconic-Evolution/pull/3\n* Now Draconic Armor protects from bees' stings. by @Dream-Master in https://github.com/GTNewHorizons/Draconic-Evolution/pull/4\n* Configuration 1.7.10 by @Dream-Master in https://github.com/GTNewHorizons/Draconic-Evolution/pull/5\n* fixed server crash by @Dream-Master in https://github.com/GTNewHorizons/Draconic-Evolution/pull/6\n* 1.0.2g by @Dream-Master in https://github.com/GTNewHorizons/Draconic-Evolution/pull/7\n* Attempt to fix #345 by @Dream-Master in https://github.com/GTNewHorizons/Draconic-Evolution/pull/8\n* Removed unnecessary code. by @Dream-Master in https://github.com/GTNewHorizons/Draconic-Evolution/pull/9\n* 1.0.2.h by @Dream-Master in https://github.com/GTNewHorizons/Draconic-Evolution/pull/11\n* 1.7.10 by @Dream-Master in https://github.com/GTNewHorizons/Draconic-Evolution/pull/12\n* Fix crash with Battlegear2 by @Ugachaga in https://github.com/GTNewHorizons/Draconic-Evolution/pull/13\n* Gregtech ore integration by @mitchej123 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/14\n* potential fix for https://github.com/GTNewHorizons/NewHorizons/issues… by @Dream-Master in https://github.com/GTNewHorizons/Draconic-Evolution/pull/15\n* unicode manual-zh_CN.json by @Kiwi233 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/16\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/17\n* Update GUIManual.java by @TataTawa in https://github.com/GTNewHorizons/Draconic-Evolution/pull/18\n* Made you look, not infinite xp, but fix it!  by @mitchej123 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/19\n* Migrated to unified build script by @SinTh0r4s in https://github.com/GTNewHorizons/Draconic-Evolution/pull/20\n* Strip copied dependency to gradle dependency by @SinTh0r4s in https://github.com/GTNewHorizons/Draconic-Evolution/pull/21\n\n## New Contributors\n* @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/1\n* @Ugachaga made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/13\n* @mitchej123 made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/14\n* @Kiwi233 made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/16\n* @TataTawa made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/18\n* @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/20\n\n**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/commits/1.1.1",
+          "prerelease": false,
           "tagged_at": "2021-12-20T13:44:50+00:00",
           "filename": "Draconic-Evolution-1.7.10-1.1.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/52200226",
-          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.1/Draconic-Evolution-1.7.10-1.1.1.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.1/Draconic-Evolution-1.7.10-1.1.1.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.1.2",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.1...1.1.2",
+          "prerelease": false,
           "tagged_at": "2022-01-30T20:32:45+00:00",
           "filename": "Draconic-Evolution-1.7.10-1.1.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/55375159",
-          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.2/Draconic-Evolution-1.7.10-1.1.2.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.2/Draconic-Evolution-1.7.10-1.1.2.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.1.3-GTNH",
           "changelog": "## What's Changed\n* LGPL-3.0 by @bombcar in https://github.com/GTNewHorizons/Draconic-Evolution/pull/22\n* Limit max amount of stacks that can be attracted by magnet at the same time by @vlaetansky in https://github.com/GTNewHorizons/Draconic-Evolution/pull/24\n\n## New Contributors\n* @bombcar made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/22\n* @vlaetansky made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/24\n\n**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.1...1.1.3-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-07-31T14:09:39+00:00",
           "filename": "Draconic-Evolution-1.7.10-1.1.3-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/73246093",
-          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.3-GTNH/Draconic-Evolution-1.7.10-1.1.3-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.3-GTNH/Draconic-Evolution-1.7.10-1.1.3-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.1.4-GTNH",
           "changelog": "## What's Changed\n* Add toggle key bind for magnet by @vlaetansky in https://github.com/GTNewHorizons/Draconic-Evolution/pull/25\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.3-GTNH...1.1.4-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-02T11:38:20+00:00",
           "filename": "Draconic-Evolution-1.7.10-1.1.4-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/73442537",
-          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.4-GTNH/Draconic-Evolution-1.7.10-1.1.4-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.4-GTNH/Draconic-Evolution-1.7.10-1.1.4-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.1.5-GTNH",
           "changelog": "## What's Changed\n* Allow the Grinder to attack Ender Dragons by @glowredman in https://github.com/GTNewHorizons/Draconic-Evolution/pull/26\n\n## New Contributors\n* @glowredman made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/26\n\n**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.4-GTNH...1.1.5-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-08-15T14:48:53+00:00",
           "filename": "Draconic-Evolution-1.7.10-1.1.5-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/74778930",
-          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.5-GTNH/Draconic-Evolution-1.7.10-1.1.5-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.5-GTNH/Draconic-Evolution-1.7.10-1.1.5-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.1.6-GTNH",
           "changelog": "## What's Changed\n* exit unnecessary calculation earlier by @Alexdoru in https://github.com/GTNewHorizons/Draconic-Evolution/pull/27\n* revert Limit max amount of stacks that can be attracted by magnet at … by @Alexdoru in https://github.com/GTNewHorizons/Draconic-Evolution/pull/28\n\n## New Contributors\n* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/27\n\n**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.5-GTNH...1.1.6-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-09-17T08:50:34+00:00",
           "filename": "Draconic-Evolution-1.7.10-1.1.6-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/78155186",
-          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.6-GTNH/Draconic-Evolution-1.7.10-1.1.6-GTNH.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.6-GTNH/Draconic-Evolution-1.7.10-1.1.6-GTNH.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.1.7-GTNH",
           "changelog": "## What's Changed\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/29\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.6-GTNH...1.1.7-GTNH",
+          "prerelease": false,
           "tagged_at": "2022-09-24T10:41:00+00:00",
           "filename": "Draconic-Evolution-1.7.10-1.1.7-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/78870926",
           "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.7-GTNH/Draconic-Evolution-1.7.10-1.1.7-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/1.1.7-GTNH/Draconic-Evolution-1.1.7-GTNH.jar"
+          "extra_assets": []
         },
         {
           "version_tag": "1.1.8-GTNH-pre",
@@ -10795,7 +10927,6 @@
           "filename": "Draconic-Evolution-1.1.12-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/94769425",
           "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.12-GTNH/Draconic-Evolution-1.1.12-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/1.1.12-GTNH/Draconic-Evolution-1.1.12-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -10806,7 +10937,6 @@
           "filename": "Draconic-Evolution-1.1.13-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/95562897",
           "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.13-GTNH/Draconic-Evolution-1.1.13-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/1.1.13-GTNH/Draconic-Evolution-1.1.13-GTNH.jar",
           "extra_assets": []
         },
         {
@@ -10827,18 +10957,6 @@
           "filename": "Draconic-Evolution-1.1.15-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/96836382",
           "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.15-GTNH/Draconic-Evolution-1.1.15-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/1.1.15-GTNH/Draconic-Evolution-1.1.15-GTNH.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "1.1.16-GTNH-pre",
-          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.15-GTNH...1.1.16-GTNH-pre\n",
-          "prerelease": false,
-          "tagged_at": "2023-04-21T06:29:33+00:00",
-          "filename": "Draconic-Evolution-1.1.16-GTNH-pre.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/104639087",
-          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.16-GTNH-pre/Draconic-Evolution-1.1.16-GTNH-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/1.1.16-GTNH-pre/Draconic-Evolution-1.1.16-GTNH-pre.jar",
           "extra_assets": []
         },
         {
@@ -10851,22 +10969,12 @@
           "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.16-GTNH/Draconic-Evolution-1.1.16-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/1.1.16-GTNH/Draconic-Evolution-1.1.16-GTNH.jar",
           "extra_assets": []
-        },
-        {
-          "version_tag": "1.1.17-GTNH-pre",
-          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.16-GTNH...1.1.17-GTNH-pre\n",
-          "prerelease": false,
-          "tagged_at": "2023-05-25T07:06:03+00:00",
-          "filename": "Draconic-Evolution-1.1.17-GTNH-pre.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/109717789",
-          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.17-GTNH-pre/Draconic-Evolution-1.1.17-GTNH-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/1.1.17-GTNH-pre/Draconic-Evolution-1.1.17-GTNH-pre.jar",
-          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/Draconic-Evolution",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/",
+      "side": "BOTH"
     },
     {
       "name": "DummyCore",
@@ -16358,7 +16466,7 @@
     },
     {
       "name": "Gravitation-Suite-Neo",
-      "latest_version": "1.0.11-pre",
+      "latest_version": "1.0.13",
       "private": false,
       "versions": [
         {
@@ -16483,6 +16591,27 @@
           "browser_download_url": "https://github.com/GTNewHorizons/Gravitation-Suite-Neo/releases/download/1.0.11-pre/gravisuiteneo-1.0.11-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Gravitation-Suite-Neo/1.0.11-pre/Gravitation-Suite-Neo-1.0.11-pre.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.12-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.10...1.0.12-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-26T20:35:48+00:00",
+          "filename": "gravisuiteneo-1.0.12-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Gravitation-Suite-Neo/releases/assets/110003027",
+          "browser_download_url": "https://github.com/GTNewHorizons/Gravitation-Suite-Neo/releases/download/1.0.12-pre/gravisuiteneo-1.0.12-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.13",
+          "changelog": "## What's Changed\n* changes the order of calls when mining in accurate/silk touch mode by @MeiTianyou in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/11\n\n## New Contributors\n* @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/11\n\n**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.10...1.0.13\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-27T07:33:38+00:00",
+          "filename": "gravisuiteneo-1.0.13.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Gravitation-Suite-Neo/releases/assets/110056708",
+          "browser_download_url": "https://github.com/GTNewHorizons/Gravitation-Suite-Neo/releases/download/1.0.13/gravisuiteneo-1.0.13.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Gravitation-Suite-Neo/1.0.13/Gravitation-Suite-Neo-1.0.13.jar",
+          "extra_assets": []
         }
       ],
       "license": "All Rights Reserved (fallback)",
@@ -16492,7 +16621,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.51",
+      "latest_version": "5.09.43.62",
       "private": false,
       "versions": [
         {
@@ -22082,6 +22211,120 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.51/gregtech-5.09.43.51.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.51/GT5-Unofficial-5.09.43.51.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.52",
+          "changelog": "## What's Changed\n* Fix warnings about ModularUI methods that can only be overridden by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2022\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.51...5.09.43.52\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-26T11:10:08+00:00",
+          "filename": "gregtech-5.09.43.52.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109927322",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.52/gregtech-5.09.43.52.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.53-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.52...5.09.43.53-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-26T11:15:20+00:00",
+          "filename": "gregtech-5.09.43.53-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109927919",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.53-pre/gregtech-5.09.43.53-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.54",
+          "changelog": "## What's Changed\n* Add void protection mode to fluid and ore drillers by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2023\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.52...5.09.43.54\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-26T12:12:12+00:00",
+          "filename": "gregtech-5.09.43.54.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/109938178",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.54/gregtech-5.09.43.54.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.54/GT5-Unofficial-5.09.43.54.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.55-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.54...5.09.43.55-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-27T14:17:02+00:00",
+          "filename": "gregtech-5.09.43.55-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110085033",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.55-pre/gregtech-5.09.43.55-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.56-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.55-pre...5.09.43.56-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-27T14:40:58+00:00",
+          "filename": "gregtech-5.09.43.56-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110086542",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.56-pre/gregtech-5.09.43.56-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.57-pre",
+          "changelog": "## What's Changed\n* Refactor checkExoticAndNormalEnergyHatches by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2025\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.56-pre...5.09.43.57-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T02:17:04+00:00",
+          "filename": "gregtech-5.09.43.57-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110139197",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.57-pre/gregtech-5.09.43.57-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.57-pre/GT5-Unofficial-5.09.43.57-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.58",
+          "changelog": "## What's Changed\n* Refactor checkExoticAndNormalEnergyHatches by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2025\n* Simplify logic expressions by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2026\n* Add new mode for void protection & implement it for more multis by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2024\n* Simplify ifs by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2027\n* Make private fields final where possible by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2028\n* Make enum fields final where possible by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2029\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.54...5.09.43.58\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T09:26:26+00:00",
+          "filename": "gregtech-5.09.43.58.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110169803",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.58/gregtech-5.09.43.58.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.59",
+          "changelog": "## What's Changed\n* Delegate blast resistance call to MetaPipeEntity to allow overriding by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2030\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.58...5.09.43.59\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T09:40:05+00:00",
+          "filename": "gregtech-5.09.43.59.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110170838",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.59/gregtech-5.09.43.59.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.59/GT5-Unofficial-5.09.43.59.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.60",
+          "changelog": "## What's Changed\n* Allow setting larger threshold of item detector cover for digital chests by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2035\n* butcher recipe time by @POPlol333 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2033\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.59...5.09.43.60\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-29T13:52:59+00:00",
+          "filename": "gregtech-5.09.43.60.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110316124",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.60/gregtech-5.09.43.60.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.61",
+          "changelog": "## What's Changed\n* Allow muffler hatches to face downward by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2036\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.60...5.09.43.61\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-29T16:07:42+00:00",
+          "filename": "gregtech-5.09.43.61.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110330454",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.61/gregtech-5.09.43.61.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.62",
+          "changelog": "## What's Changed\n* Simply add a chem formula as a tooltip to stellar catalyst by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2037\n* Final stretch for GT RA2 conversions by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2038\n* Remove hourglass from cleanroom by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2039\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.61...5.09.43.62\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-30T09:51:47+00:00",
+          "filename": "gregtech-5.09.43.62.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110434331",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.62/gregtech-5.09.43.62.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.62/GT5-Unofficial-5.09.43.62.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -22292,7 +22535,7 @@
     },
     {
       "name": "GTNH-Intergalactic",
-      "latest_version": "1.1.12",
+      "latest_version": "1.1.17",
       "private": false,
       "versions": [
         {
@@ -22637,6 +22880,59 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/109390335",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.1.12/gtnhintergalactic-1.1.12.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Intergalactic/1.1.12/GTNH-Intergalactic-1.1.12.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.13-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.12...1.1.13-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T06:49:48+00:00",
+          "filename": "gtnhintergalactic-1.1.13-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/110160216",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.1.13-pre/gtnhintergalactic-1.1.13-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Intergalactic/1.1.13-pre/GTNH-Intergalactic-1.1.13-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.14",
+          "changelog": "## What's Changed\n* Update to new void protection API & implement it for some multi by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/34\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.12...1.1.14\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T09:30:37+00:00",
+          "filename": "gtnhintergalactic-1.1.14.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/110170066",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.1.14/gtnhintergalactic-1.1.14.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.15",
+          "changelog": "## What's Changed\n* Fix missing call to GT_ParallelHelper#setController in Space Miner by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/35\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.14...1.1.15\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T16:15:49+00:00",
+          "filename": "gtnhintergalactic-1.1.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/110204294",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.1.15/gtnhintergalactic-1.1.15.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Intergalactic/1.1.15/GTNH-Intergalactic-1.1.15.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.16",
+          "changelog": "## What's Changed\n* Change controller crafting times and transition to RA2 by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/36\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.15...1.1.16\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-29T06:13:45+00:00",
+          "filename": "gtnhintergalactic-1.1.16.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/110269842",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.1.16/gtnhintergalactic-1.1.16.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.17",
+          "changelog": "## What's Changed\n* More mining drones by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/37\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.16...1.1.17\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-29T13:47:46+00:00",
+          "filename": "gtnhintergalactic-1.1.17.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Intergalactic/releases/assets/110315484",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Intergalactic/releases/download/1.1.17/gtnhintergalactic-1.1.17.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Intergalactic/1.1.17/GTNH-Intergalactic-1.1.17.jar",
           "extra_assets": []
         }
       ],
@@ -23420,7 +23716,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.9.18",
+      "latest_version": "1.9.25",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -25882,6 +26178,79 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.18/GT-PlusPlus-1.9.18.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.18/GTplusplus-1.9.18.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.19",
+          "changelog": "## What's Changed\n* blacklist benzene and helium plasma from XL Turbines by @BlueWeabo in https://github.com/GTNewHorizons/GTplusplus/pull/639\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.18...1.9.19\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-27T14:15:01+00:00",
+          "filename": "GT-PlusPlus-1.9.19.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110084882",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.19/GT-PlusPlus-1.9.19.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.20-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.18...1.9.20-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-27T15:05:18+00:00",
+          "filename": "GT-PlusPlus-1.9.20-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110088132",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.20-pre/GT-PlusPlus-1.9.20-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.21-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.20-pre...1.9.21-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T02:24:23+00:00",
+          "filename": "GT-PlusPlus-1.9.21-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110139880",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.21-pre/GT-PlusPlus-1.9.21-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.22-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.19...1.9.22-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T06:48:37+00:00",
+          "filename": "GT-PlusPlus-1.9.22-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110159969",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.22-pre/GT-PlusPlus-1.9.22-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.22-pre/GTplusplus-1.9.22-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.23",
+          "changelog": "## What's Changed\n* Update to new void protection API by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/640\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.19...1.9.23\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T09:29:40+00:00",
+          "filename": "GT-PlusPlus-1.9.23.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110170009",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.23/GT-PlusPlus-1.9.23.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.24",
+          "changelog": "## What's Changed\n* Fix missing call to GT_ParallelHelper#setController in QFT by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/641\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.23...1.9.24\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T16:15:52+00:00",
+          "filename": "GT-PlusPlus-1.9.24.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110204299",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.24/GT-PlusPlus-1.9.24.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.24/GTplusplus-1.9.24.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.25",
+          "changelog": "## What's Changed\n* Remove recipe removal for rocket fuels by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/643\n* Cleanup reservoir hatch tooltip by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/644\n* Fix voiding mode not being saved by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/642\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.24...1.9.25\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-30T14:12:08+00:00",
+          "filename": "GT-PlusPlus-1.9.25.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110468395",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.25/GT-PlusPlus-1.9.25.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.25/GTplusplus-1.9.25.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -26200,7 +26569,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.2.13",
+      "latest_version": "2.2.15",
       "versions": [
         {
           "version_tag": "v1.2.0",
@@ -27202,6 +27571,28 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/108103784",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.2.13/hodgepodge-2.2.13.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/2.2.13/Hodgepodge-2.2.13.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.14",
+          "changelog": "## What's Changed\n* Fix LLibrary incompatibility by @andreblanke in https://github.com/GTNewHorizons/Hodgepodge/pull/215\n\n## New Contributors\n* @andreblanke made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/215\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.13...2.2.14\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-27T14:13:56+00:00",
+          "filename": "hodgepodge-2.2.14.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/110084813",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.2.14/hodgepodge-2.2.14.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/2.2.14/Hodgepodge-2.2.14.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.15",
+          "changelog": "## What's Changed\n* Fix crashes when opening forestry/adventure backpacks and quickly switching selected item by @Denostrov in https://github.com/GTNewHorizons/Hodgepodge/pull/217\n\n## New Contributors\n* @Denostrov made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/217\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.14...2.2.15\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T20:01:20+00:00",
+          "filename": "hodgepodge-2.2.15.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/110220519",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.2.15/hodgepodge-2.2.15.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/2.2.15/Hodgepodge-2.2.15.jar",
           "extra_assets": []
         }
       ],
@@ -29704,7 +30095,7 @@
     },
     {
       "name": "LittleTiles",
-      "latest_version": "1.2.7-GTNH",
+      "latest_version": "1.2.9-GTNH",
       "versions": [
         {
           "version_tag": "1.2.1-GTNH",
@@ -29762,6 +30153,27 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/78870713",
           "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.2.7-GTNH/littletiles-1.7.10-1.2.7-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LittleTiles/1.2.7-GTNH/LittleTiles-1.2.7-GTNH.jar"
+        },
+        {
+          "version_tag": "1.2.8-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.2.7-GTNH...1.2.8-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-30T14:28:10+00:00",
+          "filename": "littletiles-1.2.8-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/110470337",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.2.8-GTNH-pre/littletiles-1.2.8-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/LittleTiles/1.2.8-GTNH-pre/LittleTiles-1.2.8-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.2.9-GTNH",
+          "changelog": "## What's Changed\n* Fix item GUI slot blocking by @miozune in https://github.com/GTNewHorizons/LittleTiles/pull/8\n\n## New Contributors\n* @miozune made their first contribution in https://github.com/GTNewHorizons/LittleTiles/pull/8\n\n**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.2.7-GTNH...1.2.9-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-30T15:00:34+00:00",
+          "filename": "littletiles-1.2.9-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/LittleTiles/releases/assets/110474457",
+          "browser_download_url": "https://github.com/GTNewHorizons/LittleTiles/releases/download/1.2.9-GTNH/littletiles-1.2.9-GTNH.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -33809,7 +34221,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.38",
+      "latest_version": "2.1.40",
       "private": false,
       "versions": [
         {
@@ -36181,6 +36593,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/109887844",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.38/GTNewHorizonsCoreMod-2.1.38.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.39",
+          "changelog": "## What's Changed\n* Fix obsidian stick conversion recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/626\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.38...2.1.39\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-26T07:56:09+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.39.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/109900096",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.39/GTNewHorizonsCoreMod-2.1.39.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.40",
+          "changelog": "## What's Changed\n* Fix crash in dev env by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/627\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.39...2.1.40\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-30T09:52:44+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.40.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/110434409",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.40/GTNewHorizonsCoreMod-2.1.40.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -36214,7 +36646,7 @@
     },
     {
       "name": "NotEnoughEnergistics",
-      "latest_version": "1.4.1-pre",
+      "latest_version": "1.4.2",
       "versions": [
         {
           "version_tag": "1.3.8",
@@ -36438,6 +36870,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/109816209",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.4.1-pre/NotEnoughEnergistics-1.4.1-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughEnergistics/1.4.1-pre/NotEnoughEnergistics-1.4.1-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.4.2",
+          "changelog": "## What's Changed\n* Replace asm with api calls by @eigenraven in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/35\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.4.0...1.4.2\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T20:50:00+00:00",
+          "filename": "NotEnoughEnergistics-1.4.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughEnergistics/releases/assets/110224039",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughEnergistics/releases/download/1.4.2/NotEnoughEnergistics-1.4.2.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughEnergistics/1.4.2/NotEnoughEnergistics-1.4.2.jar",
           "extra_assets": []
         }
       ],
@@ -39148,7 +39591,7 @@
     },
     {
       "name": "Railcraft",
-      "latest_version": "9.14.1",
+      "latest_version": "9.14.3",
       "versions": [
         {
           "version_tag": "9.12.7",
@@ -39362,6 +39805,28 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/103854320",
           "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.14.1/Railcraft-9.14.1.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Railcraft/9.14.1/Railcraft-9.14.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "9.14.2",
+          "changelog": "## What's Changed\n* Remove 8 tracks -> 1 standard rail recipe by @DotJason in https://github.com/GTNewHorizons/Railcraft/pull/40\n\n## New Contributors\n* @DotJason made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/40\n\n**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.14.1...9.14.2\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T11:39:39+00:00",
+          "filename": "Railcraft-9.14.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/110179703",
+          "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.14.2/Railcraft-9.14.2.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Railcraft/9.14.2/Railcraft-9.14.2.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "9.14.3",
+          "changelog": "## What's Changed\n* Fix Cart Dispenser behavior by @miozune in https://github.com/GTNewHorizons/Railcraft/pull/41\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.14.2...9.14.3\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-30T11:25:58+00:00",
+          "filename": "Railcraft-9.14.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Railcraft/releases/assets/110446701",
+          "browser_download_url": "https://github.com/GTNewHorizons/Railcraft/releases/download/9.14.3/Railcraft-9.14.3.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Railcraft/9.14.3/Railcraft-9.14.3.jar",
           "extra_assets": []
         }
       ],
@@ -40537,7 +41002,7 @@
     },
     {
       "name": "StorageDrawers",
-      "latest_version": "1.2.0-GTNH",
+      "latest_version": "1.12.0-GTNH",
       "private": false,
       "versions": [
         {
@@ -40699,6 +41164,17 @@
           "filename": "StorageDrawers-1.11.20-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/97649203",
           "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.20-GTNH/StorageDrawers-1.11.20-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.12.0-GTNH",
+          "changelog": "## What's Changed\n* Fix merge behavior not respecting stackability by @miozune in https://github.com/GTNewHorizons/StorageDrawers/pull/20\n\n## New Contributors\n* @miozune made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/20\n\n**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.20-GTNH...1.12.0-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-29T08:34:45+00:00",
+          "filename": "StorageDrawers-1.12.0-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/StorageDrawers/releases/assets/110282556",
+          "browser_download_url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.12.0-GTNH/StorageDrawers-1.12.0-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/StorageDrawers/1.12.0-GTNH/StorageDrawers-1.12.0-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -41926,7 +42402,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.2.18",
+      "latest_version": "5.2.19",
       "private": false,
       "versions": [
         {
@@ -43519,6 +43995,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.2.18/TecTech-5.2.18.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.2.18/TecTech-5.2.18.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.2.19",
+          "changelog": "## What's Changed\n* Added higher explosion resistance to pipe casings by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/216\n* butcher controller recipe time by @POPlol333 in https://github.com/GTNewHorizons/TecTech/pull/217\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.18...5.2.19\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-29T13:55:39+00:00",
+          "filename": "TecTech-5.2.19.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/110316338",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.2.19/TecTech-5.2.19.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.2.19/TecTech-5.2.19.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
@@ -44760,7 +45247,7 @@
     },
     {
       "name": "TinkersConstruct",
-      "latest_version": "1.9.35-GTNH",
+      "latest_version": "1.9.36-GTNH",
       "versions": [
         {
           "version_tag": "1,8.9-GTNH",
@@ -45331,6 +45818,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/109228108",
           "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.35-GTNH/TConstruct-1.9.35-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/1.9.35-GTNH/TinkersConstruct-1.9.35-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.36-GTNH",
+          "changelog": "## What's Changed\n* Remove smeltery tracks melting recipe by @DotJason in https://github.com/GTNewHorizons/TinkersConstruct/pull/88\n\n## New Contributors\n* @DotJason made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/88\n\n**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.35-GTNH...1.9.36-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-28T11:38:19+00:00",
+          "filename": "TConstruct-1.9.36-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TinkersConstruct/releases/assets/110179603",
+          "browser_download_url": "https://github.com/GTNewHorizons/TinkersConstruct/releases/download/1.9.36-GTNH/TConstruct-1.9.36-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TinkersConstruct/1.9.36-GTNH/TinkersConstruct-1.9.36-GTNH.jar",
           "extra_assets": []
         }
       ],
