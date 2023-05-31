@@ -25,13 +25,10 @@ async def assemble_nightly(verbose: bool) -> None:
     await modpack_manager.download_release(release)
 
     assembler = ReleaseAssembler(modpack_manager, release)
-    await assembler.assemble_zip(Side.CLIENT, verbose=verbose)
     await assembler.assemble_zip(Side.SERVER_JAVA9, verbose=verbose)
     await assembler.assemble_zip(Side.SERVER, verbose=verbose)
     await assembler.assemble_mmc(Side.CLIENT, verbose=verbose)
     await assembler.assemble_mmc(Side.CLIENT_JAVA9, verbose=verbose)
-    await assembler.assemble_technic(Side.CLIENT, verbose=verbose)
-    await assembler.assemble_curse(Side.CLIENT, verbose=verbose)
 
 
 if __name__ == "__main__":
