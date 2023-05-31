@@ -540,9 +540,12 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.26@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.26
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.27@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.27
 >## What's Changed
+> * Fix item damage for some items by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/646 (1.9.27)
+> * Fix item name color and tooltip for ItemGenericToken by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/648 (1.9.27)
+> * Make fluid generator hatch fill partial amount by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/647 (1.9.27)
 > * Reservoir hatch refill fix by @GDCloudstrike in https://github.com/GTNewHorizons/GTplusplus/pull/645 (1.9.26)
 > * Remove recipe removal for rocket fuels by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/643 (1.9.25)
 > * Cleanup reservoir hatch tooltip by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/644 (1.9.25)
@@ -870,9 +873,11 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.40@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.40
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.41@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.41
 >## What's Changed
+> * Hotfix for crash on world load by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/628 (2.1.41)
+> * Clean up the minecraft script by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/629 (2.1.41)
 > * Fix crash in dev env by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/627 (2.1.40)
 > * Fix obsidian stick conversion recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/626 (2.1.39)
 > * Sulfur Cloud recipe fix by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/625 (2.1.38)
