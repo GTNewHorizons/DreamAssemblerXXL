@@ -65,8 +65,8 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-218-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-218-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-217-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-217-GTNH
 >## What's Changed
 > * Add enough API to make NEE no longer require asming into ae2 by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/326 (rv3-beta-217-GTNH)
 > * Feature Configs by @DrParadox7 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/325 (rv3-beta-216-GTNH)
@@ -119,12 +119,6 @@
 >
 >## New Contributors
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/31 (1.38)
->
-
-# Updated BetterCrashes (1.2.0-GTNH@Side.CLIENT --> 1.2.1-GTNH-pre@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.1.9-GTNH...1.2.1-GTNH-pre
->## What's Changed
-> * Don't throw exception if mod identification failed by @miozune in https://github.com/GTNewHorizons/BetterCrashes/pull/10 (1.2.0-GTNH)
 >
 
 # Updated BetterP2P (1.1.7@Side.BOTH --> 1.1.14@Side.BOTH)
