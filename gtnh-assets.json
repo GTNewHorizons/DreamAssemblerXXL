@@ -1,7 +1,7 @@
 {
   "config": {
     "name": "GT-New-Horizons-Modpack",
-    "latest_version": "2.3.4-nightly-2023-05-29",
+    "latest_version": "2.3.4-nightly-2023-06-02",
     "needs_attention": true,
     "versions": [
       {
@@ -542,6 +542,16 @@
         "filename": "2.3.4-nightly-2023-05-29.zip",
         "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/110282706",
         "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.4-nightly-2023-05-29/2.3.4-nightly-2023-05-29.zip",
+        "extra_assets": []
+      },
+      {
+        "version_tag": "2.3.4-nightly-2023-06-02",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2023-06-02T18:25:20+00:00",
+        "filename": "2.3.4-nightly-2023-06-02.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/111020137",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.4-nightly-2023-06-02/2.3.4-nightly-2023-06-02.zip",
         "extra_assets": []
       }
     ],
