@@ -65,8 +65,8 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-217-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-217-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-218-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-218-GTNH-pre
 >## What's Changed
 > * Add enough API to make NEE no longer require asming into ae2 by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/326 (rv3-beta-217-GTNH)
 > * Feature Configs by @DrParadox7 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/325 (rv3-beta-216-GTNH)
@@ -119,6 +119,12 @@
 >
 >## New Contributors
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/31 (1.38)
+>
+
+# Updated BetterCrashes (1.2.0-GTNH@Side.CLIENT --> 1.2.1-GTNH-pre@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.1.9-GTNH...1.2.1-GTNH-pre
+>## What's Changed
+> * Don't throw exception if mod identification failed by @miozune in https://github.com/GTNewHorizons/BetterCrashes/pull/10 (1.2.0-GTNH)
 >
 
 # Updated BetterP2P (1.1.7@Side.BOTH --> 1.1.14@Side.BOTH)
@@ -357,9 +363,13 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.62@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.62
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.64@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.64
 >## What's Changed
+> * some gtmodhandler improvements by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2043 (5.09.43.64)
+> * Change Tengam processing voltage by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2044 (5.09.43.64)
+> * Add Grate Machine Casing assembler recipe by @DotJason in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2042 (5.09.43.63)
+> * Add durability and charge bar visibility config options by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2041 (5.09.43.63)
 > * Simply add a chem formula as a tooltip to stellar catalyst by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2037 (5.09.43.62)
 > * Final stretch for GT RA2 conversions by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2038 (5.09.43.62)
 > * Remove hourglass from cleanroom by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2039 (5.09.43.62)
@@ -483,6 +493,8 @@
 > * MuTE overhaul and ACR by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1883 (5.09.42.71)
 >
 >## New Contributors
+> * @DotJason made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2042 (5.09.43.63)
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2041 (5.09.43.63)
 > * @EmeraldsEmerald made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2021 (5.09.43.51)
 > * @Fiyorin made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1996 (5.09.43.37)
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/1986 (5.09.43.33)
@@ -540,9 +552,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.27@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.27
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.28@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.28
 >## What's Changed
+> * Nerf low-grade plasmas in the XL Plasma turbine by @S4mpsa in https://github.com/GTNewHorizons/GTplusplus/pull/649 (1.9.28)
 > * Fix item damage for some items by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/646 (1.9.27)
 > * Fix item name color and tooltip for ItemGenericToken by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/648 (1.9.27)
 > * Make fluid generator hatch fill partial amount by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/647 (1.9.27)
@@ -582,6 +595,7 @@
 > * fix crop harvester energy drain and non-last optimal level crops by @Denostrov in https://github.com/GTNewHorizons/GTplusplus/pull/609 (1.8.42)
 >
 >## New Contributors
+> * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/649 (1.9.28)
 > * @Fiyorin made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/632 (1.9.13)
 > * @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/630 (1.9.11)
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/621 (1.9.6)
@@ -873,9 +887,11 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.41@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.41
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.43@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.43
 >## What's Changed
+> * Fix UIV extruder recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/632 (2.1.43)
+> * Fix UIV extruder recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/632 (2.1.42)
 > * Hotfix for crash on world load by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/628 (2.1.41)
 > * Clean up the minecraft script by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/629 (2.1.41)
 > * Fix crash in dev env by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/627 (2.1.40)
@@ -953,9 +969,10 @@
 > * Add guard against invalid stack size by @miozune in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/34 (1.4.0)
 >
 
-# Updated NotEnoughItems (2.3.45-GTNH@Side.BOTH --> 2.3.53-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.43-GTNH...2.3.53-GTNH
+# Updated NotEnoughItems (2.3.45-GTNH@Side.BOTH --> 2.3.54-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.43-GTNH...2.3.54-GTNH
 >## What's Changed
+> * Fix crash with IC2 setItemDamage by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/387 (2.3.54-GTNH)
 > * Remove handlers for Et Futurum Requiem by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/383 (2.3.53-GTNH)
 > * Prevent recipe handler tab scrolling from overwriting recipe handler-specific scrolling by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/384 (2.3.53-GTNH)
 > * Ensure the NEI config is really only initialized once by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/381 (2.3.52-GTNH)
@@ -1065,9 +1082,10 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/TCNEIAdditions/pull/21 (1.2.2)
 >
 
-# Updated TecTech (5.1.16@Side.BOTH --> 5.2.19@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.2.19
+# Updated TecTech (5.1.16@Side.BOTH --> 5.2.20@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.2.20
 >## What's Changed
+> * Pico & Quantum circuit adjustments by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/218 (5.2.20)
 > * Added higher explosion resistance to pipe casings by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/216 (5.2.19)
 > * butcher controller recipe time by @POPlol333 in https://github.com/GTNewHorizons/TecTech/pull/217 (5.2.19)
 > * Adjust uxv part recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/215 (5.2.18)

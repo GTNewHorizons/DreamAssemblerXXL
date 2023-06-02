@@ -2512,7 +2512,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-217-GTNH",
+      "latest_version": "rv3-beta-218-GTNH-pre",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -3970,6 +3970,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/109813384",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-217-GTNH/appliedenergistics2-rv3-beta-217-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-217-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-217-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-218-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-217-GTNH...rv3-beta-218-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-01T16:27:36+00:00",
+          "filename": "appliedenergistics2-rv3-beta-218-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/110829677",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-218-GTNH-pre/appliedenergistics2-rv3-beta-218-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-218-GTNH-pre/Applied-Energistics-2-Unofficial-rv3-beta-218-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -6502,7 +6513,7 @@
     },
     {
       "name": "BetterCrashes",
-      "latest_version": "1.2.0-GTNH",
+      "latest_version": "1.2.1-GTNH-pre",
       "versions": [
         {
           "version_tag": "1.1.3-GTNH",
@@ -6575,6 +6586,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterCrashes/releases/assets/99043779",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterCrashes/releases/download/1.2.0-GTNH/bettercrashes-1.2.0-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterCrashes/1.2.0-GTNH/BetterCrashes-1.2.0-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.2.1-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.2.0-GTNH...1.2.1-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-02T17:44:41+00:00",
+          "filename": "bettercrashes-1.2.1-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterCrashes/releases/assets/111014457",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterCrashes/releases/download/1.2.1-GTNH-pre/bettercrashes-1.2.1-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterCrashes/1.2.1-GTNH-pre/BetterCrashes-1.2.1-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -10002,7 +10024,7 @@
     },
     {
       "name": "Craft-Presence",
-      "latest_version": "2.0.0-RC-3",
+      "latest_version": "2.0.0",
       "needs_attention": false,
       "versions": [
         {
@@ -10081,6 +10103,19 @@
           "curse_file": {
             "project_no": "",
             "file_no": "4515029"
+          }
+        },
+        {
+          "version_tag": "2.0.0",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2023-06-02T19:55:41.414535",
+          "filename": "CraftPresence-2.0.0%2B1.7.10.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/4562/369/CraftPresence-2.0.0%2B1.7.10.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/craftpresence/files/4562369",
+          "curse_file": {
+            "project_no": "",
+            "file_no": "4562369"
           }
         }
       ],
@@ -16652,7 +16687,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.62",
+      "latest_version": "5.09.43.64",
       "private": false,
       "versions": [
         {
@@ -22385,6 +22420,27 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.62/gregtech-5.09.43.62.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.62/GT5-Unofficial-5.09.43.62.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.63",
+          "changelog": "## What's Changed\n* Add Grate Machine Casing assembler recipe by @DotJason in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2042\n* Add durability and charge bar visibility config options by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2041\n\n## New Contributors\n* @DotJason made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2042\n* @Caedis made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2041\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.62...5.09.43.63\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-01T17:08:11+00:00",
+          "filename": "gregtech-5.09.43.63.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110834600",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.63/gregtech-5.09.43.63.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.64",
+          "changelog": "## What's Changed\n* some gtmodhandler improvements by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2043\n* Change Tengam processing voltage by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2044\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.63...5.09.43.64\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-02T17:42:34+00:00",
+          "filename": "gregtech-5.09.43.64.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111014273",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.64/gregtech-5.09.43.64.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.64/GT5-Unofficial-5.09.43.64.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -23776,7 +23832,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.9.27",
+      "latest_version": "1.9.28",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -26332,6 +26388,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110570037",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.27/GT-PlusPlus-1.9.27.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.27/GTplusplus-1.9.27.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.28",
+          "changelog": "## What's Changed\n* Nerf low-grade plasmas in the XL Plasma turbine by @S4mpsa in https://github.com/GTNewHorizons/GTplusplus/pull/649\n\n## New Contributors\n* @S4mpsa made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/649\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.27...1.9.28\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-31T17:13:09+00:00",
+          "filename": "GT-PlusPlus-1.9.28.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110666440",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.28/GT-PlusPlus-1.9.28.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.28/GTplusplus-1.9.28.jar",
           "extra_assets": []
         }
       ],
@@ -34304,7 +34371,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.41",
+      "latest_version": "2.1.43",
       "private": false,
       "versions": [
         {
@@ -36706,6 +36773,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/110515990",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.41/GTNewHorizonsCoreMod-2.1.41.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.42",
+          "changelog": "## What's Changed\n* Fix UIV extruder recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/632\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.41...2.1.42\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-01T17:07:47+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.42.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/110834560",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.42/GTNewHorizonsCoreMod-2.1.42.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.43",
+          "changelog": "## What's Changed\n* Fix UIV extruder recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/632\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.41...2.1.43\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-02T17:52:25+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.43.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/111015157",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.43/GTNewHorizonsCoreMod-2.1.43.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -37030,7 +37117,7 @@
     },
     {
       "name": "NotEnoughItems",
-      "latest_version": "2.3.53-GTNH",
+      "latest_version": "2.3.54-GTNH",
       "private": false,
       "versions": [
         {
@@ -38262,6 +38349,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/108104375",
           "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.53-GTNH/NotEnoughItems-2.3.53-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.53-GTNH/NotEnoughItems-2.3.53-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.3.54-GTNH",
+          "changelog": "## What's Changed\n* Fix crash with IC2 setItemDamage by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/387\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.54-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-01T05:25:22+00:00",
+          "filename": "NotEnoughItems-2.3.54-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NotEnoughItems/releases/assets/110745197",
+          "browser_download_url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.3.54-GTNH/NotEnoughItems-2.3.54-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/NotEnoughItems/2.3.54-GTNH/NotEnoughItems-2.3.54-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -42505,7 +42603,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.2.19",
+      "latest_version": "5.2.20",
       "private": false,
       "versions": [
         {
@@ -44108,6 +44206,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/110316338",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.2.19/TecTech-5.2.19.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.2.19/TecTech-5.2.19.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.2.20",
+          "changelog": "## What's Changed\n* Pico & Quantum circuit adjustments by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/218\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.19...5.2.20\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-02T17:43:19+00:00",
+          "filename": "TecTech-5.2.20.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/111014314",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.2.20/TecTech-5.2.20.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.2.20/TecTech-5.2.20.jar",
           "extra_assets": []
         }
       ],
