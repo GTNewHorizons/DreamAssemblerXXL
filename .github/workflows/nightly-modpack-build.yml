@@ -79,13 +79,25 @@ jobs:
 
       # Upload modpack
 
-      - name: Upload manifset
+      - name: Upload manifest
         uses: actions/upload-artifact@v3
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
           name: gtnh-nightly-${{ steps.date.outputs.today }}-manifest.json
           path: releases/manifests/nightly.json
+
+      - name: Upload manifest job summary
+        shell: bash
+        if: success() || failure()
+        continue-on-error: true
+        run: |
+          echo "# GTNH Nightly build ${{ steps.date.outputs.today }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Mod | Version | Side |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| --- | ------- | ---- |" >> "$GITHUB_STEP_SUMMARY"
+          jq -r '.github_mods | keys[] as $k | ["", $k, .[$k].version, .[$k].side, ""] | join(" | ") | ltrimstr(" ")' releases/manifests/nightly.json >> "$GITHUB_STEP_SUMMARY"
+          jq -r '.external_mods | keys[] as $k | ["", $k, .[$k].version, .[$k].side, ""] | join(" | ") | ltrimstr(" ")' releases/manifests/nightly.json >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload server zip
         uses: actions/upload-artifact@v3
