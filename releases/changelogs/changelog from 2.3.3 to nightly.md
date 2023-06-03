@@ -65,8 +65,8 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-217-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-217-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-218-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-218-GTNH-pre
 >## What's Changed
 > * Add enough API to make NEE no longer require asming into ae2 by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/326 (rv3-beta-217-GTNH)
 > * Feature Configs by @DrParadox7 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/325 (rv3-beta-216-GTNH)
@@ -121,6 +121,16 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/31 (1.38)
 >
 
+# Updated BetterCrashes (1.2.0-GTNH@Side.CLIENT --> 1.2.2-GTNH@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.1.9-GTNH...1.2.2-GTNH
+>## What's Changed
+> * Switch to mclo.gs crash report upload, replace GTNH-specific code with configuration, and fix stacktrace deobfuscator by @wlhlm in https://github.com/GTNewHorizons/BetterCrashes/pull/11 (1.2.2-GTNH)
+> * Don't throw exception if mod identification failed by @miozune in https://github.com/GTNewHorizons/BetterCrashes/pull/10 (1.2.0-GTNH)
+>
+>## New Contributors
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/BetterCrashes/pull/11 (1.2.2-GTNH)
+>
+
 # Updated BetterP2P (1.1.7@Side.BOTH --> 1.1.14@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.1.5...1.1.14
 >## What's Changed
@@ -134,8 +144,8 @@
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/BetterP2P/pull/30 (1.1.14)
 >
 
-# Updated BetterQuesting (3.3.18-GTNH@Side.BOTH --> 3.3.21-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.17-GTNH...3.3.21-GTNH
+# Updated BetterQuesting (3.3.18-GTNH@Side.BOTH --> 3.3.22-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.17-GTNH...3.3.22-GTNH-pre
 >## What's Changed
 > * Remember last search term and clear search field on right click by @wlhlm in https://github.com/GTNewHorizons/BetterQuesting/pull/109 (3.3.21-GTNH)
 > * Update build dependencies by @rekongstor in https://github.com/GTNewHorizons/BetterQuesting/pull/108 (3.3.19-GTNH)
@@ -357,9 +367,11 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.64@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.64
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.65@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.65
 >## What's Changed
+> * Refactor GT-ERR-01 by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2045 (5.09.43.65)
+> * Chemical reactor recipe map fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2046 (5.09.43.65)
 > * some gtmodhandler improvements by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2043 (5.09.43.64)
 > * Change Tengam processing voltage by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2044 (5.09.43.64)
 > * Add Grate Machine Casing assembler recipe by @DotJason in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2042 (5.09.43.63)
@@ -642,9 +654,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/8 (0.2.1)
 >
 
-# Updated GoodGenerator (0.5.18@Side.BOTH --> 0.6.8@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.12...0.6.8
+# Updated GoodGenerator (0.5.18@Side.BOTH --> 0.6.9@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.5.12...0.6.9
 >## What's Changed
+> * Update to new input separation API & appearance of PAss GUI by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/166 (0.6.9)
 > * Remove mention to EC2 by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/165 (0.6.8)
 > * yottank information by @Quetz4l in https://github.com/GTNewHorizons/GoodGenerator/pull/163 (0.6.6)
 > * Fix tengam in component assemblyline by @GDCloudstrike in https://github.com/GTNewHorizons/GoodGenerator/pull/162 (0.6.5)
@@ -881,9 +894,10 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.43@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.43
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.44@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.44
 >## What's Changed
+> * Two recipe improvements by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/633 (2.1.44)
 > * Fix UIV extruder recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/632 (2.1.43)
 > * Fix UIV extruder recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/632 (2.1.42)
 > * Hotfix for crash on world load by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/628 (2.1.41)
@@ -1161,15 +1175,17 @@
 > * @StrangeMan1580 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/79 (1.9.27-GTNH)
 >
 
-# Updated VisualProspecting (1.1.1@Side.BOTH --> 1.1.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.1.0...1.1.5
+# Updated VisualProspecting (1.1.1@Side.BOTH --> 1.1.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.1.0...1.1.6
 >## What's Changed
+> * Added hotkeys to toggle map overlays by @PolkageistHS in https://github.com/GTNewHorizons/VisualProspecting/pull/33 (1.1.6)
 > * lang for new ore mixes by @chochem in https://github.com/GTNewHorizons/VisualProspecting/pull/32 (1.1.5)
 > * Check for null NBT tag in Written Book mixin by @wlhlm in https://github.com/GTNewHorizons/VisualProspecting/pull/31 (1.1.4)
 > * Bs+sa by @Dream-Master in https://github.com/GTNewHorizons/VisualProspecting/pull/29 (1.1.3)
 > * Better english translation for depleted veins by @chochem in https://github.com/GTNewHorizons/VisualProspecting/pull/28 (1.1.1)
 >
 >## New Contributors
+> * @PolkageistHS made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/33 (1.1.6)
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/31 (1.1.4)
 >
 
@@ -1260,8 +1276,8 @@
 > * @Pxx500 made their first contribution in https://github.com/GTNewHorizons/harvestcraft/pull/45 (1.1.0-GTNH)
 >
 
-# Updated lwjgl3ify (1.3.5@Side.BOTH_JAVA9 --> 1.3.9@Side.BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.3.4...1.3.9
+# Updated lwjgl3ify (1.3.5@Side.BOTH_JAVA9 --> 1.4.0@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.3.4...1.4.0
 >## What's Changed
 > * Add extensible enum for Et Futurum Requiem by @miozune in https://github.com/GTNewHorizons/lwjgl3ify/pull/62 (1.3.7)
 > * Don't spam log when hotswap by @miozune in https://github.com/GTNewHorizons/lwjgl3ify/pull/59 (1.3.6)

@@ -6523,7 +6523,7 @@
     },
     {
       "name": "BetterCrashes",
-      "latest_version": "1.2.1-GTNH-pre",
+      "latest_version": "1.2.2-GTNH",
       "versions": [
         {
           "version_tag": "1.1.3-GTNH",
@@ -6607,6 +6607,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterCrashes/releases/assets/111014457",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterCrashes/releases/download/1.2.1-GTNH-pre/bettercrashes-1.2.1-GTNH-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterCrashes/1.2.1-GTNH-pre/BetterCrashes-1.2.1-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.2.2-GTNH",
+          "changelog": "## What's Changed\n* Switch to mclo.gs crash report upload, replace GTNH-specific code with configuration, and fix stacktrace deobfuscator by @wlhlm in https://github.com/GTNewHorizons/BetterCrashes/pull/11\n\n## New Contributors\n* @wlhlm made their first contribution in https://github.com/GTNewHorizons/BetterCrashes/pull/11\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.2.0-GTNH...1.2.2-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-03T13:37:12+00:00",
+          "filename": "bettercrashes-1.2.2-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterCrashes/releases/assets/111113625",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterCrashes/releases/download/1.2.2-GTNH/bettercrashes-1.2.2-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterCrashes/1.2.2-GTNH/BetterCrashes-1.2.2-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -7125,7 +7136,7 @@
     },
     {
       "name": "BetterQuesting",
-      "latest_version": "3.3.21-GTNH",
+      "latest_version": "3.3.22-GTNH-pre",
       "versions": [
         {
           "version_tag": "3.0.351-GTNH",
@@ -7629,6 +7640,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/108140520",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.21-GTNH/BetterQuesting-3.3.21-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.3.21-GTNH/BetterQuesting-3.3.21-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.3.22-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.21-GTNH...3.3.22-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-03T13:38:46+00:00",
+          "filename": "BetterQuesting-3.3.22-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/111113660",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.22-GTNH-pre/BetterQuesting-3.3.22-GTNH-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.3.22-GTNH-pre/BetterQuesting-3.3.22-GTNH-pre.jar",
           "extra_assets": []
         }
       ],
@@ -15342,7 +15364,7 @@
     },
     {
       "name": "GoodGenerator",
-      "latest_version": "0.6.8",
+      "latest_version": "0.6.9",
       "versions": [
         {
           "version_tag": "v0.0.2-QF1",
@@ -16518,6 +16540,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.6.8/GoodGenerator-0.6.8.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.6.8/GoodGenerator-0.6.8.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "0.6.9",
+          "changelog": "## What's Changed\n* Update to new input separation API & appearance of PAss GUI by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/166\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.8...0.6.9\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-03T09:12:28+00:00",
+          "filename": "GoodGenerator-0.6.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GoodGenerator/releases/assets/111092635",
+          "browser_download_url": "https://github.com/GTNewHorizons/GoodGenerator/releases/download/0.6.9/GoodGenerator-0.6.9.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GoodGenerator/0.6.9/GoodGenerator-0.6.9.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
@@ -16697,7 +16730,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.64",
+      "latest_version": "5.09.43.65",
       "private": false,
       "versions": [
         {
@@ -22450,6 +22483,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111014273",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.64/gregtech-5.09.43.64.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.64/GT5-Unofficial-5.09.43.64.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.65",
+          "changelog": "## What's Changed\n* Refactor GT-ERR-01 by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2045\n* Chemical reactor recipe map fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2046\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.64...5.09.43.65\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-03T13:40:53+00:00",
+          "filename": "gregtech-5.09.43.65.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111113778",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.65/gregtech-5.09.43.65.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.65/GT5-Unofficial-5.09.43.65.jar",
           "extra_assets": []
         }
       ],
@@ -30596,7 +30640,7 @@
     },
     {
       "name": "lwjgl3ify",
-      "latest_version": "1.3.9",
+      "latest_version": "1.4.0",
       "private": false,
       "versions": [
         {
@@ -31835,6 +31879,27 @@
               "filename": "lwjgl3ify-1.3.9-multimc.zip",
               "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/109491976",
               "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.3.9/lwjgl3ify-1.3.9-multimc.zip"
+            }
+          ]
+        },
+        {
+          "version_tag": "1.4.0",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.3.9...1.4.0\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-03T09:49:25+00:00",
+          "filename": "lwjgl3ify-1.4.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/111095332",
+          "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.4.0/lwjgl3ify-1.4.0.jar",
+          "extra_assets": [
+            {
+              "filename": "lwjgl3ify-1.4.0-forgePatches.jar",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/111095329",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.4.0/lwjgl3ify-1.4.0-forgePatches.jar"
+            },
+            {
+              "filename": "lwjgl3ify-1.4.0-multimc.zip",
+              "download_url": "https://api.github.com/repos/GTNewHorizons/lwjgl3ify/releases/assets/111095336",
+              "browser_download_url": "https://github.com/GTNewHorizons/lwjgl3ify/releases/download/1.4.0/lwjgl3ify-1.4.0-multimc.zip"
             }
           ]
         }
@@ -34381,7 +34446,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.43",
+      "latest_version": "2.1.44",
       "private": false,
       "versions": [
         {
@@ -36802,6 +36867,16 @@
           "filename": "GTNewHorizonsCoreMod-2.1.43.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/111015157",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.43/GTNewHorizonsCoreMod-2.1.43.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.44",
+          "changelog": "## What's Changed\n* Two recipe improvements by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/633\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.42...2.1.44\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-02T19:07:41+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.44.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/111024953",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.44/GTNewHorizonsCoreMod-2.1.44.jar",
           "extra_assets": []
         }
       ],
@@ -46573,7 +46648,7 @@
     },
     {
       "name": "VisualProspecting",
-      "latest_version": "1.1.5",
+      "latest_version": "1.1.6",
       "versions": [
         {
           "version_tag": "1.0.22b",
@@ -46773,6 +46848,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/109067541",
           "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.1.5/visualprospecting-1.1.5.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/VisualProspecting/1.1.5/VisualProspecting-1.1.5.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.6",
+          "changelog": "## What's Changed\n* Added hotkeys to toggle map overlays by @PolkageistHS in https://github.com/GTNewHorizons/VisualProspecting/pull/33\n\n## New Contributors\n* @PolkageistHS made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/33\n\n**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.1.5...1.1.6\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-02T20:20:06+00:00",
+          "filename": "visualprospecting-1.1.6.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/VisualProspecting/releases/assets/111032157",
+          "browser_download_url": "https://github.com/GTNewHorizons/VisualProspecting/releases/download/1.1.6/visualprospecting-1.1.6.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/VisualProspecting/1.1.6/VisualProspecting-1.1.6.jar",
           "extra_assets": []
         }
       ],
