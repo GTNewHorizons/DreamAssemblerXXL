@@ -16743,7 +16743,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.65",
+      "latest_version": "5.09.43.69-pre",
       "private": false,
       "versions": [
         {
@@ -22508,6 +22508,47 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.65/gregtech-5.09.43.65.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.65/GT5-Unofficial-5.09.43.65.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.66-pre",
+          "changelog": "## What's Changed\n* fix incorrect GT_RecipeBuilder deep copy by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2048\n* Safe the macguffin by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2050\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.65...5.09.43.66-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-04T06:39:19+00:00",
+          "filename": "gregtech-5.09.43.66-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111194249",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.66-pre/gregtech-5.09.43.66-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.67-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.66-pre...5.09.43.67-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-04T08:01:00+00:00",
+          "filename": "gregtech-5.09.43.67-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111199072",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.67-pre/gregtech-5.09.43.67-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.68-pre",
+          "changelog": "## What's Changed\n* fix incorrect GT_RecipeBuilder deep copy by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2048\n* Safe the macguffin by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2050\n* Move screenshot directory by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2052\n* Make desulferization recipes explicit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2047\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.65...5.09.43.68-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-04T09:54:56+00:00",
+          "filename": "gregtech-5.09.43.68-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111207283",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.68-pre/gregtech-5.09.43.68-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.69-pre",
+          "changelog": "## What's Changed\n* fix incorrect GT_RecipeBuilder deep copy by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2048\n* Safe the macguffin by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2050\n* Move screenshot directory by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2052\n* Make desulferization recipes explicit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2047\n* Fix void protection not working with MB with custom output hatch field by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2051\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.65...5.09.43.69-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-04T14:19:18+00:00",
+          "filename": "gregtech-5.09.43.69-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111227193",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.69-pre/gregtech-5.09.43.69-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.69-pre/GT5-Unofficial-5.09.43.69-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -23899,7 +23940,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.9.28",
+      "latest_version": "1.9.30",
       "versions": [
         {
           "version_tag": "1.7.16",
@@ -26466,6 +26507,27 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110666440",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.28/GT-PlusPlus-1.9.28.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.28/GTplusplus-1.9.28.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.29-pre",
+          "changelog": "## What's Changed\n* Spotless apply for branch Power_Plasmas for #651 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/652\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.28...1.9.29-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-04T09:55:45+00:00",
+          "filename": "GT-PlusPlus-1.9.29-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/111207434",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.29-pre/GT-PlusPlus-1.9.29-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.30",
+          "changelog": "## What's Changed\n* Fix void protection for Sparge Tower and Dangote by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/653\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.28...1.9.30\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-04T14:14:50+00:00",
+          "filename": "GT-PlusPlus-1.9.30.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/111226957",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.30/GT-PlusPlus-1.9.30.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.30/GTplusplus-1.9.30.jar",
           "extra_assets": []
         }
       ],
@@ -32598,7 +32660,7 @@
     },
     {
       "name": "ModularUI",
-      "latest_version": "1.1.7",
+      "latest_version": "1.1.8",
       "private": false,
       "versions": [
         {
@@ -33552,6 +33614,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/107176708",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.1.7/modularui-1.1.7.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.1.7/ModularUI-1.1.7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.8",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.7...1.1.8\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-04T07:40:41+00:00",
+          "filename": "modularui-1.1.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/111197956",
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.1.8/modularui-1.1.8.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.1.8/ModularUI-1.1.8.jar",
           "extra_assets": []
         }
       ],
@@ -38795,7 +38868,7 @@
     },
     {
       "name": "OpenComputers",
-      "latest_version": "1.9.5-GTNH",
+      "latest_version": "1.9.7-GTNH",
       "versions": [
         {
           "version_tag": "1.7.4.1",
@@ -39169,6 +39242,27 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/107100639",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.9.5-GTNH/OpenComputers-1.9.5-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenComputers/1.9.5-GTNH/OpenComputers-1.9.5-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.6-GTNH-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.5-GTNH...1.9.6-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-04T14:13:27+00:00",
+          "filename": "OpenComputers-1.9.6-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/111226815",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.9.6-GTNH-pre/OpenComputers-1.9.6-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.7-GTNH",
+          "changelog": "## What's Changed\n* update fork to mainline 1.8.2 by @asiekierka in https://github.com/GTNewHorizons/OpenComputers/pull/100\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.5-GTNH...1.9.7-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-04T14:36:51+00:00",
+          "filename": "OpenComputers-1.9.7-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/111229186",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.9.7-GTNH/OpenComputers-1.9.7-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenComputers/1.9.7-GTNH/OpenComputers-1.9.7-GTNH.jar",
           "extra_assets": []
         }
       ],

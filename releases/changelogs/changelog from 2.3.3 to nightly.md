@@ -367,9 +367,20 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.65@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.65
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.69-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.69-pre
 >## What's Changed
+> * fix incorrect GT_RecipeBuilder deep copy by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2048 (5.09.43.69-pre)
+> * Safe the macguffin by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2050 (5.09.43.69-pre)
+> * Move screenshot directory by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2052 (5.09.43.69-pre)
+> * Make desulferization recipes explicit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2047 (5.09.43.69-pre)
+> * Fix void protection not working with MB with custom output hatch field by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2051 (5.09.43.69-pre)
+> * fix incorrect GT_RecipeBuilder deep copy by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2048 (5.09.43.68-pre)
+> * Safe the macguffin by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2050 (5.09.43.68-pre)
+> * Move screenshot directory by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2052 (5.09.43.68-pre)
+> * Make desulferization recipes explicit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2047 (5.09.43.68-pre)
+> * fix incorrect GT_RecipeBuilder deep copy by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2048 (5.09.43.66-pre)
+> * Safe the macguffin by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2050 (5.09.43.66-pre)
 > * Refactor GT-ERR-01 by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2045 (5.09.43.65)
 > * Chemical reactor recipe map fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2046 (5.09.43.65)
 > * some gtmodhandler improvements by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2043 (5.09.43.64)
@@ -558,9 +569,11 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.28@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.28
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.30@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.30
 >## What's Changed
+> * Fix void protection for Sparge Tower and Dangote by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/653 (1.9.30)
+> * Spotless apply for branch Power_Plasmas for #651 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/652 (1.9.29-pre)
 > * Nerf low-grade plasmas in the XL Plasma turbine by @S4mpsa in https://github.com/GTNewHorizons/GTplusplus/pull/649 (1.9.28)
 > * Fix item damage for some items by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/646 (1.9.27)
 > * Fix item name color and tooltip for ItemGenericToken by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/648 (1.9.27)
@@ -863,8 +876,8 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/59 (2.0.0)
 >
 
-# Updated ModularUI (1.1.2@Side.BOTH --> 1.1.7@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.7
+# Updated ModularUI (1.1.2@Side.BOTH --> 1.1.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.8
 >## What's Changed
 > * fix hotbar key related vanilla functions by @Glease in https://github.com/GTNewHorizons/ModularUI/pull/45 (1.1.2)
 >
@@ -1017,9 +1030,10 @@
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/11 (1.3.0-GTNH)
 >
 
-# Updated OpenComputers (1.9.1-GTNH@Side.BOTH --> 1.9.5-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.0-GTNH...1.9.5-GTNH
+# Updated OpenComputers (1.9.1-GTNH@Side.BOTH --> 1.9.7-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.0-GTNH...1.9.7-GTNH
 >## What's Changed
+> * update fork to mainline 1.8.2 by @asiekierka in https://github.com/GTNewHorizons/OpenComputers/pull/100 (1.9.7-GTNH)
 > * Update mainline to 1.8.0 stable by @asiekierka in https://github.com/GTNewHorizons/OpenComputers/pull/99 (1.9.5-GTNH)
 > * Increase MFU range from 3 to 16 blocks by @S4mpsa in https://github.com/GTNewHorizons/OpenComputers/pull/98 (1.9.4-GTNH)
 > * Make GT dependency optional by @repo-alt in https://github.com/GTNewHorizons/OpenComputers/pull/97 (1.9.3-GTNH)
