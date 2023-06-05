@@ -11131,7 +11131,7 @@
     },
     {
       "name": "DuraDisplay",
-      "latest_version": "1.0",
+      "latest_version": "1.0.3",
       "private": false,
       "versions": [
         {
@@ -11143,6 +11143,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/DuraDisplay/releases/assets/111310143",
           "browser_download_url": "https://github.com/GTNewHorizons/DuraDisplay/releases/download/1.0/duradisplay-1.0.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DuraDisplay/1.0/DuraDisplay-1.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.2",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.0.1...1.0.2\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T11:30:50+00:00",
+          "filename": "duradisplay-1.0.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/DuraDisplay/releases/assets/111344623",
+          "browser_download_url": "https://github.com/GTNewHorizons/DuraDisplay/releases/download/1.0.2/duradisplay-1.0.2.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.3",
+          "changelog": "## What's Changed\n* Fix error when ran on server by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/2\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.0.2...1.0.3\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T18:13:50+00:00",
+          "filename": "duradisplay-1.0.3.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/DuraDisplay/releases/assets/111398608",
+          "browser_download_url": "https://github.com/GTNewHorizons/DuraDisplay/releases/download/1.0.3/duradisplay-1.0.3.jar",
           "extra_assets": []
         }
       ],
@@ -16798,7 +16818,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.70-pre",
+      "latest_version": "5.09.43.73",
       "private": false,
       "versions": [
         {
@@ -22615,6 +22635,36 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.70-pre/gregtech-5.09.43.70-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.70-pre/GT5-Unofficial-5.09.43.70-pre.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.71",
+          "changelog": "## What's Changed\n* fix incorrect GT_RecipeBuilder deep copy by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2048\n* Safe the macguffin by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2050\n* Move screenshot directory by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2052\n* Make desulferization recipes explicit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2047\n* Fix void protection not working with MB with custom output hatch field by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2051\n* Fix PCB Perfect OC upgrade not costing spacetime by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2054\n* Lower Ingot to Nugget Craft with Saw from 9 to 8 Nuggets by @Steelux8 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2056\n* Code cleanup by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2040\n* Use IVoidable for GT_ParallelHelper by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2053\n* Fix fluid registry related bugs by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2057\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.65...5.09.43.71\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T09:24:50+00:00",
+          "filename": "gregtech-5.09.43.71.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111330764",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.71/gregtech-5.09.43.71.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.72",
+          "changelog": "## What's Changed\n* New Bee, Nerfed Nee by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2058\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.71...5.09.43.72\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T13:37:21+00:00",
+          "filename": "gregtech-5.09.43.72.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111363061",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.72/gregtech-5.09.43.72.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.73",
+          "changelog": "## What's Changed\n* Replace outdated botdustries fluids and fix hydrazine name by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2059\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.72...5.09.43.73\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T16:05:35+00:00",
+          "filename": "gregtech-5.09.43.73.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111384874",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.73/gregtech-5.09.43.73.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -23233,7 +23283,7 @@
     },
     {
       "name": "GTNH-Lanthanides",
-      "latest_version": "0.10.0",
+      "latest_version": "0.10.2",
       "versions": [
         {
           "version_tag": "0.8.1",
@@ -23600,6 +23650,26 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/106191012",
           "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.10.0/gtnhlanth-0.10.0.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTNH-Lanthanides/0.10.0/GTNH-Lanthanides-0.10.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.10.1",
+          "changelog": "## What's Changed\n* Phosgene Fix by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/57\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.10.0...0.10.1\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T13:36:40+00:00",
+          "filename": "gtnhlanth-0.10.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/111362983",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.10.1/gtnhlanth-0.10.1.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.10.2",
+          "changelog": "## What's Changed\n* Remove outdated botdustries fluids by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/58\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.10.1...0.10.2\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T18:21:51+00:00",
+          "filename": "gtnhlanth-0.10.2.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTNH-Lanthanides/releases/assets/111399340",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTNH-Lanthanides/releases/download/0.10.2/gtnhlanth-0.10.2.jar",
           "extra_assets": []
         }
       ],
@@ -24006,7 +24076,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.9.32-pre",
+      "latest_version": "1.9.33",
       "private": false,
       "versions": [
         {
@@ -26859,6 +26929,16 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.32-pre/GT-PlusPlus-1.9.32-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.32-pre/GTplusplus-1.9.32-pre.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.33",
+          "changelog": "## What's Changed\n* Add New Recipes for Powergen Plasmas by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/651\n* Fix steam hatch not working for some people by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/655\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.31...1.9.33\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T11:35:28+00:00",
+          "filename": "GT-PlusPlus-1.9.33.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/111345509",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.33/GT-PlusPlus-1.9.33.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -27178,7 +27258,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.2.15",
+      "latest_version": "2.2.16-pre",
       "versions": [
         {
           "version_tag": "v1.2.0",
@@ -28202,6 +28282,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/110220519",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.2.15/hodgepodge-2.2.15.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/2.2.15/Hodgepodge-2.2.15.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.16-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.15...2.2.16-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T18:13:22+00:00",
+          "filename": "hodgepodge-2.2.16-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/111398546",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.2.16-pre/hodgepodge-2.2.16-pre.jar",
           "extra_assets": []
         }
       ],

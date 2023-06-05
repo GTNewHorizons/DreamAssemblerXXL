@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-06-05T06:05:25.114478",
+  "last_updated": "2023-06-05T18:27:59.725194",
   "config": "2.3.4-nightly-2023-06-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.70-pre",
+      "version": "5.09.43.73",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.10.0",
+      "version": "0.10.2",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.32-pre",
+      "version": "1.9.33",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.2.15",
+      "version": "2.2.16-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -817,7 +817,7 @@
       "side": "BOTH"
     },
     "DuraDisplay": {
-      "version": "1.0",
+      "version": "1.0.3",
       "side": "CLIENT"
     }
   },
