@@ -308,9 +308,10 @@
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
 >
 
-# New Mod - DuraDisplay (1.0@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/commits/1.0
+# New Mod - DuraDisplay (1.0.3@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/commits/1.0.3
 >## What's Changed
+> * Fix error when ran on server by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/2 (1.0.3)
 > * Refactor #1 by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/1 (1.0)
 >
 >## New Contributors
@@ -382,9 +383,21 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.70-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.70-pre
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.73@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.73
 >## What's Changed
+> * Replace outdated botdustries fluids and fix hydrazine name by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2059 (5.09.43.73)
+> * New Bee, Nerfed Nee by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2058 (5.09.43.72)
+> * fix incorrect GT_RecipeBuilder deep copy by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2048 (5.09.43.71)
+> * Safe the macguffin by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2050 (5.09.43.71)
+> * Move screenshot directory by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2052 (5.09.43.71)
+> * Make desulferization recipes explicit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2047 (5.09.43.71)
+> * Fix void protection not working with MB with custom output hatch field by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2051 (5.09.43.71)
+> * Fix PCB Perfect OC upgrade not costing spacetime by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2054 (5.09.43.71)
+> * Lower Ingot to Nugget Craft with Saw from 9 to 8 Nuggets by @Steelux8 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2056 (5.09.43.71)
+> * Code cleanup by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2040 (5.09.43.71)
+> * Use IVoidable for GT_ParallelHelper by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2053 (5.09.43.71)
+> * Fix fluid registry related bugs by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2057 (5.09.43.71)
 > * fix incorrect GT_RecipeBuilder deep copy by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2048 (5.09.43.70-pre)
 > * Safe the macguffin by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2050 (5.09.43.70-pre)
 > * Move screenshot directory by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2052 (5.09.43.70-pre)
@@ -582,9 +595,11 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/21 (1.1.1)
 >
 
-# Updated GTNH-Lanthanides (0.9.32@Side.BOTH --> 0.10.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.9.30...0.10.0
+# Updated GTNH-Lanthanides (0.9.32@Side.BOTH --> 0.10.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.9.30...0.10.2
 >## What's Changed
+> * Remove outdated botdustries fluids by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/58 (0.10.2)
+> * Phosgene Fix by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/57 (0.10.1)
 > * Spotless apply for branch ForgeDirection for #54 by @github-actions in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/55 (0.10.0)
 > * ForgeDirection by @mitchej123 in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 > * Zirconolite fix by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/53 (0.9.32)
@@ -593,9 +608,11 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.32-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.32-pre
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.33@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.33
 >## What's Changed
+> * Add New Recipes for Powergen Plasmas by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/651 (1.9.33)
+> * Fix steam hatch not working for some people by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/655 (1.9.33)
 > * Add New Recipes for Powergen Plasmas by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/651 (1.9.32-pre)
 > * fix lag by disabling asm that messed with tinkers fluid lighting by @Denostrov in https://github.com/GTNewHorizons/GTplusplus/pull/654 (1.9.31)
 > * Fix void protection for Sparge Tower and Dangote by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/653 (1.9.30)
@@ -729,8 +746,8 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/10 (1.0.9-pre)
 >
 
-# Updated Hodgepodge (2.2.8@Side.BOTH --> 2.2.15@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.7...2.2.15
+# Updated Hodgepodge (2.2.8@Side.BOTH --> 2.2.16-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.7...2.2.16-pre
 >## What's Changed
 > * Fix crashes when opening forestry/adventure backpacks and quickly switching selected item by @Denostrov in https://github.com/GTNewHorizons/Hodgepodge/pull/217 (2.2.15)
 > * Fix LLibrary incompatibility by @andreblanke in https://github.com/GTNewHorizons/Hodgepodge/pull/215 (2.2.14)
