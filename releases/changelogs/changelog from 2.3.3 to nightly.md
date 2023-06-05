@@ -691,6 +691,13 @@
 > * @GlodBlock made their first contribution in https://github.com/GTNewHorizons/GalacticGregGT5/pull/14 (1.0.8)
 >
 
+# Updated Galacticraft (3.0.68-GTNH@Side.BOTH --> 3.0.69-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.67-GTNH...3.0.69-GTNH
+>## What's Changed
+> * Cleanup by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/76 (3.0.69-GTNH)
+> * Update Dependencies by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/75 (3.0.68-GTNH)
+>
+
 # Updated Galaxy-Space-GTNH (1.1.65-GTNH@Side.BOTH --> 1.2.3-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.64-GTNH...1.2.3-GTNH
 >## What's Changed
