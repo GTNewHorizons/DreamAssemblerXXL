@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-06-05T06:02:27.949538",
+  "last_updated": "2023-06-05T06:05:25.114478",
   "config": "2.3.4-nightly-2023-06-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-218-GTNH-pre",
+      "version": "rv3-beta-219-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.15",
+      "version": "0.7.16",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.4.17",
+      "version": "2.4.18",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.69-pre",
+      "version": "5.09.43.70-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -405,7 +405,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.5.6",
+      "version": "2.5.7",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.44",
+      "version": "2.1.45",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -465,7 +465,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.9.7-GTNH",
+      "version": "1.9.8-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.20",
+      "version": "5.2.21",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {

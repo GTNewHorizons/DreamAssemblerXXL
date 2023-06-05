@@ -66,9 +66,10 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-218-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-218-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-219-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-219-GTNH-pre
 >## What's Changed
+> * Spotless apply for branch feature/networkRebooting for #329 by @github-actions in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/331 (rv3-beta-219-GTNH-pre)
 > * Add enough API to make NEE no longer require asming into ae2 by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/326 (rv3-beta-217-GTNH)
 > * Feature Configs by @DrParadox7 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/325 (rv3-beta-216-GTNH)
 > * Use interface instead of class for generalization by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/323 (rv3-beta-215-GTNH)
@@ -334,14 +335,18 @@
 > * Fix TextureErrorRemover crash with Java 12+ env by @miozune in https://github.com/GTNewHorizons/EnderCore/pull/12 (0.2.13)
 >
 
-# Updated EnderIO (2.4.11@Side.BOTH --> 2.4.17@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.10...2.4.17
+# Updated EnderIO (2.4.11@Side.BOTH --> 2.4.18@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.10...2.4.18
 >## What's Changed
+> * Implement item bar visibility config by @Caedis in https://github.com/GTNewHorizons/EnderIO/pull/125 (2.4.18)
 > * Fix fluid conduit connecting to non-fluid GT tiles by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/123 (2.4.17)
 > * Minor hotfix + more cleanup for PowerConduitEndergy by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/122 (2.4.16)
 > * Fix crash with outOfRange on server by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/120 (2.4.14)
 > * Cleanup PowerConduitEndergy by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/121 (2.4.14)
 > * Use config for transceiver's energy buffer by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/119 (2.4.13)
+>
+>## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/125 (2.4.18)
 >
 
 # Updated ForbiddenMagic (0.6.6-GTNH@Side.BOTH --> 0.6.7-GTNH@Side.BOTH)
@@ -377,9 +382,18 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.69-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.69-pre
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.70-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.70-pre
 >## What's Changed
+> * fix incorrect GT_RecipeBuilder deep copy by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2048 (5.09.43.70-pre)
+> * Safe the macguffin by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2050 (5.09.43.70-pre)
+> * Move screenshot directory by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2052 (5.09.43.70-pre)
+> * Make desulferization recipes explicit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2047 (5.09.43.70-pre)
+> * Fix void protection not working with MB with custom output hatch field by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2051 (5.09.43.70-pre)
+> * Fix PCB Perfect OC upgrade not costing spacetime by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2054 (5.09.43.70-pre)
+> * Lower Ingot to Nugget Craft with Saw from 9 to 8 Nuggets by @Steelux8 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2056 (5.09.43.70-pre)
+> * Code cleanup by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2040 (5.09.43.70-pre)
+> * Use IVoidable for GT_ParallelHelper by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2053 (5.09.43.70-pre)
 > * fix incorrect GT_RecipeBuilder deep copy by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2048 (5.09.43.69-pre)
 > * Safe the macguffin by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2050 (5.09.43.69-pre)
 > * Move screenshot directory by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2052 (5.09.43.69-pre)
@@ -910,20 +924,23 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/NEI-Integration/pull/5 (1.3.0)
 >
 
-# Updated Natura (2.5.5@Side.BOTH --> 2.5.6@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.5.3...2.5.6
+# Updated Natura (2.5.5@Side.BOTH --> 2.5.7@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.5.3...2.5.7
 >## What's Changed
+> * Fix missing Leaf block names in WAILA by @wlhlm in https://github.com/GTNewHorizons/Natura/pull/17 (2.5.7)
 > * Fix possible crash with getIcon by @miozune in https://github.com/GTNewHorizons/Natura/pull/16 (2.5.6)
 > * Gunpowder by @Dream-Master in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 >## New Contributors
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/Natura/pull/17 (2.5.7)
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/Natura/pull/16 (2.5.6)
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.44@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.44
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.45@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.45
 >## What's Changed
+> * Improve EMT charging ring recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/634 (2.1.45)
 > * Two recipe improvements by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/633 (2.1.44)
 > * Fix UIV extruder recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/632 (2.1.43)
 > * Fix UIV extruder recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/632 (2.1.42)
@@ -1044,9 +1061,10 @@
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/11 (1.3.0-GTNH)
 >
 
-# Updated OpenComputers (1.9.1-GTNH@Side.BOTH --> 1.9.7-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.0-GTNH...1.9.7-GTNH
+# Updated OpenComputers (1.9.1-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.0-GTNH...1.9.8-GTNH
 >## What's Changed
+> * update gradle build files by @aheirman in https://github.com/GTNewHorizons/OpenComputers/pull/101 (1.9.8-GTNH)
 > * update fork to mainline 1.8.2 by @asiekierka in https://github.com/GTNewHorizons/OpenComputers/pull/100 (1.9.7-GTNH)
 > * Update mainline to 1.8.0 stable by @asiekierka in https://github.com/GTNewHorizons/OpenComputers/pull/99 (1.9.5-GTNH)
 > * Increase MFU range from 3 to 16 blocks by @S4mpsa in https://github.com/GTNewHorizons/OpenComputers/pull/98 (1.9.4-GTNH)
@@ -1055,6 +1073,7 @@
 > * https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/12990 by @repo-alt in https://github.com/GTNewHorizons/OpenComputers/pull/95 (1.9.1-GTNH)
 >
 >## New Contributors
+> * @aheirman made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/101 (1.9.8-GTNH)
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/98 (1.9.4-GTNH)
 >
 
@@ -1118,9 +1137,10 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/TCNEIAdditions/pull/21 (1.2.2)
 >
 
-# Updated TecTech (5.1.16@Side.BOTH --> 5.2.20@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.2.20
+# Updated TecTech (5.1.16@Side.BOTH --> 5.2.21@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.2.21
 >## What's Changed
+> * Fix TPM recipe voltage by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/219 (5.2.21)
 > * Pico & Quantum circuit adjustments by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/218 (5.2.20)
 > * Added higher explosion resistance to pipe casings by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/216 (5.2.19)
 > * butcher controller recipe time by @POPlol333 in https://github.com/GTNewHorizons/TecTech/pull/217 (5.2.19)
@@ -1266,9 +1286,10 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/amunra/pull/5 (0.4.11)
 >
 
-# Updated bartworks (0.6.14@Side.BOTH --> 0.7.15@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.13...0.7.15
+# Updated bartworks (0.6.14@Side.BOTH --> 0.7.16@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.13...0.7.16
 >## What's Changed
+> * Fix controller voltages by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/332 (0.7.16)
 > * butcher eic recipe time by @POPlol333 in https://github.com/GTNewHorizons/bartworks/pull/331 (0.7.15)
 > * Fix version replacement by @miozune in https://github.com/GTNewHorizons/bartworks/pull/330 (0.7.14)
 > * Update to new void protection API & implement it for some multi by @miozune in https://github.com/GTNewHorizons/bartworks/pull/329 (0.7.14)
