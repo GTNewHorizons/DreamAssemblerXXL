@@ -383,9 +383,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.73@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.73
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.74@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.74
 >## What's Changed
+> * final qft item retexture by @EmeraldsEmerald in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2061 (5.09.43.74)
 > * Replace outdated botdustries fluids and fix hydrazine name by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2059 (5.09.43.73)
 > * New Bee, Nerfed Nee by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2058 (5.09.43.72)
 > * fix incorrect GT_RecipeBuilder deep copy by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2048 (5.09.43.71)
