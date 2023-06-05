@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-06-04T14:43:36.750265",
+  "last_updated": "2023-06-05T06:02:27.949538",
   "config": "2.3.4-nightly-2023-06-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.30",
+      "version": "1.9.32-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -815,6 +815,10 @@
     "amunra": {
       "version": "0.4.29",
       "side": "BOTH"
+    },
+    "DuraDisplay": {
+      "version": "1.0",
+      "side": "CLIENT"
     }
   },
   "external_mods": {

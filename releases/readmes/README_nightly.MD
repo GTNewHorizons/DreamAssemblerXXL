@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2023-06-04
+Version nightly is out 2023-06-05
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -309,6 +309,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [DetravScannerMod](https://github.com/GTNewHorizons/DetravScannerMod) | 1.7.2 |
 | [Draconic-Evolution](https://github.com/GTNewHorizons/Draconic-Evolution) | 1.1.16-GTNH |
 | [DummyCore](https://github.com/GTNewHorizons/DummyCore) | 1.15 |
+| [DuraDisplay](https://github.com/GTNewHorizons/DuraDisplay) | 1.0 |
 | [Electro-Magic-Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.3.1 |
 | [EnderCore](https://github.com/GTNewHorizons/EnderCore) | 0.2.14 |
 | [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.4.17 |
@@ -341,7 +342,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.10.0 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.3.0 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.0.13 |
-| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.9.30 |
+| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.9.32-pre |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.9.7-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.0-GTNH |

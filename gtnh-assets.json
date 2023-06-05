@@ -2522,7 +2522,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-218-GTNH-pre",
+      "latest_version": "rv3-beta-219-GTNH-pre",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -3992,6 +3992,16 @@
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-218-GTNH-pre/appliedenergistics2-rv3-beta-218-GTNH-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-218-GTNH-pre/Applied-Energistics-2-Unofficial-rv3-beta-218-GTNH-pre.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-219-GTNH-pre",
+          "changelog": "## What's Changed\n* Spotless apply for branch feature/networkRebooting for #329 by @github-actions in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/331\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-218-GTNH-pre...rv3-beta-219-GTNH-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T05:44:25+00:00",
+          "filename": "appliedenergistics2-rv3-beta-219-GTNH-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/111308915",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-219-GTNH-pre/appliedenergistics2-rv3-beta-219-GTNH-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -4528,7 +4538,7 @@
     },
     {
       "name": "bartworks",
-      "latest_version": "0.7.15",
+      "latest_version": "0.7.16",
       "versions": [
         {
           "version_tag": "0.5.26",
@@ -6107,6 +6117,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/110316592",
           "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.15/bartworks-0.7.15.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/bartworks/0.7.15/bartworks-0.7.15.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.7.16",
+          "changelog": "## What's Changed\n* Fix controller voltages by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/332\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.15...0.7.16\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-04T16:42:26+00:00",
+          "filename": "bartworks-0.7.16.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/bartworks/releases/assets/111239351",
+          "browser_download_url": "https://github.com/GTNewHorizons/bartworks/releases/download/0.7.16/bartworks-0.7.16.jar",
           "extra_assets": []
         }
       ],
@@ -11108,6 +11128,28 @@
       "side": "BOTH"
     },
     {
+      "name": "DuraDisplay",
+      "latest_version": "1.0",
+      "private": false,
+      "versions": [
+        {
+          "version_tag": "1.0",
+          "changelog": "## What's Changed\n* Refactor #1 by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/1\n\n## New Contributors\n* @Caedis made their first contribution in https://github.com/GTNewHorizons/DuraDisplay/pull/1\n\n**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/commits/1.0\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T06:01:35+00:00",
+          "filename": "duradisplay-1.0.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/DuraDisplay/releases/assets/111310143",
+          "browser_download_url": "https://github.com/GTNewHorizons/DuraDisplay/releases/download/1.0/duradisplay-1.0.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DuraDisplay/1.0/DuraDisplay-1.0.jar",
+          "extra_assets": []
+        }
+      ],
+      "license": "MIT License",
+      "repo_url": "https://github.com/GTNewHorizons/DuraDisplay",
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DuraDisplay/",
+      "side": "CLIENT"
+    },
+    {
       "name": "Electro-Magic-Tools",
       "latest_version": "1.3.1",
       "versions": [
@@ -11580,7 +11622,7 @@
     },
     {
       "name": "EnderIO",
-      "latest_version": "2.4.17",
+      "latest_version": "2.4.18",
       "private": false,
       "versions": [
         {
@@ -12291,6 +12333,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/109288279",
           "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.4.17/EnderIO-2.4.17.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/EnderIO/2.4.17/EnderIO-2.4.17.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.4.18",
+          "changelog": "## What's Changed\n* Implement item bar visibility config by @Caedis in https://github.com/GTNewHorizons/EnderIO/pull/125\n\n## New Contributors\n* @Caedis made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/125\n\n**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.17...2.4.18\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-04T20:14:48+00:00",
+          "filename": "EnderIO-2.4.18.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/EnderIO/releases/assets/111256291",
+          "browser_download_url": "https://github.com/GTNewHorizons/EnderIO/releases/download/2.4.18/EnderIO-2.4.18.jar",
           "extra_assets": []
         }
       ],
@@ -16743,7 +16795,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.69-pre",
+      "latest_version": "5.09.43.70-pre",
       "private": false,
       "versions": [
         {
@@ -22549,6 +22601,16 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.69-pre/gregtech-5.09.43.69-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.69-pre/GT5-Unofficial-5.09.43.69-pre.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.70-pre",
+          "changelog": "## What's Changed\n* fix incorrect GT_RecipeBuilder deep copy by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2048\n* Safe the macguffin by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2050\n* Move screenshot directory by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2052\n* Make desulferization recipes explicit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2047\n* Fix void protection not working with MB with custom output hatch field by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2051\n* Fix PCB Perfect OC upgrade not costing spacetime by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2054\n* Lower Ingot to Nugget Craft with Saw from 9 to 8 Nuggets by @Steelux8 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2056\n* Code cleanup by @chill-was-taken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2040\n* Use IVoidable for GT_ParallelHelper by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2053\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.65...5.09.43.70-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T05:11:32+00:00",
+          "filename": "gregtech-5.09.43.70-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111304606",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.70-pre/gregtech-5.09.43.70-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -23940,103 +24002,128 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.9.30",
+      "latest_version": "1.9.32-pre",
+      "private": false,
       "versions": [
         {
           "version_tag": "1.7.16",
           "changelog": "## What's Changed\n* fix Volcanus can lossless overclock forever. by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/61\n* no system - quiet down forge by @bombcar in https://github.com/GTNewHorizons/GTplusplus/pull/63\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.15...1.7.16",
+          "prerelease": false,
           "tagged_at": "2021-12-12T18:17:31+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.16.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/51606142",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.16/GT-PlusPlus-1.7.10-1.7.16.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.16/GT-PlusPlus-1.7.10-1.7.16.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.22",
           "changelog": "## What's Changed\n* Fix typo in Zyngen tooltip by @Florexiz in https://github.com/GTNewHorizons/GTplusplus/pull/62\n* Milling/Nuclear Sciences revamp + Lots of minor fixes by @draknyte1 in https://github.com/GTNewHorizons/GTplusplus/pull/50\n* Fixed Large Arc Furnace issue. by @draknyte1 in https://github.com/GTNewHorizons/GTplusplus/pull/66\n* Rare Earth Changes + Minor bug fixes by @draknyte1 in https://github.com/GTNewHorizons/GTplusplus/pull/67\n* Multi fix by @draknyte1 in https://github.com/GTNewHorizons/GTplusplus/pull/68\n* Move sources and resources by @SinTh0r4s in https://github.com/GTNewHorizons/GTplusplus/pull/65\n* Fix 9in1 description; typos by @bombcar in https://github.com/GTNewHorizons/GTplusplus/pull/71\n* Fix GT++ NEI handler displaying wrong output chance by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/72\n\n## New Contributors\n* @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/65\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.16...1.7.22",
+          "prerelease": false,
           "tagged_at": "2021-12-18T18:30:24+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.22.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/52093727",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.22/GT-PlusPlus-1.7.10-1.7.22.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.22/GT-PlusPlus-1.7.10-1.7.22.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.23",
           "changelog": "## What's Changed\n* Fix Catalyst bus derp. by @draknyte1 in https://github.com/GTNewHorizons/GTplusplus/pull/73\n* New multis by @draknyte1 in https://github.com/GTNewHorizons/GTplusplus/pull/74\n* Minor Fixes by @draknyte1 in https://github.com/GTNewHorizons/GTplusplus/pull/79\n* Modify translation numbers for localization by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/82\n* Fix adv dt output voiding by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/85\n* Do not add SO2 distilling in GTNH by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/86\n* 4/4 overclocks for IsaMill and FlotationCell by @MMunier in https://github.com/GTNewHorizons/GTplusplus/pull/90\n\n## New Contributors\n* @MMunier made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/90\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.22...1.7.23",
+          "prerelease": false,
           "tagged_at": "2022-01-19T04:39:41+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.23.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/54335021",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.23/GT-PlusPlus-1.7.10-1.7.23.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.23/GT-PlusPlus-1.7.10-1.7.23.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.24",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.23...1.7.24",
+          "prerelease": false,
           "tagged_at": "2022-01-19T04:43:09+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.24.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/54335158",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.24/GT-PlusPlus-1.7.10-1.7.24.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.24/GT-PlusPlus-1.7.10-1.7.24.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.25",
           "changelog": "## What's Changed\n* Fix Ztones recipe conflict with GTNH by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/92\n* New multis 3 by @draknyte1 in https://github.com/GTNewHorizons/GTplusplus/pull/93\n* Add output hatch to Cyclotron (again) by @Savallator in https://github.com/GTNewHorizons/GTplusplus/pull/98\n\n## New Contributors\n* @Savallator made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/98\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.24...1.7.25",
+          "prerelease": false,
           "tagged_at": "2022-01-27T20:22:55+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.25.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/55136233",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.25/GT-PlusPlus-1.7.10-1.7.25.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.25/GT-PlusPlus-1.7.10-1.7.25.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.26",
           "changelog": "## What's Changed\n* Update buildscript and dependencies to allow runClient by @bombcar in https://github.com/GTNewHorizons/GTplusplus/pull/101\n* Tree Growth Simulator different wood outputs by @Sphyix in https://github.com/GTNewHorizons/GTplusplus/pull/94\n* Rocketdyne Tooltip Changes by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/97\n* St00f by @draknyte1 in https://github.com/GTNewHorizons/GTplusplus/pull/102\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.25...1.7.26",
+          "prerelease": false,
           "tagged_at": "2022-01-30T11:51:43+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.26.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/55348244",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.26/GT-PlusPlus-1.7.10-1.7.26.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.26/GT-PlusPlus-1.7.10-1.7.26.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.27",
           "changelog": "## What's Changed\n* fix small oversight on thaumcraft saplings by @boubou19 in https://github.com/GTNewHorizons/GTplusplus/pull/104\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.26...1.7.27",
+          "prerelease": false,
           "tagged_at": "2022-01-30T16:12:46+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.27.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/55360320",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.27/GT-PlusPlus-1.7.10-1.7.27.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.27/GT-PlusPlus-1.7.10-1.7.27.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.28",
           "changelog": "## What's Changed\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/GTplusplus/pull/113\n* Minor Things by @draknyte1 in https://github.com/GTNewHorizons/GTplusplus/pull/114\n* Deduplicate GT_RectHandler by @YannickMG in https://github.com/GTNewHorizons/GTplusplus/pull/112\n* update buildscripts by @bombcar in https://github.com/GTNewHorizons/GTplusplus/pull/116\n* Today is Thursday by @draknyte1 in https://github.com/GTNewHorizons/GTplusplus/pull/119\n* Changed Minimum Water Check by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/123\n* 8:06pm by @draknyte1 in https://github.com/GTNewHorizons/GTplusplus/pull/121\n* Super Glue Line by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/122\n* Steam grinder nerf use Diamonds and Pistons by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/129\n* Put Multiblock Sifter to HV by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/126\n* Pollution detector balancing at LV by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/127\n* Screwdriver driven development. by @draknyte1 in https://github.com/GTNewHorizons/GTplusplus/pull/124\n\n## New Contributors\n* @YannickMG made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/112\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.27...1.7.28",
+          "prerelease": false,
           "tagged_at": "2022-02-15T17:47:41+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.28.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/56926311",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.28/GT-PlusPlus-1.7.10-1.7.28.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.28/GT-PlusPlus-1.7.10-1.7.28.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.29",
           "changelog": "## What's Changed\n* update buildscripts by @bombcar in https://github.com/GTNewHorizons/GTplusplus/pull/132\n* balancing Potin Pipes now between steel and stainless steel by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/128\n* Fix Elemental dublicator tooltip by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/139\n* control circuits should not be 0 by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/138\n* Fix Volcanus description by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/141\n* Fix XL turbine descriprion by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/143\n* magic feather clean up by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/144\n* fix power sub station ui variable desync by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/145\n* Changed EBF faster recipes to not have circuit 1s by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/146\n* Prevent outside IConfigureNEI from adding handlers by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/142\n* fix GA recipe making PA instead by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/147\n* fix broken frame/block oredict name by @GlodBlock in https://github.com/GTNewHorizons/GTplusplus/pull/148\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.28...1.7.29",
+          "prerelease": false,
           "tagged_at": "2022-03-05T16:15:01+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.29.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/58650029",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.29/GT-PlusPlus-1.7.10-1.7.29.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.29/GT-PlusPlus-1.7.10-1.7.29.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.30",
           "changelog": "## What's Changed\n* Uses for Super Glue by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/149\n* Fix crops tooltip by @kuba6000 in https://github.com/GTNewHorizons/GTplusplus/pull/150\n* MT rework by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/151\n* remove sunnarium bits by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/153\n* Add sunnarium recipes by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/154\n* Nerf PSS by @Elisis in https://github.com/GTNewHorizons/GTplusplus/pull/156\n* fix pss gui & make average IO actually an average by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/157\n* Change Barnarda C sappling meta by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/158\n* Fixed GtFrame<alloy> missing a single '-' for broken recipes by @ScriptedPiky in https://github.com/GTNewHorizons/GTplusplus/pull/159\n* delegate assline recipe creation to GT's RecipeAdder if in GTNH by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/160\n* Super Glue Fixes by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/161\n* Duplicate Calcium Chloride Changes by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/163\n* Fix books localization by @MuXiu1997 in https://github.com/GTNewHorizons/GTplusplus/pull/164\n* Change UV Hi-Amp Transformer UHV Cable to Bedrockium by @ScriptedPiky in https://github.com/GTNewHorizons/GTplusplus/pull/165\n* Purge MK4 recipe ready for TT. by @GTNH-Colen in https://github.com/GTNewHorizons/GTplusplus/pull/135\n\n## New Contributors\n* @Elisis made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/156\n* @GTNH-Colen made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/135\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.29...1.7.30",
+          "prerelease": false,
           "tagged_at": "2022-04-08T16:09:04+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.30.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/61965172",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.30/GT-PlusPlus-1.7.10-1.7.30.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.30/GT-PlusPlus-1.7.10-1.7.30.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.31",
           "changelog": "## What's Changed\n* Revert \"Fixed GtFrame<alloy> missing a single '-' for broken recipes\" by @ScriptedPiky in https://github.com/GTNewHorizons/GTplusplus/pull/166\n* more resilient GTNH detection by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/167\n* use the proper recipe input checker instead of always reinvent the wheel by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/169\n* Steam Squasher tooltip by @MuXiu1997 in https://github.com/GTNewHorizons/GTplusplus/pull/170\n* implement oredict cycling in NEI by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/171\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.30...1.7.31",
+          "prerelease": false,
           "tagged_at": "2022-04-15T17:47:02+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.31.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/62690679",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.31/GT-PlusPlus-1.7.10-1.7.31.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.31/GT-PlusPlus-1.7.10-1.7.31.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.32",
           "changelog": "## What's Changed\n* Allow Hand Pumps to be inserted into Toolbox by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/174\n* Fix Tree Farm's conditions for part by @MuXiu1997 in https://github.com/GTNewHorizons/GTplusplus/pull/172\n* Steam MultiBlock Tooltip by @MuXiu1997 in https://github.com/GTNewHorizons/GTplusplus/pull/173\n* Fix cell amount in Hydroxide by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/175\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.31...1.7.32",
+          "prerelease": false,
           "tagged_at": "2022-04-19T20:52:37+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.32.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/63038303",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.32/GT-PlusPlus-1.7.10-1.7.32.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.32/GT-PlusPlus-1.7.10-1.7.32.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.33-pre",
@@ -24045,7 +24132,8 @@
           "tagged_at": "2022-06-09T19:17:27+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.33-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/68033329",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.33-pre/GT-PlusPlus-1.7.10-1.7.33-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.33-pre/GT-PlusPlus-1.7.10-1.7.33-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.34-dev",
@@ -24054,7 +24142,8 @@
           "tagged_at": "2022-06-09T19:17:27+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.34-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/68033330",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.34-dev/GT-PlusPlus-1.7.10-1.7.34-dev.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.34-dev/GT-PlusPlus-1.7.10-1.7.34-dev.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.35-dev",
@@ -24063,7 +24152,8 @@
           "tagged_at": "2022-06-10T18:45:13+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.35-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/68128249",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.35-dev/GT-PlusPlus-1.7.10-1.7.35-dev.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.35-dev/GT-PlusPlus-1.7.10-1.7.35-dev.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.37-dev",
@@ -24072,7 +24162,8 @@
           "tagged_at": "2022-06-12T19:48:26+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.37-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/68280019",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.37-dev/GT-PlusPlus-1.7.10-1.7.37-dev.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.37-dev/GT-PlusPlus-1.7.10-1.7.37-dev.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.38-dev",
@@ -24081,7 +24172,8 @@
           "tagged_at": "2022-06-13T21:40:55+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.38-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/68381145",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.38-dev/GT-PlusPlus-1.7.10-1.7.38-dev.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.38-dev/GT-PlusPlus-1.7.10-1.7.38-dev.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.39-dev",
@@ -24090,7 +24182,8 @@
           "tagged_at": "2022-06-14T20:46:22+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.39-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/68488860",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.39-dev/GT-PlusPlus-1.7.10-1.7.39-dev.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.39-dev/GT-PlusPlus-1.7.10-1.7.39-dev.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.40-dev",
@@ -24099,7 +24192,8 @@
           "tagged_at": "2022-06-14T20:56:22+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.40-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/68489567",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.40-dev/GT-PlusPlus-1.7.10-1.7.40-dev.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.40-dev/GT-PlusPlus-1.7.10-1.7.40-dev.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.41-dev",
@@ -24108,7 +24202,8 @@
           "tagged_at": "2022-06-15T22:16:55+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.41-dev.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/68605924",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.41-dev/GT-PlusPlus-1.7.10-1.7.41-dev.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.41-dev/GT-PlusPlus-1.7.10-1.7.41-dev.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.43-pre",
@@ -24117,15 +24212,18 @@
           "tagged_at": "2022-06-22T08:23:11+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.43-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/69225228",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.43-pre/GT-PlusPlus-1.7.10-1.7.43-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.43-pre/GT-PlusPlus-1.7.10-1.7.43-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.44",
           "changelog": "## What's Changed\n* Various fixes by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/220\n* Algae Farm Buffs and Tweaks by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/213\n* Change recipe for UV 4A Transformer by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/224\n* Kevlar by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/177\n* hydrofluoric acid dupe by @GlodBlock in https://github.com/GTNewHorizons/GTplusplus/pull/140\n* Add UHV Soldering Alloy for Endgame Recipes by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/196\n* Boost XL Turbine Speed and Allow TecTech Hatches by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/207\n* Fix Dangote Distillus structure by @kuba6000 in https://github.com/GTNewHorizons/GTplusplus/pull/221\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.43-pre...1.7.44",
+          "prerelease": false,
           "tagged_at": "2022-06-24T18:42:58+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.44.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/69533374",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.44/GT-PlusPlus-1.7.10-1.7.44.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.44/GT-PlusPlus-1.7.10-1.7.44.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.45-pre",
@@ -24134,7 +24232,8 @@
           "tagged_at": "2022-07-05T15:44:27+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.45-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/70642480",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.45-pre/GT-PlusPlus-1.7.10-1.7.45-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.45-pre/GT-PlusPlus-1.7.10-1.7.45-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.46-pre",
@@ -24143,55 +24242,68 @@
           "tagged_at": "2022-07-05T15:54:40+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.46-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/70643454",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.46-pre/GT-PlusPlus-1.7.10-1.7.46-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.46-pre/GT-PlusPlus-1.7.10-1.7.46-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.47",
           "changelog": "## What's Changed\n* Fix TGS by @DianeXD in https://github.com/GTNewHorizons/GTplusplus/pull/232\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.46-pre...1.7.47",
+          "prerelease": false,
           "tagged_at": "2022-07-05T17:38:48+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.47.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/70651855",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.47/GT-PlusPlus-1.7.10-1.7.47.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.47/GT-PlusPlus-1.7.10-1.7.47.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.48",
           "changelog": "## What's Changed\n* Fix some of the catalysts getting consumed at one time by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/233\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.47...1.7.48",
+          "prerelease": false,
           "tagged_at": "2022-07-06T13:05:48+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.48.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/70737128",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.48/GT-PlusPlus-1.7.10-1.7.48.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.48/GT-PlusPlus-1.7.10-1.7.48.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.49",
           "changelog": "## What's Changed\n* Rename MAX Dynamo Hatch to UHV by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/234\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.48...1.7.49",
+          "prerelease": false,
           "tagged_at": "2022-07-08T10:19:25+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.49.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/70956963",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.49/GT-PlusPlus-1.7.10-1.7.49.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.49/GT-PlusPlus-1.7.10-1.7.49.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.50",
           "changelog": "## What's Changed\n* Standardization of GTPP Chemical Recipes by @GlodBlock in https://github.com/GTNewHorizons/GTplusplus/pull/235\n* Add non-cell recipe for Unknow Particle & update description for Cycl… by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/236\n* Buff Nitrobenzene fuel value to compensate for recipe change by @xSkewer in https://github.com/GTNewHorizons/GTplusplus/pull/237\n* fix turbine dupe by @GlodBlock in https://github.com/GTNewHorizons/GTplusplus/pull/238\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.49...1.7.50",
+          "prerelease": false,
           "tagged_at": "2022-07-12T04:31:38+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.50.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/71295183",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.50/GT-PlusPlus-1.7.10-1.7.50.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.50/GT-PlusPlus-1.7.10-1.7.50.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.51",
           "changelog": "## What's Changed\n* Fix Oxygen amount for CO2 by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/240\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.50...1.7.51",
+          "prerelease": false,
           "tagged_at": "2022-07-12T13:41:18+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.51.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/71341048",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.51/GT-PlusPlus-1.7.10-1.7.51.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.51/GT-PlusPlus-1.7.10-1.7.51.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.52",
           "changelog": "## What's Changed\n* Fix ICO tooltip by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/242\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.51...1.7.52",
+          "prerelease": false,
           "tagged_at": "2022-07-13T14:52:59+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.52.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/71462898",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.52/GT-PlusPlus-1.7.10-1.7.52.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.52/GT-PlusPlus-1.7.10-1.7.52.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.53-pre",
@@ -24200,7 +24312,8 @@
           "tagged_at": "2022-07-13T14:55:31+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.53-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/71463040",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.53-pre/GT-PlusPlus-1.7.10-1.7.53-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.53-pre/GT-PlusPlus-1.7.10-1.7.53-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.54-pre",
@@ -24209,175 +24322,218 @@
           "tagged_at": "2022-07-14T13:11:20+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.54-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/71564799",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.54-pre/GT-PlusPlus-1.7.10-1.7.54-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.54-pre/GT-PlusPlus-1.7.10-1.7.54-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.55",
           "changelog": "## What's Changed\n* Fix large mixer not performing fluid only recipes unless any of items… by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/245\n* Prevent XL Turbines from exploding from low tier dynamo by @xSkewer in https://github.com/GTNewHorizons/GTplusplus/pull/241\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.54-pre...1.7.55",
+          "prerelease": false,
           "tagged_at": "2022-07-15T22:06:38+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.55.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/71716519",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.55/GT-PlusPlus-1.7.10-1.7.55.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.55/GT-PlusPlus-1.7.10-1.7.55.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.56",
           "changelog": "## What's Changed\r\n* Chemical Plant fixes by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/248\r\n* Fix negative saw by @DianeXD in https://github.com/GTNewHorizons/GTplusplus/pull/249\r\n* fix ethanol disappear and add conversion recipe for certain fluid by @GlodBlock in https://github.com/GTNewHorizons/GTplusplus/pull/247\r\n* Correct melting point for Hydrazine by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/252\r\n* Add new GT++ foils for existing materials by @Connor-Colenso in https://github.com/GTNewHorizons/GTplusplus/pull/253\r\n\r\n\r\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.55...1.7.56",
+          "prerelease": false,
           "tagged_at": "2022-07-28T03:50:23+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.56.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/72910985",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.56/GT-PlusPlus-1.7.10-1.7.56.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.56/GT-PlusPlus-1.7.10-1.7.56.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.57",
           "changelog": "## What's Changed\r\n* Fix Air Intake Hatches cannot be used for recipe input by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/254\r\n\r\n\r\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.56...1.7.57",
+          "prerelease": false,
           "tagged_at": "2022-07-28T15:14:23+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.57.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/72972428",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.57/GT-PlusPlus-1.7.10-1.7.57.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.57/GT-PlusPlus-1.7.10-1.7.57.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.58-pre",
           "changelog": "## What's Changed\n* Allow input bus separation on the Alloy Blast Smelter by @xSkewer in https://github.com/GTNewHorizons/GTplusplus/pull/257\n* Require Super Glue in Higher Graphene Production by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/256\n* Reduce MT Sunnarium recipe time to 30s at EV by @xSkewer in https://github.com/GTNewHorizons/GTplusplus/pull/246\n* Change Durability Loss Speed in XL Turbines by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/250\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.57...1.7.58-pre",
+          "prerelease": false,
           "tagged_at": "2022-07-31T09:44:41+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.58-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/73232430",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.58-pre/GT-PlusPlus-1.7.10-1.7.58-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.58-pre/GT-PlusPlus-1.7.10-1.7.58-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.59-pre",
           "changelog": "## What's Changed\n* Fix startup crash with latest GT by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/258\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.58-pre...1.7.59-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-01T09:09:22+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.59-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/73317131",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.59-pre/GT-PlusPlus-1.7.10-1.7.59-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.59-pre/GT-PlusPlus-1.7.10-1.7.59-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.60-pre",
           "changelog": "## What's Changed\n* Allow input bus separation on the Alloy Blast Smelter by @xSkewer in https://github.com/GTNewHorizons/GTplusplus/pull/257\n* Require Super Glue in Higher Graphene Production by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/256\n* Reduce MT Sunnarium recipe time to 30s at EV by @xSkewer in https://github.com/GTNewHorizons/GTplusplus/pull/246\n* Change Durability Loss Speed in XL Turbines by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/250\n* Fix startup crash with latest GT by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/258\n* Add Hypogen wires by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/255\n* Fix recipe check for ABS input bus separation by @xSkewer in https://github.com/GTNewHorizons/GTplusplus/pull/259\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.57...1.7.60-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-03T01:30:59+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.60-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/73509929",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.60-pre/GT-PlusPlus-1.7.10-1.7.60-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.60-pre/GT-PlusPlus-1.7.10-1.7.60-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.61-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.60-pre...1.7.61-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-03T05:54:03+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.61-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/73525109",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.61-pre/GT-PlusPlus-1.7.10-1.7.61-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.61-pre/GT-PlusPlus-1.7.10-1.7.61-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.62-pre",
           "changelog": "## What's Changed\n* Implement void protection for TGS by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/261\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.61-pre...1.7.62-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-03T08:21:14+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.62-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/73537857",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.62-pre/GT-PlusPlus-1.7.10-1.7.62-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.62-pre/GT-PlusPlus-1.7.10-1.7.62-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.64-pre",
           "changelog": "## What's Changed\n* Allow input bus separation on the Alloy Blast Smelter by @xSkewer in https://github.com/GTNewHorizons/GTplusplus/pull/257\n* Require Super Glue in Higher Graphene Production by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/256\n* Reduce MT Sunnarium recipe time to 30s at EV by @xSkewer in https://github.com/GTNewHorizons/GTplusplus/pull/246\n* Change Durability Loss Speed in XL Turbines by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/250\n* Fix startup crash with latest GT by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/258\n* Add Hypogen wires by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/255\n* Fix recipe check for ABS input bus separation by @xSkewer in https://github.com/GTNewHorizons/GTplusplus/pull/259\n* Implement void protection for TGS by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/261\n* Add fluid extraction recipe for Lithium Fluoride by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/262\n* nerf tgs recipe by @GlodBlock in https://github.com/GTNewHorizons/GTplusplus/pull/263\n* Remove duplicated UUM NEI fake recipe by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/264\n* Delegate cable description to GT by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/266\n* Fixes for Cold Trap and Reactor Processing Unit by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/260\n* New Maintenance Hatch Recipe by @Runakai1 in https://github.com/GTNewHorizons/GTplusplus/pull/265\n* Make TGS consume loss-safe voltage by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/267\n* Fix server crash with Pest Killer by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/268\n* NEI Cleanup by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/251\n* fix XL turbine having wrong stat after chunk reload in fast mode by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/269\n* Disable the large generator array by @alexandre-tardif in https://github.com/GTNewHorizons/GTplusplus/pull/273\n* Wireless charger improvements by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/272\n* Fix energy consumption when using high tier hatches by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/276\n* Chunkloader code rework by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/274\n* Fix void protection with locked fluid hatches by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/275\n* Clay balance by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/277\n* Update industrial sledgehammer and forge casing recipes to be easier by @BlueTRaven in https://github.com/GTNewHorizons/GTplusplus/pull/278\n* Fix Calamari by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/279\n\n## New Contributors\n* @Runakai1 made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/265\n* @alexandre-tardif made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/273\n* @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/272\n* @BlueTRaven made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/278\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.57...1.7.64-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-16T16:09:02+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.64-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/74892096",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.64-pre/GT-PlusPlus-1.7.10-1.7.64-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.64-pre/GT-PlusPlus-1.7.10-1.7.64-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.65-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.64-pre...1.7.65-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-17T06:49:46+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.65-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/74956877",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.65-pre/GT-PlusPlus-1.7.10-1.7.65-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.65-pre/GT-PlusPlus-1.7.10-1.7.65-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.66-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.65-pre...1.7.66-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-17T08:25:16+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.66-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/74963745",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.66-pre/GT-PlusPlus-1.7.10-1.7.66-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.66-pre/GT-PlusPlus-1.7.10-1.7.66-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.68-pre",
           "changelog": "## What's Changed\n* Flotation Cell fixes by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/271\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.66-pre...1.7.68-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-18T13:59:04+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.68-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/75113821",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.68-pre/GT-PlusPlus-1.7.10-1.7.68-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.68-pre/GT-PlusPlus-1.7.10-1.7.68-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.69-pre",
           "changelog": "## What's Changed\n* Disabled debug logging to be on by default by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/282\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.68-pre...1.7.69-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-18T14:40:43+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.69-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/75117442",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.69-pre/GT-PlusPlus-1.7.10-1.7.69-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.69-pre/GT-PlusPlus-1.7.10-1.7.69-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.70-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.71...1.7.70-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-20T07:54:45+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.70-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/75293638",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.70-pre/GT-PlusPlus-1.7.10-1.7.70-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.70-pre/GT-PlusPlus-1.7.10-1.7.70-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.70",
           "changelog": "## What's Changed\n* Disabled debug logging to be on by default by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/282\n* Update Boldarnator Tooltip on Circuit Slot by @Runakai1 in https://github.com/GTNewHorizons/GTplusplus/pull/281\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.67...1.7.70",
+          "prerelease": false,
           "tagged_at": "2022-08-18T20:08:50+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.70.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/75142823",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.70/GT-PlusPlus-1.7.10-1.7.70.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.70/GT-PlusPlus-1.7.10-1.7.70.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.71",
           "changelog": "## What's Changed\n* GTpp machines pa fix by @BlueWeabo in https://github.com/GTNewHorizons/GTplusplus/pull/283\n* Autoplace integration by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/280\n\n## New Contributors\n* @BlueWeabo made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/283\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.70...1.7.71",
+          "prerelease": false,
           "tagged_at": "2022-08-19T11:53:13+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.71.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/75212106",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.71/GT-PlusPlus-1.7.10-1.7.71.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.71/GT-PlusPlus-1.7.10-1.7.71.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.72",
           "changelog": "## What's Changed\n* fix illegal argument exception in solar tower structure code by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/284\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.71...1.7.72",
+          "prerelease": false,
           "tagged_at": "2022-08-20T09:51:26+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.72.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/75298958",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.72/GT-PlusPlus-1.7.10-1.7.72.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.72/GT-PlusPlus-1.7.10-1.7.72.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.73",
           "changelog": "## What's Changed\n* continue placing solar heaters on place sucess by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/285\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.72...1.7.73",
+          "prerelease": false,
           "tagged_at": "2022-08-20T12:32:28+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.73.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/75307028",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.73/GT-PlusPlus-1.7.10-1.7.73.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.73/GT-PlusPlus-1.7.10-1.7.73.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.74",
           "changelog": "## What's Changed\n* Fix NPE with reflection by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/287\n* Fix fluid fertilizer amount by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/286\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.73...1.7.74",
+          "prerelease": false,
           "tagged_at": "2022-08-20T17:58:15+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.74.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/75324092",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.74/GT-PlusPlus-1.7.10-1.7.74.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.74/GT-PlusPlus-1.7.10-1.7.74.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.75",
           "changelog": "## What's Changed\n* Fix bad effect removal on obfuscated environment by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/288\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.74...1.7.75",
+          "prerelease": false,
           "tagged_at": "2022-08-20T20:02:59+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.75.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/75330673",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.75/GT-PlusPlus-1.7.10-1.7.75.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.75/GT-PlusPlus-1.7.10-1.7.75.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.76",
           "changelog": "## What's Changed\n* fix a bunch of structure code error by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/294\n* use consistent molten texture as gt5 by @GlodBlock in https://github.com/GTNewHorizons/GTplusplus/pull/295\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.75...1.7.76",
+          "prerelease": false,
           "tagged_at": "2022-08-23T07:05:52+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.76.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/75561865",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.76/GT-PlusPlus-1.7.10-1.7.76.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.76/GT-PlusPlus-1.7.10-1.7.76.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.77-pre",
@@ -24386,7 +24542,8 @@
           "tagged_at": "2022-08-25T12:28:04+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.77-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/75818648",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.77-pre/GT-PlusPlus-1.7.10-1.7.77-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.77-pre/GT-PlusPlus-1.7.10-1.7.77-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.78-pre",
@@ -24395,591 +24552,738 @@
           "tagged_at": "2022-08-25T12:28:39+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.78-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/75818699",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.78-pre/GT-PlusPlus-1.7.10-1.7.78-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.78-pre/GT-PlusPlus-1.7.10-1.7.78-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.79-pre",
           "changelog": "## What's Changed\n* Fix wireless charger ignoring working state by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/296\n* Fix formula for Tungsten Titanium Carbide and Titansteel by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/297\n* Add Cactus/Sugar Charcoal/Coke recipes to Advanced Coke Oven by @Quarri6343 in https://github.com/GTNewHorizons/GTplusplus/pull/298\n* Cyclotron structure fix by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/299\n* Fix Pipes flowing rate calculation by @Quarri6343 in https://github.com/GTNewHorizons/GTplusplus/pull/300\n* Fix Lepidolite outputting TiC Aluminum Dust by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/302\n* i nerf potin pipes but forgot about lead pipes. by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/305\n* Matter fab fixes by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/304\n* Fix void protection requires too many slots than actual by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/301\n* Fix error ingot by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/307\n* Disable disassembling Everglades portal frame by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/308\n* Fix assembler recipe for Wither Cage being more expensive than crafti… by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/309\n\n## New Contributors\n* @Quarri6343 made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/298\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.76...1.7.79-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-26T09:19:15+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.79-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/75913603",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.79-pre/GT-PlusPlus-1.7.10-1.7.79-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.79-pre/GT-PlusPlus-1.7.10-1.7.79-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.80-pre",
           "changelog": "## What's Changed\n* Fix wireless charger ignoring working state by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/296\n* Fix formula for Tungsten Titanium Carbide and Titansteel by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/297\n* Add Cactus/Sugar Charcoal/Coke recipes to Advanced Coke Oven by @Quarri6343 in https://github.com/GTNewHorizons/GTplusplus/pull/298\n* Cyclotron structure fix by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/299\n* Fix Pipes flowing rate calculation by @Quarri6343 in https://github.com/GTNewHorizons/GTplusplus/pull/300\n* Fix Lepidolite outputting TiC Aluminum Dust by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/302\n* i nerf potin pipes but forgot about lead pipes. by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/305\n* Matter fab fixes by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/304\n* Fix void protection requires too many slots than actual by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/301\n* Fix error ingot by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/307\n* Disable disassembling Everglades portal frame by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/308\n* Fix assembler recipe for Wither Cage being more expensive than crafti… by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/309\n* Fix LPF Localization by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/310\n* fix adv dt not able to output fluid by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/306\n* use channels to select tier of chemical plant components by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/312\n* Make Mutated Living Solder divisible by 144 by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/313\n* Amazon Warehouse Scanner Fix by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/311\n* Fix reflection failure with RTG hatch by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/303\n* Fix description of speed boost in tooltips by @ChromicRedBrick in https://github.com/GTNewHorizons/GTplusplus/pull/289\n\n## New Contributors\n* @Quarri6343 made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/298\n* @ChromicRedBrick made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/289\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.76...1.7.80-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-27T08:53:37+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.80-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76010127",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.80-pre/GT-PlusPlus-1.7.10-1.7.80-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.80-pre/GT-PlusPlus-1.7.10-1.7.80-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.81",
           "changelog": "## What's Changed\n* Fix wireless charger ignoring working state by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/296\n* Fix formula for Tungsten Titanium Carbide and Titansteel by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/297\n* Add Cactus/Sugar Charcoal/Coke recipes to Advanced Coke Oven by @Quarri6343 in https://github.com/GTNewHorizons/GTplusplus/pull/298\n* Cyclotron structure fix by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/299\n* Fix Pipes flowing rate calculation by @Quarri6343 in https://github.com/GTNewHorizons/GTplusplus/pull/300\n* Fix Lepidolite outputting TiC Aluminum Dust by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/302\n* i nerf potin pipes but forgot about lead pipes. by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/305\n* Matter fab fixes by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/304\n* Fix void protection requires too many slots than actual by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/301\n* Fix error ingot by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/307\n* Disable disassembling Everglades portal frame by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/308\n* Fix assembler recipe for Wither Cage being more expensive than crafti… by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/309\n* Fix LPF Localization by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/310\n* fix adv dt not able to output fluid by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/306\n* use channels to select tier of chemical plant components by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/312\n* Make Mutated Living Solder divisible by 144 by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/313\n* Amazon Warehouse Scanner Fix by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/311\n* Fix reflection failure with RTG hatch by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/303\n* Fix description of speed boost in tooltips by @ChromicRedBrick in https://github.com/GTNewHorizons/GTplusplus/pull/289\n* general code clean up and tooltip fixes by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/314\n* Adjust Graphene recipes by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/315\n* fix chemical plant consuming catalyst even with awakened draconium coil by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/316\n* Buildscript + Spotless by @kuba6000 in https://github.com/GTNewHorizons/GTplusplus/pull/318\n* Bugfix and Rework of the GT++ Solar Tower by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/290\n* rename by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/324\n* fix operator percedency in advanced dt by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/329\n\n## New Contributors\n* @Quarri6343 made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/298\n* @ChromicRedBrick made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/289\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.76...1.7.81",
+          "prerelease": false,
           "tagged_at": "2022-08-30T10:49:22+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.81.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76293458",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.81/GT-PlusPlus-1.7.10-1.7.81.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.81/GT-PlusPlus-1.7.10-1.7.81.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.82-pre",
           "changelog": "## What's Changed\n* Spotless apply for branch gt_pump_cover for #327 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/328\n* a less buggy and more performant canBufferOutput implementation for fluid management by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/317\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.81...1.7.82-pre",
+          "prerelease": false,
           "tagged_at": "2022-08-30T20:07:56+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.82-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76344315",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.82-pre/GT-PlusPlus-1.7.10-1.7.82-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.82-pre/GT-PlusPlus-1.7.10-1.7.82-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.83",
           "changelog": "## What's Changed\n* a less buggy and more performant canBufferOutput implementation for fluid management by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/317\n* Remove Railcraft asm as we have the source code now by @eigenraven in https://github.com/GTNewHorizons/GTplusplus/pull/332\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.81...1.7.83",
+          "prerelease": false,
           "tagged_at": "2022-08-31T13:53:50+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.83.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76430309",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.83/GT-PlusPlus-1.7.10-1.7.83.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.83/GT-PlusPlus-1.7.10-1.7.83.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.84",
           "changelog": "## What's Changed\n* a less buggy and more performant canBufferOutput implementation for fluid management by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/317\n* Remove Railcraft asm as we have the source code now by @eigenraven in https://github.com/GTNewHorizons/GTplusplus/pull/332\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.81...1.7.84",
+          "prerelease": false,
           "tagged_at": "2022-09-01T11:00:03+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.84.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76539613",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.84/GT-PlusPlus-1.7.10-1.7.84.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.84/GT-PlusPlus-1.7.10-1.7.84.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.85",
           "changelog": "## What's Changed\n* Remove GT asm by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/333\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.83...1.7.85",
+          "prerelease": false,
           "tagged_at": "2022-09-03T16:17:30+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.85.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76770025",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.85/GT-PlusPlus-1.7.10-1.7.85.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.85/GT-PlusPlus-1.7.10-1.7.85.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.86",
           "changelog": "## What's Changed\n* allow separate input bus for wiremill by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/335\n* Fix PSS average i/o scanner display by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/336\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.85...1.7.86",
+          "prerelease": false,
           "tagged_at": "2022-09-04T16:09:09+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.86.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76844621",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.86/GT-PlusPlus-1.7.10-1.7.86.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.86/GT-PlusPlus-1.7.10-1.7.86.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.87",
           "changelog": "## What's Changed\n* Fixes EU discount typo in Adv_DistillationTower by @joegnis in https://github.com/GTNewHorizons/GTplusplus/pull/337\n\n## New Contributors\n* @joegnis made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/337\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.86...1.7.87",
+          "prerelease": false,
           "tagged_at": "2022-09-05T06:27:36+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.87.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76892580",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.87/GT-PlusPlus-1.7.10-1.7.87.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.87/GT-PlusPlus-1.7.10-1.7.87.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.88",
           "changelog": "## What's Changed\n* adv dt fixes by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/338\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.87...1.7.88",
+          "prerelease": false,
           "tagged_at": "2022-09-05T19:31:19+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.88.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/76952406",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.88/GT-PlusPlus-1.7.10-1.7.88.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.88/GT-PlusPlus-1.7.10-1.7.88.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.89",
           "changelog": "## What's Changed\n* Adapt to Wiremill Configuration Circuit support by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/341\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.88...1.7.89",
+          "prerelease": false,
           "tagged_at": "2022-09-09T19:28:48+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.89.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/77388558",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.89/GT-PlusPlus-1.7.10-1.7.89.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.89/GT-PlusPlus-1.7.10-1.7.89.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.90",
           "changelog": "## What's Changed\n* Fix incorrect casing id for Flotation Cell by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/342\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.89...1.7.90",
+          "prerelease": false,
           "tagged_at": "2022-09-10T13:32:45+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.90.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/77446421",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.90/GT-PlusPlus-1.7.10-1.7.90.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.90/GT-PlusPlus-1.7.10-1.7.90.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.91",
           "changelog": "## What's Changed\n* Fix machine item NBT not being saved by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/344\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.90...1.7.91",
+          "prerelease": false,
           "tagged_at": "2022-09-12T18:51:11+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.91.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/77645799",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.91/GT-PlusPlus-1.7.10-1.7.91.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.91/GT-PlusPlus-1.7.10-1.7.91.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.92-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.91...1.7.92-pre",
+          "prerelease": false,
           "tagged_at": "2022-09-12T18:51:26+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.92-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/77645835",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.92-pre/GT-PlusPlus-1.7.10-1.7.92-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.92-pre/GT-PlusPlus-1.7.10-1.7.92-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.93",
           "changelog": "## What's Changed\n* Fix healing device never getting discharged by @kuba6000 in https://github.com/GTNewHorizons/GTplusplus/pull/343\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.91...1.7.93",
+          "prerelease": false,
           "tagged_at": "2022-09-13T17:15:50+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.93.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/77753188",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.93/GT-PlusPlus-1.7.10-1.7.93.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.93/GT-PlusPlus-1.7.10-1.7.93.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.94-pre",
           "changelog": "## What's Changed\n* Spotless apply for branch Rocketdyne_Changes for #347 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/348\n* Spotless apply for branch LFTR_Work for #345 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/346\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.93...1.7.94-pre",
+          "prerelease": false,
           "tagged_at": "2022-09-14T06:24:27+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.94-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/77811119",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.94-pre/GT-PlusPlus-1.7.10-1.7.94-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.94-pre/GT-PlusPlus-1.7.10-1.7.94-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.95",
           "changelog": "## What's Changed\n* Rocketdyne Structure Fix and Cost Reduction by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/347\n* Bugfixes and Speed Increases for the LFTR Chain by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/345\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.93...1.7.95",
+          "prerelease": false,
           "tagged_at": "2022-09-14T19:11:23+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.95.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/77884656",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.95/GT-PlusPlus-1.7.10-1.7.95.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.95/GT-PlusPlus-1.7.10-1.7.95.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.96-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.95...1.7.96-pre",
+          "prerelease": false,
           "tagged_at": "2022-09-16T10:06:40+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.96-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/78064025",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.96-pre/GT-PlusPlus-1.7.10-1.7.96-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.96-pre/GT-PlusPlus-1.7.10-1.7.96-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.97-pre",
           "changelog": "## What's Changed\n* address some concerns in structure code by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/350\n* Add circuit slot support to super input bus by @kuba6000 in https://github.com/GTNewHorizons/GTplusplus/pull/349\n* Fix GT++ Industrial Wiremill input bus separation feature by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/352\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.95...1.7.97-pre",
+          "prerelease": false,
           "tagged_at": "2022-09-17T09:15:25+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.97-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/78156469",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.97-pre/GT-PlusPlus-1.7.10-1.7.97-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.97-pre/GT-PlusPlus-1.7.10-1.7.97-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.98",
           "changelog": "## What's Changed\n* address some concerns in structure code by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/350\n* Add circuit slot support to super input bus by @kuba6000 in https://github.com/GTNewHorizons/GTplusplus/pull/349\n* Fix GT++ Industrial Wiremill input bus separation feature by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/352\n* Rocketdyne Final Tweaks In Math and Air Casings by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/351\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.95...1.7.98",
+          "prerelease": false,
           "tagged_at": "2022-09-18T08:35:44+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.98.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/78231448",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.98/GT-PlusPlus-1.7.10-1.7.98.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.98/GT-PlusPlus-1.7.10-1.7.98.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.99",
           "changelog": "## What's Changed\n* migrate to new survival autoplace api by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/353\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.98...1.7.99",
+          "prerelease": false,
           "tagged_at": "2022-09-19T11:37:22+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.99.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/78334371",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.99/GT-PlusPlus-1.7.10-1.7.99.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.99/GT-PlusPlus-1.7.10-1.7.99.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.100",
           "changelog": "## What's Changed\n* Change hypogen solidifier recipe EU requirements to UIV. by @Connor-Colenso in https://github.com/GTNewHorizons/GTplusplus/pull/356\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.99...1.7.100",
+          "prerelease": false,
           "tagged_at": "2022-09-20T08:02:47+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.100.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/78423011",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.100/GT-PlusPlus-1.7.10-1.7.100.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.100/GT-PlusPlus-1.7.10-1.7.100.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.101",
           "changelog": "## What's Changed\n* fixes XL bug to produce plasma and adds Steelux turbine change by @BlueWeabo in https://github.com/GTNewHorizons/GTplusplus/pull/357\n* fix log spam by @pulsemageadvocate in https://github.com/GTNewHorizons/GTplusplus/pull/360\n\n## New Contributors\n* @pulsemageadvocate made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/360\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.100...1.7.101",
+          "prerelease": false,
           "tagged_at": "2022-09-21T07:32:52+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.101.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/78536632",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.101/GT-PlusPlus-1.7.10-1.7.101.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.101/GT-PlusPlus-1.7.10-1.7.101.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.103",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.102...1.7.103",
+          "prerelease": false,
           "tagged_at": "2022-09-23T17:33:10+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.103.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/78809403",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.103/GT-PlusPlus-1.7.10-1.7.103.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.103/GT-PlusPlus-1.7.10-1.7.103.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.104",
           "changelog": "## What's Changed\n* Decreased ABS min. case count from 10 to 5 by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/291\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.103...1.7.104",
+          "prerelease": false,
           "tagged_at": "2022-09-23T18:00:58+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.104.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/78811178",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.104/GT-PlusPlus-1.7.10-1.7.104.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.104/GT-PlusPlus-1.7.10-1.7.104.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.105",
           "changelog": "## What's Changed\n* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/GTplusplus/pull/365\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.104...1.7.105",
+          "prerelease": false,
           "tagged_at": "2022-09-24T10:39:14+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.105.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/78870844",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.105/GT-PlusPlus-1.7.10-1.7.105.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.105/GT-PlusPlus-1.7.10-1.7.105.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.106",
           "changelog": "## What's Changed\n* Corrected offsets in survival placement by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/366\n* Fix sb rocketengine not producing pollution by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/367\n* Fix Amazon dupe bug by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/368\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.105...1.7.106",
+          "prerelease": false,
           "tagged_at": "2022-09-24T21:33:04+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.106.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/78906204",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.106/GT-PlusPlus-1.7.10-1.7.106.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.106/GT-PlusPlus-1.7.10-1.7.106.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.107",
           "changelog": "## What's Changed\n* fix multiblock misbehavior after mode change by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/370\n* Fix XL turbine dupe bug by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/369\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.106...1.7.107",
+          "prerelease": false,
           "tagged_at": "2022-09-25T09:03:07+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.107.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/78945069",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.107/GT-PlusPlus-1.7.10-1.7.107.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.107/GT-PlusPlus-1.7.10-1.7.107.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.108",
           "changelog": "## What's Changed\n* Fix XL plasma turbine consuming way too much plasma by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/372\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.107...1.7.108",
+          "prerelease": false,
           "tagged_at": "2022-09-25T11:57:52+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.108.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/78954466",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.108/GT-PlusPlus-1.7.10-1.7.108.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.108/GT-PlusPlus-1.7.10-1.7.108.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.109",
           "changelog": "## What's Changed\n* Revert \"Fix XL plasma turbine consuming way too much plasma\" by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/373\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.108...1.7.109",
+          "prerelease": false,
           "tagged_at": "2022-09-25T15:51:34+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.109.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/78967161",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.109/GT-PlusPlus-1.7.10-1.7.109.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.109/GT-PlusPlus-1.7.10-1.7.109.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.110",
           "changelog": "## What's Changed\n* Fix EU/t display in large turbine multiblocks by @eigenraven in https://github.com/GTNewHorizons/GTplusplus/pull/374\n* Fix NPE with Crop Harvester by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/378\n* Made super bus recipe time not tier dependend by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/376\n* Fix mixer requiring input busses to work by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/375\n* Fix fluid-extraction recipes for Redstone Alloy are incorrectly overwritten by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/377\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.109...1.7.110",
+          "prerelease": false,
           "tagged_at": "2022-09-26T16:11:29+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.110.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/79072151",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.110/GT-PlusPlus-1.7.10-1.7.110.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.110/GT-PlusPlus-1.7.10-1.7.110.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.111",
           "changelog": "## What's Changed\n* Fix input seperation on mixer by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/379\n* Fix mixer dupe bug with ME input bus by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/380\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.110...1.7.111",
+          "prerelease": false,
           "tagged_at": "2022-09-28T19:22:37+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.111.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/79328225",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.111/GT-PlusPlus-1.7.10-1.7.111.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.111/GT-PlusPlus-1.7.10-1.7.111.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.112-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.111...1.7.112-pre",
+          "prerelease": false,
           "tagged_at": "2022-09-30T18:25:37+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.112-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/79558701",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.112-pre/GT-PlusPlus-1.7.10-1.7.112-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.112-pre/GT-PlusPlus-1.7.10-1.7.112-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.113",
           "changelog": "## What's Changed\n* Buffs by @boubou19 in https://github.com/GTNewHorizons/GTplusplus/pull/382\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.111...1.7.113",
+          "prerelease": false,
           "tagged_at": "2022-09-30T23:55:04+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.113.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/79587427",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.113/GT-PlusPlus-1.7.10-1.7.113.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.113/GT-PlusPlus-1.7.10-1.7.113.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.114",
           "changelog": "## What's Changed\n* no-more-duplicate-key by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/381\n* Quick for Cell-Less PAs by @BlueWeabo in https://github.com/GTNewHorizons/GTplusplus/pull/383\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.113...1.7.114",
+          "prerelease": false,
           "tagged_at": "2022-10-01T10:50:04+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.114.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/79624808",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.114/GT-PlusPlus-1.7.10-1.7.114.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.114/GT-PlusPlus-1.7.10-1.7.114.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.115",
           "changelog": "## What's Changed\n* ref(texture_api): update to the texture api by @leagris in https://github.com/GTNewHorizons/GTplusplus/pull/386\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.114...1.7.115",
+          "prerelease": false,
           "tagged_at": "2022-10-04T10:14:37+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.115.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/79904224",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.115/GT-PlusPlus-1.7.10-1.7.115.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.115/GT-PlusPlus-1.7.10-1.7.115.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.116",
           "changelog": "## What's Changed\n* Remove duplicate keys by @ChromicRedBrick in https://github.com/GTNewHorizons/GTplusplus/pull/387\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.115...1.7.116",
+          "prerelease": false,
           "tagged_at": "2022-10-04T14:54:21+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.116.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/79936156",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.116/GT-PlusPlus-1.7.10-1.7.116.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.116/GT-PlusPlus-1.7.10-1.7.116.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.117",
           "changelog": "## What's Changed\n* Update ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GTplusplus/pull/390\n* Fix Copper(II) Sulphate and Sodium Cyanide not having LCR recipes by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/392\n* handle drops with a smaller max stack size properly by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/391\n\n## New Contributors\n* @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/390\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.116...1.7.117",
+          "prerelease": false,
           "tagged_at": "2022-10-05T16:08:21+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.117.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/80057531",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.117/GT-PlusPlus-1.7.10-1.7.117.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.117/GT-PlusPlus-1.7.10-1.7.117.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.118-pre",
           "changelog": "## What's Changed\n* Fix Dehydrator Recipes Not Having Circuits by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/393\n* Mega Alloy Blast Smelter by @MadMan310 in https://github.com/GTNewHorizons/GTplusplus/pull/394\n\n## New Contributors\n* @MadMan310 made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/394\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.117...1.7.118-pre",
+          "prerelease": false,
           "tagged_at": "2022-10-07T19:18:21+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.118-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/80303217",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.118-pre/GT-PlusPlus-1.7.10-1.7.118-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.118-pre/GT-PlusPlus-1.7.10-1.7.118-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.119-pre",
           "changelog": "## What's Changed\n* Make Chemplant Mv and use mv materials by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/396\n* fix material localization by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/395\n* Revert the Nerf to Algae Farm Casing Cost by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/397\n* Fix Amount of Infinite Mutation Catalyst Output by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/398\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.118-pre...1.7.119-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-10-12T17:35:20+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.119-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/80792956",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.119-pre/GT-PlusPlus-1.7.10-1.7.119-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.119-pre/GT-PlusPlus-1.7.10-1.7.119-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.120-pre",
           "changelog": "## What's Changed\n* Fix Sterile Farm Casing Recipe (No Tumbaga Pipe) by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/402\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.119-pre...1.7.120-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-10-14T14:17:46+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.120-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/81020098",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.120-pre/GT-PlusPlus-1.7.10-1.7.120-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.120-pre/GT-PlusPlus-1.7.10-1.7.120-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.121-pre",
           "changelog": "## What's Changed\n* fix frame box and block cant localized by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/404\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.120-pre...1.7.121-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-10-17T09:53:31+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.121-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/81278338",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.121-pre/GT-PlusPlus-1.7.10-1.7.121-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.121-pre/GT-PlusPlus-1.7.10-1.7.121-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.122-pre",
           "changelog": "## What's Changed\n* fix double plate and long rod cant localized by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/405\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.121-pre...1.7.122-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-10-17T17:46:39+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.122-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/81320978",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.122-pre/GT-PlusPlus-1.7.10-1.7.122-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.122-pre/GT-PlusPlus-1.7.10-1.7.122-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.123-pre",
           "changelog": "## What's Changed\n* Update chemplant manual for TPV by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/409\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.122-pre...1.7.123-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-10-24T17:28:22+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.123-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/82112252",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.123-pre/GT-PlusPlus-1.7.10-1.7.123-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.123-pre/GT-PlusPlus-1.7.10-1.7.123-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.124-pre",
           "changelog": "## What's Changed\n* fix crop manager nosuchelementexception log spam by @guineawheek in https://github.com/GTNewHorizons/GTplusplus/pull/408\n\n## New Contributors\n* @guineawheek made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/408\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.123-pre...1.7.124-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-10-25T05:34:26+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.124-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/82166956",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.124-pre/GT-PlusPlus-1.7.10-1.7.124-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.124-pre/GT-PlusPlus-1.7.10-1.7.124-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.125-pre",
           "changelog": "## What's Changed\n* Recipe fixes 2022/10/25 by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/410\n* Remove reflection from RTG Hatch by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/411\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.124-pre...1.7.125-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-10-25T19:31:07+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.125-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/82243682",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.125-pre/GT-PlusPlus-1.7.10-1.7.125-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.125-pre/GT-PlusPlus-1.7.10-1.7.125-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.126-pre",
           "changelog": "## What's Changed\n* Fix Material Progression and Semifluid Gen Cost by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/403\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.125-pre...1.7.126-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-10-28T19:03:17+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.126-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/82639159",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.126-pre/GT-PlusPlus-1.7.10-1.7.126-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.126-pre/GT-PlusPlus-1.7.10-1.7.126-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.127-pre",
           "changelog": "## What's Changed\n* Fix Dehydrator Recipes Not Having Circuits by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/393\n* Mega Alloy Blast Smelter by @MadMan310 in https://github.com/GTNewHorizons/GTplusplus/pull/394\n* Make Chemplant Mv and use mv materials by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/396\n* fix material localization by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/395\n* Revert the Nerf to Algae Farm Casing Cost by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/397\n* Fix Amount of Infinite Mutation Catalyst Output by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/398\n* Fix Sterile Farm Casing Recipe (No Tumbaga Pipe) by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/402\n* fix frame box and block cant localized by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/404\n* fix double plate and long rod cant localized by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/405\n* Update chemplant manual for TPV by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/409\n* fix crop manager nosuchelementexception log spam by @guineawheek in https://github.com/GTNewHorizons/GTplusplus/pull/408\n* Recipe fixes 2022/10/25 by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/410\n* Remove reflection from RTG Hatch by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/411\n* Fix Material Progression and Semifluid Gen Cost by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/403\n* add xl sc steam turbine by @GlodBlock in https://github.com/GTNewHorizons/GTplusplus/pull/413\n\n## New Contributors\n* @MadMan310 made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/394\n* @guineawheek made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/408\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.117...1.7.127-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-10-31T16:45:52+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.127-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/82935534",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.127-pre/GT-PlusPlus-1.7.10-1.7.127-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.127-pre/GT-PlusPlus-1.7.10-1.7.127-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.128",
           "changelog": "## What's Changed\n* Fix Dehydrator Recipes Not Having Circuits by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/393\n* Mega Alloy Blast Smelter by @MadMan310 in https://github.com/GTNewHorizons/GTplusplus/pull/394\n* Make Chemplant Mv and use mv materials by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/396\n* fix material localization by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/395\n* Revert the Nerf to Algae Farm Casing Cost by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/397\n* Fix Amount of Infinite Mutation Catalyst Output by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/398\n* Fix Sterile Farm Casing Recipe (No Tumbaga Pipe) by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/402\n* fix frame box and block cant localized by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/404\n* fix double plate and long rod cant localized by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/405\n* Update chemplant manual for TPV by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/409\n* fix crop manager nosuchelementexception log spam by @guineawheek in https://github.com/GTNewHorizons/GTplusplus/pull/408\n* Recipe fixes 2022/10/25 by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/410\n* Remove reflection from RTG Hatch by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/411\n* Fix Material Progression and Semifluid Gen Cost by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/403\n* add xl sc steam turbine by @GlodBlock in https://github.com/GTNewHorizons/GTplusplus/pull/413\n\n## New Contributors\n* @MadMan310 made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/394\n* @guineawheek made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/408\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.117...1.7.128\n",
+          "prerelease": false,
           "tagged_at": "2022-10-31T17:41:44+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.128.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/82940453",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.128/GT-PlusPlus-1.7.10-1.7.128.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.128/GT-PlusPlus-1.7.10-1.7.128.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.129",
           "changelog": "## What's Changed\n* New quantum anomaly texture by @Connor-Colenso in https://github.com/GTNewHorizons/GTplusplus/pull/415\n* add sc steam turbine by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/414\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.128...1.7.129\n",
+          "prerelease": false,
           "tagged_at": "2022-11-01T12:29:10+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.129.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/83034189",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.129/GT-PlusPlus-1.7.10-1.7.129.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.129/GT-PlusPlus-1.7.10-1.7.129.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.130",
           "changelog": "## What's Changed\n* PSS incorrect loss fixed by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/417\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.129...1.7.130\n",
+          "prerelease": false,
           "tagged_at": "2022-11-02T17:06:19+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.130.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/83194656",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.130/GT-PlusPlus-1.7.10-1.7.130.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.130/GT-PlusPlus-1.7.10-1.7.130.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.131",
           "changelog": "## What's Changed\n* Add tainted sapling to tgs by @guineawheek in https://github.com/GTNewHorizons/GTplusplus/pull/418\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.130...1.7.131\n",
+          "prerelease": false,
           "tagged_at": "2022-11-04T13:46:36+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.131.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/83438483",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.131/GT-PlusPlus-1.7.10-1.7.131.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.131/GT-PlusPlus-1.7.10-1.7.131.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.132-pre",
           "changelog": "## What's Changed\n* Spotless apply for branch abs-recipe-tweak for #419 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/420\n* Spotless apply for branch Wascher-Multi-tweaks for #421 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/422\n* Spotless apply for branch Wascher-Multi-tweaks for #421 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/423\n* Spotless apply for branch Extruder-Tweaks for #424 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/425\n* Spotless apply for branch Multi-Use-Casing for #430 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/431\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.131...1.7.132-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-06T17:23:49+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.132-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/83653956",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.132-pre/GT-PlusPlus-1.7.10-1.7.132-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.132-pre/GT-PlusPlus-1.7.10-1.7.132-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.133",
           "changelog": "## What's Changed\n* Add assembler recipes for Wire factory by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/434\n* change Volcanus be IV by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/435\n* Unifying Warehouse to LUV by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/436\n* change REcipe from Coke oven be EV by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/433\n* change Industrial Electrolyzer to be IV by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/429\n* Thermal centrifuge tweaks by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/426\n* Sifter multi by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/428\n* Change Wascher Multiblock to one Tier components by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/421\n* add assembler recipe by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/430\n* Macerator tweaks by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/427\n* unifying recipe with iv circuits by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/432\n* Add a Extruder Casing recipe by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/424\n* ABS recipe tweak to follow gt logic by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/419\n* Multi Block tweaks by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/437\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.131...1.7.133\n",
+          "prerelease": false,
           "tagged_at": "2022-11-07T22:18:01+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.133.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/83801349",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.133/GT-PlusPlus-1.7.10-1.7.133.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.133/GT-PlusPlus-1.7.10-1.7.133.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.134",
           "changelog": "## What's Changed\n* fix broken shaped crafting and forge hammer recipe by @GlodBlock in https://github.com/GTNewHorizons/GTplusplus/pull/438\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.133...1.7.134\n",
+          "prerelease": false,
           "tagged_at": "2022-11-09T17:12:25+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.134.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/84030640",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.134/GT-PlusPlus-1.7.10-1.7.134.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.134/GT-PlusPlus-1.7.10-1.7.134.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.135-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.134...1.7.135-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-13T21:18:23+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.135-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/84485383",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.135-pre/GT-PlusPlus-1.7.10-1.7.135-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.135-pre/GT-PlusPlus-1.7.10-1.7.135-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.136",
           "changelog": "## What's Changed\n* Remove turbine texture reflection by @kuba6000 in https://github.com/GTNewHorizons/GTplusplus/pull/439\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.134...1.7.136\n",
+          "prerelease": false,
           "tagged_at": "2022-11-13T21:40:22+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.136.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/84486755",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.136/GT-PlusPlus-1.7.10-1.7.136.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.136/GT-PlusPlus-1.7.10-1.7.136.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.137-pre",
           "changelog": "## What's Changed\n* Remove turbine texture reflection by @kuba6000 in https://github.com/GTNewHorizons/GTplusplus/pull/439\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.134...1.7.137-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-14T17:26:58+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.137-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/84587311",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.137-pre/GT-PlusPlus-1.7.10-1.7.137-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.137-pre/GT-PlusPlus-1.7.10-1.7.137-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.138-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.137-pre...1.7.138-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-15T18:23:24+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.138-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/84728157",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.138-pre/GT-PlusPlus-1.7.10-1.7.138-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.138-pre/GT-PlusPlus-1.7.10-1.7.138-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.139-pre",
           "changelog": "## What's Changed\n* make structure definition fields static by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/443\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.138-pre...1.7.139-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-16T11:48:40+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.139-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/84822384",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.139-pre/GT-PlusPlus-1.7.10-1.7.139-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.139-pre/GT-PlusPlus-1.7.10-1.7.139-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.140-pre",
           "changelog": "## What's Changed\n* make structure definition fields static by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/443\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.136...1.7.140-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-17T17:13:20+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.140-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/84994785",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.140-pre/GT-PlusPlus-1.7.10-1.7.140-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.140-pre/GT-PlusPlus-1.7.10-1.7.140-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.141-pre",
           "changelog": "## What's Changed\n* Spotless apply for branch Chem_Line_Skipper for #399 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/400\n* Spotless apply for branch Chem_Line_Skipper for #399 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/401\n* Spotless apply for branch Chem_Line_Skipper for #399 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/406\n* Spotless apply for branch Chem_Line_Skipper for #399 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/407\n* Spotless apply for branch Chem_Line_Skipper for #399 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/412\n* Spotless apply for branch Chem_Line_Skipper for #399 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/441\n* Spotless apply for branch Chem_Line_Skipper for #399 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/442\n* Spotless apply for branch Chem_Line_Skipper for #399 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/444\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.140-pre...1.7.141-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-18T06:46:11+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.141-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/85064338",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.141-pre/GT-PlusPlus-1.7.10-1.7.141-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.141-pre/GT-PlusPlus-1.7.10-1.7.141-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.142-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.141-pre...1.7.142-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-18T17:49:10+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.142-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/85132155",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.142-pre/GT-PlusPlus-1.7.10-1.7.142-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.142-pre/GT-PlusPlus-1.7.10-1.7.142-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.143-pre",
           "changelog": "## What's Changed\n* Use Fluids instead of Cells in the Multiblock Dehydrator and ABS by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/446\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.141-pre...1.7.143-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-24T21:17:39+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.143-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/85866061",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.143-pre/GT-PlusPlus-1.7.10-1.7.143-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.143-pre/GT-PlusPlus-1.7.10-1.7.143-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.144",
           "changelog": "## What's Changed\n* make structure definition fields static by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/443\n* Use Fluids instead of Cells in the Multiblock Dehydrator and ABS by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/446\n* Rewrite GUIs with ModularUI by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/440\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.136...1.7.144\n",
+          "prerelease": false,
           "tagged_at": "2022-11-25T17:05:38+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.144.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/85960215",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.144/GT-PlusPlus-1.7.10-1.7.144.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.144/GT-PlusPlus-1.7.10-1.7.144.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.145-pre",
           "changelog": "## What's Changed\n* Use Fluids instead of Cells in the Multiblock Dehydrator and ABS by @iouter in https://github.com/GTNewHorizons/GTplusplus/pull/446\n* Rewrite GUIs with ModularUI by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/440\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.141-pre...1.7.145-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-25T19:41:21+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.145-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/85970709",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.145-pre/GT-PlusPlus-1.7.10-1.7.145-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.145-pre/GT-PlusPlus-1.7.10-1.7.145-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.146-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.145-pre...1.7.146-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-26T10:24:39+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.146-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/86026867",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.146-pre/GT-PlusPlus-1.7.10-1.7.146-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.146-pre/GT-PlusPlus-1.7.10-1.7.146-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.147-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.146-pre...1.7.147-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-26T23:23:10+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.147-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/86075816",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.147-pre/GT-PlusPlus-1.7.10-1.7.147-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.147-pre/GT-PlusPlus-1.7.10-1.7.147-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.148-pre",
           "changelog": "## What's Changed\n* Fix missing texture by @kuba6000 in https://github.com/GTNewHorizons/GTplusplus/pull/447\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.147-pre...1.7.148-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-27T10:20:08+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.148-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/86114768",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.148-pre/GT-PlusPlus-1.7.10-1.7.148-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.148-pre/GT-PlusPlus-1.7.10-1.7.148-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.149-pre",
           "changelog": "## What's Changed\n* Added number of needed rotor shafts to tooltip by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/448\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.148-pre...1.7.149-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-28T19:27:30+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.149-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/86266065",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.149-pre/GT-PlusPlus-1.7.10-1.7.149-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.149-pre/GT-PlusPlus-1.7.10-1.7.149-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.150",
           "changelog": "## What's Changed\n* Fix missing texture by @kuba6000 in https://github.com/GTNewHorizons/GTplusplus/pull/447\n* Added number of needed rotor shafts to tooltip by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/448\n* Make AL recipes always visible by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/449\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.144...1.7.150\n",
+          "prerelease": false,
           "tagged_at": "2022-11-30T16:51:23+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.150.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/86522127",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.150/GT-PlusPlus-1.7.10-1.7.150.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.150/GT-PlusPlus-1.7.10-1.7.150.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.151-pre",
           "changelog": "## What's Changed\n* Make AL recipes always visible by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/449\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.149-pre...1.7.151-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-11-30T17:20:02+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.151-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/86525289",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.151-pre/GT-PlusPlus-1.7.10-1.7.151-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.151-pre/GT-PlusPlus-1.7.10-1.7.151-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.152-pre",
           "changelog": "## What's Changed\n* Fixes Matter Fabricator controller recipe by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/450\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.151-pre...1.7.152-pre\n",
+          "prerelease": false,
           "tagged_at": "2022-12-10T12:05:07+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.152-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/87696666",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.152-pre/GT-PlusPlus-1.7.10-1.7.152-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.152-pre/GT-PlusPlus-1.7.10-1.7.152-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.153",
@@ -24988,7 +25292,8 @@
           "tagged_at": "2022-12-11T11:54:09+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.153.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/87789186",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.153/GT-PlusPlus-1.7.10-1.7.153.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.153/GT-PlusPlus-1.7.10-1.7.153.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.154-pre",
@@ -24998,7 +25303,7 @@
           "filename": "GT-PlusPlus-1.7.10-1.7.154-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/87789397",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.154-pre/GT-PlusPlus-1.7.10-1.7.154-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.7.154-pre/GTplusplus-1.7.154-pre.jar"
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.155-pre",
@@ -25007,7 +25312,8 @@
           "tagged_at": "2022-12-11T18:24:56+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.155-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/87813684",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.155-pre/GT-PlusPlus-1.7.10-1.7.155-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.155-pre/GT-PlusPlus-1.7.10-1.7.155-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.156-pre",
@@ -25017,7 +25323,7 @@
           "filename": "GT-PlusPlus-1.7.10-1.7.156-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/87814672",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.156-pre/GT-PlusPlus-1.7.10-1.7.156-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.7.156-pre/GTplusplus-1.7.156-pre.jar"
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.157",
@@ -25026,7 +25332,8 @@
           "tagged_at": "2022-12-13T21:19:54+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.157.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/88094929",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.157/GT-PlusPlus-1.7.10-1.7.157.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.157/GT-PlusPlus-1.7.10-1.7.157.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.158-pre",
@@ -25035,7 +25342,8 @@
           "tagged_at": "2022-12-13T21:29:16+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.158-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/88095978",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.158-pre/GT-PlusPlus-1.7.10-1.7.158-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.158-pre/GT-PlusPlus-1.7.10-1.7.158-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.159-pre",
@@ -25044,7 +25352,8 @@
           "tagged_at": "2022-12-16T08:00:07+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.159-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/88428762",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.159-pre/GT-PlusPlus-1.7.10-1.7.159-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.159-pre/GT-PlusPlus-1.7.10-1.7.159-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.160",
@@ -25053,7 +25362,8 @@
           "tagged_at": "2022-12-16T23:16:28+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.160.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/88519535",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.160/GT-PlusPlus-1.7.10-1.7.160.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.160/GT-PlusPlus-1.7.10-1.7.160.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.161-pre",
@@ -25062,7 +25372,8 @@
           "tagged_at": "2022-12-16T23:30:33+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.161-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/88520621",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.161-pre/GT-PlusPlus-1.7.10-1.7.161-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.161-pre/GT-PlusPlus-1.7.10-1.7.161-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.162-pre",
@@ -25071,7 +25382,8 @@
           "tagged_at": "2022-12-17T14:40:55+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.162-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/88580474",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.162-pre/GT-PlusPlus-1.7.10-1.7.162-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.162-pre/GT-PlusPlus-1.7.10-1.7.162-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.163-pre",
@@ -25080,7 +25392,8 @@
           "tagged_at": "2022-12-17T19:20:18+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.163-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/88598892",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.163-pre/GT-PlusPlus-1.7.10-1.7.163-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.163-pre/GT-PlusPlus-1.7.10-1.7.163-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.164-pre",
@@ -25089,7 +25402,8 @@
           "tagged_at": "2022-12-18T22:47:24+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.164-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/88708880",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.164-pre/GT-PlusPlus-1.7.10-1.7.164-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.164-pre/GT-PlusPlus-1.7.10-1.7.164-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.165",
@@ -25098,7 +25412,8 @@
           "tagged_at": "2022-12-20T17:35:49+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.165.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/88920011",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.165/GT-PlusPlus-1.7.10-1.7.165.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.165/GT-PlusPlus-1.7.10-1.7.165.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.166-pre",
@@ -25107,7 +25422,8 @@
           "tagged_at": "2022-12-20T17:38:01+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.166-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/88920145",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.166-pre/GT-PlusPlus-1.7.10-1.7.166-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.166-pre/GT-PlusPlus-1.7.10-1.7.166-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.167-pre",
@@ -25116,7 +25432,8 @@
           "tagged_at": "2022-12-20T22:42:14+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.167-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/88949486",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.167-pre/GT-PlusPlus-1.7.10-1.7.167-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.167-pre/GT-PlusPlus-1.7.10-1.7.167-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.168-pre",
@@ -25125,7 +25442,8 @@
           "tagged_at": "2022-12-21T10:51:28+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.168-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/89010949",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.168-pre/GT-PlusPlus-1.7.10-1.7.168-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.168-pre/GT-PlusPlus-1.7.10-1.7.168-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.169",
@@ -25134,7 +25452,8 @@
           "tagged_at": "2022-12-22T18:24:09+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.169.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/89181795",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.169/GT-PlusPlus-1.7.10-1.7.169.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.169/GT-PlusPlus-1.7.10-1.7.169.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.170-pre",
@@ -25143,7 +25462,8 @@
           "tagged_at": "2022-12-22T19:42:50+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.170-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/89188424",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.170-pre/GT-PlusPlus-1.7.10-1.7.170-pre.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.170-pre/GT-PlusPlus-1.7.10-1.7.170-pre.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.171",
@@ -25152,7 +25472,8 @@
           "tagged_at": "2022-12-22T20:39:27+00:00",
           "filename": "GT-PlusPlus-1.7.10-1.7.171.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/89192995",
-          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.171/GT-PlusPlus-1.7.10-1.7.171.jar"
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.171/GT-PlusPlus-1.7.10-1.7.171.jar",
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.172",
@@ -25162,7 +25483,7 @@
           "filename": "GT-PlusPlus-1.7.10-1.7.172.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/89306379",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.172/GT-PlusPlus-1.7.10-1.7.172.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.7.172/GTplusplus-1.7.172.jar"
+          "extra_assets": []
         },
         {
           "version_tag": "1.7.173",
@@ -25562,7 +25883,6 @@
           "filename": "GT-PlusPlus-1.7.213.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/95333140",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.213/GT-PlusPlus-1.7.213.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.7.213/GTplusplus-1.7.213.jar",
           "extra_assets": []
         },
         {
@@ -25603,7 +25923,6 @@
           "filename": "GT-PlusPlus-1.7.217.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/95963197",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.217/GT-PlusPlus-1.7.217.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.7.217/GTplusplus-1.7.217.jar",
           "extra_assets": []
         },
         {
@@ -25684,7 +26003,6 @@
           "filename": "GT-PlusPlus-1.7.225.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/97606558",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.225/GT-PlusPlus-1.7.225.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.7.225/GTplusplus-1.7.225.jar",
           "extra_assets": []
         },
         {
@@ -25695,7 +26013,6 @@
           "filename": "GT-PlusPlus-1.7.226.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/98009464",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.226/GT-PlusPlus-1.7.226.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.7.226/GTplusplus-1.7.226.jar",
           "extra_assets": []
         },
         {
@@ -25706,7 +26023,6 @@
           "filename": "GT-PlusPlus-1.7.227.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/98707870",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.7.227/GT-PlusPlus-1.7.227.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.7.227/GTplusplus-1.7.227.jar",
           "extra_assets": []
         },
         {
@@ -25737,7 +26053,6 @@
           "filename": "GT-PlusPlus-1.8.2.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/99073988",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.2/GT-PlusPlus-1.8.2.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.2/GTplusplus-1.8.2.jar",
           "extra_assets": []
         },
         {
@@ -25748,7 +26063,6 @@
           "filename": "GT-PlusPlus-1.8.3.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/99108870",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.3/GT-PlusPlus-1.8.3.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.3/GTplusplus-1.8.3.jar",
           "extra_assets": []
         },
         {
@@ -25759,7 +26073,6 @@
           "filename": "GT-PlusPlus-1.8.4.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/99245720",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.4/GT-PlusPlus-1.8.4.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.4/GTplusplus-1.8.4.jar",
           "extra_assets": []
         },
         {
@@ -25770,7 +26083,6 @@
           "filename": "GT-PlusPlus-1.8.5.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/99299967",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.5/GT-PlusPlus-1.8.5.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.5/GTplusplus-1.8.5.jar",
           "extra_assets": []
         },
         {
@@ -25781,7 +26093,6 @@
           "filename": "GT-PlusPlus-1.8.6.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/99676480",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.6/GT-PlusPlus-1.8.6.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.6/GTplusplus-1.8.6.jar",
           "extra_assets": []
         },
         {
@@ -25822,7 +26133,6 @@
           "filename": "GT-PlusPlus-1.8.10.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/99952931",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.10/GT-PlusPlus-1.8.10.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.10/GTplusplus-1.8.10.jar",
           "extra_assets": []
         },
         {
@@ -25833,7 +26143,6 @@
           "filename": "GT-PlusPlus-1.8.11.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/100504198",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.11/GT-PlusPlus-1.8.11.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.11/GTplusplus-1.8.11.jar",
           "extra_assets": []
         },
         {
@@ -25894,7 +26203,6 @@
           "filename": "GT-PlusPlus-1.8.17-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/100901556",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.17-pre/GT-PlusPlus-1.8.17-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.17-pre/GTplusplus-1.8.17-pre.jar",
           "extra_assets": []
         },
         {
@@ -25905,7 +26213,6 @@
           "filename": "GT-PlusPlus-1.8.18.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/100926729",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.18/GT-PlusPlus-1.8.18.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.18/GTplusplus-1.8.18.jar",
           "extra_assets": []
         },
         {
@@ -25916,7 +26223,6 @@
           "filename": "GT-PlusPlus-1.8.19-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/101165308",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.19-pre/GT-PlusPlus-1.8.19-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.19-pre/GTplusplus-1.8.19-pre.jar",
           "extra_assets": []
         },
         {
@@ -25937,7 +26243,6 @@
           "filename": "GT-PlusPlus-1.8.21-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/101252473",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.21-pre/GT-PlusPlus-1.8.21-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.21-pre/GTplusplus-1.8.21-pre.jar",
           "extra_assets": []
         },
         {
@@ -25948,7 +26253,6 @@
           "filename": "GT-PlusPlus-1.8.22.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/101892602",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.22/GT-PlusPlus-1.8.22.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.22/GTplusplus-1.8.22.jar",
           "extra_assets": []
         },
         {
@@ -25959,7 +26263,6 @@
           "filename": "GT-PlusPlus-1.8.23.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/102297547",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.23/GT-PlusPlus-1.8.23.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.23/GTplusplus-1.8.23.jar",
           "extra_assets": []
         },
         {
@@ -25970,7 +26273,6 @@
           "filename": "GT-PlusPlus-1.8.24-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/102535861",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.24-pre/GT-PlusPlus-1.8.24-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.24-pre/GTplusplus-1.8.24-pre.jar",
           "extra_assets": []
         },
         {
@@ -25991,7 +26293,6 @@
           "filename": "GT-PlusPlus-1.8.26-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/102610141",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.26-pre/GT-PlusPlus-1.8.26-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.26-pre/GTplusplus-1.8.26-pre.jar",
           "extra_assets": []
         },
         {
@@ -26042,7 +26343,6 @@
           "filename": "GT-PlusPlus-1.8.31.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/102913866",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.31/GT-PlusPlus-1.8.31.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.31/GTplusplus-1.8.31.jar",
           "extra_assets": []
         },
         {
@@ -26083,7 +26383,6 @@
           "filename": "GT-PlusPlus-1.8.35.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/103385790",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.35/GT-PlusPlus-1.8.35.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.35/GTplusplus-1.8.35.jar",
           "extra_assets": []
         },
         {
@@ -26094,7 +26393,6 @@
           "filename": "GT-PlusPlus-1.8.36.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/103853414",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.36/GT-PlusPlus-1.8.36.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.36/GTplusplus-1.8.36.jar",
           "extra_assets": []
         },
         {
@@ -26105,7 +26403,6 @@
           "filename": "GT-PlusPlus-1.8.37.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/104084932",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.37/GT-PlusPlus-1.8.37.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.37/GTplusplus-1.8.37.jar",
           "extra_assets": []
         },
         {
@@ -26136,7 +26433,6 @@
           "filename": "GT-PlusPlus-1.8.40.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/104849399",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.40/GT-PlusPlus-1.8.40.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.40/GTplusplus-1.8.40.jar",
           "extra_assets": []
         },
         {
@@ -26147,7 +26443,6 @@
           "filename": "GT-PlusPlus-1.8.41-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/105106863",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.41-pre/GT-PlusPlus-1.8.41-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.41-pre/GTplusplus-1.8.41-pre.jar",
           "extra_assets": []
         },
         {
@@ -26168,7 +26463,6 @@
           "filename": "GT-PlusPlus-1.8.43-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/105463055",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.43-pre/GT-PlusPlus-1.8.43-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.43-pre/GTplusplus-1.8.43-pre.jar",
           "extra_assets": []
         },
         {
@@ -26189,7 +26483,6 @@
           "filename": "GT-PlusPlus-1.8.45-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/105660539",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.45-pre/GT-PlusPlus-1.8.45-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.45-pre/GTplusplus-1.8.45-pre.jar",
           "extra_assets": []
         },
         {
@@ -26200,7 +26493,26 @@
           "filename": "GT-PlusPlus-1.8.46-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/106031992",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.46-pre/GT-PlusPlus-1.8.46-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.8.46-pre/GTplusplus-1.8.46-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.47",
+          "changelog": "## What's Changed\n* fix missing industrial hcl by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/610\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.42...1.8.47\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-02T05:57:03+00:00",
+          "filename": "GT-PlusPlus-1.8.47.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/106262063",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.47/GT-PlusPlus-1.8.47.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.8.48",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.47...1.8.48\n",
+          "prerelease": false,
+          "tagged_at": "2023-05-04T15:50:18+00:00",
+          "filename": "GT-PlusPlus-1.8.48.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/106714166",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.8.48/GT-PlusPlus-1.8.48.jar",
           "extra_assets": []
         },
         {
@@ -26221,7 +26533,6 @@
           "filename": "GT-PlusPlus-1.9.1.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/106156278",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.1/GT-PlusPlus-1.9.1.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.1/GTplusplus-1.9.1.jar",
           "extra_assets": []
         },
         {
@@ -26242,7 +26553,6 @@
           "filename": "GT-PlusPlus-1.9.3.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/106894755",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.3/GT-PlusPlus-1.9.3.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.3/GTplusplus-1.9.3.jar",
           "extra_assets": []
         },
         {
@@ -26283,7 +26593,6 @@
           "filename": "GT-PlusPlus-1.9.7.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/107667183",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.7/GT-PlusPlus-1.9.7.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.7/GTplusplus-1.9.7.jar",
           "extra_assets": []
         },
         {
@@ -26294,7 +26603,6 @@
           "filename": "GT-PlusPlus-1.9.8.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/107754887",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.8/GT-PlusPlus-1.9.8.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.8/GTplusplus-1.9.8.jar",
           "extra_assets": []
         },
         {
@@ -26305,7 +26613,6 @@
           "filename": "GT-PlusPlus-1.9.9.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/108104530",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.9/GT-PlusPlus-1.9.9.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.9/GTplusplus-1.9.9.jar",
           "extra_assets": []
         },
         {
@@ -26346,7 +26653,6 @@
           "filename": "GT-PlusPlus-1.9.13.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/108642089",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.13/GT-PlusPlus-1.9.13.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.13/GTplusplus-1.9.13.jar",
           "extra_assets": []
         },
         {
@@ -26357,7 +26663,6 @@
           "filename": "GT-PlusPlus-1.9.14.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/108872095",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.14/GT-PlusPlus-1.9.14.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.14/GTplusplus-1.9.14.jar",
           "extra_assets": []
         },
         {
@@ -26368,7 +26673,6 @@
           "filename": "GT-PlusPlus-1.9.15.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/109228043",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.15/GT-PlusPlus-1.9.15.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.15/GTplusplus-1.9.15.jar",
           "extra_assets": []
         },
         {
@@ -26379,7 +26683,6 @@
           "filename": "GT-PlusPlus-1.9.16.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/109390446",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.16/GT-PlusPlus-1.9.16.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.16/GTplusplus-1.9.16.jar",
           "extra_assets": []
         },
         {
@@ -26400,7 +26703,6 @@
           "filename": "GT-PlusPlus-1.9.18.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/109887086",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.18/GT-PlusPlus-1.9.18.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.18/GTplusplus-1.9.18.jar",
           "extra_assets": []
         },
         {
@@ -26441,7 +26743,6 @@
           "filename": "GT-PlusPlus-1.9.22-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110159969",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.22-pre/GT-PlusPlus-1.9.22-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.22-pre/GTplusplus-1.9.22-pre.jar",
           "extra_assets": []
         },
         {
@@ -26462,7 +26763,6 @@
           "filename": "GT-PlusPlus-1.9.24.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110204299",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.24/GT-PlusPlus-1.9.24.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.24/GTplusplus-1.9.24.jar",
           "extra_assets": []
         },
         {
@@ -26473,7 +26773,6 @@
           "filename": "GT-PlusPlus-1.9.25.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110468395",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.25/GT-PlusPlus-1.9.25.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.25/GTplusplus-1.9.25.jar",
           "extra_assets": []
         },
         {
@@ -26484,7 +26783,6 @@
           "filename": "GT-PlusPlus-1.9.26.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110478688",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.26/GT-PlusPlus-1.9.26.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.26/GTplusplus-1.9.26.jar",
           "extra_assets": []
         },
         {
@@ -26495,7 +26793,6 @@
           "filename": "GT-PlusPlus-1.9.27.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110570037",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.27/GT-PlusPlus-1.9.27.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.27/GTplusplus-1.9.27.jar",
           "extra_assets": []
         },
         {
@@ -26506,7 +26803,6 @@
           "filename": "GT-PlusPlus-1.9.28.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/110666440",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.28/GT-PlusPlus-1.9.28.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.28/GTplusplus-1.9.28.jar",
           "extra_assets": []
         },
         {
@@ -26520,6 +26816,16 @@
           "extra_assets": []
         },
         {
+          "version_tag": "1.9.30-pre",
+          "changelog": "## What's Changed\n* Add New Recipes for Powergen Plasmas by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/651\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.31...1.9.30-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T05:50:14+00:00",
+          "filename": "GT-PlusPlus-1.9.30-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/111309235",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/untagged-acd2d7d6c3fec5215b74/GT-PlusPlus-1.9.30-pre.jar",
+          "extra_assets": []
+        },
+        {
           "version_tag": "1.9.30",
           "changelog": "## What's Changed\n* Fix void protection for Sparge Tower and Dangote by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/653\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.28...1.9.30\n",
           "prerelease": false,
@@ -26527,13 +26833,34 @@
           "filename": "GT-PlusPlus-1.9.30.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/111226957",
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.30/GT-PlusPlus-1.9.30.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.30/GTplusplus-1.9.30.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.31",
+          "changelog": "## What's Changed\n* fix lag by disabling asm that messed with tinkers fluid lighting by @Denostrov in https://github.com/GTNewHorizons/GTplusplus/pull/654\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.30...1.9.31\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-04T21:10:27+00:00",
+          "filename": "GT-PlusPlus-1.9.31.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/111260626",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.31/GT-PlusPlus-1.9.31.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.32-pre",
+          "changelog": "## What's Changed\n* Add New Recipes for Powergen Plasmas by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/651\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.31...1.9.32-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T05:54:32+00:00",
+          "filename": "GT-PlusPlus-1.9.32-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/111309593",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.32-pre/GT-PlusPlus-1.9.32-pre.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.32-pre/GTplusplus-1.9.32-pre.jar",
           "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
       "repo_url": "https://github.com/GTNewHorizons/GTplusplus",
-      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/"
+      "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/",
+      "side": "BOTH"
     },
     {
       "name": "Guide-API",
@@ -33920,7 +34247,7 @@
     },
     {
       "name": "Natura",
-      "latest_version": "2.5.6",
+      "latest_version": "2.5.7",
       "versions": [
         {
           "version_tag": "2.4.3-dev",
@@ -34051,6 +34378,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Natura/releases/assets/107832852",
           "browser_download_url": "https://github.com/GTNewHorizons/Natura/releases/download/2.5.6/Natura-2.5.6.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Natura/2.5.6/Natura-2.5.6.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.5.7",
+          "changelog": "## What's Changed\n* Fix missing Leaf block names in WAILA by @wlhlm in https://github.com/GTNewHorizons/Natura/pull/17\n\n## New Contributors\n* @wlhlm made their first contribution in https://github.com/GTNewHorizons/Natura/pull/17\n\n**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.5.6...2.5.7\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T05:39:52+00:00",
+          "filename": "Natura-2.5.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Natura/releases/assets/111308510",
+          "browser_download_url": "https://github.com/GTNewHorizons/Natura/releases/download/2.5.7/Natura-2.5.7.jar",
           "extra_assets": []
         }
       ],
@@ -34532,7 +34869,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.44",
+      "latest_version": "2.1.45",
       "private": false,
       "versions": [
         {
@@ -36964,6 +37301,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/111024953",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.44/GTNewHorizonsCoreMod-2.1.44.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.45",
+          "changelog": "## What's Changed\n* Improve EMT charging ring recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/634\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.44...2.1.45\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-04T19:25:02+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.45.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/111252625",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.45/GTNewHorizonsCoreMod-2.1.45.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -38868,7 +39215,7 @@
     },
     {
       "name": "OpenComputers",
-      "latest_version": "1.9.7-GTNH",
+      "latest_version": "1.9.8-GTNH",
       "versions": [
         {
           "version_tag": "1.7.4.1",
@@ -39263,6 +39610,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/111229186",
           "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.9.7-GTNH/OpenComputers-1.9.7-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/OpenComputers/1.9.7-GTNH/OpenComputers-1.9.7-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.8-GTNH",
+          "changelog": "## What's Changed\n* update gradle build files by @aheirman in https://github.com/GTNewHorizons/OpenComputers/pull/101\n\n## New Contributors\n* @aheirman made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/101\n\n**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.7-GTNH...1.9.8-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-05T05:42:44+00:00",
+          "filename": "OpenComputers-1.9.8-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/OpenComputers/releases/assets/111308758",
+          "browser_download_url": "https://github.com/GTNewHorizons/OpenComputers/releases/download/1.9.8-GTNH/OpenComputers-1.9.8-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -42795,7 +43152,7 @@
     },
     {
       "name": "TecTech",
-      "latest_version": "5.2.20",
+      "latest_version": "5.2.21",
       "private": false,
       "versions": [
         {
@@ -44409,6 +44766,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/111014314",
           "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.2.20/TecTech-5.2.20.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/TecTech/5.2.20/TecTech-5.2.20.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.2.21",
+          "changelog": "## What's Changed\n* Fix TPM recipe voltage by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/219\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.20...5.2.21\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-04T16:43:31+00:00",
+          "filename": "TecTech-5.2.21.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/TecTech/releases/assets/111239417",
+          "browser_download_url": "https://github.com/GTNewHorizons/TecTech/releases/download/5.2.21/TecTech-5.2.21.jar",
           "extra_assets": []
         }
       ],

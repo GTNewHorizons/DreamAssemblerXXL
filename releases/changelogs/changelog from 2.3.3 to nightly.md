@@ -1,4 +1,5 @@
 # New Mods:
+> * DuraDisplay
 > * amunra
 # Mods Removed:
 > * ExtraCells2
@@ -306,6 +307,15 @@
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
 >
 
+# New Mod - DuraDisplay (1.0@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/commits/1.0
+>## What's Changed
+> * Refactor #1 by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/1 (1.0)
+>
+>## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/DuraDisplay/pull/1 (1.0)
+>
+
 # Updated Electro-Magic-Tools (1.2.9@Side.BOTH --> 1.3.1@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.2.8.28...1.3.1
 >## What's Changed
@@ -569,10 +579,13 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.30@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.30
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.32-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.32-pre
 >## What's Changed
+> * Add New Recipes for Powergen Plasmas by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/651 (1.9.32-pre)
+> * fix lag by disabling asm that messed with tinkers fluid lighting by @Denostrov in https://github.com/GTNewHorizons/GTplusplus/pull/654 (1.9.31)
 > * Fix void protection for Sparge Tower and Dangote by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/653 (1.9.30)
+> * Add New Recipes for Powergen Plasmas by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/651 (1.9.30-pre)
 > * Spotless apply for branch Power_Plasmas for #651 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/652 (1.9.29-pre)
 > * Nerf low-grade plasmas in the XL Plasma turbine by @S4mpsa in https://github.com/GTNewHorizons/GTplusplus/pull/649 (1.9.28)
 > * Fix item damage for some items by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/646 (1.9.27)
@@ -609,6 +622,7 @@
 > * Allow scanners to display heat of Volcanus. by @MarchingCube in https://github.com/GTNewHorizons/GTplusplus/pull/613 (1.9.1)
 > * Add the Nuclear Salt Processing Plant by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/607 (1.9.1)
 > * Spotless apply for branch ForgeDirection for #608 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/612 (1.9.0-pre)
+> * fix missing industrial hcl by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/610 (1.8.47)
 > * fix missing industrial hcl by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/610 (1.8.45-pre)
 > * fix missing industrial hcl by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/610 (1.8.44)
 > * fix crop harvester energy drain and non-last optimal level crops by @Denostrov in https://github.com/GTNewHorizons/GTplusplus/pull/609 (1.8.42)
