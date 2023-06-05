@@ -14531,6 +14531,7 @@
           "filename": "Galacticraft-3.0.69-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Galacticraft/releases/assets/111406785",
           "browser_download_url": "https://github.com/GTNewHorizons/Galacticraft/releases/download/3.0.69-GTNH/Galacticraft-3.0.69-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Galacticraft/3.0.69-GTNH/Galacticraft-3.0.69-GTNH.jar",
           "extra_assets": []
         }
       ],
