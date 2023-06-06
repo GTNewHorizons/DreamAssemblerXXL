@@ -50,11 +50,21 @@ jobs:
       - name: Install library
         run: poetry install --no-interaction
 
+      - name: Get current date
+        id: date
+        shell: bash
+        run: |
+          echo "today=$(date --iso-8601)+${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+          echo "cachedate=$(date '+%G-w%V')" >> "$GITHUB_OUTPUT"
+
       - name: Load cached mod zips
+        id: load_cache
         uses: actions/cache/restore@v3
         with:
           path: cache
-          key: daxxl-${{ runner.os }}
+          key: daxxl-${{ runner.os }}-${{ steps.date.outputs.cachedate }}
+          restore-keys: |
+            daxxl-${{ runner.os }}-
 
       - name: Build modpack archives
         shell: bash
@@ -69,13 +79,7 @@ jobs:
         if: success() || failure()
         with:
           path: cache
-          key: daxxl-${{ runner.os }}
-
-      - name: Get current date
-        id: date
-        shell: bash
-        run: |
-          echo "today=$(date --iso-8601)" > "$GITHUB_OUTPUT"
+          key: daxxl-${{ runner.os }}-${{ steps.date.outputs.cachedate }}
 
       # Upload modpack
 
@@ -99,35 +103,43 @@ jobs:
           jq -r '.github_mods | keys[] as $k | ["", $k, .[$k].version, .[$k].side, ""] | join(" | ") | ltrimstr(" ")' releases/manifests/nightly.json >> "$GITHUB_STEP_SUMMARY"
           jq -r '.external_mods | keys[] as $k | ["", $k, .[$k].version, .[$k].side, ""] | join(" | ") | ltrimstr(" ")' releases/manifests/nightly.json >> "$GITHUB_STEP_SUMMARY"
 
+      - name: Relocate built zips
+        shell: bash
+        run: |
+          mv releases/zip/GT_New_Horizons_nightly_Server.zip "GTNH-${{ steps.date.outputs.today }}-server.zip"
+          mv releases/zip/GT_New_Horizons_nightly_Server_Java*.zip "GTNH-${{ steps.date.outputs.today }}-server-new-java.zip"
+          mv releases/multi_poly/GT_New_Horizons_nightly_\(MultiMC\).zip "GTNH-${{ steps.date.outputs.today }}-mmcprism-java8.zip"
+          mv releases/multi_poly/GT_New_Horizons_nightly_\(PrismLauncher\)_*.zip "GTNH-${{ steps.date.outputs.today }}-mmcprism-new-java.zip"
+
       - name: Upload server zip
         uses: actions/upload-artifact@v3
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
           name: gtnh-nightly-${{ steps.date.outputs.today }}-server.zip
-          path: releases/zip/GT_New_Horizons_nightly_Server.zip
+          path: GTNH-${{ steps.date.outputs.today }}-server.zip
 
       - name: Upload modern java server zip
         uses: actions/upload-artifact@v3
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: gtnh-nightly-${{ steps.date.outputs.today }}-server_new_java.zip
-          path: releases/zip/GT_New_Horizons_nightly_Server_Java*.zip
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-server-new-java.zip
+          path: GTNH-${{ steps.date.outputs.today }}-server-new-java.zip
 
       - name: Upload MMC zip
         uses: actions/upload-artifact@v3
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: gtnh-nightly-${{ steps.date.outputs.today }}-multimc_old_java.zip
-          path: releases/multi_poly/GT_New_Horizons_nightly_(MultiMC).zip
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-mmcprism-java8.zip
+          path: GTNH-${{ steps.date.outputs.today }}-mmcprism-java8.zip
 
       - name: Upload modern java Prism zip
         uses: actions/upload-artifact@v3
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: gtnh-nightly-${{ steps.date.outputs.today }}-prismlauncher_new_java.zip
-          path: releases/multi_poly/GT_New_Horizons_nightly_(PrismLauncher)_*.zip
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-mmcprism-new-java.zip
+          path: GTNH-${{ steps.date.outputs.today }}-mmcprism-new-java.zip
 
