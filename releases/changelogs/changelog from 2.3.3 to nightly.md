@@ -146,9 +146,10 @@
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/BetterP2P/pull/30 (1.1.14)
 >
 
-# Updated BetterQuesting (3.3.18-GTNH@Side.BOTH --> 3.3.22-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.17-GTNH...3.3.22-GTNH-pre
+# Updated BetterQuesting (3.3.18-GTNH@Side.BOTH --> 3.3.23-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.17-GTNH...3.3.23-GTNH
 >## What's Changed
+> * Reload quest db on world load automatically by @eigenraven in https://github.com/GTNewHorizons/BetterQuesting/pull/110 (3.3.23-GTNH)
 > * Remember last search term and clear search field on right click by @wlhlm in https://github.com/GTNewHorizons/BetterQuesting/pull/109 (3.3.21-GTNH)
 > * Update build dependencies by @rekongstor in https://github.com/GTNewHorizons/BetterQuesting/pull/108 (3.3.19-GTNH)
 > * stronger oss set check by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/106 (3.3.18-GTNH)
@@ -383,9 +384,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.74@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.74
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.77-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.77-pre
 >## What's Changed
+> * Fix fluid lock issues by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2062 (5.09.43.76)
 > * final qft item retexture by @EmeraldsEmerald in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2061 (5.09.43.74)
 > * Replace outdated botdustries fluids and fix hydrazine name by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2059 (5.09.43.73)
 > * New Bee, Nerfed Nee by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2058 (5.09.43.72)
@@ -609,9 +611,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.33@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.33
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.34-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.34-pre
 >## What's Changed
+> * Spotless apply for branch NewPlasmas_NewValues for #656 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/657 (1.9.34-pre)
 > * Add New Recipes for Powergen Plasmas by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/651 (1.9.33)
 > * Fix steam hatch not working for some people by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/655 (1.9.33)
 > * Add New Recipes for Powergen Plasmas by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/651 (1.9.32-pre)
@@ -754,9 +757,10 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/10 (1.0.9-pre)
 >
 
-# Updated Hodgepodge (2.2.8@Side.BOTH --> 2.2.16-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.7...2.2.16-pre
+# Updated Hodgepodge (2.2.8@Side.BOTH --> 2.2.17@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.7...2.2.17
 >## What's Changed
+> * Fix fluid container registry key not being reloaded after world load by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/218 (2.2.17)
 > * Fix crashes when opening forestry/adventure backpacks and quickly switching selected item by @Denostrov in https://github.com/GTNewHorizons/Hodgepodge/pull/217 (2.2.15)
 > * Fix LLibrary incompatibility by @andreblanke in https://github.com/GTNewHorizons/Hodgepodge/pull/215 (2.2.14)
 > * fix golem marker loading failure by @albus12138 in https://github.com/GTNewHorizons/Hodgepodge/pull/211 (2.2.13)
@@ -929,8 +933,8 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/59 (2.0.0)
 >
 
-# Updated ModularUI (1.1.2@Side.BOTH --> 1.1.8@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.8
+# Updated ModularUI (1.1.2@Side.BOTH --> 1.1.9@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.9
 >## What's Changed
 > * fix hotbar key related vanilla functions by @Glease in https://github.com/GTNewHorizons/ModularUI/pull/45 (1.1.2)
 >

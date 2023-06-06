@@ -7168,7 +7168,7 @@
     },
     {
       "name": "BetterQuesting",
-      "latest_version": "3.3.22-GTNH-pre",
+      "latest_version": "3.3.23-GTNH",
       "versions": [
         {
           "version_tag": "3.0.351-GTNH",
@@ -7683,6 +7683,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/111113660",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.22-GTNH-pre/BetterQuesting-3.3.22-GTNH-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.3.22-GTNH-pre/BetterQuesting-3.3.22-GTNH-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.3.23-GTNH",
+          "changelog": "## What's Changed\n* Reload quest db on world load automatically by @eigenraven in https://github.com/GTNewHorizons/BetterQuesting/pull/110\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.21-GTNH...3.3.23-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-06T06:23:32+00:00",
+          "filename": "BetterQuesting-3.3.23-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/111470141",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.23-GTNH/BetterQuesting-3.3.23-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -16840,7 +16850,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.74",
+      "latest_version": "5.09.43.77-pre",
       "private": false,
       "versions": [
         {
@@ -22699,6 +22709,36 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.74/gregtech-5.09.43.74.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.74/GT5-Unofficial-5.09.43.74.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.75-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.74...5.09.43.75-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-06T03:32:54+00:00",
+          "filename": "gregtech-5.09.43.75-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111452882",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.75-pre/gregtech-5.09.43.75-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.76",
+          "changelog": "## What's Changed\n* Fix fluid lock issues by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2062\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.74...5.09.43.76\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-06T06:01:45+00:00",
+          "filename": "gregtech-5.09.43.76.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111467578",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.76/gregtech-5.09.43.76.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.77-pre",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.76...5.09.43.77-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-06T06:17:55+00:00",
+          "filename": "gregtech-5.09.43.77-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111469557",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.77-pre/gregtech-5.09.43.77-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU Lesser General Public License v3.0",
@@ -24111,7 +24151,7 @@
     },
     {
       "name": "GTplusplus",
-      "latest_version": "1.9.33",
+      "latest_version": "1.9.34-pre",
       "private": false,
       "versions": [
         {
@@ -26975,6 +27015,16 @@
           "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.33/GT-PlusPlus-1.9.33.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GTplusplus/1.9.33/GTplusplus-1.9.33.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "1.9.34-pre",
+          "changelog": "## What's Changed\n* Spotless apply for branch NewPlasmas_NewValues for #656 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/657\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.33...1.9.34-pre\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-06T06:12:26+00:00",
+          "filename": "GT-PlusPlus-1.9.34-pre.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GTplusplus/releases/assets/111468554",
+          "browser_download_url": "https://github.com/GTNewHorizons/GTplusplus/releases/download/1.9.34-pre/GT-PlusPlus-1.9.34-pre.jar",
+          "extra_assets": []
         }
       ],
       "license": "GNU General Public License v3.0",
@@ -27294,7 +27344,7 @@
     },
     {
       "name": "Hodgepodge",
-      "latest_version": "2.2.16-pre",
+      "latest_version": "2.2.17",
       "versions": [
         {
           "version_tag": "v1.2.0",
@@ -28329,6 +28379,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/111398546",
           "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.2.16-pre/hodgepodge-2.2.16-pre.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Hodgepodge/2.2.16-pre/Hodgepodge-2.2.16-pre.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.2.17",
+          "changelog": "## What's Changed\n* Fix fluid container registry key not being reloaded after world load by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/218\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.15...2.2.17\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-06T05:45:11+00:00",
+          "filename": "hodgepodge-2.2.17.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Hodgepodge/releases/assets/111466415",
+          "browser_download_url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.2.17/hodgepodge-2.2.17.jar",
           "extra_assets": []
         }
       ],
@@ -33118,7 +33178,7 @@
     },
     {
       "name": "ModularUI",
-      "latest_version": "1.1.8",
+      "latest_version": "1.1.9",
       "private": false,
       "versions": [
         {
@@ -34083,6 +34143,16 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/111197956",
           "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.1.8/modularui-1.1.8.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/ModularUI/1.1.8/ModularUI-1.1.8.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.1.9",
+          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.8...1.1.9\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-06T03:31:29+00:00",
+          "filename": "modularui-1.1.9.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/ModularUI/releases/assets/111452719",
+          "browser_download_url": "https://github.com/GTNewHorizons/ModularUI/releases/download/1.1.9/modularui-1.1.9.jar",
           "extra_assets": []
         }
       ],
