@@ -1,4 +1,5 @@
 # New Mods:
+> * Advanced-Botany
 > * DuraDisplay
 > * amunra
 # Mods Removed:
@@ -27,6 +28,18 @@
 >## New Contributors
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/126 (1.1.18-gtnh)
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/114 (1.1.7-gtnh)
+>
+
+# New Mod - Advanced-Botany (1.4.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Advanced-Botany/commits/1.4.3
+>## What's Changed
+> * Feature/advanced botany infu by @EnderProyects in https://github.com/GTNewHorizons/Advanced-Botany/pull/7 (1.4.3)
+> * Feature/advanced botany by @EnderProyects in https://github.com/GTNewHorizons/Advanced-Botany/pull/5 (1.4.1)
+> * Integration by @EnderProyects in https://github.com/GTNewHorizons/Advanced-Botany/pull/4 (1.4.1)
+> * Updated buildscript by @EnderProyects in https://github.com/GTNewHorizons/Advanced-Botany/pull/2 (1.4.0)
+>
+>## New Contributors
+> * @EnderProyects made their first contribution in https://github.com/GTNewHorizons/Advanced-Botany/pull/2 (1.4.0)
 >
 
 # Updated AdventureBackpack2 (1.0.12-GTNH@Side.BOTH --> 1.0.14-GTNH@Side.BOTH)
@@ -384,8 +397,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.77-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.77-pre
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.78-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.78-pre
 >## What's Changed
 > * Fix fluid lock issues by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2062 (5.09.43.76)
 > * final qft item retexture by @EmeraldsEmerald in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2061 (5.09.43.74)
@@ -611,9 +624,12 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.34-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.34-pre
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.35-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.35-pre
 >## What's Changed
+> * Spotless apply for branch NewPlasmas_NewValues for #656 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/657 (1.9.35-pre)
+> * Remove outdated botdustries compat recipes by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/658 (1.9.35-pre)
+> * Fix Green Metal Catalyst Recipe by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/660 (1.9.35-pre)
 > * Spotless apply for branch NewPlasmas_NewValues for #656 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/657 (1.9.34-pre)
 > * Add New Recipes for Powergen Plasmas by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/651 (1.9.33)
 > * Fix steam hatch not working for some people by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/655 (1.9.33)
@@ -933,8 +949,8 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/59 (2.0.0)
 >
 
-# Updated ModularUI (1.1.2@Side.BOTH --> 1.1.9@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.9
+# Updated ModularUI (1.1.2@Side.BOTH --> 1.1.10@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.10
 >## What's Changed
 > * fix hotbar key related vanilla functions by @Glease in https://github.com/GTNewHorizons/ModularUI/pull/45 (1.1.2)
 >
