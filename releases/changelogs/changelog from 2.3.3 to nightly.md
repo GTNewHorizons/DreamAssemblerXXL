@@ -79,8 +79,8 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-219-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-219-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-220-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-220-GTNH-pre
 >## What's Changed
 > * Spotless apply for branch feature/networkRebooting for #329 by @github-actions in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/331 (rv3-beta-219-GTNH-pre)
 > * Add enough API to make NEE no longer require asming into ae2 by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/326 (rv3-beta-217-GTNH)
@@ -322,9 +322,10 @@
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
 >
 
-# New Mod - DuraDisplay (1.0.3@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/commits/1.0.3
+# New Mod - DuraDisplay (1.0.4@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/commits/1.0.4
 >## What's Changed
+> * Handle more items by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/3 (1.0.4)
 > * Fix error when ran on server by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/2 (1.0.3)
 > * Refactor #1 by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/1 (1.0)
 >
@@ -397,9 +398,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.78-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.78-pre
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.79-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.79-pre
 >## What's Changed
+> * Add a toggle to queen insertion in the industrial apiary by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2064 (5.09.43.79-pre)
 > * Fix fluid lock issues by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2062 (5.09.43.76)
 > * final qft item retexture by @EmeraldsEmerald in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2061 (5.09.43.74)
 > * Replace outdated botdustries fluids and fix hydrazine name by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2059 (5.09.43.73)
@@ -1182,9 +1184,10 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/TCNEIAdditions/pull/21 (1.2.2)
 >
 
-# Updated TecTech (5.1.16@Side.BOTH --> 5.2.21@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.2.21
+# Updated TecTech (5.1.16@Side.BOTH --> 5.2.22@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.2.22
 >## What's Changed
+> * EOH tooltip touch-up by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/220 (5.2.22)
 > * Fix TPM recipe voltage by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/219 (5.2.21)
 > * Pico & Quantum circuit adjustments by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/218 (5.2.20)
 > * Added higher explosion resistance to pipe casings by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/216 (5.2.19)
