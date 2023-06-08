@@ -79,9 +79,10 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-220-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-220-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-222-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-222-GTNH
 >## What's Changed
+> * Crafting tree zoom and screenshot by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/332 (rv3-beta-222-GTNH)
 > * Spotless apply for branch feature/networkRebooting for #329 by @github-actions in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/331 (rv3-beta-219-GTNH-pre)
 > * Add enough API to make NEE no longer require asming into ae2 by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/326 (rv3-beta-217-GTNH)
 > * Feature Configs by @DrParadox7 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/325 (rv3-beta-216-GTNH)
@@ -172,8 +173,8 @@
 > * @rekongstor made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/108 (3.3.19-GTNH)
 >
 
-# Updated Binnie (2.0.48@Side.BOTH --> 2.1.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.0.46...2.1.2
+# Updated Binnie (2.0.48@Side.BOTH --> 2.1.3-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.0.46...2.1.3-pre
 >## What's Changed
 > * Fix Swamp Gum Tree by @DrParadox7 in https://github.com/GTNewHorizons/Binnie/pull/29 (2.1.2)
 > * Add OrderedSky to Chadbee whitelist by @Runakai1 in https://github.com/GTNewHorizons/Binnie/pull/28 (2.1.1)
@@ -322,9 +323,10 @@
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
 >
 
-# New Mod - DuraDisplay (1.0.4@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/commits/1.0.4
+# New Mod - DuraDisplay (1.0.6@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/commits/1.0.6
 >## What's Changed
+> * Fix more types of items by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/4 (1.0.6)
 > * Handle more items by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/3 (1.0.4)
 > * Fix error when ran on server by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/2 (1.0.3)
 > * Refactor #1 by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/1 (1.0)
@@ -344,8 +346,8 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/60 (1.3.1)
 >
 
-# Updated EnderCore (0.2.13@Side.BOTH --> 0.2.14@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.12...0.2.14
+# Updated EnderCore (0.2.13@Side.BOTH --> 0.2.15-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.12...0.2.15-pre
 >## What's Changed
 > * updateBuildScript & spotlessApply by @miozune in https://github.com/GTNewHorizons/EnderCore/pull/13 (0.2.14)
 > * Fix TextureErrorRemover crash with Java 12+ env by @miozune in https://github.com/GTNewHorizons/EnderCore/pull/12 (0.2.13)
@@ -398,9 +400,15 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.79-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.79-pre
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.81@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.81
 >## What's Changed
+> * Fix fermented biomass recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2068 (5.09.43.81)
+> * Add a toggle to queen insertion in the industrial apiary by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2064 (5.09.43.80)
+> * Remove GT_FluidStack by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2063 (5.09.43.80)
+> * Enable fire resistance checks for heat and hot item damage by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2065 (5.09.43.80)
+> * Halve Tin Plasma Fuel Value and Double Fusion Output by @Steelux8 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2060 (5.09.43.80)
+> * Change Kevlar Parents by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2066 (5.09.43.80)
 > * Add a toggle to queen insertion in the industrial apiary by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2064 (5.09.43.79-pre)
 > * Fix fluid lock issues by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2062 (5.09.43.76)
 > * final qft item retexture by @EmeraldsEmerald in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2061 (5.09.43.74)
@@ -626,9 +634,15 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.35-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.35-pre
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.38@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.38
 >## What's Changed
+> * Fix gt++ pollution tooltips by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/662 (1.9.38)
+> * Adds a platline comb recipe to QFT by @Runakai1 in https://github.com/GTNewHorizons/GTplusplus/pull/661 (1.9.37)
+> * Remove outdated botdustries compat recipes by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/658 (1.9.36)
+> * Fix Green Metal Catalyst Recipe by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/660 (1.9.36)
+> * Remove reference to GT_FluidStack by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/659 (1.9.36)
+> * Change XL Plasma Penalty Formula and Fuel Values for New Plasmas by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/656 (1.9.36)
 > * Spotless apply for branch NewPlasmas_NewValues for #656 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/657 (1.9.35-pre)
 > * Remove outdated botdustries compat recipes by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/658 (1.9.35-pre)
 > * Fix Green Metal Catalyst Recipe by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/660 (1.9.35-pre)
@@ -984,8 +998,8 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.45@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.45
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.46-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.46-pre
 >## What's Changed
 > * Improve EMT charging ring recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/634 (2.1.45)
 > * Two recipe improvements by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/633 (2.1.44)
@@ -1334,9 +1348,10 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/amunra/pull/5 (0.4.11)
 >
 
-# Updated bartworks (0.6.14@Side.BOTH --> 0.7.16@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.13...0.7.16
+# Updated bartworks (0.6.14@Side.BOTH --> 0.7.17@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.13...0.7.17
 >## What's Changed
+> * Update PlatinumSludgeOverHaul.java by @Runakai1 in https://github.com/GTNewHorizons/bartworks/pull/334 (0.7.17)
 > * Fix controller voltages by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/332 (0.7.16)
 > * butcher eic recipe time by @POPlol333 in https://github.com/GTNewHorizons/bartworks/pull/331 (0.7.15)
 > * Fix version replacement by @miozune in https://github.com/GTNewHorizons/bartworks/pull/330 (0.7.14)
@@ -1357,6 +1372,7 @@
 > * Add oredicts for diode and inductor for 2A-16A diode by @chochem in https://github.com/GTNewHorizons/bartworks/pull/314 (0.6.15)
 >
 >## New Contributors
+> * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/334 (0.7.17)
 > * @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/326 (0.7.10)
 > * @Fiyorin made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/325 (0.7.9)
 > * @kstvr32 made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/319 (0.7.2)
