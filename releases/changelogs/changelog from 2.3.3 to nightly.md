@@ -173,15 +173,17 @@
 > * @rekongstor made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/108 (3.3.19-GTNH)
 >
 
-# Updated Binnie (2.0.48@Side.BOTH --> 2.1.3-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.0.46...2.1.3-pre
+# Updated Binnie (2.0.48@Side.BOTH --> 2.1.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.0.46...2.1.4
 >## What's Changed
+> * Added alveary unlighting by @minecraft7771 in https://github.com/GTNewHorizons/Binnie/pull/30 (2.1.4)
 > * Fix Swamp Gum Tree by @DrParadox7 in https://github.com/GTNewHorizons/Binnie/pull/29 (2.1.2)
 > * Add OrderedSky to Chadbee whitelist by @Runakai1 in https://github.com/GTNewHorizons/Binnie/pull/28 (2.1.1)
 > * Fix frame overrides not respecting `maxDamage` field by @DStrand1 in https://github.com/GTNewHorizons/Binnie/pull/27 (2.1.0)
 > * Make reflection Java 12+ compatible, mark mods as children of the main mod by @eigenraven in https://github.com/GTNewHorizons/Binnie/pull/26 (2.0.48)
 >
 >## New Contributors
+> * @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/30 (2.1.4)
 > * @DStrand1 made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/27 (2.1.0)
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/26 (2.0.48)
 >
@@ -346,11 +348,15 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/60 (1.3.1)
 >
 
-# Updated EnderCore (0.2.13@Side.BOTH --> 0.2.15-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.12...0.2.15-pre
+# Updated EnderCore (0.2.13@Side.BOTH --> 0.2.16@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.12...0.2.16
 >## What's Changed
+> * Enable scrolling over Color and Cycle buttons by @wlhlm in https://github.com/GTNewHorizons/EnderCore/pull/15 (0.2.16)
 > * updateBuildScript & spotlessApply by @miozune in https://github.com/GTNewHorizons/EnderCore/pull/13 (0.2.14)
 > * Fix TextureErrorRemover crash with Java 12+ env by @miozune in https://github.com/GTNewHorizons/EnderCore/pull/12 (0.2.13)
+>
+>## New Contributors
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/15 (0.2.16)
 >
 
 # Updated EnderIO (2.4.11@Side.BOTH --> 2.4.18@Side.BOTH)
@@ -400,9 +406,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.81@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.81
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.82@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.82
 >## What's Changed
+> * Fix mutation requirements in NEI by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2069 (5.09.43.82)
 > * Fix fermented biomass recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2068 (5.09.43.81)
 > * Add a toggle to queen insertion in the industrial apiary by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2064 (5.09.43.80)
 > * Remove GT_FluidStack by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2063 (5.09.43.80)
@@ -634,9 +641,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.38@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.38
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.39@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.39
 >## What's Changed
+> * Update dep + change comb recipe by @Runakai1 in https://github.com/GTNewHorizons/GTplusplus/pull/664 (1.9.39)
 > * Fix gt++ pollution tooltips by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/662 (1.9.38)
 > * Adds a platline comb recipe to QFT by @Runakai1 in https://github.com/GTNewHorizons/GTplusplus/pull/661 (1.9.37)
 > * Remove outdated botdustries compat recipes by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/658 (1.9.36)
@@ -789,9 +797,11 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/10 (1.0.9-pre)
 >
 
-# Updated Hodgepodge (2.2.8@Side.BOTH --> 2.2.17@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.7...2.2.17
+# Updated Hodgepodge (2.2.8@Side.BOTH --> 2.2.18@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.7...2.2.18
 >## What's Changed
+> * Add pollution tooltips by @tytan652 in https://github.com/GTNewHorizons/Hodgepodge/pull/220 (2.2.18)
+> * Fix crashing due to server/client container size mismatch by @Denostrov in https://github.com/GTNewHorizons/Hodgepodge/pull/219 (2.2.18)
 > * Fix fluid container registry key not being reloaded after world load by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/218 (2.2.17)
 > * Fix crashes when opening forestry/adventure backpacks and quickly switching selected item by @Denostrov in https://github.com/GTNewHorizons/Hodgepodge/pull/217 (2.2.15)
 > * Fix LLibrary incompatibility by @andreblanke in https://github.com/GTNewHorizons/Hodgepodge/pull/215 (2.2.14)
@@ -803,6 +813,7 @@
 > * add logging to ztones patch  by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/208 (2.2.8)
 >
 >## New Contributors
+> * @tytan652 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/220 (2.2.18)
 > * @Denostrov made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/217 (2.2.15)
 > * @andreblanke made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/215 (2.2.14)
 > * @albus12138 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/211 (2.2.13)
@@ -998,9 +1009,11 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.46-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.46-pre
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.48@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.48
 >## What's Changed
+> * Unlighten recipe by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/636 (2.1.48)
+> * Fix Silent Dreamwood Rod recipe by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/635 (2.1.48)
 > * Improve EMT charging ring recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/634 (2.1.45)
 > * Two recipe improvements by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/633 (2.1.44)
 > * Fix UIV extruder recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/632 (2.1.43)
