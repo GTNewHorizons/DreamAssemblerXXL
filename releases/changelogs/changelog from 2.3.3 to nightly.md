@@ -1009,9 +1009,10 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.48@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.48
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.49@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.49
 >## What's Changed
+> * migrating Assembling Line recipes to RA2 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/637 (2.1.49)
 > * Unlighten recipe by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/636 (2.1.48)
 > * Fix Silent Dreamwood Rod recipe by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/635 (2.1.48)
 > * Improve EMT charging ring recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/634 (2.1.45)

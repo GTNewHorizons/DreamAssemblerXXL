@@ -10216,7 +10216,7 @@
     },
     {
       "name": "Craft-Presence",
-      "latest_version": "2.0.5",
+      "latest_version": "2.0.7",
       "needs_attention": false,
       "versions": [
         {
@@ -10321,6 +10321,19 @@
           "curse_file": {
             "project_no": "",
             "file_no": "4564891"
+          }
+        },
+        {
+          "version_tag": "2.0.7",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2023-06-09T16:42:32.729564",
+          "filename": "CraftPresence-2.0.7%2B1.7.10.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/4574/294/CraftPresence-2.0.7%2B1.7.10.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/craftpresence/files/4574294",
+          "curse_file": {
+            "project_no": "",
+            "file_no": "4574294"
           }
         }
       ],
@@ -35390,7 +35403,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.48",
+      "latest_version": "2.1.49",
       "private": false,
       "versions": [
         {
@@ -37861,6 +37874,16 @@
           "filename": "GTNewHorizonsCoreMod-2.1.48.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/111899156",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.48/GTNewHorizonsCoreMod-2.1.48.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.49",
+          "changelog": "## What's Changed\n* migrating Assembling Line recipes to RA2 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/637\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.48...2.1.49\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-08T20:42:35+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.49.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/111911680",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.49/GTNewHorizonsCoreMod-2.1.49.jar",
           "extra_assets": []
         }
       ],
