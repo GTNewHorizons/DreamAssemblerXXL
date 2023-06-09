@@ -571,7 +571,8 @@
   "mods": [
     {
       "name": "UniMixins",
-      "latest_version": "0.1.7.1",
+      "latest_version": "0.1.9",
+      "needs_attention": false,
       "versions": [
         {
           "version_tag": "0.1.5",
@@ -590,6 +591,19 @@
           "filename": "unimixins-all-1.7.10-0.1.7.1.jar",
           "download_url": "https://github.com/LegacyModdingMC/UniMixins/releases/download/0.1.7.1/-unimixins-all-1.7.10-0.1.7.1.jar",
           "browser_download_url": "https://github.com/LegacyModdingMC/UniMixins/releases/tag/0.1.7.1"
+        },
+        {
+          "version_tag": "0.1.9",
+          "changelog": "",
+          "prerelease": false,
+          "tagged_at": "2023-06-09T16:54:02.168893",
+          "filename": "-unimixins-all-1.7.10-0.1.9.jar",
+          "download_url": "https://mediafilez.forgecdn.net/files/4562/800/-unimixins-all-1.7.10-0.1.9.jar",
+          "browser_download_url": "https://www.curseforge.com/minecraft/mc-mods/unimixins/files/4562801",
+          "curse_file": {
+            "project_no": "",
+            "file_no": "4562801"
+          }
         }
       ],
       "license": "MIT/LGPL",
