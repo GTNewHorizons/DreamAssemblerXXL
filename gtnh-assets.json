@@ -535,6 +535,16 @@
         "extra_assets": []
       },
       {
+        "version_tag": "2.3.4",
+        "changelog": "",
+        "prerelease": false,
+        "tagged_at": "2023-06-11T12:35:23+00:00",
+        "filename": "2.3.4.zip",
+        "download_url": "https://api.github.com/repos/GTNewHorizons/GT-New-Horizons-Modpack/releases/assets/112259041",
+        "browser_download_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/releases/download/2.3.4/2.3.4.zip",
+        "extra_assets": []
+      },
+      {
         "version_tag": "2.3.4-nightly-2023-05-29",
         "changelog": "",
         "prerelease": false,
