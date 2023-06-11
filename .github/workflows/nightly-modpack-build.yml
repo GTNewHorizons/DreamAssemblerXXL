@@ -116,7 +116,7 @@ jobs:
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: gtnh-nightly-${{ steps.date.outputs.today }}-server.zip
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-server
           path: GTNH-${{ steps.date.outputs.today }}-server.zip
 
       - name: Upload modern java server zip
@@ -124,7 +124,7 @@ jobs:
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: gtnh-nightly-${{ steps.date.outputs.today }}-server-new-java.zip
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-server-new-java
           path: GTNH-${{ steps.date.outputs.today }}-server-new-java.zip
 
       - name: Upload MMC zip
@@ -132,7 +132,7 @@ jobs:
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: gtnh-nightly-${{ steps.date.outputs.today }}-mmcprism-java8.zip
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-mmcprism-java8
           path: GTNH-${{ steps.date.outputs.today }}-mmcprism-java8.zip
 
       - name: Upload modern java Prism zip
@@ -140,6 +140,6 @@ jobs:
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
-          name: gtnh-nightly-${{ steps.date.outputs.today }}-mmcprism-new-java.zip
+          name: gtnh-nightly-${{ steps.date.outputs.today }}-mmcprism-new-java
           path: GTNH-${{ steps.date.outputs.today }}-mmcprism-new-java.zip
 
