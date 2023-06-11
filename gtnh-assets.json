@@ -700,7 +700,7 @@
       "license": "All Rights Reserved (fallback)",
       "repo_url": "https://github.com/GTNewHorizons/Advanced-Botany",
       "maven": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Advanced-Botany/",
-      "side": "BOTH"
+      "side": "NONE"
     },
     {
       "name": "AdventureBackpack2",

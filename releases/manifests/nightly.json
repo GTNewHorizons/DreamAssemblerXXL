@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-06-11T11:54:57.559097",
+  "last_updated": "2023-06-11T12:10:51.860184",
   "config": "2.3.4-nihghtly-2023-06-05",
   "github_mods": {
     "AdventureBackpack2": {
@@ -819,10 +819,6 @@
     "DuraDisplay": {
       "version": "1.0.8",
       "side": "CLIENT"
-    },
-    "Advanced-Botany": {
-      "version": "1.4.3",
-      "side": "BOTH"
     }
   },
   "external_mods": {
