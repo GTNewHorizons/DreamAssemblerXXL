@@ -401,9 +401,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.83@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.83
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.84@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.84
 >## What's Changed
+> * fix typo in asset names by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2077 (5.09.43.84)
 > * Fix carbon monoxide electrolysis by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2071 (5.09.43.83)
 > * Fix spelling mistake for kevlar bee by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2073 (5.09.43.83)
 > * Enable input separation by default if it's supported by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2072 (5.09.43.83)

@@ -17144,7 +17144,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.83",
+      "latest_version": "5.09.43.84",
       "private": false,
       "versions": [
         {
@@ -22875,7 +22875,6 @@
           "filename": "gregtech-5.09.43.62.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/110434331",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.62/gregtech-5.09.43.62.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.62/GT5-Unofficial-5.09.43.62.jar",
           "extra_assets": []
         },
         {
@@ -22896,7 +22895,6 @@
           "filename": "gregtech-5.09.43.64.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111014273",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.64/gregtech-5.09.43.64.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.64/GT5-Unofficial-5.09.43.64.jar",
           "extra_assets": []
         },
         {
@@ -22907,7 +22905,6 @@
           "filename": "gregtech-5.09.43.65.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111113778",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.65/gregtech-5.09.43.65.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.65/GT5-Unofficial-5.09.43.65.jar",
           "extra_assets": []
         },
         {
@@ -22948,7 +22945,6 @@
           "filename": "gregtech-5.09.43.69-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111227193",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.69-pre/gregtech-5.09.43.69-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.69-pre/GT5-Unofficial-5.09.43.69-pre.jar",
           "extra_assets": []
         },
         {
@@ -22959,7 +22955,6 @@
           "filename": "gregtech-5.09.43.70-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111304606",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.70-pre/gregtech-5.09.43.70-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.70-pre/GT5-Unofficial-5.09.43.70-pre.jar",
           "extra_assets": []
         },
         {
@@ -22990,7 +22985,6 @@
           "filename": "gregtech-5.09.43.73.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111384874",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.73/gregtech-5.09.43.73.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.73/GT5-Unofficial-5.09.43.73.jar",
           "extra_assets": []
         },
         {
@@ -23001,7 +22995,6 @@
           "filename": "gregtech-5.09.43.74.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111408630",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.74/gregtech-5.09.43.74.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.74/GT5-Unofficial-5.09.43.74.jar",
           "extra_assets": []
         },
         {
@@ -23032,7 +23025,6 @@
           "filename": "gregtech-5.09.43.77-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111469557",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.77-pre/gregtech-5.09.43.77-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.77-pre/GT5-Unofficial-5.09.43.77-pre.jar",
           "extra_assets": []
         },
         {
@@ -23043,7 +23035,6 @@
           "filename": "gregtech-5.09.43.78-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111536689",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.78-pre/gregtech-5.09.43.78-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.78-pre/GT5-Unofficial-5.09.43.78-pre.jar",
           "extra_assets": []
         },
         {
@@ -23054,7 +23045,6 @@
           "filename": "gregtech-5.09.43.79-pre.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111647417",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.79-pre/gregtech-5.09.43.79-pre.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.79-pre/GT5-Unofficial-5.09.43.79-pre.jar",
           "extra_assets": []
         },
         {
@@ -23075,7 +23065,6 @@
           "filename": "gregtech-5.09.43.81.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111827796",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.81/gregtech-5.09.43.81.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.81/GT5-Unofficial-5.09.43.81.jar",
           "extra_assets": []
         },
         {
@@ -23086,7 +23075,6 @@
           "filename": "gregtech-5.09.43.82.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111899244",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.82/gregtech-5.09.43.82.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.82/GT5-Unofficial-5.09.43.82.jar",
           "extra_assets": []
         },
         {
@@ -23097,7 +23085,17 @@
           "filename": "gregtech-5.09.43.83.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/112251516",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.83/gregtech-5.09.43.83.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.83/GT5-Unofficial-5.09.43.83.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.84",
+          "changelog": "## What's Changed\n* fix typo in asset names by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2077\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.84\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-11T14:55:59+00:00",
+          "filename": "gregtech-5.09.43.84.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/112271448",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.84/gregtech-5.09.43.84.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.84/GT5-Unofficial-5.09.43.84.jar",
           "extra_assets": []
         }
       ],
