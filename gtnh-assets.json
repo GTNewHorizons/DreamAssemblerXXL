@@ -2171,7 +2171,7 @@
     },
     {
       "name": "amunra",
-      "latest_version": "0.4.29",
+      "latest_version": "0.4.30",
       "private": false,
       "versions": [
         {
@@ -2386,6 +2386,17 @@
           "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.29/AmunRa-GC-0.4.29.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/0.4.29/amunra-0.4.29.jar",
           "extra_assets": []
+        },
+        {
+          "version_tag": "0.4.30",
+          "changelog": "## What's Changed\n* Fix oredict for spodumene ore by @chochem in https://github.com/GTNewHorizons/amunra/pull/19\n\n## New Contributors\n* @chochem made their first contribution in https://github.com/GTNewHorizons/amunra/pull/19\n\n**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.29...0.4.30\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-11T11:15:31+00:00",
+          "filename": "AmunRa-GC-0.4.30.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/amunra/releases/assets/112251640",
+          "browser_download_url": "https://github.com/GTNewHorizons/amunra/releases/download/0.4.30/AmunRa-GC-0.4.30.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/amunra/0.4.30/amunra-0.4.30.jar",
+          "extra_assets": []
         }
       ],
       "license": "MIT License",
@@ -2598,7 +2609,7 @@
     },
     {
       "name": "Applied-Energistics-2-Unofficial",
-      "latest_version": "rv3-beta-222-GTNH",
+      "latest_version": "rv3-beta-225-GTNH",
       "versions": [
         {
           "version_tag": "rv3-beta-59-GTNH",
@@ -4110,6 +4121,37 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/111827696",
           "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-222-GTNH/appliedenergistics2-rv3-beta-222-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-222-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-222-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-223-GTNH",
+          "changelog": "## What's Changed\n* Optimize craft execution with many co-processors by @greesyB in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/334\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-222-GTNH...rv3-beta-223-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-09T15:10:50+00:00",
+          "filename": "appliedenergistics2-rv3-beta-223-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/112035193",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-223-GTNH/appliedenergistics2-rv3-beta-223-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-224-GTNH",
+          "changelog": "## What's Changed\n* GuiCraftConfirm Tall Mode now depends on tall terminal config by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/335\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-223-GTNH...rv3-beta-224-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-11T11:15:19+00:00",
+          "filename": "appliedenergistics2-rv3-beta-224-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/112251616",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-224-GTNH/appliedenergistics2-rv3-beta-224-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "rv3-beta-225-GTNH",
+          "changelog": "## What's Changed\n* Add lighting to the attrib matrix to fix lighting disabled bug by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/337\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-224-GTNH...rv3-beta-225-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-11T11:49:43+00:00",
+          "filename": "appliedenergistics2-rv3-beta-225-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/assets/112254801",
+          "browser_download_url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-225-GTNH/appliedenergistics2-rv3-beta-225-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Applied-Energistics-2-Unofficial/rv3-beta-225-GTNH/Applied-Energistics-2-Unofficial-rv3-beta-225-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -7277,7 +7319,7 @@
     },
     {
       "name": "BetterQuesting",
-      "latest_version": "3.3.23-GTNH",
+      "latest_version": "3.3.24-GTNH",
       "versions": [
         {
           "version_tag": "3.0.351-GTNH",
@@ -7803,6 +7845,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/111470141",
           "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.23-GTNH/BetterQuesting-3.3.23-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.3.23-GTNH/BetterQuesting-3.3.23-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "3.3.24-GTNH",
+          "changelog": "## What's Changed\n* fix url hotzone misalignment when format specifier are used by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/111\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.23-GTNH...3.3.24-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-09T17:20:06+00:00",
+          "filename": "BetterQuesting-3.3.24-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/BetterQuesting/releases/assets/112051376",
+          "browser_download_url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.3.24-GTNH/BetterQuesting-3.3.24-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/BetterQuesting/3.3.24-GTNH/BetterQuesting-3.3.24-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -9475,7 +9528,7 @@
     },
     {
       "name": "Chisel",
-      "latest_version": "2.11.0-GTNH",
+      "latest_version": "2.11.1-GTNH",
       "versions": [
         {
           "version_tag": "2.9.7",
@@ -9657,6 +9710,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/105835176",
           "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.11.0-GTNH/chisel-2.11.0-GTNH.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Chisel/2.11.0-GTNH/Chisel-2.11.0-GTNH.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.11.1-GTNH",
+          "changelog": "## What's Changed\n* Change hempcrete recipe from fern to wheat to actually be automatable by @S4mpsa in https://github.com/GTNewHorizons/Chisel/pull/29\n\n## New Contributors\n* @S4mpsa made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/29\n\n**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.11.0-GTNH...2.11.1-GTNH\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-11T11:15:48+00:00",
+          "filename": "chisel-2.11.1-GTNH.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Chisel/releases/assets/112251677",
+          "browser_download_url": "https://github.com/GTNewHorizons/Chisel/releases/download/2.11.1-GTNH/chisel-2.11.1-GTNH.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Chisel/2.11.1-GTNH/Chisel-2.11.1-GTNH.jar",
           "extra_assets": []
         }
       ],
@@ -11296,7 +11360,7 @@
     },
     {
       "name": "DuraDisplay",
-      "latest_version": "1.0.6",
+      "latest_version": "1.0.8",
       "private": false,
       "versions": [
         {
@@ -11361,6 +11425,27 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/DuraDisplay/releases/assets/111824020",
           "browser_download_url": "https://github.com/GTNewHorizons/DuraDisplay/releases/download/1.0.6/duradisplay-1.0.6.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DuraDisplay/1.0.6/DuraDisplay-1.0.6.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.7",
+          "changelog": "## What's Changed\n* Config Rework by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/5\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.0.6...1.0.7\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-09T19:45:57+00:00",
+          "filename": "duradisplay-1.0.7.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/DuraDisplay/releases/assets/112069027",
+          "browser_download_url": "https://github.com/GTNewHorizons/DuraDisplay/releases/download/1.0.7/duradisplay-1.0.7.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "1.0.8",
+          "changelog": "## What's Changed\n* Fix circuit programming by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/6\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.0.7...1.0.8\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-09T20:20:29+00:00",
+          "filename": "duradisplay-1.0.8.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/DuraDisplay/releases/assets/112072402",
+          "browser_download_url": "https://github.com/GTNewHorizons/DuraDisplay/releases/download/1.0.8/duradisplay-1.0.8.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/DuraDisplay/1.0.8/DuraDisplay-1.0.8.jar",
           "extra_assets": []
         }
       ],
@@ -17049,7 +17134,7 @@
     },
     {
       "name": "GT5-Unofficial",
-      "latest_version": "5.09.43.82",
+      "latest_version": "5.09.43.83",
       "private": false,
       "versions": [
         {
@@ -22992,6 +23077,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/111899244",
           "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.82/gregtech-5.09.43.82.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.82/GT5-Unofficial-5.09.43.82.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "5.09.43.83",
+          "changelog": "## What's Changed\n* Fix carbon monoxide electrolysis by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2071\n* Fix spelling mistake for kevlar bee by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2073\n* Enable input separation by default if it's supported by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2072\n* Fix iridium exploit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2074\n* Remove duplicate recipes for maintenance hatch by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2075\n* fix recipe time and tier to adapt to CBD by @POPlol333 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2076\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.82...5.09.43.83\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-11T11:14:11+00:00",
+          "filename": "gregtech-5.09.43.83.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/GT5-Unofficial/releases/assets/112251516",
+          "browser_download_url": "https://github.com/GTNewHorizons/GT5-Unofficial/releases/download/5.09.43.83/gregtech-5.09.43.83.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/GT5-Unofficial/5.09.43.83/GT5-Unofficial-5.09.43.83.jar",
           "extra_assets": []
         }
       ],
@@ -30539,7 +30635,7 @@
     },
     {
       "name": "KubaTech",
-      "latest_version": "0.11.0",
+      "latest_version": "0.11.1",
       "versions": [
         {
           "version_tag": "0.1",
@@ -31216,6 +31312,17 @@
           "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/106172629",
           "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.11.0/kubatech-0.11.0.jar",
           "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KubaTech/0.11.0/KubaTech-0.11.0.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "0.11.1",
+          "changelog": "## What's Changed\n* Fix bug with flowers and show what flowers are missing in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/76\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.11.0...0.11.1\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-10T13:40:05+00:00",
+          "filename": "kubatech-0.11.1.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/KubaTech/releases/assets/112155731",
+          "browser_download_url": "https://github.com/GTNewHorizons/KubaTech/releases/download/0.11.1/kubatech-0.11.1.jar",
+          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/KubaTech/0.11.1/KubaTech-0.11.1.jar",
           "extra_assets": []
         }
       ],
@@ -35417,7 +35524,7 @@
     },
     {
       "name": "NewHorizonsCoreMod",
-      "latest_version": "2.1.49",
+      "latest_version": "2.1.50",
       "private": false,
       "versions": [
         {
@@ -37898,6 +38005,16 @@
           "filename": "GTNewHorizonsCoreMod-2.1.49.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/111911680",
           "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.49/GTNewHorizonsCoreMod-2.1.49.jar",
+          "extra_assets": []
+        },
+        {
+          "version_tag": "2.1.50",
+          "changelog": "## What's Changed\n* we dont use ic2 classic by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/638\n\n\n**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.50\n",
+          "prerelease": false,
+          "tagged_at": "2023-06-09T21:05:44+00:00",
+          "filename": "GTNewHorizonsCoreMod-2.1.50.jar",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/NewHorizonsCoreMod/releases/assets/112076326",
+          "browser_download_url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod/releases/download/2.1.50/GTNewHorizonsCoreMod-2.1.50.jar",
           "extra_assets": []
         }
       ],

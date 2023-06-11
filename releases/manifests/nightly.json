@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-06-09T14:54:08.991575",
+  "last_updated": "2023-06-11T11:54:57.559097",
   "config": "2.3.4-nihghtly-2023-06-05",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-222-GTNH",
+      "version": "rv3-beta-225-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.3.23-GTNH",
+      "version": "3.3.24-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -133,7 +133,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.11.0-GTNH",
+      "version": "2.11.1-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.82",
+      "version": "5.09.43.83",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.11.0",
+      "version": "0.11.1",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.49",
+      "version": "2.1.50",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -813,11 +813,11 @@
       "side": "BOTH"
     },
     "amunra": {
-      "version": "0.4.29",
+      "version": "0.4.30",
       "side": "BOTH"
     },
     "DuraDisplay": {
-      "version": "1.0.6",
+      "version": "1.0.8",
       "side": "CLIENT"
     },
     "Advanced-Botany": {

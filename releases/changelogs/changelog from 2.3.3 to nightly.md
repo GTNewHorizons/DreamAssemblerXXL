@@ -79,9 +79,12 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-222-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-222-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-225-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-225-GTNH
 >## What's Changed
+> * Add lighting to the attrib matrix to fix lighting disabled bug by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/337 (rv3-beta-225-GTNH)
+> * GuiCraftConfirm Tall Mode now depends on tall terminal config by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/335 (rv3-beta-224-GTNH)
+> * Optimize craft execution with many co-processors by @greesyB in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/334 (rv3-beta-223-GTNH)
 > * Crafting tree zoom and screenshot by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/332 (rv3-beta-222-GTNH)
 > * Spotless apply for branch feature/networkRebooting for #329 by @github-actions in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/331 (rv3-beta-219-GTNH-pre)
 > * Add enough API to make NEE no longer require asming into ae2 by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/326 (rv3-beta-217-GTNH)
@@ -160,9 +163,10 @@
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/BetterP2P/pull/30 (1.1.14)
 >
 
-# Updated BetterQuesting (3.3.18-GTNH@Side.BOTH --> 3.3.23-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.17-GTNH...3.3.23-GTNH
+# Updated BetterQuesting (3.3.18-GTNH@Side.BOTH --> 3.3.24-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.17-GTNH...3.3.24-GTNH
 >## What's Changed
+> * fix url hotzone misalignment when format specifier are used by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/111 (3.3.24-GTNH)
 > * Reload quest db on world load automatically by @eigenraven in https://github.com/GTNewHorizons/BetterQuesting/pull/110 (3.3.23-GTNH)
 > * Remember last search term and clear search field on right click by @wlhlm in https://github.com/GTNewHorizons/BetterQuesting/pull/109 (3.3.21-GTNH)
 > * Update build dependencies by @rekongstor in https://github.com/GTNewHorizons/BetterQuesting/pull/108 (3.3.19-GTNH)
@@ -255,14 +259,16 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/BuildCraftCompat/pull/7 (7.1.13)
 >
 
-# Updated Chisel (2.10.17-GTNH@Side.BOTH --> 2.11.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.10.16-GTNH...2.11.0-GTNH
+# Updated Chisel (2.10.17-GTNH@Side.BOTH --> 2.11.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.10.16-GTNH...2.11.1-GTNH
 >## What's Changed
+> * Change hempcrete recipe from fern to wheat to actually be automatable by @S4mpsa in https://github.com/GTNewHorizons/Chisel/pull/29 (2.11.1-GTNH)
 > * Fix broken recipes for hempcrete and hempcrete powder by @chochem in https://github.com/GTNewHorizons/Chisel/pull/28 (2.11.0-GTNH)
 > * Added 7 new sets of blocks by @Jimbno in https://github.com/GTNewHorizons/Chisel/pull/27 (2.10.19-GTNH)
 > * Disable mob spawn on the chisel blocks by @Zereff06 in https://github.com/GTNewHorizons/Chisel/pull/26 (2.10.17-GTNH)
 >
 >## New Contributors
+> * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/29 (2.11.1-GTNH)
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/28 (2.11.0-GTNH)
 > * @Jimbno made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/27 (2.10.19-GTNH)
 > * @Zereff06 made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/26 (2.10.17-GTNH)
@@ -325,9 +331,11 @@
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/36 (1.1.15-GTNH)
 >
 
-# New Mod - DuraDisplay (1.0.6@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/commits/1.0.6
+# New Mod - DuraDisplay (1.0.8@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/commits/1.0.8
 >## What's Changed
+> * Fix circuit programming by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/6 (1.0.8)
+> * Config Rework by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/5 (1.0.7)
 > * Fix more types of items by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/4 (1.0.6)
 > * Handle more items by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/3 (1.0.4)
 > * Fix error when ran on server by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/2 (1.0.3)
@@ -406,9 +414,15 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.82@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.82
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.83@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.83
 >## What's Changed
+> * Fix carbon monoxide electrolysis by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2071 (5.09.43.83)
+> * Fix spelling mistake for kevlar bee by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2073 (5.09.43.83)
+> * Enable input separation by default if it's supported by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2072 (5.09.43.83)
+> * Fix iridium exploit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2074 (5.09.43.83)
+> * Remove duplicate recipes for maintenance hatch by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2075 (5.09.43.83)
+> * fix recipe time and tier to adapt to CBD by @POPlol333 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2076 (5.09.43.83)
 > * Fix mutation requirements in NEI by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2069 (5.09.43.82)
 > * Fix fermented biomass recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2068 (5.09.43.81)
 > * Add a toggle to queen insertion in the industrial apiary by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2064 (5.09.43.80)
@@ -884,9 +898,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/KekzTech/pull/67 (0.8.0)
 >
 
-# Updated KubaTech (0.10.0@Side.BOTH --> 0.11.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.10...0.11.0
+# Updated KubaTech (0.10.0@Side.BOTH --> 0.11.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.9.10...0.11.1
 >## What's Changed
+> * Fix bug with flowers and show what flowers are missing in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/76 (0.11.1)
 > * ForgeDirection by @mitchej123 in https://github.com/GTNewHorizons/KubaTech/pull/74 (0.11.0)
 > * Use texture getters by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/73 (0.10.3)
 > * Move the research to GTNH tab for now by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/72 (0.10.2)
@@ -1009,9 +1024,10 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.49@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.49
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.50@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.50
 >## What's Changed
+> * we dont use ic2 classic by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/638 (2.1.50)
 > * migrating Assembling Line recipes to RA2 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/637 (2.1.49)
 > * Unlighten recipe by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/636 (2.1.48)
 > * Fix Silent Dreamwood Rod recipe by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/635 (2.1.48)
@@ -1335,9 +1351,10 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/26 (1.9.0)
 >
 
-# New Mod - amunra (0.4.29@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.29
+# New Mod - amunra (0.4.30@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.30
 >## What's Changed
+> * Fix oredict for spodumene ore by @chochem in https://github.com/GTNewHorizons/amunra/pull/19 (0.4.30)
 > * Add compat to electricity/fluid slots by @glowredman in https://github.com/GTNewHorizons/amunra/pull/18 (0.4.29)
 > * Move Amun-Ra system far away from solar system by @glowredman in https://github.com/GTNewHorizons/amunra/pull/17 (0.4.27)
 > * Fix the dataWatcher casting error by @Hikari1nVoid in https://github.com/GTNewHorizons/amunra/pull/16 (0.4.26)
@@ -1358,6 +1375,7 @@
 > * Migrate to new buildscript by @glowredman in https://github.com/GTNewHorizons/amunra/pull/1 (0.4.10)
 >
 >## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/amunra/pull/19 (0.4.30)
 > * @Hikari1nVoid made their first contribution in https://github.com/GTNewHorizons/amunra/pull/16 (0.4.26)
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/amunra/pull/5 (0.4.11)
 >
