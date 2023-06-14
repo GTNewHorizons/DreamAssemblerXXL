@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-06-14T10:08:58.697777",
+  "last_updated": "2023-06-14T10:13:49.842155",
   "config": "2.3.4",
   "github_mods": {
     "AdventureBackpack2": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "Draconic-Evolution": {
-      "version": "1.1.16-GTNH",
+      "version": "1.1.17-GTNH-pre",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {

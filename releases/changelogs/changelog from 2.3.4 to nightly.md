@@ -14,6 +14,9 @@
 > * Don't register Tinker's parts recipes in GTNH by @miozune in https://github.com/GTNewHorizons/Avaritia/pull/33 (1.42)
 >
 
+# Updated Draconic-Evolution (1.1.16-GTNH@Side.BOTH --> 1.1.17-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.15-GTNH...1.1.17-GTNH-pre
+
 # Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.85@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.85
 >## What's Changed

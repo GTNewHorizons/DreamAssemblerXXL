@@ -11202,7 +11202,7 @@
     },
     {
       "name": "Draconic-Evolution",
-      "latest_version": "1.1.16-GTNH",
+      "latest_version": "1.1.17-GTNH-pre",
       "private": false,
       "versions": [
         {
@@ -11363,26 +11363,15 @@
           "filename": "Draconic-Evolution-1.1.16-GTNH.jar",
           "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/107244743",
           "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.16-GTNH/Draconic-Evolution-1.1.16-GTNH.jar",
-          "maven_url": "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/Draconic-Evolution/1.1.16-GTNH/Draconic-Evolution-1.1.16-GTNH.jar",
-          "extra_assets": []
-        },
-        {
-          "version_tag": "1.1.16-GTNH",
-          "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.15-GTNH...1.1.16-GTNH\n",
-          "prerelease": false,
-          "tagged_at": "2023-05-08T16:27:35+00:00",
-          "filename": "Draconic-Evolution-1.1.16-GTNH.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/107244743",
-          "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.16-GTNH/Draconic-Evolution-1.1.16-GTNH.jar",
           "extra_assets": []
         },
         {
           "version_tag": "1.1.17-GTNH-pre",
           "changelog": "**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.16-GTNH...1.1.17-GTNH-pre\n",
           "prerelease": false,
-          "tagged_at": "2023-05-25T07:06:03+00:00",
+          "tagged_at": "2023-06-14T10:04:18+00:00",
           "filename": "Draconic-Evolution-1.1.17-GTNH-pre.jar",
-          "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/109717789",
+          "download_url": "https://api.github.com/repos/GTNewHorizons/Draconic-Evolution/releases/assets/112699540",
           "browser_download_url": "https://github.com/GTNewHorizons/Draconic-Evolution/releases/download/1.1.17-GTNH-pre/Draconic-Evolution-1.1.17-GTNH-pre.jar",
           "extra_assets": []
         }
