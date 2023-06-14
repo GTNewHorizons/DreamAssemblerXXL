@@ -66,9 +66,12 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/13 (1.0.12-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-225-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-225-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-195-GTNH@Side.BOTH --> rv3-beta-227-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-193-GTNH...rv3-beta-227-GTNH
 >## What's Changed
+> * AE2 Wireless Access Point Incorrect Energy Usage Display by @repo-alt in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/343 (rv3-beta-227-GTNH)
+> * Change editorconfig + Fix blocking mode config channel by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/339 (rv3-beta-226-GTNH)
+> * p2p rebooting the network by @repo-alt in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/329 (rv3-beta-226-GTNH)
 > * Add lighting to the attrib matrix to fix lighting disabled bug by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/337 (rv3-beta-225-GTNH)
 > * GuiCraftConfirm Tall Mode now depends on tall terminal config by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/335 (rv3-beta-224-GTNH)
 > * Optimize craft execution with many co-processors by @greesyB in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/334 (rv3-beta-223-GTNH)
@@ -115,9 +118,10 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/9 (1.8.5)
 >
 
-# Updated Avaritia (1.37@Side.BOTH --> 1.42@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.36...1.42
+# Updated Avaritia (1.37@Side.BOTH --> 1.43@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.36...1.43
 >## What's Changed
+> * Fix server causing error with NEI by @miozune in https://github.com/GTNewHorizons/Avaritia/pull/34 (1.43)
 > * Don't register Tinker's parts recipes in GTNH by @miozune in https://github.com/GTNewHorizons/Avaritia/pull/33 (1.42)
 > * Fix Singularities by @Dream-Master in https://github.com/GTNewHorizons/Avaritia/pull/32 (1.41)
 > * Update dependencies.gradle by @Dream-Master in https://github.com/GTNewHorizons/Avaritia/pull/31 (1.38)
@@ -401,9 +405,12 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.83@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.83
+# Updated GT5-Unofficial (5.09.42.71@Side.BOTH --> 5.09.43.85@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.42.70...5.09.43.85
 >## What's Changed
+> * Fix missing copy call for fluid recipe builder by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2078 (5.09.43.85)
+> * Fix warning when closing circuit selection window by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2079 (5.09.43.85)
+> * fix typo in asset names by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2077 (5.09.43.84)
 > * Fix carbon monoxide electrolysis by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2071 (5.09.43.83)
 > * Fix spelling mistake for kevlar bee by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2073 (5.09.43.83)
 > * Enable input separation by default if it's supported by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2072 (5.09.43.83)
@@ -642,9 +649,12 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/54 (0.10.0)
 >
 
-# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.39@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.39
+# Updated GTplusplus (1.8.40@Side.BOTH --> 1.9.42-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.8.40...1.9.42-pre
 >## What's Changed
+> * Spotless apply for branch Plasma_Chains_Numbers for #669 by @github-actions in https://github.com/GTNewHorizons/GTplusplus/pull/670 (1.9.42-pre)
+> * Remove Dragonblood from comb qft recipe by @Runakai1 in https://github.com/GTNewHorizons/GTplusplus/pull/667 (1.9.41)
+> * Remove broken GC asm by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/666 (1.9.40)
 > * Update dep + change comb recipe by @Runakai1 in https://github.com/GTNewHorizons/GTplusplus/pull/664 (1.9.39)
 > * Fix gt++ pollution tooltips by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/662 (1.9.38)
 > * Adds a platline comb recipe to QFT by @Runakai1 in https://github.com/GTNewHorizons/GTplusplus/pull/661 (1.9.37)
@@ -736,9 +746,10 @@
 > * @GlodBlock made their first contribution in https://github.com/GTNewHorizons/GalacticGregGT5/pull/14 (1.0.8)
 >
 
-# Updated Galacticraft (3.0.68-GTNH@Side.BOTH --> 3.0.69-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.67-GTNH...3.0.69-GTNH
+# Updated Galacticraft (3.0.68-GTNH@Side.BOTH --> 3.0.70-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.67-GTNH...3.0.70-GTNH
 >## What's Changed
+> * Rework Rocket Fuel API by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/77 (3.0.70-GTNH)
 > * Cleanup by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/76 (3.0.69-GTNH)
 > * Update Dependencies by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/75 (3.0.68-GTNH)
 >
@@ -978,8 +989,8 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/59 (2.0.0)
 >
 
-# Updated ModularUI (1.1.2@Side.BOTH --> 1.1.10@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.10
+# Updated ModularUI (1.1.2@Side.BOTH --> 1.1.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.0...1.1.11
 >## What's Changed
 > * fix hotbar key related vanilla functions by @Glease in https://github.com/GTNewHorizons/ModularUI/pull/45 (1.1.2)
 >
@@ -1011,9 +1022,15 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.50@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.50
+# Updated NewHorizonsCoreMod (2.0.32@Side.BOTH --> 2.1.56-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.0.31...2.1.56-pre
 >## What's Changed
+> * More qol assembler + extruder recipes + fix assembling line eu cost by @TheEpicGamer274 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/643 (2.1.56-pre)
+> * More qol assembler + extruder recipes + fix assembling line eu cost by @TheEpicGamer274 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/643 (2.1.55)
+> * Add 1-step lapo recipes to space assembler by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/642 (2.1.54)
+> * Lower infinity costs and remove MS Og from T9 rocket by @xSkewer in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
+> * Fix end stone chiseling by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/641 (2.1.52)
+> * Fix AL recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/639 (2.1.51)
 > * we dont use ic2 classic by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/638 (2.1.50)
 > * migrating Assembling Line recipes to RA2 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/637 (2.1.49)
 > * Unlighten recipe by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/636 (2.1.48)
@@ -1087,6 +1104,7 @@
 > * Oredicts diodes and inductors for 2A-16A diodes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/571 (2.0.33)
 >
 >## New Contributors
+> * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 > * @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/623 (2.1.35)
 > * @Fiyorin made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/600 (2.1.21)
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/582 (2.1.7)
@@ -1215,9 +1233,10 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/TCNEIAdditions/pull/21 (1.2.2)
 >
 
-# Updated TecTech (5.1.16@Side.BOTH --> 5.2.22@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.2.22
+# Updated TecTech (5.1.16@Side.BOTH --> 5.2.23@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.1.14...5.2.23
 >## What's Changed
+> * Remove 1-step assline lapo battery recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/221 (5.2.23)
 > * EOH tooltip touch-up by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/220 (5.2.22)
 > * Fix TPM recipe voltage by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/219 (5.2.21)
 > * Pico & Quantum circuit adjustments by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/218 (5.2.20)
@@ -1338,9 +1357,11 @@
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/26 (1.9.0)
 >
 
-# New Mod - amunra (0.4.30@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.30
+# New Mod - amunra (0.4.31@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/commits/0.4.31
 >## What's Changed
+> * Prevent NPEs by @glowredman in https://github.com/GTNewHorizons/amunra/pull/20 (0.4.31)
+> * Make the Coolant used in Ion Engines configurable by @glowredman in https://github.com/GTNewHorizons/amunra/pull/22 (0.4.31)
 > * Fix oredict for spodumene ore by @chochem in https://github.com/GTNewHorizons/amunra/pull/19 (0.4.30)
 > * Add compat to electricity/fluid slots by @glowredman in https://github.com/GTNewHorizons/amunra/pull/18 (0.4.29)
 > * Move Amun-Ra system far away from solar system by @glowredman in https://github.com/GTNewHorizons/amunra/pull/17 (0.4.27)
@@ -1367,8 +1388,8 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/amunra/pull/5 (0.4.11)
 >
 
-# Updated bartworks (0.6.14@Side.BOTH --> 0.7.17@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.13...0.7.17
+# Updated bartworks (0.6.14@Side.BOTH --> 0.7.18-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.6.13...0.7.18-pre
 >## What's Changed
 > * Update PlatinumSludgeOverHaul.java by @Runakai1 in https://github.com/GTNewHorizons/bartworks/pull/334 (0.7.17)
 > * Fix controller voltages by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/332 (0.7.16)
@@ -1428,9 +1449,12 @@
 > * v1.5.2 by @D-Cysteine in https://github.com/GTNewHorizons/nei-custom-diagram/pull/22 (1.5.3)
 >
 
-# Updated thaumicinsurgence (0.2.2@Side.BOTH --> 0.2.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.2.1...0.2.4
+# Updated thaumicinsurgence (0.2.2@Side.BOTH --> 0.2.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.2.1...0.2.6
 >## What's Changed
+> * Make Insurgence's Lore a Little Less Cringe by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/30 (0.2.6)
+> * Fixing the one typo and awkward paragraph by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/31 (0.2.6)
+> * fixing previous mistake by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/27 (0.2.5)
 > * dep bump by @chochem in https://github.com/GTNewHorizons/thaumicinsurgence/pull/25 (0.2.3)
 > * Update dependencies.gradle by @Dream-Master in https://github.com/GTNewHorizons/thaumicinsurgence/pull/26 (0.2.3)
 >

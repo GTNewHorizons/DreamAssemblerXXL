@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.3.3",
-  "last_updated": "2023-06-11T12:41:33.564100",
-  "config": "2.3.4",
+  "last_updated": "2023-06-14T10:04:57.491464",
+  "config": "2.3.4-nihghtly-2023-06-05",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.14-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-225-GTNH",
+      "version": "rv3-beta-227-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.42",
+      "version": "1.43",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.17",
+      "version": "0.7.18-pre",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.0.69-GTNH",
+      "version": "3.0.70-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.83",
+      "version": "5.09.43.85",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.39",
+      "version": "1.9.42-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.50",
+      "version": "2.1.56-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.22",
+      "version": "5.2.23",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -625,7 +625,7 @@
       "side": "BOTH"
     },
     "thaumicinsurgence": {
-      "version": "0.2.4",
+      "version": "0.2.6",
       "side": "BOTH"
     },
     "ThaumicInventoryScanning": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.1.10",
+      "version": "1.1.11",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "amunra": {
-      "version": "0.4.30",
+      "version": "0.4.31",
       "side": "BOTH"
     },
     "DuraDisplay": {
