@@ -18,9 +18,10 @@
 > * Don't register Tinker's parts recipes in GTNH by @miozune in https://github.com/GTNewHorizons/Avaritia/pull/33 (1.42)
 >
 
-# Updated Binnie (2.1.4@Side.BOTH --> 2.1.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.2...2.1.5
+# Updated Binnie (2.1.4@Side.BOTH --> 2.1.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.2...2.1.6
 >## What's Changed
+> * Fixed the stimulator accepting stacks with a size higher than 1 by @minecraft7771 in https://github.com/GTNewHorizons/Binnie/pull/32 (2.1.6)
 > * Fix bee database local by @minecraft7771 in https://github.com/GTNewHorizons/Binnie/pull/31 (2.1.5)
 > * Added alveary unlighting by @minecraft7771 in https://github.com/GTNewHorizons/Binnie/pull/30 (2.1.4)
 >
@@ -58,9 +59,11 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/39 (1.1.18-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.86@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.86
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.88-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.88-pre
 >## What's Changed
+> * Bring oregen-fix branch to NH org by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2080 (5.09.43.88-pre)
+> * Fix the volumetric flask recipe by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2086 (5.09.43.87)
 > * Rearrange Super and Quantum Tank GUI a little bit by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2084 (5.09.43.86)
 > * Move away from SlotWidget for circuit selection window by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2083 (5.09.43.86)
 > * Fix missing copy call for fluid recipe builder by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2078 (5.09.43.85)
@@ -83,9 +86,10 @@
 > * Update dep + change comb recipe by @Runakai1 in https://github.com/GTNewHorizons/GTplusplus/pull/664 (1.9.39)
 >
 
-# Updated Galacticraft (3.0.69-GTNH@Side.BOTH --> 3.0.70-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.68-GTNH...3.0.70-GTNH
+# Updated Galacticraft (3.0.69-GTNH@Side.BOTH --> 3.0.71-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.68-GTNH...3.0.71-GTNH
 >## What's Changed
+> * Fix mouse scroll with lwjgl3 by @miozune in https://github.com/GTNewHorizons/Galacticraft/pull/78 (3.0.71-GTNH)
 > * Rework Rocket Fuel API by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/77 (3.0.70-GTNH)
 > * Cleanup by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/76 (3.0.69-GTNH)
 >
@@ -95,6 +99,12 @@
 >## What's Changed
 > * Fix 0-sized item not being rendered by @miozune in https://github.com/GTNewHorizons/HoloInventory/pull/34 (2.2.3-GTNH)
 > * Fix NPE with FluidTankInfo by @miozune in https://github.com/GTNewHorizons/HoloInventory/pull/33 (2.2.2-GTNH)
+>
+
+# Updated InGame-Info-XML (2.8.3.96@Side.CLIENT --> 2.8.3.97-pre@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.3.95...2.8.3.97-pre
+>## What's Changed
+> * Change event subsciption for rendering by @Alexdoru in https://github.com/GTNewHorizons/InGame-Info-XML/pull/17 (2.8.3.96)
 >
 
 # Updated Infernal-Mobs (1.7.8-GTNH@Side.BOTH --> 1.7.9-GTNH@Side.BOTH)
@@ -137,11 +147,20 @@
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
 
-# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.55-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.55-GTNH
+# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.56-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.56-GTNH-pre
 >## What's Changed
 > * Expand tooltips for the time manipulation action buttons by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/392 (2.3.55-GTNH)
 > * Fix crash with IC2 setItemDamage by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/387 (2.3.54-GTNH)
+>
+
+# Updated OpenComputers (1.9.8-GTNH@Side.BOTH --> 1.9.9-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.7-GTNH...1.9.9-GTNH-pre
+>## What's Changed
+> * update gradle build files by @aheirman in https://github.com/GTNewHorizons/OpenComputers/pull/101 (1.9.8-GTNH)
+>
+>## New Contributors
+> * @aheirman made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/101 (1.9.8-GTNH)
 >
 
 # Updated TecTech (5.2.22@Side.BOTH --> 5.2.24@Side.BOTH)
@@ -150,6 +169,15 @@
 > * butcher EOH controller recipe time to 5m like every other controller were by @POPlol333 in https://github.com/GTNewHorizons/TecTech/pull/222 (5.2.24)
 > * Remove 1-step assline lapo battery recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/221 (5.2.23)
 > * EOH tooltip touch-up by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/220 (5.2.22)
+>
+
+# Updated VisualProspecting (1.1.6@Side.BOTH --> 1.1.7-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.1.5...1.1.7-pre
+>## What's Changed
+> * Added hotkeys to toggle map overlays by @PolkageistHS in https://github.com/GTNewHorizons/VisualProspecting/pull/33 (1.1.6)
+>
+>## New Contributors
+> * @PolkageistHS made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/33 (1.1.6)
 >
 
 # Updated amunra (0.4.30@Side.BOTH --> 0.4.31@Side.BOTH)

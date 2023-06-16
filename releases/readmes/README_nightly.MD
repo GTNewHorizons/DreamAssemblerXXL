@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2023-06-15
+Version nightly is out 2023-06-16
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -275,7 +275,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BiblioCraft: BiblioWoods Forestry Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition) | 1.7 |
 | [BiblioCraft: BiblioWoods Natura Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-natura-edition) | 1.5 |
 | [BiblioCraft](https://www.curseforge.com/minecraft/mc-mods/bibliocraft) | 1.11.7 |
-| [Binnie](https://github.com/GTNewHorizons/Binnie) | 2.1.5 |
+| [Binnie](https://github.com/GTNewHorizons/Binnie) | 2.1.6 |
 | [Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty) | 2.1.0.2308 |
 | [BlockLimiter](https://github.com/GTNewHorizons/BlockLimiter) | 0.55 |
 | [BlockRenderer6343](https://github.com/GTNewHorizons/BlockRenderer6343) | 1.0.2-pre |
@@ -329,14 +329,14 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ForgeRelocationFMP](https://github.com/GTNewHorizons/ForgeRelocationFMP) | 0.0.4 |
 | [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.1.0 |
 | [GalacticGregGT5](https://github.com/GTNewHorizons/GalacticGregGT5) | 1.0.9 |
-| [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.0.70-GTNH |
+| [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.0.71-GTNH |
 | [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.2.3-GTNH |
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.6.5.5-GTNH |
 | [GigaGramFab](https://github.com/GTNewHorizons/GigaGramFab) | 0.2.2 |
 | [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.6.9 |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.0.13 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.43.86 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.43.88-pre |
 | [GTNEIOrePlugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.1.0 |
 | [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.1.17 |
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.10.2 |
@@ -357,7 +357,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [IguanaTweaksTConstruct](https://github.com/GTNewHorizons/IguanaTweaksTConstruct) | 2.3.0 |
 | [Industrial Craft 2](https://www.curseforge.com/minecraft/mc-mods/industrial-craft) | 2.2.82a-experimental |
 | [Infernal-Mobs](https://github.com/GTNewHorizons/Infernal-Mobs) | 1.7.9-GTNH |
-| [InGame-Info-XML](https://github.com/GTNewHorizons/InGame-Info-XML) | 2.8.3.96 |
+| [InGame-Info-XML](https://github.com/GTNewHorizons/InGame-Info-XML) | 2.8.3.97-pre |
 | [INpureCore](https://github.com/GTNewHorizons/INpureCore) | 1.1.5-GTNH |
 | [inventory-tweaks](https://github.com/GTNewHorizons/inventory-tweaks) | 1.5.16 |
 | [ironchest](https://github.com/GTNewHorizons/ironchest) | 6.0.71 |
@@ -397,12 +397,12 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.1.-6-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.4.2 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 1.4.6 |
-| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.3.55-GTNH |
+| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.3.56-GTNH-pre |
 | [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.4.19 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.06.1-GTNH |
 | [OCGlasses](https://github.com/GTNewHorizons/OCGlasses) | 1.3.1-GTNH |
 | [OpenBlocks](https://github.com/GTNewHorizons/OpenBlocks) | 1.7.0-GTNH |
-| [OpenComputers](https://github.com/GTNewHorizons/OpenComputers) | 1.9.8-GTNH |
+| [OpenComputers](https://github.com/GTNewHorizons/OpenComputers) | 1.9.9-GTNH-pre |
 | [OpenModsLib](https://github.com/GTNewHorizons/OpenModsLib) | 0.10.6 |
 | [OpenModularTurrets](https://github.com/GTNewHorizons/OpenModularTurrets) | 2.2.11-247 |
 | [OpenPrinter](https://github.com/GTNewHorizons/OpenPrinter) | 0.1.3-GTNH |
@@ -469,7 +469,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.5.2 |
 | [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.9 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.6.7 |
-| [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.1.6 |
+| [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.1.7-pre |
 | [waila](https://github.com/GTNewHorizons/waila) | 1.6.0 |
 | [WailaHarvestability](https://github.com/GTNewHorizons/WailaHarvestability) | 1.1.10-GTNH |
 | [WAILAPlugins](https://github.com/GTNewHorizons/WAILAPlugins) | 0.2.8 |

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-06-15T21:32:31.814959",
+  "last_updated": "2023-06-16T18:53:31.232761",
   "config": "2.3.4",
   "github_mods": {
     "AdventureBackpack2": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.1.5",
+      "version": "2.1.6",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.0.70-GTNH",
+      "version": "3.0.71-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.86",
+      "version": "5.09.43.88-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -317,7 +317,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.3.96",
+      "version": "2.8.3.97-pre",
       "side": "CLIENT"
     },
     "INpureCore": {
@@ -445,7 +445,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.55-GTNH",
+      "version": "2.3.56-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -465,7 +465,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.9.8-GTNH",
+      "version": "1.9.9-GTNH-pre",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -669,7 +669,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.1.6",
+      "version": "1.1.7-pre",
       "side": "BOTH"
     },
     "waila": {
