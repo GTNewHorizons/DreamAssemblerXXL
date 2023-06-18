@@ -29,22 +29,50 @@
 > * @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/30 (2.1.4)
 >
 
-# Updated BlockRenderer6343 (1.0.1@Side.BOTH --> 1.0.2-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.0.0-RC7...1.0.2-pre
+# Updated BlockRenderer6343 (1.0.1@Side.BOTH --> 1.0.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.0.0-RC7...1.0.3
 >## What's Changed
+> * Fix rendering bugs by @eigenraven in https://github.com/GTNewHorizons/BlockRenderer6343/pull/6 (1.0.3)
 > * Forge Direction fix by @Dream-Master in https://github.com/GTNewHorizons/BlockRenderer6343/pull/5 (1.0.1)
 >
 >## New Contributors
+> * @eigenraven made their first contribution in https://github.com/GTNewHorizons/BlockRenderer6343/pull/6 (1.0.3)
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/BlockRenderer6343/pull/5 (1.0.1)
 >
 
-# Updated Chisel (2.11.1-GTNH@Side.BOTH --> 2.11.2-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.11.0-GTNH...2.11.2-GTNH
+# Updated BloodArsenal (1.2.10@Side.BOTH --> 1.2.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.2.9...1.2.11
 >## What's Changed
+> * Spotless apply for branch fix-nei-tooltip-crash for #18 by @github-actions in https://github.com/GTNewHorizons/BloodArsenal/pull/19 (1.2.11)
+> * Fix Ritual Stone NEI tooltip crash by @wlhlm in https://github.com/GTNewHorizons/BloodArsenal/pull/18 (1.2.11)
+> * fix ethereal blood stone -> broken potentia craft by @Gofer2x in https://github.com/GTNewHorizons/BloodArsenal/pull/17 (1.2.10)
+>
+>## New Contributors
+> * @github-actions made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/19 (1.2.11)
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/18 (1.2.11)
+> * @Gofer2x made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/17 (1.2.10)
+>
+
+# Updated BuildCraft (7.1.33@Side.BOTH --> 7.1.34@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.32...7.1.34
+>## What's Changed
+> * Add API for creating custom render state and pluggable state by @miozune in https://github.com/GTNewHorizons/BuildCraft/pull/15 (7.1.34)
+> * fix net code handling packets on wrong side by @Glease in https://github.com/GTNewHorizons/BuildCraft/pull/14 (7.1.33)
+>
+>## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/BuildCraft/pull/15 (7.1.34)
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/BuildCraft/pull/14 (7.1.33)
+>
+
+# Updated Chisel (2.11.1-GTNH@Side.BOTH --> 2.11.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.11.0-GTNH...2.11.3-GTNH
+>## What's Changed
+> * disable default hempcrete smelting by @Darkmaxsas in https://github.com/GTNewHorizons/Chisel/pull/31 (2.11.3-GTNH)
 > * Fix broken recipe for hempcrete powder (yes, again!) by @chochem in https://github.com/GTNewHorizons/Chisel/pull/30 (2.11.2-GTNH)
 > * Change hempcrete recipe from fern to wheat to actually be automatable by @S4mpsa in https://github.com/GTNewHorizons/Chisel/pull/29 (2.11.1-GTNH)
 >
 >## New Contributors
+> * @Darkmaxsas made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/31 (2.11.3-GTNH)
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/29 (2.11.1-GTNH)
 >
 
@@ -59,9 +87,25 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/39 (1.1.18-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.88-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.88-pre
+# Updated ForestryMC (4.6.7@Side.BOTH --> 4.6.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.6...4.6.8
 >## What's Changed
+> * Fix Alveary Simulation of Temperatures by @Runakai1 in https://github.com/GTNewHorizons/ForestryMC/pull/52 (4.6.8)
+> * Auto-apply stats tooltips to all IHiveFrame items by @DStrand1 in https://github.com/GTNewHorizons/ForestryMC/pull/51 (4.6.7)
+>
+>## New Contributors
+> * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/52 (4.6.8)
+> * @DStrand1 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/51 (4.6.7)
+>
+
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.92-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.92-pre
+>## What's Changed
+> * Bring oregen-fix branch to NH org by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2080 (5.09.43.92-pre)
+> * Fix Precision by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2091 (5.09.43.91)
+> * Make Placing cables and pipes easier by making them full blocks when the player sneaks and is holding one by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2088 (5.09.43.90)
+> * Add class for handling external materials by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2089 (5.09.43.90)
+> * restore sodium persulfate chem bath recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2087 (5.09.43.89)
 > * Bring oregen-fix branch to NH org by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2080 (5.09.43.88-pre)
 > * Fix the volumetric flask recipe by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2086 (5.09.43.87)
 > * Rearrange Super and Quantum Tank GUI a little bit by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2084 (5.09.43.86)
@@ -71,9 +115,27 @@
 > * fix typo in asset names by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2077 (5.09.43.84)
 >
 
-# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.46@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.46
+# Updated GTNEIOrePlugin (1.1.0@Side.BOTH --> 1.1.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNEIOrePlugin/compare/1.0.29...1.1.1
 >## What's Changed
+> * Cleanup by @miozune in https://github.com/GTNewHorizons/GTNEIOrePlugin/pull/36 (1.1.1)
+> * Cleanup by @glowredman in https://github.com/GTNewHorizons/GTNEIOrePlugin/pull/34 (1.1.0)
+>
+>## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/GTNEIOrePlugin/pull/34 (1.1.0)
+>
+
+# Updated GTNH-Lanthanides (0.10.2@Side.BOTH --> 0.10.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.10.1...0.10.3
+>## What's Changed
+> * remove botdustries monomethylhydrazine by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/59 (0.10.3)
+> * Remove outdated botdustries fluids by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/58 (0.10.2)
+>
+
+# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.47@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.47
+>## What's Changed
+> * Monomethylhydrazine cleanup by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/674 (1.9.47)
 > * Reword Crop Manager AoE description in tooltip by @wlhlm in https://github.com/GTNewHorizons/GTplusplus/pull/673 (1.9.46)
 > * Fix some BW materials creating bad washer recipes by @serenibyss in https://github.com/GTNewHorizons/GTplusplus/pull/672 (1.9.45)
 > * Make the New Plasma Powergen Chains Viable by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/669 (1.9.44-pre)
@@ -92,6 +154,18 @@
 > * Fix mouse scroll with lwjgl3 by @miozune in https://github.com/GTNewHorizons/Galacticraft/pull/78 (3.0.71-GTNH)
 > * Rework Rocket Fuel API by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/77 (3.0.70-GTNH)
 > * Cleanup by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/76 (3.0.69-GTNH)
+>
+
+# Updated Hodgepodge (2.2.18@Side.BOTH --> 2.2.19@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.17...2.2.19
+>## What's Changed
+> * Add offline mode UUID mapping by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/221 (2.2.19)
+> * Add pollution tooltips by @tytan652 in https://github.com/GTNewHorizons/Hodgepodge/pull/220 (2.2.18)
+> * Fix crashing due to server/client container size mismatch by @Denostrov in https://github.com/GTNewHorizons/Hodgepodge/pull/219 (2.2.18)
+>
+>## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/221 (2.2.19)
+> * @tytan652 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/220 (2.2.18)
 >
 
 # Updated HoloInventory (2.2.2-GTNH@Side.BOTH --> 2.2.3-GTNH@Side.BOTH)
@@ -116,11 +190,23 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Infernal-Mobs/pull/13 (1.7.9-GTNH)
 >
 
-# Updated KubaTech (0.11.1@Side.BOTH --> 0.11.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.11.0...0.11.2
+# Updated KubaTech (0.11.1@Side.BOTH --> 0.11.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.11.0...0.11.4
 >## What's Changed
+> * Save/read NBT in config files as a string to be more readable by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/79 (0.11.4)
+> * Fix crash when there are spaces in the game path by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/78 (0.11.3)
 > * Use mixins accessors + some misc fixes by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/77 (0.11.2)
 > * Fix bug with flowers and show what flowers are missing in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/76 (0.11.1)
+>
+
+# Updated LogisticsPipes (1.0.1-GTNH@Side.BOTH --> 1.0.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.0.0-GTNH...1.0.2-GTNH
+>## What's Changed
+> * Fix crash with Java12+ env by @miozune in https://github.com/GTNewHorizons/LogisticsPipes/pull/21 (1.0.2-GTNH)
+> * Fix items not being added in the pack by @kuba6000 in https://github.com/GTNewHorizons/LogisticsPipes/pull/20 (1.0.1-GTNH)
+>
+>## New Contributors
+> * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/20 (1.0.1-GTNH)
 >
 
 # Updated ModularUI (1.1.10@Side.BOTH --> 1.1.12@Side.BOTH)
@@ -129,9 +215,19 @@
 > * Add API for getting item tooltip by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/46 (1.1.12)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.57@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.57
+# Updated MouseTweaks (2.4.8-GTNH@Side.CLIENT --> 2.4.9-GTNH-pre@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.7-GTNH...2.4.9-GTNH-pre
 >## What's Changed
+> * Fix server-side crash and suppress Forestry error in the logs by @eigenraven in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
+>
+>## New Contributors
+> * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
+>
+
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.58@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.58
+>## What's Changed
+> * new Hempcretesand & Hempcrete recipe by @Darkmaxsas in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/647 (2.1.58)
 > * new hempcrete recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/645 (2.1.57)
 > * coremod bending recipe cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/646 (2.1.57)
 > * adjust ebf recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/644 (2.1.57)
@@ -144,6 +240,7 @@
 > * we dont use ic2 classic by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/638 (2.1.50)
 >
 >## New Contributors
+> * @Darkmaxsas made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/647 (2.1.58)
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
 
@@ -163,12 +260,50 @@
 > * @aheirman made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/101 (1.9.8-GTNH)
 >
 
+# Updated Random-Things (2.4.3@Side.BOTH --> 2.4.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.4.3...2.4.4
+>## What's Changed
+> * Voiding Drop Filter rework: tooltips, prevent looping pick up with magnet, fix crash moving filter while its GUI is opened by @wlhlm in https://github.com/GTNewHorizons/Random-Things/pull/2 (2.4.4)
+>
+>## New Contributors
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/2 (2.4.4)
+>
+
 # Updated TecTech (5.2.22@Side.BOTH --> 5.2.24@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.24
 >## What's Changed
 > * butcher EOH controller recipe time to 5m like every other controller were by @POPlol333 in https://github.com/GTNewHorizons/TecTech/pull/222 (5.2.24)
 > * Remove 1-step assline lapo battery recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/221 (5.2.23)
 > * EOH tooltip touch-up by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/220 (5.2.22)
+>
+
+# Updated ThaumicHorizons (1.2.1.12@Side.BOTH --> 1.3.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.2.1.11...1.3.1
+>## What's Changed
+> * Remove commented-out code and obscure comments by @chill-was-taken in https://github.com/GTNewHorizons/ThaumicHorizons/pull/44 (1.3.1)
+> * Updating license to reflect the new status of the mod by @Alastors in https://github.com/GTNewHorizons/ThaumicHorizons/pull/41 (1.3.0)
+> * Remove unsafe threading by @chill-was-taken in https://github.com/GTNewHorizons/ThaumicHorizons/pull/42 (1.3.0)
+> * Code cleanup by @chill-was-taken in https://github.com/GTNewHorizons/ThaumicHorizons/pull/43 (1.3.0)
+> * Spotless apply for branch keybinds for #39 by @github-actions in https://github.com/GTNewHorizons/ThaumicHorizons/pull/40 (1.2.1.12)
+> * unbind keybinds by default and move them under "Thaumcraft" category by @Alexdoru in https://github.com/GTNewHorizons/ThaumicHorizons/pull/39 (1.2.1.12)
+>
+>## New Contributors
+> * @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/41 (1.3.0)
+> * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/42 (1.3.0)
+> * @github-actions made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/40 (1.2.1.12)
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/39 (1.2.1.12)
+>
+
+# Updated TiC-Tooltips (1.2.10@Side.CLIENT --> 1.2.11@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/TiC-Tooltips/compare/1.2.8...1.2.11
+>## What's Changed
+> * Update build by @miozune in https://github.com/GTNewHorizons/TiC-Tooltips/pull/6 (1.2.11)
+> * Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/TiC-Tooltips/pull/4 (1.2.10)
+> * update build for maven by @bombcar in https://github.com/GTNewHorizons/TiC-Tooltips/pull/5 (1.2.10)
+>
+>## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/TiC-Tooltips/pull/6 (1.2.11)
+> * @bombcar made their first contribution in https://github.com/GTNewHorizons/TiC-Tooltips/pull/5 (1.2.10)
 >
 
 # Updated VisualProspecting (1.1.6@Side.BOTH --> 1.1.7-pre@Side.BOTH)
@@ -180,9 +315,11 @@
 > * @PolkageistHS made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/33 (1.1.6)
 >
 
-# Updated amunra (0.4.30@Side.BOTH --> 0.4.31@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.29...0.4.31
+# Updated amunra (0.4.30@Side.BOTH --> 0.4.32@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.29...0.4.32
 >## What's Changed
+> * Fix missing Textures by @glowredman in https://github.com/GTNewHorizons/amunra/pull/23 (0.4.32)
+> * Fix all Players not on a Mothership being kicked if it ends Transit by @glowredman in https://github.com/GTNewHorizons/amunra/pull/24 (0.4.32)
 > * Prevent NPEs by @glowredman in https://github.com/GTNewHorizons/amunra/pull/20 (0.4.31)
 > * Make the Coolant used in Ion Engines configurable by @glowredman in https://github.com/GTNewHorizons/amunra/pull/22 (0.4.31)
 > * Fix oredict for spodumene ore by @chochem in https://github.com/GTNewHorizons/amunra/pull/19 (0.4.30)
@@ -199,6 +336,12 @@
 >
 >## New Contributors
 > * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/334 (0.7.17)
+>
+
+# Updated nei-custom-diagram (1.5.5@Side.BOTH --> 1.5.6-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.5.4...1.5.6-pre
+>## What's Changed
+> * Update dependencies by @miozune in https://github.com/GTNewHorizons/nei-custom-diagram/pull/25 (1.5.5)
 >
 
 # Updated thaumicinsurgence (0.2.4@Side.BOTH --> 0.2.6@Side.BOTH)
