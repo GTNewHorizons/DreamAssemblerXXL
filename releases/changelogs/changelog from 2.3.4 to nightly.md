@@ -109,9 +109,11 @@
 > * @DStrand1 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/51 (4.6.7)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.94-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.94-pre
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.96-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.96-pre
 >## What's Changed
+> * Fix missing variable save to NBT by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2093 (5.09.43.96-pre)
+> * Fix missing variable save to NBT by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2093 (5.09.43.95)
 > * Fix chunk corruption when using single recipe lock by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2092 (5.09.43.94-pre)
 > * Fix chunk corruption when using single recipe lock by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2092 (5.09.43.93)
 > * Bring oregen-fix branch to NH org by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2080 (5.09.43.92-pre)
@@ -138,8 +140,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/GTNEIOrePlugin/pull/34 (1.1.0)
 >
 
-# Updated GTNH-Lanthanides (0.10.2@Side.BOTH --> 0.10.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.10.1...0.10.3
+# Updated GTNH-Lanthanides (0.10.2@Side.BOTH --> 0.10.4-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.10.1...0.10.4-pre
 >## What's Changed
 > * remove botdustries monomethylhydrazine by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/59 (0.10.3)
 > * Remove outdated botdustries fluids by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/58 (0.10.2)
@@ -251,9 +253,10 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.60@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.60
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.61@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.61
 >## What's Changed
+> * Fix oredict problems in LP recipes by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/650 (2.1.61)
 > * Dont put New Horizons TC Category on top by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/649 (2.1.60)
 > * Fixes molten glass and other fluid extraction recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/648 (2.1.59)
 > * new Hempcretesand & Hempcrete recipe by @Darkmaxsas in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/647 (2.1.58)
@@ -298,9 +301,10 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/2 (2.4.4)
 >
 
-# Updated TecTech (5.2.22@Side.BOTH --> 5.2.25@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.25
+# Updated TecTech (5.2.22@Side.BOTH --> 5.2.26@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.26
 >## What's Changed
+> * Fix energy infuser and stocking bus interaction by @miozune in https://github.com/GTNewHorizons/TecTech/pull/224 (5.2.26)
 > * Fix EOH recipe time by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/223 (5.2.25)
 > * butcher EOH controller recipe time to 5m like every other controller were by @POPlol333 in https://github.com/GTNewHorizons/TecTech/pull/222 (5.2.24)
 > * Remove 1-step assline lapo battery recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/221 (5.2.23)
@@ -334,6 +338,15 @@
 >## New Contributors
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/TiC-Tooltips/pull/6 (1.2.11)
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/TiC-Tooltips/pull/5 (1.2.10)
+>
+
+# Updated TinkersConstruct (1.9.36-GTNH@Side.BOTH --> 1.9.37-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.35-GTNH...1.9.37-GTNH-pre
+>## What's Changed
+> * Remove smeltery tracks melting recipe by @DotJason in https://github.com/GTNewHorizons/TinkersConstruct/pull/88 (1.9.36-GTNH)
+>
+>## New Contributors
+> * @DotJason made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/88 (1.9.36-GTNH)
 >
 
 # Updated VisualProspecting (1.1.6@Side.BOTH --> 1.1.7-pre@Side.BOTH)
@@ -370,9 +383,12 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/amunra/pull/19 (0.4.30)
 >
 
-# Updated bartworks (0.7.17@Side.BOTH --> 0.7.19-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.16...0.7.19-pre
+# Updated bartworks (0.7.17@Side.BOTH --> 0.7.21-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.16...0.7.21-pre
 >## What's Changed
+> * Use the right LuV material for CAL by @chochem in https://github.com/GTNewHorizons/bartworks/pull/337 (0.7.21-pre)
+> * Ebf Noble Gas Overhaul by @chochem in https://github.com/GTNewHorizons/bartworks/pull/336 (0.7.20)
+> * Use the right LuV material for CAL by @chochem in https://github.com/GTNewHorizons/bartworks/pull/337 (0.7.20)
 > * Ebf Noble Gas Overhaul by @chochem in https://github.com/GTNewHorizons/bartworks/pull/336 (0.7.19-pre)
 > * Update PlatinumSludgeOverHaul.java by @Runakai1 in https://github.com/GTNewHorizons/bartworks/pull/334 (0.7.17)
 >
@@ -380,10 +396,14 @@
 > * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/334 (0.7.17)
 >
 
-# Updated nei-custom-diagram (1.5.5@Side.BOTH --> 1.5.6-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.5.4...1.5.6-pre
+# Updated nei-custom-diagram (1.5.5@Side.BOTH --> 1.5.8-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.5.4...1.5.8-pre
 >## What's Changed
+> * Prevent custom diagrams from overriding NEI tab scrolling by @wlhlm in https://github.com/GTNewHorizons/nei-custom-diagram/pull/26 (1.5.7)
 > * Update dependencies by @miozune in https://github.com/GTNewHorizons/nei-custom-diagram/pull/25 (1.5.5)
+>
+>## New Contributors
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/nei-custom-diagram/pull/26 (1.5.7)
 >
 
 # Updated thaumicinsurgence (0.2.4@Side.BOTH --> 0.2.6@Side.BOTH)

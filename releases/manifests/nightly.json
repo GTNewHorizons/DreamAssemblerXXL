@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-06-20T19:09:26.620888",
+  "last_updated": "2023-06-20T19:16:34.304819",
   "config": "2.3.4-nihghtly-2023-06-05",
   "github_mods": {
     "AdventureBackpack2": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.19-pre",
+      "version": "0.7.21-pre",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.94-pre",
+      "version": "5.09.43.96-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.10.3",
+      "version": "0.10.4-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.5.6-pre",
+      "version": "1.5.8-pre",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.60",
+      "version": "2.1.61",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.25",
+      "version": "5.2.26",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -641,7 +641,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.9.36-GTNH",
+      "version": "1.9.37-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
