@@ -1,19 +1,19 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-06-18T14:59:40.367408",
-  "config": "2.3.4",
+  "last_updated": "2023-06-20T19:09:26.620888",
+  "config": "2.3.4-nihghtly-2023-06-05",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.14-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.21-gtnh",
+      "version": "1.1.22-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.5.1.16-GTNH",
+      "version": "0.5.2-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-228-GTNH",
+      "version": "rv3-beta-229-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.2.3-GTNH",
+      "version": "1.2.4-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.92-pre",
+      "version": "5.09.43.94-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.47",
+      "version": "1.9.48",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -317,7 +317,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.3.97-pre",
+      "version": "2.8.3.98-pre",
       "side": "CLIENT"
     },
     "INpureCore": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.58",
+      "version": "2.1.60",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.24",
+      "version": "5.2.25",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -939,7 +939,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.7",
+      "version": "1.5.10",
       "side": "BOTH"
     },
     "Tinkers-Gregworks": {

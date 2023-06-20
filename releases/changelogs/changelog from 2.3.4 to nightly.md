@@ -1,6 +1,17 @@
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-225-GTNH@Side.BOTH --> rv3-beta-228-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-224-GTNH...rv3-beta-228-GTNH
+# Updated AE2FluidCraft-Rework (1.1.21-gtnh@Side.BOTH --> 1.1.22-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.20-gtnh...1.1.22-gtnh
 >## What's Changed
+> * Code cleanup by @chill-was-taken in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/133 (1.1.22-gtnh)
+> * Update APIs by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/130 (1.1.21-gtnh)
+>
+>## New Contributors
+> * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/133 (1.1.22-gtnh)
+>
+
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-225-GTNH@Side.BOTH --> rv3-beta-229-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-224-GTNH...rv3-beta-229-GTNH
+>## What's Changed
+> * API: Add simple item render overlay hook for duradisplay by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/342 (rv3-beta-229-GTNH)
 > * PreCrafting mode to add crafting plans when items missing by @wohaopa in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/341 (rv3-beta-228-GTNH)
 > * AE2 Wireless Access Point Incorrect Energy Usage Display by @repo-alt in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/343 (rv3-beta-227-GTNH)
 > * Change editorconfig + Fix blocking mode config channel by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/339 (rv3-beta-226-GTNH)
@@ -98,9 +109,11 @@
 > * @DStrand1 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/51 (4.6.7)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.92-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.92-pre
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.94-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.94-pre
 >## What's Changed
+> * Fix chunk corruption when using single recipe lock by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2092 (5.09.43.94-pre)
+> * Fix chunk corruption when using single recipe lock by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2092 (5.09.43.93)
 > * Bring oregen-fix branch to NH org by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2080 (5.09.43.92-pre)
 > * Fix Precision by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2091 (5.09.43.91)
 > * Make Placing cables and pipes easier by making them full blocks when the player sneaks and is holding one by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2088 (5.09.43.90)
@@ -132,9 +145,10 @@
 > * Remove outdated botdustries fluids by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/58 (0.10.2)
 >
 
-# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.47@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.47
+# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.48@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.48
 >## What's Changed
+> * Adding Circuit requirement for data orb repository to tooltip and rem… by @TheEpicGamer274 in https://github.com/GTNewHorizons/GTplusplus/pull/675 (1.9.48)
 > * Monomethylhydrazine cleanup by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/674 (1.9.47)
 > * Reword Crop Manager AoE description in tooltip by @wlhlm in https://github.com/GTNewHorizons/GTplusplus/pull/673 (1.9.46)
 > * Fix some BW materials creating bad washer recipes by @serenibyss in https://github.com/GTNewHorizons/GTplusplus/pull/672 (1.9.45)
@@ -147,6 +161,9 @@
 > * Remove broken GC asm by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/666 (1.9.40)
 > * Update dep + change comb recipe by @Runakai1 in https://github.com/GTNewHorizons/GTplusplus/pull/664 (1.9.39)
 >
+>## New Contributors
+> * @TheEpicGamer274 made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/675 (1.9.48)
+>
 
 # Updated Galacticraft (3.0.69-GTNH@Side.BOTH --> 3.0.71-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.68-GTNH...3.0.71-GTNH
@@ -154,6 +171,16 @@
 > * Fix mouse scroll with lwjgl3 by @miozune in https://github.com/GTNewHorizons/Galacticraft/pull/78 (3.0.71-GTNH)
 > * Rework Rocket Fuel API by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/77 (3.0.70-GTNH)
 > * Cleanup by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/76 (3.0.69-GTNH)
+>
+
+# Updated Galaxy-Space-GTNH (1.2.3-GTNH@Side.BOTH --> 1.2.4-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.2.2-GTNH...1.2.4-GTNH
+>## What's Changed
+> * Removes Renaming For Dyson Blocks by @Runakai1 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/93 (1.2.4-GTNH)
+> * Move Vega-system closer to solar system by @glowredman in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/92 (1.2.3-GTNH)
+>
+>## New Contributors
+> * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/93 (1.2.4-GTNH)
 >
 
 # Updated Hodgepodge (2.2.18@Side.BOTH --> 2.2.19@Side.BOTH)
@@ -175,8 +202,8 @@
 > * Fix NPE with FluidTankInfo by @miozune in https://github.com/GTNewHorizons/HoloInventory/pull/33 (2.2.2-GTNH)
 >
 
-# Updated InGame-Info-XML (2.8.3.96@Side.CLIENT --> 2.8.3.97-pre@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.3.95...2.8.3.97-pre
+# Updated InGame-Info-XML (2.8.3.96@Side.CLIENT --> 2.8.3.98-pre@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.3.95...2.8.3.98-pre
 >## What's Changed
 > * Change event subsciption for rendering by @Alexdoru in https://github.com/GTNewHorizons/InGame-Info-XML/pull/17 (2.8.3.96)
 >
@@ -224,9 +251,11 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.58@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.58
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.60@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.60
 >## What's Changed
+> * Dont put New Horizons TC Category on top by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/649 (2.1.60)
+> * Fixes molten glass and other fluid extraction recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/648 (2.1.59)
 > * new Hempcretesand & Hempcrete recipe by @Darkmaxsas in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/647 (2.1.58)
 > * new hempcrete recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/645 (2.1.57)
 > * coremod bending recipe cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/646 (2.1.57)
@@ -269,9 +298,10 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/2 (2.4.4)
 >
 
-# Updated TecTech (5.2.22@Side.BOTH --> 5.2.24@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.24
+# Updated TecTech (5.2.22@Side.BOTH --> 5.2.25@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.25
 >## What's Changed
+> * Fix EOH recipe time by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/223 (5.2.25)
 > * butcher EOH controller recipe time to 5m like every other controller were by @POPlol333 in https://github.com/GTNewHorizons/TecTech/pull/222 (5.2.24)
 > * Remove 1-step assline lapo battery recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/221 (5.2.23)
 > * EOH tooltip touch-up by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/220 (5.2.22)
@@ -313,6 +343,18 @@
 >
 >## New Contributors
 > * @PolkageistHS made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/33 (1.1.6)
+>
+
+# Updated ae2stuff (0.5.1.16-GTNH@Side.BOTH --> 0.5.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ae2stuff/compare/0.5.1.15-GTNH...0.5.2-GTNH
+>## What's Changed
+> * Code cleanup by @chill-was-taken in https://github.com/GTNewHorizons/ae2stuff/pull/10 (0.5.2-GTNH)
+> * Spotless apply for branch feature/ghostloading for #8 by @github-actions in https://github.com/GTNewHorizons/ae2stuff/pull/9 (0.5.1.16-GTNH)
+> * Prevent ghostloading by @repo-alt in https://github.com/GTNewHorizons/ae2stuff/pull/8 (0.5.1.16-GTNH)
+>
+>## New Contributors
+> * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/ae2stuff/pull/10 (0.5.2-GTNH)
+> * @github-actions made their first contribution in https://github.com/GTNewHorizons/ae2stuff/pull/9 (0.5.1.16-GTNH)
 >
 
 # Updated amunra (0.4.30@Side.BOTH --> 0.4.32@Side.BOTH)
