@@ -147,9 +147,10 @@
 > * Remove outdated botdustries fluids by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/58 (0.10.2)
 >
 
-# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.48@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.48
+# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.49@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.49
 >## What's Changed
+> * MassFab: Set efficiency in SCRAP mode. by @fluffle in https://github.com/GTNewHorizons/GTplusplus/pull/676 (1.9.49)
 > * Adding Circuit requirement for data orb repository to tooltip and rem… by @TheEpicGamer274 in https://github.com/GTNewHorizons/GTplusplus/pull/675 (1.9.48)
 > * Monomethylhydrazine cleanup by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/674 (1.9.47)
 > * Reword Crop Manager AoE description in tooltip by @wlhlm in https://github.com/GTNewHorizons/GTplusplus/pull/673 (1.9.46)
@@ -164,6 +165,7 @@
 > * Update dep + change comb recipe by @Runakai1 in https://github.com/GTNewHorizons/GTplusplus/pull/664 (1.9.39)
 >
 >## New Contributors
+> * @fluffle made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/676 (1.9.49)
 > * @TheEpicGamer274 made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/675 (1.9.48)
 >
 
@@ -228,13 +230,15 @@
 > * Fix bug with flowers and show what flowers are missing in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/76 (0.11.1)
 >
 
-# Updated LogisticsPipes (1.0.1-GTNH@Side.BOTH --> 1.0.2-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.0.0-GTNH...1.0.2-GTNH
+# Updated LogisticsPipes (1.0.1-GTNH@Side.BOTH --> 1.0.4-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.0.0-GTNH...1.0.4-GTNH
 >## What's Changed
+> * Fix Power Junction idle EU power drain by @wlhlm in https://github.com/GTNewHorizons/LogisticsPipes/pull/22 (1.0.4-GTNH)
 > * Fix crash with Java12+ env by @miozune in https://github.com/GTNewHorizons/LogisticsPipes/pull/21 (1.0.2-GTNH)
 > * Fix items not being added in the pack by @kuba6000 in https://github.com/GTNewHorizons/LogisticsPipes/pull/20 (1.0.1-GTNH)
 >
 >## New Contributors
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/22 (1.0.4-GTNH)
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/20 (1.0.1-GTNH)
 >
 
@@ -253,9 +257,10 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.61@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.61
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.62@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.62
 >## What's Changed
+> * Allow arbitrary charge level for GraviChestPlate inputs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/652 (2.1.62)
 > * Fix oredict problems in LP recipes by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/650 (2.1.61)
 > * Dont put New Horizons TC Category on top by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/649 (2.1.60)
 > * Fixes molten glass and other fluid extraction recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/648 (2.1.59)
@@ -340,9 +345,11 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/TiC-Tooltips/pull/5 (1.2.10)
 >
 
-# Updated TinkersConstruct (1.9.36-GTNH@Side.BOTH --> 1.9.37-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.35-GTNH...1.9.37-GTNH-pre
+# Updated TinkersConstruct (1.9.36-GTNH@Side.BOTH --> 1.9.38-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.35-GTNH...1.9.38-GTNH
 >## What's Changed
+> * Fix tracks properly by @chochem in https://github.com/GTNewHorizons/TinkersConstruct/pull/90 (1.9.38-GTNH)
+> * Fix lumberaxe chain break not validating held item by @miozune in https://github.com/GTNewHorizons/TinkersConstruct/pull/89 (1.9.38-GTNH)
 > * Remove smeltery tracks melting recipe by @DotJason in https://github.com/GTNewHorizons/TinkersConstruct/pull/88 (1.9.36-GTNH)
 >
 >## New Contributors
@@ -396,8 +403,8 @@
 > * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/334 (0.7.17)
 >
 
-# Updated nei-custom-diagram (1.5.5@Side.BOTH --> 1.5.8-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.5.4...1.5.8-pre
+# Updated nei-custom-diagram (1.5.5@Side.BOTH --> 1.5.9-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.5.4...1.5.9-pre
 >## What's Changed
 > * Prevent custom diagrams from overriding NEI tab scrolling by @wlhlm in https://github.com/GTNewHorizons/nei-custom-diagram/pull/26 (1.5.7)
 > * Update dependencies by @miozune in https://github.com/GTNewHorizons/nei-custom-diagram/pull/25 (1.5.5)

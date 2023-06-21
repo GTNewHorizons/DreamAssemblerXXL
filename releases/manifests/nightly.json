@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-06-20T19:23:08.310935",
+  "last_updated": "2023-06-21T20:01:14.542047",
   "config": "2.3.4-nihghtly-2023-06-05",
   "github_mods": {
     "AdventureBackpack2": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.48",
+      "version": "1.9.49",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.0.2-GTNH",
+      "version": "1.0.4-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.5.8-pre",
+      "version": "1.5.9-pre",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.61",
+      "version": "2.1.62",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -641,7 +641,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.9.37-GTNH-pre",
+      "version": "1.9.38-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
