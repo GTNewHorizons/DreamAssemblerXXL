@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-06-21T20:05:19.483544",
+  "last_updated": "2023-06-23T08:09:18.996253",
   "config": "2.3.4",
   "github_mods": {
     "AdventureBackpack2": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.96-pre",
+      "version": "5.09.43.98-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.11.4",
+      "version": "0.12.0",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.0.4-GTNH",
+      "version": "1.0.5-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.5.9-pre",
+      "version": "1.5.10",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -819,6 +819,10 @@
     "DuraDisplay": {
       "version": "1.0.8",
       "side": "CLIENT"
+    },
+    "Mobs-Info": {
+      "version": "0.0.2-GTNH",
+      "side": "BOTH"
     }
   },
   "external_mods": {

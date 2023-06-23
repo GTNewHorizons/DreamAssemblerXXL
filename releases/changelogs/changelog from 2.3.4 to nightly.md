@@ -1,3 +1,5 @@
+# New Mods:
+> * Mobs-Info
 # Updated AE2FluidCraft-Rework (1.1.21-gtnh@Side.BOTH --> 1.1.22-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.20-gtnh...1.1.22-gtnh
 >## What's Changed
@@ -109,9 +111,11 @@
 > * @DStrand1 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/51 (4.6.7)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.96-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.96-pre
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.98-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.98-pre
 >## What's Changed
+> * Improve Long Distance Pipeline usability and rework textures slightly by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2094 (5.09.43.98-pre)
+> * Improve Long Distance Pipeline usability and rework textures slightly by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2094 (5.09.43.97)
 > * Fix missing variable save to NBT by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2093 (5.09.43.96-pre)
 > * Fix missing variable save to NBT by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2093 (5.09.43.95)
 > * Fix chunk corruption when using single recipe lock by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2092 (5.09.43.94-pre)
@@ -221,18 +225,22 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Infernal-Mobs/pull/13 (1.7.9-GTNH)
 >
 
-# Updated KubaTech (0.11.1@Side.BOTH --> 0.11.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.11.0...0.11.4
+# Updated KubaTech (0.11.1@Side.BOTH --> 0.12.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.11.0...0.12.0
 >## What's Changed
+> * Fix outputting to normal output bus by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/81 (0.12.0)
+> * Remove Mobs Info NEI page from KubaTech by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/82 (0.12.0)
+> * Output all crops / bees when controller is broken by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/80 (0.11.5)
 > * Save/read NBT in config files as a string to be more readable by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/79 (0.11.4)
 > * Fix crash when there are spaces in the game path by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/78 (0.11.3)
 > * Use mixins accessors + some misc fixes by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/77 (0.11.2)
 > * Fix bug with flowers and show what flowers are missing in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/76 (0.11.1)
 >
 
-# Updated LogisticsPipes (1.0.1-GTNH@Side.BOTH --> 1.0.4-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.0.0-GTNH...1.0.4-GTNH
+# Updated LogisticsPipes (1.0.1-GTNH@Side.BOTH --> 1.0.5-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.0.0-GTNH...1.0.5-GTNH
 >## What's Changed
+> * Remove accidentally committed dependencies by @wlhlm in https://github.com/GTNewHorizons/LogisticsPipes/pull/23 (1.0.5-GTNH)
 > * Fix Power Junction idle EU power drain by @wlhlm in https://github.com/GTNewHorizons/LogisticsPipes/pull/22 (1.0.4-GTNH)
 > * Fix crash with Java12+ env by @miozune in https://github.com/GTNewHorizons/LogisticsPipes/pull/21 (1.0.2-GTNH)
 > * Fix items not being added in the pack by @kuba6000 in https://github.com/GTNewHorizons/LogisticsPipes/pull/20 (1.0.1-GTNH)
@@ -241,6 +249,9 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/22 (1.0.4-GTNH)
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/20 (1.0.1-GTNH)
 >
+
+# New Mod - Mobs-Info (0.0.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/commits/0.0.2-GTNH
 
 # Updated ModularUI (1.1.10@Side.BOTH --> 1.1.12@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.9...1.1.12
@@ -403,9 +414,10 @@
 > * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/334 (0.7.17)
 >
 
-# Updated nei-custom-diagram (1.5.5@Side.BOTH --> 1.5.9-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.5.4...1.5.9-pre
+# Updated nei-custom-diagram (1.5.5@Side.BOTH --> 1.5.10@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.5.4...1.5.10
 >## What's Changed
+> * Make horizontal scrolling using the scrollwheel work again by @wlhlm in https://github.com/GTNewHorizons/nei-custom-diagram/pull/27 (1.5.10)
 > * Prevent custom diagrams from overriding NEI tab scrolling by @wlhlm in https://github.com/GTNewHorizons/nei-custom-diagram/pull/26 (1.5.7)
 > * Update dependencies by @miozune in https://github.com/GTNewHorizons/nei-custom-diagram/pull/25 (1.5.5)
 >
