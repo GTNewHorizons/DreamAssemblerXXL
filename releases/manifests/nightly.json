@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-06-23T08:09:18.996253",
+  "last_updated": "2023-06-28T13:00:17.373476",
   "config": "2.3.4",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.22-gtnh",
+      "version": "1.1.23-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-229-GTNH",
+      "version": "rv3-beta-230-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.21-pre",
+      "version": "0.7.23-pre",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.3.3",
+      "version": "1.3.4",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.9",
+      "version": "0.6.10",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.98-pre",
+      "version": "5.09.43.101-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
-      "version": "1.3.0",
+      "version": "1.3.1",
       "side": "BOTH"
     },
     "GTNHLib": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.49",
+      "version": "1.9.51",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.8.5",
+      "version": "0.8.6",
       "side": "BOTH"
     },
     "KubaTech": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "MalisisCore": {
-      "version": "0.14.7-GTNH",
+      "version": "0.14.8-pre",
       "side": "BOTH"
     },
     "MalisisDoors": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.62",
+      "version": "2.1.63",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -445,7 +445,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.56-GTNH-pre",
+      "version": "2.3.58-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -465,7 +465,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.9.9-GTNH-pre",
+      "version": "1.9.10-GTNH-pre",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -493,11 +493,11 @@
       "side": "BOTH"
     },
     "ProjectBlue": {
-      "version": "1.1.8-GTNH",
+      "version": "1.1.9-GTNH-pre",
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.7.9-GTNH",
+      "version": "4.7.10-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.26",
+      "version": "5.2.27-pre",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -621,7 +621,7 @@
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.3.1",
+      "version": "1.3.2",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -821,7 +821,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.0.2-GTNH",
+      "version": "0.0.3-GTNH",
       "side": "BOTH"
     }
   },
