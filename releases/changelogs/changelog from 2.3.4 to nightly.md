@@ -1,18 +1,21 @@
 # New Mods:
 > * Mobs-Info
-# Updated AE2FluidCraft-Rework (1.1.21-gtnh@Side.BOTH --> 1.1.23-gtnh-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.20-gtnh...1.1.23-gtnh-pre
+# Updated AE2FluidCraft-Rework (1.1.21-gtnh@Side.BOTH --> 1.1.24-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.20-gtnh...1.1.24-gtnh
 >## What's Changed
+> * Changed craft amount config ref from priority to crafting amount by @minecraft7771 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/134 (1.1.24-gtnh)
 > * Code cleanup by @chill-was-taken in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/133 (1.1.22-gtnh)
 > * Update APIs by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/130 (1.1.21-gtnh)
 >
 >## New Contributors
+> * @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/134 (1.1.24-gtnh)
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/133 (1.1.22-gtnh)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-225-GTNH@Side.BOTH --> rv3-beta-230-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-224-GTNH...rv3-beta-230-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-225-GTNH@Side.BOTH --> rv3-beta-232-GTNH-stable-patch-backport@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-224-GTNH...rv3-beta-231-GTNH
 >## What's Changed
+> * Buff interface throughput by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/350 (rv3-beta-231-GTNH)
 > * Config for renaming input length by @minecraft7771 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/348 (rv3-beta-230-GTNH)
 > * Fix quartz knife cursor position by @minecraft7771 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/349 (rv3-beta-230-GTNH)
 > * API: Add simple item render overlay hook for duradisplay by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/342 (rv3-beta-229-GTNH)
@@ -306,8 +309,8 @@
 > * Optimize rendering by @eigenraven in https://github.com/GTNewHorizons/MalisisCore/pull/4 (0.14.7-GTNH)
 >
 
-# New Mod - Mobs-Info (0.0.3-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/commits/0.0.3-GTNH
+# New Mod - Mobs-Info (0.0.4-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/commits/0.0.4-GTNH
 >## What's Changed
 > * Add Infernal Drops NEI tab (Expand Infernal-Mobs compatibility) by @kuba6000 in https://github.com/kuba6000/Mobs-Info/pull/6 (0.0.3-GTNH)
 > * Make everything in extras (compatibilities) translatable by @kuba6000 in https://github.com/kuba6000/Mobs-Info/pull/7 (0.0.3-GTNH)
@@ -328,8 +331,8 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.63@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.63
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.64-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.64-pre
 >## What's Changed
 > * ChemBath RA2 + cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/653 (2.1.63)
 > * Allow arbitrary charge level for GraviChestPlate inputs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/652 (2.1.62)
@@ -403,9 +406,10 @@
 > * EOH tooltip touch-up by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/220 (5.2.22)
 >
 
-# Updated ThaumicHorizons (1.2.1.12@Side.BOTH --> 1.3.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.2.1.11...1.3.2
+# Updated ThaumicHorizons (1.2.1.12@Side.BOTH --> 1.3.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.2.1.11...1.3.3
 >## What's Changed
+> * Planar fix by @Alastors in https://github.com/GTNewHorizons/ThaumicHorizons/pull/50 (1.3.3)
 > * Add CF Publishing by @mitchej123 in https://github.com/GTNewHorizons/ThaumicHorizons/pull/45 (1.3.2)
 > * Remove commented-out code and obscure comments by @chill-was-taken in https://github.com/GTNewHorizons/ThaumicHorizons/pull/44 (1.3.1)
 > * Updating license to reflect the new status of the mod by @Alastors in https://github.com/GTNewHorizons/ThaumicHorizons/pull/41 (1.3.0)
