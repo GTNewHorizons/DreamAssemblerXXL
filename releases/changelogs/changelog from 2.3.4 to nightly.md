@@ -127,9 +127,11 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/15 (1.3.3)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.100-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.100-pre
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.102-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.102-pre
 >## What's Changed
+> * Fix crash by casting emptyList to ArrayList by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2103 (5.09.43.102-pre)
+> * Fix crash by casting emptyList to ArrayList by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2103 (5.09.43.101)
 > * ForgeDirections fix for GT Boilers by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2095 (5.09.43.100-pre)
 > * ForgeDirections fix for GT Boilers by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2095 (5.09.43.99)
 > * Improve Long Distance Pipeline usability and rework textures slightly by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2094 (5.09.43.98-pre)
@@ -180,9 +182,10 @@
 > * @KuroPeach made their first contribution in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/15 (1.3.0)
 >
 
-# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.51@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.51
+# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.52@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.52
 >## What's Changed
+> * Remove Breaker Box by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/683 (1.9.52)
 > * Added LPF mode to WAILA tooltip by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/680 (1.9.51)
 > * Added mac stack tier to WAILA tooltip by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/681 (1.9.51)
 > * Add Wireless Charger Baubles Compat by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/682 (1.9.51)
@@ -234,9 +237,10 @@
 > * Update to new input separation API & appearance of PAss GUI by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/166 (0.6.9)
 >
 
-# Updated Hodgepodge (2.2.18@Side.BOTH --> 2.2.19@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.17...2.2.19
+# Updated Hodgepodge (2.2.18@Side.BOTH --> 2.2.20@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.17...2.2.20
 >## What's Changed
+> * ArchaicFix compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/222 (2.2.20)
 > * Add offline mode UUID mapping by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/221 (2.2.19)
 > * Add pollution tooltips by @tytan652 in https://github.com/GTNewHorizons/Hodgepodge/pull/220 (2.2.18)
 > * Fix crashing due to server/client container size mismatch by @Denostrov in https://github.com/GTNewHorizons/Hodgepodge/pull/219 (2.2.18)
@@ -303,10 +307,14 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/20 (1.0.1-GTNH)
 >
 
-# Updated MalisisCore (0.14.7-GTNH@Side.BOTH --> 0.14.8-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/MalisisCore/compare/0.14.6-GTNH...0.14.8-pre
+# Updated MalisisCore (0.14.7-GTNH@Side.BOTH --> 0.14.9@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MalisisCore/compare/0.14.6-GTNH...0.14.9
 >## What's Changed
+> * Update readme by @miozune in https://github.com/GTNewHorizons/MalisisCore/pull/6 (0.14.9)
 > * Optimize rendering by @eigenraven in https://github.com/GTNewHorizons/MalisisCore/pull/4 (0.14.7-GTNH)
+>
+>## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/MalisisCore/pull/6 (0.14.9)
 >
 
 # New Mod - Mobs-Info (0.0.4-GTNH@Side.BOTH)
@@ -331,8 +339,8 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.64-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.64-pre
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.65-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.65-pre
 >## What's Changed
 > * ChemBath RA2 + cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/653 (2.1.63)
 > * Allow arbitrary charge level for GraviChestPlate inputs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/652 (2.1.62)
@@ -448,8 +456,8 @@
 > * @DotJason made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/88 (1.9.36-GTNH)
 >
 
-# Updated VisualProspecting (1.1.6@Side.BOTH --> 1.1.7-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.1.5...1.1.7-pre
+# Updated VisualProspecting (1.1.6@Side.BOTH --> 1.1.8-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.1.5...1.1.8-pre
 >## What's Changed
 > * Added hotkeys to toggle map overlays by @PolkageistHS in https://github.com/GTNewHorizons/VisualProspecting/pull/33 (1.1.6)
 >
@@ -482,9 +490,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/amunra/pull/19 (0.4.30)
 >
 
-# Updated bartworks (0.7.17@Side.BOTH --> 0.7.23-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.16...0.7.23-pre
+# Updated bartworks (0.7.17@Side.BOTH --> 0.7.25-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.16...0.7.25-pre
 >## What's Changed
+> * Fix non-positive TiC tool stats by @miozune in https://github.com/GTNewHorizons/bartworks/pull/339 (0.7.24)
 > * Use the right LuV material for CAL by @chochem in https://github.com/GTNewHorizons/bartworks/pull/337 (0.7.21-pre)
 > * Ebf Noble Gas Overhaul by @chochem in https://github.com/GTNewHorizons/bartworks/pull/336 (0.7.20)
 > * Use the right LuV material for CAL by @chochem in https://github.com/GTNewHorizons/bartworks/pull/337 (0.7.20)
