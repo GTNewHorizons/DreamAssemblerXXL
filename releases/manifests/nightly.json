@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-06-30T12:21:35.718748",
+  "last_updated": "2023-06-30T12:30:04.198801",
   "config": "2.3.4",
   "github_mods": {
     "AdventureBackpack2": {
@@ -827,6 +827,10 @@
     "Advanced-Botany": {
       "version": "1.4.3",
       "side": "BOTH"
+    },
+    "BeeBetterAtBees-GTNH": {
+      "version": "0.3.1-GTNH",
+      "side": "CLIENT"
     }
   },
   "external_mods": {
@@ -885,10 +889,6 @@
     "CoFH Core": {
       "version": "3.1.4-329",
       "side": "BOTH"
-    },
-    "BeeBetterAtBees": {
-      "version": "0.3",
-      "side": "CLIENT"
     },
     "p455w0rd's Library": {
       "version": "1.0.4",

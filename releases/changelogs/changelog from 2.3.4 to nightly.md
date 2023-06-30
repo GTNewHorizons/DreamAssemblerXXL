@@ -1,6 +1,9 @@
 # New Mods:
 > * Advanced-Botany
+> * BeeBetterAtBees-GTNH
 > * Mobs-Info
+# Mods Removed:
+> * BeeBetterAtBees
 # Updated AE2FluidCraft-Rework (1.1.21-gtnh@Side.BOTH --> 1.1.24-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.20-gtnh...1.1.24-gtnh
 >## What's Changed
@@ -48,6 +51,18 @@
 >## What's Changed
 > * Fix server causing error with NEI by @miozune in https://github.com/GTNewHorizons/Avaritia/pull/34 (1.43)
 > * Don't register Tinker's parts recipes in GTNH by @miozune in https://github.com/GTNewHorizons/Avaritia/pull/33 (1.42)
+>
+
+# New Mod - BeeBetterAtBees-GTNH (0.3.1-GTNH@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/commits/0.3.1-GTNH
+>## What's Changed
+> * Create README.md by @Dream-Master in https://github.com/GTNewHorizons/BeeBetterAtBees/pull/1 (0.3.1-GTNH)
+> * Update README.md by @Dream-Master in https://github.com/GTNewHorizons/BeeBetterAtBees/pull/2 (0.3.1-GTNH)
+> * Update Buildscript and fill README by @glowredman in https://github.com/GTNewHorizons/BeeBetterAtBees/pull/3 (0.3.1-GTNH)
+>
+>## New Contributors
+> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/BeeBetterAtBees/pull/1 (0.3.1-GTNH)
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/BeeBetterAtBees/pull/3 (0.3.1-GTNH)
 >
 
 # Updated Binnie (2.1.4@Side.BOTH --> 2.1.6@Side.BOTH)
