@@ -250,6 +250,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.1.24-gtnh |
 | [ae2stuff](https://github.com/GTNewHorizons/ae2stuff) | 0.5.2-GTNH |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.2.6-GTNH |
+| [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.0.2-GTNH |
 | [amunra](https://github.com/GTNewHorizons/amunra) | 0.4.32 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.6.3 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.2.10 |

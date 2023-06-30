@@ -1,5 +1,6 @@
 # New Mods:
 > * Advanced-Botany
+> * AlchemyGrate
 > * BeeBetterAtBees-GTNH
 > * Mobs-Info
 # Mods Removed:
@@ -26,6 +27,17 @@
 >
 >## New Contributors
 > * @EnderProyects made their first contribution in https://github.com/GTNewHorizons/Advanced-Botany/pull/2 (1.4.0)
+>
+
+# New Mod - AlchemyGrate (1.0.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AlchemyGrate/commits/1.0.2-GTNH
+>## What's Changed
+> * Gregfing the recipe by @EnderProyects in https://github.com/GTNewHorizons/AlchemyGrate/pull/2 (1.0.2-GTNH)
+> * Update Buildscript by @glowredman in https://github.com/GTNewHorizons/AlchemyGrate/pull/1 (1.0.1-GTNH)
+>
+>## New Contributors
+> * @EnderProyects made their first contribution in https://github.com/GTNewHorizons/AlchemyGrate/pull/2 (1.0.2-GTNH)
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/AlchemyGrate/pull/1 (1.0.1-GTNH)
 >
 
 # Updated Applied-Energistics-2-Unofficial (rv3-beta-225-GTNH@Side.BOTH --> rv3-beta-232-GTNH-stable-patch-backport@Side.BOTH)
