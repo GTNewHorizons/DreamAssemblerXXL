@@ -1,4 +1,5 @@
 # New Mods:
+> * Advanced-Botany
 > * Mobs-Info
 # Updated AE2FluidCraft-Rework (1.1.21-gtnh@Side.BOTH --> 1.1.24-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.20-gtnh...1.1.24-gtnh
@@ -10,6 +11,18 @@
 >## New Contributors
 > * @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/134 (1.1.24-gtnh)
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/133 (1.1.22-gtnh)
+>
+
+# New Mod - Advanced-Botany (1.4.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Advanced-Botany/commits/1.4.3
+>## What's Changed
+> * Feature/advanced botany infu by @EnderProyects in https://github.com/GTNewHorizons/Advanced-Botany/pull/7 (1.4.3)
+> * Feature/advanced botany by @EnderProyects in https://github.com/GTNewHorizons/Advanced-Botany/pull/5 (1.4.1)
+> * Integration by @EnderProyects in https://github.com/GTNewHorizons/Advanced-Botany/pull/4 (1.4.1)
+> * Updated buildscript by @EnderProyects in https://github.com/GTNewHorizons/Advanced-Botany/pull/2 (1.4.0)
+>
+>## New Contributors
+> * @EnderProyects made their first contribution in https://github.com/GTNewHorizons/Advanced-Botany/pull/2 (1.4.0)
 >
 
 # Updated Applied-Energistics-2-Unofficial (rv3-beta-225-GTNH@Side.BOTH --> rv3-beta-232-GTNH-stable-patch-backport@Side.BOTH)

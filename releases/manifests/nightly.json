@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-06-30T12:11:46.685646",
+  "last_updated": "2023-06-30T12:21:35.718748",
   "config": "2.3.4",
   "github_mods": {
     "AdventureBackpack2": {
@@ -822,6 +822,10 @@
     },
     "Mobs-Info": {
       "version": "0.0.4-GTNH",
+      "side": "BOTH"
+    },
+    "Advanced-Botany": {
+      "version": "1.4.3",
       "side": "BOTH"
     }
   },
