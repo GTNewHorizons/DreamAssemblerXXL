@@ -146,8 +146,8 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/39 (1.1.18-GTNH)
 >
 
-# Updated ForestryMC (4.6.7@Side.BOTH --> 4.6.8@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.6...4.6.8
+# Updated ForestryMC (4.6.7@Side.BOTH --> 4.6.9-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.6...4.6.9-pre
 >## What's Changed
 > * Fix Alveary Simulation of Temperatures by @Runakai1 in https://github.com/GTNewHorizons/ForestryMC/pull/52 (4.6.8)
 > * Auto-apply stats tooltips to all IHiveFrame items by @DStrand1 in https://github.com/GTNewHorizons/ForestryMC/pull/51 (4.6.7)
@@ -167,9 +167,18 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/15 (1.3.3)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.102-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.102-pre
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.106-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.106-pre
 >## What's Changed
+> * Bring oregen-fix branch to NH org by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2080 (5.09.43.105-pre)
+> * Minor integrated ore factory tooltip changes by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2107 (5.09.43.104)
+> * Refactor Cleanroom logic by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2108 (5.09.43.104)
+> * Trans metal renderer rework by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2102 (5.09.43.104)
+> * Fix Tartarite smelting by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2098 (5.09.43.104)
+> * Overhaul stretchy materials (aka bending recipes for Polyethylene) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2097 (5.09.43.104)
+> * fix ceruclase, vulcanite, and mithril by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2111 (5.09.43.104)
+> * Clarify ME Output Bus and ME Output Hatch tooltips by @DmitryScaletta in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2106 (5.09.43.104)
+> * fix remove hourglass from Glass requirements by @Quetz4l in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2100 (5.09.43.104)
 > * Fix crash by casting emptyList to ArrayList by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2103 (5.09.43.102-pre)
 > * Fix crash by casting emptyList to ArrayList by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2103 (5.09.43.101)
 > * ForgeDirections fix for GT Boilers by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2095 (5.09.43.100-pre)
@@ -192,6 +201,10 @@
 > * Fix missing copy call for fluid recipe builder by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2078 (5.09.43.85)
 > * Fix warning when closing circuit selection window by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2079 (5.09.43.85)
 > * fix typo in asset names by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2077 (5.09.43.84)
+>
+>## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2107 (5.09.43.104)
+> * @DmitryScaletta made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2106 (5.09.43.104)
 >
 
 # Updated GTNEIOrePlugin (1.1.0@Side.BOTH --> 1.1.1@Side.BOTH)
@@ -268,18 +281,25 @@
 > * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/93 (1.2.4-GTNH)
 >
 
-# Updated GoodGenerator (0.6.9@Side.BOTH --> 0.6.10@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.8...0.6.10
+# Updated GoodGenerator (0.6.9@Side.BOTH --> 0.6.12-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.8...0.6.12-pre
 >## What's Changed
+> * Buffing the LEG to UV for the LEG Laser nerf by @Alastors in https://github.com/GTNewHorizons/GoodGenerator/pull/169 (0.6.11)
+> * Remove laser support for LEG by @chochem in https://github.com/GTNewHorizons/GoodGenerator/pull/168 (0.6.11)
 > * Added more information to PrAss tooltip by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/170 (0.6.10)
 > * Rename localisation from Aluminum to Aluminium by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/171 (0.6.10)
 > * Added more information to YOTTA structure tooltip by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/172 (0.6.10)
 > * Update to new input separation API & appearance of PAss GUI by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/166 (0.6.9)
 >
+>## New Contributors
+> * @Alastors made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/169 (0.6.11)
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/168 (0.6.11)
+>
 
-# Updated Hodgepodge (2.2.18@Side.BOTH --> 2.2.20@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.17...2.2.20
+# Updated Hodgepodge (2.2.18@Side.BOTH --> 2.2.21@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.17...2.2.21
 >## What's Changed
+> * Info -> Debug for furnace overwrites by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/224 (2.2.21)
 > * ArchaicFix compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/222 (2.2.20)
 > * Add offline mode UUID mapping by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/221 (2.2.19)
 > * Add pollution tooltips by @tytan652 in https://github.com/GTNewHorizons/Hodgepodge/pull/220 (2.2.18)
@@ -379,9 +399,11 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.65-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.65-pre
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.66@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.66
 >## What's Changed
+> * Fix centrifuging recipes for endergoo and end powder by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/655 (2.1.66)
+> * Assembling Machine recipes for Lootbag upgrading and downgrading by @Cleptomania in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/654 (2.1.66)
 > * ChemBath RA2 + cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/653 (2.1.63)
 > * Allow arbitrary charge level for GraviChestPlate inputs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/652 (2.1.62)
 > * Fix oredict problems in LP recipes by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/650 (2.1.61)
@@ -400,6 +422,7 @@
 > * we dont use ic2 classic by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/638 (2.1.50)
 >
 >## New Contributors
+> * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/654 (2.1.66)
 > * @Darkmaxsas made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/647 (2.1.58)
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
@@ -444,8 +467,8 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/2 (2.4.4)
 >
 
-# Updated TecTech (5.2.22@Side.BOTH --> 5.2.27-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.27-pre
+# Updated TecTech (5.2.22@Side.BOTH --> 5.2.28-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.28-pre
 >## What's Changed
 > * Fix energy infuser and stocking bus interaction by @miozune in https://github.com/GTNewHorizons/TecTech/pull/224 (5.2.26)
 > * Fix EOH recipe time by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/223 (5.2.25)

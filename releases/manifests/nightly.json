@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-06-30T12:47:14.174542",
+  "last_updated": "2023-07-01T18:35:33.566321",
   "config": "2.3.4",
   "github_mods": {
     "AdventureBackpack2": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.6.8",
+      "version": "4.6.9-pre",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.10",
+      "version": "0.6.12-pre",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.102-pre",
+      "version": "5.09.43.106-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.2.20",
+      "version": "2.2.21",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.65-pre",
+      "version": "2.1.66",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.27-pre",
+      "version": "5.2.28-pre",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
