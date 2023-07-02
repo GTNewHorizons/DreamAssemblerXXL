@@ -146,13 +146,24 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/39 (1.1.18-GTNH)
 >
 
-# Updated ForestryMC (4.6.7@Side.BOTH --> 4.6.9-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.6...4.6.9-pre
+# Updated EnderIO (2.4.18@Side.BOTH --> 2.4.19-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.17...2.4.19-pre
 >## What's Changed
+> * Implement item bar visibility config by @Caedis in https://github.com/GTNewHorizons/EnderIO/pull/125 (2.4.18)
+>
+>## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/125 (2.4.18)
+>
+
+# Updated ForestryMC (4.6.7@Side.BOTH --> 4.6.10@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.6...4.6.10
+>## What's Changed
+> * Fix a bug when NBTString does not exist. by @wohaopa in https://github.com/GTNewHorizons/ForestryMC/pull/54 (4.6.10)
 > * Fix Alveary Simulation of Temperatures by @Runakai1 in https://github.com/GTNewHorizons/ForestryMC/pull/52 (4.6.8)
 > * Auto-apply stats tooltips to all IHiveFrame items by @DStrand1 in https://github.com/GTNewHorizons/ForestryMC/pull/51 (4.6.7)
 >
 >## New Contributors
+> * @wohaopa made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/54 (4.6.10)
 > * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/52 (4.6.8)
 > * @DStrand1 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/51 (4.6.7)
 >
@@ -167,8 +178,8 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/15 (1.3.3)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.106-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.106-pre
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.107-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.107-pre
 >## What's Changed
 > * Bring oregen-fix branch to NH org by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2080 (5.09.43.105-pre)
 > * Minor integrated ore factory tooltip changes by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2107 (5.09.43.104)
@@ -235,8 +246,8 @@
 > * @KuroPeach made their first contribution in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/15 (1.3.0)
 >
 
-# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.52@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.52
+# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.53-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.53-pre
 >## What's Changed
 > * Remove Breaker Box by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/683 (1.9.52)
 > * Added LPF mode to WAILA tooltip by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/680 (1.9.51)
@@ -342,9 +353,11 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/KekzTech/pull/70 (0.8.5)
 >
 
-# Updated KubaTech (0.11.1@Side.BOTH --> 0.12.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.11.0...0.12.0
+# Updated KubaTech (0.11.1@Side.BOTH --> 0.12.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.11.0...0.12.1
 >## What's Changed
+> * Small EEC fixes by @chochem in https://github.com/GTNewHorizons/KubaTech/pull/83 (0.12.1)
+> * Clean up and fixes by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/84 (0.12.1)
 > * Fix outputting to normal output bus by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/81 (0.12.0)
 > * Remove Mobs Info NEI page from KubaTech by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/82 (0.12.0)
 > * Output all crops / bees when controller is broken by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/80 (0.11.5)
@@ -352,6 +365,9 @@
 > * Fix crash when there are spaces in the game path by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/78 (0.11.3)
 > * Use mixins accessors + some misc fixes by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/77 (0.11.2)
 > * Fix bug with flowers and show what flowers are missing in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/76 (0.11.1)
+>
+>## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/83 (0.12.1)
 >
 
 # Updated LogisticsPipes (1.0.1-GTNH@Side.BOTH --> 1.0.5-GTNH@Side.BOTH)
@@ -399,8 +415,8 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.66@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.66
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.67-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.67-pre
 >## What's Changed
 > * Fix centrifuging recipes for endergoo and end powder by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/655 (2.1.66)
 > * Assembling Machine recipes for Lootbag upgrading and downgrading by @Cleptomania in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/654 (2.1.66)
@@ -427,8 +443,8 @@
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
 
-# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.58-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.58-GTNH-pre
+# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.59-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.59-GTNH-pre
 >## What's Changed
 > * Adjust recipe handler scrolling again by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/393 (2.3.58-GTNH-pre)
 > * Adjust recipe handler scrolling again by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/393 (2.3.57-GTNH)
@@ -458,6 +474,12 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/23 (4.7.10-GTNH)
 >
 
+# Updated Railcraft (9.14.3@Side.BOTH --> 9.14.4-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.14.2...9.14.4-pre
+>## What's Changed
+> * Fix Cart Dispenser behavior by @miozune in https://github.com/GTNewHorizons/Railcraft/pull/41 (9.14.3)
+>
+
 # Updated Random-Things (2.4.3@Side.BOTH --> 2.4.4@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.4.3...2.4.4
 >## What's Changed
@@ -475,6 +497,16 @@
 > * butcher EOH controller recipe time to 5m like every other controller were by @POPlol333 in https://github.com/GTNewHorizons/TecTech/pull/222 (5.2.24)
 > * Remove 1-step assline lapo battery recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/221 (5.2.23)
 > * EOH tooltip touch-up by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/220 (5.2.22)
+>
+
+# Updated ThaumicEnergistics (1.4.4-GTNH@Side.BOTH --> 1.4.6-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.3-GTNH...1.4.6-GTNH-pre
+>## What's Changed
+> * update wrapper by @Dream-Master in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/45 (1.4.6-GTNH-pre)
+> * Making the name more accurate by @Alastors in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/43 (1.4.4-GTNH)
+>
+>## New Contributors
+> * @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/43 (1.4.4-GTNH)
 >
 
 # Updated ThaumicHorizons (1.2.1.12@Side.BOTH --> 1.3.3@Side.BOTH)
