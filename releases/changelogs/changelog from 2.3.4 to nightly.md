@@ -40,8 +40,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/AlchemyGrate/pull/1 (1.0.1-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-225-GTNH@Side.BOTH --> rv3-beta-232-GTNH-stable-patch-backport@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-224-GTNH...rv3-beta-231-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-225-GTNH@Side.BOTH --> rv3-beta-233-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-224-GTNH...rv3-beta-233-GTNH-pre
 >## What's Changed
 > * Buff interface throughput by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/350 (rv3-beta-231-GTNH)
 > * Config for renaming input length by @minecraft7771 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/348 (rv3-beta-230-GTNH)
@@ -146,9 +146,10 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/39 (1.1.18-GTNH)
 >
 
-# Updated EnderIO (2.4.18@Side.BOTH --> 2.4.19-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.17...2.4.19-pre
+# Updated EnderIO (2.4.18@Side.BOTH --> 2.4.20@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.17...2.4.20
 >## What's Changed
+> * Validate TE of packet by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/126 (2.4.20)
 > * Implement item bar visibility config by @Caedis in https://github.com/GTNewHorizons/EnderIO/pull/125 (2.4.18)
 >
 >## New Contributors
@@ -178,9 +179,17 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/15 (1.3.3)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.107-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.107-pre
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.109-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.109-pre
 >## What's Changed
+> * changed clay chem formula by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2114 (5.09.43.109-pre)
+> * Rectangular Cleanroom Fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2115 (5.09.43.109-pre)
+> * Prioritize ghost slots over manual slot for stocking bus by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2112 (5.09.43.109-pre)
+> * Change lapotron chance by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2117 (5.09.43.109-pre)
+> * changed clay chem formula by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2114 (5.09.43.108)
+> * Rectangular Cleanroom Fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2115 (5.09.43.108)
+> * Prioritize ghost slots over manual slot for stocking bus by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2112 (5.09.43.108)
+> * Change lapotron chance by @Runakai1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2117 (5.09.43.108)
 > * Bring oregen-fix branch to NH org by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2080 (5.09.43.105-pre)
 > * Minor integrated ore factory tooltip changes by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2107 (5.09.43.104)
 > * Refactor Cleanroom logic by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2108 (5.09.43.104)
@@ -307,6 +316,15 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/168 (0.6.11)
 >
 
+# Updated Gravitation-Suite-Neo (1.0.13@Side.BOTH --> 1.0.14-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.10...1.0.14-pre
+>## What's Changed
+> * changes the order of calls when mining in accurate/silk touch mode by @MeiTianyou in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/11 (1.0.13)
+>
+>## New Contributors
+> * @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/11 (1.0.13)
+>
+
 # Updated Hodgepodge (2.2.18@Side.BOTH --> 2.2.21@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.17...2.2.21
 >## What's Changed
@@ -393,8 +411,8 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/MalisisCore/pull/6 (0.14.9)
 >
 
-# New Mod - Mobs-Info (0.0.4-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/commits/0.0.4-GTNH
+# New Mod - Mobs-Info (0.0.5-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/commits/0.0.5-GTNH
 >## What's Changed
 > * Add Infernal Drops NEI tab (Expand Infernal-Mobs compatibility) by @kuba6000 in https://github.com/kuba6000/Mobs-Info/pull/6 (0.0.3-GTNH)
 > * Make everything in extras (compatibilities) translatable by @kuba6000 in https://github.com/kuba6000/Mobs-Info/pull/7 (0.0.3-GTNH)
@@ -415,9 +433,12 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.67-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.67-pre
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.69@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.69
 >## What's Changed
+> * New clay electrolysis recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/658 (2.1.69)
+> * Remove non-existent ores from DD voidminer by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/656 (2.1.69)
+> * Donation coin by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/657 (2.1.69)
 > * Fix centrifuging recipes for endergoo and end powder by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/655 (2.1.66)
 > * Assembling Machine recipes for Lootbag upgrading and downgrading by @Cleptomania in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/654 (2.1.66)
 > * ChemBath RA2 + cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/653 (2.1.63)
@@ -443,8 +464,8 @@
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
 
-# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.59-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.59-GTNH-pre
+# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.61-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.61-GTNH-pre
 >## What's Changed
 > * Adjust recipe handler scrolling again by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/393 (2.3.58-GTNH-pre)
 > * Adjust recipe handler scrolling again by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/393 (2.3.57-GTNH)
@@ -474,9 +495,10 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/23 (4.7.10-GTNH)
 >
 
-# Updated Railcraft (9.14.3@Side.BOTH --> 9.14.4-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.14.2...9.14.4-pre
+# Updated Railcraft (9.14.3@Side.BOTH --> 9.14.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.14.2...9.14.5
 >## What's Changed
+> * Fix AIOOBE with BlockMachine by @miozune in https://github.com/GTNewHorizons/Railcraft/pull/42 (9.14.5)
 > * Fix Cart Dispenser behavior by @miozune in https://github.com/GTNewHorizons/Railcraft/pull/41 (9.14.3)
 >
 
@@ -499,9 +521,12 @@
 > * EOH tooltip touch-up by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/220 (5.2.22)
 >
 
-# Updated ThaumicEnergistics (1.4.4-GTNH@Side.BOTH --> 1.4.6-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.3-GTNH...1.4.6-GTNH-pre
+# Updated ThaumicEnergistics (1.4.4-GTNH@Side.BOTH --> 1.4.8-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.3-GTNH...1.4.8-GTNH-pre
 >## What's Changed
+> * CellMicroscope Fix invalid OpenGL glEnable call by @firenoo in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/46 (1.4.8-GTNH-pre)
+> * update wrapper by @Dream-Master in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/45 (1.4.7-GTNH)
+> * CellMicroscope Fix invalid OpenGL glEnable call by @firenoo in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/46 (1.4.7-GTNH)
 > * update wrapper by @Dream-Master in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/45 (1.4.6-GTNH-pre)
 > * Making the name more accurate by @Alastors in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/43 (1.4.4-GTNH)
 >
@@ -509,9 +534,10 @@
 > * @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/43 (1.4.4-GTNH)
 >
 
-# Updated ThaumicHorizons (1.2.1.12@Side.BOTH --> 1.3.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.2.1.11...1.3.3
+# Updated ThaumicHorizons (1.2.1.12@Side.BOTH --> 1.3.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.2.1.11...1.3.4
 >## What's Changed
+> * Removed GT dependency on Pocket Plane by @DrParadox7 in https://github.com/GTNewHorizons/ThaumicHorizons/pull/52 (1.3.4)
 > * Planar fix by @Alastors in https://github.com/GTNewHorizons/ThaumicHorizons/pull/50 (1.3.3)
 > * Add CF Publishing by @mitchej123 in https://github.com/GTNewHorizons/ThaumicHorizons/pull/45 (1.3.2)
 > * Remove commented-out code and obscure comments by @chill-was-taken in https://github.com/GTNewHorizons/ThaumicHorizons/pull/44 (1.3.1)
@@ -522,6 +548,7 @@
 > * unbind keybinds by default and move them under "Thaumcraft" category by @Alexdoru in https://github.com/GTNewHorizons/ThaumicHorizons/pull/39 (1.2.1.12)
 >
 >## New Contributors
+> * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/52 (1.3.4)
 > * @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/41 (1.3.0)
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/42 (1.3.0)
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/40 (1.2.1.12)
