@@ -338,12 +338,14 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/168 (0.6.11)
 >
 
-# Updated Gravitation-Suite-Neo (1.0.13@Side.BOTH --> 1.0.14-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.10...1.0.14-pre
+# Updated Gravitation-Suite-Neo (1.0.13@Side.BOTH --> 1.0.15@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.10...1.0.15
 >## What's Changed
+> * Fix Quantum Shield on Servers by @TechnicianLP in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
 > * changes the order of calls when mining in accurate/silk touch mode by @MeiTianyou in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/11 (1.0.13)
 >
 >## New Contributors
+> * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
 > * @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/11 (1.0.13)
 >
 
@@ -459,8 +461,8 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.70-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.70-pre
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.71-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.71-pre
 >## What's Changed
 > * New clay electrolysis recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/658 (2.1.69)
 > * Remove non-existent ores from DD voidminer by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/656 (2.1.69)
@@ -644,9 +646,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/amunra/pull/19 (0.4.30)
 >
 
-# Updated bartworks (0.7.17@Side.BOTH --> 0.7.25-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.16...0.7.25-pre
+# Updated bartworks (0.7.17@Side.BOTH --> 0.7.26@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.16...0.7.26
 >## What's Changed
+> * Buff Output of Oganesson Fusion Recipe by 5x by @Steelux8 in https://github.com/GTNewHorizons/bartworks/pull/335 (0.7.26)
 > * Fix non-positive TiC tool stats by @miozune in https://github.com/GTNewHorizons/bartworks/pull/339 (0.7.24)
 > * Use the right LuV material for CAL by @chochem in https://github.com/GTNewHorizons/bartworks/pull/337 (0.7.21-pre)
 > * Ebf Noble Gas Overhaul by @chochem in https://github.com/GTNewHorizons/bartworks/pull/336 (0.7.20)

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-07-04T17:17:35.729774",
+  "last_updated": "2023-07-04T17:49:09.746292",
   "config": "2.3.4",
   "github_mods": {
     "AdventureBackpack2": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.25-pre",
+      "version": "0.7.26",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.70-pre",
+      "version": "2.1.71-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -785,7 +785,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.0.14-pre",
+      "version": "1.0.15",
       "side": "BOTH"
     },
     "MrTJPCore": {
