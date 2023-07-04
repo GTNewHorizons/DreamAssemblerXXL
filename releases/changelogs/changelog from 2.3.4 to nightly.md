@@ -40,9 +40,11 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/AlchemyGrate/pull/1 (1.0.1-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-225-GTNH@Side.BOTH --> rv3-beta-233-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-224-GTNH...rv3-beta-233-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-225-GTNH@Side.BOTH --> rv3-beta-235-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-224-GTNH...rv3-beta-235-GTNH
 >## What's Changed
+> * Fix some nodes being blocked from updating at all by @tth05 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/353 (rv3-beta-235-GTNH)
+> * Revert "p2p rebooting the network (#329)" by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/354 (rv3-beta-234-GTNH)
 > * Buff interface throughput by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/350 (rv3-beta-231-GTNH)
 > * Config for renaming input length by @minecraft7771 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/348 (rv3-beta-230-GTNH)
 > * Fix quartz knife cursor position by @minecraft7771 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/349 (rv3-beta-230-GTNH)
@@ -54,6 +56,7 @@
 > * Add lighting to the attrib matrix to fix lighting disabled bug by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/337 (rv3-beta-225-GTNH)
 >
 >## New Contributors
+> * @tth05 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/353 (rv3-beta-235-GTNH)
 > * @minecraft7771 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/348 (rv3-beta-230-GTNH)
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/341 (rv3-beta-228-GTNH)
 >
@@ -146,6 +149,16 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/39 (1.1.18-GTNH)
 >
 
+# Updated Electro-Magic-Tools (1.3.1@Side.BOTH --> 1.3.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.3.0...1.3.2
+>## What's Changed
+> * Fix maintenance focus NPE by @greesyB in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/63 (1.3.2)
+> * Adding a maintenance foci, thaumic alternative to carrying a toolbox/duct-tape by @Cardinalstars in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/60 (1.3.1)
+>
+>## New Contributors
+> * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/60 (1.3.1)
+>
+
 # Updated EnderIO (2.4.18@Side.BOTH --> 2.4.20@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.17...2.4.20
 >## What's Changed
@@ -179,9 +192,14 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/15 (1.3.3)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.109-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.109-pre
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.112-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.112-pre
 >## What's Changed
+> * Fix the shadow ItemStack bug of multi-InputBus_ME by @wohaopa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2104 (5.09.43.111)
+> * Fix NPE with grid proxy by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2116 (5.09.43.111)
+> * fix leaving wireless network team not having an effect by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2113 (5.09.43.111)
+> * Fix GT Ore Gen by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2081 (5.09.43.111)
+> * Fix the shadow ItemStack bug of multi-InputBus_ME by @wohaopa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2104 (5.09.43.110-pre)
 > * changed clay chem formula by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2114 (5.09.43.109-pre)
 > * Rectangular Cleanroom Fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2115 (5.09.43.109-pre)
 > * Prioritize ghost slots over manual slot for stocking bus by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2112 (5.09.43.109-pre)
@@ -223,6 +241,8 @@
 > * fix typo in asset names by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2077 (5.09.43.84)
 >
 >## New Contributors
+> * @wohaopa made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2104 (5.09.43.111)
+> * @wohaopa made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2104 (5.09.43.110-pre)
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2107 (5.09.43.104)
 > * @DmitryScaletta made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2106 (5.09.43.104)
 >
@@ -255,9 +275,11 @@
 > * @KuroPeach made their first contribution in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/15 (1.3.0)
 >
 
-# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.53-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.53-pre
+# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.54@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.54
 >## What's Changed
+> * Restore pams fish compat by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/685 (1.9.54)
+> * Fix europa 'blizz' drops by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/684 (1.9.54)
 > * Remove Breaker Box by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/683 (1.9.52)
 > * Added LPF mode to WAILA tooltip by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/680 (1.9.51)
 > * Added mac stack tier to WAILA tooltip by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/681 (1.9.51)
@@ -346,10 +368,14 @@
 > * Fix NPE with FluidTankInfo by @miozune in https://github.com/GTNewHorizons/HoloInventory/pull/33 (2.2.2-GTNH)
 >
 
-# Updated InGame-Info-XML (2.8.3.96@Side.CLIENT --> 2.8.3.98-pre@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.3.95...2.8.3.98-pre
+# Updated InGame-Info-XML (2.8.3.96@Side.CLIENT --> 2.8.4@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.3.95...2.8.4
 >## What's Changed
+> * New gt module for oregen patterns by @chochem in https://github.com/GTNewHorizons/InGame-Info-XML/pull/18 (2.8.4)
 > * Change event subsciption for rendering by @Alexdoru in https://github.com/GTNewHorizons/InGame-Info-XML/pull/17 (2.8.3.96)
+>
+>## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/InGame-Info-XML/pull/18 (2.8.4)
 >
 
 # Updated Infernal-Mobs (1.7.8-GTNH@Side.BOTH --> 1.7.9-GTNH@Side.BOTH)
@@ -433,8 +459,8 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.69@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.69
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.70-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.70-pre
 >## What's Changed
 > * New clay electrolysis recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/658 (2.1.69)
 > * Remove non-existent ores from DD voidminer by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/656 (2.1.69)
@@ -464,13 +490,17 @@
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
 
-# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.61-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.61-GTNH-pre
+# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.64-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.64-GTNH-pre
 >## What's Changed
+> * Adjust nei overlay to gt oregen changes by @chochem in https://github.com/GTNewHorizons/NotEnoughItems/pull/391 (2.3.63-GTNH)
 > * Adjust recipe handler scrolling again by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/393 (2.3.58-GTNH-pre)
 > * Adjust recipe handler scrolling again by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/393 (2.3.57-GTNH)
 > * Expand tooltips for the time manipulation action buttons by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/392 (2.3.55-GTNH)
 > * Fix crash with IC2 setItemDamage by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/387 (2.3.54-GTNH)
+>
+>## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/391 (2.3.63-GTNH)
 >
 
 # Updated OpenComputers (1.9.8-GTNH@Side.BOTH --> 1.9.10-GTNH-pre@Side.BOTH)
@@ -521,9 +551,10 @@
 > * EOH tooltip touch-up by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/220 (5.2.22)
 >
 
-# Updated ThaumicEnergistics (1.4.4-GTNH@Side.BOTH --> 1.4.8-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.3-GTNH...1.4.8-GTNH-pre
+# Updated ThaumicEnergistics (1.4.4-GTNH@Side.BOTH --> 1.4.9-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.3-GTNH...1.4.9-GTNH
 >## What's Changed
+> * Remove some asm, add creative vis relay interface by @firenoo in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/44 (1.4.9-GTNH)
 > * CellMicroscope Fix invalid OpenGL glEnable call by @firenoo in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/46 (1.4.8-GTNH-pre)
 > * update wrapper by @Dream-Master in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/45 (1.4.7-GTNH)
 > * CellMicroscope Fix invalid OpenGL glEnable call by @firenoo in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/46 (1.4.7-GTNH)
@@ -578,9 +609,10 @@
 > * @DotJason made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/88 (1.9.36-GTNH)
 >
 
-# Updated VisualProspecting (1.1.6@Side.BOTH --> 1.1.8-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.1.5...1.1.8-pre
+# Updated VisualProspecting (1.1.6@Side.BOTH --> 1.1.10-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.1.5...1.1.10-pre
 >## What's Changed
+> * Adjust vp to fixed gt oregen by @chochem in https://github.com/GTNewHorizons/VisualProspecting/pull/35 (1.1.9)
 > * Added hotkeys to toggle map overlays by @PolkageistHS in https://github.com/GTNewHorizons/VisualProspecting/pull/33 (1.1.6)
 >
 >## New Contributors
