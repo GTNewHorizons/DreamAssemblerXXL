@@ -115,6 +115,16 @@
 > * @Gofer2x made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/17 (1.2.10)
 >
 
+# Updated BloodMagic (1.4.1@Side.BOTH --> 1.4.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.4.0...1.4.2
+>## What's Changed
+> * Only use GTNH CT APIs when GTNH CraftTweaker is present by @eigenraven in https://github.com/GTNewHorizons/BloodMagic/pull/46 (1.4.2)
+> * Remove blood frame from BM (reinvented in magic bees) by @chochem in https://github.com/GTNewHorizons/BloodMagic/pull/45 (1.4.1)
+>
+>## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/BloodMagic/pull/45 (1.4.1)
+>
+
 # Updated BuildCraft (7.1.33@Side.BOTH --> 7.1.34@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.32...7.1.34
 >## What's Changed
@@ -138,6 +148,12 @@
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/29 (2.11.1-GTNH)
 >
 
+# Updated CraftTweaker (3.2.12@Side.BOTH --> 3.2.13@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/CraftTweaker/compare/3.2.11...3.2.13
+>## What's Changed
+> * Fix missing ModOnly-IC2 annotations by @eigenraven in https://github.com/GTNewHorizons/CraftTweaker/pull/14 (3.2.13)
+>
+
 # Updated Draconic-Evolution (1.1.16-GTNH@Side.BOTH --> 1.1.19-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.15-GTNH...1.1.19-GTNH
 >## What's Changed
@@ -159,13 +175,15 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/60 (1.3.1)
 >
 
-# Updated EnderIO (2.4.18@Side.BOTH --> 2.4.20@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.17...2.4.20
+# Updated EnderIO (2.4.18@Side.BOTH --> 2.4.21@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.17...2.4.21
 >## What's Changed
+> * Fix a bug in NBT usage by @wohaopa in https://github.com/GTNewHorizons/EnderIO/pull/127 (2.4.21)
 > * Validate TE of packet by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/126 (2.4.20)
 > * Implement item bar visibility config by @Caedis in https://github.com/GTNewHorizons/EnderIO/pull/125 (2.4.18)
 >
 >## New Contributors
+> * @wohaopa made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/127 (2.4.21)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/125 (2.4.18)
 >
 
@@ -446,14 +464,14 @@
 > * Make everything in extras (compatibilities) translatable by @kuba6000 in https://github.com/kuba6000/Mobs-Info/pull/7 (0.0.3-GTNH)
 >
 
-# Updated ModularUI (1.1.10@Side.BOTH --> 1.1.12@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.9...1.1.12
+# Updated ModularUI (1.1.10@Side.BOTH --> 1.1.13-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.9...1.1.13-pre
 >## What's Changed
 > * Add API for getting item tooltip by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/46 (1.1.12)
 >
 
-# Updated MouseTweaks (2.4.8-GTNH@Side.CLIENT --> 2.4.9-GTNH-pre@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.7-GTNH...2.4.9-GTNH-pre
+# Updated MouseTweaks (2.4.8-GTNH@Side.CLIENT --> 2.4.10-GTNH-pre@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.7-GTNH...2.4.10-GTNH-pre
 >## What's Changed
 > * Fix server-side crash and suppress Forestry error in the logs by @eigenraven in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
@@ -461,9 +479,14 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.71-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.71-pre
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.73@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.73
 >## What's Changed
+> * Time <-> Space conversion recipes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/662 (2.1.73)
+> * Fix recipes with enchanted books in them by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/661 (2.1.73)
+> * Fix furnace smelting recipes from script conversion by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/660 (2.1.73)
+> * Initial Method Breakout/Organization for AssemblerRecipes by @Cleptomania in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/659 (2.1.73)
+> * Time <-> Space conversion recipes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/662 (2.1.72-pre)
 > * New clay electrolysis recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/658 (2.1.69)
 > * Remove non-existent ores from DD voidminer by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/656 (2.1.69)
 > * Donation coin by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/657 (2.1.69)
@@ -492,8 +515,8 @@
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
 
-# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.64-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.64-GTNH-pre
+# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.66-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.66-GTNH-pre
 >## What's Changed
 > * Adjust nei overlay to gt oregen changes by @chochem in https://github.com/GTNewHorizons/NotEnoughItems/pull/391 (2.3.63-GTNH)
 > * Adjust recipe handler scrolling again by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/393 (2.3.58-GTNH-pre)
@@ -505,17 +528,25 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/391 (2.3.63-GTNH)
 >
 
-# Updated OpenComputers (1.9.8-GTNH@Side.BOTH --> 1.9.10-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.7-GTNH...1.9.10-GTNH-pre
+# Updated OpenComputers (1.9.8-GTNH@Side.BOTH --> 1.9.11-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.7-GTNH...1.9.11-GTNH
 >## What's Changed
+> * Added manual page for ME Upgrade and BeeKeeper Upgrade by @repo-alt in https://github.com/GTNewHorizons/OpenComputers/pull/102 (1.9.11-GTNH)
+> * Change fluid amount from int to long in AE2 integration by @repo-alt in https://github.com/GTNewHorizons/OpenComputers/pull/103 (1.9.11-GTNH)
 > * update gradle build files by @aheirman in https://github.com/GTNewHorizons/OpenComputers/pull/101 (1.9.8-GTNH)
 >
 >## New Contributors
 > * @aheirman made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/101 (1.9.8-GTNH)
 >
 
-# Updated ProjectBlue (1.1.8-GTNH@Side.BOTH --> 1.1.9-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ProjectBlue/compare/1.1.7-GTNH...1.1.9-GTNH-pre
+# Updated ProjectBlue (1.1.8-GTNH@Side.BOTH --> 1.1.10-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectBlue/compare/1.1.7-GTNH...1.1.10-GTNH
+>## What's Changed
+> * Add back MFR integration by @miozune in https://github.com/GTNewHorizons/ProjectBlue/pull/2 (1.1.10-GTNH)
+>
+>## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/ProjectBlue/pull/2 (1.1.10-GTNH)
+>
 
 # Updated ProjectRed (4.7.9-GTNH@Side.BOTH --> 4.7.10-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.7.8-GTNH...4.7.10-GTNH
