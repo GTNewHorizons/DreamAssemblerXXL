@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-07-05T18:11:28.037739",
+  "last_updated": "2023-07-06T15:52:52.144390",
   "config": "2.3.4",
   "github_mods": {
     "AdventureBackpack2": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.112-pre",
+      "version": "5.09.43.114-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.73",
+      "version": "2.1.76-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.28-pre",
+      "version": "5.2.29-pre",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {

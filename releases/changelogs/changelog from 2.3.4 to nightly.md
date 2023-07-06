@@ -210,9 +210,11 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/15 (1.3.3)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.112-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.112-pre
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.114-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.114-pre
 >## What's Changed
+> * Add infused gold bee. by @fluffle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2119 (5.09.43.113)
+> * Remove container item check by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2118 (5.09.43.113)
 > * Fix the shadow ItemStack bug of multi-InputBus_ME by @wohaopa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2104 (5.09.43.111)
 > * Fix NPE with grid proxy by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2116 (5.09.43.111)
 > * fix leaving wireless network team not having an effect by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2113 (5.09.43.111)
@@ -259,6 +261,7 @@
 > * fix typo in asset names by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2077 (5.09.43.84)
 >
 >## New Contributors
+> * @fluffle made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2119 (5.09.43.113)
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2104 (5.09.43.111)
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2104 (5.09.43.110-pre)
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2107 (5.09.43.104)
@@ -479,9 +482,11 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.73@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.73
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.76-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.76-pre
 >## What's Changed
+> * Revert "Fix furnace smelting recipes from script conversion" by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/665 (2.1.75)
+> * Add compressor recipe for nether star block from dust by @greesyB in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/664 (2.1.74)
 > * Time <-> Space conversion recipes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/662 (2.1.73)
 > * Fix recipes with enchanted books in them by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/661 (2.1.73)
 > * Fix furnace smelting recipes from script conversion by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/660 (2.1.73)
@@ -574,9 +579,10 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/2 (2.4.4)
 >
 
-# Updated TecTech (5.2.22@Side.BOTH --> 5.2.28-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.28-pre
+# Updated TecTech (5.2.22@Side.BOTH --> 5.2.29-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.29-pre
 >## What's Changed
+> * update deps by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/227 (5.2.29-pre)
 > * Fix energy infuser and stocking bus interaction by @miozune in https://github.com/GTNewHorizons/TecTech/pull/224 (5.2.26)
 > * Fix EOH recipe time by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/223 (5.2.25)
 > * butcher EOH controller recipe time to 5m like every other controller were by @POPlol333 in https://github.com/GTNewHorizons/TecTech/pull/222 (5.2.24)
