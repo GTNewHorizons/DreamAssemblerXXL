@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-07-06T15:52:52.144390",
+  "last_updated": "2023-07-07T19:13:48.331090",
   "config": "2.3.4",
   "github_mods": {
     "AdventureBackpack2": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.43",
+      "version": "1.44-pre",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.2.4-GTNH",
+      "version": "1.2.5-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.114-pre",
+      "version": "5.09.43.116-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.76-pre",
+      "version": "2.1.79",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -445,7 +445,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.66-GTNH-pre",
+      "version": "2.3.68-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.29-pre",
+      "version": "5.2.30-pre",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.1.13-pre",
+      "version": "1.1.14",
       "side": "BOTH"
     },
     "TX-Loader": {

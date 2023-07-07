@@ -61,8 +61,8 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/341 (rv3-beta-228-GTNH)
 >
 
-# Updated Avaritia (1.42@Side.BOTH --> 1.43@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.41...1.43
+# Updated Avaritia (1.42@Side.BOTH --> 1.44-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.41...1.44-pre
 >## What's Changed
 > * Fix server causing error with NEI by @miozune in https://github.com/GTNewHorizons/Avaritia/pull/34 (1.43)
 > * Don't register Tinker's parts recipes in GTNH by @miozune in https://github.com/GTNewHorizons/Avaritia/pull/33 (1.42)
@@ -210,8 +210,8 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/15 (1.3.3)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.114-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.114-pre
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.116-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.116-pre
 >## What's Changed
 > * Add infused gold bee. by @fluffle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2119 (5.09.43.113)
 > * Remove container item check by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2118 (5.09.43.113)
@@ -334,13 +334,15 @@
 > * Cleanup by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/76 (3.0.69-GTNH)
 >
 
-# Updated Galaxy-Space-GTNH (1.2.3-GTNH@Side.BOTH --> 1.2.4-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.2.2-GTNH...1.2.4-GTNH
+# Updated Galaxy-Space-GTNH (1.2.3-GTNH@Side.BOTH --> 1.2.5-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.2.2-GTNH...1.2.5-GTNH
 >## What's Changed
+> * Fix Tantalumhafniumcarbide recipes by @chochem in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/95 (1.2.5-GTNH)
 > * Removes Renaming For Dyson Blocks by @Runakai1 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/93 (1.2.4-GTNH)
 > * Move Vega-system closer to solar system by @glowredman in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/92 (1.2.3-GTNH)
 >
 >## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/95 (1.2.5-GTNH)
 > * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/93 (1.2.4-GTNH)
 >
 
@@ -467,9 +469,10 @@
 > * Make everything in extras (compatibilities) translatable by @kuba6000 in https://github.com/kuba6000/Mobs-Info/pull/7 (0.0.3-GTNH)
 >
 
-# Updated ModularUI (1.1.10@Side.BOTH --> 1.1.13-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.9...1.1.13-pre
+# Updated ModularUI (1.1.10@Side.BOTH --> 1.1.14@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.9...1.1.14
 >## What's Changed
+> * Remove enable/disable calls for GlStateManager by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/47 (1.1.14)
 > * Add API for getting item tooltip by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/46 (1.1.12)
 >
 
@@ -482,9 +485,13 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.76-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.76-pre
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.79@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.79
 >## What's Changed
+> * Convert NEI Planet Recipes to RA2 by @Cleptomania in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/668 (2.1.79)
+> * Remove broken recipes from extra trees by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/669 (2.1.79)
+> * Fluid digital singularity recipe + Fluid Quantum Drive recipe by @TheEpicGamer274 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/666 (2.1.78-pre)
+> * Fluid digital singularity recipe + Fluid Quantum Drive recipe by @TheEpicGamer274 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/666 (2.1.77)
 > * Revert "Fix furnace smelting recipes from script conversion" by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/665 (2.1.75)
 > * Add compressor recipe for nether star block from dust by @greesyB in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/664 (2.1.74)
 > * Time <-> Space conversion recipes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/662 (2.1.73)
@@ -520,8 +527,8 @@
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
 
-# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.66-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.66-GTNH-pre
+# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.68-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.68-GTNH-pre
 >## What's Changed
 > * Adjust nei overlay to gt oregen changes by @chochem in https://github.com/GTNewHorizons/NotEnoughItems/pull/391 (2.3.63-GTNH)
 > * Adjust recipe handler scrolling again by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/393 (2.3.58-GTNH-pre)
@@ -579,9 +586,10 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/2 (2.4.4)
 >
 
-# Updated TecTech (5.2.22@Side.BOTH --> 5.2.29-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.29-pre
+# Updated TecTech (5.2.22@Side.BOTH --> 5.2.30-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.30-pre
 >## What's Changed
+> * update deps by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/227 (5.2.30-pre)
 > * update deps by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/227 (5.2.29-pre)
 > * Fix energy infuser and stocking bus interaction by @miozune in https://github.com/GTNewHorizons/TecTech/pull/224 (5.2.26)
 > * Fix EOH recipe time by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/223 (5.2.25)
