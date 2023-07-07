@@ -540,9 +540,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/391 (2.3.63-GTNH)
 >
 
-# Updated OpenComputers (1.9.8-GTNH@Side.BOTH --> 1.9.11-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.7-GTNH...1.9.11-GTNH
+# Updated OpenComputers (1.9.8-GTNH@Side.BOTH --> 1.9.12-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.7-GTNH...1.9.12-GTNH
 >## What's Changed
+> * Update to OpenComputers 1.8.3 by @asiekierka in https://github.com/GTNewHorizons/OpenComputers/pull/104 (1.9.12-GTNH)
 > * Added manual page for ME Upgrade and BeeKeeper Upgrade by @repo-alt in https://github.com/GTNewHorizons/OpenComputers/pull/102 (1.9.11-GTNH)
 > * Change fluid amount from int to long in AE2 integration by @repo-alt in https://github.com/GTNewHorizons/OpenComputers/pull/103 (1.9.11-GTNH)
 > * update gradle build files by @aheirman in https://github.com/GTNewHorizons/OpenComputers/pull/101 (1.9.8-GTNH)
