@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-07-07T19:41:00.766413",
-  "config": "2.3.4",
+  "last_updated": "2023-07-08T19:25:45.543704",
+  "config": "2.3.5-nightly-2023-07-08",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.14-GTNH",
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.44-pre",
+      "version": "1.45",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.2.21",
+      "version": "2.2.23",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -445,7 +445,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.68-GTNH-pre",
+      "version": "2.3.69-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.30-pre",
+      "version": "5.2.31-pre",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "amunra": {
-      "version": "0.4.32",
+      "version": "0.4.33-pre",
       "side": "BOTH"
     },
     "DuraDisplay": {

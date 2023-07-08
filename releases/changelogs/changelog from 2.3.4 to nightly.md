@@ -61,9 +61,10 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/341 (rv3-beta-228-GTNH)
 >
 
-# Updated Avaritia (1.42@Side.BOTH --> 1.44-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.41...1.44-pre
+# Updated Avaritia (1.42@Side.BOTH --> 1.45@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.41...1.45
 >## What's Changed
+> * Fix NoClassDefFoundError with NEI config by @miozune in https://github.com/GTNewHorizons/Avaritia/pull/35 (1.45)
 > * Fix server causing error with NEI by @miozune in https://github.com/GTNewHorizons/Avaritia/pull/34 (1.43)
 > * Don't register Tinker's parts recipes in GTNH by @miozune in https://github.com/GTNewHorizons/Avaritia/pull/33 (1.42)
 >
@@ -372,9 +373,11 @@
 > * @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/11 (1.0.13)
 >
 
-# Updated Hodgepodge (2.2.18@Side.BOTH --> 2.2.21@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.17...2.2.21
+# Updated Hodgepodge (2.2.18@Side.BOTH --> 2.2.23@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.17...2.2.23
 >## What's Changed
+> * Lotr java 12+ patches & move MixinBOPReflectionHelper.setPrivateFinalValue logic to util class for reusablility by @mist475 in https://github.com/GTNewHorizons/Hodgepodge/pull/227 (2.2.23)
+> * Fix lotr error with speedupVanillaFurnace by @mist475 in https://github.com/GTNewHorizons/Hodgepodge/pull/226 (2.2.22)
 > * Info -> Debug for furnace overwrites by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/224 (2.2.21)
 > * ArchaicFix compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/222 (2.2.20)
 > * Add offline mode UUID mapping by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/221 (2.2.19)
@@ -382,6 +385,7 @@
 > * Fix crashing due to server/client container size mismatch by @Denostrov in https://github.com/GTNewHorizons/Hodgepodge/pull/219 (2.2.18)
 >
 >## New Contributors
+> * @mist475 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/226 (2.2.22)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/221 (2.2.19)
 > * @tytan652 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/220 (2.2.18)
 >
@@ -527,8 +531,8 @@
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
 
-# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.68-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.68-GTNH-pre
+# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.69-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.69-GTNH-pre
 >## What's Changed
 > * Adjust nei overlay to gt oregen changes by @chochem in https://github.com/GTNewHorizons/NotEnoughItems/pull/391 (2.3.63-GTNH)
 > * Adjust recipe handler scrolling again by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/393 (2.3.58-GTNH-pre)
@@ -587,8 +591,8 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/2 (2.4.4)
 >
 
-# Updated TecTech (5.2.22@Side.BOTH --> 5.2.30-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.30-pre
+# Updated TecTech (5.2.22@Side.BOTH --> 5.2.31-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.31-pre
 >## What's Changed
 > * update deps by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/227 (5.2.30-pre)
 > * update deps by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/227 (5.2.29-pre)
@@ -679,8 +683,8 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/ae2stuff/pull/9 (0.5.1.16-GTNH)
 >
 
-# Updated amunra (0.4.30@Side.BOTH --> 0.4.32@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.29...0.4.32
+# Updated amunra (0.4.30@Side.BOTH --> 0.4.33-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.29...0.4.33-pre
 >## What's Changed
 > * Fix missing Textures by @glowredman in https://github.com/GTNewHorizons/amunra/pull/23 (0.4.32)
 > * Fix all Players not on a Mothership being kicked if it ends Transit by @glowredman in https://github.com/GTNewHorizons/amunra/pull/24 (0.4.32)
