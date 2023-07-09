@@ -211,9 +211,11 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/15 (1.3.3)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.116-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.116-pre
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.118-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.118-pre
 >## What's Changed
+> * More quad input hatches by @TheEpicGamer274 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2121 (5.09.43.117)
+> * Add soft material subtag by @DotJason in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2124 (5.09.43.117)
 > * Add infused gold bee. by @fluffle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2119 (5.09.43.113)
 > * Remove container item check by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2118 (5.09.43.113)
 > * Fix the shadow ItemStack bug of multi-InputBus_ME by @wohaopa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2104 (5.09.43.111)
@@ -531,9 +533,11 @@
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
 
-# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.69-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.69-GTNH-pre
+# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.71-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.71-GTNH-pre
 >## What's Changed
+> * Spotless apply for branch recipe-tooltip for #398 by @github-actions in https://github.com/GTNewHorizons/NotEnoughItems/pull/401 (2.3.71-GTNH-pre)
+> * Extend height hack for legacy recipe handlers by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/395 (2.3.70-GTNH)
 > * Adjust nei overlay to gt oregen changes by @chochem in https://github.com/GTNewHorizons/NotEnoughItems/pull/391 (2.3.63-GTNH)
 > * Adjust recipe handler scrolling again by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/393 (2.3.58-GTNH-pre)
 > * Adjust recipe handler scrolling again by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/393 (2.3.57-GTNH)
@@ -591,9 +595,12 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/2 (2.4.4)
 >
 
-# Updated TecTech (5.2.22@Side.BOTH --> 5.2.31-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.31-pre
+# Updated TecTech (5.2.22@Side.BOTH --> 5.2.33-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.33-pre
 >## What's Changed
+> * update deps by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/227 (5.2.32)
+> * fix transformer maintenance status by @Quetz4l in https://github.com/GTNewHorizons/TecTech/pull/229 (5.2.32)
+> * High amp wireless + low amp recipe changes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/228 (5.2.32)
 > * update deps by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/227 (5.2.30-pre)
 > * update deps by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/227 (5.2.29-pre)
 > * Fix energy infuser and stocking bus interaction by @miozune in https://github.com/GTNewHorizons/TecTech/pull/224 (5.2.26)
@@ -683,9 +690,10 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/ae2stuff/pull/9 (0.5.1.16-GTNH)
 >
 
-# Updated amunra (0.4.30@Side.BOTH --> 0.4.33-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.29...0.4.33-pre
+# Updated amunra (0.4.30@Side.BOTH --> 0.4.34@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.29...0.4.34
 >## What's Changed
+> * Remove offline kick if hodgepodge is loaded by @Caedis in https://github.com/GTNewHorizons/amunra/pull/26 (0.4.34)
 > * Fix missing Textures by @glowredman in https://github.com/GTNewHorizons/amunra/pull/23 (0.4.32)
 > * Fix all Players not on a Mothership being kicked if it ends Transit by @glowredman in https://github.com/GTNewHorizons/amunra/pull/24 (0.4.32)
 > * Prevent NPEs by @glowredman in https://github.com/GTNewHorizons/amunra/pull/20 (0.4.31)
@@ -693,6 +701,7 @@
 > * Fix oredict for spodumene ore by @chochem in https://github.com/GTNewHorizons/amunra/pull/19 (0.4.30)
 >
 >## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/amunra/pull/26 (0.4.34)
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/amunra/pull/19 (0.4.30)
 >
 
