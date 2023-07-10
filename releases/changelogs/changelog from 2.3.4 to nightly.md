@@ -198,9 +198,17 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/15 (1.3.3)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.118-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.118-pre
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.122@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.122
 >## What's Changed
+> * update deps by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2129 (5.09.43.122)
+> * Generic processing logic by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2096 (5.09.43.121)
+> * More frequent recipe checks after machine just shuts down by @harrynull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2125 (5.09.43.120-pre)
+> * Added current queen species and errors to iApiary WAILA by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2127 (5.09.43.120-pre)
+> * GTPP Advanced boiler fix by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2128 (5.09.43.120-pre)
+> * More frequent recipe checks after machine just shuts down by @harrynull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2125 (5.09.43.119)
+> * Added current queen species and errors to iApiary WAILA by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2127 (5.09.43.119)
+> * GTPP Advanced boiler fix by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2128 (5.09.43.119)
 > * More quad input hatches by @TheEpicGamer274 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2121 (5.09.43.117)
 > * Add soft material subtag by @DotJason in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2124 (5.09.43.117)
 > * Add infused gold bee. by @fluffle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2119 (5.09.43.113)
@@ -251,6 +259,8 @@
 > * fix typo in asset names by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2077 (5.09.43.84)
 >
 >## New Contributors
+> * @harrynull made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2125 (5.09.43.120-pre)
+> * @harrynull made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2125 (5.09.43.119)
 > * @fluffle made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2119 (5.09.43.113)
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2104 (5.09.43.111)
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2104 (5.09.43.110-pre)
@@ -455,8 +465,8 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/MalisisCore/pull/6 (0.14.9)
 >
 
-# New Mod - Mobs-Info (0.0.5-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/commits/0.0.5-GTNH
+# New Mod - Mobs-Info (0.0.6-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/commits/0.0.6-GTNH
 >## What's Changed
 > * Add Infernal Drops NEI tab (Expand Infernal-Mobs compatibility) by @kuba6000 in https://github.com/kuba6000/Mobs-Info/pull/6 (0.0.3-GTNH)
 > * Make everything in extras (compatibilities) translatable by @kuba6000 in https://github.com/kuba6000/Mobs-Info/pull/7 (0.0.3-GTNH)
@@ -478,9 +488,13 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.79@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.79
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.81@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.81
 >## What's Changed
+> * Add normal dust recipes for OC cables by @greesyB in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/670 (2.1.81)
+> * New version by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/672 (2.1.81)
+> * Recipes for new quad input hatches by @TheEpicGamer274 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/671 (2.1.81)
+> * Add normal dust recipes for OC cables by @greesyB in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/670 (2.1.80-pre)
 > * Convert NEI Planet Recipes to RA2 by @Cleptomania in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/668 (2.1.79)
 > * Remove broken recipes from extra trees by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/669 (2.1.79)
 > * Fluid digital singularity recipe + Fluid Quantum Drive recipe by @TheEpicGamer274 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/666 (2.1.78-pre)
@@ -520,8 +534,8 @@
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
 
-# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.71-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.71-GTNH-pre
+# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.72-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.72-GTNH-pre
 >## What's Changed
 > * Spotless apply for branch recipe-tooltip for #398 by @github-actions in https://github.com/GTNewHorizons/NotEnoughItems/pull/401 (2.3.71-GTNH-pre)
 > * Extend height hack for legacy recipe handlers by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/395 (2.3.70-GTNH)
@@ -582,9 +596,10 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/2 (2.4.4)
 >
 
-# Updated TecTech (5.2.22@Side.BOTH --> 5.2.33-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.33-pre
+# Updated TecTech (5.2.22@Side.BOTH --> 5.2.34@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.34
 >## What's Changed
+> * Implement generic processing logic by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/226 (5.2.34)
 > * update deps by @Dream-Master in https://github.com/GTNewHorizons/TecTech/pull/227 (5.2.32)
 > * fix transformer maintenance status by @Quetz4l in https://github.com/GTNewHorizons/TecTech/pull/229 (5.2.32)
 > * High amp wireless + low amp recipe changes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/228 (5.2.32)
@@ -655,13 +670,15 @@
 > * @DotJason made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/88 (1.9.36-GTNH)
 >
 
-# Updated VisualProspecting (1.1.6@Side.BOTH --> 1.1.10-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.1.5...1.1.10-pre
+# Updated VisualProspecting (1.1.6@Side.BOTH --> 1.1.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.1.5...1.1.11
 >## What's Changed
+> * Fix !visualprospectingnearspawn by @ah-OOG-ah in https://github.com/GTNewHorizons/VisualProspecting/pull/30 (1.1.11)
 > * Adjust vp to fixed gt oregen by @chochem in https://github.com/GTNewHorizons/VisualProspecting/pull/35 (1.1.9)
 > * Added hotkeys to toggle map overlays by @PolkageistHS in https://github.com/GTNewHorizons/VisualProspecting/pull/33 (1.1.6)
 >
 >## New Contributors
+> * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/30 (1.1.11)
 > * @PolkageistHS made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/33 (1.1.6)
 >
 
@@ -692,9 +709,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/amunra/pull/19 (0.4.30)
 >
 
-# Updated bartworks (0.7.17@Side.BOTH --> 0.7.26@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.16...0.7.26
+# Updated bartworks (0.7.17@Side.BOTH --> 0.7.27@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.16...0.7.27
 >## What's Changed
+> * Migrate findRecipe method by @miozune in https://github.com/GTNewHorizons/bartworks/pull/338 (0.7.27)
 > * Buff Output of Oganesson Fusion Recipe by 5x by @Steelux8 in https://github.com/GTNewHorizons/bartworks/pull/335 (0.7.26)
 > * Fix non-positive TiC tool stats by @miozune in https://github.com/GTNewHorizons/bartworks/pull/339 (0.7.24)
 > * Use the right LuV material for CAL by @chochem in https://github.com/GTNewHorizons/bartworks/pull/337 (0.7.21-pre)
