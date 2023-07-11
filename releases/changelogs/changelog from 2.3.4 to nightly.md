@@ -198,9 +198,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/15 (1.3.3)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.122@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.122
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.123@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.123
 >## What's Changed
+> * Makes boilers "getSteamCapacity() aware" by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2131 (5.09.43.123)
 > * update deps by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2129 (5.09.43.122)
 > * Generic processing logic by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2096 (5.09.43.121)
 > * More frequent recipe checks after machine just shuts down by @harrynull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2125 (5.09.43.120-pre)
@@ -296,9 +297,11 @@
 > * @KuroPeach made their first contribution in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/15 (1.3.0)
 >
 
-# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.54@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.54
+# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.55@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.55
 >## What's Changed
+> * Make PSS stop pulling input power when it's full. by @antihutka in https://github.com/GTNewHorizons/GTplusplus/pull/687 (1.9.55)
+> * Advanced boiler steam capacity fix  by @Lyfts in https://github.com/GTNewHorizons/GTplusplus/pull/686 (1.9.55)
 > * Restore pams fish compat by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/685 (1.9.54)
 > * Fix europa 'blizz' drops by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/684 (1.9.54)
 > * Remove Breaker Box by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/683 (1.9.52)
@@ -322,6 +325,8 @@
 > * Update dep + change comb recipe by @Runakai1 in https://github.com/GTNewHorizons/GTplusplus/pull/664 (1.9.39)
 >
 >## New Contributors
+> * @antihutka made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/687 (1.9.55)
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/686 (1.9.55)
 > * @fluffle made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/676 (1.9.49)
 > * @TheEpicGamer274 made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/675 (1.9.48)
 >
@@ -372,9 +377,10 @@
 > * @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/11 (1.0.13)
 >
 
-# Updated Hodgepodge (2.2.18@Side.BOTH --> 2.2.23@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.17...2.2.23
+# Updated Hodgepodge (2.2.18@Side.BOTH --> 2.2.24@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.17...2.2.24
 >## What's Changed
+> * fix forge update checker by @mist475 in https://github.com/GTNewHorizons/Hodgepodge/pull/228 (2.2.24)
 > * Lotr java 12+ patches & move MixinBOPReflectionHelper.setPrivateFinalValue logic to util class for reusablility by @mist475 in https://github.com/GTNewHorizons/Hodgepodge/pull/227 (2.2.23)
 > * Fix lotr error with speedupVanillaFurnace by @mist475 in https://github.com/GTNewHorizons/Hodgepodge/pull/226 (2.2.22)
 > * Info -> Debug for furnace overwrites by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/224 (2.2.21)
@@ -415,13 +421,15 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Infernal-Mobs/pull/13 (1.7.9-GTNH)
 >
 
-# Updated KekzTech (0.8.5@Side.BOTH --> 0.8.6@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.8.4...0.8.6
+# Updated KekzTech (0.8.5@Side.BOTH --> 0.8.7@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.8.4...0.8.7
 >## What's Changed
+> * Allow lsc rotation by @alexandre-tardif in https://github.com/GTNewHorizons/KekzTech/pull/73 (0.8.7)
 > * Fix LSC NPE by @miozune in https://github.com/GTNewHorizons/KekzTech/pull/72 (0.8.6)
 > * tfft by @Quetz4l in https://github.com/GTNewHorizons/KekzTech/pull/70 (0.8.5)
 >
 >## New Contributors
+> * @alexandre-tardif made their first contribution in https://github.com/GTNewHorizons/KekzTech/pull/73 (0.8.7)
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/KekzTech/pull/70 (0.8.5)
 >
 
@@ -534,9 +542,10 @@
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
 
-# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.72-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.72-GTNH-pre
+# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.73-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.73-GTNH
 >## What's Changed
+> * Show a full recipe widget in item tooltips for bookmarked recipes by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/398 (2.3.73-GTNH)
 > * Spotless apply for branch recipe-tooltip for #398 by @github-actions in https://github.com/GTNewHorizons/NotEnoughItems/pull/401 (2.3.71-GTNH-pre)
 > * Extend height hack for legacy recipe handlers by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/395 (2.3.70-GTNH)
 > * Adjust nei overlay to gt oregen changes by @chochem in https://github.com/GTNewHorizons/NotEnoughItems/pull/391 (2.3.63-GTNH)
@@ -594,6 +603,17 @@
 >
 >## New Contributors
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/2 (2.4.4)
+>
+
+# Updated SpecialMobs (3.4.0@Side.BOTH --> 3.4.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/SpecialMobs/compare/3.3.15...3.4.1
+>## What's Changed
+> * Adjust Mini-Creeper health by @DrParadox7 in https://github.com/GTNewHorizons/SpecialMobs/pull/19 (3.4.1)
+> * EnderCreeper afraid of cats by @DrParadox7 in https://github.com/GTNewHorizons/SpecialMobs/pull/20 (3.4.1)
+> * Message discriminators *MUST* exist on the channel on both sides if t… by @OvermindDL1 in https://github.com/GTNewHorizons/SpecialMobs/pull/18 (3.4.0)
+>
+>## New Contributors
+> * @OvermindDL1 made their first contribution in https://github.com/GTNewHorizons/SpecialMobs/pull/18 (3.4.0)
 >
 
 # Updated TecTech (5.2.22@Side.BOTH --> 5.2.34@Side.BOTH)
