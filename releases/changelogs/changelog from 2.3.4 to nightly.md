@@ -4,9 +4,13 @@
 > * Mobs-Info
 # Mods Removed:
 > * BeeBetterAtBees
-# Updated AE2FluidCraft-Rework (1.1.21-gtnh@Side.BOTH --> 1.1.24-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.20-gtnh...1.1.24-gtnh
+# Updated AE2FluidCraft-Rework (1.1.21-gtnh@Side.BOTH --> 1.1.27@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.20-gtnh...1.1.27
 >## What's Changed
+> * Untangle Baubles hard dependency and skip on unmapped items/blocks by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/137 (1.1.27)
+> * Spotless apply for branch fix/untangle_baubles for #137 by @github-actions in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/138 (1.1.26-gtnh-pre)
+> * Fix modulate/sim bug by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/135 (1.1.25-gtnh)
+> * Fix fluid texture animation by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/136 (1.1.25-gtnh)
 > * Changed craft amount config ref from priority to crafting amount by @minecraft7771 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/134 (1.1.24-gtnh)
 > * Code cleanup by @chill-was-taken in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/133 (1.1.22-gtnh)
 > * Update APIs by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/130 (1.1.21-gtnh)
@@ -27,9 +31,11 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/AlchemyGrate/pull/1 (1.0.1-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-225-GTNH@Side.BOTH --> rv3-beta-235-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-224-GTNH...rv3-beta-235-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-225-GTNH@Side.BOTH --> rv3-beta-238-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-224-GTNH...rv3-beta-238-GTNH-pre
 >## What's Changed
+> * Add the CraftingMode selection button and draw the icon by @wohaopa in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/357 (rv3-beta-238-GTNH-pre)
+> * Add the CraftingMode selection button and draw the icon by @wohaopa in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/357 (rv3-beta-237-GTNH)
 > * Fix some nodes being blocked from updating at all by @tth05 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/353 (rv3-beta-235-GTNH)
 > * Revert "p2p rebooting the network (#329)" by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/354 (rv3-beta-234-GTNH)
 > * Buff interface throughput by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/350 (rv3-beta-231-GTNH)
@@ -66,6 +72,17 @@
 >## New Contributors
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/BeeBetterAtBees/pull/1 (0.3.1-GTNH)
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/BeeBetterAtBees/pull/3 (0.3.1-GTNH)
+>
+
+# Updated BetterLoadingScreen (1.4.1-GTNH@Side.CLIENT --> 1.4.2-GTNH@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.4.0-GTNH...1.4.2-GTNH
+>## What's Changed
+> * Update zh_CN.lang by @DancingSnow0517 in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/18 (1.4.2-GTNH)
+> * Update ru_RU.lang by @NoX-programer in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/17 (1.4.1-GTNH)
+>
+>## New Contributors
+> * @DancingSnow0517 made their first contribution in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/18 (1.4.2-GTNH)
+> * @NoX-programer made their first contribution in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/17 (1.4.1-GTNH)
 >
 
 # Updated Binnie (2.1.4@Side.BOTH --> 2.1.6@Side.BOTH)
@@ -153,13 +170,18 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/39 (1.1.18-GTNH)
 >
 
-# Updated Electro-Magic-Tools (1.3.1@Side.BOTH --> 1.3.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.3.0...1.3.2
+# Updated DummyCore (1.15@Side.BOTH --> 1.1.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/DummyCore/commits/1.15@Side.BOTH...1.1.0@Side.BOTH
+
+# Updated Electro-Magic-Tools (1.3.1@Side.BOTH --> 1.3.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.3.0...1.3.3
 >## What's Changed
+> * Mark Bart's LEG for termination by @Alastors in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/61 (1.3.3)
 > * Fix maintenance focus NPE by @greesyB in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/63 (1.3.2)
 > * Adding a maintenance foci, thaumic alternative to carrying a toolbox/duct-tape by @Cardinalstars in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/60 (1.3.1)
 >
 >## New Contributors
+> * @Alastors made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/61 (1.3.3)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/60 (1.3.1)
 >
 
@@ -198,9 +220,13 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/15 (1.3.3)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.123@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.123
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.128@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.128
 >## What's Changed
+> * Changes to ore factorys running mode description by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2135 (5.09.43.128)
+> * GPL Special Item access by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2134 (5.09.43.127)
+> * Make structure tooltips more colorful by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2133 (5.09.43.125)
+> * Add tooltip for locked fluid name for digital tank by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2132 (5.09.43.124)
 > * Makes boilers "getSteamCapacity() aware" by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2131 (5.09.43.123)
 > * update deps by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2129 (5.09.43.122)
 > * Generic processing logic by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2096 (5.09.43.121)
@@ -279,6 +305,12 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/GTNEIOrePlugin/pull/34 (1.1.0)
 >
 
+# Updated GTNH-Intergalactic (1.1.17@Side.BOTH --> 1.1.18-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.16...1.1.18-pre
+>## What's Changed
+> * More mining drones by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/37 (1.1.17)
+>
+
 # Updated GTNH-Lanthanides (0.10.2@Side.BOTH --> 0.10.4-pre@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.10.1...0.10.4-pre
 >## What's Changed
@@ -297,9 +329,12 @@
 > * @KuroPeach made their first contribution in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/15 (1.3.0)
 >
 
-# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.55@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.55
+# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.57@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.57
 >## What's Changed
+> * Fix Multiblock structure info tooltips by @serenibyss in https://github.com/GTNewHorizons/GTplusplus/pull/689 (1.9.57)
+> * Add missing advancement localization by @serenibyss in https://github.com/GTNewHorizons/GTplusplus/pull/690 (1.9.57)
+> * Fix some recipe conflicts by @serenibyss in https://github.com/GTNewHorizons/GTplusplus/pull/688 (1.9.56)
 > * Make PSS stop pulling input power when it's full. by @antihutka in https://github.com/GTNewHorizons/GTplusplus/pull/687 (1.9.55)
 > * Advanced boiler steam capacity fix  by @Lyfts in https://github.com/GTNewHorizons/GTplusplus/pull/686 (1.9.55)
 > * Restore pams fish compat by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/685 (1.9.54)
@@ -351,9 +386,12 @@
 > * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/93 (1.2.4-GTNH)
 >
 
-# Updated GoodGenerator (0.6.9@Side.BOTH --> 0.6.12-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.8...0.6.12-pre
+# Updated GoodGenerator (0.6.9@Side.BOTH --> 0.6.15-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.8...0.6.15-pre
 >## What's Changed
+> * update deps by @Dream-Master in https://github.com/GTNewHorizons/GoodGenerator/pull/173 (0.6.13)
+> * Set SH steam output for plasmas to 0; remove bounds check. by @fluffle in https://github.com/GTNewHorizons/GoodGenerator/pull/174 (0.6.13)
+> * Coolant Tower: pull steam from all available hatches. by @fluffle in https://github.com/GTNewHorizons/GoodGenerator/pull/167 (0.6.13)
 > * Buffing the LEG to UV for the LEG Laser nerf by @Alastors in https://github.com/GTNewHorizons/GoodGenerator/pull/169 (0.6.11)
 > * Remove laser support for LEG by @chochem in https://github.com/GTNewHorizons/GoodGenerator/pull/168 (0.6.11)
 > * Added more information to PrAss tooltip by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/170 (0.6.10)
@@ -362,6 +400,7 @@
 > * Update to new input separation API & appearance of PAss GUI by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/166 (0.6.9)
 >
 >## New Contributors
+> * @fluffle made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/174 (0.6.13)
 > * @Alastors made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/169 (0.6.11)
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/168 (0.6.11)
 >
@@ -433,9 +472,10 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/KekzTech/pull/70 (0.8.5)
 >
 
-# Updated KubaTech (0.11.1@Side.BOTH --> 0.12.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.11.0...0.12.1
+# Updated KubaTech (0.11.1@Side.BOTH --> 0.12.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.11.0...0.12.2
 >## What's Changed
+> * Fix crash by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/86 (0.12.2)
 > * Small EEC fixes by @chochem in https://github.com/GTNewHorizons/KubaTech/pull/83 (0.12.1)
 > * Clean up and fixes by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/84 (0.12.1)
 > * Fix outputting to normal output bus by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/81 (0.12.0)
@@ -496,9 +536,22 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.81@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.81
+# Updated NEI-Integration (1.3.1@Side.BOTH --> 1.3.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NEI-Integration/compare/1.3.0...1.3.2
 >## What's Changed
+> * Disable Pam's HC integration by default by @DotJason in https://github.com/GTNewHorizons/NEI-Integration/pull/7 (1.3.2)
+> * Actually re-enable removed handlers, update buildscript & dependencies by @SteelShot in https://github.com/GTNewHorizons/NEI-Integration/pull/6 (1.3.1)
+>
+>## New Contributors
+> * @DotJason made their first contribution in https://github.com/GTNewHorizons/NEI-Integration/pull/7 (1.3.2)
+> * @SteelShot made their first contribution in https://github.com/GTNewHorizons/NEI-Integration/pull/6 (1.3.1)
+>
+
+# Updated NewHorizonsCoreMod (2.1.50@Side.BOTH --> 2.1.82@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.49...2.1.82
+>## What's Changed
+> * Fix Oxygen Tank recipe and make the infinite oxy tank recipe more flexible by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/674 (2.1.82)
+> * Nuking Bart's LEG's research and recipes by @Alastors in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/673 (2.1.82)
 > * Add normal dust recipes for OC cables by @greesyB in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/670 (2.1.81)
 > * New version by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/672 (2.1.81)
 > * Recipes for new quad input hatches by @TheEpicGamer274 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/671 (2.1.81)
@@ -537,6 +590,7 @@
 > * we dont use ic2 classic by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/638 (2.1.50)
 >
 >## New Contributors
+> * @Alastors made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/673 (2.1.82)
 > * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/654 (2.1.66)
 > * @Darkmaxsas made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/647 (2.1.58)
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
@@ -616,6 +670,16 @@
 > * @OvermindDL1 made their first contribution in https://github.com/GTNewHorizons/SpecialMobs/pull/18 (3.4.0)
 >
 
+# Updated StructureLib (1.2.7@Side.BOTH --> 1.2.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.2.6...1.2.8
+>## What's Changed
+> * fix cube faces rendering order by @Glease in https://github.com/GTNewHorizons/StructureLib/pull/22 (1.2.8)
+> * Allow autoplace channels to work in survival mode by @kstvr32 in https://github.com/GTNewHorizons/StructureLib/pull/20 (1.2.7)
+>
+>## New Contributors
+> * @kstvr32 made their first contribution in https://github.com/GTNewHorizons/StructureLib/pull/20 (1.2.7)
+>
+
 # Updated TecTech (5.2.22@Side.BOTH --> 5.2.34@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.21...5.2.34
 >## What's Changed
@@ -632,9 +696,10 @@
 > * EOH tooltip touch-up by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/220 (5.2.22)
 >
 
-# Updated ThaumicEnergistics (1.4.4-GTNH@Side.BOTH --> 1.4.9-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.3-GTNH...1.4.9-GTNH
+# Updated ThaumicEnergistics (1.4.4-GTNH@Side.BOTH --> 1.4.10-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.3-GTNH...1.4.10-GTNH
 >## What's Changed
+> * Buff Essentia IO busses to 4 (from 2) upgrade cards by @firenoo in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/47 (1.4.10-GTNH)
 > * Remove some asm, add creative vis relay interface by @firenoo in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/44 (1.4.9-GTNH)
 > * CellMicroscope Fix invalid OpenGL glEnable call by @firenoo in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/46 (1.4.8-GTNH-pre)
 > * update wrapper by @Dream-Master in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/45 (1.4.7-GTNH)
@@ -729,8 +794,8 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/amunra/pull/19 (0.4.30)
 >
 
-# Updated bartworks (0.7.17@Side.BOTH --> 0.7.27@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.16...0.7.27
+# Updated bartworks (0.7.17@Side.BOTH --> 0.7.28-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.16...0.7.28-pre
 >## What's Changed
 > * Migrate findRecipe method by @miozune in https://github.com/GTNewHorizons/bartworks/pull/338 (0.7.27)
 > * Buff Output of Oganesson Fusion Recipe by 5x by @Steelux8 in https://github.com/GTNewHorizons/bartworks/pull/335 (0.7.26)
