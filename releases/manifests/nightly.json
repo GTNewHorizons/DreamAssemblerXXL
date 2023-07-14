@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-07-14T21:03:37.649047",
+  "last_updated": "2023-07-14T21:34:29.069511",
   "config": "2.3.5-nightly-2023-07-13",
   "github_mods": {
     "AdventureBackpack2": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.5.0",
+      "version": "1.5.1-pre",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {

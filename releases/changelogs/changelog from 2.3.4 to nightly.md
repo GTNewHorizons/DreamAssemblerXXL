@@ -696,6 +696,15 @@
 > * EOH tooltip touch-up by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/220 (5.2.22)
 >
 
+# Updated ThaumicBases (1.5.0@Side.BOTH --> 1.5.1-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.4.33...1.5.1-pre
+>## What's Changed
+> * Adjust recipes for stabilizer blocks by @chochem in https://github.com/GTNewHorizons/ThaumicBases/pull/21 (1.5.0)
+>
+>## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/21 (1.5.0)
+>
+
 # Updated ThaumicEnergistics (1.4.4-GTNH@Side.BOTH --> 1.4.10-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.3-GTNH...1.4.10-GTNH
 >## What's Changed
