@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2023-07-14
+Version nightly is out 2023-07-15
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -309,7 +309,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [DefaultWorldGenerator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.2 |
 | [DetravScannerMod](https://github.com/GTNewHorizons/DetravScannerMod) | 1.7.2 |
 | [Draconic-Evolution](https://github.com/GTNewHorizons/Draconic-Evolution) | 1.1.19-GTNH |
-| [DummyCore](https://github.com/GTNewHorizons/DummyCore) | 1.1.0 |
+| [DummyCore](https://github.com/GTNewHorizons/DummyCore) | 1.2.0 |
 | [DuraDisplay](https://github.com/GTNewHorizons/DuraDisplay) | 1.0.8 |
 | [Electro-Magic-Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.3.3 |
 | [EnderCore](https://github.com/GTNewHorizons/EnderCore) | 0.2.16 |

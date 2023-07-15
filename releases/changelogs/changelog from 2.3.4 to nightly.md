@@ -170,8 +170,8 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/39 (1.1.18-GTNH)
 >
 
-# Updated DummyCore (1.15@Side.BOTH --> 1.1.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/DummyCore/commits/1.15@Side.BOTH...1.1.0@Side.BOTH
+# Updated DummyCore (1.15@Side.BOTH --> 1.2.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/DummyCore/commits/1.15@Side.BOTH...1.2.0@Side.BOTH
 
 # Updated Electro-Magic-Tools (1.3.1@Side.BOTH --> 1.3.3@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.3.0...1.3.3
