@@ -4,9 +4,10 @@
 > * Mobs-Info
 # Mods Removed:
 > * BeeBetterAtBees
-# Updated AE2FluidCraft-Rework (1.1.21-gtnh@Side.BOTH --> 1.1.27@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.20-gtnh...1.1.27
+# Updated AE2FluidCraft-Rework (1.1.21-gtnh@Side.BOTH --> 1.1.27-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.20-gtnh...1.1.27-gtnh
 >## What's Changed
+> * Untangle Baubles hard dependency and skip on unmapped items/blocks by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/137 (1.1.27-gtnh)
 > * Untangle Baubles hard dependency and skip on unmapped items/blocks by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/137 (1.1.27)
 > * Spotless apply for branch fix/untangle_baubles for #137 by @github-actions in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/138 (1.1.26-gtnh-pre)
 > * Fix modulate/sim bug by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/135 (1.1.25-gtnh)
@@ -85,8 +86,8 @@
 > * @NoX-programer made their first contribution in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/17 (1.4.1-GTNH)
 >
 
-# Updated Binnie (2.1.4@Side.BOTH --> 2.1.6@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.2...2.1.6
+# Updated Binnie (2.1.4@Side.BOTH --> 2.1.7-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.2...2.1.7-pre
 >## What's Changed
 > * Fixed the stimulator accepting stacks with a size higher than 1 by @minecraft7771 in https://github.com/GTNewHorizons/Binnie/pull/32 (2.1.6)
 > * Fix bee database local by @minecraft7771 in https://github.com/GTNewHorizons/Binnie/pull/31 (2.1.5)
@@ -170,8 +171,17 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/39 (1.1.18-GTNH)
 >
 
-# Updated DummyCore (1.15@Side.BOTH --> 1.2.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/DummyCore/commits/1.15@Side.BOTH...1.2.0@Side.BOTH
+# Updated DummyCore (1.15@Side.BOTH --> 1.17.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/DummyCore/compare/1.15...1.17.0
+>## What's Changed
+> * Spotless apply for branch hide-menu-switch-btn for #3 by @github-actions in https://github.com/GTNewHorizons/DummyCore/pull/4 (1.17.0)
+> * Hide Menu Switch Button (configurable) by @glowredman in https://github.com/GTNewHorizons/DummyCore/pull/3 (1.17.0)
+> * Spotless apply for branch hide-menu-switch-btn for #3 by @github-actions in https://github.com/GTNewHorizons/DummyCore/pull/4 (1.16-pre)
+>
+>## New Contributors
+> * @github-actions made their first contribution in https://github.com/GTNewHorizons/DummyCore/pull/4 (1.17.0)
+> * @github-actions made their first contribution in https://github.com/GTNewHorizons/DummyCore/pull/4 (1.16-pre)
+>
 
 # Updated Electro-Magic-Tools (1.3.1@Side.BOTH --> 1.3.3@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.3.0...1.3.3
@@ -197,8 +207,8 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/125 (2.4.18)
 >
 
-# Updated ForestryMC (4.6.7@Side.BOTH --> 4.6.10@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.6...4.6.10
+# Updated ForestryMC (4.6.7@Side.BOTH --> 4.6.12-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.6...4.6.12-pre
 >## What's Changed
 > * Fix a bug when NBTString does not exist. by @wohaopa in https://github.com/GTNewHorizons/ForestryMC/pull/54 (4.6.10)
 > * Fix Alveary Simulation of Temperatures by @Runakai1 in https://github.com/GTNewHorizons/ForestryMC/pull/52 (4.6.8)
@@ -305,8 +315,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/GTNEIOrePlugin/pull/34 (1.1.0)
 >
 
-# Updated GTNH-Intergalactic (1.1.17@Side.BOTH --> 1.1.18-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.16...1.1.18-pre
+# Updated GTNH-Intergalactic (1.1.17@Side.BOTH --> 1.1.19-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.16...1.1.19-pre
 >## What's Changed
 > * More mining drones by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/37 (1.1.17)
 >
@@ -329,9 +339,10 @@
 > * @KuroPeach made their first contribution in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/15 (1.3.0)
 >
 
-# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.57@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.57
+# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.58-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.58-pre
 >## What's Changed
+> * Improve Industrial Arc Furnace tooltip by @serenibyss in https://github.com/GTNewHorizons/GTplusplus/pull/692 (1.9.58-pre)
 > * Fix Multiblock structure info tooltips by @serenibyss in https://github.com/GTNewHorizons/GTplusplus/pull/689 (1.9.57)
 > * Add missing advancement localization by @serenibyss in https://github.com/GTNewHorizons/GTplusplus/pull/690 (1.9.57)
 > * Fix some recipe conflicts by @serenibyss in https://github.com/GTNewHorizons/GTplusplus/pull/688 (1.9.56)
@@ -386,9 +397,11 @@
 > * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/93 (1.2.4-GTNH)
 >
 
-# Updated GoodGenerator (0.6.9@Side.BOTH --> 0.6.15-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.8...0.6.15-pre
+# Updated GoodGenerator (0.6.9@Side.BOTH --> 0.6.18-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.8...0.6.18-pre
 >## What's Changed
+> * Fix YOTTA not voiding fluids that are inserted through AE by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/175 (0.6.17-pre)
+> * Fix YOTTA not voiding fluids that are inserted through AE by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/175 (0.6.16)
 > * update deps by @Dream-Master in https://github.com/GTNewHorizons/GoodGenerator/pull/173 (0.6.13)
 > * Set SH steam output for plasmas to 0; remove bounds check. by @fluffle in https://github.com/GTNewHorizons/GoodGenerator/pull/174 (0.6.13)
 > * Coolant Tower: pull steam from all available hatches. by @fluffle in https://github.com/GTNewHorizons/GoodGenerator/pull/167 (0.6.13)
@@ -503,6 +516,13 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/20 (1.0.1-GTNH)
 >
 
+# Updated MagicBees (2.6.4-GTNH@Side.BOTH --> 2.6.5-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.6.3-GTNH...2.6.5-GTNH-pre
+>## What's Changed
+> * Tcon nugget r emoval by @Runakai1 in https://github.com/GTNewHorizons/MagicBees/pull/27 (2.6.4-GTNH)
+> * Fix by @kuba6000 in https://github.com/GTNewHorizons/MagicBees/pull/28 (2.6.4-GTNH)
+>
+
 # Updated MalisisCore (0.14.7-GTNH@Side.BOTH --> 0.14.9@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/MalisisCore/compare/0.14.6-GTNH...0.14.9
 >## What's Changed
@@ -513,8 +533,8 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/MalisisCore/pull/6 (0.14.9)
 >
 
-# New Mod - Mobs-Info (0.0.6-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/commits/0.0.6-GTNH
+# New Mod - Mobs-Info (0.0.7-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/commits/0.0.7-GTNH
 >## What's Changed
 > * Add Infernal Drops NEI tab (Expand Infernal-Mobs compatibility) by @kuba6000 in https://github.com/kuba6000/Mobs-Info/pull/6 (0.0.3-GTNH)
 > * Make everything in extras (compatibilities) translatable by @kuba6000 in https://github.com/kuba6000/Mobs-Info/pull/7 (0.0.3-GTNH)
@@ -596,8 +616,8 @@
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
 
-# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.73-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.73-GTNH
+# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.74-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.74-GTNH-pre
 >## What's Changed
 > * Show a full recipe widget in item tooltips for bookmarked recipes by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/398 (2.3.73-GTNH)
 > * Spotless apply for branch recipe-tooltip for #398 by @github-actions in https://github.com/GTNewHorizons/NotEnoughItems/pull/401 (2.3.71-GTNH-pre)
@@ -696,9 +716,11 @@
 > * EOH tooltip touch-up by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/220 (5.2.22)
 >
 
-# Updated ThaumicBases (1.5.0@Side.BOTH --> 1.5.1-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.4.33...1.5.1-pre
+# Updated ThaumicBases (1.5.0@Side.BOTH --> 1.5.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.4.33...1.5.4
 >## What's Changed
+> * change dummy core dep by @Dream-Master in https://github.com/GTNewHorizons/ThaumicBases/pull/23 (1.5.4)
+> * Dev by @Dream-Master in https://github.com/GTNewHorizons/ThaumicBases/pull/22 (1.5.2)
 > * Adjust recipes for stabilizer blocks by @chochem in https://github.com/GTNewHorizons/ThaumicBases/pull/21 (1.5.0)
 >
 >## New Contributors
@@ -753,9 +775,10 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/TiC-Tooltips/pull/5 (1.2.10)
 >
 
-# Updated TinkersConstruct (1.9.36-GTNH@Side.BOTH --> 1.9.38-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.35-GTNH...1.9.38-GTNH
+# Updated TinkersConstruct (1.9.36-GTNH@Side.BOTH --> 1.9.39-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.35-GTNH...1.9.39-GTNH
 >## What's Changed
+> * Fixes broken TiC Armor not being repairable by @DrParadox7 in https://github.com/GTNewHorizons/TinkersConstruct/pull/91 (1.9.39-GTNH)
 > * Fix tracks properly by @chochem in https://github.com/GTNewHorizons/TinkersConstruct/pull/90 (1.9.38-GTNH)
 > * Fix lumberaxe chain break not validating held item by @miozune in https://github.com/GTNewHorizons/TinkersConstruct/pull/89 (1.9.38-GTNH)
 > * Remove smeltery tracks melting recipe by @DotJason in https://github.com/GTNewHorizons/TinkersConstruct/pull/88 (1.9.36-GTNH)
@@ -774,6 +797,17 @@
 >## New Contributors
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/30 (1.1.11)
 > * @PolkageistHS made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/33 (1.1.6)
+>
+
+# Updated WitchingGadgets (1.3.0-GTNH@Side.BOTH --> 1.3.1-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.2.27-GTNH...1.3.1-GTNH-pre
+>## What's Changed
+> * Dev by @Dream-Master in https://github.com/GTNewHorizons/WitchingGadgets/pull/41 (1.3.1-GTNH-pre)
+> * Fix item equality check by @D-Cysteine in https://github.com/GTNewHorizons/WitchingGadgets/pull/39 (1.3.0-GTNH)
+>
+>## New Contributors
+> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/41 (1.3.1-GTNH-pre)
+> * @D-Cysteine made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/39 (1.3.0-GTNH)
 >
 
 # Updated ae2stuff (0.5.1.16-GTNH@Side.BOTH --> 0.5.2-GTNH@Side.BOTH)
@@ -803,8 +837,8 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/amunra/pull/19 (0.4.30)
 >
 
-# Updated bartworks (0.7.17@Side.BOTH --> 0.7.28-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.16...0.7.28-pre
+# Updated bartworks (0.7.17@Side.BOTH --> 0.7.29-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.16...0.7.29-pre
 >## What's Changed
 > * Migrate findRecipe method by @miozune in https://github.com/GTNewHorizons/bartworks/pull/338 (0.7.27)
 > * Buff Output of Oganesson Fusion Recipe by 5x by @Steelux8 in https://github.com/GTNewHorizons/bartworks/pull/335 (0.7.26)
