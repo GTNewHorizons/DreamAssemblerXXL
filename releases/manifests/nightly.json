@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-07-22T18:14:07.016039",
+  "last_updated": "2023-07-22T22:15:50.706278",
   "config": "2.3.5-nightly-2023-07-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.24",
+      "version": "0.6.25",
       "side": "BOTH"
     },
     "GT5-Unofficial": {

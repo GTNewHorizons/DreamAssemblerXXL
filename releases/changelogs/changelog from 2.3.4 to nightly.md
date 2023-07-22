@@ -481,9 +481,10 @@
 > * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/93 (1.2.4-GTNH)
 >
 
-# Updated GoodGenerator (0.6.9@Side.BOTH --> 0.6.24@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.8...0.6.24
+# Updated GoodGenerator (0.6.9@Side.BOTH --> 0.6.25@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.8...0.6.25
 >## What's Changed
+> * fix divide by zero by @Glease in https://github.com/GTNewHorizons/GoodGenerator/pull/183 (0.6.25)
 > * CoAL Hint Text Fix by @MadMan310 in https://github.com/GTNewHorizons/GoodGenerator/pull/181 (0.6.24)
 > * Fixes Large Essentia Smeltery autoplace in survival by @Lyfts in https://github.com/GTNewHorizons/GoodGenerator/pull/182 (0.6.24)
 > * Replace mEUStore with getStoredEU call by @minecraft7771 in https://github.com/GTNewHorizons/GoodGenerator/pull/180 (0.6.23)
