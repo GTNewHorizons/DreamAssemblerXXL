@@ -2,6 +2,7 @@
 > * AlchemyGrate
 > * BeeBetterAtBees-GTNH
 > * Mobs-Info
+> * Nutrition
 # Mods Removed:
 > * BeeBetterAtBees
 # Updated AE2FluidCraft-Rework (1.1.21-gtnh@Side.BOTH --> 1.1.32-gtnh@Side.BOTH)
@@ -732,6 +733,19 @@
 >
 >## New Contributors
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/391 (2.3.63-GTNH)
+>
+
+# New Mod - Nutrition (0.0.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Nutrition/commits/0.0.2
+>## What's Changed
+> * Depend on AppleCoreAPI for compat by @serenibyss in https://github.com/GTNewHorizons/Nutrition/pull/2 (0.0.2)
+> * Fix readme link to original license by @serenibyss in https://github.com/GTNewHorizons/Nutrition/pull/4 (0.0.2)
+> * Update nutrition stats for non-food hunger value additions by @serenibyss in https://github.com/GTNewHorizons/Nutrition/pull/5 (0.0.2)
+> * initial move to 1.7.10 by @DStrand1 (0.0.1)
+> * Update readme and license by @mitchej123 in https://github.com/GTNewHorizons/Nutrition/pull/1 (0.0.1)
+>
+>## New Contributors
+> * @serenibyss made their first contribution in https://github.com/GTNewHorizons/Nutrition/pull/2 (0.0.2)
 >
 
 # Updated OpenComputers (1.9.8-GTNH@Side.BOTH --> 1.9.12-GTNH@Side.BOTH)
