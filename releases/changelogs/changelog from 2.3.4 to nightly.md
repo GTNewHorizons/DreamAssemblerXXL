@@ -717,8 +717,8 @@
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
 
-# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.76-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.76-GTNH
+# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.78-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.78-GTNH-pre
 >## What's Changed
 > * Fix potential NPE when calling ItemMobSpawner#loadSpawners. by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/405 (2.3.76-GTNH)
 > * Attempt to fix CME when opening recipes immediately after load by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/403 (2.3.75-GTNH)

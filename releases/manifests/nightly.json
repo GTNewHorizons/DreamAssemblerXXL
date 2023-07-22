@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-07-22T15:49:14.639236",
+  "last_updated": "2023-07-22T18:14:07.016039",
   "config": "2.3.5-nightly-2023-07-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -445,7 +445,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.76-GTNH",
+      "version": "2.3.78-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -951,7 +951,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.13",
+      "version": "1.5.14",
       "side": "BOTH"
     },
     "Tinkers-Gregworks": {
