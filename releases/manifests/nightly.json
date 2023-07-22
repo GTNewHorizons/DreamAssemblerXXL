@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.4",
-  "last_updated": "2023-07-18T19:26:39.524350",
+  "last_updated": "2023-07-22T15:37:25.145500",
   "config": "2.3.5-nightly-2023-07-15",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.29-gtnh-pre",
+      "version": "1.1.32-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.30",
+      "version": "0.7.32",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -101,7 +101,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.9.23-GTNH",
+      "version": "1.9.24-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -117,7 +117,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.34",
+      "version": "7.1.36",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -149,7 +149,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.2.15-GTNH",
+      "version": "1.2.16-GTNH",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.20",
+      "version": "0.6.24",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.133",
+      "version": "5.09.43.140",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.59",
+      "version": "1.9.62",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.2.24",
+      "version": "2.2.25",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -397,7 +397,7 @@
       "side": "BOTH"
     },
     "MouseTweaks": {
-      "version": "2.4.10-GTNH-pre",
+      "version": "2.4.8-GTNH",
       "side": "CLIENT"
     },
     "MX-Random": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.83",
+      "version": "2.1.87",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -489,7 +489,7 @@
       "side": "CLIENT"
     },
     "PersonalSpace": {
-      "version": "1.0.25",
+      "version": "1.0.26",
       "side": "BOTH"
     },
     "ProjectBlue": {
@@ -537,7 +537,7 @@
       "side": "BOTH"
     },
     "SpecialMobs": {
-      "version": "3.4.2-pre",
+      "version": "3.4.3",
       "side": "BOTH"
     },
     "SpiceOfLife": {
