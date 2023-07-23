@@ -238,9 +238,11 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/60 (1.3.1)
 >
 
-# Updated EnderIO (2.4.18@Side.BOTH --> 2.4.22-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.17...2.4.22-pre
+# Updated EnderIO (2.4.18@Side.BOTH --> 2.4.23@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.17...2.4.23
 >## What's Changed
+> * valiate tp packets by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/128 (2.4.23)
+> * update bs+sa+deps by @Dream-Master in https://github.com/GTNewHorizons/EnderIO/pull/130 (2.4.23)
 > * Fix a bug in NBT usage by @wohaopa in https://github.com/GTNewHorizons/EnderIO/pull/127 (2.4.21)
 > * Validate TE of packet by @miozune in https://github.com/GTNewHorizons/EnderIO/pull/126 (2.4.20)
 > * Implement item bar visibility config by @Caedis in https://github.com/GTNewHorizons/EnderIO/pull/125 (2.4.18)
@@ -274,9 +276,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/15 (1.3.3)
 >
 
-# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.140@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.140
+# Updated GT5-Unofficial (5.09.43.84@Side.BOTH --> 5.09.43.141@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.83...5.09.43.141
 >## What's Changed
+> * Cache old recipe map and delete lastRecipe if it changes by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2167 (5.09.43.141)
 > * Add circuit to Solid Machine Casing Recipe by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2163 (5.09.43.140)
 > * Revert rutile yield from garnet processing to it's pre-nerf values by @Eysla in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2154 (5.09.43.140)
 > * Fix recipe check broken by fluid registry by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2161 (5.09.43.140)
@@ -415,9 +418,11 @@
 > * @KuroPeach made their first contribution in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/15 (1.3.0)
 >
 
-# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.62@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.62
+# Updated GTplusplus (1.9.39@Side.BOTH --> 1.9.64@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.38...1.9.64
 >## What's Changed
+> * Remove duplicated chemplant recipemap by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/702 (1.9.64)
+> * Adding The Fine Wire + Recipe in wiremill for Chromatic Glass by @TheEpicGamer274 in https://github.com/GTNewHorizons/GTplusplus/pull/700 (1.9.63)
 > * Implement generic processing logic by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/697 (1.9.62)
 > * Remove the duplicate pu239 by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/698 (1.9.61)
 > * Migrated mk4 and mk5 fusion to generic processing logic by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/696 (1.9.60)
@@ -718,9 +723,10 @@
 > * @xSkewer made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/640 (2.1.53)
 >
 
-# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.78-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.78-GTNH-pre
+# Updated NotEnoughItems (2.3.54-GTNH@Side.BOTH --> 2.3.79-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.53-GTNH...2.3.79-GTNH
 >## What's Changed
+> * Recipe tooltip fixes by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/402 (2.3.79-GTNH)
 > * Fix potential NPE when calling ItemMobSpawner#loadSpawners. by @wlhlm in https://github.com/GTNewHorizons/NotEnoughItems/pull/405 (2.3.76-GTNH)
 > * Attempt to fix CME when opening recipes immediately after load by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/403 (2.3.75-GTNH)
 > * Show a full recipe widget in item tooltips for bookmarked recipes by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/398 (2.3.73-GTNH)
