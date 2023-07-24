@@ -24,10 +24,9 @@
 > * update bs+sa+deps by @Dream-Master in https://github.com/GTNewHorizons/EnderIO/pull/130 (2.4.23)
 >
 
-# Updated GT5-Unofficial (5.09.43.141@Side.BOTH --> 5.09.43.149-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.140...5.09.43.149-pre
+# Updated GT5-Unofficial (5.09.43.141@Side.BOTH --> 5.09.43.148@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.140...5.09.43.148
 >## What's Changed
-> * Fix wrong Oregen Pattern on Servers by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2177 (5.09.43.149-pre)
 > * Fix wrong Oregen Pattern on Servers by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2177 (5.09.43.148)
 > * Make Parallel Helper do better chanced output calculation for paralleled chanced recipes by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2130 (5.09.43.146)
 > * Use additive production modifier in Industrial Apiary by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2169 (5.09.43.144)
@@ -40,12 +39,6 @@
 > * fix implosion compressor requiring wrong amount of output by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2168 (5.09.43.143)
 > * Make DD Great Again(Adding Tritanium Ore) by @TheEpicGamer274 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2166 (5.09.43.142)
 > * Cache old recipe map and delete lastRecipe if it changes by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2167 (5.09.43.141)
->
-
-# Updated GTNEIOrePlugin (1.1.1@Side.BOTH --> 1.1.2-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNEIOrePlugin/compare/1.1.0...1.1.2-pre
->## What's Changed
-> * Cleanup by @miozune in https://github.com/GTNewHorizons/GTNEIOrePlugin/pull/36 (1.1.1)
 >
 
 # Updated GTNH-Intergalactic (1.1.21@Side.BOTH --> 1.1.23@Side.BOTH)
