@@ -42,6 +42,12 @@
 > * Cache old recipe map and delete lastRecipe if it changes by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2167 (5.09.43.141)
 >
 
+# Updated GTNEIOrePlugin (1.1.1@Side.BOTH --> 1.1.2-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNEIOrePlugin/compare/1.1.0...1.1.2-pre
+>## What's Changed
+> * Cleanup by @miozune in https://github.com/GTNewHorizons/GTNEIOrePlugin/pull/36 (1.1.1)
+>
+
 # Updated GTNH-Intergalactic (1.1.21@Side.BOTH --> 1.1.23@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.20...1.1.23
 >## What's Changed
