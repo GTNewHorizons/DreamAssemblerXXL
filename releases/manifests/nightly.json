@@ -1,15 +1,15 @@
 {
   "version": "nightly",
-  "last_version": "2.3.4",
-  "last_updated": "2023-07-23T10:10:53.618925",
-  "config": "2.3.5-nightly-2023-07-22",
+  "last_version": "2.3.5",
+  "last_updated": "2023-07-24T22:31:00.780808",
+  "config": "2.3.5",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.14-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.32-gtnh",
+      "version": "1.1.34-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.32",
+      "version": "0.7.33",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.3.24-GTNH",
+      "version": "3.3.25-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.4.23",
+      "version": "2.4.24",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.25",
+      "version": "0.6.27",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.141",
+      "version": "5.09.43.149-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.64",
+      "version": "1.9.66",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.2.25",
+      "version": "2.2.26",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.87",
+      "version": "2.1.90",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -501,7 +501,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.14.6",
+      "version": "9.14.8",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.35",
+      "version": "5.2.36",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -669,7 +669,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.1.11",
+      "version": "1.1.12",
       "side": "BOTH"
     },
     "waila": {
@@ -809,7 +809,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.1.21",
+      "version": "1.1.23",
       "side": "BOTH"
     },
     "amunra": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "Nutrition": {
-      "version": "0.0.2",
+      "version": "0.0.3",
       "side": "BOTH"
     }
   },
