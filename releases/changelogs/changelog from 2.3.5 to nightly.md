@@ -6,6 +6,16 @@
 > * Add the dual P2P interface by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/139 (1.1.32-gtnh)
 >
 
+# Updated AsieLib (0.5.3@Side.BOTH --> 0.5.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AsieLib/compare/0.5.2...0.5.4
+>## What's Changed
+> * Don't use ObjectInputStream by @miozune in https://github.com/GTNewHorizons/AsieLib/pull/3 (0.5.4)
+> * update dependencies, including buildscript and buildcraft by @bombcar in https://github.com/GTNewHorizons/AsieLib/pull/2 (0.5.3)
+>
+>## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/AsieLib/pull/3 (0.5.4)
+>
+
 # Updated BetterQuesting (3.3.24-GTNH@Side.BOTH --> 3.3.25-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.23-GTNH...3.3.25-GTNH
 >## What's Changed
@@ -14,6 +24,16 @@
 >
 >## New Contributors
 > * @FindMeSomeFun made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/112 (3.3.25-GTNH)
+>
+
+# Updated CreativeCore (1.3.29-GTNH@Side.BOTH --> 1.3.30-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/CreativeCore/compare/1.3.27-GTNH...1.3.30-GTNH
+>## What's Changed
+> * Validate ObjectInputStream by @miozune in https://github.com/GTNewHorizons/CreativeCore/pull/4 (1.3.30-GTNH)
+> * Add API for item GUI slot blocking by @miozune in https://github.com/GTNewHorizons/CreativeCore/pull/3 (1.3.29-GTNH)
+>
+>## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/CreativeCore/pull/3 (1.3.29-GTNH)
 >
 
 # Updated EnderIO (2.4.23@Side.BOTH --> 2.4.24@Side.BOTH)
@@ -61,6 +81,17 @@
 > * Remove duplicated chemplant recipemap by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/702 (1.9.64)
 >
 
+# Updated Gadomancy (1.1.0@Side.BOTH --> 1.1.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.0.8.9...1.1.1
+>## What's Changed
+> * Validate side when processing packets by @miozune in https://github.com/GTNewHorizons/Gadomancy/pull/21 (1.1.1)
+> * infusionClaw by @Quetz4l in https://github.com/GTNewHorizons/Gadomancy/pull/20 (1.1.0)
+>
+>## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/Gadomancy/pull/21 (1.1.1)
+> * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/Gadomancy/pull/20 (1.1.0)
+>
+
 # Updated GoodGenerator (0.6.25@Side.BOTH --> 0.6.27@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.24...0.6.27
 >## What's Changed
@@ -77,6 +108,13 @@
 >## What's Changed
 > * Fix color formatting in FontRenderer mixin by @kuba6000 in https://github.com/GTNewHorizons/Hodgepodge/pull/231 (2.2.26)
 > * Fix IC2 armors spamming detectAndSendChanges by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/230 (2.2.25)
+>
+
+# Updated LogisticsPipes (1.0.5-GTNH@Side.BOTH --> 1.0.6-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.0.4-GTNH...1.0.6-GTNH
+>## What's Changed
+> * Don't use ObjectInputStream by @miozune in https://github.com/GTNewHorizons/LogisticsPipes/pull/24 (1.0.6-GTNH)
+> * Remove accidentally committed dependencies by @wlhlm in https://github.com/GTNewHorizons/LogisticsPipes/pull/23 (1.0.5-GTNH)
 >
 
 # Updated NewHorizonsCoreMod (2.1.87@Side.BOTH --> 2.1.90@Side.BOTH)
@@ -105,6 +143,16 @@
 > * @serenibyss made their first contribution in https://github.com/GTNewHorizons/Nutrition/pull/2 (0.0.2)
 >
 
+# Updated ProjectBlue (1.1.10-GTNH@Side.BOTH --> 1.1.11-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectBlue/compare/1.1.8-GTNH...1.1.11-GTNH
+>## What's Changed
+> * Validate ObjectInputStream by @miozune in https://github.com/GTNewHorizons/ProjectBlue/pull/3 (1.1.11-GTNH)
+> * Add back MFR integration by @miozune in https://github.com/GTNewHorizons/ProjectBlue/pull/2 (1.1.10-GTNH)
+>
+>## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/ProjectBlue/pull/2 (1.1.10-GTNH)
+>
+
 # Updated Railcraft (9.14.6@Side.BOTH --> 9.14.8@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.14.5...9.14.8
 >## What's Changed
@@ -117,9 +165,10 @@
 > * @GregoriusT made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/44 (9.14.6)
 >
 
-# Updated TecTech (5.2.35@Side.BOTH --> 5.2.36@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.34...5.2.36
+# Updated TecTech (5.2.35@Side.BOTH --> 5.2.37@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.34...5.2.37
 >## What's Changed
+> * Validate side when processing packet by @miozune in https://github.com/GTNewHorizons/TecTech/pull/234 (5.2.37)
 > * Add support for Crafting input hatch by @harrynull in https://github.com/GTNewHorizons/TecTech/pull/233 (5.2.36)
 > * Fix Infinite Spacetime Energy Boundary casing amount in EOH tooltip by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/231 (5.2.35)
 > * Fix memory card not copying all parameters by @minecraft7771 in https://github.com/GTNewHorizons/TecTech/pull/232 (5.2.35)
@@ -138,9 +187,10 @@
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/30 (1.1.11)
 >
 
-# Updated bartworks (0.7.32@Side.BOTH --> 0.7.33@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.31...0.7.33
+# Updated bartworks (0.7.32@Side.BOTH --> 0.7.34@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.31...0.7.34
 >## What's Changed
+> * Remove AbstractedStack by @miozune in https://github.com/GTNewHorizons/bartworks/pull/346 (0.7.34)
 > * Update dependencies.gradle by @Dream-Master in https://github.com/GTNewHorizons/bartworks/pull/343 (0.7.33)
 > * Fix MEBF calculating twice and not using its parallel for eut use. MOC for wrong discount by @BlueWeabo in https://github.com/GTNewHorizons/bartworks/pull/344 (0.7.33)
 > * Enable Batch mode on Bio Vat by @BlueWeabo in https://github.com/GTNewHorizons/bartworks/pull/345 (0.7.33)
