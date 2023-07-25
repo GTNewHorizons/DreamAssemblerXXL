@@ -44,9 +44,10 @@
 > * update bs+sa+deps by @Dream-Master in https://github.com/GTNewHorizons/EnderIO/pull/130 (2.4.23)
 >
 
-# Updated GT5-Unofficial (5.09.43.141@Side.BOTH --> 5.09.43.148@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.140...5.09.43.148
+# Updated GT5-Unofficial (5.09.43.141@Side.BOTH --> 5.09.43.149-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.140...5.09.43.149-pre
 >## What's Changed
+> * Fix wrong Oregen Pattern on Servers by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2177 (5.09.43.149-pre)
 > * Fix wrong Oregen Pattern on Servers by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2177 (5.09.43.148)
 > * Make Parallel Helper do better chanced output calculation for paralleled chanced recipes by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2130 (5.09.43.146)
 > * Use additive production modifier in Industrial Apiary by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2169 (5.09.43.144)
