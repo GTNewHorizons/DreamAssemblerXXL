@@ -91,7 +91,7 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/CreativeCore/pull/3 (1.3.29-GTNH)
 >
 
-# New Mod - Default-Configs (1.1.1@Side.BOTH)
+# New Mod - Default-Configs (1.1.1@Side.CLIENT)
 **Full Changelog**: https://github.com/GTNewHorizons/Default-Configs/commits/1.1.1
 >## What's Changed
 > * Fix restoring of Config Files by @glowredman in https://github.com/GTNewHorizons/Default-Configs/pull/2 (1.1.1)
@@ -187,9 +187,11 @@
 > * Give digester multiblock perfect OC and reduce pollution by 10x by @Elisis in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/60 (0.10.5)
 >
 
-# Updated GTplusplus (1.9.64@Side.BOTH --> 1.9.71@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.63...1.9.71
+# Updated GTplusplus (1.9.64@Side.BOTH --> 1.9.72@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.63...1.9.72
 >## What's Changed
+> * Particle Acceleration in the QFT by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/695 (1.9.72)
+> * Remove QFT parallel cap by @alexandre-tardif in https://github.com/GTNewHorizons/GTplusplus/pull/710 (1.9.72)
 > * Fix steam macerator generating byproducts And use new API from GT5u by @BlueWeabo in https://github.com/GTNewHorizons/GTplusplus/pull/708 (1.9.71)
 > * Make sure to account for first output being chanced on steam grinder by @BlueWeabo in https://github.com/GTNewHorizons/GTplusplus/pull/709 (1.9.71)
 > * Fix steam macerator generating byproducts And use new API from GT5u by @BlueWeabo in https://github.com/GTNewHorizons/GTplusplus/pull/708 (1.9.69)
