@@ -1,3 +1,5 @@
+# New Mods:
+> * Default-Configs
 # Updated AE2FluidCraft-Rework (1.1.32-gtnh@Side.BOTH --> 1.1.35-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.30-gtnh...1.1.35-gtnh
 >## What's Changed
@@ -87,6 +89,16 @@
 >
 >## New Contributors
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/CreativeCore/pull/3 (1.3.29-GTNH)
+>
+
+# New Mod - Default-Configs (1.1.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Default-Configs/commits/1.1.1
+>## What's Changed
+> * Fix restoring of Config Files by @glowredman in https://github.com/GTNewHorizons/Default-Configs/pull/2 (1.1.1)
+> * Update Buildscript by @glowredman in https://github.com/GTNewHorizons/Default-Configs/pull/1 (1.1.0)
+>
+>## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/Default-Configs/pull/1 (1.1.0)
 >
 
 # Updated EnderCore (0.2.16@Side.BOTH --> 0.2.17@Side.BOTH)
