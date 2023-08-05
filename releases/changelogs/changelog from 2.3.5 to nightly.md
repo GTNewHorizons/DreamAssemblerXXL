@@ -331,8 +331,8 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.1.87@Side.BOTH --> 2.1.96@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.86...2.1.96
+# Updated NewHorizonsCoreMod (2.1.87@Side.BOTH --> 2.1.97@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.86...2.1.97
 >## What's Changed
 > * fix mistake in brick electrolyze recipe by @Pxx500 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/696 (2.1.96)
 > * Fix 8 recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/695 (2.1.95)
