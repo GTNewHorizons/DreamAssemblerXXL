@@ -1,8 +1,9 @@
 # New Mods:
 > * Default-Configs
-# Updated AE2FluidCraft-Rework (1.1.32-gtnh@Side.BOTH --> 1.1.36@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.30-gtnh...1.1.36
+# Updated AE2FluidCraft-Rework (1.1.32-gtnh@Side.BOTH --> 1.1.36-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.30-gtnh...1.1.36-gtnh
 >## What's Changed
+> * Lazy monitor updates by @eigenraven in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/150 (1.1.36-gtnh)
 > * Lazy monitor updates by @eigenraven in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/150 (1.1.36)
 > * Add null check for retrieving tank info by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/145 (1.1.35-gtnh)
 > * Update ru_RU.lang by @StrangeMan1580 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/146 (1.1.35-gtnh)
