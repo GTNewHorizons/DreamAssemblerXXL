@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.5",
-  "last_updated": "2023-08-02T21:26:10.247036",
+  "last_updated": "2023-08-05T10:33:25.692289",
   "config": "2.3.6-nightly-2023-08-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.35-gtnh",
+      "version": "1.1.36",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-245-GTNH-pre",
+      "version": "rv3-beta-247-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.30",
+      "version": "0.6.31",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.72",
+      "version": "1.9.74",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.95",
+      "version": "2.1.96",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -465,7 +465,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.9.12-GTNH",
+      "version": "1.9.13-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.4.11-GTNH",
+      "version": "1.4.12-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -729,7 +729,7 @@
       "side": "BOTH"
     },
     "TX-Loader": {
-      "version": "1.5.2",
+      "version": "1.5.3",
       "side": "CLIENT"
     },
     "GigaGramFab": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.4.1-pre",
+      "version": "1.4.2",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
@@ -813,15 +813,15 @@
       "side": "BOTH"
     },
     "amunra": {
-      "version": "0.4.34",
+      "version": "0.4.35",
       "side": "BOTH"
     },
     "DuraDisplay": {
-      "version": "1.0.8",
+      "version": "1.0.10",
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.0.8-GTNH",
+      "version": "0.1.0-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
