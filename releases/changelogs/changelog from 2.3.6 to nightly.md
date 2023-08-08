@@ -9,17 +9,9 @@
 > * Lazy monitor updates by @eigenraven in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/150 (1.1.36-gtnh)
 >
 
-# Updated GT5-Unofficial (5.09.43.162@Side.BOTH --> 5.09.43.167-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.161...5.09.43.167-pre
+# Updated GT5-Unofficial (5.09.43.162@Side.BOTH --> 5.09.43.166@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.161...5.09.43.166
 >## What's Changed
-> * Check if it is allowed to put into slot by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2207 (5.09.43.167-pre)
-> * Fix wireless hatch npe log spam by @harrynull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2208 (5.09.43.167-pre)
-> * Fix and cleanup ammonia recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2210 (5.09.43.167-pre)
-> * Adjust Recipe Tiers for Quad Input Hatches by @Steelux8 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2211 (5.09.43.167-pre)
-> * General Crafting Input Hatch QoL fixes by @foxwhite25 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2212 (5.09.43.167-pre)
-> * Spotless apply for branch crafting-input-fixes for #2200 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2213 (5.09.43.167-pre)
-> * Fix AL logging by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2214 (5.09.43.167-pre)
-> * Crafting input buffer: Check for invalid patterns by @harrynull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2209 (5.09.43.167-pre)
 > * Fix AL logging by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2214 (5.09.43.166)
 > * Crafting input buffer: Check for invalid patterns by @harrynull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2209 (5.09.43.166)
 > * Fix and cleanup ammonia recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2210 (5.09.43.165)
