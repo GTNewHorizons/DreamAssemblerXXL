@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2023-08-08
+Version nightly is out 2023-08-11
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -261,7 +261,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Automagy](https://www.curseforge.com/minecraft/mc-mods/automagy) | 0.28.2 |
 | [Avaritia](https://github.com/GTNewHorizons/Avaritia) | 1.45 |
 | [Avaritiaddons](https://github.com/GTNewHorizons/Avaritiaddons) | 1.5.5-GTNH |
-| [bartworks](https://github.com/GTNewHorizons/bartworks) | 0.7.36 |
+| [bartworks](https://github.com/GTNewHorizons/bartworks) | 0.7.37 |
 | [Battlegear2](https://github.com/GTNewHorizons/Battlegear2) | 1.2.0 |
 | [Baubles](https://github.com/GTNewHorizons/Baubles) | 1.0.1.16 |
 | [bdlib](https://github.com/GTNewHorizons/bdlib) | 1.9.8-GTNH |
@@ -281,7 +281,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BlockLimiter](https://github.com/GTNewHorizons/BlockLimiter) | 0.55 |
 | [BlockRenderer6343](https://github.com/GTNewHorizons/BlockRenderer6343) | 1.0.3 |
 | [BloodArsenal](https://github.com/GTNewHorizons/BloodArsenal) | 1.2.11 |
-| [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.4.2 |
+| [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.4.3 |
 | [Botania](https://github.com/GTNewHorizons/Botania) | 1.9.24-GTNH |
 | [Botanic-horizons](https://github.com/GTNewHorizons/Botanic-horizons) | 1.0.15-GTNH |
 | [BrandonsCore](https://github.com/GTNewHorizons/BrandonsCore) | 1.0.0.13-GTNH |
@@ -337,7 +337,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.6.32 |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.0.15 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.43.166 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.43.169 |
 | [GTNEIOrePlugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.1.3 |
 | [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.1.24 |
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.10.6 |
@@ -381,7 +381,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.3.7 |
 | [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.2.11-GTNH |
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 2.0.0 |
-| [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.1.1-GTNH |
+| [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.1.2-GTNH |
 | [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.9.10 |
 | [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.1.16 |
 | [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) | 1.6.21 |
@@ -479,7 +479,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [WanionLib](https://github.com/GTNewHorizons/WanionLib) | 1.8.4 |
 | [WarpTheory](https://github.com/GTNewHorizons/WarpTheory) | 1.2.16-GTNH |
 | [WAWLA](https://github.com/GTNewHorizons/WAWLA) | 1.1.3-GTNH |
-| [WirelessCraftingTerminal](https://github.com/GTNewHorizons/WirelessCraftingTerminal) | 1.9.3 |
+| [WirelessCraftingTerminal](https://github.com/GTNewHorizons/WirelessCraftingTerminal) | 1.9.4 |
 | [WirelessRedstone-CBE](https://github.com/GTNewHorizons/WirelessRedstone-CBE) | 1.4.8 |
 | [Witchery](https://www.curseforge.com/minecraft/mc-mods/witchery) | 0.24.1 |
 | [WitcheryExtras](https://github.com/GTNewHorizons/WitcheryExtras) | 1.1.14 |

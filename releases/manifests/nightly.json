@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.3.6",
-  "last_updated": "2023-08-08T07:39:42.518428",
-  "config": "2.3.6",
+  "last_updated": "2023-08-11T07:09:13.797463",
+  "config": "2.3.6-nightly-2023-08-05",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.14-GTNH",
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.36",
+      "version": "0.7.37",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.4.2",
+      "version": "1.4.3",
       "side": "BOTH"
     },
     "Botania": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.166",
+      "version": "5.09.43.169",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -697,7 +697,7 @@
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
-      "version": "1.9.3",
+      "version": "1.9.4",
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
@@ -821,7 +821,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.1.1-GTNH",
+      "version": "0.1.2-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {

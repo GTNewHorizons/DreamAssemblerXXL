@@ -9,9 +9,20 @@
 > * Lazy monitor updates by @eigenraven in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/150 (1.1.36-gtnh)
 >
 
-# Updated GT5-Unofficial (5.09.43.162@Side.BOTH --> 5.09.43.166@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.161...5.09.43.166
+# Updated BloodMagic (1.4.2@Side.BOTH --> 1.4.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.4.1...1.4.3
 >## What's Changed
+> * Fix tooltip for meteor NEI by @miozune in https://github.com/GTNewHorizons/BloodMagic/pull/48 (1.4.3)
+> * Only use GTNH CT APIs when GTNH CraftTweaker is present by @eigenraven in https://github.com/GTNewHorizons/BloodMagic/pull/46 (1.4.2)
+>
+
+# Updated GT5-Unofficial (5.09.43.162@Side.BOTH --> 5.09.43.169@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.161...5.09.43.169
+>## What's Changed
+> * Fix Refractory Capsule by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2219 (5.09.43.169)
+> * Fix PAs overclocking ulv recipes too much by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2220 (5.09.43.169)
+> * Fix Digital Tank capacity for Fluid Storage Monitor by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2217 (5.09.43.169)
+> * Add a way to enable or disable the crafting buffer on GPL multiblocks by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2218 (5.09.43.168)
 > * Fix AL logging by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2214 (5.09.43.166)
 > * Crafting input buffer: Check for invalid patterns by @harrynull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2209 (5.09.43.166)
 > * Fix and cleanup ammonia recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2210 (5.09.43.165)
@@ -31,8 +42,8 @@
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/192 (0.6.32)
 >
 
-# Updated Mobs-Info (0.1.0-GTNH@Side.BOTH --> 0.1.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.0.8-GTNH...0.1.1-GTNH
+# Updated Mobs-Info (0.1.0-GTNH@Side.BOTH --> 0.1.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.0.8-GTNH...0.1.2-GTNH
 
 # Updated NewHorizonsCoreMod (2.1.97@Side.BOTH --> 2.1.99@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.96...2.1.99
@@ -82,6 +93,13 @@
 > * Fix minor typo in 16k Essentia Storage Cell by @firenoo in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/49 (1.4.12-GTNH)
 >
 
+# Updated WirelessCraftingTerminal (1.9.3@Side.BOTH --> 1.9.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.9.2...1.9.4
+>## What's Changed
+> * Fix lang key for keybind by @miozune in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/30 (1.9.4)
+> * Fix/magnet npe and updates by @firenoo in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/29 (1.9.3)
+>
+
 # Updated amunra (0.4.35@Side.BOTH --> 0.4.36@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.34...0.4.36
 >## What's Changed
@@ -90,5 +108,12 @@
 >
 >## New Contributors
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/amunra/pull/28 (0.4.36)
+>
+
+# Updated bartworks (0.7.36@Side.BOTH --> 0.7.37@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.35...0.7.37
+>## What's Changed
+> * Disable crafting me buffer on CAL to stop CAL being formed with 2 slices by @BlueWeabo in https://github.com/GTNewHorizons/bartworks/pull/351 (0.7.37)
+> * Use new API from GT5u by @BlueWeabo in https://github.com/GTNewHorizons/bartworks/pull/348 (0.7.36)
 >
 
