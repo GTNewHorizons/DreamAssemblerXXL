@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "2.3.6",
-  "last_updated": "2023-08-11T07:44:41.019890",
-  "config": "2.3.6-nightly-2023-08-05",
+  "last_updated": "2023-08-11T23:07:31.428355",
+  "config": "2.3.7-nightly-2023-08-11",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.14-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.38-gtnh",
+      "version": "1.1.39-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-247-GTNH",
+      "version": "rv3-beta-248-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.37",
+      "version": "0.7.38",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GalacticGregGT5": {
-      "version": "1.0.9",
+      "version": "1.0.10",
       "side": "BOTH"
     },
     "Galacticraft": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.32",
+      "version": "0.6.34",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.169",
+      "version": "5.09.43.170",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.74",
+      "version": "1.9.75",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.2.27",
+      "version": "2.2.28",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -465,7 +465,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.9.13-GTNH",
+      "version": "1.9.14-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {

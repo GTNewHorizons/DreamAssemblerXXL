@@ -1,12 +1,26 @@
 # Mods Removed:
 > * Default-Configs
-# Updated AE2FluidCraft-Rework (1.1.36-gtnh@Side.BOTH --> 1.1.38-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.35-gtnh...1.1.38-gtnh
+# Updated AE2FluidCraft-Rework (1.1.36-gtnh@Side.BOTH --> 1.1.39-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.35-gtnh...1.1.39-gtnh
 >## What's Changed
+> * Fix Crafting Input Bus Compatibility & fix general bugs by @foxwhite25 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/154 (1.1.39-gtnh)
 > * A collection of fixes by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/152 (1.1.38-gtnh)
 > * Fix doubling fluids for real now by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/153 (1.1.38-gtnh)
 > * Fix fluid stack not doubling by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/151 (1.1.37-gtnh)
 > * Lazy monitor updates by @eigenraven in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/150 (1.1.36-gtnh)
+>
+>## New Contributors
+> * @foxwhite25 made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/154 (1.1.39-gtnh)
+>
+
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-247-GTNH@Side.BOTH --> rv3-beta-248-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-246-GTNH...rv3-beta-248-GTNH
+>## What's Changed
+> * Drop static P2Ps as they are, not ME P2Ps by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/375 (rv3-beta-248-GTNH)
+> * Crafting input interface terminal supports by @harrynull in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/368 (rv3-beta-247-GTNH)
+>
+>## New Contributors
+> * @harrynull made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/368 (rv3-beta-247-GTNH)
 >
 
 # Updated BloodMagic (1.4.2@Side.BOTH --> 1.4.3@Side.BOTH)
@@ -16,9 +30,11 @@
 > * Only use GTNH CT APIs when GTNH CraftTweaker is present by @eigenraven in https://github.com/GTNewHorizons/BloodMagic/pull/46 (1.4.2)
 >
 
-# Updated GT5-Unofficial (5.09.43.162@Side.BOTH --> 5.09.43.169@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.161...5.09.43.169
+# Updated GT5-Unofficial (5.09.43.162@Side.BOTH --> 5.09.43.170@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.161...5.09.43.170
 >## What's Changed
+> * Blacklist AE2FC drop and packet, and Chisel stones from Recycler by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2222 (5.09.43.170)
+> * Add detailed logging for ME hatches by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2224 (5.09.43.170)
 > * Fix Refractory Capsule by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2219 (5.09.43.169)
 > * Fix PAs overclocking ulv recipes too much by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2220 (5.09.43.169)
 > * Fix Digital Tank capacity for Fluid Storage Monitor by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2217 (5.09.43.169)
@@ -32,14 +48,46 @@
 > * Fix nanoforge not overclocking correctly by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2205 (5.09.43.162)
 >
 
-# Updated GoodGenerator (0.6.31@Side.BOTH --> 0.6.32@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.30...0.6.32
+# Updated GTplusplus (1.9.74@Side.BOTH --> 1.9.75@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.73...1.9.75
 >## What's Changed
+> * Fix ore gen pattern for everglades by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/717 (1.9.75)
+> * Lower reservoir hatch tier to EV, add tooltip showing tier for reservoir + air intake hatches by @querns in https://github.com/GTNewHorizons/GTplusplus/pull/713 (1.9.74)
+> * Fix leather drying in dehydrator by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/714 (1.9.74)
+> * Fix steam multis now overclocking recipes which consume 2 eu/t by @BlueWeabo in https://github.com/GTNewHorizons/GTplusplus/pull/715 (1.9.74)
+>
+>## New Contributors
+> * @querns made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/713 (1.9.74)
+>
+
+# Updated GalacticGregGT5 (1.0.9@Side.BOTH --> 1.0.10@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GalacticGregGT5/compare/1.0.8...1.0.10
+>## What's Changed
+> * Fix oregen pattern for space veins by @chochem in https://github.com/GTNewHorizons/GalacticGregGT5/pull/16 (1.0.10)
+> * Update dependencies by @miozune in https://github.com/GTNewHorizons/GalacticGregGT5/pull/15 (1.0.9)
+>
+>## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/GalacticGregGT5/pull/16 (1.0.10)
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/GalacticGregGT5/pull/15 (1.0.9)
+>
+
+# Updated GoodGenerator (0.6.31@Side.BOTH --> 0.6.34@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.30...0.6.34
+>## What's Changed
+> * Don't consume multiple amps for Precise Assembler if only one normal energy hatch is used by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/193 (0.6.34)
+> * Fix Compact Fusion not showing correct parallel for scanner by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/194 (0.6.33)
 > * Extract using AEFluidStack, not FluidStack by @firenoo in https://github.com/GTNewHorizons/GoodGenerator/pull/192 (0.6.32)
 > * Fix compacts mk4 and mk5 having way too many overclocks by @BlueWeabo in https://github.com/GTNewHorizons/GoodGenerator/pull/191 (0.6.31)
 >
 >## New Contributors
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/192 (0.6.32)
+>
+
+# Updated Hodgepodge (2.2.27@Side.BOTH --> 2.2.28@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.26...2.2.28
+>## What's Changed
+> * Fix crash when placing Thaumcraft Golem by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/233 (2.2.28)
+> * Fix path handling of bibliocraft saved books to replace invalid characters with dashes by @eigenraven in https://github.com/GTNewHorizons/Hodgepodge/pull/232 (2.2.27)
 >
 
 # Updated Mobs-Info (0.1.0-GTNH@Side.BOTH --> 0.1.2-GTNH@Side.BOTH)
@@ -76,6 +124,16 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Nutrition/pull/7 (0.0.3)
 >
 
+# Updated OpenComputers (1.9.13-GTNH@Side.BOTH --> 1.9.14-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.12-GTNH...1.9.14-GTNH
+>## What's Changed
+> * Fix modifying fluid patterns with OC by @S4mpsa in https://github.com/GTNewHorizons/OpenComputers/pull/106 (1.9.14-GTNH)
+> * use openContainer instead of sending coords by @Glease in https://github.com/GTNewHorizons/OpenComputers/pull/105 (1.9.13-GTNH)
+>
+>## New Contributors
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/105 (1.9.13-GTNH)
+>
+
 # Updated ProjectRed (4.7.11-GTNH@Side.BOTH --> 4.7.12-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.7.10-GTNH...4.7.12-GTNH
 >## What's Changed
@@ -110,9 +168,10 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/amunra/pull/28 (0.4.36)
 >
 
-# Updated bartworks (0.7.36@Side.BOTH --> 0.7.37@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.35...0.7.37
+# Updated bartworks (0.7.36@Side.BOTH --> 0.7.38@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.35...0.7.38
 >## What's Changed
+> * Don't lazily initialize EIC recipemap by @miozune in https://github.com/GTNewHorizons/bartworks/pull/350 (0.7.38)
 > * Disable crafting me buffer on CAL to stop CAL being formed with 2 slices by @BlueWeabo in https://github.com/GTNewHorizons/bartworks/pull/351 (0.7.37)
 > * Use new API from GT5u by @BlueWeabo in https://github.com/GTNewHorizons/bartworks/pull/348 (0.7.36)
 >

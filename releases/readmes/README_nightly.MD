@@ -246,14 +246,14 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | --- | --- |
 | [Advanced Solar Panel For 1.7.10 (Unofficial)](https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels) | 1.7.10 Edition |
 | [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.0.14-GTNH |
-| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.1.38-gtnh |
+| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.1.39-gtnh |
 | [ae2stuff](https://github.com/GTNewHorizons/ae2stuff) | 0.5.7-GTNH |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.2.6-GTNH |
 | [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.0.3-GTNH |
 | [amunra](https://github.com/GTNewHorizons/amunra) | 0.4.36 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.6.3 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.2.10 |
-| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-247-GTNH |
+| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-248-GTNH |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.8.6 |
 | [Aroma1997Core](https://www.curseforge.com/minecraft/mc-mods/aroma1997core) | 1.0.2.16 |
 | [AromaBackup](https://www.curseforge.com/minecraft/mc-mods/aromabackup) | 0.1.0.0 |
@@ -261,7 +261,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Automagy](https://www.curseforge.com/minecraft/mc-mods/automagy) | 0.28.2 |
 | [Avaritia](https://github.com/GTNewHorizons/Avaritia) | 1.45 |
 | [Avaritiaddons](https://github.com/GTNewHorizons/Avaritiaddons) | 1.5.5-GTNH |
-| [bartworks](https://github.com/GTNewHorizons/bartworks) | 0.7.37 |
+| [bartworks](https://github.com/GTNewHorizons/bartworks) | 0.7.38 |
 | [Battlegear2](https://github.com/GTNewHorizons/Battlegear2) | 1.2.0 |
 | [Baubles](https://github.com/GTNewHorizons/Baubles) | 1.0.1.16 |
 | [bdlib](https://github.com/GTNewHorizons/bdlib) | 1.9.8-GTNH |
@@ -329,27 +329,27 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ForgeRelocation](https://github.com/GTNewHorizons/ForgeRelocation) | 0.0.3 |
 | [ForgeRelocationFMP](https://github.com/GTNewHorizons/ForgeRelocationFMP) | 0.0.4 |
 | [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.1.3 |
-| [GalacticGregGT5](https://github.com/GTNewHorizons/GalacticGregGT5) | 1.0.9 |
+| [GalacticGregGT5](https://github.com/GTNewHorizons/GalacticGregGT5) | 1.0.10 |
 | [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.0.73-GTNH |
 | [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.2.5-GTNH |
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.6.5.5-GTNH |
 | [GigaGramFab](https://github.com/GTNewHorizons/GigaGramFab) | 0.2.3 |
-| [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.6.32 |
+| [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.6.34 |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.0.15 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.43.169 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.43.170 |
 | [GTNEIOrePlugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.1.3 |
 | [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.1.24 |
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.10.6 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.3.1 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.0.13 |
-| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.9.74 |
+| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.9.75 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.9.7-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.0-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.1.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.2.27 |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.2.28 |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.2.3-GTNH |
 | [HungerOverhaul](https://github.com/GTNewHorizons/HungerOverhaul) | 1.0.4-GTNH |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.1.0 |
@@ -405,7 +405,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.06.1-GTNH |
 | [OCGlasses](https://github.com/GTNewHorizons/OCGlasses) | 1.3.1-GTNH |
 | [OpenBlocks](https://github.com/GTNewHorizons/OpenBlocks) | 1.7.0-GTNH |
-| [OpenComputers](https://github.com/GTNewHorizons/OpenComputers) | 1.9.13-GTNH |
+| [OpenComputers](https://github.com/GTNewHorizons/OpenComputers) | 1.9.14-GTNH |
 | [OpenModsLib](https://github.com/GTNewHorizons/OpenModsLib) | 0.10.6 |
 | [OpenModularTurrets](https://github.com/GTNewHorizons/OpenModularTurrets) | 2.2.11-247 |
 | [OpenPrinter](https://github.com/GTNewHorizons/OpenPrinter) | 0.1.3-GTNH |
