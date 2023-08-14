@@ -23,6 +23,13 @@
 > * @harrynull made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/368 (rv3-beta-247-GTNH)
 >
 
+# Updated BetterQuesting (3.3.26-GTNH@Side.BOTH --> 3.3.27-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.25-GTNH...3.3.27-GTNH
+>## What's Changed
+> * Wisp final solution by @FindMeSomeFun in https://github.com/GTNewHorizons/BetterQuesting/pull/114 (3.3.27-GTNH)
+> * Adapted Wisp entity preview but by respecting DRY principle this time. by @FindMeSomeFun in https://github.com/GTNewHorizons/BetterQuesting/pull/113 (3.3.26-GTNH)
+>
+
 # Updated BloodMagic (1.4.2@Side.BOTH --> 1.4.3@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.4.1...1.4.3
 >## What's Changed
@@ -30,9 +37,18 @@
 > * Only use GTNH CT APIs when GTNH CraftTweaker is present by @eigenraven in https://github.com/GTNewHorizons/BloodMagic/pull/46 (1.4.2)
 >
 
-# Updated GT5-Unofficial (5.09.43.162@Side.BOTH --> 5.09.43.170@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.161...5.09.43.170
+# Updated ForestryMC (4.6.13@Side.BOTH --> 4.6.14@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.10...4.6.14
 >## What's Changed
+> * Update dependency types by @miozune in https://github.com/GTNewHorizons/ForestryMC/pull/56 (4.6.14)
+> * Fix Additive Production by @hacatu in https://github.com/GTNewHorizons/ForestryMC/pull/55 (4.6.13)
+>
+
+# Updated GT5-Unofficial (5.09.43.162@Side.BOTH --> 5.09.43.171@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.161...5.09.43.171
+>## What's Changed
+> * Fix overclock calculator calculating eu/t use for ulv recipe wrong on certain parallel by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2225 (5.09.43.171)
+> * Fix drilling rigs, plants and concrete backfiller to fail with multiple energy hatches by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2227 (5.09.43.171)
 > * Blacklist AE2FC drop and packet, and Chisel stones from Recycler by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2222 (5.09.43.170)
 > * Add detailed logging for ME hatches by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2224 (5.09.43.170)
 > * Fix Refractory Capsule by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2219 (5.09.43.169)
@@ -46,6 +62,17 @@
 > * Check if it is allowed to put into slot by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2207 (5.09.43.164)
 > * Fix wireless hatch npe log spam by @harrynull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2208 (5.09.43.164)
 > * Fix nanoforge not overclocking correctly by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2205 (5.09.43.162)
+>
+
+# Updated GTNH-Intergalactic (1.1.24@Side.BOTH --> 1.1.25@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.23...1.1.25
+>## What's Changed
+> * Fixed localization of motor block achievements by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/45 (1.1.25)
+> * Use new API from GT5u by @BlueWeabo in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/43 (1.1.24)
+> * Added mk3 pump as NEI catalyst for space pumping by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/44 (1.1.24)
+>
+>## New Contributors
+> * @BlueWeabo made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/43 (1.1.24)
 >
 
 # Updated GTplusplus (1.9.74@Side.BOTH --> 1.9.75@Side.BOTH)
