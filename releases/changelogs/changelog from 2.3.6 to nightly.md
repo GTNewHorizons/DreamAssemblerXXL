@@ -56,9 +56,17 @@
 > * Fix Additive Production by @hacatu in https://github.com/GTNewHorizons/ForestryMC/pull/55 (4.6.13)
 >
 
-# Updated GT5-Unofficial (5.09.43.162@Side.BOTH --> 5.09.43.172@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.161...5.09.43.172
+# Updated GT5-Unofficial (5.09.43.162@Side.BOTH --> 5.09.43.177@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.161...5.09.43.177
 >## What's Changed
+> * Remove broken HSLA recipe by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2241 (5.09.43.177)
+> * Correct PCB Factory Energy Hatch description by @Eraldoe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2237 (5.09.43.177)
+> * Crafting input - Optimize isEmpty check to reduce lag by @harrynull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2239 (5.09.43.176)
+> * Fix some output slots allowing insertion by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2230 (5.09.43.175)
+> * fix overlay zfighting by disable depth test by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2226 (5.09.43.175)
+> * Fix ME Output Bus and Crafting Input Bus overflow when save/load by @harrynull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2238 (5.09.43.174)
+> * Remove fire display from singleblock generator by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2240 (5.09.43.174)
+> * Experimental fix to prevent infinite loop in Grid destruction by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2235 (5.09.43.173)
 > * clear stale crafting input bus list by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2233 (5.09.43.172)
 > * Add a method to remove item data and use it for clay block by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2229 (5.09.43.172)
 > * Update buildscript by @firenoo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2232 (5.09.43.172)
@@ -82,6 +90,7 @@
 > * Fix nanoforge not overclocking correctly by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2205 (5.09.43.162)
 >
 >## New Contributors
+> * @Eraldoe made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2237 (5.09.43.177)
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2232 (5.09.43.172)
 >
 
@@ -123,6 +132,17 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/GalacticGregGT5/pull/15 (1.0.9)
 >
 
+# Updated Galaxy-Space-GTNH (1.2.5-GTNH@Side.BOTH --> 1.2.6-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.2.4-GTNH...1.2.6-GTNH
+>## What's Changed
+> * Fix Server-Side Entity leak by @TechnicianLP in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/96 (1.2.6-GTNH)
+> * Fix Tantalumhafniumcarbide recipes by @chochem in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/95 (1.2.5-GTNH)
+>
+>## New Contributors
+> * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/96 (1.2.6-GTNH)
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/95 (1.2.5-GTNH)
+>
+
 # Updated GoodGenerator (0.6.31@Side.BOTH --> 0.6.35@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.30...0.6.35
 >## What's Changed
@@ -145,12 +165,44 @@
 > * Fix path handling of bibliocraft saved books to replace invalid characters with dashes by @eigenraven in https://github.com/GTNewHorizons/Hodgepodge/pull/232 (2.2.27)
 >
 
+# Updated KekzTech (0.8.7@Side.BOTH --> 0.8.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.8.6...0.8.8
+>## What's Changed
+> * Allow max tier TFFT to complete with energy hatch by @Lyfts in https://github.com/GTNewHorizons/KekzTech/pull/74 (0.8.8)
+> * Add per fluid capacity to TFFT storage field tooltip by @Lyfts in https://github.com/GTNewHorizons/KekzTech/pull/75 (0.8.8)
+> * Allow lsc rotation by @alexandre-tardif in https://github.com/GTNewHorizons/KekzTech/pull/73 (0.8.7)
+>
+>## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/KekzTech/pull/74 (0.8.8)
+> * @alexandre-tardif made their first contribution in https://github.com/GTNewHorizons/KekzTech/pull/73 (0.8.7)
+>
+
+# Updated KubaTech (0.12.6@Side.BOTH --> 0.12.7@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.12.5...0.12.7
+>## What's Changed
+> * Allow EEC to get drops that have requirements (e.g. skulls) by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/92 (0.12.7)
+> * Partially fix quiver on skeletons in EEC by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/91 (0.12.6)
+>
+
+# Updated Minetweaker-Gregtech-5-Addon (2.0.0@Side.BOTH --> 2.0.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/compare/1.7.5...2.0.1
+>## What's Changed
+> * Add noOptimize to RA2 and fix fluid recipe crash by @kuba6000 in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/60 (2.0.1)
+> * Add Disassembler by @Pilad in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/56 (2.0.0)
+> * Add RA2 builder and recipe remover by @kuba6000 in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/59 (2.0.0)
+>
+>## New Contributors
+> * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/59 (2.0.0)
+>
+
 # Updated Mobs-Info (0.1.0-GTNH@Side.BOTH --> 0.1.4-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.0.8-GTNH...0.1.4-GTNH
 
-# Updated NewHorizonsCoreMod (2.1.97@Side.BOTH --> 2.1.99@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.96...2.1.99
+# Updated NewHorizonsCoreMod (2.1.97@Side.BOTH --> 2.1.100@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.96...2.1.100
 >## What's Changed
+> * fix compressed dual desh plates by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/702 (2.1.100)
+> * Remove broken HSLA recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/703 (2.1.100)
 > * Fix wrong meta for barnada C sapling by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/701 (2.1.99)
 > * Fix and clean up ammonia recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/697 (2.1.98)
 > * Fix one TC recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/698 (2.1.98)
@@ -158,9 +210,10 @@
 > * Fix fences for piston assembler recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/700 (2.1.98)
 >
 
-# Updated NotEnoughItems (2.3.80-GTNH@Side.BOTH --> 2.3.81-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.79-GTNH...2.3.81-GTNH
+# Updated NotEnoughItems (2.3.80-GTNH@Side.BOTH --> 2.3.82-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.79-GTNH...2.3.82-GTNH
 >## What's Changed
+> * Partial fix for the NEI custom diagram in recipe tooltip issue by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/413 (2.3.82-GTNH)
 > * Pull bookmarked items from container to player inventory by @Nilau1998 in https://github.com/GTNewHorizons/NotEnoughItems/pull/410 (2.3.81-GTNH)
 > * Fix recipe tooltip crash with BetterQuesting by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/409 (2.3.80-GTNH)
 >

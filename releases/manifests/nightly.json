@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.6",
-  "last_updated": "2023-08-17T07:15:28.272293",
+  "last_updated": "2023-08-18T07:12:47.492873",
   "config": "2.3.7-nightly-2023-08-11",
   "github_mods": {
     "AdventureBackpack2": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.2.5-GTNH",
+      "version": "1.2.6-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.172",
+      "version": "5.09.43.177",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -345,11 +345,11 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.8.7",
+      "version": "0.8.8",
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.12.6",
+      "version": "0.12.7",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "side": "BOTH"
     },
     "ModTweaker": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.99",
+      "version": "2.1.100",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -445,7 +445,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.3.81-GTNH",
+      "version": "2.3.82-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
