@@ -49,6 +49,17 @@
 > * Only use GTNH CT APIs when GTNH CraftTweaker is present by @eigenraven in https://github.com/GTNewHorizons/BloodMagic/pull/46 (1.4.2)
 >
 
+# Updated Chisel (2.11.3-GTNH@Side.BOTH --> 2.11.4-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.11.2-GTNH...2.11.4-GTNH
+>## What's Changed
+> * Fix Chisel opening its UI instead of looked at TE by @serenibyss in https://github.com/GTNewHorizons/Chisel/pull/32 (2.11.4-GTNH)
+> * disable default hempcrete smelting by @Darkmaxsas in https://github.com/GTNewHorizons/Chisel/pull/31 (2.11.3-GTNH)
+>
+>## New Contributors
+> * @serenibyss made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/32 (2.11.4-GTNH)
+> * @Darkmaxsas made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/31 (2.11.3-GTNH)
+>
+
 # Updated ForestryMC (4.6.13@Side.BOTH --> 4.6.14@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.10...4.6.14
 >## What's Changed
@@ -56,9 +67,10 @@
 > * Fix Additive Production by @hacatu in https://github.com/GTNewHorizons/ForestryMC/pull/55 (4.6.13)
 >
 
-# Updated GT5-Unofficial (5.09.43.162@Side.BOTH --> 5.09.43.177@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.161...5.09.43.177
+# Updated GT5-Unofficial (5.09.43.162@Side.BOTH --> 5.09.43.178@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.161...5.09.43.178
 >## What's Changed
+> * Correct file name on resource pack guide by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2242 (5.09.43.178)
 > * Remove broken HSLA recipe by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2241 (5.09.43.177)
 > * Correct PCB Factory Energy Hatch description by @Eraldoe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2237 (5.09.43.177)
 > * Crafting input - Optimize isEmpty check to reduce lag by @harrynull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2239 (5.09.43.176)
@@ -94,20 +106,23 @@
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2232 (5.09.43.172)
 >
 
-# Updated GTNH-Intergalactic (1.1.24@Side.BOTH --> 1.1.25@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.23...1.1.25
+# Updated GTNH-Intergalactic (1.1.24@Side.BOTH --> 1.1.26@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.23...1.1.26
 >## What's Changed
+> * Ban input hatch and output bus from siphon by @Lyfts in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/46 (1.1.26)
 > * Fixed localization of motor block achievements by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/45 (1.1.25)
 > * Use new API from GT5u by @BlueWeabo in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/43 (1.1.24)
 > * Added mk3 pump as NEI catalyst for space pumping by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/44 (1.1.24)
 >
 >## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/46 (1.1.26)
 > * @BlueWeabo made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/43 (1.1.24)
 >
 
-# Updated GTplusplus (1.9.74@Side.BOTH --> 1.9.77@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.73...1.9.77
+# Updated GTplusplus (1.9.74@Side.BOTH --> 1.9.78@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.73...1.9.78
 >## What's Changed
+> * Add tooltip to Steam Output Bus about auto-export  by @serenibyss in https://github.com/GTNewHorizons/GTplusplus/pull/722 (1.9.78)
 > * Fix parallels in chemplant by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/721 (1.9.77)
 > * Fix XL Turbine tooltip by @Lyfts in https://github.com/GTNewHorizons/GTplusplus/pull/718 (1.9.77)
 > * Fix chemplant needing catalysts on recipes that don't by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/719 (1.9.76)
@@ -195,8 +210,8 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/59 (2.0.0)
 >
 
-# Updated Mobs-Info (0.1.0-GTNH@Side.BOTH --> 0.1.4-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.0.8-GTNH...0.1.4-GTNH
+# Updated Mobs-Info (0.1.0-GTNH@Side.BOTH --> 0.1.5-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.0.8-GTNH...0.1.5-GTNH
 
 # Updated NewHorizonsCoreMod (2.1.97@Side.BOTH --> 2.1.100@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.96...2.1.100
@@ -210,9 +225,10 @@
 > * Fix fences for piston assembler recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/700 (2.1.98)
 >
 
-# Updated NotEnoughItems (2.3.80-GTNH@Side.BOTH --> 2.3.82-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.79-GTNH...2.3.82-GTNH
+# Updated NotEnoughItems (2.3.80-GTNH@Side.BOTH --> 2.3.83-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.79-GTNH...2.3.83-GTNH
 >## What's Changed
+> * Fix world specific settings on MP being also specific to dimension by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/414 (2.3.83-GTNH)
 > * Partial fix for the NEI custom diagram in recipe tooltip issue by @eigenraven in https://github.com/GTNewHorizons/NotEnoughItems/pull/413 (2.3.82-GTNH)
 > * Pull bookmarked items from container to player inventory by @Nilau1998 in https://github.com/GTNewHorizons/NotEnoughItems/pull/410 (2.3.81-GTNH)
 > * Fix recipe tooltip crash with BetterQuesting by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/409 (2.3.80-GTNH)
@@ -293,6 +309,13 @@
 > * Don't lazily initialize EIC recipemap by @miozune in https://github.com/GTNewHorizons/bartworks/pull/350 (0.7.38)
 > * Disable crafting me buffer on CAL to stop CAL being formed with 2 slices by @BlueWeabo in https://github.com/GTNewHorizons/bartworks/pull/351 (0.7.37)
 > * Use new API from GT5u by @BlueWeabo in https://github.com/GTNewHorizons/bartworks/pull/348 (0.7.36)
+>
+
+# Updated nei-custom-diagram (1.5.10@Side.BOTH --> 1.5.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.5.7...1.5.11
+>## What's Changed
+> * Fix diagram drawing in recipe tooltips by @eigenraven in https://github.com/GTNewHorizons/nei-custom-diagram/pull/28 (1.5.11)
+> * Make horizontal scrolling using the scrollwheel work again by @wlhlm in https://github.com/GTNewHorizons/nei-custom-diagram/pull/27 (1.5.10)
 >
 
 # Updated twilightforest (2.4.4@Side.BOTH --> 2.4.5@Side.BOTH)

@@ -291,7 +291,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BuildCraftOilTweak](https://github.com/GTNewHorizons/BuildCraftOilTweak) | 1.0.4 |
 | [CarpentersBlocks](https://github.com/GTNewHorizons/CarpentersBlocks) | 3.4.0-GTNH |
 | [Catwalks-2](https://github.com/GTNewHorizons/Catwalks-2) | 2.1.4-GTNH |
-| [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.11.3-GTNH |
+| [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.11.4-GTNH |
 | [ChiselTones](https://github.com/GTNewHorizons/ChiselTones) | 1.0.4-GTNH |
 | [CodeChickenCore](https://github.com/GTNewHorizons/CodeChickenCore) | 1.1.11 |
 | [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core) | 3.1.4-329 |
@@ -337,13 +337,13 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.6.35 |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.0.15 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.43.177 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.43.178 |
 | [GTNEIOrePlugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.1.3 |
-| [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.1.25 |
+| [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.1.26 |
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.10.6 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.3.1 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.0.13 |
-| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.9.77 |
+| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.9.78 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.9.7-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.0-GTNH |
@@ -381,7 +381,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.3.7 |
 | [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.2.11-GTNH |
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 2.0.1 |
-| [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.1.4-GTNH |
+| [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.1.5-GTNH |
 | [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.9.10 |
 | [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.1.16 |
 | [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) | 1.6.21 |
@@ -390,7 +390,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [MX-Random](https://github.com/GTNewHorizons/MX-Random) | 0.2.0 |
 | [Natura](https://github.com/GTNewHorizons/Natura) | 2.5.7 |
 | [NaturesCompass](https://github.com/GTNewHorizons/NaturesCompass) | 1.3.6-GTNH |
-| [nei-custom-diagram](https://github.com/GTNewHorizons/nei-custom-diagram) | 1.5.10 |
+| [nei-custom-diagram](https://github.com/GTNewHorizons/nei-custom-diagram) | 1.5.11 |
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.3.3 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.12.22 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.1.2 |
@@ -399,7 +399,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.1.-6-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.4.2 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 1.4.6 |
-| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.3.82-GTNH |
+| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.3.83-GTNH |
 | [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.4.19 |
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 0.0.4 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.06.1-GTNH |
