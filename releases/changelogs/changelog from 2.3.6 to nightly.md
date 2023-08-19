@@ -1,5 +1,3 @@
-# Mods Removed:
-> * Default-Configs
 # Updated AE2FluidCraft-Rework (1.1.36-gtnh@Side.BOTH --> 1.1.340-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.35-gtnh...1.1.340-gtnh
 >## What's Changed
@@ -32,9 +30,10 @@
 > * Adapted Wisp entity preview but by respecting DRY principle this time. by @FindMeSomeFun in https://github.com/GTNewHorizons/BetterQuesting/pull/113 (3.3.26-GTNH)
 >
 
-# Updated Binnie (2.1.8@Side.BOTH --> 2.1.9@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.6...2.1.9
+# Updated Binnie (2.1.8@Side.BOTH --> 2.1.10@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.6...2.1.10
 >## What's Changed
+> * Fix NPE with Lumbermill by @miozune in https://github.com/GTNewHorizons/Binnie/pull/35 (2.1.10)
 > * Fix typo: cooper -> copper by @miozune in https://github.com/GTNewHorizons/Binnie/pull/34 (2.1.9)
 > * Fix Additive Production by @hacatu in https://github.com/GTNewHorizons/Binnie/pull/33 (2.1.8)
 >
@@ -215,8 +214,8 @@
 # Updated Mobs-Info (0.1.0-GTNH@Side.BOTH --> 0.1.5-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.0.8-GTNH...0.1.5-GTNH
 
-# Updated NewHorizonsCoreMod (2.1.97@Side.BOTH --> 2.1.100@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.96...2.1.100
+# Updated NewHorizonsCoreMod (2.1.97@Side.BOTH --> 2.1.101@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.96...2.1.101
 >## What's Changed
 > * fix compressed dual desh plates by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/702 (2.1.100)
 > * Remove broken HSLA recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/703 (2.1.100)
