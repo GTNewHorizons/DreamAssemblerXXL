@@ -1,7 +1,7 @@
-# Updated AE2FluidCraft-Rework (1.1.36-gtnh@Side.BOTH --> 1.1.340-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.35-gtnh...1.1.340-gtnh
+# Updated AE2FluidCraft-Rework (1.1.36-gtnh@Side.BOTH --> 1.1.40-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.35-gtnh...1.1.40-gtnh
 >## What's Changed
-> * Fix gt++ fluid cells not extracting properly by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/156 (1.1.340-gtnh)
+> * Fix gt++ fluid cells not extracting properly by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/156 (1.1.40-gtnh)
 > * Fix Crafting Input Bus Compatibility & fix general bugs by @foxwhite25 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/154 (1.1.39-gtnh)
 > * A collection of fixes by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/152 (1.1.38-gtnh)
 > * Fix doubling fluids for real now by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/153 (1.1.38-gtnh)
