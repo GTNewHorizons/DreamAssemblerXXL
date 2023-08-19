@@ -67,9 +67,10 @@
 > * Fix Additive Production by @hacatu in https://github.com/GTNewHorizons/ForestryMC/pull/55 (4.6.13)
 >
 
-# Updated GT5-Unofficial (5.09.43.162@Side.BOTH --> 5.09.43.178@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.161...5.09.43.178
+# Updated GT5-Unofficial (5.09.43.162@Side.BOTH --> 5.09.43.179@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.161...5.09.43.179
 >## What's Changed
+> * Fix GT_RecipeConstants.Fuel by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2243 (5.09.43.179)
 > * Correct file name on resource pack guide by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2242 (5.09.43.178)
 > * Remove broken HSLA recipe by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2241 (5.09.43.177)
 > * Correct PCB Factory Energy Hatch description by @Eraldoe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2237 (5.09.43.177)
