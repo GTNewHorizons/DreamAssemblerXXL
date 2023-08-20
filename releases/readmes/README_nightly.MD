@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2023-08-19
+Version nightly is out 2023-08-20
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -305,7 +305,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [CropLoadCore](https://github.com/GTNewHorizons/CropLoadCore) | 0.1.10 |
 | [Crops-plus-plus](https://github.com/GTNewHorizons/Crops-plus-plus) | 1.4.1 |
 | [Custom-Main-Menu](https://github.com/GTNewHorizons/Custom-Main-Menu) | 1.9.4 |
-| [Default-Configs](https://github.com/GTNewHorizons/Default-Configs) | 1.1.1 |
+| [Default-Configs](https://github.com/GTNewHorizons/Default-Configs) | 1.1.2 |
 | [DefaultServerList](https://github.com/GTNewHorizons/DefaultServerList) | 1.4.0 |
 | [DefaultWorldGenerator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.2 |
 | [DetravScannerMod](https://github.com/GTNewHorizons/DetravScannerMod) | 1.7.2 |
@@ -350,7 +350,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.0-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.1.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.2.29 |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.2.30 |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.2.3-GTNH |
 | [HungerOverhaul](https://github.com/GTNewHorizons/HungerOverhaul) | 1.0.4-GTNH |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.1.0 |
@@ -442,7 +442,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [StructureLib](https://github.com/GTNewHorizons/StructureLib) | 1.2.8 |
 | [Super-TiC](https://github.com/GTNewHorizons/Super-TiC) | 1.2.5 |
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.1.2-GT-NH-Mod |
-| [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.6.2-GTNH |
+| [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.6.3-GTNH |
 | [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.15 |
 | [TCNEIAdditions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.2.2 |
 | [TCNodeTracker](https://github.com/GTNewHorizons/TCNodeTracker) | 1.1.7 |
