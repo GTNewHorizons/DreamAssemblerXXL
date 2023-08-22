@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.7",
-  "last_updated": "2023-08-21T20:08:21.128483",
+  "last_updated": "2023-08-22T20:21:58.078530",
   "config": "2.3.8-nightly-2023-08-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.35",
+      "version": "0.6.36",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.180-pre",
+      "version": "5.09.43.182",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.10.6",
+      "version": "0.10.7",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.80",
+      "version": "1.9.81",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -285,7 +285,7 @@
       "side": "BOTH"
     },
     "harvestcraft": {
-      "version": "1.1.0-GTNH",
+      "version": "1.1.1-GTNH",
       "side": "BOTH"
     },
     "Hodgepodge": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.104",
+      "version": "2.1.105",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
