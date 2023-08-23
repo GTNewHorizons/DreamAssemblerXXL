@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.7",
-  "last_updated": "2023-08-22T20:21:58.078530",
+  "last_updated": "2023-08-23T20:05:02.081028",
   "config": "2.3.8-nightly-2023-08-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.38",
+      "version": "0.7.39",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.36",
+      "version": "0.6.37",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.182",
+      "version": "5.09.43.184",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.81",
+      "version": "1.9.82",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.105",
+      "version": "2.1.106",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -809,7 +809,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.1.26",
+      "version": "1.1.28",
       "side": "BOTH"
     },
     "amunra": {
@@ -821,7 +821,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.1.5-GTNH",
+      "version": "0.1.6-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
