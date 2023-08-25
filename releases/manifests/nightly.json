@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.3.7",
-  "last_updated": "2023-08-23T20:05:02.081028",
-  "config": "2.3.8-nightly-2023-08-21",
+  "last_updated": "2023-08-25T18:38:09.190554",
+  "config": "2.3.8-nightly-2023-08-25",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.14-GTNH",
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "AppleCore": {
-      "version": "3.2.10",
+      "version": "3.2.11",
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.37",
+      "version": "0.6.38",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.82",
+      "version": "1.9.83",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.106",
+      "version": "2.1.108",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -733,7 +733,7 @@
       "side": "CLIENT"
     },
     "GigaGramFab": {
-      "version": "0.2.3",
+      "version": "0.2.4",
       "side": "BOTH"
     },
     "NotEnoughIds": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "Random-Things": {
-      "version": "2.4.4",
+      "version": "2.4.5",
       "side": "BOTH"
     },
     "Tainted-Magic": {

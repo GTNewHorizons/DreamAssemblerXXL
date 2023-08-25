@@ -1,3 +1,14 @@
+# Updated AppleCore (3.2.10@Side.BOTH --> 3.2.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.2.9...3.2.11
+>## What's Changed
+> * Fix FoodStats crash with Thermos by @miozune in https://github.com/GTNewHorizons/AppleCore/pull/27 (3.2.11)
+> * Add tooltip to NEI bookmark panel by @miozune in https://github.com/GTNewHorizons/AppleCore/pull/25 (3.2.10)
+> * Fix bug : not reading the config file by @Alexdoru in https://github.com/GTNewHorizons/AppleCore/pull/24 (3.2.10)
+>
+>## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/AppleCore/pull/25 (3.2.10)
+>
+
 # Updated Default-Configs (1.1.1@Side.CLIENT --> 1.1.2@Side.CLIENT)
 **Full Changelog**: https://github.com/GTNewHorizons/Default-Configs/compare/1.1.0...1.1.2
 >## What's Changed
@@ -40,9 +51,10 @@
 > * Remove reference to sByProductList by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/61 (0.10.6)
 >
 
-# Updated GTplusplus (1.9.78@Side.BOTH --> 1.9.82@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.77...1.9.82
+# Updated GTplusplus (1.9.78@Side.BOTH --> 1.9.83@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.77...1.9.83
 >## What's Changed
+> * Enable batch mode on QFT by @S4mpsa in https://github.com/GTNewHorizons/GTplusplus/pull/725 (1.9.83)
 > * Fix NPE with Volcanus coil level by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/727 (1.9.82)
 > * Fix Algae Farm compost calculation by @Jonodonozym in https://github.com/GTNewHorizons/GTplusplus/pull/726 (1.9.81)
 > * Fix recipe cache with LPF by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/723 (1.9.80)
@@ -53,9 +65,22 @@
 > * @Jonodonozym made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/726 (1.9.81)
 >
 
-# Updated GoodGenerator (0.6.35@Side.BOTH --> 0.6.37@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.34...0.6.37
+# Updated GigaGramFab (0.2.3@Side.BOTH --> 0.2.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.2.2...0.2.4
 >## What's Changed
+> * fix linked input bus pasting not working when origin uses a circuit by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/16 (0.2.4)
+> * Make sure to calculate the overclock calculator by @BlueWeabo in https://github.com/GTNewHorizons/GigaGramFab/pull/12 (0.2.3)
+> * fix adv assline drain from wrong input hatch by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/13 (0.2.3)
+>
+>## New Contributors
+> * @BlueWeabo made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/12 (0.2.3)
+>
+
+# Updated GoodGenerator (0.6.35@Side.BOTH --> 0.6.38@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.34...0.6.38
+>## What's Changed
+> * Mark VI Naquadah Fuel by @S4mpsa in https://github.com/GTNewHorizons/GoodGenerator/pull/200 (0.6.38)
+> * Buff Mark I and Mark II naquadah fuels by @S4mpsa in https://github.com/GTNewHorizons/GoodGenerator/pull/202 (0.6.38)
 > * Buff Naquadah Fuels in UIV+ tiers by @S4mpsa in https://github.com/GTNewHorizons/GoodGenerator/pull/198 (0.6.37)
 > * Add PA centrifuge recipe map to naq line recipe replacements by @chochem in https://github.com/GTNewHorizons/GoodGenerator/pull/197 (0.6.36)
 > * Fix fuel refinery overclocks by @BlueWeabo in https://github.com/GTNewHorizons/GoodGenerator/pull/195 (0.6.35)
@@ -72,9 +97,11 @@
 # Updated Mobs-Info (0.1.5-GTNH@Side.BOTH --> 0.1.6-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.4-GTNH...0.1.6-GTNH
 
-# Updated NewHorizonsCoreMod (2.1.101@Side.BOTH --> 2.1.106@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.100...2.1.106
+# Updated NewHorizonsCoreMod (2.1.101@Side.BOTH --> 2.1.108@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.100...2.1.108
 >## What's Changed
+> * Swap gated plates for adv. fluid housing by @Lyfts in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/716 (2.1.108)
+> * Fix wrong Mehen Belt ChunkProvider class by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/717 (2.1.107)
 > * Use GT molten Obsidian by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/715 (2.1.106)
 > * Shaers ender io by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/713 (2.1.105)
 > * Fix amber light research text by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/714 (2.1.105)
@@ -88,6 +115,17 @@
 >
 >## New Contributors
 > * @Gofer2x made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/712 (2.1.104)
+>
+
+# Updated Random-Things (2.4.4@Side.BOTH --> 2.4.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.4.3...2.4.5
+>## What's Changed
+> * Cyclic Bloodmoon by @DrParadox7 in https://github.com/GTNewHorizons/Random-Things/pull/3 (2.4.5)
+> * Voiding Drop Filter rework: tooltips, prevent looping pick up with magnet, fix crash moving filter while its GUI is opened by @wlhlm in https://github.com/GTNewHorizons/Random-Things/pull/2 (2.4.4)
+>
+>## New Contributors
+> * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/3 (2.4.5)
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/2 (2.4.4)
 >
 
 # Updated Tainted-Magic (7.6.2-GTNH@Side.BOTH --> 7.6.3-GTNH@Side.BOTH)
