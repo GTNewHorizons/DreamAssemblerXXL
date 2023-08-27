@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.7",
-  "last_updated": "2023-08-25T18:38:09.190554",
+  "last_updated": "2023-08-27T19:24:00.286289",
   "config": "2.3.8-nightly-2023-08-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.40-gtnh",
+      "version": "1.1.41-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-249-GTNH",
+      "version": "rv3-beta-250-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.38",
+      "version": "0.6.39",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.184",
+      "version": "5.09.43.185-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.10.7",
+      "version": "0.10.8",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.8.8",
+      "version": "0.8.9",
       "side": "BOTH"
     },
     "KubaTech": {

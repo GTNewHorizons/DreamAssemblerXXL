@@ -1,5 +1,10 @@
-# New Mods:
-> * ThaumicBoots
+# Updated AE2FluidCraft-Rework (1.1.40-gtnh@Side.BOTH --> 1.1.41-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.39-gtnh...1.1.41-gtnh
+>## What's Changed
+> * Revert fluid animation fix for Quartz Tank to mitigate FPS issue by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/157 (1.1.41-gtnh)
+> * Fix gt++ fluid cells not extracting properly by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/156 (1.1.40-gtnh)
+>
+
 # Updated AppleCore (3.2.10@Side.BOTH --> 3.2.11@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.2.9...3.2.11
 >## What's Changed
@@ -11,6 +16,13 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/AppleCore/pull/25 (3.2.10)
 >
 
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-249-GTNH@Side.BOTH --> rv3-beta-250-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-248-GTNH...rv3-beta-250-GTNH
+>## What's Changed
+> * Fix some GUIs not accepting numpad enter key by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/380 (rv3-beta-250-GTNH)
+> * Update buildscript by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/377 (rv3-beta-249-GTNH)
+>
+
 # Updated Default-Configs (1.1.1@Side.CLIENT --> 1.1.2@Side.CLIENT)
 **Full Changelog**: https://github.com/GTNewHorizons/Default-Configs/compare/1.1.0...1.1.2
 >## What's Changed
@@ -18,9 +30,11 @@
 > * Fix restoring of Config Files by @glowredman in https://github.com/GTNewHorizons/Default-Configs/pull/2 (1.1.1)
 >
 
-# Updated GT5-Unofficial (5.09.43.179@Side.BOTH --> 5.09.43.184@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.178...5.09.43.184
+# Updated GT5-Unofficial (5.09.43.179@Side.BOTH --> 5.09.43.185-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.178...5.09.43.185-pre
 >## What's Changed
+> * fix ulv recipes being broken again when under 1 tick calculation is done by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2254 (5.09.43.185-pre)
+> * change way to fix zfighting by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2253 (5.09.43.185-pre)
 > * Fix Orichalcum and Shadowiron smelting by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2251 (5.09.43.184)
 > * Fix tier display for Fusion NEI header by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2250 (5.09.43.184)
 > * Update the conditionals buttons and tooltips on covers to reflect their actual effects by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2244 (5.09.43.183)
@@ -46,9 +60,10 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/46 (1.1.26)
 >
 
-# Updated GTNH-Lanthanides (0.10.6@Side.BOTH --> 0.10.7@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.10.5...0.10.7
+# Updated GTNH-Lanthanides (0.10.6@Side.BOTH --> 0.10.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.10.5...0.10.8
 >## What's Changed
+> * Remove duplicate recipe by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/63 (0.10.8)
 > * Add PA centrifuge and electrolysis recipe maps to recipe replacements by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/62 (0.10.7)
 > * Remove reference to sByProductList by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/61 (0.10.6)
 >
@@ -78,9 +93,10 @@
 > * @BlueWeabo made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/12 (0.2.3)
 >
 
-# Updated GoodGenerator (0.6.35@Side.BOTH --> 0.6.38@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.34...0.6.38
+# Updated GoodGenerator (0.6.35@Side.BOTH --> 0.6.39@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.34...0.6.39
 >## What's Changed
+> * No amperage OC for PrAss by @chochem in https://github.com/GTNewHorizons/GoodGenerator/pull/203 (0.6.39)
 > * Mark VI Naquadah Fuel by @S4mpsa in https://github.com/GTNewHorizons/GoodGenerator/pull/200 (0.6.38)
 > * Buff Mark I and Mark II naquadah fuels by @S4mpsa in https://github.com/GTNewHorizons/GoodGenerator/pull/202 (0.6.38)
 > * Buff Naquadah Fuels in UIV+ tiers by @S4mpsa in https://github.com/GTNewHorizons/GoodGenerator/pull/198 (0.6.37)
@@ -94,6 +110,16 @@
 >## What's Changed
 > * Micro reduce fps lags with tileentities by @quentin452 in https://github.com/GTNewHorizons/Hodgepodge/pull/236 (2.2.30)
 > * Add chunk save CME debugger  by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/234 (2.2.29)
+>
+
+# Updated KekzTech (0.8.8@Side.BOTH --> 0.8.9@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.8.7...0.8.9
+>## What's Changed
+> * Allow max tier TFFT to complete with energy hatch by @Lyfts in https://github.com/GTNewHorizons/KekzTech/pull/74 (0.8.8)
+> * Add per fluid capacity to TFFT storage field tooltip by @Lyfts in https://github.com/GTNewHorizons/KekzTech/pull/75 (0.8.8)
+>
+>## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/KekzTech/pull/74 (0.8.8)
 >
 
 # Updated Mobs-Info (0.1.5-GTNH@Side.BOTH --> 0.1.6-GTNH@Side.BOTH)
@@ -138,9 +164,6 @@
 >## New Contributors
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
 >
-
-# New Mod - ThaumicBoots (0.0.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/commits/0.0.1
 
 # Updated bartworks (0.7.38@Side.BOTH --> 0.7.39@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.37...0.7.39
