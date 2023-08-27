@@ -1,3 +1,5 @@
+# New Mods:
+> * ThaumicBoots
 # Updated AppleCore (3.2.10@Side.BOTH --> 3.2.11@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.2.9...3.2.11
 >## What's Changed
@@ -136,6 +138,9 @@
 >## New Contributors
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
 >
+
+# New Mod - ThaumicBoots (0.0.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/commits/0.0.1
 
 # Updated bartworks (0.7.38@Side.BOTH --> 0.7.39@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.37...0.7.39
