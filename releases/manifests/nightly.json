@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.7",
-  "last_updated": "2023-08-27T19:24:00.286289",
+  "last_updated": "2023-08-27T19:55:19.145176",
   "config": "2.3.8-nightly-2023-08-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -839,6 +839,10 @@
     "Default-Configs": {
       "version": "1.1.2",
       "side": "CLIENT"
+    },
+    "ThaumicBoots": {
+      "version": "0.0.1",
+      "side": "BOTH"
     }
   },
   "external_mods": {

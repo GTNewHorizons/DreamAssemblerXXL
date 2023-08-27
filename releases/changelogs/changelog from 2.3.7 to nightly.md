@@ -1,3 +1,5 @@
+# New Mods:
+> * ThaumicBoots
 # Updated AE2FluidCraft-Rework (1.1.40-gtnh@Side.BOTH --> 1.1.41-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.39-gtnh...1.1.41-gtnh
 >## What's Changed
@@ -164,6 +166,9 @@
 >## New Contributors
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
 >
+
+# New Mod - ThaumicBoots (0.0.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/commits/0.0.1
 
 # Updated bartworks (0.7.38@Side.BOTH --> 0.7.39@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.37...0.7.39
