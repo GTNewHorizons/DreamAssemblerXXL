@@ -1,15 +1,15 @@
 {
   "version": "nightly",
-  "last_version": "2.3.6",
-  "last_updated": "2023-08-19T13:38:19.089113",
-  "config": "2.3.7",
+  "last_version": "2.3.0",
+  "last_updated": "2023-08-28T19:27:08.699211",
+  "config": "2.4.0-RC1",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.14-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.40-gtnh",
+      "version": "1.1.41-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -25,11 +25,11 @@
       "side": "BOTH"
     },
     "AppleCore": {
-      "version": "3.2.10",
+      "version": "3.2.11",
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-249-GTNH",
+      "version": "rv3-beta-250-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.38",
+      "version": "0.7.39",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -73,7 +73,7 @@
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
-      "version": "1.4.3-GTNH",
+      "version": "1.4.4-GTNH",
       "side": "CLIENT"
     },
     "BetterP2P": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.35",
+      "version": "0.6.40",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.179",
+      "version": "5.09.43.187",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.10.6",
+      "version": "0.10.8",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.78",
+      "version": "1.9.83",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -285,11 +285,11 @@
       "side": "BOTH"
     },
     "harvestcraft": {
-      "version": "1.1.0-GTNH",
+      "version": "1.1.1-GTNH",
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.2.29",
+      "version": "2.2.30",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.8.8",
+      "version": "0.8.9",
       "side": "BOTH"
     },
     "KubaTech": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.101",
+      "version": "2.1.109",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -733,7 +733,7 @@
       "side": "CLIENT"
     },
     "GigaGramFab": {
-      "version": "0.2.3",
+      "version": "0.2.4",
       "side": "BOTH"
     },
     "NotEnoughIds": {
@@ -793,11 +793,11 @@
       "side": "BOTH"
     },
     "Random-Things": {
-      "version": "2.4.4",
+      "version": "2.4.5",
       "side": "BOTH"
     },
     "Tainted-Magic": {
-      "version": "7.6.2-GTNH",
+      "version": "7.6.3-GTNH",
       "side": "BOTH"
     },
     "lwjgl3ify": {
@@ -809,7 +809,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.1.26",
+      "version": "1.1.28",
       "side": "BOTH"
     },
     "amunra": {
@@ -821,7 +821,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.1.5-GTNH",
+      "version": "0.1.6-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -837,8 +837,12 @@
       "side": "BOTH"
     },
     "Default-Configs": {
-      "version": "1.1.1",
+      "version": "1.1.2",
       "side": "CLIENT"
+    },
+    "ThaumicBoots": {
+      "version": "0.0.1",
+      "side": "BOTH"
     }
   },
   "external_mods": {
