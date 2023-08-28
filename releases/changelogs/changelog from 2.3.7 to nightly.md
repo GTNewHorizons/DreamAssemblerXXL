@@ -25,6 +25,15 @@
 > * Update buildscript by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/377 (rv3-beta-249-GTNH)
 >
 
+# Updated BetterLoadingScreen (1.4.3-GTNH@Side.CLIENT --> 1.4.4-GTNH@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.4.2-GTNH...1.4.4-GTNH
+>## What's Changed
+> * Add imgur gallery/album background support by @tth05 in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/19 (1.4.3-GTNH)
+>
+>## New Contributors
+> * @tth05 made their first contribution in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/19 (1.4.3-GTNH)
+>
+
 # Updated Default-Configs (1.1.1@Side.CLIENT --> 1.1.2@Side.CLIENT)
 **Full Changelog**: https://github.com/GTNewHorizons/Default-Configs/compare/1.1.0...1.1.2
 >## What's Changed
@@ -32,9 +41,13 @@
 > * Fix restoring of Config Files by @glowredman in https://github.com/GTNewHorizons/Default-Configs/pull/2 (1.1.1)
 >
 
-# Updated GT5-Unofficial (5.09.43.179@Side.BOTH --> 5.09.43.185-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.178...5.09.43.185-pre
+# Updated GT5-Unofficial (5.09.43.179@Side.BOTH --> 5.09.43.187@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.178...5.09.43.187
 >## What's Changed
+> * Use real stack limit when splitting stacks in output bus by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2256 (5.09.43.187)
+> * fix ulv recipes being broken again when under 1 tick calculation is done by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2254 (5.09.43.186)
+> * change way to fix zfighting by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2253 (5.09.43.186)
+> * Crafting input hatches QoLs by @harrynull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2200 (5.09.43.186)
 > * fix ulv recipes being broken again when under 1 tick calculation is done by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2254 (5.09.43.185-pre)
 > * change way to fix zfighting by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2253 (5.09.43.185-pre)
 > * Fix Orichalcum and Shadowiron smelting by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2251 (5.09.43.184)
@@ -95,9 +108,10 @@
 > * @BlueWeabo made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/12 (0.2.3)
 >
 
-# Updated GoodGenerator (0.6.35@Side.BOTH --> 0.6.39@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.34...0.6.39
+# Updated GoodGenerator (0.6.35@Side.BOTH --> 0.6.40@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.34...0.6.40
 >## What's Changed
+> * Make UCFE use TecTech's new power API by @sasha0552 in https://github.com/GTNewHorizons/GoodGenerator/pull/204 (0.6.40)
 > * No amperage OC for PrAss by @chochem in https://github.com/GTNewHorizons/GoodGenerator/pull/203 (0.6.39)
 > * Mark VI Naquadah Fuel by @S4mpsa in https://github.com/GTNewHorizons/GoodGenerator/pull/200 (0.6.38)
 > * Buff Mark I and Mark II naquadah fuels by @S4mpsa in https://github.com/GTNewHorizons/GoodGenerator/pull/202 (0.6.38)
@@ -105,6 +119,9 @@
 > * Add PA centrifuge recipe map to naq line recipe replacements by @chochem in https://github.com/GTNewHorizons/GoodGenerator/pull/197 (0.6.36)
 > * Fix fuel refinery overclocks by @BlueWeabo in https://github.com/GTNewHorizons/GoodGenerator/pull/195 (0.6.35)
 > * Add a way to make more Tiberium using Naquadah Gas by @S4mpsa in https://github.com/GTNewHorizons/GoodGenerator/pull/196 (0.6.35)
+>
+>## New Contributors
+> * @sasha0552 made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/204 (0.6.40)
 >
 
 # Updated Hodgepodge (2.2.29@Side.BOTH --> 2.2.30@Side.BOTH)
@@ -127,9 +144,11 @@
 # Updated Mobs-Info (0.1.5-GTNH@Side.BOTH --> 0.1.6-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.4-GTNH...0.1.6-GTNH
 
-# Updated NewHorizonsCoreMod (2.1.101@Side.BOTH --> 2.1.108@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.100...2.1.108
+# Updated NewHorizonsCoreMod (2.1.101@Side.BOTH --> 2.1.109@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.100...2.1.109
 >## What's Changed
+> * Update CoreModConfig.java by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/718 (2.1.109)
+> * Update MainRegistry.java by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/719 (2.1.109)
 > * Swap gated plates for adv. fluid housing by @Lyfts in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/716 (2.1.108)
 > * Fix wrong Mehen Belt ChunkProvider class by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/717 (2.1.107)
 > * Use GT molten Obsidian by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/715 (2.1.106)
