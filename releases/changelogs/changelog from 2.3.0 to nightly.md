@@ -779,9 +779,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.41.317@Side.BOTH --> 5.09.43.187@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.316...5.09.43.187
+# Updated GT5-Unofficial (5.09.41.317@Side.BOTH --> 5.09.43.188@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.316...5.09.43.188
 >## What's Changed
+> * Fix incorrect data stick behaviors for hatches by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2257 (5.09.43.188)
 > * Use real stack limit when splitting stacks in output bus by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2256 (5.09.43.187)
 > * fix ulv recipes being broken again when under 1 tick calculation is done by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2254 (5.09.43.186)
 > * change way to fix zfighting by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2253 (5.09.43.186)
@@ -1619,9 +1620,10 @@
 > * @Steelux8 made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/71 (1.1.61-GTNH)
 >
 
-# Updated GigaGramFab (0.1.8@Side.BOTH --> 0.2.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.1.7...0.2.4
+# Updated GigaGramFab (0.1.8@Side.BOTH --> 0.2.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.1.7...0.2.5
 >## What's Changed
+> * Fix data stick check behavior by @miozune in https://github.com/GTNewHorizons/GigaGramFab/pull/17 (0.2.5)
 > * fix linked input bus pasting not working when origin uses a circuit by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/16 (0.2.4)
 > * Make sure to calculate the overclock calculator by @BlueWeabo in https://github.com/GTNewHorizons/GigaGramFab/pull/12 (0.2.3)
 > * fix adv assline drain from wrong input hatch by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/13 (0.2.3)
@@ -2565,9 +2567,10 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/TCNEIAdditions/pull/21 (1.2.2)
 >
 
-# Updated TX-Loader (1.5@Side.CLIENT --> 1.5.3@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.4...1.5.3
+# Updated TX-Loader (1.5@Side.CLIENT --> 1.5.4@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.4...1.5.4
 >## What's Changed
+> * Fix usage of wrong variable by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/6 (1.5.4)
 > * Change the Cache directory location by @ghostflyby in https://github.com/GTNewHorizons/TX-Loader/pull/5 (1.5.3)
 > * Fix NPE with BLS by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/4 (1.5.2)
 > * Add BetterLoadingScreen Comapt by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/3 (1.5.1)
