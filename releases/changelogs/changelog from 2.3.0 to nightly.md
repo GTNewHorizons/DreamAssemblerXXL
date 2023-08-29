@@ -14,9 +14,10 @@
 > * ExtraCells2
 > * GTNHMixins
 > * Mixingasm
-# Updated AE2FluidCraft-Rework (1.0.92-gtnh@Side.BOTH --> 1.1.41-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.91-gtnh...1.1.41-gtnh
+# Updated AE2FluidCraft-Rework (1.0.92-gtnh@Side.BOTH --> 1.1.42-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.0.91-gtnh...1.1.42-gtnh
 >## What's Changed
+> * Fix Wireless Pattern Terminal not saving stack size change to blank pattern slot by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/158 (1.1.42-gtnh)
 > * Revert fluid animation fix for Quartz Tank to mitigate FPS issue by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/157 (1.1.41-gtnh)
 > * Fix gt++ fluid cells not extracting properly by @firenoo in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/156 (1.1.40-gtnh)
 > * Fix Crafting Input Bus Compatibility & fix general bugs by @foxwhite25 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/154 (1.1.39-gtnh)
@@ -1368,9 +1369,10 @@
 > * @KuroPeach made their first contribution in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/15 (1.3.0)
 >
 
-# Updated GTplusplus (1.7.227@Side.BOTH --> 1.9.83@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.226...1.9.83
+# Updated GTplusplus (1.7.227@Side.BOTH --> 1.9.84@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.7.226...1.9.84
 >## What's Changed
+> * Added sound resource to cyclotron by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/728 (1.9.84)
 > * Enable batch mode on QFT by @S4mpsa in https://github.com/GTNewHorizons/GTplusplus/pull/725 (1.9.83)
 > * Fix NPE with Volcanus coil level by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/727 (1.9.82)
 > * Fix Algae Farm compost calculation by @Jonodonozym in https://github.com/GTNewHorizons/GTplusplus/pull/726 (1.9.81)
@@ -1790,9 +1792,10 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/198 (2.0.44-pre)
 >
 
-# Updated HoloInventory (2.1.19-GTNH@Side.BOTH --> 2.2.3-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.1.18-GTNH...2.2.3-GTNH
+# Updated HoloInventory (2.1.19-GTNH@Side.BOTH --> 2.2.4-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.1.18-GTNH...2.2.4-GTNH
 >## What's Changed
+> * fix jabba by @Quetz4l in https://github.com/GTNewHorizons/HoloInventory/pull/35 (2.2.4-GTNH)
 > * Fix 0-sized item not being rendered by @miozune in https://github.com/GTNewHorizons/HoloInventory/pull/34 (2.2.3-GTNH)
 > * Fix NPE with FluidTankInfo by @miozune in https://github.com/GTNewHorizons/HoloInventory/pull/33 (2.2.2-GTNH)
 > * Add fluid support by @miozune in https://github.com/GTNewHorizons/HoloInventory/pull/32 (2.2.1-GTNH)
@@ -1800,6 +1803,7 @@
 > * https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/10022 by @repo-alt in https://github.com/GTNewHorizons/HoloInventory/pull/30 (2.1.19-GTNH)
 >
 >## New Contributors
+> * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/35 (2.2.4-GTNH)
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/32 (2.2.1-GTNH)
 >
 
@@ -1883,9 +1887,10 @@
 > * @the-emerald made their first contribution in https://github.com/GTNewHorizons/KekzTech/pull/61 (0.7.1)
 >
 
-# Updated KubaTech (0.7.19@Side.BOTH --> 0.12.7@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.7.18...0.12.7
+# Updated KubaTech (0.7.19@Side.BOTH --> 0.12.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.7.18...0.12.8
 >## What's Changed
+> * Fix massive lags when EEC is running at high voltage by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/94 (0.12.8)
 > * Allow EEC to get drops that have requirements (e.g. skulls) by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/92 (0.12.7)
 > * Partially fix quiver on skeletons in EEC by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/91 (0.12.6)
 > * Fix no output from Mega Apiary + some misc. changes by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/90 (0.12.5)

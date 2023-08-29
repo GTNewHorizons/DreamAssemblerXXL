@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.0",
-  "last_updated": "2023-08-28T19:27:08.699211",
+  "last_updated": "2023-08-29T06:36:33.356241",
   "config": "2.4.0-RC1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.41-gtnh",
+      "version": "1.1.42-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.83",
+      "version": "1.9.84",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.2.3-GTNH",
+      "version": "2.2.4-GTNH",
       "side": "BOTH"
     },
     "HungerOverhaul": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.12.7",
+      "version": "0.12.8",
       "side": "BOTH"
     },
     "LittleTiles": {
