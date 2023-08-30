@@ -232,9 +232,10 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/AsieLib/pull/3 (0.5.4)
 >
 
-# Updated Avaritia (1.34@Side.BOTH --> 1.45@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.33...1.45
+# Updated Avaritia (1.34@Side.BOTH --> 1.46@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.33...1.46
 >## What's Changed
+> * Workaround for world time error in shader by @catcatcatcaty in https://github.com/GTNewHorizons/Avaritia/pull/36 (1.46)
 > * Fix NoClassDefFoundError with NEI config by @miozune in https://github.com/GTNewHorizons/Avaritia/pull/35 (1.45)
 > * Fix server causing error with NEI by @miozune in https://github.com/GTNewHorizons/Avaritia/pull/34 (1.43)
 > * Don't register Tinker's parts recipes in GTNH by @miozune in https://github.com/GTNewHorizons/Avaritia/pull/33 (1.42)
@@ -246,6 +247,7 @@
 > * Add traveler boots ability by @JOOOCV in https://github.com/GTNewHorizons/Avaritia/pull/27 (1.34)
 >
 >## New Contributors
+> * @catcatcatcaty made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/36 (1.46)
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/31 (1.38)
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/29 (1.36)
 > * @greesyB made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/28 (1.35)
@@ -712,12 +714,14 @@
 > * Fix DB not being loaded from existing save by @miozune in https://github.com/GTNewHorizons/EnhancedLootBags/pull/9 (1.0.8)
 >
 
-# Updated Eternal-Singularity (1.0.10@Side.BOTH --> 1.1.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Eternal-Singularity/compare/1.0.9...1.1.0
+# Updated Eternal-Singularity (1.0.10@Side.BOTH --> 1.1.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Eternal-Singularity/compare/1.0.9...1.1.2
 >## What's Changed
+> * Workaround for world time error in shader by @catcatcatcaty in https://github.com/GTNewHorizons/Eternal-Singularity/pull/8 (1.1.1)
 > * Update buildscript, dependencies and repositories by @eigenraven in https://github.com/GTNewHorizons/Eternal-Singularity/pull/7 (1.0.10)
 >
 >## New Contributors
+> * @catcatcatcaty made their first contribution in https://github.com/GTNewHorizons/Eternal-Singularity/pull/8 (1.1.1)
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/Eternal-Singularity/pull/7 (1.0.10)
 >
 
@@ -779,9 +783,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.41.317@Side.BOTH --> 5.09.43.188@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.316...5.09.43.188
+# Updated GT5-Unofficial (5.09.41.317@Side.BOTH --> 5.09.43.189@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.316...5.09.43.189
 >## What's Changed
+> * Fix pcb factory not applying its roughness multiplier when it doesn't OC by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2258 (5.09.43.189)
 > * Fix incorrect data stick behaviors for hatches by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2257 (5.09.43.188)
 > * Use real stack limit when splitting stacks in output bus by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2256 (5.09.43.187)
 > * fix ulv recipes being broken again when under 1 tick calculation is done by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2254 (5.09.43.186)
@@ -1640,9 +1645,10 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/8 (0.2.1)
 >
 
-# Updated GoodGenerator (0.4.88@Side.BOTH --> 0.6.40@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.87...0.6.40
+# Updated GoodGenerator (0.4.88@Side.BOTH --> 0.6.41@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.4.87...0.6.41
 >## What's Changed
+> * Fix precise assembler not overclocking with amperage and Precise mode having parallels by @BlueWeabo in https://github.com/GTNewHorizons/GoodGenerator/pull/207 (0.6.41)
 > * Make UCFE use TecTech's new power API by @sasha0552 in https://github.com/GTNewHorizons/GoodGenerator/pull/204 (0.6.40)
 > * No amperage OC for PrAss by @chochem in https://github.com/GTNewHorizons/GoodGenerator/pull/203 (0.6.39)
 > * Mark VI Naquadah Fuel by @S4mpsa in https://github.com/GTNewHorizons/GoodGenerator/pull/200 (0.6.38)
@@ -2567,15 +2573,17 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/TCNEIAdditions/pull/21 (1.2.2)
 >
 
-# Updated TX-Loader (1.5@Side.CLIENT --> 1.5.4@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.4...1.5.4
+# Updated TX-Loader (1.5@Side.CLIENT --> 1.5.5@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.4...1.5.5
 >## What's Changed
+> * use file walk instead of slow exist checks by @Glease in https://github.com/GTNewHorizons/TX-Loader/pull/7 (1.5.5)
 > * Fix usage of wrong variable by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/6 (1.5.4)
 > * Change the Cache directory location by @ghostflyby in https://github.com/GTNewHorizons/TX-Loader/pull/5 (1.5.3)
 > * Fix NPE with BLS by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/4 (1.5.2)
 > * Add BetterLoadingScreen Comapt by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/3 (1.5.1)
 >
 >## New Contributors
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/7 (1.5.5)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/5 (1.5.3)
 >
 
