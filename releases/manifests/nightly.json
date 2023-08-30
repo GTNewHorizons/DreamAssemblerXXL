@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.0",
-  "last_updated": "2023-08-29T15:16:21.492602",
+  "last_updated": "2023-08-30T10:51:58.046184",
   "config": "2.4.0-RC1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.45",
+      "version": "1.46",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "Eternal-Singularity": {
-      "version": "1.1.0",
+      "version": "1.1.2",
       "side": "BOTH"
     },
     "FindIt": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.6.40",
+      "version": "0.6.41",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.188",
+      "version": "5.09.43.189",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -729,7 +729,7 @@
       "side": "BOTH"
     },
     "TX-Loader": {
-      "version": "1.5.4",
+      "version": "1.5.5",
       "side": "CLIENT"
     },
     "GigaGramFab": {
@@ -971,7 +971,7 @@
       "side": "BOTH"
     },
     "Craft-Presence": {
-      "version": "2.2.1",
+      "version": "2.2.2",
       "side": "CLIENT"
     },
     "Gravitation-Suite-old": {
