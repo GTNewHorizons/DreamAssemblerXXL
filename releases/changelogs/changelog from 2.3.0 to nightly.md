@@ -582,14 +582,16 @@
 > * @D-Cysteine made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/50 (1.3.6.12)
 >
 
-# New Mod - Default-Configs (1.1.2@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/Default-Configs/commits/1.1.2
+# New Mod - Default-Configs (1.1.3@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/Default-Configs/commits/1.1.3
 >## What's Changed
+> * fix broken list handling of forge format by @Glease in https://github.com/GTNewHorizons/Default-Configs/pull/4 (1.1.3)
 > * Fix config/modpack-update never being deleted when localconfig.cfg is missing by @glowredman in https://github.com/GTNewHorizons/Default-Configs/pull/3 (1.1.2)
 > * Fix restoring of Config Files by @glowredman in https://github.com/GTNewHorizons/Default-Configs/pull/2 (1.1.1)
 > * Update Buildscript by @glowredman in https://github.com/GTNewHorizons/Default-Configs/pull/1 (1.1.0)
 >
 >## New Contributors
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/Default-Configs/pull/4 (1.1.3)
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Default-Configs/pull/1 (1.1.0)
 >
 
@@ -783,9 +785,11 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/14 (1.3.2)
 >
 
-# Updated GT5-Unofficial (5.09.41.317@Side.BOTH --> 5.09.43.189@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.316...5.09.43.189
+# Updated GT5-Unofficial (5.09.41.317@Side.BOTH --> 5.09.43.190@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.41.316...5.09.43.190
 >## What's Changed
+> * Remove duplicate obsidian long rod by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2259 (5.09.43.190)
+> * Add hazmat to ThaumicBoots by @Alastors in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2260 (5.09.43.190)
 > * Fix pcb factory not applying its roughness multiplier when it doesn't OC by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2258 (5.09.43.189)
 > * Fix incorrect data stick behaviors for hatches by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2257 (5.09.43.188)
 > * Use real stack limit when splitting stacks in output bus by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2256 (5.09.43.187)
@@ -1747,9 +1751,10 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/10 (1.0.9-pre)
 >
 
-# Updated Hodgepodge (2.0.43@Side.BOTH --> 2.2.30@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.0.42...2.2.30
+# Updated Hodgepodge (2.0.43@Side.BOTH --> 2.2.31@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.0.42...2.2.31
 >## What's Changed
+> * Fix player skin fetching method in AbstractClientPlayer by @kumquat-ir in https://github.com/GTNewHorizons/Hodgepodge/pull/237 (2.2.31)
 > * Micro reduce fps lags with tileentities by @quentin452 in https://github.com/GTNewHorizons/Hodgepodge/pull/236 (2.2.30)
 > * Add chunk save CME debugger  by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/234 (2.2.29)
 > * Fix crash when placing Thaumcraft Golem by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/233 (2.2.28)
@@ -2104,9 +2109,11 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Natura/pull/14 (2.5.5)
 >
 
-# Updated NewHorizonsCoreMod (1.9.171@Side.BOTH --> 2.1.109@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.170...2.1.109
+# Updated NewHorizonsCoreMod (1.9.171@Side.BOTH --> 2.1.110@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/1.9.170...2.1.110
 >## What's Changed
+> * Add oredict to coremod obsidian long rod by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/720 (2.1.110)
+> * Fix EMT thaumium drill crafting by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/721 (2.1.110)
 > * Update CoreModConfig.java by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/718 (2.1.109)
 > * Update MainRegistry.java by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/719 (2.1.109)
 > * Swap gated plates for adv. fluid housing by @Lyfts in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/716 (2.1.108)
@@ -2685,8 +2692,14 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/21 (1.5.0)
 >
 
-# New Mod - ThaumicBoots (0.0.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/commits/0.0.1
+# New Mod - ThaumicBoots (0.1.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/commits/0.1.0
+>## What's Changed
+> * 0.1.0: BoOTs will fix ***everything*** by @Alastors in https://github.com/GTNewHorizons/ThaumicBoots/pull/1 (0.1.0)
+>
+>## New Contributors
+> * @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/1 (0.1.0)
+>
 
 # Updated ThaumicEnergistics (1.3.30-GTNH@Side.BOTH --> 1.4.13-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.3.29-GTNH...1.4.13-GTNH
@@ -2937,9 +2950,10 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/amunra/pull/5 (0.4.11)
 >
 
-# Updated bartworks (0.5.164@Side.BOTH --> 0.7.39@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.5.163...0.7.39
+# Updated bartworks (0.5.164@Side.BOTH --> 0.7.40@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.5.163...0.7.40
 >## What's Changed
+> * fix quad input hatch for Mega Oil Cracker by @lordIcocain in https://github.com/GTNewHorizons/bartworks/pull/352 (0.7.40)
 > * Change Infinity to Neutronium in alternate High Density recipes by @S4mpsa in https://github.com/GTNewHorizons/bartworks/pull/353 (0.7.39)
 > * Don't lazily initialize EIC recipemap by @miozune in https://github.com/GTNewHorizons/bartworks/pull/350 (0.7.38)
 > * Disable crafting me buffer on CAL to stop CAL being formed with 2 slices by @BlueWeabo in https://github.com/GTNewHorizons/bartworks/pull/351 (0.7.37)
@@ -2995,6 +3009,7 @@
 > * remove enumhelper towards OrePrefixes and force gtnh gt by @Glease in https://github.com/GTNewHorizons/bartworks/pull/298 (0.5.164)
 >
 >## New Contributors
+> * @lordIcocain made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/352 (0.7.40)
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/341 (0.7.31)
 > * @Runakai1 made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/334 (0.7.17)
 > * @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/326 (0.7.10)
@@ -3055,9 +3070,10 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/nei-custom-diagram/pull/26 (1.5.7)
 >
 
-# Updated thaumicinsurgence (0.1.4@Side.BOTH --> 0.2.6@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.1.3...0.2.6
+# Updated thaumicinsurgence (0.1.4@Side.BOTH --> 0.2.7@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.1.3...0.2.7
 >## What's Changed
+> * Cleanup NEI and remove inappropriate language by @Connor-Colenso in https://github.com/GTNewHorizons/thaumicinsurgence/pull/32 (0.2.7)
 > * Make Insurgence's Lore a Little Less Cringe by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/30 (0.2.6)
 > * Fixing the one typo and awkward paragraph by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/31 (0.2.6)
 > * fixing previous mistake by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/27 (0.2.5)
@@ -3066,6 +3082,7 @@
 > * Ugh, accidently made main again by @Alastors in https://github.com/GTNewHorizons/thaumicinsurgence/pull/24 (0.1.4)
 >
 >## New Contributors
+> * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/32 (0.2.7)
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/25 (0.2.3)
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/26 (0.2.3)
 >
