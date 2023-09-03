@@ -1,5 +1,3 @@
-# New Mods:
-> * ThaumicBoots
 # Updated AE2FluidCraft-Rework (1.1.40-gtnh@Side.BOTH --> 1.1.42-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.39-gtnh...1.1.42-gtnh
 >## What's Changed
@@ -65,9 +63,12 @@
 > * @catcatcatcaty made their first contribution in https://github.com/GTNewHorizons/Eternal-Singularity/pull/8 (1.1.1)
 >
 
-# Updated GT5-Unofficial (5.09.43.179@Side.BOTH --> 5.09.43.190@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.178...5.09.43.190
+# Updated GT5-Unofficial (5.09.43.179@Side.BOTH --> 5.09.43.192@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.178...5.09.43.192
 >## What's Changed
+> * Fix renaming recipe check might ignore NBT equality by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2261 (5.09.43.192)
+> * Fix GPL ignoring if the recipe is allowed to be cached by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2262 (5.09.43.192)
+> * hazmat fix for thaumic boots by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2263 (5.09.43.191)
 > * Remove duplicate obsidian long rod by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2259 (5.09.43.190)
 > * Add hazmat to ThaumicBoots by @Alastors in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2260 (5.09.43.190)
 > * Fix pcb factory not applying its roughness multiplier when it doesn't OC by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2258 (5.09.43.189)
@@ -111,9 +112,10 @@
 > * Remove reference to sByProductList by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/61 (0.10.6)
 >
 
-# Updated GTplusplus (1.9.78@Side.BOTH --> 1.9.84@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.77...1.9.84
+# Updated GTplusplus (1.9.78@Side.BOTH --> 1.9.85@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.77...1.9.85
 >## What's Changed
+> * Add survival autobuild to Elemental Duplicator by @Lyfts in https://github.com/GTNewHorizons/GTplusplus/pull/731 (1.9.85)
 > * Added sound resource to cyclotron by @minecraft7771 in https://github.com/GTNewHorizons/GTplusplus/pull/728 (1.9.84)
 > * Enable batch mode on QFT by @S4mpsa in https://github.com/GTNewHorizons/GTplusplus/pull/725 (1.9.83)
 > * Fix NPE with Volcanus coil level by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/727 (1.9.82)
@@ -124,6 +126,16 @@
 >
 >## New Contributors
 > * @Jonodonozym made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/726 (1.9.81)
+>
+
+# Updated Galaxy-Space-GTNH (1.2.6-GTNH@Side.BOTH --> 1.2.7-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.2.5-GTNH...1.2.7-GTNH
+>## What's Changed
+> * More space suit support by @chochem in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/97 (1.2.7-GTNH)
+> * Fix Server-Side Entity leak by @TechnicianLP in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/96 (1.2.6-GTNH)
+>
+>## New Contributors
+> * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/96 (1.2.6-GTNH)
 >
 
 # Updated GigaGramFab (0.2.3@Side.BOTH --> 0.2.5@Side.BOTH)
@@ -190,6 +202,17 @@
 > * Allow EEC to get drops that have requirements (e.g. skulls) by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/92 (0.12.7)
 >
 
+# Updated Minecraft-Backpack-Mod (2.2.11-GTNH@Side.BOTH --> 2.2.12-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.2.9-GTNH...2.2.12-GTNH
+>## What's Changed
+> * Add pl_PL.lang by @Radplay in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/7 (2.2.12-GTNH)
+> * Refactor with intellij by @chill-was-taken in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/6 (2.2.11-GTNH)
+>
+>## New Contributors
+> * @Radplay made their first contribution in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/7 (2.2.12-GTNH)
+> * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/6 (2.2.11-GTNH)
+>
+
 # Updated Mobs-Info (0.1.5-GTNH@Side.BOTH --> 0.1.6-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.4-GTNH...0.1.6-GTNH
 
@@ -249,15 +272,6 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
 >
 
-# New Mod - ThaumicBoots (0.1.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/commits/0.1.0
->## What's Changed
-> * 0.1.0: BoOTs will fix ***everything*** by @Alastors in https://github.com/GTNewHorizons/ThaumicBoots/pull/1 (0.1.0)
->
->## New Contributors
-> * @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/1 (0.1.0)
->
-
 # Updated bartworks (0.7.38@Side.BOTH --> 0.7.40@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.37...0.7.40
 >## What's Changed
@@ -277,6 +291,17 @@
 >
 >## New Contributors
 > * @Pxx500 made their first contribution in https://github.com/GTNewHorizons/harvestcraft/pull/45 (1.1.0-GTNH)
+>
+
+# Updated ironchest (6.0.71@Side.BOTH --> 6.0.72@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.70...6.0.72
+>## What's Changed
+> * Update pl_PL.lang by @Radplay in https://github.com/GTNewHorizons/ironchest/pull/10 (6.0.72)
+> * crystal chest render distance options by @TataTawa in https://github.com/GTNewHorizons/ironchest/pull/9 (6.0.71)
+>
+>## New Contributors
+> * @Radplay made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/10 (6.0.72)
+> * @TataTawa made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/9 (6.0.71)
 >
 
 # Updated thaumicinsurgence (0.2.6@Side.BOTH --> 0.2.7@Side.BOTH)
