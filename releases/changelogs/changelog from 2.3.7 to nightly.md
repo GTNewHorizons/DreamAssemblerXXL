@@ -1,5 +1,3 @@
-# New Mods:
-> * ThaumicBoots
 # Updated AE2FluidCraft-Rework (1.1.40-gtnh@Side.BOTH --> 1.1.42-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.39-gtnh...1.1.42-gtnh
 >## What's Changed
@@ -272,18 +270,6 @@
 >
 >## New Contributors
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
->
-
-# New Mod - ThaumicBoots (0.1.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/commits/0.1.2
->## What's Changed
-> * Comet Boots use electric magic for fall damage reduction by @boubou19 in https://github.com/GTNewHorizons/ThaumicBoots/pull/4 (0.1.2)
-> * Fixes the Voidwalker jump glitch by @Alastors in https://github.com/GTNewHorizons/ThaumicBoots/pull/2 (0.1.1)
-> * 0.1.0: BoOTs will fix ***everything*** by @Alastors in https://github.com/GTNewHorizons/ThaumicBoots/pull/1 (0.1.0)
->
->## New Contributors
-> * @boubou19 made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/4 (0.1.2)
-> * @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/1 (0.1.0)
 >
 
 # Updated bartworks (0.7.38@Side.BOTH --> 0.7.40@Side.BOTH)
