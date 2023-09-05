@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.3.7",
-  "last_updated": "2023-09-03T15:47:45.012632",
+  "last_updated": "2023-09-05T06:41:08.534600",
   "config": "2.4.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-250-GTNH",
+      "version": "rv3-beta-252-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.7.40",
+      "version": "0.7.41",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.4.1",
+      "version": "1.5.0",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.2.7-GTNH",
+      "version": "1.2.8-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.43.192",
+      "version": "5.09.44.02",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.9.85",
+      "version": "1.10.1",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.12.8",
+      "version": "0.13.0",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.1.110",
+      "version": "2.2.0",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.2.40",
+      "version": "5.3.0",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.4.2",
+      "version": "1.4.3",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
