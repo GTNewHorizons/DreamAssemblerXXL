@@ -271,12 +271,12 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BetterCrashes](https://github.com/GTNewHorizons/BetterCrashes) | 1.2.2-GTNH |
 | [BetterLoadingScreen](https://github.com/GTNewHorizons/BetterLoadingScreen) | 1.4.4-GTNH |
 | [BetterP2P](https://github.com/GTNewHorizons/BetterP2P) | 1.1.20 |
-| [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting) | 3.3.27-GTNH |
+| [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting) | 3.4.0-GTNH |
 | [BiblioCraft: BiblioWoods Biomes O'Plenty Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition) | 1.9 |
 | [BiblioCraft: BiblioWoods Forestry Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition) | 1.7 |
 | [BiblioCraft: BiblioWoods Natura Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-natura-edition) | 1.5 |
 | [BiblioCraft](https://www.curseforge.com/minecraft/mc-mods/bibliocraft) | 1.11.7 |
-| [Binnie](https://github.com/GTNewHorizons/Binnie) | 2.1.10 |
+| [Binnie](https://github.com/GTNewHorizons/Binnie) | 2.2.0 |
 | [Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty) | 2.1.0.2308 |
 | [BlockLimiter](https://github.com/GTNewHorizons/BlockLimiter) | 0.55 |
 | [BlockRenderer6343](https://github.com/GTNewHorizons/BlockRenderer6343) | 1.0.3 |
@@ -338,7 +338,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.6.41 |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.0.15 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.44.03 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.44.04 |
 | [GTNEIOrePlugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.1.3 |
 | [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.1.28 |
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.11.0 |
@@ -350,7 +350,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.1-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.1.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.2.31 |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.3.0 |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.2.4-GTNH |
 | [HungerOverhaul](https://github.com/GTNewHorizons/HungerOverhaul) | 1.0.4-GTNH |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.1.0 |
@@ -400,7 +400,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.1.-6-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.4.2 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 1.4.6 |
-| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.3.83-GTNH |
+| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.4.0-GTNH |
 | [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.4.19 |
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 0.0.4 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.06.1-GTNH |

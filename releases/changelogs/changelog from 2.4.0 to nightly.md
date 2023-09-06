@@ -21,6 +21,23 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/BetterBuildersWands/pull/8 (0.9.6-GTNH)
 >
 
+# Updated BetterQuesting (3.3.27-GTNH@Side.BOTH --> 3.4.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.26-GTNH...3.4.0-GTNH
+>## What's Changed
+> * Added heads to the Hydra and body to the Naga. by @FindMeSomeFun in https://github.com/GTNewHorizons/BetterQuesting/pull/115 (3.4.0-GTNH)
+> * Wisp final solution by @FindMeSomeFun in https://github.com/GTNewHorizons/BetterQuesting/pull/114 (3.3.27-GTNH)
+>
+
+# Updated Binnie (2.1.10@Side.BOTH --> 2.2.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.9...2.2.0
+>## What's Changed
+> * Fix Incubator breaking with item outputs by @Lyfts in https://github.com/GTNewHorizons/Binnie/pull/37 (2.2.0)
+> * Fix NPE with Lumbermill by @miozune in https://github.com/GTNewHorizons/Binnie/pull/35 (2.1.10)
+>
+>## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/37 (2.2.0)
+>
+
 # Updated Crops-plus-plus (1.4.1@Side.BOTH --> 1.5.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.4.0...1.5.0
 >## What's Changed
@@ -32,9 +49,11 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/52 (1.4.1)
 >
 
-# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.03@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.03
+# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.04@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.04
 >## What's Changed
+> * Remove deprecated Seismic Prospector by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2279 (5.09.44.04)
+> * Adds item and charging info to Locker WAILA panel by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2245 (5.09.44.04)
 > * Deprecate PA by removing its controller recipe by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2273 (5.09.44.03)
 > * Restore PA controller recipe by @S4mpsa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2276 (5.09.44.03)
 > * Add optional description to input hatch constructors by @Jonodonozym in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2278 (5.09.44.03)
@@ -48,6 +67,7 @@
 > * Fix GPL ignoring if the recipe is allowed to be cached by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2262 (5.09.43.192)
 >
 >## New Contributors
+> * @querns made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2245 (5.09.44.04)
 > * @Jonodonozym made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2278 (5.09.44.03)
 > * @SKProCH made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2247 (5.09.44.02)
 > * @Kyium made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2265 (5.09.44.0)
@@ -79,6 +99,13 @@
 > * More space suit support by @chochem in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/97 (1.2.7-GTNH)
 >
 
+# Updated Hodgepodge (2.2.31@Side.BOTH --> 2.3.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.30...2.3.0
+>## What's Changed
+> * Better offline login error message by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/239 (2.3.0)
+> * Fix player skin fetching method in AbstractClientPlayer by @kumquat-ir in https://github.com/GTNewHorizons/Hodgepodge/pull/237 (2.2.31)
+>
+
 # Updated KubaTech (0.12.8@Side.BOTH --> 0.13.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.12.7...0.13.0
 >## What's Changed
@@ -95,6 +122,13 @@
 > * Add shapeless craft to undye fluix glass cable by @Lyfts in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/722 (2.2.0)
 > * Add oredict to coremod obsidian long rod by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/720 (2.1.110)
 > * Fix EMT thaumium drill crafting by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/721 (2.1.110)
+>
+
+# Updated NotEnoughItems (2.3.83-GTNH@Side.BOTH --> 2.4.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.82-GTNH...2.4.0-GTNH
+>## What's Changed
+> * More readable packet IDs by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/417 (2.4.0-GTNH)
+> * Fix world specific settings on MP being also specific to dimension by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/414 (2.3.83-GTNH)
 >
 
 # Updated OpenComputers (1.9.14-GTNH@Side.BOTH --> 1.9.15-GTNH@Side.BOTH)
