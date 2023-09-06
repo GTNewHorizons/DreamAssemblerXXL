@@ -17,9 +17,10 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/AppleCore/pull/25 (3.2.10)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-249-GTNH@Side.BOTH --> rv3-beta-252-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-248-GTNH...rv3-beta-252-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-249-GTNH@Side.BOTH --> rv3-beta-253-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-248-GTNH...rv3-beta-253-GTNH
 >## What's Changed
+> * Fix crash without BuildCraft by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/385 (rv3-beta-253-GTNH)
 > * Fix export bus ignoring inscriber slots by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/383 (rv3-beta-252-GTNH)
 > * Refine the `IItemDisplayRegistry.ItemRenderHook` interface and hook  by @ghostflyby in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/374 (rv3-beta-251-GTNH)
 > * Fix some GUIs not accepting numpad enter key by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/380 (rv3-beta-250-GTNH)
@@ -37,6 +38,17 @@
 >
 >## New Contributors
 > * @catcatcatcaty made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/36 (1.46)
+>
+
+# Updated BetterBuildersWands (0.9.6-GTNH@Side.BOTH --> 0.10.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterBuildersWands/compare/0.9.5-GTNH...0.10.0-GTNH
+>## What's Changed
+> * Fix builders wand vertical mode localization making no sense by @leumasme in https://github.com/GTNewHorizons/BetterBuildersWands/pull/9 (0.10.0-GTNH)
+> * unbind keys by default by @Alexdoru in https://github.com/GTNewHorizons/BetterBuildersWands/pull/8 (0.9.6-GTNH)
+>
+>## New Contributors
+> * @leumasme made their first contribution in https://github.com/GTNewHorizons/BetterBuildersWands/pull/9 (0.10.0-GTNH)
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/BetterBuildersWands/pull/8 (0.9.6-GTNH)
 >
 
 # Updated BetterLoadingScreen (1.4.3-GTNH@Side.CLIENT --> 1.4.4-GTNH@Side.CLIENT)
@@ -79,9 +91,14 @@
 > * @catcatcatcaty made their first contribution in https://github.com/GTNewHorizons/Eternal-Singularity/pull/8 (1.1.1)
 >
 
-# Updated GT5-Unofficial (5.09.43.179@Side.BOTH --> 5.09.44.02@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.178...5.09.44.02
+# Updated GT5-Unofficial (5.09.43.179@Side.BOTH --> 5.09.44.03@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.178...5.09.44.03
 >## What's Changed
+> * Deprecate PA by removing its controller recipe by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2273 (5.09.44.03)
+> * Restore PA controller recipe by @S4mpsa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2276 (5.09.44.03)
+> * Add optional description to input hatch constructors by @Jonodonozym in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2278 (5.09.44.03)
+> * Mini fix for the automatic multiblock recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2204 (5.09.44.03)
+> * [chore] Bump fallback version to 44 by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2274 (5.09.44.03)
 > * Removed debug Waila text from crafting hatches. by @Kyium in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2272 (5.09.44.02)
 > * Proper recipe selection for output overflow in LCR and other multiblocks by @SKProCH in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2247 (5.09.44.02)
 > * Fix cutter recipes not being added in RA2 by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2271 (5.09.44.01)
@@ -108,6 +125,7 @@
 > * Fix GT_RecipeConstants.Fuel by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2243 (5.09.43.179)
 >
 >## New Contributors
+> * @Jonodonozym made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2278 (5.09.44.03)
 > * @SKProCH made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2247 (5.09.44.02)
 > * @Kyium made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2265 (5.09.44.0)
 > * @C0bra5 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2244 (5.09.43.183)
@@ -126,17 +144,22 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/46 (1.1.26)
 >
 
-# Updated GTNH-Lanthanides (0.10.6@Side.BOTH --> 0.10.8@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.10.5...0.10.8
+# Updated GTNH-Lanthanides (0.10.6@Side.BOTH --> 0.11.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.10.5...0.11.0
 >## What's Changed
+> * Spotless apply for branch delete-unused-stuff for #64 by @github-actions in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/65 (0.11.0)
+> * Delete unused stuff by @Pxx500 in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/64 (0.11.0)
 > * Remove duplicate recipe by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/63 (0.10.8)
 > * Add PA centrifuge and electrolysis recipe maps to recipe replacements by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/62 (0.10.7)
 > * Remove reference to sByProductList by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/61 (0.10.6)
 >
 
-# Updated GTplusplus (1.9.78@Side.BOTH --> 1.10.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.77...1.10.1
+# Updated GTplusplus (1.9.78@Side.BOTH --> 1.10.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.77...1.10.2
 >## What's Changed
+> * Deprecate old GT RA within GT++ by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/738 (1.10.2)
+> * Cleanup gt++ phthalic acid by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/737 (1.10.2)
+> * Remove disabled sulfurchem plugin by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/740 (1.10.2)
 > * Remove misleading information from buffered energy hatch achievement by @Pxx500 in https://github.com/GTNewHorizons/GTplusplus/pull/735 (1.10.1)
 > * Clean-up v2 by @Connor-Colenso in https://github.com/GTNewHorizons/GTplusplus/pull/729 (1.10.0)
 > * Add survival autobuild to Elemental Duplicator by @Lyfts in https://github.com/GTNewHorizons/GTplusplus/pull/731 (1.9.85)
@@ -242,9 +265,11 @@
 # Updated Mobs-Info (0.1.5-GTNH@Side.BOTH --> 0.1.6-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.4-GTNH...0.1.6-GTNH
 
-# Updated NewHorizonsCoreMod (2.1.101@Side.BOTH --> 2.2.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.100...2.2.0
+# Updated NewHorizonsCoreMod (2.1.101@Side.BOTH --> 2.2.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.100...2.2.1
 >## What's Changed
+> * More readable recipes. by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/704 (2.2.1)
+> * Remove recipes for BiblioCraft Fancy Workbench by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/723 (2.2.1)
 > * Migration to RA2 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/692 (2.2.0)
 > * Add shapeless craft to undye fluix glass cable by @Lyfts in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/722 (2.2.0)
 > * Add oredict to coremod obsidian long rod by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/720 (2.1.110)
@@ -266,6 +291,16 @@
 >
 >## New Contributors
 > * @Gofer2x made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/712 (2.1.104)
+>
+
+# Updated OpenComputers (1.9.14-GTNH@Side.BOTH --> 1.9.15-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.13-GTNH...1.9.15-GTNH
+>## What's Changed
+> * Disable incorrect glNormal calls which caused errors. by @mjevans in https://github.com/GTNewHorizons/OpenComputers/pull/107 (1.9.15-GTNH)
+> * Fix modifying fluid patterns with OC by @S4mpsa in https://github.com/GTNewHorizons/OpenComputers/pull/106 (1.9.14-GTNH)
+>
+>## New Contributors
+> * @mjevans made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/107 (1.9.15-GTNH)
 >
 
 # Updated Random-Things (2.4.4@Side.BOTH --> 2.4.5@Side.BOTH)
