@@ -49,9 +49,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/52 (1.4.1)
 >
 
-# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.04@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.04
+# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.05@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.05
 >## What's Changed
+> * Makes Fool's Ruby use its proper scientific name by @Alastors in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2280 (5.09.44.05)
 > * Remove deprecated Seismic Prospector by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2279 (5.09.44.04)
 > * Adds item and charging info to Locker WAILA panel by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2245 (5.09.44.04)
 > * Deprecate PA by removing its controller recipe by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2273 (5.09.44.03)
@@ -99,6 +100,16 @@
 > * More space suit support by @chochem in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/97 (1.2.7-GTNH)
 >
 
+# Updated GoodGenerator (0.6.41@Side.BOTH --> 0.7.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.40...0.7.0
+>## What's Changed
+> * Update en_US.lang by @Rika-TH in https://github.com/GTNewHorizons/GoodGenerator/pull/208 (0.7.0)
+> * Fix precise assembler not overclocking with amperage and Precise mode having parallels by @BlueWeabo in https://github.com/GTNewHorizons/GoodGenerator/pull/207 (0.6.41)
+>
+>## New Contributors
+> * @Rika-TH made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/208 (0.7.0)
+>
+
 # Updated Hodgepodge (2.2.31@Side.BOTH --> 2.3.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.30...2.3.0
 >## What's Changed
@@ -111,6 +122,16 @@
 >## What's Changed
 > * Merge identical slots in EIG + MApiary GUI by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/93 (0.13.0)
 > * Fix massive lags when EEC is running at high voltage by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/94 (0.12.8)
+>
+
+# Updated ModularUI (1.1.16@Side.BOTH --> 1.1.17@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.15...1.1.17
+>## What's Changed
+> * Catch checked exceptions by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/51 (1.1.17)
+> * Allow overriding getItemStackForRendering by @harrynull in https://github.com/GTNewHorizons/ModularUI/pull/50 (1.1.16)
+>
+>## New Contributors
+> * @harrynull made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/50 (1.1.16)
 >
 
 # Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.1@Side.BOTH)
@@ -149,9 +170,21 @@
 > * Fix TT extended Multis using wrong exotic energy input hatches list by @BlueWeabo in https://github.com/GTNewHorizons/TecTech/pull/237 (5.2.40)
 >
 
-# Updated bartworks (0.7.40@Side.BOTH --> 0.7.41@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.39...0.7.41
+# Updated amunra (0.4.36@Side.BOTH --> 0.5.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.35...0.5.0
 >## What's Changed
+> * Fix incorrect link by @Lyfts in https://github.com/GTNewHorizons/amunra/pull/29 (0.5.0)
+> * Fix fluid handling related crash by @eigenraven in https://github.com/GTNewHorizons/amunra/pull/28 (0.4.36)
+>
+>## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/amunra/pull/29 (0.5.0)
+> * @eigenraven made their first contribution in https://github.com/GTNewHorizons/amunra/pull/28 (0.4.36)
+>
+
+# Updated bartworks (0.7.40@Side.BOTH --> 0.8.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.39...0.8.0
+>## What's Changed
+> * migrate recipes to RA2 by @boubou19 in https://github.com/GTNewHorizons/bartworks/pull/349 (0.8.0)
 > * fix quad input hatch for Mega Oil Cracker by @lordIcocain in https://github.com/GTNewHorizons/bartworks/pull/352 (0.7.40)
 >
 >## New Contributors
