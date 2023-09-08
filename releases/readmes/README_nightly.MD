@@ -294,6 +294,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.11.4-GTNH |
 | [ChiselTones](https://github.com/GTNewHorizons/ChiselTones) | 1.0.4-GTNH |
 | [CodeChickenCore](https://github.com/GTNewHorizons/CodeChickenCore) | 1.1.11 |
+| [CodeChickenLib](https://github.com/GTNewHorizons/CodeChickenLib) | 1.1.8 |
 | [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core) | 3.1.4-329 |
 | [Compact Kinetic Generators](https://forum.industrial-craft.net/thread/12724-ic2-exp-1-7-10-compact-kinetic-generators/) | 1.0 |
 | [Computronics](https://github.com/GTNewHorizons/Computronics) | 1.7.1-GTNH |

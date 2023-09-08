@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.0",
-  "last_updated": "2023-09-08T11:06:57.404048",
+  "last_updated": "2023-09-08T11:10:27.417534",
   "config": "2.4.1-nightly-2023-09-06",
   "github_mods": {
     "AdventureBackpack2": {
@@ -839,6 +839,10 @@
     "Default-Configs": {
       "version": "1.1.3",
       "side": "CLIENT"
+    },
+    "CodeChickenLib": {
+      "version": "1.1.8",
+      "side": "BOTH"
     }
   },
   "external_mods": {

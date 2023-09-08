@@ -1,3 +1,5 @@
+# New Mods:
+> * CodeChickenLib
 # Updated Applied-Energistics-2-Unofficial (rv3-beta-250-GTNH@Side.BOTH --> rv3-beta-254-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-249-GTNH...rv3-beta-254-GTNH
 >## What's Changed
@@ -37,6 +39,27 @@
 >
 >## New Contributors
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/37 (2.2.0)
+>
+
+# New Mod - CodeChickenLib (1.1.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenLib/commits/1.1.8
+>## What's Changed
+> * null check chunk extensions to not cause errors with chunk pregenerator by @unix-supremacist in https://github.com/GTNewHorizons/CodeChickenLib/pull/11 (1.1.8)
+> * Publish to CF & MN by @mitchej123 in https://github.com/GTNewHorizons/CodeChickenLib/pull/10 (1.1.7)
+> * Add GradleStart-injected property for obf mapping discovery by @eigenraven in https://github.com/GTNewHorizons/CodeChickenLib/pull/8 (1.1.5.7)
+> * Update buildscript & apply spotless by @eigenraven in https://github.com/GTNewHorizons/CodeChickenLib/pull/7 (1.1.5.6)
+> * Fix NPE by @DrParadox7 in https://github.com/GTNewHorizons/CodeChickenLib/pull/6 (1.1.5.5)
+> * Does not dump asm by default by @MuXiu1997 in https://github.com/GTNewHorizons/CodeChickenLib/pull/5 (1.1.5.4)
+> * update build script by @bombcar in https://github.com/GTNewHorizons/CodeChickenLib/pull/4 (1.1.5.3)
+> * update buildscript by @bombcar in https://github.com/GTNewHorizons/CodeChickenLib/pull/3 (1.1.5.0)
+> * Update build script and CI by @SinTh0r4s in https://github.com/GTNewHorizons/CodeChickenLib/pull/2 (1.1.4.1)
+>
+>## New Contributors
+> * @unix-supremacist made their first contribution in https://github.com/GTNewHorizons/CodeChickenLib/pull/11 (1.1.8)
+> * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/CodeChickenLib/pull/10 (1.1.7)
+> * @eigenraven made their first contribution in https://github.com/GTNewHorizons/CodeChickenLib/pull/7 (1.1.5.6)
+> * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/CodeChickenLib/pull/6 (1.1.5.5)
+> * @MuXiu1997 made their first contribution in https://github.com/GTNewHorizons/CodeChickenLib/pull/5 (1.1.5.4)
 >
 
 # Updated Crops-plus-plus (1.4.1@Side.BOTH --> 1.5.0@Side.BOTH)
