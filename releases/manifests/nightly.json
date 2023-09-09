@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.0",
-  "last_updated": "2023-09-08T11:10:27.417534",
+  "last_updated": "2023-09-09T10:43:16.811234",
   "config": "2.4.1-nightly-2023-09-06",
   "github_mods": {
     "AdventureBackpack2": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.06",
+      "version": "5.09.44.07",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -445,7 +445,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.4.1",
+      "version": "2.4.2",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.3.0",
+      "version": "5.3.1",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -641,7 +641,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.9.39-GTNH",
+      "version": "1.10.0-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {

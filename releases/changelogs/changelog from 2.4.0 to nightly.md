@@ -73,9 +73,11 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/52 (1.4.1)
 >
 
-# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.06@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.06
+# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.07@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.07
 >## What's Changed
+> * Add BarnardaC bee effect, enhance tooltip and waila for iapiary by @hacatu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2255 (5.09.44.07)
+> * Adds status messages, action buttons to UI of multiblock drills by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2270 (5.09.44.07)
 > * Make heater upgrade more precies aswell by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2275 (5.09.44.06)
 > * Display current recipe in GUI by @harrynull in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2252 (5.09.44.06)
 > * Makes Fool's Ruby use its proper scientific name by @Alastors in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2280 (5.09.44.05)
@@ -94,6 +96,7 @@
 > * Fix GPL ignoring if the recipe is allowed to be cached by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2262 (5.09.43.192)
 >
 >## New Contributors
+> * @hacatu made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2255 (5.09.44.07)
 > * @querns made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2245 (5.09.44.04)
 > * @Jonodonozym made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2278 (5.09.44.03)
 > * @SKProCH made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2247 (5.09.44.02)
@@ -190,9 +193,10 @@
 > * Fix EMT thaumium drill crafting by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/721 (2.1.110)
 >
 
-# Updated NotEnoughItems (2.3.83-GTNH@Side.BOTH --> 2.4.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.82-GTNH...2.4.1
+# Updated NotEnoughItems (2.3.83-GTNH@Side.BOTH --> 2.4.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.82-GTNH...2.4.2
 >## What's Changed
+> * Holding ALT now increases bookmark stack increase in increments of output item's stack size by @querns in https://github.com/GTNewHorizons/NotEnoughItems/pull/418 (2.4.2)
 > * Catch exception on drawSlotItem by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/273 (2.4.1)
 > * Presets: Open List Fatal & Slot Overlay  by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/276 (2.4.1)
 > * Create ShortcutInputHandler api class by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/277 (2.4.1)
@@ -278,6 +282,7 @@
 > * Fix world specific settings on MP being also specific to dimension by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/414 (2.3.83-GTNH)
 >
 >## New Contributors
+> * @querns made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/418 (2.4.2)
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/283 (2.4.1)
 > * @Quarri6343 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/291 (2.4.1)
 > * @asdflj made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/335 (2.4.1)
@@ -303,12 +308,23 @@
 > * @mjevans made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/107 (1.9.15-GTNH)
 >
 
-# Updated TecTech (5.2.40@Side.BOTH --> 5.3.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.39...5.3.0
+# Updated TecTech (5.2.40@Side.BOTH --> 5.3.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.39...5.3.1
 >## What's Changed
+> * Allow the use of higher tier SCs in mainframe recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/241 (5.3.1)
 > * Cleanup dependencies by @miozune in https://github.com/GTNewHorizons/TecTech/pull/240 (5.3.0)
 > * Cleanup old content and add GT++ patch by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/239 (5.2.41)
 > * Fix TT extended Multis using wrong exotic energy input hatches list by @BlueWeabo in https://github.com/GTNewHorizons/TecTech/pull/237 (5.2.40)
+>
+
+# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.0-GTNH
+>## What's Changed
+> * tinker's + ofanix by @Quetz4l in https://github.com/GTNewHorizons/TinkersConstruct/pull/92 (1.10.0-GTNH)
+> * Fixes broken TiC Armor not being repairable by @DrParadox7 in https://github.com/GTNewHorizons/TinkersConstruct/pull/91 (1.9.39-GTNH)
+>
+>## New Contributors
+> * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/92 (1.10.0-GTNH)
 >
 
 # Updated amunra (0.4.36@Side.BOTH --> 0.5.0@Side.BOTH)
