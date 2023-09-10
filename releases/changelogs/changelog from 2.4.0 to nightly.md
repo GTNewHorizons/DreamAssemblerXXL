@@ -73,9 +73,15 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/52 (1.4.1)
 >
 
-# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.07@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.07
+# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.09@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.09
 >## What's Changed
+> * Deprecate GT_RecipeBuilder#noXXXYYY methods by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2284 (5.09.44.09)
+> * Less aggressive System.nanoTime() by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2269 (5.09.44.09)
+> * Add FixedPositionedStack#isFluid by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2287 (5.09.44.09)
+> * Deprecate GregTech_API#mAE2 by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2288 (5.09.44.09)
+> * Requested drill changes, eliminates recipe info in drill GUI by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2285 (5.09.44.08)
+> * Use Avaritia for Universium renderer by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2286 (5.09.44.08)
 > * Add BarnardaC bee effect, enhance tooltip and waila for iapiary by @hacatu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2255 (5.09.44.07)
 > * Adds status messages, action buttons to UI of multiblock drills by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2270 (5.09.44.07)
 > * Make heater upgrade more precies aswell by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2275 (5.09.44.06)
@@ -111,9 +117,10 @@
 > * Remove duplicate recipe by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/63 (0.10.8)
 >
 
-# Updated GTplusplus (1.9.85@Side.BOTH --> 1.10.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.84...1.10.2
+# Updated GTplusplus (1.9.85@Side.BOTH --> 1.10.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.84...1.10.3
 >## What's Changed
+> * Ra2ify gt++ Part 1 by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/739 (1.10.3)
 > * Deprecate old GT RA within GT++ by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/738 (1.10.2)
 > * Cleanup gt++ phthalic acid by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/737 (1.10.2)
 > * Remove disabled sulfurchem plugin by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/740 (1.10.2)
@@ -165,6 +172,12 @@
 > * @Dioxop made their first contribution in https://github.com/GTNewHorizons/Jabba/pull/25 (1.2.22)
 >
 
+# Updated KekzTech (0.8.9@Side.BOTH --> 0.9.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.8.8...0.9.0
+>## What's Changed
+> * Cleanup unused stuff by @miozune in https://github.com/GTNewHorizons/KekzTech/pull/76 (0.9.0)
+>
+
 # Updated KubaTech (0.12.8@Side.BOTH --> 0.13.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.12.7...0.13.0
 >## What's Changed
@@ -182,9 +195,10 @@
 > * @harrynull made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/50 (1.1.16)
 >
 
-# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.2.1
+# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.2.2
 >## What's Changed
+> * Fix a recipe conflict by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/724 (2.2.2)
 > * More readable recipes. by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/704 (2.2.1)
 > * Remove recipes for BiblioCraft Fancy Workbench by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/723 (2.2.1)
 > * Migration to RA2 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/692 (2.2.0)
@@ -308,8 +322,18 @@
 > * @mjevans made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/107 (1.9.15-GTNH)
 >
 
-# Updated TecTech (5.2.40@Side.BOTH --> 5.3.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.39...5.3.1
+# Updated Railcraft (9.14.9@Side.BOTH --> 9.15.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.14.8...9.15.0
+>## What's Changed
+> * Disable recipe for packed ice stairs in gtnh by @chochem in https://github.com/GTNewHorizons/Railcraft/pull/48 (9.15.0)
+> * Update EntityLocomotiveSteamMagic.java by @GregoriusT in https://github.com/GTNewHorizons/Railcraft/pull/47 (9.14.9)
+>
+>## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/48 (9.15.0)
+>
+
+# Updated TecTech (5.2.40@Side.BOTH --> 5.3.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.39...5.3.2
 >## What's Changed
 > * Allow the use of higher tier SCs in mainframe recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/241 (5.3.1)
 > * Cleanup dependencies by @miozune in https://github.com/GTNewHorizons/TecTech/pull/240 (5.3.0)
@@ -317,14 +341,36 @@
 > * Fix TT extended Multis using wrong exotic energy input hatches list by @BlueWeabo in https://github.com/GTNewHorizons/TecTech/pull/237 (5.2.40)
 >
 
-# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.0-GTNH
+# Updated ThaumicTinkerer (2.7.1@Side.BOTH --> 2.8.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.7.0...2.8.2
 >## What's Changed
+> * Add back the randomly aging (non 0 meta) fires. by @mitchej123 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/33 (2.8.1)
+> * Infused fire by @mitchej123 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/31 (2.8.0)
+> * Fix potential unsaves by @wohaopa in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/32 (2.7.1)
+>
+>## New Contributors
+> * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/31 (2.8.0)
+> * @wohaopa made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/32 (2.7.1)
+>
+
+# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.1-GTNH
+>## What's Changed
+> * slimeBoots and slimeSling by @Quetz4l in https://github.com/GTNewHorizons/TinkersConstruct/pull/93 (1.10.1-GTNH)
 > * tinker's + ofanix by @Quetz4l in https://github.com/GTNewHorizons/TinkersConstruct/pull/92 (1.10.0-GTNH)
 > * Fixes broken TiC Armor not being repairable by @DrParadox7 in https://github.com/GTNewHorizons/TinkersConstruct/pull/91 (1.9.39-GTNH)
 >
 >## New Contributors
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/92 (1.10.0-GTNH)
+>
+
+# Updated TinkersMechworks (0.2.16.4@Side.BOTH --> 0.2.17@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersMechworks/compare/0.2.16.3...0.2.17
+>## What's Changed
+> * Update bs and deps to make the mod compile again  by @chochem in https://github.com/GTNewHorizons/TinkersMechworks/pull/6 (0.2.17)
+>
+>## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/TinkersMechworks/pull/6 (0.2.17)
 >
 
 # Updated amunra (0.4.36@Side.BOTH --> 0.5.0@Side.BOTH)
@@ -338,9 +384,10 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/amunra/pull/28 (0.4.36)
 >
 
-# Updated bartworks (0.7.40@Side.BOTH --> 0.8.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.39...0.8.0
+# Updated bartworks (0.7.40@Side.BOTH --> 0.8.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.39...0.8.1
 >## What's Changed
+> * 2 small recipe fixes by @chochem in https://github.com/GTNewHorizons/bartworks/pull/357 (0.8.1)
 > * migrate recipes to RA2 by @boubou19 in https://github.com/GTNewHorizons/bartworks/pull/349 (0.8.0)
 > * fix quad input hatch for Mega Oil Cracker by @lordIcocain in https://github.com/GTNewHorizons/bartworks/pull/352 (0.7.40)
 >
