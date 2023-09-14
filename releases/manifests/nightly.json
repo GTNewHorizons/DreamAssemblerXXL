@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.4.0",
-  "last_updated": "2023-09-10T21:18:34.932652",
-  "config": "2.4.1-nightly-2023-09-06",
+  "last_updated": "2023-09-14T17:27:21.239456",
+  "config": "2.4.1-nightly-2023-09-14",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.14-GTNH",
@@ -13,7 +13,7 @@
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.5.7-GTNH",
+      "version": "0.6.0-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.8.1",
+      "version": "0.8.3",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.2.8-GTNH",
+      "version": "1.2.9-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.7.0",
+      "version": "0.7.1",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.09",
+      "version": "5.09.44.11",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.10.3",
+      "version": "1.10.4",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.2.4-GTNH",
+      "version": "2.3.0-GTNH",
       "side": "BOTH"
     },
     "HungerOverhaul": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.6.6-GTNH",
+      "version": "2.7.0-GTNH",
       "side": "BOTH"
     },
     "MalisisCore": {
@@ -457,7 +457,7 @@
       "side": "CLIENT"
     },
     "OCGlasses": {
-      "version": "1.3.1-GTNH",
+      "version": "1.4.0-GTNH",
       "side": "BOTH"
     },
     "OpenBlocks": {
@@ -577,7 +577,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.2.8",
+      "version": "1.2.9",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -641,7 +641,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.10.1-GTNH",
+      "version": "1.10.3-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.1.17",
+      "version": "1.1.18",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "Nutrition": {
-      "version": "0.0.4",
+      "version": "0.0.5",
       "side": "BOTH"
     },
     "Default-Configs": {

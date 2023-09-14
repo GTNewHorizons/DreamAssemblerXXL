@@ -73,9 +73,11 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/52 (1.4.1)
 >
 
-# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.09@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.09
+# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.11
 >## What's Changed
+> * Adds Metrics Transmitter Cover and Advanced GT Sensor Card for Information Panels by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2289 (5.09.44.11)
+> * Make Crafting Input Bus / Hatch compatible with some non-GPL multis by @Jonodonozym in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2266 (5.09.44.10)
 > * Deprecate GT_RecipeBuilder#noXXXYYY methods by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2284 (5.09.44.09)
 > * Less aggressive System.nanoTime() by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2269 (5.09.44.09)
 > * Add FixedPositionedStack#isFluid by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2287 (5.09.44.09)
@@ -117,9 +119,12 @@
 > * Remove duplicate recipe by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/63 (0.10.8)
 >
 
-# Updated GTplusplus (1.9.85@Side.BOTH --> 1.10.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.84...1.10.3
+# Updated GTplusplus (1.9.85@Side.BOTH --> 1.10.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.84...1.10.4
 >## What's Changed
+> * Less hacky way to limit alignments by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/741 (1.10.4)
+> * Restore supreme pizza gloves into existence by @Connor-Colenso in https://github.com/GTNewHorizons/GTplusplus/pull/742 (1.10.4)
+> * Fix duplicate multiblock recipes by @Kyium in https://github.com/GTNewHorizons/GTplusplus/pull/736 (1.10.4)
 > * Ra2ify gt++ Part 1 by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/739 (1.10.3)
 > * Deprecate old GT RA within GT++ by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/738 (1.10.2)
 > * Cleanup gt++ phthalic acid by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/737 (1.10.2)
@@ -128,12 +133,19 @@
 > * Clean-up v2 by @Connor-Colenso in https://github.com/GTNewHorizons/GTplusplus/pull/729 (1.10.0)
 > * Add survival autobuild to Elemental Duplicator by @Lyfts in https://github.com/GTNewHorizons/GTplusplus/pull/731 (1.9.85)
 >
+>## New Contributors
+> * @Kyium made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/736 (1.10.4)
+>
 
-# Updated Galaxy-Space-GTNH (1.2.7-GTNH@Side.BOTH --> 1.2.8-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.2.6-GTNH...1.2.8-GTNH
+# Updated Galaxy-Space-GTNH (1.2.7-GTNH@Side.BOTH --> 1.2.9-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.2.6-GTNH...1.2.9-GTNH
 >## What's Changed
+> * Fix Dyson module consumption by @S4mpsa in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/99 (1.2.9-GTNH)
 > * Fix build with new TecTech by @miozune in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/98 (1.2.8-GTNH)
 > * More space suit support by @chochem in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/97 (1.2.7-GTNH)
+>
+>## New Contributors
+> * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/99 (1.2.9-GTNH)
 >
 
 # Updated GigaGramFab (0.2.5@Side.BOTH --> 0.3.0@Side.BOTH)
@@ -143,13 +155,15 @@
 > * Fix data stick check behavior by @miozune in https://github.com/GTNewHorizons/GigaGramFab/pull/17 (0.2.5)
 >
 
-# Updated GoodGenerator (0.6.41@Side.BOTH --> 0.7.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.40...0.7.0
+# Updated GoodGenerator (0.6.41@Side.BOTH --> 0.7.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.40...0.7.1
 >## What's Changed
+> * Fix Large Naq Reactor tooltip error by @serenibyss in https://github.com/GTNewHorizons/GoodGenerator/pull/209 (0.7.1)
 > * Update en_US.lang by @Rika-TH in https://github.com/GTNewHorizons/GoodGenerator/pull/208 (0.7.0)
 > * Fix precise assembler not overclocking with amperage and Precise mode having parallels by @BlueWeabo in https://github.com/GTNewHorizons/GoodGenerator/pull/207 (0.6.41)
 >
 >## New Contributors
+> * @serenibyss made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/209 (0.7.1)
 > * @Rika-TH made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/208 (0.7.0)
 >
 
@@ -159,6 +173,17 @@
 > * Fix another lag caused by IC2 spamming detectAndSendChanges by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/238 (2.3.1)
 > * Better offline login error message by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/239 (2.3.0)
 > * Fix player skin fetching method in AbstractClientPlayer by @kumquat-ir in https://github.com/GTNewHorizons/Hodgepodge/pull/237 (2.2.31)
+>
+
+# Updated HoloInventory (2.2.4-GTNH@Side.BOTH --> 2.3.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.2.3-GTNH...2.3.0-GTNH
+>## What's Changed
+> * Fix quantum chest by @Hanekihyouka in https://github.com/GTNewHorizons/HoloInventory/pull/36 (2.3.0-GTNH)
+> * fix jabba by @Quetz4l in https://github.com/GTNewHorizons/HoloInventory/pull/35 (2.2.4-GTNH)
+>
+>## New Contributors
+> * @Hanekihyouka made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/36 (2.3.0-GTNH)
+> * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/35 (2.2.4-GTNH)
 >
 
 # Updated Jabba (1.2.22@Side.BOTH --> 1.3.0@Side.BOTH)
@@ -185,9 +210,20 @@
 > * Fix massive lags when EEC is running at high voltage by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/94 (0.12.8)
 >
 
-# Updated ModularUI (1.1.16@Side.BOTH --> 1.1.17@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.15...1.1.17
+# Updated MagicBees (2.6.6-GTNH@Side.BOTH --> 2.7.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.6.4-GTNH...2.7.0-GTNH
 >## What's Changed
+> * Buffed magic, resiliant, and basic blood frames by @hacatu in https://github.com/GTNewHorizons/MagicBees/pull/31 (2.7.0-GTNH)
+> * Fix Additive Production by @hacatu in https://github.com/GTNewHorizons/MagicBees/pull/30 (2.6.6-GTNH)
+>
+>## New Contributors
+> * @hacatu made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/30 (2.6.6-GTNH)
+>
+
+# Updated ModularUI (1.1.16@Side.BOTH --> 1.1.18@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.15...1.1.18
+>## What's Changed
+> * Fix ItemStackHandler not saving stack size as int by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/52 (1.1.18)
 > * Catch checked exceptions by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/51 (1.1.17)
 > * Allow overriding getItemStackForRendering by @harrynull in https://github.com/GTNewHorizons/ModularUI/pull/50 (1.1.16)
 >
@@ -312,6 +348,26 @@
 > * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/410 (2.4.1)
 >
 
+# Updated Nutrition (0.0.4@Side.BOTH --> 0.0.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Nutrition/compare/0.0.3...0.0.5
+>## What's Changed
+> * Fix some keybind and gui stuff by @Alexdoru in https://github.com/GTNewHorizons/Nutrition/pull/11 (0.0.5)
+> * Suggestions and rebalances by @serenibyss in https://github.com/GTNewHorizons/Nutrition/pull/9 (0.0.4)
+>
+>## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Nutrition/pull/11 (0.0.5)
+>
+
+# Updated OCGlasses (1.3.1-GTNH@Side.BOTH --> 1.4.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.3.0-GTNH...1.4.0-GTNH
+>## What's Changed
+> * unbind keybind by default by @Alexdoru in https://github.com/GTNewHorizons/OCGlasses/pull/15 (1.4.0-GTNH)
+> * Usability improvements by @S4mpsa in https://github.com/GTNewHorizons/OCGlasses/pull/14 (1.3.1-GTNH)
+>
+>## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/15 (1.4.0-GTNH)
+>
+
 # Updated OpenComputers (1.9.14-GTNH@Side.BOTH --> 1.9.15-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.13-GTNH...1.9.15-GTNH
 >## What's Changed
@@ -330,6 +386,13 @@
 >
 >## New Contributors
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/48 (9.15.0)
+>
+
+# Updated StructureLib (1.2.8@Side.BOTH --> 1.2.9@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.2.7...1.2.9
+>## What's Changed
+> * add new api to check for rotation/flip changes by @Glease in https://github.com/GTNewHorizons/StructureLib/pull/24 (1.2.9)
+> * fix cube faces rendering order by @Glease in https://github.com/GTNewHorizons/StructureLib/pull/22 (1.2.8)
 >
 
 # Updated TecTech (5.2.40@Side.BOTH --> 5.3.2@Side.BOTH)
@@ -353,9 +416,12 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/32 (2.7.1)
 >
 
-# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.1-GTNH
+# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.3-GTNH
 >## What's Changed
+> * fix slime boots by @Quetz4l in https://github.com/GTNewHorizons/TinkersConstruct/pull/95 (1.10.3-GTNH)
+> * fix health bar shaking like crazy when the player has regeneration by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/96 (1.10.3-GTNH)
+> * slimeBoots and slimeSling by @Quetz4l in https://github.com/GTNewHorizons/TinkersConstruct/pull/93 (1.10.2-GTNH)
 > * slimeBoots and slimeSling by @Quetz4l in https://github.com/GTNewHorizons/TinkersConstruct/pull/93 (1.10.1-GTNH)
 > * tinker's + ofanix by @Quetz4l in https://github.com/GTNewHorizons/TinkersConstruct/pull/92 (1.10.0-GTNH)
 > * Fixes broken TiC Armor not being repairable by @DrParadox7 in https://github.com/GTNewHorizons/TinkersConstruct/pull/91 (1.9.39-GTNH)
@@ -373,6 +439,13 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/TinkersMechworks/pull/6 (0.2.17)
 >
 
+# Updated ae2stuff (0.5.7-GTNH@Side.BOTH --> 0.6.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ae2stuff/compare/0.5.6-GTNH...0.6.0-GTNH
+>## What's Changed
+> * Use the quartz knife to rename wireless by @firenoo in https://github.com/GTNewHorizons/ae2stuff/pull/16 (0.6.0-GTNH)
+> * Add new textures for wireless coloring by @firenoo in https://github.com/GTNewHorizons/ae2stuff/pull/15 (0.5.7-GTNH)
+>
+
 # Updated amunra (0.4.36@Side.BOTH --> 0.5.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.4.35...0.5.0
 >## What's Changed
@@ -384,9 +457,11 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/amunra/pull/28 (0.4.36)
 >
 
-# Updated bartworks (0.7.40@Side.BOTH --> 0.8.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.39...0.8.1
+# Updated bartworks (0.7.40@Side.BOTH --> 0.8.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.39...0.8.3
 >## What's Changed
+> * Also add info on Vat NEI fluid input by @miozune in https://github.com/GTNewHorizons/bartworks/pull/359 (0.8.3)
+> * Add info on Bacterial Vat NEI fluid output by @miozune in https://github.com/GTNewHorizons/bartworks/pull/358 (0.8.2)
 > * 2 small recipe fixes by @chochem in https://github.com/GTNewHorizons/bartworks/pull/357 (0.8.1)
 > * migrate recipes to RA2 by @boubou19 in https://github.com/GTNewHorizons/bartworks/pull/349 (0.8.0)
 > * fix quad input hatch for Mega Oil Cracker by @lordIcocain in https://github.com/GTNewHorizons/bartworks/pull/352 (0.7.40)
