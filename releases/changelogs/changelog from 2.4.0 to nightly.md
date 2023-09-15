@@ -24,6 +24,15 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/BetterBuildersWands/pull/8 (0.9.6-GTNH)
 >
 
+# Updated BetterLoadingScreen (1.4.4-GTNH@Side.CLIENT --> 1.5.0-GTNH@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.4.3-GTNH...1.5.0-GTNH
+>## What's Changed
+> * Update some tips by @Alexdoru in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/20 (1.5.0-GTNH)
+>
+>## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/20 (1.5.0-GTNH)
+>
+
 # Updated BetterQuesting (3.3.27-GTNH@Side.BOTH --> 3.4.0-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.26-GTNH...3.4.0-GTNH
 >## What's Changed
@@ -73,9 +82,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/52 (1.4.1)
 >
 
-# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.11@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.11
+# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.12@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.12
 >## What's Changed
+> * Add HoloInventory compat by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2292 (5.09.44.12)
 > * Adds Metrics Transmitter Cover and Advanced GT Sensor Card for Information Panels by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2289 (5.09.44.11)
 > * Make Crafting Input Bus / Hatch compatible with some non-GPL multis by @Jonodonozym in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2266 (5.09.44.10)
 > * Deprecate GT_RecipeBuilder#noXXXYYY methods by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2284 (5.09.44.09)
@@ -167,17 +177,20 @@
 > * @Rika-TH made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/208 (0.7.0)
 >
 
-# Updated Hodgepodge (2.2.31@Side.BOTH --> 2.3.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.30...2.3.1
+# Updated Hodgepodge (2.2.31@Side.BOTH --> 2.3.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.30...2.3.2
 >## What's Changed
+> * Fix having xray vision when looking in F5 through quicksand blocks by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/240 (2.3.2)
+> * Remove all items from the creative search tab to prevent lag/crash by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/241 (2.3.2)
 > * Fix another lag caused by IC2 spamming detectAndSendChanges by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/238 (2.3.1)
 > * Better offline login error message by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/239 (2.3.0)
 > * Fix player skin fetching method in AbstractClientPlayer by @kumquat-ir in https://github.com/GTNewHorizons/Hodgepodge/pull/237 (2.2.31)
 >
 
-# Updated HoloInventory (2.2.4-GTNH@Side.BOTH --> 2.3.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.2.3-GTNH...2.3.0-GTNH
+# Updated HoloInventory (2.2.4-GTNH@Side.BOTH --> 2.3.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.2.3-GTNH...2.3.2-GTNH
 >## What's Changed
+> * Move GT compat by @miozune in https://github.com/GTNewHorizons/HoloInventory/pull/37 (2.3.2-GTNH)
 > * Fix quantum chest by @Hanekihyouka in https://github.com/GTNewHorizons/HoloInventory/pull/36 (2.3.0-GTNH)
 > * fix jabba by @Quetz4l in https://github.com/GTNewHorizons/HoloInventory/pull/35 (2.2.4-GTNH)
 >
@@ -393,6 +406,17 @@
 >## What's Changed
 > * add new api to check for rotation/flip changes by @Glease in https://github.com/GTNewHorizons/StructureLib/pull/24 (1.2.9)
 > * fix cube faces rendering order by @Glease in https://github.com/GTNewHorizons/StructureLib/pull/22 (1.2.8)
+>
+
+# Updated TX-Loader (1.5.5@Side.CLIENT --> 1.6.0@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.5.4...1.6.0
+>## What's Changed
+> * Fix crashes when environment variables are wrong by @wohaopa in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
+> * use file walk instead of slow exist checks by @Glease in https://github.com/GTNewHorizons/TX-Loader/pull/7 (1.5.5)
+>
+>## New Contributors
+> * @wohaopa made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/7 (1.5.5)
 >
 
 # Updated TecTech (5.2.40@Side.BOTH --> 5.3.2@Side.BOTH)

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.0",
-  "last_updated": "2023-09-14T17:31:32.086513",
+  "last_updated": "2023-09-15T17:47:56.055623",
   "config": "2.4.1-nightly-2023-09-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -73,7 +73,7 @@
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
-      "version": "1.4.4-GTNH",
+      "version": "1.5.0-GTNH",
       "side": "CLIENT"
     },
     "BetterP2P": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.11",
+      "version": "5.09.44.12",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -289,11 +289,11 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.3.1",
+      "version": "2.3.2",
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.3.0-GTNH",
+      "version": "2.3.2-GTNH",
       "side": "BOTH"
     },
     "HungerOverhaul": {
@@ -729,7 +729,7 @@
       "side": "BOTH"
     },
     "TX-Loader": {
-      "version": "1.5.5",
+      "version": "1.6.0",
       "side": "CLIENT"
     },
     "GigaGramFab": {
