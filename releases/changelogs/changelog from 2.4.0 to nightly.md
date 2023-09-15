@@ -419,9 +419,10 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/7 (1.5.5)
 >
 
-# Updated TecTech (5.2.40@Side.BOTH --> 5.3.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.39...5.3.2
+# Updated TecTech (5.2.40@Side.BOTH --> 5.3.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.39...5.3.3
 >## What's Changed
+> * Fix missing item crash by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/242 (5.3.3)
 > * Allow the use of higher tier SCs in mainframe recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/241 (5.3.1)
 > * Cleanup dependencies by @miozune in https://github.com/GTNewHorizons/TecTech/pull/240 (5.3.0)
 > * Cleanup old content and add GT++ patch by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/239 (5.2.41)
