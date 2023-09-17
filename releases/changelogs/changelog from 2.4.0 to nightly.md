@@ -273,10 +273,9 @@
 > * @harrynull made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/50 (1.1.16)
 >
 
-# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.3.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.3.4
+# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.2.5
 >## What's Changed
-> * add Slime boots and Slimesling recipes by @Quetz4l in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/725 (2.3.4)
 > * Remove duplicate cloaking device placeholder recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/726 (2.2.5)
 > * add Slime boots and Slimesling recipes by @Quetz4l in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/725 (2.2.4)
 > * Fix a recipe conflict by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/724 (2.2.2)
@@ -288,7 +287,6 @@
 > * Fix EMT thaumium drill crafting by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/721 (2.1.110)
 >
 >## New Contributors
-> * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/725 (2.3.4)
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/725 (2.2.4)
 >
 
@@ -420,8 +418,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/15 (1.4.0-GTNH)
 >
 
-# Updated OpenComputers (1.9.14-GTNH@Side.BOTH --> 1.9.16-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.13-GTNH...1.9.16-pre
+# Updated OpenComputers (1.9.14-GTNH@Side.BOTH --> 1.9.16-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.13-GTNH...1.9.16-GTNH-pre
 >## What's Changed
 > * Disable incorrect glNormal calls which caused errors. by @mjevans in https://github.com/GTNewHorizons/OpenComputers/pull/107 (1.9.15-GTNH)
 > * Fix modifying fluid patterns with OC by @S4mpsa in https://github.com/GTNewHorizons/OpenComputers/pull/106 (1.9.14-GTNH)

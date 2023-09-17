@@ -397,7 +397,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.12.22 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.1.2 |
 | [Netty-Patcher](https://github.com/GTNewHorizons/Netty-Patcher) | 0.3.1 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.3.4 |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.2.5 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.1.-6-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.4.2 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 1.4.6 |
@@ -407,7 +407,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.06.1-GTNH |
 | [OCGlasses](https://github.com/GTNewHorizons/OCGlasses) | 1.4.0-GTNH |
 | [OpenBlocks](https://github.com/GTNewHorizons/OpenBlocks) | 1.7.0-GTNH |
-| [OpenComputers](https://github.com/GTNewHorizons/OpenComputers) | 1.9.16-pre |
+| [OpenComputers](https://github.com/GTNewHorizons/OpenComputers) | 1.9.16-GTNH-pre |
 | [OpenModsLib](https://github.com/GTNewHorizons/OpenModsLib) | 0.10.6 |
 | [OpenModularTurrets](https://github.com/GTNewHorizons/OpenModularTurrets) | 2.2.11-247 |
 | [OpenPrinter](https://github.com/GTNewHorizons/OpenPrinter) | 0.1.3-GTNH |
