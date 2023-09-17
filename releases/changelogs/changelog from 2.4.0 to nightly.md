@@ -50,6 +50,16 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/37 (2.2.0)
 >
 
+# Updated Botania (1.9.24-GTNH@Side.BOTH --> 1.10.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.9.23-GTNH...1.10.0-GTNH
+>## What's Changed
+> * Add Breaking To Ring Of Loki by @LewisSaber in https://github.com/GTNewHorizons/Botania/pull/31 (1.10.0-GTNH)
+> * Updated Russian localization by @Pyromanc3r in https://github.com/GTNewHorizons/Botania/pull/30 (1.9.24-GTNH)
+>
+>## New Contributors
+> * @Pyromanc3r made their first contribution in https://github.com/GTNewHorizons/Botania/pull/30 (1.9.24-GTNH)
+>
+
 # New Mod - CodeChickenLib (1.1.8@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/CodeChickenLib/commits/1.1.8
 >## What's Changed
@@ -82,9 +92,24 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/52 (1.4.1)
 >
 
-# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.12@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.12
+# Updated DuraDisplay (1.0.10@Side.CLIENT --> 1.1.2@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.0.9...1.1.2
 >## What's Changed
+> * Refactor for more features by @ghostflyby in https://github.com/GTNewHorizons/DuraDisplay/pull/9 (1.1.0)
+> * Fix the display of IC2 electric jetpack and some RF items by @ghostflyby in https://github.com/GTNewHorizons/DuraDisplay/pull/8 (1.0.10)
+>
+
+# Updated EnderIO (2.4.24@Side.BOTH --> 2.4.25-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.23...2.4.25-pre
+>## What's Changed
+> * fix travel upgrade items using wrong way to determine power stored by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/131 (2.4.24)
+>
+
+# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.16-pre-experimental@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.16-pre-experimental
+>## What's Changed
+> * Fix missing null check by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2295 (5.09.44.14)
+> * Fix Cell-less recipe converter not always setting new arrays by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2294 (5.09.44.14)
 > * Add HoloInventory compat by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2292 (5.09.44.12)
 > * Adds Metrics Transmitter Cover and Advanced GT Sensor Card for Information Panels by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2289 (5.09.44.11)
 > * Make Crafting Input Bus / Hatch compatible with some non-GPL multis by @Jonodonozym in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2266 (5.09.44.10)
@@ -129,9 +154,11 @@
 > * Remove duplicate recipe by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/63 (0.10.8)
 >
 
-# Updated GTplusplus (1.9.85@Side.BOTH --> 1.10.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.84...1.10.4
+# Updated GTplusplus (1.9.85@Side.BOTH --> 1.10.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.84...1.10.6
 >## What's Changed
+> * Fix broken cloaking device AL recipe by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/746 (1.10.6)
+> * Tartarite Buff by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/745 (1.10.5)
 > * Less hacky way to limit alignments by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/741 (1.10.4)
 > * Restore supreme pizza gloves into existence by @Connor-Colenso in https://github.com/GTNewHorizons/GTplusplus/pull/742 (1.10.4)
 > * Fix duplicate multiblock recipes by @Kyium in https://github.com/GTNewHorizons/GTplusplus/pull/736 (1.10.4)
@@ -158,8 +185,8 @@
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/99 (1.2.9-GTNH)
 >
 
-# Updated GigaGramFab (0.2.5@Side.BOTH --> 0.3.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.2.4...0.3.0
+# Updated GigaGramFab (0.2.5@Side.BOTH --> 0.3.1-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.2.4...0.3.1-pre
 >## What's Changed
 > * minor ui improvement for aal by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/14 (0.3.0)
 > * Fix data stick check behavior by @miozune in https://github.com/GTNewHorizons/GigaGramFab/pull/17 (0.2.5)
@@ -177,9 +204,11 @@
 > * @Rika-TH made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/208 (0.7.0)
 >
 
-# Updated Hodgepodge (2.2.31@Side.BOTH --> 2.3.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.30...2.3.2
+# Updated Hodgepodge (2.2.31@Side.BOTH --> 2.3.4-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.30...2.3.4-pre
 >## What's Changed
+> * Remove the blueish sky tint from night vision by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/244 (2.3.3)
+> * forgot remap = false in MixinGuiContainerCreative by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/245 (2.3.3)
 > * Fix having xray vision when looking in F5 through quicksand blocks by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/240 (2.3.2)
 > * Remove all items from the creative search tab to prevent lag/crash by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/241 (2.3.2)
 > * Fix another lag caused by IC2 spamming detectAndSendChanges by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/238 (2.3.1)
@@ -244,9 +273,12 @@
 > * @harrynull made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/50 (1.1.16)
 >
 
-# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.2.2
+# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.3.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.3.4
 >## What's Changed
+> * add Slime boots and Slimesling recipes by @Quetz4l in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/725 (2.3.4)
+> * Remove duplicate cloaking device placeholder recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/726 (2.2.5)
+> * add Slime boots and Slimesling recipes by @Quetz4l in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/725 (2.2.4)
 > * Fix a recipe conflict by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/724 (2.2.2)
 > * More readable recipes. by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/704 (2.2.1)
 > * Remove recipes for BiblioCraft Fancy Workbench by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/723 (2.2.1)
@@ -255,11 +287,17 @@
 > * Add oredict to coremod obsidian long rod by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/720 (2.1.110)
 > * Fix EMT thaumium drill crafting by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/721 (2.1.110)
 >
+>## New Contributors
+> * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/725 (2.3.4)
+> * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/725 (2.2.4)
+>
 
-# Updated NotEnoughItems (2.3.83-GTNH@Side.BOTH --> 2.4.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.82-GTNH...2.4.2
+# Updated NotEnoughItems (2.3.83-GTNH@Side.BOTH --> 2.4.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.82-GTNH...2.4.2-GTNH
 >## What's Changed
+> * Holding ALT now increases bookmark stack increase in increments of output item's stack size by @querns in https://github.com/GTNewHorizons/NotEnoughItems/pull/418 (2.4.2-GTNH)
 > * Holding ALT now increases bookmark stack increase in increments of output item's stack size by @querns in https://github.com/GTNewHorizons/NotEnoughItems/pull/418 (2.4.2)
+> * Hide bookmarkItemPulling button if currently opened gui is not supported by @Nilau1998 in https://github.com/GTNewHorizons/NotEnoughItems/pull/419 (2.4.1-GTNH)
 > * Catch exception on drawSlotItem by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/273 (2.4.1)
 > * Presets: Open List Fatal & Slot Overlay  by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/276 (2.4.1)
 > * Create ShortcutInputHandler api class by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/277 (2.4.1)
@@ -345,6 +383,7 @@
 > * Fix world specific settings on MP being also specific to dimension by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/414 (2.3.83-GTNH)
 >
 >## New Contributors
+> * @querns made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/418 (2.4.2-GTNH)
 > * @querns made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/418 (2.4.2)
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/283 (2.4.1)
 > * @Quarri6343 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/291 (2.4.1)
@@ -381,14 +420,25 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/15 (1.4.0-GTNH)
 >
 
-# Updated OpenComputers (1.9.14-GTNH@Side.BOTH --> 1.9.15-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.13-GTNH...1.9.15-GTNH
+# Updated OpenComputers (1.9.14-GTNH@Side.BOTH --> 1.9.16-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.13-GTNH...1.9.16-pre
 >## What's Changed
 > * Disable incorrect glNormal calls which caused errors. by @mjevans in https://github.com/GTNewHorizons/OpenComputers/pull/107 (1.9.15-GTNH)
 > * Fix modifying fluid patterns with OC by @S4mpsa in https://github.com/GTNewHorizons/OpenComputers/pull/106 (1.9.14-GTNH)
 >
 >## New Contributors
 > * @mjevans made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/107 (1.9.15-GTNH)
+>
+
+# Updated OverloadedArmorBar (1.0.1@Side.CLIENT --> 1.0.2-pre@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/OverloadedArmorBar/compare/1.0.0...1.0.2-pre
+>## What's Changed
+> * maven by @bombcar in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/1 (1.0.1)
+> * Maven by @Dream-Master in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/2 (1.0.1)
+>
+>## New Contributors
+> * @bombcar made their first contribution in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/1 (1.0.1)
+> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/2 (1.0.1)
 >
 
 # Updated Railcraft (9.14.9@Side.BOTH --> 9.15.0@Side.BOTH)
@@ -441,8 +491,8 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/32 (2.7.1)
 >
 
-# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.3-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.3-GTNH
+# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.4-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.4-GTNH-pre
 >## What's Changed
 > * fix slime boots by @Quetz4l in https://github.com/GTNewHorizons/TinkersConstruct/pull/95 (1.10.3-GTNH)
 > * fix health bar shaking like crazy when the player has regeneration by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/96 (1.10.3-GTNH)
@@ -462,6 +512,17 @@
 >
 >## New Contributors
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/TinkersMechworks/pull/6 (0.2.17)
+>
+
+# Updated WAILAPlugins (0.2.8@Side.BOTH --> 0.3.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.2.6...0.3.0
+>## What's Changed
+> * Add production modifier to apiary hud, add magic apiary to forestry handler by @hacatu in https://github.com/GTNewHorizons/WAILAPlugins/pull/16 (0.3.0)
+> * Fix railcraft tank waila by @chochem in https://github.com/GTNewHorizons/WAILAPlugins/pull/15 (0.2.8)
+>
+>## New Contributors
+> * @hacatu made their first contribution in https://github.com/GTNewHorizons/WAILAPlugins/pull/16 (0.3.0)
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/WAILAPlugins/pull/15 (0.2.8)
 >
 
 # Updated ae2stuff (0.5.7-GTNH@Side.BOTH --> 0.6.0-GTNH@Side.BOTH)
@@ -495,10 +556,20 @@
 > * @lordIcocain made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/352 (0.7.40)
 >
 
-# Updated lwjgl3ify (1.4.2@Side.BOTH_JAVA9 --> 1.4.3@Side.BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.4.0...1.4.3
+# Updated lwjgl3ify (1.4.2@Side.BOTH_JAVA9 --> 1.4.4-pre@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.4.0...1.4.4-pre
 >## What's Changed
 > * Add missing OpenAL bindings to fix SoundPhysics by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/75 (1.4.3)
 > * Fix mouse delta inputs by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/70 (1.4.2)
+>
+
+# Updated twilightforest (2.4.5@Side.BOTH --> 2.5.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.4.4...2.5.0
+>## What's Changed
+> * Worldgen NPE fix attempt by @eigenraven in https://github.com/GTNewHorizons/twilightforest/pull/29 (2.5.0)
+> * Improve castle doors by @kumquat-ir in https://github.com/GTNewHorizons/twilightforest/pull/27 (2.4.5)
+>
+>## New Contributors
+> * @kumquat-ir made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/27 (2.4.5)
 >
 
