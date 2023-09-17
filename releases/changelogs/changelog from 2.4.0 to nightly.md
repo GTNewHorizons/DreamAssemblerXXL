@@ -1,7 +1,7 @@
 # New Mods:
 > * CodeChickenLib
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-250-GTNH@Side.BOTH --> rv3-beta-254-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-249-GTNH...rv3-beta-254-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-250-GTNH@Side.BOTH --> rv3-beta-255-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-249-GTNH...rv3-beta-255-GTNH-pre
 >## What's Changed
 > * Crafting Storage placement fix by @DrParadox7 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/387 (rv3-beta-254-GTNH)
 > * Fix crash without BuildCraft by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/385 (rv3-beta-253-GTNH)
@@ -543,9 +543,10 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/amunra/pull/28 (0.4.36)
 >
 
-# Updated bartworks (0.7.40@Side.BOTH --> 0.8.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.39...0.8.3
+# Updated bartworks (0.7.40@Side.BOTH --> 0.8.4-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.39...0.8.4-pre
 >## What's Changed
+> * Spotless apply for branch cleanup for #354 by @github-actions in https://github.com/GTNewHorizons/bartworks/pull/355 (0.8.4-pre)
 > * Also add info on Vat NEI fluid input by @miozune in https://github.com/GTNewHorizons/bartworks/pull/359 (0.8.3)
 > * Add info on Bacterial Vat NEI fluid output by @miozune in https://github.com/GTNewHorizons/bartworks/pull/358 (0.8.2)
 > * 2 small recipe fixes by @chochem in https://github.com/GTNewHorizons/bartworks/pull/357 (0.8.1)
