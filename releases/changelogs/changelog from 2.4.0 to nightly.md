@@ -200,8 +200,8 @@
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/99 (1.2.9-GTNH)
 >
 
-# Updated GigaGramFab (0.2.5@Side.BOTH --> 0.3.1-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.2.4...0.3.1-pre
+# Updated GigaGramFab (0.2.5@Side.BOTH --> 0.3.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.2.4...0.3.0
 >## What's Changed
 > * minor ui improvement for aal by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/14 (0.3.0)
 > * Fix data stick check behavior by @miozune in https://github.com/GTNewHorizons/GigaGramFab/pull/17 (0.2.5)
@@ -450,17 +450,6 @@
 > * @mjevans made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/107 (1.9.15-GTNH)
 >
 
-# Updated OverloadedArmorBar (1.0.1@Side.CLIENT --> 1.0.2-pre@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/OverloadedArmorBar/compare/1.0.0...1.0.2-pre
->## What's Changed
-> * maven by @bombcar in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/1 (1.0.1)
-> * Maven by @Dream-Master in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/2 (1.0.1)
->
->## New Contributors
-> * @bombcar made their first contribution in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/1 (1.0.1)
-> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/2 (1.0.1)
->
-
 # Updated Railcraft (9.14.9@Side.BOTH --> 9.15.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.14.8...9.15.0
 >## What's Changed
@@ -511,8 +500,8 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/32 (2.7.1)
 >
 
-# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.4-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.4-GTNH-pre
+# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.3-GTNH
 >## What's Changed
 > * fix slime boots by @Quetz4l in https://github.com/GTNewHorizons/TinkersConstruct/pull/95 (1.10.3-GTNH)
 > * fix health bar shaking like crazy when the player has regeneration by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/96 (1.10.3-GTNH)
@@ -579,8 +568,8 @@
 > * @lordIcocain made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/352 (0.7.40)
 >
 
-# Updated lwjgl3ify (1.4.2@Side.BOTH_JAVA9 --> 1.4.4-pre@Side.BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.4.0...1.4.4-pre
+# Updated lwjgl3ify (1.4.2@Side.BOTH_JAVA9 --> 1.4.3@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.4.0...1.4.3
 >## What's Changed
 > * Add missing OpenAL bindings to fix SoundPhysics by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/75 (1.4.3)
 > * Fix mouse delta inputs by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/70 (1.4.2)

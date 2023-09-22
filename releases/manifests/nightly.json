@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.0",
-  "last_updated": "2023-09-22T18:40:10.266535",
+  "last_updated": "2023-09-22T19:16:02.474828",
   "config": "2.4.1-nightly-2023-09-17",
   "github_mods": {
     "AdventureBackpack2": {
@@ -485,7 +485,7 @@
       "side": "BOTH"
     },
     "OverloadedArmorBar": {
-      "version": "1.0.2-pre",
+      "version": "1.0.1",
       "side": "CLIENT"
     },
     "PersonalSpace": {
@@ -641,7 +641,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.10.4-GTNH-pre",
+      "version": "1.10.3-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -733,7 +733,7 @@
       "side": "CLIENT"
     },
     "GigaGramFab": {
-      "version": "0.3.1-pre",
+      "version": "0.3.0",
       "side": "BOTH"
     },
     "NotEnoughIds": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.4.4-pre",
+      "version": "1.4.3",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
