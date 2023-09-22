@@ -1,8 +1,9 @@
 # New Mods:
 > * CodeChickenLib
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-250-GTNH@Side.BOTH --> rv3-beta-255-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-249-GTNH...rv3-beta-255-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-250-GTNH@Side.BOTH --> rv3-beta-256-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-249-GTNH...rv3-beta-256-GTNH
 >## What's Changed
+> * RF Attunement Expansion for P2Ps by @DrParadox7 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/389 (rv3-beta-256-GTNH)
 > * Crafting Storage placement fix by @DrParadox7 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/387 (rv3-beta-254-GTNH)
 > * Fix crash without BuildCraft by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/385 (rv3-beta-253-GTNH)
 > * Fix export bus ignoring inscriber slots by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/383 (rv3-beta-252-GTNH)
@@ -99,15 +100,22 @@
 > * Fix the display of IC2 electric jetpack and some RF items by @ghostflyby in https://github.com/GTNewHorizons/DuraDisplay/pull/8 (1.0.10)
 >
 
-# Updated EnderIO (2.4.24@Side.BOTH --> 2.4.25-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.23...2.4.25-pre
+# Updated EnderIO (2.4.24@Side.BOTH --> 2.5.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.23...2.5.0
 >## What's Changed
+> * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 > * fix travel upgrade items using wrong way to determine power stored by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/131 (2.4.24)
 >
 
-# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.16-pre-experimental@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.16-pre-experimental
+# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.22@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.22
 >## What's Changed
+> * fixes uninsulated cable not damaging players by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2300 (5.09.44.22)
+> * Cleanup noXXXYYY methods round 2 by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2302 (5.09.44.21)
+> * disable large turbine rotation or flip by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2290 (5.09.44.20)
+> * Cleanup GT_MetaTileEntity_BasicMachine by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2268 (5.09.44.19)
+> * obliterate RA1 by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2206 (5.09.44.19)
+> * Remove recipe modifying code for matching input and output stacks by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2296 (5.09.44.18)
 > * Fix missing null check by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2295 (5.09.44.14)
 > * Fix Cell-less recipe converter not always setting new arrays by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2294 (5.09.44.14)
 > * Add HoloInventory compat by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2292 (5.09.44.12)
@@ -139,6 +147,7 @@
 > * Fix GPL ignoring if the recipe is allowed to be cached by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2262 (5.09.43.192)
 >
 >## New Contributors
+> * @iamblackornot made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2300 (5.09.44.22)
 > * @hacatu made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2255 (5.09.44.07)
 > * @querns made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2245 (5.09.44.04)
 > * @Jonodonozym made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2278 (5.09.44.03)
@@ -154,9 +163,15 @@
 > * Remove duplicate recipe by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/63 (0.10.8)
 >
 
-# Updated GTplusplus (1.9.85@Side.BOTH --> 1.10.6@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.84...1.10.6
+# Updated GTplusplus (1.9.85@Side.BOTH --> 1.10.9@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.84...1.10.9
 >## What's Changed
+> * Add Alternative Recipe in LFTR Chain to Avoid Cells by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/754 (1.10.9)
+> * Some more RA2 conversions by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/752 (1.10.9)
+> * Multiblock chance bug fix by @Kyium in https://github.com/GTNewHorizons/GTplusplus/pull/748 (1.10.8)
+> * Seaweed QFT recipe by @GDCloudstrike in https://github.com/GTNewHorizons/GTplusplus/pull/751 (1.10.8)
+> * Change Alloy Blast Smelter recipes per page to 2 by @querns in https://github.com/GTNewHorizons/GTplusplus/pull/753 (1.10.8)
+> * Re-add force plasma recipe and astral titanium plasma by @BlueWeabo in https://github.com/GTNewHorizons/GTplusplus/pull/747 (1.10.7)
 > * Fix broken cloaking device AL recipe by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/746 (1.10.6)
 > * Tartarite Buff by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/745 (1.10.5)
 > * Less hacky way to limit alignments by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/741 (1.10.4)
@@ -204,9 +219,12 @@
 > * @Rika-TH made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/208 (0.7.0)
 >
 
-# Updated Hodgepodge (2.2.31@Side.BOTH --> 2.3.4-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.30...2.3.4-pre
+# Updated Hodgepodge (2.2.31@Side.BOTH --> 2.3.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.30...2.3.5
 >## What's Changed
+> * Compact chat by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/243 (2.3.5)
+> * check all key states when you close an inventory to press the keybinds by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/242 (2.3.5)
+> * Fix wrapped chat lines missing colors by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/246 (2.3.5)
 > * Remove the blueish sky tint from night vision by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/244 (2.3.3)
 > * forgot remap = false in MixinGuiContainerCreative by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/245 (2.3.3)
 > * Fix having xray vision when looking in F5 through quicksand blocks by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/240 (2.3.2)
@@ -273,9 +291,11 @@
 > * @harrynull made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/50 (1.1.16)
 >
 
-# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.2.5
+# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.7@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.2.7
 >## What's Changed
+> * Add feature to change the icon and title of the minecraft window to GTNH logo and name by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/728 (2.2.7)
+> * Fix draconic chestplate recipe inconsistency by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/727 (2.2.6)
 > * Remove duplicate cloaking device placeholder recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/726 (2.2.5)
 > * add Slime boots and Slimesling recipes by @Quetz4l in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/725 (2.2.4)
 > * Fix a recipe conflict by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/724 (2.2.2)
@@ -418,13 +438,15 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/15 (1.4.0-GTNH)
 >
 
-# Updated OpenComputers (1.9.14-GTNH@Side.BOTH --> 1.9.16-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.13-GTNH...1.9.16-GTNH-pre
+# Updated OpenComputers (1.9.14-GTNH@Side.BOTH --> 1.9.17-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.13-GTNH...1.9.17-GTNH
 >## What's Changed
+> * added setActive for IC2-OC driver, so that the reactor switch can be … by @koiNoCirculation in https://github.com/GTNewHorizons/OpenComputers/pull/108 (1.9.17-GTNH)
 > * Disable incorrect glNormal calls which caused errors. by @mjevans in https://github.com/GTNewHorizons/OpenComputers/pull/107 (1.9.15-GTNH)
 > * Fix modifying fluid patterns with OC by @S4mpsa in https://github.com/GTNewHorizons/OpenComputers/pull/106 (1.9.14-GTNH)
 >
 >## New Contributors
+> * @koiNoCirculation made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/108 (1.9.17-GTNH)
 > * @mjevans made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/107 (1.9.15-GTNH)
 >
 
@@ -541,9 +563,11 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/amunra/pull/28 (0.4.36)
 >
 
-# Updated bartworks (0.7.40@Side.BOTH --> 0.8.4-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.39...0.8.4-pre
+# Updated bartworks (0.7.40@Side.BOTH --> 0.8.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.39...0.8.5
 >## What's Changed
+> * Cleanup basic machines & some deprecations by @miozune in https://github.com/GTNewHorizons/bartworks/pull/360 (0.8.5)
+> * Cleanup noXXXYYY methods by @miozune in https://github.com/GTNewHorizons/bartworks/pull/361 (0.8.5)
 > * Spotless apply for branch cleanup for #354 by @github-actions in https://github.com/GTNewHorizons/bartworks/pull/355 (0.8.4-pre)
 > * Also add info on Vat NEI fluid input by @miozune in https://github.com/GTNewHorizons/bartworks/pull/359 (0.8.3)
 > * Add info on Bacterial Vat NEI fluid output by @miozune in https://github.com/GTNewHorizons/bartworks/pull/358 (0.8.2)
