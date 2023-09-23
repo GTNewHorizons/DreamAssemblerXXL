@@ -412,7 +412,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [OpenPrinter](https://github.com/GTNewHorizons/OpenPrinter) | 0.1.3-GTNH |
 | [OpenSecurity](https://github.com/GTNewHorizons/OpenSecurity) | 1.0.120-GTNH |
 | [Opis](https://github.com/GTNewHorizons/Opis) | 1.3.8-mapless |
-| [OverloadedArmorBar](https://github.com/GTNewHorizons/OverloadedArmorBar) | 1.0.2-pre |
+| [OverloadedArmorBar](https://github.com/GTNewHorizons/OverloadedArmorBar) | 1.0.1 |
 | [p455w0rd's Library](https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library) | 1.0.4 |
 | [Pam's Harvest the Nether](https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether) | 1.7.10a |
 | [PersonalSpace](https://github.com/GTNewHorizons/PersonalSpace) | 1.0.26 |
@@ -462,7 +462,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [TiC-Tooltips](https://github.com/GTNewHorizons/TiC-Tooltips) | 1.2.11 |
 | [Tinkers' Defense](https://www.curseforge.com/minecraft/mc-mods/compendium) | 1.2.1d |
 | [Tinkers-Gregworks](https://github.com/Vexatos/TinkersGregworks/tree/GT-NH) | 1.0.24 |
-| [TinkersConstruct](https://github.com/GTNewHorizons/TinkersConstruct) | 1.10.4-GTNH-pre |
+| [TinkersConstruct](https://github.com/GTNewHorizons/TinkersConstruct) | 1.10.3-GTNH |
 | [TinkersMechworks](https://github.com/GTNewHorizons/TinkersMechworks) | 0.2.17 |
 | [TooMuchLoot](https://github.com/GTNewHorizons/TooMuchLoot) | 4.1.0-GTNH |
 | [ToroHealth](https://github.com/GTNewHorizons/ToroHealth) | 1.0.1 |

@@ -491,17 +491,6 @@
 > * @mjevans made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/107 (1.9.15-GTNH)
 >
 
-# Updated OverloadedArmorBar (1.0.1@Side.CLIENT --> 1.0.2-pre@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/OverloadedArmorBar/compare/1.0.0...1.0.2-pre
->## What's Changed
-> * maven by @bombcar in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/1 (1.0.1)
-> * Maven by @Dream-Master in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/2 (1.0.1)
->
->## New Contributors
-> * @bombcar made their first contribution in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/1 (1.0.1)
-> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/2 (1.0.1)
->
-
 # Updated Railcraft (9.14.9@Side.BOTH --> 9.15.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.14.8...9.15.0
 >## What's Changed
@@ -562,8 +551,8 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/32 (2.7.1)
 >
 
-# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.4-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.4-GTNH-pre
+# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.3-GTNH
 >## What's Changed
 > * fix slime boots by @Quetz4l in https://github.com/GTNewHorizons/TinkersConstruct/pull/95 (1.10.3-GTNH)
 > * fix health bar shaking like crazy when the player has regeneration by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/96 (1.10.3-GTNH)
