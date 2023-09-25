@@ -2,9 +2,12 @@
 > * CodeChickenLib
 # Mods Removed:
 > * itlt
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-250-GTNH@Side.BOTH --> rv3-beta-256-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-249-GTNH...rv3-beta-256-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-250-GTNH@Side.BOTH --> rv3-beta-258-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-249-GTNH...rv3-beta-258-GTNH
 >## What's Changed
+> * Add API to get power state text by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/391 (rv3-beta-258-GTNH)
+> * NEI Bookmark Pulling for AE2 by @Nilau1998 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/372 (rv3-beta-258-GTNH)
+> * Fix wildcard import by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/392 (rv3-beta-257-GTNH)
 > * RF Attunement Expansion for P2Ps by @DrParadox7 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/389 (rv3-beta-256-GTNH)
 > * Crafting Storage placement fix by @DrParadox7 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/387 (rv3-beta-254-GTNH)
 > * Fix crash without BuildCraft by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/385 (rv3-beta-253-GTNH)
@@ -13,6 +16,7 @@
 > * Fix some GUIs not accepting numpad enter key by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/380 (rv3-beta-250-GTNH)
 >
 >## New Contributors
+> * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/372 (rv3-beta-258-GTNH)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/374 (rv3-beta-251-GTNH)
 >
 
@@ -110,9 +114,10 @@
 > * fix travel upgrade items using wrong way to determine power stored by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/131 (2.4.24)
 >
 
-# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.24@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.24
+# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.25@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.25
 >## What's Changed
+> * Update buildscript by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2305 (5.09.44.25)
 > * ME hatch`s additional connection mode and small fixes by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2291 (5.09.44.24)
 > * Deprecate GT_MetaTileEntity_MultiBlockBase#isValidMetaTileEntity by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2267 (5.09.44.23)
 > * fixes uninsulated cable not damaging players by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2300 (5.09.44.22)
@@ -180,9 +185,10 @@
 > * Remove duplicate recipe by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/63 (0.10.8)
 >
 
-# Updated GTplusplus (1.9.85@Side.BOTH --> 1.10.10@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.84...1.10.10
+# Updated GTplusplus (1.9.85@Side.BOTH --> 1.10.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.84...1.10.11
 >## What's Changed
+> * Fix incorrect extruder recipe voltages for GT++ materials. by @fluffle in https://github.com/GTNewHorizons/GTplusplus/pull/750 (1.10.11)
 > * Cleanup basic machines by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/755 (1.10.10)
 > * Add Alternative Recipe in LFTR Chain to Avoid Cells by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/754 (1.10.9)
 > * Some more RA2 conversions by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/752 (1.10.9)
@@ -226,9 +232,10 @@
 > * Fix data stick check behavior by @miozune in https://github.com/GTNewHorizons/GigaGramFab/pull/17 (0.2.5)
 >
 
-# Updated GoodGenerator (0.6.41@Side.BOTH --> 0.7.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.40...0.7.2
+# Updated GoodGenerator (0.6.41@Side.BOTH --> 0.7.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.40...0.7.3
 >## What's Changed
+> * Add more solidifier recipies for metastable oganesson by @Lyfts in https://github.com/GTNewHorizons/GoodGenerator/pull/212 (0.7.3)
 > * format the eu/t number in the scanner data of the Naquadah reactor multi by @Alexdoru in https://github.com/GTNewHorizons/GoodGenerator/pull/210 (0.7.2)
 > * Cleanup noXXXYYY methods by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/211 (0.7.2)
 > * Fix Large Naq Reactor tooltip error by @serenibyss in https://github.com/GTNewHorizons/GoodGenerator/pull/209 (0.7.1)
@@ -241,9 +248,11 @@
 > * @Rika-TH made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/208 (0.7.0)
 >
 
-# Updated Hodgepodge (2.2.31@Side.BOTH --> 2.3.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.30...2.3.5
+# Updated Hodgepodge (2.2.31@Side.BOTH --> 2.3.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.30...2.3.6
 >## What's Changed
+> * Don't invert crosshair colors by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/250 (2.3.6)
+> * Fix compact chat crash by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/253 (2.3.6)
 > * Compact chat by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/243 (2.3.5)
 > * check all key states when you close an inventory to press the keybinds by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/242 (2.3.5)
 > * Fix wrapped chat lines missing colors by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/246 (2.3.5)
@@ -329,9 +338,10 @@
 > * @harrynull made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/50 (1.1.16)
 >
 
-# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.9@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.2.9
+# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.10@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.2.10
 >## What's Changed
+> * Buff Essentia mirror to maintain consistency with the lore by @Alastors in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/733 (2.2.10)
 > * small deprecation cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/732 (2.2.9)
 > * Cleanup noXXXYYY methods by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/730 (2.2.8)
 > * Cleanup basic machine constructors by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/731 (2.2.8)
@@ -351,9 +361,10 @@
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/725 (2.2.4)
 >
 
-# Updated NotEnoughItems (2.3.83-GTNH@Side.BOTH --> 2.4.2-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.82-GTNH...2.4.2-GTNH
+# Updated NotEnoughItems (2.3.83-GTNH@Side.BOTH --> 2.4.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.3.82-GTNH...2.4.3-GTNH
 >## What's Changed
+> * Scroll on ItemQuantityField by @ghostflyby in https://github.com/GTNewHorizons/NotEnoughItems/pull/421 (2.4.3-GTNH)
 > * Holding ALT now increases bookmark stack increase in increments of output item's stack size by @querns in https://github.com/GTNewHorizons/NotEnoughItems/pull/418 (2.4.2-GTNH)
 > * Holding ALT now increases bookmark stack increase in increments of output item's stack size by @querns in https://github.com/GTNewHorizons/NotEnoughItems/pull/418 (2.4.2)
 > * Hide bookmarkItemPulling button if currently opened gui is not supported by @Nilau1998 in https://github.com/GTNewHorizons/NotEnoughItems/pull/419 (2.4.1-GTNH)
@@ -442,6 +453,7 @@
 > * Fix world specific settings on MP being also specific to dimension by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/414 (2.3.83-GTNH)
 >
 >## New Contributors
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/421 (2.4.3-GTNH)
 > * @querns made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/418 (2.4.2-GTNH)
 > * @querns made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/418 (2.4.2)
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/283 (2.4.1)
@@ -489,6 +501,19 @@
 >## New Contributors
 > * @koiNoCirculation made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/108 (1.9.17-GTNH)
 > * @mjevans made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/107 (1.9.15-GTNH)
+>
+
+# Updated OverloadedArmorBar (1.0.1@Side.CLIENT --> 1.0.3@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/OverloadedArmorBar/compare/1.0.0...1.0.3
+>## What's Changed
+> * Basically rewrite the whole mod by @Alexdoru in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/3 (1.0.3)
+> * maven by @bombcar in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/1 (1.0.1)
+> * Maven by @Dream-Master in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/2 (1.0.1)
+>
+>## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/3 (1.0.3)
+> * @bombcar made their first contribution in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/1 (1.0.1)
+> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/2 (1.0.1)
 >
 
 # Updated Railcraft (9.14.9@Side.BOTH --> 9.15.0@Side.BOTH)
@@ -551,9 +576,10 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/32 (2.7.1)
 >
 
-# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.3-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.3-GTNH
+# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.5-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.5-GTNH
 >## What's Changed
+> * Fix health bar renderer by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/97 (1.10.5-GTNH)
 > * fix slime boots by @Quetz4l in https://github.com/GTNewHorizons/TinkersConstruct/pull/95 (1.10.3-GTNH)
 > * fix health bar shaking like crazy when the player has regeneration by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/96 (1.10.3-GTNH)
 > * slimeBoots and slimeSling by @Quetz4l in https://github.com/GTNewHorizons/TinkersConstruct/pull/93 (1.10.2-GTNH)
@@ -631,9 +657,10 @@
 > * @lordIcocain made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/352 (0.7.40)
 >
 
-# Updated lwjgl3ify (1.4.2@Side.BOTH_JAVA9 --> 1.5.0@Side.BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.4.0...1.5.0
+# Updated lwjgl3ify (1.4.2@Side.BOTH_JAVA9 --> 1.5.1@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.4.0...1.5.1
 >## What's Changed
+> * Fix Display.isCloseRequested not resetting the flag upon call like in lwjgl2 by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/83 (1.5.1)
 > * Installation simplification and ASM upgrade by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/82 (1.5.0)
 > * Update to mojang's lwjgl 3.3.2 distribution to match vanilla 1.20.2 by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/81 (1.4.5)
 > * Fix macOS cmd + <key> not sending <key> pressed by @ghostflyby in https://github.com/GTNewHorizons/lwjgl3ify/pull/79 (1.4.4)

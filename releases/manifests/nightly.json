@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.0",
-  "last_updated": "2023-09-23T19:33:07.463398",
+  "last_updated": "2023-09-25T16:52:11.501705",
   "config": "2.4.1-nightly-2023-09-23",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-256-GTNH",
+      "version": "rv3-beta-258-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.7.2",
+      "version": "0.7.3",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.24",
+      "version": "5.09.44.25",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.10.10",
+      "version": "1.10.11",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.3.5",
+      "version": "2.3.6",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.2.9",
+      "version": "2.2.10",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -445,7 +445,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.4.2-GTNH",
+      "version": "2.4.3-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -485,7 +485,7 @@
       "side": "BOTH"
     },
     "OverloadedArmorBar": {
-      "version": "1.0.1",
+      "version": "1.0.3",
       "side": "CLIENT"
     },
     "PersonalSpace": {
@@ -641,7 +641,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.10.3-GTNH",
+      "version": "1.10.5-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
