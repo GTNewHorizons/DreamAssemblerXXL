@@ -338,8 +338,8 @@
 > * @harrynull made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/50 (1.1.16)
 >
 
-# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.10@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.2.10
+# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.2.11
 >## What's Changed
 > * Buff Essentia mirror to maintain consistency with the lore by @Alastors in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/733 (2.2.10)
 > * small deprecation cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/732 (2.2.9)
