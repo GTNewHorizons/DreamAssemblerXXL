@@ -2,9 +2,17 @@
 > * CodeChickenLib
 # Mods Removed:
 > * itlt
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-250-GTNH@Side.BOTH --> rv3-beta-258-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-249-GTNH...rv3-beta-258-GTNH
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.43-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.43-gtnh
 >## What's Changed
+> * Fix GUIs not accepting numpad enter key by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/159 (1.1.43-gtnh)
+> * Fix Wireless Pattern Terminal not saving stack size change to blank pattern slot by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/158 (1.1.42-gtnh)
+>
+
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-250-GTNH@Side.BOTH --> rv3-beta-259-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-249-GTNH...rv3-beta-259-GTNH
+>## What's Changed
+> * Fix fake slot transfer by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/393 (rv3-beta-259-GTNH)
 > * Add API to get power state text by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/391 (rv3-beta-258-GTNH)
 > * NEI Bookmark Pulling for AE2 by @Nilau1998 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/372 (rv3-beta-258-GTNH)
 > * Fix wildcard import by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/392 (rv3-beta-257-GTNH)
@@ -114,9 +122,14 @@
 > * fix travel upgrade items using wrong way to determine power stored by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/131 (2.4.24)
 >
 
-# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.25@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.25
+# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.28@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.28
 >## What's Changed
+> * Allow Nano Forge to be rotated by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2313 (5.09.44.28)
+> * Add missing residue in quantum anomaly dtpf recipe by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2315 (5.09.44.28)
+> * Add Very heavy oil recipe to distillation tower by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2308 (5.09.44.28)
+> * Fix DTPF discount increasing too quickly by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2311 (5.09.44.27)
+> * Fix existing ME hatches are set infinite cache to false by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2312 (5.09.44.26)
 > * Update buildscript by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2305 (5.09.44.25)
 > * ME hatch`s additional connection mode and small fixes by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2291 (5.09.44.24)
 > * Deprecate GT_MetaTileEntity_MultiBlockBase#isValidMetaTileEntity by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2267 (5.09.44.23)
@@ -248,9 +261,10 @@
 > * @Rika-TH made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/208 (0.7.0)
 >
 
-# Updated Hodgepodge (2.2.31@Side.BOTH --> 2.3.6@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.30...2.3.6
+# Updated Hodgepodge (2.2.31@Side.BOTH --> 2.3.7@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.30...2.3.7
 >## What's Changed
+> * Refactor mixin package by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/255 (2.3.7)
 > * Don't invert crosshair colors by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/250 (2.3.6)
 > * Fix compact chat crash by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/253 (2.3.6)
 > * Compact chat by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/243 (2.3.5)
@@ -600,6 +614,17 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/TinkersMechworks/pull/6 (0.2.17)
 >
 
+# Updated ToroHealth (1.0.1@Side.CLIENT --> 1.0.2@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/ToroHealth/compare/1.0.0...1.0.2
+>## What's Changed
+> * Rewrite the mod by @Alexdoru in https://github.com/GTNewHorizons/ToroHealth/pull/2 (1.0.2)
+> * Maven by @bombcar in https://github.com/GTNewHorizons/ToroHealth/pull/1 (1.0.1)
+>
+>## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ToroHealth/pull/2 (1.0.2)
+> * @bombcar made their first contribution in https://github.com/GTNewHorizons/ToroHealth/pull/1 (1.0.1)
+>
+
 # Updated VisualProspecting (1.1.13@Side.BOTH --> 1.2.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.1.12...1.2.0
 >## What's Changed
@@ -621,6 +646,12 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/WAILAPlugins/pull/15 (0.2.8)
 >
 
+# Updated WirelessCraftingTerminal (1.9.4@Side.BOTH --> 1.10.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.9.3...1.10.0
+>## What's Changed
+> * Fix lang key for keybind by @miozune in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/30 (1.9.4)
+>
+
 # Updated ae2stuff (0.5.7-GTNH@Side.BOTH --> 0.6.0-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ae2stuff/compare/0.5.6-GTNH...0.6.0-GTNH
 >## What's Changed
@@ -639,9 +670,10 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/amunra/pull/28 (0.4.36)
 >
 
-# Updated bartworks (0.7.40@Side.BOTH --> 0.8.6@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.39...0.8.6
+# Updated bartworks (0.7.40@Side.BOTH --> 0.8.7@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.7.39...0.8.7
 >## What's Changed
+> * [Hotfix] Fix packet crash with Vat renderer by @miozune in https://github.com/GTNewHorizons/bartworks/pull/363 (0.8.7)
 > * Cleanup by @glowredman in https://github.com/GTNewHorizons/bartworks/pull/354 (0.8.6)
 > * Fix plasmid recipe by @chochem in https://github.com/GTNewHorizons/bartworks/pull/362 (0.8.6)
 > * Cleanup basic machines & some deprecations by @miozune in https://github.com/GTNewHorizons/bartworks/pull/360 (0.8.5)
