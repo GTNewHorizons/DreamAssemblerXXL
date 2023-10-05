@@ -9,8 +9,8 @@
 > * Fix Wireless Pattern Terminal not saving stack size change to blank pattern slot by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/158 (1.1.42-gtnh)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-250-GTNH@Side.BOTH --> rv3-beta-259-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-249-GTNH...rv3-beta-259-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-250-GTNH@Side.BOTH --> rv3-beta-260-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-249-GTNH...rv3-beta-260-GTNH
 >## What's Changed
 > * Fix fake slot transfer by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/393 (rv3-beta-259-GTNH)
 > * Add API to get power state text by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/391 (rv3-beta-258-GTNH)
@@ -96,6 +96,20 @@
 > * @MuXiu1997 made their first contribution in https://github.com/GTNewHorizons/CodeChickenLib/pull/5 (1.1.5.4)
 >
 
+# Updated Controlling (1.0.0.5@Side.CLIENT --> 2.0.1@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/Controlling/compare/1.0.0.4...2.0.1
+>## What's Changed
+> * Rewrite the mod [Don't squash] by @Alexdoru in https://github.com/GTNewHorizons/Controlling/pull/5 (2.0.0.0)
+> * Spotless apply for branch network for #1 by @github-actions in https://github.com/GTNewHorizons/Controlling/pull/2 (1.0.0.5)
+> * delete http request whose result isn't used by @Alexdoru in https://github.com/GTNewHorizons/Controlling/pull/1 (1.0.0.5)
+> * Spotless apply for branch button_default_layout for #3 by @github-actions in https://github.com/GTNewHorizons/Controlling/pull/4 (1.0.0.5)
+> * AZERY  QWERTY default layout button by @Alexdoru in https://github.com/GTNewHorizons/Controlling/pull/3 (1.0.0.5)
+>
+>## New Contributors
+> * @github-actions made their first contribution in https://github.com/GTNewHorizons/Controlling/pull/2 (1.0.0.5)
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Controlling/pull/1 (1.0.0.5)
+>
+
 # Updated Crops-plus-plus (1.4.1@Side.BOTH --> 1.5.1@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.4.0...1.5.1
 >## What's Changed
@@ -115,16 +129,22 @@
 > * Fix the display of IC2 electric jetpack and some RF items by @ghostflyby in https://github.com/GTNewHorizons/DuraDisplay/pull/8 (1.0.10)
 >
 
-# Updated EnderIO (2.4.24@Side.BOTH --> 2.5.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.23...2.5.0
+# Updated EnderIO (2.4.24@Side.BOTH --> 2.5.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.23...2.5.2
 >## What's Changed
+> * Change default connection mode of fluid conduits by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/134 (2.5.1)
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 > * fix travel upgrade items using wrong way to determine power stored by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/131 (2.4.24)
 >
 
-# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.28@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.28
+# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.30@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.30
 >## What's Changed
+> * add tooltips to advanced wireless covers by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2318 (5.09.44.30)
+> * Adds proper client/server sync for metrics cover, improves oil drill metrics output by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2319 (5.09.44.30)
+> * fix assline util not loading 16th item input from the stick by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2323 (5.09.44.30)
+> * Code cleanup by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2309 (5.09.44.30)
+> * Fix non-cell recipes not being generated for Vacuum Freezer by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2317 (5.09.44.29)
 > * Allow Nano Forge to be rotated by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2313 (5.09.44.28)
 > * Add missing residue in quantum anomaly dtpf recipe by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2315 (5.09.44.28)
 > * Add Very heavy oil recipe to distillation tower by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2308 (5.09.44.28)
@@ -179,9 +199,10 @@
 > * @Kyium made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2265 (5.09.44.0)
 >
 
-# Updated GTNH-Intergalactic (1.1.28@Side.BOTH --> 1.2.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.27...1.2.0
+# Updated GTNH-Intergalactic (1.1.28@Side.BOTH --> 1.2.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.27...1.2.1
 >## What's Changed
+> * Prevent maintenance issues from occuring in SE + modules by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/50 (1.2.1)
 > * Cleanup noXXXYYY methods by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/49 (1.2.0)
 > * SE Miner: Bounds checks and off-by-one range fix for cycle mode. by @fluffle in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/48 (1.1.28)
 >
@@ -189,18 +210,27 @@
 > * @fluffle made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/48 (1.1.28)
 >
 
-# Updated GTNH-Lanthanides (0.10.8@Side.BOTH --> 0.11.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.10.7...0.11.1
+# Updated GTNH-Lanthanides (0.10.8@Side.BOTH --> 0.11.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.10.7...0.11.2
 >## What's Changed
+> * Make Lanth Line Better (mainly Samarium) by @Nxer in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/68 (0.11.2)
+> * Revert "Make Lanth Line Better (mainly Samarium)" by @boubou19 in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
+> * redo "Make Lanth Line Better (mainly Samarium)" by @Nxer in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/70 (0.11.2)
 > * Cleanup noXXXYYY methods by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/67 (0.11.1)
 > * Spotless apply for branch delete-unused-stuff for #64 by @github-actions in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/65 (0.11.0)
 > * Delete unused stuff by @Pxx500 in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/64 (0.11.0)
 > * Remove duplicate recipe by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/63 (0.10.8)
 >
+>## New Contributors
+> * @Nxer made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/68 (0.11.2)
+> * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
+>
 
-# Updated GTplusplus (1.9.85@Side.BOTH --> 1.10.11@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.84...1.10.11
+# Updated GTplusplus (1.9.85@Side.BOTH --> 1.10.13@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.9.84...1.10.13
 >## What's Changed
+> * improve maceration stack upgrade process  by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/757 (1.10.13)
+> * Addition for disabling harvest on crop manager by @YeahImRose in https://github.com/GTNewHorizons/GTplusplus/pull/756 (1.10.12)
 > * Fix incorrect extruder recipe voltages for GT++ materials. by @fluffle in https://github.com/GTNewHorizons/GTplusplus/pull/750 (1.10.11)
 > * Cleanup basic machines by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/755 (1.10.10)
 > * Add Alternative Recipe in LFTR Chain to Avoid Cells by @Steelux8 in https://github.com/GTNewHorizons/GTplusplus/pull/754 (1.10.9)
@@ -223,6 +253,7 @@
 > * Add survival autobuild to Elemental Duplicator by @Lyfts in https://github.com/GTNewHorizons/GTplusplus/pull/731 (1.9.85)
 >
 >## New Contributors
+> * @YeahImRose made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/756 (1.10.12)
 > * @Kyium made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/736 (1.10.4)
 >
 
@@ -245,9 +276,10 @@
 > * Fix data stick check behavior by @miozune in https://github.com/GTNewHorizons/GigaGramFab/pull/17 (0.2.5)
 >
 
-# Updated GoodGenerator (0.6.41@Side.BOTH --> 0.7.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.40...0.7.3
+# Updated GoodGenerator (0.6.41@Side.BOTH --> 0.7.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.6.40...0.7.4
 >## What's Changed
+> * Fluid cell tooltip change by @Alexdoru in https://github.com/GTNewHorizons/GoodGenerator/pull/213 (0.7.4)
 > * Add more solidifier recipies for metastable oganesson by @Lyfts in https://github.com/GTNewHorizons/GoodGenerator/pull/212 (0.7.3)
 > * format the eu/t number in the scanner data of the Naquadah reactor multi by @Alexdoru in https://github.com/GTNewHorizons/GoodGenerator/pull/210 (0.7.2)
 > * Cleanup noXXXYYY methods by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/211 (0.7.2)
@@ -261,9 +293,10 @@
 > * @Rika-TH made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/208 (0.7.0)
 >
 
-# Updated Hodgepodge (2.2.31@Side.BOTH --> 2.3.7@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.30...2.3.7
+# Updated Hodgepodge (2.2.31@Side.BOTH --> 2.3.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.2.30...2.3.8
 >## What's Changed
+> * Add config for fixNetHandlerLoginServerOfflineMode by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/258 (2.3.8)
 > * Refactor mixin package by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/255 (2.3.7)
 > * Don't invert crosshair colors by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/250 (2.3.6)
 > * Fix compact chat crash by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/253 (2.3.6)
@@ -341,20 +374,26 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/61 (2.0.2)
 >
 
-# Updated ModularUI (1.1.16@Side.BOTH --> 1.1.18@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.15...1.1.18
+# Updated Mobs-Info (0.1.6-GTNH@Side.BOTH --> 0.1.8-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.5-GTNH...0.1.8-GTNH
+
+# Updated ModularUI (1.1.16@Side.BOTH --> 1.1.20@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.15...1.1.20
 >## What's Changed
+> * fix fluid lighting by @firenoo in https://github.com/GTNewHorizons/ModularUI/pull/53 (1.1.19)
 > * Fix ItemStackHandler not saving stack size as int by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/52 (1.1.18)
 > * Catch checked exceptions by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/51 (1.1.17)
 > * Allow overriding getItemStackForRendering by @harrynull in https://github.com/GTNewHorizons/ModularUI/pull/50 (1.1.16)
 >
 >## New Contributors
+> * @firenoo made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/53 (1.1.19)
 > * @harrynull made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/50 (1.1.16)
 >
 
-# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.11@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.2.11
+# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.12@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.2.12
 >## What's Changed
+> * Fix and cleanup machine chassis recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/734 (2.2.12)
 > * Buff Essentia mirror to maintain consistency with the lore by @Alastors in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/733 (2.2.10)
 > * small deprecation cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/732 (2.2.9)
 > * Cleanup noXXXYYY methods by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/730 (2.2.8)
@@ -568,9 +607,10 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/7 (1.5.5)
 >
 
-# Updated TecTech (5.2.40@Side.BOTH --> 5.3.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.39...5.3.3
+# Updated TecTech (5.2.40@Side.BOTH --> 5.3.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.39...5.3.4
 >## What's Changed
+> * fix EoH crash on restart by @Glease in https://github.com/GTNewHorizons/TecTech/pull/244 (5.3.4)
 > * Fix missing item crash by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/242 (5.3.3)
 > * Allow the use of higher tier SCs in mainframe recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/241 (5.3.1)
 > * Cleanup dependencies by @miozune in https://github.com/GTNewHorizons/TecTech/pull/240 (5.3.0)

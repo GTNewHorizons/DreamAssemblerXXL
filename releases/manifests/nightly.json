@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.4.0",
-  "last_updated": "2023-09-27T20:47:53.911921",
-  "config": "2.4.2-nightly-2023-09-27",
+  "last_updated": "2023-10-05T20:54:53.332191",
+  "config": "2.4.2-nightly-2023-10-05",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.14-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-259-GTNH",
+      "version": "rv3-beta-260-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.5.0",
+      "version": "2.5.2",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.7.3",
+      "version": "0.7.4",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.28",
+      "version": "5.09.44.30",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.11.1",
+      "version": "0.11.2",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.10.11",
+      "version": "1.10.13",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.3.7",
+      "version": "2.3.8",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.2.11",
+      "version": "2.2.12",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.3.3",
+      "version": "5.3.4",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.1.18",
+      "version": "1.1.20",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "Controlling": {
-      "version": "1.0.0.5",
+      "version": "2.0.1",
       "side": "CLIENT"
     },
     "BuildCraftOilTweak": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "side": "BOTH"
     },
     "amunra": {
@@ -817,7 +817,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.1.6-GTNH",
+      "version": "0.1.8-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
