@@ -122,9 +122,11 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/52 (1.4.1)
 >
 
-# Updated DuraDisplay (1.0.10@Side.CLIENT --> 1.1.2@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.0.9...1.1.2
+# Updated DuraDisplay (1.0.10@Side.CLIENT --> 1.1.3@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.0.9...1.1.3
 >## What's Changed
+> * Fix creative tab item headers having durability text by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/10 (1.1.3)
+> * Remove wildcard imports by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/11 (1.1.3)
 > * Refactor for more features by @ghostflyby in https://github.com/GTNewHorizons/DuraDisplay/pull/9 (1.1.0)
 > * Fix the display of IC2 electric jetpack and some RF items by @ghostflyby in https://github.com/GTNewHorizons/DuraDisplay/pull/8 (1.0.10)
 >
@@ -137,8 +139,8 @@
 > * fix travel upgrade items using wrong way to determine power stored by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/131 (2.4.24)
 >
 
-# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.30@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.30
+# Updated GT5-Unofficial (5.09.43.192@Side.BOTH --> 5.09.44.31@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.43.191...5.09.44.31
 >## What's Changed
 > * add tooltips to advanced wireless covers by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2318 (5.09.44.30)
 > * Adds proper client/server sync for metrics cover, improves oil drill metrics output by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2319 (5.09.44.30)
@@ -390,9 +392,10 @@
 > * @harrynull made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/50 (1.1.16)
 >
 
-# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.12@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.2.12
+# Updated NewHorizonsCoreMod (2.1.110@Side.BOTH --> 2.2.13@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.1.109...2.2.13
 >## What's Changed
+> * Delete src/replaces.txt by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/736 (2.2.13)
 > * Fix and cleanup machine chassis recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/734 (2.2.12)
 > * Buff Essentia mirror to maintain consistency with the lore by @Alastors in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/733 (2.2.10)
 > * small deprecation cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/732 (2.2.9)
@@ -607,9 +610,10 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/7 (1.5.5)
 >
 
-# Updated TecTech (5.2.40@Side.BOTH --> 5.3.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.39...5.3.4
+# Updated TecTech (5.2.40@Side.BOTH --> 5.3.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.2.39...5.3.5
 >## What's Changed
+> * Cleanup isValidMetaTileEntity and some more by @miozune in https://github.com/GTNewHorizons/TecTech/pull/245 (5.3.5)
 > * fix EoH crash on restart by @Glease in https://github.com/GTNewHorizons/TecTech/pull/244 (5.3.4)
 > * Fix missing item crash by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/242 (5.3.3)
 > * Allow the use of higher tier SCs in mainframe recipes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/241 (5.3.1)
