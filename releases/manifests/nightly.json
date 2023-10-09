@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.0",
-  "last_updated": "2023-10-05T21:18:38.478257",
+  "last_updated": "2023-10-09T21:26:23.408590",
   "config": "2.4.2-nightly-2023-10-05",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.43-gtnh",
+      "version": "1.1.45-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-260-GTNH",
+      "version": "rv3-beta-261-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,11 +49,11 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.8.7",
+      "version": "0.8.8",
       "side": "BOTH"
     },
     "Battlegear2": {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "side": "BOTH"
     },
     "Baubles": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.4.0-GTNH",
+      "version": "3.4.1-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -101,7 +101,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.10.0-GTNH",
+      "version": "1.10.1-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -189,7 +189,7 @@
       "side": "BOTH"
     },
     "EnderCore": {
-      "version": "0.2.17",
+      "version": "0.2.18",
       "side": "BOTH"
     },
     "EnderIO": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.31",
+      "version": "5.09.44.35",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.10.13",
+      "version": "1.10.14",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.3.8",
+      "version": "2.3.9",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -329,7 +329,7 @@
       "side": "CLIENT"
     },
     "ironchest": {
-      "version": "6.0.72",
+      "version": "6.0.73",
       "side": "BOTH"
     },
     "IronChestMinecarts": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.2.13",
+      "version": "2.2.14",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -633,7 +633,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.8.2",
+      "version": "2.8.4",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
