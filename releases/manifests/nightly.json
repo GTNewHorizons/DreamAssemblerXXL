@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.0",
-  "last_updated": "2023-10-09T21:26:23.408590",
+  "last_updated": "2023-10-11T21:27:34.724312",
   "config": "2.4.2-nightly-2023-10-05",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-261-GTNH",
+      "version": "rv3-beta-262-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -53,7 +53,7 @@
       "side": "BOTH"
     },
     "Battlegear2": {
-      "version": "1.2.1",
+      "version": "1.2.2-pre",
       "side": "BOTH"
     },
     "Baubles": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.2.0",
+      "version": "2.2.1",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.3.3",
+      "version": "1.3.4",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -489,7 +489,7 @@
       "side": "CLIENT"
     },
     "PersonalSpace": {
-      "version": "1.0.26",
+      "version": "1.0.28",
       "side": "BOTH"
     },
     "ProjectBlue": {
@@ -641,7 +641,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.10.5-GTNH",
+      "version": "1.10.6-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {

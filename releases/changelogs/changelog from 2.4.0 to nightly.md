@@ -13,9 +13,10 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/161 (1.1.45-gtnh)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-250-GTNH@Side.BOTH --> rv3-beta-261-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-249-GTNH...rv3-beta-261-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-250-GTNH@Side.BOTH --> rv3-beta-262-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-249-GTNH...rv3-beta-262-GTNH
 >## What's Changed
+> * Add explicit support for BuildCraft, CoFH wrenches by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/396 (rv3-beta-262-GTNH)
 > * add pattern blame by @Glease in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/398 (rv3-beta-261-GTNH)
 > * Fix fake slot transfer by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/393 (rv3-beta-259-GTNH)
 > * Add API to get power state text by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/391 (rv3-beta-258-GTNH)
@@ -33,8 +34,8 @@
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/374 (rv3-beta-251-GTNH)
 >
 
-# Updated Battlegear2 (1.2.0@Side.BOTH --> 1.2.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.1.2.4...1.2.1
+# Updated Battlegear2 (1.2.0@Side.BOTH --> 1.2.2-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.1.2.4...1.2.2-pre
 >## What's Changed
 > * Fix Ender Arrow dropping invalid itemstack by @miozune in https://github.com/GTNewHorizons/Battlegear2/pull/18 (1.2.1)
 > * Fix method name conflicts by @wohaopa in https://github.com/GTNewHorizons/Battlegear2/pull/16 (1.2.0)
@@ -75,13 +76,15 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/116 (3.4.1-GTNH)
 >
 
-# Updated Binnie (2.1.10@Side.BOTH --> 2.2.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.9...2.2.0
+# Updated Binnie (2.1.10@Side.BOTH --> 2.2.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.9...2.2.1
 >## What's Changed
+> * NEI item manager overlay integration by @ghostflyby in https://github.com/GTNewHorizons/Binnie/pull/38 (2.2.1)
 > * Fix Incubator breaking with item outputs by @Lyfts in https://github.com/GTNewHorizons/Binnie/pull/37 (2.2.0)
 > * Fix NPE with Lumbermill by @miozune in https://github.com/GTNewHorizons/Binnie/pull/35 (2.1.10)
 >
 >## New Contributors
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/38 (2.2.1)
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/37 (2.2.0)
 >
 
@@ -150,6 +153,17 @@
 > * Remove wildcard imports by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/11 (1.1.3)
 > * Refactor for more features by @ghostflyby in https://github.com/GTNewHorizons/DuraDisplay/pull/9 (1.1.0)
 > * Fix the display of IC2 electric jetpack and some RF items by @ghostflyby in https://github.com/GTNewHorizons/DuraDisplay/pull/8 (1.0.10)
+>
+
+# Updated Electro-Magic-Tools (1.3.3@Side.BOTH --> 1.3.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.3.2...1.3.4
+>## What's Changed
+> * Update buildscript by @Caedis in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/65 (1.3.4)
+> * Mark Bart's LEG for termination by @Alastors in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/61 (1.3.3)
+>
+>## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/65 (1.3.4)
+> * @Alastors made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/61 (1.3.3)
 >
 
 # Updated EnderCore (0.2.17@Side.BOTH --> 0.2.18@Side.BOTH)
@@ -617,6 +631,17 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/2 (1.0.1)
 >
 
+# Updated PersonalSpace (1.0.26@Side.BOTH --> 1.0.28@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.25...1.0.28
+>## What's Changed
+> * Update gradle + deps + remove wildcard imports by @Caedis in https://github.com/GTNewHorizons/PersonalSpace/pull/21 (1.0.27)
+> * Implement Daylight Cycle Option by @Caedis in https://github.com/GTNewHorizons/PersonalSpace/pull/22 (1.0.27)
+> * Catch possible NPEs when teleporting to dimensions that haven't been initialized yet by @eigenraven in https://github.com/GTNewHorizons/PersonalSpace/pull/18 (1.0.26)
+>
+>## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/PersonalSpace/pull/21 (1.0.27)
+>
+
 # Updated Railcraft (9.14.9@Side.BOTH --> 9.15.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.14.8...9.15.0
 >## What's Changed
@@ -680,9 +705,10 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/32 (2.7.1)
 >
 
-# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.5-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.5-GTNH
+# Updated TinkersConstruct (1.9.39-GTNH@Side.BOTH --> 1.10.6-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.9.38-GTNH...1.10.6-GTNH
 >## What's Changed
+> * fix health bar not being shifted up by DualHotbar by @charagarlnad in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.6-GTNH)
 > * Fix health bar renderer by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/97 (1.10.5-GTNH)
 > * fix slime boots by @Quetz4l in https://github.com/GTNewHorizons/TinkersConstruct/pull/95 (1.10.3-GTNH)
 > * fix health bar shaking like crazy when the player has regeneration by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/96 (1.10.3-GTNH)
@@ -692,6 +718,7 @@
 > * Fixes broken TiC Armor not being repairable by @DrParadox7 in https://github.com/GTNewHorizons/TinkersConstruct/pull/91 (1.9.39-GTNH)
 >
 >## New Contributors
+> * @charagarlnad made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.6-GTNH)
 > * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/92 (1.10.0-GTNH)
 >
 
