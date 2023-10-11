@@ -262,7 +262,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Avaritia](https://github.com/GTNewHorizons/Avaritia) | 1.46 |
 | [Avaritiaddons](https://github.com/GTNewHorizons/Avaritiaddons) | 1.5.5-GTNH |
 | [bartworks](https://github.com/GTNewHorizons/bartworks) | 0.8.8 |
-| [Battlegear2](https://github.com/GTNewHorizons/Battlegear2) | 1.2.2-pre |
+| [Battlegear2](https://github.com/GTNewHorizons/Battlegear2) | 1.2.1 |
 | [Baubles](https://github.com/GTNewHorizons/Baubles) | 1.0.1.16 |
 | [bdlib](https://github.com/GTNewHorizons/bdlib) | 1.9.8-GTNH |
 | [BeeBetterAtBees-GTNH](https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH) | 0.3.1-GTNH |
