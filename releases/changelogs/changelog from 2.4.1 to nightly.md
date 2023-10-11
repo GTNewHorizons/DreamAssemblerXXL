@@ -110,9 +110,11 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.35@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.35
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.36@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.36
 >## What's Changed
+> * Add new way to add item data for recycling by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2306 (5.09.44.36)
+> * Modularize the isBlockUnder check in GT_BaseCrop by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2330 (5.09.44.36)
 > * Fix insufficient power result not being persisted by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2328 (5.09.44.35)
 > * Add OC test for 3 ticks to 1 tick by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2329 (5.09.44.35)
 > * Allows covers to be configured to tick more slowly by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2307 (5.09.44.35)
@@ -165,9 +167,11 @@
 > * @YeahImRose made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/756 (1.10.12)
 >
 
-# Updated GoodGenerator (0.7.3@Side.BOTH --> 0.7.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.2...0.7.4
+# Updated GoodGenerator (0.7.3@Side.BOTH --> 0.7.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.2...0.7.5
 >## What's Changed
+> * Stop maintenance issues cropping up on fuel refinery. by @fluffle in https://github.com/GTNewHorizons/GoodGenerator/pull/215 (0.7.5)
+> * Add UXV Component Assemblyline functionality by @GDCloudstrike in https://github.com/GTNewHorizons/GoodGenerator/pull/214 (0.7.5)
 > * Fluid cell tooltip change by @Alexdoru in https://github.com/GTNewHorizons/GoodGenerator/pull/213 (0.7.4)
 > * Add more solidifier recipies for metastable oganesson by @Lyfts in https://github.com/GTNewHorizons/GoodGenerator/pull/212 (0.7.3)
 >
