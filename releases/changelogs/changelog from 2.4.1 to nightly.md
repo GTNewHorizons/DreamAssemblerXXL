@@ -11,12 +11,14 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/161 (1.1.45-gtnh)
 >
 
-# Updated AdventureBackpack2 (1.0.14-GTNH@Side.BOTH --> 1.0.15-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.12-GTNH...1.0.15-GTNH-pre
+# Updated AdventureBackpack2 (1.0.14-GTNH@Side.BOTH --> 1.0.16-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.12-GTNH...1.0.16-GTNH
 >## What's Changed
+> * Show the wearing backpack in TConstruct tab by @ghostflyby in https://github.com/GTNewHorizons/AdventureBackpack2/pull/16 (1.0.16-GTNH)
 > * Refactoring and pruning by @chill-was-taken in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
 >
 >## New Contributors
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/16 (1.0.16-GTNH)
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
 >
 
@@ -95,12 +97,20 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Controlling/pull/1 (1.0.0.5)
 >
 
-# Updated Default-Configs (1.1.3@Side.CLIENT --> 1.1.4-pre@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/Default-Configs/compare/1.1.2...1.1.4-pre
+# Updated Crops-plus-plus (1.5.1@Side.BOTH --> 1.5.2-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.5.0...1.5.2-pre
 >## What's Changed
+> * Cleanup basic machines by @miozune in https://github.com/GTNewHorizons/Crops-plus-plus/pull/55 (1.5.1)
+>
+
+# Updated Default-Configs (1.1.3@Side.CLIENT --> 1.1.5@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/Default-Configs/compare/1.1.2...1.1.5
+>## What's Changed
+> * clean coremod by @Alexdoru in https://github.com/GTNewHorizons/Default-Configs/pull/5 (1.1.5)
 > * fix broken list handling of forge format by @Glease in https://github.com/GTNewHorizons/Default-Configs/pull/4 (1.1.3)
 >
 >## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Default-Configs/pull/5 (1.1.5)
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Default-Configs/pull/4 (1.1.3)
 >
 
@@ -219,6 +229,16 @@
 > * @tth05 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/259 (2.3.9)
 >
 
+# Updated KubaTech (0.13.2@Side.BOTH --> 0.13.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.13.1...0.13.3
+>## What's Changed
+> * Use the new method to copy entity from MobsInfo by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/98 (0.13.3)
+> * update deps by @Dream-Master in https://github.com/GTNewHorizons/KubaTech/pull/97 (0.13.2)
+>
+>## New Contributors
+> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/97 (0.13.2)
+>
+
 # Updated Mobs-Info (0.1.6-GTNH@Side.BOTH --> 0.1.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.5-GTNH...0.1.8-GTNH
 
@@ -232,12 +252,17 @@
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/53 (1.1.19)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.15-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.15-pre
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.16@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.16
 >## What's Changed
+> * Fix fluid canners not working by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/738 (2.2.16)
+> * some crafts to Assembler (IC2NuclearControl) by @dahgul333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/739 (2.2.16)
 > * fix amount of engine intake casings from recipe by @Pxx500 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/737 (2.2.14)
 > * Delete src/replaces.txt by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/736 (2.2.13)
 > * Fix and cleanup machine chassis recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/734 (2.2.12)
+>
+>## New Contributors
+> * @dahgul333 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/739 (2.2.16)
 >
 
 # Updated PersonalSpace (1.0.26@Side.BOTH --> 1.0.28@Side.BOTH)
@@ -251,12 +276,14 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/PersonalSpace/pull/21 (1.0.27)
 >
 
-# Updated TX-Loader (1.6.0@Side.CLIENT --> 1.6.1-pre@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.5.5...1.6.1-pre
+# Updated TX-Loader (1.6.0@Side.CLIENT --> 1.6.2@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.5.5...1.6.2
 >## What's Changed
+> * clean coremod and stop using COMPUTE_FRAMES which triggers unwanted classloading by @Alexdoru in https://github.com/GTNewHorizons/TX-Loader/pull/9 (1.6.2)
 > * Fix crashes when environment variables are wrong by @wohaopa in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
 >
 >## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/9 (1.6.2)
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
 >
 
@@ -312,13 +339,15 @@
 > * Fix plasmid recipe by @chochem in https://github.com/GTNewHorizons/bartworks/pull/362 (0.8.6)
 >
 
-# Updated ironchest (6.0.72@Side.BOTH --> 6.0.73@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.71...6.0.73
+# Updated ironchest (6.0.72@Side.BOTH --> 6.0.74@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.71...6.0.74
 >## What's Changed
+> * Bookmark pull feature for iron chests by @Nilau1998 in https://github.com/GTNewHorizons/ironchest/pull/12 (6.0.74)
 > * Reverted recipes removal by @AnrDaemon in https://github.com/GTNewHorizons/ironchest/pull/11 (6.0.73)
 > * Update pl_PL.lang by @Radplay in https://github.com/GTNewHorizons/ironchest/pull/10 (6.0.72)
 >
 >## New Contributors
+> * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/12 (6.0.74)
 > * @AnrDaemon made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/11 (6.0.73)
 > * @Radplay made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/10 (6.0.72)
 >

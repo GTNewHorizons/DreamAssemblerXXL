@@ -1,11 +1,11 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-10-12T11:07:35.339813",
+  "last_updated": "2023-10-12T17:37:15.704970",
   "config": "2.4.2-nightly-2023-10-05",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.0.15-GTNH-pre",
+      "version": "1.0.16-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.5.1",
+      "version": "1.5.2-pre",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -329,7 +329,7 @@
       "side": "CLIENT"
     },
     "ironchest": {
-      "version": "6.0.73",
+      "version": "6.0.74",
       "side": "BOTH"
     },
     "IronChestMinecarts": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.13.2",
+      "version": "0.13.3",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.2.15-pre",
+      "version": "2.2.16",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -729,7 +729,7 @@
       "side": "BOTH"
     },
     "TX-Loader": {
-      "version": "1.6.1-pre",
+      "version": "1.6.2",
       "side": "CLIENT"
     },
     "GigaGramFab": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "Default-Configs": {
-      "version": "1.1.4-pre",
+      "version": "1.1.5",
       "side": "CLIENT"
     },
     "CodeChickenLib": {
