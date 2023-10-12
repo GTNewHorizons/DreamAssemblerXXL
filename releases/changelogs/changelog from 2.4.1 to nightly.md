@@ -149,9 +149,11 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.38-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.38-pre
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.39-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.39-pre
 >## What's Changed
+> * average per tick counter for cable voltage and amperage by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2321 (5.09.44.39-pre)
+> * Fix clay bucket exploit and bring fluid canner in line with tank for them by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2320 (5.09.44.39-pre)
 > * Add new way to add item data for recycling by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2306 (5.09.44.36)
 > * Modularize the isBlockUnder check in GT_BaseCrop by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2330 (5.09.44.36)
 > * Fix insufficient power result not being persisted by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2328 (5.09.44.35)
