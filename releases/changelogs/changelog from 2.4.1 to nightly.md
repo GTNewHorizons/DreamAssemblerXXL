@@ -196,9 +196,11 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.15-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.15-pre
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.16@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.16
 >## What's Changed
+> * Make soldering iron change multiblock void mode by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/760 (1.10.16)
+> * Clean up BOP_block_Registrator and convert it to RA2 by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/761 (1.10.16)
 > * Remove Technetium achievements by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/759 (1.10.14)
 > * improve maceration stack upgrade process  by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/757 (1.10.13)
 > * Addition for disabling harvest on crop manager by @YeahImRose in https://github.com/GTNewHorizons/GTplusplus/pull/756 (1.10.12)
