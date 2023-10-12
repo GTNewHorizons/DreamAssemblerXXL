@@ -1,16 +1,27 @@
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.45-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.45-gtnh
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.46-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.46-gtnh-pre
 >## What's Changed
+> * add fluid pattern blame by @Glease in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/161 (1.1.46-gtnh-pre)
 > * add fluid pattern blame by @Glease in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/161 (1.1.45-gtnh)
 > * Fix GUIs not accepting numpad enter key by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/159 (1.1.43-gtnh)
 > * Fix Wireless Pattern Terminal not saving stack size change to blank pattern slot by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/158 (1.1.42-gtnh)
 >
 >## New Contributors
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/161 (1.1.46-gtnh-pre)
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/161 (1.1.45-gtnh)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-262-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-262-GTNH
+# Updated AdventureBackpack2 (1.0.14-GTNH@Side.BOTH --> 1.0.15-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.12-GTNH...1.0.15-GTNH-pre
+>## What's Changed
+> * Refactoring and pruning by @chill-was-taken in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
+>
+>## New Contributors
+> * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
+>
+
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-263-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-263-GTNH-pre
 >## What's Changed
 > * Add explicit support for BuildCraft, CoFH wrenches by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/396 (rv3-beta-262-GTNH)
 > * add pattern blame by @Glease in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/398 (rv3-beta-261-GTNH)
@@ -22,8 +33,8 @@
 > * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/372 (rv3-beta-258-GTNH)
 >
 
-# Updated Battlegear2 (1.2.0@Side.BOTH --> 1.2.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.1.2.4...1.2.1
+# Updated Battlegear2 (1.2.0@Side.BOTH --> 1.2.2-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.1.2.4...1.2.2-pre
 >## What's Changed
 > * Fix Ender Arrow dropping invalid itemstack by @miozune in https://github.com/GTNewHorizons/Battlegear2/pull/18 (1.2.1)
 > * Fix method name conflicts by @wohaopa in https://github.com/GTNewHorizons/Battlegear2/pull/16 (1.2.0)
@@ -31,6 +42,15 @@
 >## New Contributors
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/18 (1.2.1)
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/16 (1.2.0)
+>
+
+# Updated BetterLoadingScreen (1.5.0-GTNH@Side.CLIENT --> 1.5.1-GTNH-pre@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.4.4-GTNH...1.5.1-GTNH-pre
+>## What's Changed
+> * Update some tips by @Alexdoru in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/20 (1.5.0-GTNH)
+>
+>## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/20 (1.5.0-GTNH)
 >
 
 # Updated BetterQuesting (3.4.0-GTNH@Side.BOTH --> 3.4.1-GTNH@Side.BOTH)
@@ -75,6 +95,15 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Controlling/pull/1 (1.0.0.5)
 >
 
+# Updated Default-Configs (1.1.3@Side.CLIENT --> 1.1.4-pre@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/Default-Configs/compare/1.1.2...1.1.4-pre
+>## What's Changed
+> * fix broken list handling of forge format by @Glease in https://github.com/GTNewHorizons/Default-Configs/pull/4 (1.1.3)
+>
+>## New Contributors
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/Default-Configs/pull/4 (1.1.3)
+>
+
 # Updated DuraDisplay (1.1.2@Side.CLIENT --> 1.1.3@Side.CLIENT)
 **Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.1.0...1.1.3
 >## What's Changed
@@ -110,8 +139,8 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.36@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.36
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.38-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.38-pre
 >## What's Changed
 > * Add new way to add item data for recycling by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2306 (5.09.44.36)
 > * Modularize the isBlockUnder check in GT_BaseCrop by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2330 (5.09.44.36)
@@ -155,8 +184,8 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.14@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.14
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.15-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.15-pre
 >## What's Changed
 > * Remove Technetium achievements by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/759 (1.10.14)
 > * improve maceration stack upgrade process  by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/757 (1.10.13)
@@ -176,8 +205,8 @@
 > * Add more solidifier recipies for metastable oganesson by @Lyfts in https://github.com/GTNewHorizons/GoodGenerator/pull/212 (0.7.3)
 >
 
-# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.9@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.9
+# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.10-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.10-pre
 >## What's Changed
 > * Add performance optimizations for grass block random ticking by @tth05 in https://github.com/GTNewHorizons/Hodgepodge/pull/259 (2.3.9)
 > * Fix BetterHUD freeze & rendering error by @mist475 in https://github.com/GTNewHorizons/Hodgepodge/pull/254 (2.3.9)
@@ -203,8 +232,8 @@
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/53 (1.1.19)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.14@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.14
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.15-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.15-pre
 >## What's Changed
 > * fix amount of engine intake casings from recipe by @Pxx500 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/737 (2.2.14)
 > * Delete src/replaces.txt by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/736 (2.2.13)
@@ -222,6 +251,15 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/PersonalSpace/pull/21 (1.0.27)
 >
 
+# Updated TX-Loader (1.6.0@Side.CLIENT --> 1.6.1-pre@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.5.5...1.6.1-pre
+>## What's Changed
+> * Fix crashes when environment variables are wrong by @wohaopa in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
+>
+>## New Contributors
+> * @wohaopa made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
+>
+
 # Updated TecTech (5.3.3@Side.BOTH --> 5.3.5@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.5
 >## What's Changed
@@ -236,13 +274,15 @@
 > * Fix Robes of the Stratosphere rendering memory leak by @eigenraven in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/34 (2.8.3)
 >
 
-# Updated TinkersConstruct (1.10.5-GTNH@Side.BOTH --> 1.10.6-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.3-GTNH...1.10.6-GTNH
+# Updated TinkersConstruct (1.10.5-GTNH@Side.BOTH --> 1.10.7-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.3-GTNH...1.10.7-GTNH-pre
 >## What's Changed
+> * fix health bar not being shifted up by DualHotbar by @charagarlnad in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.7-GTNH-pre)
 > * fix health bar not being shifted up by DualHotbar by @charagarlnad in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.6-GTNH)
 > * Fix health bar renderer by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/97 (1.10.5-GTNH)
 >
 >## New Contributors
+> * @charagarlnad made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.7-GTNH-pre)
 > * @charagarlnad made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.6-GTNH)
 >
 
