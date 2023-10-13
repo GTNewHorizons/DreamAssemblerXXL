@@ -1,12 +1,14 @@
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.46-gtnh-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.46-gtnh-pre
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.48-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.48-gtnh-pre
 >## What's Changed
+> * fix NPE in FluidPatternDetails by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.48-gtnh-pre)
 > * add fluid pattern blame by @Glease in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/161 (1.1.46-gtnh-pre)
 > * add fluid pattern blame by @Glease in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/161 (1.1.45-gtnh)
 > * Fix GUIs not accepting numpad enter key by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/159 (1.1.43-gtnh)
 > * Fix Wireless Pattern Terminal not saving stack size change to blank pattern slot by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/158 (1.1.42-gtnh)
 >
 >## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.48-gtnh-pre)
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/161 (1.1.46-gtnh-pre)
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/161 (1.1.45-gtnh)
 >
@@ -44,6 +46,15 @@
 >## New Contributors
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/18 (1.2.1)
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/16 (1.2.0)
+>
+
+# Updated BetterCrashes (1.2.2-GTNH@Side.CLIENT --> 1.3.1-GTNH-pre@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.2.0-GTNH...1.3.1-GTNH-pre
+>## What's Changed
+> * Switch to mclo.gs crash report upload, replace GTNH-specific code with configuration, and fix stacktrace deobfuscator by @wlhlm in https://github.com/GTNewHorizons/BetterCrashes/pull/11 (1.2.2-GTNH)
+>
+>## New Contributors
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/BetterCrashes/pull/11 (1.2.2-GTNH)
 >
 
 # Updated BetterLoadingScreen (1.5.0-GTNH@Side.CLIENT --> 1.5.1-GTNH-pre@Side.CLIENT)
@@ -103,6 +114,15 @@
 > * Cleanup basic machines by @miozune in https://github.com/GTNewHorizons/Crops-plus-plus/pull/55 (1.5.1)
 >
 
+# Updated Custom-Main-Menu (1.9.4@Side.CLIENT --> 1.10.1-pre@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/Custom-Main-Menu/compare/1.9.3...1.10.1-pre
+>## What's Changed
+> * Fix broken mcmod.info by @eigenraven in https://github.com/GTNewHorizons/Custom-Main-Menu/pull/2 (1.9.4)
+>
+>## New Contributors
+> * @eigenraven made their first contribution in https://github.com/GTNewHorizons/Custom-Main-Menu/pull/2 (1.9.4)
+>
+
 # Updated Default-Configs (1.1.3@Side.CLIENT --> 1.1.5@Side.CLIENT)
 **Full Changelog**: https://github.com/GTNewHorizons/Default-Configs/compare/1.1.2...1.1.5
 >## What's Changed
@@ -114,9 +134,10 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Default-Configs/pull/4 (1.1.3)
 >
 
-# Updated DuraDisplay (1.1.2@Side.CLIENT --> 1.1.3@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.1.0...1.1.3
+# Updated DuraDisplay (1.1.2@Side.CLIENT --> 1.1.4@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.1.0...1.1.4
 >## What's Changed
+> * Removed mixin warning supression by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/12 (1.1.4)
 > * Fix creative tab item headers having durability text by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/10 (1.1.3)
 > * Remove wildcard imports by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/11 (1.1.3)
 >
@@ -196,9 +217,10 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.16@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.16
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.17@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.17
 >## What's Changed
+> * Fix Neptunium Vacuum Freezer Recipe by @harrynull in https://github.com/GTNewHorizons/GTplusplus/pull/762 (1.10.17)
 > * Make soldering iron change multiblock void mode by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/760 (1.10.16)
 > * Clean up BOP_block_Registrator and convert it to RA2 by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/761 (1.10.16)
 > * Remove Technetium achievements by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/759 (1.10.14)
@@ -207,6 +229,7 @@
 > * Fix incorrect extruder recipe voltages for GT++ materials. by @fluffle in https://github.com/GTNewHorizons/GTplusplus/pull/750 (1.10.11)
 >
 >## New Contributors
+> * @harrynull made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/762 (1.10.17)
 > * @YeahImRose made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/756 (1.10.12)
 >
 
@@ -219,9 +242,10 @@
 > * Add more solidifier recipies for metastable oganesson by @Lyfts in https://github.com/GTNewHorizons/GoodGenerator/pull/212 (0.7.3)
 >
 
-# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.10-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.10-pre
+# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.13-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.13-pre
 >## What's Changed
+> * fix extra utilities drum eating cells and capsules by @ghostflyby in https://github.com/GTNewHorizons/Hodgepodge/pull/260 (2.3.11-pre)
 > * Add performance optimizations for grass block random ticking by @tth05 in https://github.com/GTNewHorizons/Hodgepodge/pull/259 (2.3.9)
 > * Fix BetterHUD freeze & rendering error by @mist475 in https://github.com/GTNewHorizons/Hodgepodge/pull/254 (2.3.9)
 > * Add config for fixNetHandlerLoginServerOfflineMode by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/258 (2.3.8)
@@ -230,6 +254,7 @@
 > * Fix compact chat crash by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/253 (2.3.6)
 >
 >## New Contributors
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/260 (2.3.11-pre)
 > * @tth05 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/259 (2.3.9)
 >
 
@@ -256,8 +281,8 @@
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/53 (1.1.19)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.16@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.16
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.17@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.17
 >## What's Changed
 > * Fix fluid canners not working by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/738 (2.2.16)
 > * some crafts to Assembler (IC2NuclearControl) by @dahgul333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/739 (2.2.16)
