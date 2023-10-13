@@ -24,9 +24,10 @@
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-263-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-263-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-264-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-264-GTNH-pre
 >## What's Changed
+> * Spotless apply for branch Config-p2p-interface-copy-paste for #401 by @github-actions in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/402 (rv3-beta-264-GTNH-pre)
 > * Add explicit support for BuildCraft, CoFH wrenches by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/396 (rv3-beta-262-GTNH)
 > * add pattern blame by @Glease in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/398 (rv3-beta-261-GTNH)
 > * Fix fake slot transfer by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/393 (rv3-beta-259-GTNH)
@@ -108,24 +109,31 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Controlling/pull/1 (1.0.0.5)
 >
 
-# Updated Crops-plus-plus (1.5.1@Side.BOTH --> 1.5.2-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.5.0...1.5.2-pre
+# Updated Crops-plus-plus (1.5.1@Side.BOTH --> 1.5.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.5.0...1.5.3
 >## What's Changed
+> * 16x Texture Rework by @DrParadox7 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/56 (1.5.3)
 > * Cleanup basic machines by @miozune in https://github.com/GTNewHorizons/Crops-plus-plus/pull/55 (1.5.1)
 >
+>## New Contributors
+> * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/56 (1.5.3)
+>
 
-# Updated Custom-Main-Menu (1.9.4@Side.CLIENT --> 1.10.1-pre@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/Custom-Main-Menu/compare/1.9.3...1.10.1-pre
+# Updated Custom-Main-Menu (1.9.4@Side.CLIENT --> 1.10.2@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/Custom-Main-Menu/compare/1.9.3...1.10.2
 >## What's Changed
+> * reduce object allocation in StringReplacer by @charagarlnad in https://github.com/GTNewHorizons/Custom-Main-Menu/pull/3 (1.10.2)
 > * Fix broken mcmod.info by @eigenraven in https://github.com/GTNewHorizons/Custom-Main-Menu/pull/2 (1.9.4)
 >
 >## New Contributors
+> * @charagarlnad made their first contribution in https://github.com/GTNewHorizons/Custom-Main-Menu/pull/3 (1.10.2)
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/Custom-Main-Menu/pull/2 (1.9.4)
 >
 
-# Updated Default-Configs (1.1.3@Side.CLIENT --> 1.1.5@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/Default-Configs/compare/1.1.2...1.1.5
+# Updated Default-Configs (1.1.3@Side.CLIENT --> 1.1.6@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/Default-Configs/compare/1.1.2...1.1.6
 >## What's Changed
+> * don't use SKIP_DEBUG by @Alexdoru in https://github.com/GTNewHorizons/Default-Configs/pull/6 (1.1.6)
 > * clean coremod by @Alexdoru in https://github.com/GTNewHorizons/Default-Configs/pull/5 (1.1.5)
 > * fix broken list handling of forge format by @Glease in https://github.com/GTNewHorizons/Default-Configs/pull/4 (1.1.3)
 >
@@ -134,9 +142,10 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Default-Configs/pull/4 (1.1.3)
 >
 
-# Updated DuraDisplay (1.1.2@Side.CLIENT --> 1.1.4@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.1.0...1.1.4
+# Updated DuraDisplay (1.1.2@Side.CLIENT --> 1.1.5@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.1.0...1.1.5
 >## What's Changed
+> * Add tinker's mechworks Spool of Wire + remove hard deps by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/13 (1.1.5)
 > * Removed mixin warning supression by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/12 (1.1.4)
 > * Fix creative tab item headers having durability text by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/10 (1.1.3)
 > * Remove wildcard imports by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/11 (1.1.3)
@@ -170,9 +179,15 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.39-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.39-pre
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.42-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.42-pre
 >## What's Changed
+> * average per tick counter for cable voltage and amperage by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2321 (5.09.44.42-pre)
+> * Fix clay bucket exploit and bring fluid canner in line with tank for them by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2320 (5.09.44.42-pre)
+> * Fix Stocking Bus bug by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2326 (5.09.44.42-pre)
+> * average per tick counter for cable voltage and amperage by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2321 (5.09.44.40-pre)
+> * Fix clay bucket exploit and bring fluid canner in line with tank for them by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2320 (5.09.44.40-pre)
+> * Fix Stocking Bus bug by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2326 (5.09.44.40-pre)
 > * average per tick counter for cable voltage and amperage by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2321 (5.09.44.39-pre)
 > * Fix clay bucket exploit and bring fluid canner in line with tank for them by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2320 (5.09.44.39-pre)
 > * Add new way to add item data for recycling by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2306 (5.09.44.36)
@@ -305,9 +320,21 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/PersonalSpace/pull/21 (1.0.27)
 >
 
-# Updated TX-Loader (1.6.0@Side.CLIENT --> 1.6.2@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.5.5...1.6.2
+# Updated StorageDrawers (1.12.0-GTNH@Side.BOTH --> 1.12.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.20-GTNH...1.12.1-GTNH
 >## What's Changed
+> * Add two new Tiers of Drawer upgrades. Ruby and Tanzanite by @Dream-Master in https://github.com/GTNewHorizons/StorageDrawers/pull/21 (1.12.1-GTNH)
+> * Fix merge behavior not respecting stackability by @miozune in https://github.com/GTNewHorizons/StorageDrawers/pull/20 (1.12.0-GTNH)
+>
+>## New Contributors
+> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/21 (1.12.1-GTNH)
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/20 (1.12.0-GTNH)
+>
+
+# Updated TX-Loader (1.6.0@Side.CLIENT --> 1.6.3@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.5.5...1.6.3
+>## What's Changed
+> * don't use SKIP_DEBUG by @Alexdoru in https://github.com/GTNewHorizons/TX-Loader/pull/10 (1.6.3)
 > * clean coremod and stop using COMPUTE_FRAMES which triggers unwanted classloading by @Alexdoru in https://github.com/GTNewHorizons/TX-Loader/pull/9 (1.6.2)
 > * Fix crashes when environment variables are wrong by @wohaopa in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
 >
@@ -379,5 +406,12 @@
 > * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/12 (6.0.74)
 > * @AnrDaemon made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/11 (6.0.73)
 > * @Radplay made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/10 (6.0.72)
+>
+
+# Updated lwjgl3ify (1.5.1@Side.BOTH_JAVA9 --> 1.5.2@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.0...1.5.2
+>## What's Changed
+> * Fix a wrong log4j config file being included in forgePatches by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/86 (1.5.2)
+> * Fix Display.isCloseRequested not resetting the flag upon call like in lwjgl2 by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/83 (1.5.1)
 >
 

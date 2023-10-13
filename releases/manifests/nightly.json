@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-10-13T14:40:01.365628",
+  "last_updated": "2023-10-13T21:55:49.165066",
   "config": "2.4.2-nightly-2023-10-13",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-263-GTNH-pre",
+      "version": "rv3-beta-264-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.5.2-pre",
+      "version": "1.5.3",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.39-pre",
+      "version": "5.09.44.42-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -553,7 +553,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "1.12.0-GTNH",
+      "version": "1.12.1-GTNH",
       "side": "BOTH"
     },
     "StorageDrawers-BiomesOPlenty": {
@@ -729,7 +729,7 @@
       "side": "BOTH"
     },
     "TX-Loader": {
-      "version": "1.6.2",
+      "version": "1.6.3",
       "side": "CLIENT"
     },
     "GigaGramFab": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "Custom-Main-Menu": {
-      "version": "1.10.1-pre",
+      "version": "1.10.2",
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.5.1",
+      "version": "1.5.2",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "DuraDisplay": {
-      "version": "1.1.4",
+      "version": "1.1.5",
       "side": "CLIENT"
     },
     "Mobs-Info": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "Default-Configs": {
-      "version": "1.1.5",
+      "version": "1.1.6",
       "side": "CLIENT"
     },
     "CodeChickenLib": {
