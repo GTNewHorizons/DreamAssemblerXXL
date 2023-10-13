@@ -1,5 +1,5 @@
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.48-gtnh-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.48-gtnh-pre
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.49-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.49-gtnh-pre
 >## What's Changed
 > * fix NPE in FluidPatternDetails by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.48-gtnh-pre)
 > * add fluid pattern blame by @Glease in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/161 (1.1.46-gtnh-pre)
@@ -353,8 +353,8 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ToroHealth/pull/1 (1.0.1)
 >
 
-# Updated WirelessCraftingTerminal (1.9.4@Side.BOTH --> 1.10.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.9.3...1.10.0
+# Updated WirelessCraftingTerminal (1.9.4@Side.BOTH --> 1.10.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.9.3...1.10.1
 >## What's Changed
 > * Fix lang key for keybind by @miozune in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/30 (1.9.4)
 >
