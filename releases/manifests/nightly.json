@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-10-14T20:01:42.635689",
+  "last_updated": "2023-10-14T20:35:26.608654",
   "config": "2.4.2-nightly-2023-10-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -955,7 +955,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.15",
+      "version": "1.5.16",
       "side": "BOTH"
     },
     "Tinkers-Gregworks": {
