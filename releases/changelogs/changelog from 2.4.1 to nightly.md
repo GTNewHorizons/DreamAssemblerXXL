@@ -1,5 +1,5 @@
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.49-gtnh-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.49-gtnh-pre
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.50-gthn-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.50-gthn-pre
 >## What's Changed
 > * fix NPE in FluidPatternDetails by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.48-gtnh-pre)
 > * add fluid pattern blame by @Glease in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/161 (1.1.46-gtnh-pre)
@@ -24,9 +24,12 @@
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-264-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-264-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-266-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-266-GTNH-pre
 >## What's Changed
+> * Add interface compatibility to use in `ae2fc` and direction tracking by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/405 (rv3-beta-266-GTNH-pre)
+> * Optimize FuzzyMode creation by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/403 (rv3-beta-265-GTNH-pre)
+> * Add interface compatibility to use in `ae2fc` by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/404 (rv3-beta-265-GTNH-pre)
 > * Spotless apply for branch Config-p2p-interface-copy-paste for #401 by @github-actions in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/402 (rv3-beta-264-GTNH-pre)
 > * Add explicit support for BuildCraft, CoFH wrenches by @firenoo in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/396 (rv3-beta-262-GTNH)
 > * add pattern blame by @Glease in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/398 (rv3-beta-261-GTNH)
@@ -35,12 +38,14 @@
 > * NEI Bookmark Pulling for AE2 by @Nilau1998 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/372 (rv3-beta-258-GTNH)
 >
 >## New Contributors
+> * @Laiff made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/404 (rv3-beta-265-GTNH-pre)
 > * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/372 (rv3-beta-258-GTNH)
 >
 
-# Updated Battlegear2 (1.2.0@Side.BOTH --> 1.2.2-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.1.2.4...1.2.2-pre
+# Updated Battlegear2 (1.2.0@Side.BOTH --> 1.2.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.1.2.4...1.2.4
 >## What's Changed
+> * Transfer coremod to mixins by @Alexdoru in https://github.com/GTNewHorizons/Battlegear2/pull/19 (1.2.4)
 > * Fix Ender Arrow dropping invalid itemstack by @miozune in https://github.com/GTNewHorizons/Battlegear2/pull/18 (1.2.1)
 > * Fix method name conflicts by @wohaopa in https://github.com/GTNewHorizons/Battlegear2/pull/16 (1.2.0)
 >
@@ -179,8 +184,8 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.42-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.42-pre
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.43-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.43-pre
 >## What's Changed
 > * average per tick counter for cable voltage and amperage by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2321 (5.09.44.42-pre)
 > * Fix clay bucket exploit and bring fluid canner in line with tank for them by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2320 (5.09.44.42-pre)
@@ -248,6 +253,12 @@
 > * @YeahImRose made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/756 (1.10.12)
 >
 
+# Updated Galacticraft (3.0.73-GTNH@Side.BOTH --> 3.0.74-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.72-GTNH...3.0.74-GTNH
+>## What's Changed
+> * Use llamalad7's MixinExtras by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/80 (3.0.74-GTNH)
+>
+
 # Updated GoodGenerator (0.7.3@Side.BOTH --> 0.7.5@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.2...0.7.5
 >## What's Changed
@@ -257,9 +268,22 @@
 > * Add more solidifier recipies for metastable oganesson by @Lyfts in https://github.com/GTNewHorizons/GoodGenerator/pull/212 (0.7.3)
 >
 
-# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.13-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.13-pre
+# Updated Gravitation-Suite-Neo (1.0.15@Side.BOTH --> 1.0.16@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.13...1.0.16
 >## What's Changed
+> * Use llamalad7 MixinExtras by @glowredman in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/13 (1.0.16)
+> * Fix Quantum Shield on Servers by @TechnicianLP in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
+>
+>## New Contributors
+> * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
+>
+
+# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.16-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.16-pre
+>## What's Changed
+> * fix extra utilities drum eating cells and capsules by @ghostflyby in https://github.com/GTNewHorizons/Hodgepodge/pull/260 (2.3.14)
+> * Stop using relocated mixin extras by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/262 (2.3.14)
+> * Give IC2 cells container items as GT cells do by @ghostflyby in https://github.com/GTNewHorizons/Hodgepodge/pull/256 (2.3.14)
 > * fix extra utilities drum eating cells and capsules by @ghostflyby in https://github.com/GTNewHorizons/Hodgepodge/pull/260 (2.3.11-pre)
 > * Add performance optimizations for grass block random ticking by @tth05 in https://github.com/GTNewHorizons/Hodgepodge/pull/259 (2.3.9)
 > * Fix BetterHUD freeze & rendering error by @mist475 in https://github.com/GTNewHorizons/Hodgepodge/pull/254 (2.3.9)
@@ -269,36 +293,52 @@
 > * Fix compact chat crash by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/253 (2.3.6)
 >
 >## New Contributors
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/260 (2.3.14)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/260 (2.3.11-pre)
 > * @tth05 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/259 (2.3.9)
 >
 
-# Updated KubaTech (0.13.2@Side.BOTH --> 0.13.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.13.1...0.13.3
+# Updated KubaTech (0.13.2@Side.BOTH --> 0.13.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.13.1...0.13.4
 >## What's Changed
+> * Use the new method to copy entity from MobsInfo by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/98 (0.13.4)
+> * update bs+deps by @Dream-Master in https://github.com/GTNewHorizons/KubaTech/pull/99 (0.13.4)
+> * Small cleanup by @glowredman in https://github.com/GTNewHorizons/KubaTech/pull/100 (0.13.4)
 > * Use the new method to copy entity from MobsInfo by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/98 (0.13.3)
 > * update deps by @Dream-Master in https://github.com/GTNewHorizons/KubaTech/pull/97 (0.13.2)
 >
 >## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/100 (0.13.4)
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/97 (0.13.2)
+>
+
+# Updated LogisticsPipes (1.0.6-GTNH@Side.BOTH --> 1.0.7-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.0.5-GTNH...1.0.7-GTNH
+>## What's Changed
+> * fix bq crafting quest by @Glease in https://github.com/GTNewHorizons/LogisticsPipes/pull/25 (1.0.7-GTNH)
+> * Don't use ObjectInputStream by @miozune in https://github.com/GTNewHorizons/LogisticsPipes/pull/24 (1.0.6-GTNH)
 >
 
 # Updated Mobs-Info (0.1.6-GTNH@Side.BOTH --> 0.1.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.5-GTNH...0.1.8-GTNH
 
-# Updated ModularUI (1.1.18@Side.BOTH --> 1.1.20@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.17...1.1.20
+# Updated ModularUI (1.1.18@Side.BOTH --> 1.1.22@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.17...1.1.22
 >## What's Changed
+> * Add slot index to FluidGrouBuilder#widgetCreator by @tth05 in https://github.com/GTNewHorizons/ModularUI/pull/55 (1.1.22)
+> * Add more convenience methods to FluidGroupBuilder by @tth05 in https://github.com/GTNewHorizons/ModularUI/pull/54 (1.1.21)
 > * fix fluid lighting by @firenoo in https://github.com/GTNewHorizons/ModularUI/pull/53 (1.1.19)
 > * Fix ItemStackHandler not saving stack size as int by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/52 (1.1.18)
 >
 >## New Contributors
+> * @tth05 made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/54 (1.1.21)
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/53 (1.1.19)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.17@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.17
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.18@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.18
 >## What's Changed
+> * Use llamalad7's `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/740 (2.2.18)
 > * Fix fluid canners not working by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/738 (2.2.16)
 > * some crafts to Assembler (IC2NuclearControl) by @dahgul333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/739 (2.2.16)
 > * fix amount of engine intake casings from recipe by @Pxx500 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/737 (2.2.14)
@@ -307,6 +347,16 @@
 >
 >## New Contributors
 > * @dahgul333 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/739 (2.2.16)
+>
+
+# Updated NotEnoughItems (2.4.3-GTNH@Side.BOTH --> 2.4.4-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.2-GTNH...2.4.4-GTNH
+>## What's Changed
+> * fix non-centered searchfield considering gui space by @ghostflyby in https://github.com/GTNewHorizons/NotEnoughItems/pull/429 (2.4.4-GTNH)
+> * Scroll on ItemQuantityField by @ghostflyby in https://github.com/GTNewHorizons/NotEnoughItems/pull/421 (2.4.3-GTNH)
+>
+>## New Contributors
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/421 (2.4.3-GTNH)
 >
 
 # Updated PersonalSpace (1.0.26@Side.BOTH --> 1.0.28@Side.BOTH)
@@ -357,9 +407,10 @@
 > * Fix Robes of the Stratosphere rendering memory leak by @eigenraven in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/34 (2.8.3)
 >
 
-# Updated TinkersConstruct (1.10.5-GTNH@Side.BOTH --> 1.10.7-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.3-GTNH...1.10.7-GTNH-pre
+# Updated TinkersConstruct (1.10.5-GTNH@Side.BOTH --> 1.10.8-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.3-GTNH...1.10.8-GTNH
 >## What's Changed
+> * use updated battlegear2 api by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/99 (1.10.8-GTNH)
 > * fix health bar not being shifted up by DualHotbar by @charagarlnad in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.7-GTNH-pre)
 > * fix health bar not being shifted up by DualHotbar by @charagarlnad in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.6-GTNH)
 > * Fix health bar renderer by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/97 (1.10.5-GTNH)
@@ -384,6 +435,17 @@
 **Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.9.3...1.10.1
 >## What's Changed
 > * Fix lang key for keybind by @miozune in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/30 (1.9.4)
+>
+
+# Updated WitchingGadgets (1.3.4-GTNH@Side.BOTH --> 1.3.5-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.3.3-GTNH...1.3.5-GTNH
+>## What's Changed
+> * Updates by @mitchej123 in https://github.com/GTNewHorizons/WitchingGadgets/pull/44 (1.3.5-GTNH)
+> * remove ic2 maven by @mitchej123 in https://github.com/GTNewHorizons/WitchingGadgets/pull/45 (1.3.5-GTNH)
+> * Fix Bewitched Robe hood rendering by @kumquat-ir in https://github.com/GTNewHorizons/WitchingGadgets/pull/43 (1.3.4-GTNH)
+>
+>## New Contributors
+> * @kumquat-ir made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/43 (1.3.4-GTNH)
 >
 
 # Updated bartworks (0.8.6@Side.BOTH --> 0.8.8@Side.BOTH)
