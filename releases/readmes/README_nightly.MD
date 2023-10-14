@@ -339,7 +339,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.7.5 |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.0.16 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.44.43-pre |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.44.44-pre |
 | [GTNEIOrePlugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.1.3 |
 | [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.2.1 |
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.11.2 |
@@ -382,7 +382,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.3.7 |
 | [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.2.12-GTNH |
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 2.0.2 |
-| [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.1.8-GTNH |
+| [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.1.9-GTNH |
 | [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.9.10 |
 | [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.1.22 |
 | [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) | 1.6.21 |

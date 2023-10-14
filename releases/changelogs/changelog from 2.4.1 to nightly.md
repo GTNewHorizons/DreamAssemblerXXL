@@ -184,9 +184,10 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.43-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.43-pre
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.44-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.44-pre
 >## What's Changed
+> * allow rotation on maintenance hatch by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2331 (5.09.44.44-pre)
 > * average per tick counter for cable voltage and amperage by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2321 (5.09.44.42-pre)
 > * Fix clay bucket exploit and bring fluid canner in line with tank for them by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2320 (5.09.44.42-pre)
 > * Fix Stocking Bus bug by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2326 (5.09.44.42-pre)
@@ -319,8 +320,8 @@
 > * Don't use ObjectInputStream by @miozune in https://github.com/GTNewHorizons/LogisticsPipes/pull/24 (1.0.6-GTNH)
 >
 
-# Updated Mobs-Info (0.1.6-GTNH@Side.BOTH --> 0.1.8-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.5-GTNH...0.1.8-GTNH
+# Updated Mobs-Info (0.1.6-GTNH@Side.BOTH --> 0.1.9-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.5-GTNH...0.1.9-GTNH
 
 # Updated ModularUI (1.1.18@Side.BOTH --> 1.1.22@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.17...1.1.22
