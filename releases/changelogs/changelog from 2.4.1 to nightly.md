@@ -1,5 +1,5 @@
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.52-gtnh-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.52-gtnh-pre
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.53-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.53-gtnh-pre
 >## What's Changed
 > * Fix translation ME Dual Interface on RU by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/165 (1.1.52-gtnh-pre)
 > * fix NPE in FluidPatternDetails by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.48-gtnh-pre)
@@ -117,8 +117,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Controlling/pull/1 (1.0.0.5)
 >
 
-# Updated Crops-plus-plus (1.5.1@Side.BOTH --> 1.5.4-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.5.0...1.5.4-pre
+# Updated Crops-plus-plus (1.5.1@Side.BOTH --> 1.5.5-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.5.0...1.5.5-pre
 >## What's Changed
 > * 16x Texture Rework by @DrParadox7 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/56 (1.5.3)
 > * Cleanup basic machines by @miozune in https://github.com/GTNewHorizons/Crops-plus-plus/pull/55 (1.5.1)
@@ -188,8 +188,8 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.50-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.50-pre
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.51-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.51-pre
 >## What's Changed
 > * average per tick counter for cable voltage and amperage by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2321 (5.09.44.49)
 > * Fix clay bucket exploit and bring fluid canner in line with tank for them by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2320 (5.09.44.49)
@@ -261,9 +261,11 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.17@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.17
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.19-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.19-pre
 >## What's Changed
+> * Cleanup by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/763 (1.10.18)
+> * Stop changing the hardness of the OpenBlock grave by @Alexdoru in https://github.com/GTNewHorizons/GTplusplus/pull/764 (1.10.18)
 > * Fix Neptunium Vacuum Freezer Recipe by @harrynull in https://github.com/GTNewHorizons/GTplusplus/pull/762 (1.10.17)
 > * Make soldering iron change multiblock void mode by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/760 (1.10.16)
 > * Clean up BOP_block_Registrator and convert it to RA2 by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/761 (1.10.16)
@@ -273,12 +275,13 @@
 > * Fix incorrect extruder recipe voltages for GT++ materials. by @fluffle in https://github.com/GTNewHorizons/GTplusplus/pull/750 (1.10.11)
 >
 >## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/764 (1.10.18)
 > * @harrynull made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/762 (1.10.17)
 > * @YeahImRose made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/756 (1.10.12)
 >
 
-# Updated Galacticraft (3.0.73-GTNH@Side.BOTH --> 3.0.74-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.72-GTNH...3.0.74-GTNH
+# Updated Galacticraft (3.0.73-GTNH@Side.BOTH --> 3.0.75-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.72-GTNH...3.0.75-GTNH-pre
 >## What's Changed
 > * Use llamalad7's MixinExtras by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/80 (3.0.74-GTNH)
 >
@@ -329,6 +332,15 @@
 > * @tth05 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/259 (2.3.9)
 >
 
+# Updated IguanaTweaksTConstruct (2.3.0@Side.BOTH --> 2.3.1-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.2.8...2.3.1-pre
+>## What's Changed
+> * Fix typos and improve language for tool level-ups by @chochem in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/13 (2.3.0)
+>
+>## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/13 (2.3.0)
+>
+
 # Updated KubaTech (0.13.2@Side.BOTH --> 0.13.4@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.13.1...0.13.4
 >## What's Changed
@@ -375,8 +387,8 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/Netty-Patcher/pull/2 (0.3.1)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.19-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.19-pre
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.20-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.20-pre
 >## What's Changed
 > * Use llamalad7's `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/740 (2.2.18)
 > * Fix fluid canners not working by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/738 (2.2.16)
@@ -400,15 +412,32 @@
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/421 (2.4.3-GTNH)
 >
 
-# Updated OCGlasses (1.4.0-GTNH@Side.BOTH --> 1.4.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.3.1-GTNH...1.4.1-GTNH
+# Updated OCGlasses (1.4.0-GTNH@Side.BOTH --> 1.4.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.3.1-GTNH...1.4.2-GTNH
 >## What's Changed
+> * Fixes usages of the player Map by @Pelotrio in https://github.com/GTNewHorizons/OCGlasses/pull/17 (1.4.2-GTNH)
 > * Use UUIDs in ServerSurface and don't keep player instance references by @tth05 in https://github.com/GTNewHorizons/OCGlasses/pull/16 (1.4.1-GTNH)
 > * unbind keybind by default by @Alexdoru in https://github.com/GTNewHorizons/OCGlasses/pull/15 (1.4.0-GTNH)
 >
 >## New Contributors
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/17 (1.4.2-GTNH)
 > * @tth05 made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/16 (1.4.1-GTNH)
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/15 (1.4.0-GTNH)
+>
+
+# Updated OpenBlocks (1.7.0-GTNH@Side.BOTH --> 1.7.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.6.10-GTNH...1.7.1-GTNH
+>## What's Changed
+> * Stop GT++ editing grave hardness by @Connor-Colenso in https://github.com/GTNewHorizons/OpenBlocks/pull/13 (1.7.1-GTNH)
+> * Fix build by @miozune in https://github.com/GTNewHorizons/OpenBlocks/pull/14 (1.7.1-GTNH)
+> * Add dimension blacklist for handglider from OpenBlocks by @Connor-Colenso in https://github.com/GTNewHorizons/OpenBlocks/pull/15 (1.7.1-GTNH)
+> * Fix Scaffolding step sound by @jss2a98aj in https://github.com/GTNewHorizons/OpenBlocks/pull/11 (1.7.0-GTNH)
+> * Improve item config toggles by @jss2a98aj in https://github.com/GTNewHorizons/OpenBlocks/pull/12 (1.7.0-GTNH)
+>
+>## New Contributors
+> * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/13 (1.7.1-GTNH)
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/14 (1.7.1-GTNH)
+> * @jss2a98aj made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/11 (1.7.0-GTNH)
 >
 
 # Updated PersonalSpace (1.0.26@Side.BOTH --> 1.0.28@Side.BOTH)
@@ -445,9 +474,10 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
 >
 
-# Updated TecTech (5.3.3@Side.BOTH --> 5.3.7@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.7
+# Updated TecTech (5.3.3@Side.BOTH --> 5.3.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.8
 >## What's Changed
+> * Switch to GT XSTR by @miozune in https://github.com/GTNewHorizons/TecTech/pull/247 (5.3.8)
 > * More cleaning by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/246 (5.3.7)
 > * Cleanup isValidMetaTileEntity and some more by @miozune in https://github.com/GTNewHorizons/TecTech/pull/245 (5.3.5)
 > * fix EoH crash on restart by @Glease in https://github.com/GTNewHorizons/TecTech/pull/244 (5.3.4)
