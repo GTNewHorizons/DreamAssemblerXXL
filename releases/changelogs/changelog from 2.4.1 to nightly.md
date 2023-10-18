@@ -1,5 +1,5 @@
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.53-gtnh-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.53-gtnh-pre
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.54-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.54-gtnh-pre
 >## What's Changed
 > * Fix translation ME Dual Interface on RU by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/165 (1.1.52-gtnh-pre)
 > * fix NPE in FluidPatternDetails by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.48-gtnh-pre)
@@ -75,9 +75,11 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/20 (1.5.0-GTNH)
 >
 
-# Updated BetterQuesting (3.4.0-GTNH@Side.BOTH --> 3.4.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.27-GTNH...3.4.1-GTNH
+# Updated BetterQuesting (3.4.0-GTNH@Side.BOTH --> 3.4.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.27-GTNH...3.4.2-GTNH
 >## What's Changed
+> * Fix incorrect completion for quest show command by @miozune in https://github.com/GTNewHorizons/BetterQuesting/pull/117 (3.4.2-GTNH)
+> * Show previously shown screen when closed by @miozune in https://github.com/GTNewHorizons/BetterQuesting/pull/118 (3.4.2-GTNH)
 > * Add check for DuraDisplay by @Caedis in https://github.com/GTNewHorizons/BetterQuesting/pull/116 (3.4.1-GTNH)
 > * Added heads to the Hydra and body to the Naga. by @FindMeSomeFun in https://github.com/GTNewHorizons/BetterQuesting/pull/115 (3.4.0-GTNH)
 >
@@ -188,9 +190,10 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.51-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.51-pre
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.52-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.52-pre
 >## What's Changed
+> * restore vinteum gem by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2338 (5.09.44.52-pre)
 > * average per tick counter for cable voltage and amperage by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2321 (5.09.44.49)
 > * Fix clay bucket exploit and bring fluid canner in line with tank for them by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2320 (5.09.44.49)
 > * Fix Stocking Bus bug by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2326 (5.09.44.49)
@@ -261,9 +264,10 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.19-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.19-pre
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.20@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.20
 >## What's Changed
+> * fix catalyst recipes by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/768 (1.10.20)
 > * Cleanup by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/763 (1.10.18)
 > * Stop changing the hardness of the OpenBlock grave by @Alexdoru in https://github.com/GTNewHorizons/GTplusplus/pull/764 (1.10.18)
 > * Fix Neptunium Vacuum Freezer Recipe by @harrynull in https://github.com/GTNewHorizons/GTplusplus/pull/762 (1.10.17)
@@ -378,8 +382,8 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/Netty-Patcher/pull/2 (0.3.1)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.20-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.20-pre
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.21-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.21-pre
 >## What's Changed
 > * Use llamalad7's `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/740 (2.2.18)
 > * Fix fluid canners not working by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/738 (2.2.16)
@@ -465,9 +469,10 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
 >
 
-# Updated TecTech (5.3.3@Side.BOTH --> 5.3.8@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.8
+# Updated TecTech (5.3.3@Side.BOTH --> 5.3.9@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.9
 >## What's Changed
+> * fix ofBlocksTiered notSet misuse by @Glease in https://github.com/GTNewHorizons/TecTech/pull/248 (5.3.9)
 > * Switch to GT XSTR by @miozune in https://github.com/GTNewHorizons/TecTech/pull/247 (5.3.8)
 > * More cleaning by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/246 (5.3.7)
 > * Cleanup isValidMetaTileEntity and some more by @miozune in https://github.com/GTNewHorizons/TecTech/pull/245 (5.3.5)
@@ -559,5 +564,16 @@
 >## What's Changed
 > * Fix a wrong log4j config file being included in forgePatches by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/86 (1.5.2)
 > * Fix Display.isCloseRequested not resetting the flag upon call like in lwjgl2 by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/83 (1.5.1)
+>
+
+# Updated waila (1.6.0@Side.BOTH --> 1.6.1-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.5.24...1.6.1-pre
+>## What's Changed
+> * Move font init to getter with guard if by @ghostflyby in https://github.com/GTNewHorizons/waila/pull/13 (1.6.1-pre)
+> * Fixing dependencies.gradle by @Cardinalstars in https://github.com/GTNewHorizons/waila/pull/12 (1.6.0)
+>
+>## New Contributors
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/waila/pull/13 (1.6.1-pre)
+> * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/waila/pull/12 (1.6.0)
 >
 
