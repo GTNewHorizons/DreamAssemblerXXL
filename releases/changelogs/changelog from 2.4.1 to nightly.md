@@ -332,15 +332,6 @@
 > * @tth05 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/259 (2.3.9)
 >
 
-# Updated IguanaTweaksTConstruct (2.3.0@Side.BOTH --> 2.3.1-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.2.8...2.3.1-pre
->## What's Changed
-> * Fix typos and improve language for tool level-ups by @chochem in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/13 (2.3.0)
->
->## New Contributors
-> * @chochem made their first contribution in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/13 (2.3.0)
->
-
 # Updated KubaTech (0.13.2@Side.BOTH --> 0.13.4@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.13.1...0.13.4
 >## What's Changed
