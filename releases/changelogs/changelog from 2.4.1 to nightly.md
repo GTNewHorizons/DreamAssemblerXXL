@@ -306,19 +306,22 @@
 > * Add more solidifier recipies for metastable oganesson by @Lyfts in https://github.com/GTNewHorizons/GoodGenerator/pull/212 (0.7.3)
 >
 
-# Updated Gravitation-Suite-Neo (1.0.15@Side.BOTH --> 1.0.16@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.13...1.0.16
+# Updated Gravitation-Suite-Neo (1.0.15@Side.BOTH --> 1.0.17@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.13...1.0.17
 >## What's Changed
+> * Fix vajra voiding by @Lyfts in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/14 (1.0.17)
 > * Use llamalad7 MixinExtras by @glowredman in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/13 (1.0.16)
 > * Fix Quantum Shield on Servers by @TechnicianLP in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
 >
 >## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/14 (1.0.17)
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
 >
 
-# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.16-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.16-pre
+# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.18-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.18-pre
 >## What's Changed
+> * Restore creative search if NEI is not loaded by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/266 (2.3.17)
 > * fix extra utilities drum eating cells and capsules by @ghostflyby in https://github.com/GTNewHorizons/Hodgepodge/pull/260 (2.3.14)
 > * Stop using relocated mixin extras by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/262 (2.3.14)
 > * Give IC2 cells container items as GT cells do by @ghostflyby in https://github.com/GTNewHorizons/Hodgepodge/pull/256 (2.3.14)
@@ -575,13 +578,27 @@
 > * Fix Display.isCloseRequested not resetting the flag upon call like in lwjgl2 by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/83 (1.5.1)
 >
 
-# Updated waila (1.6.0@Side.BOTH --> 1.6.1-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.5.24...1.6.1-pre
+# Updated twilightforest (2.5.0@Side.BOTH --> 2.5.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.4.5...2.5.1
 >## What's Changed
+> * Fix server crash with magic beans by @miozune in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
+> * Worldgen NPE fix attempt by @eigenraven in https://github.com/GTNewHorizons/twilightforest/pull/29 (2.5.0)
+>
+>## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
+>
+
+# Updated waila (1.6.0@Side.BOTH --> 1.6.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.5.24...1.6.2
+>## What's Changed
+> * Move font init to getter with guard if by @ghostflyby in https://github.com/GTNewHorizons/waila/pull/13 (1.6.2)
+> * Cleanup by @Dream-Master in https://github.com/GTNewHorizons/waila/pull/14 (1.6.2)
 > * Move font init to getter with guard if by @ghostflyby in https://github.com/GTNewHorizons/waila/pull/13 (1.6.1-pre)
 > * Fixing dependencies.gradle by @Cardinalstars in https://github.com/GTNewHorizons/waila/pull/12 (1.6.0)
 >
 >## New Contributors
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/waila/pull/13 (1.6.2)
+> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/waila/pull/14 (1.6.2)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/waila/pull/13 (1.6.1-pre)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/waila/pull/12 (1.6.0)
 >

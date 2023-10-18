@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-10-18T13:06:42.344168",
+  "last_updated": "2023-10-18T19:18:34.389829",
   "config": "2.4.2-nightly-2023-10-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.3.16-pre",
+      "version": "2.3.18-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -661,7 +661,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.5.0",
+      "version": "2.5.1",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -673,7 +673,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.6.1-pre",
+      "version": "1.6.2",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -781,7 +781,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.0.16",
+      "version": "1.0.17",
       "side": "BOTH"
     },
     "MrTJPCore": {
