@@ -264,9 +264,10 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.20@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.20
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.21@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.21
 >## What's Changed
+> * Cleaning up by @Connor-Colenso in https://github.com/GTNewHorizons/GTplusplus/pull/767 (1.10.21)
 > * fix catalyst recipes by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/768 (1.10.20)
 > * Cleanup by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/763 (1.10.18)
 > * Stop changing the hardness of the OpenBlock grave by @Alexdoru in https://github.com/GTNewHorizons/GTplusplus/pull/764 (1.10.18)
