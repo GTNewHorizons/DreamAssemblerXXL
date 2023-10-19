@@ -1,5 +1,5 @@
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.54-gtnh-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.54-gtnh-pre
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.55-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.55-gtnh-pre
 >## What's Changed
 > * Fix translation ME Dual Interface on RU by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/165 (1.1.52-gtnh-pre)
 > * fix NPE in FluidPatternDetails by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.48-gtnh-pre)
@@ -26,8 +26,8 @@
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-268-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-268-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-269-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-269-GTNH-pre
 >## What's Changed
 > * Fix/add interface item rendering by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/406 (rv3-beta-267-GTNH-pre)
 > * Add interface compatibility to use in `ae2fc` and direction tracking by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/405 (rv3-beta-266-GTNH-pre)
@@ -190,9 +190,16 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.52-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.52-pre
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.54-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.54-pre
 >## What's Changed
+> * Fix stocking hatch might hold 0 amount of fluid after running recipe by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2340 (5.09.44.54-pre)
+> * Update valid grid proxy sides when rotating ME hatches by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2336 (5.09.44.54-pre)
+> * Fix locked fluid name not working correctly by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2341 (5.09.44.54-pre)
+> * restore vinteum gem by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2338 (5.09.44.53)
+> * Fix stocking hatch might hold 0 amount of fluid after running recipe by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2340 (5.09.44.53)
+> * Update valid grid proxy sides when rotating ME hatches by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2336 (5.09.44.53)
+> * Fix locked fluid name not working correctly by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2341 (5.09.44.53)
 > * restore vinteum gem by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2338 (5.09.44.52-pre)
 > * average per tick counter for cable voltage and amperage by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2321 (5.09.44.49)
 > * Fix clay bucket exploit and bring fluid canner in line with tank for them by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2320 (5.09.44.49)
@@ -386,9 +393,11 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/Netty-Patcher/pull/2 (0.3.1)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.21-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.21-pre
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.22-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.22-pre
 >## What's Changed
+> * Roasted without tiny/small dusts by @dahgul333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/743 (2.2.22-pre)
+> * duration prettier by @Quetz4l in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/742 (2.2.22-pre)
 > * Use llamalad7's `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/740 (2.2.18)
 > * Fix fluid canners not working by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/738 (2.2.16)
 > * some crafts to Assembler (IC2NuclearControl) by @dahgul333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/739 (2.2.16)
