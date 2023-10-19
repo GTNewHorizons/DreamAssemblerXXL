@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-10-19T17:28:55.605189",
+  "last_updated": "2023-10-19T17:58:52.005764",
   "config": "2.4.2-nightly-2023-10-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -53,7 +53,7 @@
       "side": "BOTH"
     },
     "Battlegear2": {
-      "version": "1.2.4",
+      "version": "1.2.1",
       "side": "BOTH"
     },
     "Baubles": {
@@ -641,7 +641,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.10.8-GTNH",
+      "version": "1.10.5.1-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
