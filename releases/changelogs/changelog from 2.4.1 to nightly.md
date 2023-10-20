@@ -1,5 +1,5 @@
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.55-gtnh-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.55-gtnh-pre
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.56-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.56-gtnh-pre
 >## What's Changed
 > * Fix translation ME Dual Interface on RU by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/165 (1.1.52-gtnh-pre)
 > * fix NPE in FluidPatternDetails by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.48-gtnh-pre)
@@ -26,8 +26,8 @@
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-269-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-269-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-270-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-270-GTNH-pre
 >## What's Changed
 > * Fix/add interface item rendering by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/406 (rv3-beta-267-GTNH-pre)
 > * Add interface compatibility to use in `ae2fc` and direction tracking by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/405 (rv3-beta-266-GTNH-pre)
@@ -156,9 +156,10 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Default-Configs/pull/4 (1.1.3)
 >
 
-# Updated DuraDisplay (1.1.2@Side.CLIENT --> 1.1.5@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.1.0...1.1.5
+# Updated DuraDisplay (1.1.2@Side.CLIENT --> 1.1.7@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.1.0...1.1.7
 >## What's Changed
+> * Add WoodenBrickForm to gadgets by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/14 (1.1.7)
 > * Add tinker's mechworks Spool of Wire + remove hard deps by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/13 (1.1.5)
 > * Removed mixin warning supression by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/12 (1.1.4)
 > * Fix creative tab item headers having durability text by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/10 (1.1.3)
@@ -194,9 +195,10 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.56-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.56-pre
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.57-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.57-pre
 >## What's Changed
+> * Implement ae2 part spray painting by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2344 (5.09.44.57-pre)
 > * Fix fluid canner recipes not using correct empty container by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2337 (5.09.44.56-pre)
 > * Fix fluid canner recipes not using correct empty container by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2337 (5.09.44.55)
 > * Fix stocking hatch might hold 0 amount of fluid after running recipe by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2340 (5.09.44.54-pre)
@@ -399,9 +401,13 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/Netty-Patcher/pull/2 (0.3.1)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.22-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.22-pre
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.24-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.24-pre
 >## What's Changed
+> * Set hasSubTypes to false for WoodenBrickForm by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/745 (2.2.24-pre)
+> * Roasted without tiny/small dusts by @dahgul333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/743 (2.2.23)
+> * duration prettier by @Quetz4l in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/742 (2.2.23)
+> * Set hasSubTypes to false for WoodenBrickForm by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/745 (2.2.23)
 > * Roasted without tiny/small dusts by @dahgul333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/743 (2.2.22-pre)
 > * duration prettier by @Quetz4l in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/742 (2.2.22-pre)
 > * Use llamalad7's `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/740 (2.2.18)
@@ -497,9 +503,10 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
 >
 
-# Updated TecTech (5.3.3@Side.BOTH --> 5.3.9@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.9
+# Updated TecTech (5.3.3@Side.BOTH --> 5.3.10@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.10
 >## What's Changed
+> * Fix missing method by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/250 (5.3.10)
 > * fix ofBlocksTiered notSet misuse by @Glease in https://github.com/GTNewHorizons/TecTech/pull/248 (5.3.9)
 > * Switch to GT XSTR by @miozune in https://github.com/GTNewHorizons/TecTech/pull/247 (5.3.8)
 > * More cleaning by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/246 (5.3.7)

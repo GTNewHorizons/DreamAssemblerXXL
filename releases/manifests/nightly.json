@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-10-20T07:23:44.838121",
+  "last_updated": "2023-10-20T22:24:35.089106",
   "config": "2.4.2-nightly-2023-10-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.55-gtnh-pre",
+      "version": "1.1.56-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-269-GTNH-pre",
+      "version": "rv3-beta-270-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.56-pre",
+      "version": "5.09.44.57-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.2.22-pre",
+      "version": "2.2.24-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -597,7 +597,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.3.9",
+      "version": "5.3.10",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "DuraDisplay": {
-      "version": "1.1.5",
+      "version": "1.1.7",
       "side": "CLIENT"
     },
     "Mobs-Info": {
