@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-10-19T17:58:52.005764",
+  "last_updated": "2023-10-20T07:23:44.838121",
   "config": "2.4.2-nightly-2023-10-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -49,11 +49,11 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.8.8",
+      "version": "0.8.9",
       "side": "BOTH"
     },
     "Battlegear2": {
-      "version": "1.2.1",
+      "version": "1.2.6-pre",
       "side": "BOTH"
     },
     "Baubles": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.54-pre",
+      "version": "5.09.44.56-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -641,7 +641,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.10.5.1-GTNH",
+      "version": "1.10.8-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {

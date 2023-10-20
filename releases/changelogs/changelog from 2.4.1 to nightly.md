@@ -45,13 +45,18 @@
 > * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/372 (rv3-beta-258-GTNH)
 >
 
-# Updated Battlegear2 (1.2.0@Side.BOTH --> 1.2.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.1.2.4...1.2.1
+# Updated Battlegear2 (1.2.0@Side.BOTH --> 1.2.6-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.1.2.4...1.2.6-pre
 >## What's Changed
+> * Fix battlegear inventory voiding when clicking on item by @Lyfts in https://github.com/GTNewHorizons/Battlegear2/pull/20 (1.2.6-pre)
+> * Fix battlegear inventory voiding when clicking on item by @Lyfts in https://github.com/GTNewHorizons/Battlegear2/pull/20 (1.2.5)
+> * Transfer coremod to mixins by @Alexdoru in https://github.com/GTNewHorizons/Battlegear2/pull/19 (1.2.4)
 > * Fix Ender Arrow dropping invalid itemstack by @miozune in https://github.com/GTNewHorizons/Battlegear2/pull/18 (1.2.1)
 > * Fix method name conflicts by @wohaopa in https://github.com/GTNewHorizons/Battlegear2/pull/16 (1.2.0)
 >
 >## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/20 (1.2.6-pre)
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/20 (1.2.5)
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/18 (1.2.1)
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/16 (1.2.0)
 >
@@ -189,9 +194,11 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.54-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.54-pre
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.56-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.56-pre
 >## What's Changed
+> * Fix fluid canner recipes not using correct empty container by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2337 (5.09.44.56-pre)
+> * Fix fluid canner recipes not using correct empty container by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2337 (5.09.44.55)
 > * Fix stocking hatch might hold 0 amount of fluid after running recipe by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2340 (5.09.44.54-pre)
 > * Update valid grid proxy sides when rotating ME hatches by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2336 (5.09.44.54-pre)
 > * Fix locked fluid name not working correctly by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2341 (5.09.44.54-pre)
@@ -517,14 +524,17 @@
 > * Fix Robes of the Stratosphere rendering memory leak by @eigenraven in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/34 (2.8.3)
 >
 
-# Updated TinkersConstruct (1.10.5-GTNH@Side.BOTH --> 1.10.5.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.3-GTNH...1.10.5.1-GTNH
+# Updated TinkersConstruct (1.10.5-GTNH@Side.BOTH --> 1.10.8-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.3-GTNH...1.10.8-GTNH
 >## What's Changed
-> * fix health bar not being shifted up by DualHotbar by @charagarlnad in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.5.1-GTNH)
+> * use updated battlegear2 api by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/99 (1.10.8-GTNH)
+> * fix health bar not being shifted up by DualHotbar by @charagarlnad in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.7-GTNH-pre)
+> * fix health bar not being shifted up by DualHotbar by @charagarlnad in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.6-GTNH)
 > * Fix health bar renderer by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/97 (1.10.5-GTNH)
 >
 >## New Contributors
-> * @charagarlnad made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.5.1-GTNH)
+> * @charagarlnad made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.7-GTNH-pre)
+> * @charagarlnad made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.6-GTNH)
 >
 
 # Updated ToroHealth (1.0.1@Side.CLIENT --> 1.0.2@Side.CLIENT)
@@ -555,9 +565,10 @@
 > * @kumquat-ir made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/43 (1.3.4-GTNH)
 >
 
-# Updated bartworks (0.8.6@Side.BOTH --> 0.8.8@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.5...0.8.8
+# Updated bartworks (0.8.6@Side.BOTH --> 0.8.9@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.5...0.8.9
 >## What's Changed
+> * Make the Humongous input hatch UXV tier by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/365 (0.8.9)
 > * Cleanup isValidMetaTileEntity and some more by @miozune in https://github.com/GTNewHorizons/bartworks/pull/364 (0.8.8)
 > * [Hotfix] Fix packet crash with Vat renderer by @miozune in https://github.com/GTNewHorizons/bartworks/pull/363 (0.8.7)
 > * Cleanup by @glowredman in https://github.com/GTNewHorizons/bartworks/pull/354 (0.8.6)
