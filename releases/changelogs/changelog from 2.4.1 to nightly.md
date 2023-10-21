@@ -197,9 +197,11 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.57-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.57-pre
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.58-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.58-pre
 >## What's Changed
+> * Implement ae2 part spray painting by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2344 (5.09.44.58-pre)
+> * A new approach for block updates in BaseMetaTileEntity by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2342 (5.09.44.58-pre)
 > * Implement ae2 part spray painting by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2344 (5.09.44.57-pre)
 > * Fix fluid canner recipes not using correct empty container by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2337 (5.09.44.56-pre)
 > * Fix fluid canner recipes not using correct empty container by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2337 (5.09.44.55)
