@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-10-20T22:35:04.078896",
+  "last_updated": "2023-10-21T12:29:02.364221",
   "config": "2.4.2-nightly-2023-10-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -53,7 +53,7 @@
       "side": "BOTH"
     },
     "Battlegear2": {
-      "version": "1.2.6-pre",
+      "version": "1.2.7",
       "side": "BOTH"
     },
     "Baubles": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.2.1",
+      "version": "2.2.2",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.10.21",
+      "version": "1.10.22-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {

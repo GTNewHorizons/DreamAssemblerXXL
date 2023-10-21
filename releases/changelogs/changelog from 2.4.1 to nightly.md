@@ -45,9 +45,10 @@
 > * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/372 (rv3-beta-258-GTNH)
 >
 
-# Updated Battlegear2 (1.2.0@Side.BOTH --> 1.2.6-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.1.2.4...1.2.6-pre
+# Updated Battlegear2 (1.2.0@Side.BOTH --> 1.2.7@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.1.2.4...1.2.7
 >## What's Changed
+> * change MixinInventoryPlayer.clearInventory to respect the class contract by @Alexdoru in https://github.com/GTNewHorizons/Battlegear2/pull/21 (1.2.7)
 > * Fix battlegear inventory voiding when clicking on item by @Lyfts in https://github.com/GTNewHorizons/Battlegear2/pull/20 (1.2.6-pre)
 > * Fix battlegear inventory voiding when clicking on item by @Lyfts in https://github.com/GTNewHorizons/Battlegear2/pull/20 (1.2.5)
 > * Transfer coremod to mixins by @Alexdoru in https://github.com/GTNewHorizons/Battlegear2/pull/19 (1.2.4)
@@ -91,9 +92,10 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/116 (3.4.1-GTNH)
 >
 
-# Updated Binnie (2.2.0@Side.BOTH --> 2.2.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.10...2.2.1
+# Updated Binnie (2.2.0@Side.BOTH --> 2.2.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.10...2.2.2
 >## What's Changed
+> * Optimize PlankType$ExtraBiomesPlank.getStack() by @miozune in https://github.com/GTNewHorizons/Binnie/pull/39 (2.2.2)
 > * NEI item manager overlay integration by @ghostflyby in https://github.com/GTNewHorizons/Binnie/pull/38 (2.2.1)
 > * Fix Incubator breaking with item outputs by @Lyfts in https://github.com/GTNewHorizons/Binnie/pull/37 (2.2.0)
 >
@@ -279,8 +281,8 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.21@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.21
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.22-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.22-pre
 >## What's Changed
 > * Cleaning up by @Connor-Colenso in https://github.com/GTNewHorizons/GTplusplus/pull/767 (1.10.21)
 > * fix catalyst recipes by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/768 (1.10.20)
