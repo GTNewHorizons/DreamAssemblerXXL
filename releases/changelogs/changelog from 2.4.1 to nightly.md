@@ -1,6 +1,8 @@
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.56-gtnh-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.56-gtnh-pre
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.57-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.57-gtnh-pre
 >## What's Changed
+> * fix NPE in FluidPatternDetails by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.57-gtnh-pre)
+> * Fix translation ME Dual Interface on RU by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/165 (1.1.57-gtnh-pre)
 > * Fix translation ME Dual Interface on RU by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/165 (1.1.52-gtnh-pre)
 > * fix NPE in FluidPatternDetails by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.48-gtnh-pre)
 > * add fluid pattern blame by @Glease in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/161 (1.1.46-gtnh-pre)
@@ -9,6 +11,8 @@
 > * Fix Wireless Pattern Terminal not saving stack size change to blank pattern slot by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/158 (1.1.42-gtnh)
 >
 >## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.57-gtnh-pre)
+> * @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/165 (1.1.57-gtnh-pre)
 > * @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/165 (1.1.52-gtnh-pre)
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.48-gtnh-pre)
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/161 (1.1.46-gtnh-pre)
@@ -197,9 +201,10 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.58-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.58-pre
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.60-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.60-pre
 >## What's Changed
+> * Upping Humongous Quadruple Hatch Tier to 13 by @TheEpicGamer274 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2343 (5.09.44.59-pre)
 > * Implement ae2 part spray painting by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2344 (5.09.44.58-pre)
 > * A new approach for block updates in BaseMetaTileEntity by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2342 (5.09.44.58-pre)
 > * Implement ae2 part spray painting by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2344 (5.09.44.57-pre)
@@ -270,9 +275,10 @@
 > * Cleanup noXXXYYY methods by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/49 (1.2.0)
 >
 
-# Updated GTNH-Lanthanides (0.11.1@Side.BOTH --> 0.11.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.0...0.11.2
+# Updated GTNH-Lanthanides (0.11.1@Side.BOTH --> 0.11.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.0...0.11.4
 >## What's Changed
+> * fix ErbiumOreConcentrate Name issue by @Nxer in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/72 (0.11.4)
 > * Make Lanth Line Better (mainly Samarium) by @Nxer in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/68 (0.11.2)
 > * Revert "Make Lanth Line Better (mainly Samarium)" by @boubou19 in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 > * redo "Make Lanth Line Better (mainly Samarium)" by @Nxer in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/70 (0.11.2)
