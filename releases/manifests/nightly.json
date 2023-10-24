@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-10-22T10:40:46.040951",
+  "last_updated": "2023-10-24T17:10:00.268397",
   "config": "2.4.2-nightly-2023-10-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.57-gtnh-pre",
+      "version": "1.1.59-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-270-GTNH-pre",
+      "version": "rv3-beta-272-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "Draconic-Evolution": {
-      "version": "1.1.19-GTNH",
+      "version": "1.2.0-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.60-pre",
+      "version": "5.09.44.65-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.3.18-pre",
+      "version": "2.3.20-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -433,7 +433,7 @@
       "side": "CLIENT"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.2.24-pre",
+      "version": "2.2.27-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -817,7 +817,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.1.9-GTNH",
+      "version": "0.1.10-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {

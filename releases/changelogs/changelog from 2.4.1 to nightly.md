@@ -1,6 +1,7 @@
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.57-gtnh-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.57-gtnh-pre
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.59-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.59-gtnh-pre
 >## What's Changed
+> * Feature/level maintainer terminal by @Dream-Master in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/166 (1.1.58-gtnh-pre)
 > * fix NPE in FluidPatternDetails by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.57-gtnh-pre)
 > * Fix translation ME Dual Interface on RU by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/165 (1.1.57-gtnh-pre)
 > * Fix translation ME Dual Interface on RU by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/165 (1.1.52-gtnh-pre)
@@ -30,9 +31,10 @@
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-270-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-270-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-272-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-272-GTNH-pre
 >## What's Changed
+> * Fix `zIndexes` for compatability with `DuraDisplay` by @Dream-Master in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/411 (rv3-beta-271-GTNH-pre)
 > * Fix/add interface item rendering by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/406 (rv3-beta-267-GTNH-pre)
 > * Add interface compatibility to use in `ae2fc` and direction tracking by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/405 (rv3-beta-266-GTNH-pre)
 > * Optimize FuzzyMode creation by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/403 (rv3-beta-265-GTNH-pre)
@@ -162,6 +164,17 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Default-Configs/pull/4 (1.1.3)
 >
 
+# Updated Draconic-Evolution (1.1.19-GTNH@Side.BOTH --> 1.2.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.18-GTNH...1.2.0-GTNH
+>## What's Changed
+> * Replace all references of blockType with getBlockType to fix NPE by @spacebuilder2020 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/41 (1.2.0-GTNH)
+> * Minor cleanup by @miozune in https://github.com/GTNewHorizons/Draconic-Evolution/pull/40 (1.1.19-GTNH)
+>
+>## New Contributors
+> * @spacebuilder2020 made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/41 (1.2.0-GTNH)
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/40 (1.1.19-GTNH)
+>
+
 # Updated DuraDisplay (1.1.2@Side.CLIENT --> 1.1.7@Side.CLIENT)
 **Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.1.0...1.1.7
 >## What's Changed
@@ -201,9 +214,15 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.60-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.60-pre
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.65-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.65-pre
 >## What's Changed
+> * Backport paint solvent from GTCEu by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2346 (5.09.44.64)
+> * New base and active textures for stocking input bus/hatch and ME output bus/hatch by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2339 (5.09.44.64)
+> * Implement ae2 part spray painting by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2344 (5.09.44.61)
+> * A new approach for block updates in BaseMetaTileEntity by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2342 (5.09.44.61)
+> * Upping Humongous Quadruple Hatch Tier to 13 by @TheEpicGamer274 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2343 (5.09.44.61)
+> * implement drain for stocking input hatch by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2347 (5.09.44.61)
 > * Upping Humongous Quadruple Hatch Tier to 13 by @TheEpicGamer274 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2343 (5.09.44.59-pre)
 > * Implement ae2 part spray painting by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2344 (5.09.44.58-pre)
 > * A new approach for block updates in BaseMetaTileEntity by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2342 (5.09.44.58-pre)
@@ -344,9 +363,11 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
 >
 
-# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.18-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.18-pre
+# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.20-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.20-pre
 >## What's Changed
+> * Move NettyPatcher fix to Hodgepodge by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/265 (2.3.20-pre)
+> * Move NettyPatcher fix to Hodgepodge by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/265 (2.3.19)
 > * Restore creative search if NEI is not loaded by @miozune in https://github.com/GTNewHorizons/Hodgepodge/pull/266 (2.3.17)
 > * fix extra utilities drum eating cells and capsules by @ghostflyby in https://github.com/GTNewHorizons/Hodgepodge/pull/260 (2.3.14)
 > * Stop using relocated mixin extras by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/262 (2.3.14)
@@ -386,8 +407,8 @@
 > * Don't use ObjectInputStream by @miozune in https://github.com/GTNewHorizons/LogisticsPipes/pull/24 (1.0.6-GTNH)
 >
 
-# Updated Mobs-Info (0.1.6-GTNH@Side.BOTH --> 0.1.9-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.5-GTNH...0.1.9-GTNH
+# Updated Mobs-Info (0.1.6-GTNH@Side.BOTH --> 0.1.10-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.5-GTNH...0.1.10-GTNH
 
 # Updated ModularUI (1.1.18@Side.BOTH --> 1.1.22@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.17...1.1.22
@@ -411,9 +432,13 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/Netty-Patcher/pull/2 (0.3.1)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.24-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.24-pre
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.27-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.27-pre
 >## What's Changed
+> * Fix for BOP blocks not having harvest level/tool by @Caedis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/747 (2.2.26-pre)
+> * keep dialog boxes unique by @wohaopa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/746 (2.2.26-pre)
+> * Fix for BOP blocks not having harvest level/tool by @Caedis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/747 (2.2.25)
+> * keep dialog boxes unique by @wohaopa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/746 (2.2.25)
 > * Set hasSubTypes to false for WoodenBrickForm by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/745 (2.2.24-pre)
 > * Roasted without tiny/small dusts by @dahgul333 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/743 (2.2.23)
 > * duration prettier by @Quetz4l in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/742 (2.2.23)
@@ -428,6 +453,10 @@
 > * Fix and cleanup machine chassis recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/734 (2.2.12)
 >
 >## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/747 (2.2.26-pre)
+> * @wohaopa made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/746 (2.2.26-pre)
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/747 (2.2.25)
+> * @wohaopa made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/746 (2.2.25)
 > * @dahgul333 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/739 (2.2.16)
 >
 
