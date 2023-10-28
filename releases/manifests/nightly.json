@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-10-28T16:28:53.674424",
+  "last_updated": "2023-10-28T16:56:34.294908",
   "config": "2.4.2-nightly-2023-10-24",
   "github_mods": {
     "AdventureBackpack2": {
@@ -461,7 +461,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.9.18-GTNH-pre",
+      "version": "1.9.19-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {

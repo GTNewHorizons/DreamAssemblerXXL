@@ -552,9 +552,10 @@
 > * @jss2a98aj made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/11 (1.7.0-GTNH)
 >
 
-# Updated OpenComputers (1.9.17-GTNH@Side.BOTH --> 1.9.18-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.15-GTNH...1.9.18-GTNH-pre
+# Updated OpenComputers (1.9.17-GTNH@Side.BOTH --> 1.9.19-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.15-GTNH...1.9.19-GTNH
 >## What's Changed
+> * Fix sof crash by @koiNoCirculation in https://github.com/GTNewHorizons/OpenComputers/pull/109 (1.9.19-GTNH)
 > * added setActive for IC2-OC driver, so that the reactor switch can be … by @koiNoCirculation in https://github.com/GTNewHorizons/OpenComputers/pull/108 (1.9.17-GTNH)
 >
 >## New Contributors
