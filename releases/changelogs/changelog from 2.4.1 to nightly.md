@@ -1,3 +1,5 @@
+# Mods Removed:
+> * Netty-Patcher
 # Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.62-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.62-gtnh
 >## What's Changed
@@ -477,17 +479,6 @@
 >## New Contributors
 > * @tth05 made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/54 (1.1.21)
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/53 (1.1.19)
->
-
-# Updated Netty-Patcher (0.3.1@Side.CLIENT --> 0.3.3@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/Netty-Patcher/compare/0.3...0.3.3
->## What's Changed
-> * Rewrite the mod by @Alexdoru in https://github.com/GTNewHorizons/Netty-Patcher/pull/3 (0.3.3)
-> * maven by @bombcar in https://github.com/GTNewHorizons/Netty-Patcher/pull/2 (0.3.1)
->
->## New Contributors
-> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Netty-Patcher/pull/3 (0.3.3)
-> * @bombcar made their first contribution in https://github.com/GTNewHorizons/Netty-Patcher/pull/2 (0.3.1)
 >
 
 # Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.31-pre@Side.BOTH)
