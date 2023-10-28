@@ -381,8 +381,8 @@
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/Gadomancy/pull/23 (1.1.3)
 >
 
-# Updated Galacticraft (3.0.73-GTNH@Side.BOTH --> 3.0.75-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.72-GTNH...3.0.75-GTNH-pre
+# Updated Galacticraft (3.0.73-GTNH@Side.BOTH --> 3.0.74-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.72-GTNH...3.0.74-GTNH
 >## What's Changed
 > * Use llamalad7's MixinExtras by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/80 (3.0.74-GTNH)
 >
