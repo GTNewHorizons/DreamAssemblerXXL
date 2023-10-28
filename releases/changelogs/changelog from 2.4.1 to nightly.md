@@ -381,8 +381,8 @@
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/Gadomancy/pull/23 (1.1.3)
 >
 
-# Updated Galacticraft (3.0.73-GTNH@Side.BOTH --> 3.0.74-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.72-GTNH...3.0.74-GTNH
+# Updated Galacticraft (3.0.73-GTNH@Side.BOTH --> 3.0.75-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.72-GTNH...3.0.75-GTNH-pre
 >## What's Changed
 > * Use llamalad7's MixinExtras by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/80 (3.0.74-GTNH)
 >
@@ -481,9 +481,10 @@
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/53 (1.1.19)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.31-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.31-pre
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.32@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.32
 >## What's Changed
+> * Add recipes for stocking buses/hatches by @Pelotrio in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/748 (2.2.32)
 > * Add recipe `LevelTerminal` `LevelWireless`, mod `ae2fc` by @Laiff in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/741 (2.2.30)
 > * Fix for BOP blocks not having harvest level/tool by @Caedis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/747 (2.2.26-pre)
 > * keep dialog boxes unique by @wohaopa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/746 (2.2.26-pre)
@@ -503,6 +504,7 @@
 > * Fix and cleanup machine chassis recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/734 (2.2.12)
 >
 >## New Contributors
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/748 (2.2.32)
 > * @Laiff made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/741 (2.2.30)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/747 (2.2.26-pre)
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/746 (2.2.26-pre)
