@@ -1,8 +1,9 @@
 # Mods Removed:
 > * Netty-Patcher
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.62-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.62-gtnh
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.63-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.63-gtnh
 >## What's Changed
+> * Add dual interface p2p copy paste by @LewisSaber in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/169 (1.1.63-gtnh)
 > * fix NPE in FluidPatternDetails by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.62-gtnh)
 > * Fix translation ME Dual Interface on RU by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/165 (1.1.62-gtnh)
 > * Fix stacksize overflow when overlaying recipe by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/167 (1.1.62-gtnh)
@@ -21,6 +22,7 @@
 > * Fix Wireless Pattern Terminal not saving stack size change to blank pattern slot by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/158 (1.1.42-gtnh)
 >
 >## New Contributors
+> * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/169 (1.1.63-gtnh)
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.62-gtnh)
 > * @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/165 (1.1.62-gtnh)
 > * @Laiff made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/162 (1.1.62-gtnh)
@@ -415,8 +417,8 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
 >
 
-# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.23-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.23-pre
+# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.24-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.24-pre
 >## What's Changed
 > * Fix Witchery's Mirror Reflections by @DrParadox7 in https://github.com/GTNewHorizons/Hodgepodge/pull/270 (2.3.22)
 > * Move NettyPatcher fix to Hodgepodge by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/265 (2.3.20-pre)

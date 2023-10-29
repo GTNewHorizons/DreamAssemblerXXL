@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-10-28T17:18:12.325213",
+  "last_updated": "2023-10-29T10:37:51.388021",
   "config": "2.4.2-nightly-2023-10-28",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.62-gtnh",
+      "version": "1.1.63-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.3.23-pre",
+      "version": "2.3.24-pre",
       "side": "BOTH"
     },
     "HoloInventory": {

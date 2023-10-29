@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2023-10-28
+Version nightly is out 2023-10-29
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -246,7 +246,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | --- | --- |
 | [Advanced Solar Panel For 1.7.10 (Unofficial)](https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels) | 1.7.10 Edition |
 | [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.0.16-GTNH |
-| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.1.62-gtnh |
+| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.1.63-gtnh |
 | [ae2stuff](https://github.com/GTNewHorizons/ae2stuff) | 0.6.0-GTNH |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.2.6-GTNH |
 | [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.0.3-GTNH |
@@ -351,7 +351,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.1-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.1.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.3.23-pre |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.3.24-pre |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.3.2-GTNH |
 | [HungerOverhaul](https://github.com/GTNewHorizons/HungerOverhaul) | 1.0.4-GTNH |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.1.0 |
