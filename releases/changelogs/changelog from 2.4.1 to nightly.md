@@ -1,7 +1,7 @@
 # Mods Removed:
 > * Netty-Patcher
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.63-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.63-gtnh
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.64-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.64-gtnh-pre
 >## What's Changed
 > * Add dual interface p2p copy paste by @LewisSaber in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/169 (1.1.63-gtnh)
 > * fix NPE in FluidPatternDetails by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.62-gtnh)
@@ -123,15 +123,17 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/20 (1.5.0-GTNH)
 >
 
-# Updated BetterQuesting (3.4.0-GTNH@Side.BOTH --> 3.4.2-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.27-GTNH...3.4.2-GTNH
+# Updated BetterQuesting (3.4.0-GTNH@Side.BOTH --> 3.4.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.27-GTNH...3.4.3-GTNH
 >## What's Changed
+> * Small changes for quest HUD text render by @Alexdoru in https://github.com/GTNewHorizons/BetterQuesting/pull/119 (3.4.3-GTNH)
 > * Fix incorrect completion for quest show command by @miozune in https://github.com/GTNewHorizons/BetterQuesting/pull/117 (3.4.2-GTNH)
 > * Show previously shown screen when closed by @miozune in https://github.com/GTNewHorizons/BetterQuesting/pull/118 (3.4.2-GTNH)
 > * Add check for DuraDisplay by @Caedis in https://github.com/GTNewHorizons/BetterQuesting/pull/116 (3.4.1-GTNH)
 > * Added heads to the Hydra and body to the Naga. by @FindMeSomeFun in https://github.com/GTNewHorizons/BetterQuesting/pull/115 (3.4.0-GTNH)
 >
 >## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/119 (3.4.3-GTNH)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/116 (3.4.1-GTNH)
 >
 
@@ -168,6 +170,16 @@
 >## New Contributors
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/Botanic-horizons/pull/24 (1.0.16-GTNH)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/Botanic-horizons/pull/25 (1.0.16-GTNH)
+>
+
+# Updated BugTorch (1.2.10-GTNH@Side.BOTH --> 1.2.11-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BugTorch/compare/1.2.8-GTNH...1.2.11-GTNH
+>## What's Changed
+> * Adding null check to fix weird crash by @Cardinalstars in https://github.com/GTNewHorizons/BugTorch/pull/20 (1.2.11-GTNH)
+> * Dev by @Dream-Master in https://github.com/GTNewHorizons/BugTorch/pull/19 (1.2.10-GTNH)
+>
+>## New Contributors
+> * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/BugTorch/pull/20 (1.2.11-GTNH)
 >
 
 # Updated Controlling (1.0.0.5@Side.CLIENT --> 2.0.1@Side.CLIENT)
@@ -269,9 +281,21 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.73@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.73
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.74-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.74-pre
 >## What's Changed
+> * Implement ae2 part spray painting by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2344 (5.09.44.74-pre)
+> * A new approach for block updates in BaseMetaTileEntity by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2342 (5.09.44.74-pre)
+> * Upping Humongous Quadruple Hatch Tier to 13 by @TheEpicGamer274 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2343 (5.09.44.74-pre)
+> * implement drain for stocking input hatch by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2347 (5.09.44.74-pre)
+> * Backport paint solvent from GTCEu by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2346 (5.09.44.74-pre)
+> * New base and active textures for stocking input bus/hatch and ME output bus/hatch by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2339 (5.09.44.74-pre)
+> * Use new interface term API for cribs by @firenoo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2314 (5.09.44.74-pre)
+> * Add non-autopull version of stocking input bus/hatch by @Pelotrio in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2349 (5.09.44.74-pre)
+> * Don't panic over collisions by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2351 (5.09.44.74-pre)
+> * Fix a recipe conflict with styrene by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2353 (5.09.44.74-pre)
+> * Add KubaTech to mods enum by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2354 (5.09.44.74-pre)
+> * Update comment for develepors by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2355 (5.09.44.74-pre)
 > * Update comment for develepors by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2355 (5.09.44.73)
 > * Fix a recipe conflict with styrene by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2353 (5.09.44.72)
 > * Add KubaTech to mods enum by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2354 (5.09.44.72)
@@ -344,6 +368,7 @@
 > * Update buildscript by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2305 (5.09.44.25)
 >
 >## New Contributors
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2349 (5.09.44.74-pre)
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2349 (5.09.44.71)
 > * @tth05 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2333 (5.09.44.49)
 > * @BTone made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2334 (5.09.44.49)
@@ -798,6 +823,17 @@
 >## What's Changed
 > * Fix a wrong log4j config file being included in forgePatches by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/86 (1.5.2)
 > * Fix Display.isCloseRequested not resetting the flag upon call like in lwjgl2 by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/83 (1.5.1)
+>
+
+# Updated neiaddons (1.12.22@Side.BOTH --> 1.13.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/neiaddons/compare/1.12.21...1.13.0
+>## What's Changed
+> * Fix Crash for Ex Nihilo addon by @Cleptomania in https://github.com/GTNewHorizons/neiaddons/pull/7 (1.13.0)
+> * add blacklist gui for appeng x nei ghost item compact by @GlodBlock in https://github.com/GTNewHorizons/neiaddons/pull/6 (1.12.22)
+>
+>## New Contributors
+> * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/neiaddons/pull/7 (1.13.0)
+> * @GlodBlock made their first contribution in https://github.com/GTNewHorizons/neiaddons/pull/6 (1.12.22)
 >
 
 # Updated thaumcraft-research-tweaks (1.0.4@Side.BOTH --> 1.0.6@Side.BOTH)

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-10-30T20:27:46.844804",
+  "last_updated": "2023-10-31T13:05:22.742962",
   "config": "2.4.2-nightly-2023-10-30",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.63-gtnh",
+      "version": "1.1.64-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.4.2-GTNH",
+      "version": "3.4.3-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -113,7 +113,7 @@
       "side": "BOTH"
     },
     "BugTorch": {
-      "version": "1.2.10-GTNH",
+      "version": "1.2.11-GTNH",
       "side": "BOTH"
     },
     "BuildCraft": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.73",
+      "version": "5.09.44.74-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -421,7 +421,7 @@
       "side": "BOTH"
     },
     "neiaddons": {
-      "version": "1.12.22",
+      "version": "1.13.0",
       "side": "BOTH"
     },
     "NetherPortalFix": {
@@ -971,7 +971,7 @@
       "side": "BOTH"
     },
     "UniMixins": {
-      "version": "0.1.11",
+      "version": "0.1.12",
       "side": "BOTH"
     }
   }
