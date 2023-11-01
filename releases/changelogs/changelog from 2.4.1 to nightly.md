@@ -281,21 +281,9 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.74-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.74-pre
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.73@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.73
 >## What's Changed
-> * Implement ae2 part spray painting by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2344 (5.09.44.74-pre)
-> * A new approach for block updates in BaseMetaTileEntity by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2342 (5.09.44.74-pre)
-> * Upping Humongous Quadruple Hatch Tier to 13 by @TheEpicGamer274 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2343 (5.09.44.74-pre)
-> * implement drain for stocking input hatch by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2347 (5.09.44.74-pre)
-> * Backport paint solvent from GTCEu by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2346 (5.09.44.74-pre)
-> * New base and active textures for stocking input bus/hatch and ME output bus/hatch by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2339 (5.09.44.74-pre)
-> * Use new interface term API for cribs by @firenoo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2314 (5.09.44.74-pre)
-> * Add non-autopull version of stocking input bus/hatch by @Pelotrio in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2349 (5.09.44.74-pre)
-> * Don't panic over collisions by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2351 (5.09.44.74-pre)
-> * Fix a recipe conflict with styrene by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2353 (5.09.44.74-pre)
-> * Add KubaTech to mods enum by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2354 (5.09.44.74-pre)
-> * Update comment for develepors by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2355 (5.09.44.74-pre)
 > * Update comment for develepors by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2355 (5.09.44.73)
 > * Fix a recipe conflict with styrene by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2353 (5.09.44.72)
 > * Add KubaTech to mods enum by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2354 (5.09.44.72)
@@ -368,7 +356,6 @@
 > * Update buildscript by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2305 (5.09.44.25)
 >
 >## New Contributors
-> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2349 (5.09.44.74-pre)
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2349 (5.09.44.71)
 > * @tth05 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2333 (5.09.44.49)
 > * @BTone made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2334 (5.09.44.49)

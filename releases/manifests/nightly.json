@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-11-01T09:20:30.236278",
+  "last_updated": "2023-11-01T09:26:13.416933",
   "config": "2.4.2-nightly-2023-10-30",
   "github_mods": {
     "AdventureBackpack2": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.74-pre",
+      "version": "5.09.44.73",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
