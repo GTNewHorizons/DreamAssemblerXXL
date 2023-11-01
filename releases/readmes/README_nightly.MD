@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2023-10-31
+Version nightly is out 2023-11-01
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -246,7 +246,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | --- | --- |
 | [Advanced Solar Panel For 1.7.10 (Unofficial)](https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels) | 1.7.10 Edition |
 | [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.0.16-GTNH |
-| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.1.64-gtnh-pre |
+| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.1.63-gtnh |
 | [ae2stuff](https://github.com/GTNewHorizons/ae2stuff) | 0.6.0-GTNH |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.2.6-GTNH |
 | [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.0.3-GTNH |
@@ -470,7 +470,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [TravellersGearNeo](https://github.com/GTNewHorizons/TravellersGearNeo) | 1.0 |
 | [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.5.1 |
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.6.3 |
-| [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.12 |
+| [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.11 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.6.7 |
 | [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.2.0 |
 | [waila](https://github.com/GTNewHorizons/waila) | 1.6.2 |
