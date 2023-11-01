@@ -470,7 +470,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [TravellersGearNeo](https://github.com/GTNewHorizons/TravellersGearNeo) | 1.0 |
 | [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.5.1 |
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.6.3 |
-| [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.11 |
+| [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.13 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.6.7 |
 | [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.2.0 |
 | [waila](https://github.com/GTNewHorizons/waila) | 1.6.2 |
