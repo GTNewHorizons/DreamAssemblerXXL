@@ -104,12 +104,14 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/16 (1.2.0)
 >
 
-# Updated BetterCrashes (1.2.2-GTNH@Side.CLIENT --> 1.3.2-GTNH-pre@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.2.0-GTNH...1.3.2-GTNH-pre
+# Updated BetterCrashes (1.2.2-GTNH@Side.CLIENT --> 1.3.3-GTNH@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.2.0-GTNH...1.3.3-GTNH
 >## What's Changed
+> * Update to early mixin system by @Alexdoru in https://github.com/GTNewHorizons/BetterCrashes/pull/12 (1.3.3-GTNH)
 > * Switch to mclo.gs crash report upload, replace GTNH-specific code with configuration, and fix stacktrace deobfuscator by @wlhlm in https://github.com/GTNewHorizons/BetterCrashes/pull/11 (1.2.2-GTNH)
 >
 >## New Contributors
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/BetterCrashes/pull/12 (1.3.3-GTNH)
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/BetterCrashes/pull/11 (1.2.2-GTNH)
 >
 
@@ -471,9 +473,11 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
 >
 
-# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.24-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.24-pre
+# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.26-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.26-pre
 >## What's Changed
+> * Angelica Compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/268 (2.3.26-pre)
+> * Angelica Compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/268 (2.3.25)
 > * Fix Witchery's Mirror Reflections by @DrParadox7 in https://github.com/GTNewHorizons/Hodgepodge/pull/270 (2.3.22)
 > * Move NettyPatcher fix to Hodgepodge by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/265 (2.3.20-pre)
 > * Move NettyPatcher fix to Hodgepodge by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/265 (2.3.19)
@@ -578,8 +582,8 @@
 > * @dahgul333 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/739 (2.2.16)
 >
 
-# Updated NotEnoughItems (2.4.3-GTNH@Side.BOTH --> 2.4.6-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.2-GTNH...2.4.6-GTNH
+# Updated NotEnoughItems (2.4.3-GTNH@Side.BOTH --> 2.4.7-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.2-GTNH...2.4.7-GTNH-pre
 >## What's Changed
 > * Fix the case where the bookmark key is the same key that is used to close a GUI. by @Cardinalstars in https://github.com/GTNewHorizons/NotEnoughItems/pull/433 (2.4.6-GTNH)
 > * Fix DefaultStackStringifyHandler not using short for item id by @miozune in https://github.com/GTNewHorizons/NotEnoughItems/pull/430 (2.4.5-GTNH)
