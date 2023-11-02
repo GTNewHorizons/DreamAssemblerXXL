@@ -721,9 +721,10 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/TiC-Tooltips/pull/6 (1.2.11)
 >
 
-# Updated TinkersConstruct (1.10.5-GTNH@Side.BOTH --> 1.10.10-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.3-GTNH...1.10.10-GTNH-pre
+# Updated TinkersConstruct (1.10.5-GTNH@Side.BOTH --> 1.10.11-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.3-GTNH...1.10.11-GTNH
 >## What's Changed
+> * NEI bookmark pulling by @Nilau1998 in https://github.com/GTNewHorizons/TinkersConstruct/pull/100 (1.10.11-GTNH)
 > * feat: add ukrainian localization by @Oleksey-Korolenko in https://github.com/GTNewHorizons/TinkersConstruct/pull/94 (1.10.9-GTNH)
 > * use updated battlegear2 api by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/99 (1.10.8-GTNH)
 > * fix health bar not being shifted up by DualHotbar by @charagarlnad in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.7-GTNH-pre)
@@ -731,6 +732,7 @@
 > * Fix health bar renderer by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/97 (1.10.5-GTNH)
 >
 >## New Contributors
+> * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/100 (1.10.11-GTNH)
 > * @Oleksey-Korolenko made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/94 (1.10.9-GTNH)
 > * @charagarlnad made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.7-GTNH-pre)
 > * @charagarlnad made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.6-GTNH)

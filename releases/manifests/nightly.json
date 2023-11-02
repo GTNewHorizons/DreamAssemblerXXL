@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-11-01T21:09:33.760076",
+  "last_updated": "2023-11-02T12:40:53.605348",
   "config": "2.4.2-nightly-2023-10-30",
   "github_mods": {
     "AdventureBackpack2": {
@@ -637,7 +637,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.10.10-GTNH-pre",
+      "version": "1.10.11-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
