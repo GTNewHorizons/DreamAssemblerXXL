@@ -1,3 +1,5 @@
+# New Mods:
+> * ThaumicBoots
 # Mods Removed:
 > * Netty-Patcher
 # Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.63-gtnh@Side.BOTH)
@@ -806,6 +808,21 @@
 >
 >## New Contributors
 > * @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/24 (1.5.5)
+>
+
+# New Mod - ThaumicBoots (0.2.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/commits/0.2.1
+>## What's Changed
+> * Total rewrite of the codebase by @Alastors in https://github.com/GTNewHorizons/ThaumicBoots/pull/13 (0.2.1)
+> * Dramatically reduce the code duplication for the comet boots by @boubou19 in https://github.com/GTNewHorizons/ThaumicBoots/pull/6 (0.2.0)
+> * Bugfixes and code cleanup by @boubou19 in https://github.com/GTNewHorizons/ThaumicBoots/pull/5 (0.1.3)
+> * Comet Boots use electric magic for fall damage reduction by @boubou19 in https://github.com/GTNewHorizons/ThaumicBoots/pull/4 (0.1.2)
+> * Fixes the Voidwalker jump glitch by @Alastors in https://github.com/GTNewHorizons/ThaumicBoots/pull/2 (0.1.1)
+> * 0.1.0: BoOTs will fix ***everything*** by @Alastors in https://github.com/GTNewHorizons/ThaumicBoots/pull/1 (0.1.0)
+>
+>## New Contributors
+> * @boubou19 made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/4 (0.1.2)
+> * @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/1 (0.1.0)
 >
 
 # Updated ThaumicEnergistics (1.4.13-GTNH@Side.BOTH --> 1.5.0-GTNH@Side.BOTH)

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-11-10T13:59:45.253515",
+  "last_updated": "2023-11-10T14:35:39.437973",
   "config": "2.4.2-nightly-2023-11-10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -834,6 +834,10 @@
     },
     "CodeChickenLib": {
       "version": "1.1.8",
+      "side": "BOTH"
+    },
+    "ThaumicBoots": {
+      "version": "0.2.1",
       "side": "BOTH"
     }
   },
