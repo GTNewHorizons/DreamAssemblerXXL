@@ -2,9 +2,10 @@
 > * ThaumicBoots
 # Mods Removed:
 > * Netty-Patcher
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.63-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.63-gtnh
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.64-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.64-gtnh
 >## What's Changed
+> * Fix items and blocks being registered too late on dedicated server by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/170 (1.1.64-gtnh)
 > * Add dual interface p2p copy paste by @LewisSaber in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/169 (1.1.63-gtnh)
 > * fix NPE in FluidPatternDetails by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.62-gtnh)
 > * Fix translation ME Dual Interface on RU by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/165 (1.1.62-gtnh)
