@@ -49,9 +49,10 @@
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-280-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-280-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-281-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-281-GTNH
 >## What's Changed
+> * Wrap fake player instances in WeakReference by @tth05 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/422 (rv3-beta-281-GTNH)
 > * Adding Sticky Card to AE2 by @Cardinalstars in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/421 (rv3-beta-280-GTNH)
 > * Add tall crafting status by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/417 (rv3-beta-279-GTNH)
 > * feat: add ukrainian localization by @shegols in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/386 (rv3-beta-278-GTNH)
@@ -209,6 +210,30 @@
 > * @thibaut-fagart made their first contribution in https://github.com/GTNewHorizons/BuildCraftCompat/pull/10 (7.1.15)
 >
 
+# Updated CarpentersBlocks (3.4.0-GTNH@Side.BOTH --> 3.4.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/CarpentersBlocks/compare/3.3.8.2-GTNH...3.4.1-GTNH
+>## What's Changed
+> * Fixes a world memory leak by @Pelotrio in https://github.com/GTNewHorizons/CarpentersBlocks/pull/3 (3.4.1-GTNH)
+> * Stronger server-side validation in PacketActivateBlock by @eigenraven in https://github.com/GTNewHorizons/CarpentersBlocks/pull/2 (3.4.0-GTNH)
+>
+>## New Contributors
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/CarpentersBlocks/pull/3 (3.4.1-GTNH)
+> * @eigenraven made their first contribution in https://github.com/GTNewHorizons/CarpentersBlocks/pull/2 (3.4.0-GTNH)
+>
+
+# Updated Chisel (2.11.4-GTNH@Side.BOTH --> 2.12.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.11.3-GTNH...2.12.2-GTNH
+>## What's Changed
+> * emissive microblocks  by @iamblackornot in https://github.com/GTNewHorizons/Chisel/pull/34 (2.12.1-GTNH)
+> * Clear render block instances on world unload to not leak the world by @Pelotrio in https://github.com/GTNewHorizons/Chisel/pull/35 (2.12.0-GTNH)
+> * Fix Chisel opening its UI instead of looked at TE by @serenibyss in https://github.com/GTNewHorizons/Chisel/pull/32 (2.11.4-GTNH)
+>
+>## New Contributors
+> * @iamblackornot made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/34 (2.12.1-GTNH)
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/35 (2.12.0-GTNH)
+> * @serenibyss made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/32 (2.11.4-GTNH)
+>
+
 # Updated Controlling (1.0.0.5@Side.CLIENT --> 2.0.1@Side.CLIENT)
 **Full Changelog**: https://github.com/GTNewHorizons/Controlling/compare/1.0.0.4...2.0.1
 >## What's Changed
@@ -261,13 +286,15 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Default-Configs/pull/4 (1.1.3)
 >
 
-# Updated Draconic-Evolution (1.1.19-GTNH@Side.BOTH --> 1.2.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.18-GTNH...1.2.0-GTNH
+# Updated Draconic-Evolution (1.1.19-GTNH@Side.BOTH --> 1.2.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.1.18-GTNH...1.2.1-GTNH
 >## What's Changed
+> * Fix memory leak by @Pelotrio in https://github.com/GTNewHorizons/Draconic-Evolution/pull/42 (1.2.1-GTNH)
 > * Replace all references of blockType with getBlockType to fix NPE by @spacebuilder2020 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/41 (1.2.0-GTNH)
 > * Minor cleanup by @miozune in https://github.com/GTNewHorizons/Draconic-Evolution/pull/40 (1.1.19-GTNH)
 >
 >## New Contributors
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/42 (1.2.1-GTNH)
 > * @spacebuilder2020 made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/41 (1.2.0-GTNH)
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/40 (1.1.19-GTNH)
 >
@@ -305,12 +332,16 @@
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.18)
 >
 
-# Updated EnderIO (2.5.0@Side.BOTH --> 2.5.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.24...2.5.3
+# Updated EnderIO (2.5.0@Side.BOTH --> 2.5.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.24...2.5.4
 >## What's Changed
+> * Clientside world leak by @Pelotrio in https://github.com/GTNewHorizons/EnderIO/pull/136 (2.5.4)
 > * Set fluid conduit default connection mode to output only by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/135 (2.5.3)
 > * Change default connection mode of fluid conduits by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/134 (2.5.1)
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
+>
+>## New Contributors
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/136 (2.5.4)
 >
 
 # Updated ForgeMultipart (1.3.4@Side.BOTH --> 1.4.0@Side.BOTH)
@@ -323,9 +354,12 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.77@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.77
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.78@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.78
 >## What's Changed
+> * fix lag caused by too much parallel by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2358 (5.09.44.78)
+> * Add onChunkUnload method to IMetaTileEntity by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2362 (5.09.44.78)
+> * Fix EV+ Powered Repeller Range by @TechnicianLP in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2361 (5.09.44.78)
 > * Add config to crash on null recipe input by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2360 (5.09.44.77)
 > * Migrate to non-Object version Utility methods by @ghostflyby in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2359 (5.09.44.76)
 > * Add separated flags for recipe builder debug by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2352 (5.09.44.75)
@@ -403,15 +437,18 @@
 > * Update buildscript by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2305 (5.09.44.25)
 >
 >## New Contributors
+> * @HoleFish made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2358 (5.09.44.78)
+> * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2361 (5.09.44.78)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2357 (5.09.44.75)
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2349 (5.09.44.71)
 > * @tth05 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2333 (5.09.44.49)
 > * @BTone made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2334 (5.09.44.49)
 >
 
-# Updated GTNH-Intergalactic (1.2.0@Side.BOTH --> 1.2.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.28...1.2.3
+# Updated GTNH-Intergalactic (1.2.0@Side.BOTH --> 1.2.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.28...1.2.4
 >## What's Changed
+> * Update TecTech by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/53 (1.2.4)
 > * Cleanup isValidMetaTileEntity by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/52 (1.2.3)
 > * Fix recipes after DEFC movement by @kuba6000 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/51 (1.2.2)
 > * Prevent maintenance issues from occuring in SE + modules by @minecraft7771 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/50 (1.2.1)
