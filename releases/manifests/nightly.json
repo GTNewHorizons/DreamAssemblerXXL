@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-11-12T12:17:06.317092",
+  "last_updated": "2023-11-13T16:21:46.235429",
   "config": "2.4.2-nightly-2023-11-12",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.65-gtnh",
+      "version": "1.1.66-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -25,11 +25,11 @@
       "side": "BOTH"
     },
     "AppleCore": {
-      "version": "3.2.11",
+      "version": "3.2.12",
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-281-GTNH",
+      "version": "rv3-beta-282-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.8.9",
+      "version": "0.8.11",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.6.14",
+      "version": "4.7.0",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.78",
+      "version": "5.09.44.79",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.10.27",
+      "version": "1.10.29",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.2.35",
+      "version": "2.2.37",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Player-API": {
-      "version": "1.4.2",
+      "version": "1.4.3",
       "side": "BOTH"
     },
     "BetterAchievements": {
@@ -955,7 +955,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.18-beta-2",
+      "version": "1.5.18-beta-4",
       "side": "BOTH"
     },
     "Tinkers-Gregworks": {

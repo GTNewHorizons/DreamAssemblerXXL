@@ -2,9 +2,10 @@
 > * ThaumicBoots
 # Mods Removed:
 > * Netty-Patcher
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.65-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.65-gtnh
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.66-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.66-gtnh
 >## What's Changed
+> * Increase maintainer digit limit to 16. by @MarchingCube in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/172 (1.1.66-gtnh)
 > * Fix loading order again by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/171 (1.1.65-gtnh)
 > * Fix items and blocks being registered too late on dedicated server by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/170 (1.1.64-gtnh)
 > * Add dual interface p2p copy paste by @LewisSaber in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/169 (1.1.63-gtnh)
@@ -26,6 +27,7 @@
 > * Fix Wireless Pattern Terminal not saving stack size change to blank pattern slot by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/158 (1.1.42-gtnh)
 >
 >## New Contributors
+> * @MarchingCube made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/172 (1.1.66-gtnh)
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/169 (1.1.63-gtnh)
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.62-gtnh)
 > * @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/165 (1.1.62-gtnh)
@@ -49,9 +51,18 @@
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-281-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-281-GTNH
+# Updated AppleCore (3.2.11@Side.BOTH --> 3.2.12@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.2.10...3.2.12
 >## What's Changed
+> * `@Local` / `@Share` / `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/AppleCore/pull/28 (3.2.12)
+> * Fix FoodStats crash with Thermos by @miozune in https://github.com/GTNewHorizons/AppleCore/pull/27 (3.2.11)
+>
+
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-282-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-282-GTNH
+>## What's Changed
+> * Fix AE2 not being able to take more than 2.14B items from one cell. by @Phineasor in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/424 (rv3-beta-282-GTNH)
+> * Use simple array list instead of two maps to manage inventories in NetworkInventoryHandler by @tth05 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/423 (rv3-beta-282-GTNH)
 > * Wrap fake player instances in WeakReference by @tth05 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/422 (rv3-beta-281-GTNH)
 > * Adding Sticky Card to AE2 by @Cardinalstars in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/421 (rv3-beta-280-GTNH)
 > * Add tall crafting status by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/417 (rv3-beta-279-GTNH)
@@ -78,6 +89,7 @@
 > * NEI Bookmark Pulling for AE2 by @Nilau1998 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/372 (rv3-beta-258-GTNH)
 >
 >## New Contributors
+> * @Phineasor made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/424 (rv3-beta-282-GTNH)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/421 (rv3-beta-280-GTNH)
 > * @shegols made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/386 (rv3-beta-278-GTNH)
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/401 (rv3-beta-275-GTNH)
@@ -344,6 +356,16 @@
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/136 (2.5.4)
 >
 
+# Updated ForestryMC (4.6.14@Side.BOTH --> 4.7.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.13...4.7.0
+>## What's Changed
+> * Mails are now checked for prohibited items by @DrParadox7 in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
+> * Update dependency types by @miozune in https://github.com/GTNewHorizons/ForestryMC/pull/56 (4.6.14)
+>
+>## New Contributors
+> * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
+>
+
 # Updated ForgeMultipart (1.3.4@Side.BOTH --> 1.4.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.3.3...1.4.0
 >## What's Changed
@@ -354,9 +376,10 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.78@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.78
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.79@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.79
 >## What's Changed
+> * update progress to fit a bit better by @bombcar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2363 (5.09.44.79)
 > * fix lag caused by too much parallel by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2358 (5.09.44.78)
 > * Add onChunkUnload method to IMetaTileEntity by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2362 (5.09.44.78)
 > * Fix EV+ Powered Repeller Range by @TechnicianLP in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2361 (5.09.44.78)
@@ -472,9 +495,11 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.27@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.27
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.29@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.29
 >## What's Changed
+> * Cleanup basic machines and textures by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/779 (1.10.29)
+> * Remove ruthenium roasting by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/780 (1.10.28)
 > * Remove WA leftovers by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/778 (1.10.27)
 > * Fix Calcium Chloride recipe to generate in LCR by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/776 (1.10.26)
 > * Minor lang fix by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GTplusplus/pull/777 (1.10.26)
@@ -652,9 +677,12 @@
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/53 (1.1.19)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.35@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.35
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.37@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.37
 >## What's Changed
+> * Add LCR AssemblerRecipes. by @DarkAhri in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/751 (2.2.37)
+> * Fix the recipe and the research for the crafting input bus by @Pelotrio in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/754 (2.2.37)
+> * Add maintenance hatch recipe with advanced glue by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/755 (2.2.36)
 > * Use multiple of 144 for molten enderium by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/752 (2.2.35)
 > * Add EBF and vacuum freezer controller assembler recipes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/750 (2.2.34)
 > * Cleanup isValidMetaTileEntity by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/749 (2.2.33)
@@ -678,6 +706,7 @@
 > * Fix and cleanup machine chassis recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/734 (2.2.12)
 >
 >## New Contributors
+> * @DarkAhri made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/751 (2.2.37)
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/748 (2.2.32)
 > * @Laiff made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/741 (2.2.30)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/747 (2.2.26-pre)
@@ -753,6 +782,16 @@
 >
 >## New Contributors
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/PersonalSpace/pull/21 (1.0.27)
+>
+
+# Updated Player-API (1.4.2@Side.BOTH --> 1.4.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Player-API/compare/1.4.1...1.4.3
+>## What's Changed
+> * Update CF link in README by @glowredman in https://github.com/GTNewHorizons/Player-API/pull/2 (1.4.3)
+> * 1.4 Sources by @glowredman in https://github.com/GTNewHorizons/Player-API/pull/1 (1.4.2)
+>
+>## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/Player-API/pull/1 (1.4.2)
 >
 
 # Updated ProjectRed (4.7.12-GTNH@Side.BOTH --> 4.8.0-GTNH@Side.BOTH)
@@ -947,14 +986,20 @@
 > * @kumquat-ir made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/43 (1.3.4-GTNH)
 >
 
-# Updated bartworks (0.8.6@Side.BOTH --> 0.8.9@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.5...0.8.9
+# Updated bartworks (0.8.6@Side.BOTH --> 0.8.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.5...0.8.11
 >## What's Changed
+> * ABS fluid output free from bart recipe reaper  by @lordIcocain in https://github.com/GTNewHorizons/bartworks/pull/368 (0.8.11)
+> * Fix MDT void protection by @MarchingCube in https://github.com/GTNewHorizons/bartworks/pull/367 (0.8.10)
+> * Relax the Mega Chemical Reactor Structure Requirements by @ALongStringOfNumbers in https://github.com/GTNewHorizons/bartworks/pull/366 (0.8.10)
 > * Make the Humongous input hatch UXV tier by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/365 (0.8.9)
 > * Cleanup isValidMetaTileEntity and some more by @miozune in https://github.com/GTNewHorizons/bartworks/pull/364 (0.8.8)
 > * [Hotfix] Fix packet crash with Vat renderer by @miozune in https://github.com/GTNewHorizons/bartworks/pull/363 (0.8.7)
 > * Cleanup by @glowredman in https://github.com/GTNewHorizons/bartworks/pull/354 (0.8.6)
 > * Fix plasmid recipe by @chochem in https://github.com/GTNewHorizons/bartworks/pull/362 (0.8.6)
+>
+>## New Contributors
+> * @ALongStringOfNumbers made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/366 (0.8.10)
 >
 
 # Updated inventory-tweaks (1.5.16@Side.CLIENT --> 1.6.0@Side.CLIENT)
