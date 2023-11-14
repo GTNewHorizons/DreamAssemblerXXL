@@ -98,10 +98,19 @@ jobs:
         run: |
           echo "# GTNH Nightly build ${{ steps.date.outputs.today }}" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
+
+          echo "## Github mods" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
           echo "| Mod | Version | Side |" >> "$GITHUB_STEP_SUMMARY"
           echo "| --- | ------- | ---- |" >> "$GITHUB_STEP_SUMMARY"
-          jq -r '.github_mods | keys[] as $k | ["", $k, .[$k].version, .[$k].side, ""] | join(" | ") | ltrimstr(" ")' releases/manifests/nightly.json >> "$GITHUB_STEP_SUMMARY"
-          jq -r '.external_mods | keys[] as $k | ["", $k, .[$k].version, .[$k].side, ""] | join(" | ") | ltrimstr(" ")' releases/manifests/nightly.json >> "$GITHUB_STEP_SUMMARY"
+          jq -r '.github_mods | keys[] as $k | ["", $k, .[$k].version, .[$k].side, ""] | join(" | ") | ltrimstr(" ")' releases/manifests/nightly.json | sort >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+
+          echo "## External mods" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Mod | Version | Side |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| --- | ------- | ---- |" >> "$GITHUB_STEP_SUMMARY"
+          jq -r '.external_mods | keys[] as $k | ["", $k, .[$k].version, .[$k].side, ""] | join(" | ") | ltrimstr(" ")' releases/manifests/nightly.json | sort >> "$GITHUB_STEP_SUMMARY"
 
       - name: Relocate built zips
         shell: bash
