@@ -125,9 +125,10 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/16 (1.2.0)
 >
 
-# Updated BetterCrashes (1.2.2-GTNH@Side.CLIENT --> 1.3.3-GTNH@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.2.0-GTNH...1.3.3-GTNH
+# Updated BetterCrashes (1.2.2-GTNH@Side.CLIENT --> 1.3.4-GTNH@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.2.0-GTNH...1.3.4-GTNH
 >## What's Changed
+> * Fix crash count not being read by @miozune in https://github.com/GTNewHorizons/BetterCrashes/pull/14 (1.3.4-GTNH)
 > * Update to early mixin system by @Alexdoru in https://github.com/GTNewHorizons/BetterCrashes/pull/12 (1.3.3-GTNH)
 > * Switch to mclo.gs crash report upload, replace GTNH-specific code with configuration, and fix stacktrace deobfuscator by @wlhlm in https://github.com/GTNewHorizons/BetterCrashes/pull/11 (1.2.2-GTNH)
 >
@@ -376,9 +377,12 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.79@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.79
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.81@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.81
 >## What's Changed
+> * Allow a recipe's displayed NEI item outputs to be changed by @Elisis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2367 (5.09.44.81)
+> * Notifiy greg tech tile entities of world unload event by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2366 (5.09.44.80)
+> * Fix recipe check after previous PR by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2364 (5.09.44.80)
 > * update progress to fit a bit better by @bombcar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2363 (5.09.44.79)
 > * fix lag caused by too much parallel by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2358 (5.09.44.78)
 > * Add onChunkUnload method to IMetaTileEntity by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2362 (5.09.44.78)
@@ -495,9 +499,10 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.29@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.29
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.30@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.30
 >## What's Changed
+> * Update chemplant logic to catch up with new parallel helper logic by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/782 (1.10.30)
 > * Cleanup basic machines and textures by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/779 (1.10.29)
 > * Remove ruthenium roasting by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/780 (1.10.28)
 > * Remove WA leftovers by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/778 (1.10.27)
@@ -677,9 +682,10 @@
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/53 (1.1.19)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.37@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.37
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.38@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.38
 >## What's Changed
+> * Add lapotronic energy orb cluster space assembler recipe by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/753 (2.2.38)
 > * Add LCR AssemblerRecipes. by @DarkAhri in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/751 (2.2.37)
 > * Fix the recipe and the research for the crafting input bus by @Pelotrio in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/754 (2.2.37)
 > * Add maintenance hatch recipe with advanced glue by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/755 (2.2.36)
@@ -986,9 +992,10 @@
 > * @kumquat-ir made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/43 (1.3.4-GTNH)
 >
 
-# Updated bartworks (0.8.6@Side.BOTH --> 0.8.11@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.5...0.8.11
+# Updated bartworks (0.8.6@Side.BOTH --> 0.8.12@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.5...0.8.12
 >## What's Changed
+> * Fix EIC piston reset sometimes crash and doesn't return piston blocks by @kuba6000 in https://github.com/GTNewHorizons/bartworks/pull/369 (0.8.12)
 > * ABS fluid output free from bart recipe reaper  by @lordIcocain in https://github.com/GTNewHorizons/bartworks/pull/368 (0.8.11)
 > * Fix MDT void protection by @MarchingCube in https://github.com/GTNewHorizons/bartworks/pull/367 (0.8.10)
 > * Relax the Mega Chemical Reactor Structure Requirements by @ALongStringOfNumbers in https://github.com/GTNewHorizons/bartworks/pull/366 (0.8.10)
