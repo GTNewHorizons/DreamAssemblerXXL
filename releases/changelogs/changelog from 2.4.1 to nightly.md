@@ -163,14 +163,16 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/116 (3.4.1-GTNH)
 >
 
-# Updated Binnie (2.2.0@Side.BOTH --> 2.2.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.10...2.2.2
+# Updated Binnie (2.2.0@Side.BOTH --> 2.2.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.10...2.2.3
 >## What's Changed
+> * Optimized flower color enumeration array retrieval by @Pelotrio in https://github.com/GTNewHorizons/Binnie/pull/40 (2.2.3)
 > * Optimize PlankType$ExtraBiomesPlank.getStack() by @miozune in https://github.com/GTNewHorizons/Binnie/pull/39 (2.2.2)
 > * NEI item manager overlay integration by @ghostflyby in https://github.com/GTNewHorizons/Binnie/pull/38 (2.2.1)
 > * Fix Incubator breaking with item outputs by @Lyfts in https://github.com/GTNewHorizons/Binnie/pull/37 (2.2.0)
 >
 >## New Contributors
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/40 (2.2.3)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/38 (2.2.1)
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/37 (2.2.0)
 >
@@ -377,9 +379,12 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.81@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.81
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.83@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.83
 >## What's Changed
+> * remove duplicate Gasoline LCR recipe by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2371 (5.09.44.83)
+> * Toned down DistilleryLoop.ogg to 60% by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2370 (5.09.44.83)
+> * Harvest IC2 machine with wrench left click by @ghostflyby in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2365 (5.09.44.82)
 > * Allow a recipe's displayed NEI item outputs to be changed by @Elisis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2367 (5.09.44.81)
 > * Notifiy greg tech tile entities of world unload event by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2366 (5.09.44.80)
 > * Fix recipe check after previous PR by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2364 (5.09.44.80)
@@ -590,9 +595,11 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
 >
 
-# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.29@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.29
+# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.31@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.31
 >## What's Changed
+> * Remove annoying `GL error` message from Optifine/Shadersmod by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/279 (2.3.31)
+> * Add VoxelMap Fixes by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/275 (2.3.30)
 > * Small Cleanup (mostly `@Share` / `@Local`) by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/276 (2.3.29)
 > * ExtraTiC Patch p.2 by @DrParadox7 in https://github.com/GTNewHorizons/Hodgepodge/pull/277 (2.3.29)
 > * Cleanup ASM/mixins coremods by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/261 (2.3.28)
