@@ -2,6 +2,7 @@
 > * ThaumicBoots
 # Mods Removed:
 > * Netty-Patcher
+> * p455w0rd's Library
 # Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.66-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.66-gtnh
 >## What's Changed

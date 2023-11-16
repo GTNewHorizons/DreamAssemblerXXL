@@ -412,7 +412,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [OpenSecurity](https://github.com/GTNewHorizons/OpenSecurity) | 1.0.120-GTNH |
 | [Opis](https://github.com/GTNewHorizons/Opis) | 1.3.8-mapless |
 | [OverloadedArmorBar](https://github.com/GTNewHorizons/OverloadedArmorBar) | 1.0.3 |
-| [p455w0rd's Library](https://www.curseforge.com/minecraft/mc-mods/p455w0rds-library) | 1.0.4 |
 | [Pam's Harvest the Nether](https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether) | 1.7.10a |
 | [PersonalSpace](https://github.com/GTNewHorizons/PersonalSpace) | 1.0.28 |
 | [Player-API](https://github.com/GTNewHorizons/Player-API) | 1.4.3 |
