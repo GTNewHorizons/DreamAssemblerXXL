@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-11-15T15:42:47.373050",
-  "config": "2.4.2-nightly-2023-11-12",
+  "last_updated": "2023-11-16T10:18:36.692470",
+  "config": "2.4.2-nightly-2023-11-16",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.16-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-282-GTNH",
+      "version": "rv3-beta-283-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.2.12-GTNH",
+      "version": "1.2.13-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.13.5",
+      "version": "0.13.6",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -377,7 +377,7 @@
       "side": "BOTH"
     },
     "MalisisDoors": {
-      "version": "1.13.7-GTNH",
+      "version": "1.14.0-GTNH",
       "side": "BOTH"
     },
     "Mantle": {
@@ -669,7 +669,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.6.2",
+      "version": "1.6.3",
       "side": "BOTH"
     },
     "WailaHarvestability": {

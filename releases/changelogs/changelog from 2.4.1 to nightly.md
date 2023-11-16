@@ -58,8 +58,8 @@
 > * Fix FoodStats crash with Thermos by @miozune in https://github.com/GTNewHorizons/AppleCore/pull/27 (3.2.11)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-282-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-282-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-283-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-283-GTNH-pre
 >## What's Changed
 > * Fix AE2 not being able to take more than 2.14B items from one cell. by @Phineasor in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/424 (rv3-beta-282-GTNH)
 > * Use simple array list instead of two maps to manage inventories in NetworkInventoryHandler by @tth05 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/423 (rv3-beta-282-GTNH)
@@ -553,15 +553,17 @@
 > * Use llamalad7's MixinExtras by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/80 (3.0.74-GTNH)
 >
 
-# Updated Galaxy-Space-GTNH (1.2.9-GTNH@Side.BOTH --> 1.2.12-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.2.8-GTNH...1.2.12-GTNH
+# Updated Galaxy-Space-GTNH (1.2.9-GTNH@Side.BOTH --> 1.2.13-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.2.8-GTNH...1.2.13-GTNH
 >## What's Changed
+> * Add autobuild for dyson by @Pelotrio in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/103 (1.2.13-GTNH)
 > * Just register the boots as boots by @chochem in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/102 (1.2.12-GTNH)
 > * Cleanup isValidMetaTileEntity by @miozune in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/101 (1.2.11-GTNH)
 > * Fix recipes after DEFC movement by @kuba6000 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/100 (1.2.10-GTNH)
 > * Fix Dyson module consumption by @S4mpsa in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/99 (1.2.9-GTNH)
 >
 >## New Contributors
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/103 (1.2.13-GTNH)
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/100 (1.2.10-GTNH)
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/99 (1.2.9-GTNH)
 >
@@ -647,9 +649,10 @@
 > * @querns made their first contribution in https://github.com/GTNewHorizons/Jabba/pull/26 (1.3.0)
 >
 
-# Updated KubaTech (0.13.2@Side.BOTH --> 0.13.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.13.1...0.13.5
+# Updated KubaTech (0.13.2@Side.BOTH --> 0.13.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.13.1...0.13.6
 >## What's Changed
+> * Fix EEC WorldClient leak by @Pelotrio in https://github.com/GTNewHorizons/KubaTech/pull/102 (0.13.6)
 > * Add Draconic Evolution Fusion Crafter (moved from EMT) by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/101 (0.13.5)
 > * Use the new method to copy entity from MobsInfo by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/98 (0.13.4)
 > * update bs+deps by @Dream-Master in https://github.com/GTNewHorizons/KubaTech/pull/99 (0.13.4)
@@ -658,6 +661,7 @@
 > * update deps by @Dream-Master in https://github.com/GTNewHorizons/KubaTech/pull/97 (0.13.2)
 >
 >## New Contributors
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/102 (0.13.6)
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/100 (0.13.4)
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/97 (0.13.2)
 >
@@ -671,6 +675,16 @@
 >
 >## New Contributors
 > * @krashton1 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/26 (1.0.8-GTNH)
+>
+
+# Updated MalisisDoors (1.13.7-GTNH@Side.BOTH --> 1.14.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MalisisDoors/compare/1.13.6-GTNH...1.14.0-GTNH
+>## What's Changed
+> * Fix world leak by @Pelotrio in https://github.com/GTNewHorizons/MalisisDoors/pull/7 (1.13.8-GTNH)
+> * Fix dev environment loading crash by @eigenraven in https://github.com/GTNewHorizons/MalisisDoors/pull/5 (1.13.7-GTNH)
+>
+>## New Contributors
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/MalisisDoors/pull/7 (1.13.8-GTNH)
 >
 
 # Updated Mobs-Info (0.1.6-GTNH@Side.BOTH --> 0.1.10-GTNH@Side.BOTH)
@@ -1082,15 +1096,17 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
 >
 
-# Updated waila (1.6.0@Side.BOTH --> 1.6.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.5.24...1.6.2
+# Updated waila (1.6.0@Side.BOTH --> 1.6.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.5.24...1.6.3
 >## What's Changed
+> * Remove unnecessary targetStack and targetEntity fields in RayTracing class by @tth05 in https://github.com/GTNewHorizons/waila/pull/15 (1.6.3)
 > * Move font init to getter with guard if by @ghostflyby in https://github.com/GTNewHorizons/waila/pull/13 (1.6.2)
 > * Cleanup by @Dream-Master in https://github.com/GTNewHorizons/waila/pull/14 (1.6.2)
 > * Move font init to getter with guard if by @ghostflyby in https://github.com/GTNewHorizons/waila/pull/13 (1.6.1-pre)
 > * Fixing dependencies.gradle by @Cardinalstars in https://github.com/GTNewHorizons/waila/pull/12 (1.6.0)
 >
 >## New Contributors
+> * @tth05 made their first contribution in https://github.com/GTNewHorizons/waila/pull/15 (1.6.3)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/waila/pull/13 (1.6.2)
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/waila/pull/14 (1.6.2)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/waila/pull/13 (1.6.1-pre)
