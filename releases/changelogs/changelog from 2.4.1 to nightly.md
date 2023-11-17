@@ -237,9 +237,10 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/CarpentersBlocks/pull/2 (3.4.0-GTNH)
 >
 
-# Updated Chisel (2.11.4-GTNH@Side.BOTH --> 2.12.2-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.11.3-GTNH...2.12.2-GTNH
+# Updated Chisel (2.11.4-GTNH@Side.BOTH --> 2.12.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.11.3-GTNH...2.12.3-GTNH
 >## What's Changed
+> * Fix more memory leaks by @Pelotrio in https://github.com/GTNewHorizons/Chisel/pull/36 (2.12.3-GTNH)
 > * emissive microblocks  by @iamblackornot in https://github.com/GTNewHorizons/Chisel/pull/34 (2.12.1-GTNH)
 > * Clear render block instances on world unload to not leak the world by @Pelotrio in https://github.com/GTNewHorizons/Chisel/pull/35 (2.12.0-GTNH)
 > * Fix Chisel opening its UI instead of looked at TE by @serenibyss in https://github.com/GTNewHorizons/Chisel/pull/32 (2.11.4-GTNH)
@@ -348,9 +349,10 @@
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.18)
 >
 
-# Updated EnderIO (2.5.0@Side.BOTH --> 2.5.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.24...2.5.4
+# Updated EnderIO (2.5.0@Side.BOTH --> 2.5.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.24...2.5.5
 >## What's Changed
+> * Add unload event handling to ClientNetworkManager by @Pelotrio in https://github.com/GTNewHorizons/EnderIO/pull/137 (2.5.5)
 > * Clientside world leak by @Pelotrio in https://github.com/GTNewHorizons/EnderIO/pull/136 (2.5.4)
 > * Set fluid conduit default connection mode to output only by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/135 (2.5.3)
 > * Change default connection mode of fluid conduits by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/134 (2.5.1)
@@ -380,8 +382,8 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.83@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.83
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.85-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.85-pre
 >## What's Changed
 > * remove duplicate Gasoline LCR recipe by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2371 (5.09.44.83)
 > * Toned down DistilleryLoop.ogg to 60% by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2370 (5.09.44.83)
@@ -702,6 +704,17 @@
 >## New Contributors
 > * @tth05 made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/54 (1.1.21)
 > * @firenoo made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/53 (1.1.19)
+>
+
+# Updated MrTJPCore (1.1.4@Side.BOTH --> 1.1.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MrTJPCore/compare/1.1.3...1.1.5
+>## What's Changed
+> * Use UUIDs as keys instead of player instances in KeyTracking state map by @tth05 in https://github.com/GTNewHorizons/MrTJPCore/pull/4 (1.1.5)
+> * disable update checking by @Alexdoru in https://github.com/GTNewHorizons/MrTJPCore/pull/3 (1.1.4)
+>
+>## New Contributors
+> * @tth05 made their first contribution in https://github.com/GTNewHorizons/MrTJPCore/pull/4 (1.1.5)
+> * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MrTJPCore/pull/3 (1.1.4)
 >
 
 # Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.38@Side.BOTH)
@@ -1097,9 +1110,10 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
 >
 
-# Updated waila (1.6.0@Side.BOTH --> 1.6.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.5.24...1.6.3
+# Updated waila (1.6.0@Side.BOTH --> 1.6.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.5.24...1.6.4
 >## What's Changed
+> * Clear DataAccessorCommon instance when leaving world by @tth05 in https://github.com/GTNewHorizons/waila/pull/16 (1.6.4)
 > * Remove unnecessary targetStack and targetEntity fields in RayTracing class by @tth05 in https://github.com/GTNewHorizons/waila/pull/15 (1.6.3)
 > * Move font init to getter with guard if by @ghostflyby in https://github.com/GTNewHorizons/waila/pull/13 (1.6.2)
 > * Cleanup by @Dream-Master in https://github.com/GTNewHorizons/waila/pull/14 (1.6.2)
