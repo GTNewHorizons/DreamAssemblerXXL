@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-11-17T15:40:57.841245",
+  "last_updated": "2023-11-19T15:52:41.633289",
   "config": "2.4.2-nightly-2023-11-16",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-283-GTNH-pre",
+      "version": "rv3-beta-286-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.85-pre",
+      "version": "5.09.44.86",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.3.31",
+      "version": "2.3.32",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -669,7 +669,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.6.4",
+      "version": "1.6.5",
       "side": "BOTH"
     },
     "WailaHarvestability": {

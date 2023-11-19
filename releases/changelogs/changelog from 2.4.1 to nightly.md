@@ -59,9 +59,13 @@
 > * Fix FoodStats crash with Thermos by @miozune in https://github.com/GTNewHorizons/AppleCore/pull/27 (3.2.11)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-283-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-283-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-286-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-286-GTNH
 >## What's Changed
+> * Change the interface and finish the whole function. by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/427 (rv3-beta-286-GTNH)
+> * Add Singularity Crafting Storage by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/425 (rv3-beta-285-GTNH)
+> * Add pattern count to crafting preview screen by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/426 (rv3-beta-285-GTNH)
+> * Add network bytes information for network status gui by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/419 (rv3-beta-284-GTNH)
 > * Fix AE2 not being able to take more than 2.14B items from one cell. by @Phineasor in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/424 (rv3-beta-282-GTNH)
 > * Use simple array list instead of two maps to manage inventories in NetworkInventoryHandler by @tth05 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/423 (rv3-beta-282-GTNH)
 > * Wrap fake player instances in WeakReference by @tth05 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/422 (rv3-beta-281-GTNH)
@@ -90,6 +94,8 @@
 > * NEI Bookmark Pulling for AE2 by @Nilau1998 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/372 (rv3-beta-258-GTNH)
 >
 >## New Contributors
+> * @lordIcocain made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/425 (rv3-beta-285-GTNH)
+> * @MCTBL made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/419 (rv3-beta-284-GTNH)
 > * @Phineasor made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/424 (rv3-beta-282-GTNH)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/421 (rv3-beta-280-GTNH)
 > * @shegols made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/386 (rv3-beta-278-GTNH)
@@ -382,9 +388,10 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.85-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.85-pre
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.86@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.86
 >## What's Changed
+> * Fix recipe check once more by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2373 (5.09.44.86)
 > * remove duplicate Gasoline LCR recipe by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2371 (5.09.44.83)
 > * Toned down DistilleryLoop.ogg to 60% by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2370 (5.09.44.83)
 > * Harvest IC2 machine with wrench left click by @ghostflyby in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2365 (5.09.44.82)
@@ -600,9 +607,11 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
 >
 
-# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.31@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.31
+# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.32@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.32
 >## What's Changed
+> * Fix EffectRenderer keeping reference to world instance when leaving world by @tth05 in https://github.com/GTNewHorizons/Hodgepodge/pull/278 (2.3.32)
+> * More Angelica Compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/281 (2.3.32)
 > * Remove annoying `GL error` message from Optifine/Shadersmod by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/279 (2.3.31)
 > * Add VoxelMap Fixes by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/275 (2.3.30)
 > * Small Cleanup (mostly `@Share` / `@Local`) by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/276 (2.3.29)
@@ -1110,9 +1119,10 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
 >
 
-# Updated waila (1.6.0@Side.BOTH --> 1.6.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.5.24...1.6.4
+# Updated waila (1.6.0@Side.BOTH --> 1.6.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.5.24...1.6.5
 >## What's Changed
+> * Convert world unload event handler to public inner class by @tth05 in https://github.com/GTNewHorizons/waila/pull/17 (1.6.5)
 > * Clear DataAccessorCommon instance when leaving world by @tth05 in https://github.com/GTNewHorizons/waila/pull/16 (1.6.4)
 > * Remove unnecessary targetStack and targetEntity fields in RayTracing class by @tth05 in https://github.com/GTNewHorizons/waila/pull/15 (1.6.3)
 > * Move font init to getter with guard if by @ghostflyby in https://github.com/GTNewHorizons/waila/pull/13 (1.6.2)
