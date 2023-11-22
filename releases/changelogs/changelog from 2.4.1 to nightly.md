@@ -3,9 +3,10 @@
 # Mods Removed:
 > * Netty-Patcher
 > * p455w0rd's Library
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.66-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.66-gtnh
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.67-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.67-gtnh
 >## What's Changed
+> * Implement the new interface in AE2 for network bytes informations. by @MCTBL in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/173 (1.1.67-gtnh)
 > * Increase maintainer digit limit to 16. by @MarchingCube in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/172 (1.1.66-gtnh)
 > * Fix loading order again by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/171 (1.1.65-gtnh)
 > * Fix items and blocks being registered too late on dedicated server by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/170 (1.1.64-gtnh)
@@ -28,6 +29,7 @@
 > * Fix Wireless Pattern Terminal not saving stack size change to blank pattern slot by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/158 (1.1.42-gtnh)
 >
 >## New Contributors
+> * @MCTBL made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/173 (1.1.67-gtnh)
 > * @MarchingCube made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/172 (1.1.66-gtnh)
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/169 (1.1.63-gtnh)
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/163 (1.1.62-gtnh)
@@ -59,9 +61,10 @@
 > * Fix FoodStats crash with Thermos by @miozune in https://github.com/GTNewHorizons/AppleCore/pull/27 (3.2.11)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-286-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-286-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-287-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-287-GTNH
 >## What's Changed
+> * Add data sync and fix Gui problem. by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/428 (rv3-beta-287-GTNH)
 > * Change the interface and finish the whole function. by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/427 (rv3-beta-286-GTNH)
 > * Add Singularity Crafting Storage by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/425 (rv3-beta-285-GTNH)
 > * Add pattern count to crafting preview screen by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/426 (rv3-beta-285-GTNH)
@@ -388,9 +391,11 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.86@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.86
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.87@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.87
 >## What's Changed
+> * Change to only allow connections when Redstone is needed by @Cardinalstars in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2374 (5.09.44.87)
+> * Fix wrench opening gui when rotating some blocks by @ghostflyby in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2376 (5.09.44.87)
 > * Fix recipe check once more by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2373 (5.09.44.86)
 > * remove duplicate Gasoline LCR recipe by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2371 (5.09.44.83)
 > * Toned down DistilleryLoop.ogg to 60% by @minecraft7771 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2370 (5.09.44.83)
@@ -479,6 +484,7 @@
 > * Update buildscript by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2305 (5.09.44.25)
 >
 >## New Contributors
+> * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2374 (5.09.44.87)
 > * @HoleFish made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2358 (5.09.44.78)
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2361 (5.09.44.78)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2357 (5.09.44.75)
@@ -514,9 +520,11 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.30@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.30
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.31@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.31
 >## What's Changed
+> * Getting rid of a bunch of BS. Unused items and classes by @Cardinalstars in https://github.com/GTNewHorizons/GTplusplus/pull/784 (1.10.31)
+> * Allow Simple Washers to clean Purified Dusts, adds LV/HV/IV/ZPM Simple Washers by @querns in https://github.com/GTNewHorizons/GTplusplus/pull/783 (1.10.31)
 > * Update chemplant logic to catch up with new parallel helper logic by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/782 (1.10.30)
 > * Cleanup basic machines and textures by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/779 (1.10.29)
 > * Remove ruthenium roasting by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/780 (1.10.28)
@@ -541,6 +549,7 @@
 > * Fix incorrect extruder recipe voltages for GT++ materials. by @fluffle in https://github.com/GTNewHorizons/GTplusplus/pull/750 (1.10.11)
 >
 >## New Contributors
+> * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/784 (1.10.31)
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/764 (1.10.18)
 > * @harrynull made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/762 (1.10.17)
 > * @YeahImRose made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/756 (1.10.12)
@@ -607,9 +616,10 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
 >
 
-# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.32@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.32
+# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.33@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.33
 >## What's Changed
+> * Update Packet Exploit Patch for Bibliocraft by @DrParadox7 in https://github.com/GTNewHorizons/Hodgepodge/pull/282 (2.3.33)
 > * Fix EffectRenderer keeping reference to world instance when leaving world by @tth05 in https://github.com/GTNewHorizons/Hodgepodge/pull/278 (2.3.32)
 > * More Angelica Compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/281 (2.3.32)
 > * Remove annoying `GL error` message from Optifine/Shadersmod by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/279 (2.3.31)
@@ -702,9 +712,10 @@
 # Updated Mobs-Info (0.1.6-GTNH@Side.BOTH --> 0.1.10-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.5-GTNH...0.1.10-GTNH
 
-# Updated ModularUI (1.1.18@Side.BOTH --> 1.1.22@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.17...1.1.22
+# Updated ModularUI (1.1.18@Side.BOTH --> 1.1.23@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.17...1.1.23
 >## What's Changed
+> * Fix lighting for some drawables by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/56 (1.1.23)
 > * Add slot index to FluidGrouBuilder#widgetCreator by @tth05 in https://github.com/GTNewHorizons/ModularUI/pull/55 (1.1.22)
 > * Add more convenience methods to FluidGroupBuilder by @tth05 in https://github.com/GTNewHorizons/ModularUI/pull/54 (1.1.21)
 > * fix fluid lighting by @firenoo in https://github.com/GTNewHorizons/ModularUI/pull/53 (1.1.19)
@@ -798,9 +809,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/15 (1.4.0-GTNH)
 >
 
-# Updated OpenBlocks (1.7.0-GTNH@Side.BOTH --> 1.7.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.6.10-GTNH...1.7.1-GTNH
+# Updated OpenBlocks (1.7.0-GTNH@Side.BOTH --> 1.8.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.6.10-GTNH...1.8.0-GTNH
 >## What's Changed
+> * Rendering fix by @Cardinalstars in https://github.com/GTNewHorizons/OpenBlocks/pull/17 (1.8.0-GTNH)
 > * Stop GT++ editing grave hardness by @Connor-Colenso in https://github.com/GTNewHorizons/OpenBlocks/pull/13 (1.7.1-GTNH)
 > * Fix build by @miozune in https://github.com/GTNewHorizons/OpenBlocks/pull/14 (1.7.1-GTNH)
 > * Add dimension blacklist for handglider from OpenBlocks by @Connor-Colenso in https://github.com/GTNewHorizons/OpenBlocks/pull/15 (1.7.1-GTNH)
@@ -808,6 +820,7 @@
 > * Improve item config toggles by @jss2a98aj in https://github.com/GTNewHorizons/OpenBlocks/pull/12 (1.7.0-GTNH)
 >
 >## New Contributors
+> * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/17 (1.8.0-GTNH)
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/13 (1.7.1-GTNH)
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/14 (1.7.1-GTNH)
 > * @jss2a98aj made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/11 (1.7.0-GTNH)
@@ -862,6 +875,17 @@
 >## New Contributors
 > * @antihutka made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/49 (9.15.1)
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/48 (9.15.0)
+>
+
+# Updated Realistic-World-Gen (alpha-1.3.3.2@Side.BOTH --> alpha-1.3.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen/compare/alpha-1.3.3.0...alpha-1.3.4
+>## What's Changed
+> * Add configs for caves, mineshafts, underground lakes, and villages by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/9 (alpha-1.3.4)
+> * Add command to set 2.2.0.0 compatibility to worldgen on a per-world basis by @dvdmandt in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/4 (alpha-1.3.3.2)
+>
+>## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/9 (alpha-1.3.4)
+> * @dvdmandt made their first contribution in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/4 (alpha-1.3.3.2)
 >
 
 # Updated Share-Where-I-am (0.2.0@Side.BOTH --> 2.0.2@Side.BOTH)
@@ -953,13 +977,15 @@
 > * @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/1 (0.1.0)
 >
 
-# Updated ThaumicEnergistics (1.4.13-GTNH@Side.BOTH --> 1.5.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.12-GTNH...1.5.0-GTNH
+# Updated ThaumicEnergistics (1.4.13-GTNH@Side.BOTH --> 1.5.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.12-GTNH...1.5.1-GTNH
 >## What's Changed
+> * Implement the new interface in AE2 for network bytes information. by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/52 (1.5.1-GTNH)
 > * Fixing broken class that exteneded and interaface + update BS + repos by @Cardinalstars in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/51 (1.5.0-GTNH)
 > * Use a generated hashcode for EssentiaMonitor by @firenoo in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/50 (1.4.13-GTNH)
 >
 >## New Contributors
+> * @MCTBL made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/52 (1.5.1-GTNH)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/51 (1.5.0-GTNH)
 >
 
