@@ -737,9 +737,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MrTJPCore/pull/3 (1.1.4)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.38@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.38
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.39@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.39
 >## What's Changed
+> * Integrate LetsEncryptAdder to fix https downloads in Curse by @eigenraven in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/757 (2.2.39)
 > * Add lapotronic energy orb cluster space assembler recipe by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/753 (2.2.38)
 > * Add LCR AssemblerRecipes. by @DarkAhri in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/751 (2.2.37)
 > * Fix the recipe and the research for the crafting input bus by @Pelotrio in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/754 (2.2.37)
