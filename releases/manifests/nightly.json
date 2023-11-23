@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-11-22T17:03:50.392502",
+  "last_updated": "2023-11-23T13:50:47.129943",
   "config": "2.4.2-nightly-2023-11-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -593,7 +593,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.3.13",
+      "version": "5.3.14",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {

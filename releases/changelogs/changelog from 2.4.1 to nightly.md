@@ -933,9 +933,10 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
 >
 
-# Updated TecTech (5.3.3@Side.BOTH --> 5.3.13@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.13
+# Updated TecTech (5.3.3@Side.BOTH --> 5.3.14@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.14
 >## What's Changed
+> * Fixing the EOH OC situation by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/256 (5.3.14)
 > * EOH now checks for all possible circuits in input bus by @Pelotrio in https://github.com/GTNewHorizons/TecTech/pull/254 (5.3.13)
 > * Fix creative tab NPE by @bjin2000 in https://github.com/GTNewHorizons/TecTech/pull/253 (5.3.12)
 > * Fix recipes after DEFC movement by @kuba6000 in https://github.com/GTNewHorizons/TecTech/pull/252 (5.3.11)
