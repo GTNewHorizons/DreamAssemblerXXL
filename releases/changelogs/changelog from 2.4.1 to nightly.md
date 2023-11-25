@@ -61,9 +61,11 @@
 > * Fix FoodStats crash with Thermos by @miozune in https://github.com/GTNewHorizons/AppleCore/pull/27 (3.2.11)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-287-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-287-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-288-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-288-GTNH
 >## What's Changed
+> * Fix internal server error when opening fluid storage bus by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/431 (rv3-beta-288-GTNH)
+> * Fix empty chest will cause byte info can't collect. by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/430 (rv3-beta-288-GTNH)
 > * Add data sync and fix Gui problem. by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/428 (rv3-beta-287-GTNH)
 > * Change the interface and finish the whole function. by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/427 (rv3-beta-286-GTNH)
 > * Add Singularity Crafting Storage by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/425 (rv3-beta-285-GTNH)
@@ -358,9 +360,10 @@
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.18)
 >
 
-# Updated EnderIO (2.5.0@Side.BOTH --> 2.5.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.24...2.5.5
+# Updated EnderIO (2.5.0@Side.BOTH --> 2.5.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.24...2.5.6
 >## What's Changed
+> * Open conduit connection GUI with more wrenches using shift + left-click by @ghostflyby in https://github.com/GTNewHorizons/EnderIO/pull/139 (2.5.6)
 > * Add unload event handling to ClientNetworkManager by @Pelotrio in https://github.com/GTNewHorizons/EnderIO/pull/137 (2.5.5)
 > * Clientside world leak by @Pelotrio in https://github.com/GTNewHorizons/EnderIO/pull/136 (2.5.4)
 > * Set fluid conduit default connection mode to output only by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/135 (2.5.3)
@@ -368,6 +371,7 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 >## New Contributors
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/139 (2.5.6)
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/136 (2.5.4)
 >
 
@@ -391,9 +395,10 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.87@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.87
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.88@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.88
 >## What's Changed
+> * Show rotation grid direction hint for IC2 wrenchable and vanilla by @ghostflyby in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2377 (5.09.44.88)
 > * Change to only allow connections when Redstone is needed by @Cardinalstars in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2374 (5.09.44.87)
 > * Fix wrench opening gui when rotating some blocks by @ghostflyby in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2376 (5.09.44.87)
 > * Fix recipe check once more by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2373 (5.09.44.86)
@@ -616,9 +621,11 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
 >
 
-# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.33@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.33
+# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.35@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.35
 >## What's Changed
+> * Revert "Check for >0 instead of !=0" by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/284 (2.3.35)
+> * Check for >0 instead of !=0 by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/283 (2.3.34)
 > * Update Packet Exploit Patch for Bibliocraft by @DrParadox7 in https://github.com/GTNewHorizons/Hodgepodge/pull/282 (2.3.33)
 > * Fix EffectRenderer keeping reference to world instance when leaving world by @tth05 in https://github.com/GTNewHorizons/Hodgepodge/pull/278 (2.3.32)
 > * More Angelica Compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/281 (2.3.32)
@@ -709,8 +716,8 @@
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/MalisisDoors/pull/7 (1.13.8-GTNH)
 >
 
-# Updated Mobs-Info (0.1.6-GTNH@Side.BOTH --> 0.1.10-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.5-GTNH...0.1.10-GTNH
+# Updated Mobs-Info (0.1.6-GTNH@Side.BOTH --> 0.1.11-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.5-GTNH...0.1.11-GTNH
 
 # Updated ModularUI (1.1.18@Side.BOTH --> 1.1.23@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.17...1.1.23
@@ -810,9 +817,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/15 (1.4.0-GTNH)
 >
 
-# Updated OpenBlocks (1.7.0-GTNH@Side.BOTH --> 1.8.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.6.10-GTNH...1.8.0-GTNH
+# Updated OpenBlocks (1.7.0-GTNH@Side.BOTH --> 1.8.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.6.10-GTNH...1.8.1-GTNH
 >## What's Changed
+> * Gravestone Fix by @DrParadox7 in https://github.com/GTNewHorizons/OpenBlocks/pull/18 (1.8.1-GTNH)
 > * Rendering fix by @Cardinalstars in https://github.com/GTNewHorizons/OpenBlocks/pull/17 (1.8.0-GTNH)
 > * Stop GT++ editing grave hardness by @Connor-Colenso in https://github.com/GTNewHorizons/OpenBlocks/pull/13 (1.7.1-GTNH)
 > * Fix build by @miozune in https://github.com/GTNewHorizons/OpenBlocks/pull/14 (1.7.1-GTNH)
@@ -821,6 +829,7 @@
 > * Improve item config toggles by @jss2a98aj in https://github.com/GTNewHorizons/OpenBlocks/pull/12 (1.7.0-GTNH)
 >
 >## New Contributors
+> * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/18 (1.8.1-GTNH)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/17 (1.8.0-GTNH)
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/13 (1.7.1-GTNH)
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/14 (1.7.1-GTNH)
@@ -878,9 +887,11 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/48 (9.15.0)
 >
 
-# Updated Realistic-World-Gen (alpha-1.3.3.2@Side.BOTH --> alpha-1.3.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen/compare/alpha-1.3.3.0...alpha-1.3.4
+# Updated Realistic-World-Gen (alpha-1.3.3.2@Side.BOTH --> alpha-1.3.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen/compare/alpha-1.3.3.0...alpha-1.3.5
 >## What's Changed
+> * Rename biomes by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/10 (alpha-1.3.5)
+> * Rename biomes in config file by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/11 (alpha-1.3.5)
 > * Add configs for caves, mineshafts, underground lakes, and villages by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/9 (alpha-1.3.4)
 > * Add command to set 2.2.0.0 compatibility to worldgen on a per-world basis by @dvdmandt in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/4 (alpha-1.3.3.2)
 >
@@ -979,9 +990,11 @@
 > * @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/1 (0.1.0)
 >
 
-# Updated ThaumicEnergistics (1.4.13-GTNH@Side.BOTH --> 1.5.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.12-GTNH...1.5.1-GTNH
+# Updated ThaumicEnergistics (1.4.13-GTNH@Side.BOTH --> 1.5.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.12-GTNH...1.5.2-GTNH
 >## What's Changed
+> * Fix that ThE can't recognized the advanced network tool and can't render the large toolbox correctly. by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/53 (1.5.2-GTNH)
+> * Add 256K to 16384K essentia cell for ThE by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/54 (1.5.2-GTNH)
 > * Implement the new interface in AE2 for network bytes information. by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/52 (1.5.1-GTNH)
 > * Fixing broken class that exteneded and interaface + update BS + repos by @Cardinalstars in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/51 (1.5.0-GTNH)
 > * Use a generated hashcode for EssentiaMonitor by @firenoo in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/50 (1.4.13-GTNH)
@@ -1105,11 +1118,16 @@
 > * @Radplay made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/10 (6.0.72)
 >
 
-# Updated lwjgl3ify (1.5.1@Side.BOTH_JAVA9 --> 1.5.2@Side.BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.0...1.5.2
+# Updated lwjgl3ify (1.5.1@Side.BOTH_JAVA9 --> 1.5.4@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.0...1.5.4
 >## What's Changed
+> * Check for GLFW_KEY_UNKNOWN by @mitchej123 in https://github.com/GTNewHorizons/lwjgl3ify/pull/94 (1.5.4)
+> * Adjustments needed to get Angelica (Iris/Oculus backport) working by @mitchej123 in https://github.com/GTNewHorizons/lwjgl3ify/pull/88 (1.5.3)
 > * Fix a wrong log4j config file being included in forgePatches by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/86 (1.5.2)
 > * Fix Display.isCloseRequested not resetting the flag upon call like in lwjgl2 by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/83 (1.5.1)
+>
+>## New Contributors
+> * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/88 (1.5.3)
 >
 
 # Updated neiaddons (1.12.22@Side.BOTH --> 1.13.0@Side.BOTH)
