@@ -223,6 +223,16 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/BugTorch/pull/20 (1.2.11-GTNH)
 >
 
+# Updated BuildCraft (7.1.36@Side.BOTH --> 7.1.37@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.34...7.1.37
+>## What's Changed
+> * Fix missing gates recipes with dreamcraft by @ghostflyby in https://github.com/GTNewHorizons/BuildCraft/pull/17 (7.1.37)
+> * Fix crash with RemoteIO by @miozune in https://github.com/GTNewHorizons/BuildCraft/pull/16 (7.1.36)
+>
+>## New Contributors
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/BuildCraft/pull/17 (7.1.37)
+>
+
 # Updated BuildCraftCompat (7.1.14@Side.BOTH --> 7.1.16@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BuildCraftCompat/compare/7.1.13...7.1.16
 >## What's Changed
@@ -385,9 +395,10 @@
 > * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
 >
 
-# Updated ForgeMultipart (1.3.4@Side.BOTH --> 1.4.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.3.3...1.4.0
+# Updated ForgeMultipart (1.3.4@Side.BOTH --> 1.4.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.3.3...1.4.1
 >## What's Changed
+> * Potential Fix to some FMP stuff relating to Redstone parts not connecting to bottoms of machines. by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/18 (1.4.1)
 > * BS Update and spotlessApply by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 > * Update build by @miozune in https://github.com/GTNewHorizons/ForgeMultipart/pull/16 (1.3.4)
 >
@@ -395,9 +406,11 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.88@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.88
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.89@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.89
 >## What's Changed
+> * DTPF batch mode by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2372 (5.09.44.89)
+> * Fix Barnarda C Sapling metadata from bee effect by @shiita0903 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2378 (5.09.44.89)
 > * Show rotation grid direction hint for IC2 wrenchable and vanilla by @ghostflyby in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2377 (5.09.44.88)
 > * Change to only allow connections when Redstone is needed by @Cardinalstars in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2374 (5.09.44.87)
 > * Fix wrench opening gui when rotating some blocks by @ghostflyby in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2376 (5.09.44.87)
@@ -489,6 +502,7 @@
 > * Update buildscript by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2305 (5.09.44.25)
 >
 >## New Contributors
+> * @shiita0903 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2378 (5.09.44.89)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2374 (5.09.44.87)
 > * @HoleFish made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2358 (5.09.44.78)
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2361 (5.09.44.78)
@@ -594,9 +608,10 @@
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/99 (1.2.9-GTNH)
 >
 
-# Updated GigaGramFab (0.3.2@Side.BOTH --> 0.3.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.3.0...0.3.3
+# Updated GigaGramFab (0.3.2@Side.BOTH --> 0.3.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.3.0...0.3.4
 >## What's Changed
+> * adv assline ui enhancements by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/21 (0.3.4)
 > * fix linked input bus dropping item when there are still one bus on same freq by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/20 (0.3.3)
 > * ensure to only call getStackInSlot once per tick by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/18 (0.3.2)
 >
@@ -1006,10 +1021,14 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/51 (1.5.0-GTNH)
 >
 
-# Updated ThaumicTinkerer (2.8.2@Side.BOTH --> 2.8.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.8.1...2.8.4
+# Updated ThaumicTinkerer (2.8.2@Side.BOTH --> 2.8.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.8.1...2.8.5
 >## What's Changed
+> * Added balancing configs for Shadowbeam Focus. by @Purple-Towel in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/35 (2.8.5)
 > * Fix Robes of the Stratosphere rendering memory leak by @eigenraven in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/34 (2.8.3)
+>
+>## New Contributors
+> * @Purple-Towel made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/35 (2.8.5)
 >
 
 # Updated TiC-Tooltips (1.2.11@Side.CLIENT --> 1.3.0@Side.CLIENT)
