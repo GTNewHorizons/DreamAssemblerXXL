@@ -525,9 +525,10 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.31@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.31
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.32@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.32
 >## What's Changed
+> * Add precious metals alloy recipe for ABS by @lordIcocain in https://github.com/GTNewHorizons/GTplusplus/pull/781 (1.10.32)
 > * Getting rid of a bunch of BS. Unused items and classes by @Cardinalstars in https://github.com/GTNewHorizons/GTplusplus/pull/784 (1.10.31)
 > * Allow Simple Washers to clean Purified Dusts, adds LV/HV/IV/ZPM Simple Washers by @querns in https://github.com/GTNewHorizons/GTplusplus/pull/783 (1.10.31)
 > * Update chemplant logic to catch up with new parallel helper logic by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/782 (1.10.30)
@@ -554,6 +555,7 @@
 > * Fix incorrect extruder recipe voltages for GT++ materials. by @fluffle in https://github.com/GTNewHorizons/GTplusplus/pull/750 (1.10.11)
 >
 >## New Contributors
+> * @lordIcocain made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/781 (1.10.32)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/784 (1.10.31)
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/764 (1.10.18)
 > * @harrynull made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/762 (1.10.17)
