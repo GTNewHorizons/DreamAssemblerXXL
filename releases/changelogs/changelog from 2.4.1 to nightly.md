@@ -61,9 +61,10 @@
 > * Fix FoodStats crash with Thermos by @miozune in https://github.com/GTNewHorizons/AppleCore/pull/27 (3.2.11)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-288-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-288-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-258-GTNH@Side.BOTH --> rv3-beta-289-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-257-GTNH...rv3-beta-289-GTNH
 >## What's Changed
+> * Fix bytes info will reach the limit of long by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/432 (rv3-beta-289-GTNH)
 > * Fix internal server error when opening fluid storage bus by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/431 (rv3-beta-288-GTNH)
 > * Fix empty chest will cause byte info can't collect. by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/430 (rv3-beta-288-GTNH)
 > * Add data sync and fix Gui problem. by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/428 (rv3-beta-287-GTNH)
@@ -406,9 +407,13 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.89@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.89
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.91@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.91
 >## What's Changed
+> * Always enable all material components by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2380 (5.09.44.91)
+> * Move pipes from NHCore by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2381 (5.09.44.91)
+> * Fix recipe check by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2379 (5.09.44.90)
+> * Fix recipe check by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2379 (5.09.44.90-pre)
 > * DTPF batch mode by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2372 (5.09.44.89)
 > * Fix Barnarda C Sapling metadata from bee effect by @shiita0903 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2378 (5.09.44.89)
 > * Show rotation grid direction hint for IC2 wrenchable and vanilla by @ghostflyby in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2377 (5.09.44.88)
@@ -685,6 +690,17 @@
 > * ForgeDirection by @mitchej123 in https://github.com/GTNewHorizons/HydroEnergy/pull/22 (1.1.0)
 >
 
+# Updated InGame-Info-XML (2.8.4@Side.CLIENT --> 2.8.5@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.3.96...2.8.5
+>## What's Changed
+> * Fix coloring issue with the FPS counter by @crimson-mist in https://github.com/GTNewHorizons/InGame-Info-XML/pull/19 (2.8.5)
+> * New gt module for oregen patterns by @chochem in https://github.com/GTNewHorizons/InGame-Info-XML/pull/18 (2.8.4)
+>
+>## New Contributors
+> * @crimson-mist made their first contribution in https://github.com/GTNewHorizons/InGame-Info-XML/pull/19 (2.8.5)
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/InGame-Info-XML/pull/18 (2.8.4)
+>
+
 # Updated Jabba (1.3.0@Side.BOTH --> 1.3.1@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.2.22...1.3.1
 >## What's Changed
@@ -733,8 +749,8 @@
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/MalisisDoors/pull/7 (1.13.8-GTNH)
 >
 
-# Updated Mobs-Info (0.1.6-GTNH@Side.BOTH --> 0.1.11-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.5-GTNH...0.1.11-GTNH
+# Updated Mobs-Info (0.1.6-GTNH@Side.BOTH --> 0.1.12-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.5-GTNH...0.1.12-GTNH
 
 # Updated ModularUI (1.1.18@Side.BOTH --> 1.1.23@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.17...1.1.23
@@ -761,9 +777,13 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MrTJPCore/pull/3 (1.1.4)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.39@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.39
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.41@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.41
 >## What's Changed
+> * Adapt to IMaterialHandler change by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/761 (2.2.41)
+> * Move pipes to GT by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/762 (2.2.41)
+> * Remove duplicate circuit recipes from code by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/759 (2.2.40)
+> * Add blaze blocks to chisel by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/760 (2.2.40)
 > * Integrate LetsEncryptAdder to fix https downloads in Curse by @eigenraven in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/757 (2.2.39)
 > * Add lapotronic energy orb cluster space assembler recipe by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/753 (2.2.38)
 > * Add LCR AssemblerRecipes. by @DarkAhri in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/751 (2.2.37)
@@ -800,6 +820,20 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/747 (2.2.25)
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/746 (2.2.25)
 > * @dahgul333 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/739 (2.2.16)
+>
+
+# Updated NotEnoughIds (1.4.6@Side.BOTH --> 1.5.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/1.4.4...1.5.2
+>## What's Changed
+> * Fix for static array in S21PacketChunkData by @Cleptomania in https://github.com/GTNewHorizons/NotEnoughIds/pull/6 (1.5.2)
+> * Keep old jar name by @Caedis in https://github.com/GTNewHorizons/NotEnoughIds/pull/3 (1.5.1)
+> * Convert ASM -> Mixins by @Cleptomania in https://github.com/GTNewHorizons/NotEnoughIds/pull/2 (1.5.0)
+> * Fix the crash with newer asm versions by explicitly expanding and recomputing stack frames by @eigenraven in https://github.com/GTNewHorizons/NotEnoughIds/pull/1 (1.4.6)
+>
+>## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/3 (1.5.1)
+> * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/2 (1.5.0)
+> * @eigenraven made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/1 (1.4.6)
 >
 
 # Updated NotEnoughItems (2.4.3-GTNH@Side.BOTH --> 2.4.12-GTNH@Side.BOTH)
@@ -961,9 +995,10 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
 >
 
-# Updated TecTech (5.3.3@Side.BOTH --> 5.3.14@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.14
+# Updated TecTech (5.3.3@Side.BOTH --> 5.3.15@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.15
 >## What's Changed
+> * Some more EOH changes by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/260 (5.3.15)
 > * Fixing the EOH OC situation by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/256 (5.3.14)
 > * EOH now checks for all possible circuits in input bus by @Pelotrio in https://github.com/GTNewHorizons/TecTech/pull/254 (5.3.13)
 > * Fix creative tab NPE by @bjin2000 in https://github.com/GTNewHorizons/TecTech/pull/253 (5.3.12)
@@ -1042,9 +1077,10 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/TiC-Tooltips/pull/6 (1.2.11)
 >
 
-# Updated TinkersConstruct (1.10.5-GTNH@Side.BOTH --> 1.10.11-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.3-GTNH...1.10.11-GTNH
+# Updated TinkersConstruct (1.10.5-GTNH@Side.BOTH --> 1.10.12-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.3-GTNH...1.10.12-GTNH
 >## What's Changed
+> * Patch for Angelica by @ah-OOG-ah in https://github.com/GTNewHorizons/TinkersConstruct/pull/101 (1.10.12-GTNH)
 > * NEI bookmark pulling by @Nilau1998 in https://github.com/GTNewHorizons/TinkersConstruct/pull/100 (1.10.11-GTNH)
 > * feat: add ukrainian localization by @Oleksey-Korolenko in https://github.com/GTNewHorizons/TinkersConstruct/pull/94 (1.10.9-GTNH)
 > * use updated battlegear2 api by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/99 (1.10.8-GTNH)
@@ -1053,6 +1089,7 @@
 > * Fix health bar renderer by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/97 (1.10.5-GTNH)
 >
 >## New Contributors
+> * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/101 (1.10.12-GTNH)
 > * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/100 (1.10.11-GTNH)
 > * @Oleksey-Korolenko made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/94 (1.10.9-GTNH)
 > * @charagarlnad made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/98 (1.10.7-GTNH-pre)
@@ -1098,9 +1135,10 @@
 > * @kumquat-ir made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/43 (1.3.4-GTNH)
 >
 
-# Updated bartworks (0.8.6@Side.BOTH --> 0.8.12@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.5...0.8.12
+# Updated bartworks (0.8.6@Side.BOTH --> 0.8.13@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.5...0.8.13
 >## What's Changed
+> * Add Circuit Assembler Mode by @LewisSaber in https://github.com/GTNewHorizons/bartworks/pull/370 (0.8.13)
 > * Fix EIC piston reset sometimes crash and doesn't return piston blocks by @kuba6000 in https://github.com/GTNewHorizons/bartworks/pull/369 (0.8.12)
 > * ABS fluid output free from bart recipe reaper  by @lordIcocain in https://github.com/GTNewHorizons/bartworks/pull/368 (0.8.11)
 > * Fix MDT void protection by @MarchingCube in https://github.com/GTNewHorizons/bartworks/pull/367 (0.8.10)
@@ -1113,6 +1151,16 @@
 >
 >## New Contributors
 > * @ALongStringOfNumbers made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/366 (0.8.10)
+>
+
+# Updated harvestcraft (1.1.1-GTNH@Side.BOTH --> 1.1.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.1.0-GTNH...1.1.2-GTNH
+>## What's Changed
+> * Implemented Banana and Gooseberry Juices by @DrParadox7 in https://github.com/GTNewHorizons/harvestcraft/pull/49 (1.1.2-GTNH)
+> * Fix some juice items not having oredict listAlljuice by @miozune in https://github.com/GTNewHorizons/harvestcraft/pull/47 (1.1.1-GTNH)
+>
+>## New Contributors
+> * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/harvestcraft/pull/49 (1.1.2-GTNH)
 >
 
 # Updated inventory-tweaks (1.5.16@Side.CLIENT --> 1.6.0@Side.CLIENT)
@@ -1139,15 +1187,18 @@
 > * @Radplay made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/10 (6.0.72)
 >
 
-# Updated lwjgl3ify (1.5.1@Side.BOTH_JAVA9 --> 1.5.4@Side.BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.0...1.5.4
+# Updated lwjgl3ify (1.5.1@Side.BOTH_JAVA9 --> 1.5.6@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.0...1.5.6
 >## What's Changed
+> * Fix for horizontal scrolling by @unilock in https://github.com/GTNewHorizons/lwjgl3ify/pull/96 (1.5.6)
+> * Add missing GL_ARB_direct_state_access needed for osx by @mitchej123 in https://github.com/GTNewHorizons/lwjgl3ify/pull/95 (1.5.5)
 > * Check for GLFW_KEY_UNKNOWN by @mitchej123 in https://github.com/GTNewHorizons/lwjgl3ify/pull/94 (1.5.4)
 > * Adjustments needed to get Angelica (Iris/Oculus backport) working by @mitchej123 in https://github.com/GTNewHorizons/lwjgl3ify/pull/88 (1.5.3)
 > * Fix a wrong log4j config file being included in forgePatches by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/86 (1.5.2)
 > * Fix Display.isCloseRequested not resetting the flag upon call like in lwjgl2 by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/83 (1.5.1)
 >
 >## New Contributors
+> * @unilock made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/96 (1.5.6)
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/88 (1.5.3)
 >
 
