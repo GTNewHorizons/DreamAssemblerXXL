@@ -273,6 +273,17 @@
 > * @serenibyss made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/32 (2.11.4-GTNH)
 >
 
+# Updated CodeChickenLib (1.1.8@Side.BOTH --> 1.1.9@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenLib/compare/1.1.7...1.1.9
+>## What's Changed
+> * Fix ItemStack packet id limited by short by @miozune in https://github.com/GTNewHorizons/CodeChickenLib/pull/12 (1.1.9)
+> * null check chunk extensions to not cause errors with chunk pregenerator by @unix-supremacist in https://github.com/GTNewHorizons/CodeChickenLib/pull/11 (1.1.8)
+>
+>## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/CodeChickenLib/pull/12 (1.1.9)
+> * @unix-supremacist made their first contribution in https://github.com/GTNewHorizons/CodeChickenLib/pull/11 (1.1.8)
+>
+
 # Updated Controlling (1.0.0.5@Side.CLIENT --> 2.0.1@Side.CLIENT)
 **Full Changelog**: https://github.com/GTNewHorizons/Controlling/compare/1.0.0.4...2.0.1
 >## What's Changed
@@ -544,9 +555,10 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.32@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.32
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.33@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.33
 >## What's Changed
+> * Reduce minimum casing requirement for various machines by @Pelotrio in https://github.com/GTNewHorizons/GTplusplus/pull/785 (1.10.33)
 > * Add precious metals alloy recipe for ABS by @lordIcocain in https://github.com/GTNewHorizons/GTplusplus/pull/781 (1.10.32)
 > * Getting rid of a bunch of BS. Unused items and classes by @Cardinalstars in https://github.com/GTNewHorizons/GTplusplus/pull/784 (1.10.31)
 > * Allow Simple Washers to clean Purified Dusts, adds LV/HV/IV/ZPM Simple Washers by @querns in https://github.com/GTNewHorizons/GTplusplus/pull/783 (1.10.31)
@@ -574,6 +586,7 @@
 > * Fix incorrect extruder recipe voltages for GT++ materials. by @fluffle in https://github.com/GTNewHorizons/GTplusplus/pull/750 (1.10.11)
 >
 >## New Contributors
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/785 (1.10.33)
 > * @lordIcocain made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/781 (1.10.32)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/784 (1.10.31)
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/764 (1.10.18)
@@ -1042,9 +1055,10 @@
 > * @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/1 (0.1.0)
 >
 
-# Updated ThaumicEnergistics (1.4.13-GTNH@Side.BOTH --> 1.5.2-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.12-GTNH...1.5.2-GTNH
+# Updated ThaumicEnergistics (1.4.13-GTNH@Side.BOTH --> 1.5.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.12-GTNH...1.5.3-GTNH
 >## What's Changed
+> * Quantum and Singularity cell for essentia by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/55 (1.5.3-GTNH)
 > * Fix that ThE can't recognized the advanced network tool and can't render the large toolbox correctly. by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/53 (1.5.2-GTNH)
 > * Add 256K to 16384K essentia cell for ThE by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/54 (1.5.2-GTNH)
 > * Implement the new interface in AE2 for network bytes information. by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/52 (1.5.1-GTNH)
@@ -1056,6 +1070,16 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/51 (1.5.0-GTNH)
 >
 
+# Updated ThaumicHorizons (1.3.5@Side.BOTH --> 1.4.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.3.4...1.4.0
+>## What's Changed
+> * Alternative russian translation by @Gordon-Frohman in https://github.com/GTNewHorizons/ThaumicHorizons/pull/60 (1.4.0)
+> * validate player has the prereq self infusion before doing what player has requested by @Glease in https://github.com/GTNewHorizons/ThaumicHorizons/pull/54 (1.3.5)
+>
+>## New Contributors
+> * @Gordon-Frohman made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/60 (1.4.0)
+>
+
 # Updated ThaumicTinkerer (2.8.2@Side.BOTH --> 2.8.5@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.8.1...2.8.5
 >## What's Changed
@@ -1064,6 +1088,18 @@
 >
 >## New Contributors
 > * @Purple-Towel made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/35 (2.8.5)
+>
+
+# Updated Thaumic_Exploration (1.1.94-GTNH@Side.BOTH --> 1.2.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.1.93-GTNH...1.2.0-GTNH
+>## What's Changed
+> * fix rare class cast exception by @Glease in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/31 (1.2.0-GTNH)
+> * Nourishment Talisman Default Research Update  by @Shibva in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/28 (1.1.94-GTNH)
+> * Fix warp desync issues by @TimeConqueror in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/29 (1.1.94-GTNH)
+>
+>## New Contributors
+> * @Shibva made their first contribution in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/28 (1.1.94-GTNH)
+> * @TimeConqueror made their first contribution in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/29 (1.1.94-GTNH)
 >
 
 # Updated TiC-Tooltips (1.2.11@Side.CLIENT --> 1.3.0@Side.CLIENT)

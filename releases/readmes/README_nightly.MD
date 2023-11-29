@@ -294,7 +294,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.12.3-GTNH |
 | [ChiselTones](https://github.com/GTNewHorizons/ChiselTones) | 1.0.4-GTNH |
 | [CodeChickenCore](https://github.com/GTNewHorizons/CodeChickenCore) | 1.1.11 |
-| [CodeChickenLib](https://github.com/GTNewHorizons/CodeChickenLib) | 1.1.8 |
+| [CodeChickenLib](https://github.com/GTNewHorizons/CodeChickenLib) | 1.1.9 |
 | [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core) | 3.1.4-329 |
 | [Compact Kinetic Generators](https://forum.industrial-craft.net/thread/12724-ic2-exp-1-7-10-compact-kinetic-generators/) | 1.0 |
 | [Computronics](https://github.com/GTNewHorizons/Computronics) | 1.7.1-GTNH |
@@ -345,7 +345,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.11.4 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.3.1 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.0.13 |
-| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.10.32 |
+| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.10.33 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.9.7-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.2-GTNH |
@@ -450,11 +450,11 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) | 4.2.3.5a |
 | [ThaumcraftMobAspects](https://github.com/GTNewHorizons/ThaumcraftMobAspects) | 1.0.0-GTNH |
 | [Thaumic Machina](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2200956-wip-1-7-10-open-beta-thaumcraft-4-2-addon-thaumic) | 0.2.1 |
-| [Thaumic_Exploration](https://github.com/GTNewHorizons/Thaumic_Exploration) | 1.1.94-GTNH |
+| [Thaumic_Exploration](https://github.com/GTNewHorizons/Thaumic_Exploration) | 1.2.0-GTNH |
 | [ThaumicBases](https://github.com/GTNewHorizons/ThaumicBases) | 1.5.6 |
 | [ThaumicBoots](https://github.com/GTNewHorizons/ThaumicBoots) | 0.2.1 |
-| [ThaumicEnergistics](https://github.com/GTNewHorizons/ThaumicEnergistics) | 1.5.2-GTNH |
-| [ThaumicHorizons](https://github.com/GTNewHorizons/ThaumicHorizons) | 1.3.5 |
+| [ThaumicEnergistics](https://github.com/GTNewHorizons/ThaumicEnergistics) | 1.5.3-GTNH |
+| [ThaumicHorizons](https://github.com/GTNewHorizons/ThaumicHorizons) | 1.4.0 |
 | [thaumicinsurgence](https://github.com/GTNewHorizons/thaumicinsurgence) | 0.2.7 |
 | [ThaumicInventoryScanning](https://github.com/GTNewHorizons/ThaumicInventoryScanning) | 1.0.12-GTNH |
 | [ThaumicTinkerer](https://github.com/GTNewHorizons/ThaumicTinkerer) | 2.8.5 |
