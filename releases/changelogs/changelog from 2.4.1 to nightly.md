@@ -948,9 +948,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MrTJPCore/pull/3 (1.1.4)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.45@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.45
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.46@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.46
 >## What's Changed
+> * Achievementhandler Fixes by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/770 (2.2.46)
 > * Add chisel for knightmetal blocks by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/768 (2.2.44)
 > * Add Achievement Handler for special Trophy Achievements by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/769 (2.2.44)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/765 (2.2.44)
