@@ -491,9 +491,11 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.98@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.98
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.100@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.100
 >## What's Changed
+> * Fix RA1 addChemicalRecipe not handling cells by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2391 (5.09.44.100)
+> * Add API to limit number of recipe outputs by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2390 (5.09.44.99)
 > * Fix parallel helper crash with 0 EU/t recipe by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2389 (5.09.44.98)
 > * Update AE2FC by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2388 (5.09.44.97)
 > * Refactor RecipeMap by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2345 (5.09.44.96)
@@ -667,9 +669,10 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.39@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.39
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.40@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.40
 >## What's Changed
+> * Fix steam grinder expecting more than 1 slot for void protection by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/790 (1.10.40)
 > * remove traceback from PlayerCache.dat by @bombcar in https://github.com/GTNewHorizons/GTplusplus/pull/787 (1.10.38)
 > * fix steam machine nei structure diagram by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/789 (1.10.37)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/788 (1.10.37)
@@ -743,9 +746,10 @@
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/99 (1.2.9-GTNH)
 >
 
-# Updated GigaGramFab (0.3.2@Side.BOTH --> 0.3.7-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.3.0...0.3.7-pre
+# Updated GigaGramFab (0.3.2@Side.BOTH --> 0.3.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.3.0...0.3.8
 >## What's Changed
+> * single use tool  by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/23 (0.3.8)
 > * Dev by @Dream-Master in https://github.com/GTNewHorizons/GigaGramFab/pull/25 (0.3.7-pre)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/GigaGramFab/pull/24 (0.3.6)
 > * adv assline ui enhancements by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/21 (0.3.4)
