@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-12-03T23:59:41.132029",
+  "last_updated": "2023-12-04T00:03:15.591602",
   "config": "2.4.2-nightly-2023-12-04",
   "github_mods": {
     "AdventureBackpack2": {
@@ -838,6 +838,10 @@
     },
     "ThaumicBoots": {
       "version": "1.1.0",
+      "side": "BOTH"
+    },
+    "Amazing-Trophies": {
+      "version": "1.1.2",
       "side": "BOTH"
     }
   },

@@ -1,4 +1,5 @@
 # New Mods:
+> * Amazing-Trophies
 > * ThaumicBoots
 # Mods Removed:
 > * Netty-Patcher
@@ -54,6 +55,16 @@
 >## New Contributors
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/16 (1.0.16-GTNH)
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
+>
+
+# New Mod - Amazing-Trophies (1.1.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/commits/1.1.2
+>## What's Changed
+> * New trophy base + hitbox fix by @Connor-Colenso in https://github.com/GTNewHorizons/Amazing-Trophies/pull/3 (1.1.0)
+> * Integrate Multiblock Renderer by @Connor-Colenso in https://github.com/GTNewHorizons/Amazing-Trophies/pull/1 (0.10.0)
+>
+>## New Contributors
+> * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/Amazing-Trophies/pull/1 (0.10.0)
 >
 
 # Updated AppleCore (3.2.11@Side.BOTH --> 3.2.12@Side.BOTH)
