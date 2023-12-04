@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-12-04T00:03:15.591602",
+  "last_updated": "2023-12-04T13:38:08.708167",
   "config": "2.4.2-nightly-2023-12-04",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.70-gtnh",
+      "version": "1.1.71-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.8.19",
+      "version": "0.8.20",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -105,7 +105,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.0.18-GTNH",
+      "version": "1.0.19-GTNH",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.5.7",
+      "version": "1.5.10",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.3.7",
+      "version": "1.3.8",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.7.10",
+      "version": "0.7.11",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.44.96",
+      "version": "5.09.44.98",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.11.7",
+      "version": "0.11.8",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.10.37",
+      "version": "1.10.39",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -345,11 +345,11 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.9.3",
+      "version": "0.9.4",
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.13.8",
+      "version": "0.13.10",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
-      "version": "2.0.4",
+      "version": "2.0.5",
       "side": "BOTH"
     },
     "ModTweaker": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.5.13",
+      "version": "1.5.14",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.2.44",
+      "version": "2.2.45",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -437,7 +437,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.4.5",
+      "version": "1.4.6",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.15.1",
+      "version": "9.15.2",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -593,7 +593,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.3.19",
+      "version": "5.3.20",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -717,7 +717,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.0.4",
+      "version": "1.0.5",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -729,7 +729,7 @@
       "side": "CLIENT"
     },
     "GigaGramFab": {
-      "version": "0.3.6",
+      "version": "0.3.7-pre",
       "side": "BOTH"
     },
     "NotEnoughIds": {
@@ -777,7 +777,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.0.19",
+      "version": "1.0.20",
       "side": "BOTH"
     },
     "MrTJPCore": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.2.6",
+      "version": "1.2.7",
       "side": "BOTH"
     },
     "amunra": {
