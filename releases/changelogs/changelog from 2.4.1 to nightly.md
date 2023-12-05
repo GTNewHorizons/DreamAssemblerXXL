@@ -762,8 +762,8 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/25 (0.3.7-pre)
 >
 
-# Updated GoodGenerator (0.7.3@Side.BOTH --> 0.7.11@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.2...0.7.11
+# Updated GoodGenerator (0.7.3@Side.BOTH --> 0.7.12-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.2...0.7.12-pre
 >## What's Changed
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/219 (0.7.10)
 > * structure cleanup by @Glease in https://github.com/GTNewHorizons/GoodGenerator/pull/220 (0.7.9)
