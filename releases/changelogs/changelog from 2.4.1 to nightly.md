@@ -365,9 +365,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Controlling/pull/1 (1.0.0.5)
 >
 
-# Updated Crops-plus-plus (1.5.1@Side.BOTH --> 1.5.10@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.5.0...1.5.10
+# Updated Crops-plus-plus (1.5.1@Side.BOTH --> 1.5.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.5.0...1.5.11
 >## What's Changed
+> * Follow-up to RA2 conversion by @miozune in https://github.com/GTNewHorizons/Crops-plus-plus/pull/61 (1.5.11)
 > * Follow-up to progressbar addition code by @miozune in https://github.com/GTNewHorizons/Crops-plus-plus/pull/60 (1.5.9)
 > * Code cleanup by @boubou19 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/54 (1.5.8)
 > * Use preInit to register Items/Blocks/Fluids by @glowredman in https://github.com/GTNewHorizons/Crops-plus-plus/pull/58 (1.5.7)
@@ -669,9 +670,10 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.40@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.40
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.41@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.41
 >## What's Changed
+> * Remove non-existing technetium recipe by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/791 (1.10.41)
 > * Fix steam grinder expecting more than 1 slot for void protection by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/790 (1.10.40)
 > * remove traceback from PlayerCache.dat by @bombcar in https://github.com/GTNewHorizons/GTplusplus/pull/787 (1.10.38)
 > * fix steam machine nei structure diagram by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/789 (1.10.37)
@@ -1206,9 +1208,10 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
 >
 
-# Updated TecTech (5.3.3@Side.BOTH --> 5.3.20@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.20
+# Updated TecTech (5.3.3@Side.BOTH --> 5.3.21@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.21
 >## What's Changed
+> * Fix EOH + nuclear info panel crash by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/264 (5.3.21)
 > * Tweak EOH stellar plasma consumption by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/263 (5.3.19)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/TecTech/pull/261 (5.3.18)
 > * Optimise EOH Renderer and fix transparency bug by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/258 (5.3.17)

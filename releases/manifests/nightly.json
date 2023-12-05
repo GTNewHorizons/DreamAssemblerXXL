@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-12-04T20:04:36.214002",
-  "config": "2.4.2-nightly-2023-12-04",
+  "last_updated": "2023-12-05T12:10:46.580227",
+  "config": "2.4.2-nightly-2023-12-05",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.16-GTNH",
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.5.10",
+      "version": "1.5.11",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.10.40",
+      "version": "1.10.41",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -593,7 +593,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.3.20",
+      "version": "5.3.21",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
