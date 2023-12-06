@@ -492,9 +492,11 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.100@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.100
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.101@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.101
 >## What's Changed
+> * make quantum tanks not slow you down for later game players by @bombcar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2392 (5.09.44.101)
+> * Add unit test for recipe search by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2394 (5.09.44.101)
 > * Fix RA1 addChemicalRecipe not handling cells by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2391 (5.09.44.100)
 > * Add API to limit number of recipe outputs by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2390 (5.09.44.99)
 > * Fix parallel helper crash with 0 EU/t recipe by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2389 (5.09.44.98)
@@ -762,9 +764,10 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/25 (0.3.7-pre)
 >
 
-# Updated GoodGenerator (0.7.3@Side.BOTH --> 0.7.12-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.2...0.7.12-pre
+# Updated GoodGenerator (0.7.3@Side.BOTH --> 0.7.14@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.2...0.7.14
 >## What's Changed
+> * fix compact fusion energy consumption by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/222 (0.7.14)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/219 (0.7.10)
 > * structure cleanup by @Glease in https://github.com/GTNewHorizons/GoodGenerator/pull/220 (0.7.9)
 > * fix Naquadah Reactor don't detect ME input hatch when running by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/218 (0.7.9)
@@ -899,6 +902,13 @@
 >
 >## New Contributors
 > * @krashton1 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/26 (1.0.8-GTNH)
+>
+
+# Updated MagicBees (2.7.0-GTNH@Side.BOTH --> 2.7.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.6.6-GTNH...2.7.1-GTNH
+>## What's Changed
+> * fixing the ethereal shard dupe by @Alastors in https://github.com/GTNewHorizons/MagicBees/pull/33 (2.7.1-GTNH)
+> * Buffed magic, resiliant, and basic blood frames by @hacatu in https://github.com/GTNewHorizons/MagicBees/pull/31 (2.7.0-GTNH)
 >
 
 # Updated MalisisDoors (1.13.7-GTNH@Side.BOTH --> 1.14.0-GTNH@Side.BOTH)
@@ -1208,9 +1218,10 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
 >
 
-# Updated TecTech (5.3.3@Side.BOTH --> 5.3.21@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.21
+# Updated TecTech (5.3.3@Side.BOTH --> 5.3.22@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.22
 >## What's Changed
+> * Fix EOH not accepting input fluids by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/265 (5.3.22)
 > * Fix EOH + nuclear info panel crash by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/264 (5.3.21)
 > * Tweak EOH stellar plasma consumption by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/263 (5.3.19)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/TecTech/pull/261 (5.3.18)
