@@ -492,9 +492,10 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.101@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.101
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.102@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.102
 >## What's Changed
+> * Fix null problem with recycler by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2396 (5.09.44.102)
 > * make quantum tanks not slow you down for later game players by @bombcar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2392 (5.09.44.101)
 > * Add unit test for recipe search by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2394 (5.09.44.101)
 > * Fix RA1 addChemicalRecipe not handling cells by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2391 (5.09.44.100)
