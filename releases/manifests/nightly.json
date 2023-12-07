@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-12-06T12:58:36.992470",
+  "last_updated": "2023-12-07T08:07:37.122200",
   "config": "2.4.2-nightly-2023-12-05",
   "github_mods": {
     "AdventureBackpack2": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.3.38",
+      "version": "2.3.39",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.13.10",
+      "version": "0.13.11",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.2.46",
+      "version": "2.2.47",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.5.3-GTNH",
+      "version": "1.5.4-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {

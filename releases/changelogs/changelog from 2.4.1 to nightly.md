@@ -796,9 +796,11 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
 >
 
-# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.38@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.38
+# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.39@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.39
 >## What's Changed
+> * Remove BOP Message on First World Creation by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/290 (2.3.39)
+> * Add config option to remove BOP warning by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/291 (2.3.39)
 > * update gradle+bs+deps by @Dream-Master in https://github.com/GTNewHorizons/Hodgepodge/pull/289 (2.3.38)
 > * Angelica & Bugtorch compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/288 (2.3.37)
 > * Fix world leak in Redstone Torch by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/286 (2.3.36)
@@ -874,9 +876,10 @@
 > * Cleanup noXXXYYY methods by @miozune in https://github.com/GTNewHorizons/KekzTech/pull/77 (0.9.1)
 >
 
-# Updated KubaTech (0.13.2@Side.BOTH --> 0.13.10@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.13.1...0.13.10
+# Updated KubaTech (0.13.2@Side.BOTH --> 0.13.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.13.1...0.13.11
 >## What's Changed
+> * EEC: Fix infernal spawns not happening with 4 EV hatches by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/110 (0.13.11)
 > * Rework GUIs by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/108 (0.13.10)
 > * Rename EEC to Extreme Entity Crusher by @Alexdoru in https://github.com/GTNewHorizons/KubaTech/pull/103 (0.13.8)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/KubaTech/pull/104 (0.13.8)
@@ -961,9 +964,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MrTJPCore/pull/3 (1.1.4)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.46@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.46
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.47@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.47
 >## What's Changed
+> * change essentia cells index for ThE by @MCTBL in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/771 (2.2.47)
 > * Achievementhandler Fixes by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/770 (2.2.46)
 > * Add chisel for knightmetal blocks by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/768 (2.2.44)
 > * Add Achievement Handler for special Trophy Achievements by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/769 (2.2.44)
@@ -1272,9 +1276,10 @@
 > * @Alastors made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/1 (0.1.0)
 >
 
-# Updated ThaumicEnergistics (1.4.13-GTNH@Side.BOTH --> 1.5.3-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.12-GTNH...1.5.3-GTNH
+# Updated ThaumicEnergistics (1.4.13-GTNH@Side.BOTH --> 1.5.4-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.4.12-GTNH...1.5.4-GTNH
 >## What's Changed
+> * change cells index by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/56 (1.5.4-GTNH)
 > * Quantum and Singularity cell for essentia by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/55 (1.5.3-GTNH)
 > * Fix that ThE can't recognized the advanced network tool and can't render the large toolbox correctly. by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/53 (1.5.2-GTNH)
 > * Add 256K to 16384K essentia cell for ThE by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/54 (1.5.2-GTNH)

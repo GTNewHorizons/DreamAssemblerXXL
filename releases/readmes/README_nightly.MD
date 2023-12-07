@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2023-12-06
+Version nightly is out 2023-12-07
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -352,7 +352,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.3-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.1.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.3.38 |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.3.39 |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.3.2-GTNH |
 | [HungerOverhaul](https://github.com/GTNewHorizons/HungerOverhaul) | 1.0.4-GTNH |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.1.1 |
@@ -371,7 +371,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.1.4p6-fairplay |
 | [KekzTech](https://github.com/GTNewHorizons/KekzTech) | 0.9.4 |
-| [KubaTech](https://github.com/GTNewHorizons/KubaTech) | 0.13.10 |
+| [KubaTech](https://github.com/GTNewHorizons/KubaTech) | 0.13.11 |
 | [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.2.9-GTNH |
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.0.8-GTNH |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.0.8 |
@@ -396,7 +396,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.3.3 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.13.0 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.1.2 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.2.46 |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.2.47 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.1.-6-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.4.6 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 1.5.3 |
@@ -454,7 +454,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Thaumic_Exploration](https://github.com/GTNewHorizons/Thaumic_Exploration) | 1.2.0-GTNH |
 | [ThaumicBases](https://github.com/GTNewHorizons/ThaumicBases) | 1.5.6 |
 | [ThaumicBoots](https://github.com/GTNewHorizons/ThaumicBoots) | 1.1.0 |
-| [ThaumicEnergistics](https://github.com/GTNewHorizons/ThaumicEnergistics) | 1.5.3-GTNH |
+| [ThaumicEnergistics](https://github.com/GTNewHorizons/ThaumicEnergistics) | 1.5.4-GTNH |
 | [ThaumicHorizons](https://github.com/GTNewHorizons/ThaumicHorizons) | 1.4.0 |
 | [thaumicinsurgence](https://github.com/GTNewHorizons/thaumicinsurgence) | 0.2.7 |
 | [ThaumicInventoryScanning](https://github.com/GTNewHorizons/ThaumicInventoryScanning) | 1.0.12-GTNH |
