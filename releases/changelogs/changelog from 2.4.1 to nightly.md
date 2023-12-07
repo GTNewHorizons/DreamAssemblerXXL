@@ -365,9 +365,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Controlling/pull/1 (1.0.0.5)
 >
 
-# Updated Crops-plus-plus (1.5.1@Side.BOTH --> 1.5.11@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.5.0...1.5.11
+# Updated Crops-plus-plus (1.5.1@Side.BOTH --> 1.5.12@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.5.0...1.5.12
 >## What's Changed
+> * add back Space Flower uum recipe by @Dream-Master in https://github.com/GTNewHorizons/Crops-plus-plus/pull/62 (1.5.12)
 > * Follow-up to RA2 conversion by @miozune in https://github.com/GTNewHorizons/Crops-plus-plus/pull/61 (1.5.11)
 > * Follow-up to progressbar addition code by @miozune in https://github.com/GTNewHorizons/Crops-plus-plus/pull/60 (1.5.9)
 > * Code cleanup by @boubou19 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/54 (1.5.8)
@@ -492,9 +493,12 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.102@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.102
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.104@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.104
 >## What's Changed
+> * add ic2steam to cracked recipes by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2399 (5.09.44.104)
+> * Fix some singleblock not overclocking by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2398 (5.09.44.103)
+> * change Import/Export to Export/Import to match button position by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2397 (5.09.44.103)
 > * Fix null problem with recycler by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2396 (5.09.44.102)
 > * make quantum tanks not slow you down for later game players by @bombcar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2392 (5.09.44.101)
 > * Add unit test for recipe search by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2394 (5.09.44.101)
@@ -673,9 +677,11 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.41@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.41
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.43@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.43
 >## What's Changed
+> * Generate Germanium fully again by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/793 (1.10.43)
+> * Algae recipe fix by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/792 (1.10.42)
 > * Remove non-existing technetium recipe by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/791 (1.10.41)
 > * Fix steam grinder expecting more than 1 slot for void protection by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/790 (1.10.40)
 > * remove traceback from PlayerCache.dat by @bombcar in https://github.com/GTNewHorizons/GTplusplus/pull/787 (1.10.38)
@@ -964,9 +970,11 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MrTJPCore/pull/3 (1.1.4)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.47@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.47
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.49@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.49
 >## What's Changed
+> * Fixrec by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/774 (2.2.49)
+> * reduce coolant to prevent positive EU output by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/773 (2.2.48)
 > * change essentia cells index for ThE by @MCTBL in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/771 (2.2.47)
 > * Achievementhandler Fixes by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/770 (2.2.46)
 > * Add chisel for knightmetal blocks by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/768 (2.2.44)
