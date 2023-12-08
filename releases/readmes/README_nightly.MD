@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2023-12-07
+Version nightly is out 2023-12-08
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -363,7 +363,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Infernal-Mobs](https://github.com/GTNewHorizons/Infernal-Mobs) | 1.7.9-GTNH |
 | [InGame-Info-XML](https://github.com/GTNewHorizons/InGame-Info-XML) | 2.8.5 |
 | [INpureCore](https://github.com/GTNewHorizons/INpureCore) | 1.1.5-GTNH |
-| [inventory-tweaks](https://github.com/GTNewHorizons/inventory-tweaks) | 1.6.0 |
+| [inventory-tweaks](https://github.com/GTNewHorizons/inventory-tweaks) | 1.6.1 |
 | [ironchest](https://github.com/GTNewHorizons/ironchest) | 6.0.74 |
 | [IronChestMinecarts](https://github.com/GTNewHorizons/IronChestMinecarts) | 1.0.8 |
 | [Irontanks](https://github.com/GTNewHorizons/Irontanks) | 1.2.6 |

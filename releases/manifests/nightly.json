@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-12-07T22:30:19.104857",
+  "last_updated": "2023-12-08T10:57:06.103596",
   "config": "2.4.2-nightly-2023-12-07",
   "github_mods": {
     "AdventureBackpack2": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "inventory-tweaks": {
-      "version": "1.6.0",
+      "version": "1.6.1",
       "side": "CLIENT"
     },
     "ironchest": {

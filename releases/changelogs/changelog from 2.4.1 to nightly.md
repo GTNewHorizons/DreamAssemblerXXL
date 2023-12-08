@@ -1450,9 +1450,10 @@
 > * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/harvestcraft/pull/49 (1.1.2-GTNH)
 >
 
-# Updated inventory-tweaks (1.5.16@Side.CLIENT --> 1.6.0@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/inventory-tweaks/compare/1.5.15...1.6.0
+# Updated inventory-tweaks (1.5.16@Side.CLIENT --> 1.6.1@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/inventory-tweaks/compare/1.5.15...1.6.1
 >## What's Changed
+> * Remote chat message logging when creating default files by @bombcar in https://github.com/GTNewHorizons/inventory-tweaks/pull/7 (1.6.1)
 > * Cleanup ASM + faster pack loadtime by @Alexdoru in https://github.com/GTNewHorizons/inventory-tweaks/pull/6 (1.6.0)
 > * Don't reset cursor position when using lwjgl3 by @eigenraven in https://github.com/GTNewHorizons/inventory-tweaks/pull/5 (1.5.16)
 >
