@@ -493,9 +493,10 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.104@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.104
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.106@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.106
 >## What's Changed
+> * Fix input hatches for large turbine & boiler not accepting fluids by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2400 (5.09.44.106)
 > * add ic2steam to cracked recipes by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2399 (5.09.44.104)
 > * Fix some singleblock not overclocking by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2398 (5.09.44.103)
 > * change Import/Export to Export/Import to match button position by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2397 (5.09.44.103)
@@ -677,9 +678,12 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.43@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.43
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.45@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.45
 >## What's Changed
+> * Fixes for overflow valve, wireless charger, and transmission components recipes and ids by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/794 (1.10.45)
+> * Fix some multis incorrectly restricting fluid input for hatches by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/796 (1.10.45)
+> * Normalize semifluid gens to match the other fuel gens by @bombcar in https://github.com/GTNewHorizons/GTplusplus/pull/795 (1.10.44)
 > * Generate Germanium fully again by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/793 (1.10.43)
 > * Algae recipe fix by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/792 (1.10.42)
 > * Remove non-existing technetium recipe by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/791 (1.10.41)
@@ -970,8 +974,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MrTJPCore/pull/3 (1.1.4)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.49@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.49
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.50@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.50
 >## What's Changed
 > * Fixrec by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/774 (2.2.49)
 > * reduce coolant to prevent positive EU output by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/773 (2.2.48)
