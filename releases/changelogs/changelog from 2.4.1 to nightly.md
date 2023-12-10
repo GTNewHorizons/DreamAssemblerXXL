@@ -1443,9 +1443,10 @@
 > * @ALongStringOfNumbers made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/366 (0.8.10)
 >
 
-# Updated harvestcraft (1.1.1-GTNH@Side.BOTH --> 1.1.3-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.1.0-GTNH...1.1.3-GTNH
+# Updated harvestcraft (1.1.1-GTNH@Side.BOTH --> 1.1.4-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.1.0-GTNH...1.1.4-GTNH
 >## What's Changed
+> * Added extra flag to register Oven Recipes by @DrParadox7 in https://github.com/GTNewHorizons/harvestcraft/pull/51 (1.1.4-GTNH)
 > * Cooked Meat Config + Backport Grinder by @DrParadox7 in https://github.com/GTNewHorizons/harvestcraft/pull/48 (1.1.3-GTNH)
 > * Implemented Banana and Gooseberry Juices by @DrParadox7 in https://github.com/GTNewHorizons/harvestcraft/pull/49 (1.1.2-GTNH)
 > * Fix some juice items not having oredict listAlljuice by @miozune in https://github.com/GTNewHorizons/harvestcraft/pull/47 (1.1.1-GTNH)
