@@ -978,9 +978,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MrTJPCore/pull/3 (1.1.4)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.50@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.50
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.51@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.51
 >## What's Changed
+> * Recipe remove NPE by @ghostflyby in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/775 (2.2.51)
 > * Fixrec by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/774 (2.2.49)
 > * reduce coolant to prevent positive EU output by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/773 (2.2.48)
 > * change essentia cells index for ThE by @MCTBL in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/771 (2.2.47)
