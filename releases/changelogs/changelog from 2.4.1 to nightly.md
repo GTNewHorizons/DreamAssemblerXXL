@@ -57,13 +57,15 @@
 > * @chill-was-taken made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/15 (1.0.14-GTNH)
 >
 
-# New Mod - Amazing-Trophies (1.1.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/commits/1.1.2
+# New Mod - Amazing-Trophies (1.1.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/commits/1.1.3
 >## What's Changed
+> * Use custom Material for Trophy Block by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/4 (1.1.3)
 > * New trophy base + hitbox fix by @Connor-Colenso in https://github.com/GTNewHorizons/Amazing-Trophies/pull/3 (1.1.0)
 > * Integrate Multiblock Renderer by @Connor-Colenso in https://github.com/GTNewHorizons/Amazing-Trophies/pull/1 (0.10.0)
 >
 >## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/Amazing-Trophies/pull/4 (1.1.3)
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/Amazing-Trophies/pull/1 (0.10.0)
 >
 
@@ -217,9 +219,10 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/116 (3.4.1-GTNH)
 >
 
-# Updated Binnie (2.2.0@Side.BOTH --> 2.2.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.10...2.2.3
+# Updated Binnie (2.2.0@Side.BOTH --> 2.2.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.1.10...2.2.4
 >## What's Changed
+> * Fix double layers tooltip with NEI by @ghostflyby in https://github.com/GTNewHorizons/Binnie/pull/41 (2.2.4)
 > * Optimized flower color enumeration array retrieval by @Pelotrio in https://github.com/GTNewHorizons/Binnie/pull/40 (2.2.3)
 > * Optimize PlankType$ExtraBiomesPlank.getStack() by @miozune in https://github.com/GTNewHorizons/Binnie/pull/39 (2.2.2)
 > * NEI item manager overlay integration by @ghostflyby in https://github.com/GTNewHorizons/Binnie/pull/38 (2.2.1)
@@ -775,9 +778,10 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/25 (0.3.7-pre)
 >
 
-# Updated GoodGenerator (0.7.3@Side.BOTH --> 0.7.14@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.2...0.7.14
+# Updated GoodGenerator (0.7.3@Side.BOTH --> 0.7.15@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.2...0.7.15
 >## What's Changed
+> * Fix naquadah reactor not accepting non-fuel fluids by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/225 (0.7.15)
 > * fix compact fusion energy consumption by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/222 (0.7.14)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/219 (0.7.10)
 > * structure cleanup by @Glease in https://github.com/GTNewHorizons/GoodGenerator/pull/220 (0.7.9)
@@ -1235,9 +1239,10 @@
 > * @wohaopa made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/8 (1.6.0)
 >
 
-# Updated TecTech (5.3.3@Side.BOTH --> 5.3.22@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.22
+# Updated TecTech (5.3.3@Side.BOTH --> 5.3.23@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.2...5.3.23
 >## What's Changed
+> * Change EoH number formatting to standard form by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/266 (5.3.23)
 > * Fix EOH not accepting input fluids by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/265 (5.3.22)
 > * Fix EOH + nuclear info panel crash by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/264 (5.3.21)
 > * Tweak EOH stellar plasma consumption by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/263 (5.3.19)
