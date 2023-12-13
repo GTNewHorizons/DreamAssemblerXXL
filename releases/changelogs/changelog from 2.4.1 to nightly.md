@@ -282,9 +282,10 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/BugTorch/pull/20 (1.2.11-GTNH)
 >
 
-# Updated BuildCraft (7.1.36@Side.BOTH --> 7.1.37@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.34...7.1.37
+# Updated BuildCraft (7.1.36@Side.BOTH --> 7.1.38@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.34...7.1.38
 >## What's Changed
+> * Fix No Gates Recipes with dreamcraft, really by @ghostflyby in https://github.com/GTNewHorizons/BuildCraft/pull/19 (7.1.38)
 > * Fix missing gates recipes with dreamcraft by @ghostflyby in https://github.com/GTNewHorizons/BuildCraft/pull/17 (7.1.37)
 > * Fix crash with RemoteIO by @miozune in https://github.com/GTNewHorizons/BuildCraft/pull/16 (7.1.36)
 >
@@ -460,8 +461,8 @@
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.18)
 >
 
-# Updated EnderIO (2.5.0@Side.BOTH --> 2.5.6@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.24...2.5.6
+# Updated EnderIO (2.5.0@Side.BOTH --> 2.5.7-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.24...2.5.7-pre
 >## What's Changed
 > * Open conduit connection GUI with more wrenches using shift + left-click by @ghostflyby in https://github.com/GTNewHorizons/EnderIO/pull/139 (2.5.6)
 > * Add unload event handling to ClientNetworkManager by @Pelotrio in https://github.com/GTNewHorizons/EnderIO/pull/137 (2.5.5)
@@ -652,9 +653,10 @@
 > * @BTone made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2334 (5.09.44.49)
 >
 
-# Updated GTNH-Intergalactic (1.2.0@Side.BOTH --> 1.2.7@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.28...1.2.7
+# Updated GTNH-Intergalactic (1.2.0@Side.BOTH --> 1.2.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.1.28...1.2.8
 >## What's Changed
+> * Fix space mining module not allowing insertion of plasma by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/55 (1.2.8)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/54 (1.2.6)
 > * Update TecTech by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/53 (1.2.4)
 > * Cleanup isValidMetaTileEntity by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/52 (1.2.3)
@@ -681,9 +683,11 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.45@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.45
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.47@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.47
 >## What's Changed
+> * fix id shift of super busses by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/798 (1.10.47)
+> * Fix thermal boiler not allowing insertion of water by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/797 (1.10.46)
 > * Fixes for overflow valve, wireless charger, and transmission components recipes and ids by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/794 (1.10.45)
 > * Fix some multis incorrectly restricting fluid input for hatches by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/796 (1.10.45)
 > * Normalize semifluid gens to match the other fuel gens by @bombcar in https://github.com/GTNewHorizons/GTplusplus/pull/795 (1.10.44)
@@ -764,9 +768,10 @@
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/99 (1.2.9-GTNH)
 >
 
-# Updated GigaGramFab (0.3.2@Side.BOTH --> 0.3.8@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.3.0...0.3.8
+# Updated GigaGramFab (0.3.2@Side.BOTH --> 0.3.9@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.3.0...0.3.9
 >## What's Changed
+> * Removed Debug Recipe of Pump by @LewisSaber in https://github.com/GTNewHorizons/GigaGramFab/pull/27 (0.3.9)
 > * single use tool  by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/23 (0.3.8)
 > * Dev by @Dream-Master in https://github.com/GTNewHorizons/GigaGramFab/pull/25 (0.3.7-pre)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/GigaGramFab/pull/24 (0.3.6)
@@ -775,12 +780,14 @@
 > * ensure to only call getStackInSlot once per tick by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/18 (0.3.2)
 >
 >## New Contributors
+> * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/27 (0.3.9)
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/25 (0.3.7-pre)
 >
 
-# Updated GoodGenerator (0.7.3@Side.BOTH --> 0.7.15@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.2...0.7.15
+# Updated GoodGenerator (0.7.3@Side.BOTH --> 0.7.16@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.2...0.7.16
 >## What's Changed
+> * Fix crash with Nq Gen if coolant has just been depleted by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/226 (0.7.16)
 > * Fix naquadah reactor not accepting non-fuel fluids by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/225 (0.7.15)
 > * fix compact fusion energy consumption by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/222 (0.7.14)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/219 (0.7.10)
@@ -978,9 +985,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MrTJPCore/pull/3 (1.1.4)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.51@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.51
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.52@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.52
 >## What's Changed
+> * Handle Unbreakable TCon Tool Achievement via Code by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/776 (2.2.52)
 > * Recipe remove NPE by @ghostflyby in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/775 (2.2.51)
 > * Fixrec by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/774 (2.2.49)
 > * reduce coolant to prevent positive EU output by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/773 (2.2.48)
@@ -1424,9 +1432,10 @@
 > * @kumquat-ir made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/43 (1.3.4-GTNH)
 >
 
-# Updated bartworks (0.8.6@Side.BOTH --> 0.8.20@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.5...0.8.20
+# Updated bartworks (0.8.6@Side.BOTH --> 0.8.21@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.5...0.8.21
 >## What's Changed
+> * Fix HTGR not allowing insertion of coolant by @miozune in https://github.com/GTNewHorizons/bartworks/pull/378 (0.8.21)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/bartworks/pull/375 (0.8.19)
 > * tweak cal structure code by @Glease in https://github.com/GTNewHorizons/bartworks/pull/376 (0.8.18)
 > * Add wire cutter behavior for all missing multis by @Pelotrio in https://github.com/GTNewHorizons/bartworks/pull/373 (0.8.16)

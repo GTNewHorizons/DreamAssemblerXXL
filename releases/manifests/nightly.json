@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-12-11T10:54:29.554580",
-  "config": "2.5.0-nightly-2023-12-11",
+  "last_updated": "2023-12-13T07:03:59.164813",
+  "config": "2.5.0-nightly-2023-12-12",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.0.16-GTNH",
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.8.20",
+      "version": "0.8.21",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -117,7 +117,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.37",
+      "version": "7.1.38",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.5.6",
+      "version": "2.5.7-pre",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.7.15",
+      "version": "0.7.16",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.10.45",
+      "version": "1.10.47",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.2.51",
+      "version": "2.2.52",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -729,7 +729,7 @@
       "side": "CLIENT"
     },
     "GigaGramFab": {
-      "version": "0.3.8",
+      "version": "0.3.9",
       "side": "BOTH"
     },
     "NotEnoughIds": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.2.7",
+      "version": "1.2.8",
       "side": "BOTH"
     },
     "amunra": {

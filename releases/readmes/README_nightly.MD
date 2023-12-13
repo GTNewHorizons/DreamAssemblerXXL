@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2023-12-11
+Version nightly is out 2023-12-13
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -262,7 +262,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Automagy](https://www.curseforge.com/minecraft/mc-mods/automagy) | 0.28.2 |
 | [Avaritia](https://github.com/GTNewHorizons/Avaritia) | 1.46 |
 | [Avaritiaddons](https://github.com/GTNewHorizons/Avaritiaddons) | 1.6.0-GTNH |
-| [bartworks](https://github.com/GTNewHorizons/bartworks) | 0.8.20 |
+| [bartworks](https://github.com/GTNewHorizons/bartworks) | 0.8.21 |
 | [Battlegear2](https://github.com/GTNewHorizons/Battlegear2) | 1.3.0 |
 | [Baubles](https://github.com/GTNewHorizons/Baubles) | 1.0.3 |
 | [bdlib](https://github.com/GTNewHorizons/bdlib) | 1.9.8-GTNH |
@@ -287,7 +287,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Botanic-horizons](https://github.com/GTNewHorizons/Botanic-horizons) | 1.0.19-GTNH |
 | [BrandonsCore](https://github.com/GTNewHorizons/BrandonsCore) | 1.0.0.13-GTNH |
 | [BugTorch](https://github.com/GTNewHorizons/BugTorch) | 1.2.12-GTNH |
-| [BuildCraft](https://github.com/GTNewHorizons/BuildCraft) | 7.1.37 |
+| [BuildCraft](https://github.com/GTNewHorizons/BuildCraft) | 7.1.38 |
 | [BuildCraftCompat](https://github.com/GTNewHorizons/BuildCraftCompat) | 7.1.16 |
 | [BuildCraftOilTweak](https://github.com/GTNewHorizons/BuildCraftOilTweak) | 1.0.4 |
 | [CarpentersBlocks](https://github.com/GTNewHorizons/CarpentersBlocks) | 3.4.1-GTNH |
@@ -316,7 +316,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [DuraDisplay](https://github.com/GTNewHorizons/DuraDisplay) | 1.1.7 |
 | [Electro-Magic-Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.3.8 |
 | [EnderCore](https://github.com/GTNewHorizons/EnderCore) | 0.2.18 |
-| [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.5.6 |
+| [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.5.7-pre |
 | [EnderStorage](https://github.com/GTNewHorizons/EnderStorage) | 1.4.12 |
 | [EnderZoo](https://github.com/GTNewHorizons/EnderZoo) | 1.0.23 |
 | [EnhancedLootBags](https://github.com/GTNewHorizons/EnhancedLootBags) | 1.1.0 |
@@ -336,17 +336,17 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.0.74-GTNH |
 | [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.2.14-GTNH |
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.6.5.5-GTNH |
-| [GigaGramFab](https://github.com/GTNewHorizons/GigaGramFab) | 0.3.8 |
-| [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.7.15 |
+| [GigaGramFab](https://github.com/GTNewHorizons/GigaGramFab) | 0.3.9 |
+| [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.7.16 |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.0.20 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
 | [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.44.106 |
 | [GTNEIOrePlugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.1.3 |
-| [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.2.7 |
+| [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.2.8 |
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.11.8 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.3.1 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.0.13 |
-| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.10.45 |
+| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.10.47 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.9.7-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.4-GTNH |
@@ -396,7 +396,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.3.3 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.13.0 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.1.2 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.2.51 |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.2.52 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.1.-6-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.4.6 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 1.5.3 |
