@@ -297,13 +297,13 @@ class Window(ThemedTk, Tk):
                 Archive.CURSEFORGE: release_assembler.assemble_curse,
                 Archive.TECHNIC: release_assembler.assemble_technic,
             }
-            global_callback(self.get_progress(), f"Assembling {side} {archive_type} archive")
+            global_callback(self.get_progress(), f"Assembling {side.value} {archive_type.value} archive")
             await assembler_dict[archive_type](side=side, verbose=True)  # type: ignore
             self.trigger_toggle()
         except BaseException as e:
             showerror(
-                f"An error occured during the assembling {side} {archive_type} archive",
-                f"An error occurended during the assembling {side} {archive_type} archive."
+                f"An error occured during the assembling {side.value} {archive_type.value} archive",
+                f"An error occurended during the assembling {side.value} {archive_type.value} archive."
                 "\n Please check the logs for more information",
             )
             if not self.toggled:
