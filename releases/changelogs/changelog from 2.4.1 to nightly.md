@@ -4,9 +4,10 @@
 # Mods Removed:
 > * Netty-Patcher
 > * p455w0rd's Library
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.72-gtnh-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.72-gtnh-pre
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.73-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.73-gtnh
 >## What's Changed
+> * Optimize CPacketFluidUpdate by @TechnicianLP in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/177 (1.1.73-gtnh)
 > * Compat with GT change by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/175 (1.1.70-gtnh)
 > * Add thousandth mark for cell tooltips. by @MCTBL in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/174 (1.1.69-gtnh)
 > * Implement the new interface in AE2 for network bytes informations. by @MCTBL in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/173 (1.1.67-gtnh)
@@ -32,6 +33,7 @@
 > * Fix Wireless Pattern Terminal not saving stack size change to blank pattern slot by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/158 (1.1.42-gtnh)
 >
 >## New Contributors
+> * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/177 (1.1.73-gtnh)
 > * @MCTBL made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/173 (1.1.67-gtnh)
 > * @MarchingCube made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/172 (1.1.66-gtnh)
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/169 (1.1.63-gtnh)
@@ -687,9 +689,10 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.49@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.49
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.50@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.50
 >## What's Changed
+> * Fix QFT not recognizing circuit in separated input bus by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/804 (1.10.50)
 > * Fix recipe for halfcompletecasing II by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/803 (1.10.49)
 > * Fix asymmetry in the Quantum Force Transformer by @Pelotrio in https://github.com/GTNewHorizons/GTplusplus/pull/799 (1.10.48)
 > * Revert "Fix asymmetry in the Quantum Force Transformer (breaking) (#799)… by @Caedis in https://github.com/GTNewHorizons/GTplusplus/pull/800 (1.10.48)
@@ -826,9 +829,10 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/12 (1.0.15)
 >
 
-# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.39@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.39
+# Updated Hodgepodge (2.3.6@Side.BOTH --> 2.3.40@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.5...2.3.40
 >## What's Changed
+> * Switch voxelmap to false by default due to no modid and it being a late mixin... by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/292 (2.3.40)
 > * Remove BOP Message on First World Creation by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/290 (2.3.39)
 > * Add config option to remove BOP warning by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/291 (2.3.39)
 > * update gradle+bs+deps by @Dream-Master in https://github.com/GTNewHorizons/Hodgepodge/pull/289 (2.3.38)
