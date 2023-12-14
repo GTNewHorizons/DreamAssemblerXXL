@@ -91,7 +91,7 @@ notes=
 """
 
 
-JAVA_9_ARCHIVE_SUFFIX = "Java_17-20"
+JAVA_9_ARCHIVE_SUFFIX = "Java_17-21"
 
 
 class Side(str, Enum):
@@ -137,7 +137,7 @@ class Side(str, Enum):
         elif self == Side.SERVER_JAVA9:
             return f"Server_{JAVA_9_ARCHIVE_SUFFIX}"
         else:
-            return self.value.capitalize()
+            return f"{self.value.capitalize()}_Java_8"
 
 
 class VersionableType(str, Enum):
