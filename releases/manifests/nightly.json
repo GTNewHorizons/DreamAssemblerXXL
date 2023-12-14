@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.4.1",
-  "last_updated": "2023-12-13T07:03:59.164813",
+  "last_updated": "2023-12-14T11:06:10.563588",
   "config": "2.5.0-nightly-2023-12-12",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.1.71-gtnh",
+      "version": "1.1.72-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.5.7-pre",
+      "version": "2.5.8",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.10.47",
+      "version": "1.10.49",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.2.52",
+      "version": "2.2.53",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.15.2",
+      "version": "9.15.3",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -549,7 +549,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "1.12.1-GTNH",
+      "version": "1.12.2-GTNH",
       "side": "BOTH"
     },
     "StorageDrawers-BiomesOPlenty": {

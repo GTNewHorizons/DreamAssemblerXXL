@@ -4,8 +4,8 @@
 # Mods Removed:
 > * Netty-Patcher
 > * p455w0rd's Library
-# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.71-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.71-gtnh
+# Updated AE2FluidCraft-Rework (1.1.42-gtnh@Side.BOTH --> 1.1.72-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.41-gtnh...1.1.72-gtnh-pre
 >## What's Changed
 > * Compat with GT change by @miozune in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/175 (1.1.70-gtnh)
 > * Add thousandth mark for cell tooltips. by @MCTBL in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/174 (1.1.69-gtnh)
@@ -461,9 +461,11 @@
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.18)
 >
 
-# Updated EnderIO (2.5.0@Side.BOTH --> 2.5.7-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.24...2.5.7-pre
+# Updated EnderIO (2.5.0@Side.BOTH --> 2.5.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.4.24...2.5.8
 >## What's Changed
+> * Fix NBT Match where tag is empty but exists by @spacebuilder2020 in https://github.com/GTNewHorizons/EnderIO/pull/138 (2.5.8)
+> * Fix an edge case pertaining to freshly crafted tanks by @bearsdotzone in https://github.com/GTNewHorizons/EnderIO/pull/141 (2.5.8)
 > * Open conduit connection GUI with more wrenches using shift + left-click by @ghostflyby in https://github.com/GTNewHorizons/EnderIO/pull/139 (2.5.6)
 > * Add unload event handling to ClientNetworkManager by @Pelotrio in https://github.com/GTNewHorizons/EnderIO/pull/137 (2.5.5)
 > * Clientside world leak by @Pelotrio in https://github.com/GTNewHorizons/EnderIO/pull/136 (2.5.4)
@@ -472,6 +474,8 @@
 > * allow small overshoot of power use for traveling  by @Glease in https://github.com/GTNewHorizons/EnderIO/pull/133 (2.5.0)
 >
 >## New Contributors
+> * @spacebuilder2020 made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/138 (2.5.8)
+> * @bearsdotzone made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/141 (2.5.8)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/139 (2.5.6)
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/136 (2.5.4)
 >
@@ -683,9 +687,13 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.47@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.47
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.49@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.49
 >## What's Changed
+> * Fix recipe for halfcompletecasing II by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/803 (1.10.49)
+> * Fix asymmetry in the Quantum Force Transformer by @Pelotrio in https://github.com/GTNewHorizons/GTplusplus/pull/799 (1.10.48)
+> * Revert "Fix asymmetry in the Quantum Force Transformer (breaking) (#799)… by @Caedis in https://github.com/GTNewHorizons/GTplusplus/pull/800 (1.10.48)
+> * fix optional  by @Glease in https://github.com/GTNewHorizons/GTplusplus/pull/801 (1.10.48)
 > * fix id shift of super busses by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/798 (1.10.47)
 > * Fix thermal boiler not allowing insertion of water by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/797 (1.10.46)
 > * Fixes for overflow valve, wireless charger, and transmission components recipes and ids by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/794 (1.10.45)
@@ -727,6 +735,7 @@
 > * Fix incorrect extruder recipe voltages for GT++ materials. by @fluffle in https://github.com/GTNewHorizons/GTplusplus/pull/750 (1.10.11)
 >
 >## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/800 (1.10.48)
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/785 (1.10.33)
 > * @lordIcocain made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/781 (1.10.32)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/784 (1.10.31)
@@ -985,9 +994,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MrTJPCore/pull/3 (1.1.4)
 >
 
-# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.52@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.52
+# Updated NewHorizonsCoreMod (2.2.11@Side.BOTH --> 2.2.53@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.10...2.2.53
 >## What's Changed
+> * Recipe Conflict + Recipe Fix by @54M44R in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/780 (2.2.53)
 > * Handle Unbreakable TCon Tool Achievement via Code by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/776 (2.2.52)
 > * Recipe remove NPE by @ghostflyby in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/775 (2.2.51)
 > * Fixrec by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/774 (2.2.49)
@@ -1032,6 +1042,7 @@
 > * Fix and cleanup machine chassis recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/734 (2.2.12)
 >
 >## New Contributors
+> * @54M44R made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/780 (2.2.53)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/767 (2.2.43)
 > * @MCTBL made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/758 (2.2.43)
 > * @lordIcocain made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/756 (2.2.43)
@@ -1174,9 +1185,11 @@
 > * Fix drawer-related NPEs by @eigenraven in https://github.com/GTNewHorizons/ProjectRed/pull/25 (4.7.12-GTNH)
 >
 
-# Updated Railcraft (9.15.0@Side.BOTH --> 9.15.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.14.9...9.15.2
+# Updated Railcraft (9.15.0@Side.BOTH --> 9.15.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.14.9...9.15.3
 >## What's Changed
+> * Fluids entering iron tanks use fallback texture when flowing texture is missing by @asoftbird in https://github.com/GTNewHorizons/Railcraft/pull/53 (9.15.3)
+> * do not add color data when not needed by @Glease in https://github.com/GTNewHorizons/Railcraft/pull/54 (9.15.3)
 > * Update creosote burn value as fluid to match burn value when in a bucket by @bombcar in https://github.com/GTNewHorizons/Railcraft/pull/52 (9.15.2)
 > * update buildscript and apply spotless by @bombcar in https://github.com/GTNewHorizons/Railcraft/pull/50 (9.15.1)
 > * Fix a coke oven crash caused by recipes with no fluid output by @antihutka in https://github.com/GTNewHorizons/Railcraft/pull/49 (9.15.1)
@@ -1184,6 +1197,7 @@
 > * Disable recipe for packed ice stairs in gtnh by @chochem in https://github.com/GTNewHorizons/Railcraft/pull/48 (9.15.0)
 >
 >## New Contributors
+> * @asoftbird made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/53 (9.15.3)
 > * @antihutka made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/49 (9.15.1)
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/48 (9.15.0)
 >
@@ -1225,9 +1239,10 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/SpiceOfLife/pull/29 (2.1.0-carrot)
 >
 
-# Updated StorageDrawers (1.12.0-GTNH@Side.BOTH --> 1.12.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.20-GTNH...1.12.1-GTNH
+# Updated StorageDrawers (1.12.0-GTNH@Side.BOTH --> 1.12.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.11.20-GTNH...1.12.2-GTNH
 >## What's Changed
+> * Fixed dupe bug with breaking of compacting drawer by @OneEyeMaker in https://github.com/GTNewHorizons/StorageDrawers/pull/24 (1.12.2-GTNH)
 > * Add two new Tiers of Drawer upgrades. Ruby and Tanzanite by @Dream-Master in https://github.com/GTNewHorizons/StorageDrawers/pull/21 (1.12.1-GTNH)
 > * Fix merge behavior not respecting stackability by @miozune in https://github.com/GTNewHorizons/StorageDrawers/pull/20 (1.12.0-GTNH)
 >
