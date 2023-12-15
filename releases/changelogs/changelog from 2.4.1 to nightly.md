@@ -689,9 +689,10 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.50@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.50
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.51@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.51
 >## What's Changed
+> * Fix QFT focus chance calculation by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/805 (1.10.51)
 > * Fix QFT not recognizing circuit in separated input bus by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/804 (1.10.50)
 > * Fix recipe for halfcompletecasing II by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/803 (1.10.49)
 > * Fix asymmetry in the Quantum Force Transformer by @Pelotrio in https://github.com/GTNewHorizons/GTplusplus/pull/799 (1.10.48)
@@ -903,9 +904,12 @@
 > * @querns made their first contribution in https://github.com/GTNewHorizons/Jabba/pull/26 (1.3.0)
 >
 
-# Updated KekzTech (0.9.1@Side.BOTH --> 0.9.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.9.0...0.9.4
+# Updated KekzTech (0.9.1@Side.BOTH --> 0.9.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.9.0...0.9.6
 >## What's Changed
+> * Bs+dep update by @chochem in https://github.com/GTNewHorizons/KekzTech/pull/81 (0.9.6)
+> * Fix LSC wireless explosions by @chochem in https://github.com/GTNewHorizons/KekzTech/pull/80 (0.9.5)
+> * Fix lsc capacitor check by @chochem in https://github.com/GTNewHorizons/KekzTech/pull/79 (0.9.5)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/KekzTech/pull/78 (0.9.3)
 > * Cleanup noXXXYYY methods by @miozune in https://github.com/GTNewHorizons/KekzTech/pull/77 (0.9.1)
 >
