@@ -204,9 +204,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/20 (1.5.0-GTNH)
 >
 
-# Updated BetterQuesting (3.4.0-GTNH@Side.BOTH --> 3.4.5-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.27-GTNH...3.4.5-GTNH
+# Updated BetterQuesting (3.4.0-GTNH@Side.BOTH --> 3.4.6-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.27-GTNH...3.4.6-GTNH
 >## What's Changed
+> * Fix quest GUI persisting invalid screen to back by @miozune in https://github.com/GTNewHorizons/BetterQuesting/pull/123 (3.4.6-GTNH)
 > * fix incorrect manual list insert by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/121 (3.4.5-GTNH)
 > * Ignore .DS_Store and old "malformed" files by @Lyfts in https://github.com/GTNewHorizons/BetterQuesting/pull/120 (3.4.4-GTNH)
 > * Small changes for quest HUD text render by @Alexdoru in https://github.com/GTNewHorizons/BetterQuesting/pull/119 (3.4.3-GTNH)
@@ -1341,13 +1342,15 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/51 (1.5.0-GTNH)
 >
 
-# Updated ThaumicHorizons (1.3.5@Side.BOTH --> 1.4.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.3.4...1.4.0
+# Updated ThaumicHorizons (1.3.5@Side.BOTH --> 1.4.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.3.4...1.4.1
 >## What's Changed
+> * New lens textures by @Ethryan in https://github.com/GTNewHorizons/ThaumicHorizons/pull/61 (1.4.1)
 > * Alternative russian translation by @Gordon-Frohman in https://github.com/GTNewHorizons/ThaumicHorizons/pull/60 (1.4.0)
 > * validate player has the prereq self infusion before doing what player has requested by @Glease in https://github.com/GTNewHorizons/ThaumicHorizons/pull/54 (1.3.5)
 >
 >## New Contributors
+> * @Ethryan made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/61 (1.4.1)
 > * @Gordon-Frohman made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/60 (1.4.0)
 >
 
@@ -1455,9 +1458,10 @@
 > * @kumquat-ir made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/43 (1.3.4-GTNH)
 >
 
-# Updated bartworks (0.8.6@Side.BOTH --> 0.8.21@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.5...0.8.21
+# Updated bartworks (0.8.6@Side.BOTH --> 0.8.22@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.5...0.8.22
 >## What's Changed
+> * Fix length calculation for CAL by @LewisSaber in https://github.com/GTNewHorizons/bartworks/pull/379 (0.8.22)
 > * Fix HTGR not allowing insertion of coolant by @miozune in https://github.com/GTNewHorizons/bartworks/pull/378 (0.8.21)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/bartworks/pull/375 (0.8.19)
 > * tweak cal structure code by @Glease in https://github.com/GTNewHorizons/bartworks/pull/376 (0.8.18)
