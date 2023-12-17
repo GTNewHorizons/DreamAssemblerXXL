@@ -204,9 +204,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/20 (1.5.0-GTNH)
 >
 
-# Updated BetterQuesting (3.4.0-GTNH@Side.BOTH --> 3.4.5-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.27-GTNH...3.4.5-GTNH
+# Updated BetterQuesting (3.4.0-GTNH@Side.BOTH --> 3.4.6-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.3.27-GTNH...3.4.6-GTNH
 >## What's Changed
+> * Fix quest GUI persisting invalid screen to back by @miozune in https://github.com/GTNewHorizons/BetterQuesting/pull/123 (3.4.6-GTNH)
 > * fix incorrect manual list insert by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/121 (3.4.5-GTNH)
 > * Ignore .DS_Store and old "malformed" files by @Lyfts in https://github.com/GTNewHorizons/BetterQuesting/pull/120 (3.4.4-GTNH)
 > * Small changes for quest HUD text render by @Alexdoru in https://github.com/GTNewHorizons/BetterQuesting/pull/119 (3.4.3-GTNH)
@@ -503,9 +504,10 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/17 (1.4.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.106@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.106
+# Updated GT5-Unofficial (5.09.44.25@Side.BOTH --> 5.09.44.107@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.24...5.09.44.107
 >## What's Changed
+> * Remove IC2 iridium exploit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2402 (5.09.44.107)
 > * Fix input hatches for large turbine & boiler not accepting fluids by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2400 (5.09.44.106)
 > * add ic2steam to cracked recipes by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2399 (5.09.44.104)
 > * Fix some singleblock not overclocking by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2398 (5.09.44.103)
@@ -689,9 +691,12 @@
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/69 (0.11.2)
 >
 
-# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.50@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.50
+# Updated GTplusplus (1.10.11@Side.BOTH --> 1.10.53@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.10...1.10.53
 >## What's Changed
+> * fix IOOBE when there is no fuel fluids by @boubou19 in https://github.com/GTNewHorizons/GTplusplus/pull/808 (1.10.53)
+> * Fix Volcanus and cryo freezer not having pyrotheum and cryotheum hatch in their tooltip by @LewisSaber in https://github.com/GTNewHorizons/GTplusplus/pull/806 (1.10.52)
+> * Fix QFT focus chance calculation by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/805 (1.10.51)
 > * Fix QFT not recognizing circuit in separated input bus by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/804 (1.10.50)
 > * Fix recipe for halfcompletecasing II by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/803 (1.10.49)
 > * Fix asymmetry in the Quantum Force Transformer by @Pelotrio in https://github.com/GTNewHorizons/GTplusplus/pull/799 (1.10.48)
@@ -903,9 +908,12 @@
 > * @querns made their first contribution in https://github.com/GTNewHorizons/Jabba/pull/26 (1.3.0)
 >
 
-# Updated KekzTech (0.9.1@Side.BOTH --> 0.9.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.9.0...0.9.4
+# Updated KekzTech (0.9.1@Side.BOTH --> 0.9.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.9.0...0.9.6
 >## What's Changed
+> * Bs+dep update by @chochem in https://github.com/GTNewHorizons/KekzTech/pull/81 (0.9.6)
+> * Fix LSC wireless explosions by @chochem in https://github.com/GTNewHorizons/KekzTech/pull/80 (0.9.5)
+> * Fix lsc capacitor check by @chochem in https://github.com/GTNewHorizons/KekzTech/pull/79 (0.9.5)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/KekzTech/pull/78 (0.9.3)
 > * Cleanup noXXXYYY methods by @miozune in https://github.com/GTNewHorizons/KekzTech/pull/77 (0.9.1)
 >
@@ -1337,13 +1345,15 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/51 (1.5.0-GTNH)
 >
 
-# Updated ThaumicHorizons (1.3.5@Side.BOTH --> 1.4.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.3.4...1.4.0
+# Updated ThaumicHorizons (1.3.5@Side.BOTH --> 1.4.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.3.4...1.4.1
 >## What's Changed
+> * New lens textures by @Ethryan in https://github.com/GTNewHorizons/ThaumicHorizons/pull/61 (1.4.1)
 > * Alternative russian translation by @Gordon-Frohman in https://github.com/GTNewHorizons/ThaumicHorizons/pull/60 (1.4.0)
 > * validate player has the prereq self infusion before doing what player has requested by @Glease in https://github.com/GTNewHorizons/ThaumicHorizons/pull/54 (1.3.5)
 >
 >## New Contributors
+> * @Ethryan made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/61 (1.4.1)
 > * @Gordon-Frohman made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/60 (1.4.0)
 >
 
@@ -1451,9 +1461,10 @@
 > * @kumquat-ir made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/43 (1.3.4-GTNH)
 >
 
-# Updated bartworks (0.8.6@Side.BOTH --> 0.8.21@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.5...0.8.21
+# Updated bartworks (0.8.6@Side.BOTH --> 0.8.22@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.5...0.8.22
 >## What's Changed
+> * Fix length calculation for CAL by @LewisSaber in https://github.com/GTNewHorizons/bartworks/pull/379 (0.8.22)
 > * Fix HTGR not allowing insertion of coolant by @miozune in https://github.com/GTNewHorizons/bartworks/pull/378 (0.8.21)
 > * Migrate to new RecipeMap by @miozune in https://github.com/GTNewHorizons/bartworks/pull/375 (0.8.19)
 > * tweak cal structure code by @Glease in https://github.com/GTNewHorizons/bartworks/pull/376 (0.8.18)
