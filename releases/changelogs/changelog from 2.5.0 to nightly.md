@@ -56,6 +56,16 @@
 > * fix IOOBE when there is no fuel fluids by @boubou19 in https://github.com/GTNewHorizons/GTplusplus/pull/808 (1.10.53)
 >
 
+# Updated Galacticraft (3.0.74-GTNH@Side.BOTH --> 3.1.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.73-GTNH...3.1.0-GTNH
+>## What's Changed
+> * Fix backwards-compatibility with other Galacticraft addons (e. g. ExtraPlanets) by @PT400C in https://github.com/GTNewHorizons/Galacticraft/pull/82 (3.1.0-GTNH)
+> * Use llamalad7's MixinExtras by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/80 (3.0.74-GTNH)
+>
+>## New Contributors
+> * @PT400C made their first contribution in https://github.com/GTNewHorizons/Galacticraft/pull/82 (3.1.0-GTNH)
+>
+
 # Updated GoodGenerator (0.7.16@Side.BOTH --> 0.8.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.15...0.8.0
 >## What's Changed

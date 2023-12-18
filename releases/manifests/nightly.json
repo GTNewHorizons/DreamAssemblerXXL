@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.0",
-  "last_updated": "2023-12-18T17:08:59.615834",
+  "last_updated": "2023-12-18T18:15:13.347450",
   "config": "2.6.0-nightly-2023-12-18",
   "github_mods": {
     "AdventureBackpack2": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.0.74-GTNH",
+      "version": "3.1.0-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
