@@ -1,6 +1,7 @@
-# Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.0-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.0-gtnh
+# Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.1-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.1-gtnh
 >## What's Changed
+> * Support to show p2p outputs in interface terminal by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/179 (1.2.1-gtnh)
 > * Correct `stackSize` z order by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/178 (1.2.0-gtnh)
 > * Optimize CPacketFluidUpdate by @TechnicianLP in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/177 (1.1.73-gtnh)
 >
@@ -8,9 +9,10 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/177 (1.1.73-gtnh)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-291-GTNH@Side.BOTH --> rv3-beta-302-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-290-GTNH...rv3-beta-302-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-291-GTNH@Side.BOTH --> rv3-beta-303-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-290-GTNH...rv3-beta-303-GTNH
 >## What's Changed
+> * Support to show p2p outputs in interface terminal by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/441 (rv3-beta-303-GTNH)
 > * Correct stackSize z order by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/440 (rv3-beta-302-GTNH)
 > * Respect interface settings by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/439 (rv3-beta-301-GTNH)
 > * Fix crash when opening disconnected interface terminal by @Caedis in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
@@ -20,9 +22,14 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.01@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.01
+# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.02@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.02
 >## What's Changed
+> * fix dep by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2405 (5.09.45.02)
+> * Fix logic with old OC calculation code by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2408 (5.09.45.02)
+> * Don't rotate block if player is sneaking by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2409 (5.09.45.02)
+> * Fix basic machine OC not using amperage by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2410 (5.09.45.02)
+> * update deps by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2411 (5.09.45.02)
 > * Fix: Show CRIB always in interface terminal by @Laiff in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2404 (5.09.45.01)
 > * Clarify whether item or fluid output is full by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2403 (5.09.45.00)
 > * make quantum tanks not slow you down for later game players by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2393 (5.09.45.00)
@@ -119,9 +126,16 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/111 (1.10.0-GTNH)
 >
 
-# Updated TinkersConstruct (1.10.12-GTNH@Side.BOTH --> 1.11.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.11-GTNH...1.11.0
+# Updated Realistic-World-Gen (alpha-1.3.8@Side.BOTH --> alpha-1.3.9-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen/compare/alpha-1.3.6...alpha-1.3.9-pre
 >## What's Changed
+> * use lowercase version to match GTNH config file by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/14 (alpha-1.3.8)
+>
+
+# Updated TinkersConstruct (1.10.12-GTNH@Side.BOTH --> 1.11.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.11-GTNH...1.11.0-GTNH
+>## What's Changed
+> * TConstruct Gadgets localization by @bessonowjaroslaw in https://github.com/GTNewHorizons/TinkersConstruct/pull/102 (1.11.0-GTNH)
 > * Added forbidden dimension config by @Ugachaga in https://github.com/GTNewHorizons/TinkersConstruct/pull/2 (1.11.0)
 > * SoulBound support for additional TC slots by @Ugachaga in https://github.com/GTNewHorizons/TinkersConstruct/pull/3 (1.11.0)
 > * Probable solution by @Technus in https://github.com/GTNewHorizons/TinkersConstruct/pull/4 (1.11.0)
@@ -216,6 +230,7 @@
 > * Patch for Angelica by @ah-OOG-ah in https://github.com/GTNewHorizons/TinkersConstruct/pull/101 (1.10.12-GTNH)
 >
 >## New Contributors
+> * @bessonowjaroslaw made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/102 (1.11.0-GTNH)
 > * @Ugachaga made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/2 (1.11.0)
 > * @Technus made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/4 (1.11.0)
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/8 (1.11.0)
