@@ -1,6 +1,8 @@
-# Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.1-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.1-gtnh
+# Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.3-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.3-gtnh
 >## What's Changed
+> * Implement Interface Locking for Dual Interfaces by @TechnicianLP in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/182 (1.2.3-gtnh)
+> * Respect setting `preserveSearchBar` in `InterfaceTerminal` (1.2.2-gtnh)
 > * Support to show p2p outputs in interface terminal by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/179 (1.2.1-gtnh)
 > * Correct `stackSize` z order by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/178 (1.2.0-gtnh)
 > * Optimize CPacketFluidUpdate by @TechnicianLP in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/177 (1.1.73-gtnh)
@@ -9,9 +11,23 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/177 (1.1.73-gtnh)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-291-GTNH@Side.BOTH --> rv3-beta-303-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-290-GTNH...rv3-beta-303-GTNH
+# Updated Amazing-Trophies (1.1.3@Side.BOTH --> 1.1.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.1.2...1.1.4
 >## What's Changed
+> * Force Fancy Graphics when rendering a Trophy displaying an Item by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/5 (1.1.4)
+> * Use custom Material for Trophy Block by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/4 (1.1.3)
+>
+>## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/Amazing-Trophies/pull/4 (1.1.3)
+>
+
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-291-GTNH@Side.BOTH --> rv3-beta-304-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-290-GTNH...rv3-beta-304-GTNH
+>## What's Changed
+> * Backport Interface Locking Mode by @TechnicianLP in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/437 (rv3-beta-304-GTNH)
+> * Do not form `CraftingCPU` if storage overflow detected by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/443 (rv3-beta-304-GTNH)
+> * Add Priority Card by @TechnicianLP in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/446 (rv3-beta-304-GTNH)
+> * Respect setting `preserveSearchBar` in `InterfaceTerminal` by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/445 (rv3-beta-304-GTNH)
 > * Support to show p2p outputs in interface terminal by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/441 (rv3-beta-303-GTNH)
 > * Correct stackSize z order by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/440 (rv3-beta-302-GTNH)
 > * Respect interface settings by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/439 (rv3-beta-301-GTNH)
@@ -19,7 +35,15 @@
 > * Support stack sizes larger than 127 when transferring from NEI by @tth05 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/435 (rv3-beta-291-GTNH)
 >
 >## New Contributors
+> * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/437 (rv3-beta-304-GTNH)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
+>
+
+# Updated BetterQuesting (3.4.6-GTNH@Side.BOTH --> 3.5.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.4.5-GTNH...3.5.0-GTNH
+>## What's Changed
+> * Fix quest notif hud rendering issue by @Alexdoru in https://github.com/GTNewHorizons/BetterQuesting/pull/124 (3.5.0-GTNH)
+> * Fix quest GUI persisting invalid screen to back by @miozune in https://github.com/GTNewHorizons/BetterQuesting/pull/123 (3.4.6-GTNH)
 >
 
 # Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.02@Side.BOTH)
@@ -48,9 +72,10 @@
 > * Fix space mining module not allowing insertion of plasma by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/55 (1.2.8)
 >
 
-# Updated GTNH-Lanthanides (0.11.8@Side.BOTH --> 0.12.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.7...0.12.0
+# Updated GTNH-Lanthanides (0.11.8@Side.BOTH --> 0.12.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.7...0.12.1
 >## What's Changed
+> * EuO chem balance fix by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/79 (0.12.1)
 > * Remove now unneeded IMC handler by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/78 (0.12.0)
 >
 
@@ -63,14 +88,22 @@
 > * fix IOOBE when there is no fuel fluids by @boubou19 in https://github.com/GTNewHorizons/GTplusplus/pull/808 (1.10.53)
 >
 
-# Updated Galacticraft (3.0.74-GTNH@Side.BOTH --> 3.1.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.73-GTNH...3.1.0-GTNH
+# Updated Galacticraft (3.0.74-GTNH@Side.BOTH --> 3.1.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.73-GTNH...3.1.1-GTNH
 >## What's Changed
+> * Update GC lang files to more modern usage for MobInfo by @bombcar in https://github.com/GTNewHorizons/Galacticraft/pull/83 (3.1.1-GTNH)
 > * Fix backwards-compatibility with other Galacticraft addons (e. g. ExtraPlanets) by @PT400C in https://github.com/GTNewHorizons/Galacticraft/pull/82 (3.1.0-GTNH)
 > * Use llamalad7's MixinExtras by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/80 (3.0.74-GTNH)
 >
 >## New Contributors
 > * @PT400C made their first contribution in https://github.com/GTNewHorizons/Galacticraft/pull/82 (3.1.0-GTNH)
+>
+
+# Updated Galaxy-Space-GTNH (1.2.14-GTNH@Side.BOTH --> 1.3.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.2.13-GTNH...1.3.0-GTNH
+>## What's Changed
+> * fix localization to match changes to GalacticCore by @bombcar in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/105 (1.3.0-GTNH)
+> * Cleanup dependencies by @miozune in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/104 (1.2.14-GTNH)
 >
 
 # Updated GoodGenerator (0.7.16@Side.BOTH --> 0.8.0@Side.BOTH)
@@ -89,11 +122,16 @@
 > * Switch voxelmap to false by default due to no modid and it being a late mixin... by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/292 (2.3.40)
 >
 
-# Updated KubaTech (0.13.11@Side.BOTH --> 0.14.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.13.10...0.14.0
+# Updated KubaTech (0.13.11@Side.BOTH --> 0.14.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.13.10...0.14.1
 >## What's Changed
+> * Allow the EIG and MApiary to use IC2 Distilled Water in place of regular water in the structure. by @AbdielKavash in https://github.com/GTNewHorizons/KubaTech/pull/113 (0.14.1)
+> * Fix queen dupe bug in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/114 (0.14.1)
 > * Remove now unneeded IMC for DEFusionCrafter by @miozune in https://github.com/GTNewHorizons/KubaTech/pull/111 (0.14.0)
 > * EEC: Fix infernal spawns not happening with 4 EV hatches by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/110 (0.13.11)
+>
+>## New Contributors
+> * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/113 (0.14.1)
 >
 
 # Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.0@Side.BOTH)
@@ -124,6 +162,16 @@
 >
 >## New Contributors
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/111 (1.10.0-GTNH)
+>
+
+# Updated ProjectRed (4.8.0-GTNH@Side.BOTH --> 4.9.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.7.12-GTNH...4.9.0-GTNH
+>## What's Changed
+> * Angelica compat - don't rebind textures by @ah-OOG-ah in https://github.com/GTNewHorizons/ProjectRed/pull/27 (4.9.0-GTNH)
+> * Update build script; apply spotless by @bombcar in https://github.com/GTNewHorizons/ProjectRed/pull/26 (4.8.0-GTNH)
+>
+>## New Contributors
+> * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/27 (4.9.0-GTNH)
 >
 
 # Updated Realistic-World-Gen (alpha-1.3.8@Side.BOTH --> alpha-1.3.9-pre@Side.BOTH)
@@ -269,5 +317,12 @@
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/101 (1.11.0)
 > * @bessonowjaroslaw made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/102 (1.11.0)
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/101 (1.10.12-GTNH)
+>
+
+# Updated WarpTheory (1.2.16-GTNH@Side.BOTH --> 1.3.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.2.14-GTNH...1.3.0-GTNH
+>## What's Changed
+> * Add names for warptheory entities for mobinfo by @bombcar in https://github.com/GTNewHorizons/WarpTheory/pull/31 (1.3.0-GTNH)
+> * Fix spawned doppelgänger by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/30 (1.2.16-GTNH)
 >
 
