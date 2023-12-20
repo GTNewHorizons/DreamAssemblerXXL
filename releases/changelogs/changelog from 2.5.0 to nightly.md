@@ -72,8 +72,8 @@
 > * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.44.109@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.44.109
+# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.44.110@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.44.110
 >## What's Changed
 > * Remove IC2 iridium exploit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2402 (5.09.44.107)
 >
