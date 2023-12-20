@@ -331,7 +331,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ForgeMultipart](https://github.com/GTNewHorizons/ForgeMultipart) | 1.4.1 |
 | [ForgeRelocation](https://github.com/GTNewHorizons/ForgeRelocation) | 0.0.3 |
 | [ForgeRelocationFMP](https://github.com/GTNewHorizons/ForgeRelocationFMP) | 0.0.4 |
-| [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.2.1-pre |
+| [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.2.0 |
 | [GalacticGregGT5](https://github.com/GTNewHorizons/GalacticGregGT5) | 1.0.10 |
 | [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.0.75-GTNH |
 | [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.2.15-GTNH |
@@ -478,6 +478,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [WailaHarvestability](https://github.com/GTNewHorizons/WailaHarvestability) | 1.1.10-GTNH |
 | [WAILAPlugins](https://github.com/GTNewHorizons/WAILAPlugins) | 0.3.0 |
 | [WanionLib](https://github.com/GTNewHorizons/WanionLib) | 1.8.4 |
+| [WarpTheory](https://github.com/GTNewHorizons/WarpTheory) | 1.2.17-GTNH |
 | [WAWLA](https://github.com/GTNewHorizons/WAWLA) | 1.1.3-GTNH |
 | [WirelessCraftingTerminal](https://github.com/GTNewHorizons/WirelessCraftingTerminal) | 1.10.1 |
 | [WirelessRedstone-CBE](https://github.com/GTNewHorizons/WirelessRedstone-CBE) | 1.4.8 |

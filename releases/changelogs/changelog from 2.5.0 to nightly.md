@@ -1,5 +1,3 @@
-# Mods Removed:
-> * WarpTheory
 # Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.1.74-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.1.74-gtnh
 >## What's Changed
@@ -93,15 +91,6 @@
 **Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.10.54
 >## What's Changed
 > * fix IOOBE when there is no fuel fluids by @boubou19 in https://github.com/GTNewHorizons/GTplusplus/pull/808 (1.10.53)
->
-
-# Updated Gadomancy (1.2.0@Side.BOTH --> 1.2.1-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.1.3...1.2.1-pre
->## What's Changed
-> * Eldrich recipes by @EnderProyects in https://github.com/GTNewHorizons/Gadomancy/pull/25 (1.2.0)
->
->## New Contributors
-> * @EnderProyects made their first contribution in https://github.com/GTNewHorizons/Gadomancy/pull/25 (1.2.0)
 >
 
 # Updated Galacticraft (3.0.74-GTNH@Side.BOTH --> 3.0.75-GTNH@Side.BOTH)
@@ -213,6 +202,12 @@
 >
 >## New Contributors
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/101 (1.10.12-GTNH)
+>
+
+# Updated WarpTheory (1.2.16-GTNH@Side.BOTH --> 1.2.17-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.2.14-GTNH...1.2.17-GTNH
+>## What's Changed
+> * Fix spawned doppelgänger by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/30 (1.2.16-GTNH)
 >
 
 # Updated bartworks (0.8.22@Side.BOTH --> 0.8.23@Side.BOTH)
