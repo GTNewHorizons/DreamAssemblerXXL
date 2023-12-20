@@ -49,9 +49,10 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
 >
 
-# Updated BetterQuesting (3.4.6-GTNH@Side.BOTH --> 3.5.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.4.5-GTNH...3.5.0-GTNH
+# Updated BetterQuesting (3.4.6-GTNH@Side.BOTH --> 3.5.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.4.5-GTNH...3.5.1-GTNH
 >## What's Changed
+> * fix inserting into empty tag list not setting tag type by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/125 (3.5.1-GTNH)
 > * Fix quest notif hud rendering issue by @Alexdoru in https://github.com/GTNewHorizons/BetterQuesting/pull/124 (3.5.0-GTNH)
 > * Fix quest GUI persisting invalid screen to back by @miozune in https://github.com/GTNewHorizons/BetterQuesting/pull/123 (3.4.6-GTNH)
 >
