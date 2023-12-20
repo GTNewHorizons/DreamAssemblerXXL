@@ -11,6 +11,16 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/177 (1.1.73-gtnh)
 >
 
+# Updated AdventureBackpack2 (1.0.16-GTNH@Side.BOTH --> 1.1.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.14-GTNH...1.1.0-GTNH
+>## What's Changed
+> * Add name for rideableSpider by @bombcar in https://github.com/GTNewHorizons/AdventureBackpack2/pull/17 (1.1.0-GTNH)
+> * Show the wearing backpack in TConstruct tab by @ghostflyby in https://github.com/GTNewHorizons/AdventureBackpack2/pull/16 (1.0.16-GTNH)
+>
+>## New Contributors
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/16 (1.0.16-GTNH)
+>
+
 # Updated Amazing-Trophies (1.1.3@Side.BOTH --> 1.1.4@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.1.2...1.1.4
 >## What's Changed
@@ -46,9 +56,55 @@
 > * Fix quest GUI persisting invalid screen to back by @miozune in https://github.com/GTNewHorizons/BetterQuesting/pull/123 (3.4.6-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.02@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.02
+# Updated BlockRenderer6343 (1.0.5@Side.BOTH --> 1.1.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.0.4...1.1.0
 >## What's Changed
+> * Fix preview not showing if multi isn't ISurvivalConstructable by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/8 (1.1.0)
+>
+>## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/BlockRenderer6343/pull/8 (1.1.0)
+>
+
+# Updated EnderCore (0.2.18@Side.BOTH --> 0.3.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.17...0.3.0
+>## What's Changed
+> * Fix for limited item filter by @Tu0rp in https://github.com/GTNewHorizons/EnderCore/pull/18 (0.3.0)
+> * Get Empty container with drainFluidContainer by @ghostflyby in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.18)
+>
+>## New Contributors
+> * @Tu0rp made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/18 (0.3.0)
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.18)
+>
+
+# Updated EnderIO (2.5.8@Side.BOTH --> 2.6.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.5.6...2.6.0
+>## What's Changed
+> * Limited Item Filter by @Tu0rp in https://github.com/GTNewHorizons/EnderIO/pull/143 (2.6.0)
+> * Add Config to allow servers to re-enable support for client-side 'hacks' like Staff Of Traveling Keybind mod. by @TheUnderTaker11 in https://github.com/GTNewHorizons/EnderIO/pull/142 (2.6.0)
+> * Fix NBT Match where tag is empty but exists by @spacebuilder2020 in https://github.com/GTNewHorizons/EnderIO/pull/138 (2.5.8)
+> * Fix an edge case pertaining to freshly crafted tanks by @bearsdotzone in https://github.com/GTNewHorizons/EnderIO/pull/141 (2.5.8)
+>
+>## New Contributors
+> * @Tu0rp made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/143 (2.6.0)
+> * @TheUnderTaker11 made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/142 (2.6.0)
+> * @spacebuilder2020 made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/138 (2.5.8)
+> * @bearsdotzone made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/141 (2.5.8)
+>
+
+# Updated ForestryMC (4.7.0@Side.BOTH --> 4.8.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.14...4.8.0
+>## What's Changed
+> * Add name for butterflyGE by @bombcar in https://github.com/GTNewHorizons/ForestryMC/pull/59 (4.8.0)
+> * Mails are now checked for prohibited items by @DrParadox7 in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
+>
+>## New Contributors
+> * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
+>
+
+# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.03@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.03
+>## What's Changed
+> * Allow Oil Cracker to use an Input Bus for programmed circuit automation. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2413 (5.09.45.03)
 > * fix dep by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2405 (5.09.45.02)
 > * Fix logic with old OC calculation code by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2408 (5.09.45.02)
 > * Don't rotate block if player is sneaking by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2409 (5.09.45.02)
@@ -61,6 +117,7 @@
 > * Remove IC2 iridium exploit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2402 (5.09.44.107)
 >
 >## New Contributors
+> * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2413 (5.09.45.03)
 > * @Laiff made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2404 (5.09.45.01)
 >
 
@@ -115,9 +172,10 @@
 > * Fix crash with Nq Gen if coolant has just been depleted by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/226 (0.7.16)
 >
 
-# Updated Hodgepodge (2.3.40@Side.BOTH --> 2.4.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.39...2.4.0
+# Updated Hodgepodge (2.3.40@Side.BOTH --> 2.4.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.39...2.4.1
 >## What's Changed
+> * Add Disable Realms Button Mixin by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/294 (2.4.1)
 > * Player Skin Fetching Fix part 2 by @kumquat-ir in https://github.com/GTNewHorizons/Hodgepodge/pull/293 (2.4.0)
 > * Switch voxelmap to false by default due to no modid and it being a late mixin... by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/292 (2.3.40)
 >
@@ -133,6 +191,9 @@
 >## New Contributors
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/113 (0.14.1)
 >
+
+# Updated Mobs-Info (0.1.12-GTNH@Side.BOTH --> 0.2.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.11-GTNH...0.2.0-GTNH
 
 # Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.52...2.3.0
@@ -154,6 +215,17 @@
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/Nuclear-Control/pull/18 (2.6.0)
 >
 
+# Updated OpenBlocks (1.8.2-GTNH@Side.BOTH --> 1.9.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.8.1-GTNH...1.9.0-GTNH
+>## What's Changed
+> * Fix server crash due to trying to access translation resource by @ghostflyby in https://github.com/GTNewHorizons/OpenBlocks/pull/20 (1.9.0-GTNH)
+> * Make BlockGrave use the same logic as TileEntityGrave to determine player name by @unilock in https://github.com/GTNewHorizons/OpenBlocks/pull/19 (1.8.2-GTNH)
+>
+>## New Contributors
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/20 (1.9.0-GTNH)
+> * @unilock made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/19 (1.8.2-GTNH)
+>
+
 # Updated OpenComputers (1.9.19-GTNH@Side.BOTH --> 1.10.0-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.17-GTNH...1.10.0-GTNH
 >## What's Changed
@@ -162,6 +234,14 @@
 >
 >## New Contributors
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/111 (1.10.0-GTNH)
+>
+
+# Updated Opis (1.3.8-mapless@Side.BOTH --> 1.4.0-mapless@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.3.7-mapless...1.4.0-mapless
+>## What's Changed
+> * Remove system.exit to make FML happy by @bombcar in https://github.com/GTNewHorizons/Opis/pull/12 (1.4.0-mapless)
+> * Add version token replacement for MobiusCore by @glowredman in https://github.com/GTNewHorizons/Opis/pull/10 (1.3.8-mapless)
+> * Add `@MCVersion` annotation by @glowredman in https://github.com/GTNewHorizons/Opis/pull/11 (1.3.8-mapless)
 >
 
 # Updated ProjectRed (4.8.0-GTNH@Side.BOTH --> 4.9.0-GTNH@Side.BOTH)
@@ -174,15 +254,37 @@
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/27 (4.9.0-GTNH)
 >
 
+# Updated Random-Things (2.4.5@Side.BOTH --> 2.5.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.4.4...2.5.0
+>## What's Changed
+> * Add RandomThings to allow mobsinfo to find it. by @bombcar in https://github.com/GTNewHorizons/Random-Things/pull/4 (2.5.0)
+> * Cyclic Bloodmoon by @DrParadox7 in https://github.com/GTNewHorizons/Random-Things/pull/3 (2.4.5)
+>
+>## New Contributors
+> * @bombcar made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/4 (2.5.0)
+> * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/3 (2.4.5)
+>
+
 # Updated Realistic-World-Gen (alpha-1.3.8@Side.BOTH --> alpha-1.3.9-pre@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen/compare/alpha-1.3.6...alpha-1.3.9-pre
 >## What's Changed
 > * use lowercase version to match GTNH config file by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/14 (alpha-1.3.8)
 >
 
-# Updated TinkersConstruct (1.10.12-GTNH@Side.BOTH --> 1.11.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.11-GTNH...1.11.0-GTNH
+# Updated ThaumicHorizons (1.4.1@Side.BOTH --> 1.5.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.4.0...1.5.0
 >## What's Changed
+> * Correct name application for Nightmare by @bombcar in https://github.com/GTNewHorizons/ThaumicHorizons/pull/62 (1.5.0)
+> * New lens textures by @Ethryan in https://github.com/GTNewHorizons/ThaumicHorizons/pull/61 (1.4.1)
+>
+>## New Contributors
+> * @Ethryan made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/61 (1.4.1)
+>
+
+# Updated TinkersConstruct (1.10.12-GTNH@Side.BOTH --> 1.11.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.11-GTNH...1.11.1-GTNH
+>## What's Changed
+> * add name for crystal entity (which seems to be a creeper? by @bombcar in https://github.com/GTNewHorizons/TinkersConstruct/pull/103 (1.11.1-GTNH)
 > * TConstruct Gadgets localization by @bessonowjaroslaw in https://github.com/GTNewHorizons/TinkersConstruct/pull/102 (1.11.0-GTNH)
 > * Added forbidden dimension config by @Ugachaga in https://github.com/GTNewHorizons/TinkersConstruct/pull/2 (1.11.0)
 > * SoulBound support for additional TC slots by @Ugachaga in https://github.com/GTNewHorizons/TinkersConstruct/pull/3 (1.11.0)
@@ -324,5 +426,16 @@
 >## What's Changed
 > * Add names for warptheory entities for mobinfo by @bombcar in https://github.com/GTNewHorizons/WarpTheory/pull/31 (1.3.0-GTNH)
 > * Fix spawned doppelgänger by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/30 (1.2.16-GTNH)
+>
+
+# Updated bartworks (0.8.22@Side.BOTH --> 0.9.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.21...0.9.1
+>## What's Changed
+> * Fix CAL Locking itself by @LewisSaber in https://github.com/GTNewHorizons/bartworks/pull/381 (0.9.1)
+> * Allow Mega Oil Cracker to use an input bus for programmed circuit automation. by @AbdielKavash in https://github.com/GTNewHorizons/bartworks/pull/382 (0.9.0)
+> * Fix length calculation for CAL by @LewisSaber in https://github.com/GTNewHorizons/bartworks/pull/379 (0.8.22)
+>
+>## New Contributors
+> * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/382 (0.9.0)
 >
 
