@@ -106,8 +106,8 @@
 > * Cleanup dependencies by @miozune in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/104 (1.2.14-GTNH)
 >
 
-# Updated GoodGenerator (0.7.16@Side.BOTH --> 0.8.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.15...0.8.0
+# Updated GoodGenerator (0.7.16@Side.BOTH --> 0.8.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.15...0.8.1
 >## What's Changed
 > * Cleanup isValidMetaTileEntity again by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/227 (0.8.0)
 > * Batch mode for compact fusion MKIV-V by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/223 (0.8.0)
