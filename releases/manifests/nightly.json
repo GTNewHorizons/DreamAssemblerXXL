@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.5.0",
-  "last_updated": "2023-12-20T19:59:21.215414",
-  "config": "2.6.0-nightly-2023-12-20-2",
+  "last_updated": "2023-12-21T11:32:37.884954",
+  "config": "2.5.1",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.1.0-GTNH",
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.03",
+      "version": "5.09.45.04",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.4.1",
+      "version": "2.4.2",
       "side": "BOTH"
     },
     "HoloInventory": {

@@ -102,9 +102,11 @@
 > * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.03@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.03
+# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.04@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.04
 >## What's Changed
+> * Fix CRIB adding null item inputs by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2415 (5.09.45.04)
+> * update deps by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2414 (5.09.45.04)
 > * Allow Oil Cracker to use an Input Bus for programmed circuit automation. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2413 (5.09.45.03)
 > * fix dep by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2405 (5.09.45.02)
 > * Fix logic with old OC calculation code by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2408 (5.09.45.02)
@@ -173,9 +175,10 @@
 > * Fix crash with Nq Gen if coolant has just been depleted by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/226 (0.7.16)
 >
 
-# Updated Hodgepodge (2.3.40@Side.BOTH --> 2.4.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.39...2.4.1
+# Updated Hodgepodge (2.3.40@Side.BOTH --> 2.4.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.39...2.4.2
 >## What's Changed
+> * Completely hide realms button and make mods button wider to fill the gap by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/296 (2.4.2)
 > * Add Disable Realms Button Mixin by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/294 (2.4.1)
 > * Player Skin Fetching Fix part 2 by @kumquat-ir in https://github.com/GTNewHorizons/Hodgepodge/pull/293 (2.4.0)
 > * Switch voxelmap to false by default due to no modid and it being a late mixin... by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/292 (2.3.40)
