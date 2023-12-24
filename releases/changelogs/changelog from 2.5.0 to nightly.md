@@ -58,13 +58,29 @@
 > * Fix quest GUI persisting invalid screen to back by @miozune in https://github.com/GTNewHorizons/BetterQuesting/pull/123 (3.4.6-GTNH)
 >
 
-# Updated BlockRenderer6343 (1.0.5@Side.BOTH --> 1.1.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.0.4...1.1.0
+# Updated BlockRenderer6343 (1.0.5@Side.BOTH --> 1.1.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.0.4...1.1.1
 >## What's Changed
+> * Fix crash when switching tier after projecting a multiblock by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/9 (1.1.1)
 > * Fix preview not showing if multi isn't ISurvivalConstructable by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/8 (1.1.0)
 >
 >## New Contributors
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/BlockRenderer6343/pull/8 (1.1.0)
+>
+
+# Updated BloodArsenal (1.2.11@Side.BOTH --> 1.3.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.2.10...1.3.0
+>## What's Changed
+> * Buff daggers and replace wildcard imports by @Quetz4l in https://github.com/GTNewHorizons/BloodArsenal/pull/20 (1.3.0)
+> * Upload ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/BloodArsenal/pull/21 (1.3.0)
+> * Spotless apply for branch fix-nei-tooltip-crash for #18 by @github-actions in https://github.com/GTNewHorizons/BloodArsenal/pull/19 (1.2.11)
+> * Fix Ritual Stone NEI tooltip crash by @wlhlm in https://github.com/GTNewHorizons/BloodArsenal/pull/18 (1.2.11)
+>
+>## New Contributors
+> * @Quetz4l made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/20 (1.3.0)
+> * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/21 (1.3.0)
+> * @github-actions made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/19 (1.2.11)
+> * @wlhlm made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/18 (1.2.11)
 >
 
 # Updated Draconic-Evolution (1.2.1-GTNH@Side.BOTH --> 1.2.2-GTNH@Side.BOTH)
@@ -310,13 +326,15 @@
 > * use lowercase version to match GTNH config file by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/14 (alpha-1.3.8)
 >
 
-# Updated ThaumicEnergistics (1.5.4-GTNH@Side.BOTH --> 1.6.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.5.3-GTNH...1.6.0-GTNH
+# Updated ThaumicEnergistics (1.5.4-GTNH@Side.BOTH --> 1.6.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.5.3-GTNH...1.6.1-GTNH
 >## What's Changed
+> * Fix new essentia cell crash when shift rightclicking by @Hikari1nVoid in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/58 (1.6.1-GTNH)
 > * Introduce special handling for multi-aspect containers by @OneEyeMaker in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/57 (1.6.0-GTNH)
 > * change cells index by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/56 (1.5.4-GTNH)
 >
 >## New Contributors
+> * @Hikari1nVoid made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/58 (1.6.1-GTNH)
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/57 (1.6.0-GTNH)
 >
 
