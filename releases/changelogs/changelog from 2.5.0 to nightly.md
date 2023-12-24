@@ -32,9 +32,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Amazing-Trophies/pull/4 (1.1.3)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-291-GTNH@Side.BOTH --> rv3-beta-304-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-290-GTNH...rv3-beta-304-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-291-GTNH@Side.BOTH --> rv3-beta-305-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-290-GTNH...rv3-beta-305-GTNH
 >## What's Changed
+> * add tooltips for block container cell,update zh_CN by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/447 (rv3-beta-305-GTNH)
 > * Backport Interface Locking Mode by @TechnicianLP in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/437 (rv3-beta-304-GTNH)
 > * Do not form `CraftingCPU` if storage overflow detected by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/443 (rv3-beta-304-GTNH)
 > * Add Priority Card by @TechnicianLP in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/446 (rv3-beta-304-GTNH)
@@ -83,6 +84,20 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/18 (1.2.11)
 >
 
+# Updated CodeChickenCore (1.1.13@Side.BOTH --> 1.2.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.1.11...1.2.0
+>## What's Changed
+> * Angelica Compat by @mitchej123 in https://github.com/GTNewHorizons/CodeChickenCore/pull/12 (1.2.0)
+> * update BS and spotlessApply by @bombcar in https://github.com/GTNewHorizons/CodeChickenCore/pull/11 (1.1.13)
+>
+
+# Updated CodeChickenLib (1.1.10@Side.BOTH --> 1.2.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenLib/compare/1.1.9...1.2.0
+>## What's Changed
+> * Angelica Support - Static -> Instanced by @mitchej123 in https://github.com/GTNewHorizons/CodeChickenLib/pull/14 (1.2.0)
+> * Fix incomplete patch for item id packet by @miozune in https://github.com/GTNewHorizons/CodeChickenLib/pull/13 (1.1.10)
+>
+
 # Updated Draconic-Evolution (1.2.1-GTNH@Side.BOTH --> 1.2.2-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.2.0-GTNH...1.2.2-GTNH
 >## What's Changed
@@ -105,9 +120,10 @@
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.18)
 >
 
-# Updated EnderIO (2.5.8@Side.BOTH --> 2.6.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.5.6...2.6.0
+# Updated EnderIO (2.5.8@Side.BOTH --> 2.6.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.5.6...2.6.1
 >## What's Changed
+> * Staff Of Traveling Keybind Feature by @TheUnderTaker11 in https://github.com/GTNewHorizons/EnderIO/pull/144 (2.6.1)
 > * Limited Item Filter by @Tu0rp in https://github.com/GTNewHorizons/EnderIO/pull/143 (2.6.0)
 > * Add Config to allow servers to re-enable support for client-side 'hacks' like Staff Of Traveling Keybind mod. by @TheUnderTaker11 in https://github.com/GTNewHorizons/EnderIO/pull/142 (2.6.0)
 > * Fix NBT Match where tag is empty but exists by @spacebuilder2020 in https://github.com/GTNewHorizons/EnderIO/pull/138 (2.5.8)
@@ -130,9 +146,10 @@
 > * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.06@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.06
+# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.07@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.07
 >## What's Changed
+> * Rework the UI of singleblock pumps. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2420 (5.09.45.07)
 > * Allow a soldering iron to use soldering material from an IC2 Tool Box. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2421 (5.09.45.06)
 > * Fix z ordering for stack size in `Stocking Input` by @Laiff in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2419 (5.09.45.05)
 > * Fix CRIB adding null item inputs by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2415 (5.09.45.04)
