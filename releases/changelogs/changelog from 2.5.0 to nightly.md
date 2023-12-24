@@ -1,6 +1,7 @@
-# Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.3-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.3-gtnh
+# Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.4-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.4-gtnh
 >## What's Changed
+> * Correct split client-server code by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/183 (1.2.4-gtnh)
 > * Implement Interface Locking for Dual Interfaces by @TechnicianLP in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/182 (1.2.3-gtnh)
 > * Respect setting `preserveSearchBar` in `InterfaceTerminal` (1.2.2-gtnh)
 > * Support to show p2p outputs in interface terminal by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/179 (1.2.1-gtnh)
@@ -66,6 +67,17 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/BlockRenderer6343/pull/8 (1.1.0)
 >
 
+# Updated Draconic-Evolution (1.2.1-GTNH@Side.BOTH --> 1.2.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.2.0-GTNH...1.2.2-GTNH
+>## What's Changed
+> * Update ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/Draconic-Evolution/pull/43 (1.2.2-GTNH)
+> * Fix memory leak by @Pelotrio in https://github.com/GTNewHorizons/Draconic-Evolution/pull/42 (1.2.1-GTNH)
+>
+>## New Contributors
+> * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/43 (1.2.2-GTNH)
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/42 (1.2.1-GTNH)
+>
+
 # Updated EnderCore (0.2.18@Side.BOTH --> 0.3.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.17...0.3.0
 >## What's Changed
@@ -102,9 +114,11 @@
 > * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.04@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.04
+# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.06@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.06
 >## What's Changed
+> * Allow a soldering iron to use soldering material from an IC2 Tool Box. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2421 (5.09.45.06)
+> * Fix z ordering for stack size in `Stocking Input` by @Laiff in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2419 (5.09.45.05)
 > * Fix CRIB adding null item inputs by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2415 (5.09.45.04)
 > * update deps by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2414 (5.09.45.04)
 > * Allow Oil Cracker to use an Input Bus for programmed circuit automation. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2413 (5.09.45.03)
@@ -139,13 +153,32 @@
 > * Remove now unneeded IMC handler by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/78 (0.12.0)
 >
 
-# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.0
+# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.2
 >## What's Changed
+> * Allow emptying of fluid tanks by placing them anywhere in the crafting grid. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/814 (1.11.2)
+> * fix dep problems by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/811 (1.11.1)
+> * Fix superbus UHV recipes and localization by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/812 (1.11.1)
 > * Clarify whether item or fluid output is full by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/809 (1.11.0)
 > * Fix asymmetry in the qft multiblock by @Pelotrio in https://github.com/GTNewHorizons/GTplusplus/pull/802 (1.11.0)
 > * Clarify whether item or fluid output is full by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/809 (1.10.54)
 > * fix IOOBE when there is no fuel fluids by @boubou19 in https://github.com/GTNewHorizons/GTplusplus/pull/808 (1.10.53)
+>
+>## New Contributors
+> * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/814 (1.11.2)
+>
+
+# Updated Gadomancy (1.2.0@Side.BOTH --> 1.3.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.1.3...1.3.1
+>## What's Changed
+> * Update ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/Gadomancy/pull/28 (1.3.1)
+> * Fixed dupe bug with Essentia condenser by @OneEyeMaker in https://github.com/GTNewHorizons/Gadomancy/pull/27 (1.3.0)
+> * Eldrich recipes by @EnderProyects in https://github.com/GTNewHorizons/Gadomancy/pull/25 (1.2.0)
+>
+>## New Contributors
+> * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/Gadomancy/pull/28 (1.3.1)
+> * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/Gadomancy/pull/27 (1.3.0)
+> * @EnderProyects made their first contribution in https://github.com/GTNewHorizons/Gadomancy/pull/25 (1.2.0)
 >
 
 # Updated Galacticraft (3.0.74-GTNH@Side.BOTH --> 3.1.1-GTNH@Side.BOTH)
@@ -199,9 +232,11 @@
 # Updated Mobs-Info (0.1.12-GTNH@Side.BOTH --> 0.2.0-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.11-GTNH...0.2.0-GTNH
 
-# Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.52...2.3.0
+# Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.52...2.3.2
 >## What's Changed
+> * Fix LCR Controller recipe in assembler by @LewisSaber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/783 (2.3.2)
+> * Fix a few broken LP recipes using gt++ items by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/782 (2.3.1)
 > * Add advanced radiation proof plate space assembler recipe by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/777 (2.3.0)
 > * Recipe Conflict + Recipe Fix by @54M44R in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/780 (2.2.53)
 >
@@ -273,6 +308,16 @@
 **Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen/compare/alpha-1.3.6...alpha-1.3.9-pre
 >## What's Changed
 > * use lowercase version to match GTNH config file by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/14 (alpha-1.3.8)
+>
+
+# Updated ThaumicEnergistics (1.5.4-GTNH@Side.BOTH --> 1.6.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.5.3-GTNH...1.6.0-GTNH
+>## What's Changed
+> * Introduce special handling for multi-aspect containers by @OneEyeMaker in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/57 (1.6.0-GTNH)
+> * change cells index by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/56 (1.5.4-GTNH)
+>
+>## New Contributors
+> * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/57 (1.6.0-GTNH)
 >
 
 # Updated ThaumicHorizons (1.4.1@Side.BOTH --> 1.5.0@Side.BOTH)
