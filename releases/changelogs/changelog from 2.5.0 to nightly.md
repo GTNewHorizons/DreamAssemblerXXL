@@ -1,6 +1,7 @@
-# Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.4-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.4-gtnh
+# Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.5-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.5-gtnh
 >## What's Changed
+> * Fix ability to configure `TileLevelMaintainer` using OC by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/184 (1.2.5-gtnh)
 > * Correct split client-server code by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/183 (1.2.4-gtnh)
 > * Implement Interface Locking for Dual Interfaces by @TechnicianLP in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/182 (1.2.3-gtnh)
 > * Respect setting `preserveSearchBar` in `InterfaceTerminal` (1.2.2-gtnh)
@@ -146,9 +147,17 @@
 > * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.07@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.07
+# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.13@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.13
 >## What's Changed
+> * Add connect/block to line of fluid pipes by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2407 (5.09.45.13)
+> * Add default impl to getToolTypeName and add a null check by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2430 (5.09.45.12)
+> * Fix muffler hatch numbers by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2433 (5.09.45.12)
+> * Fix RecipeMapBackend not indexing Alternate ItemStacks by @TechnicianLP in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2434 (5.09.45.12)
+> * Prevent loading hook on server by @Laiff in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2428 (5.09.45.11)
+> * Add modes to tools by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2423 (5.09.45.10)
+> * Change to the overclock logic of Fusion Reactor by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2422 (5.09.45.09)
+> * Restore the ability to use multiple ME hatches for one machine by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2426 (5.09.45.08)
 > * Rework the UI of singleblock pumps. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2420 (5.09.45.07)
 > * Allow a soldering iron to use soldering material from an IC2 Tool Box. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2421 (5.09.45.06)
 > * Fix z ordering for stack size in `Stocking Input` by @Laiff in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2419 (5.09.45.05)
@@ -179,9 +188,10 @@
 > * Fix space mining module not allowing insertion of plasma by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/55 (1.2.8)
 >
 
-# Updated GTNH-Lanthanides (0.11.8@Side.BOTH --> 0.12.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.7...0.12.1
+# Updated GTNH-Lanthanides (0.11.8@Side.BOTH --> 0.12.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.7...0.12.2
 >## What's Changed
+> * fix simple washer Pure Dust of Cerium and Samarium issue by @Nxer in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/80 (0.12.2)
 > * EuO chem balance fix by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/79 (0.12.1)
 > * Remove now unneeded IMC handler by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/78 (0.12.0)
 >
@@ -232,18 +242,24 @@
 > * Cleanup dependencies by @miozune in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/104 (1.2.14-GTNH)
 >
 
-# Updated GoodGenerator (0.7.16@Side.BOTH --> 0.8.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.15...0.8.1
+# Updated GoodGenerator (0.7.16@Side.BOTH --> 0.8.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.15...0.8.2
 >## What's Changed
+> * fix simple washer recipe issue about Nq Process by @Nxer in https://github.com/GTNewHorizons/GoodGenerator/pull/229 (0.8.2)
 > * Cleanup isValidMetaTileEntity again by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/227 (0.8.0)
 > * Batch mode for compact fusion MKIV-V by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/223 (0.8.0)
 > * Cleanup isValidMetaTileEntity again by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/227 (0.7.17)
 > * Fix crash with Nq Gen if coolant has just been depleted by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/226 (0.7.16)
 >
+>## New Contributors
+> * @Nxer made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/229 (0.8.2)
+>
 
-# Updated Hodgepodge (2.3.40@Side.BOTH --> 2.4.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.39...2.4.2
+# Updated Hodgepodge (2.3.40@Side.BOTH --> 2.4.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.39...2.4.4
 >## What's Changed
+> * Angelica Compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/298 (2.4.4)
+> * Angelica Compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/297 (2.4.3)
 > * Completely hide realms button and make mods button wider to fill the gap by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/296 (2.4.2)
 > * Add Disable Realms Button Mixin by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/294 (2.4.1)
 > * Player Skin Fetching Fix part 2 by @kumquat-ir in https://github.com/GTNewHorizons/Hodgepodge/pull/293 (2.4.0)
@@ -308,9 +324,10 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/111 (1.10.0-GTNH)
 >
 
-# Updated Opis (1.3.8-mapless@Side.BOTH --> 1.4.0-mapless@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.3.7-mapless...1.4.0-mapless
+# Updated Opis (1.3.8-mapless@Side.BOTH --> 1.4.1-mapless@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.3.7-mapless...1.4.1-mapless
 >## What's Changed
+> * Fix Tags by @glowredman in https://github.com/GTNewHorizons/Opis/pull/13 (1.4.1-mapless)
 > * Remove system.exit to make FML happy by @bombcar in https://github.com/GTNewHorizons/Opis/pull/12 (1.4.0-mapless)
 > * Add version token replacement for MobiusCore by @glowredman in https://github.com/GTNewHorizons/Opis/pull/10 (1.3.8-mapless)
 > * Add `@MCVersion` annotation by @glowredman in https://github.com/GTNewHorizons/Opis/pull/11 (1.3.8-mapless)
@@ -363,6 +380,17 @@
 >
 >## New Contributors
 > * @Ethryan made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/61 (1.4.1)
+>
+
+# Updated ThaumicTinkerer (2.8.5@Side.BOTH --> 2.9.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.8.4...2.9.0
+>## What's Changed
+> * Talisman of Remedium no longer wastes durability trying to remove permanent debuffs. It also accepts the Unbreaking enchant. by @AbdielKavash in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/36 (2.9.0)
+> * Added balancing configs for Shadowbeam Focus. by @Purple-Towel in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/35 (2.8.5)
+>
+>## New Contributors
+> * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/36 (2.9.0)
+> * @Purple-Towel made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/35 (2.8.5)
 >
 
 # Updated TinkersConstruct (1.10.12-GTNH@Side.BOTH --> 1.11.1-GTNH@Side.BOTH)
@@ -512,14 +540,17 @@
 > * Fix spawned doppelgänger by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/30 (1.2.16-GTNH)
 >
 
-# Updated bartworks (0.8.22@Side.BOTH --> 0.9.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.21...0.9.1
+# Updated bartworks (0.8.22@Side.BOTH --> 0.9.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.21...0.9.2
 >## What's Changed
+> * Fix painted low power laser converter explosion by @antropod in https://github.com/GTNewHorizons/bartworks/pull/383 (0.9.2)
+> * Fix muffler hatch numbers for mega by @chochem in https://github.com/GTNewHorizons/bartworks/pull/384 (0.9.2)
 > * Fix CAL Locking itself by @LewisSaber in https://github.com/GTNewHorizons/bartworks/pull/381 (0.9.1)
 > * Allow Mega Oil Cracker to use an input bus for programmed circuit automation. by @AbdielKavash in https://github.com/GTNewHorizons/bartworks/pull/382 (0.9.0)
 > * Fix length calculation for CAL by @LewisSaber in https://github.com/GTNewHorizons/bartworks/pull/379 (0.8.22)
 >
 >## New Contributors
+> * @antropod made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/383 (0.9.2)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/382 (0.9.0)
 >
 
