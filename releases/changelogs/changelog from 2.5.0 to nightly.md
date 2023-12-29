@@ -1,6 +1,7 @@
-# Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.5-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.5-gtnh
+# Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.6-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.6-gtnh
 >## What's Changed
+> * Add null check to level terminal middle click by @Caedis in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/186 (1.2.6-gtnh)
 > * Fix ability to configure `TileLevelMaintainer` using OC by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/184 (1.2.5-gtnh)
 > * Correct split client-server code by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/183 (1.2.4-gtnh)
 > * Implement Interface Locking for Dual Interfaces by @TechnicianLP in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/182 (1.2.3-gtnh)
@@ -10,6 +11,7 @@
 > * Optimize CPacketFluidUpdate by @TechnicianLP in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/177 (1.1.73-gtnh)
 >
 >## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/186 (1.2.6-gtnh)
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/177 (1.1.73-gtnh)
 >
 
@@ -112,6 +114,14 @@
 > * Fix incomplete patch for item id packet by @miozune in https://github.com/GTNewHorizons/CodeChickenLib/pull/13 (1.1.10)
 >
 
+# Updated Crops-plus-plus (1.5.12@Side.BOTH --> 1.6.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.5.11...1.6.1
+>## What's Changed
+> * Fix Potions by @glowredman in https://github.com/GTNewHorizons/Crops-plus-plus/pull/63 (1.6.1)
+> * Fix incorrect cactus drop. by @C0bra5 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/64 (1.6.0)
+> * add back Space Flower uum recipe by @Dream-Master in https://github.com/GTNewHorizons/Crops-plus-plus/pull/62 (1.5.12)
+>
+
 # Updated Draconic-Evolution (1.2.1-GTNH@Side.BOTH --> 1.2.2-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.2.0-GTNH...1.2.2-GTNH
 >## What's Changed
@@ -150,9 +160,10 @@
 > * @bearsdotzone made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/141 (2.5.8)
 >
 
-# Updated ForestryMC (4.7.0@Side.BOTH --> 4.8.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.14...4.8.0
+# Updated ForestryMC (4.7.0@Side.BOTH --> 4.8.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.6.14...4.8.1
 >## What's Changed
+> * Remove Version Checker by @glowredman in https://github.com/GTNewHorizons/ForestryMC/pull/60 (4.8.1)
 > * Add name for butterflyGE by @bombcar in https://github.com/GTNewHorizons/ForestryMC/pull/59 (4.8.0)
 > * Mails are now checked for prohibited items by @DrParadox7 in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
 >
@@ -160,9 +171,10 @@
 > * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.13@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.13
+# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.14@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.14
 >## What's Changed
+> * Cleanup deprecation by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2416 (5.09.45.14)
 > * Add connect/block to line of fluid pipes by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2407 (5.09.45.13)
 > * Add default impl to getToolTypeName and add a null check by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2430 (5.09.45.12)
 > * Fix muffler hatch numbers by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2433 (5.09.45.12)
@@ -201,17 +213,19 @@
 > * Fix space mining module not allowing insertion of plasma by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/55 (1.2.8)
 >
 
-# Updated GTNH-Lanthanides (0.11.8@Side.BOTH --> 0.12.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.7...0.12.2
+# Updated GTNH-Lanthanides (0.11.8@Side.BOTH --> 0.12.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.7...0.12.3
 >## What's Changed
+> * add Digester and DissolutionTank survival construct method by @Nxer in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/81 (0.12.3)
 > * fix simple washer Pure Dust of Cerium and Samarium issue by @Nxer in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/80 (0.12.2)
 > * EuO chem balance fix by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/79 (0.12.1)
 > * Remove now unneeded IMC handler by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/78 (0.12.0)
 >
 
-# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.2
+# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.3
 >## What's Changed
+> * Add centrifuge recipes for dual and quad depleted fuel rods. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/816 (1.11.3)
 > * Allow emptying of fluid tanks by placing them anywhere in the crafting grid. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/814 (1.11.2)
 > * fix dep problems by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/811 (1.11.1)
 > * Fix superbus UHV recipes and localization by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/812 (1.11.1)
@@ -268,15 +282,19 @@
 > * @Nxer made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/229 (0.8.2)
 >
 
-# Updated Hodgepodge (2.3.40@Side.BOTH --> 2.4.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.39...2.4.4
+# Updated Hodgepodge (2.3.40@Side.BOTH --> 2.4.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.39...2.4.5
 >## What's Changed
+> * Fix hopper collision by @UltraHex in https://github.com/GTNewHorizons/Hodgepodge/pull/299 (2.4.5)
 > * Angelica Compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/298 (2.4.4)
 > * Angelica Compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/297 (2.4.3)
 > * Completely hide realms button and make mods button wider to fill the gap by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/296 (2.4.2)
 > * Add Disable Realms Button Mixin by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/294 (2.4.1)
 > * Player Skin Fetching Fix part 2 by @kumquat-ir in https://github.com/GTNewHorizons/Hodgepodge/pull/293 (2.4.0)
 > * Switch voxelmap to false by default due to no modid and it being a late mixin... by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/292 (2.3.40)
+>
+>## New Contributors
+> * @UltraHex made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/299 (2.4.5)
 >
 
 # Updated KubaTech (0.13.11@Side.BOTH --> 0.14.1@Side.BOTH)
@@ -294,9 +312,10 @@
 # Updated Mobs-Info (0.1.12-GTNH@Side.BOTH --> 0.2.1-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.11-GTNH...0.2.1-GTNH
 
-# Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.52...2.3.2
+# Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.52...2.3.3
 >## What's Changed
+> * Add Special Handling for the Infinity Sword by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/784 (2.3.3)
 > * Fix LCR Controller recipe in assembler by @LewisSaber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/783 (2.3.2)
 > * Fix a few broken LP recipes using gt++ items by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/782 (2.3.1)
 > * Add advanced radiation proof plate space assembler recipe by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/777 (2.3.0)
@@ -346,9 +365,10 @@
 > * Add `@MCVersion` annotation by @glowredman in https://github.com/GTNewHorizons/Opis/pull/11 (1.3.8-mapless)
 >
 
-# Updated ProjectRed (4.8.0-GTNH@Side.BOTH --> 4.9.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.7.12-GTNH...4.9.0-GTNH
+# Updated ProjectRed (4.8.0-GTNH@Side.BOTH --> 4.9.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.7.12-GTNH...4.9.1-GTNH
 >## What's Changed
+> * Replace `@VERSION@` usage by @glowredman in https://github.com/GTNewHorizons/ProjectRed/pull/28 (4.9.1-GTNH)
 > * Angelica compat - don't rebind textures by @ah-OOG-ah in https://github.com/GTNewHorizons/ProjectRed/pull/27 (4.9.0-GTNH)
 > * Update build script; apply spotless by @bombcar in https://github.com/GTNewHorizons/ProjectRed/pull/26 (4.8.0-GTNH)
 >
@@ -367,9 +387,10 @@
 > * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/3 (2.4.5)
 >
 
-# Updated Realistic-World-Gen (alpha-1.3.8@Side.BOTH --> alpha-1.3.9-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen/compare/alpha-1.3.6...alpha-1.3.9-pre
+# Updated Realistic-World-Gen (alpha-1.3.8@Side.BOTH --> alpha-1.4.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen/compare/alpha-1.3.6...alpha-1.4.0
 >## What's Changed
+> * Fix broken terrain gen past -20480 in either X or Z by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/15 (alpha-1.4.0)
 > * use lowercase version to match GTNH config file by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/14 (alpha-1.3.8)
 >
 
