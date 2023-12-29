@@ -171,9 +171,10 @@
 > * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.14@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.14
+# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.15@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.15
 >## What's Changed
+> * Improve shader compatibility for tool overlay by @UltraHex in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2425 (5.09.45.15)
 > * Cleanup deprecation by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2416 (5.09.45.14)
 > * Add connect/block to line of fluid pipes by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2407 (5.09.45.13)
 > * Add default impl to getToolTypeName and add a null check by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2430 (5.09.45.12)
@@ -201,6 +202,7 @@
 > * Remove IC2 iridium exploit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2402 (5.09.44.107)
 >
 >## New Contributors
+> * @UltraHex made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2425 (5.09.45.15)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2413 (5.09.45.03)
 > * @Laiff made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2404 (5.09.45.01)
 >
@@ -222,9 +224,10 @@
 > * Remove now unneeded IMC handler by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/78 (0.12.0)
 >
 
-# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.3
+# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.4
 >## What's Changed
+> * Fix chisel busses by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/817 (1.11.4)
 > * Add centrifuge recipes for dual and quad depleted fuel rods. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/816 (1.11.3)
 > * Allow emptying of fluid tanks by placing them anywhere in the crafting grid. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/814 (1.11.2)
 > * fix dep problems by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/811 (1.11.1)
@@ -587,9 +590,10 @@
 > * Fix spawned doppelgänger by @D-Cysteine in https://github.com/GTNewHorizons/WarpTheory/pull/30 (1.2.16-GTNH)
 >
 
-# Updated bartworks (0.8.22@Side.BOTH --> 0.9.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.21...0.9.2
+# Updated bartworks (0.8.22@Side.BOTH --> 0.9.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.21...0.9.3
 >## What's Changed
+> * Fix industry frame and galaxyspace plat block recyling by @chochem in https://github.com/GTNewHorizons/bartworks/pull/385 (0.9.3)
 > * Fix painted low power laser converter explosion by @antropod in https://github.com/GTNewHorizons/bartworks/pull/383 (0.9.2)
 > * Fix muffler hatch numbers for mega by @chochem in https://github.com/GTNewHorizons/bartworks/pull/384 (0.9.2)
 > * Fix CAL Locking itself by @LewisSaber in https://github.com/GTNewHorizons/bartworks/pull/381 (0.9.1)
