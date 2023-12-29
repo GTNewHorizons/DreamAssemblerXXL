@@ -33,9 +33,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Amazing-Trophies/pull/4 (1.1.3)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-291-GTNH@Side.BOTH --> rv3-beta-305-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-290-GTNH...rv3-beta-305-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-291-GTNH@Side.BOTH --> rv3-beta-306-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-290-GTNH...rv3-beta-306-GTNH
 >## What's Changed
+> * ME IO Port Tweaks by @AbdielKavash in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/448 (rv3-beta-306-GTNH)
 > * add tooltips for block container cell,update zh_CN by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/447 (rv3-beta-305-GTNH)
 > * Backport Interface Locking Mode by @TechnicianLP in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/437 (rv3-beta-304-GTNH)
 > * Do not form `CraftingCPU` if storage overflow detected by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/443 (rv3-beta-304-GTNH)
@@ -48,6 +49,7 @@
 > * Support stack sizes larger than 127 when transferring from NEI by @tth05 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/435 (rv3-beta-291-GTNH)
 >
 >## New Contributors
+> * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/448 (rv3-beta-306-GTNH)
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/437 (rv3-beta-304-GTNH)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
 >
@@ -83,6 +85,17 @@
 > * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/21 (1.3.0)
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/19 (1.2.11)
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/18 (1.2.11)
+>
+
+# Updated Chisel (2.12.3-GTNH@Side.BOTH --> 2.13.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.12.2-GTNH...2.13.0-GTNH
+>## What's Changed
+> * Don't relocate CTMLib by @makamys in https://github.com/GTNewHorizons/Chisel/pull/37 (2.13.0-GTNH)
+> * Make Forge Multipart dependency optional by @makamys in https://github.com/GTNewHorizons/Chisel/pull/38 (2.13.0-GTNH)
+> * Fix more memory leaks by @Pelotrio in https://github.com/GTNewHorizons/Chisel/pull/36 (2.12.3-GTNH)
+>
+>## New Contributors
+> * @makamys made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/37 (2.13.0-GTNH)
 >
 
 # Updated CodeChickenCore (1.1.13@Side.BOTH --> 1.2.0@Side.BOTH)
@@ -278,8 +291,8 @@
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/113 (0.14.1)
 >
 
-# Updated Mobs-Info (0.1.12-GTNH@Side.BOTH --> 0.2.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.11-GTNH...0.2.0-GTNH
+# Updated Mobs-Info (0.1.12-GTNH@Side.BOTH --> 0.2.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.11-GTNH...0.2.1-GTNH
 
 # Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.2@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.52...2.3.2
@@ -358,6 +371,19 @@
 **Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen/compare/alpha-1.3.6...alpha-1.3.9-pre
 >## What's Changed
 > * use lowercase version to match GTNH config file by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/14 (alpha-1.3.8)
+>
+
+# Updated Share-Where-I-am (2.0.2@Side.BOTH --> 2.1.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/0.2.0...2.1.0
+>## What's Changed
+> * Use proper Tags class by @glowredman in https://github.com/GTNewHorizons/Share-Where-I-am/pull/4 (2.1.0)
+> * fix build by @Glease in https://github.com/GTNewHorizons/Share-Where-I-am/pull/3 (2.0.2)
+> * Move JourneyMap class reference out of code that runs even if it's not installed by @ByThePowerOfScience in https://github.com/GTNewHorizons/Share-Where-I-am/pull/2 (2.0.2)
+>
+>## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/Share-Where-I-am/pull/4 (2.1.0)
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/Share-Where-I-am/pull/3 (2.0.2)
+> * @ByThePowerOfScience made their first contribution in https://github.com/GTNewHorizons/Share-Where-I-am/pull/2 (2.0.2)
 >
 
 # Updated ThaumicEnergistics (1.5.4-GTNH@Side.BOTH --> 1.6.1-GTNH@Side.BOTH)
@@ -552,5 +578,16 @@
 >## New Contributors
 > * @antropod made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/383 (0.9.2)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/382 (0.9.0)
+>
+
+# Updated neiaddons (1.13.0@Side.BOTH --> 1.14.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/neiaddons/compare/1.12.22...1.14.0
+>## What's Changed
+> * Fix Version by @glowredman in https://github.com/GTNewHorizons/neiaddons/pull/8 (1.14.0)
+> * Fix Crash for Ex Nihilo addon by @Cleptomania in https://github.com/GTNewHorizons/neiaddons/pull/7 (1.13.0)
+>
+>## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/neiaddons/pull/8 (1.14.0)
+> * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/neiaddons/pull/7 (1.13.0)
 >
 
