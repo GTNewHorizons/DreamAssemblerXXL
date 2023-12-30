@@ -1,3 +1,5 @@
+# New Mods:
+> * ServerUtilities
 # Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.6-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.6-gtnh
 >## What's Changed
@@ -410,6 +412,32 @@
 >## What's Changed
 > * Fix broken terrain gen past -20480 in either X or Z by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/15 (alpha-1.4.0)
 > * use lowercase version to match GTNH config file by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/14 (alpha-1.3.8)
+>
+
+# New Mod - ServerUtilities (2.0.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.8
+>## What's Changed
+> * Fix crash when EnderIO farming station is operating in claimed chunk by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/22 (2.0.8)
+> * Fix player attack logging crashing when attacking with empty hand by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/20 (2.0.7)
+> * fix url typo by @bombcar in https://github.com/GTNewHorizons/ServerUtilities/pull/15 (2.0.6)
+> * Add config gui to the forge mod menu by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/16 (2.0.6)
+> * Add info on how to load/unload to journeymap tooltip by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/17 (2.0.6)
+> * Add some barebones documentation to readme by @bombcar in https://github.com/GTNewHorizons/ServerUtilities/pull/14 (2.0.5)
+> * Disable command override if a bukkit/forge hybrid is detected. by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/13 (2.0.4)
+> * toLowerCase on import from FTB and on save and load (just in case) by @Caedis in https://github.com/GTNewHorizons/ServerUtilities/pull/11 (2.0.3)
+> * Add Visual Prospecting/Journeymap Integration by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/9 (2.0.2)
+> * Fix nether portals spawning when teleporting to other dims by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/8 (2.0.1)
+> * Backwards Compatible backport and rewrite. by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/7 (2.0.0)
+> * Fix Lang loading, since it was missing ingame by @Ethryan in https://github.com/GTNewHorizons/ServerUtilities/pull/4 (1.0.2)
+> * Removal of Import Wildcards by @Ethryan in https://github.com/GTNewHorizons/ServerUtilities/pull/2 (1.0.1)
+>
+>## New Contributors
+> * @bombcar made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/14 (2.0.5)
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/11 (2.0.3)
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/7 (2.0.0)
+> * @Ethryan made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/2 (1.0.1)
+> *  ftblib.json -> serverutilslib.json (1.0.0)
+> * ftbu/ -> serverutils/ (1.0.0)
 >
 
 # Updated Share-Where-I-am (2.0.2@Side.BOTH --> 2.1.0@Side.BOTH)

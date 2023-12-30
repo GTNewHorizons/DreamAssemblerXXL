@@ -425,6 +425,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Roguelike-Dungeons](https://github.com/GTNewHorizons/Roguelike-Dungeons) | 1.5.3-GTNH |
 | [SC2](https://github.com/GTNewHorizons/SC2) | 2.0.2 |
 | [Schematica](https://github.com/GTNewHorizons/Schematica) | 1.9.4-GTNH |
+| [ServerUtilities](https://github.com/GTNewHorizons/ServerUtilities) | 2.0.8 |
 | [SGCraft](https://github.com/GTNewHorizons/SGCraft) | 1.3.13-GTNH |
 | [Share-Where-I-am](https://github.com/GTNewHorizons/Share-Where-I-am) | 2.1.0 |
 | [SleepingBags](https://github.com/GTNewHorizons/SleepingBags) | 0.1.4 |
