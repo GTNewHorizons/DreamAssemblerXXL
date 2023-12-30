@@ -144,9 +144,10 @@
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.18)
 >
 
-# Updated EnderIO (2.5.8@Side.BOTH --> 2.6.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.5.6...2.6.1
+# Updated EnderIO (2.5.8@Side.BOTH --> 2.6.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.5.6...2.6.2
 >## What's Changed
+> * exchange existing Item filter icon from newer Ender io version by @Dream-Master in https://github.com/GTNewHorizons/EnderIO/pull/145 (2.6.2)
 > * Staff Of Traveling Keybind Feature by @TheUnderTaker11 in https://github.com/GTNewHorizons/EnderIO/pull/144 (2.6.1)
 > * Limited Item Filter by @Tu0rp in https://github.com/GTNewHorizons/EnderIO/pull/143 (2.6.0)
 > * Add Config to allow servers to re-enable support for client-side 'hacks' like Staff Of Traveling Keybind mod. by @TheUnderTaker11 in https://github.com/GTNewHorizons/EnderIO/pull/142 (2.6.0)
@@ -171,8 +172,8 @@
 > * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.15@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.15
+# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.16-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.16-pre
 >## What's Changed
 > * Improve shader compatibility for tool overlay by @UltraHex in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2425 (5.09.45.15)
 > * Cleanup deprecation by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2416 (5.09.45.14)
@@ -224,8 +225,8 @@
 > * Remove now unneeded IMC handler by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/78 (0.12.0)
 >
 
-# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.4
+# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.5-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.5-pre
 >## What's Changed
 > * Fix chisel busses by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/817 (1.11.4)
 > * Add centrifuge recipes for dual and quad depleted fuel rods. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/816 (1.11.3)
@@ -312,12 +313,19 @@
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/113 (0.14.1)
 >
 
+# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.2-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.2-GTNH-pre
+>## What's Changed
+> * fixing the ethereal shard dupe by @Alastors in https://github.com/GTNewHorizons/MagicBees/pull/33 (2.7.1-GTNH)
+>
+
 # Updated Mobs-Info (0.1.12-GTNH@Side.BOTH --> 0.2.1-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.11-GTNH...0.2.1-GTNH
 
-# Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.52...2.3.3
+# Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.5-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.52...2.3.5-pre
 >## What's Changed
+> * add recipe for Limited Itemfilter by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/785 (2.3.4)
 > * Add Special Handling for the Infinity Sword by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/784 (2.3.3)
 > * Fix LCR Controller recipe in assembler by @LewisSaber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/783 (2.3.2)
 > * Fix a few broken LP recipes using gt++ items by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/782 (2.3.1)
@@ -357,6 +365,13 @@
 >
 >## New Contributors
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/111 (1.10.0-GTNH)
+>
+
+# Updated OpenSecurity (1.0.120-GTNH@Side.BOTH --> 1.1.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenSecurity/compare/1.0.119-GTNH...1.1.0-GTNH
+>## What's Changed
+> * Fix Version by @glowredman in https://github.com/GTNewHorizons/OpenSecurity/pull/4 (1.1.0-GTNH)
+> * Update Buildscript by @glowredman in https://github.com/GTNewHorizons/OpenSecurity/pull/3 (1.0.120-GTNH)
 >
 
 # Updated Opis (1.3.8-mapless@Side.BOTH --> 1.4.1-mapless@Side.BOTH)
@@ -408,6 +423,12 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Share-Where-I-am/pull/4 (2.1.0)
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Share-Where-I-am/pull/3 (2.0.2)
 > * @ByThePowerOfScience made their first contribution in https://github.com/GTNewHorizons/Share-Where-I-am/pull/2 (2.0.2)
+>
+
+# Updated ThaumicBoots (1.1.0@Side.BOTH --> 1.1.1-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/0.2.1...1.1.1-pre
+>## What's Changed
+> * Seasonal Boots (#20) by @Alastors in https://github.com/GTNewHorizons/ThaumicBoots/pull/21 (1.1.0)
 >
 
 # Updated ThaumicEnergistics (1.5.4-GTNH@Side.BOTH --> 1.6.1-GTNH@Side.BOTH)
@@ -583,6 +604,15 @@
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/101 (1.10.12-GTNH)
 >
 
+# Updated VisualProspecting (1.2.1@Side.BOTH --> 1.2.2-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.2.0...1.2.2-pre
+>## What's Changed
+> * Networking Refactor by @Rune580 in https://github.com/GTNewHorizons/VisualProspecting/pull/40 (1.2.1)
+>
+>## New Contributors
+> * @Rune580 made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/40 (1.2.1)
+>
+
 # Updated WarpTheory (1.2.16-GTNH@Side.BOTH --> 1.3.0-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.2.14-GTNH...1.3.0-GTNH
 >## What's Changed
@@ -614,5 +644,14 @@
 >## New Contributors
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/neiaddons/pull/8 (1.14.0)
 > * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/neiaddons/pull/7 (1.13.0)
+>
+
+# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.2-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.2-pre
+>## What's Changed
+> * Fix server crash with magic beans by @miozune in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
+>
+>## New Contributors
+> * @miozune made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
 >
 
