@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.0",
-  "last_updated": "2023-12-30T12:13:13.123132",
+  "last_updated": "2023-12-31T12:03:26.029097",
   "config": "2.5.1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.5.1-GTNH",
+      "version": "3.5.2-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.4.1",
+      "version": "1.4.2-pre",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.16-pre",
+      "version": "5.09.45.17-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.11.5-pre",
+      "version": "1.11.6-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.3.2-GTNH",
+      "version": "2.4.0-GTNH",
       "side": "BOTH"
     },
     "HungerOverhaul": {
@@ -837,7 +837,7 @@
       "side": "BOTH"
     },
     "ThaumicBoots": {
-      "version": "1.1.1-pre",
+      "version": "1.1.1",
       "side": "BOTH"
     },
     "Amazing-Trophies": {

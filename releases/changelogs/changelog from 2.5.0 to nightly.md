@@ -58,8 +58,8 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
 >
 
-# Updated BetterQuesting (3.4.6-GTNH@Side.BOTH --> 3.5.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.4.5-GTNH...3.5.1-GTNH
+# Updated BetterQuesting (3.4.6-GTNH@Side.BOTH --> 3.5.2-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.4.5-GTNH...3.5.2-GTNH-pre
 >## What's Changed
 > * fix inserting into empty tag list not setting tag type by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/125 (3.5.1-GTNH)
 > * Fix quest notif hud rendering issue by @Alexdoru in https://github.com/GTNewHorizons/BetterQuesting/pull/124 (3.5.0-GTNH)
@@ -174,8 +174,14 @@
 > * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
 >
 
-# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.16-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.16-pre
+# Updated ForgeMultipart (1.4.1@Side.BOTH --> 1.4.2-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.4.0...1.4.2-pre
+>## What's Changed
+> * Potential Fix to some FMP stuff relating to Redstone parts not connecting to bottoms of machines. by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/18 (1.4.1)
+>
+
+# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.17-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.17-pre
 >## What's Changed
 > * Improve shader compatibility for tool overlay by @UltraHex in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2425 (5.09.45.15)
 > * Cleanup deprecation by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2416 (5.09.45.14)
@@ -227,8 +233,8 @@
 > * Remove now unneeded IMC handler by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/78 (0.12.0)
 >
 
-# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.5-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.5-pre
+# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.6-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.6-pre
 >## What's Changed
 > * Fix chisel busses by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/817 (1.11.4)
 > * Add centrifuge recipes for dual and quad depleted fuel rods. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/816 (1.11.3)
@@ -301,6 +307,17 @@
 >
 >## New Contributors
 > * @UltraHex made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/299 (2.4.5)
+>
+
+# Updated HoloInventory (2.3.2-GTNH@Side.BOTH --> 2.4.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.3.0-GTNH...2.4.0-GTNH
+>## What's Changed
+> * Fix stack number always showing '1' when renderMultiple=false by @UltraHex in https://github.com/GTNewHorizons/HoloInventory/pull/38 (2.4.0-GTNH)
+> * Make it work with shaders by @UltraHex in https://github.com/GTNewHorizons/HoloInventory/pull/39 (2.4.0-GTNH)
+> * Move GT compat by @miozune in https://github.com/GTNewHorizons/HoloInventory/pull/37 (2.3.2-GTNH)
+>
+>## New Contributors
+> * @UltraHex made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/38 (2.4.0-GTNH)
 >
 
 # Updated KubaTech (0.13.11@Side.BOTH --> 0.14.1@Side.BOTH)
@@ -453,9 +470,10 @@
 > * @ByThePowerOfScience made their first contribution in https://github.com/GTNewHorizons/Share-Where-I-am/pull/2 (2.0.2)
 >
 
-# Updated ThaumicBoots (1.1.0@Side.BOTH --> 1.1.1-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/0.2.1...1.1.1-pre
+# Updated ThaumicBoots (1.1.0@Side.BOTH --> 1.1.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/0.2.1...1.1.1
 >## What's Changed
+> * Fixing the jump glitch by @Alastors in https://github.com/GTNewHorizons/ThaumicBoots/pull/23 (1.1.1)
 > * Seasonal Boots (#20) by @Alastors in https://github.com/GTNewHorizons/ThaumicBoots/pull/21 (1.1.0)
 >
 
