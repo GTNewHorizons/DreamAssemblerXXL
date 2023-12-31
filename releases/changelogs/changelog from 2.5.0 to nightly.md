@@ -174,10 +174,14 @@
 > * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
 >
 
-# Updated ForgeMultipart (1.4.1@Side.BOTH --> 1.4.2-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.4.0...1.4.2-pre
+# Updated ForgeMultipart (1.4.1@Side.BOTH --> 1.4.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.4.0...1.4.3
 >## What's Changed
+> * Fix ButtonPart.java crashes, tweaks to allow mods to hook it by @Roadhog360 in https://github.com/GTNewHorizons/ForgeMultipart/pull/20 (1.4.3)
 > * Potential Fix to some FMP stuff relating to Redstone parts not connecting to bottoms of machines. by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/18 (1.4.1)
+>
+>## New Contributors
+> * @Roadhog360 made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/20 (1.4.3)
 >
 
 # Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.17-pre@Side.BOTH)

@@ -328,7 +328,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ForbiddenMagic](https://github.com/GTNewHorizons/ForbiddenMagic) | 0.6.7-GTNH |
 | [ForestryMC](https://github.com/GTNewHorizons/ForestryMC) | 4.8.1 |
 | [Forgelin](https://github.com/GTNewHorizons/Forgelin) | 1.9.7-GTNH |
-| [ForgeMultipart](https://github.com/GTNewHorizons/ForgeMultipart) | 1.4.2-pre |
+| [ForgeMultipart](https://github.com/GTNewHorizons/ForgeMultipart) | 1.4.3 |
 | [ForgeRelocation](https://github.com/GTNewHorizons/ForgeRelocation) | 0.0.3 |
 | [ForgeRelocationFMP](https://github.com/GTNewHorizons/ForgeRelocationFMP) | 0.0.4 |
 | [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.3.1 |
