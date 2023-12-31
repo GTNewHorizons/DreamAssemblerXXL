@@ -233,8 +233,8 @@
 > * Remove now unneeded IMC handler by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/78 (0.12.0)
 >
 
-# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.6-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.6-pre
+# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.7-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.7-pre
 >## What's Changed
 > * Fix chisel busses by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/817 (1.11.4)
 > * Add centrifuge recipes for dual and quad depleted fuel rods. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/816 (1.11.3)
@@ -281,8 +281,8 @@
 > * Cleanup dependencies by @miozune in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/104 (1.2.14-GTNH)
 >
 
-# Updated GoodGenerator (0.7.16@Side.BOTH --> 0.8.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.15...0.8.2
+# Updated GoodGenerator (0.7.16@Side.BOTH --> 0.8.3-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.15...0.8.3-pre
 >## What's Changed
 > * fix simple washer recipe issue about Nq Process by @Nxer in https://github.com/GTNewHorizons/GoodGenerator/pull/229 (0.8.2)
 > * Cleanup isValidMetaTileEntity again by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/227 (0.8.0)
@@ -332,8 +332,8 @@
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/113 (0.14.1)
 >
 
-# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.2-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.2-GTNH-pre
+# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.3-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.3-GTNH-pre
 >## What's Changed
 > * fixing the ethereal shard dupe by @Alastors in https://github.com/GTNewHorizons/MagicBees/pull/33 (2.7.1-GTNH)
 >
@@ -341,8 +341,8 @@
 # Updated Mobs-Info (0.1.12-GTNH@Side.BOTH --> 0.2.1-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.11-GTNH...0.2.1-GTNH
 
-# Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.5-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.52...2.3.5-pre
+# Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.6-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.52...2.3.6-pre
 >## What's Changed
 > * add recipe for Limited Itemfilter by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/785 (2.3.4)
 > * Add Special Handling for the Infinity Sword by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/784 (2.3.3)
@@ -470,6 +470,17 @@
 > * @ByThePowerOfScience made their first contribution in https://github.com/GTNewHorizons/Share-Where-I-am/pull/2 (2.0.2)
 >
 
+# Updated TCNEIAdditions (1.2.2@Side.BOTH --> 1.3.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.2.0...1.3.0
+>## What's Changed
+> * Fix Version of Thaumcraft NEI Plugin by @glowredman in https://github.com/GTNewHorizons/TCNEIAdditions/pull/22 (1.3.0)
+> * TC Aspects not showing up on bookmarks correctly fix. by @Cardinalstars in https://github.com/GTNewHorizons/TCNEIAdditions/pull/21 (1.2.2)
+>
+>## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/TCNEIAdditions/pull/22 (1.3.0)
+> * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/TCNEIAdditions/pull/21 (1.2.2)
+>
+
 # Updated ThaumicBoots (1.1.0@Side.BOTH --> 1.1.1@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/0.2.1...1.1.1
 >## What's Changed
@@ -510,8 +521,8 @@
 > * @Purple-Towel made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/35 (2.8.5)
 >
 
-# Updated TinkersConstruct (1.10.12-GTNH@Side.BOTH --> 1.11.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.11-GTNH...1.11.1-GTNH
+# Updated TinkersConstruct (1.10.12-GTNH@Side.BOTH --> 1.11.2-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.11-GTNH...1.11.2-GTNH-pre
 >## What's Changed
 > * add name for crystal entity (which seems to be a creeper? by @bombcar in https://github.com/GTNewHorizons/TinkersConstruct/pull/103 (1.11.1-GTNH)
 > * TConstruct Gadgets localization by @bessonowjaroslaw in https://github.com/GTNewHorizons/TinkersConstruct/pull/102 (1.11.0-GTNH)
