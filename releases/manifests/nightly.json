@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.0",
-  "last_updated": "2023-12-31T15:44:53.059863",
+  "last_updated": "2024-01-01T12:38:37.333257",
   "config": "2.6.0-nightly-2023-12-31",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.2.6-gtnh",
+      "version": "1.2.7-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-306-GTNH",
+      "version": "rv3-beta-307-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -105,7 +105,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.0.19-GTNH",
+      "version": "1.1.0-GTNH",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.11.7-pre",
+      "version": "1.11.8-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.3.6-pre",
+      "version": "2.3.7-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -461,7 +461,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.10.0-GTNH",
+      "version": "1.10.2-GTNH-pre",
       "side": "BOTH"
     },
     "OpenModsLib": {

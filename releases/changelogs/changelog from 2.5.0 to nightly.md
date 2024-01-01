@@ -1,8 +1,9 @@
 # New Mods:
 > * ServerUtilities
-# Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.6-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.6-gtnh
+# Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.7-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.7-gtnh
 >## What's Changed
+> * Level Maintainer fulfills requests in a round robin pattern. by @AbdielKavash in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/187 (1.2.7-gtnh)
 > * Add null check to level terminal middle click by @Caedis in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/186 (1.2.6-gtnh)
 > * Fix ability to configure `TileLevelMaintainer` using OC by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/184 (1.2.5-gtnh)
 > * Correct split client-server code by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/183 (1.2.4-gtnh)
@@ -13,6 +14,7 @@
 > * Optimize CPacketFluidUpdate by @TechnicianLP in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/177 (1.1.73-gtnh)
 >
 >## New Contributors
+> * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/187 (1.2.7-gtnh)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/186 (1.2.6-gtnh)
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/177 (1.1.73-gtnh)
 >
@@ -37,9 +39,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Amazing-Trophies/pull/4 (1.1.3)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-291-GTNH@Side.BOTH --> rv3-beta-306-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-290-GTNH...rv3-beta-306-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-291-GTNH@Side.BOTH --> rv3-beta-307-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-290-GTNH...rv3-beta-307-GTNH
 >## What's Changed
+> * hold the shift to stop sort items by @asdflj in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/449 (rv3-beta-307-GTNH)
 > * ME IO Port Tweaks by @AbdielKavash in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/448 (rv3-beta-306-GTNH)
 > * add tooltips for block container cell,update zh_CN by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/447 (rv3-beta-305-GTNH)
 > * Backport Interface Locking Mode by @TechnicianLP in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/437 (rv3-beta-304-GTNH)
@@ -89,6 +92,12 @@
 > * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/21 (1.3.0)
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/19 (1.2.11)
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/18 (1.2.11)
+>
+
+# Updated Botanic-horizons (1.0.19-GTNH@Side.BOTH --> 1.1.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.18-GTNH...1.1.0-GTNH
+>## What's Changed
+> * fix basalt chiselgroup name by @chochem in https://github.com/GTNewHorizons/Botanic-horizons/pull/27 (1.1.0-GTNH)
 >
 
 # Updated Chisel (2.12.3-GTNH@Side.BOTH --> 2.13.0-GTNH@Side.BOTH)
@@ -237,8 +246,8 @@
 > * Remove now unneeded IMC handler by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/78 (0.12.0)
 >
 
-# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.7-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.7-pre
+# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.8-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.8-pre
 >## What's Changed
 > * Fix chisel busses by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/817 (1.11.4)
 > * Add centrifuge recipes for dual and quad depleted fuel rods. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/816 (1.11.3)
@@ -345,8 +354,8 @@
 # Updated Mobs-Info (0.1.12-GTNH@Side.BOTH --> 0.2.1-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.11-GTNH...0.2.1-GTNH
 
-# Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.6-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.52...2.3.6-pre
+# Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.7-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.52...2.3.7-pre
 >## What's Changed
 > * add recipe for Limited Itemfilter by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/785 (2.3.4)
 > * Add Special Handling for the Infinity Sword by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/784 (2.3.3)
@@ -380,13 +389,16 @@
 > * @unilock made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/19 (1.8.2-GTNH)
 >
 
-# Updated OpenComputers (1.9.19-GTNH@Side.BOTH --> 1.10.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.17-GTNH...1.10.0-GTNH
+# Updated OpenComputers (1.9.19-GTNH@Side.BOTH --> 1.10.2-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.17-GTNH...1.10.2-GTNH-pre
 >## What's Changed
+> * Fix Coremod Version by @glowredman in https://github.com/GTNewHorizons/OpenComputers/pull/112 (1.10.1-GTNH)
+> * Bee convert should not be localized by @ghostflyby in https://github.com/GTNewHorizons/OpenComputers/pull/110 (1.10.1-GTNH)
 > * Fix unhandled side for redstone connection by @OneEyeMaker in https://github.com/GTNewHorizons/OpenComputers/pull/111 (1.10.0-GTNH)
 > * Fix sof crash by @koiNoCirculation in https://github.com/GTNewHorizons/OpenComputers/pull/109 (1.9.19-GTNH)
 >
 >## New Contributors
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/110 (1.10.1-GTNH)
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/111 (1.10.0-GTNH)
 >
 
