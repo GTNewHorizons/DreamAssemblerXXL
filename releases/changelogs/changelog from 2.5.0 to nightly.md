@@ -724,8 +724,8 @@
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/382 (0.9.0)
 >
 
-# Updated lwjgl3ify (1.5.7@Side.BOTH_JAVA9 --> 1.5.8@Side.BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.6...1.5.8
+# Updated lwjgl3ify (1.5.7@Side.BOTH_JAVA9 --> 1.5.9@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.6...1.5.9
 >## What's Changed
 > * Publish `version.gradle` by @glowredman in https://github.com/GTNewHorizons/lwjgl3ify/pull/104 (1.5.8)
 > * Disable STB stitching if FC 1.23 is present even with OF by @makamys in https://github.com/GTNewHorizons/lwjgl3ify/pull/97 (1.5.7)

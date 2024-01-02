@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.0",
-  "last_updated": "2024-01-02T11:50:44.572802",
+  "last_updated": "2024-01-02T12:03:55.407148",
   "config": "2.6.0-nightly-2023-12-31",
   "github_mods": {
     "AdventureBackpack2": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.5.8",
+      "version": "1.5.9",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
