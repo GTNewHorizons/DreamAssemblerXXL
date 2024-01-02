@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.0",
-  "last_updated": "2024-01-01T12:38:37.333257",
+  "last_updated": "2024-01-02T11:50:44.572802",
   "config": "2.6.0-nightly-2023-12-31",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.2.7-gtnh",
+      "version": "1.2.8-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -105,7 +105,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.1.0-GTNH",
+      "version": "1.1.1-GTNH",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -133,7 +133,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.13.0-GTNH",
+      "version": "2.13.2-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.4.3",
+      "version": "1.4.4",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.17-pre",
+      "version": "5.09.45.18-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.11.8-pre",
+      "version": "1.11.10",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.4.5",
+      "version": "2.4.6-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.14.1",
+      "version": "0.14.2",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.3.7-pre",
+      "version": "2.3.9-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -461,7 +461,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.10.2-GTNH-pre",
+      "version": "1.10.3-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -637,7 +637,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.11.2-GTNH-pre",
+      "version": "1.11.4-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.5.7",
+      "version": "1.5.8",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
@@ -845,7 +845,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.8",
+      "version": "2.0.9",
       "side": "BOTH"
     }
   },

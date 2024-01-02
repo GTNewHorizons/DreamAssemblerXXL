@@ -1,8 +1,9 @@
 # New Mods:
 > * ServerUtilities
-# Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.7-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.7-gtnh
+# Updated AE2FluidCraft-Rework (1.1.73-gtnh@Side.BOTH --> 1.2.8-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.71-gtnh...1.2.8-gtnh
 >## What's Changed
+> * hold the shift to stop sort items by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/188 (1.2.8-gtnh)
 > * Level Maintainer fulfills requests in a round robin pattern. by @AbdielKavash in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/187 (1.2.7-gtnh)
 > * Add null check to level terminal middle click by @Caedis in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/186 (1.2.6-gtnh)
 > * Fix ability to configure `TileLevelMaintainer` using OC by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/184 (1.2.5-gtnh)
@@ -94,20 +95,25 @@
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/18 (1.2.11)
 >
 
-# Updated Botanic-horizons (1.0.19-GTNH@Side.BOTH --> 1.1.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.18-GTNH...1.1.0-GTNH
+# Updated Botanic-horizons (1.0.19-GTNH@Side.BOTH --> 1.1.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.0.18-GTNH...1.1.1-GTNH
 >## What's Changed
+> * Fix minor code quality issues in #27 by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/28 (1.1.1-GTNH)
 > * fix basalt chiselgroup name by @chochem in https://github.com/GTNewHorizons/Botanic-horizons/pull/27 (1.1.0-GTNH)
 >
 
-# Updated Chisel (2.12.3-GTNH@Side.BOTH --> 2.13.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.12.2-GTNH...2.13.0-GTNH
+# Updated Chisel (2.12.3-GTNH@Side.BOTH --> 2.13.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.12.2-GTNH...2.13.2-GTNH
 >## What's Changed
+> * Another Obsidian harvestlevel fix by @chochem in https://github.com/GTNewHorizons/Chisel/pull/41 (2.13.2-GTNH)
+> * Add vanilla mining levels by @Caedis in https://github.com/GTNewHorizons/Chisel/pull/39 (2.13.1-GTNH)
+> * fix mining levels with iguana by @chochem in https://github.com/GTNewHorizons/Chisel/pull/40 (2.13.1-GTNH)
 > * Don't relocate CTMLib by @makamys in https://github.com/GTNewHorizons/Chisel/pull/37 (2.13.0-GTNH)
 > * Make Forge Multipart dependency optional by @makamys in https://github.com/GTNewHorizons/Chisel/pull/38 (2.13.0-GTNH)
 > * Fix more memory leaks by @Pelotrio in https://github.com/GTNewHorizons/Chisel/pull/36 (2.12.3-GTNH)
 >
 >## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/39 (2.13.1-GTNH)
 > * @makamys made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/37 (2.13.0-GTNH)
 >
 
@@ -183,8 +189,8 @@
 > * @DrParadox7 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/58 (4.7.0)
 >
 
-# Updated ForgeMultipart (1.4.1@Side.BOTH --> 1.4.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.4.0...1.4.3
+# Updated ForgeMultipart (1.4.1@Side.BOTH --> 1.4.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.4.0...1.4.4
 >## What's Changed
 > * Fix ButtonPart.java crashes, tweaks to allow mods to hook it by @Roadhog360 in https://github.com/GTNewHorizons/ForgeMultipart/pull/20 (1.4.3)
 > * Potential Fix to some FMP stuff relating to Redstone parts not connecting to bottoms of machines. by @Cardinalstars in https://github.com/GTNewHorizons/ForgeMultipart/pull/18 (1.4.1)
@@ -193,8 +199,8 @@
 > * @Roadhog360 made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/20 (1.4.3)
 >
 
-# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.17-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.17-pre
+# Updated GT5-Unofficial (5.09.44.107@Side.BOTH --> 5.09.45.18-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.106...5.09.45.18-pre
 >## What's Changed
 > * Improve shader compatibility for tool overlay by @UltraHex in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2425 (5.09.45.15)
 > * Cleanup deprecation by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2416 (5.09.45.14)
@@ -246,9 +252,11 @@
 > * Remove now unneeded IMC handler by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/78 (0.12.0)
 >
 
-# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.8-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.8-pre
+# Updated GTplusplus (1.10.53@Side.BOTH --> 1.11.10@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.52...1.11.10
 >## What's Changed
+> * Fix Soldering Iron unable to set redstone output strength. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/819 (1.11.10)
+> * Thermal Boiler rework by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/815 (1.11.9)
 > * Fix chisel busses by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/817 (1.11.4)
 > * Add centrifuge recipes for dual and quad depleted fuel rods. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/816 (1.11.3)
 > * Allow emptying of fluid tanks by placing them anywhere in the crafting grid. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/814 (1.11.2)
@@ -307,8 +315,8 @@
 > * @Nxer made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/229 (0.8.2)
 >
 
-# Updated Hodgepodge (2.3.40@Side.BOTH --> 2.4.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.39...2.4.5
+# Updated Hodgepodge (2.3.40@Side.BOTH --> 2.4.6-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.39...2.4.6-pre
 >## What's Changed
 > * Fix hopper collision by @UltraHex in https://github.com/GTNewHorizons/Hodgepodge/pull/299 (2.4.5)
 > * Angelica Compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/298 (2.4.4)
@@ -333,9 +341,10 @@
 > * @UltraHex made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/38 (2.4.0-GTNH)
 >
 
-# Updated KubaTech (0.13.11@Side.BOTH --> 0.14.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.13.10...0.14.1
+# Updated KubaTech (0.13.11@Side.BOTH --> 0.14.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KubaTech/compare/0.13.10...0.14.2
 >## What's Changed
+> * Fix Soldering Iron unable to set redstone output strength for the EEC. by @AbdielKavash in https://github.com/GTNewHorizons/KubaTech/pull/115 (0.14.2)
 > * Allow the EIG and MApiary to use IC2 Distilled Water in place of regular water in the structure. by @AbdielKavash in https://github.com/GTNewHorizons/KubaTech/pull/113 (0.14.1)
 > * Fix queen dupe bug in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/114 (0.14.1)
 > * Remove now unneeded IMC for DEFusionCrafter by @miozune in https://github.com/GTNewHorizons/KubaTech/pull/111 (0.14.0)
@@ -354,9 +363,11 @@
 # Updated Mobs-Info (0.1.12-GTNH@Side.BOTH --> 0.2.1-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.11-GTNH...0.2.1-GTNH
 
-# Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.7-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.52...2.3.7-pre
+# Updated NewHorizonsCoreMod (2.2.53@Side.BOTH --> 2.3.9-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.52...2.3.9-pre
 >## What's Changed
+> * Add more basalt blocks to chisel by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/787 (2.3.9-pre)
+> * Add more basalt blocks to chisel by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/787 (2.3.8)
 > * add recipe for Limited Itemfilter by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/785 (2.3.4)
 > * Add Special Handling for the Infinity Sword by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/784 (2.3.3)
 > * Fix LCR Controller recipe in assembler by @LewisSaber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/783 (2.3.2)
@@ -389,15 +400,17 @@
 > * @unilock made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/19 (1.8.2-GTNH)
 >
 
-# Updated OpenComputers (1.9.19-GTNH@Side.BOTH --> 1.10.2-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.17-GTNH...1.10.2-GTNH-pre
+# Updated OpenComputers (1.9.19-GTNH@Side.BOTH --> 1.10.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.17-GTNH...1.10.3-GTNH
 >## What's Changed
+> * Fix AE2 Integration by @Pelotrio in https://github.com/GTNewHorizons/OpenComputers/pull/113 (1.10.3-GTNH)
 > * Fix Coremod Version by @glowredman in https://github.com/GTNewHorizons/OpenComputers/pull/112 (1.10.1-GTNH)
 > * Bee convert should not be localized by @ghostflyby in https://github.com/GTNewHorizons/OpenComputers/pull/110 (1.10.1-GTNH)
 > * Fix unhandled side for redstone connection by @OneEyeMaker in https://github.com/GTNewHorizons/OpenComputers/pull/111 (1.10.0-GTNH)
 > * Fix sof crash by @koiNoCirculation in https://github.com/GTNewHorizons/OpenComputers/pull/109 (1.9.19-GTNH)
 >
 >## New Contributors
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/113 (1.10.3-GTNH)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/110 (1.10.1-GTNH)
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/111 (1.10.0-GTNH)
 >
@@ -447,9 +460,10 @@
 > * use lowercase version to match GTNH config file by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/14 (alpha-1.3.8)
 >
 
-# New Mod - ServerUtilities (2.0.8@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.8
+# New Mod - ServerUtilities (2.0.9@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.9
 >## What's Changed
+> * Add synced Wiki by @glowredman in https://github.com/GTNewHorizons/ServerUtilities/pull/24 (2.0.9)
 > * Fix crash when EnderIO farming station is operating in claimed chunk by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/22 (2.0.8)
 > * Fix player attack logging crashing when attacking with empty hand by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/20 (2.0.7)
 > * fix url typo by @bombcar in https://github.com/GTNewHorizons/ServerUtilities/pull/15 (2.0.6)
@@ -465,6 +479,7 @@
 > * Removal of Import Wildcards by @Ethryan in https://github.com/GTNewHorizons/ServerUtilities/pull/2 (1.0.1)
 >
 >## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/24 (2.0.9)
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/14 (2.0.5)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/11 (2.0.3)
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/7 (2.0.0)
@@ -537,9 +552,10 @@
 > * @Purple-Towel made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/35 (2.8.5)
 >
 
-# Updated TinkersConstruct (1.10.12-GTNH@Side.BOTH --> 1.11.2-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.11-GTNH...1.11.2-GTNH-pre
+# Updated TinkersConstruct (1.10.12-GTNH@Side.BOTH --> 1.11.4-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.11-GTNH...1.11.4-GTNH-pre
 >## What's Changed
+> * Obsidian harvestlevel fix by @chochem in https://github.com/GTNewHorizons/TinkersConstruct/pull/105 (1.11.3-GTNH)
 > * add name for crystal entity (which seems to be a creeper? by @bombcar in https://github.com/GTNewHorizons/TinkersConstruct/pull/103 (1.11.1-GTNH)
 > * TConstruct Gadgets localization by @bessonowjaroslaw in https://github.com/GTNewHorizons/TinkersConstruct/pull/102 (1.11.0-GTNH)
 > * Added forbidden dimension config by @Ugachaga in https://github.com/GTNewHorizons/TinkersConstruct/pull/2 (1.11.0)
@@ -706,6 +722,18 @@
 >## New Contributors
 > * @antropod made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/383 (0.9.2)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/382 (0.9.0)
+>
+
+# Updated lwjgl3ify (1.5.7@Side.BOTH_JAVA9 --> 1.5.8@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.6...1.5.8
+>## What's Changed
+> * Publish `version.gradle` by @glowredman in https://github.com/GTNewHorizons/lwjgl3ify/pull/104 (1.5.8)
+> * Disable STB stitching if FC 1.23 is present even with OF by @makamys in https://github.com/GTNewHorizons/lwjgl3ify/pull/97 (1.5.7)
+> * Add `version.json` for use in e.g. Technic Launcher by @glowredman in https://github.com/GTNewHorizons/lwjgl3ify/pull/98 (1.5.7)
+>
+>## New Contributors
+> * @makamys made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/97 (1.5.7)
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/98 (1.5.7)
 >
 
 # Updated neiaddons (1.13.0@Side.BOTH --> 1.14.0@Side.BOTH)
