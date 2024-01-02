@@ -11,14 +11,14 @@ jobs:
     steps:
       #  check-out repo and set-up python
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
           fetch-depth: 1
           ref: dev
       - name: Set up python
         id: setup-python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: 3.10.5
       - name: Setup private repo access token
@@ -84,7 +84,7 @@ jobs:
       # Upload modpack
 
       - name: Upload manifest
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
@@ -121,34 +121,38 @@ jobs:
           mv releases/multi_poly/GT_New_Horizons_nightly_Java_17-21.zip "GTNH-${{ steps.date.outputs.today }}-mmcprism-new-java.zip"
 
       - name: Upload server zip
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
           name: gtnh-nightly-${{ steps.date.outputs.today }}-server
           path: GTNH-${{ steps.date.outputs.today }}-server.zip
+          compression-level: 0 # already compressed by Python
 
       - name: Upload modern java server zip
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
           name: gtnh-nightly-${{ steps.date.outputs.today }}-server-new-java
           path: GTNH-${{ steps.date.outputs.today }}-server-new-java.zip
+          compression-level: 0 # already compressed by Python
 
       - name: Upload MMC zip
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
           name: gtnh-nightly-${{ steps.date.outputs.today }}-mmcprism-java8
           path: GTNH-${{ steps.date.outputs.today }}-mmcprism-java8.zip
+          compression-level: 0 # already compressed by Python
 
       - name: Upload modern java Prism zip
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         # Upload all archives even if one of the zips fails to upload
         if: success() || failure()
         with:
           name: gtnh-nightly-${{ steps.date.outputs.today }}-mmcprism-new-java
           path: GTNH-${{ steps.date.outputs.today }}-mmcprism-new-java.zip
+          compression-level: 0 # already compressed by Python
 
