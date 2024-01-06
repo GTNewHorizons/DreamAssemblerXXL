@@ -29,7 +29,6 @@
 **Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.14-GTNH...1.1.0-GTNH
 >## What's Changed
 > * Add name for rideableSpider by @bombcar in https://github.com/GTNewHorizons/AdventureBackpack2/pull/17 (1.1.0-GTNH)
-> * Add name for rideableSpider by @bombcar in https://github.com/GTNewHorizons/AdventureBackpack2/pull/17 (1.1.0-GTNH)
 > * Show the wearing backpack in TConstruct tab by @ghostflyby in https://github.com/GTNewHorizons/AdventureBackpack2/pull/16 (1.0.16-GTNH)
 >
 >## New Contributors
