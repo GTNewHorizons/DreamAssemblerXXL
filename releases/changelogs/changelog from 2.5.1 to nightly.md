@@ -370,9 +370,10 @@
 > * @Nxer made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/229 (0.8.2)
 >
 
-# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.7@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.7
+# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.8
 >## What's Changed
+> * Revert "Fix not being able to use an enderpearl in creative mode" by @Connor-Colenso in https://github.com/GTNewHorizons/Hodgepodge/pull/303 (2.4.8)
 > * Fix not being able to use an enderpearl in creative mode by @Connor-Colenso in https://github.com/GTNewHorizons/Hodgepodge/pull/301 (2.4.7)
 > * Adjustable network nbt and packet size limits by @eigenraven in https://github.com/GTNewHorizons/Hodgepodge/pull/300 (2.4.6)
 > * Fix hopper collision by @UltraHex in https://github.com/GTNewHorizons/Hodgepodge/pull/299 (2.4.5)

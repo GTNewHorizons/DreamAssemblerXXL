@@ -352,7 +352,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.4-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.1.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.4.7 |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.4.8 |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.4.0-GTNH |
 | [HungerOverhaul](https://github.com/GTNewHorizons/HungerOverhaul) | 1.0.4-GTNH |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.1.1 |
