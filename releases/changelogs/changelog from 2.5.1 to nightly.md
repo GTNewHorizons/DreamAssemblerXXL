@@ -19,6 +19,12 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/186 (1.2.6-gtnh)
 >
 
+# Updated AdventureBackpack2 (1.0.17-GTNH@Side.BOTH --> 1.1.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.16-GTNH...1.1.0-GTNH
+>## What's Changed
+> * Add name for rideableSpider by @bombcar in https://github.com/GTNewHorizons/AdventureBackpack2/pull/17 (1.1.0-GTNH)
+>
+
 # Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-307-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-307-GTNH
 >## What's Changed
