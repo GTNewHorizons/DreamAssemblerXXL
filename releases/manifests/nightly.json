@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-01-13T11:43:14.274408",
+  "last_updated": "2024-01-13T11:54:49.014397",
   "config": "2.6.0-nightly-2024-01-13",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.2.14-gtnh-pre",
+      "version": "1.2.13-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "BlockLimiter": {
-      "version": "0.55",
+      "version": "0.6.0",
       "side": "BOTH"
     },
     "BloodArsenal": {
@@ -469,7 +469,7 @@
       "side": "BOTH"
     },
     "OpenModularTurrets": {
-      "version": "2.2.11-247",
+      "version": "2.2.2",
       "side": "BOTH"
     },
     "OpenSecurity": {
@@ -669,7 +669,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.6.5",
+      "version": "1.7.0",
       "side": "BOTH"
     },
     "WailaHarvestability": {
