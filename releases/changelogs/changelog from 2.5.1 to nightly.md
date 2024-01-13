@@ -1,8 +1,9 @@
 # New Mods:
 > * ServerUtilities
-# Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.13-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.13-gtnh
+# Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.14-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.14-gtnh-pre
 >## What's Changed
+> * Adding fluids to sticky card by @Cardinalstars in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/190 (1.2.14-gtnh-pre)
 > * Adding fluids to sticky card by @Cardinalstars in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/190 (1.2.13-gtnh)
 > * hold the shift to stop sort items by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/188 (1.2.9-gtnh-pre)
 > * hold the shift to stop sort items by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/188 (1.2.8-gtnh)
@@ -16,6 +17,7 @@
 > * Correct `stackSize` z order by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/178 (1.2.0-gtnh)
 >
 >## New Contributors
+> * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/190 (1.2.14-gtnh-pre)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/190 (1.2.13-gtnh)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/187 (1.2.7-gtnh)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/186 (1.2.6-gtnh)
@@ -1272,8 +1274,15 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/OpenModsLib/pull/4 (0.10.6)
 >
 
-# Updated OpenModularTurrets (2.2.11-247@Side.BOTH --> 2.2.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/commits/2.2.11-247@Side.BOTH...2.2.2@Side.BOTH
+# Updated OpenModularTurrets (2.2.11-247@Side.BOTH --> 2.3.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.2.11-246...2.3.0
+>## What's Changed
+> * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/OpenModularTurrets/pull/2 (2.3.0)
+> * whoops by @bombcar in https://github.com/GTNewHorizons/OpenModularTurrets/pull/1 (2.2.11-247)
+>
+>## New Contributors
+> * @bombcar made their first contribution in https://github.com/GTNewHorizons/OpenModularTurrets/pull/1 (2.2.11-247)
+>
 
 # Updated OpenPrinter (0.1.3-GTNH@Side.BOTH --> 0.2.0-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/OpenPrinter/compare/0.1.2-GTNH...0.2.0-GTNH
@@ -1481,8 +1490,8 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/SpecialMobs/pull/22 (3.5.0)
 >
 
-# Updated SpiceOfLife (2.1.1-carrot@Side.BOTH --> 2.1.3-carrot@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.1.0-carrot...2.1.3-carrot
+# Updated SpiceOfLife (2.1.1-carrot@Side.BOTH --> 2.1.2-carrot-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.1.0-carrot...2.1.2-carrot-pre
 >## What's Changed
 > * Update buildscript and spotless by @bombcar in https://github.com/GTNewHorizons/SpiceOfLife/pull/31 (2.1.1-carrot)
 >
@@ -1520,6 +1529,22 @@
 **Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Forestry/compare/1.11.11-GTNH...1.12.0-GTNH
 >## What's Changed
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/StorageDrawers-Forestry/pull/3 (1.12.0-GTNH)
+>
+
+# Updated StorageDrawers-Misc (1.11.18-GTNH@Side.BOTH --> 1.12.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Misc/compare/1.11.17-GTNH...1.12.0-GTNH
+>## What's Changed
+> * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/StorageDrawers-Misc/pull/4 (1.12.0-GTNH)
+> * Set mod as child mod by @glowredman in https://github.com/GTNewHorizons/StorageDrawers-Misc/pull/3 (1.11.18-GTNH)
+>
+>## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/StorageDrawers-Misc/pull/3 (1.11.18-GTNH)
+>
+
+# Updated StorageDrawers-Natura (1.11.17-GTNH@Side.BOTH --> 1.12.0-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers-Natura/compare/1.11.11-GTNH...1.12.0-GTNH
+>## What's Changed
+> * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/StorageDrawers-Natura/pull/3 (1.12.0-GTNH)
 >
 
 # Updated StructureCompat (0.4.0@Side.BOTH --> 0.5.0@Side.BOTH)
@@ -1638,16 +1663,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/1 (1.0.12-GTNH)
 >
 
-# Updated ThaumicTinkerer (2.8.5@Side.BOTH --> 2.9.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.8.4...2.9.0
->## What's Changed
-> * Talisman of Remedium no longer wastes durability trying to remove permanent debuffs. It also accepts the Unbreaking enchant. by @AbdielKavash in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/36 (2.9.0)
-> * Added balancing configs for Shadowbeam Focus. by @Purple-Towel in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/35 (2.8.5)
->
->## New Contributors
-> * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/36 (2.9.0)
-> * @Purple-Towel made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/35 (2.8.5)
->
+# Updated ThaumicTinkerer (2.8.5@Side.BOTH --> 2.8.5-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/commits/2.8.5@Side.BOTH...2.8.5-pre@Side.BOTH
 
 # Updated Thaumic_Exploration (1.2.0-GTNH@Side.BOTH --> 1.2.1-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.1.94-GTNH...1.2.1-GTNH
@@ -1912,6 +1929,9 @@
 > * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/neiaddons/pull/7 (1.13.0)
 >
 
+# Updated oauth (1.06.1-GTNH@Side.CLIENT --> 1.1.0-GTNH@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/oauth/commits/1.06.1-GTNH@Side.CLIENT...1.1.0-GTNH@Side.CLIENT
+
 # Updated supersolarpanels (1.1.2-GT-NH-Mod@Side.BOTH --> 1.1.3@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/supersolarpanels/compare/1.1.2-GT-NH-Mod...1.1.3
 
@@ -1940,9 +1960,6 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
 >
 
-# Updated waila (1.6.5@Side.BOTH --> 1.7.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.6.4...1.7.0
->## What's Changed
-> * Convert world unload event handler to public inner class by @tth05 in https://github.com/GTNewHorizons/waila/pull/17 (1.6.5)
->
+# Updated waila (1.6.5@Side.BOTH --> 1.6.5-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/waila/commits/1.6.5@Side.BOTH...1.6.5-pre@Side.BOTH
 
