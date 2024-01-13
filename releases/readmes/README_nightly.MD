@@ -387,7 +387,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.10.0 |
 | [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.1.25 |
 | [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) | 1.6.21 |
-| [MouseTweaks](https://github.com/GTNewHorizons/MouseTweaks) | 2.4.12-GTNH-pre |
+| [MouseTweaks](https://github.com/GTNewHorizons/MouseTweaks) | 2.4.11-GTNH |
 | [MrTJPCore](https://github.com/GTNewHorizons/MrTJPCore) | 1.1.6 |
 | [MX-Random](https://github.com/GTNewHorizons/MX-Random) | 0.3.0 |
 | [Natura](https://github.com/GTNewHorizons/Natura) | 2.6.0 |

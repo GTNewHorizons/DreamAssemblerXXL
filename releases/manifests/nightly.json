@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-01-13T12:17:04.521394",
+  "last_updated": "2024-01-13T14:46:19.583069",
   "config": "2.6.0-nightly-2024-01-13",
   "github_mods": {
     "AdventureBackpack2": {
@@ -397,7 +397,7 @@
       "side": "BOTH"
     },
     "MouseTweaks": {
-      "version": "2.4.12-GTNH-pre",
+      "version": "2.4.11-GTNH",
       "side": "CLIENT"
     },
     "MX-Random": {
