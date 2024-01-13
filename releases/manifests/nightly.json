@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-01-13T15:02:09.335649",
+  "last_updated": "2024-01-13T15:28:15.421673",
   "config": "2.6.0-nightly-2024-01-13",
   "github_mods": {
     "AdventureBackpack2": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "Tainted-Magic": {
-      "version": "7.6.3-GTNH",
+      "version": "7.6.4-GTNH",
       "side": "BOTH"
     },
     "lwjgl3ify": {
@@ -846,6 +846,10 @@
     },
     "ServerUtilities": {
       "version": "2.0.10",
+      "side": "BOTH"
+    },
+    "Tinkers-Defense": {
+      "version": "1.2.2",
       "side": "BOTH"
     }
   },
@@ -924,10 +928,6 @@
     },
     "Thaumic Machina": {
       "version": "0.2.1",
-      "side": "BOTH"
-    },
-    "Tinkers' Defense": {
-      "version": "1.2.1d",
       "side": "BOTH"
     },
     "Travellers Gear": {

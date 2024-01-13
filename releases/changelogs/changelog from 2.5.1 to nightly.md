@@ -1,5 +1,8 @@
 # New Mods:
 > * ServerUtilities
+> * Tinkers-Defense
+# Mods Removed:
+> * Tinkers' Defense
 # Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.13-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.13-gtnh
 >## What's Changed
@@ -1603,6 +1606,16 @@
 > * don't use SKIP_DEBUG by @Alexdoru in https://github.com/GTNewHorizons/TX-Loader/pull/10 (1.6.3)
 >
 
+# Updated Tainted-Magic (7.6.3-GTNH@Side.BOTH --> 7.6.4-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.2-GTNH...7.6.4-GTNH
+>## What's Changed
+> * Fix broken mod by @chochem in https://github.com/GTNewHorizons/Tainted-Magic/pull/20 (7.6.4-GTNH)
+> * improve net code by @Glease in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
+>
+>## New Contributors
+> * @Glease made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
+>
+
 # Updated TecTech (5.3.23@Side.BOTH --> 5.3.27-pre@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.27-pre
 >## What's Changed
@@ -1684,6 +1697,9 @@
 >## New Contributors
 > * @Oleksey-Korolenko made their first contribution in https://github.com/GTNewHorizons/TiC-Tooltips/pull/7 (1.3.0)
 >
+
+# New Mod - Tinkers-Defense (1.2.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/commits/1.2.2
 
 # Updated TinkersConstruct (1.10.13-GTNH@Side.BOTH --> 1.11.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.10.12-GTNH...1.11.8-GTNH
