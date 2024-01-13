@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-01-13T11:10:06.907415",
+  "last_updated": "2024-01-13T11:20:21.206396",
   "config": "2.6.0-nightly-2024-01-13",
   "github_mods": {
     "AdventureBackpack2": {
@@ -177,7 +177,7 @@
       "side": "CLIENT"
     },
     "DetravScannerMod": {
-      "version": "1.7.2",
+      "version": "1.8.0",
       "side": "BOTH"
     },
     "Draconic-Evolution": {

@@ -475,6 +475,9 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/DefaultWorldGenerator/pull/2 (0.2)
 >
 
+# Updated DetravScannerMod (1.7.2@Side.BOTH --> 1.8.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/DetravScannerMod/compare/1.7.1...1.8.0
+
 # Updated Draconic-Evolution (1.2.1-GTNH@Side.BOTH --> 1.3.0-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.2.0-GTNH...1.3.0-GTNH
 >## What's Changed
