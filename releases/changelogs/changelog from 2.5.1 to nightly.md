@@ -586,7 +586,6 @@
 > * [bs] fix buildscripts for jenkins by @bombcar in https://github.com/GTNewHorizons/ForestryMC/pull/61 (4.8.2)
 > * Remove Version Checker by @glowredman in https://github.com/GTNewHorizons/ForestryMC/pull/60 (4.8.1)
 > * Add name for butterflyGE by @bombcar in https://github.com/GTNewHorizons/ForestryMC/pull/59 (4.8.0)
-> * Add name for butterflyGE by @bombcar in https://github.com/GTNewHorizons/ForestryMC/pull/59 (4.8.0)
 >
 
 # Updated ForgeMultipart (1.4.1@Side.BOTH --> 1.4.7@Side.BOTH)
@@ -690,8 +689,6 @@
 **Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.2.8...1.3.1
 >## What's Changed
 > * Clarify whether item or fluid output is full by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/56 (1.3.0)
-> * Clarify whether item or fluid output is full by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/56 (1.3.0)
-> * Clarify whether item or fluid output is full by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/56 (1.2.9)
 >
 
 # Updated GTNH-Lanthanides (0.11.9@Side.BOTH --> 0.12.5@Side.BOTH)
@@ -747,9 +744,7 @@
 > * Fix superbus UHV recipes and localization by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/812 (1.11.1)
 > * Clarify whether item or fluid output is full by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/809 (1.11.0)
 > * Fix asymmetry in the qft multiblock by @Pelotrio in https://github.com/GTNewHorizons/GTplusplus/pull/802 (1.11.0)
-> * Clarify whether item or fluid output is full by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/809 (1.11.0)
-> * Fix asymmetry in the qft multiblock by @Pelotrio in https://github.com/GTNewHorizons/GTplusplus/pull/802 (1.11.0)
-> * Clarify whether item or fluid output is full by @miozune in https://github.com/GTNewHorizons/GTplusplus/pull/809 (1.10.54)
+> * Fix superbus UHV recipes and localization for stable branch by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/813 (1.10.55)
 >
 >## New Contributors
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/GTplusplus/pull/814 (1.11.2)
@@ -783,19 +778,15 @@
 **Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.74-GTNH...3.1.2-GTNH
 >## What's Changed
 > * Update GC lang files to more modern usage for MobInfo by @bombcar in https://github.com/GTNewHorizons/Galacticraft/pull/83 (3.1.1-GTNH)
-> * Update GC lang files to more modern usage for MobInfo by @bombcar in https://github.com/GTNewHorizons/Galacticraft/pull/83 (3.1.1-GTNH)
-> * Fix backwards-compatibility with other Galacticraft addons (e. g. ExtraPlanets) by @PT400C in https://github.com/GTNewHorizons/Galacticraft/pull/82 (3.1.0-GTNH)
 > * Fix backwards-compatibility with other Galacticraft addons (e. g. ExtraPlanets) by @PT400C in https://github.com/GTNewHorizons/Galacticraft/pull/82 (3.1.0-GTNH)
 >
 >## New Contributors
-> * @PT400C made their first contribution in https://github.com/GTNewHorizons/Galacticraft/pull/82 (3.1.0-GTNH)
 > * @PT400C made their first contribution in https://github.com/GTNewHorizons/Galacticraft/pull/82 (3.1.0-GTNH)
 >
 
 # Updated Galaxy-Space-GTNH (1.2.15-GTNH@Side.BOTH --> 1.3.1-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.2.14-GTNH...1.3.1-GTNH
 >## What's Changed
-> * fix localization to match changes to GalacticCore by @bombcar in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/105 (1.3.0-GTNH)
 > * fix localization to match changes to GalacticCore by @bombcar in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/105 (1.3.0-GTNH)
 >
 
@@ -818,9 +809,6 @@
 > * fix simple washer recipe issue about Nq Process by @Nxer in https://github.com/GTNewHorizons/GoodGenerator/pull/229 (0.8.2)
 > * Cleanup isValidMetaTileEntity again by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/227 (0.8.0)
 > * Batch mode for compact fusion MKIV-V by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/223 (0.8.0)
-> * Cleanup isValidMetaTileEntity again by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/227 (0.8.0)
-> * Batch mode for compact fusion MKIV-V by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/223 (0.8.0)
-> * Cleanup isValidMetaTileEntity again by @miozune in https://github.com/GTNewHorizons/GoodGenerator/pull/227 (0.7.17)
 >
 >## New Contributors
 > * @Nxer made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/229 (0.8.2)
@@ -978,14 +966,10 @@
 > * Fix Soldering Iron unable to set redstone output strength for the EEC. by @AbdielKavash in https://github.com/GTNewHorizons/KubaTech/pull/115 (0.14.2)
 > * Allow the EIG and MApiary to use IC2 Distilled Water in place of regular water in the structure. by @AbdielKavash in https://github.com/GTNewHorizons/KubaTech/pull/113 (0.14.1)
 > * Fix queen dupe bug in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/114 (0.14.1)
-> * Allow the EIG and MApiary to use IC2 Distilled Water in place of regular water in the structure. by @AbdielKavash in https://github.com/GTNewHorizons/KubaTech/pull/113 (0.14.1)
-> * Fix queen dupe bug in Mega Apiary by @kuba6000 in https://github.com/GTNewHorizons/KubaTech/pull/114 (0.14.1)
-> * Remove now unneeded IMC for DEFusionCrafter by @miozune in https://github.com/GTNewHorizons/KubaTech/pull/111 (0.14.0)
 > * Remove now unneeded IMC for DEFusionCrafter by @miozune in https://github.com/GTNewHorizons/KubaTech/pull/111 (0.14.0)
 >
 >## New Contributors
 > * @HoleFish made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/116 (0.14.3)
-> * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/113 (0.14.1)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/KubaTech/pull/113 (0.14.1)
 >
 
@@ -1160,7 +1144,7 @@
 >
 
 # Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.14-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.53...2.3.14-pre
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.14-pre
 >## What's Changed
 > * Add Horus planet block recipe by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/790 (2.3.13)
 > * Add assembler recipe for fusion coil block by @Pelotrio in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/792 (2.3.13)
