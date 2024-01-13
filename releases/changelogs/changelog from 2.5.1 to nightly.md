@@ -223,10 +223,8 @@
 >## What's Changed
 > * Fix crash when switching tier after projecting a multiblock by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/9 (1.1.1)
 > * Fix preview not showing if multi isn't ISurvivalConstructable by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/8 (1.1.0)
-> * Fix preview not showing if multi isn't ISurvivalConstructable by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/8 (1.1.0)
 >
 >## New Contributors
-> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/BlockRenderer6343/pull/8 (1.1.0)
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/BlockRenderer6343/pull/8 (1.1.0)
 >
 
@@ -502,11 +500,9 @@
 **Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.17...0.3.1
 >## What's Changed
 > * Fix for limited item filter by @Tu0rp in https://github.com/GTNewHorizons/EnderCore/pull/18 (0.3.0)
-> * Fix for limited item filter by @Tu0rp in https://github.com/GTNewHorizons/EnderCore/pull/18 (0.3.0)
 > * Get Empty container with drainFluidContainer by @ghostflyby in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.19)
 >
 >## New Contributors
-> * @Tu0rp made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/18 (0.3.0)
 > * @Tu0rp made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/18 (0.3.0)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.19)
 >
@@ -519,12 +515,8 @@
 > * Staff Of Traveling Keybind Feature by @TheUnderTaker11 in https://github.com/GTNewHorizons/EnderIO/pull/144 (2.6.1)
 > * Limited Item Filter by @Tu0rp in https://github.com/GTNewHorizons/EnderIO/pull/143 (2.6.0)
 > * Add Config to allow servers to re-enable support for client-side 'hacks' like Staff Of Traveling Keybind mod. by @TheUnderTaker11 in https://github.com/GTNewHorizons/EnderIO/pull/142 (2.6.0)
-> * Limited Item Filter by @Tu0rp in https://github.com/GTNewHorizons/EnderIO/pull/143 (2.6.0)
-> * Add Config to allow servers to re-enable support for client-side 'hacks' like Staff Of Traveling Keybind mod. by @TheUnderTaker11 in https://github.com/GTNewHorizons/EnderIO/pull/142 (2.6.0)
 >
 >## New Contributors
-> * @Tu0rp made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/143 (2.6.0)
-> * @TheUnderTaker11 made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/142 (2.6.0)
 > * @Tu0rp made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/143 (2.6.0)
 > * @TheUnderTaker11 made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/142 (2.6.0)
 >
@@ -1994,13 +1986,10 @@
 > * Fix painted low power laser converter explosion by @antropod in https://github.com/GTNewHorizons/bartworks/pull/383 (0.9.2)
 > * Fix muffler hatch numbers for mega by @chochem in https://github.com/GTNewHorizons/bartworks/pull/384 (0.9.2)
 > * Fix CAL Locking itself by @LewisSaber in https://github.com/GTNewHorizons/bartworks/pull/381 (0.9.1)
-> * Fix CAL Locking itself by @LewisSaber in https://github.com/GTNewHorizons/bartworks/pull/381 (0.9.1)
-> * Allow Mega Oil Cracker to use an input bus for programmed circuit automation. by @AbdielKavash in https://github.com/GTNewHorizons/bartworks/pull/382 (0.9.0)
 > * Allow Mega Oil Cracker to use an input bus for programmed circuit automation. by @AbdielKavash in https://github.com/GTNewHorizons/bartworks/pull/382 (0.9.0)
 >
 >## New Contributors
 > * @antropod made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/383 (0.9.2)
-> * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/382 (0.9.0)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/382 (0.9.0)
 >
 
