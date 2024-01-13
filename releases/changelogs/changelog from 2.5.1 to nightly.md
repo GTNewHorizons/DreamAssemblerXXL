@@ -86,24 +86,14 @@
 > * Do not form `CraftingCPU` if storage overflow detected by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/443 (rv3-beta-304-GTNH)
 > * Add Priority Card by @TechnicianLP in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/446 (rv3-beta-304-GTNH)
 > * Respect setting `preserveSearchBar` in `InterfaceTerminal` by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/445 (rv3-beta-304-GTNH)
-> * Backport Interface Locking Mode by @TechnicianLP in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/437 (rv3-beta-304-GTNH)
-> * Do not form `CraftingCPU` if storage overflow detected by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/443 (rv3-beta-304-GTNH)
-> * Add Priority Card by @TechnicianLP in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/446 (rv3-beta-304-GTNH)
-> * Respect setting `preserveSearchBar` in `InterfaceTerminal` by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/445 (rv3-beta-304-GTNH)
-> * Support to show p2p outputs in interface terminal by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/441 (rv3-beta-303-GTNH)
 > * Support to show p2p outputs in interface terminal by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/441 (rv3-beta-303-GTNH)
 > * Correct stackSize z order by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/440 (rv3-beta-302-GTNH)
-> * Correct stackSize z order by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/440 (rv3-beta-302-GTNH)
 > * Respect interface settings by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/439 (rv3-beta-301-GTNH)
-> * Respect interface settings by @Laiff in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/439 (rv3-beta-301-GTNH)
-> * Fix crash when opening disconnected interface terminal by @Caedis in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
 > * Fix crash when opening disconnected interface terminal by @Caedis in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
 >
 >## New Contributors
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/448 (rv3-beta-306-GTNH)
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/437 (rv3-beta-304-GTNH)
-> * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/437 (rv3-beta-304-GTNH)
-> * @Caedis made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
 >
 
