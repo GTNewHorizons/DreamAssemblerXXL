@@ -626,9 +626,11 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.30-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.107...5.09.45.30-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.32-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.32-pre
 >## What's Changed
+> * Add missing null check in pump cover by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2452 (5.09.45.32-pre)
+> * Add missing null check in pump cover by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2452 (5.09.45.31)
 > * Late review of #2446 Optional changes by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2449 (5.09.45.29)
 > * PCB coolant hatch supports ME hatch by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2451 (5.09.45.29)
 > * Cleanup a bit the GT_Achievements class by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2450 (5.09.45.29)
