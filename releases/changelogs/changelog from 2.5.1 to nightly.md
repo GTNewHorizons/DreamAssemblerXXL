@@ -626,9 +626,10 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.32-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.32-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.33-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.33-pre
 >## What's Changed
+> * Spotless apply for branch feature/movefluid for #2455 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2456 (5.09.45.33-pre)
 > * Add missing null check in pump cover by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2452 (5.09.45.32-pre)
 > * Add missing null check in pump cover by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2452 (5.09.45.31)
 > * Late review of #2446 Optional changes by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2449 (5.09.45.29)
@@ -718,13 +719,15 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/16 (1.3.1)
 >
 
-# Updated GTNHLib (0.0.13@Side.BOTH --> 0.2.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.0.12...0.2.0
+# Updated GTNHLib (0.0.13@Side.BOTH --> 0.2.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.0.12...0.2.1
 >## What's Changed
+> * Add fastutil to dependencies.gradle by @tth05 in https://github.com/GTNewHorizons/GTNHLib/pull/24 (0.2.1)
 > * Port configs from Angelica/ArchaicFix by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/23 (0.2.0)
 > * Fix broken mod by @chochem in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
 >## New Contributors
+> * @tth05 made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/24 (0.2.1)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/23 (0.2.0)
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
@@ -804,8 +807,8 @@
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/27 (0.3.9)
 >
 
-# Updated GoodGenerator (0.7.17@Side.BOTH --> 0.8.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.16...0.8.4
+# Updated GoodGenerator (0.7.17@Side.BOTH --> 0.8.5-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.16...0.8.5-pre
 >## What's Changed
 > * [bs] update dependencies by @bombcar in https://github.com/GTNewHorizons/GoodGenerator/pull/231 (0.8.4)
 > * Enable batch mode for component assemblyline by @GDCloudstrike in https://github.com/GTNewHorizons/GoodGenerator/pull/233 (0.8.4)
@@ -1092,12 +1095,17 @@
 > * Fix for NEID by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/57 (1.1.24)
 >
 
-# Updated MouseTweaks (2.4.9-GTNH@Side.CLIENT --> 2.4.11-GTNH@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.8-GTNH...2.4.11-GTNH
+# Updated MouseTweaks (2.4.9-GTNH@Side.CLIENT --> 2.4.13@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.8-GTNH...2.4.13
 >## What's Changed
+> * Swap to GTNHLib config by @Caedis in https://github.com/GTNewHorizons/MouseTweaks/pull/5 (2.4.13)
+> * Spotless apply for branch newConfig for #5 by @github-actions in https://github.com/GTNewHorizons/MouseTweaks/pull/6 (2.4.12-GTNH-pre)
+> * dev update by @Caedis in https://github.com/GTNewHorizons/MouseTweaks/pull/7 (2.4.12-GTNH-pre)
 > * Backport ScrollItemScaling and WheelScrollDirection config options by @unilock in https://github.com/GTNewHorizons/MouseTweaks/pull/4 (2.4.9-GTNH)
 >
 >## New Contributors
+> * @github-actions made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/6 (2.4.12-GTNH-pre)
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/7 (2.4.12-GTNH-pre)
 > * @unilock made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/4 (2.4.9-GTNH)
 >
 
@@ -1202,8 +1210,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/5 (1.5.3)
 >
 
-# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.5-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.5-GTNH-pre
+# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.6-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.6-GTNH-pre
 >## What's Changed
 > * undo dependencies removal, it's loadbearing by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/449 (2.5.4-GTNH)
 > * Add chat message to chunk overlay key press by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/450 (2.5.1-GTNH)
@@ -1338,14 +1346,16 @@
 > * Log what class received by @miozune in https://github.com/GTNewHorizons/ProjectBlue/pull/4 (1.1.12-GTNH)
 >
 
-# Updated ProjectRed (4.8.1-GTNH@Side.BOTH --> 4.9.2-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.8.0-GTNH...4.9.2-GTNH
+# Updated ProjectRed (4.8.1-GTNH@Side.BOTH --> 4.9.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.8.0-GTNH...4.9.3-GTNH
 >## What's Changed
+> * Fix missing call to `startDrawing()` by @UltraHex in https://github.com/GTNewHorizons/ProjectRed/pull/30 (4.9.3-GTNH)
 > * update the chickens to have multiple threads by @bombcar in https://github.com/GTNewHorizons/ProjectRed/pull/29 (4.9.2-GTNH)
 > * Replace `@VERSION@` usage by @glowredman in https://github.com/GTNewHorizons/ProjectRed/pull/28 (4.9.1-GTNH)
 > * Angelica compat - don't rebind textures by @ah-OOG-ah in https://github.com/GTNewHorizons/ProjectRed/pull/27 (4.9.0-GTNH)
 >
 >## New Contributors
+> * @UltraHex made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/30 (4.9.3-GTNH)
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/27 (4.9.0-GTNH)
 >
 

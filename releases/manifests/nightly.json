@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-01-13T16:23:59.251896",
+  "last_updated": "2024-01-14T09:47:17.843039",
   "config": "2.6.0-nightly-2024-01-13",
   "github_mods": {
     "AdventureBackpack2": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.8.4",
+      "version": "0.8.5-pre",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.32-pre",
+      "version": "5.09.45.33-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.2.0",
+      "version": "0.2.1",
       "side": "BOTH"
     },
     "GTplusplus": {
@@ -397,7 +397,7 @@
       "side": "BOTH"
     },
     "MouseTweaks": {
-      "version": "2.4.11-GTNH",
+      "version": "2.4.13",
       "side": "CLIENT"
     },
     "MX-Random": {
@@ -441,7 +441,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.5.5-GTNH-pre",
+      "version": "2.5.6-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -493,7 +493,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.9.2-GTNH",
+      "version": "4.9.3-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
