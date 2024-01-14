@@ -1095,10 +1095,10 @@
 > * Fix for NEID by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/57 (1.1.24)
 >
 
-# Updated MouseTweaks (2.4.9-GTNH@Side.CLIENT --> 2.4.13@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.8-GTNH...2.4.13
+# Updated MouseTweaks (2.4.9-GTNH@Side.CLIENT --> 2.4.13-GTNH@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.8-GTNH...2.4.13-GTNH
 >## What's Changed
-> * Swap to GTNHLib config by @Caedis in https://github.com/GTNewHorizons/MouseTweaks/pull/5 (2.4.13)
+> * Swap to GTNHLib config by @Caedis in https://github.com/GTNewHorizons/MouseTweaks/pull/5 (2.4.13-GTNH)
 > * Spotless apply for branch newConfig for #5 by @github-actions in https://github.com/GTNewHorizons/MouseTweaks/pull/6 (2.4.12-GTNH-pre)
 > * dev update by @Caedis in https://github.com/GTNewHorizons/MouseTweaks/pull/7 (2.4.12-GTNH-pre)
 > * Backport ScrollItemScaling and WheelScrollDirection config options by @unilock in https://github.com/GTNewHorizons/MouseTweaks/pull/4 (2.4.9-GTNH)
