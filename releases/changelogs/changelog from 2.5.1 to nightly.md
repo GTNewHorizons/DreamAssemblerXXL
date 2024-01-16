@@ -385,8 +385,8 @@
 # Updated Controlling (2.0.1@Side.CLIENT --> 2.0.2@Side.CLIENT)
 **Full Changelog**: https://github.com/GTNewHorizons/Controlling/compare/2.0.0.0...2.0.2
 
-# Updated CookingForBlockheads (1.2.16-GTNH@Side.BOTH --> 1.3.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.2.15-GTNH...1.3.1-GTNH
+# Updated CookingForBlockheads (1.2.16-GTNH@Side.BOTH --> 1.3.2-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.2.15-GTNH...1.3.2-GTNH-pre
 >## What's Changed
 > * update buildscript and dependencies by @bombcar in https://github.com/GTNewHorizons/CookingForBlockheads/pull/41 (1.3.0-GTNH)
 > * Fix: TileEntity migration from old savefiles by @eigenraven in https://github.com/GTNewHorizons/CookingForBlockheads/pull/40 (1.2.16-GTNH)
@@ -497,8 +497,11 @@
 > * Add WoodenBrickForm to gadgets by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/14 (1.1.7)
 >
 
-# Updated Electro-Magic-Tools (1.3.8@Side.BOTH --> 1.4.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.3.7...1.4.0
+# Updated Electro-Magic-Tools (1.3.8@Side.BOTH --> 1.4.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.3.7...1.4.1
+>## What's Changed
+> * Convert EMT to RA2 by @chochem in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/70 (1.4.1)
+>
 
 # Updated EnderCore (0.2.19@Side.BOTH --> 0.3.1@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.17...0.3.1
@@ -626,9 +629,47 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.33-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.33-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.39-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.39-pre
 >## What's Changed
+> * Move the check for item/fluid outputs length in ParallelHelper by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2441 (5.09.45.39-pre)
+> * Canola is a better name than Rapeseed (id is staying the same) by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2443 (5.09.45.39-pre)
+> * GT wrench capabilities for AE2 blocks and others by @ghostflyby in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2395 (5.09.45.39-pre)
+> * Rework item renderers by @UltraHex in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2424 (5.09.45.39-pre)
+> * Allow tools to break stuff with a lower harvest level by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2435 (5.09.45.39-pre)
+> * Removed muffler from Vacuum Freezer. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2439 (5.09.45.39-pre)
+> * Fix CRIB ignoring new pattern when it was a replacement in place of a diffrent pattern by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2442 (5.09.45.39-pre)
+> * Add config to block underground dirt and gravel gen by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2444 (5.09.45.39-pre)
+> * Convert tiny Ash dusts for various EBF recipes to chances by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2445 (5.09.45.39-pre)
+> * Add valid covers bit mask to CoverableTileEntity by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2446 (5.09.45.39-pre)
+> * Reintroduce CRIB name to WAILA by @kstvr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2447 (5.09.45.39-pre)
+> * Make stocking bus/hatch autopull slot refresh timer adjustable by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2448 (5.09.45.39-pre)
+> * Late review of #2446 Optional changes by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2449 (5.09.45.39-pre)
+> * PCB coolant hatch supports ME hatch by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2451 (5.09.45.39-pre)
+> * Cleanup a bit the GT_Achievements class by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2450 (5.09.45.39-pre)
+> * Add missing null check in pump cover by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2452 (5.09.45.39-pre)
+> * Fix Fluid Solidifying by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2461 (5.09.45.39-pre)
+> * fix steam turbine NPE by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2457 (5.09.45.39-pre)
+> * Add new properties to parallel helper by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2454 (5.09.45.39-pre)
+> * Add back tool mode to wrench by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2462 (5.09.45.39-pre)
+> * Feature/movefluid by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2459 (5.09.45.39-pre)
+> * Fix wire cutter/soldering iron click on gt machines by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2463 (5.09.45.39-pre)
+> * Change Canola back to Rape seed by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2464 (5.09.45.39-pre)
+> * Fix wire cutter/soldering iron click on gt machines by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2463 (5.09.45.38)
+> * Change Canola back to Rape seed by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2464 (5.09.45.38)
+> * Fix Fluid Solidifying by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2461 (5.09.45.36)
+> * fix steam turbine NPE by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2457 (5.09.45.36)
+> * Add new properties to parallel helper by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2454 (5.09.45.36)
+> * Add back tool mode to wrench by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2462 (5.09.45.36)
+> * Feature/movefluid by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2459 (5.09.45.36)
+> * Spotless apply for branch feature/movefluid for #2455 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2456 (5.09.45.35-pre)
+> * merge similar code into new utility function moveFluid by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2455 (5.09.45.35-pre)
+> * Spotless apply for branch feature/movefluid for #2459 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2460 (5.09.45.35-pre)
+> * Fix Fluid Solidifying by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2461 (5.09.45.35-pre)
+> * fix steam turbine NPE by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2457 (5.09.45.35-pre)
+> * Spotless apply for branch feature/movefluid for #2455 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2456 (5.09.45.34-pre)
+> * merge similar code into new utility function moveFluid by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2455 (5.09.45.34-pre)
+> * Spotless apply for branch feature/movefluid for #2455 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2458 (5.09.45.34-pre)
 > * Spotless apply for branch feature/movefluid for #2455 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2456 (5.09.45.33-pre)
 > * Add missing null check in pump cover by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2452 (5.09.45.32-pre)
 > * Add missing null check in pump cover by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2452 (5.09.45.31)
@@ -732,9 +773,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
 
-# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.16-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.16-pre
+# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.17@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.17
 >## What's Changed
+> * Advanced Muffler Hatch improvements by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/825 (1.11.17)
 > * Enable batch mode on mega ABS by @GDCloudstrike in https://github.com/GTNewHorizons/GTplusplus/pull/824 (1.11.15)
 > * Thermal Boiler rework by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/815 (1.11.14-pre)
 > * Fix Soldering Iron unable to set redstone output strength. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/819 (1.11.14-pre)
@@ -1095,9 +1137,10 @@
 > * Fix for NEID by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/57 (1.1.24)
 >
 
-# Updated MouseTweaks (2.4.9-GTNH@Side.CLIENT --> 2.4.13-GTNH@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.8-GTNH...2.4.13-GTNH
+# Updated MouseTweaks (2.4.9-GTNH@Side.CLIENT --> 2.4.14-GTNH@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.8-GTNH...2.4.14-GTNH
 >## What's Changed
+> * Fix issues with importing old configs by @Caedis in https://github.com/GTNewHorizons/MouseTweaks/pull/8 (2.4.14-GTNH)
 > * Swap to GTNHLib config by @Caedis in https://github.com/GTNewHorizons/MouseTweaks/pull/5 (2.4.13-GTNH)
 > * Spotless apply for branch newConfig for #5 by @github-actions in https://github.com/GTNewHorizons/MouseTweaks/pull/6 (2.4.12-GTNH-pre)
 > * dev update by @Caedis in https://github.com/GTNewHorizons/MouseTweaks/pull/7 (2.4.12-GTNH-pre)
@@ -1210,8 +1253,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/5 (1.5.3)
 >
 
-# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.6-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.6-GTNH-pre
+# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.7-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.7-GTNH-pre
 >## What's Changed
 > * undo dependencies removal, it's loadbearing by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/449 (2.5.4-GTNH)
 > * Add chat message to chunk overlay key press by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/450 (2.5.1-GTNH)
@@ -1271,11 +1314,10 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/111 (1.10.0-GTNH)
 >
 
-# Updated OpenModsLib (0.10.6@Side.BOTH --> 0.11.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenModsLib/compare/0.10.5...0.11.1
+# Updated OpenModsLib (0.10.6@Side.BOTH --> 0.10.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenModsLib/compare/0.10.5...0.10.8
 >## What's Changed
-> * version warning by @bombcar in https://github.com/GTNewHorizons/OpenModsLib/pull/6 (0.11.1)
-> * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/OpenModsLib/pull/5 (0.11.0)
+> * version warning by @bombcar in https://github.com/GTNewHorizons/OpenModsLib/pull/6 (0.10.8)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/OpenModsLib/pull/5 (0.10.7)
 > * correct transient dependency by @Dream-Master in https://github.com/GTNewHorizons/OpenModsLib/pull/4 (0.10.6)
 >
@@ -1438,9 +1480,11 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Schematica/pull/17 (1.9.4-GTNH)
 >
 
-# New Mod - ServerUtilities (2.0.10@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.10
+# New Mod - ServerUtilities (2.0.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.11
 >## What's Changed
+> * Fix for minor command problems by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/26 (2.0.11)
+> * Add config option to have side buttons drawn vertically by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/29 (2.0.11)
 > * Add synced Wiki by @glowredman in https://github.com/GTNewHorizons/ServerUtilities/pull/24 (2.0.9)
 > * Fix crash when EnderIO farming station is operating in claimed chunk by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/22 (2.0.8)
 > * Fix player attack logging crashing when attacking with empty hand by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/20 (2.0.7)
@@ -1501,14 +1545,19 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/SpecialMobs/pull/22 (3.5.0)
 >
 
-# Updated SpiceOfLife (2.1.1-carrot@Side.BOTH --> 2.1.3-carrot@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.1.0-carrot...2.1.3-carrot
+# Updated SpiceOfLife (2.1.1-carrot@Side.BOTH --> 2.1.6-carrot@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.1.0-carrot...2.1.6-carrot
 >## What's Changed
+> * Add a couple more null checks by @Caedis in https://github.com/GTNewHorizons/SpiceOfLife/pull/36 (2.1.6-carrot)
+> * Add null check to food equal check by @Caedis in https://github.com/GTNewHorizons/SpiceOfLife/pull/35 (2.1.4-carrot)
 > * Update buildscript and spotless by @bombcar in https://github.com/GTNewHorizons/SpiceOfLife/pull/31 (2.1.1-carrot)
 >
+>## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/SpiceOfLife/pull/35 (2.1.4-carrot)
+>
 
-# Updated Steve-s-Factory-Manager (1.1.7-GTNH@Side.BOTH --> 1.2.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Steve-s-Factory-Manager/compare/1.1.6-GTNH...1.2.0-GTNH
+# Updated Steve-s-Factory-Manager (1.1.7-GTNH@Side.BOTH --> 1.2.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Steve-s-Factory-Manager/compare/1.1.6-GTNH...1.2.2-GTNH
 >## What's Changed
 > * [bs] update for Jenkins and apply spotless and remove wildcards by @bombcar in https://github.com/GTNewHorizons/Steve-s-Factory-Manager/pull/13 (1.2.0-GTNH)
 > * don't register certain recipes if dreamcraft loaded instead of using scripts by @Alexdoru in https://github.com/GTNewHorizons/Steve-s-Factory-Manager/pull/12 (1.1.7-GTNH)
@@ -1517,8 +1566,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Steve-s-Factory-Manager/pull/12 (1.1.7-GTNH)
 >
 
-# Updated StevesAddons (0.10.27@Side.BOTH --> 0.12.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.10.26...0.12.0
+# Updated StevesAddons (0.10.27@Side.BOTH --> 0.12.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.10.26...0.12.2
 >## What's Changed
 > * [bs] serious bs by @bombcar in https://github.com/GTNewHorizons/StevesAddons/pull/10 (0.12.0)
 >
@@ -1907,10 +1956,14 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/gendustry/pull/6 (1.6.5.5-GTNH)
 >
 
-# Updated harvestcraft (1.1.4-GTNH@Side.BOTH --> 1.1.5-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.1.3-GTNH...1.1.5-GTNH
+# Updated harvestcraft (1.1.4-GTNH@Side.BOTH --> 1.1.6-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.1.3-GTNH...1.1.6-GTNH
 >## What's Changed
+> * Translated Havestcraft to Polish by @Mpcs by @kuba6000 in https://github.com/GTNewHorizons/harvestcraft/pull/52 (1.1.6-GTNH)
 > * Added extra flag to register Oven Recipes by @DrParadox7 in https://github.com/GTNewHorizons/harvestcraft/pull/51 (1.1.4-GTNH)
+>
+>## New Contributors
+> * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/harvestcraft/pull/52 (1.1.6-GTNH)
 >
 
 # Updated inventory-tweaks (1.6.1@Side.CLIENT --> 1.6.2@Side.CLIENT)
@@ -1984,12 +2037,14 @@
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/32 (0.2.7)
 >
 
-# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.2-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.2-pre
+# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.4-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.4-pre
 >## What's Changed
+> * Fix hardcoded world height. by @AbdielKavash in https://github.com/GTNewHorizons/twilightforest/pull/37 (2.5.3)
 > * Fix server crash with magic beans by @miozune in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
 >
 >## New Contributors
+> * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/37 (2.5.3)
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
 >
 
