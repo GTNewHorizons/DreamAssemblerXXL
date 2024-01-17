@@ -254,9 +254,10 @@
 > * Fix tooltip for meteor NEI by @miozune in https://github.com/GTNewHorizons/BloodMagic/pull/48 (1.4.3)
 >
 
-# Updated Botania (1.10.3-GTNH@Side.BOTH --> 1.10.4-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.10.2-GTNH...1.10.4-GTNH
+# Updated Botania (1.10.3-GTNH@Side.BOTH --> 1.10.5-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.10.2-GTNH...1.10.5-GTNH
 >## What's Changed
+> * Clarify some misunderstanding by @LewisSaber in https://github.com/GTNewHorizons/Botania/pull/39 (1.10.5-GTNH)
 > * backports VazkiiMods/Botania#2721 by @Glease in https://github.com/GTNewHorizons/Botania/pull/35 (1.10.3-GTNH)
 >
 
@@ -629,8 +630,8 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.39-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.39-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.40-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.40-pre
 >## What's Changed
 > * Move the check for item/fluid outputs length in ParallelHelper by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2441 (5.09.45.39-pre)
 > * Canola is a better name than Rapeseed (id is staying the same) by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2443 (5.09.45.39-pre)
