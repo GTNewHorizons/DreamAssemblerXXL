@@ -631,8 +631,8 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.41@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.41
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.42-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.42-pre
 >## What's Changed
 > * Fix massfab by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2468 (5.09.45.41)
 > * Fix void protection of distillation tower with ME output hatches by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2467 (5.09.45.41)
