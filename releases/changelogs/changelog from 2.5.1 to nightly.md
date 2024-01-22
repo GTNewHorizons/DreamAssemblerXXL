@@ -1231,8 +1231,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/NetherPortalFix/pull/1 (1.1.2)
 >
 
-# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.17-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.17-pre
+# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.18-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.18-pre
 >## What's Changed
 > * Allow customizing  Tinker's Construct manuals in dreamcraft by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/794 (2.3.15)
 > * Add Horus planet block recipe by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/790 (2.3.13)
