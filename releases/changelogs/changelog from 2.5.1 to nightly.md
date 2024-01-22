@@ -863,14 +863,16 @@
 > * fix localization to match changes to GalacticCore by @bombcar in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/105 (1.3.0-GTNH)
 >
 
-# Updated GigaGramFab (0.3.9@Side.BOTH --> 0.3.12@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.3.8...0.3.12
+# Updated GigaGramFab (0.3.9@Side.BOTH --> 0.3.13-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.3.8...0.3.13-pre
 >## What's Changed
+> * Fix fluidtank capacity of tool casting machines  by @HoleFish in https://github.com/GTNewHorizons/GigaGramFab/pull/33 (0.3.13-pre)
 > * Fix fluidtank capacity of tool casting machines  by @HoleFish in https://github.com/GTNewHorizons/GigaGramFab/pull/33 (0.3.12)
 > * reset cache more often and sort hatches less often by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/31 (0.3.11)
 > * Removed Debug Recipe of Pump by @LewisSaber in https://github.com/GTNewHorizons/GigaGramFab/pull/27 (0.3.9)
 >
 >## New Contributors
+> * @HoleFish made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/33 (0.3.13-pre)
 > * @HoleFish made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/33 (0.3.12)
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/27 (0.3.9)
 >

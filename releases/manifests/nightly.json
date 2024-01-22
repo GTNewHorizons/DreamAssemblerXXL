@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-01-22T18:48:18.334235",
+  "last_updated": "2024-01-22T20:42:37.423004",
   "config": "2.6.0-nightly-2024-01-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -729,7 +729,7 @@
       "side": "CLIENT"
     },
     "GigaGramFab": {
-      "version": "0.3.12",
+      "version": "0.3.13-pre",
       "side": "BOTH"
     },
     "NotEnoughIds": {
