@@ -926,8 +926,6 @@
 > * Angelica Compat by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/297 (2.4.3)
 > * Completely hide realms button and make mods button wider to fill the gap by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/296 (2.4.2)
 > * Add Disable Realms Button Mixin by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/294 (2.4.1)
-> * Add Disable Realms Button Mixin by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/294 (2.4.1)
-> * Player Skin Fetching Fix part 2 by @kumquat-ir in https://github.com/GTNewHorizons/Hodgepodge/pull/293 (2.4.0)
 > * Player Skin Fetching Fix part 2 by @kumquat-ir in https://github.com/GTNewHorizons/Hodgepodge/pull/293 (2.4.0)
 >
 >## New Contributors
