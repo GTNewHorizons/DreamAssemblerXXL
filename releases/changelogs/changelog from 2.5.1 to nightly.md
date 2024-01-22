@@ -425,9 +425,10 @@
 > * weeds by @bombcar in https://github.com/GTNewHorizons/CropLoadCore/pull/8 (0.1.10)
 >
 
-# Updated Crops-plus-plus (1.5.12@Side.BOTH --> 1.6.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.5.11...1.6.2
+# Updated Crops-plus-plus (1.5.12@Side.BOTH --> 1.6.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.5.11...1.6.3
 >## What's Changed
+> * Just textures by @Minepolz320 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/65 (1.6.3)
 > * Fix Potions by @glowredman in https://github.com/GTNewHorizons/Crops-plus-plus/pull/63 (1.6.1)
 > * Fix incorrect cactus drop. by @C0bra5 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/64 (1.6.0)
 > * add back Space Flower uum recipe by @Dream-Master in https://github.com/GTNewHorizons/Crops-plus-plus/pull/62 (1.5.12)
@@ -862,16 +863,14 @@
 > * fix localization to match changes to GalacticCore by @bombcar in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/105 (1.3.0-GTNH)
 >
 
-# Updated GigaGramFab (0.3.9@Side.BOTH --> 0.3.13-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.3.8...0.3.13-pre
+# Updated GigaGramFab (0.3.9@Side.BOTH --> 0.3.12@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.3.8...0.3.12
 >## What's Changed
-> * Fix fluidtank capacity of tool casting machines  by @HoleFish in https://github.com/GTNewHorizons/GigaGramFab/pull/33 (0.3.13-pre)
 > * Fix fluidtank capacity of tool casting machines  by @HoleFish in https://github.com/GTNewHorizons/GigaGramFab/pull/33 (0.3.12)
 > * reset cache more often and sort hatches less often by @Glease in https://github.com/GTNewHorizons/GigaGramFab/pull/31 (0.3.11)
 > * Removed Debug Recipe of Pump by @LewisSaber in https://github.com/GTNewHorizons/GigaGramFab/pull/27 (0.3.9)
 >
 >## New Contributors
-> * @HoleFish made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/33 (0.3.13-pre)
 > * @HoleFish made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/33 (0.3.12)
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/27 (0.3.9)
 >

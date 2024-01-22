@@ -305,7 +305,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [CraftTweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.3.0 |
 | [CreativeCore](https://github.com/GTNewHorizons/CreativeCore) | 1.4.0-GTNH |
 | [CropLoadCore](https://github.com/GTNewHorizons/CropLoadCore) | 0.2.0 |
-| [Crops-plus-plus](https://github.com/GTNewHorizons/Crops-plus-plus) | 1.6.2 |
+| [Crops-plus-plus](https://github.com/GTNewHorizons/Crops-plus-plus) | 1.6.3 |
 | [Custom-Main-Menu](https://github.com/GTNewHorizons/Custom-Main-Menu) | 1.11.0 |
 | [Default-Configs](https://github.com/GTNewHorizons/Default-Configs) | 1.2.0 |
 | [DefaultServerList](https://github.com/GTNewHorizons/DefaultServerList) | 1.5.0 |
@@ -336,7 +336,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.1.2-GTNH |
 | [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.3.1-GTNH |
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.7.0-GTNH |
-| [GigaGramFab](https://github.com/GTNewHorizons/GigaGramFab) | 0.3.13-pre |
+| [GigaGramFab](https://github.com/GTNewHorizons/GigaGramFab) | 0.3.12 |
 | [GoodGenerator](https://github.com/GTNewHorizons/GoodGenerator) | 0.8.5-pre |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.1.0 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |

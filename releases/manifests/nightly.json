@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-01-22T18:31:05.741476",
+  "last_updated": "2024-01-22T18:48:18.334235",
   "config": "2.6.0-nightly-2024-01-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.6.2",
+      "version": "1.6.3",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -729,7 +729,7 @@
       "side": "CLIENT"
     },
     "GigaGramFab": {
-      "version": "0.3.13-pre",
+      "version": "0.3.12",
       "side": "BOTH"
     },
     "NotEnoughIds": {
