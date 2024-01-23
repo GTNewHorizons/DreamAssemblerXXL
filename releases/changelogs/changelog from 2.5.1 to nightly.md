@@ -881,9 +881,10 @@
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/27 (0.3.9)
 >
 
-# Updated GoodGenerator (0.7.17@Side.BOTH --> 0.8.5-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.16...0.8.5-pre
+# Updated GoodGenerator (0.7.17@Side.BOTH --> 0.8.7-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.16...0.8.7-pre
 >## What's Changed
+> * Convert GG to RA2 by @chochem in https://github.com/GTNewHorizons/GoodGenerator/pull/232 (0.8.6)
 > * [bs] update dependencies by @bombcar in https://github.com/GTNewHorizons/GoodGenerator/pull/231 (0.8.4)
 > * Enable batch mode for component assemblyline by @GDCloudstrike in https://github.com/GTNewHorizons/GoodGenerator/pull/233 (0.8.4)
 > * Compact Fusions support buffer by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/230 (0.8.4)
@@ -1975,8 +1976,8 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/amunra/pull/29 (0.5.0)
 >
 
-# Updated bartworks (0.8.23@Side.BOTH --> 0.9.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.22...0.9.4
+# Updated bartworks (0.8.23@Side.BOTH --> 0.9.5-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.22...0.9.5-pre
 >## What's Changed
 > * update dependencies to fix mutemaster inconsistencies by @bombcar in https://github.com/GTNewHorizons/bartworks/pull/386 (0.9.4)
 > * Fix industry frame and galaxyspace plat block recyling by @chochem in https://github.com/GTNewHorizons/bartworks/pull/385 (0.9.3)

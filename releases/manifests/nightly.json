@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-01-23T07:16:28.263099",
+  "last_updated": "2024-01-23T18:50:38.709417",
   "config": "2.6.0-nightly-2024-01-23",
   "github_mods": {
     "AdventureBackpack2": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.9.4",
+      "version": "0.9.5-pre",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.8.5-pre",
+      "version": "0.8.7-pre",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
