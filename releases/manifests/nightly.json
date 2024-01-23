@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-01-22T22:04:02.453400",
-  "config": "2.6.0-nightly-2024-01-22",
+  "last_updated": "2024-01-23T07:16:28.263099",
+  "config": "2.6.0-nightly-2024-01-23",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.1.1-GTNH",
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.44-pre",
+      "version": "5.09.45.46-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.12.6",
+      "version": "0.12.7",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {

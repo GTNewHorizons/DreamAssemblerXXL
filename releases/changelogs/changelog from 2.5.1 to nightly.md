@@ -636,9 +636,13 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.44-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.44-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.46-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.46-pre
 >## What's Changed
+> * Add Banded Iron EBF processing. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2472 (5.09.45.46-pre)
+> * EBF tooltip by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2471 (5.09.45.46-pre)
+> * Add Banded Iron EBF processing. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2472 (5.09.45.45)
+> * EBF tooltip by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2471 (5.09.45.45)
 > * Remove all usages of GT_ItemStack2 as Set/Map keys by using fastutil by @tth05 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2465 (5.09.45.43)
 > * Fix PA voltage check by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2470 (5.09.45.43)
 > * Fix massfab by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2468 (5.09.45.41)
@@ -751,9 +755,10 @@
 > * Clarify whether item or fluid output is full by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/56 (1.3.0)
 >
 
-# Updated GTNH-Lanthanides (0.11.9@Side.BOTH --> 0.12.6@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.8...0.12.6
+# Updated GTNH-Lanthanides (0.11.9@Side.BOTH --> 0.12.7@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.8...0.12.7
 >## What's Changed
+> * Remove muffler from Dissolution Tank. by @AbdielKavash in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/85 (0.12.7)
 > * Clean-up acetylhydrazine and unsymmetricaldimethylhydrazine by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/83 (0.12.6)
 > * Fix Digester & Dissolution Tank NEI previews by @Lyfts in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/84 (0.12.6)
 > * fix recipe mistake about RarestEarthResidue by @Nxer in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/82 (0.12.4)
@@ -763,6 +768,7 @@
 > * Remove now unneeded IMC handler by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/78 (0.12.0)
 >
 >## New Contributors
+> * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/85 (0.12.7)
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/84 (0.12.6)
 >
 
