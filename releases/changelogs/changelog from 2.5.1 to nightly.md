@@ -213,8 +213,8 @@
 > * @bertcardinaels made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/128 (3.5.4-GTNH)
 >
 
-# Updated Binnie (2.2.4@Side.BOTH --> 2.3.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.2.3...2.3.0
+# Updated Binnie (2.2.4@Side.BOTH --> 2.3.1-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.2.3...2.3.1-pre
 >## What's Changed
 > * Fix double layers tooltip with NEI by @ghostflyby in https://github.com/GTNewHorizons/Binnie/pull/41 (2.2.4)
 >
@@ -521,9 +521,10 @@
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.19)
 >
 
-# Updated EnderIO (2.5.9@Side.BOTH --> 2.6.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.5.8...2.6.3
+# Updated EnderIO (2.5.9@Side.BOTH --> 2.6.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.5.8...2.6.4
 >## What's Changed
+> * Fix Anchor always rendering bug by @TheUnderTaker11 in https://github.com/GTNewHorizons/EnderIO/pull/148 (2.6.4)
 > * add required hard dependency on cofhlib by @bombcar in https://github.com/GTNewHorizons/EnderIO/pull/146 (2.6.3)
 > * exchange existing Item filter icon from newer Ender io version by @Dream-Master in https://github.com/GTNewHorizons/EnderIO/pull/145 (2.6.2)
 > * Staff Of Traveling Keybind Feature by @TheUnderTaker11 in https://github.com/GTNewHorizons/EnderIO/pull/144 (2.6.1)
@@ -636,9 +637,11 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.46-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.46-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.48-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.48-pre
 >## What's Changed
+> * Fix oc calculator by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2474 (5.09.45.48-pre)
+> * Fix oc calculator by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2474 (5.09.45.47)
 > * Add Banded Iron EBF processing. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2472 (5.09.45.46-pre)
 > * EBF tooltip by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2471 (5.09.45.46-pre)
 > * Add Banded Iron EBF processing. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2472 (5.09.45.45)
@@ -918,8 +921,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/HelpFixer/pull/1 (1.1.0)
 >
 
-# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.12@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.12
+# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.13-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.13-pre
 >## What's Changed
 > * update bs+deps by @Dream-Master in https://github.com/GTNewHorizons/Hodgepodge/pull/309 (2.4.12)
 > * Fix some Mipmapping bugs by @UltraHex in https://github.com/GTNewHorizons/Hodgepodge/pull/305 (2.4.12)
@@ -941,14 +944,16 @@
 > * @UltraHex made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/299 (2.4.5)
 >
 
-# Updated HoloInventory (2.3.2-GTNH@Side.BOTH --> 2.4.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.3.0-GTNH...2.4.1-GTNH
+# Updated HoloInventory (2.3.2-GTNH@Side.BOTH --> 2.4.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.3.0-GTNH...2.4.2-GTNH
 >## What's Changed
+> * Reenable glasses config by @makamys in https://github.com/GTNewHorizons/HoloInventory/pull/40 (2.4.2-GTNH)
 > * Fix stack number always showing '1' when renderMultiple=false by @UltraHex in https://github.com/GTNewHorizons/HoloInventory/pull/38 (2.4.0-GTNH)
 > * Make it work with shaders by @UltraHex in https://github.com/GTNewHorizons/HoloInventory/pull/39 (2.4.0-GTNH)
 > * Move GT compat by @miozune in https://github.com/GTNewHorizons/HoloInventory/pull/37 (2.3.2-GTNH)
 >
 >## New Contributors
+> * @makamys made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/40 (2.4.2-GTNH)
 > * @UltraHex made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/38 (2.4.0-GTNH)
 >
 
@@ -1313,12 +1318,14 @@
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/Nuclear-Control/pull/18 (2.6.0)
 >
 
-# Updated Nutrition (0.0.5@Side.BOTH --> 0.0.7-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Nutrition/compare/0.0.4...0.0.7-pre
+# Updated Nutrition (0.0.5@Side.BOTH --> 0.0.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Nutrition/compare/0.0.4...0.0.8
 >## What's Changed
+> * Polish translation (pl_PL) by @Mpcs in https://github.com/GTNewHorizons/Nutrition/pull/13 (0.0.8)
 > * Fix some keybind and gui stuff by @Alexdoru in https://github.com/GTNewHorizons/Nutrition/pull/11 (0.0.5)
 >
 >## New Contributors
+> * @Mpcs made their first contribution in https://github.com/GTNewHorizons/Nutrition/pull/13 (0.0.8)
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Nutrition/pull/11 (0.0.5)
 >
 
@@ -1587,14 +1594,16 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/SpecialMobs/pull/22 (3.5.0)
 >
 
-# Updated SpiceOfLife (2.1.1-carrot@Side.BOTH --> 2.1.6-carrot@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.1.0-carrot...2.1.6-carrot
+# Updated SpiceOfLife (2.1.1-carrot@Side.BOTH --> 2.1.7-carrot@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.1.0-carrot...2.1.7-carrot
 >## What's Changed
+> * Polish translation (pl_PL) by @Mpcs in https://github.com/GTNewHorizons/SpiceOfLife/pull/33 (2.1.7-carrot)
 > * Add a couple more null checks by @Caedis in https://github.com/GTNewHorizons/SpiceOfLife/pull/36 (2.1.6-carrot)
 > * Add null check to food equal check by @Caedis in https://github.com/GTNewHorizons/SpiceOfLife/pull/35 (2.1.4-carrot)
 > * Update buildscript and spotless by @bombcar in https://github.com/GTNewHorizons/SpiceOfLife/pull/31 (2.1.1-carrot)
 >
 >## New Contributors
+> * @Mpcs made their first contribution in https://github.com/GTNewHorizons/SpiceOfLife/pull/33 (2.1.7-carrot)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/SpiceOfLife/pull/35 (2.1.4-carrot)
 >
 
