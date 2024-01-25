@@ -213,9 +213,10 @@
 > * @bertcardinaels made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/128 (3.5.4-GTNH)
 >
 
-# Updated Binnie (2.2.4@Side.BOTH --> 2.3.1-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.2.3...2.3.1-pre
+# Updated Binnie (2.2.4@Side.BOTH --> 2.3.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.2.3...2.3.2
 >## What's Changed
+> * fix no tooltip in some Gui by @ghostflyby in https://github.com/GTNewHorizons/Binnie/pull/42 (2.3.2)
 > * Fix double layers tooltip with NEI by @ghostflyby in https://github.com/GTNewHorizons/Binnie/pull/41 (2.2.4)
 >
 
@@ -637,8 +638,8 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.48-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.48-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.49-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.49-pre
 >## What's Changed
 > * Fix oc calculator by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2474 (5.09.45.48-pre)
 > * Fix oc calculator by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2474 (5.09.45.47)

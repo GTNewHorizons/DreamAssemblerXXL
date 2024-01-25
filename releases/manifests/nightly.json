@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-01-24T18:16:51.584026",
+  "last_updated": "2024-01-25T09:55:48.255187",
   "config": "2.6.0-nightly-2024-01-23",
   "github_mods": {
     "AdventureBackpack2": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.3.1-pre",
+      "version": "2.3.2",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.48-pre",
+      "version": "5.09.45.49-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
