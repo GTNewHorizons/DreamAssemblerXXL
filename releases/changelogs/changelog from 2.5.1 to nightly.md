@@ -1187,9 +1187,10 @@
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/58 (1.1.26)
 >
 
-# Updated MouseTweaks (2.4.9-GTNH@Side.CLIENT --> 2.4.15-GTNH@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.8-GTNH...2.4.15-GTNH
+# Updated MouseTweaks (2.4.9-GTNH@Side.CLIENT --> 2.4.16-GTNH@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.8-GTNH...2.4.16-GTNH
 >## What's Changed
+> * Factor in nbt when transfering items by @Caedis in https://github.com/GTNewHorizons/MouseTweaks/pull/10 (2.4.16-GTNH)
 > * Reset mouse wheel delta when new gui is open by @Caedis in https://github.com/GTNewHorizons/MouseTweaks/pull/9 (2.4.15-GTNH)
 > * Fix issues with importing old configs by @Caedis in https://github.com/GTNewHorizons/MouseTweaks/pull/8 (2.4.14-GTNH)
 > * Swap to GTNHLib config by @Caedis in https://github.com/GTNewHorizons/MouseTweaks/pull/5 (2.4.13-GTNH)
@@ -1296,8 +1297,14 @@
 > * @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/Nodal-Mechanics/pull/7 (1.1.-6-GTNH)
 >
 
-# Updated NotEnoughEnergistics (1.4.6@Side.BOTH --> 1.5.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.4.5...1.5.0
+# Updated NotEnoughEnergistics (1.4.6@Side.BOTH --> 1.5.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.4.5...1.5.1
+>## What's Changed
+> * Change read recipeIndex from GuiRecipe by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/38 (1.5.1)
+>
+>## New Contributors
+> * @slprime made their first contribution in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/38 (1.5.1)
+>
 
 # Updated NotEnoughIds (1.5.3@Side.BOTH --> 1.5.5@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/1.5.2...1.5.5
@@ -1308,8 +1315,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/5 (1.5.3)
 >
 
-# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.10-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.10-GTNH-pre
+# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.11-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.11-GTNH-pre
 >## What's Changed
 > * undo dependencies removal, it's loadbearing by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/449 (2.5.4-GTNH)
 > * Add chat message to chunk overlay key press by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/450 (2.5.1-GTNH)
@@ -1537,9 +1544,11 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Schematica/pull/17 (1.9.4-GTNH)
 >
 
-# New Mod - ServerUtilities (2.0.11@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.11
+# New Mod - ServerUtilities (2.0.14@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.14
 >## What's Changed
+> * Potential fix for disappearing sidebar buttons by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/30 (2.0.14)
+> * Add null check for CommandOverride by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/31 (2.0.12)
 > * Fix for minor command problems by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/26 (2.0.11)
 > * Add config option to have side buttons drawn vertically by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/29 (2.0.11)
 > * Add synced Wiki by @glowredman in https://github.com/GTNewHorizons/ServerUtilities/pull/24 (2.0.9)
@@ -1705,13 +1714,15 @@
 > * @Kiwi233 made their first contribution in https://github.com/GTNewHorizons/Super-TiC/pull/5 (1.2.5)
 >
 
-# Updated TCNEIAdditions (1.2.2@Side.BOTH --> 1.3.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.2.0...1.3.1
+# Updated TCNEIAdditions (1.2.2@Side.BOTH --> 1.3.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.2.0...1.3.2
 >## What's Changed
+> * Move 'open recipes' button by @slprime in https://github.com/GTNewHorizons/TCNEIAdditions/pull/23 (1.3.2)
 > * Fix Version of Thaumcraft NEI Plugin by @glowredman in https://github.com/GTNewHorizons/TCNEIAdditions/pull/22 (1.3.0)
 > * TC Aspects not showing up on bookmarks correctly fix. by @Cardinalstars in https://github.com/GTNewHorizons/TCNEIAdditions/pull/21 (1.2.2)
 >
 >## New Contributors
+> * @slprime made their first contribution in https://github.com/GTNewHorizons/TCNEIAdditions/pull/23 (1.3.2)
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/TCNEIAdditions/pull/22 (1.3.0)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/TCNEIAdditions/pull/21 (1.2.2)
 >
@@ -2030,13 +2041,15 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/gendustry/pull/6 (1.6.5.5-GTNH)
 >
 
-# Updated harvestcraft (1.1.4-GTNH@Side.BOTH --> 1.1.6-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.1.3-GTNH...1.1.6-GTNH
+# Updated harvestcraft (1.1.4-GTNH@Side.BOTH --> 1.1.7-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.1.3-GTNH...1.1.7-GTNH
 >## What's Changed
+> * fix `canPlaceBlockOn` for special planting crops by @Pilzinsel64 in https://github.com/GTNewHorizons/harvestcraft/pull/53 (1.1.7-GTNH)
 > * Translated Havestcraft to Polish by @Mpcs by @kuba6000 in https://github.com/GTNewHorizons/harvestcraft/pull/52 (1.1.6-GTNH)
 > * Added extra flag to register Oven Recipes by @DrParadox7 in https://github.com/GTNewHorizons/harvestcraft/pull/51 (1.1.4-GTNH)
 >
 >## New Contributors
+> * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/harvestcraft/pull/53 (1.1.7-GTNH)
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/harvestcraft/pull/52 (1.1.6-GTNH)
 >
 

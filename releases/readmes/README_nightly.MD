@@ -349,7 +349,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.11.19 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.10.0-GTNH |
-| [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.6-GTNH |
+| [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.7-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.2.0 |
 | [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.4.13-pre |
@@ -387,7 +387,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.10.0 |
 | [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.1.27-pre |
 | [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) | 1.6.21 |
-| [MouseTweaks](https://github.com/GTNewHorizons/MouseTweaks) | 2.4.15-GTNH |
+| [MouseTweaks](https://github.com/GTNewHorizons/MouseTweaks) | 2.4.16-GTNH |
 | [MrTJPCore](https://github.com/GTNewHorizons/MrTJPCore) | 1.1.6 |
 | [MX-Random](https://github.com/GTNewHorizons/MX-Random) | 0.3.0 |
 | [Natura](https://github.com/GTNewHorizons/Natura) | 2.6.0 |
@@ -398,9 +398,9 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.2.0 |
 | [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.3.20-pre |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.2.1-GTNH |
-| [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.5.0 |
+| [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.5.1 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 1.5.5 |
-| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.5.10-GTNH-pre |
+| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.5.11-GTNH-pre |
 | [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.6.1 |
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 0.0.8 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.2.0-GTNH |
@@ -425,7 +425,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Roguelike-Dungeons](https://github.com/GTNewHorizons/Roguelike-Dungeons) | 1.6.0-GTNH |
 | [SC2](https://github.com/GTNewHorizons/SC2) | 2.1.0 |
 | [Schematica](https://github.com/GTNewHorizons/Schematica) | 1.10.0-GTNH |
-| [ServerUtilities](https://github.com/GTNewHorizons/ServerUtilities) | 2.0.11 |
+| [ServerUtilities](https://github.com/GTNewHorizons/ServerUtilities) | 2.0.14 |
 | [SGCraft](https://github.com/GTNewHorizons/SGCraft) | 1.4.0-GTNH |
 | [Share-Where-I-am](https://github.com/GTNewHorizons/Share-Where-I-am) | 2.1.1 |
 | [SleepingBags](https://github.com/GTNewHorizons/SleepingBags) | 0.2.0 |
@@ -444,7 +444,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.1.3 |
 | [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.6.4-GTNH |
 | [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.20 |
-| [TCNEIAdditions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.3.1 |
+| [TCNEIAdditions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.3.2 |
 | [TCNodeTracker](https://github.com/GTNewHorizons/TCNodeTracker) | 1.2.0 |
 | [TecTech](https://github.com/GTNewHorizons/TecTech) | 5.3.28 |
 | [Thaumcraft NEI Plugin](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin) | 1.7a |
