@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-01-25T09:55:48.255187",
-  "config": "2.6.0-nightly-2024-01-23",
+  "last_updated": "2024-01-26T11:33:09.244522",
+  "config": "2.6.0-nightly-2024-01-26",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.1.1-GTNH",
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.3.18-pre",
+      "version": "2.3.20-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -717,11 +717,11 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.1.2",
+      "version": "1.1.3",
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.1.25",
+      "version": "1.1.27-pre",
       "side": "BOTH"
     },
     "TX-Loader": {

@@ -223,9 +223,10 @@
 # Updated BlockLimiter (0.55@Side.BOTH --> 0.6.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/commits/0.55@Side.BOTH...0.6.0@Side.BOTH
 
-# Updated BlockRenderer6343 (1.0.6@Side.BOTH --> 1.1.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.0.5...1.1.2
+# Updated BlockRenderer6343 (1.0.6@Side.BOTH --> 1.1.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.0.5...1.1.3
 >## What's Changed
+> * Remove hard dep on Bartworks by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/10 (1.1.3)
 > * Fix crash when switching tier after projecting a multiblock by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/9 (1.1.1)
 > * Fix preview not showing if multi isn't ISurvivalConstructable by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/8 (1.1.0)
 >
@@ -1176,10 +1177,14 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ModTweaker/pull/5 (0.10.0)
 >
 
-# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.25@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.25
+# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.27-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.27-pre
 >## What's Changed
+> * Add support for scientific notation (2e3 = 2000) and suffixes like k, m, b, ... by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/58 (1.1.26)
 > * Fix for NEID by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/57 (1.1.24)
+>
+>## New Contributors
+> * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/58 (1.1.26)
 >
 
 # Updated MouseTweaks (2.4.9-GTNH@Side.CLIENT --> 2.4.15-GTNH@Side.CLIENT)
@@ -1242,9 +1247,11 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/NetherPortalFix/pull/1 (1.1.2)
 >
 
-# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.18-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.18-pre
+# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.20-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.20-pre
 >## What's Changed
+> * Fix several low-grav recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/795 (2.3.20-pre)
+> * Fix several low-grav recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/795 (2.3.19)
 > * Allow customizing  Tinker's Construct manuals in dreamcraft by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/794 (2.3.15)
 > * Add Horus planet block recipe by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/790 (2.3.13)
 > * Add assembler recipe for fusion coil block by @Pelotrio in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/792 (2.3.13)
