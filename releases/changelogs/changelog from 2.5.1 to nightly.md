@@ -641,9 +641,10 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.51-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.51-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.52-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.52-pre
 >## What's Changed
+> * Fix wrench raytrace crash on server by @ghostflyby in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2477 (5.09.45.52-pre)
 > * Fix large fluid cell Rendering  by @UltraHex in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2476 (5.09.45.50)
 > * Fix oc calculator by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2474 (5.09.45.48-pre)
 > * Fix oc calculator by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2474 (5.09.45.47)
