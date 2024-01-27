@@ -138,13 +138,15 @@
 > * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/Avaritiaddons/pull/10 (1.6.0-GTNH)
 >
 
-# Updated Battlegear2 (1.3.0@Side.BOTH --> 1.3.4-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.2.7...1.3.4-pre
+# Updated Battlegear2 (1.3.0@Side.BOTH --> 1.3.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.2.7...1.3.5
 >## What's Changed
+> * Change to mixin to disable blockpick when in creative and battle mode by @Caedis in https://github.com/GTNewHorizons/Battlegear2/pull/24 (1.3.5)
 > * use MixinClassWriter directly instead of creating a copy of that class by @Alexdoru in https://github.com/GTNewHorizons/Battlegear2/pull/23 (1.3.3)
 > * Small Cleanup by @glowredman in https://github.com/GTNewHorizons/Battlegear2/pull/22 (1.3.0)
 >
 >## New Contributors
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/24 (1.3.5)
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/22 (1.3.0)
 >
 
@@ -1121,8 +1123,8 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/MX-Random/pull/6 (0.2.0)
 >
 
-# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.7-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.7-GTNH-pre
+# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.8-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.8-GTNH-pre
 >## What's Changed
 > * Add GT version checks to avoid crash with GT6 by @kappa-maintainer in https://github.com/GTNewHorizons/MagicBees/pull/36 (2.7.7-GTNH-pre)
 > * fixing the ethereal shard dupe by @Alastors in https://github.com/GTNewHorizons/MagicBees/pull/33 (2.7.1-GTNH)
@@ -1763,8 +1765,8 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
 >
 
-# Updated TecTech (5.3.23@Side.BOTH --> 5.3.28@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.28
+# Updated TecTech (5.3.23@Side.BOTH --> 5.3.29-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.29-pre
 >## What's Changed
 > * Add debug uncertainty by @HoleFish in https://github.com/GTNewHorizons/TecTech/pull/267 (5.3.28)
 > * Change EoH number formatting to standard form by @Connor-Colenso in https://github.com/GTNewHorizons/TecTech/pull/266 (5.3.23)
