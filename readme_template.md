@@ -8,7 +8,7 @@ Version {} is out {}
 
 <p align="justify">
     You are looking at a big progressive kitchensink pack for Minecraft 1.7.10 balanced around the mod GregTech.<BR><BR>
-    Over 8 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with over 3000 quests, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
+    Over 9 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with over 3000 quests, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
     The main intentions of the pack are a long-lasting experience and tying mods together in a progressive fashion, making it feel more like a single game than a compilation of mods thrown together.<BR><BR>
     To reach this goal, GT New Horizons is using the tiers (basically ages of technology) from GregTech and allocates content of other mods to a fitting point within the progression.<BR><BR>
     Starting in the stone age you will barely be able to survive until you get your first steam machines and, eventually, reach electricity. Later on, you will have to visit other planets and dimensions to gather important resources and fight mighty bosses to channel their magical power.<BR><BR>
@@ -147,7 +147,7 @@ Here is our Discord server in case you want to take a look at it:
 ### EU Servers:<BR>
 
 Official EU Server Public (whitelist)<BR>
-http://www.gtnewhorizons.com/ <BR>
+https://www.gtnewhorizons.com/ <BR>
 delta.gtnewhorizons.com<BR>
 epsilon.gtnewhorizons.com<BR>
 eta.gtnewhorizons.com<BR>
@@ -159,9 +159,6 @@ Modded Minecraft Club Falkenstein, Germany (open)<BR>
 https://www.moddedminecraft.club/ <BR>
 gtnh.moddedminecraft.club (Teleport enabled)<BR>
 gtnh-im.moddedminecraft.club (Ironman, no teleport)<BR>
-
-Craftersland
-Craftersland GTNH (EU-DE) gt.craftersland.net<BR>
 
 MineYourMine<BR>
 MineYourMine GTNH (EU) horizons.mineyourmind.net<BR>
@@ -224,8 +221,8 @@ IP: gtnh.114-7.com
 MultiMC Downloads: http://downloads.gtnewhorizons.com/Multi_mc_downloads/ <BR>
 Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387 <BR>
 Curse Link: https://minecraft.curseforge.com/projects/gt-new-horizons <BR>
-Discord Link: https://discord.com/invite/gtnh <BR>
-Forum Link: http://gtnewhorizons.com/ <BR>
+Discord Link: https://discord.gg/EXshrPV <BR>
+Website Link: https://www.gtnewhorizons.com/ <BR>
 WIKI Link: https://gtnh.miraheze.org/wiki/Main_Page
 
 ### Contributing
