@@ -396,14 +396,14 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.4.0 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.15.0 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.2.0 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.3.22-pre |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.3.23-pre |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.2.1-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.5.1 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 1.5.5 |
 | [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.5.11-GTNH-pre |
 | [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.6.1 |
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 0.0.8 |
-| [oauth](https://github.com/GTNewHorizons/oauth) | 1.2.0-GTNH |
+| [oauth](https://github.com/GTNewHorizons/oauth) | 1.2.2-GTNH |
 | [OCGlasses](https://github.com/GTNewHorizons/OCGlasses) | 1.5.0-GTNH |
 | [OpenBlocks](https://github.com/GTNewHorizons/OpenBlocks) | 1.9.1-GTNH |
 | [OpenComputers](https://github.com/GTNewHorizons/OpenComputers) | 1.10.6-GTNH |

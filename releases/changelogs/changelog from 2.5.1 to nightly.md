@@ -1256,9 +1256,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/NetherPortalFix/pull/1 (1.1.2)
 >
 
-# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.22-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.22-pre
+# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.23-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.23-pre
 >## What's Changed
+> * Add Non-Vanilla Dye Support to ZTones Blocks within Assembler by @QuantumBlink1337 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/796 (2.3.23-pre)
 > * Add Non-Vanilla Dye Support to ZTones Blocks within Assembler by @QuantumBlink1337 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/796 (2.3.21)
 > * Fix several low-grav recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/795 (2.3.20-pre)
 > * Fix several low-grav recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/795 (2.3.19)
@@ -1278,6 +1279,7 @@
 > * Add advanced radiation proof plate space assembler recipe by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/777 (2.3.0)
 >
 >## New Contributors
+> * @QuantumBlink1337 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/796 (2.3.23-pre)
 > * @QuantumBlink1337 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/796 (2.3.21)
 > * @YannickMG made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/794 (2.3.15)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/788 (2.3.13)
@@ -2117,8 +2119,8 @@
 > * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/neiaddons/pull/7 (1.13.0)
 >
 
-# Updated oauth (1.06.1-GTNH@Side.CLIENT --> 1.2.0-GTNH@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/oauth/commits/1.06.1-GTNH@Side.CLIENT...1.2.0-GTNH@Side.CLIENT
+# Updated oauth (1.06.1-GTNH@Side.CLIENT --> 1.2.2-GTNH@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/oauth/commits/1.06.1-GTNH@Side.CLIENT...1.2.2-GTNH@Side.CLIENT
 
 # Updated supersolarpanels (1.1.2-GT-NH-Mod@Side.BOTH --> 1.1.3@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/supersolarpanels/compare/1.1.2-GT-NH-Mod...1.1.3
