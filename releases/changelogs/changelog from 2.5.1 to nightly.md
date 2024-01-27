@@ -223,8 +223,8 @@
 # Updated BlockLimiter (0.55@Side.BOTH --> 0.6.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/commits/0.55@Side.BOTH...0.6.0@Side.BOTH
 
-# Updated BlockRenderer6343 (1.0.6@Side.BOTH --> 1.1.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.0.5...1.1.3
+# Updated BlockRenderer6343 (1.0.6@Side.BOTH --> 1.1.4-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.0.5...1.1.4-pre
 >## What's Changed
 > * Remove hard dep on Bartworks by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/10 (1.1.3)
 > * Fix crash when switching tier after projecting a multiblock by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/9 (1.1.1)
@@ -639,9 +639,10 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.49-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.49-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.51-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.51-pre
 >## What's Changed
+> * Fix large fluid cell Rendering  by @UltraHex in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2476 (5.09.45.50)
 > * Fix oc calculator by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2474 (5.09.45.48-pre)
 > * Fix oc calculator by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2474 (5.09.45.47)
 > * Add Banded Iron EBF processing. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2472 (5.09.45.46-pre)
@@ -923,8 +924,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/HelpFixer/pull/1 (1.1.0)
 >
 
-# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.13-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.13-pre
+# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.14-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.14-pre
 >## What's Changed
 > * update bs+deps by @Dream-Master in https://github.com/GTNewHorizons/Hodgepodge/pull/309 (2.4.12)
 > * Fix some Mipmapping bugs by @UltraHex in https://github.com/GTNewHorizons/Hodgepodge/pull/305 (2.4.12)
@@ -1120,10 +1121,14 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/MX-Random/pull/6 (0.2.0)
 >
 
-# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.6-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.6-GTNH-pre
+# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.7-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.7-GTNH-pre
 >## What's Changed
+> * Add GT version checks to avoid crash with GT6 by @kappa-maintainer in https://github.com/GTNewHorizons/MagicBees/pull/36 (2.7.7-GTNH-pre)
 > * fixing the ethereal shard dupe by @Alastors in https://github.com/GTNewHorizons/MagicBees/pull/33 (2.7.1-GTNH)
+>
+>## New Contributors
+> * @kappa-maintainer made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/36 (2.7.7-GTNH-pre)
 >
 
 # Updated MalisisCore (0.14.9@Side.BOTH --> 0.15.0@Side.BOTH)
@@ -1248,9 +1253,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/NetherPortalFix/pull/1 (1.1.2)
 >
 
-# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.20-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.20-pre
+# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.22-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.22-pre
 >## What's Changed
+> * Add Non-Vanilla Dye Support to ZTones Blocks within Assembler by @QuantumBlink1337 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/796 (2.3.21)
 > * Fix several low-grav recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/795 (2.3.20-pre)
 > * Fix several low-grav recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/795 (2.3.19)
 > * Allow customizing  Tinker's Construct manuals in dreamcraft by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/794 (2.3.15)
@@ -1269,6 +1275,7 @@
 > * Add advanced radiation proof plate space assembler recipe by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/777 (2.3.0)
 >
 >## New Contributors
+> * @QuantumBlink1337 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/796 (2.3.21)
 > * @YannickMG made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/794 (2.3.15)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/788 (2.3.13)
 >
@@ -1378,14 +1385,17 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/111 (1.10.0-GTNH)
 >
 
-# Updated OpenModsLib (0.10.6@Side.BOTH --> 0.10.8@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenModsLib/compare/0.10.5...0.10.8
+# Updated OpenModsLib (0.10.6@Side.BOTH --> 0.10.9@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenModsLib/compare/0.10.5...0.10.9
 >## What's Changed
+> * Add a version check to prevent 0.11 from happening by @bombcar in https://github.com/GTNewHorizons/OpenModsLib/pull/7 (0.10.9)
+> * Allow `-pre` and `-snapshot` versions by @glowredman in https://github.com/GTNewHorizons/OpenModsLib/pull/8 (0.10.9)
 > * version warning by @bombcar in https://github.com/GTNewHorizons/OpenModsLib/pull/6 (0.10.8)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/OpenModsLib/pull/5 (0.10.7)
 > * correct transient dependency by @Dream-Master in https://github.com/GTNewHorizons/OpenModsLib/pull/4 (0.10.6)
 >
 >## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/OpenModsLib/pull/8 (0.10.9)
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/OpenModsLib/pull/4 (0.10.6)
 >
 
