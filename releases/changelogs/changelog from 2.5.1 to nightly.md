@@ -1129,8 +1129,8 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/MX-Random/pull/6 (0.2.0)
 >
 
-# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.9-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.9-GTNH
+# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.10-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.10-GTNH-pre
 >## What's Changed
 > * Add Apimancers Drainer by @Quantumlyy in https://github.com/GTNewHorizons/MagicBees/pull/34 (2.7.9-GTNH)
 > * Add GT version checks to avoid crash with GT6 by @kappa-maintainer in https://github.com/GTNewHorizons/MagicBees/pull/36 (2.7.7-GTNH-pre)

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-01-28T10:46:38.768695",
+  "last_updated": "2024-01-28T10:57:48.528098",
   "config": "2.6.0-nightly-2024-01-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.7.9-GTNH",
+      "version": "2.7.10-GTNH-pre",
       "side": "BOTH"
     },
     "MalisisCore": {
