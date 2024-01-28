@@ -641,9 +641,14 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.52-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.52-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.54-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.54-pre
 >## What's Changed
+> * Fix wrench raytrace crash on server by @ghostflyby in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2477 (5.09.45.53)
+> * Change chain spraying to only chain to the same kind of item by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2478 (5.09.45.53)
+> * GT Tool Fixes and ore balance config by @Minepolz320 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2453 (5.09.45.53)
+> * Fix DTPF not consuming energy by @S4mpsa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2479 (5.09.45.53)
+> * Fix nano forge nei preview by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2475 (5.09.45.53)
 > * Fix wrench raytrace crash on server by @ghostflyby in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2477 (5.09.45.52-pre)
 > * Fix large fluid cell Rendering  by @UltraHex in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2476 (5.09.45.50)
 > * Fix oc calculator by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2474 (5.09.45.48-pre)
@@ -1124,13 +1129,15 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/MX-Random/pull/6 (0.2.0)
 >
 
-# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.8-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.8-GTNH-pre
+# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.9-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.9-GTNH
 >## What's Changed
+> * Add Apimancers Drainer by @Quantumlyy in https://github.com/GTNewHorizons/MagicBees/pull/34 (2.7.9-GTNH)
 > * Add GT version checks to avoid crash with GT6 by @kappa-maintainer in https://github.com/GTNewHorizons/MagicBees/pull/36 (2.7.7-GTNH-pre)
 > * fixing the ethereal shard dupe by @Alastors in https://github.com/GTNewHorizons/MagicBees/pull/33 (2.7.1-GTNH)
 >
 >## New Contributors
+> * @Quantumlyy made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/34 (2.7.9-GTNH)
 > * @kappa-maintainer made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/36 (2.7.7-GTNH-pre)
 >
 
@@ -1256,9 +1263,11 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/NetherPortalFix/pull/1 (1.1.2)
 >
 
-# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.23-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.23-pre
+# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.25-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.25-pre
 >## What's Changed
+> * Add Apiamancer's Drainer recipe by @Quantumlyy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/786 (2.3.25-pre)
+> * Add Apiamancer's Drainer recipe by @Quantumlyy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/786 (2.3.24)
 > * Add Non-Vanilla Dye Support to ZTones Blocks within Assembler by @QuantumBlink1337 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/796 (2.3.23-pre)
 > * Add Non-Vanilla Dye Support to ZTones Blocks within Assembler by @QuantumBlink1337 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/796 (2.3.21)
 > * Fix several low-grav recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/795 (2.3.20-pre)
@@ -1279,6 +1288,8 @@
 > * Add advanced radiation proof plate space assembler recipe by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/777 (2.3.0)
 >
 >## New Contributors
+> * @Quantumlyy made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/786 (2.3.25-pre)
+> * @Quantumlyy made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/786 (2.3.24)
 > * @QuantumBlink1337 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/796 (2.3.23-pre)
 > * @QuantumBlink1337 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/796 (2.3.21)
 > * @YannickMG made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/794 (2.3.15)
