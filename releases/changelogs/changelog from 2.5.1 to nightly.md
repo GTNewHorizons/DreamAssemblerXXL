@@ -208,8 +208,8 @@
 > * Rewrite Net code, add dual interface compat by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/32 (1.1.20)
 >
 
-# Updated BetterQuesting (3.4.7-GTNH@Side.BOTH --> 3.5.4-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.4.6-GTNH...3.5.4-GTNH
+# Updated BetterQuesting (3.4.7-GTNH@Side.BOTH --> 3.5.5-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.4.6-GTNH...3.5.5-GTNH-pre
 >## What's Changed
 > * unrestrictAdminCommands Config Option by @bertcardinaels in https://github.com/GTNewHorizons/BetterQuesting/pull/128 (3.5.4-GTNH)
 > * Fix quest completion notification causing black screen by @Lyfts in https://github.com/GTNewHorizons/BetterQuesting/pull/126 (3.5.3-GTNH)

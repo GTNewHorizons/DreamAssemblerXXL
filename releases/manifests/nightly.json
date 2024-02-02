@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-02T14:50:20.821957",
+  "last_updated": "2024-02-02T14:53:56.648657",
   "config": "2.6.0-nightly-2024-02-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.5.4-GTNH",
+      "version": "3.5.5-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
