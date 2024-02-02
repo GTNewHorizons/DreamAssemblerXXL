@@ -3,9 +3,10 @@
 > * Tinkers-Defense
 # Mods Removed:
 > * Tinkers' Defense
-# Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.15-gtnh-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.15-gtnh-pre
+# Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.16-gtnh-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.16-gtnh-pre
 >## What's Changed
+> * Use GT and ae2f fluids in ME inputs/outputs and storag by @slprime in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/191 (1.2.16-gtnh-pre)
 > * Adding fluids to sticky card by @Cardinalstars in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/190 (1.2.14-gtnh-pre)
 > * Adding fluids to sticky card by @Cardinalstars in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/190 (1.2.13-gtnh)
 > * hold the shift to stop sort items by @asdflj in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/188 (1.2.9-gtnh-pre)
@@ -20,6 +21,7 @@
 > * Correct `stackSize` z order by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/178 (1.2.0-gtnh)
 >
 >## New Contributors
+> * @slprime made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/191 (1.2.16-gtnh-pre)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/190 (1.2.14-gtnh-pre)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/190 (1.2.13-gtnh)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/187 (1.2.7-gtnh)
@@ -100,13 +102,15 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
 >
 
-# Updated ArchitectureCraft (1.8.6@Side.BOTH --> 1.9.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.8.5...1.9.0
+# Updated ArchitectureCraft (1.8.6@Side.BOTH --> 1.9.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.8.5...1.9.1
 >## What's Changed
+> * Add localization for Shapes and ShapePages and add UI color customization by @Flanisch in https://github.com/GTNewHorizons/ArchitectureCraft/pull/13 (1.9.1)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/ArchitectureCraft/pull/11 (1.9.0)
 > * Fixes to Shift Click Behavior in the Sawbench by @Superfrogman98 in https://github.com/GTNewHorizons/ArchitectureCraft/pull/10 (1.8.6)
 >
 >## New Contributors
+> * @Flanisch made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/13 (1.9.1)
 > * @Superfrogman98 made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/10 (1.8.6)
 >
 
@@ -648,9 +652,10 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.57@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.57
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.58@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.58
 >## What's Changed
+> * fix divide by zero exception by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2486 (5.09.45.58)
 > * Add hatch tier tooltips for several ME hatches by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2482 (5.09.45.57)
 > * fix PCB by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2483 (5.09.45.57)
 > * Fix charcoal igniter tooltip by @RitumsC in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2484 (5.09.45.57)
@@ -811,9 +816,10 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/16 (1.3.1)
 >
 
-# Updated GTNHLib (0.0.13@Side.BOTH --> 0.2.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.0.12...0.2.2
+# Updated GTNHLib (0.0.13@Side.BOTH --> 0.2.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.0.12...0.2.3
 >## What's Changed
+> * Be more accepting; also stop using Tags for modid/name by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/27 (0.2.3)
 > * Handle multiple config classes by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/25 (0.2.2)
 > * Add fastutil to dependencies.gradle by @tth05 in https://github.com/GTNewHorizons/GTNHLib/pull/24 (0.2.1)
 > * Port configs from Angelica/ArchaicFix by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/23 (0.2.0)
@@ -946,8 +952,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/HelpFixer/pull/1 (1.1.0)
 >
 
-# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.20-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.20-pre
+# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.21-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.21-pre
 >## What's Changed
 > * Use gtnhlib config by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/313 (2.4.19)
 > * Significantly reduce the number of ChunkCoordIntPair allocations by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/312 (2.4.19)
@@ -1149,9 +1155,10 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/MX-Random/pull/6 (0.2.0)
 >
 
-# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.12-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.12-GTNH
+# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.13-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.13-GTNH
 >## What's Changed
+> * Fixed Thaumonomicon pages references by @AnrDaemon in https://github.com/GTNewHorizons/MagicBees/pull/39 (2.7.13-GTNH)
 > * Update ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/MagicBees/pull/35 (2.7.11-GTNH)
 > * Add Thaumic Energistics support to the Apimancers drainer by @Quantumlyy in https://github.com/GTNewHorizons/MagicBees/pull/37 (2.7.11-GTNH)
 > * Add Apimancers Drainer by @Quantumlyy in https://github.com/GTNewHorizons/MagicBees/pull/34 (2.7.9-GTNH)
@@ -1159,6 +1166,7 @@
 > * fixing the ethereal shard dupe by @Alastors in https://github.com/GTNewHorizons/MagicBees/pull/33 (2.7.1-GTNH)
 >
 >## New Contributors
+> * @AnrDaemon made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/39 (2.7.13-GTNH)
 > * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/35 (2.7.11-GTNH)
 > * @Quantumlyy made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/34 (2.7.9-GTNH)
 > * @kappa-maintainer made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/36 (2.7.7-GTNH-pre)
@@ -1215,8 +1223,8 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ModTweaker/pull/5 (0.10.0)
 >
 
-# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.27-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.27-pre
+# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.28-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.28-pre
 >## What's Changed
 > * Add support for scientific notation (2e3 = 2000) and suffixes like k, m, b, ... by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/58 (1.1.26)
 > * Fix for NEID by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/57 (1.1.24)
@@ -1361,8 +1369,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/5 (1.5.3)
 >
 
-# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.13-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.13-GTNH-pre
+# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.14-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.14-GTNH-pre
 >## What's Changed
 > * undo dependencies removal, it's loadbearing by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/449 (2.5.4-GTNH)
 > * Add chat message to chunk overlay key press by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/450 (2.5.1-GTNH)
@@ -2096,9 +2104,10 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/gendustry/pull/6 (1.6.5.5-GTNH)
 >
 
-# Updated harvestcraft (1.1.4-GTNH@Side.BOTH --> 1.1.7-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.1.3-GTNH...1.1.7-GTNH
+# Updated harvestcraft (1.1.4-GTNH@Side.BOTH --> 1.1.8-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.1.3-GTNH...1.1.8-GTNH
 >## What's Changed
+> * Apiary: allow automatic insertion of queenbees by @Pilzinsel64 in https://github.com/GTNewHorizons/harvestcraft/pull/54 (1.1.8-GTNH)
 > * fix `canPlaceBlockOn` for special planting crops by @Pilzinsel64 in https://github.com/GTNewHorizons/harvestcraft/pull/53 (1.1.7-GTNH)
 > * Translated Havestcraft to Polish by @Mpcs by @kuba6000 in https://github.com/GTNewHorizons/harvestcraft/pull/52 (1.1.6-GTNH)
 > * Added extra flag to register Oven Recipes by @DrParadox7 in https://github.com/GTNewHorizons/harvestcraft/pull/51 (1.1.4-GTNH)
@@ -2181,8 +2190,8 @@
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/32 (0.2.7)
 >
 
-# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.5-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.5-pre
+# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.6-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.6-pre
 >## What's Changed
 > * Fix hardcoded world height. by @AbdielKavash in https://github.com/GTNewHorizons/twilightforest/pull/37 (2.5.3)
 > * Fix server crash with magic beans by @miozune in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
