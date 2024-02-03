@@ -2206,8 +2206,8 @@
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/32 (0.2.7)
 >
 
-# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.7-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.7-pre
+# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.8-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.8-pre
 >## What's Changed
 > * Fix hardcoded world height. by @AbdielKavash in https://github.com/GTNewHorizons/twilightforest/pull/37 (2.5.3)
 > * Fix server crash with magic beans by @miozune in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
