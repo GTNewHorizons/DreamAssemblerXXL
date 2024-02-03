@@ -76,9 +76,10 @@
 > * `@Local` / `@Share` / `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/AppleCore/pull/28 (3.2.12)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-312-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-312-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-314-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-314-GTNH-pre
 >## What's Changed
+> * Add Version Pattern by @glowredman in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/454 (rv3-beta-313-GTNH)
 > * Use simple array list instead of two maps to manage inventories in NetworkInventoryHandler by @tth05 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/451 (rv3-beta-312-GTNH)
 > * [bs] fix buildscripts for jenkins by @bombcar in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/452 (rv3-beta-311-GTNH-pre)
 > * Fix incompatibility with rv2-api depending jars like IC2C by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/450 (rv3-beta-311-GTNH-pre)
@@ -208,9 +209,10 @@
 > * Rewrite Net code, add dual interface compat by @firenoo in https://github.com/GTNewHorizons/BetterP2P/pull/32 (1.1.20)
 >
 
-# Updated BetterQuesting (3.4.7-GTNH@Side.BOTH --> 3.5.5-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.4.6-GTNH...3.5.5-GTNH-pre
+# Updated BetterQuesting (3.4.7-GTNH@Side.BOTH --> 3.5.6-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.4.6-GTNH...3.5.6-GTNH
 >## What's Changed
+> * NEI text color customization with lang file by @Flanisch in https://github.com/GTNewHorizons/BetterQuesting/pull/131 (3.5.6-GTNH)
 > * unrestrictAdminCommands Config Option by @bertcardinaels in https://github.com/GTNewHorizons/BetterQuesting/pull/128 (3.5.4-GTNH)
 > * Fix quest completion notification causing black screen by @Lyfts in https://github.com/GTNewHorizons/BetterQuesting/pull/126 (3.5.3-GTNH)
 > * [bs] update buildscript by @bombcar in https://github.com/GTNewHorizons/BetterQuesting/pull/129 (3.5.3-GTNH)
@@ -218,6 +220,7 @@
 > * Fix quest notif hud rendering issue by @Alexdoru in https://github.com/GTNewHorizons/BetterQuesting/pull/124 (3.5.0-GTNH)
 >
 >## New Contributors
+> * @Flanisch made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/131 (3.5.6-GTNH)
 > * @bertcardinaels made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/128 (3.5.4-GTNH)
 >
 
@@ -652,9 +655,10 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.58@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.58
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.59@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.59
 >## What's Changed
+> * Fix EBF tooltip by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2487 (5.09.45.59)
 > * fix divide by zero exception by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2486 (5.09.45.58)
 > * Add hatch tier tooltips for several ME hatches by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2482 (5.09.45.57)
 > * fix PCB by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2483 (5.09.45.57)
@@ -1369,8 +1373,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/5 (1.5.3)
 >
 
-# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.14-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.14-GTNH-pre
+# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.15-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.15-GTNH-pre
 >## What's Changed
 > * undo dependencies removal, it's loadbearing by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/449 (2.5.4-GTNH)
 > * Add chat message to chunk overlay key press by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/450 (2.5.1-GTNH)
@@ -1834,8 +1838,14 @@
 > * @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/ThaumcraftMobAspects/pull/1 (1.0.0-GTNH)
 >
 
-# Updated ThaumicBases (1.5.6@Side.BOTH --> 1.6.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.5.5...1.6.0
+# Updated ThaumicBases (1.5.6@Side.BOTH --> 1.6.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.5.5...1.6.1
+>## What's Changed
+> * Update ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/ThaumicBases/pull/27 (1.6.1)
+>
+>## New Contributors
+> * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/27 (1.6.1)
+>
 
 # Updated ThaumicBoots (1.1.0@Side.BOTH --> 1.1.2@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/0.2.1...1.1.2
@@ -2067,9 +2077,12 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/amunra/pull/29 (0.5.0)
 >
 
-# Updated bartworks (0.8.23@Side.BOTH --> 0.9.5-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.22...0.9.5-pre
+# Updated bartworks (0.8.23@Side.BOTH --> 0.9.7@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.22...0.9.7
 >## What's Changed
+> * Fix MBF tooltip by @chochem in https://github.com/GTNewHorizons/bartworks/pull/388 (0.9.7)
+> * Apply the multiplier of the bacterial vat with a new method by @HoleFish in https://github.com/GTNewHorizons/bartworks/pull/387 (0.9.7)
+> * Fix MBF tooltip by @chochem in https://github.com/GTNewHorizons/bartworks/pull/388 (0.9.6-pre)
 > * update dependencies to fix mutemaster inconsistencies by @bombcar in https://github.com/GTNewHorizons/bartworks/pull/386 (0.9.4)
 > * Fix industry frame and galaxyspace plat block recyling by @chochem in https://github.com/GTNewHorizons/bartworks/pull/385 (0.9.3)
 > * Fix painted low power laser converter explosion by @antropod in https://github.com/GTNewHorizons/bartworks/pull/383 (0.9.2)
@@ -2078,6 +2091,7 @@
 > * Allow Mega Oil Cracker to use an input bus for programmed circuit automation. by @AbdielKavash in https://github.com/GTNewHorizons/bartworks/pull/382 (0.9.0)
 >
 >## New Contributors
+> * @HoleFish made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/387 (0.9.7)
 > * @antropod made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/383 (0.9.2)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/bartworks/pull/382 (0.9.0)
 >
@@ -2104,15 +2118,17 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/gendustry/pull/6 (1.6.5.5-GTNH)
 >
 
-# Updated harvestcraft (1.1.4-GTNH@Side.BOTH --> 1.1.8-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.1.3-GTNH...1.1.8-GTNH
+# Updated harvestcraft (1.1.4-GTNH@Side.BOTH --> 1.1.9-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.1.3-GTNH...1.1.9-GTNH
 >## What's Changed
+> * Add NetherGarden to NEI by @slprime in https://github.com/GTNewHorizons/harvestcraft/pull/56 (1.1.9-GTNH)
 > * Apiary: allow automatic insertion of queenbees by @Pilzinsel64 in https://github.com/GTNewHorizons/harvestcraft/pull/54 (1.1.8-GTNH)
 > * fix `canPlaceBlockOn` for special planting crops by @Pilzinsel64 in https://github.com/GTNewHorizons/harvestcraft/pull/53 (1.1.7-GTNH)
 > * Translated Havestcraft to Polish by @Mpcs by @kuba6000 in https://github.com/GTNewHorizons/harvestcraft/pull/52 (1.1.6-GTNH)
 > * Added extra flag to register Oven Recipes by @DrParadox7 in https://github.com/GTNewHorizons/harvestcraft/pull/51 (1.1.4-GTNH)
 >
 >## New Contributors
+> * @slprime made their first contribution in https://github.com/GTNewHorizons/harvestcraft/pull/56 (1.1.9-GTNH)
 > * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/harvestcraft/pull/53 (1.1.7-GTNH)
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/harvestcraft/pull/52 (1.1.6-GTNH)
 >
@@ -2190,8 +2206,8 @@
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/32 (0.2.7)
 >
 
-# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.6-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.6-pre
+# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.7-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.7-pre
 >## What's Changed
 > * Fix hardcoded world height. by @AbdielKavash in https://github.com/GTNewHorizons/twilightforest/pull/37 (2.5.3)
 > * Fix server crash with magic beans by @miozune in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
