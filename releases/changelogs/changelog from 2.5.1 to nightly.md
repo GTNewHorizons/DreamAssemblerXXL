@@ -1373,8 +1373,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/5 (1.5.3)
 >
 
-# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.15-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.15-GTNH-pre
+# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.16-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.16-GTNH-pre
 >## What's Changed
 > * undo dependencies removal, it's loadbearing by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/449 (2.5.4-GTNH)
 > * Add chat message to chunk overlay key press by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/450 (2.5.1-GTNH)
