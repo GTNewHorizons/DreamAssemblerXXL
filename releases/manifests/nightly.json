@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-03T17:00:02.729959",
+  "last_updated": "2024-02-04T14:27:42.933475",
   "config": "2.6.0-nightly-2024-02-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.59",
+      "version": "5.09.45.60",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.7.13-GTNH",
+      "version": "2.7.14-GTNH",
       "side": "BOTH"
     },
     "MalisisCore": {
@@ -441,7 +441,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.5.16-GTNH-pre",
+      "version": "2.5.17-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -657,7 +657,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.5.8-pre",
+      "version": "2.5.11-pre",
       "side": "BOTH"
     },
     "Universal-Singularities": {

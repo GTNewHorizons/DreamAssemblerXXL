@@ -655,9 +655,10 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.59@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.59
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.60@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.60
 >## What's Changed
+> * Refactor Packet Handling for MuTEs by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2485 (5.09.45.60)
 > * Fix EBF tooltip by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2487 (5.09.45.59)
 > * fix divide by zero exception by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2486 (5.09.45.58)
 > * Add hatch tier tooltips for several ME hatches by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2482 (5.09.45.57)
@@ -1159,9 +1160,10 @@
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/MX-Random/pull/6 (0.2.0)
 >
 
-# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.13-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.13-GTNH
+# Updated MagicBees (2.7.1-GTNH@Side.BOTH --> 2.7.14-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.7.0-GTNH...2.7.14-GTNH
 >## What's Changed
+> * Update ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/MagicBees/pull/38 (2.7.14-GTNH)
 > * Fixed Thaumonomicon pages references by @AnrDaemon in https://github.com/GTNewHorizons/MagicBees/pull/39 (2.7.13-GTNH)
 > * Update ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/MagicBees/pull/35 (2.7.11-GTNH)
 > * Add Thaumic Energistics support to the Apimancers drainer by @Quantumlyy in https://github.com/GTNewHorizons/MagicBees/pull/37 (2.7.11-GTNH)
@@ -1373,9 +1375,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/5 (1.5.3)
 >
 
-# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.16-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.16-GTNH-pre
+# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.17-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.17-GTNH
 >## What's Changed
+> * Create Bookmarks Groups; Search Recipe by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/451 (2.5.17-GTNH)
 > * undo dependencies removal, it's loadbearing by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/449 (2.5.4-GTNH)
 > * Add chat message to chunk overlay key press by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/450 (2.5.1-GTNH)
 > * Update bs and dependencies by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/447 (2.5.0-GTNH)
@@ -2206,8 +2209,8 @@
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/32 (0.2.7)
 >
 
-# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.8-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.8-pre
+# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.11-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.11-pre
 >## What's Changed
 > * Fix hardcoded world height. by @AbdielKavash in https://github.com/GTNewHorizons/twilightforest/pull/37 (2.5.3)
 > * Fix server crash with magic beans by @miozune in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
