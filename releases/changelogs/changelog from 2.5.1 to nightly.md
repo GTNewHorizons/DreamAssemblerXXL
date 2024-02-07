@@ -1,4 +1,5 @@
 # New Mods:
+> * Archaicfix
 > * CoreTweaks
 > * ServerUtilities
 > * Tinkers-Defense
