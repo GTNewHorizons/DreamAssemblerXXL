@@ -78,9 +78,11 @@
 > * `@Local` / `@Share` / `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/AppleCore/pull/28 (3.2.12)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-314-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-314-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-316-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-316-GTNH-pre
 >## What's Changed
+> * Removing the need for removal of Applied Energistics-2 recipes in NewHorizonsCoreMod by @Cardinalstars in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/453 (rv3-beta-316-GTNH-pre)
+> * Removing the need for removal of Applied Energistics-2 recipes in NewHorizonsCoreMod by @Cardinalstars in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/453 (rv3-beta-315-GTNH)
 > * Add Version Pattern by @glowredman in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/454 (rv3-beta-313-GTNH)
 > * Use simple array list instead of two maps to manage inventories in NetworkInventoryHandler by @tth05 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/451 (rv3-beta-312-GTNH)
 > * [bs] fix buildscripts for jenkins by @bombcar in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/452 (rv3-beta-311-GTNH-pre)
@@ -524,8 +526,8 @@
 > * Add WoodenBrickForm to gadgets by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/14 (1.1.7)
 >
 
-# Updated Electro-Magic-Tools (1.3.8@Side.BOTH --> 1.4.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.3.7...1.4.1
+# Updated Electro-Magic-Tools (1.3.8@Side.BOTH --> 1.4.2-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.3.7...1.4.2-pre
 >## What's Changed
 > * Convert EMT to RA2 by @chochem in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/70 (1.4.1)
 >
@@ -657,9 +659,10 @@
 # Updated Forgelin (1.9.7-GTNH@Side.BOTH --> 1.9.8-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.9.6-GTNH...1.9.8-GTNH
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.60@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.60
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.61@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.61
 >## What's Changed
+> * Fix dimethylbenzene names by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2488 (5.09.45.61)
 > * Refactor Packet Handling for MuTEs by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2485 (5.09.45.60)
 > * Fix EBF tooltip by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2487 (5.09.45.59)
 > * fix divide by zero exception by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2486 (5.09.45.58)
@@ -838,8 +841,8 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
 
-# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.20-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.20-pre
+# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.21-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.21-pre
 >## What's Changed
 > * Fix QFT by @HoleFish in https://github.com/GTNewHorizons/GTplusplus/pull/829 (1.11.19)
 > * Fix broken gas in 2 recipes by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/830 (1.11.19)
@@ -920,8 +923,8 @@
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/27 (0.3.9)
 >
 
-# Updated GoodGenerator (0.7.17@Side.BOTH --> 0.8.8-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.16...0.8.8-pre
+# Updated GoodGenerator (0.7.17@Side.BOTH --> 0.8.9-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.16...0.8.9-pre
 >## What's Changed
 > * Convert GG to RA2 by @chochem in https://github.com/GTNewHorizons/GoodGenerator/pull/232 (0.8.6)
 > * [bs] update dependencies by @bombcar in https://github.com/GTNewHorizons/GoodGenerator/pull/231 (0.8.4)
@@ -959,8 +962,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/HelpFixer/pull/1 (1.1.0)
 >
 
-# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.21-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.21-pre
+# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.22-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.22-pre
 >## What's Changed
 > * Use gtnhlib config by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/313 (2.4.19)
 > * Significantly reduce the number of ChunkCoordIntPair allocations by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/312 (2.4.19)
@@ -1368,9 +1371,10 @@
 > * @slprime made their first contribution in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/38 (1.5.1)
 >
 
-# Updated NotEnoughIds (1.5.3@Side.BOTH --> 1.5.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/1.5.2...1.5.5
+# Updated NotEnoughIds (1.5.3@Side.BOTH --> 1.5.7-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/1.5.2...1.5.7-pre
 >## What's Changed
+> * Add curseforge and modrinth project IDs by @Cleptomania in https://github.com/GTNewHorizons/NotEnoughIds/pull/8 (1.5.6)
 > * Small code changes by @Alexdoru in https://github.com/GTNewHorizons/NotEnoughIds/pull/5 (1.5.3)
 >
 >## New Contributors
@@ -1502,8 +1506,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/OverloadedArmorBar/pull/3 (1.0.3)
 >
 
-# Updated PersonalSpace (1.0.28@Side.BOTH --> 1.0.29@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.27...1.0.29
+# Updated PersonalSpace (1.0.28@Side.BOTH --> 1.0.30@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.27...1.0.30
 >## What's Changed
 > * Fix the deprecated nightTime setting not removed at config save time by @eigenraven in https://github.com/GTNewHorizons/PersonalSpace/pull/23 (1.0.29)
 >
@@ -1612,9 +1616,10 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Schematica/pull/17 (1.9.4-GTNH)
 >
 
-# New Mod - ServerUtilities (2.0.14@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.14
+# New Mod - ServerUtilities (2.0.17-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.17-pre
 >## What's Changed
+> * Change leaderboard button icon by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/35 (2.0.16)
 > * Potential fix for disappearing sidebar buttons by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/30 (2.0.14)
 > * Add null check for CommandOverride by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/31 (2.0.12)
 > * Fix for minor command problems by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/26 (2.0.11)
@@ -1782,8 +1787,8 @@
 > * @Kiwi233 made their first contribution in https://github.com/GTNewHorizons/Super-TiC/pull/5 (1.2.5)
 >
 
-# Updated TCNEIAdditions (1.2.2@Side.BOTH --> 1.3.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.2.0...1.3.2
+# Updated TCNEIAdditions (1.2.2@Side.BOTH --> 1.3.3-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.2.0...1.3.3-pre
 >## What's Changed
 > * Move 'open recipes' button by @slprime in https://github.com/GTNewHorizons/TCNEIAdditions/pull/23 (1.3.2)
 > * Fix Version of Thaumcraft NEI Plugin by @glowredman in https://github.com/GTNewHorizons/TCNEIAdditions/pull/22 (1.3.0)
@@ -1821,8 +1826,8 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
 >
 
-# Updated TecTech (5.3.23@Side.BOTH --> 5.3.30@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.30
+# Updated TecTech (5.3.23@Side.BOTH --> 5.3.31@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.31
 >## What's Changed
 > * EOH fix by @HoleFish in https://github.com/GTNewHorizons/TecTech/pull/268 (5.3.30)
 > * Add debug uncertainty by @HoleFish in https://github.com/GTNewHorizons/TecTech/pull/267 (5.3.28)
@@ -1852,8 +1857,8 @@
 > * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/27 (1.6.1)
 >
 
-# Updated ThaumicBoots (1.1.0@Side.BOTH --> 1.1.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/0.2.1...1.1.2
+# Updated ThaumicBoots (1.1.0@Side.BOTH --> 1.1.3-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/0.2.1...1.1.3-pre
 >## What's Changed
 > * Fixing the jump glitch by @Alastors in https://github.com/GTNewHorizons/ThaumicBoots/pull/23 (1.1.1)
 > * Seasonal Boots (#20) by @Alastors in https://github.com/GTNewHorizons/ThaumicBoots/pull/21 (1.1.0)
@@ -2123,9 +2128,11 @@
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/gendustry/pull/6 (1.6.5.5-GTNH)
 >
 
-# Updated harvestcraft (1.1.4-GTNH@Side.BOTH --> 1.1.9-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.1.3-GTNH...1.1.9-GTNH
+# Updated harvestcraft (1.1.4-GTNH@Side.BOTH --> 1.1.10-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.1.3-GTNH...1.1.10-GTNH
 >## What's Changed
+> * update german translation by @Pilzinsel64 in https://github.com/GTNewHorizons/harvestcraft/pull/57 (1.1.10-GTNH)
+> * Add Item for BlockPamSink by @Pilzinsel64 in https://github.com/GTNewHorizons/harvestcraft/pull/58 (1.1.10-GTNH)
 > * Add NetherGarden to NEI by @slprime in https://github.com/GTNewHorizons/harvestcraft/pull/56 (1.1.9-GTNH)
 > * Apiary: allow automatic insertion of queenbees by @Pilzinsel64 in https://github.com/GTNewHorizons/harvestcraft/pull/54 (1.1.8-GTNH)
 > * fix `canPlaceBlockOn` for special planting crops by @Pilzinsel64 in https://github.com/GTNewHorizons/harvestcraft/pull/53 (1.1.7-GTNH)
