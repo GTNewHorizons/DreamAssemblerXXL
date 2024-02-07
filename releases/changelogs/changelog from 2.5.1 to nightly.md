@@ -1,4 +1,5 @@
 # New Mods:
+> * CoreTweaks
 > * ServerUtilities
 > * Tinkers-Defense
 # Mods Removed:
