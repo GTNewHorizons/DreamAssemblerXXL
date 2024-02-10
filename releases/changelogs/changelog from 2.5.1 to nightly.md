@@ -1740,11 +1740,15 @@
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/StevesAddons/pull/11 (0.12.3)
 >
 
-# Updated StorageDrawers (1.12.2-GTNH@Side.BOTH --> 1.13.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.12.1-GTNH...1.13.0-GTNH
+# Updated StorageDrawers (1.12.2-GTNH@Side.BOTH --> 1.13.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.12.1-GTNH...1.13.1-GTNH
 >## What's Changed
+> * Allow clearing empty items from locked drawers by @Cleptomania in https://github.com/GTNewHorizons/StorageDrawers/pull/26 (1.13.1-GTNH)
 > * [bs] fix buildscripts for jenkins by @bombcar in https://github.com/GTNewHorizons/StorageDrawers/pull/25 (1.13.0-GTNH)
 > * Fixed dupe bug with breaking of compacting drawer by @OneEyeMaker in https://github.com/GTNewHorizons/StorageDrawers/pull/24 (1.12.2-GTNH)
+>
+>## New Contributors
+> * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/26 (1.13.1-GTNH)
 >
 
 # Updated StorageDrawers-BiomesOPlenty (1.11.17-GTNH@Side.BOTH --> 1.12.0-GTNH@Side.BOTH)

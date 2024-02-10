@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-10T13:52:42.226695",
+  "last_updated": "2024-02-10T14:29:34.151338",
   "config": "2.6.0-nightly-2024-02-10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -549,7 +549,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "1.13.0-GTNH",
+      "version": "1.13.1-GTNH",
       "side": "BOTH"
     },
     "StorageDrawers-BiomesOPlenty": {
@@ -987,7 +987,7 @@
       "side": "BOTH"
     },
     "Archaicfix": {
-      "version": "0.7.0",
+      "version": "0.7.1",
       "side": "BOTH"
     }
   }
