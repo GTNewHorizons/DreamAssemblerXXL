@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-07T07:57:24.136235",
-  "config": "2.6.0-nightly-2024-02-02",
+  "last_updated": "2024-02-10T13:52:42.226695",
+  "config": "2.6.0-nightly-2024-02-10",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.1.1-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-316-GTNH-pre",
+      "version": "rv3-beta-318-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.9.7",
+      "version": "0.9.9",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.5.6-GTNH",
+      "version": "3.5.7-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.8.9-pre",
+      "version": "0.8.10",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.61",
+      "version": "5.09.45.62",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.11.21-pre",
+      "version": "1.11.22",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.4.22-pre",
+      "version": "2.4.23",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.3.25-pre",
+      "version": "2.3.26",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -657,7 +657,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.5.11-pre",
+      "version": "2.5.13-pre",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -665,7 +665,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.2.7-pre",
+      "version": "1.2.8",
       "side": "BOTH"
     },
     "waila": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "NotEnoughIds": {
-      "version": "1.5.7-pre",
+      "version": "2.0.0",
       "side": "BOTH"
     },
     "FloodLights": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "1.5.14",
+      "version": "2.0.0-alpha-3",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
@@ -845,7 +845,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.17-pre",
+      "version": "2.0.20",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
