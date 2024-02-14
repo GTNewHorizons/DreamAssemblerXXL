@@ -6,7 +6,6 @@
 > * Tinkers-Defense
 # Mods Removed:
 > * Tinkers' Defense
-> * neiaddons
 # Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.16-gtnh-pre@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.16-gtnh-pre
 >## What's Changed
@@ -2279,6 +2278,17 @@
 
 # Updated nei-custom-diagram (1.5.14@Side.BOTH --> 1.5.15@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.5.13...1.5.15
+
+# Updated neiaddons (1.13.0@Side.BOTH --> 1.15.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/neiaddons/compare/1.12.22...1.15.0
+>## What's Changed
+> * Fix Version by @glowredman in https://github.com/GTNewHorizons/neiaddons/pull/8 (1.14.0)
+> * Fix Crash for Ex Nihilo addon by @Cleptomania in https://github.com/GTNewHorizons/neiaddons/pull/7 (1.13.0)
+>
+>## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/neiaddons/pull/8 (1.14.0)
+> * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/neiaddons/pull/7 (1.13.0)
+>
 
 # Updated oauth (1.06.1-GTNH@Side.CLIENT --> 1.2.2-GTNH@Side.CLIENT)
 **Full Changelog**: https://github.com/GTNewHorizons/oauth/commits/1.06.1-GTNH@Side.CLIENT...1.2.2-GTNH@Side.CLIENT
