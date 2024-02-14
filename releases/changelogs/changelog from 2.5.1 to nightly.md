@@ -6,6 +6,7 @@
 > * Tinkers-Defense
 # Mods Removed:
 > * Tinkers' Defense
+> * neiaddons
 # Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.16-gtnh-pre@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.16-gtnh-pre
 >## What's Changed
@@ -79,9 +80,10 @@
 > * `@Local` / `@Share` / `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/AppleCore/pull/28 (3.2.12)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-321-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-321-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-323-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-323-GTNH
 >## What's Changed
+> * Remove `compareTo` Override in AECommand by @glowredman in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/462 (rv3-beta-322-GTNH)
 > * Show Fluid Pattern Coord in CraftingCPU Gui by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/458 (rv3-beta-319-GTNH)
 > * Fix path for easy mode recipes by @Pilzinsel64 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/460 (rv3-beta-319-GTNH)
 > * Add variable doubling functionality to the Pattern terminal by @wohaopa in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/455 (rv3-beta-317-GTNH)
@@ -426,13 +428,15 @@
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/CookingForBlockheads/pull/40 (1.2.16-GTNH)
 >
 
-# Updated CraftTweaker (3.2.13@Side.BOTH --> 3.3.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/CraftTweaker/compare/3.2.12...3.3.0
+# Updated CraftTweaker (3.2.13@Side.BOTH --> 3.3.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/CraftTweaker/compare/3.2.12...3.3.1
 >## What's Changed
+> * Fix Implementation of `MCServer$MCCommand.compareTo(Object)` by @glowredman in https://github.com/GTNewHorizons/CraftTweaker/pull/17 (3.3.1)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/CraftTweaker/pull/16 (3.3.0)
 > * Fix missing ModOnly-IC2 annotations by @eigenraven in https://github.com/GTNewHorizons/CraftTweaker/pull/14 (3.2.13)
 >
 >## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/CraftTweaker/pull/17 (3.3.1)
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/CraftTweaker/pull/16 (3.3.0)
 >
 
@@ -676,8 +680,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.64@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.64
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.65-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.65-pre
 >## What's Changed
 > * Wireless Activity Detector; Power On/Off Activity Detector by @slprime in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2490 (5.09.45.64)
 > * Add batch mode to nano forge by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2492 (5.09.45.64)
@@ -820,8 +824,8 @@
 > * Clarify whether item or fluid output is full by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/56 (1.3.0)
 >
 
-# Updated GTNH-Lanthanides (0.11.9@Side.BOTH --> 0.12.8-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.8...0.12.8-pre
+# Updated GTNH-Lanthanides (0.11.9@Side.BOTH --> 0.12.9-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.8...0.12.9-pre
 >## What's Changed
 > * Remove muffler from Dissolution Tank. by @AbdielKavash in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/85 (0.12.7)
 > * Clean-up acetylhydrazine and unsymmetricaldimethylhydrazine by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/83 (0.12.6)
@@ -1182,13 +1186,15 @@
 > * @krashton1 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/26 (1.0.8-GTNH)
 >
 
-# Updated LootGames (2.0.8@Side.BOTH --> 2.1.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.0.6...2.1.0
+# Updated LootGames (2.0.8@Side.BOTH --> 2.1.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.0.6...2.1.1
 >## What's Changed
+> * Remove `compareTo` Override in ProfilingCommand by @glowredman in https://github.com/GTNewHorizons/LootGames/pull/14 (2.1.1)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/LootGames/pull/13 (2.1.0)
 > * Fix java12 crash by @eigenraven in https://github.com/GTNewHorizons/LootGames/pull/12 (2.0.8)
 >
 >## New Contributors
+> * @glowredman made their first contribution in https://github.com/GTNewHorizons/LootGames/pull/14 (2.1.1)
 > * @eigenraven made their first contribution in https://github.com/GTNewHorizons/LootGames/pull/12 (2.0.8)
 >
 
@@ -1629,9 +1635,10 @@
 > * Fix broken terrain gen past -20480 in either X or Z by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/15 (alpha-1.4.0)
 >
 
-# Updated RemoteIO (2.4.8@Side.BOTH --> 2.5.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.4.7...2.5.0
+# Updated RemoteIO (2.4.8@Side.BOTH --> 2.5.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.4.7...2.5.1
 >## What's Changed
+> * Small Fixes by @glowredman in https://github.com/GTNewHorizons/RemoteIO/pull/11 (2.5.1)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/RemoteIO/pull/10 (2.5.0)
 > * Spotless apply for branch update-buildscript for #8 by @github-actions in https://github.com/GTNewHorizons/RemoteIO/pull/9 (2.4.8)
 > * Update Buildscript by @glowredman in https://github.com/GTNewHorizons/RemoteIO/pull/8 (2.4.8)
@@ -1681,9 +1688,10 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Schematica/pull/17 (1.9.4-GTNH)
 >
 
-# New Mod - ServerUtilities (2.0.21-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.21-pre
+# New Mod - ServerUtilities (2.0.22@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.22
 >## What's Changed
+> * Add ability to claim chunks from JourneyMap by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/41 (2.0.22)
 > * Better fix for disappearing buttons by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/40 (2.0.20)
 > * Convert TP warmup countdown to notification by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/38 (2.0.19)
 > * Fix "/backup start" counting as automatic backup when ran from console by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/34 (2.0.18)
@@ -1954,13 +1962,15 @@
 > * Correct name application for Nightmare by @bombcar in https://github.com/GTNewHorizons/ThaumicHorizons/pull/62 (1.5.0)
 >
 
-# Updated ThaumicInventoryScanning (1.0.12-GTNH@Side.BOTH --> 1.1.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicInventoryScanning/compare/1.0.12-GTNH...1.1.0-GTNH
+# Updated ThaumicInventoryScanning (1.0.12-GTNH@Side.BOTH --> 1.1.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicInventoryScanning/compare/1.0.12-GTNH...1.1.1-GTNH
 >## What's Changed
+> * Fix server mod check by @Cleptomania in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/3 (1.1.1-GTNH)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/2 (1.1.0-GTNH)
 > * Update Buildscript by @glowredman in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/1 (1.0.12-GTNH)
 >
 >## New Contributors
+> * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/3 (1.1.1-GTNH)
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/2 (1.1.0-GTNH)
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/1 (1.0.12-GTNH)
 >
@@ -2058,9 +2068,10 @@
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/Universal-Singularities/pull/9 (8.7.0)
 >
 
-# Updated VisualProspecting (1.2.1@Side.BOTH --> 1.2.9@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.2.0...1.2.9
+# Updated VisualProspecting (1.2.1@Side.BOTH --> 1.2.10@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.2.0...1.2.10
 >## What's Changed
+> * Enable layers to do actions outside rendered drawsteps by @Lyfts in https://github.com/GTNewHorizons/VisualProspecting/pull/43 (1.2.10)
 > * Show empty fluid fields on map by @Lyfts in https://github.com/GTNewHorizons/VisualProspecting/pull/42 (1.2.8)
 > * Reposition VP buttons on Xaero's Worldmap by @Caedis in https://github.com/GTNewHorizons/VisualProspecting/pull/41 (1.2.6)
 > * Networking Refactor by @Rune580 in https://github.com/GTNewHorizons/VisualProspecting/pull/40 (1.2.1)
@@ -2242,8 +2253,8 @@
 > * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/12 (6.0.74)
 >
 
-# Updated lwjgl3ify (1.5.7@Side.BOTH_JAVA9 --> 2.0.0-alpha-5@Side.BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.6...2.0.0-alpha-5
+# Updated lwjgl3ify (1.5.7@Side.BOTH_JAVA9 --> 2.0.0-alpha-6@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.6...2.0.0-alpha-6
 >## What's Changed
 > * Fixes Enum Duplication Issue by @KAMKEEL in https://github.com/GTNewHorizons/lwjgl3ify/pull/118 (2.0.0-alpha-3)
 > * Add Config Toggle to Enable / Disable HRTF Bools in OpenAl by @KAMKEEL in https://github.com/GTNewHorizons/lwjgl3ify/pull/119 (2.0.0-alpha-3)
@@ -2268,17 +2279,6 @@
 
 # Updated nei-custom-diagram (1.5.14@Side.BOTH --> 1.5.15@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.5.13...1.5.15
-
-# Updated neiaddons (1.13.0@Side.BOTH --> 1.15.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/neiaddons/compare/1.12.22...1.15.0
->## What's Changed
-> * Fix Version by @glowredman in https://github.com/GTNewHorizons/neiaddons/pull/8 (1.14.0)
-> * Fix Crash for Ex Nihilo addon by @Cleptomania in https://github.com/GTNewHorizons/neiaddons/pull/7 (1.13.0)
->
->## New Contributors
-> * @glowredman made their first contribution in https://github.com/GTNewHorizons/neiaddons/pull/8 (1.14.0)
-> * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/neiaddons/pull/7 (1.13.0)
->
 
 # Updated oauth (1.06.1-GTNH@Side.CLIENT --> 1.2.2-GTNH@Side.CLIENT)
 **Full Changelog**: https://github.com/GTNewHorizons/oauth/commits/1.06.1-GTNH@Side.CLIENT...1.2.2-GTNH@Side.CLIENT
