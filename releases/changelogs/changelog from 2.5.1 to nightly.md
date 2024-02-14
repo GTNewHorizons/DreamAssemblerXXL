@@ -1,6 +1,7 @@
 # New Mods:
 > * Archaicfix
 > * CoreTweaks
+> * NEI-Utilities
 > * ServerUtilities
 > * Tinkers-Defense
 # Mods Removed:
@@ -1323,6 +1324,9 @@
 > * [bs] fix buildscripts for jenkins by @bombcar in https://github.com/GTNewHorizons/NEI-Integration/pull/9 (1.4.0)
 > * Revert disabling Pam's HC integration by default by @DotJason in https://github.com/GTNewHorizons/NEI-Integration/pull/8 (1.3.3)
 >
+
+# New Mod - NEI-Utilities (0.1.10@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NEI-Utilities/commits/0.1.10
 
 # Updated Natura (2.5.7@Side.BOTH --> 2.6.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.5.6...2.6.0

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-14T12:28:02.239207",
+  "last_updated": "2024-02-14T13:30:03.983112",
   "config": "2.6.0-nightly-2024-02-10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -850,6 +850,10 @@
     },
     "Tinkers-Defense": {
       "version": "1.2.2",
+      "side": "BOTH"
+    },
+    "NEI-Utilities": {
+      "version": "0.1.10",
       "side": "BOTH"
     }
   },
