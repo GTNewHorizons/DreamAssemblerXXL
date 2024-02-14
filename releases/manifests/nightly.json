@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-10T14:29:34.151338",
+  "last_updated": "2024-02-14T12:28:02.239207",
   "config": "2.6.0-nightly-2024-02-10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-318-GTNH-pre",
+      "version": "rv3-beta-321-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.9.9",
+      "version": "0.9.10",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -125,7 +125,7 @@
       "side": "BOTH"
     },
     "CarpentersBlocks": {
-      "version": "3.5.1-GTNH",
+      "version": "3.5.2-GTNH-pre",
       "side": "BOTH"
     },
     "Catwalks-2": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.4.2-pre",
+      "version": "1.4.3-pre",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "FindIt": {
-      "version": "1.2.0",
+      "version": "1.2.1-pre",
       "side": "BOTH"
     },
     "ForbiddenMagic": {
@@ -225,11 +225,11 @@
       "side": "BOTH"
     },
     "Forgelin": {
-      "version": "1.9.8-GTNH",
+      "version": "1.9.9-GTNH",
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.4.7",
+      "version": "1.4.8",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.62",
+      "version": "5.09.45.64",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.12.7",
+      "version": "0.12.8-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.11.22",
+      "version": "1.11.23",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,11 +289,11 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.4.23",
+      "version": "2.4.26-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.4.2-GTNH",
+      "version": "2.4.3-GTNH",
       "side": "BOTH"
     },
     "HungerOverhaul": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.3.26",
+      "version": "2.3.27",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -665,7 +665,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.2.8",
+      "version": "1.2.9",
       "side": "BOTH"
     },
     "waila": {
@@ -705,7 +705,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.4.0-GTNH",
+      "version": "1.4.1-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "NotEnoughIds": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "side": "BOTH"
     },
     "FloodLights": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "ForgeRelocation": {
-      "version": "0.1.0",
+      "version": "0.1.1",
       "side": "BOTH"
     },
     "HelpFixer": {
@@ -777,7 +777,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "side": "BOTH"
     },
     "MrTJPCore": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.0.0-alpha-3",
+      "version": "2.0.0-alpha-5",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
@@ -845,7 +845,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.20",
+      "version": "2.0.21-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
