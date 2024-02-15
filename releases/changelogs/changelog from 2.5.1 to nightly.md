@@ -243,8 +243,8 @@
 # Updated BlockLimiter (0.55@Side.BOTH --> 0.6.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/commits/0.55@Side.BOTH...0.6.0@Side.BOTH
 
-# Updated BlockRenderer6343 (1.0.6@Side.BOTH --> 1.1.4-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.0.5...1.1.4-pre
+# Updated BlockRenderer6343 (1.0.6@Side.BOTH --> 1.1.5-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.0.5...1.1.5-pre
 >## What's Changed
 > * Remove hard dep on Bartworks by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/10 (1.1.3)
 > * Fix crash when switching tier after projecting a multiblock by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/9 (1.1.1)
@@ -679,8 +679,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.65-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.65-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.67-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.67-pre
 >## What's Changed
 > * Wireless Activity Detector; Power On/Off Activity Detector by @slprime in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2490 (5.09.45.64)
 > * Add batch mode to nano forge by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2492 (5.09.45.64)
@@ -851,9 +851,10 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/16 (1.3.1)
 >
 
-# Updated GTNHLib (0.0.13@Side.BOTH --> 0.2.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.0.12...0.2.3
+# Updated GTNHLib (0.0.13@Side.BOTH --> 0.2.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.0.12...0.2.4
 >## What's Changed
+> * Shadow JOML by @Cleptomania in https://github.com/GTNewHorizons/GTNHLib/pull/29 (0.2.4)
 > * Be more accepting; also stop using Tags for modid/name by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/27 (0.2.3)
 > * Handle multiple config classes by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/25 (0.2.2)
 > * Add fastutil to dependencies.gradle by @tth05 in https://github.com/GTNewHorizons/GTNHLib/pull/24 (0.2.1)
@@ -861,14 +862,16 @@
 > * Fix broken mod by @chochem in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
 >## New Contributors
+> * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/29 (0.2.4)
 > * @tth05 made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/24 (0.2.1)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/23 (0.2.0)
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
 
-# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.23@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.23
+# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.24@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.24
 >## What's Changed
+> * fix QFT tooltips by @HoleFish in https://github.com/GTNewHorizons/GTplusplus/pull/835 (1.11.24)
 > * Enable perfect OC on the matter fabrication CPU recycler mode by @GDCloudstrike in https://github.com/GTNewHorizons/GTplusplus/pull/834 (1.11.23)
 > * Fix crop harvester stopping after 1 crop if harvesting is off by @Lyfts in https://github.com/GTNewHorizons/GTplusplus/pull/833 (1.11.23)
 > * GT++ Fish Catcher Water Block Check by @bitonality in https://github.com/GTNewHorizons/GTplusplus/pull/818 (1.11.23)
@@ -1451,9 +1454,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/5 (1.5.3)
 >
 
-# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.17-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.17-GTNH
+# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.18-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.18-GTNH
 >## What's Changed
+> * Less StringBuilder allocation nonsense by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/455 (2.5.18-GTNH)
 > * Create Bookmarks Groups; Search Recipe by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/451 (2.5.17-GTNH)
 > * undo dependencies removal, it's loadbearing by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/449 (2.5.4-GTNH)
 > * Add chat message to chunk overlay key press by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/450 (2.5.1-GTNH)
@@ -1634,15 +1638,17 @@
 > * Fix broken terrain gen past -20480 in either X or Z by @Caedis in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/15 (alpha-1.4.0)
 >
 
-# Updated RemoteIO (2.4.8@Side.BOTH --> 2.5.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.4.7...2.5.1
+# Updated RemoteIO (2.4.8@Side.BOTH --> 2.5.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.4.7...2.5.2
 >## What's Changed
+> * Reuse instead of allocate and throwaway by @mitchej123 in https://github.com/GTNewHorizons/RemoteIO/pull/12 (2.5.2)
 > * Small Fixes by @glowredman in https://github.com/GTNewHorizons/RemoteIO/pull/11 (2.5.1)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/RemoteIO/pull/10 (2.5.0)
 > * Spotless apply for branch update-buildscript for #8 by @github-actions in https://github.com/GTNewHorizons/RemoteIO/pull/9 (2.4.8)
 > * Update Buildscript by @glowredman in https://github.com/GTNewHorizons/RemoteIO/pull/8 (2.4.8)
 >
 >## New Contributors
+> * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/RemoteIO/pull/12 (2.5.2)
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/RemoteIO/pull/9 (2.4.8)
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/RemoteIO/pull/8 (2.4.8)
 >
@@ -1667,9 +1673,10 @@
 > * @MuXiu1997 made their first contribution in https://github.com/GTNewHorizons/SC2/pull/3 (2.0.2)
 >
 
-# Updated SGCraft (1.3.13-GTNH@Side.BOTH --> 1.4.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/SGCraft/compare/1.3.12-GTNH...1.4.0-GTNH
+# Updated SGCraft (1.3.13-GTNH@Side.BOTH --> 1.4.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/SGCraft/compare/1.3.12-GTNH...1.4.1-GTNH
 >## What's Changed
+> * Code cleanup by @boubou19 in https://github.com/GTNewHorizons/SGCraft/pull/15 (1.4.1-GTNH)
 > * make sure SGCraft loads after OpenComputer by @bombcar in https://github.com/GTNewHorizons/SGCraft/pull/13 (1.4.0-GTNH)
 > * trace is default somewhere maybe by @bombcar in https://github.com/GTNewHorizons/SGCraft/pull/10 (1.3.13-GTNH)
 > * Make ring/chevron block available as a beacon base by @MadMan310 in https://github.com/GTNewHorizons/SGCraft/pull/11 (1.3.13-GTNH)
@@ -1794,8 +1801,8 @@
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/StevesAddons/pull/11 (0.12.3)
 >
 
-# Updated StorageDrawers (1.12.2-GTNH@Side.BOTH --> 1.13.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.12.1-GTNH...1.13.1-GTNH
+# Updated StorageDrawers (1.12.2-GTNH@Side.BOTH --> 1.13.2-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.12.1-GTNH...1.13.2-GTNH-pre
 >## What's Changed
 > * Allow clearing empty items from locked drawers by @Cleptomania in https://github.com/GTNewHorizons/StorageDrawers/pull/26 (1.13.1-GTNH)
 > * [bs] fix buildscripts for jenkins by @bombcar in https://github.com/GTNewHorizons/StorageDrawers/pull/25 (1.13.0-GTNH)
