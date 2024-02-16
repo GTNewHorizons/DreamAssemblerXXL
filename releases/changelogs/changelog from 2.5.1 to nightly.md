@@ -5,6 +5,7 @@
 > * ServerUtilities
 > * Tinkers-Defense
 # Mods Removed:
+> * MalisisCore
 > * Tinkers' Defense
 # Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.16-gtnh-pre@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.16-gtnh-pre
@@ -527,8 +528,8 @@
 > * @github-actions made their first contribution in https://github.com/GTNewHorizons/DummyCore/pull/4 (1.17.0)
 >
 
-# Updated DuraDisplay (1.1.7@Side.CLIENT --> 1.2.0@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.1.5...1.2.0
+# Updated DuraDisplay (1.1.7@Side.CLIENT --> 1.2.1-pre@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.1.5...1.2.1-pre
 >## What's Changed
 > * Add WoodenBrickForm to gadgets by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/14 (1.1.7)
 >
@@ -679,9 +680,13 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.67-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.67-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.69-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.69-pre
 >## What's Changed
+> * Allow interacting with machines instantly upon placing by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2496 (5.09.45.69-pre)
+> * Assign force fuel value in GT by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2495 (5.09.45.69-pre)
+> * Allow interacting with machines instantly upon placing by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2496 (5.09.45.68)
+> * Assign force fuel value in GT by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2495 (5.09.45.68)
 > * Wireless Activity Detector; Power On/Off Activity Detector by @slprime in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2490 (5.09.45.64)
 > * Add batch mode to nano forge by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2492 (5.09.45.64)
 > * Add godforge materials by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2491 (5.09.45.63)
@@ -868,9 +873,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
 
-# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.24@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.24
+# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.25@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.25
 >## What's Changed
+> * Force properties should be in GT by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/836 (1.11.25)
 > * fix QFT tooltips by @HoleFish in https://github.com/GTNewHorizons/GTplusplus/pull/835 (1.11.24)
 > * Enable perfect OC on the matter fabrication CPU recycler mode by @GDCloudstrike in https://github.com/GTNewHorizons/GTplusplus/pull/834 (1.11.23)
 > * Fix crop harvester stopping after 1 crop if harvesting is off by @Lyfts in https://github.com/GTNewHorizons/GTplusplus/pull/833 (1.11.23)
@@ -1006,9 +1012,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/HelpFixer/pull/1 (1.1.0)
 >
 
-# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.26-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.26-pre
+# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.27-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.27-pre
 >## What's Changed
+> * Spotless apply for branch feat/updateSyncConfig for #330 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/331 (2.4.27-pre)
 > * Spotless apply for branch autosave-interval for #323 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/324 (2.4.26-pre)
 > * Update README.md + required gtnhlib by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/328 (2.4.25)
 > * Fix Class Name Typo in Forge by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/326 (2.4.24)
@@ -1239,17 +1246,14 @@
 > * @kappa-maintainer made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/36 (2.7.7-GTNH-pre)
 >
 
-# Updated MalisisCore (0.14.9@Side.BOTH --> 0.15.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/MalisisCore/compare/0.14.7-GTNH...0.15.0
+# Updated MalisisDoors (1.14.0-GTNH@Side.BOTH --> 1.16.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/MalisisDoors/compare/1.13.8-GTNH...1.16.1-GTNH
 >## What's Changed
-> * Update readme by @miozune in https://github.com/GTNewHorizons/MalisisCore/pull/6 (0.14.9)
+> * Merge Malisis Core directly into Malisis Doors by @Cleptomania in https://github.com/GTNewHorizons/MalisisDoors/pull/9 (1.16.0-GTNH)
 >
 >## New Contributors
-> * @miozune made their first contribution in https://github.com/GTNewHorizons/MalisisCore/pull/6 (0.14.9)
+> * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/MalisisDoors/pull/9 (1.16.0-GTNH)
 >
-
-# Updated MalisisDoors (1.14.0-GTNH@Side.BOTH --> 1.15.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/MalisisDoors/compare/1.13.8-GTNH...1.15.0-GTNH
 
 # Updated Mantle (0.3.7@Side.BOTH --> 0.4.1@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.3.6...0.4.1
@@ -1694,9 +1698,10 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Schematica/pull/17 (1.9.4-GTNH)
 >
 
-# New Mod - ServerUtilities (2.0.22@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.22
+# New Mod - ServerUtilities (2.0.23@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.23
 >## What's Changed
+> * Fix permissions with values above max getting set to default value by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/43 (2.0.23)
 > * Add ability to claim chunks from JourneyMap by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/41 (2.0.22)
 > * Better fix for disappearing buttons by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/40 (2.0.20)
 > * Convert TP warmup countdown to notification by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/38 (2.0.19)
@@ -1801,14 +1806,16 @@
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/StevesAddons/pull/11 (0.12.3)
 >
 
-# Updated StorageDrawers (1.12.2-GTNH@Side.BOTH --> 1.13.2-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.12.1-GTNH...1.13.2-GTNH-pre
+# Updated StorageDrawers (1.12.2-GTNH@Side.BOTH --> 1.13.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/1.12.1-GTNH...1.13.3-GTNH
 >## What's Changed
+> * Fix Waila showing default stack limit when downgraded by @Lyfts in https://github.com/GTNewHorizons/StorageDrawers/pull/27 (1.13.3-GTNH)
 > * Allow clearing empty items from locked drawers by @Cleptomania in https://github.com/GTNewHorizons/StorageDrawers/pull/26 (1.13.1-GTNH)
 > * [bs] fix buildscripts for jenkins by @bombcar in https://github.com/GTNewHorizons/StorageDrawers/pull/25 (1.13.0-GTNH)
 > * Fixed dupe bug with breaking of compacting drawer by @OneEyeMaker in https://github.com/GTNewHorizons/StorageDrawers/pull/24 (1.12.2-GTNH)
 >
 >## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/27 (1.13.3-GTNH)
 > * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/26 (1.13.1-GTNH)
 >
 
