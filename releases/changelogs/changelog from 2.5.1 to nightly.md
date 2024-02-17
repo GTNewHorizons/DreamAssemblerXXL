@@ -251,14 +251,19 @@
 # Updated BlockLimiter (0.55@Side.BOTH --> 0.6.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/commits/0.55@Side.BOTH...0.6.0@Side.BOTH
 
-# Updated BlockRenderer6343 (1.0.6@Side.BOTH --> 1.1.5-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.0.5...1.1.5-pre
+# Updated BlockRenderer6343 (1.0.6@Side.BOTH --> 1.1.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.0.5...1.1.6
 >## What's Changed
+> * Add localization and ability to change UI colors by @Flanisch in https://github.com/GTNewHorizons/BlockRenderer6343/pull/11 (1.1.6)
+> * Add nei overlay button[?] to multiblock preview by @Cyl18 in https://github.com/GTNewHorizons/BlockRenderer6343/pull/13 (1.1.6)
+> * Support mouse middle button in multiblock structure preview by @Cyl18 in https://github.com/GTNewHorizons/BlockRenderer6343/pull/12 (1.1.6)
 > * Remove hard dep on Bartworks by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/10 (1.1.3)
 > * Fix crash when switching tier after projecting a multiblock by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/9 (1.1.1)
 > * Fix preview not showing if multi isn't ISurvivalConstructable by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/8 (1.1.0)
 >
 >## New Contributors
+> * @Flanisch made their first contribution in https://github.com/GTNewHorizons/BlockRenderer6343/pull/11 (1.1.6)
+> * @Cyl18 made their first contribution in https://github.com/GTNewHorizons/BlockRenderer6343/pull/13 (1.1.6)
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/BlockRenderer6343/pull/8 (1.1.0)
 >
 
@@ -691,9 +696,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.70@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.70
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.71@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.71
 >## What's Changed
+> * Fix water bottle fluid exploit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2494 (5.09.45.71)
 > * Change over wireless teams to use SP teams by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2493 (5.09.45.70)
 > * Allow interacting with machines instantly upon placing by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2496 (5.09.45.69-pre)
 > * Assign force fuel value in GT by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2495 (5.09.45.69-pre)
