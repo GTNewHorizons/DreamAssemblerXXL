@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-16T15:53:13.334568",
+  "last_updated": "2024-02-17T10:45:31.866300",
   "config": "2.6.0-nightly-2024-02-10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.2.16-gtnh-pre",
+      "version": "1.2.17-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-323-GTNH",
+      "version": "rv3-beta-324-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.5.7-GTNH-pre",
+      "version": "3.5.8-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.6.5-pre",
+      "version": "2.6.6",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "FindIt": {
-      "version": "1.2.1-pre",
+      "version": "1.2.2",
       "side": "BOTH"
     },
     "ForbiddenMagic": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.69-pre",
+      "version": "5.09.45.70",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.14.3",
+      "version": "0.14.5",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "MalisisDoors": {
-      "version": "1.16.1-GTNH",
+      "version": "1.16.2-GTNH",
       "side": "BOTH"
     },
     "Mantle": {
@@ -577,7 +577,7 @@
       "side": "BOTH"
     },
     "TCNEIAdditions": {
-      "version": "1.3.3-pre",
+      "version": "1.3.4",
       "side": "BOTH"
     },
     "TCNodeTracker": {
@@ -801,11 +801,11 @@
       "side": "BOTH"
     },
     "DuraDisplay": {
-      "version": "1.2.1-pre",
+      "version": "1.2.2",
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.2.3-GTNH",
+      "version": "0.2.4-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
