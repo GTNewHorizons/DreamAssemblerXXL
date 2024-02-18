@@ -407,7 +407,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [OpenBlocks](https://github.com/GTNewHorizons/OpenBlocks) | 1.9.1-GTNH |
 | [OpenComputers](https://github.com/GTNewHorizons/OpenComputers) | 1.10.6-GTNH |
 | [OpenModsLib](https://github.com/GTNewHorizons/OpenModsLib) | 0.10.9 |
-| [OpenModularTurrets](https://github.com/GTNewHorizons/OpenModularTurrets) | 2.3.0 |
+| [OpenModularTurrets](https://github.com/GTNewHorizons/OpenModularTurrets) | 2.3.1 |
 | [OpenPrinter](https://github.com/GTNewHorizons/OpenPrinter) | 0.2.0-GTNH |
 | [OpenSecurity](https://github.com/GTNewHorizons/OpenSecurity) | 1.1.1-GTNH |
 | [Opis](https://github.com/GTNewHorizons/Opis) | 1.4.2-mapless |

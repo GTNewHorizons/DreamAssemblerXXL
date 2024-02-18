@@ -1587,13 +1587,15 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/OpenModsLib/pull/4 (0.10.6)
 >
 
-# Updated OpenModularTurrets (2.2.11-247@Side.BOTH --> 2.3.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.2.11-246...2.3.0
+# Updated OpenModularTurrets (2.2.11-247@Side.BOTH --> 2.3.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.2.11-246...2.3.1
 >## What's Changed
+> * Update Bounding boxes, remove old depdencies by @Keridos in https://github.com/GTNewHorizons/OpenModularTurrets/pull/4 (2.3.1)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/OpenModularTurrets/pull/2 (2.3.0)
 > * whoops by @bombcar in https://github.com/GTNewHorizons/OpenModularTurrets/pull/1 (2.2.11-247)
 >
 >## New Contributors
+> * @Keridos made their first contribution in https://github.com/GTNewHorizons/OpenModularTurrets/pull/4 (2.3.1)
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/OpenModularTurrets/pull/1 (2.2.11-247)
 >
 
