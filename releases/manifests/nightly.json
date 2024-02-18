@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-18T10:05:01.755830",
+  "last_updated": "2024-02-18T21:07:47.740453",
   "config": "2.6.0-nightly-2024-02-18",
   "github_mods": {
     "AdventureBackpack2": {
@@ -33,7 +33,7 @@
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.9.1",
+      "version": "1.9.2",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -181,11 +181,11 @@
       "side": "BOTH"
     },
     "Draconic-Evolution": {
-      "version": "1.3.1-GTNH",
+      "version": "1.3.2-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.4.3-pre",
+      "version": "1.4.4",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "FindIt": {
-      "version": "1.2.2",
+      "version": "1.2.3",
       "side": "BOTH"
     },
     "ForbiddenMagic": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.8.3-pre",
+      "version": "4.8.4",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.12.10-pre",
+      "version": "0.12.11",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.2.4",
+      "version": "0.2.5",
       "side": "BOTH"
     },
     "GTplusplus": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.0.0-alpha-7",
+      "version": "2.0.0-alpha-8",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
@@ -829,7 +829,7 @@
       "side": "BOTH"
     },
     "ThaumicBoots": {
-      "version": "1.1.3-pre",
+      "version": "1.1.3",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
@@ -837,7 +837,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.23",
+      "version": "2.0.25",
       "side": "BOTH"
     },
     "Tinkers-Defense": {

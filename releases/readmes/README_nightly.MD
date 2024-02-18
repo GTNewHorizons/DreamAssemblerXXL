@@ -253,7 +253,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.0 |
 | [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-324-GTNH |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.7.1 |
-| [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.9.1 |
+| [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.9.2 |
 | [Aroma1997Core](https://www.curseforge.com/minecraft/mc-mods/aroma1997core) | 1.0.2.16 |
 | [AromaBackup](https://www.curseforge.com/minecraft/mc-mods/aromabackup) | 0.1.0.0 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.5.5 |
@@ -310,10 +310,10 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [DefaultServerList](https://github.com/GTNewHorizons/DefaultServerList) | 1.5.0 |
 | [DefaultWorldGenerator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.3.0 |
 | [DetravScannerMod](https://github.com/GTNewHorizons/DetravScannerMod) | 1.8.0 |
-| [Draconic-Evolution](https://github.com/GTNewHorizons/Draconic-Evolution) | 1.3.1-GTNH |
+| [Draconic-Evolution](https://github.com/GTNewHorizons/Draconic-Evolution) | 1.3.2-GTNH |
 | [DummyCore](https://github.com/GTNewHorizons/DummyCore) | 1.18.0 |
 | [DuraDisplay](https://github.com/GTNewHorizons/DuraDisplay) | 1.2.2 |
-| [Electro-Magic-Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.4.3-pre |
+| [Electro-Magic-Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.4.4 |
 | [EnderCore](https://github.com/GTNewHorizons/EnderCore) | 0.3.1 |
 | [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.6.6 |
 | [EnderStorage](https://github.com/GTNewHorizons/EnderStorage) | 1.5.0 |
@@ -322,10 +322,10 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Eternal-Singularity](https://github.com/GTNewHorizons/Eternal-Singularity) | 1.2.0 |
 | [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities) | 1.2.13a |
 | [FastCraft](https://www.curseforge.com/minecraft/mc-mods/fastcraft) | 1.25 |
-| [FindIt](https://github.com/GTNewHorizons/FindIt) | 1.2.2 |
+| [FindIt](https://github.com/GTNewHorizons/FindIt) | 1.2.3 |
 | [FloodLights](https://github.com/GTNewHorizons/FloodLights) | 1.3.0 |
 | [ForbiddenMagic](https://github.com/GTNewHorizons/ForbiddenMagic) | 0.7.0-GTNH |
-| [ForestryMC](https://github.com/GTNewHorizons/ForestryMC) | 4.8.3-pre |
+| [ForestryMC](https://github.com/GTNewHorizons/ForestryMC) | 4.8.4 |
 | [Forgelin](https://github.com/GTNewHorizons/Forgelin) | 1.9.9-GTNH |
 | [ForgeMultipart](https://github.com/GTNewHorizons/ForgeMultipart) | 1.4.8 |
 | [ForgeRelocation](https://github.com/GTNewHorizons/ForgeRelocation) | 0.1.1 |
@@ -342,9 +342,9 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.45.71 |
 | [GTNEIOrePlugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.2.0 |
 | [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.3.1 |
-| [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.12.10-pre |
+| [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.12.11 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.0 |
-| [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.2.4 |
+| [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.2.5 |
 | [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.11.25 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.10.1-GTNH |
@@ -375,7 +375,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.1.2-GTNH |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.1.1 |
 | [LunatriusCore](https://github.com/GTNewHorizons/LunatriusCore) | 1.2.0-GTNH |
-| [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 2.0.0-alpha-7 |
+| [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 2.0.0-alpha-8 |
 | [MagicBees](https://github.com/GTNewHorizons/MagicBees) | 2.7.14-GTNH |
 | [MalisisDoors](https://github.com/GTNewHorizons/MalisisDoors) | 1.16.2-GTNH |
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.4.1 |
@@ -424,7 +424,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Roguelike-Dungeons](https://github.com/GTNewHorizons/Roguelike-Dungeons) | 1.6.0-GTNH |
 | [SC2](https://github.com/GTNewHorizons/SC2) | 2.1.0 |
 | [Schematica](https://github.com/GTNewHorizons/Schematica) | 1.10.0-GTNH |
-| [ServerUtilities](https://github.com/GTNewHorizons/ServerUtilities) | 2.0.23 |
+| [ServerUtilities](https://github.com/GTNewHorizons/ServerUtilities) | 2.0.25 |
 | [SGCraft](https://github.com/GTNewHorizons/SGCraft) | 1.4.1-GTNH |
 | [Share-Where-I-am](https://github.com/GTNewHorizons/Share-Where-I-am) | 2.1.1 |
 | [SleepingBags](https://github.com/GTNewHorizons/SleepingBags) | 0.2.0 |
@@ -453,7 +453,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Thaumic Machina](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2200956-wip-1-7-10-open-beta-thaumcraft-4-2-addon-thaumic) | 0.2.1 |
 | [Thaumic_Exploration](https://github.com/GTNewHorizons/Thaumic_Exploration) | 1.2.1-GTNH |
 | [ThaumicBases](https://github.com/GTNewHorizons/ThaumicBases) | 1.6.1 |
-| [ThaumicBoots](https://github.com/GTNewHorizons/ThaumicBoots) | 1.1.3-pre |
+| [ThaumicBoots](https://github.com/GTNewHorizons/ThaumicBoots) | 1.1.3 |
 | [ThaumicEnergistics](https://github.com/GTNewHorizons/ThaumicEnergistics) | 1.6.2-GTNH |
 | [ThaumicHorizons](https://github.com/GTNewHorizons/ThaumicHorizons) | 1.5.1 |
 | [thaumicinsurgence](https://github.com/GTNewHorizons/thaumicinsurgence) | 0.3.0 |

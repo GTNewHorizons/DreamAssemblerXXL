@@ -122,14 +122,18 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
 >
 
-# Updated ArchitectureCraft (1.8.6@Side.BOTH --> 1.9.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.8.5...1.9.1
+# Updated ArchitectureCraft (1.8.6@Side.BOTH --> 1.9.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.8.5...1.9.2
 >## What's Changed
+> * Add localization for Shapes and ShapePages and add UI color customization by @Flanisch in https://github.com/GTNewHorizons/ArchitectureCraft/pull/13 (1.9.2)
+> * Added a new shape category (glow), and new graphic category registered with item IDs that are different from other shpes and come with light value. This allows for better visual effects by modifying the configuration settings based on the item ID in the presence of shader by @ImgoodWK in https://github.com/GTNewHorizons/ArchitectureCraft/pull/12 (1.9.2)
 > * Add localization for Shapes and ShapePages and add UI color customization by @Flanisch in https://github.com/GTNewHorizons/ArchitectureCraft/pull/13 (1.9.1)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/ArchitectureCraft/pull/11 (1.9.0)
 > * Fixes to Shift Click Behavior in the Sawbench by @Superfrogman98 in https://github.com/GTNewHorizons/ArchitectureCraft/pull/10 (1.8.6)
 >
 >## New Contributors
+> * @Flanisch made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/13 (1.9.2)
+> * @ImgoodWK made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/12 (1.9.2)
 > * @Flanisch made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/13 (1.9.1)
 > * @Superfrogman98 made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/10 (1.8.6)
 >
@@ -528,14 +532,16 @@
 # Updated DetravScannerMod (1.7.2@Side.BOTH --> 1.8.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/DetravScannerMod/compare/1.7.1...1.8.0
 
-# Updated Draconic-Evolution (1.2.1-GTNH@Side.BOTH --> 1.3.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.2.0-GTNH...1.3.1-GTNH
+# Updated Draconic-Evolution (1.2.1-GTNH@Side.BOTH --> 1.3.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.2.0-GTNH...1.3.2-GTNH
 >## What's Changed
+> * Fix wrong encode in manual translation in manual-zh_CN.json by @ghostflyby in https://github.com/GTNewHorizons/Draconic-Evolution/pull/45 (1.3.2-GTNH)
 > * Update manual-ru_RU.json by @kamenskyi in https://github.com/GTNewHorizons/Draconic-Evolution/pull/44 (1.3.1-GTNH)
 > * Update ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/Draconic-Evolution/pull/43 (1.2.2-GTNH)
 > * Fix memory leak by @Pelotrio in https://github.com/GTNewHorizons/Draconic-Evolution/pull/42 (1.2.1-GTNH)
 >
 >## New Contributors
+> * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/45 (1.3.2-GTNH)
 > * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/43 (1.2.2-GTNH)
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/42 (1.2.1-GTNH)
 >
@@ -557,13 +563,17 @@
 > * Add WoodenBrickForm to gadgets by @Caedis in https://github.com/GTNewHorizons/DuraDisplay/pull/14 (1.1.7)
 >
 
-# Updated Electro-Magic-Tools (1.3.8@Side.BOTH --> 1.4.3-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.3.7...1.4.3-pre
+# Updated Electro-Magic-Tools (1.3.8@Side.BOTH --> 1.4.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.3.7...1.4.4
 >## What's Changed
+> * Update ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/72 (1.4.4)
+> * Make boots apply speed boost to all directions by @S4mpsa in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/71 (1.4.4)
 > * Update ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/72 (1.4.3-pre)
 > * Convert EMT to RA2 by @chochem in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/70 (1.4.1)
 >
 >## New Contributors
+> * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/72 (1.4.4)
+> * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/71 (1.4.4)
 > * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/72 (1.4.3-pre)
 >
 
@@ -622,9 +632,10 @@
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/Eternal-Singularity/pull/9 (1.2.0)
 >
 
-# Updated FindIt (1.1.0@Side.BOTH --> 1.2.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.0.11...1.2.2
+# Updated FindIt (1.1.0@Side.BOTH --> 1.2.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.0.11...1.2.3
 >## What's Changed
+> * Search Fluids; Changed Block Highlighter by @slprime in https://github.com/GTNewHorizons/FindIt/pull/13 (1.2.3)
 > * [QoF] Adding feature that automatically rotate player view when find a item/tile entity successfully by @gitboy14 in https://github.com/GTNewHorizons/FindIt/pull/12 (1.2.2)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/FindIt/pull/11 (1.2.0)
 > * Remove hard-dependency on GregTech by @glowredman in https://github.com/GTNewHorizons/FindIt/pull/10 (1.1.0)
@@ -655,9 +666,10 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForbiddenMagic/pull/12 (0.6.7-GTNH)
 >
 
-# Updated ForestryMC (4.7.1@Side.BOTH --> 4.8.3-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.7.0...4.8.3-pre
+# Updated ForestryMC (4.7.1@Side.BOTH --> 4.8.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.7.0...4.8.4
 >## What's Changed
+> * Allocation reduction by @mitchej123 in https://github.com/GTNewHorizons/ForestryMC/pull/62 (4.8.4)
 > * [bs] fix buildscripts for jenkins by @bombcar in https://github.com/GTNewHorizons/ForestryMC/pull/61 (4.8.2)
 > * Remove Version Checker by @glowredman in https://github.com/GTNewHorizons/ForestryMC/pull/60 (4.8.1)
 > * Add name for butterflyGE by @bombcar in https://github.com/GTNewHorizons/ForestryMC/pull/59 (4.8.0)
@@ -856,9 +868,10 @@
 > * Clarify whether item or fluid output is full by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/56 (1.3.0)
 >
 
-# Updated GTNH-Lanthanides (0.11.9@Side.BOTH --> 0.12.10-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.8...0.12.10-pre
+# Updated GTNH-Lanthanides (0.11.9@Side.BOTH --> 0.12.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.8...0.12.11
 >## What's Changed
+> * Migrate dissolution tank & digester to processingLogic by @GDCloudstrike in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/86 (0.12.11)
 > * Remove muffler from Dissolution Tank. by @AbdielKavash in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/85 (0.12.7)
 > * Clean-up acetylhydrazine and unsymmetricaldimethylhydrazine by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/83 (0.12.6)
 > * Fix Digester & Dissolution Tank NEI previews by @Lyfts in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/84 (0.12.6)
@@ -869,6 +882,7 @@
 > * Remove now unneeded IMC handler by @miozune in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/78 (0.12.0)
 >
 >## New Contributors
+> * @GDCloudstrike made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/86 (0.12.11)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/85 (0.12.7)
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/84 (0.12.6)
 >
@@ -884,9 +898,10 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/16 (1.3.1)
 >
 
-# Updated GTNHLib (0.0.13@Side.BOTH --> 0.2.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.0.12...0.2.4
+# Updated GTNHLib (0.0.13@Side.BOTH --> 0.2.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.0.12...0.2.5
 >## What's Changed
+> * Fix lower bound of `@Config.RangeFloat` by @glowredman in https://github.com/GTNewHorizons/GTNHLib/pull/30 (0.2.5)
 > * Shadow JOML by @Cleptomania in https://github.com/GTNewHorizons/GTNHLib/pull/29 (0.2.4)
 > * Be more accepting; also stop using Tags for modid/name by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/27 (0.2.3)
 > * Handle multiple config classes by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/25 (0.2.2)
@@ -1731,9 +1746,11 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Schematica/pull/17 (1.9.4-GTNH)
 >
 
-# New Mod - ServerUtilities (2.0.23@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.23
+# New Mod - ServerUtilities (2.0.25@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.25
 >## What's Changed
+> * Hide sidebar buttons if disabled on server by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/45 (2.0.25)
+> * Fix network exception when chunk claiming is turned off by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/44 (2.0.24)
 > * Fix permissions with values above max getting set to default value by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/43 (2.0.23)
 > * Add ability to claim chunks from JourneyMap by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/41 (2.0.22)
 > * Better fix for disappearing buttons by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/40 (2.0.20)
@@ -1985,11 +2002,15 @@
 > * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/27 (1.6.1)
 >
 
-# Updated ThaumicBoots (1.1.0@Side.BOTH --> 1.1.3-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/0.2.1...1.1.3-pre
+# Updated ThaumicBoots (1.1.0@Side.BOTH --> 1.1.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/0.2.1...1.1.3
 >## What's Changed
+> * Make boots apply speed boost to all directions by @S4mpsa in https://github.com/GTNewHorizons/ThaumicBoots/pull/24 (1.1.3)
 > * Fixing the jump glitch by @Alastors in https://github.com/GTNewHorizons/ThaumicBoots/pull/23 (1.1.1)
 > * Seasonal Boots (#20) by @Alastors in https://github.com/GTNewHorizons/ThaumicBoots/pull/21 (1.1.0)
+>
+>## New Contributors
+> * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/24 (1.1.3)
 >
 
 # Updated ThaumicEnergistics (1.5.4-GTNH@Side.BOTH --> 1.6.2-GTNH@Side.BOTH)
@@ -2301,8 +2322,8 @@
 > * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/12 (6.0.74)
 >
 
-# Updated lwjgl3ify (1.5.7@Side.BOTH_JAVA9 --> 2.0.0-alpha-7@Side.BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.6...2.0.0-alpha-7
+# Updated lwjgl3ify (1.5.7@Side.BOTH_JAVA9 --> 2.0.0-alpha-8@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.6...2.0.0-alpha-8
 >## What's Changed
 > * Fixes Enum Duplication Issue by @KAMKEEL in https://github.com/GTNewHorizons/lwjgl3ify/pull/118 (2.0.0-alpha-3)
 > * Add Config Toggle to Enable / Disable HRTF Bools in OpenAl by @KAMKEEL in https://github.com/GTNewHorizons/lwjgl3ify/pull/119 (2.0.0-alpha-3)
