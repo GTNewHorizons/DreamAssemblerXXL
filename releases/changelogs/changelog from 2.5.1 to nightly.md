@@ -58,11 +58,15 @@
 > * @Alastors made their first contribution in https://github.com/GTNewHorizons/AlchemyGrate/pull/3 (1.0.3-GTNH)
 >
 
-# Updated Amazing-Trophies (1.1.4@Side.BOTH --> 1.1.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.1.3...1.1.5
+# Updated Amazing-Trophies (1.1.4@Side.BOTH --> 1.2.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.1.3...1.2.1
 >## What's Changed
+> * VBO (Significant performance boost with Angelica) by @mitchej123 in https://github.com/GTNewHorizons/Amazing-Trophies/pull/6 (1.2.0)
 > * Force Fancy Graphics when rendering a Trophy displaying an Item by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/5 (1.1.4)
 > * Force Fancy Graphics when rendering a Trophy displaying an Item by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/5 (1.1.4)
+>
+>## New Contributors
+> * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/Amazing-Trophies/pull/6 (1.2.0)
 >
 
 # Updated AngerMod (0.6.3@Side.BOTH --> 0.7.1@Side.BOTH)
@@ -241,11 +245,15 @@
 > * @bertcardinaels made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/128 (3.5.4-GTNH)
 >
 
-# Updated Binnie (2.2.4@Side.BOTH --> 2.3.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.2.3...2.3.2
+# Updated Binnie (2.2.4@Side.BOTH --> 2.3.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.2.3...2.3.3
 >## What's Changed
+> * No more restriction by player name by @mitchej123 in https://github.com/GTNewHorizons/Binnie/pull/44 (2.3.3)
 > * fix no tooltip in some Gui by @ghostflyby in https://github.com/GTNewHorizons/Binnie/pull/42 (2.3.2)
 > * Fix double layers tooltip with NEI by @ghostflyby in https://github.com/GTNewHorizons/Binnie/pull/41 (2.2.4)
+>
+>## New Contributors
+> * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/44 (2.3.3)
 >
 
 # Updated BlockLimiter (0.55@Side.BOTH --> 0.6.0@Side.BOTH)
@@ -293,9 +301,11 @@
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/BloodMagic/pull/49 (1.5.1)
 >
 
-# Updated Botania (1.10.3-GTNH@Side.BOTH --> 1.10.6-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.10.2-GTNH...1.10.6-GTNH
+# Updated Botania (1.10.3-GTNH@Side.BOTH --> 1.10.9-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.10.2-GTNH...1.10.9-GTNH
 >## What's Changed
+> * The ring of ikoL awakens! by @LewisSaber in https://github.com/GTNewHorizons/Botania/pull/43 (1.10.9-GTNH)
+> * Reduce number of item copies.  by @mitchej123 in https://github.com/GTNewHorizons/Botania/pull/44 (1.10.7-GTNH)
 > * Keep a cache of time uniforms instead of querying them every time by @mitchej123 in https://github.com/GTNewHorizons/Botania/pull/41 (1.10.6-GTNH)
 > * Clarify some misunderstanding by @LewisSaber in https://github.com/GTNewHorizons/Botania/pull/39 (1.10.5-GTNH)
 > * backports VazkiiMods/Botania#2721 by @Glease in https://github.com/GTNewHorizons/Botania/pull/35 (1.10.3-GTNH)
@@ -645,8 +655,8 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForbiddenMagic/pull/12 (0.6.7-GTNH)
 >
 
-# Updated ForestryMC (4.7.1@Side.BOTH --> 4.8.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.7.0...4.8.2
+# Updated ForestryMC (4.7.1@Side.BOTH --> 4.8.3-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.7.0...4.8.3-pre
 >## What's Changed
 > * [bs] fix buildscripts for jenkins by @bombcar in https://github.com/GTNewHorizons/ForestryMC/pull/61 (4.8.2)
 > * Remove Version Checker by @glowredman in https://github.com/GTNewHorizons/ForestryMC/pull/60 (4.8.1)
@@ -846,8 +856,8 @@
 > * Clarify whether item or fluid output is full by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/56 (1.3.0)
 >
 
-# Updated GTNH-Lanthanides (0.11.9@Side.BOTH --> 0.12.9-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.8...0.12.9-pre
+# Updated GTNH-Lanthanides (0.11.9@Side.BOTH --> 0.12.10-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.11.8...0.12.10-pre
 >## What's Changed
 > * Remove muffler from Dissolution Tank. by @AbdielKavash in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/85 (0.12.7)
 > * Clean-up acetylhydrazine and unsymmetricaldimethylhydrazine by @chochem in https://github.com/GTNewHorizons/GTNH-Lanthanides/pull/83 (0.12.6)
@@ -1316,9 +1326,10 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ModTweaker/pull/5 (0.10.0)
 >
 
-# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.28-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.28-pre
+# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.30-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.30-pre
 >## What's Changed
+> * Fix build by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/61 (1.1.29)
 > * Add support for scientific notation (2e3 = 2000) and suffixes like k, m, b, ... by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/58 (1.1.26)
 > * Fix for NEID by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/57 (1.1.24)
 >
@@ -1468,8 +1479,8 @@
 > * @slprime made their first contribution in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/38 (1.5.1)
 >
 
-# Updated NotEnoughIds (1.5.3@Side.BOTH --> 2.0.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/1.5.2...2.0.1
+# Updated NotEnoughIds (1.5.3@Side.BOTH --> 2.0.2-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/1.5.2...2.0.2-pre
 >## What's Changed
 > * Fixes for Multiplayer by @Cleptomania in https://github.com/GTNewHorizons/NotEnoughIds/pull/9 (2.0.1)
 > * Initial 16-bit Metadata Re-work by @Cleptomania in https://github.com/GTNewHorizons/NotEnoughIds/pull/7 (2.0.0)
@@ -2290,8 +2301,8 @@
 > * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/12 (6.0.74)
 >
 
-# Updated lwjgl3ify (1.5.7@Side.BOTH_JAVA9 --> 2.0.0-alpha-6@Side.BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.6...2.0.0-alpha-6
+# Updated lwjgl3ify (1.5.7@Side.BOTH_JAVA9 --> 2.0.0-alpha-7@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.6...2.0.0-alpha-7
 >## What's Changed
 > * Fixes Enum Duplication Issue by @KAMKEEL in https://github.com/GTNewHorizons/lwjgl3ify/pull/118 (2.0.0-alpha-3)
 > * Add Config Toggle to Enable / Disable HRTF Bools in OpenAl by @KAMKEEL in https://github.com/GTNewHorizons/lwjgl3ify/pull/119 (2.0.0-alpha-3)

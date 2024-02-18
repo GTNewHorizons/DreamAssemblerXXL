@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-18T10:02:01.311994",
-  "config": "2.6.0-nightly-2024-02-17-2",
+  "last_updated": "2024-02-18T10:05:01.755830",
+  "config": "2.6.0-nightly-2024-02-18",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.1.1-GTNH",
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.3.2",
+      "version": "2.3.3",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -101,7 +101,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.10.6-GTNH",
+      "version": "1.10.9-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.8.2",
+      "version": "4.8.3-pre",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.12.9-pre",
+      "version": "0.12.10-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.1.28-pre",
+      "version": "1.1.30-pre",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "NotEnoughIds": {
-      "version": "2.0.1",
+      "version": "2.0.2-pre",
       "side": "BOTH"
     },
     "FloodLights": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.0.0-alpha-6",
+      "version": "2.0.0-alpha-7",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "Amazing-Trophies": {
-      "version": "1.1.5",
+      "version": "1.2.1",
       "side": "BOTH"
     },
     "ServerUtilities": {
