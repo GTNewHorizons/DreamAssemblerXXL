@@ -288,7 +288,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BuildCraft](https://github.com/GTNewHorizons/BuildCraft) | 7.1.39 |
 | [BuildCraftCompat](https://github.com/GTNewHorizons/BuildCraftCompat) | 7.1.17 |
 | [BuildCraftOilTweak](https://github.com/GTNewHorizons/BuildCraftOilTweak) | 1.1.0 |
-| [CarpentersBlocks](https://github.com/GTNewHorizons/CarpentersBlocks) | 3.5.2-GTNH-pre |
+| [CarpentersBlocks](https://github.com/GTNewHorizons/CarpentersBlocks) | 3.5.1-GTNH |
 | [Catwalks-2](https://github.com/GTNewHorizons/Catwalks-2) | 2.2.0-GTNH |
 | [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.13.4-GTNH |
 | [ChiselTones](https://github.com/GTNewHorizons/ChiselTones) | 1.1.0-GTNH |

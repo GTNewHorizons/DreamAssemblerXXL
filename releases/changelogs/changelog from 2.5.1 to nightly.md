@@ -369,8 +369,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/BuildCraftOilTweak/pull/1 (1.0.4)
 >
 
-# Updated CarpentersBlocks (3.4.1-GTNH@Side.BOTH --> 3.5.2-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/CarpentersBlocks/compare/3.4.0-GTNH...3.5.2-GTNH-pre
+# Updated CarpentersBlocks (3.4.1-GTNH@Side.BOTH --> 3.5.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/CarpentersBlocks/compare/3.4.0-GTNH...3.5.1-GTNH
 >## What's Changed
 > * Use IBlockAccess instead of worldObj by @mitchej123 in https://github.com/GTNewHorizons/CarpentersBlocks/pull/4 (3.5.0-GTNH)
 > * Fixes a world memory leak by @Pelotrio in https://github.com/GTNewHorizons/CarpentersBlocks/pull/3 (3.4.1-GTNH)

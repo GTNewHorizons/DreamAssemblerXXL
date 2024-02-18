@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-18T21:07:47.740453",
+  "last_updated": "2024-02-18T23:04:23.764954",
   "config": "2.6.0-nightly-2024-02-18",
   "github_mods": {
     "AdventureBackpack2": {
@@ -125,7 +125,7 @@
       "side": "BOTH"
     },
     "CarpentersBlocks": {
-      "version": "3.5.2-GTNH-pre",
+      "version": "3.5.1-GTNH",
       "side": "BOTH"
     },
     "Catwalks-2": {
