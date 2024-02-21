@@ -1,7 +1,6 @@
 # New Mods:
 > * Archaicfix
 > * CoreTweaks
-> * NEI-Utilities
 > * ServerUtilities
 > * Tinkers-Defense
 # Mods Removed:
@@ -308,9 +307,10 @@
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/BloodMagic/pull/49 (1.5.1)
 >
 
-# Updated Botania (1.10.3-GTNH@Side.BOTH --> 1.10.9-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.10.2-GTNH...1.10.9-GTNH
+# Updated Botania (1.10.3-GTNH@Side.BOTH --> 1.10.10-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.10.2-GTNH...1.10.10-GTNH
 >## What's Changed
+> * Ring of Loki Client/Server fix by @LewisSaber in https://github.com/GTNewHorizons/Botania/pull/45 (1.10.10-GTNH)
 > * The ring of ikoL awakens! by @LewisSaber in https://github.com/GTNewHorizons/Botania/pull/43 (1.10.9-GTNH)
 > * Reduce number of item copies.  by @mitchej123 in https://github.com/GTNewHorizons/Botania/pull/44 (1.10.7-GTNH)
 > * Keep a cache of time uniforms instead of querying them every time by @mitchej123 in https://github.com/GTNewHorizons/Botania/pull/41 (1.10.6-GTNH)
@@ -393,9 +393,11 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Catwalks-2/pull/7 (2.1.4-GTNH)
 >
 
-# Updated Chisel (2.12.3-GTNH@Side.BOTH --> 2.14.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.12.2-GTNH...2.14.0-GTNH
+# Updated Chisel (2.12.3-GTNH@Side.BOTH --> 2.14.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.12.2-GTNH...2.14.1-GTNH
 >## What's Changed
+> * Null saftey by @mitchej123 in https://github.com/GTNewHorizons/Chisel/pull/45 (2.14.1-GTNH)
+> * Fixes an NPE thrown with NEI by @mitchej123 in https://github.com/GTNewHorizons/Chisel/pull/46 (2.14.1-GTNH)
 > * Angelica compat by @mitchej123 in https://github.com/GTNewHorizons/Chisel/pull/43 (2.14.0-GTNH)
 > * Update to use CCC/L 1.2.0 for multi-thread compat by @bombcar in https://github.com/GTNewHorizons/Chisel/pull/42 (2.13.4-GTNH)
 > * Another Obsidian harvestlevel fix by @chochem in https://github.com/GTNewHorizons/Chisel/pull/41 (2.13.2-GTNH)
@@ -1065,9 +1067,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/HelpFixer/pull/1 (1.1.0)
 >
 
-# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.29@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.29
+# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.30@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.30
 >## What's Changed
+> * Add config option to manually configure autosave interval by @Pelotrio in https://github.com/GTNewHorizons/Hodgepodge/pull/323 (2.4.30)
 > * Organize Config Fields by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/333 (2.4.29)
 > * Update dependencies. by @AbdielKavash in https://github.com/GTNewHorizons/Hodgepodge/pull/334 (2.4.28)
 > * Spotless apply for branch feat/updateSyncConfig for #330 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/331 (2.4.27-pre)
@@ -1100,6 +1103,7 @@
 > * Player Skin Fetching Fix part 2 by @kumquat-ir in https://github.com/GTNewHorizons/Hodgepodge/pull/293 (2.4.0)
 >
 >## New Contributors
+> * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/323 (2.4.30)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/334 (2.4.28)
 > * @bearsdotzone made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/307 (2.4.12)
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/301 (2.4.7)
@@ -1238,9 +1242,10 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/LittleTiles/pull/8 (1.2.9-GTNH)
 >
 
-# Updated LogisticsPipes (1.0.8-GTNH@Side.BOTH --> 1.1.2-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.0.7-GTNH...1.1.2-GTNH
+# Updated LogisticsPipes (1.0.8-GTNH@Side.BOTH --> 1.1.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.0.7-GTNH...1.1.3-GTNH
 >## What's Changed
+> * Reenable recipes for non-GTNH environments by @ThePixelbrain in https://github.com/GTNewHorizons/LogisticsPipes/pull/32 (1.1.3-GTNH)
 > * request table gui improvement by @Glease in https://github.com/GTNewHorizons/LogisticsPipes/pull/30 (1.1.2-GTNH)
 > * add quantum chest support by @Glease in https://github.com/GTNewHorizons/LogisticsPipes/pull/29 (1.1.2-GTNH)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/LogisticsPipes/pull/31 (1.1.1-GTNH-pre)
@@ -1250,6 +1255,7 @@
 > * Fix Logistic Pipes Storage Drawer Functionality by @krashton1 in https://github.com/GTNewHorizons/LogisticsPipes/pull/26 (1.0.8-GTNH)
 >
 >## New Contributors
+> * @ThePixelbrain made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/32 (1.1.3-GTNH)
 > * @krashton1 made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/26 (1.0.8-GTNH)
 >
 
@@ -1354,9 +1360,10 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ModTweaker/pull/5 (0.10.0)
 >
 
-# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.30-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.30-pre
+# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.30@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.30
 >## What's Changed
+> * Added a numeric widget. by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/62 (1.1.30)
 > * Fix build by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/61 (1.1.29)
 > * Add support for scientific notation (2e3 = 2000) and suffixes like k, m, b, ... by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/58 (1.1.26)
 > * Fix for NEID by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/57 (1.1.24)
@@ -1397,9 +1404,6 @@
 > * [bs] fix buildscripts for jenkins by @bombcar in https://github.com/GTNewHorizons/NEI-Integration/pull/9 (1.4.0)
 > * Revert disabling Pam's HC integration by default by @DotJason in https://github.com/GTNewHorizons/NEI-Integration/pull/8 (1.3.3)
 >
-
-# New Mod - NEI-Utilities (0.1.10@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NEI-Utilities/commits/0.1.10
 
 # Updated Natura (2.5.7@Side.BOTH --> 2.6.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.5.6...2.6.0
@@ -1507,9 +1511,10 @@
 > * @slprime made their first contribution in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/38 (1.5.1)
 >
 
-# Updated NotEnoughIds (1.5.3@Side.BOTH --> 2.0.2-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/1.5.2...2.0.2-pre
+# Updated NotEnoughIds (1.5.3@Side.BOTH --> 2.0.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/1.5.2...2.0.3
 >## What's Changed
+> * Change fake NibbleArray to not use empty byte array for Thermos compat by @Cleptomania in https://github.com/GTNewHorizons/NotEnoughIds/pull/10 (2.0.3)
 > * Fixes for Multiplayer by @Cleptomania in https://github.com/GTNewHorizons/NotEnoughIds/pull/9 (2.0.1)
 > * Initial 16-bit Metadata Re-work by @Cleptomania in https://github.com/GTNewHorizons/NotEnoughIds/pull/7 (2.0.0)
 > * Add curseforge and modrinth project IDs by @Cleptomania in https://github.com/GTNewHorizons/NotEnoughIds/pull/8 (1.5.6)
@@ -1519,8 +1524,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/5 (1.5.3)
 >
 
-# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.19-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.19-GTNH
+# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.20-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.20-GTNH-pre
 >## What's Changed
 > * Slot Highlighting Overlay Option by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/458 (2.5.19-GTNH)
 > * Less StringBuilder allocation nonsense by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/455 (2.5.18-GTNH)
