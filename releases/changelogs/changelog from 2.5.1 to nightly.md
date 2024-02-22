@@ -85,9 +85,10 @@
 > * `@Local` / `@Share` / `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/AppleCore/pull/28 (3.2.12)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-325-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-325-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-326-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-326-GTNH
 >## What's Changed
+> * Add all missing recipes and rename recipes folder to GTNHRecipe by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/468 (rv3-beta-326-GTNH)
 > * Fix a logical issue with Pattern Terminal buttons. by @wohaopa in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/464 (rv3-beta-325-GTNH)
 > * Add sorting options to the crafting plan screen by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/463 (rv3-beta-325-GTNH)
 > * Fix crash from wrong compare by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/465 (rv3-beta-325-GTNH)
@@ -596,9 +597,10 @@
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.19)
 >
 
-# Updated EnderIO (2.5.9@Side.BOTH --> 2.7.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.5.8...2.7.0
+# Updated EnderIO (2.5.9@Side.BOTH --> 2.7.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.5.8...2.7.1
 >## What's Changed
+> * Actually optional by @mitchej123 in https://github.com/GTNewHorizons/EnderIO/pull/154 (2.7.1)
 > * Angelica compat by @mitchej123 in https://github.com/GTNewHorizons/EnderIO/pull/153 (2.7.0)
 > * Some null checks to avoid outright crashing with Angelica,  by @mitchej123 in https://github.com/GTNewHorizons/EnderIO/pull/150 (2.6.7)
 > * Fix Dark Steel Anvils in WAILA by @connor135246 in https://github.com/GTNewHorizons/EnderIO/pull/152 (2.6.7)
@@ -732,9 +734,13 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.71@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.71
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.73@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.73
 >## What's Changed
+> * Migrate assline to extended power base by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2503 (5.09.45.73)
+> * Update dependencies. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2497 (5.09.45.72)
+> * Fix Cleanroom logic with an LV energy hatch by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2499 (5.09.45.72)
+> * Adjust mk5 plasmas to account for 1 lost OC by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2504 (5.09.45.72)
 > * Fix water bottle fluid exploit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2494 (5.09.45.71)
 > * Change over wireless teams to use SP teams by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2493 (5.09.45.70)
 > * Allow interacting with machines instantly upon placing by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2496 (5.09.45.69-pre)
@@ -933,9 +939,11 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
 
-# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.25@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.25
+# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.27@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.27
 >## What's Changed
+> * Advanced implosion supports buffer by @HoleFish in https://github.com/GTNewHorizons/GTplusplus/pull/838 (1.11.27)
+> * Add alternate recipes for neptunium and fermium plasma by @GDCloudstrike in https://github.com/GTNewHorizons/GTplusplus/pull/837 (1.11.26)
 > * Force properties should be in GT by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/836 (1.11.25)
 > * fix QFT tooltips by @HoleFish in https://github.com/GTNewHorizons/GTplusplus/pull/835 (1.11.24)
 > * Enable perfect OC on the matter fabrication CPU recycler mode by @GDCloudstrike in https://github.com/GTNewHorizons/GTplusplus/pull/834 (1.11.23)
@@ -1023,9 +1031,10 @@
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/27 (0.3.9)
 >
 
-# Updated GoodGenerator (0.7.17@Side.BOTH --> 0.8.11@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.16...0.8.11
+# Updated GoodGenerator (0.7.17@Side.BOTH --> 0.8.12@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.16...0.8.12
 >## What's Changed
+> * Fix compact fusion tierskip, wrong OC and scanner info by @GDCloudstrike in https://github.com/GTNewHorizons/GoodGenerator/pull/238 (0.8.12)
 > * Fix naq nugget recipe by @chochem in https://github.com/GTNewHorizons/GoodGenerator/pull/237 (0.8.11)
 > * Allow compact fusions to accept any amount of energy from energy hatches by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/235 (0.8.10)
 > * Fix UCFE fuel consumption by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/234 (0.8.10)
