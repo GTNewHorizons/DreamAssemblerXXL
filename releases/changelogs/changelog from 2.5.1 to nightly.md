@@ -584,9 +584,10 @@
 > * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/72 (1.4.3-pre)
 >
 
-# Updated EnderCore (0.2.19@Side.BOTH --> 0.3.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.17...0.3.1
+# Updated EnderCore (0.2.19@Side.BOTH --> 0.4.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.17...0.4.1
 >## What's Changed
+> * Thread Safety by @mitchej123 in https://github.com/GTNewHorizons/EnderCore/pull/19 (0.4.1)
 > * Fix for limited item filter by @Tu0rp in https://github.com/GTNewHorizons/EnderCore/pull/18 (0.3.0)
 > * Get Empty container with drainFluidContainer by @ghostflyby in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.19)
 >
@@ -595,9 +596,12 @@
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.19)
 >
 
-# Updated EnderIO (2.5.9@Side.BOTH --> 2.6.6@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.5.8...2.6.6
+# Updated EnderIO (2.5.9@Side.BOTH --> 2.7.0@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.5.8...2.7.0
 >## What's Changed
+> * Angelica compat by @mitchej123 in https://github.com/GTNewHorizons/EnderIO/pull/153 (2.7.0)
+> * Some null checks to avoid outright crashing with Angelica,  by @mitchej123 in https://github.com/GTNewHorizons/EnderIO/pull/150 (2.6.7)
+> * Fix Dark Steel Anvils in WAILA by @connor135246 in https://github.com/GTNewHorizons/EnderIO/pull/152 (2.6.7)
 > * Fix protection mode of travel anchor by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/149 (2.6.6)
 > * Fix Anchor always rendering bug by @TheUnderTaker11 in https://github.com/GTNewHorizons/EnderIO/pull/148 (2.6.4)
 > * add required hard dependency on cofhlib by @bombcar in https://github.com/GTNewHorizons/EnderIO/pull/146 (2.6.3)
@@ -607,6 +611,7 @@
 > * Add Config to allow servers to re-enable support for client-side 'hacks' like Staff Of Traveling Keybind mod. by @TheUnderTaker11 in https://github.com/GTNewHorizons/EnderIO/pull/142 (2.6.0)
 >
 >## New Contributors
+> * @connor135246 made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/152 (2.6.7)
 > * @Tu0rp made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/143 (2.6.0)
 > * @TheUnderTaker11 made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/142 (2.6.0)
 >
@@ -1018,9 +1023,10 @@
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/27 (0.3.9)
 >
 
-# Updated GoodGenerator (0.7.17@Side.BOTH --> 0.8.10@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.16...0.8.10
+# Updated GoodGenerator (0.7.17@Side.BOTH --> 0.8.11@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.16...0.8.11
 >## What's Changed
+> * Fix naq nugget recipe by @chochem in https://github.com/GTNewHorizons/GoodGenerator/pull/237 (0.8.11)
 > * Allow compact fusions to accept any amount of energy from energy hatches by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/235 (0.8.10)
 > * Fix UCFE fuel consumption by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/234 (0.8.10)
 > * Compact fusion structure fixes by @Lyfts in https://github.com/GTNewHorizons/GoodGenerator/pull/236 (0.8.10)
@@ -1179,12 +1185,14 @@
 > * @crimson-mist made their first contribution in https://github.com/GTNewHorizons/InGame-Info-XML/pull/19 (2.8.5)
 >
 
-# Updated Infernal-Mobs (1.7.9-GTNH@Side.BOTH --> 1.8.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.7.8-GTNH...1.8.0-GTNH
+# Updated Infernal-Mobs (1.7.9-GTNH@Side.BOTH --> 1.8.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.7.8-GTNH...1.8.1-GTNH
 >## What's Changed
+> * Update zh_CN.lang by @NealDeal34 in https://github.com/GTNewHorizons/Infernal-Mobs/pull/14 (1.8.1-GTNH)
 > * Change access on methods and add variable getters by @kuba6000 in https://github.com/GTNewHorizons/Infernal-Mobs/pull/13 (1.7.9-GTNH)
 >
 >## New Contributors
+> * @NealDeal34 made their first contribution in https://github.com/GTNewHorizons/Infernal-Mobs/pull/14 (1.8.1-GTNH)
 > * @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Infernal-Mobs/pull/13 (1.7.9-GTNH)
 >
 
@@ -1524,9 +1532,11 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/5 (1.5.3)
 >
 
-# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.20-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.20-GTNH-pre
+# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.21-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.21-GTNH
 >## What's Changed
+> * Migrate NEI-Utilities by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/461 (2.5.21-GTNH)
+> * DnD big ItemStack; Show green slot highlighting overlay by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/463 (2.5.21-GTNH)
 > * Slot Highlighting Overlay Option by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/458 (2.5.19-GTNH)
 > * Less StringBuilder allocation nonsense by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/455 (2.5.18-GTNH)
 > * Create Bookmarks Groups; Search Recipe by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/451 (2.5.17-GTNH)
@@ -1768,9 +1778,10 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Schematica/pull/17 (1.9.4-GTNH)
 >
 
-# New Mod - ServerUtilities (2.0.26@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.26
+# New Mod - ServerUtilities (2.0.27@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.27
 >## What's Changed
+> * Add config for allowing all block interactions in claimed chunks by @Majora320 in https://github.com/GTNewHorizons/ServerUtilities/pull/47 (2.0.27)
 > * Rename power permission node to priority by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/46 (2.0.26)
 > * Hide sidebar buttons if disabled on server by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/45 (2.0.25)
 > * Fix network exception when chunk claiming is turned off by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/44 (2.0.24)
@@ -1800,6 +1811,7 @@
 > * Removal of Import Wildcards by @Ethryan in https://github.com/GTNewHorizons/ServerUtilities/pull/2 (1.0.1)
 >
 >## New Contributors
+> * @Majora320 made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/47 (2.0.27)
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/24 (2.0.9)
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/14 (2.0.5)
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/11 (2.0.3)
@@ -2055,14 +2067,16 @@
 > * Correct name application for Nightmare by @bombcar in https://github.com/GTNewHorizons/ThaumicHorizons/pull/62 (1.5.0)
 >
 
-# Updated ThaumicInventoryScanning (1.0.12-GTNH@Side.BOTH --> 1.1.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicInventoryScanning/compare/1.0.12-GTNH...1.1.1-GTNH
+# Updated ThaumicInventoryScanning (1.0.12-GTNH@Side.BOTH --> 1.1.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicInventoryScanning/compare/1.0.12-GTNH...1.1.2-GTNH
 >## What's Changed
+> * Fix inventory scanning always disabled by @Lyfts in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/5 (1.1.2-GTNH)
 > * Fix server mod check by @Cleptomania in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/3 (1.1.1-GTNH)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/2 (1.1.0-GTNH)
 > * Update Buildscript by @glowredman in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/1 (1.0.12-GTNH)
 >
 >## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/5 (1.1.2-GTNH)
 > * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/3 (1.1.1-GTNH)
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/2 (1.1.0-GTNH)
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/1 (1.0.12-GTNH)
@@ -2407,9 +2421,10 @@
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/32 (0.2.7)
 >
 
-# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.13-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.13-pre
+# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.14@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.14
 >## What's Changed
+> * Tinkers Construct Integration by @Gordon-Frohman in https://github.com/GTNewHorizons/twilightforest/pull/39 (2.5.14)
 > * Naga Courtyard backport (and some other stuff) by @Gordon-Frohman in https://github.com/GTNewHorizons/twilightforest/pull/33 (2.5.12)
 > * Fix hardcoded world height. by @AbdielKavash in https://github.com/GTNewHorizons/twilightforest/pull/37 (2.5.3)
 > * Fix server crash with magic beans by @miozune in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
@@ -2420,9 +2435,13 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
 >
 
-# Updated waila (1.6.5@Side.BOTH --> 1.7.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.6.4...1.7.0
+# Updated waila (1.6.5@Side.BOTH --> 1.7.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.6.4...1.7.1
 >## What's Changed
+> * Fix vanilla Anvils, Saplings, and Slabs by @connor135246 in https://github.com/GTNewHorizons/waila/pull/18 (1.7.1)
 > * Convert world unload event handler to public inner class by @tth05 in https://github.com/GTNewHorizons/waila/pull/17 (1.6.5)
+>
+>## New Contributors
+> * @connor135246 made their first contribution in https://github.com/GTNewHorizons/waila/pull/18 (1.7.1)
 >
 

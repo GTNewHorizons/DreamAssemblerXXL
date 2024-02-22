@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-21T12:37:31.394449",
+  "last_updated": "2024-02-22T18:50:29.239638",
   "config": "2.6.0-nightly-2024-02-18",
   "github_mods": {
     "AdventureBackpack2": {
@@ -189,11 +189,11 @@
       "side": "BOTH"
     },
     "EnderCore": {
-      "version": "0.3.1",
+      "version": "0.4.1",
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.6.6",
+      "version": "2.7.0",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.8.10",
+      "version": "0.8.11",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
@@ -313,7 +313,7 @@
       "side": "BOTH"
     },
     "Infernal-Mobs": {
-      "version": "1.8.0-GTNH",
+      "version": "1.8.1-GTNH",
       "side": "BOTH"
     },
     "InGame-Info-XML": {
@@ -433,7 +433,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.5.20-GTNH-pre",
+      "version": "2.5.21-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "ThaumicInventoryScanning": {
-      "version": "1.1.1-GTNH",
+      "version": "1.1.2-GTNH",
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
@@ -649,7 +649,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.5.13-pre",
+      "version": "2.5.14",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -661,7 +661,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.7.0",
+      "version": "1.7.1",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -837,7 +837,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.26",
+      "version": "2.0.27",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
