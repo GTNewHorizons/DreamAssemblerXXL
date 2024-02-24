@@ -251,7 +251,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [amunra](https://github.com/GTNewHorizons/amunra) | 0.5.1 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.7.1 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.0 |
-| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-326-GTNH |
+| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-327-GTNH |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.7.1 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.9.3 |
 | [Aroma1997Core](https://www.curseforge.com/minecraft/mc-mods/aroma1997core) | 1.0.2.16 |
@@ -332,7 +332,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ForgeRelocationFMP](https://github.com/GTNewHorizons/ForgeRelocationFMP) | 0.1.0 |
 | [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.3.2 |
 | [GalacticGregGT5](https://github.com/GTNewHorizons/GalacticGregGT5) | 1.1.0 |
-| [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.1.2-GTNH |
+| [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.1.3-GTNH-pre |
 | [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.1.82-GTNH |
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.7.0-GTNH |
 | [GigaGramFab](https://github.com/GTNewHorizons/GigaGramFab) | 0.3.13-pre |
@@ -468,7 +468,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Translocators](https://github.com/GTNewHorizons/Translocators) | 1.2.1 |
 | [Travellers Gear](https://www.curseforge.com/minecraft/mc-mods/travellers-gear) | 1.16.6 |
 | [TravellersGearNeo](https://github.com/GTNewHorizons/TravellersGearNeo) | 1.1.0 |
-| [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.5.15 |
+| [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.5.16 |
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.7.0 |
 | [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.16 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.7.0 |

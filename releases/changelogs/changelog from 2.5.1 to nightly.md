@@ -85,9 +85,11 @@
 > * `@Local` / `@Share` / `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/AppleCore/pull/28 (3.2.12)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-326-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-326-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-327-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-327-GTNH
 >## What's Changed
+> * Add % share of crafting components extracted from storage by @claimg in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/469 (rv3-beta-327-GTNH)
+> * Fix fluid p2p refusing to push fluids when there are too many outputs by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/473 (rv3-beta-327-GTNH)
 > * Add all missing recipes and rename recipes folder to GTNHRecipe by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/468 (rv3-beta-326-GTNH)
 > * Fix a logical issue with Pattern Terminal buttons. by @wohaopa in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/464 (rv3-beta-325-GTNH)
 > * Add sorting options to the crafting plan screen by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/463 (rv3-beta-325-GTNH)
@@ -1008,8 +1010,8 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GalacticGregGT5/pull/16 (1.0.10)
 >
 
-# Updated Galacticraft (3.0.75-GTNH@Side.BOTH --> 3.1.2-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.74-GTNH...3.1.2-GTNH
+# Updated Galacticraft (3.0.75-GTNH@Side.BOTH --> 3.1.3-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.0.74-GTNH...3.1.3-GTNH-pre
 >## What's Changed
 > * Update GC lang files to more modern usage for MobInfo by @bombcar in https://github.com/GTNewHorizons/Galacticraft/pull/83 (3.1.1-GTNH)
 > * Fix backwards-compatibility with other Galacticraft addons (e. g. ExtraPlanets) by @PT400C in https://github.com/GTNewHorizons/Galacticraft/pull/82 (3.1.0-GTNH)
@@ -2437,9 +2439,10 @@
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/32 (0.2.7)
 >
 
-# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.15@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.15
+# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.16@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.16
 >## What's Changed
+> * Fix crash when shooting something with TC crossbow by @Lyfts in https://github.com/GTNewHorizons/twilightforest/pull/43 (2.5.16)
 > * Tinkers Construct stats tuning by @Gordon-Frohman in https://github.com/GTNewHorizons/twilightforest/pull/40 (2.5.15)
 > * Tinkers Construct Integration by @Gordon-Frohman in https://github.com/GTNewHorizons/twilightforest/pull/39 (2.5.14)
 > * Naga Courtyard backport (and some other stuff) by @Gordon-Frohman in https://github.com/GTNewHorizons/twilightforest/pull/33 (2.5.12)
@@ -2447,6 +2450,7 @@
 > * Fix server crash with magic beans by @miozune in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
 >
 >## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/43 (2.5.16)
 > * @Gordon-Frohman made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/33 (2.5.12)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/37 (2.5.3)
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/32 (2.5.1)
