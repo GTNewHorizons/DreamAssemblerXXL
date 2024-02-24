@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-22T20:52:30.214694",
+  "last_updated": "2024-02-24T05:28:16.655661",
   "config": "2.6.0-nightly-2024-02-18",
   "github_mods": {
     "AdventureBackpack2": {
@@ -33,7 +33,7 @@
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.9.2",
+      "version": "1.9.3",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.4.30",
+      "version": "2.4.31",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -649,7 +649,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.5.14",
+      "version": "2.5.15",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.1.30",
+      "version": "1.1.32",
       "side": "BOTH"
     },
     "TX-Loader": {

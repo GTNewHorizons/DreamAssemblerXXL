@@ -125,9 +125,10 @@
 > * @Caedis made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
 >
 
-# Updated ArchitectureCraft (1.8.6@Side.BOTH --> 1.9.2@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.8.5...1.9.2
+# Updated ArchitectureCraft (1.8.6@Side.BOTH --> 1.9.3@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.8.5...1.9.3
 >## What's Changed
+> * Cleanup by @mitchej123 in https://github.com/GTNewHorizons/ArchitectureCraft/pull/14 (1.9.3)
 > * Add localization for Shapes and ShapePages and add UI color customization by @Flanisch in https://github.com/GTNewHorizons/ArchitectureCraft/pull/13 (1.9.2)
 > * Added a new shape category (glow), and new graphic category registered with item IDs that are different from other shpes and come with light value. This allows for better visual effects by modifying the configuration settings based on the item ID in the presence of shader by @ImgoodWK in https://github.com/GTNewHorizons/ArchitectureCraft/pull/12 (1.9.2)
 > * Add localization for Shapes and ShapePages and add UI color customization by @Flanisch in https://github.com/GTNewHorizons/ArchitectureCraft/pull/13 (1.9.1)
@@ -135,6 +136,7 @@
 > * Fixes to Shift Click Behavior in the Sawbench by @Superfrogman98 in https://github.com/GTNewHorizons/ArchitectureCraft/pull/10 (1.8.6)
 >
 >## New Contributors
+> * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/14 (1.9.3)
 > * @Flanisch made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/13 (1.9.2)
 > * @ImgoodWK made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/12 (1.9.2)
 > * @Flanisch made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/13 (1.9.1)
@@ -1082,9 +1084,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/HelpFixer/pull/1 (1.1.0)
 >
 
-# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.30@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.30
+# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.31@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.31
 >## What's Changed
+> * Apply fasterRemoveAll to Entities too by @wahfl2 in https://github.com/GTNewHorizons/Hodgepodge/pull/337 (2.4.31)
 > * Add config option to manually configure autosave interval by @Pelotrio in https://github.com/GTNewHorizons/Hodgepodge/pull/323 (2.4.30)
 > * Organize Config Fields by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/333 (2.4.29)
 > * Update dependencies. by @AbdielKavash in https://github.com/GTNewHorizons/Hodgepodge/pull/334 (2.4.28)
@@ -1118,6 +1121,7 @@
 > * Player Skin Fetching Fix part 2 by @kumquat-ir in https://github.com/GTNewHorizons/Hodgepodge/pull/293 (2.4.0)
 >
 >## New Contributors
+> * @wahfl2 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/337 (2.4.31)
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/323 (2.4.30)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/334 (2.4.28)
 > * @bearsdotzone made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/307 (2.4.12)
@@ -1377,15 +1381,18 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ModTweaker/pull/5 (0.10.0)
 >
 
-# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.30@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.30
+# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.32@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.32
 >## What's Changed
+> * Fix NEI Slot Overlay in Bookmarks Recipe Tooltip by @slprime in https://github.com/GTNewHorizons/ModularUI/pull/64 (1.1.32)
+> * Fix NEI Slot Overlay being slightly off & not showing FindIt overlay by @slprime in https://github.com/GTNewHorizons/ModularUI/pull/63 (1.1.31)
 > * Added a numeric widget. by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/62 (1.1.30)
 > * Fix build by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/61 (1.1.29)
 > * Add support for scientific notation (2e3 = 2000) and suffixes like k, m, b, ... by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/58 (1.1.26)
 > * Fix for NEID by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/57 (1.1.24)
 >
 >## New Contributors
+> * @slprime made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/63 (1.1.31)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/58 (1.1.26)
 >
 
@@ -2430,9 +2437,10 @@
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/32 (0.2.7)
 >
 
-# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.14@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.14
+# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.15@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.15
 >## What's Changed
+> * Tinkers Construct stats tuning by @Gordon-Frohman in https://github.com/GTNewHorizons/twilightforest/pull/40 (2.5.15)
 > * Tinkers Construct Integration by @Gordon-Frohman in https://github.com/GTNewHorizons/twilightforest/pull/39 (2.5.14)
 > * Naga Courtyard backport (and some other stuff) by @Gordon-Frohman in https://github.com/GTNewHorizons/twilightforest/pull/33 (2.5.12)
 > * Fix hardcoded world height. by @AbdielKavash in https://github.com/GTNewHorizons/twilightforest/pull/37 (2.5.3)
