@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-25T19:04:09.326497",
-  "config": "2.6.0-nightly-2024-02-25",
+  "last_updated": "2024-02-28T19:32:51.298783",
+  "config": "2.6.0-nightly-2024-02-28",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.1.1-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.2.17-gtnh",
+      "version": "1.2.18-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,11 +29,11 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-329-GTNH-pre",
+      "version": "rv3-beta-331-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.9.3",
+      "version": "1.9.4",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.9.11",
+      "version": "0.9.12",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -189,7 +189,7 @@
       "side": "BOTH"
     },
     "EnderCore": {
-      "version": "0.4.3",
+      "version": "0.4.5",
       "side": "BOTH"
     },
     "EnderIO": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.8.12",
+      "version": "0.8.13-pre",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.74",
+      "version": "5.09.45.80-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -273,11 +273,11 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.2.7",
+      "version": "0.2.9",
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.11.27",
+      "version": "1.11.31",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.4.31",
+      "version": "2.4.32",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -329,7 +329,7 @@
       "side": "CLIENT"
     },
     "ironchest": {
-      "version": "6.0.75",
+      "version": "6.0.76-pre",
       "side": "BOTH"
     },
     "IronChestMinecarts": {
@@ -393,7 +393,7 @@
       "side": "BOTH"
     },
     "MouseTweaks": {
-      "version": "2.4.16-GTNH",
+      "version": "2.4.17-GTNH",
       "side": "CLIENT"
     },
     "MX-Random": {
@@ -421,7 +421,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.3.29-pre",
+      "version": "2.3.32-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -509,11 +509,11 @@
       "side": "BOTH"
     },
     "Schematica": {
-      "version": "1.10.1-GTNH",
+      "version": "1.11.0-GTNH",
       "side": "CLIENT"
     },
     "SGCraft": {
-      "version": "1.4.2-GTNH",
+      "version": "1.4.3-GTNH-pre",
       "side": "BOTH"
     },
     "Share-Where-I-am": {
@@ -585,7 +585,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.3.31",
+      "version": "5.3.32",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -597,7 +597,7 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.2.1-GTNH",
+      "version": "1.2.2-GTNH",
       "side": "BOTH"
     },
     "ThaumicBases": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "thaumicinsurgence": {
-      "version": "0.3.0",
+      "version": "0.3.1",
       "side": "BOTH"
     },
     "ThaumicInventoryScanning": {
@@ -677,7 +677,7 @@
       "side": "BOTH"
     },
     "WarpTheory": {
-      "version": "1.3.1-GTNH",
+      "version": "1.3.2-GTNH",
       "side": "BOTH"
     },
     "WAWLA": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
-      "version": "1.11.0",
+      "version": "1.11.1",
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
@@ -697,7 +697,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.4.1-GTNH",
+      "version": "1.4.2-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.1.33",
+      "version": "1.1.35",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -721,7 +721,7 @@
       "side": "CLIENT"
     },
     "GigaGramFab": {
-      "version": "0.3.13-pre",
+      "version": "0.3.14",
       "side": "BOTH"
     },
     "NotEnoughIds": {
@@ -829,7 +829,7 @@
       "side": "BOTH"
     },
     "ThaumicBoots": {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
