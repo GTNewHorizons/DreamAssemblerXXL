@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-28T19:32:51.298783",
+  "last_updated": "2024-02-28T19:39:04.622095",
   "config": "2.6.0-nightly-2024-02-28",
   "github_mods": {
     "AdventureBackpack2": {
@@ -847,6 +847,10 @@
     "neiaddons": {
       "version": "1.15.0",
       "side": "BOTH"
+    },
+    "Angelica": {
+      "version": "1.0.0-alpha31",
+      "side": "CLIENT"
     }
   },
   "external_mods": {
@@ -897,10 +901,6 @@
     "Hardcore Darkness": {
       "version": "1.7",
       "side": "BOTH"
-    },
-    "FastCraft": {
-      "version": "1.25",
-      "side": "CLIENT"
     },
     "CoFH Core": {
       "version": "3.1.4-329",
