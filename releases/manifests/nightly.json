@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-28T19:39:04.622095",
+  "last_updated": "2024-02-28T21:38:18.708360",
   "config": "2.6.0-nightly-2024-02-28",
   "github_mods": {
     "AdventureBackpack2": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.2.9",
+      "version": "0.2.10",
       "side": "BOTH"
     },
     "GTplusplus": {

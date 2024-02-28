@@ -1288,9 +1288,11 @@
 > * @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/16 (1.3.1)
 >
 
-# Updated GTNHLib (0.0.13@Side.BOTH --> 0.2.9@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.0.12...0.2.9
+# Updated GTNHLib (0.0.13@Side.BOTH --> 0.2.10@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.0.12...0.2.10
 >## What's Changed
+> * Add a compare-and-swap reference wrapper and collections by @eigenraven in https://github.com/GTNewHorizons/GTNHLib/pull/36 (0.2.10)
+> * Add a dummy RFB plugin to allow classes to be used earlier in the loading process by @eigenraven in https://github.com/GTNewHorizons/GTNHLib/pull/37 (0.2.10)
 > * Remove required parameter to Config annotation by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/34 (0.2.9)
 > * Add filename and subdirectory overrides to Config class annotation by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/33 (0.2.8)
 > * Localization fix by @AbdielKavash in https://github.com/GTNewHorizons/GTNHLib/pull/32 (0.2.7)
