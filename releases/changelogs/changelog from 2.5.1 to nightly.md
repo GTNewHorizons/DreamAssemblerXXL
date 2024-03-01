@@ -742,13 +742,15 @@
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/CarpentersBlocks/pull/3 (3.4.1-GTNH)
 >
 
-# Updated Catwalks-2 (2.1.4-GTNH@Side.BOTH --> 2.2.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Catwalks-2/compare/2.1.3-GTNH...2.2.0-GTNH
+# Updated Catwalks-2 (2.1.4-GTNH@Side.BOTH --> 2.2.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Catwalks-2/compare/2.1.3-GTNH...2.2.1-GTNH
 >## What's Changed
+> * Mostly thread safe by @mitchej123 in https://github.com/GTNewHorizons/Catwalks-2/pull/9 (2.2.1-GTNH)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/Catwalks-2/pull/8 (2.2.0-GTNH)
 > * Clarify Permissions by @glowredman in https://github.com/GTNewHorizons/Catwalks-2/pull/7 (2.1.4-GTNH)
 >
 >## New Contributors
+> * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/Catwalks-2/pull/9 (2.2.1-GTNH)
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Catwalks-2/pull/7 (2.1.4-GTNH)
 >
 
@@ -1096,9 +1098,11 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.81-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.81-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.82@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.82
 >## What's Changed
+> * Self-adaption GUI height for DC by @RealSilverMoon in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2517 (5.09.45.82)
+> * Fix recipe check by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2516 (5.09.45.82)
 > * Add locale code support for lang manager by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2511 (5.09.45.79)
 > * Change error voltage to MAX+ by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2513 (5.09.45.79)
 > * Make some changes to OC Calculator to add functionality to be used by God Forge by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2508 (5.09.45.77)
@@ -1467,9 +1471,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/HelpFixer/pull/1 (1.1.0)
 >
 
-# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.33@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.33
+# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.34@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.34
 >## What's Changed
+> * Add lighter water tweak by @ah-OOG-ah in https://github.com/GTNewHorizons/Hodgepodge/pull/339 (2.4.34)
 > * Add int dimension id to end of login packet by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/341 (2.4.33)
 > * Add color to Fast Block Placing noficiation text by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/338 (2.4.32)
 > * implement a better hashing method for WorldCoordinates by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/340 (2.4.32)
@@ -1507,6 +1512,7 @@
 > * Player Skin Fetching Fix part 2 by @kumquat-ir in https://github.com/GTNewHorizons/Hodgepodge/pull/293 (2.4.0)
 >
 >## New Contributors
+> * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/339 (2.4.34)
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/340 (2.4.32)
 > * @wahfl2 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/337 (2.4.31)
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/323 (2.4.30)
@@ -1948,8 +1954,8 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/5 (1.5.3)
 >
 
-# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.21-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.21-GTNH
+# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.22-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.22-GTNH-pre
 >## What's Changed
 > * Migrate NEI-Utilities by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/461 (2.5.21-GTNH)
 > * DnD big ItemStack; Show green slot highlighting overlay by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/463 (2.5.21-GTNH)
@@ -2112,9 +2118,10 @@
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/27 (4.9.0-GTNH)
 >
 
-# Updated Railcraft (9.15.3@Side.BOTH --> 9.15.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.2...9.15.5
+# Updated Railcraft (9.15.3@Side.BOTH --> 9.15.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.2...9.15.6
 >## What's Changed
+> * Seems threadsafe enough by @mitchej123 in https://github.com/GTNewHorizons/Railcraft/pull/56 (9.15.6)
 > * Fix Railcraft tanks showing wrong texture after a resource reload by @UltraHex in https://github.com/GTNewHorizons/Railcraft/pull/55 (9.15.5)
 > * Fluids entering iron tanks use fallback texture when flowing texture is missing by @asoftbird in https://github.com/GTNewHorizons/Railcraft/pull/53 (9.15.3)
 > * do not add color data when not needed by @Glease in https://github.com/GTNewHorizons/Railcraft/pull/54 (9.15.3)

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-03-01T06:44:39.315492",
+  "last_updated": "2024-03-01T16:55:42.782393",
   "config": "2.6.0-nightly-2024-03-01",
   "github_mods": {
     "AdventureBackpack2": {
@@ -129,7 +129,7 @@
       "side": "BOTH"
     },
     "Catwalks-2": {
-      "version": "2.2.0-GTNH",
+      "version": "2.2.1-GTNH",
       "side": "BOTH"
     },
     "Chisel": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.81-pre",
+      "version": "5.09.45.82",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.4.33",
+      "version": "2.4.34",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -433,7 +433,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.5.21-GTNH",
+      "version": "2.5.22-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -489,7 +489,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.15.5",
+      "version": "9.15.6",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
