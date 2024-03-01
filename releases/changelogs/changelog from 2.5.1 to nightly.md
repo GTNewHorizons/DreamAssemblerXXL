@@ -8,9 +8,10 @@
 > * FastCraft
 > * MalisisCore
 > * Tinkers' Defense
-# Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.18-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.18-gtnh
+# Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.19-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.19-gtnh
 >## What's Changed
+> * FIX: Use correct priority increment amounts by @michaeldoylecs in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/192 (1.2.19-gtnh)
 > * Fix Dynamic Font Size by @slprime in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/193 (1.2.18-gtnh)
 > * Use GT and ae2f fluids in ME inputs/outputs and storag by @slprime in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/191 (1.2.17-gtnh)
 > * Use GT and ae2f fluids in ME inputs/outputs and storag by @slprime in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/191 (1.2.16-gtnh-pre)
@@ -28,6 +29,7 @@
 > * Correct `stackSize` z order by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/178 (1.2.0-gtnh)
 >
 >## New Contributors
+> * @michaeldoylecs made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/192 (1.2.19-gtnh)
 > * @slprime made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/191 (1.2.17-gtnh)
 > * @slprime made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/191 (1.2.16-gtnh-pre)
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/190 (1.2.14-gtnh-pre)
@@ -1094,8 +1096,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.80-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.80-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.81-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.81-pre
 >## What's Changed
 > * Add locale code support for lang manager by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2511 (5.09.45.79)
 > * Change error voltage to MAX+ by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2513 (5.09.45.79)
@@ -1465,9 +1467,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/HelpFixer/pull/1 (1.1.0)
 >
 
-# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.32@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.32
+# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.33@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.33
 >## What's Changed
+> * Add int dimension id to end of login packet by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/341 (2.4.33)
 > * Add color to Fast Block Placing noficiation text by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/338 (2.4.32)
 > * implement a better hashing method for WorldCoordinates by @boubou19 in https://github.com/GTNewHorizons/Hodgepodge/pull/340 (2.4.32)
 > * Apply fasterRemoveAll to Entities too by @wahfl2 in https://github.com/GTNewHorizons/Hodgepodge/pull/337 (2.4.31)
@@ -1543,13 +1546,15 @@
 > * Cleanup isValidMetaTileEntity by @miozune in https://github.com/GTNewHorizons/HydroEnergy/pull/23 (1.1.1)
 >
 
-# Updated IFU (1.9.6@Side.BOTH --> 1.10.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/IFU/compare/1.9.5...1.10.0
+# Updated IFU (1.9.6@Side.BOTH --> 1.10.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/IFU/compare/1.9.5...1.10.1
 >## What's Changed
+> * Fix voiding when shift clicking item in wand whilst inventory is full by @Lyfts in https://github.com/GTNewHorizons/IFU/pull/16 (1.10.1)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/IFU/pull/15 (1.10.0)
 > * Prevent the Ore Finder Wand from imploding by @wlhlm in https://github.com/GTNewHorizons/IFU/pull/13 (1.9.6)
 >
 >## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/IFU/pull/16 (1.10.1)
 > * @wlhlm made their first contribution in https://github.com/GTNewHorizons/IFU/pull/13 (1.9.6)
 >
 
@@ -2717,8 +2722,8 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/amunra/pull/29 (0.5.0)
 >
 
-# Updated bartworks (0.8.23@Side.BOTH --> 0.9.12@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.22...0.9.12
+# Updated bartworks (0.8.23@Side.BOTH --> 0.9.13-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.22...0.9.13-pre
 >## What's Changed
 > * Fix Bio Vat internal error & scanner info by @HoleFish in https://github.com/GTNewHorizons/bartworks/pull/394 (0.9.12)
 > * CAL CA mode recipe tier nerf by @LewisSaber in https://github.com/GTNewHorizons/bartworks/pull/392 (0.9.11)
@@ -2790,8 +2795,8 @@
 > * @norbby42 made their first contribution in https://github.com/GTNewHorizons/inventory-tweaks/pull/8 (1.6.2)
 >
 
-# Updated ironchest (6.0.74@Side.BOTH --> 6.0.76-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.73...6.0.76-pre
+# Updated ironchest (6.0.74@Side.BOTH --> 6.0.75@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.73...6.0.75
 >## What's Changed
 > * Bookmark pull feature for iron chests by @Nilau1998 in https://github.com/GTNewHorizons/ironchest/pull/12 (6.0.74)
 >

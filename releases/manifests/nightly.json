@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-02-28T21:38:18.708360",
-  "config": "2.6.0-nightly-2024-02-28",
+  "last_updated": "2024-03-01T06:44:39.315492",
+  "config": "2.6.0-nightly-2024-03-01",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.1.1-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.2.18-gtnh",
+      "version": "1.2.19-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.9.12",
+      "version": "0.9.13-pre",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.80-pre",
+      "version": "5.09.45.81-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.4.32",
+      "version": "2.4.33",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -305,7 +305,7 @@
       "side": "BOTH"
     },
     "IFU": {
-      "version": "1.10.0",
+      "version": "1.10.1",
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
@@ -329,7 +329,7 @@
       "side": "CLIENT"
     },
     "ironchest": {
-      "version": "6.0.76-pre",
+      "version": "6.0.75",
       "side": "BOTH"
     },
     "IronChestMinecarts": {
