@@ -1098,8 +1098,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.82@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.82
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.83-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.83-pre
 >## What's Changed
 > * Self-adaption GUI height for DC by @RealSilverMoon in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2517 (5.09.45.82)
 > * Fix recipe check by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2516 (5.09.45.82)
