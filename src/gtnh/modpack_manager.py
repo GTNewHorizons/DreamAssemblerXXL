@@ -1,4 +1,5 @@
 import asyncio
+import glob
 import json
 import os
 import shutil
@@ -988,9 +989,8 @@ class GTNHModpackManager:
 
             # delete older versions
             for old_version in mod.versions:
-                if old_version.version_tag == version.version_tag:
+                if old_version.version_tag == version.version_tag and not mod.needs_attention:
                     continue
-
                 mod_dest = os.path.join(mods_dir, os.path.basename(get_asset_version_cache_location(mod, old_version)))
                 if os.path.exists(mod_dest):
                     log.info(
@@ -999,6 +999,14 @@ class GTNHModpackManager:
                     os.remove(mod_dest)
 
             mod_dest = os.path.join(mods_dir, os.path.basename(mod_cache))
+
+            # delete non-matching versions to handle local builds (usually -pre, but not name changes)
+            version_pattern = os.path.basename(mod_cache).replace(version.version_tag, "*")
+            for file in glob.glob(os.path.join(mods_dir, version_pattern)):
+                if file != mod_dest:
+                    log.info(f"Deleting old version {Fore.CYAN}{file}{Fore.RESET} of {Fore.CYAN}{mod.name}{Fore.RESET}")
+                    os.remove(file)
+
             if os.path.exists(mod_dest):
                 # log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} already exists in the mods directory, skipping")
                 continue
