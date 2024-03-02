@@ -21,6 +21,7 @@ from gtnh.defs import (
     BLACKLISTED_REPOS_FILE,
     GREEN_CHECK,
     GTNH_MODPACK_FILE,
+    LOCAL_EXCLUDES_FILE,
     MAVEN_BASE_URL,
     OTHER,
     RED_CROSS,
@@ -675,6 +676,13 @@ class GTNHModpackManager:
         """
         return ROOT_DIR / BLACKLISTED_REPOS_FILE
 
+    @property
+    def local_exclusions_path(self) -> Path:
+        """
+        Helper property for the local exclusions file location
+        """
+        return ROOT_DIR / LOCAL_EXCLUDES_FILE
+
     @retry(delay=5, tries=3)
     async def download_asset(
         self,
@@ -970,7 +978,9 @@ class GTNHModpackManager:
         else:
             raise ValueError(f"{side} isn't a valid side")
 
-    async def update_pack_inplace(self, side: Side, minecraft_dir: str, verbose: bool = False) -> None:
+    async def update_pack_inplace(
+        self, release: GTNHRelease, side: Side, minecraft_dir: str, use_symlink: bool = False
+    ) -> None:
 
         if not os.path.exists(minecraft_dir):
             log.error(f"{Fore.RED}Minecraft directory `{minecraft_dir}` does not exist{Fore.RESET}")
@@ -990,40 +1000,63 @@ class GTNHModpackManager:
             Side.SERVER_JAVA9: Exclusions(self.mod_pack.server_exclusions + self.mod_pack.server_java9_exclusions),
         }[side]
 
-        for mod in self.assets.mods:
+        if os.path.exists(self.local_exclusions_path):
+            with open(self.local_exclusions_path, "r") as f:
+                local_exclusions = f.read().splitlines()
+
+        for mod_dict in release.github_mods.items():
+            mod_ver = self.assets.get_mod_and_version(
+                mod_dict[0], mod_dict[1], side.valid_mod_sides(), source=ModSource.github
+            )
+            if not mod_ver:
+                continue
+
+            mod = mod_ver[0]
+            version = mod_ver[1]
 
             if mod.name in exclusions:
-                #log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is excluded from the {side.name} side, skipping")
+                # log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is excluded from the {side.name} side, skipping")
                 continue
 
-            if mod.side not in side.valid_mod_sides():
-                #log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is not a {side.name} side mod, skipping")
-                continue
-
-            if not mod.is_github():
-                #log.error(f"{Fore.RED}{mod.name}{Fore.RESET} is not a github mod, skipping")
-                continue
-
-            version = mod.get_latest_version()
-            if not version:
-                #log.error(f"{Fore.RED}No version found for {mod.name}{Fore.RESET}")
+            if mod.name in local_exclusions if local_exclusions else []:
                 continue
 
             mod_cache = get_asset_version_cache_location(mod, version)
+            if not os.path.exists(mod_cache):
+                # log.error(f"{Fore.RED}{mod_cache}{Fore.RESET} does not exist after downloading, skipping")
+                continue
+
+            # delete older versions
+            for old_version in mod.versions:
+                if old_version.version_tag == version.version_tag:
+                    continue
+
+                mod_dest = os.path.join(mods_dir, os.path.basename(get_asset_version_cache_location(mod, old_version)))
+                if os.path.exists(mod_dest):
+                    log.info(
+                        f"Deleting old version {Fore.CYAN}{old_version.version_tag}{Fore.RESET} of {Fore.CYAN}{mod.name}{Fore.RESET}"
+                    )
+                    os.remove(mod_dest)
 
             mod_dest = os.path.join(mods_dir, os.path.basename(mod_cache))
             if os.path.exists(mod_dest):
-                #log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} already exists in the mods directory, skipping")
-                continue
-
-            if not os.path.exists(mod_cache):
-                #log.error(f"{Fore.RED}{mod_cache}{Fore.RESET} does not exist after downloading, skipping")
+                # log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} already exists in the mods directory, skipping")
                 continue
 
             # use symlink if on unix, otherwise copy
-            if os.name == "posix":
+            if use_symlink and os.name == "posix":
                 log.info(f"Symlinking {Fore.CYAN}{mod.name}{Fore.RESET} to {Fore.CYAN}{mod_dest}{Fore.RESET}")
                 os.symlink(mod_cache, mod_dest)
             else:
                 log.info(f"Copying {Fore.CYAN}{mod.name}{Fore.RESET} to {Fore.CYAN}{mod_dest}{Fore.RESET}")
                 shutil.copy(mod_cache, mod_dest)
+
+            for excluded_mod in local_exclusions if local_exclusions else []:
+                mod = self.assets.get_mod(excluded_mod)
+                if mod:
+                    for ver in mod.versions:
+                        mod_cache = get_asset_version_cache_location(mod, ver)
+                        mod_dest = os.path.join(mods_dir, os.path.basename(mod_cache))
+                        if os.path.exists(mod_dest):
+                            log.info(f"Deleting {Fore.CYAN}{mod.name}{Fore.RESET} from the mods directory")
+                            os.remove(mod_dest)

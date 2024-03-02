@@ -42,6 +42,7 @@ class Archive(str, Enum):
 AVAILABLE_ASSETS_FILE = "gtnh-assets.json"
 GTNH_MODPACK_FILE = "gtnh-modpack.json"
 BLACKLISTED_REPOS_FILE = "repo-blacklist.json"
+LOCAL_EXCLUDES_FILE = ".inplace_mod_exclusions"
 UNKNOWN = "Unknown"
 OTHER = "Other"
 MAVEN_BASE_URL = "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/"
