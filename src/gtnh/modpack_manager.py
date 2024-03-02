@@ -722,7 +722,7 @@ class GTNHModpackManager:
 
             headers = {"Accept": "application/octet-stream"}
             if is_github:
-                headers |= {"Authorization": f"token {get_github_token()}"}
+                headers |= {"Authorization": f"token {get_github_token()}", "X-GitHub-Api-Version": "2022-11-28"}
 
             async with self.client.stream(url=download_url, headers=headers, method="GET", follow_redirects=True) as r:
                 try:
@@ -970,7 +970,7 @@ class GTNHModpackManager:
         else:
             raise ValueError(f"{side} isn't a valid side")
 
-    def update_pack_inplace(self, side: Side, minecraft_dir: str, verbose: bool = False) -> None:
+    async def update_pack_inplace(self, side: Side, minecraft_dir: str, verbose: bool = False) -> None:
 
         if not os.path.exists(minecraft_dir):
             log.error(f"{Fore.RED}Minecraft directory `{minecraft_dir}` does not exist{Fore.RESET}")
@@ -993,35 +993,37 @@ class GTNHModpackManager:
         for mod in self.assets.mods:
 
             if mod.name in exclusions:
-                log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is excluded from the {side.name} side, skipping")
+                #log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is excluded from the {side.name} side, skipping")
                 continue
 
-            if mod.side != side:
-                log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is not a {side.name} side mod, skipping")
+            if mod.side not in side.valid_mod_sides():
+                #log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is not a {side.name} side mod, skipping")
                 continue
 
             if not mod.is_github():
-                log.error(f"{Fore.RED}{mod.name}{Fore.RESET} is not a github mod, skipping")
+                #log.error(f"{Fore.RED}{mod.name}{Fore.RESET} is not a github mod, skipping")
                 continue
 
             version = mod.get_latest_version()
             if not version:
-                log.error(f"{Fore.RED}No version found for {mod.name}{Fore.RESET}")
+                #log.error(f"{Fore.RED}No version found for {mod.name}{Fore.RESET}")
                 continue
 
             mod_cache = get_asset_version_cache_location(mod, version)
 
             mod_dest = os.path.join(mods_dir, os.path.basename(mod_cache))
             if os.path.exists(mod_dest):
-                log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} already exists in the mods directory, skipping")
+                #log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} already exists in the mods directory, skipping")
                 continue
 
             if not os.path.exists(mod_cache):
-                self.download_asset(mod, version.version_tag, is_github=True)
-
-            if not os.path.exists(mod_cache):
-                log.error(f"{Fore.RED}{mod_cache}{Fore.RESET} does not exist after downloading, skipping")
+                #log.error(f"{Fore.RED}{mod_cache}{Fore.RESET} does not exist after downloading, skipping")
                 continue
 
-            log.info(f"Copying {Fore.GREEN}{mod_cache}{Fore.RESET} to {Fore.GREEN}{mod_dest}{Fore.RESET}")
-            shutil.copy(mod_cache, mod_dest)
+            # use symlink if on unix, otherwise copy
+            if os.name == "posix":
+                log.info(f"Symlinking {Fore.CYAN}{mod.name}{Fore.RESET} to {Fore.CYAN}{mod_dest}{Fore.RESET}")
+                os.symlink(mod_cache, mod_dest)
+            else:
+                log.info(f"Copying {Fore.CYAN}{mod.name}{Fore.RESET} to {Fore.CYAN}{mod_dest}{Fore.RESET}")
+                shutil.copy(mod_cache, mod_dest)
