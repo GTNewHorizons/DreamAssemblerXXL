@@ -1,6 +1,7 @@
 import asyncio
 import json
 import os
+import shutil
 from collections import defaultdict
 from pathlib import Path
 from typing import Callable, Optional, Tuple
@@ -14,6 +15,7 @@ from packaging.version import LegacyVersion
 from retry import retry
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
+from gtnh.assembler.exclusions import Exclusions
 from gtnh.defs import (
     AVAILABLE_ASSETS_FILE,
     BLACKLISTED_REPOS_FILE,
@@ -967,3 +969,59 @@ class GTNHModpackManager:
                 return True
         else:
             raise ValueError(f"{side} isn't a valid side")
+
+    def update_pack_inplace(self, side: Side, minecraft_dir: str, verbose: bool = False) -> None:
+
+        if not os.path.exists(minecraft_dir):
+            log.error(f"{Fore.RED}Minecraft directory `{minecraft_dir}` does not exist{Fore.RESET}")
+            return
+
+        mods_dir = os.path.join(minecraft_dir, "mods")
+        if not os.path.exists(mods_dir):
+            log.error(f"{Fore.RED}Mods directory `{mods_dir}` does not exist{Fore.RESET}")
+            return
+
+        log.info(f"Updating {Fore.GREEN}{side.name}{Fore.RESET} side mods in place")
+
+        exclusions = {
+            Side.CLIENT: Exclusions(self.mod_pack.client_exclusions + self.mod_pack.client_java8_exclusions),
+            Side.SERVER: Exclusions(self.mod_pack.server_exclusions + self.mod_pack.server_java8_exclusions),
+            Side.CLIENT_JAVA9: Exclusions(self.mod_pack.client_exclusions + self.mod_pack.client_java9_exclusions),
+            Side.SERVER_JAVA9: Exclusions(self.mod_pack.server_exclusions + self.mod_pack.server_java9_exclusions),
+        }[side]
+
+        for mod in self.assets.mods:
+
+            if mod.name in exclusions:
+                log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is excluded from the {side.name} side, skipping")
+                continue
+
+            if mod.side != side:
+                log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is not a {side.name} side mod, skipping")
+                continue
+
+            if not mod.is_github():
+                log.error(f"{Fore.RED}{mod.name}{Fore.RESET} is not a github mod, skipping")
+                continue
+
+            version = mod.get_latest_version()
+            if not version:
+                log.error(f"{Fore.RED}No version found for {mod.name}{Fore.RESET}")
+                continue
+
+            mod_cache = get_asset_version_cache_location(mod, version)
+
+            mod_dest = os.path.join(mods_dir, os.path.basename(mod_cache))
+            if os.path.exists(mod_dest):
+                log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} already exists in the mods directory, skipping")
+                continue
+
+            if not os.path.exists(mod_cache):
+                self.download_asset(mod, version.version_tag, is_github=True)
+
+            if not os.path.exists(mod_cache):
+                log.error(f"{Fore.RED}{mod_cache}{Fore.RESET} does not exist after downloading, skipping")
+                continue
+
+            log.info(f"Copying {Fore.GREEN}{mod_cache}{Fore.RESET} to {Fore.GREEN}{mod_dest}{Fore.RESET}")
+            shutil.copy(mod_cache, mod_dest)
