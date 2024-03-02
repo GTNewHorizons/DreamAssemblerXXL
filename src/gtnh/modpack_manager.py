@@ -1019,6 +1019,7 @@ class GTNHModpackManager:
                 # log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is excluded from the {side.name} side, skipping")
                 continue
 
+            # ignore mods that are excluded in the target mods directory
             if mod.name in local_exclusions if local_exclusions else []:
                 continue
 
@@ -1051,7 +1052,7 @@ class GTNHModpackManager:
                 # log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} already exists in the mods directory, skipping")
                 continue
 
-            # use symlink if on unix, otherwise copy
+            # use symlink if set and on unix, otherwise copy
             if use_symlink and os.name == "posix":
                 log.info(f"Symlinking {Fore.CYAN}{mod.name}{Fore.RESET} to {Fore.CYAN}{mod_dest}{Fore.RESET}")
                 os.symlink(mod_cache, mod_dest)
@@ -1059,6 +1060,7 @@ class GTNHModpackManager:
                 log.info(f"Copying {Fore.CYAN}{mod.name}{Fore.RESET} to {Fore.CYAN}{mod_dest}{Fore.RESET}")
                 shutil.copy(mod_cache, mod_dest)
 
+            # delete excluded mods from target mods directory
             for excluded_mod in local_exclusions if local_exclusions else []:
                 mod = self.assets.get_mod(excluded_mod)
                 if mod:
