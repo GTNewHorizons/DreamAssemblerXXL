@@ -1098,9 +1098,13 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.83-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.83-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.85-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.85-pre
 >## What's Changed
+> * Add SC steam to turbine tooltip by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2515 (5.09.45.85-pre)
+> * Add cable info to WAILA by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2518 (5.09.45.85-pre)
+> * Add SC steam to turbine tooltip by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2515 (5.09.45.84)
+> * Add cable info to WAILA by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2518 (5.09.45.84)
 > * Self-adaption GUI height for DC by @RealSilverMoon in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2517 (5.09.45.82)
 > * Fix recipe check by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2516 (5.09.45.82)
 > * Add locale code support for lang manager by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2511 (5.09.45.79)
@@ -1858,9 +1862,12 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/NetherPortalFix/pull/1 (1.1.2)
 >
 
-# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.32-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.32-pre
+# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.34-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.34-pre
 >## What's Changed
+> * Fix moon buggy copy recipe and related fixes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/816 (2.3.33)
+> * Apply TiC recipe category by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/814 (2.3.33)
+> * Cache bg2 inventory field and add backwards compat to older BG2 by @Caedis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/815 (2.3.33)
 > * Fix battlegear hazard check by @Ableytner in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/813 (2.3.31)
 > * Use oredict for NC Thermometer recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/805 (2.3.28)
 > * Upload ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/807 (2.3.28)
@@ -1954,9 +1961,10 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/5 (1.5.3)
 >
 
-# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.22-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.22-GTNH-pre
+# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.23-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.23-GTNH
 >## What's Changed
+> * Correctly find the recipeId under mouse when using the search by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/465 (2.5.23-GTNH)
 > * Migrate NEI-Utilities by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/461 (2.5.21-GTNH)
 > * DnD big ItemStack; Show green slot highlighting overlay by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/463 (2.5.21-GTNH)
 > * Slot Highlighting Overlay Option by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/458 (2.5.19-GTNH)
@@ -2008,9 +2016,10 @@
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/20 (1.9.0-GTNH)
 >
 
-# Updated OpenComputers (1.9.21-GTNH@Side.BOTH --> 1.10.6-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.19-GTNH...1.10.6-GTNH
+# Updated OpenComputers (1.9.21-GTNH@Side.BOTH --> 1.10.7-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.9.19-GTNH...1.10.7-GTNH
 >## What's Changed
+> * If we say it's thread safe, that makes it true -- right?  right? by @mitchej123 in https://github.com/GTNewHorizons/OpenComputers/pull/117 (1.10.7-GTNH)
 > * fix extraneous @VERSION@ by @bombcar in https://github.com/GTNewHorizons/OpenComputers/pull/114 (1.10.5-GTNH)
 > * [bs] update dependencies by @bombcar in https://github.com/GTNewHorizons/OpenComputers/pull/115 (1.10.5-GTNH)
 > * Fix AE2 Integration by @Pelotrio in https://github.com/GTNewHorizons/OpenComputers/pull/113 (1.10.3-GTNH)
@@ -2019,6 +2028,7 @@
 > * Fix unhandled side for redstone connection by @OneEyeMaker in https://github.com/GTNewHorizons/OpenComputers/pull/111 (1.10.0-GTNH)
 >
 >## New Contributors
+> * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/117 (1.10.7-GTNH)
 > * @Pelotrio made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/113 (1.10.3-GTNH)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/110 (1.10.1-GTNH)
 > * @OneEyeMaker made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/111 (1.10.0-GTNH)
@@ -2802,8 +2812,8 @@
 > * @norbby42 made their first contribution in https://github.com/GTNewHorizons/inventory-tweaks/pull/8 (1.6.2)
 >
 
-# Updated ironchest (6.0.74@Side.BOTH --> 6.0.75@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.73...6.0.75
+# Updated ironchest (6.0.74@Side.BOTH --> 6.0.76-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.73...6.0.76-pre
 >## What's Changed
 > * Bookmark pull feature for iron chests by @Nilau1998 in https://github.com/GTNewHorizons/ironchest/pull/12 (6.0.74)
 >
@@ -2873,9 +2883,10 @@
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/32 (0.2.7)
 >
 
-# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.16@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.16
+# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.17@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.17
 >## What's Changed
+> * Twilight materials book fix by @Gordon-Frohman in https://github.com/GTNewHorizons/twilightforest/pull/47 (2.5.17)
 > * Fix crash when shooting something with TC crossbow by @Lyfts in https://github.com/GTNewHorizons/twilightforest/pull/43 (2.5.16)
 > * Tinkers Construct stats tuning by @Gordon-Frohman in https://github.com/GTNewHorizons/twilightforest/pull/40 (2.5.15)
 > * Tinkers Construct Integration by @Gordon-Frohman in https://github.com/GTNewHorizons/twilightforest/pull/39 (2.5.14)

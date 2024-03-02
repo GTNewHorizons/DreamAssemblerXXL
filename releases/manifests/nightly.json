@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-03-01T16:59:14.597415",
+  "last_updated": "2024-03-02T10:01:47.451304",
   "config": "2.6.0-nightly-2024-03-01",
   "github_mods": {
     "AdventureBackpack2": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.83-pre",
+      "version": "5.09.45.85-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -329,7 +329,7 @@
       "side": "CLIENT"
     },
     "ironchest": {
-      "version": "6.0.75",
+      "version": "6.0.76-pre",
       "side": "BOTH"
     },
     "IronChestMinecarts": {
@@ -421,7 +421,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.3.32-pre",
+      "version": "2.3.34-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -433,7 +433,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.5.22-GTNH-pre",
+      "version": "2.5.23-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -453,7 +453,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.10.6-GTNH",
+      "version": "1.10.7-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -649,7 +649,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.5.16",
+      "version": "2.5.17",
       "side": "BOTH"
     },
     "Universal-Singularities": {
