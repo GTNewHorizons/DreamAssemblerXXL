@@ -730,7 +730,7 @@ class GTNHModpackManager:
 
             headers = {"Accept": "application/octet-stream"}
             if is_github:
-                headers |= {"Authorization": f"token {get_github_token()}", "X-GitHub-Api-Version": "2022-11-28"}
+                headers |= {"Authorization": f"token {get_github_token()}"}
 
             async with self.client.stream(url=download_url, headers=headers, method="GET", follow_redirects=True) as r:
                 try:
