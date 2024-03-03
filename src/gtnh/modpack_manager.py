@@ -1,6 +1,8 @@
 import asyncio
+import glob
 import json
 import os
+import shutil
 from collections import defaultdict
 from pathlib import Path
 from typing import Callable, Optional, Tuple
@@ -14,11 +16,13 @@ from packaging.version import LegacyVersion
 from retry import retry
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
+from gtnh.assembler.exclusions import Exclusions
 from gtnh.defs import (
     AVAILABLE_ASSETS_FILE,
     BLACKLISTED_REPOS_FILE,
     GREEN_CHECK,
     GTNH_MODPACK_FILE,
+    LOCAL_EXCLUDES_FILE,
     MAVEN_BASE_URL,
     OTHER,
     RED_CROSS,
@@ -658,6 +662,13 @@ class GTNHModpackManager:
         """
         return ROOT_DIR / BLACKLISTED_REPOS_FILE
 
+    @property
+    def local_exclusions_path(self) -> Path:
+        """
+        Helper property for the local exclusions file location
+        """
+        return ROOT_DIR / LOCAL_EXCLUDES_FILE
+
     @retry(delay=5, tries=3)
     async def download_asset(
         self,
@@ -927,3 +938,106 @@ class GTNHModpackManager:
                 return True
         else:
             raise ValueError(f"{side} isn't a valid side")
+
+    async def update_pack_inplace(
+        self, release: GTNHRelease, side: Side, minecraft_dir: str, use_symlink: bool = False
+    ) -> None:
+
+        if not os.path.exists(minecraft_dir):
+            log.error(f"{Fore.RED}Minecraft directory `{minecraft_dir}` does not exist{Fore.RESET}")
+            return
+
+        mods_dir = os.path.join(minecraft_dir, "mods")
+        if not os.path.exists(mods_dir):
+            log.error(f"{Fore.RED}Mods directory `{mods_dir}` does not exist{Fore.RESET}")
+            return
+
+        log.info(f"Updating {Fore.GREEN}{side.name}{Fore.RESET} side mods in place")
+
+        exclusions = {
+            Side.CLIENT: Exclusions(self.mod_pack.client_exclusions + self.mod_pack.client_java8_exclusions),
+            Side.SERVER: Exclusions(self.mod_pack.server_exclusions + self.mod_pack.server_java8_exclusions),
+            Side.CLIENT_JAVA9: Exclusions(self.mod_pack.client_exclusions + self.mod_pack.client_java9_exclusions),
+            Side.SERVER_JAVA9: Exclusions(self.mod_pack.server_exclusions + self.mod_pack.server_java9_exclusions),
+        }[side]
+
+        if os.path.exists(self.local_exclusions_path):
+            with open(self.local_exclusions_path, "r") as f:
+                local_exclusions = f.read().splitlines()
+
+        kept_mods = set()
+
+        for mod_dict in release.github_mods.items().__reversed__():
+            mod_ver = self.assets.get_mod_and_version(
+                mod_dict[0], mod_dict[1], side.valid_mod_sides(), source=ModSource.github
+            )
+            if not mod_ver:
+                continue
+
+            mod = mod_ver[0]
+            version = mod_ver[1]
+
+            if mod.name in exclusions:
+                log.debug(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is excluded from the {side.name} side, skipping")
+                continue
+
+            # ignore mods that are excluded in the target mods directory
+            if mod.name in local_exclusions if local_exclusions else []:
+                continue
+
+            mod_cache = get_asset_version_cache_location(mod, version)
+            if not os.path.exists(mod_cache):
+                log.error(f"{Fore.RED}{mod_cache}{Fore.RESET} does not exist after downloading, skipping")
+                continue
+
+            # delete older versions
+            for old_version in mod.versions:
+                if old_version.version_tag == version.version_tag and not mod.needs_attention:
+                    continue
+                mod_dest = os.path.join(mods_dir, os.path.basename(get_asset_version_cache_location(mod, old_version)))
+                if os.path.exists(mod_dest) and mod_dest not in kept_mods:
+                    log.info(f"Deleting old version [{Fore.CYAN}{mod.name}:{old_version.version_tag}{Fore.RESET}]")
+                    os.remove(mod_dest)
+
+            mod_dest = os.path.join(mods_dir, os.path.basename(mod_cache))
+
+            # delete non-matching versions to handle local builds (usually -pre, but not name changes)
+            version_pattern = os.path.basename(mod_cache).replace(version.version_tag, "*")
+            for file in glob.glob(os.path.join(mods_dir, version_pattern)):
+                if file != mod_dest and file not in kept_mods:
+                    log.debug(
+                        f"Deleting unmatched version [{Fore.CYAN}{mod.name} - {os.path.basename(file)}{Fore.RESET}]"
+                    )
+                    os.remove(file)
+
+            kept_mods.add(mod_dest)
+
+            if os.path.exists(mod_dest):
+                log.debug(f"{Fore.YELLOW}{mod.name}{Fore.RESET} already exists in the mods directory, skipping")
+                continue
+
+            # use symlink if set and on unix, otherwise copy
+            if use_symlink and os.name == "posix":
+                log.info(
+                    f"Symlinking [{Fore.CYAN}{mod.name}:{version.version_tag}{Fore.RESET}] to {Fore.CYAN}{mod_dest}{Fore.RESET}"
+                )
+                os.symlink(mod_cache, mod_dest)
+            else:
+                log.info(
+                    f"Copying [{Fore.CYAN}{mod.name}:{version.version_tag}{Fore.RESET}] to {Fore.CYAN}{mod_dest}{Fore.RESET}"
+                )
+                shutil.copy(mod_cache, mod_dest)
+
+        log.info("Cleaning up the mods directory of excluded mods")
+        # delete excluded mods from target mods directory
+        for excluded_mod in local_exclusions if local_exclusions else []:
+            mod = self.assets.get_mod(excluded_mod)
+            if mod:
+                for ver in mod.versions:
+                    mod_cache = get_asset_version_cache_location(mod, ver)
+                    mod_dest = os.path.join(mods_dir, os.path.basename(mod_cache))
+                    if os.path.exists(mod_dest):
+                        log.info(
+                            f"Deleting [{Fore.CYAN}{mod.name}:{ver.version_tag}{Fore.RESET}] from the mods directory"
+                        )
+                        os.remove(mod_dest)

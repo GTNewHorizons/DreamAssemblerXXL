@@ -4,3 +4,4 @@ __pycache__/
 updated_mods.json
 releases/**/*.zip
 releases/curse/
+.inplace_mod_exclusions
