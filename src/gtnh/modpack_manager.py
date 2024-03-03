@@ -23,6 +23,7 @@ from gtnh.defs import (
     GREEN_CHECK,
     GTNH_MODPACK_FILE,
     LOCAL_EXCLUDES_FILE,
+    INPLACE_PINNED_FILE,
     MAVEN_BASE_URL,
     OTHER,
     RED_CROSS,
@@ -138,7 +139,6 @@ class GTNHModpackManager:
                 )
                 continue
             tasks.append(self.update_versionable_from_repo(asset, repo))
-
         gathered = await asyncio.gather(*tasks, return_exceptions=True)
         return any([r for r in gathered])
 
@@ -669,6 +669,13 @@ class GTNHModpackManager:
         """
         return ROOT_DIR / LOCAL_EXCLUDES_FILE
 
+    @property
+    def inplace_pinned_mods(self) -> Path:
+        """
+        Helper property for the local exclusions file location
+        """
+        return ROOT_DIR / INPLACE_PINNED_FILE
+
     @retry(delay=5, tries=3)
     async def download_asset(
         self,
@@ -965,6 +972,10 @@ class GTNHModpackManager:
             with open(self.local_exclusions_path, "r") as f:
                 local_exclusions = f.read().splitlines()
 
+        if os.path.exists(self.inplace_pinned_mods):
+            with open(self.inplace_pinned_mods, "r") as f:
+                pinned_mods = f.read().splitlines()
+
         kept_mods = set()
 
         for mod_dict in release.github_mods.items().__reversed__():
@@ -983,6 +994,11 @@ class GTNHModpackManager:
 
             # ignore mods that are excluded in the target mods directory
             if mod.name in local_exclusions if local_exclusions else []:
+                log.debug(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is locally excluded, skipping")
+                continue
+
+            if mod.name in pinned_mods if pinned_mods else []:
+                log.debug(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is pinned, skipping")
                 continue
 
             mod_cache = get_asset_version_cache_location(mod, version)
