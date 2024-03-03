@@ -965,7 +965,9 @@ class GTNHModpackManager:
             with open(self.local_exclusions_path, "r") as f:
                 local_exclusions = f.read().splitlines()
 
-        for mod_dict in release.github_mods.items():
+        kept_mods = set()
+
+        for mod_dict in release.github_mods.items().__reversed__():
             mod_ver = self.assets.get_mod_and_version(
                 mod_dict[0], mod_dict[1], side.valid_mod_sides(), source=ModSource.github
             )
@@ -993,7 +995,7 @@ class GTNHModpackManager:
                 if old_version.version_tag == version.version_tag and not mod.needs_attention:
                     continue
                 mod_dest = os.path.join(mods_dir, os.path.basename(get_asset_version_cache_location(mod, old_version)))
-                if os.path.exists(mod_dest):
+                if os.path.exists(mod_dest) and mod_dest not in kept_mods:
                     log.info(f"Deleting old version [{Fore.CYAN}{mod.name}:{old_version.version_tag}{Fore.RESET}]")
                     os.remove(mod_dest)
 
@@ -1002,11 +1004,13 @@ class GTNHModpackManager:
             # delete non-matching versions to handle local builds (usually -pre, but not name changes)
             version_pattern = os.path.basename(mod_cache).replace(version.version_tag, "*")
             for file in glob.glob(os.path.join(mods_dir, version_pattern)):
-                if file != mod_dest:
+                if file != mod_dest and file not in kept_mods:
                     log.debug(
                         f"Deleting unmatched version [{Fore.CYAN}{mod.name} - {os.path.basename(file)}{Fore.RESET}]"
                     )
                     os.remove(file)
+
+            kept_mods.add(mod_dest)
 
             if os.path.exists(mod_dest):
                 log.debug(f"{Fore.YELLOW}{mod.name}{Fore.RESET} already exists in the mods directory, skipping")
