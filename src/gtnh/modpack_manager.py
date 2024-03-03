@@ -994,9 +994,7 @@ class GTNHModpackManager:
                     continue
                 mod_dest = os.path.join(mods_dir, os.path.basename(get_asset_version_cache_location(mod, old_version)))
                 if os.path.exists(mod_dest):
-                    log.info(
-                        f"Deleting old version [{Fore.CYAN}{mod.name}:{old_version.version_tag}{Fore.RESET}]"
-                    )
+                    log.info(f"Deleting old version [{Fore.CYAN}{mod.name}:{old_version.version_tag}{Fore.RESET}]")
                     os.remove(mod_dest)
 
             mod_dest = os.path.join(mods_dir, os.path.basename(mod_cache))
@@ -1016,10 +1014,14 @@ class GTNHModpackManager:
 
             # use symlink if set and on unix, otherwise copy
             if use_symlink and os.name == "posix":
-                log.info(f"Symlinking [{Fore.CYAN}{mod.name}:{version.version_tag}{Fore.RESET}] to {Fore.CYAN}{mod_dest}{Fore.RESET}")
+                log.info(
+                    f"Symlinking [{Fore.CYAN}{mod.name}:{version.version_tag}{Fore.RESET}] to {Fore.CYAN}{mod_dest}{Fore.RESET}"
+                )
                 os.symlink(mod_cache, mod_dest)
             else:
-                log.info(f"Copying [{Fore.CYAN}{mod.name}:{version.version_tag}{Fore.RESET}] to {Fore.CYAN}{mod_dest}{Fore.RESET}")
+                log.info(
+                    f"Copying [{Fore.CYAN}{mod.name}:{version.version_tag}{Fore.RESET}] to {Fore.CYAN}{mod_dest}{Fore.RESET}"
+                )
                 shutil.copy(mod_cache, mod_dest)
 
         log.info("Cleaning up the mods directory of excluded mods")
@@ -1031,5 +1033,7 @@ class GTNHModpackManager:
                     mod_cache = get_asset_version_cache_location(mod, ver)
                     mod_dest = os.path.join(mods_dir, os.path.basename(mod_cache))
                     if os.path.exists(mod_dest):
-                        log.info(f"Deleting [{Fore.CYAN}{mod.name}:{ver.version_tag}{Fore.RESET}] from the mods directory")
+                        log.info(
+                            f"Deleting [{Fore.CYAN}{mod.name}:{ver.version_tag}{Fore.RESET}] from the mods directory"
+                        )
                         os.remove(mod_dest)
