@@ -1016,7 +1016,7 @@ class GTNHModpackManager:
             version = mod_ver[1]
 
             if mod.name in exclusions:
-                # log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is excluded from the {side.name} side, skipping")
+                log.debug(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is excluded from the {side.name} side, skipping")
                 continue
 
             # ignore mods that are excluded in the target mods directory
@@ -1025,7 +1025,7 @@ class GTNHModpackManager:
 
             mod_cache = get_asset_version_cache_location(mod, version)
             if not os.path.exists(mod_cache):
-                # log.error(f"{Fore.RED}{mod_cache}{Fore.RESET} does not exist after downloading, skipping")
+                log.error(f"{Fore.RED}{mod_cache}{Fore.RESET} does not exist after downloading, skipping")
                 continue
 
             # delete older versions
@@ -1035,7 +1035,7 @@ class GTNHModpackManager:
                 mod_dest = os.path.join(mods_dir, os.path.basename(get_asset_version_cache_location(mod, old_version)))
                 if os.path.exists(mod_dest):
                     log.info(
-                        f"Deleting old version {Fore.CYAN}{old_version.version_tag}{Fore.RESET} of {Fore.CYAN}{mod.name}{Fore.RESET}"
+                        f"Deleting old version [{Fore.CYAN}{mod.name}:{old_version.version_tag}{Fore.RESET}]"
                     )
                     os.remove(mod_dest)
 
@@ -1045,28 +1045,31 @@ class GTNHModpackManager:
             version_pattern = os.path.basename(mod_cache).replace(version.version_tag, "*")
             for file in glob.glob(os.path.join(mods_dir, version_pattern)):
                 if file != mod_dest:
-                    log.info(f"Deleting old version {Fore.CYAN}{file}{Fore.RESET} of {Fore.CYAN}{mod.name}{Fore.RESET}")
+                    log.debug(
+                        f"Deleting unmatched version [{Fore.CYAN}{mod.name} - {os.path.basename(file)}{Fore.RESET}]"
+                    )
                     os.remove(file)
 
             if os.path.exists(mod_dest):
-                # log.info(f"{Fore.YELLOW}{mod.name}{Fore.RESET} already exists in the mods directory, skipping")
+                log.debug(f"{Fore.YELLOW}{mod.name}{Fore.RESET} already exists in the mods directory, skipping")
                 continue
 
             # use symlink if set and on unix, otherwise copy
             if use_symlink and os.name == "posix":
-                log.info(f"Symlinking {Fore.CYAN}{mod.name}{Fore.RESET} to {Fore.CYAN}{mod_dest}{Fore.RESET}")
+                log.info(f"Symlinking [{Fore.CYAN}{mod.name}:{version.version_tag}{Fore.RESET}] to {Fore.CYAN}{mod_dest}{Fore.RESET}")
                 os.symlink(mod_cache, mod_dest)
             else:
-                log.info(f"Copying {Fore.CYAN}{mod.name}{Fore.RESET} to {Fore.CYAN}{mod_dest}{Fore.RESET}")
+                log.info(f"Copying [{Fore.CYAN}{mod.name}:{version.version_tag}{Fore.RESET}] to {Fore.CYAN}{mod_dest}{Fore.RESET}")
                 shutil.copy(mod_cache, mod_dest)
 
-            # delete excluded mods from target mods directory
-            for excluded_mod in local_exclusions if local_exclusions else []:
-                mod = self.assets.get_mod(excluded_mod)
-                if mod:
-                    for ver in mod.versions:
-                        mod_cache = get_asset_version_cache_location(mod, ver)
-                        mod_dest = os.path.join(mods_dir, os.path.basename(mod_cache))
-                        if os.path.exists(mod_dest):
-                            log.info(f"Deleting {Fore.CYAN}{mod.name}{Fore.RESET} from the mods directory")
-                            os.remove(mod_dest)
+        log.info("Cleaning up the mods directory of excluded mods")
+        # delete excluded mods from target mods directory
+        for excluded_mod in local_exclusions if local_exclusions else []:
+            mod = self.assets.get_mod(excluded_mod)
+            if mod:
+                for ver in mod.versions:
+                    mod_cache = get_asset_version_cache_location(mod, ver)
+                    mod_dest = os.path.join(mods_dir, os.path.basename(mod_cache))
+                    if os.path.exists(mod_dest):
+                        log.info(f"Deleting [{Fore.CYAN}{mod.name}:{ver.version_tag}{Fore.RESET}] from the mods directory")
+                        os.remove(mod_dest)
