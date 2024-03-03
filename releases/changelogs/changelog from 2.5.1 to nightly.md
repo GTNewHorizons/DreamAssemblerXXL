@@ -432,9 +432,12 @@
 > * `@Local` / `@Share` / `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/AppleCore/pull/28 (3.2.12)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-331-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-331-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-333-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-333-GTNH-pre
 >## What's Changed
+> * Enable off-thread rendering with Angelica by @Cleptomania in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/478 (rv3-beta-332-GTNH)
+> * Restore the useTerminalUseLargeFont() method and add @Deprecated by @wohaopa in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/482 (rv3-beta-332-GTNH)
+> * Now more thread safe by @mitchej123 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/484 (rv3-beta-332-GTNH)
 > * Enable off-thread rendering with Angelica by @Cleptomania in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/478 (rv3-beta-330-GTNH-pre)
 > * Add Dynamic Font Size for Terminals by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/474 (rv3-beta-328-GTNH)
 > * fix overflow during serialization by @Glease in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/477 (rv3-beta-328-GTNH)
@@ -472,6 +475,7 @@
 > * Fix crash when opening disconnected interface terminal by @Caedis in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
 >
 >## New Contributors
+> * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/478 (rv3-beta-332-GTNH)
 > * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/478 (rv3-beta-330-GTNH-pre)
 > * @claimg made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/456 (rv3-beta-324-GTNH)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/448 (rv3-beta-306-GTNH)
@@ -945,9 +949,10 @@
 > * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/72 (1.4.3-pre)
 >
 
-# Updated EnderCore (0.2.19@Side.BOTH --> 0.4.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.17...0.4.5
+# Updated EnderCore (0.2.19@Side.BOTH --> 0.4.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.2.17...0.4.6
 >## What's Changed
+> * Remove allocation from BlockCoord.equals() by @ah-OOG-ah in https://github.com/GTNewHorizons/EnderCore/pull/24 (0.4.6)
 > * Fix NEI optional again by @miozune in https://github.com/GTNewHorizons/EnderCore/pull/23 (0.4.5)
 > * prepare for vertex array usage by @boubou19 in https://github.com/GTNewHorizons/EnderCore/pull/21 (0.4.4)
 > * Fix package name for NEI optional annotation by @miozune in https://github.com/GTNewHorizons/EnderCore/pull/20 (0.4.2)
@@ -956,6 +961,7 @@
 > * Get Empty container with drainFluidContainer by @ghostflyby in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.19)
 >
 >## New Contributors
+> * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/24 (0.4.6)
 > * @boubou19 made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/21 (0.4.4)
 > * @Tu0rp made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/18 (0.3.0)
 > * @ghostflyby made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/17 (0.2.19)
@@ -1010,8 +1016,8 @@
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/Eternal-Singularity/pull/9 (1.2.0)
 >
 
-# Updated FindIt (1.1.0@Side.BOTH --> 1.2.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.0.11...1.2.3
+# Updated FindIt (1.1.0@Side.BOTH --> 1.2.4-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.0.11...1.2.4-pre
 >## What's Changed
 > * Search Fluids; Changed Block Highlighter by @slprime in https://github.com/GTNewHorizons/FindIt/pull/13 (1.2.3)
 > * [QoF] Adding feature that automatically rotate player view when find a item/tile entity successfully by @gitboy14 in https://github.com/GTNewHorizons/FindIt/pull/12 (1.2.2)
@@ -1044,9 +1050,10 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForbiddenMagic/pull/12 (0.6.7-GTNH)
 >
 
-# Updated ForestryMC (4.7.1@Side.BOTH --> 4.8.4@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.7.0...4.8.4
+# Updated ForestryMC (4.7.1@Side.BOTH --> 4.8.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.7.0...4.8.5
 >## What's Changed
+> * Thread safe by @mitchej123 in https://github.com/GTNewHorizons/ForestryMC/pull/64 (4.8.5)
 > * Allocation reduction by @mitchej123 in https://github.com/GTNewHorizons/ForestryMC/pull/62 (4.8.4)
 > * [bs] fix buildscripts for jenkins by @bombcar in https://github.com/GTNewHorizons/ForestryMC/pull/61 (4.8.2)
 > * Remove Version Checker by @glowredman in https://github.com/GTNewHorizons/ForestryMC/pull/60 (4.8.1)
@@ -1098,9 +1105,12 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.85-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.85-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.87-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.87-pre
 >## What's Changed
+> * Fix translations added before config init not being added to MC lang manager by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2519 (5.09.45.86)
+> * Small fixes for Drone Center  by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2520 (5.09.45.86)
+> * Restore overlay textures removed by mistake in #1671 by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2521 (5.09.45.86)
 > * Add SC steam to turbine tooltip by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2515 (5.09.45.85-pre)
 > * Add cable info to WAILA by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2518 (5.09.45.85-pre)
 > * Add SC steam to turbine tooltip by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2515 (5.09.45.84)
@@ -2113,9 +2123,10 @@
 > * Log what class received by @miozune in https://github.com/GTNewHorizons/ProjectBlue/pull/4 (1.1.12-GTNH)
 >
 
-# Updated ProjectRed (4.8.1-GTNH@Side.BOTH --> 4.9.4-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.8.0-GTNH...4.9.4-GTNH
+# Updated ProjectRed (4.8.1-GTNH@Side.BOTH --> 4.9.5-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.8.0-GTNH...4.9.5-GTNH
 >## What's Changed
+> * Fixes wool gin recipe by @chochem in https://github.com/GTNewHorizons/ProjectRed/pull/33 (4.9.5-GTNH)
 > * Lamp Metadata Fix (Compat with NotEnoughIds 2.0+) by @Cleptomania in https://github.com/GTNewHorizons/ProjectRed/pull/32 (4.9.4-GTNH)
 > * Fix missing call to `startDrawing()` by @UltraHex in https://github.com/GTNewHorizons/ProjectRed/pull/30 (4.9.3-GTNH)
 > * update the chickens to have multiple threads by @bombcar in https://github.com/GTNewHorizons/ProjectRed/pull/29 (4.9.2-GTNH)
@@ -2123,6 +2134,7 @@
 > * Angelica compat - don't rebind textures by @ah-OOG-ah in https://github.com/GTNewHorizons/ProjectRed/pull/27 (4.9.0-GTNH)
 >
 >## New Contributors
+> * @chochem made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/33 (4.9.5-GTNH)
 > * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/32 (4.9.4-GTNH)
 > * @UltraHex made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/30 (4.9.3-GTNH)
 > * @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/27 (4.9.0-GTNH)
@@ -2821,8 +2833,8 @@
 > * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/12 (6.0.74)
 >
 
-# Updated lwjgl3ify (1.5.7@Side.BOTH_JAVA9 --> 2.0.0-alpha-9@Side.BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.6...2.0.0-alpha-9
+# Updated lwjgl3ify (1.5.7@Side.BOTH_JAVA9 --> 2.0.0-alpha-10@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.6...2.0.0-alpha-10
 >## What's Changed
 > * Fixes Enum Duplication Issue by @KAMKEEL in https://github.com/GTNewHorizons/lwjgl3ify/pull/118 (2.0.0-alpha-3)
 > * Add Config Toggle to Enable / Disable HRTF Bools in OpenAl by @KAMKEEL in https://github.com/GTNewHorizons/lwjgl3ify/pull/119 (2.0.0-alpha-3)
