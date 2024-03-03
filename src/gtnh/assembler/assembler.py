@@ -1,14 +1,13 @@
 from pathlib import Path
 from typing import Awaitable, Callable, Dict, List, Optional
 
-from structlog import get_logger
-
 from gtnh.assembler.curse import CurseAssembler
 from gtnh.assembler.modrinth import ModrinthAssembler
 from gtnh.assembler.multi_poly import MMCAssembler
 from gtnh.assembler.technic import TechnicAssembler
 from gtnh.assembler.zip_assembler import ZipAssembler
 from gtnh.defs import RELEASE_CHANGELOG_DIR, Archive, Side
+from gtnh.gtnh_logger import get_logger
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.modpack_manager import GTNHModpackManager
 from gtnh.utils import compress_changelog

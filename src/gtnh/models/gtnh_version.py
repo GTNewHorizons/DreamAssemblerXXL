@@ -4,9 +4,9 @@ from datetime import datetime
 from typing import List, Optional, Tuple
 
 from pydantic import Field
-from structlog import get_logger
 
 from gtnh.defs import VersionableType
+from gtnh.gtnh_logger import get_logger
 from gtnh.models.base import GTNHBaseModel
 from gtnh.utils import AttributeDict
 
