@@ -2824,8 +2824,8 @@
 > * @norbby42 made their first contribution in https://github.com/GTNewHorizons/inventory-tweaks/pull/8 (1.6.2)
 >
 
-# Updated ironchest (6.0.74@Side.BOTH --> 6.0.76-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.73...6.0.76-pre
+# Updated ironchest (6.0.74@Side.BOTH --> 6.0.77-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.73...6.0.77-pre
 >## What's Changed
 > * Bookmark pull feature for iron chests by @Nilau1998 in https://github.com/GTNewHorizons/ironchest/pull/12 (6.0.74)
 >
