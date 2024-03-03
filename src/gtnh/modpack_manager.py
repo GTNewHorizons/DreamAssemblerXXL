@@ -1021,7 +1021,7 @@ class GTNHModpackManager:
                 pinned_mods = f.read().splitlines()
 
         # cache all active mods
-        active_mods = [x for x in glob.glob("**/*.jar", root_dir=mods_dir, recursive=True)]
+        active_mods = glob.glob("*.jar", root_dir=mods_dir) + glob.glob("1.7.10/*.jar", root_dir=mods_dir)
         kept_mods = set()
 
         for mod_dict in release.github_mods.items().__reversed__():
