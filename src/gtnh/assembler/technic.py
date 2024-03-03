@@ -1,4 +1,3 @@
-import logging
 import re
 import shutil
 from pathlib import Path
@@ -8,14 +7,14 @@ from zipfile import ZIP_DEFLATED, ZipFile
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
 from gtnh.defs import RELEASE_TECHNIC_DIR, Side
+from gtnh.gtnh_logger import get_logger
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
-log = logging.getLogger("technic process")
-log.setLevel(logging.INFO)
+log = get_logger("technic process")
 
 
 def technify(string: str) -> str:

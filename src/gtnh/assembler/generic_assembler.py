@@ -4,11 +4,11 @@ from typing import Callable, Dict, List, Optional, Set, Tuple, Union
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from colorama import Fore
-from structlog import get_logger
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.exclusions import Exclusions
 from gtnh.defs import README_TEMPLATE, RELEASE_README_DIR, ModSource, Side
+from gtnh.gtnh_logger import get_logger
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion

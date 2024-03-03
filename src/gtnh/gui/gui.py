@@ -7,12 +7,12 @@ from typing import Any, Awaitable, Callable, Dict, List, Optional, Set, Tuple, U
 
 import httpx
 from colorama import Fore
-from structlog import get_logger
 from ttkthemes import ThemedTk
 
 from gtnh.assembler.assembler import ReleaseAssembler
 from gtnh.defs import Archive, ModSource, Position, Side
 from gtnh.exceptions import NoModAssetFound, ReleaseNotFoundException
+from gtnh.gtnh_logger import get_logger
 from gtnh.gui.exclusion.exclusion_panel import ExclusionPanel, ExclusionPanelCallback
 from gtnh.gui.external.external_panel import ExternalPanel, ExternalPanelCallback
 from gtnh.gui.github.github_panel import GithubPanel, GithubPanelCallback

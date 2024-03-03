@@ -12,7 +12,6 @@ from gidgethub.httpx import GitHubAPI
 from httpx import AsyncClient, HTTPStatusError
 from packaging.version import LegacyVersion
 from retry import retry
-from structlog import get_logger
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.defs import (
@@ -31,6 +30,7 @@ from gtnh.defs import (
 )
 from gtnh.exceptions import InvalidReleaseException, RepoNotFoundException
 from gtnh.github.uri import latest_release_uri, org_repos_uri, repo_releases_uri, repo_uri
+from gtnh.gtnh_logger import get_logger
 from gtnh.models.available_assets import AvailableAssets
 from gtnh.models.gtnh_config import CONFIG_REPO_NAME
 from gtnh.models.gtnh_modpack import GTNHModpack
@@ -165,7 +165,7 @@ class GTNHModpackManager:
         version_updated = False
         versionable_updated = False
         version_outdated = False
-        log.info(
+        log.debug(
             f"Checking {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{versionable.latest_version}{Fore.RESET} for updates"
         )
         latest_release = await self.get_latest_github_release(repo)
@@ -175,7 +175,7 @@ class GTNHModpackManager:
         if version_is_newer(latest_version, versionable.latest_version):
             # Candidate update found
             version_updated = True
-            log.info(
+            log.debug(
                 f"Found candidate newer version for mod {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{latest_version}"
                 f"{Fore.RESET}"
             )
@@ -197,7 +197,7 @@ class GTNHModpackManager:
 
         if versionable_updated:
             self.needs_attention = False
-            log.info(f"Updated {Fore.CYAN}{versionable.name}{Fore.RESET}!")
+            log.debug(f"Updated {Fore.CYAN}{versionable.name}{Fore.RESET}!")
 
         return versionable_updated or version_outdated  # If outdated we've flagged it and want to save the asset
 
@@ -227,7 +227,7 @@ class GTNHModpackManager:
             maven = await self.get_maven(mod.name)
             if maven:
                 mod.maven = maven
-                log.info(f"Updated Maven: {mod.maven}")
+                log.debug(f"Updated Maven: {mod.maven}")
                 mod_updated = True
 
         if mod.private != repo.get("private"):
@@ -277,14 +277,14 @@ class GTNHModpackManager:
                 continue
 
             if version_is_newer(version.version_tag, asset.latest_version):
-                log.info(
+                log.debug(
                     f"Updating latest version for `{Fore.CYAN}{asset.name}{Fore.RESET}` "
                     f"{Style.DIM}{Fore.GREEN}{asset.latest_version}{Style.RESET_ALL} -> "
                     f"{Fore.GREEN}{version.version_tag}{Style.RESET_ALL}"
                 )
                 asset.latest_version = version.version_tag
 
-            log.info(
+            log.debug(
                 f"Adding version {Fore.GREEN}`{version.version_tag}`{Style.RESET_ALL} for asset "
                 f"`{Fore.CYAN}{asset.name}{Fore.RESET}`"
             )
@@ -306,7 +306,7 @@ class GTNHModpackManager:
                 mod_license = repo_license.name
                 log.info(f"Found license `{Fore.YELLOW}{mod_license}{Fore.RESET}` from repo")
         except BadRequest:
-            log.info("No license found from repo")
+            log.warn("No license found from repo")
 
         if mod_license in [None, UNKNOWN, OTHER] and allow_fallback:
             with open(ROOT_DIR / "licenses_from_boubou.json") as f:
@@ -378,7 +378,7 @@ class GTNHModpackManager:
 
         log.info(f"Assembling release: `{Fore.GREEN}{version}{Fore.RESET}`")
         if overrides:
-            log.info(f"Using overrides: `{Fore.GREEN}{overrides}{Fore.RESET}`")
+            log.debug(f"Using overrides: `{Fore.GREEN}{overrides}{Fore.RESET}`")
 
         exclude = exclude or set()
 
@@ -438,7 +438,7 @@ class GTNHModpackManager:
                     continue
 
                 overide_str = f"{Fore.RED} ** OVERRIDE **{Fore.RESET}" if override else ""
-                log.info(
+                log.debug(
                     f"{source_str} Using `{Fore.CYAN}{mod.name}{Fore.RESET}:{Fore.YELLOW}{mod_version}{Fore.RESET}{overide_str}"
                 )
 
@@ -482,7 +482,7 @@ class GTNHModpackManager:
 
         new_repo = await self.get_repo(name)
         if self.assets.has_mod(new_repo.name):
-            log.info(f"Mod `{name}` already exists.")
+            log.debug(f"Mod `{name}` already exists.")
             return None
 
         new_mod = await self.mod_from_repo(new_repo)
@@ -502,7 +502,7 @@ class GTNHModpackManager:
         log.info(f"Trying to delete `{name}`.")
 
         if not self.assets.has_mod(name):
-            log.info(f"Mod `{name}` is not present in the assets.")
+            log.warn(f"Mod `{name}` is not present in the assets.")
             return False
 
         mod_index: int = 0
@@ -520,7 +520,7 @@ class GTNHModpackManager:
         return True
 
     async def regen_github_assets(self, callback: Optional[Callable[[float, str], None]] = None) -> None:
-        log.info("refreshing all the github mods")
+        log.debug("refreshing all the github mods")
         repo_names = [mod.name for mod in self.assets.mods if mod.source == ModSource.github]
         delta_progress: float = 100 / len(repo_names)
         for repo_name in repo_names:
@@ -580,7 +580,7 @@ class GTNHModpackManager:
         """
         Load the Available Mods manifest
         """
-        log.info(f"Loading mods from {self.gtnh_asset_manifest_path}")
+        log.debug(f"Loading mods from {self.gtnh_asset_manifest_path}")
         with open(self.gtnh_asset_manifest_path, encoding="utf-8") as f:
             return AvailableAssets.parse_raw(f.read())
 
@@ -588,7 +588,7 @@ class GTNHModpackManager:
         """
         Load the GTNH Modpack manifest
         """
-        log.info(f"Loading GTNH Modpack from {self.modpack_manifest_path}")
+        log.debug(f"Loading GTNH Modpack from {self.modpack_manifest_path}")
         with open(self.modpack_manifest_path, encoding="utf-8") as f:
             return GTNHModpack.parse_raw(f.read())
 
@@ -596,7 +596,7 @@ class GTNHModpackManager:
         """
         Save the GTNH Modpack manifest
         """
-        log.info(f"Saving modpack asset to from {self.modpack_manifest_path}")
+        log.debug(f"Saving modpack asset to from {self.modpack_manifest_path}")
         dumped = self.mod_pack.json(exclude_unset=True, exclude_none=True, exclude_defaults=True)
         if dumped:
             with open(self.modpack_manifest_path, "w", encoding="utf-8") as f:
@@ -608,7 +608,7 @@ class GTNHModpackManager:
         """
         Saves the Available Mods Manifest
         """
-        log.info(f"Saving assets to from {self.gtnh_asset_manifest_path}")
+        log.debug(f"Saving assets to from {self.gtnh_asset_manifest_path}")
         dumped = self.assets.json(exclude={"_modmap"}, exclude_unset=True, exclude_none=True)
         if dumped:
             with open(self.gtnh_asset_manifest_path, "w", encoding="utf-8") as f:
@@ -683,7 +683,7 @@ class GTNHModpackManager:
 
         private_repo = f" {Fore.MAGENTA}<PRIVATE REPO>{Fore.RESET}" if asset.private else ""
 
-        log.info(
+        log.debug(
             f"Downloading {type} Asset `{Fore.CYAN}{asset.name}:{Fore.YELLOW}{asset_version}{Fore.RESET}` from "
             f"{version.browser_download_url}{private_repo}"
         )
@@ -697,7 +697,7 @@ class GTNHModpackManager:
 
         for mod_filename, download_url in files_to_download:
             if os.path.exists(mod_filename):
-                log.info(f"{Fore.YELLOW}Skipping re-redownload of {mod_filename}{Fore.RESET}")
+                log.debug(f"{Fore.YELLOW}Skipping re-redownload of {mod_filename}{Fore.RESET}")
                 if download_callback:
                     download_callback(str(mod_filename.name))
                 continue
@@ -748,7 +748,7 @@ class GTNHModpackManager:
                 mod.
         """
 
-        log.info(f"Downloading mods for Release `{Fore.LIGHTYELLOW_EX}{release.version}{Fore.RESET}`")
+        log.debug(f"Downloading mods for Release `{Fore.LIGHTYELLOW_EX}{release.version}{Fore.RESET}`")
 
         # computation of the progress per mod for the progressbar
         delta_progress = 100 / (len(release.github_mods) + len(release.external_mods) + 1)  # +1 for the config

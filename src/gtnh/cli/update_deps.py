@@ -19,9 +19,9 @@ import re
 import asyncclick as click
 import httpx
 from in_place import InPlace
-from structlog import get_logger
 
 from gtnh.defs import ModSource
+from gtnh.gtnh_logger import get_logger
 from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
@@ -66,9 +66,9 @@ async def find_and_update_deps() -> None:
                         fp.write(line)
                         continue
                     else:
-                        log.info(f"{mod_name} is already at the latest version '{latest_version}'")
+                        log.debug(f"{mod_name} is already at the latest version '{latest_version}'")
                 else:
-                    log.info(f"No latest version info for mod {mod_name}")
+                    log.warn(f"No latest version info for mod {mod_name}")
 
             # No match
             fp.write(line)
@@ -82,7 +82,7 @@ def verify_gtnh_maven() -> None:
     with open(REPO_FILE) as fp:
         repos = fp.read()
         if repos.find("http://jenkins.usrv.eu:8081/nexus/content/groups/public/") != -1:
-            log.info("GTNH Maven already found")
+            log.debug("GTNH Maven already found")
             return
 
     with InPlace(REPO_FILE) as fp:

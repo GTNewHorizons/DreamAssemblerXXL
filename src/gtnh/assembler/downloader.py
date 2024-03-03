@@ -3,9 +3,8 @@ import os
 import re
 from pathlib import Path
 
-from structlog import get_logger
-
 from gtnh.defs import CACHE_DIR
+from gtnh.gtnh_logger import get_logger
 from gtnh.models.gtnh_version import ExtraAsset, GTNHVersion
 from gtnh.models.versionable import Versionable
 
