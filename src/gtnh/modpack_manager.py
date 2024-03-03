@@ -2,6 +2,7 @@ import asyncio
 import glob
 import json
 import os
+import re
 import shutil
 from collections import defaultdict
 from pathlib import Path
@@ -22,8 +23,8 @@ from gtnh.defs import (
     BLACKLISTED_REPOS_FILE,
     GREEN_CHECK,
     GTNH_MODPACK_FILE,
-    LOCAL_EXCLUDES_FILE,
     INPLACE_PINNED_FILE,
+    LOCAL_EXCLUDES_FILE,
     MAVEN_BASE_URL,
     OTHER,
     RED_CROSS,
@@ -1000,7 +1001,9 @@ class GTNHModpackManager:
             log.error(f"{Fore.RED}Mods directory `{mods_dir}` does not exist{Fore.RESET}")
             return
 
-        log.info(f"Updating {Fore.GREEN}{side.name}{Fore.RESET} side mods in place")
+        log.info(
+            f"Updating {Fore.GREEN}{side.name}{Fore.RESET} side mods in place at {Fore.CYAN}{mods_dir}{Fore.RESET}"
+        )
 
         exclusions = {
             Side.CLIENT: Exclusions(self.mod_pack.client_exclusions + self.mod_pack.client_java8_exclusions),
@@ -1017,6 +1020,8 @@ class GTNHModpackManager:
             with open(self.inplace_pinned_mods, "r") as f:
                 pinned_mods = f.read().splitlines()
 
+        # cache all active mods
+        active_mods = [x for x in glob.glob("**/*.jar", root_dir=mods_dir, recursive=True)]
         kept_mods = set()
 
         for mod_dict in release.github_mods.items().__reversed__():
@@ -1043,7 +1048,7 @@ class GTNHModpackManager:
                 continue
 
             mod_cache = get_asset_version_cache_location(mod, version)
-            if not os.path.exists(mod_cache):
+            if not mod_cache.exists():
                 log.error(f"{Fore.RED}{mod_cache}{Fore.RESET} does not exist after downloading, skipping")
                 continue
 
@@ -1051,25 +1056,30 @@ class GTNHModpackManager:
             for old_version in mod.versions:
                 if old_version.version_tag == version.version_tag and not mod.needs_attention:
                     continue
-                mod_dest = os.path.join(mods_dir, os.path.basename(get_asset_version_cache_location(mod, old_version)))
-                if os.path.exists(mod_dest) and mod_dest not in kept_mods:
-                    log.info(f"Deleting old version [{Fore.CYAN}{mod.name}:{old_version.version_tag}{Fore.RESET}]")
-                    os.remove(mod_dest)
+                to_remove = os.path.basename(get_asset_version_cache_location(mod, old_version))
+                for file in active_mods:
+                    file_base = os.path.basename(file)
+                    if file_base == to_remove and file_base not in kept_mods:
+                        log.debug(f"Deleting old version [{Fore.CYAN}{mod.name} - {os.path.basename(file)}{Fore.RESET}]")
+                        os.remove(os.path.join(mods_dir, file))
+                        active_mods.remove(file)
 
-            mod_dest = os.path.join(mods_dir, os.path.basename(mod_cache))
+            file_name = mod_cache.name
+            mod_dest = os.path.join(mods_dir, file_name)
 
             # delete non-matching versions to handle local builds (usually -pre, but not name changes)
-            version_pattern = os.path.basename(mod_cache).replace(version.version_tag, "*")
-            for file in glob.glob(os.path.join(mods_dir, version_pattern)):
-                if file != mod_dest and file not in kept_mods:
-                    log.debug(
-                        f"Deleting unmatched version [{Fore.CYAN}{mod.name} - {os.path.basename(file)}{Fore.RESET}]"
-                    )
-                    os.remove(file)
+            version_pattern = re.escape(file_name).replace(re.escape(version.version_tag), ".*")
 
-            kept_mods.add(mod_dest)
+            for file in active_mods:
+                file_base = os.path.basename(file)
+                if file_base != file_name and re.match(version_pattern, file_base) and file_base not in kept_mods:
+                    log.debug(f"Deleting unmatched version [{Fore.CYAN}{mod.name} - {file}{Fore.RESET}]")
+                    os.remove(os.path.join(mods_dir, file))
+                    active_mods.remove(file)
 
-            if os.path.exists(mod_dest):
+            kept_mods.add(file_name)
+
+            if any(file_name == os.path.basename(file) for file in active_mods):
                 log.debug(f"{Fore.YELLOW}{mod.name}{Fore.RESET} already exists in the mods directory, skipping")
                 continue
 
@@ -1085,6 +1095,8 @@ class GTNHModpackManager:
                 )
                 shutil.copy(mod_cache, mod_dest)
 
+            active_mods.append(file_name)
+
         log.info("Cleaning up the mods directory of excluded mods")
         # delete excluded mods from target mods directory
         for excluded_mod in local_exclusions if local_exclusions else []:
@@ -1092,7 +1104,7 @@ class GTNHModpackManager:
             if mod:
                 for ver in mod.versions:
                     mod_cache = get_asset_version_cache_location(mod, ver)
-                    mod_dest = os.path.join(mods_dir, os.path.basename(mod_cache))
+                    mod_dest = os.path.join(mods_dir, mod_cache.name)
                     if os.path.exists(mod_dest):
                         log.info(
                             f"Deleting [{Fore.CYAN}{mod.name}:{ver.version_tag}{Fore.RESET}] from the mods directory"
