@@ -1,8 +1,8 @@
 # Using LegacyVersion because we want everything to be comparable
 from pydantic import Field
-from structlog import get_logger
 
 from gtnh.defs import UNKNOWN, ModSource, Side
+from gtnh.gtnh_logger import get_logger
 from gtnh.models.base import GTNHBaseModel
 from gtnh.models.versionable import Versionable
 

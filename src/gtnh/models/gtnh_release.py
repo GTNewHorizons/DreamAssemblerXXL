@@ -3,9 +3,9 @@ from typing import Dict
 
 from colorama import Fore
 from pydantic import Field, ValidationError
-from structlog import get_logger
 
 from gtnh.defs import GREEN_CHECK, RED_CROSS, RELEASE_MANIFEST_DIR
+from gtnh.gtnh_logger import get_logger
 from gtnh.models.available_assets import AvailableAssets
 from gtnh.models.base import GTNHBaseModel
 from gtnh.models.mod_version_info import ModVersionInfo

@@ -2,10 +2,10 @@ import asyncclick as click
 import gidgethub
 import httpx
 from gidgethub.httpx import GitHubAPI
-from structlog import get_logger
 
 from gtnh.defs import ModSource
 from gtnh.github.uri import repo_releases_uri
+from gtnh.gtnh_logger import get_logger
 from gtnh.modpack_manager import GTNHModpackManager
 from gtnh.utils import get_github_token
 

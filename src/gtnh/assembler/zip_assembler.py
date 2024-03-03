@@ -3,11 +3,10 @@ from pathlib import Path
 from typing import Callable, List, Optional, Tuple
 from zipfile import ZIP_DEFLATED, ZipFile
 
-from structlog import get_logger
-
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
 from gtnh.defs import RELEASE_ZIP_DIR, SERVER_ASSETS_DIR, ServerBrand, Side
+from gtnh.gtnh_logger import get_logger
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
