@@ -1,9 +1,9 @@
 import asyncclick as click
 import httpx
-from structlog import get_logger
 
 from gtnh.defs import Side
 from gtnh.exceptions import ReleaseNotFoundException
+from gtnh.gtnh_logger import get_logger
 from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)
