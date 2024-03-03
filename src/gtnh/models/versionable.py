@@ -2,9 +2,9 @@ import bisect
 
 from packaging.version import LegacyVersion
 from pydantic import BaseModel, Field
-from structlog import get_logger
 
 from gtnh.defs import VersionableType
+from gtnh.gtnh_logger import get_logger
 from gtnh.models.gtnh_version import GTNHVersion
 
 log = get_logger(__name__)

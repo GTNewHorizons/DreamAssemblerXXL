@@ -1,10 +1,10 @@
 import asyncclick as click
 from colorama import Fore
 from httpx import AsyncClient
-from structlog import get_logger
 
 from gtnh.assembler.assembler import ReleaseAssembler
 from gtnh.defs import Side
+from gtnh.gtnh_logger import get_logger
 from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger(__name__)

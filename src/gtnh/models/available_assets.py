@@ -3,10 +3,10 @@ from functools import cached_property
 from typing import Dict, List
 
 from pydantic import Field
-from structlog import get_logger
 
 from gtnh.defs import ModSource, Side
 from gtnh.exceptions import NoModAssetFound
+from gtnh.gtnh_logger import get_logger
 from gtnh.models.base import GTNHBaseModel
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_version import GTNHVersion
