@@ -227,7 +227,7 @@ class GTNHModpackManager:
             maven = await self.get_maven(mod.name)
             if maven:
                 mod.maven = maven
-                log.info(f"Updated Maven: {mod.maven}")
+                log.debug(f"Updated Maven: {mod.maven}")
                 mod_updated = True
 
         if mod.private != repo.get("private"):
