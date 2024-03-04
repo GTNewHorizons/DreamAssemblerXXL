@@ -1880,9 +1880,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/NetherPortalFix/pull/1 (1.1.2)
 >
 
-# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.36@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.36
+# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.37-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.37-pre
 >## What's Changed
+> * add recipes for Dark Steel chest by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/817 (2.3.37-pre)
 > * add recipes for Dark Steel chest by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/817 (2.3.36)
 > * Fix moon buggy copy recipe and related fixes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/816 (2.3.33)
 > * Apply TiC recipe category by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/814 (2.3.33)
