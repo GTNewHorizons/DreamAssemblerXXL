@@ -983,7 +983,7 @@ class GTNHModpackManager:
         active_mods = glob.glob("*.jar", root_dir=mods_dir) + glob.glob("1.7.10/*.jar", root_dir=mods_dir)
         kept_mods = set()
 
-        for mod_dict in release.github_mods.items().__reversed__():
+        for mod_dict in (release.github_mods | release.external_mods).items().__reversed__():
             mod_ver = self.assets.get_mod_and_version(
                 mod_dict[0], mod_dict[1], side.valid_mod_sides(), source=ModSource.github
             )
