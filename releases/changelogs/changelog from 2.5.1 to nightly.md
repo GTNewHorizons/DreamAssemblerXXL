@@ -436,9 +436,11 @@
 > * `@Local` / `@Share` / `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/AppleCore/pull/28 (3.2.12)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-333-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-333-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-335-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-335-GTNH-pre
 >## What's Changed
+> * Fix index out of bounds error when trying to craft. by @koiNoCirculation in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/480 (rv3-beta-335-GTNH-pre)
+> * Fix index out of bounds error when trying to craft. by @koiNoCirculation in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/480 (rv3-beta-334-GTNH)
 > * Enable off-thread rendering with Angelica by @Cleptomania in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/478 (rv3-beta-332-GTNH)
 > * Restore the useTerminalUseLargeFont() method and add @Deprecated by @wohaopa in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/482 (rv3-beta-332-GTNH)
 > * Now more thread safe by @mitchej123 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/484 (rv3-beta-332-GTNH)
@@ -479,6 +481,8 @@
 > * Fix crash when opening disconnected interface terminal by @Caedis in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/438 (rv3-beta-300-GTNH)
 >
 >## New Contributors
+> * @koiNoCirculation made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/480 (rv3-beta-335-GTNH-pre)
+> * @koiNoCirculation made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/480 (rv3-beta-334-GTNH)
 > * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/478 (rv3-beta-332-GTNH)
 > * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/478 (rv3-beta-330-GTNH-pre)
 > * @claimg made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/456 (rv3-beta-324-GTNH)
@@ -1055,14 +1059,18 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForbiddenMagic/pull/12 (0.6.7-GTNH)
 >
 
-# Updated ForestryMC (4.7.1@Side.BOTH --> 4.8.6-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.7.0...4.8.6-pre
+# Updated ForestryMC (4.7.1@Side.BOTH --> 4.8.7@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.7.0...4.8.7
 >## What's Changed
+> * Fix handling pam's coffee and tea crops by @leumasme in https://github.com/GTNewHorizons/ForestryMC/pull/66 (4.8.7)
 > * Thread safe by @mitchej123 in https://github.com/GTNewHorizons/ForestryMC/pull/64 (4.8.5)
 > * Allocation reduction by @mitchej123 in https://github.com/GTNewHorizons/ForestryMC/pull/62 (4.8.4)
 > * [bs] fix buildscripts for jenkins by @bombcar in https://github.com/GTNewHorizons/ForestryMC/pull/61 (4.8.2)
 > * Remove Version Checker by @glowredman in https://github.com/GTNewHorizons/ForestryMC/pull/60 (4.8.1)
 > * Add name for butterflyGE by @bombcar in https://github.com/GTNewHorizons/ForestryMC/pull/59 (4.8.0)
+>
+>## New Contributors
+> * @leumasme made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/66 (4.8.7)
 >
 
 # Updated ForgeMultipart (1.4.1@Side.BOTH --> 1.4.8@Side.BOTH)
@@ -1110,8 +1118,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.89-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.89-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.90-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.90-pre
 >## What's Changed
 > * Maybe thread safe by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2523 (5.09.45.89-pre)
 > * Maybe thread safe by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2523 (5.09.45.88)
@@ -1340,9 +1348,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
 
-# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.32@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.32
+# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.33@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.33
 >## What's Changed
+> * Remove GL11 Calls by @BlueWeabo in https://github.com/GTNewHorizons/GTplusplus/pull/844 (1.11.33)
 > * Enable input separation for the Cutting Factory. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/843 (1.11.32)
 > * Tree Growth Simulator can now harvest leaves and fruits, using appropriate tools. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/839 (1.11.31)
 > * Fix several recipes by @HoleFish in https://github.com/GTNewHorizons/GTplusplus/pull/842 (1.11.31)
