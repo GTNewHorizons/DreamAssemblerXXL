@@ -1060,7 +1060,7 @@ class GTNHModpackManager:
                 for file in active_mods:
                     file_base = os.path.basename(file)
                     if file_base == to_remove and file_base not in kept_mods:
-                        log.debug(
+                        log.info(
                             f"Deleting old version [{Fore.CYAN}{mod.name} - {os.path.basename(file)}{Fore.RESET}]"
                         )
                         os.remove(os.path.join(mods_dir, file))
@@ -1075,7 +1075,7 @@ class GTNHModpackManager:
             for file in active_mods:
                 file_base = os.path.basename(file)
                 if file_base != file_name and re.match(version_pattern, file_base) and file_base not in kept_mods:
-                    log.debug(f"Deleting unmatched version [{Fore.CYAN}{mod.name} - {file}{Fore.RESET}]")
+                    log.info(f"Deleting unmatched version [{Fore.CYAN}{mod.name} - {file}{Fore.RESET}]")
                     os.remove(os.path.join(mods_dir, file))
                     active_mods.remove(file)
 
