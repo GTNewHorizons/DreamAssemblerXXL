@@ -73,9 +73,13 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/Amazing-Trophies/pull/6 (1.2.0)
 >
 
-# New Mod - Angelica (1.0.0-alpha31@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/commits/1.0.0-alpha31
+# New Mod - Angelica (1.0.0-alpha33@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/commits/1.0.0-alpha33
 >## What's Changed
+> * Only track rendered sprites on specific RenderBlocks instances by @embeddedt in https://github.com/GTNewHorizons/Angelica/pull/355 (1.0.0-alpha33)
+> * Try an Int2ObjectMap instead of an ObjectList by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/348 (1.0.0-alpha32)
+> * Add JSON models and a dynamic model API by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/338 (1.0.0-alpha32)
+> * Maybe fix memory leak by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/354 (1.0.0-alpha32)
 > * Ignore the iris/mcpf configs, hardcode angelica-modules.cfg filename by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/333 (1.0.0-alpha31)
 > * Replace config with gtnhlib's config by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/337 (1.0.0-alpha31)
 > * Up required gtnhlib version to 0.2.9 by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/340 (1.0.0-alpha31)
@@ -569,9 +573,10 @@
 > * Create zh_CN.lang by @Ginsway in https://github.com/GTNewHorizons/BetterAchievements/pull/3 (0.1.3)
 >
 
-# Updated BetterBuildersWands (0.10.1-GTNH@Side.BOTH --> 0.11.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BetterBuildersWands/compare/0.10.0-GTNH...0.11.0-GTNH
+# Updated BetterBuildersWands (0.10.1-GTNH@Side.BOTH --> 0.11.1-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BetterBuildersWands/compare/0.10.0-GTNH...0.11.1-GTNH
 >## What's Changed
+> * Fix block highlight looking laggy by @leumasme in https://github.com/GTNewHorizons/BetterBuildersWands/pull/11 (0.11.1-GTNH)
 > * Suppress missing version warning by @bombcar in https://github.com/GTNewHorizons/BetterBuildersWands/pull/10 (0.10.1-GTNH)
 >
 
@@ -1050,8 +1055,8 @@
 > * @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ForbiddenMagic/pull/12 (0.6.7-GTNH)
 >
 
-# Updated ForestryMC (4.7.1@Side.BOTH --> 4.8.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.7.0...4.8.5
+# Updated ForestryMC (4.7.1@Side.BOTH --> 4.8.6-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.7.0...4.8.6-pre
 >## What's Changed
 > * Thread safe by @mitchej123 in https://github.com/GTNewHorizons/ForestryMC/pull/64 (4.8.5)
 > * Allocation reduction by @mitchej123 in https://github.com/GTNewHorizons/ForestryMC/pull/62 (4.8.4)
@@ -1105,9 +1110,11 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.87-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.87-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.89-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.89-pre
 >## What's Changed
+> * Maybe thread safe by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2523 (5.09.45.89-pre)
+> * Maybe thread safe by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2523 (5.09.45.88)
 > * Fix translations added before config init not being added to MC lang manager by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2519 (5.09.45.86)
 > * Small fixes for Drone Center  by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2520 (5.09.45.86)
 > * Restore overlay textures removed by mistake in #1671 by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2521 (5.09.45.86)
@@ -1333,9 +1340,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
 
-# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.31@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.31
+# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.32@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.32
 >## What's Changed
+> * Enable input separation for the Cutting Factory. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/843 (1.11.32)
 > * Tree Growth Simulator can now harvest leaves and fruits, using appropriate tools. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/839 (1.11.31)
 > * Fix several recipes by @HoleFish in https://github.com/GTNewHorizons/GTplusplus/pull/842 (1.11.31)
 > * Let remainingFlow become 125% of realOptFlow, rather than raw optimal… by @koiNoCirculation in https://github.com/GTNewHorizons/GTplusplus/pull/841 (1.11.29)
@@ -1778,8 +1786,8 @@
 # Updated Minetweaker-Gregtech-5-Addon (2.0.5@Side.BOTH --> 2.1.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/compare/2.0.4...2.1.0
 
-# Updated Mobs-Info (0.1.13-GTNH@Side.BOTH --> 0.2.4-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.12-GTNH...0.2.4-GTNH
+# Updated Mobs-Info (0.1.13-GTNH@Side.BOTH --> 0.2.5-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.1.12-GTNH...0.2.5-GTNH
 
 # Updated ModTweaker (0.9.10@Side.BOTH --> 0.10.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.9.9...0.10.0
@@ -1872,9 +1880,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/NetherPortalFix/pull/1 (1.1.2)
 >
 
-# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.34-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.34-pre
+# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.36@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.36
 >## What's Changed
+> * add recipes for Dark Steel chest by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/817 (2.3.36)
 > * Fix moon buggy copy recipe and related fixes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/816 (2.3.33)
 > * Apply TiC recipe category by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/814 (2.3.33)
 > * Cache bg2 inventory field and add backwards compat to older BG2 by @Caedis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/815 (2.3.33)
@@ -2685,8 +2694,8 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/WanionLib/pull/2 (1.9.0)
 >
 
-# Updated WarpTheory (1.2.17-GTNH@Side.BOTH --> 1.3.2-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.2.16-GTNH...1.3.2-GTNH
+# Updated WarpTheory (1.2.17-GTNH@Side.BOTH --> 1.3.3-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.2.16-GTNH...1.3.3-GTNH-pre
 >## What's Changed
 > * Update ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/WarpTheory/pull/32 (1.3.2-GTNH)
 > * Add names for warptheory entities for mobinfo by @bombcar in https://github.com/GTNewHorizons/WarpTheory/pull/31 (1.3.0-GTNH)
@@ -2751,9 +2760,10 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/amunra/pull/29 (0.5.0)
 >
 
-# Updated bartworks (0.8.23@Side.BOTH --> 0.9.13-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.22...0.9.13-pre
+# Updated bartworks (0.8.23@Side.BOTH --> 0.9.14@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.8.22...0.9.14
 >## What's Changed
+> * fix mega DT by @Glease in https://github.com/GTNewHorizons/bartworks/pull/396 (0.9.14)
 > * Fix Bio Vat internal error & scanner info by @HoleFish in https://github.com/GTNewHorizons/bartworks/pull/394 (0.9.12)
 > * CAL CA mode recipe tier nerf by @LewisSaber in https://github.com/GTNewHorizons/bartworks/pull/392 (0.9.11)
 > * Fix EIC recipe gating by @GDCloudstrike in https://github.com/GTNewHorizons/bartworks/pull/391 (0.9.10)
@@ -2824,12 +2834,20 @@
 > * @norbby42 made their first contribution in https://github.com/GTNewHorizons/inventory-tweaks/pull/8 (1.6.2)
 >
 
-# Updated ironchest (6.0.74@Side.BOTH --> 6.0.77-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.73...6.0.77-pre
+# Updated ironchest (6.0.74@Side.BOTH --> 6.0.80-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.73...6.0.80-pre
 >## What's Changed
+> * Do not use crystal as tiered chest (non-GTNH environments) by @Pilzinsel64 in https://github.com/GTNewHorizons/ironchest/pull/18 (6.0.80-pre)
+> * fix recipes for non-GTNH environments by @Pilzinsel64 in https://github.com/GTNewHorizons/ironchest/pull/17 (6.0.80-pre)
+> * Do not use crystal as tiered chest (non-GTNH environments) by @Pilzinsel64 in https://github.com/GTNewHorizons/ironchest/pull/18 (6.0.79-pre)
+> * fix recipes for non-GTNH environments by @Pilzinsel64 in https://github.com/GTNewHorizons/ironchest/pull/17 (6.0.79-pre)
+> * Implement new chests (from @unicornbloods) by @Caedis in https://github.com/GTNewHorizons/ironchest/pull/16 (6.0.78)
 > * Bookmark pull feature for iron chests by @Nilau1998 in https://github.com/GTNewHorizons/ironchest/pull/12 (6.0.74)
 >
 >## New Contributors
+> * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/18 (6.0.80-pre)
+> * @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/18 (6.0.79-pre)
+> * @Caedis made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/16 (6.0.78)
 > * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/12 (6.0.74)
 >
 
@@ -2895,9 +2913,10 @@
 > * @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/32 (0.2.7)
 >
 
-# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.17@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.17
+# Updated twilightforest (2.5.1@Side.BOTH --> 2.5.18@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.5.0...2.5.18
 >## What's Changed
+> * Dedicated server crash fix by @Gordon-Frohman in https://github.com/GTNewHorizons/twilightforest/pull/48 (2.5.18)
 > * Twilight materials book fix by @Gordon-Frohman in https://github.com/GTNewHorizons/twilightforest/pull/47 (2.5.17)
 > * Fix crash when shooting something with TC crossbow by @Lyfts in https://github.com/GTNewHorizons/twilightforest/pull/43 (2.5.16)
 > * Tinkers Construct stats tuning by @Gordon-Frohman in https://github.com/GTNewHorizons/twilightforest/pull/40 (2.5.15)
