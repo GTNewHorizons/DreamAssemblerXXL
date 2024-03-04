@@ -290,7 +290,7 @@ class GTNHModpackManager:
                 continue
 
             if version_is_newer(version.version_tag, asset.latest_version):
-                log.debug(
+                log.info(
                     f"Updating latest version for `{Fore.CYAN}{asset.name}{Fore.RESET}` "
                     f"{Style.DIM}{Fore.GREEN}{asset.latest_version}{Style.RESET_ALL} -> "
                     f"{Fore.GREEN}{version.version_tag}{Style.RESET_ALL}"
@@ -791,7 +791,7 @@ class GTNHModpackManager:
         )  # +1 for the config
 
         # Download Mods
-        log.info(f"Downloading {Fore.GREEN}{len(release.github_mods)}{Fore.RESET} Mod(s)")
+        log.debug(f"Downloading {Fore.GREEN}{len(release.github_mods)}{Fore.RESET} Mod(s)")
         downloaders = []
         for is_github, mods in [(True, release.github_mods), (False, release.external_mods)]:
             for mod_name, mod_version in mods.items():
