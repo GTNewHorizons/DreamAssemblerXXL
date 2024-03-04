@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-03-04T10:53:43.475491",
+  "last_updated": "2024-03-04T19:52:12.627259",
   "config": "2.6.0-nightly-2024-03-04",
   "github_mods": {
     "AdventureBackpack2": {
@@ -983,7 +983,7 @@
       "side": "BOTH"
     },
     "Archaicfix": {
-      "version": "0.7.1",
+      "version": "0.7.2",
       "side": "BOTH"
     }
   }
