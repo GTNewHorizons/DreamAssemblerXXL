@@ -2240,9 +2240,10 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Schematica/pull/17 (1.9.4-GTNH)
 >
 
-# New Mod - ServerUtilities (2.0.27@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.27
+# New Mod - ServerUtilities (2.0.28@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.28
 >## What's Changed
+> * Fix backups not getting deleted under certain circumstances by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/48 (2.0.28)
 > * Add config for allowing all block interactions in claimed chunks by @Majora320 in https://github.com/GTNewHorizons/ServerUtilities/pull/47 (2.0.27)
 > * Rename power permission node to priority by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/46 (2.0.26)
 > * Hide sidebar buttons if disabled on server by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/45 (2.0.25)
@@ -2697,13 +2698,15 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/WanionLib/pull/2 (1.9.0)
 >
 
-# Updated WarpTheory (1.2.17-GTNH@Side.BOTH --> 1.3.3-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.2.16-GTNH...1.3.3-GTNH-pre
+# Updated WarpTheory (1.2.17-GTNH@Side.BOTH --> 1.3.4-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.2.16-GTNH...1.3.4-GTNH
 >## What's Changed
+> * Fix crash with CombatHotbar by @leumasme in https://github.com/GTNewHorizons/WarpTheory/pull/33 (1.3.4-GTNH)
 > * Update ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/WarpTheory/pull/32 (1.3.2-GTNH)
 > * Add names for warptheory entities for mobinfo by @bombcar in https://github.com/GTNewHorizons/WarpTheory/pull/31 (1.3.0-GTNH)
 >
 >## New Contributors
+> * @leumasme made their first contribution in https://github.com/GTNewHorizons/WarpTheory/pull/33 (1.3.4-GTNH)
 > * @kamenskyi made their first contribution in https://github.com/GTNewHorizons/WarpTheory/pull/32 (1.3.2-GTNH)
 >
 
@@ -2837,8 +2840,8 @@
 > * @norbby42 made their first contribution in https://github.com/GTNewHorizons/inventory-tweaks/pull/8 (1.6.2)
 >
 
-# Updated ironchest (6.0.74@Side.BOTH --> 6.0.80-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.73...6.0.80-pre
+# Updated ironchest (6.0.74@Side.BOTH --> 6.0.81-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.73...6.0.81-pre
 >## What's Changed
 > * Do not use crystal as tiered chest (non-GTNH environments) by @Pilzinsel64 in https://github.com/GTNewHorizons/ironchest/pull/18 (6.0.80-pre)
 > * fix recipes for non-GTNH environments by @Pilzinsel64 in https://github.com/GTNewHorizons/ironchest/pull/17 (6.0.80-pre)
