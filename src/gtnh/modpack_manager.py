@@ -689,7 +689,7 @@ class GTNHModpackManager:
     @property
     def inplace_pinned_mods(self) -> Path:
         """
-        Helper property for the local exclusions file location
+        Helper property for the pinned file location
         """
         return ROOT_DIR / INPLACE_PINNED_FILE
 
