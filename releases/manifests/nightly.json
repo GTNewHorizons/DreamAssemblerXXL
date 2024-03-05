@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-03-04T19:55:42.028986",
+  "last_updated": "2024-03-05T10:56:56.106757",
   "config": "2.6.0-nightly-2024-03-04",
   "github_mods": {
     "AdventureBackpack2": {
@@ -294,10 +294,6 @@
     },
     "HoloInventory": {
       "version": "2.4.3-GTNH",
-      "side": "BOTH"
-    },
-    "HungerOverhaul": {
-      "version": "1.1.0-GTNH",
       "side": "BOTH"
     },
     "HydroEnergy": {
@@ -984,6 +980,10 @@
     },
     "Archaicfix": {
       "version": "0.7.2",
+      "side": "BOTH"
+    },
+    "Hunger-Overhaul": {
+      "version": "1.0.0.104",
       "side": "BOTH"
     }
   }

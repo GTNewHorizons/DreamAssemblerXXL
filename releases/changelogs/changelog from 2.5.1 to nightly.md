@@ -2,10 +2,12 @@
 > * Angelica
 > * Archaicfix
 > * CoreTweaks
+> * Hunger-Overhaul
 > * ServerUtilities
 > * Tinkers-Defense
 # Mods Removed:
 > * FastCraft
+> * HungerOverhaul
 > * MalisisCore
 > * Tinkers' Defense
 # Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.19-gtnh@Side.BOTH)
@@ -1566,15 +1568,6 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/41 (2.4.3-GTNH)
 > * @makamys made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/40 (2.4.2-GTNH)
 > * @UltraHex made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/38 (2.4.0-GTNH)
->
-
-# Updated HungerOverhaul (1.0.4-GTNH@Side.BOTH --> 1.1.0-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/HungerOverhaul/compare/1.0.3-GTNH...1.1.0-GTNH
->## What's Changed
-> * arr by @bombcar in https://github.com/GTNewHorizons/HungerOverhaul/pull/3 (1.0.4-GTNH)
->
->## New Contributors
-> * @bombcar made their first contribution in https://github.com/GTNewHorizons/HungerOverhaul/pull/3 (1.0.4-GTNH)
 >
 
 # Updated HydroEnergy (1.1.1@Side.BOTH --> 1.2.0@Side.BOTH)

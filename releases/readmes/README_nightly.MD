@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2024-03-04
+Version nightly is out 2024-03-05
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -353,7 +353,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.2.0 |
 | [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.4.34 |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.4.3-GTNH |
-| [HungerOverhaul](https://github.com/GTNewHorizons/HungerOverhaul) | 1.1.0-GTNH |
+| [Hunger-Overhaul](https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul) | 1.0.0.104 |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.2.0 |
 | [IC2 Crop-Breeding Plugin](https://www.curseforge.com/minecraft/mc-mods/ic2-nei-crop-plugin) | 1.3.1 |
 | [IFU](https://github.com/GTNewHorizons/IFU) | 1.10.1 |
