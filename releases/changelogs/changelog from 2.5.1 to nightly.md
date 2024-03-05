@@ -438,9 +438,10 @@
 > * `@Local` / `@Share` / `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/AppleCore/pull/28 (3.2.12)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-335-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-335-GTNH-pre
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-337-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-337-GTNH-pre
 >## What's Changed
+> * Optimize the code by @wohaopa in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/483 (rv3-beta-336-GTNH)
 > * Fix index out of bounds error when trying to craft. by @koiNoCirculation in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/480 (rv3-beta-335-GTNH-pre)
 > * Fix index out of bounds error when trying to craft. by @koiNoCirculation in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/480 (rv3-beta-334-GTNH)
 > * Enable off-thread rendering with Angelica by @Cleptomania in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/478 (rv3-beta-332-GTNH)
@@ -1120,8 +1121,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.90-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.90-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.91-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.91-pre
 >## What's Changed
 > * Maybe thread safe by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2523 (5.09.45.89-pre)
 > * Maybe thread safe by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2523 (5.09.45.88)
@@ -2723,9 +2724,10 @@
 > * remove use of @InterfaceDependancies by @Glease in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/8 (1.4.8)
 >
 
-# Updated WitcheryExtras (1.1.14@Side.BOTH --> 1.2.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.1.13...1.2.0
+# Updated WitcheryExtras (1.1.14@Side.BOTH --> 1.2.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.1.13...1.2.1
 >## What's Changed
+> * Add missing key by @wohaopa in https://github.com/GTNewHorizons/WitcheryExtras/pull/20 (1.2.1)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/WitcheryExtras/pull/19 (1.2.0)
 > * Fix NPE with NEI by @miozune in https://github.com/GTNewHorizons/WitcheryExtras/pull/18 (1.1.14)
 >

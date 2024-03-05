@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-03-05T11:08:53.577976",
+  "last_updated": "2024-03-05T21:19:10.903171",
   "config": "2.6.0-nightly-2024-03-04",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-335-GTNH-pre",
+      "version": "rv3-beta-337-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.90-pre",
+      "version": "5.09.45.91-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -689,7 +689,7 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "side": "BOTH"
     },
     "WitchingGadgets": {
