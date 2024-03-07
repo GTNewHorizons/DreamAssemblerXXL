@@ -1024,15 +1024,30 @@ class GTNHModpackManager:
         active_mods = glob.glob("*.jar", root_dir=mods_dir) + glob.glob("1.7.10/*.jar", root_dir=mods_dir)
         kept_mods = set()
 
+        side_none_mods = [mod for mod in self.assets.mods if mod.side == Side.NONE]
+        for mod in side_none_mods:
+            for old_version in mod.versions:
+                to_remove = os.path.basename(get_asset_version_cache_location(mod, old_version))
+                for file in active_mods:
+                    file_base = os.path.basename(file)
+                    if file_base == to_remove and file_base not in kept_mods:
+                        log.info(
+                            f"Deleting mod with a side of NONE [{Fore.CYAN}{mod.name} - {os.path.basename(file)}{Fore.RESET}]"
+                        )
+                        os.remove(os.path.join(mods_dir, file))
+                        active_mods.remove(file)
+
         for mod_dict in (release.github_mods | release.external_mods).items().__reversed__():
-            mod_ver = self.assets.get_mod_and_version(
-                mod_dict[0], mod_dict[1], side.valid_mod_sides(), source=ModSource.github
-            )
+            mod_ver = self.assets.get_mod_and_version(mod_dict[0], mod_dict[1], side.valid_mod_sides(), mod.source)
             if not mod_ver:
                 continue
 
             mod = mod_ver[0]
             version = mod_ver[1]
+
+            if mod.name in pinned_mods if pinned_mods else []:
+                log.debug(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is pinned, skipping")
+                continue
 
             if mod.name in exclusions:
                 log.debug(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is excluded from the {side.name} side, skipping")
@@ -1041,10 +1056,6 @@ class GTNHModpackManager:
             # ignore mods that are excluded in the target mods directory
             if mod.name in local_exclusions if local_exclusions else []:
                 log.debug(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is locally excluded, skipping")
-                continue
-
-            if mod.name in pinned_mods if pinned_mods else []:
-                log.debug(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is pinned, skipping")
                 continue
 
             mod_cache = get_asset_version_cache_location(mod, version)
