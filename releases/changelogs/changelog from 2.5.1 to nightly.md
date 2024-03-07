@@ -1121,9 +1121,11 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.91-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.91-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.93-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.93-pre
 >## What's Changed
+> * Change to ConcurrentHashMap by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2526 (5.09.45.93-pre)
+> * Change to ConcurrentHashMap by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2526 (5.09.45.92)
 > * Maybe thread safe by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2523 (5.09.45.89-pre)
 > * Maybe thread safe by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2523 (5.09.45.88)
 > * Fix translations added before config init not being added to MC lang manager by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2519 (5.09.45.86)
@@ -1801,9 +1803,10 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ModTweaker/pull/5 (0.10.0)
 >
 
-# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.35@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.35
+# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.36@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.36
 >## What's Changed
+> * Added a text supplier for TextWidget. by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/69 (1.1.36)
 > * Added locale-aware formatting of numbers. by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/67 (1.1.35)
 > * Added test for Chinese locale. by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/68 (1.1.35)
 > * Added two convenience methods to NumericWidget. by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/66 (1.1.34)
