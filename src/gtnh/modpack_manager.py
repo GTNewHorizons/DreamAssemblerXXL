@@ -974,10 +974,14 @@ class GTNHModpackManager:
         if os.path.exists(self.local_exclusions_path):
             with open(self.local_exclusions_path, "r") as f:
                 local_exclusions = f.read().splitlines()
+        else:
+            local_exclusions = []
 
         if os.path.exists(self.inplace_pinned_mods):
             with open(self.inplace_pinned_mods, "r") as f:
                 pinned_mods = f.read().splitlines()
+        else:
+            pinned_mods = []
 
         # cache all active mods
         active_mods = glob.glob("*.jar", root_dir=mods_dir) + glob.glob("1.7.10/*.jar", root_dir=mods_dir)
@@ -1004,7 +1008,7 @@ class GTNHModpackManager:
             mod = mod_ver[0]
             version = mod_ver[1]
 
-            if mod.name in pinned_mods if pinned_mods else []:
+            if mod.name in pinned_mods:
                 log.debug(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is pinned, skipping")
                 continue
 
@@ -1013,7 +1017,7 @@ class GTNHModpackManager:
                 continue
 
             # ignore mods that are excluded in the target mods directory
-            if mod.name in local_exclusions if local_exclusions else []:
+            if mod.name in local_exclusions:
                 log.debug(f"{Fore.YELLOW}{mod.name}{Fore.RESET} is locally excluded, skipping")
                 continue
 
