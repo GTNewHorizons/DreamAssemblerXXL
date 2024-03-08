@@ -88,6 +88,21 @@ class GenericAssembler:
         with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
             return len([item for item in config_zip.namelist() if item not in self.exclusions[side]])
 
+    def get_amount_of_files_in_locales(self) -> int:
+        """
+        Method to get the amount of files inside all the locale zips.
+
+        Returns
+        -------
+        int: the amount of files for the locales.
+        """
+        sum:int = 0
+        for language in self.modpack_manager.assets.translations.versions:
+            locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations, language)
+            with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
+                sum += len([item for item in locale_zip.namelist()])
+        return sum
+
     def get_mods(self, side: Side) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the mod info objects as well as their targetted version.
@@ -299,3 +314,13 @@ class GenericAssembler:
             lines.append(f"| [{mod.name}]({mod.external_url}) | {version.version_tag} |")
 
         return "\n".join(sorted(lines, key=lambda x: x.lower()))
+
+    def add_localisation_files(self, archive:ZipFile) -> None:
+        """
+        Method adding the localisation files found in the cache.
+
+        Returns
+        -------
+        None
+        """
+        raise NotImplementedError

@@ -119,6 +119,9 @@ class ZipAssembler(GenericAssembler):
         if side.is_server():
             amount_of_files += len(self.get_server_assets(server_brand, side))
 
+        if side.is_client():
+            amount_of_files += self.get_amount_of_files_in_locales()
+
         self.set_progress(100 / amount_of_files)
         await GenericAssembler.assemble(self, side, verbose)
 
@@ -126,6 +129,10 @@ class ZipAssembler(GenericAssembler):
             log.info("Adding server assets to the server release.")
             with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
                 self.add_server_assets(archive, server_brand, side)
+        if side.is_client():
+            log.info("Adding locales to client release.")
+            with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
+                self.add_localisation_files(archive)
 
     def get_server_assets(self, server_brand: ServerBrand, side: Side) -> List[Path]:
         """
@@ -159,3 +166,17 @@ class ZipAssembler(GenericAssembler):
                 path_objects.extend([path for path in folder.iterdir()])
 
         return assets
+
+    def add_localisation_files(self, archive:ZipFile) -> None:
+        for language in self.modpack_manager.assets.translations.versions:
+            locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations, language)
+            with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
+                for item in locale_zip.namelist():
+                    with locale_zip.open(item) as config_item:
+                        with archive.open(item, "w") as target:
+                            shutil.copyfileobj(config_item, target)
+                            if self.task_progress_callback is not None:
+                                self.task_progress_callback(
+                                    self.get_progress(),
+                                    f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive"
+                                )
