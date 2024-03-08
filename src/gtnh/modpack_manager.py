@@ -1115,9 +1115,9 @@ class GTNHModpackManager:
             if mod:
                 for ver in mod.versions:
                     mod_cache = get_asset_version_cache_location(mod, ver)
-                    mod_dest = os.path.join(mods_dir, mod_cache.name)
-                    if os.path.exists(mod_dest):
-                        log.info(
-                            f"Deleting [{Fore.CYAN}{mod.name}:{ver.version_tag}{Fore.RESET}] from the mods directory"
-                        )
-                        os.remove(mod_dest)
+                    for file in active_mods:
+                        file_base = os.path.basename(file)
+                        if file_base == mod_cache.name and file_base not in kept_mods:
+                            log.info(f"Deleting excluded mod [{Fore.CYAN}{mod.name} - {file}{Fore.RESET}]")
+                            os.remove(os.path.join(mods_dir, file))
+                            active_mods.remove(file)
