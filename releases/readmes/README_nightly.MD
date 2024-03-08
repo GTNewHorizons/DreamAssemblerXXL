@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2024-03-07
+Version nightly is out 2024-03-08
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -368,7 +368,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Irontanks](https://github.com/GTNewHorizons/Irontanks) | 1.3.0 |
 | [Jabba](https://github.com/GTNewHorizons/Jabba) | 1.3.2 |
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
-| [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.1.4p6-fairplay |
+| [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.1.4p8-fairplay |
 | [KekzTech](https://github.com/GTNewHorizons/KekzTech) | 0.10.0 |
 | [KubaTech](https://github.com/GTNewHorizons/KubaTech) | 0.14.5 |
 | [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.3.0-GTNH |
