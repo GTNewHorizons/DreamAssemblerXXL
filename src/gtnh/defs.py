@@ -26,6 +26,8 @@ RELEASE_README_DIR = RELEASE_DIR / "readmes"
 
 SERVER_ASSETS_DIR = ROOT_DIR / "server_assets"
 
+TRANSLATION_DIR = ROOT_DIR / "translations"
+
 README_TEMPLATE = ROOT_DIR / "readme_template.md"
 
 
@@ -143,6 +145,7 @@ class Side(str, Enum):
 class VersionableType(str, Enum):
     mod = "mod"
     config = "config"
+    translations = "translations"
 
 
 class ModSource(str, Enum):

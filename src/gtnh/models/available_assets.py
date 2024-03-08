@@ -9,6 +9,7 @@ from gtnh.exceptions import NoModAssetFound
 from gtnh.gtnh_logger import get_logger
 from gtnh.models.base import GTNHBaseModel
 from gtnh.models.gtnh_config import GTNHConfig
+from gtnh.models.gtnh_translations import GTNHTranslations
 from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.models.mod_version_info import ModVersionInfo
@@ -18,6 +19,7 @@ log = get_logger(__name__)
 
 class AvailableAssets(GTNHBaseModel):
     config: GTNHConfig
+    translations: GTNHTranslations
     mods: List[GTNHModInfo] = Field(default_factory=list)
 
     def add_mod(self, mod: GTNHModInfo) -> None:
