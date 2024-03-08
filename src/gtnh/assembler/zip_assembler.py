@@ -166,17 +166,3 @@ class ZipAssembler(GenericAssembler):
                 path_objects.extend([path for path in folder.iterdir()])
 
         return assets
-
-    def add_localisation_files(self, archive:ZipFile) -> None:
-        for language in self.modpack_manager.assets.translations.versions:
-            locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations, language)
-            with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
-                for item in locale_zip.namelist():
-                    with locale_zip.open(item) as config_item:
-                        with archive.open(item, "w") as target:
-                            shutil.copyfileobj(config_item, target)
-                            if self.task_progress_callback is not None:
-                                self.task_progress_callback(
-                                    self.get_progress(),
-                                    f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive"
-                                )

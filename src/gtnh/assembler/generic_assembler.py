@@ -16,6 +16,8 @@ from gtnh.models.mod_info import GTNHModInfo
 from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
+import shutil
+
 log = get_logger(__name__)
 
 
@@ -315,7 +317,7 @@ class GenericAssembler:
 
         return "\n".join(sorted(lines, key=lambda x: x.lower()))
 
-    def add_localisation_files(self, archive:ZipFile) -> None:
+    def add_localisation_files(self, archive:ZipFile, root_path:Optional[str]=None) -> None:
         """
         Method adding the localisation files found in the cache.
 
@@ -323,4 +325,26 @@ class GenericAssembler:
         -------
         None
         """
-        raise NotImplementedError
+        for language in self.modpack_manager.assets.translations.versions:
+            locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations,
+                                                                     language)
+            with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
+                for item in locale_zip.namelist():
+                    if root_path is None:
+                        with locale_zip.open(item) as config_item:
+                            with archive.open(item, "w") as target:
+                                shutil.copyfileobj(config_item, target)
+                                if self.task_progress_callback is not None:
+                                    self.task_progress_callback(
+                                        self.get_progress(),
+                                        f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive"
+                                    )
+                    else:
+                        with locale_zip.open(item) as config_item:
+                            with archive.open(f"{root_path}/{item}", "w") as target:
+                                shutil.copyfileobj(config_item, target)
+                                if self.task_progress_callback is not None:
+                                    self.task_progress_callback(
+                                        self.get_progress(),
+                                        f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive"
+                                    )
