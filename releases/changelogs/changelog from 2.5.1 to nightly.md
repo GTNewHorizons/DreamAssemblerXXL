@@ -682,9 +682,10 @@
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/BloodMagic/pull/49 (1.5.1)
 >
 
-# Updated Botania (1.10.3-GTNH@Side.BOTH --> 1.10.10-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.10.2-GTNH...1.10.10-GTNH
+# Updated Botania (1.10.3-GTNH@Side.BOTH --> 1.10.11-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.10.2-GTNH...1.10.11-GTNH
 >## What's Changed
+> * fix elv portal treating lexicon as illegal item by @Glease in https://github.com/GTNewHorizons/Botania/pull/47 (1.10.11-GTNH)
 > * Ring of Loki Client/Server fix by @LewisSaber in https://github.com/GTNewHorizons/Botania/pull/45 (1.10.10-GTNH)
 > * The ring of ikoL awakens! by @LewisSaber in https://github.com/GTNewHorizons/Botania/pull/43 (1.10.9-GTNH)
 > * Reduce number of item copies.  by @mitchej123 in https://github.com/GTNewHorizons/Botania/pull/44 (1.10.7-GTNH)
@@ -1121,8 +1122,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.93-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.93-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.94-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.94-pre
 >## What's Changed
 > * Change to ConcurrentHashMap by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2526 (5.09.45.93-pre)
 > * Change to ConcurrentHashMap by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2526 (5.09.45.92)
@@ -1456,8 +1457,8 @@
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/27 (0.3.9)
 >
 
-# Updated GoodGenerator (0.7.17@Side.BOTH --> 0.8.13-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.16...0.8.13-pre
+# Updated GoodGenerator (0.7.17@Side.BOTH --> 0.8.14-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.16...0.8.14-pre
 >## What's Changed
 > * Fix compact fusion tierskip, wrong OC and scanner info by @GDCloudstrike in https://github.com/GTNewHorizons/GoodGenerator/pull/238 (0.8.12)
 > * Fix naq nugget recipe by @chochem in https://github.com/GTNewHorizons/GoodGenerator/pull/237 (0.8.11)
@@ -1803,9 +1804,10 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ModTweaker/pull/5 (0.10.0)
 >
 
-# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.36@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.36
+# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.37@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.37
 >## What's Changed
+> * Dynamic text color fix. by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/70 (1.1.37)
 > * Added a text supplier for TextWidget. by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/69 (1.1.36)
 > * Added locale-aware formatting of numbers. by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/67 (1.1.35)
 > * Added test for Chinese locale. by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/68 (1.1.35)
@@ -1886,8 +1888,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/NetherPortalFix/pull/1 (1.1.2)
 >
 
-# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.37-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.37-pre
+# Updated NewHorizonsCoreMod (2.2.55@Side.BOTH --> 2.3.39-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.2.54...2.3.39-pre
 >## What's Changed
 > * add recipes for Dark Steel chest by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/817 (2.3.37-pre)
 > * add recipes for Dark Steel chest by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/817 (2.3.36)
@@ -1987,9 +1989,11 @@
 > * @Alexdoru made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/5 (1.5.3)
 >
 
-# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.23-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.23-GTNH
+# Updated NotEnoughItems (2.4.13-GTNH@Side.BOTH --> 2.5.24-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.4.12-GTNH...2.5.24-GTNH
 >## What's Changed
+> * Fix history panel being hidden when centered search and no quantity widget by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/468 (2.5.24-GTNH)
+> * Update settings.gradle by @Dream-Master in https://github.com/GTNewHorizons/NotEnoughItems/pull/469 (2.5.24-GTNH)
 > * Correctly find the recipeId under mouse when using the search by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/465 (2.5.23-GTNH)
 > * Migrate NEI-Utilities by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/461 (2.5.21-GTNH)
 > * DnD big ItemStack; Show green slot highlighting overlay by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/463 (2.5.21-GTNH)
@@ -2000,6 +2004,9 @@
 > * Add chat message to chunk overlay key press by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/450 (2.5.1-GTNH)
 > * Update bs and dependencies by @bombcar in https://github.com/GTNewHorizons/NotEnoughItems/pull/447 (2.5.0-GTNH)
 > * Fixed infinite loop in bookmarks with only one column by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/442 (2.4.13-GTNH)
+>
+>## New Contributors
+> * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/469 (2.5.24-GTNH)
 >
 
 # Updated Nuclear-Control (2.5.1@Side.BOTH --> 2.6.1@Side.BOTH)
@@ -2473,8 +2480,8 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
 >
 
-# Updated TecTech (5.3.23@Side.BOTH --> 5.3.32@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.32
+# Updated TecTech (5.3.23@Side.BOTH --> 5.3.33-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.33-pre
 >## What's Changed
 > * Fixing power checks from telsa tower by @Reflex18 in https://github.com/GTNewHorizons/TecTech/pull/271 (5.3.32)
 > * EOH fix by @HoleFish in https://github.com/GTNewHorizons/TecTech/pull/268 (5.3.30)
