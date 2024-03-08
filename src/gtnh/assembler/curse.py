@@ -9,7 +9,7 @@ from colorama import Fore
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
-from gtnh.defs import CACHE_DIR, RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side
+from gtnh.defs import CACHE_DIR, MAVEN_BASE_URL, RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side
 from gtnh.gtnh_logger import get_logger
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
@@ -77,7 +77,7 @@ def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str | None:
         base = mod.maven
     else:
         log.warn(f"Missing mod.maven for {mod.name}, trying fallback url.")
-        base = f"http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/{mod.name}/"
+        base = f"{MAVEN_BASE_URL}{mod.name}/"
 
     url: str = f"{base}{version.version_tag}/{mod.name}-{version.version_tag}.jar"
 
@@ -248,7 +248,7 @@ class CurseAssembler(GenericAssembler):
                             url = version.maven_url
 
                         # Hacky detection
-                        if url and "jenkins.usrv.eu:8081" in url:
+                        if url and "nexus.gtnewhorizons.com" in url:
                             version.maven_url = url
                     else:
                         url = version.download_url

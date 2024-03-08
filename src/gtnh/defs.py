@@ -44,7 +44,7 @@ GTNH_MODPACK_FILE = "gtnh-modpack.json"
 BLACKLISTED_REPOS_FILE = "repo-blacklist.json"
 UNKNOWN = "Unknown"
 OTHER = "Other"
-MAVEN_BASE_URL = "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/"
+MAVEN_BASE_URL = "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/"
 
 GREEN_CHECK = "\N{white heavy check mark}"
 RED_CROSS = "\N{cross mark}"
