@@ -801,15 +801,20 @@ class GTNHModpackManager:
                     )
                 )
 
+        # download the translations for the pack
+        translation_callback = (lambda name: download_callback(
+                        delta_progress, f"localisation for {release.version.replace('-latest', '')} downloaded!")\
+                        if download_callback
+                        else None
+                          ) # noqa, type: ignore
 
-        # download the modpack translations
         for language in self.assets.translations.versions:
             downloaders.append(
                 self.download_asset(
                     asset=self.assets.translations,
                     asset_version=language.version_tag,
                     is_github=True,
-                    download_callback=download_callback,
+                    download_callback=translation_callback,
                     error_callback=error_callback,
                     force_redownload=True
                 )
