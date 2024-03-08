@@ -35,7 +35,6 @@ from gtnh.models.available_assets import AvailableAssets
 from gtnh.models.gtnh_config import CONFIG_REPO_NAME
 from gtnh.models.gtnh_modpack import GTNHModpack
 from gtnh.models.gtnh_release import GTNHRelease, load_release, save_release
-from gtnh.models.gtnh_translations import GTNHTranslations
 from gtnh.models.gtnh_version import version_from_release
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.models.mod_version_info import ModVersionInfo
