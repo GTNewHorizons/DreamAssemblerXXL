@@ -149,5 +149,13 @@ class TechnicAssembler(GenericAssembler):
         if side != Side.CLIENT:
             raise ValueError(f"Only valid side is {Side.CLIENT}, got {side}")
 
-        self.set_progress(100 / (len(self.get_mods(side)) + self.get_amount_of_files_in_config(side)  + self.get_amount_of_files_in_locales() + 1))
+        self.set_progress(
+            100
+            / (
+                len(self.get_mods(side))
+                + self.get_amount_of_files_in_config(side)
+                + self.get_amount_of_files_in_locales()
+                + 1
+            )
+        )
         await GenericAssembler.assemble(self, side, verbose)

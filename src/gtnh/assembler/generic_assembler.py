@@ -1,4 +1,5 @@
 import os
+import shutil
 from pathlib import Path
 from typing import Callable, Dict, List, Optional, Set, Tuple, Union
 from zipfile import ZIP_DEFLATED, ZipFile
@@ -15,8 +16,6 @@ from gtnh.models.gtnh_version import GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.modpack_manager import GTNHModpackManager
-
-import shutil
 
 log = get_logger(__name__)
 
@@ -98,7 +97,7 @@ class GenericAssembler:
         -------
         int: the amount of files for the locales.
         """
-        sum:int = 0
+        sum: int = 0
         for language in self.modpack_manager.assets.translations.versions:
             locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations, language)
             with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
@@ -317,7 +316,7 @@ class GenericAssembler:
 
         return "\n".join(sorted(lines, key=lambda x: x.lower()))
 
-    def add_localisation_files(self, archive:ZipFile, root_path:Optional[str]=None) -> None:
+    def add_localisation_files(self, archive: ZipFile, root_path: Optional[str] = None) -> None:
         """
         Method adding the localisation files found in the cache.
 
@@ -326,8 +325,7 @@ class GenericAssembler:
         None
         """
         for language in self.modpack_manager.assets.translations.versions:
-            locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations,
-                                                                     language)
+            locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations, language)
             with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
                 for item in locale_zip.namelist():
                     if root_path is None:
@@ -337,7 +335,7 @@ class GenericAssembler:
                                 if self.task_progress_callback is not None:
                                     self.task_progress_callback(
                                         self.get_progress(),
-                                        f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive"
+                                        f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive",
                                     )
                     else:
                         with locale_zip.open(item) as config_item:
@@ -346,5 +344,5 @@ class GenericAssembler:
                                 if self.task_progress_callback is not None:
                                     self.task_progress_callback(
                                         self.get_progress(),
-                                        f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive"
+                                        f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive",
                                     )

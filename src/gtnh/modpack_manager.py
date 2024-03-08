@@ -558,8 +558,9 @@ class GTNHModpackManager:
     async def regen_translation_assets(self) -> None:
         self.assets.translations.versions = []
         self.assets.translations.latest_version = ""
-        await self.update_versionable_from_repo(self.assets.translations,
-                                                await self.get_repo(self.assets.translations.name))
+        await self.update_versionable_from_repo(
+            self.assets.translations, await self.get_repo(self.assets.translations.name)
+        )
         self.save_assets()
 
     async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
@@ -760,8 +761,9 @@ class GTNHModpackManager:
 
         log.debug(f"Downloading mods for Release `{Fore.LIGHTYELLOW_EX}{release.version}{Fore.RESET}`")
         # computation of the progress per mod for the progressbar
-        delta_progress = 100 / (len(release.github_mods) + len(release.external_mods) +
-                                len(self.assets.translations.versions) + 1)  # +1 for the config
+        delta_progress = 100 / (
+            len(release.github_mods) + len(release.external_mods) + len(self.assets.translations.versions) + 1
+        )  # +1 for the config
 
         # Download Mods
         log.info(f"Downloading {Fore.GREEN}{len(release.github_mods)}{Fore.RESET} Mod(s)")
@@ -785,28 +787,30 @@ class GTNHModpackManager:
                 )
 
         # download the modpack configs
-        config_callback = (lambda name: download_callback(
-                        delta_progress, f"config for release {release.version} downloaded!")\
-                        if download_callback
-                        else None
-                          ) # noqa, type: ignore
+        config_callback = (
+            lambda name: download_callback(delta_progress, f"config for release {release.version} downloaded!")
+            if download_callback
+            else None
+        )  # noqa, type: ignore
 
         downloaders.append(
             self.download_asset(
-                    self.assets.config,
-                    release.config,
-                    is_github=True,
-                    download_callback=config_callback,
-                    error_callback=error_callback
-                    )
-                )
+                self.assets.config,
+                release.config,
+                is_github=True,
+                download_callback=config_callback,
+                error_callback=error_callback,
+            )
+        )
 
         # download the translations for the pack
-        translation_callback = (lambda name: download_callback(
-                        delta_progress, f"localisation for {release.version.replace('-latest', '')} downloaded!")\
-                        if download_callback
-                        else None
-                          ) # noqa, type: ignore
+        translation_callback = (
+            lambda name: download_callback(
+                delta_progress, f"localisation for {release.version.replace('-latest', '')} downloaded!"
+            )
+            if download_callback
+            else None
+        )  # noqa, type: ignore
 
         for language in self.assets.translations.versions:
             downloaders.append(
@@ -816,7 +820,7 @@ class GTNHModpackManager:
                     is_github=True,
                     download_callback=translation_callback,
                     error_callback=error_callback,
-                    force_redownload=True
+                    force_redownload=True,
                 )
             )
 

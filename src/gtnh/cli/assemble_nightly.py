@@ -22,7 +22,9 @@ async def assemble_nightly(verbose: bool) -> None:
         )
         return
 
-    await modpack_manager.download_release(release, )
+    await modpack_manager.download_release(
+        release,
+    )
 
     assembler = ReleaseAssembler(modpack_manager, release)
     await assembler.assemble_zip(Side.SERVER_JAVA9, verbose=verbose)

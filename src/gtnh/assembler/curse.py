@@ -149,8 +149,9 @@ class CurseAssembler(GenericAssembler):
             raise Exception("Can only assemble release for CLIENT")
 
         # + 2 pictures in the overrides + manifest.json + dependencies.json
-        delta_progress: float = 100 / (2 + self.get_amount_of_files_in_config(side) +
-                                       self.get_amount_of_files_in_locales() + 1 + 1)
+        delta_progress: float = 100 / (
+            2 + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1 + 1
+        )
         self.set_progress(delta_progress)
 
         archive_name: Path = self.get_archive_path(side)
