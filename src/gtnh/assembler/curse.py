@@ -149,7 +149,8 @@ class CurseAssembler(GenericAssembler):
             raise Exception("Can only assemble release for CLIENT")
 
         # + 2 pictures in the overrides + manifest.json + dependencies.json
-        delta_progress: float = 100 / (2 + self.get_amount_of_files_in_config(side) + 1 + 1)
+        delta_progress: float = 100 / (2 + self.get_amount_of_files_in_config(side) +
+                                       self.get_amount_of_files_in_locales() + 1 + 1)
         self.set_progress(delta_progress)
 
         archive_name: Path = self.get_archive_path(side)
@@ -170,6 +171,8 @@ class CurseAssembler(GenericAssembler):
             await self.generate_json_dep(side, archive)
             log.info("Adding overrides to the archive")
             self.add_overrides(side, archive)
+            log.info("Adding locales to the archive")
+            self.add_localisation_files(archive, str(self.overrides_folder))
             log.info("Archive created successfully!")
 
     def add_overrides(self, side: Side, archive: ZipFile) -> None:
