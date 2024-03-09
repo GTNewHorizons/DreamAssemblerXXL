@@ -6,3 +6,4 @@ releases/**/*.zip
 releases/curse/
 .inplace_mod_exclusions
 .inplace_pinned_mods
+local-assets.json
