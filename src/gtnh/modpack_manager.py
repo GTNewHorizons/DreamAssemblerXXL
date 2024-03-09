@@ -483,6 +483,7 @@ class GTNHModpackManager:
         """
         Attempts to add a mod from a github repo
         :param name: Name of the github repo
+        :param local: Whether to use the local mod list or not
         :return: The ModInfo, if any, that was created
         """
         log.info(f"Trying to add `{name}`.")
@@ -715,7 +716,7 @@ class GTNHModpackManager:
         asset_version: str | None = None,
         is_github: bool = False,
         download_callback: Optional[Callable[[str], None]] = None,
-        error_callback: Optional[Callable[[str], None]] = None,
+        error_callback: Optional[Callable[[str], None]] = None
     ) -> Path | None:
         if asset_version is None:
             asset_version = asset.latest_version
