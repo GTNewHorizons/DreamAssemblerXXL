@@ -1,0 +1,11 @@
+{
+  "config": {
+    "name": "GT-New-Horizons-Modpack",
+    "latest_version": "2.6.0-nightly-2024-03-08",
+    "needs_attention": true,
+    "versions": [],
+    "type": "config",
+    "repo_url": "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack"
+  },
+  "mods": []
+}

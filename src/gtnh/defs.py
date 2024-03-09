@@ -40,6 +40,7 @@ class Archive(str, Enum):
 AVAILABLE_ASSETS_FILE = "gtnh-assets.json"
 GTNH_MODPACK_FILE = "gtnh-modpack.json"
 BLACKLISTED_REPOS_FILE = "repo-blacklist.json"
+LOCAL_AVAILABLE_ASSETS_FILE = "local-assets.json"
 LOCAL_EXCLUDES_FILE = ".inplace_mod_exclusions"
 INPLACE_PINNED_FILE = ".inplace_pinned_mods"
 UNKNOWN = "Unknown"

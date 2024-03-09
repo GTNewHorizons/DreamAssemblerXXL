@@ -23,6 +23,7 @@ from gtnh.defs import (
     BLACKLISTED_REPOS_FILE,
     GREEN_CHECK,
     GTNH_MODPACK_FILE,
+    LOCAL_AVAILABLE_ASSETS_FILE,
     INPLACE_PINNED_FILE,
     LOCAL_EXCLUDES_FILE,
     MAVEN_BASE_URL,
@@ -59,6 +60,7 @@ class GTNHModpackManager:
 
     def __init__(self, client: AsyncClient) -> None:
         self.assets: AvailableAssets = self.load_assets()
+        self.local_assets: AvailableAssets = self.load_local_assets()
         self.mod_pack: GTNHModpack = self.load_modpack()
         self.blacklisted_repos = self.load_blacklisted_repos()
         self.org = "GTNewHorizons"
@@ -477,7 +479,7 @@ class GTNHModpackManager:
             self.mod_pack.releases.remove(release_name)
             self.save_modpack()
 
-    async def add_github_mod(self, name: str) -> GTNHModInfo | None:
+    async def add_github_mod(self, name: str, local=False) -> GTNHModInfo | None:
         """
         Attempts to add a mod from a github repo
         :param name: Name of the github repo
@@ -485,16 +487,18 @@ class GTNHModpackManager:
         """
         log.info(f"Trying to add `{name}`.")
 
+        assets = self.local_assets if local is True else self.assets
+
         new_repo = await self.get_repo(name)
-        if self.assets.has_mod(new_repo.name):
+        if assets.has_mod(new_repo.name):
             log.debug(f"Mod `{name}` already exists.")
             return None
 
         new_mod = await self.mod_from_repo(new_repo)
-        self.assets.add_mod(new_mod)
+        assets.add_mod(new_mod)
 
         log.info(f"Successfully added {name}!")
-        self.save_assets()
+        self.save_local_assets() if local is True else self.save_assets()
         return new_mod
 
     async def delete_mod(self, name: str) -> bool:
@@ -589,6 +593,14 @@ class GTNHModpackManager:
         with open(self.gtnh_asset_manifest_path, encoding="utf-8") as f:
             return AvailableAssets.parse_raw(f.read())
 
+    def load_local_assets(self) -> AvailableAssets:
+        """
+        Load the Available Mods manifest
+        """
+        log.debug(f"Loading mods from {self.local_asset_manifest_path}")
+        with open(self.local_asset_manifest_path, encoding="utf-8") as f:
+            return AvailableAssets.parse_raw(f.read())
+
     def load_modpack(self) -> GTNHModpack:
         """
         Load the GTNH Modpack manifest
@@ -617,6 +629,18 @@ class GTNHModpackManager:
         dumped = self.assets.json(exclude={"_modmap"}, exclude_unset=True, exclude_none=True)
         if dumped:
             with open(self.gtnh_asset_manifest_path, "w", encoding="utf-8") as f:
+                f.write(dumped)
+        else:
+            log.error("Save aborted, empty save result")
+
+    def save_local_assets(self) -> None:
+        """
+        Saves the Available Mods Manifest
+        """
+        log.debug(f"Saving assets to from {self.local_asset_manifest_path}")
+        dumped = self.local_assets.json(exclude={"_modmap"}, exclude_unset=True, exclude_none=True)
+        if dumped:
+            with open(self.local_asset_manifest_path, "w", encoding="utf-8") as f:
                 f.write(dumped)
         else:
             log.error("Save aborted, empty save result")
@@ -651,6 +675,13 @@ class GTNHModpackManager:
         Helper property for the available mods manifest file location
         """
         return ROOT_DIR / AVAILABLE_ASSETS_FILE
+
+    @property
+    def local_asset_manifest_path(self) -> Path:
+        """
+        Helper property for the available mods manifest file location
+        """
+        return ROOT_DIR / LOCAL_AVAILABLE_ASSETS_FILE
 
     @property
     def modpack_manifest_path(self) -> Path:

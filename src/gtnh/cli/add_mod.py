@@ -9,11 +9,12 @@ log = get_logger(__name__)
 
 @click.command()
 @click.argument("name")
-async def add_mod(name: str) -> None:
+@click.option("--local", default=False, help="Use local mod list instead")
+async def add_mod(name: str, local: bool) -> None:
     async with httpx.AsyncClient(http2=True) as client:
         log.info(f"Trying to add mod {name}")
         m = GTNHModpackManager(client)
-        if await m.add_github_mod(name):
+        if await m.add_github_mod(name, local):
             m.save_assets()
 
 
