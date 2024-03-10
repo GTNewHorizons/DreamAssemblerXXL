@@ -7,3 +7,4 @@ releases/curse/
 .inplace_mod_exclusions
 .inplace_pinned_mods
 local-assets.json
+releases/manifests/nightly-local.json

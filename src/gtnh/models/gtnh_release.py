@@ -4,7 +4,7 @@ from typing import Dict
 from colorama import Fore
 from pydantic import Field, ValidationError
 
-from gtnh.defs import GREEN_CHECK, RED_CROSS, RELEASE_MANIFEST_DIR
+from gtnh.defs import GREEN_CHECK, RED_CROSS, RELEASE_MANIFEST_DIR, LOCAL_EXTRAS_FILE
 from gtnh.gtnh_logger import get_logger
 from gtnh.models.available_assets import AvailableAssets
 from gtnh.models.base import GTNHBaseModel
@@ -67,6 +67,22 @@ class __GTNHReleaseV1(GTNHBaseModel):
 
 def __process_mod_list(data: dict[str, str]) -> Dict[str, ModVersionInfo]:
     return {k: ModVersionInfo(version=v) for k, v in data.items()}
+
+
+def load_local_extras() -> GTNHRelease | None:
+    release_file = LOCAL_EXTRAS_FILE
+    if not release_file.exists():
+        log.error(f"Local extras file `{Fore.LIGHTRED_EX}{release_file}{Fore.RESET}` not found!")
+        return None
+
+    with open(release_file, encoding="utf-8") as f:
+        data = f.read()
+
+    try:
+        return GTNHRelease.parse_raw(data)
+    except ValidationError:
+        log.info(f"Manifest file for local extras {release_file.name} is incorrect, extras will not be parsed.")
+        return None
 
 
 def load_release(release: str) -> GTNHRelease | None:

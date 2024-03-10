@@ -2,6 +2,7 @@ import bisect
 from functools import cached_property
 from typing import Dict, List
 
+from colorama import Fore
 from pydantic import Field
 
 from gtnh.defs import ModSource, Side
@@ -51,15 +52,16 @@ class AvailableAssets(GTNHBaseModel):
             if mod.latest_version and mod.latest_version != "<unknown>":
                 return mod
 
-        raise NoModAssetFound(f"{mod_name} not found")
+        raise KeyError(f"{mod_name} not found")
 
     def get_mod_and_version(
-        self, mod_name: str, mod_version: ModVersionInfo, valid_sides: set[Side], source: ModSource
+        self, mod_name: str, mod_version: ModVersionInfo, valid_sides: set[Side], source: ModSource, warn: bool = True
     ) -> tuple[GTNHModInfo, GTNHVersion] | None:
         try:
             mod = self.get_mod(mod_name)
         except KeyError:
-            log.warn(f"Mod {mod_name} in {source} cannot be found, returning None")
+            if warn:
+                log.warn(f"Mod {mod_name} in {source} cannot be found, returning None")
             return None
 
         side = mod_version.side if mod_version.side else mod.side

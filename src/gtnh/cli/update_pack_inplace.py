@@ -13,16 +13,17 @@ log = get_logger(__name__)
 @click.argument("side", type=click.Choice([Side.CLIENT, Side.SERVER, Side.CLIENT_JAVA9, Side.SERVER_JAVA9]))
 @click.argument("minecraft_dir", type=click.Path(exists=True, file_okay=False, dir_okay=True))
 @click.option("--use-symlink", is_flag=True, help="Use symlinks instead of copying files")
-async def update_pack_inplace(side: Side, minecraft_dir: str, use_symlink: bool = False) -> None:
+@click.option("--local", is_flag=True, help="Add the local mod list as well")
+async def update_pack_inplace(side: Side, minecraft_dir: str, use_symlink: bool = False, local: bool = False) -> None:
     async with httpx.AsyncClient(http2=True) as client:
         m = GTNHModpackManager(client)
-        release = m.get_release("nightly")
+        release = m.get_release("nightly-local" if local else "nightly")
         if not release:
             raise ReleaseNotFoundException("Nightly release not found")
 
-        await m.download_release(release)
+        await m.download_release(release, local=local)
 
-        await m.update_pack_inplace(release, side, minecraft_dir, use_symlink)
+        await m.update_pack_inplace(release, side, minecraft_dir, use_symlink, local=local)
 
 
 if __name__ == "__main__":

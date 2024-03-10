@@ -92,22 +92,33 @@ class GTNHModpackManager:
 
         return None
 
+    def get_mod(self, mod_name: str, local=False):
+
+        if local and self.local_assets.has_mod(mod_name):
+            return self.local_assets.get_mod(mod_name)
+
+        return self.assets.get_mod(mod_name)
+
     async def update_all(
         self,
         mods_to_update: list[str] | None = None,
         progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[str], None]] = None,
+        local=False
     ) -> None:
         if await self.update_available_assets(
-            mods_to_update, progress_callback=progress_callback, global_progress_callback=global_progress_callback
+            mods_to_update, progress_callback=progress_callback, global_progress_callback=global_progress_callback, local=local
         ):
             self.save_assets()
+            if local is True:
+                self.save_local_assets()
 
     async def update_available_assets(
         self,
         assets_to_update: list[str] | None = None,
         progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[str], None]] = None,
+        local=False
     ) -> bool:
 
         if global_progress_callback is not None:
@@ -117,6 +128,8 @@ class GTNHModpackManager:
 
         tasks = []
         to_update_from_repos: list[Versionable] = [mod for mod in self.assets.mods if mod.source == ModSource.github]
+        if local is True:
+            to_update_from_repos += [mod for mod in self.local_assets.mods if mod.source == ModSource.github]
         to_update_from_repos.append(self.assets.config)
 
         delta_progress: float = 100 / len(to_update_from_repos)
@@ -356,6 +369,7 @@ class GTNHModpackManager:
         progress_callback: Optional[Callable[[float, str], None]] = None,
         reset_progress_callback: Optional[Callable[[], None]] = None,
         global_progress_callback: Optional[Callable[[str], None]] = None,
+        local=False
     ) -> GTNHRelease:
         """
         Updates a release
@@ -369,13 +383,14 @@ class GTNHModpackManager:
         :param progress_callback: Optional callback to update the progress bar for the current task in the gui
         :param reset_progress_callback: Optional callback to reset the progress bar for the current task in the gui
         :param global_progress_callback: Optional callback to update the global progress bar in the gui
+        :param local: If true, adds the local mods to the release
 
         :return: The generated release
         """
         if update_available:
             log.info("Updating assets")
             await self.update_all(
-                progress_callback=progress_callback, global_progress_callback=global_progress_callback
+                progress_callback=progress_callback, global_progress_callback=global_progress_callback, local=local
             )
             if reset_progress_callback is not None:
                 reset_progress_callback()
@@ -384,6 +399,8 @@ class GTNHModpackManager:
                 global_progress_callback("Updating nightly build")
 
         log.info(f"Assembling release: `{Fore.GREEN}{version}{Fore.RESET}`")
+        if local is True:
+            log.info(f"`{Fore.YELLOW}`Appending local mods!`{Fore.RESET}`")
         if overrides:
             log.debug(f"Using overrides: `{Fore.GREEN}{overrides}{Fore.RESET}`")
 
@@ -421,7 +438,7 @@ class GTNHModpackManager:
                         progress_callback(delta_progress, "")  # to stay synced with the progress
                     continue
 
-                mod = self.assets.get_mod(mod_name)
+                mod = self.get_mod(mod_name, local)
                 source_str = "[ Github Mod ]" if mod.is_github() else "[External Mod]"
                 if mod.disabled:
                     log.warn(f"{source_str} Mod `{Fore.CYAN}{mod.name}{Fore.RESET}` is disabled, skipping")
@@ -455,7 +472,7 @@ class GTNHModpackManager:
                 _add_mod(mod)
 
         for mod_name in new_mods or []:
-            mod = self.assets.get_mod(mod_name)
+            mod = self.get_mod(mod_name, local)
             _add_mod(mod)
 
         duplicate_mods = github_mods.keys() & external_mods.keys()
@@ -786,6 +803,7 @@ class GTNHModpackManager:
         release: GTNHRelease,
         download_callback: Optional[Callable[[float, str], None]] = None,
         error_callback: Optional[Callable[[str], None]] = None,
+        local: bool = False
     ) -> list[Path]:
         """
         method to download all the mods required for a release of the pack
@@ -795,6 +813,7 @@ class GTNHModpackManager:
                                   the progress bar that takes a progress step per call and the label used to display
                                   infos to the user)
         :param error_callback: Callable that takes a string in parameters indicating error messages
+        :param local: If true, uses the local assets file as well
         :return: a list holding all the paths to the clientside mods and a list holding all the paths to the serverside
                 mod.
         """
@@ -809,7 +828,7 @@ class GTNHModpackManager:
         downloaders = []
         for is_github, mods in [(True, release.github_mods), (False, release.external_mods)]:
             for mod_name, mod_version in mods.items():
-                mod = self.assets.get_mod(mod_name)
+                mod = self.get_mod(mod_name, local=local)
                 mod_callback = (
                     lambda name: download_callback(delta_progress, f"mod {name} downloaded!")
                     if download_callback
@@ -980,7 +999,7 @@ class GTNHModpackManager:
             raise ValueError(f"{side} isn't a valid side")
 
     async def update_pack_inplace(
-        self, release: GTNHRelease, side: Side, minecraft_dir: str, use_symlink: bool = False
+        self, release: GTNHRelease, side: Side, minecraft_dir: str, use_symlink: bool = False, local: bool = False
     ) -> None:
 
         if not os.path.exists(minecraft_dir):
@@ -1020,6 +1039,9 @@ class GTNHModpackManager:
         kept_mods = set()
 
         side_none_mods = [mod for mod in self.assets.mods if mod.side == Side.NONE]
+        if local:
+            side_none_mods += [mod for mod in self.local_assets.mods if mod.side == Side.NONE]
+
         for mod in side_none_mods:
             for old_version in mod.versions:
                 to_remove = os.path.basename(get_asset_version_cache_location(mod, old_version))
@@ -1033,7 +1055,12 @@ class GTNHModpackManager:
                         active_mods.remove(file)
 
         for mod_dict in (release.github_mods | release.external_mods).items().__reversed__():
-            mod_ver = self.assets.get_mod_and_version(mod_dict[0], mod_dict[1], side.valid_mod_sides(), mod.source)
+
+            mod_ver = None
+            if local:
+                mod_ver = self.local_assets.get_mod_and_version(mod_dict[0], mod_dict[1], side.valid_mod_sides(), mod.source, warn=False)
+            if not mod_ver:
+                mod_ver = self.assets.get_mod_and_version(mod_dict[0], mod_dict[1], side.valid_mod_sides(), mod.source)
             if not mod_ver:
                 continue
 
