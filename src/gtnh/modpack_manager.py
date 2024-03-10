@@ -14,6 +14,7 @@ from gidgethub import BadRequest
 from gidgethub.httpx import GitHubAPI
 from httpx import AsyncClient, HTTPStatusError
 from packaging.version import LegacyVersion
+from pydantic import ValidationError
 from retry import retry
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
@@ -611,13 +612,20 @@ class GTNHModpackManager:
         with open(self.gtnh_asset_manifest_path, encoding="utf-8") as f:
             return AvailableAssets.parse_raw(f.read())
 
-    def load_local_assets(self) -> AvailableAssets:
+    def load_local_assets(self) -> AvailableAssets | None:
         """
-        Load the Available Mods manifest
+        Load the local assets manifest
         """
+        if not self.local_asset_manifest_path.exists():
+            return None
+
         log.debug(f"Loading mods from {self.local_asset_manifest_path}")
         with open(self.local_asset_manifest_path, encoding="utf-8") as f:
-            return AvailableAssets.parse_raw(f.read())
+            try:
+                return AvailableAssets.parse_raw(f.read())
+            except ValidationError as e:
+                log.error(f"Local assets file invalid with error {e}; skipping")
+                return None
 
     def load_modpack(self) -> GTNHModpack:
         """
