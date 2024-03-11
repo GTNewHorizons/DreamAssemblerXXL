@@ -326,10 +326,18 @@ class GenericAssembler:
         """
         for language in self.modpack_manager.assets.translations.versions:
             locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations, language)
+            list_of_files = archive.namelist()
             with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
                 for item in locale_zip.namelist():
                     with locale_zip.open(item) as config_item:
                         item_path = item if root_path is None else f"{root_path}/{item}"
+                        if item_path in list_of_files:
+                            if item_path[-1] != "/":  # not reporting folders as collisions
+                                log.error(
+                                    f"{item_path} from locale {language.filename.split('-')[1]}"  # type: ignore
+                                    " would overwrite the same file in the archive, skipping it."
+                                )
+                            continue
                         with archive.open(item_path, "w") as target:
                             shutil.copyfileobj(config_item, target)
                             if self.task_progress_callback is not None:
@@ -337,4 +345,3 @@ class GenericAssembler:
                                     self.get_progress(),
                                     f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive",
                                 )
-
