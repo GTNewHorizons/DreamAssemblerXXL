@@ -122,7 +122,8 @@ class MMCAssembler(GenericAssembler):
         await GenericAssembler.assemble(self, side, verbose)
 
         with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
-            self.add_localisation_files(archive, str(self.mmc_modpack_files))
+            self.add_localisation_files(archive, str(self.mmc_modpack_files.as_posix()))  # otherwise file check fails
+            # on windows
 
         self.add_mmc_meta_data(side)
 
