@@ -328,21 +328,13 @@ class GenericAssembler:
             locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations, language)
             with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
                 for item in locale_zip.namelist():
-                    if root_path is None:
-                        with locale_zip.open(item) as config_item:
-                            with archive.open(item, "w") as target:
-                                shutil.copyfileobj(config_item, target)
-                                if self.task_progress_callback is not None:
-                                    self.task_progress_callback(
-                                        self.get_progress(),
-                                        f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive",
-                                    )
-                    else:
-                        with locale_zip.open(item) as config_item:
-                            with archive.open(f"{root_path}/{item}", "w") as target:
-                                shutil.copyfileobj(config_item, target)
-                                if self.task_progress_callback is not None:
-                                    self.task_progress_callback(
-                                        self.get_progress(),
-                                        f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive",
-                                    )
+                    with locale_zip.open(item) as config_item:
+                        item_path = item if root_path is None else f"{root_path}/{item}"
+                        with archive.open(item_path, "w") as target:
+                            shutil.copyfileobj(config_item, target)
+                            if self.task_progress_callback is not None:
+                                self.task_progress_callback(
+                                    self.get_progress(),
+                                    f"locale {locale_zip_path.name.split('-')[1]}: adding {item} to the archive",
+                                )
+
