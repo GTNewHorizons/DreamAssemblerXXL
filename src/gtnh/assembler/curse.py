@@ -9,7 +9,7 @@ from colorama import Fore
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
-from gtnh.defs import CACHE_DIR, RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side
+from gtnh.defs import CACHE_DIR, MAVEN_BASE_URL, RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side
 from gtnh.gtnh_logger import get_logger
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
@@ -77,7 +77,7 @@ def get_maven_url(mod: GTNHModInfo, version: GTNHVersion) -> str | None:
         base = mod.maven
     else:
         log.warn(f"Missing mod.maven for {mod.name}, trying fallback url.")
-        base = f"http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/{mod.name}/"
+        base = f"{MAVEN_BASE_URL}{mod.name}/"
 
     url: str = f"{base}{version.version_tag}/{mod.name}-{version.version_tag}.jar"
 
@@ -149,7 +149,9 @@ class CurseAssembler(GenericAssembler):
             raise Exception("Can only assemble release for CLIENT")
 
         # + 2 pictures in the overrides + manifest.json + dependencies.json
-        delta_progress: float = 100 / (2 + self.get_amount_of_files_in_config(side) + 1 + 1)
+        delta_progress: float = 100 / (
+            2 + self.get_amount_of_files_in_config(side) + self.get_amount_of_files_in_locales() + 1 + 1
+        )
         self.set_progress(delta_progress)
 
         archive_name: Path = self.get_archive_path(side)
@@ -170,6 +172,8 @@ class CurseAssembler(GenericAssembler):
             await self.generate_json_dep(side, archive)
             log.info("Adding overrides to the archive")
             self.add_overrides(side, archive)
+            log.info("Adding locales to the archive")
+            self.add_localisation_files(archive, str(self.overrides_folder))
             log.info("Archive created successfully!")
 
     def add_overrides(self, side: Side, archive: ZipFile) -> None:
@@ -244,7 +248,7 @@ class CurseAssembler(GenericAssembler):
                             url = version.maven_url
 
                         # Hacky detection
-                        if url and "jenkins.usrv.eu:8081" in url:
+                        if url and "nexus.gtnewhorizons.com" in url:
                             version.maven_url = url
                     else:
                         url = version.download_url

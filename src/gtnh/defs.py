@@ -26,6 +26,8 @@ RELEASE_README_DIR = RELEASE_DIR / "readmes"
 
 SERVER_ASSETS_DIR = ROOT_DIR / "server_assets"
 
+TRANSLATION_DIR = ROOT_DIR / "translations"
+
 README_TEMPLATE = ROOT_DIR / "readme_template.md"
 
 
@@ -44,7 +46,7 @@ LOCAL_EXCLUDES_FILE = ".inplace_mod_exclusions"
 INPLACE_PINNED_FILE = ".inplace_pinned_mods"
 UNKNOWN = "Unknown"
 OTHER = "Other"
-MAVEN_BASE_URL = "http://jenkins.usrv.eu:8081/nexus/content/repositories/releases/com/github/GTNewHorizons/"
+MAVEN_BASE_URL = "https://nexus.gtnewhorizons.com/repository/releases/com/github/GTNewHorizons/"
 
 GREEN_CHECK = "\N{white heavy check mark}"
 RED_CROSS = "\N{cross mark}"
@@ -92,6 +94,41 @@ name={}
 notes=
 """
 
+SERVER_PROPERTIES_FILE = """generator-settings=
+op-permission-level=2
+allow-nether=true
+level-name=World
+enable-query=false
+allow-flight=true
+announce-player-achievements=true
+server-port=25565
+level-type=rwg
+enable-rcon=false
+force-gamemode=false
+level-seed=
+server-ip=
+max-build-height=256
+spawn-npcs=true
+white-list=true
+spawn-animals=true
+hardcore=false
+snooper-enabled=true
+texture-pack=
+online-mode=true
+server-id=unnamed
+resource-pack=
+pvp=true
+difficulty=3
+server-name=
+enable-command-block=true
+gamemode=0
+player-idle-timeout=0
+max-players=20
+spawn-monsters=true
+generate-structures=true
+view-distance=8
+spawn-protection=1
+motd=GT:New Horizons {0}"""
 
 JAVA_9_ARCHIVE_SUFFIX = "Java_17-21"
 
@@ -145,6 +182,7 @@ class Side(str, Enum):
 class VersionableType(str, Enum):
     mod = "mod"
     config = "config"
+    translations = "translations"
 
 
 class ModSource(str, Enum):

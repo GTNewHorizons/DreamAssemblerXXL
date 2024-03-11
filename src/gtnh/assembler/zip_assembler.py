@@ -5,7 +5,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
-from gtnh.defs import RELEASE_ZIP_DIR, SERVER_ASSETS_DIR, ServerBrand, Side
+from gtnh.defs import RELEASE_ZIP_DIR, SERVER_ASSETS_DIR, SERVER_PROPERTIES_FILE, ServerBrand, Side
 from gtnh.gtnh_logger import get_logger
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
@@ -79,6 +79,9 @@ class ZipAssembler(GenericAssembler):
             if self.task_progress_callback is not None:
                 self.task_progress_callback(self.get_progress(), f"adding server asset {asset.name} to the archive")
 
+        # server.properties
+        archive.writestr("server.properties", SERVER_PROPERTIES_FILE.format(self.release.version))
+
     def add_config(
         self, side: Side, config: Tuple[GTNHConfig, GTNHVersion], archive: ZipFile, verbose: bool = False
     ) -> None:
@@ -90,7 +93,8 @@ class ZipAssembler(GenericAssembler):
 
         with ZipFile(config_file, "r", compression=ZIP_DEFLATED) as config_zip:
 
-            for item in config_zip.namelist():
+            for item in [x for x in config_zip.namelist() if x != "server.properties"]:  # little hack to remove the
+                # server.properties file from old releases
                 if item in self.exclusions[side]:
                     continue
                 with config_zip.open(item) as config_item:
@@ -117,7 +121,11 @@ class ZipAssembler(GenericAssembler):
         amount_of_files: int = len(self.get_mods(side)) + self.get_amount_of_files_in_config(side) + 1
 
         if side.is_server():
-            amount_of_files += len(self.get_server_assets(server_brand, side))
+            amount_of_files += len(self.get_server_assets(server_brand, side)) + 1  # +1 for server.properties generated
+            # dynamically
+
+        if side.is_client():
+            amount_of_files += self.get_amount_of_files_in_locales()
 
         self.set_progress(100 / amount_of_files)
         await GenericAssembler.assemble(self, side, verbose)
@@ -126,6 +134,10 @@ class ZipAssembler(GenericAssembler):
             log.info("Adding server assets to the server release.")
             with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
                 self.add_server_assets(archive, server_brand, side)
+        if side.is_client():
+            log.info("Adding locales to client release.")
+            with ZipFile(self.get_archive_path(side), "a", compression=ZIP_DEFLATED) as archive:
+                self.add_localisation_files(archive)
 
     def get_server_assets(self, server_brand: ServerBrand, side: Side) -> List[Path]:
         """
