@@ -110,6 +110,7 @@ class GTNHModpackManager:
         tasks = []
         to_update_from_repos: list[Versionable] = [mod for mod in self.assets.mods if mod.source == ModSource.github]
         to_update_from_repos.append(self.assets.config)
+        to_update_from_repos.append(self.assets.translations)
 
         delta_progress: float = 100 / len(to_update_from_repos)
         if global_progress_callback is not None:
@@ -553,6 +554,14 @@ class GTNHModpackManager:
         await self.update_versionable_from_repo(self.assets.config, await self.get_repo(self.assets.config.name))
         self.save_assets()
 
+    async def regen_translation_assets(self) -> None:
+        self.assets.translations.versions = []
+        self.assets.translations.latest_version = ""
+        await self.update_versionable_from_repo(
+            self.assets.translations, await self.get_repo(self.assets.translations.name)
+        )
+        self.save_assets()
+
     async def mod_from_repo(self, repo: AttributeDict, side: Side = Side.BOTH) -> GTNHModInfo:
         try:
             latest_release = await self.get_latest_github_release(repo)
@@ -666,6 +675,7 @@ class GTNHModpackManager:
         is_github: bool = False,
         download_callback: Optional[Callable[[str], None]] = None,
         error_callback: Optional[Callable[[str], None]] = None,
+        force_redownload: bool = False,
     ) -> Path | None:
         if asset_version is None:
             asset_version = asset.latest_version
@@ -696,7 +706,7 @@ class GTNHModpackManager:
                 )
 
         for mod_filename, download_url in files_to_download:
-            if os.path.exists(mod_filename):
+            if os.path.exists(mod_filename) and not force_redownload:
                 log.debug(f"{Fore.YELLOW}Skipping re-redownload of {mod_filename}{Fore.RESET}")
                 if download_callback:
                     download_callback(str(mod_filename.name))
@@ -749,9 +759,10 @@ class GTNHModpackManager:
         """
 
         log.debug(f"Downloading mods for Release `{Fore.LIGHTYELLOW_EX}{release.version}{Fore.RESET}`")
-
         # computation of the progress per mod for the progressbar
-        delta_progress = 100 / (len(release.github_mods) + len(release.external_mods) + 1)  # +1 for the config
+        delta_progress = 100 / (
+            len(release.github_mods) + len(release.external_mods) + len(self.assets.translations.versions) + 1
+        )  # +1 for the config
 
         # Download Mods
         log.info(f"Downloading {Fore.GREEN}{len(release.github_mods)}{Fore.RESET} Mod(s)")
@@ -775,19 +786,42 @@ class GTNHModpackManager:
                 )
 
         # download the modpack configs
-        if download_callback is not None:
+        config_callback = (
+            lambda name: download_callback(delta_progress, f"config for release {release.version} downloaded!")
+            if download_callback
+            else None
+        )  # noqa, type: ignore
+
+        downloaders.append(
+            self.download_asset(
+                self.assets.config,
+                release.config,
+                is_github=True,
+                download_callback=config_callback,
+                error_callback=error_callback,
+            )
+        )
+
+        # download the translations for the pack
+        translation_callback = (
+            lambda name: download_callback(
+                delta_progress, f"localisation for {release.version.replace('-latest', '')} downloaded!"
+            )
+            if download_callback
+            else None
+        )  # noqa, type: ignore
+
+        for language in self.assets.translations.versions:
             downloaders.append(
                 self.download_asset(
-                    self.assets.config,
-                    release.config,
+                    asset=self.assets.translations,
+                    asset_version=language.version_tag,
                     is_github=True,
-                    download_callback=lambda name: download_callback(
-                        delta_progress, f"config for release {release.version} downloaded!"
-                    ),  # type: ignore
+                    download_callback=translation_callback,
+                    error_callback=error_callback,
+                    force_redownload=True,
                 )
             )
-        else:
-            downloaders.append(self.download_asset(self.assets.config, release.config, is_github=True))
 
         downloaded: list[Path] = [d for d in await asyncio.gather(*downloaders) if d is not None]
 

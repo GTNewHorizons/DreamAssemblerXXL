@@ -273,6 +273,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         """
         gtnh: GTNHModpackManager = await self.get_gtnh_callback()
         await gtnh.regen_config_assets()
+        await gtnh.regen_translation_assets()
         self.modpack_version.set_values([version.version_tag for version in gtnh.assets.config.versions])
         self.modpack_version.set(gtnh.assets.config.latest_version)
 
