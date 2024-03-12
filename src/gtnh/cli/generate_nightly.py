@@ -17,13 +17,21 @@ async def generate_nightly(update_available: bool) -> None:
         if not existing_release:
             raise ReleaseNotFoundException("Nightly release not found")
 
+        previous_nightly_release_name = "previous_nightly"
+
         release = await m.update_release(
-            "nightly", existing_release=existing_release, update_available=update_available
+            "nightly", existing_release=existing_release, update_available=update_available, last_version=previous_nightly_release_name
         )
 
         if m.add_release(release, update=True):
             log.info("Release generated!")
+
+            # saving the previous_nightly
+            existing_release.version = previous_nightly_release_name
+            m.add_release(existing_release, update=True)
+
             m.save_assets()
+            m.increment_nightly_count()
             m.save_modpack()
 
 

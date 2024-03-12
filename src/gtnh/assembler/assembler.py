@@ -6,7 +6,7 @@ from gtnh.assembler.modrinth import ModrinthAssembler
 from gtnh.assembler.multi_poly import MMCAssembler
 from gtnh.assembler.technic import TechnicAssembler
 from gtnh.assembler.zip_assembler import ZipAssembler
-from gtnh.defs import RELEASE_CHANGELOG_DIR, Archive, Side
+from gtnh.defs import RELEASE_CHANGELOG_DIR, Archive, Side, RELEASE_CHANGELOG_NIGHTLY_BUILDS_DIR
 from gtnh.gtnh_logger import get_logger
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.modpack_manager import GTNHModpackManager
@@ -21,12 +21,12 @@ class ReleaseAssembler:
     """
 
     def __init__(
-        self,
-        mod_manager: GTNHModpackManager,
-        release: GTNHRelease,
-        task_callback: Optional[Callable[[float, str], None]] = None,
-        global_callback: Optional[Callable[[float, str], None]] = None,
-        current_task_reset_callback: Optional[Callable[[], None]] = None,
+            self,
+            mod_manager: GTNHModpackManager,
+            release: GTNHRelease,
+            task_callback: Optional[Callable[[float, str], None]] = None,
+            global_callback: Optional[Callable[[float, str], None]] = None,
+            current_task_reset_callback: Optional[Callable[[], None]] = None,
     ) -> None:
         """
         Constructor of the ReleaseAssemblerClass.
@@ -182,8 +182,13 @@ class ReleaseAssembler:
             None if previous_version is None else self.mod_manager.get_release(previous_version)
         )
         changelog: Dict[str, List[str]] = self.mod_manager.generate_changelog(self.release, previous_release)
-
-        changelog_path: Path = RELEASE_CHANGELOG_DIR / f"changelog from {previous_version} to {current_version}.md"
+        changelog_path: Path
+        if "nightly" in current_version:
+            changelog_path = RELEASE_CHANGELOG_NIGHTLY_BUILDS_DIR / f"changelog from nightly " \
+                                                                    f"{self.mod_manager.get_nightly_count() - 1} to " \
+                                                                    f"{self.mod_manager.get_nightly_count()}.md"
+        else:
+            changelog_path = RELEASE_CHANGELOG_DIR / f"changelog from {previous_version} to {current_version}.md"
 
         with open(changelog_path, "w") as file:
 
