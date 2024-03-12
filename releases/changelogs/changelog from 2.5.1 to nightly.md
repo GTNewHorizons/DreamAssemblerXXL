@@ -11,9 +11,10 @@
 > * HungerOverhaul
 > * MalisisCore
 > * Tinkers' Defense
-# Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.19-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.19-gtnh
+# Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.20-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.20-gtnh
 >## What's Changed
+> * Fix GT circuit detection with dual interfaces by @Caedis in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/194 (1.2.20-gtnh)
 > * FIX: Use correct priority increment amounts by @michaeldoylecs in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/192 (1.2.19-gtnh)
 > * Fix Dynamic Font Size by @slprime in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/193 (1.2.18-gtnh)
 > * Use GT and ae2f fluids in ME inputs/outputs and storag by @slprime in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/191 (1.2.17-gtnh)
