@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-03-12T18:18:00.405555",
+  "last_updated": "2024-03-12T18:25:02.723615",
   "config": "2.6.0-nightly-2024-03-11",
   "github_mods": {
     "AdventureBackpack2": {
@@ -847,6 +847,10 @@
     "Angelica": {
       "version": "1.0.0-alpha34",
       "side": "CLIENT"
+    },
+    "NotEnoughCharacters": {
+      "version": "1.7.10-1.5.3-GTNH",
+      "side": "CLIENT"
     }
   },
   "external_mods": {
@@ -911,7 +915,7 @@
       "side": "BOTH"
     },
     "JourneyMap": {
-      "version": "5.1.4p8-fairplay",
+      "version": "5.2.0-fairplay",
       "side": "CLIENT"
     },
     "JourneyMap Server": {
@@ -963,7 +967,7 @@
       "side": "BOTH"
     },
     "Craft-Presence": {
-      "version": "2.3.0",
+      "version": "2.3.5",
       "side": "CLIENT"
     },
     "Gravitation-Suite-old": {

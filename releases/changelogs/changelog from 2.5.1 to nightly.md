@@ -3,6 +3,7 @@
 > * Archaicfix
 > * CoreTweaks
 > * Hunger-Overhaul
+> * NotEnoughCharacters
 > * ServerUtilities
 > * Tinkers-Defense
 # Mods Removed:
@@ -2038,6 +2039,9 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Nodal-Mechanics/pull/6 (1.1.-6-GTNH)
 > * @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/Nodal-Mechanics/pull/7 (1.1.-6-GTNH)
 >
+
+# New Mod - NotEnoughCharacters (1.7.10-1.5.3-GTNH@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughCharacters/commits/1.7.10-1.5.3-GTNH
 
 # Updated NotEnoughEnergistics (1.4.6@Side.BOTH --> 1.5.1@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.4.5...1.5.1
