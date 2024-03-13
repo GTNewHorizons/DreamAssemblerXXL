@@ -34,7 +34,8 @@ A replacement for DreamMasterXXL, minus the nerfs.
 ### GUI
 * [gui.py](src/gtnh/gui/gui.py) GUI Frontend to the DreamAssemblerXXL
 
-
+# Note to contributors
+Code PRs should always be done against the master branch.
 
 # Github Personal Access Token
 
