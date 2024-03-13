@@ -110,7 +110,6 @@ class GTNHModpackManager:
         tasks = []
         to_update_from_repos: list[Versionable] = [mod for mod in self.assets.mods if mod.source == ModSource.github]
         to_update_from_repos.append(self.assets.config)
-        to_update_from_repos.append(self.assets.translations)
 
         delta_progress: float = 100 / len(to_update_from_repos)
         if global_progress_callback is not None:
@@ -135,6 +134,13 @@ class GTNHModpackManager:
                 )
                 continue
             tasks.append(self.update_versionable_from_repo(asset, repo))
+
+        # update translation manually because version check cannot work on this repo given the nature of the releases
+        self.assets.translations.versions = []
+        self.assets.translations.latest_version = ""
+        tasks.append(
+            self.update_versionable_from_repo(self.assets.translations, all_repos.get(self.assets.translations.name))
+        )
 
         gathered = await asyncio.gather(*tasks, return_exceptions=True)
         return any([r for r in gathered])
