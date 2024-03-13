@@ -444,9 +444,10 @@
 > * `@Local` / `@Share` / `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/AppleCore/pull/28 (3.2.12)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-340-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-340-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-342-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-342-GTNH
 >## What's Changed
+> * swap the remaining time to elapsed time and some QOL change by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/491 (rv3-beta-342-GTNH)
 > * Fix NEI search highlighting by @leumasme in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/485 (rv3-beta-340-GTNH)
 > * Add an option to optimize patterns based on crafting plan by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/470 (rv3-beta-339-GTNH)
 > * Add tall style for cpu list by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/487 (rv3-beta-339-GTNH)
@@ -1152,9 +1153,13 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.101-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.101-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.105-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.105-pre
 >## What's Changed
+> * Add holo glasses support for CRIBs by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2535 (5.09.45.105-pre)
+> * Add holo glasses support for CRIBs by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2535 (5.09.45.104)
+> * Numeric widget and localized number formatting. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2532 (5.09.45.103-pre)
+> * Numeric widget and localized number formatting. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2532 (5.09.45.102)
 > * Add messages about the reasons for machine shutdown during processing by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2522 (5.09.45.100)
 > * fix coal chunk recipe weirdness by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2534 (5.09.45.100)
 > * Fix stocking hatches recipe check by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2531 (5.09.45.100)
@@ -1394,9 +1399,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
 
-# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.37-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.37-pre
+# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.38@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.38
 >## What's Changed
+> * Numeric widget and localized number formatting. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/848 (1.11.38)
 > * Free casings Matter Fabrication CPU by @dahgul333 in https://github.com/GTNewHorizons/GTplusplus/pull/840 (1.11.36)
 > * Align fish centrifuge recipes with GT by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/845 (1.11.35)
 > * Dev by @Dream-Master in https://github.com/GTNewHorizons/GTplusplus/pull/846 (1.11.35)
@@ -1504,9 +1510,11 @@
 > * @LewisSaber made their first contribution in https://github.com/GTNewHorizons/GigaGramFab/pull/27 (0.3.9)
 >
 
-# Updated GoodGenerator (0.7.17@Side.BOTH --> 0.8.16-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.16...0.8.16-pre
+# Updated GoodGenerator (0.7.17@Side.BOTH --> 0.8.17@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GoodGenerator/compare/0.7.16...0.8.17
 >## What's Changed
+> * Prevent LEG from drawing significantly higher amounts of coolant than expected by @ReaganAR in https://github.com/GTNewHorizons/GoodGenerator/pull/243 (0.8.17)
+> * Numeric widget and localized number formatting. by @AbdielKavash in https://github.com/GTNewHorizons/GoodGenerator/pull/242 (0.8.17)
 > * Fix Nq refinery not consuming energy by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/244 (0.8.15)
 > * CoALs: Add missing styrene-butadiene variants for AssLine recipes. by @fluffle in https://github.com/GTNewHorizons/GoodGenerator/pull/239 (0.8.15)
 > * Fix compact fusions by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/241 (0.8.15)
@@ -1525,6 +1533,8 @@
 > * Batch mode for compact fusion MKIV-V by @HoleFish in https://github.com/GTNewHorizons/GoodGenerator/pull/223 (0.8.0)
 >
 >## New Contributors
+> * @ReaganAR made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/243 (0.8.17)
+> * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/242 (0.8.17)
 > * @Nxer made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/229 (0.8.2)
 >
 
@@ -1862,9 +1872,11 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ModTweaker/pull/5 (0.10.0)
 >
 
-# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.39@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.39
+# Updated ModularUI (1.1.24@Side.BOTH --> 1.1.42@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.1.23...1.1.42
 >## What's Changed
+> * Properly fix capacity display with overflowable tank by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/74 (1.1.42)
+> * Fix capacity tooltip for tanks with void overflow enabled by @Lyfts in https://github.com/GTNewHorizons/ModularUI/pull/73 (1.1.40)
 > * Fix NumericWidget alignment. by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/72 (1.1.39)
 > * Update NumberFormatMUI to support Object arguments. by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/71 (1.1.38)
 > * Dynamic text color fix. by @AbdielKavash in https://github.com/GTNewHorizons/ModularUI/pull/70 (1.1.37)
@@ -1881,6 +1893,7 @@
 > * Fix for NEID by @miozune in https://github.com/GTNewHorizons/ModularUI/pull/57 (1.1.24)
 >
 >## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/73 (1.1.40)
 > * @RealSilverMoon made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/65 (1.1.33)
 > * @slprime made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/63 (1.1.31)
 > * @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/58 (1.1.26)
@@ -2564,8 +2577,8 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
 >
 
-# Updated TecTech (5.3.23@Side.BOTH --> 5.3.37@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.37
+# Updated TecTech (5.3.23@Side.BOTH --> 5.3.38-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.38-pre
 >## What's Changed
 > * Forge of the Gods by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/225 (5.3.37)
 > * Add channels to EoH by @HoleFish in https://github.com/GTNewHorizons/TecTech/pull/273 (5.3.36)

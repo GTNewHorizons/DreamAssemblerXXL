@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-03-12T18:31:20.368808",
+  "last_updated": "2024-03-13T18:06:25.642596",
   "config": "2.6.0-nightly-2024-03-12",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-340-GTNH",
+      "version": "rv3-beta-342-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.8.16-pre",
+      "version": "0.8.17",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.101-pre",
+      "version": "5.09.45.105-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.11.37-pre",
+      "version": "1.11.38",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -581,7 +581,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.3.37",
+      "version": "5.3.38-pre",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -709,7 +709,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.1.39",
+      "version": "1.1.42",
       "side": "BOTH"
     },
     "TX-Loader": {
