@@ -20,7 +20,10 @@ async def generate_nightly(update_available: bool) -> None:
         previous_nightly_release_name = "previous_nightly"
 
         release = await m.update_release(
-            "nightly", existing_release=existing_release, update_available=update_available, last_version=previous_nightly_release_name
+            "nightly",
+            existing_release=existing_release,
+            update_available=update_available,
+            last_version=previous_nightly_release_name,
         )
 
         if m.add_release(release, update=True):

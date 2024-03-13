@@ -708,12 +708,12 @@ class Window(ThemedTk, Tk):
                 progress_callback=self.progress_callback,
                 reset_progress_callback=self.current_task_reset_callback,
                 global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
-                last_version=previous_nightly_release_name
+                last_version=previous_nightly_release_name,
             )
             gtnh.add_release(release, update=True)
 
             # saving the previous_nightly
-            existing_release.version=previous_nightly_release_name
+            existing_release.version = previous_nightly_release_name
             gtnh.add_release(existing_release, update=True)
 
             gtnh.save_modpack()

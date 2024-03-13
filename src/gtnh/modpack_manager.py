@@ -603,7 +603,7 @@ class GTNHModpackManager:
         """
         return self.assets.latest_nightly
 
-    def increment_nightly_count(self)->None:
+    def increment_nightly_count(self) -> None:
         """
         Increment the nightly count.
 
@@ -611,7 +611,7 @@ class GTNHModpackManager:
         -------
         None
         """
-        self.assets.latest_nightly+=1
+        self.assets.latest_nightly += 1
         self.save_assets()
 
     def load_modpack(self) -> GTNHModpack:
