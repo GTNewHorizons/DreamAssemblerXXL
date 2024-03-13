@@ -614,7 +614,7 @@ class GTNHModpackManager:
         self.assets.latest_nightly += 1
         self.save_assets()
 
-    def set_last_successful_nightly(self, id:int)->None:
+    def set_last_successful_nightly(self, id: int) -> None:
         """
         Set the last successful nightly id.
 
@@ -630,7 +630,7 @@ class GTNHModpackManager:
         self.assets.latest_successful_nightly = id
         self.save_assets()
 
-    def get_last_successful_nightly(self):
+    def get_last_successful_nightly(self) -> int:
         """
         get the last successful nightly id.
 
