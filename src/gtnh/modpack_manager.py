@@ -614,6 +614,33 @@ class GTNHModpackManager:
         self.assets.latest_nightly += 1
         self.save_assets()
 
+    def set_last_successful_nightly(self, id:int)->None:
+        """
+        Set the last successful nightly id.
+
+        Parameters
+        ----------
+        id: int
+            The last successful nightly id.
+
+        Returns
+        -------
+        None
+        """
+        self.assets.latest_successful_nightly = id
+        self.save_assets()
+
+    def get_last_successful_nightly(self):
+        """
+        get the last successful nightly id.
+
+        Returns
+        -------
+        int
+            The last successful nightly id.
+        """
+        return self.assets.latest_successful_nightly
+
     def load_modpack(self) -> GTNHModpack:
         """
         Load the GTNH Modpack manifest

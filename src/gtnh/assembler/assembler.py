@@ -186,7 +186,7 @@ class ReleaseAssembler:
         if "nightly" in current_version:
             changelog_path = (
                 RELEASE_CHANGELOG_NIGHTLY_BUILDS_DIR / f"changelog from nightly "
-                f"{self.mod_manager.get_nightly_count() - 1} to "
+                f"{self.mod_manager.get_last_successful_nightly()} to "
                 f"{self.mod_manager.get_nightly_count()}.md"
             )
         else:

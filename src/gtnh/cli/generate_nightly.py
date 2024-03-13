@@ -14,6 +14,7 @@ async def generate_nightly(update_available: bool) -> None:
     async with httpx.AsyncClient(http2=True) as client:
         m = GTNHModpackManager(client)
         existing_release = m.get_release("nightly")
+        m.increment_nightly_count()  # assets need to be uploaded even if the build crashes, it tracks the build id
         if not existing_release:
             raise ReleaseNotFoundException("Nightly release not found")
 
@@ -34,7 +35,6 @@ async def generate_nightly(update_available: bool) -> None:
             m.add_release(existing_release, update=True)
 
             m.save_assets()
-            m.increment_nightly_count()
             m.save_modpack()
 
 
