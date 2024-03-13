@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-03-13T18:06:25.642596",
+  "last_updated": "2024-03-13T20:48:42.505635",
   "config": "2.6.0-nightly-2024-03-12",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.2.20-gtnh",
+      "version": "1.2.21-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -341,7 +341,7 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.10.0",
+      "version": "0.10.1",
       "side": "BOTH"
     },
     "KubaTech": {

@@ -11,9 +11,10 @@
 > * HungerOverhaul
 > * MalisisCore
 > * Tinkers' Defense
-# Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.20-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.20-gtnh
+# Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.21-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.21-gtnh
 >## What's Changed
+> * Remove Useless GL11 calls by @mitchej123 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/196 (1.2.21-gtnh)
 > * Fix GT circuit detection with dual interfaces by @Caedis in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/194 (1.2.20-gtnh)
 > * FIX: Use correct priority increment amounts by @michaeldoylecs in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/192 (1.2.19-gtnh)
 > * Fix Dynamic Font Size by @slprime in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/193 (1.2.18-gtnh)
@@ -33,6 +34,7 @@
 > * Correct `stackSize` z order by @Laiff in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/178 (1.2.0-gtnh)
 >
 >## New Contributors
+> * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/196 (1.2.21-gtnh)
 > * @michaeldoylecs made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/192 (1.2.19-gtnh)
 > * @slprime made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/191 (1.2.17-gtnh)
 > * @slprime made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/191 (1.2.16-gtnh-pre)
@@ -1721,10 +1723,15 @@
 > * Update buildscript and clean repositories by @bombcar in https://github.com/GTNewHorizons/Jabba/pull/27 (1.3.1)
 >
 
-# Updated KekzTech (0.9.6@Side.BOTH --> 0.10.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.9.5...0.10.0
+# Updated KekzTech (0.9.6@Side.BOTH --> 0.10.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/KekzTech/compare/0.9.5...0.10.1
 >## What's Changed
+> * Use wireless network manager and hopefully fix npe by @chochem in https://github.com/GTNewHorizons/KekzTech/pull/82 (0.10.1)
+> * Fix missing LSC casing amount check by @HoleFish in https://github.com/GTNewHorizons/KekzTech/pull/83 (0.10.1)
 > * Bs+dep update by @chochem in https://github.com/GTNewHorizons/KekzTech/pull/81 (0.9.6)
+>
+>## New Contributors
+> * @HoleFish made their first contribution in https://github.com/GTNewHorizons/KekzTech/pull/83 (0.10.1)
 >
 
 # Updated KubaTech (0.13.12@Side.BOTH --> 0.14.5@Side.BOTH)
