@@ -156,3 +156,20 @@ jobs:
           path: GTNH-${{ steps.date.outputs.today }}-mmcprism-new-java.zip
           compression-level: 0 # already compressed by Python
 
+      # Pulls the newest changelog filename and stores it in an env variable
+      # so we can use it in the commit
+      - name: Retrieve Changelog Name
+        run: |
+          echo "changelog_name=$(./scripts/newest_nightly_changelog.sh './releases/changelogs/nightly builds')" >> $GITHUB_ENV
+
+      - name: Push nightly changelog in commit to 
+        if: success() || failure()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config pull.rebase true
+          git checkout master
+          git pull
+          git add "./releases/changelogs/nightly builds"
+          git commit -m "Update $changelog_name"
+          git push origin master
