@@ -2584,8 +2584,8 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
 >
 
-# Updated TecTech (5.3.23@Side.BOTH --> 5.3.38-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.38-pre
+# Updated TecTech (5.3.23@Side.BOTH --> 5.3.37@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.37
 >## What's Changed
 > * Forge of the Gods by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/225 (5.3.37)
 > * Add channels to EoH by @HoleFish in https://github.com/GTNewHorizons/TecTech/pull/273 (5.3.36)
