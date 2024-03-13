@@ -159,6 +159,7 @@ jobs:
       # Pulls the newest changelog filename and stores it in an env variable
       # so we can use it in the commit
       - name: Retrieve Changelog Name
+        if: success() || failure()
         run: |
           echo "changelog_name=$(./scripts/newest_nightly_changelog.sh './releases/changelogs/nightly builds')" >> $GITHUB_ENV
 
