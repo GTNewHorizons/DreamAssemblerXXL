@@ -29,7 +29,7 @@ async def generate_nightly(update_available: bool) -> None:
         if m.add_release(release, update=True):
             log.info("Release generated!")
 
-            # saving the previous_nightly
+            # saving the previous_nightly for changelog generation
             existing_release.version = previous_nightly_release_name
             m.add_release(existing_release, update=True)
 

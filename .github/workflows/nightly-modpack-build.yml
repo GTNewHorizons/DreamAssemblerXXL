@@ -172,7 +172,7 @@ jobs:
           git checkout master
           git pull
           git add "./releases/changelogs/nightly builds"
-          git commit -m "Update $changelog_name"
+          git commit -m "Upload $changelog_name"
           git push origin master
 
       - name: Push nightly manifest in commit to dev
@@ -184,6 +184,7 @@ jobs:
           git checkout dev
           git pull
           git add ./releases/manifests/nightly.json
+          git add ./gtnh-assets.json
           git commit -m "Update nightly manifest"
           git push origin dev
       

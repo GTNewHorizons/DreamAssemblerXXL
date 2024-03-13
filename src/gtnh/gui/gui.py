@@ -717,7 +717,8 @@ class Window(ThemedTk, Tk):
             gtnh.add_release(existing_release, update=True)
 
             gtnh.save_modpack()
-            gtnh.increment_nightly_count()
+            # should only be incremented by workflow
+            # gtnh.increment_nightly_count()
             self.trigger_toggle()
             errored_mods = []
 
