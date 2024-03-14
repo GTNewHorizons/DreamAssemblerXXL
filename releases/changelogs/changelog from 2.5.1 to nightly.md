@@ -1759,8 +1759,8 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/LittleTiles/pull/8 (1.2.9-GTNH)
 >
 
-# Updated LogisticsPipes (1.0.8-GTNH@Side.BOTH --> 1.1.3-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.0.7-GTNH...1.1.3-GTNH
+# Updated LogisticsPipes (1.0.8-GTNH@Side.BOTH --> 1.1.4-GTNH-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.0.7-GTNH...1.1.4-GTNH-pre
 >## What's Changed
 > * Reenable recipes for non-GTNH environments by @ThePixelbrain in https://github.com/GTNewHorizons/LogisticsPipes/pull/32 (1.1.3-GTNH)
 > * request table gui improvement by @Glease in https://github.com/GTNewHorizons/LogisticsPipes/pull/30 (1.1.2-GTNH)
@@ -2584,8 +2584,8 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
 >
 
-# Updated TecTech (5.3.23@Side.BOTH --> 5.3.37@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.37
+# Updated TecTech (5.3.23@Side.BOTH --> 5.3.39-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.39-pre
 >## What's Changed
 > * Forge of the Gods by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/225 (5.3.37)
 > * Add channels to EoH by @HoleFish in https://github.com/GTNewHorizons/TecTech/pull/273 (5.3.36)
