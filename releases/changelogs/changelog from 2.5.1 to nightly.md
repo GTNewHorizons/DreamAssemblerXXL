@@ -1155,9 +1155,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.105-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.105-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.106@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.106
 >## What's Changed
+> * Fix crib separation by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2537 (5.09.45.106)
 > * Add holo glasses support for CRIBs by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2535 (5.09.45.105-pre)
 > * Add holo glasses support for CRIBs by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2535 (5.09.45.104)
 > * Numeric widget and localized number formatting. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2532 (5.09.45.103-pre)
@@ -1540,9 +1541,11 @@
 > * @Nxer made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/229 (0.8.2)
 >
 
-# Updated Gravitation-Suite-Neo (1.0.20@Side.BOTH --> 1.1.3-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.19...1.1.3-pre
+# Updated Gravitation-Suite-Neo (1.0.20@Side.BOTH --> 1.1.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.19...1.1.5
 >## What's Changed
+> * Adjust Injection Points by @glowredman in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/18 (1.1.5)
+> * Reimplement ASP + GS Patcher fixes by @glowredman in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/19 (1.1.5)
 > * Fix Vajra unintended behaviour by @Lyfts in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/17 (1.1.1)
 > * Fixed breaking unbreakable stuff by @Cardinalstars in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/16 (1.1.1)
 >
@@ -1571,9 +1574,11 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/HelpFixer/pull/1 (1.1.0)
 >
 
-# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.36-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.36-pre
+# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.38@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.38
 >## What's Changed
+> * Fix MT Core Recipe by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/345 (2.4.38)
+> * Add another null check to the FixWorldLeak mixin by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/346 (2.4.38)
 > * Yet another Cleanup by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/342 (2.4.35)
 > * Add lighter water tweak by @ah-OOG-ah in https://github.com/GTNewHorizons/Hodgepodge/pull/339 (2.4.34)
 > * Add int dimension id to end of login packet by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/341 (2.4.33)
@@ -2584,9 +2589,10 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
 >
 
-# Updated TecTech (5.3.23@Side.BOTH --> 5.3.39-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.39-pre
+# Updated TecTech (5.3.23@Side.BOTH --> 5.3.40@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.40
 >## What's Changed
+> * EOH fix no power output & description and scanner info changes by @HoleFish in https://github.com/GTNewHorizons/TecTech/pull/274 (5.3.40)
 > * Forge of the Gods by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/225 (5.3.37)
 > * Add channels to EoH by @HoleFish in https://github.com/GTNewHorizons/TecTech/pull/273 (5.3.36)
 > * Numeric widget and localized number formatting. by @AbdielKavash in https://github.com/GTNewHorizons/TecTech/pull/272 (5.3.34)
@@ -2637,9 +2643,10 @@
 > * @S4mpsa made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/24 (1.1.3)
 >
 
-# Updated ThaumicEnergistics (1.5.4-GTNH@Side.BOTH --> 1.6.3-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.5.3-GTNH...1.6.3-GTNH
+# Updated ThaumicEnergistics (1.5.4-GTNH@Side.BOTH --> 1.6.4-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.5.3-GTNH...1.6.4-GTNH
 >## What's Changed
+> * fix that even network tool in inventory but card toolbox won't show up by @MCTBL in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/61 (1.6.4-GTNH)
 > * Fix crash when starting autocraft from arcane terminal by @Lyfts in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/59 (1.6.3-GTNH)
 > * Fix new essentia cell crash when shift rightclicking by @Hikari1nVoid in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/58 (1.6.1-GTNH)
 > * Introduce special handling for multi-aspect containers by @OneEyeMaker in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/57 (1.6.0-GTNH)
@@ -2969,9 +2976,10 @@
 > * @norbby42 made their first contribution in https://github.com/GTNewHorizons/inventory-tweaks/pull/8 (1.6.2)
 >
 
-# Updated ironchest (6.0.74@Side.BOTH --> 6.0.82@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.73...6.0.82
+# Updated ironchest (6.0.74@Side.BOTH --> 6.0.84@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.73...6.0.84
 >## What's Changed
+> * Check if source and target of upgrade are both enabled before registering by @Caedis in https://github.com/GTNewHorizons/ironchest/pull/20 (6.0.83)
 > * Do not use crystal as tiered chest (non-GTNH environments) by @Pilzinsel64 in https://github.com/GTNewHorizons/ironchest/pull/18 (6.0.82)
 > * fix recipes for non-GTNH environments by @Pilzinsel64 in https://github.com/GTNewHorizons/ironchest/pull/17 (6.0.82)
 > * Improve tier handling & recipe generation by @Pilzinsel64 in https://github.com/GTNewHorizons/ironchest/pull/19 (6.0.82)
