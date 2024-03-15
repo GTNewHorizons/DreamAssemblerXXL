@@ -1155,9 +1155,12 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.106@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.106
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.109-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.109-pre
 >## What's Changed
+> * Unhide 3 craftable drinks by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2539 (5.09.45.109-pre)
+> * Unhide 3 craftable drinks by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2539 (5.09.45.108)
+> * Fix crib separation by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2537 (5.09.45.107-pre)
 > * Fix crib separation by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2537 (5.09.45.106)
 > * Add holo glasses support for CRIBs by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2535 (5.09.45.105-pre)
 > * Add holo glasses support for CRIBs by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2535 (5.09.45.104)
@@ -1402,9 +1405,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
 
-# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.38@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.38
+# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.39@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.39
 >## What's Changed
+> * Fix crib separation for industrial multi machine by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/849 (1.11.39)
 > * Numeric widget and localized number formatting. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/848 (1.11.38)
 > * Free casings Matter Fabrication CPU by @dahgul333 in https://github.com/GTNewHorizons/GTplusplus/pull/840 (1.11.36)
 > * Align fish centrifuge recipes with GT by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/845 (1.11.35)
@@ -1497,9 +1501,10 @@
 # Updated Galaxy-Space-GTNH (1.2.15-GTNH@Side.BOTH --> 1.1.82-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/commits/1.2.15-GTNH@Side.BOTH...1.1.82-GTNH@Side.BOTH
 
-# Updated GigaGramFab (0.3.9@Side.BOTH --> 0.3.15@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.3.8...0.3.15
+# Updated GigaGramFab (0.3.9@Side.BOTH --> 0.3.16@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.3.8...0.3.16
 >## What's Changed
+> * Fix batch mode slowing down groups of multiple AAL by @NotAPenguin0 in https://github.com/GTNewHorizons/GigaGramFab/pull/35 (0.3.16)
 > * Syncing TextWidget by @AbdielKavash in https://github.com/GTNewHorizons/GigaGramFab/pull/34 (0.3.15)
 > * Add AAL batch mode by @NotAPenguin0 in https://github.com/GTNewHorizons/GigaGramFab/pull/32 (0.3.14)
 > * Fix fluidtank capacity of tool casting machines  by @HoleFish in https://github.com/GTNewHorizons/GigaGramFab/pull/33 (0.3.12)
@@ -1541,11 +1546,9 @@
 > * @Nxer made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/229 (0.8.2)
 >
 
-# Updated Gravitation-Suite-Neo (1.0.20@Side.BOTH --> 1.1.5@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.19...1.1.5
+# Updated Gravitation-Suite-Neo (1.0.20@Side.BOTH --> 1.1.4-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.19...1.1.4-pre
 >## What's Changed
-> * Adjust Injection Points by @glowredman in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/18 (1.1.5)
-> * Reimplement ASP + GS Patcher fixes by @glowredman in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/19 (1.1.5)
 > * Fix Vajra unintended behaviour by @Lyfts in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/17 (1.1.1)
 > * Fixed breaking unbreakable stuff by @Cardinalstars in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/16 (1.1.1)
 >
@@ -2829,9 +2832,10 @@
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/WanionLib/pull/2 (1.9.0)
 >
 
-# Updated WarpTheory (1.2.17-GTNH@Side.BOTH --> 1.3.4-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.2.16-GTNH...1.3.4-GTNH
+# Updated WarpTheory (1.2.17-GTNH@Side.BOTH --> 1.3.5-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.2.16-GTNH...1.3.5-GTNH
 >## What's Changed
+> * fix querying warp using wrong name by @Glease in https://github.com/GTNewHorizons/WarpTheory/pull/34 (1.3.5-GTNH)
 > * Fix crash with CombatHotbar by @leumasme in https://github.com/GTNewHorizons/WarpTheory/pull/33 (1.3.4-GTNH)
 > * Update ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/WarpTheory/pull/32 (1.3.2-GTNH)
 > * Add names for warptheory entities for mobinfo by @bombcar in https://github.com/GTNewHorizons/WarpTheory/pull/31 (1.3.0-GTNH)
@@ -2976,9 +2980,10 @@
 > * @norbby42 made their first contribution in https://github.com/GTNewHorizons/inventory-tweaks/pull/8 (1.6.2)
 >
 
-# Updated ironchest (6.0.74@Side.BOTH --> 6.0.84@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.73...6.0.84
+# Updated ironchest (6.0.74@Side.BOTH --> 6.0.85@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.73...6.0.85
 >## What's Changed
+> * Add Silver Chest GUI code by @Caedis in https://github.com/GTNewHorizons/ironchest/pull/21 (6.0.85)
 > * Check if source and target of upgrade are both enabled before registering by @Caedis in https://github.com/GTNewHorizons/ironchest/pull/20 (6.0.83)
 > * Do not use crystal as tiered chest (non-GTNH environments) by @Pilzinsel64 in https://github.com/GTNewHorizons/ironchest/pull/18 (6.0.82)
 > * fix recipes for non-GTNH environments by @Pilzinsel64 in https://github.com/GTNewHorizons/ironchest/pull/17 (6.0.82)
