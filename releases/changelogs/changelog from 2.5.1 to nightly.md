@@ -1546,9 +1546,11 @@
 > * @Nxer made their first contribution in https://github.com/GTNewHorizons/GoodGenerator/pull/229 (0.8.2)
 >
 
-# Updated Gravitation-Suite-Neo (1.0.20@Side.BOTH --> 1.1.4-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.19...1.1.4-pre
+# Updated Gravitation-Suite-Neo (1.0.20@Side.BOTH --> 1.1.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.0.19...1.1.5
 >## What's Changed
+> * Adjust Injection Points by @glowredman in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/18 (1.1.5)
+> * Reimplement ASP + GS Patcher fixes by @glowredman in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/19 (1.1.5)
 > * Fix Vajra unintended behaviour by @Lyfts in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/17 (1.1.1)
 > * Fixed breaking unbreakable stuff by @Cardinalstars in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/16 (1.1.1)
 >

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-03-15T06:10:14.897798",
+  "last_updated": "2024-03-15T06:15:36.876633",
   "config": "2.6.0-nightly-2024-03-12",
   "github_mods": {
     "AdventureBackpack2": {
@@ -765,7 +765,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.1.4-pre",
+      "version": "1.1.5",
       "side": "BOTH"
     },
     "MrTJPCore": {
