@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.5.1",
-  "last_updated": "2024-03-15T06:15:36.876633",
+  "last_updated": "2024-03-16T06:48:25.514846",
   "config": "2.6.0-nightly-2024-03-12",
   "github_mods": {
     "AdventureBackpack2": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.6.3",
+      "version": "1.6.4",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.109-pre",
+      "version": "5.09.45.113-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.28",
+      "version": "2.0.30",
       "side": "BOTH"
     },
     "Tinkers-Defense": {

@@ -890,13 +890,17 @@
 > * weeds by @bombcar in https://github.com/GTNewHorizons/CropLoadCore/pull/8 (0.1.10)
 >
 
-# Updated Crops-plus-plus (1.5.12@Side.BOTH --> 1.6.3@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.5.11...1.6.3
+# Updated Crops-plus-plus (1.5.12@Side.BOTH --> 1.6.4@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.5.11...1.6.4
 >## What's Changed
+> * use correct Roman numerals for UHV machine names by @NotAPenguin0 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/66 (1.6.4)
 > * Just textures by @Minepolz320 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/65 (1.6.3)
 > * Fix Potions by @glowredman in https://github.com/GTNewHorizons/Crops-plus-plus/pull/63 (1.6.1)
 > * Fix incorrect cactus drop. by @C0bra5 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/64 (1.6.0)
 > * add back Space Flower uum recipe by @Dream-Master in https://github.com/GTNewHorizons/Crops-plus-plus/pull/62 (1.5.12)
+>
+>## New Contributors
+> * @NotAPenguin0 made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/66 (1.6.4)
 >
 
 # Updated Custom-Main-Menu (1.10.3@Side.CLIENT --> 1.11.2@Side.CLIENT)
@@ -1155,9 +1159,15 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.109-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.109-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.113-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.113-pre
 >## What's Changed
+> * Don't hide brewery recipes & unhide more drinks by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2540 (5.09.45.113-pre)
+> * Don't hide brewery recipes & unhide more drinks by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2540 (5.09.45.112)
+> * Show the reason why the machine shutdown on DC by @RealSilverMoon in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2536 (5.09.45.111-pre)
+> * Ensure crib works for multismelter by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2538 (5.09.45.111-pre)
+> * Show the reason why the machine shutdown on DC by @RealSilverMoon in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2536 (5.09.45.110)
+> * Ensure crib works for multismelter by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2538 (5.09.45.110)
 > * Unhide 3 craftable drinks by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2539 (5.09.45.109-pre)
 > * Unhide 3 craftable drinks by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2539 (5.09.45.108)
 > * Fix crib separation by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2537 (5.09.45.107-pre)
@@ -2362,9 +2372,11 @@
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/Schematica/pull/17 (1.9.4-GTNH)
 >
 
-# New Mod - ServerUtilities (2.0.28@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.28
+# New Mod - ServerUtilities (2.0.30@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/commits/2.0.30
 >## What's Changed
+> * Disable clientside config edits if their function is disabled on server by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/52 (2.0.30)
+> * Fix various teleportation problems by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/51 (2.0.29)
 > * Fix backups not getting deleted under certain circumstances by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/48 (2.0.28)
 > * Add config for allowing all block interactions in claimed chunks by @Majora320 in https://github.com/GTNewHorizons/ServerUtilities/pull/47 (2.0.27)
 > * Rename power permission node to priority by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/46 (2.0.26)
