@@ -1430,8 +1430,8 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
 
-# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.40@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.40
+# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.41-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.41-pre
 >## What's Changed
 > * Fix Industral Arc Furnace structure check by @HoleFish in https://github.com/GTNewHorizons/GTplusplus/pull/850 (1.11.40)
 > * Fix crib separation for industrial multi machine by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/849 (1.11.39)
