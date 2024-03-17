@@ -51,10 +51,14 @@
 > * update build by @bombcar in https://github.com/GTNewHorizons/AFSU/pull/4 (1.2.6-GTNH)
 >
 
-# Updated AdventureBackpack2 (1.0.17-GTNH@Side.BOTH --> 1.1.1-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.16-GTNH...1.1.1-GTNH
+# Updated AdventureBackpack2 (1.0.17-GTNH@Side.BOTH --> 1.1.2-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.0.16-GTNH...1.1.2-GTNH
 >## What's Changed
+> * Handle mouse keybinds without keyboard input by @Lyfts in https://github.com/GTNewHorizons/AdventureBackpack2/pull/18 (1.1.2-GTNH)
 > * Add name for rideableSpider by @bombcar in https://github.com/GTNewHorizons/AdventureBackpack2/pull/17 (1.1.0-GTNH)
+>
+>## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/18 (1.1.2-GTNH)
 >
 
 # Updated AlchemyGrate (1.0.3-GTNH@Side.BOTH --> 1.1.0-GTNH@Side.BOTH)
@@ -79,9 +83,14 @@
 > * @mitchej123 made their first contribution in https://github.com/GTNewHorizons/Amazing-Trophies/pull/6 (1.2.0)
 >
 
-# New Mod - Angelica (1.0.0-alpha34@Side.CLIENT)
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/commits/1.0.0-alpha34
+# New Mod - Angelica (1.0.0-alpha35@Side.CLIENT)
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/commits/1.0.0-alpha35
 >## What's Changed
+> * Stop blacklisting bartworks by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/369 (1.0.0-alpha35)
+> * Use ByteBuffer overload when indirect buffer is in client memory by @makamys in https://github.com/GTNewHorizons/Angelica/pull/375 (1.0.0-alpha35)
+> * Use vanilla field to count number of chunk updates by @makamys in https://github.com/GTNewHorizons/Angelica/pull/372 (1.0.0-alpha35)
+> * Fix AIOBE in debug screen and NPE on world join by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/385 (1.0.0-alpha35)
+> * Check before casting. by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/389 (1.0.0-alpha35)
 > * Don't blacklist gregtech from the render thread by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/356 (1.0.0-alpha34)
 > * Update priority of FOV multiplier event by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/361 (1.0.0-alpha34)
 > * Potential fix for splash screen crashes by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/363 (1.0.0-alpha34)
@@ -446,9 +455,10 @@
 > * `@Local` / `@Share` / `@ModifyExpressionValue` by @glowredman in https://github.com/GTNewHorizons/AppleCore/pull/28 (3.2.12)
 >
 
-# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-342-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-342-GTNH
+# Updated Applied-Energistics-2-Unofficial (rv3-beta-292-GTNH@Side.BOTH --> rv3-beta-343-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-291-GTNH...rv3-beta-343-GTNH
 >## What's Changed
+> * Remove three unwanted recipes by @chochem in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/492 (rv3-beta-343-GTNH)
 > * swap the remaining time to elapsed time and some QOL change by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/491 (rv3-beta-342-GTNH)
 > * Fix NEI search highlighting by @leumasme in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/485 (rv3-beta-340-GTNH)
 > * Add an option to optimize patterns based on crafting plan by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/470 (rv3-beta-339-GTNH)
@@ -764,9 +774,10 @@
 > * @Dream-Master made their first contribution in https://github.com/GTNewHorizons/BuildCraftCompat/pull/11 (7.1.16)
 >
 
-# Updated BuildCraftOilTweak (1.0.4@Side.BOTH --> 1.1.0@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/BuildCraftOilTweak/compare/1.0.4...1.1.0
+# Updated BuildCraftOilTweak (1.0.4@Side.BOTH --> 1.1.1@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/BuildCraftOilTweak/compare/1.0.4...1.1.1
 >## What's Changed
+> * Fix Version Replacement by @glowredman in https://github.com/GTNewHorizons/BuildCraftOilTweak/pull/2 (1.1.1)
 > * Update Buildscript by @glowredman in https://github.com/GTNewHorizons/BuildCraftOilTweak/pull/1 (1.0.4)
 >
 >## New Contributors
@@ -1159,9 +1170,11 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.113-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.113-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.115-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.115-pre
 >## What's Changed
+> * Fix typo in kevlar tooltips by @NotAPenguin0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2541 (5.09.45.115-pre)
+> * Fix typo in kevlar tooltips by @NotAPenguin0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2541 (5.09.45.114)
 > * Don't hide brewery recipes & unhide more drinks by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2540 (5.09.45.113-pre)
 > * Don't hide brewery recipes & unhide more drinks by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2540 (5.09.45.112)
 > * Show the reason why the machine shutdown on DC by @RealSilverMoon in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2536 (5.09.45.111-pre)
@@ -1339,6 +1352,8 @@
 > * more detailed progress info in waila tooltip for basic machines by @iamblackornot in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2401 (5.09.45.00)
 >
 >## New Contributors
+> * @NotAPenguin0 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2541 (5.09.45.115-pre)
+> * @NotAPenguin0 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2541 (5.09.45.114)
 > * @slprime made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2490 (5.09.45.64)
 > * @RitumsC made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2484 (5.09.45.57)
 > * @RealSilverMoon made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2412 (5.09.45.57)
@@ -1415,9 +1430,10 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
 
-# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.39@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.39
+# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.40@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.40
 >## What's Changed
+> * Fix Industral Arc Furnace structure check by @HoleFish in https://github.com/GTNewHorizons/GTplusplus/pull/850 (1.11.40)
 > * Fix crib separation for industrial multi machine by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/849 (1.11.39)
 > * Numeric widget and localized number formatting. by @AbdielKavash in https://github.com/GTNewHorizons/GTplusplus/pull/848 (1.11.38)
 > * Free casings Matter Fabrication CPU by @dahgul333 in https://github.com/GTNewHorizons/GTplusplus/pull/840 (1.11.36)
@@ -1511,9 +1527,10 @@
 # Updated Galaxy-Space-GTNH (1.2.15-GTNH@Side.BOTH --> 1.1.82-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/commits/1.2.15-GTNH@Side.BOTH...1.1.82-GTNH@Side.BOTH
 
-# Updated GigaGramFab (0.3.9@Side.BOTH --> 0.3.16@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.3.8...0.3.16
+# Updated GigaGramFab (0.3.9@Side.BOTH --> 0.3.17@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GigaGramFab/compare/0.3.8...0.3.17
 >## What's Changed
+> * Fix AAL batch mode duping fluid on last batch in rare cases. by @NotAPenguin0 in https://github.com/GTNewHorizons/GigaGramFab/pull/36 (0.3.17)
 > * Fix batch mode slowing down groups of multiple AAL by @NotAPenguin0 in https://github.com/GTNewHorizons/GigaGramFab/pull/35 (0.3.16)
 > * Syncing TextWidget by @AbdielKavash in https://github.com/GTNewHorizons/GigaGramFab/pull/34 (0.3.15)
 > * Add AAL batch mode by @NotAPenguin0 in https://github.com/GTNewHorizons/GigaGramFab/pull/32 (0.3.14)
@@ -1589,9 +1606,10 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/HelpFixer/pull/1 (1.1.0)
 >
 
-# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.38@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.38
+# Updated Hodgepodge (2.3.41@Side.BOTH --> 2.4.39@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.3.40...2.4.39
 >## What's Changed
+> * Fix VoxelMap modID by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/348 (2.4.39)
 > * Fix MT Core Recipe by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/345 (2.4.38)
 > * Add another null check to the FixWorldLeak mixin by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/346 (2.4.38)
 > * Yet another Cleanup by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/342 (2.4.35)
@@ -2295,12 +2313,14 @@
 > * @asoftbird made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/53 (9.15.3)
 >
 
-# Updated Random-Things (2.4.6@Side.BOTH --> 2.5.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.4.5...2.5.1
+# Updated Random-Things (2.4.6@Side.BOTH --> 2.5.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.4.5...2.5.2
 >## What's Changed
+> * Allow planting plains-type plants on tilled or untilled fertilized dirt by @Majora320 in https://github.com/GTNewHorizons/Random-Things/pull/5 (2.5.2)
 > * Add RandomThings to allow mobsinfo to find it. by @bombcar in https://github.com/GTNewHorizons/Random-Things/pull/4 (2.5.0)
 >
 >## New Contributors
+> * @Majora320 made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/5 (2.5.2)
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/4 (2.5.0)
 >
 
@@ -2606,8 +2626,8 @@
 > * @Glease made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/19 (7.6.3-GTNH)
 >
 
-# Updated TecTech (5.3.23@Side.BOTH --> 5.3.40@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.40
+# Updated TecTech (5.3.23@Side.BOTH --> 5.3.41-pre@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/TecTech/compare/5.3.22...5.3.41-pre
 >## What's Changed
 > * EOH fix no power output & description and scanner info changes by @HoleFish in https://github.com/GTNewHorizons/TecTech/pull/274 (5.3.40)
 > * Forge of the Gods by @GDCloudstrike in https://github.com/GTNewHorizons/TecTech/pull/225 (5.3.37)
@@ -2681,15 +2701,17 @@
 > * Correct name application for Nightmare by @bombcar in https://github.com/GTNewHorizons/ThaumicHorizons/pull/62 (1.5.0)
 >
 
-# Updated ThaumicInventoryScanning (1.0.12-GTNH@Side.BOTH --> 1.1.2-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicInventoryScanning/compare/1.0.12-GTNH...1.1.2-GTNH
+# Updated ThaumicInventoryScanning (1.0.12-GTNH@Side.BOTH --> 1.1.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicInventoryScanning/compare/1.0.12-GTNH...1.1.3-GTNH
 >## What's Changed
+> * Ignored Aspectless items, improved code readability by @MarloGr in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/6 (1.1.3-GTNH)
 > * Fix inventory scanning always disabled by @Lyfts in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/5 (1.1.2-GTNH)
 > * Fix server mod check by @Cleptomania in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/3 (1.1.1-GTNH)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/2 (1.1.0-GTNH)
 > * Update Buildscript by @glowredman in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/1 (1.0.12-GTNH)
 >
 >## New Contributors
+> * @MarloGr made their first contribution in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/6 (1.1.3-GTNH)
 > * @Lyfts made their first contribution in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/5 (1.1.2-GTNH)
 > * @Cleptomania made their first contribution in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/3 (1.1.1-GTNH)
 > * @bombcar made their first contribution in https://github.com/GTNewHorizons/ThaumicInventoryScanning/pull/2 (1.1.0-GTNH)
@@ -2872,12 +2894,16 @@
 > * remove use of @InterfaceDependancies by @Glease in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/8 (1.4.8)
 >
 
-# Updated WitcheryExtras (1.1.14@Side.BOTH --> 1.2.1@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.1.13...1.2.1
+# Updated WitcheryExtras (1.1.14@Side.BOTH --> 1.2.2@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.1.13...1.2.2
 >## What's Changed
+> * Fix distillery inserting into output slot by @Lyfts in https://github.com/GTNewHorizons/WitcheryExtras/pull/21 (1.2.2)
 > * Add missing key by @wohaopa in https://github.com/GTNewHorizons/WitcheryExtras/pull/20 (1.2.1)
 > * [bs] spotless apply for jenkins by @bombcar in https://github.com/GTNewHorizons/WitcheryExtras/pull/19 (1.2.0)
 > * Fix NPE with NEI by @miozune in https://github.com/GTNewHorizons/WitcheryExtras/pull/18 (1.1.14)
+>
+>## New Contributors
+> * @Lyfts made their first contribution in https://github.com/GTNewHorizons/WitcheryExtras/pull/21 (1.2.2)
 >
 
 # Updated WitchingGadgets (1.3.6-GTNH@Side.BOTH --> 1.4.2-GTNH@Side.BOTH)
