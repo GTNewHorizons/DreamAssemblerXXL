@@ -20,7 +20,7 @@ async def update_pack_inplace(side: Side, minecraft_dir: str, use_symlink: bool 
         if not release:
             raise ReleaseNotFoundException("Nightly release not found")
 
-        await m.download_release(release)
+        await m.download_release(release, ignore_translations=True)
 
         await m.update_pack_inplace(release, side, minecraft_dir, use_symlink)
 

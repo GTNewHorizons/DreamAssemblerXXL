@@ -771,6 +771,7 @@ class GTNHModpackManager:
         release: GTNHRelease,
         download_callback: Optional[Callable[[float, str], None]] = None,
         error_callback: Optional[Callable[[str], None]] = None,
+        ignore_translations: bool = False,
     ) -> list[Path]:
         """
         method to download all the mods required for a release of the pack
@@ -828,26 +829,27 @@ class GTNHModpackManager:
             )
         )
 
-        # download the translations for the pack
-        translation_callback = (
-            lambda name: download_callback(
-                delta_progress, f"localisation for {release.version.replace('-latest', '')} downloaded!"
-            )
-            if download_callback
-            else None
-        )  # noqa, type: ignore
-
-        for language in self.assets.translations.versions:
-            downloaders.append(
-                self.download_asset(
-                    asset=self.assets.translations,
-                    asset_version=language.version_tag,
-                    is_github=True,
-                    download_callback=translation_callback,
-                    error_callback=error_callback,
-                    force_redownload=True,
+        if not ignore_translations:
+            # download the translations for the pack
+            translation_callback = (
+                lambda name: download_callback(
+                    delta_progress, f"localisation for {release.version.replace('-latest', '')} downloaded!"
                 )
-            )
+                if download_callback
+                else None
+            )  # noqa, type: ignore
+
+            for language in self.assets.translations.versions:
+                downloaders.append(
+                    self.download_asset(
+                        asset=self.assets.translations,
+                        asset_version=language.version_tag,
+                        is_github=True,
+                        download_callback=translation_callback,
+                        error_callback=error_callback,
+                        force_redownload=True,
+                    )
+                )
 
         downloaded: list[Path] = [d for d in await asyncio.gather(*downloaders) if d is not None]
 
