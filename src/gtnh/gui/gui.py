@@ -693,6 +693,7 @@ class Window(ThemedTk, Tk):
 
         try:
             self.trigger_toggle()
+            previous_nightly_release_name = "previous_nightly"
             gtnh: GTNHModpackManager = await self._get_modpack_manager()
             existing_release = gtnh.get_release("nightly")
             if not existing_release:
@@ -707,9 +708,17 @@ class Window(ThemedTk, Tk):
                 progress_callback=self.progress_callback,
                 reset_progress_callback=self.current_task_reset_callback,
                 global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
+                last_version=previous_nightly_release_name,
             )
             gtnh.add_release(release, update=True)
+
+            # saving the previous_nightly
+            existing_release.version = previous_nightly_release_name
+            gtnh.add_release(existing_release, update=True)
+
             gtnh.save_modpack()
+            # should only be incremented by workflow
+            # gtnh.increment_nightly_count()
             self.trigger_toggle()
             errored_mods = []
 

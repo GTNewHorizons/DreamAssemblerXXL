@@ -605,6 +605,54 @@ class GTNHModpackManager:
         with open(self.gtnh_asset_manifest_path, encoding="utf-8") as f:
             return AvailableAssets.parse_raw(f.read())
 
+    def get_nightly_count(self) -> int:
+        """
+        Return the current nightly count.
+
+        Returns
+        -------
+        int: The current nightly count.
+        """
+        return self.assets.latest_nightly
+
+    def increment_nightly_count(self) -> None:
+        """
+        Increment the nightly count.
+
+        Returns
+        -------
+        None
+        """
+        self.assets.latest_nightly += 1
+        self.save_assets()
+
+    def set_last_successful_nightly(self, id: int) -> None:
+        """
+        Set the last successful nightly id.
+
+        Parameters
+        ----------
+        id: int
+            The last successful nightly id.
+
+        Returns
+        -------
+        None
+        """
+        self.assets.latest_successful_nightly = id
+        self.save_assets()
+
+    def get_last_successful_nightly(self) -> int:
+        """
+        get the last successful nightly id.
+
+        Returns
+        -------
+        int
+            The last successful nightly id.
+        """
+        return self.assets.latest_successful_nightly
+
     def load_modpack(self) -> GTNHModpack:
         """
         Load the GTNH Modpack manifest
