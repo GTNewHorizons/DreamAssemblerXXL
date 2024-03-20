@@ -159,11 +159,13 @@ jobs:
       # Pulls the newest changelog filename and stores it in an env variable
       # so we can use it in the commit
       - name: Retrieve Changelog Name
+        shell: bash
         if: success() || failure()
         run: |
           echo "changelog_name=$(./scripts/newest_nightly_changelog.sh './releases/changelogs/nightly builds')" >> $GITHUB_ENV
 
       - name: Push nightly changelog in commit to master
+        shell: bash
         if: success() || failure()
         run: |
           git config user.name "github-actions[bot]"
@@ -176,6 +178,7 @@ jobs:
           git push origin master
 
       - name: Push nightly manifest in commit to dev
+        shell: bash
         if: success() || failure()
         run: |
           git config user.name "github-actions[bot]"
