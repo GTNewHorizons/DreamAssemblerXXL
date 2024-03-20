@@ -32,6 +32,8 @@ async def assemble_nightly(verbose: bool) -> None:
     await assembler.assemble_mmc(Side.CLIENT, verbose=verbose)
     await assembler.assemble_mmc(Side.CLIENT_JAVA9, verbose=verbose)
 
+    modpack_manager.set_last_successful_nightly(modpack_manager.assets.latest_successful_nightly)
+
 
 if __name__ == "__main__":
     assemble_nightly()
