@@ -134,7 +134,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
         gtnh: GTNHModpackManager = await self.get_gtnh_callback()
 
         # mod exists because the name is from the availiable mods in the assets.
-        src = 1 if gtnh.assets.get_external_mod(self.mod_name).source == ModSource.curse else 2  # type: ignore
+        src = 1 if gtnh.assets.get_mod(self.mod_name).source == ModSource.curse else 2  # type: ignore
         self.mod_choice.set(src)
 
     def check_inputs(self) -> Dict[str, bool]:
