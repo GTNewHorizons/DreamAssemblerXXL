@@ -15,7 +15,7 @@ jobs:
         with:
           token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
           fetch-depth: 0
-          ref: dev
+          ref: master
       - name: Set up python
         id: setup-python
         uses: actions/setup-python@v5
@@ -172,23 +172,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config pull.rebase true
-          git checkout master
-          git add "./releases/changelogs/nightly builds"
+          git add .
           git commit -m "Upload $changelog_name"
-          git pull
           git push origin master
-
-      - name: Push nightly manifest in commit to dev
-        shell: bash
-        if: success() || failure()
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config pull.rebase true
-          git checkout dev
-          git add ./releases/manifests/nightly.json
-          git add ./gtnh-assets.json
-          git commit -m "Update nightly manifest"
-          git pull
-          git push origin dev
       
