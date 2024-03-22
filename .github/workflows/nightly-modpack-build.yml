@@ -172,7 +172,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config pull.rebase true
-          git add .
+          git add "./releases/changelogs/nightly builds"
+          git add ./releases/manifests/nightly.json
+          git add ./gtnh-assets.json
           git commit -m "Upload $changelog_name"
           git push origin master
       
