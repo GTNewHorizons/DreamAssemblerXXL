@@ -1,15 +1,15 @@
 {
   "version": "previous_nightly",
-  "last_version": "2.5.1",
-  "last_updated": "2024-03-17T12:04:09.716814",
-  "config": "2.6.0-nightly-2024-03-12",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-03-22T19:07:15.655457",
+  "config": "2.6.0-nightly-2024-03-15",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.1.2-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.2.21-gtnh",
+      "version": "1.2.23-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-343-GTNH",
+      "version": "rv3-beta-344-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "BloodArsenal": {
-      "version": "1.3.1",
+      "version": "1.3.2",
       "side": "BOTH"
     },
     "BloodMagic": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.115-pre",
+      "version": "5.09.45.122-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.11.41-pre",
+      "version": "1.11.45",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.4.39",
+      "version": "2.4.40",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.5.24-GTNH",
+      "version": "2.5.25-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -501,7 +501,7 @@
       "side": "BOTH"
     },
     "SC2": {
-      "version": "2.1.0",
+      "version": "2.1.1",
       "side": "BOTH"
     },
     "Schematica": {
@@ -581,7 +581,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.3.41-pre",
+      "version": "5.3.42",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -605,7 +605,7 @@
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.5.1",
+      "version": "1.5.2",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.30",
+      "version": "2.0.31",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
