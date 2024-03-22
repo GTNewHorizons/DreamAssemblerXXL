@@ -66,6 +66,7 @@ jobs:
           restore-keys: |
             daxxl-${{ runner.os }}-
 
+
       - name: Build modpack archives
         shell: bash
         env:
@@ -172,9 +173,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config pull.rebase true
           git checkout master
-          git pull
           git add "./releases/changelogs/nightly builds"
           git commit -m "Upload $changelog_name"
+          git pull
           git push origin master
 
       - name: Push nightly manifest in commit to dev
@@ -185,9 +186,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config pull.rebase true
           git checkout dev
-          git pull
           git add ./releases/manifests/nightly.json
           git add ./gtnh-assets.json
           git commit -m "Update nightly manifest"
+          git pull
           git push origin dev
       
