@@ -1181,8 +1181,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.122-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.122-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.121@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.121
 >## What's Changed
 > * reduce lags from simple washers by @Quetz4l in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2545 (5.09.45.121)
 > * Fix Machine Metal color by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2546 (5.09.45.119)
@@ -1820,8 +1820,8 @@
 > * @miozune made their first contribution in https://github.com/GTNewHorizons/LittleTiles/pull/8 (1.2.9-GTNH)
 >
 
-# Updated LogisticsPipes (1.0.8-GTNH@Side.BOTH --> 1.1.4-GTNH-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.0.7-GTNH...1.1.4-GTNH-pre
+# Updated LogisticsPipes (1.0.8-GTNH@Side.BOTH --> 1.1.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.0.7-GTNH...1.1.3-GTNH
 >## What's Changed
 > * Reenable recipes for non-GTNH environments by @ThePixelbrain in https://github.com/GTNewHorizons/LogisticsPipes/pull/32 (1.1.3-GTNH)
 > * request table gui improvement by @Glease in https://github.com/GTNewHorizons/LogisticsPipes/pull/30 (1.1.2-GTNH)
@@ -3101,8 +3101,8 @@
 > * @glowredman made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/98 (1.5.7)
 >
 
-# Updated nei-custom-diagram (1.5.14@Side.BOTH --> 1.5.16-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.5.13...1.5.16-pre
+# Updated nei-custom-diagram (1.5.14@Side.BOTH --> 1.5.15@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.5.13...1.5.15
 
 # Updated neiaddons (1.13.0@Side.BOTH --> 1.15.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/neiaddons/compare/1.12.22...1.15.0
