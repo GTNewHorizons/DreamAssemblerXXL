@@ -641,6 +641,7 @@ class GTNHModpackManager:
         """
         self.assets.latest_successful_nightly = id
         self.save_assets()
+        log.info(f"last successful build set to {id}")
 
     def get_last_successful_nightly(self) -> int:
         """
