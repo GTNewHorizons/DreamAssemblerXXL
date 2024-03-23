@@ -2,15 +2,11 @@
 > * Angelica
 > * Archaicfix
 > * CoreTweaks
-> * Hunger-Overhaul
 > * NotEnoughCharacters
 > * ServerUtilities
-> * Tinkers-Defense
 # Mods Removed:
 > * FastCraft
-> * HungerOverhaul
 > * MalisisCore
-> * Tinkers' Defense
 # Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.23-gtnh@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.23-gtnh
 >## What's Changed
