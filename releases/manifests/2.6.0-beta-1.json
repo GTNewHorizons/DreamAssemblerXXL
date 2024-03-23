@@ -1,15 +1,15 @@
 {
   "version": "2.6.0-beta-1",
   "last_version": "2.5.1",
-  "last_updated": "2024-03-22T23:24:53.009237",
-  "config": "2.6.0-beta-1",
+  "last_updated": "2024-03-23T12:17:42.295397",
+  "config": "2.6.0-nightly-2024-03-22",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.1.2-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.2.23-gtnh",
+      "version": "1.2.24-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "Draconic-Evolution": {
-      "version": "1.3.2-GTNH",
+      "version": "1.3.3-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.121",
+      "version": "5.09.45.122-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.11.45",
+      "version": "1.11.46",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.1.3-GTNH",
+      "version": "1.1.4-GTNH-pre",
       "side": "BOTH"
     },
     "LootGames": {
@@ -405,7 +405,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.5.15",
+      "version": "1.5.16-pre",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.0.1",
+      "version": "2.0.2",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
