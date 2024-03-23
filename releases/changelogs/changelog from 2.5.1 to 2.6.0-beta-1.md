@@ -2,14 +2,19 @@
 > * Angelica
 > * Archaicfix
 > * CoreTweaks
+> * Hunger-Overhaul
 > * NotEnoughCharacters
 > * ServerUtilities
+> * Tinkers-Defense
 # Mods Removed:
 > * FastCraft
+> * HungerOverhaul
 > * MalisisCore
-# Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.23-gtnh@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.23-gtnh
+> * Tinkers' Defense
+# Updated AE2FluidCraft-Rework (1.1.74-gtnh@Side.BOTH --> 1.2.24-gtnh@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.1.73-gtnh...1.2.24-gtnh
 >## What's Changed
+> * Fix wireless terminal gui by @SKProCH in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/201 (1.2.24-gtnh)
 > * Add full pattern optimizer support to dual interface and wireless terminal by @kuba6000 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/200 (1.2.23-gtnh)
 > * The fluid emitter does not change its state when there is no filter in it by @claimg in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/199 (1.2.23-gtnh)
 > * Adds the sticky card support for fluid storage bus by @SKProCH in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/198 (1.2.22-gtnh)
@@ -969,9 +974,10 @@
 # Updated DetravScannerMod (1.7.2@Side.BOTH --> 1.8.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/DetravScannerMod/compare/1.7.1...1.8.0
 
-# Updated Draconic-Evolution (1.2.1-GTNH@Side.BOTH --> 1.3.2-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.2.0-GTNH...1.3.2-GTNH
+# Updated Draconic-Evolution (1.2.1-GTNH@Side.BOTH --> 1.3.3-GTNH@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.2.0-GTNH...1.3.3-GTNH
 >## What's Changed
+> * Item Dislocators will work from baubles slots by @Quetz4l in https://github.com/GTNewHorizons/Draconic-Evolution/pull/47 (1.3.3-GTNH)
 > * Fix wrong encode in manual translation in manual-zh_CN.json by @ghostflyby in https://github.com/GTNewHorizons/Draconic-Evolution/pull/45 (1.3.2-GTNH)
 > * Update manual-ru_RU.json by @kamenskyi in https://github.com/GTNewHorizons/Draconic-Evolution/pull/44 (1.3.1-GTNH)
 > * Update ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/Draconic-Evolution/pull/43 (1.2.2-GTNH)
@@ -1442,9 +1448,11 @@
 > * @chochem made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/22 (0.1.0)
 >
 
-# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.45@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.45
+# Updated GTplusplus (1.10.54@Side.BOTH --> 1.11.46@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GTplusplus/compare/1.10.53...1.11.46
 >## What's Changed
+> * Fix coal tar recipes by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/855 (1.11.46)
+> * Fix tier in chemplant error display by @chochem in https://github.com/GTNewHorizons/GTplusplus/pull/856 (1.11.46)
 > * Fixes for wireless chargers by @Jonodonozym in https://github.com/GTNewHorizons/GTplusplus/pull/852 (1.11.44)
 > * Implement shutdown reason mechanism by @HoleFish in https://github.com/GTNewHorizons/GTplusplus/pull/853 (1.11.43)
 > * Allow crib works for chemplant again by @HoleFish in https://github.com/GTNewHorizons/GTplusplus/pull/854 (1.11.43)
@@ -3071,8 +3079,8 @@
 > * @Nilau1998 made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/12 (6.0.74)
 >
 
-# Updated lwjgl3ify (1.5.7@Side.BOTH_JAVA9 --> 2.0.1@Side.BOTH_JAVA9)
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.6...2.0.1
+# Updated lwjgl3ify (1.5.7@Side.BOTH_JAVA9 --> 2.0.2@Side.BOTH_JAVA9)
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/1.5.6...2.0.2
 >## What's Changed
 > * Fix time token in `version.json` by @glowredman in https://github.com/GTNewHorizons/lwjgl3ify/pull/131 (2.0.1)
 > * RetroFuturaBootstrap refactor by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/113 (2.0.0)
