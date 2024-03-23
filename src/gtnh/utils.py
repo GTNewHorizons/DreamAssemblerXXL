@@ -203,7 +203,7 @@ def compress_changelog(file_path: Path) -> None:
     with open(file_path, "w") as file:
         for line in initial_lines:
             file.write(line + "\n")
-
+        new_contributors = set()
         for ent in entries:
             if ent.is_new:
                 file.write("# New Mod - " + ent.name + " (" + ent.version + ")\n")
@@ -242,9 +242,11 @@ def compress_changelog(file_path: Path) -> None:
                 file.write(">\n")
 
             if ent.new_contributors:
-                file.write(">## New Contributors\n")
+                # file.write(">## New Contributors\n")
                 for nc in ent.new_contributors:
-                    file.write("> * " + nc + "\n")
-                file.write(">\n")
+                    new_contributors.add(nc.split(" ")[1])
+                # file.write(">\n")
 
             file.write("\n")
+        file.write("# Credits\n")
+        file.write(f"A special thank to {' ,'.join(sorted(list(new_contributors)))}, who contributed to this release!")
