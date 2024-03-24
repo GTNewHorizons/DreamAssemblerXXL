@@ -6,7 +6,7 @@ import re
 import shutil
 from collections import defaultdict
 from pathlib import Path
-from typing import Callable, Optional, Tuple
+from typing import Callable, Optional, Tuple, Set, List
 
 from cache import AsyncLRU
 from colorama import Fore, Style
@@ -904,6 +904,24 @@ class GTNHModpackManager:
 
         return downloaded
 
+    @classmethod
+    def remove_false_positive_in_mod_removed(cls, removed_mods:Set[str], added_mods:Set[str])->None:
+        false_removed_mods:List[str] = []
+        false_added_mods:List[str] = []
+        for removed_mod in removed_mods:
+            for added_mod in added_mods:
+                stripped_removed_mod = "".join(filter(str.isalnum, removed_mod))
+                stripped_added_mod = "".join(filter(str.isalnum, added_mod))
+                if stripped_added_mod == stripped_removed_mod:
+                    false_removed_mods.append(removed_mod)
+                    false_added_mods.append(added_mod)
+                    break
+        for false_positive in false_removed_mods:
+            removed_mods.remove(false_positive)
+
+        for false_positive in false_added_mods:
+            added_mods.remove(false_positive)
+
     def generate_changelog(
         self, release: GTNHRelease, previous_release: GTNHRelease | None = None, include_no_changelog: bool = False
     ) -> dict[str, list[str]]:
@@ -923,6 +941,8 @@ class GTNHModpackManager:
 
             new_mods |= set(release.github_mods.keys() - previous_release.github_mods.keys())
             new_mods |= set(release.external_mods.keys() - previous_release.external_mods.keys())
+
+            self.remove_false_positive_in_mod_removed(removed_mods, new_mods)
 
             changed_github_mods = set(release.github_mods.keys() & previous_release.github_mods.keys())
             for mod_name in changed_github_mods | new_mods:

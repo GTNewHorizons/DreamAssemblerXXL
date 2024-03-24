@@ -244,7 +244,9 @@ def compress_changelog(file_path: Path) -> None:
             if ent.new_contributors:
                 # file.write(">## New Contributors\n")
                 for nc in ent.new_contributors:
-                    new_contributors.add(nc.split(" ")[1])
+                    name = nc.split(" ")[0]
+                    if name.startswith("@"):
+                        new_contributors.add(name)
                 # file.write(">\n")
 
             file.write("\n")
