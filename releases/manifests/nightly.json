@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-03-25T02:40:26.505502",
+  "last_updated": "2024-03-26T02:40:07.984813",
   "config": "2.6.0-nightly-2024-03-24",
   "github_mods": {
     "AdventureBackpack2": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.5.1",
+      "version": "1.5.2",
       "side": "BOTH"
     },
     "Botania": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.127-pre",
+      "version": "5.09.45.129-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -449,7 +449,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.10.7-GTNH",
+      "version": "1.10.8-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.32",
+      "version": "2.0.33",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
