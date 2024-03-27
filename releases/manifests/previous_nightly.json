@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-03-26T17:58:24.149475",
+  "last_updated": "2024-03-27T08:53:55.937826",
   "config": "2.6.0-nightly-2024-03-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.6.4",
+      "version": "1.6.5",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.4.5",
+      "version": "1.4.6",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.8.7",
+      "version": "4.8.8",
       "side": "BOTH"
     },
     "Forgelin": {
