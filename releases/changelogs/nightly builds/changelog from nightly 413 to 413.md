@@ -1,15 +1,23 @@
-# Updated GT5-Unofficial (5.09.45.129-pre@Side.BOTH --> 5.09.45.131-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.45.128...5.09.45.131-pre
+# Updated Crops-plus-plus (1.6.4@Side.BOTH --> 1.6.5@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.6.3...1.6.5
 >## What's Changed
-> * Fix DC UI height by @RealSilverMoon in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2551 (5.09.45.130)
+> * add check isGalacticCraftLoaded for spacePlant by @Quetz4l in https://github.com/GTNewHorizons/Crops-plus-plus/pull/67 (1.6.5)
+> * use correct Roman numerals for UHV machine names by @NotAPenguin0 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/66 (1.6.4)
 >
 
-# Updated TinkersConstruct (1.11.12-GTNH@Side.BOTH --> 1.11.13-GTNH@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.11.11-GTNH...1.11.13-GTNH
+# Updated Electro-Magic-Tools (1.4.5@Side.BOTH --> 1.4.6@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.4.4...1.4.6
 >## What's Changed
-> * Send tool localization name to server by @RealSilverMoon in https://github.com/GTNewHorizons/TinkersConstruct/pull/113 (1.11.13-GTNH)
-> * Thread Safe by @mitchej123 in https://github.com/GTNewHorizons/TinkersConstruct/pull/112 (1.11.12-GTNH)
+> * Another Cleanup + Removal of GT-Harddep by @glowredman in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/74 (1.4.6)
+> * Localized number formatting. by @AbdielKavash in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/73 (1.4.5)
+>
+
+# Updated ForestryMC (4.8.7@Side.BOTH --> 4.8.8@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.8.5...4.8.8
+>## What's Changed
+> * Add Butterfly Leaf Spawn Config by @DrParadox7 in https://github.com/GTNewHorizons/ForestryMC/pull/67 (4.8.8)
+> * Fix handling pam's coffee and tea crops by @leumasme in https://github.com/GTNewHorizons/ForestryMC/pull/66 (4.8.7)
 >
 
 # Credits
-A special thank to @RealSilverMoon, who contributed to this release!
+A special thank to @AbdielKavash ,@NotAPenguin0 ,@leumasme, who contributed to this release!
