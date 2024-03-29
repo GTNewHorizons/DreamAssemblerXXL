@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-03-28T02:40:54.936637",
+  "last_updated": "2024-03-29T02:39:20.061086",
   "config": "2.6.0-nightly-2024-03-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.12.11",
+      "version": "0.12.12",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.14.5",
+      "version": "0.14.6",
       "side": "BOTH"
     },
     "LittleTiles": {
