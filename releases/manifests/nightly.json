@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-03-29T15:15:34.626012",
+  "last_updated": "2024-03-30T02:40:33.982760",
   "config": "2.6.0-nightly-2024-03-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.3.3",
+      "version": "2.3.4",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.11.49",
+      "version": "1.11.50",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
