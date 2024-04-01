@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-03-31T14:18:34.473302",
+  "last_updated": "2024-04-01T02:44:22.976310",
   "config": "2.6.0-nightly-2024-03-31",
   "github_mods": {
     "AdventureBackpack2": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.11.50",
+      "version": "1.11.51",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "MalisisDoors": {
-      "version": "1.16.3-GTNH",
+      "version": "1.16.4-GTNH",
       "side": "BOTH"
     },
     "Mantle": {
