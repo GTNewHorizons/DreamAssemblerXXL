@@ -972,8 +972,8 @@
 > * Add Annotations to Coremod Class by @glowredman in https://github.com/GTNewHorizons/Forgelin/pull/9 (1.9.9-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.137-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.137-pre
+# Updated GT5-Unofficial (5.09.44.110@Side.BOTH --> 5.09.45.136@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.44.109...5.09.45.136
 >## What's Changed
 > * Fix crowbar recursive call by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2555 (5.09.45.136)
 > * Move solderingMaterial warning message by @ReaganAR in https://github.com/GTNewHorizons/GT5-Unofficial/pull/2557 (5.09.45.136)
@@ -2472,8 +2472,8 @@
 > * Add `version.json` for use in e.g. Technic Launcher by @glowredman in https://github.com/GTNewHorizons/lwjgl3ify/pull/98 (1.5.7)
 >
 
-# Updated nei-custom-diagram (1.5.14@Side.BOTH --> 1.5.16-pre@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.5.13...1.5.16-pre
+# Updated nei-custom-diagram (1.5.14@Side.BOTH --> 1.5.15@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.5.13...1.5.15
 
 # Updated neiaddons (1.13.0@Side.BOTH --> 1.15.0@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/neiaddons/compare/1.12.22...1.15.0

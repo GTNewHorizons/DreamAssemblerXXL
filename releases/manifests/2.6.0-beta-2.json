@@ -1,7 +1,7 @@
 {
   "version": "2.6.0-beta-2",
   "last_version": "2.5.1",
-  "last_updated": "2024-04-02T13:03:19.538395",
+  "last_updated": "2024-04-02T13:11:43.640194",
   "config": "2.6.0-beta-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.137-pre",
+      "version": "5.09.45.136",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -405,7 +405,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.5.16-pre",
+      "version": "1.5.15",
       "side": "BOTH"
     },
     "NEI-Integration": {
