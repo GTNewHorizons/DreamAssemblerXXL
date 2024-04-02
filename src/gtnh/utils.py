@@ -204,16 +204,17 @@ def compress_changelog(file_path: Path) -> None:
         for line in initial_lines:
             file.write(line + "\n")
         new_contributors = set()
+        lines = []
         for ent in entries:
             if ent.is_new:
-                file.write("# New Mod - " + ent.name + " (" + ent.version + ")\n")
+                lines.append("# New Mod - " + ent.name + " (" + ent.version + ")\n")
             else:
-                file.write(
+                lines.append(
                     "# Updated " + ent.name + " (" + re.sub("^(.*)\\.\\.\\.(.*)$", r"\1 --> \2", ent.version) + ")\n"
                 )
 
             if ent.is_new or ent.newest_link_version == "":
-                file.write(
+                lines.append(
                     "**Full Changelog**: https://github.com/GTNewHorizons/"
                     + ent.name
                     + "/commits/"
@@ -225,7 +226,7 @@ def compress_changelog(file_path: Path) -> None:
                     + "\n"
                 )
             else:
-                file.write(
+                lines.append(
                     "**Full Changelog**: https://github.com/GTNewHorizons/"
                     + ent.name
                     + "/compare/"
@@ -236,10 +237,10 @@ def compress_changelog(file_path: Path) -> None:
                 )
 
             if ent.changes:
-                file.write(">## What's Changed\n")
+                lines.append(">## What's Changed\n")
                 for ch in ent.changes:
-                    file.write("> * " + ch + "\n")
-                file.write(">\n")
+                    lines.append("> * " + ch + "\n")
+                lines.append(">\n")
 
             if ent.new_contributors:
                 # file.write(">## New Contributors\n")
@@ -249,6 +250,12 @@ def compress_changelog(file_path: Path) -> None:
                         new_contributors.add(name)
                 # file.write(">\n")
 
-            file.write("\n")
-        file.write("# Credits\n")
-        file.write(f"A special thank to {' ,'.join(sorted(list(new_contributors)))}, who contributed to this release!")
+            lines.append("\n")
+        if len(lines) == 0:
+            lines.append("# Nothing changed this time!")
+        else:
+            lines.append("# Credits\n")
+            lines.append(f"A special thank to {' ,'.join(sorted(list(new_contributors)))}, who contributed to this release!")
+
+        for line in lines:
+            file.write(line)
