@@ -989,7 +989,7 @@ class GTNHModpackManager:
                 if i != 0 and version.prerelease:
                     # Only include prerelease changes if it's the latest release
                     continue
-                if version.version_tag == old_version.version:
+                if old_version is not None and version.version_tag == old_version.version:
                     continue
                 if version.changelog:
                     changes.append(f"## *{version.version_tag}*\n" + blockquote(version.changelog) + "\n")
