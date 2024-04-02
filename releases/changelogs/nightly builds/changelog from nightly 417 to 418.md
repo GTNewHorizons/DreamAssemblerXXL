@@ -22,6 +22,3 @@
 > * Added recipes for space dungeon blocks. by @AbdielKavash in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/818 (2.3.42)
 > * Local-aware custom tooltip config files by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/824 (2.3.42)
 >
-
-# Credits
-A special thank to , who contributed to this release!
