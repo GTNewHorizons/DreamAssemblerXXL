@@ -6,7 +6,7 @@ import re
 import shutil
 from collections import defaultdict
 from pathlib import Path
-from typing import Callable, Optional, Tuple, Set, List
+from typing import Callable, List, Optional, Set, Tuple
 
 from cache import AsyncLRU
 from colorama import Fore, Style
@@ -905,9 +905,9 @@ class GTNHModpackManager:
         return downloaded
 
     @classmethod
-    def remove_false_positive_in_mod_removed(cls, removed_mods:Set[str], added_mods:Set[str])->None:
-        false_removed_mods:List[str] = []
-        false_added_mods:List[str] = []
+    def remove_false_positive_in_mod_removed(cls, removed_mods: Set[str], added_mods: Set[str]) -> None:
+        false_removed_mods: List[str] = []
+        false_added_mods: List[str] = []
         for removed_mod in removed_mods:
             for added_mod in added_mods:
                 stripped_removed_mod = "".join(filter(str.isalnum, removed_mod))
