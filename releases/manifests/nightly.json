@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-04-05T02:39:31.938679",
+  "last_version": "2.5.1",
+  "last_updated": "2024-04-05T23:55:06.787950",
   "config": "2.6.0-nightly-2024-03-31",
   "github_mods": {
     "AdventureBackpack2": {
@@ -341,7 +341,7 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.10.2",
+      "version": "0.10.3",
       "side": "BOTH"
     },
     "KubaTech": {
@@ -581,7 +581,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.3.44",
+      "version": "5.3.45",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -645,7 +645,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.5.20",
+      "version": "2.5.21",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -845,7 +845,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-alpha36",
+      "version": "1.0.0-alpha36a",
       "side": "CLIENT"
     },
     "NotEnoughCharacters": {
