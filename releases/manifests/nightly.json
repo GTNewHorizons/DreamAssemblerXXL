@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-04-07T02:40:22.102530",
+  "last_updated": "2024-04-08T02:41:27.170267",
   "config": "2.6.0-nightly-2024-04-06",
   "github_mods": {
     "AdventureBackpack2": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.11.51",
+      "version": "1.11.52",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -449,7 +449,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.10.8-GTNH",
+      "version": "1.10.9-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
