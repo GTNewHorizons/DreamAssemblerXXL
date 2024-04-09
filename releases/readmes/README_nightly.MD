@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2024-04-06
+Version nightly is out 2024-04-09
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -312,7 +312,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Controlling](https://github.com/GTNewHorizons/Controlling) | 2.0.2 |
 | [CookingForBlockheads](https://github.com/GTNewHorizons/CookingForBlockheads) | 1.3.3-GTNH |
 | [CoreTweaks](https://github.com/makamys/CoreTweaks) | 0.3.3.2 |
-| [Craft-Presence](https://www.curseforge.com/minecraft/mc-mods/craftpresence/) | 2.3.5 |
+| [Craft-Presence](https://www.curseforge.com/minecraft/mc-mods/craftpresence/) | 2.3.7 |
 | [CraftTweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.3.1 |
 | [CreativeCore](https://github.com/GTNewHorizons/CreativeCore) | 1.4.0-GTNH |
 | [CropLoadCore](https://github.com/GTNewHorizons/CropLoadCore) | 0.2.0 |
@@ -356,7 +356,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GTNH-Lanthanides](https://github.com/GTNewHorizons/GTNH-Lanthanides) | 0.12.12 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.0 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.2.10 |
-| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.11.51 |
+| [GTplusplus](https://github.com/GTNewHorizons/GTplusplus) | 1.11.52 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.10.1-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.10-GTNH |
@@ -416,7 +416,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.2.2-GTNH |
 | [OCGlasses](https://github.com/GTNewHorizons/OCGlasses) | 1.5.0-GTNH |
 | [OpenBlocks](https://github.com/GTNewHorizons/OpenBlocks) | 1.9.1-GTNH |
-| [OpenComputers](https://github.com/GTNewHorizons/OpenComputers) | 1.10.8-GTNH |
+| [OpenComputers](https://github.com/GTNewHorizons/OpenComputers) | 1.10.9-GTNH |
 | [OpenModsLib](https://github.com/GTNewHorizons/OpenModsLib) | 0.10.9 |
 | [OpenModularTurrets](https://github.com/GTNewHorizons/OpenModularTurrets) | 2.3.1 |
 | [OpenPrinter](https://github.com/GTNewHorizons/OpenPrinter) | 0.2.0-GTNH |
@@ -453,7 +453,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Super-TiC](https://github.com/GTNewHorizons/Super-TiC) | 1.3.0 |
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.1.3 |
 | [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.6.4-GTNH |
-| [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.20 |
+| [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.22 |
 | [TCNEIAdditions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.3.6 |
 | [TCNodeTracker](https://github.com/GTNewHorizons/TCNodeTracker) | 1.2.0 |
 | [TecTech](https://github.com/GTNewHorizons/TecTech) | 5.3.45 |
@@ -482,7 +482,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [TravellersGearNeo](https://github.com/GTNewHorizons/TravellersGearNeo) | 1.1.0 |
 | [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.5.21 |
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.7.0 |
-| [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.16 |
+| [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.17 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.7.0 |
 | [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.2.10 |
 | [waila](https://github.com/GTNewHorizons/waila) | 1.7.2 |

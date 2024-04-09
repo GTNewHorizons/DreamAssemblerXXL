@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-04-09T08:17:08.115305",
+  "last_version": "2.5.1",
+  "last_updated": "2024-04-09T17:47:32.136560",
   "config": "2.6.0-nightly-2024-04-06",
   "github_mods": {
     "AdventureBackpack2": {
@@ -955,7 +955,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.20",
+      "version": "1.5.22",
       "side": "BOTH"
     },
     "Tinkers-Gregworks": {
@@ -967,7 +967,7 @@
       "side": "BOTH"
     },
     "Craft-Presence": {
-      "version": "2.3.5",
+      "version": "2.3.7",
       "side": "CLIENT"
     },
     "Gravitation-Suite-old": {
@@ -975,7 +975,7 @@
       "side": "BOTH"
     },
     "UniMixins": {
-      "version": "0.1.16",
+      "version": "0.1.17",
       "side": "BOTH"
     },
     "CoreTweaks": {
