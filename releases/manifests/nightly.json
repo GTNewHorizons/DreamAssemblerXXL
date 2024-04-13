@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-04-12T17:46:51.383720",
+  "last_updated": "2024-04-13T02:39:33.393999",
   "config": "2.6.0-nightly-2024-04-12",
   "github_mods": {
     "AdventureBackpack2": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.9.17",
+      "version": "0.9.18",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.3.45",
+      "version": "2.3.46",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -593,11 +593,11 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.2.2-GTNH",
+      "version": "1.2.4-GTNH",
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.6.4",
+      "version": "1.6.5",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.9.2",
+      "version": "2.9.3",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
