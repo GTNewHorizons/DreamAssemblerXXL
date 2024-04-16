@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-04-15T04:10:39.210774",
+  "last_updated": "2024-04-16T02:39:37.191204",
   "config": "2.6.0-nightly-2024-04-12",
   "github_mods": {
     "AdventureBackpack2": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.8.8",
+      "version": "4.8.9",
       "side": "BOTH"
     },
     "Forgelin": {
