@@ -407,7 +407,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.2.0 |
 | [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.3.47 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.2.1-GTNH |
-| [NotEnoughCharacters](https://github.com/GTNewHorizons/NotEnoughCharacters) | 1.7.10-1.5.3-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.5.1 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.0.3 |
 | [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.5.25-GTNH |

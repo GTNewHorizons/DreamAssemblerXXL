@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-04-17T16:15:41.825842",
+  "last_version": "2.5.1",
+  "last_updated": "2024-04-17T16:32:38.060542",
   "config": "2.6.0-nightly-2024-04-16",
   "github_mods": {
     "AdventureBackpack2": {
@@ -846,10 +846,6 @@
     },
     "Angelica": {
       "version": "1.0.0-alpha36a",
-      "side": "CLIENT"
-    },
-    "NotEnoughCharacters": {
-      "version": "1.7.10-1.5.3-GTNH",
       "side": "CLIENT"
     }
   },
