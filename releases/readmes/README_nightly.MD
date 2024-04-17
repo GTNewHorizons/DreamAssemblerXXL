@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2024-04-16
+Version nightly is out 2024-04-17
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -272,7 +272,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Automagy](https://www.curseforge.com/minecraft/mc-mods/automagy) | 0.28.2 |
 | [Avaritia](https://github.com/GTNewHorizons/Avaritia) | 1.49 |
 | [Avaritiaddons](https://github.com/GTNewHorizons/Avaritiaddons) | 1.7.1-GTNH |
-| [bartworks](https://github.com/GTNewHorizons/bartworks) | 0.9.20-pre |
+| [bartworks](https://github.com/GTNewHorizons/bartworks) | 0.9.22-pre |
 | [Battlegear2](https://github.com/GTNewHorizons/Battlegear2) | 1.3.6 |
 | [Baubles](https://github.com/GTNewHorizons/Baubles) | 1.0.4 |
 | [bdlib](https://github.com/GTNewHorizons/bdlib) | 1.10.0-GTNH |
@@ -362,7 +362,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.1.10-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.2.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.4.40 |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.4.41 |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.4.4-GTNH |
 | [Hunger-Overhaul](https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul) | 1.0.0.104 |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.2.0 |
@@ -485,7 +485,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.17 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.7.0 |
 | [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.2.10 |
-| [waila](https://github.com/GTNewHorizons/waila) | 1.7.2 |
+| [waila](https://github.com/GTNewHorizons/waila) | 1.7.3 |
 | [WailaHarvestability](https://github.com/GTNewHorizons/WailaHarvestability) | 1.2.1-GTNH |
 | [WAILAPlugins](https://github.com/GTNewHorizons/WAILAPlugins) | 0.4.0 |
 | [WanionLib](https://github.com/GTNewHorizons/WanionLib) | 1.9.0 |

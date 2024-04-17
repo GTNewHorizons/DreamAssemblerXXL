@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-04-17T02:42:11.469027",
+  "last_updated": "2024-04-17T16:15:41.825842",
   "config": "2.6.0-nightly-2024-04-16",
   "github_mods": {
     "AdventureBackpack2": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.9.20-pre",
+      "version": "0.9.22-pre",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.4.40",
+      "version": "2.4.41",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -657,7 +657,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.7.2",
+      "version": "1.7.3",
       "side": "BOTH"
     },
     "WailaHarvestability": {
