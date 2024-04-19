@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-04-19T18:14:12.658533",
+  "last_updated": "2024-04-19T18:55:02.651538",
   "config": "2.6.0-nightly-2024-04-16",
   "github_mods": {
     "AdventureBackpack2": {
@@ -485,7 +485,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.15.7",
+      "version": "9.15.8",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -845,7 +845,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-alpha37",
+      "version": "1.0.0-alpha38",
       "side": "CLIENT"
     }
   },

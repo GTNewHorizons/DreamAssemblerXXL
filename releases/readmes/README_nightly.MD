@@ -260,7 +260,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.1.0-GTNH |
 | [Amazing-Trophies](https://github.com/GTNewHorizons/Amazing-Trophies) | 1.2.1 |
 | [amunra](https://github.com/GTNewHorizons/amunra) | 0.5.1 |
-| [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-alpha37 |
+| [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-alpha38 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.7.1 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.0 |
 | [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-349-GTNH |
@@ -427,7 +427,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Player-API](https://github.com/GTNewHorizons/Player-API) | 1.4.4 |
 | [ProjectBlue](https://github.com/GTNewHorizons/ProjectBlue) | 1.2.0-GTNH |
 | [ProjectRed](https://github.com/GTNewHorizons/ProjectRed) | 4.9.5-GTNH |
-| [Railcraft](https://github.com/GTNewHorizons/Railcraft) | 9.15.7 |
+| [Railcraft](https://github.com/GTNewHorizons/Railcraft) | 9.15.8 |
 | [Random-Things](https://github.com/GTNewHorizons/Random-Things) | 2.5.2 |
 | [Realistic-World-Gen](https://github.com/GTNewHorizons/Realistic-World-Gen) | alpha-1.4.1 |
 | [RemoteIO](https://github.com/GTNewHorizons/RemoteIO) | 2.5.2 |
