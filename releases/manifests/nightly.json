@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-04-21T02:41:33.619610",
+  "last_updated": "2024-04-22T02:41:39.899653",
   "config": "2.6.0-nightly-2024-04-16",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-349-GTNH",
+      "version": "rv3-beta-350-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -825,7 +825,7 @@
       "side": "BOTH"
     },
     "ThaumicBoots": {
-      "version": "1.2.1",
+      "version": "1.2.2-pre",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
