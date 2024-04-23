@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-04-22T02:41:39.899653",
+  "last_updated": "2024-04-23T02:41:47.011447",
   "config": "2.6.0-nightly-2024-04-16",
   "github_mods": {
     "AdventureBackpack2": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.8.20",
+      "version": "0.8.21",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.156-pre",
+      "version": "5.09.45.160-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.5.25-GTNH",
+      "version": "2.5.26-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -597,7 +597,7 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.6.5",
+      "version": "1.6.6",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
@@ -653,7 +653,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.2.10",
+      "version": "1.2.11",
       "side": "BOTH"
     },
     "waila": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.0.5",
+      "version": "2.0.6",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
