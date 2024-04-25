@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-04-25T02:41:30.393332",
+  "last_updated": "2024-04-25T21:31:43.201677",
   "config": "2.6.0-nightly-2024-04-24",
   "github_mods": {
     "AdventureBackpack2": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.3.48",
+      "version": "2.3.49",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.3.2",
+      "version": "1.3.4",
       "side": "BOTH"
     },
     "amunra": {
@@ -845,7 +845,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-alpha38",
+      "version": "1.0.0-alpha39",
       "side": "CLIENT"
     }
   },
