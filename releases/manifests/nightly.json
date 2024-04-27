@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-04-26T02:40:53.057043",
+  "last_updated": "2024-04-27T02:40:26.563454",
   "config": "2.6.0-nightly-2024-04-24",
   "github_mods": {
     "AdventureBackpack2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.5.10-GTNH",
+      "version": "3.5.12-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.3.49",
+      "version": "2.3.50",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -645,7 +645,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.5.22",
+      "version": "2.5.23",
       "side": "BOTH"
     },
     "Universal-Singularities": {
