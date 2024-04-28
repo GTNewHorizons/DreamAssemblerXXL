@@ -1,8 +1,11 @@
+import os
 import re
 import shutil
 from pathlib import Path
-from typing import Callable, Optional, Tuple
+from typing import Callable, Optional, Tuple, Set, List
 from zipfile import ZIP_DEFLATED, ZipFile
+
+from colorama import Fore
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
@@ -61,6 +64,61 @@ class TechnicAssembler(GenericAssembler):
             global_progress_callback=global_progress_callback,
             changelog_path=changelog_path,
         )
+
+    async def partial_assemble(self, side: Side, verbose: bool = False) -> None:
+        """
+        Method to assemble the release.
+
+        :param side: target side
+        :param verbose: flag to enable the verbose mode
+        :return: None
+        """
+        if side not in {Side.CLIENT, Side.CLIENT_JAVA9}:
+            raise Exception(f"Can only assemble release for CLIENT or SERVER, not {side}")
+
+        archive_name: Path = self.get_partial_archive_path()
+
+        # deleting any existing archive
+        if os.path.exists(archive_name):
+            os.remove(archive_name)
+            log.warn(f"Previous archive {Fore.YELLOW}'{archive_name}'{Fore.RESET} deleted")
+
+        log.info(f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{archive_name}'{Fore.RESET}")
+
+        with ZipFile(archive_name, "w", compression=ZIP_DEFLATED) as archive:
+            log.info("Adding mods to the archive")
+            self.add_mods(side, self.partial_mods(side), archive, verbose=verbose)
+            log.info("Adding config to the archive")
+            self.add_config(side, self.get_config(), archive, verbose=verbose)
+            log.info("Generating the readme for the modpack repo")
+            self.generate_readme()
+            log.info("Archive created successfully!")
+
+    def partial_mods(self, side)->list[Tuple[GTNHModInfo, GTNHVersion]]:
+        valid_sides: Set[Side] = side.valid_mod_sides()
+
+        github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
+        github_mods_names = [x[0].name for x in github_mods]
+
+        external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides)
+        external_mods_names = [x[0].name for x in external_mods]
+
+        last_version: GTNHRelease = self.modpack_manager.get_release(self.release.last_version)
+
+        mods: List[Tuple[GTNHModInfo, GTNHVersion]] = []
+
+        for mod_name in self.modpack_manager.get_changed_mods(self.release, last_version):
+            if mod_name in github_mods_names:
+                mod_index = github_mods_names.index(mod_name)
+                mods.append(github_mods[mod_index])
+            elif mod_name in external_mods_names:
+                mod_index = external_mods_names.index(mod_name)
+                mods.append(external_mods[mod_index])
+            else:
+                log.warn(f"Mod {mod_name} was detected as an updated mod"
+                                 ", but is not a github mod nor an external one")
+
+        return mods
 
     def add_mods(
         self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
@@ -144,11 +202,12 @@ class TechnicAssembler(GenericAssembler):
 
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(technic).zip"
-
+    def get_partial_archive_path(self) -> Path:
+        return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(technic_partial).zip"
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         if side != Side.CLIENT:
             raise ValueError(f"Only valid side is {Side.CLIENT}, got {side}")
-
+        log.info(f"packing technic launcher release for {self.release.version}")
         self.set_progress(
             100
             / (
@@ -159,3 +218,6 @@ class TechnicAssembler(GenericAssembler):
             )
         )
         await GenericAssembler.assemble(self, side, verbose)
+
+        log.info(f"packing partial technic launcher release for {self.release.version}")
+        await self.partial_assemble(side, verbose)
