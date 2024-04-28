@@ -924,7 +924,9 @@ class GTNHModpackManager:
 
     def get_changed_mods(self, release: GTNHRelease, previous_release: GTNHRelease)->Set:
             """
-            Generate a changelog between two releases.  If the `previous_release` is None, generate it for all of history
+            Generate the list of updated/added mods between two releases. If the `previous_release` is None, generate
+            it for all of history.
+
             :returns: dict[mod_name, list[version_changes]]
             """
             removed_mods = set()

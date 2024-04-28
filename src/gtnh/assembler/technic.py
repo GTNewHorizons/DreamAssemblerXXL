@@ -67,7 +67,7 @@ class TechnicAssembler(GenericAssembler):
 
     async def partial_assemble(self, side: Side, verbose: bool = False) -> None:
         """
-        Method to assemble the release.
+        Method to assemble only the changed mods of the release.
 
         :param side: target side
         :param verbose: flag to enable the verbose mode
