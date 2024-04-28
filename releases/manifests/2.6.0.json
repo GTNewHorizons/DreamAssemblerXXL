@@ -1,7 +1,7 @@
 {
   "version": "2.6.0",
   "last_version": "2.5.1",
-  "last_updated": "2024-04-28T12:31:09.165261",
+  "last_updated": "2024-04-28T21:14:41.444433",
   "config": "2.6.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -955,7 +955,7 @@
       "side": "BOTH"
     },
     "Tinkers-Gregworks": {
-      "version": "1.0.25",
+      "version": "1.0.26",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
