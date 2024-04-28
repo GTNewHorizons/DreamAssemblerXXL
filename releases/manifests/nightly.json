@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-04-27T02:40:26.563454",
+  "last_updated": "2024-04-28T02:43:34.844320",
   "config": "2.6.0-nightly-2024-04-24",
   "github_mods": {
     "AdventureBackpack2": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.1.4-GTNH",
+      "version": "3.1.5-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.4.4-GTNH",
+      "version": "2.4.6-GTNH",
       "side": "BOTH"
     },
     "HydroEnergy": {
@@ -845,7 +845,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-alpha39",
+      "version": "1.0.0-alpha40",
       "side": "CLIENT"
     }
   },
