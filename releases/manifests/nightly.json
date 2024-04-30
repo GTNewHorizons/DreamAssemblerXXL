@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-04-29T02:42:04.530132",
+  "last_updated": "2024-04-30T02:41:27.391474",
   "config": "2.6.0-nightly-2024-04-24",
   "github_mods": {
     "AdventureBackpack2": {
@@ -341,7 +341,7 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.10.4",
+      "version": "0.10.5",
       "side": "BOTH"
     },
     "KubaTech": {
@@ -845,7 +845,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-alpha40",
+      "version": "1.0.0-alpha41",
       "side": "CLIENT"
     }
   },
