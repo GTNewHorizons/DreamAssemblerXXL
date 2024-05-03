@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-05-02T02:41:19.957246",
+  "last_updated": "2024-05-03T02:42:47.799801",
   "config": "2.7.0-nightly-2024-04-30",
   "github_mods": {
     "AdventureBackpack2": {
@@ -645,7 +645,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.5.23",
+      "version": "2.5.24",
       "side": "BOTH"
     },
     "Universal-Singularities": {
