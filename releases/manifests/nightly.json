@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.6.0",
-  "last_updated": "2024-05-04T12:22:19.000029",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-05-04T12:28:29.745837",
   "config": "2.7.0-nightly-2024-05-04",
   "github_mods": {
     "AdventureBackpack2": {
@@ -53,7 +53,7 @@
       "side": "BOTH"
     },
     "Battlegear2": {
-      "version": "1.4.0",
+      "version": "1.3.8",
       "side": "BOTH"
     },
     "Baubles": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.6.0-GTNH",
+      "version": "3.5.14-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.6.0",
+      "version": "1.5.3",
       "side": "BOTH"
     },
     "Botania": {
@@ -145,7 +145,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.8.0-GTNH",
+      "version": "1.7.3-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -341,7 +341,7 @@
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.11.1",
+      "version": "0.10.5",
       "side": "BOTH"
     },
     "KubaTech": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.4.3",
+      "version": "2.3.51",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -581,7 +581,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.4.0",
+      "version": "5.3.46",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -677,7 +677,7 @@
       "side": "BOTH"
     },
     "WAWLA": {
-      "version": "1.3.0-GTNH",
+      "version": "1.2.1-GTNH",
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
