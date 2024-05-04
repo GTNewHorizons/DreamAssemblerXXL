@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-05-04T02:39:59.600856",
+  "last_version": "2.6.0",
+  "last_updated": "2024-05-04T11:03:24.236798",
   "config": "2.7.0-nightly-2024-04-30",
   "github_mods": {
     "AdventureBackpack2": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.9.24-pre",
+      "version": "0.10.0",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.8.9",
+      "version": "4.9.0",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.8.22",
+      "version": "0.9.0",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.12.1-pre",
+      "version": "1.12.3-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -425,7 +425,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.5.1",
+      "version": "1.6.0",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -489,7 +489,7 @@
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
-      "version": "alpha-1.4.1",
+      "version": "alpha-1.5.0",
       "side": "BOTH"
     },
     "RemoteIO": {
@@ -645,7 +645,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.5.24",
+      "version": "2.6.0",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -785,7 +785,7 @@
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
-      "version": "1.1.0",
+      "version": "1.2.0",
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
