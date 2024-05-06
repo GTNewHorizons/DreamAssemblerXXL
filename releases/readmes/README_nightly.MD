@@ -479,7 +479,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Translocators](https://github.com/GTNewHorizons/Translocators) | 1.2.1 |
 | [Travellers Gear](https://www.curseforge.com/minecraft/mc-mods/travellers-gear) | 1.16.6 |
 | [TravellersGearNeo](https://github.com/GTNewHorizons/TravellersGearNeo) | 1.2.0 |
-| [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.5.24 |
+| [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.6.2-pre |
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.7.0 |
 | [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.17 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.7.0 |
