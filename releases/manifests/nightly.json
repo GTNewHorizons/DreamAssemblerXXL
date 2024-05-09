@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-05-08T02:39:23.247755",
+  "last_updated": "2024-05-09T02:44:03.931848",
   "config": "2.7.0-nightly-2024-05-06",
   "github_mods": {
     "AdventureBackpack2": {
@@ -657,7 +657,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.7.3",
+      "version": "1.7.4-pre",
       "side": "BOTH"
     },
     "WailaHarvestability": {
