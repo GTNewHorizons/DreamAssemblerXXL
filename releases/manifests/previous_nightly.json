@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-05-06T02:44:09.409577",
-  "config": "2.7.0-nightly-2024-05-04",
+  "last_updated": "2024-05-09T02:44:03.931848",
+  "config": "2.7.0-nightly-2024-05-06",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -101,7 +101,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.10.12-GTNH",
+      "version": "1.11.0-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.4.6",
+      "version": "1.5.1",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.7.4",
+      "version": "2.7.5-pre",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.9.0",
+      "version": "0.9.1",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.46.06-pre",
+      "version": "5.09.46.07-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -297,7 +297,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.2.0",
+      "version": "1.2.1-pre",
       "side": "BOTH"
     },
     "IFU": {
@@ -337,15 +337,15 @@
       "side": "BOTH"
     },
     "Jabba": {
-      "version": "1.3.3",
+      "version": "1.3.4-pre",
       "side": "BOTH"
     },
     "KekzTech": {
-      "version": "0.10.5",
+      "version": "0.11.3",
       "side": "BOTH"
     },
     "KubaTech": {
-      "version": "0.15.0",
+      "version": "0.15.1-pre",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -397,11 +397,11 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.6.1",
+      "version": "2.6.2-pre",
       "side": "BOTH"
     },
     "NaturesCompass": {
-      "version": "1.4.0-GTNH",
+      "version": "1.4.1-GTNH-pre",
       "side": "BOTH"
     },
     "nei-custom-diagram": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.3.51",
+      "version": "2.4.4",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.6.0-GTNH",
+      "version": "2.5.28-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -561,7 +561,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.3.1",
+      "version": "1.3.2-pre",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -593,7 +593,7 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.2.5-GTNH",
+      "version": "1.2.6-GTNH-pre",
       "side": "BOTH"
     },
     "ThaumicBases": {
@@ -601,11 +601,11 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.6.5-GTNH",
+      "version": "1.6.6-GTNH-pre",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.5.3",
+      "version": "1.6.1",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -645,7 +645,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.5.24",
+      "version": "2.6.5",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -657,7 +657,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.7.3",
+      "version": "1.7.4-pre",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -705,7 +705,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.2.2-pre",
+      "version": "1.2.5-pre",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -825,7 +825,7 @@
       "side": "BOTH"
     },
     "ThaumicBoots": {
-      "version": "1.2.2-pre",
+      "version": "1.3.0",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
@@ -845,7 +845,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-alpha44",
+      "version": "1.0.0-alpha45",
       "side": "CLIENT"
     }
   },
