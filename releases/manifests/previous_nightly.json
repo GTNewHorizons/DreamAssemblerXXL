@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-05-10T02:45:17.462064",
-  "config": "2.7.0-nightly-2024-05-09",
+  "last_updated": "2024-05-10T10:24:48.486507",
+  "config": "2.7.0-nightly-2024-05-10",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.5.3",
+      "version": "1.6.1",
       "side": "BOTH"
     },
     "Botania": {
@@ -249,15 +249,15 @@
       "side": "BOTH"
     },
     "gendustry": {
-      "version": "1.7.1-GTNH-pre",
+      "version": "1.8.0-GTNH",
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.9.2-pre",
+      "version": "0.9.3",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.46.07-pre",
+      "version": "5.09.46.08-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.12.12",
+      "version": "0.13.1-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.12.4-pre",
+      "version": "1.12.6-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -285,7 +285,7 @@
       "side": "BOTH"
     },
     "harvestcraft": {
-      "version": "1.1.10-GTNH",
+      "version": "1.2.0-GTNH",
       "side": "BOTH"
     },
     "Hodgepodge": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.4.8-GTNH-pre",
+      "version": "2.4.9-GTNH",
       "side": "BOTH"
     },
     "HydroEnergy": {
@@ -385,7 +385,7 @@
       "side": "BOTH"
     },
     "ModTweaker": {
-      "version": "0.10.0",
+      "version": "0.11.0",
       "side": "BOTH"
     },
     "MouseTweaks": {
@@ -397,7 +397,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.6.2-pre",
+      "version": "2.6.3",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -645,7 +645,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.6.5",
+      "version": "2.6.7-pre",
       "side": "BOTH"
     },
     "Universal-Singularities": {
