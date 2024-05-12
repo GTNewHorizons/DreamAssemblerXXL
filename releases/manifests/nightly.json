@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-05-12T02:44:05.115897",
-  "config": "2.7.0-nightly-2024-05-10",
+  "last_updated": "2024-05-12T16:27:44.999087",
+  "config": "2.7.0-nightly-2024-05-12",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.5.14-GTNH",
+      "version": "3.6.1-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.0",
+      "version": "2.5.1-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.4.5",
+      "version": "2.4.7",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.0.7",
+      "version": "2.0.8",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
