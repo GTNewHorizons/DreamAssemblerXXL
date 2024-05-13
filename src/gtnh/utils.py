@@ -253,10 +253,10 @@ def compress_changelog(file_path: Path) -> None:
             lines.append("\n")
         if len(lines) == 0:
             lines.append("# Nothing changed this time!")
-        else:
+        elif len(new_contributors) > 0:
             lines.append("# Credits\n")
             lines.append(
-                f"A special thank to {' ,'.join(sorted(list(new_contributors)))}, who contributed to this release!"
+                f"A special thanks to {', '.join(sorted(list(new_contributors)))}, who contributed to this release!"
             )
 
         for line in lines:
