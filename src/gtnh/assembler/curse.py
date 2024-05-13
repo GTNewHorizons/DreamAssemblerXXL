@@ -2,6 +2,7 @@ import shutil
 from json import dump
 from pathlib import Path
 from typing import Callable, Dict, List, Optional, Tuple
+from urllib.parse import quote_plus as urlquote
 from zipfile import ZIP_DEFLATED, ZipFile
 
 import httpx
@@ -256,7 +257,7 @@ class CurseAssembler(GenericAssembler):
                     path: Path = get_asset_version_cache_location(mod, version)
                     file.write(path, arcname=path.name)
                     assert url
-                    url = f"https://downloads.gtnewhorizons.com/Mods_for_Twitch/{path.name}"  # temporary override until maven is fixed
+                    url = f"https://downloads.gtnewhorizons.com/Mods_for_Twitch/{urlquote(path.name)}"  # temporary override until maven is fixed
                     mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
 
                     dep_json.append(mod_obj)
