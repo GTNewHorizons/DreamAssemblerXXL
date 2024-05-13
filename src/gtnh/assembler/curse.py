@@ -2,7 +2,7 @@ import shutil
 from json import dump
 from pathlib import Path
 from typing import Callable, Dict, List, Optional, Tuple
-from urllib.parse import quote_plus as urlquote
+from urllib.parse import quote as urlquote
 from zipfile import ZIP_DEFLATED, ZipFile
 
 import httpx
