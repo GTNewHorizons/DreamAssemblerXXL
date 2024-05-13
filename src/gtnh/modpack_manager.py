@@ -922,26 +922,28 @@ class GTNHModpackManager:
         for false_positive in false_added_mods:
             added_mods.remove(false_positive)
 
-    def get_changed_mods(self, release: GTNHRelease, previous_release: GTNHRelease)->Set:
-            """
-            Generate the list of updated/added mods between two releases. If the `previous_release` is None, generate
-            it for all of history.
+    def get_changed_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> Set[str]:
+        """
+        Generate the list of updated/added mods between two releases. If the `previous_release` is None, generate
+        it for all of history.
 
-            :returns: dict[mod_name, list[version_changes]]
-            """
-            removed_mods = set()
-            new_mods = set()
+        :returns: dict[mod_name, list[version_changes]]
+        """
+        removed_mods = set()
+        new_mods = set()
 
-            removed_mods |= set(previous_release.github_mods.keys() - release.github_mods.keys())
-            removed_mods |= set(previous_release.external_mods.keys() - release.external_mods.keys())
+        removed_mods |= set(previous_release.github_mods.keys() - release.github_mods.keys())
+        removed_mods |= set(previous_release.external_mods.keys() - release.external_mods.keys())
 
-            new_mods |= set(release.github_mods.keys() - previous_release.github_mods.keys())
-            new_mods |= set(release.external_mods.keys() - previous_release.external_mods.keys())
+        new_mods |= set(release.github_mods.keys() - previous_release.github_mods.keys())
+        new_mods |= set(release.external_mods.keys() - previous_release.external_mods.keys())
 
-            self.remove_false_positive_in_mod_removed(removed_mods, new_mods)
+        self.remove_false_positive_in_mod_removed(removed_mods, new_mods)
 
-            changed_mods = set(release.github_mods.keys() & previous_release.github_mods.keys())
-            return changed_mods
+        changed_mods = set(release.github_mods.keys() & previous_release.github_mods.keys())
+        changed_mods |= set(release.external_mods.keys() & previous_release.external_mods.keys())
+
+        return changed_mods
 
     def generate_changelog(
         self, release: GTNHRelease, previous_release: GTNHRelease | None = None, include_no_changelog: bool = False

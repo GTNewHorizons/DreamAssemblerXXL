@@ -2,7 +2,7 @@ import os
 import re
 import shutil
 from pathlib import Path
-from typing import Callable, Optional, Tuple, Set, List
+from typing import Callable, List, Optional, Set, Tuple
 from zipfile import ZIP_DEFLATED, ZipFile
 
 from colorama import Fore
@@ -94,7 +94,7 @@ class TechnicAssembler(GenericAssembler):
             self.generate_readme()
             log.info("Archive created successfully!")
 
-    def partial_mods(self, side)->list[Tuple[GTNHModInfo, GTNHVersion]]:
+    def partial_mods(self, side: Side) -> list[Tuple[GTNHModInfo, GTNHVersion]]:
         valid_sides: Set[Side] = side.valid_mod_sides()
 
         github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
@@ -103,7 +103,7 @@ class TechnicAssembler(GenericAssembler):
         external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides)
         external_mods_names = [x[0].name for x in external_mods]
 
-        last_version: GTNHRelease = self.modpack_manager.get_release(self.release.last_version)
+        last_version: GTNHRelease = self.modpack_manager.get_release(self.release.last_version)  # type: ignore
 
         mods: List[Tuple[GTNHModInfo, GTNHVersion]] = []
 
@@ -115,8 +115,9 @@ class TechnicAssembler(GenericAssembler):
                 mod_index = external_mods_names.index(mod_name)
                 mods.append(external_mods[mod_index])
             else:
-                log.warn(f"Mod {mod_name} was detected as an updated mod"
-                                 ", but is not a github mod nor an external one")
+                log.warn(
+                    f"Mod {mod_name} was detected as an updated mod" ", but is not a github mod nor an external one"
+                )
 
         return mods
 
@@ -202,8 +203,10 @@ class TechnicAssembler(GenericAssembler):
 
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(technic).zip"
+
     def get_partial_archive_path(self) -> Path:
         return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(technic_partial).zip"
+
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         if side != Side.CLIENT:
             raise ValueError(f"Only valid side is {Side.CLIENT}, got {side}")
