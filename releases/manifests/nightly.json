@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-05-17T02:42:41.727671",
-  "config": "2.7.0-nightly-2024-05-14",
+  "last_updated": "2024-05-17T22:57:49.433055",
+  "config": "2.7.0-nightly-2024-05-17",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.10.3-pre",
+      "version": "0.10.5-pre",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -129,7 +129,7 @@
       "side": "BOTH"
     },
     "Catwalks-2": {
-      "version": "2.2.1-GTNH",
+      "version": "2.3.0-GTNH",
       "side": "BOTH"
     },
     "Chisel": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "FindIt": {
-      "version": "1.2.5",
+      "version": "1.2.6-pre",
       "side": "BOTH"
     },
     "ForbiddenMagic": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.9.3",
+      "version": "0.9.4-pre",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.46.15-pre",
+      "version": "5.09.46.17-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.13.4-pre",
+      "version": "0.13.5-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "Jabba": {
-      "version": "1.3.4-pre",
+      "version": "1.4.0",
       "side": "BOTH"
     },
     "KekzTech": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.1.5-GTNH",
+      "version": "1.1.7-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -377,7 +377,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.3.0-GTNH",
+      "version": "2.4.0-GTNH",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.4.7",
+      "version": "2.4.8",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -557,7 +557,7 @@
       "side": "BOTH"
     },
     "StructureCompat": {
-      "version": "0.6.2-pre",
+      "version": "0.6.3",
       "side": "BOTH"
     },
     "StructureLib": {
@@ -581,7 +581,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.3.46",
+      "version": "5.4.1-pre",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.6.7-GTNH-pre",
+      "version": "1.6.9-GTNH-pre",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -625,7 +625,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.12.0-GTNH",
+      "version": "1.12.1-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "Custom-Main-Menu": {
-      "version": "1.11.2",
+      "version": "1.12.0",
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.35",
+      "version": "2.0.36",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
