@@ -1165,7 +1165,7 @@ class GTNHModpackManager:
 
             # delete older versions
             for old_version in mod.versions:
-                if old_version.version_tag == version.version_tag and not mod.needs_attention:
+                if old_version.version_tag == version.version_tag:
                     continue
                 to_remove = os.path.basename(get_asset_version_cache_location(mod, old_version))
                 for file in active_mods:
