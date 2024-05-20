@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-05-20T02:46:18.085089",
+  "last_updated": "2024-05-20T19:18:51.432401",
   "config": "2.7.0-nightly-2024-05-19",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-400-GTNH",
+      "version": "rv3-beta-401-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.5.15-GTNH",
+      "version": "3.6.2-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.7.6",
+      "version": "2.8.2-pre",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.9.5",
+      "version": "0.9.6",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.46.20-pre",
+      "version": "5.09.46.22-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.1.10-GTNH-pre",
+      "version": "1.11.12-GTNH-pre",
       "side": "BOTH"
     },
     "LootGames": {
@@ -397,7 +397,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.6.3",
+      "version": "2.6.4",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.6.9-GTNH-pre",
+      "version": "1.6.10-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -657,7 +657,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.7.4-pre",
+      "version": "1.8.0",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -765,7 +765,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.1.5",
+      "version": "1.2.0",
       "side": "BOTH"
     },
     "MrTJPCore": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.37-pre",
+      "version": "2.0.39-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
