@@ -83,8 +83,8 @@
 # Updated ForestryMC (4.8.9@Side.BOTH --> 4.8.10@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.8.9...4.8.10
 
-# Updated GT5-Unofficial (5.09.45.163@Side.BOTH --> 5.09.45.166@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.45.163...5.09.45.166
+# Updated GT5-Unofficial (5.09.45.163@Side.BOTH --> 5.09.45.168@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.45.163...5.09.45.168
 
 # Updated GTNH-Lanthanides (0.12.12@Side.BOTH --> 0.12.13@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/GTNH-Lanthanides/compare/0.12.12...0.12.13
@@ -237,8 +237,8 @@
 # Updated WitchingGadgets (1.4.3-GTNH@Side.BOTH --> 1.4.4-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.4.3-GTNH...1.4.4-GTNH
 
-# Updated bartworks (0.9.21@Side.BOTH --> 0.9.25@Side.BOTH)
-**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.9.21...0.9.25
+# Updated bartworks (0.9.21@Side.BOTH --> 0.9.26@Side.BOTH)
+**Full Changelog**: https://github.com/GTNewHorizons/bartworks/compare/0.9.21...0.9.26
 
 # Updated gendustry (1.7.0-GTNH@Side.BOTH --> 1.7.2-GTNH@Side.BOTH)
 **Full Changelog**: https://github.com/GTNewHorizons/gendustry/compare/1.7.0-GTNH...1.7.2-GTNH
