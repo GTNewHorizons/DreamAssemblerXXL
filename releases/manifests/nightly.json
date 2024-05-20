@@ -1,8 +1,8 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-05-19T02:45:07.679721",
-  "config": "2.7.0-nightly-2024-05-17",
+  "last_version": "2.6.0",
+  "last_updated": "2024-05-19T12:19:21.320924",
+  "config": "2.7.0-nightly-2024-05-19",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.10.5-pre",
+      "version": "0.10.8-pre",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.6.1",
+      "version": "1.6.2",
       "side": "BOTH"
     },
     "Botania": {
@@ -129,7 +129,7 @@
       "side": "BOTH"
     },
     "Catwalks-2": {
-      "version": "2.3.0-GTNH",
+      "version": "2.3.1-GTNH",
       "side": "BOTH"
     },
     "Chisel": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.5.1",
+      "version": "1.5.2",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "GoodGenerator": {
-      "version": "0.9.4-pre",
+      "version": "0.9.5",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.46.19-pre",
+      "version": "5.09.46.20-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.12.8-pre",
+      "version": "1.12.9-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,11 +289,11 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.4",
+      "version": "2.5.6-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.4.9-GTNH",
+      "version": "2.4.10-GTNH",
       "side": "BOTH"
     },
     "HydroEnergy": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.1.9-GTNH-pre",
+      "version": "1.1.10-GTNH-pre",
       "side": "BOTH"
     },
     "LootGames": {
@@ -581,7 +581,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.4.1-pre",
+      "version": "5.4.2",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.36",
+      "version": "2.0.37-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
