@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.6.0",
-  "last_updated": "2024-05-19T12:19:21.320924",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-05-20T02:46:18.085089",
   "config": "2.7.0-nightly-2024-05-19",
   "github_mods": {
     "AdventureBackpack2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.6.1-GTNH",
+      "version": "3.5.15-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.6.2",
+      "version": "1.5.4",
       "side": "BOTH"
     },
     "Botania": {
@@ -125,7 +125,7 @@
       "side": "BOTH"
     },
     "CarpentersBlocks": {
-      "version": "3.6.1-GTNH",
+      "version": "3.5.5-GTNH",
       "side": "BOTH"
     },
     "Catwalks-2": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.8.1-pre",
+      "version": "2.7.6",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "gendustry": {
-      "version": "1.8.0-GTNH",
+      "version": "1.7.2-GTNH",
       "side": "BOTH"
     },
     "GoodGenerator": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
-      "version": "0.13.5-pre",
+      "version": "0.12.13",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -285,7 +285,7 @@
       "side": "BOTH"
     },
     "harvestcraft": {
-      "version": "1.2.0-GTNH",
+      "version": "1.1.11-GTNH",
       "side": "BOTH"
     },
     "Hodgepodge": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.4.8",
+      "version": "2.3.53",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -581,7 +581,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.4.2",
+      "version": "5.3.47",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -693,7 +693,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.5.0-GTNH",
+      "version": "1.4.4-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
