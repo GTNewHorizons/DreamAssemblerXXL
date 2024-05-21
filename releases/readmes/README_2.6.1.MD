@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version 2.6.1 is out 2024-05-20
+Version 2.6.1 is out 2024-05-21
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
