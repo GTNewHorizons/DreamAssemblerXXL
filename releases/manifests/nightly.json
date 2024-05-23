@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-05-22T02:44:32.950886",
+  "last_updated": "2024-05-23T02:44:25.934940",
   "config": "2.6.1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-401-GTNH-pre",
+      "version": "rv3-beta-403-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "bartworks": {
-      "version": "0.9.26",
+      "version": "0.10.11",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.6.2-GTNH-pre",
+      "version": "3.6.3-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "FindIt": {
-      "version": "1.2.6-pre",
+      "version": "1.3.0",
       "side": "BOTH"
     },
     "ForbiddenMagic": {
@@ -257,11 +257,11 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.45.168",
+      "version": "5.09.46.23",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
-      "version": "1.2.0",
+      "version": "1.2.1-pre",
       "side": "BOTH"
     },
     "GTNH-Lanthanides": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "GTplusplus": {
-      "version": "1.11.63",
+      "version": "1.12.10",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.7-pre",
+      "version": "2.5.9-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -305,7 +305,7 @@
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
-      "version": "2.4.1",
+      "version": "2.5.0",
       "side": "BOTH"
     },
     "Infernal-Mobs": {
@@ -405,7 +405,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.5.18-pre",
+      "version": "1.6.0",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.3.54",
+      "version": "2.4.10",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -581,7 +581,7 @@
       "side": "CLIENT"
     },
     "TecTech": {
-      "version": "5.3.47",
+      "version": "5.4.3",
       "side": "BOTH"
     },
     "thaumcraft-research-tweaks": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.9.4",
+      "version": "2.10.0",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -625,7 +625,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.11.16-GTNH",
+      "version": "1.12.2-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -693,7 +693,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.4.4-GTNH",
+      "version": "1.5.1-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -825,7 +825,7 @@
       "side": "BOTH"
     },
     "ThaumicBoots": {
-      "version": "1.2.3",
+      "version": "1.3.1",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
@@ -833,7 +833,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.39-pre",
+      "version": "2.0.40",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
