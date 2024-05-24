@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-05-24T02:44:40.442917",
+  "last_updated": "2024-05-24T20:36:08.475009",
   "config": "2.6.1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -46,10 +46,6 @@
     },
     "Avaritiaddons": {
       "version": "1.7.1-GTNH",
-      "side": "BOTH"
-    },
-    "bartworks": {
-      "version": "0.10.11",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -236,10 +232,6 @@
       "version": "1.3.2",
       "side": "BOTH"
     },
-    "GalacticGregGT5": {
-      "version": "1.1.0",
-      "side": "BOTH"
-    },
     "Galacticraft": {
       "version": "3.1.5-GTNH",
       "side": "BOTH"
@@ -257,7 +249,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.46.23",
+      "version": "5.09.47.0",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -274,10 +266,6 @@
     },
     "GTNHLib": {
       "version": "0.2.11",
-      "side": "BOTH"
-    },
-    "GTplusplus": {
-      "version": "1.12.10",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -580,10 +568,6 @@
       "version": "1.2.0",
       "side": "CLIENT"
     },
-    "TecTech": {
-      "version": "5.4.3",
-      "side": "BOTH"
-    },
     "thaumcraft-research-tweaks": {
       "version": "1.1.0",
       "side": "BOTH"
@@ -715,10 +699,6 @@
     "TX-Loader": {
       "version": "1.7.0",
       "side": "CLIENT"
-    },
-    "GigaGramFab": {
-      "version": "0.3.19",
-      "side": "BOTH"
     },
     "NotEnoughIds": {
       "version": "2.0.3",
