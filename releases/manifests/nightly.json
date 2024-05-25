@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-05-24T20:36:08.475009",
+  "last_updated": "2024-05-25T02:42:53.666619",
   "config": "2.6.1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -341,7 +341,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.1.14-GTNH",
+      "version": "1.2.4-GTNH-pre",
       "side": "BOTH"
     },
     "LootGames": {
@@ -629,7 +629,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.5.25",
+      "version": "2.6.12",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -825,7 +825,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-alpha50",
+      "version": "1.0.0-alpha51",
       "side": "CLIENT"
     }
   },
