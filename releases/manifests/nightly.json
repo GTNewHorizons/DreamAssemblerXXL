@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-05-26T02:46:56.785405",
-  "config": "2.6.1",
+  "last_updated": "2024-05-27T02:46:10.313419",
+  "config": "2.7.0-nightly-2024-05-26",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.1.4-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-403-GTNH-pre",
+      "version": "rv3-beta-404-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -61,7 +61,7 @@
       "side": "BOTH"
     },
     "BetterBuildersWands": {
-      "version": "0.11.1-GTNH",
+      "version": "0.12.0-GTNH",
       "side": "BOTH"
     },
     "BetterCrashes": {
@@ -77,7 +77,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.6.3-GTNH-pre",
+      "version": "3.6.5-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.8.10",
+      "version": "4.9.3",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.4.8",
+      "version": "1.5.0",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.0",
+      "version": "5.09.48.05",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -265,11 +265,11 @@
       "side": "BOTH"
     },
     "harvestcraft": {
-      "version": "1.1.11-GTNH",
+      "version": "1.2.1-GTNH",
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.9-pre",
+      "version": "2.5.10",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.3.1-GTNH",
+      "version": "2.4.1-GTNH",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -365,7 +365,7 @@
       "side": "CLIENT"
     },
     "MX-Random": {
-      "version": "0.3.0",
+      "version": "0.4.0",
       "side": "BOTH"
     },
     "Natura": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.4.10",
+      "version": "2.5.1",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -453,7 +453,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.9.5-GTNH",
+      "version": "4.10.0-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.6.12",
+      "version": "2.6.13-pre",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "MrTJPCore": {
-      "version": "1.1.7",
+      "version": "1.2.0",
       "side": "BOTH"
     },
     "Random-Things": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.40",
+      "version": "2.0.41-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
