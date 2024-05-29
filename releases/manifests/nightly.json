@@ -1,11 +1,11 @@
 {
   "version": "nightly",
   "last_version": "2.6.1",
-  "last_updated": "2024-05-29T16:49:50.470531",
+  "last_updated": "2024-05-29T17:31:27.414854",
   "config": "2.7.0-nightly-2024-05-29",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.1.4-GTNH",
+      "version": "1.2.0-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.6.1",
+      "version": "1.6.2",
       "side": "BOTH"
     },
     "Botania": {

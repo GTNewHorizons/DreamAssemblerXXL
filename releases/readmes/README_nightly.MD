@@ -253,7 +253,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | Name | Version |
 | --- | --- |
 | [Advanced Solar Panel For 1.7.10 (Unofficial)](https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels) | 1.7.10 Edition |
-| [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.1.4-GTNH |
+| [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.2.0-GTNH |
 | [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.3.1-gtnh |
 | [ae2stuff](https://github.com/GTNewHorizons/ae2stuff) | 0.7.0-GTNH |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.3.0-GTNH |
@@ -291,7 +291,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BlockLimiter](https://github.com/GTNewHorizons/BlockLimiter) | 0.6.0 |
 | [BlockRenderer6343](https://github.com/GTNewHorizons/BlockRenderer6343) | 1.2.7-pre |
 | [BloodArsenal](https://github.com/GTNewHorizons/BloodArsenal) | 1.3.2 |
-| [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.6.1 |
+| [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.6.2 |
 | [Botania](https://github.com/GTNewHorizons/Botania) | 1.11.1-GTNH |
 | [Botanic-horizons](https://github.com/GTNewHorizons/Botanic-horizons) | 1.1.2-GTNH |
 | [BrandonsCore](https://github.com/GTNewHorizons/BrandonsCore) | 1.1.0-GTNH |
