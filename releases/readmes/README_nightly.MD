@@ -443,7 +443,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [StructureLib](https://github.com/GTNewHorizons/StructureLib) | 1.3.2-pre |
 | [Super-TiC](https://github.com/GTNewHorizons/Super-TiC) | 1.3.0 |
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.1.3 |
-| [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.6.8-GTNH |
+| [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.6.9-GTNH-pre |
 | [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.23 |
 | [TCNEIAdditions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.3.6 |
 | [TCNodeTracker](https://github.com/GTNewHorizons/TCNodeTracker) | 1.2.0 |
