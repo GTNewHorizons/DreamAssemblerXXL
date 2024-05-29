@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.6.1",
-  "last_updated": "2024-05-29T15:37:51.886049",
+  "last_updated": "2024-05-29T16:42:16.525663",
   "config": "2.7.0-nightly-2024-05-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.2.9-GTNH-pre",
+      "version": "1.2.11-GTNH-pre",
       "side": "BOTH"
     },
     "LootGames": {

@@ -375,7 +375,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.2.3-fairplay |
 | [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.3.0-GTNH |
-| [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.2.9-GTNH-pre |
+| [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.2.11-GTNH-pre |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.1.1 |
 | [LunatriusCore](https://github.com/GTNewHorizons/LunatriusCore) | 1.2.0-GTNH |
 | [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 2.0.9 |
