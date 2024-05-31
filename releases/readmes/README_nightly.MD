@@ -300,7 +300,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BuildCraftCompat](https://github.com/GTNewHorizons/BuildCraftCompat) | 7.1.17 |
 | [BuildCraftOilTweak](https://github.com/GTNewHorizons/BuildCraftOilTweak) | 1.1.1 |
 | [CarpentersBlocks](https://github.com/GTNewHorizons/CarpentersBlocks) | 3.6.1-GTNH |
-| [Catwalks-2](https://github.com/GTNewHorizons/Catwalks-2) | 2.2.2-GTNH |
+| [Catwalks-2](https://github.com/GTNewHorizons/Catwalks-2) | 2.3.1-GTNH |
 | [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.15.0-GTNH |
 | [ChiselTones](https://github.com/GTNewHorizons/ChiselTones) | 1.1.0-GTNH |
 | [CodeChickenCore](https://github.com/GTNewHorizons/CodeChickenCore) | 1.2.1 |
