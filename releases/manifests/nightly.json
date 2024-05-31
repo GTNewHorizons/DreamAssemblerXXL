@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.6.1",
-  "last_updated": "2024-05-31T21:46:21.109711",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-05-31T21:53:03.198719",
   "config": "2.7.0-nightly-2024-05-31",
   "github_mods": {
     "AdventureBackpack2": {
@@ -125,7 +125,7 @@
       "side": "BOTH"
     },
     "Catwalks-2": {
-      "version": "2.3.1-GTNH",
+      "version": "2.2.2-GTNH",
       "side": "BOTH"
     },
     "Chisel": {
