@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-05-31T02:45:39.175485",
+  "last_updated": "2024-05-31T09:47:45.695107",
   "config": "2.7.0-nightly-2024-05-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.1-gtnh",
+      "version": "1.3.2-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -77,11 +77,11 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.6.5-GTNH",
+      "version": "3.6.6-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.3.4",
+      "version": "2.4.0",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.13-pre",
+      "version": "5.09.48.14",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
