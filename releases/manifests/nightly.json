@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-05-31T09:47:45.695107",
-  "config": "2.7.0-nightly-2024-05-29",
+  "last_updated": "2024-05-31T18:20:49.824478",
+  "config": "2.7.0-nightly-2024-05-31",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.1.4-GTNH",
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.5.4-pre",
+      "version": "1.5.5",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.14",
+      "version": "5.09.48.15-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.4.10-GTNH",
+      "version": "2.4.11-GTNH-pre",
       "side": "BOTH"
     },
     "HydroEnergy": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.2.11-GTNH-pre",
+      "version": "1.2.12-GTNH-pre",
       "side": "BOTH"
     },
     "LootGames": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.7.16-GTNH",
+      "version": "2.8.1-GTNH",
       "side": "BOTH"
     },
     "MalisisDoors": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.5.2",
+      "version": "2.5.3",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.6.1-GTNH",
+      "version": "2.6.2-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -561,7 +561,7 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.3.2-GTNH-pre",
+      "version": "1.3.3-GTNH",
       "side": "BOTH"
     },
     "ThaumicBases": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.6.16-pre",
+      "version": "2.6.17-pre",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "ThaumicBoots": {
-      "version": "1.3.5",
+      "version": "1.3.6",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
