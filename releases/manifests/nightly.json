@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-06-01T02:50:35.420819",
+  "last_version": "2.6.1",
+  "last_updated": "2024-06-01T12:21:25.972514",
   "config": "2.7.0-nightly-2024-05-31",
   "github_mods": {
     "AdventureBackpack2": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.11.1-GTNH",
+      "version": "1.11.2-GTNH-pre",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -125,7 +125,7 @@
       "side": "BOTH"
     },
     "Catwalks-2": {
-      "version": "2.2.2-GTNH",
+      "version": "2.3.1-GTNH",
       "side": "BOTH"
     },
     "Chisel": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.15-pre",
+      "version": "5.09.48.16-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.12-pre",
+      "version": "2.5.13-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -517,7 +517,7 @@
       "side": "BOTH"
     },
     "StorageDrawers-Forestry": {
-      "version": "1.12.0-GTNH",
+      "version": "1.13.0-GTNH",
       "side": "BOTH"
     },
     "StorageDrawers-Misc": {
@@ -685,7 +685,7 @@
       "side": "CLIENT"
     },
     "NotEnoughIds": {
-      "version": "2.0.3",
+      "version": "2.1.0",
       "side": "BOTH"
     },
     "FloodLights": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.44-pre",
+      "version": "2.0.46-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
