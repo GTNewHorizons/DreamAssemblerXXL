@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-06-01T12:29:15.990290",
+  "last_version": "2.6.1",
+  "last_updated": "2024-06-01T12:39:01.054736",
   "config": "2.7.0-nightly-2024-05-31",
   "github_mods": {
     "AdventureBackpack2": {
@@ -125,7 +125,7 @@
       "side": "BOTH"
     },
     "Catwalks-2": {
-      "version": "2.2.2-GTNH",
+      "version": "2.3.1-GTNH",
       "side": "BOTH"
     },
     "Chisel": {
@@ -517,7 +517,7 @@
       "side": "BOTH"
     },
     "StorageDrawers-Forestry": {
-      "version": "1.13.0-GTNH",
+      "version": "1.12.1-GTNH-pre",
       "side": "BOTH"
     },
     "StorageDrawers-Misc": {
