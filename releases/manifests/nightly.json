@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-06-01T13:28:32.572251",
+  "last_updated": "2024-06-02T02:48:11.394028",
   "config": "2.7.0-nightly-2024-05-31",
   "github_mods": {
     "AdventureBackpack2": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.13-pre",
+      "version": "2.5.14-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.6.17-pre",
+      "version": "2.6.18-pre",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -809,7 +809,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-alpha51",
+      "version": "1.0.0-alpha52",
       "side": "CLIENT"
     }
   },
