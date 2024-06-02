@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-06-02T02:48:11.394028",
-  "config": "2.7.0-nightly-2024-05-31",
+  "last_updated": "2024-06-02T21:19:40.918072",
+  "config": "2.7.0-nightly-2024-06-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -13,7 +13,7 @@
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.7.0-GTNH",
+      "version": "0.8.0-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.11.2-GTNH-pre",
+      "version": "1.11.3-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -189,7 +189,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.8.3-pre",
+      "version": "2.8.5-pre",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.14-pre",
+      "version": "2.5.15",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -517,7 +517,7 @@
       "side": "BOTH"
     },
     "StorageDrawers-Forestry": {
-      "version": "1.12.1-GTNH-pre",
+      "version": "1.13.0-GTNH",
       "side": "BOTH"
     },
     "StorageDrawers-Misc": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.6.7",
+      "version": "1.7.0",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.6.18-pre",
+      "version": "2.6.19-pre",
       "side": "BOTH"
     },
     "Universal-Singularities": {
