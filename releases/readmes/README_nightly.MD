@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2024-06-03
+Version nightly is out 2024-06-05
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -254,7 +254,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | --- | --- |
 | [Advanced Solar Panel For 1.7.10 (Unofficial)](https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels) | 1.7.10 Edition |
 | [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.2.0-GTNH |
-| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.3.2-gtnh |
+| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.3.3-gtnh-pre |
 | [ae2stuff](https://github.com/GTNewHorizons/ae2stuff) | 0.8.0-GTNH |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.3.0-GTNH |
 | [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.1.0-GTNH |
@@ -275,13 +275,13 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Battlegear2](https://github.com/GTNewHorizons/Battlegear2) | 1.4.0 |
 | [Baubles](https://github.com/GTNewHorizons/Baubles) | 1.0.4 |
 | [bdlib](https://github.com/GTNewHorizons/bdlib) | 1.10.0-GTNH |
-| [BeeBetterAtBees-GTNH](https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH) | 0.4.0-GTNH |
+| [BeeBetterAtBees-GTNH](https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH) | 0.4.1-GTNH-pre |
 | [BetterAchievements](https://github.com/GTNewHorizons/BetterAchievements) | 0.2.0 |
 | [BetterBuildersWands](https://github.com/GTNewHorizons/BetterBuildersWands) | 0.12.0-GTNH |
 | [BetterCrashes](https://github.com/GTNewHorizons/BetterCrashes) | 1.4.0-GTNH |
 | [BetterLoadingScreen](https://github.com/GTNewHorizons/BetterLoadingScreen) | 1.6.1-GTNH |
 | [BetterP2P](https://github.com/GTNewHorizons/BetterP2P) | 1.2.1 |
-| [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting) | 3.6.6-GTNH |
+| [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting) | 3.6.7-GTNH-pre |
 | [BiblioCraft: BiblioWoods Biomes O'Plenty Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition) | 1.9 |
 | [BiblioCraft: BiblioWoods Forestry Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition) | 1.7 |
 | [BiblioCraft: BiblioWoods Natura Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-natura-edition) | 1.5 |
@@ -326,7 +326,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [DuraDisplay](https://github.com/GTNewHorizons/DuraDisplay) | 1.2.3 |
 | [Electro-Magic-Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.5.5 |
 | [EnderCore](https://github.com/GTNewHorizons/EnderCore) | 0.4.6 |
-| [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.8.5-pre |
+| [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.8.7-pre |
 | [EnderStorage](https://github.com/GTNewHorizons/EnderStorage) | 1.6.0 |
 | [EnderZoo](https://github.com/GTNewHorizons/EnderZoo) | 1.1.0 |
 | [EnhancedLootBags](https://github.com/GTNewHorizons/EnhancedLootBags) | 1.1.1 |
@@ -346,7 +346,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.8.0-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.2.0 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.48.17-pre |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.48.21-pre |
 | [GTNEIOrePlugin](https://github.com/GTNewHorizons/GTNEIOrePlugin) | 1.3.0 |
 | [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.3.5 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.0 |
@@ -397,7 +397,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.4.0 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.15.0 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.2.0 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.5.3 |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.5.4-pre |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.2.1-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.6.0 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.1.0 |
