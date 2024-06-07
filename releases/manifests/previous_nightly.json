@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-06-05T20:55:33.585848",
+  "last_updated": "2024-06-07T02:49:00.663356",
   "config": "2.7.0-nightly-2024-06-04",
   "github_mods": {
     "AdventureBackpack2": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
-      "version": "0.4.0-GTNH",
+      "version": "0.4.1-GTNH-pre",
       "side": "CLIENT"
     },
     "AlchemyGrate": {
