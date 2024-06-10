@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-06-10T02:49:28.266587",
-  "config": "2.7.0-nightly-2024-06-09",
+  "last_updated": "2024-06-10T18:22:30.743306",
+  "config": "2.7.0-nightly-2024-06-10",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.26-pre",
+      "version": "5.09.48.28-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -477,7 +477,7 @@
       "side": "BOTH"
     },
     "Schematica": {
-      "version": "1.11.1-GTNH",
+      "version": "1.11.2-GTNH-pre",
       "side": "CLIENT"
     },
     "SGCraft": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.46-pre",
+      "version": "2.0.48-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
