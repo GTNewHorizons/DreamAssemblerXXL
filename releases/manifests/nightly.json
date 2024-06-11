@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-06-11T02:48:04.192421",
+  "last_updated": "2024-06-11T14:47:50.130240",
   "config": "2.7.0-nightly-2024-06-10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.28-pre",
+      "version": "5.09.48.30-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.18-pre",
+      "version": "2.5.19",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.6.3-GTNH-pre",
+      "version": "2.6.4-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -421,7 +421,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.10.11-GTNH",
+      "version": "1.10.12-GTNH-pre",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -673,7 +673,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.2.7-pre",
+      "version": "1.2.9-pre",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.48-pre",
+      "version": "2.0.49-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
