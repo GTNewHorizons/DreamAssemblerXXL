@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-06-15T02:46:31.428810",
+  "last_updated": "2024-06-15T21:09:25.551246",
   "config": "2.7.0-nightly-2024-06-11",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.5-gtnh-pre",
+      "version": "1.3.6-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -173,7 +173,7 @@
       "side": "CLIENT"
     },
     "DetravScannerMod": {
-      "version": "1.8.0",
+      "version": "1.8.1",
       "side": "BOTH"
     },
     "Draconic-Evolution": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "FindIt": {
-      "version": "1.3.0",
+      "version": "1.3.1",
       "side": "BOTH"
     },
     "ForbiddenMagic": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.36-pre",
+      "version": "5.09.48.37",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.19",
+      "version": "2.5.20",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.2.14-GTNH-pre",
+      "version": "1.2.15-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.5.8",
+      "version": "2.5.9",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "SpiceOfLife": {
-      "version": "2.1.7-carrot",
+      "version": "2.1.8-carrot",
       "side": "BOTH"
     },
     "Steve-s-Factory-Manager": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.7.0",
+      "version": "1.7.1",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
@@ -621,7 +621,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.2.11",
+      "version": "1.3.0",
       "side": "BOTH"
     },
     "waila": {
