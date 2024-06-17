@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-06-17T17:52:59.705279",
+  "last_updated": "2024-06-17T20:49:53.023334",
   "config": "2.7.0-nightly-2024-06-11",
   "github_mods": {
     "AdventureBackpack2": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.5.10",
+      "version": "2.5.12",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -661,7 +661,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.5.4-GTNH-pre",
+      "version": "1.5.5-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
