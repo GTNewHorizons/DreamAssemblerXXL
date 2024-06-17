@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-06-17T02:50:48.963449",
+  "last_updated": "2024-06-17T17:52:59.705279",
   "config": "2.7.0-nightly-2024-06-11",
   "github_mods": {
     "AdventureBackpack2": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.39-pre",
+      "version": "5.09.48.41-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.6.4",
+      "version": "2.6.5-pre",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -661,7 +661,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.5.3-GTNH-pre",
+      "version": "1.5.4-GTNH-pre",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.53-pre",
+      "version": "2.0.55-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {

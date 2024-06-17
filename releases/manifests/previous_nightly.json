@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-06-15T21:09:25.551246",
+  "last_updated": "2024-06-17T17:37:08.332704",
   "config": "2.7.0-nightly-2024-06-11",
   "github_mods": {
     "AdventureBackpack2": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.1.5-GTNH",
+      "version": "3.1.6-GTNH-pre",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.37",
+      "version": "5.09.48.41-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.6.4",
+      "version": "2.6.5-pre",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.5.9",
+      "version": "2.5.10",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -661,7 +661,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.5.1-GTNH",
+      "version": "1.5.4-GTNH-pre",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.52-pre",
+      "version": "2.0.55-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
