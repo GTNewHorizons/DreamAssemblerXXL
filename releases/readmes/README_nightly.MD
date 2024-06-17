@@ -275,7 +275,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Battlegear2](https://github.com/GTNewHorizons/Battlegear2) | 1.4.0 |
 | [Baubles](https://github.com/GTNewHorizons/Baubles) | 1.0.4 |
 | [bdlib](https://github.com/GTNewHorizons/bdlib) | 1.10.0-GTNH |
-| [BeeBetterAtBees-GTNH](https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH) | 0.4.1-GTNH-pre |
+| [BeeBetterAtBees-GTNH](https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH) | 0.4.2-GTNH |
 | [BetterAchievements](https://github.com/GTNewHorizons/BetterAchievements) | 0.2.0 |
 | [BetterBuildersWands](https://github.com/GTNewHorizons/BetterBuildersWands) | 0.12.0-GTNH |
 | [BetterCrashes](https://github.com/GTNewHorizons/BetterCrashes) | 1.4.0-GTNH |
