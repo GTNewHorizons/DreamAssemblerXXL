@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2024-06-17
+Version nightly is out 2024-06-18
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -311,7 +311,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Controlling](https://github.com/GTNewHorizons/Controlling) | 2.0.2 |
 | [CookingForBlockheads](https://github.com/GTNewHorizons/CookingForBlockheads) | 1.3.4-GTNH |
 | [CoreTweaks](https://github.com/makamys/CoreTweaks) | 0.3.3.2 |
-| [Craft-Presence](https://www.curseforge.com/minecraft/mc-mods/craftpresence/) | 2.3.9 |
+| [Craft-Presence](https://www.curseforge.com/minecraft/mc-mods/craftpresence/) | 2.4.0 |
 | [CraftTweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.3.1 |
 | [CreativeCore](https://github.com/GTNewHorizons/CreativeCore) | 1.4.0-GTNH |
 | [CropLoadCore](https://github.com/GTNewHorizons/CropLoadCore) | 0.2.0 |
@@ -335,7 +335,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [FindIt](https://github.com/GTNewHorizons/FindIt) | 1.3.1 |
 | [FloodLights](https://github.com/GTNewHorizons/FloodLights) | 1.3.0 |
 | [ForbiddenMagic](https://github.com/GTNewHorizons/ForbiddenMagic) | 0.7.0-GTNH |
-| [ForestryMC](https://github.com/GTNewHorizons/ForestryMC) | 4.9.3 |
+| [ForestryMC](https://github.com/GTNewHorizons/ForestryMC) | 4.9.4-pre |
 | [Forgelin](https://github.com/GTNewHorizons/Forgelin) | 1.10.0-GTNH |
 | [ForgeMultipart](https://github.com/GTNewHorizons/ForgeMultipart) | 1.5.0 |
 | [ForgeRelocation](https://github.com/GTNewHorizons/ForgeRelocation) | 0.1.2 |
@@ -415,7 +415,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Opis](https://github.com/GTNewHorizons/Opis) | 1.4.2-mapless |
 | [OverloadedArmorBar](https://github.com/GTNewHorizons/OverloadedArmorBar) | 1.1.0 |
 | [Pam's Harvest the Nether](https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether) | 1.7.10a |
-| [PersonalSpace](https://github.com/GTNewHorizons/PersonalSpace) | 1.0.30 |
+| [PersonalSpace](https://github.com/GTNewHorizons/PersonalSpace) | 1.0.31 |
 | [Player-API](https://github.com/GTNewHorizons/Player-API) | 1.4.4 |
 | [ProjectBlue](https://github.com/GTNewHorizons/ProjectBlue) | 1.2.0-GTNH |
 | [ProjectRed](https://github.com/GTNewHorizons/ProjectRed) | 4.10.0-GTNH |
@@ -444,7 +444,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Super-TiC](https://github.com/GTNewHorizons/Super-TiC) | 1.3.0 |
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.1.3 |
 | [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.6.10-GTNH |
-| [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.23 |
+| [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.24 |
 | [TCNEIAdditions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.3.6 |
 | [TCNodeTracker](https://github.com/GTNewHorizons/TCNodeTracker) | 1.2.0 |
 | [Thaumcraft NEI Plugin](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin) | 1.7a |
