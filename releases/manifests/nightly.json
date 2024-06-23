@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-06-23T02:48:20.085569",
+  "last_updated": "2024-06-23T17:41:26.597439",
   "config": "2.7.0-nightly-2024-06-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.48-pre",
+      "version": "5.09.48.50-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.21-pre",
+      "version": "2.5.22-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.5.13-pre",
+      "version": "2.5.14-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
