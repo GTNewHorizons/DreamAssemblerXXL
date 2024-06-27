@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-06-26T02:47:30.487204",
+  "last_updated": "2024-06-27T02:47:45.019034",
   "config": "2.7.0-nightly-2024-06-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.9.6-pre",
+      "version": "4.9.8-pre",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.50-pre",
+      "version": "5.09.48.55-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.5.14-pre",
+      "version": "2.5.15-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -593,7 +593,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.12.2-GTNH",
+      "version": "1.12.4-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -661,7 +661,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.5.5-GTNH",
+      "version": "1.5.6-GTNH-pre",
       "side": "BOTH"
     },
     "Yamcl": {
