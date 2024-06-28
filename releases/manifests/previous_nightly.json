@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-06-23T02:48:20.085569",
+  "last_updated": "2024-06-28T02:49:34.731804",
   "config": "2.7.0-nightly-2024-06-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.9.6-pre",
+      "version": "4.9.9-pre",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.48-pre",
+      "version": "5.09.48.57-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -269,11 +269,11 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.21-pre",
+      "version": "2.5.22-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.4.11-GTNH-pre",
+      "version": "2.4.12-GTNH",
       "side": "BOTH"
     },
     "HydroEnergy": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.5.13-pre",
+      "version": "2.5.16",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.6.10-GTNH-pre",
+      "version": "2.6.13-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -457,7 +457,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.15.8",
+      "version": "9.15.10-pre",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.7.2",
+      "version": "1.7.3",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
@@ -593,7 +593,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.12.2-GTNH",
+      "version": "1.12.4-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.6.23-pre",
+      "version": "2.6.25-pre",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -661,7 +661,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.5.5-GTNH",
+      "version": "1.5.7-GTNH-pre",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -765,7 +765,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.2.6-GTNH",
+      "version": "0.2.7-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "neiaddons": {
-      "version": "1.15.0",
+      "version": "1.16.0",
       "side": "BOTH"
     },
     "Angelica": {
