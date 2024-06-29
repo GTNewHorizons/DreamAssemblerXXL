@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.6.1",
-  "last_updated": "2024-06-29T09:48:46.317720",
+  "last_updated": "2024-06-29T10:13:37.496175",
   "config": "2.7.0-nightly-2024-06-28",
   "github_mods": {
     "AdventureBackpack2": {
@@ -943,7 +943,7 @@
       "side": "BOTH"
     },
     "Archaicfix": {
-      "version": "0.7.2",
+      "version": "0.7.3",
       "side": "BOTH"
     },
     "Hunger-Overhaul": {
