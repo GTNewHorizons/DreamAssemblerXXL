@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-06-28T22:21:52.754194",
+  "last_updated": "2024-06-29T02:46:58.849198",
   "config": "2.7.0-nightly-2024-06-28",
   "github_mods": {
     "AdventureBackpack2": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "DuraDisplay": {
-      "version": "1.3.0",
+      "version": "1.3.1",
       "side": "CLIENT"
     },
     "Mobs-Info": {
