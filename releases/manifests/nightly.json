@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-06-30T02:50:44.635021",
-  "config": "2.7.0-nightly-2024-06-29",
+  "last_updated": "2024-07-01T02:52:22.897713",
+  "config": "2.7.0-nightly-2024-06-30",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.10-gtnh-pre",
+      "version": "1.3.11-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.58-pre",
+      "version": "5.09.48.60-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.24-pre",
+      "version": "2.5.26-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -621,7 +621,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.3.0",
+      "version": "1.3.1",
       "side": "BOTH"
     },
     "waila": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.0.10",
+      "version": "2.1.1",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
