@@ -13,7 +13,11 @@ from colorama import Fore, Style
 from gidgethub import BadRequest
 from gidgethub.httpx import GitHubAPI
 from httpx import AsyncClient, HTTPStatusError
-from packaging.version import LegacyVersion
+try:
+    from packaging.version import LegacyVersion
+except ImportError:
+    from packaging_legacy.version import LegacyVersion
+
 from retry import retry
 
 from gtnh.assembler.downloader import get_asset_version_cache_location

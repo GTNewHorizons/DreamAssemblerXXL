@@ -1,6 +1,10 @@
 import bisect
 
-from packaging.version import LegacyVersion
+try:
+    from packaging.version import LegacyVersion
+except ImportError:
+    from packaging_legacy.version import LegacyVersion
+
 from pydantic import BaseModel, Field
 
 from gtnh.defs import VersionableType
