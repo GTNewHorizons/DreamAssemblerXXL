@@ -1,8 +1,8 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-07-10T02:50:30.657943",
-  "config": "2.7.0-nightly-2024-07-09",
+  "last_version": "2.6.1",
+  "last_updated": "2024-07-10T05:35:33.040645",
+  "config": "2.7.0-nightly-2024-07-10",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.71-pre",
+      "version": "5.09.68.73-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.30",
+      "version": "2.5.31",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -621,7 +621,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.3.1",
+      "version": "1.3.2",
       "side": "BOTH"
     },
     "waila": {
@@ -783,10 +783,6 @@
     "Default-Configs": {
       "version": "1.3.0",
       "side": "CLIENT"
-    },
-    "CodeChickenLib": {
-      "version": "1.3.0",
-      "side": "NONE"
     },
     "ThaumicBoots": {
       "version": "1.3.7",
