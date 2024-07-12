@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-07-11T02:51:03.546492",
+  "last_updated": "2024-07-12T02:49:18.618819",
   "config": "2.7.0-nightly-2024-07-10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -189,7 +189,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.8.12-pre",
+      "version": "2.8.13",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -593,7 +593,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.12.4-GTNH",
+      "version": "1.12.5-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
