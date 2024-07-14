@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-07-14T01:19:09.059588",
+  "last_version": "2.6.1",
+  "last_updated": "2024-07-14T01:27:28.865986",
   "config": "2.7.0-nightly-2024-07-13",
   "github_mods": {
     "AdventureBackpack2": {
@@ -810,6 +810,10 @@
     },
     "AkashicTome": {
       "version": "1.1.4",
+      "side": "BOTH"
+    },
+    "Navigator": {
+      "version": "1.0.2",
       "side": "BOTH"
     }
   },
