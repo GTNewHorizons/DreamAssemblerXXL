@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-07-10T02:50:30.657943",
-  "config": "2.7.0-nightly-2024-07-09",
+  "last_updated": "2024-07-13T02:48:16.006428",
+  "config": "2.7.0-nightly-2024-07-10",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -189,7 +189,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.8.12-pre",
+      "version": "2.8.13",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.71-pre",
+      "version": "5.09.48.73-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.30",
+      "version": "2.5.31",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -593,7 +593,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.12.4-GTNH",
+      "version": "1.12.5-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -621,7 +621,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.3.1",
+      "version": "1.3.3",
       "side": "BOTH"
     },
     "waila": {
@@ -784,10 +784,6 @@
       "version": "1.3.0",
       "side": "CLIENT"
     },
-    "CodeChickenLib": {
-      "version": "1.3.0",
-      "side": "NONE"
-    },
     "ThaumicBoots": {
       "version": "1.3.7",
       "side": "BOTH"
@@ -811,6 +807,10 @@
     "Angelica": {
       "version": "1.0.0-alpha52",
       "side": "CLIENT"
+    },
+    "AkashicTome": {
+      "version": "1.1.4",
+      "side": "BOTH"
     }
   },
   "external_mods": {
