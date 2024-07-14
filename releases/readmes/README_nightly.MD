@@ -373,7 +373,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Irontanks](https://github.com/GTNewHorizons/Irontanks) | 1.3.0 |
 | [Jabba](https://github.com/GTNewHorizons/Jabba) | 1.4.6 |
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
-| [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.2.3-fairplay |
+| [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.2.5-fairplay |
 | [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.3.0-GTNH |
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.2.15-GTNH |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.1.2-pre |
