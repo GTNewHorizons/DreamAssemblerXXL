@@ -1,8 +1,8 @@
 {
   "version": "nightly",
-  "last_version": "2.6.1",
-  "last_updated": "2024-07-14T03:22:30.785656",
-  "config": "2.7.0-nightly-2024-07-14",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-07-15T02:51:54.604097",
+  "config": "2.7.0-nightly-2024-07-15",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-407-GTNH-pre",
+      "version": "rv3-beta-409-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.76-pre",
+      "version": "5.09.48.79-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -621,7 +621,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.3.4-pre",
+      "version": "1.3.5-pre",
       "side": "BOTH"
     },
     "waila": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "Navigator": {
-      "version": "1.0.2",
+      "version": "1.0.4",
       "side": "BOTH"
     }
   },
