@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-07-15T03:11:31.563471",
+  "last_updated": "2024-07-15T06:27:32.163789",
   "config": "2.7.0-nightly-2024-07-15",
   "github_mods": {
     "AdventureBackpack2": {
@@ -569,7 +569,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.6.16-GTNH",
+      "version": "1.6.17-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-alpha52",
+      "version": "1.0.0-beta1",
       "side": "CLIENT"
     },
     "AkashicTome": {
