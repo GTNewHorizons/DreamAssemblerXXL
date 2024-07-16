@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-07-15T06:27:32.163789",
+  "last_updated": "2024-07-16T02:50:34.455525",
   "config": "2.7.0-nightly-2024-07-15",
   "github_mods": {
     "AdventureBackpack2": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.1.8-GTNH-pre",
+      "version": "3.2.0-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.5.23-pre",
+      "version": "2.5.24",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "Navigator": {
-      "version": "1.0.4",
+      "version": "1.0.5",
       "side": "BOTH"
     }
   },
