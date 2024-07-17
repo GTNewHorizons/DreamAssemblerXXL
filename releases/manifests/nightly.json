@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-07-16T02:50:34.455525",
+  "last_updated": "2024-07-17T02:50:20.432521",
   "config": "2.7.0-nightly-2024-07-15",
   "github_mods": {
     "AdventureBackpack2": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.79-pre",
+      "version": "5.09.48.81-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.35-pre",
+      "version": "2.5.37-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.6.16-GTNH-pre",
+      "version": "2.6.17-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -621,7 +621,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.3.5-pre",
+      "version": "1.3.6-pre",
       "side": "BOTH"
     },
     "waila": {
@@ -641,7 +641,7 @@
       "side": "BOTH"
     },
     "WarpTheory": {
-      "version": "1.4.0-GTNH",
+      "version": "1.4.1-GTNH",
       "side": "BOTH"
     },
     "WAWLA": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.61-pre",
+      "version": "2.0.62-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
