@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-07-17T02:50:20.432521",
-  "config": "2.7.0-nightly-2024-07-15",
+  "last_updated": "2024-07-18T02:50:11.403077",
+  "config": "2.7.0-nightly-2024-07-17",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.12-gtnh",
+      "version": "1.3.14-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-409-GTNH-pre",
+      "version": "rv3-beta-410-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -137,7 +137,7 @@
       "side": "BOTH"
     },
     "CodeChickenCore": {
-      "version": "1.3.4",
+      "version": "1.3.5-pre",
       "side": "BOTH"
     },
     "Computronics": {
@@ -189,7 +189,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.8.16-pre",
+      "version": "2.8.17",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -245,11 +245,11 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.81-pre",
+      "version": "5.09.48.83-test",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
-      "version": "1.3.1",
+      "version": "1.3.2",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.5.24",
+      "version": "2.5.25",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.6.17-GTNH-pre",
+      "version": "2.6.18-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -585,7 +585,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.10.0",
+      "version": "2.10.1",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -661,7 +661,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.5.9-GTNH-pre",
+      "version": "1.5.10-GTNH-pre",
       "side": "BOTH"
     },
     "Yamcl": {
