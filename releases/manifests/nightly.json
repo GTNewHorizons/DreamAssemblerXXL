@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-07-21T02:50:15.314869",
+  "last_version": "2.6.1",
+  "last_updated": "2024-07-21T17:16:49.927479",
   "config": "2.7.0-nightly-2024-07-20",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-413-GTNH-pre",
+      "version": "rv3-beta-414-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.50",
+      "version": "1.51",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -101,7 +101,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.1.2-GTNH",
+      "version": "1.1.4-GTNH",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -141,7 +141,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.8.1-GTNH",
+      "version": "1.8.3-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.87-GTNH",
+      "version": "1.1.89-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.95-snapshot",
+      "version": "5.09.48.98-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.3.1",
+      "version": "1.3.3",
       "side": "BOTH"
     },
     "IFU": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
-      "version": "2.1.0",
+      "version": "2.2.0",
       "side": "BOTH"
     },
     "ModTweaker": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.5.27-pre",
+      "version": "2.5.32-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -397,7 +397,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.6.0",
+      "version": "1.6.1-pre",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -509,7 +509,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "1.13.5-GTNH",
+      "version": "1.13.7-GTNH",
       "side": "BOTH"
     },
     "StorageDrawers-BiomesOPlenty": {
@@ -661,7 +661,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.5.10-GTNH-pre",
+      "version": "1.5.11-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -947,7 +947,7 @@
       "side": "BOTH"
     },
     "Archaicfix": {
-      "version": "0.7.3",
+      "version": "0.7.4",
       "side": "BOTH"
     },
     "Hunger-Overhaul": {
