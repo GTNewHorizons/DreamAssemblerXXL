@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-07-23T02:50:03.251691",
+  "last_updated": "2024-07-24T02:50:38.319664",
   "config": "2.7.0-nightly-2024-07-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.100",
+      "version": "5.09.48.102",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
-      "version": "2.2.0",
+      "version": "2.2.1",
       "side": "BOTH"
     },
     "ModTweaker": {
@@ -681,7 +681,7 @@
       "side": "BOTH"
     },
     "TX-Loader": {
-      "version": "1.7.0",
+      "version": "1.7.1",
       "side": "CLIENT"
     },
     "NotEnoughIds": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.4.4",
+      "version": "1.4.5",
       "side": "BOTH"
     },
     "amunra": {
