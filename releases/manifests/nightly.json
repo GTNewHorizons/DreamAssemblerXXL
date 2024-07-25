@@ -1,15 +1,15 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-07-25T02:50:54.625459",
-  "config": "2.7.0-nightly-2024-07-22",
+  "last_version": "2.6.1",
+  "last_updated": "2024-07-25T10:33:26.737685",
+  "config": "2.7.0-nightly-2024-07-25",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.16-gtnh",
+      "version": "1.3.17-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-414-GTNH-pre",
+      "version": "rv3-beta-416-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
-      "version": "1.6.1-GTNH",
+      "version": "1.7.0-GTNH",
       "side": "CLIENT"
     },
     "BetterP2P": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.102",
+      "version": "5.09.48.104-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.5.34",
+      "version": "2.5.35-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -397,7 +397,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.6.1-pre",
+      "version": "1.6.2-pre",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "OpenModularTurrets": {
-      "version": "2.3.3-pre",
+      "version": "2.3.4-pre",
       "side": "BOTH"
     },
     "OpenSecurity": {
@@ -569,7 +569,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.6.18-GTNH",
+      "version": "1.6.19-GTNH-pre",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -649,7 +649,7 @@
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
-      "version": "1.11.2",
+      "version": "1.11.3-pre",
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
