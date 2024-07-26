@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-07-25T10:31:38.409120",
+  "last_version": "2.6.1",
+  "last_updated": "2024-07-26T15:15:48.881060",
   "config": "2.7.0-nightly-2024-07-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.105",
+      "version": "5.09.48.108-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "OpenModularTurrets": {
-      "version": "2.3.3-pre",
+      "version": "2.3.4-pre",
       "side": "BOTH"
     },
     "OpenSecurity": {
@@ -814,6 +814,10 @@
     },
     "Navigator": {
       "version": "1.0.6",
+      "side": "BOTH"
+    },
+    "ModularUI2": {
+      "version": "2.0.12-1.7.10",
       "side": "BOTH"
     }
   },

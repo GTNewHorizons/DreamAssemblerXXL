@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.6.1",
-  "last_updated": "2024-07-26T15:15:48.881060",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-07-26T16:23:22.050343",
   "config": "2.7.0-nightly-2024-07-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.108-pre",
+      "version": "5.09.48.110-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
-      "version": "1.10.1-GTNH",
+      "version": "1.11.0-GTNH",
       "side": "BOTH"
     },
     "harvestcraft": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.37-pre",
+      "version": "2.5.39-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.6.18-GTNH-pre",
+      "version": "2.6.19-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -453,7 +453,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.10.1-GTNH",
+      "version": "4.10.2-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -817,7 +817,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.0.12-1.7.10",
+      "version": "2.0.13-1.7.10",
       "side": "BOTH"
     }
   },
