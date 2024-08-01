@@ -13,6 +13,7 @@ from colorama import Fore, Style
 from gidgethub import BadRequest
 from gidgethub.httpx import GitHubAPI
 from httpx import AsyncClient, HTTPStatusError
+
 try:
     from packaging.version import LegacyVersion
 except ImportError:
