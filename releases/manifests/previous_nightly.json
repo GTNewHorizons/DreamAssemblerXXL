@@ -1,15 +1,15 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-07-29T02:52:12.305583",
-  "config": "2.7.0-nightly-2024-07-29",
+  "last_updated": "2024-08-04T02:52:14.063680",
+  "config": "2.7.0-nightly-2024-07-30",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.19-gtnh-pre",
+      "version": "1.3.20-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-420-GTNH-pre",
+      "version": "rv3-beta-422-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -125,7 +125,7 @@
       "side": "BOTH"
     },
     "Catwalks-2": {
-      "version": "2.3.1-GTNH",
+      "version": "2.3.2-GTNH",
       "side": "BOTH"
     },
     "Chisel": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.116-pre",
+      "version": "5.09.48.121",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.39-pre",
+      "version": "2.5.40-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.5.38-pre",
+      "version": "2.5.42",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -421,7 +421,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.10.17-GTNH-pre",
+      "version": "1.10.18-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "SpiceOfLife": {
-      "version": "2.1.10-carrot",
+      "version": "2.1.11-carrot-pre",
       "side": "BOTH"
     },
     "Steve-s-Factory-Manager": {
@@ -509,7 +509,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "1.13.8-GTNH-pre",
+      "version": "1.13.9-GTNH",
       "side": "BOTH"
     },
     "StorageDrawers-BiomesOPlenty": {
@@ -529,7 +529,7 @@
       "side": "BOTH"
     },
     "StructureCompat": {
-      "version": "0.6.4-pre",
+      "version": "0.6.5",
       "side": "BOTH"
     },
     "StructureLib": {
@@ -569,7 +569,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.6.20-GTNH-pre",
+      "version": "1.6.21-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -593,7 +593,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.12.5-GTNH",
+      "version": "1.12.6-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -621,7 +621,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.3.8",
+      "version": "1.3.10",
       "side": "BOTH"
     },
     "waila": {
@@ -649,7 +649,7 @@
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
-      "version": "1.11.4-pre",
+      "version": "1.11.5",
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
