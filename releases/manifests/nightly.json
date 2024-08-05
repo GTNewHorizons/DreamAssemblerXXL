@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-04T17:08:27.652013",
+  "last_updated": "2024-08-05T02:52:02.548542",
   "config": "2.7.0-nightly-2024-08-04",
   "github_mods": {
     "AdventureBackpack2": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.124-pre",
+      "version": "5.09.48.127-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.3.3",
+      "version": "0.4.0",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.5.46-pre",
+      "version": "2.5.48",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "Amazing-Trophies": {
-      "version": "1.2.1",
+      "version": "1.2.2",
       "side": "BOTH"
     },
     "ServerUtilities": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta2",
+      "version": "1.0.0-beta4",
       "side": "CLIENT"
     },
     "AkashicTome": {
