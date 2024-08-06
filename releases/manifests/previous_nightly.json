@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-05T08:42:39.183079",
-  "config": "2.7.0-nightly-2024-08-05",
+  "last_updated": "2024-08-06T16:10:33.646234",
+  "config": "2.7.0-nightly-2024-08-06",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -77,7 +77,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.6.14-GTNH-pre",
+      "version": "3.6.15-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.129-pre",
+      "version": "5.09.48.134-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.41",
+      "version": "2.5.43-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.6.19-GTNH",
+      "version": "2.6.21-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
