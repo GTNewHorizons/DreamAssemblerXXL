@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-08-09T14:41:52.323121",
+  "last_version": "2.6.1",
+  "last_updated": "2024-08-09T14:57:47.279936",
   "config": "2.7.0-nightly-2024-08-09",
   "github_mods": {
     "AdventureBackpack2": {
@@ -935,7 +935,7 @@
       "side": "BOTH"
     },
     "Craft-Presence": {
-      "version": "2.4.3",
+      "version": "2.5.0",
       "side": "CLIENT"
     },
     "Gravitation-Suite-old": {
