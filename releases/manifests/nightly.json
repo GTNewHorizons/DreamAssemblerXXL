@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.6.1",
-  "last_updated": "2024-08-09T15:07:01.963404",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-08-09T15:32:40.188705",
   "config": "2.7.0-nightly-2024-08-09",
   "github_mods": {
     "AdventureBackpack2": {
@@ -557,7 +557,7 @@
       "side": "BOTH"
     },
     "ThaumcraftMobAspects": {
-      "version": "1.1.0-GTNH",
+      "version": "1.1.1-GTNH-pre",
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
