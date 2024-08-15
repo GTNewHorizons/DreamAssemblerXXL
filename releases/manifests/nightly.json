@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-14T02:51:35.799603",
+  "last_updated": "2024-08-15T02:47:27.545592",
   "config": "2.7.0-nightly-2024-08-11",
   "github_mods": {
     "AdventureBackpack2": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.5.6",
+      "version": "1.5.7",
       "side": "BOTH"
     },
     "EnderCore": {
