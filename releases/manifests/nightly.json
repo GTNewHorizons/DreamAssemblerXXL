@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-15T02:47:27.545592",
+  "last_updated": "2024-08-16T02:51:29.598270",
   "config": "2.7.0-nightly-2024-08-11",
   "github_mods": {
     "AdventureBackpack2": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.48.150",
+      "version": "5.09.49.02",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.5.54",
+      "version": "2.6.2",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -765,7 +765,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.4.1-GTNH",
+      "version": "0.4.2-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
