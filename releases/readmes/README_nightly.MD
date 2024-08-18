@@ -274,7 +274,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Avaritia](https://github.com/GTNewHorizons/Avaritia) | 1.51 |
 | [Avaritiaddons](https://github.com/GTNewHorizons/Avaritiaddons) | 1.7.1-GTNH |
 | [Battlegear2](https://github.com/GTNewHorizons/Battlegear2) | 1.4.0 |
-| [Baubles](https://github.com/GTNewHorizons/Baubles) | 1.0.4 |
+| [Baubles-Expanded](https://github.com/GTNewHorizons/Baubles-Expanded) | 2.0.1 |
 | [bdlib](https://github.com/GTNewHorizons/bdlib) | 1.10.0-GTNH |
 | [BeeBetterAtBees-GTNH](https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH) | 0.4.2-GTNH |
 | [BetterAchievements](https://github.com/GTNewHorizons/BetterAchievements) | 0.3.0 |
