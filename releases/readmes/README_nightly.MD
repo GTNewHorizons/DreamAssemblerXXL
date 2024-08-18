@@ -419,6 +419,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Pam's Harvest the Nether](https://www.curseforge.com/minecraft/mc-mods/pams-harvest-the-nether) | 1.7.10a |
 | [PersonalSpace](https://github.com/GTNewHorizons/PersonalSpace) | 1.0.32 |
 | [Player-API](https://github.com/GTNewHorizons/Player-API) | 1.5.0 |
+| [Postea](https://github.com/GTNewHorizons/Postea) | 1.0.7 |
 | [ProjectBlue](https://github.com/GTNewHorizons/ProjectBlue) | 1.2.0-GTNH |
 | [ProjectRed](https://github.com/GTNewHorizons/ProjectRed) | 4.10.2-GTNH |
 | [Railcraft](https://github.com/GTNewHorizons/Railcraft) | 9.15.11 |
