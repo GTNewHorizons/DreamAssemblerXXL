@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-17T02:50:50.659751",
-  "config": "2.7.0-nightly-2024-08-11",
+  "last_updated": "2024-08-18T02:51:39.912853",
+  "config": "2.7.0-nightly-2024-08-17",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-427-GTNH-pre",
+      "version": "rv3-beta-429-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.03",
+      "version": "5.09.49.04",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.6.24-GTNH-pre",
+      "version": "2.6.25-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -421,7 +421,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.10.19-GTNH",
+      "version": "1.10.20-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -809,7 +809,7 @@
       "side": "CLIENT"
     },
     "AkashicTome": {
-      "version": "1.1.4",
+      "version": "1.1.5",
       "side": "BOTH"
     },
     "Navigator": {
