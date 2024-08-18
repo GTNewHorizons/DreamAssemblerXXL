@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-18T12:18:04.639319",
+  "last_updated": "2024-08-18T13:39:52.952620",
   "config": "2.7.0-nightly-2024-08-17",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.23-gtnh-pre",
+      "version": "1.3.24-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -73,7 +73,7 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.2.1",
+      "version": "1.3.0",
       "side": "BOTH"
     },
     "BetterQuesting": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.11.5-GTNH-pre",
+      "version": "1.11.5-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -197,7 +197,7 @@
       "side": "BOTH"
     },
     "EnderZoo": {
-      "version": "1.1.0",
+      "version": "1.1.1-pre",
       "side": "BOTH"
     },
     "EnhancedLootBags": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "FindIt": {
-      "version": "1.3.2",
+      "version": "1.3.3",
       "side": "BOTH"
     },
     "ForbiddenMagic": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
-      "version": "1.11.0-GTNH",
+      "version": "1.11.1-GTNH-pre",
       "side": "BOTH"
     },
     "harvestcraft": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.45-pre",
+      "version": "2.5.46-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.2.17-GTNH-pre",
+      "version": "1.2.18-GTNH-pre",
       "side": "BOTH"
     },
     "LootGames": {
@@ -473,7 +473,7 @@
       "side": "BOTH"
     },
     "SC2": {
-      "version": "2.1.1",
+      "version": "2.1.2-pre",
       "side": "BOTH"
     },
     "Schematica": {
@@ -493,7 +493,7 @@
       "side": "BOTH"
     },
     "SpecialMobs": {
-      "version": "3.5.0",
+      "version": "3.5.1-pre",
       "side": "BOTH"
     },
     "SpiceOfLife": {
@@ -593,7 +593,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.12.6-GTNH",
+      "version": "1.12.7-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
