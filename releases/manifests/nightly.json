@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-18T16:32:19.480521",
-  "config": "2.7.0-nightly-2024-08-17",
+  "last_updated": "2024-08-18T18:16:09.792601",
+  "config": "2.7.0-nightly-2024-08-18",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.10-pre",
+      "version": "5.09.49.12-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.7.0",
+      "version": "2.7.1",
       "side": "BOTH"
     },
     "NaturesCompass": {
