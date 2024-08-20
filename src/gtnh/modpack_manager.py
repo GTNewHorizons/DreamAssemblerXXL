@@ -15,7 +15,7 @@ from gidgethub.httpx import GitHubAPI
 from httpx import AsyncClient, HTTPStatusError
 
 try:
-    from packaging.version import LegacyVersion
+    from packaging.version import LegacyVersion  # type: ignore
 except ImportError:
     from packaging_legacy.version import LegacyVersion
 
@@ -275,7 +275,7 @@ class GTNHModpackManager:
         releases = [AttributeDict(r) async for r in self.gh.getiter(repo_releases_uri(self.org, repo.name))]
 
         # Sorted releases, newest version first
-        sorted_releases = sorted(releases, key=lambda r: LegacyVersion(r.tag_name), reverse=True)
+        sorted_releases: List[AttributeDict] = sorted(releases, key=lambda r: LegacyVersion(r.tag_name), reverse=True)  # type: ignore
         version_updated = False
 
         asset.versions = sorted(asset.versions, key=version_sort_key)

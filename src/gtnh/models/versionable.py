@@ -1,7 +1,7 @@
 import bisect
 
 try:
-    from packaging.version import LegacyVersion
+    from packaging.version import LegacyVersion  # type: ignore
 except ImportError:
     from packaging_legacy.version import LegacyVersion
 
@@ -84,8 +84,8 @@ def version_sort_key(version: GTNHVersion) -> LegacyVersion:
 
 
 def version_is_newer(test_version: str, existing_version: str) -> bool:
-    return LegacyVersion(test_version) > LegacyVersion(existing_version)
+    return bool(LegacyVersion(test_version) > LegacyVersion(existing_version))
 
 
 def version_is_older(test_version: str, existing_version: str) -> bool:
-    return LegacyVersion(test_version) < LegacyVersion(existing_version)
+    return bool(LegacyVersion(test_version) < LegacyVersion(existing_version))
