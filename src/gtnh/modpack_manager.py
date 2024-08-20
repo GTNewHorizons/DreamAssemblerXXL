@@ -254,11 +254,9 @@ class GTNHModpackManager:
             mod_updated = True
 
         return mod_updated
-    
+
     async def update_translations_from_repo(self, versionable: Versionable, repo: AttributeDict) -> bool:
-        log.debug(
-            f"Checking {Fore.CYAN}{versionable.name}{Fore.RESET} for updates"
-        )
+        log.debug(f"Checking {Fore.CYAN}{versionable.name}{Fore.RESET} for updates")
 
         await self.update_versions_from_repo(versionable, repo, for_translation=True)
 
@@ -283,7 +281,9 @@ class GTNHModpackManager:
 
         return latest_release
 
-    async def update_versions_from_repo(self, asset: Versionable, repo: AttributeDict, for_translation: bool = False) -> bool:
+    async def update_versions_from_repo(
+        self, asset: Versionable, repo: AttributeDict, for_translation: bool = False
+    ) -> bool:
         releases = [AttributeDict(r) async for r in self.gh.getiter(repo_releases_uri(self.org, repo.name))]
         if for_translation:
             releases = [r for r in releases if r.tag_name.endswith("-latest")]
