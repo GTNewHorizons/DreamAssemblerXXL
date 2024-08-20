@@ -150,7 +150,7 @@ class GTNHModpackManager:
         self.assets.translations.versions = []
         self.assets.translations.latest_version = ""
         tasks.append(
-            self.update_versionable_from_repo(self.assets.translations, all_repos.get(self.assets.translations.name))
+            self.update_translations_from_repo(self.assets.translations, all_repos.get(self.assets.translations.name))
         )
 
         gathered = await asyncio.gather(*tasks, return_exceptions=True)
@@ -254,6 +254,18 @@ class GTNHModpackManager:
             mod_updated = True
 
         return mod_updated
+    
+    async def update_translations_from_repo(self, versionable: Versionable, repo: AttributeDict) -> bool:
+        log.debug(
+            f"Checking {Fore.CYAN}{versionable.name}{Fore.RESET} for updates"
+        )
+
+        await self.update_versions_from_repo(versionable, repo, for_translation=True)
+
+        self.needs_attention = False
+        log.debug(f"Updated {Fore.CYAN}{versionable.name}{Fore.RESET}!")
+
+        return True
 
     async def get_latest_github_release(self, repo: AttributeDict | str) -> AttributeDict | None:
         if isinstance(repo, str):
@@ -271,8 +283,10 @@ class GTNHModpackManager:
 
         return latest_release
 
-    async def update_versions_from_repo(self, asset: Versionable, repo: AttributeDict) -> bool:
+    async def update_versions_from_repo(self, asset: Versionable, repo: AttributeDict, for_translation: bool = False) -> bool:
         releases = [AttributeDict(r) async for r in self.gh.getiter(repo_releases_uri(self.org, repo.name))]
+        if for_translation:
+            releases = [r for r in releases if r.tag_name.endswith("-latest")]
 
         # Sorted releases, newest version first
         sorted_releases: List[AttributeDict] = sorted(releases, key=lambda r: LegacyVersion(r.tag_name), reverse=True)  # type: ignore
@@ -294,10 +308,16 @@ class GTNHModpackManager:
                 )
                 continue
 
-            if version_is_newer(version.version_tag, asset.latest_version):
+            if not for_translation and version_is_newer(version.version_tag, asset.latest_version):
                 log.info(
                     f"Updating latest version for `{Fore.CYAN}{asset.name}{Fore.RESET}` "
                     f"{Style.DIM}{Fore.GREEN}{asset.latest_version}{Style.RESET_ALL} -> "
+                    f"{Fore.GREEN}{version.version_tag}{Style.RESET_ALL}"
+                )
+                asset.latest_version = version.version_tag
+            elif for_translation:
+                log.info(
+                    f"Updating version for `{Fore.CYAN}{asset.name}{Fore.RESET}` -> "
                     f"{Fore.GREEN}{version.version_tag}{Style.RESET_ALL}"
                 )
                 asset.latest_version = version.version_tag
@@ -574,7 +594,7 @@ class GTNHModpackManager:
     async def regen_translation_assets(self) -> None:
         self.assets.translations.versions = []
         self.assets.translations.latest_version = ""
-        await self.update_versionable_from_repo(
+        await self.update_translations_from_repo(
             self.assets.translations, await self.get_repo(self.assets.translations.name)
         )
         self.save_assets()
