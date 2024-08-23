@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-22T02:51:56.994691",
+  "last_updated": "2024-08-23T02:51:47.940373",
   "config": "2.7.0-nightly-2024-08-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.4.3",
+      "version": "0.4.7",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -761,7 +761,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.4.2-GTNH",
+      "version": "0.4.3-GTNH-pre",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
