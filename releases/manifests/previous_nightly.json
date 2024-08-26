@@ -1,15 +1,15 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-23T02:51:47.940373",
-  "config": "2.7.0-nightly-2024-08-21",
+  "last_updated": "2024-08-26T02:51:35.817377",
+  "config": "2.7.0-nightly-2024-08-23",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.25-gtnh-pre",
+      "version": "1.3.26-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-434-GTNH-pre",
+      "version": "rv3-beta-435-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.1.4-GTNH",
+      "version": "1.1.5-GTNH",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -145,7 +145,7 @@
       "side": "BOTH"
     },
     "CraftTweaker": {
-      "version": "3.3.1",
+      "version": "3.4.0",
       "side": "BOTH"
     },
     "CreativeCore": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.22",
+      "version": "5.09.49.24-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.4.7",
+      "version": "0.4.8",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.48",
+      "version": "2.5.49",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "IFU": {
-      "version": "1.10.2",
+      "version": "1.11.0",
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
@@ -393,11 +393,11 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.6.2-pre",
+      "version": "1.6.3",
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.6.26-GTNH",
+      "version": "2.6.27-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -489,7 +489,7 @@
       "side": "BOTH"
     },
     "SpecialMobs": {
-      "version": "3.5.1-pre",
+      "version": "3.6.0",
       "side": "BOTH"
     },
     "SpiceOfLife": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "TCNEIAdditions": {
-      "version": "1.4.0",
+      "version": "1.4.1",
       "side": "BOTH"
     },
     "TCNodeTracker": {
@@ -553,7 +553,7 @@
       "side": "BOTH"
     },
     "ThaumcraftMobAspects": {
-      "version": "1.1.1-GTNH-pre",
+      "version": "1.1.2-GTNH",
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.4.7-pre",
+      "version": "1.4.8",
       "side": "BOTH"
     },
     "amunra": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.68-pre",
+      "version": "2.0.69-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
