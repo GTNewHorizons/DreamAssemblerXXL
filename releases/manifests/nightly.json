@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-26T06:58:26.797165",
+  "last_updated": "2024-08-27T02:52:24.050004",
   "config": "2.7.0-nightly-2024-08-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.27-gtnh-pre",
+      "version": "1.3.28-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -157,7 +157,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.7.2",
+      "version": "1.7.3",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -173,7 +173,7 @@
       "side": "BOTH"
     },
     "Draconic-Evolution": {
-      "version": "1.3.6-GTNH",
+      "version": "1.3.7-GTNH-pre",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.26-pre",
+      "version": "5.09.49.27-pre",
       "side": "BOTH"
     },
     "GTNEIOrePlugin": {
@@ -821,7 +821,7 @@
       "side": "BOTH"
     },
     "Postea": {
-      "version": "1.0.8",
+      "version": "1.0.9",
       "side": "BOTH"
     }
   },
