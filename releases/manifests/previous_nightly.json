@@ -1,15 +1,15 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-27T08:04:10.236716",
-  "config": "2.7.0-nightly-2024-08-26",
+  "last_updated": "2024-08-27T08:40:22.904572",
+  "config": "2.7.0-nightly-2024-08-27",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.28-gtnh-pre",
+      "version": "1.3.30-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-437-GTNH-pre",
+      "version": "rv3-beta-439-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.29",
+      "version": "5.09.49.30-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.49",
+      "version": "2.5.51-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -425,7 +425,7 @@
       "side": "BOTH"
     },
     "Opis": {
-      "version": "1.4.3-mapless-pre",
+      "version": "1.4.4-mapless",
       "side": "BOTH"
     },
     "OverloadedArmorBar": {
@@ -461,7 +461,7 @@
       "side": "BOTH"
     },
     "SC2": {
-      "version": "2.1.2-pre",
+      "version": "2.2.0",
       "side": "BOTH"
     },
     "Schematica": {
