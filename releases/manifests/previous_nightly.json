@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
-  "last_version": "2.6.1",
-  "last_updated": "2024-08-27T08:02:55.022803",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-08-27T08:04:10.236716",
   "config": "2.7.0-nightly-2024-08-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.6.15-GTNH-pre",
+      "version": "3.6.17-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.27-pre",
+      "version": "5.09.49.29",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -313,7 +313,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.2.18-GTNH-pre",
+      "version": "1.2.19-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -377,7 +377,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.6",
+      "version": "2.6.8",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -581,7 +581,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.12.7-GTNH-pre",
+      "version": "1.12.8-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -649,7 +649,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.5.11-GTNH",
+      "version": "1.5.12-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.1.2-1.7.10",
+      "version": "2.1.3-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
