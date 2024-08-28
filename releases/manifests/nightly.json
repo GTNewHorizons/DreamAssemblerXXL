@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-27T09:49:46.495090",
+  "last_updated": "2024-08-28T02:53:02.219294",
   "config": "2.7.0-nightly-2024-08-27",
   "github_mods": {
     "AdventureBackpack2": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.6.1",
+      "version": "1.6.2",
       "side": "BOTH"
     },
     "NEI-Integration": {
