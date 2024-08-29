@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-29T02:56:02.456486",
+  "last_updated": "2024-08-29T06:28:42.490971",
   "config": "2.7.0-nightly-2024-08-28",
   "github_mods": {
     "AdventureBackpack2": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.6.19-GTNH-pre",
+      "version": "3.6.20-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.34-pre",
+      "version": "5.09.49.36-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -377,7 +377,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.9",
+      "version": "2.6.10-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -809,7 +809,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.0.1",
+      "version": "2.0.2",
       "side": "BOTH"
     },
     "Postea": {
