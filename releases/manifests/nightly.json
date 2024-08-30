@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-30T02:56:13.806069",
+  "last_updated": "2024-08-30T06:36:29.360701",
   "config": "2.7.0-nightly-2024-08-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -285,7 +285,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.10-pre",
+      "version": "2.8.11",
       "side": "CLIENT"
     },
     "inventory-tweaks": {
@@ -377,7 +377,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.12",
+      "version": "2.6.13",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -605,7 +605,7 @@
       "side": "BOTH"
     },
     "Universal-Singularities": {
-      "version": "8.7.0",
+      "version": "8.8.0",
       "side": "BOTH"
     },
     "VisualProspecting": {
