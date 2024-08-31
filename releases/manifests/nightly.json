@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-08-31T02:55:52.502449",
-  "config": "2.7.0-nightly-2024-08-30",
+  "last_updated": "2024-08-31T09:51:09.792013",
+  "config": "2.7.0-nightly-2024-08-31",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-443-GTNH-pre",
+      "version": "rv3-beta-444-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.9.9-pre",
+      "version": "4.9.10",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.42",
+      "version": "5.09.49.43-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.53-pre",
+      "version": "2.5.54-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -409,7 +409,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.10.21-GTNH",
+      "version": "1.10.22-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -441,7 +441,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.10.2-GTNH",
+      "version": "4.10.3-GTNH-pre",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -649,7 +649,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.5.12-GTNH",
+      "version": "1.5.13-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
