@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-09-02T02:58:27.948987",
-  "config": "2.7.0-nightly-2024-09-01",
+  "last_version": "2.6.1",
+  "last_updated": "2024-09-02T06:37:07.312011",
+  "config": "2.7.0-nightly-2024-09-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.0-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-445-GTNH",
+      "version": "rv3-beta-446-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -173,7 +173,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.5.8",
+      "version": "1.5.9-pre",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.49-pre",
+      "version": "5.09.49.50-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.5.1-pre",
+      "version": "0.5.2-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -309,7 +309,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.2.21-GTNH-pre",
+      "version": "1.2.23-GTNH-pre",
       "side": "BOTH"
     },
     "LootGames": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.6.2",
+      "version": "2.6.3-pre",
       "side": "BOTH"
     },
     "oauth": {
@@ -441,7 +441,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.15.12",
+      "version": "9.15.13-pre",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -493,23 +493,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "1.13.9-GTNH",
-      "side": "BOTH"
-    },
-    "StorageDrawers-BiomesOPlenty": {
-      "version": "1.13.0-GTNH",
-      "side": "BOTH"
-    },
-    "StorageDrawers-Forestry": {
-      "version": "1.13.1-GTNH",
-      "side": "BOTH"
-    },
-    "StorageDrawers-Misc": {
-      "version": "1.13.0-GTNH",
-      "side": "BOTH"
-    },
-    "StorageDrawers-Natura": {
-      "version": "1.13.0-GTNH",
+      "version": "1.13.10-GTNH-pre",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -713,7 +697,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.2.0",
+      "version": "1.1.7-pre",
       "side": "BOTH"
     },
     "MrTJPCore": {
