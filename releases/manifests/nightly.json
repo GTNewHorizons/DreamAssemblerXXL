@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-03T23:02:11.733266",
+  "last_updated": "2024-09-03T23:49:35.421807",
   "config": "2.7.0-nightly-2024-09-03",
   "github_mods": {
     "AdventureBackpack2": {
@@ -349,7 +349,7 @@
       "side": "CLIENT"
     },
     "MX-Random": {
-      "version": "0.4.1",
+      "version": "0.4.2",
       "side": "BOTH"
     },
     "Natura": {
