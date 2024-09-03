@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.6.1",
-  "last_updated": "2024-09-03T22:35:04.256033",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-09-03T22:54:39.811724",
   "config": "2.7.0-nightly-2024-09-03",
   "github_mods": {
     "AdventureBackpack2": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "TinkersGregworks": {
-      "version": "GTNH-1.0.29-pre",
+      "version": "GTNH-1.0.30-pre",
       "side": "BOTH"
     }
   },
