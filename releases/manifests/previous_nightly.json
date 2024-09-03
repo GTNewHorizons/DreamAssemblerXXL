@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-09-03T22:01:23.098177",
+  "last_version": "2.6.1",
+  "last_updated": "2024-09-03T22:06:49.920047",
   "config": "2.7.0-nightly-2024-09-03",
   "github_mods": {
     "AdventureBackpack2": {
@@ -709,7 +709,7 @@
       "side": "BOTH"
     },
     "Tainted-Magic": {
-      "version": "8.1.1.1-GTNH",
+      "version": "7.6.13-GTNH",
       "side": "BOTH"
     },
     "lwjgl3ify": {
@@ -794,6 +794,10 @@
     },
     "Postea": {
       "version": "1.0.9",
+      "side": "BOTH"
+    },
+    "TinkersGregworks": {
+      "version": "GTNH-1.0.29-pre",
       "side": "BOTH"
     }
   },
@@ -900,10 +904,6 @@
     },
     "TC-4-Tweaks": {
       "version": "1.5.24",
-      "side": "BOTH"
-    },
-    "Tinkers-Gregworks": {
-      "version": "1.0.26",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
