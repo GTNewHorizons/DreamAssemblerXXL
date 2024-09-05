@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-04T02:55:32.523890",
+  "last_updated": "2024-09-05T02:56:30.127601",
   "config": "2.7.0-nightly-2024-09-03",
   "github_mods": {
     "AdventureBackpack2": {
@@ -645,7 +645,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.2.1",
+      "version": "1.2.2",
       "side": "BOTH"
     },
     "TX-Loader": {
