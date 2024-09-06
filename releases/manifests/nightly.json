@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-09-06T13:50:35.336539",
+  "last_version": "2.6.1",
+  "last_updated": "2024-09-06T13:56:58.568048",
   "config": "2.7.0-nightly-2024-09-06",
   "github_mods": {
     "AdventureBackpack2": {
@@ -795,10 +795,6 @@
     "Postea": {
       "version": "1.0.9",
       "side": "BOTH"
-    },
-    "TinkersGregworks": {
-      "version": "GTNH-1.0.30-pre",
-      "side": "BOTH"
     }
   },
   "external_mods": {
@@ -937,6 +933,10 @@
     "UniLib": {
       "version": "1.0.1",
       "side": "CLIENT"
+    },
+    "Tinkers-Gregworks": {
+      "version": "1.0.27",
+      "side": "BOTH"
     }
   }
 }
