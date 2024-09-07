@@ -1,8 +1,8 @@
 {
   "version": "nightly",
-  "last_version": "2.6.1",
-  "last_updated": "2024-09-06T13:56:58.568048",
-  "config": "2.7.0-nightly-2024-09-06",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-09-07T02:55:30.607702",
+  "config": "2.7.0-nightly-2024-09-06-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.1-GTNH",
@@ -25,11 +25,11 @@
       "side": "BOTH"
     },
     "AppleCore": {
-      "version": "3.3.1",
+      "version": "3.3.2",
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-451-GTNH",
+      "version": "rv3-beta-452-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.6.3",
+      "version": "1.6.5",
       "side": "BOTH"
     },
     "Botania": {
@@ -173,7 +173,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.5.13-pre",
+      "version": "1.5.14",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.71-pre",
+      "version": "5.09.49.73-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.21",
+      "version": "2.6.22",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -629,7 +629,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.5.14-GTNH",
+      "version": "1.5.15-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.71-pre",
+      "version": "2.0.73-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "Navigator": {
-      "version": "1.0.10",
+      "version": "1.0.12",
       "side": "BOTH"
     },
     "ModularUI2": {
