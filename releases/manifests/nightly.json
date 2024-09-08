@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-08T03:00:08.467879",
-  "config": "2.7.0-nightly-2024-09-07",
+  "last_updated": "2024-09-08T11:24:50.662860",
+  "config": "2.7.0-nightly-2024-09-08",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.1-GTNH",
@@ -29,11 +29,11 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-452-GTNH",
+      "version": "rv3-beta-453-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.10.0",
+      "version": "1.10.1",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -157,7 +157,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.7.6",
+      "version": "1.7.7",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.77-pre",
+      "version": "5.09.49.79-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.24-pre",
+      "version": "2.6.25",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -493,7 +493,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "1.13.13-GTNH-pre",
+      "version": "2.0.0-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -537,7 +537,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.6.23-GTNH",
+      "version": "1.6.24-GTNH-pre",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.4.15",
+      "version": "1.4.16-pre",
       "side": "BOTH"
     },
     "amunra": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.73-pre",
+      "version": "2.0.74-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
