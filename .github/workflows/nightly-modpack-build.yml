@@ -36,7 +36,7 @@ jobs:
       # load cached venv if cache exists
       - name: Load cached venv
         id: cached-poetry-dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: .venv
           key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('**/poetry.lock') }}
@@ -59,7 +59,7 @@ jobs:
 
       - name: Load cached mod zips
         id: load_cache
-        uses: actions/cache/restore@v3
+        uses: actions/cache/restore@v4
         with:
           path: cache
           key: daxxl-${{ runner.os }}-${{ steps.date.outputs.cachedate }}
@@ -76,7 +76,7 @@ jobs:
           poetry run python -m gtnh.cli.assemble_nightly
 
       - name: Save cached mod zips
-        uses: actions/cache/save@v3
+        uses: actions/cache/save@v4
         if: success() || failure()
         with:
           path: cache
