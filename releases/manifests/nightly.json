@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-11T02:56:41.525392",
-  "config": "2.7.0-nightly-2024-09-10",
+  "last_updated": "2024-09-11T06:43:32.067311",
+  "config": "2.7.0-nightly-2024-09-11",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.2-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-455-GTNH-pre",
+      "version": "rv3-beta-456-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -45,7 +45,7 @@
       "side": "BOTH"
     },
     "Avaritiaddons": {
-      "version": "1.8.0-GTNH",
+      "version": "1.8.1-GTNH",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.9.13-pre",
+      "version": "4.9.14-pre",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.87",
+      "version": "5.09.49.89-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -309,7 +309,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.2.29-GTNH-pre",
+      "version": "1.2.31-GTNH-pre",
       "side": "BOTH"
     },
     "LootGames": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.7.1",
+      "version": "2.7.2-pre",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.30-pre",
+      "version": "2.6.32-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
