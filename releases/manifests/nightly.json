@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-12T02:58:11.342330",
-  "config": "2.7.0-nightly-2024-09-11",
+  "last_updated": "2024-09-12T06:45:38.547099",
+  "config": "2.7.0-nightly-2024-09-12",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.2-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-456-GTNH-pre",
+      "version": "rv3-beta-457-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "Battlegear2": {
-      "version": "1.4.0",
+      "version": "1.4.1",
       "side": "BOTH"
     },
     "bdlib": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.9.15",
+      "version": "4.9.16",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.89-pre",
+      "version": "5.09.49.91-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.61-pre",
+      "version": "2.5.63-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -321,7 +321,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.8.4-GTNH",
+      "version": "2.8.5-GTNH",
       "side": "BOTH"
     },
     "MalisisDoors": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.32-pre",
+      "version": "2.6.33",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -859,7 +859,7 @@
       "side": "BOTH"
     },
     "JourneyMap": {
-      "version": "5.2.5-fairplay",
+      "version": "5.2.6-fairplay",
       "side": "CLIENT"
     },
     "JourneyMap Server": {
