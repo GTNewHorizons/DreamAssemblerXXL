@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-11T07:05:56.336826",
+  "last_updated": "2024-09-12T02:58:11.342330",
   "config": "2.7.0-nightly-2024-09-11",
   "github_mods": {
     "AdventureBackpack2": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.9.14-pre",
+      "version": "4.9.15",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.5.7-pre",
+      "version": "0.5.8",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -321,7 +321,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.8.3-GTNH",
+      "version": "2.8.4-GTNH",
       "side": "BOTH"
     },
     "MalisisDoors": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.7.2-pre",
+      "version": "2.7.3",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -653,7 +653,7 @@
       "side": "CLIENT"
     },
     "NotEnoughIds": {
-      "version": "2.1.1",
+      "version": "2.1.2",
       "side": "BOTH"
     },
     "FloodLights": {
