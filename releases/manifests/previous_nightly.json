@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-12T06:53:38.794122",
-  "config": "2.7.0-nightly-2024-09-12",
+  "last_updated": "2024-09-13T02:58:50.984132",
+  "config": "2.7.0-nightly-2024-09-12-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.2-GTNH",
@@ -45,7 +45,7 @@
       "side": "BOTH"
     },
     "Avaritiaddons": {
-      "version": "1.8.1-GTNH",
+      "version": "1.8.2-GTNH",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.91-pre",
+      "version": "5.09.49.95-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.33",
+      "version": "2.6.40",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -385,7 +385,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.6.35-GTNH",
+      "version": "2.6.37-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.4.17-pre",
+      "version": "1.4.18",
       "side": "BOTH"
     },
     "amunra": {
