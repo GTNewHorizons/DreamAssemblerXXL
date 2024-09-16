@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-14T02:57:56.041587",
-  "config": "2.7.0-nightly-2024-09-13",
+  "last_updated": "2024-09-16T03:06:22.311774",
+  "config": "2.7.0-nightly-2024-09-15",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.2-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-458-GTNH-pre",
+      "version": "rv3-beta-460-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -77,7 +77,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.4.1",
+      "version": "2.4.2",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.100-pre",
+      "version": "5.09.49.106-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.5.10",
+      "version": "0.5.11",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.64-pre",
+      "version": "2.5.65-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -309,7 +309,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.2.31-GTNH-pre",
+      "version": "1.2.32-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.42",
+      "version": "2.6.44",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -645,7 +645,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.2.5",
+      "version": "1.2.6-pre",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "amunra": {
-      "version": "0.6.0",
+      "version": "0.7.0",
       "side": "BOTH"
     },
     "DuraDisplay": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.1.7-1.7.10",
+      "version": "2.1.8-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
