@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-16T10:17:06.733592",
+  "last_updated": "2024-09-16T12:12:19.107622",
   "config": "2.7.0-nightly-2024-09-16-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-460-GTNH-pre",
+      "version": "rv3-beta-461-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.93-GTNH",
+      "version": "1.1.94-GTNH",
       "side": "BOTH"
     },
     "gendustry": {

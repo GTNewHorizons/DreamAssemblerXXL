@@ -264,7 +264,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-beta6 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.8.2 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.2 |
-| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-460-GTNH-pre |
+| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-461-GTNH-pre |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.7.4 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.10.1 |
 | [Aroma1997Core](https://www.curseforge.com/minecraft/mc-mods/aroma1997core) | 1.0.2.16 |
@@ -341,7 +341,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ForgeRelocationFMP](https://github.com/GTNewHorizons/ForgeRelocationFMP) | 0.2.0 |
 | [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.3.4-pre |
 | [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.2.4-GTNH |
-| [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.1.93-GTNH |
+| [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.1.94-GTNH |
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.8.2-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.2.2 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
