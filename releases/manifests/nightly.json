@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-19T03:00:31.720807",
+  "last_updated": "2024-09-19T21:36:35.903499",
   "config": "2.7.0-nightly-2024-09-18",
   "github_mods": {
     "AdventureBackpack2": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.49.114-pre",
+      "version": "5.09.50.01",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WAILAPlugins": {
-      "version": "0.4.0",
+      "version": "0.5.0",
       "side": "BOTH"
     },
     "WanionLib": {
@@ -645,7 +645,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.2.7-pre",
+      "version": "1.2.8",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.1.8-1.7.10",
+      "version": "2.1.9-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "Postea": {
-      "version": "1.0.11",
+      "version": "1.0.12-pre",
       "side": "BOTH"
     }
   },
