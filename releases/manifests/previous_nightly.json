@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-20T14:51:49.876550",
+  "last_updated": "2024-09-20T20:59:47.681544",
   "config": "2.7.0-nightly-2024-09-18",
   "github_mods": {
     "AdventureBackpack2": {
@@ -141,7 +141,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.3.5-GTNH",
+      "version": "1.3.7-GTNH",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.3.4-pre",
+      "version": "1.3.5",
       "side": "BOTH"
     },
     "Galacticraft": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.03-pre",
+      "version": "5.09.50.05",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -309,7 +309,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.2.32-GTNH",
+      "version": "1.2.33-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.47-pre",
+      "version": "2.6.49",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "Postea": {
-      "version": "1.0.12-pre",
+      "version": "1.0.13",
       "side": "BOTH"
     }
   },

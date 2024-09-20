@@ -418,7 +418,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Player-API](https://github.com/GTNewHorizons/Player-API) | 1.5.0 |
 | [Postea](https://github.com/GTNewHorizons/Postea) | 1.0.13 |
 | [ProjectBlue](https://github.com/GTNewHorizons/ProjectBlue) | 1.2.0-GTNH |
-| [ProjectRed](https://github.com/GTNewHorizons/ProjectRed) | 4.10.4-GTNH-pre |
+| [ProjectRed](https://github.com/GTNewHorizons/ProjectRed) | 4.10.5-GTNH |
 | [Railcraft](https://github.com/GTNewHorizons/Railcraft) | 9.15.14 |
 | [Random-Things](https://github.com/GTNewHorizons/Random-Things) | 2.5.3 |
 | [Realistic-World-Gen](https://github.com/GTNewHorizons/Realistic-World-Gen) | alpha-1.5.0 |
