@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-20T20:59:47.681544",
+  "last_updated": "2024-09-21T02:58:57.865572",
   "config": "2.7.0-nightly-2024-09-18",
   "github_mods": {
     "AdventureBackpack2": {
@@ -437,7 +437,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.10.4-GTNH-pre",
+      "version": "4.10.5-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {

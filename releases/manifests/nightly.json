@@ -1,8 +1,8 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-09-21T02:58:57.865572",
-  "config": "2.7.0-nightly-2024-09-18",
+  "last_version": "2.7.0-beta-1",
+  "last_updated": "2024-09-21T08:56:12.298960",
+  "config": "2.7.0-beta-1",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.2-GTNH",
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.05",
+      "version": "5.09.50.06",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -405,7 +405,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.10.25-GTNH",
+      "version": "1.10.26-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
