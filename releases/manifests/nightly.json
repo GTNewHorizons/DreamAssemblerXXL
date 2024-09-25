@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-24T19:40:11.713461",
+  "last_updated": "2024-09-25T03:06:11.318160",
   "config": "2.7.0-nightly-2024-09-24",
   "github_mods": {
     "AdventureBackpack2": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.13",
+      "version": "5.09.50.14",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.70",
+      "version": "2.5.71",
       "side": "BOTH"
     },
     "HoloInventory": {
