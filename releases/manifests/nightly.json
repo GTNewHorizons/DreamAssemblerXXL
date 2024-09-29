@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-29T03:09:05.752094",
+  "last_updated": "2024-09-29T10:09:50.067915",
   "config": "2.7.0-nightly-2024-09-28",
   "github_mods": {
     "AdventureBackpack2": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.24",
+      "version": "5.09.50.25",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.1.12-1.7.10",
+      "version": "2.1.13-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
