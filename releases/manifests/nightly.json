@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-09-29T10:52:43.523739",
+  "last_updated": "2024-09-30T03:09:00.104608",
   "config": "2.7.0-nightly-2024-09-28",
   "github_mods": {
     "AdventureBackpack2": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.5.11",
+      "version": "0.5.12",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -449,7 +449,7 @@
       "side": "BOTH"
     },
     "RemoteIO": {
-      "version": "2.5.2",
+      "version": "2.6.0",
       "side": "BOTH"
     },
     "Roguelike-Dungeons": {
