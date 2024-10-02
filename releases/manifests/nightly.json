@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-10-02T03:02:59.424718",
-  "config": "2.7.0-nightly-2024-09-28",
+  "last_updated": "2024-10-02T13:31:31.705380",
+  "config": "2.7.0-nightly-2024-10-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.2-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.36-gtnh",
+      "version": "1.3.37-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -169,7 +169,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.3.10-GTNH",
+      "version": "1.3.11.GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.8.17",
+      "version": "2.8.18",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.26",
+      "version": "5.09.50.27",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.57",
+      "version": "2.6.58",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -649,7 +649,7 @@
       "side": "BOTH"
     },
     "TX-Loader": {
-      "version": "1.7.1",
+      "version": "1.7.2",
       "side": "CLIENT"
     },
     "NotEnoughIds": {
