@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-10-02T20:59:41.506107",
+  "last_updated": "2024-10-03T03:03:29.022828",
   "config": "2.7.0-nightly-2024-10-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "EnderStorage": {
-      "version": "1.6.1",
+      "version": "1.6.2",
       "side": "BOTH"
     },
     "EnderZoo": {
