@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-10-02T13:38:13.843332",
+  "last_version": "2.6.1",
+  "last_updated": "2024-10-02T20:51:08.706040",
   "config": "2.7.0-nightly-2024-10-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -45,7 +45,7 @@
       "side": "BOTH"
     },
     "Avaritiaddons": {
-      "version": "1.8.2-GTNH",
+      "version": "1.8.3-GTNH",
       "side": "BOTH"
     },
     "Battlegear2": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "EnderStorage": {
-      "version": "1.6.0",
+      "version": "1.6.1",
       "side": "BOTH"
     },
     "EnderZoo": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.27",
+      "version": "5.09.50.28",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.6.5",
+      "version": "1.6.6",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.58",
+      "version": "2.6.59",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -385,7 +385,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.6.39-GTNH",
+      "version": "2.6.40-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.10.1-GTNH",
+      "version": "1.10.2-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
-      "version": "1.11.6",
+      "version": "1.11.7",
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "Nutrition": {
-      "version": "0.0.11",
+      "version": "0.0.12",
       "side": "BOTH"
     },
     "Default-Configs": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.78",
+      "version": "2.0.79",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -798,14 +798,6 @@
     }
   },
   "external_mods": {
-    "Aroma1997Core": {
-      "version": "1.0.2.16",
-      "side": "CLIENT"
-    },
-    "AromaBackup": {
-      "version": "0.1.0.0",
-      "side": "CLIENT"
-    },
     "Automagy": {
       "version": "0.28.2",
       "side": "BOTH"
