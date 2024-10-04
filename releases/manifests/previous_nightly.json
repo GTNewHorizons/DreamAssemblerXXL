@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-10-03T09:20:14.092826",
+  "last_updated": "2024-10-04T14:15:32.793306",
   "config": "2.7.0-nightly-2024-10-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.37-gtnh",
+      "version": "1.3.38-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "EnderStorage": {
-      "version": "1.6.2",
+      "version": "1.6.3",
       "side": "BOTH"
     },
     "EnderZoo": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.29",
+      "version": "5.09.50.30",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.5.12",
+      "version": "0.5.13",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.59",
+      "version": "2.6.60",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
