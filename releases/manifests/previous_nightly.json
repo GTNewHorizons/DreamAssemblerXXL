@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-10-04T14:15:32.793306",
-  "config": "2.7.0-nightly-2024-10-02",
+  "last_updated": "2024-10-04T19:58:01.703669",
+  "config": "2.7.0-nightly-2024-10-04",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.2-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-464-GTNH",
+      "version": "rv3-beta-465-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.7.3",
+      "version": "2.7.4",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -385,7 +385,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.6.40-GTNH",
+      "version": "2.6.41-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.1.13-1.7.10",
+      "version": "2.1.14-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
