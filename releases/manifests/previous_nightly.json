@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
-  "last_version": "2.6.1",
-  "last_updated": "2024-10-02T20:51:08.706040",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-10-03T09:20:14.092826",
   "config": "2.7.0-nightly-2024-10-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "EnderStorage": {
-      "version": "1.6.1",
+      "version": "1.6.2",
       "side": "BOTH"
     },
     "EnderZoo": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.28",
+      "version": "5.09.50.29",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
