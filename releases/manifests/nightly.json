@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-10-05T03:02:16.890815",
-  "config": "2.7.0-nightly-2024-10-04",
+  "last_updated": "2024-10-05T10:36:01.814645",
+  "config": "2.7.0-nightly-2024-10-05",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.2-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.38-gtnh-pre",
+      "version": "1.3.39-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-465-GTNH",
+      "version": "rv3-beta-466-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.31",
+      "version": "5.09.50.32",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
