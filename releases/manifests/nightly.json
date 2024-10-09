@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-10-09T03:04:02.407533",
+  "last_updated": "2024-10-09T19:40:31.884719",
   "config": "2.7.0-nightly-2024-10-05",
   "github_mods": {
     "AdventureBackpack2": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.35",
+      "version": "5.09.50.36",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.61",
+      "version": "2.6.62",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -561,7 +561,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.12.10-GTNH",
+      "version": "1.12.11-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
