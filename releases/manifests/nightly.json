@@ -1,11 +1,11 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-10-13T03:07:15.297558",
-  "config": "2.7.0-nightly-2024-10-05",
+  "last_version": "2.6.1",
+  "last_updated": "2024-10-13T19:28:41.456802",
+  "config": "2.7.0-nightly-2024-10-13",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.2.2-GTNH",
+      "version": "1.2.3-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -25,7 +25,7 @@
       "side": "BOTH"
     },
     "AppleCore": {
-      "version": "3.3.2",
+      "version": "3.3.3",
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.53",
+      "version": "1.54",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.36",
+      "version": "5.09.50.38",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "harvestcraft": {
-      "version": "1.2.2-GTNH",
+      "version": "1.2.3-GTNH",
       "side": "BOTH"
     },
     "Hodgepodge": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.62",
+      "version": "2.6.63",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -493,7 +493,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.0.2-GTNH",
+      "version": "2.0.3-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -537,7 +537,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.6.25-GTNH",
+      "version": "1.6.26-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -553,7 +553,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.10.1",
+      "version": "2.10.2",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -561,7 +561,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.12.11-GTNH",
+      "version": "1.12.12-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -645,7 +645,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.2.10",
+      "version": "1.2.11",
       "side": "BOTH"
     },
     "TX-Loader": {
