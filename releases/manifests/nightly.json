@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-10-17T03:04:04.789748",
+  "last_updated": "2024-10-18T03:05:41.524985",
   "config": "2.7.0-nightly-2024-10-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-468-GTNH",
+      "version": "rv3-beta-469-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.42",
+      "version": "5.09.50.43",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.5.14",
+      "version": "0.5.15",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.13",
+      "version": "2.8.14",
       "side": "BOTH"
     },
     "inventory-tweaks": {
@@ -773,7 +773,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta7",
+      "version": "1.0.0-beta8",
       "side": "CLIENT"
     },
     "AkashicTome": {
