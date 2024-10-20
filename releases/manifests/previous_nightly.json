@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-10-20T03:09:46.347466",
-  "config": "2.7.0-nightly-2024-10-18",
+  "last_updated": "2024-10-20T13:59:44.687642",
+  "config": "2.7.0-nightly-2024-10-20",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.3-GTNH",
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.6.6",
+      "version": "1.6.7",
       "side": "BOTH"
     },
     "Botania": {
@@ -173,7 +173,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.5.15",
+      "version": "1.5.16",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.44",
+      "version": "5.09.50.46",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.72",
+      "version": "2.5.73",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.66",
+      "version": "2.6.67",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -907,7 +907,7 @@
       "side": "BOTH"
     },
     "UniMixins": {
-      "version": "0.1.17",
+      "version": "0.1.18",
       "side": "BOTH"
     },
     "CoreTweaks": {
