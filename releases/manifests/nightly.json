@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-10-19T03:03:23.206739",
+  "last_updated": "2024-10-20T03:09:46.347466",
   "config": "2.7.0-nightly-2024-10-18",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.39-gtnh",
+      "version": "1.3.40-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "MalisisDoors": {
-      "version": "1.17.2-GTNH",
+      "version": "1.17.3-GTNH",
       "side": "BOTH"
     },
     "Mantle": {
