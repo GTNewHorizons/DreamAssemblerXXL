@@ -1,15 +1,15 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-10-14T03:07:41.335192",
-  "config": "2.7.0-nightly-2024-10-13",
+  "last_updated": "2024-10-20T03:09:46.347466",
+  "config": "2.7.0-nightly-2024-10-18",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.3-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.39-gtnh",
+      "version": "1.3.40-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-468-GTNH",
+      "version": "rv3-beta-469-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -173,7 +173,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.5.14",
+      "version": "1.5.15",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.94-GTNH",
+      "version": "1.1.95-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.39",
+      "version": "5.09.50.44",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.5.14",
+      "version": "0.5.15",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -257,11 +257,11 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.71",
+      "version": "2.5.72",
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.4.12-GTNH",
+      "version": "2.4.13-GTNH",
       "side": "BOTH"
     },
     "HydroEnergy": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.13",
+      "version": "2.8.14",
       "side": "BOTH"
     },
     "inventory-tweaks": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "MalisisDoors": {
-      "version": "1.17.2-GTNH",
+      "version": "1.17.3-GTNH",
       "side": "BOTH"
     },
     "Mantle": {
@@ -349,7 +349,7 @@
       "side": "CLIENT"
     },
     "MX-Random": {
-      "version": "0.4.4",
+      "version": "0.4.5",
       "side": "BOTH"
     },
     "Natura": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.63",
+      "version": "2.6.66",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.4.21",
+      "version": "1.4.22",
       "side": "BOTH"
     },
     "amunra": {
@@ -773,7 +773,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta7",
+      "version": "1.0.0-beta8",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -899,7 +899,7 @@
       "side": "BOTH"
     },
     "Craft-Presence": {
-      "version": "2.5.0",
+      "version": "2.5.1",
       "side": "CLIENT"
     },
     "Gravitation-Suite-old": {
@@ -923,7 +923,7 @@
       "side": "BOTH"
     },
     "UniLib": {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "side": "CLIENT"
     },
     "Tinkers-Gregworks": {
