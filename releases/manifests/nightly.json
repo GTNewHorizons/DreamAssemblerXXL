@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-10-24T03:03:40.435396",
+  "last_updated": "2024-10-25T03:06:37.670200",
   "config": "2.7.0-nightly-2024-10-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -449,7 +449,7 @@
       "side": "BOTH"
     },
     "RemoteIO": {
-      "version": "2.6.0",
+      "version": "2.6.1",
       "side": "BOTH"
     },
     "Roguelike-Dungeons": {
