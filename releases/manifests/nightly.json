@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-10-27T03:08:44.451788",
+  "last_updated": "2024-10-28T03:09:14.230796",
   "config": "2.7.0-nightly-2024-10-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.43-gtnh",
+      "version": "1.3.45-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "FindIt": {
-      "version": "1.3.8",
+      "version": "1.3.9",
       "side": "BOTH"
     },
     "ForbiddenMagic": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.53",
+      "version": "5.09.50.54",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.5.17",
+      "version": "0.5.18",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.15",
+      "version": "2.8.17-pre",
       "side": "BOTH"
     },
     "inventory-tweaks": {
@@ -529,7 +529,7 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.3.5-GTNH",
+      "version": "1.3.6-GTNH",
       "side": "BOTH"
     },
     "ThaumicBases": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.1.3",
+      "version": "2.1.4",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.80",
+      "version": "2.0.82",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
