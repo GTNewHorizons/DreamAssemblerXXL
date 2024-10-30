@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-10-29T03:06:11.943755",
-  "config": "2.7.0-nightly-2024-10-25",
+  "last_updated": "2024-10-30T03:05:36.061231",
+  "config": "2.7.0-nightly-2024-10-29",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.3-GTNH",
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.54",
+      "version": "5.09.50.55",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.82",
+      "version": "2.0.83",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -773,7 +773,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta13",
+      "version": "1.0.0-beta14",
       "side": "CLIENT"
     },
     "AkashicTome": {
