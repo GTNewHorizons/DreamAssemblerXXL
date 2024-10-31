@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-10-30T03:05:36.061231",
-  "config": "2.7.0-nightly-2024-10-29",
+  "last_updated": "2024-10-31T03:06:35.999108",
+  "config": "2.7.0-nightly-2024-10-30",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.3-GTNH",
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.55",
+      "version": "5.09.50.56",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.74",
+      "version": "2.5.75",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.18-pre",
+      "version": "2.8.19",
       "side": "BOTH"
     },
     "inventory-tweaks": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.83",
+      "version": "2.0.84",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
