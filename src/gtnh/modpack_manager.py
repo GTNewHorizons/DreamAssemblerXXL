@@ -39,7 +39,7 @@ from gtnh.defs import (
     ModSource,
     Side,
 )
-from gtnh.exceptions import InvalidReleaseException, RepoNotFoundException
+from gtnh.exceptions import InvalidNightlyIdException, InvalidReleaseException, RepoNotFoundException
 from gtnh.github.uri import latest_release_uri, org_repos_uri, repo_releases_uri, repo_uri
 from gtnh.gtnh_logger import get_logger
 from gtnh.models.available_assets import AvailableAssets
@@ -640,6 +640,22 @@ class GTNHModpackManager:
         """
         return self.assets.latest_nightly
 
+    def set_nightly_id(self, id: int) -> None:
+        """
+        Set the nightly id to a specific number. Has to be greater than the last nightly id.
+
+        Returns
+        -------
+        None
+        """
+        latest_id = self.assets.latest_nightly
+        if id > latest_id:
+            self.assets.latest_nightly = id
+        else:
+            raise InvalidNightlyIdException(
+                f"Cannot set new nightly id to {id}, needs to be greater than latest nightly count {latest_id}"
+            )
+
     def increment_nightly_count(self) -> None:
         """
         Increment the nightly count.
@@ -651,7 +667,7 @@ class GTNHModpackManager:
         self.assets.latest_nightly += 1
         self.save_assets()
 
-    def set_last_successful_nightly(self, id: int) -> None:
+    def set_last_successful_nightly_id(self, id: int) -> None:
         """
         Set the last successful nightly id.
 
