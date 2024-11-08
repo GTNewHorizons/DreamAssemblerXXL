@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-11-08T03:02:00.047523",
-  "config": "2.7.0-nightly-2024-11-07",
+  "last_updated": "2024-11-08T17:37:32.615579",
+  "config": "2.7.0-nightly-2024-11-08",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.3-GTNH",
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.59",
+      "version": "5.09.50.60",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.72",
+      "version": "2.6.73",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.6.34",
+      "version": "2.6.35",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -773,7 +773,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta17",
+      "version": "1.0.0-beta18",
       "side": "CLIENT"
     },
     "AkashicTome": {

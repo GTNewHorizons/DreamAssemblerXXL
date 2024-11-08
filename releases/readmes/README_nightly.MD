@@ -261,7 +261,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.2.1-GTNH |
 | [Amazing-Trophies](https://github.com/GTNewHorizons/Amazing-Trophies) | 1.2.2 |
 | [amunra](https://github.com/GTNewHorizons/amunra) | 0.7.1 |
-| [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-beta17 |
+| [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-beta18 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.8.2 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.3 |
 | [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-473-GTNH |
@@ -343,7 +343,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.8.2-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.2.2 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.50.59 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.50.60 |
 | [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.4.24 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.1 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.5.19 |
@@ -394,7 +394,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.4.0 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.16.0 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.3.0 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.6.72 |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.6.73 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.2.1-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.6.4 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.1.6 |
@@ -464,7 +464,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Translocators](https://github.com/GTNewHorizons/Translocators) | 1.2.1 |
 | [Travellers Gear](https://www.curseforge.com/minecraft/mc-mods/travellers-gear) | 1.16.6 |
 | [TravellersGearNeo](https://github.com/GTNewHorizons/TravellersGearNeo) | 1.2.2 |
-| [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.6.34 |
+| [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.6.35 |
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.7.2 |
 | [UniLib](https://legacy.curseforge.com/minecraft/mc-mods/unilib) | 1.0.3 |
 | [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.18 |
