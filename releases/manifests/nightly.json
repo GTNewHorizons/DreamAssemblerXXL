@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-11-11T03:03:04.013436",
-  "config": "2.7.0-nightly-2024-11-09",
+  "last_updated": "2024-11-11T09:45:35.013715",
+  "config": "2.7.0-nightly-2024-11-11",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.3-GTNH",
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.61",
+      "version": "5.09.50.62",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.76",
+      "version": "2.5.77",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.74",
+      "version": "2.6.75",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -561,7 +561,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.12.12-GTNH",
+      "version": "1.12.13-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
