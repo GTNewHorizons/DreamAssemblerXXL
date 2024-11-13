@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-11-12T03:00:54.301494",
+  "last_updated": "2024-11-13T03:02:45.294816",
   "config": "2.7.0-nightly-2024-11-11",
   "github_mods": {
     "AdventureBackpack2": {
@@ -157,7 +157,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.7.9",
+      "version": "1.7.10",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.8.20",
+      "version": "2.8.21",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.64",
+      "version": "5.09.50.66",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.75",
+      "version": "2.6.76",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
