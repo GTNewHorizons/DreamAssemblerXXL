@@ -977,6 +977,25 @@ class GTNHModpackManager:
         Generate a changelog between two releases.  If the `previous_release` is None, generate it for all of history
         :returns: dict[mod_name, list[version_changes]]
         """
+
+        def get_pretty_side_string(side: Optional[Side]) -> str:
+            if side == Side.CLIENT:
+                return "client-side only"
+            if side == Side.CLIENT_JAVA9:
+                return "client-side Java 9+ only"
+            elif side == Side.SERVER:
+                return "server-side only"
+            elif side == Side.SERVER_JAVA9:
+                return "server-side Java 9+ only"
+            elif side == Side.BOTH:
+                return "on both sides"
+            elif side == Side.BOTH_JAVA9:
+                return "on both sides, Java 9+ only"
+            elif side is None:
+                return "unknown"
+            else:
+                return str(side)
+
         removed_mods = set()
         new_mods = set()
         version_changes: dict[str, Tuple[Optional[ModVersionInfo], ModVersionInfo]] = {}
@@ -1028,10 +1047,17 @@ class GTNHModpackManager:
             changes = changelog[mod_name]
 
             if mod_name in new_mods:
-                changes.append(f"# New Mod - {mod_name}:{new_version}")
+                changes.append(f"# New Mod - {mod_name}:{new_version.version}")
             else:
-                old_version_str = f"{old_version} -->" if old_version else ""
-                changes.append(f"# Updated - {mod_name} - {old_version_str}{new_version}")
+                old_version_str = f"{old_version.version} -->" if old_version else ""
+                changes.append(f"# Updated - {mod_name} - {old_version_str} {new_version.version}")
+
+            if old_version is not None and old_version.side != new_version.side:
+                changes.append(
+                    f"Mod side changed from {get_pretty_side_string(old_version.side)} to {get_pretty_side_string(new_version.side)}."
+                )
+            elif new_version.side not in [Side.BOTH, Side.BOTH_JAVA9]:
+                changes.append(f"Mod is {get_pretty_side_string(new_version.side)}.")
 
             for i, version in enumerate(reversed(mod_versions)):
                 if i != 0 and version.prerelease:
