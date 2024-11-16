@@ -467,7 +467,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.6.35 |
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.7.2 |
 | [UniLib](https://legacy.curseforge.com/minecraft/mc-mods/unilib) | 1.0.3 |
-| [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.18 |
+| [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.19 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.8.0 |
 | [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.3.28 |
 | [waila](https://github.com/GTNewHorizons/waila) | 1.8.2 |
