@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-11-11T09:44:59.462068",
-  "config": "2.7.0-nightly-2024-11-09",
+  "last_updated": "2024-11-16T03:08:58.623894",
+  "config": "2.7.0-nightly-2024-11-11",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.3-GTNH",
@@ -77,7 +77,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.4.3",
+      "version": "2.4.4",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -133,7 +133,7 @@
       "side": "BOTH"
     },
     "CodeChickenCore": {
-      "version": "1.3.9",
+      "version": "1.3.10",
       "side": "BOTH"
     },
     "Computronics": {
@@ -157,7 +157,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.7.9",
+      "version": "1.7.10",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.8.20",
+      "version": "2.8.21",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.62",
+      "version": "5.09.50.67",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.5.19",
+      "version": "0.5.20",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.75",
+      "version": "2.6.76",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -629,7 +629,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.5.15-GTNH",
+      "version": "1.5.16-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -657,7 +657,7 @@
       "side": "BOTH"
     },
     "FloodLights": {
-      "version": "1.4.1",
+      "version": "1.4.2",
       "side": "BOTH"
     },
     "ForgeRelocationFMP": {
