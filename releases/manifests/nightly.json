@@ -1,11 +1,11 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-11-18T10:08:16.778544",
+  "last_updated": "2024-11-18T11:17:12.130642",
   "config": "2.7.0-nightly-2024-11-17",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.2.3-GTNH",
+      "version": "1.2.4-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.9.17",
+      "version": "4.9.18",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.96-GTNH",
+      "version": "1.1.97-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.71",
+      "version": "5.09.50.72",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -561,7 +561,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.12.14-GTNH",
+      "version": "1.12.15-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
