@@ -72,9 +72,10 @@
 # Updated AFSU (1.3.0-GTNH -->  1.3.1-GTNH)
 **Full Changelog**: https://github.com/GTNewHorizons/AFSU/compare/1.3.0-GTNH...1.3.1-GTNH
 
-# Updated AdventureBackpack2 (1.1.4-GTNH -->  1.2.3-GTNH)
-**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.1.3-GTNH...1.2.3-GTNH
+# Updated AdventureBackpack2 (1.1.4-GTNH -->  1.2.4-GTNH)
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.1.3-GTNH...1.2.4-GTNH
 >## What's Changed
+> * close item inventory if parent item is gone by @Glease in https://github.com/GTNewHorizons/AdventureBackpack2/pull/24 (1.2.4-GTNH)
 > * Update rendering calls to CCRenderState by @Alexdoru in https://github.com/GTNewHorizons/AdventureBackpack2/pull/22 (1.2.3-GTNH)
 > * Add config option to hide backpack model from rendering on back and also now works with the Translucency II enchantment by @Kortako in https://github.com/GTNewHorizons/AdventureBackpack2/pull/23 (1.2.3-GTNH)
 > * Rename reflected GT class by @Alexdoru in https://github.com/GTNewHorizons/AdventureBackpack2/pull/21 (1.2.2-GTNH)
@@ -677,9 +678,10 @@
 > * Disable `useDependencyInformation` by @glowredman in https://github.com/GTNewHorizons/FloodLights/pull/3 (1.4.0)
 >
 
-# Updated ForestryMC (4.8.10 -->  4.9.17)
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.8.9...4.9.17
+# Updated ForestryMC (4.8.10 -->  4.9.18)
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.8.9...4.9.18
 >## What's Changed
+> * close item inventory if parent item is gone by @Glease in https://github.com/GTNewHorizons/ForestryMC/pull/84 (4.9.18)
 > * Fix NPE in logic of radioactive effect by @OneEyeMaker in https://github.com/GTNewHorizons/ForestryMC/pull/83 (4.9.17)
 > * Add ability to display bee lore and add Discoverd by tag by @Nilau1998 in https://github.com/GTNewHorizons/ForestryMC/pull/79 (4.9.16)
 > * Remove duplicate items by @chochem in https://github.com/GTNewHorizons/ForestryMC/pull/82 (4.9.15)
@@ -717,9 +719,10 @@
 > * Update to kotlin 1.9.24 by @eigenraven in https://github.com/GTNewHorizons/Forgelin/pull/10 (1.10.0-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.45.168 -->  5.09.50.71)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.45.164-pre...5.09.50.71
+# Updated GT5-Unofficial (5.09.45.168 -->  5.09.50.72)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.45.164-pre...5.09.50.72
 >## What's Changed
+> * move away from classicHatches() hatch adder by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3512 (5.09.50.72)
 > * 9x crop leaf extraction by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3511 (5.09.50.71)
 > * Fix (another) Computation Bug by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3432 (5.09.50.70)
 > * Remove the GT++ programmed circuit from certain chem plant recipes by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3495 (5.09.50.70)
@@ -1893,8 +1896,8 @@
 > * Remove GC Planets Checks by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/88 (3.1.7-GTNH)
 >
 
-# Updated Galaxy-Space-GTNH (1.1.84-GTNH -->  1.1.96-GTNH)
-**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.84-GTNH...1.1.96-GTNH
+# Updated Galaxy-Space-GTNH (1.1.84-GTNH -->  1.1.97-GTNH)
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.84-GTNH...1.1.97-GTNH
 >## What's Changed
 > * Remove memory allocations from checking achievements by @Alexdoru in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/120 (1.1.96-GTNH)
 > * Multi ToolTip unification by @Alexdoru in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/119 (1.1.95-GTNH)
@@ -2950,9 +2953,10 @@
 > * Thaumic boots dep + minor code cleanup by @Alastors in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/36 (1.3.0-GTNH)
 >
 
-# Updated TinkersConstruct (1.11.16-GTNH -->  1.12.14-GTNH)
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.11.15-GTNH...1.12.14-GTNH
+# Updated TinkersConstruct (1.11.16-GTNH -->  1.12.15-GTNH)
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.11.15-GTNH...1.12.15-GTNH
 >## What's Changed
+> * Fix Essence Berry OreDict tags by @wlhlm in https://github.com/GTNewHorizons/TinkersConstruct/pull/138 (1.12.15-GTNH)
 > * Fix unlocalized name of Wool Slabs by @Worive in https://github.com/GTNewHorizons/TinkersConstruct/pull/135 (1.12.14-GTNH)
 > * Revert default config for option "Remove Gold Cast Recipes" by @wlhlm in https://github.com/GTNewHorizons/TinkersConstruct/pull/130 (1.12.13-GTNH)
 > * Fix NPE making gold casts while they are disabled by @wlhlm in https://github.com/GTNewHorizons/TinkersConstruct/pull/132 (1.12.13-GTNH)
