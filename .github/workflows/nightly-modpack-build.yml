@@ -87,8 +87,8 @@ jobs:
         if: success() || failure()
         run: |
           last_non_nightly_release_name="$(jq -r '.releases | map(select(contains("nightly") | not)) | last' <./gtnh-modpack.json)"
-          echo "nightly_non_nightly_changelog_file='./releases/changelogs/changelog from ${last_non_nightly_release_name} to nightly.md'" >> $GITHUB_ENV
-          echo "last_non_nightly_release_name='${last_non_nightly_release_name}'" >> $GITHUB_ENV
+          echo "nightly_non_nightly_changelog_file=./releases/changelogs/changelog from ${last_non_nightly_release_name} to nightly.md" >> $GITHUB_ENV
+          echo "last_non_nightly_release_name=${last_non_nightly_release_name}" >> $GITHUB_ENV
 
       - name: Generate changelog between nightly and last non-nightly release
         shell: bash
