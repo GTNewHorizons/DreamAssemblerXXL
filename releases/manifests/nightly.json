@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-11-19T03:11:16.855109",
+  "last_updated": "2024-11-20T03:09:31.520963",
   "config": "2.7.0-nightly-2024-11-17",
   "github_mods": {
     "AdventureBackpack2": {
@@ -501,7 +501,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.3.5",
+      "version": "1.3.6",
       "side": "BOTH"
     },
     "Super-TiC": {
