@@ -82,6 +82,21 @@ jobs:
           path: cache
           key: daxxl-${{ runner.os }}-${{ steps.date.outputs.cachedate }}
 
+      - name: Retrieve last non-nightly release name
+        shell: bash
+        if: success() || failure()
+        run: |
+          last_non_nightly_release_name="$(jq -r '.releases | map(select(contains("nightly") | not)) | last' <./gtnh-modpack.json)"
+          echo "nightly_non_nightly_changelog_file=./releases/changelogs/changelog from ${last_non_nightly_release_name} to nightly.md" >> $GITHUB_ENV
+          echo "last_non_nightly_release_name=${last_non_nightly_release_name}" >> $GITHUB_ENV
+
+      - name: Generate changelog between nightly and last non-nightly release
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
+        run: |
+          poetry run python -m gtnh.cli.generate_changelog --previous-release-name "$last_non_nightly_release_name" nightly > "$nightly_non_nightly_changelog_file"
+
       # Upload modpack
 
       - name: Upload manifest
@@ -172,6 +187,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config pull.rebase true
+          git add "$nightly_non_nightly_changelog_file"
           git add "./releases/changelogs/nightly builds"
           git add ./releases/manifests/nightly.json
           git add ./gtnh-assets.json
