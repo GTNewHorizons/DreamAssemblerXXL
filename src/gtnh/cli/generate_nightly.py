@@ -10,11 +10,15 @@ log = get_logger(__name__)
 
 @click.command()
 @click.option("--update-available", default=False, is_flag=True)
-async def generate_nightly(update_available: bool) -> None:
+@click.option("--id", "new_id", type=int, help="Set numeric ID for new nightly release")
+async def generate_nightly(update_available: bool, new_id: int) -> None:
     async with httpx.AsyncClient(http2=True) as client:
         m = GTNHModpackManager(client)
         existing_release = m.get_release("nightly")
-        m.increment_nightly_count()  # assets need to be uploaded even if the build crashes, it tracks the build id
+        if new_id:
+            m.set_nightly_id(new_id)
+        else:
+            m.increment_nightly_count()  # assets need to be uploaded even if the build crashes, it tracks the build id
         if not existing_release:
             raise ReleaseNotFoundException("Nightly release not found")
 

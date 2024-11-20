@@ -32,3 +32,7 @@ class InvalidReleaseException(Exception):
 
 class ReleaseNotFoundException(Exception):
     pass
+
+
+class InvalidNightlyIdException(Exception):
+    pass
