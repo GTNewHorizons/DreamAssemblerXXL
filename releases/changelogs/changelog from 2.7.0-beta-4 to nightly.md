@@ -1,3 +1,12 @@
+# Updated - AE2FluidCraft-Rework - 1.3.48-gtnh --> 1.3.49-gtnh
+## *1.3.49-gtnh*
+>## What's Changed
+>* Fix fluid is registered twice in crafting CPU by @hiroscho in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/237
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.48-gtnh...1.3.49-gtnh
+>
+
 # Updated - Angelica - 1.0.0-beta20 --> 1.0.0-beta22
 Mod is client-side only.
 ## *1.0.0-beta22*
@@ -23,7 +32,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta20...1.0.0-beta21
 >
 
-# Updated - BloodMagic - 1.6.7 --> 1.6.8
+# Updated - ArchitectureCraft - 1.10.1 --> 1.10.2
+## *1.10.2*
+>## What's Changed
+>* Fix irremovable window borders by @wlhlm in https://github.com/GTNewHorizons/ArchitectureCraft/pull/20
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.10.1...1.10.2
+>
+
+# Updated - BloodMagic - 1.6.7 --> 1.6.9
+## *1.6.9*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.6.8...1.6.9
+>
+
 ## *1.6.8*
 >## What's Changed
 >* Readd Meteor Filler by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/60
@@ -39,6 +61,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.13-GTNH...1.3.14-GTNH
 >
 
+# Updated - FindIt - 1.3.9 --> 1.3.10
+## *1.3.10*
+>## What's Changed
+>* Fix essentia search NPE by @wlhlm in https://github.com/GTNewHorizons/FindIt/pull/26
+>
+>## New Contributors
+>* @wlhlm made their first contribution in https://github.com/GTNewHorizons/FindIt/pull/26
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.3.9...1.3.10
+>
+
 # Updated - ForestryMC - 4.9.18 --> 4.9.19
 ## *4.9.19*
 >## What's Changed
@@ -48,8 +81,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 509.50.73
-## *509.50.73*
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.75
+## *5.09.50.75*
+>## What's Changed
+>* Reworked Fluid Shaper Parallels, Tooltip Cleanup, Structure Change by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3508
+>* Prevent LHE from consuming cold coolant by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3545
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.74...5.09.50.75
+>
+
+## *5.09.50.74*
+>## What's Changed
+>* Deprecate the Advanced Large Gas turbine by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3537
+>* Fix NEI preview for Implosion Compressor and Density^2 by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3522
+>* fix turbine overlay not being shown in NEI preview by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3530
+>* Fix SOFC Mk2 fuel efficiency by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3532
+>* Use ofBlocksTiered for steam water pump structure by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3521
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.73...5.09.50.74
+>
+
+## *5.09.50.73*
 >## What's Changed
 >* PA Recipe Removal by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3516
 >* Fix BHC overclocking too much with normal energy hatches by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3518
@@ -64,13 +118,15 @@ Mod is client-side only.
 >* Fix maintenance hatch right-click behavior from the wrong side. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3533
 >* Readd fluid inputs for HG-1223 in ABS by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3535
 >
->## New Contributors
->* @Ableytner made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3535
 >
->**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.72...509.50.73
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.72...5.09.50.73
 >
 
-# Updated - GTNH-Intergalactic - 1.4.25 --> 1.4.26
+# Updated - GTNH-Intergalactic - 1.4.25 --> 1.4.27
+## *1.4.27*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.26...1.4.27
+>
+
 ## *1.4.26*
 >## What's Changed
 >* Migrate to gtnhlib config by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/83
@@ -82,12 +138,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.25...1.4.26
 >
 
+# Updated - Hodgepodge - 2.5.79 --> 2.5.80
+## *2.5.80*
+>## What's Changed
+>* Update MixinGuiChat_OpenLinks.java by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/441
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.79...2.5.80
+>
+
 # Updated - Mobs-Info - 0.4.6-GTNH --> 0.4.7-GTNH
 ## *0.4.7-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.6-GTNH...0.4.7-GTNH
 >
 
-# Updated - ModularUI - 1.2.13 --> 1.2.15
+# Updated - ModularUI - 1.2.13 --> 1.2.16
+## *1.2.16*
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.2.15...1.2.16
+>
+
 ## *1.2.15*
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.2.14...1.2.15
 >
@@ -102,7 +171,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.2.13...1.2.14
 >
 
-# Updated - ModularUI2 - 2.1.14-1.7.10 --> 2.1.15-1.7.10
+# Updated - ModularUI2 - 2.1.14-1.7.10 --> 2.1.16-1.7.10
+## *2.1.16-1.7.10*
+><!-- Release notes generated using configuration in .github/release.yml at 2.1.16-1.7.10 -->
+>
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.15-1.7.10...2.1.16-1.7.10
+>
+
 ## *2.1.15-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.1.15-1.7.10 -->
 >
@@ -115,7 +192,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.14-1.7.10...2.1.15-1.7.10
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.6.79
+# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.6.82
+## *2.6.82*
+>## What's Changed
+>* Fixed amount in Good Circuit Recipe by @Nockyx in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1092
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.81...2.6.82
+>
+
+## *2.6.81*
+>## What's Changed
+>* Recipe for Portable Shower by @OmdaCZ in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1048
+>
+>## New Contributors
+>* @OmdaCZ made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1048
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.80...2.6.81
+>
+
+## *2.6.80*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.79...2.6.80
+>
+
 ## *2.6.79*
 >## What's Changed
 >* Changed HIP Unit Recipe by @Nockyx in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1088
@@ -132,5 +231,27 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.3.5...1.3.6
+>
+
+# Updated - ThaumicHorizons - 1.6.4 --> 1.6.5
+## *1.6.5*
+>## What's Changed
+>* make thaumic horizons listen to its config by @chochem in https://github.com/GTNewHorizons/ThaumicHorizons/pull/79
+>
+>## New Contributors
+>* @chochem made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/79
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.6.4...1.6.5
+>
+
+# Updated - TinkersConstruct - 1.12.15-GTNH --> 1.12.16-GTNH
+## *1.12.16-GTNH*
+>## What's Changed
+>* Orebush oredict tag fix by @Apeiria01 in https://github.com/GTNewHorizons/TinkersConstruct/pull/139
+>
+>## New Contributors
+>* @Apeiria01 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/139
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.12.15-GTNH...1.12.16-GTNH
 >
 
