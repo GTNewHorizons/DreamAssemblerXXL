@@ -41,6 +41,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.10.1...1.10.2
 >
 
+# Updated - BlockRenderer6343 - 1.2.14 --> 1.2.15
+## *1.2.15*
+>## What's Changed
+>* Show previews for multiblocks that contain searched item by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/22
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.14...1.2.15
+>
+
 # Updated - BloodMagic - 1.6.7 --> 1.6.9
 ## *1.6.9*
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.6.8...1.6.9
@@ -81,7 +90,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.76
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.77
+## *5.09.50.77*
+>## What's Changed
+>* Fix crash in Fishing Port when no recipe is found by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3547
+>* Renaming "Assembling Line" to "Assembly Line" by @CrystieColon3 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3548
+>
+>## New Contributors
+>* @CrystieColon3 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3548
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.76...5.09.50.77
+>
+
 ## *5.09.50.76*
 >## What's Changed
 >* Fix non-elemental plasma cells by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3543
@@ -206,7 +226,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.14-1.7.10...2.1.15-1.7.10
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.6.82
+# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.6.83
+## *2.6.83*
+>## What's Changed
+>* Add fallback string for close window dialog by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1087
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.82...2.6.83
+>
+
 ## *2.6.82*
 >## What's Changed
 >* Fixed amount in Good Circuit Recipe by @Nockyx in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1092
@@ -236,6 +264,17 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.78...2.6.79
+>
+
+# Updated - RemoteIO - 2.6.2 --> 2.6.3
+## *2.6.3*
+>## What's Changed
+>* Fix NPE in addInformation of Location Chip by @reobf in https://github.com/GTNewHorizons/RemoteIO/pull/16
+>
+>## New Contributors
+>* @reobf made their first contribution in https://github.com/GTNewHorizons/RemoteIO/pull/16
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.6.2...2.6.3
 >
 
 # Updated - StructureLib - 1.3.5 --> 1.3.6
