@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-11-23T22:03:56.508451",
+  "last_updated": "2024-11-24T03:22:07.626507",
   "config": "2.7.0-nightly-2024-11-23",
   "github_mods": {
     "AdventureBackpack2": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.75",
+      "version": "5.09.50.76",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
