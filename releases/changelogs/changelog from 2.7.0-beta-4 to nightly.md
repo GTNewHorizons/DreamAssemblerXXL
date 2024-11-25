@@ -1,4 +1,14 @@
-# Updated - AE2FluidCraft-Rework - 1.3.48-gtnh --> 1.3.49-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.48-gtnh --> 1.3.50-gtnh
+## *1.3.50-gtnh*
+>## What's Changed
+>* retain the priority setting of the fluid storage buses when wrenched by @boubou19 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/247
+>
+>## New Contributors
+>* @boubou19 made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/247
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.49-gtnh...1.3.50-gtnh
+>
+
 ## *1.3.49-gtnh*
 >## What's Changed
 >* Fix fluid is registered twice in crafting CPU by @hiroscho in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/237
@@ -30,6 +40,15 @@ Mod is client-side only.
 >* @Roadhog360 made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/728
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta20...1.0.0-beta21
+>
+
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-477-GTNH --> rv3-beta-478-GTNH
+## *rv3-beta-478-GTNH*
+>## What's Changed
+>* retain the priority setting of the storage buses when wrenched by @boubou19 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/615
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-477-GTNH...rv3-beta-478-GTNH
 >
 
 # Updated - ArchitectureCraft - 1.10.1 --> 1.10.2
@@ -90,7 +109,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.77
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.78
+## *5.09.50.78*
+>## What's Changed
+>* fix treetwister effect crash by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3549
+>* Clarify scanner readout on T7 water multi by @NotAPenguin0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3552
+>* readd missing condition by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3554
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.77...5.09.50.78
+>
+
 ## *5.09.50.77*
 >## What's Changed
 >* Fix crash in Fishing Port when no recipe is found by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3547
