@@ -42,6 +42,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta20...1.0.0-beta21
 >
 
+# Updated - AppleCore - 3.3.3 --> 3.3.4
+## *3.3.4*
+>## What's Changed
+>* Adjust CCL Mixin based on Version by @glowredman in https://github.com/GTNewHorizons/AppleCore/pull/32
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.3.3...3.3.4
+>
+
 # Updated - Applied-Energistics-2-Unofficial - rv3-beta-477-GTNH --> rv3-beta-478-GTNH
 ## *rv3-beta-478-GTNH*
 >## What's Changed
@@ -201,7 +210,26 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.25...1.4.26
 >
 
-# Updated - Hodgepodge - 2.5.79 --> 2.5.80
+# Updated - Gadomancy - 1.3.5 --> 1.3.6
+## *1.3.6*
+>## What's Changed
+>* Fix unsafe usage of FakePlayer in Infusion Claw by @reobf in https://github.com/GTNewHorizons/Gadomancy/pull/32
+>
+>## New Contributors
+>* @reobf made their first contribution in https://github.com/GTNewHorizons/Gadomancy/pull/32
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.5...1.3.6
+>
+
+# Updated - Hodgepodge - 2.5.79 --> 2.5.81
+## *2.5.81*
+>## What's Changed
+>* Prevent Massive World Destroying Sacred Rubber Tree Generation by @DrParadox7 in https://github.com/GTNewHorizons/Hodgepodge/pull/442
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.80...2.5.81
+>
+
 ## *2.5.80*
 >## What's Changed
 >* Update MixinGuiChat_OpenLinks.java by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/441
@@ -295,7 +323,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.78...2.6.79
 >
 
-# Updated - RemoteIO - 2.6.2 --> 2.6.3
+# Updated - RemoteIO - 2.6.2 --> 2.6.4
+## *2.6.4*
+>## What's Changed
+>* Fix TileRemoteInterface implementation by @reobf in https://github.com/GTNewHorizons/RemoteIO/pull/17
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.6.3...2.6.4
+>
+
 ## *2.6.3*
 >## What's Changed
 >* Fix NPE in addInformation of Location Chip by @reobf in https://github.com/GTNewHorizons/RemoteIO/pull/16
@@ -335,5 +371,14 @@ Mod is client-side only.
 >* @Apeiria01 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/139
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.12.15-GTNH...1.12.16-GTNH
+>
+
+# Updated - WarpTheory - 1.4.2-GTNH --> 1.4.3-GTNH
+## *1.4.3-GTNH*
+>## What's Changed
+>* Fix Portable Shower research name by @OmdaCZ in https://github.com/GTNewHorizons/WarpTheory/pull/44
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.4.2-GTNH...1.4.3-GTNH
 >
 
