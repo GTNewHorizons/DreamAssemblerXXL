@@ -17,8 +17,18 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.48-gtnh...1.3.49-gtnh
 >
 
-# Updated - Angelica - 1.0.0-beta20 --> 1.0.0-beta22
+# Updated - Angelica - 1.0.0-beta20 --> 1.0.0-beta23
 Mod is client-side only.
+## *1.0.0-beta23*
+>## What's Changed
+>* GLSL 120 Tweaks to Iris Shader Transformation by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/743
+>* Backport MemoryStack to reduce direct buffer allocations by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/751
+>* properly integrate mcpatcherforge connected textures + better grass by @kurrycat2004 in https://github.com/GTNewHorizons/Angelica/pull/745
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta22...1.0.0-beta23
+>
+
 ## *1.0.0-beta22*
 >## What's Changed
 >* Gracefully handle nested display list compilations in GLSM by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/744
@@ -118,7 +128,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.78
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.79
+## *5.09.50.79*
+>## What's Changed
+>* fix mar-ce recycling and make the logic cleaner by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3556
+>* Bring Item Holders' descriptions in line with other covers. by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3557
+>
+>## New Contributors
+>* @Miklebe made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3557
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.78...5.09.50.79
+>
+
 ## *5.09.50.78*
 >## What's Changed
 >* fix treetwister effect crash by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3549
@@ -283,7 +304,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.14-1.7.10...2.1.15-1.7.10
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.6.83
+# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.6.85
+## *2.6.85*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.84...2.6.85
+>
+
+## *2.6.84*
+>## What's Changed
+>* added preconfigured storage buses by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1093
+>* Add alt rubbers to conduit speed downgrade by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1094
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.83...2.6.84
+>
+
 ## *2.6.83*
 >## What's Changed
 >* Add fallback string for close window dialog by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1087
@@ -316,11 +350,11 @@ Mod is client-side only.
 
 ## *2.6.79*
 >## What's Changed
->* Changed HIP Unit Recipe by @Nockyx in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1088
->* Fix golem bell recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1089
+>* added preconfigured storage buses by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1093
+>* Add alt rubbers to conduit speed downgrade by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1094
 >
 >
->**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.78...2.6.79
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.83...2.6.79
 >
 
 # Updated - RemoteIO - 2.6.2 --> 2.6.4
