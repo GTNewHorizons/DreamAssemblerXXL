@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-11-28T03:21:54.583058",
-  "config": "2.7.0-nightly-2024-11-25",
+  "last_updated": "2024-11-28T19:11:06.333433",
+  "config": "2.7.0-nightly-2024-11-28",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.4-GTNH",
@@ -13,7 +13,7 @@
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.8.4-GTNH",
+      "version": "0.8.5-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.80",
+      "version": "5.09.50.81",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
