@@ -128,7 +128,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.79
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.80
+## *5.09.50.80*
+>## What's Changed
+>* Waterline fixes by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3558
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.79...5.09.50.80
+>
+
 ## *5.09.50.79*
 >## What's Changed
 >* fix mar-ce recycling and make the logic cleaner by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3556
@@ -264,7 +272,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.6-GTNH...0.4.7-GTNH
 >
 
-# Updated - ModularUI - 1.2.13 --> 1.2.16
+# Updated - ModularUI - 1.2.13 --> 1.2.17
+## *1.2.17*
+>## What's Changed
+>* Fix NEI item zoom with multiple mui windows by @serenibyss in https://github.com/GTNewHorizons/ModularUI/pull/88
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.2.16...1.2.17
+>
+
 ## *1.2.16*
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.2.15...1.2.16
 >
@@ -304,7 +320,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.14-1.7.10...2.1.15-1.7.10
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.6.85
+# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.6.86
+## *2.6.86*
+>## What's Changed
+>* Fix circuit oredict, nbt sensitivity on universe cells by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1095
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.85...2.6.86
+>
+
 ## *2.6.85*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.84...2.6.85
 >
