@@ -128,7 +128,24 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.80
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.81
+## *5.09.50.81*
+>## What's Changed
+>* Fix crash when configuring ender tank covers by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3562
+>* Fixed Wrong Antimatter Tooltip by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3564
+>* Fix UCFE Scanner Info by @CookieBrigade in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3566
+>* Update MTEIndustrialCompressor.java by @JMan-Zx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3563
+>* Godforge hangover by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3396
+>* Add info in the tooltip of the chemplant by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3559
+>* Restore missing wire recipes by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3567
+>* Fix fluid amount not updated in multiblock ui by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3561
+>
+>## New Contributors
+>* @JMan-Zx made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3563
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.80...5.09.50.81
+>
+
 ## *5.09.50.80*
 >## What's Changed
 >* Waterline fixes by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3558
@@ -223,7 +240,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.72...5.09.50.73
 >
 
-# Updated - GTNH-Intergalactic - 1.4.25 --> 1.4.27
+# Updated - GTNH-Intergalactic - 1.4.25 --> 1.4.28
+## *1.4.28*
+>## What's Changed
+>* Edit tooltip of certain space assembler modules by @Alexdoru in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/85
+>* Use GTNHLib lore holder by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/86
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.27...1.4.28
+>
+
 ## *1.4.27*
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.26...1.4.27
 >
@@ -237,6 +263,17 @@ Mod is client-side only.
 >* @lordIcocain made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/84
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.25...1.4.26
+>
+
+# Updated - GTNHLib - 0.5.20 --> 0.5.21
+## *0.5.21*
+>## What's Changed
+>* Move lore handler from intergalactic to gtnhlib by @serenibyss in https://github.com/GTNewHorizons/GTNHLib/pull/92
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/92
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.5.20...0.5.21
 >
 
 # Updated - Gadomancy - 1.3.5 --> 1.3.6
@@ -438,5 +475,16 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.4.2-GTNH...1.4.3-GTNH
+>
+
+# Updated - ae2stuff - 0.8.4-GTNH --> 0.8.5-GTNH
+## *0.8.5-GTNH*
+>## What's Changed
+>* Fix performance issue of the ae2 visualistation tool by @Alexdoru in https://github.com/GTNewHorizons/ae2stuff/pull/25
+>
+>## New Contributors
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ae2stuff/pull/25
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ae2stuff/compare/0.8.4-GTNH...0.8.5-GTNH
 >
 

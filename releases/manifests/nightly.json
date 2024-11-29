@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-11-28T19:11:06.333433",
+  "last_updated": "2024-11-29T03:21:09.216198",
   "config": "2.7.0-nightly-2024-11-28",
   "github_mods": {
     "AdventureBackpack2": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.5.20",
+      "version": "0.5.21",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.4.27",
+      "version": "1.4.28",
       "side": "BOTH"
     },
     "amunra": {
