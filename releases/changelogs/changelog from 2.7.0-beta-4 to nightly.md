@@ -128,7 +128,24 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.81
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.83
+## *5.09.50.83*
+>## What's Changed
+>* Fixing laser pipe connection issues when you place a pipe next to another one by @Cardinalstars in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3573
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.82...5.09.50.83
+>
+
+## *5.09.50.82*
+>## What's Changed
+>* remove maintenance hatch from TPM NEI preview by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3570
+>* Fix Laser Engraver NEI recipes by @kstvr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3572
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.81...5.09.50.82
+>
+
 ## *5.09.50.81*
 >## What's Changed
 >* Fix crash when configuring ender tank covers by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3562
@@ -304,6 +321,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.79...2.5.80
 >
 
+# Updated - MX-Random - 0.4.5 --> 0.4.6
+## *0.4.6*
+>## What's Changed
+>* Fix LMA shutdown and cable disconnection by @reobf in https://github.com/GTNewHorizons/MX-Random/pull/13
+>
+>## New Contributors
+>* @reobf made their first contribution in https://github.com/GTNewHorizons/MX-Random/pull/13
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.4.5...0.4.6
+>
+
 # Updated - Mobs-Info - 0.4.6-GTNH --> 0.4.7-GTNH
 ## *0.4.7-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.6-GTNH...0.4.7-GTNH
@@ -416,6 +444,17 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.83...2.6.79
+>
+
+# Updated - NotEnoughItems - 2.6.46-GTNH --> 2.6.47-GTNH
+## *2.6.47-GTNH*
+>## What's Changed
+>* Fix handler ordering config by @kstvr32 in https://github.com/GTNewHorizons/NotEnoughItems/pull/560
+>
+>## New Contributors
+>* @kstvr32 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/560
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.46-GTNH...2.6.47-GTNH
 >
 
 # Updated - RemoteIO - 2.6.2 --> 2.6.4
