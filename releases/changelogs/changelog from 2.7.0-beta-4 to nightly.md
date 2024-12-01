@@ -128,7 +128,28 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.83
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.85
+## *5.09.50.85*
+>## What's Changed
+>* Fix water overwriting other fluids in laser engraver by @GirixK in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3579
+>* Fix Living Crystal Chip progression skip using Beamline by @GirixK in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3580
+>* Fix Godforge NDPE upgrade description by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3568
+>* Frame fix (NEEDS TESTING) by @Cardinalstars in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3578
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.84...5.09.50.85
+>
+
+## *5.09.50.84*
+>## What's Changed
+>* prevent client side code being called server side by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3575
+>* fix many broken and incorrect recycling recipes and fixes several infinite material loops by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3576
+>* Fix turbines resetting to tight mode after server restart by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3577
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.83...5.09.50.84
+>
+
 ## *5.09.50.83*
 >## What's Changed
 >* Fixing laser pipe connection issues when you place a pipe next to another one by @Cardinalstars in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3573
