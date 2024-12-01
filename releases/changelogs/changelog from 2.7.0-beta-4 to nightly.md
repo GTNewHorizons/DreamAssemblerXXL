@@ -128,7 +128,34 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.85
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.88
+## *5.09.50.88*
+>## What's Changed
+>* Fix scanning calculations/optimal flow metrics of turbines by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3574
+>* Fix Iron III Chloride chemical formula tooltip by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3587
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.87...5.09.50.88
+>
+
+## *5.09.50.87*
+>## What's Changed
+>* Fix ME Output Hatch void protection checks by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3585
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.86...5.09.50.87
+>
+
+## *5.09.50.86*
+>## What's Changed
+>* Waterline + Gorge tooltip formatting changes by @CrystieColon3 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3582
+>* Minor Godforge fixes by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3583
+>* remove tooltip wrong information from HILE by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3584
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.85...5.09.50.86
+>
+
 ## *5.09.50.85*
 >## What's Changed
 >* Fix water overwriting other fluids in laser engraver by @GirixK in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3579
@@ -325,7 +352,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.5...1.3.6
 >
 
-# Updated - Hodgepodge - 2.5.79 --> 2.5.81
+# Updated - Hodgepodge - 2.5.79 --> 2.5.82
+## *2.5.82*
+>## What's Changed
+>* Split FixHandleSetSlot into container & inv by @RecursivePineapple in https://github.com/GTNewHorizons/Hodgepodge/pull/444
+>
+>## New Contributors
+>* @RecursivePineapple made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/444
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.81...2.5.82
+>
+
 ## *2.5.81*
 >## What's Changed
 >* Prevent Massive World Destroying Sacred Rubber Tree Generation by @DrParadox7 in https://github.com/GTNewHorizons/Hodgepodge/pull/442
@@ -467,7 +504,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.83...2.6.79
 >
 
-# Updated - NotEnoughItems - 2.6.46-GTNH --> 2.6.47-GTNH
+# Updated - NotEnoughItems - 2.6.46-GTNH --> 2.6.48-GTNH
+## *2.6.48-GTNH*
+>## What's Changed
+>* fix the handlerordering.csv being empty when created by @Alexdoru in https://github.com/GTNewHorizons/NotEnoughItems/pull/561
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.47-GTNH...2.6.48-GTNH
+>
+
 ## *2.6.47-GTNH*
 >## What's Changed
 >* Fix handler ordering config by @kstvr32 in https://github.com/GTNewHorizons/NotEnoughItems/pull/560
