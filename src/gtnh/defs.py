@@ -26,6 +26,9 @@ RELEASE_CHANGELOG_NIGHTLY_BUILDS_DIR = RELEASE_CHANGELOG_DIR / "nightly builds"
 RELEASE_README_DIR = RELEASE_DIR / "readmes"
 
 SERVER_ASSETS_DIR = ROOT_DIR / "server_assets"
+CLIENT_ASSETS_DIR = ROOT_DIR / "client_assets"
+
+MMC_ASSETS_DIR = CLIENT_ASSETS_DIR / "multi_poly"
 
 TRANSLATION_DIR = ROOT_DIR / "translations"
 
@@ -90,7 +93,7 @@ OverrideJavaLocation=false
 OverrideMemory=false
 OverrideNativeWorkarounds=false
 OverrideWindow=false
-iconKey=default
+iconKey=gtnh_icon
 name={}
 notes=
 """
