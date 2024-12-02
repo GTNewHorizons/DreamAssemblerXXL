@@ -5,7 +5,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
-from gtnh.defs import JAVA_9_ARCHIVE_SUFFIX, MMC_PACK_INSTANCE, MMC_PACK_JSON, RELEASE_MMC_DIR, Side
+from gtnh.defs import JAVA_9_ARCHIVE_SUFFIX, MMC_ASSETS_DIR, MMC_PACK_INSTANCE, MMC_PACK_JSON, RELEASE_MMC_DIR, Side
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
@@ -143,3 +143,6 @@ class MMCAssembler(GenericAssembler):
             archive.writestr(
                 str(self.mmc_archive_root) + "/instance.cfg", MMC_PACK_INSTANCE.format(f"GTNH {self.release.version}")
             )
+            with archive.open(str(self.mmc_archive_root) + "/gtnh_icon.png", "w") as target:
+                with open(MMC_ASSETS_DIR / "gtnh_icon.png", "rb") as icon:
+                    shutil.copyfileobj(icon, target)
