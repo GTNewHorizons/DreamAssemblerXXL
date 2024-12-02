@@ -128,7 +128,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.88
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.90
+## *5.09.50.90*
+>## What's Changed
+>* Fixed infinite oil rig getting stuck by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3589
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.89...5.09.50.90
+>
+
+## *5.09.50.89*
+>## What's Changed
+>* Fix crystal seeds recipes by @OneEyeMaker in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3588
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.88...5.09.50.89
+>
+
 ## *5.09.50.88*
 >## What's Changed
 >* Fix scanning calculations/optimal flow metrics of turbines by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3574
@@ -443,7 +459,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.14-1.7.10...2.1.15-1.7.10
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.6.86
+# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.6.87
+## *2.6.87*
+>## What's Changed
+>* Rebalance new Neutronium Compressor casing by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1097
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.86...2.6.87
+>
+
 ## *2.6.86*
 >## What's Changed
 >* Fix circuit oredict, nbt sensitivity on universe cells by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1095
@@ -571,6 +595,17 @@ Mod is client-side only.
 >* @Apeiria01 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/139
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.12.15-GTNH...1.12.16-GTNH
+>
+
+# Updated - TravellersGearNeo - 1.2.2 --> 1.2.3
+## *1.2.3*
+>## What's Changed
+>* Fix ability radial menu unexpectedly grabbing focus by @wlhlm in https://github.com/GTNewHorizons/TravellersGearNeo/pull/3
+>
+>## New Contributors
+>* @wlhlm made their first contribution in https://github.com/GTNewHorizons/TravellersGearNeo/pull/3
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TravellersGearNeo/compare/1.2.2...1.2.3
 >
 
 # Updated - WarpTheory - 1.4.2-GTNH --> 1.4.3-GTNH
