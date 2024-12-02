@@ -296,9 +296,13 @@ class GTNHModpackManager:
 
         for release in sorted_releases:
             if asset.has_version(release.tag_name):
-                # We don't support updating of tagged versions, so if we see a version we already have, skip it
-                # and the rest of the versions
-                break
+                if for_translation:
+                    # Just skip it if we find a duplicate translation release, don't bail entirely
+                    continue
+                else:
+                    # We don't support updating of tagged versions, so if we see a version we already have, skip it
+                    # and the rest of the versions
+                    break
 
             version = version_from_release(release, asset.type)
             if not version:
@@ -308,16 +312,16 @@ class GTNHModpackManager:
                 )
                 continue
 
-            if not for_translation and version_is_newer(version.version_tag, asset.latest_version):
+            if for_translation:
                 log.info(
-                    f"Updating latest version for `{Fore.CYAN}{asset.name}{Fore.RESET}` "
-                    f"{Style.DIM}{Fore.GREEN}{asset.latest_version}{Style.RESET_ALL} -> "
+                    f"Updating version for `{Fore.CYAN}{asset.name}{Fore.RESET}` -> "
                     f"{Fore.GREEN}{version.version_tag}{Style.RESET_ALL}"
                 )
                 asset.latest_version = version.version_tag
-            elif for_translation:
+            elif version_is_newer(version.version_tag, asset.latest_version):
                 log.info(
-                    f"Updating version for `{Fore.CYAN}{asset.name}{Fore.RESET}` -> "
+                    f"Updating latest version for `{Fore.CYAN}{asset.name}{Fore.RESET}` "
+                    f"{Style.DIM}{Fore.GREEN}{asset.latest_version}{Style.RESET_ALL} -> "
                     f"{Fore.GREEN}{version.version_tag}{Style.RESET_ALL}"
                 )
                 asset.latest_version = version.version_tag
