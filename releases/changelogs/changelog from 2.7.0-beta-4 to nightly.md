@@ -17,8 +17,20 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.48-gtnh...1.3.49-gtnh
 >
 
-# Updated - Angelica - 1.0.0-beta20 --> 1.0.0-beta23
+# Updated - Angelica - 1.0.0-beta20 --> 1.0.0-beta24
 Mod is client-side only.
+## *1.0.0-beta24*
+>## What's Changed
+>* Null check frametime mixin by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/756
+>* add missing Pipeline::syncProgram for glCallList by @kurrycat2004 in https://github.com/GTNewHorizons/Angelica/pull/762
+>* Refresh Notfine options on world load by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/760
+>* add missing GL calls in GLStateManager by @kurrycat2004 in https://github.com/GTNewHorizons/Angelica/pull/767
+>* Set render distance for mob inside mod spawner to 16 blocks by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/761
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta23...1.0.0-beta24
+>
+
 ## *1.0.0-beta23*
 >## What's Changed
 >* GLSL 120 Tweaks to Iris Shader Transformation by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/743
@@ -128,7 +140,24 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.90
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.92
+## *5.09.50.92*
+>## What's Changed
+>* Fix ME output hatch void protection again by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3594
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.91...5.09.50.92
+>
+
+## *5.09.50.91*
+>## What's Changed
+>* Extend render range by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3591
+>* Add proper render bounding box for Godforge by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3593
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.90...5.09.50.91
+>
+
 ## *5.09.50.90*
 >## What's Changed
 >* Fixed infinite oil rig getting stuck by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3589
