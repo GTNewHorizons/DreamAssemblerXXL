@@ -94,7 +94,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
             state=DISABLED,
         )
         self.btn_generate_all: CustomButton = CustomButton(
-            self.frame_btn, text="Generate update_all archives", command=callbacks.all, themed=self.themed
+            self.frame_btn, text="Generate full update", command=callbacks.all, themed=self.themed
         )
         self.btn_update_nightly: CustomButton = CustomButton(
             self.frame_btn, text="Update nightly", command=update_nightly, themed=self.themed
