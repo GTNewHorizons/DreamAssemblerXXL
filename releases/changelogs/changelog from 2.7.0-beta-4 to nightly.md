@@ -140,7 +140,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.92
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.93
+## *5.09.50.93*
+>## What's Changed
+>* Fix missing null check in output fluids UI info by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3596
+>* Fix ME output hatch partial voiding multi fluid output by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3597
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.92...5.09.50.93
+>
+
 ## *5.09.50.92*
 >## What's Changed
 >* Fix ME output hatch void protection again by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3594
@@ -350,7 +359,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.72...5.09.50.73
 >
 
-# Updated - GTNH-Intergalactic - 1.4.25 --> 1.4.28
+# Updated - GTNH-Intergalactic - 1.4.25 --> 1.4.30
+## *1.4.30*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.29...1.4.30
+>
+
+## *1.4.29*
+>## What's Changed
+>* Show elevator extension in NEI render by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/87
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.28...1.4.29
+>
+
 ## *1.4.28*
 >## What's Changed
 >* Edit tooltip of certain space assembler modules by @Alexdoru in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/85
@@ -557,7 +578,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.83...2.6.79
 >
 
-# Updated - NotEnoughItems - 2.6.46-GTNH --> 2.6.48-GTNH
+# Updated - NotEnoughItems - 2.6.46-GTNH --> 2.6.49-GTNH
+## *2.6.49-GTNH*
+>## What's Changed
+>* Fix mob spawners spawning mobs at world 0 0 0 by @Alexdoru in https://github.com/GTNewHorizons/NotEnoughItems/pull/563
+>* Fix Zoom Position in Right Panel by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/559
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.48-GTNH...2.6.49-GTNH
+>
+
 ## *2.6.48-GTNH*
 >## What's Changed
 >* fix the handlerordering.csv being empty when created by @Alexdoru in https://github.com/GTNewHorizons/NotEnoughItems/pull/561
@@ -595,6 +625,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.6.2...2.6.3
 >
 
+# Updated - StorageDrawers - 2.0.3-GTNH --> 2.0.5-GTNH
+## *2.0.5-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.0.4-GTNH...2.0.5-GTNH
+>
+
+## *2.0.4-GTNH*
+>## What's Changed
+>* Thread Safe Rendering Fixes by @Cleptomania in https://github.com/GTNewHorizons/StorageDrawers/pull/38
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.0.3-GTNH...2.0.4-GTNH
+>
+
 # Updated - StructureLib - 1.3.5 --> 1.3.6
 ## *1.3.6*
 >## What's Changed
@@ -626,7 +669,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.12.15-GTNH...1.12.16-GTNH
 >
 
-# Updated - TravellersGearNeo - 1.2.2 --> 1.2.3
+# Updated - TravellersGearNeo - 1.2.2 --> 1.2.4
+## *1.2.4*
+>## What's Changed
+>* Fix ability radial menu unexpectedly grabbing focus by @wlhlm in https://github.com/GTNewHorizons/TravellersGearNeo/pull/3
+>
+>## New Contributors
+>* @wlhlm made their first contribution in https://github.com/GTNewHorizons/TravellersGearNeo/pull/3
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TravellersGearNeo/compare/1.2.2...1.2.4
+>
+
 ## *1.2.3*
 >## What's Changed
 >* Fix ability radial menu unexpectedly grabbing focus by @wlhlm in https://github.com/GTNewHorizons/TravellersGearNeo/pull/3
