@@ -81,15 +81,17 @@ class ReleaseAssembler:
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         """
-        Method called to assemble the release for all the supports.
+        Method called to assemble the release for all the supported platforms.
 
         :param side: the target side
         :param verbose: bool flag enabling verbose mod
         :return: None
         """
 
-        if side not in {side.CLIENT, side.SERVER}:
-            raise ValueError(f"Only valid sides are {Side.CLIENT} or {Side.SERVER}, got {side}")
+        if side not in {side.CLIENT, side.CLIENT_JAVA9, side.SERVER, side.SERVER_JAVA9}:
+            raise ValueError(
+                f"Only valid sides are {Side.CLIENT}/{Side.CLIENT_JAVA9} or {Side.SERVER}/{Side.SERVER_JAVA9}, got {side}"
+            )
 
         if self.current_task_reset_callback is not None:
             self.current_task_reset_callback()
@@ -108,12 +110,16 @@ class ReleaseAssembler:
             assemblers_client if side.is_client() else assemblers_server
         )
 
-        for plateform, assembling in assemblers.items():
+        for platform, assembling in assemblers.items():
+            if side.is_java9() and platform in [Archive.TECHNIC, Archive.CURSEFORGE]:
+                # Java 9 is currently not supported on Technic and Curse
+                continue
+
             if self.current_task_reset_callback is not None:
                 self.current_task_reset_callback()
 
             if self.callback:
-                self.callback(self.get_progress(), f"Assembling {side} {plateform} archive")  # type: ignore
+                self.callback(self.get_progress(), f"Assembling {side} {platform} archive")  # type: ignore
             await assembling(side, verbose)
 
         # TODO: Remove when the maven urls are calculated on add, instead of in curse
@@ -169,6 +175,7 @@ class ReleaseAssembler:
         """
         await self.technic_assembler.assemble(side, verbose)
 
+    # Changes to this method may need updates to utils.compress_changelog()
     def generate_changelog(self) -> Path:
         """
         Method to generate the changelog of a release.
