@@ -184,6 +184,9 @@ def compress_changelog(file_path: Path) -> None:
                     current_version = line[4:-1]
                 elif line.startswith(">* "):
                     if in_changes_mode:
+                        match = re.search(r"by (@\S+) in http.*$", line)
+                        if match:
+                            current_entry.contributors.add(match.group(1))
                         current_entry.changes.append(f"{line[3:]} ({current_version})")
                     else:
                         current_entry.new_contributors.append(f"{line[3:]} ({current_version})")
@@ -203,9 +206,10 @@ def compress_changelog(file_path: Path) -> None:
     with open(file_path, "w") as file:
         for line in initial_lines:
             file.write(line + "\n")
-        new_contributors = set()
+        contributors = set()
         lines = []
         for ent in entries:
+
             if ent.is_new:
                 lines.append("# New Mod - " + ent.name + " (" + ent.version + ")\n")
             else:
@@ -242,21 +246,20 @@ def compress_changelog(file_path: Path) -> None:
                     lines.append("> * " + ch + "\n")
                 lines.append(">\n")
 
-            if ent.new_contributors:
-                # file.write(">## New Contributors\n")
-                for nc in ent.new_contributors:
-                    name = nc.split(" ")[0]
-                    if name.startswith("@"):
-                        new_contributors.add(name)
-                # file.write(">\n")
+            if ent.contributors:
+                contributors.update(ent.contributors)
 
             lines.append("\n")
         if len(lines) == 0:
             lines.append("# Nothing changed this time!")
-        elif len(new_contributors) > 0:
+        elif len(contributors) > 0:
             lines.append("# Credits\n")
             lines.append(
-                f"A special thanks to {', '.join(sorted(list(new_contributors)))}, who contributed to this release!"
+                (
+                    f"Special thanks to {', '.join(sorted(list(contributors)))}, "
+                    "for their code contributions listed above, and to everyone else who helped, "
+                    "including all of our beta testers! <3"
+                )
             )
 
         for line in lines:

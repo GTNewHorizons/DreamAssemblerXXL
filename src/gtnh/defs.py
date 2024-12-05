@@ -222,6 +222,7 @@ class ModEntry:
         self.version: str = version
         self.is_new: bool = is_new
         self.changes: List[str] = []
+        self.contributors: Set[str] = set()
         self.new_contributors: List[str] = []
         self.oldest_link_version = ""
         self.newest_link_version = ""

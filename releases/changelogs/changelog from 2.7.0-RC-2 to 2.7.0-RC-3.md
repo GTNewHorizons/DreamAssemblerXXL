@@ -66,4 +66,4 @@
 >
 
 # Credits
-A special thanks to @Ableytner, @wlhlm, who contributed to this release!
+Special thanks to @Ableytner, @Alexdoru, @Cleptomania, @Connor-Colenso, @FourIsTheNumber, @Glease, @ah-OOG-ah, @kurrycat2004, @lordIcocain, @serenibyss, @slprime, @wlhlm, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
