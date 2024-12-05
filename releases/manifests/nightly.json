@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-12-05T03:25:01.518262",
-  "config": "2.7.0-nightly-2024-12-03",
+  "last_updated": "2024-12-05T12:48:06.460753",
+  "config": "2.7.0-nightly-2024-12-05",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.4-GTNH",
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.2.5-GTNH",
+      "version": "3.2.7-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.93",
+      "version": "5.09.50.95",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -641,7 +641,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.2.15",
+      "version": "1.2.16",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.1.4",
+      "version": "2.1.5",
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {

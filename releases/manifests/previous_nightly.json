@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-12-02T17:47:52.827475",
-  "config": "2.7.0-nightly-2024-12-02",
+  "last_updated": "2024-12-05T03:25:01.518262",
+  "config": "2.7.0-nightly-2024-12-03",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.4-GTNH",
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.92",
+      "version": "5.09.50.93",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -385,7 +385,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.6.48-GTNH",
+      "version": "2.6.49-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -493,7 +493,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.0.3-GTNH",
+      "version": "2.0.5-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -717,11 +717,11 @@
       "side": "BOTH_JAVA9"
     },
     "TravellersGearNeo": {
-      "version": "1.2.3",
+      "version": "1.2.4",
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.4.28",
+      "version": "1.4.30",
       "side": "BOTH"
     },
     "amunra": {
@@ -773,7 +773,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta23",
+      "version": "1.0.0-beta24",
       "side": "CLIENT"
     },
     "AkashicTome": {
