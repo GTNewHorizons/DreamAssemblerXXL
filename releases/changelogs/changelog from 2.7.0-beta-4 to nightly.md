@@ -91,7 +91,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.10.1...1.10.2
 >
 
-# Updated - BlockRenderer6343 - 1.2.14 --> 1.2.15
+# Updated - BlockRenderer6343 - 1.2.14 --> 1.2.16
+## *1.2.16*
+>## What's Changed
+>* Show NEI preview for GoodGenerator and GTNH-Lanthanides by @Ableytner in https://github.com/GTNewHorizons/BlockRenderer6343/pull/24
+>
+>## New Contributors
+>* @Ableytner made their first contribution in https://github.com/GTNewHorizons/BlockRenderer6343/pull/24
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.15...1.2.16
+>
+
 ## *1.2.15*
 >## What's Changed
 >* Show previews for multiblocks that contain searched item by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/22
@@ -140,7 +150,42 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.93
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.97
+## *5.09.50.97*
+>## What's Changed
+>* LaB6 Recycling Recipes by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3604
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.96...5.09.50.97
+>
+
+## *5.09.50.96*
+>## What's Changed
+>* Fix dense vs regular SC Steam difference by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3602
+>* Fix nether quartz block conflict by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3603
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.95...5.09.50.96
+>
+
+## *5.09.50.95*
+>## What's Changed
+>* turbine overlay follow up by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3550
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.94...5.09.50.95
+>
+
+## *5.09.50.94*
+>## What's Changed
+>* Add an animated texture to brewery multi by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3598
+>* Fix uxv wrap recipe by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3599
+>* try fix NPE in yotta tank by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3600
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.93...5.09.50.94
+>
+
 ## *5.09.50.93*
 >## What's Changed
 >* Fix missing null check in output fluids UI info by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3596
@@ -418,6 +463,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.5...1.3.6
 >
 
+# Updated - Galacticraft - 3.2.5-GTNH --> 3.2.7-GTNH
+## *3.2.7-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.2.6-GTNH...3.2.7-GTNH
+>
+
+## *3.2.6-GTNH*
+>## What's Changed
+>* fix not force sending frequency module status by @Glease in https://github.com/GTNewHorizons/Galacticraft/pull/94
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.2.5-GTNH...3.2.6-GTNH
+>
+
 # Updated - Hodgepodge - 2.5.79 --> 2.5.82
 ## *2.5.82*
 >## What's Changed
@@ -578,7 +636,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.83...2.6.79
 >
 
-# Updated - NotEnoughItems - 2.6.46-GTNH --> 2.6.49-GTNH
+# Updated - NotEnoughItems - 2.6.46-GTNH --> 2.6.50-GTNH
+## *2.6.50-GTNH*
+>## What's Changed
+>* Fix restoring collapsible items state by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/564
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.49-GTNH...2.6.50-GTNH
+>
+
 ## *2.6.49-GTNH*
 >## What's Changed
 >* Fix mob spawners spawning mobs at world 0 0 0 by @Alexdoru in https://github.com/GTNewHorizons/NotEnoughItems/pull/563
@@ -708,5 +774,14 @@ Mod is client-side only.
 >* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ae2stuff/pull/25
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ae2stuff/compare/0.8.4-GTNH...0.8.5-GTNH
+>
+
+# Updated - lwjgl3ify - 2.1.4 --> 2.1.5
+## *2.1.5*
+>## What's Changed
+>* Reduce buffer allocations by @ah-OOG-ah in https://github.com/GTNewHorizons/lwjgl3ify/pull/190
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.4...2.1.5
 >
 
