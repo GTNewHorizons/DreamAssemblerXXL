@@ -77,16 +77,16 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         self.callbacks: ButtonArrayCallback = callbacks
 
         self.btn_client_cf: CustomButton = CustomButton(
-            self.frame_btn, text="CurseForge client archive", command=callbacks.client_curse, themed=self.themed
+            self.frame_btn, text="CurseForge archive", command=callbacks.client_curse, themed=self.themed
         )
         self.btn_client_technic: CustomButton = CustomButton(
-            self.frame_btn, text="Technic client archive", command=callbacks.client_technic, themed=self.themed
+            self.frame_btn, text="Technic archive", command=callbacks.client_technic, themed=self.themed
         )
         self.btn_client_mmc: CustomButton = CustomButton(
-            self.frame_btn, text="MultiMC client archive", command=callbacks.client_mmc, themed=self.themed
+            self.frame_btn, text="MMC like archive", command=callbacks.client_mmc, themed=self.themed
         )
         self.btn_client_mmc_j9: CustomButton = CustomButton(
-            self.frame_btn, text="Java 9+ Prism archive", command=callbacks.client_mmc_j9, themed=self.themed
+            self.frame_btn, text="Java 9+ MMC like archive", command=callbacks.client_mmc_j9, themed=self.themed
         )
         self.btn_client_modrinth: CustomButton = CustomButton(
             self.frame_btn,
@@ -96,13 +96,13 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
             state=DISABLED,
         )
         self.btn_generate_all: CustomButton = CustomButton(
-            self.frame_btn, text="Generate full update", command=callbacks.all, themed=self.themed
+            self.frame_btn, text="Generate stable release", command=callbacks.all, themed=self.themed
         )
         self.btn_generate_beta: CustomButton = CustomButton(
             self.frame_btn, text="Generate beta/RC release", command=callbacks.beta, themed=self.themed
         )
         self.btn_update_nightly: CustomButton = CustomButton(
-            self.frame_btn, text="Update nightly", command=update_nightly, themed=self.themed
+            self.frame_btn, text="Update nightly profile", command=update_nightly, themed=self.themed
         )
         self.btn_update_assets: CustomButton = CustomButton(
             self.frame_btn, text="Update assets", command=callbacks.update_assets, themed=self.themed
