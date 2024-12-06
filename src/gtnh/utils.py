@@ -176,7 +176,9 @@ def compress_changelog(file_path: Path) -> None:
                 in_changes_mode = False
                 entries.append(current_entry)
             elif current_entry:
-                if line == ">## What's Changed":
+                if line.startswith("Mod is ") or line.startswith("Mod side changed from "):
+                    current_entry.side_info = line
+                elif line == ">## What's Changed":
                     in_changes_mode = True
                 elif line == ">## New Contributors":
                     in_changes_mode = False
@@ -216,6 +218,9 @@ def compress_changelog(file_path: Path) -> None:
                 lines.append(
                     "# Updated " + ent.name + " (" + re.sub("^(.*)\\.\\.\\.(.*)$", r"\1 --> \2", ent.version) + ")\n"
                 )
+
+            if ent.side_info != "":
+                lines.append(ent.side_info + "\n")
 
             if ent.is_new or ent.newest_link_version == "":
                 lines.append(

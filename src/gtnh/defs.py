@@ -220,6 +220,7 @@ class ModEntry:
     def __init__(self, name: str, version: str, is_new: bool) -> None:
         self.name: str = name
         self.version: str = version
+        self.side_info: str = ""
         self.is_new: bool = is_new
         self.changes: List[str] = []
         self.contributors: Set[str] = set()
