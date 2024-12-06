@@ -11,7 +11,7 @@ log = get_logger(__name__)
 
 
 @click.command()
-@click.argument("side", type=click.Choice([Side.CLIENT, Side.SERVER]))
+@click.argument("side", type=click.Choice([Side.CLIENT, Side.CLIENT_JAVA9, Side.SERVER, Side.SERVER_JAVA9]))
 @click.argument("release_name")
 @click.option("--verbose", default=False, is_flag=True)
 async def assemble_release(side: Side, release_name: str, verbose: bool) -> None:
