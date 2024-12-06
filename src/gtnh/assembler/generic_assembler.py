@@ -121,46 +121,51 @@ class GenericAssembler:
         mods: List[Tuple[GTNHModInfo, GTNHVersion]] = github_mods + external_mods
         return mods
 
-    def external_mods(self, valid_sides: Set[Side]) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
+    def external_mods(self, valid_sides: Set[Side], release:Optional[GTNHRelease]=None) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the external mod info objects as well as their targetted version.
 
         :param valid_sides: a set of valid sides to retrieve the mods from.
+        :param release: if specified, the release version to get data from instead of the one used for the assembling.
         """
         get_mod: Callable[
             [str, ModVersionInfo, Set[Side], ModSource],
             Optional[tuple[Union[GTNHModInfo], GTNHVersion]],
         ] = self.modpack_manager.assets.get_mod_and_version
 
+        release = self.release if release is None else release
+
         external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = list(
             filter(
                 None,
                 [
                     get_mod(name, version, valid_sides, ModSource.other)
-                    for name, version in self.release.external_mods.items()
+                    for name, version in release.external_mods.items()
                 ],
             )
         )
 
         return external_mods
 
-    def github_mods(self, valid_sides: Set[Side]) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
+    def github_mods(self, valid_sides: Set[Side], release:Optional[GTNHRelease]=None) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the github mod info objects as well as their targetted version.
 
         :param valid_sides: a set of valid sides to retrieve the mods from.
+        :param release: if specified, the release version to get data from instead of the one used for the assembling.
         """
         get_mod: Callable[
             [str, ModVersionInfo, Set[Side], ModSource],
             Optional[tuple[GTNHModInfo, GTNHVersion]],
         ] = self.modpack_manager.assets.get_mod_and_version
+        release = self.release if release is None else release
 
         github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = list(
             filter(
                 None,
                 [
                     get_mod(name, version, valid_sides, ModSource.github)
-                    for name, version in self.release.github_mods.items()
+                    for name, version in release.github_mods.items()
                 ],
             )
         )

@@ -967,12 +967,48 @@ class GTNHModpackManager:
         for false_positive in false_added_mods:
             added_mods.remove(false_positive)
 
+    def get_removed_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> Set[str]:
+        """
+        Generate the list of removed mods between two releases.
+
+        :returns: set[str]
+        """
+        removed_mods = set()
+        new_mods = set()
+
+        removed_mods |= set(previous_release.github_mods.keys() - release.github_mods.keys())
+        removed_mods |= set(previous_release.external_mods.keys() - release.external_mods.keys())
+
+        new_mods |= set(release.github_mods.keys() - previous_release.github_mods.keys())
+        new_mods |= set(release.external_mods.keys() - previous_release.external_mods.keys())
+
+        self.remove_false_positive_in_mod_removed(removed_mods, new_mods)
+        return removed_mods
+
+    def get_new_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> Set[str]:
+        """
+        Generate the list of new mods between two releases.
+
+        :returns: set[str]
+        """
+        removed_mods = set()
+        new_mods = set()
+
+        removed_mods |= set(previous_release.github_mods.keys() - release.github_mods.keys())
+        removed_mods |= set(previous_release.external_mods.keys() - release.external_mods.keys())
+
+        new_mods |= set(release.github_mods.keys() - previous_release.github_mods.keys())
+        new_mods |= set(release.external_mods.keys() - previous_release.external_mods.keys())
+
+        self.remove_false_positive_in_mod_removed(removed_mods, new_mods)
+        return new_mods
+
     def get_changed_mods(self, release: GTNHRelease, previous_release: GTNHRelease) -> Set[str]:
         """
         Generate the list of updated/added mods between two releases. If the `previous_release` is None, generate
-        it for all of history.
+        it for all history.
 
-        :returns: dict[mod_name, list[version_changes]]
+        :returns: set[str]
         """
         removed_mods = set()
         new_mods = set()
