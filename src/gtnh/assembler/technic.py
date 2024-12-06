@@ -96,12 +96,17 @@ class TechnicAssembler(GenericAssembler):
 
     def partial_mods(self, side: Side) -> list[Tuple[GTNHModInfo, GTNHVersion]]:
         valid_sides: Set[Side] = side.valid_mod_sides()
+        j9_sides: Set[Side] = {Side.CLIENT_JAVA9, Side.BOTH_JAVA9}
 
         github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
         github_mods_names = [x[0].name for x in github_mods]
+        github_mods_j9: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(j9_sides)
+        github_mods_names_j9 = [x[0].name for x in github_mods_j9]
 
         external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides)
         external_mods_names = [x[0].name for x in external_mods]
+        external_mods_j9: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(j9_sides)
+        external_mods_names_j9 = [x[0].name for x in external_mods_j9]
 
         last_version: GTNHRelease = self.modpack_manager.get_release(self.release.last_version)  # type: ignore
 
@@ -115,9 +120,13 @@ class TechnicAssembler(GenericAssembler):
                 mod_index = external_mods_names.index(mod_name)
                 mods.append(external_mods[mod_index])
             else:
-                log.warn(
-                    f"Mod {mod_name} was detected as an updated mod" ", but is not a github mod nor an external one"
-                )
+
+                if side == Side.CLIENT and (mod_name in github_mods_names_j9 or mod_name in external_mods_names_j9):
+                    log.warn(f"Mod {mod_name} is a java 9+ mod but currently packing only java 8 mods. Skipping it.")
+                else:
+                    log.warn(
+                        f"Mod {mod_name} was detected as an updated mod" ", but is not a github mod nor an external one"
+                    )
 
         return mods
 
