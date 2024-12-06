@@ -22,6 +22,7 @@ class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
         client_modrinth: Callable[[], Task[None]],
         client_technic: Callable[[], Task[None]],
         update_all: Callable[[], Task[None]],
+        update_beta: Callable[[], Task[None]],
         load: Callable[[str], Task[None]],
         delete: Callable[[str], Task[None]],
         add: Callable[[str, str], Task[None]],
@@ -39,6 +40,7 @@ class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
             client_modrinth=client_modrinth,
             client_technic=client_technic,
             update_all=update_all,
+            update_beta=update_beta
         )
 
         ReleaseListCallback.__init__(self, load=load, delete=delete, add=add)

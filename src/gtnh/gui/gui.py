@@ -119,6 +119,7 @@ class Window(ThemedTk, Tk):
             client_modrinth=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.MODRINTH)),
             client_technic=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.TECHNIC)),
             update_all=lambda: asyncio.ensure_future(self.assemble_all()),
+            update_beta=lambda: asyncio.ensure_future(self.assemble_beta()),
             load=lambda release_name: asyncio.ensure_future(self.load_gtnh_version(release_name)),
             delete=lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)),
             add=lambda release_name, previous_version: asyncio.ensure_future(
@@ -366,7 +367,7 @@ class Window(ThemedTk, Tk):
 
     async def assemble_all(self) -> None:
         """
-        Assemble update_all the archives.
+        Assemble all the archives for a full update.
 
         :return: None
         """
@@ -392,6 +393,44 @@ class Window(ThemedTk, Tk):
 
             global_callback(self.get_progress(), f"Assembling {Side.SERVER} {Archive.ZIP} archive")
             await release_assembler.assemble_zip(Side.SERVER, verbose=True)
+
+            self.trigger_toggle()
+
+        except BaseException as e:
+            showerror(
+                "An error occured during the update of the assembling of the archives",
+                "An error occurended during the update of the assembling of the archives."
+                "\n Please check the logs for more information",
+            )
+            if not self.toggled:
+                self.trigger_toggle()
+            raise e
+
+    async def assemble_beta(self) -> None:
+        """
+        Assemble all the archives for a beta/RC update.
+
+        :return: None
+        """
+        global_callback: Callable[
+            [float, str], None
+        ] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        try:
+            self.trigger_toggle()
+
+            self.set_progress(100 / (1 + 3 + 2))  # download + archives for client + archive for server
+            release_assembler: ReleaseAssembler = await self.pre_assembling()
+
+            release_assembler.set_progress(self.get_progress())
+
+            # zip archives
+            await self.assemble_release(Side.CLIENT, Archive.ZIP)
+            await self.assemble_release(Side.SERVER, Archive.ZIP)
+            await self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)
+
+            # MMC archives
+            await self.assemble_release(Side.CLIENT, Archive.MMC)
+            await self.assemble_release(Side.CLIENT_JAVA9, Archive.MMC)
 
             self.trigger_toggle()
 
