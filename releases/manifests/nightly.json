@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-12-06T03:23:26.446237",
+  "last_updated": "2024-12-07T03:22:03.965675",
   "config": "2.7.0-nightly-2024-12-05-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.54",
+      "version": "1.55",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -157,7 +157,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.7.11",
+      "version": "1.7.12",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.2.7-GTNH",
+      "version": "3.2.8-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.97",
+      "version": "5.09.50.98",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "MouseTweaks": {
-      "version": "2.4.18-GTNH",
+      "version": "2.4.19-GTNH",
       "side": "CLIENT"
     },
     "MX-Random": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.0.85",
+      "version": "2.0.86",
       "side": "BOTH"
     },
     "Tinkers-Defense": {

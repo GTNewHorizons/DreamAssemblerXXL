@@ -91,6 +91,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.10.1...1.10.2
 >
 
+# Updated - Avaritia - 1.54 --> 1.55
+## *1.55*
+>## What's Changed
+>* Reduce direct buffer allocations by @ah-OOG-ah in https://github.com/GTNewHorizons/Avaritia/pull/45
+>
+>## New Contributors
+>* @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/45
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.54...1.55
+>
+
 # Updated - BlockRenderer6343 - 1.2.14 --> 1.2.16
 ## *1.2.16*
 >## What's Changed
@@ -125,6 +136,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.6.7...1.6.8
 >
 
+# Updated - Crops-plus-plus - 1.7.11 --> 1.7.12
+## *1.7.12*
+>## What's Changed
+>* Fix snowbell drops by @C0bra5 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/83
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.7.11...1.7.12
+>
+
 # Updated - Draconic-Evolution - 1.3.13-GTNH --> 1.3.14-GTNH
 ## *1.3.14-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.13-GTNH...1.3.14-GTNH
@@ -150,7 +170,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.97
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.98
+## *5.09.50.98*
+>## What's Changed
+>* Remove beamline debug recipes by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3605
+>* fix SC Turbine giving Steam instead of SH Steam by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3606
+>* fix UCFE Scanner output by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3607
+>* Fix Incorrect bee allele definitions and elevate invalid definition logs to warnings. by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3609
+>* Tweaking EEC EU comsumption by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3592
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.97...5.09.50.98
+>
+
 ## *5.09.50.97*
 >## What's Changed
 >* LaB6 Recycling Recipes by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3604
@@ -463,7 +495,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.5...1.3.6
 >
 
-# Updated - Galacticraft - 3.2.5-GTNH --> 3.2.7-GTNH
+# Updated - Galacticraft - 3.2.5-GTNH --> 3.2.8-GTNH
+## *3.2.8-GTNH*
+>## What's Changed
+>* copy over missing changes to cargo rocket by @Glease in https://github.com/GTNewHorizons/Galacticraft/pull/95
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.2.7-GTNH...3.2.8-GTNH
+>
+
 ## *3.2.7-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.2.6-GTNH...3.2.7-GTNH
 >
@@ -565,6 +605,18 @@ Mod is client-side only.
 >* @lordIcocain made their first contribution in https://github.com/GTNewHorizons/ModularUI2/pull/18
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.14-1.7.10...2.1.15-1.7.10
+>
+
+# Updated - MouseTweaks - 2.4.18-GTNH --> 2.4.19-GTNH
+Mod is client-side only.
+## *2.4.19-GTNH*
+>## What's Changed
+>* Set `RMBTweak` default value to true by @wlhlm in https://github.com/GTNewHorizons/MouseTweaks/pull/13
+>
+>## New Contributors
+>* @wlhlm made their first contribution in https://github.com/GTNewHorizons/MouseTweaks/pull/13
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.18-GTNH...2.4.19-GTNH
 >
 
 # Updated - NewHorizonsCoreMod - 2.6.78 --> 2.6.87
@@ -689,6 +741,16 @@ Mod is client-side only.
 >* @reobf made their first contribution in https://github.com/GTNewHorizons/RemoteIO/pull/16
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.6.2...2.6.3
+>
+
+# Updated - ServerUtilities - 2.0.85 --> 2.0.86
+## *2.0.86*
+>## What's Changed
+>* Fix some command permissions not showing in rank config ui by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/141
+>* Fix potential crash when adding player to rank by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/144
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.0.85...2.0.86
 >
 
 # Updated - StorageDrawers - 2.0.3-GTNH --> 2.0.5-GTNH
