@@ -22,7 +22,8 @@ class ButtonArrayCallback:
         client_modrinth: Callable[[], Task[None]],
         client_technic: Callable[[], Task[None]],
         update_all: Callable[[], Task[None]],
-        update_beta: Callable[[], Task[None]]
+        update_beta: Callable[[], Task[None]],
+        generate_changelog: Callable[[], Task[None]],
     ) -> None:
         self.update_assets: Callable[[], Task[None]] = update_asset
         self.generate_nightly: Callable[[], Task[None]] = generate_nightly
@@ -36,6 +37,7 @@ class ButtonArrayCallback:
         self.client_technic: Callable[[], Task[None]] = client_technic
         self.all: Callable[[], Task[None]] = update_all
         self.beta: Callable[[], Task[None]] = update_beta
+        self.generate_changelog: Callable[[], Task[None]] = generate_changelog
 
 
 class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
@@ -116,6 +118,9 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         self.btn_server_zip_j9: CustomButton = CustomButton(
             self.frame_btn, text="Java 9+ server archive", command=callbacks.server_zip_j9, themed=self.themed
         )
+        self.btn_generate_changelog: CustomButton = CustomButton(
+            self.frame_btn, text="Generate changelog", command=callbacks.generate_changelog, themed=self.themed
+        )
 
         progress_bar_length: int = 500
 
@@ -137,6 +142,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
             self.btn_update_nightly,
             self.btn_generate_beta,
             self.btn_generate_all,
+            self.btn_generate_changelog,
             self.btn_client_zip,
             self.btn_server_zip,
             self.btn_server_zip_j9,
@@ -191,6 +197,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         self.btn_generate_beta.grid(row=1, column=0)
         self.btn_update_nightly.grid(row=2, column=0)
         self.btn_update_assets.grid(row=3, column=0)
+        self.btn_generate_changelog.grid(row=4, column=0)
 
         # column 1: client we control
         self.btn_client_zip.grid(row=0, column=1)
