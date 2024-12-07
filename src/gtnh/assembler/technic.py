@@ -1,6 +1,7 @@
 import os
 import re
 import shutil
+from enum import Enum
 from pathlib import Path
 from typing import Callable, List, Optional, Set, Tuple
 from zipfile import ZIP_DEFLATED, ZipFile
@@ -18,6 +19,12 @@ from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
 log = get_logger("technic process")
+
+
+class DifferentialUpdateMode(str, Enum):
+    NEW_MODS = "NEW_MODS"
+    UPDATED_MODS = "UPDATED_MODS"
+    REMOVED_MODS = "REMOVED_MODS"
 
 
 def technify(string: str) -> str:
@@ -76,38 +83,89 @@ class TechnicAssembler(GenericAssembler):
         if side not in {Side.CLIENT, Side.CLIENT_JAVA9}:
             raise Exception(f"Can only assemble release for CLIENT or SERVER, not {side}")
 
-        archive_name: Path = self.get_partial_archive_path()
+        updated_mods_archive_name: Path = self.get_updated_mods_archive_path()
+        new_mods_archive_name: Path = self.get_new_mods_archive_path()
+        removed_modlist_name: Path = self.get_removed_modlist_path()
 
         # deleting any existing archive
-        if os.path.exists(archive_name):
-            os.remove(archive_name)
-            log.warn(f"Previous archive {Fore.YELLOW}'{archive_name}'{Fore.RESET} deleted")
+        if os.path.exists(updated_mods_archive_name):
+            os.remove(updated_mods_archive_name)
+            log.warn(f"Previous archive {Fore.YELLOW}'{updated_mods_archive_name}'{Fore.RESET} deleted")
 
-        log.info(f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{archive_name}'{Fore.RESET}")
+        if os.path.exists(new_mods_archive_name):
+            os.remove(new_mods_archive_name)
+            log.warn(f"Previous archive {Fore.YELLOW}'{new_mods_archive_name}'{Fore.RESET} deleted")
 
-        with ZipFile(archive_name, "w", compression=ZIP_DEFLATED) as archive:
+        if os.path.exists(removed_modlist_name):
+            os.remove(removed_modlist_name)
+            log.warn(f"Previous modlist {Fore.YELLOW}'{removed_modlist_name}'{Fore.RESET} deleted")
+
+        log.info(
+            f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{updated_mods_archive_name}'{Fore.RESET}"
+        )
+
+        with ZipFile(updated_mods_archive_name, "w", compression=ZIP_DEFLATED) as archive:
             log.info("Adding mods to the archive")
-            self.add_mods(side, self.partial_mods(side), archive, verbose=verbose)
+            self.add_mods(
+                side, self.differential_update(side, DifferentialUpdateMode.UPDATED_MODS), archive, verbose=verbose
+            )
             log.info("Adding config to the archive")
             self.add_config(side, self.get_config(), archive, verbose=verbose)
             log.info("Generating the readme for the modpack repo")
             self.generate_readme()
             log.info("Archive created successfully!")
 
-    def partial_mods(self, side: Side) -> list[Tuple[GTNHModInfo, GTNHVersion]]:
+        log.info(
+            f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{new_mods_archive_name}'{Fore.RESET}"
+        )
+
+        with ZipFile(new_mods_archive_name, "w", compression=ZIP_DEFLATED) as archive:
+            log.info("Adding mods to the archive")
+            self.add_mods(
+                side, self.differential_update(side, DifferentialUpdateMode.NEW_MODS), archive, verbose=verbose
+            )
+            log.info("Archive created successfully!")
+
+        with open(removed_modlist_name, "w") as file:
+            log.info("generating removed modlist")
+            removed_modlist: List[tuple[GTNHModInfo, GTNHVersion]] = self.differential_update(
+                side, DifferentialUpdateMode.REMOVED_MODS
+            )
+            file.write("\n".join([f"{mod.name}: {version.version_tag}" for (mod, version) in removed_modlist]))
+            log.info("modlist created successfully!")
+
+    def differential_update(
+        self, side: Side, update_mode: DifferentialUpdateMode
+    ) -> list[Tuple[GTNHModInfo, GTNHVersion]]:
+        update_source: Callable[[GTNHRelease, GTNHRelease], set[str]]
+
+        if update_mode == DifferentialUpdateMode.NEW_MODS:
+            update_source = self.modpack_manager.get_new_mods
+        elif update_mode == DifferentialUpdateMode.UPDATED_MODS:
+            update_source = self.modpack_manager.get_changed_mods
+        else:
+            update_source = self.modpack_manager.get_removed_mods
+
+        last_release: GTNHRelease = self.modpack_manager.get_release(self.release.last_version)  # type: ignore
+        process_release: GTNHRelease = (
+            last_release if update_mode == DifferentialUpdateMode.REMOVED_MODS else self.release
+        )
+
         valid_sides: Set[Side] = side.valid_mod_sides()
+        j9_sides: Set[Side] = {Side.CLIENT_JAVA9, Side.BOTH_JAVA9}
 
-        github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides)
+        github_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(valid_sides, release=process_release)
         github_mods_names = [x[0].name for x in github_mods]
+        github_mods_j9: List[Tuple[GTNHModInfo, GTNHVersion]] = self.github_mods(j9_sides, release=process_release)
+        github_mods_names_j9 = [x[0].name for x in github_mods_j9]
 
-        external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides)
+        external_mods: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(valid_sides, release=process_release)
         external_mods_names = [x[0].name for x in external_mods]
-
-        last_version: GTNHRelease = self.modpack_manager.get_release(self.release.last_version)  # type: ignore
+        external_mods_j9: List[Tuple[GTNHModInfo, GTNHVersion]] = self.external_mods(j9_sides, release=process_release)
+        external_mods_names_j9 = [x[0].name for x in external_mods_j9]
 
         mods: List[Tuple[GTNHModInfo, GTNHVersion]] = []
-
-        for mod_name in self.modpack_manager.get_changed_mods(self.release, last_version):
+        for mod_name in update_source(self.release, last_release):
             if mod_name in github_mods_names:
                 mod_index = github_mods_names.index(mod_name)
                 mods.append(github_mods[mod_index])
@@ -115,9 +173,12 @@ class TechnicAssembler(GenericAssembler):
                 mod_index = external_mods_names.index(mod_name)
                 mods.append(external_mods[mod_index])
             else:
-                log.warn(
-                    f"Mod {mod_name} was detected as an updated mod" ", but is not a github mod nor an external one"
-                )
+                if side == Side.CLIENT and (mod_name in github_mods_names_j9 or mod_name in external_mods_names_j9):
+                    log.warn(f"Mod {mod_name} is a java 9+ mod but currently packing only java 8 mods. Skipping it.")
+                else:
+                    log.warn(
+                        f"Mod {mod_name} was detected as an updated mod" ", but is not a github mod nor an external one"
+                    )
 
         return mods
 
@@ -125,7 +186,7 @@ class TechnicAssembler(GenericAssembler):
         self, side: Side, mods: list[tuple[GTNHModInfo, GTNHVersion]], archive: ZipFile, verbose: bool = False
     ) -> None:
 
-        temp_zip_path: Path = Path("./temp.zip")
+        temp_zip_path: Path = RELEASE_TECHNIC_DIR / "temp.zip"
 
         for mod, version in mods:
             source_file: Path = get_asset_version_cache_location(mod, version)
@@ -146,7 +207,7 @@ class TechnicAssembler(GenericAssembler):
                 )
 
         # deleting temp zip
-        if temp_zip_path is not None:
+        if temp_zip_path.exists():
             temp_zip_path.unlink()
 
     def add_config(
@@ -204,8 +265,14 @@ class TechnicAssembler(GenericAssembler):
     def get_archive_path(self, side: Side) -> Path:
         return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(technic).zip"
 
-    def get_partial_archive_path(self) -> Path:
-        return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(technic_partial).zip"
+    def get_updated_mods_archive_path(self) -> Path:
+        return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(updated mods).zip"
+
+    def get_new_mods_archive_path(self) -> Path:
+        return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(new mods).zip"
+
+    def get_removed_modlist_path(self) -> Path:
+        return RELEASE_TECHNIC_DIR / f"GT_New_Horizons_{self.release.version}_(removed mods).txt"
 
     async def assemble(self, side: Side, verbose: bool = False) -> None:
         if side != Side.CLIENT:

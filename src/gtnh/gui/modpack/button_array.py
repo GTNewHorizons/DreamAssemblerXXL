@@ -22,6 +22,8 @@ class ButtonArrayCallback:
         client_modrinth: Callable[[], Task[None]],
         client_technic: Callable[[], Task[None]],
         update_all: Callable[[], Task[None]],
+        update_beta: Callable[[], Task[None]],
+        generate_changelog: Callable[[], Task[None]],
     ) -> None:
         self.update_assets: Callable[[], Task[None]] = update_asset
         self.generate_nightly: Callable[[], Task[None]] = generate_nightly
@@ -34,6 +36,8 @@ class ButtonArrayCallback:
         self.client_modrinth: Callable[[], Task[None]] = client_modrinth
         self.client_technic: Callable[[], Task[None]] = client_technic
         self.all: Callable[[], Task[None]] = update_all
+        self.beta: Callable[[], Task[None]] = update_beta
+        self.generate_changelog: Callable[[], Task[None]] = generate_changelog
 
 
 class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
@@ -75,16 +79,16 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         self.callbacks: ButtonArrayCallback = callbacks
 
         self.btn_client_cf: CustomButton = CustomButton(
-            self.frame_btn, text="CurseForge client archive", command=callbacks.client_curse, themed=self.themed
+            self.frame_btn, text="CurseForge archive", command=callbacks.client_curse, themed=self.themed
         )
         self.btn_client_technic: CustomButton = CustomButton(
-            self.frame_btn, text="Technic client archive", command=callbacks.client_technic, themed=self.themed
+            self.frame_btn, text="Technic archive", command=callbacks.client_technic, themed=self.themed
         )
         self.btn_client_mmc: CustomButton = CustomButton(
-            self.frame_btn, text="MultiMC client archive", command=callbacks.client_mmc, themed=self.themed
+            self.frame_btn, text="MMC like archive", command=callbacks.client_mmc, themed=self.themed
         )
         self.btn_client_mmc_j9: CustomButton = CustomButton(
-            self.frame_btn, text="Java 9+ Prism archive", command=callbacks.client_mmc_j9, themed=self.themed
+            self.frame_btn, text="Java 9+ MMC like archive", command=callbacks.client_mmc_j9, themed=self.themed
         )
         self.btn_client_modrinth: CustomButton = CustomButton(
             self.frame_btn,
@@ -94,10 +98,13 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
             state=DISABLED,
         )
         self.btn_generate_all: CustomButton = CustomButton(
-            self.frame_btn, text="Generate update_all archives", command=callbacks.all, themed=self.themed
+            self.frame_btn, text="Generate stable release", command=callbacks.all, themed=self.themed
+        )
+        self.btn_generate_beta: CustomButton = CustomButton(
+            self.frame_btn, text="Generate beta/RC release", command=callbacks.beta, themed=self.themed
         )
         self.btn_update_nightly: CustomButton = CustomButton(
-            self.frame_btn, text="Update nightly", command=update_nightly, themed=self.themed
+            self.frame_btn, text="Update nightly profile", command=update_nightly, themed=self.themed
         )
         self.btn_update_assets: CustomButton = CustomButton(
             self.frame_btn, text="Update assets", command=callbacks.update_assets, themed=self.themed
@@ -110,6 +117,9 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         )
         self.btn_server_zip_j9: CustomButton = CustomButton(
             self.frame_btn, text="Java 9+ server archive", command=callbacks.server_zip_j9, themed=self.themed
+        )
+        self.btn_generate_changelog: CustomButton = CustomButton(
+            self.frame_btn, text="Generate changelog", command=callbacks.generate_changelog, themed=self.themed
         )
 
         progress_bar_length: int = 500
@@ -130,7 +140,9 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
             self.btn_client_mmc_j9,
             self.btn_update_assets,
             self.btn_update_nightly,
+            self.btn_generate_beta,
             self.btn_generate_all,
+            self.btn_generate_changelog,
             self.btn_client_zip,
             self.btn_server_zip,
             self.btn_server_zip_j9,
@@ -180,20 +192,24 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         for i in range(frame_columns):
             self.frame_btn.columnconfigure(i, weight=1, pad=pad)
 
-        self.btn_client_cf.grid(row=0, column=0)
+        # column 0: mass operation
+        self.btn_generate_all.grid(row=0, column=0)
+        self.btn_generate_beta.grid(row=1, column=0)
+        self.btn_update_nightly.grid(row=2, column=0)
+        self.btn_update_assets.grid(row=3, column=0)
+        self.btn_generate_changelog.grid(row=4, column=0)
+
+        # column 1: client we control
         self.btn_client_zip.grid(row=0, column=1)
-        self.btn_client_technic.grid(row=0, column=2)
+        self.btn_client_mmc.grid(row=1, column=1)
+        self.btn_client_mmc_j9.grid(row=2, column=1)
+        self.btn_client_technic.grid(row=3, column=1)
 
-        self.btn_client_modrinth.grid(row=1, column=0)
-        self.btn_server_zip.grid(row=1, column=1)
-        self.btn_client_mmc.grid(row=1, column=2)
-
-        self.btn_client_mmc_j9.grid(row=2, column=2)
-        self.btn_server_zip_j9.grid(row=2, column=1)
-
-        self.btn_update_nightly.grid(row=3, column=0)
-        self.btn_generate_all.grid(row=3, column=1)
-        self.btn_update_assets.grid(row=3, column=2)
+        # column 2: server we control + mod market places
+        self.btn_server_zip.grid(row=0, column=2)
+        self.btn_server_zip_j9.grid(row=1, column=2)
+        self.btn_client_cf.grid(row=2, column=2)
+        self.btn_client_modrinth.grid(row=3, column=2)
 
         self.update_idletasks()
 

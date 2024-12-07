@@ -4,5 +4,6 @@ __pycache__/
 updated_mods.json
 releases/**/*.zip
 releases/curse/
+releases/technic/
 .inplace_mod_exclusions
 .inplace_pinned_mods
