@@ -1028,12 +1028,16 @@ class GTNHModpackManager:
         common_github_mods = current_releases_github - removed_mods - new_mods
         common_external_mods = current_releases_external - removed_mods - new_mods
 
-        changed_github_mods = {x for x in common_github_mods if release.github_mods[x].version != previous_release.github_mods[x].version}
-        changed_external_mods = {x for x in common_external_mods if release.external_mods[x].version != previous_release.external_mods[x].version}
+        changed_github_mods = {
+            x for x in common_github_mods if release.github_mods[x].version != previous_release.github_mods[x].version
+        }
+        changed_external_mods = {
+            x
+            for x in common_external_mods
+            if release.external_mods[x].version != previous_release.external_mods[x].version
+        }
 
         return changed_github_mods | changed_external_mods
-
-
 
     def generate_changelog(
         self, release: GTNHRelease, previous_release: GTNHRelease | None = None, include_no_changelog: bool = False

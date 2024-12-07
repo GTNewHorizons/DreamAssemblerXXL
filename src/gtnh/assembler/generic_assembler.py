@@ -121,7 +121,9 @@ class GenericAssembler:
         mods: List[Tuple[GTNHModInfo, GTNHVersion]] = github_mods + external_mods
         return mods
 
-    def external_mods(self, valid_sides: Set[Side], release:Optional[GTNHRelease]=None) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
+    def external_mods(
+        self, valid_sides: Set[Side], release: Optional[GTNHRelease] = None
+    ) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the external mod info objects as well as their targetted version.
 
@@ -147,7 +149,9 @@ class GenericAssembler:
 
         return external_mods
 
-    def github_mods(self, valid_sides: Set[Side], release:Optional[GTNHRelease]=None) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
+    def github_mods(
+        self, valid_sides: Set[Side], release: Optional[GTNHRelease] = None
+    ) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
         """
         Method to grab the github mod info objects as well as their targetted version.
 

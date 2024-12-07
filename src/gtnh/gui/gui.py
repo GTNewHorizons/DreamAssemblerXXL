@@ -297,7 +297,7 @@ class Window(ThemedTk, Tk):
             self.trigger_toggle()
         except BaseException as e:
             showerror(
-                f"An error occured during the generation of the changelog",
+                "An error occured during the generation of the changelog",
                 f"An error occured during the generation of the changelog from {self.last_version} to {self.version}."
                 "\n Please check the logs for more information.",
             )
@@ -440,9 +440,6 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        global_callback: Callable[
-            [float, str], None
-        ] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
         try:
             self.trigger_toggle()
 

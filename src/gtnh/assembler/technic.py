@@ -100,31 +100,43 @@ class TechnicAssembler(GenericAssembler):
             os.remove(removed_modlist_name)
             log.warn(f"Previous modlist {Fore.YELLOW}'{removed_modlist_name}'{Fore.RESET} deleted")
 
-        log.info(f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{updated_mods_archive_name}'{Fore.RESET}")
+        log.info(
+            f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{updated_mods_archive_name}'{Fore.RESET}"
+        )
 
         with ZipFile(updated_mods_archive_name, "w", compression=ZIP_DEFLATED) as archive:
             log.info("Adding mods to the archive")
-            self.add_mods(side, self.differential_update(side, DifferentialUpdateMode.UPDATED_MODS), archive, verbose=verbose)
+            self.add_mods(
+                side, self.differential_update(side, DifferentialUpdateMode.UPDATED_MODS), archive, verbose=verbose
+            )
             log.info("Adding config to the archive")
             self.add_config(side, self.get_config(), archive, verbose=verbose)
             log.info("Generating the readme for the modpack repo")
             self.generate_readme()
             log.info("Archive created successfully!")
 
-        log.info(f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{new_mods_archive_name}'{Fore.RESET}")
+        log.info(
+            f"Constructing {Fore.YELLOW}{side}{Fore.RESET} archive at {Fore.YELLOW}'{new_mods_archive_name}'{Fore.RESET}"
+        )
 
         with ZipFile(new_mods_archive_name, "w", compression=ZIP_DEFLATED) as archive:
             log.info("Adding mods to the archive")
-            self.add_mods(side, self.differential_update(side, DifferentialUpdateMode.NEW_MODS), archive, verbose=verbose)
+            self.add_mods(
+                side, self.differential_update(side, DifferentialUpdateMode.NEW_MODS), archive, verbose=verbose
+            )
             log.info("Archive created successfully!")
 
         with open(removed_modlist_name, "w") as file:
             log.info("generating removed modlist")
-            removed_modlist: List[tuple[GTNHModInfo, GTNHVersion]] = self.differential_update(side, DifferentialUpdateMode.REMOVED_MODS)
+            removed_modlist: List[tuple[GTNHModInfo, GTNHVersion]] = self.differential_update(
+                side, DifferentialUpdateMode.REMOVED_MODS
+            )
             file.write("\n".join([f"{mod.name}: {version.version_tag}" for (mod, version) in removed_modlist]))
             log.info("modlist created successfully!")
 
-    def differential_update(self, side: Side, update_mode:DifferentialUpdateMode) -> list[Tuple[GTNHModInfo, GTNHVersion]]:
+    def differential_update(
+        self, side: Side, update_mode: DifferentialUpdateMode
+    ) -> list[Tuple[GTNHModInfo, GTNHVersion]]:
         update_source: Callable[[GTNHRelease, GTNHRelease], set[str]]
 
         if update_mode == DifferentialUpdateMode.NEW_MODS:
@@ -135,7 +147,9 @@ class TechnicAssembler(GenericAssembler):
             update_source = self.modpack_manager.get_removed_mods
 
         last_release: GTNHRelease = self.modpack_manager.get_release(self.release.last_version)  # type: ignore
-        process_release: GTNHRelease = last_release if update_mode == DifferentialUpdateMode.REMOVED_MODS else self.release
+        process_release: GTNHRelease = (
+            last_release if update_mode == DifferentialUpdateMode.REMOVED_MODS else self.release
+        )
 
         valid_sides: Set[Side] = side.valid_mod_sides()
         j9_sides: Set[Side] = {Side.CLIENT_JAVA9, Side.BOTH_JAVA9}
