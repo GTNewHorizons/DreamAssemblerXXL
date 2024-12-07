@@ -17,8 +17,16 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.48-gtnh...1.3.49-gtnh
 >
 
-# Updated - Angelica - 1.0.0-beta20 --> 1.0.0-beta24
+# Updated - Angelica - 1.0.0-beta20 --> 1.0.0-beta25
 Mod is client-side only.
+## *1.0.0-beta25*
+>## What's Changed
+>* Frametime exploration by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/742
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta24...1.0.0-beta25
+>
+
 ## *1.0.0-beta24*
 >## What's Changed
 >* Null check frametime mixin by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/756
@@ -91,7 +99,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.10.1...1.10.2
 >
 
-# Updated - Avaritia - 1.54 --> 1.55
+# Updated - Avaritia - 1.54 --> 1.56
+## *1.56*
+>**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.55...1.56
+>
+
 ## *1.55*
 >## What's Changed
 >* Reduce direct buffer allocations by @ah-OOG-ah in https://github.com/GTNewHorizons/Avaritia/pull/45
@@ -121,6 +133,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.14...1.2.15
 >
 
+# Updated - BloodArsenal - 1.3.2 --> 1.3.4
+## *1.3.4*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.3...1.3.4
+>
+
+## *1.3.3*
+>## What's Changed
+>* Fix Transparent Orb tooltips and rendering on multiplayer by @reobf in https://github.com/GTNewHorizons/BloodArsenal/pull/25
+>
+>## New Contributors
+>* @reobf made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/25
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.2...1.3.3
+>
+
 # Updated - BloodMagic - 1.6.7 --> 1.6.9
 ## *1.6.9*
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.6.8...1.6.9
@@ -136,7 +163,33 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.6.7...1.6.8
 >
 
-# Updated - Crops-plus-plus - 1.7.11 --> 1.7.12
+# Updated - Botania - 1.11.5-GTNH --> 1.11.6-GTNH
+## *1.11.6-GTNH*
+>## What's Changed
+>* Fix reach ring by @Shadow1590 in https://github.com/GTNewHorizons/Botania/pull/64
+>
+>## New Contributors
+>* @Shadow1590 made their first contribution in https://github.com/GTNewHorizons/Botania/pull/64
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.11.5-GTNH...1.11.6-GTNH
+>
+
+# Updated - CarpentersBlocks - 3.6.2-GTNH --> 3.6.3-GTNH
+## *3.6.3-GTNH*
+>## What's Changed
+>* Chisel compat for textures that are block location dependent by @Cardinalstars in https://github.com/GTNewHorizons/CarpentersBlocks/pull/12
+>
+>## New Contributors
+>* @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/CarpentersBlocks/pull/12
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/CarpentersBlocks/compare/3.6.2-GTNH...3.6.3-GTNH
+>
+
+# Updated - Crops-plus-plus - 1.7.11 --> 1.7.13
+## *1.7.13*
+>**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.7.12...1.7.13
+>
+
 ## *1.7.12*
 >## What's Changed
 >* Fix snowbell drops by @C0bra5 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/83
@@ -170,7 +223,34 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.98
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.101
+## *5.09.50.101*
+>## What's Changed
+>* Resolved Recipe Conflict with pipe casing by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3612
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.100...5.09.50.101
+>
+
+## *5.09.50.100*
+>## What's Changed
+>* Fix wireless detector covers redstone bug by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3595
+>* Revert the ignoble computer cube texture to its former glory by @BlueHero233 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3611
+>
+>## New Contributors
+>* @Sanduhr32 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3595
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.99...5.09.50.100
+>
+
+## *5.09.50.99*
+>## What's Changed
+>* restore missing auto-workbench button textures by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3610
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.98...5.09.50.99
+>
+
 ## *5.09.50.98*
 >## What's Changed
 >* Remove beamline debug recipes by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3605
@@ -607,8 +687,12 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.14-1.7.10...2.1.15-1.7.10
 >
 
-# Updated - MouseTweaks - 2.4.18-GTNH --> 2.4.19-GTNH
+# Updated - MouseTweaks - 2.4.18-GTNH --> 2.4.20-GTNH
 Mod is client-side only.
+## *2.4.20-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.19-GTNH...2.4.20-GTNH
+>
+
 ## *2.4.19-GTNH*
 >## What's Changed
 >* Set `RMBTweak` default value to true by @wlhlm in https://github.com/GTNewHorizons/MouseTweaks/pull/13
@@ -688,7 +772,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.83...2.6.79
 >
 
-# Updated - NotEnoughItems - 2.6.46-GTNH --> 2.6.50-GTNH
+# Updated - NotEnoughItems - 2.6.46-GTNH --> 2.6.51-GTNH
+## *2.6.51-GTNH*
+>## What's Changed
+>* Fix CME in registerRectsToGuis during plugin loading by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/566
+>* Optimize TooltipItemFilter; ItemFilter limited cache by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/565
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.50-GTNH...2.6.51-GTNH
+>
+
 ## *2.6.50-GTNH*
 >## What's Changed
 >* Fix restoring collapsible items state by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/564
@@ -743,7 +836,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.6.2...2.6.3
 >
 
-# Updated - ServerUtilities - 2.0.85 --> 2.0.86
+# Updated - ServerUtilities - 2.0.85 --> 2.0.88
+## *2.0.88*
+>## What's Changed
+>* Fix display names not syncing when player logs in by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/148
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.0.87...2.0.88
+>
+
+## *2.0.87*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.0.86...2.0.87
+>
+
 ## *2.0.86*
 >## What's Changed
 >* Fix some command permissions not showing in rank config ui by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/141
