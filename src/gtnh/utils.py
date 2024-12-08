@@ -261,7 +261,7 @@ def compress_changelog(file_path: Path) -> None:
             lines.append("# Credits\n")
             lines.append(
                 (
-                    f"Special thanks to {', '.join(sorted(list(contributors)))}, "
+                    f"Special thanks to {', '.join(sorted(list(contributors), key=str.casefold))}, "
                     "for their code contributions listed above, and to everyone else who helped, "
                     "including all of our beta testers! <3"
                 )
