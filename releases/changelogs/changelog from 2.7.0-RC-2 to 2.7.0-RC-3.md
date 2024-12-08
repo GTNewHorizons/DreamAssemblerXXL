@@ -1,4 +1,5 @@
 # Updated Angelica (1.0.0-beta23 -->  1.0.0-beta24)
+Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta23...1.0.0-beta24
 >## What's Changed
 > * Null check frametime mixin by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/756 (1.0.0-beta24)
@@ -66,4 +67,4 @@
 >
 
 # Credits
-Special thanks to @Ableytner, @Alexdoru, @Cleptomania, @Connor-Colenso, @FourIsTheNumber, @Glease, @ah-OOG-ah, @kurrycat2004, @lordIcocain, @serenibyss, @slprime, @wlhlm, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @Ableytner, @ah-OOG-ah, @Alexdoru, @Cleptomania, @Connor-Colenso, @FourIsTheNumber, @Glease, @kurrycat2004, @lordIcocain, @serenibyss, @slprime, @wlhlm, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
