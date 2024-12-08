@@ -9,23 +9,7 @@
 > * Aroma1997Core
 > * AromaBackup
 > * Baubles
-> * CodeChickenLib
-> * DetravScannerMod
-> * GTNEIOrePlugin
-> * GTNH-Lanthanides
-> * GTplusplus
-> * GalacticGregGT5
-> * GigaGramFab
-> * GoodGenerator
 > * INpureCore
-> * KekzTech
-> * KubaTech
-> * StorageDrawers-BiomesOPlenty
-> * StorageDrawers-Forestry
-> * StorageDrawers-Misc
-> * StorageDrawers-Natura
-> * TecTech
-> * bartworks
 # Updated AE2FluidCraft-Rework (1.2.29-gtnh -->  1.3.50-gtnh)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.2.29-gtnh...1.3.50-gtnh
 >## What's Changed
@@ -115,6 +99,7 @@
 >
 
 # Updated Angelica (1.0.0-alpha50 -->  1.0.0-beta24)
+Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-alpha50...1.0.0-beta24
 >## What's Changed
 > * Null check frametime mixin by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/756 (1.0.0-beta24)
@@ -362,12 +347,14 @@
 >
 
 # Updated BeeBetterAtBees-GTNH (0.4.0-GTNH -->  0.4.2-GTNH)
+Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/compare/0.4.0-GTNH...0.4.2-GTNH
 >## What's Changed
 > * Remove unnecessary glDepthMask calls by @Lyfts in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/4 (0.4.2-GTNH)
 >
 
 # Updated BetterAchievements (0.2.0 -->  0.3.0)
+Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/BetterAchievements/compare/0.2.0...0.3.0
 >## What's Changed
 > * Disable `useDependencyInformation` by @glowredman in https://github.com/GTNewHorizons/BetterAchievements/pull/4 (0.3.0)
@@ -380,6 +367,7 @@
 >
 
 # Updated BetterLoadingScreen (1.6.1-GTNH -->  1.7.0-GTNH)
+Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.6.1-GTNH...1.7.0-GTNH
 >## What's Changed
 > * Changed the loading bars by @Jimbno in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/25 (1.7.0-GTNH)
@@ -547,6 +535,7 @@
 >
 
 # Updated Controlling (2.0.2 -->  2.1.2)
+Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/Controlling/compare/2.0.2...2.1.2
 >## What's Changed
 > * compat with ModernKeybinding by @Caedis in https://github.com/GTNewHorizons/Controlling/pull/7 (2.1.2)
@@ -584,6 +573,7 @@
 >
 
 # Updated Default-Configs (1.2.0 -->  1.3.0)
+Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/Default-Configs/compare/1.2.0...1.3.0
 >## What's Changed
 > * Disable `useDependencyInformation` by @glowredman in https://github.com/GTNewHorizons/Default-Configs/pull/7 (1.3.0)
@@ -608,6 +598,7 @@
 >
 
 # Updated DuraDisplay (1.2.3 -->  1.3.4)
+Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/DuraDisplay/compare/1.2.3...1.3.4
 >## What's Changed
 > * Spotless apply for branch rename for #21 by @github-actions in https://github.com/GTNewHorizons/DuraDisplay/pull/22 (1.3.4)
@@ -2143,6 +2134,7 @@
 >
 
 # Updated InGame-Info-XML (2.8.8 -->  2.8.19)
+Mod side changed from client-side only to on both sides.
 **Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.8...2.8.19
 >## What's Changed
 > * Fix positioning issues by @Lyfts in https://github.com/GTNewHorizons/InGame-Info-XML/pull/27 (2.8.19)
@@ -2339,6 +2331,7 @@
 >
 
 # Updated MouseTweaks (2.4.17-GTNH -->  2.4.18-GTNH)
+Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.17-GTNH...2.4.18-GTNH
 >## What's Changed
 > * Force disable mouse wheel transfer if NEI's mouse wheel transfer is active by @Alexdoru in https://github.com/GTNewHorizons/MouseTweaks/pull/12 (2.4.18-GTNH)
@@ -2832,6 +2825,7 @@
 >
 
 # Updated Schematica (1.11.1-GTNH -->  1.11.2-GTNH)
+Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.11.1-GTNH...1.11.2-GTNH
 >## What's Changed
 > * Feat/disable command by @mist475 in https://github.com/GTNewHorizons/Schematica/pull/22 (1.11.2-GTNH)
@@ -2968,6 +2962,7 @@
 >
 
 # Updated TCNodeTracker (1.2.0 -->  1.3.2)
+Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/TCNodeTracker/compare/1.2.0...1.3.2
 >## What's Changed
 > * Update buildscript and dependencies by @leumasme in https://github.com/GTNewHorizons/TCNodeTracker/pull/11 (1.3.2)
@@ -2976,6 +2971,7 @@
 >
 
 # Updated TX-Loader (1.7.0 -->  1.7.2)
+Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.0...1.7.2
 >## What's Changed
 > * Compatible with ID-based dynamic resources by @ketikai in https://github.com/GTNewHorizons/TX-Loader/pull/13 (1.7.2)
@@ -3238,6 +3234,7 @@
 >
 
 # Updated inventory-tweaks (1.6.2 -->  1.7.0)
+Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/inventory-tweaks/compare/1.6.2...1.7.0
 >## What's Changed
 > * fix logic of the ClassConstantPoolParser by @Alexdoru in https://github.com/GTNewHorizons/inventory-tweaks/pull/9 (1.7.0)
@@ -3286,6 +3283,7 @@
 >
 
 # Updated oauth (1.2.2-GTNH -->  1.2.3-GTNH)
+Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/oauth/compare/1.2.2-GTNH...1.2.3-GTNH
 >## What's Changed
 > * Add Version Property to `@Mod` Annotation by @glowredman in https://github.com/GTNewHorizons/oauth/pull/5 (1.2.3-GTNH)
@@ -3329,4 +3327,4 @@
 >
 
 # Credits
-A special thanks to @48a3efa65c881ef567345b17f3910e06, @54M44R, @ALongStringOfNumbers, @AbdielKavash, @Ableytner, @Alastors, @AlexSocol, @AlexanderChenhall, @Alexdoru, @AnAwesomGuy, @AnrDaemon, @Apeiria01, @ArtherCasan, @Astatine5985, @AtHisF1nest, @BlueHero233, @BlueWeabo, @C0bra5, @Caedis, @Cardinalstars, @Chaoschaot232, @ClassixX, @Cleptomania, @Connor-Colenso, @CookieBrigade, @CromaMclos, @CrystieColon3, @Cyrus-Vance, @DCNick3, @Dasfaust, @Demiu, @Dmetriy-MC, @Dr-Nye, @DrParadox7, @Drathonix, @Dream-Master, @DylanTaylor1, @Dyonovan, @EJaxx, @Elkatra2, @EnderProyects, @Engineer12798, @Ethryan, @Fabboz, @FakeDomi, @FalsePattern, @FireWarrior2, @FourIsTheNumber, @GDCloudstrike, @GL8192, @GTNH-Afx237v7, @Georggi, @GirixK, @Glease, @Goderium, @Gregory1234, @GribanovIvan, @HFPTetraUro, @Hansbald, @HfSrJun, @HoleFish, @IncandescenceSy, @JL2210, @JMan-Zx, @Jimbno, @Juknum, @KTech3020, @Kogepan229, @Kortako, @LasmGratel, @LazyFleshWasTaken, @Lyfts, @Majora320, @Meegooo, @Midnight145, @Miklebe, @NealDeal34, @Neidmare, @Nilau1998, @Nockyx, @Noktuska, @NotAPenguin0, @Nxer, @Oberdiah, @OmdaCZ, @Omgise, @OneEyeMaker, @OvermindDL1, @Pilzinsel64, @PlayfulPiano, @Quarri6343, @Quetz4l, @ReaganAR, @RealSilverMoon, @RecursivePineapple, @Reflex18, @ReignOfFROZE, @Roadhog360, @Ruling-0, @SKProCH, @Safixoo, @Shinusei, @SmileYik, @StaffiX, @StefanAnnon, @Superfrogman98, @Taskeren, @Tctcl, @TheUnderTaker11, @Thorium0, @TimeConqueror, @TotallyNotOndre, @Trinsdar, @TwoDCube, @VinDevGH, @Vlamonster, @Volence, @WaterShuriken, @Wmaxlees, @Worive, @Wyvest, @ZakBerkelaar, @ZaykieT, @Zdesl, @a3626a, @ah-OOG-ah, @alphaomega21, @asquared31415, @basdxz, @bluhbipo, @boubou19, @brandyyn, @cargocats, @chochem, @clzola, @combusterf, @cutiegin, @czerwonogrodzki, @dagger8243, @ddoubleo, @des-cuddlebat, @dipo33, @dvdmandt, @eigenraven, @evgengoldwar, @firenoo, @github-actions, @glowredman, @gravit0, @hallucinogender, @hiroscho, @hpotter02, @joegnis, @jss2a98aj, @ketikai, @kevzhao2, @koolkrafter5, @kotmatross28729, @kstvr32, @kuba6000, @kurrycat2004, @kuzuanpa, @leumasme, @lordIcocain, @mainrs, @markfrydrych, @meonester, @miozune, @mitchej123, @mudkipperman, @nikita23830, @nman1300, @norbby42, @nshepperd, @pashabou, @querns, @reobf, @riking, @serenibyss, @skyinr, @slprime, @socolio, @sousuke0422, @spacebuilder2020, @toadjaune, @topquarkred, @truenachtara, @tsiarokhin, @tth05, @unicornbloods, @unilock, @wantayanamirei, @wlhlm, @xJon, @xcube16, @zTotto, @zhehedream, who contributed to this release!
+Special thanks to @48a3efa65c881ef567345b17f3910e06, @54M44R, @ALongStringOfNumbers, @AbdielKavash, @Ableytner, @Alastors, @AlexSocol, @AlexanderChenhall, @Alexdoru, @AnAwesomGuy, @AnrDaemon, @Apeiria01, @ArtherCasan, @Astatine5985, @AtHisF1nest, @AutumnalModding, @BlueHero233, @BlueWeabo, @C0bra5, @Caedis, @Cardinalstars, @Chaoschaot232, @ClassixX, @Cleptomania, @Connor-Colenso, @CookieBrigade, @CromaMclos, @CrystieColon3, @Cyrus-Vance, @D-Cysteine, @DCNick3, @Dasfaust, @Demiu, @Dioxop, @Dmetriy-MC, @Dr-Nye, @DrParadox7, @Drathonix, @Dream-Master, @DylanTaylor1, @Dyonovan, @EJaxx, @Elisis, @Elkatra2, @EnderProyects, @Engineer12798, @Ethryan, @Fabboz, @FakeDomi, @FalsePattern, @FireWarrior2, @FourIsTheNumber, @GDCloudstrike, @GL8192, @GTNH-Afx237v7, @Georggi, @GirixK, @Glease, @Goderium, @Gordon-Frohman, @Gregory1234, @GribanovIvan, @HFPTetraUro, @Hansbald, @HfSrJun, @HoleFish, @IncandescenceSy, @JL2210, @JMan-Zx, @Jimbno, @Juknum, @KTech3020, @Keridos, @Kogepan229, @Kortako, @LasmGratel, @LazyFleshWasTaken, @Lyfts, @MCTBL, @Majora320, @Meegooo, @Midnight145, @Miklebe, @NealDeal34, @Neidmare, @Nilau1998, @Nockyx, @Noktuska, @NotAPenguin0, @Nxer, @Oberdiah, @OmdaCZ, @Omgise, @OneEyeMaker, @OvermindDL1, @POPlol333, @Pilzinsel64, @PlayfulPiano, @Pxx500, @Quantumlyy, @Quarri6343, @Quetz4l, @Radk6, @ReaganAR, @RealSilverMoon, @RecursivePineapple, @Reflex18, @ReignOfFROZE, @Roadhog360, @Ruling-0, @S4mpsa, @SKProCH, @Safixoo, @Shinusei, @SmileYik, @StaffiX, @Steelux8, @StefanAnnon, @Superfrogman98, @Taskeren, @Tctcl, @TheEpicGamer274, @TheUnderTaker11, @Thorium0, @TimeConqueror, @TotallyNotOndre, @Trinsdar, @TwoDCube, @VinDevGH, @Vlamonster, @Volence, @WaterShuriken, @Wmaxlees, @Worive, @Wyvest, @YannickMG, @ZakBerkelaar, @ZaykieT, @Zdesl, @a3626a, @ah-OOG-ah, @alphaomega21, @asiekierka, @asquared31415, @basdxz, @bluhbipo, @boubou19, @brandyyn, @cargocats, @chochem, @clzola, @combusterf, @cutiegin, @czerwonogrodzki, @dagger8243, @ddoubleo, @des-cuddlebat, @dipo33, @dvdmandt, @eigenraven, @embeddedt, @evgengoldwar, @firenoo, @foxwhite25, @github-actions, @glowredman, @gravit0, @hacatu, @hallucinogender, @hiroscho, @hpotter02, @joegnis, @jss2a98aj, @kappa-maintainer, @ketikai, @kevzhao2, @koiNoCirculation, @koolkrafter5, @kotmatross28729, @kstvr32, @kuba6000, @kurrycat2004, @kuzuanpa, @leumasme, @lordIcocain, @mainrs, @markfrydrych, @meonester, @miozune, @mist475, @mitchej123, @mudkipperman, @nikita23830, @nman1300, @norbby42, @nshepperd, @pashabou, @querns, @reobf, @riking, @serenibyss, @skyinr, @slprime, @socolio, @sousuke0422, @spacebuilder2020, @szuend, @toadjaune, @topquarkred, @truenachtara, @tsiarokhin, @tth05, @unicornbloods, @unilock, @wantayanamirei, @wlhlm, @wohaopa, @xJon, @xcube16, @zTotto, @zhehedream, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

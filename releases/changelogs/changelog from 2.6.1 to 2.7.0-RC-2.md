@@ -9,23 +9,7 @@
 > * Aroma1997Core
 > * AromaBackup
 > * Baubles
-> * CodeChickenLib
-> * DetravScannerMod
-> * GTNEIOrePlugin
-> * GTNH-Lanthanides
-> * GTplusplus
-> * GalacticGregGT5
-> * GigaGramFab
-> * GoodGenerator
 > * INpureCore
-> * KekzTech
-> * KubaTech
-> * StorageDrawers-BiomesOPlenty
-> * StorageDrawers-Forestry
-> * StorageDrawers-Misc
-> * StorageDrawers-Natura
-> * TecTech
-> * bartworks
 # Updated AE2FluidCraft-Rework (1.2.29-gtnh -->  1.3.50-gtnh)
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.2.29-gtnh...1.3.50-gtnh
 >## What's Changed
