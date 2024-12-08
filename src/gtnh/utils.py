@@ -189,7 +189,7 @@ def compress_changelog(file_path: Path) -> None:
                         match = re.search(r"by (@\S+) in http.*$", line)
                         if match:
                             current_entry.contributors.add(match.group(1))
-                        current_entry.changes.append(f"{line[3:]} ({current_version})")
+                        current_entry.changes.append((line[3:], [current_version]))
                     else:
                         current_entry.new_contributors.append(f"{line[3:]} ({current_version})")
                 elif line.startswith(">**Full Changelog**: "):
@@ -247,8 +247,23 @@ def compress_changelog(file_path: Path) -> None:
 
             if ent.changes:
                 lines.append(">## What's Changed\n")
+
+                # Deduplicate changelog entries (caused by -pre versions for example).
+                deduplicated_changes: list[tuple[str, list[str]]] = []
+                prev_change: Optional[tuple[str, list[str]]] = None
                 for ch in ent.changes:
-                    lines.append("> * " + ch + "\n")
+                    if prev_change is None:
+                        prev_change = ch
+                    elif ch[0] != prev_change[0]:
+                        deduplicated_changes.append(prev_change)
+                        prev_change = ch
+                    else:
+                        prev_change[1].extend(ch[1])
+                if prev_change is not None:
+                    deduplicated_changes.append(prev_change)
+
+                for ch in deduplicated_changes:
+                    lines.append(f"> * {ch[0]} ({', '.join(ch[1])})\n")
                 lines.append(">\n")
 
             if ent.contributors:
