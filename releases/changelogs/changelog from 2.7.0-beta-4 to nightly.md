@@ -223,7 +223,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.101
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.102
+## *5.09.50.102*
+>## What's Changed
+>* fix a few recipe conflicts II by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3613
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.101...5.09.50.102
+>
+
 ## *5.09.50.101*
 >## What's Changed
 >* Resolved Recipe Conflict with pipe casing by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3612
@@ -703,7 +711,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.18-GTNH...2.4.19-GTNH
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.6.87
+# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.6.88
+## *2.6.88*
+>## What's Changed
+>* fix a few recipe conflicts by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1098
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.87...2.6.88
+>
+
 ## *2.6.87*
 >## What's Changed
 >* Rebalance new Neutronium Compressor casing by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1097
