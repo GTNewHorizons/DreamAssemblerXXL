@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-12-09T03:27:21.535559",
-  "config": "2.7.0-nightly-2024-12-07-2",
+  "last_updated": "2024-12-09T20:05:25.942074",
+  "config": "2.8.0-nightly-2024-12-09",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.4-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-478-GTNH",
+      "version": "rv3-beta-500-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.103",
+      "version": "5.09.51.00",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.5.21",
+      "version": "0.5.22",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "Infernal-Mobs": {
-      "version": "1.9.1-GTNH",
+      "version": "1.10.0-GTNH",
       "side": "BOTH"
     },
     "InGame-Info-XML": {
@@ -349,7 +349,7 @@
       "side": "CLIENT"
     },
     "MX-Random": {
-      "version": "0.4.6",
+      "version": "0.5.0",
       "side": "BOTH"
     },
     "Natura": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.6.35",
+      "version": "2.7.0",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.4.30",
+      "version": "1.5.0",
       "side": "BOTH"
     },
     "amunra": {
