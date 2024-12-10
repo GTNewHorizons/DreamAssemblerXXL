@@ -81,7 +81,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.3.3...3.3.4
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-477-GTNH --> rv3-beta-478-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-477-GTNH --> rv3-beta-500-GTNH
+## *rv3-beta-500-GTNH*
+>## What's Changed
+>* Change the texture offset so that the chest and drive use different parts of the same file instead of overlapping by @Ethryan in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/618
+>* Display custom name in MemoryCard tooltip by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/614
+>
+>## New Contributors
+>* @Worive made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/614
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-478-GTNH...rv3-beta-500-GTNH
+>
+
+## *rv3-beta-479-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-478-GTNH...rv3-beta-479-GTNH
+>
+
 ## *rv3-beta-478-GTNH*
 >## What's Changed
 >* retain the priority setting of the storage buses when wrenched by @boubou19 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/615
@@ -223,7 +238,32 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.50.103
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.00
+## *5.09.51.00*
+>## What's Changed
+>* Remove second Description Line of Network Switch by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3615
+>* Add efficiency to cleanroom gui by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3616
+>* Decrease TF-specific vein max height spawn by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3590
+>* Downtier Transformation Module by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3527
+>* Consistent recipe check order for ME crafting buses. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3555
+>* Add WAILA info displaying recipe outputs to multiblocks by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3586
+>* Fix NEI fuel recipes for large boilers by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3565
+>* Unifying multi-mode multis tooltips, adds "shortnames" to some multis by @CrystieColon3 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3560
+>* Add an upgradable hand pump by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3485
+>* Remove Compact Fusion force chunk loading by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3618
+>* Remove DTPF force chunk loading by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3619
+>* Refactored BioLab and Radio Hatch Recipes by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3515
+>
+>## New Contributors
+>* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3615
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
+>
+
+## *5.09.50.104*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.50.104
+>
+
 ## *5.09.50.103*
 >## What's Changed
 >* Fixing AE2 Crystal Seeds Pt. 2 by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3614
@@ -532,7 +572,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.72...5.09.50.73
 >
 
-# Updated - GTNH-Intergalactic - 1.4.25 --> 1.4.30
+# Updated - GTNH-Intergalactic - 1.4.25 --> 1.5.0
+## *1.5.0*
+>## What's Changed
+>* Disable space assembler recipe optimization by @GDCloudstrike in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/88
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.5.0
+>
+
 ## *1.4.30*
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.29...1.4.30
 >
@@ -569,7 +617,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.25...1.4.26
 >
 
-# Updated - GTNHLib - 0.5.20 --> 0.5.21
+# Updated - GTNHLib - 0.5.20 --> 0.5.22
+## *0.5.22*
+>## What's Changed
+>* Add an interface for meta- and nbt-aware music disks to fix modded disk support in electric jukeboxes by @eigenraven in https://github.com/GTNewHorizons/GTNHLib/pull/96
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.5.21...0.5.22
+>
+
 ## *0.5.21*
 >## What's Changed
 >* Move lore handler from intergalactic to gtnhlib by @serenibyss in https://github.com/GTNewHorizons/GTNHLib/pull/92
@@ -639,7 +695,31 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.79...2.5.80
 >
 
-# Updated - MX-Random - 0.4.5 --> 0.4.6
+# Updated - Infernal-Mobs - 1.9.1-GTNH --> 1.10.0-GTNH
+## *1.10.0-GTNH*
+>## What's Changed
+>* Move mob name above healthbar and adjust name colors by @wlhlm in https://github.com/GTNewHorizons/Infernal-Mobs/pull/18
+>* Fix mob display name in boss bar by @wlhlm in https://github.com/GTNewHorizons/Infernal-Mobs/pull/17
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
+>
+
+## *1.9.2-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.9.2-GTNH
+>
+
+# Updated - MX-Random - 0.4.5 --> 0.5.0
+## *0.5.0*
+>## What's Changed
+>* Port to Java by @serenibyss in https://github.com/GTNewHorizons/MX-Random/pull/14
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/MX-Random/pull/14
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.4.6...0.5.0
+>
+
 ## *0.4.6*
 >## What's Changed
 >* Fix LMA shutdown and cable disconnection by @reobf in https://github.com/GTNewHorizons/MX-Random/pull/13
@@ -974,5 +1054,14 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.4...2.1.5
+>
+
+# Updated - twilightforest - 2.6.35 --> 2.7.0
+## *2.7.0*
+>## What's Changed
+>* Add conquered mark into the magic map by @zhehedream in https://github.com/GTNewHorizons/twilightforest/pull/92
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.6.35...2.7.0
 >
 
