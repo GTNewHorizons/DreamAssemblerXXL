@@ -178,7 +178,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.6.7...1.6.8
 >
 
-# Updated - Botania - 1.11.5-GTNH --> 1.11.6-GTNH
+# Updated - Botania - 1.11.5-GTNH --> 1.12.1-GTNH
+## *1.12.1-GTNH*
+>## What's Changed
+>* Fix music disk use in the GT electric jukebox by adding metadata by @eigenraven in https://github.com/GTNewHorizons/Botania/pull/66
+>
+>## New Contributors
+>* @eigenraven made their first contribution in https://github.com/GTNewHorizons/Botania/pull/66
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.11.6-GTNH...1.12.1-GTNH
+>
+
+## *1.11.7-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.11.6-GTNH...1.11.7-GTNH
+>
+
 ## *1.11.6-GTNH*
 >## What's Changed
 >* Fix reach ring by @Shadow1590 in https://github.com/GTNewHorizons/Botania/pull/64
@@ -238,7 +252,28 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.00
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.02
+## *5.09.51.02*
+>## What's Changed
+>* Fix DTPF convergence item consumption by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3629
+>* Fix fusion hatch textures by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3632
+>* Delete the RunGC command by @Ethryan in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3631
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.01...5.09.51.02
+>
+
+## *5.09.51.01*
+>## What's Changed
+>* fix NPE in MTEMultiAutoclave.getWailaNBTData by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3624
+>* bandaid fix for rotated turbine overlay by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3622
+>* localize research station mode for waila by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3623
+>* Fix modded music disk playback in the electric jukebox using the new GTNHLib api by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3628
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.00...5.09.51.01
+>
+
 ## *5.09.51.00*
 >## What's Changed
 >* Remove second Description Line of Network Switch by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3615
@@ -668,7 +703,34 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.2.5-GTNH...3.2.6-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.79 --> 2.5.82
+# Updated - Hardcore-Ender-Expansion - 1.11.3-GTNH --> 1.12.0-GTNH
+## *1.12.0-GTNH*
+>## What's Changed
+>* Fix music disk use in the GT electric jukebox by adding metadata by @eigenraven in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/21
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
+>
+
+## *1.11.4-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.11.4-GTNH
+>
+
+# Updated - Hodgepodge - 2.5.79 --> 2.6.0
+## *2.6.0*
+>## What's Changed
+>* Fix off by one int clamp in Witchery's glyph rendering by @Cleptomania in https://github.com/GTNewHorizons/Hodgepodge/pull/448
+>* cleanup MixinContainerFilingCabinet by @Midnight145 in https://github.com/GTNewHorizons/Hodgepodge/pull/450
+>* Configurable ender quarry RF storage by @Midnight145 in https://github.com/GTNewHorizons/Hodgepodge/pull/446
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.82...2.6.0
+>
+
+## *2.5.83*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.82...2.5.83
+>
+
 ## *2.5.82*
 >## What's Changed
 >* Split FixHandleSetSlot into container & inv by @RecursivePineapple in https://github.com/GTNewHorizons/Hodgepodge/pull/444
@@ -921,6 +983,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.46-GTNH...2.6.47-GTNH
 >
 
+# Updated - OpenModularTurrets - 2.3.6 --> 2.4.0
+## *2.4.0*
+>## What's Changed
+>* Updates for powering Turret Bases, no more IC2, but GT5 by @Keridos in https://github.com/GTNewHorizons/OpenModularTurrets/pull/6
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.4.0
+>
+
+## *2.3.7*
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.3.7
+>
+
 # Updated - RemoteIO - 2.6.2 --> 2.6.4
 ## *2.6.4*
 >## What's Changed
@@ -940,7 +1015,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.6.2...2.6.3
 >
 
-# Updated - ServerUtilities - 2.0.85 --> 2.0.88
+# Updated - ServerUtilities - 2.0.85 --> 2.1.0
+## *2.1.0*
+>## What's Changed
+>* Add backup restore ui by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/142
+>* Fix display name not syncing again by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/150
+>* Fix a few command issues by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/151
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.0.88...2.1.0
+>
+
+## *2.0.89*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.0.88...2.0.89
+>
+
 ## *2.0.88*
 >## What's Changed
 >* Fix display names not syncing when player logs in by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/148
