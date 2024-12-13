@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-12-12T03:23:49.428490",
-  "config": "2.8.0-nightly-2024-12-09",
+  "last_updated": "2024-12-13T03:25:31.240628",
+  "config": "2.8.0-nightly-2024-12-12",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.4-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-500-GTNH",
+      "version": "rv3-beta-501-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.97-GTNH",
+      "version": "1.1.100-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.02",
+      "version": "5.09.51.04",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.6.8",
+      "version": "1.7.0",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.6.88",
+      "version": "2.7.0",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WAILAPlugins": {
-      "version": "0.5.1",
+      "version": "0.6.0",
       "side": "BOTH"
     },
     "WanionLib": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.0",
+      "version": "2.1.1",
       "side": "BOTH"
     },
     "Tinkers-Defense": {

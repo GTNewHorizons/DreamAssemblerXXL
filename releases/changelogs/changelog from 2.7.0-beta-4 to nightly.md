@@ -81,7 +81,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.3.3...3.3.4
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-477-GTNH --> rv3-beta-500-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-477-GTNH --> rv3-beta-501-GTNH
+## *rv3-beta-501-GTNH*
+>## What's Changed
+>* Fix NEI Synchronization by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/619
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-500-GTNH...rv3-beta-501-GTNH
+>
+
 ## *rv3-beta-500-GTNH*
 >## What's Changed
 >* Change the texture offset so that the chest and drive use different parts of the same file instead of overlapping by @Ethryan in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/618
@@ -252,7 +260,40 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.02
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.04
+## *5.09.51.04*
+>## What's Changed
+>* Rotate Screwdriver 90° From File by @benjamin-kirkbride in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3640
+>
+>## New Contributors
+>* @benjamin-kirkbride made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3640
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.03...5.09.51.04
+>
+
+## *5.09.51.03*
+>## What's Changed
+>* Fix Wrong Nether/Fluix Quartz Seed Amount in Autoclave by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3636
+>* Fix LSC wireless rebalance push wrong info. by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3638
+>* Fix Rocket engine pollution by @zhehedream in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3635
+>* Remove a few more commands the shouldn't be in use. by @Ethryan in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3634
+>* Allow I/O Hatches to be placed on all Steel Casings in the Industrial Lathe  by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3637
+>* Fix UUA time multiplier by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3641
+>* remove outdated compat code by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3307
+>* Separate tool crafting sound from getContainerItem by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3639
+>* Remove some GT tools by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3203
+>* Add missing goodgenerator solidifier recipes by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3645
+>* Deprecate BW low power lasers by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3644
+>* Migrate GalaxySpace materials to GT5u by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3520
+>* Add Signalium, Lumiium and Enderium ABS recipes by @BlueHero233 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3355
+>
+>## New Contributors
+>* @zhehedream made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3635
+>* @purebluez made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3637
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.02...5.09.51.03
+>
+
 ## *5.09.51.02*
 >## What's Changed
 >* Fix DTPF convergence item consumption by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3629
@@ -703,6 +744,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.2.5-GTNH...3.2.6-GTNH
 >
 
+# Updated - Galaxy-Space-GTNH - 1.1.97-GTNH --> 1.1.100-GTNH
+## *1.1.100-GTNH*
+>## What's Changed
+>* Migrate GalaxySpace materials to GT5u by @serenibyss in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/121
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.97-GTNH...1.1.100-GTNH
+>
+
 # Updated - Hardcore-Ender-Expansion - 1.11.3-GTNH --> 1.12.0-GTNH
 ## *1.12.0-GTNH*
 >## What's Changed
@@ -861,7 +911,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.18-GTNH...2.4.19-GTNH
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.6.88
+# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.7.0
+## *2.7.0*
+>## What's Changed
+>* Remove tools by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1101
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
+>
+
 ## *2.6.88*
 >## What's Changed
 >* fix a few recipe conflicts by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1098
@@ -1015,7 +1073,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.6.2...2.6.3
 >
 
-# Updated - ServerUtilities - 2.0.85 --> 2.1.0
+# Updated - ServerUtilities - 2.0.85 --> 2.1.1
+## *2.1.1*
+>## What's Changed
+>* Update Quick-Install with an example by @Ethryan in https://github.com/GTNewHorizons/ServerUtilities/pull/152
+>* Fix aurora config registration by @Ogg-Vorbis in https://github.com/GTNewHorizons/ServerUtilities/pull/155
+>* Fix backups failing from temp playerdata files by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/156
+>
+>## New Contributors
+>* @Ogg-Vorbis made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/155
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.0...2.1.1
+>
+
 ## *2.1.0*
 >## What's Changed
 >* Add backup restore ui by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/142
@@ -1116,6 +1186,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/TravellersGearNeo/compare/1.2.2...1.2.3
 >
 
+# Updated - WAILAPlugins - 0.5.1 --> 0.6.0
+## *0.6.0*
+>## What's Changed
+>* Fix typo in lang file for Forestry apiaries by @koolkrafter5 in https://github.com/GTNewHorizons/WAILAPlugins/pull/19
+>
+>## New Contributors
+>* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/WAILAPlugins/pull/19
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.5.1...0.6.0
+>
+
 # Updated - WarpTheory - 1.4.2-GTNH --> 1.4.3-GTNH
 ## *1.4.3-GTNH*
 >## What's Changed
@@ -1143,6 +1224,15 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.4...2.1.5
+>
+
+# Updated - nei-custom-diagram - 1.6.8 --> 1.7.0
+## *1.7.0*
+>## What's Changed
+>* Remove unused tool bits by @Connor-Colenso in https://github.com/GTNewHorizons/nei-custom-diagram/pull/44
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.6.8...1.7.0
 >
 
 # Updated - twilightforest - 2.6.35 --> 2.7.0
