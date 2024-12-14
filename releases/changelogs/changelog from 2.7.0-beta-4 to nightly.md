@@ -17,8 +17,19 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.48-gtnh...1.3.49-gtnh
 >
 
-# Updated - Angelica - 1.0.0-beta20 --> 1.0.0-beta25
+# Updated - Angelica - 1.0.0-beta20 --> 1.0.0-beta26
 Mod is client-side only.
+## *1.0.0-beta26*
+>## What's Changed
+>* Fix invisible crosshair with Xaero's Minimap by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/775
+>* Actually fix xaero's crosshair by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/781
+>* Fix chunk render manager state not swapping, causing lower render distance with shaders on by @embeddedt in https://github.com/GTNewHorizons/Angelica/pull/789
+>* Fix rebuild check being wrong when shaders are on by @embeddedt in https://github.com/GTNewHorizons/Angelica/pull/788
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta25...1.0.0-beta26
+>
+
 ## *1.0.0-beta25*
 >## What's Changed
 >* Frametime exploration by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/742
@@ -260,7 +271,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.04
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.05
+## *5.09.51.05*
+>## What's Changed
+>* fix reservoir hatch crash by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3646
+>* Add Research Station to NEI Scanner List by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3647
+>* Refactor Steam Input Bus to extend MTEHatchInputBus by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3642
+>* Making Plasma Arc Furnace more useful by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3357
+>* Adds Tin Alloy mixer recipe by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3542
+>* Fix a few Glass Tooltips by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3648
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.04...5.09.51.05
+>
+
 ## *5.09.51.04*
 >## What's Changed
 >* Rotate Screwdriver 90° From File by @benjamin-kirkbride in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3640
@@ -911,7 +935,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.18-GTNH...2.4.19-GTNH
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.7.0
+# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.7.1
+## *2.7.1*
+>## What's Changed
+>* Fix custom drops chances by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1103
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.0...2.7.1
+>
+
 ## *2.7.0*
 >## What's Changed
 >* Remove tools by @Connor-Colenso in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1101
