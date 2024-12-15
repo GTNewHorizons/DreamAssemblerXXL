@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-12-15T13:04:39.049122",
+  "last_version": "2.7.0",
+  "last_updated": "2024-12-15T16:32:02.892831",
   "config": "2.8.0-nightly-2024-12-15",
   "github_mods": {
     "AdventureBackpack2": {
@@ -871,7 +871,7 @@
       "side": "BOTH"
     },
     "Extra Utilities": {
-      "version": "1.2.13a",
+      "version": "1.2.12",
       "side": "BOTH"
     },
     "Industrial Craft 2": {
