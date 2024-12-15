@@ -271,7 +271,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.05
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.06
+## *5.09.51.06*
+>## What's Changed
+>* Add some more missing solidifier recipes by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3649
+>* PArt 1 of Wire/cable rebalance, take 2 by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3510
+>* Make Uncertain Resolver X the default version by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3408
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.05...5.09.51.06
+>
+
 ## *5.09.51.05*
 >## What's Changed
 >* fix reservoir hatch crash by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3646
@@ -790,7 +800,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.11.4-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.79 --> 2.6.0
+# Updated - Hodgepodge - 2.5.79 --> 2.6.2
+## *2.6.2*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.1...2.6.2
+>
+
+## *2.6.1*
+>## What's Changed
+>* Adjust GTNHLib coremod name in TargetedMod by @Georggi in https://github.com/GTNewHorizons/Hodgepodge/pull/451
+>
+>## New Contributors
+>* @Georggi made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/451
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.0...2.6.1
+>
+
 ## *2.6.0*
 >## What's Changed
 >* Fix off by one int clamp in Witchery's glyph rendering by @Cleptomania in https://github.com/GTNewHorizons/Hodgepodge/pull/448
@@ -935,7 +959,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.18-GTNH...2.4.19-GTNH
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.7.1
+# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.7.2
+## *2.7.2*
+>## What's Changed
+>* Fix avaritia tool recipes in NEI by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1106
+>* Add more recycling recipes by @Ableytner in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1096
+>* Added recipes in oreder to get currently unobtainable foods by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1105
+>* migrate air filter to use new style turbine rendering by @Glease in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1099
+>* Wire rebalance part 2, electric bugaloo or whatever by @LazyFleshWasTaken in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1085
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.1...2.7.2
+>
+
 ## *2.7.1*
 >## What's Changed
 >* Fix custom drops chances by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1103
@@ -1073,6 +1109,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.46-GTNH...2.6.47-GTNH
 >
 
+# Updated - OpenComputers - 1.10.27-GTNH --> 1.11.0-GTNH
+## *1.11.0-GTNH*
+>## What's Changed
+>* use buffer in LuaStateFactory file comparison by @charagarlnad in https://github.com/GTNewHorizons/OpenComputers/pull/137
+>
+>## New Contributors
+>* @charagarlnad made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/137
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.10.27-GTNH...1.11.0-GTNH
+>
+
 # Updated - OpenModularTurrets - 2.3.6 --> 2.4.0
 ## *2.4.0*
 >## What's Changed
@@ -1166,7 +1213,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.0.3-GTNH...2.0.4-GTNH
 >
 
-# Updated - StructureLib - 1.3.5 --> 1.3.6
+# Updated - StructureLib - 1.3.5 --> 1.4.1-pre
+## *1.4.1-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.0...1.4.1-pre
+>
+
+## *1.4.0*
+>## What's Changed
+>* Add error hint when block is invalid by @kstvr32 in https://github.com/GTNewHorizons/StructureLib/pull/31
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.3.6...1.4.0
+>
+
 ## *1.3.6*
 >## What's Changed
 >* Send correct identifier when instrumenting by @Lyfts in https://github.com/GTNewHorizons/StructureLib/pull/34
