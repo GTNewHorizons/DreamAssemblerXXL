@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.7.0",
-  "last_updated": "2024-12-15T16:32:02.892831",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-12-16T03:27:10.722438",
   "config": "2.8.0-nightly-2024-12-15",
   "github_mods": {
     "AdventureBackpack2": {
@@ -157,7 +157,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.7.13",
+      "version": "1.8.0",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.7.0",
+      "version": "1.7.1",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -405,7 +405,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.11.0-GTNH",
+      "version": "1.11.1-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -533,7 +533,7 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.7.7",
+      "version": "1.8.0",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
@@ -641,7 +641,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.2.16",
+      "version": "1.2.17-pre",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.1",
+      "version": "2.1.2",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -871,7 +871,7 @@
       "side": "BOTH"
     },
     "Extra Utilities": {
-      "version": "1.2.12",
+      "version": "1.2.13a",
       "side": "BOTH"
     },
     "Industrial Craft 2": {

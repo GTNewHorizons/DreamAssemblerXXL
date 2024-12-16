@@ -148,7 +148,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.54...1.55
 >
 
-# Updated - BlockRenderer6343 - 1.2.14 --> 1.2.16
+# Updated - BlockRenderer6343 - 1.2.14 --> 1.2.17-pre
+## *1.2.17-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.16...1.2.17-pre
+>
+
 ## *1.2.16*
 >## What's Changed
 >* Show NEI preview for GoodGenerator and GTNH-Lanthanides by @Ableytner in https://github.com/GTNewHorizons/BlockRenderer6343/pull/24
@@ -233,7 +237,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/CarpentersBlocks/compare/3.6.2-GTNH...3.6.3-GTNH
 >
 
-# Updated - Crops-plus-plus - 1.7.11 --> 1.7.13
+# Updated - Crops-plus-plus - 1.7.11 --> 1.8.0
+## *1.8.0*
+>## What's Changed
+>* Fix Typo for Natura Blueberry by @Yoshy2002 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/84
+>
+>## New Contributors
+>* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/84
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.7.13...1.8.0
+>
+
+## *1.7.14*
+>**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.7.13...1.7.14
+>
+
 ## *1.7.13*
 >**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.7.12...1.7.13
 >
@@ -271,7 +289,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.06
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.07
+## *5.09.51.07*
+>## What's Changed
+>* Revisiting Neutron Accelerators by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3538
+>* fix bug in werkstoff recipe autogen by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3652
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.06...5.09.51.07
+>
+
 ## *5.09.51.06*
 >## What's Changed
 >* Add some more missing solidifier recipes by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3649
@@ -959,7 +986,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.18-GTNH...2.4.19-GTNH
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.7.2
+# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.7.3
+## *2.7.3*
+>## What's Changed
+>* Add ME output hatches+singularity cell recipe by @HoleFish in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1090
+>* stop Luv solenoid being gated ZPM by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1107
+>
+>## New Contributors
+>* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1107
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.2...2.7.3
+>
+
 ## *2.7.2*
 >## What's Changed
 >* Fix avaritia tool recipes in NEI by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1106
@@ -1109,7 +1147,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.46-GTNH...2.6.47-GTNH
 >
 
-# Updated - OpenComputers - 1.10.27-GTNH --> 1.11.0-GTNH
+# Updated - OpenComputers - 1.10.27-GTNH --> 1.11.1-GTNH
+## *1.11.1-GTNH*
+>## What's Changed
+>* NEI manual offset fix by @YannickMG in https://github.com/GTNewHorizons/OpenComputers/pull/138
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/138
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.0-GTNH...1.11.1-GTNH
+>
+
 ## *1.11.0-GTNH*
 >## What's Changed
 >* use buffer in LuaStateFactory file comparison by @charagarlnad in https://github.com/GTNewHorizons/OpenComputers/pull/137
@@ -1152,7 +1200,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.6.2...2.6.3
 >
 
-# Updated - ServerUtilities - 2.0.85 --> 2.1.1
+# Updated - ServerUtilities - 2.0.85 --> 2.1.2
+## *2.1.2*
+>## What's Changed
+>* Fix backup folder not being created by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/157
+>* Fix permissions not working for subcommands by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/158
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.1...2.1.2
+>
+
 ## *2.1.1*
 >## What's Changed
 >* Update Quick-Install with an example by @Ethryan in https://github.com/GTNewHorizons/ServerUtilities/pull/152
@@ -1232,6 +1289,21 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.3.5...1.3.6
+>
+
+# Updated - ThaumicBases - 1.7.7 --> 1.8.0
+## *1.8.0*
+>## What's Changed
+>* Change primal shrooms behaviour by @Yoshy2002 in https://github.com/GTNewHorizons/ThaumicBases/pull/44
+>
+>## New Contributors
+>* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/44
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.7.7...1.8.0
+>
+
+## *1.7.8*
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.7.7...1.7.8
 >
 
 # Updated - ThaumicHorizons - 1.6.4 --> 1.6.5
@@ -1317,7 +1389,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.4...2.1.5
 >
 
-# Updated - nei-custom-diagram - 1.6.8 --> 1.7.0
+# Updated - nei-custom-diagram - 1.6.8 --> 1.7.1
+## *1.7.1*
+>**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.7.0...1.7.1
+>
+
 ## *1.7.0*
 >## What's Changed
 >* Remove unused tool bits by @Connor-Colenso in https://github.com/GTNewHorizons/nei-custom-diagram/pull/44
