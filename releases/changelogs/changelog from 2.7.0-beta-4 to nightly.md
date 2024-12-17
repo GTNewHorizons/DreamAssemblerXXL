@@ -289,7 +289,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.07
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.08
+## *5.09.51.08*
+>## What's Changed
+>* Single-block boilers accept empty containers again by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3651
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.07...5.09.51.08
+>
+
 ## *5.09.51.07*
 >## What's Changed
 >* Revisiting Neutron Accelerators by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3538
