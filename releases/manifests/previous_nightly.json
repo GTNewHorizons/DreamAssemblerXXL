@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-12-15T03:27:35.332793",
-  "config": "2.8.0-nightly-2024-12-13",
+  "last_updated": "2024-12-17T03:23:13.376634",
+  "config": "2.8.0-nightly-2024-12-15",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.4-GTNH",
@@ -157,7 +157,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.7.13",
+      "version": "1.8.0",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.06",
+      "version": "5.09.51.08",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.7.0",
+      "version": "1.7.1",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.2",
+      "version": "2.7.3",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -405,7 +405,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.11.0-GTNH",
+      "version": "1.11.1-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -533,7 +533,7 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.7.7",
+      "version": "1.8.0",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
@@ -641,7 +641,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.2.16",
+      "version": "1.2.17-pre",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.1",
+      "version": "2.1.2",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
