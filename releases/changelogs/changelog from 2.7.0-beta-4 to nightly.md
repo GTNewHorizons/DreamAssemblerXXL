@@ -1,4 +1,23 @@
-# Updated - AE2FluidCraft-Rework - 1.3.48-gtnh --> 1.3.50-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.48-gtnh --> 1.4.0-gtnh
+## *1.4.0-gtnh*
+>## What's Changed
+>* Fix pattern dividing by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/246
+>* Change default texture name and add new texture by @EnderProyects in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/251
+>
+>## New Contributors
+>* @EnderProyects made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/251
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
+>
+
+## *1.3.52-gtnh*
+>## What's Changed
+>* Fix pattern dividing by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/246
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.3.52-gtnh
+>
+
 ## *1.3.50-gtnh*
 >## What's Changed
 >* retain the priority setting of the fluid storage buses when wrenched by @boubou19 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/247
@@ -92,7 +111,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.3.3...3.3.4
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-477-GTNH --> rv3-beta-501-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-477-GTNH --> rv3-beta-502-GTNH
+## *rv3-beta-502-GTNH*
+>## What's Changed
+>* Painted ME chest will not connect to different color ME chest/cable. by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/623
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-501-GTNH...rv3-beta-502-GTNH
+>
+
 ## *rv3-beta-501-GTNH*
 >## What's Changed
 >* Fix NEI Synchronization by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/619
@@ -133,7 +160,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.10.1...1.10.2
 >
 
-# Updated - Avaritia - 1.54 --> 1.56
+# Updated - Avaritia - 1.54 --> 1.57
+## *1.57*
+>## What's Changed
+>* Add a check if dreamcraft is loaded by @EnderProyects in https://github.com/GTNewHorizons/Avaritia/pull/46
+>
+>## New Contributors
+>* @EnderProyects made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/46
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.56...1.57
+>
+
 ## *1.56*
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.55...1.56
 >
@@ -237,6 +274,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/CarpentersBlocks/compare/3.6.2-GTNH...3.6.3-GTNH
 >
 
+# Updated - Chisel - 2.15.3-GTNH --> 2.16.0-GTNH
+## *2.16.0-GTNH*
+>## What's Changed
+>* Tooltip fix by @YannickMG in https://github.com/GTNewHorizons/Chisel/pull/54
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/54
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.15.3-GTNH...2.16.0-GTNH
+>
+
+## *2.15.4-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.15.3-GTNH...2.15.4-GTNH
+>
+
 # Updated - Crops-plus-plus - 1.7.11 --> 1.8.0
 ## *1.8.0*
 >## What's Changed
@@ -269,6 +321,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.13-GTNH...1.3.14-GTNH
 >
 
+# Updated - Electro-Magic-Tools - 1.5.16 --> 1.6.0
+## *1.6.0*
+>## What's Changed
+>* Migrate Research Completer to GT5u by @serenibyss in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/88
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/88
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.5.16...1.6.0
+>
+
 # Updated - FindIt - 1.3.9 --> 1.3.10
 ## *1.3.10*
 >## What's Changed
@@ -289,7 +352,34 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.08
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.10
+## *5.09.51.10*
+>## What's Changed
+>* Remove priest tier skip by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3660
+>* change: fix symmetry of decontaminant degasser by @combusterf in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3661
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.09...5.09.51.10
+>
+
+## *5.09.51.09*
+>## What's Changed
+>* Reallow dynamo hatches on Data Bank for power pass by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3653
+>* Migrate Research Completer to GT5u by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3620
+>* Fix Zircaloy-4 dust recipe conflict by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3654
+>* Add a small bonus applied to fuels with large burntime to GT large boilers.   by @spacebuilder2020 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3418
+>* Align multiblock text to left by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3553
+>* Refactoring LES code for better readability by @CrystieColon3 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3569
+>* Fix lag probably caused by crib by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3655
+>* LES Tricorder Parallel count info by @CrystieColon3 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3656
+>* Change scanner to respect fake recipe item count by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3657
+>* HIP Unit mini rework  by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3658
+>* Reduce Naquadria plasma amount in stellar catalyst by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3659
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.08...5.09.51.09
+>
+
 ## *5.09.51.08*
 >## What's Changed
 >* Single-block boilers accept empty containers again by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3651
@@ -403,6 +493,22 @@ Mod is client-side only.
 >* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3615
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
+>
+
+## *5.09.50.108*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.107...5.09.50.108
+>
+
+## *5.09.50.107*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.106...5.09.50.107
+>
+
+## *5.09.50.106*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.105...5.09.50.106
+>
+
+## *5.09.50.105*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.104...5.09.50.105
 >
 
 ## *5.09.50.104*
@@ -717,7 +823,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.72...5.09.50.73
 >
 
-# Updated - GTNH-Intergalactic - 1.4.25 --> 1.5.0
+# Updated - GTNH-Intergalactic - 1.4.25 --> 1.5.1
+## *1.5.1*
+>## What's Changed
+>* Remove Space Elevator chunk loading by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/90
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.0...1.5.1
+>
+
 ## *1.5.0*
 >## What's Changed
 >* Disable space assembler recipe optimization by @GDCloudstrike in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/88
@@ -904,7 +1018,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.9.2-GTNH
 >
 
-# Updated - MX-Random - 0.4.5 --> 0.5.0
+# Updated - MX-Random - 0.4.5 --> 0.5.1
+## *0.5.1*
+>## What's Changed
+>* Add LMA recipe back by @StaffiX in https://github.com/GTNewHorizons/MX-Random/pull/16
+>
+>## New Contributors
+>* @StaffiX made their first contribution in https://github.com/GTNewHorizons/MX-Random/pull/16
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.5.0...0.5.1
+>
+
 ## *0.5.0*
 >## What's Changed
 >* Port to Java by @serenibyss in https://github.com/GTNewHorizons/MX-Random/pull/14
@@ -925,7 +1049,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.4.5...0.4.6
 >
 
-# Updated - Mobs-Info - 0.4.6-GTNH --> 0.4.7-GTNH
+# Updated - Mobs-Info - 0.4.6-GTNH --> 0.5.0-GTNH
+## *0.5.0-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
+>
+
 ## *0.4.7-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.6-GTNH...0.4.7-GTNH
 >
@@ -994,7 +1122,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.18-GTNH...2.4.19-GTNH
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.7.3
+# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.7.4
+## *2.7.4*
+>## What's Changed
+>* Added assembler recipes for all missing transformers by @CrystieColon3 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1091
+>* Add new recipe for asgardandelion by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1108
+>* priest trade improvements by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1111
+>
+>## New Contributors
+>* @CrystieColon3 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1091
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.3...2.7.4
+>
+
 ## *2.7.3*
 >## What's Changed
 >* Add ME output hatches+singularity cell recipe by @HoleFish in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1090
@@ -1110,7 +1250,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.83...2.6.79
 >
 
-# Updated - NotEnoughItems - 2.6.46-GTNH --> 2.6.51-GTNH
+# Updated - NotEnoughItems - 2.6.46-GTNH --> 2.7.0-GTNH
+## *2.7.0-GTNH*
+>## What's Changed
+>* Clear Search Filter Cache after Change Settings by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/569
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.51-GTNH...2.7.0-GTNH
+>
+
+## *2.6.52-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.51-GTNH...2.6.52-GTNH
+>
+
 ## *2.6.51-GTNH*
 >## What's Changed
 >* Fix CME in registerRectsToGuis during plugin loading by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/566
@@ -1208,7 +1360,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.6.2...2.6.3
 >
 
-# Updated - ServerUtilities - 2.0.85 --> 2.1.2
+# Updated - ServerUtilities - 2.0.85 --> 2.1.3
+## *2.1.3*
+>## What's Changed
+>* Proper fix for subcommand permissions by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/159
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.2...2.1.3
+>
+
 ## *2.1.2*
 >## What's Changed
 >* Fix backup folder not being created by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/157
@@ -1297,6 +1457,22 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.3.5...1.3.6
+>
+
+# Updated - TX-Loader - 1.7.2 --> 1.8.0
+Mod is client-side only.
+## *1.8.0*
+>**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.2...1.8.0
+>
+
+## *1.7.3*
+>## What's Changed
+>* feat: log asset path on error by @Pilzinsel64 in https://github.com/GTNewHorizons/TX-Loader/pull/14
+>
+>## New Contributors
+>* @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/TX-Loader/pull/14
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.2...1.7.3
 >
 
 # Updated - ThaumicBases - 1.7.7 --> 1.8.0
@@ -1410,7 +1586,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.6.8...1.7.0
 >
 
-# Updated - twilightforest - 2.6.35 --> 2.7.0
+# Updated - twilightforest - 2.6.35 --> 2.7.1
+## *2.7.1*
+>## What's Changed
+>* Reuse modelview in firefly render by @charagarlnad in https://github.com/GTNewHorizons/twilightforest/pull/95
+>
+>## New Contributors
+>* @charagarlnad made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/95
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.0...2.7.1
+>
+
 ## *2.7.0*
 >## What's Changed
 >* Add conquered mark into the magic map by @zhehedream in https://github.com/GTNewHorizons/twilightforest/pull/92
