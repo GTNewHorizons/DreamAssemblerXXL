@@ -36,8 +36,22 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.48-gtnh...1.3.49-gtnh
 >
 
-# Updated - Angelica - 1.0.0-beta20 --> 1.0.0-beta26
+# Updated - Angelica - 1.0.0-beta20 --> 1.0.0-beta27
 Mod is client-side only.
+## *1.0.0-beta27*
+>## What's Changed
+>* Fix terrain rendering incorrectly when far from origin by @embeddedt in https://github.com/GTNewHorizons/Angelica/pull/790
+>* Properly prevent block face culling when TS is active by @embeddedt in https://github.com/GTNewHorizons/Angelica/pull/796
+>* Remove broken reflection in ChunkBufferSorter. by @nshepperd in https://github.com/GTNewHorizons/Angelica/pull/797
+>* Only clear the translucency sorting render queue when we're not rendering shadows. by @nshepperd in https://github.com/GTNewHorizons/Angelica/pull/798
+>* fix origin weirdness by @embeddedt in https://github.com/GTNewHorizons/Angelica/pull/799
+>
+>## New Contributors
+>* @nshepperd made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/797
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta26...1.0.0-beta27
+>
+
 ## *1.0.0-beta26*
 >## What's Changed
 >* Fix invisible crosshair with Xaero's Minimap by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/775
