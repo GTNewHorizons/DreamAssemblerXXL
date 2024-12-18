@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-12-17T20:00:35.972409",
+  "last_updated": "2024-12-18T03:10:42.232194",
   "config": "2.8.0-nightly-2024-12-15",
   "github_mods": {
     "AdventureBackpack2": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "side": "BOTH"
     },
     "amunra": {
@@ -773,7 +773,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta26",
+      "version": "1.0.0-beta27",
       "side": "CLIENT"
     },
     "AkashicTome": {

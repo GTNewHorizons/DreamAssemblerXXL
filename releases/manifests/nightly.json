@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-12-18T03:10:42.232194",
+  "last_updated": "2024-12-18T17:35:19.555183",
   "config": "2.8.0-nightly-2024-12-15",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-502-GTNH",
+      "version": "rv3-beta-503-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.9.19",
+      "version": "4.10.0",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.10",
+      "version": "5.09.51.11",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.1",
+      "version": "1.5.2",
       "side": "BOTH"
     },
     "amunra": {
