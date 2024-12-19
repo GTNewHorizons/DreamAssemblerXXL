@@ -125,7 +125,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.3.3...3.3.4
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-477-GTNH --> rv3-beta-502-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-477-GTNH --> rv3-beta-503-GTNH
+## *rv3-beta-503-GTNH*
+>## What's Changed
+>* Add Search Cache to Terminal by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/621
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-502-GTNH...rv3-beta-503-GTNH
+>
+
 ## *rv3-beta-502-GTNH*
 >## What's Changed
 >* Painted ME chest will not connect to different color ME chest/cable. by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/623
@@ -346,6 +354,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.5.16...1.6.0
 >
 
+# Updated - EnhancedLootBags - 1.1.1 --> 1.2.0
+## *1.2.0*
+>## What's Changed
+>* Customizable Lootbag icons by @YannickMG in https://github.com/GTNewHorizons/EnhancedLootBags/pull/10
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/EnhancedLootBags/pull/10
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.2.0
+>
+
+## *1.1.2*
+>**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.1.2
+>
+
 # Updated - FindIt - 1.3.9 --> 1.3.10
 ## *1.3.10*
 >## What's Changed
@@ -357,7 +380,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.3.9...1.3.10
 >
 
-# Updated - ForestryMC - 4.9.18 --> 4.9.19
+# Updated - ForestryMC - 4.9.18 --> 4.10.0
+## *4.10.0*
+>## What's Changed
+>* fix: Use GT ash instead of letting unification screw everything up. by @combusterf in https://github.com/GTNewHorizons/ForestryMC/pull/86
+>
+>## New Contributors
+>* @combusterf made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/86
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
+>
+
+## *4.9.20*
+>**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.9.20
+>
+
 ## *4.9.19*
 >## What's Changed
 >* fix apatite ore crash by @chochem in https://github.com/GTNewHorizons/ForestryMC/pull/85
@@ -366,7 +403,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.10
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.11
+## *5.09.51.11*
+>## What's Changed
+>* Add Oredict Tag to Beamline Masks by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3663
+>* Move ingot macerating and ingot/dust fluid extracting out of recycling by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3664
+>* Set an owner in force load chunk NBT for opis by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3666
+>* Spotless apply for branch chunkloader-add-type-information for #3666 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3667
+>* Updated Maintenance texts to become easier to identify by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3541
+>* Fix multi ui text position by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3665
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.10...5.09.51.11
+>
+
 ## *5.09.51.10*
 >## What's Changed
 >* Remove priest tier skip by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3660
@@ -837,7 +887,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.72...5.09.50.73
 >
 
-# Updated - GTNH-Intergalactic - 1.4.25 --> 1.5.1
+# Updated - GTNH-Intergalactic - 1.4.25 --> 1.5.2
+## *1.5.2*
+>## What's Changed
+>* Fix multi ui text position by @HoleFish in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/91
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.1...1.5.2
+>
+
 ## *1.5.1*
 >## What's Changed
 >* Remove Space Elevator chunk loading by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/90
@@ -1567,7 +1625,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.4.2-GTNH...1.4.3-GTNH
 >
 
-# Updated - ae2stuff - 0.8.4-GTNH --> 0.8.5-GTNH
+# Updated - ae2stuff - 0.8.4-GTNH --> 0.9.0-GTNH
+## *0.9.0-GTNH*
+>## What's Changed
+>* Fix ghost TE creation on breaking wireless in survival mode. by @lordIcocain in https://github.com/GTNewHorizons/ae2stuff/pull/26
+>
+>## New Contributors
+>* @lordIcocain made their first contribution in https://github.com/GTNewHorizons/ae2stuff/pull/26
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ae2stuff/compare/0.8.5-GTNH...0.9.0-GTNH
+>
+
+## *0.8.6-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/ae2stuff/compare/0.8.5-GTNH...0.8.6-GTNH
+>
+
 ## *0.8.5-GTNH*
 >## What's Changed
 >* Fix performance issue of the ae2 visualistation tool by @Alexdoru in https://github.com/GTNewHorizons/ae2stuff/pull/25
