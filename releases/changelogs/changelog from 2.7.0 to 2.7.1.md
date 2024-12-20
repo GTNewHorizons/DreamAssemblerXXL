@@ -37,8 +37,8 @@ Mod is client-side only.
 # Updated ForestryMC (4.9.19 -->  4.9.20)
 **Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.9.20
 
-# Updated GT5-Unofficial (5.09.50.103 -->  5.09.50.110)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.50.110
+# Updated GT5-Unofficial (5.09.50.103 -->  5.09.50.111)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.50.111
 
 # Updated GTNH-Intergalactic (1.4.30 -->  1.4.33)
 **Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.4.33
@@ -53,8 +53,8 @@ Mod is client-side only.
 # Updated Hardcore-Ender-Expansion (1.11.3-GTNH -->  1.11.4-GTNH)
 **Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.11.4-GTNH
 
-# Updated Hodgepodge (2.5.82 -->  2.5.85)
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.82...2.5.85
+# Updated Hodgepodge (2.5.82 -->  2.5.86)
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.82...2.5.86
 
 # Updated Infernal-Mobs (1.9.1-GTNH -->  1.9.2-GTNH)
 **Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.9.2-GTNH
@@ -70,6 +70,12 @@ Mod is client-side only.
 
 # Updated OpenModularTurrets (2.3.6 -->  2.3.7)
 **Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.3.7
+
+# Updated Opis (1.4.4-mapless -->  1.4.5-mapless)
+**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.4.4-mapless...1.4.5-mapless
+>## What's Changed
+> * Add force loaded chunks tab to tracking tab by @serenibyss in https://github.com/GTNewHorizons/Opis/pull/15 (1.4.5-mapless)
+>
 
 # Updated ServerUtilities (2.0.88 -->  2.0.92)
 **Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.0.88...2.0.92
@@ -94,4 +100,4 @@ Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.6.35...2.6.37
 
 # Credits
-Special thanks to @Alexdoru, @Caedis, @eigenraven, @embeddedt, @Lyfts, @nshepperd, @Pilzinsel64, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @Alexdoru, @Caedis, @eigenraven, @embeddedt, @Lyfts, @nshepperd, @Pilzinsel64, @serenibyss, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

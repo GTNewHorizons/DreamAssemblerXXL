@@ -1,7 +1,7 @@
 {
   "version": "2.7.1",
   "last_version": "2.7.0",
-  "last_updated": "2024-12-19T22:18:41.662236",
+  "last_updated": "2024-12-20T11:17:35.564874",
   "config": "2.7.1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.50.110",
+      "version": "5.09.50.111",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.5.85",
+      "version": "2.5.86",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -421,7 +421,7 @@
       "side": "BOTH"
     },
     "Opis": {
-      "version": "1.4.4-mapless",
+      "version": "1.4.5-mapless",
       "side": "BOTH"
     },
     "OverloadedArmorBar": {
