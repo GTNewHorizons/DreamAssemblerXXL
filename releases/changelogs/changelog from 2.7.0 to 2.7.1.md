@@ -74,7 +74,7 @@ Mod is client-side only.
 # Updated Opis (1.4.4-mapless -->  1.4.5-mapless)
 **Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.4.4-mapless...1.4.5-mapless
 >## What's Changed
-> * Add force loaded chunks tab to tracking tab by @serenibyss in https://github.com/GTNewHorizons/Opis/pull/15 (1.4.5-mapless)
+> * Add force loaded chunks tab to tracking tab by @serenibyss in https://github.com/GTNewHorizons/Opis/pull/15 (1.4.5-mapless, 1.4.5-mapless)
 >
 
 # Updated ServerUtilities (2.0.88 -->  2.0.92)
