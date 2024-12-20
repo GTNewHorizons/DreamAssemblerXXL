@@ -403,7 +403,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.18...4.9.19
 >
 
-# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.11
+# Updated - GT5-Unofficial - 5.09.50.72 --> 5.09.51.12
+## *5.09.51.12*
+>## What's Changed
+>* Alternate lsc info fix by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3669
+>* Fix Bio Lab recipe voltages that uses transform module by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3671
+>* Fix structure of mapiary by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3670
+>* Fix SLAM structure and Antimatter Multi Tooltips by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3672
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.11...5.09.51.12
+>
+
 ## *5.09.51.11*
 >## What's Changed
 >* Add Oredict Tag to Beamline Masks by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3663
@@ -948,7 +959,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.25...1.4.26
 >
 
-# Updated - GTNHLib - 0.5.20 --> 0.5.22
+# Updated - GTNHLib - 0.5.20 --> 0.5.23
+## *0.5.23*
+>## What's Changed
+>* Allow non-public subscribed methods in @EventBusSubscriber classes by @Lyfts in https://github.com/GTNewHorizons/GTNHLib/pull/97
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.5.22...0.5.23
+>
+
 ## *0.5.22*
 >## What's Changed
 >* Add an interface for meta- and nbt-aware music disks to fix modded disk support in electric jukeboxes by @eigenraven in https://github.com/GTNewHorizons/GTNHLib/pull/96
@@ -1021,7 +1040,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.11.4-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.79 --> 2.6.2
+# Updated - Hodgepodge - 2.5.79 --> 2.6.4
+## *2.6.4*
+>## What's Changed
+>* Use custom iterators instead of streams by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/453
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.3...2.6.4
+>
+
+## *2.6.3*
+>## What's Changed
+>* fix stream by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/452
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.2...2.6.3
+>
+
 ## *2.6.2*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.1...2.6.2
 >
@@ -1194,7 +1229,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MouseTweaks/compare/2.4.18-GTNH...2.4.19-GTNH
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.7.4
+# Updated - NewHorizonsCoreMod - 2.6.78 --> 2.7.5
+## *2.7.5*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.4...2.7.5
+>
+
 ## *2.7.4*
 >## What's Changed
 >* Added assembler recipes for all missing transformers by @CrystieColon3 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1091
@@ -1413,6 +1452,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.3.7
 >
 
+# Updated - Opis - 1.4.4-mapless --> 1.4.5-mapless
+## *1.4.5-mapless*
+>## What's Changed
+>* Add force loaded chunks tab to tracking tab by @serenibyss in https://github.com/GTNewHorizons/Opis/pull/15
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/Opis/pull/15
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.4.4-mapless...1.4.5-mapless
+>
+
 # Updated - RemoteIO - 2.6.2 --> 2.6.4
 ## *2.6.4*
 >## What's Changed
@@ -1432,7 +1482,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.6.2...2.6.3
 >
 
-# Updated - ServerUtilities - 2.0.85 --> 2.1.3
+# Updated - ServerUtilities - 2.0.85 --> 2.1.4
+## *2.1.4*
+>## What's Changed
+>* Fix nbtedit using the wrong datatypes. by @C0bra5 in https://github.com/GTNewHorizons/ServerUtilities/pull/164
+>
+>## New Contributors
+>* @C0bra5 made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/164
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.3...2.1.4
+>
+
 ## *2.1.3*
 >## What's Changed
 >* Proper fix for subcommand permissions by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/159

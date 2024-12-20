@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-12-19T20:47:25.349270",
+  "last_updated": "2024-12-20T03:03:52.788518",
   "config": "2.8.0-nightly-2024-12-19",
   "github_mods": {
     "AdventureBackpack2": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.3",
+      "version": "2.6.4",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.4",
+      "version": "2.7.5",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -421,7 +421,7 @@
       "side": "BOTH"
     },
     "Opis": {
-      "version": "1.4.4-mapless",
+      "version": "1.4.5-mapless",
       "side": "BOTH"
     },
     "OverloadedArmorBar": {
