@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-12-20T20:52:48.895680",
-  "config": "2.8.0-nightly-2024-12-19",
+  "last_updated": "2024-12-21T03:01:12.540194",
+  "config": "2.8.0-nightly-2024-12-20",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.4-GTNH",
@@ -891,7 +891,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.24",
+      "version": "1.5.26-beta1",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
@@ -899,7 +899,7 @@
       "side": "BOTH"
     },
     "Craft-Presence": {
-      "version": "2.5.1",
+      "version": "2.5.2",
       "side": "CLIENT"
     },
     "Gravitation-Suite-old": {
@@ -923,7 +923,7 @@
       "side": "BOTH"
     },
     "UniLib": {
-      "version": "1.0.3",
+      "version": "1.0.4",
       "side": "CLIENT"
     },
     "Tinkers-Gregworks": {
