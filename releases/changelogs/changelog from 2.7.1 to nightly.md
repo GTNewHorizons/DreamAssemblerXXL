@@ -1,4 +1,8 @@
-# Updated - AE2FluidCraft-Rework - 1.3.52-gtnh --> 1.4.0-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.52-gtnh --> 1.4.1-gtnh-pre
+## *1.4.1-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.0-gtnh...1.4.1-gtnh-pre
+>
+
 ## *1.4.0-gtnh*
 >## What's Changed
 >* Fix pattern dividing by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/246
@@ -10,7 +14,19 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-482-GTNH --> rv3-beta-503-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-482-GTNH --> rv3-beta-505-GTNH-pre
+## *rv3-beta-505-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-504-GTNH...rv3-beta-505-GTNH-pre
+>
+
+## *rv3-beta-504-GTNH*
+>## What's Changed
+>* Fix crash Adv blocking in configurated interface by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/625
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-503-GTNH...rv3-beta-504-GTNH
+>
+
 ## *rv3-beta-503-GTNH*
 >## What's Changed
 >* Add Search Cache to Terminal by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/621
@@ -57,6 +73,30 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.56...1.57
 >
 
+# Updated - BetterQuesting - 3.6.22-GTNH --> 3.7.0-GTNH
+## *3.7.0-GTNH*
+>## What's Changed
+>* add disable reward mode :Gigachad: by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/155
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.6.22-GTNH...3.7.0-GTNH
+>
+
+# Updated - Binnie - 2.4.4 --> 2.5.0
+## *2.5.0*
+>## What's Changed
+>* prevent npe and log bad requests by @C0bra5 in https://github.com/GTNewHorizons/Binnie/pull/55
+>
+>## New Contributors
+>* @C0bra5 made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/55
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.4.4...2.5.0
+>
+
+## *2.4.5-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.4.4...2.4.5-pre
+>
+
 # Updated - BlockRenderer6343 - 1.2.16 --> 1.2.17-pre
 ## *1.2.17-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.16...1.2.17-pre
@@ -84,6 +124,32 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.15.3-GTNH...2.16.0-GTNH
 >
 
+# Updated - CodeChickenCore - 1.3.10 --> 1.4.0
+## *1.4.0*
+>## What's Changed
+>* use ZipFile instead of ZipInputStream in ClassDiscoverer by @charagarlnad in https://github.com/GTNewHorizons/CodeChickenCore/pull/25
+>
+>## New Contributors
+>* @charagarlnad made their first contribution in https://github.com/GTNewHorizons/CodeChickenCore/pull/25
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.3.10...1.4.0
+>
+
+# Updated - CookingForBlockheads - 1.3.7-GTNH --> 1.4.0-GTNH
+## *1.4.0-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.3.8-GTNH...1.4.0-GTNH
+>
+
+## *1.3.8-GTNH*
+>## What's Changed
+>* Expose as infinite source to pipes if enabled by @Caedis in https://github.com/GTNewHorizons/CookingForBlockheads/pull/49
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/CookingForBlockheads/pull/49
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.3.7-GTNH...1.3.8-GTNH
+>
+
 # Updated - Crops-plus-plus - 1.7.14 --> 1.8.0
 ## *1.8.0*
 >## What's Changed
@@ -93,6 +159,11 @@
 >* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/84
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.7.13...1.8.0
+>
+
+# Updated - Draconic-Evolution - 1.3.14-GTNH --> 1.3.15-GTNH-pre
+## *1.3.15-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.14-GTNH...1.3.15-GTNH-pre
 >
 
 # Updated - Electro-Magic-Tools - 1.5.16 --> 1.6.0
@@ -106,6 +177,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.5.16...1.6.0
 >
 
+# Updated - EnderIO - 2.8.22 --> 2.9.0
+## *2.9.0*
+>## What's Changed
+>* ensure `TileLightNode` instance at `breakBlock` by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/181
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.8.22...2.9.0
+>
+
 # Updated - EnhancedLootBags - 1.1.2 --> 1.2.0
 ## *1.2.0*
 >## What's Changed
@@ -115,6 +195,15 @@
 >* @YannickMG made their first contribution in https://github.com/GTNewHorizons/EnhancedLootBags/pull/10
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.2.0
+>
+
+# Updated - FloodLights - 1.4.2 --> 1.5.0
+## *1.5.0*
+>## What's Changed
+>* Fix cascade chunkloading by @Pilzinsel64 in https://github.com/GTNewHorizons/FloodLights/pull/8
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/FloodLights/compare/1.4.2...1.5.0
 >
 
 # Updated - ForestryMC - 4.9.20 --> 4.10.0
@@ -128,7 +217,68 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.13
+# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.19-pre
+## *5.09.51.19-pre*
+>## What's Changed
+>* Add Chemical Bath + Thermal Centrifuge mode to IOF by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3539
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.17-pre...5.09.51.19-pre
+>
+
+## *5.09.51.18*
+>## What's Changed
+>* Add Chemical Bath + Thermal Centrifuge mode to IOF by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3539
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.16...5.09.51.18
+>
+
+## *5.09.51.17-pre*
+>## What's Changed
+>* fix Space Project NEI GUI by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3687
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.15...5.09.51.17-pre
+>
+
+## *5.09.51.16*
+>## What's Changed
+>* fix Space Project NEI GUI by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3687
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.15...5.09.51.16
+>
+
+## *5.09.51.15*
+>## What's Changed
+>* Add onPlayerDestroyItem event when using a tool on a machine by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3686
+>* Add extra null checks for waila outputs data by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3682
+>* double patterns cribs by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3461
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.14...5.09.51.15
+>
+
+## *5.09.51.14*
+>## What's Changed
+>* Remove transitional platinum concentrate recipe by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3676
+>* Fix flipped bolt/screwdriver image encoding issues by @kumquat-ir in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3678
+>* Fix circuit 9 Heavy Oil by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3680
+>* Remove duplicate stone dust recipe by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3681
+>* Fix lsc crash at full capacity by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3679
+>* Fix fluid shaper glass amount range tooltip by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3683
+>* Swap Draconic and Wyvern DEFC textures by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3684
+>* Fix the Sound of Saplings from GT++ by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3685
+>* Fix multiblock tooltips by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3674
+>
+>## New Contributors
+>* @kumquat-ir made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3678
+>* @Taskeren made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3685
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.13...5.09.51.14
+>
+
 ## *5.09.51.13*
 >## What's Changed
 >* Fix autobuild of first godforge ring by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3675
@@ -304,7 +454,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.2
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.3-pre
+## *1.5.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.2...1.5.3-pre
+>
+
 ## *1.5.2*
 >## What's Changed
 >* Fix multi ui text position by @HoleFish in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/91
@@ -338,6 +492,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.5.23...0.6.0
 >
 
+# Updated - Gadomancy - 1.3.6 --> 1.3.7-pre
+## *1.3.7-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.6...1.3.7-pre
+>
+
 # Updated - Galaxy-Space-GTNH - 1.1.97-GTNH --> 1.1.100-GTNH
 ## *1.1.100-GTNH*
 >## What's Changed
@@ -345,6 +504,17 @@
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.97-GTNH...1.1.100-GTNH
+>
+
+# Updated - Gravitation-Suite-Neo - 1.2.2 --> 1.3.0
+## *1.3.0*
+>## What's Changed
+>* Don't consume water (or other) cells to extinguish wearers of the Advanced NanoChestPlate by @YannickMG in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/23
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/23
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.2.2...1.3.0
 >
 
 # Updated - Hardcore-Ender-Expansion - 1.11.4-GTNH --> 1.12.0-GTNH
@@ -356,7 +526,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.86 --> 2.6.4
+# Updated - Hodgepodge - 2.5.86 --> 2.6.5-pre
+## *2.6.5-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.4...2.6.5-pre
+>
+
 ## *2.6.4*
 >## What's Changed
 >* Use custom iterators instead of streams by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/453
@@ -415,7 +589,20 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# Updated - MX-Random - 0.4.6 --> 0.5.1
+# Updated - Jabba - 1.4.6 --> 1.5.0
+## *1.5.0*
+>## What's Changed
+>* update tooltip to reflect config option by @brandyyn in https://github.com/GTNewHorizons/Jabba/pull/35
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.4.6...1.5.0
+>
+
+# Updated - MX-Random - 0.4.6 --> 0.5.2-pre
+## *0.5.2-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.5.1...0.5.2-pre
+>
+
 ## *0.5.1*
 >## What's Changed
 >* Add LMA recipe back by @StaffiX in https://github.com/GTNewHorizons/MX-Random/pull/16
@@ -441,7 +628,20 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.5
+# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.7-pre
+## *2.7.7-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.6...2.7.7-pre
+>
+
+## *2.7.6*
+>## What's Changed
+>* fix 2 Coolant Cells in same Slot for LuV Solenoid by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1112
+>* Add recipes for preconfigured p2ps by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1109
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.5...2.7.6
+>
+
 ## *2.7.5*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.4...2.7.5
 >
@@ -497,13 +697,28 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.52-GTNH --> 2.7.0-GTNH
+# Updated - NotEnoughItems - 2.6.52-GTNH --> 2.7.1-GTNH-pre
+## *2.7.1-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.0-GTNH...2.7.1-GTNH-pre
+>
+
 ## *2.7.0-GTNH*
 >## What's Changed
 >* Clear Search Filter Cache after Change Settings by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/569
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.51-GTNH...2.7.0-GTNH
+>
+
+# Updated - OCGlasses - 1.5.0-GTNH --> 1.6.0-GTNH
+## *1.6.0-GTNH*
+>## What's Changed
+>* Исправлена проверка в lua функции SetItem \ Fixed check in lua function SetItem by @Viptunbeqwfwew in https://github.com/GTNewHorizons/OCGlasses/pull/18
+>
+>## New Contributors
+>* @Viptunbeqwfwew made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/18
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.5.0-GTNH...1.6.0-GTNH
 >
 
 # Updated - OpenComputers - 1.10.28-GTNH --> 1.11.1-GTNH
@@ -536,7 +751,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.4.0
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.4
+# Updated - ServerUtilities - 2.0.92 --> 2.1.5-pre
+## *2.1.5-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.4...2.1.5-pre
+>
+
 ## *2.1.4*
 >## What's Changed
 >* Fix nbtedit using the wrong datatypes. by @C0bra5 in https://github.com/GTNewHorizons/ServerUtilities/pull/164
@@ -586,6 +805,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.0.88...2.1.0
 >
 
+# Updated - StevesAddons - 0.13.0 --> 0.14.0
+## *0.14.0*
+>## What's Changed
+>* Fix for copy button so it copies input&output nodes in command groups properly by @ZombieFreak115 in https://github.com/GTNewHorizons/StevesAddons/pull/13
+>
+>## New Contributors
+>* @ZombieFreak115 made their first contribution in https://github.com/GTNewHorizons/StevesAddons/pull/13
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.13.0...0.14.0
+>
+
 # Updated - StructureLib - 1.3.6 --> 1.4.1-pre
 ## *1.4.1-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.0...1.4.1-pre
@@ -614,6 +844,54 @@ Mod is client-side only.
 >* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/44
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.7.7...1.8.0
+>
+
+# Updated - ThaumicBoots - 1.3.10 --> 1.3.11-pre
+## *1.3.11-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.3.10...1.3.11-pre
+>
+
+# Updated - ThaumicEnergistics - 1.6.27-GTNH --> 1.7.1-GTNH-pre
+## *1.7.1-GTNH-pre*
+>## What's Changed
+>* Correct the spelling of matrixs to matrices and counting of them for the Infusion Provider by @Worive in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/79
+>
+>## New Contributors
+>* @Worive made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/79
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.6.27-GTNH...1.7.1-GTNH-pre
+>
+
+## *1.7.0-GTNH*
+>## What's Changed
+>* Correct the spelling of matrixs to matrices and counting of them for the Infusion Provider by @Worive in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/79
+>
+>## New Contributors
+>* @Worive made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/79
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.6.27-GTNH...1.7.0-GTNH
+>
+
+# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.0
+## *2.11.0*
+>## What's Changed
+>* Fixed crashes upon harvesting of Praecantatio Infused Seeds by @ClassixX in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/42
+>
+>## New Contributors
+>* @ClassixX made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/42
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.10.2...2.11.0
+>
+
+# Updated - TinkersConstruct - 1.12.16-GTNH --> 1.13.0-GTNH
+## *1.13.0-GTNH*
+>## What's Changed
+>* Ammo reinforced modifier support by @Akeianova in https://github.com/GTNewHorizons/TinkersConstruct/pull/140
+>
+>## New Contributors
+>* @Akeianova made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/140
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.12.16-GTNH...1.13.0-GTNH
 >
 
 # Updated - WAILAPlugins - 0.5.2 --> 0.6.0
