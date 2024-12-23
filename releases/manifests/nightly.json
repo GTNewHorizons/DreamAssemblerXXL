@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.7.1",
-  "last_updated": "2024-12-23T19:23:46.726441",
+  "last_updated": "2024-12-23T20:48:29.353248",
   "config": "2.8.0-nightly-2024-12-23",
   "github_mods": {
     "AdventureBackpack2": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.25-pre",
+      "version": "5.09.51.26-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -715,10 +715,6 @@
     "lwjgl3ify": {
       "version": "2.1.5",
       "side": "BOTH_JAVA9"
-    },
-    "TravellersGearNeo": {
-      "version": "1.2.4",
-      "side": "BOTH"
     },
     "GTNH-Intergalactic": {
       "version": "1.5.6-pre",
