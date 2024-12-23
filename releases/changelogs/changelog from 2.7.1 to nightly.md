@@ -1,3 +1,6 @@
+# Mods Removed: 
+> * Travellers Gear
+> * TravellersGearNeo
 # Updated - AE2FluidCraft-Rework - 1.3.52-gtnh --> 1.4.1-gtnh-pre
 ## *1.4.1-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.0-gtnh...1.4.1-gtnh-pre
@@ -14,7 +17,23 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-482-GTNH --> rv3-beta-505-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-482-GTNH --> rv3-beta-506-GTNH-pre
+## *rv3-beta-506-GTNH-pre*
+>## What's Changed
+>* Feature: option to hide "stored" items in ae2 crafting plan by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/620
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-505-GTNH-pre...rv3-beta-506-GTNH-pre
+>
+
+## *rv3-beta-505-GTNH*
+>## What's Changed
+>* Feature: option to hide "stored" items in ae2 crafting plan by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/620
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-504-GTNH...rv3-beta-505-GTNH
+>
+
 ## *rv3-beta-505-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-504-GTNH...rv3-beta-505-GTNH-pre
 >
@@ -102,7 +121,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.16...1.2.17-pre
 >
 
-# Updated - Botania - 1.11.7-GTNH --> 1.12.1-GTNH
+# Updated - Botania - 1.11.7-GTNH --> 1.12.2-GTNH
+## *1.12.2-GTNH*
+>## What's Changed
+>* AgricarnationCompatibility by @Fabboz in https://github.com/GTNewHorizons/Botania/pull/62
+>
+>## New Contributors
+>* @Fabboz made their first contribution in https://github.com/GTNewHorizons/Botania/pull/62
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.1-GTNH...1.12.2-GTNH
+>
+
 ## *1.12.1-GTNH*
 >## What's Changed
 >* Fix music disk use in the GT electric jukebox by adding metadata by @eigenraven in https://github.com/GTNewHorizons/Botania/pull/66
@@ -166,7 +195,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.14-GTNH...1.3.15-GTNH-pre
 >
 
-# Updated - Electro-Magic-Tools - 1.5.16 --> 1.6.0
+# Updated - Electro-Magic-Tools - 1.5.16 --> 1.6.1
+## *1.6.1*
+>**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.0...1.6.1
+>
+
 ## *1.6.0*
 >## What's Changed
 >* Migrate Research Completer to GT5u by @serenibyss in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/88
@@ -217,7 +250,42 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.20
+# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.26-pre
+## *5.09.51.26-pre*
+>## What's Changed
+>* THTR by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3699
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.25-pre...5.09.51.26-pre
+>
+
+## *5.09.51.25-pre*
+>## What's Changed
+>* Buff PCB Parallel by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3692
+>* Move beamline multis to checkProcessing() by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3696
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.23-pre...5.09.51.25-pre
+>
+
+## *5.09.51.23-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.22...5.09.51.23-pre
+>
+
+## *5.09.51.22*
+>## What's Changed
+>* Fix fluid extractor and solidifier overdraw by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3691
+>* Add steam fill bars to steam machines by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3690
+>* Add tiered solar generators to gt by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3689
+>* LES UI update by @CrystieColon3 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3694
+>* Add some plasma recipes to Mk4 Fusion by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3695
+>* Refactor Sparge Tower by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3693
+>* Widen the Voltage enum in ItemComb by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3697
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.20...5.09.51.22
+>
+
 ## *5.09.51.20*
 >## What's Changed
 >* Buff godforge conversion milestone scaling by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3688
@@ -463,7 +531,20 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.4
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.6-pre
+## *1.5.6-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.5...1.5.6-pre
+>
+
+## *1.5.5*
+>## What's Changed
+>* Move space miner to RA2 by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/81
+>* Fix space miner asteroid selection by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/92
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.4...1.5.5
+>
+
 ## *1.5.4*
 >## What's Changed
 >* Add asteroid summary and cache/improve recipe lookup for space mining by @hacatu in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/76
@@ -516,7 +597,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.6...1.3.7-pre
 >
 
-# Updated - Galaxy-Space-GTNH - 1.1.97-GTNH --> 1.1.101-GTNH-pre
+# Updated - Galaxy-Space-GTNH - 1.1.97-GTNH --> 1.1.103-GTNH-pre
+## *1.1.103-GTNH-pre*
+>## What's Changed
+>* Optimize enceladus worldgen by @RecursivePineapple in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/123
+>
+>## New Contributors
+>* @RecursivePineapple made their first contribution in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/123
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.100-GTNH...1.1.103-GTNH-pre
+>
+
 ## *1.1.101-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.100-GTNH...1.1.101-GTNH-pre
 >
@@ -612,6 +703,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.82...2.6.0
 >
 
+# Updated - HydroEnergy - 1.3.6 --> 1.4.0
+## *1.4.0*
+>## What's Changed
+>* Remove usages of deprecated apis by @serenibyss in https://github.com/GTNewHorizons/HydroEnergy/pull/30
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/HydroEnergy/pull/30
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.3.6...1.4.0
+>
+
 # Updated - Infernal-Mobs - 1.9.2-GTNH --> 1.10.0-GTNH
 ## *1.10.0-GTNH*
 >## What's Changed
@@ -661,7 +763,31 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.9-pre
+# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.13-pre
+## *2.7.13-pre*
+>## What's Changed
+>* Fix artificial universe cell recipes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1118
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.11-pre...2.7.13-pre
+>
+
+## *2.7.12*
+>## What's Changed
+>* Fix artificial universe cell recipes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1118
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.8...2.7.12
+>
+
+## *2.7.11-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.10-pre...2.7.11-pre
+>
+
+## *2.7.10-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.9-pre...2.7.10-pre
+>
+
 ## *2.7.9-pre*
 >## What's Changed
 >* Nerf glass loop  by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1113
@@ -746,7 +872,23 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.52-GTNH --> 2.7.3-GTNH-pre
+# Updated - NotEnoughItems - 2.6.52-GTNH --> 2.7.5-GTNH-pre
+## *2.7.5-GTNH-pre*
+>## What's Changed
+>* Add Space Mode Settings to Search by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/571
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.3-GTNH-pre...2.7.5-GTNH-pre
+>
+
+## *2.7.4-GTNH*
+>## What's Changed
+>* Add Space Mode Settings to Search by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/571
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.2-GTNH...2.7.4-GTNH
+>
+
 ## *2.7.3-GTNH-pre*
 >## What's Changed
 >* Fix Accept Folowing for custom recipe handlers by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/570
@@ -921,7 +1063,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.7.7...1.8.0
 >
 
-# Updated - ThaumicBoots - 1.3.10 --> 1.3.11-pre
+# Updated - ThaumicBoots - 1.3.10 --> 1.4.1-pre
+## *1.4.1-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.3.11-pre...1.4.1-pre
+>
+
+## *1.4.0*
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.3.10...1.4.0
+>
+
 ## *1.3.11-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.3.10...1.3.11-pre
 >
@@ -969,6 +1119,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.12.16-GTNH...1.13.0-GTNH
 >
 
+# Updated - VisualProspecting - 1.3.28 --> 1.3.29-pre
+## *1.3.29-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.3.28...1.3.29-pre
+>
+
 # Updated - WAILAPlugins - 0.5.2 --> 0.6.0
 ## *0.6.0*
 >## What's Changed
@@ -978,6 +1133,15 @@ Mod is client-side only.
 >* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/WAILAPlugins/pull/19
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.5.1...0.6.0
+>
+
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.5.18-GTNH-pre
+## *1.5.18-GTNH-pre*
+>## What's Changed
+>* Spotless apply for branch Ethryan-Patch for #62 by @github-actions in https://github.com/GTNewHorizons/WitchingGadgets/pull/66
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.5.17-GTNH...1.5.18-GTNH-pre
 >
 
 # Updated - ae2stuff - 0.8.6-GTNH --> 0.9.0-GTNH
