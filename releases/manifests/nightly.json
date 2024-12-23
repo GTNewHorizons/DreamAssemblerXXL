@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.7.1",
-  "last_updated": "2024-12-22T10:49:28.958918",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-12-23T03:04:47.978531",
   "config": "2.8.0-nightly-2024-12-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.5-pre",
+      "version": "2.1.6",
       "side": "BOTH"
     },
     "Tinkers-Defense": {

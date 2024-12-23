@@ -217,7 +217,16 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.19-pre
+# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.20
+## *5.09.51.20*
+>## What's Changed
+>* Buff godforge conversion milestone scaling by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3688
+>* Introducing the Klein bottle! An "Infinite" "Volumetric" "Flask" by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3490
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.18...5.09.51.20
+>
+
 ## *5.09.51.19-pre*
 >## What's Changed
 >* Add Chemical Bath + Thermal Centrifuge mode to IOF by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3539
@@ -454,7 +463,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.3-pre
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.4
+## *1.5.4*
+>## What's Changed
+>* Add asteroid summary and cache/improve recipe lookup for space mining by @hacatu in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/76
+>
+>## New Contributors
+>* @hacatu made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/76
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.2...1.5.4
+>
+
 ## *1.5.3-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.2...1.5.3-pre
 >
@@ -497,7 +516,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.6...1.3.7-pre
 >
 
-# Updated - Galaxy-Space-GTNH - 1.1.97-GTNH --> 1.1.100-GTNH
+# Updated - Galaxy-Space-GTNH - 1.1.97-GTNH --> 1.1.101-GTNH-pre
+## *1.1.101-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.100-GTNH...1.1.101-GTNH-pre
+>
+
 ## *1.1.100-GTNH*
 >## What's Changed
 >* Migrate GalaxySpace materials to GT5u by @serenibyss in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/121
@@ -526,7 +549,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.86 --> 2.6.5-pre
+# Updated - Hodgepodge - 2.5.86 --> 2.6.6
+## *2.6.6*
+>## What's Changed
+>* Fix Sugar Cane placement on replaceable blocks by @YannickMG in https://github.com/GTNewHorizons/Hodgepodge/pull/454
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/454
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.4...2.6.6
+>
+
 ## *2.6.5-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.4...2.6.5-pre
 >
@@ -628,7 +661,23 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.7-pre
+# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.9-pre
+## *2.7.9-pre*
+>## What's Changed
+>* Nerf glass loop  by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1113
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.7-pre...2.7.9-pre
+>
+
+## *2.7.8*
+>## What's Changed
+>* Nerf glass loop  by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1113
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.6...2.7.8
+>
+
 ## *2.7.7-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.6...2.7.7-pre
 >
@@ -697,7 +746,23 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.52-GTNH --> 2.7.1-GTNH-pre
+# Updated - NotEnoughItems - 2.6.52-GTNH --> 2.7.3-GTNH-pre
+## *2.7.3-GTNH-pre*
+>## What's Changed
+>* Fix Accept Folowing for custom recipe handlers by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/570
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.1-GTNH-pre...2.7.3-GTNH-pre
+>
+
+## *2.7.2-GTNH*
+>## What's Changed
+>* Fix Accept Folowing for custom recipe handlers by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/570
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.0-GTNH...2.7.2-GTNH
+>
+
 ## *2.7.1-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.0-GTNH...2.7.1-GTNH-pre
 >
@@ -751,7 +816,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.4.0
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.5-pre
+# Updated - ServerUtilities - 2.0.92 --> 2.1.6
+## *2.1.6*
+>## What's Changed
+>* Make notifications individually configurable by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/165
+>* Save player teleport cooldowns by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/167
+>* Fix some classes being loaded too early by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/168
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.4...2.1.6
+>
+
 ## *2.1.5-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.4...2.1.5-pre
 >
