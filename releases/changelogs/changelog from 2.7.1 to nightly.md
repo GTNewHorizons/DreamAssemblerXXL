@@ -17,7 +17,20 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-482-GTNH --> rv3-beta-506-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-482-GTNH --> rv3-beta-508-GTNH-pre
+## *rv3-beta-508-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-507-GTNH...rv3-beta-508-GTNH-pre
+>
+
+## *rv3-beta-507-GTNH*
+>## What's Changed
+>* Add Creative Energy Anchor (Neutronium energy cell attached on cable) by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/624
+>* Add fake crafting card for AE by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/622
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-505-GTNH...rv3-beta-507-GTNH
+>
+
 ## *rv3-beta-506-GTNH-pre*
 >## What's Changed
 >* Feature: option to hide "stored" items in ae2 crafting plan by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/620
@@ -250,7 +263,26 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.26-pre
+# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.28-pre
+## *5.09.51.28-pre*
+>## What's Changed
+>* Wireless energy covers by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3701
+>* Fixes for dyson galaxyspace to intergalactic migration by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3700
+>* Removed usage of deprecated API in LES by @CrystieColon3 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3702
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.26-pre...5.09.51.28-pre
+>
+
+## *5.09.51.27*
+>## What's Changed
+>* Wireless energy covers by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3701
+>* Fixes for dyson galaxyspace to intergalactic migration by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3700
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.24...5.09.51.27
+>
+
 ## *5.09.51.26-pre*
 >## What's Changed
 >* THTR by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3699
@@ -605,7 +637,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.6...1.3.7-pre
 >
 
-# Updated - Galaxy-Space-GTNH - 1.1.97-GTNH --> 1.1.103-GTNH-pre
+# Updated - Galaxy-Space-GTNH - 1.1.97-GTNH --> 1.1.104-GTNH
+## *1.1.104-GTNH*
+>## What's Changed
+>* Remove Dyson and GT recipes from GalaxySpace by @serenibyss in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/122
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.102-GTNH...1.1.104-GTNH
+>
+
 ## *1.1.103-GTNH-pre*
 >## What's Changed
 >* Optimize enceladus worldgen by @RecursivePineapple in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/123
@@ -771,7 +811,21 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.13-pre
+# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.15-pre
+## *2.7.15-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.14...2.7.15-pre
+>
+
+## *2.7.14*
+>## What's Changed
+>* Clean up coremod MTEs before merging them into GT5u by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1117
+>* Migrate Dyson from GalaxySpace to Intergalactic by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1116
+>* Don't allow railcraft crowbars in crafting by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1119
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.12...2.7.14
+>
+
 ## *2.7.13-pre*
 >## What's Changed
 >* Fix artificial universe cell recipes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1118
@@ -1143,7 +1197,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.5.1...0.6.0
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.5.18-GTNH-pre
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.5.19-GTNH-pre
+## *1.5.19-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.5.18-GTNH-pre...1.5.19-GTNH-pre
+>
+
 ## *1.5.18-GTNH-pre*
 >## What's Changed
 >* Spotless apply for branch Ethryan-Patch for #62 by @github-actions in https://github.com/GTNewHorizons/WitchingGadgets/pull/66
