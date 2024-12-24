@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-12-23T21:44:24.630025",
-  "config": "2.8.0-nightly-2024-12-23",
+  "last_updated": "2024-12-24T03:03:47.788007",
+  "config": "2.8.0-nightly-2024-12-24",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.4-GTNH",
@@ -717,7 +717,7 @@
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.6-pre",
+      "version": "1.5.7",
       "side": "BOTH"
     },
     "amunra": {

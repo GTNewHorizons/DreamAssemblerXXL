@@ -531,7 +531,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.6-pre
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.7
+## *1.5.7*
+>## What's Changed
+>* Migrate Dyson from GalaxySpace to Intergalactic by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/89
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.5...1.5.7
+>
+
 ## *1.5.6-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.5...1.5.6-pre
 >
