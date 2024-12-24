@@ -1197,7 +1197,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.5.1...0.6.0
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.5.19-GTNH-pre
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.5.20-GTNH-pre
+## *1.5.20-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.5.19-GTNH-pre...1.5.20-GTNH-pre
+>
+
 ## *1.5.19-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.5.18-GTNH-pre...1.5.19-GTNH-pre
 >
