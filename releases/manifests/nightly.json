@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2024-12-24T03:03:47.788007",
+  "last_version": "2.7.1",
+  "last_updated": "2024-12-24T11:50:48.244378",
   "config": "2.8.0-nightly-2024-12-24",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-506-GTNH-pre",
+      "version": "rv3-beta-508-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.103-GTNH-pre",
+      "version": "1.1.104-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.26-pre",
+      "version": "5.09.51.28-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.13-pre",
+      "version": "2.7.15-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -883,7 +883,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.26-beta2",
+      "version": "1.5.26",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
