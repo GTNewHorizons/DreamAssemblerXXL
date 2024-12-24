@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
-  "last_version": "2.7.1",
-  "last_updated": "2024-12-24T11:50:48.244378",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-12-24T15:07:32.740390",
   "config": "2.8.0-nightly-2024-12-24",
   "github_mods": {
     "AdventureBackpack2": {
@@ -629,7 +629,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.5.18-GTNH-pre",
+      "version": "1.5.19-GTNH-pre",
       "side": "BOTH"
     },
     "Yamcl": {
