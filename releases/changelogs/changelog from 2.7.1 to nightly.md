@@ -263,7 +263,23 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.28-pre
+# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.30-pre
+## *5.09.51.30-pre*
+>## What's Changed
+>* Prospector scanner recipe fix by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3708
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.28-pre...5.09.51.30-pre
+>
+
+## *5.09.51.29*
+>## What's Changed
+>* Prospector scanner recipe fix by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3708
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.27...5.09.51.29
+>
+
 ## *5.09.51.28-pre*
 >## What's Changed
 >* Wireless energy covers by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3701
@@ -688,7 +704,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.86 --> 2.6.6
+# Updated - Hodgepodge - 2.5.86 --> 2.6.7-pre
+## *2.6.7-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.6...2.6.7-pre
+>
+
 ## *2.6.6*
 >## What's Changed
 >* Fix Sugar Cane placement on replaceable blocks by @YannickMG in https://github.com/GTNewHorizons/Hodgepodge/pull/454
@@ -811,7 +831,23 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.15-pre
+# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.17-pre
+## *2.7.17-pre*
+>## What's Changed
+>* fix electric scanner recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1122
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.15-pre...2.7.17-pre
+>
+
+## *2.7.16*
+>## What's Changed
+>* fix electric scanner recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1122
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.14...2.7.16
+>
+
 ## *2.7.15-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.14...2.7.15-pre
 >
@@ -1197,7 +1233,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.5.1...0.6.0
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.5.20-GTNH-pre
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.5.21-GTNH.pre
+## *1.5.21-GTNH.pre*
+>## What's Changed
+>* Fix Vambraces of Steady Progression by @YannickMG in https://github.com/GTNewHorizons/WitchingGadgets/pull/67
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.5.19-GTNH-pre...1.5.21-GTNH.pre
+>
+
 ## *1.5.20-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.5.19-GTNH-pre...1.5.20-GTNH-pre
 >
