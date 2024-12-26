@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.7.1",
-  "last_updated": "2024-12-26T22:45:15.005875",
+  "last_updated": "2024-12-26T22:53:10.267638",
   "config": "2.8.0-nightly-2024-12-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -920,6 +920,10 @@
     },
     "Tinkers-Gregworks": {
       "version": "1.0.27",
+      "side": "BOTH"
+    },
+    "Et Futurum Requiem": {
+      "version": "2.6.2",
       "side": "BOTH"
     }
   }
