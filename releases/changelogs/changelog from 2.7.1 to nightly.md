@@ -1,7 +1,28 @@
+# New Mods: 
+> * Et Futurum Requiem
 # Mods Removed: 
 > * Travellers Gear
 > * TravellersGearNeo
-# Updated - AE2FluidCraft-Rework - 1.3.52-gtnh --> 1.4.1-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.52-gtnh --> 1.4.3-gtnh-pre
+## *1.4.3-gtnh-pre*
+>## What's Changed
+>* Change default texture name and add new texture by @EnderProyects in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/251
+>* Add Fluid Void Cell by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/234
+>
+>## New Contributors
+>* @EnderProyects made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/251
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.51-gtnh...1.4.3-gtnh-pre
+>
+
+## *1.4.2-gtnh*
+>## What's Changed
+>* Add Fluid Void Cell by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/234
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.0-gtnh...1.4.2-gtnh
+>
+
 ## *1.4.1-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.0-gtnh...1.4.1-gtnh-pre
 >
@@ -17,7 +38,40 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-482-GTNH --> rv3-beta-508-GTNH-pre
+# Updated - Angelica - 1.0.0-beta27 --> 1.0.0-beta28
+Mod is client-side only.
+## *1.0.0-beta28*
+>## What's Changed
+>* the most boring typo PR of all time by @fmbellomy in https://github.com/GTNewHorizons/Angelica/pull/810
+>* Expose texture updates to API by @CookieBrigade in https://github.com/GTNewHorizons/Angelica/pull/805
+>* Disable optimizeInWorldItemRendering by default for now by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/820
+>
+>## New Contributors
+>* @fmbellomy made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/810
+>* @CookieBrigade made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/805
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta27...1.0.0-beta28
+>
+
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-482-GTNH --> rv3-beta-510-GTNH-pre
+## *rv3-beta-510-GTNH-pre*
+>## What's Changed
+>* Add Superluminal Acceleration Card for IOPort by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/617
+>* Improve missing mode. by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/627
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-507-GTNH...rv3-beta-510-GTNH-pre
+>
+
+## *rv3-beta-509-GTNH*
+>## What's Changed
+>* Add Superluminal Acceleration Card for IOPort by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/617
+>* Improve missing mode. by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/627
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-507-GTNH...rv3-beta-509-GTNH
+>
+
 ## *rv3-beta-508-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-507-GTNH...rv3-beta-508-GTNH-pre
 >
@@ -155,6 +209,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.11.6-GTNH...1.12.1-GTNH
 >
 
+# Updated - Catwalks-2 - 2.3.2-GTNH --> 2.3.3-GTNH-pre
+## *2.3.3-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Catwalks-2/compare/2.3.2-GTNH...2.3.3-GTNH-pre
+>
+
 # Updated - Chisel - 2.15.4-GTNH --> 2.16.0-GTNH
 ## *2.16.0-GTNH*
 >## What's Changed
@@ -175,6 +234,15 @@
 >* @charagarlnad made their first contribution in https://github.com/GTNewHorizons/CodeChickenCore/pull/25
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.3.10...1.4.0
+>
+
+# Updated - Computronics - 1.8.5-GTNH --> 1.9.0-GTNH
+## *1.9.0-GTNH*
+>## What's Changed
+>* Adjust parameters with OC by @MeiTianyou in https://github.com/GTNewHorizons/Computronics/pull/28
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.8.5-GTNH...1.9.0-GTNH
 >
 
 # Updated - CookingForBlockheads - 1.3.7-GTNH --> 1.4.0-GTNH
@@ -263,7 +331,34 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.30-pre
+# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.32-pre
+## *5.09.51.32-pre*
+>## What's Changed
+>* Move beamline multis to checkProcessing() by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3696
+>* THTR by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3699
+>* Removed usage of deprecated API in LES by @CrystieColon3 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3702
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.31...5.09.51.32-pre
+>
+
+## *5.09.51.31*
+>## What's Changed
+>* re enable Multi Tool by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3711
+>* Boldarnator (industrial rock breaker) GPL by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3668
+>* Change Strontium Processing Recipe  by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3720
+>* Restore gem implosion by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3714
+>* Clean up no longer needed galaxyspace isModLoaded check by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3705
+>* Change Semifluid generator EBF gating by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3719
+>* Remove MuTE code from master branch by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3716
+>* Selenium processing tweak by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3721
+>* Gt tools removal by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3717
+>* GT++ multiblock glow texture support by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3704
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.29...5.09.51.31
+>
+
 ## *5.09.51.30-pre*
 >## What's Changed
 >* Prospector scanner recipe fix by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3708
@@ -579,7 +674,21 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.7
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.9-pre
+## *1.5.9-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.8...1.5.9-pre
+>
+
+## *1.5.8*
+>## What's Changed
+>* Add Mk4, Mk5 plasmas to space miner and rebalance plasma boosting by @StaffiX in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/94
+>
+>## New Contributors
+>* @StaffiX made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/94
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.7...1.5.8
+>
+
 ## *1.5.7*
 >## What's Changed
 >* Migrate Dyson from GalaxySpace to Intergalactic by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/89
@@ -653,7 +762,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.6...1.3.7-pre
 >
 
-# Updated - Galaxy-Space-GTNH - 1.1.97-GTNH --> 1.1.104-GTNH
+# Updated - Galaxy-Space-GTNH - 1.1.97-GTNH --> 1.1.105-GTNH
+## *1.1.105-GTNH*
+>## What's Changed
+>* Remove gt dependency by @serenibyss in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/124
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.104-GTNH...1.1.105-GTNH
+>
+
 ## *1.1.104-GTNH*
 >## What's Changed
 >* Remove Dyson and GT recipes from GalaxySpace by @serenibyss in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/122
@@ -826,12 +943,41 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.4.6...0.5.0
 >
 
+# Updated - Minecraft-Backpack-Mod - 2.4.3-GTNH --> 2.5.0-GTNH
+## *2.5.0-GTNH*
+>## What's Changed
+>* Make Tier 2 craftable (non-GTNH only) by @Pilzinsel64 in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/13
+>
+>## New Contributors
+>* @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/13
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.4.3-GTNH...2.5.0-GTNH
+>
+
 # Updated - Mobs-Info - 0.4.7-GTNH --> 0.5.0-GTNH
 ## *0.5.0-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.17-pre
+# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.19-pre
+## *2.7.19-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.18...2.7.19-pre
+>
+
+## *2.7.18*
+>## What's Changed
+>* fix all the rocket controller recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1123
+>* Project red tinker fix by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1124
+>* remove vanilla stone tools by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1126
+>* Color upgrade recipe change by @Eldrinn-Elantey in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1125
+>* Add recipe for Fluid Void Cell by @lordIcocain in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1057
+>
+>## New Contributors
+>* @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1125
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.16...2.7.18
+>
+
 ## *2.7.17-pre*
 >## What's Changed
 >* fix electric scanner recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1122
@@ -970,7 +1116,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.52-GTNH --> 2.7.5-GTNH-pre
+# Updated - NotEnoughItems - 2.6.52-GTNH --> 2.7.6-GTNH-pre
+## *2.7.6-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.4-GTNH...2.7.6-GTNH-pre
+>
+
 ## *2.7.5-GTNH-pre*
 >## What's Changed
 >* Add Space Mode Settings to Search by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/571
@@ -1056,7 +1206,28 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.4.0
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.6
+# Updated - Railcraft - 9.15.15 --> 9.16.0
+## *9.16.0*
+>## What's Changed
+>* Use a hand-harvestable material for Railcraft machines to reflect their harvesting behavior by @YannickMG in https://github.com/GTNewHorizons/Railcraft/pull/65
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.15...9.16.0
+>
+
+# Updated - ServerUtilities - 2.0.92 --> 2.1.8-pre
+## *2.1.8-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.7...2.1.8-pre
+>
+
+## *2.1.7*
+>## What's Changed
+>* Add command to set status for any team by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/169
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.6...2.1.7
+>
+
 ## *2.1.6*
 >## What's Changed
 >* Make notifications individually configurable by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/165
@@ -1233,7 +1404,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.5.1...0.6.0
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.5.21-GTNH.pre
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.5.22-GTNH-pre
+## *1.5.22-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.5.21-GTNH.pre...1.5.22-GTNH-pre
+>
+
 ## *1.5.21-GTNH.pre*
 >## What's Changed
 >* Fix Vambraces of Steady Progression by @YannickMG in https://github.com/GTNewHorizons/WitchingGadgets/pull/67
