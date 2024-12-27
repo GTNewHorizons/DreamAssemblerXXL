@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-12-27T10:16:18.345555",
+  "last_updated": "2024-12-27T16:52:07.570339",
   "config": "2.8.0-nightly-2024-12-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-512-GTNH-pre",
+      "version": "rv3-beta-513-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -641,7 +641,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.2.17-pre",
+      "version": "1.3.0",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.1.16-1.7.10",
+      "version": "2.2.0-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
