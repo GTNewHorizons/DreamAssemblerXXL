@@ -69,7 +69,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta27...1.0.0-beta28
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-482-GTNH --> rv3-beta-512-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-482-GTNH --> rv3-beta-513-GTNH-pre
+## *rv3-beta-513-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-512-GTNH-pre...rv3-beta-513-GTNH-pre
+>
+
 ## *rv3-beta-512-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-511-GTNH...rv3-beta-512-GTNH-pre
 >
@@ -215,7 +219,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.4.4...2.4.5-pre
 >
 
-# Updated - BlockRenderer6343 - 1.2.16 --> 1.2.17-pre
+# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.0
+## *1.3.0*
+>## What's Changed
+>* Several improvements & QOL by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/23
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.16...1.3.0
+>
+
 ## *1.2.17-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.16...1.2.17-pre
 >
@@ -1027,6 +1039,19 @@ Mod is client-side only.
 # Updated - Mobs-Info - 0.4.7-GTNH --> 0.5.0-GTNH
 ## *0.5.0-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
+>
+
+# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.0-1.7.10
+## *2.2.0-1.7.10*
+><!-- Release notes generated using configuration in .github/release.yml at 2.2.0-1.7.10 -->
+>
+>## What's Changed
+>* Catch up to upstream by @YannickMG in https://github.com/GTNewHorizons/ModularUI2/pull/19
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/ModularUI2/pull/19
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.16-1.7.10...2.2.0-1.7.10
 >
 
 # Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.19-pre
