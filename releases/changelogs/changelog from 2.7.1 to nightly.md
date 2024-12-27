@@ -3,7 +3,23 @@
 # Mods Removed: 
 > * Travellers Gear
 > * TravellersGearNeo
-# Updated - AE2FluidCraft-Rework - 1.3.52-gtnh --> 1.4.3-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.52-gtnh --> 1.4.5-gtnh-pre
+## *1.4.5-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.4-gtnh...1.4.5-gtnh-pre
+>
+
+## *1.4.4-gtnh*
+>## What's Changed
+>* Change default texture name and add new texture by @EnderProyects in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/251
+>* Add Fluid Void Cell by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/234
+>* Skip this side check if fluid conduit not connected. by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/249
+>
+>## New Contributors
+>* @EnderProyects made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/251
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.51-gtnh...1.4.4-gtnh
+>
+
 ## *1.4.3-gtnh-pre*
 >## What's Changed
 >* Change default texture name and add new texture by @EnderProyects in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/251
@@ -53,7 +69,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta27...1.0.0-beta28
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-482-GTNH --> rv3-beta-510-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-482-GTNH --> rv3-beta-512-GTNH-pre
+## *rv3-beta-512-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-511-GTNH...rv3-beta-512-GTNH-pre
+>
+
+## *rv3-beta-511-GTNH*
+>## What's Changed
+>* Fix formation plane voiding items rarely by @serenibyss in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/628
+>* Missing mode, forgot add reset. by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/630
+>* Notify player when ingredient cannot be extracted in required amount. by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/629
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/628
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-509-GTNH...rv3-beta-511-GTNH
+>
+
 ## *rv3-beta-510-GTNH-pre*
 >## What's Changed
 >* Add Superluminal Acceleration Card for IOPort by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/617
@@ -188,7 +220,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.16...1.2.17-pre
 >
 
-# Updated - Botania - 1.11.7-GTNH --> 1.12.2-GTNH
+# Updated - Botania - 1.11.7-GTNH --> 1.12.3-GTNH
+## *1.12.3-GTNH*
+>## What's Changed
+>* backported item filter for Rannuncarpus by @shadoxxhd in https://github.com/GTNewHorizons/Botania/pull/60
+>
+>## New Contributors
+>* @shadoxxhd made their first contribution in https://github.com/GTNewHorizons/Botania/pull/60
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.2-GTNH...1.12.3-GTNH
+>
+
 ## *1.12.2-GTNH*
 >## What's Changed
 >* AgricarnationCompatibility by @Fabboz in https://github.com/GTNewHorizons/Botania/pull/62
@@ -271,7 +313,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.7.13...1.8.0
 >
 
-# Updated - Draconic-Evolution - 1.3.14-GTNH --> 1.3.15-GTNH-pre
+# Updated - Draconic-Evolution - 1.3.14-GTNH --> 1.4.0-GTNH
+## *1.4.0-GTNH*
+>## What's Changed
+>* Broaden support for mouse button keybinds by @wlhlm in https://github.com/GTNewHorizons/Draconic-Evolution/pull/56
+>
+>## New Contributors
+>* @wlhlm made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/56
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.14-GTNH...1.4.0-GTNH
+>
+
 ## *1.3.15-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.14-GTNH...1.3.15-GTNH-pre
 >
@@ -331,7 +383,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.32-pre
+# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.34-pre
+## *5.09.51.34-pre*
+>## What's Changed
+>* Updates Structure checks to add error hinting by @kstvr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3254
+>* Add separate minimum & default tick rates for covers by @S4mpsa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3722
+>* Disable wirecutter interaction on EOH when it's working by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3710
+>* Matter manipulator compat by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3222
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.32-pre...5.09.51.34-pre
+>
+
+## *5.09.51.33*
+>## What's Changed
+>* Updates Structure checks to add error hinting by @kstvr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3254
+>* Add separate minimum & default tick rates for covers by @S4mpsa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3722
+>* Disable wirecutter interaction on EOH when it's working by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3710
+>* Matter manipulator compat by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3222
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.31...5.09.51.33
+>
+
 ## *5.09.51.32-pre*
 >## What's Changed
 >* Move beamline multis to checkProcessing() by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3696
@@ -821,7 +895,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.86 --> 2.6.7-pre
+# Updated - Hodgepodge - 2.5.86 --> 2.6.8-pre
+## *2.6.8-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.7-pre...2.6.8-pre
+>
+
 ## *2.6.7-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.6...2.6.7-pre
 >
@@ -838,14 +916,6 @@ Mod is client-side only.
 
 ## *2.6.5-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.4...2.6.5-pre
->
-
-## *2.6.4*
->## What's Changed
->* Use custom iterators instead of streams by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/453
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.3...2.6.4
 >
 
 ## *2.6.4*
@@ -1116,7 +1186,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.52-GTNH --> 2.7.6-GTNH-pre
+# Updated - NotEnoughItems - 2.6.52-GTNH --> 2.7.7-GTNH-pre
+## *2.7.7-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.4-GTNH...2.7.7-GTNH-pre
+>
+
 ## *2.7.6-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.4-GTNH...2.7.6-GTNH-pre
 >
@@ -1215,7 +1289,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.15...9.16.0
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.8-pre
+# Updated - ServerUtilities - 2.0.92 --> 2.1.10-pre
+## *2.1.10-pre*
+>## What's Changed
+>* Spotless apply for branch vanish for #170 by @github-actions in https://github.com/GTNewHorizons/ServerUtilities/pull/171
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.9...2.1.10-pre
+>
+
+## *2.1.9*
+>## What's Changed
+>* Basic Pregenerator by @Cardinalstars in https://github.com/GTNewHorizons/ServerUtilities/pull/121
+>
+>## New Contributors
+>* @Cardinalstars made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/121
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.7...2.1.9
+>
+
 ## *2.1.8-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.7...2.1.8-pre
 >
