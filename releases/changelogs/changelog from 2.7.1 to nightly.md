@@ -1494,7 +1494,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.10.2...2.11.0
 >
 
-# Updated - TinkersConstruct - 1.12.16-GTNH --> 1.13.0-GTNH
+# Updated - TinkersConstruct - 1.12.16-GTNH --> 1.13.1-GTNH
+## *1.13.1-GTNH*
+>## What's Changed
+>* fix crash in AlloyMix.java by @iamcsharper in https://github.com/GTNewHorizons/TinkersConstruct/pull/141
+>
+>## New Contributors
+>* @iamcsharper made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/141
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.0-GTNH...1.13.1-GTNH
+>
+
 ## *1.13.0-GTNH*
 >## What's Changed
 >* Ammo reinforced modifier support by @Akeianova in https://github.com/GTNewHorizons/TinkersConstruct/pull/140
