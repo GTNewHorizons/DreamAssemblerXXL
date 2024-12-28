@@ -907,7 +907,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.86 --> 2.6.8-pre
+# Updated - Hodgepodge - 2.5.86 --> 2.6.9
+## *2.6.9*
+>## What's Changed
+>* Various Optimizations by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/455
+>* fix wrong block placement distance check by @Pilzinsel64 in https://github.com/GTNewHorizons/Hodgepodge/pull/458
+>
+>## New Contributors
+>* @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/458
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.6...2.6.9
+>
+
 ## *2.6.8-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.7-pre...2.6.8-pre
 >
