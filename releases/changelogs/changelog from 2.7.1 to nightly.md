@@ -204,7 +204,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.6.22-GTNH...3.7.0-GTNH
 >
 
-# Updated - Binnie - 2.4.4 --> 2.5.0
+# Updated - Binnie - 2.4.4 --> 2.5.1-pre
+## *2.5.1-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.0...2.5.1-pre
+>
+
 ## *2.5.0*
 >## What's Changed
 >* prevent npe and log bad requests by @C0bra5 in https://github.com/GTNewHorizons/Binnie/pull/55
@@ -395,7 +399,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.35-pre
+# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.37-pre
+## *5.09.51.37-pre*
+>## What's Changed
+>* Fix goodgen controller textures missing by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3723
+>* Move MTE IDs around by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3725
+>* Fix crash on serializing space teams by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3726
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.35-pre...5.09.51.37-pre
+>
+
+## *5.09.51.36*
+>## What's Changed
+>* Fix goodgen controller textures missing by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3723
+>* Move MTE IDs around by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3725
+>* Fix crash on serializing space teams by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3726
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.33...5.09.51.36
+>
+
 ## *5.09.51.35-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.34-pre...5.09.51.35-pre
 >
@@ -865,7 +889,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.5.23...0.6.0
 >
 
-# Updated - Gadomancy - 1.3.6 --> 1.3.7-pre
+# Updated - Gadomancy - 1.3.6 --> 1.4.0
+## *1.4.0*
+>## What's Changed
+>* Optimize mirrored jar by @serenibyss in https://github.com/GTNewHorizons/Gadomancy/pull/33
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/Gadomancy/pull/33
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.6...1.4.0
+>
+
 ## *1.3.7-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.6...1.3.7-pre
 >
@@ -929,7 +963,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.86 --> 2.6.9
+# Updated - Hodgepodge - 2.5.86 --> 2.6.10-pre
+## *2.6.10-pre*
+>## What's Changed
+>* Fix coretweaks hard-dep by @Lyfts in https://github.com/GTNewHorizons/Hodgepodge/pull/460
+>* fix getFloatTemperature causing lag by @Lyfts in https://github.com/GTNewHorizons/Hodgepodge/pull/461
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.9...2.6.10-pre
+>
+
 ## *2.6.9*
 >## What's Changed
 >* Various Optimizations by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/455
@@ -1087,7 +1130,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.16-1.7.10...2.2.0-1.7.10
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.21-pre
+# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.23-pre
+## *2.7.23-pre*
+>## What's Changed
+>* Fix DS Parts Recipes by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1128
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.21-pre...2.7.23-pre
+>
+
+## *2.7.22*
+>## What's Changed
+>* Fix DS Parts Recipes by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1128
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.20...2.7.22
+>
+
 ## *2.7.21-pre*
 >## What's Changed
 >* Fix UEV+ casing and hull recycling recipes by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1127
@@ -1264,7 +1323,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.91...2.6.92
 >
 
-# Updated - NotEnoughItems - 2.6.52-GTNH --> 2.7.7-GTNH-pre
+# Updated - NotEnoughItems - 2.6.52-GTNH --> 2.7.9-GTNH-pre
+## *2.7.9-GTNH-pre*
+>## What's Changed
+>* Change OptionIntegerField Width by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/575
+>* Add RenderTooltipEvent Compat by @glowredman in https://github.com/GTNewHorizons/NotEnoughItems/pull/574
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.7-GTNH-pre...2.7.9-GTNH-pre
+>
+
+## *2.7.8-GTNH*
+>## What's Changed
+>* Change OptionIntegerField Width by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/575
+>* Add RenderTooltipEvent Compat by @glowredman in https://github.com/GTNewHorizons/NotEnoughItems/pull/574
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.4-GTNH...2.7.8-GTNH
+>
+
 ## *2.7.7-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.4-GTNH...2.7.7-GTNH-pre
 >
@@ -1367,7 +1444,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.15...9.16.0
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.11-pre
+# Updated - ServerUtilities - 2.0.92 --> 2.1.13-pre
+## *2.1.13-pre*
+>## What's Changed
+>* Spotless apply for branch vanish for #170 by @github-actions in https://github.com/GTNewHorizons/ServerUtilities/pull/171
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.12...2.1.13-pre
+>
+
+## *2.1.12*
+>## What's Changed
+>* Update zh_CN.lang by @huihiuhuai in https://github.com/GTNewHorizons/ServerUtilities/pull/99
+>
+>## New Contributors
+>* @huihiuhuai made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/99
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.9...2.1.12
+>
+
 ## *2.1.11-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.10-pre...2.1.11-pre
 >
