@@ -395,7 +395,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.34-pre
+# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.35-pre
+## *5.09.51.35-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.34-pre...5.09.51.35-pre
+>
+
 ## *5.09.51.34-pre*
 >## What's Changed
 >* Updates Structure checks to add error hinting by @kstvr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3254
@@ -760,7 +764,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.9-pre
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.11-pre
+## *1.5.11-pre*
+>## What's Changed
+>* Fix dyson tooltip by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/95
+>* Add "supports tectech hatches" tooltip to elevator and dyson by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/96
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.8...1.5.11-pre
+>
+
+## *1.5.10*
+>## What's Changed
+>* Fix dyson tooltip by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/95
+>* Add "supports tectech hatches" tooltip to elevator and dyson by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/96
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.8...1.5.10
+>
+
 ## *1.5.9-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.8...1.5.9-pre
 >
@@ -1065,7 +1087,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.16-1.7.10...2.2.0-1.7.10
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.19-pre
+# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.21-pre
+## *2.7.21-pre*
+>## What's Changed
+>* Fix UEV+ casing and hull recycling recipes by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1127
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.19-pre...2.7.21-pre
+>
+
+## *2.7.20*
+>## What's Changed
+>* Fix UEV+ casing and hull recycling recipes by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1127
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.18...2.7.20
+>
+
 ## *2.7.19-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.18...2.7.19-pre
 >
@@ -1222,6 +1260,10 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
+## *2.6.92*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.91...2.6.92
+>
+
 # Updated - NotEnoughItems - 2.6.52-GTNH --> 2.7.7-GTNH-pre
 ## *2.7.7-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.4-GTNH...2.7.7-GTNH-pre
@@ -1325,7 +1367,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.15...9.16.0
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.10-pre
+# Updated - ServerUtilities - 2.0.92 --> 2.1.11-pre
+## *2.1.11-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.10-pre...2.1.11-pre
+>
+
 ## *2.1.10-pre*
 >## What's Changed
 >* Spotless apply for branch vanish for #170 by @github-actions in https://github.com/GTNewHorizons/ServerUtilities/pull/171
