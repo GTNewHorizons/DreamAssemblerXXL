@@ -69,7 +69,24 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta27...1.0.0-beta28
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-482-GTNH --> rv3-beta-513-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-482-GTNH --> rv3-beta-515-GTNH-pre
+## *rv3-beta-515-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-514-GTNH...rv3-beta-515-GTNH-pre
+>
+
+## *rv3-beta-514-GTNH*
+>## What's Changed
+>* Make "unusable" IO port modes useful & add cell movement queue by @S4mpsa in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/626
+>* Fix r-click divide and mid-click on processing pattern terminal by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/631
+>* Update follow button by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/634
+>* Remove Enable(P2p|QuantumBridge)BackboneTransfer config options by @szuend in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/637
+>
+>## New Contributors
+>* @szuend made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/637
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-511-GTNH...rv3-beta-514-GTNH
+>
+
 ## *rv3-beta-513-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-512-GTNH-pre...rv3-beta-513-GTNH-pre
 >
@@ -267,7 +284,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.11.6-GTNH...1.12.1-GTNH
 >
 
-# Updated - Catwalks-2 - 2.3.2-GTNH --> 2.3.3-GTNH-pre
+# Updated - Catwalks-2 - 2.3.2-GTNH --> 2.3.5-GTNH-pre
+## *2.3.5-GTNH-pre*
+>## What's Changed
+>* Predicate refactoring, attempts at preventing chunk loading by @YannickMG in https://github.com/GTNewHorizons/Catwalks-2/pull/17
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Catwalks-2/compare/2.3.3-GTNH-pre...2.3.5-GTNH-pre
+>
+
+## *2.3.4-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Catwalks-2/compare/2.3.2-GTNH...2.3.4-GTNH
+>
+
 ## *2.3.3-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Catwalks-2/compare/2.3.2-GTNH...2.3.3-GTNH-pre
 >
@@ -359,7 +388,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.5.16...1.6.0
 >
 
-# Updated - EnderIO - 2.8.22 --> 2.9.0
+# Updated - EnderIO - 2.8.22 --> 2.9.1
+## *2.9.1*
+>## What's Changed
+>* Remove left-over code and textures for ultra dense ME conduits by @szuend in https://github.com/GTNewHorizons/EnderIO/pull/182
+>
+>## New Contributors
+>* @szuend made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/182
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.0...2.9.1
+>
+
 ## *2.9.0*
 >## What's Changed
 >* ensure `TileLightNode` instance at `breakBlock` by @Pilzinsel64 in https://github.com/GTNewHorizons/EnderIO/pull/181
@@ -889,7 +928,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.5.23...0.6.0
 >
 
-# Updated - Gadomancy - 1.3.6 --> 1.4.0
+# Updated - Gadomancy - 1.3.6 --> 1.4.1
+## *1.4.1*
+>## What's Changed
+>* Fix mirrored jar labels not saving by @serenibyss in https://github.com/GTNewHorizons/Gadomancy/pull/35
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.0...1.4.1
+>
+
 ## *1.4.0*
 >## What's Changed
 >* Optimize mirrored jar by @serenibyss in https://github.com/GTNewHorizons/Gadomancy/pull/33
@@ -963,7 +1010,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.86 --> 2.6.10-pre
+# Updated - Hodgepodge - 2.5.86 --> 2.6.11
+## *2.6.11*
+>## What's Changed
+>* Fix coretweaks hard-dep by @Lyfts in https://github.com/GTNewHorizons/Hodgepodge/pull/460
+>* fix getFloatTemperature causing lag by @Lyfts in https://github.com/GTNewHorizons/Hodgepodge/pull/461
+>* fix placing blocks isn't working downwards by @Pilzinsel64 in https://github.com/GTNewHorizons/Hodgepodge/pull/462
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.9...2.6.11
+>
+
 ## *2.6.10-pre*
 >## What's Changed
 >* Fix coretweaks hard-dep by @Lyfts in https://github.com/GTNewHorizons/Hodgepodge/pull/460
@@ -1558,6 +1615,17 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.0.88...2.1.0
+>
+
+# Updated - Share-Where-I-am - 2.1.1 --> 2.1.2
+## *2.1.2*
+>## What's Changed
+>* Rollback to java + Navigator compact for JM by @0hwx in https://github.com/GTNewHorizons/Share-Where-I-am/pull/5
+>
+>## New Contributors
+>* @0hwx made their first contribution in https://github.com/GTNewHorizons/Share-Where-I-am/pull/5
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/2.1.1...2.1.2
 >
 
 # Updated - StevesAddons - 0.13.0 --> 0.14.0
