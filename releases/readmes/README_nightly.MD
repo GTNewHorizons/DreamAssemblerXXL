@@ -356,7 +356,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.6.12 |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.4.13-GTNH |
 | [Hunger-Overhaul](https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul) | 1.0.0.104 |
-| [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.4.0 |
+| [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.4.1 |
 | [IC2 Crop-Breeding Plugin](https://www.curseforge.com/minecraft/mc-mods/ic2-nei-crop-plugin) | 1.3.1 |
 | [IFU](https://github.com/GTNewHorizons/IFU) | 1.11.1 |
 | [IguanaTweaksTConstruct](https://github.com/GTNewHorizons/IguanaTweaksTConstruct) | 2.5.0 |
