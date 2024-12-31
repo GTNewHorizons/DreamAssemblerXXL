@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2024-12-30T03:05:17.926626",
+  "last_updated": "2024-12-31T03:02:29.544419",
   "config": "2.8.0-nightly-2024-12-29-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.5-gtnh-pre",
+      "version": "1.4.7-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.57",
+      "version": "1.59",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -49,7 +49,7 @@
       "side": "BOTH"
     },
     "Battlegear2": {
-      "version": "1.4.1",
+      "version": "1.4.2",
       "side": "BOTH"
     },
     "bdlib": {
@@ -85,11 +85,11 @@
       "side": "BOTH"
     },
     "BloodArsenal": {
-      "version": "1.3.4",
+      "version": "1.4.0",
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.6.9",
+      "version": "1.7.0",
       "side": "BOTH"
     },
     "Botania": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.37-pre",
+      "version": "5.09.51.41-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.23-pre",
+      "version": "2.7.24",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -773,7 +773,7 @@
       "side": "CLIENT"
     },
     "AkashicTome": {
-      "version": "1.1.9",
+      "version": "1.2.0",
       "side": "BOTH"
     },
     "Navigator": {

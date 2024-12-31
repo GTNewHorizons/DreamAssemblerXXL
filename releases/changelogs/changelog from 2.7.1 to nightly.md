@@ -3,7 +3,23 @@
 # Mods Removed: 
 > * Travellers Gear
 > * TravellersGearNeo
-# Updated - AE2FluidCraft-Rework - 1.3.52-gtnh --> 1.4.5-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.52-gtnh --> 1.4.7-gtnh-pre
+## *1.4.7-gtnh-pre*
+>## What's Changed
+>* Cleanup by @glowredman in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/253
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.5-gtnh-pre...1.4.7-gtnh-pre
+>
+
+## *1.4.6-gtnh*
+>## What's Changed
+>* Cleanup by @glowredman in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/253
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.4-gtnh...1.4.6-gtnh
+>
+
 ## *1.4.5-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.4-gtnh...1.4.5-gtnh-pre
 >
@@ -52,6 +68,19 @@
 >* @EnderProyects made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/251
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
+>
+
+# Updated - AkashicTome - 1.1.9 --> 1.2.0
+## *1.2.0*
+>**Full Changelog**: https://github.com/GTNewHorizons/AkashicTome/compare/1.1.10...1.2.0
+>
+
+## *1.1.10*
+>## What's Changed
+>* Add Localization by @glowredman in https://github.com/GTNewHorizons/AkashicTome/pull/14
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AkashicTome/compare/1.1.9...1.1.10
 >
 
 # Updated - Angelica - 1.0.0-beta27 --> 1.0.0-beta28
@@ -201,7 +230,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-478-GTNH...rv3-beta-500-GTNH
 >
 
-# Updated - Avaritia - 1.56 --> 1.57
+# Updated - Avaritia - 1.56 --> 1.59
+## *1.59*
+>**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.58...1.59
+>
+
+## *1.58*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Avaritia/pull/47
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.57...1.58
+>
+
 ## *1.57*
 >## What's Changed
 >* Add a check if dreamcraft is loaded by @EnderProyects in https://github.com/GTNewHorizons/Avaritia/pull/46
@@ -210,6 +251,15 @@ Mod is client-side only.
 >* @EnderProyects made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/46
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.56...1.57
+>
+
+# Updated - Battlegear2 - 1.4.1 --> 1.4.2
+## *1.4.2*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Battlegear2/pull/31
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.4.1...1.4.2
 >
 
 # Updated - BetterQuesting - 3.6.22-GTNH --> 3.7.0-GTNH
@@ -251,6 +301,36 @@ Mod is client-side only.
 
 ## *1.2.17-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.16...1.2.17-pre
+>
+
+# Updated - BloodArsenal - 1.3.4 --> 1.4.0
+## *1.4.0*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
+>
+
+## *1.3.5*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/BloodArsenal/pull/26
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.4...1.3.5
+>
+
+# Updated - BloodMagic - 1.6.9 --> 1.7.0
+## *1.7.0*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/BloodMagic/pull/62
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.6.9...1.7.0
+>
+
+## *1.6.10*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/BloodMagic/pull/62
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.6.9...1.6.10
 >
 
 # Updated - Botania - 1.11.7-GTNH --> 1.12.3-GTNH
@@ -438,7 +518,48 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.37-pre
+# Updated - GT5-Unofficial - 5.09.50.111 --> 5.09.51.41-pre
+## *5.09.51.41-pre*
+>## What's Changed
+>* Fix plasma arc recipes by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3736
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.39-pre...5.09.51.41-pre
+>
+
+## *5.09.51.40*
+>## What's Changed
+>* Fix plasma arc recipes by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3736
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.38...5.09.51.40
+>
+
+## *5.09.51.39-pre*
+>## What's Changed
+>* Move beamline multis to checkProcessing() by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3696
+>* THTR by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3699
+>* Removed usage of deprecated API in LES by @CrystieColon3 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3702
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.38...5.09.51.39-pre
+>
+
+## *5.09.51.38*
+>## What's Changed
+>* Symetrize mapiary bottom by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3727
+>* Add Hafnium Output to QFT by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3729
+>* Fix PrAss not working with stocking bus notifications by @S4mpsa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3730
+>* remove unnecessary recipes by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3731
+>* fix hazmat-protection tooltip hard code to help localize by @miaowwwwww in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3734
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3735
+>
+>## New Contributors
+>* @miaowwwwww made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3734
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.36...5.09.51.38
+>
+
 ## *5.09.51.37-pre*
 >## What's Changed
 >* Fix goodgen controller textures missing by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3723
@@ -1187,7 +1308,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.16-1.7.10...2.2.0-1.7.10
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.23-pre
+# Updated - NewHorizonsCoreMod - 2.6.91 --> 2.7.24
+## *2.7.24*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.22...2.7.24
+>
+
 ## *2.7.23-pre*
 >## What's Changed
 >* Fix DS Parts Recipes by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1128
