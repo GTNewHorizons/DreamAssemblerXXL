@@ -140,8 +140,8 @@ Mod is client-side only.
 > * Add LMA recipe back for 2.7.x by @kuba6000 in https://github.com/GTNewHorizons/MX-Random/pull/17 (0.4.7)
 >
 
-# Updated NewHorizonsCoreMod (2.6.91 -->  2.6.94)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.91...2.6.94
+# Updated NewHorizonsCoreMod (2.6.91 -->  2.6.95)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.91...2.6.95
 
 # Updated NotEnoughItems (2.6.52-GTNH -->  2.6.53-GTNH)
 **Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.52-GTNH...2.6.53-GTNH
