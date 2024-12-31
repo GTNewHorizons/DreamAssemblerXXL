@@ -1,7 +1,7 @@
 {
   "version": "2.7.2",
   "last_version": "2.7.1",
-  "last_updated": "2024-12-31T15:40:23.411516",
+  "last_updated": "2024-12-31T15:53:26.993170",
   "config": "2.7.1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -397,7 +397,7 @@
       "side": "CLIENT"
     },
     "OCGlasses": {
-      "version": "1.5.0-GTNH",
+      "version": "1.5.1-GTNH",
       "side": "BOTH"
     },
     "OpenBlocks": {
@@ -441,7 +441,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.15.15",
+      "version": "9.15.16",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -561,7 +561,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.12.16-GTNH",
+      "version": "1.12.17-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
