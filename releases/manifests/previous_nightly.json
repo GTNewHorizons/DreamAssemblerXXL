@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
-  "last_version": "2.7.2",
-  "last_updated": "2024-12-31T20:07:41.716195",
+  "last_version": "previous_nightly",
+  "last_updated": "2024-12-31T20:53:15.222161",
   "config": "2.8.0-nighty-2024-12-31-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.4.0",
+      "version": "1.4.1",
       "side": "BOTH"
     },
     "IFU": {
