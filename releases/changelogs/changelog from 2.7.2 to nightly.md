@@ -579,7 +579,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.42-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.44-pre
+## *5.09.51.44-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.43-pre...5.09.51.44-pre
+>
+
+## *5.09.51.43-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.42-pre...5.09.51.43-pre
+>
+
 ## *5.09.51.42-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.41-pre...5.09.51.42-pre
 >
@@ -1326,7 +1334,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.82...2.6.0
 >
 
-# Updated - HydroEnergy - 1.3.6 --> 1.4.0
+# Updated - HydroEnergy - 1.3.6 --> 1.4.1
+## *1.4.1*
+>**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.0...1.4.1
+>
+
 ## *1.4.0*
 >## What's Changed
 >* Remove usages of deprecated apis by @serenibyss in https://github.com/GTNewHorizons/HydroEnergy/pull/30
