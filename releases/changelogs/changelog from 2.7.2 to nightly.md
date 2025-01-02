@@ -579,7 +579,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.44-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.45-pre
+## *5.09.51.45-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.44-pre...5.09.51.45-pre
+>
+
 ## *5.09.51.44-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.43-pre...5.09.51.44-pre
 >
@@ -1422,7 +1426,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.16-1.7.10...2.2.0-1.7.10
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.32-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.33-pre
+## *2.7.33-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.32-pre...2.7.33-pre
+>
+
 ## *2.7.32-pre*
 >## What's Changed
 >* Hatch/bus type change shaped to shapeless by @Pxx500 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1132
