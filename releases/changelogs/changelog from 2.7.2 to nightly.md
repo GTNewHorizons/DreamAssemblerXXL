@@ -248,7 +248,16 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.58...1.59
 >
 
-# Updated - BetterQuesting - 3.6.23-GTNH --> 3.7.0-GTNH
+# Updated - BetterQuesting - 3.6.23-GTNH --> 3.7.1-GTNH
+## *3.7.1-GTNH*
+>## What's Changed
+>* Add Localization by @glowredman in https://github.com/GTNewHorizons/BetterQuesting/pull/156
+>* Sort the JSON keys alphabetically before saving to ensure consistent order by @eigenraven in https://github.com/GTNewHorizons/BetterQuesting/pull/157
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.0-GTNH...3.7.1-GTNH
+>
+
 ## *3.7.0-GTNH*
 >## What's Changed
 >* add disable reward mode :Gigachad: by @Glease in https://github.com/GTNewHorizons/BetterQuesting/pull/155
@@ -579,7 +588,23 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.45-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.47-pre
+## *5.09.51.47-pre*
+>## What's Changed
+>* fix ptfe melting temp by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3740
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.45-pre...5.09.51.47-pre
+>
+
+## *5.09.51.46*
+>## What's Changed
+>* fix ptfe melting temp by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3740
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.40...5.09.51.46
+>
+
 ## *5.09.51.45-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.44-pre...5.09.51.45-pre
 >
@@ -1025,7 +1050,19 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.11-pre
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.13-pre
+## *1.5.13-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.12...1.5.13-pre
+>
+
+## *1.5.12*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/97
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.10...1.5.12
+>
+
 ## *1.5.11-pre*
 >## What's Changed
 >* Fix dyson tooltip by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/95
@@ -1228,7 +1265,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.2.2...1.3.0
 >
 
-# Updated - Hardcore-Ender-Expansion - 1.11.4-GTNH --> 1.12.0-GTNH
+# Updated - Hardcore-Ender-Expansion - 1.11.4-GTNH --> 1.12.1-GTNH
+## *1.12.1-GTNH*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/22
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.0-GTNH...1.12.1-GTNH
+>
+
 ## *1.12.0-GTNH*
 >## What's Changed
 >* Fix music disk use in the GT electric jukebox by adding metadata by @eigenraven in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/21
@@ -1338,7 +1383,24 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.82...2.6.0
 >
 
-# Updated - HydroEnergy - 1.3.6 --> 1.4.1
+# Updated - HoloInventory - 2.4.13-GTNH --> 2.5.0-GTNH
+## *2.5.0-GTNH*
+>## What's Changed
+>* Add Localization by @glowredman in https://github.com/GTNewHorizons/HoloInventory/pull/48
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.4.13-GTNH...2.5.0-GTNH
+>
+
+# Updated - HydroEnergy - 1.3.6 --> 1.4.2
+## *1.4.2*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/HydroEnergy/pull/31
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.1...1.4.2
+>
+
 ## *1.4.1*
 >**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.0...1.4.1
 >
@@ -1353,6 +1415,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.3.6...1.4.0
 >
 
+# Updated - IguanaTweaksTConstruct - 2.5.0 --> 2.6.0
+## *2.6.0*
+>## What's Changed
+>* Add Localization by @glowredman in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/18
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/18
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.5.0...2.6.0
+>
+
 # Updated - Infernal-Mobs - 1.9.2-GTNH --> 1.10.0-GTNH
 ## *1.10.0-GTNH*
 >## What's Changed
@@ -1363,13 +1436,52 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# Updated - Jabba - 1.4.6 --> 1.5.0
+# Updated - Jabba - 1.4.6 --> 1.5.1
+## *1.5.1*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Jabba/pull/36
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/Jabba/pull/36
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.0...1.5.1
+>
+
 ## *1.5.0*
 >## What's Changed
 >* update tooltip to reflect config option by @brandyyn in https://github.com/GTNewHorizons/Jabba/pull/35
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.4.6...1.5.0
+>
+
+# Updated - LittleTiles - 1.3.1-GTNH --> 1.4.0-GTNH
+## *1.4.0-GTNH*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/LittleTiles/pull/10
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/LittleTiles/pull/10
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.3.1-GTNH...1.4.0-GTNH
+>
+
+# Updated - LogisticsPipes - 1.2.34-GTNH --> 1.3.0-GTNH
+## *1.3.0-GTNH*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/LogisticsPipes/pull/75
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.2.34-GTNH...1.3.0-GTNH
+>
+
+# Updated - LootGames - 2.1.4 --> 2.2.0
+## *2.2.0*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/LootGames/pull/18
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.1.4...2.2.0
 >
 
 # Updated - MX-Random - 0.4.7 --> 0.5.2-pre
@@ -1395,6 +1507,39 @@
 >* @serenibyss made their first contribution in https://github.com/GTNewHorizons/MX-Random/pull/14
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.4.6...0.5.0
+>
+
+# Updated - MagicBees - 2.8.5-GTNH --> 2.9.0-GTNH
+## *2.9.0-GTNH*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/MagicBees/pull/50
+>* Fix crash for crumbling/transmuting effect if effect range is 0 by @mM4ri in https://github.com/GTNewHorizons/MagicBees/pull/49
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/50
+>* @mM4ri made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/49
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.8.5-GTNH...2.9.0-GTNH
+>
+
+# Updated - MalisisDoors - 1.17.4-GTNH --> 1.18.0-GTNH
+## *1.18.0-GTNH*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/MalisisDoors/pull/20
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MalisisDoors/compare/1.17.4-GTNH...1.18.0-GTNH
+>
+
+# Updated - Mantle - 0.4.2 --> 0.5.0
+## *0.5.0*
+>## What's Changed
+>* Add Localization by @glowredman in https://github.com/GTNewHorizons/Mantle/pull/9
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/Mantle/pull/9
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.4.2...0.5.0
 >
 
 # Updated - Minecraft-Backpack-Mod - 2.4.3-GTNH --> 2.5.0-GTNH
@@ -1424,6 +1569,17 @@
 >* @YannickMG made their first contribution in https://github.com/GTNewHorizons/ModularUI2/pull/19
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.16-1.7.10...2.2.0-1.7.10
+>
+
+# Updated - Natura - 2.7.5 --> 2.8.0
+## *2.8.0*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Natura/pull/27
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/Natura/pull/27
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
 # Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.33-pre
@@ -1667,6 +1823,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
+# Updated - Nodal-Mechanics - 1.2.1-GTNH --> 1.3.0-GTNH
+## *1.3.0-GTNH*
+>## What's Changed
+>* Add Localization by @glowredman in https://github.com/GTNewHorizons/Nodal-Mechanics/pull/10
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/Nodal-Mechanics/pull/10
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Nodal-Mechanics/compare/1.2.1-GTNH...1.3.0-GTNH
+>
+
 # Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.12-GTNH-pre
 ## *2.7.12-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.11-GTNH...2.7.12-GTNH-pre
@@ -1765,7 +1932,24 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.5.0-GTNH...1.6.0-GTNH
 >
 
-# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.1-GTNH
+# Updated - OpenBlocks - 1.10.2-GTNH --> 1.11.0-GTNH
+## *1.11.0-GTNH*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/OpenBlocks/pull/24
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.10.2-GTNH...1.11.0-GTNH
+>
+
+# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.2-GTNH
+## *1.11.2-GTNH*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/OpenComputers/pull/139
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.1-GTNH...1.11.2-GTNH
+>
+
 ## *1.11.1-GTNH*
 >## What's Changed
 >* NEI manual offset fix by @YannickMG in https://github.com/GTNewHorizons/OpenComputers/pull/138
@@ -1795,13 +1979,61 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.4.0
 >
 
-# Updated - Railcraft - 9.15.16 --> 9.16.0
+# Updated - OpenSecurity - 1.1.1-GTNH --> 1.2.0-GTNH
+## *1.2.0-GTNH*
+>## What's Changed
+>* Add Localization by @glowredman in https://github.com/GTNewHorizons/OpenSecurity/pull/5
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenSecurity/compare/1.1.1-GTNH...1.2.0-GTNH
+>
+
+# Updated - Railcraft - 9.15.16 --> 9.16.1
+## *9.16.1*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Railcraft/pull/66
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.0...9.16.1
+>
+
 ## *9.16.0*
 >## What's Changed
 >* Use a hand-harvestable material for Railcraft machines to reflect their harvesting behavior by @YannickMG in https://github.com/GTNewHorizons/Railcraft/pull/65
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.15...9.16.0
+>
+
+# Updated - Random-Things - 2.5.3 --> 2.6.0
+## *2.6.0*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Random-Things/pull/7
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/7
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.5.3...2.6.0
+>
+
+# Updated - RemoteIO - 2.6.4 --> 2.7.0
+## *2.7.0*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/RemoteIO/pull/18
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.6.4...2.7.0
+>
+
+# Updated - SC2 - 2.2.0 --> 2.3.0
+## *2.3.0*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/SC2/pull/7
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/SC2/pull/7
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.2.0...2.3.0
 >
 
 # Updated - ServerUtilities - 2.0.92 --> 2.1.13-pre
@@ -1942,6 +2174,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.13.0...0.14.0
 >
 
+# Updated - StorageDrawers - 2.0.5-GTNH --> 2.1.0-GTNH
+## *2.1.0-GTNH*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/StorageDrawers/pull/39
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/StorageDrawers/pull/39
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.0.5-GTNH...2.1.0-GTNH
+>
+
 # Updated - StructureLib - 1.3.6 --> 1.4.1-pre
 ## *1.4.1-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.0...1.4.1-pre
@@ -1961,7 +2204,26 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.2...1.8.0
 >
 
-# Updated - ThaumicBases - 1.7.8 --> 1.8.0
+# Updated - Tainted-Magic - 7.6.13-GTNH --> 7.6.14
+## *7.6.14*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Tainted-Magic/pull/29
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/29
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.13-GTNH...7.6.14
+>
+
+# Updated - ThaumicBases - 1.7.8 --> 1.8.1
+## *1.8.1*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/ThaumicBases/pull/45
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.8.0...1.8.1
+>
+
 ## *1.8.0*
 >## What's Changed
 >* Change primal shrooms behaviour by @Yoshy2002 in https://github.com/GTNewHorizons/ThaumicBases/pull/44
@@ -2027,7 +2289,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.10.2...2.11.0
 >
 
-# Updated - TinkersConstruct - 1.12.17-GTNH --> 1.13.1-GTNH
+# Updated - TinkersConstruct - 1.12.17-GTNH --> 1.13.2-GTNH
+## *1.13.2-GTNH*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/TinkersConstruct/pull/144
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.1-GTNH...1.13.2-GTNH
+>
+
 ## *1.13.1-GTNH*
 >## What's Changed
 >* fix crash in AlloyMix.java by @iamcsharper in https://github.com/GTNewHorizons/TinkersConstruct/pull/141
@@ -2107,6 +2377,24 @@ Mod is client-side only.
 # Updated - amunra - 0.7.2 --> 0.8.0
 ## *0.8.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.7.2...0.8.0
+>
+
+# Updated - gendustry - 1.8.3-GTNH --> 1.9.0-GTNH
+## *1.9.0-GTNH*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/gendustry/pull/13
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/gendustry/compare/1.8.3-GTNH...1.9.0-GTNH
+>
+
+# Updated - ironchest - 6.0.87 --> 6.1.0
+## *6.1.0*
+>## What's Changed
+>* Add Localization by @glowredman in https://github.com/GTNewHorizons/ironchest/pull/24
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.87...6.1.0
 >
 
 # Updated - nei-custom-diagram - 1.6.8 --> 1.7.1
