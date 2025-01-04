@@ -3,7 +3,15 @@
 # Mods Removed: 
 > * Travellers Gear
 > * TravellersGearNeo
-# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.9-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.11-gtnh-pre
+## *1.4.11-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.10-gtnh...1.4.11-gtnh-pre
+>
+
+## *1.4.10-gtnh*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.8-gtnh...1.4.10-gtnh
+>
+
 ## *1.4.9-gtnh-pre*
 >## What's Changed
 >* Prevent Universal Wireless crafting terminal void items. by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/254
@@ -91,7 +99,20 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AkashicTome/compare/1.1.10...1.2.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-517-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-519-GTNH-pre
+## *rv3-beta-519-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-518-GTNH...rv3-beta-519-GTNH-pre
+>
+
+## *rv3-beta-518-GTNH*
+>## What's Changed
+>* cleanup: Deprecate and remove usages of GridCacheWrapper by @szuend in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/650
+>* Fix unnecessary mmap'ing of compass .dat files by @szuend in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/648
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-516-GTNH...rv3-beta-518-GTNH
+>
+
 ## *rv3-beta-517-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-516-GTNH...rv3-beta-517-GTNH-pre
 >
@@ -248,7 +269,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.58...1.59
 >
 
-# Updated - BetterQuesting - 3.6.23-GTNH --> 3.7.1-GTNH
+# Updated - BetterQuesting - 3.6.23-GTNH --> 3.7.2-GTNH
+## *3.7.2-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.1-GTNH...3.7.2-GTNH
+>
+
 ## *3.7.1-GTNH*
 >## What's Changed
 >* Add Localization by @glowredman in https://github.com/GTNewHorizons/BetterQuesting/pull/156
@@ -583,12 +608,38 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.5.1...1.6.0
 >
 
-# Updated - ForgeRelocation - 0.2.1 --> 0.3.0
+# Updated - ForgeRelocation - 0.2.1 --> 0.3.1
+## *0.3.1*
+>**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.3.0...0.3.1
+>
+
 ## *0.3.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.47-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.49-pre
+## *5.09.51.49-pre*
+>## What's Changed
+>* Cache last recipe done by Target Chamber by @Elisis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3738
+>* Cap waterline T3 success to avoid cheese by @NotAPenguin0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3741
+>* Material chem balance fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3743
+>* Reduce CAL recipe time by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3742
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.47-pre...5.09.51.49-pre
+>
+
+## *5.09.51.48*
+>## What's Changed
+>* Cache last recipe done by Target Chamber by @Elisis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3738
+>* Cap waterline T3 success to avoid cheese by @NotAPenguin0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3741
+>* Material chem balance fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3743
+>* Reduce CAL recipe time by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3742
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.46...5.09.51.48
+>
+
 ## *5.09.51.47-pre*
 >## What's Changed
 >* fix ptfe melting temp by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3740
@@ -1050,7 +1101,19 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.13-pre
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.15-pre
+## *1.5.15-pre*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/97
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.11-pre...1.5.15-pre
+>
+
+## *1.5.14*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.12...1.5.14
+>
+
 ## *1.5.13-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.12...1.5.13-pre
 >
@@ -1282,7 +1345,16 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.89 --> 2.6.12
+# Updated - Hodgepodge - 2.5.89 --> 2.6.13
+## *2.6.13*
+>## What's Changed
+>* Display Mod Name under the Item's Name in Item / Block Stat GUI by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/465
+>* Fix race condition in COFH's oredict initialization by @Lyfts in https://github.com/GTNewHorizons/Hodgepodge/pull/466
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.12...2.6.13
+>
+
 ## *2.6.12*
 >## What's Changed
 >* Fix lag when trying to right click items but the interaction fails by @kuba6000 in https://github.com/GTNewHorizons/Hodgepodge/pull/463
@@ -1571,6 +1643,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.1.16-1.7.10...2.2.0-1.7.10
 >
 
+# Updated - MrTJPCore - 1.2.1 --> 1.3.0
+## *1.3.0*
+>**Full Changelog**: https://github.com/GTNewHorizons/MrTJPCore/compare/1.2.1...1.3.0
+>
+
 # Updated - Natura - 2.7.5 --> 2.8.0
 ## *2.8.0*
 >## What's Changed
@@ -1582,7 +1659,21 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.33-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.35-pre
+## *2.7.35-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.34...2.7.35-pre
+>
+
+## *2.7.34*
+>## What's Changed
+>* remove recipe because turbine is not generated since the cut off is 25k by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1133
+>* Fix Ultra High Strength Concrete Floor Receipe by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1134
+>* Gravel ore no longer needs manual recipe registration by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1135
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.31...2.7.34
+>
+
 ## *2.7.33-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.32-pre...2.7.33-pre
 >
@@ -1988,6 +2079,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenSecurity/compare/1.1.1-GTNH...1.2.0-GTNH
 >
 
+# Updated - ProjectRed - 4.10.5-GTNH --> 4.11.0-GTNH
+## *4.11.0-GTNH*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/ProjectRed/pull/38
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.10.5-GTNH...4.11.0-GTNH
+>
+
 # Updated - Railcraft - 9.15.16 --> 9.16.1
 ## *9.16.1*
 >## What's Changed
@@ -2016,7 +2116,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.5.3...2.6.0
 >
 
-# Updated - RemoteIO - 2.6.4 --> 2.7.0
+# Updated - RemoteIO - 2.6.4 --> 2.7.1
+## *2.7.1*
+>## What's Changed
+>* Fix RemoteAccessor by @reobf in https://github.com/GTNewHorizons/RemoteIO/pull/19
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.7.0...2.7.1
+>
+
 ## *2.7.0*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/RemoteIO/pull/18
@@ -2185,7 +2293,21 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.0.5-GTNH...2.1.0-GTNH
 >
 
-# Updated - StructureLib - 1.3.6 --> 1.4.1-pre
+# Updated - StructureLib - 1.3.6 --> 1.4.3-pre
+## *1.4.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.2...1.4.3-pre
+>
+
+## *1.4.2*
+>## What's Changed
+>* Add Localization by @glowredman in https://github.com/GTNewHorizons/StructureLib/pull/36
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/StructureLib/pull/36
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.0...1.4.2
+>
+
 ## *1.4.1-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.0...1.4.1-pre
 >
@@ -2215,7 +2337,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.13-GTNH...7.6.14
 >
 
-# Updated - ThaumicBases - 1.7.8 --> 1.8.1
+# Updated - ThaumicBases - 1.7.8 --> 1.8.2
+## *1.8.2*
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.8.1...1.8.2
+>
+
 ## *1.8.1*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/ThaumicBases/pull/45
@@ -2257,7 +2383,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.3.10...1.3.11-pre
 >
 
-# Updated - ThaumicEnergistics - 1.6.27-GTNH --> 1.7.1-GTNH-pre
+# Updated - ThaumicEnergistics - 1.6.27-GTNH --> 1.7.3-GTNH-pre
+## *1.7.3-GTNH-pre*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/81
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.1-GTNH-pre...1.7.3-GTNH-pre
+>
+
+## *1.7.2-GTNH*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/81
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.0-GTNH...1.7.2-GTNH
+>
+
 ## *1.7.1-GTNH-pre*
 >## What's Changed
 >* Correct the spelling of matrixs to matrices and counting of them for the Infusion Provider by @Worive in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/79
@@ -2278,7 +2420,26 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.6.27-GTNH...1.7.0-GTNH
 >
 
-# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.0
+# Updated - ThaumicHorizons - 1.6.5 --> 1.7.0
+## *1.7.0*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/ThaumicHorizons/pull/82
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/82
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.6.5...1.7.0
+>
+
+# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.1
+## *2.11.1*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/43
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.0...2.11.1
+>
+
 ## *2.11.0*
 >## What's Changed
 >* Fixed crashes upon harvesting of Praecantatio Infused Seeds by @ClassixX in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/42
@@ -2287,6 +2448,30 @@ Mod is client-side only.
 >* @ClassixX made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/42
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.10.2...2.11.0
+>
+
+# Updated - Thaumic_Exploration - 1.3.7-GTNH --> 1.4.0-GTNH
+## *1.4.0-GTNH*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/40
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/40
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.3.7-GTNH...1.4.0-GTNH
+>
+
+# Updated - Tinkers-Defense - 1.2.2 --> 1.3.1
+## *1.3.1*
+>**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.3.0...1.3.1
+>
+
+## *1.3.0*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Tinkers-Defense/pull/4
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.2.2...1.3.0
 >
 
 # Updated - TinkersConstruct - 1.12.17-GTNH --> 1.13.2-GTNH
@@ -2318,6 +2503,33 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.12.16-GTNH...1.13.0-GTNH
 >
 
+# Updated - TinkersMechworks - 0.3.1 --> 0.4.0
+## *0.4.0*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/TinkersMechworks/pull/7
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/TinkersMechworks/pull/7
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersMechworks/compare/0.3.1...0.4.0
+>
+
+# Updated - Translocators - 1.2.1 --> 1.3.0
+## *1.3.0*
+>## What's Changed
+>* Add Localization by @glowredman in https://github.com/GTNewHorizons/Translocators/pull/8
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/Translocators/pull/8
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Translocators/compare/1.2.1...1.3.0
+>
+
+# Updated - Universal-Singularities - 8.8.0 --> 8.9.0
+## *8.9.0*
+>**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.8.0...8.9.0
+>
+
 # Updated - VisualProspecting - 1.3.28 --> 1.3.29-pre
 ## *1.3.29-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.3.28...1.3.29-pre
@@ -2334,7 +2546,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.5.1...0.6.0
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.5.22-GTNH-pre
+# Updated - WirelessRedstone-CBE - 1.6.1 --> 1.7.0
+## *1.7.0*
+>**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.6.1...1.7.0
+>
+
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.6.1-GTNH-pre
+## *1.6.1-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.5.22-GTNH-pre...1.6.1-GTNH-pre
+>
+
+## *1.6.0-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.5.17-GTNH...1.6.0-GTNH
+>
+
 ## *1.5.22-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.5.21-GTNH.pre...1.5.22-GTNH-pre
 >
@@ -2422,7 +2647,26 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/oauth/compare/1.2.3-GTNH...1.3.0-GTNH
 >
 
-# Updated - twilightforest - 2.6.37 --> 2.7.1
+# Updated - thaumicinsurgence - 0.3.1 --> 0.4.0
+## *0.4.0*
+>## What's Changed
+>* updating the soap use tick times by @Rafadaz in https://github.com/GTNewHorizons/thaumicinsurgence/pull/41
+>* Revert "updating the soap use tick times" by @boubou19 in https://github.com/GTNewHorizons/thaumicinsurgence/pull/43
+>* Add Localization by @glowredman in https://github.com/GTNewHorizons/thaumicinsurgence/pull/45
+>
+>## New Contributors
+>* @Rafadaz made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/41
+>* @boubou19 made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/43
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/thaumicinsurgence/pull/45
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.3.1...0.4.0
+>
+
+# Updated - twilightforest - 2.6.37 --> 2.7.2
+## *2.7.2*
+>**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.1...2.7.2
+>
+
 ## *2.7.1*
 >## What's Changed
 >* Reuse modelview in firefly render by @charagarlnad in https://github.com/GTNewHorizons/twilightforest/pull/95
