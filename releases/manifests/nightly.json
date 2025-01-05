@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-04T03:01:53.431432",
+  "last_updated": "2025-01-05T03:08:37.586952",
   "config": "2.8.0-nighty-2024-12-31-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.11-gtnh-pre",
+      "version": "1.4.13-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -109,7 +109,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.41",
+      "version": "7.1.42",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.3.0-GTNH",
+      "version": "3.3.1-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.49-pre",
+      "version": "5.09.51.53-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "CLIENT"
     },
     "MX-Random": {
-      "version": "0.5.2-pre",
+      "version": "0.5.3",
       "side": "BOTH"
     },
     "Natura": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.35-pre",
+      "version": "2.7.37-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -385,7 +385,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.12-GTNH-pre",
+      "version": "2.7.14-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "OpenModularTurrets": {
-      "version": "2.4.0",
+      "version": "2.4.1",
       "side": "BOTH"
     },
     "OpenSecurity": {
@@ -461,7 +461,7 @@
       "side": "BOTH"
     },
     "Schematica": {
-      "version": "1.11.2-GTNH",
+      "version": "1.12.1-GTNH-pre",
       "side": "CLIENT"
     },
     "SGCraft": {
@@ -697,7 +697,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.3.1-pre",
+      "version": "1.3.2",
       "side": "BOTH"
     },
     "MrTJPCore": {
@@ -709,7 +709,7 @@
       "side": "BOTH"
     },
     "Tainted-Magic": {
-      "version": "7.6.14",
+      "version": "7.6.14-GTNH",
       "side": "BOTH"
     },
     "lwjgl3ify": {
@@ -717,7 +717,7 @@
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.15-pre",
+      "version": "1.5.16",
       "side": "BOTH"
     },
     "amunra": {
