@@ -3,7 +3,7 @@ name: Nightly modpack build
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 2 * * *' # 2:30am UTC every day
+    - cron: '30 3 * * *' # 3:30am UTC every day
 
 jobs:
   nightly-modpack-build:
