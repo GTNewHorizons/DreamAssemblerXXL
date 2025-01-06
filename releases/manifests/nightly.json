@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-05T03:08:37.586952",
+  "last_updated": "2025-01-06T03:08:12.943988",
   "config": "2.8.0-nighty-2024-12-31-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.13-gtnh-pre",
+      "version": "1.4.15-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.53-pre",
+      "version": "5.09.51.55-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "OpenModularTurrets": {
-      "version": "2.4.1",
+      "version": "2.4.2",
       "side": "BOTH"
     },
     "OpenSecurity": {
@@ -561,7 +561,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.2-GTNH",
+      "version": "1.13.3-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {

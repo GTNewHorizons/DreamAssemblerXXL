@@ -3,7 +3,31 @@
 # Mods Removed: 
 > * Travellers Gear
 > * TravellersGearNeo
-# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.11-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.15-gtnh-pre
+## *1.4.15-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.14-gtnh...1.4.15-gtnh-pre
+>
+
+## *1.4.14-gtnh*
+>## What's Changed
+>* Scalable Walrus by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/248
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.12-gtnh...1.4.14-gtnh
+>
+
+## *1.4.13-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.12-gtnh...1.4.13-gtnh-pre
+>
+
+## *1.4.12-gtnh*
+>## What's Changed
+>* Add class dump agrs by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/239
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.10-gtnh...1.4.12-gtnh
+>
+
 ## *1.4.11-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.10-gtnh...1.4.11-gtnh-pre
 >
@@ -390,7 +414,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.11.6-GTNH...1.12.1-GTNH
 >
 
-# Updated - BuildCraft - 7.1.40 --> 7.1.41
+# Updated - BuildCraft - 7.1.40 --> 7.1.42
+## *7.1.42*
+>## What's Changed
+>* Populate gates creative tab by @andreblanke in https://github.com/GTNewHorizons/BuildCraft/pull/21
+>
+>## New Contributors
+>* @andreblanke made their first contribution in https://github.com/GTNewHorizons/BuildCraft/pull/21
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.41...7.1.42
+>
+
 ## *7.1.41*
 >**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.40...7.1.41
 >
@@ -617,7 +651,62 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.49-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.55-pre
+## *5.09.51.55-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.54...5.09.51.55-pre
+>
+
+## *5.09.51.54*
+>## What's Changed
+>* Make degasser not form without control hatch by @NotAPenguin0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3750
+>* Enhance Wireless Detectors with toggle-able sided redstone manipulation by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3617
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.52...5.09.51.54
+>
+
+## *5.09.51.53-pre*
+>## What's Changed
+>* some Multiblock Tooltip fixes by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3748
+>* Clean up some deprecation usages by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3698
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.51-pre...5.09.51.53-pre
+>
+
+## *5.09.51.52*
+>## What's Changed
+>* some Multiblock Tooltip fixes by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3748
+>* Clean up some deprecation usages by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3698
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.50...5.09.51.52
+>
+
+## *5.09.51.51-pre*
+>## What's Changed
+>* Move beamline multis to checkProcessing() by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3696
+>* THTR by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3699
+>* Removed usage of deprecated API in LES by @CrystieColon3 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3702
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.50...5.09.51.51-pre
+>
+
+## *5.09.51.50*
+>## What's Changed
+>* Don't ignore Tinker's Construct blocks in ore registration. by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3709
+>* fix chem formulas for a few lanth materials by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3744
+>* No Free Computation by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3745
+>* Update structure size tooltips for Large Electric Compressor / HIP by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3746
+>* fix Tooltip of Molecular Transformer by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3747
+>* Simplified Multiblock Lathe by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3724
+>* Fix AL output amount by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3749
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.48...5.09.51.50
+>
+
 ## *5.09.51.49-pre*
 >## What's Changed
 >* Cache last recipe done by Target Chamber by @Elisis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3738
@@ -1101,7 +1190,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.15-pre
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.16
+## *1.5.16*
+>## What's Changed
+>* Clean up code before merge by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/93
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.14...1.5.16
+>
+
 ## *1.5.15-pre*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/97
@@ -1255,7 +1352,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.6...1.4.0
 >
 
-# Updated - Galacticraft - 3.2.9-GTNH --> 3.3.0-GTNH
+# Updated - Galacticraft - 3.2.9-GTNH --> 3.3.1-GTNH
+## *3.3.1-GTNH*
+>## What's Changed
+>* GCcore item and recipe cleanup for GTNH by @chochem in https://github.com/GTNewHorizons/Galacticraft/pull/98
+>
+>## New Contributors
+>* @chochem made their first contribution in https://github.com/GTNewHorizons/Galacticraft/pull/98
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.3.0-GTNH...3.3.1-GTNH
+>
+
 ## *3.3.0-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.2.9-GTNH...3.3.0-GTNH
 >
@@ -1313,7 +1420,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.97-GTNH...1.1.100-GTNH
 >
 
-# Updated - Gravitation-Suite-Neo - 1.2.2 --> 1.3.1-pre
+# Updated - Gravitation-Suite-Neo - 1.2.2 --> 1.3.2
+## *1.3.2*
+>## What's Changed
+>* Fix falling with enabled hover mode and holding both jump and sneak key by @kuba6000 in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/24
+>
+>## New Contributors
+>* @kuba6000 made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/24
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.0...1.3.2
+>
+
 ## *1.3.1-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.0...1.3.1-pre
 >
@@ -1556,7 +1673,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.1.4...2.2.0
 >
 
-# Updated - MX-Random - 0.4.7 --> 0.5.2-pre
+# Updated - MX-Random - 0.4.7 --> 0.5.3
+## *0.5.3*
+>## What's Changed
+>* Refactor hidden fx UI by @serenibyss in https://github.com/GTNewHorizons/MX-Random/pull/15
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.5.1...0.5.3
+>
+
 ## *0.5.2-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.5.1...0.5.2-pre
 >
@@ -1659,7 +1784,23 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.35-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.37-pre
+## *2.7.37-pre*
+>## What's Changed
+>* GCcore recipe cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1136
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.35-pre...2.7.37-pre
+>
+
+## *2.7.36*
+>## What's Changed
+>* GCcore recipe cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1136
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.34...2.7.36
+>
+
 ## *2.7.35-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.34...2.7.35-pre
 >
@@ -1925,7 +2066,21 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Nodal-Mechanics/compare/1.2.1-GTNH...1.3.0-GTNH
 >
 
-# Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.12-GTNH-pre
+# Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.14-GTNH-pre
+## *2.7.14-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.13-GTNH...2.7.14-GTNH-pre
+>
+
+## *2.7.13-GTNH*
+>## What's Changed
+>* Item List Sort: Ensure access to shared private field is atomic by @lailani-f in https://github.com/GTNewHorizons/NotEnoughItems/pull/584
+>
+>## New Contributors
+>* @lailani-f made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/584
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.11-GTNH...2.7.13-GTNH
+>
+
 ## *2.7.12-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.11-GTNH...2.7.12-GTNH-pre
 >
@@ -2061,7 +2216,23 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.10.27-GTNH...1.11.0-GTNH
 >
 
-# Updated - OpenModularTurrets - 2.3.7 --> 2.4.0
+# Updated - OpenModularTurrets - 2.3.7 --> 2.4.2
+## *2.4.2*
+>## What's Changed
+>* improve targeting by reworking onImpact for projectiles by @Keridos in https://github.com/GTNewHorizons/OpenModularTurrets/pull/8
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.4.1...2.4.2
+>
+
+## *2.4.1*
+>## What's Changed
+>* change targeting to use height/2 instead of getEyeHeight() of entities. by @Keridos in https://github.com/GTNewHorizons/OpenModularTurrets/pull/7
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.4.0...2.4.1
+>
+
 ## *2.4.0*
 >## What's Changed
 >* Updates for powering Turret Bases, no more IC2, but GT5 by @Keridos in https://github.com/GTNewHorizons/OpenModularTurrets/pull/6
@@ -2142,6 +2313,16 @@
 >* @glowredman made their first contribution in https://github.com/GTNewHorizons/SC2/pull/7
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.2.0...2.3.0
+>
+
+# Updated - Schematica - 1.11.2-GTNH --> 1.12.1-GTNH-pre
+Mod is client-side only.
+## *1.12.1-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.0-GTNH...1.12.1-GTNH-pre
+>
+
+## *1.12.0-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.11.2-GTNH...1.12.0-GTNH
 >
 
 # Updated - ServerUtilities - 2.0.92 --> 2.1.13-pre
@@ -2326,7 +2507,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.2...1.8.0
 >
 
-# Updated - Tainted-Magic - 7.6.13-GTNH --> 7.6.14
+# Updated - Tainted-Magic - 7.6.13-GTNH --> 7.6.14-GTNH
+## *7.6.14-GTNH*
+>## What's Changed
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Tainted-Magic/pull/29
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/29
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.13-GTNH...7.6.14-GTNH
+>
+
 ## *7.6.14*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Tainted-Magic/pull/29
@@ -2474,7 +2665,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.2.2...1.3.0
 >
 
-# Updated - TinkersConstruct - 1.12.17-GTNH --> 1.13.2-GTNH
+# Updated - TinkersConstruct - 1.12.17-GTNH --> 1.13.3-GTNH
+## *1.13.3-GTNH*
+>## What's Changed
+>* check against `isSurfaceWorld()` instead of `dimensionId == 0` by @Pilzinsel64 in https://github.com/GTNewHorizons/TinkersConstruct/pull/145
+>
+>## New Contributors
+>* @Pilzinsel64 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/145
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.2-GTNH...1.13.3-GTNH
+>
+
 ## *1.13.2-GTNH*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/TinkersConstruct/pull/144
