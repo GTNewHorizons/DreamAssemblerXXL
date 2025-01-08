@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.7.2",
-  "last_updated": "2025-01-08T13:19:03.824409",
+  "last_updated": "2025-01-08T13:58:22.597121",
   "config": "2.8.0-nightly-2025-01-08",
   "github_mods": {
     "AdventureBackpack2": {
@@ -102,10 +102,6 @@
     },
     "BrandonsCore": {
       "version": "1.2.0-GTNH",
-      "side": "BOTH"
-    },
-    "BugTorch": {
-      "version": "1.2.14-GTNH",
       "side": "BOTH"
     },
     "BuildCraft": {
@@ -920,6 +916,10 @@
     },
     "Et Futurum Requiem": {
       "version": "2.6.2",
+      "side": "BOTH"
+    },
+    "Bug-Torch": {
+      "version": "1.2.13",
       "side": "BOTH"
     }
   }

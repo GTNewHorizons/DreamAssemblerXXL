@@ -294,7 +294,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Botania](https://github.com/GTNewHorizons/Botania) | 1.12.4-GTNH-pre |
 | [Botanic-horizons](https://github.com/GTNewHorizons/Botanic-horizons) | 1.1.7-GTNH |
 | [BrandonsCore](https://github.com/GTNewHorizons/BrandonsCore) | 1.2.0-GTNH |
-| [BugTorch](https://github.com/GTNewHorizons/BugTorch) | 1.2.14-GTNH |
+| [Bug-Torch](https://github.com/jss2a98aj/BugTorch) | 1.2.13 |
 | [BuildCraft](https://github.com/GTNewHorizons/BuildCraft) | 7.1.42 |
 | [BuildCraftCompat](https://github.com/GTNewHorizons/BuildCraftCompat) | 7.1.17 |
 | [BuildCraftOilTweak](https://github.com/GTNewHorizons/BuildCraftOilTweak) | 1.1.1 |
