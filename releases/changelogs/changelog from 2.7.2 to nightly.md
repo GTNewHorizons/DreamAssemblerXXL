@@ -651,7 +651,19 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.55-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.56
+## *5.09.51.56*
+>## What's Changed
+>* More batch mode by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3751
+>* remove froth recycling Circuits by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3757
+>* fix HV tank recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3753
+>* Changing name of MBF to MEBF by @CrystieColon3 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3756
+>* Migrate coremod casings to GT5u by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3732
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.54...5.09.51.56
+>
+
 ## *5.09.51.55-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.54...5.09.51.55-pre
 >
