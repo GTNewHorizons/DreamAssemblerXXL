@@ -363,7 +363,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Industrial Craft 2](https://www.curseforge.com/minecraft/mc-mods/industrial-craft) | 2.2.82a-experimental |
 | [Infernal-Mobs](https://github.com/GTNewHorizons/Infernal-Mobs) | 1.10.0-GTNH |
 | [InGame-Info-XML](https://github.com/GTNewHorizons/InGame-Info-XML) | 2.8.19 |
-| [inventory-tweaks](https://github.com/GTNewHorizons/inventory-tweaks) | 1.7.0 |
+| [InventoryBogoSorter](https://github.com/GTNewHorizons/InventoryBogoSorter) | 1.2.6-GTNH |
 | [ironchest](https://github.com/GTNewHorizons/ironchest) | 6.1.0 |
 | [IronChestMinecarts](https://github.com/GTNewHorizons/IronChestMinecarts) | 1.1.0 |
 | [Irontanks](https://github.com/GTNewHorizons/Irontanks) | 1.3.0 |
@@ -385,7 +385,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ModularUI2](https://github.com/GTNewHorizons/ModularUI2) | 2.2.0-1.7.10 |
 | [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.2.17 |
 | [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) | 1.6.21 |
-| [MouseTweaks](https://github.com/GTNewHorizons/MouseTweaks) | 2.4.20-GTNH |
 | [MrTJPCore](https://github.com/GTNewHorizons/MrTJPCore) | 1.3.0 |
 | [MX-Random](https://github.com/GTNewHorizons/MX-Random) | 0.5.3 |
 | [Natura](https://github.com/GTNewHorizons/Natura) | 2.8.0 |
