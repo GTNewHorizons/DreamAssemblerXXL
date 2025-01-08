@@ -1,8 +1,8 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2025-01-08T03:41:09.377368",
-  "config": "2.8.0-nighty-2024-12-31-2",
+  "last_version": "2.7.2",
+  "last_updated": "2025-01-08T13:09:46.317355",
+  "config": "2.8.0-nightly-2025-01-08",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.4-GTNH",
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.7.2-GTNH",
+      "version": "3.7.3-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.56",
+      "version": "5.09.51.59-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.4.2",
+      "version": "1.4.3",
       "side": "BOTH"
     },
     "IFU": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NaturesCompass": {
-      "version": "1.4.4-GTNH",
+      "version": "1.4.5-GTNH-pre",
       "side": "BOTH"
     },
     "nei-custom-diagram": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.37-pre",
+      "version": "2.7.39-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
