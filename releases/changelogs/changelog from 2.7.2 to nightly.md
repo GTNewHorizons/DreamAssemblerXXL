@@ -1,8 +1,11 @@
 # New Mods: 
 > * Et Futurum Requiem
+> * InventoryBogoSorter
 # Mods Removed: 
+> * MouseTweaks
 > * Travellers Gear
 > * TravellersGearNeo
+> * inventory-tweaks
 # Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.15-gtnh-pre
 ## *1.4.15-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.14-gtnh...1.4.15-gtnh-pre
@@ -293,7 +296,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.58...1.59
 >
 
-# Updated - BetterQuesting - 3.6.23-GTNH --> 3.7.2-GTNH
+# Updated - BetterQuesting - 3.6.23-GTNH --> 3.7.3-GTNH
+## *3.7.3-GTNH*
+>## What's Changed
+>* Don't go back to previous screen when r-clicking searchbar by @Lyfts in https://github.com/GTNewHorizons/BetterQuesting/pull/158
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.2-GTNH...3.7.3-GTNH
+>
+
 ## *3.7.2-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.1-GTNH...3.7.2-GTNH
 >
@@ -651,7 +662,32 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.56
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.59-pre
+## *5.09.51.59-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.58...5.09.51.59-pre
+>
+
+## *5.09.51.58*
+>## What's Changed
+>* add MBF abbreviation in Tooltip by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3755
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.56...5.09.51.58
+>
+
+## *5.09.51.57-pre*
+>## What's Changed
+>* More batch mode by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3751
+>* remove froth recycling Circuits by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3757
+>* fix HV tank recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3753
+>* Changing name of MBF to MEBF by @CrystieColon3 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3756
+>* Migrate coremod casings to GT5u by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3732
+>* add MBF abbreviation in Tooltip by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3755
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.55-pre...5.09.51.57-pre
+>
+
 ## *5.09.51.56*
 >## What's Changed
 >* More batch mode by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3751
@@ -1593,7 +1629,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.4.13-GTNH...2.5.0-GTNH
 >
 
-# Updated - HydroEnergy - 1.3.6 --> 1.4.2
+# Updated - HydroEnergy - 1.3.6 --> 1.4.3
+## *1.4.3*
+>## What's Changed
+>* remove outdated tectech dep version by @chochem in https://github.com/GTNewHorizons/HydroEnergy/pull/32
+>
+>## New Contributors
+>* @chochem made their first contribution in https://github.com/GTNewHorizons/HydroEnergy/pull/32
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.2...1.4.3
+>
+
 ## *1.4.2*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/HydroEnergy/pull/31
@@ -1635,6 +1681,117 @@
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
+>
+
+# New Mod - InventoryBogoSorter:1.2.6-GTNH
+## *1.2.6-GTNH*
+>## What's Changed
+>* Merging Mousetweaks by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/28
+>* Check for players only by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/30
+>* Config Changes by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/31
+>* Adding missed check + use .copy() by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/32
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.3-GTNH...1.2.6-GTNH
+>
+
+## *1.2.5-GTNH*
+>## What's Changed
+>* Merging Mousetweaks by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/28
+>* Check for players only by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/30
+>* Config Changes by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/31
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.3-GTNH...1.2.5-GTNH
+>
+
+## *1.2.4-GTNH-pre*
+>## What's Changed
+>* Spotless apply for branch Merging-Mousetweaks for #28 by @github-actions in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/29
+>
+>## New Contributors
+>* @github-actions made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/29
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.3-GTNH...1.2.4-GTNH-pre
+>
+
+## *1.2.3-GTNH*
+>## What's Changed
+>* remove log message by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/26
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.2-GTNH...1.2.3-GTNH
+>
+
+## *1.2.2-GTNH*
+>## What's Changed
+>* Fix MetaBaseItem by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/25
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.1-GTNH...1.2.2-GTNH
+>
+
+## *1.2.1-GTNH*
+>## What's Changed
+>* Server-check by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/21
+>* Clean up by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/22
+>* Split up GT5u and GT6 checks by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/24
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.0-GTNH...1.2.1-GTNH
+>
+
+## *1.2.0-GTNH*
+>## What's Changed
+>* Add dropoff quota; default 2ms by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/14
+>* Packet throttling by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/15
+>* Merge craftingtweaks by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/17
+>* Change the Dropoff Button texture by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/16
+>* Update crafting tweaks name to be more specific by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/18
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.1.2-GTNH...1.2.0-GTNH
+>
+
+## *1.1.2-GTNH*
+>## What's Changed
+>* Capture player from damageItem for the DamageHelper by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/13
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.1.1-GTNH...1.1.2-GTNH
+>
+
+## *1.1.1-GTNH*
+>## What's Changed
+>* Add SideOnly when using client only stuff by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/12
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.1-GTNH...1.1.1-GTNH
+>
+
+## *1.1-GTNH*
+>## What's Changed
+>* Fix configs not saving on closing config gui by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/9
+>* Add GT5u mod checks to RefillHandler by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/10
+>* Add config to show/hide dropoff button in inventory by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/11
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.0-GTNH...1.1-GTNH
+>
+
+## *1.0-GTNH*
+>## What's Changed
+>* Fix sorting on a server by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/2
+>* Alt hotbar scrolling by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/3
+>* Say goodbye to GlStateManager by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/4
+>* Dropoff by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/6
+>* First try at Refill by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/7
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/2
+>* @0hwx made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/3
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/commits/1.0-GTNH
 >
 
 # Updated - Jabba - 1.4.6 --> 1.5.1
@@ -1796,7 +1953,27 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.37-pre
+# Updated - NaturesCompass - 1.4.4-GTNH --> 1.4.5-GTNH-pre
+## *1.4.5-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
+>
+
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.39-pre
+## *2.7.39-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.38...2.7.39-pre
+>
+
+## *2.7.38*
+>## What's Changed
+>* change circuits of froth recycling with Combs by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1139
+>* Add flat dual interface assembler recipe by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1138
+>* fix HV tank recipes  by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1137
+>* Migrate coremod casings to GT5u by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1130
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.36...2.7.38
+>
+
 ## *2.7.37-pre*
 >## What's Changed
 >* GCcore recipe cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1136
@@ -2199,7 +2376,16 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.10.2-GTNH...1.11.0-GTNH
 >
 
-# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.2-GTNH
+# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.3-GTNH
+## *1.11.3-GTNH*
+>## What's Changed
+>* sync with upstream by @asiekierka in https://github.com/GTNewHorizons/OpenComputers/pull/140
+>* sync with upstream by @asiekierka in https://github.com/GTNewHorizons/OpenComputers/pull/141
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.2-GTNH...1.11.3-GTNH
+>
+
 ## *1.11.2-GTNH*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/OpenComputers/pull/139
