@@ -1,6 +1,7 @@
 # New Mods: 
 > * Et Futurum Requiem
 > * InventoryBogoSorter
+> * MatterManipulator
 # Mods Removed: 
 > * MouseTweaks
 > * Travellers Gear
@@ -1906,6 +1907,11 @@
 >* @glowredman made their first contribution in https://github.com/GTNewHorizons/Mantle/pull/9
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.4.2...0.5.0
+>
+
+# New Mod - MatterManipulator:0.0.14
+## *0.0.14*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/commits/0.0.14
 >
 
 # Updated - Minecraft-Backpack-Mod - 2.4.3-GTNH --> 2.5.0-GTNH
