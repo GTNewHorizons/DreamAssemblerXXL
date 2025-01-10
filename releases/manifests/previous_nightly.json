@@ -1,15 +1,15 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-08T03:41:09.377368",
-  "config": "2.8.0-nighty-2024-12-31-2",
+  "last_updated": "2025-01-10T03:43:14.006077",
+  "config": "2.8.0-nightly-2025-01-09",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.4-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.15-gtnh-pre",
+      "version": "1.4.17-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-519-GTNH-pre",
+      "version": "rv3-beta-520-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.7.2-GTNH",
+      "version": "3.7.3-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -104,10 +104,6 @@
       "version": "1.2.0-GTNH",
       "side": "BOTH"
     },
-    "BugTorch": {
-      "version": "1.2.14-GTNH",
-      "side": "BOTH"
-    },
     "BuildCraft": {
       "version": "7.1.42",
       "side": "BOTH"
@@ -133,7 +129,7 @@
       "side": "BOTH"
     },
     "CodeChickenCore": {
-      "version": "1.4.0",
+      "version": "1.4.1",
       "side": "BOTH"
     },
     "Computronics": {
@@ -237,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.56",
+      "version": "5.09.51.62-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +241,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.0",
+      "version": "0.6.1",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -265,7 +261,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.4.2",
+      "version": "1.4.3",
       "side": "BOTH"
     },
     "IFU": {
@@ -283,10 +279,6 @@
     "InGame-Info-XML": {
       "version": "2.8.19",
       "side": "BOTH"
-    },
-    "inventory-tweaks": {
-      "version": "1.7.0",
-      "side": "CLIENT"
     },
     "ironchest": {
       "version": "6.1.0",
@@ -344,10 +336,6 @@
       "version": "0.11.0",
       "side": "BOTH"
     },
-    "MouseTweaks": {
-      "version": "2.4.20-GTNH",
-      "side": "CLIENT"
-    },
     "MX-Random": {
       "version": "0.5.3",
       "side": "BOTH"
@@ -357,7 +345,7 @@
       "side": "BOTH"
     },
     "NaturesCompass": {
-      "version": "1.4.4-GTNH",
+      "version": "1.5.0-GTNH",
       "side": "BOTH"
     },
     "nei-custom-diagram": {
@@ -373,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.37-pre",
+      "version": "2.7.42-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -385,7 +373,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.14-GTNH-pre",
+      "version": "2.7.16-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -405,7 +393,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.11.2-GTNH",
+      "version": "1.11.3-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -441,7 +429,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.16.1",
+      "version": "9.16.2",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -537,7 +525,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.3-GTNH-pre",
+      "version": "1.7.4-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -625,7 +613,7 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.2.3",
+      "version": "1.2.4-pre",
       "side": "BOTH"
     },
     "WitchingGadgets": {
@@ -717,7 +705,7 @@
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.16",
+      "version": "1.5.17-pre",
       "side": "BOTH"
     },
     "amunra": {
@@ -790,6 +778,14 @@
     },
     "Postea": {
       "version": "1.0.13",
+      "side": "BOTH"
+    },
+    "InventoryBogoSorter": {
+      "version": "1.2.6-GTNH",
+      "side": "BOTH"
+    },
+    "MatterManipulator": {
+      "version": "0.0.15",
       "side": "BOTH"
     }
   },
@@ -924,6 +920,10 @@
     },
     "Et Futurum Requiem": {
       "version": "2.6.2",
+      "side": "BOTH"
+    },
+    "Bug-Torch": {
+      "version": "1.2.13",
       "side": "BOTH"
     }
   }
