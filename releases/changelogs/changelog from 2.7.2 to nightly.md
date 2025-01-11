@@ -7,7 +7,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.17-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.18-gtnh-pre
+## *1.4.18-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.17-gtnh-pre...1.4.18-gtnh-pre
+>
+
 ## *1.4.17-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.16-gtnh...1.4.17-gtnh-pre
 >
@@ -137,6 +141,21 @@
 # Updated - AkashicTome - 1.1.10 --> 1.2.0
 ## *1.2.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/AkashicTome/compare/1.1.10...1.2.0
+>
+
+# Updated - Amazing-Trophies - 1.2.2 --> 1.3.0
+## *1.3.0*
+>## What's Changed
+>* fix client world leak by @Glease in https://github.com/GTNewHorizons/Amazing-Trophies/pull/10
+>
+>## New Contributors
+>* @Glease made their first contribution in https://github.com/GTNewHorizons/Amazing-Trophies/pull/10
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.2.2...1.3.0
+>
+
+## *1.2.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.2.2...1.2.3-pre
 >
 
 # Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-520-GTNH-pre
@@ -533,7 +552,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.3.8-GTNH...1.4.0-GTNH
 >
 
-# Updated - Crops-plus-plus - 1.7.14 --> 1.8.0
+# Updated - Crops-plus-plus - 1.7.14 --> 1.8.1-pre
+## *1.8.1-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.0...1.8.1-pre
+>
+
 ## *1.8.0*
 >## What's Changed
 >* Fix Typo for Natura Blueberry by @Yoshy2002 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/84
@@ -675,7 +698,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - ForgeMultipart - 1.5.1 --> 1.6.0
+# Updated - ForgeMultipart - 1.5.1 --> 1.6.1-pre
+## *1.6.1-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.6.0...1.6.1-pre
+>
+
 ## *1.6.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.5.1...1.6.0
 >
@@ -689,7 +716,29 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.62-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.64-pre
+## *5.09.51.64-pre*
+>## What's Changed
+>* remove over 1000 recipes that were pure bloat by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3771
+>* Allow name remover to remove muffler upgrades by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3778
+>* Remove GT++ naq fuels by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3783
+>* Combine duplicate Titansteel fluids in UHV charge pack recipe by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3784
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.62-pre...5.09.51.64-pre
+>
+
+## *5.09.51.63*
+>## What's Changed
+>* remove over 1000 recipes that were pure bloat by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3771
+>* Allow name remover to remove muffler upgrades by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3778
+>* Remove GT++ naq fuels by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3783
+>* Combine duplicate Titansteel fluids in UHV charge pack recipe by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3784
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.61...5.09.51.63
+>
+
 ## *5.09.51.62-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.61...5.09.51.62-pre
 >
@@ -1296,7 +1345,23 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.17-pre
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.19-pre
+## *1.5.19-pre*
+>## What's Changed
+>* Remove usages of deprecated render classes by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/99
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.17-pre...1.5.19-pre
+>
+
+## *1.5.18*
+>## What's Changed
+>* Remove usages of deprecated render classes by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/99
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.16...1.5.18
+>
+
 ## *1.5.17-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.16...1.5.17-pre
 >
@@ -1582,7 +1647,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.89 --> 2.6.13
+# Updated - Hodgepodge - 2.5.89 --> 2.6.14-pre
+## *2.6.14-pre*
+>## What's Changed
+>* Fix skin manager leaking client world by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/469
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.13...2.6.14-pre
+>
+
 ## *2.6.13*
 >## What's Changed
 >* Display Mod Name under the Item's Name in Item / Block Stat GUI by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/465
@@ -1755,7 +1828,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.6-GTNH
+# New Mod - InventoryBogoSorter:1.2.8-GTNH-pre
+## *1.2.8-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.6-GTNH...1.2.8-GTNH-pre
+>
+
+## *1.2.7-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.6-GTNH...1.2.7-GTNH-pre
+>
+
 ## *1.2.6-GTNH*
 >## What's Changed
 >* Merging Mousetweaks by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/28
@@ -2049,7 +2130,23 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.42-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.44-pre
+## *2.7.44-pre*
+>## What's Changed
+>* Add assembler recipes for steam hulls by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1146
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.42-pre...2.7.44-pre
+>
+
+## *2.7.43*
+>## What's Changed
+>* Add assembler recipes for steam hulls by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1146
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.41...2.7.43
+>
+
 ## *2.7.42-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.41...2.7.42-pre
 >
@@ -2365,7 +2462,29 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Nodal-Mechanics/compare/1.2.1-GTNH...1.3.0-GTNH
 >
 
-# Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.16-GTNH-pre
+# Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.19-GTNH-pre
+## *2.7.19-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.17-GTNH-pre...2.7.19-GTNH-pre
+>
+
+## *2.7.18-GTNH*
+>## What's Changed
+>* Fix NPE in ItemsTooltipLineHandler by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/589
+>* fix memory leak fixes not working for MP by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/590
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.15-GTNH...2.7.18-GTNH
+>
+
+## *2.7.17-GTNH-pre*
+>## What's Changed
+>* Fix NPE in ItemsTooltipLineHandler by @Caedis in https://github.com/GTNewHorizons/NotEnoughItems/pull/589
+>* fix memory leak fixes not working for MP by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/590
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.16-GTNH-pre...2.7.17-GTNH-pre
+>
+
 ## *2.7.16-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.15-GTNH...2.7.16-GTNH-pre
 >
@@ -2883,7 +3002,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.7.7...1.8.0
 >
 
-# Updated - ThaumicBoots - 1.3.10 --> 1.4.2
+# Updated - ThaumicBoots - 1.3.10 --> 1.4.3-pre
+## *1.4.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.2...1.4.3-pre
+>
+
 ## *1.4.2*
 >## What's Changed
 >* Hotkey Updates by @Akeianova in https://github.com/GTNewHorizons/ThaumicBoots/pull/34
