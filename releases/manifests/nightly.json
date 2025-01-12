@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-11T03:41:10.416594",
-  "config": "2.8.0-nightly-2025-01-10",
+  "last_updated": "2025-01-12T03:45:10.800660",
+  "config": "2.8.0-nightly-2025-01-11",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.4-GTNH",
@@ -153,7 +153,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.8.1-pre",
+      "version": "1.8.3-pre",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.64-pre",
+      "version": "5.09.51.66-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.44-pre",
+      "version": "2.7.47",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -393,7 +393,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.11.3-GTNH",
+      "version": "1.11.4-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -577,7 +577,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.3.29-pre",
+      "version": "1.4.0",
       "side": "BOTH"
     },
     "waila": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.2.4-pre",
+      "version": "1.3.0",
       "side": "BOTH"
     },
     "WitchingGadgets": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.8-GTNH-pre",
+      "version": "1.2.11-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {

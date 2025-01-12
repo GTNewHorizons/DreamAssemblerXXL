@@ -552,7 +552,21 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.3.8-GTNH...1.4.0-GTNH
 >
 
-# Updated - Crops-plus-plus - 1.7.14 --> 1.8.1-pre
+# Updated - Crops-plus-plus - 1.7.14 --> 1.8.3-pre
+## *1.8.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.2...1.8.3-pre
+>
+
+## *1.8.2*
+>## What's Changed
+>* Add custom textures for the Sugar Beet crop by @Juknum in https://github.com/GTNewHorizons/Crops-plus-plus/pull/85
+>
+>## New Contributors
+>* @Juknum made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/85
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.0...1.8.2
+>
+
 ## *1.8.1-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.0...1.8.1-pre
 >
@@ -716,7 +730,36 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.64-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.66-pre
+## *5.09.51.66-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.65...5.09.51.66-pre
+>
+
+## *5.09.51.65*
+>## What's Changed
+>* remove ic2 valuable ore compat, ic2 miner, and ic2 scanners by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3785
+>* Rebalance scanning times by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3761
+>* Fix multiblock extruder playing bender sound by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3777
+>* Add cells for missing coremod fluids by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3774
+>* Allow plunger to drain all fluid when sneaking by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3779
+>* Show "Working Disabled" instead of "Idle" when machine is soft malleted by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3780
+>* Add tooltip to parameter copy paste card by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3781
+>* Allow setting amperage with screwdriver on wireless lasers by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3782
+>* Renaming MEBF to MBF by @CrystieColon3 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3772
+>* Remove more naqfuels by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3786
+>* remove weak turbine cutoff by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3739
+>* Widen Modifiers to `protected` in MTEHatchInputBusME and MTEHatchOutputBusME by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3787
+>* Add casing minimum to Chemical Plant tooltip by @Breviel in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3770
+>* Show EEC current mob in WAILA and tricorder by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3776
+>* Refactor Biovat and Radio Hatches by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3728
+>* Fix traversal order of `RecipeMap`. by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3764
+>
+>## New Contributors
+>* @Breviel made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3770
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.63...5.09.51.65
+>
+
 ## *5.09.51.64-pre*
 >## What's Changed
 >* remove over 1000 recipes that were pure bloat by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3771
@@ -1828,7 +1871,41 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.8-GTNH-pre
+# New Mod - InventoryBogoSorter:1.2.11-GTNH
+## *1.2.11-GTNH*
+>## What's Changed
+>* Update README.md by @Csstform in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/40
+>* Battlegear crash by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/39
+>* Compat by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/38
+>
+>## New Contributors
+>* @Csstform made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/40
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.9-GTNH...1.2.11-GTNH
+>
+
+## *1.2.10-GTNH-pre*
+>## What's Changed
+>* Add chunk claim checking to dropoff by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/35
+>* Fixed a crash occurring with littleMaidMobX by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/36
+>* Compat by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/34
+>* Rework dropoff button + fix tooltip by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/37
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.8-GTNH-pre...1.2.10-GTNH-pre
+>
+
+## *1.2.9-GTNH*
+>## What's Changed
+>* Add chunk claim checking to dropoff by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/35
+>* Fixed a crash occurring with littleMaidMobX by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/36
+>* Compat by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/34
+>* Rework dropoff button + fix tooltip by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/37
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.6-GTNH...1.2.9-GTNH
+>
+
 ## *1.2.8-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.6-GTNH...1.2.8-GTNH-pre
 >
@@ -2130,7 +2207,33 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.44-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.47
+## *2.7.47*
+>## What's Changed
+>* Natura Wood crafting recipes use all saws now by @MissBismuth in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1153
+>* com.dreammaster.item.ItemList -> NHItemList by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1150
+>
+>## New Contributors
+>* @MissBismuth made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1153
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.45...2.7.47
+>
+
+## *2.7.46-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.45...2.7.46-pre
+>
+
+## *2.7.45*
+>## What's Changed
+>* remove ic2 valuable ore compat, ic2 miner, and ic2 scanners by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1148
+>* Fix coremod biofluids by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1147
+>* Change Bio Vat Recipes to use new metadata by @StaffiX in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1129
+>* Rebalance scanning times by @StaffiX in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1141
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.43...2.7.45
+>
+
 ## *2.7.44-pre*
 >## What's Changed
 >* Add assembler recipes for steam hulls by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1146
@@ -2620,7 +2723,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.10.2-GTNH...1.11.0-GTNH
 >
 
-# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.3-GTNH
+# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.4-GTNH
+## *1.11.4-GTNH*
+>## What's Changed
+>* fix client side memory leak on anything RedstoneAware by @Glease in https://github.com/GTNewHorizons/OpenComputers/pull/142
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.3-GTNH...1.11.4-GTNH
+>
+
 ## *1.11.3-GTNH*
 >## What's Changed
 >* sync with upstream by @asiekierka in https://github.com/GTNewHorizons/OpenComputers/pull/140
@@ -3196,7 +3307,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.8.0...8.9.0
 >
 
-# Updated - VisualProspecting - 1.3.28 --> 1.3.29-pre
+# Updated - VisualProspecting - 1.3.28 --> 1.4.0
+## *1.4.0*
+>## What's Changed
+>* Save vein cache using IO thread by @Lyfts in https://github.com/GTNewHorizons/VisualProspecting/pull/63
+>* Save ore veins with their string id by @Lyfts in https://github.com/GTNewHorizons/VisualProspecting/pull/62
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.3.28...1.4.0
+>
+
 ## *1.3.29-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.3.28...1.3.29-pre
 >
@@ -3217,7 +3337,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.6.1...1.7.0
 >
 
-# Updated - WitcheryExtras - 1.2.3 --> 1.2.4-pre
+# Updated - WitcheryExtras - 1.2.3 --> 1.3.0
+## *1.3.0*
+>## What's Changed
+>* Fix Brew of Substitution not respecting block meta by @serenibyss in https://github.com/GTNewHorizons/WitcheryExtras/pull/23
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.2.3...1.3.0
+>
+
 ## *1.2.4-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.2.3...1.2.4-pre
 >
