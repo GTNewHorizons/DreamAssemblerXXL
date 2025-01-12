@@ -7,7 +7,27 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.18-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.20-gtnh-pre
+## *1.4.20-gtnh-pre*
+>## What's Changed
+>* Fix NPE caused by Level Maintainer by @lailani-f in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/259
+>
+>## New Contributors
+>* @lailani-f made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/259
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.19-gtnh...1.4.20-gtnh-pre
+>
+
+## *1.4.19-gtnh*
+>## What's Changed
+>* Add cell + pattern disassemble recipes like AE2 by @serenibyss in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/257
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/257
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.16-gtnh...1.4.19-gtnh
+>
+
 ## *1.4.18-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.17-gtnh-pre...1.4.18-gtnh-pre
 >
@@ -399,7 +419,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.4.4...2.5.0
 >
 
-# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.0
+# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.1
+## *1.3.1*
+>## What's Changed
+>* Fix some multiblock placements aborting too early by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/25
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.0...1.3.1
+>
+
 ## *1.3.0*
 >## What's Changed
 >* Several improvements & QOL by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/23
@@ -552,7 +580,21 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.3.8-GTNH...1.4.0-GTNH
 >
 
-# Updated - Crops-plus-plus - 1.7.14 --> 1.8.3-pre
+# Updated - Crops-plus-plus - 1.7.14 --> 1.8.5-pre
+## *1.8.5-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.4...1.8.5-pre
+>
+
+## *1.8.4*
+>## What's Changed
+>* com.dreammaster.item.ItemList -> NHItemList by @YannickMG in https://github.com/GTNewHorizons/Crops-plus-plus/pull/88
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/88
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.2...1.8.4
+>
+
 ## *1.8.3-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.2...1.8.3-pre
 >
@@ -730,7 +772,22 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.66-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.68-pre
+## *5.09.51.68-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.67...5.09.51.68-pre
+>
+
+## *5.09.51.67*
+>## What's Changed
+>* Ender tank voiding fluids in gt tank input slot fix by @Shadow1590 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3790
+>* Add NC hatches for PCB Factory and QFT  by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3737
+>
+>## New Contributors
+>* @Shadow1590 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3790
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.65...5.09.51.67
+>
+
 ## *5.09.51.66-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.65...5.09.51.66-pre
 >
@@ -1580,7 +1637,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.6...1.4.0
 >
 
-# Updated - Galacticraft - 3.2.9-GTNH --> 3.3.1-GTNH
+# Updated - Galacticraft - 3.2.9-GTNH --> 3.3.2-GTNH
+## *3.3.2-GTNH*
+>## What's Changed
+>* GCPlanets item and recipe cleanup for gtnh by @chochem in https://github.com/GTNewHorizons/Galacticraft/pull/99
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.3.1-GTNH...3.3.2-GTNH
+>
+
 ## *3.3.1-GTNH*
 >## What's Changed
 >* GCcore item and recipe cleanup for GTNH by @chochem in https://github.com/GTNewHorizons/Galacticraft/pull/98
@@ -1871,7 +1936,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.11-GTNH
+# New Mod - InventoryBogoSorter:1.2.12-GTNH-pre
+## *1.2.12-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.11-GTNH...1.2.12-GTNH-pre
+>
+
 ## *1.2.11-GTNH*
 >## What's Changed
 >* Update README.md by @Csstform in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/40
@@ -1882,6 +1951,10 @@
 >* @Csstform made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/40
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.9-GTNH...1.2.11-GTNH
+>
+
+## *1.2.11-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.11-GTNH...1.2.11-GTNH-pre
 >
 
 ## *1.2.10-GTNH-pre*
@@ -2181,7 +2254,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/MrTJPCore/compare/1.2.1...1.3.0
 >
 
-# Updated - Natura - 2.7.5 --> 2.8.0
+# Updated - Natura - 2.7.5 --> 2.8.1
+## *2.8.1*
+>## What's Changed
+>* use mc fuel calculation to fix issue with some fuels not being picked up by @MissBismuth in https://github.com/GTNewHorizons/Natura/pull/28
+>
+>## New Contributors
+>* @MissBismuth made their first contribution in https://github.com/GTNewHorizons/Natura/pull/28
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.0...2.8.1
+>
+
 ## *2.8.0*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Natura/pull/27
@@ -2207,7 +2290,18 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.47
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.48-pre
+## *2.7.48-pre*
+>## What's Changed
+>* Remove hot mv sc circuit 1 by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1155
+>* fix recipe of Logistics Disk by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1154
+>* GCPlanets recipe cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1151
+>* Add NC hatch recipes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1152
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.47...2.7.48-pre
+>
+
 ## *2.7.47*
 >## What's Changed
 >* Natura Wood crafting recipes use all saws now by @MissBismuth in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1153
@@ -3421,7 +3515,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.87...6.1.0
 >
 
-# Updated - nei-custom-diagram - 1.6.8 --> 1.7.1
+# Updated - nei-custom-diagram - 1.6.8 --> 1.7.2
+## *1.7.2*
+>## What's Changed
+>* com.dreammaster.item.ItemList -> NHItemList by @YannickMG in https://github.com/GTNewHorizons/nei-custom-diagram/pull/46
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/nei-custom-diagram/pull/46
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.7.1...1.7.2
+>
+
 ## *1.7.1*
 >**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.7.0...1.7.1
 >
