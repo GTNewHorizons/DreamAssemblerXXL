@@ -1445,7 +1445,20 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.19-pre
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.20
+## *1.5.20*
+>## What's Changed
+>* Change siphon running text by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/100
+>* add missing Fluids/Gasses to Space Pump by @Yoshy2002 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/98
+>* Add tier check to space assembler by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/101
+>* Switch module tier check to metadata from specialValue by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/102
+>
+>## New Contributors
+>* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/98
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.18...1.5.20
+>
+
 ## *1.5.19-pre*
 >## What's Changed
 >* Remove usages of deprecated render classes by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/99
@@ -2290,7 +2303,19 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.48-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.49
+## *2.7.49*
+>## What's Changed
+>* Remove hot mv sc circuit 1 by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1155
+>* fix recipe of Logistics Disk by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1154
+>* GCPlanets recipe cleanup by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1151
+>* Add NC hatch recipes by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1152
+>* Switch space assembler module tier to metadata by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1157
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.47...2.7.49
+>
+
 ## *2.7.48-pre*
 >## What's Changed
 >* Remove hot mv sc circuit 1 by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1155
