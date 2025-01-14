@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-13T03:44:32.953830",
+  "last_updated": "2025-01-14T03:37:45.284244",
   "config": "2.8.0-nightly-2025-01-12",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.20-gtnh-pre",
+      "version": "1.4.21-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-520-GTNH-pre",
+      "version": "rv3-beta-521-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.68-pre",
+      "version": "5.09.51.70",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.49",
+      "version": "2.7.50",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -629,7 +629,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.3.1",
+      "version": "1.3.2",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -701,11 +701,11 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.1.5",
+      "version": "2.1.6",
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.20",
+      "version": "1.5.21",
       "side": "BOTH"
     },
     "amunra": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.12-GTNH-pre",
+      "version": "1.2.13-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {

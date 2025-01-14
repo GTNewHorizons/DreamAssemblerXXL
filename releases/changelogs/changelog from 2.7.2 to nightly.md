@@ -7,7 +7,16 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.20-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.21-gtnh
+## *1.4.21-gtnh*
+>## What's Changed
+>* [Feature] Shift to pause terminal view movement by @michaeldoylecs in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/256
+>* Fix/same network multiple extract only storage buses by @hiroscho in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/244
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.19-gtnh...1.4.21-gtnh
+>
+
 ## *1.4.20-gtnh-pre*
 >## What's Changed
 >* Fix NPE caused by Level Maintainer by @lailani-f in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/259
@@ -178,7 +187,19 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.2.2...1.2.3-pre
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-520-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-521-GTNH
+## *rv3-beta-521-GTNH*
+>## What's Changed
+>* [Feature] Shift to pause terminal view movement by @michaeldoylecs in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/652
+>* Fix/same network multiple extract only storage buses by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/612
+>* Improve missing mode 2 by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/645
+>
+>## New Contributors
+>* @michaeldoylecs made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/652
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-518-GTNH...rv3-beta-521-GTNH
+>
+
 ## *rv3-beta-520-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-519-GTNH-pre...rv3-beta-520-GTNH-pre
 >
@@ -419,7 +440,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.4.4...2.5.0
 >
 
-# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.1
+# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.2
+## *1.3.2*
+>## What's Changed
+>* Make gt multiblocks able to better modify their preview by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/26
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.1...1.3.2
+>
+
 ## *1.3.1*
 >## What's Changed
 >* Fix some multiblock placements aborting too early by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/25
@@ -772,7 +801,34 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.68-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.70
+## *5.09.51.70*
+>## What's Changed
+>* Change tier textures for Auto-Taping, Uncertanty Resolver, and Wireless Data Hatches by @Bjdufre1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3795
+>* Remove Teflon by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3801
+>* Allow GT++ apiary frames to be repaired by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3799
+>* Allow GT++ charge pack to charge RF items by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3800
+>* Order DTPF Recipes by Catalyst Tier by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3796
+>* Make multiblocks able to better modify their NEI preview by @Lyfts in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3792
+>
+>## New Contributors
+>* @Bjdufre1 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3795
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.69...5.09.51.70
+>
+
+## *5.09.51.69*
+>## What's Changed
+>* Cribs super recipe check by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3608
+>* Update super chests description by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3794
+>* fix end dust bee by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3793
+>* fix bw fluid names by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3797
+>* Remove MuTE leftover & minor refactor around ProcessingLogic by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3802
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.67...5.09.51.69
+>
+
 ## *5.09.51.68-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.67...5.09.51.68-pre
 >
@@ -1445,7 +1501,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.20
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.21
+## *1.5.21*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.20...1.5.21
+>
+
 ## *1.5.20*
 >## What's Changed
 >* Change siphon running text by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/100
@@ -1949,7 +2009,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.12-GTNH-pre
+# New Mod - InventoryBogoSorter:1.2.13-GTNH
+## *1.2.13-GTNH*
+>## What's Changed
+>* Fixed Crash with Hotbar Swap by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/43
+>* The Horse SlotGroup has been corrected by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/41
+>* Fix infinity chest by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/44
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.11-GTNH...1.2.13-GTNH
+>
+
 ## *1.2.12-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.11-GTNH...1.2.12-GTNH-pre
 >
@@ -2303,7 +2373,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.49
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.50
+## *2.7.50*
+>## What's Changed
+>* Streamline smeltery melting recipes by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1159
+>* More EFR recipe work by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1162
+>* Retier CRIB, proxy, adv stocking hatch by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1144
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.49...2.7.50
+>
+
 ## *2.7.49*
 >## What's Changed
 >* Remove hot mv sc circuit 1 by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1155
@@ -3538,6 +3618,18 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.87...6.1.0
+>
+
+# Updated - lwjgl3ify - 2.1.5 --> 2.1.6
+## *2.1.6*
+>## What's Changed
+>* Update `version.json` Java version to 21 by @glowredman in https://github.com/GTNewHorizons/lwjgl3ify/pull/197
+>* Set wayland app_id by @DownerCase in https://github.com/GTNewHorizons/lwjgl3ify/pull/196
+>
+>## New Contributors
+>* @DownerCase made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/196
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.5...2.1.6
 >
 
 # Updated - nei-custom-diagram - 1.6.8 --> 1.7.2
