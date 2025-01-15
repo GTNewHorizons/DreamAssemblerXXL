@@ -801,7 +801,32 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.70
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.72
+## *5.09.51.72*
+>## What's Changed
+>* Add supercritical steams to steam valve and regulator by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3809
+>* Add ways to modify ingredients shown on NEI by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3805
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.71...5.09.51.72
+>
+
+## *5.09.51.71*
+>## What's Changed
+>* Retier CRIB, proxy, adv stocking hatch by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3766
+>* Remove beamline mask repairing by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3798
+>* Allow screwdriver in toolbox for programmed circuit by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3775
+>* Fix 1 tick research completer recipes not draining vis by @Bjdufre1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3806
+>* change busses to buses in Tooltips etc by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3807
+>* Restore stability waila info for black hole by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3803
+>* Add superstable black hole seed by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3808
+>* Rotating machines break adjacent enets by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3810
+>* Update recipes to gt solar panels by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3811
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.70...5.09.51.71
+>
+
 ## *5.09.51.70*
 >## What's Changed
 >* Change tier textures for Auto-Taping, Uncertanty Resolver, and Wireless Data Hatches by @Bjdufre1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3795
@@ -1501,7 +1526,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.21
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.22
+## *1.5.22*
+>## What's Changed
+>* Update asteroid outpost to gt solars by @FourIsTheNumber in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/103
+>
+>## New Contributors
+>* @FourIsTheNumber made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/103
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.21...1.5.22
+>
+
 ## *1.5.21*
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.20...1.5.21
 >
@@ -1828,7 +1863,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.89 --> 2.6.14-pre
+# Updated - Hodgepodge - 2.5.89 --> 2.6.15
+## *2.6.15*
+>## What's Changed
+>* Fix skin manager leaking client world by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/469
+>* Backport 1.20's 'pause-when-empty-seconds' server property by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/470
+>* Revert "Backport 1.20's 'pause-when-empty-seconds' server property (#… by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/472
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.13...2.6.15
+>
+
 ## *2.6.14-pre*
 >## What's Changed
 >* Fix skin manager leaking client world by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/469
@@ -2009,7 +2054,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.13-GTNH
+# New Mod - InventoryBogoSorter:1.2.14-GTNH
+## *1.2.14-GTNH*
+>## What's Changed
+>* Backport Quark's Usage Ticker by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/46
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.13-GTNH...1.2.14-GTNH
+>
+
 ## *1.2.13-GTNH*
 >## What's Changed
 >* Fixed Crash with Hotbar Swap by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/43
@@ -2373,7 +2426,26 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.50
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.52
+## *2.7.52*
+>## What's Changed
+>* Migrate to new way of specifying QFT catalyst by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1163
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.51...2.7.52
+>
+
+## *2.7.51*
+>## What's Changed
+>* Order DTPF Recipes by Catalyst Tier by @Vlamonster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1158
+>* Convert solar panel recipes by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1161
+>
+>## New Contributors
+>* @Vlamonster made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1158
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.50...2.7.51
+>
+
 ## *2.7.50*
 >## What's Changed
 >* Streamline smeltery melting recipes by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1159
@@ -3086,7 +3158,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.11.2-GTNH...1.12.0-GTNH
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.13-pre
+# Updated - ServerUtilities - 2.0.92 --> 2.1.14-pre
+## *2.1.14-pre*
+>## What's Changed
+>* Fix `max_folder_size` not working for smaller worlds by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/172
+>* Migrate Server Pausing From Hodgepodge by @Caedis in https://github.com/GTNewHorizons/ServerUtilities/pull/175
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.13-pre...2.1.14-pre
+>
+
 ## *2.1.13-pre*
 >## What's Changed
 >* Spotless apply for branch vanish for #170 by @github-actions in https://github.com/GTNewHorizons/ServerUtilities/pull/171
