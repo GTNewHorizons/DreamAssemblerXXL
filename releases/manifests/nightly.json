@@ -1,19 +1,19 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-15T03:38:18.749332",
-  "config": "2.8.0-nightly-2025-01-12",
+  "last_updated": "2025-01-16T03:38:52.914348",
+  "config": "2.8.0-nighty-2024-12-31-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.2.4-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.21-gtnh",
+      "version": "1.4.22-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.9.0-GTNH",
+      "version": "0.9.1-GTNH-pre",
       "side": "BOTH"
     },
     "AFSU": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-521-GTNH",
+      "version": "rv3-beta-522-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -57,7 +57,7 @@
       "side": "BOTH"
     },
     "BetterBuildersWands": {
-      "version": "0.12.0-GTNH",
+      "version": "0.13.0-GTNH",
       "side": "BOTH"
     },
     "BetterCrashes": {
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.12.4-GTNH-pre",
+      "version": "1.12.5-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -117,11 +117,11 @@
       "side": "BOTH"
     },
     "Catwalks-2": {
-      "version": "2.3.5-GTNH-pre",
+      "version": "2.4.0-GTNH",
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.16.1-GTNH",
+      "version": "2.16.2-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -165,7 +165,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.4.1-GTNH",
+      "version": "1.4.2-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.6.1-pre",
+      "version": "1.6.2",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.3.2-GTNH",
+      "version": "3.3.3-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.72",
+      "version": "5.09.51.74-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.1",
+      "version": "0.6.2",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.19",
+      "version": "2.8.20",
       "side": "BOTH"
     },
     "ironchest": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.7.2",
+      "version": "1.7.3",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.6.4",
+      "version": "1.7.0",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.11.0-GTNH",
+      "version": "1.11.1-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
@@ -449,7 +449,7 @@
       "side": "BOTH"
     },
     "Schematica": {
-      "version": "1.12.1-GTNH-pre",
+      "version": "1.12.3-GTNH-pre",
       "side": "CLIENT"
     },
     "SGCraft": {
@@ -549,7 +549,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.3-GTNH",
+      "version": "1.13.4-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.6.1-GTNH-pre",
+      "version": "1.6.2-GTNH-pre",
       "side": "BOTH"
     },
     "Yamcl": {
