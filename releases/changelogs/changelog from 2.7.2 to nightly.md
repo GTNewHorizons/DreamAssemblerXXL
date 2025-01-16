@@ -198,7 +198,39 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.2.2...1.2.3-pre
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-522-GTNH-pre
+# Updated - Angelica - 1.0.0-beta28 --> 1.0.0-beta29
+Mod is client-side only.
+## *1.0.0-beta29*
+>## What's Changed
+>* Remove use of empty build tasks, submit empty data directly to result queue by @embeddedt in https://github.com/GTNewHorizons/Angelica/pull/821
+>* update bs + deps by @Dream-Master in https://github.com/GTNewHorizons/Angelica/pull/823
+>* fix MC-76356 Bold unicode characters appear doubled by @paulzzh in https://github.com/GTNewHorizons/Angelica/pull/834
+>* Remove forced even unicode gui scaling by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/840
+>
+>## New Contributors
+>* @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/823
+>* @paulzzh made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/834
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
+>
+
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-524-GTNH-pre
+## *rv3-beta-524-GTNH-pre*
+>## What's Changed
+>* Add Void and Distribution card for cells and increase card limit for cells by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/655
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-521-GTNH...rv3-beta-524-GTNH-pre
+>
+
+## *rv3-beta-523-GTNH*
+>## What's Changed
+>* Add Void and Distribution card for cells and increase card limit for cells by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/655
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-521-GTNH...rv3-beta-523-GTNH
+>
+
 ## *rv3-beta-522-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-521-GTNH...rv3-beta-522-GTNH-pre
 >
@@ -430,7 +462,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.6.22-GTNH...3.7.0-GTNH
 >
 
-# Updated - Binnie - 2.4.7 --> 2.5.3-pre
+# Updated - Binnie - 2.4.7 --> 2.5.4
+## *2.5.4*
+>## What's Changed
+>* Isolator crash fix revision by @Astatine5985 in https://github.com/GTNewHorizons/Binnie/pull/56
+>
+>## New Contributors
+>* @Astatine5985 made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/56
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.2...2.5.4
+>
+
 ## *2.5.3-pre*
 >## What's Changed
 >* Yeet custom config in favor of NHLib by @ah-OOG-ah in https://github.com/GTNewHorizons/Binnie/pull/53
@@ -798,7 +840,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderStorage/compare/1.6.5...1.7.0
 >
 
-# Updated - EnderZoo - 1.2.1 --> 1.3.0
+# Updated - EnderZoo - 1.2.1 --> 1.3.1
+## *1.3.1*
+>## What's Changed
+>* Remove Debug Code from Withering Dust by @Yoshy2002 in https://github.com/GTNewHorizons/EnderZoo/pull/11
+>
+>## New Contributors
+>* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/EnderZoo/pull/11
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderZoo/compare/1.3.0...1.3.1
+>
+
 ## *1.3.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderZoo/compare/1.2.1...1.3.0
 >
@@ -814,7 +866,23 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.2.0
 >
 
-# Updated - FloodLights - 1.4.4 --> 1.5.1
+# Updated - FloodLights - 1.4.4 --> 1.5.3
+## *1.5.3*
+>## What's Changed
+>* add missing override for grow light by @Pilzinsel64 in https://github.com/GTNewHorizons/FloodLights/pull/13
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/FloodLights/compare/1.5.2...1.5.3
+>
+
+## *1.5.2*
+>## What's Changed
+>* Set `isBlockContainer` to true in all blocks spawning tile entities by @DCNick3 in https://github.com/GTNewHorizons/FloodLights/pull/12
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/FloodLights/compare/1.4.5...1.5.2
+>
+
 ## *1.5.1*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/FloodLights/pull/9
@@ -829,6 +897,15 @@
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/FloodLights/compare/1.4.2...1.5.0
+>
+
+## *1.4.5*
+>## What's Changed
+>* correct wrong rf usage note and initial check by @Pilzinsel64 in https://github.com/GTNewHorizons/FloodLights/pull/10
+>* add support for EIO wireless charger by @Pilzinsel64 in https://github.com/GTNewHorizons/FloodLights/pull/11
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/FloodLights/compare/1.5.1...1.4.5
 >
 
 # Updated - ForbiddenMagic - 0.7.1-GTNH --> 0.8.0-GTNH
@@ -883,7 +960,38 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.74-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.78-pre
+## *5.09.51.78-pre*
+>## What's Changed
+>* Remove multi-ingot by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3815
+>* Correct tengam for magnetic upgrade in Antimatter forge by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3818
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.76-pre...5.09.51.78-pre
+>
+
+## *5.09.51.77*
+>## What's Changed
+>* Remove multi-ingot by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3815
+>* Correct tengam for magnetic upgrade in Antimatter forge by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3818
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.75...5.09.51.77
+>
+
+## *5.09.51.76-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.75...5.09.51.76-pre
+>
+
+## *5.09.51.75*
+>## What's Changed
+>* fix error in tooltip by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3816
+>* Lsc wireless mode improvements by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3814
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.73...5.09.51.75
+>
+
 ## *5.09.51.74-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.73...5.09.51.74-pre
 >
@@ -1978,7 +2086,18 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.89 --> 2.6.15
+# Updated - Hodgepodge - 2.5.89 --> 2.6.16
+## *2.6.16*
+>## What's Changed
+>* Backport instant bed spawn setting by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/473
+>* Updates the player's container when the container is closed and the i… by @benTicks in https://github.com/GTNewHorizons/Hodgepodge/pull/474
+>
+>## New Contributors
+>* @benTicks made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/474
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.15...2.6.16
+>
+
 ## *2.6.15*
 >## What's Changed
 >* Fix skin manager leaking client world by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/469
@@ -2471,7 +2590,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.4.2...0.5.0
 >
 
-# New Mod - MatterManipulator:0.0.15
+# New Mod - MatterManipulator:0.0.16-pre
+## *0.0.16-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.14...0.0.16-pre
+>
+
 ## *0.0.15*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.14...0.0.15
 >
@@ -2550,7 +2673,47 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.52
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.58-pre
+## *2.7.58-pre*
+>## What's Changed
+>* Remove iridium plate recipe from double ingot by @StaffiX in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1166
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.56-pre...2.7.58-pre
+>
+
+## *2.7.57*
+>## What's Changed
+>* Remove iridium plate recipe from double ingot by @StaffiX in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1166
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.55...2.7.57
+>
+
+## *2.7.56-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.55...2.7.56-pre
+>
+
+## *2.7.55*
+>## What's Changed
+>* Add Assembler Recipes to GTPP Bee Frames by @Nockyx in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1165
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.53...2.7.55
+>
+
+## *2.7.54-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.53...2.7.54-pre
+>
+
+## *2.7.53*
+>## What's Changed
+>* Add Chromatic Glass Crystal by @Nockyx in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1149
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.52...2.7.53
+>
+
 ## *2.7.52*
 >## What's Changed
 >* Migrate to new way of specifying QFT catalyst by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1163
@@ -2971,7 +3134,27 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.6.4...1.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.19-GTNH-pre
+# Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.22-GTNH
+## *2.7.22-GTNH*
+>## What's Changed
+>* Subset Widget Improvement by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/577
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.20-GTNH...2.7.22-GTNH
+>
+
+## *2.7.21-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.20-GTNH...2.7.21-GTNH-pre
+>
+
+## *2.7.20-GTNH*
+>## What's Changed
+>* Created Grid Rendering Cache Mode by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/573
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.18-GTNH...2.7.20-GTNH
+>
+
 ## *2.7.19-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.17-GTNH-pre...2.7.19-GTNH-pre
 >
@@ -3228,7 +3411,18 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.10.5-GTNH...4.11.0-GTNH
 >
 
-# Updated - Railcraft - 9.15.16 --> 9.16.2
+# Updated - Railcraft - 9.15.16 --> 9.16.3
+## *9.16.3*
+>## What's Changed
+>* Adjust harvest level for water tank and coke oven brick by @Caedis in https://github.com/GTNewHorizons/Railcraft/pull/69
+>* Adjust harvest level for water tank and coke oven brick pt 2 by @Caedis in https://github.com/GTNewHorizons/Railcraft/pull/70
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/69
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.2...9.16.3
+>
+
 ## *9.16.2*
 >## What's Changed
 >* Fix a trivial emerald loop by @chochem in https://github.com/GTNewHorizons/Railcraft/pull/67
@@ -3869,7 +4063,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/gendustry/compare/1.8.3-GTNH...1.9.0-GTNH
 >
 
-# Updated - ironchest - 6.0.87 --> 6.1.0
+# Updated - ironchest - 6.0.87 --> 6.1.1
+## *6.1.1*
+>## What's Changed
+>* Update zh_CN.lang by @huihiuhuai in https://github.com/GTNewHorizons/ironchest/pull/25
+>
+>## New Contributors
+>* @huihiuhuai made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/25
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.1.0...6.1.1
+>
+
 ## *6.1.0*
 >## What's Changed
 >* Add Localization by @glowredman in https://github.com/GTNewHorizons/ironchest/pull/24
@@ -3890,7 +4094,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.5...2.1.6
 >
 
-# Updated - nei-custom-diagram - 1.6.8 --> 1.7.3
+# Updated - nei-custom-diagram - 1.6.8 --> 1.7.5
+## *1.7.5*
+>## What's Changed
+>* Remove multi-ingots from NEI material page by @StaffiX in https://github.com/GTNewHorizons/nei-custom-diagram/pull/47
+>
+>## New Contributors
+>* @StaffiX made their first contribution in https://github.com/GTNewHorizons/nei-custom-diagram/pull/47
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.7.3...1.7.5
+>
+
+## *1.7.4-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.7.3...1.7.4-pre
+>
+
 ## *1.7.3*
 >**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.7.2...1.7.3
 >
@@ -3944,7 +4162,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.3.1...0.4.0
 >
 
-# Updated - twilightforest - 2.6.37 --> 2.7.2
+# Updated - twilightforest - 2.6.37 --> 2.7.4
+## *2.7.4*
+>## What's Changed
+>* Raven's Raven Protection PR by @eigenraven in https://github.com/GTNewHorizons/twilightforest/pull/102
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.3...2.7.4
+>
+
+## *2.7.3*
+>## What's Changed
+>* Fix biome IDs over 255 not working for Magic Map and the Stream biome by @48a3efa65c881ef567345b17f3910e06 in https://github.com/GTNewHorizons/twilightforest/pull/97
+>
+>## New Contributors
+>* @48a3efa65c881ef567345b17f3910e06 made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/97
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.2...2.7.3
+>
+
 ## *2.7.2*
 >**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.1...2.7.2
 >
