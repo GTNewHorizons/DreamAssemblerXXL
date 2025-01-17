@@ -1731,7 +1731,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.22
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.24
+## *1.5.24*
+>## What's Changed
+>* Fix lore tooltips by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/104
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.22...1.5.24
+>
+
+## *1.5.23-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.22...1.5.23-pre
+>
+
 ## *1.5.22*
 >## What's Changed
 >* Update asteroid outpost to gt solars by @FourIsTheNumber in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/103
@@ -2673,7 +2685,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.58-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.59-pre
+## *2.7.59-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.58-pre...2.7.59-pre
+>
+
 ## *2.7.58-pre*
 >## What's Changed
 >* Remove iridium plate recipe from double ingot by @StaffiX in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1166
