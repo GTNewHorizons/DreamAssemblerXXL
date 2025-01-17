@@ -543,7 +543,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.10 --> 1.7.0
+# Updated - BloodMagic - 1.6.10 --> 1.7.1
+## *1.7.1*
+>## What's Changed
+>* Fix ability to int overflow when adding to LP network by @Ruling-0 in https://github.com/GTNewHorizons/BloodMagic/pull/64
+>
+>## New Contributors
+>* @Ruling-0 made their first contribution in https://github.com/GTNewHorizons/BloodMagic/pull/64
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.0...1.7.1
+>
+
 ## *1.7.0*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/BloodMagic/pull/62
@@ -756,7 +766,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.7.13...1.8.0
 >
 
-# Updated - Draconic-Evolution - 1.3.16-GTNH --> 1.4.2-GTNH
+# Updated - Draconic-Evolution - 1.3.16-GTNH --> 1.4.3-GTNH
+## *1.4.3-GTNH*
+>## What's Changed
+>* Fix Magnet pulling fake item entities by @Ruling-0 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/59
+>
+>## New Contributors
+>* @Ruling-0 made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/59
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.2-GTNH...1.4.3-GTNH
+>
+
 ## *1.4.2-GTNH*
 >## What's Changed
 >* More configurable Magnet by @Kogepan229 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/57
@@ -960,7 +980,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.78-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.80-pre
+## *5.09.51.80-pre*
+>## What's Changed
+>* Remove Old GT++ UI from some multiblocks by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3819
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.78-pre...5.09.51.80-pre
+>
+
+## *5.09.51.79*
+>## What's Changed
+>* Remove Old GT++ UI from some multiblocks by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3819
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.77...5.09.51.79
+>
+
 ## *5.09.51.78-pre*
 >## What's Changed
 >* Remove multi-ingot by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3815
@@ -1731,7 +1767,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.24
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.25-pre
+## *1.5.25-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.24...1.5.25-pre
+>
+
 ## *1.5.24*
 >## What's Changed
 >* Fix lore tooltips by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/104
@@ -2309,7 +2349,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.14-GTNH
+# New Mod - InventoryBogoSorter:1.2.15-GTNH
+## *1.2.15-GTNH*
+>## What's Changed
+>* Add a toggle for hotbar sorting by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/49
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.14-GTNH...1.2.15-GTNH
+>
+
 ## *1.2.14-GTNH*
 >## What's Changed
 >* Backport Quark's Usage Ticker by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/46
@@ -2602,7 +2650,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.4.2...0.5.0
 >
 
-# New Mod - MatterManipulator:0.0.16-pre
+# New Mod - MatterManipulator:0.0.17
+## *0.0.17*
+>## What's Changed
+>* change scanning time to new GT format by @Dream-Master in https://github.com/GTNewHorizons/MatterManipulator/pull/1
+>
+>## New Contributors
+>* @Dream-Master made their first contribution in https://github.com/GTNewHorizons/MatterManipulator/pull/1
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.14...0.0.17
+>
+
 ## *0.0.16-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.14...0.0.16-pre
 >
@@ -2685,7 +2743,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.59-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.61-pre
+## *2.7.61-pre*
+>## What's Changed
+>* Remove map recipe from crafting and recipe removal logic by @SarcasticMax in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1168
+>
+>## New Contributors
+>* @SarcasticMax made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1168
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.59-pre...2.7.61-pre
+>
+
+## *2.7.60*
+>## What's Changed
+>* Remove map recipe from crafting and recipe removal logic by @SarcasticMax in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1168
+>
+>## New Contributors
+>* @SarcasticMax made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1168
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.57...2.7.60
+>
+
 ## *2.7.59-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.58-pre...2.7.59-pre
 >
@@ -4077,6 +4155,15 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/gendustry/compare/1.8.3-GTNH...1.9.0-GTNH
+>
+
+# Updated - harvestcraft - 1.2.3-GTNH --> 1.3.0-GTNH
+## *1.3.0-GTNH*
+>## What's Changed
+>* Cleanup by @glowredman in https://github.com/GTNewHorizons/harvestcraft/pull/63
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.2.3-GTNH...1.3.0-GTNH
 >
 
 # Updated - ironchest - 6.0.87 --> 6.1.1
