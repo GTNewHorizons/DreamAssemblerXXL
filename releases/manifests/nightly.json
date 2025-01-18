@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-17T11:39:32.330470",
+  "last_updated": "2025-01-18T03:36:30.886579",
   "config": "2.8.0-nighty-2024-12-31-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.14-pre",
+      "version": "2.1.16-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.15-GTNH",
+      "version": "1.2.17-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {

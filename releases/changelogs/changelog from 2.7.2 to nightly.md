@@ -2349,7 +2349,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.15-GTNH
+# New Mod - InventoryBogoSorter:1.2.17-GTNH
+## *1.2.17-GTNH*
+>## What's Changed
+>* fix 1x2 and 2x2 storage drawers by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/51
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.16-GTNH...1.2.17-GTNH
+>
+
+## *1.2.16-GTNH*
+>## What's Changed
+>* Fix LMBTweakWithItem  by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/50
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.15-GTNH...1.2.16-GTNH
+>
+
 ## *1.2.15-GTNH*
 >## What's Changed
 >* Add a toggle for hotbar sorting by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/49
@@ -3605,7 +3621,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.11.2-GTNH...1.12.0-GTNH
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.14-pre
+# Updated - ServerUtilities - 2.0.92 --> 2.1.16-pre
+## *2.1.16-pre*
+>## What's Changed
+>* Spotless apply for branch vanish for #170 by @github-actions in https://github.com/GTNewHorizons/ServerUtilities/pull/171
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.15...2.1.16-pre
+>
+
+## *2.1.15*
+>## What's Changed
+>* Fix `max_folder_size` not working for smaller worlds by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/172
+>* Migrate Server Pausing From Hodgepodge by @Caedis in https://github.com/GTNewHorizons/ServerUtilities/pull/175
+>* Make `/inv view` work for offline players by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/177
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.12...2.1.15
+>
+
 ## *2.1.14-pre*
 >## What's Changed
 >* Fix `max_folder_size` not working for smaller worlds by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/172
