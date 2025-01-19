@@ -7,7 +7,15 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.22-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.23-gtnh
+## *1.4.23-gtnh*
+>## What's Changed
+>* Add Support Void and Distribution card for cells and increase card limit for cells by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/262
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.22-gtnh...1.4.23-gtnh
+>
+
 ## *1.4.22-gtnh*
 >## What's Changed
 >* Add fluid pattern support to fake crafting card by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/260
@@ -176,6 +184,17 @@
 >* @EnderProyects made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/251
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
+>
+
+# Updated - AdventureBackpack2 - 1.2.4-GTNH --> 1.3.0-GTNH
+## *1.3.0-GTNH*
+>## What's Changed
+>* Update PlayerEventHandler.java by @Caedis in https://github.com/GTNewHorizons/AdventureBackpack2/pull/25
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/25
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.2.4-GTNH...1.3.0-GTNH
 >
 
 # Updated - AkashicTome - 1.1.10 --> 1.2.0
@@ -538,12 +557,38 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.16...1.2.17-pre
 >
 
-# Updated - BloodArsenal - 1.3.5 --> 1.4.0
+# Updated - BloodArsenal - 1.3.5 --> 1.4.1
+## *1.4.1*
+>## What's Changed
+>* Fix enchantress ritual LP subtraction by @Ruling-0 in https://github.com/GTNewHorizons/BloodArsenal/pull/27
+>
+>## New Contributors
+>* @Ruling-0 made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/27
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.4.0...1.4.1
+>
+
 ## *1.4.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.10 --> 1.7.1
+# Updated - BloodMagic - 1.6.10 --> 1.7.3
+## *1.7.3*
+>## What's Changed
+>* GSON Hotfix by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/65
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.2...1.7.3
+>
+
+## *1.7.2*
+>## What's Changed
+>* Make meteor reagents completely configurable and add some new options to their functionality. by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/63
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.1...1.7.2
+>
+
 ## *1.7.1*
 >## What's Changed
 >* Fix ability to int overflow when adding to LP network by @Ruling-0 in https://github.com/GTNewHorizons/BloodMagic/pull/64
@@ -980,7 +1025,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.80-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.82-pre
+## *5.09.51.82-pre*
+>## What's Changed
+>* Change recipe to output 2 sulfur dust instead of 8 small sulfur dust by @Bjdufre1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3820
+>* Fix T7 water crash on restart when using bonus output by @NotAPenguin0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3823
+>* Beamline fixes 5 by @Elisis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3822
+>* Add null check for current recipe on t5 water failure by @Bjdufre1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3824
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.79...5.09.51.82-pre
+>
+
 ## *5.09.51.80-pre*
 >## What's Changed
 >* Remove Old GT++ UI from some multiblocks by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3819
@@ -1767,7 +1823,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.25-pre
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.26
+## *1.5.26*
+>## What's Changed
+>* Fix mining module drone stocking exploit by @GDCloudstrike in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/105
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.24...1.5.26
+>
+
 ## *1.5.25-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.24...1.5.25-pre
 >
@@ -2349,7 +2413,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.17-GTNH
+# New Mod - InventoryBogoSorter:1.2.18-GTNH
+## *1.2.18-GTNH*
+>## What's Changed
+>* Fix cast by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/52
+>* Backhand support by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/53
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.17-GTNH...1.2.18-GTNH
+>
+
 ## *1.2.17-GTNH*
 >## What's Changed
 >* fix 1x2 and 2x2 storage drawers by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/51
@@ -3413,7 +3486,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.5.0-GTNH...1.6.0-GTNH
 >
 
-# Updated - OpenBlocks - 1.10.2-GTNH --> 1.11.1-GTNH
+# Updated - OpenBlocks - 1.10.2-GTNH --> 1.11.2-GTNH
+## *1.11.2-GTNH*
+>## What's Changed
+>* Don't save cooldown of zero to Trophy ItemStack NBT by @serenibyss in https://github.com/GTNewHorizons/OpenBlocks/pull/26
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/26
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.11.1-GTNH...1.11.2-GTNH
+>
+
 ## *1.11.1-GTNH*
 >## What's Changed
 >* Fixed glider requiring two clicks after scrolling away by @Shaddaaa in https://github.com/GTNewHorizons/OpenBlocks/pull/25
@@ -3478,7 +3561,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.10.27-GTNH...1.11.0-GTNH
 >
 
-# Updated - OpenModularTurrets - 2.3.7 --> 2.4.2
+# Updated - OpenModularTurrets - 2.3.7 --> 2.4.3
+## *2.4.3*
+>## What's Changed
+>* Add Kill Count Tracking and GUI Updates for TurretBase by @mak8427 in https://github.com/GTNewHorizons/OpenModularTurrets/pull/9
+>
+>## New Contributors
+>* @mak8427 made their first contribution in https://github.com/GTNewHorizons/OpenModularTurrets/pull/9
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.4.2...2.4.3
+>
+
 ## *2.4.2*
 >## What's Changed
 >* improve targeting by reworking onImpact for projectiles by @Keridos in https://github.com/GTNewHorizons/OpenModularTurrets/pull/8
@@ -3597,8 +3690,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.2.0...2.3.0
 >
 
-# Updated - Schematica - 1.11.2-GTNH --> 1.12.3-GTNH-pre
+# Updated - Schematica - 1.11.2-GTNH --> 1.12.5-GTNH-pre
 Mod is client-side only.
+## *1.12.5-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.4-GTNH...1.12.5-GTNH-pre
+>
+
+## *1.12.4-GTNH*
+>## What's Changed
+>* increased supported blockids to 65792 by @Fabboz in https://github.com/GTNewHorizons/Schematica/pull/25
+>
+>## New Contributors
+>* @Fabboz made their first contribution in https://github.com/GTNewHorizons/Schematica/pull/25
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.4-GTNH
+>
+
 ## *1.12.3-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
@@ -3775,6 +3882,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/2.1.1...2.1.2
 >
 
+# Updated - SleepingBags - 0.2.1 --> 0.2.2-pre
+## *0.2.2-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/SleepingBags/compare/0.2.1...0.2.2-pre
+>
+
 # Updated - StevesAddons - 0.13.0 --> 0.14.0
 ## *0.14.0*
 >## What's Changed
@@ -3830,7 +3942,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.2...1.8.0
 >
 
-# Updated - Tainted-Magic - 7.6.13-GTNH --> 7.6.14-GTNH
+# Updated - Tainted-Magic - 7.6.13-GTNH --> 7.6.15-GTNH
+## *7.6.15-GTNH*
+>## What's Changed
+>* Fix Voidwalker Vis Discount TT by @Yoshy2002 in https://github.com/GTNewHorizons/Tainted-Magic/pull/30
+>
+>## New Contributors
+>* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/30
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.14...7.6.15-GTNH
+>
+
 ## *7.6.14-GTNH*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Tainted-Magic/pull/29
@@ -3901,7 +4023,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.3.10...1.3.11-pre
 >
 
-# Updated - ThaumicEnergistics - 1.6.27-GTNH --> 1.7.4-GTNH
+# Updated - ThaumicEnergistics - 1.6.27-GTNH --> 1.7.5-GTNH
+## *1.7.5-GTNH*
+>## What's Changed
+>* Void overflow and Distribution and Sticky card support for essentia cells by @lordIcocain in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/82
+>
+>## New Contributors
+>* @lordIcocain made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/82
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.4-GTNH...1.7.5-GTNH
+>
+
 ## *1.7.4-GTNH*
 >## What's Changed
 >* Added cleanup for the fake essentia items by @RecursivePineapple in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/80
@@ -4121,7 +4253,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.2.3...1.2.4-pre
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.6.2-GTNH-pre
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.6.3-GTNH-pre
+## *1.6.3-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.6.2-GTNH-pre...1.6.3-GTNH-pre
+>
+
 ## *1.6.2-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.6.1-GTNH-pre...1.6.2-GTNH-pre
 >
@@ -4162,7 +4298,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.5.17-GTNH...1.5.18-GTNH-pre
 >
 
-# Updated - ae2stuff - 0.8.6-GTNH --> 0.9.1-GTNH-pre
+# Updated - ae2stuff - 0.8.6-GTNH --> 0.9.2-GTNH
+## *0.9.2-GTNH*
+>## What's Changed
+>* Wirelesshub by @lordIcocain in https://github.com/GTNewHorizons/ae2stuff/pull/24
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ae2stuff/compare/0.9.0-GTNH...0.9.2-GTNH
+>
+
 ## *0.9.1-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ae2stuff/compare/0.9.0-GTNH...0.9.1-GTNH-pre
 >
