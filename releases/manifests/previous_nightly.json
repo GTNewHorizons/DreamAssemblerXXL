@@ -1,19 +1,19 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-17T03:38:29.625605",
+  "last_updated": "2025-01-20T03:40:47.490818",
   "config": "2.8.0-nighty-2024-12-31-2",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.2.4-GTNH",
+      "version": "1.3.1-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.22-gtnh",
+      "version": "1.4.23-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.9.1-GTNH-pre",
+      "version": "0.9.2-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -85,11 +85,11 @@
       "side": "BOTH"
     },
     "BloodArsenal": {
-      "version": "1.4.0",
+      "version": "1.4.1",
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.0",
+      "version": "1.7.3",
       "side": "BOTH"
     },
     "Botania": {
@@ -165,7 +165,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.4.2-GTNH",
+      "version": "1.4.3-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.78-pre",
+      "version": "5.09.51.84-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.2",
+      "version": "0.6.3",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -249,11 +249,11 @@
       "side": "BOTH"
     },
     "harvestcraft": {
-      "version": "1.2.3-GTNH",
+      "version": "1.3.0-GTNH",
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.16",
+      "version": "2.6.17",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.59-pre",
+      "version": "2.7.63-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.22-GTNH",
+      "version": "2.7.23-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.11.1-GTNH",
+      "version": "1.11.2-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "OpenModularTurrets": {
-      "version": "2.4.2",
+      "version": "2.4.3",
       "side": "BOTH"
     },
     "OpenSecurity": {
@@ -449,7 +449,7 @@
       "side": "BOTH"
     },
     "Schematica": {
-      "version": "1.12.3-GTNH-pre",
+      "version": "1.12.5-GTNH-pre",
       "side": "CLIENT"
     },
     "SGCraft": {
@@ -461,7 +461,7 @@
       "side": "BOTH"
     },
     "SleepingBags": {
-      "version": "0.2.1",
+      "version": "0.3.0",
       "side": "BOTH"
     },
     "SpecialMobs": {
@@ -525,11 +525,11 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.4-GTNH",
+      "version": "1.7.5-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.7.0",
+      "version": "1.7.1",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.6.2-GTNH-pre",
+      "version": "1.6.3-GTNH-pre",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -697,7 +697,7 @@
       "side": "BOTH"
     },
     "Tainted-Magic": {
-      "version": "7.6.14-GTNH",
+      "version": "7.6.15-GTNH",
       "side": "BOTH"
     },
     "lwjgl3ify": {
@@ -705,7 +705,7 @@
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.24",
+      "version": "1.5.26",
       "side": "BOTH"
     },
     "amunra": {
@@ -737,7 +737,7 @@
       "side": "CLIENT"
     },
     "ThaumicBoots": {
-      "version": "1.4.3-pre",
+      "version": "1.4.4",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.14-pre",
+      "version": "2.1.16-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -781,11 +781,11 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.14-GTNH",
+      "version": "1.2.18-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.0.16-pre",
+      "version": "0.0.17",
       "side": "BOTH"
     }
   },

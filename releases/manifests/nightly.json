@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-20T03:40:47.490818",
+  "last_updated": "2025-01-20T18:21:06.710439",
   "config": "2.8.0-nighty-2024-12-31-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.23-gtnh",
+      "version": "1.4.24-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-524-GTNH-pre",
+      "version": "rv3-beta-526-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.84-pre",
+      "version": "5.09.51.86-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -341,7 +341,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.8.1",
+      "version": "2.8.2",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.0.17",
+      "version": "0.0.18-GTNH",
       "side": "BOTH"
     }
   },
