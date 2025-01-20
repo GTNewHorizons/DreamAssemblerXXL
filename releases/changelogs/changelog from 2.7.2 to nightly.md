@@ -186,7 +186,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
-# Updated - AdventureBackpack2 - 1.2.4-GTNH --> 1.3.0-GTNH
+# Updated - AdventureBackpack2 - 1.2.4-GTNH --> 1.3.1-GTNH
+## *1.3.1-GTNH*
+>## What's Changed
+>* milk no longer removes thaumcraft warp effect by @MissBismuth in https://github.com/GTNewHorizons/AdventureBackpack2/pull/26
+>
+>## New Contributors
+>* @MissBismuth made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/26
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.0-GTNH...1.3.1-GTNH
+>
+
 ## *1.3.0-GTNH*
 >## What's Changed
 >* Update PlayerEventHandler.java by @Caedis in https://github.com/GTNewHorizons/AdventureBackpack2/pull/25
@@ -1025,7 +1035,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.82-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.84-pre
+## *5.09.51.84-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.83...5.09.51.84-pre
+>
+
+## *5.09.51.83*
+>## What's Changed
+>* Change QFT hatch requirements by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3813
+>* Improve gt solars by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3827
+>* Add subtag for generating multi-plates by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3821
+>* Retexture RTG, Charcoal Pile Igniter, Seismic Prospector by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3788
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.81...5.09.51.83
+>
+
 ## *5.09.51.82-pre*
 >## What's Changed
 >* Change recipe to output 2 sulfur dust instead of 8 small sulfur dust by @Bjdufre1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3820
@@ -2018,7 +2043,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.5.0
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.2
+# Updated - GTNHLib - 0.5.23 --> 0.6.3
+## *0.6.3*
+>## What's Changed
+>* Easily sync config values between server & client by @Lyfts in https://github.com/GTNewHorizons/GTNHLib/pull/102
+>* Register config sync event bus in init by @Lyfts in https://github.com/GTNewHorizons/GTNHLib/pull/103
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.2...0.6.3
+>
+
 ## *0.6.2*
 >## What's Changed
 >* Automatic LoreHolder Discovery by @glowredman in https://github.com/GTNewHorizons/GTNHLib/pull/101
@@ -2202,7 +2236,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.89 --> 2.6.16
+# Updated - Hodgepodge - 2.5.89 --> 2.6.17
+## *2.6.17*
+>## What's Changed
+>* Localise bed respawn message by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/475
+>* Update zh_CN.lang by @huihiuhuai in https://github.com/GTNewHorizons/Hodgepodge/pull/476
+>
+>## New Contributors
+>* @huihiuhuai made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/476
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.16...2.6.17
+>
+
 ## *2.6.16*
 >## What's Changed
 >* Backport instant bed spawn setting by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/473
@@ -2832,7 +2877,24 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.61-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.63-pre
+## *2.7.63-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.62...2.7.63-pre
+>
+
+## *2.7.62*
+>## What's Changed
+>* Enhanced the confirmation for exiting the game by @paulzzh in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1160
+>* Make superchest recipes plate usage consistent by @StaffiX in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1169
+>* New ae2 content recipes by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1167
+>* Use quadruple plate over triple for super chests by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1170
+>
+>## New Contributors
+>* @paulzzh made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1160
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.60...2.7.62
+>
+
 ## *2.7.61-pre*
 >## What's Changed
 >* Remove map recipe from crafting and recipe removal logic by @SarcasticMax in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1168
@@ -3317,7 +3379,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.6.4...1.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.22-GTNH
+# Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.23-GTNH
+## *2.7.23-GTNH*
+>## What's Changed
+>* Update Render Cache after window resize by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/592
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.22-GTNH...2.7.23-GTNH
+>
+
 ## *2.7.22-GTNH*
 >## What's Changed
 >* Subset Widget Improvement by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/577
@@ -3882,7 +3952,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/2.1.1...2.1.2
 >
 
-# Updated - SleepingBags - 0.2.1 --> 0.2.2-pre
+# Updated - SleepingBags - 0.2.1 --> 0.3.0
+## *0.3.0*
+>## What's Changed
+>* Don't teleport players into walls if they sleep in negative x or z coordinates. by @YannickMG in https://github.com/GTNewHorizons/SleepingBags/pull/7
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/SleepingBags/pull/7
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/SleepingBags/compare/0.2.1...0.3.0
+>
+
 ## *0.2.2-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/SleepingBags/compare/0.2.1...0.2.2-pre
 >
@@ -3996,7 +4076,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.7.7...1.8.0
 >
 
-# Updated - ThaumicBoots - 1.3.10 --> 1.4.3-pre
+# Updated - ThaumicBoots - 1.3.10 --> 1.4.4
+## *1.4.4*
+>## What's Changed
+>* Small refactor, add in support for the nanochestplate for thaumic boots by @Keridos in https://github.com/GTNewHorizons/ThaumicBoots/pull/35
+>
+>## New Contributors
+>* @Keridos made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/35
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.2...1.4.4
+>
+
 ## *1.4.3-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.2...1.4.3-pre
 >
@@ -4080,7 +4170,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.6.27-GTNH...1.7.0-GTNH
 >
 
-# Updated - ThaumicHorizons - 1.6.5 --> 1.7.0
+# Updated - ThaumicHorizons - 1.6.5 --> 1.7.1
+## *1.7.1*
+>## What's Changed
+>* Fixes Liquefaction Focus by @DrParadox7 in https://github.com/GTNewHorizons/ThaumicHorizons/pull/72
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.0...1.7.1
+>
+
 ## *1.7.0*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/ThaumicHorizons/pull/82
