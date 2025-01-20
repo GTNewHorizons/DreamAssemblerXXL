@@ -7,7 +7,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.23-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.24-gtnh-pre
+## *1.4.24-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.23-gtnh...1.4.24-gtnh-pre
+>
+
 ## *1.4.23-gtnh*
 >## What's Changed
 >* Add Support Void and Distribution card for cells and increase card limit for cells by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/262
@@ -243,7 +247,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-524-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-526-GTNH-pre
+## *rv3-beta-526-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-525-GTNH...rv3-beta-526-GTNH-pre
+>
+
+## *rv3-beta-525-GTNH*
+>## What's Changed
+>* fix overlap of "craft" and "0" in ME Terminals by @Yoshy2002 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/658
+>
+>## New Contributors
+>* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/658
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-523-GTNH...rv3-beta-525-GTNH
+>
+
 ## *rv3-beta-524-GTNH-pre*
 >## What's Changed
 >* Add Void and Distribution card for cells and increase card limit for cells by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/655
@@ -1035,7 +1053,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.84-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.86-pre
+## *5.09.51.86-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.85...5.09.51.86-pre
+>
+
+## *5.09.51.85*
+>## What's Changed
+>* Buff HILE speed slightly by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3831
+>* Expose ME hatch additionalConnections for MM by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3829
+>* Disable CRIB pattern pushing when working disabled by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3830
+>* Allow limited multiamp on HILE by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3832
+>* Add missed materials to multi-plates by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3833
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.83...5.09.51.85
+>
+
 ## *5.09.51.84-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.83...5.09.51.84-pre
 >
@@ -2784,7 +2818,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.4.2...0.5.0
 >
 
-# New Mod - MatterManipulator:0.0.17
+# New Mod - MatterManipulator:0.0.18-GTNH
+## *0.0.18-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.17...0.0.18-GTNH
+>
+
 ## *0.0.17*
 >## What's Changed
 >* change scanning time to new GT format by @Dream-Master in https://github.com/GTNewHorizons/MatterManipulator/pull/1
@@ -2841,7 +2879,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MrTJPCore/compare/1.2.1...1.3.0
 >
 
-# Updated - Natura - 2.7.5 --> 2.8.1
+# Updated - Natura - 2.7.5 --> 2.8.2
+## *2.8.2*
+>## What's Changed
+>* Slab Refactor, Leaf Refactor, and Everything Burns by @Ruling-0 in https://github.com/GTNewHorizons/Natura/pull/29
+>
+>## New Contributors
+>* @Ruling-0 made their first contribution in https://github.com/GTNewHorizons/Natura/pull/29
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.1...2.8.2
+>
+
 ## *2.8.1*
 >## What's Changed
 >* use mc fuel calculation to fix issue with some fuels not being picked up by @MissBismuth in https://github.com/GTNewHorizons/Natura/pull/28
