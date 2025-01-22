@@ -247,7 +247,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-526-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-528-GTNH-pre
+## *rv3-beta-528-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-526-GTNH-pre...rv3-beta-528-GTNH-pre
+>
+
+## *rv3-beta-527-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-525-GTNH...rv3-beta-527-GTNH
+>
+
 ## *rv3-beta-526-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-525-GTNH...rv3-beta-526-GTNH-pre
 >
@@ -600,7 +608,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.10 --> 1.7.3
+# Updated - BloodMagic - 1.6.10 --> 1.7.4
+## *1.7.4*
+>## What's Changed
+>* Misc. interconnected meteor loose ends and code cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/66
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.3...1.7.4
+>
+
 ## *1.7.3*
 >## What's Changed
 >* GSON Hotfix by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/65
@@ -1053,7 +1069,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.86-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.88-pre
+## *5.09.51.88-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.87...5.09.51.88-pre
+>
+
+## *5.09.51.87*
+>## What's Changed
+>* Add proper support for dense steam to steam valve and regulator by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3835
+>* Lock dust > tiny/small dust recipe to the top row by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3838
+>* Fix: PreciseAssembler accepts Bronze Plated Bricks as high tier machine blocks by @Apeiria01 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3840
+>* Add multiplate tag for Bartworks materials by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3841
+>* Add total and usage back to Bacterial Vat by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3842
+>
+>## New Contributors
+>* @Apeiria01 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3840
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.85...5.09.51.87
+>
+
 ## *5.09.51.86-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.85...5.09.51.86-pre
 >
@@ -1882,7 +1916,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.26
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.27
+## *1.5.27*
+>## What's Changed
+>* Port UtilityWorlds compat for the DS to PersonalSpace compat by @glowredman in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/106
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.26...1.5.27
+>
+
 ## *1.5.26*
 >## What's Changed
 >* Fix mining module drone stocking exploit by @GDCloudstrike in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/105
@@ -2925,7 +2967,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.63-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.65-pre
+## *2.7.65-pre*
+>## What's Changed
+>* Make the dust > dye recipes shaped by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1171
+>
+>## New Contributors
+>* @Ruling-0 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1171
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.63-pre...2.7.65-pre
+>
+
+## *2.7.64*
+>## What's Changed
+>* Make the dust > dye recipes shaped by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1171
+>
+>## New Contributors
+>* @Ruling-0 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1171
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.62...2.7.64
+>
+
 ## *2.7.63-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.62...2.7.63-pre
 >
@@ -3427,7 +3489,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.6.4...1.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.23-GTNH
+# Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.25-GTNH
+## *2.7.25-GTNH*
+>## What's Changed
+>* Restore Issue 583 by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/593
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.23-GTNH...2.7.25-GTNH
+>
+
+## *2.7.24-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.23-GTNH...2.7.24-GTNH-pre
+>
+
 ## *2.7.23-GTNH*
 >## What's Changed
 >* Update Render Cache after window resize by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/592
@@ -4280,7 +4354,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.2.2...1.3.0
 >
 
-# Updated - TinkersConstruct - 1.12.17-GTNH --> 1.13.4-GTNH
+# Updated - TinkersConstruct - 1.12.17-GTNH --> 1.13.7-GTNH
+## *1.13.7-GTNH*
+>## What's Changed
+>* Allow overriding AluminumBrass as the metal pattern material by @YannickMG in https://github.com/GTNewHorizons/TinkersConstruct/pull/147
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.4-GTNH...1.13.7-GTNH
+>
+
+## *1.13.6-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.4-GTNH...1.13.6-GTNH-pre
+>
+
+## *1.13.5-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.4-GTNH...1.13.5-GTNH-pre
+>
+
 ## *1.13.4-GTNH*
 >## What's Changed
 >* Fix blue slime spawn  by @paulzzh in https://github.com/GTNewHorizons/TinkersConstruct/pull/146

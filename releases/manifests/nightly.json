@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-21T03:38:24.775099",
+  "last_updated": "2025-01-22T03:40:18.659490",
   "config": "2.8.0-nighty-2024-12-31-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-526-GTNH-pre",
+      "version": "rv3-beta-528-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.3",
+      "version": "1.7.4",
       "side": "BOTH"
     },
     "Botania": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.86-pre",
+      "version": "5.09.51.88-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.63-pre",
+      "version": "2.7.65-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.23-GTNH",
+      "version": "2.7.25-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -549,7 +549,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.4-GTNH",
+      "version": "1.13.7-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -705,7 +705,7 @@
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.26",
+      "version": "1.5.27",
       "side": "BOTH"
     },
     "amunra": {
