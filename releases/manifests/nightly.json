@@ -1,8 +1,8 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2025-01-22T03:40:18.659490",
-  "config": "2.8.0-nighty-2024-12-31-2",
+  "last_version": "2.7.2",
+  "last_updated": "2025-01-22T19:08:00.261374",
+  "config": "2.8.0-nightly-2025-01-22",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.1-GTNH",
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.4",
+      "version": "1.7.5",
       "side": "BOTH"
     },
     "Botania": {
@@ -165,7 +165,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.4.3-GTNH",
+      "version": "1.4.4-GTNH-pre",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.3.3-GTNH",
+      "version": "3.3.4-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.88-pre",
+      "version": "5.09.51.90-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.17",
+      "version": "2.6.19-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.65-pre",
+      "version": "2.7.68-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
