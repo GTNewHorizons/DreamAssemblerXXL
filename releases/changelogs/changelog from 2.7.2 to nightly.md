@@ -3021,7 +3021,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.68-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.69-pre
+## *2.7.69-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.68-pre...2.7.69-pre
+>
+
 ## *2.7.68-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.67-pre...2.7.68-pre
 >
