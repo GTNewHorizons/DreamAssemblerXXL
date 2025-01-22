@@ -608,7 +608,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.10 --> 1.7.4
+# Updated - BloodMagic - 1.6.10 --> 1.7.5
+## *1.7.5*
+>## What's Changed
+>* New TypeAdapter for ItemStack by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/67
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.4...1.7.5
+>
+
 ## *1.7.4*
 >## What's Changed
 >* Misc. interconnected meteor loose ends and code cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/66
@@ -855,7 +863,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.7.13...1.8.0
 >
 
-# Updated - Draconic-Evolution - 1.3.16-GTNH --> 1.4.3-GTNH
+# Updated - Draconic-Evolution - 1.3.16-GTNH --> 1.4.4-GTNH-pre
+## *1.4.4-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.3-GTNH...1.4.4-GTNH-pre
+>
+
 ## *1.4.3-GTNH*
 >## What's Changed
 >* Fix Magnet pulling fake item entities by @Ruling-0 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/59
@@ -1069,7 +1081,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.88-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.90-pre
+## *5.09.51.90-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.89...5.09.51.90-pre
+>
+
+## *5.09.51.89*
+>## What's Changed
+>* Consolidate IC2 item sourcing via existing ItemList entries in recipes by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3834
+>* Add Waila Pipe info by @mak8427 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3839
+>* BHC Energy Hatch Limit and Parallel Calculations, Green TecTech Hatch Tooltip by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3843
+>* Add blank casings page 12 by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3846
+>* Fix black hole circuits by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3845
+>* More accurate Waila status line for steam machines with obstructed vents by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3848
+>* Remove double plates from multiplate subtag by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3850
+>
+>## New Contributors
+>* @mak8427 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3839
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.87...5.09.51.89
+>
+
 ## *5.09.51.88-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.87...5.09.51.88-pre
 >
@@ -2184,7 +2216,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.6...1.4.0
 >
 
-# Updated - Galacticraft - 3.2.9-GTNH --> 3.3.3-GTNH
+# Updated - Galacticraft - 3.2.9-GTNH --> 3.3.4-GTNH
+## *3.3.4-GTNH*
+>## What's Changed
+>* Breathing underwater  by @mak8427 in https://github.com/GTNewHorizons/Galacticraft/pull/101
+>
+>## New Contributors
+>* @mak8427 made their first contribution in https://github.com/GTNewHorizons/Galacticraft/pull/101
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.3.3-GTNH...3.3.4-GTNH
+>
+
 ## *3.3.3-GTNH*
 >## What's Changed
 >* Fix some entity translations by @Ableytner in https://github.com/GTNewHorizons/Galacticraft/pull/100
@@ -2312,7 +2354,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.89 --> 2.6.17
+# Updated - Hodgepodge - 2.5.89 --> 2.6.19-pre
+## *2.6.19-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.18...2.6.19-pre
+>
+
+## *2.6.18*
+>## What's Changed
+>* Improve several simulated block break actions of mods by @Pilzinsel64 in https://github.com/GTNewHorizons/Hodgepodge/pull/478
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.17...2.6.18
+>
+
 ## *2.6.17*
 >## What's Changed
 >* Localise bed respawn message by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/475
@@ -2967,7 +3021,31 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.65-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.68-pre
+## *2.7.68-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.67-pre...2.7.68-pre
+>
+
+## *2.7.67-pre*
+>## What's Changed
+>* Fix duplicate solar conversion by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1176
+>* Replace direct references to IC2 item casings with calls to GTOreDictUnificator by @C0bra5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1175
+>* Fix loop between Optical Processor and Tier 3.5 Memory by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1174
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.65-pre...2.7.67-pre
+>
+
+## *2.7.66*
+>## What's Changed
+>* Fix duplicate solar conversion by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1176
+>* Replace direct references to IC2 item casings with calls to GTOreDictUnificator by @C0bra5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1175
+>* Fix loop between Optical Processor and Tier 3.5 Memory by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1174
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.64...2.7.66
+>
+
 ## *2.7.65-pre*
 >## What's Changed
 >* Make the dust > dye recipes shaped by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1171
