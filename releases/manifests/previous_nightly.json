@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-22T17:55:41.588274",
-  "config": "2.8.0-nighty-2024-12-31-2",
+  "last_updated": "2025-01-23T03:38:58.871320",
+  "config": "2.8.0-nightly-2025-01-22",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.1-GTNH",
@@ -165,7 +165,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.4.3-GTNH",
+      "version": "1.4.5-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.18",
+      "version": "2.6.20",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.67-pre",
+      "version": "2.7.69-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -705,7 +705,7 @@
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.27",
+      "version": "1.5.28",
       "side": "BOTH"
     },
     "amunra": {
@@ -843,7 +843,7 @@
       "side": "BOTH"
     },
     "JourneyMap": {
-      "version": "5.2.7-fairplay",
+      "version": "5.2.8-fairplay",
       "side": "CLIENT"
     },
     "JourneyMap Server": {
@@ -879,7 +879,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.28",
+      "version": "1.5.29-beta2",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
@@ -887,7 +887,7 @@
       "side": "BOTH"
     },
     "Craft-Presence": {
-      "version": "2.5.2",
+      "version": "2.5.3",
       "side": "CLIENT"
     },
     "Gravitation-Suite-old": {
@@ -911,7 +911,7 @@
       "side": "BOTH"
     },
     "UniLib": {
-      "version": "1.0.4",
+      "version": "1.0.5",
       "side": "CLIENT"
     },
     "Tinkers-Gregworks": {
