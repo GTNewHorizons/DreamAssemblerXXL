@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-22T20:35:35.610880",
+  "last_updated": "2025-01-23T03:38:58.871320",
   "config": "2.8.0-nightly-2025-01-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -165,7 +165,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.4.4-GTNH-pre",
+      "version": "1.4.5-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.19-pre",
+      "version": "2.6.20",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -705,7 +705,7 @@
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.27",
+      "version": "1.5.28",
       "side": "BOTH"
     },
     "amunra": {

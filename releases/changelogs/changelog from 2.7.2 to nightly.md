@@ -863,7 +863,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.7.13...1.8.0
 >
 
-# Updated - Draconic-Evolution - 1.3.16-GTNH --> 1.4.4-GTNH-pre
+# Updated - Draconic-Evolution - 1.3.16-GTNH --> 1.4.5-GTNH
+## *1.4.5-GTNH*
+>## What's Changed
+>* Add Dislocator Inhibitor by @Shadow1590 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/60
+>
+>## New Contributors
+>* @Shadow1590 made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/60
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.3-GTNH...1.4.5-GTNH
+>
+
 ## *1.4.4-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.3-GTNH...1.4.4-GTNH-pre
 >
@@ -1948,7 +1958,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.27
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.28
+## *1.5.28*
+>## What's Changed
+>* Fix dyson casings not using proper meta methods by @RecursivePineapple in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/107
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.27...1.5.28
+>
+
 ## *1.5.27*
 >## What's Changed
 >* Port UtilityWorlds compat for the DS to PersonalSpace compat by @glowredman in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/106
@@ -2354,7 +2372,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.89 --> 2.6.19-pre
+# Updated - Hodgepodge - 2.5.89 --> 2.6.20
+## *2.6.20*
+>## What's Changed
+>* ensure drops is not null by @Pilzinsel64 in https://github.com/GTNewHorizons/Hodgepodge/pull/479
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.18...2.6.20
+>
+
 ## *2.6.19-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.18...2.6.19-pre
 >
