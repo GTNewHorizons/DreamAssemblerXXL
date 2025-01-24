@@ -1091,7 +1091,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.90-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.92-pre
+## *5.09.51.92-pre*
+>## What's Changed
+>* Change biolab recipes to be able to use any circuit o the tier and not just the item any circuit of the tier by @Bjdufre1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3849
+>* Add multi_plate subtag to materials that are used to make gc and dreamcore compressed plates by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3851
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.90-pre...5.09.51.92-pre
+>
+
+## *5.09.51.91*
+>## What's Changed
+>* Change biolab recipes to be able to use any circuit o the tier and not just the item any circuit of the tier by @Bjdufre1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3849
+>* Add multi_plate subtag to materials that are used to make gc and dreamcore compressed plates by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3851
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.89...5.09.51.91
+>
+
 ## *5.09.51.90-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.89...5.09.51.90-pre
 >
@@ -2940,7 +2958,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.4.2...0.5.0
 >
 
-# New Mod - MatterManipulator:0.0.18-GTNH
+# New Mod - MatterManipulator:0.0.19-GTNH
+## *0.0.19-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.18-GTNH...0.0.19-GTNH
+>
+
 ## *0.0.18-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.17...0.0.18-GTNH
 >
@@ -3047,7 +3069,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.69-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.71-pre
+## *2.7.71-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.70...2.7.71-pre
+>
+
+## *2.7.70*
+>## What's Changed
+>* Magnet Dislocator recipe by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1178
+>* Batch of Efr recipes by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1177
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.66...2.7.70
+>
+
 ## *2.7.69-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.68-pre...2.7.69-pre
 >
@@ -4549,7 +4584,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Translocators/compare/1.2.1...1.3.0
 >
 
-# Updated - Universal-Singularities - 8.8.0 --> 8.9.0
+# Updated - Universal-Singularities - 8.8.0 --> 8.10.0
+## *8.10.0*
+>## What's Changed
+>* Add Rose Gold singularity, intended to replace Aluminum Brass singularity in recipes. by @YannickMG in https://github.com/GTNewHorizons/Universal-Singularities/pull/12
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/Universal-Singularities/pull/12
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.9.0...8.10.0
+>
+
 ## *8.9.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.8.0...8.9.0
 >
