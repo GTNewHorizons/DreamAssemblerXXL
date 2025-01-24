@@ -7,7 +7,19 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.24-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.26-gtnh-pre
+## *1.4.26-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.25-gtnh...1.4.26-gtnh-pre
+>
+
+## *1.4.25-gtnh*
+>## What's Changed
+>* Allow exotic cells use upgrade cards by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/264
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.23-gtnh...1.4.25-gtnh
+>
+
 ## *1.4.24-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.23-gtnh...1.4.24-gtnh-pre
 >
@@ -190,7 +202,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
-# Updated - AdventureBackpack2 - 1.2.4-GTNH --> 1.3.1-GTNH
+# Updated - AdventureBackpack2 - 1.2.4-GTNH --> 1.3.2-GTNH
+## *1.3.2-GTNH*
+>## What's Changed
+>* Adjust some GL for Angelica compat, to make items be not-the-sun by @calreveraster in https://github.com/GTNewHorizons/AdventureBackpack2/pull/27
+>
+>## New Contributors
+>* @calreveraster made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/27
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.1-GTNH...1.3.2-GTNH
+>
+
 ## *1.3.1-GTNH*
 >## What's Changed
 >* milk no longer removes thaumcraft warp effect by @MissBismuth in https://github.com/GTNewHorizons/AdventureBackpack2/pull/26
@@ -247,7 +269,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-528-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-529-GTNH-pre
+## *rv3-beta-529-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-528-GTNH-pre...rv3-beta-529-GTNH-pre
+>
+
 ## *rv3-beta-528-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-526-GTNH-pre...rv3-beta-528-GTNH-pre
 >
@@ -1091,7 +1117,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.92-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.94-pre
+## *5.09.51.94-pre*
+>## What's Changed
+>* Deprecate GTLanguageManager by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3853
+>* Consolidate GoodGenerator MTE IDs enum by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3854
+>* Fix: tectech AL recipe adder does not reinit datasticks correctly by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3856
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.92-pre...5.09.51.94-pre
+>
+
+## *5.09.51.93*
+>## What's Changed
+>* Deprecate GTLanguageManager by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3853
+>* Consolidate GoodGenerator MTE IDs enum by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3854
+>* Fix: tectech AL recipe adder does not reinit datasticks correctly by @HoleFish in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3856
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.91...5.09.51.93
+>
+
 ## *5.09.51.92-pre*
 >## What's Changed
 >* Change biolab recipes to be able to use any circuit o the tier and not just the item any circuit of the tier by @Bjdufre1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3849
@@ -1976,7 +2022,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.28
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.29
+## *1.5.29*
+>## What's Changed
+>* Disable optimization for Space Mining recipemap by @StaffiX in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/108
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.28...1.5.29
+>
+
 ## *1.5.28*
 >## What's Changed
 >* Fix dyson casings not using proper meta methods by @RecursivePineapple in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/107
@@ -2390,7 +2444,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.89 --> 2.6.20
+# Updated - Hodgepodge - 2.5.89 --> 2.6.21-pre
+## *2.6.21-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.20...2.6.21-pre
+>
+
 ## *2.6.20*
 >## What's Changed
 >* ensure drops is not null by @Pilzinsel64 in https://github.com/GTNewHorizons/Hodgepodge/pull/479
@@ -3069,7 +3127,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.71-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.73-pre
+## *2.7.73-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.72...2.7.73-pre
+>
+
+## *2.7.72*
+>## What's Changed
+>* Bunch of QoL recipes from an old issue by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1180
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.70...2.7.72
+>
+
 ## *2.7.71-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.70...2.7.71-pre
 >
@@ -4063,7 +4133,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.11.2-GTNH...1.12.0-GTNH
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.16-pre
+# Updated - ServerUtilities - 2.0.92 --> 2.1.18-pre
+## *2.1.18-pre*
+>## What's Changed
+>* Spotless apply for branch vanish for #170 by @github-actions in https://github.com/GTNewHorizons/ServerUtilities/pull/171
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.17...2.1.18-pre
+>
+
+## *2.1.17*
+>## What's Changed
+>* Fix chunk decay not working for teams that have been inactive for ages by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/182
+>* Fix player ranks ui becoming unreadable if players have tons of ranks by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/181
+>* Add permissions to disallow cross-dim usage of more tp commands by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/180
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.15...2.1.17
+>
+
 ## *2.1.16-pre*
 >## What's Changed
 >* Spotless apply for branch vanish for #170 by @github-actions in https://github.com/GTNewHorizons/ServerUtilities/pull/171
@@ -4454,7 +4542,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.6.5...1.7.0
 >
 
-# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.1
+# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.2
+## *2.11.2*
+>## What's Changed
+>* Essentia Funnel Bugfix by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/44
+>
+>## New Contributors
+>* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/44
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.1...2.11.2
+>
+
 ## *2.11.1*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/43
@@ -4497,7 +4595,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.2.2...1.3.0
 >
 
-# Updated - TinkersConstruct - 1.12.17-GTNH --> 1.13.7-GTNH
+# Updated - TinkersConstruct - 1.12.17-GTNH --> 1.13.8-GTNH
+## *1.13.8-GTNH*
+>## What's Changed
+>* Don't display "Fuel" instead of the liquid's name when holding shift in the Smeltery UI by @YannickMG in https://github.com/GTNewHorizons/TinkersConstruct/pull/148
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.7-GTNH...1.13.8-GTNH
+>
+
 ## *1.13.7-GTNH*
 >## What's Changed
 >* Allow overriding AluminumBrass as the metal pattern material by @YannickMG in https://github.com/GTNewHorizons/TinkersConstruct/pull/147
@@ -4687,7 +4793,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.5.17-GTNH...1.5.18-GTNH-pre
 >
 
-# Updated - ae2stuff - 0.8.6-GTNH --> 0.9.2-GTNH
+# Updated - ae2stuff - 0.8.6-GTNH --> 0.9.3-GTNH
+## *0.9.3-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/ae2stuff/compare/0.9.2-GTNH...0.9.3-GTNH
+>
+
 ## *0.9.2-GTNH*
 >## What's Changed
 >* Wirelesshub by @lordIcocain in https://github.com/GTNewHorizons/ae2stuff/pull/24
