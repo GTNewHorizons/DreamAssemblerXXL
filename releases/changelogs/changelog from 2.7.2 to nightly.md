@@ -269,7 +269,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-530-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-531-GTNH-pre
+## *rv3-beta-531-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-530-GTNH-pre...rv3-beta-531-GTNH-pre
+>
+
 ## *rv3-beta-530-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-529-GTNH-pre...rv3-beta-530-GTNH-pre
 >
@@ -500,7 +504,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-478-GTNH...rv3-beta-500-GTNH
 >
 
-# Updated - Avaritia - 1.58 --> 1.59
+# Updated - Avaritia - 1.58 --> 1.60-pre
+## *1.60-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.59...1.60-pre
+>
+
 ## *1.59*
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.58...1.59
 >
@@ -1121,7 +1129,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.94-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.96-pre
+## *5.09.51.96-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.95...5.09.51.96-pre
+>
+
+## *5.09.51.95*
+>## What's Changed
+>* Fix Large HP Steam Turbine ignoring loose flow setting by @C-Remilian in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3857
+>* Capitalize "Station" in Research Station by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3858
+>
+>## New Contributors
+>* @C-Remilian made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3857
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.93...5.09.51.95
+>
+
 ## *5.09.51.94-pre*
 >## What's Changed
 >* Deprecate GTLanguageManager by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3853
@@ -2245,7 +2268,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.5.0
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.3
+# Updated - GTNHLib - 0.5.23 --> 0.6.4-pre
+## *0.6.4-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.3...0.6.4-pre
+>
+
 ## *0.6.3*
 >## What's Changed
 >* Easily sync config values between server & client by @Lyfts in https://github.com/GTNewHorizons/GTNHLib/pull/102
@@ -2936,7 +2963,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.3.1-GTNH...1.4.0-GTNH
 >
 
-# Updated - LogisticsPipes - 1.2.34-GTNH --> 1.3.0-GTNH
+# Updated - LogisticsPipes - 1.2.34-GTNH --> 1.3.1-GTNH-pre
+## *1.3.1-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.3.0-GTNH...1.3.1-GTNH-pre
+>
+
 ## *1.3.0-GTNH*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/LogisticsPipes/pull/75
@@ -3131,7 +3162,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.73-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.74-pre
+## *2.7.74-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.73-pre...2.7.74-pre
+>
+
 ## *2.7.73-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.72...2.7.73-pre
 >
@@ -3895,7 +3930,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.5.0-GTNH...1.6.0-GTNH
 >
 
-# Updated - OpenBlocks - 1.10.2-GTNH --> 1.11.2-GTNH
+# Updated - OpenBlocks - 1.10.2-GTNH --> 1.11.3-GTNH
+## *1.11.3-GTNH*
+>## What's Changed
+>* Fixed glider not closing on right click anymore on servers by @Shaddaaa in https://github.com/GTNewHorizons/OpenBlocks/pull/28
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.11.2-GTNH...1.11.3-GTNH
+>
+
 ## *1.11.2-GTNH*
 >## What's Changed
 >* Don't save cooldown of zero to Trophy ItemStack NBT by @serenibyss in https://github.com/GTNewHorizons/OpenBlocks/pull/26
@@ -4137,7 +4180,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.11.2-GTNH...1.12.0-GTNH
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.18-pre
+# Updated - ServerUtilities - 2.0.92 --> 2.1.19-pre
+## *2.1.19-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.18-pre...2.1.19-pre
+>
+
 ## *2.1.18-pre*
 >## What's Changed
 >* Spotless apply for branch vanish for #170 by @github-actions in https://github.com/GTNewHorizons/ServerUtilities/pull/171
@@ -4838,7 +4885,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/gendustry/compare/1.8.3-GTNH...1.9.0-GTNH
 >
 
-# Updated - harvestcraft - 1.2.3-GTNH --> 1.3.0-GTNH
+# Updated - harvestcraft - 1.2.3-GTNH --> 1.3.1-GTNH
+## *1.3.1-GTNH*
+>## What's Changed
+>* Add NEI Handlers for Traps by @glowredman in https://github.com/GTNewHorizons/harvestcraft/pull/64
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.3.0-GTNH...1.3.1-GTNH
+>
+
 ## *1.3.0-GTNH*
 >## What's Changed
 >* Cleanup by @glowredman in https://github.com/GTNewHorizons/harvestcraft/pull/63
