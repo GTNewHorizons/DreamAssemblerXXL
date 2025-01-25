@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-25T03:36:41.776580",
+  "last_updated": "2025-01-25T15:04:28.225085",
   "config": "2.8.0-nightly-2025-01-24",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-530-GTNH-pre",
+      "version": "rv3-beta-531-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.59",
+      "version": "1.60-pre",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.94-pre",
+      "version": "5.09.51.96-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.3",
+      "version": "0.6.4-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "harvestcraft": {
-      "version": "1.3.0-GTNH",
+      "version": "1.3.1-GTNH",
       "side": "BOTH"
     },
     "Hodgepodge": {
@@ -301,7 +301,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.3.0-GTNH",
+      "version": "1.3.1-GTNH-pre",
       "side": "BOTH"
     },
     "LootGames": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.73-pre",
+      "version": "2.7.74-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.11.2-GTNH",
+      "version": "1.11.3-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.18-pre",
+      "version": "2.1.19-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
