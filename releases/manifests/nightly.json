@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-25T19:26:26.045496",
+  "last_updated": "2025-01-26T03:37:28.936427",
   "config": "2.8.0-nightly-2025-01-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.26-gtnh-pre",
+      "version": "1.4.27-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-531-GTNH-pre",
+      "version": "rv3-beta-532-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.21-pre",
+      "version": "2.6.22",
       "side": "BOTH"
     },
     "HoloInventory": {
