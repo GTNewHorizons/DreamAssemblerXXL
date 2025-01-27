@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-26T08:32:52.485526",
+  "last_updated": "2025-01-27T03:38:48.429817",
   "config": "2.8.0-nightly-2025-01-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.27-gtnh",
+      "version": "1.4.28-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-532-GTNH",
+      "version": "rv3-beta-533-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.5",
+      "version": "0.6.6",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -757,7 +757,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta29",
+      "version": "1.0.0-beta30",
       "side": "CLIENT"
     },
     "AkashicTome": {

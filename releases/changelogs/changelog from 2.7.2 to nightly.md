@@ -7,7 +7,15 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.27-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.28-gtnh
+## *1.4.28-gtnh*
+>## What's Changed
+>* No more drop drops from interface by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/265
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.27-gtnh...1.4.28-gtnh
+>
+
 ## *1.4.27-gtnh*
 >## What's Changed
 >* Option to restrict fluid cell  by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/263
@@ -261,8 +269,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.2.2...1.2.3-pre
 >
 
-# Updated - Angelica - 1.0.0-beta28 --> 1.0.0-beta29
+# Updated - Angelica - 1.0.0-beta28 --> 1.0.0-beta30
 Mod is client-side only.
+## *1.0.0-beta30*
+>## What's Changed
+>* Fix Hodgepodge animation speedup breaking animated textures by @MellowArpeggiation in https://github.com/GTNewHorizons/Angelica/pull/850
+>* Use GTNHLib MemoryUtils instead of the builtin compat ones by @eigenraven in https://github.com/GTNewHorizons/Angelica/pull/853
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
+>
+
 ## *1.0.0-beta29*
 >## What's Changed
 >* Remove use of empty build tasks, submit empty data directly to result queue by @embeddedt in https://github.com/GTNewHorizons/Angelica/pull/821
@@ -277,7 +294,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-532-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-533-GTNH
+## *rv3-beta-533-GTNH*
+>## What's Changed
+>* For "No more drop drops from interface" by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/661
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-532-GTNH...rv3-beta-533-GTNH
+>
+
 ## *rv3-beta-532-GTNH*
 >## What's Changed
 >* Make smart mode aware of other interfaces by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/660
@@ -1146,7 +1171,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.98-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.100-pre
+## *5.09.51.100-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.99...5.09.51.100-pre
+>
+
+## *5.09.51.99*
+>## What's Changed
+>* Fix cribs in fluid shaper by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3862
+>* Replace Aluminum Gravel Ore with Zinc Gravel Ore, and deal with the consequences by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3852
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.97...5.09.51.99
+>
+
 ## *5.09.51.98-pre*
 >## What's Changed
 >* Fix cribusses dupe 2.8 by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3859
@@ -2307,7 +2345,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.5.0
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.5
+# Updated - GTNHLib - 0.5.23 --> 0.6.6
+## *0.6.6*
+>## What's Changed
+>* Backport LWJGL3 memory utilities to enable more efficient ByteBuffer usage by @eigenraven in https://github.com/GTNewHorizons/GTNHLib/pull/105
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.5...0.6.6
+>
+
 ## *0.6.5*
 >## What's Changed
 >* Synced Keybinds API by @serenibyss in https://github.com/GTNewHorizons/GTNHLib/pull/104
@@ -3227,7 +3273,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.76-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.78-pre
+## *2.7.78-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.77...2.7.78-pre
+>
+
+## *2.7.77*
+>## What's Changed
+>* Replace Aluminum Gravel Ore with Zinc Gravel Ore, and deal with the consequences by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1181
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.75...2.7.77
+>
+
 ## *2.7.76-pre*
 >## What's Changed
 >* Asgardandelion 2.0 by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1179
