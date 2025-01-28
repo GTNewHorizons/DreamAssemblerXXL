@@ -1171,7 +1171,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.100-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.102-pre
+## *5.09.51.102-pre*
+>## What's Changed
+>* Better Assline checkresult by @reobf in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3863
+>* Fix confusing black hole exploit by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3864
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.100-pre...5.09.51.102-pre
+>
+
+## *5.09.51.101*
+>## What's Changed
+>* Better Assline checkresult by @reobf in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3863
+>* Fix confusing black hole exploit by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3864
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.99...5.09.51.101
+>
+
 ## *5.09.51.100-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.99...5.09.51.100-pre
 >
@@ -2345,7 +2363,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.5.0
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.6
+# Updated - GTNHLib - 0.5.23 --> 0.6.8
+## *0.6.8*
+>## What's Changed
+>* Amend previous commit, don't set keyCode to -1 by @serenibyss in https://github.com/GTNewHorizons/GTNHLib/pull/108
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.7...0.6.8
+>
+
+## *0.6.7*
+>## What's Changed
+>* Fix MC keybinding-backed synced keybind listeners by @serenibyss in https://github.com/GTNewHorizons/GTNHLib/pull/107
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.6...0.6.7
+>
+
 ## *0.6.6*
 >## What's Changed
 >* Backport LWJGL3 memory utilities to enable more efficient ByteBuffer usage by @eigenraven in https://github.com/GTNewHorizons/GTNHLib/pull/105
@@ -2568,7 +2602,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.89 --> 2.6.22
+# Updated - Hodgepodge - 2.5.89 --> 2.6.23
+## *2.6.23*
+>## What's Changed
+>* Modular Powersuits energy methods to only interacts with MPS equipment by @DrParadox7 in https://github.com/GTNewHorizons/Hodgepodge/pull/482
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.22...2.6.23
+>
+
 ## *2.6.22*
 >## What's Changed
 >* fix extra utilities ender quarry freeze/soft-lock randomly by @Pilzinsel64 in https://github.com/GTNewHorizons/Hodgepodge/pull/480
@@ -3273,7 +3315,47 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.78-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.84-pre
+## *2.7.84-pre*
+>## What's Changed
+>* Chest upgrades by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1184
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.82-pre...2.7.84-pre
+>
+
+## *2.7.83*
+>## What's Changed
+>* Chest upgrades by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1184
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.79...2.7.83
+>
+
+## *2.7.82-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.81-pre...2.7.82-pre
+>
+
+## *2.7.81-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.80-pre...2.7.81-pre
+>
+
+## *2.7.80-pre*
+>## What's Changed
+>* Don't assume block and item IDs don't change at map load by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1183
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.78-pre...2.7.80-pre
+>
+
+## *2.7.79*
+>## What's Changed
+>* Don't assume block and item IDs don't change at map load by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1183
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.77...2.7.79
+>
+
 ## *2.7.78-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.77...2.7.78-pre
 >
@@ -3880,7 +3962,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.6.4...1.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.27-GTNH
+# Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.28-GTNH
+## *2.7.28-GTNH*
+>## What's Changed
+>* Added hotkey utils methods by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/599
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.27-GTNH...2.7.28-GTNH
+>
+
 ## *2.7.27-GTNH*
 >## What's Changed
 >* Change Permutation Filter by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/598
@@ -4940,6 +5030,11 @@ Mod is client-side only.
 >* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/WAILAPlugins/pull/19
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.5.1...0.6.0
+>
+
+# Updated - WirelessCraftingTerminal - 1.11.7 --> 1.11.8-pre
+## *1.11.8-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.11.7...1.11.8-pre
 >
 
 # Updated - WirelessRedstone-CBE - 1.6.1 --> 1.7.0

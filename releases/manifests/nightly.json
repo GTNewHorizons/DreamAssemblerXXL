@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-27T10:38:02.781849",
+  "last_updated": "2025-01-28T03:38:07.936892",
   "config": "2.8.0-nightly-2025-01-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.6",
+      "version": "0.6.8",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.80-pre",
+      "version": "2.7.84-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
