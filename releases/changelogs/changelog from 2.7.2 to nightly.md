@@ -3251,7 +3251,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.0-1.7.10
+# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.1-1.7.10
+## *2.2.1-1.7.10*
+><!-- Release notes generated using configuration in .github/release.yml at 2.2.1-1.7.10 -->
+>
+>## What's Changed
+>* January upstream catchup. WIP by @YannickMG in https://github.com/GTNewHorizons/ModularUI2/pull/20
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.0-1.7.10...2.2.1-1.7.10
+>
+
 ## *2.2.0-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.2.0-1.7.10 -->
 >
