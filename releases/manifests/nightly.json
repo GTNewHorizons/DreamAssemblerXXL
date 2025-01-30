@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-29T03:38:13.088629",
+  "last_updated": "2025-01-30T03:39:13.646107",
   "config": "2.8.0-nightly-2025-01-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.2.1-1.7.10",
+      "version": "2.2.2-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.18-GTNH",
+      "version": "1.2.19-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {

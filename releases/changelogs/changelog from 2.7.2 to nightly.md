@@ -2864,7 +2864,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.18-GTNH
+# New Mod - InventoryBogoSorter:1.2.19-GTNH
+## *1.2.19-GTNH*
+>## What's Changed
+>* Fix compatiblity issues with MUI2 by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/57
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.18-GTNH...1.2.19-GTNH
+>
+
 ## *1.2.18-GTNH*
 >## What's Changed
 >* Fix cast by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/52
@@ -3251,7 +3259,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.1-1.7.10
+# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.2-1.7.10
+## *2.2.2-1.7.10*
+><!-- Release notes generated using configuration in .github/release.yml at 2.2.2-1.7.10 -->
+>
+>## What's Changed
+>* Shadow mXparser so we don't need to distribute it as a separate file by @YannickMG in https://github.com/GTNewHorizons/ModularUI2/pull/21
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.1-1.7.10...2.2.2-1.7.10
+>
+
 ## *2.2.1-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.2.1-1.7.10 -->
 >
