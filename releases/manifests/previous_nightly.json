@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-01-27T03:38:48.429817",
+  "last_updated": "2025-01-31T03:37:31.159651",
   "config": "2.8.0-nightly-2025-01-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.100-pre",
+      "version": "5.09.51.104-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.6",
+      "version": "0.6.8",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.22",
+      "version": "2.6.23",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.78-pre",
+      "version": "2.7.84-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.27-GTNH",
+      "version": "2.7.28-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -605,7 +605,7 @@
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
-      "version": "1.11.7",
+      "version": "1.11.8-pre",
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.2.0-1.7.10",
+      "version": "2.2.2-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.18-GTNH",
+      "version": "1.2.19-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
