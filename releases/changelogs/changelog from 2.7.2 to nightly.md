@@ -269,8 +269,19 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.2.2...1.2.3-pre
 >
 
-# Updated - Angelica - 1.0.0-beta28 --> 1.0.0-beta30
+# Updated - Angelica - 1.0.0-beta28 --> 1.0.0-beta31
 Mod is client-side only.
+## *1.0.0-beta31*
+>## What's Changed
+>* fix crash when connected textures are disabled & custom colors are enabled by @calreveraster in https://github.com/GTNewHorizons/Angelica/pull/855
+>* Fix shadow render distance reset to 32 by @TotallyNotOndre in https://github.com/GTNewHorizons/Angelica/pull/856
+>
+>## New Contributors
+>* @calreveraster made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/855
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta30...1.0.0-beta31
+>
+
 ## *1.0.0-beta30*
 >## What's Changed
 >* Fix Hodgepodge animation speedup breaking animated textures by @MellowArpeggiation in https://github.com/GTNewHorizons/Angelica/pull/850
@@ -1171,7 +1182,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.104-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.106-pre
+## *5.09.51.106-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.105...5.09.51.106-pre
+>
+
+## *5.09.51.105*
+>## What's Changed
+>* Cover UI crash fixes by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3873
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.103...5.09.51.105
+>
+
 ## *5.09.51.104-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.103...5.09.51.104-pre
 >
@@ -2882,7 +2905,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.19-GTNH
+# New Mod - InventoryBogoSorter:1.2.20-GTNH
+## *1.2.20-GTNH*
+>## What's Changed
+>* tinkers construct backpack  by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/59
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.19-GTNH...1.2.20-GTNH
+>
+
 ## *1.2.19-GTNH*
 >## What's Changed
 >* Fix compatiblity issues with MUI2 by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/57
@@ -3230,7 +3261,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.4.2...0.5.0
 >
 
-# New Mod - MatterManipulator:0.0.19-GTNH
+# New Mod - MatterManipulator:0.0.20-GTNH
+## *0.0.20-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.19-GTNH...0.0.20-GTNH
+>
+
 ## *0.0.19-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.18-GTNH...0.0.19-GTNH
 >
@@ -3361,7 +3396,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.84-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.85-pre
+## *2.7.85-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.84-pre...2.7.85-pre
+>
+
 ## *2.7.84-pre*
 >## What's Changed
 >* Chest upgrades by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1184
@@ -4254,7 +4293,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.10.2-GTNH...1.11.0-GTNH
 >
 
-# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.4-GTNH
+# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.5-GTNH
+## *1.11.5-GTNH*
+>## What's Changed
+>* Add Integration for AE2FC Fluid Storage Cells by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/143
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.4-GTNH...1.11.5-GTNH
+>
+
 ## *1.11.4-GTNH*
 >## What's Changed
 >* fix client side memory leak on anything RedstoneAware by @Glease in https://github.com/GTNewHorizons/OpenComputers/pull/142
@@ -4344,7 +4391,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenSecurity/compare/1.1.1-GTNH...1.2.0-GTNH
 >
 
-# Updated - ProjectRed - 4.10.5-GTNH --> 4.11.0-GTNH
+# Updated - ProjectRed - 4.10.5-GTNH --> 4.11.1-GTNH
+## *4.11.1-GTNH*
+>## What's Changed
+>* Configs to Disable Modules by @DrParadox7 in https://github.com/GTNewHorizons/ProjectRed/pull/39
+>* Undo config to disable entire Fabrication module by @DrParadox7 in https://github.com/GTNewHorizons/ProjectRed/pull/40
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
+>
+
 ## *4.11.0-GTNH*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/ProjectRed/pull/38
@@ -4658,7 +4714,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/SleepingBags/compare/0.2.1...0.2.2-pre
 >
 
-# Updated - StevesAddons - 0.13.0 --> 0.14.0
+# Updated - StevesAddons - 0.13.0 --> 0.14.1
+## *0.14.1*
+>## What's Changed
+>* Fix CME when multiple delayed triggers are used by @Lyfts in https://github.com/GTNewHorizons/StevesAddons/pull/14
+>
+>## New Contributors
+>* @Lyfts made their first contribution in https://github.com/GTNewHorizons/StevesAddons/pull/14
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.14.0...0.14.1
+>
+
 ## *0.14.0*
 >## What's Changed
 >* Fix for copy button so it copies input&output nodes in command groups properly by @ZombieFreak115 in https://github.com/GTNewHorizons/StevesAddons/pull/13
@@ -5078,7 +5144,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.5.1...0.6.0
 >
 
-# Updated - WirelessCraftingTerminal - 1.11.7 --> 1.11.8-pre
+# Updated - WirelessCraftingTerminal - 1.11.7 --> 1.12.0
+## *1.12.0*
+>## What's Changed
+>* [Feature] Shift to pause wireless crafting terminal item movement by @michaeldoylecs in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/37
+>
+>## New Contributors
+>* @michaeldoylecs made their first contribution in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/37
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.11.7...1.12.0
+>
+
 ## *1.11.8-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.11.7...1.11.8-pre
 >
