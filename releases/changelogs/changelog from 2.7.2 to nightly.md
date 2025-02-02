@@ -269,8 +269,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.2.2...1.2.3-pre
 >
 
-# Updated - Angelica - 1.0.0-beta28 --> 1.0.0-beta31
+# Updated - Angelica - 1.0.0-beta28 --> 1.0.0-beta32
 Mod is client-side only.
+## *1.0.0-beta32*
+>## What's Changed
+>* Fix slider dragging in iris options by @TotallyNotOndre in https://github.com/GTNewHorizons/Angelica/pull/858
+>* Fix any dimension without a sky getting flagged as the nether by @calreveraster in https://github.com/GTNewHorizons/Angelica/pull/857
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta31...1.0.0-beta32
+>
+
 ## *1.0.0-beta31*
 >## What's Changed
 >* fix crash when connected textures are disabled & custom colors are enabled by @calreveraster in https://github.com/GTNewHorizons/Angelica/pull/855
@@ -566,7 +575,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.58...1.59
 >
 
-# Updated - BetterBuildersWands - 0.12.0-GTNH --> 0.13.0-GTNH
+# Updated - BetterBuildersWands - 0.12.0-GTNH --> 0.13.1-GTNH
+## *0.13.1-GTNH*
+>## What's Changed
+>* Grass, Flowers and Bushes can cause a npe when looked at by @MissBismuth in https://github.com/GTNewHorizons/BetterBuildersWands/pull/15
+>* add compat to forestry wood blocks by @MissBismuth in https://github.com/GTNewHorizons/BetterBuildersWands/pull/16
+>* missed fireproof planks by @MissBismuth in https://github.com/GTNewHorizons/BetterBuildersWands/pull/17
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BetterBuildersWands/compare/0.13.0-GTNH...0.13.1-GTNH
+>
+
 ## *0.13.0-GTNH*
 >## What's Changed
 >* Fix crash with AmunRa CollisionLookup by @MissBismuth in https://github.com/GTNewHorizons/BetterBuildersWands/pull/14
@@ -1182,7 +1201,31 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.106-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.109-pre
+## *5.09.51.109-pre*
+>## What's Changed
+>* Replace Rhugnor with Radox in Compact MK4 Fusion Controller by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3876
+>* Add Pipe Swapping functionality by @mak8427 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3836
+>* Change computation formula in Research Station for scanner mode by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3877
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.107-pre...5.09.51.109-pre
+>
+
+## *5.09.51.108*
+>## What's Changed
+>* Replace Rhugnor with Radox in Compact MK4 Fusion Controller by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3876
+>* Add Pipe Swapping functionality by @mak8427 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3836
+>* Change computation formula in Research Station for scanner mode by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3877
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.105...5.09.51.108
+>
+
+## *5.09.51.107-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.106-pre...5.09.51.107-pre
+>
+
 ## *5.09.51.106-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.105...5.09.51.106-pre
 >
@@ -3312,7 +3355,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.2-1.7.10
+# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.3-1.7.10
+## *2.2.3-1.7.10*
+><!-- Release notes generated using configuration in .github/release.yml at 2.2.3-1.7.10 -->
+>
+>## What's Changed
+>* Add back GlStateManager by @miozune in https://github.com/GTNewHorizons/ModularUI2/pull/22
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.2-1.7.10...2.2.3-1.7.10
+>
+
 ## *2.2.2-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.2.2-1.7.10 -->
 >
@@ -3396,7 +3449,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.85-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.87-pre
+## *2.7.87-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.86...2.7.87-pre
+>
+
+## *2.7.86*
+>## What's Changed
+>* Fix some amunra recipes by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1187
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.83...2.7.86
+>
+
 ## *2.7.85-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.84-pre...2.7.85-pre
 >
