@@ -314,7 +314,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-533-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-535-GTNH
+## *rv3-beta-535-GTNH*
+>## What's Changed
+>* Fix NPE in stack size render by @serenibyss in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/664
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-534-GTNH...rv3-beta-535-GTNH
+>
+
+## *rv3-beta-534-GTNH*
+>## What's Changed
+>* Prevent move whole stack of upgrade cards into ae storage in interface by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/663
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-533-GTNH...rv3-beta-534-GTNH
+>
+
 ## *rv3-beta-533-GTNH*
 >## What's Changed
 >* For "No more drop drops from interface" by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/661
@@ -566,7 +582,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-478-GTNH...rv3-beta-500-GTNH
 >
 
-# Updated - Avaritia - 1.58 --> 1.60-pre
+# Updated - Avaritia - 1.58 --> 1.61
+## *1.61*
+>## What's Changed
+>* Infinity Armor upwards and downward speed update by @mak8427 in https://github.com/GTNewHorizons/Avaritia/pull/48
+>
+>## New Contributors
+>* @mak8427 made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/48
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.59...1.61
+>
+
 ## *1.60-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.59...1.60-pre
 >
@@ -930,7 +956,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.3.8-GTNH...1.4.0-GTNH
 >
 
-# Updated - Crops-plus-plus - 1.7.14 --> 1.8.5-pre
+# Updated - Crops-plus-plus - 1.7.14 --> 1.8.6
+## *1.8.6*
+>## What's Changed
+>* Downscale crop textures to 16x16 by @serenibyss in https://github.com/GTNewHorizons/Crops-plus-plus/pull/86
+>* Retexture Weed Picker by @serenibyss in https://github.com/GTNewHorizons/Crops-plus-plus/pull/87
+>* Remove getTankPressure override by @miozune in https://github.com/GTNewHorizons/Crops-plus-plus/pull/89
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/86
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.4...1.8.6
+>
+
 ## *1.8.5-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.4...1.8.5-pre
 >
@@ -1049,7 +1087,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.5.16...1.6.0
 >
 
-# Updated - EnderIO - 2.8.24 --> 2.9.2
+# Updated - EnderIO - 2.8.24 --> 2.9.3
+## *2.9.3*
+>## What's Changed
+>* Adding "show range" button to multiple machines by @Dioxop in https://github.com/GTNewHorizons/EnderIO/pull/184
+>
+>## New Contributors
+>* @Dioxop made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/184
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.2...2.9.3
+>
+
 ## *2.9.2*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/EnderIO/pull/183
@@ -1201,7 +1249,34 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.109-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.112-pre
+## *5.09.51.112-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.111-pre...5.09.51.112-pre
+>
+
+## *5.09.51.111-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.110...5.09.51.111-pre
+>
+
+## *5.09.51.110*
+>## What's Changed
+>* Some refactor around MTE structure & random cleanups by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3878
+>* EFR Tree simulator by @EnderProyects in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3879
+>* Change liquid temperature by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3880
+>* Remove metal foils recipes to make cable by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3713
+>* Add basalt to rock breaker by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3875
+>* Replace old 32x/64x/png/gradiented circuitry textures with better 16x ones by @bluhbipo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3509
+>* Correct Steam Grinder and Squsher multi tooltips to note structures are hollow. by @Eraldoe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3882
+>* Cover refactor, part 1 by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3874
+>* Include locked recipe information in WAILA tooltip  by @mak8427 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3855
+>* Fix line endings by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3885
+>
+>## New Contributors
+>* @EnderProyects made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3879
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.108...5.09.51.110
+>
+
 ## *5.09.51.109-pre*
 >## What's Changed
 >* Replace Rhugnor with Radox in Compact MK4 Fusion Controller by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3876
@@ -3176,7 +3251,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/commits/1.0-GTNH
 >
 
-# Updated - Jabba - 1.4.6 --> 1.5.1
+# Updated - Jabba - 1.4.6 --> 1.5.2
+## *1.5.2*
+>## What's Changed
+>* Dolly support for Bibliocraft labels by @YannickMG in https://github.com/GTNewHorizons/Jabba/pull/37
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/Jabba/pull/37
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.1...1.5.2
+>
+
 ## *1.5.1*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Jabba/pull/36
@@ -3449,7 +3534,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.87-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.89-pre
+## *2.7.89-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.88...2.7.89-pre
+>
+
+## *2.7.88*
+>## What's Changed
+>* Add missing dependency to ScriptAvaritiaAddons by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1188
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.86...2.7.88
+>
+
 ## *2.7.87-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.86...2.7.87-pre
 >
@@ -4358,7 +4455,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.10.2-GTNH...1.11.0-GTNH
 >
 
-# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.5-GTNH
+# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.6-GTNH
+## *1.11.6-GTNH*
+>## What's Changed
+>* Remove old dependency. by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/145
+>* Fix settings. by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/144
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.5-GTNH...1.11.6-GTNH
+>
+
 ## *1.11.5-GTNH*
 >## What's Changed
 >* Add Integration for AE2FC Fluid Storage Cells by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/143
@@ -4588,7 +4694,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.11.2-GTNH...1.12.0-GTNH
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.19-pre
+# Updated - ServerUtilities - 2.0.92 --> 2.1.20-pre
+## *2.1.20-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.19-pre...2.1.20-pre
+>
+
 ## *2.1.19-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.18-pre...2.1.19-pre
 >
