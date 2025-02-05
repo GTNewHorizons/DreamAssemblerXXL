@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-02-03T20:15:55.189797",
+  "last_updated": "2025-02-05T03:40:52.385181",
   "config": "2.8.0-nightly-2025-02-03",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-534-GTNH",
+      "version": "rv3-beta-535-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -177,7 +177,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.2",
+      "version": "2.9.3",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.88",
+      "version": "2.7.89-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
