@@ -314,7 +314,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-535-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-536-GTNH
+## *rv3-beta-536-GTNH*
+>## What's Changed
+>* Add craftable icon in terminal by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/665
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-535-GTNH...rv3-beta-536-GTNH
+>
+
 ## *rv3-beta-535-GTNH*
 >## What's Changed
 >* Fix NPE in stack size render by @serenibyss in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/664
@@ -1249,7 +1257,55 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.112-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.118-pre
+## *5.09.51.118-pre*
+>## What's Changed
+>* Add `expediteRecipeCheck` to copy-paste for data sticks and data orbs by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3892
+>* Remove invalid CRIBs before use by @reobf in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3893
+>* Add gunpowder centrifuging by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3886
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.116-pre...5.09.51.118-pre
+>
+
+## *5.09.51.117*
+>## What's Changed
+>* Add `expediteRecipeCheck` to copy-paste for data sticks and data orbs by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3892
+>* Remove invalid CRIBs before use by @reobf in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3893
+>* Add gunpowder centrifuging by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3886
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.115...5.09.51.117
+>
+
+## *5.09.51.116-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.115...5.09.51.116-pre
+>
+
+## *5.09.51.115*
+>## What's Changed
+>* Refactor/covers part 2 by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3891
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.114...5.09.51.115
+>
+
+## *5.09.51.114*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.113...5.09.51.114
+>
+
+## *5.09.51.113*
+>## What's Changed
+>* Update OreMixes.java by @POPlol333 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3887
+>* Remove broken ICoverable implementation by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3888
+>* UV Pump and Field Generator recipe correction in CoAL by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3889
+>
+>## New Contributors
+>* @FrostyFire1 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3889
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.110...5.09.51.113
+>
+
 ## *5.09.51.112-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.111-pre...5.09.51.112-pre
 >
@@ -2303,7 +2359,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.29
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.31
+## *1.5.31*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.30...1.5.31
+>
+
+## *1.5.30*
+>## What's Changed
+>* Fix SE mining module item consumption by @GDCloudstrike in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/109
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.29...1.5.30
+>
+
 ## *1.5.29*
 >## What's Changed
 >* Disable optimization for Space Mining recipemap by @StaffiX in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/108
@@ -2522,7 +2590,24 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.5.0
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.8
+# Updated - GTNHLib - 0.5.23 --> 0.6.10
+## *0.6.10*
+>## What's Changed
+>* Fix versionPattern by @miozune in https://github.com/GTNewHorizons/GTNHLib/pull/111
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.9...0.6.10
+>
+
+## *0.6.9*
+>## What's Changed
+>* Add NEI Version Check by @glowredman in https://github.com/GTNewHorizons/GTNHLib/pull/109
+>* Update the constant pool parser for Java 25 by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/110
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.8...0.6.9
+>
+
 ## *0.6.8*
 >## What's Changed
 >* Amend previous commit, don't set keyCode to -1 by @serenibyss in https://github.com/GTNewHorizons/GTNHLib/pull/108
@@ -3440,7 +3525,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.3-1.7.10
+# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.4-1.7.10
+## *2.2.4-1.7.10*
+><!-- Release notes generated using configuration in .github/release.yml at 2.2.4-1.7.10 -->
+>
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.3-1.7.10...2.2.4-1.7.10
+>
+
 ## *2.2.3-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.2.3-1.7.10 -->
 >
@@ -4694,7 +4787,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.11.2-GTNH...1.12.0-GTNH
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.20-pre
+# Updated - ServerUtilities - 2.0.92 --> 2.1.21-pre
+## *2.1.21-pre*
+>## What's Changed
+>* Spotless apply for branch vanish for #170 by @github-actions in https://github.com/GTNewHorizons/ServerUtilities/pull/171
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.17...2.1.21-pre
+>
+
 ## *2.1.20-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.19-pre...2.1.20-pre
 >
