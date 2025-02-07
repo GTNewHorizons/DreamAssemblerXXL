@@ -314,7 +314,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-536-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-537-GTNH
+## *rv3-beta-537-GTNH*
+>## What's Changed
+>* Fix weird gap in cpu table by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/667
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-536-GTNH...rv3-beta-537-GTNH
+>
+
 ## *rv3-beta-536-GTNH*
 >## What's Changed
 >* Add craftable icon in terminal by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/665
@@ -3108,7 +3116,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.20-GTNH
+# New Mod - InventoryBogoSorter:1.2.21-GTNH
+## *1.2.21-GTNH*
+>## What's Changed
+>* BetterStorage+Fix-Dupe by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/62
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.20-GTNH...1.2.21-GTNH
+>
+
 ## *1.2.20-GTNH*
 >## What's Changed
 >* tinkers construct backpack  by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/59
@@ -5535,7 +5551,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ae2stuff/compare/0.8.5-GTNH...0.9.0-GTNH
 >
 
-# Updated - amunra - 0.7.2 --> 0.8.0
+# Updated - amunra - 0.7.2 --> 0.8.1
+## *0.8.1*
+>## What's Changed
+>* Add missing @SideOnly by @reobf in https://github.com/GTNewHorizons/amunra/pull/34
+>
+>## New Contributors
+>* @reobf made their first contribution in https://github.com/GTNewHorizons/amunra/pull/34
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.8.0...0.8.1
+>
+
 ## *0.8.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.7.2...0.8.0
 >
@@ -5595,7 +5621,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.87...6.1.0
 >
 
-# Updated - lwjgl3ify - 2.1.5 --> 2.1.6
+# Updated - lwjgl3ify - 2.1.5 --> 2.1.7
+## *2.1.7*
+>## What's Changed
+>* Fix LogisticsPipes BCCompat with Lwjgl3ify by @TimeConqueror in https://github.com/GTNewHorizons/lwjgl3ify/pull/199
+>
+>## New Contributors
+>* @TimeConqueror made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/199
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.6...2.1.7
+>
+
 ## *2.1.6*
 >## What's Changed
 >* Update `version.json` Java version to 21 by @glowredman in https://github.com/GTNewHorizons/lwjgl3ify/pull/197
