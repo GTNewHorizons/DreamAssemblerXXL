@@ -1265,7 +1265,26 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.118-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.120-pre
+## *5.09.51.120-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.119...5.09.51.120-pre
+>
+
+## *5.09.51.119*
+>## What's Changed
+>* Was broke, Fix. by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3895
+>* Fix super tank fluid locking by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3899
+>* Fix tesla tower ignoring primary winding  by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3896
+>* Parametrizer memory card enhancement by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3902
+>* Introduce the Black Hole Utility Hatch by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3901
+>* Rebalance Americium and Europium Comb by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3894
+>* Fix placing covers by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3904
+>* Fix BHC Parallels by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3906
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.117...5.09.51.119
+>
+
 ## *5.09.51.118-pre*
 >## What's Changed
 >* Add `expediteRecipeCheck` to copy-paste for data sticks and data orbs by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3892
@@ -3643,7 +3662,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.89-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.91-pre
+## *2.7.91-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.90...2.7.91-pre
+>
+
+## *2.7.90*
+>## What's Changed
+>* Fix items needed to create a Mothership by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1189
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.88...2.7.90
+>
+
 ## *2.7.89-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.88...2.7.89-pre
 >
