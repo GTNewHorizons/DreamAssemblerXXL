@@ -1273,7 +1273,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.122-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.123-pre
+## *5.09.51.123-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.122-pre...5.09.51.123-pre
+>
+
 ## *5.09.51.122-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.121...5.09.51.122-pre
 >
@@ -3699,7 +3703,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.91-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.93-pre
+## *2.7.93-pre*
+>## What's Changed
+>* Add recipe for black hole utility hatch by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1191
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.91-pre...2.7.93-pre
+>
+
+## *2.7.92*
+>## What's Changed
+>* Add recipe for black hole utility hatch by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1191
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.90...2.7.92
+>
+
 ## *2.7.91-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.90...2.7.91-pre
 >
