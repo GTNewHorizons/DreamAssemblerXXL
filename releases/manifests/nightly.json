@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-02-07T10:51:13.822476",
+  "last_updated": "2025-02-08T03:37:46.375544",
   "config": "2.8.0-nightly-2025-02-07",
   "github_mods": {
     "AdventureBackpack2": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodArsenal": {
-      "version": "1.4.1",
+      "version": "1.4.2",
       "side": "BOTH"
     },
     "BloodMagic": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.120-pre",
+      "version": "5.09.51.122-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.23",
+      "version": "2.6.24",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -437,7 +437,7 @@
       "side": "BOTH"
     },
     "RemoteIO": {
-      "version": "2.7.1",
+      "version": "2.7.3",
       "side": "BOTH"
     },
     "Roguelike-Dungeons": {

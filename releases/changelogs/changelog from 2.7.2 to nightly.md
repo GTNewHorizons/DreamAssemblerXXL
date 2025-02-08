@@ -745,7 +745,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.16...1.2.17-pre
 >
 
-# Updated - BloodArsenal - 1.3.5 --> 1.4.1
+# Updated - BloodArsenal - 1.3.5 --> 1.4.2
+## *1.4.2*
+>## What's Changed
+>* Move Transparent Orb Texture Metadata to NBT by @Ruling-0 in https://github.com/GTNewHorizons/BloodArsenal/pull/28
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.4.1...1.4.2
+>
+
 ## *1.4.1*
 >## What's Changed
 >* Fix enchantress ritual LP subtraction by @Ruling-0 in https://github.com/GTNewHorizons/BloodArsenal/pull/27
@@ -1265,7 +1273,26 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.120-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.122-pre
+## *5.09.51.122-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.121...5.09.51.122-pre
+>
+
+## *5.09.51.121*
+>## What's Changed
+>* Change a few tooltips by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3909
+>* Add sugar and cactus coke/charcoal to pyrolyse oven per issue #18969 by @lucythebean in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3907
+>* Kill parametrizer hatch by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3905
+>* Add `getInfoMap` method to `IGregTechDeviceInformation` by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3897
+>* Fix typo by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3910
+>* Skip TGS recipes with null sapling by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3912
+>
+>## New Contributors
+>* @lucythebean made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3907
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.119...5.09.51.121
+>
+
 ## *5.09.51.120-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.119...5.09.51.120-pre
 >
@@ -2873,7 +2900,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.89 --> 2.6.23
+# Updated - Hodgepodge - 2.5.89 --> 2.6.24
+## *2.6.24*
+>## What's Changed
+>* fix entity attributes range by @raylras in https://github.com/GTNewHorizons/Hodgepodge/pull/486
+>
+>## New Contributors
+>* @raylras made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/486
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.23...2.6.24
+>
+
 ## *2.6.23*
 >## What's Changed
 >* Modular Powersuits energy methods to only interacts with MPS equipment by @DrParadox7 in https://github.com/GTNewHorizons/Hodgepodge/pull/482
@@ -4768,7 +4805,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.5.3...2.6.0
 >
 
-# Updated - RemoteIO - 2.6.4 --> 2.7.1
+# Updated - RemoteIO - 2.6.4 --> 2.7.3
+## *2.7.3*
+>## What's Changed
+>* Fix by @reobf in https://github.com/GTNewHorizons/RemoteIO/pull/21
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.7.2...2.7.3
+>
+
+## *2.7.2*
+>## What's Changed
+>* Update TileRemoteInterface.java by @czqwq in https://github.com/GTNewHorizons/RemoteIO/pull/20
+>
+>## New Contributors
+>* @czqwq made their first contribution in https://github.com/GTNewHorizons/RemoteIO/pull/20
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.7.1...2.7.2
+>
+
 ## *2.7.1*
 >## What's Changed
 >* Fix RemoteAccessor by @reobf in https://github.com/GTNewHorizons/RemoteIO/pull/19
