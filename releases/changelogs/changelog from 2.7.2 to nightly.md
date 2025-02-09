@@ -269,8 +269,16 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.2.2...1.2.3-pre
 >
 
-# Updated - Angelica - 1.0.0-beta28 --> 1.0.0-beta32
+# Updated - Angelica - 1.0.0-beta28 --> 1.0.0-beta33
 Mod is client-side only.
+## *1.0.0-beta33*
+>## What's Changed
+>* add offhand support via Backhand (up required version to 1.6.9) by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/859
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta32...1.0.0-beta33
+>
+
 ## *1.0.0-beta32*
 >## What's Changed
 >* Fix slider dragging in iris options by @TotallyNotOndre in https://github.com/GTNewHorizons/Angelica/pull/858
@@ -314,7 +322,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-537-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-538-GTNH
+## *rv3-beta-538-GTNH*
+>## What's Changed
+>* Add a button to follow the crafting job when start it by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/671
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-537-GTNH...rv3-beta-538-GTNH
+>
+
 ## *rv3-beta-537-GTNH*
 >## What's Changed
 >* Fix weird gap in cpu table by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/667
@@ -2417,7 +2433,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.31
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.32
+## *1.5.32*
+>## What's Changed
+>* Fix SE missing elevator cable in NEI preview by @Lyfts in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/110
+>* Add survival autobuild for gas siphon by @Lyfts in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/111
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.31...1.5.32
+>
+
 ## *1.5.31*
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.30...1.5.31
 >
@@ -4406,7 +4431,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.6.4...1.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.28-GTNH
+# Updated - NotEnoughItems - 2.6.53-GTNH --> 2.7.29-GTNH
+## *2.7.29-GTNH*
+>## What's Changed
+>* Fix NC marker in recipe after fluid pattern terminal by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/603
+>* Add loadPluginsInParallel Option by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/604
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.28-GTNH...2.7.29-GTNH
+>
+
 ## *2.7.28-GTNH*
 >## What's Changed
 >* Added hotkey utils methods by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/599
@@ -4909,7 +4943,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.11.2-GTNH...1.12.0-GTNH
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.21-pre
+# Updated - ServerUtilities - 2.0.92 --> 2.1.23-pre
+## *2.1.23-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.22...2.1.23-pre
+>
+
+## *2.1.22*
+>## What's Changed
+>* Improve invsee gui & add support for some modded inventories by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/185
+>* Add vanish command by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/170
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.17...2.1.22
+>
+
 ## *2.1.21-pre*
 >## What's Changed
 >* Spotless apply for branch vanish for #170 by @github-actions in https://github.com/GTNewHorizons/ServerUtilities/pull/171
