@@ -3477,7 +3477,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.3.1-GTNH...1.4.0-GTNH
 >
 
-# Updated - LogisticsPipes - 1.2.34-GTNH --> 1.3.2-GTNH
+# Updated - LogisticsPipes - 1.2.34-GTNH --> 1.3.3-GTNH
+## *1.3.3-GTNH*
+>## What's Changed
+>* Fix for mouse wheel not working on Wayland by @godrja in https://github.com/GTNewHorizons/LogisticsPipes/pull/78
+>
+>## New Contributors
+>* @godrja made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/78
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.3.2-GTNH...1.3.3-GTNH
+>
+
 ## *1.3.2-GTNH*
 >## What's Changed
 >* The left extention slots for NEI are being processed by @slprime in https://github.com/GTNewHorizons/LogisticsPipes/pull/76
@@ -5325,7 +5335,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.3.10...1.3.11-pre
 >
 
-# Updated - ThaumicEnergistics - 1.6.27-GTNH --> 1.7.5-GTNH
+# Updated - ThaumicEnergistics - 1.6.27-GTNH --> 1.7.6-GTNH
+## *1.7.6-GTNH*
+>## What's Changed
+>* Pre-partition creative essentia cell to every aspect by @FrostyFire1 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/83
+>
+>## New Contributors
+>* @FrostyFire1 made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/83
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.5-GTNH...1.7.6-GTNH
+>
+
 ## *1.7.5-GTNH*
 >## What's Changed
 >* Void overflow and Distribution and Sticky card support for essentia cells by @lordIcocain in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/82

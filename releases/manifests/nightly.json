@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-02-09T03:40:16.562781",
+  "last_updated": "2025-02-10T03:42:47.651731",
   "config": "2.8.0-nightly-2025-02-07",
   "github_mods": {
     "AdventureBackpack2": {
@@ -301,7 +301,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.3.2-GTNH",
+      "version": "1.3.3-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.5-GTNH",
+      "version": "1.7.6-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
