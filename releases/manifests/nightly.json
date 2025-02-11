@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-02-10T03:42:47.651731",
-  "config": "2.8.0-nightly-2025-02-07",
+  "last_updated": "2025-02-11T03:40:01.868706",
+  "config": "2.8.0-nightly-2025-02-10",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.2-GTNH",
@@ -393,7 +393,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.11.6-GTNH",
+      "version": "1.11.7-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -437,7 +437,7 @@
       "side": "BOTH"
     },
     "RemoteIO": {
-      "version": "2.7.3",
+      "version": "2.7.4",
       "side": "BOTH"
     },
     "Roguelike-Dungeons": {
@@ -717,7 +717,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.0-GTNH",
+      "version": "0.5.1-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {

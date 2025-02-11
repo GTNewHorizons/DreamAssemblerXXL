@@ -3631,7 +3631,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.4.3-GTNH...2.5.0-GTNH
 >
 
-# Updated - Mobs-Info - 0.4.7-GTNH --> 0.5.0-GTNH
+# Updated - Mobs-Info - 0.4.7-GTNH --> 0.5.1-GTNH
+## *0.5.1-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.0-GTNH...0.5.1-GTNH
+>
+
 ## *0.5.0-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
@@ -4696,7 +4700,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.10.2-GTNH...1.11.0-GTNH
 >
 
-# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.6-GTNH
+# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.7-GTNH
+## *1.11.7-GTNH*
+>## What's Changed
+>* Fix overflow for large stack sizes in `storeInterfacePattern` by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/146
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.6-GTNH...1.11.7-GTNH
+>
+
 ## *1.11.6-GTNH*
 >## What's Changed
 >* Remove old dependency. by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/145
@@ -4869,7 +4881,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.5.3...2.6.0
 >
 
-# Updated - RemoteIO - 2.6.4 --> 2.7.3
+# Updated - RemoteIO - 2.6.4 --> 2.7.4
+## *2.7.4*
+>## What's Changed
+>* Refactor AE Transfer Chip by @reobf in https://github.com/GTNewHorizons/RemoteIO/pull/22
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.7.3...2.7.4
+>
+
 ## *2.7.3*
 >## What's Changed
 >* Fix by @reobf in https://github.com/GTNewHorizons/RemoteIO/pull/21
