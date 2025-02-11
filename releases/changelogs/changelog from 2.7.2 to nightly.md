@@ -322,7 +322,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-538-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-539-GTNH-pre
+## *rv3-beta-539-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-538-GTNH...rv3-beta-539-GTNH-pre
+>
+
 ## *rv3-beta-538-GTNH*
 >## What's Changed
 >* Add a button to follow the crafting job when start it by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/671
@@ -1164,7 +1168,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.8.22...2.9.0
 >
 
-# Updated - EnderStorage - 1.6.5 --> 1.7.0
+# Updated - EnderStorage - 1.6.5 --> 1.7.1-pre
+## *1.7.1-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderStorage/compare/1.7.0...1.7.1-pre
+>
+
 ## *1.7.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderStorage/compare/1.6.5...1.7.0
 >
@@ -1289,7 +1297,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.123-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.125-pre
+## *5.09.51.125-pre*
+>## What's Changed
+>* Data stick left click on crafting proxy support by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3908
+>* Resolver hatch shift method rewrite by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3914
+>* drop input bus compat for eec by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3900
+>* Fix yothatches spamming large network packets (while terminal open) when there is a lot of fluid movement by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3911
+>* Add Waila info and Data Stick compatibility to the Cloud Computation Hatch by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3917
+>* Let radio hatches be machine controllable by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3916
+>* Lower fluid for solidifying rounds from 18L to 16L by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3920
+>* Add a MultiAmp-only hatch identifier by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3919
+>* Improve how/when Crop Manager applies Weed-EX by @SchoofsKelvin in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3915
+>* Prevent IC2 rubber logs from being rotated by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3923
+>* Remove missed parameter hatch code  by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3927
+>* Refactor rock breaker for extensibility by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3921
+>* Fix excessive catalyst usage during convergence if subticking by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3925
+>
+>## New Contributors
+>* @SchoofsKelvin made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3915
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.121...5.09.51.125-pre
+>
+
 ## *5.09.51.123-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.122-pre...5.09.51.123-pre
 >
@@ -4973,7 +5003,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.11.2-GTNH...1.12.0-GTNH
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.23-pre
+# Updated - ServerUtilities - 2.0.92 --> 2.1.24-pre
+## *2.1.24-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.23-pre...2.1.24-pre
+>
+
 ## *2.1.23-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.22...2.1.23-pre
 >
@@ -5904,7 +5938,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.3.1...0.4.0
 >
 
-# Updated - twilightforest - 2.6.37 --> 2.7.4
+# Updated - twilightforest - 2.6.37 --> 2.7.5
+## *2.7.5*
+>## What's Changed
+>* Fix Druid Hut Wood Slabs Being Stone by @Ruling-0 in https://github.com/GTNewHorizons/twilightforest/pull/104
+>
+>## New Contributors
+>* @Ruling-0 made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/104
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.4...2.7.5
+>
+
 ## *2.7.4*
 >## What's Changed
 >* Raven's Raven Protection PR by @eigenraven in https://github.com/GTNewHorizons/twilightforest/pull/102
