@@ -271,7 +271,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.2.4-GTNH...1.3.0-GTNH
 >
 
-# Updated - AkashicTome - 1.1.10 --> 1.2.0
+# Updated - AkashicTome - 1.1.10 --> 1.2.1
+## *1.2.1*
+>## What's Changed
+>* Fix incorrect OpenComputers Manual ID in the whitelist by @Kynake in https://github.com/GTNewHorizons/AkashicTome/pull/15
+>
+>## New Contributors
+>* @Kynake made their first contribution in https://github.com/GTNewHorizons/AkashicTome/pull/15
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AkashicTome/compare/1.2.0...1.2.1
+>
+
 ## *1.2.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/AkashicTome/compare/1.1.10...1.2.0
 >
@@ -344,7 +354,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-540-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-541-GTNH-pre
+## *rv3-beta-541-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-540-GTNH-pre...rv3-beta-541-GTNH-pre
+>
+
 ## *rv3-beta-540-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-539-GTNH-pre...rv3-beta-540-GTNH-pre
 >
@@ -1333,7 +1347,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.125-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.127-pre
+## *5.09.51.127-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.126...5.09.51.127-pre
+>
+
+## *5.09.51.126*
+>## What's Changed
+>* Remove GT Empty Crate by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3933
+>* Fix multi smelter adding an empty output stack by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3928
+>* Set extreme air intake hatch tier to ZPM by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3930
+>* Fix HIP not voiding by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3934
+>* Add fake recipes for quantum computer components by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3924
+>* Add missing super.invalidate() by @reobf in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3931
+>* Fix an LCR collision by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3935
+>* Normalizing gtpp recipes 2025-02-09 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3922
+>* Improve sources of Cryotheum by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3918
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.124...5.09.51.126
+>
+
 ## *5.09.51.125-pre*
 >## What's Changed
 >* Data stick left click on crafting proxy support by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3908
@@ -2995,7 +3029,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.89 --> 2.6.24
+# Updated - Hodgepodge - 2.5.89 --> 2.6.25
+## *2.6.25*
+>## What's Changed
+>* Animation/Texture Mixins moved to Angelica by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/487
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.24...2.6.25
+>
+
 ## *2.6.24*
 >## What's Changed
 >* fix entity attributes range by @raylras in https://github.com/GTNewHorizons/Hodgepodge/pull/486
@@ -3503,7 +3545,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/commits/1.0-GTNH
 >
 
-# Updated - Jabba - 1.4.6 --> 1.5.2
+# Updated - Jabba - 1.4.6 --> 1.5.3
+## *1.5.3*
+>## What's Changed
+>* Add EFR Barrel Support by @Caedis in https://github.com/GTNewHorizons/Jabba/pull/38
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/Jabba/pull/38
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.2...1.5.3
+>
+
 ## *1.5.2*
 >## What's Changed
 >* Dolly support for Bibliocraft labels by @YannickMG in https://github.com/GTNewHorizons/Jabba/pull/37
@@ -3818,7 +3870,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.93-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.96-pre
+## *2.7.96-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.95...2.7.96-pre
+>
+
+## *2.7.95*
+>## What's Changed
+>* Move fish trap recipe from gt++ to coremod by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1192
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.92...2.7.95
+>
+
 ## *2.7.93-pre*
 >## What's Changed
 >* Add recipe for black hole utility hatch by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1191
