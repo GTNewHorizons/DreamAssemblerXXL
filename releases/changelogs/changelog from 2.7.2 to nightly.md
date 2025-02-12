@@ -218,7 +218,29 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
-# Updated - AdventureBackpack2 - 1.2.4-GTNH --> 1.3.2-GTNH
+# Updated - AdventureBackpack2 - 1.2.4-GTNH --> 1.3.5-GTNH
+## *1.3.5-GTNH*
+>## What's Changed
+>* Coal pack by @Dream-Master in https://github.com/GTNewHorizons/AdventureBackpack2/pull/29
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.4-GTNH...1.3.5-GTNH
+>
+
+## *1.3.4-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.3-GTNH...1.3.4-GTNH
+>
+
+## *1.3.3-GTNH*
+>## What's Changed
+>* Dev by @Dream-Master in https://github.com/GTNewHorizons/AdventureBackpack2/pull/28
+>
+>## New Contributors
+>* @Dream-Master made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/28
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.2-GTNH...1.3.3-GTNH
+>
+
 ## *1.3.2-GTNH*
 >## What's Changed
 >* Adjust some GL for Angelica compat, to make items be not-the-sun by @calreveraster in https://github.com/GTNewHorizons/AdventureBackpack2/pull/27
@@ -322,7 +344,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-539-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-540-GTNH-pre
+## *rv3-beta-540-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-539-GTNH-pre...rv3-beta-540-GTNH-pre
+>
+
 ## *rv3-beta-539-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-538-GTNH...rv3-beta-539-GTNH-pre
 >
@@ -1168,7 +1194,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.8.22...2.9.0
 >
 
-# Updated - EnderStorage - 1.6.5 --> 1.7.1-pre
+# Updated - EnderStorage - 1.6.5 --> 1.7.2
+## *1.7.2*
+>## What's Changed
+>* Fix incorrect lighting on AE2 GUI by @RealSilverMoon in https://github.com/GTNewHorizons/EnderStorage/pull/16
+>
+>## New Contributors
+>* @RealSilverMoon made their first contribution in https://github.com/GTNewHorizons/EnderStorage/pull/16
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderStorage/compare/1.7.0...1.7.2
+>
+
 ## *1.7.1-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderStorage/compare/1.7.0...1.7.1-pre
 >
@@ -3615,7 +3651,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.4.2...0.5.0
 >
 
-# New Mod - MatterManipulator:0.0.20-GTNH
+# New Mod - MatterManipulator:0.0.21-GTNH
+## *0.0.21-GTNH*
+>## What's Changed
+>* Update ManipulatorRecipes.java by @Breviel in https://github.com/GTNewHorizons/MatterManipulator/pull/2
+>
+>## New Contributors
+>* @Breviel made their first contribution in https://github.com/GTNewHorizons/MatterManipulator/pull/2
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.20-GTNH...0.0.21-GTNH
+>
+
 ## *0.0.20-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.19-GTNH...0.0.20-GTNH
 >
@@ -5003,7 +5049,26 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.11.2-GTNH...1.12.0-GTNH
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.24-pre
+# Updated - ServerUtilities - 2.0.92 --> 2.1.26
+## *2.1.26*
+>## What's Changed
+>* Fix urls in motd not working by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/186
+>* Fix entity cleanup removing nametagged entities by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/187
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.25...2.1.26
+>
+
+## *2.1.25*
+>## What's Changed
+>* Backup save related files outside of save folder by @DarkShadow44 in https://github.com/GTNewHorizons/ServerUtilities/pull/178
+>
+>## New Contributors
+>* @DarkShadow44 made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/178
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.22...2.1.25
+>
+
 ## *2.1.24-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.23-pre...2.1.24-pre
 >
