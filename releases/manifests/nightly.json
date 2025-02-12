@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-02-12T03:38:47.494617",
-  "config": "2.8.0-nightly-2025-02-11",
+  "last_updated": "2025-02-12T13:19:04.309905",
+  "config": "2.8.0-nightly-2025-02-12",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.5-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-540-GTNH-pre",
+      "version": "rv3-beta-541-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.125-pre",
+      "version": "5.09.51.127-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.24",
+      "version": "2.6.25",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "Jabba": {
-      "version": "1.5.2",
+      "version": "1.5.3",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.93-pre",
+      "version": "2.7.96-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -761,7 +761,7 @@
       "side": "CLIENT"
     },
     "AkashicTome": {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "side": "BOTH"
     },
     "Navigator": {
