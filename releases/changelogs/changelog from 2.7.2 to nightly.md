@@ -3029,7 +3029,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.11.3-GTNH...1.12.0-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.89 --> 2.6.25
+# Updated - Hodgepodge - 2.5.89 --> 2.6.26
+## *2.6.26*
+>## What's Changed
+>* Prevent CastClassException on invalid duct network by @DrParadox7 in https://github.com/GTNewHorizons/Hodgepodge/pull/488
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.25...2.6.26
+>
+
 ## *2.6.25*
 >## What's Changed
 >* Animation/Texture Mixins moved to Angelica by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/487
@@ -3309,7 +3317,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.21-GTNH
+# New Mod - InventoryBogoSorter:1.2.22-GTNH
+## *1.2.22-GTNH*
+>## What's Changed
+>* Fix #45 by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/64
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.21-GTNH...1.2.22-GTNH
+>
+
 ## *1.2.21-GTNH*
 >## What's Changed
 >* BetterStorage+Fix-Dupe by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/62
@@ -3543,6 +3559,11 @@ Mod is client-side only.
 >* @0hwx made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/3
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/commits/1.0-GTNH
+>
+
+# Updated - Irontanks - 1.3.0 --> 1.4.0
+## *1.4.0*
+>**Full Changelog**: https://github.com/GTNewHorizons/Irontanks/compare/1.3.0...1.4.0
 >
 
 # Updated - Jabba - 1.4.6 --> 1.5.3
@@ -3870,7 +3891,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.96-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.97-pre
+## *2.7.97-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.96-pre...2.7.97-pre
+>
+
 ## *2.7.96-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.95...2.7.96-pre
 >
@@ -5113,7 +5138,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.11.2-GTNH...1.12.0-GTNH
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.26
+# Updated - ServerUtilities - 2.0.92 --> 2.1.28
+## *2.1.28*
+>## What's Changed
+>* Fix shift clicking in invsee creating invalid stacks by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/189
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.26...2.1.28
+>
+
+## *2.1.27-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.26...2.1.27-pre
+>
+
 ## *2.1.26*
 >## What's Changed
 >* Fix urls in motd not working by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/186
