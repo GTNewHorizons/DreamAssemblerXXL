@@ -2,8 +2,10 @@
 > * Et Futurum Requiem
 > * InventoryBogoSorter
 > * MatterManipulator
+> * Salis-Arcana
 # Mods Removed: 
 > * MouseTweaks
+> * ThaumicInventoryScanning
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
@@ -354,7 +356,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-541-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-543-GTNH-pre
+## *rv3-beta-543-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-542-GTNH...rv3-beta-543-GTNH-pre
+>
+
+## *rv3-beta-542-GTNH*
+>## What's Changed
+>* Add priority to patterns in (dual) interfaces by @Vlamonster in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/673
+>* Change Craft Ordering Quantity to Allow Longs by @Ruling-0 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/672
+>
+>## New Contributors
+>* @Ruling-0 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/672
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-538-GTNH...rv3-beta-542-GTNH
+>
+
 ## *rv3-beta-541-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-540-GTNH-pre...rv3-beta-541-GTNH-pre
 >
@@ -1347,7 +1364,26 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.127-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.129-pre
+## *5.09.51.129-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.128...5.09.51.129-pre
+>
+
+## *5.09.51.128*
+>## What's Changed
+>* Add item output slot to fluid heater by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3932
+>* Refactor MTECable to update MTE without block swap  by @mak8427 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3826
+>* Fix excessive catalyst usage in DTPF while using convergence and batch mode by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3929
+>* Rock breaker by @EnderProyects in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3883
+>* Remove Bio and Breakthrough circuits from the modpack by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3389
+>* Fix Ztones Having craftingTank OreDict by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3940
+>* Fix Alchemical Furnace Polluting Without Burning by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3938
+>* Improve state transitions for Machine Controller Cover by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3939
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.126...5.09.51.128
+>
+
 ## *5.09.51.127-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.126...5.09.51.127-pre
 >
@@ -3891,7 +3927,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.97-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.99-pre
+## *2.7.99-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.98...2.7.99-pre
+>
+
+## *2.7.98*
+>## What's Changed
+>* add glasspane ore dict tag to Tico glasspane by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1195
+>* Add fluid heater recipes for pam's hearvestcraft fresh milk by @FrostyFire1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1193
+>
+>## New Contributors
+>* @FrostyFire1 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1193
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.95...2.7.98
+>
+
 ## *2.7.97-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.96-pre...2.7.97-pre
 >
@@ -5098,6 +5149,11 @@ Mod is client-side only.
 >* @glowredman made their first contribution in https://github.com/GTNewHorizons/SC2/pull/7
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.2.0...2.3.0
+>
+
+# New Mod - Salis-Arcana:1.1.2-GTNH
+## *1.1.2-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/commits/1.1.2-GTNH
 >
 
 # Updated - Schematica - 1.11.2-GTNH --> 1.12.5-GTNH-pre
