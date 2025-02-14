@@ -9,7 +9,17 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.28-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.29-gtnh
+## *1.4.29-gtnh*
+>## What's Changed
+>* Improve ME Fluid Auto Filler Performance by @Vlamonster in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/266
+>
+>## New Contributors
+>* @Vlamonster made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/266
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.28-gtnh...1.4.29-gtnh
+>
+
 ## *1.4.28-gtnh*
 >## What's Changed
 >* No more drop drops from interface by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/265
@@ -356,7 +366,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-543-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-544-GTNH
+## *rv3-beta-544-GTNH*
+>## What's Changed
+>* Add throughput monitor by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/674
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-542-GTNH...rv3-beta-544-GTNH
+>
+
 ## *rv3-beta-543-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-542-GTNH...rv3-beta-543-GTNH-pre
 >
@@ -1317,7 +1335,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.7.1-GTNH...0.8.0-GTNH
 >
 
-# Updated - ForestryMC - 4.9.21 --> 4.10.1
+# Updated - ForestryMC - 4.9.21 --> 4.10.2
+## *4.10.2*
+>## What's Changed
+>* Don't crash if someone tries to color number values stored in lang files by @YannickMG in https://github.com/GTNewHorizons/ForestryMC/pull/88
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/88
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.1...4.10.2
+>
+
 ## *4.10.1*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/ForestryMC/pull/87
@@ -1364,7 +1392,40 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.129-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.133-pre
+## *5.09.51.133-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.132...5.09.51.133-pre
+>
+
+## *5.09.51.132*
+>## What's Changed
+>* Cosmic Neutronium TextureSet +  Molten Infinity and Infinity Plasma Texture Cleaning by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3943
+>* Fix broken cosmic neutronium plasma by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3944
+>* Add missing residue output to waterline catalyst recipes by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3945
+>* Make circuit names more consistent by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3947
+>* Ring of Loki support for Cover Copy/Paste Tool by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3941
+>
+>## New Contributors
+>* @jude123412 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3943
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.128...5.09.51.132
+>
+
+## *5.09.51.131-pre*
+>## What's Changed
+>* Cosmic Neutronium TextureSet +  Molten Infinity and Infinity Plasma Texture Cleaning by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3943
+>* Fix broken cosmic neutronium plasma by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3944
+>
+>## New Contributors
+>* @jude123412 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3943
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.130-pre...5.09.51.131-pre
+>
+
+## *5.09.51.130-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.129-pre...5.09.51.130-pre
+>
+
 ## *5.09.51.129-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.128...5.09.51.129-pre
 >
@@ -3353,7 +3414,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.22-GTNH
+# New Mod - InventoryBogoSorter:1.2.23-GTNH
+## *1.2.23-GTNH*
+>## What's Changed
+>* Respect NBT by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/65
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.22-GTNH...1.2.23-GTNH
+>
+
 ## *1.2.22-GTNH*
 >## What's Changed
 >* Fix #45 by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/64
@@ -3927,7 +3996,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.99-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.104-pre
+## *2.7.104-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.103...2.7.104-pre
+>
+
+## *2.7.103*
+>## What's Changed
+>* Recipe adjustment for the bulk catalyst housing by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1197
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.98...2.7.103
+>
+
+## *2.7.101-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.100-pre...2.7.101-pre
+>
+
+## *2.7.100-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.99-pre...2.7.100-pre
+>
+
 ## *2.7.99-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.98...2.7.99-pre
 >
@@ -4916,7 +5005,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.10.2-GTNH...1.11.0-GTNH
 >
 
-# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.7-GTNH
+# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.8-GTNH
+## *1.11.8-GTNH*
+>## What's Changed
+>* Implement `getItemInNetwork`  by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/147
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.7-GTNH...1.11.8-GTNH
+>
+
 ## *1.11.7-GTNH*
 >## What's Changed
 >* Fix overflow for large stack sizes in `storeInterfacePattern` by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/146
@@ -5194,7 +5291,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.11.2-GTNH...1.12.0-GTNH
 >
 
-# Updated - ServerUtilities - 2.0.92 --> 2.1.28
+# Updated - ServerUtilities - 2.0.92 --> 2.1.29
+## *2.1.29*
+>## What's Changed
+>* Fix backup failing when encountering renamed region files by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/190
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.28...2.1.29
+>
+
 ## *2.1.28*
 >## What's Changed
 >* Fix shift clicking in invsee creating invalid stacks by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/189
@@ -6070,7 +6175,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.87...6.1.0
 >
 
-# Updated - lwjgl3ify - 2.1.5 --> 2.1.7
+# Updated - lwjgl3ify - 2.1.5 --> 2.1.8
+## *2.1.8*
+>## What's Changed
+>* Fix loading corrupted lwjgl3ify-early.json by @YannickMG in https://github.com/GTNewHorizons/lwjgl3ify/pull/201
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/201
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.7...2.1.8
+>
+
 ## *2.1.7*
 >## What's Changed
 >* Fix LogisticsPipes BCCompat with Lwjgl3ify by @TimeConqueror in https://github.com/GTNewHorizons/lwjgl3ify/pull/199
