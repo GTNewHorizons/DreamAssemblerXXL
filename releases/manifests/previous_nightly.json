@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2025-02-13T03:39:16.650559",
-  "config": "2.8.0-nightly-2025-02-12",
+  "last_version": "2.7.2",
+  "last_updated": "2025-02-14T11:35:07.284614",
+  "config": "2.8.0-nightly-2025-02-13",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.5-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-541-GTNH-pre",
+      "version": "rv3-beta-543-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.127-pre",
+      "version": "5.09.51.131-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.97-pre",
+      "version": "2.7.101-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -536,10 +536,6 @@
       "version": "0.4.0",
       "side": "BOTH"
     },
-    "ThaumicInventoryScanning": {
-      "version": "1.2.0-GTNH",
-      "side": "BOTH"
-    },
     "ThaumicTinkerer": {
       "version": "2.11.2",
       "side": "BOTH"
@@ -701,7 +697,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.1.7",
+      "version": "2.1.8",
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
@@ -786,6 +782,10 @@
     },
     "MatterManipulator": {
       "version": "0.0.21-GTNH",
+      "side": "BOTH"
+    },
+    "Salis-Arcana": {
+      "version": "1.1.2-GTNH",
       "side": "BOTH"
     }
   },
