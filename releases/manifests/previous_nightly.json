@@ -1,15 +1,15 @@
 {
   "version": "previous_nightly",
-  "last_version": "2.7.2",
-  "last_updated": "2025-02-14T11:35:07.284614",
-  "config": "2.8.0-nightly-2025-02-13",
+  "last_version": "previous_nightly",
+  "last_updated": "2025-02-15T03:40:12.766098",
+  "config": "2.8.0-nightly-2025-02-14",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.5-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.28-gtnh",
+      "version": "1.4.29-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-543-GTNH-pre",
+      "version": "rv3-beta-544-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -177,7 +177,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.3",
+      "version": "2.9.4",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -205,7 +205,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.10.1",
+      "version": "4.10.2",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.131-pre",
+      "version": "5.09.51.135-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.101-pre",
+      "version": "2.7.106-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -393,7 +393,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.11.7-GTNH",
+      "version": "1.11.8-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.28",
+      "version": "2.1.29",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.22-GTNH",
+      "version": "1.2.24-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -786,6 +786,10 @@
     },
     "Salis-Arcana": {
       "version": "1.1.2-GTNH",
+      "side": "BOTH"
+    },
+    "BugTorch": {
+      "version": "1.2.14-GTNH",
       "side": "BOTH"
     }
   },
@@ -920,10 +924,6 @@
     },
     "Et Futurum Requiem": {
       "version": "2.6.2",
-      "side": "BOTH"
-    },
-    "Bug-Torch": {
-      "version": "1.2.13",
       "side": "BOTH"
     }
   }
