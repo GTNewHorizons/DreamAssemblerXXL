@@ -1402,7 +1402,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.135-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.137-pre
+## *5.09.51.137-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.136...5.09.51.137-pre
+>
+
+## *5.09.51.136*
+>## What's Changed
+>* Introduce Power Control Panel (Part 1) by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3952
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.134...5.09.51.136
+>
+
 ## *5.09.51.135-pre*
 >## What's Changed
 >* Refactoring GT++ 2025-02-12 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3937
@@ -4030,7 +4042,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.106-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.107-pre
+## *2.7.107-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.106-pre...2.7.107-pre
+>
+
 ## *2.7.106-pre*
 >## What's Changed
 >* Fix some references to GT++ items by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1196
@@ -5905,7 +5921,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.2.2...1.3.0
 >
 
-# Updated - TinkersConstruct - 1.12.17-GTNH --> 1.13.8-GTNH
+# Updated - TinkersConstruct - 1.12.17-GTNH --> 1.13.9-GTNH
+## *1.13.9-GTNH*
+>## What's Changed
+>* Improve localization for tools by @ChromaPIE in https://github.com/GTNewHorizons/TinkersConstruct/pull/151
+>
+>## New Contributors
+>* @ChromaPIE made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/151
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.8-GTNH...1.13.9-GTNH
+>
+
 ## *1.13.8-GTNH*
 >## What's Changed
 >* Don't display "Fuel" instead of the liquid's name when holding shift in the Smeltery UI by @YannickMG in https://github.com/GTNewHorizons/TinkersConstruct/pull/148
