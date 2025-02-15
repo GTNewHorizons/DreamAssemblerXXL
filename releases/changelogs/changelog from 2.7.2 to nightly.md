@@ -1206,7 +1206,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.5.16...1.6.0
 >
 
-# Updated - EnderIO - 2.8.24 --> 2.9.3
+# Updated - EnderIO - 2.8.24 --> 2.9.4
+## *2.9.4*
+>## What's Changed
+>* Mark EnderCore as a required dependency by @serenibyss in https://github.com/GTNewHorizons/EnderIO/pull/185
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/185
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.3...2.9.4
+>
+
 ## *2.9.3*
 >## What's Changed
 >* Adding "show range" button to multiple machines by @Dioxop in https://github.com/GTNewHorizons/EnderIO/pull/184
@@ -1392,7 +1402,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.133-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.135-pre
+## *5.09.51.135-pre*
+>## What's Changed
+>* Refactoring GT++ 2025-02-12 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3937
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.133-pre...5.09.51.135-pre
+>
+
+## *5.09.51.134*
+>## What's Changed
+>* Refactoring GT++ 2025-02-12 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3937
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.132...5.09.51.134
+>
+
 ## *5.09.51.133-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.132...5.09.51.133-pre
 >
@@ -3414,7 +3440,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.23-GTNH
+# New Mod - InventoryBogoSorter:1.2.24-GTNH
+## *1.2.24-GTNH*
+>## What's Changed
+>* Fix #64 by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/66
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.23-GTNH...1.2.24-GTNH
+>
+
 ## *1.2.23-GTNH*
 >## What's Changed
 >* Respect NBT by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/65
@@ -3996,7 +4030,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.104-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.106-pre
+## *2.7.106-pre*
+>## What's Changed
+>* Fix some references to GT++ items by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1196
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.104-pre...2.7.106-pre
+>
+
+## *2.7.105*
+>## What's Changed
+>* Fix some references to GT++ items by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1196
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.103...2.7.105
+>
+
 ## *2.7.104-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.103...2.7.104-pre
 >
