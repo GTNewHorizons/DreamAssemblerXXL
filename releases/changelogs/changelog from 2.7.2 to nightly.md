@@ -1402,7 +1402,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.137-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.139-pre
+## *5.09.51.139-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.138...5.09.51.139-pre
+>
+
+## *5.09.51.138*
+>## What's Changed
+>* Fix NBT tag for "always use maximum" parallel setting by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3955
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.136...5.09.51.138
+>
+
 ## *5.09.51.137-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.136...5.09.51.137-pre
 >
