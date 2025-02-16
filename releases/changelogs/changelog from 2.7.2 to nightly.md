@@ -366,7 +366,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-544-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-546-GTNH
+## *rv3-beta-546-GTNH*
+>## What's Changed
+>* Update required GTNHLib version to 0.6.11 by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/676
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-545-GTNH...rv3-beta-546-GTNH
+>
+
+## *rv3-beta-545-GTNH*
+>## What's Changed
+>* Use capability for SoundP2P and CraftingIconProvider by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/675
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-544-GTNH...rv3-beta-545-GTNH
+>
+
 ## *rv3-beta-544-GTNH*
 >## What's Changed
 >* Add throughput monitor by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/674
@@ -1402,7 +1418,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.139-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.141-pre
+## *5.09.51.141-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.140...5.09.51.141-pre
+>
+
+## *5.09.51.140*
+>## What's Changed
+>* Implement Capability system by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3898
+>* Remove Sonictron by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3957
+>* Fix position of chest cover gui to be to the left of the machine gui by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3958
+>* Prevent crash from formatting machine items by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3956
+>* Use capability for SoundP2P and CraftingIconProvider by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3959
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.138...5.09.51.140
+>
+
 ## *5.09.51.139-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.138...5.09.51.139-pre
 >
@@ -2920,7 +2952,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.5.0
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.10
+# Updated - GTNHLib - 0.5.23 --> 0.6.11
+## *0.6.11*
+>## What's Changed
+>* Introduce Capability system by @miozune in https://github.com/GTNewHorizons/GTNHLib/pull/112
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.10...0.6.11
+>
+
 ## *0.6.10*
 >## What's Changed
 >* Fix versionPattern by @miozune in https://github.com/GTNewHorizons/GTNHLib/pull/111
@@ -3464,7 +3504,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.24-GTNH
+# New Mod - InventoryBogoSorter:1.2.25-GTNH
+## *1.2.25-GTNH*
+>## What's Changed
+>* fix display name sorting crash on server by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/67
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.24-GTNH...1.2.25-GTNH
+>
+
 ## *1.2.24-GTNH*
 >## What's Changed
 >* Fix #64 by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/66
@@ -4054,7 +4102,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.107-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.109-pre
+## *2.7.109-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.108...2.7.109-pre
+>
+
+## *2.7.108*
+>## What's Changed
+>* Buff neutronium and Cosmic Neutronium smelting times by @StaffiX in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1198
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.105...2.7.108
+>
+
 ## *2.7.107-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.106-pre...2.7.107-pre
 >
@@ -6078,6 +6138,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.5.1...0.6.0
 >
 
+# Updated - WailaHarvestability - 1.2.1-GTNH --> 1.3.0-GTNH
+## *1.3.0-GTNH*
+>## What's Changed
+>* Add missing localization for effective tool by @Discreater in https://github.com/GTNewHorizons/WailaHarvestability/pull/6
+>
+>## New Contributors
+>* @Discreater made their first contribution in https://github.com/GTNewHorizons/WailaHarvestability/pull/6
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WailaHarvestability/compare/1.2.1-GTNH...1.3.0-GTNH
+>
+
 # Updated - WirelessCraftingTerminal - 1.11.7 --> 1.12.0
 ## *1.12.0*
 >## What's Changed
@@ -6154,6 +6225,17 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.5.17-GTNH...1.5.18-GTNH-pre
+>
+
+# Updated - Yamcl - 0.6.0 --> 0.7.0
+## *0.7.0*
+>## What's Changed
+>* Add missing localization by @Discreater in https://github.com/GTNewHorizons/Yamcl/pull/5
+>
+>## New Contributors
+>* @Discreater made their first contribution in https://github.com/GTNewHorizons/Yamcl/pull/5
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Yamcl/compare/0.6.0...0.7.0
 >
 
 # Updated - ae2stuff - 0.8.6-GTNH --> 0.9.4-GTNH
