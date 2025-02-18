@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-02-16T03:40:46.916470",
+  "last_updated": "2025-02-18T03:38:57.292644",
   "config": "2.8.0-nightly-2025-02-15",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-544-GTNH",
+      "version": "rv3-beta-547-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -153,7 +153,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.8.6",
+      "version": "1.8.7",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.139-pre",
+      "version": "5.09.51.143-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.10",
+      "version": "0.6.11",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -301,7 +301,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.3.3-GTNH",
+      "version": "1.3.4-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -329,7 +329,7 @@
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
-      "version": "2.2.4",
+      "version": "2.3.0",
       "side": "BOTH"
     },
     "ModTweaker": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.107-pre",
+      "version": "2.7.111-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WailaHarvestability": {
-      "version": "1.2.1-GTNH",
+      "version": "1.3.0-GTNH",
       "side": "BOTH"
     },
     "WAILAPlugins": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "Yamcl": {
-      "version": "0.6.0",
+      "version": "0.7.0",
       "side": "BOTH"
     },
     "OpenPrinter": {
@@ -701,7 +701,7 @@
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.32",
+      "version": "1.5.33",
       "side": "BOTH"
     },
     "amunra": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta33",
+      "version": "1.0.0-beta34",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.24-GTNH",
+      "version": "1.2.25-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {

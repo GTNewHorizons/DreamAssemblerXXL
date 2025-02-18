@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2025-02-16
+Version nightly is out 2025-02-18
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -261,10 +261,10 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.2.1-GTNH |
 | [Amazing-Trophies](https://github.com/GTNewHorizons/Amazing-Trophies) | 1.3.0 |
 | [amunra](https://github.com/GTNewHorizons/amunra) | 0.8.1 |
-| [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-beta33 |
+| [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-beta34 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.8.2 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.4 |
-| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-546-GTNH |
+| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-547-GTNH |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.7.4 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.10.2 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.6.0 |
@@ -313,7 +313,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [CraftTweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.4.0 |
 | [CreativeCore](https://github.com/GTNewHorizons/CreativeCore) | 1.4.0-GTNH |
 | [CropLoadCore](https://github.com/GTNewHorizons/CropLoadCore) | 0.2.0 |
-| [Crops-plus-plus](https://github.com/GTNewHorizons/Crops-plus-plus) | 1.8.6 |
+| [Crops-plus-plus](https://github.com/GTNewHorizons/Crops-plus-plus) | 1.8.7 |
 | [Custom-Main-Menu](https://github.com/GTNewHorizons/Custom-Main-Menu) | 1.11.3 |
 | [Default-Configs](https://github.com/GTNewHorizons/Default-Configs) | 1.3.0 |
 | [DefaultServerList](https://github.com/GTNewHorizons/DefaultServerList) | 1.5.0 |
@@ -344,8 +344,8 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.9.1-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.2 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.51.141-pre |
-| [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.5.32 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.51.144-pre |
+| [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.5.33 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.1 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.6.11 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
@@ -371,7 +371,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.2.8-fairplay |
 | [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.4.0-GTNH |
-| [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.3.3-GTNH |
+| [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.3.4-GTNH |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.2.0 |
 | [LunatriusCore](https://github.com/GTNewHorizons/LunatriusCore) | 1.2.1-GTNH |
 | [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 2.1.8 |
@@ -380,7 +380,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.5.0 |
 | [MatterManipulator](https://github.com/GTNewHorizons/MatterManipulator) | 0.0.21-GTNH |
 | [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.5.0-GTNH |
-| [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 2.2.4 |
+| [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 2.3.0 |
 | [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.5.1-GTNH |
 | [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.11.0 |
 | [ModularUI2](https://github.com/GTNewHorizons/ModularUI2) | 2.2.4-1.7.10 |
@@ -395,7 +395,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.4.0 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.16.0 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.3.0 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.7.109-pre |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.7.112-pre |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.3.0-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.0 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.1.6 |
@@ -468,7 +468,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [UniLib](https://legacy.curseforge.com/minecraft/mc-mods/unilib) | 1.0.5 |
 | [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.19 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.10.0 |
-| [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.4.0 |
+| [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.4.1-pre |
 | [waila](https://github.com/GTNewHorizons/waila) | 1.8.2 |
 | [WailaHarvestability](https://github.com/GTNewHorizons/WailaHarvestability) | 1.3.0-GTNH |
 | [WAILAPlugins](https://github.com/GTNewHorizons/WAILAPlugins) | 0.6.0 |
