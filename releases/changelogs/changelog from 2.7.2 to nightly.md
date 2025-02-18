@@ -313,8 +313,19 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.2.2...1.2.3-pre
 >
 
-# Updated - Angelica - 1.0.0-beta28 --> 1.0.0-beta33
+# Updated - Angelica - 1.0.0-beta28 --> 1.0.0-beta34
 Mod is client-side only.
+## *1.0.0-beta34*
+>## What's Changed
+>* Fix crash when keycode is negative by @DarkShadow44 in https://github.com/GTNewHorizons/Angelica/pull/871
+>* Fix issue with dynamic lights world mixin not respecting opaque blocks by @DarkShadow44 in https://github.com/GTNewHorizons/Angelica/pull/872
+>
+>## New Contributors
+>* @DarkShadow44 made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/871
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta33...1.0.0-beta34
+>
+
 ## *1.0.0-beta33*
 >## What's Changed
 >* add offhand support via Backhand (up required version to 1.6.9) by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/859
@@ -366,7 +377,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-546-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-547-GTNH
+## *rv3-beta-547-GTNH*
+>## What's Changed
+>* Refactor blocking mode ignore item list by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/678
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-546-GTNH...rv3-beta-547-GTNH
+>
+
 ## *rv3-beta-546-GTNH*
 >## What's Changed
 >* Update required GTNHLib version to 0.6.11 by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/676
@@ -1091,7 +1110,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.3.8-GTNH...1.4.0-GTNH
 >
 
-# Updated - Crops-plus-plus - 1.7.14 --> 1.8.6
+# Updated - Crops-plus-plus - 1.7.14 --> 1.8.7
+## *1.8.7*
+>## What's Changed
+>* Change recipes to the optimized version by @StaffiX in https://github.com/GTNewHorizons/Crops-plus-plus/pull/90
+>
+>## New Contributors
+>* @StaffiX made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/90
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.6...1.8.7
+>
+
 ## *1.8.6*
 >## What's Changed
 >* Downscale crop textures to 16x16 by @serenibyss in https://github.com/GTNewHorizons/Crops-plus-plus/pull/86
@@ -1418,7 +1447,28 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.141-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.143-pre
+## *5.09.51.143-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.142...5.09.51.143-pre
+>
+
+## *5.09.51.142*
+>## What's Changed
+>* Cleanups around singleblock by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3961
+>* Refactoring GT++ 2025-02-13 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3948
+>* Refactoring GT++ 2025-02-14 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3949
+>* Reduce volcanus minimum casing to 6 by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3964
+>* Remove functionality to set capacity of ME hatches to max long by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3960
+>* Waila multiblock improvement  by @mak8427 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3965
+>* Adds new tool: Decorator's Trowel by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3963
+>* Register blocking mode ignore items by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3962
+>* Fix mistake with cactus coke and sugar charcoal by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3966
+>* Remove recipe optimization by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3953
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.140...5.09.51.142
+>
+
 ## *5.09.51.141-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.140...5.09.51.141-pre
 >
@@ -2712,7 +2762,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.32
+# Updated - GTNH-Intergalactic - 1.4.33 --> 1.5.33
+## *1.5.33*
+>## What's Changed
+>* Remove recipe optimization by @StaffiX in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/113
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.32...1.5.33
+>
+
 ## *1.5.32*
 >## What's Changed
 >* Fix SE missing elevator cable in NEI preview by @Lyfts in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/110
@@ -3827,7 +3885,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.3.1-GTNH...1.4.0-GTNH
 >
 
-# Updated - LogisticsPipes - 1.2.34-GTNH --> 1.3.3-GTNH
+# Updated - LogisticsPipes - 1.2.34-GTNH --> 1.3.4-GTNH
+## *1.3.4-GTNH*
+>## What's Changed
+>* Bugfix: X button is not hidden with the rest of panel by @godrja in https://github.com/GTNewHorizons/LogisticsPipes/pull/79
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.3.3-GTNH...1.3.4-GTNH
+>
+
 ## *1.3.3-GTNH*
 >## What's Changed
 >* Fix for mouse wheel not working on Wayland by @godrja in https://github.com/GTNewHorizons/LogisticsPipes/pull/78
@@ -3991,6 +4057,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.4.3-GTNH...2.5.0-GTNH
 >
 
+# Updated - Minetweaker-Gregtech-5-Addon - 2.2.4 --> 2.3.0
+## *2.3.0*
+>## What's Changed
+>* Remove recipe optimization by @StaffiX in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/70
+>
+>## New Contributors
+>* @StaffiX made their first contribution in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/70
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/compare/2.2.4...2.3.0
+>
+
 # Updated - Mobs-Info - 0.4.7-GTNH --> 0.5.1-GTNH
 ## *0.5.1-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.0-GTNH...0.5.1-GTNH
@@ -4102,7 +4179,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.109-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.111-pre
+## *2.7.111-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.110...2.7.111-pre
+>
+
+## *2.7.110*
+>## What's Changed
+>* Now you can't craft mince meat out of mince meat by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1203
+>* Fix toxic everglades references by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1199
+>* Remove recipe optimization by @StaffiX in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1200
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.108...2.7.110
+>
+
 ## *2.7.109-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.108...2.7.109-pre
 >
