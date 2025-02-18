@@ -1447,7 +1447,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.143-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.144-pre
+## *5.09.51.144-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.143-pre...5.09.51.144-pre
+>
+
 ## *5.09.51.143-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.142...5.09.51.143-pre
 >
@@ -4179,7 +4183,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.111-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.112-pre
+## *2.7.112-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.111-pre...2.7.112-pre
+>
+
 ## *2.7.111-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.110...2.7.111-pre
 >
@@ -6204,7 +6212,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.8.0...8.9.0
 >
 
-# Updated - VisualProspecting - 1.3.28 --> 1.4.0
+# Updated - VisualProspecting - 1.3.28 --> 1.4.1-pre
+## *1.4.1-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.4.0...1.4.1-pre
+>
+
 ## *1.4.0*
 >## What's Changed
 >* Save vein cache using IO thread by @Lyfts in https://github.com/GTNewHorizons/VisualProspecting/pull/63
