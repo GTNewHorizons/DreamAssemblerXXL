@@ -1116,7 +1116,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.8.5-GTNH...1.9.0-GTNH
 >
 
-# Updated - CookingForBlockheads - 1.3.8-GTNH --> 1.4.0-GTNH
+# Updated - CookingForBlockheads - 1.3.8-GTNH --> 1.4.1-GTNH
+## *1.4.1-GTNH*
+>## What's Changed
+>* Fixed baguette dough crafting by @Andthehand in https://github.com/GTNewHorizons/CookingForBlockheads/pull/52
+>
+>## New Contributors
+>* @Andthehand made their first contribution in https://github.com/GTNewHorizons/CookingForBlockheads/pull/52
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.4.0-GTNH...1.4.1-GTNH
+>
+
 ## *1.4.0-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.3.8-GTNH...1.4.0-GTNH
 >
@@ -1458,7 +1468,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.145-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.147-pre
+## *5.09.51.147-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.146...5.09.51.147-pre
+>
+
+## *5.09.51.146*
+>## What's Changed
+>* Add Matter Manipulator to GT Mods enum by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3968
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.142...5.09.51.146
+>
+
 ## *5.09.51.145-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.144-pre...5.09.51.145-pre
 >
@@ -4198,7 +4220,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.112-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.113-pre
+## *2.7.113-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.112-pre...2.7.113-pre
+>
+
 ## *2.7.112-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.111-pre...2.7.112-pre
 >
@@ -6227,7 +6253,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.8.0...8.9.0
 >
 
-# Updated - VisualProspecting - 1.3.28 --> 1.4.1-pre
+# Updated - VisualProspecting - 1.3.28 --> 1.4.2
+## *1.4.2*
+>## What's Changed
+>* Highlight searched underground fluids by @Lyfts in https://github.com/GTNewHorizons/VisualProspecting/pull/64
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.4.0...1.4.2
+>
+
 ## *1.4.1-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.4.0...1.4.1-pre
 >
@@ -6256,7 +6290,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.5.1...0.6.0
 >
 
-# Updated - WailaHarvestability - 1.2.1-GTNH --> 1.3.0-GTNH
+# Updated - WailaHarvestability - 1.2.1-GTNH --> 1.3.1-GTNH
+## *1.3.1-GTNH*
+>## What's Changed
+>* Add missing localization for cutter by @Discreater in https://github.com/GTNewHorizons/WailaHarvestability/pull/7
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WailaHarvestability/compare/1.3.0-GTNH...1.3.1-GTNH
+>
+
 ## *1.3.0-GTNH*
 >## What's Changed
 >* Add missing localization for effective tool by @Discreater in https://github.com/GTNewHorizons/WailaHarvestability/pull/6
