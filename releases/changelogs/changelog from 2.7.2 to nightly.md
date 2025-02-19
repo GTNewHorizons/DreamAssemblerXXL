@@ -313,8 +313,19 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.2.2...1.2.3-pre
 >
 
-# Updated - Angelica - 1.0.0-beta28 --> 1.0.0-beta34
+# Updated - Angelica - 1.0.0-beta28 --> 1.0.0-beta35
 Mod is client-side only.
+## *1.0.0-beta35*
+>## What's Changed
+>* Avoid checking frustum visibility of infinite bounding boxes by @embeddedt in https://github.com/GTNewHorizons/Angelica/pull/875
+>* Fix a handful of broken animations by @RecursivePineapple in https://github.com/GTNewHorizons/Angelica/pull/868
+>* Fix PBR specular & normal textures getting ignored by @RecursivePineapple in https://github.com/GTNewHorizons/Angelica/pull/874
+>* Fix IC2 universal cell rendering w/offhand by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/876
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta34...1.0.0-beta35
+>
+
 ## *1.0.0-beta34*
 >## What's Changed
 >* Fix crash when keycode is negative by @DarkShadow44 in https://github.com/GTNewHorizons/Angelica/pull/871
@@ -1447,7 +1458,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.144-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.145-pre
+## *5.09.51.145-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.144-pre...5.09.51.145-pre
+>
+
 ## *5.09.51.144-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.143-pre...5.09.51.144-pre
 >
