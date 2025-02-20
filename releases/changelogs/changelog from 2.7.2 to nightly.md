@@ -1468,7 +1468,28 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.147-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.149-pre
+## *5.09.51.149-pre*
+>## What's Changed
+>* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3974
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.148...5.09.51.149-pre
+>
+
+## *5.09.51.148*
+>## What's Changed
+>* Refactoring GT++ 2025-02-17 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3967
+>* Add missing localization by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3954
+>* Add general missing mappings handler by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3971
+>* Remove autogen obsidian recipes by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3969
+>
+>## New Contributors
+>* @Discreater made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3954
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.146...5.09.51.148
+>
+
 ## *5.09.51.147-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.146...5.09.51.147-pre
 >
@@ -4118,6 +4139,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
+# Updated - ModularUI - 1.2.17 --> 1.2.18
+## *1.2.18*
+>## What's Changed
+>* Fix window staying open when validator is no longer true by @Caedis in https://github.com/GTNewHorizons/ModularUI/pull/89
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/89
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.2.17...1.2.18
+>
+
 # Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.4-1.7.10
 ## *2.2.4-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.2.4-1.7.10 -->
@@ -4220,7 +4252,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.113-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.115-pre
+## *2.7.115-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.114...2.7.115-pre
+>
+
+## *2.7.114*
+>## What's Changed
+>* Move matter manipulator recipes to coremod by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1205
+>* Reduce Obsidian Processing from 9 per block to 2 per block by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1206
+>* Coremod updates for Refactoring GT++ 2025-02-17 by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1204
+>* New batch of EFR recipes by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1185
+>* Qol recipes by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1201
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.110...2.7.114
+>
+
 ## *2.7.113-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.112-pre...2.7.113-pre
 >
@@ -5526,7 +5574,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.2.0...2.3.0
 >
 
-# New Mod - Salis-Arcana:1.1.2-GTNH
+# New Mod - Salis-Arcana:1.1.3-GTNH
+## *1.1.3-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.2-GTNH...1.1.3-GTNH
+>
+
 ## *1.1.2-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/commits/1.1.2-GTNH
 >
