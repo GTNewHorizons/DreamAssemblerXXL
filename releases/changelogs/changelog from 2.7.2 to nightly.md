@@ -4063,7 +4063,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.4.2...0.5.0
 >
 
-# New Mod - MatterManipulator:0.0.21-GTNH
+# New Mod - MatterManipulator:0.0.22-GTNH
+## *0.0.22-GTNH*
+>## What's Changed
+>* Move recipes to coremod by @serenibyss in https://github.com/GTNewHorizons/MatterManipulator/pull/3
+>* removed the gt++ circuits by @Dream-Master in https://github.com/GTNewHorizons/MatterManipulator/pull/4
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/MatterManipulator/pull/3
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.21-GTNH...0.0.22-GTNH
+>
+
 ## *0.0.21-GTNH*
 >## What's Changed
 >* Update ManipulatorRecipes.java by @Breviel in https://github.com/GTNewHorizons/MatterManipulator/pull/2
@@ -4252,7 +4263,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.115-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.116-pre
+## *2.7.116-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.115-pre...2.7.116-pre
+>
+
 ## *2.7.115-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.114...2.7.115-pre
 >
@@ -6557,7 +6572,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.0.87...6.1.0
 >
 
-# Updated - lwjgl3ify - 2.1.5 --> 2.1.8
+# Updated - lwjgl3ify - 2.1.5 --> 2.1.9
+## *2.1.9*
+>**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.8...2.1.9
+>
+
 ## *2.1.8*
 >## What's Changed
 >* Fix loading corrupted lwjgl3ify-early.json by @YannickMG in https://github.com/GTNewHorizons/lwjgl3ify/pull/201

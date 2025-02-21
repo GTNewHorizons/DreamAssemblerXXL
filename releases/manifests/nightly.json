@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-02-20T08:38:13.904740",
+  "last_updated": "2025-02-21T03:40:46.717001",
   "config": "2.8.0-nightly-2025-02-20",
   "github_mods": {
     "AdventureBackpack2": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.115-pre",
+      "version": "2.7.116-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -697,7 +697,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.1.8",
+      "version": "2.1.9",
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.0.21-GTNH",
+      "version": "0.0.22-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
