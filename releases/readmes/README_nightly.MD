@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2025-02-20
+Version nightly is out 2025-02-21
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -344,7 +344,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.9.1-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.2 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.51.149-pre |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.51.151-pre |
 | [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.5.33 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.1 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.6.11 |
@@ -374,11 +374,11 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.3.4-GTNH |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.2.0 |
 | [LunatriusCore](https://github.com/GTNewHorizons/LunatriusCore) | 1.2.1-GTNH |
-| [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 2.1.8 |
+| [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 2.1.9 |
 | [MagicBees](https://github.com/GTNewHorizons/MagicBees) | 2.9.0-GTNH |
 | [MalisisDoors](https://github.com/GTNewHorizons/MalisisDoors) | 1.18.0-GTNH |
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.5.0 |
-| [MatterManipulator](https://github.com/GTNewHorizons/MatterManipulator) | 0.0.21-GTNH |
+| [MatterManipulator](https://github.com/GTNewHorizons/MatterManipulator) | 0.0.22-GTNH |
 | [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.5.0-GTNH |
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 2.3.0 |
 | [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.5.1-GTNH |
@@ -395,7 +395,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.4.0 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.16.0 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.3.0 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.7.115-pre |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.7.118-pre |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.3.0-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.0 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.1.6 |
