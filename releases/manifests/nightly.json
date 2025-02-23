@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-02-23T03:40:51.098661",
+  "last_updated": "2025-02-23T10:36:37.160932",
   "config": "2.8.0-nightly-2025-02-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.29-gtnh",
+      "version": "1.4.31-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -205,7 +205,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.10.2",
+      "version": "4.10.3",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.151-pre",
+      "version": "5.09.51.154-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.118-pre",
+      "version": "2.7.120-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.0.3",
+      "version": "2.1.5-GTNH",
       "side": "BOTH"
     },
     "Postea": {
