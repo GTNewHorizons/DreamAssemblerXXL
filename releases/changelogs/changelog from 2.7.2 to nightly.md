@@ -9,7 +9,27 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.29-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.31-gtnh-pre
+## *1.4.31-gtnh-pre*
+>## What's Changed
+>* Read NBT tags `combine` and `beSubstitute` from `ItemStack` when converting them to `FluidPattern` by @TwoDCube in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/268
+>
+>## New Contributors
+>* @TwoDCube made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/268
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.29-gtnh...1.4.31-gtnh-pre
+>
+
+## *1.4.30-gtnh*
+>## What's Changed
+>* Read NBT tags `combine` and `beSubstitute` from `ItemStack` when converting them to `FluidPattern` by @TwoDCube in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/268
+>
+>## New Contributors
+>* @TwoDCube made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/268
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.29-gtnh...1.4.30-gtnh
+>
+
 ## *1.4.29-gtnh*
 >## What's Changed
 >* Improve ME Fluid Auto Filler Performance by @Vlamonster in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/266
@@ -758,6 +778,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.58...1.59
 >
 
+# Updated - Baubles-Expanded - 2.0.3 --> 2.1.5-GTNH
+## *2.1.5-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.0.3...2.1.5-GTNH
+>
+
 # Updated - BetterBuildersWands - 0.12.0-GTNH --> 0.13.1-GTNH
 ## *0.13.1-GTNH*
 >## What's Changed
@@ -1411,7 +1436,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.7.1-GTNH...0.8.0-GTNH
 >
 
-# Updated - ForestryMC - 4.9.21 --> 4.10.2
+# Updated - ForestryMC - 4.9.21 --> 4.10.3
+## *4.10.3*
+>## What's Changed
+>* Add missing localization by @Discreater in https://github.com/GTNewHorizons/ForestryMC/pull/89
+>
+>## New Contributors
+>* @Discreater made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/89
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.2...4.10.3
+>
+
 ## *4.10.2*
 >## What's Changed
 >* Don't crash if someone tries to color number values stored in lang files by @YannickMG in https://github.com/GTNewHorizons/ForestryMC/pull/88
@@ -1468,7 +1503,35 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.151-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.154-pre
+## *5.09.51.154-pre*
+>## What's Changed
+>* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3974
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.153...5.09.51.154-pre
+>
+
+## *5.09.51.153*
+>## What's Changed
+>* Refactor recipemap backend modification callbacks by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3950
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.152...5.09.51.153
+>
+
+## *5.09.51.152*
+>## What's Changed
+>* if shift click on select item mui, then close after callback by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3977
+>* Improve structure error feedback by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3884
+>* Add missing localization-2 by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3976
+>* Localization 250222 by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3979
+>* Unique Plasma and Molten Textures for Cosmic Neutronium by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3946
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.150...5.09.51.152
+>
+
 ## *5.09.51.151-pre*
 >## What's Changed
 >* Add Dynamo Hatches to Naqfuel Refinery by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3972
@@ -4279,7 +4342,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.118-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.120-pre
+## *2.7.120-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.119...2.7.120-pre
+>
+
+## *2.7.119*
+>## What's Changed
+>* Add back electric hoe recipe by @Impos913 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1209
+>
+>## New Contributors
+>* @Impos913 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1209
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.117...2.7.119
+>
+
 ## *2.7.118-pre*
 >## What's Changed
 >* RC Firestone for LV Age by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1207
@@ -5378,7 +5455,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.10.2-GTNH...1.11.0-GTNH
 >
 
-# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.8-GTNH
+# Updated - OpenComputers - 1.10.28-GTNH --> 1.11.9-GTNH
+## *1.11.9-GTNH*
+>## What's Changed
+>* Fix GT integration not working by @miozune in https://github.com/GTNewHorizons/OpenComputers/pull/149
+>
+>## New Contributors
+>* @miozune made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/149
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.8-GTNH...1.11.9-GTNH
+>
+
 ## *1.11.8-GTNH*
 >## What's Changed
 >* Implement `getItemInNetwork`  by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/147
