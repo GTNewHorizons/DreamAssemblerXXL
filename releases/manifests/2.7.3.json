@@ -1,7 +1,7 @@
 {
   "version": "2.7.3",
   "last_version": "2.7.2",
-  "last_updated": "2025-02-24T13:04:55.297165",
+  "last_updated": "2025-02-24T13:58:52.569216",
   "config": "2.7.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.3.53-gtnh",
+      "version": "1.3.54-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.58",
+      "version": "1.59",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -73,11 +73,11 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.6.23-GTNH",
+      "version": "3.6.24-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.4.7",
+      "version": "2.4.8",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "amunra": {
-      "version": "0.7.2",
+      "version": "0.8.1",
       "side": "BOTH"
     },
     "DuraDisplay": {
@@ -773,11 +773,11 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta28",
+      "version": "1.0.0-beta35",
       "side": "CLIENT"
     },
     "AkashicTome": {
-      "version": "1.1.10",
+      "version": "1.2.1",
       "side": "BOTH"
     },
     "Navigator": {
