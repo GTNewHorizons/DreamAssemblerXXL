@@ -1,7 +1,7 @@
 {
   "version": "2.7.3",
   "last_version": "2.7.2",
-  "last_updated": "2025-02-25T07:50:09.655988",
+  "last_updated": "2025-02-27T10:04:53.484500",
   "config": "2.7.2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -401,11 +401,11 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.10.2-GTNH",
+      "version": "1.11.3-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.10.28-GTNH",
+      "version": "1.10.30-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
