@@ -9,7 +9,15 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.31-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.53-gtnh --> 1.4.32-gtnh
+## *1.4.32-gtnh*
+>## What's Changed
+>* Fix fluid containers with null empty items not deleting in fluid terminal by @serenibyss in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/267
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.30-gtnh...1.4.32-gtnh
+>
+
 ## *1.4.31-gtnh-pre*
 >## What's Changed
 >* Read NBT tags `combine` and `beSubstitute` from `ItemStack` when converting them to `FluidPattern` by @TwoDCube in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/268
@@ -408,7 +416,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-547-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-548-GTNH
+## *rv3-beta-548-GTNH*
+>## What's Changed
+>* Fix ME Chest accepting Cells with items into its internal inventory by @54M44R in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/681
+>* Ctrl+F feature for Crafting Plan/Tree/Status by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/680
+>
+>## New Contributors
+>* @54M44R made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/681
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-547-GTNH...rv3-beta-548-GTNH
+>
+
 ## *rv3-beta-547-GTNH*
 >## What's Changed
 >* Refactor blocking mode ignore item list by @miozune in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/678
@@ -1503,7 +1522,61 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.154-pre
+# Updated - GT5-Unofficial - 5.09.50.114 --> 5.09.51.156-pre
+## *5.09.51.156-pre*
+>## What's Changed
+>* Allow toggling Antimatter hatch front face insertion with a screwdriver by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3988
+>* add a config to run EEC in peaceful mode by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3990
+>* fix localization of Fish Trap Tooltip by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3992
+>* Fix bowl dupe by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3981
+>* Localization 250223 by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3986
+>* Generate recycling recipes for nuclear gt++ mats by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3993
+>* CoAL recipe changes by @Impos913 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3936
+>* Fix QFT not consuming fluids with stocking hatches by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3994
+>* Localization of structure hints by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3987
+>* Fix Incorrect Tooltip in Compact Fusion Mk1, Mk4 and Mk5 Autoplace Popups by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3996
+>* Restore MTEHatchEnergy inventory size + description constructor by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4000
+>* Distinguish wireless multiamp and wireless laser by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4002
+>* Rename MTE pipes to be more descriptive & cleanup bounding box by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3983
+>* Fixed aDismantleable being Ignored in GTShapelessRecipe by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4007
+>* Localization of fluid chemical formula tooltips in NEI overlay by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3989
+>* Refactor AL recipe system by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3903
+>* Fix BW forms of capsules + refractory capsules having no container item by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3980
+>* Godforge Rehab by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3712
+>* Random deprecations cleanup by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3984
+>* Refactoring GT++ 2025-02-19 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3970
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.154-pre...5.09.51.156-pre
+>
+
+## *5.09.51.155*
+>## What's Changed
+>* Allow toggling Antimatter hatch front face insertion with a screwdriver by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3988
+>* add a config to run EEC in peaceful mode by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3990
+>* fix localization of Fish Trap Tooltip by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3992
+>* Fix bowl dupe by @Ableytner in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3981
+>* Localization 250223 by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3986
+>* Generate recycling recipes for nuclear gt++ mats by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3993
+>* CoAL recipe changes by @Impos913 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3936
+>* Fix QFT not consuming fluids with stocking hatches by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3994
+>* Localization of structure hints by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3987
+>* Fix Incorrect Tooltip in Compact Fusion Mk1, Mk4 and Mk5 Autoplace Popups by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3996
+>* Restore MTEHatchEnergy inventory size + description constructor by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4000
+>* Distinguish wireless multiamp and wireless laser by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4002
+>* Rename MTE pipes to be more descriptive & cleanup bounding box by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3983
+>* Fixed aDismantleable being Ignored in GTShapelessRecipe by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4007
+>* Localization of fluid chemical formula tooltips in NEI overlay by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3989
+>* Refactor AL recipe system by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3903
+>* Fix BW forms of capsules + refractory capsules having no container item by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3980
+>* Godforge Rehab by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3712
+>* Random deprecations cleanup by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3984
+>* Refactoring GT++ 2025-02-19 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3970
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.153...5.09.51.155
+>
+
 ## *5.09.51.154-pre*
 >## What's Changed
 >* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3974
@@ -3277,7 +3350,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.6...1.4.0
 >
 
-# Updated - Galacticraft - 3.2.9-GTNH --> 3.3.4-GTNH
+# Updated - Galacticraft - 3.2.9-GTNH --> 3.3.5-GTNH
+## *3.3.5-GTNH*
+>## What's Changed
+>* Add back Missing Characters in License by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/102
+>* Add config option + Translucency enchant to hide GC gear from rendering on the player body by @Kortako in https://github.com/GTNewHorizons/Galacticraft/pull/103
+>
+>## New Contributors
+>* @Kortako made their first contribution in https://github.com/GTNewHorizons/Galacticraft/pull/103
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.3.4-GTNH...3.3.5-GTNH
+>
+
 ## *3.3.4-GTNH*
 >## What's Changed
 >* Breathing underwater  by @mak8427 in https://github.com/GTNewHorizons/Galacticraft/pull/101
@@ -4109,7 +4193,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.4.6...0.5.0
 >
 
-# Updated - MagicBees - 2.8.5-GTNH --> 2.9.0-GTNH
+# Updated - MagicBees - 2.8.5-GTNH --> 2.9.1-GTNH
+## *2.9.1-GTNH*
+>## What's Changed
+>* Fix hibeescus mana drain by @FrostyFire1 in https://github.com/GTNewHorizons/MagicBees/pull/51
+>
+>## New Contributors
+>* @FrostyFire1 made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/51
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.9.0-GTNH...2.9.1-GTNH
+>
+
 ## *2.9.0-GTNH*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/MagicBees/pull/50
@@ -4342,7 +4436,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NaturesCompass/compare/1.4.4-GTNH...1.4.5-GTNH-pre
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.120-pre
+# Updated - NewHorizonsCoreMod - 2.6.95 --> 2.7.122-pre
+## *2.7.122-pre*
+>## What's Changed
+>* fix wrong recipes in circuit assemblers for preconfigured storage buses by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1211
+>* Adapt to pipe rename by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1210
+>* Coremod updates for Refactoring GT++ 2025-02-19 by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1208
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.120-pre...2.7.122-pre
+>
+
+## *2.7.121*
+>## What's Changed
+>* fix wrong recipes in circuit assemblers for preconfigured storage buses by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1211
+>* Adapt to pipe rename by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1210
+>* Coremod updates for Refactoring GT++ 2025-02-19 by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1208
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.119...2.7.121
+>
+
 ## *2.7.120-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.119...2.7.120-pre
 >
@@ -6484,7 +6598,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.5.1...0.6.0
 >
 
-# Updated - WailaHarvestability - 1.2.1-GTNH --> 1.3.1-GTNH
+# Updated - WailaHarvestability - 1.2.1-GTNH --> 1.3.2-GTNH
+## *1.3.2-GTNH*
+>## What's Changed
+>* Change block name compare to GTUtility.isOre by @RecursivePineapple in https://github.com/GTNewHorizons/WailaHarvestability/pull/8
+>
+>## New Contributors
+>* @RecursivePineapple made their first contribution in https://github.com/GTNewHorizons/WailaHarvestability/pull/8
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WailaHarvestability/compare/1.3.1-GTNH...1.3.2-GTNH
+>
+
 ## *1.3.1-GTNH*
 >## What's Changed
 >* Add missing localization for cutter by @Discreater in https://github.com/GTNewHorizons/WailaHarvestability/pull/7
@@ -6776,8 +6900,30 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.6.8...1.7.0
 >
 
-# Updated - oauth - 1.2.3-GTNH --> 1.3.0-GTNH
+# Updated - oauth - 1.2.3-GTNH --> 1.3.3-GTNH
 Mod is client-side only.
+## *1.3.3-GTNH*
+>## What's Changed
+>* Remove mojang auth by @Lyfts in https://github.com/GTNewHorizons/oauth/pull/8
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/oauth/compare/1.3.1-GTNH...1.3.3-GTNH
+>
+
+## *1.3.2-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/oauth/compare/1.3.1-GTNH...1.3.2-GTNH-pre
+>
+
+## *1.3.1-GTNH*
+>## What's Changed
+>* Fix browser window not opening on some OS' by @Lyfts in https://github.com/GTNewHorizons/oauth/pull/7
+>
+>## New Contributors
+>* @Lyfts made their first contribution in https://github.com/GTNewHorizons/oauth/pull/7
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/oauth/compare/1.3.0-GTNH...1.3.1-GTNH
+>
+
 ## *1.3.0-GTNH*
 >## What's Changed
 >* fix online status text being wrong color due to lighting by @leumasme in https://github.com/GTNewHorizons/oauth/pull/6

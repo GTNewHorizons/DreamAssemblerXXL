@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-02-28T03:43:02.082165",
+  "last_updated": "2025-03-02T03:43:02.854018",
   "config": "2.8.0-nightly-2025-02-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.31-gtnh-pre",
+      "version": "1.4.32-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-547-GTNH",
+      "version": "rv3-beta-548-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.154-pre",
+      "version": "5.09.51.156-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.120-pre",
+      "version": "2.7.122-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -381,7 +381,7 @@
       "side": "BOTH"
     },
     "oauth": {
-      "version": "1.06.1-GTNH",
+      "version": "1.3.3-GTNH",
       "side": "CLIENT"
     },
     "OCGlasses": {
