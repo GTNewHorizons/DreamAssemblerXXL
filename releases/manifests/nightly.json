@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2025-03-02T18:05:27.995538",
+  "last_version": "2.7.3",
+  "last_updated": "2025-03-02T20:10:02.683426",
   "config": "2.8.0-nightly-2025-03-02-3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "Forgelin": {
-      "version": "1.10.0-GTNH",
+      "version": "2.0.0-GTNH",
       "side": "BOTH"
     },
     "ForgeMultipart": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.158-pre",
+      "version": "5.09.51.159-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
