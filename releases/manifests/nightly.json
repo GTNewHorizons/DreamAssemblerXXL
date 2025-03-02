@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.7.2",
-  "last_updated": "2025-03-02T15:24:37.622844",
+  "last_version": "2.7.3",
+  "last_updated": "2025-03-02T17:43:32.797369",
   "config": "2.8.0-nightly-2025-03-02-3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.5.1-GTNH-pre",
+      "version": "2.5.0-GTNH",
       "side": "BOTH"
     },
     "HydroEnergy": {
