@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.7.3",
-  "last_updated": "2025-03-02T13:57:48.742485",
+  "last_version": "2.7.2",
+  "last_updated": "2025-03-02T15:24:37.622844",
   "config": "2.8.0-nightly-2025-03-02-3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BlockLimiter": {
-      "version": "0.6.0",
+      "version": "0.7.0",
       "side": "BOTH"
     },
     "BloodArsenal": {
@@ -137,7 +137,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.4.1-GTNH",
+      "version": "1.4.2-GTNH",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.156-pre",
+      "version": "5.09.51.158-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -253,11 +253,11 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.26",
+      "version": "2.6.27",
       "side": "BOTH"
     },
     "HoloInventory": {
-      "version": "2.5.0-GTNH",
+      "version": "2.5.1-GTNH-pre",
       "side": "BOTH"
     },
     "HydroEnergy": {
@@ -393,7 +393,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.11.10-GTNH",
+      "version": "1.11.11-GTNH-pre",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -701,7 +701,7 @@
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.33",
+      "version": "1.5.34-pre",
       "side": "BOTH"
     },
     "amunra": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.1.5-GTNH",
+      "version": "2.1.6-GTNH",
       "side": "BOTH"
     },
     "Postea": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.25-GTNH",
+      "version": "1.2.26-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
