@@ -209,8 +209,8 @@ Mod is client-side only.
 > * load chunk before & prevent inifinite loop by @Pilzinsel64 in https://github.com/GTNewHorizons/NaturesCompass/pull/10 (1.5.0-GTNH)
 >
 
-# Updated NewHorizonsCoreMod (2.6.95 -->  2.6.98)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.95...2.6.98
+# Updated NewHorizonsCoreMod (2.6.95 -->  2.6.99)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.95...2.6.99
 
 # Updated Nodal-Mechanics (1.2.1-GTNH -->  1.3.0-GTNH)
 **Full Changelog**: https://github.com/GTNewHorizons/Nodal-Mechanics/compare/1.2.1-GTNH...1.3.0-GTNH
