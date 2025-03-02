@@ -23,23 +23,10 @@
 > * fix client world leak by @Glease in https://github.com/GTNewHorizons/Amazing-Trophies/pull/10 (1.3.0)
 >
 
-# Updated Angelica (1.0.0-beta28 -->  1.0.0-beta35)
+# Updated Angelica (1.0.0-beta28 -->  1.0.0-beta29)
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta35
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta28...1.0.0-beta29
 >## What's Changed
-> * Avoid checking frustum visibility of infinite bounding boxes by @embeddedt in https://github.com/GTNewHorizons/Angelica/pull/875 (1.0.0-beta35)
-> * Fix a handful of broken animations by @RecursivePineapple in https://github.com/GTNewHorizons/Angelica/pull/868 (1.0.0-beta35)
-> * Fix PBR specular & normal textures getting ignored by @RecursivePineapple in https://github.com/GTNewHorizons/Angelica/pull/874 (1.0.0-beta35)
-> * Fix IC2 universal cell rendering w/offhand by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/876 (1.0.0-beta35)
-> * Fix crash when keycode is negative by @DarkShadow44 in https://github.com/GTNewHorizons/Angelica/pull/871 (1.0.0-beta34)
-> * Fix issue with dynamic lights world mixin not respecting opaque blocks by @DarkShadow44 in https://github.com/GTNewHorizons/Angelica/pull/872 (1.0.0-beta34)
-> * add offhand support via Backhand (up required version to 1.6.9) by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/859 (1.0.0-beta33)
-> * Fix slider dragging in iris options by @TotallyNotOndre in https://github.com/GTNewHorizons/Angelica/pull/858 (1.0.0-beta32)
-> * Fix any dimension without a sky getting flagged as the nether by @calreveraster in https://github.com/GTNewHorizons/Angelica/pull/857 (1.0.0-beta32)
-> * fix crash when connected textures are disabled & custom colors are enabled by @calreveraster in https://github.com/GTNewHorizons/Angelica/pull/855 (1.0.0-beta31)
-> * Fix shadow render distance reset to 32 by @TotallyNotOndre in https://github.com/GTNewHorizons/Angelica/pull/856 (1.0.0-beta31)
-> * Fix Hodgepodge animation speedup breaking animated textures by @MellowArpeggiation in https://github.com/GTNewHorizons/Angelica/pull/850 (1.0.0-beta30)
-> * Use GTNHLib MemoryUtils instead of the builtin compat ones by @eigenraven in https://github.com/GTNewHorizons/Angelica/pull/853 (1.0.0-beta30)
 > * Remove use of empty build tasks, submit empty data directly to result queue by @embeddedt in https://github.com/GTNewHorizons/Angelica/pull/821 (1.0.0-beta29)
 > * update bs + deps by @Dream-Master in https://github.com/GTNewHorizons/Angelica/pull/823 (1.0.0-beta29)
 > * fix MC-76356 Bold unicode characters appear doubled by @paulzzh in https://github.com/GTNewHorizons/Angelica/pull/834 (1.0.0-beta29)
@@ -77,8 +64,12 @@ Mod is client-side only.
 > * Populate gates creative tab by @andreblanke in https://github.com/GTNewHorizons/BuildCraft/pull/21 (7.1.42)
 >
 
-# Updated CodeChickenCore (1.3.10 -->  1.3.11)
-**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.3.10...1.3.11
+# Updated CodeChickenCore (1.3.10 -->  1.4.1)
+**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.3.10...1.4.1
+>## What's Changed
+> * Improve NPE checks by @mts2200 in https://github.com/GTNewHorizons/CodeChickenCore/pull/26 (1.4.1)
+> * use ZipFile instead of ZipInputStream in ClassDiscoverer by @charagarlnad in https://github.com/GTNewHorizons/CodeChickenCore/pull/25 (1.4.0)
+>
 
 # Updated Draconic-Evolution (1.3.16-GTNH -->  1.3.17-GTNH)
 **Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.16-GTNH...1.3.17-GTNH
@@ -432,4 +423,4 @@ Mod is client-side only.
 >
 
 # Credits
-Special thanks to @0hwx, @andreblanke, @C0bra5, @Caedis, @calreveraster, @Charsy89, @chochem, @czqwq, @DarkShadow44, @Discreater, @DownerCase, @Dream-Master, @eigenraven, @embeddedt, @Ethryan, @FrostyFire1, @Glease, @glowredman, @godrja, @huihiuhuai, @Kynake, @leumasme, @Lyfts, @MellowArpeggiation, @MissBismuth, @mM4ri, @Ogg-Vorbis, @paulzzh, @Pilzinsel64, @RealSilverMoon, @RecursivePineapple, @reobf, @serenibyss, @Shaddaaa, @slprime, @TimeConqueror, @TotallyNotOndre, @YannickMG, @Yoshy2002, @ZombieFreak115, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @andreblanke, @C0bra5, @Caedis, @calreveraster, @charagarlnad, @Charsy89, @chochem, @czqwq, @Discreater, @DownerCase, @Dream-Master, @eigenraven, @embeddedt, @Ethryan, @FrostyFire1, @Glease, @glowredman, @godrja, @huihiuhuai, @Kynake, @leumasme, @Lyfts, @MissBismuth, @mM4ri, @mts2200, @Ogg-Vorbis, @paulzzh, @Pilzinsel64, @RealSilverMoon, @RecursivePineapple, @reobf, @serenibyss, @Shaddaaa, @slprime, @TimeConqueror, @YannickMG, @Yoshy2002, @ZombieFreak115, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
