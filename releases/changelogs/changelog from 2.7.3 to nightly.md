@@ -1317,7 +1317,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.158-pre
+# Updated - Forgelin - 1.10.0-GTNH --> 2.0.0-GTNH
+## *2.0.0-GTNH*
+>## What's Changed
+>* Updates by @Taskeren in https://github.com/GTNewHorizons/Forgelin/pull/11
+>
+>## New Contributors
+>* @Taskeren made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/11
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
+>
+
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.159-pre
+## *5.09.51.159-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.158-pre...5.09.51.159-pre
+>
+
 ## *5.09.51.158-pre*
 >## What's Changed
 >* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3974
