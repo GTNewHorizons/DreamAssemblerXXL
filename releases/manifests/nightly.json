@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2025-03-04T09:36:34.807450",
+  "last_version": "2.7.3",
+  "last_updated": "2025-03-04T13:23:16.363624",
   "config": "2.8.0-nightly-2025-03-04",
   "github_mods": {
     "AdventureBackpack2": {
@@ -633,7 +633,7 @@
       "side": "BOTH"
     },
     "TX-Loader": {
-      "version": "1.8.1",
+      "version": "1.8.0",
       "side": "CLIENT"
     },
     "NotEnoughIds": {
