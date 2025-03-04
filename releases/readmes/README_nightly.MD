@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2025-03-02
+Version nightly is out 2025-03-04
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -342,10 +342,10 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.3.5-GTNH |
 | [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.1.106-GTNH |
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.9.1-GTNH |
-| [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.2 |
+| [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.3 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.51.159-pre |
-| [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.5.34-pre |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.51.161-pre |
+| [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.5.35 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.1 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.6.11 |
 | [Hardcore Darkness](https://www.curseforge.com/minecraft/mc-mods/hardcore-darkness) | 1.7 |
@@ -353,10 +353,10 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.3.1-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.3.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.6.27 |
-| [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.5.0-GTNH |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.6.28 |
+| [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.5.1-GTNH |
 | [Hunger-Overhaul](https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul) | 1.0.0.104 |
-| [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.4.3 |
+| [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.4.4 |
 | [IC2 Crop-Breeding Plugin](https://www.curseforge.com/minecraft/mc-mods/ic2-nei-crop-plugin) | 1.3.1 |
 | [IFU](https://github.com/GTNewHorizons/IFU) | 1.11.1 |
 | [IguanaTweaksTConstruct](https://github.com/GTNewHorizons/IguanaTweaksTConstruct) | 2.6.0 |
@@ -440,7 +440,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Super-TiC](https://github.com/GTNewHorizons/Super-TiC) | 1.4.0 |
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.1.3 |
 | [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.6.15-GTNH |
-| [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.29-beta2 |
+| [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.30 |
 | [TCNEIAdditions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.4.2 |
 | [TCNodeTracker](https://github.com/GTNewHorizons/TCNodeTracker) | 1.3.2 |
 | [Thaumcraft NEI Plugin](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin) | 1.7a |
@@ -464,7 +464,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ToroHealth](https://github.com/GTNewHorizons/ToroHealth) | 1.1.0 |
 | [Translocators](https://github.com/GTNewHorizons/Translocators) | 1.3.0 |
 | [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.7.5 |
-| [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.8.0 |
+| [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.8.1 |
 | [UniLib](https://legacy.curseforge.com/minecraft/mc-mods/unilib) | 1.0.5 |
 | [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.19 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.10.0 |
