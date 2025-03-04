@@ -1328,7 +1328,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.159-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.161-pre
+## *5.09.51.161-pre*
+>## What's Changed
+>* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3974
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.160...5.09.51.161-pre
+>
+
+## *5.09.51.160*
+>## What's Changed
+>* MUI2 MTE base by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3975
+>* Remove Hatch Placement Restriction on Large Thermal Refinery by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4017
+>* Add rotation + some fixes for Lead Lined Box by @mM4ri in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4018
+>* Replace turbine casing textures by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4021
+>* Fix rotation + flipping for GT textures by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4016
+>
+>## New Contributors
+>* @mM4ri made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4018
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.157...5.09.51.160
+>
+
 ## *5.09.51.159-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.158-pre...5.09.51.159-pre
 >
@@ -2803,7 +2825,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.34 --> 1.5.34-pre
+# Updated - GTNH-Intergalactic - 1.4.34 --> 1.5.35
+## *1.5.35*
+>## What's Changed
+>* Merge itemstacks in some assline recipes 3/3 by @FrostyFire1 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/114
+>* Remove override for unused method isSimpleMachine by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/115
+>
+>## New Contributors
+>* @FrostyFire1 made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/114
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.33...1.5.35
+>
+
 ## *1.5.34-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.33...1.5.34-pre
 >
@@ -3288,7 +3321,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.97-GTNH...1.1.100-GTNH
 >
 
-# Updated - Gravitation-Suite-Neo - 1.2.2 --> 1.3.2
+# Updated - Gravitation-Suite-Neo - 1.2.2 --> 1.3.3
+## *1.3.3*
+>## What's Changed
+>* Fix conflict with NHCore by @glowredman in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/25
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.2...1.3.3
+>
+
 ## *1.3.2*
 >## What's Changed
 >* Fix falling with enabled hover mode and holding both jump and sneak key by @kuba6000 in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/24
@@ -3313,7 +3354,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.2.2...1.3.0
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.27
+# Updated - Hodgepodge - 2.5.90 --> 2.6.28
+## *2.6.28*
+>## What's Changed
+>* Small Fixes by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/494
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.27...2.6.28
+>
+
 ## *2.6.27*
 >## What's Changed
 >* Fix client desync with item in hand by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/490
@@ -3536,6 +3585,26 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.82...2.6.0
+>
+
+# Updated - HoloInventory - 2.5.0-GTNH --> 2.5.1-GTNH
+## *2.5.1-GTNH*
+>## What's Changed
+>* Only render overlay in post by @RecursivePineapple in https://github.com/GTNewHorizons/HoloInventory/pull/49
+>
+>## New Contributors
+>* @RecursivePineapple made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/49
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.0-GTNH...2.5.1-GTNH
+>
+
+# Updated - HydroEnergy - 1.4.3 --> 1.4.4
+## *1.4.4*
+>## What's Changed
+>* Small Fixes by @glowredman in https://github.com/GTNewHorizons/HydroEnergy/pull/33
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.3...1.4.4
 >
 
 # Updated - Infernal-Mobs - 1.9.2-GTNH --> 1.10.0-GTNH
@@ -5575,8 +5644,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.3.6...1.4.0
 >
 
-# Updated - TX-Loader - 1.7.3 --> 1.8.0
+# Updated - TX-Loader - 1.7.3 --> 1.8.1
 Mod is client-side only.
+## *1.8.1*
+>## What's Changed
+>* Add Logo and `mcmod.info` by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/15
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.3...1.8.1
+>
+
 ## *1.8.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.2...1.8.0
 >
