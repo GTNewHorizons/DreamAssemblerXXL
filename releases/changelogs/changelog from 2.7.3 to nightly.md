@@ -1344,7 +1344,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.164-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.165-pre
+## *5.09.51.165-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.164-pre...5.09.51.165-pre
+>
+
 ## *5.09.51.164-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.163-pre...5.09.51.164-pre
 >
@@ -3631,17 +3635,6 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.82...2.6.0
 >
 
-# Updated - HoloInventory - 2.5.0-GTNH --> 2.5.1-GTNH
-## *2.5.1-GTNH*
->## What's Changed
->* Only render overlay in post by @RecursivePineapple in https://github.com/GTNewHorizons/HoloInventory/pull/49
->
->## New Contributors
->* @RecursivePineapple made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/49
->
->**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.0-GTNH...2.5.1-GTNH
->
-
 # Updated - HydroEnergy - 1.4.3 --> 1.4.4
 ## *1.4.4*
 >## What's Changed
@@ -5705,16 +5698,8 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.3.6...1.4.0
 >
 
-# Updated - TX-Loader - 1.7.3 --> 1.8.1
+# Updated - TX-Loader - 1.7.3 --> 1.8.0
 Mod is client-side only.
-## *1.8.1*
->## What's Changed
->* Add Logo and `mcmod.info` by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/15
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.3...1.8.1
->
-
 ## *1.8.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.2...1.8.0
 >
