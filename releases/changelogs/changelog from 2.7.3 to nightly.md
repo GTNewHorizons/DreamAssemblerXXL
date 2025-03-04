@@ -897,7 +897,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.6.9...1.7.0
 >
 
-# Updated - Botania - 1.11.7-GTNH --> 1.12.5-GTNH
+# Updated - Botania - 1.11.7-GTNH --> 1.12.6-GTNH
+## *1.12.6-GTNH*
+>## What's Changed
+>* Update build by @miozune in https://github.com/GTNewHorizons/Botania/pull/76
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.5-GTNH...1.12.6-GTNH
+>
+
 ## *1.12.5-GTNH*
 >## What's Changed
 >* Small Cleanup by @glowredman in https://github.com/GTNewHorizons/Botania/pull/68
@@ -1032,7 +1040,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.3.8-GTNH...1.4.0-GTNH
 >
 
-# Updated - Crops-plus-plus - 1.7.14 --> 1.8.7
+# Updated - Crops-plus-plus - 1.7.14 --> 1.8.8
+## *1.8.8*
+>## What's Changed
+>* Cleanup deprecated / unused methods by @miozune in https://github.com/GTNewHorizons/Crops-plus-plus/pull/91
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.7...1.8.8
+>
+
 ## *1.8.7*
 >## What's Changed
 >* Change recipes to the optimized version by @StaffiX in https://github.com/GTNewHorizons/Crops-plus-plus/pull/90
@@ -1328,7 +1344,35 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.161-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.164-pre
+## *5.09.51.164-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.163-pre...5.09.51.164-pre
+>
+
+## *5.09.51.163-pre*
+>## What's Changed
+>* Localization 250303 by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4019
+>* Re-enable wire up and down crafting for lategame wires by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3997
+>* Fix level8 Purification Unit not consume ME inputs on successful catalyst insertion by @reobf in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4010
+>* Better handle capacityless fluid containers by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4015
+>* Take DTPF catalyst discount into account on recipecheck by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4006
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.161-pre...5.09.51.163-pre
+>
+
+## *5.09.51.162*
+>## What's Changed
+>* Localization 250303 by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4019
+>* Re-enable wire up and down crafting for lategame wires by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3997
+>* Fix level8 Purification Unit not consume ME inputs on successful catalyst insertion by @reobf in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4010
+>* Better handle capacityless fluid containers by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4015
+>* Take DTPF catalyst discount into account on recipecheck by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4006
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.160...5.09.51.162
+>
+
 ## *5.09.51.161-pre*
 >## What's Changed
 >* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3974
@@ -3937,6 +3981,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.4.6...1.5.0
 >
 
+# Updated - LogisticsPipes - 1.3.4-GTNH --> 1.3.5-GTNH-pre
+## *1.3.5-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.3.4-GTNH...1.3.5-GTNH-pre
+>
+
 # Updated - LootGames - 2.1.4 --> 2.2.0
 ## *2.2.0*
 >## What's Changed
@@ -4153,7 +4202,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.125-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.126-pre
+## *2.7.126-pre*
+>## What's Changed
+>* Merge itemstacks in some assline recipes 2/3 by @FrostyFire1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1214
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.125-pre...2.7.126-pre
+>
+
 ## *2.7.125-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.123-pre...2.7.125-pre
 >
@@ -5426,7 +5483,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.15...9.16.0
 >
 
-# New Mod - Salis-Arcana:1.1.3-GTNH
+# New Mod - Salis-Arcana:1.1.4-GTNH
+## *1.1.4-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.3-GTNH...1.1.4-GTNH
+>
+
 ## *1.1.3-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.2-GTNH...1.1.3-GTNH
 >
@@ -5979,7 +6040,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.11.7...1.11.8-pre
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.6.3-GTNH-pre
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.6.4-GTNH-pre
+## *1.6.4-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.6.3-GTNH-pre...1.6.4-GTNH-pre
+>
+
 ## *1.6.3-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.6.2-GTNH-pre...1.6.3-GTNH-pre
 >
