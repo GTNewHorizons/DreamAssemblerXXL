@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.7.3",
-  "last_updated": "2025-03-04T09:18:53.378064",
+  "last_updated": "2025-03-04T09:25:54.986831",
   "config": "2.8.0-nightly-2025-03-02-3",
   "github_mods": {
     "AdventureBackpack2": {
@@ -899,7 +899,7 @@
       "side": "BOTH"
     },
     "UniMixins": {
-      "version": "0.1.19",
+      "version": "0.1.20",
       "side": "BOTH"
     },
     "CoreTweaks": {
