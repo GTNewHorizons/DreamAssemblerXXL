@@ -1344,7 +1344,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.165-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.166-pre
+## *5.09.51.166-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.165-pre...5.09.51.166-pre
+>
+
 ## *5.09.51.165-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.164-pre...5.09.51.165-pre
 >
@@ -3402,7 +3406,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.2.2...1.3.0
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.28
+# Updated - Hodgepodge - 2.5.90 --> 2.6.29
+## *2.6.29*
+>## What's Changed
+>* Stop searching the same file multiple times for languages. by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/495
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.28...2.6.29
+>
+
 ## *2.6.28*
 >## What's Changed
 >* Small Fixes by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/494
