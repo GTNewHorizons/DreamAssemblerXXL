@@ -320,7 +320,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-548-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-549-GTNH
+## *rv3-beta-549-GTNH*
+>## What's Changed
+>* Remove internal packet size limit by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/683
+>* Fix GT sound acquisition by @serenibyss in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/685
+>* Fix memory leak with WAILA by @amyavi in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/684
+>
+>## New Contributors
+>* @amyavi made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/684
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-548-GTNH...rv3-beta-549-GTNH
+>
+
 ## *rv3-beta-548-GTNH*
 >## What's Changed
 >* Fix ME Chest accepting Cells with items into its internal inventory by @54M44R in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/681
@@ -3140,7 +3152,26 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.5.0
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.11
+# Updated - GTNHLib - 0.5.23 --> 0.6.13
+## *0.6.13*
+>## What's Changed
+>* Notify client of servers view distance by @Lyfts in https://github.com/GTNewHorizons/GTNHLib/pull/116
+>* Move LoreHolder registration to a later init stage by @Lyfts in https://github.com/GTNewHorizons/GTNHLib/pull/118
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.12...0.6.13
+>
+
+## *0.6.12*
+>## What's Changed
+>* Add mixin to register LivingEquipmentChangeEvent by @FourIsTheNumber in https://github.com/GTNewHorizons/GTNHLib/pull/117
+>
+>## New Contributors
+>* @FourIsTheNumber made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/117
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.11...0.6.12
+>
+
 ## *0.6.11*
 >## What's Changed
 >* Introduce Capability system by @miozune in https://github.com/GTNewHorizons/GTNHLib/pull/112
@@ -3986,7 +4017,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.4.6...1.5.0
 >
 
-# Updated - LogisticsPipes - 1.3.4-GTNH --> 1.3.5-GTNH-pre
+# Updated - LogisticsPipes - 1.3.4-GTNH --> 1.4.0-GTNH
+## *1.4.0-GTNH*
+>## What's Changed
+>* Fix memory leak in server packet decompressor by @amyavi in https://github.com/GTNewHorizons/LogisticsPipes/pull/81
+>
+>## New Contributors
+>* @amyavi made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/81
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.3.6-GTNH...1.4.0-GTNH
+>
+
+## *1.3.6-GTNH*
+>## What's Changed
+>* Fixing NoSuchMethodError in PipeFluidSupplierMk2.addUIWidget() by @godrja in https://github.com/GTNewHorizons/LogisticsPipes/pull/80
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.3.4-GTNH...1.3.6-GTNH
+>
+
 ## *1.3.5-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.3.4-GTNH...1.3.5-GTNH-pre
 >
@@ -4111,7 +4160,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/compare/2.2.4...2.3.0
 >
 
-# Updated - Mobs-Info - 0.4.7-GTNH --> 0.5.1-GTNH
+# Updated - Mobs-Info - 0.4.7-GTNH --> 0.5.2-GTNH
+## *0.5.2-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.1-GTNH...0.5.2-GTNH
+>
+
 ## *0.5.1-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.0-GTNH...0.5.1-GTNH
 >
@@ -5710,8 +5763,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.3.6...1.4.0
 >
 
-# Updated - TX-Loader - 1.7.3 --> 1.8.0
+# Updated - TX-Loader - 1.7.3 --> 1.8.2
 Mod is client-side only.
+## *1.8.2*
+>## What's Changed
+>* Add Logo and `mcmod.info` by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/15
+>* Fix Metadata not working outside of the Development Environment by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/16
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.3...1.8.2
+>
+
 ## *1.8.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.2...1.8.0
 >
