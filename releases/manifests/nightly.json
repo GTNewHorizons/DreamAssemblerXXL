@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-06T03:44:03.453016",
-  "config": "2.8.0-nightly-2025-03-04",
+  "last_updated": "2025-03-07T03:44:42.382441",
+  "config": "2.8.0-nightly-2025-03-06",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.5-GTNH",
