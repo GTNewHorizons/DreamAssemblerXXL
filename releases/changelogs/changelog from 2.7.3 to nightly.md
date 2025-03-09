@@ -1,9 +1,11 @@
 # New Mods: 
+> * Darkerer
 > * Et Futurum Requiem
 > * InventoryBogoSorter
 > * MatterManipulator
 > * Salis-Arcana
 # Mods Removed: 
+> * Hardcore Darkness
 > * MouseTweaks
 > * ThaumicInventoryScanning
 > * Travellers Gear
@@ -258,8 +260,32 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
-# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta35
+# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta37
 Mod is client-side only.
+## *1.0.0-beta37*
+>## What's Changed
+>* add an API to retrieve world instance from WorldSlice by @Glease in https://github.com/GTNewHorizons/Angelica/pull/897
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta36...1.0.0-beta37
+>
+
+## *1.0.0-beta36*
+>## What's Changed
+>* Update GTNHLib dependency version in README by @OBlankenship in https://github.com/GTNewHorizons/Angelica/pull/885
+>* Optimize NEI rendering by @RecursivePineapple in https://github.com/GTNewHorizons/Angelica/pull/882
+>* Various Mixin-related Fixes by @glowredman in https://github.com/GTNewHorizons/Angelica/pull/890
+>* Fix hologlasses crash by @RecursivePineapple in https://github.com/GTNewHorizons/Angelica/pull/891
+>* Catch CancellationException while building chunks by @amyavi in https://github.com/GTNewHorizons/Angelica/pull/889
+>* Add an option to disable terrain fog by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/896
+>
+>## New Contributors
+>* @OBlankenship made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/885
+>* @amyavi made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/889
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta35...1.0.0-beta36
+>
+
 ## *1.0.0-beta35*
 >## What's Changed
 >* Avoid checking frustum visibility of infinite bounding boxes by @embeddedt in https://github.com/GTNewHorizons/Angelica/pull/875
@@ -320,7 +346,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-549-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-550-GTNH-pre
+## *rv3-beta-550-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-549-GTNH...rv3-beta-550-GTNH-pre
+>
+
 ## *rv3-beta-549-GTNH*
 >## What's Changed
 >* Remove internal packet size limit by @eigenraven in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/683
@@ -806,7 +836,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/compare/0.6.0...0.7.0
 >
 
-# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.2
+# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.3-pre
+## *1.3.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.2...1.3.3-pre
+>
+
 ## *1.3.2*
 >## What's Changed
 >* Make gt multiblocks able to better modify their preview by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/26
@@ -1052,7 +1086,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.3.8-GTNH...1.4.0-GTNH
 >
 
-# Updated - Crops-plus-plus - 1.7.14 --> 1.8.8
+# Updated - Crops-plus-plus - 1.7.14 --> 1.8.9
+## *1.8.9*
+>## What's Changed
+>* Use formatNumbers instead of parseNumberToString by @miozune in https://github.com/GTNewHorizons/Crops-plus-plus/pull/92
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.8...1.8.9
+>
+
 ## *1.8.8*
 >## What's Changed
 >* Cleanup deprecated / unused methods by @miozune in https://github.com/GTNewHorizons/Crops-plus-plus/pull/91
@@ -1125,7 +1167,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.7.13...1.8.0
 >
 
-# Updated - Draconic-Evolution - 1.3.17-GTNH --> 1.4.6-GTNH
+# New Mod - Darkerer:1.0.4
+## *1.0.4*
+>**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.3...1.0.4
+>
+
+## *1.0.3*
+>**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.2...1.0.3
+>
+
+# Updated - Draconic-Evolution - 1.3.17-GTNH --> 1.4.7-GTNH-pre
+## *1.4.7-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.6-GTNH...1.4.7-GTNH-pre
+>
+
 ## *1.4.6-GTNH*
 >## What's Changed
 >* Fix OpenComputers component not properly loaded for Particle Generator (and probably other components) by @YamiKami-Sama in https://github.com/GTNewHorizons/Draconic-Evolution/pull/63
@@ -1307,7 +1362,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.7.1-GTNH...0.8.0-GTNH
 >
 
-# Updated - ForestryMC - 4.9.22 --> 4.10.3
+# Updated - ForestryMC - 4.9.22 --> 4.10.4-pre
+## *4.10.4-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.3...4.10.4-pre
+>
+
 ## *4.10.3*
 >## What's Changed
 >* Add missing localization by @Discreater in https://github.com/GTNewHorizons/ForestryMC/pull/89
@@ -1366,7 +1425,38 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.166-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.168-pre
+## *5.09.51.168-pre*
+>## What's Changed
+>* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3974
+>* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4043
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.167...5.09.51.168-pre
+>
+
+## *5.09.51.167*
+>## What's Changed
+>* Cleanup by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4023
+>* Merge itemstacks in some assline recipes 1/3 by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4008
+>* Conceptually merge cover info and cover behavior. by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3995
+>* Fix cover GUI by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4026
+>* Fix Cover refactor mistakes by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4027
+>* Merge MTEBrickedBlastFurnace and MTEPrimitiveBlastFurnace by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4028
+>* Require sneaking to place cover by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4031
+>* fix catalyst for crude rhodium in QFT by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4030
+>* Supplement locale by @ChromaPIE in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4024
+>* Fix Fluid Regulator covers pipe connection by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4034
+>* Fix Shutter cover crash by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4035
+>* Simplify parallel calculations and tooltip for multi smelter by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4029
+>* Fix black hole utility hatch gui not opening by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4041
+>
+>## New Contributors
+>* @ChromaPIE made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4024
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.162...5.09.51.167
+>
+
 ## *5.09.51.166-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.165-pre...5.09.51.166-pre
 >
@@ -3447,7 +3537,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.2.2...1.3.0
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.29
+# Updated - Hodgepodge - 2.5.90 --> 2.6.30
+## *2.6.30*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.29...2.6.30
+>
+
 ## *2.6.29*
 >## What's Changed
 >* Stop searching the same file multiple times for languages. by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/495
@@ -3688,6 +3782,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.82...2.6.0
 >
 
+# Updated - HoloInventory - 2.5.0-GTNH --> 2.5.1-GTNH
+## *2.5.1-GTNH*
+>## What's Changed
+>* Only render overlay in post by @RecursivePineapple in https://github.com/GTNewHorizons/HoloInventory/pull/49
+>
+>## New Contributors
+>* @RecursivePineapple made their first contribution in https://github.com/GTNewHorizons/HoloInventory/pull/49
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.0-GTNH...2.5.1-GTNH
+>
+
 # Updated - HydroEnergy - 1.4.3 --> 1.4.4
 ## *1.4.4*
 >## What's Changed
@@ -3697,7 +3802,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.3...1.4.4
 >
 
-# Updated - Infernal-Mobs - 1.9.2-GTNH --> 1.10.0-GTNH
+# Updated - Infernal-Mobs - 1.9.2-GTNH --> 1.10.1-GTNH-pre
+## *1.10.1-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.10.0-GTNH...1.10.1-GTNH-pre
+>
+
 ## *1.10.0-GTNH*
 >## What's Changed
 >* Move mob name above healthbar and adjust name colors by @wlhlm in https://github.com/GTNewHorizons/Infernal-Mobs/pull/18
@@ -4270,7 +4379,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.126-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.128-pre
+## *2.7.128-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.127...2.7.128-pre
+>
+
+## *2.7.127*
+>## What's Changed
+>* Merge itemstacks in some assline recipes 2/3 by @FrostyFire1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1214
+>* New batch ( and I think last one of simple recipes) by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1213
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.124...2.7.127
+>
+
 ## *2.7.126-pre*
 >## What's Changed
 >* Merge itemstacks in some assline recipes 2/3 by @FrostyFire1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1214
@@ -5357,7 +5479,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.51-GTNH...2.7.0-GTNH
 >
 
-# Updated - Nutrition - 0.0.13 --> 0.1.0
+# Updated - Nutrition - 0.0.13 --> 0.1.1
+## *0.1.1*
+>## What's Changed
+>* add moceatures ratburger to grains by @xronin01 in https://github.com/GTNewHorizons/Nutrition/pull/26
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Nutrition/compare/0.1.0...0.1.1
+>
+
 ## *0.1.0*
 >## What's Changed
 >* Fix MoCreatures and add etfutrum by @xronin01 in https://github.com/GTNewHorizons/Nutrition/pull/25
@@ -5595,7 +5725,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.7 --> 2.1.29
+# Updated - ServerUtilities - 2.1.7 --> 2.1.30
+## *2.1.30*
+>## What's Changed
+>* Fix `/home <name> <player>` tping the wrong player by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/195
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.29...2.1.30
+>
+
 ## *2.1.29*
 >## What's Changed
 >* Fix backup failing when encountering renamed region files by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/190
@@ -5755,6 +5893,17 @@ Mod is client-side only.
 
 ## *2.1.8-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.7...2.1.8-pre
+>
+
+# Updated - Share-Where-I-am - 2.1.2 --> 2.1.3
+## *2.1.3*
+>## What's Changed
+>* Fix keybind not being registered by @miozune in https://github.com/GTNewHorizons/Share-Where-I-am/pull/6
+>
+>## New Contributors
+>* @miozune made their first contribution in https://github.com/GTNewHorizons/Share-Where-I-am/pull/6
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/2.1.2...2.1.3
 >
 
 # Updated - StructureLib - 1.3.6 --> 1.4.3-pre
@@ -5974,7 +6123,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.10.2...2.11.0
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.9-GTNH
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.10-GTNH
+## *1.13.10-GTNH*
+>## What's Changed
+>* Set tinker tool pickup delay to standard 10 ticks by @serenibyss in https://github.com/GTNewHorizons/TinkersConstruct/pull/153
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/153
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.9-GTNH...1.13.10-GTNH
+>
+
 ## *1.13.9-GTNH*
 >## What's Changed
 >* Improve localization for tools by @ChromaPIE in https://github.com/GTNewHorizons/TinkersConstruct/pull/151
@@ -6120,7 +6279,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.11.7...1.11.8-pre
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.6.4-GTNH-pre
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.6.5-GTNH-pre
+## *1.6.5-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.6.4-GTNH-pre...1.6.5-GTNH-pre
+>
+
 ## *1.6.4-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.6.3-GTNH-pre...1.6.4-GTNH-pre
 >
