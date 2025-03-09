@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-08T03:33:54.411488",
+  "last_updated": "2025-03-09T03:34:29.265381",
   "config": "2.8.0-nightly-2025-03-06",
   "github_mods": {
     "AdventureBackpack2": {
@@ -165,7 +165,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.4.5-GTNH",
+      "version": "1.4.6-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "Nutrition": {
-      "version": "0.0.13",
+      "version": "0.1.0",
       "side": "BOTH"
     },
     "Default-Configs": {

@@ -1125,7 +1125,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.7.13...1.8.0
 >
 
-# Updated - Draconic-Evolution - 1.3.17-GTNH --> 1.4.5-GTNH
+# Updated - Draconic-Evolution - 1.3.17-GTNH --> 1.4.6-GTNH
+## *1.4.6-GTNH*
+>## What's Changed
+>* Fix OpenComputers component not properly loaded for Particle Generator (and probably other components) by @YamiKami-Sama in https://github.com/GTNewHorizons/Draconic-Evolution/pull/63
+>
+>## New Contributors
+>* @YamiKami-Sama made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/63
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.5-GTNH...1.4.6-GTNH
+>
+
 ## *1.4.5-GTNH*
 >## What's Changed
 >* Add Dislocator Inhibitor by @Shadow1590 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/60
@@ -5345,6 +5355,17 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.51-GTNH...2.7.0-GTNH
+>
+
+# Updated - Nutrition - 0.0.13 --> 0.1.0
+## *0.1.0*
+>## What's Changed
+>* Fix MoCreatures and add etfutrum by @xronin01 in https://github.com/GTNewHorizons/Nutrition/pull/25
+>
+>## New Contributors
+>* @xronin01 made their first contribution in https://github.com/GTNewHorizons/Nutrition/pull/25
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Nutrition/compare/0.0.13...0.1.0
 >
 
 # Updated - OCGlasses - 1.5.1-GTNH --> 1.6.0-GTNH
