@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.7.3",
-  "last_updated": "2025-03-09T21:55:59.832389",
+  "last_updated": "2025-03-09T22:00:39.302407",
   "config": "2.8.0-nightly-2025-03-09",
   "github_mods": {
     "AdventureBackpack2": {
@@ -837,10 +837,6 @@
     "IC2 Crop-Breeding Plugin": {
       "version": "1.3.1",
       "side": "CLIENT"
-    },
-    "Hardcore Darkness": {
-      "version": "1.7",
-      "side": "BOTH"
     },
     "CoFH Core": {
       "version": "3.1.4-329",
