@@ -260,8 +260,16 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
-# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta37
+# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta38
 Mod is client-side only.
+## *1.0.0-beta38*
+>## What's Changed
+>* Update dependencies & build script by @RecursivePineapple in https://github.com/GTNewHorizons/Angelica/pull/899
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta37...1.0.0-beta38
+>
+
 ## *1.0.0-beta37*
 >## What's Changed
 >* add an API to retrieve world instance from WorldSlice by @Glease in https://github.com/GTNewHorizons/Angelica/pull/897
