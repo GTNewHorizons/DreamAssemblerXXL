@@ -1370,7 +1370,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.7.1-GTNH...0.8.0-GTNH
 >
 
-# Updated - ForestryMC - 4.9.22 --> 4.10.4-pre
+# Updated - ForestryMC - 4.9.22 --> 4.10.5
+## *4.10.5*
+>## What's Changed
+>* Fix alveary climate logic by @Demiu in https://github.com/GTNewHorizons/ForestryMC/pull/90
+>
+>## New Contributors
+>* @Demiu made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/90
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.3...4.10.5
+>
+
 ## *4.10.4-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.3...4.10.4-pre
 >
@@ -4209,7 +4219,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.4.6...0.5.0
 >
 
-# New Mod - MatterManipulator:0.0.22-GTNH
+# New Mod - MatterManipulator:0.0.23-GTNH
+## *0.0.23-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.22-GTNH...0.0.23-GTNH
+>
+
 ## *0.0.22-GTNH*
 >## What's Changed
 >* Move recipes to coremod by @serenibyss in https://github.com/GTNewHorizons/MatterManipulator/pull/3
@@ -5914,7 +5928,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/2.1.2...2.1.3
 >
 
-# Updated - StructureLib - 1.3.6 --> 1.4.3-pre
+# Updated - StructureLib - 1.3.6 --> 1.4.5-pre
+## *1.4.5-pre*
+>## What's Changed
+>* fix unbreakable warded glass by @Glease in https://github.com/GTNewHorizons/StructureLib/pull/37
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.2...1.4.5-pre
+>
+
+## *1.4.4*
+>## What's Changed
+>* fix unbreakable warded glass by @Glease in https://github.com/GTNewHorizons/StructureLib/pull/37
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.2...1.4.4
+>
+
 ## *1.4.3-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.2...1.4.3-pre
 >

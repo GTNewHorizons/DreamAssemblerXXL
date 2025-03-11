@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-10T03:34:55.097593",
+  "last_updated": "2025-03-11T03:44:59.706050",
   "config": "2.8.0-nightly-2025-03-09",
   "github_mods": {
     "AdventureBackpack2": {
@@ -205,7 +205,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.10.4-pre",
+      "version": "4.10.5",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -489,7 +489,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.3-pre",
+      "version": "1.4.5-pre",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.0.22-GTNH",
+      "version": "0.0.23-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
