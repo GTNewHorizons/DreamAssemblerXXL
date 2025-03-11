@@ -1443,7 +1443,47 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.168-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.172-pre
+## *5.09.51.172-pre*
+>## What's Changed
+>* Fix ZPM Hull Recycling by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4050
+>* migrate fusion recipe startup energy thresholds to use long by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4047
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.171-pre...5.09.51.172-pre
+>
+
+## *5.09.51.171-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.170-pre...5.09.51.171-pre
+>
+
+## *5.09.51.170-pre*
+>## What's Changed
+>* Add recipes for tiny GTPP pipes by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4044
+>* Fix non gt item covers not working when sneaking by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4045
+>* Localization of item tooltips by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4040
+>* Added the ability to filter outputs to ME Output Bus and Hatch by @Diamantino-Op in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3828
+>* Spotless apply for branch feature/fusion-long for #4047 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4049
+>
+>## New Contributors
+>* @Diamantino-Op made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3828
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.168-pre...5.09.51.170-pre
+>
+
+## *5.09.51.169*
+>## What's Changed
+>* Add recipes for tiny GTPP pipes by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4044
+>* Fix non gt item covers not working when sneaking by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4045
+>* Localization of item tooltips by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4040
+>* Added the ability to filter outputs to ME Output Bus and Hatch by @Diamantino-Op in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3828
+>
+>## New Contributors
+>* @Diamantino-Op made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3828
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.167...5.09.51.169
+>
+
 ## *5.09.51.168-pre*
 >## What's Changed
 >* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3974
@@ -4154,7 +4194,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.4.6...1.5.0
 >
 
-# Updated - LogisticsPipes - 1.3.4-GTNH --> 1.4.0-GTNH
+# Updated - LogisticsPipes - 1.3.4-GTNH --> 1.4.1-GTNH
+## *1.4.1-GTNH*
+>## What's Changed
+>* Fix: Client crashes when inserting renamed crafting module into chassis. by @godrja in https://github.com/GTNewHorizons/LogisticsPipes/pull/82
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.0-GTNH...1.4.1-GTNH
+>
+
 ## *1.4.0-GTNH*
 >## What's Changed
 >* Fix memory leak in server packet decompressor by @amyavi in https://github.com/GTNewHorizons/LogisticsPipes/pull/81
@@ -5677,7 +5725,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.3
+# Updated - Railcraft - 9.15.17 --> 9.16.4
+## *9.16.4*
+>## What's Changed
+>* Fix Water Tank string when using a Crafting Station by @Maratons4 in https://github.com/GTNewHorizons/Railcraft/pull/71
+>
+>## New Contributors
+>* @Maratons4 made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/71
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.3...9.16.4
+>
+
 ## *9.16.3*
 >## What's Changed
 >* Adjust harvest level for water tank and coke oven brick by @Caedis in https://github.com/GTNewHorizons/Railcraft/pull/69
@@ -5928,7 +5986,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/2.1.2...2.1.3
 >
 
-# Updated - StructureLib - 1.3.6 --> 1.4.5-pre
+# Updated - StructureLib - 1.3.6 --> 1.4.6
+## *1.4.6*
+>## What's Changed
+>* channel configure ui tweaks by @Glease in https://github.com/GTNewHorizons/StructureLib/pull/35
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.4...1.4.6
+>
+
 ## *1.4.5-pre*
 >## What's Changed
 >* fix unbreakable warded glass by @Glease in https://github.com/GTNewHorizons/StructureLib/pull/37
@@ -6132,7 +6198,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.0...1.7.1
 >
 
-# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.2
+# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.4
+## *2.11.4*
+>## What's Changed
+>* close container if parent item is gone by @Glease in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/45
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.2...2.11.4
+>
+
+## *2.11.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.2...2.11.3-pre
+>
+
 ## *2.11.2*
 >## What's Changed
 >* Essentia Funnel Bugfix by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/44
@@ -6444,6 +6522,15 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.2.3-GTNH...1.3.0-GTNH
+>
+
+# Updated - ironchest - 6.1.1 --> 6.1.2
+## *6.1.2*
+>## What's Changed
+>* New textures by krezhvick by @Caedis in https://github.com/GTNewHorizons/ironchest/pull/27
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.1.1...6.1.2
 >
 
 # Updated - nei-custom-diagram - 1.6.8 --> 1.7.5
