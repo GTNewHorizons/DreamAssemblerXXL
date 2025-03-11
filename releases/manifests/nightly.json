@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-11T13:13:33.288171",
+  "last_updated": "2025-03-11T15:04:12.449082",
   "config": "2.8.0-nightly-2025-03-09",
   "github_mods": {
     "AdventureBackpack2": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.170-pre",
+      "version": "5.09.51.172-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -489,7 +489,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.5-pre",
+      "version": "1.4.6",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -537,7 +537,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.11.3-pre",
+      "version": "2.11.4",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
