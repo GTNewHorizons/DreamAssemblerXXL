@@ -354,7 +354,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-550-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-551-GTNH
+## *rv3-beta-551-GTNH*
+>## What's Changed
+>* add ME controller + Creative Energy cell in one block by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/686
+>* Make AE2 cell restrictions respect copy mode  by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/689
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-549-GTNH...rv3-beta-551-GTNH
+>
+
 ## *rv3-beta-550-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-549-GTNH...rv3-beta-550-GTNH-pre
 >
@@ -4449,7 +4458,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.128-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.129-pre
+## *2.7.129-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.128-pre...2.7.129-pre
+>
+
 ## *2.7.128-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.127...2.7.128-pre
 >
