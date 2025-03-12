@@ -1193,7 +1193,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.2...1.0.3
 >
 
-# Updated - Draconic-Evolution - 1.3.17-GTNH --> 1.4.7-GTNH-pre
+# Updated - Draconic-Evolution - 1.3.17-GTNH --> 1.4.8-GTNH-pre
+## *1.4.8-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.7-GTNH-pre...1.4.8-GTNH-pre
+>
+
 ## *1.4.7-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.6-GTNH...1.4.7-GTNH-pre
 >
@@ -1452,7 +1456,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.174-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.175-pre
+## *5.09.51.175-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.174-pre...5.09.51.175-pre
+>
+
 ## *5.09.51.174-pre*
 >## What's Changed
 >* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3974
@@ -4379,7 +4387,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.4.3-GTNH...2.5.0-GTNH
 >
 
-# Updated - Minetweaker-Gregtech-5-Addon - 2.2.4 --> 2.3.0
+# Updated - Minetweaker-Gregtech-5-Addon - 2.2.4 --> 2.3.1
+## *2.3.1*
+>## What's Changed
+>* Fix fusion threshold by @serenibyss in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/71
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/71
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/compare/2.3.0...2.3.1
+>
+
 ## *2.3.0*
 >## What's Changed
 >* Remove recipe optimization by @StaffiX in https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon/pull/70
@@ -4490,7 +4508,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.131-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.132-pre
+## *2.7.132-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.131-pre...2.7.132-pre
+>
+
 ## *2.7.131-pre*
 >## What's Changed
 >* Add recipe for creative ME controller by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1217
@@ -5867,7 +5889,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.7 --> 2.1.30
+# Updated - ServerUtilities - 2.1.7 --> 2.1.31
+## *2.1.31*
+>## What's Changed
+>* Fix empty server teams unable to force-load chunks by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/197
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.30...2.1.31
+>
+
 ## *2.1.30*
 >## What's Changed
 >* Fix `/home <name> <player>` tping the wrong player by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/195
