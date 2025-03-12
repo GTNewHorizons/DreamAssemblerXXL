@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-11T15:04:12.449082",
+  "last_updated": "2025-03-12T03:44:43.646995",
   "config": "2.8.0-nightly-2025-03-09",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-550-GTNH-pre",
+      "version": "rv3-beta-551-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.172-pre",
+      "version": "5.09.51.174-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.13",
+      "version": "0.6.14",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.128-pre",
+      "version": "2.7.131-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
