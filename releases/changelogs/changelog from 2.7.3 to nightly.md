@@ -1452,7 +1452,31 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.172-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.174-pre
+## *5.09.51.174-pre*
+>## What's Changed
+>* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3974
+>* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4043
+>* Fix Synchotron and Source Chamber block rendering issue by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4054
+>* Godforge graviton shard related fixes by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4048
+>* Add rotation support to the Bacterial Vat by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4012
+>* Fix texture orientation for some machine controllers by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4033
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.173...5.09.51.174-pre
+>
+
+## *5.09.51.173*
+>## What's Changed
+>* Fix ZPM Hull Recycling by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4050
+>* migrate fusion recipe startup energy thresholds to use long by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4047
+>* Implement survival autoplace for tectech machines by @OmdaCZ in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4053
+>* Refactor pipe registration & move item pipes from coremod by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4022
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.169...5.09.51.173
+>
+
 ## *5.09.51.172-pre*
 >## What's Changed
 >* Fix ZPM Hull Recycling by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4050
@@ -3319,7 +3343,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.5.0
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.13
+# Updated - GTNHLib - 0.5.23 --> 0.6.14
+## *0.6.14*
+>## What's Changed
+>* Updates for IStateStack by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/120
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.13...0.6.14
+>
+
 ## *0.6.13*
 >## What's Changed
 >* Notify client of servers view distance by @Lyfts in https://github.com/GTNewHorizons/GTNHLib/pull/116
@@ -4458,7 +4490,24 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.129-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.131-pre
+## *2.7.131-pre*
+>## What's Changed
+>* Add recipe for creative ME controller by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1217
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.130...2.7.131-pre
+>
+
+## *2.7.130*
+>## What's Changed
+>* Move item pipes to GT by @miozune in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1215
+>* Fix fusion threshold values by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1218
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.127...2.7.130
+>
+
 ## *2.7.129-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.128-pre...2.7.129-pre
 >
