@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-12T11:30:04.253859",
+  "last_updated": "2025-03-13T03:47:46.383549",
   "config": "2.8.0-nightly-2025-03-12",
   "github_mods": {
     "AdventureBackpack2": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.6.5-GTNH-pre",
+      "version": "1.6.6-GTNH-pre",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -765,7 +765,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.2.4-1.7.10",
+      "version": "2.2.5-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {

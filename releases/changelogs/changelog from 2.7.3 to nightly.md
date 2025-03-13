@@ -4421,7 +4421,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.4-1.7.10
+# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.5-1.7.10
+## *2.2.5-1.7.10*
+><!-- Release notes generated using configuration in .github/release.yml at 2.2.5-1.7.10 -->
+>
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.4-1.7.10...2.2.5-1.7.10
+>
+
 ## *2.2.4-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.2.4-1.7.10 -->
 >
@@ -6487,7 +6495,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.11.7...1.11.8-pre
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.6.5-GTNH-pre
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.6.6-GTNH-pre
+## *1.6.6-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.6.5-GTNH-pre...1.6.6-GTNH-pre
+>
+
 ## *1.6.5-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.6.4-GTNH-pre...1.6.5-GTNH-pre
 >
