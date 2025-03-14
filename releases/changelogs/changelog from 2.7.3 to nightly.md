@@ -354,7 +354,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-551-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-553-GTNH-pre
+## *rv3-beta-553-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-552-GTNH...rv3-beta-553-GTNH-pre
+>
+
+## *rv3-beta-552-GTNH*
+>## What's Changed
+>* Redo self powered me controller textures by @GDCloudstrike in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/690
+>
+>## New Contributors
+>* @GDCloudstrike made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/690
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-551-GTNH...rv3-beta-552-GTNH
+>
+
 ## *rv3-beta-551-GTNH*
 >## What's Changed
 >* add ME controller + Creative Energy cell in one block by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/686
@@ -1193,7 +1207,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.2...1.0.3
 >
 
-# Updated - Draconic-Evolution - 1.3.17-GTNH --> 1.4.8-GTNH-pre
+# Updated - Draconic-Evolution - 1.3.17-GTNH --> 1.4.9-GTNH-pre
+## *1.4.9-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.6-GTNH...1.4.9-GTNH-pre
+>
+
 ## *1.4.8-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.7-GTNH-pre...1.4.8-GTNH-pre
 >
@@ -1456,7 +1474,32 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.175-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.177-pre
+## *5.09.51.177-pre*
+>## What's Changed
+>* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3974
+>* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4043
+>* Spotless apply for branch soundChannels for #4059 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4060
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.176...5.09.51.177-pre
+>
+
+## *5.09.51.176*
+>## What's Changed
+>* Fix Synchotron and Source Chamber block rendering issue by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4054
+>* Godforge graviton shard related fixes by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4048
+>* Add rotation support to the Bacterial Vat by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4012
+>* Fix texture orientation for some machine controllers by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4033
+>* AL Refactor Fixes by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4057
+>* Revert spacetime texture change by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4063
+>* Manasteel, Terrasteel and Elementium Texture Sets by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4062
+>* Typo: "ignot" -> "ingot" by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4061
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.173...5.09.51.176
+>
+
 ## *5.09.51.175-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.174-pre...5.09.51.175-pre
 >
@@ -3644,6 +3687,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.2.2...1.3.0
 >
 
+# Updated - Hardcore-Ender-Expansion - 1.12.1-GTNH --> 1.12.2-GTNH-pre
+## *1.12.2-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
+>
+
 # Updated - Hodgepodge - 2.5.90 --> 2.6.30
 ## *2.6.30*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.29...2.6.30
@@ -3923,7 +3971,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.26-GTNH
+# New Mod - InventoryBogoSorter:1.2.27-GTNH
+## *1.2.27-GTNH*
+>## What's Changed
+>* Add config option to specify custom dropoff targets by @MellowArpeggiation in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/78
+>* CompactStorage  && EFR by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/79
+>
+>## New Contributors
+>* @MellowArpeggiation made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/78
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.26-GTNH...1.2.27-GTNH
+>
+
 ## *1.2.26-GTNH*
 >## What's Changed
 >* Split up IC2 and IC2Classic checks by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/75
@@ -5426,7 +5485,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.29-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.30-GTNH
+## *2.7.30-GTNH*
+>## What's Changed
+>* Use the updated ASMDataTable (with interfaces) when JarJar is present by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/608
+>* feature: Overlays Settings GUI (Keep overlays through dimensions) by @AzodFR in https://github.com/GTNewHorizons/NotEnoughItems/pull/610
+>
+>## New Contributors
+>* @AzodFR made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/610
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.29-GTNH...2.7.30-GTNH
+>
+
 ## *2.7.29-GTNH*
 >## What's Changed
 >* Fix NC marker in recipe after fluid pattern terminal by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/603
@@ -6635,6 +6705,15 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.1.1...6.1.2
+>
+
+# Updated - lwjgl3ify - 2.1.9 --> 2.1.10
+## *2.1.10*
+>## What's Changed
+>* Remove unsupported jvm versions from the prism launcher manifest by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/207
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.9...2.1.10
 >
 
 # Updated - nei-custom-diagram - 1.6.8 --> 1.7.5
