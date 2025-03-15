@@ -3394,7 +3394,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.5.0
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.14
+# Updated - GTNHLib - 0.5.23 --> 0.6.15
+## *0.6.15*
+>## What's Changed
+>* Add VAO utilities for easier core profile compatibility by @eigenraven in https://github.com/GTNewHorizons/GTNHLib/pull/123
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.14...0.6.15
+>
+
 ## *0.6.14*
 >## What's Changed
 >* Updates for IStateStack by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/120
@@ -4480,7 +4488,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.5-1.7.10
+# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.6-1.7.10
+## *2.2.6-1.7.10*
+><!-- Release notes generated using configuration in .github/release.yml at 2.2.6-1.7.10 -->
+>
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.5-1.7.10...2.2.6-1.7.10
+>
+
 ## *2.2.5-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.2.5-1.7.10 -->
 >
@@ -6707,7 +6723,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.1.1...6.1.2
 >
 
-# Updated - lwjgl3ify - 2.1.9 --> 2.1.10
+# Updated - lwjgl3ify - 2.1.9 --> 2.1.11
+## *2.1.11*
+>**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.10...2.1.11
+>
+
 ## *2.1.10*
 >## What's Changed
 >* Remove unsupported jvm versions from the prism launcher manifest by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/207

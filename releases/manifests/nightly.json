@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-14T20:01:11.412272",
+  "last_updated": "2025-03-15T03:44:54.315749",
   "config": "2.8.0-nightly-2025-03-14-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.14",
+      "version": "0.6.15",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -697,7 +697,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.1.10",
+      "version": "2.1.11",
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
@@ -765,7 +765,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.2.5-1.7.10",
+      "version": "2.2.6-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
