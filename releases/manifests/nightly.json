@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-15T03:44:54.315749",
+  "last_updated": "2025-03-16T03:47:33.719761",
   "config": "2.8.0-nightly-2025-03-14-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-553-GTNH-pre",
+      "version": "rv3-beta-554-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
-      "version": "1.12.2-GTNH-pre",
+      "version": "1.12.3-GTNH",
       "side": "BOTH"
     },
     "harvestcraft": {
@@ -469,7 +469,7 @@
       "side": "BOTH"
     },
     "SpiceOfLife": {
-      "version": "2.1.12-carrot",
+      "version": "2.2.0-carrot",
       "side": "BOTH"
     },
     "Steve-s-Factory-Manager": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.4-GTNH",
+      "version": "1.1.5-GTNH",
       "side": "BOTH"
     },
     "BugTorch": {

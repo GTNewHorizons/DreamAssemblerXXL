@@ -354,7 +354,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-553-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-554-GTNH
+## *rv3-beta-554-GTNH*
+>## What's Changed
+>* Fix that self powered controller didnt count as controller in grid. by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/691
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-552-GTNH...rv3-beta-554-GTNH
+>
+
 ## *rv3-beta-553-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-552-GTNH...rv3-beta-553-GTNH-pre
 >
@@ -3695,7 +3703,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.2.2...1.3.0
 >
 
-# Updated - Hardcore-Ender-Expansion - 1.12.1-GTNH --> 1.12.2-GTNH-pre
+# Updated - Hardcore-Ender-Expansion - 1.12.1-GTNH --> 1.12.3-GTNH
+## *1.12.3-GTNH*
+>## What's Changed
+>* do not persist technical entity by @Glease in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/23
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.3-GTNH
+>
+
 ## *1.12.2-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
@@ -5950,7 +5966,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.15...9.16.0
 >
 
-# New Mod - Salis-Arcana:1.1.4-GTNH
+# New Mod - Salis-Arcana:1.1.5-GTNH
+## *1.1.5-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.4-GTNH...1.1.5-GTNH
+>
+
 ## *1.1.4-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.3-GTNH...1.1.4-GTNH
 >
@@ -6170,6 +6190,17 @@ Mod is client-side only.
 >* @miozune made their first contribution in https://github.com/GTNewHorizons/Share-Where-I-am/pull/6
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/2.1.2...2.1.3
+>
+
+# Updated - SpiceOfLife - 2.1.12-carrot --> 2.2.0-carrot
+## *2.2.0-carrot*
+>## What's Changed
+>* Supplement locale by @ChromaPIE in https://github.com/GTNewHorizons/SpiceOfLife/pull/43
+>
+>## New Contributors
+>* @ChromaPIE made their first contribution in https://github.com/GTNewHorizons/SpiceOfLife/pull/43
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.1.12-carrot...2.2.0-carrot
 >
 
 # Updated - StructureLib - 1.3.6 --> 1.4.6
