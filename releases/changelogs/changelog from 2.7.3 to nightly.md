@@ -1125,7 +1125,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.3.8-GTNH...1.4.0-GTNH
 >
 
-# Updated - Crops-plus-plus - 1.7.14 --> 1.8.9
+# Updated - Crops-plus-plus - 1.7.14 --> 1.8.10
+## *1.8.10*
+>## What's Changed
+>* Localization of potions tooltip by @Discreater in https://github.com/GTNewHorizons/Crops-plus-plus/pull/94
+>
+>## New Contributors
+>* @Discreater made their first contribution in https://github.com/GTNewHorizons/Crops-plus-plus/pull/94
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.9...1.8.10
+>
+
 ## *1.8.9*
 >## What's Changed
 >* Use formatNumbers instead of parseNumberToString by @miozune in https://github.com/GTNewHorizons/Crops-plus-plus/pull/92
@@ -1290,7 +1300,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.14-GTNH...1.4.0-GTNH
 >
 
-# Updated - Electro-Magic-Tools - 1.5.17 --> 1.6.2
+# Updated - Electro-Magic-Tools - 1.5.17 --> 1.6.3
+## *1.6.3*
+>## What's Changed
+>* EMT Foci Bugfixes/Cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/90
+>
+>## New Contributors
+>* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/90
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.2...1.6.3
+>
+
 ## *1.6.2*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/89
@@ -1482,7 +1502,30 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.177-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.179-pre
+## *5.09.51.179-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.178...5.09.51.179-pre
+>
+
+## *5.09.51.178*
+>## What's Changed
+>* Add missing Hot Ingot texture for Manasteel Texture Set by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4069
+>* Creon & mellion mini rework by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4064
+>* backport max number of sounds playing by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4059
+>* Allow searching for Random Access Memory using "RAM" by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4051
+>* Allow distilled water in algae pond structure by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4073
+>* zfighting free block overlay by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3973
+>* Ender Io, Gaia Spirit and Mana Diamond Texture Sets by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4001
+>* Stocking hatch & bus disabling by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4013
+>* Re-add multi-step californium recipe and make it faster by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4052
+>* Fix output slot of quantum chest etc. not being recognized by AE by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4042
+>* Refactor OverclockCalculator by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4038
+>* Add MTESolarFactory by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3703
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.176...5.09.51.178
+>
+
 ## *5.09.51.177-pre*
 >## What's Changed
 >* Spotless apply for branch feature/overlay for #3973 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3974
@@ -4326,7 +4369,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.4.6...1.5.0
 >
 
-# Updated - LogisticsPipes - 1.3.4-GTNH --> 1.4.1-GTNH
+# Updated - LogisticsPipes - 1.3.4-GTNH --> 1.4.2-GTNH
+## *1.4.2-GTNH*
+>## What's Changed
+>* Search in the contents of Universal Fluid Cells by @godrja in https://github.com/GTNewHorizons/LogisticsPipes/pull/83
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.1-GTNH...1.4.2-GTNH
+>
+
 ## *1.4.1-GTNH*
 >## What's Changed
 >* Fix: Client crashes when inserting renamed crafting module into chassis. by @godrja in https://github.com/GTNewHorizons/LogisticsPipes/pull/82
@@ -4607,7 +4658,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.132-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.134-pre
+## *2.7.134-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.133...2.7.134-pre
+>
+
+## *2.7.133*
+>## What's Changed
+>* Add recipe for creative ME controller by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1217
+>* Travellers Gear Removal - Should only be merged when the mod is removed by @Ethryan in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1115
+>* Add Recipe for Solar Factory by @purebluez in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1120
+>
+>## New Contributors
+>* @purebluez made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1120
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.130...2.7.133
+>
+
 ## *2.7.132-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.131-pre...2.7.132-pre
 >
@@ -5966,7 +6033,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.15...9.16.0
 >
 
-# New Mod - Salis-Arcana:1.1.5-GTNH
+# New Mod - Salis-Arcana:1.1.6-GTNH-pre
+## *1.1.6-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.5-GTNH...1.1.6-GTNH-pre
+>
+
 ## *1.1.5-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.4-GTNH...1.1.5-GTNH
 >
@@ -6252,6 +6323,11 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.3.6...1.4.0
+>
+
+# Updated - TCNEIAdditions - 1.4.2 --> 1.4.3-pre
+## *1.4.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.4.2...1.4.3-pre
 >
 
 # Updated - TX-Loader - 1.7.3 --> 1.8.2
@@ -6612,7 +6688,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.11.7...1.11.8-pre
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.6.6-GTNH-pre
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.0-GTNH
+## *1.7.0-GTNH*
+>## What's Changed
+>* Trying to get away from Travellers Gear by @Ethryan in https://github.com/GTNewHorizons/WitchingGadgets/pull/62
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.6.0-GTNH...1.7.0-GTNH
+>
+
 ## *1.6.6-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.6.5-GTNH-pre...1.6.6-GTNH-pre
 >
