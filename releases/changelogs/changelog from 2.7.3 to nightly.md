@@ -1225,7 +1225,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.2...1.0.3
 >
 
-# Updated - Draconic-Evolution - 1.3.17-GTNH --> 1.4.9-GTNH-pre
+# Updated - Draconic-Evolution - 1.3.17-GTNH --> 1.4.10-GTNH-pre
+## *1.4.10-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.9-GTNH-pre...1.4.10-GTNH-pre
+>
+
 ## *1.4.9-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.6-GTNH...1.4.9-GTNH-pre
 >
@@ -1502,7 +1506,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.179-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.180-pre
+## *5.09.51.180-pre*
+>## What's Changed
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4075
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4076
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.179-pre...5.09.51.180-pre
+>
+
 ## *5.09.51.179-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.178...5.09.51.179-pre
 >
@@ -4024,6 +4037,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.3...1.4.4
 >
 
+# Updated - IguanaTweaksTConstruct - 2.6.0 --> 2.6.1-pre
+## *2.6.1-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.6.0...2.6.1-pre
+>
+
 # Updated - Infernal-Mobs - 1.9.2-GTNH --> 1.10.1-GTNH-pre
 ## *1.10.1-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.10.0-GTNH...1.10.1-GTNH-pre
@@ -4038,7 +4056,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.27-GTNH
+# New Mod - InventoryBogoSorter:1.2.28-GTNH
+## *1.2.28-GTNH*
+>## What's Changed
+>* Fixes issue with dropoffTargetNames not working for localized games by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/81
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.27-GTNH...1.2.28-GTNH
+>
+
 ## *1.2.27-GTNH*
 >## What's Changed
 >* Add config option to specify custom dropoff targets by @MellowArpeggiation in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/78
@@ -4658,7 +4684,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.134-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.135-pre
+## *2.7.135-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.134-pre...2.7.135-pre
+>
+
 ## *2.7.134-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.133...2.7.134-pre
 >
@@ -6033,7 +6063,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.15...9.16.0
 >
 
-# New Mod - Salis-Arcana:1.1.6-GTNH-pre
+# New Mod - Salis-Arcana:1.1.7-GTNH
+## *1.1.7-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.5-GTNH...1.1.7-GTNH
+>
+
 ## *1.1.6-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.5-GTNH...1.1.6-GTNH-pre
 >
@@ -6263,7 +6297,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Share-Where-I-am/compare/2.1.2...2.1.3
 >
 
-# Updated - SpiceOfLife - 2.1.12-carrot --> 2.2.0-carrot
+# Updated - SpiceOfLife - 2.1.12-carrot --> 2.2.1-carrot
+## *2.2.1-carrot*
+>## What's Changed
+>* Fix fatal NPE by @ChromaPIE in https://github.com/GTNewHorizons/SpiceOfLife/pull/44
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.2.0-carrot...2.2.1-carrot
+>
+
 ## *2.2.0-carrot*
 >## What's Changed
 >* Supplement locale by @ChromaPIE in https://github.com/GTNewHorizons/SpiceOfLife/pull/43
@@ -6325,7 +6367,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.3.6...1.4.0
 >
 
-# Updated - TCNEIAdditions - 1.4.2 --> 1.4.3-pre
+# Updated - TCNEIAdditions - 1.4.2 --> 1.4.5-pre
+Mod side changed from on both sides to client-side only.
+## *1.4.5-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.4.4-pre...1.4.5-pre
+>
+
+## *1.4.4-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.4.3-pre...1.4.4-pre
+>
+
 ## *1.4.3-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.4.2...1.4.3-pre
 >
