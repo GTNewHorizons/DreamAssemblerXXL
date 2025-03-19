@@ -1,15 +1,15 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2025-03-19T03:46:18.093995",
-  "config": "2.8.0-nightly-2025-03-17",
+  "last_version": "2.7.3",
+  "last_updated": "2025-03-19T16:59:26.906249",
+  "config": "2.8.0-nightly-2025-03-19",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.5-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.32-gtnh",
+      "version": "1.4.33-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-554-GTNH",
+      "version": "rv3-beta-557-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -57,7 +57,7 @@
       "side": "BOTH"
     },
     "BetterBuildersWands": {
-      "version": "0.13.1-GTNH",
+      "version": "0.13.2-GTNH",
       "side": "BOTH"
     },
     "BetterCrashes": {
@@ -189,7 +189,7 @@
       "side": "BOTH"
     },
     "EnhancedLootBags": {
-      "version": "1.2.0",
+      "version": "1.2.1",
       "side": "BOTH"
     },
     "Eternal-Singularity": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.180-pre",
+      "version": "5.09.51.182-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.30",
+      "version": "2.6.32-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.135-pre",
+      "version": "2.7.136-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.30-GTNH",
+      "version": "2.7.32-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -529,7 +529,7 @@
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.7.1",
+      "version": "1.7.2-pre",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -537,7 +537,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.11.4",
+      "version": "2.11.5-pre",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -577,7 +577,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.8.2",
+      "version": "1.8.3-pre",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -633,7 +633,7 @@
       "side": "BOTH"
     },
     "TX-Loader": {
-      "version": "1.8.2",
+      "version": "1.8.3-pre",
       "side": "CLIENT"
     },
     "NotEnoughIds": {
@@ -701,7 +701,7 @@
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.35",
+      "version": "1.5.36-pre",
       "side": "BOTH"
     },
     "amunra": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.31",
+      "version": "2.1.32-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -785,11 +785,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.7-GTNH",
-      "side": "BOTH"
-    },
-    "BugTorch": {
-      "version": "1.2.14-GTNH",
+      "version": "1.1.9-GTNH-pre",
       "side": "BOTH"
     },
     "CoreTweaks": {
@@ -924,6 +920,10 @@
     },
     "Et Futurum Requiem": {
       "version": "2.6.2",
+      "side": "BOTH"
+    },
+    "Bug-Torch": {
+      "version": "1.2.14",
       "side": "BOTH"
     }
   }
