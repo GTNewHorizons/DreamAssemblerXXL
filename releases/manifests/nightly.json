@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-18T03:46:58.225528",
+  "last_updated": "2025-03-19T03:46:18.093995",
   "config": "2.8.0-nightly-2025-03-17",
   "github_mods": {
     "AdventureBackpack2": {
@@ -501,7 +501,7 @@
       "side": "BOTH"
     },
     "TCNEIAdditions": {
-      "version": "1.4.5-pre",
+      "version": "1.4.6-pre",
       "side": "CLIENT"
     },
     "TCNodeTracker": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta38",
+      "version": "1.0.0-beta39",
       "side": "CLIENT"
     },
     "AkashicTome": {

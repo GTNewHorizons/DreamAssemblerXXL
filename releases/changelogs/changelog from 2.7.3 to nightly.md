@@ -260,8 +260,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
-# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta38
+# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta39
 Mod is client-side only.
+## *1.0.0-beta39*
+>## What's Changed
+>* Adds two new overloads by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/906
+>* Support for custom uniforms by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/902
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta38...1.0.0-beta39
+>
+
 ## *1.0.0-beta38*
 >## What's Changed
 >* Update dependencies & build script by @RecursivePineapple in https://github.com/GTNewHorizons/Angelica/pull/899
@@ -6367,8 +6376,12 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.3.6...1.4.0
 >
 
-# Updated - TCNEIAdditions - 1.4.2 --> 1.4.5-pre
+# Updated - TCNEIAdditions - 1.4.2 --> 1.4.6-pre
 Mod side changed from on both sides to client-side only.
+## *1.4.6-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.4.5-pre...1.4.6-pre
+>
+
 ## *1.4.5-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.4.4-pre...1.4.5-pre
 >
