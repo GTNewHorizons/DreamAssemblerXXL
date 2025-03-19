@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.7.3",
-  "last_updated": "2025-03-19T16:59:26.906249",
+  "last_updated": "2025-03-19T17:24:03.401574",
   "config": "2.8.0-nightly-2025-03-19",
   "github_mods": {
     "AdventureBackpack2": {
@@ -795,6 +795,10 @@
     "Darkerer": {
       "version": "1.0.4",
       "side": "BOTH"
+    },
+    "Et-Futurum-Requiem": {
+      "version": "2.6.2.4-GTNH",
+      "side": "BOTH"
     }
   },
   "external_mods": {
@@ -883,7 +887,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.31",
+      "version": "1.5.32",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
@@ -916,10 +920,6 @@
     },
     "Tinkers-Gregworks": {
       "version": "1.0.28",
-      "side": "BOTH"
-    },
-    "Et Futurum Requiem": {
-      "version": "2.6.2",
       "side": "BOTH"
     },
     "Bug-Torch": {
