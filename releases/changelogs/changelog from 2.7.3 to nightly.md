@@ -1,6 +1,6 @@
 # New Mods: 
 > * Darkerer
-> * Et Futurum Requiem
+> * Et-Futurum-Requiem
 > * InventoryBogoSorter
 > * MatterManipulator
 > * Salis-Arcana
@@ -11,7 +11,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.32-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.33-gtnh-pre
+## *1.4.33-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.32-gtnh...1.4.33-gtnh-pre
+>
+
 ## *1.4.32-gtnh*
 >## What's Changed
 >* Fix fluid containers with null empty items not deleting in fluid terminal by @serenibyss in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/267
@@ -363,7 +367,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-554-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-557-GTNH-pre
+## *rv3-beta-557-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-556-GTNH-pre...rv3-beta-557-GTNH-pre
+>
+
+## *rv3-beta-556-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-555-GTNH-pre...rv3-beta-556-GTNH-pre
+>
+
+## *rv3-beta-555-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-554-GTNH...rv3-beta-555-GTNH-pre
+>
+
 ## *rv3-beta-554-GTNH*
 >## What's Changed
 >* Fix that self powered controller didnt count as controller in grid. by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/691
@@ -794,6 +810,17 @@ Mod is client-side only.
 
 ## *2.1.5-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.0.3...2.1.5-GTNH
+>
+
+# Updated - BetterBuildersWands - 0.13.1-GTNH --> 0.13.2-GTNH
+## *0.13.2-GTNH*
+>## What's Changed
+>* Restrict build limit by @jurrejelle in https://github.com/GTNewHorizons/BetterBuildersWands/pull/18
+>
+>## New Contributors
+>* @jurrejelle made their first contribution in https://github.com/GTNewHorizons/BetterBuildersWands/pull/18
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BetterBuildersWands/compare/0.13.1-GTNH...0.13.2-GTNH
 >
 
 # Updated - BetterQuesting - 3.6.24-GTNH --> 3.7.3-GTNH
@@ -1393,7 +1420,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.8.22...2.9.0
 >
 
-# Updated - EnhancedLootBags - 1.1.2 --> 1.2.0
+# Updated - EnhancedLootBags - 1.1.2 --> 1.2.1
+## *1.2.1*
+>## What's Changed
+>* Localizable group name & tooltips by @ChromaPIE in https://github.com/GTNewHorizons/EnhancedLootBags/pull/11
+>
+>## New Contributors
+>* @ChromaPIE made their first contribution in https://github.com/GTNewHorizons/EnhancedLootBags/pull/11
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.2.0...1.2.1
+>
+
 ## *1.2.0*
 >## What's Changed
 >* Customizable Lootbag icons by @YannickMG in https://github.com/GTNewHorizons/EnhancedLootBags/pull/10
@@ -1402,6 +1439,30 @@ Mod is client-side only.
 >* @YannickMG made their first contribution in https://github.com/GTNewHorizons/EnhancedLootBags/pull/10
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.2.0
+>
+
+# New Mod - Et-Futurum-Requiem:2.6.2.4-GTNH
+## *2.6.2.4-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.3-GTNH...2.6.2.4-GTNH
+>
+
+## *2.6.2.3-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.2-GTNH...2.6.2.3-GTNH
+>
+
+## *2.6.2.2-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.1-GTNH-pre...2.6.2.2-GTNH
+>
+
+## *2.6.2.1-GTNH-pre*
+>## What's Changed
+>* update build-and-test.yml by @Caedis in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/1
+>* Update build.gradle by @Caedis in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/2
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/1
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/commits/2.6.2.1-GTNH-pre
 >
 
 # Updated - FloodLights - 1.4.6 --> 1.5.3
@@ -1515,7 +1576,33 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.180-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.182-pre
+## *5.09.51.182-pre*
+>## What's Changed
+>* Fix PA parallels being locked to 1 by @S4mpsa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4077
+>* Decrement single-use screwdriver on circuit change by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4081
+>* fix crowbar train reversing/boosting compatibility by @2ndDerivative in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4079
+>
+>## New Contributors
+>* @jurrejelle made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4081
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4079
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.180-pre...5.09.51.182-pre
+>
+
+## *5.09.51.181*
+>## What's Changed
+>* Fix PA parallels being locked to 1 by @S4mpsa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4077
+>* Decrement single-use screwdriver on circuit change by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4081
+>* fix crowbar train reversing/boosting compatibility by @2ndDerivative in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4079
+>
+>## New Contributors
+>* @jurrejelle made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4081
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4079
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.178...5.09.51.181
+>
+
 ## *5.09.51.180-pre*
 >## What's Changed
 >* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4075
@@ -3204,7 +3291,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.34 --> 1.5.35
+# Updated - GTNH-Intergalactic - 1.4.34 --> 1.5.36-pre
+## *1.5.36-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.35...1.5.36-pre
+>
+
 ## *1.5.35*
 >## What's Changed
 >* Merge itemstacks in some assline recipes 3/3 by @FrostyFire1 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/114
@@ -3781,7 +3872,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.30
+# Updated - Hodgepodge - 2.5.90 --> 2.6.32-pre
+## *2.6.32-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.31...2.6.32-pre
+>
+
+## *2.6.31*
+>## What's Changed
+>* Add `/time get` by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/499
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.30...2.6.31
+>
+
 ## *2.6.30*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.29...2.6.30
 >
@@ -4065,7 +4168,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.28-GTNH
+# New Mod - InventoryBogoSorter:1.2.29-GTNH-pre
+## *1.2.29-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.28-GTNH...1.2.29-GTNH-pre
+>
+
 ## *1.2.28-GTNH*
 >## What's Changed
 >* Fixes issue with dropoffTargetNames not working for localized games by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/81
@@ -4214,10 +4321,6 @@ Mod is client-side only.
 >* @Csstform made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/40
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.9-GTNH...1.2.11-GTNH
->
-
-## *1.2.11-GTNH-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.11-GTNH...1.2.11-GTNH-pre
 >
 
 ## *1.2.10-GTNH-pre*
@@ -4693,7 +4796,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.135-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.136-pre
+## *2.7.136-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.135-pre...2.7.136-pre
+>
+
 ## *2.7.135-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.134-pre...2.7.135-pre
 >
@@ -5623,7 +5730,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.30-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.32-GTNH-pre
+## *2.7.32-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.31-GTNH...2.7.32-GTNH-pre
+>
+
+## *2.7.31-GTNH*
+>## What's Changed
+>* Implement Forge Essentials Permission Checking by @spacebuilder2020 in https://github.com/GTNewHorizons/NotEnoughItems/pull/611
+>
+>## New Contributors
+>* @spacebuilder2020 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/611
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.30-GTNH...2.7.31-GTNH
+>
+
 ## *2.7.30-GTNH*
 >## What's Changed
 >* Use the updated ASMDataTable (with interfaces) when JarJar is present by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/608
@@ -6072,7 +6193,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.15...9.16.0
 >
 
-# New Mod - Salis-Arcana:1.1.7-GTNH
+# New Mod - Salis-Arcana:1.1.9-GTNH-pre
+## *1.1.9-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.8-GTNH-pre...1.1.9-GTNH-pre
+>
+
+## *1.1.8-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.7-GTNH...1.1.8-GTNH-pre
+>
+
 ## *1.1.7-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.5-GTNH...1.1.7-GTNH
 >
@@ -6117,7 +6246,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.7 --> 2.1.31
+# Updated - ServerUtilities - 2.1.7 --> 2.1.32-pre
+## *2.1.32-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.31...2.1.32-pre
+>
+
 ## *2.1.31*
 >## What's Changed
 >* Fix empty server teams unable to force-load chunks by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/197
@@ -6394,8 +6527,12 @@ Mod side changed from on both sides to client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.4.2...1.4.3-pre
 >
 
-# Updated - TX-Loader - 1.7.3 --> 1.8.2
+# Updated - TX-Loader - 1.7.3 --> 1.8.3-pre
 Mod is client-side only.
+## *1.8.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.8.2...1.8.3-pre
+>
+
 ## *1.8.2*
 >## What's Changed
 >* Add Logo and `mcmod.info` by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/15
@@ -6546,7 +6683,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.6.27-GTNH...1.7.0-GTNH
 >
 
-# Updated - ThaumicHorizons - 1.7.0 --> 1.7.1
+# Updated - ThaumicHorizons - 1.7.0 --> 1.7.2-pre
+## *1.7.2-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.1...1.7.2-pre
+>
+
 ## *1.7.1*
 >## What's Changed
 >* Fixes Liquefaction Focus by @DrParadox7 in https://github.com/GTNewHorizons/ThaumicHorizons/pull/72
@@ -6555,7 +6696,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.0...1.7.1
 >
 
-# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.4
+# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.5-pre
+## *2.11.5-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.4...2.11.5-pre
+>
+
 ## *2.11.4*
 >## What's Changed
 >* close container if parent item is gone by @Glease in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/45
@@ -7020,5 +7165,10 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.6.35...2.7.0
+>
+
+# Updated - waila - 1.8.2 --> 1.8.3-pre
+## *1.8.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.2...1.8.3-pre
 >
 
