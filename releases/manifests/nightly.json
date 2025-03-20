@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-20T03:46:14.839821",
+  "last_updated": "2025-03-20T14:58:01.185228",
   "config": "2.8.0-nightly-2025-03-19",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.33-gtnh-pre",
+      "version": "1.4.35-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-557-GTNH-pre",
+      "version": "rv3-beta-558-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.106-GTNH",
+      "version": "1.1.107-GTNH-pre",
       "side": "BOTH"
     },
     "gendustry": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.182-pre",
+      "version": "5.09.51.184-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.15",
+      "version": "0.6.16",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.136-pre",
+      "version": "2.7.138-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -537,7 +537,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.11.6-pre",
+      "version": "2.11.7",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -577,7 +577,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.8.3-pre",
+      "version": "1.8.4",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -701,7 +701,7 @@
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.36-pre",
+      "version": "1.5.37",
       "side": "BOTH"
     },
     "amunra": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta39",
+      "version": "1.0.0-beta40",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.29-GTNH-pre",
+      "version": "1.2.30-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
