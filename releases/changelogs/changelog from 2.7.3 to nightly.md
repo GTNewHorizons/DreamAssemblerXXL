@@ -11,7 +11,27 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.33-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.35-gtnh-pre
+## *1.4.35-gtnh-pre*
+>## What's Changed
+>* Fix an issue that GT and AE2FC fluids could not be used with Creative Fluid Cell by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/271
+>
+>## New Contributors
+>* @Kogepan229 made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/271
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.33-gtnh-pre...1.4.35-gtnh-pre
+>
+
+## *1.4.34-gtnh*
+>## What's Changed
+>* Fix an issue that GT and AE2FC fluids could not be used with Creative Fluid Cell by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/271
+>
+>## New Contributors
+>* @Kogepan229 made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/271
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.32-gtnh...1.4.34-gtnh
+>
+
 ## *1.4.33-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.32-gtnh...1.4.33-gtnh-pre
 >
@@ -264,8 +284,18 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
-# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta39
+# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta40
 Mod is client-side only.
+## *1.0.0-beta40*
+>## What's Changed
+>* Fix stencil buffer does not exist by @Quarri6343 in https://github.com/GTNewHorizons/Angelica/pull/912
+>
+>## New Contributors
+>* @Quarri6343 made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/912
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta39...1.0.0-beta40
+>
+
 ## *1.0.0-beta39*
 >## What's Changed
 >* Adds two new overloads by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/906
@@ -367,7 +397,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-557-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-558-GTNH-pre
+## *rv3-beta-558-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-557-GTNH-pre...rv3-beta-558-GTNH-pre
+>
+
 ## *rv3-beta-557-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-556-GTNH-pre...rv3-beta-557-GTNH-pre
 >
@@ -1576,7 +1610,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.182-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.184-pre
+## *5.09.51.184-pre*
+>## What's Changed
+>* Fix pipe dupe by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4083
+>* Fix tectech EnderFluidLink cover ghost loading by @Georggi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4084
+>
+>## New Contributors
+>* @Georggi made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4084
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.182-pre...5.09.51.184-pre
+>
+
+## *5.09.51.183*
+>## What's Changed
+>* Fix pipe dupe by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4083
+>* Fix tectech EnderFluidLink cover ghost loading by @Georggi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4084
+>
+>## New Contributors
+>* @Georggi made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4084
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.181...5.09.51.183
+>
+
 ## *5.09.51.182-pre*
 >## What's Changed
 >* Fix PA parallels being locked to 1 by @S4mpsa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4077
@@ -3291,7 +3347,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.34 --> 1.5.36-pre
+# Updated - GTNH-Intergalactic - 1.4.34 --> 1.5.37
+## *1.5.37*
+>## What's Changed
+>* Add mining drone controller slot by @jurrejelle in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/116
+>
+>## New Contributors
+>* @jurrejelle made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/116
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.35...1.5.37
+>
+
 ## *1.5.36-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.35...1.5.36-pre
 >
@@ -3558,7 +3624,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.5.0
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.15
+# Updated - GTNHLib - 0.5.23 --> 0.6.16
+## *0.6.16*
+>## What's Changed
+>* Make BlockPos modifications return BlockPos instead of IBlockPos by @Taskeren in https://github.com/GTNewHorizons/GTNHLib/pull/124
+>
+>## New Contributors
+>* @Taskeren made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/124
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.15...0.6.16
+>
+
 ## *0.6.15*
 >## What's Changed
 >* Add VAO utilities for easier core profile compatibility by @eigenraven in https://github.com/GTNewHorizons/GTNHLib/pull/123
@@ -3773,7 +3849,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.2.9-GTNH...3.3.0-GTNH
 >
 
-# Updated - Galaxy-Space-GTNH - 1.1.99-GTNH --> 1.1.106-GTNH
+# Updated - Galaxy-Space-GTNH - 1.1.99-GTNH --> 1.1.107-GTNH-pre
+## *1.1.107-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.106-GTNH...1.1.107-GTNH-pre
+>
+
 ## *1.1.106-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.105-GTNH...1.1.106-GTNH
 >
@@ -4168,7 +4248,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.29-GTNH-pre
+# New Mod - InventoryBogoSorter:1.2.30-GTNH
+## *1.2.30-GTNH*
+>## What's Changed
+>* Fix Tweak Button Position by @slprime in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/82
+>
+>## New Contributors
+>* @slprime made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/82
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.28-GTNH...1.2.30-GTNH
+>
+
 ## *1.2.29-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.28-GTNH...1.2.29-GTNH-pre
 >
@@ -4796,7 +4886,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.136-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.138-pre
+## *2.7.138-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.137-pre...2.7.138-pre
+>
+
+## *2.7.137-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.136-pre...2.7.137-pre
+>
+
 ## *2.7.136-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.135-pre...2.7.136-pre
 >
@@ -6696,7 +6794,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.0...1.7.1
 >
 
-# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.6-pre
+# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.7
+## *2.11.7*
+>## What's Changed
+>* fix celestial gateway button render by @Glease in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/46
+>* make more resilient checks against existing blocks by @Glease in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/47
+>* try to fix gaia server hang by @Glease in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/48
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.4...2.11.7
+>
+
 ## *2.11.6-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.5-pre...2.11.6-pre
 >
@@ -7171,7 +7279,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.6.35...2.7.0
 >
 
-# Updated - waila - 1.8.2 --> 1.8.3-pre
+# Updated - waila - 1.8.2 --> 1.8.4
+## *1.8.4*
+>## What's Changed
+>* add more information to help debug weird NPE by @Glease in https://github.com/GTNewHorizons/waila/pull/26
+>* Add a total size counter to thaumcraft nodes by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/27
+>* Fix thaumcraft node aspects overflowing out of the tooltip bounding box by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/28
+>
+>## New Contributors
+>* @Glease made their first contribution in https://github.com/GTNewHorizons/waila/pull/26
+>* @EmperorSuper made their first contribution in https://github.com/GTNewHorizons/waila/pull/27
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.2...1.8.4
+>
+
 ## *1.8.3-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.2...1.8.3-pre
 >
