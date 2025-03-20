@@ -6696,7 +6696,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.0...1.7.1
 >
 
-# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.5-pre
+# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.6-pre
+## *2.11.6-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.5-pre...2.11.6-pre
+>
+
 ## *2.11.5-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.4...2.11.5-pre
 >
