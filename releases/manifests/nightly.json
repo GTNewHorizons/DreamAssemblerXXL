@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-21T03:47:35.075968",
+  "last_updated": "2025-03-21T14:22:37.316293",
   "config": "2.8.0-nightly-2025-03-19",
   "github_mods": {
     "AdventureBackpack2": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.184-pre",
+      "version": "5.09.51.186-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.138-pre",
+      "version": "2.7.140-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.16.4",
+      "version": "9.16.5-pre",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -517,7 +517,7 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.4.0-GTNH",
+      "version": "1.4.1-GTNH-pre",
       "side": "BOTH"
     },
     "ThaumicBases": {

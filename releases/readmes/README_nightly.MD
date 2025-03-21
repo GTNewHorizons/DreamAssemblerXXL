@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2025-03-20
+Version nightly is out 2025-03-21
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -345,7 +345,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.9.1-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.3 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.51.184-pre |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.51.186-pre |
 | [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.5.37 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.1 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.6.16 |
@@ -395,7 +395,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.4.0 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.16.0 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.3.0 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.7.138-pre |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.7.140-pre |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.3.0-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.0 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.1.6 |
@@ -418,7 +418,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Postea](https://github.com/GTNewHorizons/Postea) | 1.0.13 |
 | [ProjectBlue](https://github.com/GTNewHorizons/ProjectBlue) | 1.2.0-GTNH |
 | [ProjectRed](https://github.com/GTNewHorizons/ProjectRed) | 4.11.1-GTNH |
-| [Railcraft](https://github.com/GTNewHorizons/Railcraft) | 9.16.4 |
+| [Railcraft](https://github.com/GTNewHorizons/Railcraft) | 9.16.5-pre |
 | [Random-Things](https://github.com/GTNewHorizons/Random-Things) | 2.6.0 |
 | [Realistic-World-Gen](https://github.com/GTNewHorizons/Realistic-World-Gen) | alpha-1.5.0 |
 | [RemoteIO](https://github.com/GTNewHorizons/RemoteIO) | 2.7.4 |
@@ -441,14 +441,14 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.1.3 |
 | [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.6.15-GTNH |
 | [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.32 |
-| [TCNEIAdditions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.4.6-pre |
+| [TCNEIAdditions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.4.7-pre |
 | [TCNodeTracker](https://github.com/GTNewHorizons/TCNodeTracker) | 1.3.2 |
 | [Thaumcraft NEI Plugin](https://www.curseforge.com/minecraft/mc-mods/thaumcraft-nei-plugin) | 1.7a |
 | [thaumcraft-research-tweaks](https://github.com/GTNewHorizons/thaumcraft-research-tweaks) | 1.2.0 |
 | [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) | 4.2.3.5a |
 | [ThaumcraftMobAspects](https://github.com/GTNewHorizons/ThaumcraftMobAspects) | 1.1.2-GTNH |
 | [Thaumic Machina](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2200956-wip-1-7-10-open-beta-thaumcraft-4-2-addon-thaumic) | 0.2.1 |
-| [Thaumic_Exploration](https://github.com/GTNewHorizons/Thaumic_Exploration) | 1.4.0-GTNH |
+| [Thaumic_Exploration](https://github.com/GTNewHorizons/Thaumic_Exploration) | 1.4.1-GTNH-pre |
 | [ThaumicBases](https://github.com/GTNewHorizons/ThaumicBases) | 1.8.3 |
 | [ThaumicBoots](https://github.com/GTNewHorizons/ThaumicBoots) | 1.4.4 |
 | [ThaumicEnergistics](https://github.com/GTNewHorizons/ThaumicEnergistics) | 1.7.6-GTNH |
