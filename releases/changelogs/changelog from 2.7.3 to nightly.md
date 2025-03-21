@@ -6607,8 +6607,12 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.3.6...1.4.0
 >
 
-# Updated - TCNEIAdditions - 1.4.2 --> 1.4.6-pre
+# Updated - TCNEIAdditions - 1.4.2 --> 1.4.7-pre
 Mod side changed from on both sides to client-side only.
+## *1.4.7-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.4.6-pre...1.4.7-pre
+>
+
 ## *1.4.6-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.4.5-pre...1.4.6-pre
 >

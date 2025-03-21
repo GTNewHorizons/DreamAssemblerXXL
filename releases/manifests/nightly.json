@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-20T15:20:17.334423",
+  "last_updated": "2025-03-21T03:47:35.075968",
   "config": "2.8.0-nightly-2025-03-19",
   "github_mods": {
     "AdventureBackpack2": {
@@ -501,7 +501,7 @@
       "side": "BOTH"
     },
     "TCNEIAdditions": {
-      "version": "1.4.6-pre",
+      "version": "1.4.7-pre",
       "side": "CLIENT"
     },
     "TCNodeTracker": {
