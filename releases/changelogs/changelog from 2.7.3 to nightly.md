@@ -1610,7 +1610,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.184-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.186-pre
+## *5.09.51.186-pre*
+>## What's Changed
+>* add half mode to power transformers by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4080
+>* Remove BW Pair class by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4071
+>* Fix Flask Configurator not allowing values above 32767 by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4087
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.184-pre...5.09.51.186-pre
+>
+
+## *5.09.51.185*
+>## What's Changed
+>* add half mode to power transformers by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4080
+>* Remove BW Pair class by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4071
+>* Fix Flask Configurator not allowing values above 32767 by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4087
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.183...5.09.51.185
+>
+
 ## *5.09.51.184-pre*
 >## What's Changed
 >* Fix pipe dupe by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4083
@@ -4886,7 +4906,24 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.138-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.140-pre
+## *2.7.140-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.139...2.7.140-pre
+>
+
+## *2.7.139*
+>## What's Changed
+>* pedestal recipe fix by @ihfuhgljclhflhc in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1224
+>* replace BG2 diamond dagger in sac dagger recipe by @Caedis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1222
+>* Add iron barrel + upgrade recipes by @Caedis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1223
+>* Fix iron and copper barrel upgrades by @Caedis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1225
+>
+>## New Contributors
+>* @ihfuhgljclhflhc made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1224
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.133...2.7.139
+>
+
 ## *2.7.138-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.137-pre...2.7.138-pre
 >
@@ -6244,7 +6281,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.4
+# Updated - Railcraft - 9.15.17 --> 9.16.5-pre
+## *9.16.5-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.4...9.16.5-pre
+>
+
 ## *9.16.4*
 >## What's Changed
 >* Fix Water Tank string when using a Crafting Station by @Maratons4 in https://github.com/GTNewHorizons/Railcraft/pull/71
@@ -6855,6 +6896,11 @@ Mod is client-side only.
 >* @ClassixX made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/42
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.10.2...2.11.0
+>
+
+# Updated - Thaumic_Exploration - 1.4.0-GTNH --> 1.4.1-GTNH-pre
+## *1.4.1-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.0-GTNH...1.4.1-GTNH-pre
 >
 
 # Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.10-GTNH
