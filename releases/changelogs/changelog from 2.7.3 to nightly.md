@@ -11,7 +11,15 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.35-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.36-gtnh
+## *1.4.36-gtnh*
+>## What's Changed
+>* Fix terminal key bindings for mouse by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/270
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.34-gtnh...1.4.36-gtnh
+>
+
 ## *1.4.35-gtnh-pre*
 >## What's Changed
 >* Fix an issue that GT and AE2FC fluids could not be used with Creative Fluid Cell by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/271
@@ -1407,7 +1415,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.5.16...1.6.0
 >
 
-# Updated - EnderIO - 2.8.24 --> 2.9.5
+# Updated - EnderIO - 2.8.24 --> 2.9.6
+## *2.9.6*
+>## What's Changed
+>* fix trackman's goggles config by @2ndDerivative in https://github.com/GTNewHorizons/EnderIO/pull/188
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.5...2.9.6
+>
+
 ## *2.9.5*
 >## What's Changed
 >* Fix naturalist's eyes by @2ndDerivative in https://github.com/GTNewHorizons/EnderIO/pull/187
@@ -1621,7 +1637,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.190-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.81.191-pre
+## *5.09.81.191-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.190-pre...5.09.81.191-pre
+>
+
 ## *5.09.51.190-pre*
 >## What's Changed
 >* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4075
@@ -6197,7 +6217,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.5.0-GTNH...1.6.0-GTNH
 >
 
-# Updated - OpenComputers - 1.10.30-GTNH --> 1.11.11-GTNH-pre
+# Updated - OpenComputers - 1.10.30-GTNH --> 1.11.12-GTNH
+## *1.11.12-GTNH*
+>## What's Changed
+>* Extend OpenComputers Transposers to support fluid transfer rate upgrades by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/150
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.10-GTNH...1.11.12-GTNH
+>
+
 ## *1.11.11-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.10-GTNH...1.11.11-GTNH-pre
 >
@@ -6746,8 +6774,16 @@ Mod side changed from on both sides to client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.4.2...1.4.3-pre
 >
 
-# Updated - TX-Loader - 1.7.3 --> 1.8.3-pre
+# Updated - TX-Loader - 1.7.3 --> 1.8.4
 Mod is client-side only.
+## *1.8.4*
+>## What's Changed
+>* Load `en_US.lang` Files on the Server by @glowredman in https://github.com/GTNewHorizons/TX-Loader/pull/17
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.8.2...1.8.4
+>
+
 ## *1.8.3-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.8.2...1.8.3-pre
 >
