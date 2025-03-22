@@ -1407,7 +1407,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.5.16...1.6.0
 >
 
-# Updated - EnderIO - 2.8.24 --> 2.9.4
+# Updated - EnderIO - 2.8.24 --> 2.9.5
+## *2.9.5*
+>## What's Changed
+>* Fix naturalist's eyes by @2ndDerivative in https://github.com/GTNewHorizons/EnderIO/pull/187
+>* Add trackman's goggles upgrade support to the Dark Helm by @2ndDerivative in https://github.com/GTNewHorizons/EnderIO/pull/186
+>
+>## New Contributors
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/187
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.4...2.9.5
+>
+
 ## *2.9.4*
 >## What's Changed
 >* Mark EnderCore as a required dependency by @serenibyss in https://github.com/GTNewHorizons/EnderIO/pull/185
@@ -1610,7 +1621,43 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.186-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.190-pre
+## *5.09.51.190-pre*
+>## What's Changed
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4075
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4076
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.189...5.09.51.190-pre
+>
+
+## *5.09.51.189*
+>## What's Changed
+>* Change aqua regia to follow real life composition by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3982
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.188...5.09.51.189
+>
+
+## *5.09.51.188*
+>## What's Changed
+>* Modern Ore Textures by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4085
+>* Dynamic heating coils by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3951
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.187...5.09.51.188
+>
+
+## *5.09.51.187*
+>## What's Changed
+>* Change double plate max stack size to 64 by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4088
+>* Fix waila for steam machine parallel by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4089
+>* Lower large boiler pollution config defaults by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4092
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.185...5.09.51.187
+>
+
 ## *5.09.51.186-pre*
 >## What's Changed
 >* add half mode to power transformers by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4080
@@ -4698,7 +4745,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.4.6...0.5.0
 >
 
-# New Mod - MatterManipulator:0.0.23-GTNH
+# Updated - MagicBees - 2.9.1-GTNH --> 2.9.2-GTNH
+## *2.9.2-GTNH*
+>## What's Changed
+>* Give Enchanted Earth some minimal hardness by @YannickMG in https://github.com/GTNewHorizons/MagicBees/pull/52
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/52
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.9.1-GTNH...2.9.2-GTNH
+>
+
+# New Mod - MatterManipulator:0.0.24-GTNH
+## *0.0.24-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.23-GTNH...0.0.24-GTNH
+>
+
 ## *0.0.23-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.22-GTNH...0.0.23-GTNH
 >
@@ -6281,7 +6343,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.5-pre
+# Updated - Railcraft - 9.15.17 --> 9.16.7
+## *9.16.7*
+>## What's Changed
+>* Add goggle aura API by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/72
+>
+>## New Contributors
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/72
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.4...9.16.7
+>
+
+## *9.16.6-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.5-pre...9.16.6-pre
+>
+
 ## *9.16.5-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.4...9.16.5-pre
 >
@@ -6903,7 +6979,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.0-GTNH...1.4.1-GTNH-pre
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.10-GTNH
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.12-GTNH-pre
+## *1.13.12-GTNH-pre*
+>## What's Changed
+>* Localization of drying rack nei recipe handler by @Discreater in https://github.com/GTNewHorizons/TinkersConstruct/pull/156
+>* Change Rank Duration Localization key by @slprime in https://github.com/GTNewHorizons/TinkersConstruct/pull/157
+>
+>## New Contributors
+>* @Discreater made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/156
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.11-GTNH-pre...1.13.12-GTNH-pre
+>
+
+## *1.13.11-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.10-GTNH...1.13.11-GTNH-pre
+>
+
 ## *1.13.10-GTNH*
 >## What's Changed
 >* Set tinker tool pickup delay to standard 10 ticks by @serenibyss in https://github.com/GTNewHorizons/TinkersConstruct/pull/153
