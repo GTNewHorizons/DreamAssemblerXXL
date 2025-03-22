@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2025-03-22T14:09:45.625270",
+  "last_version": "2.7.3",
+  "last_updated": "2025-03-22T14:10:59.468328",
   "config": "2.8.0-nightly-2025-03-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -887,7 +887,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.32",
+      "version": "1.5.33",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
