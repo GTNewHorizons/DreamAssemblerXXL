@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2025-03-22T14:00:08.126583",
+  "last_version": "2.7.3",
+  "last_updated": "2025-03-22T15:49:34.085917",
   "config": "2.8.0-nightly-2025-03-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -177,7 +177,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.4",
+      "version": "2.9.5",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -887,7 +887,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.32",
+      "version": "1.5.34",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
