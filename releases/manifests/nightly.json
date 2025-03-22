@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-22T03:48:00.375220",
-  "config": "2.8.0-nightly-2025-03-19",
+  "last_updated": "2025-03-22T14:04:25.057505",
+  "config": "2.8.0-nightly-2025-03-22",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.5-GTNH",
@@ -177,7 +177,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.4",
+      "version": "2.9.5",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.186-pre",
+      "version": "5.09.51.190-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -313,7 +313,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.9.1-GTNH",
+      "version": "2.9.2-GTNH",
       "side": "BOTH"
     },
     "MalisisDoors": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.16.5-pre",
+      "version": "9.16.7",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -545,7 +545,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.10-GTNH",
+      "version": "1.13.12-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.0.23-GTNH",
+      "version": "0.0.24-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
