@@ -1,15 +1,15 @@
 {
   "version": "previous_nightly",
   "last_version": "2.7.3",
-  "last_updated": "2025-03-22T15:49:34.085917",
-  "config": "2.8.0-nightly-2025-03-22",
+  "last_updated": "2025-03-23T12:55:41.326405",
+  "config": "2.8.0-nightly-2025-03-22-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.5-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.35-gtnh-pre",
+      "version": "1.4.36-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.7.3-GTNH",
+      "version": "3.7.4-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -177,7 +177,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.5",
+      "version": "2.9.6",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.190-pre",
+      "version": "5.09.51.194-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -393,7 +393,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.11.11-GTNH-pre",
+      "version": "1.11.12-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -545,7 +545,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.12-GTNH-pre",
+      "version": "1.13.13-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -633,7 +633,7 @@
       "side": "BOTH"
     },
     "TX-Loader": {
-      "version": "1.8.3-pre",
+      "version": "1.8.4",
       "side": "CLIENT"
     },
     "NotEnoughIds": {
