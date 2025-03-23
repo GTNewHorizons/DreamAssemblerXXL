@@ -11,7 +11,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.36-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.37-gtnh-pre
+## *1.4.37-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.36-gtnh...1.4.37-gtnh-pre
+>
+
 ## *1.4.36-gtnh*
 >## What's Changed
 >* Fix terminal key bindings for mouse by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/270
@@ -405,7 +409,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-558-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-559-GTNH-pre
+## *rv3-beta-559-GTNH-pre*
+>## What's Changed
+>* Fix mouse click coordinate calculation on Interface Terminal by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/693
+>* change network energy storage display to infinity when it is so by @Glease in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/696
+>
+>## New Contributors
+>* @Kogepan229 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/693
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-554-GTNH...rv3-beta-559-GTNH-pre
+>
+
 ## *rv3-beta-558-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-557-GTNH-pre...rv3-beta-558-GTNH-pre
 >
@@ -965,7 +980,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/compare/0.6.0...0.7.0
 >
 
-# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.3-pre
+# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.4-pre
+## *1.3.4-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.3-pre...1.3.4-pre
+>
+
 ## *1.3.3-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.2...1.3.3-pre
 >
@@ -1649,9 +1668,37 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.81.191-pre
-## *5.09.81.191-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.190-pre...5.09.81.191-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.194-pre
+## *5.09.51.194-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.193-pre...5.09.51.194-pre
+>
+
+## *5.09.51.193-pre*
+>## What's Changed
+>* Allow SLAM to be built faster with Hologram Projector by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4090
+>* Localization of additional tooltips by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4093
+>* Stop ME input bus from pushing/allowing pulling by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4082
+>* Fix efficiency not going down after disabling the multiblock by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4086
+>* Adding Proper Batch, Mask Parallel & Adjusting Focus Bus on Beamline by @TheEpicGamer274 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4036
+>* New Later Recipe for Rhugnor by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4091
+>* Fix AL recipe packet NPE on world load by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4094
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.81.191-pre...5.09.51.193-pre
+>
+
+## *5.09.51.192*
+>## What's Changed
+>* Allow SLAM to be built faster with Hologram Projector by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4090
+>* Localization of additional tooltips by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4093
+>* Stop ME input bus from pushing/allowing pulling by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4082
+>* Fix efficiency not going down after disabling the multiblock by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4086
+>* Adding Proper Batch, Mask Parallel & Adjusting Focus Bus on Beamline by @TheEpicGamer274 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4036
+>* New Later Recipe for Rhugnor by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4091
+>* Fix AL recipe packet NPE on world load by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4094
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.189...5.09.51.192
 >
 
 ## *5.09.51.190-pre*
@@ -5000,7 +5047,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.140-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.142-pre
+## *2.7.142-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.141...2.7.142-pre
+>
+
+## *2.7.141*
+>## What's Changed
+>* Create new crafting recipes for upgrading transposers with Fluid Regulators by @Vlamonster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1212
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.139...2.7.141
+>
+
 ## *2.7.140-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.139...2.7.140-pre
 >
@@ -6373,7 +6432,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.4.0
 >
 
-# Updated - ProjectRed - 4.11.0-GTNH --> 4.11.1-GTNH
+# Updated - ProjectRed - 4.11.0-GTNH --> 4.11.2-GTNH-pre
+## *4.11.2-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.1-GTNH...4.11.2-GTNH-pre
+>
+
 ## *4.11.1-GTNH*
 >## What's Changed
 >* Configs to Disable Modules by @DrParadox7 in https://github.com/GTNewHorizons/ProjectRed/pull/39
@@ -6383,7 +6446,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.7
+# Updated - Railcraft - 9.15.17 --> 9.16.8-pre
+## *9.16.8-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.7...9.16.8-pre
+>
+
 ## *9.16.7*
 >## What's Changed
 >* Add goggle aura API by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/72
