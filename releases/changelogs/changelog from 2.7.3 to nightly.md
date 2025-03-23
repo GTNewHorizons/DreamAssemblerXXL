@@ -865,7 +865,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterBuildersWands/compare/0.13.1-GTNH...0.13.2-GTNH
 >
 
-# Updated - BetterQuesting - 3.6.24-GTNH --> 3.7.3-GTNH
+# Updated - BetterQuesting - 3.6.24-GTNH --> 3.7.4-GTNH
+## *3.7.4-GTNH*
+>## What's Changed
+>* fix depth test GL state leak by @kurrycat2004 in https://github.com/GTNewHorizons/BetterQuesting/pull/160
+>* Localized quest names on pop-ups by @ChromaPIE in https://github.com/GTNewHorizons/BetterQuesting/pull/159
+>
+>## New Contributors
+>* @kurrycat2004 made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/160
+>* @ChromaPIE made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/159
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.3-GTNH...3.7.4-GTNH
+>
+
 ## *3.7.3-GTNH*
 >## What's Changed
 >* Don't go back to previous screen when r-clicking searchbar by @Lyfts in https://github.com/GTNewHorizons/BetterQuesting/pull/158
@@ -7015,7 +7027,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.0-GTNH...1.4.1-GTNH-pre
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.12-GTNH-pre
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.13-GTNH
+## *1.13.13-GTNH*
+>## What's Changed
+>* Localization of drying rack nei recipe handler by @Discreater in https://github.com/GTNewHorizons/TinkersConstruct/pull/156
+>* Change Rank Duration Localization key by @slprime in https://github.com/GTNewHorizons/TinkersConstruct/pull/157
+>* Normalize Berry Bush rarity behavior by @MathiasDeWeerdt in https://github.com/GTNewHorizons/TinkersConstruct/pull/154
+>
+>## New Contributors
+>* @Discreater made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/156
+>* @MathiasDeWeerdt made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/154
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.10-GTNH...1.13.13-GTNH
+>
+
 ## *1.13.12-GTNH-pre*
 >## What's Changed
 >* Localization of drying rack nei recipe handler by @Discreater in https://github.com/GTNewHorizons/TinkersConstruct/pull/156

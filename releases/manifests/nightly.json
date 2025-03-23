@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-22T15:56:34.917396",
+  "last_updated": "2025-03-23T03:46:34.625959",
   "config": "2.8.0-nightly-2025-03-22-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.7.3-GTNH",
+      "version": "3.7.4-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -545,7 +545,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.12-GTNH-pre",
+      "version": "1.13.13-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
