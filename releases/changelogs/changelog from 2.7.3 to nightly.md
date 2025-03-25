@@ -11,7 +11,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.37-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.38-gtnh-pre
+## *1.4.38-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.37-gtnh-pre...1.4.38-gtnh-pre
+>
+
 ## *1.4.37-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.36-gtnh...1.4.37-gtnh-pre
 >
@@ -296,6 +300,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
+# Updated - AdventureBackpack2 - 1.3.5-GTNH --> 1.3.6-GTNH-pre
+## *1.3.6-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.5-GTNH...1.3.6-GTNH-pre
+>
+
 # Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta40
 Mod is client-side only.
 ## *1.0.0-beta40*
@@ -409,7 +418,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-559-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-560-GTNH-pre
+## *rv3-beta-560-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-559-GTNH-pre...rv3-beta-560-GTNH-pre
+>
+
+## *rv3-beta-560-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-559-GTNH-pre...rv3-beta-560-pre
+>
+
 ## *rv3-beta-559-GTNH-pre*
 >## What's Changed
 >* Fix mouse click coordinate calculation on Interface Terminal by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/693
@@ -980,7 +997,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/compare/0.6.0...0.7.0
 >
 
-# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.4-pre
+# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.5-pre
+## *1.3.5-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.4-pre...1.3.5-pre
+>
+
 ## *1.3.4-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.3-pre...1.3.4-pre
 >
@@ -1413,6 +1434,10 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.14-GTNH...1.4.0-GTNH
 >
 
+## *1.3.18-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.17-GTNH...1.3.18-GTNH
+>
+
 # Updated - Electro-Magic-Tools - 1.5.17 --> 1.6.3
 ## *1.6.3*
 >## What's Changed
@@ -1510,6 +1535,17 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.8.22...2.9.0
+>
+
+# Updated - EnderZoo - 1.3.1 --> 1.3.2
+## *1.3.2*
+>## What's Changed
+>* remove concussion creeper from tainted lands by @giantcavespider in https://github.com/GTNewHorizons/EnderZoo/pull/12
+>
+>## New Contributors
+>* @giantcavespider made their first contribution in https://github.com/GTNewHorizons/EnderZoo/pull/12
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderZoo/compare/1.3.1...1.3.2
 >
 
 # Updated - EnhancedLootBags - 1.1.2 --> 1.2.1
@@ -1668,7 +1704,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.194-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.196-pre
+## *5.09.51.196-pre*
+>## What's Changed
+>* Fix Antimatter Sequencer Tricoder info showing wrong information. by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4101
+>* Require sneaking to place cover on pipes, wires and frame boxes by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4104
+>* Hazard protection API by @2ndDerivative in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4102
+>* Fix Degasser Scanner Info Bug by @ReignOfFROZE in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4106
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.194-pre...5.09.51.196-pre
+>
+
+## *5.09.51.195*
+>## What's Changed
+>* Fix Antimatter Sequencer Tricoder info showing wrong information. by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4101
+>* Require sneaking to place cover on pipes, wires and frame boxes by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4104
+>* Hazard protection API by @2ndDerivative in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4102
+>* Fix Degasser Scanner Info Bug by @ReignOfFROZE in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4106
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.192...5.09.51.195
+>
+
 ## *5.09.51.194-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.193-pre...5.09.51.194-pre
 >
@@ -3995,7 +4053,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.2.9-GTNH...3.3.0-GTNH
 >
 
-# Updated - Galaxy-Space-GTNH - 1.1.99-GTNH --> 1.1.107-GTNH-pre
+# Updated - Galaxy-Space-GTNH - 1.1.99-GTNH --> 1.1.108-GTNH-pre
+## *1.1.108-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.107-GTNH-pre...1.1.108-GTNH-pre
+>
+
 ## *1.1.107-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.106-GTNH...1.1.107-GTNH-pre
 >
@@ -4098,7 +4160,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.32-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.33-pre
+## *2.6.33-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.32-pre...2.6.33-pre
+>
+
 ## *2.6.32-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.31...2.6.32-pre
 >
@@ -4743,7 +4809,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.4.6...1.5.0
 >
 
-# Updated - LogisticsPipes - 1.3.4-GTNH --> 1.4.2-GTNH
+# Updated - LogisticsPipes - 1.3.4-GTNH --> 1.4.3-GTNH-pre
+## *1.4.3-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.2-GTNH...1.4.3-GTNH-pre
+>
+
 ## *1.4.2-GTNH*
 >## What's Changed
 >* Search in the contents of Universal Fluid Cells by @godrja in https://github.com/GTNewHorizons/LogisticsPipes/pull/83
@@ -6018,7 +6088,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.33-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.34-GTNH
+## *2.7.34-GTNH*
+>## What's Changed
+>* prevent empty pages from being produced by @Glease in https://github.com/GTNewHorizons/NotEnoughItems/pull/615
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.33-GTNH...2.7.34-GTNH
+>
+
 ## *2.7.33-GTNH*
 >## What's Changed
 >* Add Hotkeys Widget Settings by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/613
@@ -6455,11 +6533,7 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.8-pre
-## *9.16.8-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.7...9.16.8-pre
->
-
+# Updated - Railcraft - 9.15.17 --> 9.16.7
 ## *9.16.7*
 >## What's Changed
 >* Add goggle aura API by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/72
@@ -6577,7 +6651,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.7 --> 2.1.32-pre
+# Updated - ServerUtilities - 2.1.7 --> 2.1.34-pre
+## *2.1.34-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.33...2.1.34-pre
+>
+
+## *2.1.33*
+>## What's Changed
+>* Backport playersSleepingPercentage gamerule and implement by @Cleptomania in https://github.com/GTNewHorizons/ServerUtilities/pull/162
+>
+>## New Contributors
+>* @Cleptomania made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/162
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.31...2.1.33
+>
+
 ## *2.1.32-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.31...2.1.32-pre
 >
