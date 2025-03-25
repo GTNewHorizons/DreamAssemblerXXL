@@ -6018,7 +6018,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.32-GTNH-pre
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.33-GTNH
+## *2.7.33-GTNH*
+>## What's Changed
+>* Add Hotkeys Widget Settings by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/613
+>* Add option to adjust FPS rendering of items by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/612
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.31-GTNH...2.7.33-GTNH
+>
+
 ## *2.7.32-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.31-GTNH...2.7.32-GTNH-pre
 >
