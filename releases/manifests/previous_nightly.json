@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-25T18:32:27.462444",
+  "last_updated": "2025-03-25T19:00:49.024205",
   "config": "2.8.0-nightly-2025-03-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-560-pre",
+      "version": "rv3-beta-560-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
