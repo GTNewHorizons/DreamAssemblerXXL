@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-25T03:47:24.610456",
-  "config": "2.8.0-nightly-2025-03-24",
+  "last_updated": "2025-03-25T18:46:31.591972",
+  "config": "2.8.0-nightly-2025-03-25",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.3.5-GTNH",
+      "version": "1.3.6-GTNH-pre",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.37-gtnh-pre",
+      "version": "1.4.38-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-559-GTNH-pre",
+      "version": "rv3-beta-560-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "EnderZoo": {
-      "version": "1.3.1",
+      "version": "1.3.2",
       "side": "BOTH"
     },
     "EnhancedLootBags": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.107-GTNH-pre",
+      "version": "1.1.108-GTNH-pre",
       "side": "BOTH"
     },
     "gendustry": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.194-pre",
+      "version": "5.09.51.196-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.32-pre",
+      "version": "2.6.33-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -301,7 +301,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.4.2-GTNH",
+      "version": "1.4.3-GTNH-pre",
       "side": "BOTH"
     },
     "LootGames": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.33-GTNH",
+      "version": "2.7.34-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.16.8-pre",
+      "version": "9.16.7",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -625,7 +625,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.3.4-pre",
+      "version": "1.3.5-pre",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.32-pre",
+      "version": "2.1.34-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
