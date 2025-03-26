@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-26T03:46:42.523765",
+  "last_updated": "2025-03-26T14:47:23.143560",
   "config": "2.8.0-nightly-2025-03-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-560-GTNH-pre",
+      "version": "rv3-beta-561-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.196-pre",
+      "version": "5.09.51.197-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.33-pre",
+      "version": "2.6.14",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.143-pre",
+      "version": "2.7.144-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -373,7 +373,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.34-GTNH",
+      "version": "2.7.35-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.34-pre",
+      "version": "2.1.36-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {

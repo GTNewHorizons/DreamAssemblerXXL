@@ -353,7 +353,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.3.1-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.3.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.6.34-pre |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.6.14 |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.5.1-GTNH |
 | [Hunger-Overhaul](https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul) | 1.0.0.104 |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.4.4 |
@@ -378,7 +378,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [MagicBees](https://github.com/GTNewHorizons/MagicBees) | 2.9.2-GTNH |
 | [MalisisDoors](https://github.com/GTNewHorizons/MalisisDoors) | 1.18.0-GTNH |
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.5.0 |
-| [MatterManipulator](https://github.com/GTNewHorizons/MatterManipulator) | 0.0.24-GTNH |
+| [MatterManipulator](https://github.com/GTNewHorizons/MatterManipulator) | 0.0.25-GTNH |
 | [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.5.0-GTNH |
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 2.3.1 |
 | [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.5.2-GTNH |
@@ -395,7 +395,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.4.0 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.16.0 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.3.0 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.7.144-pre |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.7.145-pre |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.3.0-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.0 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.1.6 |
