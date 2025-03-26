@@ -4778,7 +4778,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.9.1-GTNH...2.9.2-GTNH
 >
 
-# New Mod - MatterManipulator:0.0.24-GTNH
+# New Mod - MatterManipulator:0.0.25-GTNH
+## *0.0.25-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.24-GTNH...0.0.25-GTNH
+>
+
 ## *0.0.24-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.23-GTNH...0.0.24-GTNH
 >
@@ -4990,7 +4994,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.144-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.145-pre
+## *2.7.145-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.144-pre...2.7.145-pre
+>
+
 ## *2.7.144-pre*
 >## What's Changed
 >* Hotfix: Reflect change to GT Hazard API by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1226
