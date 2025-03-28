@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-27T03:49:19.949901",
+  "last_updated": "2025-03-28T03:48:01.077826",
   "config": "2.8.0-nightly-2025-03-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-561-GTNH-pre",
+      "version": "rv3-beta-562-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.197-pre",
+      "version": "5.09.51.198-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {

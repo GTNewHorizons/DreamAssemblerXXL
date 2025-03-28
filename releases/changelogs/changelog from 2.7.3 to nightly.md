@@ -418,7 +418,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-561-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-562-GTNH-pre
+## *rv3-beta-562-GTNH-pre*
+>## What's Changed
+>* Expansion of Quick Cell Partitioning (And a bugfix) by @ReignOfFROZE in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/697
+>* Quick Fix for Sticky Carding by @ReignOfFROZE in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/701
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-561-GTNH-pre...rv3-beta-562-GTNH-pre
+>
+
+## *rv3-beta-561-GTNH*
+>## What's Changed
+>* Fix mouse click coordinate calculation on Interface Terminal by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/693
+>* change network energy storage display to infinity when it is so by @Glease in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/696
+>* Expansion of Quick Cell Partitioning (And a bugfix) by @ReignOfFROZE in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/697
+>* Quick Fix for Sticky Carding by @ReignOfFROZE in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/701
+>
+>## New Contributors
+>* @Kogepan229 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/693
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-554-GTNH...rv3-beta-561-GTNH
+>
+
 ## *rv3-beta-561-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-560-GTNH-pre...rv3-beta-561-GTNH-pre
 >
@@ -1708,7 +1730,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.197-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.198-pre
+## *5.09.51.198-pre*
+>## What's Changed
+>* Spotless apply for branch beamline-fix-yet-again for #4109 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4110
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.197-pre...5.09.51.198-pre
+>
+
 ## *5.09.51.197-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.196-pre...5.09.51.197-pre
 >
