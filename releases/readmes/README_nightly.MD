@@ -265,7 +265,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.8.2 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.4 |
 | [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-565-GTNH-pre |
-| [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.7.4 |
+| [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.7.5 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.10.2 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.6.0 |
 | [Automagy](https://www.curseforge.com/minecraft/mc-mods/automagy) | 0.28.2 |
@@ -309,7 +309,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Controlling](https://github.com/GTNewHorizons/Controlling) | 2.1.2 |
 | [CookingForBlockheads](https://github.com/GTNewHorizons/CookingForBlockheads) | 1.4.3-GTNH |
 | [CoreTweaks](https://github.com/GTNewHorizons/CoreTweaks) | 0.3.3.3-GTNH |
-| [Craft-Presence](https://www.curseforge.com/minecraft/mc-mods/craftpresence/) | 2.5.3 |
+| [Craft-Presence](https://www.curseforge.com/minecraft/mc-mods/craftpresence/) | 2.5.4 |
 | [CraftTweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.4.0 |
 | [CreativeCore](https://github.com/GTNewHorizons/CreativeCore) | 1.4.0-GTNH |
 | [CropLoadCore](https://github.com/GTNewHorizons/CropLoadCore) | 0.2.0 |

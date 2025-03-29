@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "2.7.3",
-  "last_updated": "2025-03-29T10:23:16.242989",
+  "last_updated": "2025-03-29T10:30:36.190656",
   "config": "2.8.0-nightly-2025-03-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -891,7 +891,7 @@
       "side": "BOTH"
     },
     "Craft-Presence": {
-      "version": "2.5.3",
+      "version": "2.5.4",
       "side": "CLIENT"
     },
     "Gravitation-Suite-old": {
@@ -903,7 +903,7 @@
       "side": "BOTH"
     },
     "Archaicfix": {
-      "version": "0.7.4",
+      "version": "0.7.5",
       "side": "BOTH"
     },
     "Hunger-Overhaul": {
