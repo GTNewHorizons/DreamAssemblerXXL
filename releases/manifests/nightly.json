@@ -1,11 +1,11 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-28T03:48:01.077826",
+  "last_updated": "2025-03-29T03:46:09.879986",
   "config": "2.8.0-nightly-2025-03-25",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.3.6-GTNH-pre",
+      "version": "1.3.7-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-562-GTNH-pre",
+      "version": "rv3-beta-564-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.12.6-GTNH",
+      "version": "1.12.7-GTNH-pre",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -137,7 +137,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.4.2-GTNH",
+      "version": "1.4.3-GTNH",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.108-GTNH-pre",
+      "version": "1.1.110-GTNH-pre",
       "side": "BOTH"
     },
     "gendustry": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.16",
+      "version": "0.6.17",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -373,11 +373,11 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.35-GTNH-pre",
+      "version": "2.7.36-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.6.7",
+      "version": "2.6.8-pre",
       "side": "BOTH"
     },
     "oauth": {
@@ -429,7 +429,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.16.7",
+      "version": "9.16.8-pre",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -521,7 +521,7 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.8.3",
+      "version": "1.8.4-pre",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
