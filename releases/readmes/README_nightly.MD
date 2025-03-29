@@ -387,7 +387,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.2.18 |
 | [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) | 1.6.21 |
 | [MrTJPCore](https://github.com/GTNewHorizons/MrTJPCore) | 1.3.0 |
-| [MX-Random](https://github.com/GTNewHorizons/MX-Random) | 0.5.3 |
 | [Natura](https://github.com/GTNewHorizons/Natura) | 2.8.3-pre |
 | [NaturesCompass](https://github.com/GTNewHorizons/NaturesCompass) | 1.5.0-GTNH |
 | [Navigator](https://github.com/GTNewHorizons/Navigator) | 1.0.15 |
