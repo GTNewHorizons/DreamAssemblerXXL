@@ -6,12 +6,17 @@
 > * Salis-Arcana
 # Mods Removed: 
 > * Hardcore Darkness
+> * MX-Random
 > * MouseTweaks
 > * ThaumicInventoryScanning
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.38-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.39-gtnh-pre
+## *1.4.39-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.38-gtnh-pre...1.4.39-gtnh-pre
+>
+
 ## *1.4.38-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.37-gtnh-pre...1.4.38-gtnh-pre
 >
@@ -428,7 +433,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-564-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-565-GTNH-pre
+## *rv3-beta-565-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-564-GTNH-pre...rv3-beta-565-GTNH-pre
+>
+
 ## *rv3-beta-564-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-563-GTNH...rv3-beta-564-GTNH-pre
 >
@@ -987,7 +996,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.6.22-GTNH...3.7.0-GTNH
 >
 
-# Updated - Binnie - 2.4.8 --> 2.5.4
+# Updated - Binnie - 2.4.8 --> 2.5.5-pre
+## *2.5.5-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.4...2.5.5-pre
+>
+
 ## *2.5.4*
 >## What's Changed
 >* Isolator crash fix revision by @Astatine5985 in https://github.com/GTNewHorizons/Binnie/pull/56
@@ -1417,7 +1430,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.2...1.0.3
 >
 
-# Updated - Draconic-Evolution - 1.3.17-GTNH --> 1.4.10-GTNH-pre
+# Updated - Draconic-Evolution - 1.3.17-GTNH --> 1.4.11-GTNH-pre
+## *1.4.11-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.10-GTNH-pre...1.4.11-GTNH-pre
+>
+
 ## *1.4.10-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.9-GTNH-pre...1.4.10-GTNH-pre
 >
@@ -1766,7 +1783,43 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.198-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.201-pre
+## *5.09.51.201-pre*
+>## What's Changed
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4075
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4076
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.200...5.09.51.201-pre
+>
+
+## *5.09.51.200*
+>## What's Changed
+>* Casing system by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4067
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.199...5.09.51.200
+>
+
+## *5.09.51.199*
+>## What's Changed
+>* Some CommonBaseMetaTileEntity refactors by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4105
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.198...5.09.51.199
+>
+
+## *5.09.51.198*
+>## What's Changed
+>* MUI2 port part2: Widget Theme by @miozune in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4066
+>* fix rendering issues introduced by #3973 by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4111
+>* Glass Refactor and other assorted minor structure check/tooltip fixes by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4032
+>* Refactoring GT++ 2025-03-03 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4020
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.197...5.09.51.198
+>
+
 ## *5.09.51.198-pre*
 >## What's Changed
 >* Spotless apply for branch beamline-fix-yet-again for #4109 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4110
@@ -1775,8 +1828,24 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.197-pre...5.09.51.198-pre
 >
 
+## *5.09.51.197*
+>## What's Changed
+>* Fix pipe collisions by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4108
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.196...5.09.51.197
+>
+
 ## *5.09.51.197-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.196-pre...5.09.51.197-pre
+>
+
+## *5.09.51.196*
+>## What's Changed
+>* Fix Leftover wafers from beamline durability calculation by @TheEpicGamer274 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4109
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.195...5.09.51.196
 >
 
 ## *5.09.51.196-pre*
@@ -4828,39 +4897,6 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.1.4...2.2.0
 >
 
-# Updated - MX-Random - 0.4.7 --> 0.5.3
-## *0.5.3*
->## What's Changed
->* Refactor hidden fx UI by @serenibyss in https://github.com/GTNewHorizons/MX-Random/pull/15
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.5.1...0.5.3
->
-
-## *0.5.2-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.5.1...0.5.2-pre
->
-
-## *0.5.1*
->## What's Changed
->* Add LMA recipe back by @StaffiX in https://github.com/GTNewHorizons/MX-Random/pull/16
->
->## New Contributors
->* @StaffiX made their first contribution in https://github.com/GTNewHorizons/MX-Random/pull/16
->
->**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.5.0...0.5.1
->
-
-## *0.5.0*
->## What's Changed
->* Port to Java by @serenibyss in https://github.com/GTNewHorizons/MX-Random/pull/14
->
->## New Contributors
->* @serenibyss made their first contribution in https://github.com/GTNewHorizons/MX-Random/pull/14
->
->**Full Changelog**: https://github.com/GTNewHorizons/MX-Random/compare/0.4.6...0.5.0
->
-
 # Updated - MagicBees - 2.9.1-GTNH --> 2.9.2-GTNH
 ## *2.9.2-GTNH*
 >## What's Changed
@@ -5057,7 +5093,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MrTJPCore/compare/1.2.1...1.3.0
 >
 
-# Updated - Natura - 2.7.6 --> 2.8.2
+# Updated - Natura - 2.7.6 --> 2.8.3-pre
+## *2.8.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.2...2.8.3-pre
+>
+
 ## *2.8.2*
 >## What's Changed
 >* Slab Refactor, Leaf Refactor, and Everything Burns by @Ruling-0 in https://github.com/GTNewHorizons/Natura/pull/29
@@ -5088,7 +5128,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.145-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.147-pre
+## *2.7.147-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.145-pre...2.7.147-pre
+>
+
+## *2.7.146*
+>## What's Changed
+>* Hotfix: Reflect change to GT Hazard API by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1226
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.141...2.7.146
+>
+
 ## *2.7.145-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.144-pre...2.7.145-pre
 >
@@ -6075,7 +6127,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.36-GTNH-pre
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.37-GTNH-pre
+## *2.7.37-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.36-GTNH-pre...2.7.37-GTNH-pre
+>
+
 ## *2.7.36-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.35-GTNH-pre...2.7.36-GTNH-pre
 >
@@ -6997,7 +7053,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.2...1.8.0
 >
 
-# Updated - ThaumicBases - 1.7.8 --> 1.8.4-pre
+# Updated - ThaumicBases - 1.7.8 --> 1.8.5-pre
+## *1.8.5-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.8.4-pre...1.8.5-pre
+>
+
 ## *1.8.4-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.8.3...1.8.4-pre
 >
