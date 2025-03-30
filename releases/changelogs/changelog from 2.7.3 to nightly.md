@@ -433,7 +433,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-565-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-567-GTNH-pre
+## *rv3-beta-567-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-566-GTNH-pre...rv3-beta-567-GTNH-pre
+>
+
+## *rv3-beta-566-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-565-GTNH-pre...rv3-beta-566-GTNH-pre
+>
+
 ## *rv3-beta-565-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-564-GTNH-pre...rv3-beta-565-GTNH-pre
 >
@@ -1122,7 +1130,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.5
+# Updated - BloodMagic - 1.6.11 --> 1.7.6-pre
+## *1.7.6-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.5...1.7.6-pre
+>
+
 ## *1.7.5*
 >## What's Changed
 >* New TypeAdapter for ItemStack by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/67
@@ -1783,7 +1795,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.202-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.204-pre
+## *5.09.51.204-pre*
+>## What's Changed
+>* Enable power panel functionality for godforge modules by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4114
+>* Fix merge conflicts by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4116
+>* Fix BlockRenderer6343 hatch face culling by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4095
+>* Fix/hazard api by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4107
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.202-pre...5.09.51.204-pre
+>
+
+## *5.09.51.203*
+>## What's Changed
+>* Enable power panel functionality for godforge modules by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4114
+>* Fix merge conflicts by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4116
+>* Fix BlockRenderer6343 hatch face culling by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4095
+>* Fix/hazard api by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4107
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.200...5.09.51.203
+>
+
 ## *5.09.51.202-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.201-pre...5.09.51.202-pre
 >
@@ -4857,7 +4891,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.4.6...1.5.0
 >
 
-# Updated - LogisticsPipes - 1.3.4-GTNH --> 1.4.3-GTNH-pre
+# Updated - LogisticsPipes - 1.3.4-GTNH --> 1.4.4-GTNH-pre
+## *1.4.4-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.3-GTNH-pre...1.4.4-GTNH-pre
+>
+
 ## *1.4.3-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.2-GTNH...1.4.3-GTNH-pre
 >
@@ -5105,7 +5143,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MrTJPCore/compare/1.2.1...1.3.0
 >
 
-# Updated - Natura - 2.7.6 --> 2.8.3-pre
+# Updated - Natura - 2.7.6 --> 2.8.4-pre
+## *2.8.4-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.3-pre...2.8.4-pre
+>
+
 ## *2.8.3-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.2...2.8.3-pre
 >
