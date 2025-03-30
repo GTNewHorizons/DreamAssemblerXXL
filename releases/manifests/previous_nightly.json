@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-29T10:13:32.548276",
+  "last_updated": "2025-03-30T03:50:44.629845",
   "config": "2.8.0-nightly-2025-03-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -77,7 +77,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.5.4",
+      "version": "2.5.5-pre",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.201-pre",
+      "version": "5.09.51.202-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -334,10 +334,6 @@
     },
     "ModTweaker": {
       "version": "0.11.0",
-      "side": "BOTH"
-    },
-    "MX-Random": {
-      "version": "0.5.3",
       "side": "BOTH"
     },
     "Natura": {
@@ -701,7 +697,7 @@
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.37",
+      "version": "1.5.39",
       "side": "BOTH"
     },
     "amunra": {
@@ -895,7 +891,7 @@
       "side": "BOTH"
     },
     "Craft-Presence": {
-      "version": "2.5.3",
+      "version": "2.5.4",
       "side": "CLIENT"
     },
     "Gravitation-Suite-old": {
@@ -907,7 +903,7 @@
       "side": "BOTH"
     },
     "Archaicfix": {
-      "version": "0.7.4",
+      "version": "0.7.5",
       "side": "BOTH"
     },
     "Hunger-Overhaul": {
