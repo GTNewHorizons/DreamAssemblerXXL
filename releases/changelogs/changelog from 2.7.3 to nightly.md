@@ -437,7 +437,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-569-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-573-GTNH-pre
+## *rv3-beta-573-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-572-GTNH-pre...rv3-beta-573-GTNH-pre
+>
+
+## *rv3-beta-572-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-571-GTNH-pre...rv3-beta-572-GTNH-pre
+>
+
+## *rv3-beta-571-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-570-GTNH-pre...rv3-beta-571-GTNH-pre
+>
+
+## *rv3-beta-570-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-569-GTNH-pre...rv3-beta-570-GTNH-pre
+>
+
 ## *rv3-beta-569-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-568-GTNH-pre...rv3-beta-569-GTNH-pre
 >
@@ -1811,7 +1827,31 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.208-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.212-pre
+## *5.09.51.212-pre*
+>## What's Changed
+>* Fix Cleanroom NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4125
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.206-pre...5.09.51.212-pre
+>
+
+## *5.09.51.211*
+>## What's Changed
+>* Fix Cleanroom NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4125
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.205...5.09.51.211
+>
+
+## *5.09.51.209-pre*
+>## What's Changed
+>* Fix Cleanroom NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4125
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.208-pre...5.09.51.209-pre
+>
+
 ## *5.09.51.208-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.206-pre...5.09.51.208-pre
 >
@@ -5232,7 +5272,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.147-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.150-pre
+## *2.7.150-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.149...2.7.150-pre
+>
+
+## *2.7.149*
+>## What's Changed
+>* Remove BWGlassAdder by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1216
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.146...2.7.149
+>
+
+## *2.7.148-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.147-pre...2.7.148-pre
+>
+
 ## *2.7.147-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.145-pre...2.7.147-pre
 >
@@ -7394,7 +7450,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.0-GTNH...1.4.1-GTNH-pre
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.13-GTNH
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.14-GTNH-pre
+## *1.13.14-GTNH-pre*
+>## What's Changed
+>* Normalize Berry Bush rarity behavior by @MathiasDeWeerdt in https://github.com/GTNewHorizons/TinkersConstruct/pull/154
+>
+>## New Contributors
+>* @MathiasDeWeerdt made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/154
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.12-GTNH-pre...1.13.14-GTNH-pre
+>
+
 ## *1.13.13-GTNH*
 >## What's Changed
 >* Localization of drying rack nei recipe handler by @Discreater in https://github.com/GTNewHorizons/TinkersConstruct/pull/156
