@@ -12,7 +12,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.39-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.40-gtnh-pre
+## *1.4.40-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.39-gtnh-pre...1.4.40-gtnh-pre
+>
+
 ## *1.4.39-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.38-gtnh-pre...1.4.39-gtnh-pre
 >
@@ -433,7 +437,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-567-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-569-GTNH-pre
+## *rv3-beta-569-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-568-GTNH-pre...rv3-beta-569-GTNH-pre
+>
+
+## *rv3-beta-568-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-567-GTNH-pre...rv3-beta-568-GTNH-pre
+>
+
 ## *rv3-beta-567-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-566-GTNH-pre...rv3-beta-567-GTNH-pre
 >
@@ -1660,7 +1672,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.2.0
 >
 
-# New Mod - Et-Futurum-Requiem:2.6.2.4-GTNH
+# New Mod - Et-Futurum-Requiem:2.6.2.5-GTNH
+## *2.6.2.5-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.4-GTNH...2.6.2.5-GTNH
+>
+
 ## *2.6.2.4-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.3-GTNH...2.6.2.4-GTNH
 >
@@ -1795,7 +1811,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.204-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.206-pre
+## *5.09.51.206-pre*
+>## What's Changed
+>* Remove Aluminium Oreberry fluid extraction by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4120
+>* Fix EIC NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4121
+>* Disable any automation of BBF by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4113
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.204-pre...5.09.51.206-pre
+>
+
+## *5.09.51.205*
+>## What's Changed
+>* Remove Aluminium Oreberry fluid extraction by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4120
+>* Fix EIC NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4121
+>* Disable any automation of BBF by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4113
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.203...5.09.51.205
+>
+
 ## *5.09.51.204-pre*
 >## What's Changed
 >* Enable power panel functionality for godforge modules by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4114
@@ -4523,7 +4559,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.3...1.4.4
 >
 
-# Updated - IguanaTweaksTConstruct - 2.6.0 --> 2.6.1-pre
+# Updated - IguanaTweaksTConstruct - 2.6.0 --> 2.6.2
+## *2.6.2*
+>## What's Changed
+>* New clay buckets by @YannickMG in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/19
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/19
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.6.0...2.6.2
+>
+
 ## *2.6.1-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.6.0...2.6.1-pre
 >
@@ -6712,7 +6758,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.15...9.16.0
 >
 
-# New Mod - Salis-Arcana:1.1.9-GTNH-pre
+# Updated - Random-Things - 2.6.0 --> 2.6.1
+## *2.6.1*
+>## What's Changed
+>* Patch Misc Issue by @Connor-Colenso in https://github.com/GTNewHorizons/Random-Things/pull/8
+>
+>## New Contributors
+>* @Connor-Colenso made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/8
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.6.0...2.6.1
+>
+
+# New Mod - Salis-Arcana:1.1.10-GTNH
+## *1.1.10-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.9-GTNH-pre...1.1.10-GTNH
+>
+
 ## *1.1.9-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.8-GTNH-pre...1.1.9-GTNH-pre
 >

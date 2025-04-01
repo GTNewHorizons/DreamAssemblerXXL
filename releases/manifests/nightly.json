@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-03-31T03:49:13.972070",
-  "config": "2.8.0-nightly-2025-03-29",
+  "last_updated": "2025-04-01T03:54:36.644926",
+  "config": "2.8.0-nighty-2024-12-31-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.7-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.39-gtnh-pre",
+      "version": "1.4.40-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-567-GTNH-pre",
+      "version": "rv3-beta-569-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.204-pre",
+      "version": "5.09.51.206-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
-      "version": "2.6.1-pre",
+      "version": "2.6.2",
       "side": "BOTH"
     },
     "Infernal-Mobs": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "Random-Things": {
-      "version": "2.6.0",
+      "version": "2.6.1",
       "side": "BOTH"
     },
     "Tainted-Magic": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.9-GTNH-pre",
+      "version": "1.1.10-GTNH",
       "side": "BOTH"
     },
     "CoreTweaks": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.2.4-GTNH",
+      "version": "2.6.2.5-GTNH",
       "side": "BOTH"
     }
   },
