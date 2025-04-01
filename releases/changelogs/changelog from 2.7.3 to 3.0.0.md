@@ -366,9 +366,10 @@ Mod is client-side only.
 > * Updates by @Taskeren in https://github.com/GTNewHorizons/Forgelin/pull/11 (2.0.0-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.50.118 -->  5.09.51.208-pre)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.208-pre
+# Updated GT5-Unofficial (5.09.50.118 -->  5.09.51.209-pre)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.209-pre
 >## What's Changed
+> * Fix Cleanroom NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4125 (5.09.51.209-pre)
 > * Remove Aluminium Oreberry fluid extraction by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4120 (5.09.51.206-pre)
 > * Fix EIC NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4121 (5.09.51.206-pre)
 > * Disable any automation of BBF by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4113 (5.09.51.206-pre)
@@ -1274,8 +1275,8 @@ Mod is client-side only.
 > * Add Localizations by @glowredman in https://github.com/GTNewHorizons/Natura/pull/27 (2.8.0)
 >
 
-# Updated NewHorizonsCoreMod (2.6.99 -->  2.7.147-pre)
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.147-pre
+# Updated NewHorizonsCoreMod (2.6.99 -->  2.7.148-pre)
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.148-pre
 >## What's Changed
 > * Hotfix: Reflect change to GT Hazard API by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1226 (2.7.146, 2.7.144-pre)
 > * Create new crafting recipes for upgrading transposers with Fluid Regulators by @Vlamonster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1212 (2.7.141)
