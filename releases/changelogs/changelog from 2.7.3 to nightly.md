@@ -12,7 +12,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.40-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.41-gtnh-pre
+## *1.4.41-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.40-gtnh-pre...1.4.41-gtnh-pre
+>
+
 ## *1.4.40-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.39-gtnh-pre...1.4.40-gtnh-pre
 >
@@ -437,7 +441,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-574-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-575-GTNH-pre
+## *rv3-beta-575-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-574-GTNH-pre...rv3-beta-575-GTNH-pre
+>
+
 ## *rv3-beta-574-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-573-GTNH-pre...rv3-beta-574-GTNH-pre
 >
@@ -1831,7 +1839,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.215-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.218-pre
+## *5.09.51.218-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.217-pre...5.09.51.218-pre
+>
+
+## *5.09.51.217-pre*
+>## What's Changed
+>* Fix Synchrotron NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4127
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.215-pre...5.09.51.217-pre
+>
+
+## *5.09.51.216*
+>## What's Changed
+>* Fix Synchrotron NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4127
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.211...5.09.51.216
+>
+
 ## *5.09.51.215-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.213-pre...5.09.51.215-pre
 >
@@ -4113,7 +4141,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.5.0
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.17
+# Updated - GTNHLib - 0.5.23 --> 0.6.18
+## *0.6.18*
+>## What's Changed
+>* New mixin infrastructure by @Cleptomania in https://github.com/GTNewHorizons/GTNHLib/pull/127
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.17...0.6.18
+>
+
 ## *0.6.17*
 >## What's Changed
 >* Added offset(int, int, int) and copy() for BlockPos by @Taskeren in https://github.com/GTNewHorizons/GTNHLib/pull/125
@@ -6902,7 +6938,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.7 --> 2.1.37-pre
+# Updated - ServerUtilities - 2.1.7 --> 2.1.39-pre
+## *2.1.39-pre*
+>## What's Changed
+>* Change Sidebar zIndex by @slprime in https://github.com/GTNewHorizons/ServerUtilities/pull/205
+>
+>## New Contributors
+>* @slprime made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/205
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.37-pre...2.1.39-pre
+>
+
+## *2.1.38*
+>## What's Changed
+>* Change Sidebar zIndex by @slprime in https://github.com/GTNewHorizons/ServerUtilities/pull/205
+>
+>## New Contributors
+>* @slprime made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/205
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.35...2.1.38
+>
+
 ## *2.1.37-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.36-pre...2.1.37-pre
 >
