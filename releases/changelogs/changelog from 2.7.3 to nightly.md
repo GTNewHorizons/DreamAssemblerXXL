@@ -437,7 +437,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-573-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-574-GTNH-pre
+## *rv3-beta-574-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-573-GTNH-pre...rv3-beta-574-GTNH-pre
+>
+
 ## *rv3-beta-573-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-572-GTNH-pre...rv3-beta-573-GTNH-pre
 >
@@ -1827,7 +1831,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.212-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.215-pre
+## *5.09.51.215-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.213-pre...5.09.51.215-pre
+>
+
+## *5.09.51.214-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.209-pre...5.09.51.214-pre
+>
+
+## *5.09.51.213-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.212-pre...5.09.51.213-pre
+>
+
 ## *5.09.51.212-pre*
 >## What's Changed
 >* Fix Cleanroom NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4125
@@ -6886,7 +6902,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.7 --> 2.1.36-pre
+# Updated - ServerUtilities - 2.1.7 --> 2.1.37-pre
+## *2.1.37-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.36-pre...2.1.37-pre
+>
+
 ## *2.1.36-pre*
 >## What's Changed
 >* Fix permissions not working for WorldEdit commands by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/201
