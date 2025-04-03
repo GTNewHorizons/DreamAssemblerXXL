@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-04-03T06:24:09.201071",
-  "config": "3.0.0",
+  "last_updated": "2025-04-03T20:48:49.680165",
+  "config": "3.0.1",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.7-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.43-gtnh-pre",
+      "version": "1.4.44-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-577-GTNH-pre",
+      "version": "rv3-beta-578-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.219-pre",
+      "version": "5.09.51.223-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.8.4-pre",
+      "version": "2.8.6-pre",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.150-pre",
+      "version": "2.7.151-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -385,7 +385,7 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.11.3-GTNH",
+      "version": "1.11.4-GTNH-pre",
       "side": "BOTH"
     },
     "OpenComputers": {
@@ -541,7 +541,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.15-GTNH",
+      "version": "1.13.17-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -621,7 +621,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.3.5-pre",
+      "version": "1.3.7-pre",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.40",
+      "version": "2.1.41-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {

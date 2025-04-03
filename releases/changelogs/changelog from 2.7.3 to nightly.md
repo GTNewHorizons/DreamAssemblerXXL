@@ -12,7 +12,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.43-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.44-gtnh-pre
+## *1.4.44-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.28-gtnh...1.4.44-gtnh-pre
+>
+
 ## *1.4.43-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.42-gtnh...1.4.43-gtnh-pre
 >
@@ -461,7 +465,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-577-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-578-GTNH-pre
+## *rv3-beta-578-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-576-GTNH...rv3-beta-578-GTNH-pre
+>
+
 ## *rv3-beta-577-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-576-GTNH...rv3-beta-577-GTNH-pre
 >
@@ -1148,7 +1156,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/compare/0.6.0...0.7.0
 >
 
-# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.5-pre
+# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.7-pre
+## *1.3.7-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.6...1.3.7-pre
+>
+
+## *1.3.6*
+>## What's Changed
+>* "All" and "Not set" localizable by @ChromaPIE in https://github.com/GTNewHorizons/BlockRenderer6343/pull/29
+>
+>## New Contributors
+>* @ChromaPIE made their first contribution in https://github.com/GTNewHorizons/BlockRenderer6343/pull/29
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.2...1.3.6
+>
+
 ## *1.3.5-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.4-pre...1.3.5-pre
 >
@@ -1890,7 +1912,46 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.219-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.223-pre
+## *5.09.51.223-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.222-pre...5.09.51.223-pre
+>
+
+## *5.09.51.222-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.221-pre...5.09.51.222-pre
+>
+
+## *5.09.51.221-pre*
+>## What's Changed
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4075
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4076
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.220...5.09.51.221-pre
+>
+
+## *5.09.51.220*
+>## What's Changed
+>* Fix ActiveGTMachineMutationCondition by @dibbydoda in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4130
+>* Add more info to MTE collision exception by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4129
+>* Add a config option to invert scrolling direction for Ghost Circuits by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4103
+>* Synchrotron is not symmetrical by @guid118 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4100
+>* Better Dynamic Heating Coil Textures by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4096
+>* Comet helium ions by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4098
+>* Localization of scanner's information data by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4124
+>* Fix spelling of "Appliances" in GT++ by @Zorbatron in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4131
+>* Fix PrAss NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4132
+>* Beamline Refactor/Cleanup by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4133
+>* Fix t1 water not forming with distilled or cofhcore water by @NotAPenguin0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4135
+>
+>## New Contributors
+>* @dibbydoda made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4130
+>* @guid118 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4100
+>* @Zorbatron made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4131
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.216...5.09.51.220
+>
+
 ## *5.09.51.219-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.214-pre...5.09.51.219-pre
 >
@@ -5350,7 +5411,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MrTJPCore/compare/1.2.1...1.3.0
 >
 
-# Updated - Natura - 2.7.6 --> 2.8.4-pre
+# Updated - Natura - 2.7.6 --> 2.8.6-pre
+## *2.8.6-pre*
+>## What's Changed
+>* Generate Saguaro Cactus in more desert biomes by @Vlamonster in https://github.com/GTNewHorizons/Natura/pull/30
+>
+>## New Contributors
+>* @Vlamonster made their first contribution in https://github.com/GTNewHorizons/Natura/pull/30
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.4-pre...2.8.6-pre
+>
+
+## *2.8.5*
+>## What's Changed
+>* Generate Saguaro Cactus in more desert biomes by @Vlamonster in https://github.com/GTNewHorizons/Natura/pull/30
+>
+>## New Contributors
+>* @Vlamonster made their first contribution in https://github.com/GTNewHorizons/Natura/pull/30
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.2...2.8.5
+>
+
 ## *2.8.4-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.3-pre...2.8.4-pre
 >
@@ -5389,7 +5470,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.150-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.151-pre
+## *2.7.151-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.150-pre...2.7.151-pre
+>
+
 ## *2.7.150-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.149...2.7.150-pre
 >
@@ -6708,6 +6793,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.5.0-GTNH...1.6.0-GTNH
 >
 
+# Updated - OpenBlocks - 1.11.3-GTNH --> 1.11.4-GTNH-pre
+## *1.11.4-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.11.3-GTNH...1.11.4-GTNH-pre
+>
+
 # Updated - OpenComputers - 1.10.30-GTNH --> 1.11.12-GTNH
 ## *1.11.12-GTNH*
 >## What's Changed
@@ -7013,7 +7103,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.7 --> 2.1.40
+# Updated - ServerUtilities - 2.1.7 --> 2.1.41-pre
+## *2.1.41-pre*
+>## What's Changed
+>* Fix crash when creating new world by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/206
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.39-pre...2.1.41-pre
+>
+
 ## *2.1.40*
 >## What's Changed
 >* Fix crash when creating new world by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/206
@@ -7620,7 +7718,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.0-GTNH...1.4.1-GTNH-pre
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.15-GTNH
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.17-GTNH-pre
+## *1.13.17-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.16-GTNH...1.13.17-GTNH-pre
+>
+
+## *1.13.16-GTNH*
+>## What's Changed
+>* Prevent wasting bone meal on slimy saplings in survival. by @koolkrafter5 in https://github.com/GTNewHorizons/TinkersConstruct/pull/160
+>
+>## New Contributors
+>* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/160
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.15-GTNH...1.13.16-GTNH
+>
+
 ## *1.13.15-GTNH*
 >## What's Changed
 >* Allow the Scythe to harvest crops in an AOE by @YannickMG in https://github.com/GTNewHorizons/TinkersConstruct/pull/159
