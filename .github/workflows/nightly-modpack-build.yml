@@ -15,7 +15,7 @@ jobs:
         with:
           token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
           fetch-depth: 0
-          ref: master
+          ref: af
       - name: Set up python
         id: setup-python
         uses: actions/setup-python@v5
