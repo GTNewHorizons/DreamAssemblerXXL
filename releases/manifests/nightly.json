@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-04-02T13:00:51.619490",
+  "last_updated": "2025-04-03T03:49:28.829425",
   "config": "3.0.0",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.41-gtnh-pre",
+      "version": "1.4.43-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-575-GTNH-pre",
+      "version": "rv3-beta-577-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -141,7 +141,7 @@
       "side": "BOTH"
     },
     "CraftTweaker": {
-      "version": "3.4.0",
+      "version": "3.4.1",
       "side": "BOTH"
     },
     "CreativeCore": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "Infernal-Mobs": {
-      "version": "1.10.1-GTNH-pre",
+      "version": "1.10.2-GTNH",
       "side": "BOTH"
     },
     "InGame-Info-XML": {
@@ -421,7 +421,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.11.2-GTNH-pre",
+      "version": "4.11.3-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -517,7 +517,7 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.8.5-pre",
+      "version": "1.8.6",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
@@ -541,7 +541,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.14-GTNH-pre",
+      "version": "1.13.15-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.39-pre",
+      "version": "2.1.40",
       "side": "BOTH"
     },
     "Tinkers-Defense": {

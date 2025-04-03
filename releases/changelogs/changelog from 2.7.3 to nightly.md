@@ -12,7 +12,27 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.41-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.43-gtnh-pre
+## *1.4.43-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.42-gtnh...1.4.43-gtnh-pre
+>
+
+## *1.4.42-gtnh*
+>## What's Changed
+>* Change Creative Cell Capacity by @StaffiX in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/276
+>* Fix pattern multi by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/277
+>* made ItemBaseWirelessTerminal.canHandle null-safe by @guid118 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/274
+>* Partition gregtech fluids by @jurrejelle in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/273
+>* Allow math expression in Fluid Level Emitter GUI by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/279
+>
+>## New Contributors
+>* @StaffiX made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/276
+>* @guid118 made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/274
+>* @jurrejelle made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/273
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.36-gtnh...1.4.42-gtnh
+>
+
 ## *1.4.41-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.40-gtnh-pre...1.4.41-gtnh-pre
 >
@@ -441,7 +461,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-575-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-577-GTNH-pre
+## *rv3-beta-577-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-576-GTNH...rv3-beta-577-GTNH-pre
+>
+
+## *rv3-beta-576-GTNH*
+>## What's Changed
+>* Fix MENetworkChannelChanged not woking by @reobf in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/712
+>* Add press items to blocking mode ignore list by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/711
+>* Change Creative Cell Capacity by @StaffiX in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/708
+>* Order to craft item from crafting status gui by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/704
+>* Add process bar in crafting cpu table by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/698
+>* Fix number input in search field by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/709
+>* Improve GuiAmount input field by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/714
+>* Rename pattern item by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/710
+>* cpu request limitation by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/694
+>* Allow math expression in Level Emitter GUI by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/717
+>* Build in InvTweak sorting by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/707
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-563-GTNH...rv3-beta-576-GTNH
+>
+
 ## *rv3-beta-575-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-574-GTNH-pre...rv3-beta-575-GTNH-pre
 >
@@ -1380,6 +1422,15 @@ Mod is client-side only.
 
 ## *1.4.0-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.3.8-GTNH...1.4.0-GTNH
+>
+
+# Updated - CraftTweaker - 3.4.0 --> 3.4.1
+## *3.4.1*
+>## What's Changed
+>* Remove MT STUCK chat message by @brandyyn in https://github.com/GTNewHorizons/CraftTweaker/pull/23
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/CraftTweaker/compare/3.4.0...3.4.1
 >
 
 # Updated - Crops-plus-plus - 1.7.14 --> 1.8.10
@@ -4670,7 +4721,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.6.0...2.6.1-pre
 >
 
-# Updated - Infernal-Mobs - 1.9.2-GTNH --> 1.10.1-GTNH-pre
+# Updated - Infernal-Mobs - 1.9.2-GTNH --> 1.10.2-GTNH
+## *1.10.2-GTNH*
+>## What's Changed
+>* Block webbing effect if mob griefing is disabled by @serenibyss in https://github.com/GTNewHorizons/Infernal-Mobs/pull/20
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/Infernal-Mobs/pull/20
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.10.0-GTNH...1.10.2-GTNH
+>
+
 ## *1.10.1-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.10.0-GTNH...1.10.1-GTNH-pre
 >
@@ -6787,7 +6848,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.4.0
 >
 
-# Updated - ProjectRed - 4.11.0-GTNH --> 4.11.2-GTNH-pre
+# Updated - ProjectRed - 4.11.0-GTNH --> 4.11.3-GTNH
+## *4.11.3-GTNH*
+>## What's Changed
+>* Issue 19357. Fix integration PR and drawers by @qqqqqq452 in https://github.com/GTNewHorizons/ProjectRed/pull/41
+>
+>## New Contributors
+>* @qqqqqq452 made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/41
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.1-GTNH...4.11.3-GTNH
+>
+
 ## *4.11.2-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.1-GTNH...4.11.2-GTNH-pre
 >
@@ -6938,7 +7009,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.7 --> 2.1.39-pre
+# Updated - ServerUtilities - 2.1.7 --> 2.1.40
+## *2.1.40*
+>## What's Changed
+>* Fix crash when creating new world by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/206
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.38...2.1.40
+>
+
 ## *2.1.39-pre*
 >## What's Changed
 >* Change Sidebar zIndex by @slprime in https://github.com/GTNewHorizons/ServerUtilities/pull/205
@@ -7304,7 +7383,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.2...1.8.0
 >
 
-# Updated - ThaumicBases - 1.7.8 --> 1.8.5-pre
+# Updated - ThaumicBases - 1.7.8 --> 1.8.6
+## *1.8.6*
+>## What's Changed
+>* node manipulator fix by @giantcavespider in https://github.com/GTNewHorizons/ThaumicBases/pull/48
+>* fix rosehip syrup crash by @giantcavespider in https://github.com/GTNewHorizons/ThaumicBases/pull/47
+>
+>## New Contributors
+>* @giantcavespider made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/48
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.8.3...1.8.6
+>
+
 ## *1.8.5-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.8.4-pre...1.8.5-pre
 >
@@ -7526,7 +7616,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.0-GTNH...1.4.1-GTNH-pre
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.14-GTNH-pre
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.15-GTNH
+## *1.13.15-GTNH*
+>## What's Changed
+>* Allow the Scythe to harvest crops in an AOE by @YannickMG in https://github.com/GTNewHorizons/TinkersConstruct/pull/159
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.13-GTNH...1.13.15-GTNH
+>
+
 ## *1.13.14-GTNH-pre*
 >## What's Changed
 >* Normalize Berry Bush rarity behavior by @MathiasDeWeerdt in https://github.com/GTNewHorizons/TinkersConstruct/pull/154
