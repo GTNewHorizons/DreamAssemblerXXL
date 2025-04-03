@@ -366,10 +366,11 @@ Mod is client-side only.
 > * Updates by @Taskeren in https://github.com/GTNewHorizons/Forgelin/pull/11 (2.0.0-GTNH)
 >
 
-# Updated GT5-Unofficial (5.09.50.118 -->  5.09.51.209-pre)
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.209-pre
+# Updated GT5-Unofficial (5.09.50.118 -->  5.09.51.219-pre)
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.219-pre
 >## What's Changed
-> * Fix Cleanroom NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4125 (5.09.51.209-pre)
+> * Fix Synchrotron NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4127 (5.09.51.217-pre, 5.09.51.216)
+> * Fix Cleanroom NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4125 (5.09.51.212-pre, 5.09.51.211, 5.09.51.209-pre)
 > * Remove Aluminium Oreberry fluid extraction by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4120 (5.09.51.206-pre)
 > * Fix EIC NPE by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4121 (5.09.51.206-pre)
 > * Disable any automation of BBF by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4113 (5.09.51.206-pre)
