@@ -5474,7 +5474,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.151-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.152-pre
+## *2.7.152-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.151-pre...2.7.152-pre
+>
+
 ## *2.7.151-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.150-pre...2.7.151-pre
 >
