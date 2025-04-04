@@ -187,6 +187,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config pull.rebase true
+          git checkout master
+          git pull
           git add "$nightly_non_nightly_changelog_file"
           git add "./releases/changelogs/nightly builds"
           git add ./releases/manifests/nightly.json
