@@ -12,7 +12,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.44-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.45-gtnh-pre
+## *1.4.45-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.42-gtnh...1.4.45-gtnh-pre
+>
+
 ## *1.4.44-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.28-gtnh...1.4.44-gtnh-pre
 >
@@ -337,7 +341,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
-# Updated - AdventureBackpack2 - 1.3.5-GTNH --> 1.3.7-GTNH
+# Updated - AdventureBackpack2 - 1.3.5-GTNH --> 1.3.8-GTNH-pre
+## *1.3.8-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.7-GTNH...1.3.8-GTNH-pre
+>
+
 ## *1.3.7-GTNH*
 >## What's Changed
 >* fix: crash when rendering component with damage 0 by @leumasme in https://github.com/GTNewHorizons/AdventureBackpack2/pull/30
@@ -465,7 +473,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-578-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-579-GTNH-pre
+## *rv3-beta-579-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-578-GTNH-pre...rv3-beta-579-GTNH-pre
+>
+
 ## *rv3-beta-578-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-576-GTNH...rv3-beta-578-GTNH-pre
 >
@@ -1912,7 +1924,24 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.226-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.228-pre
+## *5.09.51.228-pre*
+>## What's Changed
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4075
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4076
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.227...5.09.51.228-pre
+>
+
+## *5.09.51.227*
+>## What's Changed
+>* Mitigate merge conflicts by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4138
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.220...5.09.51.227
+>
+
 ## *5.09.51.226-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.225-pre...5.09.51.226-pre
 >
@@ -5482,7 +5511,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.152-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.153-pre
+## *2.7.153-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.149...2.7.153-pre
+>
+
 ## *2.7.152-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.151-pre...2.7.152-pre
 >
@@ -6982,7 +7015,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.8-pre
+# Updated - Railcraft - 9.15.17 --> 9.16.10-pre
+## *9.16.10-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.8-pre...9.16.10-pre
+>
+
 ## *9.16.8-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.7...9.16.8-pre
 >
@@ -7403,6 +7440,11 @@ Mod is client-side only.
 >* @ChromaPIE made their first contribution in https://github.com/GTNewHorizons/SpiceOfLife/pull/43
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.1.12-carrot...2.2.0-carrot
+>
+
+# Updated - Steve-s-Factory-Manager - 1.3.2-GTNH --> 1.3.3-GTNH-pre
+## *1.3.3-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Steve-s-Factory-Manager/compare/1.3.2-GTNH...1.3.3-GTNH-pre
 >
 
 # Updated - StructureLib - 1.3.6 --> 1.4.6
