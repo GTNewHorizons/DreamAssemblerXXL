@@ -1912,7 +1912,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.224-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.226-pre
+## *5.09.51.226-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.225-pre...5.09.51.226-pre
+>
+
+## *5.09.51.225-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.219-pre...5.09.51.225-pre
+>
+
 ## *5.09.51.224-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.223-pre...5.09.51.224-pre
 >
@@ -7054,7 +7062,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.6.0...2.6.1
 >
 
-# New Mod - Salis-Arcana:1.1.10-GTNH
+# New Mod - Salis-Arcana:1.1.11-GTNH
+## *1.1.11-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.10-GTNH...1.1.11-GTNH
+>
+
 ## *1.1.10-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.9-GTNH-pre...1.1.10-GTNH
 >

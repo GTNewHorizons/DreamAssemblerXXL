@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-04-04T03:47:16.357727",
+  "last_updated": "2025-04-05T03:46:34.231919",
   "config": "3.0.1",
   "github_mods": {
     "AdventureBackpack2": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.224-pre",
+      "version": "5.09.51.226-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.10-GTNH",
+      "version": "1.1.11-GTNH",
       "side": "BOTH"
     },
     "CoreTweaks": {
