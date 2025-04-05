@@ -25,7 +25,7 @@ jobs:
       - name: Verify manifest
         shell: bash
         run: |
-          jq -e >/dev/null < "release/manifests/${DAXXL_TAG}.json"
+          jq -e >/dev/null < "releases/manifests/${DAXXL_TAG}.json"
       - name: Set up python
         id: setup-python
         uses: actions/setup-python@v5
