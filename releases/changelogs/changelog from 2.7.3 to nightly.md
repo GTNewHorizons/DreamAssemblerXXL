@@ -1168,7 +1168,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/compare/0.6.0...0.7.0
 >
 
-# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.7-pre
+# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.8-pre
+## *1.3.8-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.7-pre...1.3.8-pre
+>
+
 ## *1.3.7-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.6...1.3.7-pre
 >
@@ -1924,7 +1928,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.228-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.229-pre
+## *5.09.51.229-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.228-pre...5.09.51.229-pre
+>
+
 ## *5.09.51.228-pre*
 >## What's Changed
 >* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4075
