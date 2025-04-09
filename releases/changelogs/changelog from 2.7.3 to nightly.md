@@ -1029,7 +1029,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-478-GTNH...rv3-beta-500-GTNH
 >
 
-# Updated - Avaritia - 1.59 --> 1.61
+# Updated - Avaritia - 1.59 --> 1.62
+## *1.62*
+>## What's Changed
+>* Move Infinity Armor to new GT Hazard API by @2ndDerivative in https://github.com/GTNewHorizons/Avaritia/pull/49
+>
+>## New Contributors
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/49
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.61...1.62
+>
+
 ## *1.61*
 >## What's Changed
 >* Infinity Armor upwards and downward speed update by @mak8427 in https://github.com/GTNewHorizons/Avaritia/pull/48
@@ -1106,7 +1116,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.6.22-GTNH...3.7.0-GTNH
 >
 
-# Updated - Binnie - 2.4.8 --> 2.5.5-pre
+# Updated - Binnie - 2.4.8 --> 2.5.6
+## *2.5.6*
+>## What's Changed
+>* Revert 5x multiplier removal by @2ndDerivative in https://github.com/GTNewHorizons/Binnie/pull/58
+>
+>## New Contributors
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/58
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.4...2.5.6
+>
+
 ## *2.5.5-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.4...2.5.5-pre
 >
@@ -1658,7 +1678,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.17-GTNH...1.3.18-GTNH
 >
 
-# Updated - Electro-Magic-Tools - 1.5.17 --> 1.6.3
+# Updated - Electro-Magic-Tools - 1.5.17 --> 1.6.4
+## *1.6.4*
+>## What's Changed
+>* Move Nano/Quantum armor pieces to GT Hazard API by @2ndDerivative in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/91
+>
+>## New Contributors
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/91
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.3...1.6.4
+>
+
 ## *1.6.3*
 >## What's Changed
 >* EMT Foci Bugfixes/Cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/90
@@ -1691,7 +1721,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.5.16...1.6.0
 >
 
-# Updated - EnderIO - 2.8.24 --> 2.9.6
+# Updated - EnderIO - 2.8.24 --> 2.9.7
+## *2.9.7*
+>## What's Changed
+>* Move End Steel/ Stellar Armor to GT Hazard API by @2ndDerivative in https://github.com/GTNewHorizons/EnderIO/pull/189
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.6...2.9.7
+>
+
 ## *2.9.6*
 >## What's Changed
 >* fix trackman's goggles config by @2ndDerivative in https://github.com/GTNewHorizons/EnderIO/pull/188
@@ -6850,12 +6888,30 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.5.0-GTNH...1.6.0-GTNH
 >
 
-# Updated - OpenBlocks - 1.11.3-GTNH --> 1.11.4-GTNH-pre
+# Updated - OpenBlocks - 1.11.3-GTNH --> 1.11.5-GTNH
+## *1.11.5-GTNH*
+>## What's Changed
+>* localization of map tooltip by @Discreater in https://github.com/GTNewHorizons/OpenBlocks/pull/29
+>
+>## New Contributors
+>* @Discreater made their first contribution in https://github.com/GTNewHorizons/OpenBlocks/pull/29
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.11.3-GTNH...1.11.5-GTNH
+>
+
 ## *1.11.4-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.11.3-GTNH...1.11.4-GTNH-pre
 >
 
-# Updated - OpenComputers - 1.10.30-GTNH --> 1.11.12-GTNH
+# Updated - OpenComputers - 1.10.30-GTNH --> 1.11.13-GTNH
+## *1.11.13-GTNH*
+>## What's Changed
+>* Sync with upstream by @asiekierka in https://github.com/GTNewHorizons/OpenComputers/pull/152
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.12-GTNH...1.11.13-GTNH
+>
+
 ## *1.11.12-GTNH*
 >## What's Changed
 >* Extend OpenComputers Transposers to support fluid transfer rate upgrades by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/150
@@ -7450,7 +7506,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.1.12-carrot...2.2.0-carrot
 >
 
-# Updated - Steve-s-Factory-Manager - 1.3.2-GTNH --> 1.3.3-GTNH-pre
+# Updated - Steve-s-Factory-Manager - 1.3.2-GTNH --> 1.3.4-GTNH
+## *1.3.4-GTNH*
+>## What's Changed
+>* Fix crash when component name contains non ASCII/Latin-1 characters by @reobf in https://github.com/GTNewHorizons/Steve-s-Factory-Manager/pull/16
+>
+>## New Contributors
+>* @reobf made their first contribution in https://github.com/GTNewHorizons/Steve-s-Factory-Manager/pull/16
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Steve-s-Factory-Manager/compare/1.3.2-GTNH...1.3.4-GTNH
+>
+
 ## *1.3.3-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Steve-s-Factory-Manager/compare/1.3.2-GTNH...1.3.3-GTNH-pre
 >
@@ -7555,6 +7621,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.2...1.8.0
 >
 
+# Updated - Tainted-Magic - 7.6.15-GTNH --> 7.6.16-GTNH
+## *7.6.16-GTNH*
+>## What's Changed
+>* Add Hazard API onto Hazmat-capable armor pieces by @2ndDerivative in https://github.com/GTNewHorizons/Tainted-Magic/pull/31
+>
+>## New Contributors
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/31
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.15-GTNH...7.6.16-GTNH
+>
+
 # Updated - ThaumicBases - 1.7.8 --> 1.8.6
 ## *1.8.6*
 >## What's Changed
@@ -7607,7 +7684,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.7.7...1.8.0
 >
 
-# Updated - ThaumicBoots - 1.3.10 --> 1.4.4
+# Updated - ThaumicBoots - 1.3.10 --> 1.4.5
+## *1.4.5*
+>## What's Changed
+>* support GT Hazard API by @2ndDerivative in https://github.com/GTNewHorizons/ThaumicBoots/pull/36
+>
+>## New Contributors
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/36
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.4...1.4.5
+>
+
 ## *1.4.4*
 >## What's Changed
 >* Small refactor, add in support for the nanochestplate for thaumic boots by @Keridos in https://github.com/GTNewHorizons/ThaumicBoots/pull/35
@@ -7724,7 +7811,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.0...1.7.1
 >
 
-# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.7
+# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.8
+## *2.11.8*
+>## What's Changed
+>* cleanse the mod of its ae2 dep. by @RubilaxXxx in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/51
+>* Move Awakened Kami Armor to GT Hazard API by @2ndDerivative in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/49
+>
+>## New Contributors
+>* @RubilaxXxx made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/51
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/49
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.7...2.11.8
+>
+
 ## *2.11.7*
 >## What's Changed
 >* fix celestial gateway button render by @Glease in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/46
@@ -7788,7 +7887,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.0-GTNH...1.4.1-GTNH-pre
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.17-GTNH-pre
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.18-GTNH
+## *1.13.18-GTNH*
+>## What's Changed
+>* Make the Scythe AOE harvest ability compatible with EnderCore by @YannickMG in https://github.com/GTNewHorizons/TinkersConstruct/pull/162
+>* Only check for entities to damage if the structure is valid by @koolkrafter5 in https://github.com/GTNewHorizons/TinkersConstruct/pull/161
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.16-GTNH...1.13.18-GTNH
+>
+
 ## *1.13.17-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.16-GTNH...1.13.17-GTNH-pre
 >
@@ -8004,7 +8112,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.11.7...1.11.8-pre
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.0-GTNH
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.1-GTNH
+## *1.7.1-GTNH*
+>## What's Changed
+>* Move Primordial Armor to GT Hazard API by @2ndDerivative in https://github.com/GTNewHorizons/WitchingGadgets/pull/69
+>
+>## New Contributors
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/69
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.0-GTNH...1.7.1-GTNH
+>
+
 ## *1.7.0-GTNH*
 >## What's Changed
 >* Trying to get away from Travellers Gear by @Ethryan in https://github.com/GTNewHorizons/WitchingGadgets/pull/62
