@@ -12,7 +12,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.48-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.54-gtnh --> 1.4.49-gtnh-pre
+## *1.4.49-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.48-gtnh-pre...1.4.49-gtnh-pre
+>
+
 ## *1.4.48-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.47-gtnh-pre...1.4.48-gtnh-pre
 >
@@ -361,6 +365,10 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
+## *1.3.55-gtnh*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.54-gtnh...1.3.55-gtnh
+>
+
 # Updated - AdventureBackpack2 - 1.3.5-GTNH --> 1.3.8-GTNH-pre
 ## *1.3.8-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.7-GTNH...1.3.8-GTNH-pre
@@ -515,7 +523,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-582-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-484-GTNH --> rv3-beta-583-GTNH-pre
+## *rv3-beta-583-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-582-GTNH-pre...rv3-beta-583-GTNH-pre
+>
+
 ## *rv3-beta-582-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-581-GTNH-pre...rv3-beta-582-GTNH-pre
 >
@@ -654,10 +666,6 @@ Mod is client-side only.
 
 ## *rv3-beta-560-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-559-GTNH-pre...rv3-beta-560-GTNH-pre
->
-
-## *rv3-beta-560-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-559-GTNH-pre...rv3-beta-560-pre
 >
 
 ## *rv3-beta-559-GTNH-pre*
@@ -1093,6 +1101,10 @@ Mod is client-side only.
 >* @Worive made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/614
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-478-GTNH...rv3-beta-500-GTNH
+>
+
+## *rv3-beta-485-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-484-GTNH...rv3-beta-485-GTNH
 >
 
 # Updated - Avaritia - 1.59 --> 1.62
@@ -2095,7 +2107,44 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.232-pre
+# Updated - GT5-Unofficial - 5.09.50.118 --> 5.09.51.235-pre
+## *5.09.51.235-pre*
+>## What's Changed
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4075
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4076
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4160
+>* fix fusion casing CTM issue when using angelica by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4118
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.234...5.09.51.235-pre
+>
+
+## *5.09.51.234*
+>## What's Changed
+>* Add IronTankMinecarts to mod enums by @2ndDerivative in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4182
+>* Add % full and Time Until Full to YOTTank by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4119
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.233...5.09.51.234
+>
+
+## *5.09.51.233*
+>## What's Changed
+>* Advanced Assembly Line Improvements by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4158
+>* Don't initialize covers as null by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4165
+>* buff railcraft bending recipes down to LV/MV by @2ndDerivative in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4162
+>* Smoothen overclocks for fractional ticks by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4163
+>* fix and add QoL to infinite tank from gt++ by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4141
+>* Change superstable seed texture by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4169
+>* Fix ME Hatch Output Filtering by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4168
+>* Allow MTEs to dynamically modify the item dropped when broken by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4174
+>* Clean up some TTMultiblockBase fields by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4159
+>* Fix Buck Converter UI client desync by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4161
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.230...5.09.51.233
+>
+
 ## *5.09.51.232-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.231-pre...5.09.51.232-pre
 >
@@ -4223,6 +4272,10 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
+## *5.09.50.119*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.118...5.09.50.119
+>
+
 # Updated - GTNH-Intergalactic - 1.4.34 --> 1.5.39
 ## *1.5.39*
 >## What's Changed
@@ -4506,6 +4559,10 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.5.0
+>
+
+## *1.4.35*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.34...1.4.35
 >
 
 # Updated - GTNHLib - 0.5.23 --> 0.6.19
@@ -4908,7 +4965,167 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.14
+# Updated - Hodgepodge - 2.5.90 --> 2.6.36-pre
+## *2.6.36-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.35...2.6.36-pre
+>
+
+## *2.6.35*
+>## What's Changed
+>* Fix xp not loading when changing dimensions by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/504
+>* Fix Glass Bottles filling with water from some other Fluid blocks by @serenibyss in https://github.com/GTNewHorizons/Hodgepodge/pull/506
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.31...2.6.35
+>
+
+## *2.6.34-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.33-pre...2.6.34-pre
+>
+
+## *2.6.33-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.32-pre...2.6.33-pre
+>
+
+## *2.6.32-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.31...2.6.32-pre
+>
+
+## *2.6.31*
+>## What's Changed
+>* Add `/time get` by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/499
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.30...2.6.31
+>
+
+## *2.6.30*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.29...2.6.30
+>
+
+## *2.6.29*
+>## What's Changed
+>* Stop searching the same file multiple times for languages. by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/495
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.28...2.6.29
+>
+
+## *2.6.28*
+>## What's Changed
+>* Small Fixes by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/494
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.27...2.6.28
+>
+
+## *2.6.27*
+>## What's Changed
+>* Fix client desync with item in hand by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/490
+>* Prevent lava from loading chunks by @RecursivePineapple in https://github.com/GTNewHorizons/Hodgepodge/pull/491
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.26...2.6.27
+>
+
+## *2.6.26*
+>## What's Changed
+>* Prevent CastClassException on invalid duct network by @DrParadox7 in https://github.com/GTNewHorizons/Hodgepodge/pull/488
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.25...2.6.26
+>
+
+## *2.6.25*
+>## What's Changed
+>* Animation/Texture Mixins moved to Angelica by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/487
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.24...2.6.25
+>
+
+## *2.6.24*
+>## What's Changed
+>* fix entity attributes range by @raylras in https://github.com/GTNewHorizons/Hodgepodge/pull/486
+>
+>## New Contributors
+>* @raylras made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/486
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.23...2.6.24
+>
+
+## *2.6.23*
+>## What's Changed
+>* Modular Powersuits energy methods to only interacts with MPS equipment by @DrParadox7 in https://github.com/GTNewHorizons/Hodgepodge/pull/482
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.22...2.6.23
+>
+
+## *2.6.22*
+>## What's Changed
+>* fix extra utilities ender quarry freeze/soft-lock randomly by @Pilzinsel64 in https://github.com/GTNewHorizons/Hodgepodge/pull/480
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.20...2.6.22
+>
+
+## *2.6.21-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.20...2.6.21-pre
+>
+
+## *2.6.20*
+>## What's Changed
+>* ensure drops is not null by @Pilzinsel64 in https://github.com/GTNewHorizons/Hodgepodge/pull/479
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.18...2.6.20
+>
+
+## *2.6.19-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.18...2.6.19-pre
+>
+
+## *2.6.18*
+>## What's Changed
+>* Improve several simulated block break actions of mods by @Pilzinsel64 in https://github.com/GTNewHorizons/Hodgepodge/pull/478
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.17...2.6.18
+>
+
+## *2.6.17*
+>## What's Changed
+>* Localise bed respawn message by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/475
+>* Update zh_CN.lang by @huihiuhuai in https://github.com/GTNewHorizons/Hodgepodge/pull/476
+>
+>## New Contributors
+>* @huihiuhuai made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/476
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.16...2.6.17
+>
+
+## *2.6.16*
+>## What's Changed
+>* Backport instant bed spawn setting by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/473
+>* Updates the player's container when the container is closed and the i… by @benTicks in https://github.com/GTNewHorizons/Hodgepodge/pull/474
+>
+>## New Contributors
+>* @benTicks made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/474
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.15...2.6.16
+>
+
+## *2.6.15*
+>## What's Changed
+>* Fix skin manager leaking client world by @Glease in https://github.com/GTNewHorizons/Hodgepodge/pull/469
+>* Backport 1.20's 'pause-when-empty-seconds' server property by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/470
+>* Revert "Backport 1.20's 'pause-when-empty-seconds' server property (#… by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/472
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.13...2.6.15
+>
+
 ## *2.6.14*
 >## What's Changed
 >* Backport instant bed spawn setting by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/473
@@ -5403,7 +5620,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Irontanks/compare/1.3.0...1.4.0
 >
 
-# Updated - Jabba - 1.4.7 --> 1.5.3
+# Updated - Jabba - 1.4.7 --> 1.5.4
+## *1.5.4*
+>## What's Changed
+>* barrels insert extracted items into inventory before dropping on floor by @asquared31415 in https://github.com/GTNewHorizons/Jabba/pull/39
+>
+>## New Contributors
+>* @asquared31415 made their first contribution in https://github.com/GTNewHorizons/Jabba/pull/39
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.3...1.5.4
+>
+
 ## *1.5.3*
 >## What's Changed
 >* Add EFR Barrel Support by @Caedis in https://github.com/GTNewHorizons/Jabba/pull/38
@@ -5773,7 +6000,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.155-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.157-pre
+## *2.7.157-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.156...2.7.157-pre
+>
+
+## *2.7.156*
+>## What's Changed
+>* Add Iron Tank Minecarts and unify Tank Cart recipes by @2ndDerivative in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1234
+>
+>## New Contributors
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1234
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.154...2.7.156
+>
+
 ## *2.7.155-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.154...2.7.155-pre
 >
@@ -7324,7 +7565,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.14-pre
+# Updated - Railcraft - 9.15.17 --> 9.16.15
+## *9.16.15*
+>## What's Changed
+>* add Engineer'Overall API/Move engineer's overall into GregTech hazard system if gregtech is installed by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/73
+>* add Steam trap protection to players wearing gas and heat hazmat by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/80
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.13...9.16.15
+>
+
 ## *9.16.14-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.13...9.16.14-pre
 >
@@ -7503,7 +7753,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.7 --> 2.1.41-pre
+# Updated - ServerUtilities - 2.1.7 --> 2.1.42-pre
+## *2.1.42-pre*
+>## What's Changed
+>* Spotless apply for branch seek_block for #198 by @github-actions in https://github.com/GTNewHorizons/ServerUtilities/pull/207
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.41-pre...2.1.42-pre
+>
+
 ## *2.1.41-pre*
 >## What's Changed
 >* Fix crash when creating new world by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/206
@@ -7800,7 +8058,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Steve-s-Factory-Manager/compare/1.3.2-GTNH...1.3.3-GTNH-pre
 >
 
-# Updated - StructureLib - 1.3.6 --> 1.4.7-pre
+# Updated - StructureLib - 1.3.6 --> 1.4.8-pre
+## *1.4.8-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.6...1.4.8-pre
+>
+
 ## *1.4.7-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.6...1.4.7-pre
 >
@@ -8433,7 +8695,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.11.7...1.11.8-pre
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.2-GTNH
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.3-GTNH-pre
+## *1.7.3-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.2-GTNH...1.7.3-GTNH-pre
+>
+
 ## *1.7.2-GTNH*
 >## What's Changed
 >* Change 'Void metal' -> 'Void Metal' by @serenibyss in https://github.com/GTNewHorizons/WitchingGadgets/pull/71
