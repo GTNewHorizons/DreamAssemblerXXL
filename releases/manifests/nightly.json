@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-04-11T03:47:47.256959",
+  "last_updated": "2025-04-12T03:46:24.116270",
   "config": "2.8.0-nightly-2025-04-09",
   "github_mods": {
     "AdventureBackpack2": {
@@ -425,7 +425,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.16.12-pre",
+      "version": "9.16.14-pre",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "TCNEIAdditions": {
-      "version": "1.4.7-pre",
+      "version": "1.4.8",
       "side": "CLIENT"
     },
     "TCNodeTracker": {

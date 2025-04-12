@@ -7324,7 +7324,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.12-pre
+# Updated - Railcraft - 9.15.17 --> 9.16.14-pre
+## *9.16.14-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.13...9.16.14-pre
+>
+
+## *9.16.13*
+>## What's Changed
+>* Tankcart access by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/82
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.11...9.16.13
+>
+
 ## *9.16.12-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.11...9.16.12-pre
 >
@@ -7843,8 +7855,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.3.6...1.4.0
 >
 
-# Updated - TCNEIAdditions - 1.4.2 --> 1.4.7-pre
+# Updated - TCNEIAdditions - 1.4.2 --> 1.4.8
 Mod side changed from on both sides to client-side only.
+## *1.4.8*
+>## What's Changed
+>* Add missing research message when recipe is shown by @Caedis in https://github.com/GTNewHorizons/TCNEIAdditions/pull/29
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/TCNEIAdditions/pull/29
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.4.2...1.4.8
+>
+
 ## *1.4.7-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.4.6-pre...1.4.7-pre
 >
