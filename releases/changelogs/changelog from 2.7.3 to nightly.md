@@ -2,6 +2,7 @@
 > * Darkerer
 > * Et-Futurum-Requiem
 > * InventoryBogoSorter
+> * IronTankMinecarts
 > * MatterManipulator
 > * Salis-Arcana
 # Mods Removed: 
@@ -5615,6 +5616,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/commits/1.0-GTNH
 >
 
+# New Mod - IronTankMinecarts:1.0.3
+## *1.0.3*
+>**Full Changelog**: https://github.com/GTNewHorizons/IronTankMinecarts/compare/1.0.2...1.0.3
+>
+
+## *1.0.2*
+>**Full Changelog**: https://github.com/GTNewHorizons/IronTankMinecarts/commits/1.0.2
+>
+
+## *1.0.0*
+>**Full Changelog**: https://github.com/GTNewHorizons/IronTankMinecarts/commits/1.0.0
+>
+
 # Updated - Irontanks - 1.3.0 --> 1.4.0
 ## *1.4.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/Irontanks/compare/1.3.0...1.4.0
@@ -6000,7 +6014,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.157-pre
+# Updated - NewHorizonsCoreMod - 2.6.99 --> 2.7.158-pre
+## *2.7.158-pre*
+>## What's Changed
+>* Add ITM dependency to ITM script by @2ndDerivative in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1235
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.157-pre...2.7.158-pre
+>
+
 ## *2.7.157-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.156...2.7.157-pre
 >
