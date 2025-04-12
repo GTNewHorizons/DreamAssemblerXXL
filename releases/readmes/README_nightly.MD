@@ -366,6 +366,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [InventoryBogoSorter](https://github.com/GTNewHorizons/InventoryBogoSorter) | 1.2.30-GTNH |
 | [ironchest](https://github.com/GTNewHorizons/ironchest) | 6.1.2 |
 | [IronChestMinecarts](https://github.com/GTNewHorizons/IronChestMinecarts) | 1.1.0 |
+| [IronTankMinecarts](https://github.com/GTNewHorizons/IronTankMinecarts) | 1.0.3 |
 | [Irontanks](https://github.com/GTNewHorizons/Irontanks) | 1.4.0 |
 | [Jabba](https://github.com/GTNewHorizons/Jabba) | 1.5.4 |
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
