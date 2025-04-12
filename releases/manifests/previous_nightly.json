@@ -1,15 +1,15 @@
 {
   "version": "previous_nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2025-04-12T03:46:24.116270",
-  "config": "2.8.0-nightly-2025-04-09",
+  "last_version": "2.7.3",
+  "last_updated": "2025-04-12T22:20:33.030395",
+  "config": "2.8.0-nightly-2025-04-12",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.8-GTNH-pre",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.48-gtnh-pre",
+      "version": "1.4.49-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-582-GTNH-pre",
+      "version": "rv3-beta-583-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.232-pre",
+      "version": "5.09.51.235-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.14",
+      "version": "2.6.36-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "Jabba": {
-      "version": "1.5.3",
+      "version": "1.5.4",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.155-pre",
+      "version": "2.7.157-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -425,7 +425,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.16.14-pre",
+      "version": "9.16.15",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -485,7 +485,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.7-pre",
+      "version": "1.4.8-pre",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -609,7 +609,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.7.2-GTNH",
+      "version": "1.7.3-GTNH-pre",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.41-pre",
+      "version": "2.1.42-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -794,6 +794,10 @@
     },
     "Et-Futurum-Requiem": {
       "version": "2.6.2.6-GTNH",
+      "side": "BOTH"
+    },
+    "IronTankMinecarts": {
+      "version": "1.0.3",
       "side": "BOTH"
     }
   },
