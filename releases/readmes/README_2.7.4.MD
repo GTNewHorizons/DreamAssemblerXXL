@@ -8,7 +8,7 @@ Version 2.7.4 is out 2025-04-13
 
 <p align="justify">
     You are looking at a big progressive kitchensink pack for Minecraft 1.7.10 balanced around the mod GregTech.<BR><BR>
-    Over 9 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with over 3000 quests, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
+    Over 10 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with over 3000 quests, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
     The main intentions of the pack are a long-lasting experience and tying mods together in a progressive fashion, making it feel more like a single game than a compilation of mods thrown together.<BR><BR>
     To reach this goal, GT New Horizons is using the tiers (basically ages of technology) from GregTech and allocates content of other mods to a fitting point within the progression.<BR><BR>
     Starting in the stone age you will barely be able to survive until you get your first steam machines and, eventually, reach electricity. Later on, you will have to visit other planets and dimensions to gather important resources and fight mighty bosses to channel their magical power.<BR><BR>
@@ -184,6 +184,11 @@ play.arcturus-official.eu<BR>
 
 
 ### US/Canada Servers:<BR>
+
+Apocalyptic Gaming Network<BR>
+IP: GTNH.APOCGAMING.ORG<BR>
+SITE: https://apocgaming.org<BR>
+DISCORD: https://apocgaming.org/discord<BR>
 
 Prospercraft (greylist)<BR>
 http://www.prospercraft.com/ <BR>
