@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version nightly is out 2025-04-12
+Version nightly is out 2025-04-13
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -8,7 +8,7 @@ Version nightly is out 2025-04-12
 
 <p align="justify">
     You are looking at a big progressive kitchensink pack for Minecraft 1.7.10 balanced around the mod GregTech.<BR><BR>
-    Over 9 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with over 3000 quests, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
+    Over 10 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with over 3000 quests, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
     The main intentions of the pack are a long-lasting experience and tying mods together in a progressive fashion, making it feel more like a single game than a compilation of mods thrown together.<BR><BR>
     To reach this goal, GT New Horizons is using the tiers (basically ages of technology) from GregTech and allocates content of other mods to a fitting point within the progression.<BR><BR>
     Starting in the stone age you will barely be able to survive until you get your first steam machines and, eventually, reach electricity. Later on, you will have to visit other planets and dimensions to gather important resources and fight mighty bosses to channel their magical power.<BR><BR>
@@ -185,6 +185,11 @@ play.arcturus-official.eu<BR>
 
 ### US/Canada Servers:<BR>
 
+Apocalyptic Gaming Network<BR>
+IP: GTNH.APOCGAMING.ORG<BR>
+SITE: https://apocgaming.org<BR>
+DISCORD: https://apocgaming.org/discord<BR>
+
 Prospercraft (greylist)<BR>
 http://www.prospercraft.com/ <BR>
 newhorizonsold.prospercraft.com<BR>
@@ -264,7 +269,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-beta40 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.8.2 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.4 |
-| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-583-GTNH-pre |
+| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-585-GTNH-pre |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.7.5 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.10.2 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.6.0 |
@@ -308,7 +313,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Computronics](https://github.com/GTNewHorizons/Computronics) | 1.9.0-GTNH |
 | [Controlling](https://github.com/GTNewHorizons/Controlling) | 2.1.2 |
 | [CookingForBlockheads](https://github.com/GTNewHorizons/CookingForBlockheads) | 1.4.3-GTNH |
-| [CoreTweaks](https://github.com/GTNewHorizons/CoreTweaks) | 0.3.3.3-GTNH |
 | [Craft-Presence](https://www.curseforge.com/minecraft/mc-mods/craftpresence/) | 2.5.4 |
 | [CraftTweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.4.1 |
 | [CreativeCore](https://github.com/GTNewHorizons/CreativeCore) | 1.4.0-GTNH |
@@ -327,7 +331,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.9.7 |
 | [EnderStorage](https://github.com/GTNewHorizons/EnderStorage) | 1.7.2 |
 | [EnderZoo](https://github.com/GTNewHorizons/EnderZoo) | 1.3.2 |
-| [EnhancedLootBags](https://github.com/GTNewHorizons/EnhancedLootBags) | 1.2.1 |
+| [EnhancedLootBags](https://github.com/GTNewHorizons/EnhancedLootBags) | 1.2.2-pre |
 | [Et-Futurum-Requiem](https://github.com/GTNewHorizons/Et-Futurum-Requiem) | 2.6.2.6-GTNH |
 | [Eternal-Singularity](https://github.com/GTNewHorizons/Eternal-Singularity) | 1.2.1 |
 | [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities) | 1.2.13a |
@@ -345,7 +349,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.9.1-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.4 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.51.235-pre |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.51.239-pre |
 | [GTNH-Intergalactic](https://github.com/GTNewHorizons/GTNH-Intergalactic) | 1.5.39 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.1 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.6.19 |
@@ -366,8 +370,8 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [InventoryBogoSorter](https://github.com/GTNewHorizons/InventoryBogoSorter) | 1.2.30-GTNH |
 | [ironchest](https://github.com/GTNewHorizons/ironchest) | 6.1.2 |
 | [IronChestMinecarts](https://github.com/GTNewHorizons/IronChestMinecarts) | 1.1.0 |
-| [IronTankMinecarts](https://github.com/GTNewHorizons/IronTankMinecarts) | 1.0.3 |
-| [Irontanks](https://github.com/GTNewHorizons/Irontanks) | 1.4.0 |
+| [IronTankMinecarts](https://github.com/GTNewHorizons/IronTankMinecarts) | 1.0.5 |
+| [Irontanks](https://github.com/GTNewHorizons/Irontanks) | 1.4.1 |
 | [Jabba](https://github.com/GTNewHorizons/Jabba) | 1.5.4 |
 | [JourneyMap Server](https://www.curseforge.com/minecraft/mc-mods/journeymap-server) | 1.0.5 |
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.2.8-fairplay |
@@ -384,7 +388,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 2.3.1 |
 | [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.5.2-GTNH |
 | [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.11.0 |
-| [ModularUI2](https://github.com/GTNewHorizons/ModularUI2) | 2.2.6-1.7.10 |
+| [ModularUI2](https://github.com/GTNewHorizons/ModularUI2) | 2.2.7-1.7.10 |
 | [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.2.18 |
 | [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) | 1.6.21 |
 | [MrTJPCore](https://github.com/GTNewHorizons/MrTJPCore) | 1.3.0 |
@@ -418,7 +422,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Postea](https://github.com/GTNewHorizons/Postea) | 1.0.13 |
 | [ProjectBlue](https://github.com/GTNewHorizons/ProjectBlue) | 1.2.0-GTNH |
 | [ProjectRed](https://github.com/GTNewHorizons/ProjectRed) | 4.11.3-GTNH |
-| [Railcraft](https://github.com/GTNewHorizons/Railcraft) | 9.16.15 |
+| [Railcraft](https://github.com/GTNewHorizons/Railcraft) | 9.16.18 |
 | [Random-Things](https://github.com/GTNewHorizons/Random-Things) | 2.6.1 |
 | [Realistic-World-Gen](https://github.com/GTNewHorizons/Realistic-World-Gen) | alpha-1.5.0 |
 | [RemoteIO](https://github.com/GTNewHorizons/RemoteIO) | 2.7.4 |
