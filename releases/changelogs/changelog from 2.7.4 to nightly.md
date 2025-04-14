@@ -2120,7 +2120,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.239-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.241-pre
+## *5.09.51.241-pre*
+>## What's Changed
+>* Add the Redstone Sniffer by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4025
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.239-pre...5.09.51.241-pre
+>
+
+## *5.09.51.240*
+>## What's Changed
+>* Add the Redstone Sniffer by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4025
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.238...5.09.51.240
+>
+
 ## *5.09.51.239-pre*
 >## What's Changed
 >* Add extruder recipe for pasta by @2ndDerivative in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4187
@@ -5649,7 +5665,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/commits/1.0-GTNH
 >
 
-# New Mod - IronTankMinecarts:1.0.5
+# New Mod - IronTankMinecarts:1.0.7
+## *1.0.7*
+>**Full Changelog**: https://github.com/GTNewHorizons/IronTankMinecarts/compare/1.0.6...1.0.7
+>
+
+## *1.0.6*
+>**Full Changelog**: https://github.com/GTNewHorizons/IronTankMinecarts/compare/1.0.5...1.0.6
+>
+
 ## *1.0.5*
 >**Full Changelog**: https://github.com/GTNewHorizons/IronTankMinecarts/compare/1.0.4...1.0.5
 >
@@ -6065,7 +6089,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.158-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.159-pre
+## *2.7.159-pre*
+>## What's Changed
+>* update irontanks and iron tank minecarts dependency by @2ndDerivative in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1236
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.158-pre...2.7.159-pre
+>
+
 ## *2.7.158-pre*
 >## What's Changed
 >* Add ITM dependency to ITM script by @2ndDerivative in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1235
