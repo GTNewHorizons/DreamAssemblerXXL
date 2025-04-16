@@ -7674,7 +7674,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.18
+# Updated - Railcraft - 9.15.17 --> 9.16.19
+## *9.16.19*
+>## What's Changed
+>* Render gases in tanks by transparency instead of level by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/86
+>* Fix unnecessary Math.max() from tank render by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/87
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.18...9.16.19
+>
+
 ## *9.16.18*
 >## What's Changed
 >* add support for IronTank upgrades by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/83

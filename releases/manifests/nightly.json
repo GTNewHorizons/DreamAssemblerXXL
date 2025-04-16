@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-04-15T03:49:47.193338",
+  "last_updated": "2025-04-16T03:49:32.225146",
   "config": "2.8.0-nightly-2025-04-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -425,7 +425,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.16.18",
+      "version": "9.16.19",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
