@@ -4330,7 +4330,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.35 --> 1.5.39
+# Updated - GTNH-Intergalactic - 1.4.35 --> 1.5.40
+## *1.5.40*
+>## What's Changed
+>* Stop using deprecated onSolderingToolRightClick by @Kogepan229 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/118
+>* Accept hatches on Dyson autoplace by @Kogepan229 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/119
+>
+>## New Contributors
+>* @Kogepan229 made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/118
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.39...1.5.40
+>
+
 ## *1.5.39*
 >## What's Changed
 >* Use new ItemCasingsAbstract name by @RecursivePineapple in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/117
@@ -7472,7 +7483,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Nutrition/compare/0.0.13...0.1.0
 >
 
-# Updated - OCGlasses - 1.5.1-GTNH --> 1.6.0-GTNH
+# Updated - OCGlasses - 1.5.1-GTNH --> 1.6.1-GTNH
+## *1.6.1-GTNH*
+>## What's Changed
+>* Add lua documentation to OC callbacks by @serenibyss in https://github.com/GTNewHorizons/OCGlasses/pull/19
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/OCGlasses/pull/19
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OCGlasses/compare/1.6.0-GTNH...1.6.1-GTNH
+>
+
 ## *1.6.0-GTNH*
 >## What's Changed
 >* Исправлена проверка в lua функции SetItem \ Fixed check in lua function SetItem by @Viptunbeqwfwew in https://github.com/GTNewHorizons/OCGlasses/pull/18
@@ -8777,6 +8798,17 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.6.8...1.7.0
+>
+
+# Updated - supersolarpanels - 1.1.3 --> 1.1.4
+## *1.1.4*
+>## What's Changed
+>* Update buildscript, fix in-game version and mcmod.info by @serenibyss in https://github.com/GTNewHorizons/supersolarpanels/pull/1
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/supersolarpanels/pull/1
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/supersolarpanels/compare/1.1.3...1.1.4
 >
 
 # Updated - thaumicinsurgence - 0.3.1 --> 0.4.0
