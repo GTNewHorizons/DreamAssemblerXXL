@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-04-20T03:50:36.895003",
-  "config": "2.8.0-nightly-2025-04-14",
+  "last_updated": "2025-04-20T22:09:26.763068",
+  "config": "2.8.0-nightly-2025-04-20-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.8-GTNH-pre",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.51-gtnh-pre",
+      "version": "1.4.52-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-587-GTNH-pre",
+      "version": "rv3-beta-589-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.8",
+      "version": "1.7.10-pre",
       "side": "BOTH"
     },
     "Botania": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.1.7-GTNH",
+      "version": "1.1.8-GTNH-pre",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -205,7 +205,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.10.6",
+      "version": "4.10.7",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.241-pre",
+      "version": "5.09.51.243-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "Irontanks": {
-      "version": "1.4.1",
+      "version": "1.4.2",
       "side": "BOTH"
     },
     "Jabba": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.8.6-pre",
+      "version": "2.8.7",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.159-pre",
+      "version": "2.7.161-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -425,7 +425,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.16.19",
+      "version": "9.16.20",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -437,7 +437,7 @@
       "side": "BOTH"
     },
     "Roguelike-Dungeons": {
-      "version": "1.6.0-GTNH",
+      "version": "1.6.1-GTNH-pre",
       "side": "BOTH"
     },
     "SC2": {
@@ -485,7 +485,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.8-pre",
+      "version": "1.4.9-pre",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -541,7 +541,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.19-GTNH-pre",
+      "version": "1.13.20-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -609,7 +609,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.7.3-GTNH-pre",
+      "version": "1.7.4-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -697,7 +697,7 @@
       "side": "BOTH_JAVA9"
     },
     "GTNH-Intergalactic": {
-      "version": "1.5.40",
+      "version": "1.5.41",
       "side": "BOTH"
     },
     "amunra": {
@@ -753,7 +753,7 @@
       "side": "CLIENT"
     },
     "AkashicTome": {
-      "version": "1.2.2",
+      "version": "1.2.3",
       "side": "BOTH"
     },
     "Navigator": {
@@ -793,11 +793,11 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.2.6-GTNH",
+      "version": "2.6.2.7-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
-      "version": "1.0.8",
+      "version": "1.0.9",
       "side": "BOTH"
     }
   },
