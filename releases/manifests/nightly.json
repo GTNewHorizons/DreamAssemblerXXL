@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-04-19T03:46:28.522918",
+  "last_updated": "2025-04-20T03:50:36.895003",
   "config": "2.8.0-nightly-2025-04-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.49-gtnh-pre",
+      "version": "1.4.51-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-585-GTNH-pre",
+      "version": "rv3-beta-587-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.7.4-GTNH",
+      "version": "3.7.5-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -137,7 +137,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.4.3-GTNH",
+      "version": "1.4.4-GTNH",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -189,7 +189,7 @@
       "side": "BOTH"
     },
     "EnhancedLootBags": {
-      "version": "1.2.2-pre",
+      "version": "1.2.3",
       "side": "BOTH"
     },
     "Eternal-Singularity": {
@@ -205,7 +205,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.10.5",
+      "version": "4.10.6",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.112-GTNH-pre",
+      "version": "1.1.113-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.36-pre",
+      "version": "2.6.37",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -285,7 +285,7 @@
       "side": "BOTH"
     },
     "IronChestMinecarts": {
-      "version": "1.1.0",
+      "version": "1.2.0",
       "side": "BOTH"
     },
     "Irontanks": {
@@ -421,7 +421,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.11.3-GTNH",
+      "version": "4.11.4-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -521,7 +521,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.6-GTNH",
+      "version": "1.7.7-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -533,7 +533,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.11.8",
+      "version": "2.11.9",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -541,7 +541,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.18-GTNH",
+      "version": "1.13.19-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.42-pre",
+      "version": "2.1.43-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "IronTankMinecarts": {
-      "version": "1.0.7",
+      "version": "1.0.8",
       "side": "BOTH"
     }
   },

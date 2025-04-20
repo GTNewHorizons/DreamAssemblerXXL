@@ -13,7 +13,19 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.49-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.51-gtnh-pre
+## *1.4.51-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.50-gtnh...1.4.51-gtnh-pre
+>
+
+## *1.4.50-gtnh*
+>## What's Changed
+>* Small improvements to the Level Maintainer GUI by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/283
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.46-gtnh...1.4.50-gtnh
+>
+
 ## *1.4.49-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.48-gtnh-pre...1.4.49-gtnh-pre
 >
@@ -520,7 +532,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-585-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-587-GTNH-pre
+## *rv3-beta-587-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-586-GTNH...rv3-beta-587-GTNH-pre
+>
+
+## *rv3-beta-586-GTNH*
+>## What's Changed
+>* Mitigate crashes caused by invalid CraftingLinks by @RecursivePineapple in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/728
+>* Fix missing list not reset sometimes by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/729
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-584-GTNH...rv3-beta-586-GTNH
+>
+
 ## *rv3-beta-585-GTNH-pre*
 >## What's Changed
 >* Fix lag caused by 'setAccessible(true);' being called millions of times by @EverNife in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/727
@@ -1165,7 +1190,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterBuildersWands/compare/0.13.1-GTNH...0.13.2-GTNH
 >
 
-# Updated - BetterQuesting - 3.6.24-GTNH --> 3.7.4-GTNH
+# Updated - BetterQuesting - 3.6.24-GTNH --> 3.7.5-GTNH
+## *3.7.5-GTNH*
+>## What's Changed
+>* Add button to auto-claim choice rewards by @serenibyss in https://github.com/GTNewHorizons/BetterQuesting/pull/161
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/161
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.4-GTNH...3.7.5-GTNH
+>
+
 ## *3.7.4-GTNH*
 >## What's Changed
 >* fix depth test GL state leak by @kurrycat2004 in https://github.com/GTNewHorizons/BetterQuesting/pull/160
@@ -1584,7 +1619,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.8.5-GTNH...1.9.0-GTNH
 >
 
-# Updated - CookingForBlockheads - 1.3.8-GTNH --> 1.4.3-GTNH
+# Updated - CookingForBlockheads - 1.3.8-GTNH --> 1.4.4-GTNH
+## *1.4.4-GTNH*
+>## What's Changed
+>* Tweak StorageDrawer Compat and add JABBA Compatibility by @dibbydoda in https://github.com/GTNewHorizons/CookingForBlockheads/pull/54
+>
+>## New Contributors
+>* @dibbydoda made their first contribution in https://github.com/GTNewHorizons/CookingForBlockheads/pull/54
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.4.3-GTNH...1.4.4-GTNH
+>
+
 ## *1.4.3-GTNH*
 >## What's Changed
 >* Fix sink fluid drain bug by @C0bra5 in https://github.com/GTNewHorizons/CookingForBlockheads/pull/53
@@ -1952,7 +1997,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderZoo/compare/1.3.1...1.3.2
 >
 
-# Updated - EnhancedLootBags - 1.1.2 --> 1.2.2-pre
+# Updated - EnhancedLootBags - 1.1.2 --> 1.2.3
+## *1.2.3*
+>## What's Changed
+>* Less trashy loot by @YannickMG in https://github.com/GTNewHorizons/EnhancedLootBags/pull/12
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.2.1...1.2.3
+>
+
 ## *1.2.2-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.2.1...1.2.2-pre
 >
@@ -2047,7 +2100,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.7.1-GTNH...0.8.0-GTNH
 >
 
-# Updated - ForestryMC - 4.9.22 --> 4.10.5
+# Updated - ForestryMC - 4.9.22 --> 4.10.6
+## *4.10.6*
+>## What's Changed
+>* Habitat locator mouse hover shows Hellish temperature in the Nether  by @dibbydoda in https://github.com/GTNewHorizons/ForestryMC/pull/92
+>
+>## New Contributors
+>* @dibbydoda made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/92
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.5...4.10.6
+>
+
 ## *4.10.5*
 >## What's Changed
 >* Fix alveary climate logic by @Demiu in https://github.com/GTNewHorizons/ForestryMC/pull/90
@@ -4875,7 +4938,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.2.9-GTNH...3.3.0-GTNH
 >
 
-# Updated - Galaxy-Space-GTNH - 1.1.99-GTNH --> 1.1.112-GTNH-pre
+# Updated - Galaxy-Space-GTNH - 1.1.99-GTNH --> 1.1.113-GTNH
+## *1.1.113-GTNH*
+>## What's Changed
+>* Major Code Rework by @glowredman in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/125
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.111-GTNH...1.1.113-GTNH
+>
+
 ## *1.1.112-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.111-GTNH...1.1.112-GTNH-pre
 >
@@ -5026,7 +5097,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.36-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.37
+## *2.6.37*
+>## What's Changed
+>* Fix the healing axe not healing entities when attacking them by @EmperorSuper in https://github.com/GTNewHorizons/Hodgepodge/pull/498
+>* Add option to synchronize IC2 reactors by @ah-OOG-ah in https://github.com/GTNewHorizons/Hodgepodge/pull/502
+>
+>## New Contributors
+>* @EmperorSuper made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/498
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.35...2.6.37
+>
+
 ## *2.6.36-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.35...2.6.36-pre
 >
@@ -5676,7 +5758,28 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/commits/1.0-GTNH
 >
 
-# New Mod - IronTankMinecarts:1.0.7
+# Updated - IronChestMinecarts - 1.1.0 --> 1.2.0
+## *1.2.0*
+>## What's Changed
+>* add consistent naming with Railcraft if Railcraft is installed by @2ndDerivative in https://github.com/GTNewHorizons/IronChestMinecarts/pull/8
+>
+>## New Contributors
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/IronChestMinecarts/pull/8
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/IronChestMinecarts/compare/1.1.0...1.2.0
+>
+
+# New Mod - IronTankMinecarts:1.0.8
+## *1.0.8*
+>## What's Changed
+>* add name consistency with Railcraft by @2ndDerivative in https://github.com/GTNewHorizons/IronTankMinecarts/pull/2
+>
+>## New Contributors
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/IronTankMinecarts/pull/2
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/IronTankMinecarts/compare/1.0.7...1.0.8
+>
+
 ## *1.0.7*
 >**Full Changelog**: https://github.com/GTNewHorizons/IronTankMinecarts/compare/1.0.6...1.0.7
 >
@@ -7671,7 +7774,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.4.0
 >
 
-# Updated - ProjectRed - 4.11.0-GTNH --> 4.11.3-GTNH
+# Updated - ProjectRed - 4.11.0-GTNH --> 4.11.4-GTNH
+## *4.11.4-GTNH*
+>## What's Changed
+>* Improve collision boxes for wires by @Vlamonster in https://github.com/GTNewHorizons/ProjectRed/pull/42
+>
+>## New Contributors
+>* @Vlamonster made their first contribution in https://github.com/GTNewHorizons/ProjectRed/pull/42
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.3-GTNH...4.11.4-GTNH
+>
+
 ## *4.11.3-GTNH*
 >## What's Changed
 >* Issue 19357. Fix integration PR and drawers by @qqqqqq452 in https://github.com/GTNewHorizons/ProjectRed/pull/41
@@ -7912,7 +8025,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.40 --> 2.1.42-pre
+# Updated - ServerUtilities - 2.1.40 --> 2.1.43-pre
+## *2.1.43-pre*
+>## What's Changed
+>* Optimize getTeamChunks() to not go through all claimed chunks by @Georggi in https://github.com/GTNewHorizons/ServerUtilities/pull/209
+>* Replace server pausing "oneshot" feature with a mask by @nshepperd in https://github.com/GTNewHorizons/ServerUtilities/pull/208
+>
+>## New Contributors
+>* @Georggi made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/209
+>* @nshepperd made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/208
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.42-pre...2.1.43-pre
+>
+
 ## *2.1.42-pre*
 >## What's Changed
 >* Spotless apply for branch seek_block for #198 by @github-actions in https://github.com/GTNewHorizons/ServerUtilities/pull/207
@@ -8181,7 +8306,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.3.10...1.3.11-pre
 >
 
-# Updated - ThaumicEnergistics - 1.6.27-GTNH --> 1.7.6-GTNH
+# Updated - ThaumicEnergistics - 1.6.27-GTNH --> 1.7.7-GTNH
+## *1.7.7-GTNH*
+>## What's Changed
+>* Adapt to AE2 changes by @Kogepan229 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/84
+>
+>## New Contributors
+>* @Kogepan229 made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/84
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.6-GTNH...1.7.7-GTNH
+>
+
 ## *1.7.6-GTNH*
 >## What's Changed
 >* Pre-partition creative essentia cell to every aspect by @FrostyFire1 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/83
@@ -8269,7 +8404,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.0...1.7.1
 >
 
-# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.8
+# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.9
+## *2.11.9*
+>## What's Changed
+>* fix ichor pouch by @RubilaxXxx in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/52
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.8...2.11.9
+>
+
 ## *2.11.8*
 >## What's Changed
 >* cleanse the mod of its ae2 dep. by @RubilaxXxx in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/51
@@ -8345,7 +8488,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.0-GTNH...1.4.1-GTNH-pre
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.18-GTNH
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.19-GTNH-pre
+## *1.13.19-GTNH-pre*
+>## What's Changed
+>* delete old unfinished and unused minecart code by @2ndDerivative in https://github.com/GTNewHorizons/TinkersConstruct/pull/163
+>
+>## New Contributors
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/163
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.18-GTNH...1.13.19-GTNH-pre
+>
+
 ## *1.13.18-GTNH*
 >## What's Changed
 >* Make the Scythe AOE harvest ability compatible with EnderCore by @YannickMG in https://github.com/GTNewHorizons/TinkersConstruct/pull/162
