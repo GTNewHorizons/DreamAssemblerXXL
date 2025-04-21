@@ -2300,7 +2300,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.246-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.247-pre
+## *5.09.51.247-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.246-pre...5.09.51.247-pre
+>
+
 ## *5.09.51.246-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.245-pre...5.09.51.246-pre
 >
@@ -6173,7 +6177,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.161-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.162-pre
+## *2.7.162-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.161-pre...2.7.162-pre
+>
+
 ## *2.7.161-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.160...2.7.161-pre
 >
