@@ -1,15 +1,15 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2025-04-21T03:54:06.051963",
-  "config": "2.8.0-nightly-2025-04-20-2",
+  "last_version": "2.7.4",
+  "last_updated": "2025-04-21T09:11:02.901131",
+  "config": "2.8.0-nightly-2025-04-21",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.3.8-GTNH-pre",
+      "version": "1.3.9-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.52-gtnh-pre",
+      "version": "1.4.54-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -144,10 +144,6 @@
       "version": "3.4.1",
       "side": "BOTH"
     },
-    "CreativeCore": {
-      "version": "1.4.0-GTNH",
-      "side": "BOTH"
-    },
     "CropLoadCore": {
       "version": "0.2.0",
       "side": "BOTH"
@@ -165,7 +161,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.4.13-GTNH-pre",
+      "version": "1.4.15-GTNH-pre",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -209,7 +205,7 @@
       "side": "BOTH"
     },
     "Forgelin": {
-      "version": "2.0.0-GTNH",
+      "version": "2.0.1-GTNH",
       "side": "BOTH"
     },
     "ForgeMultipart": {
@@ -225,7 +221,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.113-GTNH",
+      "version": "1.1.114-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -233,7 +229,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.243-pre",
+      "version": "5.09.51.246-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -261,7 +257,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.4.4",
+      "version": "1.4.5",
       "side": "BOTH"
     },
     "IFU": {
@@ -297,7 +293,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.4.0-GTNH",
+      "version": "1.5.1-GTNH-pre",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -437,7 +433,7 @@
       "side": "BOTH"
     },
     "Roguelike-Dungeons": {
-      "version": "1.6.1-GTNH-pre",
+      "version": "1.6.2-GTNH",
       "side": "BOTH"
     },
     "SC2": {
@@ -541,7 +537,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.20-GTNH",
+      "version": "1.13.21-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -696,10 +692,6 @@
       "version": "2.1.11",
       "side": "BOTH_JAVA9"
     },
-    "GTNH-Intergalactic": {
-      "version": "1.5.41",
-      "side": "BOTH"
-    },
     "amunra": {
       "version": "0.8.1",
       "side": "BOTH"
@@ -737,7 +729,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.43-pre",
+      "version": "2.1.45-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -777,16 +769,12 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.0.25-GTNH",
+      "version": "0.0.26-GTNH-pre",
       "side": "BOTH"
     },
     "Salis-Arcana": {
       "version": "1.1.12-GTNH",
       "side": "BOTH"
-    },
-    "CoreTweaks": {
-      "version": "0.3.3.3-GTNH",
-      "side": "NONE"
     },
     "Darkerer": {
       "version": "1.0.4",
@@ -798,6 +786,10 @@
     },
     "IronTankMinecarts": {
       "version": "1.0.9",
+      "side": "BOTH"
+    },
+    "CoreTweaks": {
+      "version": "0.3.3.4-GTNH",
       "side": "BOTH"
     }
   },
