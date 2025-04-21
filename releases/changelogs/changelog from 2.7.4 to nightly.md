@@ -6,6 +6,8 @@
 > * MatterManipulator
 > * Salis-Arcana
 # Mods Removed: 
+> * CreativeCore
+> * GTNH-Intergalactic
 > * Hardcore Darkness
 > * MX-Random
 > * MouseTweaks
@@ -13,7 +15,25 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.52-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.54-gtnh-pre
+## *1.4.54-gtnh-pre*
+>## What's Changed
+>* Fix math when cell restricted and new fluid added by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/284
+>* copy of fix interface terminal crash by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/285
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.52-gtnh-pre...1.4.54-gtnh-pre
+>
+
+## *1.4.53-gtnh*
+>## What's Changed
+>* Fix math when cell restricted and new fluid added by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/284
+>* copy of fix interface terminal crash by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/285
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.50-gtnh...1.4.53-gtnh
+>
+
 ## *1.4.52-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.51-gtnh-pre...1.4.52-gtnh-pre
 >
@@ -382,7 +402,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
-# Updated - AdventureBackpack2 - 1.3.5-GTNH --> 1.3.8-GTNH-pre
+# Updated - AdventureBackpack2 - 1.3.5-GTNH --> 1.3.9-GTNH
+## *1.3.9-GTNH*
+>## What's Changed
+>* Fixed russian translation + Backported Hose textures by @Gordon-Frohman in https://github.com/GTNewHorizons/AdventureBackpack2/pull/31
+>
+>## New Contributors
+>* @Gordon-Frohman made their first contribution in https://github.com/GTNewHorizons/AdventureBackpack2/pull/31
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.7-GTNH...1.3.9-GTNH
+>
+
 ## *1.3.8-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.7-GTNH...1.3.8-GTNH-pre
 >
@@ -1814,7 +1844,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.2...1.0.3
 >
 
-# Updated - Draconic-Evolution - 1.3.18-GTNH --> 1.4.13-GTNH-pre
+# Updated - Draconic-Evolution - 1.3.18-GTNH --> 1.4.15-GTNH-pre
+## *1.4.15-GTNH-pre*
+>## What's Changed
+>* add config options to weighting ore gen by @48a3efa65c881ef567345b17f3910e06 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/67
+>
+>## New Contributors
+>* @48a3efa65c881ef567345b17f3910e06 made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/67
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.13-GTNH-pre...1.4.15-GTNH-pre
+>
+
+## *1.4.14-GTNH*
+>## What's Changed
+>* add config options to weighting ore gen by @48a3efa65c881ef567345b17f3910e06 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/67
+>
+>## New Contributors
+>* @48a3efa65c881ef567345b17f3910e06 made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/67
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.12-GTNH...1.4.14-GTNH
+>
+
 ## *1.4.13-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.12-GTNH...1.4.13-GTNH-pre
 >
@@ -2229,7 +2279,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeRelocation/compare/0.2.1...0.3.0
 >
 
-# Updated - Forgelin - 1.10.0-GTNH --> 2.0.0-GTNH
+# Updated - Forgelin - 1.10.0-GTNH --> 2.0.1-GTNH
+## *2.0.1-GTNH*
+>## What's Changed
+>* Shade Kotlin sources by @ah-OOG-ah in https://github.com/GTNewHorizons/Forgelin/pull/12
+>
+>## New Contributors
+>* @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/Forgelin/pull/12
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/2.0.0-GTNH...2.0.1-GTNH
+>
+
 ## *2.0.0-GTNH*
 >## What's Changed
 >* Updates by @Taskeren in https://github.com/GTNewHorizons/Forgelin/pull/11
@@ -2240,7 +2300,39 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.243-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.246-pre
+## *5.09.51.246-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.245-pre...5.09.51.246-pre
+>
+
+## *5.09.51.245-pre*
+>## What's Changed
+>* Add missing spaces to Drone Center display text in Waila (Attempt 2) by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4216
+>* Remove deprecated onToolRightClick methods by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4181
+>* More Ore Texture Improvements by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4198
+>* New Ichorium Texture Set by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4217
+>* Remove unused biofuel material by @dibbydoda in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4214
+>
+>## New Contributors
+>* @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4216
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.243-pre...5.09.51.245-pre
+>
+
+## *5.09.51.244*
+>## What's Changed
+>* Add missing spaces to Drone Center display text in Waila (Attempt 2) by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4216
+>* Remove deprecated onToolRightClick methods by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4181
+>* More Ore Texture Improvements by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4198
+>* New Ichorium Texture Set by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4217
+>* Remove unused biofuel material by @dibbydoda in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4214
+>
+>## New Contributors
+>* @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4216
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.242...5.09.51.244
+>
+
 ## *5.09.51.243-pre*
 >## What's Changed
 >* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4075
@@ -4492,310 +4584,6 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-Intergalactic - 1.4.35 --> 1.5.41
-## *1.5.41*
->## What's Changed
->* Final touchups before merging into GT5u by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/120
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.40...1.5.41
->
-
-## *1.5.40*
->## What's Changed
->* Stop using deprecated onSolderingToolRightClick by @Kogepan229 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/118
->* Accept hatches on Dyson autoplace by @Kogepan229 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/119
->
->## New Contributors
->* @Kogepan229 made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/118
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.39...1.5.40
->
-
-## *1.5.39*
->## What's Changed
->* Use new ItemCasingsAbstract name by @RecursivePineapple in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/117
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.38...1.5.39
->
-
-## *1.5.37*
->## What's Changed
->* Add mining drone controller slot by @jurrejelle in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/116
->
->## New Contributors
->* @jurrejelle made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/116
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.35...1.5.37
->
-
-## *1.5.36-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.35...1.5.36-pre
->
-
-## *1.5.35*
->## What's Changed
->* Merge itemstacks in some assline recipes 3/3 by @FrostyFire1 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/114
->* Remove override for unused method isSimpleMachine by @miozune in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/115
->
->## New Contributors
->* @FrostyFire1 made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/114
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.33...1.5.35
->
-
-## *1.5.34-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.33...1.5.34-pre
->
-
-## *1.5.33*
->## What's Changed
->* Remove recipe optimization by @StaffiX in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/113
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.32...1.5.33
->
-
-## *1.5.32*
->## What's Changed
->* Fix SE missing elevator cable in NEI preview by @Lyfts in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/110
->* Add survival autobuild for gas siphon by @Lyfts in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/111
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.31...1.5.32
->
-
-## *1.5.31*
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.30...1.5.31
->
-
-## *1.5.30*
->## What's Changed
->* Fix SE mining module item consumption by @GDCloudstrike in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/109
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.29...1.5.30
->
-
-## *1.5.29*
->## What's Changed
->* Disable optimization for Space Mining recipemap by @StaffiX in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/108
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.28...1.5.29
->
-
-## *1.5.28*
->## What's Changed
->* Fix dyson casings not using proper meta methods by @RecursivePineapple in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/107
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.27...1.5.28
->
-
-## *1.5.27*
->## What's Changed
->* Port UtilityWorlds compat for the DS to PersonalSpace compat by @glowredman in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/106
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.26...1.5.27
->
-
-## *1.5.26*
->## What's Changed
->* Fix mining module drone stocking exploit by @GDCloudstrike in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/105
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.24...1.5.26
->
-
-## *1.5.25-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.24...1.5.25-pre
->
-
-## *1.5.24*
->## What's Changed
->* Fix lore tooltips by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/104
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.22...1.5.24
->
-
-## *1.5.23-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.22...1.5.23-pre
->
-
-## *1.5.22*
->## What's Changed
->* Update asteroid outpost to gt solars by @FourIsTheNumber in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/103
->
->## New Contributors
->* @FourIsTheNumber made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/103
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.21...1.5.22
->
-
-## *1.5.21*
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.20...1.5.21
->
-
-## *1.5.20*
->## What's Changed
->* Change siphon running text by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/100
->* add missing Fluids/Gasses to Space Pump by @Yoshy2002 in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/98
->* Add tier check to space assembler by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/101
->* Switch module tier check to metadata from specialValue by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/102
->
->## New Contributors
->* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/98
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.18...1.5.20
->
-
-## *1.5.19-pre*
->## What's Changed
->* Remove usages of deprecated render classes by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/99
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.17-pre...1.5.19-pre
->
-
-## *1.5.18*
->## What's Changed
->* Remove usages of deprecated render classes by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/99
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.16...1.5.18
->
-
-## *1.5.17-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.16...1.5.17-pre
->
-
-## *1.5.16*
->## What's Changed
->* Clean up code before merge by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/93
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.14...1.5.16
->
-
-## *1.5.15-pre*
->## What's Changed
->* Add Localizations by @glowredman in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/97
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.11-pre...1.5.15-pre
->
-
-## *1.5.14*
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.12...1.5.14
->
-
-## *1.5.13-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.12...1.5.13-pre
->
-
-## *1.5.12*
->## What's Changed
->* Add Localizations by @glowredman in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/97
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.10...1.5.12
->
-
-## *1.5.11-pre*
->## What's Changed
->* Fix dyson tooltip by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/95
->* Add "supports tectech hatches" tooltip to elevator and dyson by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/96
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.8...1.5.11-pre
->
-
-## *1.5.10*
->## What's Changed
->* Fix dyson tooltip by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/95
->* Add "supports tectech hatches" tooltip to elevator and dyson by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/96
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.8...1.5.10
->
-
-## *1.5.9-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.8...1.5.9-pre
->
-
-## *1.5.8*
->## What's Changed
->* Add Mk4, Mk5 plasmas to space miner and rebalance plasma boosting by @StaffiX in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/94
->
->## New Contributors
->* @StaffiX made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/94
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.7...1.5.8
->
-
-## *1.5.7*
->## What's Changed
->* Migrate Dyson from GalaxySpace to Intergalactic by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/89
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.5...1.5.7
->
-
-## *1.5.6-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.5...1.5.6-pre
->
-
-## *1.5.5*
->## What's Changed
->* Move space miner to RA2 by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/81
->* Fix space miner asteroid selection by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/92
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.4...1.5.5
->
-
-## *1.5.4*
->## What's Changed
->* Add asteroid summary and cache/improve recipe lookup for space mining by @hacatu in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/76
->
->## New Contributors
->* @hacatu made their first contribution in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/76
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.2...1.5.4
->
-
-## *1.5.3-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.2...1.5.3-pre
->
-
-## *1.5.2*
->## What's Changed
->* Fix multi ui text position by @HoleFish in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/91
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.1...1.5.2
->
-
-## *1.5.1*
->## What's Changed
->* Remove Space Elevator chunk loading by @serenibyss in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/90
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.5.0...1.5.1
->
-
-## *1.5.0*
->## What's Changed
->* Disable space assembler recipe optimization by @GDCloudstrike in https://github.com/GTNewHorizons/GTNH-Intergalactic/pull/88
->
->
->**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Intergalactic/compare/1.4.30...1.5.0
->
-
 # Updated - GTNHLib - 0.5.23 --> 0.6.19
 ## *0.6.19*
 >## What's Changed
@@ -5045,7 +4833,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.2.9-GTNH...3.3.0-GTNH
 >
 
-# Updated - Galaxy-Space-GTNH - 1.1.99-GTNH --> 1.1.113-GTNH
+# Updated - Galaxy-Space-GTNH - 1.1.99-GTNH --> 1.1.114-GTNH
+## *1.1.114-GTNH*
+>## What's Changed
+>* Make α Centauri Bb Grunt ignite entities on contact by @glowredman in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/128
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.113-GTNH...1.1.114-GTNH
+>
+
 ## *1.1.113-GTNH*
 >## What's Changed
 >* Major Code Rework by @glowredman in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/125
@@ -5512,7 +5308,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.0-GTNH...2.5.1-GTNH
 >
 
-# Updated - HydroEnergy - 1.4.3 --> 1.4.4
+# Updated - HydroEnergy - 1.4.3 --> 1.4.5
+## *1.4.5*
+>## What's Changed
+>* Stop using deprecated onScrewdriverRightClick by @Kogepan229 in https://github.com/GTNewHorizons/HydroEnergy/pull/34
+>
+>## New Contributors
+>* @Kogepan229 made their first contribution in https://github.com/GTNewHorizons/HydroEnergy/pull/34
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.4...1.4.5
+>
+
 ## *1.4.4*
 >## What's Changed
 >* Small Fixes by @glowredman in https://github.com/GTNewHorizons/HydroEnergy/pull/33
@@ -5993,6 +5799,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.4.6...1.5.0
 >
 
+# Updated - LittleTiles - 1.4.0-GTNH --> 1.5.1-GTNH-pre
+## *1.5.1-GTNH-pre*
+>## What's Changed
+>* Merge CreativeCore into LittleTiles by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/11
+>
+>## New Contributors
+>* @DarkShadow44 made their first contribution in https://github.com/GTNewHorizons/LittleTiles/pull/11
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.4.0-GTNH...1.5.1-GTNH-pre
+>
+
+## *1.5.0-GTNH*
+>## What's Changed
+>* Merge CreativeCore into LittleTiles by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/11
+>
+>## New Contributors
+>* @DarkShadow44 made their first contribution in https://github.com/GTNewHorizons/LittleTiles/pull/11
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.4.0-GTNH...1.5.0-GTNH
+>
+
 # Updated - LogisticsPipes - 1.3.6-GTNH --> 1.4.6-GTNH-pre
 ## *1.4.6-GTNH-pre*
 >## What's Changed
@@ -6068,7 +5895,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.9.1-GTNH...2.9.2-GTNH
 >
 
-# New Mod - MatterManipulator:0.0.25-GTNH
+# New Mod - MatterManipulator:0.0.26-GTNH-pre
+## *0.0.26-GTNH-pre*
+>## What's Changed
+>* Stop using deprecated onWireCutterRightClick by @Kogepan229 in https://github.com/GTNewHorizons/MatterManipulator/pull/5
+>* Spotless apply for branch fix-covers for #6 by @github-actions in https://github.com/GTNewHorizons/MatterManipulator/pull/7
+>
+>## New Contributors
+>* @Kogepan229 made their first contribution in https://github.com/GTNewHorizons/MatterManipulator/pull/5
+>* @github-actions made their first contribution in https://github.com/GTNewHorizons/MatterManipulator/pull/7
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.25-GTNH...0.0.26-GTNH-pre
+>
+
 ## *0.0.25-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.24-GTNH...0.0.25-GTNH
 >
@@ -8114,7 +7953,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.6.0...2.6.1
 >
 
-# Updated - Roguelike-Dungeons - 1.6.0-GTNH --> 1.6.1-GTNH-pre
+# Updated - Roguelike-Dungeons - 1.6.0-GTNH --> 1.6.2-GTNH
+## *1.6.2-GTNH*
+>## What's Changed
+>* Support MC NBT strings by @YannickMG in https://github.com/GTNewHorizons/Roguelike-Dungeons/pull/5
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/Roguelike-Dungeons/pull/5
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Roguelike-Dungeons/compare/1.6.0-GTNH...1.6.2-GTNH
+>
+
 ## *1.6.1-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Roguelike-Dungeons/compare/1.6.0-GTNH...1.6.1-GTNH-pre
 >
@@ -8184,7 +8033,31 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.40 --> 2.1.43-pre
+# Updated - ServerUtilities - 2.1.40 --> 2.1.45-pre
+## *2.1.45-pre*
+>## What's Changed
+>* Fix crash in Thermos server by @xgpjun in https://github.com/GTNewHorizons/ServerUtilities/pull/210
+>
+>## New Contributors
+>* @xgpjun made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/210
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.43-pre...2.1.45-pre
+>
+
+## *2.1.44*
+>## What's Changed
+>* Optimize getTeamChunks() to not go through all claimed chunks by @Georggi in https://github.com/GTNewHorizons/ServerUtilities/pull/209
+>* Replace server pausing "oneshot" feature with a mask by @nshepperd in https://github.com/GTNewHorizons/ServerUtilities/pull/208
+>* Fix crash in Thermos server by @xgpjun in https://github.com/GTNewHorizons/ServerUtilities/pull/210
+>
+>## New Contributors
+>* @Georggi made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/209
+>* @nshepperd made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/208
+>* @xgpjun made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/210
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.40...2.1.44
+>
+
 ## *2.1.43-pre*
 >## What's Changed
 >* Optimize getTeamChunks() to not go through all claimed chunks by @Georggi in https://github.com/GTNewHorizons/ServerUtilities/pull/209
@@ -8651,7 +8524,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.0-GTNH...1.4.1-GTNH-pre
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.20-GTNH
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.21-GTNH
+## *1.13.21-GTNH*
+>## What's Changed
+>* Add "Disable All Recipes" config option by @48a3efa65c881ef567345b17f3910e06 in https://github.com/GTNewHorizons/TinkersConstruct/pull/169
+>
+>## New Contributors
+>* @48a3efa65c881ef567345b17f3910e06 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/169
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.20-GTNH...1.13.21-GTNH
+>
+
 ## *1.13.20-GTNH*
 >## What's Changed
 >* delete old unfinished and unused minecart code by @2ndDerivative in https://github.com/GTNewHorizons/TinkersConstruct/pull/163
