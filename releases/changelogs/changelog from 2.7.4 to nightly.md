@@ -1374,7 +1374,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/compare/0.6.0...0.7.0
 >
 
-# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.9
+# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.10
+## *1.3.10*
+>## What's Changed
+>* fix coil tier detection and untangle IStructureElementChain handling by @Glease in https://github.com/GTNewHorizons/BlockRenderer6343/pull/30
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.9...1.3.10
+>
+
 ## *1.3.9*
 >## What's Changed
 >* Enable max tier to appear both earlier and at end of tiering by @Ruling-0 in https://github.com/GTNewHorizons/BlockRenderer6343/pull/27
@@ -2300,7 +2308,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.249-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.250-pre
+## *5.09.51.250-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.249-pre...5.09.51.250-pre
+>
+
 ## *5.09.51.249-pre*
 >## What's Changed
 >* fix ichorium plasma by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4218
@@ -4976,7 +4988,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.97-GTNH...1.1.100-GTNH
 >
 
-# Updated - Gravitation-Suite-Neo - 1.2.2 --> 1.3.4
+# Updated - Gravitation-Suite-Neo - 1.2.2 --> 1.3.5
+## *1.3.5*
+>## What's Changed
+>* change loader checks to avoid gt6 conflict by @felixfour in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/27
+>
+>## New Contributors
+>* @felixfour made their first contribution in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/27
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.4...1.3.5
+>
+
 ## *1.3.4*
 >## What's Changed
 >* Move GraviSuite Armors to GT Hazard API by @2ndDerivative in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/26
@@ -6205,7 +6227,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.162-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.163-pre
+## *2.7.163-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.162-pre...2.7.163-pre
+>
+
 ## *2.7.162-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.161-pre...2.7.162-pre
 >
@@ -8004,7 +8030,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Roguelike-Dungeons/compare/1.6.0-GTNH...1.6.1-GTNH-pre
 >
 
-# New Mod - Salis-Arcana:1.1.12-GTNH
+# New Mod - Salis-Arcana:1.1.13-GTNH
+## *1.1.13-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.12-GTNH...1.1.13-GTNH
+>
+
 ## *1.1.12-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.11-GTNH...1.1.12-GTNH
 >
