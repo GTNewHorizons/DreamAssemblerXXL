@@ -2300,7 +2300,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.247-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.249-pre
+## *5.09.51.249-pre*
+>## What's Changed
+>* fix ichorium plasma by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4218
+>* Fix Incorrect Colour for Molten and Plasma Ichorium by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4219
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.247-pre...5.09.51.249-pre
+>
+
+## *5.09.51.248*
+>## What's Changed
+>* fix ichorium plasma by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4218
+>* Fix Incorrect Colour for Molten and Plasma Ichorium by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4219
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.244...5.09.51.248
+>
+
 ## *5.09.51.247-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.246-pre...5.09.51.247-pre
 >
@@ -4588,7 +4606,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.19
+# Updated - GTNHLib - 0.5.23 --> 0.6.20
+## *0.6.20*
+>## What's Changed
+>* Add functionality to fake blockId for shaders by @DarkShadow44 in https://github.com/GTNewHorizons/GTNHLib/pull/114
+>
+>## New Contributors
+>* @DarkShadow44 made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/114
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.19...0.6.20
+>
+
 ## *0.6.19*
 >## What's Changed
 >* Backport callFromMainThread() and addScheduledTask() by @Taskeren in https://github.com/GTNewHorizons/GTNHLib/pull/126
@@ -8530,6 +8558,17 @@ Mod is client-side only.
 # Updated - Thaumic_Exploration - 1.4.0-GTNH --> 1.4.1-GTNH-pre
 ## *1.4.1-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.0-GTNH...1.4.1-GTNH-pre
+>
+
+# Updated - Tinkers-Defense - 1.3.1 --> 1.3.2
+## *1.3.2*
+>## What's Changed
+>* Fix shield tooltip formatting by @ChenMoFeiJin in https://github.com/GTNewHorizons/Tinkers-Defense/pull/6
+>
+>## New Contributors
+>* @ChenMoFeiJin made their first contribution in https://github.com/GTNewHorizons/Tinkers-Defense/pull/6
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.3.1...1.3.2
 >
 
 # Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.21-GTNH
