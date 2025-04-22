@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-04-22T03:50:31.505007",
-  "config": "2.8.0-nightly-2025-04-21",
+  "last_updated": "2025-04-22T13:05:59.605253",
+  "config": "2.8.0-nightly-2025-04-22",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.249-pre",
+      "version": "5.09.51.250-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.162-pre",
+      "version": "2.7.163-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.3.9",
+      "version": "1.3.10",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -673,7 +673,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.3.4",
+      "version": "1.3.5",
       "side": "BOTH"
     },
     "MrTJPCore": {
@@ -773,7 +773,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.12-GTNH",
+      "version": "1.1.13-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
