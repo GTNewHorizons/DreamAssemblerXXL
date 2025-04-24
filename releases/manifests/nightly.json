@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-04-23T03:49:15.772398",
+  "last_updated": "2025-04-24T03:51:02.968565",
   "config": "2.8.0-nightly-2025-04-22",
   "github_mods": {
     "AdventureBackpack2": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.6.4",
+      "version": "1.6.5",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.250-pre",
+      "version": "5.09.51.252-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -529,7 +529,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.11.9",
+      "version": "2.11.10",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -673,7 +673,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.3.5",
+      "version": "1.3.6",
       "side": "BOTH"
     },
     "MrTJPCore": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "Tainted-Magic": {
-      "version": "7.6.17-GTNH",
+      "version": "7.6.18-GTNH",
       "side": "BOTH"
     },
     "lwjgl3ify": {
@@ -721,7 +721,7 @@
       "side": "CLIENT"
     },
     "ThaumicBoots": {
-      "version": "1.4.5",
+      "version": "1.4.6",
       "side": "BOTH"
     },
     "Amazing-Trophies": {

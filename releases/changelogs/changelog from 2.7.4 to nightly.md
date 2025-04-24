@@ -1970,7 +1970,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.14-GTNH...1.4.0-GTNH
 >
 
-# Updated - Electro-Magic-Tools - 1.5.17 --> 1.6.4
+# Updated - Electro-Magic-Tools - 1.5.17 --> 1.6.5
+## *1.6.5*
+>## What's Changed
+>* Change optional decorator modid from `gregtech` to `gregtech_nh` for gt6 compat by @felixfour in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/92
+>
+>## New Contributors
+>* @felixfour made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/92
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.4...1.6.5
+>
+
 ## *1.6.4*
 >## What's Changed
 >* Move Nano/Quantum armor pieces to GT Hazard API by @2ndDerivative in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/91
@@ -2308,7 +2318,33 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.250-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.252-pre
+## *5.09.51.252-pre*
+>## What's Changed
+>* add Biodiesel as RC boiler fuel by @2ndDerivative in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4200
+>* Add output hatch check to MTEBioVat by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4221
+>* GoodGenerators' Naquadah recipe map should be RecipeMap<FuelBackend> by @Apeiria01 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4222
+>* Describe UCFE mechanics in the machine tooltip. by @Sopel97 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4223
+>* Add mod with "gregtechNH" modid for easier GT6 differentiation by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4225
+>* Use lowercase modid for gregtech_nh by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4227
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.250-pre...5.09.51.252-pre
+>
+
+## *5.09.51.251*
+>## What's Changed
+>* add Biodiesel as RC boiler fuel by @2ndDerivative in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4200
+>* Add output hatch check to MTEBioVat by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4221
+>* GoodGenerators' Naquadah recipe map should be RecipeMap<FuelBackend> by @Apeiria01 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4222
+>* Describe UCFE mechanics in the machine tooltip. by @Sopel97 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4223
+>* Add mod with "gregtechNH" modid for easier GT6 differentiation by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4225
+>* Use lowercase modid for gregtech_nh by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4227
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.248...5.09.51.251
+>
+
 ## *5.09.51.250-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.249-pre...5.09.51.250-pre
 >
@@ -4988,7 +5024,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.97-GTNH...1.1.100-GTNH
 >
 
-# Updated - Gravitation-Suite-Neo - 1.2.2 --> 1.3.5
+# Updated - Gravitation-Suite-Neo - 1.2.2 --> 1.3.6
+## *1.3.6*
+>## What's Changed
+>* Change modid in optional decorators to `gregtech_nh` instead of `gregtech` to work with gt6 again by @felixfour in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/28
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.5...1.3.6
+>
+
 ## *1.3.5*
 >## What's Changed
 >* change loader checks to avoid gt6 conflict by @felixfour in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/27
@@ -8278,7 +8322,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.2...1.8.0
 >
 
-# Updated - Tainted-Magic - 7.6.15-GTNH --> 7.6.17-GTNH
+# Updated - Tainted-Magic - 7.6.15-GTNH --> 7.6.18-GTNH
+## *7.6.18-GTNH*
+>## What's Changed
+>* Change optional decorators' modid `gregtech` to `gregtech_nh` for gt6 compat by @felixfour in https://github.com/GTNewHorizons/Tainted-Magic/pull/33
+>
+>## New Contributors
+>* @felixfour made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/33
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.17-GTNH...7.6.18-GTNH
+>
+
 ## *7.6.17-GTNH*
 >## What's Changed
 >* Change 'Voidmetal' -> 'Void Metal' by @serenibyss in https://github.com/GTNewHorizons/Tainted-Magic/pull/32
@@ -8361,7 +8415,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.7.7...1.8.0
 >
 
-# Updated - ThaumicBoots - 1.3.10 --> 1.4.5
+# Updated - ThaumicBoots - 1.3.10 --> 1.4.6
+## *1.4.6*
+>## What's Changed
+>* Change optional decorators' modid `gregtech` to `gregtech_nh` for compat by @felixfour in https://github.com/GTNewHorizons/ThaumicBoots/pull/37
+>
+>## New Contributors
+>* @felixfour made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/37
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.5...1.4.6
+>
+
 ## *1.4.5*
 >## What's Changed
 >* support GT Hazard API by @2ndDerivative in https://github.com/GTNewHorizons/ThaumicBoots/pull/36
@@ -8506,7 +8570,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.0...1.7.1
 >
 
-# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.9
+# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.10
+## *2.11.10*
+>## What's Changed
+>* Change optional decorators modid `gregtech` to `gregtech_nh` for compat by @felixfour in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/53
+>
+>## New Contributors
+>* @felixfour made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/53
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.9...2.11.10
+>
+
 ## *2.11.9*
 >## What's Changed
 >* fix ichor pouch by @RubilaxXxx in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/52
