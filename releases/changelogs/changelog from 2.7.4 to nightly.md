@@ -1197,7 +1197,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-478-GTNH...rv3-beta-500-GTNH
 >
 
-# Updated - Avaritia - 1.59 --> 1.62
+# Updated - Avaritia - 1.59 --> 1.63
+## *1.63*
+>## What's Changed
+>* Change infinity armor and block Optional decorators to work with gt6 by @felixfour in https://github.com/GTNewHorizons/Avaritia/pull/50
+>
+>## New Contributors
+>* @felixfour made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/50
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.62...1.63
+>
+
 ## *1.62*
 >## What's Changed
 >* Move Infinity Armor to new GT Hazard API by @2ndDerivative in https://github.com/GTNewHorizons/Avaritia/pull/49
@@ -2023,7 +2033,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.5.16...1.6.0
 >
 
-# Updated - EnderIO - 2.8.24 --> 2.9.7
+# Updated - EnderIO - 2.8.24 --> 2.9.8
+## *2.9.8*
+>## What's Changed
+>* Change hazmat Optional decorators' modid from `gregtech` to `gregtech_nh` to add gt6 compat by @felixfour in https://github.com/GTNewHorizons/EnderIO/pull/191
+>
+>## New Contributors
+>* @felixfour made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/191
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.7...2.9.8
+>
+
 ## *2.9.7*
 >## What's Changed
 >* Move End Steel/ Stellar Armor to GT Hazard API by @2ndDerivative in https://github.com/GTNewHorizons/EnderIO/pull/189
@@ -2318,7 +2338,40 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.252-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.255-pre
+## *5.09.51.255-pre*
+>## What's Changed
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4075
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4076
+>* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4160
+>* Fix synchronization for wireless computation/data by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4213
+>* Readding the sheen to cosmic neutronium by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4197
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.254...5.09.51.255-pre
+>
+
+## *5.09.51.254*
+>## What's Changed
+>* Intergalactic post merge cleanup by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4234
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.253...5.09.51.254
+>
+
+## *5.09.51.253*
+>## What's Changed
+>* Don't show maintenance readout on unformed multis by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4231
+>* Widen Modifiers to `protected` in ParallelHelper and OverclockCalculator by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4226
+>* Plasma Texture Improvements by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4220
+>* Rework Wireless Charger by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4192
+>* Improve forbidden isModLoaded and getModItem scripts by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4208
+>* Merge GTNH Intergalactic into GT5u by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4205
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.251...5.09.51.253
+>
+
 ## *5.09.51.252-pre*
 >## What's Changed
 >* add Biodiesel as RC boiler fuel by @2ndDerivative in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4200
@@ -6271,7 +6324,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.163-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.165-pre
+## *2.7.165-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.164...2.7.165-pre
+>
+
+## *2.7.164*
+>## What's Changed
+>* Fixes for GTNH-Intergalactic being merged into GT5u by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1240
+>* Improve forbidden isModLoaded and getModItem scripts by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1241
+>* Fusion Recipe Threshold Changes by @Impos913 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1219
+>* Intergalactic post merge cleanup by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1245
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.160...2.7.164
+>
+
 ## *2.7.163-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.162-pre...2.7.163-pre
 >
@@ -7899,7 +7967,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.20
+# Updated - Railcraft - 9.15.17 --> 9.16.21
+## *9.16.21*
+>## What's Changed
+>* Change `gregtech` optional decorator modid to `gregtech_nh` for GT6 compat by @felixfour in https://github.com/GTNewHorizons/Railcraft/pull/91
+>* Fix null pointer itemStack crash by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/92
+>
+>## New Contributors
+>* @felixfour made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/91
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.20...9.16.21
+>
+
 ## *9.16.20*
 >## What's Changed
 >* Only use Gregtech hazard functionality if the Gregtech module is enabled by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/88
@@ -8072,6 +8151,15 @@ Mod is client-side only.
 
 ## *1.6.1-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Roguelike-Dungeons/compare/1.6.0-GTNH...1.6.1-GTNH-pre
+>
+
+# Updated - SC2 - 2.3.0 --> 2.3.1
+## *2.3.1*
+>## What's Changed
+>* Add Train Connector Module by @hpotter02 in https://github.com/GTNewHorizons/SC2/pull/8
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.0...2.3.1
 >
 
 # New Mod - Salis-Arcana:1.1.13-GTNH
@@ -8934,7 +9022,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.11.7...1.11.8-pre
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.4-GTNH
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.5-GTNH
+## *1.7.5-GTNH*
+>## What's Changed
+>* Change `gregtech` in decorator for hazmat method to `gregtech_nh` for better compat by @felixfour in https://github.com/GTNewHorizons/WitchingGadgets/pull/73
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.4-GTNH...1.7.5-GTNH
+>
+
 ## *1.7.4-GTNH*
 >## What's Changed
 >* fix cloak issue by @RubilaxXxx in https://github.com/GTNewHorizons/WitchingGadgets/pull/72
