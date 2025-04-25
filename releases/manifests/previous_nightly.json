@@ -1,8 +1,8 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-04-22T03:50:31.505007",
-  "config": "2.8.0-nightly-2025-04-21",
+  "last_updated": "2025-04-25T03:50:04.372194",
+  "config": "2.8.0-nightly-2025-04-22",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.62",
+      "version": "1.63",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.6.4",
+      "version": "1.6.5",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -173,7 +173,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.7",
+      "version": "2.9.8",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.249-pre",
+      "version": "5.09.51.255-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.162-pre",
+      "version": "2.7.165-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -421,7 +421,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.16.20",
+      "version": "9.16.21",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -437,7 +437,7 @@
       "side": "BOTH"
     },
     "SC2": {
-      "version": "2.3.0",
+      "version": "2.3.1",
       "side": "BOTH"
     },
     "Schematica": {
@@ -529,7 +529,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.11.9",
+      "version": "2.11.10",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -605,7 +605,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.7.4-GTNH",
+      "version": "1.7.5-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.3.9",
+      "version": "1.3.10",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -673,7 +673,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.3.4",
+      "version": "1.3.6",
       "side": "BOTH"
     },
     "MrTJPCore": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "Tainted-Magic": {
-      "version": "7.6.17-GTNH",
+      "version": "7.6.18-GTNH",
       "side": "BOTH"
     },
     "lwjgl3ify": {
@@ -721,7 +721,7 @@
       "side": "CLIENT"
     },
     "ThaumicBoots": {
-      "version": "1.4.5",
+      "version": "1.4.6",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
@@ -773,7 +773,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.12-GTNH",
+      "version": "1.1.13-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
