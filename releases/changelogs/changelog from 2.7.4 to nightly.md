@@ -1384,7 +1384,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/compare/0.6.0...0.7.0
 >
 
-# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.10
+# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.11
+## *1.3.11*
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.10...1.3.11
+>
+
 ## *1.3.10*
 >## What's Changed
 >* fix coil tier detection and untangle IStructureElementChain handling by @Glease in https://github.com/GTNewHorizons/BlockRenderer6343/pull/30
@@ -1486,7 +1490,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.10-pre
+# Updated - BloodMagic - 1.6.11 --> 1.7.12-pre
+## *1.7.12-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.11...1.7.12-pre
+>
+
+## *1.7.11*
+>## What's Changed
+>* Remove Profanity by @C0bra5 in https://github.com/GTNewHorizons/BloodMagic/pull/78
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.9...1.7.11
+>
+
 ## *1.7.10-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.9...1.7.10-pre
 >
@@ -1862,7 +1878,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.2...1.0.3
 >
 
-# Updated - Draconic-Evolution - 1.3.18-GTNH --> 1.4.15-GTNH-pre
+# Updated - Draconic-Evolution - 1.3.18-GTNH --> 1.4.17-GTNH-pre
+## *1.4.17-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.16-GTNH...1.4.17-GTNH-pre
+>
+
+## *1.4.16-GTNH*
+>## What's Changed
+>* Fix GT Loader checks without touching Optional decorator for now by @felixfour in https://github.com/GTNewHorizons/Draconic-Evolution/pull/69
+>* Fix gregtech loader checks, and change Optional hazmat decorators to check if gtnh's gt5 is loaded by @felixfour in https://github.com/GTNewHorizons/Draconic-Evolution/pull/68
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.14-GTNH...1.4.16-GTNH
+>
+
 ## *1.4.15-GTNH-pre*
 >## What's Changed
 >* add config options to weighting ore gen by @48a3efa65c881ef567345b17f3910e06 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/67
@@ -2033,7 +2062,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.5.16...1.6.0
 >
 
-# Updated - EnderIO - 2.8.24 --> 2.9.8
+# Updated - EnderIO - 2.8.24 --> 2.9.9-pre
+## *2.9.9-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.8...2.9.9-pre
+>
+
 ## *2.9.8*
 >## What's Changed
 >* Change hazmat Optional decorators' modid from `gregtech` to `gregtech_nh` to add gt6 compat by @felixfour in https://github.com/GTNewHorizons/EnderIO/pull/191
@@ -2338,7 +2371,40 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.255-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.257-pre
+## *5.09.51.257-pre*
+>## What's Changed
+>* Coal tar recipes for Cactus and sugar charcoal/coke by @lucythebean in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4232
+>* Fix laser mirror loop stack overflow & Add debug generator mirror support by @YueLengM in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4167
+>* Fusion Recipe Threshold Changes by @Impos913 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4055
+>* Minor refactor to multi item outputting by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4112
+>* Fix XLT Muffler Preview & Hologram Dots by @54M44R in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4235
+>* Fix XLT / LT Fluid Dupe + Voiding by @54M44R in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4237
+>* Netherite: Let the Hell be with us by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4074
+>
+>## New Contributors
+>* @YueLengM made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4167
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.255-pre...5.09.51.257-pre
+>
+
+## *5.09.51.256*
+>## What's Changed
+>* Fix synchronization for wireless computation/data by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4213
+>* Readding the sheen to cosmic neutronium by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4197
+>* Coal tar recipes for Cactus and sugar charcoal/coke by @lucythebean in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4232
+>* Fix laser mirror loop stack overflow & Add debug generator mirror support by @YueLengM in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4167
+>* Fusion Recipe Threshold Changes by @Impos913 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4055
+>* Minor refactor to multi item outputting by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4112
+>* Fix XLT Muffler Preview & Hologram Dots by @54M44R in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4235
+>* Fix XLT / LT Fluid Dupe + Voiding by @54M44R in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4237
+>
+>## New Contributors
+>* @YueLengM made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4167
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.254...5.09.51.256
+>
+
 ## *5.09.51.255-pre*
 >## What's Changed
 >* Spotless apply for branch Netherite for #4074 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4075
@@ -6126,7 +6192,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/commits/0.0.14
 >
 
-# Updated - Minecraft-Backpack-Mod - 2.4.3-GTNH --> 2.5.0-GTNH
+# Updated - Minecraft-Backpack-Mod - 2.4.3-GTNH --> 2.5.1-GTNH-pre
+## *2.5.1-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.5.0-GTNH...2.5.1-GTNH-pre
+>
+
 ## *2.5.0-GTNH*
 >## What's Changed
 >* Make Tier 2 craftable (non-GTNH only) by @Pilzinsel64 in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/13
@@ -6324,7 +6394,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.165-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.167-pre
+## *2.7.167-pre*
+>## What's Changed
+>* New Botania blocks + Tuff Dust by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1243
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.165-pre...2.7.167-pre
+>
+
+## *2.7.166*
+>## What's Changed
+>* New Botania blocks + Tuff Dust by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1243
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.164...2.7.166
+>
+
 ## *2.7.165-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.164...2.7.165-pre
 >
@@ -7438,7 +7524,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.39-GTNH-pre
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.40-GTNH
+## *2.7.40-GTNH*
+>## What's Changed
+>* Create Favorites Widget; More hotkeys; More Tooltips; by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/617
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.38-GTNH...2.7.40-GTNH
+>
+
 ## *2.7.39-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.37-GTNH-pre...2.7.39-GTNH-pre
 >
@@ -7967,7 +8061,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.21
+# Updated - Railcraft - 9.15.17 --> 9.16.22-pre
+## *9.16.22-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.21...9.16.22-pre
+>
+
 ## *9.16.21*
 >## What's Changed
 >* Change `gregtech` optional decorator modid to `gregtech_nh` for GT6 compat by @felixfour in https://github.com/GTNewHorizons/Railcraft/pull/91
@@ -8162,7 +8260,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.0...2.3.1
 >
 
-# New Mod - Salis-Arcana:1.1.13-GTNH
+# New Mod - Salis-Arcana:1.1.14-GTNH
+## *1.1.14-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.13-GTNH...1.1.14-GTNH
+>
+
 ## *1.1.13-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.12-GTNH...1.1.13-GTNH
 >
@@ -8316,6 +8418,11 @@ Mod is client-side only.
 
 ## *1.3.3-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Steve-s-Factory-Manager/compare/1.3.2-GTNH...1.3.3-GTNH-pre
+>
+
+# Updated - StructureCompat - 0.6.5 --> 0.7.0
+## *0.7.0*
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.6.5...0.7.0
 >
 
 # Updated - StructureLib - 1.3.6 --> 1.4.9-pre
@@ -9005,6 +9112,17 @@ Mod is client-side only.
 >* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/WAILAPlugins/pull/19
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.5.1...0.6.0
+>
+
+# Updated - WailaHarvestability - 1.3.2-GTNH --> 1.3.3-GTNH
+## *1.3.3-GTNH*
+>## What's Changed
+>* fix loader check to not crash other GT versions by @felixfour in https://github.com/GTNewHorizons/WailaHarvestability/pull/9
+>
+>## New Contributors
+>* @felixfour made their first contribution in https://github.com/GTNewHorizons/WailaHarvestability/pull/9
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WailaHarvestability/compare/1.3.2-GTNH...1.3.3-GTNH
 >
 
 # Updated - WirelessCraftingTerminal - 1.11.7 --> 1.12.0
