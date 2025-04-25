@@ -2371,7 +2371,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.257-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.258-pre
+## *5.09.51.258-pre*
+>## What's Changed
+>* Fix intergalactic blocks registration order by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4238
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.257-pre...5.09.51.258-pre
+>
+
 ## *5.09.51.257-pre*
 >## What's Changed
 >* Coal tar recipes for Cactus and sugar charcoal/coke by @lucythebean in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4232
