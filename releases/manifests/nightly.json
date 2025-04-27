@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-04-26T03:48:54.317074",
+  "last_updated": "2025-04-27T03:50:32.351324",
   "config": "2.8.0-nightly-2025-04-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.20",
+      "version": "0.6.21",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.37",
+      "version": "2.6.38",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "Postea": {
-      "version": "1.0.13",
+      "version": "1.0.14",
       "side": "BOTH"
     },
     "InventoryBogoSorter": {

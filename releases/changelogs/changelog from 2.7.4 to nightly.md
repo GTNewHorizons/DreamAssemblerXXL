@@ -4781,7 +4781,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.20
+# Updated - GTNHLib - 0.5.23 --> 0.6.21
+## *0.6.21*
+>## What's Changed
+>* Add 32-bit and 64-bit FNV-1a hash function utilities by @eigenraven in https://github.com/GTNewHorizons/GTNHLib/pull/128
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.20...0.6.21
+>
+
 ## *0.6.20*
 >## What's Changed
 >* Add functionality to fake blockId for shaders by @DarkShadow44 in https://github.com/GTNewHorizons/GTNHLib/pull/114
@@ -5225,7 +5233,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.37
+# Updated - Hodgepodge - 2.5.90 --> 2.6.38
+## *2.6.38*
+>## What's Changed
+>* Add ASM to swap out an ArrayList and multiple contains() calls with a better data structure (Set) by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/508
+>* Swap out ObjectIntIdentityMap with ProperObjectIntIdentityMap to avoid Box/Unbox of ints by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/509
+>* Add option to set simulation distance by @DarkShadow44 in https://github.com/GTNewHorizons/Hodgepodge/pull/507
+>* Better hashcode for ChunkCoordIntPair by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/510
+>* Bump required deps for nhlib & unimixins by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/511
+>
+>## New Contributors
+>* @DarkShadow44 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/507
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.37...2.6.38
+>
+
 ## *2.6.37*
 >## What's Changed
 >* Fix the healing axe not healing entities when attacking them by @EmperorSuper in https://github.com/GTNewHorizons/Hodgepodge/pull/498
@@ -8033,6 +8055,17 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.4.0
+>
+
+# Updated - Postea - 1.0.13 --> 1.0.14
+## *1.0.14*
+>## What's Changed
+>* Significantly reduce Integer.valueOf() allocation spam by @mitchej123 in https://github.com/GTNewHorizons/Postea/pull/9
+>
+>## New Contributors
+>* @mitchej123 made their first contribution in https://github.com/GTNewHorizons/Postea/pull/9
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Postea/compare/1.0.13...1.0.14
 >
 
 # Updated - ProjectRed - 4.11.0-GTNH --> 4.11.4-GTNH
