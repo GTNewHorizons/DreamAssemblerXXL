@@ -7554,6 +7554,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
+# Updated - NotEnoughIds - 2.1.6 --> 2.1.7
+## *2.1.7*
+>## What's Changed
+>* Switch to GTNHLib mixin utilities by @Cleptomania in https://github.com/GTNewHorizons/NotEnoughIds/pull/25
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
+>
+
 # Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.40-GTNH
 ## *2.7.40-GTNH*
 >## What's Changed

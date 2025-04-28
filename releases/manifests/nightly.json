@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-04-27T03:50:32.351324",
+  "last_updated": "2025-04-28T03:53:03.563347",
   "config": "2.8.0-nightly-2025-04-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -629,7 +629,7 @@
       "side": "CLIENT"
     },
     "NotEnoughIds": {
-      "version": "2.1.6",
+      "version": "2.1.7",
       "side": "BOTH"
     },
     "FloodLights": {
