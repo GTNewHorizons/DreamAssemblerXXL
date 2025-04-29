@@ -1384,7 +1384,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/compare/0.6.0...0.7.0
 >
 
-# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.11
+# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.12-pre
+## *1.3.12-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.11...1.3.12-pre
+>
+
 ## *1.3.11*
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.10...1.3.11
 >
@@ -1490,7 +1494,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.12-pre
+# Updated - BloodMagic - 1.6.11 --> 1.7.13-pre
+## *1.7.13-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.12-pre...1.7.13-pre
+>
+
 ## *1.7.12-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.11...1.7.12-pre
 >
@@ -2009,7 +2017,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.14-GTNH...1.4.0-GTNH
 >
 
-# Updated - Electro-Magic-Tools - 1.5.17 --> 1.6.5
+# Updated - Electro-Magic-Tools - 1.5.17 --> 1.6.6-pre
+## *1.6.6-pre*
+>## What's Changed
+>* Essentia Generator Cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/93
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.5...1.6.6-pre
+>
+
 ## *1.6.5*
 >## What's Changed
 >* Change optional decorator modid from `gregtech` to `gregtech_nh` for gt6 compat by @felixfour in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/92
@@ -2062,7 +2078,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.5.16...1.6.0
 >
 
-# Updated - EnderIO - 2.8.24 --> 2.9.9-pre
+# Updated - EnderIO - 2.8.24 --> 2.9.10-pre
+## *2.9.10-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.9-pre...2.9.10-pre
+>
+
 ## *2.9.9-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.8...2.9.9-pre
 >
@@ -2371,7 +2391,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.258-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.259
+## *5.09.51.259*
+>## What's Changed
+>* Netherite: Let the Hell be with us by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4074
+>* Fix intergalactic blocks registration order by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4238
+>* Fix Fortune Rich Ores Yielding Less Than Expected by @54M44R in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4240
+>* Buff HDP by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4243
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.256...5.09.51.259
+>
+
 ## *5.09.51.258-pre*
 >## What's Changed
 >* Fix intergalactic blocks registration order by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4238
@@ -5048,7 +5079,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.2.9-GTNH...3.3.0-GTNH
 >
 
-# Updated - Galaxy-Space-GTNH - 1.1.99-GTNH --> 1.1.114-GTNH
+# Updated - Galaxy-Space-GTNH - 1.1.99-GTNH --> 1.1.115-GTNH
+## *1.1.115-GTNH*
+>## What's Changed
+>* Fix wrong Control Computer in T3 Rocket Schematic Container by @glowredman in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/129
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.114-GTNH...1.1.115-GTNH
+>
+
 ## *1.1.114-GTNH*
 >## What's Changed
 >* Make α Centauri Bb Grunt ignite entities on contact by @glowredman in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/128
@@ -7563,7 +7602,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.40-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.41-GTNH-pre
+## *2.7.41-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.40-GTNH...2.7.41-GTNH-pre
+>
+
 ## *2.7.40-GTNH*
 >## What's Changed
 >* Create Favorites Widget; More hotkeys; More Tooltips; by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/617
@@ -8111,7 +8154,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.22-pre
+# Updated - Railcraft - 9.15.17 --> 9.16.25-pre
+## *9.16.25-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.24-pre...9.16.25-pre
+>
+
+## *9.16.24-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.23...9.16.24-pre
+>
+
+## *9.16.23*
+>## What's Changed
+>* Rework block breaking to fix anchors not storing their time by @Caedis in https://github.com/GTNewHorizons/Railcraft/pull/93
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.21...9.16.23
+>
+
 ## *9.16.22-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.21...9.16.22-pre
 >
@@ -8301,7 +8360,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Roguelike-Dungeons/compare/1.6.0-GTNH...1.6.1-GTNH-pre
 >
 
-# Updated - SC2 - 2.3.0 --> 2.3.1
+# Updated - SC2 - 2.3.0 --> 2.3.2-pre
+## *2.3.2-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.1...2.3.2-pre
+>
+
 ## *2.3.1*
 >## What's Changed
 >* Add Train Connector Module by @hpotter02 in https://github.com/GTNewHorizons/SC2/pull/8
@@ -8383,7 +8446,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.40 --> 2.1.45-pre
+# Updated - ServerUtilities - 2.1.40 --> 2.1.47-pre
+## *2.1.47-pre*
+>## What's Changed
+>* Spotless apply for branch seek_block for #198 by @github-actions in https://github.com/GTNewHorizons/ServerUtilities/pull/207
+>* Don't leak WorldServer by @DarkShadow44 in https://github.com/GTNewHorizons/ServerUtilities/pull/213
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.46...2.1.47-pre
+>
+
+## *2.1.46*
+>## What's Changed
+>* Add config for pregeneration speed by @ah-OOG-ah in https://github.com/GTNewHorizons/ServerUtilities/pull/214
+>* Fix player sleeping message by @xgpjun in https://github.com/GTNewHorizons/ServerUtilities/pull/212
+>
+>## New Contributors
+>* @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/214
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.44...2.1.46
+>
+
 ## *2.1.45-pre*
 >## What's Changed
 >* Fix crash in Thermos server by @xgpjun in https://github.com/GTNewHorizons/ServerUtilities/pull/210
@@ -8815,7 +8898,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.0...1.7.1
 >
 
-# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.10
+# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.11
+## *2.11.11*
+>## What's Changed
+>* delete gaia missile instead of repath it by @Glease in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/54
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.10...2.11.11
+>
+
 ## *2.11.10*
 >## What's Changed
 >* Change optional decorators modid `gregtech` to `gregtech_nh` for compat by @felixfour in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/53
@@ -8920,7 +9011,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.3.1...1.3.2
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.21-GTNH
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.22-GTNH-pre
+## *1.13.22-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.21-GTNH...1.13.22-GTNH-pre
+>
+
 ## *1.13.21-GTNH*
 >## What's Changed
 >* Add "Disable All Recipes" config option by @48a3efa65c881ef567345b17f3910e06 in https://github.com/GTNewHorizons/TinkersConstruct/pull/169
