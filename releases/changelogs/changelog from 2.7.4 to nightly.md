@@ -15,7 +15,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.54-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.55-gtnh-pre
+## *1.4.55-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.54-gtnh-pre...1.4.55-gtnh-pre
+>
+
 ## *1.4.54-gtnh-pre*
 >## What's Changed
 >* Fix math when cell restricted and new fluid added by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/284
@@ -461,8 +465,22 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AlchemyGrate/compare/1.2.1-GTNH...1.3.0-GTNH
 >
 
-# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta40
+# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta41
 Mod is client-side only.
+## *1.0.0-beta41*
+>## What's Changed
+>* Apply linear filter to unifont glyphs at odd scale factors by @Vlamonster in https://github.com/GTNewHorizons/Angelica/pull/907
+>* Fix Notfine default config are not applied without changing a entry. by @Quarri6343 in https://github.com/GTNewHorizons/Angelica/pull/914
+>* liteloader docs update by @Midnight145 in https://github.com/GTNewHorizons/Angelica/pull/931
+>* Add functionality to fake blockId for shaders by @DarkShadow44 in https://github.com/GTNewHorizons/Angelica/pull/870
+>
+>## New Contributors
+>* @Vlamonster made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/907
+>* @Midnight145 made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/931
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta40...1.0.0-beta41
+>
+
 ## *1.0.0-beta40*
 >## What's Changed
 >* Fix stencil buffer does not exist by @Quarri6343 in https://github.com/GTNewHorizons/Angelica/pull/912
@@ -574,7 +592,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-589-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-591-GTNH-pre
+## *rv3-beta-591-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-590-GTNH-pre...rv3-beta-591-GTNH-pre
+>
+
+## *rv3-beta-590-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-589-GTNH-pre...rv3-beta-590-GTNH-pre
+>
+
 ## *rv3-beta-589-GTNH-pre*
 >## What's Changed
 >* ME push harder by @jurrejelle in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/722
@@ -2395,7 +2421,26 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.260-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.262-pre
+## *5.09.51.262-pre*
+>## What's Changed
+>* Port some initial cover UIs to MUI2 by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4191
+>* add structure channel desc and indicator item by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4148
+>* Spotless apply for branch beamline-ra2 for #4137 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4247
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.260-pre...5.09.51.262-pre
+>
+
+## *5.09.51.261*
+>## What's Changed
+>* Port some initial cover UIs to MUI2 by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4191
+>* add structure channel desc and indicator item by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4148
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.259...5.09.51.261
+>
+
 ## *5.09.51.260-pre*
 >## What's Changed
 >* Fix Fortune Rich Ores Yielding Less Than Expected by @54M44R in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4240
@@ -5305,7 +5350,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.40
+# Updated - Hodgepodge - 2.5.90 --> 2.6.41-pre
+## *2.6.41-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.40...2.6.41-pre
+>
+
 ## *2.6.40*
 >## What's Changed
 >* Catch null and never registered cases when embedding block IDs by @ah-OOG-ah in https://github.com/GTNewHorizons/Hodgepodge/pull/519
@@ -6516,7 +6565,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.168-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.170-pre
+## *2.7.170-pre*
+>## What's Changed
+>* Revert Oredict call on Electron-Permeable glass recipe by @Nockyx in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1246
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.168-pre...2.7.170-pre
+>
+
+## *2.7.169*
+>## What's Changed
+>* Revert Oredict call on Electron-Permeable glass recipe by @Nockyx in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1246
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.166...2.7.169
+>
+
 ## *2.7.168-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.167-pre...2.7.168-pre
 >
@@ -8430,7 +8495,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.0...2.3.1
 >
 
-# New Mod - Salis-Arcana:1.1.14-GTNH
+# New Mod - Salis-Arcana:1.1.15-GTNH
+## *1.1.15-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.14-GTNH...1.1.15-GTNH
+>
+
 ## *1.1.14-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.13-GTNH...1.1.14-GTNH
 >
@@ -8503,7 +8572,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.40 --> 2.1.47-pre
+# Updated - ServerUtilities - 2.1.40 --> 2.1.49-pre
+## *2.1.49-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.47-pre...2.1.49-pre
+>
+
+## *2.1.48*
+>## What's Changed
+>* Don't leak WorldServer by @DarkShadow44 in https://github.com/GTNewHorizons/ServerUtilities/pull/213
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.46...2.1.48
+>
+
 ## *2.1.47-pre*
 >## What's Changed
 >* Spotless apply for branch seek_block for #198 by @github-actions in https://github.com/GTNewHorizons/ServerUtilities/pull/207
@@ -8615,7 +8696,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.6.5...0.7.0
 >
 
-# Updated - StructureLib - 1.3.6 --> 1.4.9-pre
+# Updated - StructureLib - 1.3.6 --> 1.4.11-pre
+## *1.4.11-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.10...1.4.11-pre
+>
+
+## *1.4.10*
+>## What's Changed
+>* add channel desc and channel indicator item by @Glease in https://github.com/GTNewHorizons/StructureLib/pull/39
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.6...1.4.10
+>
+
 ## *1.4.9-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.8-pre...1.4.9-pre
 >
