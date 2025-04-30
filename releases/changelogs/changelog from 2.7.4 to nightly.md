@@ -1494,7 +1494,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.13-pre
+# Updated - BloodMagic - 1.6.11 --> 1.7.14-pre
+## *1.7.14-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.13-pre...1.7.14-pre
+>
+
 ## *1.7.13-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.12-pre...1.7.13-pre
 >
@@ -2391,7 +2395,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.259
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.260-pre
+## *5.09.51.260-pre*
+>## What's Changed
+>* Fix Fortune Rich Ores Yielding Less Than Expected by @54M44R in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4240
+>* Buff HDP by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4243
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.258-pre...5.09.51.260-pre
+>
+
 ## *5.09.51.259*
 >## What's Changed
 >* Netherite: Let the Hell be with us by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4074
@@ -5272,7 +5285,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.38
+# Updated - Hodgepodge - 2.5.90 --> 2.6.39
+## *2.6.39*
+>## What's Changed
+>* Convert mixin setup to use GTNHLib by @Cleptomania in https://github.com/GTNewHorizons/Hodgepodge/pull/513
+>* Simulation distance feature: Disable when optifine is present by @DarkShadow44 in https://github.com/GTNewHorizons/Hodgepodge/pull/516
+>* ArchaicFix and Angelica (removal) compat by @ah-OOG-ah in https://github.com/GTNewHorizons/Hodgepodge/pull/514
+>* Add various speedups around chunk generation by @ah-OOG-ah in https://github.com/GTNewHorizons/Hodgepodge/pull/515
+>* Update dependencies.gradle by @ah-OOG-ah in https://github.com/GTNewHorizons/Hodgepodge/pull/517
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.38...2.6.39
+>
+
 ## *2.6.38*
 >## What's Changed
 >* Add ASM to swap out an ArrayList and multiple contains() calls with a better data structure (Set) by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/508
@@ -6463,7 +6488,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.167-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.168-pre
+## *2.7.168-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.167-pre...2.7.168-pre
+>
+
 ## *2.7.167-pre*
 >## What's Changed
 >* New Botania blocks + Tuff Dust by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1243
