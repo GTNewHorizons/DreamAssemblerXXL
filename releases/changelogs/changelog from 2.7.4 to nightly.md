@@ -5009,7 +5009,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.5.23...0.6.0
 >
 
-# Updated - Gadomancy - 1.3.8 --> 1.4.2
+# Updated - Gadomancy - 1.3.8 --> 1.4.3
+## *1.4.3*
+>## What's Changed
+>* Use mixins instead of registry replacement by @ah-OOG-ah in https://github.com/GTNewHorizons/Gadomancy/pull/37
+>
+>## New Contributors
+>* @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/Gadomancy/pull/37
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.2...1.4.3
+>
+
 ## *1.4.2*
 >## What's Changed
 >* Add Localizations by @glowredman in https://github.com/GTNewHorizons/Gadomancy/pull/36
@@ -5272,7 +5282,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.2.2...1.3.0
 >
 
-# Updated - Hardcore-Ender-Expansion - 1.12.1-GTNH --> 1.12.3-GTNH
+# Updated - Hardcore-Ender-Expansion - 1.12.1-GTNH --> 1.12.4-GTNH
+## *1.12.4-GTNH*
+>## What's Changed
+>* Replace reflective registry replacement with minor mixined method by @ah-OOG-ah in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/24
+>
+>## New Contributors
+>* @ah-OOG-ah made their first contribution in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/24
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.3-GTNH...1.12.4-GTNH
+>
+
 ## *1.12.3-GTNH*
 >## What's Changed
 >* do not persist technical entity by @Glease in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/23
@@ -5285,7 +5305,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.39
+# Updated - Hodgepodge - 2.5.90 --> 2.6.40
+## *2.6.40*
+>## What's Changed
+>* Catch null and never registered cases when embedding block IDs by @ah-OOG-ah in https://github.com/GTNewHorizons/Hodgepodge/pull/519
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.39...2.6.40
+>
+
 ## *2.6.39*
 >## What's Changed
 >* Convert mixin setup to use GTNHLib by @Cleptomania in https://github.com/GTNewHorizons/Hodgepodge/pull/513

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-04-30T03:50:22.434790",
+  "last_updated": "2025-04-30T07:14:31.532780",
   "config": "2.8.0-nightly-2025-04-28",
   "github_mods": {
     "AdventureBackpack2": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.4.2",
+      "version": "1.4.3",
       "side": "BOTH"
     },
     "Galacticraft": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
-      "version": "1.12.3-GTNH",
+      "version": "1.12.4-GTNH",
       "side": "BOTH"
     },
     "harvestcraft": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.39",
+      "version": "2.6.40",
       "side": "BOTH"
     },
     "HoloInventory": {
