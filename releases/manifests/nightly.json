@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-04-30T18:06:04.810943",
+  "last_updated": "2025-05-01T03:57:50.408052",
   "config": "2.8.0-nightly-2025-04-30",
   "github_mods": {
     "AdventureBackpack2": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.41-pre",
+      "version": "2.6.42-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -605,7 +605,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.7.5-GTNH",
+      "version": "1.7.6-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -729,7 +729,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.49-pre",
+      "version": "2.1.50-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {

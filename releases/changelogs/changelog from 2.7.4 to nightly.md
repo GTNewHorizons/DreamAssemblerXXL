@@ -5350,7 +5350,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.41-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.42-pre
+## *2.6.42-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.41-pre...2.6.42-pre
+>
+
 ## *2.6.41-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.40...2.6.41-pre
 >
@@ -8572,7 +8576,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.40 --> 2.1.49-pre
+# Updated - ServerUtilities - 2.1.40 --> 2.1.50-pre
+## *2.1.50-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.49-pre...2.1.50-pre
+>
+
 ## *2.1.49-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.47-pre...2.1.49-pre
 >
@@ -9435,7 +9443,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.11.7...1.11.8-pre
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.5-GTNH
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.6-GTNH
+## *1.7.6-GTNH*
+>## What's Changed
+>* prevent infinite loader loop with other gt versions by @felixfour in https://github.com/GTNewHorizons/WitchingGadgets/pull/75
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.5-GTNH...1.7.6-GTNH
+>
+
 ## *1.7.5-GTNH*
 >## What's Changed
 >* Change `gregtech` in decorator for hazmat method to `gregtech_nh` for better compat by @felixfour in https://github.com/GTNewHorizons/WitchingGadgets/pull/73
