@@ -5350,7 +5350,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.42-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.44-pre
+## *2.6.44-pre*
+>## What's Changed
+>* Remove recursive slotClick calls when shift clicking a slot by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/521
+>* Spotless apply for branch speedup-oredictionary for #522 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/523
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.43-pre...2.6.44-pre
+>
+
+## *2.6.43-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.42-pre...2.6.43-pre
+>
+
 ## *2.6.42-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.41-pre...2.6.42-pre
 >
@@ -8235,7 +8248,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.4.0
 >
 
-# Updated - Postea - 1.0.13 --> 1.0.14
+# Updated - Postea - 1.0.13 --> 1.1.0
+## *1.1.0*
+>## What's Changed
+>* Add nhlib explicit dep and stop using Tags.MODID/MODNAME by @mitchej123 in https://github.com/GTNewHorizons/Postea/pull/11
+>* Compat patches for Vanilla/ChunkAPI/EndlessIDs by @FalsePattern in https://github.com/GTNewHorizons/Postea/pull/8
+>
+>## New Contributors
+>* @FalsePattern made their first contribution in https://github.com/GTNewHorizons/Postea/pull/8
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Postea/compare/1.0.14...1.1.0
+>
+
 ## *1.0.14*
 >## What's Changed
 >* Significantly reduce Integer.valueOf() allocation spam by @mitchej123 in https://github.com/GTNewHorizons/Postea/pull/9
