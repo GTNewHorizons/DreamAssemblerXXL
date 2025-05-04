@@ -259,7 +259,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | --- | --- |
 | [Advanced Solar Panel For 1.7.10 (Unofficial)](https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels) | 1.7.10 Edition |
 | [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.3.9-GTNH |
-| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.4.56-gtnh |
+| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.4.57-gtnh-pre |
 | [ae2stuff](https://github.com/GTNewHorizons/ae2stuff) | 0.9.4-GTNH |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.3.1-GTNH |
 | [AkashicTome](https://github.com/GTNewHorizons/AkashicTome) | 1.2.3 |
@@ -269,7 +269,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-beta41 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.8.2 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.4 |
-| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-594-GTNH-pre |
+| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-596-GTNH-pre |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.7.6 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.10.2 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.6.0 |
