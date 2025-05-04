@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-03T03:49:33.524327",
+  "last_updated": "2025-05-04T03:56:17.833924",
   "config": "2.8.0-nightly-2025-04-30",
   "github_mods": {
     "AdventureBackpack2": {
@@ -129,7 +129,7 @@
       "side": "BOTH"
     },
     "CodeChickenCore": {
-      "version": "1.4.1",
+      "version": "1.4.2",
       "side": "BOTH"
     },
     "Computronics": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.262-pre",
+      "version": "5.09.51.265-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.44-pre",
+      "version": "2.6.45-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.170-pre",
+      "version": "2.7.171",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -629,7 +629,7 @@
       "side": "CLIENT"
     },
     "NotEnoughIds": {
-      "version": "2.1.7",
+      "version": "2.1.8-pre",
       "side": "BOTH"
     },
     "FloodLights": {

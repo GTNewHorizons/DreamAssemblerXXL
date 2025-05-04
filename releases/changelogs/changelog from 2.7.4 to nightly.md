@@ -1755,6 +1755,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.15.3-GTNH...2.16.0-GTNH
 >
 
+# Updated - CodeChickenCore - 1.4.1 --> 1.4.2
+## *1.4.2*
+>## What's Changed
+>* More thread safe, again. by @mitchej123 in https://github.com/GTNewHorizons/CodeChickenCore/pull/30
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.4.1...1.4.2
+>
+
 # Updated - Computronics - 1.8.5-GTNH --> 1.9.0-GTNH
 ## *1.9.0-GTNH*
 >## What's Changed
@@ -2421,7 +2430,36 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.262-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.265-pre
+## *5.09.51.265-pre*
+>## What's Changed
+>* Spotless apply for branch am_tooltips for #4229 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4257
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.264-pre...5.09.51.265-pre
+>
+
+## *5.09.51.264-pre*
+>## What's Changed
+>* Spotless apply for branch beamline-ra2 for #4137 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4247
+>* Spotless apply for branch ItemRenderer for #4254 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4256
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.263...5.09.51.264-pre
+>
+
+## *5.09.51.263*
+>## What's Changed
+>* Fixed tooltip for Primitive Water Pump (Dim: 3x3x5 -> 3x3x4) by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4246
+>* Refactor hatch background texture code by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4173
+>* Remove BDM from SLAM, add MagMatter to and rebalance SSASS Magnetic Stab by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4252
+>* Capitalize several fluid names by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4258
+>* Add color-based input separation by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4183
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.261...5.09.51.263
+>
+
 ## *5.09.51.262-pre*
 >## What's Changed
 >* Port some initial cover UIs to MUI2 by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4191
@@ -5350,7 +5388,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.44-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.45-pre
+## *2.6.45-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.44-pre...2.6.45-pre
+>
+
 ## *2.6.44-pre*
 >## What's Changed
 >* Remove recursive slotClick calls when shift clicking a slot by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/521
@@ -6582,7 +6624,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.170-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.171
+## *2.7.171*
+>## What's Changed
+>* Fix EV Battery Buffer 16-slot assembler recipe by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1252
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.169...2.7.171
+>
+
 ## *2.7.170-pre*
 >## What's Changed
 >* Revert Oredict call on Electron-Permeable glass recipe by @Nockyx in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1246
@@ -7732,7 +7782,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
-# Updated - NotEnoughIds - 2.1.6 --> 2.1.7
+# Updated - NotEnoughIds - 2.1.6 --> 2.1.8-pre
+## *2.1.8-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.7...2.1.8-pre
+>
+
 ## *2.1.7*
 >## What's Changed
 >* Switch to GTNHLib mixin utilities by @Cleptomania in https://github.com/GTNewHorizons/NotEnoughIds/pull/25
