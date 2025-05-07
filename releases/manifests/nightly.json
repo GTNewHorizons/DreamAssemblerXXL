@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-06T03:52:07.434316",
+  "last_updated": "2025-05-07T03:53:31.764459",
   "config": "2.8.0-nightly-2025-05-04",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.57-gtnh-pre",
+      "version": "1.4.59-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-596-GTNH-pre",
+      "version": "rv3-beta-598-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodArsenal": {
-      "version": "1.4.2",
+      "version": "1.4.3",
       "side": "BOTH"
     },
     "BloodMagic": {
@@ -173,7 +173,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.11-pre",
+      "version": "2.9.12",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.3.13-pre",
+      "version": "1.3.14",
       "side": "BOTH"
     },
     "ModularUI": {

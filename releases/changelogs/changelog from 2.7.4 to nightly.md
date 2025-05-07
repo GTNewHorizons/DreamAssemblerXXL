@@ -15,7 +15,21 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.57-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.59-gtnh-pre
+## *1.4.59-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.58-gtnh...1.4.59-gtnh-pre
+>
+
+## *1.4.58-gtnh*
+>## What's Changed
+>* Use interface terminal gui from ae2, instead of copy code from ae2 by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/286
+>* order from crafting status by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/287
+>* item renamer by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/288
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.56-gtnh...1.4.58-gtnh
+>
+
 ## *1.4.57-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.56-gtnh...1.4.57-gtnh-pre
 >
@@ -604,7 +618,33 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-596-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-598-GTNH-pre
+## *rv3-beta-598-GTNH-pre*
+>## What's Changed
+>* Prepair gui to cooperation with ae2fc by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/741
+>* order from status for ae2fc by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/743
+>* item renamer for ae2fc by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/744
+>* Fix crafting calculation aborted by NPE by @zyf051520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/747
+>
+>## New Contributors
+>* @zyf051520 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/747
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-596-GTNH-pre...rv3-beta-598-GTNH-pre
+>
+
+## *rv3-beta-597-GTNH*
+>## What's Changed
+>* Prepair gui to cooperation with ae2fc by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/741
+>* order from status for ae2fc by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/743
+>* item renamer for ae2fc by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/744
+>* Fix crafting calculation aborted by NPE by @zyf051520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/747
+>
+>## New Contributors
+>* @zyf051520 made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/747
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-592-GTNH...rv3-beta-597-GTNH
+>
+
 ## *rv3-beta-596-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-595-GTNH-pre...rv3-beta-596-GTNH-pre
 >
@@ -1457,7 +1497,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/compare/0.6.0...0.7.0
 >
 
-# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.13-pre
+# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.14
+## *1.3.14*
+>## What's Changed
+>* Fix some tiered elements not being recognized by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/31
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.11...1.3.14
+>
+
 ## *1.3.13-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.11...1.3.13-pre
 >
@@ -1548,7 +1596,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.16...1.2.17-pre
 >
 
-# Updated - BloodArsenal - 1.3.6 --> 1.4.2
+# Updated - BloodArsenal - 1.3.6 --> 1.4.3
+## *1.4.3*
+>## What's Changed
+>* Guard against divide by 0 by @Ruling-0 in https://github.com/GTNewHorizons/BloodArsenal/pull/29
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.4.2...1.4.3
+>
+
 ## *1.4.2*
 >## What's Changed
 >* Move Transparent Orb Texture Metadata to NBT by @Ruling-0 in https://github.com/GTNewHorizons/BloodArsenal/pull/28
@@ -2203,7 +2259,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.4.6...0.4.7-pre
 >
 
-# Updated - EnderIO - 2.8.24 --> 2.9.11-pre
+# Updated - EnderIO - 2.8.24 --> 2.9.12
+## *2.9.12*
+>## What's Changed
+>* Feature: Automatable weather obelisk by @dibbydoda in https://github.com/GTNewHorizons/EnderIO/pull/193
+>* Make Fused Quartz blast resistance configurable by @glowredman in https://github.com/GTNewHorizons/EnderIO/pull/194
+>
+>## New Contributors
+>* @dibbydoda made their first contribution in https://github.com/GTNewHorizons/EnderIO/pull/193
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.8...2.9.12
+>
+
 ## *2.9.11-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.10-pre...2.9.11-pre
 >
