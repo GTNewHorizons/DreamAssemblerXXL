@@ -1,8 +1,3 @@
 #!/usr/bin/env bash
 
-unset -v latest
-for file in "$1"/*; do
-    [[ $file -nt $latest ]] && latest=$(basename "$file" .md)
-done
-
-echo $latest
+find "$1" -maxdepth 1 -name '*.md' -printf '%P\n' | sort -rV | head -n1
