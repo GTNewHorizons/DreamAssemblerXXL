@@ -1417,7 +1417,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.6.22-GTNH...3.7.0-GTNH
 >
 
-# Updated - Binnie - 2.4.8 --> 2.5.7
+# Updated - Binnie - 2.4.8 --> 2.5.8
+## *2.5.8*
+>## What's Changed
+>* Extend Lab Stand GUI width by 80 units by @czerwonogrodzki in https://github.com/GTNewHorizons/Binnie/pull/60
+>
+>## New Contributors
+>* @czerwonogrodzki made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/60
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.7...2.5.8
+>
+
 ## *2.5.7*
 >## What's Changed
 >* Fix stained block hardness by @serenibyss in https://github.com/GTNewHorizons/Binnie/pull/59
@@ -1627,7 +1637,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.16-pre
+# Updated - BloodMagic - 1.6.11 --> 1.7.18-pre
+## *1.7.18-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.17...1.7.18-pre
+>
+
+## *1.7.17*
+>## What's Changed
+>* Big item refactor by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/73
+>* Migrate StructureLib Blood Altar handler from StructureCompat by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/81
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.15...1.7.17
+>
+
 ## *1.7.16-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.15...1.7.16-pre
 >
@@ -8792,7 +8815,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.6.0...2.6.1
 >
 
-# Updated - Roguelike-Dungeons - 1.6.0-GTNH --> 1.6.2-GTNH
+# Updated - Roguelike-Dungeons - 1.6.0-GTNH --> 1.6.3-GTNH
+## *1.6.3-GTNH*
+>## What's Changed
+>* Allow spreading loot rules to multiple loot pools by @YannickMG in https://github.com/GTNewHorizons/Roguelike-Dungeons/pull/6
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Roguelike-Dungeons/compare/1.6.2-GTNH...1.6.3-GTNH
+>
+
 ## *1.6.2-GTNH*
 >## What's Changed
 >* Support MC NBT strings by @YannickMG in https://github.com/GTNewHorizons/Roguelike-Dungeons/pull/5
