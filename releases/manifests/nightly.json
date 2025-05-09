@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-08T03:53:30.617608",
+  "last_updated": "2025-05-09T03:52:49.291795",
   "config": "2.8.0-nightly-2025-05-04",
   "github_mods": {
     "AdventureBackpack2": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.47-pre",
+      "version": "2.6.48",
       "side": "BOTH"
     },
     "HoloInventory": {

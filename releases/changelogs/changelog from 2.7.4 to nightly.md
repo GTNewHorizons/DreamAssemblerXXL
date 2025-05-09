@@ -5596,7 +5596,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.47-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.48
+## *2.6.48*
+>## What's Changed
+>* Fixed egg particles (MC-7807) by @JackOfNoneTrades in https://github.com/GTNewHorizons/Hodgepodge/pull/527
+>* Fix KleeSlabs mod metadata by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/525
+>* Added mixin that makes mod urls clickable by @JackOfNoneTrades in https://github.com/GTNewHorizons/Hodgepodge/pull/526
+>* Namespace injected method by @ah-OOG-ah in https://github.com/GTNewHorizons/Hodgepodge/pull/530
+>* Migrate Ingame Mod List Fix from EnderCore ASM by @0hwx in https://github.com/GTNewHorizons/Hodgepodge/pull/524
+>* Fix Simulation distance patch with Thermos by @DarkShadow44 in https://github.com/GTNewHorizons/Hodgepodge/pull/520
+>
+>## New Contributors
+>* @JackOfNoneTrades made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/527
+>* @0hwx made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/524
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.46...2.6.48
+>
+
 ## *2.6.47-pre*
 >## What's Changed
 >* Spotless apply for branch speedup-oredictionary for #522 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/523
