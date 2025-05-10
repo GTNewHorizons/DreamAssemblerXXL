@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-10T12:10:04.850415",
-  "config": "2.8.0-nightly-2025-05-10",
+  "last_updated": "2025-05-10T21:23:46.252403",
+  "config": "2.8.0-nightly-2025-05-10-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-599-GTNH-pre",
+      "version": "rv3-beta-601-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.21-pre",
+      "version": "1.7.22-pre",
       "side": "BOTH"
     },
     "Botania": {
@@ -121,7 +121,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.16.3-GTNH-pre",
+      "version": "2.16.4-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "EnhancedLootBags": {
-      "version": "1.2.4-pre",
+      "version": "1.2.6-pre",
       "side": "BOTH"
     },
     "Eternal-Singularity": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.274-pre",
+      "version": "5.09.51.276-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.5.3-GTNH-pre",
+      "version": "1.5.5-GTNH-pre",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.177-pre",
+      "version": "2.7.179-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -689,7 +689,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.1.11",
+      "version": "2.1.12",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
