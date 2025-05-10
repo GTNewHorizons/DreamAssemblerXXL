@@ -15,7 +15,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.59-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.60-gtnh-pre
+## *1.4.60-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.58-gtnh...1.4.60-gtnh-pre
+>
+
 ## *1.4.59-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.58-gtnh...1.4.59-gtnh-pre
 >
@@ -618,7 +622,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-598-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-601-GTNH-pre
+## *rv3-beta-601-GTNH-pre*
+>## What's Changed
+>* Move cursor at end when use +- buttons in amount field by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/738
+>* Add button for show only interfaces with substitute patterns by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/740
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-599-GTNH-pre...rv3-beta-601-GTNH-pre
+>
+
+## *rv3-beta-600-GTNH*
+>## What's Changed
+>* Move cursor at end when use +- buttons in amount field by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/738
+>* Add button for show only interfaces with substitute patterns by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/740
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-597-GTNH...rv3-beta-600-GTNH
+>
+
+## *rv3-beta-599-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-598-GTNH-pre...rv3-beta-599-GTNH-pre
+>
+
 ## *rv3-beta-598-GTNH-pre*
 >## What's Changed
 >* Prepair gui to cooperation with ae2fc by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/741
@@ -1637,7 +1663,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.20-pre
+# Updated - BloodMagic - 1.6.11 --> 1.7.22-pre
+## *1.7.22-pre*
+>## What's Changed
+>* Lil fix for PR #83, shift down Purpura yet another tier by @srdr2k3 in https://github.com/GTNewHorizons/BloodMagic/pull/84
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.21-pre...1.7.22-pre
+>
+
+## *1.7.21-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.20-pre...1.7.21-pre
+>
+
 ## *1.7.20-pre*
 >## What's Changed
 >* Enable Jabel and Generic Injection by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/82
@@ -1890,7 +1928,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Catwalks-2/compare/2.3.2-GTNH...2.3.3-GTNH-pre
 >
 
-# Updated - Chisel - 2.15.5-GTNH --> 2.16.3-GTNH-pre
+# Updated - Chisel - 2.15.5-GTNH --> 2.16.4-GTNH
+## *2.16.4-GTNH*
+>## What's Changed
+>* Fix chisel slot voiding in some conditions by @serenibyss in https://github.com/GTNewHorizons/Chisel/pull/57
+>* Fix CCRenderState reference by @serenibyss in https://github.com/GTNewHorizons/Chisel/pull/59
+>* Fix rendering with LittleTiles by @DarkShadow44 in https://github.com/GTNewHorizons/Chisel/pull/58
+>
+>## New Contributors
+>* @DarkShadow44 made their first contribution in https://github.com/GTNewHorizons/Chisel/pull/58
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.16.2-GTNH...2.16.4-GTNH
+>
+
 ## *2.16.3-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.16.2-GTNH...2.16.3-GTNH-pre
 >
@@ -2432,7 +2482,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderZoo/compare/1.3.1...1.3.2
 >
 
-# Updated - EnhancedLootBags - 1.1.2 --> 1.2.4-pre
+# Updated - EnhancedLootBags - 1.1.2 --> 1.2.6-pre
+## *1.2.6-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.2.5...1.2.6-pre
+>
+
+## *1.2.5*
+>## What's Changed
+>* Better communicate the purpose of enchanting lootbags by @YannickMG in https://github.com/GTNewHorizons/EnhancedLootBags/pull/13
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.2.3...1.2.5
+>
+
 ## *1.2.4-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.2.3...1.2.4-pre
 >
@@ -2654,7 +2716,46 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.272-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.276-pre
+## *5.09.51.276-pre*
+>## What's Changed
+>* Fix crash when the Heat Exchanger causes a world save corruption after exploding with MTEHatchInputME by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4286
+>* Create ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4239
+>* Fix basic redstone cover nullification on version migration by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4288
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.274-pre...5.09.51.276-pre
+>
+
+## *5.09.51.275*
+>## What's Changed
+>* Fix crash when the Heat Exchanger causes a world save corruption after exploding with MTEHatchInputME by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4286
+>* Create ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4239
+>* Fix basic redstone cover nullification on version migration by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4288
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.273...5.09.51.275
+>
+
+## *5.09.51.274-pre*
+>## What's Changed
+>* Spotless apply for branch beamline-ra2 for #4137 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4247
+>* Spotless apply for branch ItemRenderer for #4254 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4256
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.273...5.09.51.274-pre
+>
+
+## *5.09.51.273*
+>## What's Changed
+>* Add to available SIO2 reaction with Mg by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4280
+>* Add power monitoring goggles by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4123
+>* Make High Density Fission Fuels Cheaper by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4278
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.270...5.09.51.273
+>
+
 ## *5.09.51.272-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.271-pre...5.09.51.272-pre
 >
@@ -5425,7 +5526,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.6...1.4.0
 >
 
-# Updated - Galacticraft - 3.2.10-GTNH --> 3.3.5-GTNH
+# Updated - Galacticraft - 3.2.10-GTNH --> 3.3.6-GTNH
+## *3.3.6-GTNH*
+>## What's Changed
+>* Optimizes the Arc Lamp's `lightArea()` by @mitchej123 in https://github.com/GTNewHorizons/Galacticraft/pull/105
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.3.5-GTNH...3.3.6-GTNH
+>
+
 ## *3.3.5-GTNH*
 >## What's Changed
 >* Add back Missing Characters in License by @glowredman in https://github.com/GTNewHorizons/Galacticraft/pull/102
@@ -5682,7 +5791,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.52-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.54-pre
+## *2.6.54-pre*
+>## What's Changed
+>* Spotless apply for branch speedup-oredictionary for #522 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/523
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.53...2.6.54-pre
+>
+
+## *2.6.53*
+>## What's Changed
+>* ignore preexisting voxelmap data files when trying to change ext by @Midnight145 in https://github.com/GTNewHorizons/Hodgepodge/pull/534
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.51...2.6.53
+>
+
 ## *2.6.52-pre*
 >## What's Changed
 >* Spotless apply for branch speedup-oredictionary for #522 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/523
@@ -6607,7 +6732,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.4.6...1.5.0
 >
 
-# Updated - LittleTiles - 1.4.0-GTNH --> 1.5.2-GTNH
+# Updated - LittleTiles - 1.4.0-GTNH --> 1.5.5-GTNH-pre
+## *1.5.5-GTNH-pre*
+>## What's Changed
+>* Make Tiles cache their light value by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/17
+>* Prevent texture shifting when using saw by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/14
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.3-GTNH-pre...1.5.5-GTNH-pre
+>
+
+## *1.5.4-GTNH*
+>## What's Changed
+>* Make Tiles cache their light value by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/17
+>* Prevent texture shifting when using saw by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/14
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.2-GTNH...1.5.4-GTNH
+>
+
+## *1.5.3-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.2-GTNH...1.5.3-GTNH-pre
+>
+
 ## *1.5.2-GTNH*
 >## What's Changed
 >* Remove threaded renderer and cleanup by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/12
@@ -6636,7 +6783,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.4.0-GTNH...1.5.0-GTNH
 >
 
-# Updated - LogisticsPipes - 1.3.6-GTNH --> 1.4.6-GTNH-pre
+# Updated - LogisticsPipes - 1.3.6-GTNH --> 1.4.8-GTNH-pre
+## *1.4.8-GTNH-pre*
+>## What's Changed
+>* Replace the search bar in logistics request table by @OpusC in https://github.com/GTNewHorizons/LogisticsPipes/pull/87
+>
+>## New Contributors
+>* @OpusC made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/87
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.6-GTNH-pre...1.4.8-GTNH-pre
+>
+
+## *1.4.7-GTNH*
+>## What's Changed
+>* Replace the search bar in logistics request table by @OpusC in https://github.com/GTNewHorizons/LogisticsPipes/pull/87
+>
+>## New Contributors
+>* @OpusC made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/87
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.5-GTNH...1.4.7-GTNH
+>
+
 ## *1.4.6-GTNH-pre*
 >## What's Changed
 >* issue 17194. Fix integration ModuleExtractor and drawers by @qqqqqq452 in https://github.com/GTNewHorizons/LogisticsPipes/pull/86
@@ -6993,7 +7160,33 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.176-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.179-pre
+## *2.7.179-pre*
+>## What's Changed
+>* Remove superfluous enchantment recipes by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1248
+>* Buff the Recipe for the Incense Altar by @srdr2k3 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1262
+>
+>## New Contributors
+>* @srdr2k3 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1262
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.177-pre...2.7.179-pre
+>
+
+## *2.7.178*
+>## What's Changed
+>* Remove superfluous enchantment recipes by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1248
+>* Buff the Recipe for the Incense Altar by @srdr2k3 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1262
+>
+>## New Contributors
+>* @srdr2k3 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1262
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.175...2.7.178
+>
+
+## *2.7.177-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.176-pre...2.7.177-pre
+>
+
 ## *2.7.176-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.175...2.7.176-pre
 >
@@ -9097,7 +9290,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.40 --> 2.1.50-pre
+# Updated - ServerUtilities - 2.1.40 --> 2.1.51-pre
+## *2.1.51-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.50-pre...2.1.51-pre
+>
+
 ## *2.1.50-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.49-pre...2.1.50-pre
 >
@@ -9715,7 +9912,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.3.1...1.3.2
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.24-GTNH-pre
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.26-GTNH-pre
+## *1.13.26-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.25-GTNH...1.13.26-GTNH-pre
+>
+
+## *1.13.25-GTNH*
+>## What's Changed
+>* Restore the wooden rail by @AnrDaemon in https://github.com/GTNewHorizons/TinkersConstruct/pull/171
+>
+>## New Contributors
+>* @AnrDaemon made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/171
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.23-GTNH...1.13.25-GTNH
+>
+
 ## *1.13.24-GTNH-pre*
 >## What's Changed
 >* fix colored health bar not showing if disableAllRecipes is enabled by @felixfour in https://github.com/GTNewHorizons/TinkersConstruct/pull/174
@@ -10207,7 +10418,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.1.1...6.1.2
 >
 
-# Updated - lwjgl3ify - 2.1.9 --> 2.1.11
+# Updated - lwjgl3ify - 2.1.9 --> 2.1.12
+## *2.1.12*
+>## What's Changed
+>* Remove -XstartOnFirstThread in version.json for macOS by @k0michi in https://github.com/GTNewHorizons/lwjgl3ify/pull/217
+>
+>## New Contributors
+>* @k0michi made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/217
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.11...2.1.12
+>
+
 ## *2.1.11*
 >**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.10...2.1.11
 >
