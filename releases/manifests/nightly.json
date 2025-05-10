@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-09T03:52:49.291795",
+  "last_updated": "2025-05-10T03:49:43.288246",
   "config": "2.8.0-nightly-2025-05-04",
   "github_mods": {
     "AdventureBackpack2": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.18-pre",
+      "version": "1.7.20-pre",
       "side": "BOTH"
     },
     "Botania": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderCore": {
-      "version": "0.4.7-pre",
+      "version": "0.4.8",
       "side": "BOTH"
     },
     "EnderIO": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.269-pre",
+      "version": "5.09.51.272-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.48",
+      "version": "2.6.52-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.5.1-GTNH-pre",
+      "version": "1.5.2-GTNH",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.174-pre",
+      "version": "2.7.176-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -557,7 +557,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.5",
+      "version": "2.7.6",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -633,7 +633,7 @@
       "side": "BOTH"
     },
     "FloodLights": {
-      "version": "1.5.3",
+      "version": "1.5.4",
       "side": "BOTH"
     },
     "ForgeRelocationFMP": {

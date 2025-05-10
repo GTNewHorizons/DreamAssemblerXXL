@@ -1637,7 +1637,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.18-pre
+# Updated - BloodMagic - 1.6.11 --> 1.7.20-pre
+## *1.7.20-pre*
+>## What's Changed
+>* Enable Jabel and Generic Injection by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/82
+>* Buff the Incenses in the Incense Crucible by @srdr2k3 in https://github.com/GTNewHorizons/BloodMagic/pull/83
+>
+>## New Contributors
+>* @srdr2k3 made their first contribution in https://github.com/GTNewHorizons/BloodMagic/pull/83
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.18-pre...1.7.20-pre
+>
+
+## *1.7.19*
+>## What's Changed
+>* Enable Jabel and Generic Injection by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/82
+>* Buff the Incenses in the Incense Crucible by @srdr2k3 in https://github.com/GTNewHorizons/BloodMagic/pull/83
+>
+>## New Contributors
+>* @srdr2k3 made their first contribution in https://github.com/GTNewHorizons/BloodMagic/pull/83
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.17...1.7.19
+>
+
 ## *1.7.18-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.17...1.7.18-pre
 >
@@ -2277,7 +2299,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.5.16...1.6.0
 >
 
-# Updated - EnderCore - 0.4.6 --> 0.4.7-pre
+# Updated - EnderCore - 0.4.6 --> 0.4.8
+## *0.4.8*
+>## What's Changed
+>* Remove EnderCoreTransformerClient   by @0hwx in https://github.com/GTNewHorizons/EnderCore/pull/26
+>
+>## New Contributors
+>* @0hwx made their first contribution in https://github.com/GTNewHorizons/EnderCore/pull/26
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.4.6...0.4.8
+>
+
 ## *0.4.7-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.4.6...0.4.7-pre
 >
@@ -2473,7 +2505,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/commits/2.6.2.1-GTNH-pre
 >
 
-# Updated - FloodLights - 1.4.6 --> 1.5.3
+# Updated - FloodLights - 1.4.6 --> 1.5.4
+## *1.5.4*
+>## What's Changed
+>* Preverse NBT data when block is broken by @Pilzinsel64 in https://github.com/GTNewHorizons/FloodLights/pull/14
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/FloodLights/compare/1.5.3...1.5.4
+>
+
 ## *1.5.3*
 >## What's Changed
 >* add missing override for grow light by @Pilzinsel64 in https://github.com/GTNewHorizons/FloodLights/pull/13
@@ -2614,7 +2654,53 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.269-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.272-pre
+## *5.09.51.272-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.271-pre...5.09.51.272-pre
+>
+
+## *5.09.51.271-pre*
+>## What's Changed
+>* Spotless apply for branch beamline-ra2 for #4137 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4247
+>* Spotless apply for branch ItemRenderer for #4254 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4256
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.270...5.09.51.271-pre
+>
+
+## *5.09.51.270*
+>## What's Changed
+>* Deleting a dot at the end of a line by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4268
+>* Fix bad XL turbine muffler logic by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4270
+>* Let reinforced glass be harvested by silk touch by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4251
+>* Add Water pump base draw by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4245
+>* Add missing chemical formulas; Fix sub/superscript display by @redspah in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4156
+>* Improve Plasma Forge GetInfoData with additional catalyst usage and convergence advancements by @NeOzay in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4264
+>* Make drones not consumed again by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4260
+>* Use StructureUtility's ofAnyWater in multiblock structures wherever relevant. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4255
+>* Assorted Godforge fixes/enhancements by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4253
+>* Fix pipe indicators by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4244
+>* Fix rich fortune logic to be 2x instead of min 2 drops by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4242
+>* Add advanced network switch by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4070
+>* Refactor Single Use Tools by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4263
+>* Don't use experimental EFR features by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4273
+>* Fix centrifuges overlay on world joining by @SKProCH in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4249
+>* Support up to 8 energy hatches on Alloy Blast Smelter by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4276
+>* resolve access to logistic pipes UI with wrench by @NeOzay in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4277
+>* MHDCSM Block by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4283
+>* Improve multiblock tooltip by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4122
+>* Super Glue Graphene recipes buff by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4284
+>* Enable MetaTileEntity with custom TileEntities (via sub-classes of BasicMachines) by @szuend in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4078
+>* Reduce Excessive AL/Assembler Recipe Times, Make Regular AL Used More Often by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4259
+>
+>## New Contributors
+>* @redspah made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4156
+>* @NeOzay made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4264
+>* @szuend made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4078
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.266...5.09.51.270
+>
+
 ## *5.09.51.269-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.268-pre...5.09.51.269-pre
 >
@@ -5596,7 +5682,42 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.48
+# Updated - Hodgepodge - 2.5.90 --> 2.6.52-pre
+## *2.6.52-pre*
+>## What's Changed
+>* Spotless apply for branch speedup-oredictionary for #522 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/523
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.51...2.6.52-pre
+>
+
+## *2.6.51*
+>## What's Changed
+>* Fix crash with BetterModList and ClickableURL by @0hwx in https://github.com/GTNewHorizons/Hodgepodge/pull/533
+>* Enderman Griefing Configs by @koolkrafter5 in https://github.com/GTNewHorizons/Hodgepodge/pull/512
+>
+>## New Contributors
+>* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/512
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.48...2.6.51
+>
+
+## *2.6.50-pre*
+>## What's Changed
+>* Fix crash with BetterModList and ClickableURL by @0hwx in https://github.com/GTNewHorizons/Hodgepodge/pull/533
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.49-pre...2.6.50-pre
+>
+
+## *2.6.49-pre*
+>## What's Changed
+>* Spotless apply for branch speedup-oredictionary for #522 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/523
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.48...2.6.49-pre
+>
+
 ## *2.6.48*
 >## What's Changed
 >* Fixed egg particles (MC-7807) by @JackOfNoneTrades in https://github.com/GTNewHorizons/Hodgepodge/pull/527
@@ -6486,7 +6607,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.4.6...1.5.0
 >
 
-# Updated - LittleTiles - 1.4.0-GTNH --> 1.5.1-GTNH-pre
+# Updated - LittleTiles - 1.4.0-GTNH --> 1.5.2-GTNH
+## *1.5.2-GTNH*
+>## What's Changed
+>* Remove threaded renderer and cleanup by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/12
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.0-GTNH...1.5.2-GTNH
+>
+
 ## *1.5.1-GTNH-pre*
 >## What's Changed
 >* Merge CreativeCore into LittleTiles by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/11
@@ -6864,7 +6993,31 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.174-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.176-pre
+## *2.7.176-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.175...2.7.176-pre
+>
+
+## *2.7.175*
+>## What's Changed
+>* Don't use experimental EFR features by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1257
+>* switch GalaxySpace addShapedRecipe to GTModHandler.addCraftingRecipe by @Caedis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1258
+>* Ic2 furnace replace by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1260
+>* Fix OpenPrinters ink cartridges by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1251
+>* add recipe to clear storage bus NBT by @NeOzay in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1255
+>* Add uncompressed coal variants to forge hammer recipes by @NeOzay in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1256
+>* update dtpf infinity circuit to not share circuit with cosmicneut by @istreee in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1259
+>* Add Concrete Clay Bucket & a fuel value for the Creosote Clay Bucket by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1247
+>* Reduce Excessive AL Recipe Times by @Ruling-0 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1250
+>* Add botania into inf gear recipes by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1190
+>* Add adv network switch recipe by @RecursivePineapple in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1230
+>
+>## New Contributors
+>* @istreee made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1259
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.172...2.7.175
+>
+
 ## *2.7.174-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.173-pre...2.7.174-pre
 >
@@ -10134,7 +10287,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.3.1...0.4.0
 >
 
-# Updated - twilightforest - 2.6.37 --> 2.7.5
+# Updated - twilightforest - 2.6.37 --> 2.7.6
+## *2.7.6*
+>## What's Changed
+>* Don't leak player inventory map by @DarkShadow44 in https://github.com/GTNewHorizons/twilightforest/pull/109
+>
+>## New Contributors
+>* @DarkShadow44 made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/109
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.5...2.7.6
+>
+
 ## *2.7.5*
 >## What's Changed
 >* Fix Druid Hut Wood Slabs Being Stone by @Ruling-0 in https://github.com/GTNewHorizons/twilightforest/pull/104
