@@ -15,7 +15,23 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.60-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.62-gtnh-pre
+## *1.4.62-gtnh-pre*
+>## What's Changed
+>* fix player inventory position in interface terminal by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/290
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.60-gtnh-pre...1.4.62-gtnh-pre
+>
+
+## *1.4.61-gtnh*
+>## What's Changed
+>* fix player inventory position in interface terminal by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/290
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.58-gtnh...1.4.61-gtnh
+>
+
 ## *1.4.60-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.58-gtnh...1.4.60-gtnh-pre
 >
@@ -1663,7 +1679,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.22-pre
+# Updated - BloodMagic - 1.6.11 --> 1.7.24-pre
+## *1.7.24-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.23...1.7.24-pre
+>
+
+## *1.7.23*
+>## What's Changed
+>* Lil fix for PR #83, shift down Purpura yet another tier by @srdr2k3 in https://github.com/GTNewHorizons/BloodMagic/pull/84
+>* Polishes Alchemic Calcinator & Belljars by @tiflu in https://github.com/GTNewHorizons/BloodMagic/pull/79
+>
+>## New Contributors
+>* @tiflu made their first contribution in https://github.com/GTNewHorizons/BloodMagic/pull/79
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.19...1.7.23
+>
+
 ## *1.7.22-pre*
 >## What's Changed
 >* Lil fix for PR #83, shift down Purpura yet another tier by @srdr2k3 in https://github.com/GTNewHorizons/BloodMagic/pull/84
@@ -2531,7 +2562,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.2.0
 >
 
-# New Mod - Et-Futurum-Requiem:2.6.2.7-GTNH
+# New Mod - Et-Futurum-Requiem:2.6.2.8-GTNH
+## *2.6.2.8-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.7-GTNH...2.6.2.8-GTNH
+>
+
 ## *2.6.2.7-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.6-GTNH...2.6.2.7-GTNH
 >
@@ -2716,7 +2751,47 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.276-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.281-pre
+## *5.09.51.281-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.280-pre...5.09.51.281-pre
+>
+
+## *5.09.51.280-pre*
+>## What's Changed
+>* Move Source/Target Chambers to RA2 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4137
+>* Fix overflow when charging RF items with Wireless Charger by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4298
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.278-pre...5.09.51.280-pre
+>
+
+## *5.09.51.279*
+>## What's Changed
+>* Move Source/Target Chambers to RA2 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4137
+>* Fix overflow when charging RF items with Wireless Charger by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4298
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.277...5.09.51.279
+>
+
+## *5.09.51.278-pre*
+>## What's Changed
+>* Spotless apply for branch beamline-ra2 for #4137 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4247
+>* Spotless apply for branch ItemRenderer for #4254 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4256
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.277...5.09.51.278-pre
+>
+
+## *5.09.51.277*
+>## What's Changed
+>* THTR Tooltip and Default WA Mode by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4290
+>* Specify DTPF discount decay in its tooltip by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4293
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.275...5.09.51.277
+>
+
 ## *5.09.51.276-pre*
 >## What's Changed
 >* Fix crash when the Heat Exchanger causes a world save corruption after exploding with MTEHatchInputME by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4286
@@ -5791,7 +5866,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.54-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.56-pre
+## *2.6.56-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.55-pre...2.6.56-pre
+>
+
+## *2.6.55-pre*
+>## What's Changed
+>* Spotless apply for branch setid-on-map-itself for #535 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/536
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.54-pre...2.6.55-pre
+>
+
 ## *2.6.54-pre*
 >## What's Changed
 >* Spotless apply for branch speedup-oredictionary for #522 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/523
@@ -6732,7 +6819,40 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.4.6...1.5.0
 >
 
-# Updated - LittleTiles - 1.4.0-GTNH --> 1.5.5-GTNH-pre
+# Updated - LittleTiles - 1.4.0-GTNH --> 1.5.9-GTNH-pre
+## *1.5.9-GTNH-pre*
+>## What's Changed
+>* Make Tiles cache their light value by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/17
+>* Prevent texture shifting when using saw by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/14
+>* Move items into own creative tab by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/15
+>* Add functionality to fake blockId for shaders by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/16
+>* Mark ISBRH as thread safe by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/18
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.2-GTNH...1.5.9-GTNH-pre
+>
+
+## *1.5.8-GTNH*
+>## What's Changed
+>* Add functionality to fake blockId for shaders by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/16
+>* Mark ISBRH as thread safe by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/18
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.6-GTNH...1.5.8-GTNH
+>
+
+## *1.5.7-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.6-GTNH...1.5.7-GTNH-pre
+>
+
+## *1.5.6-GTNH*
+>## What's Changed
+>* Move items into own creative tab by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/15
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.4-GTNH...1.5.6-GTNH
+>
+
 ## *1.5.5-GTNH-pre*
 >## What's Changed
 >* Make Tiles cache their light value by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/17
@@ -6783,7 +6903,26 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.4.0-GTNH...1.5.0-GTNH
 >
 
-# Updated - LogisticsPipes - 1.3.6-GTNH --> 1.4.8-GTNH-pre
+# Updated - LogisticsPipes - 1.3.6-GTNH --> 1.4.11-GTNH-pre
+## *1.4.11-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.10-GTNH...1.4.11-GTNH-pre
+>
+
+## *1.4.10-GTNH*
+>## What's Changed
+>* Update SinkReply to Fix Type Filter ItemSink Priority Being Too High by @DeckerCHAN in https://github.com/GTNewHorizons/LogisticsPipes/pull/88
+>* Render crafting result of ModuleCrafter(MK2/MK3) item on sneak by @godrja in https://github.com/GTNewHorizons/LogisticsPipes/pull/85
+>
+>## New Contributors
+>* @DeckerCHAN made their first contribution in https://github.com/GTNewHorizons/LogisticsPipes/pull/88
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.7-GTNH...1.4.10-GTNH
+>
+
+## *1.4.9-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.8-GTNH-pre...1.4.9-GTNH-pre
+>
+
 ## *1.4.8-GTNH-pre*
 >## What's Changed
 >* Replace the search bar in logistics request table by @OpusC in https://github.com/GTNewHorizons/LogisticsPipes/pull/87
@@ -7007,7 +7146,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.7-1.7.10
+# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.8-1.7.10
+## *2.2.8-1.7.10*
+><!-- Release notes generated using configuration in .github/release.yml at 2.2.8-1.7.10 -->
+>
+>## What's Changed
+>* rework number formatter to be more modular and better by @YannickMG in https://github.com/GTNewHorizons/ModularUI2/pull/24
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.7-1.7.10...2.2.8-1.7.10
+>
+
 ## *2.2.7-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.2.7-1.7.10 -->
 >
@@ -8986,7 +9135,28 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.25-pre
+# Updated - Railcraft - 9.15.17 --> 9.16.27-pre
+## *9.16.27-pre*
+>## What's Changed
+>* Change `gregtech` optional decorator modid to `gregtech_nh` for GT6 compat by @felixfour in https://github.com/GTNewHorizons/Railcraft/pull/91
+>* Fix null pointer itemStack crash by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/92
+>* Rework block breaking to fix anchors not storing their time by @Caedis in https://github.com/GTNewHorizons/Railcraft/pull/93
+>* add Gregtech electricity info to Energy Loader and Energy Feeder by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/94
+>
+>## New Contributors
+>* @felixfour made their first contribution in https://github.com/GTNewHorizons/Railcraft/pull/91
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.20...9.16.27-pre
+>
+
+## *9.16.26*
+>## What's Changed
+>* add Gregtech electricity info to Energy Loader and Energy Feeder by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/94
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.23...9.16.26
+>
+
 ## *9.16.25-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.24-pre...9.16.25-pre
 >
@@ -9213,7 +9383,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.0...2.3.1
 >
 
-# New Mod - Salis-Arcana:1.1.15-GTNH
+# New Mod - Salis-Arcana:1.1.16-GTNH
+## *1.1.16-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.15-GTNH...1.1.16-GTNH
+>
+
 ## *1.1.15-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.14-GTNH...1.1.15-GTNH
 >
@@ -9912,7 +10086,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.3.1...1.3.2
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.26-GTNH-pre
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.27-GTNH
+## *1.13.27-GTNH*
+>## What's Changed
+>* fix: tools registered to NEI that shouldn't has display NBT by @riggzh in https://github.com/GTNewHorizons/TinkersConstruct/pull/173
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.25-GTNH...1.13.27-GTNH
+>
+
 ## *1.13.26-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.25-GTNH...1.13.26-GTNH-pre
 >
