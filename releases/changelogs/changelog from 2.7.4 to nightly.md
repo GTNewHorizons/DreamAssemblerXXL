@@ -5866,7 +5866,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.56-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.57-pre
+## *2.6.57-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.56-pre...2.6.57-pre
+>
+
 ## *2.6.56-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.55-pre...2.6.56-pre
 >
