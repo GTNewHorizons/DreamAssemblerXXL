@@ -1,0 +1,29 @@
+name: Report an Issue/File a Suggestion
+description: "Report an issue or file a suggestion for the DreamAssemblerXXL modpack assembler"
+body:
+- type: markdown
+  attributes:
+    value: |
+      If this is a pack related issue, please file it in the modpack repo instead: https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues
+- type: input
+  id: discord
+  attributes:
+    label: Your GTNH Discord Username
+    description: Leave empty if you don't have one, but this will make it harder to contact you if we need additional info. 
+    placeholder: "Example: Fake"
+- type: textarea
+  id: desctiption
+  attributes:
+    label: Description
+    description: What is your issue or suggestion?
+    placeholder: "Example: DreamAssemblerXXL would benefit from <fixing this issue> / <implementing this suggestion>."
+  validations:
+    required: true
+- type: checkboxes
+  id: final
+  attributes:
+    label: Final Checklist
+    description: Please mark them so we can better handle this report.
+    options:
+      - label: "This issue is not a pack issue, but one specifically related to DAXXL and the build process of creating a release of the GTNH modpack."
+        required: false
