@@ -4,7 +4,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      If this is a pack related issue, please file it in the modpack repo instead: https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues
+      If this is a pack related issue, please file it in the modpack repo instead: https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/new
 - type: input
   id: discord
   attributes:
