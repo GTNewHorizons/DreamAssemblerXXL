@@ -15,7 +15,31 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.62-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.66-gtnh-pre
+## *1.4.66-gtnh-pre*
+>## What's Changed
+>* Fix cell math for distribution card by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/291
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.64-gtnh-pre...1.4.66-gtnh-pre
+>
+
+## *1.4.65-gtnh*
+>## What's Changed
+>* Fix cell math for distribution card by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/291
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.63-gtnh...1.4.65-gtnh
+>
+
+## *1.4.64-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.62-gtnh-pre...1.4.64-gtnh-pre
+>
+
+## *1.4.63-gtnh*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.61-gtnh...1.4.63-gtnh
+>
+
 ## *1.4.62-gtnh-pre*
 >## What's Changed
 >* fix player inventory position in interface terminal by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/290
@@ -511,8 +535,19 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AlchemyGrate/compare/1.2.1-GTNH...1.3.0-GTNH
 >
 
-# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta41
+# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta42
 Mod is client-side only.
+## *1.0.0-beta42*
+>## What's Changed
+>* enable ctm, disable everything unnecessary by @Pxx500 in https://github.com/GTNewHorizons/Angelica/pull/944
+>* Compat for security craft by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/948
+>
+>## New Contributors
+>* @Pxx500 made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/944
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta41...1.0.0-beta42
+>
+
 ## *1.0.0-beta41*
 >## What's Changed
 >* Apply linear filter to unifont glyphs at odd scale factors by @Vlamonster in https://github.com/GTNewHorizons/Angelica/pull/907
@@ -638,7 +673,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-601-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-604-GTNH-pre
+## *rv3-beta-604-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-603-GTNH-pre...rv3-beta-604-GTNH-pre
+>
+
+## *rv3-beta-603-GTNH-pre*
+>## What's Changed
+>* Fix cell math for distribution card by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/751
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-601-GTNH-pre...rv3-beta-603-GTNH-pre
+>
+
+## *rv3-beta-602-GTNH*
+>## What's Changed
+>* Fix cell math for distribution card by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/751
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-600-GTNH...rv3-beta-602-GTNH
+>
+
 ## *rv3-beta-601-GTNH-pre*
 >## What's Changed
 >* Move cursor at end when use +- buttons in amount field by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/738
@@ -1924,7 +1979,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.11.6-GTNH...1.12.1-GTNH
 >
 
-# Updated - Botanic-horizons - 1.1.7-GTNH --> 1.1.8-GTNH-pre
+# Updated - Botanic-horizons - 1.1.7-GTNH --> 1.1.9-GTNH-pre
+## *1.1.9-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.1.8-GTNH-pre...1.1.9-GTNH-pre
+>
+
 ## *1.1.8-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.1.7-GTNH...1.1.8-GTNH-pre
 >
@@ -2188,7 +2247,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.2...1.0.3
 >
 
-# Updated - Draconic-Evolution - 1.3.18-GTNH --> 1.4.17-GTNH-pre
+# Updated - Draconic-Evolution - 1.3.18-GTNH --> 1.4.19-GTNH-pre
+## *1.4.19-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.18-GTNH...1.4.19-GTNH-pre
+>
+
+## *1.4.18-GTNH*
+>## What's Changed
+>* Add more Draconic Reactor configuration, and allow fuel automation by @StaffiX in https://github.com/GTNewHorizons/Draconic-Evolution/pull/61
+>
+>## New Contributors
+>* @StaffiX made their first contribution in https://github.com/GTNewHorizons/Draconic-Evolution/pull/61
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.16-GTNH...1.4.18-GTNH
+>
+
 ## *1.4.17-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.16-GTNH...1.4.17-GTNH-pre
 >
@@ -2751,7 +2824,39 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.281-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.284-pre
+## *5.09.51.284-pre*
+>## What's Changed
+>* Remove Tiny Ashes from BBF outputs by @dibbydoda in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4178
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.283-pre...5.09.51.284-pre
+>
+
+## *5.09.51.283-pre*
+>## What's Changed
+>* Ichorium Block/Framebox Texture Update by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4274
+>* Consistent Component Texture by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4271
+>* Port vajra  by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4204
+>* Add sticky mode functionality to Yotta Hatch by @NeOzay in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4272
+>* MTEMultiblockBase MUI2 by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4287
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.281-pre...5.09.51.283-pre
+>
+
+## *5.09.51.282*
+>## What's Changed
+>* Ichorium Block/Framebox Texture Update by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4274
+>* Consistent Component Texture by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4271
+>* Port vajra  by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4204
+>* Add sticky mode functionality to Yotta Hatch by @NeOzay in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4272
+>* MTEMultiblockBase MUI2 by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4287
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.279...5.09.51.282
+>
+
 ## *5.09.51.281-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.280-pre...5.09.51.281-pre
 >
@@ -5378,7 +5483,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.21
+# Updated - GTNHLib - 0.5.23 --> 0.6.22
+## *0.6.22*
+>## What's Changed
+>* Add convenience method to ObjectPooler by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/130
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.21...0.6.22
+>
+
 ## *0.6.21*
 >## What's Changed
 >* Add 32-bit and 64-bit FNV-1a hash function utilities by @eigenraven in https://github.com/GTNewHorizons/GTNHLib/pull/128
@@ -6823,7 +6936,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.4.6...1.5.0
 >
 
-# Updated - LittleTiles - 1.4.0-GTNH --> 1.5.9-GTNH-pre
+# Updated - LittleTiles - 1.4.0-GTNH --> 1.5.11-GTNH
+## *1.5.11-GTNH*
+>## What's Changed
+>* Big Refactoring and a fix for marked mode by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/13
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.8-GTNH...1.5.11-GTNH
+>
+
+## *1.5.10-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.9-GTNH-pre...1.5.10-GTNH-pre
+>
+
 ## *1.5.9-GTNH-pre*
 >## What's Changed
 >* Make Tiles cache their light value by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/17
@@ -7313,7 +7438,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.179-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.181-pre
+## *2.7.181-pre*
+>## What's Changed
+>* Remove recipe for gravisuite's vajra, vajra core and magnetron by @FrostyFire1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1249
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.179-pre...2.7.181-pre
+>
+
+## *2.7.180*
+>## What's Changed
+>* Remove recipe for gravisuite's vajra, vajra core and magnetron by @FrostyFire1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1249
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.178...2.7.180
+>
+
 ## *2.7.179-pre*
 >## What's Changed
 >* Remove superfluous enchantment recipes by @YannickMG in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1248
@@ -8540,7 +8681,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
-# Updated - NotEnoughIds - 2.1.6 --> 2.1.8-pre
+# Updated - NotEnoughIds - 2.1.6 --> 2.1.9
+## *2.1.9*
+>## What's Changed
+>* Client block transformer by @RecursivePineapple in https://github.com/GTNewHorizons/NotEnoughIds/pull/26
+>
+>## New Contributors
+>* @RecursivePineapple made their first contribution in https://github.com/GTNewHorizons/NotEnoughIds/pull/26
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.7...2.1.9
+>
+
 ## *2.1.8-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.7...2.1.8-pre
 >
@@ -8553,7 +8704,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.41-GTNH-pre
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.43-GTNH
+## *2.7.43-GTNH*
+>## What's Changed
+>* Filtering the input in the ItemQuantityField by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/623
+>* Make the "Accepts following:" tooltip work for otherStacks by @koolkrafter5 in https://github.com/GTNewHorizons/NotEnoughItems/pull/625
+>
+>## New Contributors
+>* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/625
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.40-GTNH...2.7.43-GTNH
+>
+
+## *2.7.42-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.41-GTNH-pre...2.7.42-GTNH-pre
+>
+
 ## *2.7.41-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.40-GTNH...2.7.41-GTNH-pre
 >
@@ -9374,7 +9540,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Roguelike-Dungeons/compare/1.6.0-GTNH...1.6.1-GTNH-pre
 >
 
-# Updated - SC2 - 2.3.0 --> 2.3.2-pre
+# Updated - SC2 - 2.3.0 --> 2.3.3
+## *2.3.3*
+>## What's Changed
+>* Added Electric Engines and Engine Tiers by @hpotter02 in https://github.com/GTNewHorizons/SC2/pull/9
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.1...2.3.3
+>
+
 ## *2.3.2-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.1...2.3.2-pre
 >

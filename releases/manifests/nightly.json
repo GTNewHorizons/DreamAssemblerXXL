@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-12T03:56:47.476754",
+  "last_updated": "2025-05-13T03:54:36.430393",
   "config": "2.8.0-nightly-2025-05-11",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.62-gtnh-pre",
+      "version": "1.4.66-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-601-GTNH-pre",
+      "version": "rv3-beta-604-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.1.8-GTNH-pre",
+      "version": "1.1.9-GTNH-pre",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -161,7 +161,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.4.17-GTNH-pre",
+      "version": "1.4.19-GTNH-pre",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.281-pre",
+      "version": "5.09.51.284-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.21",
+      "version": "0.6.22",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.5.9-GTNH-pre",
+      "version": "1.5.11-GTNH",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.179-pre",
+      "version": "2.7.181-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.41-GTNH-pre",
+      "version": "2.7.43-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -437,7 +437,7 @@
       "side": "BOTH"
     },
     "SC2": {
-      "version": "2.3.2-pre",
+      "version": "2.3.3",
       "side": "BOTH"
     },
     "Schematica": {
@@ -629,7 +629,7 @@
       "side": "CLIENT"
     },
     "NotEnoughIds": {
-      "version": "2.1.8-pre",
+      "version": "2.1.9",
       "side": "BOTH"
     },
     "FloodLights": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta41",
+      "version": "1.0.0-beta42",
       "side": "CLIENT"
     },
     "AkashicTome": {
