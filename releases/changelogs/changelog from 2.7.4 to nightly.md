@@ -1734,7 +1734,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.24-pre
+# Updated - BloodMagic - 1.6.11 --> 1.7.25
+## *1.7.25*
+>## What's Changed
+>* NEI Meteor Handler Revamp by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/77
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.23...1.7.25
+>
+
 ## *1.7.24-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.23...1.7.24-pre
 >
@@ -2673,6 +2681,17 @@ Mod is client-side only.
 >* @Caedis made their first contribution in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/1
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/commits/2.6.2.1-GTNH-pre
+>
+
+# Updated - FindIt - 1.3.10 --> 1.4.0
+## *1.4.0*
+>## What's Changed
+>* fix loader check by @felixfour in https://github.com/GTNewHorizons/FindIt/pull/27
+>
+>## New Contributors
+>* @felixfour made their first contribution in https://github.com/GTNewHorizons/FindIt/pull/27
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.3.10...1.4.0
 >
 
 # Updated - FloodLights - 1.4.6 --> 1.5.4
@@ -7275,7 +7294,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.8-1.7.10
+# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.9-1.7.10
+## *2.2.9-1.7.10*
+><!-- Release notes generated using configuration in .github/release.yml at 2.2.9-1.7.10 -->
+>
+>## What's Changed
+>* Fix shift click a ModularSlot with ignoreMaxStackSize=true void items by @zyf051520 in https://github.com/GTNewHorizons/ModularUI2/pull/25
+>* Fix Widget listener merge by @zyf051520 in https://github.com/GTNewHorizons/ModularUI2/pull/26
+>
+>## New Contributors
+>* @zyf051520 made their first contribution in https://github.com/GTNewHorizons/ModularUI2/pull/25
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.8-1.7.10...2.2.9-1.7.10
+>
+
 ## *2.2.8-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.2.8-1.7.10 -->
 >
@@ -8704,7 +8736,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.43-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.44-GTNH
+## *2.7.44-GTNH*
+>## What's Changed
+>* Subset: Memory Optimization by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/626
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.43-GTNH...2.7.44-GTNH
+>
+
 ## *2.7.43-GTNH*
 >## What's Changed
 >* Filtering the input in the ItemQuantityField by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/623
@@ -10561,7 +10601,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WailaHarvestability/compare/1.3.2-GTNH...1.3.3-GTNH
 >
 
-# Updated - WirelessCraftingTerminal - 1.11.7 --> 1.12.0
+# Updated - WirelessCraftingTerminal - 1.11.7 --> 1.12.1
+## *1.12.1*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/38
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/38
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.12.0...1.12.1
+>
+
 ## *1.12.0*
 >## What's Changed
 >* [Feature] Shift to pause wireless crafting terminal item movement by @michaeldoylecs in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/37
@@ -10851,6 +10901,17 @@ Mod is client-side only.
 >* @serenibyss made their first contribution in https://github.com/GTNewHorizons/supersolarpanels/pull/1
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/supersolarpanels/compare/1.1.3...1.1.4
+>
+
+# Updated - thaumcraft-research-tweaks - 1.2.0 --> 1.3.0
+## *1.3.0*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/thaumcraft-research-tweaks/pull/16
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/thaumcraft-research-tweaks/pull/16
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/thaumcraft-research-tweaks/compare/1.2.0...1.3.0
 >
 
 # Updated - thaumicinsurgence - 0.3.1 --> 0.4.0
