@@ -7298,7 +7298,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.9-1.7.10
+# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.10-1.7.10
+## *2.2.10-1.7.10*
+><!-- Release notes generated using configuration in .github/release.yml at 2.2.10-1.7.10 -->
+>
+>## What's Changed
+>* Remove unused long slot support by @YannickMG in https://github.com/GTNewHorizons/ModularUI2/pull/28
+>* Sync with upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/29
+>
+>## New Contributors
+>* @brachy84 made their first contribution in https://github.com/GTNewHorizons/ModularUI2/pull/29
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.9-1.7.10...2.2.10-1.7.10
+>
+
 ## *2.2.9-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.2.9-1.7.10 -->
 >
@@ -7472,6 +7485,15 @@ Mod is client-side only.
 >* @glowredman made their first contribution in https://github.com/GTNewHorizons/Natura/pull/27
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.7.5...2.8.0
+>
+
+# Updated - Navigator - 1.0.15 --> 1.0.16
+## *1.0.16*
+>## What's Changed
+>* Add support for in-map search bars by @Lyfts in https://github.com/GTNewHorizons/Navigator/pull/11
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
 # Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.181-pre
