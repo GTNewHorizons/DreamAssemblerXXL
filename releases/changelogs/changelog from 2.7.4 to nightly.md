@@ -2747,11 +2747,7 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.2.0
 >
 
-# New Mod - Et-Futurum-Requiem:2.6.2.9-GTNH
-## *2.6.2.9-GTNH*
->**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.8-GTNH...2.6.2.9-GTNH
->
-
+# New Mod - Et-Futurum-Requiem:2.6.2.8-GTNH
 ## *2.6.2.8-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.7-GTNH...2.6.2.8-GTNH
 >
