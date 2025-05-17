@@ -15,7 +15,15 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.66-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.67-gtnh
+## *1.4.67-gtnh*
+>## What's Changed
+>* Update dependencies.gradle by @Caedis in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/292
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.65-gtnh...1.4.67-gtnh
+>
+
 ## *1.4.66-gtnh-pre*
 >## What's Changed
 >* Fix cell math for distribution card by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/291
@@ -524,7 +532,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AkashicTome/compare/1.2.1...1.2.2
 >
 
-# Updated - AlchemyGrate - 1.2.1-GTNH --> 1.3.0-GTNH
+# Updated - AlchemyGrate - 1.2.1-GTNH --> 1.3.1-GTNH
+## *1.3.1-GTNH*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/AlchemyGrate/pull/7
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/AlchemyGrate/pull/7
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AlchemyGrate/compare/1.3.0-GTNH...1.3.1-GTNH
+>
+
 ## *1.3.0-GTNH*
 >## What's Changed
 >* Fix accidental botania hard dependency by @serenibyss in https://github.com/GTNewHorizons/AlchemyGrate/pull/6
@@ -673,7 +691,42 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta29...1.0.0-beta30
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-604-GTNH-pre
+# Updated - AngerMod - 0.8.2 --> 0.9.0
+## *0.9.0*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/AngerMod/pull/11
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/AngerMod/pull/11
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
+>
+
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-609-GTNH-pre
+## *rv3-beta-609-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-607-GTNH-pre...rv3-beta-609-GTNH-pre
+>
+
+## *rv3-beta-608-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-606-GTNH...rv3-beta-608-GTNH
+>
+
+## *rv3-beta-607-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-606-GTNH...rv3-beta-607-GTNH-pre
+>
+
+## *rv3-beta-606-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-605-GTNH...rv3-beta-606-GTNH
+>
+
+## *rv3-beta-605-GTNH*
+>## What's Changed
+>* Make export busses with fuzzy cards pull from storages in order of priority by @Inphysible in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/737
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-602-GTNH...rv3-beta-605-GTNH
+>
+
 ## *rv3-beta-604-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-603-GTNH-pre...rv3-beta-604-GTNH-pre
 >
@@ -1604,7 +1657,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockLimiter/compare/0.6.0...0.7.0
 >
 
-# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.14
+# Updated - BlockRenderer6343 - 1.2.16 --> 1.3.15-pre
+## *1.3.15-pre*
+>## What's Changed
+>* Spotless apply for branch fix-cleanroom-tier for #32 by @github-actions in https://github.com/GTNewHorizons/BlockRenderer6343/pull/33
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.14...1.3.15-pre
+>
+
 ## *1.3.14*
 >## What's Changed
 >* Fix some tiered elements not being recognized by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/31
@@ -1929,7 +1990,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.6.9...1.7.0
 >
 
-# Updated - Botania - 1.11.7-GTNH --> 1.12.7-GTNH-pre
+# Updated - Botania - 1.11.7-GTNH --> 1.12.9-GTNH-pre
+## *1.12.9-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.8-GTNH...1.12.9-GTNH-pre
+>
+
+## *1.12.8-GTNH*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/Botania/pull/81
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/Botania/pull/81
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.6-GTNH...1.12.8-GTNH
+>
+
 ## *1.12.7-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.6-GTNH...1.12.7-GTNH-pre
 >
@@ -2400,7 +2475,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.14-GTNH...1.4.0-GTNH
 >
 
-# Updated - Electro-Magic-Tools - 1.5.17 --> 1.6.6-pre
+# Updated - Electro-Magic-Tools - 1.5.17 --> 1.6.7
+## *1.6.7*
+>## What's Changed
+>* Essentia Generator Cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/93
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/94
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.5...1.6.7
+>
+
 ## *1.6.6-pre*
 >## What's Changed
 >* Essentia Generator Cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/93
@@ -2643,7 +2727,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.2.0
 >
 
-# New Mod - Et-Futurum-Requiem:2.6.2.8-GTNH
+# New Mod - Et-Futurum-Requiem:2.6.2.9-GTNH
+## *2.6.2.9-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.8-GTNH...2.6.2.9-GTNH
+>
+
 ## *2.6.2.8-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.7-GTNH...2.6.2.8-GTNH
 >
@@ -2843,7 +2931,55 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.284-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.288-pre
+## *5.09.51.288-pre*
+>## What's Changed
+>* Removed a redundant block from ForgeOfGods by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4328
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.286-pre...5.09.51.288-pre
+>
+
+## *5.09.51.287*
+>## What's Changed
+>* Removed a redundant block from ForgeOfGods by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4328
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.285...5.09.51.287
+>
+
+## *5.09.51.286-pre*
+>## What's Changed
+>* Spotless apply for branch ItemRenderer for #4254 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4256
+>* Spotless apply for branch fix-19235 for #4236 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4327
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.285...5.09.51.286-pre
+>
+
+## *5.09.51.285*
+>## What's Changed
+>* Remove Tiny Ashes from BBF outputs by @dibbydoda in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4178
+>* Various emissive coils fixes by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4248
+>* Add EoH pity by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4303
+>* Remove redundant circuit for Samaric Residue Dust by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4304
+>* Make covers use global tick counter by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4301
+>* Fix DOB bee breed condition by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4312
+>* Godforge fixes again by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4311
+>* Fix issue where Advanced Muffler Hatch does not consume Air Filters from ME Input Bus by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4308
+>* Fix godforge graviton shard world reload issue by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4313
+>* Separate Pattern Recipe Caching from Dual Inputs by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4228
+>* Fix Cyclotron Tooltip by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4314
+>* Remove Redundant Methods in MTEMultiBlockBase by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4315
+>* Replace Baubles with Baubles-Expanded by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4307
+>* Remove my author tag by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4320
+>* Improve Un-coloured Material Block Textures by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4321
+>* Adapt code to MUI2 updates by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4325
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.282...5.09.51.285
+>
+
 ## *5.09.51.284-pre*
 >## What's Changed
 >* Remove Tiny Ashes from BBF outputs by @dibbydoda in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4178
@@ -6457,7 +6593,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.5.82...2.6.0
 >
 
-# Updated - HoloInventory - 2.5.0-GTNH --> 2.5.1-GTNH
+# Updated - HoloInventory - 2.5.0-GTNH --> 2.5.2-GTNH
+## *2.5.2-GTNH*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/HoloInventory/pull/50
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.1-GTNH...2.5.2-GTNH
+>
+
 ## *2.5.1-GTNH*
 >## What's Changed
 >* Only render overlay in post by @RecursivePineapple in https://github.com/GTNewHorizons/HoloInventory/pull/49
@@ -7158,7 +7302,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.1.4...2.2.0
 >
 
-# Updated - MagicBees - 2.9.1-GTNH --> 2.9.2-GTNH
+# Updated - MagicBees - 2.9.1-GTNH --> 2.9.3-GTNH
+## *2.9.3-GTNH*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/MagicBees/pull/54
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/54
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.9.2-GTNH...2.9.3-GTNH
+>
+
 ## *2.9.2-GTNH*
 >## What's Changed
 >* Give Enchanted Earth some minimal hardness by @YannickMG in https://github.com/GTNewHorizons/MagicBees/pull/52
@@ -7496,7 +7650,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.181-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.183-pre
+## *2.7.183-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.182...2.7.183-pre
+>
+
+## *2.7.182*
+>## What's Changed
+>* Revert the UHT Mesh recipe to the old one by @srdr2k3 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1263
+>* Added "Don't Show Again!" button to Confirm Exit by @Taskeren in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1244
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1264
+>
+>## New Contributors
+>* @Taskeren made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1244
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.180...2.7.182
+>
+
 ## *2.7.181-pre*
 >## What's Changed
 >* Remove recipe for gravisuite's vajra, vajra core and magnetron by @FrostyFire1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1249
@@ -9311,6 +9481,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.4.0
 >
 
+# Updated - PersonalSpace - 1.0.32 --> 1.0.33
+## *1.0.33*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/PersonalSpace/pull/32
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.32...1.0.33
+>
+
 # Updated - Postea - 1.0.13 --> 1.1.1
 ## *1.1.1*
 >**Full Changelog**: https://github.com/GTNewHorizons/Postea/compare/1.1.0...1.1.1
@@ -9371,7 +9550,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.27-pre
+# Updated - Railcraft - 9.15.17 --> 9.16.29-pre
+## *9.16.29-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.28...9.16.29-pre
+>
+
+## *9.16.28*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/Railcraft/pull/96
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.26...9.16.28
+>
+
 ## *9.16.27-pre*
 >## What's Changed
 >* Change `gregtech` optional decorator modid to `gregtech_nh` for GT6 compat by @felixfour in https://github.com/GTNewHorizons/Railcraft/pull/91
@@ -9627,7 +9818,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.0...2.3.1
 >
 
-# New Mod - Salis-Arcana:1.1.16-GTNH
+# New Mod - Salis-Arcana:1.1.17-GTNH
+## *1.1.17-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.16-GTNH...1.1.17-GTNH
+>
+
 ## *1.1.16-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.15-GTNH...1.1.16-GTNH
 >
@@ -9840,7 +10035,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.14.1...0.14.2
 >
 
-# Updated - StructureCompat - 0.6.5 --> 0.7.1
+# Updated - StructureCompat - 0.6.5 --> 0.7.2
+## *0.7.2*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/StructureCompat/pull/11
+>* Update WCT by @Caedis in https://github.com/GTNewHorizons/StructureCompat/pull/12
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/StructureCompat/pull/11
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.7.1...0.7.2
+>
+
 ## *0.7.1*
 >## What's Changed
 >* Remove BM compat by @koolkrafter5 in https://github.com/GTNewHorizons/StructureCompat/pull/10
@@ -9930,8 +10136,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.3.6...1.4.0
 >
 
-# Updated - TCNEIAdditions - 1.4.8 --> 1.4.8
+# Updated - Super-TiC - 1.4.0 --> 1.5.0
+## *1.5.0*
+>## What's Changed
+>* Replace Baubles with Baubles-Expanded by @Caedis in https://github.com/GTNewHorizons/Super-TiC/pull/9
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/Super-TiC/pull/9
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Super-TiC/compare/1.4.0...1.5.0
+>
+
+# Updated - TCNEIAdditions - 1.4.8 --> 1.5.0
 Mod side changed from on both sides to client-side only.
+## *1.5.0*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/TCNEIAdditions/pull/30
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.4.8...1.5.0
+>
+
 # Updated - TX-Loader - 1.7.3 --> 1.8.4
 Mod is client-side only.
 ## *1.8.4*
@@ -9959,7 +10184,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.7.2...1.8.0
 >
 
-# Updated - Tainted-Magic - 7.6.15-GTNH --> 7.6.18-GTNH
+# Updated - Tainted-Magic - 7.6.15-GTNH --> 7.6.19-GTNH
+## *7.6.19-GTNH*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/Tainted-Magic/pull/34
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/Tainted-Magic/pull/34
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.18-GTNH...7.6.19-GTNH
+>
+
 ## *7.6.18-GTNH*
 >## What's Changed
 >* Change optional decorators' modid `gregtech` to `gregtech_nh` for gt6 compat by @felixfour in https://github.com/GTNewHorizons/Tainted-Magic/pull/33
@@ -10052,7 +10287,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.7.7...1.8.0
 >
 
-# Updated - ThaumicBoots - 1.3.10 --> 1.4.6
+# Updated - ThaumicBoots - 1.3.10 --> 1.4.7
+## *1.4.7*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/ThaumicBoots/pull/38
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/ThaumicBoots/pull/38
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.6...1.4.7
+>
+
 ## *1.4.6*
 >## What's Changed
 >* Change optional decorators' modid `gregtech` to `gregtech_nh` for compat by @felixfour in https://github.com/GTNewHorizons/ThaumicBoots/pull/37
@@ -10186,7 +10431,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.6.27-GTNH...1.7.0-GTNH
 >
 
-# Updated - ThaumicHorizons - 1.7.0 --> 1.7.3
+# Updated - ThaumicHorizons - 1.7.0 --> 1.7.4
+## *1.7.4*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/ThaumicHorizons/pull/86
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/ThaumicHorizons/pull/86
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.3...1.7.4
+>
+
 ## *1.7.3*
 >## What's Changed
 >* fix missing draw call and missing texture bind by @Glease in https://github.com/GTNewHorizons/ThaumicHorizons/pull/84
@@ -10579,7 +10834,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.9.0...8.10.0
 >
 
-# Updated - VisualProspecting - 1.3.28 --> 1.4.2
+# Updated - VisualProspecting - 1.3.28 --> 1.4.3
+## *1.4.3*
+>## What's Changed
+>* Remove old GT5 compat by @serenibyss in https://github.com/GTNewHorizons/VisualProspecting/pull/67
+>* Add search bar for highlighting veins/fluids in map ui by @Lyfts in https://github.com/GTNewHorizons/VisualProspecting/pull/66
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/VisualProspecting/pull/67
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.4.2...1.4.3
+>
+
 ## *1.4.2*
 >## What's Changed
 >* Highlight searched underground fluids by @Lyfts in https://github.com/GTNewHorizons/VisualProspecting/pull/64
@@ -10627,7 +10893,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WailaHarvestability/compare/1.3.2-GTNH...1.3.3-GTNH
 >
 
-# Updated - WirelessCraftingTerminal - 1.11.7 --> 1.12.1
+# Updated - WirelessCraftingTerminal - 1.11.7 --> 1.12.2
+## *1.12.2*
+>**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.12.1...1.12.2
+>
+
 ## *1.12.1*
 >## What's Changed
 >* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/38
@@ -10955,7 +11225,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.3.1...0.4.0
 >
 
-# Updated - twilightforest - 2.6.37 --> 2.7.6
+# Updated - twilightforest - 2.6.37 --> 2.7.7
+## *2.7.7*
+>## What's Changed
+>* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/111
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.6...2.7.7
+>
+
 ## *2.7.6*
 >## What's Changed
 >* Don't leak player inventory map by @DarkShadow44 in https://github.com/GTNewHorizons/twilightforest/pull/109
