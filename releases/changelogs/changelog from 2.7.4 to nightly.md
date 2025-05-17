@@ -15,7 +15,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.67-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.68-gtnh-pre
+## *1.4.68-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.67-gtnh...1.4.68-gtnh-pre
+>
+
 ## *1.4.67-gtnh*
 >## What's Changed
 >* Update dependencies.gradle by @Caedis in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/292
@@ -702,7 +706,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-609-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-610-GTNH-pre
+## *rv3-beta-610-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-609-GTNH-pre...rv3-beta-610-GTNH-pre
+>
+
 ## *rv3-beta-609-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-607-GTNH-pre...rv3-beta-609-GTNH-pre
 >
@@ -1567,7 +1575,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.6.22-GTNH...3.7.0-GTNH
 >
 
-# Updated - Binnie - 2.4.8 --> 2.5.8
+# Updated - Binnie - 2.4.8 --> 2.5.9-pre
+## *2.5.9-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.8...2.5.9-pre
+>
+
 ## *2.5.8*
 >## What's Changed
 >* Extend Lab Stand GUI width by 80 units by @czerwonogrodzki in https://github.com/GTNewHorizons/Binnie/pull/60
@@ -2678,7 +2690,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderZoo/compare/1.3.1...1.3.2
 >
 
-# Updated - EnhancedLootBags - 1.1.2 --> 1.2.6-pre
+# Updated - EnhancedLootBags - 1.1.2 --> 1.2.7
+## *1.2.7*
+>## What's Changed
+>* Tell GTNH players how to enchant their lootbags by @YannickMG in https://github.com/GTNewHorizons/EnhancedLootBags/pull/14
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.2.5...1.2.7
+>
+
 ## *1.2.6-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.2.5...1.2.6-pre
 >
@@ -2828,7 +2848,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.7.1-GTNH...0.8.0-GTNH
 >
 
-# Updated - ForestryMC - 4.9.22 --> 4.10.7
+# Updated - ForestryMC - 4.9.22 --> 4.10.8
+## *4.10.8*
+>## What's Changed
+>* Add thunder substrate for rainmaker by @dibbydoda in https://github.com/GTNewHorizons/ForestryMC/pull/95
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.7...4.10.8
+>
+
 ## *4.10.7*
 >## What's Changed
 >* Fix multiblock components to drop inventory contents when broken by @thedarkcolour in https://github.com/GTNewHorizons/ForestryMC/pull/93
@@ -2931,7 +2959,30 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.288-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.290-pre
+## *5.09.51.290-pre*
+>## What's Changed
+>* Spotless apply for branch fix/apiary-missing for #4332 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4333
+>* Fix MUI2 phantom circuit slot by @zyf051520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4330
+>* Fix ME outputs trying to push when offline by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4316
+>
+>## New Contributors
+>* @zyf051520 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4330
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.288-pre...5.09.51.290-pre
+>
+
+## *5.09.51.289*
+>## What's Changed
+>* Fix MUI2 phantom circuit slot by @zyf051520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4330
+>* Fix ME outputs trying to push when offline by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4316
+>
+>## New Contributors
+>* @zyf051520 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4330
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.287...5.09.51.289
+>
+
 ## *5.09.51.288-pre*
 >## What's Changed
 >* Removed a redundant block from ForgeOfGods by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4328
@@ -6670,7 +6721,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.30-GTNH
+# New Mod - InventoryBogoSorter:1.2.32-GTNH-pre
+## *1.2.32-GTNH-pre*
+>## What's Changed
+>* MUI2 update by @YannickMG in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/85
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/85
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.30-GTNH...1.2.32-GTNH-pre
+>
+
+## *1.2.31-GTNH*
+>## What's Changed
+>* MUI2 update by @YannickMG in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/85
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/85
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.30-GTNH...1.2.31-GTNH
+>
+
 ## *1.2.30-GTNH*
 >## What's Changed
 >* Fix Tweak Button Position by @slprime in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/82
@@ -7323,7 +7394,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.9.1-GTNH...2.9.2-GTNH
 >
 
-# New Mod - MatterManipulator:0.0.26-GTNH-pre
+# New Mod - MatterManipulator:0.0.27-GTNH
+## *0.0.27-GTNH*
+>## What's Changed
+>* Stop using deprecated onWireCutterRightClick by @Kogepan229 in https://github.com/GTNewHorizons/MatterManipulator/pull/5
+>* Fix cover copy/paste code by @serenibyss in https://github.com/GTNewHorizons/MatterManipulator/pull/6
+>
+>## New Contributors
+>* @Kogepan229 made their first contribution in https://github.com/GTNewHorizons/MatterManipulator/pull/5
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.25-GTNH...0.0.27-GTNH
+>
+
 ## *0.0.26-GTNH-pre*
 >## What's Changed
 >* Stop using deprecated onWireCutterRightClick by @Kogepan229 in https://github.com/GTNewHorizons/MatterManipulator/pull/5
@@ -7452,7 +7534,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
 >
 
-# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.10-1.7.10
+# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.11-1.7.10
+## *2.2.11-1.7.10*
+><!-- Release notes generated using configuration in .github/release.yml at 2.2.11-1.7.10 -->
+>
+>## What's Changed
+>* Fix crash when NEI is not yet available by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/30
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.10-1.7.10...2.2.11-1.7.10
+>
+
 ## *2.2.10-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.2.10-1.7.10 -->
 >
@@ -9818,7 +9910,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.0...2.3.1
 >
 
-# New Mod - Salis-Arcana:1.1.17-GTNH
+# New Mod - Salis-Arcana:1.1.18-GTNH
+## *1.1.18-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.17-GTNH...1.1.18-GTNH
+>
+
 ## *1.1.17-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.16-GTNH...1.1.17-GTNH
 >
