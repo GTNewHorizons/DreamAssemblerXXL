@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-18T03:58:17.262168",
-  "config": "2.8.0-nightly-2025-05-17",
+  "last_updated": "2025-05-18T10:33:34.361760",
+  "config": "2.8.0-nightly-2025-05-18",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-610-GTNH-pre",
+      "version": "rv3-beta-611-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.25",
+      "version": "1.7.26-pre",
       "side": "BOTH"
     },
     "Botania": {
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.10.8",
+      "version": "4.10.9-pre",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.290-pre",
+      "version": "5.09.51.292-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.58-pre",
+      "version": "2.6.59-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.6.10-pre",
+      "version": "2.6.11-pre",
       "side": "BOTH"
     },
     "oauth": {
@@ -537,7 +537,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.27-GTNH",
+      "version": "1.13.29-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.2.8-GTNH",
+      "version": "2.6.2.9-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {

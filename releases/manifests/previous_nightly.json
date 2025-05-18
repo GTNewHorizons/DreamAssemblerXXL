@@ -1,7 +1,7 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-17T10:37:22.909126",
+  "last_updated": "2025-05-18T03:58:17.262168",
   "config": "2.8.0-nightly-2025-05-17",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.67-gtnh",
+      "version": "1.4.68-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.2.9-GTNH",
+      "version": "2.6.2.8-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
