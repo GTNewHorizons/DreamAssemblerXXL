@@ -2981,7 +2981,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.292-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.293-pre
+## *5.09.51.293-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.292-pre...5.09.51.293-pre
+>
+
 ## *5.09.51.292-pre*
 >## What's Changed
 >* Fix Industrial Apiaries Stackable Upgrades Always Using Max Values by @Ghostipedia in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4337
@@ -9474,7 +9478,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.11.3-GTNH...1.11.4-GTNH-pre
 >
 
-# Updated - OpenComputers - 1.10.30-GTNH --> 1.11.13-GTNH
+# Updated - OpenComputers - 1.10.30-GTNH --> 1.11.14-GTNH-pre
+## *1.11.14-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.13-GTNH...1.11.14-GTNH-pre
+>
+
 ## *1.11.13-GTNH*
 >## What's Changed
 >* Sync with upstream by @asiekierka in https://github.com/GTNewHorizons/OpenComputers/pull/152
