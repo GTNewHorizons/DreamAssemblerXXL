@@ -706,7 +706,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-610-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-611-GTNH-pre
+## *rv3-beta-611-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-610-GTNH-pre...rv3-beta-611-GTNH-pre
+>
+
 ## *rv3-beta-610-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-609-GTNH-pre...rv3-beta-610-GTNH-pre
 >
@@ -1807,7 +1811,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.25
+# Updated - BloodMagic - 1.6.11 --> 1.7.26-pre
+## *1.7.26-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.25...1.7.26-pre
+>
+
 ## *1.7.25*
 >## What's Changed
 >* NEI Meteor Handler Revamp by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/77
@@ -2747,7 +2755,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.2.0
 >
 
-# New Mod - Et-Futurum-Requiem:2.6.2.8-GTNH
+# New Mod - Et-Futurum-Requiem:2.6.2.9-GTNH
+## *2.6.2.9-GTNH*
+>## What's Changed
+>* Update build.gradle by @Dream-Master in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/12
+>
+>## New Contributors
+>* @Dream-Master made their first contribution in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/12
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/commits/2.6.2.9-GTNH
+>
+
 ## *2.6.2.8-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.7-GTNH...2.6.2.8-GTNH
 >
@@ -2844,7 +2862,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.7.1-GTNH...0.8.0-GTNH
 >
 
-# Updated - ForestryMC - 4.9.22 --> 4.10.8
+# Updated - ForestryMC - 4.9.22 --> 4.10.9-pre
+## *4.10.9-pre*
+>## What's Changed
+>* Add thunder substrate for rainmaker by @dibbydoda in https://github.com/GTNewHorizons/ForestryMC/pull/95
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.7...4.10.9-pre
+>
+
 ## *4.10.8*
 >## What's Changed
 >* Add thunder substrate for rainmaker by @dibbydoda in https://github.com/GTNewHorizons/ForestryMC/pull/95
@@ -2955,7 +2981,31 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.290-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.292-pre
+## *5.09.51.292-pre*
+>## What's Changed
+>* Fix Industrial Apiaries Stackable Upgrades Always Using Max Values by @Ghostipedia in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4337
+>* Fix T7 water quadratic parallel bonus by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4338
+>* Add in recycling recipes for NewHorizonsCoreMod bars by @cargocats in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4331
+>
+>## New Contributors
+>* @Ghostipedia made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4337
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.290-pre...5.09.51.292-pre
+>
+
+## *5.09.51.291*
+>## What's Changed
+>* Fix Industrial Apiaries Stackable Upgrades Always Using Max Values by @Ghostipedia in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4337
+>* Fix T7 water quadratic parallel bonus by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4338
+>* Add in recycling recipes for NewHorizonsCoreMod bars by @cargocats in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4331
+>
+>## New Contributors
+>* @Ghostipedia made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4337
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.289...5.09.51.291
+>
+
 ## *5.09.51.290-pre*
 >## What's Changed
 >* Spotless apply for branch fix/apiary-missing for #4332 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4333
@@ -6181,7 +6231,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.58-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.59-pre
+## *2.6.59-pre*
+>## What's Changed
+>* Spotless apply for branch setid-on-map-itself for #535 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/539
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.58-pre...2.6.59-pre
+>
+
 ## *2.6.58-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.57-pre...2.6.58-pre
 >
@@ -9338,7 +9396,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.51-GTNH...2.7.0-GTNH
 >
 
-# Updated - Nuclear-Control - 2.6.7 --> 2.6.10-pre
+# Updated - Nuclear-Control - 2.6.7 --> 2.6.11-pre
+## *2.6.11-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.10-pre...2.6.11-pre
+>
+
 ## *2.6.10-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.9...2.6.10-pre
 >
@@ -10677,7 +10739,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.3.1...1.3.2
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.27-GTNH
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.29-GTNH-pre
+## *1.13.29-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.28-GTNH...1.13.29-GTNH-pre
+>
+
+## *1.13.28-GTNH*
+>## What's Changed
+>* Add check for getCrop() being null by @cargocats in https://github.com/GTNewHorizons/TinkersConstruct/pull/176
+>
+>## New Contributors
+>* @cargocats made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/176
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.27-GTNH...1.13.28-GTNH
+>
+
 ## *1.13.27-GTNH*
 >## What's Changed
 >* fix: tools registered to NEI that shouldn't has display NBT by @riggzh in https://github.com/GTNewHorizons/TinkersConstruct/pull/173
