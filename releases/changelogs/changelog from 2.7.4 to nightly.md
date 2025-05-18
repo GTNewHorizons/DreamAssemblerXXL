@@ -2225,7 +2225,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.3.8-GTNH...1.4.0-GTNH
 >
 
-# Updated - CraftTweaker - 3.4.0 --> 3.4.1
+# Updated - CraftTweaker - 3.4.0 --> 3.4.2
+## *3.4.2*
+>**Full Changelog**: https://github.com/GTNewHorizons/CraftTweaker/compare/3.4.1...3.4.2
+>
+
 ## *3.4.1*
 >## What's Changed
 >* Remove MT STUCK chat message by @brandyyn in https://github.com/GTNewHorizons/CraftTweaker/pull/23
@@ -2755,7 +2759,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.2.0
 >
 
-# New Mod - Et-Futurum-Requiem:2.6.2.9-GTNH
+# New Mod - Et-Futurum-Requiem:2.6.2.11-GTNH-pre
+## *2.6.2.11-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.10-GTNH-pre...2.6.2.11-GTNH-pre
+>
+
+## *2.6.2.10-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.9-GTNH...2.6.2.10-GTNH-pre
+>
+
 ## *2.6.2.9-GTNH*
 >## What's Changed
 >* Update build.gradle by @Dream-Master in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/12
@@ -6235,7 +6247,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.59-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.60-pre
+## *2.6.60-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.59-pre...2.6.60-pre
+>
+
 ## *2.6.59-pre*
 >## What's Changed
 >* Spotless apply for branch setid-on-map-itself for #535 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/539
@@ -7590,6 +7606,11 @@ Mod is client-side only.
 
 ## *0.5.0-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.4.7-GTNH...0.5.0-GTNH
+>
+
+# Updated - ModTweaker - 0.11.0 --> 0.12.0
+## *0.12.0*
+>**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.11.0...0.12.0
 >
 
 # Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.11-1.7.10
