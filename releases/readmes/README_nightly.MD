@@ -315,7 +315,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [CookingForBlockheads](https://github.com/GTNewHorizons/CookingForBlockheads) | 1.4.4-GTNH |
 | [CoreTweaks](https://github.com/GTNewHorizons/CoreTweaks) | 0.3.3.4-GTNH |
 | [Craft-Presence](https://www.curseforge.com/minecraft/mc-mods/craftpresence/) | 2.5.5 |
-| [CraftTweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.4.1 |
+| [CraftTweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.4.2 |
 | [CropLoadCore](https://github.com/GTNewHorizons/CropLoadCore) | 0.2.0 |
 | [Crops-plus-plus](https://github.com/GTNewHorizons/Crops-plus-plus) | 1.8.10 |
 | [Custom-Main-Menu](https://github.com/GTNewHorizons/Custom-Main-Menu) | 1.12.1 |
@@ -332,7 +332,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [EnderStorage](https://github.com/GTNewHorizons/EnderStorage) | 1.7.2 |
 | [EnderZoo](https://github.com/GTNewHorizons/EnderZoo) | 1.3.2 |
 | [EnhancedLootBags](https://github.com/GTNewHorizons/EnhancedLootBags) | 1.2.7 |
-| [Et-Futurum-Requiem](https://github.com/GTNewHorizons/Et-Futurum-Requiem) | 2.6.2.9-GTNH |
+| [Et-Futurum-Requiem](https://github.com/GTNewHorizons/Et-Futurum-Requiem) | 2.6.2.11-GTNH-pre |
 | [Eternal-Singularity](https://github.com/GTNewHorizons/Eternal-Singularity) | 1.2.1 |
 | [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities) | 1.2.13a |
 | [FindIt](https://github.com/GTNewHorizons/FindIt) | 1.4.0 |
@@ -356,7 +356,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.3.1-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.3.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.6.59-pre |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.6.60-pre |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.5.2-GTNH |
 | [Hunger-Overhaul](https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul) | 1.0.0.104 |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.4.5 |
@@ -386,7 +386,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.5.1-GTNH-pre |
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 2.3.1 |
 | [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.5.2-GTNH |
-| [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.11.0 |
+| [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.12.0 |
 | [ModularUI2](https://github.com/GTNewHorizons/ModularUI2) | 2.2.11-1.7.10 |
 | [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.2.18 |
 | [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) | 1.6.21 |

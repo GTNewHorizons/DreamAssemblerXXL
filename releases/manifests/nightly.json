@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-18T11:43:07.375605",
+  "last_updated": "2025-05-18T15:25:03.994451",
   "config": "2.8.0-nightly-2025-05-18",
   "github_mods": {
     "AdventureBackpack2": {
@@ -141,7 +141,7 @@
       "side": "BOTH"
     },
     "CraftTweaker": {
-      "version": "3.4.1",
+      "version": "3.4.2",
       "side": "BOTH"
     },
     "CropLoadCore": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.59-pre",
+      "version": "2.6.60-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -329,7 +329,7 @@
       "side": "BOTH"
     },
     "ModTweaker": {
-      "version": "0.11.0",
+      "version": "0.12.0",
       "side": "BOTH"
     },
     "Natura": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.2.9-GTNH",
+      "version": "2.6.2.11-GTNH-pre",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
