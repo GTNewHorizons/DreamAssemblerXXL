@@ -517,7 +517,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.5-GTNH...1.3.6-GTNH-pre
 >
 
-# Updated - AkashicTome - 1.2.1 --> 1.2.3
+# Updated - AkashicTome - 1.2.1 --> 1.2.4
+## *1.2.4*
+>## What's Changed
+>* Fix NPE for combining books by @cargocats in https://github.com/GTNewHorizons/AkashicTome/pull/18
+>
+>## New Contributors
+>* @cargocats made their first contribution in https://github.com/GTNewHorizons/AkashicTome/pull/18
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AkashicTome/compare/1.2.3...1.2.4
+>
+
 ## *1.2.3*
 >## What's Changed
 >* Add missing IDs to both the whitelist and blacklist by @Kynake in https://github.com/GTNewHorizons/AkashicTome/pull/17
@@ -2584,7 +2594,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.4.6...0.4.7-pre
 >
 
-# Updated - EnderIO - 2.8.24 --> 2.9.12
+# Updated - EnderIO - 2.8.24 --> 2.9.13
+## *2.9.13*
+>## What's Changed
+>* Small Cleanup by @glowredman in https://github.com/GTNewHorizons/EnderIO/pull/195
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.12...2.9.13
+>
+
 ## *2.9.12*
 >## What's Changed
 >* Feature: Automatable weather obelisk by @dibbydoda in https://github.com/GTNewHorizons/EnderIO/pull/193
@@ -2759,7 +2777,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.2.0
 >
 
-# New Mod - Et-Futurum-Requiem:2.6.2.11-GTNH-pre
+# New Mod - Et-Futurum-Requiem:2.6.2.13-GTNH-pre
+## *2.6.2.13-GTNH-pre*
+>## What's Changed
+>* Gtnh by @Dream-Master in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/13
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.12-GTNH-pre...2.6.2.13-GTNH-pre
+>
+
+## *2.6.2.12-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.9-GTNH...2.6.2.12-GTNH-pre
+>
+
 ## *2.6.2.11-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.10-GTNH-pre...2.6.2.11-GTNH-pre
 >
@@ -6247,7 +6277,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.60-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.62-pre
+## *2.6.62-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.61-pre...2.6.62-pre
+>
+
+## *2.6.61-pre*
+>## What's Changed
+>* Spotless apply for branch speedup-oredictionary for #522 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/523
+>* Spotless apply for branch setid-on-map-itself for #535 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/536
+>* Spotless apply for branch setid-on-map-itself for #535 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/539
+>* Spotless apply for branch setid-on-map-itself for #535 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/541
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.53...2.6.61-pre
+>
+
 ## *2.6.60-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.59-pre...2.6.60-pre
 >
@@ -6795,7 +6840,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.32-GTNH-pre
+# New Mod - InventoryBogoSorter:1.2.33-GTNH-pre
+## *1.2.33-GTNH-pre*
+>## What's Changed
+>* MUI2 update by @YannickMG in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/85
+>* return empty string instead of crashing by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/86
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/85
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.30-GTNH...1.2.33-GTNH-pre
+>
+
 ## *1.2.32-GTNH-pre*
 >## What's Changed
 >* MUI2 update by @YannickMG in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/85
@@ -7613,7 +7669,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.11.0...0.12.0
 >
 
-# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.11-1.7.10
+# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.12-1.7.10
+## *2.2.12-1.7.10*
+><!-- Release notes generated using configuration in .github/release.yml at 2.2.12-1.7.10 -->
+>
+>## What's Changed
+>* Sync with upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/31
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.11-1.7.10...2.2.12-1.7.10
+>
+
 ## *2.2.11-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.2.11-1.7.10 -->
 >
@@ -9103,7 +9169,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.44-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.45-GTNH
+## *2.7.45-GTNH*
+>## What's Changed
+>* Add Settings: Dynamic Font Size by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/631
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.44-GTNH...2.7.45-GTNH
+>
+
 ## *2.7.44-GTNH*
 >## What's Changed
 >* Subset: Memory Optimization by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/626
@@ -9421,7 +9495,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.51-GTNH...2.7.0-GTNH
 >
 
-# Updated - Nuclear-Control - 2.6.7 --> 2.6.11-pre
+# Updated - Nuclear-Control - 2.6.7 --> 2.6.12
+## *2.6.12*
+>## What's Changed
+>* Add Factorio rocket silo alarm sound by @2ndDerivative in https://github.com/GTNewHorizons/Nuclear-Control/pull/26
+>* Fixed (adv.) InfoPanel GUI when there are a large amount of info lines. by @guid118 in https://github.com/GTNewHorizons/Nuclear-Control/pull/23
+>
+>## New Contributors
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/Nuclear-Control/pull/26
+>* @guid118 made their first contribution in https://github.com/GTNewHorizons/Nuclear-Control/pull/23
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.9...2.6.12
+>
+
 ## *2.6.11-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.10-pre...2.6.11-pre
 >
@@ -9499,7 +9585,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.11.3-GTNH...1.11.4-GTNH-pre
 >
 
-# Updated - OpenComputers - 1.10.30-GTNH --> 1.11.14-GTNH-pre
+# Updated - OpenComputers - 1.10.30-GTNH --> 1.11.15-GTNH
+## *1.11.15-GTNH*
+>## What's Changed
+>* Fix ME Upgrades tiers 1 and 3 being swapped by @IntQuant in https://github.com/GTNewHorizons/OpenComputers/pull/153
+>
+>## New Contributors
+>* @IntQuant made their first contribution in https://github.com/GTNewHorizons/OpenComputers/pull/153
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.13-GTNH...1.11.15-GTNH
+>
+
 ## *1.11.14-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.13-GTNH...1.11.14-GTNH-pre
 >

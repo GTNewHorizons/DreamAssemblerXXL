@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-18T15:31:11.997817",
-  "config": "2.8.0-nightly-2025-05-18",
+  "last_updated": "2025-05-19T04:00:21.846852",
+  "config": "2.8.0-nightly-2025-05-18-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
@@ -173,7 +173,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.12",
+      "version": "2.9.13",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -249,7 +249,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.60-pre",
+      "version": "2.6.62-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -365,11 +365,11 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.44-GTNH",
+      "version": "2.7.45-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.6.11-pre",
+      "version": "2.6.12",
       "side": "BOTH"
     },
     "oauth": {
@@ -385,7 +385,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.11.14-GTNH-pre",
+      "version": "1.11.15-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -745,7 +745,7 @@
       "side": "CLIENT"
     },
     "AkashicTome": {
-      "version": "1.2.3",
+      "version": "1.2.4",
       "side": "BOTH"
     },
     "Navigator": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.2.11-1.7.10",
+      "version": "2.2.12-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -765,7 +765,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.32-GTNH-pre",
+      "version": "1.2.33-GTNH-pre",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.2.11-GTNH-pre",
+      "version": "2.6.2.13-GTNH-pre",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
