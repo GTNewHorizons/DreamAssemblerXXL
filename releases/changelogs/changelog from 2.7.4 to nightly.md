@@ -6277,7 +6277,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.62-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.63-pre
+## *2.6.63-pre*
+>## What's Changed
+>* Spotless apply for branch speedup-oredictionary for #522 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/523
+>* Spotless apply for branch setid-on-map-itself for #535 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/536
+>* Spotless apply for branch setid-on-map-itself for #535 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/539
+>* Spotless apply for branch setid-on-map-itself for #535 by @github-actions in https://github.com/GTNewHorizons/Hodgepodge/pull/541
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.53...2.6.63-pre
+>
+
 ## *2.6.62-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.61-pre...2.6.62-pre
 >
@@ -7669,7 +7680,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.11.0...0.12.0
 >
 
-# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.12-1.7.10
+# Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.13-1.7.10
+## *2.2.13-1.7.10*
+><!-- Release notes generated using configuration in .github/release.yml at 2.2.13-1.7.10 -->
+>
+>## What's Changed
+>* Fix Nei Search Double Delete by @slprime in https://github.com/GTNewHorizons/ModularUI2/pull/32
+>
+>## New Contributors
+>* @slprime made their first contribution in https://github.com/GTNewHorizons/ModularUI2/pull/32
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.12-1.7.10...2.2.13-1.7.10
+>
+
 ## *2.2.12-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.2.12-1.7.10 -->
 >
