@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-21T03:54:35.689885",
+  "last_updated": "2025-05-22T03:54:03.159195",
   "config": "2.8.0-nightly-2025-05-18-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -433,7 +433,7 @@
       "side": "BOTH"
     },
     "Roguelike-Dungeons": {
-      "version": "1.6.3-GTNH",
+      "version": "1.6.4-GTNH-pre",
       "side": "BOTH"
     },
     "SC2": {

@@ -10096,7 +10096,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.6.0...2.6.1
 >
 
-# Updated - Roguelike-Dungeons - 1.6.0-GTNH --> 1.6.3-GTNH
+# Updated - Roguelike-Dungeons - 1.6.0-GTNH --> 1.6.4-GTNH-pre
+## *1.6.4-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Roguelike-Dungeons/compare/1.6.3-GTNH...1.6.4-GTNH-pre
+>
+
 ## *1.6.3-GTNH*
 >## What's Changed
 >* Allow spreading loot rules to multiple loot pools by @YannickMG in https://github.com/GTNewHorizons/Roguelike-Dungeons/pull/6
