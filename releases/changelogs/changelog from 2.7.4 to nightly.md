@@ -15,7 +15,20 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.68-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.70-gtnh-pre
+## *1.4.70-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.69-gtnh...1.4.70-gtnh-pre
+>
+
+## *1.4.69-gtnh*
+>## What's Changed
+>* make baubles optional by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/296
+>* Use long stack size in NEI CellView by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/297
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.67-gtnh...1.4.69-gtnh
+>
+
 ## *1.4.68-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.67-gtnh...1.4.68-gtnh-pre
 >
@@ -716,7 +729,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-611-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-614-GTNH-pre
+## *rv3-beta-614-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-613-GTNH...rv3-beta-614-GTNH-pre
+>
+
+## *rv3-beta-613-GTNH*
+>## What's Changed
+>* Use long stack size in NEI CellView by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/760
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-612-GTNH...rv3-beta-613-GTNH
+>
+
+## *rv3-beta-612-GTNH*
+>## What's Changed
+>* Update EnderIO P2P Integrations by @dibbydoda in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/758
+>
+>## New Contributors
+>* @dibbydoda made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/758
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-608-GTNH...rv3-beta-612-GTNH
+>
+
 ## *rv3-beta-611-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-610-GTNH-pre...rv3-beta-611-GTNH-pre
 >
@@ -1825,7 +1860,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.26-pre
+# Updated - BloodMagic - 1.6.11 --> 1.7.27-pre
+## *1.7.27-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.26-pre...1.7.27-pre
+>
+
 ## *1.7.26-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.25...1.7.26-pre
 >
@@ -2191,7 +2230,33 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.4.1...1.4.2
 >
 
-# Updated - Computronics - 1.8.5-GTNH --> 1.9.0-GTNH
+# Updated - Computronics - 1.8.5-GTNH --> 1.9.2-GTNH-pre
+## *1.9.2-GTNH-pre*
+>## What's Changed
+>* Update dependencies.gradle by @Dream-Master in https://github.com/GTNewHorizons/Computronics/pull/31
+>* Fix EnderIO weather obelisk driver by @serenibyss in https://github.com/GTNewHorizons/Computronics/pull/32
+>* Remove deprecated capacitorbank integration by @dibbydoda in https://github.com/GTNewHorizons/Computronics/pull/33
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/Computronics/pull/32
+>* @dibbydoda made their first contribution in https://github.com/GTNewHorizons/Computronics/pull/33
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.9.0-GTNH...1.9.2-GTNH-pre
+>
+
+## *1.9.1-GTNH*
+>## What's Changed
+>* Update dependencies.gradle by @Dream-Master in https://github.com/GTNewHorizons/Computronics/pull/31
+>* Fix EnderIO weather obelisk driver by @serenibyss in https://github.com/GTNewHorizons/Computronics/pull/32
+>* Remove deprecated capacitorbank integration by @dibbydoda in https://github.com/GTNewHorizons/Computronics/pull/33
+>
+>## New Contributors
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/Computronics/pull/32
+>* @dibbydoda made their first contribution in https://github.com/GTNewHorizons/Computronics/pull/33
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.9.0-GTNH...1.9.1-GTNH
+>
+
 ## *1.9.0-GTNH*
 >## What's Changed
 >* Adjust parameters with OC by @MeiTianyou in https://github.com/GTNewHorizons/Computronics/pull/28
@@ -2372,7 +2437,33 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.2...1.0.3
 >
 
-# Updated - Draconic-Evolution - 1.3.18-GTNH --> 1.4.19-GTNH-pre
+# Updated - DefaultServerList - 1.5.0 --> 1.6.1
+Mod is client-side only.
+## *1.6.1*
+>**Full Changelog**: https://github.com/GTNewHorizons/DefaultServerList/compare/1.6.0...1.6.1
+>
+
+## *1.6.0*
+>**Full Changelog**: https://github.com/GTNewHorizons/DefaultServerList/compare/1.5.0...1.6.0
+>
+
+# Updated - DefaultWorldGenerator - 0.3.0 --> 0.4.0
+Mod is client-side only.
+## *0.4.0*
+>## What's Changed
+>* Added Unlock Key for GuiCreateWorld by @Taskeren in https://github.com/GTNewHorizons/DefaultWorldGenerator/pull/4
+>
+>## New Contributors
+>* @Taskeren made their first contribution in https://github.com/GTNewHorizons/DefaultWorldGenerator/pull/4
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/DefaultWorldGenerator/compare/0.3.0...0.4.0
+>
+
+# Updated - Draconic-Evolution - 1.3.18-GTNH --> 1.4.20-GTNH-pre
+## *1.4.20-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.19-GTNH-pre...1.4.20-GTNH-pre
+>
+
 ## *1.4.19-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.18-GTNH...1.4.19-GTNH-pre
 >
@@ -2612,7 +2703,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.4.6...0.4.7-pre
 >
 
-# Updated - EnderIO - 2.8.24 --> 2.9.13
+# Updated - EnderIO - 2.8.24 --> 2.9.15-pre
+## *2.9.15-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.14...2.9.15-pre
+>
+
+## *2.9.14*
+>## What's Changed
+>* Comparator refactor and Vacuum Chest logic by @dibbydoda in https://github.com/GTNewHorizons/EnderIO/pull/196
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.13...2.9.14
+>
+
 ## *2.9.13*
 >## What's Changed
 >* Small Cleanup by @glowredman in https://github.com/GTNewHorizons/EnderIO/pull/195
@@ -2795,7 +2898,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.2.0
 >
 
-# New Mod - Et-Futurum-Requiem:2.6.2.13-GTNH-pre
+# New Mod - Et-Futurum-Requiem:2.6.2.14-GTNH-pre
+## *2.6.2.14-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.13-GTNH-pre...2.6.2.14-GTNH-pre
+>
+
 ## *2.6.2.13-GTNH-pre*
 >## What's Changed
 >* Gtnh by @Dream-Master in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/13
@@ -3041,7 +3148,34 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.297-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.298
+## *5.09.51.298*
+>## What's Changed
+>* Create a few ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4295
+>* Fix EoH NPE by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4335
+>* Fix Yotta Hatch NPE by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4334
+>* Fix `survivalBuildPiece` typo by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4305
+>* Unify Thorium Tetrafluoride usages by @dibbydoda in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4340
+>* Allow flocculation unit to have 3 hatches of each type by @dibbydoda in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4341
+>* Remove the Large Advanced Gas Turbine by @ah-OOG-ah in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4339
+>* Adapting to breaking changes of GenericListSyncHandler constructor by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4343
+>* Mega Apiary Enhancements by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4332
+>* Change subtick calculator from duration to a multiplier calculator by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4146
+>* fix turbine overlay not changing when machine activity changes by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4344
+>* Fix Barnarda C saplings AGAIN. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4349
+>* Allow the Solidifier Hatch to store Programmed Circuits. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4348
+>* Glass tube machine recipes by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4352
+>* Minor MUI2 Cover theme update by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4353
+>* Ender IO Texture Set Improvements by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4250
+>* Adapt to MUI2 changes by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4358
+>* Don't filter rocket engine hatches by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4357
+>* Fix Multis Missing Recipe Duration for Chance Based Recipes by @54M44R in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4360
+>* Fixed GT++ Ores missing recipes by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4362
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.291...5.09.51.298
+>
+
 ## *5.09.51.297-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.296-pre...5.09.51.297-pre
 >
@@ -5849,6 +5983,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
+# Updated - GTNH-TC-Wands - 1.4.1 --> 1.4.2-pre
+## *1.4.2-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.1...1.4.2-pre
+>
+
 # Updated - GTNHLib - 0.5.23 --> 0.6.22
 ## *0.6.22*
 >## What's Changed
@@ -6080,7 +6219,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.6...1.4.0
 >
 
-# Updated - Galacticraft - 3.2.10-GTNH --> 3.3.6-GTNH
+# Updated - Galacticraft - 3.2.10-GTNH --> 3.3.7-GTNH
+## *3.3.7-GTNH*
+>## What's Changed
+>* Gas name fix by @MysticalBlade in https://github.com/GTNewHorizons/Galacticraft/pull/106
+>
+>## New Contributors
+>* @MysticalBlade made their first contribution in https://github.com/GTNewHorizons/Galacticraft/pull/106
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.3.6-GTNH...3.3.7-GTNH
+>
+
 ## *3.3.6-GTNH*
 >## What's Changed
 >* Optimizes the Arc Lamp's `lightArea()` by @mitchej123 in https://github.com/GTNewHorizons/Galacticraft/pull/105
@@ -8003,7 +8152,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.185-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.186
+## *2.7.186*
+>## What's Changed
+>* More info about what's invalid by @mitchej123 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1265
+>* Fix the armor stand recipe collision by @Taskeren in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1271
+>* Fix bituminous peat recipe from water propolis by @NeOzay in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1272
+>* Add recipe to switch input/output steam bus by @NeOzay in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1273
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.182...2.7.186
+>
+
 ## *2.7.185-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.184-pre...2.7.185-pre
 >
@@ -10225,7 +10385,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.0...2.3.1
 >
 
-# New Mod - Salis-Arcana:1.1.18-GTNH
+# New Mod - Salis-Arcana:1.1.19-GTNH
+## *1.1.19-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.18-GTNH...1.1.19-GTNH
+>
+
 ## *1.1.18-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.17-GTNH...1.1.18-GTNH
 >
@@ -10405,6 +10569,17 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.39-pre...2.1.41-pre
+>
+
+# Updated - SpecialMobs - 3.6.2 --> 3.7.0
+## *3.7.0*
+>## What's Changed
+>* Notify forge event bus of dark creeper explosion by @dibbydoda in https://github.com/GTNewHorizons/SpecialMobs/pull/27
+>
+>## New Contributors
+>* @dibbydoda made their first contribution in https://github.com/GTNewHorizons/SpecialMobs/pull/27
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/SpecialMobs/compare/3.6.2...3.7.0
 >
 
 # Updated - SpiceOfLife - 2.1.12-carrot --> 2.2.1-carrot
@@ -11523,7 +11698,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/gendustry/compare/1.9.0-GTNH...1.9.1-GTNH
 >
 
-# Updated - harvestcraft - 1.2.3-GTNH --> 1.3.1-GTNH
+# Updated - harvestcraft - 1.2.3-GTNH --> 1.3.2-GTNH
+## *1.3.2-GTNH*
+>## What's Changed
+>* Fix spaghetti typo by @Taskeren in https://github.com/GTNewHorizons/harvestcraft/pull/65
+>
+>## New Contributors
+>* @Taskeren made their first contribution in https://github.com/GTNewHorizons/harvestcraft/pull/65
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.3.1-GTNH...1.3.2-GTNH
+>
+
 ## *1.3.1-GTNH*
 >## What's Changed
 >* Add NEI Handlers for Traps by @glowredman in https://github.com/GTNewHorizons/harvestcraft/pull/64
