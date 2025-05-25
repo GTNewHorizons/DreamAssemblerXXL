@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-24T03:50:43.223350",
+  "last_updated": "2025-05-25T04:00:26.738479",
   "config": "2.8.0-nightly-2025-05-23",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.70-gtnh-pre",
+      "version": "1.4.74-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-614-GTNH-pre",
+      "version": "rv3-beta-616-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.298",
+      "version": "5.09.51.304-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -297,7 +297,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.4.11-GTNH-pre",
+      "version": "1.4.14-GTNH-pre",
       "side": "BOTH"
     },
     "LootGames": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.186",
+      "version": "2.7.188-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -473,7 +473,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.1.0-GTNH",
+      "version": "2.1.1-GTNH-pre",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -569,7 +569,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.8.4",
+      "version": "1.8.6",
       "side": "BOTH"
     },
     "WailaHarvestability": {

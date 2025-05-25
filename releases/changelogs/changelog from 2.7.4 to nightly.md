@@ -15,7 +15,35 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.70-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.74-gtnh-pre
+## *1.4.74-gtnh-pre*
+>## What's Changed
+>* Fix NEI search always showing void cell by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/300
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.72-gtnh...1.4.74-gtnh-pre
+>
+
+## *1.4.73-gtnh-pre*
+>## What's Changed
+>* Restore NEI highlighting when searching for fluid in cells by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/299
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.71-gtnh-pre...1.4.73-gtnh-pre
+>
+
+## *1.4.72-gtnh*
+>## What's Changed
+>* Restore NEI highlighting when searching for fluid in cells by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/299
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.69-gtnh...1.4.72-gtnh
+>
+
+## *1.4.71-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.70-gtnh-pre...1.4.71-gtnh-pre
+>
+
 ## *1.4.70-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.69-gtnh...1.4.70-gtnh-pre
 >
@@ -729,7 +757,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-614-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-616-GTNH-pre
+## *rv3-beta-616-GTNH-pre*
+>## What's Changed
+>* Draw bottom outline when height less than 20 px by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/754
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-614-GTNH-pre...rv3-beta-616-GTNH-pre
+>
+
+## *rv3-beta-615-GTNH*
+>## What's Changed
+>* Draw bottom outline when height less than 20 px by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/754
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-613-GTNH...rv3-beta-615-GTNH
+>
+
 ## *rv3-beta-614-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-613-GTNH...rv3-beta-614-GTNH-pre
 >
@@ -3148,7 +3192,53 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.298
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.304-pre
+## *5.09.51.304-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.303-pre...5.09.51.304-pre
+>
+
+## *5.09.51.303-pre*
+>## What's Changed
+>* Spotless apply for branch fix-19235 for #4236 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4327
+>* Add singlestep Eglin steel and enderium by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4364
+>* [MUI2] Liquid Meter Cover by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4366
+>* Sunset the Steam Engine Upgrade by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4361
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.300...5.09.51.303-pre
+>
+
+## *5.09.51.302*
+>## What's Changed
+>* Add singlestep Eglin steel and enderium by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4364
+>* [MUI2] Liquid Meter Cover by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4366
+>* Sunset the Steam Engine Upgrade by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4361
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.300...5.09.51.302
+>
+
+## *5.09.51.300*
+>## What's Changed
+>* Add MUI2 support for Cover Tabs by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4291
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.299...5.09.51.300
+>
+
+## *5.09.51.299*
+>## What's Changed
+>* Remove Construction Foam Cable Logic by @54M44R in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4359
+>* Add Custom Renderers for MetaGeneratedItems by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4254
+>* Fix Cover Text field text color by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4365
+>* Correct grammar on the bee overflow error by @YoungOnionMC in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4367
+>
+>## New Contributors
+>* @YoungOnionMC made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4367
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.298...5.09.51.299
+>
+
 ## *5.09.51.298*
 >## What's Changed
 >* Create a few ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4295
@@ -7632,7 +7722,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.4.0-GTNH...1.5.0-GTNH
 >
 
-# Updated - LogisticsPipes - 1.3.6-GTNH --> 1.4.11-GTNH-pre
+# Updated - LogisticsPipes - 1.3.6-GTNH --> 1.4.14-GTNH-pre
+## *1.4.14-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.10-GTNH...1.4.14-GTNH-pre
+>
+
 ## *1.4.11-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.10-GTNH...1.4.11-GTNH-pre
 >
@@ -8152,7 +8246,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.186
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.188-pre
+## *2.7.188-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.187...2.7.188-pre
+>
+
+## *2.7.187*
+>## What's Changed
+>* remove Sodium Aluminate recipe with Obzinite by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1274
+>* Add comparator compatibility to Baby Chest by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1275
+>* Reduce Crafting time of lootbag conversion by @Nockyx in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1276
+>* Re-Fix https://github.com/GTNewHorizons/GT-New-Horizons-Modpack/issues/1896 by @v3ect0rgames in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1269
+>* Don't try to remove null items. by @mitchej123 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1266
+>
+>## New Contributors
+>* @v3ect0rgames made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1269
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.186...2.7.187
+>
+
 ## *2.7.186*
 >## What's Changed
 >* More info about what's invalid by @mitchej123 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1265
@@ -10621,6 +10733,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.14.1...0.14.2
 >
 
+# Updated - StorageDrawers - 2.1.0-GTNH --> 2.1.1-GTNH-pre
+## *2.1.1-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.0-GTNH...2.1.1-GTNH-pre
+>
+
 # Updated - StructureCompat - 0.6.5 --> 0.7.2
 ## *0.7.2*
 >## What's Changed
@@ -11904,7 +12021,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.6.35...2.7.0
 >
 
-# Updated - waila - 1.8.2 --> 1.8.4
+# Updated - waila - 1.8.2 --> 1.8.6
+## *1.8.6*
+>## What's Changed
+>* Remove unused EnderIO module by @dibbydoda in https://github.com/GTNewHorizons/waila/pull/29
+>
+>## New Contributors
+>* @dibbydoda made their first contribution in https://github.com/GTNewHorizons/waila/pull/29
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.4...1.8.6
+>
+
+## *1.8.5-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.4...1.8.5-pre
+>
+
 ## *1.8.4*
 >## What's Changed
 >* add more information to help debug weird NPE by @Glease in https://github.com/GTNewHorizons/waila/pull/26
