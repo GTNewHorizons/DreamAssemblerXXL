@@ -15,7 +15,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.77-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.78-gtnh-pre
+## *1.4.78-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.77-gtnh-pre...1.4.78-gtnh-pre
+>
+
 ## *1.4.77-gtnh-pre*
 >## What's Changed
 >* Fix fluid import/export bus GUI when WAILA is disabled by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/298
@@ -801,7 +805,31 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-618-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-620-GTNH-pre
+## *rv3-beta-620-GTNH-pre*
+>## What's Changed
+>* Allow View Cell to be toggled on or off by @serenibyss in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/731
+>* add the ability to the Storage Bus to interface to see non-extractable items if option is enabled by @NeOzay in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/749
+>* Improve Interface Terminal search function. by @AbdielKavash in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/757
+>
+>## New Contributors
+>* @NeOzay made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/749
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-618-GTNH-pre...rv3-beta-620-GTNH-pre
+>
+
+## *rv3-beta-619-GTNH*
+>## What's Changed
+>* Allow View Cell to be toggled on or off by @serenibyss in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/731
+>* add the ability to the Storage Bus to interface to see non-extractable items if option is enabled by @NeOzay in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/749
+>* Improve Interface Terminal search function. by @AbdielKavash in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/757
+>
+>## New Contributors
+>* @NeOzay made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/749
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-615-GTNH...rv3-beta-619-GTNH
+>
+
 ## *rv3-beta-618-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-617-GTNH-pre...rv3-beta-618-GTNH-pre
 >
@@ -3328,7 +3356,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.311-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.313-pre
+## *5.09.51.313-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.312...5.09.51.313-pre
+>
+
+## *5.09.51.312*
+>## What's Changed
+>* [MUI2] Overflow Valve Cover by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4368
+>* Some migration from GTLanguageManager to StatCollector by @ChromaPIE in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4155
+>* Fix Needs Maintenance cover UI by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4375
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.310...5.09.51.312
+>
+
 ## *5.09.51.311-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.310...5.09.51.311-pre
 >
@@ -8230,7 +8272,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/commits/0.0.14
 >
 
-# Updated - Minecraft-Backpack-Mod - 2.4.3-GTNH --> 2.5.1-GTNH-pre
+# Updated - Minecraft-Backpack-Mod - 2.4.3-GTNH --> 2.5.2-GTNH-pre
+## *2.5.2-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.5.1-GTNH-pre...2.5.2-GTNH-pre
+>
+
 ## *2.5.1-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.5.0-GTNH...2.5.1-GTNH-pre
 >
@@ -8535,7 +8581,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.191-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.193-pre
+## *2.7.193-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.192...2.7.193-pre
+>
+
+## *2.7.192*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.190...2.7.192
+>
+
 ## *2.7.191-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.190...2.7.191-pre
 >
@@ -9878,7 +9932,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.45-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.47-GTNH-pre
+## *2.7.47-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.46-GTNH...2.7.47-GTNH-pre
+>
+
+## *2.7.46-GTNH*
+>## What's Changed
+>* Don't exclude locals/frames when transforming. by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/632
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.45-GTNH...2.7.46-GTNH
+>
+
 ## *2.7.45-GTNH*
 >## What's Changed
 >* Add Settings: Dynamic Font Size by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/631
@@ -10534,7 +10600,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.0-GTNH...4.11.1-GTNH
 >
 
-# Updated - Railcraft - 9.15.17 --> 9.16.29-pre
+# Updated - Railcraft - 9.15.17 --> 9.16.30
+## *9.16.30*
+>## What's Changed
+>* add WDMLA plugin by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/89
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.28...9.16.30
+>
+
 ## *9.16.29-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.28...9.16.29-pre
 >
