@@ -805,7 +805,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-620-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-621-GTNH-pre
+## *rv3-beta-621-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-620-GTNH-pre...rv3-beta-621-GTNH-pre
+>
+
 ## *rv3-beta-620-GTNH-pre*
 >## What's Changed
 >* Allow View Cell to be toggled on or off by @serenibyss in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/731
@@ -2659,7 +2663,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/DefaultWorldGenerator/compare/0.3.0...0.4.0
 >
 
-# Updated - Draconic-Evolution - 1.3.18-GTNH --> 1.4.20-GTNH-pre
+# Updated - Draconic-Evolution - 1.3.18-GTNH --> 1.4.22-GTNH-pre
+## *1.4.22-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.21-GTNH...1.4.22-GTNH-pre
+>
+
+## *1.4.21-GTNH*
+>## What's Changed
+>* Inhibitor improvements by @Shadow1590 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/64
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.18-GTNH...1.4.21-GTNH
+>
+
 ## *1.4.20-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.19-GTNH-pre...1.4.20-GTNH-pre
 >
@@ -2903,7 +2919,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.4.6...0.4.7-pre
 >
 
-# Updated - EnderIO - 2.8.24 --> 2.9.15-pre
+# Updated - EnderIO - 2.8.24 --> 2.9.16
+## *2.9.16*
+>## What's Changed
+>* Remove deprecated CapacitorBank by @dibbydoda in https://github.com/GTNewHorizons/EnderIO/pull/197
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.14...2.9.16
+>
+
 ## *2.9.15-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.14...2.9.15-pre
 >
@@ -3356,7 +3380,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.313-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.317-pre
+## *5.09.51.317-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.316-pre...5.09.51.317-pre
+>
+
+## *5.09.51.316-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.315-pre...5.09.51.316-pre
+>
+
+## *5.09.51.315-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.314...5.09.51.315-pre
+>
+
+## *5.09.51.314*
+>## What's Changed
+>* Delete replaceDeprecatedCoils by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4377
+>* Fix GT++ normal pipes not being craftable by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4379
+>* [MUI2] EU Meter Cover by @YannickMG in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4372
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.312...5.09.51.314
+>
+
 ## *5.09.51.313-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.312...5.09.51.313-pre
 >
@@ -6330,7 +6376,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.1...1.4.2-pre
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.24
+# Updated - GTNHLib - 0.5.23 --> 0.6.25
+## *0.6.25*
+>## What's Changed
+>* Update SpatialHashGrid findNearby by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/138
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.24...0.6.25
+>
+
 ## *0.6.24*
 >## What's Changed
 >* Extract out the distance methods to a static util class by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/137
@@ -8272,7 +8326,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/commits/0.0.14
 >
 
-# Updated - Minecraft-Backpack-Mod - 2.4.3-GTNH --> 2.5.2-GTNH-pre
+# Updated - Minecraft-Backpack-Mod - 2.4.3-GTNH --> 2.5.3-GTNH-pre
+## *2.5.3-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.5.2-GTNH-pre...2.5.3-GTNH-pre
+>
+
 ## *2.5.2-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.5.1-GTNH-pre...2.5.2-GTNH-pre
 >
@@ -8581,7 +8639,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.193-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.195-pre
+## *2.7.195-pre*
+>## What's Changed
+>* Remove old recipe for Infused Quantum Chestplate by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1277
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.193-pre...2.7.195-pre
+>
+
+## *2.7.194*
+>## What's Changed
+>* Remove old recipe for Infused Quantum Chestplate by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1277
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.192...2.7.194
+>
+
 ## *2.7.193-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.192...2.7.193-pre
 >
@@ -9932,7 +10006,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.47-GTNH-pre
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.48-GTNH
+## *2.7.48-GTNH*
+>## What's Changed
+>* Ignore prefix when SearchMode is ALWAYS by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughItems/pull/635
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.46-GTNH...2.7.48-GTNH
+>
+
 ## *2.7.47-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.46-GTNH...2.7.47-GTNH-pre
 >
