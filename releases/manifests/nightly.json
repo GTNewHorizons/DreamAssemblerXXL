@@ -1,8 +1,8 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-26T14:22:42.420677",
-  "config": "2.8.0-nightly-2025-05-26",
+  "last_updated": "2025-05-26T18:45:33.480430",
+  "config": "2.8.0-nightly-2025-05-26-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-620-GTNH-pre",
+      "version": "rv3-beta-621-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -161,7 +161,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.4.20-GTNH-pre",
+      "version": "1.4.22-GTNH-pre",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -173,7 +173,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.15-pre",
+      "version": "2.9.16",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.313-pre",
+      "version": "5.09.51.316-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.24",
+      "version": "0.6.25",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -321,7 +321,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.5.2-GTNH-pre",
+      "version": "2.5.3-GTNH-pre",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.193-pre",
+      "version": "2.7.195-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.47-GTNH-pre",
+      "version": "2.7.48-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {

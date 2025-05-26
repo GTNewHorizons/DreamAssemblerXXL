@@ -1,15 +1,15 @@
 {
   "version": "previous_nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-26T03:58:34.865570",
-  "config": "2.8.0-nightly-2025-05-25-3",
+  "last_updated": "2025-05-26T14:22:42.420677",
+  "config": "2.8.0-nightly-2025-05-26",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.77-gtnh-pre",
+      "version": "1.4.78-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-618-GTNH-pre",
+      "version": "rv3-beta-620-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.311-pre",
+      "version": "5.09.51.313-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -321,7 +321,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.5.1-GTNH-pre",
+      "version": "2.5.2-GTNH-pre",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.191-pre",
+      "version": "2.7.193-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.45-GTNH",
+      "version": "2.7.47-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -421,7 +421,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.16.29-pre",
+      "version": "9.16.30",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
