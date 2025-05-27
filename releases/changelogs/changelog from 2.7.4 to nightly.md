@@ -10006,7 +10006,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.48-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.49-GTNH
+## *2.7.49-GTNH*
+>## What's Changed
+>* Update JarJar detection so it works when jarjar is loaded but rfb is not setup properly. by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/636
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.48-GTNH...2.7.49-GTNH
+>
+
 ## *2.7.48-GTNH*
 >## What's Changed
 >* Ignore prefix when SearchMode is ALWAYS by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughItems/pull/635
