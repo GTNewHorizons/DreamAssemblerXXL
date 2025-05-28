@@ -15,7 +15,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.78-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.79-gtnh-pre
+## *1.4.79-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.78-gtnh-pre...1.4.79-gtnh-pre
+>
+
 ## *1.4.78-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.77-gtnh-pre...1.4.78-gtnh-pre
 >
@@ -815,7 +819,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-621-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-623-GTNH-pre
+## *rv3-beta-623-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-622-GTNH-pre...rv3-beta-623-GTNH-pre
+>
+
+## *rv3-beta-622-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-621-GTNH-pre...rv3-beta-622-GTNH-pre
+>
+
 ## *rv3-beta-621-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-620-GTNH-pre...rv3-beta-621-GTNH-pre
 >
@@ -3161,7 +3173,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.2.0
 >
 
-# New Mod - Et-Futurum-Requiem:2.6.2.14-GTNH-pre
+# New Mod - Et-Futurum-Requiem:2.6.2.15-GTNH-pre
+## *2.6.2.15-GTNH-pre*
+>## What's Changed
+>* Prevent mending from applying to non-repairable items by @FourIsTheNumber in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/14
+>
+>## New Contributors
+>* @FourIsTheNumber made their first contribution in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/14
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.14-GTNH-pre...2.6.2.15-GTNH-pre
+>
+
 ## *2.6.2.14-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.13-GTNH-pre...2.6.2.14-GTNH-pre
 >
@@ -3430,7 +3452,57 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.317-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.321-pre
+## *5.09.51.321-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.320-pre...5.09.51.321-pre
+>
+
+## *5.09.51.320-pre*
+>## What's Changed
+>* Make some controllers use unique front overlay textures by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4381
+>* Remove the large processing factory by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4384
+>* Remove Large Essentia Generator by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4387
+>* Remove Processing Array by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4385
+>* Remove Low Power Lasers by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4386
+>* Fix lava boiler dropping wrong cell item on right click by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4390
+>* Fix antimatter glass failing to apply umv glass oredict by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4389
+>* Fix fuel values for rocket fuel by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4397
+>* Show YottaHatch online status in waila by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4395
+>* Fix steam machines not connecting to pipes and not filling by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4398
+>* Cleanup by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4399
+>* Spotless apply for branch Naquarite for #4281 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4400
+>* Make Lens Indicator in T6 Water Plant optional by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4396
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.317-pre...5.09.51.320-pre
+>
+
+## *5.09.51.319*
+>## What's Changed
+>* Make Lens Indicator in T6 Water Plant optional by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4396
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.318...5.09.51.319
+>
+
+## *5.09.51.318*
+>## What's Changed
+>* Make some controllers use unique front overlay textures by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4381
+>* Remove the large processing factory by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4384
+>* Remove Large Essentia Generator by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4387
+>* Remove Processing Array by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4385
+>* Remove Low Power Lasers by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4386
+>* Fix lava boiler dropping wrong cell item on right click by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4390
+>* Fix antimatter glass failing to apply umv glass oredict by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4389
+>* Fix fuel values for rocket fuel by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4397
+>* Show YottaHatch online status in waila by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4395
+>* Fix steam machines not connecting to pipes and not filling by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4398
+>* Cleanup by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4399
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.314...5.09.51.318
+>
+
 ## *5.09.51.317-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.316-pre...5.09.51.317-pre
 >
@@ -6956,7 +7028,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.66
+# Updated - Hodgepodge - 2.5.90 --> 2.6.67-pre
+## *2.6.67-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.66...2.6.67-pre
+>
+
 ## *2.6.66*
 >## What's Changed
 >* Make Etheric Sword truly Unbreakble by @Yoshy2002 in https://github.com/GTNewHorizons/Hodgepodge/pull/545
@@ -8689,7 +8765,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.195-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.197-pre
+## *2.7.197-pre*
+>## What's Changed
+>* Change T1 air filter controller recipe to use proper casing by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1278
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.195-pre...2.7.197-pre
+>
+
+## *2.7.196*
+>## What's Changed
+>* Change T1 air filter controller recipe to use proper casing by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1278
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.194...2.7.196
+>
+
 ## *2.7.195-pre*
 >## What's Changed
 >* Remove old recipe for Infused Quantum Chestplate by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1277
@@ -11018,7 +11110,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Roguelike-Dungeons/compare/1.6.0-GTNH...1.6.1-GTNH-pre
 >
 
-# Updated - SC2 - 2.3.0 --> 2.3.3
+# Updated - SC2 - 2.3.0 --> 2.3.4-pre
+## *2.3.4-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.3...2.3.4-pre
+>
+
 ## *2.3.3*
 >## What's Changed
 >* Added Electric Engines and Engine Tiers by @hpotter02 in https://github.com/GTNewHorizons/SC2/pull/9
@@ -11869,7 +11965,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.3.1...1.3.2
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.29-GTNH-pre
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.30-GTNH-pre
+## *1.13.30-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.28-GTNH...1.13.30-GTNH-pre
+>
+
 ## *1.13.29-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.28-GTNH...1.13.29-GTNH-pre
 >
@@ -12405,7 +12505,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ae2stuff/compare/0.8.5-GTNH...0.9.0-GTNH
 >
 
-# Updated - gendustry - 1.9.0-GTNH --> 1.9.1-GTNH
+# Updated - gendustry - 1.9.0-GTNH --> 1.9.2-GTNH-pre
+## *1.9.2-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/gendustry/compare/1.9.1-GTNH...1.9.2-GTNH-pre
+>
+
 ## *1.9.1-GTNH*
 >## What's Changed
 >* Fixes for non-GTNH environment by @miozune in https://github.com/GTNewHorizons/gendustry/pull/16
@@ -12622,7 +12726,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.6.35...2.7.0
 >
 
-# Updated - waila - 1.8.2 --> 1.8.6
+# Updated - waila - 1.8.2 --> 1.8.7
+## *1.8.7*
+>## What's Changed
+>* Stop running tick events twice per tick by @Alexdoru in https://github.com/GTNewHorizons/waila/pull/30
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.6...1.8.7
+>
+
 ## *1.8.6*
 >## What's Changed
 >* Remove unused EnderIO module by @dibbydoda in https://github.com/GTNewHorizons/waila/pull/29
