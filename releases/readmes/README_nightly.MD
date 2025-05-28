@@ -314,14 +314,14 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Controlling](https://github.com/GTNewHorizons/Controlling) | 2.1.2 |
 | [CookingForBlockheads](https://github.com/GTNewHorizons/CookingForBlockheads) | 1.4.4-GTNH |
 | [CoreTweaks](https://github.com/GTNewHorizons/CoreTweaks) | 0.3.3.4-GTNH |
-| [Craft-Presence](https://www.curseforge.com/minecraft/mc-mods/craftpresence/) | 2.5.5 |
+| [Craft-Presence](https://www.curseforge.com/minecraft/mc-mods/craftpresence/) | 2.6.1 |
 | [CraftTweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.4.2 |
 | [CropLoadCore](https://github.com/GTNewHorizons/CropLoadCore) | 0.2.0 |
 | [Crops-plus-plus](https://github.com/GTNewHorizons/Crops-plus-plus) | 1.8.10 |
 | [Custom-Main-Menu](https://github.com/GTNewHorizons/Custom-Main-Menu) | 1.12.1 |
 | [Darkerer](https://github.com/GTNewHorizons/Darkerer) | 1.0.4 |
 | [Default-Configs](https://github.com/GTNewHorizons/Default-Configs) | 1.3.0 |
-| [DefaultServerList](https://github.com/GTNewHorizons/DefaultServerList) | 1.6.2 |
+| [DefaultServerList](https://github.com/GTNewHorizons/DefaultServerList) | 1.6.4 |
 | [DefaultWorldGenerator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.4.0 |
 | [Draconic-Evolution](https://github.com/GTNewHorizons/Draconic-Evolution) | 1.4.22-GTNH-pre |
 | [DummyCore](https://github.com/GTNewHorizons/DummyCore) | 1.19.0 |
@@ -386,6 +386,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.5.3-GTNH-pre |
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 2.3.1 |
 | [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.5.2-GTNH |
+| [ModernMarkings](https://github.com/GTNewHorizons/ModernMarkings) | 0.3.0-1.7.10 |
 | [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.12.0 |
 | [ModularUI2](https://github.com/GTNewHorizons/ModularUI2) | 2.2.15-1.7.10 |
 | [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.2.18 |
@@ -400,7 +401,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.3.0 |
 | [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.7.197-pre |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.3.0-GTNH |
-| [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.0 |
+| [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.1-pre |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.1.9 |
 | [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.7.49-GTNH |
 | [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.6.12 |
@@ -468,7 +469,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Translocators](https://github.com/GTNewHorizons/Translocators) | 1.3.0 |
 | [twilightforest](https://github.com/GTNewHorizons/twilightforest) | 2.7.7 |
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.8.4 |
-| [UniLib](https://legacy.curseforge.com/minecraft/mc-mods/unilib) | 1.0.6 |
+| [UniLib](https://legacy.curseforge.com/minecraft/mc-mods/unilib) | 1.1.0 |
 | [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.20 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.10.0 |
 | [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.4.3 |
