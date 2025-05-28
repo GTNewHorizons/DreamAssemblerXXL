@@ -4,6 +4,7 @@
 > * InventoryBogoSorter
 > * IronTankMinecarts
 > * MatterManipulator
+> * ModernMarkings
 > * Salis-Arcana
 # Mods Removed: 
 > * CreativeCore
@@ -2684,8 +2685,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.2...1.0.3
 >
 
-# Updated - DefaultServerList - 1.5.0 --> 1.6.2
+# Updated - DefaultServerList - 1.5.0 --> 1.6.4
 Mod is client-side only.
+## *1.6.4*
+>## What's Changed
+>* Use Forge configs instead of JSON by @glowredman in https://github.com/GTNewHorizons/DefaultServerList/pull/10
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/DefaultServerList/compare/1.6.2...1.6.4
+>
+
+## *1.6.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/DefaultServerList/compare/1.6.2...1.6.3-pre
+>
+
 ## *1.6.2*
 >## What's Changed
 >* Fix Mixin Loading by @glowredman in https://github.com/GTNewHorizons/DefaultServerList/pull/9
@@ -8514,6 +8527,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.11.0...0.12.0
 >
 
+# New Mod - ModernMarkings:0.3.0-1.7.10
+## *0.3.0-1.7.10*
+>## What's Changed
+>* Update README.md by @Caedis in https://github.com/GTNewHorizons/ModernMarkings/pull/1
+>* Add CF/MN project info by @mitchej123 in https://github.com/GTNewHorizons/ModernMarkings/pull/3
+>* Changes as per glowredman's comments by @jurrejelle in https://github.com/GTNewHorizons/ModernMarkings/pull/2
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/ModernMarkings/pull/1
+>* @mitchej123 made their first contribution in https://github.com/GTNewHorizons/ModernMarkings/pull/3
+>* @jurrejelle made their first contribution in https://github.com/GTNewHorizons/ModernMarkings/pull/2
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/v0.0.2...0.3.0-1.7.10
+>
+
+## *v0.0.2*
+>**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/v0.0.1...v0.0.2
+>
+
 # Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.15-1.7.10
 ## *2.2.15-1.7.10*
 ><!-- Release notes generated using configuration in .github/release.yml at 2.2.15-1.7.10 -->
@@ -10123,6 +10155,11 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
+>
+
+# Updated - NotEnoughEnergistics - 1.7.0 --> 1.7.1-pre
+## *1.7.1-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.0...1.7.1-pre
 >
 
 # Updated - NotEnoughIds - 2.1.6 --> 2.1.9
