@@ -645,8 +645,18 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.0...1.3.1
 >
 
-# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta43
+# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta44
 Mod is client-side only.
+## *1.0.0-beta44*
+>## What's Changed
+>* Don't throw exception when trying to forward block+meta to shader while in non-world rendering pass (inventory, preview) by @dvdmandt in https://github.com/GTNewHorizons/Angelica/pull/960
+>
+>## New Contributors
+>* @dvdmandt made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/960
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta43...1.0.0-beta44
+>
+
 ## *1.0.0-beta43*
 >## What's Changed
 >* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/949
@@ -1637,6 +1647,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-478-GTNH...rv3-beta-500-GTNH
 >
 
+# Updated - ArchitectureCraft - 1.10.2 --> 1.10.3
+## *1.10.3*
+>## What's Changed
+>* Support Lapis Caelestis, AntiBlocks and Neonite properly by @dvdmandt in https://github.com/GTNewHorizons/ArchitectureCraft/pull/21
+>* Forward crafting material (block id) to shader engine if Angelica is loaded by @dvdmandt in https://github.com/GTNewHorizons/ArchitectureCraft/pull/22
+>
+>## New Contributors
+>* @dvdmandt made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/21
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.10.2...1.10.3
+>
+
 # Updated - Avaritia - 1.59 --> 1.64-pre
 ## *1.64-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.63...1.64-pre
@@ -2017,7 +2039,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.31
+# Updated - BloodMagic - 1.6.11 --> 1.7.32
+## *1.7.32*
+>## What's Changed
+>* Update Readme by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/88
+>* Allow the Orb of Armok to work from within a Blood Altar. by @AbdielKavash in https://github.com/GTNewHorizons/BloodMagic/pull/89
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.31...1.7.32
+>
+
 ## *1.7.31*
 >## What's Changed
 >* Orchestra of the Phantom Hands Improvements by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/85
@@ -2641,8 +2672,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.2...1.0.3
 >
 
-# Updated - DefaultServerList - 1.5.0 --> 1.6.1
+# Updated - DefaultServerList - 1.5.0 --> 1.6.2
 Mod is client-side only.
+## *1.6.2*
+>## What's Changed
+>* Fix Mixin Loading by @glowredman in https://github.com/GTNewHorizons/DefaultServerList/pull/9
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/DefaultServerList/compare/1.6.1...1.6.2
+>
+
 ## *1.6.1*
 >**Full Changelog**: https://github.com/GTNewHorizons/DefaultServerList/compare/1.6.0...1.6.1
 >
@@ -3348,6 +3387,17 @@ Mod is client-side only.
 >* @combusterf made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/86
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
+>
+
+# Updated - ForgeMultipart - 1.6.2 --> 1.6.3
+## *1.6.3*
+>## What's Changed
+>* Forward material to shader by @dvdmandt in https://github.com/GTNewHorizons/ForgeMultipart/pull/27
+>
+>## New Contributors
+>* @dvdmandt made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/27
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.6.2...1.6.3
 >
 
 # Updated - ForgeRelocation - 0.2.1 --> 0.3.1

@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-27T03:57:24.750933",
+  "last_updated": "2025-05-28T03:55:43.132944",
   "config": "2.8.0-nightly-2025-05-26-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -33,7 +33,7 @@
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.10.2",
+      "version": "1.10.3",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.31",
+      "version": "1.7.32",
       "side": "BOTH"
     },
     "Botania": {
@@ -153,7 +153,7 @@
       "side": "BOTH"
     },
     "DefaultServerList": {
-      "version": "1.6.1",
+      "version": "1.6.2",
       "side": "CLIENT"
     },
     "DefaultWorldGenerator": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.6.2",
+      "version": "1.6.3",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta43",
+      "version": "1.0.0-beta44",
       "side": "CLIENT"
     },
     "AkashicTome": {
