@@ -3465,7 +3465,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.321-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.323-pre
+## *5.09.51.323-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.322-pre...5.09.51.323-pre
+>
+
+## *5.09.51.322-pre*
+>## What's Changed
+>* Spotless apply for branch Naquarite for #4281 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4400
+>* fix voltage not using gt formatter for battery buffers by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4404
+>* Seperate ME busses and hatches by color by @jurrejelle in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4403
+>
+>## New Contributors
+>* @Spicierspace153 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4404
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.319...5.09.51.322-pre
+>
+
 ## *5.09.51.321-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.320-pre...5.09.51.321-pre
 >
@@ -8797,7 +8813,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.197-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.198-pre
+## *2.7.198-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.196...2.7.198-pre
+>
+
 ## *2.7.197-pre*
 >## What's Changed
 >* Change T1 air filter controller recipe to use proper casing by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1278
