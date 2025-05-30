@@ -8455,7 +8455,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.9.1-GTNH...2.9.2-GTNH
 >
 
-# New Mod - MatterManipulator:0.0.28-GTNH
+# New Mod - MatterManipulator:0.0.29-GTNH
+## *0.0.29-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.28-GTNH...0.0.29-GTNH
+>
+
 ## *0.0.28-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.27-GTNH...0.0.28-GTNH
 >
