@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "previous_nightly",
-  "last_updated": "2025-05-30T03:54:26.775952",
+  "last_version": "2.7.4",
+  "last_updated": "2025-05-30T19:02:42.267516",
   "config": "2.8.0-nightly-2025-05-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -46,10 +46,6 @@
     },
     "Avaritiaddons": {
       "version": "1.8.4-GTNH",
-      "side": "BOTH"
-    },
-    "Battlegear2": {
-      "version": "1.4.3",
       "side": "BOTH"
     },
     "bdlib": {
@@ -794,6 +790,14 @@
     },
     "ModernMarkings": {
       "version": "0.3.1-1.7.10",
+      "side": "BOTH"
+    },
+    "Battlegear2-for-Backhand": {
+      "version": "1.5.1-backhand-pre",
+      "side": "BOTH"
+    },
+    "Backhand": {
+      "version": "1.6.16",
       "side": "BOTH"
     }
   },
