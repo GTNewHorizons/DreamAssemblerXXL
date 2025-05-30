@@ -1,4 +1,6 @@
 # New Mods: 
+> * Backhand
+> * Battlegear2-for-Backhand
 > * Darkerer
 > * Et-Futurum-Requiem
 > * InventoryBogoSorter
@@ -7,6 +9,7 @@
 > * ModernMarkings
 > * Salis-Arcana
 # Mods Removed: 
+> * Battlegear2
 > * CreativeCore
 > * GTNH-Intergalactic
 > * Hardcore Darkness
@@ -824,7 +827,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-624-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-625-GTNH-pre
+## *rv3-beta-625-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-624-GTNH-pre...rv3-beta-625-GTNH-pre
+>
+
 ## *rv3-beta-624-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-623-GTNH-pre...rv3-beta-624-GTNH-pre
 >
@@ -1680,7 +1687,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.10.2...1.10.3
 >
 
-# Updated - Avaritia - 1.59 --> 1.64-pre
+# Updated - Avaritia - 1.59 --> 1.65-pre
+## *1.65-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.63...1.65-pre
+>
+
 ## *1.64-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.63...1.64-pre
 >
@@ -1719,15 +1730,257 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.59...1.60-pre
 >
 
-# Updated - Battlegear2 - 1.4.2 --> 1.4.3
-## *1.4.3*
+# New Mod - Backhand:1.6.16
+## *1.6.16*
 >## What's Changed
->* Add more translation options + fix russian translation by @Gordon-Frohman in https://github.com/GTNewHorizons/Battlegear2/pull/30
+>* BG2 compat by @YannickMG in https://github.com/GTNewHorizons/Backhand/pull/93
 >
 >## New Contributors
->* @Gordon-Frohman made their first contribution in https://github.com/GTNewHorizons/Battlegear2/pull/30
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/Backhand/pull/93
 >
->**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2/compare/1.4.2...1.4.3
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.15...1.6.16
+>
+
+## *1.6.16-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.15...1.6.16-pre
+>
+
+## *1.6.15*
+>## What's Changed
+>* Do nothing when backhand$bg2Stacks is null by @DancingSnow0517 in https://github.com/GTNewHorizons/Backhand/pull/90
+>
+>## New Contributors
+>* @DancingSnow0517 made their first contribution in https://github.com/GTNewHorizons/Backhand/pull/90
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.14...1.6.15
+>
+
+## *1.6.14*
+>## What's Changed
+>* More tfc slot fixes by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/85
+>* Allow empty offhand to break blocks & fix pick block by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/86
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.13...1.6.14
+>
+
+## *1.6.13*
+>## What's Changed
+>* Fix offhand slot clashing with TFC back slot by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/80
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.12...1.6.13
+>
+
+## *1.6.12*
+>## What's Changed
+>* Configurable offhand hotbar slot position by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/79
+>* Fix GC boot slot clashing with offhand slot by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/78
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.11...1.6.12
+>
+
+## *1.6.11*
+>## What's Changed
+>* Fix gc rockets kicking players out instantly by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/69
+>* Fix weird 3rd person rendering when using fishing rod by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/70
+>* Better way to prioritize item usage for different hands by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/71
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.10...1.6.11
+>
+
+## *1.6.10*
+>## What's Changed
+>* Fix some items not updating in offhand by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/67
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.9...1.6.10
+>
+
+## *1.6.9*
+>## What's Changed
+>* Extract offhand rendering to a hook class for Angelica by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/63
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.7...1.6.9
+>
+
+## *1.6.8-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.7...1.6.8-pre
+>
+
+## *1.6.7*
+>## What's Changed
+>* Refactor packets by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/59
+>* Fix some item uis not opening when something is in offhand by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/61
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.6...1.6.7
+>
+
+## *1.6.6*
+>## What's Changed
+>* Use gtnhlib config sync by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/51
+>* Fix TiC battle sign not working in offhand by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/55
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.5...1.6.6
+>
+
+## *1.6.5*
+>## What's Changed
+>* Offhand rendering fixes by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/50
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.4...1.6.5
+>
+
+## *1.6.4*
+>## What's Changed
+>* Less hacky offhand by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/46
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.16...1.6.4
+>
+
+## *1.6.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.2-pre...1.6.3-pre
+>
+
+## *1.6.2-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.1-pre...1.6.2-pre
+>
+
+## *1.6.1-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6-pre...1.6.1-pre
+>
+
+## *1.6-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.16...1.6-pre
+>
+
+## *1.5.16*
+>## What's Changed
+>* Various changes by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/45
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.14...1.5.16
+>
+
+## *1.5.15-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.14...1.5.15-pre
+>
+
+## *1.5.14*
+>## What's Changed
+>* Fix crash when interacting with some TileEntities by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/35
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.12...1.5.14
+>
+
+## *1.5.13-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.12...1.5.13-pre
+>
+
+## *1.5.12*
+>## What's Changed
+>* Update README.md by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/29
+>* Fix various issues by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/21
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.5...1.5.12
+>
+
+## *1.5.11-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.10-pre...1.5.11-pre
+>
+
+## *1.5.10-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.9-pre...1.5.10-pre
+>
+
+## *1.5.9-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.8-pre...1.5.9-pre
+>
+
+## *1.5.8-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.7-pre...1.5.8-pre
+>
+
+## *1.5.7-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.6-pre...1.5.7-pre
+>
+
+## *1.5.6-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.5...1.5.6-pre
+>
+
+## *1.5.5*
+>## What's Changed
+>* Fix efr firework interaction by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/13
+>* Convert ASM to mixin by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/14
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.2...1.5.5
+>
+
+## *1.5.4-pre*
+>## What's Changed
+>* Fix efr firework interaction by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/13
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.3-pre...1.5.4-pre
+>
+
+## *1.5.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.2...1.5.3-pre
+>
+
+## *1.5.2*
+>## What's Changed
+>* Fix a bunch of issues by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/10
+>
+>## New Contributors
+>* @Lyfts made their first contribution in https://github.com/GTNewHorizons/Backhand/pull/10
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.1...1.5.2
+>
+
+## *1.5.1*
+>## What's Changed
+>* Update gradle.properties by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/3
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.5.0...1.5.1
+>
+
+## *1.5.0*
+>## What's Changed
+>* Update from dev branch + gtnh buildscript + lots of spotless by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/1
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/Backhand/pull/1
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.4.0...1.5.0
+>
+
+# New Mod - Battlegear2-for-Backhand:1.5.1-backhand-pre
+## *1.5.1-backhand-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2-for-Backhand/compare/1.5.0-backhand...1.5.1-backhand-pre
+>
+
+## *1.5.0-backhand*
+>## What's Changed
+>* Center the mod around Backhand and remove BG2's own slots by @YannickMG in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/1
+>* Use an actual Backhand release by @YannickMG in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/2
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/1
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2-for-Backhand/commits/1.5.0-backhand
 >
 
 # Updated - Baubles-Expanded - 2.0.3 --> 2.1.8-GTNH
@@ -2064,7 +2317,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.32
+# Updated - BloodMagic - 1.6.11 --> 1.7.34-pre
+## *1.7.34-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.33-pre...1.7.34-pre
+>
+
+## *1.7.33-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.32...1.7.33-pre
+>
+
 ## *1.7.32*
 >## What's Changed
 >* Update Readme by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/88
@@ -3491,7 +3752,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.325-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.327-pre
+## *5.09.51.327-pre*
+>## What's Changed
+>* Allowed Electric Implosion Compressor to have Hatches on the top. by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4408
+>
+>## New Contributors
+>* @chrombread made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4408
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.325-pre...5.09.51.327-pre
+>
+
+## *5.09.51.326*
+>## What's Changed
+>* Allowed Electric Implosion Compressor to have Hatches on the top. by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4408
+>
+>## New Contributors
+>* @chrombread made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4408
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.324...5.09.51.326
+>
+
 ## *5.09.51.325-pre*
 >## What's Changed
 >* Spotless apply for branch Naquarite for #4281 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4400
@@ -7104,7 +7385,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.68-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.70-pre
+## *2.6.70-pre*
+>## What's Changed
+>* Disable Embed IDs by default by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/549
+>* Check the cast in case the config isn't enabled by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/550
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.68-pre...2.6.70-pre
+>
+
+## *2.6.69*
+>## What's Changed
+>* Disable Embed IDs by default by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/549
+>* Check the cast in case the config isn't enabled by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/550
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.66...2.6.69
+>
+
 ## *2.6.68-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.67-pre...2.6.68-pre
 >
@@ -10271,7 +10570,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.88...2.7.0
 >
 
-# Updated - NotEnoughEnergistics - 1.7.0 --> 1.7.1-pre
+# Updated - NotEnoughEnergistics - 1.7.0 --> 1.7.2-pre
+## *1.7.2-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.1-pre...1.7.2-pre
+>
+
 ## *1.7.1-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.0...1.7.1-pre
 >
@@ -10653,7 +10956,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.51-GTNH...2.7.0-GTNH
 >
 
-# Updated - Nuclear-Control - 2.6.7 --> 2.6.12
+# Updated - Nuclear-Control - 2.6.7 --> 2.6.13-pre
+## *2.6.13-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.12...2.6.13-pre
+>
+
 ## *2.6.12*
 >## What's Changed
 >* Add Factorio rocket silo alarm sound by @2ndDerivative in https://github.com/GTNewHorizons/Nuclear-Control/pull/26
@@ -11826,7 +12133,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.7.7...1.8.0
 >
 
-# Updated - ThaumicBoots - 1.3.10 --> 1.4.7
+# Updated - ThaumicBoots - 1.3.10 --> 1.4.8-pre
+## *1.4.8-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.7...1.4.8-pre
+>
+
 ## *1.4.7*
 >## What's Changed
 >* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/ThaumicBoots/pull/38
