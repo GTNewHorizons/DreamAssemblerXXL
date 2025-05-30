@@ -1,7 +1,7 @@
 {
   "version": "nightly",
-  "last_version": "2.7.4",
-  "last_updated": "2025-05-30T19:02:42.267516",
+  "last_version": "previous_nightly",
+  "last_updated": "2025-05-30T20:00:11.266496",
   "config": "2.8.0-nightly-2025-05-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-624-GTNH-pre",
+      "version": "rv3-beta-625-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.64-pre",
+      "version": "1.65-pre",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.32",
+      "version": "1.7.34-pre",
       "side": "BOTH"
     },
     "Botania": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.325-pre",
+      "version": "5.09.51.327-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.68-pre",
+      "version": "2.6.70-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.1-pre",
+      "version": "1.7.2-pre",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.6.12",
+      "version": "2.6.13-pre",
       "side": "BOTH"
     },
     "oauth": {
@@ -717,7 +717,7 @@
       "side": "CLIENT"
     },
     "ThaumicBoots": {
-      "version": "1.4.7",
+      "version": "1.4.8-pre",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
