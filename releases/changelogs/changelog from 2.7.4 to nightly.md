@@ -19,7 +19,23 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.79-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.81-gtnh-pre
+## *1.4.81-gtnh-pre*
+>## What's Changed
+>* Add magnet and restock to Universal terminal by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/275
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.79-gtnh-pre...1.4.81-gtnh-pre
+>
+
+## *1.4.80-gtnh*
+>## What's Changed
+>* Add magnet and restock to Universal terminal by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/275
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.76-gtnh...1.4.80-gtnh
+>
+
 ## *1.4.79-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.78-gtnh-pre...1.4.79-gtnh-pre
 >
@@ -836,7 +852,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-625-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-627-GTNH-pre
+## *rv3-beta-627-GTNH-pre*
+>## What's Changed
+>* Update NEI Bookmark API by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/764
+>* Some QOL imporve for cpu table's tooltips by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/763
+>* Add check integrated circuit by @evgengoldwar in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/748
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-625-GTNH-pre...rv3-beta-627-GTNH-pre
+>
+
+## *rv3-beta-626-GTNH*
+>## What's Changed
+>* Update NEI Bookmark API by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/764
+>* Some QOL imporve for cpu table's tooltips by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/763
+>* Add check integrated circuit by @evgengoldwar in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/748
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-619-GTNH...rv3-beta-626-GTNH
+>
+
 ## *rv3-beta-625-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-624-GTNH-pre...rv3-beta-625-GTNH-pre
 >
@@ -1976,7 +2012,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.4.0...1.5.0
 >
 
-# New Mod - Battlegear2-for-Backhand:1.5.1-backhand-pre
+# New Mod - Battlegear2-for-Backhand:1.5.2-backhand-pre
+## *1.5.2-backhand-pre*
+>## What's Changed
+>* Center the mod around Backhand and remove BG2's own slots by @YannickMG in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/1
+>* Use an actual Backhand release by @YannickMG in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/2
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/1
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2-for-Backhand/commits/1.5.2-backhand-pre
+>
+
 ## *1.5.1-backhand-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2-for-Backhand/compare/1.5.0-backhand...1.5.1-backhand-pre
 >
@@ -2295,7 +2342,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.16...1.2.17-pre
 >
 
-# Updated - BloodArsenal - 1.3.6 --> 1.4.3
+# Updated - BloodArsenal - 1.3.6 --> 1.4.4
+## *1.4.4*
+>## What's Changed
+>* Fix FluidEvent usage by @zyf051520 in https://github.com/GTNewHorizons/BloodArsenal/pull/30
+>
+>## New Contributors
+>* @zyf051520 made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/30
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.4.3...1.4.4
+>
+
 ## *1.4.3*
 >## What's Changed
 >* Guard against divide by 0 by @Ruling-0 in https://github.com/GTNewHorizons/BloodArsenal/pull/29
@@ -2326,7 +2383,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.34-pre
+# Updated - BloodMagic - 1.6.11 --> 1.7.35
+## *1.7.35*
+>## What's Changed
+>* Lang Cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/90
+>* Registry Ordering by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/91
+>* Texture Improvements by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/92
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.32...1.7.35
+>
+
 ## *1.7.34-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.33-pre...1.7.34-pre
 >
@@ -3761,7 +3828,31 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.327-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.329-pre
+## *5.09.51.329-pre*
+>## What's Changed
+>* More consistent Batch Mode Activation with WireCutter by @Xeno-Ra in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4411
+>* ME Hatch capacity syncing for MM by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4414
+>* Add LFE-controllerFaces by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4412
+>
+>## New Contributors
+>* @Xeno-Ra made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4411
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.327-pre...5.09.51.329-pre
+>
+
+## *5.09.51.328*
+>## What's Changed
+>* More consistent Batch Mode Activation with WireCutter by @Xeno-Ra in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4411
+>* ME Hatch capacity syncing for MM by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4414
+>* Add LFE-controllerFaces by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4412
+>
+>## New Contributors
+>* @Xeno-Ra made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4411
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.326...5.09.51.328
+>
+
 ## *5.09.51.327-pre*
 >## What's Changed
 >* Allowed Electric Implosion Compressor to have Hatches on the top. by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4408
@@ -7394,7 +7485,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.70-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.71-pre
+## *2.6.71-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.69...2.6.71-pre
+>
+
 ## *2.6.70-pre*
 >## What's Changed
 >* Disable Embed IDs by default by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/549
@@ -8924,7 +9019,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.11.0...0.12.0
 >
 
-# New Mod - ModernMarkings:0.3.1-1.7.10
+# New Mod - ModernMarkings:0.3.2-1.7.10
+## *0.3.2-1.7.10*
+>## What's Changed
+>* Move markings out more by @jurrejelle in https://github.com/GTNewHorizons/ModernMarkings/pull/8
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/0.3.1-1.7.10...0.3.2-1.7.10
+>
+
 ## *0.3.1-1.7.10*
 >## What's Changed
 >* Update README.md by @Caedis in https://github.com/GTNewHorizons/ModernMarkings/pull/1
@@ -9211,7 +9314,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.199-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.201-pre
+## *2.7.201-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.200...2.7.201-pre
+>
+
+## *2.7.200*
+>## What's Changed
+>* Achievement Fixes by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1281
+>* Add SC2 Electric Engine Recipes by @hpotter02 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1279
+>* Nerf amount of calcite obtained from geodes by @WanderingHero in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1280
+>* Add recipes for new blocks by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1268
+>* Add a way to obtain BOP natura, mixing magic and machines by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1270
+>* Yipiii... another batch of recipes by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1228
+>* Add craft and researchs for Shulkers, Elytra and Netherite gear by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1221
+>* Qol recipes and decorative stuff by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1227
+>
+>## New Contributors
+>* @hpotter02 made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1279
+>* @WanderingHero made their first contribution in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1280
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.196...2.7.200
+>
+
 ## *2.7.199-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.198-pre...2.7.199-pre
 >
@@ -11709,7 +11834,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.40 --> 2.1.52
+# Updated - ServerUtilities - 2.1.40 --> 2.1.53-pre
+## *2.1.53-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.52...2.1.53-pre
+>
+
 ## *2.1.52*
 >## What's Changed
 >* Seek block command by @Connor-Colenso in https://github.com/GTNewHorizons/ServerUtilities/pull/198
@@ -12444,7 +12573,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.3.1...1.3.2
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.30-GTNH-pre
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.31-GTNH
+## *1.13.31-GTNH*
+>## What's Changed
+>* Battlegear 2 for Backhand compat by @YannickMG in https://github.com/GTNewHorizons/TinkersConstruct/pull/178
+>* Casting Table/Basin Facing Directions by @koolkrafter5 in https://github.com/GTNewHorizons/TinkersConstruct/pull/177
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.28-GTNH...1.13.31-GTNH
+>
+
 ## *1.13.30-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.28-GTNH...1.13.30-GTNH-pre
 >
