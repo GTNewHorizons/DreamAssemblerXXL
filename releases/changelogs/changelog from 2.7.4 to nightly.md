@@ -644,7 +644,16 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AlchemyGrate/compare/1.2.1-GTNH...1.3.0-GTNH
 >
 
-# Updated - Amazing-Trophies - 1.3.0 --> 1.3.2
+# Updated - Amazing-Trophies - 1.3.0 --> 1.3.3
+## *1.3.3*
+>## What's Changed
+>* Add Wiki Sync by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/12
+>* Add `/trophy` command by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/13
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.2...1.3.3
+>
+
 ## *1.3.2*
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.1...1.3.2
 >
