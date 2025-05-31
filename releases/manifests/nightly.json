@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-05-31T03:52:30.195206",
-  "config": "2.8.0-nightly-2025-05-29",
+  "last_updated": "2025-05-31T13:37:46.253497",
+  "config": "2.8.0-nightly-2025-05-31",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.79-gtnh-pre",
+      "version": "1.4.81-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-625-GTNH-pre",
+      "version": "rv3-beta-627-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -81,11 +81,11 @@
       "side": "BOTH"
     },
     "BloodArsenal": {
-      "version": "1.4.3",
+      "version": "1.4.4",
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.34-pre",
+      "version": "1.7.35",
       "side": "BOTH"
     },
     "Botania": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.327-pre",
+      "version": "5.09.51.329-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.70-pre",
+      "version": "2.6.71-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.199-pre",
+      "version": "2.7.201-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.30-GTNH-pre",
+      "version": "1.13.31-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.52",
+      "version": "2.1.53-pre",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -789,11 +789,11 @@
       "side": "BOTH"
     },
     "ModernMarkings": {
-      "version": "0.3.1-1.7.10",
+      "version": "0.3.2-1.7.10",
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
-      "version": "1.5.1-backhand-pre",
+      "version": "1.5.2-backhand-pre",
       "side": "BOTH"
     },
     "Backhand": {
