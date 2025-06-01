@@ -682,8 +682,18 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.0...1.3.1
 >
 
-# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta44
+# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta45
 Mod is client-side only.
+## *1.0.0-beta45*
+>## What's Changed
+>* Battlegear 2 for Backhand compat by @YannickMG in https://github.com/GTNewHorizons/Angelica/pull/962
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/Angelica/pull/962
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta44...1.0.0-beta45
+>
+
 ## *1.0.0-beta44*
 >## What's Changed
 >* Don't throw exception when trying to forward block+meta to shader while in non-world rendering pass (inventory, preview) by @dvdmandt in https://github.com/GTNewHorizons/Angelica/pull/960
@@ -8858,7 +8868,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.9.1-GTNH...2.9.2-GTNH
 >
 
-# New Mod - MatterManipulator:0.0.29-GTNH
+# New Mod - MatterManipulator:0.0.30-GTNH
+## *0.0.30-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.29-GTNH...0.0.30-GTNH
+>
+
 ## *0.0.29-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.28-GTNH...0.0.29-GTNH
 >
@@ -11834,7 +11848,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.3-GTNH-pre
 >
 
-# Updated - ServerUtilities - 2.1.40 --> 2.1.53-pre
+# Updated - ServerUtilities - 2.1.40 --> 2.1.54
+## *2.1.54*
+>## What's Changed
+>* Battlegear 2 for Backhand compat by @YannickMG in https://github.com/GTNewHorizons/ServerUtilities/pull/217
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/217
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.52...2.1.54
+>
+
 ## *2.1.53-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.52...2.1.53-pre
 >
