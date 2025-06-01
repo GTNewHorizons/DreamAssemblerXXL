@@ -19,7 +19,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.81-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.82-gtnh-pre
+## *1.4.82-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.81-gtnh-pre...1.4.82-gtnh-pre
+>
+
 ## *1.4.81-gtnh-pre*
 >## What's Changed
 >* Add magnet and restock to Universal terminal by @lordIcocain in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/275
@@ -660,7 +664,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AlchemyGrate/compare/1.2.1-GTNH...1.3.0-GTNH
 >
 
-# Updated - Amazing-Trophies - 1.3.0 --> 1.3.3
+# Updated - Amazing-Trophies - 1.3.0 --> 1.3.4-pre
+## *1.3.4-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.3...1.3.4-pre
+>
+
 ## *1.3.3*
 >## What's Changed
 >* Add Wiki Sync by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/12
@@ -862,7 +870,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-627-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-628-GTNH-pre
+## *rv3-beta-628-GTNH-pre*
+>## What's Changed
+>* Native fluid first step by @Dream-Master in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/765
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-627-GTNH-pre...rv3-beta-628-GTNH-pre
+>
+
 ## *rv3-beta-627-GTNH-pre*
 >## What's Changed
 >* Update NEI Bookmark API by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/764
@@ -1742,7 +1758,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.10.2...1.10.3
 >
 
-# Updated - Avaritia - 1.59 --> 1.65-pre
+# Updated - Avaritia - 1.59 --> 1.66
+## *1.66*
+>## What's Changed
+>* Tag Orb of Armok as creative. by @AbdielKavash in https://github.com/GTNewHorizons/Avaritia/pull/53
+>
+>## New Contributors
+>* @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/Avaritia/pull/53
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.63...1.66
+>
+
 ## *1.65-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.63...1.65-pre
 >
@@ -2022,7 +2048,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.4.0...1.5.0
 >
 
-# New Mod - Battlegear2-for-Backhand:1.5.2-backhand-pre
+# New Mod - Battlegear2-for-Backhand:1.5.3-backhand
+## *1.5.3-backhand*
+>## What's Changed
+>* Remove dynamic-lights compat, BG2 doesn't control it's slots anymore by @YannickMG in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/3
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2-for-Backhand/compare/1.5.0-backhand...1.5.3-backhand
+>
+
 ## *1.5.2-backhand-pre*
 >## What's Changed
 >* Center the mod around Backhand and remove BG2's own slots by @YannickMG in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/1
@@ -2393,7 +2427,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.35
+# Updated - BloodMagic - 1.6.11 --> 1.7.37-pre
+## *1.7.37-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.36...1.7.37-pre
+>
+
+## *1.7.36*
+>## What's Changed
+>* Show capacity of Blood Orbs in the tooltip. by @AbdielKavash in https://github.com/GTNewHorizons/BloodMagic/pull/95
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.35...1.7.36
+>
+
 ## *1.7.35*
 >## What's Changed
 >* Lang Cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/90
@@ -3838,7 +3884,37 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.329-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.331-pre
+## *5.09.51.331-pre*
+>## What's Changed
+>* Spotless apply for branch Naquarite for #4281 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4400
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.330...5.09.51.331-pre
+>
+
+## *5.09.51.330*
+>## What's Changed
+>* Fix bwMetaGeneratedItem0 shifting mod id by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4420
+>* Fix Infuser not Charging with All Available Amps by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4409
+>* [MUI2] Microwave Energy Transmitter by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4376
+>* Add a steam pressure gauge to single and multiblocks by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4292
+>* Removal of ItemUtils by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4402
+>* Minor strings fix by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4426
+>* Fix some fluids having the wrong tooltips by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4388
+>* fix crash on invalid pattern replace by @lordIcocain in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4423
+>* Fix electric prospector crash by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4382
+>* Fix GT++ pipes not having solidifier recipes by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4394
+>* Fix XL turbines blocking fluid input after switching fitting mode by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4393
+>* Fix TT multi hatch adders not setting interface terminal name by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4392
+>* Fix godforge item consumption issue by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4429
+>* Fix tool container item issues by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4383
+>* Add more info to scanner for Tesla Tower by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4391
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.328...5.09.51.330
+>
+
 ## *5.09.51.329-pre*
 >## What's Changed
 >* More consistent Batch Mode Activation with WireCutter by @Xeno-Ra in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4411
@@ -6965,7 +7041,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.1...1.4.2-pre
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.25
+# Updated - GTNHLib - 0.5.23 --> 0.6.26
+## *0.6.26*
+>## What's Changed
+>* add close() to ShaderProgram to free resources by @MeiTianyou in https://github.com/GTNewHorizons/GTNHLib/pull/140
+>
+>## New Contributors
+>* @MeiTianyou made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/140
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.25...0.6.26
+>
+
 ## *0.6.25*
 >## What's Changed
 >* Update SpatialHashGrid findNearby by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/138
@@ -7495,7 +7581,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.71-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.73-pre
+## *2.6.73-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.72...2.6.73-pre
+>
+
+## *2.6.72*
+>## What's Changed
+>* Witch Potion Metadata by @koolkrafter5 in https://github.com/GTNewHorizons/Hodgepodge/pull/548
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.69...2.6.72
+>
+
 ## *2.6.71-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.69...2.6.71-pre
 >
@@ -9328,7 +9426,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.201-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.203-pre
+## *2.7.203-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.202...2.7.203-pre
+>
+
+## *2.7.202*
+>## What's Changed
+>* Fix forbidden ismodloaded/getmoditem checks by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1282
+>* remove error stack by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1283
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.200...2.7.202
+>
+
 ## *2.7.201-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.200...2.7.201-pre
 >
@@ -11104,7 +11215,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.51-GTNH...2.7.0-GTNH
 >
 
-# Updated - Nuclear-Control - 2.6.7 --> 2.6.13-pre
+# Updated - Nuclear-Control - 2.6.7 --> 2.6.14-pre
+## *2.6.14-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.13-pre...2.6.14-pre
+>
+
 ## *2.6.13-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.12...2.6.13-pre
 >
