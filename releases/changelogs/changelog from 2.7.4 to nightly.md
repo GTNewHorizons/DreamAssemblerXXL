@@ -9131,7 +9131,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.11.0...0.12.0
 >
 
-# New Mod - ModernMarkings:0.3.2-1.7.10
+# New Mod - ModernMarkings:0.3.3-1.7.10
+## *0.3.3-1.7.10*
+>## What's Changed
+>* Alphabet by @jurrejelle in https://github.com/GTNewHorizons/ModernMarkings/pull/10
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/0.3.2-1.7.10...0.3.3-1.7.10
+>
+
 ## *0.3.2-1.7.10*
 >## What's Changed
 >* Move markings out more by @jurrejelle in https://github.com/GTNewHorizons/ModernMarkings/pull/8
@@ -10861,7 +10869,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.49-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.50-GTNH
+## *2.7.50-GTNH*
+>## What's Changed
+>* Fix Incorrect `handleDragNDrop` Implementation by @abel1502 in https://github.com/GTNewHorizons/NotEnoughItems/pull/639
+>
+>## New Contributors
+>* @abel1502 made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/639
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.49-GTNH...2.7.50-GTNH
+>
+
 ## *2.7.49-GTNH*
 >## What's Changed
 >* Update JarJar detection so it works when jarjar is loaded but rfb is not setup properly. by @mitchej123 in https://github.com/GTNewHorizons/NotEnoughItems/pull/636
