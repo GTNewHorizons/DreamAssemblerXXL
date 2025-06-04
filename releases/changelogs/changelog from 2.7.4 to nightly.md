@@ -19,7 +19,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.82-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.83-gtnh-pre
+## *1.4.83-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.82-gtnh-pre...1.4.83-gtnh-pre
+>
+
 ## *1.4.82-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.81-gtnh-pre...1.4.82-gtnh-pre
 >
@@ -870,7 +874,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-629-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-630-GTNH-pre
+## *rv3-beta-630-GTNH-pre*
+>## What's Changed
+>* Reduce lag from substitute check by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/767
+>* Cells tooltip displays the number of filters used by @NeOzay in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/762
+>* Fix Interface Terminal search function. by @AbdielKavash in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/768
+>* Make ME Interface and P2P Tunnel - ME Interface support fuzzy card by @Inphysible in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/755
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-627-GTNH-pre...rv3-beta-630-GTNH-pre
+>
+
 ## *rv3-beta-629-GTNH*
 >## What's Changed
 >* Reduce lag from substitute check by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/767
@@ -1832,7 +1847,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.59...1.60-pre
 >
 
-# New Mod - Backhand:1.6.16
+# New Mod - Backhand:1.6.17
+## *1.6.17*
+>## What's Changed
+>* A bunch of (missing) GL state fixes by @kotmatross28729 in https://github.com/GTNewHorizons/Backhand/pull/95
+>
+>## New Contributors
+>* @kotmatross28729 made their first contribution in https://github.com/GTNewHorizons/Backhand/pull/95
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.16...1.6.17
+>
+
 ## *1.6.16*
 >## What's Changed
 >* BG2 compat by @YannickMG in https://github.com/GTNewHorizons/Backhand/pull/93
@@ -2841,6 +2866,17 @@ Mod is client-side only.
 
 ## *1.1.8-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.1.7-GTNH...1.1.8-GTNH-pre
+>
+
+# Updated - BuildCraft - 7.1.42 --> 7.1.43
+## *7.1.43*
+>## What's Changed
+>* Fix WorldServer leak by @Alexdoru in https://github.com/GTNewHorizons/BuildCraft/pull/22
+>
+>## New Contributors
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/BuildCraft/pull/22
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.42...7.1.43
 >
 
 # Updated - CarpentersBlocks - 3.6.4-GTNH --> 3.7.0-GTNH
@@ -3976,7 +4012,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.333-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.335-pre
+## *5.09.51.335-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.334-pre...5.09.51.335-pre
+>
+
+## *5.09.51.334-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.333-pre...5.09.51.334-pre
+>
+
 ## *5.09.51.333-pre*
 >## What's Changed
 >* Spotless apply for branch Naquarite for #4281 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4400
@@ -9599,7 +9643,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.205-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.206-pre
+## *2.7.206-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.205-pre...2.7.206-pre
+>
+
 ## *2.7.205-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.204...2.7.205-pre
 >
@@ -11424,7 +11472,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.51-GTNH...2.7.0-GTNH
 >
 
-# Updated - Nuclear-Control - 2.6.7 --> 2.6.14-pre
+# Updated - Nuclear-Control - 2.6.7 --> 2.6.15-pre
+## *2.6.15-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.14-pre...2.6.15-pre
+>
+
 ## *2.6.14-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.13-pre...2.6.14-pre
 >
@@ -13435,7 +13487,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Yamcl/compare/0.6.0...0.7.0
 >
 
-# Updated - ae2stuff - 0.8.6-GTNH --> 0.9.5-GTNH
+# Updated - ae2stuff - 0.8.6-GTNH --> 0.9.6-GTNH
+## *0.9.6-GTNH*
+>## What's Changed
+>* Fix wording for Wireless Kit by @Yoshy2002 in https://github.com/GTNewHorizons/ae2stuff/pull/29
+>
+>## New Contributors
+>* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/ae2stuff/pull/29
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ae2stuff/compare/0.9.5-GTNH...0.9.6-GTNH
+>
+
 ## *0.9.5-GTNH*
 >## What's Changed
 >* sneak sprint inverse fix :: tested (Y) by @PantACRO4life in https://github.com/GTNewHorizons/ae2stuff/pull/28
