@@ -9643,7 +9643,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.206-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.208-pre
+## *2.7.208-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.207-pre...2.7.208-pre
+>
+
+## *2.7.207-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.206-pre...2.7.207-pre
+>
+
 ## *2.7.206-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.205-pre...2.7.206-pre
 >
