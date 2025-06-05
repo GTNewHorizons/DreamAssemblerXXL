@@ -1,15 +1,15 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-06-05T04:00:27.525291",
-  "config": "2.8.0-nightly-2025-06-04",
+  "last_updated": "2025-06-05T20:30:01.726453",
+  "config": "2.8.0-nightly-2025-06-05",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.83-gtnh-pre",
+      "version": "1.4.84-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-630-GTNH-pre",
+      "version": "rv3-beta-631-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -205,7 +205,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.6.4",
+      "version": "1.6.5-pre",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.335-pre",
+      "version": "5.09.51.337-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.27",
+      "version": "0.6.29",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.73-pre",
+      "version": "2.6.74",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
-      "version": "2.6.2",
+      "version": "2.6.3",
       "side": "BOTH"
     },
     "Infernal-Mobs": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.31-GTNH",
+      "version": "1.13.32-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
