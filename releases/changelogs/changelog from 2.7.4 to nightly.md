@@ -19,7 +19,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.83-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.84-gtnh-pre
+## *1.4.84-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.83-gtnh-pre...1.4.84-gtnh-pre
+>
+
 ## *1.4.83-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.82-gtnh-pre...1.4.83-gtnh-pre
 >
@@ -874,7 +878,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-630-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-631-GTNH-pre
+## *rv3-beta-631-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-630-GTNH-pre...rv3-beta-631-GTNH-pre
+>
+
 ## *rv3-beta-630-GTNH-pre*
 >## What's Changed
 >* Reduce lag from substitute check by @lordIcocain in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/767
@@ -3945,7 +3953,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - ForgeMultipart - 1.6.2 --> 1.6.4
+# Updated - ForgeMultipart - 1.6.2 --> 1.6.5-pre
+## *1.6.5-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.6.4...1.6.5-pre
+>
+
 ## *1.6.4*
 >## What's Changed
 >* Fix WorldClient leak by @Alexdoru in https://github.com/GTNewHorizons/ForgeMultipart/pull/28
@@ -4012,7 +4024,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.335-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.337-pre
+## *5.09.51.337-pre*
+>## What's Changed
+>* Added back the Energy Hatch ctor with inventory size by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4446
+>* LHE Fixes by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4450
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.335-pre...5.09.51.337-pre
+>
+
+## *5.09.51.336*
+>## What's Changed
+>* Added back the Energy Hatch ctor with inventory size by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4446
+>* LHE Fixes by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4450
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.332...5.09.51.336
+>
+
 ## *5.09.51.335-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.334-pre...5.09.51.335-pre
 >
@@ -7214,7 +7244,35 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.1...1.4.2-pre
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.27
+# Updated - GTNHLib - 0.5.23 --> 0.6.30
+## *0.6.30*
+>## What's Changed
+>* Add contains method to SpatialHashGrid by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/145
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.29...0.6.30
+>
+
+## *0.6.29*
+>## What's Changed
+>* Add Z axis rotation to Variant & fix swapped XY axes by @Anonymagpie in https://github.com/GTNewHorizons/GTNHLib/pull/141
+>
+>## New Contributors
+>* @Anonymagpie made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/141
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.28...0.6.29
+>
+
+## *0.6.28*
+>## What's Changed
+>* Rework spatial hash grid by @kurrycat2004 in https://github.com/GTNewHorizons/GTNHLib/pull/143
+>
+>## New Contributors
+>* @kurrycat2004 made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/143
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.27...0.6.28
+>
+
 ## *0.6.27*
 >## What's Changed
 >* Iterator impl + findFirst + findClosest by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/139
@@ -7762,7 +7820,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.73-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.74
+## *2.6.74*
+>## What's Changed
+>* Fix Crash Loop with EU Ender Collector by @Yoshy2002 in https://github.com/GTNewHorizons/Hodgepodge/pull/546
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.72...2.6.74
+>
+
 ## *2.6.73-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.72...2.6.73-pre
 >
@@ -8385,7 +8451,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.3...1.4.4
 >
 
-# Updated - IguanaTweaksTConstruct - 2.6.0 --> 2.6.2
+# Updated - IguanaTweaksTConstruct - 2.6.0 --> 2.6.3
+## *2.6.3*
+>## What's Changed
+>* Move clay quartz bucket resources from ticon by @koolkrafter5 in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/20
+>
+>## New Contributors
+>* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/20
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.6.2...2.6.3
+>
+
 ## *2.6.2*
 >## What's Changed
 >* New clay buckets by @YannickMG in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/19
@@ -12993,7 +13069,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.3.1...1.3.2
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.31-GTNH
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.32-GTNH
+## *1.13.32-GTNH*
+>## What's Changed
+>* Move clay quartz bucket resources to iguana tweaks by @koolkrafter5 in https://github.com/GTNewHorizons/TinkersConstruct/pull/180
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.31-GTNH...1.13.32-GTNH
+>
+
 ## *1.13.31-GTNH*
 >## What's Changed
 >* Battlegear 2 for Backhand compat by @YannickMG in https://github.com/GTNewHorizons/TinkersConstruct/pull/178
