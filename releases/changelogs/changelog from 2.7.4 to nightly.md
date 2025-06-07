@@ -3846,7 +3846,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.7.1-GTNH...0.8.0-GTNH
 >
 
-# Updated - ForestryMC - 4.9.22 --> 4.10.11
+# Updated - ForestryMC - 4.9.22 --> 4.10.12-pre
+## *4.10.12-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.11...4.10.12-pre
+>
+
 ## *4.10.11*
 >## What's Changed
 >* Protect some calls that lead to loadChunk with blockExists by @Georggi in https://github.com/GTNewHorizons/ForestryMC/pull/91
@@ -4024,7 +4028,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.337-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.338-pre
+## *5.09.51.338-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.337-pre...5.09.51.338-pre
+>
+
 ## *5.09.51.337-pre*
 >## What's Changed
 >* Added back the Energy Hatch ctor with inventory size by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4446
@@ -7820,7 +7828,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.74
+# Updated - Hodgepodge - 2.5.90 --> 2.6.75
+## *2.6.75*
+>## What's Changed
+>* add @Unique annotation on mixin added fields of MixinSpawnerAnimals_optimizeSpawning by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/555
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.74...2.6.75
+>
+
 ## *2.6.74*
 >## What's Changed
 >* Fix Crash Loop with EU Ender Collector by @Yoshy2002 in https://github.com/GTNewHorizons/Hodgepodge/pull/546
@@ -12127,7 +12143,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.15...9.16.0
 >
 
-# Updated - Random-Things - 2.6.0 --> 2.6.1
+# Updated - Random-Things - 2.6.0 --> 2.6.2
+## *2.6.2*
+>## What's Changed
+>* Fix bloodmoon code running in peaceful by @Alexdoru in https://github.com/GTNewHorizons/Random-Things/pull/9
+>
+>## New Contributors
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Random-Things/pull/9
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.6.1...2.6.2
+>
+
 ## *2.6.1*
 >## What's Changed
 >* Patch Misc Issue by @Connor-Colenso in https://github.com/GTNewHorizons/Random-Things/pull/8
@@ -12184,7 +12210,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Roguelike-Dungeons/compare/1.6.0-GTNH...1.6.1-GTNH-pre
 >
 
-# Updated - SC2 - 2.3.0 --> 2.3.5-pre
+# Updated - SC2 - 2.3.0 --> 2.3.8
+## *2.3.8*
+>## What's Changed
+>* Added Support for IC2 Crops by @hpotter02 in https://github.com/GTNewHorizons/SC2/pull/10
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.6...2.3.8
+>
+
+## *2.3.7-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.6...2.3.7-pre
+>
+
+## *2.3.6*
+>## What's Changed
+>* Don't crash when Railcraft isn't loaded by @YannickMG in https://github.com/GTNewHorizons/SC2/pull/11
+>
+>## New Contributors
+>* @YannickMG made their first contribution in https://github.com/GTNewHorizons/SC2/pull/11
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.3...2.3.6
+>
+
 ## *2.3.5-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.4-pre...2.3.5-pre
 >
