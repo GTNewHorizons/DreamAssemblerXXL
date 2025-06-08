@@ -12014,6 +12014,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.3.6...2.4.0
 >
 
+# Updated - Opis - 1.4.5-mapless --> 1.4.6-mapless
+## *1.4.6-mapless*
+>**Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.4.5-mapless...1.4.6-mapless
+>
+
 # Updated - PersonalSpace - 1.0.32 --> 1.0.33
 ## *1.0.33*
 >## What's Changed
@@ -13984,7 +13989,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.1.1...6.1.2
 >
 
-# Updated - lwjgl3ify - 2.1.9 --> 2.1.13
+# Updated - lwjgl3ify - 2.1.9 --> 2.1.14
+## *2.1.14*
+>**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.13...2.1.14
+>
+
 ## *2.1.13*
 >## What's Changed
 >* Fix unicode by @QuanhuZeYu in https://github.com/GTNewHorizons/lwjgl3ify/pull/222
