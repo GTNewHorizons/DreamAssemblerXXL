@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-06-08T11:58:25.273241",
+  "last_updated": "2025-06-08T12:19:59.719334",
   "config": "2.8.0-nightly-2025-06-08",
   "github_mods": {
     "AdventureBackpack2": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.1.13",
+      "version": "2.1.14",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
