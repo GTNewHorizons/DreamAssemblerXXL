@@ -19,7 +19,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.84-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.85-gtnh-pre
+## *1.4.85-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.84-gtnh-pre...1.4.85-gtnh-pre
+>
+
 ## *1.4.84-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.83-gtnh-pre...1.4.84-gtnh-pre
 >
@@ -672,7 +676,20 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AlchemyGrate/compare/1.2.1-GTNH...1.3.0-GTNH
 >
 
-# Updated - Amazing-Trophies - 1.3.0 --> 1.3.4-pre
+# Updated - Amazing-Trophies - 1.3.0 --> 1.3.6-pre
+## *1.3.6-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.5...1.3.6-pre
+>
+
+## *1.3.5*
+>## What's Changed
+>* [Wiki] Fix Image URLs by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/15
+>* Reduce (Un)Boxing by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/16
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.3...1.3.5
+>
+
 ## *1.3.4-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.3...1.3.4-pre
 >
@@ -878,7 +895,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-631-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-633-GTNH-pre
+## *rv3-beta-633-GTNH-pre*
+>## What's Changed
+>* Add missing equals sign to lang file by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/772
+>
+>## New Contributors
+>* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/772
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-631-GTNH-pre...rv3-beta-633-GTNH-pre
+>
+
+## *rv3-beta-632-GTNH*
+>## What's Changed
+>* Add missing equals sign to lang file by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/772
+>
+>## New Contributors
+>* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/772
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-629-GTNH...rv3-beta-632-GTNH
+>
+
 ## *rv3-beta-631-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-630-GTNH-pre...rv3-beta-631-GTNH-pre
 >
@@ -2102,7 +2139,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.4.0...1.5.0
 >
 
-# New Mod - Battlegear2-for-Backhand:1.5.4-backhand
+# New Mod - Battlegear2-for-Backhand:1.5.5-backhand
+## *1.5.5-backhand*
+>## What's Changed
+>* Add missing equals sign by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/6
+>
+>## New Contributors
+>* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/6
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2-for-Backhand/compare/1.5.4-backhand...1.5.5-backhand
+>
+
 ## *1.5.4-backhand*
 >## What's Changed
 >* Remove now unused keybinds by @YannickMG in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/4
@@ -2451,7 +2498,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.2.16...1.2.17-pre
 >
 
-# Updated - BloodArsenal - 1.3.6 --> 1.4.5
+# Updated - BloodArsenal - 1.3.6 --> 1.4.6
+## *1.4.6*
+>## What's Changed
+>* Fix corrupted line in lang file. by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/BloodArsenal/pull/32
+>
+>## New Contributors
+>* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/BloodArsenal/pull/32
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.4.5...1.4.6
+>
+
 ## *1.4.5*
 >## What's Changed
 >* Transparent Orb Tooltip by @koolkrafter5 in https://github.com/GTNewHorizons/BloodArsenal/pull/31
@@ -2769,7 +2826,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.6.9...1.7.0
 >
 
-# Updated - Botania - 1.11.7-GTNH --> 1.12.11-GTNH-pre
+# Updated - Botania - 1.11.7-GTNH --> 1.12.13-GTNH-pre
+## *1.12.13-GTNH-pre*
+>## What's Changed
+>* Add missing equals sign by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Botania/pull/83
+>* Fix the rest of the lang file mistakes in Botania by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Botania/pull/84
+>
+>## New Contributors
+>* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/Botania/pull/83
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.11-GTNH-pre...1.12.13-GTNH-pre
+>
+
+## *1.12.12-GTNH*
+>## What's Changed
+>* Add missing equals sign by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Botania/pull/83
+>* Fix the rest of the lang file mistakes in Botania by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Botania/pull/84
+>
+>## New Contributors
+>* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/Botania/pull/83
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.10-GTNH...1.12.12-GTNH
+>
+
 ## *1.12.11-GTNH-pre*
 >## What's Changed
 >* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/Botania/pull/81
@@ -3498,7 +3577,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.4.6...0.4.7-pre
 >
 
-# Updated - EnderIO - 2.8.24 --> 2.9.16
+# Updated - EnderIO - 2.8.24 --> 2.9.17-pre
+## *2.9.17-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.16...2.9.17-pre
+>
+
 ## *2.9.16*
 >## What's Changed
 >* Remove deprecated CapacitorBank by @dibbydoda in https://github.com/GTNewHorizons/EnderIO/pull/197
@@ -3957,7 +4040,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - ForgeMultipart - 1.6.2 --> 1.6.5-pre
+# Updated - ForgeMultipart - 1.6.2 --> 1.6.6
+## *1.6.6*
+>## What's Changed
+>* Fix crash introduced by memory leak fix by @Alexdoru in https://github.com/GTNewHorizons/ForgeMultipart/pull/29
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.6.4...1.6.6
+>
+
 ## *1.6.5-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.6.4...1.6.5-pre
 >
@@ -4028,7 +4119,35 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.338-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.340-pre
+## *5.09.51.340-pre*
+>## What's Changed
+>* Fix Large Fluid Extractor not using any power by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4456
+>* Make Electric Air Filter use turbine durability by @dibbydoda in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4455
+>* Remove pollution fluid mentions from Advanced Muffler by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4454
+>* Add BlockCasings13 by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4453
+>* AL and AAL Fixes by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4458
+>* Correct IsaMill Ball Hatch name by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4449
+>* Improve performance of registering EEC events by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4457
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.338-pre...5.09.51.340-pre
+>
+
+## *5.09.51.339*
+>## What's Changed
+>* Fix Large Fluid Extractor not using any power by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4456
+>* Make Electric Air Filter use turbine durability by @dibbydoda in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4455
+>* Remove pollution fluid mentions from Advanced Muffler by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4454
+>* Add BlockCasings13 by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4453
+>* AL and AAL Fixes by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4458
+>* Correct IsaMill Ball Hatch name by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4449
+>* Improve performance of registering EEC events by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4457
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.336...5.09.51.339
+>
+
 ## *5.09.51.338-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.337-pre...5.09.51.338-pre
 >
@@ -7828,7 +7947,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.75
+# Updated - Hodgepodge - 2.5.90 --> 2.6.76
+## *2.6.76*
+>## What's Changed
+>* Change obfuscated environment detection for ASM coremod by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/556
+>* Rename embedID config to force disable it for previous configs by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/557
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.75...2.6.76
+>
+
 ## *2.6.75*
 >## What's Changed
 >* add @Unique annotation on mixin added fields of MixinSpawnerAnimals_optimizeSpawning by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/555
@@ -9096,7 +9224,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.4.0-GTNH...1.5.0-GTNH
 >
 
-# Updated - LogisticsPipes - 1.3.6-GTNH --> 1.4.18-GTNH
+# Updated - LogisticsPipes - 1.3.6-GTNH --> 1.4.19-GTNH-pre
+## *1.4.19-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.18-GTNH...1.4.19-GTNH-pre
+>
+
 ## *1.4.18-GTNH*
 >## What's Changed
 >* Fix wrong type of Collection being casted to by @glowredman in https://github.com/GTNewHorizons/LogisticsPipes/pull/93
@@ -9236,7 +9368,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.1.4...2.2.0
 >
 
-# Updated - MagicBees - 2.9.1-GTNH --> 2.9.3-GTNH
+# Updated - MagicBees - 2.9.1-GTNH --> 2.9.4-GTNH
+## *2.9.4-GTNH*
+>## What's Changed
+>* Add missing equals sign. by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/MagicBees/pull/55
+>
+>## New Contributors
+>* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/MagicBees/pull/55
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.9.3-GTNH...2.9.4-GTNH
+>
+
 ## *2.9.3-GTNH*
 >## What's Changed
 >* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/MagicBees/pull/54
@@ -9655,6 +9797,11 @@ Mod is client-side only.
 # Updated - MrTJPCore - 1.2.1 --> 1.3.0
 ## *1.3.0*
 >**Full Changelog**: https://github.com/GTNewHorizons/MrTJPCore/compare/1.2.1...1.3.0
+>
+
+# Updated - NEI-Integration - 1.4.0 --> 1.4.1-pre
+## *1.4.1-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NEI-Integration/compare/1.4.0...1.4.1-pre
 >
 
 # Updated - Natura - 2.7.6 --> 2.8.7
@@ -11200,7 +11347,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.51-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.53-GTNH-pre
+## *2.7.53-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.52-GTNH...2.7.53-GTNH-pre
+>
+
+## *2.7.52-GTNH*
+>## What's Changed
+>* allow setOverrideName to remove name overrides by @FalsePattern in https://github.com/GTNewHorizons/NotEnoughItems/pull/643
+>
+>## New Contributors
+>* @FalsePattern made their first contribution in https://github.com/GTNewHorizons/NotEnoughItems/pull/643
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.51-GTNH...2.7.52-GTNH
+>
+
 ## *2.7.51-GTNH*
 >## What's Changed
 >* Too Many (Hidden) Items by @koolkrafter5 in https://github.com/GTNewHorizons/NotEnoughItems/pull/641
@@ -12143,7 +12304,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.15...9.16.0
 >
 
-# Updated - Random-Things - 2.6.0 --> 2.6.2
+# Updated - Random-Things - 2.6.0 --> 2.6.4-pre
+## *2.6.4-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.6.3...2.6.4-pre
+>
+
+## *2.6.3*
+>## What's Changed
+>* Fix bloodmoon not checking gamerule by @Alexdoru in https://github.com/GTNewHorizons/Random-Things/pull/12
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.6.2...2.6.3
+>
+
 ## *2.6.2*
 >## What's Changed
 >* Fix bloodmoon code running in peaceful by @Alexdoru in https://github.com/GTNewHorizons/Random-Things/pull/9
@@ -12210,7 +12383,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Roguelike-Dungeons/compare/1.6.0-GTNH...1.6.1-GTNH-pre
 >
 
-# Updated - SC2 - 2.3.0 --> 2.3.8
+# Updated - SC2 - 2.3.0 --> 2.3.9
+## *2.3.9*
+>## What's Changed
+>* Add missing equals signs. by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/SC2/pull/12
+>
+>## New Contributors
+>* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/SC2/pull/12
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.8...2.3.9
+>
+
 ## *2.3.8*
 >## What's Changed
 >* Added Support for IC2 Crops by @hpotter02 in https://github.com/GTNewHorizons/SC2/pull/10
@@ -12994,7 +13177,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.0...1.7.1
 >
 
-# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.12
+# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.13
+## *2.11.13*
+>## What's Changed
+>* Fix lang file problem with lang key by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/56
+>
+>## New Contributors
+>* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/56
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.12...2.11.13
+>
+
 ## *2.11.12*
 >## What's Changed
 >* Fixed Wand Focus: Dislocation issue by @ABKQPO in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/55
@@ -13117,7 +13310,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.3.1...1.3.2
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.32-GTNH
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.34-GTNH-pre
+## *1.13.34-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.33-GTNH...1.13.34-GTNH-pre
+>
+
+## *1.13.33-GTNH*
+>## What's Changed
+>* Add missing equals sign. by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/TinkersConstruct/pull/182
+>
+>## New Contributors
+>* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/182
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.32-GTNH...1.13.33-GTNH
+>
+
 ## *1.13.32-GTNH*
 >## What's Changed
 >* Move clay quartz bucket resources to iguana tweaks by @koolkrafter5 in https://github.com/GTNewHorizons/TinkersConstruct/pull/180
@@ -13449,6 +13656,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WAILAPlugins/compare/0.5.1...0.6.0
 >
 
+# Updated - WAWLA - 1.3.0-GTNH --> 1.3.1-GTNH
+## *1.3.1-GTNH*
+>## What's Changed
+>* Remove erroneous newline by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/WAWLA/pull/7
+>
+>## New Contributors
+>* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/WAWLA/pull/7
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WAWLA/compare/1.3.0-GTNH...1.3.1-GTNH
+>
+
 # Updated - WailaHarvestability - 1.3.2-GTNH --> 1.3.3-GTNH
 ## *1.3.3-GTNH*
 >## What's Changed
@@ -13497,6 +13715,17 @@ Mod is client-side only.
 
 ## *1.11.8-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessCraftingTerminal/compare/1.11.7...1.11.8-pre
+>
+
+# Updated - WirelessRedstone-CBE - 1.7.0 --> 1.7.1
+## *1.7.1*
+>## What's Changed
+>* Add missing equals sign by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/13
+>
+>## New Contributors
+>* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/WirelessRedstone-CBE/pull/13
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.0...1.7.1
 >
 
 # Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.6-GTNH
@@ -13736,7 +13965,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.2.3-GTNH...1.3.0-GTNH
 >
 
-# Updated - ironchest - 6.1.1 --> 6.1.2
+# Updated - ironchest - 6.1.1 --> 6.1.3
+## *6.1.3*
+>## What's Changed
+>* Add missing language key by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/ironchest/pull/29
+>
+>## New Contributors
+>* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/29
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.1.2...6.1.3
+>
+
 ## *6.1.2*
 >## What's Changed
 >* New textures by krezhvick by @Caedis in https://github.com/GTNewHorizons/ironchest/pull/27
@@ -13745,7 +13984,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.1.1...6.1.2
 >
 
-# Updated - lwjgl3ify - 2.1.9 --> 2.1.12
+# Updated - lwjgl3ify - 2.1.9 --> 2.1.13
+## *2.1.13*
+>## What's Changed
+>* Fix unicode by @QuanhuZeYu in https://github.com/GTNewHorizons/lwjgl3ify/pull/222
+>
+>## New Contributors
+>* @QuanhuZeYu made their first contribution in https://github.com/GTNewHorizons/lwjgl3ify/pull/222
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.12...2.1.13
+>
+
 ## *2.1.12*
 >## What's Changed
 >* Remove -XstartOnFirstThread in version.json for macOS by @k0michi in https://github.com/GTNewHorizons/lwjgl3ify/pull/217
