@@ -19,7 +19,25 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.85-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.87-gtnh-pre
+## *1.4.87-gtnh-pre*
+>## What's Changed
+>* Magnet improvements by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/303
+>* Fix div by zero by @RecursivePineapple in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/306
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.85-gtnh-pre...1.4.87-gtnh-pre
+>
+
+## *1.4.86-gtnh*
+>## What's Changed
+>* Magnet improvements by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/303
+>* Fix div by zero by @RecursivePineapple in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/306
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.80-gtnh...1.4.86-gtnh
+>
+
 ## *1.4.85-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.84-gtnh-pre...1.4.85-gtnh-pre
 >
@@ -895,7 +913,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-633-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-634-GTNH-pre
+## *rv3-beta-634-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-633-GTNH-pre...rv3-beta-634-GTNH-pre
+>
+
 ## *rv3-beta-633-GTNH-pre*
 >## What's Changed
 >* Add missing equals sign to lang file by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/772
@@ -4119,7 +4141,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.340-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.341-pre
+## *5.09.51.341-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.340-pre...5.09.51.341-pre
+>
+
 ## *5.09.51.340-pre*
 >## What's Changed
 >* Fix Large Fluid Extractor not using any power by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4456
@@ -12449,7 +12475,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.0...2.3.1
 >
 
-# New Mod - Salis-Arcana:1.1.20-GTNH
+# New Mod - Salis-Arcana:1.1.21-GTNH
+## *1.1.21-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.20-GTNH...1.1.21-GTNH
+>
+
 ## *1.1.20-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.19-GTNH...1.1.20-GTNH
 >
