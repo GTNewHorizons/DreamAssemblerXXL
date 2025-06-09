@@ -1,7 +1,7 @@
 {
   "version": "nightly",
   "last_version": "previous_nightly",
-  "last_updated": "2025-06-09T04:04:47.807145",
+  "last_updated": "2025-06-09T14:13:11.198812",
   "config": "2.8.0-nightly-2025-06-08",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.85-gtnh-pre",
+      "version": "1.4.87-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-633-GTNH-pre",
+      "version": "rv3-beta-634-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.340-pre",
+      "version": "5.09.51.341-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.20-GTNH",
+      "version": "1.1.21-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
