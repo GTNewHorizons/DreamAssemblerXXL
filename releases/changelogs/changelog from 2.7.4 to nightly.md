@@ -733,8 +733,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.0...1.3.1
 >
 
-# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta45
+# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta46
 Mod is client-side only.
+## *1.0.0-beta46*
+>## What's Changed
+>* No longer use Reflection for `SplashProgress.fontRenderer` by @glowredman in https://github.com/GTNewHorizons/Angelica/pull/966
+>* Stop loading HoloInventory too early in the compat class, which was causing fake fluids to not render properly. by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/972
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta45...1.0.0-beta46
+>
+
 ## *1.0.0-beta45*
 >## What's Changed
 >* Battlegear 2 for Backhand compat by @YannickMG in https://github.com/GTNewHorizons/Angelica/pull/962
