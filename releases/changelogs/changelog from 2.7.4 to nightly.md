@@ -19,7 +19,17 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.87-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.88-gtnh-pre
+## *1.4.88-gtnh-pre*
+>## What's Changed
+>* Rewrite Level Maintainer/Terminal Logic by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/294
+>* Spotless apply for branch magnet for #305 by @github-actions in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/307
+>* Fix Universal Terminal restock hotkey chat message saying the opposite of the current state by @michaeldoylecs in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/308
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.86-gtnh...1.4.88-gtnh-pre
+>
+
 ## *1.4.87-gtnh-pre*
 >## What's Changed
 >* Magnet improvements by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/303
@@ -922,7 +932,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-634-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-635-GTNH-pre
+## *rv3-beta-635-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-632-GTNH...rv3-beta-635-GTNH-pre
+>
+
 ## *rv3-beta-634-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-633-GTNH-pre...rv3-beta-634-GTNH-pre
 >
@@ -4150,7 +4164,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.341-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.342-pre
+## *5.09.51.342-pre*
+>## What's Changed
+>* Add throughput in WAILA to laser source hatch by @SKProCH in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4461
+>* Implement ISurvivalConstructable in MTEVoidMinerBase by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4462
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.341-pre...5.09.51.342-pre
+>
+
 ## *5.09.51.341-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.340-pre...5.09.51.341-pre
 >
@@ -7406,7 +7429,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.1...1.4.2-pre
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.30
+# Updated - GTNHLib - 0.5.23 --> 0.6.31
+## *0.6.31*
+>## What's Changed
+>* add VolumeMembershipCheck by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/146
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.30...0.6.31
+>
+
 ## *0.6.30*
 >## What's Changed
 >* Add contains method to SpatialHashGrid by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/145
@@ -9434,7 +9465,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.9.1-GTNH...2.9.2-GTNH
 >
 
-# New Mod - MatterManipulator:0.0.30-GTNH
+# New Mod - MatterManipulator:0.0.31-GTNH
+## *0.0.31-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.30-GTNH...0.0.31-GTNH
+>
+
 ## *0.0.30-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.29-GTNH...0.0.30-GTNH
 >
