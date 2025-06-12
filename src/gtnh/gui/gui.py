@@ -793,7 +793,9 @@ class Window(ThemedTk, Tk):
                     errored_mods.append(mod)
 
             if len(errored_mods) == 0:
-                showinfo("updated the experimental release metadata", "The experimental release metadata had been updated!")
+                showinfo(
+                    "updated the experimental release metadata", "The experimental release metadata had been updated!"
+                )
             else:
                 showwarning(
                     "updated the experimental release metadata",
