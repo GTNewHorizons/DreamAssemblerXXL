@@ -1,4 +1,4 @@
-name: Nightly modpack build
+name: Daily modpack build
 
 on:
   workflow_dispatch:
