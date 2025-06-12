@@ -13,6 +13,7 @@ class ButtonArrayCallback:
         self,
         update_asset: Callable[[], Task[None]],
         generate_nightly: Callable[[], Task[None]],
+        generate_daily: Callable[[], Task[None]],
         client_mmc: Callable[[], Task[None]],
         client_mmc_j9: Callable[[], Task[None]],
         client_zip: Callable[[], Task[None]],
@@ -27,6 +28,7 @@ class ButtonArrayCallback:
     ) -> None:
         self.update_assets: Callable[[], Task[None]] = update_asset
         self.generate_nightly: Callable[[], Task[None]] = generate_nightly
+        self.generate_daily: Callable[[], Task[None]] = generate_daily
         self.client_mmc: Callable[[], Task[None]] = client_mmc
         self.client_mmc_j9: Callable[[], Task[None]] = client_mmc_j9
         self.client_zip: Callable[[], Task[None]] = client_zip
@@ -51,6 +53,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         frame_name: str,
         callbacks: ButtonArrayCallback,
         update_nightly: Callable[[], None],
+        update_daily: Callable[[], None],
         width: Optional[int] = None,
         themed: bool = False,
         **kwargs: Any,
@@ -76,6 +79,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         self.frame_btn: Union[Frame, TtkFrame] = TtkFrame(self) if themed else Frame(self)
 
         self.update_nightly: Callable[[], None] = update_nightly
+        self.update_daily: Callable[[], None] = update_daily
         self.callbacks: ButtonArrayCallback = callbacks
 
         self.btn_client_cf: CustomButton = CustomButton(
@@ -105,6 +109,9 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         )
         self.btn_update_nightly: CustomButton = CustomButton(
             self.frame_btn, text="Update nightly profile", command=update_nightly, themed=self.themed
+        )
+        self.btn_update_daily: CustomButton = CustomButton(
+            self.frame_btn, text="Update daily profile", command=update_daily, themed=self.themed
         )
         self.btn_update_assets: CustomButton = CustomButton(
             self.frame_btn, text="Update assets", command=callbacks.update_assets, themed=self.themed
@@ -140,6 +147,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
             self.btn_client_mmc_j9,
             self.btn_update_assets,
             self.btn_update_nightly,
+            self.btn_update_daily,
             self.btn_generate_beta,
             self.btn_generate_all,
             self.btn_generate_changelog,
@@ -196,8 +204,9 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         self.btn_generate_all.grid(row=0, column=0)
         self.btn_generate_beta.grid(row=1, column=0)
         self.btn_update_nightly.grid(row=2, column=0)
-        self.btn_update_assets.grid(row=3, column=0)
-        self.btn_generate_changelog.grid(row=4, column=0)
+        self.btn_update_daily.grid(row=3, column=0)
+        self.btn_update_assets.grid(row=4, column=0)
+        self.btn_generate_changelog.grid(row=4, column=1)
 
         # column 1: client we control
         self.btn_client_zip.grid(row=0, column=1)
