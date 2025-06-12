@@ -816,7 +816,7 @@ class Window(ThemedTk, Tk):
             if not self.toggled:
                 self.trigger_toggle()
             raise e
-        
+
     async def update_daily(self) -> None:
         """
         Callback used to generate/update the daily build.

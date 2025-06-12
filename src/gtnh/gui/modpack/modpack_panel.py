@@ -107,7 +107,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         if "nightly" not in data:
             data.insert(0, "nightly")
             self.modpack_list.listbox.set_values(data)
-            
+
     def update_daily(self) -> None:
         """
         Callback to generate/update the daily builds.
