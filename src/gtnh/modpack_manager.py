@@ -206,9 +206,6 @@ class GTNHModpackManager:
 
             compareVersions = versionable.versions.copy()
 
-            if versionable.name == "BlockLimiter":
-                compareVersions[:] = [x for x in compareVersions if x.version_tag not in ["0.54", "0.55"]]
-
             versionable.latest_version = next(
                 (
                     version.version_tag
