@@ -191,6 +191,6 @@ jobs:
           git add "./releases/changelogs/nightly builds"
           git add ./releases/manifests/nightly.json
           git add ./gtnh-assets.json
-          git commit -m "Upload $changelog_name"
+          git commit -m "Upload nightly $changelog_name"
           git push origin master
       
