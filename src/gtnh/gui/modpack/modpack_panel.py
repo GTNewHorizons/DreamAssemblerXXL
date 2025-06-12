@@ -13,6 +13,7 @@ class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
         self,
         update_asset: Callable[[], Task[None]],
         generate_nightly: Callable[[], Task[None]],
+        generate_daily: Callable[[], Task[None]],
         client_mmc: Callable[[], Task[None]],
         client_mmc_j9: Callable[[], Task[None]],
         client_zip: Callable[[], Task[None]],
@@ -32,6 +33,7 @@ class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
             self,
             update_asset=update_asset,
             generate_nightly=generate_nightly,
+            generate_daily=generate_daily,
             client_mmc=client_mmc,
             client_mmc_j9=client_mmc_j9,
             client_zip=client_zip,
@@ -86,6 +88,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             frame_name="Availiable tasks",
             callbacks=self.callbacks,
             update_nightly=self.update_nightly,
+            update_daily=self.update_daily,
             themed=self.themed,
         )
 
@@ -103,6 +106,18 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         data: List[str] = list(self.modpack_list.listbox.get_values())
         if "nightly" not in data:
             data.insert(0, "nightly")
+            self.modpack_list.listbox.set_values(data)
+
+    def update_daily(self) -> None:
+        """
+        Callback to generate/update the daily builds.
+
+        :return: None
+        """
+        self.callbacks.generate_daily()
+        data: List[str] = list(self.modpack_list.listbox.get_values())
+        if "daily" not in data:
+            data.insert(0, "daily")
             self.modpack_list.listbox.set_values(data)
 
     def configure_widgets(self) -> None:
