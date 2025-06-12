@@ -9,7 +9,7 @@ log = get_logger(__name__)
 
 
 @click.command()
-@click.option("--update-available", default=True, is_flag=True)
+@click.option("--update-available", default=False, is_flag=True)
 @click.option("--id", "new_id", type=int, help="Set numeric ID for new daily release")
 async def generate_daily(update_available: bool, new_id: int) -> None:
     async with httpx.AsyncClient(http2=True) as client:
