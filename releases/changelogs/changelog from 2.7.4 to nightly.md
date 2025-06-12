@@ -8013,7 +8013,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.76
+# Updated - Hodgepodge - 2.5.90 --> 2.6.77
+## *2.6.77*
+>## What's Changed
+>* Fix adding Thrower to inventory-dropped items by @Ruling-0 in https://github.com/GTNewHorizons/Hodgepodge/pull/559
+>* Add mixins to synchonize from server to client the thrower of an item entity by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/560
+>* Dont use Class.forName in the coremod by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/561
+>
+>## New Contributors
+>* @Ruling-0 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/559
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.76...2.6.77
+>
+
 ## *2.6.76*
 >## What's Changed
 >* Change obfuscated environment detection for ASM coremod by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/556
