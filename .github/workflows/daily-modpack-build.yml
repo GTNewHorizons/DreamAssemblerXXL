@@ -80,7 +80,7 @@ jobs:
         if: steps.load_mod_cache.outputs.cache-hit != 'true'
         with:
           path: cache
-          key: daxxl-${{ runner.os }}-${{ steps.date.outputs.cachedate }}
+          key: daxxl-daily-${{ runner.os }}-${{ steps.date.outputs.cachedate }}
 
       - name: Retrieve last non-daily release name
         shell: bash
