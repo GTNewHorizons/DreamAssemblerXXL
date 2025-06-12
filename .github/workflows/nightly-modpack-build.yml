@@ -3,7 +3,7 @@ name: Nightly modpack build
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 3 * * *' # 3:30am UTC every day
+    - cron: '07 3 * * *' # 3:07am UTC every day
 
 jobs:
   nightly-modpack-build:
@@ -86,7 +86,7 @@ jobs:
         shell: bash
         if: success() || failure()
         run: |
-          last_non_nightly_release_name="$(jq -r '.releases | map(select(contains("nightly") | not)) | last' <./gtnh-modpack.json)"
+          last_non_nightly_release_name="$(jq -r '.releases | map(select(contains("nightly") | not)) | map(select(contains("daily") | not)) | last' <./gtnh-modpack.json)"
           echo "nightly_non_nightly_changelog_file=./releases/changelogs/changelog from ${last_non_nightly_release_name} to nightly.md" >> $GITHUB_ENV
           echo "last_non_nightly_release_name=${last_non_nightly_release_name}" >> $GITHUB_ENV
 

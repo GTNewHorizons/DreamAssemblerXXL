@@ -23,6 +23,8 @@ class AvailableAssets(GTNHBaseModel):
     mods: List[GTNHModInfo] = Field(default_factory=list)
     latest_nightly: int
     latest_successful_nightly: int
+    latest_daily: int
+    latest_successful_daily: int
 
     def add_mod(self, mod: GTNHModInfo) -> None:
         log.info(f"Adding {mod.name}")

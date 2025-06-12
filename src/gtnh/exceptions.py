@@ -36,3 +36,7 @@ class ReleaseNotFoundException(Exception):
 
 class InvalidNightlyIdException(Exception):
     pass
+
+
+class InvalidDailyIdException(Exception):
+    pass
