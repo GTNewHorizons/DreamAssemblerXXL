@@ -23,8 +23,6 @@ async def generate_daily(update_available: bool, new_id: int) -> None:
             raise ReleaseNotFoundException("Daily release not found")
 
         previous_daily_release_name = "previous_daily"
-        # copy the current assets
-        previous_assets = m.assets.copy(deep=True)
 
         release = await m.update_release(
             "daily",
@@ -39,13 +37,6 @@ async def generate_daily(update_available: bool, new_id: int) -> None:
             # saving the daily for changelog generation
             existing_release.version = previous_daily_release_name
             m.add_release(existing_release, update=True)
-            # restore the previous assets minus the 2 daily tracking fields as to not interfere with the nightly runs
-            # (was resetting the latest_version for each mod)
-            new_latest_daily = m.assets.latest_daily
-            new_latest_successful_daily = m.assets.latest_successful_daily
-            m.assets = previous_assets
-            m.assets.latest_daily = new_latest_daily
-            m.assets.latest_successful_daily = new_latest_successful_daily
 
             m.save_assets()
             m.save_modpack()
