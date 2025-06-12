@@ -39,7 +39,12 @@ from gtnh.defs import (
     ModSource,
     Side,
 )
-from gtnh.exceptions import InvalidNightlyIdException, InvalidReleaseException, RepoNotFoundException
+from gtnh.exceptions import (
+    InvalidDailyIdException,
+    InvalidNightlyIdException,
+    InvalidReleaseException,
+    RepoNotFoundException,
+)
 from gtnh.github.uri import latest_release_uri, org_repos_uri, repo_releases_uri, repo_uri
 from gtnh.gtnh_logger import get_logger
 from gtnh.models.available_assets import AvailableAssets
@@ -100,9 +105,13 @@ class GTNHModpackManager:
         mods_to_update: list[str] | None = None,
         progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[str], None]] = None,
+        releaseVersion: str | None = None,
     ) -> None:
         if await self.update_available_assets(
-            mods_to_update, progress_callback=progress_callback, global_progress_callback=global_progress_callback
+            mods_to_update,
+            progress_callback=progress_callback,
+            global_progress_callback=global_progress_callback,
+            releaseVersion=releaseVersion,
         ):
             self.save_assets()
 
@@ -111,6 +120,7 @@ class GTNHModpackManager:
         assets_to_update: list[str] | None = None,
         progress_callback: Optional[Callable[[float, str], None]] = None,
         global_progress_callback: Optional[Callable[[str], None]] = None,
+        releaseVersion: str | None = None,
     ) -> bool:
 
         if global_progress_callback is not None:
@@ -144,7 +154,7 @@ class GTNHModpackManager:
                     f"{Fore.RED}Missing repo for {Fore.CYAN}{asset.name}{Fore.RED}, skipping update check.{Fore.RESET}"
                 )
                 continue
-            tasks.append(self.update_versionable_from_repo(asset, repo))
+            tasks.append(self.update_versionable_from_repo(asset, repo, releaseVersion))
 
         # update translation manually because version check cannot work on this repo given the nature of the releases
         self.assets.translations.versions = []
@@ -173,7 +183,9 @@ class GTNHModpackManager:
         # return False
         raise NotImplementedError("Not currently implemented")
 
-    async def update_versionable_from_repo(self, versionable: Versionable, repo: AttributeDict) -> bool:
+    async def update_versionable_from_repo(
+        self, versionable: Versionable, repo: AttributeDict, releaseVersion: str | None = None
+    ) -> bool:
         """
         Attempt to update a versionable asset from a github repository.
         :param versionable: The asset to check for update
@@ -186,6 +198,28 @@ class GTNHModpackManager:
         log.debug(
             f"Checking {Fore.CYAN}{versionable.name}:{Fore.YELLOW}{versionable.latest_version}{Fore.RESET} for updates"
         )
+
+        if releaseVersion == "daily":
+            if isinstance(versionable, GTNHModInfo):
+                await self.update_github_mod_from_repo(versionable, repo)
+            await self.update_versions_from_repo(versionable, repo)
+
+            compareVersions = versionable.versions.copy()
+
+            if versionable.name == "BlockLimiter":
+                compareVersions[:] = [x for x in compareVersions if x.version_tag not in ["0.54", "0.55"]]
+
+            versionable.latest_version = next(
+                (
+                    version.version_tag
+                    for version in sorted(compareVersions, key=version_sort_key, reverse=True)
+                    if not version.version_tag.endswith("-pre")
+                ),
+                "<unknown>",
+            )
+
+            return True
+
         latest_release = await self.get_latest_github_release(repo)
 
         latest_version = latest_release.tag_name if latest_release else "<unknown>"
@@ -410,13 +444,15 @@ class GTNHModpackManager:
         if update_available:
             log.info("Updating assets")
             await self.update_all(
-                progress_callback=progress_callback, global_progress_callback=global_progress_callback
+                progress_callback=progress_callback,
+                global_progress_callback=global_progress_callback,
+                releaseVersion=version,
             )
             if reset_progress_callback is not None:
                 reset_progress_callback()
 
             if global_progress_callback is not None:
-                global_progress_callback("Updating nightly build")
+                global_progress_callback(f"Updating `{version}` build")
 
         log.info(f"Assembling release: `{Fore.GREEN}{version}{Fore.RESET}`")
         if overrides:
@@ -698,6 +734,71 @@ class GTNHModpackManager:
             The last successful nightly id.
         """
         return self.assets.latest_successful_nightly
+
+    def get_daily_count(self) -> int:
+        """
+        Return the current daily count.
+
+        Returns
+        -------
+        int: The current daily count.
+        """
+        return self.assets.latest_daily
+
+    def set_daily_id(self, id: int) -> None:
+        """
+        Set the daily id to a specific number. Has to be greater than the last daily id.
+
+        Returns
+        -------
+        None
+        """
+        latest_id = self.assets.latest_daily
+        if id > latest_id:
+            self.assets.latest_daily = id
+        else:
+            raise InvalidDailyIdException(
+                f"Cannot set new daily id to {id}, needs to be greater than latest daily count {latest_id}"
+            )
+
+    def increment_daily_count(self) -> None:
+        """
+        Increment the daily count.
+
+        Returns
+        -------
+        None
+        """
+        self.assets.latest_daily += 1
+        self.save_assets()
+
+    def set_last_successful_daily_id(self, id: int) -> None:
+        """
+        Set the last successful daily id.
+
+        Parameters
+        ----------
+        id: int
+            The last successful daily id.
+
+        Returns
+        -------
+        None
+        """
+        self.assets.latest_successful_daily = id
+        self.save_assets()
+        log.info(f"last successful build set to {id}")
+
+    def get_last_successful_daily(self) -> int:
+        """
+        get the last successful daily id.
+
+        Returns
+        -------
+        int
+            The last successful daily id.
+        """
+        return self.assets.latest_successful_daily
 
     def load_modpack(self) -> GTNHModpack:
         """
