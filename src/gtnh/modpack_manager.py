@@ -41,7 +41,7 @@ from gtnh.defs import (
 )
 from gtnh.exceptions import (
     InvalidDailyIdException,
-    InvalidNightlyIdException,
+    InvalidExperimentalIdException,
     InvalidReleaseException,
     RepoNotFoundException,
 )
@@ -431,7 +431,7 @@ class GTNHModpackManager:
         :param overrides: Overrides for (mod_name, version) instead of pulling latest
         :param exclude: List of mod names to exclude from update checks -- keep the existing version
         :param new_mods: New mods to be included in this release
-        :param last_version: Optional last version - used generally when rolling a nightly forward after a new modpack release
+        :param last_version: Optional last version - used generally when rolling a experimental forward after a new modpack release
         :param progress_callback: Optional callback to update the progress bar for the current task in the gui
         :param reset_progress_callback: Optional callback to reset the progress bar for the current task in the gui
         :param global_progress_callback: Optional callback to update the global progress bar in the gui
@@ -667,70 +667,70 @@ class GTNHModpackManager:
         with open(self.gtnh_asset_manifest_path, encoding="utf-8") as f:
             return AvailableAssets.parse_raw(f.read())
 
-    def get_nightly_count(self) -> int:
+    def get_experimental_count(self) -> int:
         """
-        Return the current nightly count.
+        Return the current experimental count.
 
         Returns
         -------
-        int: The current nightly count.
+        int: The current experimental count.
         """
-        return self.assets.latest_nightly
+        return self.assets.latest_experimental
 
-    def set_nightly_id(self, id: int) -> None:
+    def set_experimental_id(self, id: int) -> None:
         """
-        Set the nightly id to a specific number. Has to be greater than the last nightly id.
+        Set the experimental id to a specific number. Has to be greater than the last experimental id.
 
         Returns
         -------
         None
         """
-        latest_id = self.assets.latest_nightly
+        latest_id = self.assets.latest_experimental
         if id > latest_id:
-            self.assets.latest_nightly = id
+            self.assets.latest_experimental = id
         else:
-            raise InvalidNightlyIdException(
-                f"Cannot set new nightly id to {id}, needs to be greater than latest nightly count {latest_id}"
+            raise InvalidExperimentalIdException(
+                f"Cannot set new experimental id to {id}, needs to be greater than latest experimental count {latest_id}"
             )
 
-    def increment_nightly_count(self) -> None:
+    def increment_experimental_count(self) -> None:
         """
-        Increment the nightly count.
+        Increment the experimental count.
 
         Returns
         -------
         None
         """
-        self.assets.latest_nightly += 1
+        self.assets.latest_experimental += 1
         self.save_assets()
 
-    def set_last_successful_nightly_id(self, id: int) -> None:
+    def set_last_successful_experimental_id(self, id: int) -> None:
         """
-        Set the last successful nightly id.
+        Set the last successful experimental id.
 
         Parameters
         ----------
         id: int
-            The last successful nightly id.
+            The last successful experimental id.
 
         Returns
         -------
         None
         """
-        self.assets.latest_successful_nightly = id
+        self.assets.latest_successful_experimental = id
         self.save_assets()
         log.info(f"last successful build set to {id}")
 
-    def get_last_successful_nightly(self) -> int:
+    def get_last_successful_experimental(self) -> int:
         """
-        get the last successful nightly id.
+        get the last successful experimental id.
 
         Returns
         -------
         int
-            The last successful nightly id.
+            The last successful experimental id.
         """
-        return self.assets.latest_successful_nightly
+        return self.assets.latest_successful_experimental
 
     def get_daily_count(self) -> int:
         """

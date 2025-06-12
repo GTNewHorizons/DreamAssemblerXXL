@@ -16,9 +16,9 @@ log = get_logger(__name__)
 async def update_pack_inplace(side: Side, minecraft_dir: str, use_symlink: bool = False) -> None:
     async with httpx.AsyncClient(http2=True) as client:
         m = GTNHModpackManager(client)
-        release = m.get_release("nightly")
+        release = m.get_release("experimental")
         if not release:
-            raise ReleaseNotFoundException("Nightly release not found")
+            raise ReleaseNotFoundException("Experimental release not found")
 
         await m.download_release(release, ignore_translations=True)
 

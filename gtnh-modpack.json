@@ -19,9 +19,9 @@
     "2.7.3",
     "2.7.4",
     "daily",
-    "nightly",
+    "experimental",
     "previous_daily",
-    "previous_nightly"
+    "previous_experimental"
   ],
   "server_exclusions": [
     ".gitattributes",

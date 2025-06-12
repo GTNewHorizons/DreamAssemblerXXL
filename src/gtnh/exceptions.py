@@ -34,7 +34,7 @@ class ReleaseNotFoundException(Exception):
     pass
 
 
-class InvalidNightlyIdException(Exception):
+class InvalidExperimentalIdException(Exception):
     pass
 
 

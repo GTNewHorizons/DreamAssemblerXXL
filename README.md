@@ -12,7 +12,8 @@ A replacement for DreamMasterXXL, minus the nerfs.
 * [assemble_release.py](src/gtnh/cli/assemble_release.py): Assemble a release ZIP (CLIENT/SERVER)
 * [download_mod.py](src/gtnh/cli/download_mod.py): Download a mod to the cache
 * [download_release.py](src/gtnh/cli/download_release.py): Download an entire release to the cache
-* [generate_nightly.py](src/gtnh/cli/generate_nightly.py): Generate a manifest for a nightly release based on the latest version for all mods and config
+* [generate_experimental.py](src/gtnh/cli/generate_experimental.py): Generate a manifest for a experimental release based on the latest version for all mods and config
+* [generate_daily.py](src/gtnh/cli/generate_daily.py): Generate a manifest for a daily release based on the latest non-pre version for all mods and config
 * [update_check.py](src/gtnh/cli/update_check.py): Check for new releases on GitHub
 * [update_deps.py](src/gtnh/cli/update_deps.py): Update dependencies.gradle & repositories.gradle (run in the project directory)
 

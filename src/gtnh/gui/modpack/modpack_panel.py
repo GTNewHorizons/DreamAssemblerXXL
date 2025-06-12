@@ -12,7 +12,7 @@ class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
     def __init__(
         self,
         update_asset: Callable[[], Task[None]],
-        generate_nightly: Callable[[], Task[None]],
+        generate_experimental: Callable[[], Task[None]],
         generate_daily: Callable[[], Task[None]],
         client_mmc: Callable[[], Task[None]],
         client_mmc_j9: Callable[[], Task[None]],
@@ -32,7 +32,7 @@ class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
         ButtonArrayCallback.__init__(
             self,
             update_asset=update_asset,
-            generate_nightly=generate_nightly,
+            generate_experimental=generate_experimental,
             generate_daily=generate_daily,
             client_mmc=client_mmc,
             client_mmc_j9=client_mmc_j9,
@@ -87,7 +87,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             self,
             frame_name="Availiable tasks",
             callbacks=self.callbacks,
-            update_nightly=self.update_nightly,
+            update_experimental=self.update_experimental,
             update_daily=self.update_daily,
             themed=self.themed,
         )
@@ -96,16 +96,16 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             self, frame_name="Modpack Versions", callbacks=self.callbacks, themed=self.themed
         )
 
-    def update_nightly(self) -> None:
+    def update_experimental(self) -> None:
         """
-        Callback to generate/update the nightly builds.
+        Callback to generate/update the experimental builds.
 
         :return: None
         """
-        self.callbacks.generate_nightly()
+        self.callbacks.generate_experimental()
         data: List[str] = list(self.modpack_list.listbox.get_values())
-        if "nightly" not in data:
-            data.insert(0, "nightly")
+        if "experimental" not in data:
+            data.insert(0, "experimental")
             self.modpack_list.listbox.set_values(data)
 
     def update_daily(self) -> None:

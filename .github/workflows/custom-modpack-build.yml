@@ -5,7 +5,7 @@ on:
     inputs:
       daxxl-tag:
         description: DAXXL Tag to build
-        default: nightly
+        default: experimental
         type: string
         required: true
 

@@ -12,13 +12,13 @@ log = get_logger(__name__)
 
 @click.command()
 @click.option("--verbose", default=False, is_flag=True)
-async def assemble_nightly(verbose: bool) -> None:
-    release_name = "nightly"
+async def assemble_experimental(verbose: bool) -> None:
+    release_name = "experimental"
     modpack_manager = GTNHModpackManager(AsyncClient(http2=True))
     release = modpack_manager.get_release(release_name)
     if not release:
         log.error(
-            f"Release `{Fore.LIGHTRED_EX}{release_name}{Fore.RESET}` not found! Error building the nightly archive."
+            f"Release `{Fore.LIGHTRED_EX}{release_name}{Fore.RESET}` not found! Error building the experimental archive."
         )
         return
 
@@ -32,8 +32,8 @@ async def assemble_nightly(verbose: bool) -> None:
     await assembler.assemble_mmc(Side.CLIENT, verbose=verbose)
     await assembler.assemble_mmc(Side.CLIENT_JAVA9, verbose=verbose)
 
-    modpack_manager.set_last_successful_nightly_id(modpack_manager.get_nightly_count())
+    modpack_manager.set_last_successful_experimental_id(modpack_manager.get_experimental_count())
 
 
 if __name__ == "__main__":
-    assemble_nightly()
+    assemble_experimental()

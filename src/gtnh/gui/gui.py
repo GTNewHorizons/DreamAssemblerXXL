@@ -109,7 +109,7 @@ class Window(ThemedTk, Tk):
         # frame for the modpack handling
         modpack_panel_callbacks: ModpackPanelCallback = ModpackPanelCallback(
             update_asset=lambda: asyncio.ensure_future(self.update_assets()),
-            generate_nightly=lambda: asyncio.ensure_future(self.update_nightly()),
+            generate_experimental=lambda: asyncio.ensure_future(self.update_experimental()),
             generate_daily=lambda: asyncio.ensure_future(self.update_daily()),
             client_mmc=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.MMC)),
             client_mmc_j9=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT_JAVA9, Archive.MMC)),
@@ -725,8 +725,8 @@ class Window(ThemedTk, Tk):
                 showinfo("assets updated successfully!", "update_all the assets have been updated correctly!")
             else:
                 showwarning(
-                    "updated the nightly release metadata",
-                    "The nightly release metadata had been updated BUT:\n"
+                    "updated the experimental release metadata",
+                    "The experimental release metadata had been updated BUT:\n"
                     + "\n".join(
                         [
                             f"mod {mod.name} has {mod.latest_version} which is "
@@ -746,9 +746,9 @@ class Window(ThemedTk, Tk):
                 self.trigger_toggle()
             raise e
 
-    async def update_nightly(self) -> None:
+    async def update_experimental(self) -> None:
         """
-        Callback used to generate/update the nightly build.
+        Callback used to generate/update the experimental build.
 
         :return: None
         """
@@ -758,32 +758,32 @@ class Window(ThemedTk, Tk):
 
         try:
             self.trigger_toggle()
-            previous_nightly_release_name = "previous_nightly"
+            previous_experimental_release_name = "previous_experimental"
             gtnh: GTNHModpackManager = await self._get_modpack_manager()
-            existing_release = gtnh.get_release("nightly")
+            existing_release = gtnh.get_release("experimental")
             if not existing_release:
-                raise ReleaseNotFoundException("Nightly release not found")
+                raise ReleaseNotFoundException("Experimental release not found")
 
-            # 1 for the data download on github, 1 for the asset updates and 1 for the nightly build update
+            # 1 for the data download on github, 1 for the asset updates and 1 for the experimental build update
             global_delta_progress: float = 100 / (1 + 1 + 1)
             release: GTNHRelease = await gtnh.update_release(
-                "nightly",
+                "experimental",
                 existing_release=existing_release,
                 update_available=True,
                 progress_callback=self.progress_callback,
                 reset_progress_callback=self.current_task_reset_callback,
                 global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
-                last_version=previous_nightly_release_name,
+                last_version=previous_experimental_release_name,
             )
             gtnh.add_release(release, update=True)
 
-            # saving the previous_nightly
-            existing_release.version = previous_nightly_release_name
+            # saving the previous_experimental
+            existing_release.version = previous_experimental_release_name
             gtnh.add_release(existing_release, update=True)
 
             gtnh.save_modpack()
             # should only be incremented by workflow
-            # gtnh.increment_nightly_count()
+            # gtnh.increment_experimental_count()
             self.trigger_toggle()
             errored_mods = []
 
@@ -793,11 +793,11 @@ class Window(ThemedTk, Tk):
                     errored_mods.append(mod)
 
             if len(errored_mods) == 0:
-                showinfo("updated the nightly release metadata", "The nightly release metadata had been updated!")
+                showinfo("updated the experimental release metadata", "The experimental release metadata had been updated!")
             else:
                 showwarning(
-                    "updated the nightly release metadata",
-                    "The nightly release metadata had been updated BUT:\n"
+                    "updated the experimental release metadata",
+                    "The experimental release metadata had been updated BUT:\n"
                     + "\n".join(
                         [
                             f"mod {mod.name} has {mod.latest_version} which is "
@@ -809,8 +809,8 @@ class Window(ThemedTk, Tk):
                 )
         except BaseException as e:
             showerror(
-                "An error occured during the update of the nightly build",
-                "An error occurended during the update of the nightly build."
+                "An error occured during the update of the experimental build",
+                "An error occurended during the update of the experimental build."
                 "\n Please check the logs for more information",
             )
             if not self.toggled:

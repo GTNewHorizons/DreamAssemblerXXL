@@ -12,7 +12,7 @@ class ButtonArrayCallback:
     def __init__(
         self,
         update_asset: Callable[[], Task[None]],
-        generate_nightly: Callable[[], Task[None]],
+        generate_experimental: Callable[[], Task[None]],
         generate_daily: Callable[[], Task[None]],
         client_mmc: Callable[[], Task[None]],
         client_mmc_j9: Callable[[], Task[None]],
@@ -27,7 +27,7 @@ class ButtonArrayCallback:
         generate_changelog: Callable[[], Task[None]],
     ) -> None:
         self.update_assets: Callable[[], Task[None]] = update_asset
-        self.generate_nightly: Callable[[], Task[None]] = generate_nightly
+        self.generate_experimental: Callable[[], Task[None]] = generate_experimental
         self.generate_daily: Callable[[], Task[None]] = generate_daily
         self.client_mmc: Callable[[], Task[None]] = client_mmc
         self.client_mmc_j9: Callable[[], Task[None]] = client_mmc_j9
@@ -52,7 +52,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         master: Any,
         frame_name: str,
         callbacks: ButtonArrayCallback,
-        update_nightly: Callable[[], None],
+        update_experimental: Callable[[], None],
         update_daily: Callable[[], None],
         width: Optional[int] = None,
         themed: bool = False,
@@ -78,7 +78,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
 
         self.frame_btn: Union[Frame, TtkFrame] = TtkFrame(self) if themed else Frame(self)
 
-        self.update_nightly: Callable[[], None] = update_nightly
+        self.update_experimental: Callable[[], None] = update_experimental
         self.update_daily: Callable[[], None] = update_daily
         self.callbacks: ButtonArrayCallback = callbacks
 
@@ -107,8 +107,8 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         self.btn_generate_beta: CustomButton = CustomButton(
             self.frame_btn, text="Generate beta/RC release", command=callbacks.beta, themed=self.themed
         )
-        self.btn_update_nightly: CustomButton = CustomButton(
-            self.frame_btn, text="Update nightly profile", command=update_nightly, themed=self.themed
+        self.btn_update_experimental: CustomButton = CustomButton(
+            self.frame_btn, text="Update experimental profile", command=update_experimental, themed=self.themed
         )
         self.btn_update_daily: CustomButton = CustomButton(
             self.frame_btn, text="Update daily profile", command=update_daily, themed=self.themed
@@ -146,7 +146,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
             self.btn_client_mmc,
             self.btn_client_mmc_j9,
             self.btn_update_assets,
-            self.btn_update_nightly,
+            self.btn_update_experimental,
             self.btn_update_daily,
             self.btn_generate_beta,
             self.btn_generate_all,
@@ -203,7 +203,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         # column 0: mass operation
         self.btn_generate_all.grid(row=0, column=0)
         self.btn_generate_beta.grid(row=1, column=0)
-        self.btn_update_nightly.grid(row=2, column=0)
+        self.btn_update_experimental.grid(row=2, column=0)
         self.btn_update_daily.grid(row=3, column=0)
         self.btn_update_assets.grid(row=4, column=0)
         self.btn_generate_changelog.grid(row=4, column=1)
