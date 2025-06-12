@@ -110,6 +110,7 @@ class Window(ThemedTk, Tk):
         modpack_panel_callbacks: ModpackPanelCallback = ModpackPanelCallback(
             update_asset=lambda: asyncio.ensure_future(self.update_assets()),
             generate_nightly=lambda: asyncio.ensure_future(self.update_nightly()),
+            generate_daily=lambda: asyncio.ensure_future(self.update_daily()),
             client_mmc=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.MMC)),
             client_mmc_j9=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT_JAVA9, Archive.MMC)),
             client_zip=lambda: asyncio.ensure_future(self.assemble_release(Side.CLIENT, Archive.ZIP)),
@@ -810,6 +811,77 @@ class Window(ThemedTk, Tk):
             showerror(
                 "An error occured during the update of the nightly build",
                 "An error occurended during the update of the nightly build."
+                "\n Please check the logs for more information",
+            )
+            if not self.toggled:
+                self.trigger_toggle()
+            raise e
+        
+    async def update_daily(self) -> None:
+        """
+        Callback used to generate/update the daily build.
+
+        :return: None
+        """
+
+        self.current_task_reset_callback()
+        self.global_reset_callback()
+
+        try:
+            self.trigger_toggle()
+            previous_daily_release_name = "previous_daily"
+            gtnh: GTNHModpackManager = await self._get_modpack_manager()
+            existing_release = gtnh.get_release("daily")
+            if not existing_release:
+                raise ReleaseNotFoundException("Daily release not found")
+
+            # 1 for the data download on github, 1 for the asset updates and 1 for the daily build update
+            global_delta_progress: float = 100 / (1 + 1 + 1)
+            release: GTNHRelease = await gtnh.update_release(
+                "daily",
+                existing_release=existing_release,
+                update_available=True,
+                progress_callback=self.progress_callback,
+                reset_progress_callback=self.current_task_reset_callback,
+                global_progress_callback=lambda msg: self.global_callback(global_delta_progress, msg),
+                last_version=previous_daily_release_name,
+            )
+            gtnh.add_release(release, update=True)
+
+            # saving the previous_daily
+            existing_release.version = previous_daily_release_name
+            gtnh.add_release(existing_release, update=True)
+
+            gtnh.save_modpack()
+            # should only be incremented by workflow
+            # gtnh.increment_daily_count()
+            self.trigger_toggle()
+            errored_mods = []
+
+            # checking for errored mods
+            for mod in gtnh.assets.mods:
+                if mod.needs_attention:
+                    errored_mods.append(mod)
+
+            if len(errored_mods) == 0:
+                showinfo("updated the daily release metadata", "The daily release metadata had been updated!")
+            else:
+                showwarning(
+                    "updated the daily release metadata",
+                    "The daily release metadata had been updated BUT:\n"
+                    + "\n".join(
+                        [
+                            f"mod {mod.name} has {mod.latest_version} which is "
+                            "older than newest version availiable on github"
+                            for mod in errored_mods
+                        ]
+                    )
+                    + "\nThis means tags had been done wrongly.",
+                )
+        except BaseException as e:
+            showerror(
+                "An error occured during the update of the daily build",
+                "An error occurended during the update of the daily build."
                 "\n Please check the logs for more information",
             )
             if not self.toggled:
