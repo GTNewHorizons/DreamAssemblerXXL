@@ -14,7 +14,7 @@ log = get_logger(__name__)
 
 
 class GTNHRelease(GTNHBaseModel):
-    version: str = Field(default="nightly")
+    version: str = Field(default="experimental")
     last_version: str | None = Field(default=None)
     last_updated: datetime = Field(default_factory=datetime.utcnow)
 
@@ -55,7 +55,7 @@ class GTNHRelease(GTNHBaseModel):
 
 
 class __GTNHReleaseV1(GTNHBaseModel):
-    version: str = Field(default="nightly")
+    version: str = Field(default="experimental")
     last_version: str | None = Field(default=None)
     last_updated: datetime = Field(default_factory=datetime.utcnow)
 

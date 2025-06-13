@@ -9,7 +9,7 @@ from gtnh.assembler.zip_assembler import ZipAssembler
 from gtnh.defs import (
     RELEASE_CHANGELOG_DAILY_BUILDS_DIR,
     RELEASE_CHANGELOG_DIR,
-    RELEASE_CHANGELOG_NIGHTLY_BUILDS_DIR,
+    RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR,
     Archive,
     Side,
 )
@@ -196,11 +196,11 @@ class ReleaseAssembler:
         )
         changelog: Dict[str, List[str]] = self.mod_manager.generate_changelog(self.release, previous_release)
         changelog_path: Path
-        if "nightly" in current_version:
+        if "experimental" in current_version:
             changelog_path = (
-                RELEASE_CHANGELOG_NIGHTLY_BUILDS_DIR / f"changelog from nightly "
-                f"{self.mod_manager.get_last_successful_nightly()} to "
-                f"{self.mod_manager.get_nightly_count()}.md"
+                RELEASE_CHANGELOG_EXPERIMENTAL_BUILDS_DIR / f"changelog from experimental "
+                f"{self.mod_manager.get_last_successful_experimental()} to "
+                f"{self.mod_manager.get_experimental_count()}.md"
             )
         elif "daily" in current_version:
             changelog_path = (

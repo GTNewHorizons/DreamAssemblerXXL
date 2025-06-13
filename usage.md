@@ -14,7 +14,7 @@ DreamAssemblerXXL can be splitted up in 3 categories: Modpack management (in gre
 
 ![image](https://user-images.githubusercontent.com/12850933/187891144-e9cd9402-eaea-4a10-a658-a46094884f8b.png)
 
-The modpack management section is used to manage the pack version: you can load a version in memory, add or update a version and delete a version. It can also build the pack for various plateforms. It also allows you to update the data about mod versions and allows you to do a nightly build.
+The modpack management section is used to manage the pack version: you can load a version in memory, add or update a version and delete a version. It can also build the pack for various plateforms. It also allows you to update the data about mod versions and allows you to do a experimental or daily build.
 
 ![image](https://user-images.githubusercontent.com/12850933/187900736-eb3fa793-f994-48c3-ad98-cff9cb3c0810.png)
 
