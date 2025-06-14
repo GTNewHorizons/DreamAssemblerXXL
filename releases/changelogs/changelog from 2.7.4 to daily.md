@@ -2199,7 +2199,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2-for-Backhand/commits/1.5.0-backhand
 >
 
-# Updated - Baubles-Expanded - 2.0.3 --> 2.1.8-GTNH
+# Updated - Baubles-Expanded - 2.0.3 --> 2.1.9-GTNH
+## *2.1.9-GTNH*
+>## What's Changed
+>* Add CF Project ID by @mitchej123 in https://github.com/GTNewHorizons/Baubles-Expanded/pull/7
+>* unbind keybind by default by @Alexdoru in https://github.com/GTNewHorizons/Baubles-Expanded/pull/9
+>
+>## New Contributors
+>* @mitchej123 made their first contribution in https://github.com/GTNewHorizons/Baubles-Expanded/pull/7
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.1.8-GTNH...2.1.9-GTNH
+>
+
 ## *2.1.8-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.1.7-GTNH...2.1.8-GTNH
 >
@@ -2925,6 +2936,29 @@ Mod is client-side only.
 >* @eigenraven made their first contribution in https://github.com/GTNewHorizons/Botania/pull/66
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.11.6-GTNH...1.12.1-GTNH
+>
+
+# Updated - Botanic-horizons - 1.1.7-GTNH --> 1.1.11-GTNH
+## *1.1.11-GTNH*
+>## What's Changed
+>* Update uses of crafting tools by @Vlamonster in https://github.com/GTNewHorizons/Botanic-horizons/pull/34
+>
+>## New Contributors
+>* @Vlamonster made their first contribution in https://github.com/GTNewHorizons/Botanic-horizons/pull/34
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.1.7-GTNH...1.1.11-GTNH
+>
+
+## *1.1.10-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.1.9-GTNH-pre...1.1.10-GTNH-pre
+>
+
+## *1.1.9-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.1.8-GTNH-pre...1.1.9-GTNH-pre
+>
+
+## *1.1.8-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.1.7-GTNH...1.1.8-GTNH-pre
 >
 
 # Updated - BuildCraft - 7.1.42 --> 7.1.43
@@ -4045,7 +4079,54 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.339
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.344
+## *5.09.51.344*
+>## What's Changed
+>* implemented DEFC POC over recipe time division. by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4468
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.343...5.09.51.344
+>
+
+## *5.09.51.343*
+>## What's Changed
+>* Add throughput in WAILA to laser source hatch by @SKProCH in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4461
+>* Implement ISurvivalConstructable in MTEVoidMinerBase by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4462
+>* Optimize monster repellent performance by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4451
+>* Implement MagLev Pylon by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4289
+>* Add Naquarite Insulator Line by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4281
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.339...5.09.51.343
+>
+
+## *5.09.51.342-pre*
+>## What's Changed
+>* Add throughput in WAILA to laser source hatch by @SKProCH in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4461
+>* Implement ISurvivalConstructable in MTEVoidMinerBase by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4462
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.341-pre...5.09.51.342-pre
+>
+
+## *5.09.51.341-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.340-pre...5.09.51.341-pre
+>
+
+## *5.09.51.340-pre*
+>## What's Changed
+>* Fix Large Fluid Extractor not using any power by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4456
+>* Make Electric Air Filter use turbine durability by @dibbydoda in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4455
+>* Remove pollution fluid mentions from Advanced Muffler by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4454
+>* Add BlockCasings13 by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4453
+>* AL and AAL Fixes by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4458
+>* Correct IsaMill Ball Hatch name by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4449
+>* Improve performance of registering EEC events by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4457
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.338-pre...5.09.51.340-pre
+>
+
 ## *5.09.51.339*
 >## What's Changed
 >* Fix Large Fluid Extractor not using any power by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4456
@@ -8581,7 +8662,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.34-GTNH
+# New Mod - InventoryBogoSorter:1.2.35-GTNH
+## *1.2.35-GTNH*
+>## What's Changed
+>* unbind keybind by default by @Alexdoru in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/91
+>* Add tooltip on inventory buttons by @Alexdoru in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/92
+>
+>## New Contributors
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/91
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.34-GTNH...1.2.35-GTNH
+>
+
 ## *1.2.34-GTNH*
 >## What's Changed
 >* return empty string instead of crashing by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/86
@@ -9816,7 +9908,39 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.204
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.210
+## *2.7.210*
+>## What's Changed
+>* Add a few misc recipes by @RecursivePineapple in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1289
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.209...2.7.210
+>
+
+## *2.7.209*
+>## What's Changed
+>* Replace Mica Insulator with Naquarite by @Nockyx in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1261
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.204...2.7.209
+>
+
+## *2.7.208-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.207-pre...2.7.208-pre
+>
+
+## *2.7.207-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.206-pre...2.7.207-pre
+>
+
+## *2.7.206-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.205-pre...2.7.206-pre
+>
+
+## *2.7.205-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.204...2.7.205-pre
+>
+
 ## *2.7.204*
 >## What's Changed
 >* Add Quarried Stone Maceration Recipe by @Vlamonster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1287
@@ -11252,7 +11376,22 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.52-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.54-GTNH
+## *2.7.54-GTNH*
+>## What's Changed
+>* Add Bookmark items with recipe Option by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/644
+>* Fix Paged Tooltip with Line Handler by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/645
+>* Set Minimum Zoom Size by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/648
+>* Add Translation to Item Count Details by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/647
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.52-GTNH...2.7.54-GTNH
+>
+
+## *2.7.53-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.52-GTNH...2.7.53-GTNH-pre
+>
+
 ## *2.7.52-GTNH*
 >## What's Changed
 >* allow setOverrideName to remove name overrides by @FalsePattern in https://github.com/GTNewHorizons/NotEnoughItems/pull/643
@@ -13191,7 +13330,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.3.1...1.3.2
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.35-GTNH
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.37-GTNH
+## *1.13.37-GTNH*
+>## What's Changed
+>* Fix Bricks Diverting Redstone by @koolkrafter5 in https://github.com/GTNewHorizons/TinkersConstruct/pull/184
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.35-GTNH...1.13.37-GTNH
+>
+
+## *1.13.36-GTNH-pre*
+>## What's Changed
+>* Fix the ender pearl clay gem pattern casting recipe by @Maratons4 in https://github.com/GTNewHorizons/TinkersConstruct/pull/183
+>
+>## New Contributors
+>* @Maratons4 made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/183
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.34-GTNH-pre...1.13.36-GTNH-pre
+>
+
 ## *1.13.35-GTNH*
 >## What's Changed
 >* Fix the ender pearl clay gem pattern casting recipe by @Maratons4 in https://github.com/GTNewHorizons/TinkersConstruct/pull/183
@@ -13486,6 +13643,16 @@ Mod is client-side only.
 >* @Akeianova made their first contribution in https://github.com/GTNewHorizons/TinkersConstruct/pull/140
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.12.16-GTNH...1.13.0-GTNH
+>
+
+# Updated - ToroHealth - 1.1.0 --> 1.2.0
+Mod is client-side only.
+## *1.2.0*
+>## What's Changed
+>* Fix 2 minor bugs by @Alexdoru in https://github.com/GTNewHorizons/ToroHealth/pull/4
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ToroHealth/compare/1.1.0...1.2.0
 >
 
 # Updated - Universal-Singularities - 8.9.0 --> 8.10.0
@@ -14059,7 +14226,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.6.35...2.7.0
 >
 
-# Updated - waila - 1.8.2 --> 1.8.7
+# Updated - waila - 1.8.2 --> 1.8.8
+## *1.8.8*
+>## What's Changed
+>* Re-encode `cs_CZ.lang` into UTF-8 by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/waila/pull/32
+>* Make strings rendering ignore transparency by @Alexdoru in https://github.com/GTNewHorizons/waila/pull/33
+>* Add config to show icon on HUD or not by @Alexdoru in https://github.com/GTNewHorizons/waila/pull/35
+>
+>## New Contributors
+>* @Nikolay-Sitnikov made their first contribution in https://github.com/GTNewHorizons/waila/pull/32
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.7...1.8.8
+>
+
 ## *1.8.7*
 >## What's Changed
 >* Stop running tick events twice per tick by @Alexdoru in https://github.com/GTNewHorizons/waila/pull/30

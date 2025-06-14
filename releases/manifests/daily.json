@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-06-13T12:20:54.753005",
-  "config": "2.8.0-nightly-2025-06-08",
+  "last_updated": "2025-06-14T03:53:39.859970",
+  "config": "2.8.0-nightly-2025-06-14",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.1.7-GTNH",
+      "version": "1.1.11-GTNH",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.339",
+      "version": "5.09.51.344",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.204",
+      "version": "2.7.210",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.52-GTNH",
+      "version": "2.7.54-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.35-GTNH",
+      "version": "1.13.37-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -545,7 +545,7 @@
       "side": "BOTH"
     },
     "ToroHealth": {
-      "version": "1.1.0",
+      "version": "1.2.0",
       "side": "CLIENT"
     },
     "Translocators": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.8.7",
+      "version": "1.8.8",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.1.8-GTNH",
+      "version": "2.1.9-GTNH",
       "side": "BOTH"
     },
     "Postea": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.34-GTNH",
+      "version": "1.2.35-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
