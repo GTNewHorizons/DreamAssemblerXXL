@@ -3786,7 +3786,49 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/EnhancedLootBags/compare/1.1.1...1.2.0
 >
 
-# New Mod - Et-Futurum-Requiem:2.6.2.9-GTNH
+# New Mod - Et-Futurum-Requiem:2.6.2.17-GTNH-daily
+## *2.6.2.17-GTNH-daily*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.16-GTNH-pre...2.6.2.17-GTNH-daily
+>
+
+## *2.6.2.16-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/commits/2.6.2.16-GTNH-pre
+>
+
+## *2.6.2.15-GTNH-pre*
+>## What's Changed
+>* Prevent mending from applying to non-repairable items by @FourIsTheNumber in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/14
+>
+>## New Contributors
+>* @FourIsTheNumber made their first contribution in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/14
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.14-GTNH-pre...2.6.2.15-GTNH-pre
+>
+
+## *2.6.2.14-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.13-GTNH-pre...2.6.2.14-GTNH-pre
+>
+
+## *2.6.2.13-GTNH-pre*
+>## What's Changed
+>* Gtnh by @Dream-Master in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/13
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.12-GTNH-pre...2.6.2.13-GTNH-pre
+>
+
+## *2.6.2.12-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.9-GTNH...2.6.2.12-GTNH-pre
+>
+
+## *2.6.2.11-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.10-GTNH-pre...2.6.2.11-GTNH-pre
+>
+
+## *2.6.2.10-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.9-GTNH...2.6.2.10-GTNH-pre
+>
+
 ## *2.6.2.9-GTNH*
 >## What's Changed
 >* Update build.gradle by @Dream-Master in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/12

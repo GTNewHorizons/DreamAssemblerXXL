@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-06-14T03:53:39.859970",
+  "last_updated": "2025-06-14T08:21:37.210936",
   "config": "2.8.0-nightly-2025-06-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.2.9-GTNH",
+      "version": "2.6.2.17-GTNH-daily",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
