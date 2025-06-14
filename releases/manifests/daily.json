@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-06-14T08:21:37.210936",
+  "last_updated": "2025-06-14T10:09:49.013753",
   "config": "2.8.0-nightly-2025-06-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -161,7 +161,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.6.7",
+      "version": "1.6.9",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.4.5",
+      "version": "1.4.7",
       "side": "BOTH"
     },
     "IFU": {

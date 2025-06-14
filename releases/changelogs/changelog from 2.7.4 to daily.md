@@ -3484,7 +3484,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.3.14-GTNH...1.4.0-GTNH
 >
 
-# Updated - Electro-Magic-Tools - 1.5.17 --> 1.6.7
+# Updated - Electro-Magic-Tools - 1.5.17 --> 1.6.9
+## *1.6.9*
+>## What's Changed
+>* Fix ConcurrentModificationException in ItemShieldFocus by @cargocats in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/95
+>* Update uses of crafting tools by @Vlamonster in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/96
+>
+>## New Contributors
+>* @cargocats made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/95
+>* @Vlamonster made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/96
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.7...1.6.9
+>
+
+## *1.6.8-pre*
+>## What's Changed
+>* Fix ConcurrentModificationException in ItemShieldFocus by @cargocats in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/95
+>
+>## New Contributors
+>* @cargocats made their first contribution in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/95
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.7...1.6.8-pre
+>
+
 ## *1.6.7*
 >## What's Changed
 >* Essentia Generator Cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/93
@@ -8627,7 +8649,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.0-GTNH...2.5.1-GTNH
 >
 
-# Updated - HydroEnergy - 1.4.3 --> 1.4.5
+# Updated - HydroEnergy - 1.4.3 --> 1.4.7
+## *1.4.7*
+>## What's Changed
+>* Update uses of crafting tools by @Vlamonster in https://github.com/GTNewHorizons/HydroEnergy/pull/35
+>
+>## New Contributors
+>* @Vlamonster made their first contribution in https://github.com/GTNewHorizons/HydroEnergy/pull/35
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.5...1.4.7
+>
+
+## *1.4.6-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.5...1.4.6-pre
+>
+
 ## *1.4.5*
 >## What's Changed
 >* Stop using deprecated onScrewdriverRightClick by @Kogepan229 in https://github.com/GTNewHorizons/HydroEnergy/pull/34
