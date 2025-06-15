@@ -8012,7 +8012,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.77
+# Updated - Hodgepodge - 2.5.90 --> 2.6.78
+## *2.6.78*
+>## What's Changed
+>* Fix eventbus keeping object references after unregistering handler by @Lyfts in https://github.com/GTNewHorizons/Hodgepodge/pull/554
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.77...2.6.78
+>
+
 ## *2.6.77*
 >## What's Changed
 >* Fix adding Thrower to inventory-dropped items by @Ruling-0 in https://github.com/GTNewHorizons/Hodgepodge/pull/559
