@@ -9185,7 +9185,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Irontanks/compare/1.3.0...1.4.0
 >
 
-# Updated - Jabba - 1.4.7 --> 1.5.4
+# Updated - Jabba - 1.4.7 --> 1.5.5
+## *1.5.5*
+>## What's Changed
+>* Drop all stacks instead of just 64 to match storage drawers by @Caedis in https://github.com/GTNewHorizons/Jabba/pull/41
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.4...1.5.5
+>
+
 ## *1.5.4*
 >## What's Changed
 >* barrels insert extracted items into inventory before dropping on floor by @asquared31415 in https://github.com/GTNewHorizons/Jabba/pull/39

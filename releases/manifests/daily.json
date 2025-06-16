@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-06-15T04:02:24.819543",
+  "last_updated": "2025-06-16T04:04:29.419705",
   "config": "2.8.0-nightly-2025-06-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -285,7 +285,7 @@
       "side": "BOTH"
     },
     "Jabba": {
-      "version": "1.5.4",
+      "version": "1.5.5",
       "side": "BOTH"
     },
     "LittleTiles": {
