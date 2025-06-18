@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-06-17T03:59:41.097500",
-  "config": "2.8.0-nightly-2025-06-14",
+  "last_updated": "2025-06-18T03:59:21.426663",
+  "config": "2.8.0-nightly-2025-06-17",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.54-GTNH",
+      "version": "2.7.56-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -677,7 +677,7 @@
       "side": "BOTH"
     },
     "Random-Things": {
-      "version": "2.6.3",
+      "version": "2.6.4",
       "side": "BOTH"
     },
     "Tainted-Magic": {
@@ -709,7 +709,7 @@
       "side": "BOTH"
     },
     "Nutrition": {
-      "version": "0.1.1",
+      "version": "0.1.2",
       "side": "BOTH"
     },
     "Default-Configs": {

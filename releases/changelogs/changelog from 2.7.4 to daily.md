@@ -11470,7 +11470,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.54-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.56-GTNH
+## *2.7.56-GTNH*
+>## What's Changed
+>* Fix WorldClient leak in ItemModSpawner by @Alexdoru in https://github.com/GTNewHorizons/NotEnoughItems/pull/637
+>* Add Autocrafting Option by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/649
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.54-GTNH...2.7.56-GTNH
+>
+
+## *2.7.55-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.54-GTNH...2.7.55-GTNH-pre
+>
+
 ## *2.7.54-GTNH*
 >## What's Changed
 >* Add Bookmark items with recipe Option by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/644
@@ -11902,7 +11915,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.7...2.6.8-pre
 >
 
-# Updated - Nutrition - 0.0.13 --> 0.1.1
+# Updated - Nutrition - 0.0.13 --> 0.1.2
+## *0.1.2*
+>## What's Changed
+>* unbind keybind by default by @Alexdoru in https://github.com/GTNewHorizons/Nutrition/pull/27
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Nutrition/compare/0.1.1...0.1.2
+>
+
 ## *0.1.1*
 >## What's Changed
 >* add moceatures ratburger to grains by @xronin01 in https://github.com/GTNewHorizons/Nutrition/pull/26
@@ -12431,7 +12452,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.15.15...9.16.0
 >
 
-# Updated - Random-Things - 2.6.0 --> 2.6.3
+# Updated - Random-Things - 2.6.0 --> 2.6.4
+## *2.6.4*
+>## What's Changed
+>* Delete access transformer file by @Alexdoru in https://github.com/GTNewHorizons/Random-Things/pull/11
+>* Optimize bloodmoon spawning algorithm and entity NBT access by @Alexdoru in https://github.com/GTNewHorizons/Random-Things/pull/10
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.6.3...2.6.4
+>
+
+## *2.6.4-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Random-Things/compare/2.6.3...2.6.4-pre
+>
+
 ## *2.6.3*
 >## What's Changed
 >* Fix bloodmoon not checking gamerule by @Alexdoru in https://github.com/GTNewHorizons/Random-Things/pull/12
