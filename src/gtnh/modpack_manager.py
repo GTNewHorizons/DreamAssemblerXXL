@@ -1233,7 +1233,9 @@ class GTNHModpackManager:
                 changes.append(f"Mod is {get_pretty_side_string(new_version.side)}.")
 
             for i, version in enumerate(reversed(mod_versions)):
-                if i != 0 and version.prerelease:
+                if i != 0 and (
+                    version.prerelease or (version.version_tag.endswith("-pre") or version.version_tag.endswith("-dev"))
+                ):
                     # Only include prerelease changes if it's the latest release
                     continue
                 if old_version is not None and version.version_tag == old_version.version:
