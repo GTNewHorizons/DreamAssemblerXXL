@@ -1,7 +1,7 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-06-09T04:04:47.807145",
+  "last_updated": "2025-06-12T03:59:50.384507",
   "config": "2.8.0-nightly-2025-06-08",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.85-gtnh-pre",
+      "version": "1.4.88-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-633-GTNH-pre",
+      "version": "rv3-beta-635-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.340-pre",
+      "version": "5.09.51.342-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.30",
+      "version": "0.6.31",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.76",
+      "version": "2.6.77",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta45",
+      "version": "1.0.0-beta46",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -765,11 +765,11 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.0.30-GTNH",
+      "version": "0.0.31-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.20-GTNH",
+      "version": "1.1.21-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
