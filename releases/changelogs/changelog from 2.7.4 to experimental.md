@@ -3205,14 +3205,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.352-pre
-## *5.09.51.352-pre*
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.354-pre
+## *5.09.51.354-pre*
 >## What's Changed
->* Fix EU Detection Covers for LSCs with UHV+ caps by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4496
->* Buffer Block Event Packets by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4491
+>* [Temp Fix] Dont hash null stacks by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4497
 >
 >
->**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.350-pre...5.09.51.352-pre
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.352-pre...5.09.51.354-pre
+>
+
+## *5.09.51.353*
+>## What's Changed
+>* [Temp Fix] Dont hash null stacks by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4497
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.351...5.09.51.353
 >
 
 ## *5.09.51.351*
@@ -10884,7 +10891,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.3.1...0.4.0
 >
 
-# Updated - twilightforest - 2.6.37 --> 2.7.7
+# Updated - twilightforest - 2.6.37 --> 2.7.8
+## *2.7.8*
+>## What's Changed
+>* Fix an incorrect asset path for the mob.yeti.pant sound by @Charsy89 in https://github.com/GTNewHorizons/twilightforest/pull/114
+>
+>## New Contributors
+>* @Charsy89 made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/114
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.7...2.7.8
+>
+
 ## *2.7.7*
 >## What's Changed
 >* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/111
