@@ -1,4 +1,5 @@
 # New Mods: 
+> * AE2NoUltimatePatterns
 > * Backhand
 > * Battlegear2-for-Backhand
 > * Darkerer
@@ -359,6 +360,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.50-gtnh...1.4.0-gtnh
 >
 
+# New Mod - AE2NoUltimatePatterns:1.0.0
+## *1.0.0*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2NoUltimatePatterns/commits/1.0.0
+>
+
 # Updated - AdventureBackpack2 - 1.3.5-GTNH --> 1.3.9-GTNH
 ## *1.3.9-GTNH*
 >## What's Changed
@@ -650,7 +656,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-639-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-641-GTNH
+## *rv3-beta-641-GTNH*
+>## What's Changed
+>* Reduce ME Chest Display Updates by @RecursivePineapple in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/780
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-639-GTNH...rv3-beta-641-GTNH
+>
+
 ## *rv3-beta-639-GTNH*
 >## What's Changed
 >* Fix CompassService waiting for tasks on world stop by @Caedis in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/776
@@ -1812,7 +1826,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.38
+# Updated - BloodMagic - 1.6.11 --> 1.7.39
+## *1.7.39*
+>## What's Changed
+>* Fix ritual diviner lang by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/97
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.38...1.7.39
+>
+
 ## *1.7.38*
 >## What's Changed
 >* Show Required Reagents for Fillers Replaced by Reagents by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/93
@@ -3127,7 +3149,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.351
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.353
+## *5.09.51.353*
+>## What's Changed
+>* [Temp Fix] Dont hash null stacks by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4497
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.351...5.09.51.353
+>
+
 ## *5.09.51.351*
 >## What's Changed
 >* Fix EU Detection Covers for LSCs with UHV+ caps by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4496
@@ -10736,7 +10766,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/thaumicinsurgence/compare/0.3.1...0.4.0
 >
 
-# Updated - twilightforest - 2.6.37 --> 2.7.7
+# Updated - twilightforest - 2.6.37 --> 2.7.8
+## *2.7.8*
+>## What's Changed
+>* Fix an incorrect asset path for the mob.yeti.pant sound by @Charsy89 in https://github.com/GTNewHorizons/twilightforest/pull/114
+>
+>## New Contributors
+>* @Charsy89 made their first contribution in https://github.com/GTNewHorizons/twilightforest/pull/114
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.7...2.7.8
+>
+
 ## *2.7.7*
 >## What's Changed
 >* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/twilightforest/pull/111
