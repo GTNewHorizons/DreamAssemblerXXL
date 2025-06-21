@@ -202,7 +202,7 @@ class GTNHModpackManager:
         if releaseVersion == "daily":
             if isinstance(versionable, GTNHModInfo):
                 await self.update_github_mod_from_repo(versionable, repo)
-            await self.update_versions_from_repo(versionable, repo)
+            await self.update_versions_from_repo(versionable, repo, releaseVersion=releaseVersion)
 
             compareVersions = versionable.versions.copy()
 
@@ -242,7 +242,9 @@ class GTNHModpackManager:
 
         # Versionable
         if version_updated or not versionable.versions:
-            versionable_updated |= await self.update_versions_from_repo(versionable, repo)
+            versionable_updated |= await self.update_versions_from_repo(
+                versionable, repo, releaseVersion=releaseVersion
+            )
 
         if versionable_updated:
             self.needs_attention = False
@@ -313,12 +315,16 @@ class GTNHModpackManager:
         return latest_release
 
     async def update_versions_from_repo(
-        self, asset: Versionable, repo: AttributeDict, for_translation: bool = False
+        self, asset: Versionable, repo: AttributeDict, for_translation: bool = False, releaseVersion: str | None = None
     ) -> bool:
         releases = [AttributeDict(r) async for r in self.gh.getiter(repo_releases_uri(self.org, repo.name))]
         if for_translation:
             releases = [r for r in releases if r.tag_name.endswith("-latest")]
 
+        if releaseVersion == "daily":
+            releases = [r for r in releases if not r.tag_name.endswith("-pre")]
+
+        old_latest_version = asset.latest_version
         # Sorted releases, newest version first
         sorted_releases: List[AttributeDict] = sorted(releases, key=lambda r: LegacyVersion(r.tag_name), reverse=True)  # type: ignore
         version_updated = False
@@ -330,9 +336,8 @@ class GTNHModpackManager:
                 if for_translation:
                     # Just skip it if we find a duplicate translation release, don't bail entirely
                     continue
-                else:
-                    # We don't support updating of tagged versions, so if we see a version we already have, skip it
-                    # and the rest of the versions
+                if release.tag_name == old_latest_version:
+                    # Hit the old latest version, no more newer releases
                     break
 
             version = version_from_release(release, asset.type)
@@ -357,11 +362,13 @@ class GTNHModpackManager:
                 )
                 asset.latest_version = version.version_tag
 
-            log.debug(
-                f"Adding version {Fore.GREEN}`{version.version_tag}`{Style.RESET_ALL} for asset "
-                f"`{Fore.CYAN}{asset.name}{Fore.RESET}`"
-            )
-            asset.add_version(version)
+            if not asset.has_version(release.tag_name):
+                log.debug(
+                    f"Adding version {Fore.GREEN}`{version.version_tag}`{Style.RESET_ALL} for asset "
+                    f"`{Fore.CYAN}{asset.name}{Fore.RESET}`"
+                )
+                asset.add_version(version)
+
             version_updated = True
 
         return version_updated
