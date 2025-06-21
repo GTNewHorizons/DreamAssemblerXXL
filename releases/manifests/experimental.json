@@ -1,7 +1,7 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-06-20T23:22:30.548047",
+  "last_updated": "2025-06-21T06:40:14.197675",
   "config": "2.8.0-nightly-2025-06-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.90-gtnh-pre",
+      "version": "1.4.89-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-640-GTNH-pre",
+      "version": "rv3-beta-639-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.11.13-GTNH-pre",
+      "version": "1.1.12-GTNH",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.352-pre",
+      "version": "5.09.51.351",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.22-pre",
+      "version": "2.8.21",
       "side": "BOTH"
     },
     "ironchest": {
@@ -285,7 +285,7 @@
       "side": "BOTH"
     },
     "Jabba": {
-      "version": "1.5.7-pre",
+      "version": "1.5.6",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.212-pre",
+      "version": "2.7.211",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.6.16-pre",
+      "version": "2.6.12",
       "side": "BOTH"
     },
     "oauth": {
@@ -473,7 +473,7 @@
       "side": "BOTH"
     },
     "StructureCompat": {
-      "version": "0.7.3-pre",
+      "version": "0.7.2",
       "side": "BOTH"
     },
     "StructureLib": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.39-GTNH-pre",
+      "version": "1.13.38-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.8.9-pre",
+      "version": "1.8.8",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.2.19-pre",
+      "version": "1.2.18",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.1.10-GTNH-pre",
+      "version": "2.1.9-GTNH",
       "side": "BOTH"
     },
     "Postea": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "ModernMarkings": {
-      "version": "0.3.6-1.7.10-pre",
+      "version": "0.3.5-1.7.10",
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.6.20-pre",
+      "version": "1.6.19",
       "side": "BOTH"
     }
   },
