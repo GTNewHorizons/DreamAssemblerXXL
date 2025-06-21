@@ -1,7 +1,7 @@
 {
   "version": "previous_experimental",
-  "last_version": "2.7.4",
-  "last_updated": "2025-06-21T08:39:11.824826",
+  "last_version": "previous_experimental",
+  "last_updated": "2025-06-21T09:04:36.452473",
   "config": "2.8.0-nightly-2025-06-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-640-GTNH-pre",
+      "version": "rv3-beta-642-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.38",
+      "version": "1.7.39",
       "side": "BOTH"
     },
     "Botania": {

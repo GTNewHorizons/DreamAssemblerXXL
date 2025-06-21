@@ -1,7 +1,7 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-06-21T09:04:36.452473",
+  "last_updated": "2025-06-21T11:58:37.154596",
   "config": "2.8.0-nightly-2025-06-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.352-pre",
+      "version": "5.09.51.354-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -553,7 +553,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.7",
+      "version": "2.7.8",
       "side": "BOTH"
     },
     "Universal-Singularities": {
