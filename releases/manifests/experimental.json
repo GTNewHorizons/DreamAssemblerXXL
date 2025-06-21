@@ -1,7 +1,7 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-06-21T06:40:14.197675",
+  "last_updated": "2025-06-21T08:04:44.706144",
   "config": "2.8.0-nightly-2025-06-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.89-gtnh",
+      "version": "1.4.90-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-639-GTNH",
+      "version": "rv3-beta-640-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.7.5-GTNH",
+      "version": "3.7.6-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -89,11 +89,11 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.12.12-GTNH",
+      "version": "1.12.13-GTNH-pre",
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.1.12-GTNH",
+      "version": "1.11.13-GTNH-pre",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.351",
+      "version": "5.09.51.352-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.79",
+      "version": "2.6.80-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.21",
+      "version": "2.8.22-pre",
       "side": "BOTH"
     },
     "ironchest": {
@@ -285,7 +285,7 @@
       "side": "BOTH"
     },
     "Jabba": {
-      "version": "1.5.6",
+      "version": "1.5.7-pre",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.211",
+      "version": "2.7.212-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.0",
+      "version": "1.7.3-pre",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.6.12",
+      "version": "2.6.16-pre",
       "side": "BOTH"
     },
     "oauth": {
@@ -473,11 +473,11 @@
       "side": "BOTH"
     },
     "StructureCompat": {
-      "version": "0.7.2",
+      "version": "0.7.3-pre",
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.12",
+      "version": "1.4.14-pre",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -505,7 +505,7 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.4.0-GTNH",
+      "version": "1.4.1-GTNH-pre",
       "side": "BOTH"
     },
     "ThaumicBases": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.38-GTNH",
+      "version": "1.13.39-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.8.8",
+      "version": "1.8.9-pre",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.2.18",
+      "version": "1.2.19-pre",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -717,11 +717,11 @@
       "side": "CLIENT"
     },
     "ThaumicBoots": {
-      "version": "1.4.7",
+      "version": "1.4.8-pre",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
-      "version": "1.3.5",
+      "version": "1.3.6-pre",
       "side": "BOTH"
     },
     "ServerUtilities": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.1.9-GTNH",
+      "version": "2.1.10-GTNH-pre",
       "side": "BOTH"
     },
     "Postea": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "ModernMarkings": {
-      "version": "0.3.5-1.7.10",
+      "version": "0.3.6-1.7.10-pre",
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.6.19",
+      "version": "1.6.20-pre",
       "side": "BOTH"
     }
   },
