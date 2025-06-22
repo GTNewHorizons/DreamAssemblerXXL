@@ -1,7 +1,7 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-06-21T12:14:40.746678",
+  "last_updated": "2025-06-22T17:33:44.117350",
   "config": "2.8.0-nightly-2025-06-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.90-gtnh-pre",
+      "version": "1.4.92-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-642-GTNH-pre",
+      "version": "rv3-beta-644-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.39",
+      "version": "1.7.40",
       "side": "BOTH"
     },
     "Botania": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.354-pre",
+      "version": "5.09.51.356-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.80-pre",
+      "version": "2.6.81",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.57-GTNH",
+      "version": "2.7.58-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.39-GTNH-pre",
+      "version": "1.13.40-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -765,7 +765,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.0.32-GTNH",
+      "version": "0.0.33.1-GTNH-pre",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "ModernMarkings": {
-      "version": "0.3.6-1.7.10-pre",
+      "version": "0.3.7-1.7.10",
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.6.20-pre",
+      "version": "1.6.21-pre",
       "side": "BOTH"
     },
     "AE2NoUltimatePatterns": {
