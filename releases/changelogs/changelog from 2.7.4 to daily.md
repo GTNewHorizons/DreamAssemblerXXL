@@ -6930,7 +6930,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.5.0...0.5.1
 >
 
-# New Mod - MatterManipulator:0.0.32-GTNH
+# New Mod - MatterManipulator:0.0.33-GTNH
+## *0.0.33-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.31-GTNH...0.0.33-GTNH
+>
+
 ## *0.0.32-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.31-GTNH...0.0.32-GTNH
 >
