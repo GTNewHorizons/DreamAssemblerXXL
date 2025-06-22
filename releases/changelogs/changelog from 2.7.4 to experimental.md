@@ -20,9 +20,17 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.90-gtnh-pre
-## *1.4.90-gtnh-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.89-gtnh...1.4.90-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.92-gtnh-pre
+## *1.4.92-gtnh-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.91-gtnh...1.4.92-gtnh-pre
+>
+
+## *1.4.91-gtnh*
+>## What's Changed
+>* Add Super Stock Replenisher by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/278
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.89-gtnh...1.4.91-gtnh
 >
 
 ## *1.4.89-gtnh*
@@ -664,13 +672,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-642-GTNH-pre
-## *rv3-beta-642-GTNH-pre*
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-644-GTNH-pre
+## *rv3-beta-644-GTNH-pre*
 >## What's Changed
->* Reduce ME Chest Display Updates by @RecursivePineapple in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/780
+>* Smart partition button by @NeOzay in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/756
 >
 >
->**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-640-GTNH-pre...rv3-beta-642-GTNH-pre
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-642-GTNH-pre...rv3-beta-644-GTNH-pre
+>
+
+## *rv3-beta-643-GTNH*
+>## What's Changed
+>* Smart partition button by @NeOzay in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/756
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-641-GTNH...rv3-beta-643-GTNH
 >
 
 ## *rv3-beta-641-GTNH*
@@ -1296,16 +1312,9 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.8.4-GTNH...1.9.0-GTNH
 >
 
-# New Mod - Backhand:1.6.20-pre
-## *1.6.20-pre*
->## What's Changed
->* Add Torch Tweaks from ClientTweaks by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/101
->* Spotless apply for branch reworkRightClickOrder for #100 by @github-actions in https://github.com/GTNewHorizons/Backhand/pull/102
->
->## New Contributors
->* @github-actions made their first contribution in https://github.com/GTNewHorizons/Backhand/pull/102
->
->**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.19...1.6.20-pre
+# New Mod - Backhand:1.6.21-pre
+## *1.6.21-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.20-pre...1.6.21-pre
 >
 
 ## *1.6.19*
@@ -1861,7 +1870,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.39
+# Updated - BloodMagic - 1.6.11 --> 1.7.40
+## *1.7.40*
+>## What's Changed
+>* Fix "Vis discount" Tooltip for Sanguine Armor by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/98
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.39...1.7.40
+>
+
 ## *1.7.39*
 >## What's Changed
 >* Fix ritual diviner lang by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/97
@@ -3205,13 +3222,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.354-pre
-## *5.09.51.354-pre*
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.356-pre
+## *5.09.51.356-pre*
 >## What's Changed
->* [Temp Fix] Dont hash null stacks by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4497
+>* Fix file name casing of custom tc4 aspects by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4507
 >
 >
->**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.352-pre...5.09.51.354-pre
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.354-pre...5.09.51.356-pre
+>
+
+## *5.09.51.355*
+>## What's Changed
+>* Fix file name casing of custom tc4 aspects by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4507
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.353...5.09.51.355
 >
 
 ## *5.09.51.353*
@@ -5771,9 +5796,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.3-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.80-pre
-## *2.6.80-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.79...2.6.80-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.81
+## *2.6.81*
+>## What's Changed
+>* Disable some patches when ultramine present by @SKProCH in https://github.com/GTNewHorizons/Hodgepodge/pull/562
+>* Refer to Galacticraft by its name instead of an abbreviation by @Charsy89 in https://github.com/GTNewHorizons/Hodgepodge/pull/567
+>
+>## New Contributors
+>* @SKProCH made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/562
+>* @Charsy89 made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/567
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.79...2.6.81
 >
 
 ## *2.6.79*
@@ -7006,7 +7039,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.5.0...0.5.1
 >
 
-# New Mod - MatterManipulator:0.0.32-GTNH
+# New Mod - MatterManipulator:0.0.33.1-GTNH-pre
+## *0.0.33.1-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.33-GTNH...0.0.33.1-GTNH-pre
+>
+
+## *0.0.33-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.31-GTNH...0.0.33-GTNH
+>
+
 ## *0.0.32-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.31-GTNH...0.0.32-GTNH
 >
@@ -7161,9 +7202,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.11.0...0.12.0
 >
 
-# New Mod - ModernMarkings:0.3.6-1.7.10-pre
-## *0.3.6-1.7.10-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/0.3.5-1.7.10...0.3.6-1.7.10-pre
+# New Mod - ModernMarkings:0.3.7-1.7.10
+## *0.3.7-1.7.10*
+>## What's Changed
+>* Made WallMarking Block Bounds Flush With The Wall.  by @DangerousMilk in https://github.com/GTNewHorizons/ModernMarkings/pull/17
+>
+>## New Contributors
+>* @DangerousMilk made their first contribution in https://github.com/GTNewHorizons/ModernMarkings/pull/17
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/0.3.5-1.7.10...0.3.7-1.7.10
 >
 
 ## *0.3.5-1.7.10*
@@ -8378,7 +8425,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.57-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.58-GTNH
+## *2.7.58-GTNH*
+>## What's Changed
+>* Tools in autocrafting by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/653
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.57-GTNH...2.7.58-GTNH
+>
+
 ## *2.7.57-GTNH*
 >## What's Changed
 >* Fix Item Tooltip by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/651
@@ -10107,9 +10162,13 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Tinkers-Defense/compare/1.3.1...1.3.2
 >
 
-# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.39-GTNH-pre
-## *1.13.39-GTNH-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.38-GTNH...1.13.39-GTNH-pre
+# Updated - TinkersConstruct - 1.12.18-GTNH --> 1.13.40-GTNH
+## *1.13.40-GTNH*
+>## What's Changed
+>* Add Autocrafting to Crafting Station by @slprime in https://github.com/GTNewHorizons/TinkersConstruct/pull/185
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.38-GTNH...1.13.40-GTNH
 >
 
 ## *1.13.38-GTNH*
