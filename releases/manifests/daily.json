@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-06-22T04:03:45.609915",
+  "last_updated": "2025-06-23T04:06:29.398156",
   "config": "2.8.0-nightly-2025-06-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.89-gtnh",
+      "version": "1.4.91-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-641-GTNH",
+      "version": "rv3-beta-643-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.39",
+      "version": "1.7.40",
       "side": "BOTH"
     },
     "Botania": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.353",
+      "version": "5.09.51.355",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.79",
+      "version": "2.6.81",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.57-GTNH",
+      "version": "2.7.58-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.38-GTNH",
+      "version": "1.13.40-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "ModernMarkings": {
-      "version": "0.3.5-1.7.10",
+      "version": "0.3.7-1.7.10",
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
