@@ -5739,7 +5739,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.3-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.81
+# Updated - Hodgepodge - 2.5.90 --> 2.6.82
+## *2.6.82*
+>## What's Changed
+>* Expand #540 to check for '' (empty) sounds, and to cover more than just EntityLiving#getLivingSound by @Charsy89 in https://github.com/GTNewHorizons/Hodgepodge/pull/565
+>* Rework Bed Set Spawn Mixin by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/566
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.81...2.6.82
+>
+
 ## *2.6.81*
 >## What's Changed
 >* Disable some patches when ultramine present by @SKProCH in https://github.com/GTNewHorizons/Hodgepodge/pull/562
