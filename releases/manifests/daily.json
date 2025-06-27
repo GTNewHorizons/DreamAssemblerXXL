@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-06-27T04:00:39.957767",
-  "config": "2.8.0-nightly-2025-06-21",
+  "last_updated": "2025-06-27T15:05:27.756432",
+  "config": "2.8.0-nightly-2025-06-27",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.82",
+      "version": "2.6.83",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -357,11 +357,11 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.0",
+      "version": "1.7.4",
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.58-GTNH",
+      "version": "2.7.59-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {

@@ -5758,7 +5758,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.3-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.82
+# Updated - Hodgepodge - 2.5.90 --> 2.6.83
+## *2.6.83*
+>## What's Changed
+>* Fix compat with ModernKeybindings by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/569
+>* Delete unnecessary invoker interface for MixinNBTTagList_speedup by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/570
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.82...2.6.83
+>
+
 ## *2.6.82*
 >## What's Changed
 >* Expand #540 to check for '' (empty) sounds, and to cover more than just EntityLiving#getLivingSound by @Charsy89 in https://github.com/GTNewHorizons/Hodgepodge/pull/565
@@ -8351,6 +8360,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Nodal-Mechanics/compare/1.3.0-GTNH...1.3.1-GTNH
 >
 
+# Updated - NotEnoughEnergistics - 1.7.0 --> 1.7.4
+## *1.7.4*
+>## What's Changed
+>* ME, FC, WC Terminals by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/42
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.0...1.7.4
+>
+
 # Updated - NotEnoughIds - 2.1.6 --> 2.1.9
 ## *2.1.9*
 >## What's Changed
@@ -8370,7 +8388,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.58-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.59-GTNH
+## *2.7.59-GTNH*
+>## What's Changed
+>* Autocrafting Improvement by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/655
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.58-GTNH...2.7.59-GTNH
+>
+
 ## *2.7.58-GTNH*
 >## What's Changed
 >* Tools in autocrafting by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/653
