@@ -3173,7 +3173,26 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.355
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.357
+## *5.09.51.357*
+>## What's Changed
+>* added Data Orb copying for ME Output Bus by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4470
+>* Fixed misaligned entries in MaterialsInit1.java by @apia46 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4495
+>* [Memory-opti:static allocations:16 MB] Only allocate owner/ stacktrace ArrayLists in GTRecipes when config is ON by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4513
+>* Add laser & energy hatches to Large Naquadah Reactor by @JuanICasareski in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4510
+>* [Memory-opti:static allocations:5 MB] Stop allocating zero length arrays in GTRecipes by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4514
+>* delete unused class FlowerSet.java by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4515
+>* [Memory-opti:runtime allocations] Reduce allocations by using the same zero length array singletons by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4516
+>* fix output hatch partition by @lc-1337 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4518
+>* Deprecate `GTUtility.signum` in Favor of `Integer.signum` and `Long.signum` by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4517
+>
+>## New Contributors
+>* @apia46 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4495
+>* @JuanICasareski made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4510
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.355...5.09.51.357
+>
+
 ## *5.09.51.355*
 >## What's Changed
 >* Fix file name casing of custom tc4 aspects by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4507
