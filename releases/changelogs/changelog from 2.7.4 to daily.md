@@ -20,7 +20,17 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.91-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.93-gtnh
+## *1.4.93-gtnh*
+>## What's Changed
+>* Fix FluidExportBus NPE by @zyf051520 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/314
+>
+>## New Contributors
+>* @zyf051520 made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/314
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.91-gtnh...1.4.93-gtnh
+>
+
 ## *1.4.91-gtnh*
 >## What's Changed
 >* Add Super Stock Replenisher by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/278
@@ -664,7 +674,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-643-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-645-GTNH
+## *rv3-beta-645-GTNH*
+>## What's Changed
+>* Highlight network machine in world with shift click in network tool gui and open machine gui through network tool by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/703
+>* Make the charge rate of the Charger be affected by the multiplier of the power config by @Ethryan in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/781
+>* Fix bug when on merge you got weird behavior by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/766
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-643-GTNH...rv3-beta-645-GTNH
+>
+
 ## *rv3-beta-643-GTNH*
 >## What's Changed
 >* Smart partition button by @NeOzay in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/756
@@ -1296,7 +1316,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.8.4-GTNH...1.9.0-GTNH
 >
 
-# New Mod - Backhand:1.6.19
+# New Mod - Backhand:1.6.22
+## *1.6.22*
+>## What's Changed
+>* merge identical mixins in MixinInventoryPlayer by @Alexdoru in https://github.com/GTNewHorizons/Backhand/pull/105
+>
+>## New Contributors
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Backhand/pull/105
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.19...1.6.22
+>
+
 ## *1.6.19*
 >## What's Changed
 >* Fix DE Tools/Armor Config GUI by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/99
@@ -2134,7 +2164,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.11.6-GTNH...1.12.1-GTNH
 >
 
-# Updated - Botanic-horizons - 1.1.7-GTNH --> 1.1.12-GTNH
+# Updated - Botanic-horizons - 1.1.7-GTNH --> 1.11.14-GTNH
+## *1.11.14-GTNH*
+>## What's Changed
+>* Botania Multiblocks by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/33
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.1.12-GTNH...1.11.14-GTNH
+>
+
 ## *1.1.12-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.1.11-GTNH...1.1.12-GTNH
 >
@@ -6302,7 +6340,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.6.0...2.6.2
 >
 
-# Updated - InGame-Info-XML - 2.8.20 --> 2.8.21
+# Updated - InGame-Info-XML - 2.8.20 --> 2.8.23
+## *2.8.23*
+>## What's Changed
+>* Add delimiter formatting for life essence from BloodMagic by @Shinusei in https://github.com/GTNewHorizons/InGame-Info-XML/pull/30
+>
+>## New Contributors
+>* @Shinusei made their first contribution in https://github.com/GTNewHorizons/InGame-Info-XML/pull/30
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.21...2.8.23
+>
+
 ## *2.8.21*
 >## What's Changed
 >* fix WorldClient memory leak by @Alexdoru in https://github.com/GTNewHorizons/InGame-Info-XML/pull/29
@@ -8360,7 +8408,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Nodal-Mechanics/compare/1.3.0-GTNH...1.3.1-GTNH
 >
 
-# Updated - NotEnoughEnergistics - 1.7.0 --> 1.7.4
+# Updated - NotEnoughEnergistics - 1.7.0 --> 1.7.5
+## *1.7.5*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.4...1.7.5
+>
+
 ## *1.7.4*
 >## What's Changed
 >* ME, FC, WC Terminals by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/42
@@ -10551,7 +10603,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.0...1.7.1
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.6-GTNH
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.7-GTNH
+## *1.7.7-GTNH*
+>## What's Changed
+>* add back the vis discount tooltip. by @RubilaxXxx in https://github.com/GTNewHorizons/WitchingGadgets/pull/77
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.6-GTNH...1.7.7-GTNH
+>
+
 ## *1.7.6-GTNH*
 >## What's Changed
 >* prevent infinite loader loop with other gt versions by @felixfour in https://github.com/GTNewHorizons/WitchingGadgets/pull/75

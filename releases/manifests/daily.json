@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-06-27T15:05:27.756432",
+  "last_updated": "2025-06-28T03:54:46.693534",
   "config": "2.8.0-nightly-2025-06-27",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.91-gtnh",
+      "version": "1.4.93-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-643-GTNH",
+      "version": "rv3-beta-645-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.1.12-GTNH",
+      "version": "1.11.14-GTNH",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.21",
+      "version": "2.8.23",
       "side": "BOTH"
     },
     "ironchest": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.4",
+      "version": "1.7.5",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.7.6-GTNH",
+      "version": "1.7.7-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.6.19",
+      "version": "1.6.22",
       "side": "BOTH"
     },
     "AE2NoUltimatePatterns": {
