@@ -7174,11 +7174,7 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.5.0...0.5.1
 >
 
-# New Mod - MatterManipulator:0.0.33.1-GTNH-pre
-## *0.0.33.1-GTNH-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.33-GTNH...0.0.33.1-GTNH-pre
->
-
+# New Mod - MatterManipulator:0.0.33-GTNH
 ## *0.0.33-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.31-GTNH...0.0.33-GTNH
 >
@@ -7337,11 +7333,7 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.11.0...0.12.0
 >
 
-# New Mod - ModernMarkings:0.3.8-1.7.10-pre
-## *0.3.8-1.7.10-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/0.3.7-1.7.10...0.3.8-1.7.10-pre
->
-
+# New Mod - ModernMarkings:0.3.7-1.7.10
 ## *0.3.7-1.7.10*
 >## What's Changed
 >* Made WallMarking Block Bounds Flush With The Wall.  by @DangerousMilk in https://github.com/GTNewHorizons/ModernMarkings/pull/17
@@ -7424,9 +7416,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/v0.0.1...v0.0.2
 >
 
-# Updated - ModularUI - 1.2.18 --> 1.2.19-pre
-## *1.2.19-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.2.18...1.2.19-pre
+# Updated - ModularUI - 1.2.18 --> 1.2.20
+## *1.2.20*
+>## What's Changed
+>* Fix FluidSlotWidget fluidChanged detect by @Taskeren in https://github.com/GTNewHorizons/ModularUI/pull/90
+>
+>## New Contributors
+>* @Taskeren made their first contribution in https://github.com/GTNewHorizons/ModularUI/pull/90
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.2.18...1.2.20
 >
 
 # Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.15-1.7.10
@@ -7685,9 +7683,14 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.212-pre
-## *2.7.212-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.211...2.7.212-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.213
+## *2.7.213*
+>## What's Changed
+>* Add recipe for ME throughput monitor by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1294
+>* Add backhand compat for pizza gloves by @Caedis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1295
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.211...2.7.213
 >
 
 ## *2.7.211*
@@ -8889,17 +8892,7 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.51-GTNH...2.7.0-GTNH
 >
 
-# Updated - Nuclear-Control - 2.6.7 --> 2.6.16-pre
-## *2.6.16-pre*
->## What's Changed
->* Update dev username by @koolkrafter5 in https://github.com/GTNewHorizons/Nuclear-Control/pull/27
->
->## New Contributors
->* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/Nuclear-Control/pull/27
->
->**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.15-pre...2.6.16-pre
->
-
+# Updated - Nuclear-Control - 2.6.7 --> 2.6.12
 ## *2.6.12*
 >## What's Changed
 >* Add Factorio rocket silo alarm sound by @2ndDerivative in https://github.com/GTNewHorizons/Nuclear-Control/pull/26
@@ -9778,11 +9771,7 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.0-GTNH...2.1.2-GTNH
 >
 
-# Updated - StructureCompat - 0.6.5 --> 0.7.3-pre
-## *0.7.3-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.7.2...0.7.3-pre
->
-
+# Updated - StructureCompat - 0.6.5 --> 0.7.2
 ## *0.7.2*
 >## What's Changed
 >* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/StructureCompat/pull/11
@@ -9808,11 +9797,7 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.6.5...0.7.0
 >
 
-# Updated - StructureLib - 1.3.6 --> 1.4.14-pre
-## *1.4.14-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.13-pre...1.4.14-pre
->
-
+# Updated - StructureLib - 1.3.6 --> 1.4.12
 ## *1.4.12*
 >## What's Changed
 >* Update dev username by @koolkrafter5 in https://github.com/GTNewHorizons/StructureLib/pull/41
@@ -10039,11 +10024,7 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.7.7...1.8.0
 >
 
-# Updated - ThaumicBoots - 1.3.10 --> 1.4.8-pre
-## *1.4.8-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.7...1.4.8-pre
->
-
+# Updated - ThaumicBoots - 1.3.10 --> 1.4.7
 ## *1.4.7*
 >## What's Changed
 >* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/ThaumicBoots/pull/38
@@ -10098,7 +10079,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.3.10...1.4.0
 >
 
-# Updated - ThaumicEnergistics - 1.6.27-GTNH --> 1.7.7-GTNH
+# Updated - ThaumicEnergistics - 1.6.27-GTNH --> 1.7.8-GTNH
+## *1.7.8-GTNH*
+>## What's Changed
+>* Fix KekzTech jars not working with Essentia Export Buses by @ctrlaltmilk in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/85
+>
+>## New Contributors
+>* @ctrlaltmilk made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/85
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.7-GTNH...1.7.8-GTNH
+>
+
 ## *1.7.7-GTNH*
 >## What's Changed
 >* Adapt to AE2 changes by @Kogepan229 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/84
@@ -10287,11 +10278,6 @@ Mod is client-side only.
 >* @ClassixX made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/42
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.10.2...2.11.0
->
-
-# Updated - Thaumic_Exploration - 1.4.0-GTNH --> 1.4.1-GTNH-pre
-## *1.4.1-GTNH-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.0-GTNH...1.4.1-GTNH-pre
 >
 
 # Updated - TiC-Tooltips - 1.3.1 --> 1.4.0
@@ -10762,9 +10748,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.0...1.7.1
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.8-GTNH-pre
-## *1.7.8-GTNH-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.7-GTNH...1.7.8-GTNH-pre
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.9-GTNH
+## *1.7.9-GTNH*
+>## What's Changed
+>* Fixed IBF particle crash due to particle entities by @70000hp in https://github.com/GTNewHorizons/WitchingGadgets/pull/76
+>
+>## New Contributors
+>* @70000hp made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/76
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.7-GTNH...1.7.9-GTNH
 >
 
 ## *1.7.7-GTNH*
@@ -11207,9 +11199,13 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.6.35...2.7.0
 >
 
-# Updated - waila - 1.8.2 --> 1.8.9-pre
-## *1.8.9-pre*
->**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.8...1.8.9-pre
+# Updated - waila - 1.8.2 --> 1.8.10
+## *1.8.10*
+>## What's Changed
+>* [Memory-opti:fix leak] Fix WorldClient leak in WailaTickHandler and RayTracing by @Alexdoru in https://github.com/GTNewHorizons/waila/pull/31
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.8...1.8.10
 >
 
 ## *1.8.8*
