@@ -1,15 +1,15 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-06-28T15:40:16.932324",
-  "config": "2.8.0-nightly-2025-06-27",
+  "last_updated": "2025-06-29T12:44:27.139455",
+  "config": "2.8.0-nightly-2025-06-28",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.94-gtnh-pre",
+      "version": "1.4.95-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-648-GTNH-pre",
+      "version": "rv3-beta-651-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.67",
+      "version": "1.68",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.43",
+      "version": "1.7.44-pre",
       "side": "BOTH"
     },
     "Botania": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.360-pre",
+      "version": "5.09.51.363-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.83",
+      "version": "2.6.85-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "ironchest": {
-      "version": "6.1.4-pre",
+      "version": "6.1.6",
       "side": "BOTH"
     },
     "IronChestMinecarts": {
@@ -285,7 +285,7 @@
       "side": "BOTH"
     },
     "Jabba": {
-      "version": "1.5.7-pre",
+      "version": "1.5.9-pre",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -309,7 +309,7 @@
       "side": "BOTH"
     },
     "MalisisDoors": {
-      "version": "1.18.0-GTNH",
+      "version": "1.18.1-GTNH",
       "side": "BOTH"
     },
     "Mantle": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.212-pre",
+      "version": "2.7.214-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -469,7 +469,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.1.3-GTNH",
+      "version": "2.1.4-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -509,11 +509,11 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.8.8",
+      "version": "1.8.10-pre",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.7-GTNH",
+      "version": "1.7.8-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.11.13",
+      "version": "2.11.14-pre",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.8.9-pre",
+      "version": "1.8.10",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.7.8-GTNH-pre",
+      "version": "1.7.9-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.2.19-pre",
+      "version": "1.2.20",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "Amazing-Trophies": {
-      "version": "1.3.6-pre",
+      "version": "1.3.7-pre",
       "side": "BOTH"
     },
     "ServerUtilities": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "CoreTweaks": {
-      "version": "0.3.3.4-GTNH",
+      "version": "0.3.3.5-GTNH-pre",
       "side": "BOTH"
     },
     "ModernMarkings": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.6.25-pre",
+      "version": "1.6.27-pre",
       "side": "BOTH"
     },
     "AE2NoUltimatePatterns": {

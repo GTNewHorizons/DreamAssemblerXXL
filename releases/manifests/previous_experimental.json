@@ -1,7 +1,7 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-06-28T14:32:51.451061",
+  "last_updated": "2025-06-28T15:40:16.932324",
   "config": "2.8.0-nightly-2025-06-27",
   "github_mods": {
     "AdventureBackpack2": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.42-pre",
+      "version": "1.7.43",
       "side": "BOTH"
     },
     "Botania": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.24-pre",
+      "version": "2.8.25",
       "side": "BOTH"
     },
     "ironchest": {
