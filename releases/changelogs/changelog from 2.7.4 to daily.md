@@ -1254,7 +1254,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AsieLib/compare/0.6.0...0.7.0
 >
 
-# Updated - Avaritia - 1.59 --> 1.67
+# Updated - Avaritia - 1.59 --> 1.68
+## *1.68*
+>## What's Changed
+>* Remove hard dep on codechicken lib by @Alexdoru in https://github.com/GTNewHorizons/Avaritia/pull/55
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.67...1.68
+>
+
 ## *1.67*
 >## What's Changed
 >* Fix dev environment name by @koolkrafter5 in https://github.com/GTNewHorizons/Avaritia/pull/54
@@ -1316,7 +1324,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.8.4-GTNH...1.9.0-GTNH
 >
 
-# New Mod - Backhand:1.6.22
+# New Mod - Backhand:1.6.26
+## *1.6.26*
+>## What's Changed
+>* General Rework by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/100
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.24...1.6.26
+>
+
+## *1.6.24*
+>## What's Changed
+>* Change offhand texture to modern texture by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/110
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.22...1.6.24
+>
+
 ## *1.6.22*
 >## What's Changed
 >* merge identical mixins in MixinInventoryPlayer by @Alexdoru in https://github.com/GTNewHorizons/Backhand/pull/105
@@ -1872,7 +1896,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.40
+# Updated - BloodMagic - 1.6.11 --> 1.7.43
+## *1.7.43*
+>## What's Changed
+>* Backport WayofTime/BloodMagic@64660d2d282c620e36abf262cc26f49486b7d903 by @ctrlaltmilk in https://github.com/GTNewHorizons/BloodMagic/pull/99
+>
+>## New Contributors
+>* @ctrlaltmilk made their first contribution in https://github.com/GTNewHorizons/BloodMagic/pull/99
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.40...1.7.43
+>
+
 ## *1.7.40*
 >## What's Changed
 >* Fix "Vis discount" Tooltip for Sanguine Armor by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/98
@@ -2187,7 +2221,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.1.7-GTNH...1.1.11-GTNH
 >
 
-# Updated - BuildCraft - 7.1.42 --> 7.1.43
+# Updated - BuildCraft - 7.1.42 --> 7.1.44
+## *7.1.44*
+>## What's Changed
+>* [Memory-opti:static allocations] Fix 2 memory issues by @Alexdoru in https://github.com/GTNewHorizons/BuildCraft/pull/23
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.43...7.1.44
+>
+
 ## *7.1.43*
 >## What's Changed
 >* Fix WorldServer leak by @Alexdoru in https://github.com/GTNewHorizons/BuildCraft/pull/22
@@ -3211,7 +3253,51 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.357
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.362
+## *5.09.51.362*
+>## What's Changed
+>* Add Nullity Annotations to GalactiGreg API by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4500
+>* Add Nullity Annotations to GoodGenerator API by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4501
+>* Add Nullity Annotations to GTPlusPlus API by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4503
+>* Add Nullity Annotations to KubaTech API by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4505
+>* Add Null Annotations in `RecipeMapBackend` for Recipe Checks by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4498
+>* "Zeron-100 Reactor Shielding" Name-Change & Assembler Recipe Addition  by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4526
+>* Improve cape renderer + use UUID map by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4460
+>* Reduce allocations from GTRecipe#mChances by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4519
+>* Large Naq Reactor No EU Explosion, Fix CME by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4493
+>* Various minor ArrayList / array / boxed collections improvements by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4521
+>* Neutral Ferrocene Chain by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4492
+>* Add Nullity Annotations to Bartworks API by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4499
+>* Fix mapiary crash on removing bees by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4528
+>* Fix LSC structure preview crash by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4529
+>* Refactor `gregtech.api.enums.Dyes` by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4524
+>* add backhand to mods enum by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4530
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.359...5.09.51.362
+>
+
+## *5.09.51.359*
+>## What's Changed
+>* Added Netherite Bee and Prismarine Bee by @AdityaVG13 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4448
+>* Bring Steam Alloy Smelter from Steam Age update by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4415
+>* Rare Earth Bee Changes by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4522
+>
+>## New Contributors
+>* @AdityaVG13 made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4448
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.358...5.09.51.359
+>
+
+## *5.09.51.358*
+>## What's Changed
+>* Fix text overlap in NEI handler for space mining by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4523
+>* ui: improve Fusion Reactor tooltip readability by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4525
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.357...5.09.51.358
+>
+
 ## *5.09.51.357*
 >## What's Changed
 >* added Data Orb copying for ME Output Bus by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4470
@@ -6340,7 +6426,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.6.0...2.6.2
 >
 
-# Updated - InGame-Info-XML - 2.8.20 --> 2.8.23
+# Updated - InGame-Info-XML - 2.8.20 --> 2.8.25
+## *2.8.25*
+>## What's Changed
+>* Refactored `updateChildren` in `InfoText.java` to avoid a crash by @glektarssza in https://github.com/GTNewHorizons/InGame-Info-XML/pull/31
+>
+>## New Contributors
+>* @glektarssza made their first contribution in https://github.com/GTNewHorizons/InGame-Info-XML/pull/31
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.23...2.8.25
+>
+
 ## *2.8.23*
 >## What's Changed
 >* Add delimiter formatting for life essence from BloodMagic by @Shinusei in https://github.com/GTNewHorizons/InGame-Info-XML/pull/30
@@ -6792,7 +6888,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Irontanks/compare/1.3.0...1.4.0
 >
 
-# Updated - Jabba - 1.4.7 --> 1.5.6
+# Updated - Jabba - 1.4.7 --> 1.5.8
+## *1.5.8*
+>## What's Changed
+>* Drop all as 1 big stack instead by @Caedis in https://github.com/GTNewHorizons/Jabba/pull/43
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.6...1.5.8
+>
+
 ## *1.5.6*
 >## What's Changed
 >* Update dev username by @koolkrafter5 in https://github.com/GTNewHorizons/Jabba/pull/42
@@ -7048,6 +7152,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.9.1-GTNH...2.9.2-GTNH
 >
 
+# Updated - MalisisDoors - 1.18.0-GTNH --> 1.18.1-GTNH
+## *1.18.1-GTNH*
+>## What's Changed
+>* Fixed configuration comments always beginning with "null" by @Charsy89 in https://github.com/GTNewHorizons/MalisisDoors/pull/21
+>
+>## New Contributors
+>* @Charsy89 made their first contribution in https://github.com/GTNewHorizons/MalisisDoors/pull/21
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MalisisDoors/compare/1.18.0-GTNH...1.18.1-GTNH
+>
+
 # Updated - Mantle - 0.5.0 --> 0.5.1
 ## *0.5.1*
 >## What's Changed
@@ -7059,7 +7174,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.5.0...0.5.1
 >
 
-# New Mod - MatterManipulator:0.0.33-GTNH
+# New Mod - MatterManipulator:0.0.33.1-GTNH-pre
+## *0.0.33.1-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.33-GTNH...0.0.33.1-GTNH-pre
+>
+
 ## *0.0.33-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.31-GTNH...0.0.33-GTNH
 >
@@ -7218,7 +7337,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.11.0...0.12.0
 >
 
-# New Mod - ModernMarkings:0.3.7-1.7.10
+# New Mod - ModernMarkings:0.3.8-1.7.10-pre
+## *0.3.8-1.7.10-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/0.3.7-1.7.10...0.3.8-1.7.10-pre
+>
+
 ## *0.3.7-1.7.10*
 >## What's Changed
 >* Made WallMarking Block Bounds Flush With The Wall.  by @DangerousMilk in https://github.com/GTNewHorizons/ModernMarkings/pull/17
@@ -7299,6 +7422,11 @@ Mod is client-side only.
 
 ## *v0.0.2*
 >**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/v0.0.1...v0.0.2
+>
+
+# Updated - ModularUI - 1.2.18 --> 1.2.19-pre
+## *1.2.19-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.2.18...1.2.19-pre
 >
 
 # Updated - ModularUI2 - 2.1.16-1.7.10 --> 2.2.15-1.7.10
@@ -7557,7 +7685,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.211
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.212-pre
+## *2.7.212-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.211...2.7.212-pre
+>
+
 ## *2.7.211*
 >## What's Changed
 >* Move Custom1-5 Aspect creation to GT5U by @OmdaCZ in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1291
@@ -8757,7 +8889,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.51-GTNH...2.7.0-GTNH
 >
 
-# Updated - Nuclear-Control - 2.6.7 --> 2.6.12
+# Updated - Nuclear-Control - 2.6.7 --> 2.6.16-pre
+## *2.6.16-pre*
+>## What's Changed
+>* Update dev username by @koolkrafter5 in https://github.com/GTNewHorizons/Nuclear-Control/pull/27
+>
+>## New Contributors
+>* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/Nuclear-Control/pull/27
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.15-pre...2.6.16-pre
+>
+
 ## *2.6.12*
 >## What's Changed
 >* Add Factorio rocket silo alarm sound by @2ndDerivative in https://github.com/GTNewHorizons/Nuclear-Control/pull/26
@@ -9636,7 +9778,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.0-GTNH...2.1.2-GTNH
 >
 
-# Updated - StructureCompat - 0.6.5 --> 0.7.2
+# Updated - StructureCompat - 0.6.5 --> 0.7.3-pre
+## *0.7.3-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.7.2...0.7.3-pre
+>
+
 ## *0.7.2*
 >## What's Changed
 >* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/StructureCompat/pull/11
@@ -9662,7 +9808,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.6.5...0.7.0
 >
 
-# Updated - StructureLib - 1.3.6 --> 1.4.12
+# Updated - StructureLib - 1.3.6 --> 1.4.14-pre
+## *1.4.14-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.13-pre...1.4.14-pre
+>
+
 ## *1.4.12*
 >## What's Changed
 >* Update dev username by @koolkrafter5 in https://github.com/GTNewHorizons/StructureLib/pull/41
@@ -9889,7 +10039,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.7.7...1.8.0
 >
 
-# Updated - ThaumicBoots - 1.3.10 --> 1.4.7
+# Updated - ThaumicBoots - 1.3.10 --> 1.4.8-pre
+## *1.4.8-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.7...1.4.8-pre
+>
+
 ## *1.4.7*
 >## What's Changed
 >* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/ThaumicBoots/pull/38
@@ -10133,6 +10287,11 @@ Mod is client-side only.
 >* @ClassixX made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/42
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.10.2...2.11.0
+>
+
+# Updated - Thaumic_Exploration - 1.4.0-GTNH --> 1.4.1-GTNH-pre
+## *1.4.1-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.0-GTNH...1.4.1-GTNH-pre
 >
 
 # Updated - TiC-Tooltips - 1.3.1 --> 1.4.0
@@ -10603,7 +10762,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.0...1.7.1
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.7-GTNH
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.8-GTNH-pre
+## *1.7.8-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.7-GTNH...1.7.8-GTNH-pre
+>
+
 ## *1.7.7-GTNH*
 >## What's Changed
 >* add back the vis discount tooltip. by @RubilaxXxx in https://github.com/GTNewHorizons/WitchingGadgets/pull/77
@@ -10824,7 +10987,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.2.3-GTNH...1.3.0-GTNH
 >
 
-# Updated - ironchest - 6.1.1 --> 6.1.3
+# Updated - ironchest - 6.1.1 --> 6.1.5
+## *6.1.5*
+>## What's Changed
+>* Small cleanups by @Charsy89 in https://github.com/GTNewHorizons/ironchest/pull/31
+>* Implemented Ocelots sitting on Iron Chests, with configurable chest-blocking behavior by @Charsy89 in https://github.com/GTNewHorizons/ironchest/pull/30
+>
+>## New Contributors
+>* @Charsy89 made their first contribution in https://github.com/GTNewHorizons/ironchest/pull/31
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.1.3...6.1.5
+>
+
 ## *6.1.3*
 >## What's Changed
 >* Add missing language key by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/ironchest/pull/29
@@ -11033,7 +11207,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.6.35...2.7.0
 >
 
-# Updated - waila - 1.8.2 --> 1.8.8
+# Updated - waila - 1.8.2 --> 1.8.9-pre
+## *1.8.9-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.8...1.8.9-pre
+>
+
 ## *1.8.8*
 >## What's Changed
 >* Re-encode `cs_CZ.lang` into UTF-8 by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/waila/pull/32
