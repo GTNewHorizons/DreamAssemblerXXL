@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-06-29T04:51:06.982097",
+  "last_updated": "2025-06-29T07:57:15.773448",
   "config": "2.8.0-nightly-2025-06-28",
   "github_mods": {
     "AdventureBackpack2": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "ironchest": {
-      "version": "6.1.5",
+      "version": "6.1.6",
       "side": "BOTH"
     },
     "IronChestMinecarts": {

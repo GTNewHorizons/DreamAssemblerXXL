@@ -10979,7 +10979,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.2.3-GTNH...1.3.0-GTNH
 >
 
-# Updated - ironchest - 6.1.1 --> 6.1.5
+# Updated - ironchest - 6.1.1 --> 6.1.6
+## *6.1.6*
+>## What's Changed
+>* Update IronChest_at.cfg by @Caedis in https://github.com/GTNewHorizons/ironchest/pull/32
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ironchest/compare/6.1.5...6.1.6
+>
+
 ## *6.1.5*
 >## What's Changed
 >* Small cleanups by @Charsy89 in https://github.com/GTNewHorizons/ironchest/pull/31
