@@ -323,6 +323,10 @@ class GTNHModpackManager:
 
         if releaseVersion == "daily":
             releases = [r for r in releases if not r.tag_name.endswith("-pre")]
+            # if latest version is a -pre release, nuke it and start from scratch
+            if asset.latest_version.endswith("-pre"):
+                log.info("-pre latest version detected in daily run, reseting it to get latest")
+                asset.latest_version = "0.0.0-pre"
 
         old_latest_version = asset.latest_version
         # Sorted releases, newest version first
@@ -342,10 +346,6 @@ class GTNHModpackManager:
 
             version = version_from_release(release, asset.type)
             if not version:
-                log.error(
-                    f"{Fore.RED}No assets found for asset `{Fore.CYAN}{asset.name}{Fore.RESET}` release "
-                    f"`{release.tag_name}, skipping.{Style.RESET_ALL}"
-                )
                 continue
 
             if for_translation:
