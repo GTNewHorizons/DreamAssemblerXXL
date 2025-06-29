@@ -4656,7 +4656,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.363-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.364-pre
+## *5.09.51.364-pre*
+>## What's Changed
+>* Add BHC to Machine Type by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4532
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.363-pre...5.09.51.364-pre
+>
+
 ## *5.09.51.363-pre*
 >## What's Changed
 >* Spotless apply for branch refactor-stocking-hatches for #4487 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4527
