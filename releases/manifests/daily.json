@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-06-29T04:06:50.391685",
+  "last_updated": "2025-06-29T04:51:06.982097",
   "config": "2.8.0-nightly-2025-06-28",
   "github_mods": {
     "AdventureBackpack2": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.212-pre",
+      "version": "2.7.213",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.6.16-pre",
+      "version": "2.6.12",
       "side": "BOTH"
     },
     "oauth": {
@@ -473,11 +473,11 @@
       "side": "BOTH"
     },
     "StructureCompat": {
-      "version": "0.7.3-pre",
+      "version": "0.7.2",
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.14-pre",
+      "version": "1.4.12",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -505,7 +505,7 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.4.1-GTNH-pre",
+      "version": "1.4.0-GTNH",
       "side": "BOTH"
     },
     "ThaumicBases": {
@@ -513,7 +513,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.7-GTNH",
+      "version": "1.7.8-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.8.9-pre",
+      "version": "1.8.10",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.7.8-GTNH-pre",
+      "version": "1.7.9-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.2.19-pre",
+      "version": "1.2.20",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -717,7 +717,7 @@
       "side": "CLIENT"
     },
     "ThaumicBoots": {
-      "version": "1.4.8-pre",
+      "version": "1.4.7",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
@@ -765,7 +765,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.0.33.1-GTNH-pre",
+      "version": "0.0.33-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "ModernMarkings": {
-      "version": "0.3.8-1.7.10-pre",
+      "version": "0.3.7-1.7.10",
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
