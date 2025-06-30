@@ -674,7 +674,28 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-645-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-652-GTNH
+## *rv3-beta-652-GTNH*
+>## What's Changed
+>* fix buttons duplication on gui when re init gui by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/785
+>* reset craftable status on io port move by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/784
+>* fix terminals gone by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/786
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-649-GTNH...rv3-beta-652-GTNH
+>
+
+## *rv3-beta-649-GTNH*
+>## What's Changed
+>* make extreme cells use tooltips generator from super class by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/783
+>* Storage Bus keep filter when remove Capacity Card or it is break with wrench by @NeOzay in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/742
+>* Crafting pins / pins by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/705
+>* Make P2P Tunnel - ME Interface share storage slot contents between input and outputs by @Inphysible in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/759
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-645-GTNH...rv3-beta-649-GTNH
+>
+
 ## *rv3-beta-645-GTNH*
 >## What's Changed
 >* Highlight network machine in world with shift click in network tool gui and open machine gui through network tool by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/703
@@ -1324,7 +1345,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.8.4-GTNH...1.9.0-GTNH
 >
 
-# New Mod - Backhand:1.6.26
+# New Mod - Backhand:1.6.28
+## *1.6.28*
+>## What's Changed
+>* Fix WCT's armor slot conflict by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/112
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.26...1.6.28
+>
+
 ## *1.6.26*
 >## What's Changed
 >* General Rework by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/100
@@ -5882,7 +5911,24 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.3-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.83
+# Updated - Hodgepodge - 2.5.90 --> 2.6.86
+## *2.6.86*
+>## What's Changed
+>* Config fixes by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/572
+>* Fix loading client only mixins on the server by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/573
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.84...2.6.86
+>
+
+## *2.6.84*
+>## What's Changed
+>* Speedup `EnumChatFormatting.getTextWithoutFormattingCodes` by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/571
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.83...2.6.84
+>
+
 ## *2.6.83*
 >## What's Changed
 >* Fix compat with ModernKeybindings by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/569
@@ -9750,7 +9796,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.14.1...0.14.2
 >
 
-# Updated - StorageDrawers - 2.1.0-GTNH --> 2.1.3-GTNH
+# Updated - StorageDrawers - 2.1.0-GTNH --> 2.1.4-GTNH
+## *2.1.4-GTNH*
+>## What's Changed
+>* Cleanup drawer item dropping code and add new "mixed" behavior by @Alexdoru in https://github.com/GTNewHorizons/StorageDrawers/pull/42
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.3-GTNH...2.1.4-GTNH
+>
+
 ## *2.1.3-GTNH*
 >## What's Changed
 >* Update dev username by @koolkrafter5 in https://github.com/GTNewHorizons/StorageDrawers/pull/41
@@ -9962,7 +10016,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumcraftMobAspects/compare/1.1.2-GTNH...1.2.0-GTNH
 >
 
-# Updated - ThaumicBases - 1.7.8 --> 1.8.8
+# Updated - ThaumicBases - 1.7.8 --> 1.8.9
+## *1.8.9*
+>## What's Changed
+>* Enable Jabel and generic injection by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBases/pull/51
+>
+>## New Contributors
+>* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/ThaumicBases/pull/51
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.8.8...1.8.9
+>
+
 ## *1.8.8*
 >## What's Changed
 >* implement right click for Briar Crop by @Yoshy2002 in https://github.com/GTNewHorizons/ThaumicBases/pull/50
