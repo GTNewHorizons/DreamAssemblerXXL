@@ -485,8 +485,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.0...1.3.1
 >
 
-# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta46
+# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta47
 Mod is client-side only.
+## *1.0.0-beta47*
+>## What's Changed
+>* Sync NotFine changes by @jss2a98aj in https://github.com/GTNewHorizons/Angelica/pull/974
+>* Enforce exact limit on amount of dropped EntityItem rendered by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/973
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta46...1.0.0-beta47
+>
+
 ## *1.0.0-beta46*
 >## What's Changed
 >* No longer use Reflection for `SplashProgress.fontRenderer` by @glowredman in https://github.com/GTNewHorizons/Angelica/pull/966
@@ -6934,7 +6943,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Irontanks/compare/1.3.0...1.4.0
 >
 
-# Updated - Jabba - 1.4.7 --> 1.5.8
+# Updated - Jabba - 1.4.7 --> 1.5.10
+## *1.5.10*
+>## What's Changed
+>* Add new "mixed" behavior for dropping items when breaking a barrel by @Alexdoru in https://github.com/GTNewHorizons/Jabba/pull/44
+>
+>## New Contributors
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Jabba/pull/44
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.8...1.5.10
+>
+
 ## *1.5.8*
 >## What's Changed
 >* Drop all as 1 big stack instead by @Caedis in https://github.com/GTNewHorizons/Jabba/pull/43

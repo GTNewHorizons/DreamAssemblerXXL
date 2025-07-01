@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-06-30T04:05:38.365815",
+  "last_updated": "2025-07-01T04:10:39.513164",
   "config": "2.8.0-nightly-2025-06-28",
   "github_mods": {
     "AdventureBackpack2": {
@@ -285,7 +285,7 @@
       "side": "BOTH"
     },
     "Jabba": {
-      "version": "1.5.8",
+      "version": "1.5.10",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta46",
+      "version": "1.0.0-beta47",
       "side": "CLIENT"
     },
     "AkashicTome": {
