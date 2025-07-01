@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-01T04:10:39.513164",
-  "config": "2.8.0-nightly-2025-06-28",
+  "last_updated": "2025-07-01T20:09:00.222805",
+  "config": "2.8.0-nightly-2025-07-01",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.93-gtnh",
+      "version": "1.4.96-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.362",
+      "version": "5.09.51.365",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NetherPortalFix": {
-      "version": "1.3.0",
+      "version": "1.4.0",
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.59-GTNH",
+      "version": "2.7.60-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta47",
+      "version": "1.0.0-beta48",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.21-GTNH",
+      "version": "1.1.22-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "ModernMarkings": {
-      "version": "0.3.7-1.7.10",
+      "version": "0.3.10-1.7.10",
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
@@ -855,7 +855,7 @@
       "side": "BOTH"
     },
     "JourneyMap": {
-      "version": "5.2.9-fairplay",
+      "version": "5.2.10-fairplay",
       "side": "CLIENT"
     },
     "JourneyMap Server": {
