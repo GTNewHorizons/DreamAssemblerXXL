@@ -20,7 +20,27 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.95-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.97-gtnh-pre
+## *1.4.97-gtnh-pre*
+>## What's Changed
+>* Make P2P Tunnel - ME Dual Interface share storage slot contents between input and outputs by @Inphysible in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/302
+>
+>## New Contributors
+>* @Inphysible made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/302
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.93-gtnh...1.4.97-gtnh-pre
+>
+
+## *1.4.96-gtnh*
+>## What's Changed
+>* Make P2P Tunnel - ME Dual Interface share storage slot contents between input and outputs by @Inphysible in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/302
+>
+>## New Contributors
+>* @Inphysible made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/302
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.93-gtnh...1.4.96-gtnh
+>
+
 ## *1.4.95-gtnh-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.94-gtnh-pre...1.4.95-gtnh-pre
 >
@@ -806,8 +826,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.0...1.3.1
 >
 
-# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta46
+# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta47
 Mod is client-side only.
+## *1.0.0-beta47*
+>## What's Changed
+>* Sync NotFine changes by @jss2a98aj in https://github.com/GTNewHorizons/Angelica/pull/974
+>* Enforce exact limit on amount of dropped EntityItem rendered by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/973
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta46...1.0.0-beta47
+>
+
 ## *1.0.0-beta46*
 >## What's Changed
 >* No longer use Reflection for `SplashProgress.fontRenderer` by @glowredman in https://github.com/GTNewHorizons/Angelica/pull/966
@@ -995,7 +1024,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-651-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-653-GTNH-pre
+## *rv3-beta-653-GTNH-pre*
+>## What's Changed
+>* fix buttons duplication on gui when re init gui by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/785
+>* reset craftable status on io port move by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/784
+>* fix terminals gone by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/786
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-651-GTNH-pre...rv3-beta-653-GTNH-pre
+>
+
+## *rv3-beta-652-GTNH*
+>## What's Changed
+>* fix buttons duplication on gui when re init gui by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/785
+>* reset craftable status on io port move by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/784
+>* fix terminals gone by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/786
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-649-GTNH...rv3-beta-652-GTNH
+>
+
 ## *rv3-beta-651-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-650-GTNH-pre...rv3-beta-651-GTNH-pre
 >
@@ -2153,7 +2202,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.8.4-GTNH...1.9.0-GTNH
 >
 
-# New Mod - Backhand:1.6.27-pre
+# New Mod - Backhand:1.6.29-pre
+## *1.6.29-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.28...1.6.29-pre
+>
+
+## *1.6.28*
+>## What's Changed
+>* Fix WCT's armor slot conflict by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/112
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.26...1.6.28
+>
+
 ## *1.6.27-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.26...1.6.27-pre
 >
@@ -2536,7 +2597,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2-for-Backhand/commits/1.5.0-backhand
 >
 
-# Updated - Baubles-Expanded - 2.0.3 --> 2.1.10-GTNH-pre
+# Updated - Baubles-Expanded - 2.0.3 --> 2.1.11-GTNH-pre
+## *2.1.11-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.1.10-GTNH-pre...2.1.11-GTNH-pre
+>
+
 ## *2.1.10-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.1.9-GTNH...2.1.10-GTNH-pre
 >
@@ -2925,7 +2990,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.44-pre
+# Updated - BloodMagic - 1.6.11 --> 1.7.45-pre
+## *1.7.45-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.44-pre...1.7.45-pre
+>
+
 ## *1.7.44-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.43...1.7.44-pre
 >
@@ -3241,7 +3310,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.6.9...1.7.0
 >
 
-# Updated - Botania - 1.11.7-GTNH --> 1.12.13-GTNH-pre
+# Updated - Botania - 1.11.7-GTNH --> 1.12.14-GTNH-pre
+## *1.12.14-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.12-GTNH...1.12.14-GTNH-pre
+>
+
 ## *1.12.13-GTNH-pre*
 >## What's Changed
 >* Add missing equals sign by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Botania/pull/83
@@ -3357,7 +3430,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.11.6-GTNH...1.12.1-GTNH
 >
 
-# Updated - Botanic-horizons - 1.1.7-GTNH --> 1.11.14-GTNH
+# Updated - Botanic-horizons - 1.1.7-GTNH --> 1.11.15-GTNH-pre
+## *1.11.15-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.11.14-GTNH...1.11.15-GTNH-pre
+>
+
 ## *1.11.14-GTNH*
 >## What's Changed
 >* Botania Multiblocks by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/33
@@ -3451,7 +3528,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Catwalks-2/compare/2.3.2-GTNH...2.3.3-GTNH-pre
 >
 
-# Updated - Chisel - 2.15.5-GTNH --> 2.16.5-GTNH
+# Updated - Chisel - 2.15.5-GTNH --> 2.16.6-GTNH-pre
+## *2.16.6-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.16.5-GTNH...2.16.6-GTNH-pre
+>
+
 ## *2.16.5-GTNH*
 >## What's Changed
 >* Update dev username by @koolkrafter5 in https://github.com/GTNewHorizons/Chisel/pull/60
@@ -4656,7 +4737,24 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.364-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.367-pre
+## *5.09.51.367-pre*
+>## What's Changed
+>* Added Wrench Precise Mode by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4447
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.364-pre...5.09.51.367-pre
+>
+
+## *5.09.51.365*
+>## What's Changed
+>* Add BHC to Machine Type by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4532
+>* Added Wrench Precise Mode by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4447
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.362...5.09.51.365
+>
+
 ## *5.09.51.364-pre*
 >## What's Changed
 >* Add BHC to Machine Type by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4532
@@ -8771,7 +8869,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.85-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.86
+## *2.6.86*
+>## What's Changed
+>* Config fixes by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/572
+>* Fix loading client only mixins on the server by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/573
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.84...2.6.86
+>
+
 ## *2.6.85-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.84...2.6.85-pre
 >
@@ -10086,7 +10193,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Irontanks/compare/1.3.0...1.4.0
 >
 
-# Updated - Jabba - 1.4.7 --> 1.5.9-pre
+# Updated - Jabba - 1.4.7 --> 1.5.10
+## *1.5.10*
+>## What's Changed
+>* Add new "mixed" behavior for dropping items when breaking a barrel by @Alexdoru in https://github.com/GTNewHorizons/Jabba/pull/44
+>
+>## New Contributors
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Jabba/pull/44
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.8...1.5.10
+>
+
 ## *1.5.9-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.8...1.5.9-pre
 >
@@ -10662,7 +10779,25 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.11.0...0.12.0
 >
 
-# New Mod - ModernMarkings:0.3.8-1.7.10-pre
+# New Mod - ModernMarkings:0.3.11-1.7.10-pre
+## *0.3.11-1.7.10-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/0.3.10-1.7.10...0.3.11-1.7.10-pre
+>
+
+## *0.3.10-1.7.10*
+>## What's Changed
+>* Add markings for power plants by @t3435ryt in https://github.com/GTNewHorizons/ModernMarkings/pull/18
+>
+>## New Contributors
+>* @t3435ryt made their first contribution in https://github.com/GTNewHorizons/ModernMarkings/pull/18
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/0.3.7-1.7.10...0.3.10-1.7.10
+>
+
+## *0.3.9-1.7.10-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/0.3.8-1.7.10-pre...0.3.9-1.7.10-pre
+>
+
 ## *0.3.8-1.7.10-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/0.3.7-1.7.10...0.3.8-1.7.10-pre
 >
@@ -11044,6 +11179,17 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
+>
+
+# Updated - NetherPortalFix - 1.3.0 --> 1.4.0
+## *1.4.0*
+>## What's Changed
+>* Add image of BlayTheNinth giving permission to continue development by @koolkrafter5 in https://github.com/GTNewHorizons/NetherPortalFix/pull/2
+>
+>## New Contributors
+>* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/NetherPortalFix/pull/2
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NetherPortalFix/compare/1.3.0...1.4.0
 >
 
 # Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.214-pre
@@ -12576,7 +12722,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.59-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.60-GTNH
+## *2.7.60-GTNH*
+>## What's Changed
+>* Update Bookmark Chain Tooltip Cache by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/657
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.59-GTNH...2.7.60-GTNH
+>
+
 ## *2.7.59-GTNH*
 >## What's Changed
 >* Autocrafting Improvement by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/655
@@ -13812,7 +13966,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.0...2.3.1
 >
 
-# New Mod - Salis-Arcana:1.1.21-GTNH
+# New Mod - Salis-Arcana:1.1.22-GTNH
+## *1.1.22-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.21-GTNH...1.1.22-GTNH
+>
+
 ## *1.1.21-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.20-GTNH...1.1.21-GTNH
 >
