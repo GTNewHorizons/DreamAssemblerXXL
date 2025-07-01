@@ -1,7 +1,7 @@
 {
   "version": "previous_experimental",
-  "last_version": "previous_experimental",
-  "last_updated": "2025-07-01T11:33:55.042472",
+  "last_version": "2.7.4",
+  "last_updated": "2025-07-01T11:56:17.562521",
   "config": "2.8.0-nightly-2025-07-01",
   "github_mods": {
     "AdventureBackpack2": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.12.12-GTNH",
+      "version": "1.12.14-GTNH-pre",
       "side": "BOTH"
     },
     "Botanic-horizons": {
