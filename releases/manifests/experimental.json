@@ -1,7 +1,7 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-07-01T12:19:34.388122",
+  "last_updated": "2025-07-01T19:35:01.459943",
   "config": "2.8.0-nightly-2025-07-01",
   "github_mods": {
     "AdventureBackpack2": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta47",
+      "version": "1.0.0-beta48",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -855,7 +855,7 @@
       "side": "BOTH"
     },
     "JourneyMap": {
-      "version": "5.2.9-fairplay",
+      "version": "5.2.10-fairplay",
       "side": "CLIENT"
     },
     "JourneyMap Server": {

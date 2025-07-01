@@ -1,7 +1,7 @@
 {
   "version": "previous_experimental",
   "last_version": "2.7.4",
-  "last_updated": "2025-07-01T11:56:17.562521",
+  "last_updated": "2025-07-01T19:34:46.405469",
   "config": "2.8.0-nightly-2025-07-01",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.365",
+      "version": "5.09.51.367-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -855,7 +855,7 @@
       "side": "BOTH"
     },
     "JourneyMap": {
-      "version": "5.2.9-fairplay",
+      "version": "5.2.10-fairplay",
       "side": "CLIENT"
     },
     "JourneyMap Server": {
