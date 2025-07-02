@@ -1,7 +1,7 @@
 {
   "version": "experimental",
-  "last_version": "2.7.4",
-  "last_updated": "2025-07-02T16:57:04.066518",
+  "last_version": "previous_experimental",
+  "last_updated": "2025-07-02T17:59:00.659508",
   "config": "2.8.0-nightly-2025-07-01",
   "github_mods": {
     "AdventureBackpack2": {
@@ -33,7 +33,7 @@
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.11.1-pre",
+      "version": "1.11.2",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.32",
+      "version": "0.6.33",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.6.31-pre",
+      "version": "1.6.32",
       "side": "BOTH"
     },
     "AE2NoUltimatePatterns": {

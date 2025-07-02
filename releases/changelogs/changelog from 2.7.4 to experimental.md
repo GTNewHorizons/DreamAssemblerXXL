@@ -20,7 +20,15 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.97-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.98-gtnh
+## *1.4.98-gtnh*
+>## What's Changed
+>* implement pins by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/315
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.96-gtnh...1.4.98-gtnh
+>
+
 ## *1.4.97-gtnh-pre*
 >## What's Changed
 >* Make P2P Tunnel - ME Dual Interface share storage slot contents between input and outputs by @Inphysible in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/302
@@ -826,8 +834,16 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.0...1.3.1
 >
 
-# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta47
+# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta48
 Mod is client-side only.
+## *1.0.0-beta48*
+>## What's Changed
+>* Add a guard to only init once by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/984
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta47...1.0.0-beta48
+>
+
 ## *1.0.0-beta47*
 >## What's Changed
 >* Sync NotFine changes by @jss2a98aj in https://github.com/GTNewHorizons/Angelica/pull/974
@@ -1024,7 +1040,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-653-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-654-GTNH-pre
+## *rv3-beta-654-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-653-GTNH-pre...rv3-beta-654-GTNH-pre
+>
+
 ## *rv3-beta-653-GTNH-pre*
 >## What's Changed
 >* fix buttons duplication on gui when re init gui by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/785
@@ -2087,7 +2107,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-478-GTNH...rv3-beta-500-GTNH
 >
 
-# Updated - ArchitectureCraft - 1.10.2 --> 1.11.0
+# Updated - ArchitectureCraft - 1.10.2 --> 1.11.2
+## *1.11.2*
+>## What's Changed
+>* Schematica crash workaround. by @AbdielKavash in https://github.com/GTNewHorizons/ArchitectureCraft/pull/24
+>
+>## New Contributors
+>* @AbdielKavash made their first contribution in https://github.com/GTNewHorizons/ArchitectureCraft/pull/24
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.11.0...1.11.2
+>
+
+## *1.11.1-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.11.0...1.11.1-pre
+>
+
 ## *1.11.0*
 >## What's Changed
 >* Update dev username by @koolkrafter5 in https://github.com/GTNewHorizons/ArchitectureCraft/pull/23
@@ -2202,7 +2236,28 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.8.4-GTNH...1.9.0-GTNH
 >
 
-# New Mod - Backhand:1.6.29-pre
+# New Mod - Backhand:1.6.32
+## *1.6.32*
+>## What's Changed
+>* Add bucket/IFluidContainerItem check to right click handler by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/116
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.30...1.6.32
+>
+
+## *1.6.31-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.30...1.6.31-pre
+>
+
+## *1.6.30*
+>## What's Changed
+>* Fix offhand block breaking by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/118
+>* Fix Bibliocraft Armor Stand slots by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/119
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.28...1.6.30
+>
+
 ## *1.6.29-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.28...1.6.29-pre
 >
@@ -4658,7 +4713,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - ForgeMultipart - 1.6.2 --> 1.6.6
+# Updated - ForgeMultipart - 1.6.2 --> 1.6.7
+## *1.6.7*
+>## What's Changed
+>* Force render return type to Unit by @Caedis in https://github.com/GTNewHorizons/ForgeMultipart/pull/30
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/30
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.6.6...1.6.7
+>
+
 ## *1.6.6*
 >## What's Changed
 >* Fix crash introduced by memory leak fix by @Alexdoru in https://github.com/GTNewHorizons/ForgeMultipart/pull/29
@@ -4737,7 +4802,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.367-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.369-pre
+## *5.09.51.369-pre*
+>## What's Changed
+>* Clarify miner tooltip that fortune only works on small ores by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4539
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.367-pre...5.09.51.369-pre
+>
+
+## *5.09.51.368*
+>## What's Changed
+>* Clarify miner tooltip that fortune only works on small ores by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4539
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.365...5.09.51.368
+>
+
 ## *5.09.51.367-pre*
 >## What's Changed
 >* Added Wrench Precise Mode by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4447
@@ -8249,7 +8330,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.1...1.4.2-pre
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.32
+# Updated - GTNHLib - 0.5.23 --> 0.6.33
+## *0.6.33*
+>## What's Changed
+>* Add support for mouse buttons in SyncedKeybinds by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/154
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.32...0.6.33
+>
+
 ## *0.6.32*
 >## What's Changed
 >* Added `hasValue` function for Lazy by @Taskeren in https://github.com/GTNewHorizons/GTNHLib/pull/148
@@ -12674,7 +12763,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Nodal-Mechanics/compare/1.3.0-GTNH...1.3.1-GTNH
 >
 
-# Updated - NotEnoughEnergistics - 1.7.0 --> 1.7.5
+# Updated - NotEnoughEnergistics - 1.7.0 --> 1.7.6
+## *1.7.6*
+>## What's Changed
+>* Optional Wirelesscraftingterminal by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/45
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.5...1.7.6
+>
+
 ## *1.7.5*
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.4...1.7.5
 >
@@ -15503,7 +15600,133 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/WirelessRedstone-CBE/compare/1.7.0...1.7.1
 >
 
-# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.9-GTNH
+# Updated - WitchingGadgets - 1.5.17-GTNH --> 1.7.10-GTNH
+## *1.7.10-GTNH*
+>## What's Changed
+>* Corrected Aluminum to Aluminium by @ChibiChoko in https://github.com/GTNewHorizons/WitchingGadgets/pull/78
+>
+>## New Contributors
+>* @ChibiChoko made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/78
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.9-GTNH...1.7.10-GTNH
+>
+
+## *1.7.10*
+>## What's Changed
+>* +fixed an issure where ruby ore will be converted into useless cluster by @bartimaeusnek in https://github.com/GTNewHorizons/WitchingGadgets/pull/1
+>* + added Coal Sifter boost by @bartimaeusnek in https://github.com/GTNewHorizons/WitchingGadgets/pull/2
+>* +added a catch by @bartimaeusnek in https://github.com/GTNewHorizons/WitchingGadgets/pull/3
+>* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/WitchingGadgets/pull/4
+>* Reorder checks by @TechnicianLP in https://github.com/GTNewHorizons/WitchingGadgets/pull/5
+>* Update TileEntitySpinningWheel.java by @jahtim in https://github.com/GTNewHorizons/WitchingGadgets/pull/7
+>* Infernal blast furnace fix by @TimeConqueror in https://github.com/GTNewHorizons/WitchingGadgets/pull/9
+>* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/WitchingGadgets/pull/10
+>* Fixing stove by @ElNounch in https://github.com/GTNewHorizons/WitchingGadgets/pull/11
+>* Make recipe oredict aware by @Glease in https://github.com/GTNewHorizons/WitchingGadgets/pull/12
+>* Fix Mantle Of The Raven on ladders by @Sonnicon in https://github.com/GTNewHorizons/WitchingGadgets/pull/14
+>* Fix fluid capsule bug by @Glease in https://github.com/GTNewHorizons/WitchingGadgets/pull/15
+>* Add license by @mitchej123 in https://github.com/GTNewHorizons/WitchingGadgets/pull/16
+>* fix oilsand cluster returning wrong oil kind by @Glease in https://github.com/GTNewHorizons/WitchingGadgets/pull/17
+>* Avoid pedantic warnings on ASM alterations by @ElNounch in https://github.com/GTNewHorizons/WitchingGadgets/pull/18
+>* Fix cluster recipe hash collision by @Glease in https://github.com/GTNewHorizons/WitchingGadgets/pull/19
+>* Migrated to unified build script by @SinTh0r4s in https://github.com/GTNewHorizons/WitchingGadgets/pull/20
+>* Create ru_RU.lang by @Quetz4l in https://github.com/GTNewHorizons/WitchingGadgets/pull/21
+>* buff stone and snow by @bombcar in https://github.com/GTNewHorizons/WitchingGadgets/pull/22
+>* Add an ice solidifier that makes ice by @bombcar in https://github.com/GTNewHorizons/WitchingGadgets/pull/23
+>* Fix scribing tools recharge by @repo-alt in https://github.com/GTNewHorizons/WitchingGadgets/pull/24
+>* Update zh_CN.lang by @Kiwi233 in https://github.com/GTNewHorizons/WitchingGadgets/pull/25
+>* LGPL-3.0 by @bombcar in https://github.com/GTNewHorizons/WitchingGadgets/pull/26
+>* Clarify license by @bombcar in https://github.com/GTNewHorizons/WitchingGadgets/pull/27
+>* fix an issue recipes disappeared when not in English by @iouter in https://github.com/GTNewHorizons/WitchingGadgets/pull/28
+>* Fix lighting glitches when photo plates and others are put into item frames by @eigenraven in https://github.com/GTNewHorizons/WitchingGadgets/pull/29
+>* Add shift-click interaction and quick label cleaning to the Aspect Li… by @YannickMG in https://github.com/GTNewHorizons/WitchingGadgets/pull/30
+>* Workspace Fix for magic bees by @Shibva in https://github.com/GTNewHorizons/WitchingGadgets/pull/33
+>* Update ContainerCuttingTable.java by @Shibva in https://github.com/GTNewHorizons/WitchingGadgets/pull/35
+>* Fix flight by @Quetz4l in https://github.com/GTNewHorizons/WitchingGadgets/pull/34
+>* Set coremod as childmod by @glowredman in https://github.com/GTNewHorizons/WitchingGadgets/pull/36
+>* Keybinds by @Alexdoru in https://github.com/GTNewHorizons/WitchingGadgets/pull/37
+>* Transfer coremod from ASM to Mixins by @Alexdoru in https://github.com/GTNewHorizons/WitchingGadgets/pull/38
+>* Fix item equality check by @D-Cysteine in https://github.com/GTNewHorizons/WitchingGadgets/pull/39
+>* Dev by @Dream-Master in https://github.com/GTNewHorizons/WitchingGadgets/pull/41
+>* Fix terra primordial regen by @chochem in https://github.com/GTNewHorizons/WitchingGadgets/pull/42
+>* Primordial Armor's repairing Fix & Buff by @Sheodar in https://github.com/GTNewHorizons/WitchingGadgets/pull/40
+>* Fix Bewitched Robe hood rendering by @kumquat-ir in https://github.com/GTNewHorizons/WitchingGadgets/pull/43
+>* Updates by @mitchej123 in https://github.com/GTNewHorizons/WitchingGadgets/pull/44
+>* remove ic2 maven by @mitchej123 in https://github.com/GTNewHorizons/WitchingGadgets/pull/45
+>* fix mistaken MCVersion warning from FML by @bombcar in https://github.com/GTNewHorizons/WitchingGadgets/pull/46
+>* [bs] fix buildscripts for jenkins by @bombcar in https://github.com/GTNewHorizons/WitchingGadgets/pull/47
+>* Remove lead from smeltery by @chochem in https://github.com/GTNewHorizons/WitchingGadgets/pull/48
+>* Update ru_RU.lang by @kamenskyi in https://github.com/GTNewHorizons/WitchingGadgets/pull/49
+>* Fix Gauntlet container lock by @cons-tan-tan in https://github.com/GTNewHorizons/WitchingGadgets/pull/50
+>* Make Vambraces of Steady Progression not push the player up/down when the player is flying by @norbby42 in https://github.com/GTNewHorizons/WitchingGadgets/pull/51
+>* allow infernal blast furnace to drain essentia via mirrors by @Glease in https://github.com/GTNewHorizons/WitchingGadgets/pull/52
+>* Fixed sync issue with Raven Kama glide toggle by @des-cuddlebat in https://github.com/GTNewHorizons/WitchingGadgets/pull/53
+>* Raw ore support + recipe registration split by @Ethryan in https://github.com/GTNewHorizons/WitchingGadgets/pull/54
+>* Fix bag slot handling by @Lyfts in https://github.com/GTNewHorizons/WitchingGadgets/pull/55
+>* Cleanup by @Lyfts in https://github.com/GTNewHorizons/WitchingGadgets/pull/56
+>* Infused Gem: Fixed too much durability use on blinding by @WaterShuriken in https://github.com/GTNewHorizons/WitchingGadgets/pull/57
+>* Fix the Ageing stone by @Ethryan in https://github.com/GTNewHorizons/WitchingGadgets/pull/58
+>* Fix the Ore Clusters only working for Stone ores by @felixfour in https://github.com/GTNewHorizons/WitchingGadgets/pull/59
+>* renaming by @NotAPenguin0 in https://github.com/GTNewHorizons/WitchingGadgets/pull/60
+>* Fix stone ores to clusters (and NEI, thaumonomicon, etc) by @felixfour in https://github.com/GTNewHorizons/WitchingGadgets/pull/61
+>* Blacklist Thaumcraft clusters + made the file more readable by @Ethryan in https://github.com/GTNewHorizons/WitchingGadgets/pull/63
+>* Thaumic boots dep + compat by @Nockyx in https://github.com/GTNewHorizons/WitchingGadgets/pull/65
+>* Add Localizations by @glowredman in https://github.com/GTNewHorizons/WitchingGadgets/pull/68
+>* Trying to get away from Travellers Gear by @Ethryan in https://github.com/GTNewHorizons/WitchingGadgets/pull/62
+>* Move Primordial Armor to GT Hazard API by @2ndDerivative in https://github.com/GTNewHorizons/WitchingGadgets/pull/69
+>* Change 'Void metal' -> 'Void Metal' by @serenibyss in https://github.com/GTNewHorizons/WitchingGadgets/pull/71
+>* Made most deps optional by @JackOfNoneTrades in https://github.com/GTNewHorizons/WitchingGadgets/pull/70
+>* fix cloak issue by @RubilaxXxx in https://github.com/GTNewHorizons/WitchingGadgets/pull/72
+>* Change `gregtech` in decorator for hazmat method to `gregtech_nh` for better compat by @felixfour in https://github.com/GTNewHorizons/WitchingGadgets/pull/73
+>* prevent infinite loader loop with other gt versions by @felixfour in https://github.com/GTNewHorizons/WitchingGadgets/pull/75
+>* add back the vis discount tooltip. by @RubilaxXxx in https://github.com/GTNewHorizons/WitchingGadgets/pull/77
+>* Fixed IBF particle crash due to particle entities by @70000hp in https://github.com/GTNewHorizons/WitchingGadgets/pull/76
+>* Corrected Aluminum to Aluminium by @ChibiChoko in https://github.com/GTNewHorizons/WitchingGadgets/pull/78
+>
+>## New Contributors
+>* @bartimaeusnek made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/1
+>* @Kiwi233 made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/4
+>* @TechnicianLP made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/5
+>* @jahtim made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/7
+>* @TimeConqueror made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/9
+>* @ElNounch made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/11
+>* @Glease made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/12
+>* @Sonnicon made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/14
+>* @mitchej123 made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/16
+>* @SinTh0r4s made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/20
+>* @Quetz4l made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/21
+>* @bombcar made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/22
+>* @repo-alt made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/24
+>* @iouter made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/28
+>* @eigenraven made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/29
+>* @Shibva made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/33
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/36
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/37
+>* @D-Cysteine made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/39
+>* @Dream-Master made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/41
+>* @chochem made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/42
+>* @Sheodar made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/40
+>* @kumquat-ir made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/43
+>* @kamenskyi made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/49
+>* @cons-tan-tan made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/50
+>* @norbby42 made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/51
+>* @des-cuddlebat made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/53
+>* @Ethryan made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/54
+>* @Lyfts made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/55
+>* @WaterShuriken made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/57
+>* @felixfour made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/59
+>* @NotAPenguin0 made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/60
+>* @Nockyx made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/65
+>* @2ndDerivative made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/69
+>* @serenibyss made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/71
+>* @JackOfNoneTrades made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/70
+>* @RubilaxXxx made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/72
+>* @70000hp made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/76
+>* @ChibiChoko made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/78
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.2.7...1.7.10
+>
+
 ## *1.7.9-GTNH*
 >## What's Changed
 >* Fixed IBF particle crash due to particle entities by @70000hp in https://github.com/GTNewHorizons/WitchingGadgets/pull/76
