@@ -20,7 +20,17 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.93-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.96-gtnh
+## *1.4.96-gtnh*
+>## What's Changed
+>* Make P2P Tunnel - ME Dual Interface share storage slot contents between input and outputs by @Inphysible in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/302
+>
+>## New Contributors
+>* @Inphysible made their first contribution in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/302
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.93-gtnh...1.4.96-gtnh
+>
+
 ## *1.4.93-gtnh*
 >## What's Changed
 >* Fix FluidExportBus NPE by @zyf051520 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/314
@@ -485,8 +495,16 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.0...1.3.1
 >
 
-# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta47
+# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta48
 Mod is client-side only.
+## *1.0.0-beta48*
+>## What's Changed
+>* Add a guard to only init once by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/984
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta47...1.0.0-beta48
+>
+
 ## *1.0.0-beta47*
 >## What's Changed
 >* Sync NotFine changes by @jss2a98aj in https://github.com/GTNewHorizons/Angelica/pull/974
@@ -3216,7 +3234,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.9.19...4.10.0
 >
 
-# Updated - ForgeMultipart - 1.6.2 --> 1.6.6
+# Updated - ForgeMultipart - 1.6.2 --> 1.6.7
+## *1.6.7*
+>## What's Changed
+>* Force render return type to Unit by @Caedis in https://github.com/GTNewHorizons/ForgeMultipart/pull/30
+>
+>## New Contributors
+>* @Caedis made their first contribution in https://github.com/GTNewHorizons/ForgeMultipart/pull/30
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.6.6...1.6.7
+>
+
 ## *1.6.6*
 >## What's Changed
 >* Fix crash introduced by memory leak fix by @Alexdoru in https://github.com/GTNewHorizons/ForgeMultipart/pull/29
@@ -3291,7 +3319,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.362
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.365
+## *5.09.51.365*
+>## What's Changed
+>* Add BHC to Machine Type by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4532
+>* Added Wrench Precise Mode by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4447
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.362...5.09.51.365
+>
+
 ## *5.09.51.362*
 >## What's Changed
 >* Add Nullity Annotations to GalactiGreg API by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4500
@@ -7398,7 +7435,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.11.0...0.12.0
 >
 
-# New Mod - ModernMarkings:0.3.7-1.7.10
+# New Mod - ModernMarkings:0.3.10-1.7.10
+## *0.3.10-1.7.10*
+>## What's Changed
+>* Add markings for power plants by @t3435ryt in https://github.com/GTNewHorizons/ModernMarkings/pull/18
+>
+>## New Contributors
+>* @t3435ryt made their first contribution in https://github.com/GTNewHorizons/ModernMarkings/pull/18
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/0.3.7-1.7.10...0.3.10-1.7.10
+>
+
 ## *0.3.7-1.7.10*
 >## What's Changed
 >* Made WallMarking Block Bounds Flush With The Wall.  by @DangerousMilk in https://github.com/GTNewHorizons/ModernMarkings/pull/17
@@ -7746,6 +7793,17 @@ Mod is client-side only.
 >
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/Navigator/compare/1.0.15...1.0.16
+>
+
+# Updated - NetherPortalFix - 1.3.0 --> 1.4.0
+## *1.4.0*
+>## What's Changed
+>* Add image of BlayTheNinth giving permission to continue development by @koolkrafter5 in https://github.com/GTNewHorizons/NetherPortalFix/pull/2
+>
+>## New Contributors
+>* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/NetherPortalFix/pull/2
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NetherPortalFix/compare/1.3.0...1.4.0
 >
 
 # Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.213
@@ -8640,7 +8698,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.59-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.60-GTNH
+## *2.7.60-GTNH*
+>## What's Changed
+>* Update Bookmark Chain Tooltip Cache by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/657
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.59-GTNH...2.7.60-GTNH
+>
+
 ## *2.7.59-GTNH*
 >## What's Changed
 >* Autocrafting Improvement by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/655
@@ -9623,7 +9689,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.0...2.3.1
 >
 
-# New Mod - Salis-Arcana:1.1.21-GTNH
+# New Mod - Salis-Arcana:1.1.22-GTNH
+## *1.1.22-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.21-GTNH...1.1.22-GTNH
+>
+
 ## *1.1.21-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.20-GTNH...1.1.21-GTNH
 >

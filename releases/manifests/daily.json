@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-01T20:09:00.222805",
+  "last_updated": "2025-07-02T04:02:27.369488",
   "config": "2.8.0-nightly-2025-07-01",
   "github_mods": {
     "AdventureBackpack2": {
@@ -205,7 +205,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.6.6",
+      "version": "1.6.7",
       "side": "BOTH"
     },
     "Gadomancy": {
