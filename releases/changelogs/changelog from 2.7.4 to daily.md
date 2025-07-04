@@ -1390,7 +1390,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.8.4-GTNH...1.9.0-GTNH
 >
 
-# New Mod - Backhand:1.6.32
+# New Mod - Backhand:1.6.33
+## *1.6.33*
+>## What's Changed
+>* Fix mob tempting with item in offhand by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/124
+>* Remove unneeded HarvestTool deprioritize with new changes by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/126
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.32...1.6.33
+>
+
 ## *1.6.32*
 >## What's Changed
 >* Add bucket/IFluidContainerItem check to right click handler by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/116
@@ -1987,7 +1996,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.43
+# Updated - BloodMagic - 1.6.11 --> 1.7.46
+## *1.7.46*
+>## What's Changed
+>* Refactor Teleposers by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/100
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.43...1.7.46
+>
+
 ## *1.7.43*
 >## What's Changed
 >* Backport WayofTime/BloodMagic@64660d2d282c620e36abf262cc26f49486b7d903 by @ctrlaltmilk in https://github.com/GTNewHorizons/BloodMagic/pull/99
@@ -7857,7 +7874,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NetherPortalFix/compare/1.3.0...1.4.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.213
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.215
+## *2.7.215*
+>## What's Changed
+>* Remove access to GTMod isclient methods by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1296
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.213...2.7.215
+>
+
 ## *2.7.213*
 >## What's Changed
 >* Add recipe for ME throughput monitor by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1294
@@ -10164,7 +10189,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumcraftMobAspects/compare/1.1.2-GTNH...1.2.0-GTNH
 >
 
-# Updated - ThaumicBases - 1.7.8 --> 1.8.9
+# Updated - ThaumicBases - 1.7.8 --> 1.8.11
+## *1.8.11*
+>## What's Changed
+>* Refactor Leaves by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBases/pull/52
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.8.9...1.8.11
+>
+
 ## *1.8.9*
 >## What's Changed
 >* Enable Jabel and generic injection by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBases/pull/51
@@ -10387,7 +10420,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.0...1.7.1
 >
 
-# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.13
+# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.15
+## *2.11.15*
+>## What's Changed
+>* Added functions into kami boots by @Coffee-beans-Pi in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/57
+>
+>## New Contributors
+>* @Coffee-beans-Pi made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/57
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.13...2.11.15
+>
+
 ## *2.11.13*
 >## What's Changed
 >* Fix lang file problem with lang key by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/56

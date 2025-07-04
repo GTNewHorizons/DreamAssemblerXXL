@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-03T04:03:54.820244",
+  "last_updated": "2025-07-04T04:01:01.890435",
   "config": "2.8.0-nightly-2025-07-01",
   "github_mods": {
     "AdventureBackpack2": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.43",
+      "version": "1.7.46",
       "side": "BOTH"
     },
     "Botania": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.213",
+      "version": "2.7.215",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -509,7 +509,7 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.8.9",
+      "version": "1.8.11",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.11.13",
+      "version": "2.11.15",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.6.32",
+      "version": "1.6.33",
       "side": "BOTH"
     },
     "AE2NoUltimatePatterns": {
