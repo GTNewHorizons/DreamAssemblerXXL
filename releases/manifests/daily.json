@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-04T04:01:01.890435",
+  "last_updated": "2025-07-05T03:56:02.142250",
   "config": "2.8.0-nightly-2025-07-01",
   "github_mods": {
     "AdventureBackpack2": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.33",
+      "version": "0.6.34",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -517,7 +517,7 @@
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.7.4",
+      "version": "1.7.5",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.6.33",
+      "version": "1.6.34",
       "side": "BOTH"
     },
     "AE2NoUltimatePatterns": {

@@ -1390,7 +1390,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.8.4-GTNH...1.9.0-GTNH
 >
 
-# New Mod - Backhand:1.6.33
+# New Mod - Backhand:1.6.34
+## *1.6.34*
+>## What's Changed
+>* Update SyncedKeybind to include keydown arg by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/127
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.33...1.6.34
+>
+
 ## *1.6.33*
 >## What's Changed
 >* Fix mob tempting with item in offhand by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/124
@@ -5445,7 +5453,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.1...1.4.3
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.33
+# Updated - GTNHLib - 0.5.23 --> 0.6.34
+## *0.6.34*
+>## What's Changed
+>* Expose SyncedKeybind keyCode by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/155
+>* Remove key pressed packet by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/156
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.33...0.6.34
+>
+
 ## *0.6.33*
 >## What's Changed
 >* Add support for mouse buttons in SyncedKeybinds by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/154
@@ -10393,7 +10410,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.6.27-GTNH...1.7.0-GTNH
 >
 
-# Updated - ThaumicHorizons - 1.7.0 --> 1.7.4
+# Updated - ThaumicHorizons - 1.7.0 --> 1.7.5
+## *1.7.5*
+>## What's Changed
+>* Fix Illumine Lens interaction with other sources of night vision. by @AbdielKavash in https://github.com/GTNewHorizons/ThaumicHorizons/pull/91
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.4...1.7.5
+>
+
 ## *1.7.4*
 >## What's Changed
 >* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/ThaumicHorizons/pull/86
