@@ -20,7 +20,16 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.98-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.99-gtnh
+## *1.4.99-gtnh*
+>## What's Changed
+>* Use CraftingID to check CraftingLink equivalence in Level Maintainer by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/317
+>* extend level maintainer feedback by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/316
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.98-gtnh...1.4.99-gtnh
+>
+
 ## *1.4.98-gtnh*
 >## What's Changed
 >* implement pins by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/315
@@ -1390,7 +1399,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.8.4-GTNH...1.9.0-GTNH
 >
 
-# New Mod - Backhand:1.6.34
+# New Mod - Backhand:1.6.37
+## *1.6.37*
+>## What's Changed
+>* add stop before bucket check; cancel if slot is null on server by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/132
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.34...1.6.37
+>
+
 ## *1.6.34*
 >## What's Changed
 >* Update SyncedKeybind to include keydown arg by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/127
@@ -5453,7 +5470,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.1...1.4.3
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.34
+# Updated - GTNHLib - 0.5.23 --> 0.6.35
+## *0.6.35*
+>## What's Changed
+>* add ArrayProximityCheck4D and ArrayProximityMap4D<T> by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/157
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.34...0.6.35
+>
+
 ## *0.6.34*
 >## What's Changed
 >* Expose SyncedKeybind keyCode by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/155
@@ -6042,7 +6067,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.3-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.86
+# Updated - Hodgepodge - 2.5.90 --> 2.6.87
+## *2.6.87*
+>## What's Changed
+>* Improve pick block by @VendoAU in https://github.com/GTNewHorizons/Hodgepodge/pull/575
+>
+>## New Contributors
+>* @VendoAU made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/575
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.86...2.6.87
+>
+
 ## *2.6.86*
 >## What's Changed
 >* Config fixes by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/572
@@ -6541,7 +6576,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.0-GTNH...2.5.1-GTNH
 >
 
-# Updated - HydroEnergy - 1.4.3 --> 1.4.8
+# Updated - HydroEnergy - 1.4.3 --> 1.4.9
+## *1.4.9*
+>## What's Changed
+>* Change mixin targeting to be more compatible by @Cleptomania in https://github.com/GTNewHorizons/HydroEnergy/pull/36
+>
+>## New Contributors
+>* @Cleptomania made their first contribution in https://github.com/GTNewHorizons/HydroEnergy/pull/36
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.8...1.4.9
+>
+
 ## *1.4.8*
 >**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.7...1.4.8
 >
@@ -7520,7 +7565,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.11.0...0.12.0
 >
 
-# New Mod - ModernMarkings:0.3.10-1.7.10
+# New Mod - ModernMarkings:0.3.12-1.7.10
+## *0.3.12-1.7.10*
+>## What's Changed
+>* More Floor Path Markings by @DangerousMilk in https://github.com/GTNewHorizons/ModernMarkings/pull/19
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/0.3.10-1.7.10...0.3.12-1.7.10
+>
+
 ## *0.3.10-1.7.10*
 >## What's Changed
 >* Add markings for power plants by @t3435ryt in https://github.com/GTNewHorizons/ModernMarkings/pull/18
