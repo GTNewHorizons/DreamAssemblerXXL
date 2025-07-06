@@ -3396,7 +3396,29 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.368
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.369
+## *5.09.51.369*
+>## What's Changed
+>* Rework LNR tooltip to be more visually pleasing by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4537
+>* Partial Revert of #4120 by @ChibiChoko in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4535
+>* Ur-Ghast, Platinum, Firestone, & Sulfur Bee Changes by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4533
+>* Implement 'Batch Mode' for EEC and VM's to increase performance by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4534
+>* Extract commonly used methods from Commands to new parent class GTBaseCommand by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4538
+>* Add a `Map<UUID,EntityPlayerMP>` in GTProxy by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4542
+>* Fix typo in localization key. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4547
+>* fix incorrect glass tier registered to structurelib by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4546
+>* Unrefined Desh OreDict, Salt LCR Recipe, Thorns Recipe for TGS by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4540
+>* Added Perfect OC and Conditional Perfect OC to Tooltip builder by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4544
+>* added a toggle for the input hatch filter  by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4543
+>* Use ArrayProximityChecks for maglev and mob reppellors by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4549
+>* Show Steam Flowrate Instead of EU/t in NEI for Steam Machines by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4552
+>
+>## New Contributors
+>* @ChibiChoko made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4535
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.368...5.09.51.369
+>
+
 ## *5.09.51.368*
 >## What's Changed
 >* Clarify miner tooltip that fortune only works on small ores by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4539
@@ -7944,7 +7966,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NetherPortalFix/compare/1.3.0...1.4.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.215
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.216
+## *2.7.216*
+>## What's Changed
+>* Add Missing Recipes for Computronics Floppy Disks + Portable Tape Drive by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1297
+>* Remove reference to deleted IGTMod interface by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1298
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.215...2.7.216
+>
+
 ## *2.7.215*
 >## What's Changed
 >* Remove access to GTMod isclient methods by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1296
