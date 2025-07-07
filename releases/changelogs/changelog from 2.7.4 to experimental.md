@@ -20,7 +20,16 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.98-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.99-gtnh
+## *1.4.99-gtnh*
+>## What's Changed
+>* Use CraftingID to check CraftingLink equivalence in Level Maintainer by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/317
+>* extend level maintainer feedback by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/316
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.98-gtnh...1.4.99-gtnh
+>
+
 ## *1.4.98-gtnh*
 >## What's Changed
 >* implement pins by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/315
@@ -2236,7 +2245,32 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.8.4-GTNH...1.9.0-GTNH
 >
 
-# New Mod - Backhand:1.6.32
+# New Mod - Backhand:1.6.37
+## *1.6.37*
+>## What's Changed
+>* add stop before bucket check; cancel if slot is null on server by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/132
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.34...1.6.37
+>
+
+## *1.6.34*
+>## What's Changed
+>* Update SyncedKeybind to include keydown arg by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/127
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.33...1.6.34
+>
+
+## *1.6.33*
+>## What's Changed
+>* Fix mob tempting with item in offhand by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/124
+>* Remove unneeded HarvestTool deprioritize with new changes by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/126
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.32...1.6.33
+>
+
 ## *1.6.32*
 >## What's Changed
 >* Add bucket/IFluidContainerItem check to right click handler by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/116
@@ -2765,7 +2799,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.6.22-GTNH...3.7.0-GTNH
 >
 
-# Updated - Binnie - 2.4.8 --> 2.5.10
+# Updated - Binnie - 2.4.8 --> 2.5.11-pre
+## *2.5.11-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.10...2.5.11-pre
+>
+
 ## *2.5.10*
 >## What's Changed
 >* Remove mutator mutation chance cap by @Ruling-0 in https://github.com/GTNewHorizons/Binnie/pull/61
@@ -3045,7 +3083,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.3.5...1.4.0
 >
 
-# Updated - BloodMagic - 1.6.11 --> 1.7.45-pre
+# Updated - BloodMagic - 1.6.11 --> 1.7.46
+## *1.7.46*
+>## What's Changed
+>* Refactor Teleposers by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/100
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.43...1.7.46
+>
+
 ## *1.7.45-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.44-pre...1.7.45-pre
 >
@@ -3867,7 +3913,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Custom-Main-Menu/compare/1.11.2...1.12.0
 >
 
-# New Mod - Darkerer:1.0.5
+# New Mod - Darkerer:1.0.6
+## *1.0.6*
+>## What's Changed
+>* Fix Client/Server side handling by @glowredman in https://github.com/GTNewHorizons/Darkerer/pull/1
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/Darkerer/pull/1
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.5...1.0.6
+>
+
 ## *1.0.5*
 >**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.4...1.0.5
 >
@@ -4802,7 +4858,71 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.369-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.373-pre
+## *5.09.51.373-pre*
+>## What's Changed
+>* Add LMA Machine Type by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4562
+>* Delete usages of `SideReference$EffectiveSide` by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4560
+>* Removes Crib, Cribus, & Proxy Restriction on Molecular Transformer by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4563
+>* Bump postea version by @Cleptomania in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4559
+>* Fix NPE when unregistering server events by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4564
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.371-pre...5.09.51.373-pre
+>
+
+## *5.09.51.372*
+>## What's Changed
+>* Add translation support for GT5U recipes by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4555
+>* Add LMA Machine Type by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4562
+>* Delete usages of `SideReference$EffectiveSide` by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4560
+>* Removes Crib, Cribus, & Proxy Restriction on Molecular Transformer by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4563
+>* Bump postea version by @Cleptomania in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4559
+>* Fix NPE when unregistering server events by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4564
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.370...5.09.51.372
+>
+
+## *5.09.51.371-pre*
+>## What's Changed
+>* Add translation support for GT5U recipes by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4555
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.370...5.09.51.371-pre
+>
+
+## *5.09.51.370*
+>## What's Changed
+>* Add Missing Units to NEI for Steam Machines by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4553
+>* Remove Chemical Plant Manual by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4554
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.369...5.09.51.370
+>
+
+## *5.09.51.369*
+>## What's Changed
+>* Rework LNR tooltip to be more visually pleasing by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4537
+>* Partial Revert of #4120 by @ChibiChoko in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4535
+>* Ur-Ghast, Platinum, Firestone, & Sulfur Bee Changes by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4533
+>* Implement 'Batch Mode' for EEC and VM's to increase performance by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4534
+>* Extract commonly used methods from Commands to new parent class GTBaseCommand by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4538
+>* Add a `Map<UUID,EntityPlayerMP>` in GTProxy by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4542
+>* Fix typo in localization key. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4547
+>* fix incorrect glass tier registered to structurelib by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4546
+>* Unrefined Desh OreDict, Salt LCR Recipe, Thorns Recipe for TGS by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4540
+>* Added Perfect OC and Conditional Perfect OC to Tooltip builder by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4544
+>* added a toggle for the input hatch filter  by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4543
+>* Use ArrayProximityChecks for maglev and mob reppellors by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4549
+>* Show Steam Flowrate Instead of EU/t in NEI for Steam Machines by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4552
+>
+>## New Contributors
+>* @ChibiChoko made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4535
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.368...5.09.51.369
+>
+
 ## *5.09.51.369-pre*
 >## What's Changed
 >* Clarify miner tooltip that fortune only works on small ores by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4539
@@ -8330,7 +8450,32 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.1...1.4.2-pre
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.33
+# Updated - GTNHLib - 0.5.23 --> 0.6.36
+## *0.6.36*
+>## What's Changed
+>* Make BlockPos#toString() more reasonable by @Taskeren in https://github.com/GTNewHorizons/GTNHLib/pull/158
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.35...0.6.36
+>
+
+## *0.6.35*
+>## What's Changed
+>* add ArrayProximityCheck4D and ArrayProximityMap4D<T> by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/157
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.34...0.6.35
+>
+
+## *0.6.34*
+>## What's Changed
+>* Expose SyncedKeybind keyCode by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/155
+>* Remove key pressed packet by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/156
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.33...0.6.34
+>
+
 ## *0.6.33*
 >## What's Changed
 >* Add support for mouse buttons in SyncedKeybinds by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/154
@@ -8958,7 +9103,21 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.86
+# Updated - Hodgepodge - 2.5.90 --> 2.6.88-pre
+## *2.6.88-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.87...2.6.88-pre
+>
+
+## *2.6.87*
+>## What's Changed
+>* Improve pick block by @VendoAU in https://github.com/GTNewHorizons/Hodgepodge/pull/575
+>
+>## New Contributors
+>* @VendoAU made their first contribution in https://github.com/GTNewHorizons/Hodgepodge/pull/575
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.86...2.6.87
+>
+
 ## *2.6.86*
 >## What's Changed
 >* Config fixes by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/572
@@ -9666,7 +9825,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/HoloInventory/compare/2.5.0-GTNH...2.5.1-GTNH
 >
 
-# Updated - HydroEnergy - 1.4.3 --> 1.4.8
+# Updated - HydroEnergy - 1.4.3 --> 1.4.9
+## *1.4.9*
+>## What's Changed
+>* Change mixin targeting to be more compatible by @Cleptomania in https://github.com/GTNewHorizons/HydroEnergy/pull/36
+>
+>## New Contributors
+>* @Cleptomania made their first contribution in https://github.com/GTNewHorizons/HydroEnergy/pull/36
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.8...1.4.9
+>
+
 ## *1.4.8*
 >**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.7...1.4.8
 >
@@ -9803,7 +9972,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.40-GTNH
+# New Mod - InventoryBogoSorter:1.2.41-GTNH
+## *1.2.41-GTNH*
+>## What's Changed
+>* Disable keybindings by default by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/104
+>* Update Deps by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/105
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.40-GTNH...1.2.41-GTNH
+>
+
 ## *1.2.40-GTNH*
 >## What's Changed
 >* Refactor configuration to use GTNHLib's config system by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/93
@@ -10868,7 +11046,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ModTweaker/compare/0.11.0...0.12.0
 >
 
-# New Mod - ModernMarkings:0.3.11-1.7.10-pre
+# New Mod - ModernMarkings:0.3.12-1.7.10
+## *0.3.12-1.7.10*
+>## What's Changed
+>* More Floor Path Markings by @DangerousMilk in https://github.com/GTNewHorizons/ModernMarkings/pull/19
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/0.3.10-1.7.10...0.3.12-1.7.10
+>
+
 ## *0.3.11-1.7.10-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ModernMarkings/compare/0.3.10-1.7.10...0.3.11-1.7.10-pre
 >
@@ -11281,7 +11467,37 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NetherPortalFix/compare/1.3.0...1.4.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.214-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.218-pre
+## *2.7.218-pre*
+>## What's Changed
+>* Add Missing Recipes for Computronics Floppy Disks + Portable Tape Drive by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1297
+>* Remove reference to deleted IGTMod interface by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1298
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.216-pre...2.7.218-pre
+>
+
+## *2.7.217*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.216...2.7.217
+>
+
+## *2.7.216*
+>## What's Changed
+>* Add Missing Recipes for Computronics Floppy Disks + Portable Tape Drive by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1297
+>* Remove reference to deleted IGTMod interface by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1298
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.215...2.7.216
+>
+
+## *2.7.215*
+>## What's Changed
+>* Remove access to GTMod isclient methods by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1296
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.213...2.7.215
+>
+
 ## *2.7.214-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.213...2.7.214-pre
 >
@@ -13589,7 +13805,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.32...1.0.33
 >
 
-# Updated - Postea - 1.0.13 --> 1.1.1
+# Updated - Postea - 1.0.13 --> 1.1.2
+## *1.1.2*
+>## What's Changed
+>* Fix falsepattern maven repo inclusion by @Cleptomania in https://github.com/GTNewHorizons/Postea/pull/12
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Postea/compare/1.1.1...1.1.2
+>
+
 ## *1.1.1*
 >**Full Changelog**: https://github.com/GTNewHorizons/Postea/compare/1.1.0...1.1.1
 >
@@ -14624,7 +14848,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumcraftMobAspects/compare/1.1.2-GTNH...1.2.0-GTNH
 >
 
-# Updated - ThaumicBases - 1.7.8 --> 1.8.10-pre
+# Updated - ThaumicBases - 1.7.8 --> 1.8.11
+## *1.8.11*
+>## What's Changed
+>* Refactor Leaves by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBases/pull/52
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.8.9...1.8.11
+>
+
 ## *1.8.10-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.8.9...1.8.10-pre
 >
@@ -14866,7 +15098,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.6.27-GTNH...1.7.0-GTNH
 >
 
-# Updated - ThaumicHorizons - 1.7.0 --> 1.7.4
+# Updated - ThaumicHorizons - 1.7.0 --> 1.7.5
+## *1.7.5*
+>## What's Changed
+>* Fix Illumine Lens interaction with other sources of night vision. by @AbdielKavash in https://github.com/GTNewHorizons/ThaumicHorizons/pull/91
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.4...1.7.5
+>
+
 ## *1.7.4*
 >## What's Changed
 >* Replace Baubles with Baubles Expanded by @Caedis in https://github.com/GTNewHorizons/ThaumicHorizons/pull/86
@@ -14897,7 +15137,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.0...1.7.1
 >
 
-# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.14-pre
+# Updated - ThaumicTinkerer - 2.10.2 --> 2.11.15
+## *2.11.15*
+>## What's Changed
+>* Added functions into kami boots by @Coffee-beans-Pi in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/57
+>
+>## New Contributors
+>* @Coffee-beans-Pi made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/57
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.13...2.11.15
+>
+
 ## *2.11.14-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.13...2.11.14-pre
 >
