@@ -2642,7 +2642,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Custom-Main-Menu/compare/1.11.2...1.12.0
 >
 
-# New Mod - Darkerer:1.0.5
+# New Mod - Darkerer:1.0.6
+## *1.0.6*
+>## What's Changed
+>* Fix Client/Server side handling by @glowredman in https://github.com/GTNewHorizons/Darkerer/pull/1
+>
+>## New Contributors
+>* @glowredman made their first contribution in https://github.com/GTNewHorizons/Darkerer/pull/1
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.5...1.0.6
+>
+
 ## *1.0.5*
 >**Full Changelog**: https://github.com/GTNewHorizons/Darkerer/compare/1.0.4...1.0.5
 >
@@ -3396,7 +3406,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.369
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.370
+## *5.09.51.370*
+>## What's Changed
+>* Add Missing Units to NEI for Steam Machines by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4553
+>* Remove Chemical Plant Manual by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4554
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.369...5.09.51.370
+>
+
 ## *5.09.51.369*
 >## What's Changed
 >* Rework LNR tooltip to be more visually pleasing by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4537
@@ -7966,7 +7985,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NetherPortalFix/compare/1.3.0...1.4.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.216
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.217
+## *2.7.217*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.216...2.7.217
+>
+
 ## *2.7.216*
 >## What's Changed
 >* Add Missing Recipes for Computronics Floppy Disks + Portable Tape Drive by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1297
@@ -9489,7 +9512,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/PersonalSpace/compare/1.0.32...1.0.33
 >
 
-# Updated - Postea - 1.0.13 --> 1.1.1
+# Updated - Postea - 1.0.13 --> 1.1.2
+## *1.1.2*
+>## What's Changed
+>* Fix falsepattern maven repo inclusion by @Cleptomania in https://github.com/GTNewHorizons/Postea/pull/12
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Postea/compare/1.1.1...1.1.2
+>
+
 ## *1.1.1*
 >**Full Changelog**: https://github.com/GTNewHorizons/Postea/compare/1.1.0...1.1.1
 >
