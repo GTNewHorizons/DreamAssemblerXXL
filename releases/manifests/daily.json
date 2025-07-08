@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-07T04:06:01.045368",
-  "config": "2.8.0-nightly-2025-07-06",
+  "last_updated": "2025-07-08T04:02:28.532689",
+  "config": "2.8.0-nightly-2025-07-07",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.370",
+      "version": "5.09.51.372",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.35",
+      "version": "0.6.36",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.40-GTNH",
+      "version": "1.2.41-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {

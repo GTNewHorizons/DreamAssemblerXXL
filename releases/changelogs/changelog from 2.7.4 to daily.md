@@ -3406,7 +3406,20 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.370
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.372
+## *5.09.51.372*
+>## What's Changed
+>* Add translation support for GT5U recipes by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4555
+>* Add LMA Machine Type by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4562
+>* Delete usages of `SideReference$EffectiveSide` by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4560
+>* Removes Crib, Cribus, & Proxy Restriction on Molecular Transformer by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4563
+>* Bump postea version by @Cleptomania in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4559
+>* Fix NPE when unregistering server events by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4564
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.370...5.09.51.372
+>
+
 ## *5.09.51.370*
 >## What's Changed
 >* Add Missing Units to NEI for Steam Machines by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4553
@@ -5511,7 +5524,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.1...1.4.3
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.35
+# Updated - GTNHLib - 0.5.23 --> 0.6.36
+## *0.6.36*
+>## What's Changed
+>* Make BlockPos#toString() more reasonable by @Taskeren in https://github.com/GTNewHorizons/GTNHLib/pull/158
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.35...0.6.36
+>
+
 ## *0.6.35*
 >## What's Changed
 >* add ArrayProximityCheck4D and ArrayProximityMap4D<T> by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/157
@@ -6738,7 +6759,16 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.40-GTNH
+# New Mod - InventoryBogoSorter:1.2.41-GTNH
+## *1.2.41-GTNH*
+>## What's Changed
+>* Disable keybindings by default by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/104
+>* Update Deps by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/105
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.40-GTNH...1.2.41-GTNH
+>
+
 ## *1.2.40-GTNH*
 >## What's Changed
 >* Refactor configuration to use GTNHLib's config system by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/93
