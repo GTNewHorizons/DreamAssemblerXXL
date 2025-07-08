@@ -2799,7 +2799,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.6.22-GTNH...3.7.0-GTNH
 >
 
-# Updated - Binnie - 2.4.8 --> 2.5.11-pre
+# Updated - Binnie - 2.4.8 --> 2.5.12
+## *2.5.12*
+>## What's Changed
+>* Properly apply hunger effect by @Alexdoru in https://github.com/GTNewHorizons/Binnie/pull/62
+>
+>## New Contributors
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Binnie/pull/62
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.10...2.5.12
+>
+
 ## *2.5.11-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.10...2.5.11-pre
 >
@@ -4858,7 +4868,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.373-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.376-pre
+## *5.09.51.376-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.375-pre...5.09.51.376-pre
+>
+
+## *5.09.51.375-pre*
+>## What's Changed
+>* Expose playSound so that NEI autocrafting can toggle it by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4569
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.373-pre...5.09.51.375-pre
+>
+
+## *5.09.51.374*
+>## What's Changed
+>* Expose playSound so that NEI autocrafting can toggle it by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4569
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.372...5.09.51.374
+>
+
 ## *5.09.51.373-pre*
 >## What's Changed
 >* Add LMA Machine Type by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4562
@@ -8761,7 +8791,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.5.23...0.6.0
 >
 
-# Updated - Gadomancy - 1.3.8 --> 1.4.3
+# Updated - Gadomancy - 1.3.8 --> 1.4.4
+## *1.4.4*
+>## What's Changed
+>* Delete access transformer for gamerules map by @Alexdoru in https://github.com/GTNewHorizons/Gadomancy/pull/38
+>
+>## New Contributors
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Gadomancy/pull/38
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.3...1.4.4
+>
+
 ## *1.4.3*
 >## What's Changed
 >* Use mixins instead of registry replacement by @ah-OOG-ah in https://github.com/GTNewHorizons/Gadomancy/pull/37
@@ -9103,7 +9143,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.2-GTNH-pre
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.88-pre
+# Updated - Hodgepodge - 2.5.90 --> 2.6.89
+## *2.6.89*
+>## What's Changed
+>* Add game rule to disable hunger `"disableHunger"` by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/577
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.87...2.6.89
+>
+
 ## *2.6.88-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.87...2.6.88-pre
 >
@@ -11467,7 +11515,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NetherPortalFix/compare/1.3.0...1.4.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.218-pre
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.219-pre
+## *2.7.219-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.218-pre...2.7.219-pre
+>
+
 ## *2.7.218-pre*
 >## What's Changed
 >* Add Missing Recipes for Computronics Floppy Disks + Portable Tape Drive by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1297
@@ -13035,7 +13087,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.60-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.61-GTNH-pre
+## *2.7.61-GTNH-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.60-GTNH...2.7.61-GTNH-pre
+>
+
 ## *2.7.60-GTNH*
 >## What's Changed
 >* Update Bookmark Chain Tooltip Cache by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/657
