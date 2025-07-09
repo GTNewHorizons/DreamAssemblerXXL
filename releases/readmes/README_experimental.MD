@@ -265,9 +265,9 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.3.1-GTNH |
 | [AkashicTome](https://github.com/GTNewHorizons/AkashicTome) | 1.2.4 |
 | [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.3.1-GTNH |
-| [Amazing-Trophies](https://github.com/GTNewHorizons/Amazing-Trophies) | 1.3.7-pre |
+| [Amazing-Trophies](https://github.com/GTNewHorizons/Amazing-Trophies) | 1.3.8 |
 | [amunra](https://github.com/GTNewHorizons/amunra) | 0.8.2 |
-| [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-beta48 |
+| [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-beta49 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.9.0 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.4 |
 | [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-654-GTNH-pre |
@@ -298,7 +298,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BlockRenderer6343](https://github.com/GTNewHorizons/BlockRenderer6343) | 1.3.16 |
 | [BloodArsenal](https://github.com/GTNewHorizons/BloodArsenal) | 1.4.6 |
 | [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.7.46 |
-| [Botania](https://github.com/GTNewHorizons/Botania) | 1.12.14-GTNH-pre |
+| [Botania](https://github.com/GTNewHorizons/Botania) | 1.12.15-GTNH-pre |
 | [Botanic-horizons](https://github.com/GTNewHorizons/Botanic-horizons) | 1.11.15-GTNH-pre |
 | [BrandonsCore](https://github.com/GTNewHorizons/BrandonsCore) | 1.2.0-GTNH |
 | [Bug-Torch](https://github.com/jss2a98aj/BugTorch) | 1.2.14 |
@@ -384,7 +384,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [MagicBees](https://github.com/GTNewHorizons/MagicBees) | 2.9.4-GTNH |
 | [MalisisDoors](https://github.com/GTNewHorizons/MalisisDoors) | 1.18.1-GTNH |
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.5.1 |
-| [MatterManipulator](https://github.com/GTNewHorizons/MatterManipulator) | 0.0.33.1-GTNH-pre |
+| [MatterManipulator](https://github.com/GTNewHorizons/MatterManipulator) | 0.0.34.1-GTNH-pre |
 | [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.5.4-GTNH |
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 2.3.1 |
 | [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.5.2-GTNH |
@@ -406,7 +406,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.6 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.1.9 |
 | [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.7.63-GTNH-pre |
-| [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.6.16-pre |
+| [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.6.17 |
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 0.1.3 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.3.3-GTNH |
 | [OCGlasses](https://github.com/GTNewHorizons/OCGlasses) | 1.6.1-GTNH |
@@ -454,7 +454,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) | 4.2.3.5a |
 | [ThaumcraftMobAspects](https://github.com/GTNewHorizons/ThaumcraftMobAspects) | 1.2.0-GTNH |
 | [Thaumic Machina](https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/wip-mods/2200956-wip-1-7-10-open-beta-thaumcraft-4-2-addon-thaumic) | 0.2.1 |
-| [Thaumic_Exploration](https://github.com/GTNewHorizons/Thaumic_Exploration) | 1.4.1-GTNH-pre |
+| [Thaumic_Exploration](https://github.com/GTNewHorizons/Thaumic_Exploration) | 1.4.2-GTNH |
 | [ThaumicBases](https://github.com/GTNewHorizons/ThaumicBases) | 1.8.11 |
 | [ThaumicBoots](https://github.com/GTNewHorizons/ThaumicBoots) | 1.4.8-pre |
 | [ThaumicEnergistics](https://github.com/GTNewHorizons/ThaumicEnergistics) | 1.7.8-GTNH |
