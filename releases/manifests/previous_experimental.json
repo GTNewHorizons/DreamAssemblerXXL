@@ -1,8 +1,8 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-07-09T15:03:03.177791",
-  "config": "2.8.0-nightly-2025-07-09",
+  "last_updated": "2025-07-09T18:27:24.603404",
+  "config": "2.8.0-nightly-2025-07-09-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.4.5-pre",
+      "version": "1.4.6",
       "side": "BOTH"
     },
     "Galacticraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.378-pre",
+      "version": "5.09.51.379",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
-      "version": "1.12.6-GTNH-pre",
+      "version": "1.12.7-GTNH",
       "side": "BOTH"
     },
     "harvestcraft": {
