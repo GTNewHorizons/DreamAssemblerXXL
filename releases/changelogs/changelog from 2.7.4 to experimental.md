@@ -4899,7 +4899,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.378-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.381-pre
+## *5.09.51.381-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.380-pre...5.09.51.381-pre
+>
+
+## *5.09.51.380-pre*
+>## What's Changed
+>* Spotless apply for branch powerfail-notifications for #4466 by @github-actions in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4574
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.379...5.09.51.380-pre
+>
+
+## *5.09.51.379*
+>## What's Changed
+>* Correctly use Server and Client proxy classes by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4541
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.377...5.09.51.379
+>
+
 ## *5.09.51.378-pre*
 >## What's Changed
 >* Add ability to disable play sound when crafting with tools by @slprime in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4570
@@ -8844,7 +8864,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.5.23...0.6.0
 >
 
-# Updated - Gadomancy - 1.3.8 --> 1.4.5-pre
+# Updated - Gadomancy - 1.3.8 --> 1.4.6
+## *1.4.6*
+>## What's Changed
+>* Delete overkill mixin registration system by @Alexdoru in https://github.com/GTNewHorizons/Gadomancy/pull/39
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.4...1.4.6
+>
+
 ## *1.4.5-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.4...1.4.5-pre
 >
@@ -9167,7 +9195,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.2.2...1.3.0
 >
 
-# Updated - Hardcore-Ender-Expansion - 1.12.1-GTNH --> 1.12.6-GTNH-pre
+# Updated - Hardcore-Ender-Expansion - 1.12.1-GTNH --> 1.12.7-GTNH
+## *1.12.7-GTNH*
+>## What's Changed
+>* Delete  overkill mixin registration system by @Alexdoru in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/26
+>
+>## New Contributors
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/26
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.5-GTNH...1.12.7-GTNH
+>
+
 ## *1.12.6-GTNH-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.5-GTNH...1.12.6-GTNH-pre
 >
