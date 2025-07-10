@@ -796,7 +796,11 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AlchemyGrate/compare/1.2.1-GTNH...1.3.0-GTNH
 >
 
-# Updated - Amazing-Trophies - 1.3.0 --> 1.3.8
+# Updated - Amazing-Trophies - 1.3.0 --> 1.3.9-pre
+## *1.3.9-pre*
+>**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.8...1.3.9-pre
+>
+
 ## *1.3.8*
 >## What's Changed
 >* Fix flickering on "Graphics: Fast" by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/14
@@ -4691,7 +4695,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.7.1-GTNH...0.8.0-GTNH
 >
 
-# Updated - ForestryMC - 4.9.22 --> 4.10.13
+# Updated - ForestryMC - 4.9.22 --> 4.10.14
+## *4.10.14*
+>## What's Changed
+>* Add missing = in Localisation by @Yoshy2002 in https://github.com/GTNewHorizons/ForestryMC/pull/97
+>
+>## New Contributors
+>* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/97
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.13...4.10.14
+>
+
 ## *4.10.13*
 >## What's Changed
 >* Change NEIHandler Tooltip Position by @slprime in https://github.com/GTNewHorizons/ForestryMC/pull/96
@@ -4899,7 +4913,27 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.381-pre
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.383-pre
+## *5.09.51.383-pre*
+>## What's Changed
+>* AAL NEI Data Access Hatch Bugfix by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4567
+>* Add nano forge t4 by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3630
+>* Fixes for Nanoforge t4 pr by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4575
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.381-pre...5.09.51.383-pre
+>
+
+## *5.09.51.382*
+>## What's Changed
+>* AAL NEI Data Access Hatch Bugfix by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4567
+>* Add nano forge t4 by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3630
+>* Fixes for Nanoforge t4 pr by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4575
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.379...5.09.51.382
+>
+
 ## *5.09.51.381-pre*
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.380-pre...5.09.51.381-pre
 >
@@ -14418,7 +14452,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Roguelike-Dungeons/compare/1.6.0-GTNH...1.6.1-GTNH-pre
 >
 
-# Updated - SC2 - 2.3.0 --> 2.3.10
+# Updated - SC2 - 2.3.0 --> 2.3.11
+## *2.3.11*
+>## What's Changed
+>* Fix localization missing = by @Yoshy2002 in https://github.com/GTNewHorizons/SC2/pull/14
+>
+>## New Contributors
+>* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/SC2/pull/14
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.10...2.3.11
+>
+
 ## *2.3.10*
 >## What's Changed
 >* Update dev username by @koolkrafter5 in https://github.com/GTNewHorizons/SC2/pull/13
