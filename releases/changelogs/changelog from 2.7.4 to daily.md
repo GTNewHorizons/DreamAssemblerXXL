@@ -481,7 +481,15 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/AlchemyGrate/compare/1.2.1-GTNH...1.3.0-GTNH
 >
 
-# Updated - Amazing-Trophies - 1.3.0 --> 1.3.5
+# Updated - Amazing-Trophies - 1.3.0 --> 1.3.8
+## *1.3.8*
+>## What's Changed
+>* Fix flickering on "Graphics: Fast" by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/14
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.5...1.3.8
+>
+
 ## *1.3.5*
 >## What's Changed
 >* [Wiki] Fix Image URLs by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/15
@@ -512,8 +520,17 @@
 >**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.0...1.3.1
 >
 
-# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta48
+# Updated - Angelica - 1.0.0-beta29 --> 1.0.0-beta49
 Mod is client-side only.
+## *1.0.0-beta49*
+>## What's Changed
+>* Fix MCPF link in readme by @Radk6 in https://github.com/GTNewHorizons/Angelica/pull/981
+>* Initial FluidLogged compat by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/985
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta48...1.0.0-beta49
+>
+
 ## *1.0.0-beta48*
 >## What's Changed
 >* Add a guard to only init once by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/984
@@ -1752,7 +1769,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterBuildersWands/compare/0.13.1-GTNH...0.13.2-GTNH
 >
 
-# Updated - BetterQuesting - 3.6.24-GTNH --> 3.7.5-GTNH
+# Updated - BetterQuesting - 3.6.24-GTNH --> 3.7.7-GTNH
+## *3.7.7-GTNH*
+>## What's Changed
+>* Make custom quest sounds decent volume by @dibbydoda in https://github.com/GTNewHorizons/BetterQuesting/pull/162
+>
+>## New Contributors
+>* @dibbydoda made their first contribution in https://github.com/GTNewHorizons/BetterQuesting/pull/162
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.5-GTNH...3.7.7-GTNH
+>
+
 ## *3.7.5-GTNH*
 >## What's Changed
 >* Add button to auto-claim choice rewards by @serenibyss in https://github.com/GTNewHorizons/BetterQuesting/pull/161
@@ -3416,7 +3443,26 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.374
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.379
+## *5.09.51.379*
+>## What's Changed
+>* Correctly use Server and Client proxy classes by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4541
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.377...5.09.51.379
+>
+
+## *5.09.51.377*
+>## What's Changed
+>* Add ability to disable play sound when crafting with tools by @slprime in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4570
+>* Remove mention of wallsharing from Maintenance Hatch tooltip. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4566
+>* Dragon Essence Altar Bee Mutation Bugfix by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4572
+>* EUs -> EU by @koolkrafter5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4573
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.374...5.09.51.377
+>
+
 ## *5.09.51.374*
 >## What's Changed
 >* Expose playSound so that NEI autocrafting can toggle it by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4569
@@ -5849,7 +5895,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.5.23...0.6.0
 >
 
-# Updated - Gadomancy - 1.3.8 --> 1.4.4
+# Updated - Gadomancy - 1.3.8 --> 1.4.6
+## *1.4.6*
+>## What's Changed
+>* Delete overkill mixin registration system by @Alexdoru in https://github.com/GTNewHorizons/Gadomancy/pull/39
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.4...1.4.6
+>
+
 ## *1.4.4*
 >## What's Changed
 >* Delete access transformer for gamerules map by @Alexdoru in https://github.com/GTNewHorizons/Gadomancy/pull/38
@@ -6128,7 +6182,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.2.2...1.3.0
 >
 
-# Updated - Hardcore-Ender-Expansion - 1.12.1-GTNH --> 1.12.5-GTNH
+# Updated - Hardcore-Ender-Expansion - 1.12.1-GTNH --> 1.12.7-GTNH
+## *1.12.7-GTNH*
+>## What's Changed
+>* Delete  overkill mixin registration system by @Alexdoru in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/26
+>
+>## New Contributors
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/26
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.5-GTNH...1.12.7-GTNH
+>
+
 ## *1.12.5-GTNH*
 >## What's Changed
 >* Update dev username by @koolkrafter5 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/25
@@ -7513,7 +7577,11 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.5.0...0.5.1
 >
 
-# New Mod - MatterManipulator:0.0.33-GTNH
+# New Mod - MatterManipulator:0.0.34-GTNH
+## *0.0.34-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.33-GTNH...0.0.34-GTNH
+>
+
 ## *0.0.33-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.31-GTNH...0.0.33-GTNH
 >
@@ -8051,7 +8119,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NetherPortalFix/compare/1.3.0...1.4.0
 >
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.217
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.220
+## *2.7.220*
+>## What's Changed
+>* Hardcode own mod ID by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1299
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.217...2.7.220
+>
+
 ## *2.7.217*
 >**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.216...2.7.217
 >
@@ -8972,7 +9048,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.60-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.62-GTNH
+## *2.7.62-GTNH*
+>## What's Changed
+>* Disable play sound when crafting with gt tools by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/659
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.60-GTNH...2.7.62-GTNH
+>
+
 ## *2.7.60-GTNH*
 >## What's Changed
 >* Update Bookmark Chain Tooltip Cache by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/657
@@ -9297,7 +9381,18 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.6.51-GTNH...2.7.0-GTNH
 >
 
-# Updated - Nuclear-Control - 2.6.7 --> 2.6.12
+# Updated - Nuclear-Control - 2.6.7 --> 2.6.17
+## *2.6.17*
+>## What's Changed
+>* Update dev username by @koolkrafter5 in https://github.com/GTNewHorizons/Nuclear-Control/pull/27
+>* (adv.) Info panel rework by @guid118 in https://github.com/GTNewHorizons/Nuclear-Control/pull/24
+>
+>## New Contributors
+>* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/Nuclear-Control/pull/27
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.12...2.6.17
+>
+
 ## *2.6.12*
 >## What's Changed
 >* Add Factorio rocket silo alarm sound by @2ndDerivative in https://github.com/GTNewHorizons/Nuclear-Control/pull/26
@@ -10739,6 +10834,11 @@ Mod is client-side only.
 >* @ClassixX made their first contribution in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/42
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.10.2...2.11.0
+>
+
+# Updated - Thaumic_Exploration - 1.4.0-GTNH --> 1.4.2-GTNH
+## *1.4.2-GTNH*
+>**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.0-GTNH...1.4.2-GTNH
 >
 
 # Updated - TiC-Tooltips - 1.3.1 --> 1.4.0
