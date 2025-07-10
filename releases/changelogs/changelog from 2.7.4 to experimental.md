@@ -8572,7 +8572,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-TC-Wands - 1.4.1 --> 1.4.3
+# Updated - GTNH-TC-Wands - 1.4.1 --> 1.4.5
+## *1.4.5*
+>## What's Changed
+>* Add Getters by @koolkrafter5 in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/24
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.4...1.4.5
+>
+
+## *1.4.4*
+>## What's Changed
+>* Keep this data for use by other mods by @koolkrafter5 in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/23
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.3...1.4.4
+>
+
 ## *1.4.3*
 >## What's Changed
 >* Necromancer's Staff Core Recipes by @koolkrafter5 in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/22
