@@ -3255,7 +3255,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.7.1-GTNH...0.8.0-GTNH
 >
 
-# Updated - ForestryMC - 4.9.22 --> 4.10.13
+# Updated - ForestryMC - 4.9.22 --> 4.10.14
+## *4.10.14*
+>## What's Changed
+>* Add missing = in Localisation by @Yoshy2002 in https://github.com/GTNewHorizons/ForestryMC/pull/97
+>
+>## New Contributors
+>* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/ForestryMC/pull/97
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.13...4.10.14
+>
+
 ## *4.10.13*
 >## What's Changed
 >* Change NEIHandler Tooltip Position by @slprime in https://github.com/GTNewHorizons/ForestryMC/pull/96
@@ -3443,7 +3453,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.379
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.382
+## *5.09.51.382*
+>## What's Changed
+>* AAL NEI Data Access Hatch Bugfix by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4567
+>* Add nano forge t4 by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3630
+>* Fixes for Nanoforge t4 pr by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4575
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.379...5.09.51.382
+>
+
 ## *5.09.51.379*
 >## What's Changed
 >* Correctly use Server and Client proxy classes by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4541
@@ -5577,7 +5597,23 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.50.103...5.09.51.00
 >
 
-# Updated - GTNH-TC-Wands - 1.4.1 --> 1.4.3
+# Updated - GTNH-TC-Wands - 1.4.1 --> 1.4.5
+## *1.4.5*
+>## What's Changed
+>* Add Getters by @koolkrafter5 in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/24
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.4...1.4.5
+>
+
+## *1.4.4*
+>## What's Changed
+>* Keep this data for use by other mods by @koolkrafter5 in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/23
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.3...1.4.4
+>
+
 ## *1.4.3*
 >## What's Changed
 >* Necromancer's Staff Core Recipes by @koolkrafter5 in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/22
@@ -10011,7 +10047,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Roguelike-Dungeons/compare/1.6.0-GTNH...1.6.2-GTNH
 >
 
-# Updated - SC2 - 2.3.0 --> 2.3.10
+# Updated - SC2 - 2.3.0 --> 2.3.11
+## *2.3.11*
+>## What's Changed
+>* Fix localization missing = by @Yoshy2002 in https://github.com/GTNewHorizons/SC2/pull/14
+>
+>## New Contributors
+>* @Yoshy2002 made their first contribution in https://github.com/GTNewHorizons/SC2/pull/14
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.10...2.3.11
+>
+
 ## *2.3.10*
 >## What's Changed
 >* Update dev username by @koolkrafter5 in https://github.com/GTNewHorizons/SC2/pull/13
