@@ -5624,7 +5624,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.1...1.4.3
 >
 
-# Updated - GTNHLib - 0.5.23 --> 0.6.36
+# Updated - GTNHLib - 0.5.23 --> 0.6.37
+## *0.6.37*
+>## What's Changed
+>* Add Cyrillic support for MathExpressionParser by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GTNHLib/pull/160
+>* Initial gamerule API by @Cleptomania in https://github.com/GTNewHorizons/GTNHLib/pull/159
+>* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/153
+>
+>## New Contributors
+>* @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/GTNHLib/pull/160
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.36...0.6.37
+>
+
 ## *0.6.36*
 >## What's Changed
 >* Make BlockPos#toString() more reasonable by @Taskeren in https://github.com/GTNewHorizons/GTNHLib/pull/158
@@ -6257,7 +6269,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.3-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.89
+# Updated - Hodgepodge - 2.5.90 --> 2.6.90
+## *2.6.90*
+>## What's Changed
+>* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/574
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.89...2.6.90
+>
+
 ## *2.6.89*
 >## What's Changed
 >* Add game rule to disable hunger `"disableHunger"` by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/577
@@ -9065,7 +9085,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.0...1.7.4
 >
 
-# Updated - NotEnoughIds - 2.1.6 --> 2.1.9
+# Updated - NotEnoughIds - 2.1.6 --> 2.1.10
+## *2.1.10*
+>## What's Changed
+>* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/NotEnoughIds/pull/28
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.9...2.1.10
+>
+
 ## *2.1.9*
 >## What's Changed
 >* Client block transformer by @RecursivePineapple in https://github.com/GTNewHorizons/NotEnoughIds/pull/26
