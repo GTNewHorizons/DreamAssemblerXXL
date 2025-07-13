@@ -735,7 +735,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-652-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-655-GTNH
+## *rv3-beta-655-GTNH*
+>## What's Changed
+>* Meteorite World Generation Expansion for Dimensions and Custom JSON Loot Tables by @Gamingb3ast in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/733
+>* ui: improve Storage Cell tooltip readability by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/789
+>* Refactor localization system: unify chat message and text locate with `Localization` interface and methods  by @NeOzay in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/791
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-652-GTNH...rv3-beta-655-GTNH
+>
+
 ## *rv3-beta-652-GTNH*
 >## What's Changed
 >* fix buttons duplication on gui when re init gui by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/785
@@ -1416,7 +1426,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.8.4-GTNH...1.9.0-GTNH
 >
 
-# New Mod - Backhand:1.6.37
+# New Mod - Backhand:1.6.38
+## *1.6.38*
+>## What's Changed
+>* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/Backhand/pull/134
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.37...1.6.38
+>
+
 ## *1.6.37*
 >## What's Changed
 >* add stop before bucket check; cancel if slot is null on server by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/132
@@ -1767,6 +1785,17 @@ Mod is client-side only.
 >* @jurrejelle made their first contribution in https://github.com/GTNewHorizons/BetterBuildersWands/pull/18
 >
 >**Full Changelog**: https://github.com/GTNewHorizons/BetterBuildersWands/compare/0.13.1-GTNH...0.13.2-GTNH
+>
+
+# Updated - BetterP2P - 1.3.0 --> 1.3.1
+## *1.3.1*
+>## What's Changed
+>* update dependencies by @lc-1337 in https://github.com/GTNewHorizons/BetterP2P/pull/36
+>
+>## New Contributors
+>* @lc-1337 made their first contribution in https://github.com/GTNewHorizons/BetterP2P/pull/36
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.3.0...1.3.1
 >
 
 # Updated - BetterQuesting - 3.6.24-GTNH --> 3.7.7-GTNH
@@ -2287,7 +2316,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.6.9...1.7.0
 >
 
-# Updated - Botania - 1.11.7-GTNH --> 1.12.12-GTNH
+# Updated - Botania - 1.11.7-GTNH --> 1.12.16-GTNH
+## *1.12.16-GTNH*
+>## What's Changed
+>* Fix achievement text typo by @koolkrafter5 in https://github.com/GTNewHorizons/Botania/pull/88
+>
+>## New Contributors
+>* @koolkrafter5 made their first contribution in https://github.com/GTNewHorizons/Botania/pull/88
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.12-GTNH...1.12.16-GTNH
+>
+
 ## *1.12.12-GTNH*
 >## What's Changed
 >* Add missing equals sign by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Botania/pull/83
@@ -2368,7 +2407,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.11.6-GTNH...1.12.1-GTNH
 >
 
-# Updated - Botanic-horizons - 1.1.7-GTNH --> 1.11.14-GTNH
+# Updated - Botanic-horizons - 1.1.7-GTNH --> 1.11.16-GTNH
+## *1.11.16-GTNH*
+>## What's Changed
+>* Downtier Alfheim and Elementium to be mid EV instead of IV by @chrombread in https://github.com/GTNewHorizons/Botanic-horizons/pull/35
+>
+>## New Contributors
+>* @chrombread made their first contribution in https://github.com/GTNewHorizons/Botanic-horizons/pull/35
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.11.14-GTNH...1.11.16-GTNH
+>
+
 ## *1.11.14-GTNH*
 >## What's Changed
 >* Botania Multiblocks by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/33
@@ -3453,7 +3502,60 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/1.10.0-GTNH...2.0.0-GTNH
 >
 
-# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.382
+# Updated - GT5-Unofficial - 5.09.50.119 --> 5.09.51.388
+## *5.09.51.388*
+>## What's Changed
+>* Fix overclock calculator speed overflow by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4598
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.387...5.09.51.388
+>
+
+## *5.09.51.387*
+>## What's Changed
+>* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4597
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.386...5.09.51.387
+>
+
+## *5.09.51.386*
+>## What's Changed
+>* CAL imprinting recipes by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4512
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.385...5.09.51.386
+>
+
+## *5.09.51.385*
+>## What's Changed
+>* Don't schedule ~5-15k structure checks every time a forge of the gods starts or stops by @dvdmandt in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4585
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.384...5.09.51.385
+>
+
+## *5.09.51.384*
+>## What's Changed
+>* Move server event registration to `FMLServerAboutToStartEvent` by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4577
+>* unbind power google keybind by default by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4580
+>* Add Cherry Plank Item (For EFR Recipes) by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4579
+>* Move tool mode switch to its own keybind by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4545
+>* fix crafting sound not playing anymore by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4584
+>* Fix Maceration stack tooltip. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4593
+>* Split hasContainerItem and getContainerItem of MetaGeneratedTool by @slprime in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4583
+>* More Multiblock Abbreviations by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4587
+>* Improve wording of godforge power panel by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4596
+>* add config for color and line width of the GT Tool block overlay by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4578
+>* Mirror texture of SpaceTime Screwdriver Head by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4594
+>* Delete gt++ PlayerUtils class by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4576
+>
+>## New Contributors
+>* @Worive made their first contribution in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4594
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.382...5.09.51.384
+>
+
 ## *5.09.51.382*
 >## What's Changed
 >* AAL NEI Data Access Hatch Bugfix by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4567
@@ -6230,7 +6332,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.2.2...1.3.0
 >
 
-# Updated - Hardcore-Ender-Expansion - 1.12.1-GTNH --> 1.12.7-GTNH
+# Updated - Hardcore-Ender-Expansion - 1.12.1-GTNH --> 1.12.8-GTNH
+## *1.12.8-GTNH*
+>## What's Changed
+>* add @MCVersion to IFMLLoadingPlugin by @Alexdoru in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/27
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.7-GTNH...1.12.8-GTNH
+>
+
 ## *1.12.7-GTNH*
 >## What's Changed
 >* Delete  overkill mixin registration system by @Alexdoru in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/26
@@ -6269,7 +6379,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.1-GTNH...1.12.3-GTNH
 >
 
-# Updated - Hodgepodge - 2.5.90 --> 2.6.90
+# Updated - Hodgepodge - 2.5.90 --> 2.6.91
+## *2.6.91*
+>## What's Changed
+>* Small improvements on removeFormattingCodes by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/579
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.90...2.6.91
+>
+
 ## *2.6.90*
 >## What's Changed
 >* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/574
@@ -6915,7 +7033,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.9.1-GTNH...1.10.0-GTNH
 >
 
-# New Mod - InventoryBogoSorter:1.2.41-GTNH
+# New Mod - InventoryBogoSorter:1.2.42-GTNH
+## *1.2.42-GTNH*
+>## What's Changed
+>* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/107
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.41-GTNH...1.2.42-GTNH
+>
+
 ## *1.2.41-GTNH*
 >## What's Changed
 >* Disable keybindings by default by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/104
@@ -7633,7 +7759,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Mantle/compare/0.5.0...0.5.1
 >
 
-# New Mod - MatterManipulator:0.0.34-GTNH
+# New Mod - MatterManipulator:0.0.35-GTNH
+## *0.0.35-GTNH*
+>## What's Changed
+>* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/MatterManipulator/pull/8
+>
+>## New Contributors
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/MatterManipulator/pull/8
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.34-GTNH...0.0.35-GTNH
+>
+
 ## *0.0.34-GTNH*
 >**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.33-GTNH...0.0.34-GTNH
 >
@@ -9112,7 +9248,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughIds/compare/2.1.6...2.1.7
 >
 
-# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.62-GTNH
+# Updated - NotEnoughItems - 2.6.54-GTNH --> 2.7.64-GTNH
+## *2.7.64-GTNH*
+>## What's Changed
+>* Bookmarks Chains Math: fix infinity loop by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/662
+>* Bookmarks Hotkeys: optimization thaumcraft recipes by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/663
+>* Bookmarks Chains: Optimize GTTools by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/667
+>* Bookmarks Chains: Use active Item as preferred if exists by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/664
+>* Correctly used tools in favorites by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/670
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.62-GTNH...2.7.64-GTNH
+>
+
 ## *2.7.62-GTNH*
 >## What's Changed
 >* Disable play sound when crafting with gt tools by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/659
@@ -10235,7 +10383,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Schematica/compare/1.12.2-GTNH...1.12.4-GTNH
 >
 
-# Updated - ServerUtilities - 2.1.40 --> 2.1.54
+# Updated - ServerUtilities - 2.1.40 --> 5.1.55
+## *5.1.55*
+>## What's Changed
+>* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/ServerUtilities/pull/220
+>
+>## New Contributors
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/ServerUtilities/pull/220
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.54...5.1.55
+>
+
 ## *2.1.54*
 >## What's Changed
 >* Battlegear 2 for Backhand compat by @YannickMG in https://github.com/GTNewHorizons/ServerUtilities/pull/217
@@ -10336,7 +10494,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.14.1...0.14.2
 >
 
-# Updated - StorageDrawers - 2.1.0-GTNH --> 2.1.4-GTNH
+# Updated - StorageDrawers - 2.1.0-GTNH --> 2.1.5-GTNH
+## *2.1.5-GTNH*
+>## What's Changed
+>* Impr(client): cache EntityItem in renderFancyItem for Fancy Rendering by @leagris in https://github.com/GTNewHorizons/StorageDrawers/pull/44
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.4-GTNH...2.1.5-GTNH
+>
+
 ## *2.1.4-GTNH*
 >## What's Changed
 >* Cleanup drawer item dropping code and add new "mixed" behavior by @Alexdoru in https://github.com/GTNewHorizons/StorageDrawers/pull/42
@@ -10391,7 +10557,17 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/StructureCompat/compare/0.6.5...0.7.0
 >
 
-# Updated - StructureLib - 1.3.6 --> 1.4.12
+# Updated - StructureLib - 1.3.6 --> 1.4.15
+## *1.4.15*
+>## What's Changed
+>* Delete overkill mixin registration system by @Alexdoru in https://github.com/GTNewHorizons/StructureLib/pull/44
+>
+>## New Contributors
+>* @Alexdoru made their first contribution in https://github.com/GTNewHorizons/StructureLib/pull/44
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.12...1.4.15
+>
+
 ## *1.4.12*
 >## What's Changed
 >* Update dev username by @koolkrafter5 in https://github.com/GTNewHorizons/StructureLib/pull/41
@@ -10691,7 +10867,19 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.3.10...1.4.0
 >
 
-# Updated - ThaumicEnergistics - 1.6.27-GTNH --> 1.7.8-GTNH
+# Updated - ThaumicEnergistics - 1.6.27-GTNH --> 1.7.9-GTNH
+## *1.7.9-GTNH*
+>## What's Changed
+>* ui: improve Storage Cell tooltip readability by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/86
+>* correct english localization spelling by @flamingowrangler2869 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/88
+>
+>## New Contributors
+>* @Eldrinn-Elantey made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/86
+>* @flamingowrangler2869 made their first contribution in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/88
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.8-GTNH...1.7.9-GTNH
+>
+
 ## *1.7.8-GTNH*
 >## What's Changed
 >* Fix KekzTech jars not working with Essentia Export Buses by @ctrlaltmilk in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/85
@@ -11968,7 +12156,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.6.35...2.7.0
 >
 
-# Updated - waila - 1.8.2 --> 1.8.10
+# Updated - waila - 1.8.2 --> 1.8.11
+## *1.8.11*
+>## What's Changed
+>* Delete redundant registration via reflection by @Alexdoru in https://github.com/GTNewHorizons/waila/pull/36
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.10...1.8.11
+>
+
 ## *1.8.10*
 >## What's Changed
 >* [Memory-opti:fix leak] Fix WorldClient leak in WailaTickHandler and RayTracing by @Alexdoru in https://github.com/GTNewHorizons/waila/pull/31
