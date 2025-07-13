@@ -735,6 +735,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.8.2...0.9.0
 >
 
+# Updated - AppleCore - 3.3.4 --> 3.3.5
+## *3.3.5*
+>## What's Changed
+>* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/AppleCore/pull/34
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/AppleCore/compare/3.3.4...3.3.5
+>
+
 # Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-655-GTNH
 ## *rv3-beta-655-GTNH*
 >## What's Changed
