@@ -1,7 +1,7 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-07-10T21:00:45.530852",
+  "last_updated": "2025-07-12T19:08:04.190522",
   "config": "2.8.0-nightly-2025-07-10-1-pre",
   "github_mods": {
     "AdventureBackpack2": {
@@ -907,7 +907,7 @@
       "side": "BOTH"
     },
     "UniMixins": {
-      "version": "0.1.20",
+      "version": "0.1.22",
       "side": "BOTH"
     },
     "Archaicfix": {
