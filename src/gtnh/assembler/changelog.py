@@ -2,24 +2,6 @@ from typing import List, Optional
 
 from gtnh.defs import Side
 
-a = """## What's Changed
-* Corrected Aluminum to Aluminium by @ChibiChoko in https://github.com/GTNewHorizons/WitchingGadgets/pull/78
-
-## New Contributors
-* @ChibiChoko made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/78
-
-**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.9-GTNH...1.7.10-GTNH
-"""
-
-b = """## What's Changed
-* Fixed IBF particle crash due to particle entities by @70000hp in https://github.com/GTNewHorizons/WitchingGadgets/pull/76
-
-## New Contributors
-* @70000hp made their first contribution in https://github.com/GTNewHorizons/WitchingGadgets/pull/76
-
-**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.7-GTNH...1.7.9-GTNH
-"""
-
 class ChangelogEntry:
     def __init__(self,version:str, changelog_str:Optional[str], prerelease=False)->None:
         self.version = version
@@ -159,10 +141,4 @@ class ChangelogCollection:
         lines.extend(new_contributors)
 
         return "\n".join(lines)
-
-if __name__ == "__main__":
-    entry_a = ChangelogEntry(version="1.7.10-GTNH", changelog_str=a, side=Side.BOTH)
-    entry_b = ChangelogEntry(version="1.7.9-GTNH", changelog_str=b, side=Side.BOTH)
-
-    print(ChangelogCollection(pack_release_version="Daily",mod_name="WitchingGadget", changelog_entries=[entry_a, entry_b]).generate_changelog())
 
