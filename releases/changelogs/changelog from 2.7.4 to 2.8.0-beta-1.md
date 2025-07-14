@@ -2199,8 +2199,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Add image of BlayTheNinth giving permission to continue development by @koolkrafter5 in https://github.com/GTNewHorizons/NetherPortalFix/pull/2 (1.4.0)
 
-# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.222
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.101...2.7.222
+# Updated - NewHorizonsCoreMod - 2.6.101 --> 2.7.223
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.6.101...2.7.223
 
 ## What's Changed:
 >* EFR Slab Recipes (Shaped & Cutting) by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1300 (2.7.222)
