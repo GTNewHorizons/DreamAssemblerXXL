@@ -178,7 +178,10 @@ class ChangelogCollection:
         # spacer between changelog and new contributors
         version_changelog.append("")
 
-        lines.extend(version_changelog)
+        if len([s.strip() for s in version_changelog if len(s.strip()) > 0]) == 0:
+            lines.append("DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.")
+        else: # normally add
+            lines.extend(version_changelog)
 
         if not compressed:
             # New contributor section
