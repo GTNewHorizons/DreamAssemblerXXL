@@ -14,6 +14,8 @@ from gidgethub import BadRequest
 from gidgethub.httpx import GitHubAPI
 from httpx import AsyncClient, HTTPStatusError
 
+from gtnh.assembler.changelog import ChangelogCollection, ChangelogEntry
+
 try:
     from packaging.version import LegacyVersion  # type: ignore
 except ImportError:
@@ -51,11 +53,11 @@ from gtnh.models.available_assets import AvailableAssets
 from gtnh.models.gtnh_config import CONFIG_REPO_NAME
 from gtnh.models.gtnh_modpack import GTNHModpack
 from gtnh.models.gtnh_release import GTNHRelease, load_release, save_release
-from gtnh.models.gtnh_version import version_from_release
+from gtnh.models.gtnh_version import GTNHVersion, version_from_release
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.models.versionable import Versionable, version_is_newer, version_is_older, version_sort_key
-from gtnh.utils import AttributeDict, blockquote, get_github_token, index
+from gtnh.utils import AttributeDict, get_github_token, index
 
 log = get_logger(__name__)
 
@@ -1151,30 +1153,12 @@ class GTNHModpackManager:
         return changed_github_mods | changed_external_mods
 
     def generate_changelog(
-        self, release: GTNHRelease, previous_release: GTNHRelease | None = None, include_no_changelog: bool = False
+        self, release: GTNHRelease, previous_release: GTNHRelease | None = None
     ) -> dict[str, list[str]]:
         """
         Generate a changelog between two releases.  If the `previous_release` is None, generate it for all of history
         :returns: dict[mod_name, list[version_changes]]
         """
-
-        def get_pretty_side_string(side: Optional[Side]) -> str:
-            if side == Side.CLIENT:
-                return "client-side only"
-            if side == Side.CLIENT_JAVA9:
-                return "client-side Java 9+ only"
-            elif side == Side.SERVER:
-                return "server-side only"
-            elif side == Side.SERVER_JAVA9:
-                return "server-side Java 9+ only"
-            elif side == Side.BOTH:
-                return "on both sides"
-            elif side == Side.BOTH_JAVA9:
-                return "on both sides, Java 9+ only"
-            elif side is None:
-                return "unknown"
-            else:
-                return str(side)
 
         removed_mods = set()
         new_mods = set()
@@ -1182,6 +1166,7 @@ class GTNHModpackManager:
 
         changelog: dict[str, list[str]] = defaultdict(list)
 
+        contributors: Set[str] = set()
         if previous_release is not None:
             removed_mods |= set(previous_release.github_mods.keys() - release.github_mods.keys())
             removed_mods |= set(previous_release.external_mods.keys() - release.external_mods.keys())
@@ -1192,18 +1177,27 @@ class GTNHModpackManager:
             self.remove_false_positive_in_mod_removed(removed_mods, new_mods)
 
             changed_github_mods = set(release.github_mods.keys() & previous_release.github_mods.keys())
-            for mod_name in changed_github_mods | new_mods:
+            changed_external_mods = set(release.external_mods.keys() & previous_release.external_mods.keys())
+
+            for mod_name in changed_github_mods | changed_external_mods | new_mods:
                 # looks like here there are some shenanigans happening, so i'm just going to check for mod presence before anything
                 # i don't quite get what's happenning here.
-                if mod_name in release.github_mods:
-                    version_changes[mod_name] = (
-                        previous_release.github_mods.get(mod_name, None),
-                        release.github_mods[mod_name],
-                    )
+
+                previous_source = (
+                    previous_release.github_mods if mod_name in release.github_mods else previous_release.external_mods
+                )
+                current_source = release.github_mods if mod_name in release.github_mods else release.external_mods
+
+                version_changes[mod_name] = (previous_source.get(mod_name, None), current_source[mod_name])
         else:
             changed_github_mods = set(release.github_mods.keys())
+            changed_external_mods = set(release.external_mods.keys())
+
             for mod_name in changed_github_mods:
                 version_changes[mod_name] = (None, release.github_mods[mod_name])
+
+            for mod_name in changed_external_mods:
+                version_changes[mod_name] = (None, release.external_mods[mod_name])
 
         if new_mods:
             changelog["new_mods"].append("# New Mods: ")
@@ -1220,42 +1214,35 @@ class GTNHModpackManager:
                 continue
 
             mod = self.assets.get_mod(mod_name)
-            mod_versions = mod.get_versions(
+            mod_versions: List[GTNHVersion] = mod.get_versions(
                 left=old_version.version if old_version else None, right=new_version.version
             )
 
             changes = changelog[mod_name]
 
-            if mod_name in new_mods:
-                changes.append(f"# New Mod - {mod_name}:{new_version.version}")
-            else:
-                old_version_str = f"{old_version.version} -->" if old_version else ""
-                changes.append(f"# Updated - {mod_name} - {old_version_str} {new_version.version}")
+            mod_version_changelogs = [
+                ChangelogEntry(version=v.version_tag, changelog_str=v.changelog, prerelease=v.prerelease)
+                for v in mod_versions
+            ]
+            is_new_mod = old_version is None
+            mod_changelog = ChangelogCollection(
+                pack_release_version=release.version,
+                mod_name=mod_name,
+                changelog_entries=mod_version_changelogs,
+                oldest_side=None if is_new_mod else old_version.side,  # type: ignore
+                newest_side=new_version.side,  # type: ignore
+                new_mod=is_new_mod,
+            )
 
-            if old_version is not None and old_version.side != new_version.side:
-                changes.append(
-                    f"Mod side changed from {get_pretty_side_string(old_version.side)} to {get_pretty_side_string(new_version.side)}."
-                )
-            elif new_version.side not in [Side.BOTH, Side.BOTH_JAVA9]:
-                changes.append(f"Mod is {get_pretty_side_string(new_version.side)}.")
+            changes.append(mod_changelog.generate_mod_changelog())
+            contributors |= mod_changelog.contributors
 
-            for i, version in enumerate(reversed(mod_versions)):
-                if (
-                    i != 0
-                    and release.version != "experimental"
-                    and (
-                        version.prerelease
-                        or (version.version_tag.endswith("-pre") or version.version_tag.endswith("-dev"))
-                    )
-                ):
-                    # Only include prerelease changes if it's the latest release
-                    continue
-                if old_version is not None and version.version_tag == old_version.version:
-                    continue
-                if version.changelog:
-                    changes.append(f"## *{version.version_tag}*\n" + blockquote(version.changelog) + "\n")
-                elif include_no_changelog:
-                    changes.append(f">## *{version.version_tag}*\n" + ">**No Changelog Found**" + "\n")
+        changelog["credits"].append("# Credits")
+        changelog["credits"].append(
+            f"Special thanks to {', '.join(sorted(list(contributors), key=str.casefold))}, "
+            "for their code contributions listed above, and to everyone else who helped, "
+            "including all of our beta testers! <3"
+        )
 
         return changelog
 
