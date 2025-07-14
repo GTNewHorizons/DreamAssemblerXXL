@@ -1229,8 +1229,8 @@ class GTNHModpackManager:
                 pack_release_version=release.version,
                 mod_name=mod_name,
                 changelog_entries=mod_version_changelogs,
-                oldest_side=None if is_new_mod else old_version.side,
-                newest_side=new_version.side,
+                oldest_side=None if is_new_mod else old_version.side,  # type: ignore
+                newest_side=new_version.side,  # type: ignore
                 new_mod=is_new_mod,
             )
 

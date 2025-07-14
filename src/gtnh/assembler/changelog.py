@@ -5,7 +5,7 @@ from gtnh.defs import Side
 
 
 class ChangelogEntry:
-    def __init__(self, version: str, changelog_str: Optional[str], prerelease=False) -> None:
+    def __init__(self, version: str, changelog_str: Optional[str], prerelease: bool = False) -> None:
         self.version = version
         self.no_changelog: bool = changelog_str is None
         self.prerelease = prerelease
@@ -17,7 +17,7 @@ class ChangelogEntry:
             lines = changelog_str.split("\n")
             index = 0
 
-        if "What's Changed" in changelog_str:
+        if "What's Changed" in changelog_str:  # type: ignore
             while "##" not in lines[index]:
                 index += 1
 
@@ -27,14 +27,14 @@ class ChangelogEntry:
                 self.changelog_entries.append(lines[index].strip())
                 index += 1
 
-        if "New Contributors" in changelog_str:
+        if "New Contributors" in changelog_str:  # type: ignore
             while "New Contributors" not in lines[index]:
                 index += 1
 
             while lines[index].startswith("*"):
                 self.new_contributors.append(lines[index].strip())
                 index += 1
-        if "Full Changelog" in changelog_str:
+        if "Full Changelog" in changelog_str:  # type: ignore
             while "Full Changelog" not in lines[index]:
                 index += 1
             self.full_comparison_url = lines[index].strip()
@@ -48,7 +48,7 @@ class ChangelogCollection:
         changelog_entries: List[ChangelogEntry],
         oldest_side: Optional[Side],
         newest_side: Side,
-        new_mod=False,
+        new_mod: bool = False,
     ) -> None:
         self.pack_release_version: str = pack_release_version
         self.mod_name: str = mod_name
@@ -61,7 +61,7 @@ class ChangelogCollection:
         self.newest: ChangelogEntry = self.changelog_entries[0]
 
     @classmethod
-    def generate_full_comparison_url(self, oldest: ChangelogEntry, newest: ChangelogEntry):
+    def generate_full_comparison_url(self, oldest: ChangelogEntry, newest: ChangelogEntry) -> Optional[str]:
         if newest.full_comparison_url is None:
             return None
 
@@ -108,7 +108,7 @@ class ChangelogCollection:
     def annotate_version_on_PRs(cls, strs: List[str], version: str) -> List[str]:
         return [f"{s} ({version})" for s in strs]
 
-    def generate_mod_changelog(self, compressed=True) -> str:
+    def generate_mod_changelog(self, compressed: bool = True) -> str:
         lines = []
         # define the header for the changelog of the mod
         if self.new_mod:
