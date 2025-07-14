@@ -40,7 +40,7 @@ class ChangelogEntry:
             index+=1 # skip the what's changed line
 
             while lines[index].startswith("*"):
-                self.changelog_entries.append(lines[index])
+                self.changelog_entries.append(lines[index].strip())
                 index+=1
 
         if "New Contributors" in changelog_str:
@@ -48,12 +48,12 @@ class ChangelogEntry:
                 index+=1
 
             while lines[index].startswith("*"):
-                self.new_contributors.append(lines[index])
+                self.new_contributors.append(lines[index].strip())
                 index += 1
         if "Full Changelog" in changelog_str:
             while not "Full Changelog" in lines[index]:
                 index += 1
-            self.full_comparison_url=lines[index]
+            self.full_comparison_url=lines[index].strip()
 
 
 class ChangelogCollection:
@@ -63,9 +63,9 @@ class ChangelogCollection:
         self.new_mod: bool = new_mod
         self.oldest_side:Optional[Side]=oldest_side
         self.newest_side:Side=newest_side
-        self.changelog_entries: List[ChangelogEntry] = sorted(changelog_entries,key=lambda x: x.version, reverse=True)
-        self.oldest = self.changelog_entries[0]
-        self.newest = self.changelog_entries[-1]
+        self.changelog_entries: List[ChangelogEntry] = changelog_entries[::-1]
+        self.oldest = self.changelog_entries[-1]
+        self.newest = self.changelog_entries[0]
 
     @classmethod
     def get_pretty_side_string(cls, side: Optional[Side]) -> str:
@@ -134,8 +134,12 @@ class ChangelogCollection:
                 continue
 
             version_changelog.append((f"## *{changelog_entry.version}*"))
-            if changelog_entry.no_changelog or len(changelog_entry.changelog_entries) == 0:
+            if changelog_entry.no_changelog:
                 version_changelog.append("**No Changelog Found for this version**")
+            elif len(changelog_entry.changelog_entries) == 0:
+                version_changelog.append("**No PR detected for this version, check commit history for more details.**")
+                if changelog_entry.full_comparison_url is not None:
+                    version_changelog.append(changelog_entry.full_comparison_url)
             else:
                 version_changelog.extend(self.blockquote(changelog_entry.changelog_entries))
 
