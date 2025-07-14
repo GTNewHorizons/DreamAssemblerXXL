@@ -1166,6 +1166,7 @@ class GTNHModpackManager:
 
         changelog: dict[str, list[str]] = defaultdict(list)
 
+        contributors: Set[str] = set()
         if previous_release is not None:
             removed_mods |= set(previous_release.github_mods.keys() - release.github_mods.keys())
             removed_mods |= set(previous_release.external_mods.keys() - release.external_mods.keys())
@@ -1215,6 +1216,12 @@ class GTNHModpackManager:
             mod_changelog = ChangelogCollection(pack_release_version=release.version, mod_name=mod_name, changelog_entries=mod_version_changelogs, oldest_side=None if is_new_mod else old_version.side, newest_side=new_version.side, new_mod=is_new_mod)
 
             changes.append(mod_changelog.generate_mod_changelog())
+            contributors |= mod_changelog.contributors
+
+        changelog["credits"].append("# Credits")
+        changelog["credits"].append(f"Special thanks to {', '.join(sorted(list(contributors), key=str.casefold))}, "
+                "for their code contributions listed above, and to everyone else who helped, "
+                "including all of our beta testers! <3")
 
         return changelog
 
