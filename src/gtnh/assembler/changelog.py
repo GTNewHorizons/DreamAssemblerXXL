@@ -1,4 +1,5 @@
-from typing import List, Optional
+import re
+from typing import List, Optional, Set
 
 from gtnh.defs import Side
 
@@ -45,9 +46,21 @@ class ChangelogCollection:
         self.new_mod: bool = new_mod
         self.oldest_side:Optional[Side]=oldest_side
         self.newest_side:Side=newest_side
+        self.contributors:Set[str] = set()
         self.changelog_entries: List[ChangelogEntry] = changelog_entries[::-1]
-        self.oldest = self.changelog_entries[-1]
-        self.newest = self.changelog_entries[0]
+        self.oldest: ChangelogEntry = self.changelog_entries[-1]
+        self.newest: ChangelogEntry = self.changelog_entries[0]
+
+    @classmethod
+    def generate_full_comparison_url(self, oldest: ChangelogEntry, newest: ChangelogEntry):
+        if newest.full_comparison_url is None:
+            return None
+
+        root_url = newest.full_comparison_url.split('/compare')[0]
+
+        if oldest is None: # new mod
+            return f"{root_url}/commits/{newest.version}"
+        return f"{root_url}/compare/{oldest.version}...{newest.version}"
 
     @classmethod
     def get_pretty_side_string(cls, side: Optional[Side]) -> str:
@@ -72,7 +85,21 @@ class ChangelogCollection:
     def blockquote(cls, strs:List[str])->List[str]:
         return [f">{s}" for s in strs]
 
-    def generate_changelog(self) -> str:
+    @classmethod
+    def get_contributors_from_PRs(cls, PR_list:List[str]) -> Set[str]:
+        contributors = set()
+        for pr in PR_list:
+            match = re.search(r"by (@\S+) in http.*$", pr)
+            if match:
+                contributors.add(match.group(1))
+
+        return contributors
+
+    @classmethod
+    def annotate_version_on_PRs(cls, strs:List[str], version:str) -> List[str]:
+        return [f"{s} ({version})" for s in strs]
+
+    def generate_mod_changelog(self, compressed=True) -> str:
         lines = []
         # define the header for the changelog of the mod
         if self.new_mod:
@@ -90,6 +117,12 @@ class ChangelogCollection:
         if self.newest_side not in [Side.BOTH, Side.BOTH_JAVA9]:
             side_precision = f"Mod is {self.get_pretty_side_string(self.newest_side)}."
             lines.append(side_precision)
+
+        # full changelog:
+        url = self.generate_full_comparison_url(self.oldest, self.newest)
+        if url is not None:
+            lines.append(f"Full changelog: {url}")
+            lines.append("") # spacer
 
         # what's changed text:
         lines.append("## What's Changed:")
@@ -115,30 +148,42 @@ class ChangelogCollection:
                 # skipping the oldest version as it has already been released in the previous pack release
                 continue
 
-            version_changelog.append((f"## *{changelog_entry.version}*"))
-            if changelog_entry.no_changelog:
+            if not compressed: # skipping version naming if compressed
+                version_changelog.append((f"## *{changelog_entry.version}*"))
+
+            # addition of the version changes
+            if changelog_entry.no_changelog and not compressed:
                 version_changelog.append("**No Changelog Found for this version**")
-            elif len(changelog_entry.changelog_entries) == 0:
+            elif len(changelog_entry.changelog_entries) == 0 and not compressed:
                 version_changelog.append("**No PR detected for this version, check commit history for more details.**")
                 if changelog_entry.full_comparison_url is not None:
                     version_changelog.append(changelog_entry.full_comparison_url)
             else:
-                version_changelog.extend(self.blockquote(changelog_entry.changelog_entries))
+                entries = changelog_entry.changelog_entries
+                self.contributors |= self.get_contributors_from_PRs(entries)
 
-            # add potential new contributors if any
+                # annotate each PR with associated release version
+                if compressed:
+                    entries = self.annotate_version_on_PRs(entries, changelog_entry.version)
+
+                version_changelog.extend(self.blockquote(entries))
+
+            # add potential new contributors if any, for uncompressed changelog
             new_contributors.extend(changelog_entry.new_contributors)
 
-            # spacer between releases
-            version_changelog.append("")
+            if not compressed:
+                # spacer between releases, not needed in compressed form
+                version_changelog.append("")
 
         # spacer between changelog and new contributors
         version_changelog.append("")
 
         lines.extend(version_changelog)
 
-        # New contributor section
-        lines.append('## New contributors on the mod:')
-        lines.extend(new_contributors)
+        if not compressed:
+            # New contributor section
+            lines.append('## New contributors on the mod:')
+            lines.extend(new_contributors)
 
         return "\n".join(lines)
 

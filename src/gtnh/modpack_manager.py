@@ -1153,30 +1153,12 @@ class GTNHModpackManager:
         return changed_github_mods | changed_external_mods
 
     def generate_changelog(
-        self, release: GTNHRelease, previous_release: GTNHRelease | None = None, include_no_changelog: bool = False
+        self, release: GTNHRelease, previous_release: GTNHRelease | None = None
     ) -> dict[str, list[str]]:
         """
         Generate a changelog between two releases.  If the `previous_release` is None, generate it for all of history
         :returns: dict[mod_name, list[version_changes]]
         """
-
-        def get_pretty_side_string(side: Optional[Side]) -> str:
-            if side == Side.CLIENT:
-                return "client-side only"
-            if side == Side.CLIENT_JAVA9:
-                return "client-side Java 9+ only"
-            elif side == Side.SERVER:
-                return "server-side only"
-            elif side == Side.SERVER_JAVA9:
-                return "server-side Java 9+ only"
-            elif side == Side.BOTH:
-                return "on both sides"
-            elif side == Side.BOTH_JAVA9:
-                return "on both sides, Java 9+ only"
-            elif side is None:
-                return "unknown"
-            else:
-                return str(side)
 
         removed_mods = set()
         new_mods = set()
@@ -1232,7 +1214,7 @@ class GTNHModpackManager:
             is_new_mod = old_version is None
             mod_changelog = ChangelogCollection(pack_release_version=release.version, mod_name=mod_name, changelog_entries=mod_version_changelogs, oldest_side=None if is_new_mod else old_version.side, newest_side=new_version.side, new_mod=is_new_mod)
 
-            changes.append(mod_changelog.generate_changelog())
+            changes.append(mod_changelog.generate_mod_changelog())
 
         return changelog
 
