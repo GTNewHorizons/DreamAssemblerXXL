@@ -20,10 +20,11 @@
 > * Travellers Gear
 > * TravellersGearNeo
 > * inventory-tweaks
-# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.99-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.55-gtnh...1.4.99-gtnh
+# Updated - AE2FluidCraft-Rework - 1.3.55-gtnh --> 1.4.100-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.3.55-gtnh...1.4.100-gtnh
 
 ## What's Changed:
+>* fix and port the new Localization message system and update AE2 dependency. by @NeOzay in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/319 (1.4.100-gtnh)
 >* Use CraftingID to check CraftingLink equivalence in Level Maintainer by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/317 (1.4.99-gtnh)
 >* extend level maintainer feedback by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/316 (1.4.99-gtnh)
 >* implement pins by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/315 (1.4.98-gtnh)
@@ -187,10 +188,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/AppleCore/pull/34 (3.3.5)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-656-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-485-GTNH...rv3-beta-656-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-485-GTNH --> rv3-beta-658-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-485-GTNH...rv3-beta-658-GTNH
 
 ## What's Changed:
+>* Fix crashes introduced by #791 by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/796 (rv3-beta-658-GTNH)
+>* keep in memory text from searchField on pins setting change by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/794 (rv3-beta-657-GTNH)
 >* keep in memory text from searchField on pins setting change by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/794 (rv3-beta-656-GTNH)
 >* Meteorite World Generation Expansion for Dimensions and Custom JSON Loot Tables by @Gamingb3ast in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/733 (rv3-beta-655-GTNH)
 >* ui: improve Storage Cell tooltip readability by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/789 (rv3-beta-655-GTNH)
