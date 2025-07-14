@@ -1177,18 +1177,25 @@ class GTNHModpackManager:
             self.remove_false_positive_in_mod_removed(removed_mods, new_mods)
 
             changed_github_mods = set(release.github_mods.keys() & previous_release.github_mods.keys())
-            for mod_name in changed_github_mods | new_mods:
+            changed_external_mods = set(release.external_mods.keys() & previous_release.external_mods.keys())
+
+            for mod_name in changed_github_mods | changed_external_mods | new_mods:
                 # looks like here there are some shenanigans happening, so i'm just going to check for mod presence before anything
                 # i don't quite get what's happenning here.
-                if mod_name in release.github_mods:
-                    version_changes[mod_name] = (
-                        previous_release.github_mods.get(mod_name, None),
-                        release.github_mods[mod_name],
-                    )
+
+                previous_source = previous_release.github_mods if mod_name in release.github_mods else previous_release.external_mods
+                current_source = release.github_mods if mod_name in release.github_mods else release.external_mods
+
+                version_changes[mod_name] = (previous_source.get(mod_name, None),current_source[mod_name])
         else:
             changed_github_mods = set(release.github_mods.keys())
+            changed_external_mods = set(release.external_mods.keys())
+
             for mod_name in changed_github_mods:
                 version_changes[mod_name] = (None, release.github_mods[mod_name])
+
+            for mod_name in changed_external_mods:
+                version_changes[mod_name] = (None, release.external_mods[mod_name])
 
         if new_mods:
             changelog["new_mods"].append("# New Mods: ")
