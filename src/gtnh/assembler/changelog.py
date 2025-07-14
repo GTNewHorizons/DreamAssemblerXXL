@@ -30,10 +30,30 @@ class ChangelogEntry:
         self.full_comparison_url: Optional[str] = None
 
         if changelog_str is not None:
-            self.changelog_categories = changelog_str.split("\n\n")
-            self.changelog_entries = self.changelog_categories[0].split("\n")[1:]
-            if len(self.changelog_categories) == 3:
-                self.new_contributors = self.changelog_categories[1].split("\n")[1:]
+            lines = changelog_str.split("\n")
+            index = 0
+
+        if "What's Changed" in changelog_str:
+            while not "##" in lines[index]:
+                index+=1
+
+            index+=1 # skip the what's changed line
+
+            while lines[index].startswith("*"):
+                self.changelog_entries.append(lines[index])
+                index+=1
+
+        if "New Contributors" in changelog_str:
+            while "New Contributors" not in lines[index]:
+                index+=1
+
+            while lines[index].startswith("*"):
+                self.new_contributors.append(lines[index])
+                index += 1
+        if "Full Changelog" in changelog_str:
+            while not "Full Changelog" in lines[index]:
+                index += 1
+            self.full_comparison_url=lines[index]
 
 
 class ChangelogCollection:
