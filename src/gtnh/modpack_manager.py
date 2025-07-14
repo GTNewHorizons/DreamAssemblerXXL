@@ -14,7 +14,7 @@ from gidgethub import BadRequest
 from gidgethub.httpx import GitHubAPI
 from httpx import AsyncClient, HTTPStatusError
 
-from gtnh.assembler.changelog import ChangelogEntry, ChangelogCollection
+from gtnh.assembler.changelog import ChangelogCollection, ChangelogEntry
 
 try:
     from packaging.version import LegacyVersion  # type: ignore
@@ -53,11 +53,11 @@ from gtnh.models.available_assets import AvailableAssets
 from gtnh.models.gtnh_config import CONFIG_REPO_NAME
 from gtnh.models.gtnh_modpack import GTNHModpack
 from gtnh.models.gtnh_release import GTNHRelease, load_release, save_release
-from gtnh.models.gtnh_version import version_from_release, GTNHVersion
+from gtnh.models.gtnh_version import GTNHVersion, version_from_release
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.models.mod_version_info import ModVersionInfo
 from gtnh.models.versionable import Versionable, version_is_newer, version_is_older, version_sort_key
-from gtnh.utils import AttributeDict, blockquote, get_github_token, index
+from gtnh.utils import AttributeDict, get_github_token, index
 
 log = get_logger(__name__)
 
@@ -1183,10 +1183,12 @@ class GTNHModpackManager:
                 # looks like here there are some shenanigans happening, so i'm just going to check for mod presence before anything
                 # i don't quite get what's happenning here.
 
-                previous_source = previous_release.github_mods if mod_name in release.github_mods else previous_release.external_mods
+                previous_source = (
+                    previous_release.github_mods if mod_name in release.github_mods else previous_release.external_mods
+                )
                 current_source = release.github_mods if mod_name in release.github_mods else release.external_mods
 
-                version_changes[mod_name] = (previous_source.get(mod_name, None),current_source[mod_name])
+                version_changes[mod_name] = (previous_source.get(mod_name, None), current_source[mod_name])
         else:
             changed_github_mods = set(release.github_mods.keys())
             changed_external_mods = set(release.external_mods.keys())
@@ -1212,23 +1214,35 @@ class GTNHModpackManager:
                 continue
 
             mod = self.assets.get_mod(mod_name)
-            mod_versions:List[GTNHVersion] = mod.get_versions(
+            mod_versions: List[GTNHVersion] = mod.get_versions(
                 left=old_version.version if old_version else None, right=new_version.version
             )
 
             changes = changelog[mod_name]
 
-            mod_version_changelogs = [ChangelogEntry(version=v.version_tag, changelog_str=v.changelog, prerelease=v.prerelease) for v in mod_versions]
+            mod_version_changelogs = [
+                ChangelogEntry(version=v.version_tag, changelog_str=v.changelog, prerelease=v.prerelease)
+                for v in mod_versions
+            ]
             is_new_mod = old_version is None
-            mod_changelog = ChangelogCollection(pack_release_version=release.version, mod_name=mod_name, changelog_entries=mod_version_changelogs, oldest_side=None if is_new_mod else old_version.side, newest_side=new_version.side, new_mod=is_new_mod)
+            mod_changelog = ChangelogCollection(
+                pack_release_version=release.version,
+                mod_name=mod_name,
+                changelog_entries=mod_version_changelogs,
+                oldest_side=None if is_new_mod else old_version.side,
+                newest_side=new_version.side,
+                new_mod=is_new_mod,
+            )
 
             changes.append(mod_changelog.generate_mod_changelog())
             contributors |= mod_changelog.contributors
 
         changelog["credits"].append("# Credits")
-        changelog["credits"].append(f"Special thanks to {', '.join(sorted(list(contributors), key=str.casefold))}, "
-                "for their code contributions listed above, and to everyone else who helped, "
-                "including all of our beta testers! <3")
+        changelog["credits"].append(
+            f"Special thanks to {', '.join(sorted(list(contributors), key=str.casefold))}, "
+            "for their code contributions listed above, and to everyone else who helped, "
+            "including all of our beta testers! <3"
+        )
 
         return changelog
 

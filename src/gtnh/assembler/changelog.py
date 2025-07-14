@@ -3,8 +3,9 @@ from typing import List, Optional, Set
 
 from gtnh.defs import Side
 
+
 class ChangelogEntry:
-    def __init__(self,version:str, changelog_str:Optional[str], prerelease=False)->None:
+    def __init__(self, version: str, changelog_str: Optional[str], prerelease=False) -> None:
         self.version = version
         self.no_changelog: bool = changelog_str is None
         self.prerelease = prerelease
@@ -17,36 +18,44 @@ class ChangelogEntry:
             index = 0
 
         if "What's Changed" in changelog_str:
-            while not "##" in lines[index]:
-                index+=1
+            while "##" not in lines[index]:
+                index += 1
 
-            index+=1 # skip the what's changed line
+            index += 1  # skip the what's changed line
 
             while lines[index].startswith("*"):
                 self.changelog_entries.append(lines[index].strip())
-                index+=1
+                index += 1
 
         if "New Contributors" in changelog_str:
             while "New Contributors" not in lines[index]:
-                index+=1
+                index += 1
 
             while lines[index].startswith("*"):
                 self.new_contributors.append(lines[index].strip())
                 index += 1
         if "Full Changelog" in changelog_str:
-            while not "Full Changelog" in lines[index]:
+            while "Full Changelog" not in lines[index]:
                 index += 1
-            self.full_comparison_url=lines[index].strip()
+            self.full_comparison_url = lines[index].strip()
 
 
 class ChangelogCollection:
-    def __init__(self,pack_release_version:str, mod_name:str, changelog_entries:List[ChangelogEntry],oldest_side:Optional[Side], newest_side:Side, new_mod = False) -> None:
+    def __init__(
+        self,
+        pack_release_version: str,
+        mod_name: str,
+        changelog_entries: List[ChangelogEntry],
+        oldest_side: Optional[Side],
+        newest_side: Side,
+        new_mod=False,
+    ) -> None:
         self.pack_release_version: str = pack_release_version
         self.mod_name: str = mod_name
         self.new_mod: bool = new_mod
-        self.oldest_side:Optional[Side]=oldest_side
-        self.newest_side:Side=newest_side
-        self.contributors:Set[str] = set()
+        self.oldest_side: Optional[Side] = oldest_side
+        self.newest_side: Side = newest_side
+        self.contributors: Set[str] = set()
         self.changelog_entries: List[ChangelogEntry] = changelog_entries[::-1]
         self.oldest: ChangelogEntry = self.changelog_entries[-1]
         self.newest: ChangelogEntry = self.changelog_entries[0]
@@ -56,9 +65,9 @@ class ChangelogCollection:
         if newest.full_comparison_url is None:
             return None
 
-        root_url = newest.full_comparison_url.split('/compare')[0]
+        root_url = newest.full_comparison_url.split("/compare")[0]
 
-        if oldest is None: # new mod
+        if oldest is None:  # new mod
             return f"{root_url}/commits/{newest.version}"
         return f"{root_url}/compare/{oldest.version}...{newest.version}"
 
@@ -82,11 +91,11 @@ class ChangelogCollection:
             return str(side)
 
     @classmethod
-    def blockquote(cls, strs:List[str])->List[str]:
+    def blockquote(cls, strs: List[str]) -> List[str]:
         return [f">{s}" for s in strs]
 
     @classmethod
-    def get_contributors_from_PRs(cls, PR_list:List[str]) -> Set[str]:
+    def get_contributors_from_PRs(cls, PR_list: List[str]) -> Set[str]:
         contributors = set()
         for pr in PR_list:
             match = re.search(r"by (@\S+) in http.*$", pr)
@@ -96,7 +105,7 @@ class ChangelogCollection:
         return contributors
 
     @classmethod
-    def annotate_version_on_PRs(cls, strs:List[str], version:str) -> List[str]:
+    def annotate_version_on_PRs(cls, strs: List[str], version: str) -> List[str]:
         return [f"{s} ({version})" for s in strs]
 
     def generate_mod_changelog(self, compressed=True) -> str:
@@ -122,7 +131,7 @@ class ChangelogCollection:
         url = self.generate_full_comparison_url(self.oldest, self.newest)
         if url is not None:
             lines.append(f"{url}")
-            lines.append("") # spacer
+            lines.append("")  # spacer
 
         # what's changed text:
         lines.append("## What's Changed:")
@@ -133,22 +142,21 @@ class ChangelogCollection:
         # actual mod version processing:
         for i, changelog_entry in enumerate(self.changelog_entries):
             if (
-                    i != 0
-                    and self.pack_release_version != "experimental"
-                    and (
+                i != 0
+                and self.pack_release_version != "experimental"
+                and (
                     changelog_entry.prerelease
                     or (changelog_entry.version.endswith("-pre") or changelog_entry.version.endswith("-dev"))
-            )
+                )
             ):
                 # Only include prerelease changes if it's the latest release
                 continue
-
 
             if not self.new_mod and changelog_entry.version == self.oldest.version:
                 # skipping the oldest version as it has already been released in the previous pack release
                 continue
 
-            if not compressed: # skipping version naming if compressed
+            if not compressed:  # skipping version naming if compressed
                 version_changelog.append((f"## *{changelog_entry.version}*"))
 
             # addition of the version changes
@@ -179,14 +187,16 @@ class ChangelogCollection:
         version_changelog.append("")
 
         if len([s.strip() for s in version_changelog if len(s.strip()) > 0]) == 0:
-            lines.append("DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.")
-        else: # normally add
+            lines.append(
+                "DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by "
+                "updates done outside of pull-requests or if the mod is maintained by a 3rd party."
+            )
+        else:  # normally add
             lines.extend(version_changelog)
 
         if not compressed:
             # New contributor section
-            lines.append('## New contributors on the mod:')
+            lines.append("## New contributors on the mod:")
             lines.extend(new_contributors)
 
         return "\n".join(lines)
-
