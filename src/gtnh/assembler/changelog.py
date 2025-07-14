@@ -121,7 +121,7 @@ class ChangelogCollection:
         # full changelog:
         url = self.generate_full_comparison_url(self.oldest, self.newest)
         if url is not None:
-            lines.append(f"Full changelog: {url}")
+            lines.append(f"{url}")
             lines.append("") # spacer
 
         # what's changed text:
