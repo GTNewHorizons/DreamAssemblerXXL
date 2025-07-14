@@ -220,6 +220,6 @@ class ReleaseAssembler:
                     except UnicodeEncodeError:
                         file.write((item + "\n").encode("ascii", "ignore").decode())
 
-        compress_changelog(changelog_path)
+        # compress_changelog(changelog_path)
 
         return changelog_path
