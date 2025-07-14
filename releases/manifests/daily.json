@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-13T21:40:09.142541",
+  "last_updated": "2025-07-14T04:13:49.250865",
   "config": "2.8.0-nightly-2025-07-10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.3.8-GTNH",
+      "version": "3.3.9-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.8.11",
+      "version": "1.8.12",
       "side": "BOTH"
     },
     "WailaHarvestability": {

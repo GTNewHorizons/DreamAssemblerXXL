@@ -6111,7 +6111,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.3.6...1.4.0
 >
 
-# Updated - Galacticraft - 3.2.10-GTNH --> 3.3.8-GTNH
+# Updated - Galacticraft - 3.2.10-GTNH --> 3.3.9-GTNH
+## *3.3.9-GTNH*
+>## What's Changed
+>* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/Galacticraft/pull/108
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.3.8-GTNH...3.3.9-GTNH
+>
+
 ## *3.3.8-GTNH*
 >## What's Changed
 >* Removed duplicate lang-file entries by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Galacticraft/pull/107
@@ -12165,7 +12173,15 @@ Mod is client-side only.
 >**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.6.35...2.7.0
 >
 
-# Updated - waila - 1.8.2 --> 1.8.11
+# Updated - waila - 1.8.2 --> 1.8.12
+## *1.8.12*
+>## What's Changed
+>* Fix FMLLoadCompleteEvent using wrong annotation by @Alexdoru in https://github.com/GTNewHorizons/waila/pull/37
+>
+>
+>**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.11...1.8.12
+>
+
 ## *1.8.11*
 >## What's Changed
 >* Delete redundant registration via reflection by @Alexdoru in https://github.com/GTNewHorizons/waila/pull/36
