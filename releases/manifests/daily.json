@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-14T19:59:31.869338",
+  "last_updated": "2025-07-15T04:10:45.609718",
   "config": "2.8.0-nightly-2025-07-10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.99-gtnh",
+      "version": "1.4.100-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-656-GTNH",
+      "version": "rv3-beta-658-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.222",
+      "version": "2.7.223",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -765,7 +765,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.0.35-GTNH",
+      "version": "0.0.37-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
