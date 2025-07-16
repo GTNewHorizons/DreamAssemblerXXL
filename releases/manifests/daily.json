@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-15T04:10:45.609718",
+  "last_updated": "2025-07-16T04:09:29.888673",
   "config": "2.8.0-nightly-2025-07-10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.5.12",
+      "version": "2.5.13",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.389",
+      "version": "5.09.51.393",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.37",
+      "version": "0.6.38",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.223",
+      "version": "2.7.224",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -513,7 +513,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.9-GTNH",
+      "version": "1.7.10-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -589,7 +589,7 @@
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
-      "version": "1.12.6",
+      "version": "1.12.7",
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
@@ -757,11 +757,11 @@
       "side": "BOTH"
     },
     "Postea": {
-      "version": "1.1.2",
+      "version": "1.1.3",
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.42-GTNH",
+      "version": "1.2.43-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.2.18-GTNH-daily",
+      "version": "2.6.2.19-GTNH-daily",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
