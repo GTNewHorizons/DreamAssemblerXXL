@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-16T04:09:29.888673",
+  "last_updated": "2025-07-17T04:09:27.564209",
   "config": "2.8.0-nightly-2025-07-10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.12.16-GTNH",
+      "version": "1.12.18-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -561,7 +561,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.4.4",
+      "version": "1.4.6",
       "side": "BOTH"
     },
     "waila": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta49",
+      "version": "1.0.0-beta50",
       "side": "CLIENT"
     },
     "AkashicTome": {
