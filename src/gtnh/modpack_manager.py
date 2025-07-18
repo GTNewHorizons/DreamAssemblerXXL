@@ -319,20 +319,28 @@ class GTNHModpackManager:
     async def update_versions_from_repo(
         self, asset: Versionable, repo: AttributeDict, for_translation: bool = False, releaseVersion: str | None = None
     ) -> bool:
+        # dont update mods with a side of NONE
+        if isinstance(asset, GTNHModInfo):
+            if asset.side == Side.NONE:
+                return False
+
         releases = [AttributeDict(r) async for r in self.gh.getiter(repo_releases_uri(self.org, repo.name))]
         if for_translation:
             releases = [r for r in releases if r.tag_name.endswith("-latest")]
 
-        if releaseVersion == "daily":
-            releases = [r for r in releases if not r.tag_name.endswith("-pre")]
-            # if latest version is a -pre release, nuke it and start from scratch
-            if asset.latest_version.endswith("-pre"):
-                log.info("-pre latest version detected in daily run, reseting it to get latest")
-                asset.latest_version = "0.0.0-pre"
-
-        old_latest_version = asset.latest_version
         # Sorted releases, newest version first
         sorted_releases: List[AttributeDict] = sorted(releases, key=lambda r: LegacyVersion(r.tag_name), reverse=True)  # type: ignore
+
+        if releaseVersion == "daily":
+            sorted_releases = [r for r in sorted_releases if not r.tag_name.endswith("-pre")]
+            # if latest version is a -pre release, reset to latest valid release
+            if asset.latest_version.endswith("-pre"):
+                if sorted_releases:
+                    asset.latest_version = sorted_releases[0].tag_name
+                else:
+                    asset.latest_version = "0.0.0-pre"
+
+        old_latest_version = asset.latest_version
         version_updated = False
 
         asset.versions = sorted(asset.versions, key=version_sort_key)
@@ -1237,12 +1245,13 @@ class GTNHModpackManager:
             changes.append(mod_changelog.generate_mod_changelog())
             contributors |= mod_changelog.contributors
 
-        changelog["credits"].append("# Credits")
-        changelog["credits"].append(
-            f"Special thanks to {', '.join(sorted(list(contributors), key=str.casefold))}, "
-            "for their code contributions listed above, and to everyone else who helped, "
-            "including all of our beta testers! <3"
-        )
+        if len(contributors) > 0:
+            changelog["credits"].append("# Credits")
+            changelog["credits"].append(
+                f"Special thanks to {', '.join(sorted(list(contributors), key=str.casefold))}, "
+                "for their code contributions listed above, and to everyone else who helped, "
+                "including all of our beta testers! <3"
+            )
 
         return changelog
 
