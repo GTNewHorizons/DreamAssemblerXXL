@@ -323,16 +323,19 @@ class GTNHModpackManager:
         if for_translation:
             releases = [r for r in releases if r.tag_name.endswith("-latest")]
 
-        if releaseVersion == "daily":
-            releases = [r for r in releases if not r.tag_name.endswith("-pre")]
-            # if latest version is a -pre release, nuke it and start from scratch
-            if asset.latest_version.endswith("-pre"):
-                log.info("-pre latest version detected in daily run, reseting it to get latest")
-                asset.latest_version = "0.0.0-pre"
-
-        old_latest_version = asset.latest_version
         # Sorted releases, newest version first
         sorted_releases: List[AttributeDict] = sorted(releases, key=lambda r: LegacyVersion(r.tag_name), reverse=True)  # type: ignore
+
+        if releaseVersion == "daily":
+            sorted_releases = [r for r in sorted_releases if not r.tag_name.endswith("-pre")]
+            # if latest version is a -pre release, reset to latest valid release
+            if asset.latest_version.endswith("-pre"):
+                if sorted_releases:
+                    asset.latest_version = sorted_releases[0].tag_name
+                else:
+                    asset.latest_version = "0.0.0-pre"
+
+        old_latest_version = asset.latest_version
         version_updated = False
 
         asset.versions = sorted(asset.versions, key=version_sort_key)
