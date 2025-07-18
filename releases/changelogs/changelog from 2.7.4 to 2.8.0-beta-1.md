@@ -2655,11 +2655,11 @@ Mod is client-side only.
 >* Adding flipping for schematics by @Cardinalstars in https://github.com/GTNewHorizons/Schematica/pull/26 (1.12.6-GTNH)
 >* increased supported blockids to 65792 by @Fabboz in https://github.com/GTNewHorizons/Schematica/pull/25 (1.12.4-GTNH)
 
-# Updated - ServerUtilities - 2.1.40 --> 5.1.55
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.40...5.1.55
+# Updated - ServerUtilities - 2.1.40 --> 2.1.55
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.40...2.1.55
 
 ## What's Changed:
->* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/ServerUtilities/pull/220 (5.1.55)
+>* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/ServerUtilities/pull/220 (2.1.55)
 >* Battlegear 2 for Backhand compat by @YannickMG in https://github.com/GTNewHorizons/ServerUtilities/pull/217 (2.1.54)
 >* Seek block command by @Connor-Colenso in https://github.com/GTNewHorizons/ServerUtilities/pull/198 (2.1.52)
 >* Enderman Griefing by @koolkrafter5 in https://github.com/GTNewHorizons/ServerUtilities/pull/215 (2.1.52)

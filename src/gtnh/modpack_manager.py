@@ -1226,6 +1226,10 @@ class GTNHModpackManager:
                 left=old_version.version if old_version else None, right=new_version.version
             )
 
+            # Something bad happens if we have empty mod_versions, but better to have an improper changelog than a crash
+            if not len(mod_versions):
+                continue
+
             changes = changelog[mod_name]
 
             mod_version_changelogs = [
