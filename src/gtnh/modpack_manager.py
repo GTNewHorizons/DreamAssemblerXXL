@@ -1245,12 +1245,13 @@ class GTNHModpackManager:
             changes.append(mod_changelog.generate_mod_changelog())
             contributors |= mod_changelog.contributors
 
-        changelog["credits"].append("# Credits")
-        changelog["credits"].append(
-            f"Special thanks to {', '.join(sorted(list(contributors), key=str.casefold))}, "
-            "for their code contributions listed above, and to everyone else who helped, "
-            "including all of our beta testers! <3"
-        )
+        if len(contributors) > 0:
+            changelog["credits"].append("# Credits")
+            changelog["credits"].append(
+                f"Special thanks to {', '.join(sorted(list(contributors), key=str.casefold))}, "
+                "for their code contributions listed above, and to everyone else who helped, "
+                "including all of our beta testers! <3"
+            )
 
         return changelog
 
