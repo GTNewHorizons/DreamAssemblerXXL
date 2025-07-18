@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-18T13:28:22.317083",
+  "last_updated": "2025-07-18T14:58:11.787671",
   "config": "2.8.0-nightly-2025-07-17-pre-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.398",
+      "version": "5.09.51.400",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.42-GTNH",
+      "version": "1.13.43-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
