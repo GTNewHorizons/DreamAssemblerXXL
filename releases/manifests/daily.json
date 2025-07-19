@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-18T15:43:40.287160",
+  "last_updated": "2025-07-19T00:49:59.717126",
   "config": "2.8.0-nightly-2025-07-17-pre-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.100-gtnh",
+      "version": "1.4.102-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-660-GTNH",
+      "version": "rv3-beta-663-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.69",
+      "version": "1.70",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.5.13",
+      "version": "2.5.16",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -173,7 +173,7 @@
       "side": "BOTH"
     },
     "EnderStorage": {
-      "version": "1.7.4",
+      "version": "1.7.5",
       "side": "BOTH"
     },
     "EnderZoo": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.3.9-GTNH",
+      "version": "3.3.10-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.400",
+      "version": "5.09.51.401",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.92",
+      "version": "2.6.93",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.4.21-GTNH",
+      "version": "1.4.22-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.6.17",
+      "version": "2.6.18",
       "side": "BOTH"
     },
     "oauth": {
@@ -517,7 +517,7 @@
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.7.5",
+      "version": "1.7.6",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.11.18",
+      "version": "2.11.19",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.43-GTNH",
+      "version": "1.13.44-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.7.10-GTNH",
+      "version": "1.7.13-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -673,7 +673,7 @@
       "side": "BOTH"
     },
     "MrTJPCore": {
-      "version": "1.3.0",
+      "version": "1.3.1",
       "side": "BOTH"
     },
     "Random-Things": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta51",
+      "version": "1.0.0-beta52",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -765,7 +765,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.0.37-GTNH",
+      "version": "0.0.38-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
