@@ -107,10 +107,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/ForestryMC/pull/98 (4.10.15)
 
-# Updated - GT5-Unofficial - 5.09.51.389 --> 5.09.51.401
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.389...5.09.51.401
+# Updated - GT5-Unofficial - 5.09.51.389 --> 5.09.51.403
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.389...5.09.51.403
 
 ## What's Changed:
+>* Tesseract Renderer by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4615 (5.09.51.403)
+>* fix incorrect oredicts for RecipeLoaderAgriculturalChem by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4618 (5.09.51.402)
+>* Speed up forge event registration part 2 by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4621 (5.09.51.402)
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4619 (5.09.51.401)
 >* Add config for turning off trans metal rendering by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4616 (5.09.51.401)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4610 (5.09.51.400)
@@ -142,10 +145,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Remove incorrect information about translating by @koolkrafter5 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/29 (1.12.11-GTNH)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/28 (1.12.10)
 
-# Updated - Hodgepodge - 2.6.91 --> 2.6.93
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.91...2.6.93
+# Updated - Hodgepodge - 2.6.91 --> 2.6.94
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.91...2.6.94
 
 ## What's Changed:
+>* stop disabling the creative search bar if archaix fix is present by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/587 (2.6.94)
+>* log ASM operations at debug level in prod by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/580 (2.6.94)
 >* add debug flag to log time to register forge event handlers by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/585 (2.6.93)
 >* Delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/584 (2.6.92)
 
@@ -220,6 +225,19 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/Railcraft/pull/97 (9.16.32)
 
+# Updated - SGCraft - 1.4.4-GTNH --> 1.4.5-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/SGCraft/compare/1.4.4-GTNH...1.4.5-GTNH
+
+## What's Changed:
+>* Add the new controller GUI by @wohaopa in https://github.com/GTNewHorizons/SGCraft/pull/19 (1.4.5-GTNH)
+>* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/SGCraft/pull/20 (1.4.5-GTNH)
+
+# Updated - SpiceOfLife - 2.2.1-carrot --> 2.2.2-carrot
+**Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.2.1-carrot...2.2.2-carrot
+
+## What's Changed:
+>* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/SpiceOfLife/pull/48 (2.2.2-carrot)
+
 # Updated - StorageDrawers - 2.1.5-GTNH --> 2.1.6-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.5-GTNH...2.1.6-GTNH
 
@@ -267,6 +285,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* restore mixin target for hodgepodge by @boubou19 in https://github.com/GTNewHorizons/TinkersConstruct/pull/188 (1.13.43-GTNH)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/TinkersConstruct/pull/186 (1.13.42-GTNH)
 
+# Updated - Translocators - 1.3.0 --> 1.3.1
+**Full Changelog**: https://github.com/GTNewHorizons/Translocators/compare/1.3.0...1.3.1
+
+## What's Changed:
+>* Speedup forge event registration by @boubou19 in https://github.com/GTNewHorizons/Translocators/pull/9 (1.3.1)
+
 # Updated - VisualProspecting - 1.4.4 --> 1.4.6
 **Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.4.4...1.4.6
 
@@ -292,4 +316,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/gendustry/pull/18 (1.9.4-GTNH)
 
 # Credits
-Special thanks to @0hwx, @Akeianova, @Alexdoru, @and-reas-se, @boubou19, @Caedis, @Connor-Colenso, @GDCloudstrike, @koolkrafter5, @leagris, @NeOzay, @OmdaCZ, @RecursivePineapple, @TotallyNotOndre, @UltraProdigy, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @Akeianova, @Alexdoru, @and-reas-se, @boubou19, @Caedis, @Connor-Colenso, @GDCloudstrike, @jude123412, @koolkrafter5, @leagris, @NeOzay, @OmdaCZ, @RecursivePineapple, @TotallyNotOndre, @UltraProdigy, @wohaopa, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
