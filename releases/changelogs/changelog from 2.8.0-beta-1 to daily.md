@@ -5,19 +5,21 @@
 >* fix event handler SPacketMEUpdateBuffer not being registered by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/320 (1.4.103-gtnh)
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/321 (1.4.102-gtnh)
 
-# Updated - Angelica - 1.0.0-beta49 --> 1.0.0-beta52
+# Updated - Angelica - 1.0.0-beta49 --> 1.0.0-beta53
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta49...1.0.0-beta52
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta49...1.0.0-beta53
 
 ## What's Changed:
+>* use EnumChatFormatting and not Realms enum to avoid crash by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/996 (1.0.0-beta53)
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/995 (1.0.0-beta52)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/Angelica/pull/993 (1.0.0-beta51)
 >* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/991 (1.0.0-beta50)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-658-GTNH --> rv3-beta-664-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-658-GTNH...rv3-beta-664-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-658-GTNH --> rv3-beta-665-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-658-GTNH...rv3-beta-665-GTNH
 
 ## What's Changed:
+>* use EnumChatFormatting and not Realms enum to avoid crash by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/807 (rv3-beta-665-GTNH)
 >* UI improve wireless terminal tooltip readability by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/803 (rv3-beta-664-GTNH)
 >* fix a Visual bug when tool network is in inventory player #20037 by @NeOzay in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/800 (rv3-beta-664-GTNH)
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/802 (rv3-beta-663-GTNH)
@@ -30,10 +32,11 @@ Mod is client-side only.
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/Avaritia/pull/57 (1.70)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/Avaritia/pull/56 (1.69)
 
-# Updated - BetterQuesting - 3.7.7-GTNH --> 3.7.10-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.7-GTNH...3.7.10-GTNH
+# Updated - BetterQuesting - 3.7.7-GTNH --> 3.7.11-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.7-GTNH...3.7.11-GTNH
 
 ## What's Changed:
+>* Replace com.mojang.realmsclient.gui.ChatFormatting with EnumChatFormatting by @sisyphussy in https://github.com/GTNewHorizons/BetterQuesting/pull/167 (3.7.11-GTNH)
 >* Set entry quest to dummy quest if null, part 2 by @Caedis in https://github.com/GTNewHorizons/BetterQuesting/pull/166 (3.7.10-GTNH)
 >* Set entry quest to dummy quest if null by @Caedis in https://github.com/GTNewHorizons/BetterQuesting/pull/165 (3.7.9-GTNH)
 >* Remove unnecessary event registration by @boubou19 in https://github.com/GTNewHorizons/BetterQuesting/pull/163 (3.7.8-GTNH)
@@ -125,10 +128,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Added a coroutine dispatcher for server thread by @Taskeren in https://github.com/GTNewHorizons/Forgelin/pull/14 (2.0.2-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.389 --> 5.09.51.405
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.389...5.09.51.405
+# Updated - GT5-Unofficial - 5.09.51.389 --> 5.09.51.406
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.389...5.09.51.406
 
 ## What's Changed:
+>* Adds Decompression Recipes for (Cactus & Sugar) Coal / Coke by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4626 (5.09.51.406)
+>* fix dyson maint problems by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4629 (5.09.51.406)
 >* Cleanup + speedup GT++ Utils by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4591 (5.09.51.405)
 >* Refactor `MTECircuitAssemblyLine` Modes by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4625 (5.09.51.405)
 >* Restore behavior of Dyes#get(String color) by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4624 (5.09.51.405)
@@ -185,10 +190,23 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* add debug flag to log time to register forge event handlers by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/585 (2.6.93)
 >* Delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/584 (2.6.92)
 
-# Updated - InventoryBogoSorter - 1.2.42-GTNH --> 1.2.43-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.42-GTNH...1.2.43-GTNH
+# Updated - IguanaTweaksTConstruct - 2.6.4 --> 2.6.5
+**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.6.4...2.6.5
 
 ## What's Changed:
+>* use EnumChatFormatting and not Realms enum to avoid crash by @Alexdoru in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/22 (2.6.5)
+
+# Updated - InGame-Info-XML - 2.8.25 --> 2.8.27
+**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.25...2.8.27
+
+## What's Changed:
+>* Fix log spam by properly handling missing textures in InfoIcon by @Alexdoru in https://github.com/GTNewHorizons/InGame-Info-XML/pull/32 (2.8.27)
+
+# Updated - InventoryBogoSorter - 1.2.42-GTNH --> 1.2.46-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.42-GTNH...1.2.46-GTNH
+
+## What's Changed:
+>* use EnumChatFormatting and not Realms enum to avoid crash by @Alexdoru in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/112 (1.2.46-GTNH)
 >* Prevent splitting of items with max stack size of 1 during sorting by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/110 (1.2.43-GTNH)
 
 # Updated - LogisticsPipes - 1.4.20-GTNH --> 1.4.22-GTNH
@@ -315,10 +333,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/61 (2.11.19)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/59 (2.11.18)
 
-# Updated - TinkersConstruct - 1.13.40-GTNH --> 1.13.44-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.40-GTNH...1.13.44-GTNH
+# Updated - TinkersConstruct - 1.13.40-GTNH --> 1.13.45-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.40-GTNH...1.13.45-GTNH
 
 ## What's Changed:
+>* use EnumChatFormatting and not Realms enum to avoid crash by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/192 (1.13.45-GTNH)
 >* remove reflection after ismodloaded check by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/190 (1.13.44-GTNH)
 >* restore mixin target for hodgepodge by @boubou19 in https://github.com/GTNewHorizons/TinkersConstruct/pull/188 (1.13.43-GTNH)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/TinkersConstruct/pull/186 (1.13.42-GTNH)
@@ -354,4 +373,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/gendustry/pull/18 (1.9.4-GTNH)
 
 # Credits
-Special thanks to @0hwx, @Akeianova, @Alexdoru, @and-reas-se, @boubou19, @Caedis, @Connor-Colenso, @Eldrinn-Elantey, @GDCloudstrike, @jude123412, @koolkrafter5, @leagris, @NeOzay, @OmdaCZ, @PlayfulPiano, @RecursivePineapple, @sisyphussy, @slprime, @Taskeren, @TotallyNotOndre, @UltraProdigy, @Vlamonster, @wohaopa, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @Akeianova, @Alexdoru, @and-reas-se, @boubou19, @Caedis, @chrombread, @Connor-Colenso, @Eldrinn-Elantey, @GDCloudstrike, @jude123412, @koolkrafter5, @leagris, @NeOzay, @OmdaCZ, @PlayfulPiano, @RecursivePineapple, @sisyphussy, @slprime, @Taskeren, @TotallyNotOndre, @UltraProdigy, @Vlamonster, @wohaopa, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
