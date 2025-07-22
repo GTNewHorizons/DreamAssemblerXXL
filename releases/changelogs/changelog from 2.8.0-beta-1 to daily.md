@@ -132,10 +132,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Added a coroutine dispatcher for server thread by @Taskeren in https://github.com/GTNewHorizons/Forgelin/pull/14 (2.0.2-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.389 --> 5.09.51.407
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.389...5.09.51.407
+# Updated - GT5-Unofficial - 5.09.51.389 --> 5.09.51.408
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.389...5.09.51.408
 
 ## What's Changed:
+>* add missing block oredicts by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4638 (5.09.51.408)
 >* Delete a bunch of reflection by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4565 (5.09.51.407)
 >* Tidy Up Compression and Decompression Recipes in GTPP by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4634 (5.09.51.407)
 >* Adds Decompression Recipes for (Cactus & Sugar) Coal / Coke by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4626 (5.09.51.406)
