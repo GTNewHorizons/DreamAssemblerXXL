@@ -25,6 +25,9 @@ Mod is client-side only.
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/802 (rv3-beta-663-GTNH)
 >* Speedup event registration by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/797 (rv3-beta-660-GTNH)
 
+# Updated - Archaicfix - 0.7.6 --> 0.7.7
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - Avaritia - 1.68 --> 1.70
 **Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.68...1.70
 
@@ -116,10 +119,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix Collar of Pain lagging upon using /kill by @sisyphussy in https://github.com/GTNewHorizons/ForbiddenMagic/pull/15 (0.8.1-GTNH)
 
-# Updated - ForestryMC - 4.10.14 --> 4.10.15
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.14...4.10.15
+# Updated - ForestryMC - 4.10.14 --> 4.10.16
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.14...4.10.16
 
 ## What's Changed:
+>* use EnumChatFormatting and not Realms enum to avoid crash by @Alexdoru in https://github.com/GTNewHorizons/ForestryMC/pull/99 (4.10.16)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/ForestryMC/pull/98 (4.10.15)
 
 # Updated - Forgelin - 2.0.1-GTNH --> 2.0.2-GTNH
@@ -128,10 +132,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Added a coroutine dispatcher for server thread by @Taskeren in https://github.com/GTNewHorizons/Forgelin/pull/14 (2.0.2-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.389 --> 5.09.51.406
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.389...5.09.51.406
+# Updated - GT5-Unofficial - 5.09.51.389 --> 5.09.51.407
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.389...5.09.51.407
 
 ## What's Changed:
+>* Delete a bunch of reflection by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4565 (5.09.51.407)
+>* Tidy Up Compression and Decompression Recipes in GTPP by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4634 (5.09.51.407)
 >* Adds Decompression Recipes for (Cactus & Sugar) Coal / Coke by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4626 (5.09.51.406)
 >* fix dyson maint problems by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4629 (5.09.51.406)
 >* Cleanup + speedup GT++ Utils by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4591 (5.09.51.405)
@@ -196,10 +202,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* use EnumChatFormatting and not Realms enum to avoid crash by @Alexdoru in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/22 (2.6.5)
 
-# Updated - InGame-Info-XML - 2.8.25 --> 2.8.27
-**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.25...2.8.27
+# Updated - InGame-Info-XML - 2.8.25 --> 2.8.28
+**Full Changelog**: https://github.com/GTNewHorizons/InGame-Info-XML/compare/2.8.25...2.8.28
 
 ## What's Changed:
+>* add missing return by @Alexdoru in https://github.com/GTNewHorizons/InGame-Info-XML/pull/33 (2.8.28)
 >* Fix log spam by properly handling missing textures in InfoIcon by @Alexdoru in https://github.com/GTNewHorizons/InGame-Info-XML/pull/32 (2.8.27)
 
 # Updated - InventoryBogoSorter - 1.2.42-GTNH --> 1.2.46-GTNH
@@ -236,10 +243,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/MrTJPCore/pull/10 (1.3.1)
 
-# Updated - NewHorizonsCoreMod - 2.7.223 --> 2.7.226
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.223...2.7.226
+# Updated - NewHorizonsCoreMod - 2.7.223 --> 2.7.228
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.223...2.7.228
 
 ## What's Changed:
+>* Changes EU/t of Bio SOC recipe to be in line with other circuits by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1305 (2.7.228)
+>* Fixes Decompression Recipes for Coal & Charcoal by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1306 (2.7.228)
 >* Remove tunstensteel from MM MK0 by @RecursivePineapple in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1304 (2.7.226)
 >* Removes Plantball -) Sugarcane Forge Hammer Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1303 (2.7.226)
 >* Hide nano forge renderer from NEI by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1301 (2.7.224)

@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-22T07:21:45.457315",
+  "last_updated": "2025-07-22T07:49:30.904472",
   "config": "2.8.0-nightly-2025-07-20",
   "github_mods": {
     "AdventureBackpack2": {
@@ -197,7 +197,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.10.15",
+      "version": "4.10.16",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.406",
+      "version": "5.09.51.407",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.27",
+      "version": "2.8.28",
       "side": "BOTH"
     },
     "ironchest": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.226",
+      "version": "2.7.228",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
