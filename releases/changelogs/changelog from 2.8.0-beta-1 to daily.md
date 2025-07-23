@@ -57,10 +57,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/BloodArsenal/pull/35 (1.4.8)
 
-# Updated - Botania - 1.12.16-GTNH --> 1.12.20-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.16-GTNH...1.12.20-GTNH
+# Updated - Botania - 1.12.16-GTNH --> 1.12.21-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.16-GTNH...1.12.21-GTNH
 
 ## What's Changed:
+>* Restore methods so other addons work again by @boubou19 in https://github.com/GTNewHorizons/Botania/pull/92 (1.12.21-GTNH)
 >* Improve Null Checking for Petal Apothecary by @koolkrafter5 in https://github.com/GTNewHorizons/Botania/pull/91 (1.12.20-GTNH)
 >* Faster load by @boubou19 in https://github.com/GTNewHorizons/Botania/pull/89 (1.12.18-GTNH)
 
@@ -161,6 +162,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add status of optional features in tooltip of UI buttons by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4604 (5.09.51.393)
 >* Adds recipe uses for Netherite and Prismatic combs by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4602 (5.09.51.392)
 >* Fix not checking for serverside when unregistering wireless chargers by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4603 (5.09.51.390)
+
+# Updated - GTNH-TC-Wands - 1.4.5 --> 1.4.6
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.5...1.4.6
+
+## What's Changed:
+>* [GT5U Change] Remove `Tier` Class by @Vlamonster in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/25 (1.4.6)
 
 # Updated - GTNHLib - 0.6.37 --> 0.6.38
 **Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.37...0.6.38
@@ -284,6 +291,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* update deps by @Alexdoru in https://github.com/GTNewHorizons/Postea/pull/14 (1.1.3)
 
+# Updated - ProjectRed - 4.11.5-GTNH --> 4.11.6-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.5-GTNH...4.11.6-GTNH
+
+## What's Changed:
+>* Remove all non local returns and breaks for performance by @Glease in https://github.com/GTNewHorizons/ProjectRed/pull/45 (4.11.6-GTNH)
+
 # Updated - Railcraft - 9.16.30 --> 9.16.32
 **Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.30...9.16.32
 
@@ -343,10 +356,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/61 (2.11.19)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/59 (2.11.18)
 
-# Updated - TinkersConstruct - 1.13.40-GTNH --> 1.13.45-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.40-GTNH...1.13.45-GTNH
+# Updated - TinkersConstruct - 1.13.40-GTNH --> 1.13.46-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.40-GTNH...1.13.46-GTNH
 
 ## What's Changed:
+>* Restore methods so other addons work again by @boubou19 in https://github.com/GTNewHorizons/TinkersConstruct/pull/193 (1.13.46-GTNH)
 >* use EnumChatFormatting and not Realms enum to avoid crash by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/192 (1.13.45-GTNH)
 >* remove reflection after ismodloaded check by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/190 (1.13.44-GTNH)
 >* restore mixin target for hodgepodge by @boubou19 in https://github.com/GTNewHorizons/TinkersConstruct/pull/188 (1.13.43-GTNH)
@@ -383,4 +397,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/gendustry/pull/18 (1.9.4-GTNH)
 
 # Credits
-Special thanks to @0hwx, @Akeianova, @Alexdoru, @and-reas-se, @boubou19, @Caedis, @chrombread, @Connor-Colenso, @Eldrinn-Elantey, @GDCloudstrike, @jude123412, @koolkrafter5, @leagris, @NeOzay, @OmdaCZ, @PlayfulPiano, @RecursivePineapple, @sisyphussy, @slprime, @Taskeren, @TotallyNotOndre, @UltraProdigy, @Vlamonster, @wohaopa, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @Akeianova, @Alexdoru, @and-reas-se, @boubou19, @Caedis, @chrombread, @Connor-Colenso, @Eldrinn-Elantey, @GDCloudstrike, @Glease, @jude123412, @koolkrafter5, @leagris, @NeOzay, @OmdaCZ, @PlayfulPiano, @RecursivePineapple, @sisyphussy, @slprime, @Taskeren, @TotallyNotOndre, @UltraProdigy, @Vlamonster, @wohaopa, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

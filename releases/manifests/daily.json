@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-22T09:24:30.808925",
+  "last_updated": "2025-07-23T04:12:12.143205",
   "config": "2.8.0-nightly-2025-07-20",
   "github_mods": {
     "AdventureBackpack2": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.12.20-GTNH",
+      "version": "1.12.21-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
-      "version": "1.4.5",
+      "version": "1.4.6",
       "side": "BOTH"
     },
     "GTNHLib": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.11.5-GTNH",
+      "version": "4.11.6-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.45-GTNH",
+      "version": "1.13.46-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
