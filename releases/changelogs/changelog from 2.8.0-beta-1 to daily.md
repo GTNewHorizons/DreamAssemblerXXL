@@ -57,6 +57,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/BloodArsenal/pull/35 (1.4.8)
 
+# Updated - BloodMagic - 1.7.46 --> 1.7.48
+**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.46...1.7.48
+
+## What's Changed:
+>* Altar Blocks Config by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/101 (1.7.48)
+
 # Updated - Botania - 1.12.16-GTNH --> 1.12.21-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.16-GTNH...1.12.21-GTNH
 
@@ -64,6 +70,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Restore methods so other addons work again by @boubou19 in https://github.com/GTNewHorizons/Botania/pull/92 (1.12.21-GTNH)
 >* Improve Null Checking for Petal Apothecary by @koolkrafter5 in https://github.com/GTNewHorizons/Botania/pull/91 (1.12.20-GTNH)
 >* Faster load by @boubou19 in https://github.com/GTNewHorizons/Botania/pull/89 (1.12.18-GTNH)
+
+# Updated - Botanic-horizons - 1.11.16-GTNH --> 1.11.18-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.11.16-GTNH...1.11.18-GTNH
+
+## What's Changed:
+>* fix: Include controller block in holo projector by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/37 (1.11.18-GTNH)
 
 # Updated - BuildCraftCompat - 7.1.17 --> 7.1.18
 **Full Changelog**: https://github.com/GTNewHorizons/BuildCraftCompat/compare/7.1.17...7.1.18
@@ -133,10 +145,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Added a coroutine dispatcher for server thread by @Taskeren in https://github.com/GTNewHorizons/Forgelin/pull/14 (2.0.2-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.389 --> 5.09.51.408
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.389...5.09.51.408
+# Updated - GT5-Unofficial - 5.09.51.389 --> 5.09.51.410
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.389...5.09.51.410
 
 ## What's Changed:
+>* Fix Incorrect Bolt Rotation by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4640 (5.09.51.410)
+>* Adds Alternative HCl CBath Processing Path Rare Earth 2 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4637 (5.09.51.410)
+>* Texture compression using optipng -o7 by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4635 (5.09.51.410)
+>* Removes @SuppressWarnings("all") by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4639 (5.09.51.409)
+>* Remove Tier Class by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4642 (5.09.51.409)
+>* Refactor `MTEBasicMachineWithRecipe` by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4643 (5.09.51.409)
 >* add missing block oredicts by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4638 (5.09.51.408)
 >* Delete a bunch of reflection by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4565 (5.09.51.407)
 >* Tidy Up Compression and Decompression Recipes in GTPP by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4634 (5.09.51.407)
@@ -195,10 +213,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Remove incorrect information about translating by @koolkrafter5 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/29 (1.12.11-GTNH)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/28 (1.12.10)
 
-# Updated - Hodgepodge - 2.6.91 --> 2.6.94
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.91...2.6.94
+# Updated - Hodgepodge - 2.6.91 --> 2.6.96
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.91...2.6.96
 
 ## What's Changed:
+>* Return items stored in Travellers Gear slots after the mod is uninstalled. by @koolkrafter5 in https://github.com/GTNewHorizons/Hodgepodge/pull/588 (2.6.96)
 >* stop disabling the creative search bar if archaix fix is present by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/587 (2.6.94)
 >* log ASM operations at debug level in prod by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/580 (2.6.94)
 >* add debug flag to log time to register forge event handlers by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/585 (2.6.93)
@@ -251,10 +270,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/MrTJPCore/pull/10 (1.3.1)
 
-# Updated - NewHorizonsCoreMod - 2.7.223 --> 2.7.228
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.223...2.7.228
+# Updated - NewHorizonsCoreMod - 2.7.223 --> 2.7.230
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.223...2.7.230
 
 ## What's Changed:
+>* EFR - Change / Add Sign Crafting & Assembler Recipes by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1302 (2.7.230)
+>* Adds Tumbaga Recipes to Alloy Smelter by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1307 (2.7.230)
+>* Update MOTD Banner by @DylanTaylor1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1308 (2.7.229)
+>* Update calls to GTModHandler#addMachineCraftingRecipe by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1309 (2.7.229)
 >* Changes EU/t of Bio SOC recipe to be in line with other circuits by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1305 (2.7.228)
 >* Fixes Decompression Recipes for Coal & Charcoal by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1306 (2.7.228)
 >* Remove tunstensteel from MM MK0 by @RecursivePineapple in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1304 (2.7.226)
@@ -322,10 +345,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* cleanup(client): getEntityItemForRender by @leagris in https://github.com/GTNewHorizons/StorageDrawers/pull/46 (2.1.6-GTNH)
 
-# Updated - Tainted-Magic - 7.6.19-GTNH --> 7.6.22-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.19-GTNH...7.6.22-GTNH
+# Updated - Tainted-Magic - 7.6.19-GTNH --> 7.6.23-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.19-GTNH...7.6.23-GTNH
 
 ## What's Changed:
+>* omni mode vertical flight boost by @Black-Noise in https://github.com/GTNewHorizons/Tainted-Magic/pull/35 (7.6.23-GTNH)
 >* Fix Boots of the Voidwalker by @sisyphussy in https://github.com/GTNewHorizons/Tainted-Magic/pull/37 (7.6.22-GTNH)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/Tainted-Magic/pull/36 (7.6.21-GTNH)
 
@@ -349,10 +373,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/ThaumicHorizons/pull/92 (1.7.6)
 
-# Updated - ThaumicTinkerer - 2.11.16 --> 2.11.19
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.16...2.11.19
+# Updated - ThaumicTinkerer - 2.11.16 --> 2.11.20
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.16...2.11.20
 
 ## What's Changed:
+>* Allow Bottomless Pouch in Focus Pouch slot by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/62 (2.11.20)
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/61 (2.11.19)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/59 (2.11.18)
 
@@ -384,10 +409,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix and port the new Localization message system and update AE2 dependency. by @NeOzay in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/43 (1.12.7)
 
-# Updated - WitchingGadgets - 1.7.10-GTNH --> 1.7.13-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.10-GTNH...1.7.13-GTNH
+# Updated - WitchingGadgets - 1.7.10-GTNH --> 1.7.14-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.10-GTNH...1.7.14-GTNH
 
 ## What's Changed:
+>* makes omni mode boost vertical flight speed for primordial boots by @Black-Noise in https://github.com/GTNewHorizons/WitchingGadgets/pull/79 (1.7.14-GTNH)
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/WitchingGadgets/pull/82 (1.7.13-GTNH)
 
 # Updated - gendustry - 1.9.3-GTNH --> 1.9.4-GTNH
@@ -397,4 +423,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/gendustry/pull/18 (1.9.4-GTNH)
 
 # Credits
-Special thanks to @0hwx, @Akeianova, @Alexdoru, @and-reas-se, @boubou19, @Caedis, @chrombread, @Connor-Colenso, @Eldrinn-Elantey, @GDCloudstrike, @Glease, @jude123412, @koolkrafter5, @leagris, @NeOzay, @OmdaCZ, @PlayfulPiano, @RecursivePineapple, @sisyphussy, @slprime, @Taskeren, @TotallyNotOndre, @UltraProdigy, @Vlamonster, @wohaopa, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @Akeianova, @Alexdoru, @and-reas-se, @Black-Noise, @boubou19, @Caedis, @chrombread, @combusterf, @Connor-Colenso, @DylanTaylor1, @Eldrinn-Elantey, @GDCloudstrike, @Glease, @jude123412, @koolkrafter5, @leagris, @NeOzay, @OmdaCZ, @PlayfulPiano, @RecursivePineapple, @sisyphussy, @slprime, @Taskeren, @TotallyNotOndre, @UltraProdigy, @Vlamonster, @wohaopa, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
