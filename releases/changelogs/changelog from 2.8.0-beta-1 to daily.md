@@ -5,6 +5,12 @@
 >* fix event handler SPacketMEUpdateBuffer not being registered by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/320 (1.4.103-gtnh)
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/321 (1.4.102-gtnh)
 
+# Updated - AkashicTome - 1.2.4 --> 1.2.5
+**Full Changelog**: https://github.com/GTNewHorizons/AkashicTome/compare/1.2.4...1.2.5
+
+## What's Changed:
+>* Block incomplete versions of Witchery's vampire book from being included in the Akashic Tome by @Kynake in https://github.com/GTNewHorizons/AkashicTome/pull/19 (1.2.5)
+
 # Updated - Angelica - 1.0.0-beta49 --> 1.0.0-beta53
 Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta49...1.0.0-beta53
@@ -51,10 +57,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/Binnie/pull/64 (2.5.16)
 >* "fix" compartment tab name input field by @TotallyNotOndre in https://github.com/GTNewHorizons/Binnie/pull/63 (2.5.13)
 
-# Updated - BloodArsenal - 1.4.6 --> 1.4.8
-**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.4.6...1.4.8
+# Updated - BloodArsenal - 1.4.6 --> 1.4.10
+**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.4.6...1.4.10
 
 ## What's Changed:
+>* Compacter NPE Bugfix by @koolkrafter5 in https://github.com/GTNewHorizons/BloodArsenal/pull/33 (1.4.10)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/BloodArsenal/pull/35 (1.4.8)
 
 # Updated - BloodMagic - 1.7.46 --> 1.7.48
@@ -139,16 +146,19 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* use EnumChatFormatting and not Realms enum to avoid crash by @Alexdoru in https://github.com/GTNewHorizons/ForestryMC/pull/99 (4.10.16)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/ForestryMC/pull/98 (4.10.15)
 
-# Updated - Forgelin - 2.0.1-GTNH --> 2.0.2-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/2.0.1-GTNH...2.0.2-GTNH
+# Updated - Forgelin - 2.0.1-GTNH --> 2.0.3-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Forgelin/compare/2.0.1-GTNH...2.0.3-GTNH
 
 ## What's Changed:
+>* Excluded the transitive dependencies to sources by @Taskeren in https://github.com/GTNewHorizons/Forgelin/pull/13 (2.0.3-GTNH)
 >* Added a coroutine dispatcher for server thread by @Taskeren in https://github.com/GTNewHorizons/Forgelin/pull/14 (2.0.2-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.389 --> 5.09.51.410
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.389...5.09.51.410
+# Updated - GT5-Unofficial - 5.09.51.389 --> 5.09.51.414
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.389...5.09.51.414
 
 ## What's Changed:
+>* Reduce allocations from Texture Building methods by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4645 (5.09.51.414)
+>* Unflip transcendent metal renderer by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4636 (5.09.51.412)
 >* Fix Incorrect Bolt Rotation by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4640 (5.09.51.410)
 >* Adds Alternative HCl CBath Processing Path Rare Earth 2 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4637 (5.09.51.410)
 >* Texture compression using optipng -o7 by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4635 (5.09.51.410)
@@ -236,10 +246,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* add missing return by @Alexdoru in https://github.com/GTNewHorizons/InGame-Info-XML/pull/33 (2.8.28)
 >* Fix log spam by properly handling missing textures in InfoIcon by @Alexdoru in https://github.com/GTNewHorizons/InGame-Info-XML/pull/32 (2.8.27)
 
-# Updated - InventoryBogoSorter - 1.2.42-GTNH --> 1.2.46-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.42-GTNH...1.2.46-GTNH
+# Updated - InventoryBogoSorter - 1.2.42-GTNH --> 1.2.47-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.42-GTNH...1.2.47-GTNH
 
 ## What's Changed:
+>* Mixin fixes by @Alexdoru in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/111 (1.2.47-GTNH)
 >* use EnumChatFormatting and not Realms enum to avoid crash by @Alexdoru in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/112 (1.2.46-GTNH)
 >* Prevent splitting of items with max stack size of 1 during sorting by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/110 (1.2.43-GTNH)
 
@@ -257,8 +268,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Change sounds from master to block category by @Worive in https://github.com/GTNewHorizons/MalisisDoors/pull/22 (1.18.2-GTNH)
 
-# Updated - MatterManipulator - 0.0.35-GTNH --> 0.0.38-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.35-GTNH...0.0.38-GTNH
+# Updated - MatterManipulator - 0.0.35-GTNH --> 0.0.39-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.35-GTNH...0.0.39-GTNH
 
 ## What's Changed:
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/MatterManipulator/pull/9 (0.0.38-GTNH)
@@ -333,6 +344,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add the new controller GUI by @wohaopa in https://github.com/GTNewHorizons/SGCraft/pull/19 (1.4.5-GTNH)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/SGCraft/pull/20 (1.4.5-GTNH)
 
+# Updated - Salis-Arcana - 1.1.23-GTNH --> 1.1.24-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.23-GTNH...1.1.24-GTNH
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - SpiceOfLife - 2.2.1-carrot --> 2.2.2-carrot
 **Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.2.1-carrot...2.2.2-carrot
 
@@ -353,10 +369,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix Boots of the Voidwalker by @sisyphussy in https://github.com/GTNewHorizons/Tainted-Magic/pull/37 (7.6.22-GTNH)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/Tainted-Magic/pull/36 (7.6.21-GTNH)
 
-# Updated - ThaumicBoots - 1.4.7 --> 1.4.9
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.7...1.4.9
+# Updated - ThaumicBoots - 1.4.7 --> 1.4.11
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.7...1.4.11
 
 ## What's Changed:
+>* Omni mode vertical flight boost by @Black-Noise in https://github.com/GTNewHorizons/ThaumicBoots/pull/41 (1.4.11)
 >* Pull Request to add Step Assist toggle by @Akeianova in https://github.com/GTNewHorizons/ThaumicBoots/pull/39 (1.4.9)
 >* Remove unecessary forge event registration by @boubou19 in https://github.com/GTNewHorizons/ThaumicBoots/pull/40 (1.4.9)
 
@@ -423,4 +440,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/gendustry/pull/18 (1.9.4-GTNH)
 
 # Credits
-Special thanks to @0hwx, @Akeianova, @Alexdoru, @and-reas-se, @Black-Noise, @boubou19, @Caedis, @chrombread, @combusterf, @Connor-Colenso, @DylanTaylor1, @Eldrinn-Elantey, @GDCloudstrike, @Glease, @jude123412, @koolkrafter5, @leagris, @NeOzay, @OmdaCZ, @PlayfulPiano, @RecursivePineapple, @sisyphussy, @slprime, @Taskeren, @TotallyNotOndre, @UltraProdigy, @Vlamonster, @wohaopa, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @Akeianova, @Alexdoru, @and-reas-se, @Black-Noise, @boubou19, @Caedis, @chrombread, @combusterf, @Connor-Colenso, @DylanTaylor1, @Eldrinn-Elantey, @GDCloudstrike, @Glease, @jude123412, @koolkrafter5, @Kynake, @leagris, @NeOzay, @OmdaCZ, @PlayfulPiano, @RecursivePineapple, @sisyphussy, @slprime, @Taskeren, @TotallyNotOndre, @UltraProdigy, @Vlamonster, @wohaopa, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
