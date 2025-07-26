@@ -177,10 +177,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Excluded the transitive dependencies to sources by @Taskeren in https://github.com/GTNewHorizons/Forgelin/pull/13 (2.0.3-GTNH)
 >* Added a coroutine dispatcher for server thread by @Taskeren in https://github.com/GTNewHorizons/Forgelin/pull/14 (2.0.2-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.389 --> 5.09.51.415-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.389...5.09.51.415-pre
+# Updated - GT5-Unofficial - 5.09.51.389 --> 5.09.51.417-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.389...5.09.51.417-pre
 
 ## What's Changed:
+>* Fix console error spam by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4648 (5.09.51.417-pre)
+>* Spotless apply for branch fix-gtpp-remove-book for #4653 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4654 (5.09.51.417-pre)
+>* Reassigns Circuits to Netherite Recipe by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4652 (5.09.51.417-pre)
+>* Fix console error spam by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4648 (5.09.51.416)
+>* Reassigns Circuits to Netherite Recipe by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4652 (5.09.51.416)
 >* Reduce allocations from Texture Building methods by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4645 (5.09.51.415-pre)
 >* Reduce allocations from Texture Building methods by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4645 (5.09.51.414)
 >* Unflip transcendent metal renderer by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4636 (5.09.51.413-pre)
@@ -281,8 +286,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* add missing return by @Alexdoru in https://github.com/GTNewHorizons/InGame-Info-XML/pull/33 (2.8.28)
 >* Fix log spam by properly handling missing textures in InfoIcon by @Alexdoru in https://github.com/GTNewHorizons/InGame-Info-XML/pull/32 (2.8.27)
 
-# Updated - InventoryBogoSorter - 1.2.42-GTNH --> 1.2.48-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.42-GTNH...1.2.48-GTNH-pre
+# Updated - InventoryBogoSorter - 1.2.42-GTNH --> 1.2.49-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.42-GTNH...1.2.49-GTNH-pre
 
 ## What's Changed:
 >* Spotless apply for branch Icons for #106 by @github-actions[bot] in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/113 (1.2.48-GTNH-pre)
@@ -341,10 +346,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix NEI Overlay button in BlockRenderer6343 by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/46 (1.7.7)
 
-# Updated - NotEnoughItems - 2.7.64-GTNH --> 2.7.68-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.64-GTNH...2.7.68-GTNH-pre
+# Updated - NotEnoughItems - 2.7.64-GTNH --> 2.7.70-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.64-GTNH...2.7.70-GTNH-pre
 
 ## What's Changed:
+>* Add ability to bookmark linked items by @TotallyNotOndre in https://github.com/GTNewHorizons/NotEnoughItems/pull/674 (2.7.70-GTNH-pre)
+>* Add ability to bookmark linked items by @TotallyNotOndre in https://github.com/GTNewHorizons/NotEnoughItems/pull/674 (2.7.69-GTNH)
 >* Add ability to link Item in chat by @TotallyNotOndre in https://github.com/GTNewHorizons/NotEnoughItems/pull/673 (2.7.66-GTNH)
 
 # Updated - Nuclear-Control - 2.6.17 --> 2.6.18
@@ -370,8 +377,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* update deps by @Alexdoru in https://github.com/GTNewHorizons/Postea/pull/14 (1.1.3)
 
-# Updated - ProjectRed - 4.11.5-GTNH --> 4.11.6-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.5-GTNH...4.11.6-GTNH
+# Updated - ProjectRed - 4.11.5-GTNH --> 4.11.7-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.5-GTNH...4.11.7-GTNH-pre
 
 ## What's Changed:
 >* Remove all non local returns and breaks for performance by @Glease in https://github.com/GTNewHorizons/ProjectRed/pull/45 (4.11.6-GTNH)
@@ -389,11 +396,19 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add the new controller GUI by @wohaopa in https://github.com/GTNewHorizons/SGCraft/pull/19 (1.4.5-GTNH)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/SGCraft/pull/20 (1.4.5-GTNH)
 
-# Updated - Salis-Arcana - 1.1.23-GTNH --> 1.1.24-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.23-GTNH...1.1.24-GTNH
+# Updated - Salis-Arcana - 1.1.23-GTNH --> 1.1.25-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.23-GTNH...1.1.25-GTNH
 
 ## What's Changed:
-DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+>* Sync with upstream  by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Salis-Arcana/pull/2 (1.1.25-GTNH)
+
+# Updated - ServerUtilities - 2.1.55 --> 2.1.58-pre
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.55...2.1.58-pre
+
+## What's Changed:
+>* [Bug Fix] Ensure top panel buttons are refreshed when NBT structure changes by @glektarssza in https://github.com/GTNewHorizons/ServerUtilities/pull/221 (2.1.58-pre)
+>* [Bug Fix] Ensure top panel buttons are refreshed when NBT structure changes by @glektarssza in https://github.com/GTNewHorizons/ServerUtilities/pull/221 (2.1.57)
+
 # Updated - SpiceOfLife - 2.2.1-carrot --> 2.2.2-carrot
 **Full Changelog**: https://github.com/GTNewHorizons/SpiceOfLife/compare/2.2.1-carrot...2.2.2-carrot
 
@@ -489,10 +504,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix and port the new Localization message system and update AE2 dependency. by @NeOzay in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/43 (1.12.7)
 
-# Updated - WitchingGadgets - 1.7.10-GTNH --> 1.7.15-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.10-GTNH...1.7.15-GTNH-pre
+# Updated - WitchingGadgets - 1.7.10-GTNH --> 1.7.16-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.10-GTNH...1.7.16-GTNH
 
 ## What's Changed:
+>* add burn to native firestone cluster by @2ndDerivative in https://github.com/GTNewHorizons/WitchingGadgets/pull/80 (1.7.16-GTNH)
 >* Spotless apply for branch firestone for #80 by @github-actions[bot] in https://github.com/GTNewHorizons/WitchingGadgets/pull/81 (1.7.15-GTNH-pre)
 >* makes omni mode boost vertical flight speed for primordial boots by @Black-Noise in https://github.com/GTNewHorizons/WitchingGadgets/pull/79 (1.7.14-GTNH)
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/WitchingGadgets/pull/82 (1.7.13-GTNH)
@@ -505,4 +521,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/gendustry/pull/18 (1.9.4-GTNH)
 
 # Credits
-Special thanks to @0hwx, @Akeianova, @Alexdoru, @and-reas-se, @Black-Noise, @boubou19, @Caedis, @chrombread, @combusterf, @Connor-Colenso, @DylanTaylor1, @Eldrinn-Elantey, @GDCloudstrike, @github-actions[bot], @Glease, @jude123412, @koolkrafter5, @Kynake, @leagris, @NeOzay, @OmdaCZ, @PlayfulPiano, @RecursivePineapple, @sisyphussy, @slprime, @Taskeren, @TotallyNotOndre, @UltraProdigy, @Vlamonster, @wohaopa, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @2ndDerivative, @Akeianova, @Alexdoru, @and-reas-se, @Black-Noise, @boubou19, @Caedis, @chrombread, @combusterf, @Connor-Colenso, @DylanTaylor1, @Eldrinn-Elantey, @GDCloudstrike, @github-actions[bot], @Glease, @glektarssza, @jude123412, @koolkrafter5, @kuba6000, @Kynake, @leagris, @NeOzay, @Nikolay-Sitnikov, @OmdaCZ, @PlayfulPiano, @RecursivePineapple, @sisyphussy, @slprime, @Taskeren, @TotallyNotOndre, @UltraProdigy, @Vlamonster, @wohaopa, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
