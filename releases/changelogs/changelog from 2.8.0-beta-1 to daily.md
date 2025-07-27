@@ -1,14 +1,17 @@
-# Updated - AE2FluidCraft-Rework - 1.4.100-gtnh --> 1.4.103-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.100-gtnh...1.4.103-gtnh
+# Updated - AE2FluidCraft-Rework - 1.4.100-gtnh --> 1.4.106-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.100-gtnh...1.4.106-gtnh
 
 ## What's Changed:
+>* reduce p2p interface lags on bind and on pattern change by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/322 (1.4.106-gtnh)
+>* Update ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/318 (1.4.105-gtnh)
 >* fix event handler SPacketMEUpdateBuffer not being registered by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/320 (1.4.103-gtnh)
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/321 (1.4.102-gtnh)
 
-# Updated - AkashicTome - 1.2.4 --> 1.2.5
-**Full Changelog**: https://github.com/GTNewHorizons/AkashicTome/compare/1.2.4...1.2.5
+# Updated - AkashicTome - 1.2.4 --> 1.2.6
+**Full Changelog**: https://github.com/GTNewHorizons/AkashicTome/compare/1.2.4...1.2.6
 
 ## What's Changed:
+>* German translation by @2ndDerivative in https://github.com/GTNewHorizons/AkashicTome/pull/20 (1.2.6)
 >* Block incomplete versions of Witchery's vampire book from being included in the Akashic Tome by @Kynake in https://github.com/GTNewHorizons/AkashicTome/pull/19 (1.2.5)
 
 # Updated - Angelica - 1.0.0-beta49 --> 1.0.0-beta53
@@ -21,10 +24,14 @@ Mod is client-side only.
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/Angelica/pull/993 (1.0.0-beta51)
 >* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/991 (1.0.0-beta50)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-658-GTNH --> rv3-beta-665-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-658-GTNH...rv3-beta-665-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-658-GTNH --> rv3-beta-669-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-658-GTNH...rv3-beta-669-GTNH
 
 ## What's Changed:
+>* restores the display order of the Item Encoded Pattern to match the encoding order by @NeOzay in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/813 (rv3-beta-669-GTNH)
+>* fix search field reset in many situations by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/806 (rv3-beta-668-GTNH)
+>* reduce p2p interface lags on bind and on pattern change by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/804 (rv3-beta-668-GTNH)
+>* Update ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/790 (rv3-beta-668-GTNH)
 >* use EnumChatFormatting and not Realms enum to avoid crash by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/807 (rv3-beta-665-GTNH)
 >* UI improve wireless terminal tooltip readability by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/803 (rv3-beta-664-GTNH)
 >* fix a Visual bug when tool network is in inventory player #20037 by @NeOzay in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/800 (rv3-beta-664-GTNH)
@@ -108,10 +115,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/97 (1.6.11)
 
-# Updated - EnderIO - 2.9.18 --> 2.9.21
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.18...2.9.21
+# Updated - EnderIO - 2.9.18 --> 2.9.22
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.18...2.9.22
 
 ## What's Changed:
+>* fix NPE in BlockConduitBundle#onPlaySound by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/201 (2.9.22)
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/EnderIO/pull/200 (2.9.21)
 >* Break Dependency Chain by @koolkrafter5 in https://github.com/GTNewHorizons/EnderIO/pull/199 (2.9.19)
 
@@ -292,10 +300,17 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Cache Tessellator#instance in local var by @Alexdoru in https://github.com/GTNewHorizons/MrTJPCore/pull/10 (1.3.1)
 
-# Updated - NewHorizonsCoreMod - 2.7.223 --> 2.7.230
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.223...2.7.230
+# Updated - NewHorizonsCoreMod - 2.7.223 --> 2.7.232
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.223...2.7.232
 
 ## What's Changed:
+>* Fixes Slab Recipes by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1311 (2.7.232)
+>* Adds Recipes for EFR Pressure Plates & Buttons by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1312 (2.7.232)
+>* Gets Rid of Duplicate Tumbaga Recipes by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1315 (2.7.232)
+>* Fixes Recipe Conflict Between Armor Stand and Chisel by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1314 (2.7.232)
+>* Adds recipes for EFR boats & boats with chests by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1313 (2.7.232)
+>* EFR Copper Item Recipes by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1316 (2.7.232)
+>* divide by 20 the cost of the fluid for copper oxidation recipes by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1317 (2.7.232)
 >* EFR - Change / Add Sign Crafting & Assembler Recipes by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1302 (2.7.230)
 >* Adds Tumbaga Recipes to Alloy Smelter by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1307 (2.7.230)
 >* Update MOTD Banner by @DylanTaylor1 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1308 (2.7.229)
@@ -337,10 +352,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* update deps by @Alexdoru in https://github.com/GTNewHorizons/Postea/pull/14 (1.1.3)
 
-# Updated - ProjectRed - 4.11.5-GTNH --> 4.11.6-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.5-GTNH...4.11.6-GTNH
+# Updated - ProjectRed - 4.11.5-GTNH --> 4.11.8-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.5-GTNH...4.11.8-GTNH
 
 ## What's Changed:
+>* fix java.lang.VerifyError in tileicprinter by @Alexdoru in https://github.com/GTNewHorizons/ProjectRed/pull/47 (4.11.8-GTNH)
 >* Remove all non local returns and breaks for performance by @Glease in https://github.com/GTNewHorizons/ProjectRed/pull/45 (4.11.6-GTNH)
 
 # Updated - Railcraft - 9.16.30 --> 9.16.32
@@ -460,4 +476,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Speed up forge event registration by @boubou19 in https://github.com/GTNewHorizons/gendustry/pull/18 (1.9.4-GTNH)
 
 # Credits
-Special thanks to @0hwx, @2ndDerivative, @Akeianova, @Alexdoru, @and-reas-se, @Black-Noise, @boubou19, @Caedis, @chrombread, @combusterf, @Connor-Colenso, @DylanTaylor1, @Eldrinn-Elantey, @GDCloudstrike, @Glease, @glektarssza, @jude123412, @koolkrafter5, @kuba6000, @Kynake, @leagris, @Miklebe, @NeOzay, @Nikolay-Sitnikov, @OmdaCZ, @PlayfulPiano, @RecursivePineapple, @sisyphussy, @slprime, @Taskeren, @TotallyNotOndre, @UltraProdigy, @Vlamonster, @wohaopa, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @2ndDerivative, @Akeianova, @Alexdoru, @and-reas-se, @Black-Noise, @boubou19, @Caedis, @chrombread, @combusterf, @Connor-Colenso, @DylanTaylor1, @Eldrinn-Elantey, @GDCloudstrike, @Glease, @glektarssza, @jude123412, @koolkrafter5, @kuba6000, @Kynake, @lc-1337, @leagris, @Miklebe, @NeOzay, @Nikolay-Sitnikov, @OmdaCZ, @PlayfulPiano, @RecursivePineapple, @sisyphussy, @slprime, @Taskeren, @TotallyNotOndre, @UltraProdigy, @Vlamonster, @wohaopa, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-27T04:17:03.415069",
+  "last_updated": "2025-07-27T10:17:19.845437",
   "config": "2.8.0-nightly-2025-07-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.103-gtnh",
+      "version": "1.4.106-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-665-GTNH",
+      "version": "rv3-beta-669-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.21",
+      "version": "2.9.22",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.230",
+      "version": "2.7.232",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.11.6-GTNH",
+      "version": "4.11.8-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -741,7 +741,7 @@
       "side": "CLIENT"
     },
     "AkashicTome": {
-      "version": "1.2.5",
+      "version": "1.2.6",
       "side": "BOTH"
     },
     "Navigator": {
