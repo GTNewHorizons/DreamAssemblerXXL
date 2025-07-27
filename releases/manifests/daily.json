@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-26T04:09:29.734574",
-  "config": "2.8.0-nightly-2025-07-24-1",
+  "last_updated": "2025-07-27T04:17:03.415069",
+  "config": "2.8.0-nightly-2025-07-26",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.414",
+      "version": "5.09.51.418",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.66-GTNH",
+      "version": "2.7.69-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.7.14-GTNH",
+      "version": "1.7.16-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.55",
+      "version": "2.1.57",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.47-GTNH",
+      "version": "1.2.51-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.24-GTNH",
+      "version": "1.1.25-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
