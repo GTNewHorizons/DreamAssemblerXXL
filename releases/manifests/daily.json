@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-07-29T04:28:59.991411",
+  "last_updated": "2025-07-30T04:15:39.939975",
   "config": "2.8.0-nightly-2025-07-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.11.18-GTNH",
+      "version": "1.11.21-GTNH",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.419",
+      "version": "5.09.51.420",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.7",
+      "version": "1.7.9",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.7.16-GTNH",
+      "version": "1.7.18-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -681,7 +681,7 @@
       "side": "BOTH"
     },
     "Tainted-Magic": {
-      "version": "7.6.23-GTNH",
+      "version": "7.6.25-GTNH",
       "side": "BOTH"
     },
     "lwjgl3ify": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
-      "version": "0.4.2-GTNH",
+      "version": "0.4.3-GTNH",
       "side": "CLIENT"
     },
     "AlchemyGrate": {
@@ -717,7 +717,7 @@
       "side": "CLIENT"
     },
     "ThaumicBoots": {
-      "version": "1.4.11",
+      "version": "1.4.13",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.6.38",
+      "version": "1.6.39",
       "side": "BOTH"
     },
     "AE2NoUltimatePatterns": {
