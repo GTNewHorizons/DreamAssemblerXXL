@@ -1,7 +1,7 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2025-08-03T04:30:02.448902",
+  "last_version": "2.7.4",
+  "last_updated": "2025-08-03T15:24:07.623811",
   "config": "2.8.0-nightly-2025-07-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -832,7 +832,7 @@
     },
     "Thaumcraft NEI Plugin": {
       "version": "1.7a",
-      "side": "CLIENT"
+      "side": "BOTH"
     },
     "Pam's Harvest the Nether": {
       "version": "1.7.10a",
