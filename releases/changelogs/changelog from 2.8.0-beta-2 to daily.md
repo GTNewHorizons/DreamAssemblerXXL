@@ -1,3 +1,18 @@
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-669-GTNH --> rv3-beta-671-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-669-GTNH...rv3-beta-671-GTNH
+
+## What's Changed:
+>* Fix slab names by @koolkrafter5 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/816 (rv3-beta-671-GTNH)
+>* Fix for crafting to complete correctly by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/817 (rv3-beta-671-GTNH)
+>* Add `ItemImmutableList` for immutable item collection management by @NeOzay in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/808 (rv3-beta-671-GTNH)
+
+# Updated - Avaritiaddons - 1.9.0-GTNH --> 1.9.1-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritiaddons/compare/1.9.0-GTNH...1.9.1-GTNH
+
+## What's Changed:
+>* speed up isSameItem by @Alexdoru in https://github.com/GTNewHorizons/Avaritiaddons/pull/18 (1.9.1-GTNH)
+>* german translation by @2ndDerivative in https://github.com/GTNewHorizons/Avaritiaddons/pull/17 (1.9.1-GTNH)
+
 # Updated - Backhand - 1.6.38 --> 1.6.39
 **Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.38...1.6.39
 
@@ -12,11 +27,24 @@ Mod is client-side only.
 ## What's Changed:
 >* add german translation by @2ndDerivative in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/5 (0.4.3-GTNH)
 
-# Updated - Botanic-horizons - 1.11.18-GTNH --> 1.11.21-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.11.18-GTNH...1.11.21-GTNH
+# Updated - Botanic-horizons - 1.11.18-GTNH --> 1.11.22-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.11.18-GTNH...1.11.22-GTNH
 
 ## What's Changed:
+>* Fix: Orientation bugs by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/38 (1.11.22-GTNH)
 >* feature: Add custom tooltips to BH multiblocks by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/36 (1.11.21-GTNH)
+
+# Updated - Chisel - 2.16.8-GTNH --> 2.16.11-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.16.8-GTNH...2.16.11-GTNH
+
+## What's Changed:
+>* Move Snakestone head and body blocks into the Smooth Stone chisel group by @Kynake in https://github.com/GTNewHorizons/Chisel/pull/64 (2.16.11-GTNH)
+
+# Updated - Electro-Magic-Tools - 1.6.11 --> 1.6.12
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.11...1.6.12
+
+## What's Changed:
+>* Fix solar panel draining Thaumcraft node twice by @TimeConqueror in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/98 (1.6.12)
 
 # Updated - GT5-Unofficial - 5.09.51.418 --> 5.09.51.420
 **Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.418...5.09.51.420
@@ -44,6 +72,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - MrTJPCore - 1.3.1 --> 1.3.2
+**Full Changelog**: https://github.com/GTNewHorizons/MrTJPCore/compare/1.3.1...1.3.2
+
+## What's Changed:
+>* Delete DepLoader and declare depency properly by @Alexdoru in https://github.com/GTNewHorizons/MrTJPCore/pull/11 (1.3.2)
+
 # Updated - NewHorizonsCoreMod - 2.7.232 --> 2.7.233
 **Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.232...2.7.233
 
@@ -62,17 +96,46 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix infinite loops in TileICPrinter by @Alexdoru in https://github.com/GTNewHorizons/ProjectRed/pull/48 (4.11.9-GTNH)
 
+# Updated - Salis-Arcana - 1.1.25-GTNH --> 1.1.26-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.25-GTNH...1.1.26-GTNH
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - StructureLib - 1.4.15 --> 1.4.18
+**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.15...1.4.18
+
+## What's Changed:
+>* Add preset IAlignmentLimits constants. by @AbdielKavash in https://github.com/GTNewHorizons/StructureLib/pull/43 (1.4.18)
+
 # Updated - Tainted-Magic - 7.6.23-GTNH --> 7.6.25-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.23-GTNH...7.6.25-GTNH
 
 ## What's Changed:
 >* Fix Omni Mode Server Crash by @koolkrafter5 in https://github.com/GTNewHorizons/Tainted-Magic/pull/38 (7.6.25-GTNH)
 
+# Updated - Thaumcraft NEI Plugin - 1.7a --> 1.7a
+Mod side changed from client-side only to on both sides.
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - ThaumicBoots - 1.4.11 --> 1.4.13
 **Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.11...1.4.13
 
 ## What's Changed:
 >* Fix Omni Mode Server Crash by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBoots/pull/42 (1.4.13)
+
+# Updated - Thaumic_Exploration - 1.4.2-GTNH --> 1.4.3-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.2-GTNH...1.4.3-GTNH
+
+## What's Changed:
+>* Update dependencies.gradle by @Dream-Master in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/42 (1.4.3-GTNH)
+>* Delete legacy dependency file by @Alexdoru in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/43 (1.4.3-GTNH)
+
+# Updated - TinkersConstruct - 1.13.46-GTNH --> 1.13.48-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.46-GTNH...1.13.48-GTNH
+
+## What's Changed:
+>* German translation typo fixes and improvements by @2ndDerivative in https://github.com/GTNewHorizons/TinkersConstruct/pull/197 (1.13.48-GTNH)
+>* Allow Ammo in Bauble Slots by @koolkrafter5 in https://github.com/GTNewHorizons/TinkersConstruct/pull/189 (1.13.48-GTNH)
 
 # Updated - WitchingGadgets - 1.7.16-GTNH --> 1.7.18-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.16-GTNH...1.7.18-GTNH
@@ -82,4 +145,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix server crash introduced by #79 by @Alexdoru in https://github.com/GTNewHorizons/WitchingGadgets/pull/83 (1.7.17-GTNH)
 
 # Credits
-Special thanks to @2ndDerivative, @54M44R, @Alexdoru, @chrombread, @combusterf, @glektarssza, @koolkrafter5, @leagris, @slprime, @UltraProdigy, @Vlamonster, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @2ndDerivative, @54M44R, @AbdielKavash, @Alexdoru, @chrombread, @combusterf, @Dream-Master, @glektarssza, @Kogepan229, @koolkrafter5, @Kynake, @leagris, @NeOzay, @slprime, @TimeConqueror, @UltraProdigy, @Vlamonster, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
