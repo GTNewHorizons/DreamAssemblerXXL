@@ -52,6 +52,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix solar panel draining Thaumcraft node twice by @TimeConqueror in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/98 (1.6.12)
 
+# Updated - Et-Futurum-Requiem - 2.6.2.19-GTNH-daily --> 2.6.2.21-GTNH-daily
+**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.19-GTNH-daily...2.6.2.21-GTNH-daily
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - GT5-Unofficial - 5.09.51.418 --> 5.09.51.422
 **Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.418...5.09.51.422
 
