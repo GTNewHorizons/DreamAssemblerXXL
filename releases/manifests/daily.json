@@ -1,7 +1,7 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2025-08-09T04:02:00.991987",
+  "last_version": "2.7.4",
+  "last_updated": "2025-08-09T08:25:16.153943",
   "config": "2.8.0-nightly-2025-08-08",
   "github_mods": {
     "AdventureBackpack2": {
@@ -490,7 +490,7 @@
     },
     "TCNEIAdditions": {
       "version": "1.5.1",
-      "side": "CLIENT"
+      "side": "BOTH"
     },
     "TCNodeTracker": {
       "version": "1.4.0",
