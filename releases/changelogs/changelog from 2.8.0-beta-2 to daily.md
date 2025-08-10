@@ -87,10 +87,22 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* add public getters to use in gt5u by @Alexdoru in https://github.com/GTNewHorizons/ForestryMC/pull/100 (4.10.17)
 
-# Updated - GT5-Unofficial - 5.09.51.418 --> 5.09.51.424
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.418...5.09.51.424
+# Updated - GT5-Unofficial - 5.09.51.418 --> 5.09.51.426
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.418...5.09.51.426
 
 ## What's Changed:
+>* Add padding when rendering recipe percentage in GT MTE GUIs by @SKProCH in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4698 (5.09.51.426)
+>* Fix localization for red mushroom seeds by @DarkShadow44 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4701 (5.09.51.426)
+>* Changed Simple Sterling Water Pump to use oredict by @mattva01 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4699 (5.09.51.426)
+>* hotfix(render): Gregtech Coil blocks don't render on GT5u by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4706 (5.09.51.426)
+>* fix(render): correct inventory lighting by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4709 (5.09.51.426)
+>* Enhanced command suggestion of `/gt` by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4695 (5.09.51.426)
+>* Muffler Upgrade fix. Fixes issue #20516 by @Leeman92 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4704 (5.09.51.426)
+>* Fixes NEI Alternate Display Input Cycling by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4708 (5.09.51.426)
+>* Speedup getBaseMetaTileEntity() by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4713 (5.09.51.426)
+>* delete mixin accessors targeting Forestry by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4714 (5.09.51.426)
+>* Better Draconium, Awakened Draconium and Cosmic Neutronium Ore Textures by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4702 (5.09.51.426)
+>* delete mixin accessors targeting Forestry by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4714 (5.09.51.425)
 >* Speedup getBaseMetaTileEntity() by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4713 (5.09.51.424)
 >* Add padding when rendering recipe percentage in GT MTE GUIs by @SKProCH in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4698 (5.09.51.423)
 >* Fix localization for red mushroom seeds by @DarkShadow44 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4701 (5.09.51.423)
@@ -134,6 +146,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Deprecate the Tool Casting Machine by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4657 (5.09.51.419)
 >* Unify Fission Fuels by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4427 (5.09.51.419)
 
+# Updated - Galaxy-Space-GTNH - 1.1.116-GTNH --> 1.1.117-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.116-GTNH...1.1.117-GTNH
+
+## What's Changed:
+>* fix: Convert Chunk coordinates to world-coordinates before accessing / setting the block by @Leeman92 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/131 (1.1.117-GTNH)
+
 # Updated - IFU - 1.11.1 --> 1.11.2
 **Full Changelog**: https://github.com/GTNewHorizons/IFU/compare/1.11.1...1.11.2
 
@@ -162,10 +180,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Delete DepLoader and declare depency properly by @Alexdoru in https://github.com/GTNewHorizons/MrTJPCore/pull/11 (1.3.2)
 
-# Updated - NewHorizonsCoreMod - 2.7.232 --> 2.7.234
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.232...2.7.234
+# Updated - NewHorizonsCoreMod - 2.7.232 --> 2.7.236
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.232...2.7.236
 
 ## What's Changed:
+>* Add deepslate dust by @RecursivePineapple in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1325 (2.7.236)
+>* EFR Shulker Recipes by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1320 (2.7.236)
 >* Tank Cart Recipe Fix by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1318 (2.7.234)
 >* Convert Travellers Gear armor stands to a chest by @koolkrafter5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1310 (2.7.234)
 >* GC Raw Meteoric Iron OreDict by @jude123412 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1321 (2.7.234)
@@ -203,6 +223,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Add preset IAlignmentLimits constants. by @AbdielKavash in https://github.com/GTNewHorizons/StructureLib/pull/43 (1.4.18)
 
+# Updated - TCNEIAdditions - 1.5.1 --> 1.5.1
+Mod side changed from client-side only to on both sides.
+**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.5.1...1.5.1
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - Tainted-Magic - 7.6.23-GTNH --> 7.6.25-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.23-GTNH...7.6.25-GTNH
 
@@ -247,4 +273,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix server crash introduced by #79 by @Alexdoru in https://github.com/GTNewHorizons/WitchingGadgets/pull/83 (1.7.17-GTNH)
 
 # Credits
-Special thanks to @2ndDerivative, @54M44R, @AbdielKavash, @Alexdoru, @chrombread, @combusterf, @DarkShadow44, @Dream-Master, @glektarssza, @GTNH-Afx237v7, @HFPTetraUro, @jude123412, @Kogepan229, @koolkrafter5, @Kynake, @lc-1337, @leagris, @Leeman92, @LukasKlenner, @mattva01, @Miklebe, @NeOzay, @SKProCH, @slprime, @Taskeren, @TimeConqueror, @UltraProdigy, @Vlamonster, @VortexSo4, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @2ndDerivative, @54M44R, @AbdielKavash, @Alexdoru, @chrombread, @combusterf, @DarkShadow44, @Dream-Master, @glektarssza, @GTNH-Afx237v7, @HFPTetraUro, @jude123412, @Kogepan229, @koolkrafter5, @Kynake, @lc-1337, @leagris, @Leeman92, @LukasKlenner, @mattva01, @Miklebe, @NeOzay, @RecursivePineapple, @SKProCH, @slprime, @Taskeren, @TimeConqueror, @UltraProdigy, @Vlamonster, @VortexSo4, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
