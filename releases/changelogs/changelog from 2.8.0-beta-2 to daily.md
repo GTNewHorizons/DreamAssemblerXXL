@@ -7,6 +7,14 @@
 >* German translation by @2ndDerivative in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/325 (1.4.108-gtnh)
 >* shows Items|Fluids storage disks with NEI search inventories mode of Search Field by @NeOzay in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/324 (1.4.108-gtnh)
 
+# Updated - Angelica - 1.0.0-beta53 --> 1.0.0-beta54
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta53...1.0.0-beta54
+
+## What's Changed:
+>* German translation by @2ndDerivative in https://github.com/GTNewHorizons/Angelica/pull/997 (1.0.0-beta54)
+>* Remove access transformer to invoke EntityRenderer#getNightVisionBrightness by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/1001 (1.0.0-beta54)
+
 # Updated - Applied-Energistics-2-Unofficial - rv3-beta-669-GTNH --> rv3-beta-671-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-669-GTNH...rv3-beta-671-GTNH
 
@@ -146,6 +154,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Deprecate the Tool Casting Machine by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4657 (5.09.51.419)
 >* Unify Fission Fuels by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4427 (5.09.51.419)
 
+# Updated - GTNHLib - 0.6.38 --> 0.6.39
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.38...0.6.39
+
+## What's Changed:
+>* Fix ASMUtil with multiple class loaders by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/165 (0.6.39)
+
 # Updated - Galaxy-Space-GTNH - 1.1.116-GTNH --> 1.1.117-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.116-GTNH...1.1.117-GTNH
 
@@ -164,8 +178,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Revert change that accidentally got included by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/20 (1.5.12-GTNH)
 
-# Updated - MatterManipulator - 0.0.39-GTNH --> 0.0.41-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.39-GTNH...0.0.41-GTNH
+# Updated - MatterManipulator - 0.0.39-GTNH --> 0.0.43-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.39-GTNH...0.0.43-GTNH
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.

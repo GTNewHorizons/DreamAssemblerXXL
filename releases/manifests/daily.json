@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-08-10T04:14:37.720341",
+  "last_updated": "2025-08-11T04:15:51.929624",
   "config": "2.8.0-nightly-2025-08-09",
   "github_mods": {
     "AdventureBackpack2": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.6.38",
+      "version": "0.6.39",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta53",
+      "version": "1.0.0-beta54",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -765,7 +765,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.0.41-GTNH",
+      "version": "0.0.43-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
