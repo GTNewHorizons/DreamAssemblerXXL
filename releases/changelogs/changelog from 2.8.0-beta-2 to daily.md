@@ -66,10 +66,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Move Snakestone head and body blocks into the Smooth Stone chisel group by @Kynake in https://github.com/GTNewHorizons/Chisel/pull/64 (2.16.11-GTNH)
 
-# Updated - CodeChickenCore - 1.4.3 --> 1.4.5
-**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.4.3...1.4.5
+# Updated - CodeChickenCore - 1.4.3 --> 1.4.7
+**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.4.3...1.4.7
 
 ## What's Changed:
+>* further empty DepLoader by @Alexdoru in https://github.com/GTNewHorizons/CodeChickenCore/pull/34 (1.4.7)
+>* Delete DepLoader entirely by @Alexdoru in https://github.com/GTNewHorizons/CodeChickenCore/pull/35 (1.4.7)
 >* Speedup ClassDiscoverer by using ClassReader.SKIP_CODE by @Alexdoru in https://github.com/GTNewHorizons/CodeChickenCore/pull/33 (1.4.5)
 
 # Updated - DummyCore - 1.19.0 --> 1.20.0
@@ -94,6 +96,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 >* add public getters to use in gt5u by @Alexdoru in https://github.com/GTNewHorizons/ForestryMC/pull/100 (4.10.17)
+
+# Updated - ForgeMultipart - 1.6.7 --> 1.6.8
+**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.6.7...1.6.8
+
+## What's Changed:
+>* Delete DepLoader and declare depency properly by @Alexdoru in https://github.com/GTNewHorizons/ForgeMultipart/pull/31 (1.6.8)
 
 # Updated - GT5-Unofficial - 5.09.51.418 --> 5.09.51.426
 **Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.418...5.09.51.426
@@ -160,11 +168,33 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix ASMUtil with multiple class loaders by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/165 (0.6.39)
 
-# Updated - Galaxy-Space-GTNH - 1.1.116-GTNH --> 1.1.117-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.116-GTNH...1.1.117-GTNH
+# Updated - Galacticraft - 3.3.10-GTNH --> 3.3.11-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.3.10-GTNH...3.3.11-GTNH
 
 ## What's Changed:
+>* Rework donor capes by @Alexdoru in https://github.com/GTNewHorizons/Galacticraft/pull/110 (3.3.11-GTNH)
+
+# Updated - Galaxy-Space-GTNH - 1.1.116-GTNH --> 1.1.118-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.116-GTNH...1.1.118-GTNH
+
+## What's Changed:
+>* Draft: Treat NULL Blocks in WorldGen as Air Blocks by @Leeman92 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/132 (1.1.118-GTNH)
+>* Rework donor capes by @Alexdoru in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/133 (1.1.118-GTNH)
 >* fix: Convert Chunk coordinates to world-coordinates before accessing / setting the block by @Leeman92 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/131 (1.1.117-GTNH)
+
+# Updated - Hodgepodge - 2.6.96 --> 2.6.97
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.96...2.6.97
+
+## What's Changed:
+>* Add IC2 reactor size caching to reduce lag by @kuba6000 in https://github.com/GTNewHorizons/Hodgepodge/pull/590 (2.6.97)
+>* Log when failing to remove tick from ticklist by @DarkShadow44 in https://github.com/GTNewHorizons/Hodgepodge/pull/594 (2.6.97)
+>* Update zh_CN.lang by @Omgise in https://github.com/GTNewHorizons/Hodgepodge/pull/538 (2.6.97)
+>* Fix shift clicking leading to ghost items by @DarkShadow44 in https://github.com/GTNewHorizons/Hodgepodge/pull/593 (2.6.97)
+>* Cache last matching crafting recipe by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/596 (2.6.97)
+>* Better Night Vision Fading by @RecursivePineapple in https://github.com/GTNewHorizons/Hodgepodge/pull/598 (2.6.97)
+>* fix thaumcraft check for ee3 by @Pilzinsel64 in https://github.com/GTNewHorizons/Hodgepodge/pull/600 (2.6.97)
+>* Fix House Character Rendering by @glowredman in https://github.com/GTNewHorizons/Hodgepodge/pull/597 (2.6.97)
+>* Fix night vision mixin crash with forge AT by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/603 (2.6.97)
 
 # Updated - IFU - 1.11.1 --> 1.11.2
 **Full Changelog**: https://github.com/GTNewHorizons/IFU/compare/1.11.1...1.11.2
@@ -220,11 +250,18 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Allow handlers to hide the favorite and overlay buttons via IMC by @koolkrafter5 in https://github.com/GTNewHorizons/NotEnoughItems/pull/678 (2.7.72-GTNH)
 >* Allowed fill crafting grid without all ingredients by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/693 (2.7.72-GTNH)
 
-# Updated - ProjectRed - 4.11.8-GTNH --> 4.11.9-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.8-GTNH...4.11.9-GTNH
+# Updated - ProjectRed - 4.11.8-GTNH --> 4.11.11-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.8-GTNH...4.11.11-GTNH
 
 ## What's Changed:
+>* Partial revert of #45, #47 and #48 by @Alexdoru in https://github.com/GTNewHorizons/ProjectRed/pull/49 (4.11.11-GTNH)
 >* fix infinite loops in TileICPrinter by @Alexdoru in https://github.com/GTNewHorizons/ProjectRed/pull/48 (4.11.9-GTNH)
+
+# Updated - SC2 - 2.3.11 --> 2.3.12
+**Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.11...2.3.12
+
+## What's Changed:
+>* Metal Textures by @koolkrafter5 in https://github.com/GTNewHorizons/SC2/pull/15 (2.3.12)
 
 # Updated - Salis-Arcana - 1.1.25-GTNH --> 1.1.27-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.25-GTNH...1.1.27-GTNH
@@ -279,6 +316,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* upd(render): add support for ore icon overlay by @leagris in https://github.com/GTNewHorizons/VisualProspecting/pull/70 (1.4.7)
 
+# Updated - WitcheryExtras - 1.3.1 --> 1.3.3
+**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.3.1...1.3.3
+
+## What's Changed:
+>* Replace ASM with mixins + cleanup mod by @Alexdoru in https://github.com/GTNewHorizons/WitcheryExtras/pull/27 (1.3.3)
+
 # Updated - WitchingGadgets - 1.7.16-GTNH --> 1.7.18-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.16-GTNH...1.7.18-GTNH
 
@@ -286,5 +329,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Use the mixin accessor from thaumic boots by @Alexdoru in https://github.com/GTNewHorizons/WitchingGadgets/pull/85 (1.7.18-GTNH)
 >* fix server crash introduced by #79 by @Alexdoru in https://github.com/GTNewHorizons/WitchingGadgets/pull/83 (1.7.17-GTNH)
 
+# Updated - twilightforest - 2.7.8 --> 2.7.9
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.8...2.7.9
+
+## What's Changed:
+>* Fix ingot textures being too high by @koolkrafter5 in https://github.com/GTNewHorizons/twilightforest/pull/119 (2.7.9)
+
 # Credits
-Special thanks to @2ndDerivative, @54M44R, @AbdielKavash, @Alexdoru, @chrombread, @combusterf, @DarkShadow44, @Dream-Master, @glektarssza, @GTNH-Afx237v7, @HFPTetraUro, @jude123412, @Kogepan229, @koolkrafter5, @Kynake, @lc-1337, @leagris, @Leeman92, @LukasKlenner, @mattva01, @Miklebe, @NeOzay, @RecursivePineapple, @SKProCH, @slprime, @Taskeren, @TimeConqueror, @UltraProdigy, @Vlamonster, @VortexSo4, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @2ndDerivative, @54M44R, @AbdielKavash, @Alexdoru, @chrombread, @combusterf, @DarkShadow44, @Dream-Master, @glektarssza, @glowredman, @GTNH-Afx237v7, @HFPTetraUro, @jude123412, @Kogepan229, @koolkrafter5, @kuba6000, @Kynake, @lc-1337, @leagris, @Leeman92, @LukasKlenner, @mattva01, @Miklebe, @NeOzay, @Omgise, @Pilzinsel64, @RecursivePineapple, @SKProCH, @slprime, @Taskeren, @TimeConqueror, @UltraProdigy, @Vlamonster, @VortexSo4, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
