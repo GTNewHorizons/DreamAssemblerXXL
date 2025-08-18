@@ -52,10 +52,11 @@ Mod is client-side only.
 >* speed up isSameItem by @Alexdoru in https://github.com/GTNewHorizons/Avaritiaddons/pull/18 (1.9.1-GTNH)
 >* german translation by @2ndDerivative in https://github.com/GTNewHorizons/Avaritiaddons/pull/17 (1.9.1-GTNH)
 
-# Updated - Backhand - 1.6.38 --> 1.6.39
-**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.38...1.6.39
+# Updated - Backhand - 1.6.38 --> 1.6.40
+**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.6.38...1.6.40
 
 ## What's Changed:
+>* Fix double right-clicks + TiC Block Placement by @sisyphussy in https://github.com/GTNewHorizons/Backhand/pull/138 (1.6.40)
 >* German translation by @2ndDerivative in https://github.com/GTNewHorizons/Backhand/pull/135 (1.6.39)
 >* [Chore] Update GTNH buildscripts by @glektarssza in https://github.com/GTNewHorizons/Backhand/pull/136 (1.6.39)
 
