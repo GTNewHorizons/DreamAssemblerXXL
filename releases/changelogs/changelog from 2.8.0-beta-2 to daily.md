@@ -347,10 +347,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Update dependencies due to API Change in Forestry and GT5u by @Leeman92 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/49 (1.7.11)
 >* Always Fill Crafting Terminal by @slprime in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/48 (1.7.9)
 
-# Updated - NotEnoughItems - 2.7.69-GTNH --> 2.7.75-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.69-GTNH...2.7.75-GTNH
+# Updated - NotEnoughItems - 2.7.69-GTNH --> 2.7.76-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.69-GTNH...2.7.76-GTNH
 
 ## What's Changed:
+>* Strict Item Identify Format by @koolkrafter5 in https://github.com/GTNewHorizons/NotEnoughItems/pull/697 (2.7.76-GTNH)
 >* Custom Subsets in config; RecipeId Command by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/691 (2.7.75-GTNH)
 >* Loading items after the player to ensure the hint cache works correctly in some mods by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/687 (2.7.74-GTNH)
 >* Information Handler by @koolkrafter5 in https://github.com/GTNewHorizons/NotEnoughItems/pull/695 (2.7.74-GTNH)
