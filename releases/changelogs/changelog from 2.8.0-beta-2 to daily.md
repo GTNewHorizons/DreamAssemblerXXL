@@ -317,10 +317,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - MrTJPCore - 1.3.1 --> 1.3.2
-**Full Changelog**: https://github.com/GTNewHorizons/MrTJPCore/compare/1.3.1...1.3.2
+# Updated - MrTJPCore - 1.3.1 --> 1.3.3
+**Full Changelog**: https://github.com/GTNewHorizons/MrTJPCore/compare/1.3.1...1.3.3
 
 ## What's Changed:
+>* fix thread safety issue in renderWorldBlock by @FalsePattern in https://github.com/GTNewHorizons/MrTJPCore/pull/12 (1.3.3)
 >* Delete DepLoader and declare depency properly by @Alexdoru in https://github.com/GTNewHorizons/MrTJPCore/pull/11 (1.3.2)
 
 # Updated - NewHorizonsCoreMod - 2.7.232 --> 2.7.238
@@ -469,4 +470,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix ingot textures being too high by @koolkrafter5 in https://github.com/GTNewHorizons/twilightforest/pull/119 (2.7.9)
 
 # Credits
-Special thanks to @2ndDerivative, @54M44R, @AbdielKavash, @Alexdoru, @Blackcloud010, @C-Remilian, @Cardinalstars, @chrombread, @combusterf, @DarkShadow44, @Dream-Master, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @Flakxo, @glektarssza, @glowredman, @GTNH-Afx237v7, @HFPTetraUro, @jude123412, @KenzoWVY, @Kogepan229, @koolkrafter5, @kuba6000, @Kynake, @lc-1337, @leagris, @Leeman92, @LukasKlenner, @mattva01, @Miklebe, @mM4ri, @NeOzay, @Omgise, @Pilzinsel64, @Pxx500, @RecursivePineapple, @RubilaxXxx, @sisyphussy, @SKProCH, @slprime, @SST-03, @Taskeren, @TimeConqueror, @UltraProdigy, @Vlamonster, @VortexSo4, @Worive, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @2ndDerivative, @54M44R, @AbdielKavash, @Alexdoru, @Blackcloud010, @C-Remilian, @Cardinalstars, @chrombread, @combusterf, @DarkShadow44, @Dream-Master, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @FalsePattern, @Flakxo, @glektarssza, @glowredman, @GTNH-Afx237v7, @HFPTetraUro, @jude123412, @KenzoWVY, @Kogepan229, @koolkrafter5, @kuba6000, @Kynake, @lc-1337, @leagris, @Leeman92, @LukasKlenner, @mattva01, @Miklebe, @mM4ri, @NeOzay, @Omgise, @Pilzinsel64, @Pxx500, @RecursivePineapple, @RubilaxXxx, @sisyphussy, @SKProCH, @slprime, @SST-03, @Taskeren, @TimeConqueror, @UltraProdigy, @Vlamonster, @VortexSo4, @Worive, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
