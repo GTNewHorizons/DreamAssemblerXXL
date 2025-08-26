@@ -33,10 +33,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Use better identification method to apply the codechicken mixin by @Alexdoru in https://github.com/GTNewHorizons/AppleCore/pull/35 (3.3.7)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-669-GTNH --> rv3-beta-676-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-669-GTNH...rv3-beta-676-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-669-GTNH --> rv3-beta-677-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-669-GTNH...rv3-beta-677-GTNH
 
 ## What's Changed:
+>* Remove debug log by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/832 (rv3-beta-677-GTNH)
 >* Show Correctly Required Power in SpatialIO by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/828 (rv3-beta-676-GTNH)
 >* Limiting installation one void and distribution card by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/826 (rv3-beta-676-GTNH)
 >* Fix Cell Workbench DragNDrop by @slprime in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/830 (rv3-beta-676-GTNH)
@@ -193,10 +194,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Delete legacy dep file + properly register IFMLLoadingPlugin by @Alexdoru in https://github.com/GTNewHorizons/ForgeRelocation/pull/10 (0.3.4)
 
-# Updated - GT5-Unofficial - 5.09.51.418 --> 5.09.51.429
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.418...5.09.51.429
+# Updated - GT5-Unofficial - 5.09.51.418 --> 5.09.51.430
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.418...5.09.51.430
 
 ## What's Changed:
+>* Power goggles refactor part 1 by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4779 (5.09.51.430)
+>* Tooltip Reworks Part 2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4767 (5.09.51.430)
+>* Fix issue where ME outputs can end up with 0 capacity when broken with any cover attached by @lynxx131 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4762 (5.09.51.430)
+>* Change default textures of OVERLAY_PIPE_COLORS array by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4747 (5.09.51.430)
 >* impr(render): reuse SBR contexts instead of creating new instances by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4734 (5.09.51.429)
 >* Make Multi Solidifier follow shouldBeCached by @zyf051520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4744 (5.09.51.429)
 >* Lower minimum casings on IndustrialMixer by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4753 (5.09.51.429)
@@ -550,10 +555,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* [Improvement to #25] Add 3x3 Altar Size by @sisyphussy in https://github.com/GTNewHorizons/WitcheryExtras/pull/26 (1.3.6)
 >* Replace ASM with mixins + cleanup mod by @Alexdoru in https://github.com/GTNewHorizons/WitcheryExtras/pull/27 (1.3.3)
 
-# Updated - WitchingGadgets - 1.7.16-GTNH --> 1.7.20-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.16-GTNH...1.7.20-GTNH
+# Updated - WitchingGadgets - 1.7.16-GTNH --> 1.7.21-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.16-GTNH...1.7.21-GTNH
 
 ## What's Changed:
+>* Switch to MV parts by @ah-OOG-ah in https://github.com/GTNewHorizons/WitchingGadgets/pull/89 (1.7.21-GTNH)
 >* Fix Gem Cluster Sifting Percentages by @UltraProdigy in https://github.com/GTNewHorizons/WitchingGadgets/pull/88 (1.7.20-GTNH)
 >* Ethereal wall fixes by @DarkShadow44 in https://github.com/GTNewHorizons/WitchingGadgets/pull/86 (1.7.20-GTNH)
 >* Fix Item Dupe by @sisyphussy in https://github.com/GTNewHorizons/WitchingGadgets/pull/87 (1.7.19-GTNH)
@@ -575,4 +581,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix ingot textures being too high by @koolkrafter5 in https://github.com/GTNewHorizons/twilightforest/pull/119 (2.7.9)
 
 # Credits
-Special thanks to @2ndDerivative, @54M44R, @AbdielKavash, @ABKQPO, @Ableytner, @Alexdoru, @Blackcloud010, @C-Remilian, @Cardinalstars, @chrombread, @combusterf, @cubefury, @DarkShadow44, @Dream-Master, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @FalsePattern, @Flakxo, @FrostyFire1, @Georggi, @glektarssza, @glowredman, @GTNH-Afx237v7, @HFPTetraUro, @jude123412, @KenzoWVY, @Kogepan229, @koolkrafter5, @kotmatross28729, @kuba6000, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @Leeman92, @LukasKlenner, @lynxx131, @mattva01, @Miklebe, @mitchej123, @mM4ri, @NeOzay, @Nockyx, @Omgise, @Pilzinsel64, @Pxx500, @Ranzuu, @RecursivePineapple, @rspforhp, @RubilaxXxx, @sbwaz, @Shinusei, @sisyphussy, @SKProCH, @slprime, @SST-03, @Taskeren, @TimeConqueror, @UltraProdigy, @Vlamonster, @VortexSo4, @Worive, @YaGirlAlexhupp, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @2ndDerivative, @54M44R, @AbdielKavash, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @Blackcloud010, @C-Remilian, @Cardinalstars, @chrombread, @combusterf, @cubefury, @DarkShadow44, @Dream-Master, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @FalsePattern, @Flakxo, @FrostyFire1, @Georggi, @glektarssza, @glowredman, @GTNH-Afx237v7, @HFPTetraUro, @jude123412, @KenzoWVY, @Kogepan229, @koolkrafter5, @kotmatross28729, @kuba6000, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @Leeman92, @LukasKlenner, @lynxx131, @mattva01, @Miklebe, @mitchej123, @mM4ri, @NeOzay, @Nockyx, @Omgise, @Pilzinsel64, @Pxx500, @Ranzuu, @RecursivePineapple, @rspforhp, @RubilaxXxx, @sbwaz, @Shinusei, @sisyphussy, @SKProCH, @slprime, @SST-03, @Taskeren, @TimeConqueror, @UltraProdigy, @Vlamonster, @VortexSo4, @Worive, @YaGirlAlexhupp, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
