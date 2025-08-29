@@ -33,10 +33,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Use better identification method to apply the codechicken mixin by @Alexdoru in https://github.com/GTNewHorizons/AppleCore/pull/35 (3.3.7)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-669-GTNH --> rv3-beta-678-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-669-GTNH...rv3-beta-678-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-669-GTNH --> rv3-beta-679-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-669-GTNH...rv3-beta-679-GTNH
 
 ## What's Changed:
+>* minor text fix - advanced blocking card description by @HectorHW in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/840 (rv3-beta-679-GTNH)
 >* Fix missing field on server resulting in player kick when opening priority GUI by @lynxx131 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/837 (rv3-beta-678-GTNH)
 >* Re-add the client only annotation to ContainerPriority but without a default value to avoid server-side exceptions by @lynxx131 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/839 (rv3-beta-678-GTNH)
 >* Remove error log from CellInventory as it can lead to log spam by @lynxx131 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/838 (rv3-beta-678-GTNH)
@@ -202,10 +203,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Delete legacy dep file + properly register IFMLLoadingPlugin by @Alexdoru in https://github.com/GTNewHorizons/ForgeRelocation/pull/10 (0.3.4)
 
-# Updated - GT5-Unofficial - 5.09.51.418 --> 5.09.51.431
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.418...5.09.51.431
+# Updated - GT5-Unofficial - 5.09.51.418 --> 5.09.51.432
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.418...5.09.51.432
 
 ## What's Changed:
+>* Fix Dynamo and Energy Textures by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4797 (5.09.51.432)
+>* Add mte-centered rendering by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4798 (5.09.51.432)
 >* opt(render): optimize pipe rendering by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4784 (5.09.51.431)
 >* fix TT lines duplication, implement custom capacity method by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4785 (5.09.51.431)
 >* Backporting GTCEu (Modern) SFXs, Changing Machine SFX Looping by @PlayfulPiano in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4718 (5.09.51.431)
@@ -624,4 +627,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix ingot textures being too high by @koolkrafter5 in https://github.com/GTNewHorizons/twilightforest/pull/119 (2.7.9)
 
 # Credits
-Special thanks to @2ndDerivative, @54M44R, @AbdielKavash, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @alppp, @Blackcloud010, @C-Remilian, @Cardinalstars, @chrombread, @combusterf, @cubefury, @DarkShadow44, @Dream-Master, @dvdmandt, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @FalsePattern, @felixfour, @Flakxo, @FrostyFire1, @Georggi, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @HFPTetraUro, @jude123412, @KenzoWVY, @Kogepan229, @koolkrafter5, @kotmatross28729, @kuba6000, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @Leeman92, @LewisSaber, @LukasKlenner, @lynxx131, @mattva01, @Miklebe, @mitchej123, @mM4ri, @NeOzay, @Nockyx, @Omgise, @Pilzinsel64, @PlayfulPiano, @Pxx500, @Ranzuu, @ReallySuu, @RecursivePineapple, @redspah, @rspforhp, @RubilaxXxx, @sbwaz, @Shinusei, @sisyphussy, @SKProCH, @slprime, @SST-03, @Taskeren, @TheYoingLad, @TimeConqueror, @UltraProdigy, @Vlamonster, @VortexSo4, @Worive, @YaGirlAlexhupp, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @2ndDerivative, @54M44R, @AbdielKavash, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @alppp, @Blackcloud010, @C-Remilian, @Cardinalstars, @chrombread, @combusterf, @cubefury, @DarkShadow44, @Dream-Master, @dvdmandt, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @FalsePattern, @felixfour, @Flakxo, @FourIsTheNumber, @FrostyFire1, @Georggi, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @HectorHW, @HFPTetraUro, @jude123412, @KenzoWVY, @Kogepan229, @koolkrafter5, @kotmatross28729, @kuba6000, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @Leeman92, @LewisSaber, @LukasKlenner, @lynxx131, @mattva01, @Miklebe, @mitchej123, @mM4ri, @NeOzay, @Nockyx, @Omgise, @Pilzinsel64, @PlayfulPiano, @Pxx500, @Ranzuu, @ReallySuu, @RecursivePineapple, @redspah, @rspforhp, @RubilaxXxx, @sbwaz, @Shinusei, @sisyphussy, @SKProCH, @slprime, @SST-03, @Taskeren, @TheYoingLad, @TimeConqueror, @UltraProdigy, @Vlamonster, @VortexSo4, @Worive, @YaGirlAlexhupp, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
