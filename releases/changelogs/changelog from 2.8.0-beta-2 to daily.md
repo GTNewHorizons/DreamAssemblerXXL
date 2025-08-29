@@ -108,6 +108,12 @@ Mod is client-side only.
 ## What's Changed:
 >* add german translation by @2ndDerivative in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/5 (0.4.3-GTNH)
 
+# Updated - BetterQuesting - 3.7.11-GTNH --> 3.7.12-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.11-GTNH...3.7.12-GTNH
+
+## What's Changed:
+>* Fix tooltip count not displaying correctly for items by @cubefury in https://github.com/GTNewHorizons/BetterQuesting/pull/169 (3.7.12-GTNH)
+
 # Updated - BloodMagic - 1.7.48 --> 1.7.49
 **Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.48...1.7.49
 
@@ -203,8 +209,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Delete legacy dep file + properly register IFMLLoadingPlugin by @Alexdoru in https://github.com/GTNewHorizons/ForgeRelocation/pull/10 (0.3.4)
 
-# Updated - GT5-Unofficial - 5.09.51.418 --> 5.09.51.432
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.418...5.09.51.432
+# Updated - GT5-Unofficial - 5.09.51.418 --> 5.09.51.433
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.418...5.09.51.433
 
 ## What's Changed:
 >* Fix Dynamo and Energy Textures by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4797 (5.09.51.432)
@@ -360,10 +366,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Rework donor capes by @Alexdoru in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/133 (1.1.118-GTNH)
 >* fix: Convert Chunk coordinates to world-coordinates before accessing / setting the block by @Leeman92 in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/131 (1.1.117-GTNH)
 
-# Updated - Hodgepodge - 2.6.96 --> 2.6.100
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.96...2.6.100
+# Updated - Hodgepodge - 2.6.96 --> 2.6.101
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.96...2.6.101
 
 ## What's Changed:
+>* Reference correct mod in hotlink text (Javadoc-only change) by @Charsy89 in https://github.com/GTNewHorizons/Hodgepodge/pull/612 (2.6.101)
 >* Allow Dispensers to dispense IC2 ITNT by @koolkrafter5 in https://github.com/GTNewHorizons/Hodgepodge/pull/608 (2.6.100)
 >* Misc compat fixes by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/610 (2.6.100)
 >* Fixing healing axe and shovel to be unbreakable for paths and stripping from EFR by @Cardinalstars in https://github.com/GTNewHorizons/Hodgepodge/pull/602 (2.6.98)
@@ -403,11 +410,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Revert change that accidentally got included by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/20 (1.5.12-GTNH)
 
-# Updated - MatterManipulator - 0.0.39-GTNH --> 0.0.43-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.39-GTNH...0.0.43-GTNH
+# Updated - MatterManipulator - 0.0.39-GTNH --> 0.0.45-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.39-GTNH...0.0.45-GTNH
 
 ## What's Changed:
-DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+>* fix gregtech detection to only work on NH's gregtech 5u by @felixfour in https://github.com/GTNewHorizons/MatterManipulator/pull/11 (0.0.45-GTNH)
+
 # Updated - Mobs-Info - 0.5.3-GTNH --> 0.5.4-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.3-GTNH...0.5.4-GTNH
 
@@ -488,6 +496,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 >* Made Gui Slope more transparent by @Ranzuu in https://github.com/GTNewHorizons/Nuclear-Control/pull/31 (2.6.19)
+
+# Updated - OpenComputers - 1.11.16-GTNH --> 1.11.18-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.16-GTNH...1.11.18-GTNH
+
+## What's Changed:
+>* compat fix when other mods are NOT installed by @yangbowen in https://github.com/GTNewHorizons/OpenComputers/pull/156 (1.11.18-GTNH)
 
 # Updated - ProjectRed - 4.11.8-GTNH --> 4.11.13-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.8-GTNH...4.11.13-GTNH
@@ -573,10 +587,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Update dependencies.gradle by @Dream-Master in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/42 (1.4.3-GTNH)
 >* Delete legacy dependency file by @Alexdoru in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/43 (1.4.3-GTNH)
 
-# Updated - TinkersConstruct - 1.13.46-GTNH --> 1.13.49-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.46-GTNH...1.13.49-GTNH
+# Updated - TinkersConstruct - 1.13.46-GTNH --> 1.13.51-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.46-GTNH...1.13.51-GTNH
 
 ## What's Changed:
+>* Make mouse button keybinds more reliable by @wlhlm in https://github.com/GTNewHorizons/TinkersConstruct/pull/205 (1.13.51-GTNH)
 >* fix crash because some mods shade the TabRegistry class... by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/204 (1.13.49-GTNH)
 >* German translation typo fixes and improvements by @2ndDerivative in https://github.com/GTNewHorizons/TinkersConstruct/pull/197 (1.13.48-GTNH)
 >* Allow Ammo in Bauble Slots by @koolkrafter5 in https://github.com/GTNewHorizons/TinkersConstruct/pull/189 (1.13.48-GTNH)
@@ -627,4 +642,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix ingot textures being too high by @koolkrafter5 in https://github.com/GTNewHorizons/twilightforest/pull/119 (2.7.9)
 
 # Credits
-Special thanks to @2ndDerivative, @54M44R, @AbdielKavash, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @alppp, @Blackcloud010, @C-Remilian, @Cardinalstars, @chrombread, @combusterf, @cubefury, @DarkShadow44, @Dream-Master, @dvdmandt, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @FalsePattern, @felixfour, @Flakxo, @FourIsTheNumber, @FrostyFire1, @Georggi, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @HectorHW, @HFPTetraUro, @jude123412, @KenzoWVY, @Kogepan229, @koolkrafter5, @kotmatross28729, @kuba6000, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @Leeman92, @LewisSaber, @LukasKlenner, @lynxx131, @mattva01, @Miklebe, @mitchej123, @mM4ri, @NeOzay, @Nockyx, @Omgise, @Pilzinsel64, @PlayfulPiano, @Pxx500, @Ranzuu, @ReallySuu, @RecursivePineapple, @redspah, @rspforhp, @RubilaxXxx, @sbwaz, @Shinusei, @sisyphussy, @SKProCH, @slprime, @SST-03, @Taskeren, @TheYoingLad, @TimeConqueror, @UltraProdigy, @Vlamonster, @VortexSo4, @Worive, @YaGirlAlexhupp, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @2ndDerivative, @54M44R, @AbdielKavash, @ABKQPO, @Ableytner, @ah-OOG-ah, @Alexdoru, @alppp, @Blackcloud010, @C-Remilian, @Cardinalstars, @Charsy89, @chrombread, @combusterf, @cubefury, @DarkShadow44, @Dream-Master, @dvdmandt, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @FalsePattern, @felixfour, @Flakxo, @FourIsTheNumber, @FrostyFire1, @Georggi, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @HectorHW, @HFPTetraUro, @jude123412, @KenzoWVY, @Kogepan229, @koolkrafter5, @kotmatross28729, @kuba6000, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @Leeman92, @LewisSaber, @LukasKlenner, @lynxx131, @mattva01, @Miklebe, @mitchej123, @mM4ri, @NeOzay, @Nockyx, @Omgise, @Pilzinsel64, @PlayfulPiano, @Pxx500, @Ranzuu, @ReallySuu, @RecursivePineapple, @redspah, @rspforhp, @RubilaxXxx, @sbwaz, @Shinusei, @sisyphussy, @SKProCH, @slprime, @SST-03, @Taskeren, @TheYoingLad, @TimeConqueror, @UltraProdigy, @Vlamonster, @VortexSo4, @wlhlm, @Worive, @YaGirlAlexhupp, @yangbowen, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
