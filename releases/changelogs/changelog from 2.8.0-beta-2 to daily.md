@@ -211,10 +211,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Delete legacy dep file + properly register IFMLLoadingPlugin by @Alexdoru in https://github.com/GTNewHorizons/ForgeRelocation/pull/10 (0.3.4)
 
-# Updated - GT5-Unofficial - 5.09.51.418 --> 5.09.51.433
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.418...5.09.51.433
+# Updated - GT5-Unofficial - 5.09.51.418 --> 5.09.51.434
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.418...5.09.51.434
 
 ## What's Changed:
+>* hotfix(render): pipe item end texture by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4800 (5.09.51.434)
+>* Hotfix - Mufflers now work with Singleblock Machines by @PlayfulPiano in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4801 (5.09.51.434)
 >* Fix Dynamo and Energy Textures by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4797 (5.09.51.432)
 >* Add mte-centered rendering by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4798 (5.09.51.432)
 >* opt(render): optimize pipe rendering by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4784 (5.09.51.431)
@@ -418,6 +420,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix gregtech detection to only work on NH's gregtech 5u by @felixfour in https://github.com/GTNewHorizons/MatterManipulator/pull/11 (0.0.45-GTNH)
 
+# Updated - Minecraft-Backpack-Mod - 2.5.4-GTNH --> 2.5.5-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.5.4-GTNH...2.5.5-GTNH
+
+## What's Changed:
+>* Align slots of short inventory rows to the left  by @wlhlm in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/15 (2.5.5-GTNH)
+
 # Updated - Mobs-Info - 0.5.3-GTNH --> 0.5.4-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.3-GTNH...0.5.4-GTNH
 
@@ -437,10 +445,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix thread safety issue in renderWorldBlock by @FalsePattern in https://github.com/GTNewHorizons/MrTJPCore/pull/12 (1.3.3)
 >* Delete DepLoader and declare depency properly by @Alexdoru in https://github.com/GTNewHorizons/MrTJPCore/pull/11 (1.3.2)
 
-# Updated - NewHorizonsCoreMod - 2.7.232 --> 2.7.240
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.232...2.7.240
+# Updated - NewHorizonsCoreMod - 2.7.232 --> 2.7.241
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.232...2.7.241
 
 ## What's Changed:
+>* Adds Alternate Rubber Recipes for EIO Conduit Binder by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1348 (2.7.241)
 >* refactor infusion recipes to use oredict strict variants from tc4tweaks api by @Glease in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1329 (2.7.240)
 >* Qol singularity by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1346 (2.7.240)
 >* Witchery Altar 3x3 Text Addition by @YaGirlAlexhupp in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1336 (2.7.239)
