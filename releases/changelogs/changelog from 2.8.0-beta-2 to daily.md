@@ -33,10 +33,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Use better identification method to apply the codechicken mixin by @Alexdoru in https://github.com/GTNewHorizons/AppleCore/pull/35 (3.3.7)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-669-GTNH --> rv3-beta-679-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-669-GTNH...rv3-beta-679-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-669-GTNH --> rv3-beta-680-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-669-GTNH...rv3-beta-680-GTNH
 
 ## What's Changed:
+>* Instantly recompute channels when changing parts of a network by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/836 (rv3-beta-680-GTNH)
 >* minor text fix - advanced blocking card description by @HectorHW in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/840 (rv3-beta-679-GTNH)
 >* Fix missing field on server resulting in player kick when opening priority GUI by @lynxx131 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/837 (rv3-beta-678-GTNH)
 >* Re-add the client only annotation to ContainerPriority but without a default value to avoid server-side exceptions by @lynxx131 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/839 (rv3-beta-678-GTNH)
@@ -108,10 +109,11 @@ Mod is client-side only.
 ## What's Changed:
 >* add german translation by @2ndDerivative in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/5 (0.4.3-GTNH)
 
-# Updated - BetterQuesting - 3.7.11-GTNH --> 3.7.12-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.11-GTNH...3.7.12-GTNH
+# Updated - BetterQuesting - 3.7.11-GTNH --> 3.7.13-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.11-GTNH...3.7.13-GTNH
 
 ## What's Changed:
+>* Optimize file reading and key parsing for performance improvements by @alppp in https://github.com/GTNewHorizons/BetterQuesting/pull/170 (3.7.13-GTNH)
 >* Fix tooltip count not displaying correctly for items by @cubefury in https://github.com/GTNewHorizons/BetterQuesting/pull/169 (3.7.12-GTNH)
 
 # Updated - BloodMagic - 1.7.48 --> 1.7.49
