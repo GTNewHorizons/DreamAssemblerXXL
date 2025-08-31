@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-08-30T03:44:10.321102",
+  "last_updated": "2025-08-31T03:47:44.218071",
   "config": "2.8.0-nightly-2025-08-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.433",
+      "version": "5.09.51.434",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -317,7 +317,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.5.4-GTNH",
+      "version": "2.5.5-GTNH",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.240",
+      "version": "2.7.241",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {

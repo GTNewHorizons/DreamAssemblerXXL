@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version daily is out 2025-08-30
+Version daily is out 2025-08-31
 
 [![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
 
@@ -259,7 +259,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | --- | --- |
 | [Advanced Solar Panel For 1.7.10 (Unofficial)](https://www.curseforge.com/minecraft/mc-mods/advancedsolarpanels) | 1.7.10 Edition |
 | [AdventureBackpack2](https://github.com/GTNewHorizons/AdventureBackpack2) | 1.3.9-GTNH |
-| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.4.110-gtnh |
+| [AE2FluidCraft-Rework](https://github.com/GTNewHorizons/AE2FluidCraft-Rework) | 1.4.111-gtnh |
 | [AE2NoUltimatePatterns](https://github.com/GTNewHorizons/AE2NoUltimatePatterns) | 1.0.1 |
 | [ae2stuff](https://github.com/GTNewHorizons/ae2stuff) | 0.9.7-GTNH |
 | [AFSU](https://github.com/GTNewHorizons/AFSU) | 1.3.1-GTNH |
@@ -270,7 +270,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-beta55 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.9.0 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.7 |
-| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-680-GTNH |
+| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-682-GTNH |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.7.7 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.11.4 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.7.0 |
@@ -346,19 +346,19 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ForgeRelocation](https://github.com/GTNewHorizons/ForgeRelocation) | 0.3.4 |
 | [ForgeRelocationFMP](https://github.com/GTNewHorizons/ForgeRelocationFMP) | 0.2.0 |
 | [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.4.7 |
-| [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.3.11-GTNH |
+| [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.3.12-GTNH |
 | [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.1.120-GTNH |
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.9.4-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.6 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.51.434 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.51.435 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.6 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.6.39 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.12.13-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.3.2-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.3.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.6.101 |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.6.102 |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.5.5-GTNH |
 | [Hunger-Overhaul](https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul) | 1.0.0.104 |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.4.9 |
@@ -401,11 +401,11 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.5.0 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.16.0 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.4.0 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.7.241 |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.7.242 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.3.1-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.11 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.1.10 |
-| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.7.77-GTNH |
+| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.7.78-GTNH |
 | [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.6.19 |
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 0.1.3 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.3.3-GTNH |
