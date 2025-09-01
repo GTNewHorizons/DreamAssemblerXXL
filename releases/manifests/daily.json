@@ -1,8 +1,8 @@
 {
   "version": "daily",
-  "last_version": "2.7.4",
-  "last_updated": "2025-08-31T09:40:19.520296",
-  "config": "2.8.0-beta-3",
+  "last_version": "previous_daily",
+  "last_updated": "2025-09-01T04:02:40.637484",
+  "config": "2.8.0-nightly-2025-08-29",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.435",
+      "version": "5.09.51.437",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -871,7 +871,7 @@
       "side": "BOTH"
     },
     "Extra Utilities": {
-      "version": "1.2.12",
+      "version": "1.2.13a",
       "side": "BOTH"
     },
     "Industrial Craft 2": {
