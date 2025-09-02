@@ -10,13 +10,22 @@
 ## What's Changed:
 >* Clamp lightcolor to prevent ArrayIndexOutOfBounds by @Yoshy2002 in https://github.com/GTNewHorizons/Avaritia/pull/62 (1.73)
 
+# Updated - Electro-Magic-Tools - 1.6.13 --> 1.6.14
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.13...1.6.14
+
+## What's Changed:
+>* Swap references to EMT.TEXTURE_PATH with EMT.RESOURCE_PATH by @Kynake in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/101 (1.6.14)
+
 # Updated - Extra Utilities - 1.2.12 --> 1.2.13a
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - GT5-Unofficial - 5.09.51.435 --> 5.09.51.439
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.435...5.09.51.439
+# Updated - GT5-Unofficial - 5.09.51.435 --> 5.09.51.441
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.435...5.09.51.441
 
 ## What's Changed:
+>* Fix Wrenching Inconsistencies by @sisyphussy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4821 (5.09.51.441)
+>* Hotfix - Fix SoundLoop continuing past Singleblock Powerfail by @PlayfulPiano in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4818 (5.09.51.440)
+>* Fix some MBs missing hatches in the NEI preview and adds survival construct by @mM4ri in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4775 (5.09.51.440)
 >* IOF Simplest Mode by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4781 (5.09.51.439)
 >* Fix "Heat Formula of GT's Fuel Rod is Wrong" by @SST-03 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4813 (5.09.51.439)
 >* fix(dependency) make dependency on Blockrenderer6343 optional by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4808 (5.09.51.438)
@@ -39,6 +48,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* made deepslate viable by @seventh-june in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1331 (2.7.243)
 >* netherite dupe fix by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1350 (2.7.243)
 
+# Updated - NotEnoughEnergistics - 1.7.11 --> 1.7.12
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.11...1.7.12
+
+## What's Changed:
+>* Fix crash when ctrl-pressing the "+" in NEI to autocraft missing components by @Yoshy2002 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/50 (1.7.12)
+
 # Updated - NotEnoughItems - 2.7.78-GTNH --> 2.7.79-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.78-GTNH...2.7.79-GTNH
 
@@ -46,5 +61,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix Keyboard IndexOutOfBoundsException by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/704 (2.7.79-GTNH)
 >* Fix Subset Name by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/705 (2.7.79-GTNH)
 
+# Updated - StorageDrawers - 2.1.6-GTNH --> 2.1.7-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.6-GTNH...2.1.7-GTNH
+
+## What's Changed:
+>* Improving quality of life when dealing with sealed drawers. by @Elkatra2 in https://github.com/GTNewHorizons/StorageDrawers/pull/48 (2.1.7-GTNH)
+
 # Credits
-Special thanks to @chrombread, @evgengoldwar, @LazyFleshWasTaken, @lc-1337, @leagris, @lynxx131, @Miklebe, @seventh-june, @slprime, @SST-03, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @chrombread, @Elkatra2, @evgengoldwar, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @lynxx131, @Miklebe, @mM4ri, @PlayfulPiano, @seventh-june, @sisyphussy, @slprime, @SST-03, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
