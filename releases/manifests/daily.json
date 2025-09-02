@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-02T03:49:54.104946",
-  "config": "2.8.0-nightly-2025-09-01",
+  "last_updated": "2025-09-02T15:26:47.913290",
+  "config": "2.8.0-nightly-2025-09-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
@@ -161,7 +161,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.6.13",
+      "version": "1.6.14",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.439",
+      "version": "5.09.51.441",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.11",
+      "version": "1.7.12",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -469,7 +469,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.1.6-GTNH",
+      "version": "2.1.7-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
