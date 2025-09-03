@@ -10,19 +10,24 @@
 ## What's Changed:
 >* Clamp lightcolor to prevent ArrayIndexOutOfBounds by @Yoshy2002 in https://github.com/GTNewHorizons/Avaritia/pull/62 (1.73)
 
+# Updated - Backhand - 1.7.0 --> 1.7.1
+**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.7.0...1.7.1
+
+## What's Changed:
+>* Fix some backhand interactions by @sisyphussy in https://github.com/GTNewHorizons/Backhand/pull/141 (1.7.1)
+
 # Updated - Electro-Magic-Tools - 1.6.13 --> 1.6.14
 **Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.13...1.6.14
 
 ## What's Changed:
 >* Swap references to EMT.TEXTURE_PATH with EMT.RESOURCE_PATH by @Kynake in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/101 (1.6.14)
 
-# Updated - Extra Utilities - 1.2.12 --> 1.2.13a
-## What's Changed:
-DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - GT5-Unofficial - 5.09.51.435 --> 5.09.51.441
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.435...5.09.51.441
+# Updated - GT5-Unofficial - 5.09.51.435 --> 5.09.51.442
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.435...5.09.51.442
 
 ## What's Changed:
+>* Clamp multi smelter energy usage to safe voltage by @lynxx131 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4819 (5.09.51.442)
+>* Centralize Kubatech UI textures all in one class by @Kynake in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4820 (5.09.51.442)
 >* Fix Wrenching Inconsistencies by @sisyphussy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4821 (5.09.51.441)
 >* Hotfix - Fix SoundLoop continuing past Singleblock Powerfail by @PlayfulPiano in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4818 (5.09.51.440)
 >* Fix some MBs missing hatches in the NEI preview and adds survival construct by @mM4ri in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4775 (5.09.51.440)
@@ -41,10 +46,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - NewHorizonsCoreMod - 2.7.242 --> 2.7.243
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.242...2.7.243
+# Updated - NewHorizonsCoreMod - 2.7.242 --> 2.7.244
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.242...2.7.244
 
 ## What's Changed:
+>* Wire Dupe Fix by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1353 (2.7.244)
+>* EFR Copper Singleblock CR Recipe Fix by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1356 (2.7.244)
+>* Change Copper Grate recipe by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1355 (2.7.244)
+>* Add macerator recycling recipe from Hempcrete back to Hempcrete Powder by @Kynake in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1357 (2.7.244)
 >* made deepslate viable by @seventh-june in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1331 (2.7.243)
 >* netherite dupe fix by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1350 (2.7.243)
 
@@ -68,4 +77,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Improving quality of life when dealing with sealed drawers. by @Elkatra2 in https://github.com/GTNewHorizons/StorageDrawers/pull/48 (2.1.7-GTNH)
 
 # Credits
-Special thanks to @chrombread, @Elkatra2, @evgengoldwar, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @lynxx131, @Miklebe, @mM4ri, @PlayfulPiano, @seventh-june, @sisyphussy, @slprime, @SST-03, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @chrombread, @Elkatra2, @EnderProyects, @evgengoldwar, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @lynxx131, @Miklebe, @mM4ri, @PlayfulPiano, @seventh-june, @sisyphussy, @slprime, @SST-03, @UltraProdigy, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
