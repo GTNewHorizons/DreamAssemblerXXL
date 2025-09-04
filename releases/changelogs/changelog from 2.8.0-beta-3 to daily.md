@@ -16,16 +16,25 @@
 ## What's Changed:
 >* Fix some backhand interactions by @sisyphussy in https://github.com/GTNewHorizons/Backhand/pull/141 (1.7.1)
 
+# Updated - Botania - 1.12.23-GTNH --> 1.12.24-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.23-GTNH...1.12.24-GTNH
+
+## What's Changed:
+>* Add Botania Multiblocks to StructureLib by @sisyphussy in https://github.com/GTNewHorizons/Botania/pull/93 (1.12.24-GTNH)
+
 # Updated - Electro-Magic-Tools - 1.6.13 --> 1.6.14
 **Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.13...1.6.14
 
 ## What's Changed:
 >* Swap references to EMT.TEXTURE_PATH with EMT.RESOURCE_PATH by @Kynake in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/101 (1.6.14)
 
-# Updated - GT5-Unofficial - 5.09.51.435 --> 5.09.51.442
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.435...5.09.51.442
+# Updated - GT5-Unofficial - 5.09.51.435 --> 5.09.51.443
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.435...5.09.51.443
 
 ## What's Changed:
+>* Added MTE IDs for Vending Machine by @cubefury in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4822 (5.09.51.443)
+>* Add categories for new machine and tool sounds by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4825 (5.09.51.443)
+>* Change all Mentions of "Semi-Fluid" to "Semifluid" in Game by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4824 (5.09.51.443)
 >* Clamp multi smelter energy usage to safe voltage by @lynxx131 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4819 (5.09.51.442)
 >* Centralize Kubatech UI textures all in one class by @Kynake in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4820 (5.09.51.442)
 >* Fix Wrenching Inconsistencies by @sisyphussy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4821 (5.09.51.441)
@@ -77,4 +86,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Improving quality of life when dealing with sealed drawers. by @Elkatra2 in https://github.com/GTNewHorizons/StorageDrawers/pull/48 (2.1.7-GTNH)
 
 # Credits
-Special thanks to @chrombread, @Elkatra2, @EnderProyects, @evgengoldwar, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @lynxx131, @Miklebe, @mM4ri, @PlayfulPiano, @seventh-june, @sisyphussy, @slprime, @SST-03, @UltraProdigy, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @chrombread, @cubefury, @Elkatra2, @EnderProyects, @evgengoldwar, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @lynxx131, @Miklebe, @mM4ri, @PlayfulPiano, @seventh-june, @sisyphussy, @slprime, @SST-03, @UltraProdigy, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

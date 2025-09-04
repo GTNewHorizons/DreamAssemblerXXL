@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-03T07:45:25.241666",
+  "last_updated": "2025-09-04T03:43:53.725356",
   "config": "2.8.0-nightly-2025-09-03",
   "github_mods": {
     "AdventureBackpack2": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.12.23-GTNH",
+      "version": "1.12.24-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.442",
+      "version": "5.09.51.443",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
