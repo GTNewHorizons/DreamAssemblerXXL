@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-05T03:45:05.629587",
-  "config": "2.8.0-nightly-2025-09-03",
+  "last_updated": "2025-09-05T14:44:29.772297",
+  "config": "2.8.0-nightly-2025-09-05",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.111-gtnh",
+      "version": "1.4.112-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.5.16",
+      "version": "2.5.17",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -117,7 +117,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.16.11-GTNH",
+      "version": "2.16.12-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.120-GTNH",
+      "version": "1.1.121-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.443",
+      "version": "5.09.51.444",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.5.12-GTNH",
+      "version": "1.5.13-GTNH",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.244",
+      "version": "2.7.245",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.79-GTNH",
+      "version": "2.7.80-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.7.22-GTNH",
+      "version": "1.7.23-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -681,7 +681,7 @@
       "side": "BOTH"
     },
     "Tainted-Magic": {
-      "version": "7.6.25-GTNH",
+      "version": "7.6.26-GTNH",
       "side": "BOTH"
     },
     "lwjgl3ify": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.2.17-1.7.10",
+      "version": "2.2.18-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.51-GTNH",
+      "version": "1.2.53-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
