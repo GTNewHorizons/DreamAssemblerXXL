@@ -46,10 +46,11 @@
 ## What's Changed:
 >* Swap references to EMT.TEXTURE_PATH with EMT.RESOURCE_PATH by @Kynake in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/101 (1.6.14)
 
-# Updated - GT5-Unofficial - 5.09.51.435 --> 5.09.51.444
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.435...5.09.51.444
+# Updated - GT5-Unofficial - 5.09.51.435 --> 5.09.51.446
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.435...5.09.51.446
 
 ## What's Changed:
+>* Update deps by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4845 (5.09.51.446)
 >* Fix YOTTA hatch connection by @zyf051520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4823 (5.09.51.444)
 >* Fix random blocks being unharvestable on vajra left click in full pack by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4827 (5.09.51.444)
 >* Fixes Tooltip for Chisel Bus 1-3 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4828 (5.09.51.444)
@@ -89,8 +90,14 @@
 ## What's Changed:
 >* Fix server crash when equiping Jetpack by @wlhlm in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/135 (1.1.121-GTNH)
 
-# Updated - InventoryBogoSorter - 1.2.51-GTNH --> 1.2.53-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.51-GTNH...1.2.53-GTNH
+# Updated - Infernal-Mobs - 1.10.2-GTNH --> 1.10.3-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Infernal-Mobs/compare/1.10.2-GTNH...1.10.3-GTNH
+
+## What's Changed:
+>* Fix(MM_Choke): Properly checks for null before calling setAir on lastTarget by @Worive in https://github.com/GTNewHorizons/Infernal-Mobs/pull/21 (1.10.3-GTNH)
+
+# Updated - InventoryBogoSorter - 1.2.51-GTNH --> 1.2.54-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.51-GTNH...1.2.54-GTNH
 
 ## What's Changed:
 >* Add vanilla crafting table compat (no buttons) by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/118 (1.2.53-GTNH)
