@@ -19,10 +19,11 @@ Mod is client-side only.
 >* Fix exception and kick from server caused by trying to cast to AEBaseContainer without checking first by @lynxx131 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/845 (rv3-beta-684-GTNH)
 >* improve pins textures by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/842 (rv3-beta-683-GTNH)
 
-# Updated - Avaritia - 1.72 --> 1.74
-**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.72...1.74
+# Updated - Avaritia - 1.72 --> 1.75
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.72...1.75
 
 ## What's Changed:
+>* fix crash by @sisyphussy in https://github.com/GTNewHorizons/Avaritia/pull/63 (1.75)
 >* Add explicit checks for shift/space pressed for flying speed increase… by @SKProCH in https://github.com/GTNewHorizons/Avaritia/pull/61 (1.74)
 >* Clamp lightcolor to prevent ArrayIndexOutOfBounds by @Yoshy2002 in https://github.com/GTNewHorizons/Avaritia/pull/62 (1.73)
 
