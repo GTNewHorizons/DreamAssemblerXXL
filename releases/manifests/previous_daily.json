@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-05T15:04:38.176151",
+  "last_updated": "2025-09-07T03:45:34.997840",
   "config": "2.8.0-nightly-2025-09-05",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.444",
+      "version": "5.09.51.446",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -265,7 +265,7 @@
       "side": "BOTH"
     },
     "Infernal-Mobs": {
-      "version": "1.10.2-GTNH",
+      "version": "1.10.3-GTNH",
       "side": "BOTH"
     },
     "InGame-Info-XML": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.53-GTNH",
+      "version": "1.2.54-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {

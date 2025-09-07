@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-07T03:45:34.997840",
-  "config": "2.8.0-nightly-2025-09-05",
+  "last_updated": "2025-09-07T18:29:28.972805",
+  "config": "2.8.0-nightly-2025-09-07",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.9-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.112-gtnh",
+      "version": "1.4.113-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-683-GTNH",
+      "version": "rv3-beta-684-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.73",
+      "version": "1.74",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.12.24-GTNH",
+      "version": "1.12.25-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -157,11 +157,11 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.4.24-GTNH",
+      "version": "1.4.26-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.6.14",
+      "version": "1.6.17",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.446",
+      "version": "5.09.51.448",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.245",
+      "version": "2.7.247",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.80-GTNH",
+      "version": "2.7.81-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -513,7 +513,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.11-GTNH",
+      "version": "1.7.13-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -553,7 +553,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.11",
+      "version": "2.7.12",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.7.23-GTNH",
+      "version": "1.7.24-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta55",
+      "version": "1.0.0-beta56",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -765,11 +765,11 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.0.45-GTNH",
+      "version": "0.0.47-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.30-GTNH",
+      "version": "1.1.31-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
