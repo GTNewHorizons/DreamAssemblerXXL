@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-09T06:31:39.988798",
+  "last_updated": "2025-09-10T03:42:56.200829",
   "config": "2.8.0-nightly-2025-09-09",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.450",
+      "version": "5.09.51.451",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.247",
+      "version": "2.7.248",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -381,7 +381,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.11.18-GTNH",
+      "version": "1.11.19-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
