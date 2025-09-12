@@ -4,10 +4,33 @@
 ## What's Changed:
 >* Disable hotbar keys handling in terminals by @SKProCH in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/331 (1.4.114-gtnh)
 
-# Updated - GT5-Unofficial - 5.09.51.449 --> 5.09.51.451
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.449...5.09.51.451
+# Updated - BetterQuesting - 3.7.13-GTNH --> 3.7.14-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.13-GTNH...3.7.14-GTNH
 
 ## What's Changed:
+>* Rename CB4BQ -> cb4bq by @Eldrinn-Elantey in https://github.com/GTNewHorizons/BetterQuesting/pull/171 (3.7.14-GTNH)
+
+# Updated - BloodMagic - 1.7.49 --> 1.7.50
+**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.49...1.7.50
+
+## What's Changed:
+>* Rename alchemicalwizardryBooks alchemicalwizardrybooks by @Eldrinn-Elantey in https://github.com/GTNewHorizons/BloodMagic/pull/107 (1.7.50)
+
+# Updated - GT5-Unofficial - 5.09.51.449 --> 5.09.51.452
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.449...5.09.51.452
+
+## What's Changed:
+>* Add powerfail notifications by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4466 (5.09.51.452)
+>* Allow ritual stone to be one block closer to the top of the EEC by @Kynake in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4863 (5.09.51.452)
+>* Added Heatbonus variable to nuke fuel cells by @FcNaCl in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4859 (5.09.51.452)
+>* Fix quadrupled heat on good generator fuel rods by @Engineer12798 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4862 (5.09.51.452)
+>* Power goggles refactor part 2 by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4796 (5.09.51.452)
+>* Optimization: prevent machine update propagation through cables by @C-Remilian in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4865 (5.09.51.452)
+>* Add null check to onRecipeFail in water line by @lynxx131 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4866 (5.09.51.452)
+>* Add Oil Cracking Unit Abbreviation by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4867 (5.09.51.452)
+>* Rename Fluid Drilling Rig by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4868 (5.09.51.452)
+>* Fixes IV Electric Furnace Name by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4869 (5.09.51.452)
+>* fix(MTEEnergyBuffer): prevent zero amperage on missing NBT key by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4870 (5.09.51.452)
 >* Fix Muffler GUI Button Positions by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4856 (5.09.51.451)
 >* Fixed small Typo in MegaApiary and made the "+" in Large Fluid Extractor Tooltip green by @JustACasualDay in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4861 (5.09.51.451)
 >* Fix Drone Module WAILA Tooltip & Maint without connection by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4851 (5.09.51.451)
@@ -19,16 +42,27 @@
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - NewHorizonsCoreMod - 2.7.247 --> 2.7.248
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.247...2.7.248
+# Updated - Natura - 2.8.8 --> 2.8.9
+**Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.8...2.8.9
 
 ## What's Changed:
+>* Prevent Redwood from growing from a single sapling by @wlhlm in https://github.com/GTNewHorizons/Natura/pull/34 (2.8.9)
+
+# Updated - NewHorizonsCoreMod - 2.7.247 --> 2.7.250
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.247...2.7.250
+
+## What's Changed:
+>* Added recipes for decorative blocks by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1371 (2.7.250)
+>* Pt. 1 Iron Furnace Decommission by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1370 (2.7.250)
+>* Adds Dyes for EFR Flowers by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1368 (2.7.249)
+>* Revert "fix(ZincGravel): extends GravelOre(TConstruct) for Waila Effe… by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1369 (2.7.249)
 >* fix(ZincGravel): extends GravelOre(TConstruct) for Waila Effective Tool by @AzodFR in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1367 (2.7.248)
 
-# Updated - NotEnoughItems - 2.7.81-GTNH --> 2.7.82-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.81-GTNH...2.7.82-GTNH
+# Updated - NotEnoughItems - 2.7.81-GTNH --> 2.7.83-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.81-GTNH...2.7.83-GTNH
 
 ## What's Changed:
+>* feat(moboverlay): add chat message (on/off) by @AzodFR in https://github.com/GTNewHorizons/NotEnoughItems/pull/715 (2.7.83-GTNH)
 >* Remove old entries which resulted in ghost catalysts by @Miklebe in https://github.com/GTNewHorizons/NotEnoughItems/pull/714 (2.7.82-GTNH)
 
 # Updated - OpenComputers - 1.11.18-GTNH --> 1.11.19-GTNH
@@ -42,5 +76,27 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - ServerUtilities - 2.1.59 --> 2.1.60
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.59...2.1.60
+
+## What's Changed:
+>* fix: ClassCastException in dump_permissions for non-permission commands by @LeonidMem in https://github.com/GTNewHorizons/ServerUtilities/pull/229 (2.1.60)
+
+# Updated - ThaumcraftMobAspects - 1.2.0-GTNH --> 1.2.1-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumcraftMobAspects/compare/1.2.0-GTNH...1.2.1-GTNH
+
+## What's Changed:
+>* Rename ThaumcraftMobAspects -> thaumcraftmobaspects by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ThaumcraftMobAspects/pull/6 (1.2.1-GTNH)
+
+# Updated - TinkersConstruct - 1.13.51-GTNH --> 1.13.52-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.51-GTNH...1.13.52-GTNH
+
+## What's Changed:
+>* Don't auto connect redstone traces to Faucets by @wlhlm in https://github.com/GTNewHorizons/TinkersConstruct/pull/207 (1.13.52-GTNH)
+>* fix(ProjectileBase): prevent projectile reversal in water by @Worive in https://github.com/GTNewHorizons/TinkersConstruct/pull/208 (1.13.52-GTNH)
+
+# Updated - UniMixins - 0.1.22 --> 0.1.23
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Credits
-Special thanks to @AzodFR, @Caedis, @JustACasualDay, @Miklebe, @SKProCH, @Vlamonster, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @AzodFR, @C-Remilian, @Caedis, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @Engineer12798, @FcNaCl, @FrostyFire1, @JustACasualDay, @kuba6000, @Kynake, @LeonidMem, @lynxx131, @Miklebe, @RecursivePineapple, @SKProCH, @UltraProdigy, @Vlamonster, @wlhlm, @Worive, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
