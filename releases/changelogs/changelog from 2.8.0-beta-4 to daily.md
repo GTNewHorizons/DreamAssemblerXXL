@@ -37,6 +37,12 @@
 >* Fix Ghost machines being shown in the NEI recipes by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4854 (5.09.51.450)
 >* Remove muffler upgrade + add removed meta registery by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4855 (5.09.51.450)
 
+# Updated - Hodgepodge - 2.6.102 --> 2.6.103
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.102...2.6.103
+
+## What's Changed:
+>* Improvements for simulation distance by @DarkShadow44 in https://github.com/GTNewHorizons/Hodgepodge/pull/606 (2.6.103)
+
 # Updated - MatterManipulator - 0.0.47-GTNH --> 0.0.49-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.47-GTNH...0.0.49-GTNH
 
@@ -99,4 +105,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Credits
-Special thanks to @AzodFR, @C-Remilian, @Caedis, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @Engineer12798, @FcNaCl, @FrostyFire1, @JustACasualDay, @kuba6000, @Kynake, @LeonidMem, @lynxx131, @Miklebe, @RecursivePineapple, @SKProCH, @UltraProdigy, @Vlamonster, @wlhlm, @Worive, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @AzodFR, @C-Remilian, @Caedis, @DarkShadow44, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @Engineer12798, @FcNaCl, @FrostyFire1, @JustACasualDay, @kuba6000, @Kynake, @LeonidMem, @lynxx131, @Miklebe, @RecursivePineapple, @SKProCH, @UltraProdigy, @Vlamonster, @wlhlm, @Worive, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
