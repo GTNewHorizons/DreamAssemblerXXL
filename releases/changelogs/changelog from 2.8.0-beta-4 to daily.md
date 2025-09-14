@@ -4,6 +4,12 @@
 ## What's Changed:
 >* Disable hotbar keys handling in terminals by @SKProCH in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/331 (1.4.114-gtnh)
 
+# Updated - AdventureBackpack2 - 1.3.9-GTNH --> 1.3.10-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.9-GTNH...1.3.10-GTNH
+
+## What's Changed:
+>* Don't prohibit cape rendering by @FrostyFire1 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/33 (1.3.10-GTNH)
+
 # Updated - BetterQuesting - 3.7.13-GTNH --> 3.7.14-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.13-GTNH...3.7.14-GTNH
 
