@@ -1,11 +1,11 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-13T03:37:01.415341",
-  "config": "2.8.0-nightly-2025-09-12-2",
+  "last_updated": "2025-09-14T03:45:34.936090",
+  "config": "2.8.0-nightly-2025-09-13",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.3.9-GTNH",
+      "version": "1.3.10-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.452",
+      "version": "5.09.51.453",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.5.13-GTNH",
+      "version": "1.5.14-GTNH",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.83-GTNH",
+      "version": "2.7.84-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.54-GTNH",
+      "version": "1.2.55-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
