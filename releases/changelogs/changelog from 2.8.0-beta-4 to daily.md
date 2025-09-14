@@ -4,10 +4,11 @@
 ## What's Changed:
 >* Disable hotbar keys handling in terminals by @SKProCH in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/331 (1.4.114-gtnh)
 
-# Updated - AdventureBackpack2 - 1.3.9-GTNH --> 1.3.10-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.9-GTNH...1.3.10-GTNH
+# Updated - AdventureBackpack2 - 1.3.9-GTNH --> 1.3.11-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.9-GTNH...1.3.11-GTNH
 
 ## What's Changed:
+>* German translation by @2ndDerivative in https://github.com/GTNewHorizons/AdventureBackpack2/pull/32 (1.3.11-GTNH)
 >* Don't prohibit cape rendering by @FrostyFire1 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/33 (1.3.10-GTNH)
 
 # Updated - BetterQuesting - 3.7.13-GTNH --> 3.7.14-GTNH
@@ -22,10 +23,11 @@
 ## What's Changed:
 >* Rename alchemicalwizardryBooks alchemicalwizardrybooks by @Eldrinn-Elantey in https://github.com/GTNewHorizons/BloodMagic/pull/107 (1.7.50)
 
-# Updated - GT5-Unofficial - 5.09.51.449 --> 5.09.51.453
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.449...5.09.51.453
+# Updated - GT5-Unofficial - 5.09.51.449 --> 5.09.51.454
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.449...5.09.51.454
 
 ## What's Changed:
+>* Remove gem recipes from Block to gem, ingot, and dust by @Kynake in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4873 (5.09.51.454)
 >* Fix Pyrolyse Oven Hint-Dots by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4872 (5.09.51.453)
 >* perf(renderer): Optimize Forge of Gods rendering by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4846 (5.09.51.453)
 >* Add powerfail notifications by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4466 (5.09.51.452)
@@ -76,10 +78,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Prevent Redwood from growing from a single sapling by @wlhlm in https://github.com/GTNewHorizons/Natura/pull/34 (2.8.9)
 
-# Updated - NewHorizonsCoreMod - 2.7.247 --> 2.7.250
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.247...2.7.250
+# Updated - NewHorizonsCoreMod - 2.7.247 --> 2.7.251
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.247...2.7.251
 
 ## What's Changed:
+>* Change charged battery to empty for treetap and hoe by @Miklebe in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1372 (2.7.251)
+>* Fixes Diamond Chainsaw in NEI by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1373 (2.7.251)
 >* Added recipes for decorative blocks by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1371 (2.7.250)
 >* Pt. 1 Iron Furnace Decommission by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1370 (2.7.250)
 >* Adds Dyes for EFR Flowers by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1368 (2.7.249)
@@ -111,6 +115,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix: ClassCastException in dump_permissions for non-permission commands by @LeonidMem in https://github.com/GTNewHorizons/ServerUtilities/pull/229 (2.1.60)
 
+# Updated - StructureLib - 1.4.18 --> 1.4.20
+**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.18...1.4.20
+
+## What's Changed:
+>* Fix Hologram Projector config GUI not releasing cursor by @wlhlm in https://github.com/GTNewHorizons/StructureLib/pull/45 (1.4.20)
+
 # Updated - ThaumcraftMobAspects - 1.2.0-GTNH --> 1.2.1-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/ThaumcraftMobAspects/compare/1.2.0-GTNH...1.2.1-GTNH
 
@@ -128,4 +138,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Credits
-Special thanks to @AzodFR, @C-Remilian, @Caedis, @DarkShadow44, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @Engineer12798, @FcNaCl, @FrostyFire1, @JustACasualDay, @kuba6000, @Kynake, @LeonidMem, @lynxx131, @Miklebe, @RecursivePineapple, @sbwaz, @SKProCH, @UltraProdigy, @Vlamonster, @wlhlm, @Worive, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @2ndDerivative, @AzodFR, @C-Remilian, @Caedis, @DarkShadow44, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @Engineer12798, @FcNaCl, @FrostyFire1, @JustACasualDay, @kuba6000, @Kynake, @LeonidMem, @lynxx131, @Miklebe, @RecursivePineapple, @sbwaz, @SKProCH, @UltraProdigy, @Vlamonster, @wlhlm, @Worive, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
