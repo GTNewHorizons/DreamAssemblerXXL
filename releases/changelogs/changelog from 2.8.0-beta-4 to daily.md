@@ -11,6 +11,12 @@
 >* German translation by @2ndDerivative in https://github.com/GTNewHorizons/AdventureBackpack2/pull/32 (1.3.11-GTNH)
 >* Don't prohibit cape rendering by @FrostyFire1 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/33 (1.3.10-GTNH)
 
+# Updated - Baubles-Expanded - 2.1.13-GTNH --> 2.1.14-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.1.13-GTNH...2.1.14-GTNH
+
+## What's Changed:
+>* New Curios-Inspired GUI by @koolkrafter5 in https://github.com/GTNewHorizons/Baubles-Expanded/pull/13 (2.1.14-GTNH)
+
 # Updated - BetterQuesting - 3.7.13-GTNH --> 3.7.14-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.13-GTNH...3.7.14-GTNH
 
@@ -138,4 +144,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Credits
-Special thanks to @2ndDerivative, @AzodFR, @C-Remilian, @Caedis, @DarkShadow44, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @Engineer12798, @FcNaCl, @FrostyFire1, @JustACasualDay, @kuba6000, @Kynake, @LeonidMem, @lynxx131, @Miklebe, @RecursivePineapple, @sbwaz, @SKProCH, @UltraProdigy, @Vlamonster, @wlhlm, @Worive, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @2ndDerivative, @AzodFR, @C-Remilian, @Caedis, @DarkShadow44, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @Engineer12798, @FcNaCl, @FrostyFire1, @JustACasualDay, @koolkrafter5, @kuba6000, @Kynake, @LeonidMem, @lynxx131, @Miklebe, @RecursivePineapple, @sbwaz, @SKProCH, @UltraProdigy, @Vlamonster, @wlhlm, @Worive, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-14T12:53:41.239213",
+  "last_updated": "2025-09-15T03:50:39.034563",
   "config": "2.8.0-nightly-2025-09-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.1.13-GTNH",
+      "version": "2.1.14-GTNH",
       "side": "BOTH"
     },
     "Postea": {
