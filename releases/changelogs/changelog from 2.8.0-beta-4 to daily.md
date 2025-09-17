@@ -11,11 +11,18 @@
 >* German translation by @2ndDerivative in https://github.com/GTNewHorizons/AdventureBackpack2/pull/32 (1.3.11-GTNH)
 >* Don't prohibit cape rendering by @FrostyFire1 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/33 (1.3.10-GTNH)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-684-GTNH --> rv3-beta-685-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-684-GTNH...rv3-beta-685-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-684-GTNH --> rv3-beta-686-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-684-GTNH...rv3-beta-686-GTNH
 
 ## What's Changed:
+>* Fix usage >100% in crafting calculation  by @zyf051520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/850 (rv3-beta-686-GTNH)
 >* Prevent potential permission issues when calculate the percentage by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/849 (rv3-beta-685-GTNH)
+
+# Updated - ArchitectureCraft - 1.11.4 --> 1.11.5
+**Full Changelog**: https://github.com/GTNewHorizons/ArchitectureCraft/compare/1.11.4...1.11.5
+
+## What's Changed:
+>* Fix blocks rendering backwards on the bottom side by @danyadev in https://github.com/GTNewHorizons/ArchitectureCraft/pull/26 (1.11.5)
 
 # Updated - Baubles-Expanded - 2.1.13-GTNH --> 2.1.14-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.1.13-GTNH...2.1.14-GTNH
@@ -35,10 +42,14 @@
 ## What's Changed:
 >* Rename alchemicalwizardryBooks alchemicalwizardrybooks by @Eldrinn-Elantey in https://github.com/GTNewHorizons/BloodMagic/pull/107 (1.7.50)
 
-# Updated - GT5-Unofficial - 5.09.51.449 --> 5.09.51.455
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.449...5.09.51.455
+# Updated - GT5-Unofficial - 5.09.51.449 --> 5.09.51.456
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.449...5.09.51.456
 
 ## What's Changed:
+>* Add helper methods to WA by @sisyphussy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4871 (5.09.51.456)
+>* Add Thermic Heating Device Abbreviation by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4882 (5.09.51.456)
+>* (Temporarily) Remove Space Project Manager & Space Research Station Recipes by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4884 (5.09.51.456)
+>* Energy Textures Fix Part 2 by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4815 (5.09.51.456)
 >* Fix coil preview by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4874 (5.09.51.455)
 >* Added Sodium Fluoride LCR Recipes by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4876 (5.09.51.455)
 >* Add Large Semifluid Burner Abbreviation by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4877 (5.09.51.455)
@@ -68,6 +79,12 @@
 ## What's Changed:
 >* Fix NPE in ThermalDynamics Super Duct mixin by @wlhlm in https://github.com/GTNewHorizons/Hodgepodge/pull/621 (2.6.104)
 >* Improvements for simulation distance by @DarkShadow44 in https://github.com/GTNewHorizons/Hodgepodge/pull/606 (2.6.103)
+
+# Updated - IguanaTweaksTConstruct - 2.6.5 --> 2.6.6
+**Full Changelog**: https://github.com/GTNewHorizons/IguanaTweaksTConstruct/compare/2.6.5...2.6.6
+
+## What's Changed:
+>* fix: make the easy tool repair compatible with TGregworks by @jordanamr in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/23 (2.6.6)
 
 # Updated - InventoryBogoSorter - 1.2.54-GTNH --> 1.2.56-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.54-GTNH...1.2.56-GTNH
@@ -102,10 +119,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Prevent Redwood from growing from a single sapling by @wlhlm in https://github.com/GTNewHorizons/Natura/pull/34 (2.8.9)
 
-# Updated - NewHorizonsCoreMod - 2.7.247 --> 2.7.252
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.247...2.7.252
+# Updated - NewHorizonsCoreMod - 2.7.247 --> 2.7.253
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.247...2.7.253
 
 ## What's Changed:
+>* Hides Space Research and Space Project Modules in NEI by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1375 (2.7.253)
 >* Add chisel recipes for BoP Tanzanite and Topaz blocks by @Kynake in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1374 (2.7.252)
 >* Change charged battery to empty for treetap and hoe by @Miklebe in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1372 (2.7.251)
 >* Fixes Diamond Chainsaw in NEI by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1373 (2.7.251)
@@ -141,10 +159,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix: ClassCastException in dump_permissions for non-permission commands by @LeonidMem in https://github.com/GTNewHorizons/ServerUtilities/pull/229 (2.1.60)
 
-# Updated - StructureLib - 1.4.18 --> 1.4.21
-**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.18...1.4.21
+# Updated - StructureLib - 1.4.18 --> 1.4.22
+**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.18...1.4.22
 
 ## What's Changed:
+>* Small improvements to the channel config GUI by @wlhlm in https://github.com/GTNewHorizons/StructureLib/pull/47 (1.4.22)
 >* Fix Hologram Projector Shift-Use opening both GUIs by @wlhlm in https://github.com/GTNewHorizons/StructureLib/pull/46 (1.4.21)
 >* Fix Hologram Projector config GUI not releasing cursor by @wlhlm in https://github.com/GTNewHorizons/StructureLib/pull/45 (1.4.20)
 
@@ -160,15 +179,22 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Reduce lag from world accelerated thaumatoriums by @RecursivePineapple in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/93 (1.7.14-GTNH)
 
-# Updated - TinkersConstruct - 1.13.51-GTNH --> 1.13.52-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.51-GTNH...1.13.52-GTNH
+# Updated - TinkersConstruct - 1.13.51-GTNH --> 1.13.53-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.51-GTNH...1.13.53-GTNH
 
 ## What's Changed:
+>* Satisfy the pixel peepers (armor tab texture offset fix) by @wlhlm in https://github.com/GTNewHorizons/TinkersConstruct/pull/211 (1.13.53-GTNH)
 >* Don't auto connect redstone traces to Faucets by @wlhlm in https://github.com/GTNewHorizons/TinkersConstruct/pull/207 (1.13.52-GTNH)
 >* fix(ProjectileBase): prevent projectile reversal in water by @Worive in https://github.com/GTNewHorizons/TinkersConstruct/pull/208 (1.13.52-GTNH)
 
 # Updated - UniMixins - 0.1.22 --> 0.1.23
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - waila - 1.8.12 --> 1.8.13
+**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.12...1.8.13
+
+## What's Changed:
+>* change log level of callbackRegistration by @Alexdoru in https://github.com/GTNewHorizons/waila/pull/39 (1.8.13)
+
 # Credits
-Special thanks to @0hwx, @2ndDerivative, @AzodFR, @C-Remilian, @Caedis, @DarkShadow44, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @Engineer12798, @FcNaCl, @FrostyFire1, @JustACasualDay, @koolkrafter5, @kuba6000, @Kynake, @LeonidMem, @lynxx131, @MCTBL, @Miklebe, @RecursivePineapple, @sbwaz, @SKProCH, @slprime, @UltraProdigy, @Vlamonster, @wlhlm, @Worive, @Yoshy2002, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @2ndDerivative, @ABKQPO, @Alexdoru, @AzodFR, @C-Remilian, @Caedis, @danyadev, @DarkShadow44, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @Engineer12798, @FcNaCl, @FrostyFire1, @jordanamr, @JustACasualDay, @koolkrafter5, @kuba6000, @Kynake, @LeonidMem, @lynxx131, @MCTBL, @Miklebe, @RecursivePineapple, @sbwaz, @sisyphussy, @SKProCH, @slprime, @UltraProdigy, @Vlamonster, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
