@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-16T03:43:59.876152",
+  "last_updated": "2025-09-17T03:42:52.578962",
   "config": "2.8.0-nightly-2025-09-15",
   "github_mods": {
     "AdventureBackpack2": {
@@ -317,7 +317,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.5.7-GTNH",
+      "version": "2.5.8-GTNH",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {

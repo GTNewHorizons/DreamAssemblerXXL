@@ -89,10 +89,11 @@
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Minecraft-Backpack-Mod - 2.5.6-GTNH --> 2.5.7-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.5.6-GTNH...2.5.7-GTNH
+# Updated - Minecraft-Backpack-Mod - 2.5.6-GTNH --> 2.5.8-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.5.6-GTNH...2.5.8-GTNH
 
 ## What's Changed:
+>* Invalidate backpack file cache on world load by @wlhlm in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/21 (2.5.8-GTNH)
 >* Fix item voiding by reducing stack size instead of zeroing by @Worive in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/20 (2.5.7-GTNH)
 
 # Updated - Natura - 2.8.8 --> 2.8.9
