@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-18T03:45:44.602624",
-  "config": "2.8.0-nightly-2025-09-17",
+  "last_updated": "2025-09-18T09:08:59.756943",
+  "config": "2.8.0-nightly-2025-09-18",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.11-GTNH",
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.456",
+      "version": "5.09.51.457",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.104",
+      "version": "2.6.105",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.57-GTNH",
+      "version": "1.2.58-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
-      "version": "1.5.6-backhand",
+      "version": "1.5.7-backhand",
       "side": "BOTH"
     },
     "Backhand": {
