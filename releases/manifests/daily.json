@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-17T12:14:25.504030",
+  "last_updated": "2025-09-18T03:45:44.602624",
   "config": "2.8.0-nightly-2025-09-17",
   "github_mods": {
     "AdventureBackpack2": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.85-GTNH",
+      "version": "2.7.86-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.56-GTNH",
+      "version": "1.2.57-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {

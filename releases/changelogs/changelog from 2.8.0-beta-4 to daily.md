@@ -86,10 +86,11 @@
 ## What's Changed:
 >* fix: make the easy tool repair compatible with TGregworks by @jordanamr in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/23 (2.6.6)
 
-# Updated - InventoryBogoSorter - 1.2.54-GTNH --> 1.2.56-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.54-GTNH...1.2.56-GTNH
+# Updated - InventoryBogoSorter - 1.2.54-GTNH --> 1.2.57-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.54-GTNH...1.2.57-GTNH
 
 ## What's Changed:
+>* Add missing crafting tweaks transformer by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/122 (1.2.57-GTNH)
 >* Fixes by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/116 (1.2.56-GTNH)
 >* Skip backhand slot during dropoff by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/119 (1.2.55-GTNH)
 
@@ -133,10 +134,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Revert "fix(ZincGravel): extends GravelOre(TConstruct) for Waila Effe… by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1369 (2.7.249)
 >* fix(ZincGravel): extends GravelOre(TConstruct) for Waila Effective Tool by @AzodFR in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1367 (2.7.248)
 
-# Updated - NotEnoughItems - 2.7.81-GTNH --> 2.7.85-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.81-GTNH...2.7.85-GTNH
+# Updated - NotEnoughItems - 2.7.81-GTNH --> 2.7.86-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.81-GTNH...2.7.86-GTNH
 
 ## What's Changed:
+>* Create Item Untranslator by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/719 (2.7.86-GTNH)
 >* Fixed Favorite Recipes in bookmarks for ingredients by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/720 (2.7.85-GTNH)
 >* [Extended+] Filter permutations on the left. Fail on recipe expression, when not searching a recipe. by @sbwaz in https://github.com/GTNewHorizons/NotEnoughItems/pull/716 (2.7.84-GTNH)
 >* feat(moboverlay): add chat message (on/off) by @AzodFR in https://github.com/GTNewHorizons/NotEnoughItems/pull/715 (2.7.83-GTNH)
