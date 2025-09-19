@@ -24,6 +24,11 @@
 ## What's Changed:
 >* Fix blocks rendering backwards on the bottom side by @danyadev in https://github.com/GTNewHorizons/ArchitectureCraft/pull/26 (1.11.5)
 
+# Updated - Battlegear2-for-Backhand - 1.5.6-backhand --> 1.5.7-backhand
+**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2-for-Backhand/compare/1.5.6-backhand...1.5.7-backhand
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - Baubles-Expanded - 2.1.13-GTNH --> 2.1.14-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.1.13-GTNH...2.1.14-GTNH
 
@@ -42,10 +47,13 @@
 ## What's Changed:
 >* Rename alchemicalwizardryBooks alchemicalwizardrybooks by @Eldrinn-Elantey in https://github.com/GTNewHorizons/BloodMagic/pull/107 (1.7.50)
 
-# Updated - GT5-Unofficial - 5.09.51.449 --> 5.09.51.456
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.449...5.09.51.456
+# Updated - GT5-Unofficial - 5.09.51.449 --> 5.09.51.457
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.449...5.09.51.457
 
 ## What's Changed:
+>* Fix Strontium dupe by @LewisSaber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4887 (5.09.51.457)
+>* fix(images): recode grayscale images to palette by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4880 (5.09.51.457)
+>* Add Circuit 9 recipes for gem juice by @btbenedi in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4875 (5.09.51.457)
 >* Add helper methods to WA by @sisyphussy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4871 (5.09.51.456)
 >* Add Thermic Heating Device Abbreviation by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4882 (5.09.51.456)
 >* (Temporarily) Remove Space Project Manager & Space Research Station Recipes by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4884 (5.09.51.456)
@@ -73,10 +81,11 @@
 >* Fix Ghost machines being shown in the NEI recipes by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4854 (5.09.51.450)
 >* Remove muffler upgrade + add removed meta registery by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4855 (5.09.51.450)
 
-# Updated - Hodgepodge - 2.6.102 --> 2.6.104
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.102...2.6.104
+# Updated - Hodgepodge - 2.6.102 --> 2.6.105
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.102...2.6.105
 
 ## What's Changed:
+>* fix: make the item thrower mixin backward compatible by @jordanamr in https://github.com/GTNewHorizons/Hodgepodge/pull/623 (2.6.105)
 >* Fix NPE in ThermalDynamics Super Duct mixin by @wlhlm in https://github.com/GTNewHorizons/Hodgepodge/pull/621 (2.6.104)
 >* Improvements for simulation distance by @DarkShadow44 in https://github.com/GTNewHorizons/Hodgepodge/pull/606 (2.6.103)
 
@@ -86,14 +95,21 @@
 ## What's Changed:
 >* fix: make the easy tool repair compatible with TGregworks by @jordanamr in https://github.com/GTNewHorizons/IguanaTweaksTConstruct/pull/23 (2.6.6)
 
-# Updated - InventoryBogoSorter - 1.2.54-GTNH --> 1.2.57-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.54-GTNH...1.2.57-GTNH
+# Updated - InventoryBogoSorter - 1.2.54-GTNH --> 1.2.60-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.54-GTNH...1.2.60-GTNH
 
 ## What's Changed:
+>* Fix Forestry and BC workbenches by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/125 (1.2.60-GTNH)
+>* Replace asm with mixin by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/123 (1.2.59-GTNH)
 >* Add missing crafting tweaks transformer by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/122 (1.2.57-GTNH)
 >* Fixes by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/116 (1.2.56-GTNH)
 >* Skip backhand slot during dropoff by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/119 (1.2.55-GTNH)
 
+# Updated - IronTankMinecarts - 1.0.10 --> 1.0.11
+**Full Changelog**: https://github.com/GTNewHorizons/IronTankMinecarts/compare/1.0.10...1.0.11
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - LittleTiles - 1.5.13-GTNH --> 1.5.14-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.13-GTNH...1.5.14-GTNH
 
@@ -199,4 +215,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change log level of callbackRegistration by @Alexdoru in https://github.com/GTNewHorizons/waila/pull/39 (1.8.13)
 
 # Credits
-Special thanks to @0hwx, @2ndDerivative, @ABKQPO, @Alexdoru, @AzodFR, @C-Remilian, @Caedis, @danyadev, @DarkShadow44, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @Engineer12798, @FcNaCl, @FrostyFire1, @jordanamr, @JustACasualDay, @koolkrafter5, @kuba6000, @Kynake, @LeonidMem, @lynxx131, @MCTBL, @Miklebe, @RecursivePineapple, @sbwaz, @sisyphussy, @SKProCH, @slprime, @UltraProdigy, @Vlamonster, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @2ndDerivative, @ABKQPO, @Alexdoru, @AzodFR, @btbenedi, @C-Remilian, @Caedis, @danyadev, @DarkShadow44, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @Engineer12798, @FcNaCl, @FrostyFire1, @jordanamr, @JustACasualDay, @koolkrafter5, @kuba6000, @Kynake, @leagris, @LeonidMem, @LewisSaber, @lynxx131, @MCTBL, @Miklebe, @RecursivePineapple, @sbwaz, @sisyphussy, @SKProCH, @slprime, @UltraProdigy, @Vlamonster, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
