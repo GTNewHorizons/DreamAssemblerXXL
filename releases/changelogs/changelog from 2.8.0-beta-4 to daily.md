@@ -166,8 +166,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix Microcontroller not Transferring Fluid Correctly with `transferFluid` by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/157 (1.11.19-GTNH)
 
-# Updated - Salis-Arcana - 1.1.31-GTNH --> 1.1.32-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.31-GTNH...1.1.32-GTNH
+# Updated - Salis-Arcana - 1.1.31-GTNH --> 1.1.33-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.31-GTNH...1.1.33-GTNH
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
