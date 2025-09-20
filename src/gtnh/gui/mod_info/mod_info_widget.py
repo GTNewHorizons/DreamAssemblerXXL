@@ -153,7 +153,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and update_all its childs
+        Method to update the widget and update all its childs
 
         :return: None
         """
@@ -163,7 +163,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and update_all its childs
+        Method to hide the widget and update all its childs
         :return None:
         """
         for widget in self.widgets:
@@ -214,7 +214,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def reset(self) -> None:
         """
-        Method to reset update_all the fields.
+        Method to reset all the fields.
 
         :return: None
         """

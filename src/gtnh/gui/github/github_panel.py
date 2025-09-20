@@ -144,7 +144,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         )
         self.btn_refresh_all: CustomButton = CustomButton(
             self,
-            text="Refresh update_all the repositories",
+            text="Refresh the repositories",
             command=lambda: asyncio.ensure_future(self.refresh_all()),
             themed=self.themed,
         )
@@ -208,7 +208,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and update_all its childs
+        Method to update the widget and update all its childs
 
         :return: None
         """
@@ -220,7 +220,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and update_all its childs
+        Method to hide the widget and update all its childs
         :return None:
         """
         self.mod_info_frame.grid_forget()
@@ -430,7 +430,7 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     async def refresh_all(self) -> None:
         """
-        Method used to refresh update_all the github mod assets.
+        Method used to refresh all the github mod assets.
 
         :return: None
         """

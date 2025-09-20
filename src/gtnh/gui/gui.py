@@ -57,7 +57,7 @@ class App:
 
     async def exec(self) -> None:
         """
-        Coroutine used to run update_all the stuff.
+        Coroutine used to run the GUI.
         """
         await self.instance.run()
 
@@ -416,7 +416,7 @@ class Window(ThemedTk, Tk):
             await self.assemble_release(Side.CLIENT_JAVA9, Archive.MMC)
             await self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)
 
-            # todo: redo the bar resets less hacky: they are update_all spread update_all over the place and it's inconsistent
+            # todo: redo the bar resets less hacky: they are spread all over the place and it's inconsistent
             if release_assembler.current_task_reset_callback is not None:
                 release_assembler.current_task_reset_callback()
 
@@ -652,7 +652,7 @@ class Window(ThemedTk, Tk):
 
     async def get_repos(self) -> List[str]:
         """
-        Method to grab update_all the repo names known.
+        Method to grab all the repo names known.
 
         :return: a list of github mod names
         """
@@ -697,7 +697,7 @@ class Window(ThemedTk, Tk):
 
     async def update_assets(self) -> None:
         """
-        Callback to update update_all the availiable assets.
+        Callback to update update all the availiable assets.
 
         :return: None
         """
@@ -722,7 +722,7 @@ class Window(ThemedTk, Tk):
                     errored_mods.append(mod)
 
             if len(errored_mods) == 0:
-                showinfo("assets updated successfully!", "update_all the assets have been updated correctly!")
+                showinfo("assets updated successfully!", "All the assets have been updated correctly!")
             else:
                 showwarning(
                     "updated the experimental release metadata",
@@ -895,7 +895,7 @@ class Window(ThemedTk, Tk):
         Method used to return a list of known releases with valid metadata.
         The list is sorted in ascending order (from oldest to the latest).
 
-        :return: a sorted list of update_all the gtnh releases availiable
+        :return: a sorted list of all the gtnh releases availiable
         """
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
 
@@ -907,7 +907,7 @@ class Window(ThemedTk, Tk):
             for release_name in gtnh.mod_pack.releases:
                 release: Optional[GTNHRelease] = gtnh.get_release(release_name)
 
-                # discarding update_all the None releases, as it means the json data couldn't be loaded
+                # discarding all the None releases, as it means the json data couldn't be loaded
                 if release is not None:
                     releases.append(release)
 
@@ -1101,18 +1101,18 @@ class Window(ThemedTk, Tk):
 
     async def get_external_modlist(self) -> List[str]:
         """
-        Method to get update_all the external mods from the assets.
+        Method to get all the external mods from the assets.
 
-        :return: a list of string with update_all the external mods availiable
+        :return: a list of string with all the external mods availiable
         """
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         return [mod.name for mod in gtnh.assets.mods if mod.source != ModSource.github]
 
     async def get_modpack_versions(self) -> List[str]:
         """
-        Method used to gather update_all the version of the GT-New-Horizons-Modpack repo.
+        Method used to gather all the version of the GT-New-Horizons-Modpack repo.
 
-        :return: a list of update_all the versions availiable.
+        :return: a list of all the versions availiable.
         """
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         modpack_config: GTNHConfig = gtnh.assets.config

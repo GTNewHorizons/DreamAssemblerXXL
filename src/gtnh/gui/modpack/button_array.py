@@ -44,7 +44,7 @@ class ButtonArrayCallback:
 
 class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
     """
-    Widget managing update_all the buttons related to pack assembling.
+    Widget managing the buttons related to pack assembling.
     """
 
     def __init__(
@@ -256,7 +256,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and update_all its childs
+        Method to update the widget and update all its childs
 
         :return: None
         """
@@ -266,7 +266,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and update_all its childs
+        Method to hide the widget and update all its childs
         :return None:
         """
         for widget in self.widgets:
