@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-20T03:42:28.924077",
-  "config": "2.8.0-nightly-2025-09-18",
+  "last_updated": "2025-09-20T14:53:50.669344",
+  "config": "2.8.0-nightly-2025-09-20",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.11-GTNH",
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.7.50",
+      "version": "1.7.51",
       "side": "BOTH"
     },
     "Botania": {
@@ -117,7 +117,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.16.12-GTNH",
+      "version": "2.16.13-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -157,7 +157,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.4.26-GTNH",
+      "version": "1.4.27-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.457",
+      "version": "5.09.51.458",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.105",
+      "version": "2.6.106",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -317,7 +317,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.5.8-GTNH",
+      "version": "2.5.9-GTNH",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.253",
+      "version": "2.7.254",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -357,11 +357,11 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.12",
+      "version": "1.7.13",
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.86-GTNH",
+      "version": "2.7.87-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -409,7 +409,7 @@
       "side": "BOTH"
     },
     "ProjectBlue": {
-      "version": "1.2.0-GTNH",
+      "version": "1.2.1-GTNH",
       "side": "BOTH"
     },
     "ProjectRed": {
@@ -477,7 +477,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.22",
+      "version": "1.4.23",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -505,7 +505,7 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.4.5-GTNH",
+      "version": "1.4.7-GTNH",
       "side": "BOTH"
     },
     "ThaumicBases": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.11.20",
+      "version": "2.11.22",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.13.53-GTNH",
+      "version": "1.13.54-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -553,7 +553,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.12",
+      "version": "2.7.13",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.60",
+      "version": "2.1.61",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "neiaddons": {
-      "version": "1.16.0",
+      "version": "1.17.0",
       "side": "BOTH"
     },
     "Angelica": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.1.14-GTNH",
+      "version": "2.1.15-GTNH",
       "side": "BOTH"
     },
     "Postea": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "IronTankMinecarts": {
-      "version": "1.0.11",
+      "version": "1.0.12",
       "side": "BOTH"
     },
     "CoreTweaks": {
@@ -793,11 +793,11 @@
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
-      "version": "1.5.7-backhand",
+      "version": "1.5.8-backhand",
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.7.1",
+      "version": "1.7.2",
       "side": "BOTH"
     },
     "AE2NoUltimatePatterns": {
