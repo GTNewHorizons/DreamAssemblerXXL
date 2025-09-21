@@ -16,6 +16,7 @@ from gtnh.gtnh_logger import get_logger
 from gtnh.gui.exclusion.exclusion_panel import ExclusionPanel, ExclusionPanelCallback
 from gtnh.gui.external.external_panel import ExternalPanel, ExternalPanelCallback
 from gtnh.gui.github.github_panel import GithubPanel, GithubPanelCallback
+from gtnh.gui.lib.progress_bar import CustomProgressBar
 from gtnh.gui.modpack.modpack_panel import ModpackPanel, ModpackPanelCallback
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
@@ -122,6 +123,7 @@ class Window(ThemedTk, Tk):
             update_all=lambda: asyncio.ensure_future(self.assemble_all()),
             update_beta=lambda: asyncio.ensure_future(self.assemble_beta()),
             generate_changelog=lambda: asyncio.ensure_future(self.generate_changelog()),
+            generate_cf_files=lambda: asyncio.ensure_future(self.generetate_intermediate_cf_files()),
             load=lambda release_name: asyncio.ensure_future(self.load_gtnh_version(release_name)),
             delete=lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)),
             add=lambda release_name, previous_version: asyncio.ensure_future(
@@ -305,6 +307,32 @@ class Window(ThemedTk, Tk):
             if not self.toggled:
                 self.trigger_toggle()
             raise e
+
+    async def generetate_intermediate_cf_files(self) -> None:
+        """
+        Method used to generate curseforge intermediate files.
+
+        :return: None
+        """
+        global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        task_callback_object: CustomProgressBar = self.modpack_list_frame.action_frame.progress_bar_current_task
+        try:
+            self.set_progress(100 / 3)
+            self.trigger_toggle()
+
+            release_assembler = await self.pre_assembling()
+            global_callback(self.get_progress(), f"Generating the dependencies.json")
+            await release_assembler.curse_assembler.generate_json_dep(task_callback_object)
+            global_callback(self.get_progress(), f"Generating the archive containing the mods to upload")
+            release_assembler.curse_assembler.generate_mods_to_upload(task_callback_object)
+            self.trigger_toggle()
+        except BaseException as e:
+            showerror(
+                "An error occured during the generation of the intermediate curseforge files",
+                f"An error occured during the generation of the intermediate curseforge files."
+                "\n Please check the logs for more information.",
+            )
+            self.trigger_toggle()
 
     async def assemble_release(self, side: Side, archive_type: Archive) -> None:
         """

@@ -10,8 +10,9 @@ from colorama import Fore
 
 from gtnh.assembler.downloader import get_asset_version_cache_location
 from gtnh.assembler.generic_assembler import GenericAssembler
-from gtnh.defs import CACHE_DIR, MAVEN_BASE_URL, RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side
+from gtnh.defs import CACHE_DIR, MAVEN_BASE_URL, RELEASE_CURSE_DIR, ROOT_DIR, ModSource, Side, CURSEFORGE_CACHE_DIR
 from gtnh.gtnh_logger import get_logger
+from gtnh.gui.lib.progress_bar import CustomProgressBar
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
 from gtnh.models.gtnh_version import GTNHVersion
@@ -138,7 +139,9 @@ class CurseAssembler(GenericAssembler):
         self.overrides_folder = Path("overrides")
         self.manifest_json = Path("manifest.json")
         self.dependencies_json = self.overrides_folder / "config" / "dependencies.json"
-        self.tempfile = CACHE_DIR / "temp"
+        self.tempfile = CURSEFORGE_CACHE_DIR / f"dependencies-{release.version}.json"
+        self.download_archive = RELEASE_CURSE_DIR / f"downloads-{release.version}.zip"
+        self.has_tempfile_been_generated: bool = False
         self.overrides = ROOT_DIR / "overrides.png"
         self.overrideslash = ROOT_DIR / "overrideslash.png"
 
@@ -170,7 +173,7 @@ class CurseAssembler(GenericAssembler):
             log.info("Adding manifest.json to the archive")
             self.generate_meta_data(side, archive)
             log.info("Adding dependencies.json to the archive")
-            await self.generate_json_dep(side, archive)
+            await self.add_dep_file_to_archive(archive)
             log.info("Adding overrides to the archive")
             self.add_overrides(side, archive)
             log.info("Adding locales to the archive")
@@ -223,52 +226,86 @@ class CurseAssembler(GenericAssembler):
         assert self.changelog_path
         self.add_changelog(archive, arcname=self.overrides_folder / self.changelog_path.name)
 
-    async def generate_json_dep(self, side: Side, archive: ZipFile) -> None:
+    def strip_curse_mods_from_mod_list(self, side:Side) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
+        filtering = lambda mod, version: not (mod.name == "NewHorizonsCoreMod" or is_valid_curse_mod(mod, version))
+        return [(mod, version) for mod, version in self.get_mods(side) if filtering(mod, version)]
+
+    async def add_dep_file_to_archive(self, archive:ZipFile) -> None:
         """
-        Generates the dependencies.json and puts it in the archive.
+        Add the dependencies.json file to the archive.
 
-        :param side: the side of the archive
-        :param archive: the zipfile object
-        :return: None
+        :param archive: the archive ZIP file
         """
-        mod_list: List[Tuple[GTNHModInfo, GTNHVersion]] = self.get_mods(side)
-        mod: GTNHModInfo
-        version: GTNHVersion
-        dep_json: List[Dict[str, str]] = []
-        with ZipFile(RELEASE_CURSE_DIR / "downloads.zip", "w", compression=ZIP_DEFLATED) as file:
-            async with httpx.AsyncClient(http2=True) as client:
-                for mod, version in mod_list:
-                    if mod.name == "NewHorizonsCoreMod" or is_valid_curse_mod(mod, version):
-                        continue  # skipping it as it's in the overrides
-
-                    url: Optional[str]
-                    if mod.source == ModSource.github:
-                        if not version.maven_url:
-                            url = await resolve_github_url(client, mod, version)
-                        else:
-                            url = version.maven_url
-
-                        # Hacky detection
-                        if url and "nexus.gtnewhorizons.com" in url:
-                            version.maven_url = url
-                    else:
-                        url = version.download_url
-
-                    path: Path = get_asset_version_cache_location(mod, version)
-                    file.write(path, arcname=path.name)
-                    assert url
-                    url = f"https://downloads.gtnewhorizons.com/Mods_for_Twitch/{urlquote(path.name)}"  # temporary override until maven is fixed
-                    mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
-
-                    dep_json.append(mod_obj)
-
-        with open(self.tempfile, "w") as temp:
-            dump(dep_json, temp, indent=2)
+        if not self.has_tempfile_been_generated:
+            await self.generate_json_dep()
 
         archive.write(self.tempfile, arcname=str(self.dependencies_json))
         if self.task_progress_callback is not None:
             self.task_progress_callback(self.get_progress(), f"adding {self.dependencies_json} to the archive")
-        self.tempfile.unlink()
+
+    def generate_mods_to_upload(self, task_progressbar:CustomProgressBar) -> None:
+        """
+        Generates the mods to upload on the download server listed in the dependencies.json
+
+        :param task_progressbar: the progressbar corresponding to the current task progress
+        :return: None
+        """
+        if task_progressbar is not None:
+            task_progressbar.reset()
+        with ZipFile(self.download_archive, "w", compression=ZIP_DEFLATED) as file:
+            mod_list = self.strip_curse_mods_from_mod_list(Side.CLIENT)
+            progress = 100.0 / len(mod_list)
+            for mod, version in mod_list:
+                path: Path = get_asset_version_cache_location(mod, version)
+                if task_progressbar is not None:
+                    task_progressbar.add_progress(progress, f"Adding {mod.name} to the archives of the mods to be uploaded")
+                file.write(path, arcname=path.name)
+        if task_progressbar is not None:
+            task_progressbar.add_progress(1, "Done!")
+
+
+    async def generate_json_dep(self, task_progressbar:Optional[CustomProgressBar]=None) -> None:
+        """
+        Generates the dependencies.json.
+
+        :param task_progressbar: the progressbar corresponding to the current task progress
+        :return: None
+        """
+        dep_json: List[Dict[str, str]] = []
+        if task_progressbar is not None:
+            task_progressbar.reset()
+        async with httpx.AsyncClient(http2=True) as client:
+            mod_list = self.strip_curse_mods_from_mod_list(Side.CLIENT)
+            progress = 100.0 / len(mod_list)
+
+            for mod, version in mod_list:
+                url: Optional[str]
+                if mod.source == ModSource.github:
+                    if not version.maven_url:
+                        url = await resolve_github_url(client, mod, version)
+                    else:
+                        url = version.maven_url
+
+                    # Hacky detection
+                    if url and "nexus.gtnewhorizons.com" in url:
+                        version.maven_url = url
+                else:
+                    url = version.download_url
+
+                path: Path = get_asset_version_cache_location(mod, version)
+
+                assert url
+                url = f"https://downloads.gtnewhorizons.com/Mods_for_Twitch/{urlquote(path.name)}"  # temporary override until maven is fixed
+                mod_obj: Dict[str, str] = {"path": f"mods/{version.filename}", "url": url}
+                if task_progressbar is not None:
+                    task_progressbar.add_progress(progress, f"Adding {mod.name} to dependencies.json")
+                dep_json.append(mod_obj)
+        self.tempfile.parent.mkdir(parents=True, exist_ok=True)
+        with open(self.tempfile, "w") as temp:
+            dump(dep_json, temp, indent=2)
+        if task_progressbar is not None:
+            task_progressbar.add_progress(1, "Done!")
+
 
     def generate_meta_data(self, side: Side, archive: ZipFile) -> None:
         """

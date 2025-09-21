@@ -25,6 +25,7 @@ class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
         update_all: Callable[[], Task[None]],
         update_beta: Callable[[], Task[None]],
         generate_changelog: Callable[[], Task[None]],
+        generate_cf_files: Callable[[], Task[None]],
         load: Callable[[str], Task[None]],
         delete: Callable[[str], Task[None]],
         add: Callable[[str, str], Task[None]],
@@ -45,6 +46,7 @@ class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
             update_all=update_all,
             update_beta=update_beta,
             generate_changelog=generate_changelog,
+            generate_intermediate_cf_files=generate_cf_files,
         )
 
         ReleaseListCallback.__init__(self, load=load, delete=delete, add=add)
