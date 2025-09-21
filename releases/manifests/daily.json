@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-21T03:49:21.234241",
+  "last_updated": "2025-09-21T15:52:15.790470",
   "config": "2.8.0-nightly-2025-09-20-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-687-GTNH",
+      "version": "rv3-beta-688-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -145,7 +145,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.8.10",
+      "version": "1.8.11",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.458",
+      "version": "5.09.51.459",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.254",
+      "version": "2.7.256",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.13",
+      "version": "1.7.14",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.11.22",
+      "version": "2.11.23",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.8.13",
+      "version": "1.8.14",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -797,7 +797,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.7.2",
+      "version": "1.7.3",
       "side": "BOTH"
     },
     "AE2NoUltimatePatterns": {

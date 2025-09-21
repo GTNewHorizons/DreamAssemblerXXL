@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-20T14:53:50.669344",
-  "config": "2.8.0-nightly-2025-09-20",
+  "last_updated": "2025-09-21T03:49:21.234241",
+  "config": "2.8.0-nightly-2025-09-20-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.11-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-686-GTNH",
+      "version": "rv3-beta-687-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -61,7 +61,7 @@
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
-      "version": "1.7.0-GTNH",
+      "version": "1.7.2-GTNH",
       "side": "CLIENT"
     },
     "BetterP2P": {
