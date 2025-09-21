@@ -136,7 +136,7 @@ view-distance=8
 spawn-protection=1
 motd=GT:New Horizons {0}"""
 
-JAVA_9_ARCHIVE_SUFFIX = "Java_17-21"
+JAVA_9_ARCHIVE_SUFFIX = "Java_17-25"
 
 
 class Side(str, Enum):
