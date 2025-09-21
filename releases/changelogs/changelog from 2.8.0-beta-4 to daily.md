@@ -11,10 +11,11 @@
 >* German translation by @2ndDerivative in https://github.com/GTNewHorizons/AdventureBackpack2/pull/32 (1.3.11-GTNH)
 >* Don't prohibit cape rendering by @FrostyFire1 in https://github.com/GTNewHorizons/AdventureBackpack2/pull/33 (1.3.10-GTNH)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-684-GTNH --> rv3-beta-686-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-684-GTNH...rv3-beta-686-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-684-GTNH --> rv3-beta-687-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-684-GTNH...rv3-beta-687-GTNH
 
 ## What's Changed:
+>* Optional Baubles by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/855 (rv3-beta-687-GTNH)
 >* Fix usage >100% in crafting calculation  by @zyf051520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/850 (rv3-beta-686-GTNH)
 >* Prevent potential permission issues when calculate the percentage by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/849 (rv3-beta-685-GTNH)
 
@@ -42,6 +43,14 @@
 ## What's Changed:
 >* Fix baubles not being applied on login by @DarkShadow44 in https://github.com/GTNewHorizons/Baubles-Expanded/pull/14 (2.1.15-GTNH)
 >* New Curios-Inspired GUI by @koolkrafter5 in https://github.com/GTNewHorizons/Baubles-Expanded/pull/13 (2.1.14-GTNH)
+
+# Updated - BetterLoadingScreen - 1.7.0-GTNH --> 1.7.2-GTNH
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.7.0-GTNH...1.7.2-GTNH
+
+## What's Changed:
+>* German translation by @2ndDerivative in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/26 (1.7.2-GTNH)
+>* Fix Unicode in Loading Screen by @slprime in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/27 (1.7.1-GTNH)
 
 # Updated - BetterQuesting - 3.7.13-GTNH --> 3.7.14-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.13-GTNH...3.7.14-GTNH
@@ -294,4 +303,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change log level of callbackRegistration by @Alexdoru in https://github.com/GTNewHorizons/waila/pull/39 (1.8.13)
 
 # Credits
-Special thanks to @0hwx, @2ndDerivative, @ABKQPO, @Alexdoru, @AzodFR, @btbenedi, @C-Remilian, @Caedis, @chrombread, @danyadev, @DarkShadow44, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @Engineer12798, @FcNaCl, @FourIsTheNumber, @FrostyFire1, @glektarssza, @JohnButlerThird, @jordanamr, @JustACasualDay, @Keridos, @koolkrafter5, @kuba6000, @Kynake, @LazyFleshWasTaken, @leagris, @LeonidMem, @LewisSaber, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @Pilzinsel64, @PlayfulPiano, @RecursivePineapple, @sbwaz, @sisyphussy, @SKProCH, @slprime, @UltraProdigy, @Vlamonster, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @2ndDerivative, @ABKQPO, @Alexdoru, @AzodFR, @btbenedi, @C-Remilian, @Caedis, @chrombread, @danyadev, @DarkShadow44, @DylanTaylor1, @Eldrinn-Elantey, @EnderProyects, @Engineer12798, @FcNaCl, @FourIsTheNumber, @FrostyFire1, @glektarssza, @JohnButlerThird, @jordanamr, @JustACasualDay, @Keridos, @Kogepan229, @koolkrafter5, @kuba6000, @Kynake, @LazyFleshWasTaken, @leagris, @LeonidMem, @LewisSaber, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @Pilzinsel64, @PlayfulPiano, @RecursivePineapple, @sbwaz, @sisyphussy, @SKProCH, @slprime, @UltraProdigy, @Vlamonster, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
