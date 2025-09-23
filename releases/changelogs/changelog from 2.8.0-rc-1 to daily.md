@@ -4,10 +4,19 @@
 ## What's Changed:
 >* Fix npe caused by previous inv desync fix by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/149 (1.7.4)
 
-# Updated - GT5-Unofficial - 5.09.51.459 --> 5.09.51.461
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.459...5.09.51.461
+# Updated - Et-Futurum-Requiem - 2.6.2.21-GTNH-daily --> 2.6.2.22-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.21-GTNH-daily...2.6.2.22-GTNH
 
 ## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - GT5-Unofficial - 5.09.51.459 --> 5.09.51.462
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.459...5.09.51.462
+
+## What's Changed:
+>* Buff Speed on Concrete to Match Chisel's Concrete by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4910 (5.09.51.462)
+>* Cleanup isamill code by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4911 (5.09.51.462)
+>* Fixed integer overflow in the extra catalyst check for the dtpf by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4906 (5.09.51.462)
+>* Fix random redstone sniffer crash by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4908 (5.09.51.462)
 >* fix digital tank base UI spamming chat  by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4902 (5.09.51.461)
 >* Use True Manhattan Distance for Long Distance Pipes by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4903 (5.09.51.461)
 >* Fix chat message exception by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4899 (5.09.51.460)
@@ -20,10 +29,11 @@
 ## What's Changed:
 >* Emt oredict circuit fix by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1382 (2.7.257)
 
-# Updated - NotEnoughItems - 2.7.87-GTNH --> 2.7.88-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.87-GTNH...2.7.88-GTNH
+# Updated - NotEnoughItems - 2.7.87-GTNH --> 2.7.89-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.87-GTNH...2.7.89-GTNH
 
 ## What's Changed:
+>* Fix NBT Copy by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/728 (2.7.89-GTNH)
 >* Fix None hotkeys for java8 by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/726 (2.7.88-GTNH)
 
 # Updated - ThaumicHorizons - 1.7.6 --> 1.7.8
@@ -46,4 +56,4 @@
 >* bump major java versions to j25 by @boubou19 in https://github.com/GTNewHorizons/lwjgl3ify/pull/237 (2.1.15)
 
 # Credits
-Special thanks to @ABKQPO, @Aerindor-of-Arcane, @boubou19, @chrombread, @Lyfts, @RecursivePineapple, @sisyphussy, @slprime, @SST-03, @Vlamonster, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Aerindor-of-Arcane, @boubou19, @chrombread, @FrostyFire1, @Lyfts, @RecursivePineapple, @sisyphussy, @slprime, @SST-03, @TheYoingLad, @Vlamonster, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
