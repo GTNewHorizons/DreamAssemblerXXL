@@ -1,3 +1,9 @@
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-688-GTNH --> rv3-beta-689-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-688-GTNH...rv3-beta-689-GTNH
+
+## What's Changed:
+>* Do not try to extract any AE power when there is infinte energy attached by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/857 (rv3-beta-689-GTNH)
+
 # Updated - Backhand - 1.7.3 --> 1.7.5
 **Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.7.3...1.7.5
 
@@ -11,23 +17,34 @@
 ## What's Changed:
 >* Add null stack check by @Caedis in https://github.com/GTNewHorizons/BetterP2P/pull/37 (1.3.2)
 
-# Updated - Binnie - 2.5.17 --> 2.5.18
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.17...2.5.18
+# Updated - Binnie - 2.5.17 --> 2.5.21
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.17...2.5.21
 
 ## What's Changed:
+>* Batch Actions and Defer Registration of Slots by @Vlamonster in https://github.com/GTNewHorizons/Binnie/pull/72 (2.5.21)
+>* Fix metadata error when using Scooporator MX200 Turbo by @zhehedream in https://github.com/GTNewHorizons/Binnie/pull/69 (2.5.21)
+>* Extract Magic String Constants in `ContainerCraftGUI` by @Vlamonster in https://github.com/GTNewHorizons/Binnie/pull/70 (2.5.20)
+>* Fix Inventory List Crash by @Vlamonster in https://github.com/GTNewHorizons/Binnie/pull/71 (2.5.19)
 >* Cleanup `BinnieCorePacketID.java` by @Vlamonster in https://github.com/GTNewHorizons/Binnie/pull/66 (2.5.18)
 >* Change `recieve` -> `receive` by @Vlamonster in https://github.com/GTNewHorizons/Binnie/pull/67 (2.5.18)
 >* Cleanup `ContainerCraftGUI` by @Vlamonster in https://github.com/GTNewHorizons/Binnie/pull/68 (2.5.18)
 
-# Updated - Et-Futurum-Requiem - 2.6.2.21-GTNH-daily --> 2.6.2.23-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.21-GTNH-daily...2.6.2.23-GTNH
+# Updated - EnderIO - 2.9.22 --> 2.9.23
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.22...2.9.23
+
+## What's Changed:
+>* Cap the length of the baubles inventory by @EmperorSuper in https://github.com/GTNewHorizons/EnderIO/pull/202 (2.9.23)
+
+# Updated - Et-Futurum-Requiem - 2.6.2.21-GTNH-daily --> 2.6.2.24-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.21-GTNH-daily...2.6.2.24-GTNH
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - GT5-Unofficial - 5.09.51.459 --> 5.09.51.463
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.459...5.09.51.463
+# Updated - GT5-Unofficial - 5.09.51.459 --> 5.09.51.464
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.459...5.09.51.464
 
 ## What's Changed:
+>* Fix NEI OC message by @EmperorSuper in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4918 (5.09.51.464)
 >* Remove restriction preventing T8 Water from using the ME Input Bus by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4898 (5.09.51.463)
 >* More Abbreviations and Tooltips by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4913 (5.09.51.463)
 >* Ender IO Pipe Texture Improvement by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4914 (5.09.51.463)
@@ -50,16 +67,17 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Prevent IC2 keybinds from activating in GUIs by @wlhlm in https://github.com/GTNewHorizons/Hodgepodge/pull/619 (2.6.107)
 
-# Updated - InventoryBogoSorter - 1.2.60-GTNH --> 1.2.63-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.60-GTNH...1.2.63-GTNH
+# Updated - InventoryBogoSorter - 1.2.60-GTNH --> 1.2.64-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.60-GTNH...1.2.64-GTNH
 
 ## What's Changed:
+>* Force ignore shortcuts on crafting slots by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/132 (1.2.64-GTNH)
 >* Remove workbench compat by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/126 (1.2.63-GTNH)
 >* Add option to sort the player's inventory with the keybind while the GUI is close by @EmperorSuper in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/129 (1.2.62-GTNH)
 >* fix keybind not working when rebound by @EmperorSuper in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/128 (1.2.61-GTNH)
 
-# Updated - NewHorizonsCoreMod - 2.7.256 --> 2.7.257
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.256...2.7.257
+# Updated - NewHorizonsCoreMod - 2.7.256 --> 2.7.258
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.256...2.7.258
 
 ## What's Changed:
 >* Emt oredict circuit fix by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1382 (2.7.257)
@@ -106,4 +124,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* bump major java versions to j25 by @boubou19 in https://github.com/GTNewHorizons/lwjgl3ify/pull/237 (2.1.15)
 
 # Credits
-Special thanks to @ABKQPO, @Aerindor-of-Arcane, @boubou19, @Caedis, @chrombread, @DylanTaylor1, @EmperorSuper, @FrostyFire1, @GDCloudstrike, @guid118, @jude123412, @kuba6000, @Lyfts, @RecursivePineapple, @sisyphussy, @slprime, @SST-03, @TheYoingLad, @UltraProdigy, @Vlamonster, @wlhlm, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Aerindor-of-Arcane, @boubou19, @Caedis, @chrombread, @DylanTaylor1, @EmperorSuper, @FrostyFire1, @GDCloudstrike, @guid118, @jude123412, @kuba6000, @Lyfts, @RecursivePineapple, @sisyphussy, @slprime, @SST-03, @TheYoingLad, @UltraProdigy, @Vlamonster, @wlhlm, @zhehedream, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

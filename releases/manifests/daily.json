@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-24T15:01:52.204712",
+  "last_updated": "2025-09-24T22:08:15.791132",
   "config": "2.8.0-nightly-2025-09-24",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-688-GTNH",
+      "version": "rv3-beta-689-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.5.18",
+      "version": "2.5.21",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.257",
+      "version": "2.7.258",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.2.23-GTNH",
+      "version": "2.6.2.24-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
