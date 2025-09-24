@@ -1,7 +1,8 @@
-# Updated - Backhand - 1.7.3 --> 1.7.4
-**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.7.3...1.7.4
+# Updated - Backhand - 1.7.3 --> 1.7.5
+**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.7.3...1.7.5
 
 ## What's Changed:
+>* Fix ic2 armor slot offset by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/150 (1.7.5)
 >* Fix npe caused by previous inv desync fix by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/149 (1.7.4)
 
 # Updated - Et-Futurum-Requiem - 2.6.2.21-GTNH-daily --> 2.6.2.22-GTNH
@@ -22,6 +23,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix chat message exception by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4899 (5.09.51.460)
 >* Fix Wrong Energy & Dynamo Texutre by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4904 (5.09.51.460)
 >* Fix "Research Station wrong tooltips" by @SST-03 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4905 (5.09.51.460)
+
+# Updated - Hodgepodge - 2.6.106 --> 2.6.107
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.106...2.6.107
+
+## What's Changed:
+>* Prevent IC2 keybinds from activating in GUIs by @wlhlm in https://github.com/GTNewHorizons/Hodgepodge/pull/619 (2.6.107)
 
 # Updated - NewHorizonsCoreMod - 2.7.256 --> 2.7.257
 **Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.256...2.7.257
@@ -56,4 +63,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* bump major java versions to j25 by @boubou19 in https://github.com/GTNewHorizons/lwjgl3ify/pull/237 (2.1.15)
 
 # Credits
-Special thanks to @ABKQPO, @Aerindor-of-Arcane, @boubou19, @chrombread, @FrostyFire1, @Lyfts, @RecursivePineapple, @sisyphussy, @slprime, @SST-03, @TheYoingLad, @Vlamonster, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @Aerindor-of-Arcane, @boubou19, @chrombread, @FrostyFire1, @Lyfts, @RecursivePineapple, @sisyphussy, @slprime, @SST-03, @TheYoingLad, @Vlamonster, @wlhlm, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
