@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-24T03:45:46.495039",
+  "last_updated": "2025-09-24T12:25:47.933757",
   "config": "2.8.0-nightly-2025-09-23",
   "github_mods": {
     "AdventureBackpack2": {
@@ -65,7 +65,7 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.3.1",
+      "version": "1.3.2",
       "side": "BOTH"
     },
     "BetterQuesting": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.5.17",
+      "version": "2.5.18",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.462",
+      "version": "5.09.51.463",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,11 +361,11 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.89-GTNH",
+      "version": "2.7.90-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.6.19",
+      "version": "2.6.20",
       "side": "BOTH"
     },
     "oauth": {
@@ -457,7 +457,7 @@
       "side": "BOTH"
     },
     "SpiceOfLife": {
-      "version": "2.2.2-carrot",
+      "version": "2.2.3-carrot",
       "side": "BOTH"
     },
     "Steve-s-Factory-Manager": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.60-GTNH",
+      "version": "1.2.63-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.2.22-GTNH",
+      "version": "2.6.2.23-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
