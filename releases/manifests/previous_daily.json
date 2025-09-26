@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-24T12:25:47.933757",
-  "config": "2.8.0-nightly-2025-09-23",
+  "last_updated": "2025-09-26T03:45:43.216247",
+  "config": "2.8.0-nightly-2025-09-24",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.11-GTNH",
@@ -13,7 +13,7 @@
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.9.7-GTNH",
+      "version": "0.9.8-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-688-GTNH",
+      "version": "rv3-beta-689-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.5.18",
+      "version": "2.5.22",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.22",
+      "version": "2.9.25",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.463",
+      "version": "5.09.51.465",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.28",
+      "version": "2.8.29",
       "side": "BOTH"
     },
     "ironchest": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.257",
+      "version": "2.7.258",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.11.25",
+      "version": "2.11.26",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.2.63-GTNH",
+      "version": "1.2.64-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.2.23-GTNH",
+      "version": "2.6.2.24-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
