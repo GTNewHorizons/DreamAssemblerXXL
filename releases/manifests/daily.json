@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-25T03:47:20.154709",
+  "last_updated": "2025-09-26T03:45:43.216247",
   "config": "2.8.0-nightly-2025-09-24",
   "github_mods": {
     "AdventureBackpack2": {
@@ -13,7 +13,7 @@
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.9.7-GTNH",
+      "version": "0.9.8-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.5.21",
+      "version": "2.5.22",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.23",
+      "version": "2.9.25",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.464",
+      "version": "5.09.51.465",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.8.28",
+      "version": "2.8.29",
       "side": "BOTH"
     },
     "ironchest": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.11.25",
+      "version": "2.11.26",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
