@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-27T03:42:26.835592",
+  "last_updated": "2025-09-27T16:07:42.490996",
   "config": "2.8.0-nightly-2025-09-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.114-gtnh",
+      "version": "1.4.115-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-689-GTNH",
+      "version": "rv3-beta-690-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.469",
+      "version": "5.09.51.470",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.107",
+      "version": "2.6.108",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.259",
+      "version": "2.7.260",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.7.90-GTNH",
+      "version": "2.7.91-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
