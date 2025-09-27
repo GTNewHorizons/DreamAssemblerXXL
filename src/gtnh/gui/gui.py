@@ -332,7 +332,9 @@ class Window(ThemedTk, Tk):
                 f"An error occured during the generation of the intermediate curseforge files."
                 "\n Please check the logs for more information.",
             )
-            self.trigger_toggle()
+            if not self.toggled:
+                self.trigger_toggle()
+            raise e
 
     async def assemble_release(self, side: Side, archive_type: Archive) -> None:
         """
