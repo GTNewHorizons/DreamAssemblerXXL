@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-09-26T16:08:30.592517",
+  "last_updated": "2025-09-27T03:42:26.835592",
   "config": "2.8.0-nightly-2025-09-26",
   "github_mods": {
     "AdventureBackpack2": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.25",
+      "version": "2.9.26",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.468",
+      "version": "5.09.51.469",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta56",
+      "version": "1.0.0-beta57",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -777,7 +777,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.2.24-GTNH",
+      "version": "2.6.2.25-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
