@@ -230,30 +230,32 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         :param _: the tkinter event passed by the tkinter in the Callback (unused)
         :return: None
         """
-        if self.listbox.has_selection():
-            index: int = self.listbox.get()
-            gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-            mod_info: GTNHModInfo = gtnh.assets.get_mod(self.listbox.get_value_at_index(index))
-            name: str = mod_info.name
-            mod_versions: list[GTNHVersion] = mod_info.versions
-            latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
-            assert latest_version
-            external_mods: Dict[str, ModVersionInfo] = self.get_external_mods_callback()
-            current_version: str = external_mods[name].version if name in external_mods else latest_version.version_tag
+        if not self.listbox.has_selection():
+            return
 
-            _license: str = mod_info.license or "No license detected"
-            side: str = external_mods[name].side if name in external_mods else Side.NONE  # type: ignore
-            side_default: str = mod_info.side
+        index: int = self.listbox.get()
+        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        mod_info: GTNHModInfo = gtnh.assets.get_mod(self.listbox.get_value_at_index(index))
+        name: str = mod_info.name
+        mod_versions: list[GTNHVersion] = mod_info.versions
+        latest_version: Optional[GTNHVersion] = mod_info.get_latest_version()
+        assert latest_version
+        external_mods: Dict[str, ModVersionInfo] = self.get_external_mods_callback()
+        current_version: str = external_mods[name].version if name in external_mods else latest_version.version_tag
 
-            data = {
-                "name": name,
-                "versions": [version.version_tag for version in mod_versions],
-                "current_version": current_version,
-                "license": _license,
-                "side": side,
-                "side_default": side_default,
-            }
-            self.mod_info_callback(data)
+        _license: str = mod_info.license or "No license detected"
+        side: str = external_mods[name].side if name in external_mods else Side.NONE  # type: ignore
+        side_default: str = mod_info.side
+
+        data = {
+            "name": name,
+            "versions": [version.version_tag for version in mod_versions],
+            "current_version": current_version,
+            "license": _license,
+            "side": side,
+            "side_default": side_default,
+        }
+        self.mod_info_callback(data)
 
     async def add_external_mod(self) -> None:
         """
@@ -280,8 +282,11 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         top_level.bind("<Destroy>", close)
 
         mod_addition_frame: ModAdderWindow = ModAdderWindow(
-            top_level, "external mod adder", callbacks=self.mod_adder_callbacks, themed=self.themed
+            master=top_level, frame_name="external mod adder", callbacks=self.mod_adder_callbacks, width=None,
+            mod_name=None, themed=self.themed
         )
+        mod_addition_frame.populate_data(data=None)
+
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()
         top_level.title("External mod addition")
@@ -294,18 +299,19 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         """
         # showerror("Feature not yet implemented", "The removal of external mods from assets is not yet implemented.")
         # don't forget to use self.del_mod_from_memory when implementing this
-        if self.listbox.has_selection():
-            index: int = self.listbox.get()
-            mod_name: str = self.listbox.get_value_at_index(index)
-            gtnh: GTNHModpackManager = await self.get_gtnh_callback()
-            self.listbox.del_value_at_index(index)
-            await gtnh.delete_mod(mod_name)
-        else:
+        if not self.listbox.has_selection():
             showerror(
                 "No curseforge mod selected",
                 "In order to add a new version to a curseforge mod, you must select one first",
             )
             return
+
+        index: int = self.listbox.get()
+        mod_name: str = self.listbox.get_value_at_index(index)
+        gtnh: GTNHModpackManager = await self.get_gtnh_callback()
+        self.listbox.del_value_at_index(index)
+        await gtnh.delete_mod(mod_name)
+
 
     async def add_new_version(self) -> None:
         """
@@ -313,37 +319,41 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
         :return: None
         """
-        if self.listbox.has_selection():
-            index: int = self.listbox.get()
-            mod_name: str = self.listbox.get_value_at_index(index)
-            self.toggle_freeze()
-            top_level: Toplevel = Toplevel(self)
-
-            def close(event: Any = None) -> None:
-                """
-                Method called when toplevel is destroyed.
-
-                :return: None
-                """
-                if event.widget is top_level:
-                    self.toggle_freeze()
-                    asyncio.ensure_future(self.refresh_external_modlist())  # type: ignore
-
-            top_level.bind("<Destroy>", close)
-
-            mod_addition_frame: ModAdderWindow = ModAdderWindow(
-                top_level,
-                "external version adder",
-                callbacks=self.mod_adder_callbacks,
-                mod_name=mod_name,
-                themed=self.themed,
-            )
-            mod_addition_frame.grid()
-            mod_addition_frame.update_widget()
-            top_level.title("External mod addition")
-        else:
+        if not self.listbox.has_selection():
             showerror(
                 "No curseforge mod selected",
                 "In order to add a new version to a curseforge mod, you must select one first",
             )
             return
+
+        index: int = self.listbox.get()
+        mod_name: str = self.listbox.get_value_at_index(index)
+        self.toggle_freeze()
+        top_level: Toplevel = Toplevel(self)
+
+        def close(event: Any = None) -> None:
+            """
+            Method called when toplevel is destroyed.
+
+            :return: None
+            """
+            if event.widget is top_level:
+                self.toggle_freeze()
+                asyncio.ensure_future(self.refresh_external_modlist())  # type: ignore
+
+        top_level.bind("<Destroy>", close)
+
+        mod_addition_frame: ModAdderWindow = ModAdderWindow(
+            top_level,
+            "external version adder",
+            callbacks=self.mod_adder_callbacks,
+            mod_name=mod_name,
+            themed=self.themed,
+        )
+        gtnh = await self.get_gtnh_callback()
+        data = gtnh.assets.get_mod(mod_name)
+        mod_addition_frame.populate_data(data=data)
+        mod_addition_frame.grid()
+        mod_addition_frame.update_widget()
+        top_level.title("New version")
+

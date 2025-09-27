@@ -1,6 +1,8 @@
 import asyncio
 from datetime import datetime
+from enum import Enum
 from tkinter import LabelFrame, Toplevel
+from tkinter.constants import DISABLED, NORMAL
 from tkinter.messagebox import showerror, showinfo, showwarning
 from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, Coroutine, Dict, List, Optional
@@ -14,6 +16,9 @@ from gtnh.models.gtnh_version import CurseFile, GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
+class Sources(int, Enum):
+    CURSEFORGE=1
+    OTHERS=2
 
 class ModAdderCallback:
     def __init__(
@@ -69,16 +74,16 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
         self.width: int = width or 50
 
-        self.add_version_only = mod_name is not None
-        self.add_mod_and_version = mod_name is None
+        self.add_mod_version = mod_name is not None
+        self.add_mod = mod_name is None
 
         self.mod_name = mod_name
         self.mod_choice = RadioChoice(
             self,
             label_text="Choose a source type for the mod",
             update_command=self.update_widget,
-            choices={"CurseForge": 1, "Other": 2},
-            default_value=1,
+            choices={"CurseForge": Sources.CURSEFORGE.value, "Other": Sources.OTHERS.value},
+            default_value=Sources.CURSEFORGE.value,
             themed=self.themed,
         )
 
@@ -101,7 +106,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
             themed=self.themed,
         )
 
-        if self.add_version_only:
+        if self.add_mod_version:
             asyncio.ensure_future(self.set_mod_source())
 
         self.text_entry_list = [
@@ -113,17 +118,6 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
             self.download_url,
             self.project_url,
         ]
-
-        # debugging purposes
-        self.debug = False
-        if self.debug:
-            self.name.set("TC4Tweaks_test")
-            self.version.set("1.4.22")
-            self.license.set("GNU Affero General Public License")
-            self.browser_url.set("https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/files/4057879")
-            self.download_url.set("https://mediafilez.forgecdn.net/files/4057/879/Thaumcraft4Tweaks-1.4.22.jar")
-            self.project_url.set("https://www.curseforge.com/minecraft/mc-mods/tc4tweaks/")
-            self.project_id.set("431297")
 
     async def set_mod_source(self) -> None:
         """
@@ -207,20 +201,21 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
             "license": "missing license",
         }
 
+        # todo: prevent the addition of the same version as one already in the database
         validation = self.check_inputs()
 
-        not_curse_src: bool = self.mod_choice.get() != 1
-        curse_src: bool = self.mod_choice.get() == 1
+        not_curse_src: bool = self.mod_choice.get() != Sources.CURSEFORGE.value
+        curse_src: bool = self.mod_choice.get() == Sources.CURSEFORGE.value
 
         blacklist_external_source: List[str] = ["project_id"]
         blacklist_external_source_new_version: List[str] = ["project_id", "project_url", "license"]
         blacklist_curse_new_version: List[str] = ["project_id", "project_url", "license"]
         blacklist_curse: List[str] = []
-        only_mod: bool = self.add_version_only
-        only_mod_external: bool = self.add_version_only and not_curse_src
-        only_mod_curse: bool = self.add_version_only and curse_src
-        external_mod: bool = not self.add_version_only and not_curse_src
-        curse_mod: bool = not self.add_version_only and curse_src
+        only_mod: bool = self.add_mod_version
+        only_mod_external: bool = self.add_mod_version and not_curse_src
+        only_mod_curse: bool = self.add_mod_version and curse_src
+        external_mod: bool = not self.add_mod_version and not_curse_src
+        curse_mod: bool = not self.add_mod_version and curse_src
 
         blacklist: List[str]
 
@@ -246,89 +241,88 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
             )
             return
 
-        else:
-            gtnh = await self.get_gtnh_callback()
+        gtnh = await self.get_gtnh_callback()
 
-            name: str = self.mod_name if only_mod else self.name.get()  # type: ignore
+        name: str = self.mod_name if only_mod else self.name.get()  # type: ignore
 
-            if gtnh.assets.has_mod(name) and self.add_mod_and_version:
-                showwarning("Mod already existing", f"the mod {name} already exists in the database.")
+        if gtnh.assets.has_mod(name) and self.add_mod:
+            showwarning("Mod already existing", f"the mod {name} already exists in the database.")
+            return
+
+        version: str = self.version.get()
+        download_url: str = self.download_url.get()
+        browser_url = self.browser_url.get()
+
+        mod_version: GTNHVersion = GTNHVersion(
+            version_tag=version,
+            changelog="",
+            prerelease=False,
+            tagged_at=datetime.now(),
+            filename=download_url.split("/")[-1],
+            download_url=download_url,
+            browser_download_url=browser_url,
+        )
+
+        if curse_src:
+            try:
+                file_no = int(browser_url.split("/")[-1])
+                mod_version.curse_file = CurseFile(file_no=str(file_no), project_no=self.project_id.get())
+            except ValueError:
+                showwarning("fileNo error", "Cannot parse fileno from provided URL for curse mod")
                 return
 
-            version: str = self.version.get()
-            download_url: str = self.download_url.get()
-            browser_url = self.browser_url.get()
+        mod: GTNHModInfo
+        # adding mod
+        if self.add_mod:
+            _license: str = self.license.get()
+            project_url: str = self.project_url.get()
+            project_id: str = self.project_id.get()
 
-            mod_version: GTNHVersion = GTNHVersion(
-                version_tag=version,
-                changelog="",
-                prerelease=False,
-                tagged_at=datetime.now(),
-                filename=download_url.split("/")[-1],
-                download_url=download_url,
-                browser_download_url=browser_url,
+            mod = GTNHModInfo(
+                latest_version=version,
+                name=name,
+                license=_license,
+                repo_url=None,
+                maven=None,
+                side=Side.BOTH,
+                source=ModSource.curse if curse_src else ModSource.other,
+                disabled=False,
+                external_url=project_url,
+                project_id=project_id if curse_src else None,
+                slug=None,
+                versions=[mod_version],
             )
-            if curse_src:
-                try:
-                    file_no = int(browser_url.split("/")[-1])
-                    mod_version.curse_file = CurseFile(file_no=str(file_no), project_no=self.project_id.get())
-                except ValueError:
-                    showwarning("fileNo error", "Cannot parse fileno from provided URL for curse mod")
-                    return
+            gtnh.assets.add_mod(mod)
 
-            mod: GTNHModInfo
-            # adding mod
-            if self.add_mod_and_version:
-                _license: str = self.license.get()
-                project_url: str = self.project_url.get()
-                project_id: str = self.project_id.get()
+        # adding version
+        else:
+            mod = gtnh.assets.get_mod(name)
 
-                mod = GTNHModInfo(
-                    latest_version=version,
-                    name=name,
-                    license=_license,
-                    repo_url=None,
-                    maven=None,
-                    side=Side.BOTH,
-                    source=ModSource.curse if curse_src else ModSource.other,
-                    disabled=False,
-                    external_url=project_url,
-                    project_id=project_id if curse_src else None,
-                    slug=None,
-                    versions=[mod_version],
+            # if mod has already that version
+            if mod.has_version(mod_version.version_tag):
+                showerror(
+                    "Version already present",
+                    f"Mod version {mod_version.version_tag} already exists in {mod}'s version list!",
                 )
-                gtnh.assets.add_mod(mod)
-                gtnh.save_assets()
+                return
 
-            # adding version
-            else:
-                mod = gtnh.assets.get_mod(name)
+            mod.add_version(mod_version)
 
-                # if mod has already that version
-                if mod.has_version(mod_version.version_tag):
-                    showerror(
-                        "Version already present",
-                        f"Mod version {mod_version.version_tag} already exists in {mod}'s version list!",
-                    )
-                    return
+            # updating latest version
+            if versionable.version_is_newer(mod_version.version_tag, mod.latest_version):
+                mod.latest_version = mod_version.version_tag
 
-                mod.add_version(mod_version)
+        gtnh.save_assets()
 
-                # updating latest version
-                if versionable.version_is_newer(mod_version.version_tag, mod.latest_version):
-                    mod.latest_version = mod_version.version_tag
-
-                gtnh.save_assets()
-
-            if self.add_version_only:
-                showinfo(
-                    "Version added successfully!",
-                    f"Mod version {mod_version.version_tag} has been successfully added to {mod.name}'s version!",
-                )
-            else:
-                showinfo("Mod added successfully!", f"Mod {mod.name} has been successfully added!")
-            self.add_mod_to_memory(mod.name, mod_version.version_tag)
-            self.master.destroy()
+        if self.add_mod_version:
+            showinfo(
+                "Version added successfully!",
+                f"Mod version {mod_version.version_tag} has been successfully added to {mod.name}'s version!",
+            )
+        else:
+            showinfo("Mod added successfully!", f"Mod {mod.name} has been successfully added!")
+        self.add_mod_to_memory(mod.name, mod_version.version_tag)
+        self.master.destroy()
 
     def configure_widgets(self) -> None:
         """
@@ -400,33 +394,46 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
         for i in range(columns + 1):
             self.columnconfigure(i, weight=1, pad=self.ypadding)
 
-        if self.add_mod_and_version:
-            self.mod_choice.grid(row=x, column=y, columnspan=2)
-            self.name.grid(row=x + 1, column=y, columnspan=2)
-
+        self.mod_choice.grid(row=x, column=y, columnspan=2)
+        self.name.grid(row=x + 1, column=y, columnspan=2)
         self.version.grid(row=x + 2, column=y, columnspan=2)
-
         self.download_url.grid(row=x + 3, column=y, columnspan=2)
-
-        if self.mod_choice.get() == 1:  # for curse mods
-            if self.add_mod_and_version:
-                self.project_id.grid(row=x + 4, column=y, columnspan=2)
-
+        self.project_id.grid(row=x + 4, column=y, columnspan=2)
         self.browser_url.grid(row=x + 5, column=y, columnspan=2)
-
-        if self.add_mod_and_version:
-            self.license.grid(row=x + 6, column=y, columnspan=2)
-            self.project_url.grid(row=x + 7, column=y, columnspan=2)
-
+        self.license.grid(row=x + 6, column=y, columnspan=2)
+        self.project_url.grid(row=x + 7, column=y, columnspan=2)
         self.btn_add.grid(row=x + 8, column=y)
+
+        if self.add_mod:
+            if self.mod_choice.get() != Sources.CURSEFORGE.value:
+                self.project_id.configure(state=DISABLED)
+            else:
+                self.project_id.configure(state=NORMAL)
+
+
+        if not self.add_mod:
+            self.mod_choice.grid_forget()
+            self.name.configure(state=DISABLED)
+            self.project_id.configure(state=DISABLED)
+            self.license.configure(state=DISABLED)
+            self.project_url.configure(state=DISABLED)
 
         self.update_idletasks()
 
-    def populate_data(self, data: Any) -> None:
+    def populate_data(self, data: Optional[GTNHModInfo]) -> None:
         """
         Method called by parent class to populate data in this class.
 
         :param data: the data to pass to this class
         :return: None
         """
-        pass
+        if data is None:
+            return
+        self.name.set(data.name)
+        self.license.set(data.license)
+        source = Sources.CURSEFORGE.value if data.source == ModSource.curse else Sources.OTHERS.value
+        self.mod_choice.set(source)
+        self.project_url.set(data.external_url)
+        project_id = "" if data.project_id is None else data.project_id
+        self.project_id.set(project_id)
+
