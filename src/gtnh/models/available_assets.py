@@ -40,7 +40,7 @@ class AvailableAssets(GTNHBaseModel):
                 break
         else:
             raise IndexError(f"mod {mod.name} not found")
-        self.mods[i] = mod
+        self.mods[index] = mod
         self.refresh_modmap()
 
     @staticmethod

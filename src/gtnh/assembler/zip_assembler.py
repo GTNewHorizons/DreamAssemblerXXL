@@ -61,9 +61,7 @@ class ZipAssembler(GenericAssembler):
             if side.is_server() and mod.name == "lwjgl3ify":
                 for extra_asset in version.extra_assets:
                     if extra_asset.filename is not None and extra_asset.filename.endswith("forgePatches.jar"):
-                        extra_asset_path: Path = get_asset_version_cache_location(
-                            mod, version, extra_asset.filename
-                        )
+                        extra_asset_path: Path = get_asset_version_cache_location(mod, version, extra_asset.filename)
                         archive.write(extra_asset_path, arcname=f"{mod.name}-forgePatches.jar")
 
             if self.task_progress_callback is None:

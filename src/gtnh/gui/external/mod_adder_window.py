@@ -16,9 +16,11 @@ from gtnh.models.gtnh_version import CurseFile, GTNHVersion
 from gtnh.models.mod_info import GTNHModInfo
 from gtnh.modpack_manager import GTNHModpackManager
 
+
 class Sources(int, Enum):
-    CURSEFORGE=1
-    OTHERS=2
+    CURSEFORGE = 1
+    OTHERS = 2
+
 
 class ModAdderCallback:
     def __init__(
@@ -45,7 +47,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
         width: Optional[int] = None,
         mod_name: Optional[str] = None,
         themed: bool = False,
-        edit_version_mode:bool=False,
+        edit_version_mode: bool = False,
         **kwargs: Any,
     ):
         """
@@ -106,7 +108,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
             command=lambda: asyncio.ensure_future(self.add_mod_and_version()),
             themed=self.themed,
         )
-        self.edit_version_mode=edit_version_mode
+        self.edit_version_mode = edit_version_mode
         if self.add_mod_version:
             asyncio.ensure_future(self.set_mod_source())
 
@@ -272,8 +274,6 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
                 showwarning("fileNo error", "Cannot parse fileno from provided URL for curse mod")
                 return
 
-
-
         _license: str = self.license.get()
         project_url: str = self.project_url.get()
         project_id: str = self.project_id.get()
@@ -416,7 +416,6 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
             else:
                 self.project_id.configure(state=NORMAL)
 
-
         if not self.add_mod:
             self.name.configure(state=DISABLED)
             if not self.edit_version_mode:
@@ -428,7 +427,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
         self.update_idletasks()
 
-    def populate_data(self, mod: Optional[GTNHModInfo], version:Optional[GTNHVersion]=None) -> None:
+    def populate_data(self, mod: Optional[GTNHModInfo], version: Optional[GTNHVersion] = None) -> None:
         """
         Method called by parent class to populate data in this class.
 
@@ -438,11 +437,11 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
         """
         if mod is None:
             return
-        self.name.set(mod.name)
-        self.license.set(mod.license)
+        self.name.set(mod.name)  # type: ignore
+        self.license.set(mod.license)  # type: ignore
         source = Sources.CURSEFORGE.value if mod.source == ModSource.curse else Sources.OTHERS.value
         self.mod_choice.set(source)
-        self.project_url.set(mod.external_url)
+        self.project_url.set(mod.external_url)  # type: ignore
         print(mod.project_id)
         project_id = "" if mod.project_id is None else mod.project_id
         self.project_id.set(project_id)
@@ -451,8 +450,5 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
             return
 
         self.version.set(version.version_tag)
-        self.download_url.set(version.download_url)
-        self.browser_url.set(version.browser_download_url)
-
-
-
+        self.download_url.set(version.download_url)  # type: ignore
+        self.browser_url.set(version.browser_download_url)  # type: ignore

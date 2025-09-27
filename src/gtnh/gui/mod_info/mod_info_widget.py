@@ -1,6 +1,6 @@
 import asyncio
 from asyncio import Task
-from tkinter import LabelFrame, Listbox, Toplevel
+from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, List, Optional
@@ -26,9 +26,9 @@ class ModInfoCallback:
         self.set_mod_version: Callable[[str, str], None] = set_mod_version
         self.set_mod_side: Callable[[str, Side], Task[None]] = set_mod_side
         self.set_mod_side_default: Callable[[str, str], Task[None]] = set_mod_side_default
-        self.has_listbox_selection: CustomListbox = None
+        self.has_listbox_selection: CustomListbox = None  # type: ignore
 
-    def attach_listbox_object(self, listbox:CustomListbox) -> None:
+    def attach_listbox_object(self, listbox: CustomListbox) -> None:
         self.listbox = listbox
 
 
@@ -44,8 +44,8 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         callbacks: ModInfoCallback,
         width: Optional[int] = None,
         themed: bool = False,
-        external_mods:bool = False,
-        mod_adder_callbacks:Optional[ModAdderCallback]=None,
+        external_mods: bool = False,
+        mod_adder_callbacks: Optional[ModAdderCallback] = None,
         **kwargs: Any,
     ) -> None:
         """
@@ -91,14 +91,19 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         )
 
         self.mod_adder_callbacks = mod_adder_callbacks
+        self.widgets: List[CustomWidget]
         if external_mods:
-            self.widgets: List[CustomWidget] = [self.mod_name, self.version, self.edit_button, self.license, self.side,
-                                                self.side_default]
+            self.widgets = [
+                self.mod_name,
+                self.version,
+                self.edit_button,
+                self.license,
+                self.side,
+                self.side_default,
+            ]
         else:
-            self.widgets: List[CustomWidget] = [self.mod_name, self.version, self.license, self.side, self.side_default]
-        self.width: int = (
-            width if width is not None else max([widget.get_description_size() for widget in self.widgets])
-        )
+            self.widgets = [self.mod_name, self.version, self.license, self.side, self.side_default]
+        self.width: int = width if width is not None else max([widget.get_description_size() for widget in self.widgets])  # type: ignore
 
     async def edit_version(self) -> None:
         if not self.callbacks.listbox.has_selection():
@@ -118,19 +123,19 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         version = self.version.get()
 
         top_level: Toplevel = Toplevel(self)
-        mod_name:str = self.callbacks.listbox.get_value_at_index(self.callbacks.listbox.get())
+        mod_name: str = self.callbacks.listbox.get_value_at_index(self.callbacks.listbox.get())
         mod_addition_frame: ModAdderWindow = ModAdderWindow(
             top_level,
             "external version adder",
-            callbacks=self.mod_adder_callbacks,
+            callbacks=self.mod_adder_callbacks,  # type: ignore
             mod_name=mod_name,
             themed=self.themed,
-            edit_version_mode=True
+            edit_version_mode=True,
         )
-        gtnh = await self.mod_adder_callbacks.get_gtnh_callback()
+        gtnh = await self.mod_adder_callbacks.get_gtnh_callback()  # type: ignore
         data = gtnh.assets.get_mod(mod_name)
         version = data.get_version(version)
-        mod_addition_frame.populate_data(mod=data, version=version)
+        mod_addition_frame.populate_data(mod=data, version=version)  # type: ignore
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()
         top_level.title("Edit new version")
