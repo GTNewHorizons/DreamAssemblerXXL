@@ -84,7 +84,8 @@ class GithubPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
         # Early widget:
 
-        self.mod_info_frame: ModInfoWidget = ModInfoWidget(self, frame_name="Github mod info", callbacks=callbacks)
+        self.mod_info_frame: ModInfoWidget = ModInfoWidget(self, frame_name="Github mod info", callbacks=callbacks,
+                                                           external_mods=False)
 
         # Callbacks:
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks.get_gtnh_callback

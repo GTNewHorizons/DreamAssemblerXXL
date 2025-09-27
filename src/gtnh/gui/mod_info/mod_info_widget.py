@@ -5,6 +5,7 @@ from typing import Any, Callable, List, Optional
 
 from gtnh.defs import Side
 from gtnh.gui.lib.CustomLabel import CustomLabel
+from gtnh.gui.lib.button import CustomButton
 from gtnh.gui.lib.combo_box import CustomCombobox
 from gtnh.gui.lib.custom_widget import CustomWidget
 
@@ -35,6 +36,7 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         callbacks: ModInfoCallback,
         width: Optional[int] = None,
         themed: bool = False,
+        external_mods:bool = False,
         **kwargs: Any,
     ) -> None:
         """
@@ -72,10 +74,23 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         )
         self.current_mod_name = ""
 
-        self.widgets: List[CustomWidget] = [self.mod_name, self.version, self.license, self.side, self.side_default]
+        self.edit_button: CustomButton = CustomButton(
+            self,
+            text="edit version",
+            command=self.edit_version,
+            themed=self.themed,
+        )
+        if external_mods:
+            self.widgets: List[CustomWidget] = [self.mod_name, self.version, self.edit_button, self.license, self.side,
+                                                self.side_default]
+        else:
+            self.widgets: List[CustomWidget] = [self.mod_name, self.version, self.license, self.side, self.side_default]
         self.width: int = (
             width if width is not None else max([widget.get_description_size() for widget in self.widgets])
         )
+
+    def edit_version(self) -> None:
+        pass
 
     def set_mod_side(self, _: Any) -> None:
         """

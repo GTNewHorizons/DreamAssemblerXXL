@@ -73,7 +73,8 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
         self.callbacks = callbacks
 
-        self.mod_info_frame: ModInfoWidget = ModInfoWidget(self, frame_name="External mod info", callbacks=callbacks)
+        self.mod_info_frame: ModInfoWidget = ModInfoWidget(self, frame_name="External mod info", callbacks=callbacks,
+                                                           external_mods=True)
 
         # start
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks.get_gtnh_callback
