@@ -101,7 +101,7 @@ class GenericAssembler:
         for language in self.modpack_manager.assets.translations.versions:
             locale_zip_path: Path = get_asset_version_cache_location(self.modpack_manager.assets.translations, language)
             with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
-                sum += len([item for item in locale_zip.namelist()])
+                sum += len([item for item in locale_zip.namelist() if not item.endswith("/")])
         return sum
 
     def get_mods(self, side: Side) -> List[Tuple[GTNHModInfo, GTNHVersion]]:
@@ -338,14 +338,16 @@ class GenericAssembler:
             list_of_files = archive.namelist()
             with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
                 for item in locale_zip.namelist():
+                    if item.endswith("/"):
+                        continue  # skipping folders creation
+
                     with locale_zip.open(item) as config_item:
                         item_path = item if root_path is None else f"{root_path}/{item}"
                         if item_path in list_of_files:
-                            if item_path[-1] != "/":  # not reporting folders as collisions
-                                log.error(
-                                    f"{item_path} from locale {language.filename.split('-')[1]}"  # type: ignore
-                                    " would overwrite the same file in the archive, skipping it."
-                                )
+                            log.error(
+                                f"{item_path} from locale {language.filename.split('-')[1]}"  # type: ignore
+                                " would overwrite the same file in the archive, skipping it."
+                            )
                             continue
                         with archive.open(item_path, "w") as target:
                             shutil.copyfileobj(config_item, target)

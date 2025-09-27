@@ -58,18 +58,18 @@ class ZipAssembler(GenericAssembler):
             source_file: Path = get_asset_version_cache_location(mod, version)
             archive_path: Path = Path("mods") / source_file.name
             archive.write(source_file, arcname=archive_path)
-            if side.is_server():
+            if side.is_server() and mod.name == "lwjgl3ify":
                 for extra_asset in version.extra_assets:
-                    if extra_asset.filename is not None:
-                        if extra_asset.filename.endswith("forgePatches.jar"):
-                            extra_asset_path: Path = get_asset_version_cache_location(
-                                mod, version, extra_asset.filename
-                            )
-                            archive.write(extra_asset_path, arcname=f"{mod.name}-forgePatches.jar")
-            if self.task_progress_callback is not None:
-                self.task_progress_callback(
-                    self.get_progress(), f"adding mod {mod.name} : version {version.version_tag} to the archive"
-                )
+                    if extra_asset.filename is not None and extra_asset.filename.endswith("forgePatches.jar"):
+                        extra_asset_path: Path = get_asset_version_cache_location(mod, version, extra_asset.filename)
+                        archive.write(extra_asset_path, arcname=f"{mod.name}-forgePatches.jar")
+
+            if self.task_progress_callback is None:
+                continue
+
+            self.task_progress_callback(
+                self.get_progress(), f"adding mod {mod.name} : version {version.version_tag} to the archive"
+            )
 
     def add_server_assets(self, archive: ZipFile, server_brand: ServerBrand, side: Side) -> None:
         assets = self.get_server_assets(server_brand, side)

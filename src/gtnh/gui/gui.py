@@ -16,6 +16,7 @@ from gtnh.gtnh_logger import get_logger
 from gtnh.gui.exclusion.exclusion_panel import ExclusionPanel, ExclusionPanelCallback
 from gtnh.gui.external.external_panel import ExternalPanel, ExternalPanelCallback
 from gtnh.gui.github.github_panel import GithubPanel, GithubPanelCallback
+from gtnh.gui.lib.progress_bar import CustomProgressBar
 from gtnh.gui.modpack.modpack_panel import ModpackPanel, ModpackPanelCallback
 from gtnh.models.gtnh_config import GTNHConfig
 from gtnh.models.gtnh_release import GTNHRelease
@@ -57,7 +58,7 @@ class App:
 
     async def exec(self) -> None:
         """
-        Coroutine used to run update_all the stuff.
+        Coroutine used to run the GUI.
         """
         await self.instance.run()
 
@@ -122,6 +123,7 @@ class Window(ThemedTk, Tk):
             update_all=lambda: asyncio.ensure_future(self.assemble_all()),
             update_beta=lambda: asyncio.ensure_future(self.assemble_beta()),
             generate_changelog=lambda: asyncio.ensure_future(self.generate_changelog()),
+            generate_cf_files=lambda: asyncio.ensure_future(self.generetate_intermediate_cf_files()),
             load=lambda release_name: asyncio.ensure_future(self.load_gtnh_version(release_name)),
             delete=lambda release_name: asyncio.ensure_future(self.delete_gtnh_version(release_name)),
             add=lambda release_name, previous_version: asyncio.ensure_future(
@@ -306,6 +308,36 @@ class Window(ThemedTk, Tk):
                 self.trigger_toggle()
             raise e
 
+    async def generetate_intermediate_cf_files(self) -> None:
+        """
+        Method used to generate curseforge intermediate files.
+
+        :return: None
+        """
+        global_callback: Callable[
+            [float, str], None
+        ] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        task_callback_object: CustomProgressBar = self.modpack_list_frame.action_frame.progress_bar_current_task
+        try:
+            self.set_progress(100 / 3)
+            self.trigger_toggle()
+
+            release_assembler = await self.pre_assembling()
+            global_callback(self.get_progress(), "Generating the dependencies.json")
+            await release_assembler.curse_assembler.generate_json_dep(task_callback_object)
+            global_callback(self.get_progress(), "Generating the archive containing the mods to upload")
+            release_assembler.curse_assembler.generate_mods_to_upload(task_callback_object)
+            self.trigger_toggle()
+        except BaseException as e:
+            showerror(
+                "An error occured during the generation of the intermediate curseforge files",
+                "An error occured during the generation of the intermediate curseforge files."
+                "\n Please check the logs for more information.",
+            )
+            if not self.toggled:
+                self.trigger_toggle()
+            raise e
+
     async def assemble_release(self, side: Side, archive_type: Archive) -> None:
         """
         Method used to trigger the assembling of the client archive corresponding to the provided source.
@@ -416,7 +448,7 @@ class Window(ThemedTk, Tk):
             await self.assemble_release(Side.CLIENT_JAVA9, Archive.MMC)
             await self.assemble_release(Side.SERVER_JAVA9, Archive.ZIP)
 
-            # todo: redo the bar resets less hacky: they are update_all spread update_all over the place and it's inconsistent
+            # todo: redo the bar resets less hacky: they are spread all over the place and it's inconsistent
             if release_assembler.current_task_reset_callback is not None:
                 release_assembler.current_task_reset_callback()
 
@@ -652,7 +684,7 @@ class Window(ThemedTk, Tk):
 
     async def get_repos(self) -> List[str]:
         """
-        Method to grab update_all the repo names known.
+        Method to grab all the repo names known.
 
         :return: a list of github mod names
         """
@@ -697,7 +729,7 @@ class Window(ThemedTk, Tk):
 
     async def update_assets(self) -> None:
         """
-        Callback to update update_all the availiable assets.
+        Callback to update update all the availiable assets.
 
         :return: None
         """
@@ -722,7 +754,7 @@ class Window(ThemedTk, Tk):
                     errored_mods.append(mod)
 
             if len(errored_mods) == 0:
-                showinfo("assets updated successfully!", "update_all the assets have been updated correctly!")
+                showinfo("assets updated successfully!", "All the assets have been updated correctly!")
             else:
                 showwarning(
                     "updated the experimental release metadata",
@@ -895,7 +927,7 @@ class Window(ThemedTk, Tk):
         Method used to return a list of known releases with valid metadata.
         The list is sorted in ascending order (from oldest to the latest).
 
-        :return: a sorted list of update_all the gtnh releases availiable
+        :return: a sorted list of all the gtnh releases availiable
         """
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
 
@@ -907,7 +939,7 @@ class Window(ThemedTk, Tk):
             for release_name in gtnh.mod_pack.releases:
                 release: Optional[GTNHRelease] = gtnh.get_release(release_name)
 
-                # discarding update_all the None releases, as it means the json data couldn't be loaded
+                # discarding all the None releases, as it means the json data couldn't be loaded
                 if release is not None:
                     releases.append(release)
 
@@ -1101,18 +1133,18 @@ class Window(ThemedTk, Tk):
 
     async def get_external_modlist(self) -> List[str]:
         """
-        Method to get update_all the external mods from the assets.
+        Method to get all the external mods from the assets.
 
-        :return: a list of string with update_all the external mods availiable
+        :return: a list of string with all the external mods availiable
         """
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         return [mod.name for mod in gtnh.assets.mods if mod.source != ModSource.github]
 
     async def get_modpack_versions(self) -> List[str]:
         """
-        Method used to gather update_all the version of the GT-New-Horizons-Modpack repo.
+        Method used to gather all the version of the GT-New-Horizons-Modpack repo.
 
-        :return: a list of update_all the versions availiable.
+        :return: a list of all the versions availiable.
         """
         gtnh: GTNHModpackManager = await self._get_modpack_manager()
         modpack_config: GTNHConfig = gtnh.assets.config

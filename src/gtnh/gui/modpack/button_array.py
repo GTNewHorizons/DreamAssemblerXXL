@@ -25,6 +25,7 @@ class ButtonArrayCallback:
         update_all: Callable[[], Task[None]],
         update_beta: Callable[[], Task[None]],
         generate_changelog: Callable[[], Task[None]],
+        generate_intermediate_cf_files: Callable[[], Task[None]],
     ) -> None:
         self.update_assets: Callable[[], Task[None]] = update_asset
         self.generate_experimental: Callable[[], Task[None]] = generate_experimental
@@ -40,11 +41,12 @@ class ButtonArrayCallback:
         self.all: Callable[[], Task[None]] = update_all
         self.beta: Callable[[], Task[None]] = update_beta
         self.generate_changelog: Callable[[], Task[None]] = generate_changelog
+        self.generate_intermediate_cf_files: Callable[[], Task[None]] = generate_intermediate_cf_files
 
 
 class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
     """
-    Widget managing update_all the buttons related to pack assembling.
+    Widget managing the buttons related to pack assembling.
     """
 
     def __init__(
@@ -129,6 +131,13 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
             self.frame_btn, text="Generate changelog", command=callbacks.generate_changelog, themed=self.themed
         )
 
+        self.btn_generate_cf_files: CustomButton = CustomButton(
+            self.frame_btn,
+            text="Generate intermediate CF files",
+            command=callbacks.generate_intermediate_cf_files,
+            themed=self.themed,
+        )
+
         progress_bar_length: int = 500
 
         self.progress_bar_global = CustomProgressBar(
@@ -154,6 +163,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
             self.btn_client_zip,
             self.btn_server_zip,
             self.btn_server_zip_j9,
+            self.btn_generate_cf_files,
             self.progress_bar_global,
             self.progress_bar_current_task,
         ]
@@ -219,6 +229,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         self.btn_server_zip_j9.grid(row=1, column=2)
         self.btn_client_cf.grid(row=2, column=2)
         self.btn_client_modrinth.grid(row=3, column=2)
+        self.btn_generate_cf_files.grid(row=4, column=2)
 
         self.update_idletasks()
 
@@ -256,7 +267,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and update_all its childs
+        Method to update the widget and update all its childs
 
         :return: None
         """
@@ -266,7 +277,7 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and update_all its childs
+        Method to hide the widget and update all its childs
         :return None:
         """
         for widget in self.widgets:
