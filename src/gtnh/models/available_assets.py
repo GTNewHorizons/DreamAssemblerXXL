@@ -28,7 +28,19 @@ class AvailableAssets(GTNHBaseModel):
 
     def add_mod(self, mod: GTNHModInfo) -> None:
         log.info(f"Adding {mod.name}")
-        bisect.insort_right(self.mods, mod, key=self._mod_sort_key)  # type: ignore
+        bisect.insort_right(self.mods, mod, key=self._mod_sort_key)
+        self.refresh_modmap()
+
+    def update_mod(self, mod: GTNHModInfo) -> None:
+        # todo: do something better than this
+        index: int
+        for i in range(len(self.mods)):
+            if self.mods[i].name == mod.name:
+                index = i
+                break
+        else:
+            raise IndexError(f"mod {mod.name} not found")
+        self.mods[i] = mod
         self.refresh_modmap()
 
     @staticmethod

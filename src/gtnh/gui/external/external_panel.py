@@ -71,11 +71,6 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         else:
             TtkLabelFrame.__init__(self, master, text=frame_name, **kwargs)
 
-        self.callbacks = callbacks
-
-        self.mod_info_frame: ModInfoWidget = ModInfoWidget(self, frame_name="External mod info", callbacks=callbacks,
-                                                           external_mods=True)
-
         # start
         self.get_gtnh_callback: Callable[[], Coroutine[Any, Any, GTNHModpackManager]] = callbacks.get_gtnh_callback
         self.get_external_mods_callback: Callable[[], Dict[str, ModVersionInfo]] = callbacks.get_external_mods_callback
@@ -84,13 +79,17 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_in_memory
         self.refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]] = callbacks.refresh_external_modlist
 
-        self.mod_info_callback: Callable[[Any], None] = self.mod_info_frame.populate_data
 
         self.mod_adder_callbacks: ModAdderCallback = ModAdderCallback(
             get_gtnh_callback=self.get_gtnh_callback,
             add_mod_to_memory=self.add_mod_to_memory,
             del_mod_from_memory=self.del_mod_from_memory,
         )
+        self.callbacks = callbacks
+
+        self.mod_info_frame: ModInfoWidget = ModInfoWidget(self, frame_name="External mod info", callbacks=callbacks,
+                                                           external_mods=True, mod_adder_callbacks=self.mod_adder_callbacks)
+        self.mod_info_callback: Callable[[Any], None] = self.mod_info_frame.populate_data
 
         self.listbox: CustomListbox = CustomListbox(
             self,
@@ -100,6 +99,8 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             display_horizontal_scrollbar=False,
             themed=self.themed,
         )
+
+        self.callbacks.attach_listbox_object(self.listbox)
 
         self.btn_add: CustomButton = CustomButton(
             self, text="Add new mod", command=lambda: asyncio.ensure_future(self.add_external_mod()), themed=self.themed
@@ -286,7 +287,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
             master=top_level, frame_name="external mod adder", callbacks=self.mod_adder_callbacks, width=None,
             mod_name=None, themed=self.themed
         )
-        mod_addition_frame.populate_data(data=None)
+        mod_addition_frame.populate_data(mod=None)
 
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()
@@ -353,7 +354,7 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         )
         gtnh = await self.get_gtnh_callback()
         data = gtnh.assets.get_mod(mod_name)
-        mod_addition_frame.populate_data(data=data)
+        mod_addition_frame.populate_data(mod=data)
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()
         top_level.title("New version")

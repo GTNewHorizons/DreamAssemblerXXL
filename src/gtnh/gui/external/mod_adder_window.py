@@ -45,6 +45,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
         width: Optional[int] = None,
         mod_name: Optional[str] = None,
         themed: bool = False,
+        edit_version_mode:bool=False,
         **kwargs: Any,
     ):
         """
@@ -101,11 +102,11 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
         self.btn_add: CustomButton = CustomButton(
             self,
-            text="Add external mod to DreamAssemblerXXL",
-            command=lambda: asyncio.ensure_future(self.add_mod()),
+            text="Add / Update",
+            command=lambda: asyncio.ensure_future(self.add_mod_and_version()),
             themed=self.themed,
         )
-
+        self.edit_version_mode=edit_version_mode
         if self.add_mod_version:
             asyncio.ensure_future(self.set_mod_source())
 
@@ -186,7 +187,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
         return check_results
 
-    async def add_mod(self) -> None:
+    async def add_mod_and_version(self) -> None:
         """
         Method to add an external mod to DAXXL.
 
@@ -271,27 +272,28 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
                 showwarning("fileNo error", "Cannot parse fileno from provided URL for curse mod")
                 return
 
-        mod: GTNHModInfo
+
+
+        _license: str = self.license.get()
+        project_url: str = self.project_url.get()
+        project_id: str = self.project_id.get()
+
+        mod: GTNHModInfo = GTNHModInfo(
+            latest_version=version,
+            name=name,
+            license=_license,
+            repo_url=None,
+            maven=None,
+            side=Side.BOTH,
+            source=ModSource.curse if curse_src else ModSource.other,
+            disabled=False,
+            external_url=project_url,
+            project_id=project_id if curse_src else None,
+            slug=None,
+            versions=[mod_version],
+        )
         # adding mod
         if self.add_mod:
-            _license: str = self.license.get()
-            project_url: str = self.project_url.get()
-            project_id: str = self.project_id.get()
-
-            mod = GTNHModInfo(
-                latest_version=version,
-                name=name,
-                license=_license,
-                repo_url=None,
-                maven=None,
-                side=Side.BOTH,
-                source=ModSource.curse if curse_src else ModSource.other,
-                disabled=False,
-                external_url=project_url,
-                project_id=project_id if curse_src else None,
-                slug=None,
-                versions=[mod_version],
-            )
             gtnh.assets.add_mod(mod)
 
         # adding version
@@ -299,7 +301,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
             mod = gtnh.assets.get_mod(name)
 
             # if mod has already that version
-            if mod.has_version(mod_version.version_tag):
+            if mod.has_version(mod_version.version_tag) and not self.edit_version_mode:
                 showerror(
                     "Version already present",
                     f"Mod version {mod_version.version_tag} already exists in {mod}'s version list!",
@@ -311,7 +313,11 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
             # updating latest version
             if versionable.version_is_newer(mod_version.version_tag, mod.latest_version):
                 mod.latest_version = mod_version.version_tag
-
+        if self.edit_version_mode:
+            mod.source = ModSource.curse if curse_src else ModSource.other
+            if mod.source == ModSource.curse:
+                mod.project_id = project_id
+        gtnh.assets.update_mod(mod)
         gtnh.save_assets()
 
         if self.add_mod_version:
@@ -404,7 +410,7 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
         self.project_url.grid(row=x + 7, column=y, columnspan=2)
         self.btn_add.grid(row=x + 8, column=y)
 
-        if self.add_mod:
+        if self.add_mod or (not self.add_mod and self.edit_version_mode):
             if self.mod_choice.get() != Sources.CURSEFORGE.value:
                 self.project_id.configure(state=DISABLED)
             else:
@@ -412,28 +418,41 @@ class ModAdderWindow(LabelFrame, TtkLabelFrame):  # type: ignore
 
 
         if not self.add_mod:
-            self.mod_choice.grid_forget()
             self.name.configure(state=DISABLED)
-            self.project_id.configure(state=DISABLED)
+            if not self.edit_version_mode:
+                self.project_id.configure(state=DISABLED)
             self.license.configure(state=DISABLED)
             self.project_url.configure(state=DISABLED)
+        if not self.add_mod and not self.edit_version_mode:
+            self.mod_choice.grid_forget()
 
         self.update_idletasks()
 
-    def populate_data(self, data: Optional[GTNHModInfo]) -> None:
+    def populate_data(self, mod: Optional[GTNHModInfo], version:Optional[GTNHVersion]=None) -> None:
         """
         Method called by parent class to populate data in this class.
 
-        :param data: the data to pass to this class
+        :param mod: the mod info to pass to this class
+        :param version: the version to pass to this class
         :return: None
         """
-        if data is None:
+        if mod is None:
             return
-        self.name.set(data.name)
-        self.license.set(data.license)
-        source = Sources.CURSEFORGE.value if data.source == ModSource.curse else Sources.OTHERS.value
+        self.name.set(mod.name)
+        self.license.set(mod.license)
+        source = Sources.CURSEFORGE.value if mod.source == ModSource.curse else Sources.OTHERS.value
         self.mod_choice.set(source)
-        self.project_url.set(data.external_url)
-        project_id = "" if data.project_id is None else data.project_id
+        self.project_url.set(mod.external_url)
+        print(mod.project_id)
+        project_id = "" if mod.project_id is None else mod.project_id
         self.project_id.set(project_id)
+
+        if version is None:
+            return
+
+        self.version.set(version.version_tag)
+        self.download_url.set(version.download_url)
+        self.browser_url.set(version.browser_download_url)
+
+
 
