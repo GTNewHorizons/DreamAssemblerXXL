@@ -8,6 +8,7 @@ from typing import List, Set
 
 ROOT_DIR = Path(__file__).parent.parent.parent
 CACHE_DIR = ROOT_DIR / "cache"
+CURSEFORGE_CACHE_DIR = CACHE_DIR / "curseforge"
 TECHNIC_CACHE_DIR = CACHE_DIR / "technic"
 CONFIG_CACHE_DIR = CACHE_DIR / "config"
 WORKING_DIR = ROOT_DIR / "working"
@@ -135,7 +136,7 @@ view-distance=8
 spawn-protection=1
 motd=GT:New Horizons {0}"""
 
-JAVA_9_ARCHIVE_SUFFIX = "Java_17-21"
+JAVA_9_ARCHIVE_SUFFIX = "Java_17-25"
 
 
 class Side(str, Enum):

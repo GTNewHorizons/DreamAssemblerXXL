@@ -25,6 +25,7 @@ class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
         update_all: Callable[[], Task[None]],
         update_beta: Callable[[], Task[None]],
         generate_changelog: Callable[[], Task[None]],
+        generate_cf_files: Callable[[], Task[None]],
         load: Callable[[str], Task[None]],
         delete: Callable[[str], Task[None]],
         add: Callable[[str, str], Task[None]],
@@ -45,6 +46,7 @@ class ModpackPanelCallback(ButtonArrayCallback, ReleaseListCallback):
             update_all=update_all,
             update_beta=update_beta,
             generate_changelog=generate_changelog,
+            generate_intermediate_cf_files=generate_cf_files,
         )
 
         ReleaseListCallback.__init__(self, load=load, delete=delete, add=add)
@@ -150,7 +152,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def update_widget(self) -> None:
         """
-        Method to update the widget and update_all its childs
+        Method to update the widget and update all its childs
 
         :return: None
         """
@@ -160,7 +162,7 @@ class ModpackPanel(LabelFrame, TtkLabelFrame):  # type: ignore
 
     def hide(self) -> None:
         """
-        Method to hide the widget and update_all its childs
+        Method to hide the widget and update all its childs
         :return None:
         """
         self.modpack_list.hide()
