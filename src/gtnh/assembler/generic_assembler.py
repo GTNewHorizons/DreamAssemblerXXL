@@ -339,7 +339,7 @@ class GenericAssembler:
             with ZipFile(locale_zip_path, "r", compression=ZIP_DEFLATED) as locale_zip:
                 for item in locale_zip.namelist():
                     if item.endswith("/"):
-                        continue # skipping folders creation
+                        continue  # skipping folders creation
 
                     with locale_zip.open(item) as config_item:
                         item_path = item if root_path is None else f"{root_path}/{item}"

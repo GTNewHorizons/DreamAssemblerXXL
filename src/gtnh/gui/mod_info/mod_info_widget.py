@@ -1,6 +1,6 @@
 import asyncio
 from asyncio import Task
-from tkinter import LabelFrame, Listbox, Toplevel
+from tkinter import LabelFrame, Toplevel
 from tkinter.messagebox import showerror
 from tkinter.ttk import LabelFrame as TtkLabelFrame
 from typing import Any, Callable, List, Optional
@@ -28,7 +28,7 @@ class ModInfoCallback:
         self.set_mod_side_default: Callable[[str, str], Task[None]] = set_mod_side_default
         self.has_listbox_selection: CustomListbox = None
 
-    def attach_listbox_object(self, listbox:CustomListbox) -> None:
+    def attach_listbox_object(self, listbox: CustomListbox) -> None:
         self.listbox = listbox
 
 
@@ -44,8 +44,8 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         callbacks: ModInfoCallback,
         width: Optional[int] = None,
         themed: bool = False,
-        external_mods:bool = False,
-        mod_adder_callbacks:Optional[ModAdderCallback]=None,
+        external_mods: bool = False,
+        mod_adder_callbacks: Optional[ModAdderCallback] = None,
         **kwargs: Any,
     ) -> None:
         """
@@ -92,8 +92,14 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
 
         self.mod_adder_callbacks = mod_adder_callbacks
         if external_mods:
-            self.widgets: List[CustomWidget] = [self.mod_name, self.version, self.edit_button, self.license, self.side,
-                                                self.side_default]
+            self.widgets: List[CustomWidget] = [
+                self.mod_name,
+                self.version,
+                self.edit_button,
+                self.license,
+                self.side,
+                self.side_default,
+            ]
         else:
             self.widgets: List[CustomWidget] = [self.mod_name, self.version, self.license, self.side, self.side_default]
         self.width: int = (
@@ -118,14 +124,14 @@ class ModInfoWidget(LabelFrame, TtkLabelFrame):  # type: ignore
         version = self.version.get()
 
         top_level: Toplevel = Toplevel(self)
-        mod_name:str = self.callbacks.listbox.get_value_at_index(self.callbacks.listbox.get())
+        mod_name: str = self.callbacks.listbox.get_value_at_index(self.callbacks.listbox.get())
         mod_addition_frame: ModAdderWindow = ModAdderWindow(
             top_level,
             "external version adder",
             callbacks=self.mod_adder_callbacks,
             mod_name=mod_name,
             themed=self.themed,
-            edit_version_mode=True
+            edit_version_mode=True,
         )
         gtnh = await self.mod_adder_callbacks.get_gtnh_callback()
         data = gtnh.assets.get_mod(mod_name)

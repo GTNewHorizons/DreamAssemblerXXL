@@ -25,7 +25,7 @@ class ButtonArrayCallback:
         update_all: Callable[[], Task[None]],
         update_beta: Callable[[], Task[None]],
         generate_changelog: Callable[[], Task[None]],
-        generate_intermediate_cf_files: Callable[[], Task[None]]
+        generate_intermediate_cf_files: Callable[[], Task[None]],
     ) -> None:
         self.update_assets: Callable[[], Task[None]] = update_asset
         self.generate_experimental: Callable[[], Task[None]] = generate_experimental
@@ -132,8 +132,10 @@ class ButtonArray(LabelFrame, TtkLabelFrame):  # type: ignore
         )
 
         self.btn_generate_cf_files: CustomButton = CustomButton(
-            self.frame_btn, text="Generate intermediate CF files",
-            command=callbacks.generate_intermediate_cf_files, themed=self.themed
+            self.frame_btn,
+            text="Generate intermediate CF files",
+            command=callbacks.generate_intermediate_cf_files,
+            themed=self.themed,
         )
 
         progress_bar_length: int = 500

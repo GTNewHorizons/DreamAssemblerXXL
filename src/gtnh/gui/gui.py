@@ -314,22 +314,24 @@ class Window(ThemedTk, Tk):
 
         :return: None
         """
-        global_callback: Callable[[float, str], None] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
+        global_callback: Callable[
+            [float, str], None
+        ] = self.modpack_list_frame.action_frame.progress_bar_global.add_progress
         task_callback_object: CustomProgressBar = self.modpack_list_frame.action_frame.progress_bar_current_task
         try:
             self.set_progress(100 / 3)
             self.trigger_toggle()
 
             release_assembler = await self.pre_assembling()
-            global_callback(self.get_progress(), f"Generating the dependencies.json")
+            global_callback(self.get_progress(), "Generating the dependencies.json")
             await release_assembler.curse_assembler.generate_json_dep(task_callback_object)
-            global_callback(self.get_progress(), f"Generating the archive containing the mods to upload")
+            global_callback(self.get_progress(), "Generating the archive containing the mods to upload")
             release_assembler.curse_assembler.generate_mods_to_upload(task_callback_object)
             self.trigger_toggle()
         except BaseException as e:
             showerror(
                 "An error occured during the generation of the intermediate curseforge files",
-                f"An error occured during the generation of the intermediate curseforge files."
+                "An error occured during the generation of the intermediate curseforge files."
                 "\n Please check the logs for more information.",
             )
             if not self.toggled:

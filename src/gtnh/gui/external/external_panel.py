@@ -79,7 +79,6 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         self.del_mod_from_memory: Callable[[str], None] = callbacks.del_mod_in_memory
         self.refresh_external_modlist: Callable[[], Coroutine[Any, Any, None]] = callbacks.refresh_external_modlist
 
-
         self.mod_adder_callbacks: ModAdderCallback = ModAdderCallback(
             get_gtnh_callback=self.get_gtnh_callback,
             add_mod_to_memory=self.add_mod_to_memory,
@@ -87,8 +86,13 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         )
         self.callbacks = callbacks
 
-        self.mod_info_frame: ModInfoWidget = ModInfoWidget(self, frame_name="External mod info", callbacks=callbacks,
-                                                           external_mods=True, mod_adder_callbacks=self.mod_adder_callbacks)
+        self.mod_info_frame: ModInfoWidget = ModInfoWidget(
+            self,
+            frame_name="External mod info",
+            callbacks=callbacks,
+            external_mods=True,
+            mod_adder_callbacks=self.mod_adder_callbacks,
+        )
         self.mod_info_callback: Callable[[Any], None] = self.mod_info_frame.populate_data
 
         self.listbox: CustomListbox = CustomListbox(
@@ -284,8 +288,12 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         top_level.bind("<Destroy>", close)
 
         mod_addition_frame: ModAdderWindow = ModAdderWindow(
-            master=top_level, frame_name="external mod adder", callbacks=self.mod_adder_callbacks, width=None,
-            mod_name=None, themed=self.themed
+            master=top_level,
+            frame_name="external mod adder",
+            callbacks=self.mod_adder_callbacks,
+            width=None,
+            mod_name=None,
+            themed=self.themed,
         )
         mod_addition_frame.populate_data(mod=None)
 
@@ -313,7 +321,6 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         gtnh: GTNHModpackManager = await self.get_gtnh_callback()
         self.listbox.del_value_at_index(index)
         await gtnh.delete_mod(mod_name)
-
 
     async def add_new_version(self) -> None:
         """
@@ -358,4 +365,3 @@ class ExternalPanel(LabelFrame, TtkLabelFrame):  # type: ignore
         mod_addition_frame.grid()
         mod_addition_frame.update_widget()
         top_level.title("New version")
-
