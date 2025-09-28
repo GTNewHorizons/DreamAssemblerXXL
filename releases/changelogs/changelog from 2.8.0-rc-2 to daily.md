@@ -90,10 +90,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Remove log spam on invalid tag;replace tag with obvious error value by @Caedis in https://github.com/GTNewHorizons/InGame-Info-XML/pull/36 (2.8.29)
 
-# Updated - InventoryBogoSorter - 1.2.64-GTNH --> 1.2.65-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.64-GTNH...1.2.65-GTNH
+# Updated - InventoryBogoSorter - 1.2.64-GTNH --> 1.2.66-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.64-GTNH...1.2.66-GTNH
 
 ## What's Changed:
+>* Fix sort key unmapped triggering on jump by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/138 (1.2.66-GTNH)
 >* Disable No GUI Sort by default by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/136 (1.2.65-GTNH)
 
 # Updated - LogisticsPipes - 1.4.22-GTNH --> 1.4.24-GTNH
