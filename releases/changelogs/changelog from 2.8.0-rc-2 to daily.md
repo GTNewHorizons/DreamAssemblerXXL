@@ -23,10 +23,13 @@ Mod is client-side only.
 >* make nbt match item after forming press rename by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/859 (rv3-beta-690-GTNH)
 >* Fix negative priority button by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/860 (rv3-beta-690-GTNH)
 
-# Updated - Backhand - 1.7.5 --> 1.7.6
-**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.7.5...1.7.6
+# Updated - Backhand - 1.7.5 --> 1.7.7
+**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.7.5...1.7.7
 
 ## What's Changed:
+>* Fix offhand attack dealing 1 damage by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/154 (1.7.7)
+>* Add anything with eat action to food check by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/156 (1.7.7)
+>* Fix crash when holding TC wand with equal exchange in offhand by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/155 (1.7.7)
 >* Fix bibliocraft clipboard skipping a page by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/152 (1.7.6)
 
 # Updated - Binnie - 2.5.21 --> 2.5.22
