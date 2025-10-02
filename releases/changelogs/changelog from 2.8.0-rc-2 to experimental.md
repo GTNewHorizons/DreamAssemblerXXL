@@ -1,3 +1,5 @@
+# New Mods: 
+> * RandomBoubles
 # Updated - AE2FluidCraft-Rework - 1.4.114-gtnh --> 1.5.2-gtnh-pre
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.114-gtnh...1.5.2-gtnh-pre
 
@@ -54,8 +56,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* After clearing, get new baubles inventory instead of working with old one by @DarkShadow44 in https://github.com/GTNewHorizons/Baubles-Expanded/pull/15 (2.2.0-GTNH)
 
-# Updated - BetterQuesting - 3.7.14-GTNH --> 3.8.0-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.14-GTNH...3.8.0-GTNH
+# Updated - BetterP2P - 1.3.2 --> 1.4.0
+**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.3.2...1.4.0
+
+## What's Changed:
+>* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
+
+# Updated - BetterQuesting - 3.7.14-GTNH --> 3.8.1-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.14-GTNH...3.8.1-GTNH-pre
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
@@ -66,8 +74,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix batched updates does not call window and machine packet listeners by @Glease in https://github.com/GTNewHorizons/Binnie/pull/74 (2.6.0)
 >* Fix Slot Registration Crash by @Vlamonster in https://github.com/GTNewHorizons/Binnie/pull/73 (2.5.22)
 
-# Updated - BlockRenderer6343 - 1.3.16 --> 1.4.0
-**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.16...1.4.0
+# Updated - BlockRenderer6343 - 1.3.16 --> 1.4.1-pre
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.16...1.4.1-pre
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
@@ -118,9 +126,9 @@ Mod is client-side only.
 ## What's Changed:
 >* swansong, angelica, and notfine support/ by @unix-supremacist in https://github.com/GTNewHorizons/Custom-Main-Menu/pull/10 (1.13.0)
 
-# Updated - DefaultServerList - 1.6.5 --> 1.7.0
+# Updated - DefaultServerList - 1.6.5 --> 1.7.1-pre
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/DefaultServerList/compare/1.6.5...1.7.0
+**Full Changelog**: https://github.com/GTNewHorizons/DefaultServerList/compare/1.6.5...1.7.1-pre
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
@@ -160,8 +168,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.464 --> 5.09.52.07-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.464...5.09.52.07-pre
+# Updated - GT5-Unofficial - 5.09.51.464 --> 5.09.52.08-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.464...5.09.52.08-pre
 
 ## What's Changed:
 >* Fix Large Boilers using fluid fuels by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4945 (5.09.52.07-pre)
@@ -272,16 +280,23 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Find Rectangular Layouts by @koolkrafter5 in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/19 (2.6.0-GTNH)
 
+# Updated - Mobs-Info - 0.5.4-GTNH --> 0.5.5-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.4-GTNH...0.5.5-GTNH-pre
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.2.20-1.7.10
 **Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.2.20-1.7.10
 
 ## What's Changed:
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.258 --> 2.8.1-pre
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.258...2.8.1-pre
+# Updated - NewHorizonsCoreMod - 2.7.258 --> 2.8.3-pre
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.258...2.8.3-pre
 
 ## What's Changed:
+>* Disable Open To LAN by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1393 (2.8.3-pre)
+>* Disable Open To LAN by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1393 (2.8.2)
 >* crimson rite recipe fix by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1388 (2.8.0)
 >* Fix Barnarda C plank recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1389 (2.8.0)
 >* recipes for chamber centrifuge and fluids by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1290 (2.8.0)
@@ -293,10 +308,32 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Allow for usage of MetaID range (MetaStart and MetaEnd) to specify the custom tooltip by @Miklebe in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1383 (2.7.259)
 >* enable recipe for obsidian tank cart by @2ndDerivative in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1385 (2.7.259)
 
-# Updated - NotEnoughItems - 2.7.90-GTNH --> 2.8.3-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.90-GTNH...2.8.3-GTNH-pre
+# Updated - NotEnoughItems - 2.7.90-GTNH --> 2.8.5-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.90-GTNH...2.8.5-GTNH-pre
 
 ## What's Changed:
+>* Add missing lang key for favorite keybind by @lynxx131 in https://github.com/GTNewHorizons/NotEnoughItems/pull/709 (2.8.5-GTNH-pre)
+>* Recipe search improvement by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/706 (2.8.5-GTNH-pre)
+>* Fix Permutation Filter by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/712 (2.8.5-GTNH-pre)
+>* Fix(MobSpawnOverlay): avoid IOB from checking light value from block outside of world by @Worive in https://github.com/GTNewHorizons/NotEnoughItems/pull/711 (2.8.5-GTNH-pre)
+>* Remove old entries which resulted in ghost catalysts by @Miklebe in https://github.com/GTNewHorizons/NotEnoughItems/pull/714 (2.8.5-GTNH-pre)
+>* feat(moboverlay): add chat message (on/off) by @AzodFR in https://github.com/GTNewHorizons/NotEnoughItems/pull/715 (2.8.5-GTNH-pre)
+>* [Extended+] Filter permutations on the left. Fail on recipe expression, when not searching a recipe. by @sbwaz in https://github.com/GTNewHorizons/NotEnoughItems/pull/716 (2.8.5-GTNH-pre)
+>* Fixed Favorite Recipes in bookmarks for ingredients by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/720 (2.8.5-GTNH-pre)
+>* Create Item Untranslator by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/719 (2.8.5-GTNH-pre)
+>* Fix Bookmarks Shadow Items by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/724 (2.8.5-GTNH-pre)
+>* Fix None hotkeys for java8 by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/726 (2.8.5-GTNH-pre)
+>* Fix NBT Copy by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/728 (2.8.5-GTNH-pre)
+>* Try fix Fuels by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/729 (2.8.5-GTNH-pre)
+>* Remove UXV and MAX biolab from NEI recipe catalysts by @Miklebe in https://github.com/GTNewHorizons/NotEnoughItems/pull/732 (2.8.5-GTNH-pre)
+>* Support Inline Comments After `#` by @Vlamonster in https://github.com/GTNewHorizons/NotEnoughItems/pull/734 (2.8.5-GTNH-pre)
+>* Revert "Replace lambda with method reference" by @Vlamonster in https://github.com/GTNewHorizons/NotEnoughItems/pull/735 (2.8.5-GTNH-pre)
+>* Fix pressing '2' when hovering crafting output not putting the crafted item(s) in the hotbar by @Dredonkey in https://github.com/GTNewHorizons/NotEnoughItems/pull/733 (2.8.5-GTNH-pre)
+>* Add more logging for fuel crash by @DarkShadow44 in https://github.com/GTNewHorizons/NotEnoughItems/pull/736 (2.8.5-GTNH-pre)
+>* allow the steam furnace multiblock to show up in NEI under furnaces by @chrombread in https://github.com/GTNewHorizons/NotEnoughItems/pull/702 (2.8.5-GTNH-pre)
+>* Force tag compounds to be initialized so doesn't happen concurrently later by @DarkShadow44 in https://github.com/GTNewHorizons/NotEnoughItems/pull/730 (2.8.5-GTNH-pre)
+>* Speedup rendering by @sisyphussy in https://github.com/GTNewHorizons/NotEnoughItems/pull/740 (2.8.5-GTNH-pre)
+>* Speedup rendering by @sisyphussy in https://github.com/GTNewHorizons/NotEnoughItems/pull/740 (2.8.4-GTNH)
 >* Force tag compounds to be initialized so doesn't happen concurrently later by @DarkShadow44 in https://github.com/GTNewHorizons/NotEnoughItems/pull/730 (2.8.3-GTNH-pre)
 >* Force tag compounds to be initialized so doesn't happen concurrently later by @DarkShadow44 in https://github.com/GTNewHorizons/NotEnoughItems/pull/730 (2.8.2-GTNH)
 >* Add more logging for fuel crash by @DarkShadow44 in https://github.com/GTNewHorizons/NotEnoughItems/pull/736 (2.8.0-GTNH)
@@ -321,8 +358,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - StevesAddons - 0.14.2 --> 0.15.1-pre
-**Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.14.2...0.15.1-pre
+# New Mod - RandomBoubles:1.0.1-pre
+**Full Changelog**: https://github.com/GTNewHorizons/RandomBoubles/compare/1.0.0...1.0.1-pre
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - StevesAddons - 0.14.2 --> 0.15.0
+**Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.14.2...0.15.0
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
@@ -404,4 +446,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @2ndDerivative, @3ricbae, @AbdielKavash, @ABKQPO, @Bjdufre1, @boubou19, @brachy84, @C-Remilian, @Caedis, @cambech, @Chaoschaot232, @chochem, @chrombread, @combusterf, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @evgengoldwar, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @github-actions[bot], @Glease, @GTNH-Afx237v7, @JustACasualDay, @Kogepan229, @koolkrafter5, @kotmatross28729, @kuba6000, @Kynake, @lc-1337, @Lyfts, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @PinkYuDeer, @PlayfulPiano, @querns, @Ranzuu, @RecursivePineapple, @riggzh, @sisyphussy, @slprime, @TheYoingLad, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @2ndDerivative, @3ricbae, @AbdielKavash, @ABKQPO, @AzodFR, @Bjdufre1, @boubou19, @brachy84, @C-Remilian, @Caedis, @cambech, @Chaoschaot232, @chochem, @chrombread, @combusterf, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @evgengoldwar, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @github-actions[bot], @Glease, @GTNH-Afx237v7, @JustACasualDay, @Kogepan229, @koolkrafter5, @kotmatross28729, @kuba6000, @Kynake, @lc-1337, @Lyfts, @lynxx131, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @PinkYuDeer, @PlayfulPiano, @querns, @Ranzuu, @RecursivePineapple, @riggzh, @sbwaz, @sisyphussy, @slprime, @TheYoingLad, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
