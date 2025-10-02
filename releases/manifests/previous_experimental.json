@@ -1,7 +1,7 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-10-02T11:42:02.989359",
+  "last_updated": "2025-10-02T15:40:46.213380",
   "config": "2.9.0-nightly-2025-10-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -65,11 +65,11 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.3.2",
+      "version": "1.4.0",
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.0-GTNH",
+      "version": "3.8.1-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -149,7 +149,7 @@
       "side": "BOTH"
     },
     "DefaultServerList": {
-      "version": "1.7.0",
+      "version": "1.7.1-pre",
       "side": "CLIENT"
     },
     "DefaultWorldGenerator": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.07-pre",
+      "version": "5.09.52.08-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.1-pre",
+      "version": "2.8.3-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.3-GTNH-pre",
+      "version": "2.8.5-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -465,7 +465,7 @@
       "side": "BOTH"
     },
     "StevesAddons": {
-      "version": "0.15.1-pre",
+      "version": "0.15.0",
       "side": "BOTH"
     },
     "StorageDrawers": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.4.0",
+      "version": "1.4.1-pre",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -697,7 +697,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.4-GTNH",
+      "version": "0.5.5-GTNH-pre",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -802,6 +802,10 @@
     },
     "AE2NoUltimatePatterns": {
       "version": "1.0.1",
+      "side": "BOTH"
+    },
+    "RandomBoubles": {
+      "version": "1.0.1-pre",
       "side": "BOTH"
     }
   },
