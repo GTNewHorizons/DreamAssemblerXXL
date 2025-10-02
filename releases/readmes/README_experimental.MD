@@ -426,6 +426,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ProjectRed](https://github.com/GTNewHorizons/ProjectRed) | 4.12.1-GTNH-pre |
 | [Railcraft](https://github.com/GTNewHorizons/Railcraft) | 9.17.1-pre |
 | [Random-Things](https://github.com/GTNewHorizons/Random-Things) | 2.6.6 |
+| [RandomBoubles](https://github.com/GTNewHorizons/RandomBoubles) | 1.0.1-pre |
 | [Realistic-World-Gen](https://github.com/GTNewHorizons/Realistic-World-Gen) | alpha-1.5.0 |
 | [RemoteIO](https://github.com/GTNewHorizons/RemoteIO) | 2.7.6 |
 | [Roguelike-Dungeons](https://github.com/GTNewHorizons/Roguelike-Dungeons) | 1.6.6-GTNH |
