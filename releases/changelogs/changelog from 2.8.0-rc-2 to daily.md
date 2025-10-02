@@ -153,10 +153,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.464 --> 5.09.52.02
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.464...5.09.52.02
+# Updated - GT5-Unofficial - 5.09.51.464 --> 5.09.52.06
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.464...5.09.52.06
 
 ## What's Changed:
+>* Adds Backhand support to Infinite Spray Can (plus mouse event improvements) by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4617 (5.09.52.06)
+>* Remove Fusion Reactor Min Input Hatch Tier by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4939 (5.09.52.06)
+>* Fix Large Boilers using fluid fuels by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4945 (5.09.52.06)
+>* Tweaks Void Hatch Recipe by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4967 (5.09.52.06)
+>* Fix UI for GTPP fish catcher and pest killer by @Bjdufre1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4966 (5.09.52.06)
 >* Move various UI labels to lang files to improve resourcepack compatibility by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4948 (5.09.52.02)
 >* Add BBB Abbreviation by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4946 (5.09.52.01)
 >* disable the hot netherite ingot by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4944 (5.09.52.01)
@@ -257,8 +262,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Find Rectangular Layouts by @koolkrafter5 in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/19 (2.6.0-GTNH)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.2.19-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.2.19-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.2.20-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.2.20-1.7.10
 
 ## What's Changed:
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
@@ -278,10 +283,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Allow for usage of MetaID range (MetaStart and MetaEnd) to specify the custom tooltip by @Miklebe in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1383 (2.7.259)
 >* enable recipe for obsidian tank cart by @2ndDerivative in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1385 (2.7.259)
 
-# Updated - NotEnoughItems - 2.7.90-GTNH --> 2.8.0-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.90-GTNH...2.8.0-GTNH
+# Updated - NotEnoughItems - 2.7.90-GTNH --> 2.8.2-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.90-GTNH...2.8.2-GTNH
 
 ## What's Changed:
+>* Force tag compounds to be initialized so doesn't happen concurrently later by @DarkShadow44 in https://github.com/GTNewHorizons/NotEnoughItems/pull/730 (2.8.2-GTNH)
 >* Add more logging for fuel crash by @DarkShadow44 in https://github.com/GTNewHorizons/NotEnoughItems/pull/736 (2.8.0-GTNH)
 >* allow the steam furnace multiblock to show up in NEI under furnaces by @chrombread in https://github.com/GTNewHorizons/NotEnoughItems/pull/702 (2.8.0-GTNH)
 >* Remove UXV and MAX biolab from NEI recipe catalysts by @Miklebe in https://github.com/GTNewHorizons/NotEnoughItems/pull/732 (2.7.91-GTNH)
@@ -335,10 +341,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TinkersConstruct - 1.13.54-GTNH --> 1.14.0-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.54-GTNH...1.14.0-GTNH
+# Updated - TinkersConstruct - 1.13.54-GTNH --> 1.14.2-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.54-GTNH...1.14.2-GTNH
 
 ## What's Changed:
+>* Fix Miniature Heart Tooltip by @tuodekun in https://github.com/GTNewHorizons/TinkersConstruct/pull/215 (1.14.2-GTNH)
 >* Fix crafting station sometimes detecting a chest next to a trapped chest as a double chest by @Dredonkey in https://github.com/GTNewHorizons/TinkersConstruct/pull/213 (1.14.0-GTNH)
 
 # Updated - Translocators - 1.3.1 --> 1.4.0
@@ -378,4 +385,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @2ndDerivative, @3ricbae, @AbdielKavash, @ABKQPO, @boubou19, @brachy84, @C-Remilian, @Caedis, @cambech, @Chaoschaot232, @chochem, @chrombread, @combusterf, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @evgengoldwar, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @GTNH-Afx237v7, @JustACasualDay, @Kogepan229, @koolkrafter5, @kotmatross28729, @kuba6000, @Kynake, @lc-1337, @Lyfts, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @PinkYuDeer, @PlayfulPiano, @Ranzuu, @RecursivePineapple, @riggzh, @sisyphussy, @slprime, @TheYoingLad, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @2ndDerivative, @3ricbae, @AbdielKavash, @ABKQPO, @Bjdufre1, @boubou19, @brachy84, @C-Remilian, @Caedis, @cambech, @Chaoschaot232, @chochem, @chrombread, @combusterf, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @evgengoldwar, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @GTNH-Afx237v7, @JustACasualDay, @Kogepan229, @koolkrafter5, @kotmatross28729, @kuba6000, @Kynake, @lc-1337, @Lyfts, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @PinkYuDeer, @PlayfulPiano, @querns, @Ranzuu, @RecursivePineapple, @riggzh, @sisyphussy, @slprime, @TheYoingLad, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
