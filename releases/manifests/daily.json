@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-02T11:36:40.779137",
+  "last_updated": "2025-10-02T14:59:35.065405",
   "config": "2.9.0-nightly-2025-10-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -65,7 +65,7 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.3.2",
+      "version": "1.4.0",
       "side": "BOTH"
     },
     "BetterQuesting": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.0",
+      "version": "2.8.2",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.2-GTNH",
+      "version": "2.8.4-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -465,7 +465,7 @@
       "side": "BOTH"
     },
     "StevesAddons": {
-      "version": "0.14.2",
+      "version": "0.15.0",
       "side": "BOTH"
     },
     "StorageDrawers": {
@@ -802,6 +802,10 @@
     },
     "AE2NoUltimatePatterns": {
       "version": "1.0.1",
+      "side": "BOTH"
+    },
+    "RandomBoubles": {
+      "version": "1.0.0",
       "side": "BOTH"
     }
   },

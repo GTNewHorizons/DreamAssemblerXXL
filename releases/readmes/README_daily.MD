@@ -286,7 +286,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BetterBuildersWands](https://github.com/GTNewHorizons/BetterBuildersWands) | 0.13.3-GTNH |
 | [BetterCrashes](https://github.com/GTNewHorizons/BetterCrashes) | 1.4.0-GTNH |
 | [BetterLoadingScreen](https://github.com/GTNewHorizons/BetterLoadingScreen) | 1.7.2-GTNH |
-| [BetterP2P](https://github.com/GTNewHorizons/BetterP2P) | 1.3.2 |
+| [BetterP2P](https://github.com/GTNewHorizons/BetterP2P) | 1.4.0 |
 | [BetterQuesting](https://github.com/GTNewHorizons/BetterQuesting) | 3.8.0-GTNH |
 | [BiblioCraft: BiblioWoods Biomes O'Plenty Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-biomes-oplenty-edition) | 1.9 |
 | [BiblioCraft: BiblioWoods Forestry Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-forestry-edition) | 1.7 |
@@ -401,11 +401,11 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.5.0 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.17.0 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.4.0 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.8.0 |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.8.2 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.3.1-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.14 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.1.10 |
-| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.8.2-GTNH |
+| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.8.4-GTNH |
 | [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.6.20 |
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 0.1.3 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.3.3-GTNH |
@@ -426,6 +426,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ProjectRed](https://github.com/GTNewHorizons/ProjectRed) | 4.12.0-GTNH |
 | [Railcraft](https://github.com/GTNewHorizons/Railcraft) | 9.17.0 |
 | [Random-Things](https://github.com/GTNewHorizons/Random-Things) | 2.6.6 |
+| [RandomBoubles](https://github.com/GTNewHorizons/RandomBoubles) | 1.0.0 |
 | [Realistic-World-Gen](https://github.com/GTNewHorizons/Realistic-World-Gen) | alpha-1.5.0 |
 | [RemoteIO](https://github.com/GTNewHorizons/RemoteIO) | 2.7.6 |
 | [Roguelike-Dungeons](https://github.com/GTNewHorizons/Roguelike-Dungeons) | 1.6.6-GTNH |
@@ -439,7 +440,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [SpecialMobs](https://github.com/GTNewHorizons/SpecialMobs) | 3.7.0 |
 | [SpiceOfLife](https://github.com/GTNewHorizons/SpiceOfLife) | 2.2.3-carrot |
 | [Steve-s-Factory-Manager](https://github.com/GTNewHorizons/Steve-s-Factory-Manager) | 1.3.4-GTNH |
-| [StevesAddons](https://github.com/GTNewHorizons/StevesAddons) | 0.14.2 |
+| [StevesAddons](https://github.com/GTNewHorizons/StevesAddons) | 0.15.0 |
 | [StorageDrawers](https://github.com/GTNewHorizons/StorageDrawers) | 2.2.0-GTNH |
 | [StructureCompat](https://github.com/GTNewHorizons/StructureCompat) | 0.7.4 |
 | [StructureLib](https://github.com/GTNewHorizons/StructureLib) | 1.4.23 |
