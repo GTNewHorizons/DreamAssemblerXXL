@@ -130,9 +130,9 @@ jobs:
         shell: bash
         run: |
           mv "releases/zip/GT_New_Horizons_${DAXXL_TAG}_Server_Java_8.zip" "GTNH-${DAXXL_TAG}-server.zip"
-          mv "releases/zip/GT_New_Horizons_${DAXXL_TAG}_Server_Java_17-21.zip" "GTNH-${DAXXL_TAG}-server-new-java.zip"
+          mv "releases/zip/GT_New_Horizons_${DAXXL_TAG}_Server_Java_17-25.zip" "GTNH-${DAXXL_TAG}-server-new-java.zip"
           mv "releases/multi_poly/GT_New_Horizons_${DAXXL_TAG}_Java_8.zip" "GTNH-${DAXXL_TAG}-mmcprism-java8.zip"
-          mv "releases/multi_poly/GT_New_Horizons_${DAXXL_TAG}_Java_17-21.zip" "GTNH-${DAXXL_TAG}-mmcprism-new-java.zip"
+          mv "releases/multi_poly/GT_New_Horizons_${DAXXL_TAG}_Java_17-25.zip" "GTNH-${DAXXL_TAG}-mmcprism-new-java.zip"
 
       - name: Upload server zip
         uses: actions/upload-artifact@v4
