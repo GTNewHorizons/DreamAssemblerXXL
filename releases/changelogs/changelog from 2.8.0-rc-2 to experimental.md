@@ -168,8 +168,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.464 --> 5.09.52.08-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.464...5.09.52.08-pre
+# Updated - GT5-Unofficial - 5.09.51.464 --> 5.09.52.09-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.464...5.09.52.09-pre
 
 ## What's Changed:
 >* Fix Large Boilers using fluid fuels by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4945 (5.09.52.07-pre)
@@ -433,8 +433,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Network Visualizer shows connections between a Crafting Input Bus/Buffer and its proxies. by @AbdielKavash in https://github.com/GTNewHorizons/ae2stuff/pull/30 (0.10.0-GTNH)
 >* fix AdvWirelessKit can't use in java 8 by @riggzh in https://github.com/GTNewHorizons/ae2stuff/pull/33 (0.9.8-GTNH)
 
-# Updated - nei-custom-diagram - 1.7.5 --> 1.8.1-pre
-**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.7.5...1.8.1-pre
+# Updated - nei-custom-diagram - 1.7.5 --> 1.8.2-pre
+**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.7.5...1.8.2-pre
 
 ## What's Changed:
 >* add server support for tank and chest by @fengluo2 in https://github.com/GTNewHorizons/nei-custom-diagram/pull/51 (1.8.0)
