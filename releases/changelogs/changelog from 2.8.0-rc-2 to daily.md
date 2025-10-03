@@ -1,3 +1,5 @@
+# New Mods: 
+> * RandomBoubles
 # Updated - AE2FluidCraft-Rework - 1.4.114-gtnh --> 1.5.1-gtnh
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.114-gtnh...1.5.1-gtnh
 
@@ -48,6 +50,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 >* After clearing, get new baubles inventory instead of working with old one by @DarkShadow44 in https://github.com/GTNewHorizons/Baubles-Expanded/pull/15 (2.2.0-GTNH)
+
+# Updated - BetterP2P - 1.3.2 --> 1.4.0
+**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.3.2...1.4.0
+
+## What's Changed:
+>* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
 
 # Updated - BetterQuesting - 3.7.14-GTNH --> 3.8.0-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.14-GTNH...3.8.0-GTNH
@@ -268,10 +276,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.258 --> 2.8.0
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.258...2.8.0
+# Updated - NewHorizonsCoreMod - 2.7.258 --> 2.8.2
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.258...2.8.2
 
 ## What's Changed:
+>* Disable Open To LAN by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1393 (2.8.2)
 >* crimson rite recipe fix by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1388 (2.8.0)
 >* Fix Barnarda C plank recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1389 (2.8.0)
 >* recipes for chamber centrifuge and fluids by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1290 (2.8.0)
@@ -283,10 +292,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Allow for usage of MetaID range (MetaStart and MetaEnd) to specify the custom tooltip by @Miklebe in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1383 (2.7.259)
 >* enable recipe for obsidian tank cart by @2ndDerivative in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1385 (2.7.259)
 
-# Updated - NotEnoughItems - 2.7.90-GTNH --> 2.8.2-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.90-GTNH...2.8.2-GTNH
+# Updated - NotEnoughItems - 2.7.90-GTNH --> 2.8.4-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.90-GTNH...2.8.4-GTNH
 
 ## What's Changed:
+>* Speedup rendering by @sisyphussy in https://github.com/GTNewHorizons/NotEnoughItems/pull/740 (2.8.4-GTNH)
 >* Force tag compounds to be initialized so doesn't happen concurrently later by @DarkShadow44 in https://github.com/GTNewHorizons/NotEnoughItems/pull/730 (2.8.2-GTNH)
 >* Add more logging for fuel crash by @DarkShadow44 in https://github.com/GTNewHorizons/NotEnoughItems/pull/736 (2.8.0-GTNH)
 >* allow the steam furnace multiblock to show up in NEI under furnaces by @chrombread in https://github.com/GTNewHorizons/NotEnoughItems/pull/702 (2.8.0-GTNH)
@@ -307,6 +317,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - Railcraft - 9.16.33 --> 9.17.0
 **Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.33...9.17.0
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# New Mod - RandomBoubles:1.0.0
+**Full Changelog**: https://github.com/GTNewHorizons/RandomBoubles/commits/1.0.0/compare/1.0.0...1.0.0
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - StevesAddons - 0.14.2 --> 0.15.0
+**Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.14.2...0.15.0
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
@@ -339,6 +359,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 # Updated - Thaumic_Exploration - 1.4.7-GTNH --> 1.5.0-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.7-GTNH...1.5.0-GTNH
 
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.28
+Mod side changed from on both sides to Side.NONE.
+Mod is Side.NONE.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - TinkersConstruct - 1.13.54-GTNH --> 1.14.2-GTNH

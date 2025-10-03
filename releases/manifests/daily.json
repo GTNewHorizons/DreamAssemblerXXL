@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-02T14:59:35.065405",
+  "last_updated": "2025-10-03T03:42:51.839989",
   "config": "2.9.0-nightly-2025-10-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -928,7 +928,7 @@
     },
     "Tinkers-Gregworks": {
       "version": "1.0.28",
-      "side": "BOTH"
+      "side": "NONE"
     },
     "Bug-Torch": {
       "version": "1.2.14",
