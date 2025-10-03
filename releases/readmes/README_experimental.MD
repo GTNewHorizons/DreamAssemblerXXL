@@ -385,7 +385,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [MalisisDoors](https://github.com/GTNewHorizons/MalisisDoors) | 1.18.2-GTNH |
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.5.1 |
 | [MatterManipulator](https://github.com/GTNewHorizons/MatterManipulator) | 0.1.0-GTNH |
-| [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.6.1-GTNH-pre |
+| [Minecraft-Backpack-Mod](https://github.com/GTNewHorizons/Minecraft-Backpack-Mod) | 2.6.2-GTNH-pre |
 | [Minetweaker-Gregtech-5-Addon](https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon) | 2.3.1 |
 | [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.5.5-GTNH-pre |
 | [ModernMarkings](https://github.com/GTNewHorizons/ModernMarkings) | 0.3.12-1.7.10 |
@@ -461,7 +461,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [ThaumicEnergistics](https://github.com/GTNewHorizons/ThaumicEnergistics) | 1.7.14-GTNH |
 | [ThaumicHorizons](https://github.com/GTNewHorizons/ThaumicHorizons) | 1.8.0 |
 | [thaumicinsurgence](https://github.com/GTNewHorizons/thaumicinsurgence) | 0.4.0 |
-| [ThaumicTinkerer](https://github.com/GTNewHorizons/ThaumicTinkerer) | 2.12.0 |
+| [ThaumicTinkerer](https://github.com/GTNewHorizons/ThaumicTinkerer) | 2.12.1-pre |
 | [TiC-Tooltips](https://github.com/GTNewHorizons/TiC-Tooltips) | 1.4.0 |
 | [Tinkers-Defense](https://github.com/GTNewHorizons/Tinkers-Defense) | 1.3.2 |
 | [TinkersConstruct](https://github.com/GTNewHorizons/TinkersConstruct) | 1.14.3-GTNH-pre |
