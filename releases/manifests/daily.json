@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "2.8.0",
-  "last_updated": "2025-10-03T12:18:47.668171",
-  "config": "2.9.0-nightly-2025-10-02",
+  "last_updated": "2025-10-03T22:03:06.484278",
+  "config": "2.9.0-nightly-2025-10-03",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.11-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-700-GTNH",
+      "version": "rv3-beta-702-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.0-GTNH",
+      "version": "3.8.2-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.06",
+      "version": "5.09.52.10",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.0",
+      "version": "2.7.1",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -385,7 +385,7 @@
       "side": "BOTH"
     },
     "OpenModsLib": {
-      "version": "0.10.10",
+      "version": "0.11.0",
       "side": "BOTH"
     },
     "OpenModularTurrets": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.1.15",
+      "version": "2.1.16",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.1-GTNH",
+      "version": "1.3.2-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -806,6 +806,10 @@
     },
     "RandomBoubles": {
       "version": "1.0.0",
+      "side": "BOTH"
+    },
+    "TinkersGregworks": {
+      "version": "GTNH-1.0.30",
       "side": "BOTH"
     }
   },
@@ -928,10 +932,6 @@
     },
     "Bug-Torch": {
       "version": "1.2.14",
-      "side": "BOTH"
-    },
-    "Tinkers-Gregworks": {
-      "version": "1.0.28",
       "side": "BOTH"
     }
   }
