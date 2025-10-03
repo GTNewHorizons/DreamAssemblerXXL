@@ -1,7 +1,7 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-10-02T15:40:46.213380",
+  "last_updated": "2025-10-02T19:29:54.427226",
   "config": "2.9.0-nightly-2025-10-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.08-pre",
+      "version": "5.09.52.09-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.8.1-pre",
+      "version": "1.8.2-pre",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -807,6 +807,10 @@
     "RandomBoubles": {
       "version": "1.0.1-pre",
       "side": "BOTH"
+    },
+    "TinkersGregworks": {
+      "version": "GTNH-1.0.31-pre",
+      "side": "BOTH"
     }
   },
   "external_mods": {
@@ -925,10 +929,6 @@
     "UniLib": {
       "version": "1.1.1",
       "side": "CLIENT"
-    },
-    "Tinkers-Gregworks": {
-      "version": "1.0.28",
-      "side": "BOTH"
     },
     "Bug-Torch": {
       "version": "1.2.14",
