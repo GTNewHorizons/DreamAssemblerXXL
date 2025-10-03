@@ -299,8 +299,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Dev by @Dream-Master in https://github.com/GTNewHorizons/MatterManipulator/pull/13 (0.1.0-GTNH)
 >* Fix minor grammar in Manipulator upgrade description by @GTNH-Afx237v7 in https://github.com/GTNewHorizons/MatterManipulator/pull/15 (0.1.0-GTNH)
 
-# Updated - Minecraft-Backpack-Mod - 2.5.9-GTNH --> 2.6.1-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.5.9-GTNH...2.6.1-GTNH-pre
+# Updated - Minecraft-Backpack-Mod - 2.5.9-GTNH --> 2.6.2-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.5.9-GTNH...2.6.2-GTNH-pre
 
 ## What's Changed:
 >* Find Rectangular Layouts by @koolkrafter5 in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/19 (2.6.0-GTNH)
@@ -418,8 +418,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - ThaumicTinkerer - 2.11.25 --> 2.12.0
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.25...2.12.0
+# Updated - ThaumicTinkerer - 2.11.25 --> 2.12.1-pre
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.25...2.12.1-pre
 
 ## What's Changed:
 >* Merge #74 to master by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/75 (2.12.0)
