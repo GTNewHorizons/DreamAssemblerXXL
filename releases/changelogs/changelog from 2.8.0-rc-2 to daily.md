@@ -1,5 +1,7 @@
 # New Mods: 
 > * RandomBoubles
+# Mods Removed: 
+> * AE2NoUltimatePatterns
 # Updated - AE2FluidCraft-Rework - 1.4.114-gtnh --> 1.5.3-gtnh
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.114-gtnh...1.5.3-gtnh
 
