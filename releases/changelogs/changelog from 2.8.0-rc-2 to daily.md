@@ -367,10 +367,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - ThaumicTinkerer - 2.11.25 --> 2.12.0
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.25...2.12.0
+# Updated - ThaumicTinkerer - 2.11.25 --> 2.12.2
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.25...2.12.2
 
 ## What's Changed:
+>* Fix boots losing their speed when enchanted and Thaumic Boots is not installed by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/76 (2.12.2)
 >* Merge #74 to master by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/75 (2.12.0)
 >* Fix certain block interactions + redstone mode by @sisyphussy in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/72 (2.11.26)
 

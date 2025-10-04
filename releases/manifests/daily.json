@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-03T22:21:01.719067",
+  "last_updated": "2025-10-04T03:39:32.333013",
   "config": "2.9.0-nightly-2025-10-03",
   "github_mods": {
     "AdventureBackpack2": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.12.0",
+      "version": "2.12.2",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
