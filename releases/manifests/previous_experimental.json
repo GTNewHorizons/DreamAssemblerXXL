@@ -1,7 +1,7 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-10-03T22:29:35.212768",
+  "last_updated": "2025-10-03T23:49:12.608900",
   "config": "2.9.0-nightly-2025-10-03",
   "github_mods": {
     "AdventureBackpack2": {
@@ -317,7 +317,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.6.1-GTNH-pre",
+      "version": "2.6.2-GTNH-pre",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.12.0",
+      "version": "2.12.1-pre",
       "side": "BOTH"
     },
     "TiC-Tooltips": {

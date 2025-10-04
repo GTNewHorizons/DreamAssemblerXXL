@@ -1,15 +1,15 @@
 {
   "version": "experimental",
-  "last_version": "previous_experimental",
-  "last_updated": "2025-10-03T23:49:12.608900",
-  "config": "2.9.0-nightly-2025-10-03",
+  "last_version": "2.8.0",
+  "last_updated": "2025-10-04T21:18:42.536272",
+  "config": "2.9.0-nightly-2025-10-04-2-pre",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.11-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.2-gtnh-pre",
+      "version": "1.5.4-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-703-GTNH-pre",
+      "version": "rv3-beta-707-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.3-GTNH-pre",
+      "version": "3.8.5-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.26",
+      "version": "2.10.0",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.11-pre",
+      "version": "5.09.52.16-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.1",
+      "version": "2.7.2",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.4-pre",
+      "version": "2.8.6-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.5-GTNH-pre",
+      "version": "2.8.7-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.12.1-pre",
+      "version": "2.12.2",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta57",
+      "version": "1.0.0-beta58",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.2-GTNH",
+      "version": "1.3.3-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
