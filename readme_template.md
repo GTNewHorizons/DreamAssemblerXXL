@@ -117,7 +117,7 @@ and <a href="https://www.yourkit.com/youmonitor/">YourKit YouMonitor</a>.
 
 ***Questing***<BR>
 <p align="justify">
-    GT New Horizons comes with over 3000 quests that will guide the player through the maze that modded Minecraft can be.<BR>
+    GT New Horizons comes with over 3500+ quests that will guide the player through the maze that modded Minecraft can be.<BR>
     <BR>
     The texts will inform you what's required to progress so you don't have to watch tutorials or ask others as often. The questbook can even save you the time to type into NEI, just click the items displayed in the quest and it will display the recipe through NEI, quite handy, right?<BR>
     <BR>
