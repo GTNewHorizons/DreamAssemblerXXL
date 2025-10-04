@@ -2,8 +2,6 @@
 
 Version {} is out {}
 
-[![Build Status](http://jenkins.usrv.eu:8080/buildStatus/icon?job=GTNewHorizons%20Configs)](http://jenkins.usrv.eu:8080/job/GTNewHorizons%20Configs/)
-
 ## What is GT New Horizons?
 
 <p align="justify">
@@ -164,7 +162,12 @@ epsilon.gtnewhorizons.com<BR>
 eta.gtnewhorizons.com<BR>
 
 Official EU Test Server(whitelist)<BR>
+
+For experiementals:<BR>
 zeta.gtnewhorizons.com<BR>
+
+For daylies:<BR>
+iota.gtnewhorizons.com<BR>
 
 Modded Minecraft Club Falkenstein, Germany (open)<BR>
 https://www.moddedminecraft.club/ <BR>
@@ -237,9 +240,9 @@ IP: gtnh.114-7.com
 MultiMC Downloads: http://downloads.gtnewhorizons.com/Multi_mc_downloads/ <BR>
 Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387 <BR>
 Curse Link: https://minecraft.curseforge.com/projects/gt-new-horizons <BR>
-Discord Link: https://discord.gg/EXshrPV <BR>
+Discord Link: https://discord.gg/gtnh <BR>
 Website Link: https://www.gtnewhorizons.com/ <BR>
-WIKI Link: https://gtnh.miraheze.org/wiki/Main_Page
+WIKI Link: https://wiki.gtnewhorizons.com/wiki/Main_Page<BR>
 
 ### Contributing
 
