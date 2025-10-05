@@ -11,11 +11,12 @@
 >* make nbt match item after forming press rename by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/337 (1.4.115-gtnh)
 >* Adapted to AE2 GuiAmount changes by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/338 (1.4.115-gtnh)
 
-# Updated - Angelica - 1.0.0-beta56 --> 1.0.0-beta58
+# Updated - Angelica - 1.0.0-beta56 --> 1.0.0-beta59
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta56...1.0.0-beta58
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta56...1.0.0-beta59
 
 ## What's Changed:
+>* Remove an implicit cast by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1037 (1.0.0-beta59)
 >* Check if module is enabled before resetting zoom by @wlhlm in https://github.com/GTNewHorizons/Angelica/pull/1032 (1.0.0-beta58)
 >* Optimize in-world item rendering by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1034 (1.0.0-beta58)
 >* Custom/Smooth Font by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1017 (1.0.0-beta58)
@@ -24,10 +25,13 @@ Mod is client-side only.
 >* Disabled force unicode by @slprime in https://github.com/GTNewHorizons/Angelica/pull/1029 (1.0.0-beta57)
 >* Fix Tileentities not casting shadows by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1024 (1.0.0-beta57)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-689-GTNH --> rv3-beta-706-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-689-GTNH...rv3-beta-706-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-689-GTNH --> rv3-beta-708-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-689-GTNH...rv3-beta-708-GTNH
 
 ## What's Changed:
+>* Fix/fuzzy export bus can only export 1 item from its configured slots by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/868 (rv3-beta-708-GTNH)
+>* Suspend cpus by @ko-lja in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/865 (rv3-beta-708-GTNH)
+>* Fix/inconsistent network read order by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/867 (rv3-beta-708-GTNH)
 >* Fix CreativeCellInventory#getAvailableItem returns wrong count by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/866 (rv3-beta-706-GTNH)
 >* Adapt crafting calculator & crafting cpu & patterns for work with fluid directly by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/752 (rv3-beta-704-GTNH)
 >* fix: crash when check crafting CPU by @FabienChatton in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/864 (rv3-beta-702-GTNH)
@@ -173,10 +177,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.464 --> 5.09.52.14
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.464...5.09.52.14
+# Updated - GT5-Unofficial - 5.09.51.464 --> 5.09.52.17
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.464...5.09.52.17
 
 ## What's Changed:
+>* Allow upside down IOF by @Bjdufre1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4993 (5.09.52.17)
+>* Arm cover legacy removal by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4992 (5.09.52.17)
+>* Add pollution output bypass for large essentia smeltery by @kopatych3348 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4991 (5.09.52.17)
 >* Power goggles render refactor by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4983 (5.09.52.14)
 >* [MUI2] Port CoverAdvancedWirelessRedstoneBase and inheritors to mui2. by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4571 (5.09.52.14)
 >* [MUI2] Fluid Limiter GUI by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4548 (5.09.52.14)
@@ -450,4 +457,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @2ndDerivative, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @boubou19, @brachy84, @C-Remilian, @Caedis, @cambech, @Chaoschaot232, @chochem, @chrombread, @combusterf, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @evgengoldwar, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @GTNH-Afx237v7, @guid118, @hiroscho, @JustACasualDay, @Kogepan229, @koolkrafter5, @kotmatross28729, @kuba6000, @Kynake, @lc-1337, @Lyfts, @lynxx131, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @PinkYuDeer, @PlayfulPiano, @querns, @Ranzuu, @RecursivePineapple, @riggzh, @sbwaz, @serenibyss, @sisyphussy, @slprime, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @2ndDerivative, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @boubou19, @brachy84, @C-Remilian, @Caedis, @cambech, @Chaoschaot232, @chochem, @chrombread, @combusterf, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @evgengoldwar, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @GTNH-Afx237v7, @guid118, @hiroscho, @JustACasualDay, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @kuba6000, @Kynake, @lc-1337, @Lyfts, @lynxx131, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @PinkYuDeer, @PlayfulPiano, @querns, @Ranzuu, @RecursivePineapple, @riggzh, @sbwaz, @serenibyss, @sisyphussy, @slprime, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
