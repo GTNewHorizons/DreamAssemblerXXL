@@ -1,15 +1,15 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-10-05T13:16:23.296430",
-  "config": "2.9.0-nightly-2025-10-04-2",
+  "last_updated": "2025-10-05T15:55:38.656134",
+  "config": "2.9.0-nightly-2025-10-05-pre",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.11-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.3-gtnh",
+      "version": "1.5.4-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-706-GTNH",
+      "version": "rv3-beta-709-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.4-GTNH",
+      "version": "3.8.5-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -85,11 +85,11 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.8.0",
+      "version": "1.8.1-pre",
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.13.1-GTNH",
+      "version": "1.13.2-GTNH-pre",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -101,7 +101,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.45",
+      "version": "7.1.46-pre",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -145,11 +145,11 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.9.0",
+      "version": "1.9.1-pre",
       "side": "BOTH"
     },
     "DefaultServerList": {
-      "version": "1.7.0",
+      "version": "1.7.1-pre",
       "side": "CLIENT"
     },
     "DefaultWorldGenerator": {
@@ -157,7 +157,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.5.0-GTNH",
+      "version": "1.5.1-GTNH-pre",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "EnderCore": {
-      "version": "0.5.0",
+      "version": "0.5.1-pre",
       "side": "BOTH"
     },
     "EnderIO": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "ForbiddenMagic": {
-      "version": "0.9.0-GTNH",
+      "version": "0.9.1-GTNH-pre",
       "side": "BOTH"
     },
     "ForestryMC": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.0-GTNH",
+      "version": "3.4.1-GTNH-pre",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.14",
+      "version": "5.09.52.18-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -289,11 +289,11 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.0",
+      "version": "1.6.1-pre",
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.5.0-GTNH",
+      "version": "1.5.1-GTNH-pre",
       "side": "BOTH"
     },
     "LootGames": {
@@ -305,7 +305,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.10.0-GTNH",
+      "version": "2.10.1-GTNH-pre",
       "side": "BOTH"
     },
     "MalisisDoors": {
@@ -317,7 +317,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.6.0-GTNH",
+      "version": "2.6.2-GTNH-pre",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.8.0",
+      "version": "1.8.2-pre",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.5",
+      "version": "2.8.7-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.6-GTNH",
+      "version": "2.8.7-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -381,11 +381,11 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.0-GTNH",
+      "version": "1.12.1-GTNH-pre",
       "side": "BOTH"
     },
     "OpenModsLib": {
-      "version": "0.11.0",
+      "version": "0.11.1-pre",
       "side": "BOTH"
     },
     "OpenModularTurrets": {
@@ -413,11 +413,11 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.0-GTNH",
+      "version": "4.12.1-GTNH-pre",
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.0",
+      "version": "9.17.1-pre",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -505,11 +505,11 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.5.0-GTNH",
+      "version": "1.5.1-GTNH-pre",
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.9.0",
+      "version": "1.9.1-pre",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.2-GTNH",
+      "version": "1.14.3-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -549,7 +549,7 @@
       "side": "CLIENT"
     },
     "Translocators": {
-      "version": "1.4.0",
+      "version": "1.4.1-pre",
       "side": "BOTH"
     },
     "twilightforest": {
@@ -561,11 +561,11 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.0",
+      "version": "1.5.1-pre",
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.9.0",
+      "version": "1.9.1-pre",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.4.0",
+      "version": "1.4.1-pre",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -697,7 +697,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.4-GTNH",
+      "version": "0.5.5-GTNH-pre",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "Amazing-Trophies": {
-      "version": "1.3.8",
+      "version": "1.3.9-pre",
       "side": "BOTH"
     },
     "ServerUtilities": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta58",
+      "version": "1.0.0-beta59",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
-      "version": "1.6.0-backhand",
+      "version": "1.6.1-backhand-pre",
       "side": "BOTH"
     },
     "Backhand": {
@@ -801,11 +801,11 @@
       "side": "BOTH"
     },
     "RandomBoubles": {
-      "version": "1.0.0",
+      "version": "1.0.1-pre",
       "side": "BOTH"
     },
     "TinkersGregworks": {
-      "version": "GTNH-1.0.30",
+      "version": "GTNH-1.0.31-pre",
       "side": "BOTH"
     }
   },
