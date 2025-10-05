@@ -1,15 +1,15 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-04T03:39:32.333013",
-  "config": "2.9.0-nightly-2025-10-03",
+  "last_updated": "2025-10-05T03:46:24.605668",
+  "config": "2.9.0-nightly-2025-10-04-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.11-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.1-gtnh",
+      "version": "1.5.3-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-702-GTNH",
+      "version": "rv3-beta-706-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.2-GTNH",
+      "version": "3.8.4-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.26",
+      "version": "2.10.0",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.10",
+      "version": "5.09.52.14",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.1",
+      "version": "2.7.2",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.2",
+      "version": "2.8.5",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.4-GTNH",
+      "version": "2.8.6-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta57",
+      "version": "1.0.0-beta58",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.2-GTNH",
+      "version": "1.3.3-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -798,10 +798,6 @@
     },
     "Backhand": {
       "version": "1.8.0",
-      "side": "BOTH"
-    },
-    "AE2NoUltimatePatterns": {
-      "version": "1.0.1",
       "side": "BOTH"
     },
     "RandomBoubles": {
