@@ -84,7 +84,18 @@ jobs:
         shell: bash
         if: success() || failure()
         run: |
-          last_non_experimental_release_name="$(jq -r '.releases | map(select(contains("experimental") | not)) | map(select(contains("daily") | not)) | last' <./gtnh-modpack.json)"
+          last_non_experimental_release_name=$(jq -r '
+          .releases
+          | map(select(contains("experimental") | not))
+          | map(select(contains("daily") | not))
+          | sort_by(
+              [
+                (split("-")[0] | split(".") | map(tonumber)),   # major.minor.patch as numbers
+                (if test("-rc|RC|beta|Beta|BETA") then 0 else 1 end), # pre-releases first
+                .                                                # tie-breaker: lexical order
+              ]
+          ) | last
+          ' ./gtnh-modpack.json)
           echo "experimental_non_experimental_changelog_file=./releases/changelogs/changelog from ${last_non_experimental_release_name} to experimental.md" >> $GITHUB_ENV
           echo "last_non_experimental_release_name=${last_non_experimental_release_name}" >> $GITHUB_ENV
 
