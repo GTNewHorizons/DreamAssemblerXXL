@@ -160,10 +160,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.17
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.17
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.19
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.19
 
 ## What's Changed:
+>* Fix forming press set NBT when it's not a coin making recipe by @zyf051520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4998 (5.09.52.19)
+>* Mui2 robot arm cover gui by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4997 (5.09.52.19)
+>* Remove Unnecessary Circuits in Mega Recipes by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5000 (5.09.52.19)
+>* Suppress `PointlessArithmeticExpression` in Recipe Loaders by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5001 (5.09.52.19)
+>* Mui2 cover chest gui by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5003 (5.09.52.19)
+>* fix circuit imprint registration by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5002 (5.09.52.19)
 >* Allow upside down IOF by @Bjdufre1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4993 (5.09.52.17)
 >* Arm cover legacy removal by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4992 (5.09.52.17)
 >* Add pollution output bypass for large essentia smeltery by @kopatych3348 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4991 (5.09.52.17)
@@ -410,4 +416,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @brachy84, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @GTNH-Afx237v7, @guid118, @hiroscho, @ko-lja, @koolkrafter5, @kopatych3348, @Kynake, @lc-1337, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @PinkYuDeer, @PlayfulPiano, @querns, @Ranzuu, @RecursivePineapple, @sbwaz, @serenibyss, @sisyphussy, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @VortexSo4, @wlhlm, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @brachy84, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @GTNH-Afx237v7, @guid118, @hiroscho, @ko-lja, @koolkrafter5, @kopatych3348, @Kynake, @lc-1337, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @PinkYuDeer, @PlayfulPiano, @querns, @Ranzuu, @RecursivePineapple, @sbwaz, @serenibyss, @sisyphussy, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
