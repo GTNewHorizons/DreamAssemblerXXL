@@ -1,11 +1,14 @@
 # New Mods: 
 > * RandomBoubles
+> * VendingMachine
 # Mods Removed: 
 > * AE2NoUltimatePatterns
-# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.5.5-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.5.5-gtnh
+# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.5.6-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.5.6-gtnh
 
 ## What's Changed:
+>* Add Memory Card support to Level Maintainer by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/327 (1.5.6-gtnh)
+>* Allows open the Level Emitter GUI from Level Terminal by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/332 (1.5.6-gtnh)
 >* make maintainer read fluid level by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/339 (1.5.5-gtnh)
 >* Compatibility with ae native fluid by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/293 (1.5.3-gtnh)
 >* Refactor: Replace `Ae2Reflect` usages with direct method calls by @NeOzay in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/326 (1.5.1-gtnh)
@@ -20,10 +23,11 @@ Mod is client-side only.
 >* Optimize in-world item rendering by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1034 (1.0.0-beta58)
 >* Custom/Smooth Font by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1017 (1.0.0-beta58)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-690-GTNH --> rv3-beta-710-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-690-GTNH...rv3-beta-710-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-690-GTNH --> rv3-beta-711-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-690-GTNH...rv3-beta-711-GTNH
 
 ## What's Changed:
+>* Fix interface fluid push by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/870 (rv3-beta-711-GTNH)
 >* Add screen shot function for crafting list by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/775 (rv3-beta-710-GTNH)
 >* Fix/fuzzy export bus can only export 1 item from its configured slots by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/868 (rv3-beta-708-GTNH)
 >* Suspend cpus by @ko-lja in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/865 (rv3-beta-708-GTNH)
@@ -45,10 +49,11 @@ Mod is client-side only.
 >* Add anything with eat action to food check by @Caedis in https://github.com/GTNewHorizons/Backhand/pull/156 (1.7.7)
 >* Fix crash when holding TC wand with equal exchange in offhand by @Lyfts in https://github.com/GTNewHorizons/Backhand/pull/155 (1.7.7)
 
-# Updated - Battlegear2-for-Backhand - 1.5.8-backhand --> 1.6.2-backhand
-**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2-for-Backhand/compare/1.5.8-backhand...1.6.2-backhand
+# Updated - Battlegear2-for-Backhand - 1.5.8-backhand --> 1.6.3-backhand
+**Full Changelog**: https://github.com/GTNewHorizons/Battlegear2-for-Backhand/compare/1.5.8-backhand...1.6.3-backhand
 
 ## What's Changed:
+>* Allow Quiver in bauble slot by @Kynake in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/10 (1.6.3-backhand)
 >* Allow Thaumcraft's Primal Arrows to be used from the Quiver by @Kynake in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/11 (1.6.2-backhand)
 
 # Updated - Baubles-Expanded - 2.1.15-GTNH --> 2.2.0-GTNH
@@ -63,10 +68,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
 
-# Updated - BetterQuesting - 3.7.14-GTNH --> 3.8.4-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.14-GTNH...3.8.4-GTNH
+# Updated - BetterQuesting - 3.7.14-GTNH --> 3.8.8-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.14-GTNH...3.8.8-GTNH
 
 ## What's Changed:
+>* Vending integration by @cubefury in https://github.com/GTNewHorizons/BetterQuesting/pull/176 (3.8.8-GTNH)
+>* Add some better error logging by @glektarssza in https://github.com/GTNewHorizons/BetterQuesting/pull/168 (3.8.6-GTNH)
 >* Use GTNHLib string methods by @DeathFuel in https://github.com/GTNewHorizons/BetterQuesting/pull/172 (3.8.4-GTNH)
 >* Fix NPE in icon display by @ah-OOG-ah in https://github.com/GTNewHorizons/BetterQuesting/pull/173 (3.8.2-GTNH)
 
@@ -160,10 +167,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.19
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.19
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.20
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.20
 
 ## What's Changed:
+>* Fix power goggles timed difference rendering not caring about the configuration by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5007 (5.09.52.20)
+>* Power goggles ux improvements by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5008 (5.09.52.20)
+>* fix ichorium block recycling and some small cleanup by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5004 (5.09.52.20)
+>* Add null check for worldObj in markDirty to prevent crashes by @SKProCH in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5006 (5.09.52.20)
+>* add Vending Machine Mod ID by @cubefury in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5009 (5.09.52.20)
 >* Fix forming press set NBT when it's not a coin making recipe by @zyf051520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4998 (5.09.52.19)
 >* Mui2 robot arm cover gui by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4997 (5.09.52.19)
 >* Remove Unnecessary Circuits in Mega Recipes by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5000 (5.09.52.19)
@@ -284,8 +296,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.5
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.5
+# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.8
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.8
 
 ## What's Changed:
 >* Add ZPM & UV Lootbag Assembler Recipes by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1395 (2.8.5)
@@ -378,6 +390,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# New Mod - VendingMachine:0.4.1
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.1
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - VisualProspecting - 1.4.8 --> 1.5.0
 **Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.4.8...1.5.0
 
@@ -416,4 +433,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @brachy84, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @GTNH-Afx237v7, @guid118, @hiroscho, @ko-lja, @koolkrafter5, @kopatych3348, @Kynake, @lc-1337, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @PinkYuDeer, @PlayfulPiano, @querns, @Ranzuu, @RecursivePineapple, @sbwaz, @serenibyss, @sisyphussy, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @brachy84, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @cubefury, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @Kynake, @lc-1337, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @PinkYuDeer, @PlayfulPiano, @querns, @Ranzuu, @RecursivePineapple, @sbwaz, @serenibyss, @sisyphussy, @SKProCH, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
