@@ -296,10 +296,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.8
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.8
+# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.9
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.9
 
 ## What's Changed:
+>* Add recipes for vending machine by @cubefury in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1398 (2.8.9)
 >* Add ZPM & UV Lootbag Assembler Recipes by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1395 (2.8.5)
 >* Disable Open To LAN by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1393 (2.8.2)
 >* crimson rite recipe fix by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1388 (2.8.0)
