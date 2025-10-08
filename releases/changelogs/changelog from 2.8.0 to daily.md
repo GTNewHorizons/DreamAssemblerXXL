@@ -23,10 +23,11 @@ Mod is client-side only.
 >* Optimize in-world item rendering by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1034 (1.0.0-beta58)
 >* Custom/Smooth Font by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1017 (1.0.0-beta58)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-690-GTNH --> rv3-beta-711-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-690-GTNH...rv3-beta-711-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-690-GTNH --> rv3-beta-712-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-690-GTNH...rv3-beta-712-GTNH
 
 ## What's Changed:
+>* fix craft when no ae2fc by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/871 (rv3-beta-712-GTNH)
 >* Fix interface fluid push by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/870 (rv3-beta-711-GTNH)
 >* Add screen shot function for crafting list by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/775 (rv3-beta-710-GTNH)
 >* Fix/fuzzy export bus can only export 1 item from its configured slots by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/868 (rv3-beta-708-GTNH)
@@ -167,10 +168,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.20
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.20
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.21
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.21
 
 ## What's Changed:
+>* Remove CoverLegacyData from the ender fluid link cover by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5010 (5.09.52.21)
+>* add phantom mold choice inside solidifier hatches by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5011 (5.09.52.21)
+>* Fixes 64A UHV Dynamo Hatch Recipe (S4Stable) by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5014 (5.09.52.21)
+>* Fix Overclock Calculator Correction Multiplier by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5015 (5.09.52.21)
 >* Fix power goggles timed difference rendering not caring about the configuration by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5007 (5.09.52.20)
 >* Power goggles ux improvements by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5008 (5.09.52.20)
 >* fix ichorium block recycling and some small cleanup by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5004 (5.09.52.20)
@@ -296,10 +301,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.9
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.9
+# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.10
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.10
 
 ## What's Changed:
+>* Fixed missing recipes by @cubefury in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1399 (2.8.10)
 >* Add recipes for vending machine by @cubefury in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1398 (2.8.9)
 >* Add ZPM & UV Lootbag Assembler Recipes by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1395 (2.8.5)
 >* Disable Open To LAN by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1393 (2.8.2)
@@ -391,11 +397,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# New Mod - VendingMachine:0.4.1
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.1
+# New Mod - VendingMachine:0.4.2
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.2
 
 ## What's Changed:
-DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+>* Adjust tab pixels by @Ranzuu in https://github.com/GTNewHorizons/VendingMachine/pull/1 (0.4.2)
+>* Structure changes by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/2 (0.4.2)
+
 # Updated - VisualProspecting - 1.4.8 --> 1.5.0
 **Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.4.8...1.5.0
 
