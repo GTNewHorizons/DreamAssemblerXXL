@@ -13,6 +13,12 @@
 >* Compatibility with ae native fluid by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/293 (1.5.3-gtnh)
 >* Refactor: Replace `Ae2Reflect` usages with direct method calls by @NeOzay in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/326 (1.5.1-gtnh)
 
+# Updated - AdventureBackpack2 - 1.3.11-GTNH --> 1.4.0-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.11-GTNH...1.4.0-GTNH
+
+## What's Changed:
+>* Drop duplicated inventory tab rendering code by @wlhlm in https://github.com/GTNewHorizons/AdventureBackpack2/pull/34 (1.4.0-GTNH)
+
 # Updated - Angelica - 1.0.0-beta57 --> 1.0.0-beta59
 Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta57...1.0.0-beta59
@@ -95,10 +101,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Botania - 1.12.26-GTNH --> 1.13.1-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.26-GTNH...1.13.1-GTNH
+# Updated - Botania - 1.12.26-GTNH --> 1.13.3-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Botania/compare/1.12.26-GTNH...1.13.3-GTNH
 
 ## What's Changed:
+>* Great Renaming, Part 2 - Items by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Botania/pull/107 (1.13.3-GTNH)
 >* Great Renaming, Part 1 - Blocks & `deobfParams` by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Botania/pull/106 (1.13.1-GTNH)
 >* Activate Generic Injection by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Botania/pull/100 (1.13.0-GTNH)
 >* Fix reach ring by @DarkShadow44 in https://github.com/GTNewHorizons/Botania/pull/95 (1.13.0-GTNH)
@@ -169,10 +176,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.22
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.22
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.23
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.23
 
 ## What's Changed:
+>* Port Item Detector Cover to Mui2 by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5019 (5.09.52.23)
+>* Remove CoverLegacyData from wireless redstone base by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5021 (5.09.52.23)
+>* Add Mui2 implementation for basic wireless redstone covers by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5022 (5.09.52.23)
+>* Fix/ME Output Bus items can get stuck by @hiroscho in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5020 (5.09.52.23)
 >* Port ender fluid link cover gui to mui2 by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5016 (5.09.52.22)
 >* Fix fluid canners not emptying volumetric flasks by @C-Remilian in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5018 (5.09.52.22)
 >* Remove CoverLegacyData from the ender fluid link cover by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5010 (5.09.52.21)
@@ -311,10 +322,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.11
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.11
+# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.12
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.12
 
 ## What's Changed:
+>* Do not disable Open To LAN, but prevent external connections by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1394 (2.8.12)
 >* remove unintended recipe from BoP by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1401 (2.8.11)
 >* Fix world breaker recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1402 (2.8.11)
 >* Fixed missing recipes by @cubefury in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1399 (2.8.10)
@@ -398,10 +410,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TinkersConstruct - 1.13.54-GTNH --> 1.14.2-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.54-GTNH...1.14.2-GTNH
+# Updated - TinkersConstruct - 1.13.54-GTNH --> 1.14.4-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.54-GTNH...1.14.4-GTNH
 
 ## What's Changed:
+>* Add additional drawing method for inventory tabs by @wlhlm in https://github.com/GTNewHorizons/TinkersConstruct/pull/217 (1.14.4-GTNH)
 >* Fix Miniature Heart Tooltip by @tuodekun in https://github.com/GTNewHorizons/TinkersConstruct/pull/215 (1.14.2-GTNH)
 >* Fix crafting station sometimes detecting a chest next to a trapped chest as a double chest by @Dredonkey in https://github.com/GTNewHorizons/TinkersConstruct/pull/213 (1.14.0-GTNH)
 
