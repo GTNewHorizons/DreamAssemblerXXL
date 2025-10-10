@@ -1,15 +1,15 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-10-03T23:49:12.608900",
-  "config": "2.9.0-nightly-2025-10-03",
+  "last_updated": "2025-10-08T19:21:44.497788",
+  "config": "2.9.0-nightly-2025-10-08",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.11-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.2-gtnh-pre",
+      "version": "1.5.6-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-703-GTNH-pre",
+      "version": "rv3-beta-713-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.3-GTNH-pre",
+      "version": "3.8.8-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.9.26",
+      "version": "2.10.0",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "ForbiddenMagic": {
-      "version": "0.9.1-GTNH-pre",
+      "version": "0.9.2-GTNH-pre",
       "side": "BOTH"
     },
     "ForestryMC": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.11-pre",
+      "version": "5.09.52.22",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -237,7 +237,7 @@
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
-      "version": "1.12.13-GTNH",
+      "version": "1.13.0-GTNH",
       "side": "BOTH"
     },
     "harvestcraft": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.1",
+      "version": "2.7.2",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.4-pre",
+      "version": "2.8.11",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.5-GTNH-pre",
+      "version": "2.8.8-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.12.1-pre",
+      "version": "2.12.2",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta57",
+      "version": "1.0.0-beta59",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.2-GTNH",
+      "version": "1.3.4-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -793,15 +793,11 @@
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
-      "version": "1.6.1-backhand-pre",
+      "version": "1.6.3-backhand",
       "side": "BOTH"
     },
     "Backhand": {
       "version": "1.8.0",
-      "side": "BOTH"
-    },
-    "AE2NoUltimatePatterns": {
-      "version": "1.0.1",
       "side": "BOTH"
     },
     "RandomBoubles": {
