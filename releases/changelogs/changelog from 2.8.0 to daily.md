@@ -13,10 +13,11 @@
 >* Compatibility with ae native fluid by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/293 (1.5.3-gtnh)
 >* Refactor: Replace `Ae2Reflect` usages with direct method calls by @NeOzay in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/326 (1.5.1-gtnh)
 
-# Updated - AdventureBackpack2 - 1.3.11-GTNH --> 1.4.0-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.11-GTNH...1.4.0-GTNH
+# Updated - AdventureBackpack2 - 1.3.11-GTNH --> 1.4.1-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.11-GTNH...1.4.1-GTNH
 
 ## What's Changed:
+>* Set minimum compatible Tinker's Construct version by @wlhlm in https://github.com/GTNewHorizons/AdventureBackpack2/pull/35 (1.4.1-GTNH)
 >* Drop duplicated inventory tab rendering code by @wlhlm in https://github.com/GTNewHorizons/AdventureBackpack2/pull/34 (1.4.0-GTNH)
 
 # Updated - Angelica - 1.0.0-beta57 --> 1.0.0-beta59
@@ -278,10 +279,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Enable the lp to be calculated and make the code writing method on the wiki usable. by @PinkYuDeer in https://github.com/GTNewHorizons/InGame-Info-XML/pull/35 (2.9.0)
 
-# Updated - InventoryBogoSorter - 1.2.65-GTNH --> 1.3.4-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.65-GTNH...1.3.4-GTNH
+# Updated - InventoryBogoSorter - 1.2.65-GTNH --> 1.3.6-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.65-GTNH...1.3.6-GTNH
 
 ## What's Changed:
+>* Migrate refilling to server only via packets by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/148 (1.3.6-GTNH)
+>* Fix Keybindings by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/143 (1.3.5-GTNH)
+>* Update mods enum to use versionMatching by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/144 (1.3.5-GTNH)
+>* fix the HotbarSwap render by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/145 (1.3.5-GTNH)
+>* Added KeyBinds support for Shortcut by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/146 (1.3.5-GTNH)
 >* Ammo tracker by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/142 (1.3.4-GTNH)
 >* Simple Fixes  by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/140 (1.3.2-GTNH)
 >* Add server controlled toggle for refilling by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/134 (1.3.1-GTNH)

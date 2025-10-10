@@ -1,11 +1,11 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-09T07:09:20.222800",
+  "last_updated": "2025-10-10T03:45:48.878816",
   "config": "2.9.0-nightly-2025-10-08",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.4.0-GTNH",
+      "version": "1.4.1-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.4-GTNH",
+      "version": "1.3.6-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
