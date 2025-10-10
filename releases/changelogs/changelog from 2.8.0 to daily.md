@@ -30,10 +30,11 @@ Mod is client-side only.
 >* Optimize in-world item rendering by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1034 (1.0.0-beta58)
 >* Custom/Smooth Font by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1017 (1.0.0-beta58)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-690-GTNH --> rv3-beta-713-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-690-GTNH...rv3-beta-713-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-690-GTNH --> rv3-beta-714-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-690-GTNH...rv3-beta-714-GTNH
 
 ## What's Changed:
+>* fix nbt read/write in legacy style 2.9 by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/876 (rv3-beta-714-GTNH)
 >* fix packets spliting by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/873 (rv3-beta-713-GTNH)
 >* fix craft when no ae2fc by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/871 (rv3-beta-712-GTNH)
 >* Fix interface fluid push by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/870 (rv3-beta-711-GTNH)
@@ -177,10 +178,25 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.23
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.23
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.24
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.24
 
 ## What's Changed:
+>* fixed Multiblockbase gui titles not newlining after long enough length by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4550 (5.09.52.24)
+>* fix: removed extra line MaxParallel for MTEAutoCrafter by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5024 (5.09.52.24)
+>* [MUI2] MTEMultiBlockBaseGui cleanup by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4581 (5.09.52.24)
+>* [MUI2] Fix shutdown duration resetting to 0 every time the gui is opened by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5031 (5.09.52.24)
+>* Add cover tab to mui2 multiblock guis by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5032 (5.09.52.24)
+>* Add pollution to a couple of basic furnaces by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4999 (5.09.52.24)
+>* Move muffler button one pixel to the right by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5033 (5.09.52.24)
+>* Beamline Recipe Refinement by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5038 (5.09.52.24)
+>* Fix for item ejecting for high parallels by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5025 (5.09.52.24)
+>* fix mistake in vacuum furnace tooltip (dynamic -> static parallel) by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5035 (5.09.52.24)
+>* Fix mui1 muffle crash by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5039 (5.09.52.24)
+>* Allow colors to be displayed in the nei frontends by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5030 (5.09.52.24)
+>* [MUI2] Fix Title bar not rendering properly  by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5040 (5.09.52.24)
+>* add support to toggle things on and off in the corner column by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5042 (5.09.52.24)
+>* Fix the issue with the AlkalusDisk texture alpha channel not working correctly by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5045 (5.09.52.24)
 >* Port Item Detector Cover to Mui2 by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5019 (5.09.52.23)
 >* Remove CoverLegacyData from wireless redstone base by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5021 (5.09.52.23)
 >* Add Mui2 implementation for basic wireless redstone covers by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5022 (5.09.52.23)
@@ -279,10 +295,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Enable the lp to be calculated and make the code writing method on the wiki usable. by @PinkYuDeer in https://github.com/GTNewHorizons/InGame-Info-XML/pull/35 (2.9.0)
 
-# Updated - InventoryBogoSorter - 1.2.65-GTNH --> 1.3.6-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.65-GTNH...1.3.6-GTNH
+# Updated - InventoryBogoSorter - 1.2.65-GTNH --> 1.3.7-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.65-GTNH...1.3.7-GTNH
 
 ## What's Changed:
+>* fix refill sync issue by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/149 (1.3.7-GTNH)
 >* Migrate refilling to server only via packets by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/148 (1.3.6-GTNH)
 >* Fix Keybindings by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/143 (1.3.5-GTNH)
 >* Update mods enum to use versionMatching by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/144 (1.3.5-GTNH)
@@ -316,11 +333,18 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Dev by @Dream-Master in https://github.com/GTNewHorizons/MatterManipulator/pull/13 (0.1.0-GTNH)
 >* Fix minor grammar in Manipulator upgrade description by @GTNH-Afx237v7 in https://github.com/GTNewHorizons/MatterManipulator/pull/15 (0.1.0-GTNH)
 
-# Updated - Minecraft-Backpack-Mod - 2.5.9-GTNH --> 2.6.0-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.5.9-GTNH...2.6.0-GTNH
+# Updated - Minecraft-Backpack-Mod - 2.5.9-GTNH --> 2.6.3-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.5.9-GTNH...2.6.3-GTNH
 
 ## What's Changed:
+>* Fix Backpack slot usage tooltip allways displaying 0/0 by @Worive in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/16 (2.6.3-GTNH)
 >* Find Rectangular Layouts by @koolkrafter5 in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/19 (2.6.0-GTNH)
+
+# Updated - ModularUI - 1.2.20 --> 1.3.0
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.2.20...1.3.0
+
+## What's Changed:
+>* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
 # Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.2.20-1.7.10
 **Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.2.20-1.7.10
@@ -328,10 +352,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.12
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.12
+# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.13
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.13
 
 ## What's Changed:
+>* Fix unreadable words in thaumonomicon entries by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1405 (2.8.13)
+>* Rosa mysteria thaumonomicon fix by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1406 (2.8.13)
+>* Vending machine changes by @cubefury in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1404 (2.8.13)
+>* Allows Cobbled Deepslate to Macerate into Deepslate Dust by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1407 (2.8.13)
 >* Do not disable Open To LAN, but prevent external connections by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1394 (2.8.12)
 >* remove unintended recipe from BoP by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1401 (2.8.11)
 >* Fix world breaker recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1402 (2.8.11)
@@ -345,10 +373,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add plank recipes for stripped logs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1391 (2.8.0)
 >* Fix circuits in some AL recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1392 (2.8.0)
 
-# Updated - NotEnoughItems - 2.7.91-GTNH --> 2.8.8-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.91-GTNH...2.8.8-GTNH
+# Updated - NotEnoughItems - 2.7.91-GTNH --> 2.8.9-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.91-GTNH...2.8.9-GTNH
 
 ## What's Changed:
+>* Show Handler Icon in Bookmarks by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/747 (2.8.9-GTNH)
 >* Show Items Loading Message by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/745 (2.8.8-GTNH)
 >* [Extended+] Fix the prefixed sequence parsing. by @sbwaz in https://github.com/GTNewHorizons/NotEnoughItems/pull/741 (2.8.6-GTNH)
 >* Speedup rendering by @sisyphussy in https://github.com/GTNewHorizons/NotEnoughItems/pull/740 (2.8.4-GTNH)
@@ -381,6 +410,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - SpecialMobs - 3.7.0 --> 3.7.1
+**Full Changelog**: https://github.com/GTNewHorizons/SpecialMobs/compare/3.7.0...3.7.1
+
+## What's Changed:
+>* Prevent Witch Spider infinite projectile duplication by @wlhlm in https://github.com/GTNewHorizons/SpecialMobs/pull/28 (3.7.1)
+
 # Updated - StevesAddons - 0.14.2 --> 0.15.0
 **Full Changelog**: https://github.com/GTNewHorizons/StevesAddons/compare/0.14.2...0.15.0
 
@@ -429,10 +464,17 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# New Mod - VendingMachine:0.4.2
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.2
+# New Mod - VendingMachine:0.4.5
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.5
 
 ## What's Changed:
+>* Shifted text color setting to lang file by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/13 (0.4.5)
+>* Changes: by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/12 (0.4.4)
+>* Update zh_CN.lang by @Omgise in https://github.com/GTNewHorizons/VendingMachine/pull/6 (0.4.3)
+>* Updated save format by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/9 (0.4.3)
+>* Localize textures and gui title by @Ranzuu in https://github.com/GTNewHorizons/VendingMachine/pull/8 (0.4.3)
+>* Qol toggles by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/10 (0.4.3)
+>* Change README by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/11 (0.4.3)
 >* Adjust tab pixels by @Ranzuu in https://github.com/GTNewHorizons/VendingMachine/pull/1 (0.4.2)
 >* Structure changes by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/2 (0.4.2)
 
@@ -474,4 +516,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @brachy84, @C-Remilian, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @cubefury, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @Kynake, @lc-1337, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @PinkYuDeer, @PlayfulPiano, @querns, @Ranzuu, @RecursivePineapple, @sbwaz, @serenibyss, @sisyphussy, @SKProCH, @slprime, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @brachy84, @C-Remilian, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @cubefury, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @Kynake, @lc-1337, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Omgise, @PinkYuDeer, @PlayfulPiano, @querns, @Ranzuu, @RecursivePineapple, @sbwaz, @serenibyss, @sisyphussy, @SKProCH, @slprime, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
