@@ -13,8 +13,8 @@
 >* Compatibility with ae native fluid by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/293 (1.5.3-gtnh)
 >* Refactor: Replace `Ae2Reflect` usages with direct method calls by @NeOzay in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/326 (1.5.1-gtnh)
 
-# Updated - AdventureBackpack2 - 1.3.11-GTNH --> 1.4.1-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.11-GTNH...1.4.1-GTNH
+# Updated - AdventureBackpack2 - 1.3.11-GTNH --> 1.4.2-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.11-GTNH...1.4.2-GTNH-pre
 
 ## What's Changed:
 >* Set minimum compatible Tinker's Construct version by @wlhlm in https://github.com/GTNewHorizons/AdventureBackpack2/pull/35 (1.4.1-GTNH)
@@ -188,10 +188,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.25-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.25-pre
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.29-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.29-pre
 
 ## What's Changed:
+>* implement helper methods for input busses by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5036 (5.09.52.27-pre)
+>* Fix small tooltip grammar issue in Black Hole Compressor by @GTNH-Afx237v7 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5052 (5.09.52.27-pre)
+>* [MUI2] pH Sensor Hatch by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4416 (5.09.52.26)
+>* [MUI2] Heat Sensor by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4380 (5.09.52.26)
+>* implement helper methods for input busses by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5036 (5.09.52.26)
+>* Fix small tooltip grammar issue in Black Hole Compressor by @GTNH-Afx237v7 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5052 (5.09.52.26)
 >* HTGR Textures by @kielxyz in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4438 (5.09.52.25-pre)
 >* Spotless apply for branch htgr for #4269 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4960 (5.09.52.25-pre)
 >* Refactor ore and worldgen by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/3662 (5.09.52.25-pre)
@@ -368,8 +374,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - MatterManipulator - 0.0.49-GTNH --> 0.1.0-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.49-GTNH...0.1.0-GTNH
+# Updated - MatterManipulator - 0.0.49-GTNH --> 0.1.1-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.49-GTNH...0.1.1-GTNH
 
 ## What's Changed:
 >* Dev by @Dream-Master in https://github.com/GTNewHorizons/MatterManipulator/pull/13 (0.1.0-GTNH)
@@ -399,10 +405,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.14-pre
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.14-pre
+# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.16-pre
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.16-pre
 
 ## What's Changed:
+>* Cordierite & High Strength Concrete Fix (2.8.X Friendly) by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1409 (2.8.16-pre)
+>* Cordierite & High Strength Concrete Fix (2.8.X Friendly) by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1409 (2.8.15)
 >* Fix unreadable words in thaumonomicon entries by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1405 (2.8.13)
 >* Rosa mysteria thaumonomicon fix by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1406 (2.8.13)
 >* Vending machine changes by @cubefury in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1404 (2.8.13)
