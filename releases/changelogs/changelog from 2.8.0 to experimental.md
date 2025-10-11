@@ -374,12 +374,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - MatterManipulator - 0.0.49-GTNH --> 0.1.1-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.49-GTNH...0.1.1-GTNH
+# Updated - MatterManipulator - 0.0.49-GTNH --> 0.1.0-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.49-GTNH...0.1.0-GTNH
 
 ## What's Changed:
 >* Dev by @Dream-Master in https://github.com/GTNewHorizons/MatterManipulator/pull/13 (0.1.0-GTNH)
 >* Fix minor grammar in Manipulator upgrade description by @GTNH-Afx237v7 in https://github.com/GTNewHorizons/MatterManipulator/pull/15 (0.1.0-GTNH)
+>* Sync with upstream by @RecursivePineapple in https://github.com/GTNewHorizons/MatterManipulator/pull/12 (0.0.50-GTNH-pre)
 
 # Updated - Minecraft-Backpack-Mod - 2.5.9-GTNH --> 2.6.3-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/compare/2.5.9-GTNH...2.6.3-GTNH
