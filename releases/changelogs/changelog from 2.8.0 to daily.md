@@ -178,10 +178,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.24
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.24
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.26
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.26
 
 ## What's Changed:
+>* [MUI2] pH Sensor Hatch by @Nockyx in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4416 (5.09.52.26)
+>* [MUI2] Heat Sensor by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4380 (5.09.52.26)
+>* implement helper methods for input busses by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5036 (5.09.52.26)
+>* Fix small tooltip grammar issue in Black Hole Compressor by @GTNH-Afx237v7 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5052 (5.09.52.26)
 >* fixed Multiblockbase gui titles not newlining after long enough length by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4550 (5.09.52.24)
 >* fix: removed extra line MaxParallel for MTEAutoCrafter by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5024 (5.09.52.24)
 >* [MUI2] MTEMultiBlockBaseGui cleanup by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4581 (5.09.52.24)
@@ -326,8 +330,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - MatterManipulator - 0.0.49-GTNH --> 0.1.0-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.49-GTNH...0.1.0-GTNH
+# Updated - MatterManipulator - 0.0.49-GTNH --> 0.1.1-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.49-GTNH...0.1.1-GTNH
 
 ## What's Changed:
 >* Dev by @Dream-Master in https://github.com/GTNewHorizons/MatterManipulator/pull/13 (0.1.0-GTNH)
@@ -352,10 +356,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.13
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.13
+# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.15
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.15
 
 ## What's Changed:
+>* Cordierite & High Strength Concrete Fix (2.8.X Friendly) by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1409 (2.8.15)
 >* Fix unreadable words in thaumonomicon entries by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1405 (2.8.13)
 >* Rosa mysteria thaumonomicon fix by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1406 (2.8.13)
 >* Vending machine changes by @cubefury in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1404 (2.8.13)
@@ -516,4 +521,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @brachy84, @C-Remilian, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @cubefury, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @Kynake, @lc-1337, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Omgise, @PinkYuDeer, @PlayfulPiano, @querns, @Ranzuu, @RecursivePineapple, @sbwaz, @serenibyss, @sisyphussy, @SKProCH, @slprime, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @brachy84, @C-Remilian, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @cubefury, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @Kynake, @lc-1337, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PlayfulPiano, @purebluez, @querns, @Ranzuu, @RecursivePineapple, @sbwaz, @serenibyss, @sisyphussy, @SKProCH, @slprime, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
