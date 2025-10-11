@@ -1,11 +1,11 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-10-10T22:08:14.103430",
-  "config": "2.9.0-nightly-2025-10-10-2",
+  "last_updated": "2025-10-11T11:56:18.642440",
+  "config": "2.9.0-nightly-2025-10-11-pre",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.4.1-GTNH",
+      "version": "1.4.2-GTNH-pre",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.25-pre",
+      "version": "5.09.52.29-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.14-pre",
+      "version": "2.8.16-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -765,7 +765,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.0-GTNH",
+      "version": "0.1.1-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
