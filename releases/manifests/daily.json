@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-11T13:14:49.631436",
+  "last_updated": "2025-10-12T03:46:39.928433",
   "config": "2.9.0-nightly-2025-10-10-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta59",
+      "version": "1.0.0-beta60",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.2.20-1.7.10",
+      "version": "2.3.1-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {

@@ -20,11 +20,12 @@
 >* Set minimum compatible Tinker's Construct version by @wlhlm in https://github.com/GTNewHorizons/AdventureBackpack2/pull/35 (1.4.1-GTNH)
 >* Drop duplicated inventory tab rendering code by @wlhlm in https://github.com/GTNewHorizons/AdventureBackpack2/pull/34 (1.4.0-GTNH)
 
-# Updated - Angelica - 1.0.0-beta57 --> 1.0.0-beta59
+# Updated - Angelica - 1.0.0-beta57 --> 1.0.0-beta60
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta57...1.0.0-beta59
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta57...1.0.0-beta60
 
 ## What's Changed:
+>* Fix missing GL20 in cstPoolParser by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1042 (1.0.0-beta60)
 >* Remove an implicit cast by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1037 (1.0.0-beta59)
 >* Check if module is enabled before resetting zoom by @wlhlm in https://github.com/GTNewHorizons/Angelica/pull/1032 (1.0.0-beta58)
 >* Optimize in-world item rendering by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1034 (1.0.0-beta58)
@@ -350,10 +351,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.2.20-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.2.20-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.1-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.1-1.7.10
 
 ## What's Changed:
+>* fix npe in EventHandler by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/45 (2.3.1-1.7.10)
+>* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
 # Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.15
@@ -521,4 +524,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @brachy84, @C-Remilian, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @cubefury, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @Kynake, @lc-1337, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PlayfulPiano, @purebluez, @querns, @Ranzuu, @RecursivePineapple, @sbwaz, @serenibyss, @sisyphussy, @SKProCH, @slprime, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @brachy84, @C-Remilian, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @cubefury, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @Kynake, @lc-1337, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PlayfulPiano, @purebluez, @querns, @Ranzuu, @RecursivePineapple, @sbwaz, @serenibyss, @sisyphussy, @SKProCH, @slprime, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
