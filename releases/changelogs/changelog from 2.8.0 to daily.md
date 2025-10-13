@@ -187,10 +187,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Wand Cap and Core Refactor by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/18 (0.9.4-GTNH)
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.34
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.34
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.37
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.37
 
 ## What's Changed:
+>* adapt Spinmatron-27-37 UI (remove pos) by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5067 (5.09.52.37)
+>* fix muffler buttons crashing the world by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5068 (5.09.52.37)
+>* Early game cauldron washing improvements by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5064 (5.09.52.37)
 >* bump mui2 version by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5066 (5.09.52.34)
 >* Make MTEMultiblockBaseGui use GTBaseGuiBuilder by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5065 (5.09.52.34)
 >* Add ICE_ORE support from ore refactor in new Material Builder by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5062 (5.09.52.32)
@@ -395,8 +398,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.17
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.17
+# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.18
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.18
 
 ## What's Changed:
 >* Add EFR flower to dye recipes by @KenzoWVY in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1411 (2.8.17)
@@ -420,10 +423,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add plank recipes for stripped logs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1391 (2.8.0)
 >* Fix circuits in some AL recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1392 (2.8.0)
 
-# Updated - NotEnoughItems - 2.7.91-GTNH --> 2.8.11-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.91-GTNH...2.8.11-GTNH
+# Updated - NotEnoughItems - 2.7.91-GTNH --> 2.8.14-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.91-GTNH...2.8.14-GTNH
 
 ## What's Changed:
+>* Fix tooltip item lighting by @sisyphussy in https://github.com/GTNewHorizons/NotEnoughItems/pull/755 (2.8.14-GTNH)
+>* Optimize Bookmark Chains with Containers by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/751 (2.8.14-GTNH)
 >* Create Recipe Widget; Recipe GUI: Infinity Scroll; Recipe GUI: Max Height Settings by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/701 (2.8.11-GTNH)
 >* Show Handler Icon in Bookmarks by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/747 (2.8.9-GTNH)
 >* Show Items Loading Message by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/745 (2.8.8-GTNH)
@@ -518,10 +523,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.8
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.8
+# New Mod - VendingMachine:0.4.10
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.10
 
 ## What's Changed:
+>* Fix various issues by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/22 (0.4.10)
+>* Fix currency sync by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/21 (0.4.9)
 >* Fixed NEI update compile errors by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/20 (0.4.8)
 >* Shifted text color setting to lang file by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/13 (0.4.5)
 >* Changes: by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/12 (0.4.4)
@@ -567,10 +574,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Swap to GTBlockOre by @RecursivePineapple in https://github.com/GTNewHorizons/nei-custom-diagram/pull/52 (1.8.3)
 >* add server support for tank and chest by @fengluo2 in https://github.com/GTNewHorizons/nei-custom-diagram/pull/51 (1.8.0)
 
-# Updated - waila - 1.8.14 --> 1.9.0
-**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.14...1.9.0
+# Updated - waila - 1.8.14 --> 1.9.2
+**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.14...1.9.2
 
 ## What's Changed:
+>* Draw thaumcraft aspect icons in tooltip by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/41 (1.9.2)
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
