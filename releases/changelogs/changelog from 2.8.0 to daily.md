@@ -187,10 +187,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Wand Cap and Core Refactor by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/18 (0.9.4-GTNH)
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.37
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.37
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.39
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.39
 
 ## What's Changed:
+>* restore carbon ore items by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5073 (5.09.52.39)
+>* Fix attempt for crash on cauldron cleaning by throwing by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5074 (5.09.52.39)
 >* adapt Spinmatron-27-37 UI (remove pos) by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5067 (5.09.52.37)
 >* fix muffler buttons crashing the world by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5068 (5.09.52.37)
 >* Early game cauldron washing improvements by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5064 (5.09.52.37)
@@ -504,6 +506,9 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.29
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - TinkersConstruct - 1.13.54-GTNH --> 1.14.4-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.54-GTNH...1.14.4-GTNH
 
@@ -523,10 +528,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.10
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.10
+# New Mod - VendingMachine:0.4.11
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.11
 
 ## What's Changed:
+>* Fix coins voiding by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/24 (0.4.11)
 >* Fix various issues by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/22 (0.4.10)
 >* Fix currency sync by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/21 (0.4.9)
 >* Fixed NEI update compile errors by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/20 (0.4.8)
