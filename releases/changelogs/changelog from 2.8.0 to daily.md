@@ -20,11 +20,12 @@
 >* Set minimum compatible Tinker's Construct version by @wlhlm in https://github.com/GTNewHorizons/AdventureBackpack2/pull/35 (1.4.1-GTNH)
 >* Drop duplicated inventory tab rendering code by @wlhlm in https://github.com/GTNewHorizons/AdventureBackpack2/pull/34 (1.4.0-GTNH)
 
-# Updated - Angelica - 1.0.0-beta57 --> 1.0.0-beta61
+# Updated - Angelica - 1.0.0-beta57 --> 1.0.0-beta62
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta57...1.0.0-beta61
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta57...1.0.0-beta62
 
 ## What's Changed:
+>* Maybe fix TAA by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1047 (1.0.0-beta62)
 >* GLSM updates by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1046 (1.0.0-beta61)
 >* Fix missing GL20 in cstPoolParser by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1042 (1.0.0-beta60)
 >* Remove an implicit cast by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1037 (1.0.0-beta59)
