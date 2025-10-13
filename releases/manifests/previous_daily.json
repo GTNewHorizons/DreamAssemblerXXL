@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-13T03:52:11.709436",
-  "config": "2.9.0-nightly-2025-10-12",
+  "last_updated": "2025-10-13T18:54:42.437213",
+  "config": "2.9.0-nightly-2025-10-13",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.1-GTNH",
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.34",
+      "version": "5.09.52.37",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.17",
+      "version": "2.8.18",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.11-GTNH",
+      "version": "2.8.14-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.9.0",
+      "version": "1.9.2",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -805,11 +805,11 @@
       "side": "BOTH"
     },
     "TinkersGregworks": {
-      "version": "GTNH-1.0.30",
+      "version": "GTNH-1.0.32",
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.8",
+      "version": "0.4.11",
       "side": "BOTH"
     }
   },
