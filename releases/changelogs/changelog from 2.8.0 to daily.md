@@ -187,10 +187,18 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Wand Cap and Core Refactor by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/18 (0.9.4-GTNH)
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.39
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.39
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.42
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.42
 
 ## What's Changed:
+>* Move `MaterialsBotania` into `Materials` and `MaterialsInit` by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5083 (5.09.52.42)
+>* Ore refactor fixes by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5076 (5.09.52.41)
+>* Small Fluid Canner fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5081 (5.09.52.41)
+>* Fix copper in arc furnace by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5082 (5.09.52.41)
+>* Fix Mui2 key crash by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5075 (5.09.52.40)
+>* Make Bricked Blast Furnace and Firebricks Harvestable by Iron Pickaxe and Up by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5070 (5.09.52.40)
+>* Remove Dust for Gases from ice ores by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5071 (5.09.52.40)
+>* fix netherite having recycle recipes by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5078 (5.09.52.40)
 >* restore carbon ore items by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5073 (5.09.52.39)
 >* Fix attempt for crash on cauldron cleaning by throwing by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5074 (5.09.52.39)
 >* adapt Spinmatron-27-37 UI (remove pos) by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5067 (5.09.52.37)
@@ -400,10 +408,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.18
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.18
+# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.20
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.20
 
 ## What's Changed:
+>* Update for Unification PR #5083 by @Vlamonster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1416 (2.8.20)
 >* Add EFR flower to dye recipes by @KenzoWVY in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1411 (2.8.17)
 >* Clean up one non-functional recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1412 (2.8.17)
 >* Changes for the GT ore refactor by @RecursivePineapple in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1327 (2.8.17)
@@ -425,10 +434,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add plank recipes for stripped logs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1391 (2.8.0)
 >* Fix circuits in some AL recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1392 (2.8.0)
 
-# Updated - NotEnoughItems - 2.7.91-GTNH --> 2.8.14-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.91-GTNH...2.8.14-GTNH
+# Updated - NotEnoughItems - 2.7.91-GTNH --> 2.8.15-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.91-GTNH...2.8.15-GTNH
 
 ## What's Changed:
+>* Fix recipe tooltip lighting by @sisyphussy in https://github.com/GTNewHorizons/NotEnoughItems/pull/757 (2.8.15-GTNH)
 >* Fix tooltip item lighting by @sisyphussy in https://github.com/GTNewHorizons/NotEnoughItems/pull/755 (2.8.14-GTNH)
 >* Optimize Bookmark Chains with Containers by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/751 (2.8.14-GTNH)
 >* Create Recipe Widget; Recipe GUI: Infinity Scroll; Recipe GUI: Max Height Settings by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/701 (2.8.11-GTNH)
@@ -465,6 +475,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - ServerUtilities - 2.1.61 --> 2.2.0
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.61...2.2.0
+
+## What's Changed:
+>* Backport max-tick-time by @Caedis in https://github.com/GTNewHorizons/ServerUtilities/pull/230 (2.2.0)
+
 # Updated - SpecialMobs - 3.7.0 --> 3.7.1
 **Full Changelog**: https://github.com/GTNewHorizons/SpecialMobs/compare/3.7.0...3.7.1
 
@@ -509,10 +525,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 # Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.29
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TinkersConstruct - 1.13.54-GTNH --> 1.14.4-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.54-GTNH...1.14.4-GTNH
+# Updated - TinkersConstruct - 1.13.54-GTNH --> 1.14.6-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.54-GTNH...1.14.6-GTNH
 
 ## What's Changed:
+>* Update ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TinkersConstruct/pull/221 (1.14.6-GTNH)
 >* Add additional drawing method for inventory tabs by @wlhlm in https://github.com/GTNewHorizons/TinkersConstruct/pull/217 (1.14.4-GTNH)
 >* Fix Miniature Heart Tooltip by @tuodekun in https://github.com/GTNewHorizons/TinkersConstruct/pull/215 (1.14.2-GTNH)
 >* Fix crafting station sometimes detecting a chest next to a trapped chest as a double chest by @Dredonkey in https://github.com/GTNewHorizons/TinkersConstruct/pull/213 (1.14.0-GTNH)
@@ -528,10 +545,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.11
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.11
+# New Mod - VendingMachine:0.4.12
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.12
 
 ## What's Changed:
+>* Fixed Coins leaking into SP by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/26 (0.4.12)
 >* Fix coins voiding by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/24 (0.4.11)
 >* Fix various issues by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/22 (0.4.10)
 >* Fix currency sync by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/21 (0.4.9)
