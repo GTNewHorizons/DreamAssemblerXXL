@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-13T18:54:42.437213",
+  "last_updated": "2025-10-14T03:46:58.056528",
   "config": "2.9.0-nightly-2025-10-13",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.37",
+      "version": "5.09.52.39",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -804,10 +804,6 @@
       "version": "1.0.0",
       "side": "BOTH"
     },
-    "TinkersGregworks": {
-      "version": "GTNH-1.0.32",
-      "side": "BOTH"
-    },
     "VendingMachine": {
       "version": "0.4.11",
       "side": "BOTH"
@@ -932,6 +928,10 @@
     },
     "Bug-Torch": {
       "version": "1.2.14",
+      "side": "BOTH"
+    },
+    "Tinkers-Gregworks": {
+      "version": "1.0.29",
       "side": "BOTH"
     }
   }

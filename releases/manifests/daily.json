@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-14T03:46:58.056528",
-  "config": "2.9.0-nightly-2025-10-13",
+  "last_updated": "2025-10-14T17:31:05.135074",
+  "config": "2.9.0-nightly-2025-10-14",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.1-GTNH",
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.39",
+      "version": "5.09.52.42",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.18",
+      "version": "2.8.20",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.14-GTNH",
+      "version": "2.8.15-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.4-GTNH",
+      "version": "1.14.6-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.1.61",
+      "version": "2.2.0",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.11",
+      "version": "0.4.12",
       "side": "BOTH"
     }
   },

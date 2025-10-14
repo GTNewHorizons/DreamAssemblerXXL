@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version daily is out 2025-10-13
+Version daily is out 2025-10-14
 
 ## What is GT New Horizons?
 
@@ -353,7 +353,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.9.4-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.6 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.52.39 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.52.42 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.6 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.7.0 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.13.0-GTNH |
@@ -403,11 +403,11 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NEI-Integration](https://github.com/GTNewHorizons/NEI-Integration) | 1.5.0 |
 | [neiaddons](https://github.com/GTNewHorizons/neiaddons) | 1.17.0 |
 | [NetherPortalFix](https://github.com/GTNewHorizons/NetherPortalFix) | 1.4.0 |
-| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.8.18 |
+| [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.8.20 |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.3.1-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.14 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.1.10 |
-| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.8.14-GTNH |
+| [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.8.15-GTNH |
 | [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.6.20 |
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 0.1.3 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.3.3-GTNH |
@@ -435,7 +435,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Salis-Arcana](https://github.com/GTNewHorizons/Salis-Arcana) | 1.1.33-GTNH |
 | [SC2](https://github.com/GTNewHorizons/SC2) | 2.3.12 |
 | [Schematica](https://github.com/GTNewHorizons/Schematica) | 1.12.6-GTNH |
-| [ServerUtilities](https://github.com/GTNewHorizons/ServerUtilities) | 2.1.61 |
+| [ServerUtilities](https://github.com/GTNewHorizons/ServerUtilities) | 2.2.0 |
 | [SGCraft](https://github.com/GTNewHorizons/SGCraft) | 1.4.5-GTNH |
 | [Share-Where-I-am](https://github.com/GTNewHorizons/Share-Where-I-am) | 2.1.4 |
 | [SleepingBags](https://github.com/GTNewHorizons/SleepingBags) | 0.3.0 |
@@ -467,7 +467,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [TiC-Tooltips](https://github.com/GTNewHorizons/TiC-Tooltips) | 1.4.0 |
 | [Tinkers-Defense](https://github.com/GTNewHorizons/Tinkers-Defense) | 1.3.2 |
 | [Tinkers-Gregworks](https://github.com/Vexatos/TinkersGregworks/tree/GT-NH) | 1.0.29 |
-| [TinkersConstruct](https://github.com/GTNewHorizons/TinkersConstruct) | 1.14.4-GTNH |
+| [TinkersConstruct](https://github.com/GTNewHorizons/TinkersConstruct) | 1.14.6-GTNH |
 | [TinkersMechworks](https://github.com/GTNewHorizons/TinkersMechworks) | 0.4.1 |
 | [TooMuchLoot](https://github.com/GTNewHorizons/TooMuchLoot) | 4.3.0-GTNH |
 | [ToroHealth](https://github.com/GTNewHorizons/ToroHealth) | 1.2.0 |
@@ -477,7 +477,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [UniLib](https://legacy.curseforge.com/minecraft/mc-mods/unilib) | 1.1.1 |
 | [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.1.23 |
 | [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.11.0 |
-| [VendingMachine](https://github.com/GTNewHorizons/VendingMachine) | 0.4.11 |
+| [VendingMachine](https://github.com/GTNewHorizons/VendingMachine) | 0.4.12 |
 | [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.5.3 |
 | [waila](https://github.com/GTNewHorizons/waila) | 1.9.2 |
 | [WailaHarvestability](https://github.com/GTNewHorizons/WailaHarvestability) | 1.3.4-GTNH |
