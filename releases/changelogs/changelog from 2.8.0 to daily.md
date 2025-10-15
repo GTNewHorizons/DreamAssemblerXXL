@@ -187,10 +187,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Wand Cap and Core Refactor by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/18 (0.9.4-GTNH)
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.42
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.42
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.44
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.44
 
 ## What's Changed:
+>* Move `MaterialsKevlar` to `Materials` and `MaterialsInit` by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5084 (5.09.52.44)
 >* Move `MaterialsBotania` into `Materials` and `MaterialsInit` by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5083 (5.09.52.42)
 >* Ore refactor fixes by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5076 (5.09.52.41)
 >* Small Fluid Canner fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5081 (5.09.52.41)
@@ -408,10 +409,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.20
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.20
+# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.22
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.22
 
 ## What's Changed:
+>* Update for Unification PR #5084 by @Vlamonster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1417 (2.8.22)
 >* Update for Unification PR #5083 by @Vlamonster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1416 (2.8.20)
 >* Add EFR flower to dye recipes by @KenzoWVY in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1411 (2.8.17)
 >* Clean up one non-functional recipe by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1412 (2.8.17)
