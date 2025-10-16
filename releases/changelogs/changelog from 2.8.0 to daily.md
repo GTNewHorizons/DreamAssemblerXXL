@@ -81,10 +81,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
 
-# Updated - BetterQuesting - 3.7.14-GTNH --> 3.8.8-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.14-GTNH...3.8.8-GTNH
+# Updated - BetterQuesting - 3.7.14-GTNH --> 3.8.10-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.14-GTNH...3.8.10-GTNH
 
 ## What's Changed:
+>* Change the theme name from "New Test" to "Semi-Transparent" by @Ranzuu in https://github.com/GTNewHorizons/BetterQuesting/pull/177 (3.8.10-GTNH)
 >* Vending integration by @cubefury in https://github.com/GTNewHorizons/BetterQuesting/pull/176 (3.8.8-GTNH)
 >* Add some better error logging by @glektarssza in https://github.com/GTNewHorizons/BetterQuesting/pull/168 (3.8.6-GTNH)
 >* Use GTNHLib string methods by @DeathFuel in https://github.com/GTNewHorizons/BetterQuesting/pull/172 (3.8.4-GTNH)
@@ -187,10 +188,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Wand Cap and Core Refactor by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/18 (0.9.4-GTNH)
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.44
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.44
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.45
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.45
 
 ## What's Changed:
+>* Prevent crashes from illegal meta values by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5086 (5.09.52.45)
+>* Various texture improvements by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5087 (5.09.52.45)
 >* Move `MaterialsKevlar` to `Materials` and `MaterialsInit` by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5084 (5.09.52.44)
 >* Move `MaterialsBotania` into `Materials` and `MaterialsInit` by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5083 (5.09.52.42)
 >* Ore refactor fixes by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5076 (5.09.52.41)
@@ -343,10 +346,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Enable the lp to be calculated and make the code writing method on the wiki usable. by @PinkYuDeer in https://github.com/GTNewHorizons/InGame-Info-XML/pull/35 (2.9.0)
 
-# Updated - InventoryBogoSorter - 1.2.65-GTNH --> 1.3.7-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.65-GTNH...1.3.7-GTNH
+# Updated - InventoryBogoSorter - 1.2.65-GTNH --> 1.3.8-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.65-GTNH...1.3.8-GTNH
 
 ## What's Changed:
+>* Adapt to mui2 breaking changes by @FrostyFire1 in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/154 (1.3.8-GTNH)
 >* fix refill sync issue by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/149 (1.3.7-GTNH)
 >* Migrate refilling to server only via packets by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/148 (1.3.6-GTNH)
 >* Fix Keybindings by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/143 (1.3.5-GTNH)
@@ -400,19 +404,21 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.2-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.2-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.3-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.3-1.7.10
 
 ## What's Changed:
+>* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/47 (2.3.3-1.7.10)
 >* Sync Upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/46 (2.3.2-1.7.10)
 >* fix npe in EventHandler by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/45 (2.3.1-1.7.10)
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.22
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.22
+# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.23
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.23
 
 ## What's Changed:
+>* Copper grate recipe clean up by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1419 (2.8.23)
 >* Update for Unification PR #5084 by @Vlamonster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1417 (2.8.22)
 >* Update for Unification PR #5083 by @Vlamonster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1416 (2.8.20)
 >* Add EFR flower to dye recipes by @KenzoWVY in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1411 (2.8.17)
@@ -477,10 +483,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - ServerUtilities - 2.1.61 --> 2.2.0
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.61...2.2.0
+# Updated - ServerUtilities - 2.1.61 --> 2.2.1
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.61...2.2.1
 
 ## What's Changed:
+>* Add permission node that allows for joining while server is full by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/239 (2.2.1)
 >* Backport max-tick-time by @Caedis in https://github.com/GTNewHorizons/ServerUtilities/pull/230 (2.2.0)
 
 # Updated - SpecialMobs - 3.7.0 --> 3.7.1
@@ -566,8 +573,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adjust tab pixels by @Ranzuu in https://github.com/GTNewHorizons/VendingMachine/pull/1 (0.4.2)
 >* Structure changes by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/2 (0.4.2)
 
-# Updated - VisualProspecting - 1.4.8 --> 1.5.3
-**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.4.8...1.5.3
+# Updated - VisualProspecting - 1.4.8 --> 1.5.5
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.4.8...1.5.5
 
 ## What's Changed:
 >* Refactors for GT ore refactor PR by @RecursivePineapple in https://github.com/GTNewHorizons/VisualProspecting/pull/65 (1.5.3)
@@ -608,4 +615,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @brachy84, @C-Remilian, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @cubefury, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @KenzoWVY, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @Kynake, @lc-1337, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @mitchej123, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PlayfulPiano, @purebluez, @querns, @Ranzuu, @RecursivePineapple, @sbwaz, @serenibyss, @sisyphussy, @SKProCH, @slprime, @Sunrunner37, @SuperSoupr, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @brachy84, @C-Remilian, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @cubefury, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @jude123412, @KenzoWVY, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @Kynake, @lc-1337, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @mitchej123, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PlayfulPiano, @purebluez, @querns, @Ranzuu, @RecursivePineapple, @sbwaz, @serenibyss, @sisyphussy, @SKProCH, @slprime, @Sunrunner37, @SuperSoupr, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
