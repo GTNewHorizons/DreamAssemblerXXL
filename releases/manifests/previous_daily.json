@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-16T09:53:02.453085",
-  "config": "2.9.0-nightly-2025-10-14",
+  "last_updated": "2025-10-17T03:47:32.672885",
+  "config": "2.9.0-nightly-2025-10-16",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.1-GTNH",
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.75",
+      "version": "1.77",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.46",
+      "version": "5.09.52.50",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.3-1.7.10",
+      "version": "2.3.4-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
