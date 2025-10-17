@@ -60,6 +60,13 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix flickering by @sisyphussy in https://github.com/GTNewHorizons/ArchitectureCraft/pull/27 (1.12.0)
 
+# Updated - Avaritia - 1.75 --> 1.77
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.75...1.77
+
+## What's Changed:
+>* Make Infinity Boots step assist configurable by @wlhlm in https://github.com/GTNewHorizons/Avaritia/pull/65 (1.77)
+>* Fix step assist not resetting when unequipping Infinity Boots by @wlhlm in https://github.com/GTNewHorizons/Avaritia/pull/64 (1.76)
+
 # Updated - Backhand - 1.7.6 --> 1.8.0
 **Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.7.6...1.8.0
 
@@ -203,10 +210,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Wand Cap and Core Refactor by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/18 (0.9.4-GTNH)
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.46
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.46
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.50
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.50
 
 ## What's Changed:
+>* Enable mui2 for multiblocks that do not need additional buttons/text by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5101 (5.09.52.50)
 >* Bump mui2 by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5088 (5.09.52.46)
 >* Enable the MUI2 switch by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5023 (5.09.52.46)
 >* [MUI2] Add recipe display widgets by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5089 (5.09.52.46)
