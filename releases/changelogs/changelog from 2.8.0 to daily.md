@@ -210,10 +210,17 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Wand Cap and Core Refactor by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/18 (0.9.4-GTNH)
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.50
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.50
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.52
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.52
 
 ## What's Changed:
+>* Implement `MaterialsIDMap` by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5110 (5.09.52.52)
+>* [mui2] Add startup text to multiblocks by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5100 (5.09.52.51)
+>* Rename Mold (Pellet) to Extruder Shape by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5102 (5.09.52.51)
+>* Move `MaterialsOreAlum` into `Materials` and `MaterialsInit` by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5105 (5.09.52.51)
+>* Mui2 machine mode icons method by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5106 (5.09.52.51)
+>* Move `MaterialsUEVPlus` into `Materials` and `MaterialsInit` by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5107 (5.09.52.51)
+>* Move `MaterialsGTNH` into `Materials` and `MaterialsInit` by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5108 (5.09.52.51)
 >* Enable mui2 for multiblocks that do not need additional buttons/text by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5101 (5.09.52.50)
 >* Bump mui2 by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5088 (5.09.52.46)
 >* Enable the MUI2 switch by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5023 (5.09.52.46)
@@ -447,10 +454,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.24
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.24
+# Updated - NewHorizonsCoreMod - 2.7.260 --> 2.8.26
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.260...2.8.26
 
 ## What's Changed:
+>* Update for Unification PR #5107 & #5108 by @Vlamonster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1422 (2.8.26)
+>* Makes Molds and Shapes universally recyclable by @Miklebe in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1420 (2.8.26)
 >* Update for Deprecated Tier Removal PR #5085 by @Vlamonster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1418 (2.8.24)
 >* Copper grate recipe clean up by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1419 (2.8.23)
 >* Update for Unification PR #5084 by @Vlamonster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1417 (2.8.22)
@@ -476,10 +485,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add plank recipes for stripped logs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1391 (2.8.0)
 >* Fix circuits in some AL recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1392 (2.8.0)
 
-# Updated - NotEnoughItems - 2.7.91-GTNH --> 2.8.15-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.91-GTNH...2.8.15-GTNH
+# Updated - NotEnoughItems - 2.7.91-GTNH --> 2.8.16-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.91-GTNH...2.8.16-GTNH
 
 ## What's Changed:
+>* Add a function to copy item name and meta by @RealSilverMoon in https://github.com/GTNewHorizons/NotEnoughItems/pull/758 (2.8.16-GTNH)
 >* Fix recipe tooltip lighting by @sisyphussy in https://github.com/GTNewHorizons/NotEnoughItems/pull/757 (2.8.15-GTNH)
 >* Fix tooltip item lighting by @sisyphussy in https://github.com/GTNewHorizons/NotEnoughItems/pull/755 (2.8.14-GTNH)
 >* Optimize Bookmark Chains with Containers by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/751 (2.8.14-GTNH)
@@ -652,4 +662,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @brachy84, @C-Remilian, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @cubefury, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @jude123412, @JustACasualDay, @KenzoWVY, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @Kynake, @lc-1337, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @mitchej123, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PlayfulPiano, @purebluez, @querns, @Ranzuu, @RecursivePineapple, @sbwaz, @serenibyss, @sisyphussy, @SKProCH, @slprime, @Sunrunner37, @SuperSoupr, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @bluegreensea, @brachy84, @C-Remilian, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @cubefury, @DarkShadow44, @DeathFuel, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @jude123412, @JustACasualDay, @KenzoWVY, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @Kynake, @lc-1337, @Lyfts, @lynxx131, @MCTBL, @Miklebe, @mitchej123, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PlayfulPiano, @purebluez, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @sbwaz, @serenibyss, @sisyphussy, @SKProCH, @slprime, @Sunrunner37, @SuperSoupr, @TheYoingLad, @tilocih203, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
