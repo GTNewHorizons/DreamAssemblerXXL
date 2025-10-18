@@ -210,10 +210,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Wand Cap and Core Refactor by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/18 (0.9.4-GTNH)
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.52
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.52
+# Updated - GT5-Unofficial - 5.09.51.470 --> 5.09.52.57
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.470...5.09.52.57
 
 ## What's Changed:
+>* Ore refactor fixes part 2 by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5116 (5.09.52.57)
+>* fix gt diesel pollution config by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5115 (5.09.52.57)
+>* Clean out 43 non existing materials from GT by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5114 (5.09.52.56)
+>* fix up prismarine material by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5112 (5.09.52.55)
+>* [MUI2] Standardize area in codebase for mui2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5109 (5.09.52.55)
 >* Implement `MaterialsIDMap` by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5110 (5.09.52.52)
 >* [mui2] Add startup text to multiblocks by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5100 (5.09.52.51)
 >* Rename Mold (Pellet) to Extruder Shape by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5102 (5.09.52.51)
@@ -485,10 +490,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add plank recipes for stripped logs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1391 (2.8.0)
 >* Fix circuits in some AL recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1392 (2.8.0)
 
-# Updated - NotEnoughItems - 2.7.91-GTNH --> 2.8.16-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.91-GTNH...2.8.16-GTNH
+# Updated - NotEnoughItems - 2.7.91-GTNH --> 2.8.18-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.7.91-GTNH...2.8.18-GTNH
 
 ## What's Changed:
+>* Fixing HUD flickering by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/762 (2.8.18-GTNH)
+>* Optimize permutations by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/761 (2.8.18-GTNH)
 >* Add a function to copy item name and meta by @RealSilverMoon in https://github.com/GTNewHorizons/NotEnoughItems/pull/758 (2.8.16-GTNH)
 >* Fix recipe tooltip lighting by @sisyphussy in https://github.com/GTNewHorizons/NotEnoughItems/pull/757 (2.8.15-GTNH)
 >* Fix tooltip item lighting by @sisyphussy in https://github.com/GTNewHorizons/NotEnoughItems/pull/755 (2.8.14-GTNH)
@@ -528,10 +535,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - ServerUtilities - 2.1.61 --> 2.2.1
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.61...2.2.1
+# Updated - ServerUtilities - 2.1.61 --> 2.2.2
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.1.61...2.2.2
 
 ## What's Changed:
+>* Fix teleport task player reference crashes by @Caedis in https://github.com/GTNewHorizons/ServerUtilities/pull/240 (2.2.2)
 >* Add permission node that allows for joining while server is full by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/239 (2.2.1)
 >* Backport max-tick-time by @Caedis in https://github.com/GTNewHorizons/ServerUtilities/pull/230 (2.2.0)
 
@@ -600,10 +608,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.13
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.13
+# New Mod - VendingMachine:0.4.16
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.16
 
 ## What's Changed:
+>* Support non consumable items by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/29 (0.4.16)
+>* Update GT package to reference new location of MTEMultiBlockBaseGui by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/31 (0.4.15)
 >* Refactor coin display sync by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/28 (0.4.13)
 >* Fixed Coins leaking into SP by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/26 (0.4.12)
 >* Fix coins voiding by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/24 (0.4.11)
@@ -620,10 +630,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adjust tab pixels by @Ranzuu in https://github.com/GTNewHorizons/VendingMachine/pull/1 (0.4.2)
 >* Structure changes by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/2 (0.4.2)
 
-# Updated - VisualProspecting - 1.4.8 --> 1.5.5
-**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.4.8...1.5.5
+# Updated - VisualProspecting - 1.4.8 --> 1.5.7
+**Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.4.8...1.5.7
 
 ## What's Changed:
+>* Fix CME when filling in Prospector's Log in singleplayer by @wlhlm in https://github.com/GTNewHorizons/VisualProspecting/pull/74 (1.5.7)
+>* Prospect when mined by @RecursivePineapple in https://github.com/GTNewHorizons/VisualProspecting/pull/75 (1.5.7)
 >* Refactors for GT ore refactor PR by @RecursivePineapple in https://github.com/GTNewHorizons/VisualProspecting/pull/65 (1.5.3)
 
 # Updated - WitcheryExtras - 1.3.6 --> 1.4.0

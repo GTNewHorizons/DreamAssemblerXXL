@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-17T11:37:10.342145",
-  "config": "2.9.0-nightly-2025-10-17",
+  "last_updated": "2025-10-18T03:42:48.505357",
+  "config": "2.9.0-nightly-2025-10-17-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.1-GTNH",
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.52",
+      "version": "5.09.52.57",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.16-GTNH",
+      "version": "2.8.18-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -561,7 +561,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.5",
+      "version": "1.5.7",
       "side": "BOTH"
     },
     "waila": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.1",
+      "version": "2.2.2",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.13",
+      "version": "0.4.16",
       "side": "BOTH"
     }
   },
