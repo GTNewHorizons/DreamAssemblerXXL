@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-19T03:56:13.182008",
+  "last_updated": "2025-10-19T20:19:20.483233",
   "config": "2.9.0-nightly-2025-10-18",
   "github_mods": {
     "AdventureBackpack2": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.2",
+      "version": "2.10.3",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -749,11 +749,11 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.4-1.7.10",
+      "version": "2.3.5-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.2.1-GTNH",
+      "version": "2.2.2-GTNH",
       "side": "BOTH"
     },
     "Postea": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.10-GTNH",
+      "version": "1.3.11-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
