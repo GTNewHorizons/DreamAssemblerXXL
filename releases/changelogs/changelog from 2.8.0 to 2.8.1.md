@@ -131,11 +131,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Another round of 2.8.x fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5103 (5.09.51.471)
 >* Another 2 fixes for the 2.8.x branch by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5124 (5.09.51.471)
 
-# Updated - GTNHLib - 0.6.40 --> 0.6.41
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.40...0.6.41
+# Updated - GTNHLib - 0.6.40 --> 0.7.0
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.6.40...0.7.0
 
 ## What's Changed:
->* Avoid a method visibility crash by @DeathFuel in https://github.com/GTNewHorizons/GTNHLib/pull/173 (0.6.41)
+>* Avoid a method visibility crash by @DeathFuel in https://github.com/GTNewHorizons/GTNHLib/pull/173 (0.7.0)
 
 # Updated - Hardcore-Ender-Expansion - 1.12.13-GTNH --> 1.12.14-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/compare/1.12.13-GTNH...1.12.14-GTNH
