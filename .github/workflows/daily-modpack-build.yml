@@ -11,14 +11,14 @@ jobs:
     steps:
       #  check-out repo and set-up python
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ secrets.NIGHTLY_GITHUB_TOKEN }}
           fetch-depth: 0
           ref: master
       - name: Set up python
         id: setup-python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: 3.10.5
       - name: Setup private repo access token
