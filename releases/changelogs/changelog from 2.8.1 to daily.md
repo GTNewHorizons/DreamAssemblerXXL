@@ -193,10 +193,25 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Wand Cap and Core Refactor by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/18 (0.9.4-GTNH)
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.60
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.60
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.62
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.62
 
 ## What's Changed:
+>* fix noble gas recipe by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5149 (5.09.52.62)
+>* Fix GT++ fluid textures by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5128 (5.09.52.61)
+>* Lay the foundations for TecTech Multiblock mui2 gui by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5123 (5.09.52.61)
+>* Item holder cover fixes by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5131 (5.09.52.61)
+>* Explosion Warning Sign -> Explosion Hazard Sign by @PLASMAchicken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5132 (5.09.52.61)
+>* Fix ender fluid link migration inverting import/export state by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5134 (5.09.52.61)
+>* bump mui2 dep by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5136 (5.09.52.61)
+>* High Temperature Gas-Cooled Reactor (HTGR) rework by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4982 (5.09.52.61)
+>* Various changes for witching gadgets native clusters by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5133 (5.09.52.61)
+>* fix BW crushed ore tooltip by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5138 (5.09.52.61)
+>* Give Field Generators a Dedicated IC in COAL by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5137 (5.09.52.61)
+>* Fix(sound): block-centered origin AGAIN RE-FIXED STOP BREAKING IT PLEASE!!! by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5140 (5.09.52.61)
+>* Adjust keybind names for power goggles by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5143 (5.09.52.61)
+>* LATEX: the wire coating multiblock by @3ricbae in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5069 (5.09.52.61)
+>* HTGR changes by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5139 (5.09.52.61)
 >* Workaround a GHA OOM problem during the `checkstyleMain` task by @wlhlm in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5126 (5.09.52.60)
 >* Fix Pyro and ChemPlant Speed tooltips by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5127 (5.09.52.60)
 >* Fix Stocking Buses not changing circuit on clicks by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5129 (5.09.52.60)
@@ -565,10 +580,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Universal-Singularities - 8.10.0 --> 8.11.0
-**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.10.0...8.11.0
+# Updated - Universal-Singularities - 8.10.0 --> 8.12.0
+**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.10.0...8.12.0
 
 ## What's Changed:
+>* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
 # New Mod - VendingMachine:0.4.17
@@ -632,4 +648,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @boubou19, @brachy84, @C-Remilian, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @cubefury, @DarkShadow44, @DeathFuel, @dibbydoda, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @Ethryan, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @jude123412, @JustACasualDay, @KenzoWVY, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @Kynake, @lc-1337, @lynxx131, @MCTBL, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PlayfulPiano, @purebluez, @querns, @Ranzuu, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @SST-03, @Sunrunner37, @SuperSoupr, @TheYoingLad, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @ABKQPO, @ah-OOG-ah, @Bjdufre1, @boubou19, @brachy84, @C-Remilian, @Caedis, @cambech, @chochem, @chrombread, @combusterf, @cubefury, @DarkShadow44, @DeathFuel, @dibbydoda, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @Ethryan, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @jude123412, @JustACasualDay, @KenzoWVY, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @Kynake, @lc-1337, @leagris, @lynxx131, @MCTBL, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @SST-03, @Sunrunner37, @SuperSoupr, @TheYoingLad, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
