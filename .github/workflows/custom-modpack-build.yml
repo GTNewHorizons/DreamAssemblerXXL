@@ -110,7 +110,7 @@ jobs:
         if: success() || failure()
         continue-on-error: true
         run: |
-          echo "# GTNH build ${{ inputs.daxxl-tag }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "# GTNH build ${DAXXL_TAG}" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
 
           echo "## Github mods" >> "$GITHUB_STEP_SUMMARY"
