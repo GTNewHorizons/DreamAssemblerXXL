@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-22T03:54:23.975484",
-  "config": "2.9.0-nightly-2025-10-18",
+  "last_updated": "2025-10-22T20:55:25.917241",
+  "config": "2.9.0-nightly-2025-10-22-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.1-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.6-gtnh",
+      "version": "1.5.8-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-717-GTNH",
+      "version": "rv3-beta-719-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.2-GTNH",
+      "version": "3.4.4-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.62",
+      "version": "5.09.52.67",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.7.0",
+      "version": "0.7.1",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.0",
+      "version": "1.6.2",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.29",
+      "version": "2.8.30",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.19-GTNH",
+      "version": "2.8.20-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -469,7 +469,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.0-GTNH",
+      "version": "2.2.1-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.9.2",
+      "version": "1.9.5",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -573,7 +573,7 @@
       "side": "BOTH"
     },
     "WAILAPlugins": {
-      "version": "0.6.0",
+      "version": "0.7.0",
       "side": "BOTH"
     },
     "WanionLib": {
@@ -677,7 +677,7 @@
       "side": "BOTH"
     },
     "Random-Things": {
-      "version": "2.6.6",
+      "version": "2.7.0",
       "side": "BOTH"
     },
     "Tainted-Magic": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.1.16",
+      "version": "2.1.17",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.17",
+      "version": "0.4.18",
       "side": "BOTH"
     }
   },
