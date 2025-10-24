@@ -26,4 +26,4 @@ body:
     description: Please mark them so we can better handle this report.
     options:
       - label: "This issue is not a pack issue, but one specifically related to DAXXL and the build process of creating a release of the GTNH modpack."
-        required: false
+        required: true
