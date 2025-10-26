@@ -219,10 +219,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.70
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.70
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.73
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.73
 
 ## What's Changed:
+>* Oreprefix crash fix no5 by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5192 (5.09.52.73)
 >* Fixes Cobalt II Acetate -> Cobalt II Naphthenate Recipe by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5181 (5.09.52.70)
 >* [MUI2] Port AntimatterForge/S.S.A.S.S to mui2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4551 (5.09.52.70)
 >* remove lit furnace oredict by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5185 (5.09.52.70)
@@ -503,6 +504,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix lighting by @sisyphussy in https://github.com/GTNewHorizons/LogisticsPipes/pull/107 (1.5.2-GTNH)
 >* Update for OrePrefix Builder #5121 by @Vlamonster in https://github.com/GTNewHorizons/LogisticsPipes/pull/108 (1.5.2-GTNH)
 
+# Updated - LootGames - 2.2.0 --> 2.2.2
+**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.2.0...2.2.2
+
+## What's Changed:
+>* add sudoku game by @ABKQPO in https://github.com/GTNewHorizons/LootGames/pull/21 (2.2.2)
+
 # Updated - MagicBees - 2.9.4-GTNH --> 2.10.0-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.9.4-GTNH...2.10.0-GTNH
 
@@ -591,6 +598,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix Button Texture by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/771 (2.8.20-GTNH)
 >* Fix Bookmarks Chain Tooltip Height by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/773 (2.8.20-GTNH)
 >* Add Scroll to Recipe Catalysts by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/770 (2.8.20-GTNH)
+
+# Updated - Nuclear-Control - 2.6.20 --> 2.7.0
+**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.20...2.7.0
+
+## What's Changed:
+>* Javadoc, Optimizations and Bugfixes by @guid118 in https://github.com/GTNewHorizons/Nuclear-Control/pull/33 (2.7.0)
 
 # Updated - OpenBlocks - 1.11.7-GTNH --> 1.12.3-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.11.7-GTNH...1.12.3-GTNH

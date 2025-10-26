@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-25T19:24:30.823984",
+  "last_updated": "2025-10-26T03:51:40.386420",
   "config": "2.9.0-nightly-2025-10-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.70",
+      "version": "5.09.52.73",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -297,7 +297,7 @@
       "side": "BOTH"
     },
     "LootGames": {
-      "version": "2.2.0",
+      "version": "2.2.2",
       "side": "BOTH"
     },
     "LunatriusCore": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.6.20",
+      "version": "2.7.0",
       "side": "BOTH"
     },
     "oauth": {
