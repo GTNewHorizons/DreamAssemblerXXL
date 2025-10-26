@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version experimental is out 2025-10-25
+Version experimental is out 2025-10-26
 
 ## What is GT New Horizons?
 
@@ -272,7 +272,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Angelica](https://github.com/GTNewHorizons/Angelica) | 1.0.0-beta62 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 0.9.0 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.7 |
-| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-722-GTNH-pre |
+| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-724-GTNH-pre |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.7.7 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.12.0 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.7.0 |
@@ -353,7 +353,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.9.4-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.6 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.52.72-pre |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.52.76-pre |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.6 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.7.2-pre |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.13.0-GTNH |
@@ -380,7 +380,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.2.10-fairplay |
 | [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.6.3-pre |
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.5.3-GTNH-pre |
-| [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.2.1-pre |
+| [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.2.3-pre |
 | [LunatriusCore](https://github.com/GTNewHorizons/LunatriusCore) | 1.2.1-GTNH |
 | [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 2.1.17 |
 | [MagicBees](https://github.com/GTNewHorizons/MagicBees) | 2.10.1-GTNH-pre |
@@ -408,7 +408,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.14 |
 | [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.1.10 |
 | [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.8.22-GTNH-pre |
-| [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.6.21-pre |
+| [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.7.0 |
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 0.1.3 |
 | [oauth](https://github.com/GTNewHorizons/oauth) | 1.3.3-GTNH |
 | [OCGlasses](https://github.com/GTNewHorizons/OCGlasses) | 1.6.1-GTNH |
@@ -487,7 +487,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [WirelessRedstone-CBE](https://github.com/GTNewHorizons/WirelessRedstone-CBE) | 1.7.1 |
 | [Witchery](https://www.curseforge.com/minecraft/mc-mods/witchery) | 0.24.1 |
 | [WitcheryExtras](https://github.com/GTNewHorizons/WitcheryExtras) | 1.4.0 |
-| [WitchingGadgets](https://github.com/GTNewHorizons/WitchingGadgets) | 1.8.3-GTNH-pre |
+| [WitchingGadgets](https://github.com/GTNewHorizons/WitchingGadgets) | 1.8.4-GTNH-pre |
 | [Yamcl](https://github.com/GTNewHorizons/Yamcl) | 0.7.1 |
 | [Ztones](https://www.curseforge.com/minecraft/mc-mods/ztones) | 2.2.2 |
 
