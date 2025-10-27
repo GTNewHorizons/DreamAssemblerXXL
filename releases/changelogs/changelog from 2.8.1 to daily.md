@@ -508,10 +508,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix lighting by @sisyphussy in https://github.com/GTNewHorizons/LogisticsPipes/pull/107 (1.5.2-GTNH)
 >* Update for OrePrefix Builder #5121 by @Vlamonster in https://github.com/GTNewHorizons/LogisticsPipes/pull/108 (1.5.2-GTNH)
 
-# Updated - LootGames - 2.2.0 --> 2.2.2
-**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.2.0...2.2.2
+# Updated - LootGames - 2.2.0 --> 2.2.4
+**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.2.0...2.2.4
 
 ## What's Changed:
+>* Add sudoku end the game check by @ABKQPO in https://github.com/GTNewHorizons/LootGames/pull/23 (2.2.4)
 >* add sudoku game by @ABKQPO in https://github.com/GTNewHorizons/LootGames/pull/21 (2.2.2)
 
 # Updated - MagicBees - 2.9.4-GTNH --> 2.10.0-GTNH

@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-26T09:39:55.197210",
+  "last_updated": "2025-10-27T04:02:40.063142",
   "config": "2.9.0-nightly-2025-10-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -297,7 +297,7 @@
       "side": "BOTH"
     },
     "LootGames": {
-      "version": "2.2.2",
+      "version": "2.2.4",
       "side": "BOTH"
     },
     "LunatriusCore": {
