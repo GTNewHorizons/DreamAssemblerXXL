@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-26T03:51:40.386420",
+  "last_updated": "2025-10-28T03:51:49.554022",
   "config": "2.9.0-nightly-2025-10-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-720-GTNH",
+      "version": "rv3-beta-723-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.73",
+      "version": "5.09.52.75",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -297,7 +297,7 @@
       "side": "BOTH"
     },
     "LootGames": {
-      "version": "2.2.2",
+      "version": "2.2.4",
       "side": "BOTH"
     },
     "LunatriusCore": {

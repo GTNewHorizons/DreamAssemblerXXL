@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-28T03:51:49.554022",
-  "config": "2.9.0-nightly-2025-10-25",
+  "last_updated": "2025-10-28T21:41:57.751798",
+  "config": "2.9.0-nightly-2025-10-28",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.1-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-723-GTNH",
+      "version": "rv3-beta-725-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.75",
+      "version": "5.09.52.79",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.7.1",
+      "version": "0.7.3",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.5",
+      "version": "2.7.7",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.32",
+      "version": "2.8.34",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -381,7 +381,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.2-GTNH",
+      "version": "1.12.4-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -477,7 +477,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.23",
+      "version": "1.4.24",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -561,7 +561,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.9",
+      "version": "1.5.11",
       "side": "BOTH"
     },
     "waila": {
