@@ -1,8 +1,8 @@
 {
   "version": "previous_experimental",
-  "last_version": "2.8.0",
-  "last_updated": "2025-10-25T19:28:10.669291",
-  "config": "2.9.0-nightly-2025-10-25-pre",
+  "last_version": "2.8.1",
+  "last_updated": "2025-10-28T21:51:05.809047",
+  "config": "2.9.0-nightly-2025-10-28-pre",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.3-GTNH-pre",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-722-GTNH-pre",
+      "version": "rv3-beta-724-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.72-pre",
+      "version": "5.09.52.76-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -297,7 +297,7 @@
       "side": "BOTH"
     },
     "LootGames": {
-      "version": "2.2.1-pre",
+      "version": "2.2.3-pre",
       "side": "BOTH"
     },
     "LunatriusCore": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.6.21-pre",
+      "version": "2.7.0",
       "side": "BOTH"
     },
     "oauth": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.3-GTNH-pre",
+      "version": "1.8.4-GTNH-pre",
       "side": "BOTH"
     },
     "Yamcl": {
