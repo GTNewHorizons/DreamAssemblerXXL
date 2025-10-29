@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-29T03:58:10.332372",
+  "last_updated": "2025-10-29T08:29:39.877410",
   "config": "2.9.0-nightly-2025-10-28",
   "github_mods": {
     "AdventureBackpack2": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.21-GTNH",
+      "version": "2.8.25-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
