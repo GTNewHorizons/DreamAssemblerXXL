@@ -2,9 +2,8 @@
 > * RandomBoubles
 # Mods Removed: 
 > * AE2NoUltimatePatterns
-> * Tinkers-Gregworks
-# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.5.9-gtnh-pre
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.5.9-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.5.10-gtnh-pre
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.5.10-gtnh-pre
 
 ## What's Changed:
 >* Fix advanced blocking card doesn't work on load by @hiroscho in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/342 (1.5.8-gtnh)
@@ -242,8 +241,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.81-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.81-pre
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.82-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.82-pre
 
 ## What's Changed:
 >* Restore gem recycling by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5198 (5.09.52.80-pre)
@@ -537,8 +536,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* [Dev Feature] Auto Shader Reload by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/177 (0.7.3)
 >* Fix memory leaks when creating shaders by @cazmusw in https://github.com/GTNewHorizons/GTNHLib/pull/168 (0.7.1)
 
-# Updated - Galacticraft - 3.3.12-GTNH --> 3.4.5-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.3.12-GTNH...3.4.5-GTNH-pre
+# Updated - Galacticraft - 3.3.12-GTNH --> 3.4.6-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Galacticraft/compare/3.3.12-GTNH...3.4.6-GTNH-pre
 
 ## What's Changed:
 >* Remove duplicate parachute dyeing recipes by @KenzoWVY in https://github.com/GTNewHorizons/Galacticraft/pull/114 (3.4.4-GTNH)
@@ -719,10 +718,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add plank recipes for stripped logs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1391 (2.8.0)
 >* Fix circuits in some AL recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1392 (2.8.0)
 
-# Updated - NotEnoughItems - 2.8.19-GTNH --> 2.8.22-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.19-GTNH...2.8.22-GTNH-pre
+# Updated - NotEnoughItems - 2.8.19-GTNH --> 2.8.24-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.19-GTNH...2.8.24-GTNH-pre
 
 ## What's Changed:
+>* Clear rawText before formatting by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/780 (2.8.23-GTNH)
 >* Fix another race condition, affecting IndustrialGrafter by @DarkShadow44 in https://github.com/GTNewHorizons/NotEnoughItems/pull/779 (2.8.21-GTNH)
 >* Add defaultbookmarkcontainers.cfg by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/769 (2.8.20-GTNH)
 >* Fix Button Texture by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/771 (2.8.20-GTNH)
@@ -814,6 +814,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - TCNodeTracker - 1.4.0 --> 1.4.1-pre
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/TCNodeTracker/compare/1.4.0...1.4.1-pre
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - TX-Loader - 1.8.5 --> 1.8.6-pre
 Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/TX-Loader/compare/1.8.5...1.8.6-pre
@@ -861,6 +867,9 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Spotless apply for branch replicator for #44 by @github-actions[bot] in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/45 (1.5.1-GTNH-pre)
 
+# Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.29
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - TinkersConstruct - 1.13.56-GTNH --> 1.14.8-GTNH-pre
 **Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.56-GTNH...1.14.8-GTNH-pre
 
