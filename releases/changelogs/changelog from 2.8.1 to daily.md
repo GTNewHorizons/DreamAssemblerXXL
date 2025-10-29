@@ -223,10 +223,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.79
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.79
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.83
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.83
 
 ## What's Changed:
+>* Fix recipe output not displaying correct items by @FrostyFire1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5211 (5.09.52.83)
 >* fix many biovat NEI pages by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5205 (5.09.52.78)
 >* Rename Materials by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5161 (5.09.52.78)
 >* Restore gem recycling by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5198 (5.09.52.77)
@@ -608,10 +609,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add plank recipes for stripped logs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1391 (2.8.0)
 >* Fix circuits in some AL recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1392 (2.8.0)
 
-# Updated - NotEnoughItems - 2.8.19-GTNH --> 2.8.21-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.19-GTNH...2.8.21-GTNH
+# Updated - NotEnoughItems - 2.8.19-GTNH --> 2.8.25-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.19-GTNH...2.8.25-GTNH
 
 ## What's Changed:
+>* Fixed shift+scroll of ingredients in the recipe GUI by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/783 (2.8.25-GTNH)
+>* Сalculate the height of the container before scrolling to the recipe by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/782 (2.8.25-GTNH)
+>* Clear rawText before formatting by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/780 (2.8.23-GTNH)
 >* Fix another race condition, affecting IndustrialGrafter by @DarkShadow44 in https://github.com/GTNewHorizons/NotEnoughItems/pull/779 (2.8.21-GTNH)
 >* Add defaultbookmarkcontainers.cfg by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/769 (2.8.20-GTNH)
 >* Fix Button Texture by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/771 (2.8.20-GTNH)
