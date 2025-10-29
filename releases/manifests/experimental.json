@@ -1,8 +1,8 @@
 {
   "version": "experimental",
-  "last_version": "previous_experimental",
-  "last_updated": "2025-10-29T07:23:35.293037",
-  "config": "2.9.0-nightly-2025-10-28",
+  "last_version": "2.8.1",
+  "last_updated": "2025-10-29T08:02:21.104173",
+  "config": "2.9.0-nightly-2025-10-28-pre",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.3-GTNH-pre",
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.4-GTNH-pre",
+      "version": "1.8.5-GTNH-pre",
       "side": "BOTH"
     },
     "Yamcl": {

@@ -1,15 +1,15 @@
 {
   "version": "previous_experimental",
-  "last_version": "previous_experimental",
-  "last_updated": "2025-10-28T21:59:00.071460",
-  "config": "2.9.0-nightly-2025-10-28",
+  "last_version": "2.8.1",
+  "last_updated": "2025-10-29T07:18:54.860175",
+  "config": "2.9.0-nightly-2025-10-28-pre",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.3-GTNH-pre",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.9-gtnh-pre",
+      "version": "1.5.10-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.5-GTNH-pre",
+      "version": "3.4.6-GTNH-pre",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.81-pre",
+      "version": "5.09.52.82-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.22-GTNH-pre",
+      "version": "2.8.24-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -493,7 +493,7 @@
       "side": "BOTH"
     },
     "TCNodeTracker": {
-      "version": "1.4.0",
+      "version": "1.4.1-pre",
       "side": "CLIENT"
     },
     "thaumcraft-research-tweaks": {
@@ -924,6 +924,10 @@
     },
     "Bug-Torch": {
       "version": "1.2.14",
+      "side": "BOTH"
+    },
+    "Tinkers-Gregworks": {
+      "version": "1.0.29",
       "side": "BOTH"
     }
   }
