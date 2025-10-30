@@ -22,6 +22,25 @@
 >* Set minimum compatible Tinker's Construct version by @wlhlm in https://github.com/GTNewHorizons/AdventureBackpack2/pull/35 (1.4.1-GTNH)
 >* Drop duplicated inventory tab rendering code by @wlhlm in https://github.com/GTNewHorizons/AdventureBackpack2/pull/34 (1.4.0-GTNH)
 
+# Updated - Angelica - 1.0.0-beta62 --> 1.0.0-beta63
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta62...1.0.0-beta63
+
+## What's Changed:
+>* Fix intel build tests by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1048 (1.0.0-beta63)
+>* Refactor vendor detection by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/1049 (1.0.0-beta63)
+>* Custom/Smooth Font follow-up by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1040 (1.0.0-beta63)
+>* Add null check to zoom reset by @wlhlm in https://github.com/GTNewHorizons/Angelica/pull/1061 (1.0.0-beta63)
+>* Fix framebuffer depth not clearing by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1051 (1.0.0-beta63)
+>* Fix CME by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1008 (1.0.0-beta63)
+>* Rework ANGELICA_VERSION into an integer  by @DarkShadow44 in https://github.com/GTNewHorizons/Angelica/pull/873 (1.0.0-beta63)
+>* Font AA shader fixes by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1071 (1.0.0-beta63)
+>* Fix BE frustum culling far from spawn with shaders (fixes #965) by @klorman in https://github.com/GTNewHorizons/Angelica/pull/1077 (1.0.0-beta63)
+>* Fix missing depth buffer writing before GUI rendering by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1073 (1.0.0-beta63)
+>* Splash screen crash fix by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1069 (1.0.0-beta63)
+>* Allow overriding of blend function in batching font renderer by @SuperSoupr in https://github.com/GTNewHorizons/Angelica/pull/1075 (1.0.0-beta63)
+>* Quick fix PBR Resourcepack loader error by @ABKQPO in https://github.com/GTNewHorizons/Angelica/pull/1043 (1.0.0-beta63)
+
 # Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-725-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-725-GTNH
 
@@ -139,10 +158,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Chisel - 2.16.14-GTNH --> 2.17.1-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.16.14-GTNH...2.17.1-GTNH
+# Updated - Chisel - 2.16.14-GTNH --> 2.17.3-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.16.14-GTNH...2.17.3-GTNH
 
 ## What's Changed:
+>* Terracotta variations by @agreeable-frog in https://github.com/GTNewHorizons/Chisel/pull/68 (2.17.3-GTNH)
 >* Fix: corrected textures and removed flickering. issue 21220 by @cambech in https://github.com/GTNewHorizons/Chisel/pull/67 (2.17.1-GTNH)
 >* Update description key by @cambech in https://github.com/GTNewHorizons/Chisel/pull/66 (2.17.0-GTNH)
 
@@ -851,4 +871,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @AbdoDayem, @ABKQPO, @ah-OOG-ah, @alppp, @Bjdufre1, @boubou19, @brachy84, @C-Remilian, @Caedis, @cambech, @cazmusw, @chochem, @chrombread, @combusterf, @cubefury, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Ethryan, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @jude123412, @JustACasualDay, @KenzoWVY, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @Kynake, @lc-1337, @leagris, @lynxx131, @MCTBL, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @SST-03, @Sunrunner37, @SuperSoupr, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @AbdoDayem, @ABKQPO, @agreeable-frog, @ah-OOG-ah, @alppp, @Bjdufre1, @boubou19, @brachy84, @C-Remilian, @Caedis, @cambech, @cazmusw, @chochem, @chrombread, @combusterf, @cubefury, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Ethryan, @FabienChatton, @fengluo2, @FrostyFire1, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @GTNH-Afx237v7, @guid118, @hiroscho, @jude123412, @JustACasualDay, @KenzoWVY, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @Kynake, @lc-1337, @leagris, @lynxx131, @MCTBL, @Miklebe, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @SST-03, @Sunrunner37, @SuperSoupr, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
