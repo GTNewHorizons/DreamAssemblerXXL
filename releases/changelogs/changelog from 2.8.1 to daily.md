@@ -3,10 +3,11 @@
 > * VendingMachine
 # Mods Removed: 
 > * AE2NoUltimatePatterns
-# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.5.8-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.5.8-gtnh
+# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.5.11-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.5.11-gtnh
 
 ## What's Changed:
+>* refactor TileCertusQuartzTank by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/346 (1.5.11-gtnh)
 >* Fix advanced blocking card doesn't work on load by @hiroscho in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/342 (1.5.8-gtnh)
 >* quick copy paste by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/341 (1.5.7-gtnh)
 >* Add Memory Card support to Level Maintainer by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/327 (1.5.6-gtnh)
@@ -200,10 +201,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Adds a custom overlay for Forestry backpacks by @querns in https://github.com/GTNewHorizons/DuraDisplay/pull/23 (1.4.0)
 
-# Updated - Electro-Magic-Tools - 1.6.18 --> 1.7.1
-**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.18...1.7.1
+# Updated - Electro-Magic-Tools - 1.6.18 --> 1.7.4
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.18...1.7.4
 
 ## What's Changed:
+>* Fix tooltip for Vis Discount on Nano and Quantum Wings by @Johnnycyan in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/108 (1.7.4)
 >* Update for Deprecated Tier Removal PR #5085 by @Vlamonster in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/106 (1.7.0)
 >* Fix dungeon chests spawning with the one ring. by @WanderingHero in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/105 (1.7.0)
 
@@ -246,10 +248,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.85
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.85
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.89
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.89
 
 ## What's Changed:
+>* nerf methane recipe to prevent power positive loops by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5227 (5.09.52.89)
+>* Cache Map Improvements by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5225 (5.09.52.87)
+>* Fix scanner trying to run recipes of higher tiers by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5221 (5.09.52.87)
+>* fix large arc furnace structure oddness by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5212 (5.09.52.87)
 >* Fix HTGR tooltip, GUI and add fill information in the GUI by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5215 (5.09.52.85)
 >* marble recipe fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5216 (5.09.52.85)
 >* fix LES info scan errors by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5214 (5.09.52.85)
@@ -887,4 +893,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @AbdoDayem, @ABKQPO, @agreeable-frog, @ah-OOG-ah, @alppp, @Bjdufre1, @boubou19, @brachy84, @C-Remilian, @Caedis, @cambech, @cazmusw, @chochem, @chrombread, @combusterf, @cubefury, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Ethryan, @FabienChatton, @fengluo2, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hiroscho, @jude123412, @JustACasualDay, @KenzoWVY, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @Kynake, @lc-1337, @leagris, @lynxx131, @MCTBL, @Miklebe, @mitchej123, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @SST-03, @Sunrunner37, @SuperSoupr, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @AbdielKavash, @AbdoDayem, @ABKQPO, @agreeable-frog, @ah-OOG-ah, @alppp, @Bjdufre1, @boubou19, @brachy84, @C-Remilian, @Caedis, @cambech, @cazmusw, @chochem, @chrombread, @combusterf, @cubefury, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Ethryan, @FabienChatton, @fengluo2, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hiroscho, @Johnnycyan, @jude123412, @JustACasualDay, @KenzoWVY, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @Kynake, @lc-1337, @leagris, @lynxx131, @MCTBL, @Miklebe, @mitchej123, @mM4ri, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @SST-03, @Sunrunner37, @SuperSoupr, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
