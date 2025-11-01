@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-01T10:07:23.094594",
-  "config": "2.9.0-nightly-2025-10-31",
+  "last_updated": "2025-11-01T23:05:37.513084",
+  "config": "2.9.0-nightly-2025-11-01",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.1-GTNH",
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.7.3",
+      "version": "0.7.5",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.2",
+      "version": "9.17.4",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
