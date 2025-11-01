@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-10-31T13:12:59.468172",
+  "last_updated": "2025-11-01T03:53:01.408179",
   "config": "2.9.0-nightly-2025-10-31",
   "github_mods": {
     "AdventureBackpack2": {
@@ -161,7 +161,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.7.1",
+      "version": "1.7.4",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.87",
+      "version": "5.09.52.89",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
