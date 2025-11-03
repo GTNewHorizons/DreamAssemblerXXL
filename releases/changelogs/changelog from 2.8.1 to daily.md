@@ -249,10 +249,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.91
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.91
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.94
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.94
 
 ## What's Changed:
+>* replace super busses in chisel busses crafts with usual input busses by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5235 (5.09.52.94)
+>* add render rotation helper method and swap HiLE to use it by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5194 (5.09.52.94)
+>* Fix multis missing coil channel for hologram projector by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5237 (5.09.52.94)
+>* Implement GT Coke Oven by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5230 (5.09.52.94)
 >* Upgrade Input & Output bus inventory by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5213 (5.09.52.91)
 >* add format to mui2 recipe info widget in extra case by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5228 (5.09.52.91)
 >* fix batch mode being on when it shouldn't by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5229 (5.09.52.91)
