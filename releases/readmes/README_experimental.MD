@@ -336,7 +336,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [EnderStorage](https://github.com/GTNewHorizons/EnderStorage) | 1.7.7 |
 | [EnderZoo](https://github.com/GTNewHorizons/EnderZoo) | 1.3.3 |
 | [EnhancedLootBags](https://github.com/GTNewHorizons/EnhancedLootBags) | 1.2.8 |
-| [Et-Futurum-Requiem](https://github.com/GTNewHorizons/Et-Futurum-Requiem) | 2.6.27-GTNH-pre |
+| [Et-Futurum-Requiem](https://github.com/GTNewHorizons/Et-Futurum-Requiem) | 2.6.2.29-GTNH-pre |
 | [Eternal-Singularity](https://github.com/GTNewHorizons/Eternal-Singularity) | 1.3.0 |
 | [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities) | 1.2.12 |
 | [FindIt](https://github.com/GTNewHorizons/FindIt) | 1.4.0 |
