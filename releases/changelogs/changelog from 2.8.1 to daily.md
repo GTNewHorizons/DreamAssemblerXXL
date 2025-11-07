@@ -24,11 +24,12 @@
 >* Set minimum compatible Tinker's Construct version by @wlhlm in https://github.com/GTNewHorizons/AdventureBackpack2/pull/35 (1.4.1-GTNH)
 >* Drop duplicated inventory tab rendering code by @wlhlm in https://github.com/GTNewHorizons/AdventureBackpack2/pull/34 (1.4.0-GTNH)
 
-# Updated - Angelica - 1.0.0-beta62 --> 1.0.0-beta66
+# Updated - Angelica - 1.0.0-beta62 --> 1.0.0-beta67
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta62...1.0.0-beta66
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta62...1.0.0-beta67
 
 ## What's Changed:
+>* Update model API by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/842 (1.0.0-beta67)
 >* Disable hardcoded custom uniforms by default by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/1100 (1.0.0-beta66)
 >* Add several missing built-in uniforms by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/1101 (1.0.0-beta66)
 >* Add VAO test by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1089 (1.0.0-beta65)
@@ -513,10 +514,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.0 --> 0.7.7
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.7.7
+# Updated - GTNHLib - 0.7.0 --> 0.8.0
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.0
 
 ## What's Changed:
+>* Updates to JSON model API by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/100 (0.8.0)
 >* Add Generic Item I/O Capabilities by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/167 (0.7.7)
 >* Add getter for KeyBinding in SyncedKeybind by @FourIsTheNumber in https://github.com/GTNewHorizons/GTNHLib/pull/185 (0.7.5)
 >* Add custom Vertex Formats to WavefrontObject by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/181 (0.7.3)
@@ -642,10 +644,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Add hint text for Tempus by @koolkrafter5 in https://github.com/GTNewHorizons/MagicBees/pull/57 (2.10.2-GTNH)
 
-# Updated - MatterManipulator - 0.0.51-GTNH --> 0.1.2-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.51-GTNH...0.1.2-GTNH
+# Updated - MatterManipulator - 0.0.51-GTNH --> 0.1.3-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.51-GTNH...0.1.3-GTNH
 
 ## What's Changed:
+>* Update to new quads by @ah-OOG-ah in https://github.com/GTNewHorizons/MatterManipulator/pull/16 (0.1.3-GTNH)
 >* Dev by @Dream-Master in https://github.com/GTNewHorizons/MatterManipulator/pull/13 (0.1.0-GTNH)
 >* Fix minor grammar in Manipulator upgrade description by @GTNH-Afx237v7 in https://github.com/GTNewHorizons/MatterManipulator/pull/15 (0.1.0-GTNH)
 
