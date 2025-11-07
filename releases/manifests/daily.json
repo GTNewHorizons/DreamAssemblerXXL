@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-07T03:54:19.303546",
-  "config": "2.9.0-nightly-2025-11-05",
+  "last_updated": "2025-11-07T19:24:52.054779",
+  "config": "2.9.0-nightly-2025-11-07",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.1-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.13-gtnh",
+      "version": "1.5.15-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-729-GTNH",
+      "version": "rv3-beta-732-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -141,7 +141,7 @@
       "side": "BOTH"
     },
     "CropLoadCore": {
-      "version": "0.2.0",
+      "version": "0.3.0",
       "side": "BOTH"
     },
     "Crops-plus-plus": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.97",
+      "version": "5.09.52.99",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.42",
+      "version": "2.8.46",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.31-GTNH",
+      "version": "2.8.33-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.3",
+      "version": "2.2.5",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.35-GTNH",
+      "version": "1.1.36-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
