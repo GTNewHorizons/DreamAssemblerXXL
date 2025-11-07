@@ -3,10 +3,12 @@
 > * VendingMachine
 # Mods Removed: 
 > * AE2NoUltimatePatterns
-# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.5.15-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.5.15-gtnh
+# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.5.19-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.5.19-gtnh
 
 ## What's Changed:
+>* Fix/p2p bind doesn't copy stocking settings by @hiroscho in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/354 (1.5.19-gtnh)
+>* Fix/p2p desync when saving an input to memory card again by @hiroscho in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/353 (1.5.17-gtnh)
 >* Fix dupe bug for dual p2p interface by @hiroscho in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/352 (1.5.15-gtnh)
 >* fix waila body flickering when looking at a certus quartz tank by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/350 (1.5.13-gtnh)
 >* refactor TileCertusQuartzTank by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/346 (1.5.11-gtnh)
@@ -24,6 +26,12 @@
 ## What's Changed:
 >* Set minimum compatible Tinker's Construct version by @wlhlm in https://github.com/GTNewHorizons/AdventureBackpack2/pull/35 (1.4.1-GTNH)
 >* Drop duplicated inventory tab rendering code by @wlhlm in https://github.com/GTNewHorizons/AdventureBackpack2/pull/34 (1.4.0-GTNH)
+
+# Updated - Amazing-Trophies - 1.3.8 --> 1.4.0
+**Full Changelog**: https://github.com/GTNewHorizons/Amazing-Trophies/compare/1.3.8...1.4.0
+
+## What's Changed:
+>* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
 # Updated - Angelica - 1.0.0-beta62 --> 1.0.0-beta67
 Mod is client-side only.
@@ -51,10 +59,16 @@ Mod is client-side only.
 >* Allow overriding of blend function in batching font renderer by @SuperSoupr in https://github.com/GTNewHorizons/Angelica/pull/1075 (1.0.0-beta63)
 >* Quick fix PBR Resourcepack loader error by @ABKQPO in https://github.com/GTNewHorizons/Angelica/pull/1043 (1.0.0-beta63)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-732-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-732-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-739-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-739-GTNH
 
 ## What's Changed:
+>* Fix/p2p bind doesn't copy stocking settings by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/913 (rv3-beta-739-GTNH)
+>* Add Encoded Pattern preview by @evgengoldwar in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/908 (rv3-beta-737-GTNH)
+>* Fix/p2p desync when saving an input to memory card again by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/912 (rv3-beta-737-GTNH)
+>* Implement and use new item I/O interfaces by @RecursivePineapple in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/875 (rv3-beta-735-GTNH)
+>* Use priority to determine extract order of items in IO Port by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/889 (rv3-beta-734-GTNH)
+>* Make ItemList's fuzzy data lazy-loading by @zyf051520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/886 (rv3-beta-734-GTNH)
 >* Fix dupe bug for p2p interface by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/907 (rv3-beta-732-GTNH)
 >* Added Collapse Feature to the Crafting Tree by @asukaonly in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/892 (rv3-beta-729-GTNH)
 >* Add text length counter for oredict card GUI by @gaogao-qwq in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/900 (rv3-beta-727-GTNH)
@@ -750,10 +764,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add plank recipes for stripped logs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1391 (2.8.0)
 >* Fix circuits in some AL recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1392 (2.8.0)
 
-# Updated - NotEnoughItems - 2.8.19-GTNH --> 2.8.33-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.19-GTNH...2.8.33-GTNH
+# Updated - NotEnoughItems - 2.8.19-GTNH --> 2.8.35-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.19-GTNH...2.8.35-GTNH
 
 ## What's Changed:
+>* Add 'Bookmark recipe with count' Option by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/776 (2.8.35-GTNH)
 >* Implement Dynamic Handler Height by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/792 (2.8.33-GTNH)
 >* Remove Permutations from Output by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/777 (2.8.33-GTNH)
 >* Remove try/catch from static block by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/797 (2.8.33-GTNH)
@@ -827,8 +842,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Salis-Arcana - 1.1.33-GTNH --> 1.1.36-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.33-GTNH...1.1.36-GTNH
+# Updated - Salis-Arcana - 1.1.33-GTNH --> 1.1.37-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.33-GTNH...1.1.37-GTNH
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
