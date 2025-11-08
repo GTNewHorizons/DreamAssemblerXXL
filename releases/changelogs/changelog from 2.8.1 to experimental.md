@@ -3,8 +3,8 @@
 > * VendingMachine
 # Mods Removed: 
 > * AE2NoUltimatePatterns
-# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.5.20-gtnh-pre
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.5.20-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.5.21-gtnh-pre
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.5.21-gtnh-pre
 
 ## What's Changed:
 >* Fix/p2p bind doesn't copy stocking settings by @hiroscho in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/354 (1.5.19-gtnh)
@@ -34,11 +34,19 @@
 ## What's Changed:
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta62 --> 1.0.0-beta67
+# Updated - Angelica - 1.0.0-beta62 --> 1.0.0-beta69-pre
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta62...1.0.0-beta67
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta62...1.0.0-beta69-pre
 
 ## What's Changed:
+>* Fix multithreaded rendering running blocking tasks on main workers. by @Sopel97 in https://github.com/GTNewHorizons/Angelica/pull/1084 (1.0.0-beta69-pre)
+>* Set maxShiftBy to fix some log warnings by @ALongStringOfNumbers in https://github.com/GTNewHorizons/Angelica/pull/1105 (1.0.0-beta68)
+>* Add more VAO tests by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1093 (1.0.0-beta68)
+>* Uniform Additions and fixes by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1102 (1.0.0-beta68)
+>* [Shaders] Basic compatibility with NTM:Space skybox & more by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1096 (1.0.0-beta68)
+>* Increase Scroll Speed in Settings GUIs by @ALongStringOfNumbers in https://github.com/GTNewHorizons/Angelica/pull/1106 (1.0.0-beta68)
+>* split AngelicaRedirector from SodiumBlockTransform by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/1018 (1.0.0-beta68)
+>* Port `FIX_BLOCK_CRACK` from FalseTweaks 2 by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1023 (1.0.0-beta68)
 >* Update model API by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/842 (1.0.0-beta67)
 >* Disable hardcoded custom uniforms by default by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/1100 (1.0.0-beta66)
 >* Add several missing built-in uniforms by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/1101 (1.0.0-beta66)
@@ -314,10 +322,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.101-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.101-pre
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.103-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.103-pre
 
 ## What's Changed:
+>* Spotless apply for branch cape-command for #5186 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5187 (5.09.52.103-pre)
+>* [MUI2] port MTEPreciseAssembler to MUI2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5274 (5.09.52.102)
+>* [MUI2] port MTETranscendentPlasmaMixer to MUI2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5276 (5.09.52.102)
+>* Add active transformer throughput UI widgets by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4986 (5.09.52.102)
+>* Eliminate "Electrolyzed Water Cell" by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5278 (5.09.52.102)
 >* Spotless apply for branch cape-command for #5186 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5187 (5.09.52.100-pre)
 >* Respect storage cell restriction for hatch capacities by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4985 (5.09.52.99)
 >* delete deprecated tiered "Radio Hatch" by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5248 (5.09.52.99)
@@ -340,6 +353,21 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* remove deprecation from assembler recipe map for cables by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5251 (5.09.52.97)
 >* Fix PCB Factory T3 from always being shown in hints and building in creative by @BlueWeabo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5255 (5.09.52.97)
 >* Add hint text for GT aspects and move some from Coremod by @koolkrafter5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5256 (5.09.52.97)
+>* replace super busses in chisel busses crafts with usual input busses by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5235 (5.09.52.96-pre)
+>* add render rotation helper method and swap HiLE to use it by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5194 (5.09.52.96-pre)
+>* Fix multis missing coil channel for hologram projector by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5237 (5.09.52.96-pre)
+>* Implement GT Coke Oven by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5230 (5.09.52.96-pre)
+>* coke oven preview fix by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5239 (5.09.52.96-pre)
+>* Fix industrial apiary rare crash on server rejoin by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5240 (5.09.52.96-pre)
+>* 2 coke oven fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5243 (5.09.52.96-pre)
+>* Add debug fluid tank by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5175 (5.09.52.96-pre)
+>* Fix power goggles losing enchant when linking/unlinking by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5241 (5.09.52.96-pre)
+>* PCB Factory sub-multi additions by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5190 (5.09.52.96-pre)
+>* port / replace mui1 implementation of ItemVolumetricFlask to mui2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5242 (5.09.52.96-pre)
+>* delete deprecated "ULV Simple Washer" by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5247 (5.09.52.96-pre)
+>* Increase Netherrack Froth output volume to 8x by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5246 (5.09.52.96-pre)
+>* fix `GTUtility.translate` related error text by @ChromaPIE in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5196 (5.09.52.96-pre)
+>* Universal gui by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5252 (5.09.52.96-pre)
 >* coke oven preview fix by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5239 (5.09.52.95)
 >* Fix industrial apiary rare crash on server rejoin by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5240 (5.09.52.95)
 >* 2 coke oven fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5243 (5.09.52.95)
@@ -364,9 +392,17 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix batch mode being on when it shouldn't by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5229 (5.09.52.91)
 >* nerf methane recipe to prevent power positive loops by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5227 (5.09.52.90-pre)
 >* nerf methane recipe to prevent power positive loops by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5227 (5.09.52.89)
+>* Spotless apply for branch cape-command for #5186 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5187 (5.09.52.88-pre)
 >* Cache Map Improvements by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5225 (5.09.52.87)
 >* Fix scanner trying to run recipes of higher tiers by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5221 (5.09.52.87)
 >* fix large arc furnace structure oddness by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5212 (5.09.52.87)
+>* Fix HTGR tooltip, GUI and add fill information in the GUI by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5215 (5.09.52.86-pre)
+>* marble recipe fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5216 (5.09.52.86-pre)
+>* fix LES info scan errors by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5214 (5.09.52.86-pre)
+>* Fix texture compression artifacts and clean up unused custom materialicon textures by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5184 (5.09.52.86-pre)
+>* Fix Steam Purifier Tooltip & Add Screwdriver Right Click Mode Switch by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5217 (5.09.52.86-pre)
+>* Remove Macerator/Pulverizer Machine Type by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5218 (5.09.52.86-pre)
+>* Return the industrial diamond to the implosion compressor by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5220 (5.09.52.86-pre)
 >* Fix HTGR tooltip, GUI and add fill information in the GUI by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5215 (5.09.52.85)
 >* marble recipe fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5216 (5.09.52.85)
 >* fix LES info scan errors by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5214 (5.09.52.85)
@@ -392,6 +428,7 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* [Suggestion] Allows inverted item cells to create a blacklist in ME Output Buses by @AbdoDayem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5195 (5.09.52.76-pre)
 >* Fix crash from breaking machine with multiples MetricsCovers by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5193 (5.09.52.75)
 >* [Suggestion] Allows inverted item cells to create a blacklist in ME Output Buses by @AbdoDayem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5195 (5.09.52.75)
+>* Oreprefix crash fix no5 by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5192 (5.09.52.74-pre)
 >* Oreprefix crash fix no5 by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5192 (5.09.52.73)
 >* Spotless apply for branch cape-command for #5186 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5187 (5.09.52.71-pre)
 >* Fixes Cobalt II Acetate -> Cobalt II Naphthenate Recipe by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5181 (5.09.52.70)
@@ -654,10 +691,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.0 --> 0.8.0
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.0
+# Updated - GTNHLib - 0.7.0 --> 0.8.3-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.3-pre
 
 ## What's Changed:
+>* Spotless apply for branch baked-model-builder for #175 by @github-actions[bot] in https://github.com/GTNewHorizons/GTNHLib/pull/182 (0.8.3-pre)
+>* Spotless apply for branch optimize-vbo-state for #183 by @github-actions[bot] in https://github.com/GTNewHorizons/GTNHLib/pull/184 (0.8.3-pre)
+>* Spotless apply for branch feature/brigadier for #149 by @github-actions[bot] in https://github.com/GTNewHorizons/GTNHLib/pull/189 (0.8.3-pre)
+>* Spotless apply for branch block-states for #176 by @github-actions[bot] in https://github.com/GTNewHorizons/GTNHLib/pull/190 (0.8.3-pre)
+>* Add Brigadier by @Taskeren in https://github.com/GTNewHorizons/GTNHLib/pull/149 (0.8.3-pre)
+>* Add Brigadier by @Taskeren in https://github.com/GTNewHorizons/GTNHLib/pull/149 (0.8.2)
 >* Updates to JSON model API by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/100 (0.8.0)
 >* Spotless apply for branch baked-model-builder for #175 by @github-actions[bot] in https://github.com/GTNewHorizons/GTNHLib/pull/182 (0.7.8-pre)
 >* Spotless apply for branch optimize-vbo-state for #183 by @github-actions[bot] in https://github.com/GTNewHorizons/GTNHLib/pull/184 (0.7.8-pre)
@@ -754,10 +797,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add server controlled toggle for refilling by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/134 (1.3.1-GTNH)
 >* Split inside gui and outside gui sort keys by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/139 (1.3.0-GTNH)
 
-# Updated - Jabba - 1.5.10 --> 1.5.13
-**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.10...1.5.13
+# Updated - Jabba - 1.5.10 --> 1.5.14-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.10...1.5.14-pre
 
 ## What's Changed:
+>* Allow compressed (and infinity) chests to be dollied. by @tomprince in https://github.com/GTNewHorizons/Jabba/pull/46 (1.5.14-pre)
+>* Add Binnie's Mods Compartments Support to Dolly by @MuXiu1997 in https://github.com/GTNewHorizons/Jabba/pull/45 (1.5.14-pre)
 >* Allow compressed (and infinity) chests to be dollied. by @tomprince in https://github.com/GTNewHorizons/Jabba/pull/46 (1.5.13)
 >* Add Binnie's Mods Compartments Support to Dolly by @MuXiu1997 in https://github.com/GTNewHorizons/Jabba/pull/45 (1.5.13)
 
@@ -832,10 +877,18 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.262 --> 2.8.46
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.262...2.8.46
+# Updated - NewHorizonsCoreMod - 2.7.262 --> 2.8.49-pre
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.262...2.8.49-pre
 
 ## What's Changed:
+>* Hide "Electrolyzed Water Cell" From NEI by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1454 (2.8.48)
+>* Changed recipe length for cooling ingots in the chemical bath by @captainjolt in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1449 (2.8.48)
+>* Make transistors relevant again by making SMD recipe HV by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1455 (2.8.48)
+>* Add a recipe to break down ae2 singularity into matter balls  by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1400 (2.8.48)
+>* Rename UnfiredSlimeSoulBrick as UnfiredSlimeSoilbrick by @Worive in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1396 (2.8.48)
+>* fix recipe of L.A.T.E.X. multiblock controller by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1456 (2.8.48)
+>* downtier wormhole generator from UHV -> ZPM so it gets more use by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1397 (2.8.48)
+>* Resolve Issue 21827, changing bibliocraft fancy signs to either, if t… by @nshark in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1437 (2.8.48)
 >* fix elastic singularity recipe by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1451 (2.8.46)
 >* Resolve conflicts in some recipes by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1447 (2.8.44)
 >* Buff Power Converter & Disk Drive Recipes to MV  by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1450 (2.8.44)
@@ -1210,4 +1263,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @alppp, @asukaonly, @Bjdufre1, @BlueWeabo, @boubou19, @Brabb3l, @brachy84, @brandyyn, @C-Remilian, @Caedis, @cambech, @cazmusw, @chochem, @ChromaPIE, @chrombread, @Cleptomania, @combusterf, @cubefury, @czerwonogrodzki, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Ethryan, @evgengoldwar, @FabienChatton, @fengluo2, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @github-actions[bot], @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hiroscho, @Johnnycyan, @jordanamr, @jude123412, @JustACasualDay, @KenzoWVY, @kielxyz, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @kuba6000, @Kynake, @lc-1337, @leagris, @loenaaaa, @lynxx131, @MalTeeez, @MCTBL, @Miklebe, @mitchej123, @mM4ri, @MuXiu1997, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @Sopel97, @SST-03, @Sunrunner37, @SuperSoupr, @Teteros, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @ALongStringOfNumbers, @alppp, @asukaonly, @Bjdufre1, @BlueWeabo, @boubou19, @Brabb3l, @brachy84, @brandyyn, @C-Remilian, @Caedis, @cambech, @captainjolt, @cazmusw, @chochem, @ChromaPIE, @chrombread, @Cleptomania, @combusterf, @cubefury, @czerwonogrodzki, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Ethryan, @evgengoldwar, @FabienChatton, @fengluo2, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @github-actions[bot], @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hiroscho, @Johnnycyan, @jordanamr, @jude123412, @JustACasualDay, @KenzoWVY, @kielxyz, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @kuba6000, @Kynake, @lc-1337, @leagris, @loenaaaa, @lynxx131, @MalTeeez, @MCTBL, @Miklebe, @mitchej123, @mM4ri, @MuXiu1997, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @nshark, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @Sopel97, @SST-03, @Sunrunner37, @SuperSoupr, @Taskeren, @Teteros, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
