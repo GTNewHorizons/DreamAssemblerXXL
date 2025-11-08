@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-07T19:29:32.948679",
+  "last_updated": "2025-11-08T03:47:52.170902",
   "config": "2.9.0-nightly-2025-11-07",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.15-gtnh",
+      "version": "1.5.19-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-732-GTNH",
+      "version": "rv3-beta-739-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.0",
+      "version": "0.8.2",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.33-GTNH",
+      "version": "2.8.35-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "Amazing-Trophies": {
-      "version": "1.3.8",
+      "version": "1.4.0",
       "side": "BOTH"
     },
     "ServerUtilities": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta67",
+      "version": "1.0.0-beta68",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.36-GTNH",
+      "version": "1.1.37-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
