@@ -33,11 +33,18 @@
 ## What's Changed:
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta62 --> 1.0.0-beta67
+# Updated - Angelica - 1.0.0-beta62 --> 1.0.0-beta68
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta62...1.0.0-beta67
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta62...1.0.0-beta68
 
 ## What's Changed:
+>* Set maxShiftBy to fix some log warnings by @ALongStringOfNumbers in https://github.com/GTNewHorizons/Angelica/pull/1105 (1.0.0-beta68)
+>* Add more VAO tests by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1093 (1.0.0-beta68)
+>* Uniform Additions and fixes by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1102 (1.0.0-beta68)
+>* [Shaders] Basic compatibility with NTM:Space skybox & more by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1096 (1.0.0-beta68)
+>* Increase Scroll Speed in Settings GUIs by @ALongStringOfNumbers in https://github.com/GTNewHorizons/Angelica/pull/1106 (1.0.0-beta68)
+>* split AngelicaRedirector from SodiumBlockTransform by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/1018 (1.0.0-beta68)
+>* Port `FIX_BLOCK_CRACK` from FalseTweaks 2 by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1023 (1.0.0-beta68)
 >* Update model API by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/842 (1.0.0-beta67)
 >* Disable hardcoded custom uniforms by default by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/1100 (1.0.0-beta66)
 >* Add several missing built-in uniforms by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/1101 (1.0.0-beta66)
@@ -547,10 +554,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.0 --> 0.8.0
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.0
+# Updated - GTNHLib - 0.7.0 --> 0.8.2
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.2
 
 ## What's Changed:
+>* Add Brigadier by @Taskeren in https://github.com/GTNewHorizons/GTNHLib/pull/149 (0.8.2)
 >* Updates to JSON model API by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/100 (0.8.0)
 >* Add Generic Item I/O Capabilities by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/167 (0.7.7)
 >* Add getter for KeyBinding in SyncedKeybind by @FourIsTheNumber in https://github.com/GTNewHorizons/GTNHLib/pull/185 (0.7.5)
@@ -1034,4 +1042,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @alppp, @asukaonly, @Bjdufre1, @BlueWeabo, @boubou19, @Brabb3l, @brachy84, @brandyyn, @C-Remilian, @Caedis, @cambech, @cazmusw, @chochem, @ChromaPIE, @chrombread, @Cleptomania, @combusterf, @cubefury, @czerwonogrodzki, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Ethryan, @evgengoldwar, @FabienChatton, @fengluo2, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hiroscho, @Johnnycyan, @jordanamr, @jude123412, @JustACasualDay, @KenzoWVY, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @Kynake, @lc-1337, @leagris, @loenaaaa, @lynxx131, @MalTeeez, @MCTBL, @Miklebe, @mitchej123, @mM4ri, @MuXiu1997, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @Sopel97, @SST-03, @Sunrunner37, @SuperSoupr, @Teteros, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @ALongStringOfNumbers, @alppp, @asukaonly, @Bjdufre1, @BlueWeabo, @boubou19, @Brabb3l, @brachy84, @brandyyn, @C-Remilian, @Caedis, @cambech, @cazmusw, @chochem, @ChromaPIE, @chrombread, @Cleptomania, @combusterf, @cubefury, @czerwonogrodzki, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Ethryan, @evgengoldwar, @FabienChatton, @fengluo2, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hiroscho, @Johnnycyan, @jordanamr, @jude123412, @JustACasualDay, @KenzoWVY, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @Kynake, @lc-1337, @leagris, @loenaaaa, @lynxx131, @MalTeeez, @MCTBL, @Miklebe, @mitchej123, @mM4ri, @MuXiu1997, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @Sopel97, @SST-03, @Sunrunner37, @SuperSoupr, @Taskeren, @Teteros, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

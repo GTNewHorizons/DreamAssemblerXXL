@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-07T21:42:02.464458",
+  "last_updated": "2025-11-08T03:47:52.170902",
   "config": "2.9.0-nightly-2025-11-07",
   "github_mods": {
     "AdventureBackpack2": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.0",
+      "version": "0.8.2",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta67",
+      "version": "1.0.0-beta68",
       "side": "CLIENT"
     },
     "AkashicTome": {
