@@ -300,10 +300,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.99
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.99
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.102
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.102
 
 ## What's Changed:
+>* [MUI2] port MTEPreciseAssembler to MUI2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5274 (5.09.52.102)
+>* [MUI2] port MTETranscendentPlasmaMixer to MUI2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5276 (5.09.52.102)
+>* Add active transformer throughput UI widgets by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4986 (5.09.52.102)
+>* Eliminate "Electrolyzed Water Cell" by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5278 (5.09.52.102)
 >* Respect storage cell restriction for hatch capacities by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4985 (5.09.52.99)
 >* delete deprecated tiered "Radio Hatch" by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5248 (5.09.52.99)
 >* Make LV Tier Color Visible Again by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5253 (5.09.52.99)
@@ -719,10 +723,18 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.262 --> 2.8.46
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.262...2.8.46
+# Updated - NewHorizonsCoreMod - 2.7.262 --> 2.8.48
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.262...2.8.48
 
 ## What's Changed:
+>* Hide "Electrolyzed Water Cell" From NEI by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1454 (2.8.48)
+>* Changed recipe length for cooling ingots in the chemical bath by @captainjolt in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1449 (2.8.48)
+>* Make transistors relevant again by making SMD recipe HV by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1455 (2.8.48)
+>* Add a recipe to break down ae2 singularity into matter balls  by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1400 (2.8.48)
+>* Rename UnfiredSlimeSoulBrick as UnfiredSlimeSoilbrick by @Worive in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1396 (2.8.48)
+>* fix recipe of L.A.T.E.X. multiblock controller by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1456 (2.8.48)
+>* downtier wormhole generator from UHV -> ZPM so it gets more use by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1397 (2.8.48)
+>* Resolve Issue 21827, changing bibliocraft fancy signs to either, if t… by @nshark in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1437 (2.8.48)
 >* fix elastic singularity recipe by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1451 (2.8.46)
 >* Resolve conflicts in some recipes by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1447 (2.8.44)
 >* Buff Power Converter & Disk Drive Recipes to MV  by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1450 (2.8.44)
@@ -1042,4 +1054,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @ALongStringOfNumbers, @alppp, @asukaonly, @Bjdufre1, @BlueWeabo, @boubou19, @Brabb3l, @brachy84, @brandyyn, @C-Remilian, @Caedis, @cambech, @cazmusw, @chochem, @ChromaPIE, @chrombread, @Cleptomania, @combusterf, @cubefury, @czerwonogrodzki, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Ethryan, @evgengoldwar, @FabienChatton, @fengluo2, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hiroscho, @Johnnycyan, @jordanamr, @jude123412, @JustACasualDay, @KenzoWVY, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @Kynake, @lc-1337, @leagris, @loenaaaa, @lynxx131, @MalTeeez, @MCTBL, @Miklebe, @mitchej123, @mM4ri, @MuXiu1997, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @Sopel97, @SST-03, @Sunrunner37, @SuperSoupr, @Taskeren, @Teteros, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @ALongStringOfNumbers, @alppp, @asukaonly, @Bjdufre1, @BlueWeabo, @boubou19, @Brabb3l, @brachy84, @brandyyn, @C-Remilian, @Caedis, @cambech, @captainjolt, @cazmusw, @chochem, @ChromaPIE, @chrombread, @Cleptomania, @combusterf, @cubefury, @czerwonogrodzki, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Ethryan, @evgengoldwar, @FabienChatton, @fengluo2, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hiroscho, @Johnnycyan, @jordanamr, @jude123412, @JustACasualDay, @KenzoWVY, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @Kynake, @lc-1337, @leagris, @loenaaaa, @lynxx131, @MalTeeez, @MCTBL, @Miklebe, @mitchej123, @mM4ri, @MuXiu1997, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @nshark, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @Sopel97, @SST-03, @Sunrunner37, @SuperSoupr, @Taskeren, @Teteros, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
