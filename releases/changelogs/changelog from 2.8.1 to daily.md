@@ -710,10 +710,17 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.5-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.5-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.8-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.8-1.7.10
 
 ## What's Changed:
+>* add in line that was missing from upstream version by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/59 (2.3.8-1.7.10)
+>* Add nonOpaque option to UITexture.builder() by @serenibyss in https://github.com/GTNewHorizons/ModularUI2/pull/57 (2.3.7-1.7.10)
+>* add tooltip overriding to TextFieldWidget by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/56 (2.3.7-1.7.10)
+>* Allow Flow's to reverse the order children get read in by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/58 (2.3.7-1.7.10)
+>* Add nonOpaque option to UITexture.builder() by @serenibyss in https://github.com/GTNewHorizons/ModularUI2/pull/57 (2.3.6-1.7.10)
+>* add tooltip overriding to TextFieldWidget by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/56 (2.3.6-1.7.10)
+>* Allow Flow's to reverse the order children get read in by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/58 (2.3.6-1.7.10)
 >* Fix player slot detection & Cursor stack z layer by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/49 (2.3.5-1.7.10)
 >* Fix dynamic sync by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/50 (2.3.5-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/48 (2.3.4-1.7.10)

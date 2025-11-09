@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-08T14:07:41.821883",
+  "last_updated": "2025-11-09T03:55:01.497273",
   "config": "2.9.0-nightly-2025-11-07",
   "github_mods": {
     "AdventureBackpack2": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.5-1.7.10",
+      "version": "2.3.8-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
