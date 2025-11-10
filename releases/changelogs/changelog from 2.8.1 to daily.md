@@ -200,10 +200,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Chisel - 2.16.14-GTNH --> 2.17.3-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.16.14-GTNH...2.17.3-GTNH
+# Updated - Chisel - 2.16.14-GTNH --> 2.17.5-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.16.14-GTNH...2.17.5-GTNH
 
 ## What's Changed:
+>* Fix shift-click from Chisel into full inventory by @SuperSoupr in https://github.com/GTNewHorizons/Chisel/pull/69 (2.17.5-GTNH)
 >* Terracotta variations by @agreeable-frog in https://github.com/GTNewHorizons/Chisel/pull/68 (2.17.3-GTNH)
 >* Fix: corrected textures and removed flickering. issue 21220 by @cambech in https://github.com/GTNewHorizons/Chisel/pull/67 (2.17.1-GTNH)
 >* Update description key by @cambech in https://github.com/GTNewHorizons/Chisel/pull/66 (2.17.0-GTNH)
@@ -300,10 +301,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.102
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.102
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.104
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.104
 
 ## What's Changed:
+>* Refactor Godforge in preparation of MUI2 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5281 (5.09.52.104)
+>* update deps by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5285 (5.09.52.104)
+>* rename TerminalCornerColumn to TerminalRightCornerColumn by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5286 (5.09.52.104)
+>* adapt to new mui changes by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5288 (5.09.52.104)
+>* tooltips: clarify ranges covered by different machines by @LunarLambda in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5280 (5.09.52.104)
+>* Resolve 6 recipe conflicts by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5292 (5.09.52.104)
 >* [MUI2] port MTEPreciseAssembler to MUI2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5274 (5.09.52.102)
 >* [MUI2] port MTETranscendentPlasmaMixer to MUI2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5276 (5.09.52.102)
 >* Add active transformer throughput UI widgets by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4986 (5.09.52.102)
@@ -844,11 +851,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Add keybinding to directly open the calculator by @wlhlm in https://github.com/GTNewHorizons/OpenModsLib/pull/9 (0.11.2)
 
-# Updated - ProjectRed - 4.11.13-GTNH --> 4.12.0-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.13-GTNH...4.12.0-GTNH
+# Updated - ProjectRed - 4.11.13-GTNH --> 4.12.4-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.13-GTNH...4.12.4-GTNH
 
 ## What's Changed:
-DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+>* Fix issue with IC not emitting redstone signal without inputs by @DarkShadow44 in https://github.com/GTNewHorizons/ProjectRed/pull/54 (4.12.4-GTNH)
+>* prevent routed interface pipes from accidentally overfilling inventories by overfilling it's transit queue by @Dragovorn in https://github.com/GTNewHorizons/ProjectRed/pull/51 (4.12.4-GTNH)
+>* Fix Item Stock Keeper Chip requests more items than needed by @MuXiu1997 in https://github.com/GTNewHorizons/ProjectRed/pull/53 (4.12.4-GTNH)
+>* Improve Request Pipe GUI by @MuXiu1997 in https://github.com/GTNewHorizons/ProjectRed/pull/52 (4.12.4-GTNH)
+>* Update BS + deps by @serenibyss in https://github.com/GTNewHorizons/ProjectRed/pull/55 (4.12.4-GTNH)
+
 # Updated - Railcraft - 9.16.33 --> 9.17.6
 **Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.33...9.17.6
 
@@ -1061,4 +1073,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @ALongStringOfNumbers, @alppp, @asukaonly, @Bjdufre1, @BlueWeabo, @boubou19, @Brabb3l, @brachy84, @brandyyn, @C-Remilian, @Caedis, @cambech, @captainjolt, @cazmusw, @chochem, @ChromaPIE, @chrombread, @Cleptomania, @combusterf, @cubefury, @czerwonogrodzki, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Ethryan, @evgengoldwar, @FabienChatton, @fengluo2, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hiroscho, @Johnnycyan, @jordanamr, @jude123412, @JustACasualDay, @KenzoWVY, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @Kynake, @lc-1337, @leagris, @loenaaaa, @lynxx131, @MalTeeez, @MCTBL, @Miklebe, @mitchej123, @mM4ri, @MuXiu1997, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @nshark, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @Sopel97, @SST-03, @Sunrunner37, @SuperSoupr, @Taskeren, @Teteros, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @ALongStringOfNumbers, @alppp, @asukaonly, @Bjdufre1, @BlueWeabo, @boubou19, @Brabb3l, @brachy84, @brandyyn, @C-Remilian, @Caedis, @cambech, @captainjolt, @cazmusw, @chochem, @ChromaPIE, @chrombread, @Cleptomania, @combusterf, @cubefury, @czerwonogrodzki, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dragovorn, @Dream-Master, @Dredonkey, @DylanTaylor1, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Ethryan, @evgengoldwar, @FabienChatton, @fengluo2, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hiroscho, @Johnnycyan, @jordanamr, @jude123412, @JustACasualDay, @KenzoWVY, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @Kynake, @lc-1337, @leagris, @loenaaaa, @LunarLambda, @lynxx131, @MalTeeez, @MCTBL, @Miklebe, @mitchej123, @mM4ri, @MuXiu1997, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @nshark, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @Sopel97, @SST-03, @Sunrunner37, @SuperSoupr, @Taskeren, @Teteros, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
