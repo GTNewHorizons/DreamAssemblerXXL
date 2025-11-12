@@ -215,10 +215,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Translate ASM to mixins by @Alexdoru in https://github.com/GTNewHorizons/CropLoadCore/pull/10 (0.3.0)
 
-# Updated - Crops-plus-plus - 1.8.11 --> 1.9.2
-**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.11...1.9.2
+# Updated - Crops-plus-plus - 1.8.11 --> 1.9.3
+**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.11...1.9.3
 
 ## What's Changed:
+>* Fix Garnydnia by @RecursivePineapple in https://github.com/GTNewHorizons/Crops-plus-plus/pull/98 (1.9.3)
 >* Use new GT ore API by @RecursivePineapple in https://github.com/GTNewHorizons/Crops-plus-plus/pull/95 (1.9.2)
 
 # Updated - Custom-Main-Menu - 1.12.2 --> 1.13.0
@@ -565,10 +566,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.0 --> 0.8.2
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.2
+# Updated - GTNHLib - 0.7.0 --> 0.8.4
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.4
 
 ## What's Changed:
+>* Misc item moving improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/188 (0.8.4)
+>* Add generational timed cache by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/171 (0.8.4)
+>* Remove mixin-based IResourcePack detection by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/192 (0.8.4)
+>* ASM Housekeeping by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/166 (0.8.4)
 >* Add Brigadier by @Taskeren in https://github.com/GTNewHorizons/GTNHLib/pull/149 (0.8.2)
 >* Updates to JSON model API by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/100 (0.8.0)
 >* Add Generic Item I/O Capabilities by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/167 (0.7.7)
@@ -717,10 +722,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.11-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.11-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.12-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.12-1.7.10
 
 ## What's Changed:
+>* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/66 (2.3.12-1.7.10)
 >* fluid display widget by @Spicierspace153 in https://github.com/GTNewHorizons/ModularUI2/pull/64 (2.3.11-1.7.10)
 >* make itemWidget resizeable!! by @Spicierspace153 in https://github.com/GTNewHorizons/ModularUI2/pull/65 (2.3.11-1.7.10)
 >* Increase limit for sync value key length by @serenibyss in https://github.com/GTNewHorizons/ModularUI2/pull/62 (2.3.10-1.7.10)
