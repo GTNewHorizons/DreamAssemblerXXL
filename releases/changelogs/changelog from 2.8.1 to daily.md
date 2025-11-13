@@ -566,10 +566,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.0 --> 0.8.4
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.4
+# Updated - GTNHLib - 0.7.0 --> 0.8.6
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.6
 
 ## What's Changed:
+>* Add BakedModelBuilder + Normal helper methods by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/175 (0.8.6)
+>* Add ability to dynamically control block sounds by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/195 (0.8.6)
+>* Add post-processing + VAO methods by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/186 (0.8.6)
 >* Misc item moving improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/188 (0.8.4)
 >* Add generational timed cache by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/171 (0.8.4)
 >* Remove mixin-based IResourcePack detection by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/192 (0.8.4)
@@ -722,10 +725,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.12-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.12-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.13-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.13-1.7.10
 
 ## What's Changed:
+>* Remove experimental annotation on setFormatAsInteger by @serenibyss in https://github.com/GTNewHorizons/ModularUI2/pull/68 (2.3.13-1.7.10)
+>* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/69 (2.3.13-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/66 (2.3.12-1.7.10)
 >* fluid display widget by @Spicierspace153 in https://github.com/GTNewHorizons/ModularUI2/pull/64 (2.3.11-1.7.10)
 >* make itemWidget resizeable!! by @Spicierspace153 in https://github.com/GTNewHorizons/ModularUI2/pull/65 (2.3.11-1.7.10)

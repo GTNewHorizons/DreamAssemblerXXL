@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-12T03:55:15.322229",
+  "last_updated": "2025-11-13T03:58:30.122796",
   "config": "2.9.0-nightly-2025-11-07",
   "github_mods": {
     "AdventureBackpack2": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.4",
+      "version": "0.8.6",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.12-1.7.10",
+      "version": "2.3.13-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
