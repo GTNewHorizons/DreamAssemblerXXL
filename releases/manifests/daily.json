@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-14T03:55:58.091574",
-  "config": "2.9.0-nightly-2025-11-13",
+  "last_updated": "2025-11-14T11:13:49.772347",
+  "config": "2.9.0-nightly-2025-11-14",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.1-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-741-GTNH",
+      "version": "rv3-beta-742-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.105",
+      "version": "5.09.52.106",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.50",
+      "version": "2.8.51",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.9.8",
+      "version": "1.9.9",
       "side": "BOTH"
     },
     "WailaHarvestability": {

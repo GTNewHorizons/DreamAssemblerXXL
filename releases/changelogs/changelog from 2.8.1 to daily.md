@@ -70,10 +70,12 @@ Mod is client-side only.
 >* Allow overriding of blend function in batching font renderer by @SuperSoupr in https://github.com/GTNewHorizons/Angelica/pull/1075 (1.0.0-beta63)
 >* Quick fix PBR Resourcepack loader error by @ABKQPO in https://github.com/GTNewHorizons/Angelica/pull/1043 (1.0.0-beta63)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-741-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-741-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-742-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-742-GTNH
 
 ## What's Changed:
+>* Add Additional Fuzzy Card Breakpoints for 10% and 1% by @Litten95 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/923 (rv3-beta-742-GTNH)
+>* fix cell restriction math by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/917 (rv3-beta-742-GTNH)
 >* Add a describe tooltips for cpu allow crafting request from where by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/921 (rv3-beta-741-GTNH)
 >* Fix sticky inventories break priority loop by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/915 (rv3-beta-741-GTNH)
 >* Add more info to error log by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/919 (rv3-beta-741-GTNH)
@@ -319,10 +321,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.105
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.105
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.106
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.106
 
 ## What's Changed:
+>* [MUI2] Cleanroom MUI by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5333 (5.09.52.106)
+>* [MUI2] Port LSC to MUI2  by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5332 (5.09.52.106)
 >* Add Lore text to material builder by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5210 (5.09.52.105)
 >* Fix fused quartz glass tiering by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5279 (5.09.52.105)
 >* [MUI2] port MTELargeFluidExtractor to MUI2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5277 (5.09.52.105)
@@ -829,10 +833,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.262 --> 2.8.50
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.262...2.8.50
+# Updated - NewHorizonsCoreMod - 2.7.262 --> 2.8.51
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.262...2.8.51
 
 ## What's Changed:
+>* Remove SL Crafting For Thauminite Block by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1463 (2.8.51)
 >* Resolve 4 recipe conflicts by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1457 (2.8.50)
 >* Fix inconsistent null catalyst recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1458 (2.8.50)
 >* Drop bad compareTo in commands and very light refactoring by @wlhlm in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1413 (2.8.50)
@@ -1172,10 +1177,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Swap to GTBlockOre by @RecursivePineapple in https://github.com/GTNewHorizons/nei-custom-diagram/pull/52 (1.8.3)
 >* add server support for tank and chest by @fengluo2 in https://github.com/GTNewHorizons/nei-custom-diagram/pull/51 (1.8.0)
 
-# Updated - waila - 1.8.15 --> 1.9.8
-**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.15...1.9.8
+# Updated - waila - 1.8.15 --> 1.9.9
+**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.15...1.9.9
 
 ## What's Changed:
+>* Clarify IWailaVariableWidthTooltipRenderer.getSize's documentation by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/53 (1.9.9)
 >* Add gradient to fluid bar to improve visibility by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/49 (1.9.8)
 >* fix loader check by @felixfour in https://github.com/GTNewHorizons/waila/pull/45 (1.9.8)
 >* Rename hasAdvancedBody to hasWailaAdvancedBody by @Worive in https://github.com/GTNewHorizons/waila/pull/48 (1.9.7)
