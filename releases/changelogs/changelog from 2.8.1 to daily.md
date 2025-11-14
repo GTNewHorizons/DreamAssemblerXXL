@@ -70,10 +70,11 @@ Mod is client-side only.
 >* Allow overriding of blend function in batching font renderer by @SuperSoupr in https://github.com/GTNewHorizons/Angelica/pull/1075 (1.0.0-beta63)
 >* Quick fix PBR Resourcepack loader error by @ABKQPO in https://github.com/GTNewHorizons/Angelica/pull/1043 (1.0.0-beta63)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-742-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-742-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-744-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-744-GTNH
 
 ## What's Changed:
+>* Fix NPE by @RecursivePineapple in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/924 (rv3-beta-744-GTNH)
 >* Add Additional Fuzzy Card Breakpoints for 10% and 1% by @Litten95 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/923 (rv3-beta-742-GTNH)
 >* fix cell restriction math by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/917 (rv3-beta-742-GTNH)
 >* Add a describe tooltips for cpu allow crafting request from where by @MCTBL in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/921 (rv3-beta-741-GTNH)
@@ -177,6 +178,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 >* Update NEI Catalyst by @slprime in https://github.com/GTNewHorizons/BlockRenderer6343/pull/36 (1.4.2)
+
+# Updated - BloodArsenal - 1.4.10 --> 1.5.0
+**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.4.10...1.5.0
+
+## What's Changed:
+>* Fix overenchanting by @Caedis in https://github.com/GTNewHorizons/BloodArsenal/pull/36 (1.5.0)
+>* Revert "Fix overenchanting (#36)" by @koolkrafter5 in https://github.com/GTNewHorizons/BloodArsenal/pull/37 (1.5.0)
 
 # Updated - BloodMagic - 1.7.52 --> 1.8.5
 **Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.52...1.8.5
@@ -321,10 +329,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.106
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.106
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.109
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.109
 
 ## What's Changed:
+>* Revert #5339 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5340 (5.09.52.109)
+>* [MUI2] Change PanelGap height to make it looks like MUI1-Machines by @SST-03 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5337 (5.09.52.108)
+>* Change NEI Tab To BBF From PBF by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5338 (5.09.52.108)
+>* Adds Missing Energy Hatch Limit Info to HILE TT by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5339 (5.09.52.108)
 >* [MUI2] Cleanroom MUI by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5333 (5.09.52.106)
 >* [MUI2] Port LSC to MUI2  by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5332 (5.09.52.106)
 >* Add Lore text to material builder by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5210 (5.09.52.105)
@@ -653,10 +665,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* [Dev Feature] Auto Shader Reload by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/177 (0.7.3)
 >* Fix memory leaks when creating shaders by @cazmusw in https://github.com/GTNewHorizons/GTNHLib/pull/168 (0.7.1)
 
-# Updated - Gadomancy - 1.4.7 --> 1.5.0
-**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.7...1.5.0
+# Updated - Gadomancy - 1.4.7 --> 1.5.2
+**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.7...1.5.2
 
 ## What's Changed:
+>* Don't assign an id of 0 to a potion by @DarkShadow44 in https://github.com/GTNewHorizons/Gadomancy/pull/42 (1.5.2)
 >* Transfer ASM to Mixins by @Alexdoru in https://github.com/GTNewHorizons/Gadomancy/pull/41 (1.5.0)
 
 # Updated - Galacticraft - 3.3.12-GTNH --> 3.4.7-GTNH
@@ -734,10 +747,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add server controlled toggle for refilling by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/134 (1.3.1-GTNH)
 >* Split inside gui and outside gui sort keys by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/139 (1.3.0-GTNH)
 
-# Updated - Jabba - 1.5.10 --> 1.5.13
-**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.10...1.5.13
+# Updated - Jabba - 1.5.10 --> 1.5.16
+**Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.10...1.5.16
 
 ## What's Changed:
+>* Integrate with new item moving system by @RecursivePineapple in https://github.com/GTNewHorizons/Jabba/pull/47 (1.5.16)
 >* Allow compressed (and infinity) chests to be dollied. by @tomprince in https://github.com/GTNewHorizons/Jabba/pull/46 (1.5.13)
 >* Add Binnie's Mods Compartments Support to Dolly by @MuXiu1997 in https://github.com/GTNewHorizons/Jabba/pull/45 (1.5.13)
 
@@ -1014,10 +1028,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - StorageDrawers - 2.1.9-GTNH --> 2.2.1-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.9-GTNH...2.2.1-GTNH
+# Updated - StorageDrawers - 2.1.9-GTNH --> 2.2.3-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.9-GTNH...2.2.3-GTNH
 
 ## What's Changed:
+>* Integrate with item transferring API by @RecursivePineapple in https://github.com/GTNewHorizons/StorageDrawers/pull/52 (2.2.3-GTNH)
 >* Revert right-click interaction with items in the offhand (Backhand) by @mM4ri in https://github.com/GTNewHorizons/StorageDrawers/pull/51 (2.2.1-GTNH)
 >* Add Backhand Support for Storage Drawers by @mM4ri in https://github.com/GTNewHorizons/StorageDrawers/pull/47 (2.2.0-GTNH)
 
@@ -1032,10 +1047,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - ThaumicBases - 1.8.13 --> 1.9.2
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.8.13...1.9.2
+# Updated - ThaumicBases - 1.8.13 --> 1.9.5
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.8.13...1.9.5
 
 ## What's Changed:
+>* Allow Saplings on Nether/End Blocks by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBases/pull/53 (1.9.5)
 >* Fix leaves showing wrong name in waila by @serenibyss in https://github.com/GTNewHorizons/ThaumicBases/pull/58 (1.9.2)
 >* Cap enchantment level to max+1 by @Caedis in https://github.com/GTNewHorizons/ThaumicBases/pull/56 (1.9.0)
 >* Revert "Cap enchantment level to max+1 (#56)" by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBases/pull/57 (1.9.0)
