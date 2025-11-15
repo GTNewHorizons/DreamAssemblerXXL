@@ -3,10 +3,12 @@
 > * VendingMachine
 # Mods Removed: 
 > * AE2NoUltimatePatterns
-# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.5.23-gtnh-pre
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.5.23-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.5.25-gtnh-pre
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.5.25-gtnh-pre
 
 ## What's Changed:
+>* Fix Certus Quartz fluid flickering and sometimes rendering an incorrect amount of fluid, optimize packet sending and ticking by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/348 (1.5.24-gtnh)
+>* Support for GT large cell interactions with certus quartz tanks by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/358 (1.5.24-gtnh)
 >* Large cells interaction with tanks by @Dream-Master in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/363 (1.5.23-gtnh-pre)
 >* Certus quartz tank drain from above by @Dream-Master in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/364 (1.5.23-gtnh-pre)
 >* certus quartz tank item rendering improvements by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/355 (1.5.22-gtnh)
@@ -79,10 +81,11 @@ Mod is client-side only.
 >* Allow overriding of blend function in batching font renderer by @SuperSoupr in https://github.com/GTNewHorizons/Angelica/pull/1075 (1.0.0-beta63)
 >* Quick fix PBR Resourcepack loader error by @ABKQPO in https://github.com/GTNewHorizons/Angelica/pull/1043 (1.0.0-beta63)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-745-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-745-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-747-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-747-GTNH-pre
 
 ## What's Changed:
+>* Optimize p2p updates by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/914 (rv3-beta-746-GTNH)
 >* Fix NPE by @RecursivePineapple in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/924 (rv3-beta-745-GTNH-pre)
 >* Fix NPE by @RecursivePineapple in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/924 (rv3-beta-744-GTNH)
 >* Add Additional Fuzzy Card Breakpoints for 10% and 1% by @Litten95 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/923 (rv3-beta-742-GTNH)
@@ -170,10 +173,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - BetterP2P - 1.3.3 --> 1.4.2
-**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.3.3...1.4.2
+# Updated - BetterP2P - 1.3.3 --> 1.4.3
+**Full Changelog**: https://github.com/GTNewHorizons/BetterP2P/compare/1.3.3...1.4.3
 
 ## What's Changed:
+>* Fix class checks by @hiroscho in https://github.com/GTNewHorizons/BetterP2P/pull/41 (1.4.3)
 >* Fix/various p2p binding issues by @hiroscho in https://github.com/GTNewHorizons/BetterP2P/pull/39 (1.4.2)
 >* Fix issues when changing p2p type that involves conversion by @hiroscho in https://github.com/GTNewHorizons/BetterP2P/pull/40 (1.4.2)
 >* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
@@ -365,10 +369,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.110-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.110-pre
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.112-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.112-pre
 
 ## What's Changed:
+>* HTGR: Fix output mode by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5342 (5.09.52.112-pre)
+>* [MUI2] port LMA to mui2 by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5343 (5.09.52.112-pre)
+>* Fix Bolt Texture by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5346 (5.09.52.112-pre)
+>* HTGR: Fix output mode by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5342 (5.09.52.111)
+>* [MUI2] port LMA to mui2 by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5343 (5.09.52.111)
+>* Fix Bolt Texture by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5346 (5.09.52.111)
 >* Change NEI Tab To BBF From PBF by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5338 (5.09.52.110-pre)
 >* Adds Missing Energy Hatch Limit Info to HILE TT by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5339 (5.09.52.110-pre)
 >* Revert #5339 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5340 (5.09.52.110-pre)
@@ -856,10 +866,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* bandaid fix for chunk loading lag by @Glease in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/32 (1.13.0-GTNH)
 
-# Updated - Hodgepodge - 2.6.110 --> 2.7.13
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.110...2.7.13
+# Updated - Hodgepodge - 2.6.110 --> 2.7.15
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.110...2.7.15
 
 ## What's Changed:
+>* Disable the varargs dissector transformer by @RecursivePineapple in https://github.com/GTNewHorizons/Hodgepodge/pull/661 (2.7.15)
+>* Disable the varargs dissector transformer by @RecursivePineapple in https://github.com/GTNewHorizons/Hodgepodge/pull/661 (2.7.14)
 >* Deprecate IPatchedTextureAtlasSprite by @sisyphussy in https://github.com/GTNewHorizons/Hodgepodge/pull/656 (2.7.13)
 >* [Client Only] Add F3+Q and tips for F3+ by @SST-03 in https://github.com/GTNewHorizons/Hodgepodge/pull/658 (2.7.13)
 >* ASM Housekeeping by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/601 (2.7.13)
@@ -965,6 +977,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Add hint text for Tempus by @koolkrafter5 in https://github.com/GTNewHorizons/MagicBees/pull/57 (2.10.3-GTNH-pre)
 >* Add hint text for Tempus by @koolkrafter5 in https://github.com/GTNewHorizons/MagicBees/pull/57 (2.10.2-GTNH)
+
+# Updated - MalisisDoors - 1.18.2-GTNH --> 1.19.0-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MalisisDoors/compare/1.18.2-GTNH...1.19.0-GTNH
+
+## What's Changed:
+>* Small thread-safety fix to prevent certain NullPointers by @Cleptomania in https://github.com/GTNewHorizons/MalisisDoors/pull/23 (1.19.0-GTNH)
 
 # Updated - MatterManipulator - 0.0.51-GTNH --> 0.1.3-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.51-GTNH...0.1.3-GTNH
@@ -1340,10 +1358,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.21-pre
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.21-pre
+# New Mod - VendingMachine:0.4.23-pre
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.23-pre
 
 ## What's Changed:
+>* Fix trade limit by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/40 (0.4.23-pre)
+>* Fix trade limit by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/40 (0.4.22)
 >* Fixed coin names by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/39 (0.4.19)
 >* Made uplink texture update correctly when powered by ME system by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/35 (0.4.18)
 >* Ignore trade nbt by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/34 (0.4.18)
@@ -1436,10 +1456,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Swap to GTBlockOre by @RecursivePineapple in https://github.com/GTNewHorizons/nei-custom-diagram/pull/52 (1.8.3)
 >* add server support for tank and chest by @fengluo2 in https://github.com/GTNewHorizons/nei-custom-diagram/pull/51 (1.8.0)
 
-# Updated - waila - 1.8.15 --> 1.9.10-pre
-**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.15...1.9.10-pre
+# Updated - waila - 1.8.15 --> 1.9.13-pre
+**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.15...1.9.13-pre
 
 ## What's Changed:
+>* add a note about forking the repo in README.md by @danyadev in https://github.com/GTNewHorizons/waila/pull/52 (1.9.11)
 >* Waila plugins compat by @Dream-Master in https://github.com/GTNewHorizons/waila/pull/56 (1.9.10-pre)
 >* Clarify IWailaVariableWidthTooltipRenderer.getSize's documentation by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/53 (1.9.9)
 >* Add gradient to fluid bar to improve visibility by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/49 (1.9.8)
