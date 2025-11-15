@@ -1,7 +1,7 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-11-14T22:49:34.489101",
+  "last_updated": "2025-11-15T12:56:29.625921",
   "config": "2.9.0-nightly-2025-11-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.23-gtnh-pre",
+      "version": "1.5.25-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-745-GTNH-pre",
+      "version": "rv3-beta-747-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -65,7 +65,7 @@
       "side": "CLIENT"
     },
     "BetterP2P": {
-      "version": "1.4.2",
+      "version": "1.4.3",
       "side": "BOTH"
     },
     "BetterQuesting": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.110-pre",
+      "version": "5.09.52.112-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.13",
+      "version": "2.7.15",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -309,7 +309,7 @@
       "side": "BOTH"
     },
     "MalisisDoors": {
-      "version": "1.18.2-GTNH",
+      "version": "1.19.0-GTNH",
       "side": "BOTH"
     },
     "Mantle": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.9.10-pre",
+      "version": "1.9.13-pre",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.21-pre",
+      "version": "0.4.23-pre",
       "side": "BOTH"
     }
   },
