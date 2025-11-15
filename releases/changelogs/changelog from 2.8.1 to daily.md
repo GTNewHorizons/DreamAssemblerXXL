@@ -693,10 +693,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* bandaid fix for chunk loading lag by @Glease in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/32 (1.13.0-GTNH)
 
-# Updated - Hodgepodge - 2.6.110 --> 2.7.13
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.110...2.7.13
+# Updated - Hodgepodge - 2.6.110 --> 2.7.14
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.110...2.7.14
 
 ## What's Changed:
+>* Disable the varargs dissector transformer by @RecursivePineapple in https://github.com/GTNewHorizons/Hodgepodge/pull/661 (2.7.14)
 >* Deprecate IPatchedTextureAtlasSprite by @sisyphussy in https://github.com/GTNewHorizons/Hodgepodge/pull/656 (2.7.13)
 >* [Client Only] Add F3+Q and tips for F3+ by @SST-03 in https://github.com/GTNewHorizons/Hodgepodge/pull/658 (2.7.13)
 >* ASM Housekeeping by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/601 (2.7.13)
