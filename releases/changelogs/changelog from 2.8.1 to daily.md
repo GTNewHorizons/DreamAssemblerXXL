@@ -333,10 +333,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.111
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.111
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.113
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.113
 
 ## What's Changed:
+>* fix diatomite formula by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5348 (5.09.52.113)
+>* More acid recipes in acid generator added by @loenaaaa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5269 (5.09.52.113)
+>* fix stocking hatches UI not showing up by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5349 (5.09.52.113)
+>* fix steam input bus gui having 1 slot  by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5350 (5.09.52.113)
+>* fix MUI LSC by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5352 (5.09.52.113)
+>* [MUI2] add overridiable textbox gap by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5353 (5.09.52.113)
 >* HTGR: Fix output mode by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5342 (5.09.52.111)
 >* [MUI2] port LMA to mui2 by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5343 (5.09.52.111)
 >* Fix Bolt Texture by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5346 (5.09.52.111)
@@ -700,10 +706,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* bandaid fix for chunk loading lag by @Glease in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/32 (1.13.0-GTNH)
 
-# Updated - Hodgepodge - 2.6.110 --> 2.7.15
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.110...2.7.15
+# Updated - Hodgepodge - 2.6.110 --> 2.7.16
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.110...2.7.16
 
 ## What's Changed:
+>* fix obfuscation for VarargDissector by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/663 (2.7.16)
 >* Disable the varargs dissector transformer by @RecursivePineapple in https://github.com/GTNewHorizons/Hodgepodge/pull/661 (2.7.15)
 >* Disable the varargs dissector transformer by @RecursivePineapple in https://github.com/GTNewHorizons/Hodgepodge/pull/661 (2.7.14)
 >* Deprecate IPatchedTextureAtlasSprite by @sisyphussy in https://github.com/GTNewHorizons/Hodgepodge/pull/656 (2.7.13)
@@ -824,6 +831,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix Backpack slot usage tooltip allways displaying 0/0 by @Worive in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/16 (2.6.3-GTNH)
 >* Find Rectangular Layouts by @koolkrafter5 in https://github.com/GTNewHorizons/Minecraft-Backpack-Mod/pull/19 (2.6.0-GTNH)
 
+# Updated - Mobs-Info - 0.5.6-GTNH --> 0.5.7-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Mobs-Info/compare/0.5.6-GTNH...0.5.7-GTNH
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - ModularUI - 1.2.20 --> 1.3.0
 **Full Changelog**: https://github.com/GTNewHorizons/ModularUI/compare/1.2.20...1.3.0
 
