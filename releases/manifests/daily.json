@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-16T04:00:45.056741",
+  "last_updated": "2025-11-16T15:37:37.382440",
   "config": "2.9.0-nightly-2025-11-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.24-gtnh",
+      "version": "1.5.26-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -101,7 +101,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.45",
+      "version": "7.1.47",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.113",
+      "version": "5.09.52.115",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.6",
+      "version": "0.8.8",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.16",
+      "version": "2.7.17",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.51",
+      "version": "2.8.53",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.37-GTNH",
+      "version": "2.8.39-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.9.11",
+      "version": "1.9.14",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.22",
+      "version": "0.4.24",
       "side": "BOTH"
     }
   },
