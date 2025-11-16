@@ -3,10 +3,11 @@
 > * VendingMachine
 # Mods Removed: 
 > * AE2NoUltimatePatterns
-# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.5.24-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.5.24-gtnh
+# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.5.26-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.5.26-gtnh
 
 ## What's Changed:
+>* support comparators for Certus Quartz Tank by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/349 (1.5.26-gtnh)
 >* Fix Certus Quartz fluid flickering and sometimes rendering an incorrect amount of fluid, optimize packet sending and ticking by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/348 (1.5.24-gtnh)
 >* Support for GT large cell interactions with certus quartz tanks by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/358 (1.5.24-gtnh)
 >* certus quartz tank item rendering improvements by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/355 (1.5.22-gtnh)
@@ -218,11 +219,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Feature: updated wrench textures by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/43 (1.12.0-GTNH)
 >* Feature: Use the center mana pool as an additional mana source. by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/42 (1.12.0-GTNH)
 
-# Updated - BuildCraft - 7.1.44 --> 7.1.45
-**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.44...7.1.45
+# Updated - BuildCraft - 7.1.44 --> 7.1.47
+**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.44...7.1.47
 
 ## What's Changed:
-DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+>* Fixes BC Tank Interaction with All Cell Types by @UltraProdigy in https://github.com/GTNewHorizons/BuildCraft/pull/24 (7.1.47)
+
 # Updated - Chisel - 2.16.14-GTNH --> 2.17.5-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.16.14-GTNH...2.17.5-GTNH
 
@@ -333,10 +335,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.113
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.113
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.115
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.115
 
 ## What's Changed:
+>* Implement new waila advancedBody API methods by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5189 (5.09.52.115)
+>* undeprecate bucket fluid unit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5360 (5.09.52.115)
+>* fix MUI2 recipe info widget spacing and size by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5355 (5.09.52.114)
+>* improve HTGR tooltip by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5356 (5.09.52.114)
 >* fix diatomite formula by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5348 (5.09.52.113)
 >* More acid recipes in acid generator added by @loenaaaa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5269 (5.09.52.113)
 >* fix stocking hatches UI not showing up by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5349 (5.09.52.113)
@@ -658,10 +664,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.0 --> 0.8.6
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.6
+# Updated - GTNHLib - 0.7.0 --> 0.8.8
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.8
 
 ## What's Changed:
+>* More item moving fixes by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/200 (0.8.8)
+>* Remove redundant glClientActiveTexture calls by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/183 (0.8.8)
 >* Add BakedModelBuilder + Normal helper methods by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/175 (0.8.6)
 >* Add ability to dynamically control block sounds by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/195 (0.8.6)
 >* Add post-processing + VAO methods by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/186 (0.8.6)
@@ -706,10 +714,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* bandaid fix for chunk loading lag by @Glease in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/32 (1.13.0-GTNH)
 
-# Updated - Hodgepodge - 2.6.110 --> 2.7.16
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.110...2.7.16
+# Updated - Hodgepodge - 2.6.110 --> 2.7.17
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.110...2.7.17
 
 ## What's Changed:
+>* [Client Only] Add F3+D (Clear Chat) by @SST-03 in https://github.com/GTNewHorizons/Hodgepodge/pull/664 (2.7.17)
+>* Fix problems with Travellers Gear item recovery on servers by @koolkrafter5 in https://github.com/GTNewHorizons/Hodgepodge/pull/665 (2.7.17)
+>* Fix crash without NEI by @MalTeeez in https://github.com/GTNewHorizons/Hodgepodge/pull/662 (2.7.17)
 >* fix obfuscation for VarargDissector by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/663 (2.7.16)
 >* Disable the varargs dissector transformer by @RecursivePineapple in https://github.com/GTNewHorizons/Hodgepodge/pull/661 (2.7.15)
 >* Disable the varargs dissector transformer by @RecursivePineapple in https://github.com/GTNewHorizons/Hodgepodge/pull/661 (2.7.14)
@@ -874,10 +885,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.262 --> 2.8.51
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.262...2.8.51
+# Updated - NewHorizonsCoreMod - 2.7.262 --> 2.8.53
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.262...2.8.53
 
 ## What's Changed:
+>* Stop trying to run the script without the mods neccessary by @Ethryan in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1464 (2.8.53)
 >* Remove SL Crafting For Thauminite Block by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1463 (2.8.51)
 >* Resolve 4 recipe conflicts by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1457 (2.8.50)
 >* Fix inconsistent null catalyst recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1458 (2.8.50)
@@ -941,10 +953,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add plank recipes for stripped logs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1391 (2.8.0)
 >* Fix circuits in some AL recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1392 (2.8.0)
 
-# Updated - NotEnoughItems - 2.8.19-GTNH --> 2.8.37-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.19-GTNH...2.8.37-GTNH
+# Updated - NotEnoughItems - 2.8.19-GTNH --> 2.8.39-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.19-GTNH...2.8.39-GTNH
 
 ## What's Changed:
+>* Normalize Fluid Packet by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/811 (2.8.39-GTNH)
 >* Optimizing cross-dimension loading by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/806 (2.8.37-GTNH)
 >* Correctly collapse recipe by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/807 (2.8.37-GTNH)
 >* Add Tooltip for debug option by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/805 (2.8.37-GTNH)
@@ -1137,10 +1150,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.22
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.22
+# New Mod - VendingMachine:0.4.24
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.24
 
 ## What's Changed:
+>* Added coin add, set and reset commands. by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/38 (0.4.24)
 >* Fix trade limit by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/40 (0.4.22)
 >* Fixed coin names by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/39 (0.4.19)
 >* Made uplink texture update correctly when powered by ME system by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/35 (0.4.18)
@@ -1221,10 +1235,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Swap to GTBlockOre by @RecursivePineapple in https://github.com/GTNewHorizons/nei-custom-diagram/pull/52 (1.8.3)
 >* add server support for tank and chest by @fengluo2 in https://github.com/GTNewHorizons/nei-custom-diagram/pull/51 (1.8.0)
 
-# Updated - waila - 1.8.15 --> 1.9.11
-**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.15...1.9.11
+# Updated - waila - 1.8.15 --> 1.9.14
+**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.15...1.9.14
 
 ## What's Changed:
+>* WailaPlugins compat by @danyadev in https://github.com/GTNewHorizons/waila/pull/54 (1.9.14)
 >* add a note about forking the repo in README.md by @danyadev in https://github.com/GTNewHorizons/waila/pull/52 (1.9.11)
 >* Clarify IWailaVariableWidthTooltipRenderer.getSize's documentation by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/53 (1.9.9)
 >* Add gradient to fluid bar to improve visibility by @SuperSoupr in https://github.com/GTNewHorizons/waila/pull/49 (1.9.8)
