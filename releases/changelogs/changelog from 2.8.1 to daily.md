@@ -335,10 +335,19 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.115
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.115
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.116
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.116
 
 ## What's Changed:
+>* Update Coke Oven Textures by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5362 (5.09.52.116)
+>* fix bug with item nbt not persisting somehow someway by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5363 (5.09.52.116)
+>* [MUI2] port MTEHatchNbtConsumable to MUI2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5366 (5.09.52.116)
+>* Fix focus input bus inserting by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5368 (5.09.52.116)
+>* Do Not Enable Coke Oven Every 20t and Display Structure Warning by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5369 (5.09.52.116)
+>* Prevent Draining from Coke Oven Controller by @Vlamonster in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5370 (5.09.52.116)
+>* Move nefarious fuels registration from recipes to Materials builder by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5364 (5.09.52.116)
+>* make catalyst housing use 256 slots by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5371 (5.09.52.116)
+>* Add Space Hazard by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5322 (5.09.52.116)
 >* Implement new waila advancedBody API methods by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5189 (5.09.52.115)
 >* undeprecate bucket fluid unit by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5360 (5.09.52.115)
 >* fix MUI2 recipe info widget spacing and size by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5355 (5.09.52.114)
