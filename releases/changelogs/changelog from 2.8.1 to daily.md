@@ -340,10 +340,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.118
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.118
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.119
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.119
 
 ## What's Changed:
+>* Item moving improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5388 (5.09.52.119)
 >* fix recycling for solar boilers by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5379 (5.09.52.118)
 >* Buildscript v2 by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5383 (5.09.52.118)
 >* Trigger GT achievements on pickup by @Florexiz in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5384 (5.09.52.118)
@@ -686,10 +687,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.0 --> 0.8.9
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.9
+# Updated - GTNHLib - 0.7.0 --> 0.8.12
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.12
 
 ## What's Changed:
+>* Re-add IItemDuct support (includes EIO and BC) by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/204 (0.8.12)
+>* add some fixes for the Universe Shader textures and some more hooks by @chrombread in https://github.com/GTNewHorizons/GTNHLib/pull/209 (0.8.12)
+>* ports cosmicrender from avaritia to gtnhlib by @chrombread in https://github.com/GTNewHorizons/GTNHLib/pull/205 (0.8.11)
+>* Add config to disable block sound mixins by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/203 (0.8.10)
 >* More item moving fixes by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/202 (0.8.9)
 >* More item moving fixes by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/200 (0.8.8)
 >* Remove redundant glClientActiveTexture calls by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/183 (0.8.8)
@@ -915,10 +920,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.262 --> 2.8.54
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.262...2.8.54
+# Updated - NewHorizonsCoreMod - 2.7.262 --> 2.8.55
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.262...2.8.55
 
 ## What's Changed:
+>* Add RC Coke Oven Recycling Recipe and Use GT Coke Oven Casing in Extraction Recipe by @Vlamonster in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1470 (2.8.55)
+>* Fix recycling recipes for coke oven bricks by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1471 (2.8.55)
 >* Script clean up by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1466 (2.8.54)
 >* Resolve 12 more recipe conflicts by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1467 (2.8.54)
 >* AE L.A.T.E.X. Recipes by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1468 (2.8.54)
@@ -1162,10 +1169,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 # Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.29
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TinkersConstruct - 1.13.56-GTNH --> 1.14.10-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.56-GTNH...1.14.10-GTNH
+# Updated - TinkersConstruct - 1.13.56-GTNH --> 1.14.12-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.56-GTNH...1.14.12-GTNH
 
 ## What's Changed:
+>* Add config option to disable redstone activation for the faucet by @brandyyn in https://github.com/GTNewHorizons/TinkersConstruct/pull/227 (1.14.12-GTNH)
+>* Fix: Prevent broken tools from being able to create EFR stripped logs or dirt paths by @Kynake in https://github.com/GTNewHorizons/TinkersConstruct/pull/226 (1.14.12-GTNH)
 >* Fix shurikens, throwing knives, and javelins fitting in the quiver bauble slot by @koolkrafter5 in https://github.com/GTNewHorizons/TinkersConstruct/pull/225 (1.14.10-GTNH)
 >* Update ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/TinkersConstruct/pull/221 (1.14.6-GTNH)
 >* Add additional drawing method for inventory tabs by @wlhlm in https://github.com/GTNewHorizons/TinkersConstruct/pull/217 (1.14.4-GTNH)
