@@ -340,10 +340,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.119
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.119
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.120
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.120
 
 ## What's Changed:
+>* Restore hiding of ULV by @cubefury in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5390 (5.09.52.120)
+>* dont make gt++ recycling recipes with too few inputs by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5393 (5.09.52.120)
 >* Item moving improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5388 (5.09.52.119)
 >* fix recycling for solar boilers by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5379 (5.09.52.118)
 >* Buildscript v2 by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5383 (5.09.52.118)
@@ -1109,10 +1111,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - StorageDrawers - 2.1.9-GTNH --> 2.2.3-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.9-GTNH...2.2.3-GTNH
+# Updated - StorageDrawers - 2.1.9-GTNH --> 2.2.4-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.9-GTNH...2.2.4-GTNH
 
 ## What's Changed:
+>* Fix conveyors dropping items from creative drawers by @RecursivePineapple in https://github.com/GTNewHorizons/StorageDrawers/pull/53 (2.2.4-GTNH)
 >* Integrate with item transferring API by @RecursivePineapple in https://github.com/GTNewHorizons/StorageDrawers/pull/52 (2.2.3-GTNH)
 >* Revert right-click interaction with items in the offhand (Backhand) by @mM4ri in https://github.com/GTNewHorizons/StorageDrawers/pull/51 (2.2.1-GTNH)
 >* Add Backhand Support for Storage Drawers by @mM4ri in https://github.com/GTNewHorizons/StorageDrawers/pull/47 (2.2.0-GTNH)
@@ -1193,10 +1196,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.24
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.24
+# New Mod - VendingMachine:0.4.25
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.25
 
 ## What's Changed:
+>* Fix tile data saving by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/42 (0.4.25)
 >* Added coin add, set and reset commands. by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/38 (0.4.24)
 >* Fix trade limit by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/40 (0.4.22)
 >* Fixed coin names by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/39 (0.4.19)

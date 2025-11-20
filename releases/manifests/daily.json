@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-20T03:53:49.138058",
-  "config": "2.9.0-nightly-2025-11-18",
+  "last_updated": "2025-11-20T16:17:52.247239",
+  "config": "2.9.0-nightly-2025-11-20",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.1-GTNH",
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.119",
+      "version": "5.09.52.120",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -469,7 +469,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.3-GTNH",
+      "version": "2.2.4-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.24",
+      "version": "0.4.25",
       "side": "BOTH"
     }
   },
