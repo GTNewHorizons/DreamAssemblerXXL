@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-21T03:54:01.578257",
-  "config": "2.9.0-nightly-2025-11-20",
+  "last_updated": "2025-11-22T03:48:40.465003",
+  "config": "2.9.0-nightly-2025-11-21",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.1-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-748-GTNH",
+      "version": "rv3-beta-749-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -209,7 +209,7 @@
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.5.2",
+      "version": "1.5.3",
       "side": "BOTH"
     },
     "Galacticraft": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.122-GTNH",
+      "version": "1.1.123-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.12",
+      "version": "0.8.13",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.7",
+      "version": "1.6.8",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -597,7 +597,7 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.4.0",
+      "version": "1.4.2",
       "side": "BOTH"
     },
     "WitchingGadgets": {

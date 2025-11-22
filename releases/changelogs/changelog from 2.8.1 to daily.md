@@ -73,10 +73,11 @@ Mod is client-side only.
 >* Allow overriding of blend function in batching font renderer by @SuperSoupr in https://github.com/GTNewHorizons/Angelica/pull/1075 (1.0.0-beta63)
 >* Quick fix PBR Resourcepack loader error by @ABKQPO in https://github.com/GTNewHorizons/Angelica/pull/1043 (1.0.0-beta63)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-748-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-748-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-749-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-749-GTNH
 
 ## What's Changed:
+>* fix empty storage list returned when ME interface is configured with something by @Glease in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/928 (rv3-beta-749-GTNH)
 >* Item moving fixes by @RecursivePineapple in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/932 (rv3-beta-748-GTNH)
 >* Have `AdaptorItemIO.removeItems` better reflect `simulateRemove` by @Engineer12798 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/931 (rv3-beta-748-GTNH)
 >* Fix mergeJob return wrong crafting link by @zyf051520 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/933 (rv3-beta-748-GTNH)
@@ -689,10 +690,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.0 --> 0.8.12
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.12
+# Updated - GTNHLib - 0.7.0 --> 0.8.13
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.13
 
 ## What's Changed:
+>* Fix VAO's by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/207 (0.8.13)
 >* Re-add IItemDuct support (includes EIO and BC) by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/204 (0.8.12)
 >* add some fixes for the Universe Shader textures and some more hooks by @chrombread in https://github.com/GTNewHorizons/GTNHLib/pull/209 (0.8.12)
 >* ports cosmicrender from avaritia to gtnhlib by @chrombread in https://github.com/GTNewHorizons/GTNHLib/pull/205 (0.8.11)
@@ -716,10 +718,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* [Dev Feature] Auto Shader Reload by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/177 (0.7.3)
 >* Fix memory leaks when creating shaders by @cazmusw in https://github.com/GTNewHorizons/GTNHLib/pull/168 (0.7.1)
 
-# Updated - Gadomancy - 1.4.7 --> 1.5.2
-**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.7...1.5.2
+# Updated - Gadomancy - 1.4.7 --> 1.5.3
+**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.7...1.5.3
 
 ## What's Changed:
+>* Fix crash with dragonapi by @Alexdoru in https://github.com/GTNewHorizons/Gadomancy/pull/43 (1.5.3)
 >* Don't assign an id of 0 to a potion by @DarkShadow44 in https://github.com/GTNewHorizons/Gadomancy/pull/42 (1.5.2)
 >* Transfer ASM to Mixins by @Alexdoru in https://github.com/GTNewHorizons/Gadomancy/pull/41 (1.5.0)
 
@@ -731,10 +734,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Remove duplicate parachute dyeing recipes by @KenzoWVY in https://github.com/GTNewHorizons/Galacticraft/pull/114 (3.4.4-GTNH)
 >* Changes for the GT ore refactor by @RecursivePineapple in https://github.com/GTNewHorizons/Galacticraft/pull/111 (3.4.2-GTNH)
 
-# Updated - Galaxy-Space-GTNH - 1.1.121-GTNH --> 1.1.122-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.121-GTNH...1.1.122-GTNH
+# Updated - Galaxy-Space-GTNH - 1.1.121-GTNH --> 1.1.123-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.121-GTNH...1.1.123-GTNH
 
 ## What's Changed:
+>* Replace NBT tag with SPACE Hazard by @RecursivePineapple in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/138 (1.1.123-GTNH)
 >* Check for GT5U specifically in compat code by @RecursivePineapple in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/136 (1.1.122-GTNH)
 >* Remove several unused items by @chochem in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/137 (1.1.122-GTNH)
 
@@ -818,10 +822,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Allow compressed (and infinity) chests to be dollied. by @tomprince in https://github.com/GTNewHorizons/Jabba/pull/46 (1.5.13)
 >* Add Binnie's Mods Compartments Support to Dolly by @MuXiu1997 in https://github.com/GTNewHorizons/Jabba/pull/45 (1.5.13)
 
-# Updated - LittleTiles - 1.5.14-GTNH --> 1.6.7
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.14-GTNH...1.6.7
+# Updated - LittleTiles - 1.5.14-GTNH --> 1.6.8
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.14-GTNH...1.6.8
 
 ## What's Changed:
+>* Don't place tiles with 0 triangles by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/36 (1.6.8)
+>* Add slope preview by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/37 (1.6.8)
 >* First slopes by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/35 (1.6.7)
 >* Allow chisel to block-pick materials by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/30 (1.6.4)
 >* Add block overlay renderer for chisel by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/31 (1.6.4)
@@ -1245,10 +1251,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Use fancy fluid tooltip renderer by @SuperSoupr in https://github.com/GTNewHorizons/WAILAPlugins/pull/21 (0.7.0)
 >* Delete extra utilities plugin by @SuperSoupr in https://github.com/GTNewHorizons/WAILAPlugins/pull/20 (0.7.0)
 
-# Updated - WitcheryExtras - 1.3.7 --> 1.4.0
-**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.3.7...1.4.0
+# Updated - WitcheryExtras - 1.3.7 --> 1.4.2
+**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.3.7...1.4.2
 
 ## What's Changed:
+>* Add Baubles compatibility for poppets and door keys by @Kynake in https://github.com/GTNewHorizons/WitcheryExtras/pull/30 (1.4.2)
 >* Rename WitcheryExtras -> witcheryextras by @Eldrinn-Elantey in https://github.com/GTNewHorizons/WitcheryExtras/pull/29 (1.4.0)
 
 # Updated - WitchingGadgets - 1.7.24-GTNH --> 1.8.8-GTNH
