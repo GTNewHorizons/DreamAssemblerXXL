@@ -341,10 +341,20 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.120
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.120
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.122
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.122
 
 ## What's Changed:
+>* Make HTGR centrifuge recipes multiblock only by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5407 (5.09.52.122)
+>* fix publishToMavenLocal gradle task by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5408 (5.09.52.122)
+>* Make getBaseMetaTileEntity final by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5398 (5.09.52.121)
+>* Add crafting recipes for most radioactive (long) rods in gt++ by @CN132DAS in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5389 (5.09.52.121)
+>* fix NPE with holo glasses and invalid patterns in MTEHatchCraftingInputME by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5399 (5.09.52.121)
+>* ghost circuit slot invert scrolling by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5400 (5.09.52.121)
+>* Added ability to make small dusts in packager by @loenaaaa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5289 (5.09.52.121)
+>* Remove BW IC2 recipes removal by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5392 (5.09.52.121)
+>* Update to latest MUI2 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5403 (5.09.52.121)
+>* fix ucfe casing limit by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5404 (5.09.52.121)
 >* Restore hiding of ULV by @cubefury in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5390 (5.09.52.120)
 >* dont make gt++ recycling recipes with too few inputs by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5393 (5.09.52.120)
 >* Item moving improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5388 (5.09.52.119)
@@ -896,10 +906,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.14-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.14-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.15-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.15-1.7.10
 
 ## What's Changed:
+>* Add on-close action to ModularPanel by @serenibyss in https://github.com/GTNewHorizons/ModularUI2/pull/71 (2.3.15-1.7.10)
 >* Add verify before executing by @RealSilverMoon in https://github.com/GTNewHorizons/ModularUI2/pull/70 (2.3.14-1.7.10)
 >* Remove experimental annotation on setFormatAsInteger by @serenibyss in https://github.com/GTNewHorizons/ModularUI2/pull/68 (2.3.13-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/69 (2.3.13-1.7.10)
@@ -1154,10 +1165,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add hint text for TB aspects by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBoots/pull/45 (1.5.2)
 >* Add glease' maven as required by tc4recipelib by @wlhlm in https://github.com/GTNewHorizons/ThaumicBoots/pull/43 (1.5.0)
 
-# Updated - ThaumicHorizons - 1.7.9 --> 1.8.9
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.9...1.8.9
+# Updated - ThaumicHorizons - 1.7.9 --> 1.8.10
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.9...1.8.10
 
 ## What's Changed:
+>* Synth Node now consumes the entire stack of essense instead of 1 by @Caedis in https://github.com/GTNewHorizons/ThaumicHorizons/pull/102 (1.8.10)
 >* Improved Dispenser Functionality by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicHorizons/pull/94 (1.8.9)
 >* Potion ID configs Added [Issue #97] by @Aerindor-of-Arcane in https://github.com/GTNewHorizons/ThaumicHorizons/pull/99 (1.8.9)
 >* Fix nullpointer crash when exploding Alchemite by @DarkShadow44 in https://github.com/GTNewHorizons/ThaumicHorizons/pull/100 (1.8.7)
@@ -1311,4 +1323,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @Aerindor-of-Arcane, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @ALongStringOfNumbers, @alppp, @arch1t3cht, @asukaonly, @Bjdufre1, @BlueWeabo, @boubou19, @Brabb3l, @brachy84, @brandyyn, @C-Remilian, @Caedis, @cambech, @captainjolt, @cazmusw, @chochem, @ChromaPIE, @chrombread, @Cleptomania, @combusterf, @cubefury, @czerwonogrodzki, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dragovorn, @Dream-Master, @Dredonkey, @DylanTaylor1, @eigenraven, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Engineer12798, @Ethryan, @evgengoldwar, @FabienChatton, @felixfour, @fengluo2, @Firenezz, @Florexiz, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hiroscho, @iouter, @Johnnycyan, @jordanamr, @jude123412, @JustACasualDay, @KenzoWVY, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @kuba6000, @Kynake, @lc-1337, @leagris, @Litten95, @loenaaaa, @LunarLambda, @lynxx131, @MalTeeez, @MCTBL, @MellowArpeggiation, @Miklebe, @mitchej123, @mM4ri, @MuXiu1997, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @nshark, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @Sopel97, @Spicierspace153, @SST-03, @Sunrunner37, @SuperSoupr, @TacoMagick, @Taskeren, @Teteros, @ThePixelbrain, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @Aerindor-of-Arcane, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @ALongStringOfNumbers, @alppp, @arch1t3cht, @asukaonly, @Bjdufre1, @BlueWeabo, @boubou19, @Brabb3l, @brachy84, @brandyyn, @C-Remilian, @Caedis, @cambech, @captainjolt, @cazmusw, @chochem, @ChromaPIE, @chrombread, @Cleptomania, @CN132DAS, @combusterf, @cubefury, @czerwonogrodzki, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dragovorn, @Dream-Master, @Dredonkey, @DylanTaylor1, @eigenraven, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Engineer12798, @Ethryan, @evgengoldwar, @FabienChatton, @felixfour, @fengluo2, @Firenezz, @Florexiz, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hiroscho, @iouter, @Johnnycyan, @jordanamr, @jude123412, @JustACasualDay, @KenzoWVY, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @kuba6000, @Kynake, @lc-1337, @leagris, @Litten95, @loenaaaa, @LunarLambda, @lynxx131, @MalTeeez, @MCTBL, @MellowArpeggiation, @Miklebe, @mitchej123, @mM4ri, @MuXiu1997, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @nshark, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @serenibyss, @sisyphussy, @SKProCH, @slprime, @Sopel97, @Spicierspace153, @SST-03, @Sunrunner37, @SuperSoupr, @TacoMagick, @Taskeren, @Teteros, @ThePixelbrain, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

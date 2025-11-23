@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-22T03:48:40.465003",
+  "last_updated": "2025-11-23T04:08:26.905614",
   "config": "2.9.0-nightly-2025-11-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.120",
+      "version": "5.09.52.122",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -517,7 +517,7 @@
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.8.9",
+      "version": "1.8.10",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.14-1.7.10",
+      "version": "2.3.15-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
