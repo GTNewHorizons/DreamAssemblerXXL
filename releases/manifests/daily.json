@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-23T04:08:26.905614",
+  "last_updated": "2025-11-24T04:07:59.150340",
   "config": "2.9.0-nightly-2025-11-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -173,7 +173,7 @@
       "side": "BOTH"
     },
     "EnderStorage": {
-      "version": "1.7.7",
+      "version": "1.8.0",
       "side": "BOTH"
     },
     "EnderZoo": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.122",
+      "version": "5.09.52.123",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.8.5",
+      "version": "1.8.6",
       "side": "BOTH"
     },
     "NEI-Integration": {
