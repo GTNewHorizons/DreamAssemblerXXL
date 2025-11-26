@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-25T03:58:39.401844",
-  "config": "2.9.0-nightly-2025-11-21",
+  "last_updated": "2025-11-26T03:58:58.297989",
+  "config": "2.9.0-nightly-2025-11-25",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.1-GTNH",
@@ -45,7 +45,7 @@
       "side": "BOTH"
     },
     "Avaritiaddons": {
-      "version": "1.9.1-GTNH",
+      "version": "1.9.2-GTNH",
       "side": "BOTH"
     },
     "bdlib": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.3",
+      "version": "2.10.5",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.124",
+      "version": "5.09.52.125",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.13",
+      "version": "0.8.14",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.17",
+      "version": "2.7.18",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.8",
+      "version": "1.6.9",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.39-GTNH",
+      "version": "2.8.40-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.8-GTNH",
+      "version": "1.8.11-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -617,7 +617,7 @@
       "side": "BOTH"
     },
     "ModularUI": {
-      "version": "1.3.0",
+      "version": "1.3.1",
       "side": "BOTH"
     },
     "TX-Loader": {
@@ -697,7 +697,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.7-GTNH",
+      "version": "0.5.8-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.25",
+      "version": "0.4.26",
       "side": "BOTH"
     }
   },
