@@ -171,10 +171,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix issues when changing p2p type that involves conversion by @hiroscho in https://github.com/GTNewHorizons/BetterP2P/pull/40 (1.4.2)
 >* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
 
-# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.12-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.12-GTNH
+# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.14-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.14-GTNH
 
 ## What's Changed:
+>* [Memory-opti:fix leak] Fix world leak in PlayerContainerListener by @Alexdoru in https://github.com/GTNewHorizons/BetterQuesting/pull/179 (3.8.14-GTNH)
 >* fix: on the server, the quest name in the notification is not localized. by @iouter in https://github.com/GTNewHorizons/BetterQuesting/pull/178 (3.8.12-GTNH)
 >* Change the theme name from "New Test" to "Semi-Transparent" by @Ranzuu in https://github.com/GTNewHorizons/BetterQuesting/pull/177 (3.8.10-GTNH)
 >* Vending integration by @cubefury in https://github.com/GTNewHorizons/BetterQuesting/pull/176 (3.8.8-GTNH)
@@ -354,10 +355,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.125
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.125
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.126
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.126
 
 ## What's Changed:
+>* [MUI2] Port Electric Auto Workbench to MUI2 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5424 (5.09.52.126)
+>* allow for overridability in base gui for NAC and foundry by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5426 (5.09.52.126)
+>* delete Sir Mixalot and improve GuiHandler.java by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5244 (5.09.52.126)
+>* Fix Industrial Coke Oven recipe by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5430 (5.09.52.126)
+>* [MUI2] Port Godforge modules to MUI2 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5423 (5.09.52.126)
 >* add eta meson in qft synchrotron catalyst by @mamiemru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5314 (5.09.52.125)
 >* Changed the color of rose gold by @seventh-june in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5394 (5.09.52.124)
 >* Update to latest MUI2 by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5421 (5.09.52.124)
@@ -730,10 +736,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.0 --> 0.8.14
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.14
+# Updated - GTNHLib - 0.7.0 --> 0.8.15
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.15
 
 ## What's Changed:
+>* Add basic itemblock JSON models renderer by @Shigure-Ruiseki in https://github.com/GTNewHorizons/GTNHLib/pull/211 (0.8.15)
 >* Move texture debug mixin to hodgepodge by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/210 (0.8.14)
 >* Fix VAO's by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/207 (0.8.13)
 >* Re-add IItemDuct support (includes EIO and BC) by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/204 (0.8.12)
@@ -887,10 +894,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add first gui to select chisel block by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/29 (1.6.2)
 >* Update MUI2 by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/32 (1.6.2)
 
-# Updated - LogisticsPipes - 1.4.24-GTNH --> 1.5.5-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.24-GTNH...1.5.5-GTNH
+# Updated - LogisticsPipes - 1.4.24-GTNH --> 1.5.7-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/LogisticsPipes/compare/1.4.24-GTNH...1.5.7-GTNH
 
 ## What's Changed:
+>* [Memory-opti:fix leak] Fix world leak in ServerPacketBufferHandlerThread by @Alexdoru in https://github.com/GTNewHorizons/LogisticsPipes/pull/111 (1.5.7-GTNH)
 >* fluid pipe fixes by @Glease in https://github.com/GTNewHorizons/LogisticsPipes/pull/109 (1.5.5-GTNH)
 >* Add the ability to copy the satelliteId by @Firenezz in https://github.com/GTNewHorizons/LogisticsPipes/pull/101 (1.5.5-GTNH)
 >* Fix lighting by @sisyphussy in https://github.com/GTNewHorizons/LogisticsPipes/pull/107 (1.5.2-GTNH)
@@ -1097,6 +1105,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Javadoc, Optimizations and Bugfixes by @guid118 in https://github.com/GTNewHorizons/Nuclear-Control/pull/33 (2.7.0)
 
+# Updated - Nutrition - 0.1.3 --> 0.1.4
+**Full Changelog**: https://github.com/GTNewHorizons/Nutrition/compare/0.1.3...0.1.4
+
+## What's Changed:
+>* [Memory-opti:fix leak] Fix world leak in PlayerDataHandler (0.1.4)
+
 # Updated - OpenBlocks - 1.11.7-GTNH --> 1.12.3-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.11.7-GTNH...1.12.3-GTNH
 
@@ -1187,6 +1201,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 >* Expose ability to iterate over structures by @RecursivePineapple in https://github.com/GTNewHorizons/StructureLib/pull/49 (1.4.24)
+
+# Updated - Super-TiC - 1.5.0 --> 1.5.4
+**Full Changelog**: https://github.com/GTNewHorizons/Super-TiC/compare/1.5.0...1.5.4
+
+## What's Changed:
+>* Fix Thaumic Augmentation by @chochem in https://github.com/GTNewHorizons/Super-TiC/pull/10 (1.5.4)
 
 # Updated - Tainted-Magic - 7.6.26-GTNH --> 7.7.0-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Tainted-Magic/compare/7.6.26-GTNH...7.7.0-GTNH
@@ -1369,4 +1389,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @3ricbae, @52871299hzy, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @Aerindor-of-Arcane, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @ALongStringOfNumbers, @alppp, @arch1t3cht, @asukaonly, @Auynonymous, @Bjdufre1, @BlueWeabo, @boubou19, @Brabb3l, @brachy84, @brandyyn, @C-Remilian, @Caedis, @cambech, @captainjolt, @cazmusw, @chochem, @ChromaPIE, @chrombread, @Cleptomania, @CN132DAS, @combusterf, @cubefury, @czerwonogrodzki, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dragovorn, @Dream-Master, @Dredonkey, @DylanTaylor1, @eigenraven, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Engineer12798, @Ethryan, @evgengoldwar, @FabienChatton, @felixfour, @fengluo2, @Firenezz, @Florexiz, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hiroscho, @iouter, @Johnnycyan, @jordanamr, @jude123412, @JustACasualDay, @KenzoWVY, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @kuba6000, @Kynake, @lc-1337, @leagris, @Litten95, @loenaaaa, @LunarLambda, @lynxx131, @MalTeeez, @mamiemru, @MCTBL, @MellowArpeggiation, @Miklebe, @mitchej123, @mM4ri, @MuXiu1997, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @nshark, @OmdaCZ, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @serenibyss, @seventh-june, @sisyphussy, @SKProCH, @slprime, @Sopel97, @Spicierspace153, @SST-03, @Sunrunner37, @SuperSoupr, @TacoMagick, @Taskeren, @Teteros, @ThePixelbrain, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @3ricbae, @52871299hzy, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @Aerindor-of-Arcane, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @ALongStringOfNumbers, @alppp, @arch1t3cht, @asukaonly, @Auynonymous, @Bjdufre1, @BlueWeabo, @boubou19, @Brabb3l, @brachy84, @brandyyn, @C-Remilian, @Caedis, @cambech, @captainjolt, @cazmusw, @chochem, @ChromaPIE, @chrombread, @Cleptomania, @CN132DAS, @combusterf, @cubefury, @czerwonogrodzki, @danyadev, @DarkShadow44, @DeathFuel, @dibbydoda, @Dragovorn, @Dream-Master, @Dredonkey, @DylanTaylor1, @eigenraven, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Engineer12798, @Ethryan, @evgengoldwar, @FabienChatton, @felixfour, @fengluo2, @Firenezz, @Florexiz, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hiroscho, @iouter, @Johnnycyan, @jordanamr, @jude123412, @JustACasualDay, @KenzoWVY, @klorman, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @kuba6000, @Kynake, @lc-1337, @leagris, @Litten95, @loenaaaa, @LunarLambda, @lynxx131, @MalTeeez, @mamiemru, @MCTBL, @MellowArpeggiation, @Miklebe, @mitchej123, @mM4ri, @MuXiu1997, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @nshark, @OmdaCZ, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @serenibyss, @seventh-june, @Shigure-Ruiseki, @sisyphussy, @SKProCH, @slprime, @Sopel97, @Spicierspace153, @SST-03, @StaffiX, @Sunrunner37, @SuperSoupr, @TacoMagick, @Taskeren, @Teteros, @ThePixelbrain, @TheYoingLad, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
