@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-27T03:55:35.015761",
+  "last_updated": "2025-11-28T03:55:20.191875",
   "config": "2.9.0-nightly-2025-11-25",
   "github_mods": {
     "AdventureBackpack2": {
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.12.1-GTNH",
+      "version": "1.12.2-GTNH",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "2.1.18",
+      "version": "3.0.0-beta.2",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.16-1.7.10",
+      "version": "2.3.18-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {

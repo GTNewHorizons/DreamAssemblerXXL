@@ -222,10 +222,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix reach ring by @DarkShadow44 in https://github.com/GTNewHorizons/Botania/pull/95 (1.13.0-GTNH)
 >* Allow Timeless Ivy to work on items in bauble slots by @koolkrafter5 in https://github.com/GTNewHorizons/Botania/pull/105 (1.13.0-GTNH)
 
-# Updated - Botanic-horizons - 1.11.25-GTNH --> 1.12.1-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.11.25-GTNH...1.12.1-GTNH
+# Updated - Botanic-horizons - 1.11.25-GTNH --> 1.12.2-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Botanic-horizons/compare/1.11.25-GTNH...1.12.2-GTNH
 
 ## What's Changed:
+>* Circuit improvements by @chochem in https://github.com/GTNewHorizons/Botanic-horizons/pull/46 (1.12.2-GTNH)
 >* fix: Oredict EFR plants and add apothecary support by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/44 (1.12.1-GTNH)
 >* Feature: Magic Wrenches by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/41 (1.12.0-GTNH)
 >* Feature: updated wrench textures by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/43 (1.12.0-GTNH)
@@ -951,10 +952,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Overridable Methods For Slot Amount Text by @RecursivePineapple in https://github.com/GTNewHorizons/ModularUI/pull/91 (1.3.1)
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.16-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.16-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.18-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.18-1.7.10
 
 ## What's Changed:
+>* Fix issues caused by last pr by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/76 (2.3.18-1.7.10)
+>* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/75 (2.3.17-1.7.10)
 >* Fix text rendering offset with certain alignments by @serenibyss in https://github.com/GTNewHorizons/ModularUI2/pull/72 (2.3.16-1.7.10)
 >* add entity display widget to 1.7.10 by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/73 (2.3.16-1.7.10)
 >* Port MUI1 fluid util classes to MUI2 by @serenibyss in https://github.com/GTNewHorizons/ModularUI2/pull/74 (2.3.16-1.7.10)
@@ -1352,10 +1355,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Visualiser null fix by @ABKQPO in https://github.com/GTNewHorizons/ae2stuff/pull/34 (0.10.1-GTNH)
 >* Network Visualizer shows connections between a Crafting Input Bus/Buffer and its proxies. by @AbdielKavash in https://github.com/GTNewHorizons/ae2stuff/pull/30 (0.10.0-GTNH)
 
-# Updated - lwjgl3ify - 2.1.16 --> 2.1.18
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...2.1.18
+# Updated - lwjgl3ify - 2.1.16 --> 3.0.0-beta.2
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.0-beta.2
 
 ## What's Changed:
+>* SDL3 Port for better keyboard&Wayland support - lwjgl3ify 3.0 by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/202 (3.0.0-beta.1)
 >* Convert to new IMixins and MixinsBuilder system by @Alexdoru in https://github.com/GTNewHorizons/lwjgl3ify/pull/228 (2.1.18)
 >* update by @RecursivePineapple in https://github.com/GTNewHorizons/lwjgl3ify/pull/249 (2.1.18)
 >* Properly fix mouse shift bug on retina displays and preserve HiDPI framebuffer by @danyadev in https://github.com/GTNewHorizons/lwjgl3ify/pull/244 (2.1.17)
