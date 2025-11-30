@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-29T03:54:28.732386",
-  "config": "2.9.0-nightly-2025-11-25",
+  "last_updated": "2025-11-30T04:08:55.295808",
+  "config": "2.9.0-nightly-2025-11-29",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.1-GTNH",
@@ -29,11 +29,11 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-749-GTNH",
+      "version": "rv3-beta-750-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.12.0",
+      "version": "1.12.1",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.7-GTNH",
+      "version": "3.4.11-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.128",
+      "version": "5.09.52.129",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.57",
+      "version": "2.8.59",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.4-GTNH",
+      "version": "4.12.5-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -513,7 +513,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.14-GTNH",
+      "version": "1.7.15-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.0-beta.2",
+      "version": "3.0.0-beta.4",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.5",
+      "version": "2.2.6",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.18-1.7.10",
+      "version": "2.3.19-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.37-GTNH",
+      "version": "1.1.38-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.26",
+      "version": "0.4.27",
       "side": "BOTH"
     }
   },
