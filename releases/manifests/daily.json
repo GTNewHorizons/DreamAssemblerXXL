@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-30T14:01:31.555206",
+  "last_updated": "2025-11-30T14:11:37.681896",
   "config": "2.9.0-nightly-2025-11-30-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -879,7 +879,7 @@
       "side": "BOTH"
     },
     "Industrial Craft 2": {
-      "version": "2.2.82a-experimental",
+      "version": "2.2.2.828",
       "side": "BOTH"
     },
     "Morpheus": {
