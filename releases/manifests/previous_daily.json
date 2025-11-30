@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-30T04:08:55.295808",
+  "last_updated": "2025-11-30T12:40:02.193788",
   "config": "2.9.0-nightly-2025-11-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -117,7 +117,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.17.5-GTNH",
+      "version": "2.17.6-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.5",
+      "version": "2.10.6",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.129",
+      "version": "5.09.52.130",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -297,7 +297,7 @@
       "side": "BOTH"
     },
     "LootGames": {
-      "version": "2.2.4",
+      "version": "2.2.5",
       "side": "BOTH"
     },
     "LunatriusCore": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.59",
+      "version": "2.8.60",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -381,7 +381,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.4-GTNH",
+      "version": "1.12.6-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.0-beta.4",
+      "version": "3.0.0-beta.5",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -855,7 +855,7 @@
       "side": "BOTH"
     },
     "Thaumcraft": {
-      "version": "4.2.3.5a",
+      "version": "4.2.3.5",
       "side": "BOTH"
     },
     "JourneyMap": {
@@ -895,7 +895,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.39",
+      "version": "1.5.41",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
@@ -903,7 +903,7 @@
       "side": "BOTH"
     },
     "Craft-Presence": {
-      "version": "2.6.2",
+      "version": "2.7.0",
       "side": "CLIENT"
     },
     "Gravitation-Suite-old": {
@@ -923,7 +923,7 @@
       "side": "BOTH"
     },
     "UniLib": {
-      "version": "1.1.1",
+      "version": "1.2.0",
       "side": "CLIENT"
     },
     "Bug-Torch": {
