@@ -1,7 +1,7 @@
 {
   "version": "daily",
-  "last_version": "2.8.1",
-  "last_updated": "2025-11-30T12:32:45.916062",
+  "last_version": "previous_daily",
+  "last_updated": "2025-11-30T12:40:02.193788",
   "config": "2.9.0-nightly-2025-11-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -879,7 +879,7 @@
       "side": "BOTH"
     },
     "Industrial Craft 2": {
-      "version": "2.2.2.828",
+      "version": "2.2.82a-experimental",
       "side": "BOTH"
     },
     "Morpheus": {
@@ -895,7 +895,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.39",
+      "version": "1.5.41",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
