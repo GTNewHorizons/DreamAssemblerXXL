@@ -984,10 +984,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Overridable Methods For Slot Amount Text by @RecursivePineapple in https://github.com/GTNewHorizons/ModularUI/pull/91 (1.3.1)
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.19-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.19-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.20-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.20-1.7.10
 
 ## What's Changed:
+>* fix issue with textfieldwidget value not being called with .syncHandler() by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/79 (2.3.20-1.7.10)
 >* fixes for entity display widget by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/77 (2.3.19-1.7.10)
 >* remove crash with emerald by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/78 (2.3.19-1.7.10)
 >* Fix issues caused by last pr by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/76 (2.3.18-1.7.10)
@@ -1418,8 +1419,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Visualiser null fix by @ABKQPO in https://github.com/GTNewHorizons/ae2stuff/pull/34 (0.10.1-GTNH)
 >* Network Visualizer shows connections between a Crafting Input Bus/Buffer and its proxies. by @AbdielKavash in https://github.com/GTNewHorizons/ae2stuff/pull/30 (0.10.0-GTNH)
 
-# Updated - lwjgl3ify - 2.1.16 --> 3.0.0-beta.6
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.0-beta.6
+# Updated - lwjgl3ify - 2.1.16 --> 3.0.0-beta.7
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.0-beta.7
 
 ## What's Changed:
 >* Fix SDL3 keycode regression by @DialecticalMaterialist in https://github.com/GTNewHorizons/lwjgl3ify/pull/257 (3.0.0-beta.4)
