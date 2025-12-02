@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-12-01T04:31:57.538982",
+  "last_updated": "2025-12-02T04:03:06.248115",
   "config": "2.9.0-nightly-2025-11-30-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.130",
+      "version": "5.09.52.131",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.15",
+      "version": "0.8.16",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.18",
+      "version": "2.7.19",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.12-GTNH",
+      "version": "1.14.13-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {

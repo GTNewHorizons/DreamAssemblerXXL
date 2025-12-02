@@ -367,10 +367,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.130
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.130
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.131
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.131
 
 ## What's Changed:
+>* [MUI2]: Move title widget code to CommonWidgets by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5461 (5.09.52.131)
+>* update mui2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5462 (5.09.52.131)
+>* fix crashes due to no number bounds on item detector text fields by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5465 (5.09.52.131)
 >* fix LCR recipe for sulfuric apatite by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5456 (5.09.52.130)
 >* [MUI2] fix bug with title widget by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5453 (5.09.52.130)
 >* Fix air filter's wrong display name by @6C-C6 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5452 (5.09.52.130)
@@ -766,10 +769,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.0 --> 0.8.15
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.15
+# Updated - GTNHLib - 0.7.0 --> 0.8.16
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.16
 
 ## What's Changed:
+>* Fix ItemBlock face side, add Model Particle, fix texture loading conflict with DragonApi by @Shigure-Ruiseki in https://github.com/GTNewHorizons/GTNHLib/pull/212 (0.8.16)
 >* Add basic itemblock JSON models renderer by @Shigure-Ruiseki in https://github.com/GTNewHorizons/GTNHLib/pull/211 (0.8.15)
 >* Move texture debug mixin to hodgepodge by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/210 (0.8.14)
 >* Fix VAO's by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/207 (0.8.13)
@@ -827,10 +831,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* bandaid fix for chunk loading lag by @Glease in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/32 (1.13.0-GTNH)
 
-# Updated - Hodgepodge - 2.6.110 --> 2.7.18
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.110...2.7.18
+# Updated - Hodgepodge - 2.6.110 --> 2.7.19
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.110...2.7.19
 
 ## What's Changed:
+>* Fix mixin remapping issue by @ah-OOG-ah in https://github.com/GTNewHorizons/Hodgepodge/pull/680 (2.7.19)
 >* FixShiftRecursion: Check slot every iteration by @DarkShadow44 in https://github.com/GTNewHorizons/Hodgepodge/pull/669 (2.7.18)
 >* Save fast block placing between sessions by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/673 (2.7.18)
 >* Move debug texture mixins from gtnhlib by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/672 (2.7.18)
@@ -1317,10 +1322,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 # Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.29
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TinkersConstruct - 1.13.56-GTNH --> 1.14.12-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.56-GTNH...1.14.12-GTNH
+# Updated - TinkersConstruct - 1.13.56-GTNH --> 1.14.13-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.56-GTNH...1.14.13-GTNH
 
 ## What's Changed:
+>* Fix tough rod and full guard clay casts by @FourIsTheNumber in https://github.com/GTNewHorizons/TinkersConstruct/pull/229 (1.14.13-GTNH)
+>* Fix miniature red hearts not dropping in EEC and not showing in NEI mob drops by @chochem in https://github.com/GTNewHorizons/TinkersConstruct/pull/230 (1.14.13-GTNH)
 >* Add config option to disable redstone activation for the faucet by @brandyyn in https://github.com/GTNewHorizons/TinkersConstruct/pull/227 (1.14.12-GTNH)
 >* Fix: Prevent broken tools from being able to create EFR stripped logs or dirt paths by @Kynake in https://github.com/GTNewHorizons/TinkersConstruct/pull/226 (1.14.12-GTNH)
 >* Fix shurikens, throwing knives, and javelins fitting in the quiver bauble slot by @koolkrafter5 in https://github.com/GTNewHorizons/TinkersConstruct/pull/225 (1.14.10-GTNH)
