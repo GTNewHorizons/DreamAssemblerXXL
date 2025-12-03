@@ -74,10 +74,11 @@ Mod is client-side only.
 >* Allow overriding of blend function in batching font renderer by @SuperSoupr in https://github.com/GTNewHorizons/Angelica/pull/1075 (1.0.0-beta63)
 >* Quick fix PBR Resourcepack loader error by @ABKQPO in https://github.com/GTNewHorizons/Angelica/pull/1043 (1.0.0-beta63)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-750-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-750-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-751-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-751-GTNH
 
 ## What's Changed:
+>* avoid creating empty nbt tags by checking if the key is present first by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/941 (rv3-beta-751-GTNH)
 >* Add Improve Tooltip CPU by @evgengoldwar in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/937 (rv3-beta-750-GTNH)
 >* Add QuantumBridge tooltip by @evgengoldwar in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/927 (rv3-beta-750-GTNH)
 >* fix empty storage list returned when ME interface is configured with something by @Glease in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/928 (rv3-beta-749-GTNH)
@@ -187,10 +188,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Use GTNHLib string methods by @DeathFuel in https://github.com/GTNewHorizons/BetterQuesting/pull/172 (3.8.4-GTNH)
 >* Fix NPE in icon display by @ah-OOG-ah in https://github.com/GTNewHorizons/BetterQuesting/pull/173 (3.8.2-GTNH)
 
-# Updated - Binnie - 2.5.23 --> 2.6.0
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.23...2.6.0
+# Updated - Binnie - 2.5.23 --> 2.6.2
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.23...2.6.2
 
 ## What's Changed:
+>* [Memory-opti:runtime allocations] Reduce amount of NBTTagCompound created in TileEntityMetadata#getItemStack by @Alexdoru in https://github.com/GTNewHorizons/Binnie/pull/77 (2.6.2)
 >* fix batched updates does not call window and machine packet listeners by @Glease in https://github.com/GTNewHorizons/Binnie/pull/74 (2.6.0)
 
 # Updated - BlockRenderer6343 - 1.3.17 --> 1.4.2
@@ -367,10 +369,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.131
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.131
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.132
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.132
 
 ## What's Changed:
+>* Fix OverclockCalculator calculateMultiplierUnderOneTick returning 0 due to overflow when multiplying large powers of 2. by @Sopel97 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5467 (5.09.52.132)
+>* avoid creating empty NBT Tag in ItemStackData by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5468 (5.09.52.132)
+>* Fix creation of ItemStack copy during recipe removal by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5466 (5.09.52.132)
 >* [MUI2]: Move title widget code to CommonWidgets by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5461 (5.09.52.131)
 >* update mui2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5462 (5.09.52.131)
 >* fix crashes due to no number bounds on item detector text fields by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5465 (5.09.52.131)
@@ -769,10 +774,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.0 --> 0.8.16
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.16
+# Updated - GTNHLib - 0.7.0 --> 0.8.18
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.18
 
 ## What's Changed:
+>* Add compiling (callback) tessellator mode by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/193 (0.8.18)
+>* Add ITranslucentItem for translucent item support by @SuperSoupr in https://github.com/GTNewHorizons/GTNHLib/pull/215 (0.8.17)
 >* Fix ItemBlock face side, add Model Particle, fix texture loading conflict with DragonApi by @Shigure-Ruiseki in https://github.com/GTNewHorizons/GTNHLib/pull/212 (0.8.16)
 >* Add basic itemblock JSON models renderer by @Shigure-Ruiseki in https://github.com/GTNewHorizons/GTNHLib/pull/211 (0.8.15)
 >* Move texture debug mixin to hodgepodge by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/210 (0.8.14)
@@ -800,10 +807,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* [Dev Feature] Auto Shader Reload by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/177 (0.7.3)
 >* Fix memory leaks when creating shaders by @cazmusw in https://github.com/GTNewHorizons/GTNHLib/pull/168 (0.7.1)
 
-# Updated - Gadomancy - 1.4.7 --> 1.5.3
-**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.7...1.5.3
+# Updated - Gadomancy - 1.4.7 --> 1.5.4
+**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.7...1.5.4
 
 ## What's Changed:
+>* Reduce NBT Tag spam by @Alexdoru in https://github.com/GTNewHorizons/Gadomancy/pull/45 (1.5.4)
 >* Fix crash with dragonapi by @Alexdoru in https://github.com/GTNewHorizons/Gadomancy/pull/43 (1.5.3)
 >* Don't assign an id of 0 to a potion by @DarkShadow44 in https://github.com/GTNewHorizons/Gadomancy/pull/42 (1.5.2)
 >* Transfer ASM to Mixins by @Alexdoru in https://github.com/GTNewHorizons/Gadomancy/pull/41 (1.5.0)
@@ -989,10 +997,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Overridable Methods For Slot Amount Text by @RecursivePineapple in https://github.com/GTNewHorizons/ModularUI/pull/91 (1.3.1)
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.20-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.20-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.21-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.21-1.7.10
 
 ## What's Changed:
+>* FluidSH desync fix by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/81 (2.3.21-1.7.10)
+>* Another check by @RealSilverMoon in https://github.com/GTNewHorizons/ModularUI2/pull/80 (2.3.21-1.7.10)
 >* fix issue with textfieldwidget value not being called with .syncHandler() by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/79 (2.3.20-1.7.10)
 >* fixes for entity display widget by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/77 (2.3.19-1.7.10)
 >* remove crash with emerald by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/78 (2.3.19-1.7.10)
@@ -1031,10 +1041,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.262 --> 2.8.60
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.262...2.8.60
+# Updated - NewHorizonsCoreMod - 2.7.262 --> 2.8.61
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.262...2.8.61
 
 ## What's Changed:
+>* Reduce NBT tag creation spam by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1488 (2.8.61)
+>* Refactor TCHelper by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1478 (2.8.61)
 >* Red Sandstone Recipe Amendment by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1480 (2.8.60)
 >* use parts of 1000L for phosphoric acid leather tanning by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1481 (2.8.60)
 >* Make Gold -> Diamond Shulker Upgrade Vis Consistent by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1483 (2.8.60)
@@ -1322,10 +1334,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 # Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.29
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TinkersConstruct - 1.13.56-GTNH --> 1.14.13-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.56-GTNH...1.14.13-GTNH
+# Updated - TinkersConstruct - 1.13.56-GTNH --> 1.14.14-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.56-GTNH...1.14.14-GTNH
 
 ## What's Changed:
+>* avoid creation of empty NBT tags in WeaponryHandler#boneanaBuilding by @Alexdoru in https://github.com/GTNewHorizons/TinkersConstruct/pull/233 (1.14.14-GTNH)
+>* Add support for translucent tools and parts by @SuperSoupr in https://github.com/GTNewHorizons/TinkersConstruct/pull/232 (1.14.14-GTNH)
 >* Fix tough rod and full guard clay casts by @FourIsTheNumber in https://github.com/GTNewHorizons/TinkersConstruct/pull/229 (1.14.13-GTNH)
 >* Fix miniature red hearts not dropping in EEC and not showing in NEI mob drops by @chochem in https://github.com/GTNewHorizons/TinkersConstruct/pull/230 (1.14.13-GTNH)
 >* Add config option to disable redstone activation for the faucet by @brandyyn in https://github.com/GTNewHorizons/TinkersConstruct/pull/227 (1.14.12-GTNH)
