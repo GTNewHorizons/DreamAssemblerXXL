@@ -774,10 +774,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.0 --> 0.8.18
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.18
+# Updated - GTNHLib - 0.7.0 --> 0.8.19
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.0...0.8.19
 
 ## What's Changed:
+>* fix ClassCastException crash in SharedDepthFramebuffer if Iris is disabled by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/218 (0.8.19)
 >* Add compiling (callback) tessellator mode by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/193 (0.8.18)
 >* Add ITranslucentItem for translucent item support by @SuperSoupr in https://github.com/GTNewHorizons/GTNHLib/pull/215 (0.8.17)
 >* Fix ItemBlock face side, add Model Particle, fix texture loading conflict with DragonApi by @Shigure-Ruiseki in https://github.com/GTNewHorizons/GTNHLib/pull/212 (0.8.16)
@@ -1196,6 +1197,7 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 >* Add keybinding to directly open the calculator by @wlhlm in https://github.com/GTNewHorizons/OpenModsLib/pull/9 (0.11.2)
+>* Add keybinding to directly open the calculator by @wlhlm in https://github.com/GTNewHorizons/OpenModsLib/pull/9 (0.10.13)
 
 # Updated - ProjectRed - 4.11.13-GTNH --> 4.12.5-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.13-GTNH...4.12.5-GTNH
@@ -1223,10 +1225,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix AdvancedItemCollector able to collect dead items by @Worive in https://github.com/GTNewHorizons/Random-Things/pull/15 (2.7.1)
 >* Pause Bloodmoon for a couple of days after world creation by @wlhlm in https://github.com/GTNewHorizons/Random-Things/pull/14 (2.7.0)
 
-# New Mod - RandomBoubles:1.0.3
-**Full Changelog**: https://github.com/GTNewHorizons/RandomBoubles/compare/1.0.0...1.0.3
+# New Mod - RandomBoubles:1.1.0
+**Full Changelog**: https://github.com/GTNewHorizons/RandomBoubles/compare/1.0.0...1.1.0
 
 ## What's Changed:
+>* Adding quite a few rings. by @Ethryan in https://github.com/GTNewHorizons/RandomBoubles/pull/2 (1.1.0)
 >* Add zh_CN.lang by @Omgise in https://github.com/GTNewHorizons/RandomBoubles/pull/1 (1.0.3)
 
 # Updated - Salis-Arcana - 1.1.33-GTNH --> 1.1.38-GTNH
