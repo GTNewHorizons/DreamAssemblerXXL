@@ -12,6 +12,12 @@
 >* Support for GT large cell interactions with certus quartz tanks for 2.8 by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/370 (1.4.116-gtnh)
 >* support comparators for Certus Quartz Tank for 2.8 by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/371 (1.4.116-gtnh)
 
+# Updated - AdventureBackpack2 - 1.3.11-GTNH --> 1.3.13-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/AdventureBackpack2/compare/1.3.11-GTNH...1.3.13-GTNH
+
+## What's Changed:
+>* Properly handle detectAndSendChanges calls by @SuperSoupr in https://github.com/GTNewHorizons/AdventureBackpack2/pull/40 (1.3.13-GTNH)
+
 # Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-693-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-693-GTNH
 
@@ -225,4 +231,4 @@
 >* Fix logic for earth infused gem by @chochem in https://github.com/GTNewHorizons/WitchingGadgets/pull/97 (1.7.25-GTNH)
 
 # Credits
-Special thanks to @Alexdoru, @boubou19, @cazmusw, @chochem, @CN132DAS, @danyadev, @DarkShadow44, @DeathFuel, @FourIsTheNumber, @Ghezra, @hiroscho, @Kogepan229, @Kynake, @leagris, @lynxx131, @PlayfulPiano, @Ranzuu, @RecursivePineapple, @sisyphussy, @slprime, @SST-03, @StaffiX, @TacoMagick, @UltraProdigy, @unicornbloods, @Valafi, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @Alexdoru, @boubou19, @cazmusw, @chochem, @CN132DAS, @danyadev, @DarkShadow44, @DeathFuel, @FourIsTheNumber, @Ghezra, @hiroscho, @Kogepan229, @Kynake, @leagris, @lynxx131, @PlayfulPiano, @Ranzuu, @RecursivePineapple, @sisyphussy, @slprime, @SST-03, @StaffiX, @SuperSoupr, @TacoMagick, @UltraProdigy, @unicornbloods, @Valafi, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
