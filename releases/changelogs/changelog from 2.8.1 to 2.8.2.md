@@ -99,10 +99,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix shift-click from Chisel into full inventory by @boubou19 in https://github.com/GTNewHorizons/Chisel/pull/73 (2.16.15-GTNH)
 
-# Updated - CodeChickenCore - 1.4.7 --> 1.4.9
-**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.4.7...1.4.9
+# Updated - CodeChickenCore - 1.4.7 --> 1.4.10
+**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.4.7...1.4.10
 
 ## What's Changed:
+>* Reapply "Fix ItemStack packet id limited by short" (#23) (#37) by @boubou19 in https://github.com/GTNewHorizons/CodeChickenCore/pull/41 (1.4.10)
 >* [Memory-opti:static allocations] Reduce allocations and speedup ClassHeirarchyManager by @Alexdoru in https://github.com/GTNewHorizons/CodeChickenCore/pull/39 (1.4.9)
 >* ASM Housekeeping by @Alexdoru in https://github.com/GTNewHorizons/CodeChickenCore/pull/36 (1.4.8)
 >* Revert "Fix ItemStack packet id limited by short" (#23) by @TacoMagick in https://github.com/GTNewHorizons/CodeChickenCore/pull/37 (1.4.8)
