@@ -1,7 +1,7 @@
 {
   "version": "2.8.2",
   "last_version": "2.8.1",
-  "last_updated": "2025-12-07T13:05:30.638264",
+  "last_updated": "2025-12-07T13:39:39.241682",
   "config": "2.8.2-pre2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.4.118-gtnh",
+      "version": "1.4.119-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.51.479",
+      "version": "5.09.51.480",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
