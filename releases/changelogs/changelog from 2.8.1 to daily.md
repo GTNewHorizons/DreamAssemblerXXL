@@ -386,16 +386,27 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - ForgeMultipart - 1.6.8 --> 1.7.0
-**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.6.8...1.7.0
+# Updated - ForgeMultipart - 1.6.8 --> 1.7.1
+**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.6.8...1.7.1
 
 ## What's Changed:
+>* Optimize FMP Rendering and memory leaks by @Worive in https://github.com/GTNewHorizons/ForgeMultipart/pull/35 (1.7.1)
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.132
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.132
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.52.133
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.52.133
 
 ## What's Changed:
+>* update dependency of mui2 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5474 (5.09.52.133)
+>* fix unchanged chemical plant tooltip line by @Flakxo in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5475 (5.09.52.133)
+>* Fix Large Molecular Assembler lag by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5473 (5.09.52.133)
+>* issue update on hatches only if necessary by @Glease in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5480 (5.09.52.133)
+>* Set mining hardness for GT++ cactus/sugar charcoal/coke by @DarkShadow44 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5483 (5.09.52.133)
+>* Fix Duplicate Circuit Registration in PlatinumSludgeOverhaul by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5477 (5.09.52.133)
+>* UMV/UXV 4k Target Hatch Recipe Fix by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5485 (5.09.52.133)
+>* Fix Some MV Screwdriver Parts by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5488 (5.09.52.133)
+>* Register custom glyphs with GTNHLib by @DeathFuel in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5482 (5.09.52.133)
+>* Add RandomBoubles to the Mods enum. by @Ethryan in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5496 (5.09.52.133)
 >* Fix OverclockCalculator calculateMultiplierUnderOneTick returning 0 due to overflow when multiplying large powers of 2. by @Sopel97 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5467 (5.09.52.132)
 >* avoid creating empty NBT Tag in ItemStackData by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5468 (5.09.52.132)
 >* Fix creation of ItemStack copy during recipe removal by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5466 (5.09.52.132)
@@ -1278,10 +1289,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add keybinding to directly open the calculator by @wlhlm in https://github.com/GTNewHorizons/OpenModsLib/pull/9 (0.11.2)
 >* Add keybinding to directly open the calculator by @wlhlm in https://github.com/GTNewHorizons/OpenModsLib/pull/9 (0.10.13)
 
-# Updated - Postea - 1.1.3 --> 1.1.4
-**Full Changelog**: https://github.com/GTNewHorizons/Postea/compare/1.1.3...1.1.4
+# Updated - Postea - 1.1.3 --> 1.1.5
+**Full Changelog**: https://github.com/GTNewHorizons/Postea/compare/1.1.3...1.1.5
 
 ## What's Changed:
+>* Provide chunk to tile entity transformers by @SuperSoupr in https://github.com/GTNewHorizons/Postea/pull/17 (1.1.5)
 >* Use FMLModIdMappingEvent for numeric id mapping by @SuperSoupr in https://github.com/GTNewHorizons/Postea/pull/15 (1.1.4)
 
 # Updated - ProjectRed - 4.11.13-GTNH --> 4.12.5-GTNH
@@ -1310,10 +1322,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix AdvancedItemCollector able to collect dead items by @Worive in https://github.com/GTNewHorizons/Random-Things/pull/15 (2.7.1)
 >* Pause Bloodmoon for a couple of days after world creation by @wlhlm in https://github.com/GTNewHorizons/Random-Things/pull/14 (2.7.0)
 
-# New Mod - RandomBoubles:1.1.0
-**Full Changelog**: https://github.com/GTNewHorizons/RandomBoubles/compare/1.0.0...1.1.0
+# New Mod - RandomBoubles:1.1.1
+**Full Changelog**: https://github.com/GTNewHorizons/RandomBoubles/compare/1.0.0...1.1.1
 
 ## What's Changed:
+>* Correct the check for gregtech by @Ethryan in https://github.com/GTNewHorizons/RandomBoubles/pull/4 (1.1.1)
 >* Adding quite a few rings. by @Ethryan in https://github.com/GTNewHorizons/RandomBoubles/pull/2 (1.1.0)
 >* Add zh_CN.lang by @Omgise in https://github.com/GTNewHorizons/RandomBoubles/pull/1 (1.0.3)
 
