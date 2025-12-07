@@ -1,7 +1,16 @@
-# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.4.116-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.4.116-gtnh
+# Updated - AE2FluidCraft-Rework - 1.4.115-gtnh --> 1.4.118-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.115-gtnh...1.4.118-gtnh
 
 ## What's Changed:
+>* Release/2.8.x/fix p2p interface binding by @hiroscho in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/343 (1.4.117-gtnh)
+>* Release/2.8.x/Fix advanced blocking card doesn't work on load (#342) by @hiroscho in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/347 (1.4.117-gtnh)
+>* refactor TileCertusQuartzTank for 2.8 by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/365 (1.4.117-gtnh)
+>* fix waila body flickering when looking at a certus quartz tank for 2.8 by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/366 (1.4.117-gtnh)
+>* certus quartz tank item rendering improvements for 2.8 by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/367 (1.4.117-gtnh)
+>* Fix two lines of fluid info showing off in waila for certus quartz tanks for 2.8 by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/368 (1.4.117-gtnh)
+>* Fix Certus Quartz Tank packet spamming, lagging and flickering for 2.8 by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/369 (1.4.117-gtnh)
+>* Support for GT large cell interactions with certus quartz tanks for 2.8 by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/370 (1.4.117-gtnh)
+>* support comparators for Certus Quartz Tank for 2.8 by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/371 (1.4.117-gtnh)
 >* Release/2.8.x/fix p2p interface binding by @hiroscho in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/343 (1.4.116-gtnh)
 >* Release/2.8.x/Fix advanced blocking card doesn't work on load (#342) by @hiroscho in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/347 (1.4.116-gtnh)
 >* refactor TileCertusQuartzTank for 2.8 by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/365 (1.4.116-gtnh)
@@ -18,10 +27,34 @@
 ## What's Changed:
 >* Properly handle detectAndSendChanges calls by @SuperSoupr in https://github.com/GTNewHorizons/AdventureBackpack2/pull/40 (1.3.13-GTNH)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-693-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-693-GTNH
+# Updated - Angelica - 1.0.0-beta62 --> 1.0.0-beta66b
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta62...1.0.0-beta66b
 
 ## What's Changed:
+>* Add VAO test by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1089 (1.0.0-beta65)
+>* Allow avoiding other mods spash screen handlers by @MalTeeez in https://github.com/GTNewHorizons/Angelica/pull/1080 (1.0.0-beta65)
+>* Fix TAA: by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1099 (1.0.0-beta65)
+>* Some burn in fixes by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1085 (1.0.0-beta64)
+>* Fix intel build tests by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1048 (1.0.0-beta63)
+>* Refactor vendor detection by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/1049 (1.0.0-beta63)
+>* Custom/Smooth Font follow-up by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1040 (1.0.0-beta63)
+>* Add null check to zoom reset by @wlhlm in https://github.com/GTNewHorizons/Angelica/pull/1061 (1.0.0-beta63)
+>* Fix framebuffer depth not clearing by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1051 (1.0.0-beta63)
+>* Fix CME by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1008 (1.0.0-beta63)
+>* Rework ANGELICA_VERSION into an integer  by @DarkShadow44 in https://github.com/GTNewHorizons/Angelica/pull/873 (1.0.0-beta63)
+>* Font AA shader fixes by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1071 (1.0.0-beta63)
+>* Fix BE frustum culling far from spawn with shaders (fixes #965) by @klorman in https://github.com/GTNewHorizons/Angelica/pull/1077 (1.0.0-beta63)
+>* Fix missing depth buffer writing before GUI rendering by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1073 (1.0.0-beta63)
+>* Splash screen crash fix by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1069 (1.0.0-beta63)
+>* Allow overriding of blend function in batching font renderer by @SuperSoupr in https://github.com/GTNewHorizons/Angelica/pull/1075 (1.0.0-beta63)
+>* Quick fix PBR Resourcepack loader error by @ABKQPO in https://github.com/GTNewHorizons/Angelica/pull/1043 (1.0.0-beta63)
+
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-691-GTNH --> rv3-beta-695-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-691-GTNH...rv3-beta-695-GTNH
+
+## What's Changed:
+>* Add en_US localization for the Terminal bauble type by @Kynake in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/944 (rv3-beta-695-GTNH)
 >* Add Additional Fuzzy Card Breakpoints for 10% and 1% by @lynxx131 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/926 (rv3-beta-693-GTNH)
 >* avoid creating empty nbt tags by checking if the key is present first by @boubou19 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/942 (rv3-beta-693-GTNH)
 >* Release/2.8.x/Fix AutoFiller/SuperStocking/etc lags (#890) by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/898 (rv3-beta-692-GTNH)
@@ -34,6 +67,12 @@
 ## What's Changed:
 >* Fix dire auto crafting table recipe change detection by @Kogepan229 in https://github.com/GTNewHorizons/Avaritiaddons/pull/19 (1.9.3-GTNH)
 >* Fix dire auto crafting table recipe change detection by @Kogepan229 in https://github.com/GTNewHorizons/Avaritiaddons/pull/19 (1.9.2-GTNH)
+
+# Updated - Baubles-Expanded - 2.1.17-GTNH --> 2.1.18-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.1.17-GTNH...2.1.18-GTNH
+
+## What's Changed:
+>* Display type tooltip when hovering on a Bauble slot by @Kynake in https://github.com/GTNewHorizons/Baubles-Expanded/pull/23 (2.1.18-GTNH)
 
 # Updated - Binnie - 2.5.23 --> 2.5.24
 **Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.23...2.5.24
@@ -74,16 +113,19 @@
 ## What's Changed:
 >* Delete brute forcing of items to generate Thaumcraft aspects by @boubou19 in https://github.com/GTNewHorizons/EnderIO/pull/214 (2.9.28)
 
-# Updated - ForgeMultipart - 1.6.8 --> 1.7.0
-**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.6.8...1.7.0
+# Updated - ForgeMultipart - 1.6.8 --> 1.7.1
+**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.6.8...1.7.1
 
 ## What's Changed:
+>* Optimize FMP Rendering and memory leaks by @Worive in https://github.com/GTNewHorizons/ForgeMultipart/pull/35 (1.7.1)
 >* Allow y coordinates bigger 255 by @DarkShadow44 in https://github.com/GTNewHorizons/ForgeMultipart/pull/32 (1.7.0)
 
-# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.51.478
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.51.478
+# Updated - GT5-Unofficial - 5.09.51.476 --> 5.09.51.479
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.476...5.09.51.479
 
 ## What's Changed:
+>* Fix unlocalised achievement entries for GT5U's achievements autogenerated from the visual AL recipemap  by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5499 (5.09.51.479)
+>* Random assortment of fixes by @Ethryan in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5505 (5.09.51.479)
 >* Register custom glyphs with GTNHLib (#5482) for 2.8.x by @DeathFuel in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5494 (5.09.51.478)
 >* Fix(sound): block-centered origin AGAIN RE-FIXED STOP BREAKING IT PLEASE!!! by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5142 (5.09.51.477)
 >* fix(soundLoops): sound loops not playing on negative coordinates by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5147 (5.09.51.477)
@@ -159,10 +201,11 @@
 ## What's Changed:
 >* Fix duplicate loot generation in Minesweeper Level 4 (#25) for 2.8 by @UltraProdigy in https://github.com/GTNewHorizons/LootGames/pull/26 (2.2.0.1)
 
-# Updated - NewHorizonsCoreMod - 2.7.262 --> 2.7.264
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.262...2.7.264
+# Updated - NewHorizonsCoreMod - 2.7.262 --> 2.7.265
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.262...2.7.265
 
 ## What's Changed:
+>* Fix stained glass pane recipe conflicts by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1497 (2.7.265)
 >* Fire questbook default load when Modpack updates (#1491) by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1493 (2.7.264)
 >* Fix Angel Ring Fairy Wings craft pointing to correct new item names by @Ghezra in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1436 (2.7.263)
 >* Shulker Dye Recipes Fix (2.8.X) by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1439 (2.7.263)
@@ -217,6 +260,11 @@
 ## What's Changed:
 >* Revert right-click interaction with items in the offhand (Backhand) by @boubou19 in https://github.com/GTNewHorizons/StorageDrawers/pull/54 (2.1.10-GTNH)
 
+# Updated - Thaumic_Exploration - 1.4.7-GTNH --> 1.4.8-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.7-GTNH...1.4.8-GTNH
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - TinkersConstruct - 1.13.56-GTNH --> 1.13.57-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.56-GTNH...1.13.57-GTNH
 
@@ -231,4 +279,4 @@
 >* Fix logic for earth infused gem by @chochem in https://github.com/GTNewHorizons/WitchingGadgets/pull/97 (1.7.25-GTNH)
 
 # Credits
-Special thanks to @Alexdoru, @boubou19, @cazmusw, @chochem, @CN132DAS, @danyadev, @DarkShadow44, @DeathFuel, @FourIsTheNumber, @Ghezra, @hiroscho, @Kogepan229, @Kynake, @leagris, @lynxx131, @PlayfulPiano, @Ranzuu, @RecursivePineapple, @sisyphussy, @slprime, @SST-03, @StaffiX, @SuperSoupr, @TacoMagick, @UltraProdigy, @unicornbloods, @Valafi, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @ABKQPO, @ah-OOG-ah, @Alexdoru, @boubou19, @cazmusw, @chochem, @CN132DAS, @danyadev, @DarkShadow44, @DeathFuel, @Ethryan, @FourIsTheNumber, @Ghezra, @hiroscho, @klorman, @Kogepan229, @kotmatross28729, @Kynake, @leagris, @lynxx131, @MalTeeez, @mitchej123, @PlayfulPiano, @Ranzuu, @RecursivePineapple, @sisyphussy, @slprime, @SST-03, @StaffiX, @SuperSoupr, @TacoMagick, @UltraProdigy, @unicornbloods, @Valafi, @wlhlm, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
