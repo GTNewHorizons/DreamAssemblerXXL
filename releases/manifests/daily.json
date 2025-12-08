@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-12-07T04:07:37.345564",
+  "last_updated": "2025-12-08T04:05:58.059102",
   "config": "2.9.0-nightly-2025-12-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -125,7 +125,7 @@
       "side": "BOTH"
     },
     "CodeChickenCore": {
-      "version": "1.4.9",
+      "version": "1.4.10",
       "side": "BOTH"
     },
     "Computronics": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.19",
+      "version": "2.7.20",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.9",
+      "version": "1.6.10",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -385,7 +385,7 @@
       "side": "BOTH"
     },
     "OpenModsLib": {
-      "version": "0.11.2",
+      "version": "0.10.13",
       "side": "BOTH"
     },
     "OpenModularTurrets": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.0-beta.8",
+      "version": "3.0.0-beta.11",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
