@@ -1,11 +1,11 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-11-30T12:40:02.193788",
-  "config": "2.9.0-nightly-2025-11-29",
+  "last_updated": "2025-12-09T04:00:50.127784",
+  "config": "2.9.0-nightly-2025-12-08",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.4.1-GTNH",
+      "version": "1.4.4-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-750-GTNH",
+      "version": "rv3-beta-751-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -45,7 +45,7 @@
       "side": "BOTH"
     },
     "Avaritiaddons": {
-      "version": "1.9.2-GTNH",
+      "version": "1.9.3-GTNH",
       "side": "BOTH"
     },
     "bdlib": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.0",
+      "version": "2.6.2",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -125,7 +125,7 @@
       "side": "BOTH"
     },
     "CodeChickenCore": {
-      "version": "1.4.8",
+      "version": "1.4.10",
       "side": "BOTH"
     },
     "Computronics": {
@@ -205,11 +205,11 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.7.0",
+      "version": "1.7.2",
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.5.3",
+      "version": "1.5.4",
       "side": "BOTH"
     },
     "Galacticraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.130",
+      "version": "5.09.52.134",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,11 +233,11 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.15",
+      "version": "0.8.23",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
-      "version": "1.13.0-GTNH",
+      "version": "1.12.16-GTNH",
       "side": "BOTH"
     },
     "harvestcraft": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.18",
+      "version": "2.7.20",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.9",
+      "version": "1.6.10",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.60",
+      "version": "2.8.61",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -385,7 +385,7 @@
       "side": "BOTH"
     },
     "OpenModsLib": {
-      "version": "0.11.2",
+      "version": "0.10.13",
       "side": "BOTH"
     },
     "OpenModularTurrets": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.5-GTNH",
+      "version": "4.12.6-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -513,7 +513,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.15-GTNH",
+      "version": "1.7.16-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.12-GTNH",
+      "version": "1.14.14-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -585,7 +585,7 @@
       "side": "BOTH"
     },
     "WAWLA": {
-      "version": "1.3.1-GTNH",
+      "version": "1.3.2-GTNH",
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.11-GTNH",
+      "version": "1.8.12-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.0-beta.5",
+      "version": "3.0.0-beta.11",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.19-1.7.10",
+      "version": "2.3.21-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -757,7 +757,7 @@
       "side": "BOTH"
     },
     "Postea": {
-      "version": "1.1.3",
+      "version": "1.1.5",
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "RandomBoubles": {
-      "version": "1.0.3",
+      "version": "1.1.1",
       "side": "BOTH"
     },
     "VendingMachine": {
@@ -879,7 +879,7 @@
       "side": "BOTH"
     },
     "Industrial Craft 2": {
-      "version": "2.2.82a-experimental",
+      "version": "2.2.2.828",
       "side": "BOTH"
     },
     "Morpheus": {
