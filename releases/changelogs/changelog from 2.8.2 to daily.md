@@ -763,10 +763,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.10 --> 0.8.21
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.8.21
+# Updated - GTNHLib - 0.7.10 --> 0.8.23
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.8.23
 
 ## What's Changed:
+>* Move villager names from WAWLA by @SuperSoupr in https://github.com/GTNewHorizons/GTNHLib/pull/228 (0.8.23)
+>* Port ItemRenderUtil from Gregtech by @FourIsTheNumber in https://github.com/GTNewHorizons/GTNHLib/pull/227 (0.8.22)
 >* Support lines and triangles in tessellator & cleanup allocs by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/222 (0.8.21)
 >* ItemBlock BlockBench Display by @Shigure-Ruiseki in https://github.com/GTNewHorizons/GTNHLib/pull/216 (0.8.20)
 >* Add a glyph replacement map by @DeathFuel in https://github.com/GTNewHorizons/GTNHLib/pull/219 (0.8.20)
@@ -1377,6 +1379,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Use fancy fluid tooltip renderer by @SuperSoupr in https://github.com/GTNewHorizons/WAILAPlugins/pull/21 (0.7.0)
 >* Delete extra utilities plugin by @SuperSoupr in https://github.com/GTNewHorizons/WAILAPlugins/pull/20 (0.7.0)
 
+# Updated - WAWLA - 1.3.1-GTNH --> 1.3.2-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WAWLA/compare/1.3.1-GTNH...1.3.2-GTNH
+
+## What's Changed:
+>* Move villager names to GTNHLib by @SuperSoupr in https://github.com/GTNewHorizons/WAWLA/pull/8 (1.3.2-GTNH)
+
 # Updated - WitcheryExtras - 1.3.7 --> 1.4.2
 **Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.3.7...1.4.2
 
@@ -1384,10 +1392,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Baubles compatibility for poppets and door keys by @Kynake in https://github.com/GTNewHorizons/WitcheryExtras/pull/30 (1.4.2)
 >* Rename WitcheryExtras -> witcheryextras by @Eldrinn-Elantey in https://github.com/GTNewHorizons/WitcheryExtras/pull/29 (1.4.0)
 
-# Updated - WitchingGadgets - 1.7.25-GTNH --> 1.8.11-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.25-GTNH...1.8.11-GTNH
+# Updated - WitchingGadgets - 1.7.25-GTNH --> 1.8.12-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.25-GTNH...1.8.12-GTNH
 
 ## What's Changed:
+>* (Raven) Cloak and Kama fix (again) (again) by @chochem in https://github.com/GTNewHorizons/WitchingGadgets/pull/103 (1.8.12-GTNH)
 >* Infernal smelting fix by @chochem in https://github.com/GTNewHorizons/WitchingGadgets/pull/102 (1.8.11-GTNH)
 >* Refactor onEquip method for more clarity by @Worive in https://github.com/GTNewHorizons/WitchingGadgets/pull/100 (1.8.8-GTNH)
 >* Fix speed & jump modifiers by @sisyphussy in https://github.com/GTNewHorizons/WitchingGadgets/pull/101 (1.8.8-GTNH)
