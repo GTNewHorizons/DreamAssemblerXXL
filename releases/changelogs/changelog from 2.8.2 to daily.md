@@ -64,8 +64,8 @@ Mod is client-side only.
 ## What's Changed:
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-753-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-753-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-752-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-752-GTNH
 
 ## What's Changed:
 >* Add en_US localization for the Terminal bauble type by @Kynake in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/943 (rv3-beta-752-GTNH)
@@ -370,14 +370,10 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Revert light value caching, applying better iteration to avoid null exceptions by @Worive in https://github.com/GTNewHorizons/ForgeMultipart/pull/37 (1.7.2)
 >* Add dynamic render option without relying on doesTick by @Worive in https://github.com/GTNewHorizons/ForgeMultipart/pull/38 (1.7.2)
 
-# Updated - GT5-Unofficial - 5.09.51.481 --> 5.09.52.139-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.481...5.09.52.139-pre
+# Updated - GT5-Unofficial - 5.09.51.481 --> 5.09.52.138
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.481...5.09.52.138
 
 ## What's Changed:
->* Fix Fluid Shaper tooltip about parallels by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5514 (5.09.52.139-pre)
->* Remove names method and fix UUID regex by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5517 (5.09.52.139-pre)
->* Remove Rubber From Cable Maceration Recycling by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5518 (5.09.52.139-pre)
->* Remove Yamcl Dependency by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5519 (5.09.52.139-pre)
 >* Remove Rubber From Cable Maceration Recycling by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5518 (5.09.52.138)
 >* Remove Yamcl Dependency by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5519 (5.09.52.138)
 >* Nerf black plutonium and mining neutronium casings by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5510 (5.09.52.137)
@@ -1079,8 +1075,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.265 --> 2.8.63-pre
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.265...2.8.63-pre
+# Updated - NewHorizonsCoreMod - 2.7.265 --> 2.8.62
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.265...2.8.62
 
 ## What's Changed:
 >* Fire questbook default load when Modpack updates by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1491 (2.8.62)
