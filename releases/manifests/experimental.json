@@ -1,8 +1,8 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-12-09T16:38:22.057758",
-  "config": "2.9.0-nightly-2025-12-08",
+  "last_updated": "2025-12-10T09:21:11.060412",
+  "config": "2.9.0-nightly-2025-12-10-2-pre",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.5-GTNH-pre",
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.8.6-pre",
+      "version": "1.8.7",
       "side": "BOTH"
     },
     "Botania": {
@@ -133,7 +133,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.4.4-GTNH",
+      "version": "1.4.5-GTNH",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.7-pre",
+      "version": "2.10.9-pre",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.135-pre",
+      "version": "5.09.52.139-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.26-pre",
+      "version": "0.8.28-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.22-pre",
+      "version": "2.7.24-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -297,7 +297,7 @@
       "side": "BOTH"
     },
     "LootGames": {
-      "version": "2.2.6",
+      "version": "2.2.7",
       "side": "BOTH"
     },
     "LunatriusCore": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta76-pre",
+      "version": "1.0.0-beta77-pre",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.21-1.7.10",
+      "version": "2.3.22-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
