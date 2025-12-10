@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version daily is out 2025-12-09
+Version daily is out 2025-12-10
 
 ## What is GT New Horizons?
 
@@ -299,7 +299,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BlockLimiter](https://github.com/GTNewHorizons/BlockLimiter) | 0.7.0 |
 | [BlockRenderer6343](https://github.com/GTNewHorizons/BlockRenderer6343) | 1.4.2 |
 | [BloodArsenal](https://github.com/GTNewHorizons/BloodArsenal) | 1.5.0 |
-| [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.8.5 |
+| [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.8.7 |
 | [Botania](https://github.com/GTNewHorizons/Botania) | 1.13.6-GTNH |
 | [Botanic-horizons](https://github.com/GTNewHorizons/Botanic-horizons) | 1.12.3-GTNH |
 | [BrandonsCore](https://github.com/GTNewHorizons/BrandonsCore) | 1.2.0-GTNH |
@@ -316,7 +316,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Compact Kinetic Generators](https://forum.industrial-craft.net/thread/12724-ic2-exp-1-7-10-compact-kinetic-generators/) | 1.0 |
 | [Computronics](https://github.com/GTNewHorizons/Computronics) | 1.9.3-GTNH |
 | [Controlling](https://github.com/GTNewHorizons/Controlling) | 2.1.2 |
-| [CookingForBlockheads](https://github.com/GTNewHorizons/CookingForBlockheads) | 1.4.4-GTNH |
+| [CookingForBlockheads](https://github.com/GTNewHorizons/CookingForBlockheads) | 1.4.5-GTNH |
 | [CoreTweaks](https://github.com/GTNewHorizons/CoreTweaks) | 0.3.3.6-GTNH |
 | [Craft-Presence](https://www.curseforge.com/minecraft/mc-mods/craftpresence/) | 2.7.0 |
 | [CraftTweaker](https://github.com/GTNewHorizons/CraftTweaker) | 3.4.2 |
@@ -332,7 +332,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [DuraDisplay](https://github.com/GTNewHorizons/DuraDisplay) | 1.4.0 |
 | [Electro-Magic-Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.7.6 |
 | [EnderCore](https://github.com/GTNewHorizons/EnderCore) | 0.5.0 |
-| [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.10.6 |
+| [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.10.8 |
 | [EnderStorage](https://github.com/GTNewHorizons/EnderStorage) | 1.8.0 |
 | [EnderZoo](https://github.com/GTNewHorizons/EnderZoo) | 1.3.3 |
 | [EnhancedLootBags](https://github.com/GTNewHorizons/EnhancedLootBags) | 1.2.8 |
@@ -353,14 +353,14 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.9.4-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.6 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.52.134 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.52.138 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.6 |
-| [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.8.25 |
+| [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.8.27 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.12.16-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.3.2-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.3.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.7.20 |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.7.23 |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.5.5-GTNH |
 | [Hunger-Overhaul](https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul) | 1.0.0.104 |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.4.9 |
@@ -380,7 +380,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap) | 5.2.10-fairplay |
 | [LittleTiles](https://github.com/GTNewHorizons/LittleTiles) | 1.6.10 |
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.5.7-GTNH |
-| [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.2.6 |
+| [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.2.7 |
 | [LunatriusCore](https://github.com/GTNewHorizons/LunatriusCore) | 1.2.1-GTNH |
 | [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 3.0.0-beta.11 |
 | [MagicBees](https://github.com/GTNewHorizons/MagicBees) | 2.10.2-GTNH |
@@ -392,7 +392,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Mobs-Info](https://github.com/GTNewHorizons/Mobs-Info) | 0.5.8-GTNH |
 | [ModernMarkings](https://github.com/GTNewHorizons/ModernMarkings) | 0.3.12-1.7.10 |
 | [ModTweaker](https://github.com/GTNewHorizons/ModTweaker) | 0.12.0 |
-| [ModularUI2](https://github.com/GTNewHorizons/ModularUI2) | 2.3.21-1.7.10 |
+| [ModularUI2](https://github.com/GTNewHorizons/ModularUI2) | 2.3.22-1.7.10 |
 | [ModularUI](https://github.com/GTNewHorizons/ModularUI) | 1.3.1 |
 | [Morpheus](https://www.curseforge.com/minecraft/mc-mods/morpheus) | 1.6.21 |
 | [MrTJPCore](https://github.com/GTNewHorizons/MrTJPCore) | 1.3.4 |
