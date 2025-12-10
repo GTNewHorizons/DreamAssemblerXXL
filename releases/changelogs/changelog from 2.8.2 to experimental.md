@@ -46,11 +46,12 @@
 ## What's Changed:
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 1.0.0-beta76-pre
+# Updated - Angelica - 1.0.0-beta66b --> 1.0.0-beta77-pre
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...1.0.0-beta76-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...1.0.0-beta77-pre
 
 ## What's Changed:
+>* glDrawBuffers Support by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1174 (1.0.0-beta77-pre)
 >* [BCF] Fix z-fighting on GT ores 2: here we go again edition by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1161 (1.0.0-beta76-pre)
 >* GT5 custom glyph handling and visual fixes by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1148 (1.0.0-beta76-pre)
 >* Add VAO's by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1126 (1.0.0-beta76-pre)
@@ -250,10 +251,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix overenchanting by @Caedis in https://github.com/GTNewHorizons/BloodArsenal/pull/36 (1.5.0)
 >* Revert "Fix overenchanting (#36)" by @koolkrafter5 in https://github.com/GTNewHorizons/BloodArsenal/pull/37 (1.5.0)
 
-# Updated - BloodMagic - 1.7.52 --> 1.8.6-pre
-**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.52...1.8.6-pre
+# Updated - BloodMagic - 1.7.52 --> 1.8.7
+**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.52...1.8.7
 
 ## What's Changed:
+>* Fix t6 and modded orbs not giving any discounts to Bound Armor's effects by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/113 (1.8.7)
+>* Make these recipes Shaped Orb Recipes to allow for modded t6 orbs by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/112 (1.8.7)
+>* Remove "Press shift for Recipe" tooltip from alchemy items by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/110 (1.8.7)
+>* Alchemic Calcinator Improvements by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/109 (1.8.7)
+>* Add hazmat protection to bound and omega armors by @Worive in https://github.com/GTNewHorizons/BloodMagic/pull/111 (1.8.7)
 >* NEI Info Pages by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/104 (1.8.5)
 >* Fix some issues in NEI handlers by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/105 (1.8.5)
 >* Spotless apply for branch update-handlers for #105 by @github-actions[bot] in https://github.com/GTNewHorizons/BloodMagic/pull/106 (1.8.4-pre)
@@ -306,6 +312,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Terracotta variations by @agreeable-frog in https://github.com/GTNewHorizons/Chisel/pull/68 (2.17.3-GTNH)
 >* Fix: corrected textures and removed flickering. issue 21220 by @cambech in https://github.com/GTNewHorizons/Chisel/pull/67 (2.17.1-GTNH)
 >* Update description key by @cambech in https://github.com/GTNewHorizons/Chisel/pull/66 (2.17.0-GTNH)
+
+# Updated - CookingForBlockheads - 1.4.4-GTNH --> 1.4.5-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.4.4-GTNH...1.4.5-GTNH
+
+## What's Changed:
+>* stop registering to the event bus classes without events handlers by @Alexdoru in https://github.com/GTNewHorizons/CookingForBlockheads/pull/57 (1.4.5-GTNH)
 
 # Updated - Craft-Presence - 2.6.2 --> 2.7.0
 Mod is client-side only.
@@ -375,10 +387,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - EnderIO - 2.9.28 --> 2.10.7-pre
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.28...2.10.7-pre
+# Updated - EnderIO - 2.9.28 --> 2.10.9-pre
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.28...2.10.9-pre
 
 ## What's Changed:
+>* Improve NetworkedInventory robustness by @Worive in https://github.com/GTNewHorizons/EnderIO/pull/210 (2.10.8)
 >* Delete brute forcing of items to generate Thaumcraft aspects by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/213 (2.10.6)
 >* [Memory-opti:fix leak] Fix World leak in ConduitNetworkTickHandler by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/211 (2.10.5)
 >* Dont register several duplicate items in case of GTNH by @chochem in https://github.com/GTNewHorizons/EnderIO/pull/209 (2.10.2)
@@ -430,10 +443,20 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Revert light value caching, applying better iteration to avoid null exceptions by @Worive in https://github.com/GTNewHorizons/ForgeMultipart/pull/37 (1.7.2)
 >* Add dynamic render option without relying on doesTick by @Worive in https://github.com/GTNewHorizons/ForgeMultipart/pull/38 (1.7.2)
 
-# Updated - GT5-Unofficial - 5.09.51.481 --> 5.09.52.135-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.481...5.09.52.135-pre
+# Updated - GT5-Unofficial - 5.09.51.481 --> 5.09.52.139-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.481...5.09.52.139-pre
 
 ## What's Changed:
+>* Fix Fluid Shaper tooltip about parallels by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5514 (5.09.52.139-pre)
+>* Remove names method and fix UUID regex by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5517 (5.09.52.139-pre)
+>* Remove Rubber From Cable Maceration Recycling by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5518 (5.09.52.139-pre)
+>* Remove Yamcl Dependency by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5519 (5.09.52.139-pre)
+>* Remove Rubber From Cable Maceration Recycling by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5518 (5.09.52.138)
+>* Remove Yamcl Dependency by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5519 (5.09.52.138)
+>* Nerf black plutonium and mining neutronium casings by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5510 (5.09.52.137)
+>* Migrating item renderer code by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5511 (5.09.52.137)
+>* Fix Fluid Shaper tooltip about parallels by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5514 (5.09.52.137)
+>* Remove names method and fix UUID regex by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5517 (5.09.52.137)
 >* Spotless apply for branch mui2-tesla-tower for #5238 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5293 (5.09.52.135-pre)
 >* Spotless apply for branch clean/bartworks/bridge_material_loader for #5380 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5382 (5.09.52.135-pre)
 >* Spotless apply for branch mui2-sb-recipemaps for #5478 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5479 (5.09.52.135-pre)
@@ -978,10 +1001,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.10 --> 0.8.26-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.8.26-pre
+# Updated - GTNHLib - 0.7.10 --> 0.8.28-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.8.28-pre
 
 ## What's Changed:
+>* BlockState System by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/176 (0.8.27)
 >* Rewrite Universium Shader; Add Texture Classes by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/223 (0.8.26-pre)
 >* Rewrite Universium Shader; Add Texture Classes by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/223 (0.8.25)
 >* Move villager names from WAWLA by @SuperSoupr in https://github.com/GTNewHorizons/GTNHLib/pull/228 (0.8.23)
@@ -1049,10 +1073,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Check for GT5U specifically in compat code by @RecursivePineapple in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/136 (1.1.122-GTNH)
 >* Remove several unused items by @chochem in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/137 (1.1.122-GTNH)
 
-# Updated - Hodgepodge - 2.6.111 --> 2.7.22-pre
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.111...2.7.22-pre
+# Updated - Hodgepodge - 2.6.111 --> 2.7.24-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.111...2.7.24-pre
 
 ## What's Changed:
+>* Spotless apply for branch fix-instant-item-switch for #666 by @github-actions[bot] in https://github.com/GTNewHorizons/Hodgepodge/pull/687 (2.7.24-pre)
+>* Speedup NBTTagCompound#copy() by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/691 (2.7.23)
+>* [Memory-opti:fix leak] Fix world leak in MinecraftServer by clearing the static server instance by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/675 (2.7.23)
+>* Add option to hide the texture errors in the log by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/679 (2.7.23)
+>* Speedup ThaumcraftApi#getInfusionRecipes by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/677 (2.7.23)
+>* Write mod times results in a shutdown hook in order to capture the server events too by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/683 (2.7.23)
 >* Spotless apply for branch fix-instant-item-switch for #666 by @github-actions[bot] in https://github.com/GTNewHorizons/Hodgepodge/pull/687 (2.7.21-pre)
 >* Fix /cofh tpx logic; add F3+C(Clip location) by @SST-03 in https://github.com/GTNewHorizons/Hodgepodge/pull/678 (2.7.20)
 >* Fix mixin remapping issue by @ah-OOG-ah in https://github.com/GTNewHorizons/Hodgepodge/pull/680 (2.7.19)
@@ -1173,10 +1203,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix lighting by @sisyphussy in https://github.com/GTNewHorizons/LogisticsPipes/pull/107 (1.5.2-GTNH)
 >* Update for OrePrefix Builder #5121 by @Vlamonster in https://github.com/GTNewHorizons/LogisticsPipes/pull/108 (1.5.2-GTNH)
 
-# Updated - LootGames - 2.2.0.1 --> 2.2.6
-**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.2.0.1...2.2.6
+# Updated - LootGames - 2.2.0.1 --> 2.2.7
+**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.2.0.1...2.2.7
 
 ## What's Changed:
+>* Remove unfinished chess loot game by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/LootGames/pull/28 (2.2.7)
 >* fix sudoku msg.lootgames.stage_complete by @ABKQPO in https://github.com/GTNewHorizons/LootGames/pull/27 (2.2.6)
 >* Fix Sudoku Loot Chest by @ABKQPO in https://github.com/GTNewHorizons/LootGames/pull/24 (2.2.5)
 >* Fix duplicate loot generation in Minesweeper Level 4 by @Worive in https://github.com/GTNewHorizons/LootGames/pull/25 (2.2.5)
@@ -1224,10 +1255,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Overridable Methods For Slot Amount Text by @RecursivePineapple in https://github.com/GTNewHorizons/ModularUI/pull/91 (1.3.1)
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.21-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.21-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.22-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.22-1.7.10
 
 ## What's Changed:
+>* Fix slots ingoring max stack size by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/82 (2.3.22-1.7.10)
 >* FluidSH desync fix by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/81 (2.3.21-1.7.10)
 >* Another check by @RealSilverMoon in https://github.com/GTNewHorizons/ModularUI2/pull/80 (2.3.21-1.7.10)
 >* fix issue with textfieldwidget value not being called with .syncHandler() by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/79 (2.3.20-1.7.10)
