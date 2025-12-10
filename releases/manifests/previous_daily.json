@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-12-10T04:05:58.531965",
-  "config": "2.9.0-nightly-2025-12-08",
+  "last_updated": "2025-12-10T09:31:48.621282",
+  "config": "2.9.0-nightly-2025-12-10",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.4-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-752-GTNH",
+      "version": "rv3-beta-753-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.8.5",
+      "version": "1.8.7",
       "side": "BOTH"
     },
     "Botania": {
@@ -133,7 +133,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.4.4-GTNH",
+      "version": "1.4.5-GTNH",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.6",
+      "version": "2.10.8",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.137",
+      "version": "5.09.52.139-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.25",
+      "version": "0.8.27",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.20",
+      "version": "2.7.23",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -297,7 +297,7 @@
       "side": "BOTH"
     },
     "LootGames": {
-      "version": "2.2.6",
+      "version": "2.2.7",
       "side": "BOTH"
     },
     "LunatriusCore": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.62",
+      "version": "2.8.63-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.21-1.7.10",
+      "version": "2.3.22-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
