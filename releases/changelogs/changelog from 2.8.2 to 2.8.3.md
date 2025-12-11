@@ -16,10 +16,17 @@
 >* Fix Industrial Arc Furnace Mode Setting Waila for 2.8 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5528 (5.09.51.482)
 >* Cape System Rework by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5526 (5.09.51.482)
 
-# Updated - NewHorizonsCoreMod - 2.7.265 --> 2.7.266
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.265...2.7.266
+# Updated - Hodgepodge - 2.6.111 --> 2.6.112
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.111...2.6.112
 
 ## What's Changed:
+>* Preserve XU enchanted spike NBT when it's placed down / picked up (#618) by @SuperSoupr in https://github.com/GTNewHorizons/Hodgepodge/pull/692 (2.6.112)
+
+# Updated - NewHorizonsCoreMod - 2.7.265 --> 2.7.267
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.265...2.7.267
+
+## What's Changed:
+>* Remove ender eye from lich tower chest loot (#1502) by @Caedis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1503 (2.7.267)
 >* Add ZPM & UV Lootbag Assembler Recipes for 2.8 by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1499 (2.7.266)
 >* Seared &  Firestone Brick Blasting for 2.8 by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1501 (2.7.266)
 
@@ -36,4 +43,4 @@
 >* Update BS + deps by @serenibyss in https://github.com/GTNewHorizons/ProjectRed/pull/55 (4.12.4-GTNH)
 
 # Credits
-Special thanks to @boubou19, @chochem, @DarkShadow44, @Dragovorn, @glowredman, @MuXiu1997, @serenibyss, @UltraProdigy, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @boubou19, @Caedis, @chochem, @DarkShadow44, @Dragovorn, @glowredman, @MuXiu1997, @serenibyss, @SuperSoupr, @UltraProdigy, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3

@@ -1,8 +1,8 @@
 {
   "version": "2.8.3",
   "last_version": "2.8.2",
-  "last_updated": "2025-12-11T09:56:17.275178",
-  "config": "2.8.3-pre1",
+  "last_updated": "2025-12-11T23:05:33.491516",
+  "config": "2.8.3",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.3.13-GTNH",
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.6.111",
+      "version": "2.6.112",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.7.266",
+      "version": "2.7.267",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
