@@ -799,10 +799,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.10 --> 0.8.27
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.8.27
+# Updated - GTNHLib - 0.7.10 --> 0.8.29
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.8.29
 
 ## What's Changed:
+>* Initialize UniversiumShader only when needed by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/229 (0.8.29)
 >* BlockState System by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/176 (0.8.27)
 >* Rewrite Universium Shader; Add Texture Classes by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/223 (0.8.25)
 >* Move villager names from WAWLA by @SuperSoupr in https://github.com/GTNewHorizons/GTNHLib/pull/228 (0.8.23)
@@ -1030,10 +1031,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Overridable Methods For Slot Amount Text by @RecursivePineapple in https://github.com/GTNewHorizons/ModularUI/pull/91 (1.3.1)
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.22-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.22-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.23-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.23-1.7.10
 
 ## What's Changed:
+>* make fluid drawable widget by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/84 (2.3.23-1.7.10)
+>* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/ModularUI2/pull/83 (2.3.23-1.7.10)
 >* Fix slots ingoring max stack size by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/82 (2.3.22-1.7.10)
 >* FluidSH desync fix by @chrombread in https://github.com/GTNewHorizons/ModularUI2/pull/81 (2.3.21-1.7.10)
 >* Another check by @RealSilverMoon in https://github.com/GTNewHorizons/ModularUI2/pull/80 (2.3.21-1.7.10)
