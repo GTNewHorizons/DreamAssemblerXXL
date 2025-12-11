@@ -5,6 +5,24 @@
 >* Revert light value caching, applying better iteration to avoid null exceptions by @Worive in https://github.com/GTNewHorizons/ForgeMultipart/pull/37 (1.7.2)
 >* Add dynamic render option without relying on doesTick by @Worive in https://github.com/GTNewHorizons/ForgeMultipart/pull/38 (1.7.2)
 
+# Updated - GT5-Unofficial - 5.09.51.481 --> 5.09.51.482
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.481...5.09.51.482
+
+## What's Changed:
+>* Revert "Fix Strontium dupe" (#5308) for 2.8 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5512 (5.09.51.482)
+>* Some achievement text fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5524 (5.09.51.482)
+>* Nerf black plutonium and mining neutronium casings by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5522 (5.09.51.482)
+>* Increase Netherrack Froth output volume to 8x for 2.8 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5529 (5.09.51.482)
+>* Fix Industrial Arc Furnace Mode Setting Waila for 2.8 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5528 (5.09.51.482)
+>* Cape System Rework by @glowredman in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5526 (5.09.51.482)
+
+# Updated - NewHorizonsCoreMod - 2.7.265 --> 2.7.266
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.265...2.7.266
+
+## What's Changed:
+>* Add ZPM & UV Lootbag Assembler Recipes for 2.8 by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1499 (2.7.266)
+>* Seared &  Firestone Brick Blasting for 2.8 by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1501 (2.7.266)
+
 # Updated - ProjectRed - 4.11.13-GTNH --> 4.12.6-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.11.13-GTNH...4.12.6-GTNH
 
@@ -18,4 +36,4 @@
 >* Update BS + deps by @serenibyss in https://github.com/GTNewHorizons/ProjectRed/pull/55 (4.12.4-GTNH)
 
 # Credits
-Special thanks to @DarkShadow44, @Dragovorn, @MuXiu1997, @serenibyss, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @boubou19, @chochem, @DarkShadow44, @Dragovorn, @glowredman, @MuXiu1997, @serenibyss, @UltraProdigy, @Worive, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
