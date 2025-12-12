@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-12-11T04:08:16.777769",
-  "config": "2.9.0-nightly-2025-12-10",
+  "last_updated": "2025-12-12T04:07:23.482647",
+  "config": "2.9.0-nightly-2025-12-11",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.4-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.27-gtnh",
+      "version": "1.5.30-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,15 +29,15 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-752-GTNH",
+      "version": "rv3-beta-754-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.12.1",
+      "version": "1.12.3",
       "side": "BOTH"
     },
     "AsieLib": {
-      "version": "0.7.0",
+      "version": "0.7.1",
       "side": "BOTH"
     },
     "Avaritia": {
@@ -61,7 +61,7 @@
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
-      "version": "1.7.2-GTNH",
+      "version": "1.7.3-GTNH",
       "side": "CLIENT"
     },
     "BetterP2P": {
@@ -101,7 +101,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.47",
+      "version": "7.1.48",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -117,7 +117,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.17.7-GTNH",
+      "version": "2.17.9-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -157,7 +157,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.5.4-GTNH",
+      "version": "1.5.6-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.138",
+      "version": "5.09.52.140",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.29",
+      "version": "0.8.31",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -241,11 +241,11 @@
       "side": "BOTH"
     },
     "harvestcraft": {
-      "version": "1.3.2-GTNH",
+      "version": "1.3.3-GTNH",
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.23",
+      "version": "2.7.25",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -273,7 +273,7 @@
       "side": "BOTH"
     },
     "ironchest": {
-      "version": "6.1.6",
+      "version": "6.1.7",
       "side": "BOTH"
     },
     "IronChestMinecarts": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.10",
+      "version": "1.6.13",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.62",
+      "version": "2.8.64",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.14",
+      "version": "1.7.18",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -381,7 +381,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.6-GTNH",
+      "version": "1.12.8-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -489,7 +489,7 @@
       "side": "BOTH"
     },
     "TCNEIAdditions": {
-      "version": "1.5.4",
+      "version": "1.5.6",
       "side": "BOTH"
     },
     "TCNodeTracker": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.14-GTNH",
+      "version": "1.14.15-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -589,7 +589,7 @@
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
-      "version": "1.12.7",
+      "version": "1.12.10",
       "side": "BOTH"
     },
     "WirelessRedstone-CBE": {
@@ -629,7 +629,7 @@
       "side": "BOTH"
     },
     "FloodLights": {
-      "version": "1.5.4",
+      "version": "1.5.5",
       "side": "BOTH"
     },
     "ForgeRelocationFMP": {
@@ -729,7 +729,7 @@
       "side": "BOTH"
     },
     "Tinkers-Defense": {
-      "version": "1.3.2",
+      "version": "1.3.3",
       "side": "BOTH"
     },
     "neiaddons": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.11-GTNH",
+      "version": "1.3.13-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
-      "version": "1.6.3-backhand",
+      "version": "1.6.6-backhand",
       "side": "BOTH"
     },
     "Backhand": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "RandomBoubles": {
-      "version": "1.1.1",
+      "version": "1.1.2",
       "side": "BOTH"
     },
     "VendingMachine": {
