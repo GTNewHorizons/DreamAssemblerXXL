@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-12-12T04:07:23.482647",
+  "last_updated": "2025-12-13T03:57:49.356959",
   "config": "2.9.0-nightly-2025-12-11",
   "github_mods": {
     "AdventureBackpack2": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.31",
+      "version": "0.8.32",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -553,7 +553,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.13",
+      "version": "2.7.15",
       "side": "BOTH"
     },
     "Universal-Singularities": {

@@ -825,10 +825,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
 
-# Updated - GTNHLib - 0.7.10 --> 0.8.31
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.8.31
+# Updated - GTNHLib - 0.7.10 --> 0.8.32
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.8.32
 
 ## What's Changed:
+>* Fix a crash with universium shader by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/233 (0.8.32)
 >* Fix missing uniform variable in UniversiumShader by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/231 (0.8.31)
 >* Initialize UniversiumShader only when needed by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/229 (0.8.29)
 >* BlockState System by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/176 (0.8.27)
@@ -1552,6 +1553,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Set Handler Custom Scroll by @slprime in https://github.com/GTNewHorizons/nei-custom-diagram/pull/50 (1.8.4)
 >* Swap to GTBlockOre by @RecursivePineapple in https://github.com/GTNewHorizons/nei-custom-diagram/pull/52 (1.8.3)
 >* add server support for tank and chest by @fengluo2 in https://github.com/GTNewHorizons/nei-custom-diagram/pull/51 (1.8.0)
+
+# Updated - twilightforest - 2.7.13 --> 2.7.15
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.13...2.7.15
+
+## What's Changed:
+>* Prevent fireflies from deleting blocks by @DarkShadow44 in https://github.com/GTNewHorizons/twilightforest/pull/127 (2.7.15)
 
 # Updated - waila - 1.8.15 --> 1.9.15
 **Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.15...1.9.15
