@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-12-16T04:08:46.249581",
-  "config": "2.9.0-nightly-2025-12-14",
+  "last_updated": "2025-12-17T04:04:47.776523",
+  "config": "2.9.0-nightly-2025-12-16",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.4.4-GTNH",
+      "version": "1.4.7",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.30-gtnh",
+      "version": "1.5.33-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -21,7 +21,7 @@
       "side": "BOTH"
     },
     "AngerMod": {
-      "version": "0.9.0",
+      "version": "1.0.0",
       "side": "BOTH"
     },
     "AppleCore": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-758-GTNH",
+      "version": "rv3-beta-760-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.8",
+      "version": "2.10.10",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "EnhancedLootBags": {
-      "version": "1.2.8",
+      "version": "1.2.10",
       "side": "BOTH"
     },
     "Eternal-Singularity": {
@@ -209,11 +209,11 @@
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.5.4",
+      "version": "1.5.6",
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.11-GTNH",
+      "version": "3.4.13-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.143",
+      "version": "5.09.52.148",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.33",
+      "version": "0.8.34",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -253,7 +253,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.4.9",
+      "version": "1.4.10",
       "side": "BOTH"
     },
     "IFU": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.42-GTNH",
+      "version": "2.8.43-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.6",
+      "version": "9.17.10",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -465,7 +465,7 @@
       "side": "BOTH"
     },
     "StevesAddons": {
-      "version": "0.15.0",
+      "version": "0.15.2",
       "side": "BOTH"
     },
     "StorageDrawers": {
@@ -493,7 +493,7 @@
       "side": "BOTH"
     },
     "TCNodeTracker": {
-      "version": "1.4.0",
+      "version": "1.4.2",
       "side": "CLIENT"
     },
     "thaumcraft-research-tweaks": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.15-GTNH",
+      "version": "1.14.17-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -597,11 +597,11 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.4.3",
+      "version": "1.4.5",
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.12-GTNH",
+      "version": "1.8.13-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -621,7 +621,7 @@
       "side": "BOTH"
     },
     "TX-Loader": {
-      "version": "1.8.5",
+      "version": "1.8.7",
       "side": "CLIENT"
     },
     "NotEnoughIds": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.6",
+      "version": "2.2.9",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.28",
+      "version": "0.4.29",
       "side": "BOTH"
     }
   },
