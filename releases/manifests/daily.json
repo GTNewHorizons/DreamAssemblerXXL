@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-12-17T19:03:40.651884",
+  "last_updated": "2025-12-18T04:06:07.569147",
   "config": "2.9.0-nightly-2025-12-16",
   "github_mods": {
     "AdventureBackpack2": {
@@ -765,7 +765,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.4-GTNH",
+      "version": "0.1.5-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
