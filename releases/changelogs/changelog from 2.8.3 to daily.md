@@ -78,10 +78,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-760-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-760-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-761-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-761-GTNH
 
 ## What's Changed:
+>* Implement simulateAdd for ItemIO by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/955 (rv3-beta-761-GTNH)
+>* add an interface to allow for block containers to disable facades based on metadata. by @chrombread in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/969 (rv3-beta-761-GTNH)
 >* Fix fake slot by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/964 (rv3-beta-760-GTNH)
 >* Correct fluid amount for NEI by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/963 (rv3-beta-759-GTNH)
 >* Reduce updates when recoloring cables by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/954 (rv3-beta-759-GTNH)
@@ -424,10 +426,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.150
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.150
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.152
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.152
 
 ## What's Changed:
+>* Refactor dot() -> hint() in StructureDefiniton by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5552 (5.09.52.152)
+>* Replace Missed Dot Mentions by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5553 (5.09.52.152)
 >* add show on Interface Terminal button by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5402 (5.09.52.150)
 >* change Powder Barrel texture by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5547 (5.09.52.150)
 >* Fix logic in cauldron NEI recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5549 (5.09.52.150)
@@ -1375,8 +1379,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adding quite a few rings. by @Ethryan in https://github.com/GTNewHorizons/RandomBoubles/pull/2 (1.1.0)
 >* Add zh_CN.lang by @Omgise in https://github.com/GTNewHorizons/RandomBoubles/pull/1 (1.0.3)
 
-# Updated - Salis-Arcana - 1.1.33-GTNH --> 1.1.39-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.33-GTNH...1.1.39-GTNH
+# Updated - Salis-Arcana - 1.1.33-GTNH --> 1.1.40-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.33-GTNH...1.1.40-GTNH
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
