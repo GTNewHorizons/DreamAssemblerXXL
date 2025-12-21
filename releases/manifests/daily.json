@@ -1,7 +1,7 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2025-12-21T04:47:53.236339",
+  "last_version": "2.8.3",
+  "last_updated": "2025-12-21T09:32:42.068713",
   "config": "2.9.0-nightly-2025-12-20",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.156",
+      "version": "5.09.52.158",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta68",
+      "version": "1.0.0-beta68a",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -895,7 +895,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.41",
+      "version": "1.5.42",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
