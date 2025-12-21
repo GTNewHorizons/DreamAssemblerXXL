@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-12-21T04:14:33.217784",
+  "last_updated": "2025-12-21T04:47:53.236339",
   "config": "2.9.0-nightly-2025-12-20",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.4.4-GTNH",
+      "version": "1.4.7-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.34-gtnh",
+      "version": "1.5.35-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
