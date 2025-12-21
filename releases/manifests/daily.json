@@ -5,7 +5,7 @@
   "config": "2.9.0-nightly-2025-12-20",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.4.7",
+      "version": "1.4.4-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
