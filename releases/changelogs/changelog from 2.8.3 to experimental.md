@@ -516,8 +516,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.159-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.159-pre
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.160-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.160-pre
 
 ## What's Changed:
 >* Platline chemical formula fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5564 (5.09.52.159-pre)
