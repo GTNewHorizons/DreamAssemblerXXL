@@ -63,6 +63,13 @@ Mod is client-side only.
 >* Increase Scroll Speed in Settings GUIs by @ALongStringOfNumbers in https://github.com/GTNewHorizons/Angelica/pull/1106 (1.0.0-beta68)
 >* split AngelicaRedirector from SodiumBlockTransform by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/1018 (1.0.0-beta68)
 >* Port `FIX_BLOCK_CRACK` from FalseTweaks 2 by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1023 (1.0.0-beta68)
+>* Set maxShiftBy to fix some log warnings by @ALongStringOfNumbers in https://github.com/GTNewHorizons/Angelica/pull/1105 (1.0.0-beta68a)
+>* Add more VAO tests by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1093 (1.0.0-beta68a)
+>* Uniform Additions and fixes by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1102 (1.0.0-beta68a)
+>* [Shaders] Basic compatibility with NTM:Space skybox & more by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1096 (1.0.0-beta68a)
+>* Increase Scroll Speed in Settings GUIs by @ALongStringOfNumbers in https://github.com/GTNewHorizons/Angelica/pull/1106 (1.0.0-beta68a)
+>* split AngelicaRedirector from SodiumBlockTransform by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/1018 (1.0.0-beta68a)
+>* Port `FIX_BLOCK_CRACK` from FalseTweaks 2 by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1023 (1.0.0-beta68a)
 >* Update model API by @ah-OOG-ah in https://github.com/GTNewHorizons/Angelica/pull/842 (1.0.0-beta67)
 >* Disable hardcoded custom uniforms by default by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/1100 (1.0.0-beta66)
 >* Add several missing built-in uniforms by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/1101 (1.0.0-beta66)
@@ -435,10 +442,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.156
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.156
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.158
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.158
 
 ## What's Changed:
+>* Platline chemical formula fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5564 (5.09.52.158)
+>* Fix Tantalum Hafnium Carbide Material Stats by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5565 (5.09.52.158)
+>* fix debug hatch drain code to respect filtered fluid stacks by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5569 (5.09.52.158)
+>* Add sheetmetal blocks by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5387 (5.09.52.158)
+>* Rework Bacterial Vat Tooltip by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5571 (5.09.52.158)
 >* Buildscript kotlinification and configuration cache safety by @eigenraven in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5551 (5.09.52.156)
 >* dep bump ae2 for sheetmetal by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5556 (5.09.52.154)
 >* Add overlay when solar boiler is calcified by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5557 (5.09.52.154)
@@ -1476,7 +1488,7 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix Thaumic Augmentation by @chochem in https://github.com/GTNewHorizons/Super-TiC/pull/10 (1.5.4)
 
-# Updated - TC-4-Tweaks - 1.5.39 --> 1.5.41
+# Updated - TC-4-Tweaks - 1.5.39 --> 1.5.42
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - TCNEIAdditions - 1.5.4 --> 1.5.6
