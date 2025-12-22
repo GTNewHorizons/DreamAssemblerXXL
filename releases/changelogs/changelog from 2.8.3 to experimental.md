@@ -3,10 +3,14 @@
 > * VendingMachine
 # Mods Removed: 
 > * AE2NoUltimatePatterns
-# Updated - AE2FluidCraft-Rework - 1.4.119-gtnh --> 1.5.36-gtnh-pre
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.119-gtnh...1.5.36-gtnh-pre
+# Updated - AE2FluidCraft-Rework - 1.4.119-gtnh --> 1.5.38-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.119-gtnh...1.5.38-gtnh
 
 ## What's Changed:
+>* fix draining simulation actually perform drain by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/383 (1.5.38-gtnh)
+>* Adapt to AE2 slot rendering refactor by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/380 (1.5.38-gtnh)
+>* fix certus tank update spam 2.8 2.9 by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/385 (1.5.38-gtnh)
+>* Fix import/export bus issues by @hiroscho in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/384 (1.5.38-gtnh)
 >* Spotless apply for branch adapt-ae2-refactor for #380 by @github-actions[bot] in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/381 (1.5.36-gtnh-pre)
 >* Fix primary gui by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/382 (1.5.35-gtnh)
 >* Add keybinds for every universal terminal by @iR3turnZ in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/379 (1.5.34-gtnh)
@@ -117,10 +121,14 @@ Mod is client-side only.
 ## What's Changed:
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-763-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-763-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-766-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-766-GTNH-pre
 
 ## What's Changed:
+>* Spotless apply for branch refactor-gui-sync-annotation for #968 by @github-actions[bot] in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/973 (rv3-beta-766-GTNH-pre)
+>* Fix the Cutting Knife check by @ABKQPO in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/975 (rv3-beta-765-GTNH)
+>* Fix crafting gui transition by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/976 (rv3-beta-765-GTNH)
+>* Fix amount to send calculation for fluids by @hiroscho in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/978 (rv3-beta-765-GTNH)
 >* Spotless apply for branch refactor-gui-sync-annotation for #968 by @github-actions[bot] in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/973 (rv3-beta-763-GTNH-pre)
 >* Refactor slot rendering and fix items not appearing while dragging by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/970 (rv3-beta-762-GTNH)
 >* Fix Universal Terminal not loading pattern when changing pattern output slot by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/972 (rv3-beta-762-GTNH)
@@ -301,14 +309,16 @@ Mod is client-side only.
 >* [Memory-opti:runtime allocations] Reduce amount of NBTTagCompound created in TileEntityMetadata#getItemStack by @Alexdoru in https://github.com/GTNewHorizons/Binnie/pull/77 (2.6.2)
 >* fix batched updates does not call window and machine packet listeners by @Glease in https://github.com/GTNewHorizons/Binnie/pull/74 (2.6.0)
 
-# Updated - BlockRenderer6343 - 1.3.17 --> 1.4.2
-**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.17...1.4.2
+# Updated - BlockRenderer6343 - 1.3.17 --> 1.4.4
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.17...1.4.4
 
 ## What's Changed:
+>* Update Dependencies by @slprime in https://github.com/GTNewHorizons/BlockRenderer6343/pull/37 (1.4.3)
+>* Structure Preview Fix pt1 by @UltraProdigy in https://github.com/GTNewHorizons/BlockRenderer6343/pull/38 (1.4.3)
 >* Update NEI Catalyst by @slprime in https://github.com/GTNewHorizons/BlockRenderer6343/pull/36 (1.4.2)
 
-# Updated - BloodArsenal - 1.4.10 --> 1.5.1-pre
-**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.4.10...1.5.1-pre
+# Updated - BloodArsenal - 1.4.10 --> 1.5.3-pre
+**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.4.10...1.5.3-pre
 
 ## What's Changed:
 >* Fix overenchanting by @Caedis in https://github.com/GTNewHorizons/BloodArsenal/pull/36 (1.5.0)
@@ -441,8 +451,8 @@ Mod is client-side only.
 ## What's Changed:
 >* Adds a custom overlay for Forestry backpacks by @querns in https://github.com/GTNewHorizons/DuraDisplay/pull/23 (1.4.0)
 
-# Updated - Electro-Magic-Tools - 1.6.18 --> 1.7.8
-**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.18...1.7.8
+# Updated - Electro-Magic-Tools - 1.6.18 --> 1.7.9-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.18...1.7.9-pre
 
 ## What's Changed:
 >* Rebalance Falling and Flying Speed for Boots of Traveller by @SST-03 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/107 (1.7.8)
@@ -516,10 +526,17 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.160-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.160-pre
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.165-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.165-pre
 
 ## What's Changed:
+>* Structure Preview Fix pt2 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5575 (5.09.52.165-pre)
+>* Made Powerfail Icons a bit nicer by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5576 (5.09.52.165-pre)
+>* [MUI2] Water Purification Plant by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5568 (5.09.52.165-pre)
+>* Made Powerfail Icons a bit nicer by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5576 (5.09.52.164)
+>* [MUI2] Water Purification Plant by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5568 (5.09.52.164)
+>* Structure Preview Fix pt2 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5575 (5.09.52.163)
+>* Move Background in NEI Handlers by @slprime in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5572 (5.09.52.161)
 >* Platline chemical formula fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5564 (5.09.52.159-pre)
 >* Fix Tantalum Hafnium Carbide Material Stats by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5565 (5.09.52.159-pre)
 >* fix debug hatch drain code to respect filtered fluid stacks by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5569 (5.09.52.159-pre)
@@ -1214,6 +1231,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Check for GT5U specifically in compat code by @RecursivePineapple in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/136 (1.1.122-GTNH)
 >* Remove several unused items by @chochem in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/137 (1.1.122-GTNH)
 
+# Updated - Gravitation-Suite-Neo - 1.3.6 --> 1.3.8
+**Full Changelog**: https://github.com/GTNewHorizons/Gravitation-Suite-Neo/compare/1.3.6...1.3.8
+
+## What's Changed:
+>* Disabled fire extinguishing for Advanced NanoChestPlate and GraviChestPlate if fire resistance is active by @loenaaaa in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/29 (1.3.8)
+
 # Updated - Hodgepodge - 2.6.112 --> 2.7.28-pre
 **Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.28-pre
 
@@ -1481,8 +1504,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - NewHorizonsCoreMod - 2.7.267 --> 2.8.69-pre
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.267...2.8.69-pre
+# Updated - NewHorizonsCoreMod - 2.7.267 --> 2.8.70-pre
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.267...2.8.70-pre
 
 ## What's Changed:
 >* Revert "Dont scale up sun alloy recipe times (#1515)" by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1517 (2.8.68)
@@ -1673,6 +1696,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Provide chunk to tile entity transformers by @SuperSoupr in https://github.com/GTNewHorizons/Postea/pull/17 (1.1.5)
 >* Use FMLModIdMappingEvent for numeric id mapping by @SuperSoupr in https://github.com/GTNewHorizons/Postea/pull/15 (1.1.4)
 
+# Updated - ProjectBlue - 1.2.1-GTNH --> 1.2.2-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectBlue/compare/1.2.1-GTNH...1.2.2-GTNH-pre
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - ProjectRed - 4.12.6-GTNH --> 4.12.9-GTNH-pre
 **Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.6-GTNH...4.12.9-GTNH-pre
 
@@ -1913,8 +1941,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.30
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.30
+# New Mod - VendingMachine:0.4.31-pre
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.31-pre
 
 ## What's Changed:
 >* Add Oredict tooltips by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/49 (0.4.30)
@@ -1992,8 +2020,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix armor slot index and duplicated tooltip by @Kogepan229 in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/45 (1.12.11)
 >* Universal GUI by @Kogepan229 in https://github.com/GTNewHorizons/WirelessCraftingTerminal/pull/44 (1.12.10)
 
-# Updated - WitcheryExtras - 1.3.7 --> 1.4.5
-**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.3.7...1.4.5
+# Updated - WitcheryExtras - 1.3.7 --> 1.4.6-pre
+**Full Changelog**: https://github.com/GTNewHorizons/WitcheryExtras/compare/1.3.7...1.4.6-pre
 
 ## What's Changed:
 >* Remove log spam by @Alexdoru in https://github.com/GTNewHorizons/WitcheryExtras/pull/32 (1.4.5)
