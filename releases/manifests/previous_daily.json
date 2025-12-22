@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-12-21T04:47:53.236339",
+  "last_updated": "2025-12-22T04:14:41.647209",
   "config": "2.9.0-nightly-2025-12-20",
   "github_mods": {
     "AdventureBackpack2": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.156",
+      "version": "5.09.52.163",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.4.2",
+      "version": "1.4.4",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -895,7 +895,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.41",
+      "version": "1.5.42",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
