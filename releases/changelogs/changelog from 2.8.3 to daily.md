@@ -241,10 +241,12 @@ Mod is client-side only.
 >* [Memory-opti:runtime allocations] Reduce amount of NBTTagCompound created in TileEntityMetadata#getItemStack by @Alexdoru in https://github.com/GTNewHorizons/Binnie/pull/77 (2.6.2)
 >* fix batched updates does not call window and machine packet listeners by @Glease in https://github.com/GTNewHorizons/Binnie/pull/74 (2.6.0)
 
-# Updated - BlockRenderer6343 - 1.3.17 --> 1.4.2
-**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.17...1.4.2
+# Updated - BlockRenderer6343 - 1.3.17 --> 1.4.4
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.17...1.4.4
 
 ## What's Changed:
+>* Update Dependencies by @slprime in https://github.com/GTNewHorizons/BlockRenderer6343/pull/37 (1.4.3)
+>* Structure Preview Fix pt1 by @UltraProdigy in https://github.com/GTNewHorizons/BlockRenderer6343/pull/38 (1.4.3)
 >* Update NEI Catalyst by @slprime in https://github.com/GTNewHorizons/BlockRenderer6343/pull/36 (1.4.2)
 
 # Updated - BloodArsenal - 1.4.10 --> 1.5.0
@@ -442,10 +444,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.158
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.158
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.163
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.163
 
 ## What's Changed:
+>* Structure Preview Fix pt2 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5575 (5.09.52.163)
+>* Move Background in NEI Handlers by @slprime in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5572 (5.09.52.161)
 >* Platline chemical formula fixes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5564 (5.09.52.158)
 >* Fix Tantalum Hafnium Carbide Material Stats by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5565 (5.09.52.158)
 >* fix debug hatch drain code to respect filtered fluid stacks by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5569 (5.09.52.158)
