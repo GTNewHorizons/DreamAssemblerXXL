@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-12-23T04:10:58.589289",
-  "config": "2.9.0-nightly-2025-12-22",
+  "last_updated": "2025-12-24T04:08:40.358725",
+  "config": "2.9.0-nightly-2025-12-23",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.7-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-765-GTNH",
+      "version": "rv3-beta-768-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.164",
+      "version": "5.09.52.166",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.68",
+      "version": "2.8.74",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.7.0",
+      "version": "2.7.2",
       "side": "BOTH"
     },
     "oauth": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.10",
+      "version": "9.17.12",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -549,7 +549,7 @@
       "side": "CLIENT"
     },
     "Translocators": {
-      "version": "1.4.0",
+      "version": "1.4.3",
       "side": "BOTH"
     },
     "twilightforest": {
@@ -597,7 +597,7 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.4.5",
+      "version": "1.4.7",
       "side": "BOTH"
     },
     "WitchingGadgets": {
@@ -697,7 +697,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.8-GTNH",
+      "version": "0.5.9-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.30",
+      "version": "0.4.32",
       "side": "BOTH"
     }
   },
