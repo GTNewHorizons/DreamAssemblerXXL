@@ -1,15 +1,15 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-12-22T04:14:41.647209",
-  "config": "2.9.0-nightly-2025-12-20",
+  "last_updated": "2025-12-25T04:11:08.402227",
+  "config": "2.9.0-nightly-2025-12-24-3",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.7-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.35-gtnh",
+      "version": "1.5.38-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-762-GTNH",
+      "version": "rv3-beta-768-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.163",
+      "version": "5.09.52.170",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.27",
+      "version": "2.7.32",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.68",
+      "version": "2.8.74",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.7.0",
+      "version": "2.7.2",
       "side": "BOTH"
     },
     "oauth": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.10",
+      "version": "9.17.12",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -549,7 +549,7 @@
       "side": "CLIENT"
     },
     "Translocators": {
-      "version": "1.4.0",
+      "version": "1.4.3",
       "side": "BOTH"
     },
     "twilightforest": {
@@ -597,7 +597,7 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.4.5",
+      "version": "1.4.7",
       "side": "BOTH"
     },
     "WitchingGadgets": {
@@ -669,7 +669,7 @@
       "side": "CLIENT"
     },
     "Gravitation-Suite-Neo": {
-      "version": "1.3.6",
+      "version": "1.3.8",
       "side": "BOTH"
     },
     "MrTJPCore": {
@@ -697,7 +697,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.8-GTNH",
+      "version": "0.5.9-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.14-GTNH",
+      "version": "1.3.16-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.30",
+      "version": "0.4.32",
       "side": "BOTH"
     }
   },
