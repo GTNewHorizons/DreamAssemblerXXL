@@ -453,10 +453,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.170
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.170
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.173
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.173
 
 ## What's Changed:
+>* [MUI2] turbine hatch by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5596 (5.09.52.173)
+>* [MUI2] Advanced Muffler Hatch by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5581 (5.09.52.173)
+>* [MUI2] MTEHatchElementalDataOrbHolder.java by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5591 (5.09.52.173)
+>* [MUI2] Capacitor hatch by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5578 (5.09.52.173)
+>* [MUI2] Port turbine holder by @Spicierspace153 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5582 (5.09.52.173)
 >* Remove Duplicate Zirconium (Pt. 3 - The Finale?) by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5595 (5.09.52.170)
 >* Fix hypogen fluid textures, rhugnor+hypogen block textures by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5594 (5.09.52.168)
 >* Fix unintended recipe gating by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5586 (5.09.52.166)
@@ -1258,10 +1263,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.74
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.74
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.80
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.80
 
 ## What's Changed:
+>* Use nanosecond timer for scripts. by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1528 (2.8.80)
 >* Add klaxon2 and SG1-evac sounds to nuclear control howler alarm by @2ndDerivative in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1526 (2.8.74)
 >* Fix unintended recipe gating by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1524 (2.8.71)
 >* Revert "Dont scale up sun alloy recipe times (#1515)" by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1517 (2.8.68)
