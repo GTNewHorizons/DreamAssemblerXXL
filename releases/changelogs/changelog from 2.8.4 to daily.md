@@ -453,10 +453,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.166
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.166
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.170
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.170
 
 ## What's Changed:
+>* Remove Duplicate Zirconium (Pt. 3 - The Finale?) by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5595 (5.09.52.170)
+>* Fix hypogen fluid textures, rhugnor+hypogen block textures by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5594 (5.09.52.168)
 >* Fix unintended recipe gating by @serenibyss in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5586 (5.09.52.166)
 >* change steam multi base to use super class texture and overlay methods by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5587 (5.09.52.166)
 >* Fix waterline incorrect power usage after powerfail by @kx08 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5585 (5.09.52.166)
@@ -928,6 +930,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* ME Crafting Buses remember connections to their proxies. by @AbdielKavash in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4511 (5.09.52.00)
 >* Add a New ZPM+ Centrifuge Multiblock by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4378 (5.09.52.00)
 >* Void protection refactor + improvements by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4671 (5.09.52.00)
+>* fix: Missing side check crash when hint is called on a frame (#5209) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5555 (5.09.51.483)
+>* Fix Tantalum Hafnium Carbide Material Stats for 2.8.4 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5566 (5.09.51.483)
 
 # Updated - GTNH-TC-Wands - 1.4.6 --> 1.4.7
 **Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.6...1.4.7
@@ -1012,10 +1016,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Disabled fire extinguishing for Advanced NanoChestPlate and GraviChestPlate if fire resistance is active by @loenaaaa in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/29 (1.3.8)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.27
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.27
+# Updated - Hodgepodge - 2.6.112 --> 2.7.32
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.32
 
 ## What's Changed:
+>* Fix pistons with over 5 meta causing crashes by @koolkrafter5 in https://github.com/GTNewHorizons/Hodgepodge/pull/698 (2.7.32)
 >* Remove numeric ID deprecation notice by @DeathFuel in https://github.com/GTNewHorizons/Hodgepodge/pull/697 (2.7.27)
 >* Port FalseTweak's fast item physics by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/631 (2.7.25)
 >* fix CoFH world leak in main mod class by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/695 (2.7.25)
@@ -1082,10 +1087,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Enable the lp to be calculated and make the code writing method on the wiki usable. by @PinkYuDeer in https://github.com/GTNewHorizons/InGame-Info-XML/pull/35 (2.9.0)
 
-# Updated - InventoryBogoSorter - 1.2.68-GTNH --> 1.3.14-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.68-GTNH...1.3.14-GTNH
+# Updated - InventoryBogoSorter - 1.2.68-GTNH --> 1.3.16-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.68-GTNH...1.3.16-GTNH
 
 ## What's Changed:
+>* Spread DropOff item transfers across multiple ticks by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/165 (1.3.16-GTNH)
 >* Change the scan for duplicates by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/166 (1.3.14-GTNH)
 >* Add chisel chests by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/162 (1.3.13-GTNH)
 >* DropOff Render Overhaul - Smooth Fading & New Styles by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/164 (1.3.13-GTNH)
