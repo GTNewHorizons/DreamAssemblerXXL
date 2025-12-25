@@ -1,8 +1,8 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-12-22T21:20:33.716650",
-  "config": "2.9.0-nightly-2025-12-22-2-pre",
+  "last_updated": "2025-12-24T11:07:26.543919",
+  "config": "2.9.0-nightly-2025-12-23-2-pre",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.8-GTNH-pre",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-766-GTNH-pre",
+      "version": "rv3-beta-769-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.80-pre",
+      "version": "1.81-pre",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -149,7 +149,7 @@
       "side": "BOTH"
     },
     "DefaultServerList": {
-      "version": "1.7.1-pre",
+      "version": "1.7.2-pre",
       "side": "CLIENT"
     },
     "DefaultWorldGenerator": {
@@ -161,7 +161,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.7.9-pre",
+      "version": "1.7.10-pre",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "Eternal-Singularity": {
-      "version": "1.3.0",
+      "version": "1.3.1-pre",
       "side": "BOTH"
     },
     "FindIt": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.165-pre",
+      "version": "5.09.52.169-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.36-pre",
+      "version": "0.8.37-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.28-pre",
+      "version": "2.7.30-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -285,7 +285,7 @@
       "side": "BOTH"
     },
     "Jabba": {
-      "version": "1.5.16",
+      "version": "1.5.17-pre",
       "side": "BOTH"
     },
     "LittleTiles": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.70-pre",
+      "version": "2.8.77-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.7.0",
+      "version": "2.7.2",
       "side": "BOTH"
     },
     "oauth": {
@@ -413,11 +413,11 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.9-GTNH-pre",
+      "version": "4.12.10-GTNH-pre",
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.11-pre",
+      "version": "9.17.13-pre",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -469,7 +469,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.5-GTNH",
+      "version": "2.2.6-GTNH-pre",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -549,7 +549,7 @@
       "side": "CLIENT"
     },
     "Translocators": {
-      "version": "1.4.1-pre",
+      "version": "1.4.3",
       "side": "BOTH"
     },
     "twilightforest": {
@@ -597,7 +597,7 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.4.6-pre",
+      "version": "1.4.7",
       "side": "BOTH"
     },
     "WitchingGadgets": {
@@ -697,7 +697,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.8-GTNH",
+      "version": "0.5.9-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.31-pre",
+      "version": "0.4.33-pre",
       "side": "BOTH"
     }
   },
