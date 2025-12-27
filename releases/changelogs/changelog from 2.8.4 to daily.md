@@ -91,10 +91,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-768-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-768-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-770-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-770-GTNH
 
 ## What's Changed:
+>* Fix crafting gui open in non-hand slot by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/981 (rv3-beta-770-GTNH)
 >* make crafting tree search more exhaustive by @Glease in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/936 (rv3-beta-768-GTNH)
 >* Fix NEI Cell View stack size rendering by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/979 (rv3-beta-767-GTNH)
 >* Fix the Cutting Knife check by @ABKQPO in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/975 (rv3-beta-765-GTNH)
@@ -214,11 +215,12 @@ Mod is client-side only.
 >* Hide debug items from NEI by @Ethryan in https://github.com/GTNewHorizons/Baubles-Expanded/pull/18 (2.2.1-GTNH)
 >* After clearing, get new baubles inventory instead of working with old one by @DarkShadow44 in https://github.com/GTNewHorizons/Baubles-Expanded/pull/15 (2.2.0-GTNH)
 
-# Updated - BetterLoadingScreen - 1.7.2-GTNH --> 1.7.3-GTNH
+# Updated - BetterLoadingScreen - 1.7.2-GTNH --> 1.7.4-GTNH
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.7.2-GTNH...1.7.3-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.7.2-GTNH...1.7.4-GTNH
 
 ## What's Changed:
+>* Fix running in a headless Swing/AWT environment by @eigenraven in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/29 (1.7.4-GTNH)
 >* remove useless event registration by @Alexdoru in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/28 (1.7.3-GTNH)
 
 # Updated - BetterP2P - 1.3.3 --> 1.4.3
@@ -395,10 +397,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - EnderIO - 2.9.28 --> 2.10.10
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.28...2.10.10
+# Updated - EnderIO - 2.9.28 --> 2.10.12
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.28...2.10.12
 
 ## What's Changed:
+>* Fix Client Crash when breaking Wirelesscharger on Server by @PLASMAchicken in https://github.com/GTNewHorizons/EnderIO/pull/216 (2.10.12)
 >* [Memory-opti:fix leak] Fix World leak in WirelessChargerController by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/212 (2.10.10)
 >* Improve NetworkedInventory robustness by @Worive in https://github.com/GTNewHorizons/EnderIO/pull/210 (2.10.8)
 >* Delete brute forcing of items to generate Thaumcraft aspects by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/213 (2.10.6)
@@ -1092,10 +1095,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Enable the lp to be calculated and make the code writing method on the wiki usable. by @PinkYuDeer in https://github.com/GTNewHorizons/InGame-Info-XML/pull/35 (2.9.0)
 
-# Updated - InventoryBogoSorter - 1.2.68-GTNH --> 1.3.16-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.68-GTNH...1.3.16-GTNH
+# Updated - InventoryBogoSorter - 1.2.68-GTNH --> 1.3.17-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/InventoryBogoSorter/compare/1.2.68-GTNH...1.3.17-GTNH
 
 ## What's Changed:
+>* fix ae crafting slot by @lc-1337 in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/167 (1.3.17-GTNH)
 >* Spread DropOff item transfers across multiple ticks by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/165 (1.3.16-GTNH)
 >* Change the scan for duplicates by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/166 (1.3.14-GTNH)
 >* Add chisel chests by @0hwx in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/162 (1.3.13-GTNH)
@@ -1369,10 +1373,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add plank recipes for stripped logs by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1391 (2.8.0)
 >* Fix circuits in some AL recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1392 (2.8.0)
 
-# Updated - NotEnoughEnergistics - 1.7.14 --> 1.7.20
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.14...1.7.20
+# Updated - NotEnoughEnergistics - 1.7.14 --> 1.7.21
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.14...1.7.21
 
 ## What's Changed:
+>* Fix crafting gui open in non-hand slot by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/58 (1.7.21)
 >* Fix GUI not returning when order crafting with no preview by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/56 (1.7.20)
 >* Fix primary gui by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/57 (1.7.20)
 >* restore keybinds, update hard deps by @lc-1337 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/54 (1.7.19)
@@ -1771,10 +1776,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/ironchest/pull/34 (6.1.7)
 
-# Updated - lwjgl3ify - 2.1.16 --> 3.0.0-beta.11
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.0-beta.11
+# Updated - lwjgl3ify - 2.1.16 --> 3.0.0
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.0
 
 ## What's Changed:
+>* SDL3 Port for better keyboard&Wayland support - lwjgl3ify 3.0 by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/202 (3.0.0)
+>* Fix SDL3 keycode regression by @DialecticalMaterialist in https://github.com/GTNewHorizons/lwjgl3ify/pull/257 (3.0.0)
+>* Mention that runClient17 is a no-op by @wlhlm in https://github.com/GTNewHorizons/lwjgl3ify/pull/245 (3.0.0)
+>* Added discrete scrolling option. by @nullTheCoder in https://github.com/GTNewHorizons/lwjgl3ify/pull/251 (3.0.0)
+>* Update LiteLoader compatibility section in README by @PLASMAchicken in https://github.com/GTNewHorizons/lwjgl3ify/pull/267 (3.0.0)
+>* feat: Add java-runtime-epsilon to custom prism minecraft json by @DioEgizio in https://github.com/GTNewHorizons/lwjgl3ify/pull/279 (3.0.0)
 >* Update LiteLoader compatibility section in README by @PLASMAchicken in https://github.com/GTNewHorizons/lwjgl3ify/pull/267 (3.0.0-beta.9)
 >* Mention that runClient17 is a no-op by @wlhlm in https://github.com/GTNewHorizons/lwjgl3ify/pull/245 (3.0.0-beta.8)
 >* Added discrete scrolling option. by @nullTheCoder in https://github.com/GTNewHorizons/lwjgl3ify/pull/251 (3.0.0-beta.8)
@@ -1819,4 +1830,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @2ndDerivative, @3ricbae, @52871299hzy, @54M44R, @6C-C6, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @Aerindor-of-Arcane, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @ALongStringOfNumbers, @alppp, @arch1t3cht, @asukaonly, @Auynonymous, @Bjdufre1, @BlueWeabo, @boubou19, @Brabb3l, @brachy84, @brandyyn, @C-Remilian, @Caedis, @cambech, @captainjolt, @chochem, @ChromaPIE, @chrombread, @Cleptomania, @CN132DAS, @combusterf, @cubefury, @czerwonogrodzki, @danyadev, @DarkShadow44, @DeathFuel, @DialecticalMaterialist, @dibbydoda, @Discreater, @Dream-Master, @Dredonkey, @DrParadox7, @DylanTaylor1, @eigenraven, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Engineer12798, @envoidia, @Ethryan, @evgengoldwar, @FabienChatton, @felixfour, @fengluo2, @Firenezz, @Flakxo, @Florexiz, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hinyb, @hiroscho, @iouter, @iR3turnZ, @Johnnycyan, @jordanamr, @jude123412, @JustACasualDay, @KenzoWVY, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @kuba6000, @kx08, @Kynake, @lc-1337, @leagris, @leumasme, @Litten95, @loenaaaa, @lonei-G, @LunarLambda, @lynxx131, @MalTeeez, @mamiemru, @MaxLunar, @MCTBL, @MellowArpeggiation, @Miklebe, @mitchej123, @mM4ri, @ModularityEnjoyer, @MuXiu1997, @Nana-Sakura, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @NovanOfLowat, @nshark, @nullTheCoder, @oddstr13, @OmdaCZ, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ruling-0, @serenibyss, @seventh-june, @Shigure-Ruiseki, @sisyphussy, @SKProCH, @slprime, @Sopel97, @Spicierspace153, @SST-03, @StaffiX, @Sunrunner37, @SuperSoupr, @Taskeren, @Teteros, @ThePixelbrain, @TheYoingLad, @TKDMzq, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @2ndDerivative, @3ricbae, @52871299hzy, @54M44R, @6C-C6, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @Aerindor-of-Arcane, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @ALongStringOfNumbers, @alppp, @arch1t3cht, @asukaonly, @Auynonymous, @Bjdufre1, @BlueWeabo, @boubou19, @Brabb3l, @brachy84, @brandyyn, @C-Remilian, @Caedis, @cambech, @captainjolt, @chochem, @ChromaPIE, @chrombread, @Cleptomania, @CN132DAS, @combusterf, @cubefury, @czerwonogrodzki, @danyadev, @DarkShadow44, @DeathFuel, @DialecticalMaterialist, @dibbydoda, @DioEgizio, @Discreater, @Dream-Master, @Dredonkey, @DrParadox7, @DylanTaylor1, @eigenraven, @Eldrinn-Elantey, @EmperorSuper, @EnderProyects, @Engineer12798, @envoidia, @Ethryan, @evgengoldwar, @FabienChatton, @felixfour, @fengluo2, @Firenezz, @Flakxo, @Florexiz, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Ghezra, @Glease, @glektarssza, @glowredman, @GTNH-Afx237v7, @guid118, @hinyb, @hiroscho, @iouter, @iR3turnZ, @Johnnycyan, @jordanamr, @jude123412, @JustACasualDay, @KenzoWVY, @ko-lja, @Kogepan229, @koolkrafter5, @kopatych3348, @kotmatross28729, @kuba6000, @kx08, @Kynake, @lc-1337, @leagris, @leumasme, @Litten95, @loenaaaa, @lonei-G, @LunarLambda, @lynxx131, @MalTeeez, @mamiemru, @MaxLunar, @MCTBL, @MellowArpeggiation, @Miklebe, @mitchej123, @mM4ri, @ModularityEnjoyer, @MuXiu1997, @Nana-Sakura, @NeOzay, @Nikolay-Sitnikov, @Nockyx, @NovanOfLowat, @nshark, @nullTheCoder, @oddstr13, @OmdaCZ, @Omgise, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @Ruling-0, @serenibyss, @seventh-june, @Shigure-Ruiseki, @sisyphussy, @SKProCH, @slprime, @Sopel97, @Spicierspace153, @SST-03, @StaffiX, @Sunrunner37, @SuperSoupr, @Taskeren, @Teteros, @ThePixelbrain, @TheYoingLad, @TKDMzq, @tomprince, @tuodekun, @Tyronadre, @UltraProdigy, @unix-supremacist, @Vlamonster, @VortexSo4, @WanderingHero, @wlhlm, @Worive, @Yoshy2002, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
