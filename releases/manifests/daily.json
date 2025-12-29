@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-12-28T04:18:41.221910",
-  "config": "2.9.0-nightly-2025-12-24-3",
+  "last_updated": "2025-12-29T04:31:57.955742",
+  "config": "2.9.0-nightly-2025-12-28",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.7-GTNH",
@@ -21,7 +21,7 @@
       "side": "BOTH"
     },
     "AngerMod": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "side": "BOTH"
     },
     "AppleCore": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-770-GTNH",
+      "version": "rv3-beta-772-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.173",
+      "version": "5.09.52.176",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.34",
+      "version": "0.8.38",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.80",
+      "version": "2.8.82",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.44-GTNH",
+      "version": "2.8.48-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -397,7 +397,7 @@
       "side": "BOTH"
     },
     "Opis": {
-      "version": "1.4.6-mapless",
+      "version": "1.4.7-mapless",
       "side": "BOTH"
     },
     "OverloadedArmorBar": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.41-GTNH",
+      "version": "1.1.42-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
