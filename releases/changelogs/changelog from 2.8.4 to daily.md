@@ -1503,10 +1503,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - ServerUtilities - 2.2.2 --> 2.2.9
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.9
+# Updated - ServerUtilities - 2.2.2 --> 2.2.11
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.11
 
 ## What's Changed:
+>* Disable MAX_TICK_TIME mixin when ultramine is present by @SKProCH in https://github.com/GTNewHorizons/ServerUtilities/pull/259 (2.2.11)
 >* [Memory-opti:fix leak] Fix world leak in GuiHelper#BLANK_GUI by @Alexdoru in https://github.com/GTNewHorizons/ServerUtilities/pull/251 (2.2.9)
 >* Add toggle cheats button to world selection menu by @SuperSoupr in https://github.com/GTNewHorizons/ServerUtilities/pull/253 (2.2.8)
 >* fix: update Trash Can GUI title to use localized string by @Discreater in https://github.com/GTNewHorizons/ServerUtilities/pull/256 (2.2.8)
