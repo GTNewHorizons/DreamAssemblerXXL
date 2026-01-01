@@ -962,10 +962,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.8.38
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.8.38
+# Updated - GTNHLib - 0.7.10 --> 0.8.41
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.8.41
 
 ## What's Changed:
+>* Fix ItemStackMap size not updating when removing via iterator by @Kogepan229 in https://github.com/GTNewHorizons/GTNHLib/pull/217 (0.8.41)
+>* Check deps. by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/248 (0.8.41)
+>* Update bs by @Dream-Master in https://github.com/GTNewHorizons/GTNHLib/pull/249 (0.8.41)
 >* Implement UV locking for JSON models by @DarkShadow44 in https://github.com/GTNewHorizons/GTNHLib/pull/208 (0.8.38)
 >* Misc changes, and a few fixes by @Roadhog360 in https://github.com/GTNewHorizons/GTNHLib/pull/236 (0.8.38)
 >* Add a simulated item sink interator by @hiroscho in https://github.com/GTNewHorizons/GTNHLib/pull/230 (0.8.34)
