@@ -471,10 +471,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.181
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.181
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.183
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.183
 
 ## What's Changed:
+>* fix tank recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5632 (5.09.52.183)
+>* fix steam gauge values by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5631 (5.09.52.183)
 >* Fix default enabling of Show Pattern when NBT is absent by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5574 (5.09.52.181)
 >* Netherite fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5629 (5.09.52.181)
 >* Add The One Probe-style progress bars by @SuperSoupr in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5054 (5.09.52.179)
@@ -1320,10 +1322,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.86
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.86
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.88
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.88
 
 ## What's Changed:
+>* speed up crafting station cutting recipe from 240s to 5s by @danyadev in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1537 (2.8.88)
+>* Fix inconsistencies in Circuit Assembler recipes for ProjectRed Chips by @ModularityEnjoyer in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1536 (2.8.88)
 >* fix pixie dust block texture by @danyadev in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1535 (2.8.86)
 >* Move Project Red Gates to Circuit Assembler by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1527 (2.8.85)
 >* adjust low tier ME hatches to use EV GT hatch counterparts and full tile interfaces by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1530 (2.8.84)
@@ -1708,11 +1712,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix Miniature Heart Tooltip by @tuodekun in https://github.com/GTNewHorizons/TinkersConstruct/pull/215 (1.14.2-GTNH)
 >* Fix crafting station sometimes detecting a chest next to a trapped chest as a double chest by @Dredonkey in https://github.com/GTNewHorizons/TinkersConstruct/pull/213 (1.14.0-GTNH)
 
-# Updated - ToroHealth - 1.2.0 --> 1.2.1
+# Updated - ToroHealth - 1.2.0 --> 1.2.2
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/ToroHealth/compare/1.2.0...1.2.1
+**Full Changelog**: https://github.com/GTNewHorizons/ToroHealth/compare/1.2.0...1.2.2
 
 ## What's Changed:
+>* make the mod work again on servers by @danyadev in https://github.com/GTNewHorizons/ToroHealth/pull/6 (1.2.2)
 >* fix indicating that living entities are hurt when entering another dimension by @danyadev in https://github.com/GTNewHorizons/ToroHealth/pull/5 (1.2.1)
 
 # Updated - Translocators - 1.3.1 --> 1.4.3
