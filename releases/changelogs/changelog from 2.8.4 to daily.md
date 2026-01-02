@@ -470,10 +470,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.179
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.179
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.181
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.181
 
 ## What's Changed:
+>* Fix default enabling of Show Pattern when NBT is absent by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5574 (5.09.52.181)
+>* Netherite fix by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5629 (5.09.52.181)
 >* Add The One Probe-style progress bars by @SuperSoupr in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5054 (5.09.52.179)
 >* fix setting material flavor text on items with the same meta % 1000 id by @danyadev in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5615 (5.09.52.178)
 >* Fixed issue where crafting an electronic item inherits the charge of electric tools used by @captainjolt in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5493 (5.09.52.178)
@@ -1317,10 +1319,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.85
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.85
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.86
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.86
 
 ## What's Changed:
+>* fix pixie dust block texture by @danyadev in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1535 (2.8.86)
 >* Move Project Red Gates to Circuit Assembler by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1527 (2.8.85)
 >* adjust low tier ME hatches to use EV GT hatch counterparts and full tile interfaces by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1530 (2.8.84)
 >* Remove usages of GT++ CI class by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1531 (2.8.84)
@@ -1536,8 +1539,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adding quite a few rings. by @Ethryan in https://github.com/GTNewHorizons/RandomBoubles/pull/2 (1.1.0)
 >* Add zh_CN.lang by @Omgise in https://github.com/GTNewHorizons/RandomBoubles/pull/1 (1.0.3)
 
-# Updated - Salis-Arcana - 1.1.33-GTNH --> 1.1.43-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.33-GTNH...1.1.43-GTNH
+# Updated - Salis-Arcana - 1.1.33-GTNH --> 1.1.44-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.33-GTNH...1.1.44-GTNH
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
@@ -1704,6 +1707,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix Miniature Heart Tooltip by @tuodekun in https://github.com/GTNewHorizons/TinkersConstruct/pull/215 (1.14.2-GTNH)
 >* Fix crafting station sometimes detecting a chest next to a trapped chest as a double chest by @Dredonkey in https://github.com/GTNewHorizons/TinkersConstruct/pull/213 (1.14.0-GTNH)
 
+# Updated - ToroHealth - 1.2.0 --> 1.2.1
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/ToroHealth/compare/1.2.0...1.2.1
+
+## What's Changed:
+>* fix indicating that living entities are hurt when entering another dimension by @danyadev in https://github.com/GTNewHorizons/ToroHealth/pull/5 (1.2.1)
+
 # Updated - Translocators - 1.3.1 --> 1.4.3
 **Full Changelog**: https://github.com/GTNewHorizons/Translocators/compare/1.3.1...1.4.3
 
@@ -1838,10 +1848,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Visualiser null fix by @ABKQPO in https://github.com/GTNewHorizons/ae2stuff/pull/34 (0.10.1-GTNH)
 >* Network Visualizer shows connections between a Crafting Input Bus/Buffer and its proxies. by @AbdielKavash in https://github.com/GTNewHorizons/ae2stuff/pull/30 (0.10.0-GTNH)
 
-# Updated - harvestcraft - 1.3.2-GTNH --> 1.3.3-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.3.2-GTNH...1.3.3-GTNH
+# Updated - gendustry - 1.9.4-GTNH --> 1.9.5-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/gendustry/compare/1.9.4-GTNH...1.9.5-GTNH
 
 ## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - harvestcraft - 1.3.2-GTNH --> 1.3.6-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.3.2-GTNH...1.3.6-GTNH
+
+## What's Changed:
+>* Chochem style stuffed eggplants by @chochem in https://github.com/GTNewHorizons/harvestcraft/pull/70 (1.3.6-GTNH)
 >* delete empty event class by @Alexdoru in https://github.com/GTNewHorizons/harvestcraft/pull/66 (1.3.3-GTNH)
 
 # Updated - ironchest - 6.1.6 --> 6.1.7
@@ -1878,10 +1894,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Swap to GTBlockOre by @RecursivePineapple in https://github.com/GTNewHorizons/nei-custom-diagram/pull/52 (1.8.3)
 >* add server support for tank and chest by @fengluo2 in https://github.com/GTNewHorizons/nei-custom-diagram/pull/51 (1.8.0)
 
-# Updated - twilightforest - 2.7.13 --> 2.7.15
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.13...2.7.15
+# Updated - twilightforest - 2.7.13 --> 2.7.16
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.13...2.7.16
 
 ## What's Changed:
+>* Fix Naga breaking unbreakable blocks by @ModularityEnjoyer in https://github.com/GTNewHorizons/twilightforest/pull/128 (2.7.16)
 >* Prevent fireflies from deleting blocks by @DarkShadow44 in https://github.com/GTNewHorizons/twilightforest/pull/127 (2.7.15)
 
 # Updated - waila - 1.8.15 --> 1.9.15
