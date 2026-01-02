@@ -1,15 +1,15 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2025-12-25T04:11:08.402227",
-  "config": "2.9.0-nightly-2025-12-24-3",
+  "last_updated": "2026-01-02T04:14:00.728458",
+  "config": "2.9.0-nightly-2025-12-28",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.7-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.38-gtnh",
+      "version": "1.5.39-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -21,7 +21,7 @@
       "side": "BOTH"
     },
     "AngerMod": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "side": "BOTH"
     },
     "AppleCore": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-768-GTNH",
+      "version": "rv3-beta-775-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -61,7 +61,7 @@
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
-      "version": "1.7.3-GTNH",
+      "version": "1.7.4-GTNH",
       "side": "CLIENT"
     },
     "BetterP2P": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.10",
+      "version": "2.10.12",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.170",
+      "version": "5.09.52.179",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.34",
+      "version": "0.8.41",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.32",
+      "version": "2.7.35",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.16",
+      "version": "1.6.18",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.74",
+      "version": "2.8.85",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -357,11 +357,11 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.20",
+      "version": "1.7.21",
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.44-GTNH",
+      "version": "2.8.48-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -397,7 +397,7 @@
       "side": "BOTH"
     },
     "Opis": {
-      "version": "1.4.6-mapless",
+      "version": "1.4.8-mapless",
       "side": "BOTH"
     },
     "OverloadedArmorBar": {
@@ -585,7 +585,7 @@
       "side": "BOTH"
     },
     "WAWLA": {
-      "version": "1.3.2-GTNH",
+      "version": "1.3.3-GTNH",
       "side": "BOTH"
     },
     "WirelessCraftingTerminal": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.14-GTNH",
+      "version": "1.8.16-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.0-beta.11",
+      "version": "3.0.0",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -709,7 +709,7 @@
       "side": "BOTH"
     },
     "Nutrition": {
-      "version": "0.1.4",
+      "version": "0.1.6",
       "side": "BOTH"
     },
     "Default-Configs": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.9",
+      "version": "2.2.11",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -761,15 +761,15 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.16-GTNH",
+      "version": "1.3.17-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.5-GTNH",
+      "version": "0.1.6-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.41-GTNH",
+      "version": "1.1.43-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.32",
+      "version": "0.4.33",
       "side": "BOTH"
     }
   },
