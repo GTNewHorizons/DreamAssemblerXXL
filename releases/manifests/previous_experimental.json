@@ -1,8 +1,8 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2025-12-24T11:07:26.543919",
-  "config": "2.9.0-nightly-2025-12-23-2-pre",
+  "last_updated": "2025-12-25T11:13:56.529061",
+  "config": "2.9.0-nightly-2025-12-25-pre",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.8-GTNH-pre",
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.169-pre",
+      "version": "5.09.52.174-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -241,11 +241,11 @@
       "side": "BOTH"
     },
     "harvestcraft": {
-      "version": "1.3.3-GTNH",
+      "version": "1.3.4-GTNH-pre",
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.30-pre",
+      "version": "2.7.33-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.77-pre",
+      "version": "2.8.81-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "1.0.0-beta77-pre",
+      "version": "1.0.0-beta78-pre",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.15-GTNH-pre",
+      "version": "1.3.16-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
