@@ -1872,10 +1872,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/ironchest/pull/34 (6.1.7)
 
-# Updated - lwjgl3ify - 2.1.16 --> 3.0.0
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.0
+# Updated - lwjgl3ify - 2.1.16 --> 3.0.1
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.1
 
 ## What's Changed:
+>* SDL 3.4.0, display game loading progress in the taskbar on Windows and Linux by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/281 (3.0.1)
 >* SDL3 Port for better keyboard&Wayland support - lwjgl3ify 3.0 by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/202 (3.0.0)
 >* Fix SDL3 keycode regression by @DialecticalMaterialist in https://github.com/GTNewHorizons/lwjgl3ify/pull/257 (3.0.0)
 >* Mention that runClient17 is a no-op by @wlhlm in https://github.com/GTNewHorizons/lwjgl3ify/pull/245 (3.0.0)
