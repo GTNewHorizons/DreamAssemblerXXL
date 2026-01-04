@@ -344,6 +344,12 @@ Mod is client-side only.
 ## What's Changed:
 >* stop registering to the event bus classes without events handlers by @Alexdoru in https://github.com/GTNewHorizons/CookingForBlockheads/pull/57 (1.4.5-GTNH)
 
+# Updated - CoreTweaks - 0.3.3.6-GTNH --> 0.3.3.7-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/CoreTweaks/compare/0.3.3.6-GTNH...0.3.3.7-GTNH
+
+## What's Changed:
+>* Remove update checker by @wlhlm in https://github.com/GTNewHorizons/CoreTweaks/pull/3 (0.3.3.7-GTNH)
+
 # Updated - Craft-Presence - 2.6.2 --> 2.7.0
 Mod is client-side only.
 ## What's Changed:
@@ -471,10 +477,17 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.183
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.183
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.187
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.187
 
 ## What's Changed:
+>* Allow fortune to work with manual mining of ores using non-default mining tools. by @Miklebe in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5639 (5.09.52.187)
+>* Fix Detrav scanner creative tab name and change icon by @Worive in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5642 (5.09.52.187)
+>* Add LEC Abbreviation by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5641 (5.09.52.187)
+>* move Steam Fuser and Steam Buses recipes from NHCoreMod by @danyadev in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5634 (5.09.52.187)
+>* Soul Infused Medium by @EnderProyects in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5630 (5.09.52.187)
+>* Text Localization by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5588 (5.09.52.185)
+>* defining ores in post init is not awesome by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5638 (5.09.52.185)
 >* fix tank recipes by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5632 (5.09.52.183)
 >* fix steam gauge values by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5631 (5.09.52.183)
 >* Fix default enabling of Show Pattern when NBT is absent by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5574 (5.09.52.181)
@@ -1322,10 +1335,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.88
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.88
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.90
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.90
 
 ## What's Changed:
+>* Move Steam Fuser multi and Steam Buses recipes to GT5U by @danyadev in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1539 (2.8.90)
+>* Fix divided by zero error in DTPFCalculator by @Taskeren in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1538 (2.8.90)
 >* speed up crafting station cutting recipe from 240s to 5s by @danyadev in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1537 (2.8.88)
 >* Fix inconsistencies in Circuit Assembler recipes for ProjectRed Chips by @ModularityEnjoyer in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1536 (2.8.88)
 >* fix pixie dust block texture by @danyadev in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1535 (2.8.86)
@@ -1872,10 +1887,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/ironchest/pull/34 (6.1.7)
 
-# Updated - lwjgl3ify - 2.1.16 --> 3.0.1
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.1
+# Updated - lwjgl3ify - 2.1.16 --> 3.0.2
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.2
 
 ## What's Changed:
+>* Replace ProgressBar mixin with an asm transformer to load earlier by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/283 (3.0.2)
 >* SDL 3.4.0, display game loading progress in the taskbar on Windows and Linux by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/281 (3.0.1)
 >* SDL3 Port for better keyboard&Wayland support - lwjgl3ify 3.0 by @eigenraven in https://github.com/GTNewHorizons/lwjgl3ify/pull/202 (3.0.0)
 >* Fix SDL3 keycode regression by @DialecticalMaterialist in https://github.com/GTNewHorizons/lwjgl3ify/pull/257 (3.0.0)
