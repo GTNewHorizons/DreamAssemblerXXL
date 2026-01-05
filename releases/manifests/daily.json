@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-04T04:31:26.735558",
+  "last_updated": "2026-01-05T04:36:58.160885",
   "config": "2.9.0-nightly-2026-01-03",
   "github_mods": {
     "AdventureBackpack2": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.8.7",
+      "version": "1.8.8",
       "side": "BOTH"
     },
     "Botania": {
@@ -221,11 +221,11 @@
       "side": "BOTH"
     },
     "gendustry": {
-      "version": "1.9.5-GTNH",
+      "version": "1.9.6-GTNH",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.187",
+      "version": "5.09.52.189",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.8.6",
+      "version": "1.8.7",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.90",
+      "version": "2.8.91",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
