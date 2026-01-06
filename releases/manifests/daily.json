@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-05T04:36:58.160885",
+  "last_updated": "2026-01-06T04:13:25.362968",
   "config": "2.9.0-nightly-2026-01-03",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-775-GTNH",
+      "version": "rv3-betea-777-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.13.6-GTNH",
+      "version": "1.13.8-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -161,7 +161,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.7.8",
+      "version": "1.7.12",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.189",
+      "version": "5.09.52.190",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.8.41",
+      "version": "0.8.45",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.35",
+      "version": "2.7.37",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.91",
+      "version": "2.8.92",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -381,7 +381,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.9-GTNH",
+      "version": "1.12.12-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -477,7 +477,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.25",
+      "version": "1.4.27",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.2",
+      "version": "3.0.5",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -785,7 +785,7 @@
       "side": "BOTH"
     },
     "CoreTweaks": {
-      "version": "0.3.3.7-GTNH",
+      "version": "0.3.3.8-GTNH",
       "side": "BOTH"
     },
     "ModernMarkings": {
