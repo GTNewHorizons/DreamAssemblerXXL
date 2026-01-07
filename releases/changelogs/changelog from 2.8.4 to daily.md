@@ -93,13 +93,13 @@ Mod is client-side only.
 ## What's Changed:
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-betea-777-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-betea-777-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-777-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-777-GTNH
 
 ## What's Changed:
->* Add color selector GUI for the Color Applicator and color pickup by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/998 (rv3-betea-777-GTNH)
->* Refactor GuiColorSelect to use constants in GuiColor by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1002 (rv3-betea-777-GTNH)
->* fix interface terminal not allowing you to type without refocusing searchbox by @chrombread in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1001 (rv3-betea-777-GTNH)
+>* Add color selector GUI for the Color Applicator and color pickup by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/998 (rv3-beta-777-GTNH)
+>* Refactor GuiColorSelect to use constants in GuiColor by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1002 (rv3-beta-777-GTNH)
+>* fix interface terminal not allowing you to type without refocusing searchbox by @chrombread in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1001 (rv3-beta-777-GTNH)
 >* fix crafting mode for processing pattern terminal by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/989 (rv3-beta-775-GTNH)
 >* Fixed level emitter watcher's doesn't track fluids by @Sheodar in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/990 (rv3-beta-775-GTNH)
 >* Updated ME Drive rendering to color the chassis instead of the cells, preserving drive type visibility by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/988 (rv3-beta-775-GTNH)
@@ -1024,10 +1024,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.8.45
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.8.45
+# Updated - GTNHLib - 0.7.10 --> 0.9.0
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.0
 
 ## What's Changed:
+>* Make JVMDG api stubs available for other mods by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/245 (0.9.0)
 >* Fix erroneous logic in memCopy by @eigenraven in https://github.com/GTNewHorizons/GTNHLib/pull/253 (0.8.45)
 >* Fix Exception on Server start by @PLASMAchicken in https://github.com/GTNewHorizons/GTNHLib/pull/251 (0.8.44)
 >* Fix ItemStackMap size not updating when removing via iterator by @Kogepan229 in https://github.com/GTNewHorizons/GTNHLib/pull/217 (0.8.41)
@@ -1359,10 +1360,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.92
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.92
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.94
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.94
 
 ## What's Changed:
+>* Remove unused GT++ cloaking device recipe removal by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1547 (2.8.94)
 >* Fix CU Chip Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1541 (2.8.92)
 >* Added colored glowstone maceratation recipe by @loenaaaa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1544 (2.8.92)
 >* Remove Slicing Machine - CoreMod by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1543 (2.8.91)
