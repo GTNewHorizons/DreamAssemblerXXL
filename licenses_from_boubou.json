@@ -5,11 +5,11 @@
   },
   "Adventure Backpack 2": {
     "url": "https://github.com/GTNewHorizons/AdventureBackpack2",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "ae2stuff": {
     "url": "https://github.com/GTNewHorizons/ae2stuff",
-    "license": "Minecraft Mod Public License v1.0.1."
+    "license": "Minecraft Mod Public License v1.0.1"
   },
   "AMDI": {
     "url": "https://github.com/GTNewHorizons/AMDI",
@@ -17,7 +17,7 @@
   },
   "AMDIForge": {
     "url": "https://github.com/GTNewHorizons/AMDIForge",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "AngerMod": {
     "url": "https://github.com/GTNewHorizons/AngerMod",
@@ -25,15 +25,15 @@
   },
   "AppleCore": {
     "url": "https://github.com/GTNewHorizons/AppleCore",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "AE2": {
     "url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "ArchitectureCraft": {
     "url": "https://github.com/GTNewHorizons/ArchitectureCraft",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "AsieLib": {
     "url": "https://wiki.vexatos.com/wiki:licensing",
@@ -45,7 +45,7 @@
   },
   "Avaritia": {
     "url": "https://github.com/GTNewHorizons/Avaritia",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Avaritia Addons": {
     "url": "https://github.com/GTNewHorizons/Avaritiaddons",
@@ -57,19 +57,19 @@
   },
   "bartworks": {
     "url": "https://github.com/GTNewHorizons/bartworks",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "Battlegear 2": {
     "url": "https://github.com/GTNewHorizons/Battlegear2",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "Baubles": {
     "url": "https://github.com/GTNewHorizons/Baubles",
-    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported."
+    "license": "CC-BY-NC-SA-3.0"
   },
   "bdlib": {
     "url": "https://github.com/GTNewHorizons/bdlib",
-    "license": "Minecraft Mod Public License v1.0.1."
+    "license": "Minecraft Mod Public License v1.0.1"
   },
   "Better Builder Wands": {
     "url": "https://github.com/GTNewHorizons/BetterBuildersWands/blob/4289373763d5d7c3c3480f45d07e725d808682ad/Perms.jpg",
@@ -81,11 +81,11 @@
   },
   "BetterQuesting": {
     "url": "https://github.com/GTNewHorizons/BetterQuesting",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Binnie": {
     "url": "https://github.com/GTNewHorizons/Binnie",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "Block Limiter": {
     "url": "https://github.com/GTNewHorizons/BlockLimiter",
@@ -93,11 +93,11 @@
   },
   "Blood Arsenal": {
     "url": "https://github.com/GTNewHorizons/BloodArsenal",
-    "license": "Creative Commons Attribution 4.0 International."
+    "license": "CC-BY-4.0"
   },
   "Blood Magic": {
     "url": "https://github.com/GTNewHorizons/BloodMagic",
-    "license": "Creative Commons Attribution 4.0 International."
+    "license": "CC-BY-4.0"
   },
   "BloodyQuests": {
     "url": "https://github.com/GTNewHorizons/BloodyQuests",
@@ -125,7 +125,7 @@
   },
   "BugTorch": {
     "url": "https://github.com/GTNewHorizons/BugTorch",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Build System Updater": {
     "url": "https://github.com/GTNewHorizons/build-system-updater",
@@ -145,7 +145,7 @@
   },
   "Catwalk 2": {
     "url": "https://github.com/GTNewHorizons/Catwalks-2",
-    "license": "Explicit Permission."
+    "license": "Explicit Permission"
   },
   "Chisel": {
     "url": "https://github.com/GTNewHorizons/Chisel",
@@ -153,11 +153,11 @@
   },
   "Code Chicken Core": {
     "url": "https://github.com/GTNewHorizons/CodeChickenCore",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Code Chicken Lib": {
     "url": "https://github.com/GTNewHorizons/CodeChickenLib",
-    "license": "GNU Lesser General Public License v2.1."
+    "license": "GNU Lesser General Public License v2.1"
   },
   "CoFH Core": {
     "url": "https://github.com/GTNewHorizons/CoFHCore",
@@ -173,7 +173,7 @@
   },
   "Cooking For Blockhead": {
     "url": "https://github.com/GTNewHorizons/CookingForBlockheads",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "CraftGuide": {
     "url": "https://github.com/GTNewHorizons/CraftGuide",
@@ -185,7 +185,7 @@
   },
   "CreativeCore": {
     "url": "https://github.com/GTNewHorizons/CreativeCore",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "Crop Breading Simulator": {
     "url": "https://github.com/GTNewHorizons/crop-breeding-simulator",
@@ -193,11 +193,11 @@
   },
   "Crop Load Core": {
     "url": "https://github.com/GTNewHorizons/CropLoadCore",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "Crop++": {
     "url": "https://github.com/GTNewHorizons/Crops-plus-plus",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "CTMlib": {
     "url": "https://github.com/GTNewHorizons/CTMLib",
@@ -229,7 +229,7 @@
   },
   "Draconic Evolution": {
     "url": "https://github.com/GTNewHorizons/Draconic-Evolution",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "Dupes Exploits GTNH": {
     "url": "https://github.com/GTNewHorizons/Dupes-Exploits-GTNH",
@@ -237,7 +237,7 @@
   },
   "Electro-Magic-Tools": {
     "url": "https://github.com/GTNewHorizons/Electro-Magic-Tools",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "EnderCore": {
     "url": "https://github.com/GTNewHorizons/EnderCore",
@@ -249,7 +249,7 @@
   },
   "Ender Storage": {
     "url": "https://github.com/GTNewHorizons/EnderStorage",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Ender Zoo": {
     "url": "https://github.com/GTNewHorizons/EnderZoo",
@@ -257,11 +257,11 @@
   },
   "Enhanced Lootbags": {
     "url": "https://github.com/GTNewHorizons/EnhancedLootBags",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "Eternal-Singularity": {
     "url": "https://github.com/GTNewHorizons/Eternal-Singularity",
-    "license": "explicit permissions"
+    "license": "Explicit Permission"
   },
   "Example Mod 1.7.10": {
     "url": "https://github.com/GTNewHorizons/ExampleMod1.7.10/",
@@ -269,7 +269,7 @@
   },
   "ExtraCells 2": {
     "url": "https://github.com/GTNewHorizons/ExtraCells2",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Fast Leaf Decay": {
     "url": "https://github.com/GTNewHorizons/FastLeafDecay",
@@ -285,7 +285,7 @@
   },
   "Find It": {
     "url": "https://github.com/GTNewHorizons/FindIt",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Forbidden Magic": {
     "url": "https://github.com/GTNewHorizons/ForbiddenMagic",
@@ -301,7 +301,7 @@
   },
   "Forestry": {
     "url": "https://github.com/GTNewHorizons/ForestryMC",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "Forge Gradle": {
     "url": "https://github.com/GTNewHorizons/ForgeGradle",
@@ -309,11 +309,11 @@
   },
   "Forgelin": {
     "url": "https://github.com/GTNewHorizons/Forgelin",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "Forge Multiparts": {
     "url": "https://github.com/GTNewHorizons/ForgeMultipart",
-    "license": "GNU Lesser General Public License v2.1."
+    "license": "GNU Lesser General Public License v2.1"
   },
   "Forge Patcher": {
     "url": "https://github.com/GTNewHorizons/ForgePatcher",
@@ -329,7 +329,7 @@
   },
   "Gadomancy": {
     "url": "https://github.com/GTNewHorizons/Gadomancy",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "GalacticGregGT5": {
     "url": "https://github.com/GTNewHorizons/GalacticGregGT5",
@@ -337,19 +337,19 @@
   },
   "Galacticraft": {
     "url": "https://github.com/GTNewHorizons/Galacticraft",
-    "license": "Explicit Permission."
+    "license": "Explicit Permission"
   },
   "Galaxy Space": {
     "url": "https://github.com/GTNewHorizons/Galaxy-Space-GTNH",
-    "license": "Explicit Permission."
+    "license": "Explicit Permission"
   },
   "gendustry": {
     "url": "https://github.com/GTNewHorizons/gendustry",
-    "license": "Minecraft Mod Public License v1.0.1."
+    "license": "Minecraft Mod Public License v1.0.1"
   },
   "Good Generators": {
     "url": "https://github.com/GTNewHorizons/GoodGenerator",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Gregtania": {
     "url": "https://github.com/GTNewHorizons/Gregtania",
@@ -361,11 +361,11 @@
   },
   "GT5 Unofficial": {
     "url": "https://github.com/GTNewHorizons/GT5-Unofficial",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "GT NEI Ore Plugin": {
     "url": "https://github.com/GTNewHorizons/GTNEIOrePlugin",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "GTNH 3.0": {
     "url": "https://github.com/GTNewHorizons/GTNewHorizons-3.0",
@@ -401,7 +401,7 @@
   },
   "GT++": {
     "url": "https://github.com/GTNewHorizons/GTplusplus",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "GTSU": {
     "url": "https://github.com/GTNewHorizons/GTSU",
@@ -409,15 +409,15 @@
   },
   "Guide-API": {
     "url": "https://github.com/GTNewHorizons/Guide-API",
-    "license": "Minecraft Mod Public License v2.0.2."
+    "license": "Minecraft Mod Public License v2.0.2"
   },
   "Hardcore Ender Expansion": {
     "url": "https://github.com/GTNewHorizons/Hardcore-Ender-Expansion",
-    "license": "Explicit Permission."
+    "license": "Explicit Permission"
   },
   "HarvestCraft": {
     "url": "https://github.com/GTNewHorizons/harvestcraft",
-    "license": "Explicit Permission."
+    "license": "Explicit Permission"
   },
   "HBM": {
     "url": "https://github.com/GTNewHorizons/Hbm-s-Nuclear-Tech-GIT",
@@ -425,23 +425,23 @@
   },
   "HodgePodge": {
     "url": "https://github.com/GTNewHorizons/Hodgepodge",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "HoloInventory": {
     "url": "https://github.com/GTNewHorizons/HoloInventory",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "Hunger Overhaul": {
     "url": "https://github.com/GTNewHorizons/HungerOverhaul",
-    "license": "All Rights Reserved."
+    "license": "ARR"
   },
   "HydroEnergy": {
     "url": "https://github.com/GTNewHorizons/HydroEnergy",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "IFU": {
     "url": "https://github.com/GTNewHorizons/IFU",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "Iguana Tweaks": {
     "url": "https://github.com/GTNewHorizons/IguanaTweaksTConstruct",
@@ -449,7 +449,7 @@
   },
   "Impact Architecture Module": {
     "url": "https://github.com/GTNewHorizons/ImpactArchitectureModule",
-    "license": "explicit permissions"
+    "license": "Explicit Permission"
   },
   "INpureCore": {
     "url": "https://github.com/GTNewHorizons/INpureCore",
@@ -461,31 +461,31 @@
   },
   "Ingame Info XML": {
     "url": "https://github.com/GTNewHorizons/InGame-Info-XML",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Inventory Tweaks": {
     "url": "https://github.com/GTNewHorizons/inventory-tweaks",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "Iron Chests": {
     "url": "https://github.com/GTNewHorizons/ironchest",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "Iron Chest Minecarts": {
     "url": "https://github.com/GTNewHorizons/IronChestMinecarts",
-    "license": "Explicit Permission."
+    "license": "Explicit Permission"
   },
   "Iron Tanks": {
     "url": "https://github.com/GTNewHorizons/Irontanks",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Jabba": {
     "url": "https://github.com/GTNewHorizons/Jabba",
-    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International."
+    "license": "CC-BY-NC-SA-4.0"
   },
   "KekzTech": {
     "url": "https://github.com/GTNewHorizons/KekzTech",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Lava Monsters": {
     "url": "https://github.com/GTNewHorizons/LavaMonsters",
@@ -493,11 +493,11 @@
   },
   "Little Tiles": {
     "url": "https://github.com/GTNewHorizons/LittleTiles",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "Logistic Pipes": {
     "url": "https://github.com/GTNewHorizons/LogisticsPipes",
-    "license": "Minecraft Mod Public License v1.0.1."
+    "license": "Minecraft Mod Public License v1.0.1"
   },
   "Loot games": {
     "url": "https://github.com/GTNewHorizons/LootGames",
@@ -505,7 +505,7 @@
   },
   "Lunatrius Core": {
     "url": "https://github.com/GTNewHorizons/LunatriusCore",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Magic Bees": {
     "url": "https://github.com/GTNewHorizons/MagicBees",
@@ -513,7 +513,7 @@
   },
   "Mantle": {
     "url": "https://github.com/GTNewHorizons/Mantle",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "MBPS patcher": {
     "url": "https://github.com/GTNewHorizons/MBPSPatcher",
@@ -521,15 +521,15 @@
   },
   "Micdoodle core (archived)": {
     "url": "https://github.com/GTNewHorizons/MicdoodleCore",
-    "license": "explicit permissions"
+    "license": "Explicit Permission"
   },
   "Minecraft Backpack Mod": {
     "url": "https://github.com/GTNewHorizons/Minecraft-Backpack-Mod",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "Minetweaker GT5 addon": {
     "url": "https://github.com/GTNewHorizons/Minetweaker-Gregtech-5-Addon",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "Moar Signs": {
     "url": "https://github.com/GTNewHorizons/MoarSigns",
@@ -541,7 +541,7 @@
   },
   "Mod Mixins": {
     "url": "https://github.com/GTNewHorizons/ModMixins",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Mods get gregged": {
     "url": "https://github.com/GTNewHorizons/Mods-Get-Gregged",
@@ -549,7 +549,7 @@
   },
   "Mod tweaker": {
     "url": "https://github.com/GTNewHorizons/ModTweaker",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Mod tweaks": {
     "url": "https://github.com/GTNewHorizons/ModTweaks",
@@ -577,7 +577,7 @@
   },
   "NEI custom diagrams": {
     "url": "https://github.com/GTNewHorizons/nei-custom-diagram",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "NEI Integrations": {
     "url": "https://github.com/GTNewHorizons/NEI-Integration",
@@ -593,11 +593,11 @@
   },
   "Netty Patcher": {
     "url": "https://github.com/GTNewHorizons/Netty-Patcher",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "New Horizons Core Mod": {
     "url": "https://github.com/GTNewHorizons/NewHorizonsCoreMod",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "New Horizons Server Core": {
     "url": "https://github.com/GTNewHorizons/NewHorizonsServerCore",
@@ -613,11 +613,11 @@
   },
   "Not Enough Energistics": {
     "url": "https://github.com/GTNewHorizons/NotEnoughEnergistics",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "NEI": {
     "url": "https://github.com/GTNewHorizons/NotEnoughItems",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "Not Enough Production": {
     "url": "https://github.com/GTNewHorizons/NotEnoughProduction",
@@ -633,7 +633,7 @@
   },
   "oauth": {
     "url": "https://github.com/GTNewHorizons/oauth",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "Obama": {
     "url": "https://github.com/GTNewHorizons/Obama",
@@ -641,11 +641,11 @@
   },
   "OCGlasses": {
     "url": "https://github.com/GTNewHorizons/OCGlasses",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Open Blocks": {
     "url": "https://github.com/GTNewHorizons/OpenBlocks",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Open CC 3D printer models": {
     "url": "https://github.com/GTNewHorizons/OpenCC-3D-printer-models",
@@ -657,15 +657,15 @@
   },
   "Open Mods Lib": {
     "url": "https://github.com/GTNewHorizons/OpenModsLib",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Opis": {
     "url": "https://github.com/GTNewHorizons/Opis",
-    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International."
+    "license": "CC-BY-NC-SA-4.0"
   },
   "Overloaded Armor Bar": {
     "url": "https://github.com/GTNewHorizons/OverloadedArmorBar",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Prism": {
     "url": "https://github.com/GTNewHorizons/Prism",
@@ -681,7 +681,7 @@
   },
   "Qmunity Lib": {
     "url": "https://github.com/GTNewHorizons/QmunityLib",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Quest Book": {
     "url": "https://github.com/GTNewHorizons/QuestBook",
@@ -689,7 +689,7 @@
   },
   "RailCraft": {
     "url": "https://github.com/GTNewHorizons/Railcraft",
-    "license": "Explicit Permission."
+    "license": "Explicit Permission"
   },
   "Railcraft API": {
     "url": "https://github.com/GTNewHorizons/Railcraft-API/",
@@ -705,7 +705,7 @@
   },
   "Realistic World Gen": {
     "url": "https://github.com/GTNewHorizons/Realistic-World-Gen",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "RecEx": {
     "url": "https://github.com/GTNewHorizons/RecEx",
@@ -721,7 +721,7 @@
   },
   "RemoteIO": {
     "url": "https://github.com/GTNewHorizons/RemoteIO",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "RF expansion": {
     "url": "https://github.com/GTNewHorizons/RFExpansion",
@@ -729,7 +729,7 @@
   },
   "Roguelike Dungeons": {
     "url": "https://github.com/GTNewHorizons/Roguelike-Dungeons",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "Sanguimancy": {
     "url": "https://github.com/GTNewHorizons/Sanguimancy",
@@ -737,11 +737,11 @@
   },
   "SC2": {
     "url": "https://github.com/GTNewHorizons/SC2",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Schematica": {
     "url": "https://github.com/GTNewHorizons/Schematica",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "SGCraft": {
     "url": "https://github.com/GTNewHorizons/SGCraft/",
@@ -749,23 +749,23 @@
   },
   "Sleeping Bags": {
     "url": "https://github.com/GTNewHorizons/SleepingBags",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "Special AI": {
     "url": "https://github.com/GTNewHorizons/SpecialAI",
-    "license": "Explicit Permission."
+    "license": "Explicit Permission"
   },
   "SpecialMobs": {
     "url": "https://github.com/GTNewHorizons/SpecialMobs",
-    "license": "Explicit Permission."
+    "license": "Explicit Permission"
   },
   "Spice Of Life": {
     "url": "https://github.com/GTNewHorizons/SpiceOfLife",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "SpongeMixins": {
     "url": "https://github.com/GTNewHorizons/SpongeMixins",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "SpongePoweredMixin": {
     "url": "https://github.com/GTNewHorizons/SpongePoweredMixin",
@@ -777,7 +777,7 @@
   },
   "Standard Questing Pack": {
     "url": "https://github.com/GTNewHorizons/StandardQuestingPack",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "SFM": {
     "url": "https://github.com/GTNewHorizons/Steve-s-Factory-Manager",
@@ -789,11 +789,11 @@
   },
   "StorageDrawers": {
     "url": "https://github.com/GTNewHorizons/StorageDrawers",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "Storage Drawers BOP": {
     "url": "https://github.com/GTNewHorizons/StorageDrawers-BiomesOPlenty",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Storage Drawers Erebus": {
     "url": "https://github.com/GTNewHorizons/StorageDrawers-Erebus",
@@ -801,31 +801,31 @@
   },
   "Storage Drawers Forestry": {
     "url": "https://github.com/GTNewHorizons/StorageDrawers-Forestry",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Storage Drawers Misc": {
     "url": "https://github.com/GTNewHorizons/StorageDrawers-Misc",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Storage Drawers Natura": {
     "url": "https://github.com/GTNewHorizons/StorageDrawers-Natura",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Structure Lib": {
     "url": "https://github.com/GTNewHorizons/StructureLib",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Super TiC": {
     "url": "https://github.com/GTNewHorizons/Super-TiC",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "Super Solar Panels": {
     "url": "https://github.com/GTNewHorizons/supersolarpanels/",
-    "license": "Mozilla Public License 2.0"
+    "license": "MPL-2.0"
   },
   "Tainted Magic": {
     "url": "https://github.com/GTNewHorizons/Tainted-Magic",
-    "license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International."
+    "license": "CC-BY-NC-ND-4.0"
   },
   "TC4Tweaks": {
     "url": "https://github.com/GTNewHorizons/TC4Tweaks",
@@ -833,15 +833,15 @@
   },
   "TCNEIAddons": {
     "url": "https://github.com/GTNewHorizons/TCNEIAdditions",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "TCNodeTracker": {
     "url": "https://github.com/GTNewHorizons/TCNodeTracker",
-    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International."
+    "license": "CC-BY-NC-SA-4.0"
   },
   "TecTech": {
     "url": "https://github.com/GTNewHorizons/TecTech",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Thaumcraft API": {
     "url": "https://github.com/GTNewHorizons/thaumcraft-api",
@@ -849,7 +849,7 @@
   },
   "Thaumcraft research tweaks": {
     "url": "https://github.com/GTNewHorizons/thaumcraft-research-tweaks",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Thaumcraft Mob Aspect": {
     "url": "https://github.com/GTNewHorizons/ThaumcraftMobAspects",
@@ -869,11 +869,11 @@
   },
   "Thaumic Tinkerer": {
     "url": "https://github.com/GTNewHorizons/ThaumicTinkerer",
-    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported."
+    "license": "CC-BY-NC-SA-3.0"
   },
   "Thaumic Exploration": {
     "url": "https://github.com/GTNewHorizons/Thaumic_Exploration",
-    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International."
+    "license": "CC-BY-NC-SA-4.0"
   },
   "The Aether GTNH": {
     "url": "https://github.com/GTNewHorizons/The-Aether-GTNH",
@@ -897,7 +897,7 @@
   },
   "TinkerConstruct": {
     "url": "https://github.com/GTNewHorizons/TinkersConstruct",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "TinkersGregworks": {
     "url": "https://github.com/GTNewHorizons/TinkersGregworks",
@@ -905,15 +905,15 @@
   },
   "TinkersMechworks": {
     "url": "https://github.com/GTNewHorizons/TinkersMechworks",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Too Much Loots": {
     "url": "https://github.com/GTNewHorizons/TooMuchLoot",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "ToroHealth": {
     "url": "https://github.com/GTNewHorizons/ToroHealth",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "Translocators": {
     "url": "https://github.com/GTNewHorizons/Translocators",
@@ -925,7 +925,7 @@
   },
   "Twilight Forest": {
     "url": "https://github.com/GTNewHorizons/twilightforest",
-    "license": "GNU Lesser General Public License v2.1."
+    "license": "GNU Lesser General Public License v2.1"
   },
   "Universal Singularities": {
     "url": "https://github.com/GTNewHorizons/Universal-Singularities",
@@ -933,11 +933,11 @@
   },
   "Visual Prospecting": {
     "url": "https://github.com/GTNewHorizons/VisualProspecting",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Waila": {
     "url": "https://github.com/GTNewHorizons/waila",
-    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"
+    "license": "CC-BY-NC-SA-4.0"
   },
   "Waila Harvestability": {
     "url": "https://github.com/GTNewHorizons/WailaHarvestability",
@@ -945,7 +945,7 @@
   },
   "WAILA Plugins": {
     "url": "https://github.com/GTNewHorizons/WAILAPlugins",
-    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International."
+    "license": "CC-BY-NC-SA-4.0"
   },
   "WanionLib": {
     "url": "https://github.com/GTNewHorizons/WanionLib",
@@ -957,27 +957,27 @@
   },
   "WAWLA": {
     "url": "https://github.com/GTNewHorizons/WAWLA",
-    "license": "GNU Lesser General Public License v2.1."
+    "license": "GNU Lesser General Public License v2.1"
   },
   "Wireless Crafting Terminal": {
     "url": "https://github.com/GTNewHorizons/WirelessCraftingTerminal",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "WirelessRedstone-CBE": {
     "url": "https://github.com/GTNewHorizons/WirelessRedstone-CBE",
-    "license": "MIT License."
+    "license": "MIT"
   },
   "Witchery": {
     "url": "https://github.com/GTNewHorizons/Witchery",
-    "license": "All Rights Reserved."
+    "license": "ARR"
   },
   "WitcheryExtras": {
     "url": "https://github.com/GTNewHorizons/WitcheryExtras",
-    "license": "GNU General Public License v3.0."
+    "license": "GNU General Public License v3.0"
   },
   "WitchingGadgets": {
     "url": "https://github.com/GTNewHorizons/WitchingGadgets",
-    "license": "GNU Lesser General Public License v3.0."
+    "license": "GNU Lesser General Public License v3.0"
   },
   "YAMCL": {
     "url": "https://github.com/GTNewHorizons/Yamcl",
@@ -985,6 +985,6 @@
   },
   "ZenScript": {
     "url": "https://github.com/GTNewHorizons/ZenScript",
-    "license": "MIT License."
+    "license": "MIT"
   }
 }
