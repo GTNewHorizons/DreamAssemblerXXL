@@ -152,10 +152,20 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-780-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-780-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-782-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-782-GTNH-pre
 
 ## What's Changed:
+>* Fix colored +/- amount buttons not updating value when colored by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/997 (rv3-beta-782-GTNH-pre)
+>* Do not close the crafting cpu screen if there's no block to highlight by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1007 (rv3-beta-782-GTNH-pre)
+>* Fix tooltip details showing the details of previously hovered item instead of currently hovered one by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1008 (rv3-beta-782-GTNH-pre)
+>* Fix color applicator gui not reporting properly colors by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1009 (rv3-beta-782-GTNH-pre)
+>* Show requester on active crafting CPU crafts by @serenibyss in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1010 (rv3-beta-782-GTNH-pre)
+>* Fix colored +/- amount buttons not updating value when colored by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/997 (rv3-beta-781-GTNH)
+>* Do not close the crafting cpu screen if there's no block to highlight by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1007 (rv3-beta-781-GTNH)
+>* Fix tooltip details showing the details of previously hovered item instead of currently hovered one by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1008 (rv3-beta-781-GTNH)
+>* Fix color applicator gui not reporting properly colors by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1009 (rv3-beta-781-GTNH)
+>* Show requester on active crafting CPU crafts by @serenibyss in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1010 (rv3-beta-781-GTNH)
 >* Spotless apply for branch refactor-gui-sync-annotation for #968 by @github-actions[bot] in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/973 (rv3-beta-780-GTNH-pre)
 >* fix materials order in NEI by @danyadev in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/985 (rv3-beta-779-GTNH)
 >* Feature: Pattern Repeater by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1000 (rv3-beta-779-GTNH)
@@ -625,10 +635,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.199-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.199-pre
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.201-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.201-pre
 
 ## What's Changed:
+>* Spotless apply for branch clean/bartworks/bridge_material_loader for #5380 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5382 (5.09.52.201-pre)
+>* Spotless apply for branch mui2-sb-recipemaps for #5478 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5479 (5.09.52.201-pre)
+>* Slightly Shifts Palladium Color by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5687 (5.09.52.200)
+>* Chat message localization in server - Regex replace by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5682 (5.09.52.200)
+>* change me bus tooltip tier to be 4 not 3 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5691 (5.09.52.200)
 >* Slightly Shifts Palladium Color by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5687 (5.09.52.199-pre)
 >* Spotless apply for branch clean/bartworks/bridge_material_loader for #5380 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5382 (5.09.52.198-pre)
 >* Spotless apply for branch mui2-sb-recipemaps for #5478 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5479 (5.09.52.198-pre)
@@ -1450,8 +1465,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Disabled fire extinguishing for Advanced NanoChestPlate and GraviChestPlate if fire resistance is active by @loenaaaa in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/29 (1.3.8)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.40-pre
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.40-pre
+# Updated - Hodgepodge - 2.6.112 --> 2.7.41-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.41-pre
 
 ## What's Changed:
 >* Make MixinItemRenderer_FixInstantItemSwitch ClientMixin instead of Common by @PLASMAchicken in https://github.com/GTNewHorizons/Hodgepodge/pull/706 (2.7.39)
@@ -2076,7 +2091,7 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix Thaumic Augmentation by @chochem in https://github.com/GTNewHorizons/Super-TiC/pull/10 (1.5.4)
 
-# Updated - TC-4-Tweaks - 1.5.39 --> 1.5.42
+# Updated - TC-4-Tweaks - 1.5.39 --> 1.5.43
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - TCNEIAdditions - 1.5.4 --> 1.5.7-pre
@@ -2388,8 +2403,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/ironchest/pull/34 (6.1.7)
 
-# Updated - lwjgl3ify - 2.1.16 --> 3.0.5
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.5
+# Updated - lwjgl3ify - 2.1.16 --> 3.0.6
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.6
 
 ## What's Changed:
 >* Don't use scancodes for certain keys by @sbancuz in https://github.com/GTNewHorizons/lwjgl3ify/pull/292 (3.0.5)
