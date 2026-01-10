@@ -111,10 +111,15 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-779-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-779-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-781-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-781-GTNH
 
 ## What's Changed:
+>* Fix colored +/- amount buttons not updating value when colored by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/997 (rv3-beta-781-GTNH)
+>* Do not close the crafting cpu screen if there's no block to highlight by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1007 (rv3-beta-781-GTNH)
+>* Fix tooltip details showing the details of previously hovered item instead of currently hovered one by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1008 (rv3-beta-781-GTNH)
+>* Fix color applicator gui not reporting properly colors by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1009 (rv3-beta-781-GTNH)
+>* Show requester on active crafting CPU crafts by @serenibyss in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1010 (rv3-beta-781-GTNH)
 >* fix materials order in NEI by @danyadev in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/985 (rv3-beta-779-GTNH)
 >* Feature: Pattern Repeater by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1000 (rv3-beta-779-GTNH)
 >* Add color selector GUI for the Color Applicator and color pickup by @Worive in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/998 (rv3-beta-777-GTNH)
@@ -522,10 +527,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.197
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.197
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.200
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.200
 
 ## What's Changed:
+>* Slightly Shifts Palladium Color by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5687 (5.09.52.200)
+>* Chat message localization in server - Regex replace by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5682 (5.09.52.200)
+>* change me bus tooltip tier to be 4 not 3 by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5691 (5.09.52.200)
 >* move forge hammer space/time recipe to spinmatron heavy mode by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5668 (5.09.52.197)
 >* change mass solidifier glass tier cap to UEV from umv by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5684 (5.09.52.197)
 >* add top / bottom textures for foundry magnetic chassis by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5685 (5.09.52.197)
@@ -1734,7 +1742,7 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix Thaumic Augmentation by @chochem in https://github.com/GTNewHorizons/Super-TiC/pull/10 (1.5.4)
 
-# Updated - TC-4-Tweaks - 1.5.39 --> 1.5.42
+# Updated - TC-4-Tweaks - 1.5.39 --> 1.5.43
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - TCNEIAdditions - 1.5.4 --> 1.5.6
@@ -2020,8 +2028,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/ironchest/pull/34 (6.1.7)
 
-# Updated - lwjgl3ify - 2.1.16 --> 3.0.5
-**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.5
+# Updated - lwjgl3ify - 2.1.16 --> 3.0.6
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.6
 
 ## What's Changed:
 >* Don't use scancodes for certain keys by @sbancuz in https://github.com/GTNewHorizons/lwjgl3ify/pull/292 (3.0.5)
