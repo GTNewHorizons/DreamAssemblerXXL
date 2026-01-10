@@ -635,8 +635,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.201-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.201-pre
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.202-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.202-pre
 
 ## What's Changed:
 >* Spotless apply for branch clean/bartworks/bridge_material_loader for #5380 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5382 (5.09.52.201-pre)
