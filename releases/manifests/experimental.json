@@ -1,15 +1,15 @@
 {
   "version": "experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2026-01-10T22:57:41.926790",
-  "config": "2.9.0-nightly-2026-01-09-2-pre",
+  "last_updated": "2026-01-11T21:45:07.188921",
+  "config": "2.9.0-nightly-2026-01-11-2-pre",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.10-GTNH-pre",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.40-gtnh",
+      "version": "1.5.41-gtnh-pre",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.81-pre",
+      "version": "1.82-pre",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.12.3-GTNH",
+      "version": "1.12.4-GTNH-pre",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -133,7 +133,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.4.5-GTNH",
+      "version": "1.4.6-GTNH-pre",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "EnderCore": {
-      "version": "0.5.2-pre",
+      "version": "0.5.4-pre",
       "side": "BOTH"
     },
     "EnderIO": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.123-GTNH",
+      "version": "1.1.125-GTNH-pre",
       "side": "BOTH"
     },
     "gendustry": {
@@ -225,15 +225,15 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.202-pre",
+      "version": "5.09.52.204-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
-      "version": "1.4.7",
+      "version": "1.4.8-pre",
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.1-pre",
+      "version": "0.9.2-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.41-pre",
+      "version": "2.7.43-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.97-pre",
+      "version": "2.8.99-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.20-GTNH-pre",
+      "version": "1.8.21-GTNH-pre",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -689,7 +689,7 @@
       "side": "BOTH_JAVA9"
     },
     "amunra": {
-      "version": "0.8.2",
+      "version": "0.8.3-pre",
       "side": "BOTH"
     },
     "DuraDisplay": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha3",
+      "version": "2.0.0-alpha5",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.26-1.7.10-pre",
+      "version": "2.3.27-1.7.10-pre",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.36",
+      "version": "0.4.37-pre",
       "side": "BOTH"
     }
   },
