@@ -60,11 +60,13 @@
 ## What's Changed:
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.0.0-alpha3
+# Updated - Angelica - 1.0.0-beta66b --> 2.0.0-alpha4
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.0.0-alpha3
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.0.0-alpha4
 
 ## What's Changed:
+>* Better OSX J8 Support by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1248 (2.0.0-alpha4)
+>* Fixes by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1251 (2.0.0-alpha4)
 >* Fix GLSL 120 support by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1243 (2.0.0-alpha3)
 >* Nvidia test fix by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1201 (2.0.0-alpha1)
 >* Adds entity_flame ID to Angelica by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1202 (2.0.0-alpha1)
