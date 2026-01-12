@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-11T04:30:45.959348",
-  "config": "2.9.0-nightly-2026-01-09",
+  "last_updated": "2026-01-12T04:33:08.860627",
+  "config": "2.9.0-nightly-2026-01-11",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.9-GTNH",
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "EnderCore": {
-      "version": "0.5.0",
+      "version": "0.5.3",
       "side": "BOTH"
     },
     "EnderIO": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.123-GTNH",
+      "version": "1.1.124-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.200",
+      "version": "5.09.52.203",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.39",
+      "version": "2.7.44",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.96",
+      "version": "2.8.98",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.17-GTNH",
+      "version": "1.14.20-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha4",
+      "version": "2.0.0-alpha5",
       "side": "CLIENT"
     },
     "AkashicTome": {
