@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-14T04:31:26.820566",
-  "config": "2.9.0-nightly-2026-01-13",
+  "last_updated": "2026-01-15T04:15:14.908813",
+  "config": "2.9.0-nightly-2026-01-14",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.9-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-783-GTNH",
+      "version": "rv3-beta-784-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.17-GTNH",
+      "version": "3.8.19-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -161,7 +161,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.7.14",
+      "version": "1.7.16",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -169,7 +169,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.12",
+      "version": "2.10.15",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.205",
+      "version": "5.09.52.208",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.44",
+      "version": "2.7.46",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WarpTheory": {
-      "version": "1.5.2-GTNH",
+      "version": "1.5.3-GTNH",
       "side": "BOTH"
     },
     "WAWLA": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.19-GTNH",
+      "version": "1.8.22-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {

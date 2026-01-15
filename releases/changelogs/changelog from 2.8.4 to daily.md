@@ -118,10 +118,11 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-783-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-783-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-784-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-784-GTNH
 
 ## What's Changed:
+>* Fix pattern optimizer crash by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1017 (rv3-beta-784-GTNH)
 >* Fix negative amount button by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1016 (rv3-beta-783-GTNH)
 >* Interface Terminal crash fixes and improvements by @asquared31415 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1004 (rv3-beta-783-GTNH)
 >* Fix colored +/- amount buttons not updating value when colored by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/997 (rv3-beta-781-GTNH)
@@ -284,10 +285,11 @@ Mod is client-side only.
 >* Fix issues when changing p2p type that involves conversion by @hiroscho in https://github.com/GTNewHorizons/BetterP2P/pull/40 (1.4.2)
 >* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
 
-# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.17-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.17-GTNH
+# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.19-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.19-GTNH
 
 ## What's Changed:
+>* Fix boss bars appearing when rendering entity previews by @ModularityEnjoyer in https://github.com/GTNewHorizons/BetterQuesting/pull/180 (3.8.19-GTNH)
 >* Add copy quest description button by @Faotik in https://github.com/GTNewHorizons/BetterQuesting/pull/181 (3.8.17-GTNH)
 >* Add copy quest description button by @Faotik in https://github.com/GTNewHorizons/BetterQuesting/pull/181 (3.8.17)
 >* [Memory-opti:fix leak] Fix world leak in PlayerContainerListener by @Alexdoru in https://github.com/GTNewHorizons/BetterQuesting/pull/179 (3.8.14-GTNH)
@@ -459,10 +461,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Adds a custom overlay for Forestry backpacks by @querns in https://github.com/GTNewHorizons/DuraDisplay/pull/23 (1.4.0)
 
-# Updated - Electro-Magic-Tools - 1.6.18 --> 1.7.14
-**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.18...1.7.14
+# Updated - Electro-Magic-Tools - 1.6.18 --> 1.7.16
+**Full Changelog**: https://github.com/GTNewHorizons/Electro-Magic-Tools/compare/1.6.18...1.7.16
 
 ## What's Changed:
+>* Rework The One Ring by @WanderingHero in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/110 (1.7.16)
 >* respect step assist config and make it enabled by default by @danyadev in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/111 (1.7.14)
 >* Rebalance Falling and Flying Speed for Boots of Traveller by @SST-03 in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/107 (1.7.8)
 >* Fix speed & jump modifiers by @sisyphussy in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/109 (1.7.6)
@@ -476,10 +479,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Convert ASM code to mixin; Move void fog and Anvil max XP config tweak to Hodgepodge by @Alexdoru in https://github.com/GTNewHorizons/EnderCore/pull/28 (0.5.3)
 
-# Updated - EnderIO - 2.9.28 --> 2.10.12
-**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.28...2.10.12
+# Updated - EnderIO - 2.9.28 --> 2.10.15
+**Full Changelog**: https://github.com/GTNewHorizons/EnderIO/compare/2.9.28...2.10.15
 
 ## What's Changed:
+>* compat with WailaPlugins own fluid handler by @danyadev in https://github.com/GTNewHorizons/EnderIO/pull/217 (2.10.15)
 >* Fix Client Crash when breaking Wirelesscharger on Server by @PLASMAchicken in https://github.com/GTNewHorizons/EnderIO/pull/216 (2.10.12)
 >* [Memory-opti:fix leak] Fix World leak in WirelessChargerController by @Alexdoru in https://github.com/GTNewHorizons/EnderIO/pull/212 (2.10.10)
 >* Improve NetworkedInventory robustness by @Worive in https://github.com/GTNewHorizons/EnderIO/pull/210 (2.10.8)
@@ -537,10 +541,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.205
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.205
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.208
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.208
 
 ## What's Changed:
+>* Fixes Windmill NEI Preview to Include Dispenser by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5701 (5.09.52.208)
+>* Localization of text in waila by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5697 (5.09.52.206)
+>* Fixes Crash Placing Dyson In DevEnv by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5708 (5.09.52.206)
+>* Fixed Larger Turbine not filtering invalid hatches by @ABKQPO in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5693 (5.09.52.206)
 >* Some IC2 cleanup - part 2 by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5696 (5.09.52.205)
 >* buff subspace cooling numbers by 100x by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5702 (5.09.52.205)
 >* Adds Unstackable Warning to Infinite Spray Can by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5700 (5.09.52.205)
@@ -1208,10 +1216,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Disabled fire extinguishing for Advanced NanoChestPlate and GraviChestPlate if fire resistance is active by @loenaaaa in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/29 (1.3.8)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.44
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.44
+# Updated - Hodgepodge - 2.6.112 --> 2.7.46
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.46
 
 ## What's Changed:
+>* Fix gradle9 building + update bs by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/711 (2.7.46)
 >* Prevent moving mouse cursor to the center when pressing Esc in GUIs by @danyadev in https://github.com/GTNewHorizons/Hodgepodge/pull/707 (2.7.44)
 >* Added optional itemGroup gui title localization by @Ranzuu in https://github.com/GTNewHorizons/Hodgepodge/pull/709 (2.7.42)
 >* Import void fog and Anvil max XP tweaks from EnderCore by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/682 (2.7.42)
@@ -1985,10 +1994,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Animal time fix with hunger overhaul by @chochem in https://github.com/GTNewHorizons/WAWLA/pull/9 (1.3.3-GTNH)
 >* Move villager names to GTNHLib by @SuperSoupr in https://github.com/GTNewHorizons/WAWLA/pull/8 (1.3.2-GTNH)
 
-# Updated - WarpTheory - 1.5.0-GTNH --> 1.5.2-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.5.0-GTNH...1.5.2-GTNH
+# Updated - WarpTheory - 1.5.0-GTNH --> 1.5.3-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.5.0-GTNH...1.5.3-GTNH
 
 ## What's Changed:
+>* Amulet Research Tooltip for pack support by @Ruling-0 in https://github.com/GTNewHorizons/WarpTheory/pull/47 (1.5.3-GTNH)
 >* Warp Event Handler Cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/WarpTheory/pull/46 (1.5.2-GTNH)
 
 # Updated - WirelessCraftingTerminal - 1.12.7 --> 1.12.12
@@ -2010,10 +2020,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Baubles compatibility for poppets and door keys by @Kynake in https://github.com/GTNewHorizons/WitcheryExtras/pull/30 (1.4.2)
 >* Rename WitcheryExtras -> witcheryextras by @Eldrinn-Elantey in https://github.com/GTNewHorizons/WitcheryExtras/pull/29 (1.4.0)
 
-# Updated - WitchingGadgets - 1.7.25-GTNH --> 1.8.19-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.25-GTNH...1.8.19-GTNH
+# Updated - WitchingGadgets - 1.7.25-GTNH --> 1.8.22-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.25-GTNH...1.8.22-GTNH
 
 ## What's Changed:
+>* Fix crash when closing Kama GUI equipped in bauble slot by @devpikachu in https://github.com/GTNewHorizons/WitchingGadgets/pull/107 (1.8.22-GTNH)
 >* respect step assist config and make it on by default by @danyadev in https://github.com/GTNewHorizons/WitchingGadgets/pull/111 (1.8.19-GTNH)
 >* Prevent Mantle of the Raven re-enabling automatically on equip by @devpikachu in https://github.com/GTNewHorizons/WitchingGadgets/pull/110 (1.8.18-GTNH)
 >* Select correct Thaumonomicon entry for IBF based on GT5u presence by @devpikachu in https://github.com/GTNewHorizons/WitchingGadgets/pull/108 (1.8.18-GTNH)
