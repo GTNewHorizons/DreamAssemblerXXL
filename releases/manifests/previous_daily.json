@@ -1,15 +1,15 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-10T04:08:00.001769",
-  "config": "2.9.0-nightly-2026-01-09",
+  "last_updated": "2026-01-15T04:15:14.908813",
+  "config": "2.9.0-nightly-2026-01-14",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.9-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.40-gtnh",
+      "version": "1.5.42-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-779-GTNH",
+      "version": "rv3-beta-784-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.17-GTNH",
+      "version": "3.8.19-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -161,15 +161,15 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.7.14",
+      "version": "1.7.16",
       "side": "BOTH"
     },
     "EnderCore": {
-      "version": "0.5.0",
+      "version": "0.5.3",
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.12",
+      "version": "2.10.15",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.123-GTNH",
+      "version": "1.1.124-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.197",
+      "version": "5.09.52.208",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.0",
+      "version": "0.9.3",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.39",
+      "version": "2.7.46",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.96",
+      "version": "2.8.98",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.50-GTNH",
+      "version": "2.8.52-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -469,7 +469,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.5-GTNH",
+      "version": "2.2.9-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.17-GTNH",
+      "version": "1.14.20-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WarpTheory": {
-      "version": "1.5.2-GTNH",
+      "version": "1.5.3-GTNH",
       "side": "BOTH"
     },
     "WAWLA": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.19-GTNH",
+      "version": "1.8.22-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.5",
+      "version": "3.0.6",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha3",
+      "version": "2.0.0-alpha6",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -895,7 +895,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.42",
+      "version": "1.5.43",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
