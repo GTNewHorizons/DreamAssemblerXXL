@@ -1,7 +1,7 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2026-01-14T20:19:36.192372",
+  "last_updated": "2026-01-15T20:56:25.045718",
   "config": "2.9.0-nightly-2026-01-14-2-pre",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.42-gtnh",
+      "version": "1.5.43-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-785-GTNH-pre",
+      "version": "rv3-beta-788-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.209-pre",
+      "version": "5.09.52.212-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.103-pre",
+      "version": "2.8.104-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -581,7 +581,7 @@
       "side": "BOTH"
     },
     "WarpTheory": {
-      "version": "1.5.2-GTNH",
+      "version": "1.5.3-GTNH",
       "side": "BOTH"
     },
     "WAWLA": {
@@ -701,7 +701,7 @@
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
-      "version": "0.4.3-GTNH",
+      "version": "0.4.4-GTNH",
       "side": "CLIENT"
     },
     "AlchemyGrate": {
