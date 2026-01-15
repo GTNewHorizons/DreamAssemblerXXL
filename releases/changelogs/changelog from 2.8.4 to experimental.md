@@ -3,10 +3,11 @@
 > * VendingMachine
 # Mods Removed: 
 > * AE2NoUltimatePatterns
-# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.42-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.42-gtnh
+# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.43-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.43-gtnh
 
 ## What's Changed:
+>* remove transformers by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/389 (1.5.43-gtnh)
 >* fix NPE when trying to drain a tank in a tank tower by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/390 (1.5.42-gtnh)
 >* Allow using inverter card on fluid cells by @serenibyss in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/388 (1.5.40-gtnh)
 >* Fixed Level Maintainer FCGuiLineField and texture by @Ranzuu in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/387 (1.5.40-gtnh)
@@ -159,10 +160,14 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-785-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-785-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-788-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-788-GTNH-pre
 
 ## What's Changed:
+>* Fix processing terminal buttons position  by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1018 (rv3-beta-788-GTNH-pre)
+>* fix performance regression when requesting new crafts by @Glease in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1012 (rv3-beta-788-GTNH-pre)
+>* Fix processing terminal buttons position  by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1018 (rv3-beta-787-GTNH)
+>* fix performance regression when requesting new crafts by @Glease in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1012 (rv3-beta-787-GTNH)
 >* Fix negative amount button by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1016 (rv3-beta-785-GTNH-pre)
 >* Interface Terminal crash fixes and improvements by @asquared31415 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1004 (rv3-beta-785-GTNH-pre)
 >* Fix pattern optimizer crash by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1017 (rv3-beta-785-GTNH-pre)
@@ -346,6 +351,13 @@ Mod is client-side only.
 >* Fix double call to mergeItemStack by @Worive in https://github.com/GTNewHorizons/Baubles-Expanded/pull/19 (2.2.2-GTNH)
 >* Hide debug items from NEI by @Ethryan in https://github.com/GTNewHorizons/Baubles-Expanded/pull/18 (2.2.1-GTNH)
 >* After clearing, get new baubles inventory instead of working with old one by @DarkShadow44 in https://github.com/GTNewHorizons/Baubles-Expanded/pull/15 (2.2.0-GTNH)
+
+# Updated - BeeBetterAtBees-GTNH - 0.4.3-GTNH --> 0.4.4-GTNH
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/compare/0.4.3-GTNH...0.4.4-GTNH
+
+## What's Changed:
+>* Fix Mutation Requirement Tooltips by @Ruling-0 in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/6 (0.4.4-GTNH)
 
 # Updated - BetterBuildersWands - 0.13.3-GTNH --> 0.13.5-GTNH-pre
 **Full Changelog**: https://github.com/GTNewHorizons/BetterBuildersWands/compare/0.13.3-GTNH...0.13.5-GTNH-pre
@@ -655,10 +667,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.209-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.209-pre
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.212-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.212-pre
 
 ## What's Changed:
+>* make hyperocoler recipe show it needs an input hatch inplace of a cryogenic casing by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5712 (5.09.52.212-pre)
+>* Improve Galgador Chemical Formula by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5698 (5.09.52.211)
+>* Add a recipe counter for multiblocks by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5710 (5.09.52.211)
+>* make hyperocoler recipe show it needs an input hatch inplace of a cryogenic casing by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5712 (5.09.52.211)
+>* Improve Galgador Chemical Formula by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5698 (5.09.52.210-pre)
+>* Add a recipe counter for multiblocks by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5710 (5.09.52.210-pre)
 >* Fixes Windmill NEI Preview to Include Dispenser by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5701 (5.09.52.209-pre)
 >* Fixes Windmill NEI Preview to Include Dispenser by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5701 (5.09.52.208)
 >* Spotless apply for branch clean/bartworks/bridge_material_loader for #5380 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5382 (5.09.52.207-pre)
@@ -1798,10 +1816,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.103-pre
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.103-pre
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.104-pre
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.104-pre
 
 ## What's Changed:
+>* Spotless apply for branch de-yamcl-items for #1557 by @github-actions[bot] in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1561 (2.8.104-pre)
 >* Spotless apply for branch fix-headless-exit for #1545 by @github-actions[bot] in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1546 (2.8.102-pre)
 >* Some IC2 cleanup - part 1 by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1559 (2.8.102-pre)
 >* Fix missing spaces in login message by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1558 (2.8.99-pre)
@@ -2394,10 +2413,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Animal time fix with hunger overhaul by @chochem in https://github.com/GTNewHorizons/WAWLA/pull/9 (1.3.3-GTNH)
 >* Move villager names to GTNHLib by @SuperSoupr in https://github.com/GTNewHorizons/WAWLA/pull/8 (1.3.2-GTNH)
 
-# Updated - WarpTheory - 1.5.0-GTNH --> 1.5.2-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.5.0-GTNH...1.5.2-GTNH
+# Updated - WarpTheory - 1.5.0-GTNH --> 1.5.3-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WarpTheory/compare/1.5.0-GTNH...1.5.3-GTNH
 
 ## What's Changed:
+>* Amulet Research Tooltip for pack support by @Ruling-0 in https://github.com/GTNewHorizons/WarpTheory/pull/47 (1.5.3-GTNH)
 >* Warp Event Handler Cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/WarpTheory/pull/46 (1.5.2-GTNH)
 
 # Updated - WirelessCraftingTerminal - 1.12.7 --> 1.12.12
