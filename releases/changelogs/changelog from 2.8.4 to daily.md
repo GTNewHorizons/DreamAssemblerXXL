@@ -1711,10 +1711,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix capitalisation in en-US localisation by @ModularityEnjoyer in https://github.com/GTNewHorizons/ProjectRed/pull/61 (4.12.8-GTNH)
 >* BlockBreaker: Fix breaking sound coordinates to prevent crash by @DarkShadow44 in https://github.com/GTNewHorizons/ProjectRed/pull/59 (4.12.7-GTNH)
 
-# Updated - Railcraft - 9.16.33 --> 9.17.12
-**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.33...9.17.12
+# Updated - Railcraft - 9.16.33 --> 9.17.15
+**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.33...9.17.15
 
 ## What's Changed:
+>* Fix Directional Detection Redstone Signal by @DrParadox7 in https://github.com/GTNewHorizons/Railcraft/pull/107 (9.17.15)
 >* add de-DE translations for advanced multiblock tanks by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/105 (9.17.12)
 >* Cache Valid Output Sides for TIleWaterTank & TileBoiler by @54M44R in https://github.com/GTNewHorizons/Railcraft/pull/99 (9.17.10)
 >* [Memory-opti:fix leak] Fix world leak in TileAnchorWorld by @Alexdoru in https://github.com/GTNewHorizons/Railcraft/pull/104 (9.17.9)
