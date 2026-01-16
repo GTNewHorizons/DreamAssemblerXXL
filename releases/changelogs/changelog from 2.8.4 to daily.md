@@ -3,10 +3,11 @@
 > * VendingMachine
 # Mods Removed: 
 > * AE2NoUltimatePatterns
-# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.43-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.43-gtnh
+# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.44-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.44-gtnh
 
 ## What's Changed:
+>* Change Artificial Universe Fluid Cell to 63 Types by @UltraProdigy in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/392 (1.5.44-gtnh)
 >* remove transformers by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/389 (1.5.43-gtnh)
 >* fix NPE when trying to drain a tank in a tank tower by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/390 (1.5.42-gtnh)
 >* Allow using inverter card on fluid cells by @serenibyss in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/388 (1.5.40-gtnh)
@@ -119,10 +120,11 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-787-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-787-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-789-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-789-GTNH
 
 ## What's Changed:
+>* Fix storage bus crash and item NBT disappearance by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1019 (rv3-beta-789-GTNH)
 >* Fix processing terminal buttons position  by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1018 (rv3-beta-787-GTNH)
 >* fix performance regression when requesting new crafts by @Glease in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1012 (rv3-beta-787-GTNH)
 >* Fix pattern optimizer crash by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1017 (rv3-beta-784-GTNH)
@@ -295,10 +297,11 @@ Mod is client-side only.
 >* Fix issues when changing p2p type that involves conversion by @hiroscho in https://github.com/GTNewHorizons/BetterP2P/pull/40 (1.4.2)
 >* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
 
-# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.19-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.19-GTNH
+# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.21-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.21-GTNH
 
 ## What's Changed:
+>* Move quest name translation to client-side notice handler by @Eldrinn-Elantey in https://github.com/GTNewHorizons/BetterQuesting/pull/182 (3.8.21-GTNH)
 >* Fix boss bars appearing when rendering entity previews by @ModularityEnjoyer in https://github.com/GTNewHorizons/BetterQuesting/pull/180 (3.8.19-GTNH)
 >* Add copy quest description button by @Faotik in https://github.com/GTNewHorizons/BetterQuesting/pull/181 (3.8.17-GTNH)
 >* Add copy quest description button by @Faotik in https://github.com/GTNewHorizons/BetterQuesting/pull/181 (3.8.17)
@@ -390,10 +393,11 @@ Mod is client-side only.
 >* Update buildscripts by @lesteenman in https://github.com/GTNewHorizons/CarpentersBlocks/pull/17 (3.7.1-GTNH)
 >* Add correct translation keys for Carpenter's Tile by @lesteenman in https://github.com/GTNewHorizons/CarpentersBlocks/pull/16 (3.7.1-GTNH)
 
-# Updated - Chisel - 2.16.15-GTNH --> 2.17.11-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.16.15-GTNH...2.17.11-GTNH
+# Updated - Chisel - 2.16.15-GTNH --> 2.17.13-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.16.15-GTNH...2.17.13-GTNH
 
 ## What's Changed:
+>* fix(render): adapt hodgepodge fixBottomFaceUV by @leagris in https://github.com/GTNewHorizons/Chisel/pull/76 (2.17.13-GTNH)
 >* Fix z-fighting for voidstone blocks by @danyadev in https://github.com/GTNewHorizons/Chisel/pull/71 (2.17.11-GTNH)
 >* RoadLine drop correct metadata when destroyed via onNeighborBlockChange by @PLASMAchicken in https://github.com/GTNewHorizons/Chisel/pull/75 (2.17.9-GTNH)
 >* Fix Stair Variant Drops by @PLASMAchicken in https://github.com/GTNewHorizons/Chisel/pull/74 (2.17.7-GTNH)
@@ -403,6 +407,13 @@ Mod is client-side only.
 >* Terracotta variations by @agreeable-frog in https://github.com/GTNewHorizons/Chisel/pull/68 (2.17.3-GTNH)
 >* Fix: corrected textures and removed flickering. issue 21220 by @cambech in https://github.com/GTNewHorizons/Chisel/pull/67 (2.17.1-GTNH)
 >* Update description key by @cambech in https://github.com/GTNewHorizons/Chisel/pull/66 (2.17.0-GTNH)
+
+# Updated - Computronics - 1.9.3-GTNH --> 1.9.4-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.9.3-GTNH...1.9.4-GTNH
+
+## What's Changed:
+>* Modernize Repository by @glowredman in https://github.com/GTNewHorizons/Computronics/pull/36 (1.9.4-GTNH)
+>* Localization of gui title of the ticket machine by @Ranzuu in https://github.com/GTNewHorizons/Computronics/pull/35 (1.9.4-GTNH)
 
 # Updated - CookingForBlockheads - 1.4.4-GTNH --> 1.4.5-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/CookingForBlockheads/compare/1.4.4-GTNH...1.4.5-GTNH
@@ -551,10 +562,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.211
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.211
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.213
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.213
 
 ## What's Changed:
+>* allow the cutting machine to use superfluid for faster recipes by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5707 (5.09.52.213)
 >* Improve Galgador Chemical Formula by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5698 (5.09.52.211)
 >* Add a recipe counter for multiblocks by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5710 (5.09.52.211)
 >* make hyperocoler recipe show it needs an input hatch inplace of a cryogenic casing by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5712 (5.09.52.211)
@@ -1229,10 +1241,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Disabled fire extinguishing for Advanced NanoChestPlate and GraviChestPlate if fire resistance is active by @loenaaaa in https://github.com/GTNewHorizons/Gravitation-Suite-Neo/pull/29 (1.3.8)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.46
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.46
+# Updated - Hodgepodge - 2.6.112 --> 2.7.48
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.48
 
 ## What's Changed:
+>* fix(render): unflip texture on bottom face of blocks by @leagris in https://github.com/GTNewHorizons/Hodgepodge/pull/676 (2.7.48)
 >* Fix gradle9 building + update bs by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/711 (2.7.46)
 >* Prevent moving mouse cursor to the center when pressing Esc in GUIs by @danyadev in https://github.com/GTNewHorizons/Hodgepodge/pull/707 (2.7.44)
 >* Added optional itemGroup gui title localization by @Ranzuu in https://github.com/GTNewHorizons/Hodgepodge/pull/709 (2.7.42)
@@ -1495,10 +1508,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.98
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.98
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.105
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.105
 
 ## What's Changed:
+>* Some IC2 cleanup - part 1 by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1559 (2.8.105)
+>* Add assembler recipe for Thaumcraft glass phial by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1562 (2.8.105)
+>* Double Pulp Cost of Wood Plates In Assembler by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1564 (2.8.105)
+>* add superfluid to all cutting machine recipes that also use lubricant by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1563 (2.8.105)
 >* Fix missing spaces in login message by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1558 (2.8.98)
 >* Localize the welcome message sent from the server by @Discreater in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1520 (2.8.96)
 >* add conversion recipe to mass solidifier and change shaper to solidifier by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1553 (2.8.96)

@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-16T04:13:06.350511",
+  "last_updated": "2026-01-16T13:56:37.212750",
   "config": "2.9.0-nightly-2026-01-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.43-gtnh",
+      "version": "1.5.44-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-787-GTNH",
+      "version": "rv3-beta-789-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.19-GTNH",
+      "version": "3.8.21-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -117,7 +117,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.17.11-GTNH",
+      "version": "2.17.13-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -129,7 +129,7 @@
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.9.3-GTNH",
+      "version": "1.9.4-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.211",
+      "version": "5.09.52.213",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.46",
+      "version": "2.7.48",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.98",
+      "version": "2.8.105",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
