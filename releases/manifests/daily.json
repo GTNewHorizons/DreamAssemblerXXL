@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-17T05:31:47.973024",
+  "last_updated": "2026-01-17T12:30:27.417433",
   "config": "2.9.0-nightly-2026-01-16",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.46-gtnh",
+      "version": "1.5.47-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.12.3-GTNH",
+      "version": "1.12.5-GTNH",
       "side": "BOTH"
     },
     "BrandonsCore": {
@@ -133,7 +133,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.4.5-GTNH",
+      "version": "1.4.7-GTNH",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -217,7 +217,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.124-GTNH",
+      "version": "1.1.126-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -225,11 +225,11 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.214",
+      "version": "5.09.52.215",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
-      "version": "1.4.7",
+      "version": "1.4.9",
       "side": "BOTH"
     },
     "GTNHLib": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.105",
+      "version": "2.8.106",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.22-GTNH",
+      "version": "1.8.24-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -689,7 +689,7 @@
       "side": "BOTH_JAVA9"
     },
     "amunra": {
-      "version": "0.8.2",
+      "version": "0.8.5",
       "side": "BOTH"
     },
     "DuraDisplay": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.36",
+      "version": "0.4.38",
       "side": "BOTH"
     }
   },
