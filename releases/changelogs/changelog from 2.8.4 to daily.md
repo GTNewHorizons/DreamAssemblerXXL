@@ -566,10 +566,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.213
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.213
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.214
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.214
 
 ## What's Changed:
+>* Fix AAL recipe counter and parallel multis on world reload counter by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5713 (5.09.52.214)
+>* Localized space pumping values in lang (NEI) by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5711 (5.09.52.214)
+>* Chat message localization in server - 20260112 by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5704 (5.09.52.214)
+>* Fix Graphene Recipes by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5715 (5.09.52.214)
+>* remove wdm extrusion molds by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5718 (5.09.52.214)
 >* allow the cutting machine to use superfluid for faster recipes by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5707 (5.09.52.213)
 >* Improve Galgador Chemical Formula by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5698 (5.09.52.211)
 >* Add a recipe counter for multiblocks by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5710 (5.09.52.211)
