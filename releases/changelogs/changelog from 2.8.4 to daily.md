@@ -125,10 +125,12 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-789-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-789-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-790-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-790-GTNH
 
 ## What's Changed:
+>* Return shift click insert into phantom slots by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1021 (rv3-beta-790-GTNH)
+>* Add a constructor to AEInvTile to self manage inventory by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1024 (rv3-beta-790-GTNH)
 >* Fix storage bus crash and item NBT disappearance by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1019 (rv3-beta-789-GTNH)
 >* Fix processing terminal buttons position  by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1018 (rv3-beta-787-GTNH)
 >* fix performance regression when requesting new crafts by @Glease in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1012 (rv3-beta-787-GTNH)
@@ -569,10 +571,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.215
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.215
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.216
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.216
 
 ## What's Changed:
+>* Add MWG Abbreviation by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5720 (5.09.52.216)
+>* Switch to NH's fork of coretweaks, and bump the version by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5723 (5.09.52.216)
+>* Fix Basalt Plate Cutting Recipe Conflict by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5725 (5.09.52.216)
+>* Optionally Localized Gas Siphon values in lang (NEI) by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5716 (5.09.52.216)
+>* Change method for generating polymerization recipes by @GirixK in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5604 (5.09.52.216)
 >* Item-Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5692 (5.09.52.215)
 >* Fix AAL recipe counter and parallel multis on world reload counter by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5713 (5.09.52.214)
 >* Localized space pumping values in lang (NEI) by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5711 (5.09.52.214)
@@ -1523,10 +1530,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.106
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.106
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.107
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.107
 
 ## What's Changed:
+>* Fix Lazurite -> Sodium Aluminate Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1565 (2.8.107)
+>* Add Styrene-Butadiene Rubber Thermal Cloth Assembler Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1567 (2.8.107)
 >* Simplify Item Registration & Improve Items by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1557 (2.8.106)
 >* Some IC2 cleanup - part 1 by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1559 (2.8.105)
 >* Add assembler recipe for Thaumcraft glass phial by @serenibyss in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1562 (2.8.105)
