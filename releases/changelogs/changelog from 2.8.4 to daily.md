@@ -3,10 +3,11 @@
 > * VendingMachine
 # Mods Removed: 
 > * AE2NoUltimatePatterns
-# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.47-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.47-gtnh
+# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.48-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.48-gtnh
 
 ## What's Changed:
+>* Fix stock replenisher item voiding by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/396 (1.5.48-gtnh)
 >* Use bigger inventory by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/395 (1.5.47-gtnh)
 >* Fix replenisher void by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/394 (1.5.46-gtnh)
 >* Revert part of "remove transformers (#389)"  by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/393 (1.5.45-gtnh)
@@ -571,10 +572,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.216
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.216
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.218
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.218
 
 ## What's Changed:
+>* pcb factory module tweaks and balance changes by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5730 (5.09.52.218)
+>* "Temporary" fix for NewHorizonsCoreMod reflection. by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5731 (5.09.52.218)
+>* makes EOH output more likely to VoidMiner by @SST-03 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4924 (5.09.52.217)
 >* Add MWG Abbreviation by @DylanTaylor1 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5720 (5.09.52.216)
 >* Switch to NH's fork of coretweaks, and bump the version by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5723 (5.09.52.216)
 >* Fix Basalt Plate Cutting Recipe Conflict by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5725 (5.09.52.216)
@@ -1530,10 +1534,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.107
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.107
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.108
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.108
 
 ## What's Changed:
+>* fix conflict in new projectred circuitassembler recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1569 (2.8.108)
+>* Fixes Microchip Recipe Conflicts  by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1568 (2.8.108)
+>* Remove `CustomItemList` by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1570 (2.8.108)
 >* Fix Lazurite -> Sodium Aluminate Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1565 (2.8.107)
 >* Add Styrene-Butadiene Rubber Thermal Cloth Assembler Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1567 (2.8.107)
 >* Simplify Item Registration & Improve Items by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1557 (2.8.106)

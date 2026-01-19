@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-18T04:16:46.208650",
-  "config": "2.9.0-nightly-2026-01-17-2",
+  "last_updated": "2026-01-19T04:34:10.348255",
+  "config": "2.9.0-nightly-2026-01-18",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.9-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.47-gtnh",
+      "version": "1.5.48-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.216",
+      "version": "5.09.52.218",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.107",
+      "version": "2.8.108",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
