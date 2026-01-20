@@ -67,11 +67,13 @@
 ## What's Changed:
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.0.0-alpha7
+# Updated - Angelica - 1.0.0-beta66b --> 2.0.0-alpha8
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.0.0-alpha7
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.0.0-alpha8
 
 ## What's Changed:
+>* Add Various Features (#1209) by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1277 (2.0.0-alpha8)
+>* Actually allocate the (minimal) display lists so we stop clobbering the hand renderer on shader reload by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1278 (2.0.0-alpha8)
 >* Support glCallLists by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1265 (2.0.0-alpha7)
 >* Fix a race condition by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1273 (2.0.0-alpha7)
 >* Improve glyph replacement logic by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1247 (2.0.0-alpha6)
@@ -126,10 +128,15 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-790-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-790-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-791-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-791-GTNH
 
 ## What's Changed:
+>* Fix optimizer gui not open by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1023 (rv3-beta-791-GTNH)
+>* Fix fluids not displayed in optimize gui by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1028 (rv3-beta-791-GTNH)
+>* Fix partition button not work on Cell Workbench by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1029 (rv3-beta-791-GTNH)
+>* Fix shift-clicking a slot unnecessarily placing items in phantom slot by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1027 (rv3-beta-791-GTNH)
+>* Optimize textures and add texture optimisation check in the build and test workflow by @boubou19 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1030 (rv3-beta-791-GTNH)
 >* Return shift click insert into phantom slots by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1021 (rv3-beta-790-GTNH)
 >* Add a constructor to AEInvTile to self manage inventory by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1024 (rv3-beta-790-GTNH)
 >* Fix storage bus crash and item NBT disappearance by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1019 (rv3-beta-789-GTNH)
@@ -449,10 +456,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Translate ASM to mixins by @Alexdoru in https://github.com/GTNewHorizons/CropLoadCore/pull/10 (0.3.0)
 
-# Updated - Crops-plus-plus - 1.8.11 --> 1.9.4
-**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.11...1.9.4
+# Updated - Crops-plus-plus - 1.8.11 --> 1.9.5
+**Full Changelog**: https://github.com/GTNewHorizons/Crops-plus-plus/compare/1.8.11...1.9.5
 
 ## What's Changed:
+>* Adapt to https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1570 by @boubou19 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/100 (1.9.5)
 >* Improve huckleberry flavor text by @DarkShadow44 in https://github.com/GTNewHorizons/Crops-plus-plus/pull/99 (1.9.4)
 >* Fix Garnydnia by @RecursivePineapple in https://github.com/GTNewHorizons/Crops-plus-plus/pull/98 (1.9.3)
 >* Use new GT ore API by @RecursivePineapple in https://github.com/GTNewHorizons/Crops-plus-plus/pull/95 (1.9.2)
@@ -572,10 +580,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.218
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.218
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.220
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.220
 
 ## What's Changed:
+>* Clean up Circuit Imprint Loader by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5410 (5.09.52.220)
+>* Restore Recipe Handlers Padding by @slprime in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5733 (5.09.52.219)
+>* Add optipng compression step in the build and test workflow by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5739 (5.09.52.219)
 >* pcb factory module tweaks and balance changes by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5730 (5.09.52.218)
 >* "Temporary" fix for NewHorizonsCoreMod reflection. by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5731 (5.09.52.218)
 >* makes EOH output more likely to VoidMiner by @SST-03 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/4924 (5.09.52.217)
@@ -1534,10 +1545,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.108
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.108
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.109
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.109
 
 ## What's Changed:
+>* Clean up circuit assembler recipes by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1472 (2.8.109)
 >* fix conflict in new projectred circuitassembler recipes by @chochem in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1569 (2.8.108)
 >* Fixes Microchip Recipe Conflicts  by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1568 (2.8.108)
 >* Remove `CustomItemList` by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1570 (2.8.108)
@@ -1682,10 +1694,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Restore tooltips on Pattern Terminal Gui by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/55 (1.7.19)
 >* Universal gui by @lc-1337 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/53 (1.7.18)
 
-# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.52-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.52-GTNH
+# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.54-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.54-GTNH
 
 ## What's Changed:
+>* Fix Autocrafting for recipe without ingredients in bookmarks by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/841 (2.8.54-GTNH)
+>* Fix Recipe Handlers Padding by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/842 (2.8.54-GTNH)
+>* Fix Information Handler Background Padding by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/843 (2.8.54-GTNH)
 >* Fix transparency border by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/838 (2.8.52-GTNH)
 >* Correctly crop colored text by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/839 (2.8.52-GTNH)
 >* Added optional subset label localization by @Ranzuu in https://github.com/GTNewHorizons/NotEnoughItems/pull/836 (2.8.50-GTNH)
@@ -1807,10 +1822,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* feat: new backup settings for claimed chunks only that saves the entire region file by @jordanamr in https://github.com/GTNewHorizons/ServerUtilities/pull/234 (2.2.5)
 >* Add custom configurable MOTD feature by @alppp in https://github.com/GTNewHorizons/ServerUtilities/pull/242 (2.2.3)
 
-# Updated - SpecialMobs - 3.6.3 --> 3.7.1
-**Full Changelog**: https://github.com/GTNewHorizons/SpecialMobs/compare/3.6.3...3.7.1
+# Updated - SpecialMobs - 3.6.3 --> 3.7.2
+**Full Changelog**: https://github.com/GTNewHorizons/SpecialMobs/compare/3.6.3...3.7.2
 
 ## What's Changed:
+>* Prevent ender creepers from teleporting to non-normal cubes (Including railcraft tank blocks)  by @loenaaaa in https://github.com/GTNewHorizons/SpecialMobs/pull/29 (3.7.2)
 >* Prevent Witch Spider infinite projectile duplication by @wlhlm in https://github.com/GTNewHorizons/SpecialMobs/pull/28 (3.7.1)
 >* Notify forge event bus of dark creeper explosion by @dibbydoda in https://github.com/GTNewHorizons/SpecialMobs/pull/27 (3.7.0)
 
@@ -2169,10 +2185,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* update by @RecursivePineapple in https://github.com/GTNewHorizons/lwjgl3ify/pull/249 (2.1.18)
 >* Properly fix mouse shift bug on retina displays and preserve HiDPI framebuffer by @danyadev in https://github.com/GTNewHorizons/lwjgl3ify/pull/244 (2.1.17)
 
-# Updated - nei-custom-diagram - 1.7.5 --> 1.8.8
-**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.7.5...1.8.8
+# Updated - nei-custom-diagram - 1.7.5 --> 1.8.10
+**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.7.5...1.8.10
 
 ## What's Changed:
+>* Adapt to the new NAND Chip Array location by @boubou19 in https://github.com/GTNewHorizons/nei-custom-diagram/pull/60 (1.8.10)
+>* adapt to https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1570 by @boubou19 in https://github.com/GTNewHorizons/nei-custom-diagram/pull/59 (1.8.9)
 >* Add sheetmetal to the material parts page by @serenibyss in https://github.com/GTNewHorizons/nei-custom-diagram/pull/58 (1.8.8)
 >* Remove Slicer Recipemap by @UltraProdigy in https://github.com/GTNewHorizons/nei-custom-diagram/pull/57 (1.8.7)
 >* Update for `OrePrefixBuilder` #5121 by @Vlamonster in https://github.com/GTNewHorizons/nei-custom-diagram/pull/55 (1.8.5)
