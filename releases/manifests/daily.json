@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-20T04:18:28.461794",
-  "config": "2.9.0-nightly-2026-01-19",
+  "last_updated": "2026-01-21T04:18:09.473784",
+  "config": "2.9.0-nightly-2026-01-20",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.9-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-791-GTNH",
+      "version": "rv3-beta-792-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.21-GTNH",
+      "version": "3.8.22-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -149,7 +149,7 @@
       "side": "BOTH"
     },
     "DefaultServerList": {
-      "version": "1.7.0",
+      "version": "1.7.3",
       "side": "CLIENT"
     },
     "DefaultWorldGenerator": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.220",
+      "version": "5.09.52.221",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.21",
+      "version": "1.7.22",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.12-GTNH",
+      "version": "4.12.14-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.20-GTNH",
+      "version": "1.14.22-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.9.15",
+      "version": "1.19.19",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.19-GTNH",
+      "version": "1.3.20-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
@@ -769,7 +769,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.44-GTNH",
+      "version": "1.1.45-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
