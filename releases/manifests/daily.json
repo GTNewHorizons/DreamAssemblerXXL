@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-21T04:18:09.473784",
-  "config": "2.9.0-nightly-2026-01-20",
+  "last_updated": "2026-01-22T04:31:13.203905",
+  "config": "2.9.0-nightly-2026-01-21",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.9-GTNH",
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.109",
+      "version": "2.8.110",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -441,7 +441,7 @@
       "side": "CLIENT"
     },
     "SGCraft": {
-      "version": "1.4.5-GTNH",
+      "version": "1.4.7-GTNH",
       "side": "BOTH"
     },
     "Share-Where-I-am": {
@@ -557,7 +557,7 @@
       "side": "BOTH"
     },
     "Universal-Singularities": {
-      "version": "8.12.0",
+      "version": "8.13.0",
       "side": "BOTH"
     },
     "VisualProspecting": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.6",
+      "version": "3.0.7",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
