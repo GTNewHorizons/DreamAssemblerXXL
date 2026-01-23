@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-22T04:31:13.203905",
+  "last_updated": "2026-01-23T04:15:51.253537",
   "config": "2.9.0-nightly-2026-01-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-792-GTNH",
+      "version": "rv3-beta-793-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -53,7 +53,7 @@
       "side": "BOTH"
     },
     "BetterBuildersWands": {
-      "version": "0.13.3-GTNH",
+      "version": "0.13.6-GTNH",
       "side": "BOTH"
     },
     "BetterCrashes": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.8.8",
+      "version": "1.8.9",
       "side": "BOTH"
     },
     "Botania": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.221",
+      "version": "5.09.52.222",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,11 +233,11 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.3",
+      "version": "0.9.6",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
-      "version": "1.12.16-GTNH",
+      "version": "1.12.17-GTNH",
       "side": "BOTH"
     },
     "harvestcraft": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.110",
+      "version": "2.8.111",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -685,7 +685,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.7",
+      "version": "3.0.8",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha8",
+      "version": "2.0.0-alpha9",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -765,11 +765,11 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.6-GTNH",
+      "version": "0.1.7-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.45-GTNH",
+      "version": "1.1.46-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
