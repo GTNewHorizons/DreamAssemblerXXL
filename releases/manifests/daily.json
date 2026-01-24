@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-23T04:15:51.253537",
+  "last_updated": "2026-01-24T04:10:02.611043",
   "config": "2.9.0-nightly-2026-01-21",
   "github_mods": {
     "AdventureBackpack2": {
@@ -145,7 +145,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.9.5",
+      "version": "1.9.6",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -161,7 +161,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.7.16",
+      "version": "1.7.17",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.222",
+      "version": "5.09.52.224",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.48",
+      "version": "2.7.49",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.54-GTNH",
+      "version": "2.8.55-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.19.19",
+      "version": "1.19.20",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha9",
+      "version": "2.0.0-alpha11",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -765,7 +765,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.7-GTNH",
+      "version": "0.1.8-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
