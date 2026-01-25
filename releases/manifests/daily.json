@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-25T06:52:37.238018",
-  "config": "2.9.0-nightly-2026-01-24-2",
+  "last_updated": "2026-01-25T12:12:12.365392",
+  "config": "2.9.0-nightly-2026-01-25",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.9-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-796-GTNH",
+      "version": "rv3-beta-797-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.51",
+      "version": "2.7.52",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -461,7 +461,7 @@
       "side": "BOTH"
     },
     "Steve-s-Factory-Manager": {
-      "version": "1.3.4-GTNH",
+      "version": "1.3.6-GTNH",
       "side": "BOTH"
     },
     "StevesAddons": {
@@ -533,7 +533,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.22-GTNH",
+      "version": "1.14.24-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
