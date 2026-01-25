@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-25T04:34:17.650349",
+  "last_updated": "2026-01-25T06:52:37.238018",
   "config": "2.9.0-nightly-2026-01-24-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-794-GTNH",
+      "version": "rv3-beta-796-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.227",
+      "version": "5.09.52.228",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -601,7 +601,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.24-GTNH",
+      "version": "1.8.25-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
