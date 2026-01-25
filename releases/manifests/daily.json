@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-24T04:10:02.611043",
-  "config": "2.9.0-nightly-2026-01-21",
+  "last_updated": "2026-01-25T04:34:17.650349",
+  "config": "2.9.0-nightly-2026-01-24-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.9-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-793-GTNH",
+      "version": "rv3-beta-794-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BrandonsCore": {
-      "version": "1.2.0-GTNH",
+      "version": "1.2.1-GTNH",
       "side": "BOTH"
     },
     "BuildCraft": {
@@ -145,7 +145,7 @@
       "side": "BOTH"
     },
     "Crops-plus-plus": {
-      "version": "1.9.6",
+      "version": "1.9.7",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "EnderCore": {
-      "version": "0.5.3",
+      "version": "0.5.5",
       "side": "BOTH"
     },
     "EnderIO": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.224",
+      "version": "5.09.52.227",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.49",
+      "version": "2.7.51",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -309,7 +309,7 @@
       "side": "BOTH"
     },
     "MalisisDoors": {
-      "version": "1.19.0-GTNH",
+      "version": "1.19.2-GTNH",
       "side": "BOTH"
     },
     "Mantle": {
@@ -321,7 +321,7 @@
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
-      "version": "2.3.1",
+      "version": "2.3.2",
       "side": "BOTH"
     },
     "ModTweaker": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.8.10",
+      "version": "1.8.12",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.111",
+      "version": "2.8.114",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.7.2",
+      "version": "2.7.4",
       "side": "BOTH"
     },
     "oauth": {
@@ -381,7 +381,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.12-GTNH",
+      "version": "1.12.16-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -557,7 +557,7 @@
       "side": "BOTH"
     },
     "Universal-Singularities": {
-      "version": "8.13.0",
+      "version": "8.14.0",
       "side": "BOTH"
     },
     "VisualProspecting": {
@@ -565,7 +565,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.19.20",
+      "version": "1.19.21",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -697,7 +697,7 @@
       "side": "CLIENT"
     },
     "Mobs-Info": {
-      "version": "0.5.9-GTNH",
+      "version": "0.5.10-GTNH",
       "side": "BOTH"
     },
     "BeeBetterAtBees-GTNH": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha11",
+      "version": "2.0.0-alpha12",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.25-1.7.10",
+      "version": "2.3.28-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
