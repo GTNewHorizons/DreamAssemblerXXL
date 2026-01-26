@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-25T12:19:22.145742",
-  "config": "2.9.0-nightly-2026-01-25",
+  "last_updated": "2026-01-26T04:36:33.480531",
+  "config": "2.9.0-nightly-2026-01-25-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.9-GTNH",
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.22-GTNH",
+      "version": "3.8.24-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.228",
+      "version": "5.09.52.234",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.52",
+      "version": "2.7.54",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.14-GTNH",
+      "version": "4.12.17-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -513,7 +513,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.18-GTNH",
+      "version": "1.7.20-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -613,7 +613,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.4.4",
+      "version": "1.4.5",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha12",
+      "version": "2.0.0-alpha13",
       "side": "CLIENT"
     },
     "AkashicTome": {

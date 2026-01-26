@@ -67,11 +67,19 @@
 ## What's Changed:
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.0.0-alpha12
+# Updated - Angelica - 1.0.0-beta66b --> 2.0.0-alpha13
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.0.0-alpha12
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.0.0-alpha13
 
 ## What's Changed:
+>* AABB Caching by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1309 (2.0.0-alpha13)
+>* Add a nvidia workarounds from celeritas by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1286 (2.0.0-alpha13)
+>* Optimize TileEntities by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1314 (2.0.0-alpha13)
+>* Use the proper blockAccess on the main thread by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1317 (2.0.0-alpha13)
+>* Various Shader Fixes  by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1315 (2.0.0-alpha13)
+>* Dynamic Lights Improvements by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1319 (2.0.0-alpha13)
+>* Chunk Thread Saftey by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1320 (2.0.0-alpha13)
+>* Adds "name_tag" feature by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1318 (2.0.0-alpha13)
 >* Fix entity material handling. by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1298 (2.0.0-alpha12)
 >* Make feature flag defines available in shader.properties preprocessing by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1303 (2.0.0-alpha12)
 >* Buffer fixes by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1304 (2.0.0-alpha12)
@@ -355,10 +363,12 @@ Mod is client-side only.
 >* Fix issues when changing p2p type that involves conversion by @hiroscho in https://github.com/GTNewHorizons/BetterP2P/pull/40 (1.4.2)
 >* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
 
-# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.22-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.22-GTNH
+# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.24-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.24-GTNH
 
 ## What's Changed:
+>* Add Complete All Quests Command by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/186 (3.8.24-GTNH)
+>* fix loading quests with unrelated files present in quests config by @danyadev in https://github.com/GTNewHorizons/BetterQuesting/pull/184 (3.8.24-GTNH)
 >* Fixes GUI Text Coloring on Reward Claim by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/183 (3.8.22-GTNH)
 >* Move quest name translation to client-side notice handler by @Eldrinn-Elantey in https://github.com/GTNewHorizons/BetterQuesting/pull/182 (3.8.21-GTNH)
 >* Fix boss bars appearing when rendering entity previews by @ModularityEnjoyer in https://github.com/GTNewHorizons/BetterQuesting/pull/180 (3.8.19-GTNH)
@@ -382,10 +392,11 @@ Mod is client-side only.
 >* [Memory-opti:runtime allocations] Reduce amount of NBTTagCompound created in TileEntityMetadata#getItemStack by @Alexdoru in https://github.com/GTNewHorizons/Binnie/pull/77 (2.6.2)
 >* fix batched updates does not call window and machine packet listeners by @Glease in https://github.com/GTNewHorizons/Binnie/pull/74 (2.6.0)
 
-# Updated - BlockRenderer6343 - 1.3.17 --> 1.4.4
-**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.17...1.4.4
+# Updated - BlockRenderer6343 - 1.3.17 --> 1.4.5
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.17...1.4.5
 
 ## What's Changed:
+>* Fix preview for multiblocks with custom hatches by @chrombread in https://github.com/GTNewHorizons/BlockRenderer6343/pull/39 (1.4.5)
 >* Update Dependencies by @slprime in https://github.com/GTNewHorizons/BlockRenderer6343/pull/37 (1.4.3)
 >* Structure Preview Fix pt1 by @UltraProdigy in https://github.com/GTNewHorizons/BlockRenderer6343/pull/38 (1.4.3)
 >* Update NEI Catalyst by @slprime in https://github.com/GTNewHorizons/BlockRenderer6343/pull/36 (1.4.2)
@@ -636,10 +647,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.228
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.228
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.234
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.234
 
 ## What's Changed:
+>* Fix canning machines by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5777 (5.09.52.234)
+>* Add NEI search filter for chemical fomula by @WayneYam in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5757 (5.09.52.232)
+>* Make vajra update neighbors when right-click breaks a block by @michaeldoylecs in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5766 (5.09.52.230)
 >* Allow extracting containers from stirling water pump by @Taskeren in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5746 (5.09.52.228)
 >* Stop querying alignment, and just send it by @mitchej123 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5765 (5.09.52.228)
 >* Even more migrations for NHCoreMod items & blocks by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5768 (5.09.52.228)
@@ -1365,10 +1379,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.52
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.52
+# Updated - Hodgepodge - 2.6.112 --> 2.7.54
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.54
 
 ## What's Changed:
+>* Disable lotr languagehelper by default by @mist475 in https://github.com/GTNewHorizons/Hodgepodge/pull/721 (2.7.54)
 >* Optimize outbound gzip as well by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/724 (2.7.52)
 >* fix NoSuchFileException during first server boot by @mist475 in https://github.com/GTNewHorizons/Hodgepodge/pull/716 (2.7.51)
 >* AsyncNBTParser and PooledGzipInputStream by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/722 (2.7.51)
@@ -1881,10 +1896,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Provide chunk to tile entity transformers by @SuperSoupr in https://github.com/GTNewHorizons/Postea/pull/17 (1.1.5)
 >* Use FMLModIdMappingEvent for numeric id mapping by @SuperSoupr in https://github.com/GTNewHorizons/Postea/pull/15 (1.1.4)
 
-# Updated - ProjectRed - 4.12.6-GTNH --> 4.12.14-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.6-GTNH...4.12.14-GTNH
+# Updated - ProjectRed - 4.12.6-GTNH --> 4.12.17-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.6-GTNH...4.12.17-GTNH
 
 ## What's Changed:
+>* Fix Auto Crafter able to craft items with different NBT by @Worive in https://github.com/GTNewHorizons/ProjectRed/pull/60 (4.12.17-GTNH)
 >* Fix non-full blocks lamps not rendering glow by @Worive in https://github.com/GTNewHorizons/ProjectRed/pull/67 (4.12.14-GTNH)
 >* Separated localization strings tile vs title by @Ranzuu in https://github.com/GTNewHorizons/ProjectRed/pull/64 (4.12.12-GTNH)
 >* Fix capitalisation in en-US localisation by @ModularityEnjoyer in https://github.com/GTNewHorizons/ProjectRed/pull/61 (4.12.8-GTNH)
@@ -2043,10 +2059,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add hint text for TB aspects by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBoots/pull/45 (1.5.2)
 >* Add glease' maven as required by tc4recipelib by @wlhlm in https://github.com/GTNewHorizons/ThaumicBoots/pull/43 (1.5.0)
 
-# Updated - ThaumicEnergistics - 1.7.14-GTNH --> 1.7.18-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.14-GTNH...1.7.18-GTNH
+# Updated - ThaumicEnergistics - 1.7.14-GTNH --> 1.7.20-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.14-GTNH...1.7.20-GTNH
 
 ## What's Changed:
+>* Gui Titles localization by @Ranzuu in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/100 (1.7.20-GTNH)
 >* Fix Arcane Assembler crafting tasks not viewable in tree view by @zyf051520 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/97 (1.7.18-GTNH)
 >* Transfer ASM coremod to mixins by @Alexdoru in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/96 (1.7.16-GTNH)
 >* Add nullcheck in Item Microscope to prevent Crash by @PLASMAchicken in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/95 (1.7.15-GTNH)
