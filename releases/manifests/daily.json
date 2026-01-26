@@ -1,11 +1,11 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-26T04:36:33.480531",
+  "last_updated": "2026-01-26T18:02:18.818274",
   "config": "2.9.0-nightly-2026-01-25-2",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.4.9-GTNH",
+      "version": "1.4.12-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
@@ -21,7 +21,7 @@
       "side": "BOTH"
     },
     "AngerMod": {
-      "version": "1.0.2",
+      "version": "1.0.3",
       "side": "BOTH"
     },
     "AppleCore": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-797-GTNH",
+      "version": "rv3-beta-801-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -117,7 +117,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.17.13-GTNH",
+      "version": "2.17.14-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.234",
+      "version": "5.09.52.235",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -245,7 +245,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.54",
+      "version": "2.7.56",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.114",
+      "version": "2.8.116",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -605,7 +605,7 @@
       "side": "BOTH"
     },
     "Yamcl": {
-      "version": "0.7.3",
+      "version": "0.7.4",
       "side": "BOTH"
     },
     "OpenPrinter": {
