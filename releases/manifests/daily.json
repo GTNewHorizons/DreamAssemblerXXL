@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-27T04:19:34.189279",
-  "config": "2.9.0-nightly-2026-01-26",
+  "last_updated": "2026-01-28T04:17:58.442853",
+  "config": "2.9.0-nightly-2026-01-27",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.7",
+      "version": "2.6.9",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.237",
+      "version": "5.09.52.238",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.118",
+      "version": "2.8.119",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -505,15 +505,15 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.5.10-GTNH",
+      "version": "1.5.12-GTNH",
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.9.6",
+      "version": "1.9.7",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.20-GTNH",
+      "version": "1.7.22-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -525,7 +525,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.12.4",
+      "version": "2.12.6",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -737,7 +737,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha14",
+      "version": "2.0.0-alpha16",
       "side": "CLIENT"
     },
     "AkashicTome": {

@@ -69,11 +69,14 @@
 ## What's Changed:
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.0.0-alpha14
+# Updated - Angelica - 1.0.0-beta66b --> 2.0.0-alpha16
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.0.0-alpha14
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.0.0-alpha16
 
 ## What's Changed:
+>* Fix NPE by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1332 (2.0.0-alpha16)
+>* Tweaks by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1329 (2.0.0-alpha15)
+>* Use entity position instead of camera pos by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1330 (2.0.0-alpha15)
 >* Don't double check infinite bounds by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1321 (2.0.0-alpha14)
 >* Add option to disable f3 additions by @MalTeeez in https://github.com/GTNewHorizons/Angelica/pull/1308 (2.0.0-alpha14)
 >* add biomeDictionary and lotr compat to BiomeUniforms by @mist475 in https://github.com/GTNewHorizons/Angelica/pull/1324 (2.0.0-alpha14)
@@ -391,10 +394,11 @@ Mod is client-side only.
 >* Use GTNHLib string methods by @DeathFuel in https://github.com/GTNewHorizons/BetterQuesting/pull/172 (3.8.4-GTNH)
 >* Fix NPE in icon display by @ah-OOG-ah in https://github.com/GTNewHorizons/BetterQuesting/pull/173 (3.8.2-GTNH)
 
-# Updated - Binnie - 2.5.24 --> 2.6.7
-**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.24...2.6.7
+# Updated - Binnie - 2.5.24 --> 2.6.9
+**Full Changelog**: https://github.com/GTNewHorizons/Binnie/compare/2.5.24...2.6.9
 
 ## What's Changed:
+>* Yeet reflective item parsing by @ah-OOG-ah in https://github.com/GTNewHorizons/Binnie/pull/75 (2.6.9)
 >* Fix the inability to mutate a bee that requires a certain block as a base using alveary if the bottom center block of your alveary is any alveary block from Extra Bees by @TweksTY in https://github.com/GTNewHorizons/Binnie/pull/80 (2.6.7)
 >* Added title localization and inventory slot texture by @Ranzuu in https://github.com/GTNewHorizons/Binnie/pull/81 (2.6.7)
 >* Mark sequence as not repairable by @DarkShadow44 in https://github.com/GTNewHorizons/Binnie/pull/79 (2.6.4)
@@ -657,10 +661,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.237
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.237
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.238
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.238
 
 ## What's Changed:
+>* Recipe counter for aal batch mode by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5782 (5.09.52.238)
+>* Allow extraction of creosote from coke oven with right click by @loenaaaa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5783 (5.09.52.238)
+>* Adds Wireless Energy Debug Cover by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5785 (5.09.52.238)
+>* Fix NullPointerException from attempting to extract creosote from empty coke oven by @loenaaaa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5789 (5.09.52.238)
+>* Moved GL Overlay from code into the texture for Primitive Kinetic Shaftbox (Bart) by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5787 (5.09.52.238)
 >* Turbocharger deduplicate code and fix waila stored energy by @PLASMAchicken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5458 (5.09.52.237)
 >* Turbocharger deduplicate code and fix waila stored energy by @PLASMAchicken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5458 (5.09.52.235)
 >* Fix canning machines by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5777 (5.09.52.234)
@@ -1675,10 +1684,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.118
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.118
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.119
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.119
 
 ## What's Changed:
+>* Retextures Raw Pico Wafers and Pico Wafers to match the rest of the wafers. by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1586 (2.8.119)
 >* Fix Smokey Quartz LE recipes consuming Lenses by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1585 (2.8.118)
 >* Re-Add Ball O' Moss Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1583 (2.8.116)
 >* Deprecate fluid canners by @FourIsTheNumber in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1580 (2.8.114)
@@ -2054,10 +2064,11 @@ Mod is client-side only.
 # Updated - Thaumcraft - 4.2.3.5a --> 4.2.3.5
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - ThaumicBases - 1.8.13 --> 1.9.6
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.8.13...1.9.6
+# Updated - ThaumicBases - 1.8.13 --> 1.9.7
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBases/compare/1.8.13...1.9.7
 
 ## What's Changed:
+>* Fix typos by @Yoshy2002 in https://github.com/GTNewHorizons/ThaumicBases/pull/62 (1.9.7)
 >* Refine language entries for Rainbow Cacti by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/ThaumicBases/pull/61 (1.9.6)
 >* Allow Saplings on Nether/End Blocks by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBases/pull/53 (1.9.5)
 >* Fix leaves showing wrong name in waila by @serenibyss in https://github.com/GTNewHorizons/ThaumicBases/pull/58 (1.9.2)
@@ -2074,10 +2085,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add hint text for TB aspects by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBoots/pull/45 (1.5.2)
 >* Add glease' maven as required by tc4recipelib by @wlhlm in https://github.com/GTNewHorizons/ThaumicBoots/pull/43 (1.5.0)
 
-# Updated - ThaumicEnergistics - 1.7.14-GTNH --> 1.7.20-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.14-GTNH...1.7.20-GTNH
+# Updated - ThaumicEnergistics - 1.7.14-GTNH --> 1.7.22-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.14-GTNH...1.7.22-GTNH
 
 ## What's Changed:
+>* fikx typo by @Yoshy2002 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/101 (1.7.22-GTNH)
+>* More Typos by @Yoshy2002 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/102 (1.7.22-GTNH)
 >* Gui Titles localization by @Ranzuu in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/100 (1.7.20-GTNH)
 >* Fix Arcane Assembler crafting tasks not viewable in tree view by @zyf051520 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/97 (1.7.18-GTNH)
 >* Transfer ASM coremod to mixins by @Alexdoru in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/96 (1.7.16-GTNH)
@@ -2093,18 +2106,20 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix nullpointer crash when exploding Alchemite by @DarkShadow44 in https://github.com/GTNewHorizons/ThaumicHorizons/pull/100 (1.8.7)
 >* Soul Beacon Event Handler Cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicHorizons/pull/93 (1.8.4)
 
-# Updated - ThaumicTinkerer - 2.11.27 --> 2.12.4
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.27...2.12.4
+# Updated - ThaumicTinkerer - 2.11.27 --> 2.12.6
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.27...2.12.6
 
 ## What's Changed:
+>* Fix Typos by @Yoshy2002 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/79 (2.12.6)
 >* Allow Electric Hoe of Growth to bonemeal Infused Seeds by @ah-OOG-ah in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/78 (2.12.4)
 >* Fix boots losing their speed when enchanted and Thaumic Boots is not installed by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/76 (2.12.2)
 >* Merge #74 to master by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/75 (2.12.0)
 
-# Updated - Thaumic_Exploration - 1.4.8-GTNH --> 1.5.10-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.8-GTNH...1.5.10-GTNH
+# Updated - Thaumic_Exploration - 1.4.8-GTNH --> 1.5.12-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.8-GTNH...1.5.12-GTNH
 
 ## What's Changed:
+>* Fix typos by @Yoshy2002 in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/52 (1.5.12-GTNH)
 >* enable step assist and omni speedup by default by @danyadev in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/51 (1.5.10-GTNH)
 >* Rebalance Falling and Flying Speed by @SST-03 in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/48 (1.5.8-GTNH)
 >* Make talisman of nourishment give nutrition by @SuperSoupr in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/41 (1.5.6-GTNH)
