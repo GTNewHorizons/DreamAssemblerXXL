@@ -3,10 +3,11 @@
 > * VendingMachine
 # Mods Removed: 
 > * AE2NoUltimatePatterns
-# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.48-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.48-gtnh
+# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.50-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.50-gtnh
 
 ## What's Changed:
+>* Fix some typos by @Yoshy2002 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/397 (1.5.50-gtnh)
 >* Fix stock replenisher item voiding by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/396 (1.5.48-gtnh)
 >* Use bigger inventory by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/395 (1.5.47-gtnh)
 >* Fix replenisher void by @lc-1337 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/394 (1.5.46-gtnh)
@@ -159,10 +160,11 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-801-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-801-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-803-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-803-GTNH
 
 ## What's Changed:
+>* fix typos by @Yoshy2002 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1044 (rv3-beta-803-GTNH)
 >* Don't add items to pattern with shift click on Pattern Terminal by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1043 (rv3-beta-801-GTNH)
 >* Rename interface from interface terminal by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1041 (rv3-beta-797-GTNH)
 >* [Feature] Creative-like pick block with withdrawl from AE system by @michaeldoylecs in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/945 (rv3-beta-796-GTNH)
@@ -315,10 +317,12 @@ Mod is client-side only.
 ## What's Changed:
 >* delete empty event class by @Alexdoru in https://github.com/GTNewHorizons/AsieLib/pull/5 (0.7.1)
 
-# Updated - Avaritia - 1.77 --> 1.78
-**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.77...1.78
+# Updated - Avaritia - 1.77 --> 1.83
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.77...1.83
 
 ## What's Changed:
+>* Safer Endest Pearls by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Avaritia/pull/71 (1.83)
+>* Add a config option for what enemies count as skeletons by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Avaritia/pull/72 (1.83)
 >* Add hint text for Terminus.  by @koolkrafter5 in https://github.com/GTNewHorizons/Avaritia/pull/66 (1.78)
 
 # Updated - Backhand - 1.7.7 --> 1.8.2
@@ -661,10 +665,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.238
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.238
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.239
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.239
 
 ## What's Changed:
+>* Localized "Running perfectly" string and added optional resource pack color override into MultiBlockBaseGui for item/fluid progress by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5773 (5.09.52.239)
+>* Attempt to fix thermos crash by @Florexiz in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5784 (5.09.52.239)
+>* Fixed NEI Recipe page for Cauldron by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5794 (5.09.52.239)
+>* Fixed High Energy Laser Treatment NEI page by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5791 (5.09.52.239)
 >* Recipe counter for aal batch mode by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5782 (5.09.52.238)
 >* Allow extraction of creosote from coke oven with right click by @loenaaaa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5783 (5.09.52.238)
 >* Adds Wireless Energy Debug Cover by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5785 (5.09.52.238)
@@ -1684,10 +1692,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.119
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.119
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.120
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.120
 
 ## What's Changed:
+>* fix typos by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1587 (2.8.120)
 >* Retextures Raw Pico Wafers and Pico Wafers to match the rest of the wafers. by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1586 (2.8.119)
 >* Fix Smokey Quartz LE recipes consuming Lenses by @Yoshy2002 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1585 (2.8.118)
 >* Re-Add Ball O' Moss Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1583 (2.8.116)
@@ -2075,10 +2084,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Cap enchantment level to max+1 by @Caedis in https://github.com/GTNewHorizons/ThaumicBases/pull/56 (1.9.0)
 >* Revert "Cap enchantment level to max+1 (#56)" by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBases/pull/57 (1.9.0)
 
-# Updated - ThaumicBoots - 1.4.14 --> 1.5.7
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.14...1.5.7
+# Updated - ThaumicBoots - 1.4.14 --> 1.5.8
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicBoots/compare/1.4.14...1.5.8
 
 ## What's Changed:
+>* Typo fixes by @Yoshy2002 in https://github.com/GTNewHorizons/ThaumicBoots/pull/48 (1.5.8)
 >* really make features enabled by default by @danyadev in https://github.com/GTNewHorizons/ThaumicBoots/pull/47 (1.5.7)
 >* Rebalance Falling and Flying Speed by @SST-03 in https://github.com/GTNewHorizons/ThaumicBoots/pull/44 (1.5.5)
 >* Change Default Jump/Speed modifier to 1 by @SST-03 in https://github.com/GTNewHorizons/ThaumicBoots/pull/46 (1.5.5)
@@ -2096,10 +2106,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Transfer ASM coremod to mixins by @Alexdoru in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/96 (1.7.16-GTNH)
 >* Add nullcheck in Item Microscope to prevent Crash by @PLASMAchicken in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/95 (1.7.15-GTNH)
 
-# Updated - ThaumicHorizons - 1.7.9 --> 1.8.10
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.9...1.8.10
+# Updated - ThaumicHorizons - 1.7.9 --> 1.8.11
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicHorizons/compare/1.7.9...1.8.11
 
 ## What's Changed:
+>* fix typos by @Yoshy2002 in https://github.com/GTNewHorizons/ThaumicHorizons/pull/105 (1.8.11)
 >* Synth Node now consumes the entire stack of essense instead of 1 by @Caedis in https://github.com/GTNewHorizons/ThaumicHorizons/pull/102 (1.8.10)
 >* Improved Dispenser Functionality by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicHorizons/pull/94 (1.8.9)
 >* Potion ID configs Added [Issue #97] by @Aerindor-of-Arcane in https://github.com/GTNewHorizons/ThaumicHorizons/pull/99 (1.8.9)
