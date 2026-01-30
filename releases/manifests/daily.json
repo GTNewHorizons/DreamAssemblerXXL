@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-30T04:53:59.507295",
+  "last_updated": "2026-01-30T12:11:41.116891",
   "config": "2.9.0-nightly-2026-01-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -13,7 +13,7 @@
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.10.2-GTNH",
+      "version": "0.10.7-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.24-GTNH",
+      "version": "3.8.26-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -157,7 +157,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.5.8-GTNH",
+      "version": "1.5.11-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
@@ -225,7 +225,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.242",
+      "version": "5.09.52.243",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "InGame-Info-XML": {
-      "version": "2.9.0",
+      "version": "2.9.1",
       "side": "BOTH"
     },
     "ironchest": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.121",
+      "version": "2.8.122",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.55-GTNH",
+      "version": "2.8.58-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.17-GTNH",
+      "version": "4.12.19-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
