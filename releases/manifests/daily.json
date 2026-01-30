@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-30T12:20:41.317169",
+  "last_updated": "2026-01-30T17:43:49.538853",
   "config": "2.9.0-nightly-2026-01-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.8.9",
+      "version": "1.8.11",
       "side": "BOTH"
     },
     "Botania": {
