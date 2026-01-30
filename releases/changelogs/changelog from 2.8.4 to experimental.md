@@ -3,6 +3,7 @@
 > * VendingMachine
 # Mods Removed: 
 > * AE2NoUltimatePatterns
+> * BrandonsCore
 # Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.51-gtnh-pre
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.51-gtnh-pre
 
@@ -529,10 +530,11 @@ Mod is client-side only.
 >* Fix overenchanting by @Caedis in https://github.com/GTNewHorizons/BloodArsenal/pull/36 (1.5.0)
 >* Revert "Fix overenchanting (#36)" by @koolkrafter5 in https://github.com/GTNewHorizons/BloodArsenal/pull/37 (1.5.0)
 
-# Updated - BloodMagic - 1.7.52 --> 1.8.10-pre
-**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.52...1.8.10-pre
+# Updated - BloodMagic - 1.7.52 --> 1.8.11
+**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.52...1.8.11
 
 ## What's Changed:
+>* Grammar/Spelling Pass by @Yoshy2002 in https://github.com/GTNewHorizons/BloodMagic/pull/119 (1.8.11)
 >* Localization of GUI titles and NEI Calcinator values by @Ranzuu in https://github.com/GTNewHorizons/BloodMagic/pull/118 (1.8.9)
 >* Allow fortune to work with GT ores using Bound Pickaxe right click. by @Miklebe in https://github.com/GTNewHorizons/BloodMagic/pull/115 (1.8.8)
 >* Fix t6 and modded orbs not giving any discounts to Bound Armor's effects by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/113 (1.8.7)
@@ -577,12 +579,6 @@ Mod is client-side only.
 >* Feature: Magic Wrenches by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/41 (1.12.0-GTNH)
 >* Feature: updated wrench textures by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/43 (1.12.0-GTNH)
 >* Feature: Use the center mana pool as an additional mana source. by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/42 (1.12.0-GTNH)
-
-# Updated - BrandonsCore - 1.2.0-GTNH --> 1.2.1-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BrandonsCore/compare/1.2.0-GTNH...1.2.1-GTNH
-
-## What's Changed:
->* Format number migration by @Connor-Colenso in https://github.com/GTNewHorizons/BrandonsCore/pull/4 (1.2.1-GTNH)
 
 # Updated - BuildCraft - 7.1.44 --> 7.1.50-pre
 **Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.44...7.1.50-pre
@@ -805,8 +801,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.244-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.244-pre
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.245-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.245-pre
 
 ## What's Changed:
 >* More Typo fixes by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5800 (5.09.52.244-pre)
@@ -1976,8 +1972,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Separated tile vs gui title string in lang by @Ranzuu in https://github.com/GTNewHorizons/MalisisDoors/pull/24 (1.19.2-GTNH)
 >* Small thread-safety fix to prevent certain NullPointers by @Cleptomania in https://github.com/GTNewHorizons/MalisisDoors/pull/23 (1.19.0-GTNH)
 
-# Updated - MatterManipulator - 0.0.51-GTNH --> 0.1.8-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.51-GTNH...0.1.8-GTNH
+# Updated - MatterManipulator - 0.0.51-GTNH --> 0.1.9-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.51-GTNH...0.1.9-GTNH-pre
 
 ## What's Changed:
 >* Format numbers migration by @Connor-Colenso in https://github.com/GTNewHorizons/MatterManipulator/pull/20 (0.1.8-GTNH)
