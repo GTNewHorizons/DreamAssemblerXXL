@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-29T04:52:01.155694",
-  "config": "2.9.0-nightly-2026-01-28",
+  "last_updated": "2026-01-30T04:53:59.507295",
+  "config": "2.9.0-nightly-2026-01-29",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.13.10-GTNH",
+      "version": "1.13.12-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -221,11 +221,11 @@
       "side": "BOTH"
     },
     "gendustry": {
-      "version": "1.9.7-GTNH",
+      "version": "1.9.8-GTNH",
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.239",
+      "version": "5.09.52.242",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.120",
+      "version": "2.8.121",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -681,7 +681,7 @@
       "side": "BOTH"
     },
     "Tainted-Magic": {
-      "version": "7.7.3-GTNH",
+      "version": "7.7.4-GTNH",
       "side": "BOTH"
     },
     "lwjgl3ify": {
@@ -773,7 +773,7 @@
       "side": "BOTH"
     },
     "Darkerer": {
-      "version": "1.0.6",
+      "version": "1.1.0",
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
