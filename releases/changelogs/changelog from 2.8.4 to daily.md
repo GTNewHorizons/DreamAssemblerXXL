@@ -427,10 +427,11 @@ Mod is client-side only.
 >* Fix overenchanting by @Caedis in https://github.com/GTNewHorizons/BloodArsenal/pull/36 (1.5.0)
 >* Revert "Fix overenchanting (#36)" by @koolkrafter5 in https://github.com/GTNewHorizons/BloodArsenal/pull/37 (1.5.0)
 
-# Updated - BloodMagic - 1.7.52 --> 1.8.9
-**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.52...1.8.9
+# Updated - BloodMagic - 1.7.52 --> 1.8.11
+**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.52...1.8.11
 
 ## What's Changed:
+>* Grammar/Spelling Pass by @Yoshy2002 in https://github.com/GTNewHorizons/BloodMagic/pull/119 (1.8.11)
 >* Localization of GUI titles and NEI Calcinator values by @Ranzuu in https://github.com/GTNewHorizons/BloodMagic/pull/118 (1.8.9)
 >* Allow fortune to work with GT ores using Bound Pickaxe right click. by @Miklebe in https://github.com/GTNewHorizons/BloodMagic/pull/115 (1.8.8)
 >* Fix t6 and modded orbs not giving any discounts to Bound Armor's effects by @koolkrafter5 in https://github.com/GTNewHorizons/BloodMagic/pull/113 (1.8.7)
