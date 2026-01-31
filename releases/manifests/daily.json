@@ -1,7 +1,7 @@
 {
   "version": "daily",
-  "last_version": "2.8.4",
-  "last_updated": "2026-01-31T09:48:58.501967",
+  "last_version": "previous_daily",
+  "last_updated": "2026-01-31T09:53:03.939021",
   "config": "2.9.0-nightly-2026-01-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "Irontanks": {
-      "version": "1.4.2",
+      "version": "1.4.3",
       "side": "BOTH"
     },
     "Jabba": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.122",
+      "version": "2.8.124",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.13",
+      "version": "2.2.16",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha16",
+      "version": "2.0.0-alpha17",
       "side": "CLIENT"
     },
     "AkashicTome": {
