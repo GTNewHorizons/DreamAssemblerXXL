@@ -70,11 +70,20 @@
 ## What's Changed:
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.0.0-alpha16
+# Updated - Angelica - 1.0.0-beta66b --> 2.0.0-alpha17
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.0.0-alpha16
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.0.0-alpha17
 
 ## What's Changed:
+>* Shadow Compute Shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1333 (2.0.0-alpha17)
+>* fix(render): adapt hodgepodge fixBottomFaceUV by @leagris in https://github.com/GTNewHorizons/Angelica/pull/1334 (2.0.0-alpha17)
+>* First pass at setup/begin pass support by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1335 (2.0.0-alpha17)
+>* Remove redundant resource refresh by @DeathFuel in https://github.com/GTNewHorizons/Angelica/pull/1342 (2.0.0-alpha17)
+>* Glc redirects by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1340 (2.0.0-alpha17)
+>* Add hardcoded entities and player_cape by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1327 (2.0.0-alpha17)
+>* Misc Shaderpack loading fixes by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1343 (2.0.0-alpha17)
+>* Fix end portal w/ Shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1346 (2.0.0-alpha17)
+>* Fix arrows inheriting item material IDs by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1347 (2.0.0-alpha17)
 >* Fix NPE by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1332 (2.0.0-alpha16)
 >* Tweaks by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1329 (2.0.0-alpha15)
 >* Use entity position instead of camera pos by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1330 (2.0.0-alpha15)
@@ -471,8 +480,6 @@ Mod is client-side only.
 >* Feature: Use the center mana pool as an additional mana source. by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/42 (1.12.0-GTNH)
 
 # Updated - BrandonsCore - 1.2.0-GTNH --> 1.2.1-GTNH
-Mod side changed from on both sides to Side.NONE.
-Mod is Side.NONE.
 **Full Changelog**: https://github.com/GTNewHorizons/BrandonsCore/compare/1.2.0-GTNH...1.2.1-GTNH
 
 ## What's Changed:
@@ -1546,6 +1553,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add server controlled toggle for refilling by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/134 (1.3.1-GTNH)
 >* Split inside gui and outside gui sort keys by @Caedis in https://github.com/GTNewHorizons/InventoryBogoSorter/pull/139 (1.3.0-GTNH)
 
+# Updated - Irontanks - 1.4.2 --> 1.4.3
+**Full Changelog**: https://github.com/GTNewHorizons/Irontanks/compare/1.4.2...1.4.3
+
+## What's Changed:
+>* Add tooltips for extended tanks and custom ItemBlock by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Irontanks/pull/15 (1.4.3)
+
 # Updated - Jabba - 1.5.10 --> 1.5.16
 **Full Changelog**: https://github.com/GTNewHorizons/Jabba/compare/1.5.10...1.5.16
 
@@ -1714,10 +1727,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.122
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.122
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.124
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.124
 
 ## What's Changed:
+>* Fix Fluid Manipulator Assembler Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1590 (2.8.124)
 >* add a recipe for solar factory to process solar light splitters by @chrombread in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1584 (2.8.122)
 >* changed coin textures by @Nightyyi in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1554 (2.8.122)
 >* Adds Maceration For Calcium Ingot -> Dust by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1588 (2.8.121)
@@ -2007,10 +2021,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - ServerUtilities - 2.2.2 --> 2.2.13
-**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.13
+# Updated - ServerUtilities - 2.2.2 --> 2.2.16
+**Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.16
 
 ## What's Changed:
+>* Fix lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ServerUtilities/pull/262 (2.2.16)
 >* Fix typos in ServerUtilities configuration paths by @echeese in https://github.com/GTNewHorizons/ServerUtilities/pull/261 (2.2.13)
 >* Fix invsee-ception causing crash by @Lyfts in https://github.com/GTNewHorizons/ServerUtilities/pull/260 (2.2.13)
 >* Disable MAX_TICK_TIME mixin when ultramine is present by @SKProCH in https://github.com/GTNewHorizons/ServerUtilities/pull/259 (2.2.11)
