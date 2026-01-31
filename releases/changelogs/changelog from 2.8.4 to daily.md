@@ -471,6 +471,8 @@ Mod is client-side only.
 >* Feature: Use the center mana pool as an additional mana source. by @combusterf in https://github.com/GTNewHorizons/Botanic-horizons/pull/42 (1.12.0-GTNH)
 
 # Updated - BrandonsCore - 1.2.0-GTNH --> 1.2.1-GTNH
+Mod side changed from on both sides to Side.NONE.
+Mod is Side.NONE.
 **Full Changelog**: https://github.com/GTNewHorizons/BrandonsCore/compare/1.2.0-GTNH...1.2.1-GTNH
 
 ## What's Changed:
