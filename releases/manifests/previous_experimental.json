@@ -1,7 +1,7 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2026-01-30T12:28:32.871761",
+  "last_updated": "2026-01-30T18:34:39.191919",
   "config": "2.9.0-nightly-2026-01-30-pre",
   "github_mods": {
     "AdventureBackpack2": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.8.10-pre",
+      "version": "1.8.11",
       "side": "BOTH"
     },
     "Botania": {
@@ -94,10 +94,6 @@
     },
     "Botanic-horizons": {
       "version": "1.12.5-GTNH",
-      "side": "BOTH"
-    },
-    "BrandonsCore": {
-      "version": "1.2.1-GTNH",
       "side": "BOTH"
     },
     "BuildCraft": {
@@ -117,7 +113,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.17.15-GTNH-pre",
+      "version": "2.17.14-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -225,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.244-pre",
+      "version": "5.09.52.245-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -765,7 +761,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.8-GTNH",
+      "version": "0.1.9-GTNH-pre",
       "side": "BOTH"
     },
     "Salis-Arcana": {
