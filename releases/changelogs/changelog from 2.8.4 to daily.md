@@ -170,10 +170,12 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-805-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-805-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-806-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-806-GTNH
 
 ## What's Changed:
+>* Add Crafting Complete Notification Popup by @ABKQPO in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1048 (rv3-beta-806-GTNH)
+>* Move AE2 pick-block block select logic to client-side. by @michaeldoylecs in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1045 (rv3-beta-806-GTNH)
 >* Add tooltips for creative energy blocks and drive warning by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1046 (rv3-beta-805-GTNH)
 >* fix typos by @Yoshy2002 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1044 (rv3-beta-803-GTNH)
 >* Don't add items to pattern with shift click on Pattern Terminal by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1043 (rv3-beta-801-GTNH)
@@ -1736,10 +1738,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.125
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.125
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.126
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.126
 
 ## What's Changed:
+>* Remove `IGuiHandler` implementation from proxy by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1596 (2.8.126)
 >* Delete unused class `InventoryItem` by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1592 (2.8.125)
 >* Delete useless anticheat by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1593 (2.8.125)
 >* Remove old Battlegear 2 compat by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1594 (2.8.125)
@@ -2253,10 +2256,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.38
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.38
+# New Mod - VendingMachine:0.4.39
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.39
 
 ## What's Changed:
+>* Hot database reload by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/58 (0.4.39)
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/VendingMachine/pull/57 (0.4.38)
 >* Fix potential NPE crash from bad trade request with invalid tradegroup. by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/56 (0.4.36)
 >* Refactor trade state tracking into TradeManager by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/55 (0.4.35)
