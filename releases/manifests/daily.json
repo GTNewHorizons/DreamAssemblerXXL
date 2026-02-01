@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-01-31T09:57:00.635969",
-  "config": "2.9.0-nightly-2026-01-29",
+  "last_updated": "2026-02-01T05:11:47.368050",
+  "config": "2.9.0-nightly-2026-01-31-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.50-gtnh",
+      "version": "1.5.52-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-803-GTNH",
+      "version": "rv3-beta-805-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.83",
+      "version": "1.85",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.48",
+      "version": "7.1.51",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.243",
+      "version": "5.09.52.246",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "ironchest": {
-      "version": "6.1.7",
+      "version": "6.1.8",
       "side": "BOTH"
     },
     "IronChestMinecarts": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "Irontanks": {
-      "version": "1.4.3",
+      "version": "1.4.4",
       "side": "BOTH"
     },
     "Jabba": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.124",
+      "version": "2.8.125",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.28-1.7.10",
+      "version": "2.3.31-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
