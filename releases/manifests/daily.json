@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-01T13:51:31.115953",
+  "last_updated": "2026-02-02T05:11:49.689985",
   "config": "2.9.0-nightly-2026-01-31-2",
   "github_mods": {
     "AdventureBackpack2": {
@@ -13,7 +13,7 @@
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.10.7-GTNH",
+      "version": "0.10.9-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-806-GTNH",
+      "version": "rv3-beta-809-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.8.11",
+      "version": "1.8.12",
       "side": "BOTH"
     },
     "Botania": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.246",
+      "version": "5.09.52.250",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -409,7 +409,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.19-GTNH",
+      "version": "4.12.21-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
