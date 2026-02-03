@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-02T05:11:49.689985",
-  "config": "2.9.0-nightly-2026-01-31-2",
+  "last_updated": "2026-02-03T05:01:14.854596",
+  "config": "2.9.0-nightly-2026-02-02",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.51",
+      "version": "7.1.53",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.250",
+      "version": "5.09.52.252",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.56",
+      "version": "2.7.58",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -301,7 +301,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.10.2-GTNH",
+      "version": "2.10.4-GTNH",
       "side": "BOTH"
     },
     "MalisisDoors": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.15",
+      "version": "9.17.17",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -645,7 +645,7 @@
       "side": "BOTH"
     },
     "BetterAchievements": {
-      "version": "0.3.0",
+      "version": "0.3.2",
       "side": "CLIENT"
     },
     "DummyCore": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha17",
+      "version": "2.0.0-alpha18",
       "side": "CLIENT"
     },
     "AkashicTome": {

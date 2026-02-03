@@ -71,11 +71,16 @@
 ## What's Changed:
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.0.0-alpha17
+# Updated - Angelica - 1.0.0-beta66b --> 2.0.0-alpha18
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.0.0-alpha17
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.0.0-alpha18
 
 ## What's Changed:
+>* Fix nested display lists rendering twice by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1349 (2.0.0-alpha18)
+>* GLSL Downgrading by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1348 (2.0.0-alpha18)
+>* Camera and Menu Tweaks by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1354 (2.0.0-alpha18)
+>* Fix crash with clearBufferSubData by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1355 (2.0.0-alpha18)
+>* [Hotfix] Fix NTM:Space mixin targets for X5593_H261 by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1356 (2.0.0-alpha18)
 >* Shadow Compute Shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1333 (2.0.0-alpha17)
 >* fix(render): adapt hodgepodge fixBottomFaceUV by @leagris in https://github.com/GTNewHorizons/Angelica/pull/1334 (2.0.0-alpha17)
 >* First pass at setup/begin pass support by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1335 (2.0.0-alpha17)
@@ -371,6 +376,13 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix Mutation Requirement Tooltips by @Ruling-0 in https://github.com/GTNewHorizons/BeeBetterAtBees-GTNH/pull/6 (0.4.4-GTNH)
 
+# Updated - BetterAchievements - 0.3.0 --> 0.3.2
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/BetterAchievements/compare/0.3.0...0.3.2
+
+## What's Changed:
+>* Changed achievement title localization by @Ranzuu in https://github.com/GTNewHorizons/BetterAchievements/pull/5 (0.3.2)
+
 # Updated - BetterBuildersWands - 0.13.3-GTNH --> 0.13.6-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/BetterBuildersWands/compare/0.13.3-GTNH...0.13.6-GTNH
 
@@ -492,10 +504,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Format number migration by @Connor-Colenso in https://github.com/GTNewHorizons/BrandonsCore/pull/4 (1.2.1-GTNH)
 
-# Updated - BuildCraft - 7.1.44 --> 7.1.51
-**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.44...7.1.51
+# Updated - BuildCraft - 7.1.44 --> 7.1.53
+**Full Changelog**: https://github.com/GTNewHorizons/BuildCraft/compare/7.1.44...7.1.53
 
 ## What's Changed:
+>* Fix English keys pollution from PR#25 by @DrParadox7 in https://github.com/GTNewHorizons/BuildCraft/pull/29 (7.1.53)
 >* Add ItemBlockTank with tooltip for tank block and ItemPipe to display tooltips with color-coded text based on pipe type by @Eldrinn-Elantey in https://github.com/GTNewHorizons/BuildCraft/pull/28 (7.1.51)
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/BuildCraft/pull/25 (7.1.48)
 >* Fixes BC Tank Interaction with All Cell Types by @UltraProdigy in https://github.com/GTNewHorizons/BuildCraft/pull/24 (7.1.47)
@@ -693,10 +706,18 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.250
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.250
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.252
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.252
 
 ## What's Changed:
+>* Eliminate GT Packet for MUI2 sync  by @zyf051520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5683 (5.09.52.252)
+>* Delete poop line by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5820 (5.09.52.252)
+>* delete MTECubicMultiBlockBase by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5812 (5.09.52.251)
+>* Localized Chance and fluid amount values by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5813 (5.09.52.251)
+>* Fix Screwdriver Texture by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5816 (5.09.52.251)
+>* Neutron Accelerator Cable Change by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5807 (5.09.52.251)
+>* Delete Project Table by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5819 (5.09.52.251)
+>* Add Tooltip Configs by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5817 (5.09.52.251)
 >* Add Soft Mallet Modes by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5809 (5.09.52.250)
 >* QoL: Screwdrivers on buffer machines by @grimly in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5567 (5.09.52.246)
 >* fix(BlockDimensionDisplay): adapt hodgepodge fixBottomFaceUV by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5796 (5.09.52.246)
@@ -1448,10 +1469,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.56
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.56
+# Updated - Hodgepodge - 2.6.112 --> 2.7.58
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.58
 
 ## What's Changed:
+>* disable GT-like IC2 cells behavior by default by @danyadev in https://github.com/GTNewHorizons/Hodgepodge/pull/731 (2.7.58)
 >* More threadsafe by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/727 (2.7.56)
 >* Disable lotr languagehelper by default by @mist475 in https://github.com/GTNewHorizons/Hodgepodge/pull/721 (2.7.54)
 >* Optimize outbound gzip as well by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/724 (2.7.52)
@@ -1634,10 +1656,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add sudoku end the game check by @ABKQPO in https://github.com/GTNewHorizons/LootGames/pull/23 (2.2.4)
 >* add sudoku game by @ABKQPO in https://github.com/GTNewHorizons/LootGames/pull/21 (2.2.2)
 
-# Updated - MagicBees - 2.9.4-GTNH --> 2.10.2-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.9.4-GTNH...2.10.2-GTNH
+# Updated - MagicBees - 2.9.4-GTNH --> 2.10.4-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MagicBees/compare/2.9.4-GTNH...2.10.4-GTNH
 
 ## What's Changed:
+>* use AspectList.remove instead of AspectList.reduce to fix "sometimes drainer doesn't work with essentia import bus" by @SST-03 in https://github.com/GTNewHorizons/MagicBees/pull/56 (2.10.4-GTNH)
 >* Add hint text for Tempus by @koolkrafter5 in https://github.com/GTNewHorizons/MagicBees/pull/57 (2.10.2-GTNH)
 
 # Updated - MalisisDoors - 1.18.2-GTNH --> 1.19.2-GTNH
@@ -2003,10 +2026,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix capitalisation in en-US localisation by @ModularityEnjoyer in https://github.com/GTNewHorizons/ProjectRed/pull/61 (4.12.8-GTNH)
 >* BlockBreaker: Fix breaking sound coordinates to prevent crash by @DarkShadow44 in https://github.com/GTNewHorizons/ProjectRed/pull/59 (4.12.7-GTNH)
 
-# Updated - Railcraft - 9.16.33 --> 9.17.15
-**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.33...9.17.15
+# Updated - Railcraft - 9.16.33 --> 9.17.17
+**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.33...9.17.17
 
 ## What's Changed:
+>* Add tank capacity and output info to tank tooltips by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Railcraft/pull/110 (9.17.17)
 >* Fix Directional Detection Redstone Signal by @DrParadox7 in https://github.com/GTNewHorizons/Railcraft/pull/107 (9.17.15)
 >* add de-DE translations for advanced multiblock tanks by @2ndDerivative in https://github.com/GTNewHorizons/Railcraft/pull/105 (9.17.12)
 >* Cache Valid Output Sides for TIleWaterTank & TileBoiler by @54M44R in https://github.com/GTNewHorizons/Railcraft/pull/99 (9.17.10)
