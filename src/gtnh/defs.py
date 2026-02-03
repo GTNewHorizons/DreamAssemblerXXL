@@ -101,7 +101,7 @@ notes=
 """
 
 SERVER_PROPERTIES_FILE = """generator-settings=
-op-permission-level=2
+op-permission-level=4
 allow-nether=true
 level-name=World
 enable-query=false
