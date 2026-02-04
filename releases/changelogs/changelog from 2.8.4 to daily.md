@@ -446,10 +446,11 @@ Mod is client-side only.
 >* Structure Preview Fix pt1 by @UltraProdigy in https://github.com/GTNewHorizons/BlockRenderer6343/pull/38 (1.4.3)
 >* Update NEI Catalyst by @slprime in https://github.com/GTNewHorizons/BlockRenderer6343/pull/36 (1.4.2)
 
-# Updated - BloodArsenal - 1.4.10 --> 1.5.4
-**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.4.10...1.5.4
+# Updated - BloodArsenal - 1.4.10 --> 1.5.5
+**Full Changelog**: https://github.com/GTNewHorizons/BloodArsenal/compare/1.4.10...1.5.5
 
 ## What's Changed:
+>* Fix Enchnantress' spell ritual getting stuck by @LazyFleshWasTaken in https://github.com/GTNewHorizons/BloodArsenal/pull/39 (1.5.5)
 >* Fix negative enchantment levels + negative LP cost by @felixfour in https://github.com/GTNewHorizons/BloodArsenal/pull/38 (1.5.4)
 >* Fix overenchanting by @Caedis in https://github.com/GTNewHorizons/BloodArsenal/pull/36 (1.5.0)
 >* Revert "Fix overenchanting (#36)" by @koolkrafter5 in https://github.com/GTNewHorizons/BloodArsenal/pull/37 (1.5.0)
@@ -706,10 +707,16 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.252
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.252
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.253
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.253
 
 ## What's Changed:
+>* Remove missed recipe optimizer in GTRecipe by @StaffiX in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5814 (5.09.52.253)
+>* Fix laser/data pipe connections not updating by @kx08 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5767 (5.09.52.253)
+>* Allow GT multiblocks to easily opt in to accepting TecTech dynamo hatches by @loenaaaa in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5818 (5.09.52.253)
+>* Restrict IO Workflow to PRs With PNGs by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5822 (5.09.52.253)
+>* Add Quicklime and Calcite Alt. Catalyst for Acetic Acid -> Acetone in LCR #3 by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5823 (5.09.52.253)
+>* Delete Unused Algae Item by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5824 (5.09.52.253)
 >* Eliminate GT Packet for MUI2 sync  by @zyf051520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5683 (5.09.52.252)
 >* Delete poop line by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5820 (5.09.52.252)
 >* delete MTECubicMultiBlockBase by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5812 (5.09.52.251)
@@ -1758,6 +1765,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Sync upstream by @Dream-Master in https://github.com/GTNewHorizons/ModularUI2/pull/44 (2.3.0-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/43 (2.2.19-1.7.10)
 
+# Updated - NEI-Integration - 1.5.0 --> 1.5.1
+**Full Changelog**: https://github.com/GTNewHorizons/NEI-Integration/compare/1.5.0...1.5.1
+
+## What's Changed:
+>* Fixes nei for ores without a focus by @ohentis in https://github.com/GTNewHorizons/NEI-Integration/pull/11 (1.5.1)
+
 # Updated - Natura - 2.8.9 --> 2.8.12
 **Full Changelog**: https://github.com/GTNewHorizons/Natura/compare/2.8.9...2.8.12
 
@@ -1936,10 +1949,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Restore tooltips on Pattern Terminal Gui by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/55 (1.7.19)
 >* Universal gui by @lc-1337 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/53 (1.7.18)
 
-# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.58-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.58-GTNH
+# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.60-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.60-GTNH
 
 ## What's Changed:
+>* Added show all handlers and recipes function by @Ranzuu in https://github.com/GTNewHorizons/NotEnoughItems/pull/852 (2.8.60-GTNH)
+>* Add debug text localization and tooltips by @Ranzuu in https://github.com/GTNewHorizons/NotEnoughItems/pull/854 (2.8.60-GTNH)
 >* [Extended+] Quote in extended+ depending on "Quote Drop Item Name" NEI option by @sbwaz in https://github.com/GTNewHorizons/NotEnoughItems/pull/848 (2.8.58-GTNH)
 >* Add texture for toggled state of magnet button by @Ranzuu in https://github.com/GTNewHorizons/NotEnoughItems/pull/849 (2.8.58-GTNH)
 >* Format number centralisation by @Connor-Colenso in https://github.com/GTNewHorizons/NotEnoughItems/pull/846 (2.8.55-GTNH)
@@ -2235,10 +2250,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 # Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.29
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.24-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.24-GTNH
+# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.27-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.27-GTNH
 
 ## What's Changed:
+>* Clean up Tool Station GUI code by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/TinkersConstruct/pull/249 (1.14.27-GTNH)
+>* Implement null check in drawToolStats by @PLASMAchicken in https://github.com/GTNewHorizons/TinkersConstruct/pull/251 (1.14.27-GTNH)
+>* Fix tool forge voiding items bug/desync by @loenaaaa in https://github.com/GTNewHorizons/TinkersConstruct/pull/244 (1.14.27-GTNH)
+>* Don't use a regex in Tool Station by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/TinkersConstruct/pull/253 (1.14.27-GTNH)
 >* Remove the broken flag on tools when adding a durability modifier to a broken tool by @malabudi in https://github.com/GTNewHorizons/TinkersConstruct/pull/245 (1.14.24-GTNH)
 >* Fix JourneyMap waypoint label flickering when on armor tab by @Caedis in https://github.com/GTNewHorizons/TinkersConstruct/pull/247 (1.14.22-GTNH)
 >* Various Slime Fixes by @ohentis in https://github.com/GTNewHorizons/TinkersConstruct/pull/243 (1.14.20-GTNH)

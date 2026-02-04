@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-03T05:01:14.854596",
+  "last_updated": "2026-02-04T04:54:15.148851",
   "config": "2.9.0-nightly-2026-02-02",
   "github_mods": {
     "AdventureBackpack2": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BloodArsenal": {
-      "version": "1.5.4",
+      "version": "1.5.5",
       "side": "BOTH"
     },
     "BloodMagic": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.252",
+      "version": "5.09.52.253",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NEI-Integration": {
-      "version": "1.5.0",
+      "version": "1.5.1",
       "side": "BOTH"
     },
     "NetherPortalFix": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.58-GTNH",
+      "version": "2.8.60-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -529,7 +529,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.24-GTNH",
+      "version": "1.14.27-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
