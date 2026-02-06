@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-05T05:03:17.792783",
-  "config": "2.9.0-nightly-2026-02-04",
+  "last_updated": "2026-02-06T05:00:49.150386",
+  "config": "2.9.0-nightly-2026-02-05-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.54-gtnh",
+      "version": "1.5.55-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-811-GTNH",
+      "version": "rv3-beta-812-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -89,7 +89,7 @@
       "side": "BOTH"
     },
     "Botania": {
-      "version": "1.13.12-GTNH",
+      "version": "1.13.14-GTNH",
       "side": "BOTH"
     },
     "Botanic-horizons": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.54",
+      "version": "7.1.55",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.254",
+      "version": "5.09.52.256",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.9",
+      "version": "0.9.10",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -257,7 +257,7 @@
       "side": "BOTH"
     },
     "IguanaTweaksTConstruct": {
-      "version": "2.7.0",
+      "version": "2.7.1",
       "side": "BOTH"
     },
     "Infernal-Mobs": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "Natura": {
-      "version": "2.8.12",
+      "version": "2.8.15",
       "side": "BOTH"
     },
     "NaturesCompass": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.33-1.7.10",
+      "version": "2.3.35-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
