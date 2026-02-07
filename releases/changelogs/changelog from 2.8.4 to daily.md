@@ -721,10 +721,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.260
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.260
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.261
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.261
 
 ## What's Changed:
+>* Add dust to fluid for lithium chloride by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5857 (5.09.52.261)
+>* speedup leaving from world by @danyadev in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5844 (5.09.52.261)
 >* more bugfixes and code cleanup from recent mui2 sync by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5858 (5.09.52.260)
 >* Move multi sounds to their centers by @RecursivePineapple in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5204 (5.09.52.258)
 >* fix unstable GTItemStack hashCode by @danyadev in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5854 (5.09.52.258)
@@ -2360,10 +2362,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.42
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.42
+# New Mod - VendingMachine:0.4.43
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.43
 
 ## What's Changed:
+>* Mui-2-fix by @Dream-Master in https://github.com/GTNewHorizons/VendingMachine/pull/62 (0.4.43)
 >* Update readme by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/59 (0.4.40)
 >* Add structure error by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/61 (0.4.40)
 >* Hot database reload by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/58 (0.4.39)
@@ -2574,10 +2577,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix Naga breaking unbreakable blocks by @ModularityEnjoyer in https://github.com/GTNewHorizons/twilightforest/pull/128 (2.7.16)
 >* Prevent fireflies from deleting blocks by @DarkShadow44 in https://github.com/GTNewHorizons/twilightforest/pull/127 (2.7.15)
 
-# Updated - waila - 1.8.15 --> 1.19.21
-**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.15...1.19.21
+# Updated - waila - 1.8.15 --> 1.19.22
+**Full Changelog**: https://github.com/GTNewHorizons/waila/compare/1.8.15...1.19.22
 
 ## What's Changed:
+>* Skip WAILA tooltip updates when GUI is open by @slprime in https://github.com/GTNewHorizons/waila/pull/60 (1.19.22)
 >* Format numbers follow up by @Connor-Colenso in https://github.com/GTNewHorizons/waila/pull/59 (1.19.21)
 >* Format numbers migration by @Connor-Colenso in https://github.com/GTNewHorizons/waila/pull/57 (1.19.20)
 >* Add small icon variant for TTRenderStack by @evgengoldwar in https://github.com/GTNewHorizons/waila/pull/58 (1.19.19)
