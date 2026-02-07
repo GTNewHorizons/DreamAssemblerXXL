@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-06T05:18:30.493370",
-  "config": "2.9.0-nightly-2026-02-05-2",
+  "last_updated": "2026-02-07T04:51:08.360365",
+  "config": "2.9.0-nightly-2026-02-06",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
@@ -13,7 +13,7 @@
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.10.9-GTNH",
+      "version": "0.10.11-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.256",
+      "version": "5.09.52.260",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -361,7 +361,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.7.4",
+      "version": "2.7.5",
       "side": "BOTH"
     },
     "oauth": {
@@ -549,7 +549,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.16",
+      "version": "2.7.19",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.35-1.7.10",
+      "version": "2.3.37-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.40",
+      "version": "0.4.42",
       "side": "BOTH"
     },
     "BrandonsCore": {
