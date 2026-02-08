@@ -731,10 +731,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.267
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.267
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.269
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.269
 
 ## What's Changed:
+>* Use TierEU in all files in gt5u by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5866 (5.09.52.269)
 >* Fix mui1 circuit select panel by @zyf051520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5861 (5.09.52.267)
 >* Add color formatting to pump tooltips by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5830 (5.09.52.266)
 >* Add Calcium Chlroide Fluid electrolysis by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5864 (5.09.52.266)
@@ -2479,10 +2480,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Baubles compatibility for poppets and door keys by @Kynake in https://github.com/GTNewHorizons/WitcheryExtras/pull/30 (1.4.2)
 >* Rename WitcheryExtras -> witcheryextras by @Eldrinn-Elantey in https://github.com/GTNewHorizons/WitcheryExtras/pull/29 (1.4.0)
 
-# Updated - WitchingGadgets - 1.7.25-GTNH --> 1.8.25-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.25-GTNH...1.8.25-GTNH
+# Updated - WitchingGadgets - 1.7.25-GTNH --> 1.8.27-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.25-GTNH...1.8.27-GTNH
 
 ## What's Changed:
+>* Add slowness to clear potion list by @LazyFleshWasTaken in https://github.com/GTNewHorizons/WitchingGadgets/pull/116 (1.8.27-GTNH)
 >* Fix callisto cold ice reference after coremod changes by @serenibyss in https://github.com/GTNewHorizons/WitchingGadgets/pull/114 (1.8.25-GTNH)
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/WitchingGadgets/pull/112 (1.8.24-GTNH)
 >* Fix crash when closing Kama GUI equipped in bauble slot by @devpikachu in https://github.com/GTNewHorizons/WitchingGadgets/pull/107 (1.8.22-GTNH)
