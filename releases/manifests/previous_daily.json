@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-07T05:29:47.909048",
+  "last_updated": "2026-02-08T05:13:34.093749",
   "config": "2.9.0-nightly-2026-02-06",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.55-gtnh",
+      "version": "1.5.57-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-812-GTNH",
+      "version": "rv3-beta-819-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.15",
+      "version": "2.10.18",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.260",
+      "version": "5.09.52.267",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -509,7 +509,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.22-GTNH",
+      "version": "1.7.27-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -561,7 +561,7 @@
       "side": "BOTH"
     },
     "waila": {
-      "version": "1.19.21",
+      "version": "1.19.22",
       "side": "BOTH"
     },
     "WailaHarvestability": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha19",
+      "version": "2.0.0-alpha20",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.37-1.7.10",
+      "version": "2.3.39-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.42",
+      "version": "0.4.44",
       "side": "BOTH"
     },
     "BrandonsCore": {
