@@ -1,15 +1,15 @@
 {
   "version": "previous_experimental",
   "last_version": "previous_experimental",
-  "last_updated": "2026-02-07T14:20:28.136550",
-  "config": "2.9.0-nightly-2026-02-06",
+  "last_updated": "2026-02-08T17:06:03.114526",
+  "config": "2.9.0-nightly-2026-02-08",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.13-GTNH-pre",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.56-gtnh-pre",
+      "version": "1.5.57-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-814-GTNH-pre",
+      "version": "rv3-beta-820-GTNH-pre",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.26-GTNH",
+      "version": "3.8.27-GTNH-pre",
       "side": "BOTH"
     },
     "Binnie": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.17-pre",
+      "version": "2.10.19-pre",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.262-pre",
+      "version": "5.09.52.270-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.11-pre",
+      "version": "0.9.12-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.130-pre",
+      "version": "2.8.131-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.61-GTNH-pre",
+      "version": "2.8.62-GTNH-pre",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -409,7 +409,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.22-GTNH-pre",
+      "version": "4.12.23-GTNH-pre",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -509,7 +509,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.25-GTNH-pre",
+      "version": "1.7.27-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -597,7 +597,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.26-GTNH-pre",
+      "version": "1.8.28-GTNH-pre",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha19",
+      "version": "2.0.0-alpha20",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.38-1.7.10-pre",
+      "version": "2.3.40-1.7.10-pre",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
-      "version": "1.6.7-backhand-pre",
+      "version": "1.6.6-backhand",
       "side": "BOTH"
     },
     "Backhand": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.43",
+      "version": "0.4.44",
       "side": "BOTH"
     }
   },
