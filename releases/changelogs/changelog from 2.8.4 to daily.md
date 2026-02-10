@@ -183,10 +183,11 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-821-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-821-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-823-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-823-GTNH
 
 ## What's Changed:
+>* some refactor in cpu by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1053 (rv3-beta-823-GTNH)
 >* Fixes by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1058 (rv3-beta-821-GTNH)
 >* Allow bind terminal to wireless access point by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1054 (rv3-beta-821-GTNH)
 >* Stack Type API by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/958 (rv3-beta-817-GTNH)
@@ -628,10 +629,11 @@ Mod is client-side only.
 ## What's Changed:
 >* Stop connecting to remote location from main thread by @glowredman in https://github.com/GTNewHorizons/DefaultServerList/pull/11 (1.7.3)
 
-# Updated - Draconic-Evolution - 1.4.27-GTNH --> 1.5.14-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.27-GTNH...1.5.14-GTNH
+# Updated - Draconic-Evolution - 1.4.27-GTNH --> 1.5.16-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.27-GTNH...1.5.16-GTNH
 
 ## What's Changed:
+>* Sync zh-CN.lang with ParaTranz project by @tuodekun in https://github.com/GTNewHorizons/Draconic-Evolution/pull/91 (1.5.16-GTNH)
 >* Update Buildscript by @Ruling-0 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/90 (1.5.14-GTNH)
 >* Fix lore formatting for wyvern and draconic items by @tuodekun in https://github.com/GTNewHorizons/Draconic-Evolution/pull/89 (1.5.14-GTNH)
 >* Add block blacklist for magnets by @SuperSoupr in https://github.com/GTNewHorizons/Draconic-Evolution/pull/80 (1.5.11-GTNH)
