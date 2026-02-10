@@ -647,6 +647,11 @@ Mod is client-side only.
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
+# Updated - BuildCraftOilTweak - 1.1.1 --> 1.1.2-pre
+**Full Changelog**: https://github.com/GTNewHorizons/BuildCraftOilTweak/compare/1.1.1...1.1.2-pre
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - CarpentersBlocks - 3.7.0-GTNH --> 3.7.1-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/CarpentersBlocks/compare/3.7.0-GTNH...3.7.1-GTNH
 
@@ -3000,10 +3005,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Baubles compatibility for poppets and door keys by @Kynake in https://github.com/GTNewHorizons/WitcheryExtras/pull/30 (1.4.2)
 >* Rename WitcheryExtras -> witcheryextras by @Eldrinn-Elantey in https://github.com/GTNewHorizons/WitcheryExtras/pull/29 (1.4.0)
 
-# Updated - WitchingGadgets - 1.7.25-GTNH --> 1.8.30-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.25-GTNH...1.8.30-GTNH
+# Updated - WitchingGadgets - 1.7.25-GTNH --> 1.8.31-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.25-GTNH...1.8.31-GTNH-pre
 
 ## What's Changed:
+>* Add increased lifespan to powerless pearls by @LazyFleshWasTaken in https://github.com/GTNewHorizons/WitchingGadgets/pull/117 (1.8.31-GTNH-pre)
 >* Add increased lifespan to powerless pearls by @LazyFleshWasTaken in https://github.com/GTNewHorizons/WitchingGadgets/pull/117 (1.8.30-GTNH)
 >* Add slowness to clear potion list by @LazyFleshWasTaken in https://github.com/GTNewHorizons/WitchingGadgets/pull/116 (1.8.28-GTNH-pre)
 >* Add slowness to clear potion list by @LazyFleshWasTaken in https://github.com/GTNewHorizons/WitchingGadgets/pull/116 (1.8.27-GTNH)
