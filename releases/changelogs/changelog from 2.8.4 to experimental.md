@@ -229,10 +229,12 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-822-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-822-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-825-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-825-GTNH-pre
 
 ## What's Changed:
+>* some refactor in cpu by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1053 (rv3-beta-824-GTNH-pre)
+>* some refactor in cpu by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1053 (rv3-beta-823-GTNH)
 >* Fixes by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1058 (rv3-beta-821-GTNH)
 >* Allow bind terminal to wireless access point by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1054 (rv3-beta-821-GTNH)
 >* Stack Type API by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/958 (rv3-beta-817-GTNH)
@@ -742,10 +744,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Stop connecting to remote location from main thread by @glowredman in https://github.com/GTNewHorizons/DefaultServerList/pull/11 (1.7.3)
 
-# Updated - Draconic-Evolution - 1.4.27-GTNH --> 1.5.15-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.27-GTNH...1.5.15-GTNH-pre
+# Updated - Draconic-Evolution - 1.4.27-GTNH --> 1.5.17-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Draconic-Evolution/compare/1.4.27-GTNH...1.5.17-GTNH-pre
 
 ## What's Changed:
+>* Sync zh-CN.lang with ParaTranz project by @tuodekun in https://github.com/GTNewHorizons/Draconic-Evolution/pull/91 (1.5.17-GTNH-pre)
+>* Sync zh-CN.lang with ParaTranz project by @tuodekun in https://github.com/GTNewHorizons/Draconic-Evolution/pull/91 (1.5.16-GTNH)
 >* Update Buildscript by @Ruling-0 in https://github.com/GTNewHorizons/Draconic-Evolution/pull/90 (1.5.14-GTNH)
 >* Fix lore formatting for wyvern and draconic items by @tuodekun in https://github.com/GTNewHorizons/Draconic-Evolution/pull/89 (1.5.14-GTNH)
 >* Add block blacklist for magnets by @SuperSoupr in https://github.com/GTNewHorizons/Draconic-Evolution/pull/80 (1.5.12-GTNH-pre)
@@ -860,10 +864,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.276-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.276-pre
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.278-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.278-pre
 
 ## What's Changed:
+>* Delete Pest Killer by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5821 (5.09.52.278-pre)
+>* [Structure Rework] Extreme Industrial Greenhouse by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5875 (5.09.52.278-pre)
+>* Delete Pest Killer by @evgengoldwar in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5821 (5.09.52.277)
+>* [Structure Rework] Extreme Industrial Greenhouse by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5875 (5.09.52.277)
 >* Spotless apply for branch mui2-sb-recipemaps for #5478 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5479 (5.09.52.276-pre)
 >* Optimising images contained in boiler_rework for #5171 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5762 (5.09.52.276-pre)
 >* add shared computation and fluid inputs to Space Elevator for mining modules by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5828 (5.09.52.276-pre)
@@ -2243,8 +2251,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix redwood saplings growing without 7x7 field by @Morilli in https://github.com/GTNewHorizons/Natura/pull/37 (2.8.15)
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.136-pre
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.136-pre
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.137-pre
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.137-pre
 
 ## What's Changed:
 >* use mixins to register bop blocks by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1601 (2.8.136-pre)
@@ -2791,8 +2799,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Soul Beacon Event Handler Cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicHorizons/pull/93 (1.8.4)
 >* Spotless apply for branch soul-beacon for #93 by @github-actions[bot] in https://github.com/GTNewHorizons/ThaumicHorizons/pull/98 (1.8.2-pre)
 
-# Updated - ThaumicTinkerer - 2.11.27 --> 2.12.6
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.27...2.12.6
+# Updated - ThaumicTinkerer - 2.11.27 --> 2.12.7-pre
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.27...2.12.7-pre
 
 ## What's Changed:
 >* Fix Typos by @Yoshy2002 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/79 (2.12.6)
@@ -2800,8 +2808,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix boots losing their speed when enchanted and Thaumic Boots is not installed by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/76 (2.12.2)
 >* Merge #74 to master by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/75 (2.12.0)
 
-# Updated - Thaumic_Exploration - 1.4.8-GTNH --> 1.5.15-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.8-GTNH...1.5.15-GTNH-pre
+# Updated - Thaumic_Exploration - 1.4.8-GTNH --> 1.5.16-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.8-GTNH...1.5.16-GTNH-pre
 
 ## What's Changed:
 >* Spotless apply for branch replicator for #44 by @github-actions[bot] in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/53 (1.5.14-GTNH-pre)
@@ -2992,10 +3000,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Baubles compatibility for poppets and door keys by @Kynake in https://github.com/GTNewHorizons/WitcheryExtras/pull/30 (1.4.2)
 >* Rename WitcheryExtras -> witcheryextras by @Eldrinn-Elantey in https://github.com/GTNewHorizons/WitcheryExtras/pull/29 (1.4.0)
 
-# Updated - WitchingGadgets - 1.7.25-GTNH --> 1.8.29-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.25-GTNH...1.8.29-GTNH-pre
+# Updated - WitchingGadgets - 1.7.25-GTNH --> 1.8.30-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/WitchingGadgets/compare/1.7.25-GTNH...1.8.30-GTNH
 
 ## What's Changed:
+>* Add increased lifespan to powerless pearls by @LazyFleshWasTaken in https://github.com/GTNewHorizons/WitchingGadgets/pull/117 (1.8.30-GTNH)
 >* Add slowness to clear potion list by @LazyFleshWasTaken in https://github.com/GTNewHorizons/WitchingGadgets/pull/116 (1.8.28-GTNH-pre)
 >* Add slowness to clear potion list by @LazyFleshWasTaken in https://github.com/GTNewHorizons/WitchingGadgets/pull/116 (1.8.27-GTNH)
 >* Fix callisto cold ice reference after coremod changes by @serenibyss in https://github.com/GTNewHorizons/WitchingGadgets/pull/114 (1.8.25-GTNH)
