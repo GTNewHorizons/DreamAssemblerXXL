@@ -305,7 +305,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Bug-Torch](https://github.com/jss2a98aj/BugTorch) | 1.2.14 |
 | [BuildCraft](https://github.com/GTNewHorizons/BuildCraft) | 7.1.56-pre |
 | [BuildCraftCompat](https://github.com/GTNewHorizons/BuildCraftCompat) | 7.1.19-pre |
-| [BuildCraftOilTweak](https://github.com/GTNewHorizons/BuildCraftOilTweak) | 1.1.1 |
+| [BuildCraftOilTweak](https://github.com/GTNewHorizons/BuildCraftOilTweak) | 1.1.2-pre |
 | [CarpentersBlocks](https://github.com/GTNewHorizons/CarpentersBlocks) | 3.7.1-GTNH |
 | [Catwalks-2](https://github.com/GTNewHorizons/Catwalks-2) | 2.4.0-GTNH |
 | [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.17.16-GTNH-pre |
@@ -488,7 +488,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [WirelessRedstone-CBE](https://github.com/GTNewHorizons/WirelessRedstone-CBE) | 1.7.1 |
 | [Witchery](https://www.curseforge.com/minecraft/mc-mods/witchery) | 0.24.1 |
 | [WitcheryExtras](https://github.com/GTNewHorizons/WitcheryExtras) | 1.4.8-pre |
-| [WitchingGadgets](https://github.com/GTNewHorizons/WitchingGadgets) | 1.8.30-GTNH |
+| [WitchingGadgets](https://github.com/GTNewHorizons/WitchingGadgets) | 1.8.31-GTNH-pre |
 | [Yamcl](https://github.com/GTNewHorizons/Yamcl) | 0.7.4 |
 | [Ztones](https://www.curseforge.com/minecraft/mc-mods/ztones) | 2.2.2 |
 
