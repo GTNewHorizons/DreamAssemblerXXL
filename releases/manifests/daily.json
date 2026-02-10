@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-10T05:16:25.393019",
+  "last_updated": "2026-02-10T10:37:12.185389",
   "config": "2.9.0-nightly-2026-02-09",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-821-GTNH",
+      "version": "rv3-beta-823-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -153,7 +153,7 @@
       "side": "CLIENT"
     },
     "Draconic-Evolution": {
-      "version": "1.5.14-GTNH",
+      "version": "1.5.16-GTNH",
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {

@@ -1,6 +1,6 @@
 # GT New Horizons Mod Pack
 
-Version daily is out 2026-02-09
+Version daily is out 2026-02-10
 
 ## What is GT New Horizons?
 
@@ -272,7 +272,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Angelica](https://github.com/GTNewHorizons/Angelica) | 2.0.0-alpha20 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 1.0.3 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.9 |
-| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-821-GTNH |
+| [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-823-GTNH |
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.7.7 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.12.7 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.7.1 |
@@ -327,7 +327,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Default-Configs](https://github.com/GTNewHorizons/Default-Configs) | 1.3.1 |
 | [DefaultServerList](https://github.com/GTNewHorizons/DefaultServerList) | 1.7.3 |
 | [DefaultWorldGenerator](https://github.com/GTNewHorizons/DefaultWorldGenerator) | 0.4.0 |
-| [Draconic-Evolution](https://github.com/GTNewHorizons/Draconic-Evolution) | 1.5.14-GTNH |
+| [Draconic-Evolution](https://github.com/GTNewHorizons/Draconic-Evolution) | 1.5.16-GTNH |
 | [DummyCore](https://github.com/GTNewHorizons/DummyCore) | 1.20.0 |
 | [DuraDisplay](https://github.com/GTNewHorizons/DuraDisplay) | 1.4.0 |
 | [Electro-Magic-Tools](https://github.com/GTNewHorizons/Electro-Magic-Tools) | 1.7.17 |
@@ -353,7 +353,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.9.8-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.8 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.52.275 |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.52.277 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.9 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.9.13 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.12.17-GTNH |
@@ -489,7 +489,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [WirelessRedstone-CBE](https://github.com/GTNewHorizons/WirelessRedstone-CBE) | 1.7.1 |
 | [Witchery](https://www.curseforge.com/minecraft/mc-mods/witchery) | 0.24.1 |
 | [WitcheryExtras](https://github.com/GTNewHorizons/WitcheryExtras) | 1.4.7 |
-| [WitchingGadgets](https://github.com/GTNewHorizons/WitchingGadgets) | 1.8.27-GTNH |
+| [WitchingGadgets](https://github.com/GTNewHorizons/WitchingGadgets) | 1.8.30-GTNH |
 | [Yamcl](https://github.com/GTNewHorizons/Yamcl) | 0.7.4 |
 | [Ztones](https://www.curseforge.com/minecraft/mc-mods/ztones) | 2.2.2 |
 

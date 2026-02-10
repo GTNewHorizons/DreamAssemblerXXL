@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-09T05:15:54.037667",
-  "config": "2.9.0-nightly-2026-02-08",
+  "last_updated": "2026-02-10T05:16:25.393019",
+  "config": "2.9.0-nightly-2026-02-09",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-819-GTNH",
+      "version": "rv3-beta-821-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.9",
+      "version": "2.6.12",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.271",
+      "version": "5.09.52.277",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.134",
+      "version": "2.8.135",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.63-GTNH",
+      "version": "2.8.67-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -465,7 +465,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.9-GTNH",
+      "version": "2.2.13-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -597,7 +597,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.27-GTNH",
+      "version": "1.8.30-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.10-GTNH",
+      "version": "0.1.12-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
