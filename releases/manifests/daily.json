@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-10T10:43:36.676208",
+  "last_updated": "2026-02-11T05:14:46.246180",
   "config": "2.9.0-nightly-2026-02-09",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.57-gtnh",
+      "version": "1.5.58-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-823-GTNH",
+      "version": "rv3-beta-826-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.277",
+      "version": "5.09.52.280",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.135",
+      "version": "2.8.138",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -353,11 +353,11 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.22",
+      "version": "1.7.23",
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.67-GTNH",
+      "version": "2.8.68-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -465,7 +465,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.13-GTNH",
+      "version": "2.2.14-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -509,7 +509,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.27-GTNH",
+      "version": "1.7.28-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -521,7 +521,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.12.6",
+      "version": "2.12.8",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -657,7 +657,7 @@
       "side": "CLIENT"
     },
     "BuildCraftOilTweak": {
-      "version": "1.1.1",
+      "version": "1.1.3",
       "side": "BOTH"
     },
     "Custom-Main-Menu": {
@@ -681,7 +681,7 @@
       "side": "BOTH"
     },
     "lwjgl3ify": {
-      "version": "3.0.8",
+      "version": "3.0.9",
       "side": "BOTH_JAVA9"
     },
     "amunra": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.12-GTNH",
+      "version": "0.1.14-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.44",
+      "version": "0.4.46",
       "side": "BOTH"
     },
     "BrandonsCore": {
