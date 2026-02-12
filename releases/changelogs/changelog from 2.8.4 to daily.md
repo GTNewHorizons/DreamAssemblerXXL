@@ -745,10 +745,18 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.280
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.280
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.281
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.281
 
 ## What's Changed:
+>* EOH/GORGE Rendering work by @Connor-Colenso in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5841 (5.09.52.281)
+>* [MUI2] port BasicMachineWithRecipe to MUI2.  by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5478 (5.09.52.281)
+>* [Structure Rework] Centrifuge by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5885 (5.09.52.281)
+>* Add configs for item renderers by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5890 (5.09.52.281)
+>* Add color formatting to miner tooltips and translate key to pump, miner tooltips by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5891 (5.09.52.281)
+>* langify and properly implement deprecation strings in mbtt by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5892 (5.09.52.281)
+>* [Structure Rework] Industrial packager (amazon warehouse) by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5888 (5.09.52.281)
+>* [Structure Rework] add a place for all migration and controller recipes to go by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5894 (5.09.52.281)
 >* [Structure Rework] wiremill by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5877 (5.09.52.280)
 >* Add an Ore Voiding Configuration UI to Void Miners by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5869 (5.09.52.280)
 >* remove Modern suffix from wiremill by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5886 (5.09.52.280)
@@ -2273,10 +2281,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 # Updated - TC-4-Tweaks - 1.5.39 --> 1.5.43
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TCNEIAdditions - 1.5.4 --> 1.5.11
-**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.5.4...1.5.11
+# Updated - TCNEIAdditions - 1.5.4 --> 1.5.13
+**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.5.4...1.5.13
 
 ## What's Changed:
+>* fix aspect shift in tooltips by @danyadev in https://github.com/GTNewHorizons/TCNEIAdditions/pull/39 (1.5.13)
 >* Show aspects in tooltip by @slprime in https://github.com/GTNewHorizons/TCNEIAdditions/pull/33 (1.5.11)
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/TCNEIAdditions/pull/35 (1.5.6)
 
@@ -2437,10 +2446,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
 >* adding Rubber Singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/13 (8.11.0)
 
-# New Mod - VendingMachine:0.4.46
-**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.46
+# New Mod - VendingMachine:0.4.47
+**Full Changelog**: https://github.com/GTNewHorizons/VendingMachine/compare/0.4.1...0.4.47
 
 ## What's Changed:
+>* Added trade state reload command by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/64 (0.4.47)
 >* Show Structure Incomplete When Structure is Incomplete by @UltraProdigy in https://github.com/GTNewHorizons/VendingMachine/pull/65 (0.4.46)
 >* adapt to mui2 upstream by @chrombread in https://github.com/GTNewHorizons/VendingMachine/pull/63 (0.4.44)
 >* Mui-2-fix by @Dream-Master in https://github.com/GTNewHorizons/VendingMachine/pull/62 (0.4.43)

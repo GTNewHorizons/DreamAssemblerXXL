@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-11T05:14:46.246180",
-  "config": "2.9.0-nightly-2026-02-09",
+  "last_updated": "2026-02-12T05:12:22.879109",
+  "config": "2.9.0-nightly-2026-02-11",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.280",
+      "version": "5.09.52.281",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -485,7 +485,7 @@
       "side": "BOTH"
     },
     "TCNEIAdditions": {
-      "version": "1.5.11",
+      "version": "1.5.13",
       "side": "BOTH"
     },
     "TCNodeTracker": {
@@ -801,7 +801,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.46",
+      "version": "0.4.47",
       "side": "BOTH"
     },
     "BrandonsCore": {
