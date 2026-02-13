@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-12T05:12:22.879109",
-  "config": "2.9.0-nightly-2026-02-11",
+  "last_updated": "2026-02-13T05:05:56.811335",
+  "config": "2.9.0-nightly-2026-02-12",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-826-GTNH",
+      "version": "rv3-beta-827-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -93,7 +93,7 @@
       "side": "BOTH"
     },
     "Botanic-horizons": {
-      "version": "1.12.5-GTNH",
+      "version": "1.12.6-GTNH",
       "side": "BOTH"
     },
     "BuildCraft": {
@@ -205,7 +205,7 @@
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.5.6",
+      "version": "1.5.7",
       "side": "BOTH"
     },
     "Galacticraft": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.281",
+      "version": "5.09.52.282",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.13",
+      "version": "0.9.15",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "LootGames": {
-      "version": "2.2.7",
+      "version": "2.2.8",
       "side": "BOTH"
     },
     "LunatriusCore": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.138",
+      "version": "2.8.139",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -501,7 +501,7 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.5.12-GTNH",
+      "version": "1.5.17-GTNH",
       "side": "BOTH"
     },
     "ThaumicBases": {
@@ -509,7 +509,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.28-GTNH",
+      "version": "1.7.29-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -557,7 +557,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.11",
+      "version": "1.5.14",
       "side": "BOTH"
     },
     "waila": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.39-1.7.10",
+      "version": "2.3.41-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
