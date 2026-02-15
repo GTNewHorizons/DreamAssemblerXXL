@@ -2232,10 +2232,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Provide chunk to tile entity transformers by @SuperSoupr in https://github.com/GTNewHorizons/Postea/pull/17 (1.1.5)
 >* Use FMLModIdMappingEvent for numeric id mapping by @SuperSoupr in https://github.com/GTNewHorizons/Postea/pull/15 (1.1.4)
 
-# Updated - ProjectRed - 4.12.6-GTNH --> 4.12.24-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.6-GTNH...4.12.24-GTNH
+# Updated - ProjectRed - 4.12.6-GTNH --> 4.12.26-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.6-GTNH...4.12.26-GTNH
 
 ## What's Changed:
+>* Fix pulse behaviour of array gates by @Engineer12798 in https://github.com/GTNewHorizons/ProjectRed/pull/68 (4.12.26-GTNH)
+>* Fix Dynamic Item Responder Chip compatibility with Storage Drawers by @ModularityEnjoyer in https://github.com/GTNewHorizons/ProjectRed/pull/65 (4.12.26-GTNH)
 >* Add recipe caching to AutoCrafter by @Caedis in https://github.com/GTNewHorizons/ProjectRed/pull/69 (4.12.24-GTNH)
 >* Backport dupefix by @PLASMAchicken in https://github.com/GTNewHorizons/ProjectRed/pull/62 (4.12.21-GTNH)
 >* Add Option for sawn Lamps to be always a Light Level 15 by @june-dev-username in https://github.com/GTNewHorizons/ProjectRed/pull/66 (4.12.19-GTNH)
@@ -2468,7 +2470,7 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/Tinkers-Defense/pull/7 (1.3.3)
 
-# Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.29
+# Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.30
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.27-GTNH
@@ -2669,10 +2671,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Visualiser null fix by @ABKQPO in https://github.com/GTNewHorizons/ae2stuff/pull/34 (0.10.1-GTNH)
 >* Network Visualizer shows connections between a Crafting Input Bus/Buffer and its proxies. by @AbdielKavash in https://github.com/GTNewHorizons/ae2stuff/pull/30 (0.10.0-GTNH)
 
-# Updated - amunra - 0.8.2 --> 0.8.5
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.8.2...0.8.5
+# Updated - amunra - 0.8.2 --> 0.8.7
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.8.2...0.8.7
 
 ## What's Changed:
+>* Localization of gui title elements by @Ranzuu in https://github.com/GTNewHorizons/amunra/pull/38 (0.8.7)
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/amunra/pull/36 (0.8.5)
 
 # Updated - gendustry - 1.9.4-GTNH --> 1.9.8-GTNH
