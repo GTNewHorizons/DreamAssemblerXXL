@@ -1,6 +1,7 @@
 # New Mods: 
 > * Chunk API
 > * EndlessIDs
+> * FalsepatternLib
 > * RandomBoubles
 > * VendingMachine
 # Mods Removed: 
@@ -880,6 +881,9 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Spotless apply for branch fix-universium for #12 by @github-actions[bot] in https://github.com/GTNewHorizons/Eternal-Singularity/pull/13 (1.3.1-pre)
 >* Fix Spaghettic Singularity typo by @GDCloudstrike in https://github.com/GTNewHorizons/Eternal-Singularity/pull/11 (1.3.0)
 
+# New Mod - FalsepatternLib:1.10.7
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - FloodLights - 1.5.4 --> 1.5.5
 **Full Changelog**: https://github.com/GTNewHorizons/FloodLights/compare/1.5.4...1.5.5
 
@@ -904,8 +908,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.292-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.292-pre
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.293-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.293-pre
 
 ## What's Changed:
 >* MV Field Gen Recipe Change by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5925 (5.09.52.292-pre)
@@ -2714,10 +2718,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - ProjectRed - 4.12.6-GTNH --> 4.12.25-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.6-GTNH...4.12.25-GTNH-pre
+# Updated - ProjectRed - 4.12.6-GTNH --> 4.12.26-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.6-GTNH...4.12.26-GTNH
 
 ## What's Changed:
+>* Fix pulse behaviour of array gates by @Engineer12798 in https://github.com/GTNewHorizons/ProjectRed/pull/68 (4.12.26-GTNH)
+>* Fix Dynamic Item Responder Chip compatibility with Storage Drawers by @ModularityEnjoyer in https://github.com/GTNewHorizons/ProjectRed/pull/65 (4.12.26-GTNH)
 >* Add recipe caching to AutoCrafter by @Caedis in https://github.com/GTNewHorizons/ProjectRed/pull/69 (4.12.25-GTNH-pre)
 >* Add recipe caching to AutoCrafter by @Caedis in https://github.com/GTNewHorizons/ProjectRed/pull/69 (4.12.24-GTNH)
 >* Backport dupefix by @PLASMAchicken in https://github.com/GTNewHorizons/ProjectRed/pull/62 (4.12.21-GTNH)
@@ -2997,9 +3003,6 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/Tinkers-Defense/pull/7 (1.3.3)
 
-# Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.29
-## What's Changed:
-DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.29-GTNH-pre
 **Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.29-GTNH-pre
 
@@ -3217,10 +3220,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Visualiser null fix by @ABKQPO in https://github.com/GTNewHorizons/ae2stuff/pull/34 (0.10.1-GTNH)
 >* Network Visualizer shows connections between a Crafting Input Bus/Buffer and its proxies. by @AbdielKavash in https://github.com/GTNewHorizons/ae2stuff/pull/30 (0.10.0-GTNH)
 
-# Updated - amunra - 0.8.2 --> 0.8.6-pre
-**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.8.2...0.8.6-pre
+# Updated - amunra - 0.8.2 --> 0.8.7
+**Full Changelog**: https://github.com/GTNewHorizons/amunra/compare/0.8.2...0.8.7
 
 ## What's Changed:
+>* Localization of gui title elements by @Ranzuu in https://github.com/GTNewHorizons/amunra/pull/38 (0.8.7)
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/amunra/pull/36 (0.8.5)
 
 # Updated - gendustry - 1.9.4-GTNH --> 1.9.8-GTNH
