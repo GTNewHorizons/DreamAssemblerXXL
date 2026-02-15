@@ -757,10 +757,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.288
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.288
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.290
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.290
 
 ## What's Changed:
+>* Fix left clicking on a Void Miner overwriting held item's NBT Data by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5926 (5.09.52.290)
+>* MV Field Gen Recipe Change by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5925 (5.09.52.290)
+>* fix incorrect overlay applying to eoh hatches by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5929 (5.09.52.290)
+>* Replacing MEBF sound and Increasing Large Multi Sound Radius by @IX-git in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5928 (5.09.52.290)
 >* Allow Multi Smelter to have maintainence hatch on top layer by @flamingowrangler2869 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5899 (5.09.52.288)
 >* Check whether patterns are craftable in LMA by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5919 (5.09.52.288)
 >* Check whether pattern contains unsupported types in crib by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5920 (5.09.52.288)
@@ -1616,10 +1620,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.63
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.63
+# Updated - Hodgepodge - 2.6.112 --> 2.7.65
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.65
 
 ## What's Changed:
+>* Switch to a effectively final to avoid crashing when called from super() by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/739 (2.7.65)
 >* Optimize chunk saving by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/735 (2.7.63)
 >* Faster Chunks by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/733 (2.7.63)
 >* update deps by @Dream-Master in https://github.com/GTNewHorizons/Hodgepodge/pull/734 (2.7.62)
@@ -1945,10 +1950,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix redwood saplings growing without 7x7 field by @Morilli in https://github.com/GTNewHorizons/Natura/pull/37 (2.8.15)
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.143
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.143
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.145
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.145
 
 ## What's Changed:
+>* Buff MV Field Generator by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1607 (2.8.145)
 >* Adds molten redstone to fluxed electrum dust mixer recipe by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1605 (2.8.143)
 >* rebalance lanterns to be usable as decorations by @Spicierspace153 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1506 (2.8.142)
 >* Ender io qol part2 ( Soul Infused Medium Recipes) by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1540 (2.8.142)
