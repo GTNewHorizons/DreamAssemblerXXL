@@ -1,7 +1,7 @@
 {
   "version": "experimental",
-  "last_version": "previous_experimental",
-  "last_updated": "2026-02-15T13:16:45.357326",
+  "last_version": "2.8.4",
+  "last_updated": "2026-02-15T16:37:07.203835",
   "config": "2.9.0-nightly-2026-02-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -799,6 +799,10 @@
     "VendingMachine": {
       "version": "0.4.48",
       "side": "BOTH"
+    },
+    "TinkersGregworks": {
+      "version": "GTNH-1.0.32",
+      "side": "BOTH"
     }
   },
   "external_mods": {
@@ -922,16 +926,16 @@
       "version": "1.2.14",
       "side": "BOTH"
     },
-    "Tinkers-Gregworks": {
-      "version": "1.0.29",
-      "side": "BOTH"
-    },
     "Chunk API": {
       "version": "0.8.1",
       "side": "BOTH"
     },
     "EndlessIDs": {
       "version": "1.7.1",
+      "side": "BOTH"
+    },
+    "FalsepatternLib": {
+      "version": "1.10.7",
       "side": "BOTH"
     }
   }
