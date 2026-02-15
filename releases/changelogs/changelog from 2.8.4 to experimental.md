@@ -516,6 +516,13 @@ Mod is client-side only.
 ## What's Changed:
 >* made buildwands work with ofanix by @JustACasualDay in https://github.com/GTNewHorizons/BetterBuildersWands/pull/22 (0.13.6-GTNH)
 
+# Updated - BetterCrashes - 1.4.0-GTNH --> 1.4.1-GTNH
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.4.0-GTNH...1.4.1-GTNH
+
+## What's Changed:
+>* update buildscript by @danyadev in https://github.com/GTNewHorizons/BetterCrashes/pull/16 (1.4.1-GTNH)
+
 # Updated - BetterLoadingScreen - 1.7.2-GTNH --> 1.7.4-GTNH
 Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.7.2-GTNH...1.7.4-GTNH
@@ -698,7 +705,6 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Update description key by @cambech in https://github.com/GTNewHorizons/Chisel/pull/66 (2.17.0-GTNH)
 
 # New Mod - Chunk API:0.8.1
-Mod is Side.NONE.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - Computronics - 1.9.3-GTNH --> 1.9.4-GTNH
@@ -854,7 +860,6 @@ Mod is client-side only.
 >* Add a hook to get the server channel. by @fengluo2 in https://github.com/GTNewHorizons/EnderStorage/pull/22 (1.8.0)
 
 # New Mod - EndlessIDs:1.7.1
-Mod is Side.NONE.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - EnhancedLootBags - 1.2.8 --> 1.3.0
@@ -899,10 +904,21 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.289-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.289-pre
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.292-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.292-pre
 
 ## What's Changed:
+>* MV Field Gen Recipe Change by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5925 (5.09.52.292-pre)
+>* fix incorrect overlay applying to eoh hatches by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5929 (5.09.52.292-pre)
+>* Replacing MEBF sound and Increasing Large Multi Sound Radius by @IX-git in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5928 (5.09.52.292-pre)
+>* organize the casing enum and port the remainder of gtpp and tectech casings by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5931 (5.09.52.292-pre)
+>* Add CRIB support to IsaMill and ChemicalPlant by @zyf051520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5678 (5.09.52.292-pre)
+>* organize the casing enum and port the remainder of gtpp and tectech casings by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5931 (5.09.52.291)
+>* Add CRIB support to IsaMill and ChemicalPlant by @zyf051520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5678 (5.09.52.291)
+>* Fix left clicking on a Void Miner overwriting held item's NBT Data by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5926 (5.09.52.290)
+>* MV Field Gen Recipe Change by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5925 (5.09.52.290)
+>* fix incorrect overlay applying to eoh hatches by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5929 (5.09.52.290)
+>* Replacing MEBF sound and Increasing Large Multi Sound Radius by @IX-git in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5928 (5.09.52.290)
 >* Spotless apply for branch tooltip for #5261 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5590 (5.09.52.289-pre)
 >* Check whether patterns are craftable in LMA by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5919 (5.09.52.289-pre)
 >* Check whether pattern contains unsupported types in crib by @Kogepan229 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5920 (5.09.52.289-pre)
@@ -1867,8 +1883,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/27 (1.4.9)
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.9.21-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.21-pre
+# Updated - GTNHLib - 0.7.10 --> 0.9.22-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.22-pre
 
 ## What's Changed:
 >* remap readFromNBT/writeToNBT injections in TileInFusionMatrix mixin by @danyadev in https://github.com/GTNewHorizons/GTNHLib/pull/274 (0.9.21-pre)
@@ -2000,10 +2016,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.64-pre
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.64-pre
+# Updated - Hodgepodge - 2.6.112 --> 2.7.67-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.67-pre
 
 ## What's Changed:
+>* Switch to a effectively final to avoid crashing when called from super() by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/739 (2.7.67-pre)
+>* Improved redstone wire hitbox from 1.12 by @JohnButlerThird in https://github.com/GTNewHorizons/Hodgepodge/pull/742 (2.7.67-pre)
+>* Improved redstone wire hitbox from 1.12 by @JohnButlerThird in https://github.com/GTNewHorizons/Hodgepodge/pull/742 (2.7.66)
+>* Switch to a effectively final to avoid crashing when called from super() by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/739 (2.7.65)
 >* Optimize chunk saving by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/735 (2.7.63)
 >* Faster Chunks by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/733 (2.7.63)
 >* update deps by @Dream-Master in https://github.com/GTNewHorizons/Hodgepodge/pull/734 (2.7.62)
@@ -2361,10 +2381,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix redwood saplings growing without 7x7 field by @Morilli in https://github.com/GTNewHorizons/Natura/pull/37 (2.8.15)
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.144-pre
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.144-pre
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.146-pre
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.146-pre
 
 ## What's Changed:
+>* Buff MV Field Generator by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1607 (2.8.146-pre)
+>* Buff MV Field Generator by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1607 (2.8.145)
 >* Spotless apply for branch fix-headless-exit for #1545 by @github-actions[bot] in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1546 (2.8.144-pre)
 >* Adds molten redstone to fluxed electrum dust mixer recipe by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1605 (2.8.143)
 >* rebalance lanterns to be usable as decorations by @Spicierspace153 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1506 (2.8.142)
@@ -2738,10 +2760,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix AdvancedItemCollector able to collect dead items by @Worive in https://github.com/GTNewHorizons/Random-Things/pull/15 (2.7.1)
 >* Pause Bloodmoon for a couple of days after world creation by @wlhlm in https://github.com/GTNewHorizons/Random-Things/pull/14 (2.7.0)
 
-# New Mod - RandomBoubles:1.1.4-pre
-**Full Changelog**: https://github.com/GTNewHorizons/RandomBoubles/compare/1.0.0...1.1.4-pre
+# New Mod - RandomBoubles:1.1.5
+**Full Changelog**: https://github.com/GTNewHorizons/RandomBoubles/compare/1.0.0...1.1.5
 
 ## What's Changed:
+>* Replace pearl returns with Enhanced Infusion Recipe by @LazyFleshWasTaken in https://github.com/GTNewHorizons/RandomBoubles/pull/6 (1.1.5)
 >* Spotless apply for branch swap-to-replacing for #6 by @github-actions[bot] in https://github.com/GTNewHorizons/RandomBoubles/pull/7 (1.1.4-pre)
 >* Increase the lifespan instead of the item age. by @Ethryan in https://github.com/GTNewHorizons/RandomBoubles/pull/5 (1.1.2)
 >* Correct the check for gregtech by @Ethryan in https://github.com/GTNewHorizons/RandomBoubles/pull/4 (1.1.1)
@@ -2750,6 +2773,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add zh_CN.lang by @Omgise in https://github.com/GTNewHorizons/RandomBoubles/pull/1 (1.0.4-pre)
 >* Add zh_CN.lang by @Omgise in https://github.com/GTNewHorizons/RandomBoubles/pull/1 (1.0.3)
 
+# Updated - Realistic-World-Gen - alpha-1.5.0 --> alpha-1.5.1-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Realistic-World-Gen/compare/alpha-1.5.0...alpha-1.5.1-pre
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - SGCraft - 1.4.5-GTNH --> 1.4.7-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/SGCraft/compare/1.4.5-GTNH...1.4.7-GTNH
 
@@ -2972,8 +3000,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 # Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.29
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.28-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.28-GTNH-pre
+# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.29-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.29-GTNH-pre
 
 ## What's Changed:
 >* Clean up Tool Station GUI code by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/TinkersConstruct/pull/249 (1.14.27-GTNH)
