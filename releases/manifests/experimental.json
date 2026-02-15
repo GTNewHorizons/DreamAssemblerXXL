@@ -1,7 +1,7 @@
 {
   "version": "experimental",
-  "last_version": "previous_experimental",
-  "last_updated": "2026-02-15T00:17:02.228963",
+  "last_version": "2.8.4",
+  "last_updated": "2026-02-15T00:22:43.244109",
   "config": "2.9.0-nightly-2026-02-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -928,11 +928,11 @@
     },
     "Chunk API": {
       "version": "0.8.1",
-      "side": "NONE"
+      "side": "BOTH"
     },
     "EndlessIDs": {
       "version": "1.7.1",
-      "side": "NONE"
+      "side": "BOTH"
     }
   }
 }
