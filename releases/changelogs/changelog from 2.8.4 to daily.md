@@ -416,6 +416,13 @@ Mod is client-side only.
 ## What's Changed:
 >* made buildwands work with ofanix by @JustACasualDay in https://github.com/GTNewHorizons/BetterBuildersWands/pull/22 (0.13.6-GTNH)
 
+# Updated - BetterCrashes - 1.4.0-GTNH --> 1.4.1-GTNH
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/BetterCrashes/compare/1.4.0-GTNH...1.4.1-GTNH
+
+## What's Changed:
+>* update buildscript by @danyadev in https://github.com/GTNewHorizons/BetterCrashes/pull/16 (1.4.1-GTNH)
+
 # Updated - BetterLoadingScreen - 1.7.2-GTNH --> 1.7.4-GTNH
 Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.7.2-GTNH...1.7.4-GTNH
@@ -757,10 +764,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.290
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.290
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.291
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.291
 
 ## What's Changed:
+>* organize the casing enum and port the remainder of gtpp and tectech casings by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5931 (5.09.52.291)
+>* Add CRIB support to IsaMill and ChemicalPlant by @zyf051520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5678 (5.09.52.291)
 >* Fix left clicking on a Void Miner overwriting held item's NBT Data by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5926 (5.09.52.290)
 >* MV Field Gen Recipe Change by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5925 (5.09.52.290)
 >* fix incorrect overlay applying to eoh hatches by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5929 (5.09.52.290)
@@ -1620,10 +1629,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.65
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.65
+# Updated - Hodgepodge - 2.6.112 --> 2.7.66
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.66
 
 ## What's Changed:
+>* Improved redstone wire hitbox from 1.12 by @JohnButlerThird in https://github.com/GTNewHorizons/Hodgepodge/pull/742 (2.7.66)
 >* Switch to a effectively final to avoid crashing when called from super() by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/739 (2.7.65)
 >* Optimize chunk saving by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/735 (2.7.63)
 >* Faster Chunks by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/733 (2.7.63)
@@ -2256,10 +2266,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix AdvancedItemCollector able to collect dead items by @Worive in https://github.com/GTNewHorizons/Random-Things/pull/15 (2.7.1)
 >* Pause Bloodmoon for a couple of days after world creation by @wlhlm in https://github.com/GTNewHorizons/Random-Things/pull/14 (2.7.0)
 
-# New Mod - RandomBoubles:1.1.3
-**Full Changelog**: https://github.com/GTNewHorizons/RandomBoubles/compare/1.0.0...1.1.3
+# New Mod - RandomBoubles:1.1.5
+**Full Changelog**: https://github.com/GTNewHorizons/RandomBoubles/compare/1.0.0...1.1.5
 
 ## What's Changed:
+>* Replace pearl returns with Enhanced Infusion Recipe by @LazyFleshWasTaken in https://github.com/GTNewHorizons/RandomBoubles/pull/6 (1.1.5)
 >* Increase the lifespan instead of the item age. by @Ethryan in https://github.com/GTNewHorizons/RandomBoubles/pull/5 (1.1.2)
 >* Correct the check for gregtech by @Ethryan in https://github.com/GTNewHorizons/RandomBoubles/pull/4 (1.1.1)
 >* Adding quite a few rings. by @Ethryan in https://github.com/GTNewHorizons/RandomBoubles/pull/2 (1.1.0)
