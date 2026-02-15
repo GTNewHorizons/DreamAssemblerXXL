@@ -1,7 +1,7 @@
 {
   "version": "previous_experimental",
-  "last_version": "previous_experimental",
-  "last_updated": "2026-02-15T00:26:02.817775",
+  "last_version": "2.8.4",
+  "last_updated": "2026-02-15T16:37:07.203835",
   "config": "2.9.0-nightly-2026-02-14",
   "github_mods": {
     "AdventureBackpack2": {
@@ -57,7 +57,7 @@
       "side": "BOTH"
     },
     "BetterCrashes": {
-      "version": "1.4.0-GTNH",
+      "version": "1.4.1-GTNH",
       "side": "CLIENT"
     },
     "BetterLoadingScreen": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.289-pre",
+      "version": "5.09.52.292-pre",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.21-pre",
+      "version": "0.9.22-pre",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.64-pre",
+      "version": "2.7.67-pre",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.144-pre",
+      "version": "2.8.146-pre",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -417,7 +417,7 @@
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
-      "version": "alpha-1.5.0",
+      "version": "alpha-1.5.1-pre",
       "side": "BOTH"
     },
     "RemoteIO": {
@@ -529,7 +529,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.28-GTNH-pre",
+      "version": "1.14.29-GTNH-pre",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -793,11 +793,15 @@
       "side": "BOTH"
     },
     "RandomBoubles": {
-      "version": "1.1.4-pre",
+      "version": "1.1.5",
       "side": "BOTH"
     },
     "VendingMachine": {
       "version": "0.4.48",
+      "side": "BOTH"
+    },
+    "TinkersGregworks": {
+      "version": "GTNH-1.0.32",
       "side": "BOTH"
     }
   },
@@ -922,17 +926,17 @@
       "version": "1.2.14",
       "side": "BOTH"
     },
-    "Tinkers-Gregworks": {
-      "version": "1.0.29",
-      "side": "BOTH"
-    },
     "Chunk API": {
       "version": "0.8.1",
-      "side": "NONE"
+      "side": "BOTH"
     },
     "EndlessIDs": {
       "version": "1.7.1",
-      "side": "NONE"
+      "side": "BOTH"
+    },
+    "FalsepatternLib": {
+      "version": "1.10.7",
+      "side": "BOTH"
     }
   }
 }
