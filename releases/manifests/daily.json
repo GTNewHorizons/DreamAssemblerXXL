@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-15T17:04:41.110462",
-  "config": "2.9.0-nightly-2026-02-14",
+  "last_updated": "2026-02-16T05:14:28.917889",
+  "config": "2.9.0-nightly-2026-02-15",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.26-GTNH",
+      "version": "3.8.28-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.66",
+      "version": "2.7.69",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha20",
+      "version": "2.0.0-alpha21",
       "side": "CLIENT"
     },
     "AkashicTome": {
