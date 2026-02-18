@@ -1,15 +1,15 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-16T05:14:28.917889",
-  "config": "2.9.0-nightly-2026-02-15",
+  "last_updated": "2026-02-18T05:35:08.075122",
+  "config": "2.9.0-nightly-2026-02-16",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.58-gtnh",
+      "version": "1.5.61-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-830-GTNH",
+      "version": "rv3-beta-833-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.85",
+      "version": "1.89",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.291",
+      "version": "5.09.52.297",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.20",
+      "version": "0.9.24",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.69",
+      "version": "2.7.72",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -289,7 +289,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.5.7-GTNH",
+      "version": "1.5.12-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.145",
+      "version": "2.8.149",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -357,7 +357,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.68-GTNH",
+      "version": "2.8.70-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -729,7 +729,7 @@
       "side": "BOTH"
     },
     "neiaddons": {
-      "version": "1.17.0",
+      "version": "1.18.0",
       "side": "BOTH"
     },
     "Angelica": {
@@ -757,7 +757,7 @@
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
-      "version": "1.3.20-GTNH",
+      "version": "1.3.21-GTNH",
       "side": "BOTH"
     },
     "MatterManipulator": {
