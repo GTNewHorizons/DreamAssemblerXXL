@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-18T10:29:00.323926",
-  "config": "2.9.0-nightly-2026-02-16",
+  "last_updated": "2026-02-19T05:07:54.382783",
+  "config": "2.9.0-nightly-2026-02-18-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-834-GTNH",
+      "version": "rv3-beta-835-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -165,7 +165,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.18",
+      "version": "2.10.20",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.298",
+      "version": "5.09.52.299",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.72",
+      "version": "2.7.73",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.17",
+      "version": "9.17.20",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -529,7 +529,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.27-GTNH",
+      "version": "1.14.30-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -597,7 +597,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.33-GTNH",
+      "version": "1.8.35-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
