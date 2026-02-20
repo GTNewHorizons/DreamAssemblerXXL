@@ -391,10 +391,11 @@ Mod is client-side only.
 >* Add a config option for what enemies count as skeletons by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Avaritia/pull/72 (1.83)
 >* Add hint text for Terminus.  by @koolkrafter5 in https://github.com/GTNewHorizons/Avaritia/pull/66 (1.78)
 
-# Updated - Backhand - 1.7.7 --> 1.8.2
-**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.7.7...1.8.2
+# Updated - Backhand - 1.7.7 --> 1.8.3
+**Full Changelog**: https://github.com/GTNewHorizons/Backhand/compare/1.7.7...1.8.3
 
 ## What's Changed:
+>* fix draconic mixin following merging of BrandonsCore into draconic evolution by @Alexdoru in https://github.com/GTNewHorizons/Backhand/pull/168 (1.8.3)
 >* fix: offhand item switching animations by @leumasme in https://github.com/GTNewHorizons/Backhand/pull/161 (1.8.2)
 
 # Updated - Battlegear2-for-Backhand - 1.5.9-backhand --> 1.6.6-backhand
@@ -796,10 +797,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.299
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.299
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.300
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.300
 
 ## What's Changed:
+>* Fix nac outputting items at recipe check instead of after recipe & fix autoplace budget by @NotAPenguin0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5961 (5.09.52.300)
 >* Fix NAC modules being horrifically broken by @FourIsTheNumber in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5954 (5.09.52.299)
 >* [NAC] Move isTalkModeActive out from The NAC MTE and into its GUI by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5955 (5.09.52.299)
 >* Add Void Protection support to Industrial Centrifuge by @purebluez in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5948 (5.09.52.298)
@@ -1568,10 +1570,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/27 (1.4.9)
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.9.24
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.24
+# Updated - GTNHLib - 0.7.10 --> 0.9.25
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.25
 
 ## What's Changed:
+>* Add RU locale Resource Pack Notifier by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GTNHLib/pull/280 (0.9.25)
 >* Added ResourcePack update notifier by @Ranzuu in https://github.com/GTNewHorizons/GTNHLib/pull/260 (0.9.24)
 >* Formalize IItemTexture Renderer by @RecursivePineapple in https://github.com/GTNewHorizons/GTNHLib/pull/268 (0.9.23)
 >* Add a method to automaticall make and register an EIR by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GTNHLib/pull/275 (0.9.20)
@@ -1678,10 +1681,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.73
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.73
+# Updated - Hodgepodge - 2.6.112 --> 2.7.75
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.75
 
 ## What's Changed:
+>* Added a fix for entity gravity by @JohnButlerThird in https://github.com/GTNewHorizons/Hodgepodge/pull/738 (2.7.75)
+>* Fix XPOrb flying by @JohnButlerThird in https://github.com/GTNewHorizons/Hodgepodge/pull/746 (2.7.74)
 >* Clear stale loading screen clicks by @JackOfNoneTrades in https://github.com/GTNewHorizons/Hodgepodge/pull/736 (2.7.73)
 >* Bump priority due to conflict with bugtorch by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/748 (2.7.72)
 >* EmbedID -> FastBlockLookup by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/744 (2.7.71)
