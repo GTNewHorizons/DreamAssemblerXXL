@@ -1,14 +1,13 @@
 To setup DreamAssemblerXXL do the following steps:
-1. Install python 3.10 or higher
+1. Install UV [here](https://docs.astral.sh/uv/#installation)
 3. Add a personal token, as described in [README.md](https://github.com/GTNewHorizons/DreamAssemblerXXL/blob/master/README.md)
 4. clone the repository
-5. open terminal/console in the root of the repository and type the following commands:
-- `python -m pip install poetry`
-- `poetry install`
+5. open terminal/console in the root of the repository and type the following command:
+- `uv install`
 
 To run DreamAssemblerXXL do type the following commands in a terminal/console at the root of the repository:
 - (only if you are on windows) `chcp 65001`
-- `poetry run python -m gtnh.gui.gui`
+- `uv run python -m gtnh.gui.gui`
 
 DreamAssemblerXXL can be splitted up in 3 categories: Modpack management (in green), Mod management (in red) and File exclusion management (in yellow)
 
