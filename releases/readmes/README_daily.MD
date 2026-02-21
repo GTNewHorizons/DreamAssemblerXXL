@@ -302,7 +302,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.8.12 |
 | [Botania](https://github.com/GTNewHorizons/Botania) | 1.13.14-GTNH |
 | [Botanic-horizons](https://github.com/GTNewHorizons/Botanic-horizons) | 1.12.7-GTNH |
-| [BrandonsCore](https://github.com/GTNewHorizons/BrandonsCore) | 1.2.1-GTNH |
 | [Bug-Torch](https://github.com/jss2a98aj/BugTorch) | 1.2.14 |
 | [BuildCraft](https://github.com/GTNewHorizons/BuildCraft) | 7.1.55 |
 | [BuildCraftCompat](https://github.com/GTNewHorizons/BuildCraftCompat) | 7.1.18 |
