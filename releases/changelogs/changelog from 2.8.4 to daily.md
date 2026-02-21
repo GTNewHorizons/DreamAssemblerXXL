@@ -805,10 +805,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.303
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.303
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.304
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.304
 
 ## What's Changed:
+>* Fix electrolyzer not accepting hatches and add a muffler check by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5975 (5.09.52.304)
 >* Fix Splitter module duplicating items when merging from buses with different colors by @NotAPenguin0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5970 (5.09.52.303)
 >* Fix Eglin Steel in Sturdy Printer Casing by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5967 (5.09.52.302)
 >* [Structure Rework] Industrial Electrolyzer by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5908 (5.09.52.301)
