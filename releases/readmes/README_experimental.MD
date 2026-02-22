@@ -310,7 +310,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Catwalks-2](https://github.com/GTNewHorizons/Catwalks-2) | 2.4.0-GTNH |
 | [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.17.18-GTNH |
 | [ChiselTones](https://github.com/GTNewHorizons/ChiselTones) | 1.2.0-GTNH |
-| [Chunk API](https://www.curseforge.com/minecraft/mc-mods/chunkapi/) | 0.8.1 |
 | [CodeChickenCore](https://github.com/GTNewHorizons/CodeChickenCore) | 1.4.10 |
 | [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core) | 3.1.4-329 |
 | [Compact Kinetic Generators](https://forum.industrial-craft.net/thread/12724-ic2-exp-1-7-10-compact-kinetic-generators/) | 1.0 |
@@ -335,12 +334,10 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [EnderIO](https://github.com/GTNewHorizons/EnderIO) | 2.10.20 |
 | [EnderStorage](https://github.com/GTNewHorizons/EnderStorage) | 1.8.2 |
 | [EnderZoo](https://github.com/GTNewHorizons/EnderZoo) | 1.3.3 |
-| [EndlessIDs](https://www.curseforge.com/minecraft/mc-mods/endlessids/) | 1.7.1 |
 | [EnhancedLootBags](https://github.com/GTNewHorizons/EnhancedLootBags) | 1.3.0 |
 | [Et-Futurum-Requiem](https://github.com/GTNewHorizons/Et-Futurum-Requiem) | 2.6.2.29-GTNH-pre |
 | [Eternal-Singularity](https://github.com/GTNewHorizons/Eternal-Singularity) | 1.4.1 |
 | [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities) | 1.2.12 |
-| [FalsepatternLib](https://www.curseforge.com/minecraft/mc-mods/fplib) | 1.10.7 |
 | [FindIt](https://github.com/GTNewHorizons/FindIt) | 1.4.0 |
 | [FloodLights](https://github.com/GTNewHorizons/FloodLights) | 1.5.5 |
 | [ForbiddenMagic](https://github.com/GTNewHorizons/ForbiddenMagic) | 0.9.8-GTNH-pre |
@@ -408,6 +405,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [NewHorizonsCoreMod](https://github.com/GTNewHorizons/NewHorizonsCoreMod) | 2.8.152-pre |
 | [Nodal-Mechanics](https://github.com/GTNewHorizons/Nodal-Mechanics) | 1.3.1-GTNH |
 | [NotEnoughEnergistics](https://github.com/GTNewHorizons/NotEnoughEnergistics) | 1.7.23 |
+| [NotEnoughIds](https://github.com/GTNewHorizons/NotEnoughIds) | 2.1.10 |
 | [NotEnoughItems](https://github.com/GTNewHorizons/NotEnoughItems) | 2.8.70-GTNH |
 | [Nuclear-Control](https://github.com/GTNewHorizons/Nuclear-Control) | 2.7.5 |
 | [Nutrition](https://github.com/GTNewHorizons/Nutrition) | 0.1.6 |

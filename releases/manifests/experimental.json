@@ -1,7 +1,7 @@
 {
   "version": "experimental",
-  "last_version": "previous_experimental",
-  "last_updated": "2026-02-22T10:15:27.738014",
+  "last_version": "2.8.4",
+  "last_updated": "2026-02-22T10:34:23.143215",
   "config": "2.9.0-nightly-2026-02-20",
   "github_mods": {
     "AdventureBackpack2": {
@@ -803,6 +803,10 @@
     "TinkersGregworks": {
       "version": "GTNH-1.0.33",
       "side": "BOTH"
+    },
+    "NotEnoughIds": {
+      "version": "2.1.10",
+      "side": "BOTH"
     }
   },
   "external_mods": {
@@ -924,18 +928,6 @@
     },
     "Bug-Torch": {
       "version": "1.2.14",
-      "side": "BOTH"
-    },
-    "Chunk API": {
-      "version": "0.8.1",
-      "side": "BOTH"
-    },
-    "EndlessIDs": {
-      "version": "1.7.1",
-      "side": "BOTH"
-    },
-    "FalsepatternLib": {
-      "version": "1.10.7",
       "side": "BOTH"
     }
   }
