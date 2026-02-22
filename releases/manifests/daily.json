@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-22T05:02:41.117993",
+  "last_updated": "2026-02-22T10:00:28.066802",
   "config": "2.9.0-nightly-2026-02-20",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.62-gtnh",
+      "version": "1.5.63-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-839-GTNH",
+      "version": "rv3-beta-841-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.308",
+      "version": "5.09.52.309",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.26",
+      "version": "0.9.27",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -521,7 +521,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.12.9",
+      "version": "2.12.12",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -689,7 +689,7 @@
       "side": "BOTH"
     },
     "DuraDisplay": {
-      "version": "1.4.0",
+      "version": "1.4.2",
       "side": "CLIENT"
     },
     "Mobs-Info": {
