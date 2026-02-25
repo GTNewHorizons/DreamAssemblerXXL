@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-02-24T05:06:27.859423",
+  "last_updated": "2026-02-25T05:08:55.338631",
   "config": "2.9.0-nightly-2026-02-20",
   "github_mods": {
     "AdventureBackpack2": {
@@ -9,7 +9,7 @@
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.63-gtnh",
+      "version": "1.5.64-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -21,7 +21,7 @@
       "side": "BOTH"
     },
     "AngerMod": {
-      "version": "1.0.3",
+      "version": "1.0.4",
       "side": "BOTH"
     },
     "AppleCore": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-844-GTNH",
+      "version": "rv3-beta-846-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.314",
+      "version": "5.09.52.315",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -229,7 +229,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.27",
+      "version": "0.9.29",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.80",
+      "version": "2.7.81",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -465,7 +465,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.15-GTNH",
+      "version": "2.2.16-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha23",
+      "version": "2.0.0-alpha24",
       "side": "CLIENT"
     },
     "AkashicTome": {

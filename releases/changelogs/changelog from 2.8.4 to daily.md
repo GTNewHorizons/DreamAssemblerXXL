@@ -5,10 +5,12 @@
 # Mods Removed: 
 > * AE2NoUltimatePatterns
 > * BrandonsCore
-# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.63-gtnh
-**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.63-gtnh
+# Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.64-gtnh
+**Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.64-gtnh
 
 ## What's Changed:
+>* Fix a crash caused by cofhcore by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/408 (1.5.64-gtnh)
+>* Add generic type support for interface by @Kogepan229 in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/407 (1.5.64-gtnh)
 >* remove cofhcore dep by @unix-supremacist in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/403 (1.5.63-gtnh)
 >* remove reflection in ModAndClassUtil by @danyadev in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/406 (1.5.62-gtnh)
 >* Adjust pixels in Gui Terminal by @Ranzuu in https://github.com/GTNewHorizons/AE2FluidCraft-Rework/pull/405 (1.5.61-gtnh)
@@ -82,11 +84,15 @@
 >* Use DirectTesselator by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/19 (1.4.1)
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.0.0-alpha23
+# Updated - Angelica - 1.0.0-beta66b --> 2.0.0-alpha24
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.0.0-alpha23
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.0.0-alpha24
 
 ## What's Changed:
+>* ASM redirectors micro optimizations by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/1416 (2.0.0-alpha24)
+>* Parallelizing CTMUtils by @copi143 in https://github.com/GTNewHorizons/Angelica/pull/1393 (2.0.0-alpha24)
+>* re-enable Block Transformer when not running with rfb by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/1418 (2.0.0-alpha24)
+>* Speedup block transformer by transforming every class directly by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/1420 (2.0.0-alpha24)
 >* Maybe less leaky by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1414 (2.0.0-alpha23)
 >* Add slider for hurt screen shake intensity by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/1401 (2.0.0-alpha22)
 >* Now with 200% more screen shake by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/1402 (2.0.0-alpha22)
@@ -190,10 +196,11 @@ Mod is client-side only.
 >* Disable hardcoded custom uniforms by default by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/1100 (1.0.0-beta66)
 >* Add several missing built-in uniforms by @Cleptomania in https://github.com/GTNewHorizons/Angelica/pull/1101 (1.0.0-beta66)
 
-# Updated - AngerMod - 0.9.0 --> 1.0.3
-**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.9.0...1.0.3
+# Updated - AngerMod - 0.9.0 --> 1.0.4
+**Full Changelog**: https://github.com/GTNewHorizons/AngerMod/compare/0.9.0...1.0.4
 
 ## What's Changed:
+>* Ignore spectator players in spawn protection invulnerability logic by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AngerMod/pull/16 (1.0.4)
 >* Create ru_RU.lang by @Eldrinn-Elantey in https://github.com/GTNewHorizons/AngerMod/pull/15 (1.0.3)
 >* Add GTNHLib as a dependency for AngerMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/AngerMod/pull/14 (1.0.2)
 >* Remove a bit of chaff from the rewrite by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/AngerMod/pull/13 (1.0.1)
@@ -206,10 +213,12 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-844-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-844-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-846-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-846-GTNH
 
 ## What's Changed:
+>* Fix crafting results being voided when unable to inject into network by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1099 (rv3-beta-846-GTNH)
+>* better performance by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1098 (rv3-beta-845-GTNH)
 >* fix NPE in DualityInterface#addDrops by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1094 (rv3-beta-844-GTNH)
 >* pack interface stuck state with other client flags + only tick on client by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1093 (rv3-beta-844-GTNH)
 >* Cache if pattern is invalid in NBT to fix performance issues by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1085 (rv3-beta-844-GTNH)
@@ -838,10 +847,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.314
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.314
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.315
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.315
 
 ## What's Changed:
+>* change exofoundry tooltip to clarify that it needs a module to do uiv+ recipes by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6002 (5.09.52.315)
+>* Add gt utility.translate to mte diesel engine by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5966 (5.09.52.315)
+>* fix Optical Organizer Structure to be symmetrical by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6003 (5.09.52.315)
+>* Fix IC2 mode in new EIG structure by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5998 (5.09.52.315)
 >* Optimising images contained in now-actually-cohesive for #5994 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5995 (5.09.52.314)
 >* Gorge fuel fixes by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5981 (5.09.52.314)
 >* refactor(digitaltank): replace GTUtility.trans with StatCollector localization by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5949 (5.09.52.314)
@@ -1636,10 +1649,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/27 (1.4.9)
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.9.27
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.27
+# Updated - GTNHLib - 0.7.10 --> 0.9.29
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.29
 
 ## What's Changed:
+>* Prevent resizing the ClassConstantPoolParser during runtime by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/288 (0.9.29)
+>* Add custom chat components for fluid and item names by @Discreater in https://github.com/GTNewHorizons/GTNHLib/pull/278 (0.9.29)
+>* add @Config.Order() to the config system   by @0hwx in https://github.com/GTNewHorizons/GTNHLib/pull/286 (0.9.29)
+>* Updated the lookout for Resource pack update notifier by @Ranzuu in https://github.com/GTNewHorizons/GTNHLib/pull/285 (0.9.29)
 >* Add IConfigEntry to the Config system by @0hwx in https://github.com/GTNewHorizons/GTNHLib/pull/281 (0.9.27)
 >* Add gui keybind fallback check by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/283 (0.9.26)
 >* Add RU locale Resource Pack Notifier by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GTNHLib/pull/280 (0.9.25)
@@ -1751,10 +1768,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.80
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.80
+# Updated - Hodgepodge - 2.6.112 --> 2.7.81
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.81
 
 ## What's Changed:
+>* avoid constantly ticking leaves that are close to chunk loading range by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/757 (2.7.81)
+>* Fix TravellersGear item recovery code by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/759 (2.7.81)
+>* Don't reuse the same Deflater across threads. by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/760 (2.7.81)
 >* More worldgen optimization by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/737 (2.7.80)
 >* force the piston's starting meta to 0 by @Caedis in https://github.com/GTNewHorizons/Hodgepodge/pull/751 (2.7.78)
 >* mixin fixes by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/753 (2.7.77)
@@ -2494,10 +2514,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fixes actually saving the label + added a config where it should be saved permanently/upon breaking the block (default) by @alppp in https://github.com/GTNewHorizons/StevesAddons/pull/15 (0.15.2)
 
-# Updated - StorageDrawers - 2.1.10-GTNH --> 2.2.15-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.10-GTNH...2.2.15-GTNH
+# Updated - StorageDrawers - 2.1.10-GTNH --> 2.2.16-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.10-GTNH...2.2.16-GTNH
 
 ## What's Changed:
+>* Fix missing Fill Level overlay on non-vanilla Drawers by @purebluez in https://github.com/GTNewHorizons/StorageDrawers/pull/63 (2.2.16-GTNH)
 >* Fix taking items with fast clicks by @danyadev in https://github.com/GTNewHorizons/StorageDrawers/pull/60 (2.2.15-GTNH)
 >* Fix drawer voiding items on full inventory  by @loenaaaa in https://github.com/GTNewHorizons/StorageDrawers/pull/59 (2.2.14-GTNH)
 >* Add simulated sink for drawers by @hiroscho in https://github.com/GTNewHorizons/StorageDrawers/pull/56 (2.2.13-GTNH)
