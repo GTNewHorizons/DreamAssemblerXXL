@@ -1649,10 +1649,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/27 (1.4.9)
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.9.29
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.29
+# Updated - GTNHLib - 0.7.10 --> 0.9.30
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.30
 
 ## What's Changed:
+>* Ignore synthetic fields when walking class fields by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/290 (0.9.30)
 >* Prevent resizing the ClassConstantPoolParser during runtime by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/288 (0.9.29)
 >* Add custom chat components for fluid and item names by @Discreater in https://github.com/GTNewHorizons/GTNHLib/pull/278 (0.9.29)
 >* add @Config.Order() to the config system   by @0hwx in https://github.com/GTNewHorizons/GTNHLib/pull/286 (0.9.29)
