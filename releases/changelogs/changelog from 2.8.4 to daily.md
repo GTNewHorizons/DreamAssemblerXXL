@@ -819,10 +819,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/FloodLights/pull/15 (1.5.5)
 
-# Updated - ForbiddenMagic - 0.8.4-GTNH --> 0.9.7-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.8.4-GTNH...0.9.7-GTNH
+# Updated - ForbiddenMagic - 0.8.4-GTNH --> 0.9.9-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ForbiddenMagic/compare/0.8.4-GTNH...0.9.9-GTNH
 
 ## What's Changed:
+>* Fix aoe on chameleon pickaxe by @LazyFleshWasTaken in https://github.com/GTNewHorizons/ForbiddenMagic/pull/23 (0.9.9-GTNH)
 >* Add hint text for FM aspects by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/21 (0.9.7-GTNH)
 >* Show Capacity in Eldritch Blood Orb Tooltip by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/20 (0.9.6-GTNH)
 >* Wand Cap and Core Refactor by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/18 (0.9.4-GTNH)
@@ -1730,10 +1731,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Brigadier by @Taskeren in https://github.com/GTNewHorizons/GTNHLib/pull/149 (0.8.2)
 >* Updates to JSON model API by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/100 (0.8.0)
 
-# Updated - Gadomancy - 1.4.8 --> 1.5.7
-**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.8...1.5.7
+# Updated - Gadomancy - 1.4.8 --> 1.5.8
+**Full Changelog**: https://github.com/GTNewHorizons/Gadomancy/compare/1.4.8...1.5.8
 
 ## What's Changed:
+>* Cleanup event classes more and fix dedicated server crash by @Alexdoru in https://github.com/GTNewHorizons/Gadomancy/pull/49 (1.5.8)
 >* Update Buildscript by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Gadomancy/pull/47 (1.5.7)
 >* [Memory-opti:fix leak] Fix world leak in Event class by @Alexdoru in https://github.com/GTNewHorizons/Gadomancy/pull/44 (1.5.6)
 >* Reduce NBT Tag spam by @Alexdoru in https://github.com/GTNewHorizons/Gadomancy/pull/45 (1.5.4)
@@ -2378,10 +2380,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Make witchery compatibility for vampire work by @YamiKami-Sama in https://github.com/GTNewHorizons/Nutrition/pull/30 (0.1.6)
 >* [Memory-opti:fix leak] Fix world leak in PlayerDataHandler (0.1.4)
 
-# Updated - OpenBlocks - 1.11.7-GTNH --> 1.12.4-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.11.7-GTNH...1.12.4-GTNH
+# Updated - OpenBlocks - 1.11.7-GTNH --> 1.12.7-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenBlocks/compare/1.11.7-GTNH...1.12.7-GTNH
 
 ## What's Changed:
+>* In-game documentation should document by @DrParadox7 in https://github.com/GTNewHorizons/OpenBlocks/pull/40 (1.12.7-GTNH)
 >* Fix bad dep by @mitchej123 in https://github.com/GTNewHorizons/OpenBlocks/pull/38 (1.12.4-GTNH)
 >* Building Guide - Clarity by @DrParadox7 in https://github.com/GTNewHorizons/OpenBlocks/pull/39 (1.12.4-GTNH)
 >* Fix ConcurrentModificationException from HangGlider by @Worive in https://github.com/GTNewHorizons/OpenBlocks/pull/35 (1.12.3-GTNH)
@@ -2487,8 +2490,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix Rotation in East/West Direction by @Yoshy2002 in https://github.com/GTNewHorizons/SGCraft/pull/22 (1.4.8-GTNH)
 >* Localization of gui elements by @Ranzuu in https://github.com/GTNewHorizons/SGCraft/pull/21 (1.4.7-GTNH)
 
-# Updated - Salis-Arcana - 1.1.33-GTNH --> 1.1.46-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.33-GTNH...1.1.46-GTNH
+# Updated - Salis-Arcana - 1.1.33-GTNH --> 1.1.47-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.33-GTNH...1.1.47-GTNH
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
