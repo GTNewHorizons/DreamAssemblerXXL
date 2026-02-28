@@ -807,6 +807,14 @@
     "Freecam": {
       "version": "1.0.5",
       "side": "BOTH"
+    },
+    "MouseTweaks": {
+      "version": "2.4.20-GTNH",
+      "side": "CLIENT"
+    },
+    "GregoryTweaksForCrafting": {
+      "version": "1.0.0",
+      "side": "BOTH"
     }
   },
   "external_mods": {
