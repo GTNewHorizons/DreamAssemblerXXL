@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-01T21:28:37.321755",
-  "config": "2.9.0-nightly-2026-03-01",
+  "last_updated": "2026-03-02T05:01:19.907417",
+  "config": "2.9.0-nightly-2026-03-01-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-848-GTNH",
+      "version": "rv3-beta-849-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -113,7 +113,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.17.18-GTNH",
+      "version": "2.17.19-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.324",
+      "version": "5.09.52.325",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.31",
+      "version": "0.9.32",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -241,7 +241,7 @@
       "side": "BOTH"
     },
     "HydroEnergy": {
-      "version": "1.4.14",
+      "version": "1.4.15",
       "side": "BOTH"
     },
     "IFU": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.71-GTNH",
+      "version": "2.8.72-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -465,7 +465,7 @@
       "side": "BOTH"
     },
     "StructureLib": {
-      "version": "1.4.28",
+      "version": "1.4.30",
       "side": "BOTH"
     },
     "Super-TiC": {
@@ -809,7 +809,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "side": "BOTH"
     }
   },

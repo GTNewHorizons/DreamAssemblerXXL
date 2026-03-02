@@ -221,10 +221,12 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-848-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-848-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-849-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-849-GTNH
 
 ## What's Changed:
+>* fix texture by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1103 (rv3-beta-849-GTNH)
+>* Fix Security Terminal Gui by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1104 (rv3-beta-849-GTNH)
 >* fix AE Follow craft disconnect the client sometime by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1101 (rv3-beta-848-GTNH)
 >* fix keyBindPickBlock in terminals by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1088 (rv3-beta-847-GTNH)
 >* Fix crafting results being voided when unable to inject into network by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1099 (rv3-beta-846-GTNH)
@@ -641,10 +643,11 @@ Mod is client-side only.
 >* Update buildscripts by @lesteenman in https://github.com/GTNewHorizons/CarpentersBlocks/pull/17 (3.7.1-GTNH)
 >* Add correct translation keys for Carpenter's Tile by @lesteenman in https://github.com/GTNewHorizons/CarpentersBlocks/pull/16 (3.7.1-GTNH)
 
-# Updated - Chisel - 2.16.15-GTNH --> 2.17.18-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.16.15-GTNH...2.17.18-GTNH
+# Updated - Chisel - 2.16.15-GTNH --> 2.17.19-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Chisel/compare/2.16.15-GTNH...2.17.19-GTNH
 
 ## What's Changed:
+>* fix typo by @seventh-june in https://github.com/GTNewHorizons/Chisel/pull/80 (2.17.19-GTNH)
 >* Fix Texture Misalignment of Simple Iron Block  by @openblocki in https://github.com/GTNewHorizons/Chisel/pull/79 (2.17.18-GTNH)
 >* Add new Metals and a new Moss blockset by @seventh-june in https://github.com/GTNewHorizons/Chisel/pull/77 (2.17.14-GTNH)
 >* fix(render): adapt hodgepodge fixBottomFaceUV by @leagris in https://github.com/GTNewHorizons/Chisel/pull/76 (2.17.13-GTNH)
@@ -694,10 +697,11 @@ Mod is client-side only.
 Mod is client-side only.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# New Mod - CropsNH:2.0.0
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/commits/2.0.0/compare/2.0.0...2.0.0
+# New Mod - CropsNH:2.0.1
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.1
 
 ## What's Changed:
+>* Rename oilberry.png to oilBerry.png by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/7 (2.0.1)
 >* Mitchapproved by @bombcar in https://github.com/GTNewHorizons/CropsNH/pull/3 (2.0.0)
 >* Replace CodeChickenLib by @koolkrafter5 in https://github.com/GTNewHorizons/CropsNH/pull/5 (2.0.0)
 >* Crop Rework 2.0 by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/4 (2.0.0)
@@ -856,10 +860,14 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.324
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.324
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.325
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.325
 
 ## What's Changed:
+>* change titanium gearbox texture to match the shading of other gearboxes by @seventh-june in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6036 (5.09.52.325)
+>* enhance waterline gui (only main controller) by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5835 (5.09.52.325)
+>* add a space between teh coal casing tier name and the actual tier value for the assembly matrix. by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6039 (5.09.52.325)
+>* make powerfails renderer still render when you are close to the machine by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6040 (5.09.52.325)
 >* Fix typo cropsNH weed ex item reference by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6031 (5.09.52.324)
 >* Improve the NEI recipe page and tooltips for Bac Vat by @SST-03 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6033 (5.09.52.324)
 >* Update Postea dependency version to 1.2.3 by @C0bra5 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6035 (5.09.52.324)
@@ -1683,10 +1691,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/27 (1.4.9)
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.9.31
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.31
+# Updated - GTNHLib - 0.7.10 --> 0.9.32
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.32
 
 ## What's Changed:
+>* Changes need to support Core Profile in Angelica by @mitchej123 in https://github.com/GTNewHorizons/GTNHLib/pull/284 (0.9.32)
 >* add back and mark deprecated ClassConstantPoolParser#addString method by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/291 (0.9.31)
 >* Ignore synthetic fields when walking class fields by @Caedis in https://github.com/GTNewHorizons/GTNHLib/pull/290 (0.9.30)
 >* Prevent resizing the ClassConstantPoolParser during runtime by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/288 (0.9.29)
@@ -1909,10 +1918,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* localization of tooltip by @Discreater in https://github.com/GTNewHorizons/HoloInventory/pull/54 (2.5.6-GTNH)
 >* Include transient deps for storage drawers by @RecursivePineapple in https://github.com/GTNewHorizons/HoloInventory/pull/55 (2.5.6-GTNH)
 
-# Updated - HydroEnergy - 1.4.10 --> 1.4.14
-**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.10...1.4.14
+# Updated - HydroEnergy - 1.4.10 --> 1.4.15
+**Full Changelog**: https://github.com/GTNewHorizons/HydroEnergy/compare/1.4.10...1.4.15
 
 ## What's Changed:
+>* Mixin fixes by @Alexdoru in https://github.com/GTNewHorizons/HydroEnergy/pull/40 (1.4.15)
 >* Fix multiple NPE and buffer underflow crashes in hydro dam & Update buildscript by @rainbowjose in https://github.com/GTNewHorizons/HydroEnergy/pull/38 (1.4.14)
 >* Fixes a typo in the description for the hydro turbine. by @BroFaceMcgee in https://github.com/GTNewHorizons/HydroEnergy/pull/39 (1.4.12)
 
@@ -2393,10 +2403,11 @@ Mod is client-side only.
 >* Restore tooltips on Pattern Terminal Gui by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/55 (1.7.19)
 >* Universal gui by @lc-1337 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/53 (1.7.18)
 
-# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.71-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.71-GTNH
+# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.72-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.72-GTNH
 
 ## What's Changed:
+>* Always Show Recipe Ingredients Overlay by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/878 (2.8.72-GTNH)
 >* Remove Generated Favorites from Accepts Followings Tooltip by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/873 (2.8.71-GTNH)
 >* Restore the 'get infinite items' action by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/867 (2.8.70-GTNH)
 >* Generate Single-Recipe Favorites by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/863 (2.8.70-GTNH)
@@ -2610,10 +2621,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Revert right-click interaction with items in the offhand (Backhand) by @mM4ri in https://github.com/GTNewHorizons/StorageDrawers/pull/51 (2.2.1-GTNH)
 >* Add Backhand Support for Storage Drawers by @mM4ri in https://github.com/GTNewHorizons/StorageDrawers/pull/47 (2.2.0-GTNH)
 
-# Updated - StructureLib - 1.4.23 --> 1.4.28
-**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.23...1.4.28
+# Updated - StructureLib - 1.4.23 --> 1.4.30
+**Full Changelog**: https://github.com/GTNewHorizons/StructureLib/compare/1.4.23...1.4.30
 
 ## What's Changed:
+>* optimize StructureDefinition.addShape by @danyadev in https://github.com/GTNewHorizons/StructureLib/pull/54 (1.4.30)
 >* Autocomplete channel name with tab by @Worive in https://github.com/GTNewHorizons/StructureLib/pull/53 (1.4.27)
 >* Don't enable buttons in channel configuration when channel key is empty by @wlhlm in https://github.com/GTNewHorizons/StructureLib/pull/51 (1.4.25)
 >* Replace Dot Hints With Number Hints by @UltraProdigy in https://github.com/GTNewHorizons/StructureLib/pull/52 (1.4.25)
