@@ -1,8 +1,8 @@
 {
   "version": "daily",
-  "last_version": "2.8.4",
-  "last_updated": "2026-03-03T10:24:01.905289",
-  "config": "2.9.0-nightly-2026-03-01-2",
+  "last_version": "previous_daily",
+  "last_updated": "2026-03-04T04:54:11.956441",
+  "config": "2.9.0-nightly-2026-03-04",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-850-GTNH",
+      "version": "rv3-beta-852-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -53,7 +53,7 @@
       "side": "BOTH"
     },
     "BetterBuildersWands": {
-      "version": "0.13.9-GTNH",
+      "version": "0.13.10-GTNH",
       "side": "BOTH"
     },
     "BetterCrashes": {
@@ -153,11 +153,11 @@
       "side": "BOTH"
     },
     "EnderCore": {
-      "version": "0.5.5",
+      "version": "0.5.7",
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.20",
+      "version": "2.10.21",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.11.6",
+      "version": "4.11.7",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.17-GTNH",
+      "version": "3.4.18-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.326",
+      "version": "5.09.52.330",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.33",
+      "version": "0.9.34",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.83",
+      "version": "2.7.84",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "ironchest": {
-      "version": "6.1.8",
+      "version": "6.1.10",
       "side": "BOTH"
     },
     "IronChestMinecarts": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.8.12",
+      "version": "1.8.15",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.156",
+      "version": "2.8.160",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.7.5",
+      "version": "2.7.6",
       "side": "BOTH"
     },
     "oauth": {
@@ -405,7 +405,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.20",
+      "version": "9.17.21",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -421,7 +421,7 @@
       "side": "BOTH"
     },
     "SC2": {
-      "version": "2.3.12",
+      "version": "2.3.13",
       "side": "BOTH"
     },
     "Schematica": {
@@ -645,7 +645,7 @@
       "side": "BOTH"
     },
     "Controlling": {
-      "version": "2.1.3",
+      "version": "2.1.6",
       "side": "CLIENT"
     },
     "BuildCraftOilTweak": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.0.0-alpha25",
+      "version": "2.1.0",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -757,7 +757,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.47-GTNH",
+      "version": "1.1.48-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -809,11 +809,11 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.1",
+      "version": "2.0.4",
       "side": "BOTH"
     },
     "Fether": {
-      "version": "2.0.3",
+      "version": "2.0.4",
       "side": "BOTH"
     }
   },
