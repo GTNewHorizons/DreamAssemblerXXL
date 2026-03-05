@@ -269,7 +269,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [AlchemyGrate](https://github.com/GTNewHorizons/AlchemyGrate) | 1.3.1-GTNH |
 | [Amazing-Trophies](https://github.com/GTNewHorizons/Amazing-Trophies) | 1.4.1 |
 | [amunra](https://github.com/GTNewHorizons/amunra) | 0.8.7 |
-| [Angelica](https://github.com/GTNewHorizons/Angelica) | 2.1.0 |
+| [Angelica](https://github.com/GTNewHorizons/Angelica) | 2.1.1 |
 | [AngerMod](https://github.com/GTNewHorizons/AngerMod) | 1.0.5 |
 | [AppleCore](https://github.com/GTNewHorizons/AppleCore) | 3.3.9 |
 | [Applied-Energistics-2-Unofficial](https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial) | rv3-beta-856-GTNH-pre |
@@ -311,7 +311,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.17.20-GTNH |
 | [ChiselTones](https://github.com/GTNewHorizons/ChiselTones) | 1.2.0-GTNH |
 | [Chunk API](https://www.curseforge.com/minecraft/mc-mods/chunkapi/) | 0.8.1 |
-| [CodeChickenCore](https://github.com/GTNewHorizons/CodeChickenCore) | 1.4.10 |
+| [CodeChickenCore](https://github.com/GTNewHorizons/CodeChickenCore) | 1.4.11 |
 | [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core) | 3.1.4-329 |
 | [Compact Kinetic Generators](https://forum.industrial-craft.net/thread/12724-ic2-exp-1-7-10-compact-kinetic-generators/) | 1.0 |
 | [Computronics](https://github.com/GTNewHorizons/Computronics) | 1.9.4-GTNH |
@@ -357,14 +357,14 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.8 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
 | [GregoryTweaksForCrafting](https://github.com/GTNewHorizons/GregoryTweaksForCrafting) | 1.0.0 |
-| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.52.336-pre |
+| [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.52.338-pre |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.9 |
 | [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.9.36 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.12.19-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.3.9-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
 | [HelpFixer](https://github.com/GTNewHorizons/HelpFixer) | 1.3.0 |
-| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.7.88-pre |
+| [Hodgepodge](https://github.com/GTNewHorizons/Hodgepodge) | 2.7.91-pre |
 | [HoloInventory](https://github.com/GTNewHorizons/HoloInventory) | 2.5.9-GTNH-pre |
 | [Hunger-Overhaul](https://www.curseforge.com/minecraft/mc-mods/hunger-overhaul) | 1.0.0.104 |
 | [HydroEnergy](https://github.com/GTNewHorizons/HydroEnergy) | 1.4.15 |
@@ -385,7 +385,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [LogisticsPipes](https://github.com/GTNewHorizons/LogisticsPipes) | 1.5.15-GTNH-pre |
 | [LootGames](https://github.com/GTNewHorizons/LootGames) | 2.2.9 |
 | [LunatriusCore](https://github.com/GTNewHorizons/LunatriusCore) | 1.2.1-GTNH |
-| [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 3.0.14 |
+| [lwjgl3ify](https://github.com/GTNewHorizons/lwjgl3ify) | 3.0.15 |
 | [MagicBees](https://github.com/GTNewHorizons/MagicBees) | 2.10.5-GTNH |
 | [MalisisDoors](https://github.com/GTNewHorizons/MalisisDoors) | 1.19.2-GTNH |
 | [Mantle](https://github.com/GTNewHorizons/Mantle) | 0.5.1 |
