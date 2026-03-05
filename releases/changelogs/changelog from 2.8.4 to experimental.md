@@ -106,11 +106,16 @@
 >* Use DirectTesselator by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/19 (1.4.1)
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.1.0
+# Updated - Angelica - 1.0.0-beta66b --> 2.1.1
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.0
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.1
 
 ## What's Changed:
+>* Optimize fontrenderer by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1447 (2.1.1)
+>* Invert Horizon and Terrain Fog toggles by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/1454 (2.1.1)
+>* Update buildscript with latest lwjgl3ify fixes by @eigenraven in https://github.com/GTNewHorizons/Angelica/pull/1456 (2.1.1)
+>* Add MixinWavefrontObject back by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1452 (2.1.1)
+>* Core followups by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1445 (2.1.1)
 >* add shouldTransform & make it significantly faster by @danyadev in https://github.com/GTNewHorizons/Angelica/pull/1433 (2.1.0)
 >* Remove boxing unboxing in RenderPassHelper by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/1438 (2.1.0)
 >* Replace framebufferRender with a VBO by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1432 (2.1.0)
@@ -1065,10 +1070,19 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.336-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.336-pre
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.338-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.338-pre
 
 ## What's Changed:
+>* remove QC wireless mode and fix wireless computation by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5847 (5.09.52.338-pre)
+>* Fix waterline only starting every other cycle by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6051 (5.09.52.338-pre)
+>* Fix "Cannot Open Research Station since Daily 399" by @SST-03 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6057 (5.09.52.338-pre)
+>* Chat message localization - 20260117 by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5719 (5.09.52.338-pre)
+>* Small fixes for the LES by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6021 (5.09.52.337)
+>* remove QC wireless mode and fix wireless computation by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5847 (5.09.52.337)
+>* Fix waterline only starting every other cycle by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6051 (5.09.52.337)
+>* Fix "Cannot Open Research Station since Daily 399" by @SST-03 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6057 (5.09.52.337)
+>* Chat message localization - 20260117 by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5719 (5.09.52.337)
 >* Small fixes for the LES by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6021 (5.09.52.336-pre)
 >* Fix singleblock GUI not running until the gui is closed by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6058 (5.09.52.335-pre)
 >* Fix singleblock GUI not running until the gui is closed by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6058 (5.09.52.334)
@@ -2311,10 +2325,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.90
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.90
+# Updated - Hodgepodge - 2.6.112 --> 2.7.91-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.91-pre
 
 ## What's Changed:
+>* disable ForgeEventSubscriptionTransformer for now because it breaks angelica by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/774 (2.7.91-pre)
+>* Fix forge config memory bomb by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/775 (2.7.91-pre)
 >* Fix forge config memory bomb by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/775 (2.7.90)
 >* disable ForgeEventSubscriptionTransformer for now because it breaks angelica by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/774 (2.7.89)
 >* Prevent grass tick from loading nearby chunks by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/771 (2.7.87)
