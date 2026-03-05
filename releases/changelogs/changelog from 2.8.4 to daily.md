@@ -92,11 +92,16 @@
 >* Use DirectTesselator by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/19 (1.4.1)
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.1.0
+# Updated - Angelica - 1.0.0-beta66b --> 2.1.1
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.0
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.1
 
 ## What's Changed:
+>* Optimize fontrenderer by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1447 (2.1.1)
+>* Invert Horizon and Terrain Fog toggles by @Caedis in https://github.com/GTNewHorizons/Angelica/pull/1454 (2.1.1)
+>* Update buildscript with latest lwjgl3ify fixes by @eigenraven in https://github.com/GTNewHorizons/Angelica/pull/1456 (2.1.1)
+>* Add MixinWavefrontObject back by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1452 (2.1.1)
+>* Core followups by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1445 (2.1.1)
 >* add shouldTransform & make it significantly faster by @danyadev in https://github.com/GTNewHorizons/Angelica/pull/1433 (2.1.0)
 >* Remove boxing unboxing in RenderPassHelper by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/1438 (2.1.0)
 >* Replace framebufferRender with a VBO by @sisyphussy in https://github.com/GTNewHorizons/Angelica/pull/1432 (2.1.0)
@@ -686,6 +691,12 @@ Mod is client-side only.
 >* Fix: corrected textures and removed flickering. issue 21220 by @cambech in https://github.com/GTNewHorizons/Chisel/pull/67 (2.17.1-GTNH)
 >* Update description key by @cambech in https://github.com/GTNewHorizons/Chisel/pull/66 (2.17.0-GTNH)
 
+# Updated - CodeChickenCore - 1.4.10 --> 1.4.11
+**Full Changelog**: https://github.com/GTNewHorizons/CodeChickenCore/compare/1.4.10...1.4.11
+
+## What's Changed:
+>* optimize ClassHeirachyManager by @danyadev in https://github.com/GTNewHorizons/CodeChickenCore/pull/42 (1.4.11)
+
 # Updated - Computronics - 1.9.3-GTNH --> 1.9.4-GTNH
 **Full Changelog**: https://github.com/GTNewHorizons/Computronics/compare/1.9.3-GTNH...1.9.4-GTNH
 
@@ -908,10 +919,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.334
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.334
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.337
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.337
 
 ## What's Changed:
+>* Small fixes for the LES by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6021 (5.09.52.337)
+>* remove QC wireless mode and fix wireless computation by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5847 (5.09.52.337)
+>* Fix waterline only starting every other cycle by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6051 (5.09.52.337)
+>* Fix "Cannot Open Research Station since Daily 399" by @SST-03 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6057 (5.09.52.337)
+>* Chat message localization - 20260117 by @Discreater in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5719 (5.09.52.337)
 >* Fix singleblock GUI not running until the gui is closed by @Caedis in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6058 (5.09.52.334)
 >* Optimize Images by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6052 (5.09.52.332)
 >* Add Vis-Regulated Maintenance Hatch by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6022 (5.09.52.332)
@@ -1893,10 +1909,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.89
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.89
+# Updated - Hodgepodge - 2.6.112 --> 2.7.90
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.90
 
 ## What's Changed:
+>* Fix forge config memory bomb by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/775 (2.7.90)
 >* disable ForgeEventSubscriptionTransformer for now because it breaks angelica by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/774 (2.7.89)
 >* Prevent grass tick from loading nearby chunks by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/771 (2.7.87)
 >* disable CoFHAccessTransformer by @danyadev in https://github.com/GTNewHorizons/Hodgepodge/pull/769 (2.7.86)
@@ -3119,7 +3136,9 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add tooltips for Iron Chest item variants by @Eldrinn-Elantey in https://github.com/GTNewHorizons/ironchest/pull/35 (6.1.8)
 >* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/ironchest/pull/34 (6.1.7)
 
-# Updated - lwjgl3ify - 2.1.16 --> 3.0.14
+# Updated - lwjgl3ify - 2.1.16 --> 3.0.15
+**Full Changelog**: https://github.com/GTNewHorizons/lwjgl3ify/compare/2.1.16...3.0.15
+
 ## What's Changed:
 >* Update Java Version in `version.json` by @glowredman in https://github.com/GTNewHorizons/lwjgl3ify/pull/306 (3.0.9)
 >* fix warning about stb mixin being printed when running server by @mist475 in https://github.com/GTNewHorizons/lwjgl3ify/pull/301 (3.0.7)
