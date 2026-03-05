@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
-  "last_version": "2.8.4",
-  "last_updated": "2026-03-04T17:00:36.382462",
-  "config": "2.9.0-nightly-2026-03-04",
+  "last_version": "previous_daily",
+  "last_updated": "2026-03-05T12:03:09.850783",
+  "config": "2.9.0-nightly-2026-03-04-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.12-GTNH",
@@ -29,11 +29,11 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-852-GTNH",
+      "version": "rv3-beta-855-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.12.7",
+      "version": "1.12.8",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.16",
+      "version": "2.6.17",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -113,7 +113,7 @@
       "side": "BOTH"
     },
     "Chisel": {
-      "version": "2.17.19-GTNH",
+      "version": "2.17.20-GTNH",
       "side": "BOTH"
     },
     "ChiselTones": {
@@ -149,7 +149,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.7.17",
+      "version": "1.7.18",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -197,7 +197,7 @@
       "side": "BOTH"
     },
     "Gadomancy": {
-      "version": "1.5.8",
+      "version": "1.5.9",
       "side": "BOTH"
     },
     "Galacticraft": {
@@ -205,7 +205,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.127-GTNH",
+      "version": "1.1.128-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.330",
+      "version": "5.09.52.334",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.34",
+      "version": "0.9.36",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.84",
+      "version": "2.7.89",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "ironchest": {
-      "version": "6.1.10",
+      "version": "6.1.11",
       "side": "BOTH"
     },
     "IronChestMinecarts": {
@@ -293,7 +293,7 @@
       "side": "BOTH"
     },
     "MagicBees": {
-      "version": "2.10.4-GTNH",
+      "version": "2.10.5-GTNH",
       "side": "BOTH"
     },
     "MalisisDoors": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.8.15",
+      "version": "1.8.16",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.160",
+      "version": "2.8.162",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -353,7 +353,7 @@
       "side": "BOTH"
     },
     "Nuclear-Control": {
-      "version": "2.7.6",
+      "version": "2.7.7",
       "side": "BOTH"
     },
     "oauth": {
@@ -413,7 +413,7 @@
       "side": "BOTH"
     },
     "RemoteIO": {
-      "version": "2.7.6",
+      "version": "2.7.7",
       "side": "BOTH"
     },
     "Roguelike-Dungeons": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.19",
+      "version": "2.7.21",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -585,7 +585,7 @@
       "side": "BOTH"
     },
     "WitcheryExtras": {
-      "version": "1.4.7",
+      "version": "1.4.9",
       "side": "BOTH"
     },
     "WitchingGadgets": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "Battlegear2-for-Backhand": {
-      "version": "1.6.6-backhand",
+      "version": "1.6.7-backhand",
       "side": "BOTH"
     },
     "Backhand": {
@@ -793,7 +793,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.48",
+      "version": "0.4.49",
       "side": "BOTH"
     },
     "Freecam": {
@@ -809,7 +809,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.4",
+      "version": "2.0.5",
       "side": "BOTH"
     },
     "Fether": {
