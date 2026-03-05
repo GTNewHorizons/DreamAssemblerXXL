@@ -229,10 +229,11 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-853-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-853-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-854-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-854-GTNH
 
 ## What's Changed:
+>* Optimize Images by @UltraProdigy in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1112 (rv3-beta-854-GTNH)
 >* Fix item name localization on dedicated server by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1102 (rv3-beta-853-GTNH)
 >* Cache Enum.values() calls by @Alexdoru in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1109 (rv3-beta-852-GTNH)
 >* Enhanced Network Status Bar by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1105 (rv3-beta-851-GTNH)
@@ -722,10 +723,15 @@ Mod is client-side only.
 Mod is client-side only.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# New Mod - CropsNH:2.0.4
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.4
+# New Mod - CropsNH:2.0.5
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.5
 
 ## What's Changed:
+>* updated temp programmer art textures  by @june-dev-username in https://github.com/GTNewHorizons/CropsNH/pull/12 (2.0.5)
+>* forgot to add starwart texture because im forgetful silly billy by @june-dev-username in https://github.com/GTNewHorizons/CropsNH/pull/13 (2.0.5)
+>* Revert easter egg deletion by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/14 (2.0.5)
+>* Revert "updated temp programmer art textures " by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/15 (2.0.5)
+>* Down with the sickness by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/11 (2.0.5)
 >* Migration fix, magical night shade fix + rework, tooltip fixes, and farmland soil registry expansion by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/10 (2.0.4)
 >* Update build deps, nerf soul sand lily and buff oil brerry by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/9 (2.0.3)
 >* Patch 2.0.2 by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/8 (2.0.2)
@@ -900,10 +906,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.331
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.331
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.332
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.332
 
 ## What's Changed:
+>* Optimize Images by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6052 (5.09.52.332)
+>* Add Vis-Regulated Maintenance Hatch by @jude123412 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6022 (5.09.52.332)
+>* Readd distilled water support for the algae pond by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6053 (5.09.52.332)
 >* make recipe check start whenever any slot is changed in mui2 sb's by @chrombread in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6048 (5.09.52.331)
 >* Fix Molecular Transformer`s coils light by @NeutronSelector in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6049 (5.09.52.330)
 >* cache OutputBusType#values() by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6047 (5.09.52.329)
@@ -1744,10 +1753,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/27 (1.4.9)
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.9.35
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.35
+# Updated - GTNHLib - 0.7.10 --> 0.9.36
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.36
 
 ## What's Changed:
+>* Fix allocations of mixins @WrapMethod in MixinModelFHC by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/298 (0.9.36)
 >* fix transformer exclusions by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/294 (0.9.35)
 >* Fix EIr only passing the replacements once per world restart by @LazyFleshWasTaken in https://github.com/GTNewHorizons/GTNHLib/pull/296 (0.9.34)
 >* Fix HeadlessException in BloomShader by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/293 (0.9.33)
@@ -1849,10 +1859,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Remove duplicate parachute dyeing recipes by @KenzoWVY in https://github.com/GTNewHorizons/Galacticraft/pull/114 (3.4.4-GTNH)
 >* Changes for the GT ore refactor by @RecursivePineapple in https://github.com/GTNewHorizons/Galacticraft/pull/111 (3.4.2-GTNH)
 
-# Updated - Galaxy-Space-GTNH - 1.1.121-GTNH --> 1.1.127-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.121-GTNH...1.1.127-GTNH
+# Updated - Galaxy-Space-GTNH - 1.1.121-GTNH --> 1.1.128-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.121-GTNH...1.1.128-GTNH
 
 ## What's Changed:
+>* Prevent grass tick from loading nearby chunks by @Alexdoru in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/142 (1.1.128-GTNH)
 >* fix meta of ItemBlockTerraformableMeta by @Alexdoru in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/141 (1.1.127-GTNH)
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/139 (1.1.126-GTNH)
 >* Remove broken Holiday Message by @glowredman in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/140 (1.1.124-GTNH)
@@ -1879,10 +1890,13 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.85
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.85
+# Updated - Hodgepodge - 2.6.112 --> 2.7.87
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.87
 
 ## What's Changed:
+>* Prevent grass tick from loading nearby chunks by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/771 (2.7.87)
+>* disable CoFHAccessTransformer by @danyadev in https://github.com/GTNewHorizons/Hodgepodge/pull/769 (2.7.86)
+>* a transformer to optimize FML EventSubscriptionTransformer by @danyadev in https://github.com/GTNewHorizons/Hodgepodge/pull/768 (2.7.86)
 >* fix Witchery Enum#values() spam by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/767 (2.7.85)
 >* Replace Enum.values() calls in forge configuration Property$Type by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/763 (2.7.84)
 >* Move debug mixins to debug package + add readme notice about the JVM args by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/762 (2.7.83)
@@ -2261,10 +2275,11 @@ Mod is client-side only.
 >* fix redwood saplings growing without 7x7 field by @Morilli in https://github.com/GTNewHorizons/Natura/pull/37 (2.8.15)
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.160
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.160
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.161
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.161
 
 ## What's Changed:
+>* Even more Recipe Fixes by @glowredman in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1631 (2.8.161)
 >* Removes Recipes For IC2 Cropnalyzer & Weeding Trowel  by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1629 (2.8.160)
 >* Missing Pams Nether Ignis Fruit by @Caedis in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1628 (2.8.159)
 >* Remove API.hideitem calls by @RSCCV in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1627 (2.8.158)
@@ -2504,10 +2519,11 @@ Mod is client-side only.
 >* Restore NEIModContainer public plugins field by @PLASMAchicken in https://github.com/GTNewHorizons/NotEnoughItems/pull/829 (2.8.47-GTNH)
 >* Add tooltip for "Required Crafts" with shift by @Emilgardis in https://github.com/GTNewHorizons/NotEnoughItems/pull/810 (2.8.47-GTNH)
 
-# Updated - Nuclear-Control - 2.6.20 --> 2.7.6
-**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.20...2.7.6
+# Updated - Nuclear-Control - 2.6.20 --> 2.7.7
+**Full Changelog**: https://github.com/GTNewHorizons/Nuclear-Control/compare/2.6.20...2.7.7
 
 ## What's Changed:
+>* Adapt to AE2 changes to fix compile by @Kogepan229 in https://github.com/GTNewHorizons/Nuclear-Control/pull/38 (2.7.7)
 >* Update ItemCard55Reactor.java by @Blubstr in https://github.com/GTNewHorizons/Nuclear-Control/pull/37 (2.7.6)
 >* fix overflow by @MeiTianyou in https://github.com/GTNewHorizons/Nuclear-Control/pull/36 (2.7.5)
 >* Gui Titles localization and optional color localization by @Ranzuu in https://github.com/GTNewHorizons/Nuclear-Control/pull/35 (2.7.4)
@@ -2626,6 +2642,12 @@ Mod is client-side only.
 
 ## What's Changed:
 >* Bump buildscript, update deps, and add Optimizations by @mitchej123 in https://github.com/GTNewHorizons/Realistic-World-Gen/pull/17 (alpha-1.5.2)
+
+# Updated - RemoteIO - 2.7.6 --> 2.7.7
+**Full Changelog**: https://github.com/GTNewHorizons/RemoteIO/compare/2.7.6...2.7.7
+
+## What's Changed:
+>* prevent TileMachineReservoir#update from loading chunks when looking up blocks by @Alexdoru in https://github.com/GTNewHorizons/RemoteIO/pull/25 (2.7.7)
 
 # Updated - SC2 - 2.3.12 --> 2.3.13
 **Full Changelog**: https://github.com/GTNewHorizons/SC2/compare/2.3.12...2.3.13
