@@ -284,10 +284,12 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-856-GTNH-pre
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-856-GTNH-pre
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-858-GTNH-pre
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-858-GTNH-pre
 
 ## What's Changed:
+>* Use byte type for Stack Type network id by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1111 (rv3-beta-858-GTNH-pre)
+>* Use byte type for Stack Type network id by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1111 (rv3-beta-857-GTNH)
 >* Optimising images contained in spatial-🪐🪐🪐🪐 for #1035 by @github-actions[bot] in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1067 (rv3-beta-856-GTNH-pre)
 >* Optimize Images by @UltraProdigy in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1112 (rv3-beta-854-GTNH)
 >* Fix item name localization on dedicated server by @Eldrinn-Elantey in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1102 (rv3-beta-853-GTNH)
@@ -1070,10 +1072,15 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.338-pre
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.338-pre
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.340-pre
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.340-pre
 
 ## What's Changed:
+>* Spotless apply for branch armors for #4065 by @github-actions[bot] in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6061 (5.09.52.340-pre)
+>* fix cache loading from NBT me outputs by @lc-1337 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6054 (5.09.52.340-pre)
+>* ME Outputs improvments by @lc-1337 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6063 (5.09.52.340-pre)
+>* fix cache loading from NBT me outputs by @lc-1337 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6054 (5.09.52.339)
+>* ME Outputs improvments by @lc-1337 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6063 (5.09.52.339)
 >* remove QC wireless mode and fix wireless computation by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5847 (5.09.52.338-pre)
 >* Fix waterline only starting every other cycle by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6051 (5.09.52.338-pre)
 >* Fix "Cannot Open Research Station since Daily 399" by @SST-03 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6057 (5.09.52.338-pre)
