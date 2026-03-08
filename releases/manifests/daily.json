@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-08T03:38:56.449548",
+  "last_updated": "2026-03-08T04:56:53.750942",
   "config": "2.9.0-nightly-2026-03-06",
   "github_mods": {
     "AdventureBackpack2": {
@@ -85,7 +85,7 @@
       "side": "BOTH"
     },
     "BloodMagic": {
-      "version": "1.8.13",
+      "version": "1.8.14",
       "side": "BOTH"
     },
     "Botania": {
@@ -325,7 +325,7 @@
       "side": "BOTH"
     },
     "nei-custom-diagram": {
-      "version": "1.8.16",
+      "version": "1.8.17",
       "side": "BOTH"
     },
     "NEI-Integration": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.73-GTNH",
+      "version": "2.8.74-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -521,7 +521,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.32-GTNH",
+      "version": "1.14.34-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "Baubles-Expanded": {
-      "version": "2.2.9-GTNH",
+      "version": "2.2.11-GTNH",
       "side": "BOTH"
     },
     "Postea": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.14-GTNH",
+      "version": "0.1.15-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {

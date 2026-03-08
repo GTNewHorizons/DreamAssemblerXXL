@@ -498,10 +498,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Allow Quiver in bauble slot by @Kynake in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/10 (1.6.3-backhand)
 >* Allow Thaumcraft's Primal Arrows to be used from the Quiver by @Kynake in https://github.com/GTNewHorizons/Battlegear2-for-Backhand/pull/11 (1.6.2-backhand)
 
-# Updated - Baubles-Expanded - 2.1.19-GTNH --> 2.2.9-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.1.19-GTNH...2.2.9-GTNH
+# Updated - Baubles-Expanded - 2.1.19-GTNH --> 2.2.11-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Baubles-Expanded/compare/2.1.19-GTNH...2.2.11-GTNH
 
 ## What's Changed:
+>* Infinite Bauble Slots by @koolkrafter5 in https://github.com/GTNewHorizons/Baubles-Expanded/pull/28 (2.2.11-GTNH)
 >* Added Empty/Unused Slot texture/Quick Docs on old layout by @Ranzuu in https://github.com/GTNewHorizons/Baubles-Expanded/pull/27 (2.2.9-GTNH)
 >* Implement multi-column logic by @FourIsTheNumber in https://github.com/GTNewHorizons/Baubles-Expanded/pull/26 (2.2.8-GTNH)
 >* Handle tooltip for "universal" type baubles correctly by @Kynake in https://github.com/GTNewHorizons/Baubles-Expanded/pull/24 (2.2.6-GTNH)
@@ -616,10 +617,11 @@ Mod is client-side only.
 >* Fix overenchanting by @Caedis in https://github.com/GTNewHorizons/BloodArsenal/pull/36 (1.5.0)
 >* Revert "Fix overenchanting (#36)" by @koolkrafter5 in https://github.com/GTNewHorizons/BloodArsenal/pull/37 (1.5.0)
 
-# Updated - BloodMagic - 1.7.52 --> 1.8.13
-**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.52...1.8.13
+# Updated - BloodMagic - 1.7.52 --> 1.8.14
+**Full Changelog**: https://github.com/GTNewHorizons/BloodMagic/compare/1.7.52...1.8.14
 
 ## What's Changed:
+>* Optimize Image & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/BloodMagic/pull/123 (1.8.14)
 >* Made lava sigil not damaging self during craft in conformity with water sigil by @kopatych3348 in https://github.com/GTNewHorizons/BloodMagic/pull/121 (1.8.13)
 >* Update BS & Deps by @UltraProdigy in https://github.com/GTNewHorizons/BloodMagic/pull/122 (1.8.13)
 >* Localized Meteor Cost Info (NEI) by @Ranzuu in https://github.com/GTNewHorizons/BloodMagic/pull/120 (1.8.12)
@@ -2219,10 +2221,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Separated tile vs gui title string in lang by @Ranzuu in https://github.com/GTNewHorizons/MalisisDoors/pull/24 (1.19.2-GTNH)
 >* Small thread-safety fix to prevent certain NullPointers by @Cleptomania in https://github.com/GTNewHorizons/MalisisDoors/pull/23 (1.19.0-GTNH)
 
-# Updated - MatterManipulator - 0.0.51-GTNH --> 0.1.14-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.51-GTNH...0.1.14-GTNH
+# Updated - MatterManipulator - 0.0.51-GTNH --> 0.1.15-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.51-GTNH...0.1.15-GTNH
 
 ## What's Changed:
+>* optimize DeMemberator by @danyadev in https://github.com/GTNewHorizons/MatterManipulator/pull/24 (0.1.15-GTNH)
 >* Fix compat with CAL by @boubou19 in https://github.com/GTNewHorizons/MatterManipulator/pull/21 (0.1.14-GTNH)
 >* feat: support MEOutput cacheMode and checkMode. by @hinyb in https://github.com/GTNewHorizons/MatterManipulator/pull/22 (0.1.12-GTNH)
 >* Localize tooltips by @Discreater in https://github.com/GTNewHorizons/MatterManipulator/pull/18 (0.1.10-GTNH)
@@ -2568,10 +2571,12 @@ Mod is client-side only.
 >* Restore tooltips on Pattern Terminal Gui by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/55 (1.7.19)
 >* Universal gui by @lc-1337 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/53 (1.7.18)
 
-# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.73-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.73-GTNH
+# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.74-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.74-GTNH
 
 ## What's Changed:
+>* Add Favorite Item Support by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/880 (2.8.74-GTNH)
+>* fix glColor4f; disabled generateSingleRecipeFavorites by default by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/884 (2.8.74-GTNH)
 >* Optimize images by @UltraProdigy in https://github.com/GTNewHorizons/NotEnoughItems/pull/883 (2.8.73-GTNH)
 >* Always Show Recipe Ingredients Overlay by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/878 (2.8.72-GTNH)
 >* Remove Generated Favorites from Accepts Followings Tooltip by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/873 (2.8.71-GTNH)
@@ -2952,10 +2957,11 @@ Mod is client-side only.
 # Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.30
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.32-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.32-GTNH
+# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.34-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.34-GTNH
 
 ## What's Changed:
+>* Optimize Image & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/TinkersConstruct/pull/261 (1.14.34-GTNH)
 >* Fixes Inventory Tab Pixels by @Ranzuu in https://github.com/GTNewHorizons/TinkersConstruct/pull/259 (1.14.32-GTNH)
 >* Added optional Nei color localization by @Ranzuu in https://github.com/GTNewHorizons/TinkersConstruct/pull/254 (1.14.32-GTNH)
 >* fix the shift left click transfer function in Stencil Table by @MCTBL in https://github.com/GTNewHorizons/TinkersConstruct/pull/255 (1.14.30-GTNH)
@@ -3229,10 +3235,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* update by @RecursivePineapple in https://github.com/GTNewHorizons/lwjgl3ify/pull/249 (2.1.18)
 >* Properly fix mouse shift bug on retina displays and preserve HiDPI framebuffer by @danyadev in https://github.com/GTNewHorizons/lwjgl3ify/pull/244 (2.1.17)
 
-# Updated - nei-custom-diagram - 1.7.5 --> 1.8.16
-**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.7.5...1.8.16
+# Updated - nei-custom-diagram - 1.7.5 --> 1.8.17
+**Full Changelog**: https://github.com/GTNewHorizons/nei-custom-diagram/compare/1.7.5...1.8.17
 
 ## What's Changed:
+>* Added documentation for previous pr by @TheYoingLad in https://github.com/GTNewHorizons/nei-custom-diagram/pull/65 (1.8.17)
 >* Added missing components to the ore processing diagram by @TheYoingLad in https://github.com/GTNewHorizons/nei-custom-diagram/pull/63 (1.8.16)
 >* cache enum values by @Alexdoru in https://github.com/GTNewHorizons/nei-custom-diagram/pull/64 (1.8.15)
 >* Remove fluid canner map refs by @FourIsTheNumber in https://github.com/GTNewHorizons/nei-custom-diagram/pull/62 (1.8.12)
