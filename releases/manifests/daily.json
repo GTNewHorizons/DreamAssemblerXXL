@@ -815,6 +815,10 @@
     "Fether": {
       "version": "2.0.4",
       "side": "BOTH"
+    },
+    "AspectRecipeIndex": {
+      "version": "1.0.0",
+      "side": "BOTH"
     }
   },
   "external_mods": {
