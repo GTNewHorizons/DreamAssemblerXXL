@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-08T04:56:53.750942",
+  "last_updated": "2026-03-09T05:06:52.083566",
   "config": "2.9.0-nightly-2026-03-06",
   "github_mods": {
     "AdventureBackpack2": {
-      "version": "1.4.15-GTNH",
+      "version": "1.4.16-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.65-gtnh",
+      "version": "1.5.66-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,11 +29,11 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-857-GTNH",
+      "version": "rv3-beta-860-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.12.8",
+      "version": "1.12.9",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -41,11 +41,11 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.91",
+      "version": "1.92",
       "side": "BOTH"
     },
     "Avaritiaddons": {
-      "version": "1.9.3-GTNH",
+      "version": "1.9.4-GTNH",
       "side": "BOTH"
     },
     "bdlib": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.17",
+      "version": "2.6.19",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -81,7 +81,7 @@
       "side": "BOTH"
     },
     "BloodArsenal": {
-      "version": "1.5.5",
+      "version": "1.5.6",
       "side": "BOTH"
     },
     "BloodMagic": {
@@ -97,7 +97,7 @@
       "side": "BOTH"
     },
     "BuildCraft": {
-      "version": "7.1.55",
+      "version": "7.1.57",
       "side": "BOTH"
     },
     "BuildCraftCompat": {
@@ -105,7 +105,7 @@
       "side": "BOTH"
     },
     "CarpentersBlocks": {
-      "version": "3.7.1-GTNH",
+      "version": "3.7.2-GTNH",
       "side": "BOTH"
     },
     "Catwalks-2": {
@@ -129,7 +129,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.4.8-GTNH",
+      "version": "1.4.9-GTNH",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -149,7 +149,7 @@
       "side": "BOTH"
     },
     "Electro-Magic-Tools": {
-      "version": "1.7.18",
+      "version": "1.7.19",
       "side": "BOTH"
     },
     "EnderCore": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.7.2",
+      "version": "1.7.3",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.342",
+      "version": "5.09.52.343",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.95",
+      "version": "2.7.96",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -281,7 +281,7 @@
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.5.14-GTNH",
+      "version": "1.5.16-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.162",
+      "version": "2.8.165",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -405,7 +405,7 @@
       "side": "BOTH"
     },
     "Railcraft": {
-      "version": "9.17.23",
+      "version": "9.17.24",
       "side": "BOTH"
     },
     "Realistic-World-Gen": {
@@ -501,7 +501,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.31-GTNH",
+      "version": "1.7.32-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -757,7 +757,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.48-GTNH",
+      "version": "1.1.49-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -809,7 +809,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.6",
+      "version": "2.0.8",
       "side": "BOTH"
     },
     "Fether": {
@@ -817,7 +817,7 @@
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.0.0",
+      "version": "1.0.2",
       "side": "BOTH"
     }
   },
