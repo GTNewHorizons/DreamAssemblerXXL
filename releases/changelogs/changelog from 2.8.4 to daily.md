@@ -1881,10 +1881,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/27 (1.4.9)
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.9.39
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.39
+# Updated - GTNHLib - 0.7.10 --> 0.9.40
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.40
 
 ## What's Changed:
+>* Fix Block Icon Wrapper conditional to instanceof ModelISBRH by @Shigure-Ruiseki in https://github.com/GTNewHorizons/GTNHLib/pull/302 (0.9.40)
 >* Font rendering MC parity by @DeathFuel in https://github.com/GTNewHorizons/GTNHLib/pull/300 (0.9.39)
 >* Fix block crash in postInit by @sisyphussy in https://github.com/GTNewHorizons/GTNHLib/pull/301 (0.9.38)
 >* Implement blockstate to Json Model by @Shigure-Ruiseki in https://github.com/GTNewHorizons/GTNHLib/pull/295 (0.9.37)
@@ -2841,11 +2842,10 @@ Mod is client-side only.
 >* Localization of gui elements by @Ranzuu in https://github.com/GTNewHorizons/SGCraft/pull/21 (1.4.7-GTNH)
 
 # Updated - Salis-Arcana - 1.1.33-GTNH --> 1.1.49-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/commits/1.1.49-GTNH/compare/1.1.33-GTNH...1.1.49-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.33-GTNH...1.1.49-GTNH
 
 ## What's Changed:
->* Sync with upstream  by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Salis-Arcana/pull/2 (1.1.49-GTNH)
-
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - ServerUtilities - 2.2.2 --> 2.2.18
 **Full Changelog**: https://github.com/GTNewHorizons/ServerUtilities/compare/2.2.2...2.2.18
 
