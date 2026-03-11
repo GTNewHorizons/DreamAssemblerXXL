@@ -310,7 +310,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Catwalks-2](https://github.com/GTNewHorizons/Catwalks-2) | 2.4.0-GTNH |
 | [Chisel](https://github.com/GTNewHorizons/Chisel) | 2.17.20-GTNH |
 | [ChiselTones](https://github.com/GTNewHorizons/ChiselTones) | 1.2.0-GTNH |
-| [Chunk API](https://www.curseforge.com/minecraft/mc-mods/chunkapi/) | 0.8.1 |
+| [Chunk API](https://www.curseforge.com/minecraft/mc-mods/chunkapi/) | 0.8.2 |
 | [CodeChickenCore](https://github.com/GTNewHorizons/CodeChickenCore) | 1.4.12 |
 | [CoFH Core](https://www.curseforge.com/minecraft/mc-mods/cofh-core) | 3.1.4-329 |
 | [Compact Kinetic Generators](https://forum.industrial-craft.net/thread/12724-ic2-exp-1-7-10-compact-kinetic-generators/) | 1.0 |
