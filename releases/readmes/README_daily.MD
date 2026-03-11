@@ -357,7 +357,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [GregoryTweaksForCrafting](https://github.com/GTNewHorizons/GregoryTweaksForCrafting) | 1.0.0 |
 | [GT5-Unofficial](https://github.com/GTNewHorizons/GT5-Unofficial) | 5.09.52.348 |
 | [GTNH-TC-Wands](https://github.com/GTNewHorizons/GTNH-TC-Wands) | 1.4.10 |
-| [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.9.39 |
+| [GTNHLib](https://github.com/GTNewHorizons/GTNHLib) | 0.9.40 |
 | [Hardcore-Ender-Expansion](https://github.com/GTNewHorizons/Hardcore-Ender-Expansion) | 1.12.20-GTNH |
 | [harvestcraft](https://github.com/GTNewHorizons/harvestcraft) | 1.3.10-GTNH |
 | [Healer](https://www.curseforge.com/minecraft/mc-mods/healer) | 1.2.1 |
