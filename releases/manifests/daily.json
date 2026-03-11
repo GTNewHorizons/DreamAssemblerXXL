@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-10T04:55:28.862868",
-  "config": "2.9.0-nightly-2026-03-09",
+  "last_updated": "2026-03-11T04:56:43.986413",
+  "config": "2.9.0-nightly-2026-03-10",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.16-GTNH",
@@ -121,11 +121,11 @@
       "side": "BOTH"
     },
     "CodeChickenCore": {
-      "version": "1.4.11",
+      "version": "1.4.12",
       "side": "BOTH"
     },
     "Computronics": {
-      "version": "1.9.4-GTNH",
+      "version": "1.9.5-GTNH",
       "side": "BOTH"
     },
     "CookingForBlockheads": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "ForbiddenMagic": {
-      "version": "0.9.12-GTNH",
+      "version": "0.9.13-GTNH",
       "side": "BOTH"
     },
     "ForestryMC": {
@@ -201,11 +201,11 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.19-GTNH",
+      "version": "3.4.20-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.129-GTNH",
+      "version": "1.1.130-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -213,11 +213,11 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.345",
+      "version": "5.09.52.348",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
-      "version": "1.4.9",
+      "version": "1.4.10",
       "side": "BOTH"
     },
     "GTNHLib": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.97",
+      "version": "2.7.98",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -305,7 +305,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.6.9-GTNH",
+      "version": "2.6.10-GTNH",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.166",
+      "version": "2.8.168",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.25",
+      "version": "1.7.26",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -501,7 +501,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.33-GTNH",
+      "version": "1.7.34-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -521,7 +521,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.34-GTNH",
+      "version": "1.14.35-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -677,7 +677,7 @@
       "side": "BOTH_JAVA9"
     },
     "amunra": {
-      "version": "0.8.7",
+      "version": "0.8.8",
       "side": "BOTH"
     },
     "DuraDisplay": {
@@ -725,7 +725,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.2",
+      "version": "2.1.3",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -745,7 +745,7 @@
       "side": "BOTH"
     },
     "Postea": {
-      "version": "1.2.3",
+      "version": "1.2.4",
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
@@ -809,7 +809,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.9",
+      "version": "2.0.11",
       "side": "BOTH"
     },
     "Fether": {
@@ -817,7 +817,7 @@
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.0.2",
+      "version": "1.0.4",
       "side": "BOTH"
     }
   },
