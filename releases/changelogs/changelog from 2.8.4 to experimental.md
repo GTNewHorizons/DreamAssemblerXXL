@@ -1,4 +1,5 @@
 # New Mods: 
+> * AspectRecipeIndex
 > * Chunk API
 > * CropsNH
 > * EndlessIDs
@@ -17,6 +18,7 @@
 > * IC2 Crop-Breeding Plugin
 > * NotEnoughIds
 > * Pam's Harvest the Nether
+> * Thaumcraft NEI Plugin
 # Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.66-gtnh
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.66-gtnh
 
@@ -578,6 +580,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* delete empty event class by @Alexdoru in https://github.com/GTNewHorizons/AsieLib/pull/5 (0.7.1)
 
+# New Mod - AspectRecipeIndex:1.0.4
+**Full Changelog**: https://github.com/GTNewHorizons/AspectRecipeIndex/compare/1.0.0...1.0.4
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - Avaritia - 1.77 --> 1.92
 **Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.77...1.92
 
@@ -3515,11 +3522,6 @@ Mod is client-side only.
 >* Rebalance Falling and Flying Speed by @SST-03 in https://github.com/GTNewHorizons/Tainted-Magic/pull/41 (7.7.2-GTNH)
 
 # Updated - Thaumcraft - 4.2.3.5a --> 4.2.3.5
-## What's Changed:
-DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Thaumcraft NEI Plugin - 1.7a --> 1.7a
-Mod side changed from on both sides to Side.NONE.
-Mod is Side.NONE.
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - ThaumicBases - 1.8.13 --> 1.9.9-pre
