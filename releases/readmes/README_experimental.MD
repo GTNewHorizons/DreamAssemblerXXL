@@ -453,7 +453,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.1.4 |
 | [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.7.4-GTNH |
 | [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.43 |
-| [TCNEIAdditions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.5.14-pre |
 | [TCNodeTracker](https://github.com/GTNewHorizons/TCNodeTracker) | 1.4.2 |
 | [thaumcraft-research-tweaks](https://github.com/GTNewHorizons/thaumcraft-research-tweaks) | 1.3.0 |
 | [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) | 4.2.3.5 |
