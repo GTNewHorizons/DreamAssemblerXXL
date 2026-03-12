@@ -18,6 +18,7 @@
 > * IC2 Crop-Breeding Plugin
 > * NotEnoughIds
 > * Pam's Harvest the Nether
+> * TCNEIAdditions
 > * Thaumcraft NEI Plugin
 # Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.66-gtnh
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.66-gtnh
@@ -3487,16 +3488,6 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 # Updated - TC-4-Tweaks - 1.5.39 --> 1.5.43
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TCNEIAdditions - 1.5.4 --> 1.5.14-pre
-**Full Changelog**: https://github.com/GTNewHorizons/TCNEIAdditions/compare/1.5.4...1.5.14-pre
-
-## What's Changed:
->* fix aspect shift in tooltips by @danyadev in https://github.com/GTNewHorizons/TCNEIAdditions/pull/39 (1.5.14-pre)
->* fix aspect shift in tooltips by @danyadev in https://github.com/GTNewHorizons/TCNEIAdditions/pull/39 (1.5.13)
->* Show aspects in tooltip by @slprime in https://github.com/GTNewHorizons/TCNEIAdditions/pull/33 (1.5.11)
->* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/TCNEIAdditions/pull/35 (1.5.7-pre)
->* delete useless event registration by @Alexdoru in https://github.com/GTNewHorizons/TCNEIAdditions/pull/35 (1.5.6)
-
 # Updated - TCNodeTracker - 1.4.0 --> 1.4.2
 Mod is client-side only.
 **Full Changelog**: https://github.com/GTNewHorizons/TCNodeTracker/compare/1.4.0...1.4.2
