@@ -14,6 +14,7 @@
 > * Crops-plus-plus
 > * IC2 Crop-Breeding Plugin
 > * Pam's Harvest the Nether
+> * Thaumcraft NEI Plugin
 # Updated - AE2FluidCraft-Rework - 1.4.120-gtnh --> 1.5.66-gtnh
 **Full Changelog**: https://github.com/GTNewHorizons/AE2FluidCraft-Rework/compare/1.4.120-gtnh...1.5.66-gtnh
 
@@ -2440,10 +2441,12 @@ Mod is client-side only.
 >* fix redwood saplings growing without 7x7 field by @Morilli in https://github.com/GTNewHorizons/Natura/pull/37 (2.8.15)
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.170
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.170
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.172
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.172
 
 ## What's Changed:
+>* Fix research names for dreamwood wand/staff and bloodwood staff cores and rewrite dreamwood core pages by @koolkrafter5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1644 (2.8.172)
+>* Add contaminated singularity recipe by @loenaaaa in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1645 (2.8.172)
 >* Fix Sandy Brick Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1643 (2.8.170)
 >* Remove Dupe Stone Plate Recipe & Recipe Collision  by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1642 (2.8.168)
 >* Ore dict color upgrade by @Eldrinn-Elantey in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1638 (2.8.167)
@@ -3114,10 +3117,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 # Updated - UniMixins - 0.1.23 --> 0.2.1
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Universal-Singularities - 8.10.0 --> 8.14.0
-**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.10.0...8.14.0
+# Updated - Universal-Singularities - 8.10.0 --> 8.14.1
+**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.10.0...8.14.1
 
 ## What's Changed:
+>* Add Contaminated singularity by @loenaaaa in https://github.com/GTNewHorizons/Universal-Singularities/pull/17 (8.14.1)
 >* fix color of rose gold to match the gt one by @chrombread in https://github.com/GTNewHorizons/Universal-Singularities/pull/16 (8.14.0)
 >* Add Water Singularity by @UltraProdigy in https://github.com/GTNewHorizons/Universal-Singularities/pull/15 (8.13.0)
 >* adding new rubber singularities for an avaritia craft in eternal singularity by @3ricbae in https://github.com/GTNewHorizons/Universal-Singularities/pull/14 (8.12.0)
