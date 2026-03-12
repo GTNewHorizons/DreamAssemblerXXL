@@ -1,7 +1,7 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-03-12T05:01:19.199982",
+  "last_version": "2.8.4",
+  "last_updated": "2026-03-12T07:26:24.202573",
   "config": "2.9.0-nightly-2026-03-10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -844,10 +844,6 @@
     },
     "Witchery": {
       "version": "0.24.1",
-      "side": "BOTH"
-    },
-    "Thaumcraft NEI Plugin": {
-      "version": "1.7a",
       "side": "BOTH"
     },
     "CoFH Core": {
