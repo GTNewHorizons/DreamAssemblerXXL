@@ -2436,10 +2436,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Remove duplicate parachute dyeing recipes by @KenzoWVY in https://github.com/GTNewHorizons/Galacticraft/pull/114 (3.4.4-GTNH)
 >* Changes for the GT ore refactor by @RecursivePineapple in https://github.com/GTNewHorizons/Galacticraft/pull/111 (3.4.2-GTNH)
 
-# Updated - Galaxy-Space-GTNH - 1.1.121-GTNH --> 1.1.130-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.121-GTNH...1.1.130-GTNH
+# Updated - Galaxy-Space-GTNH - 1.1.121-GTNH --> 1.1.131-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Galaxy-Space-GTNH/compare/1.1.121-GTNH...1.1.131-GTNH
 
 ## What's Changed:
+>* make ItemRocket#getRarity client side only to fix server crash by @Alexdoru in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/145 (1.1.131-GTNH)
 >* Schematics unification by @Ranzuu in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/144 (1.1.130-GTNH)
 >* replace multiple world.getblock calls with a single world.checkChunksExist call by @Alexdoru in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/143 (1.1.129-GTNH)
 >* Prevent grass tick from loading nearby chunks by @Alexdoru in https://github.com/GTNewHorizons/Galaxy-Space-GTNH/pull/142 (1.1.128-GTNH)
@@ -3690,8 +3691,8 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 # Updated - UniMixins - 0.1.23 --> 0.2.1
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - Universal-Singularities - 8.10.0 --> 8.14.1
-**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.10.0...8.14.1
+# Updated - Universal-Singularities - 8.10.0 --> 8.14.2
+**Full Changelog**: https://github.com/GTNewHorizons/Universal-Singularities/compare/8.10.0...8.14.2
 
 ## What's Changed:
 >* Add Contaminated singularity by @loenaaaa in https://github.com/GTNewHorizons/Universal-Singularities/pull/17 (8.14.1)
