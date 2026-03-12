@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
   "last_version": "2.8.4",
-  "last_updated": "2026-03-12T07:26:24.202573",
+  "last_updated": "2026-03-12T19:35:20.296520",
   "config": "2.9.0-nightly-2026-03-10",
   "github_mods": {
     "AdventureBackpack2": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.170",
+      "version": "2.8.172",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -476,10 +476,6 @@
       "version": "1.1.4",
       "side": "BOTH"
     },
-    "TCNEIAdditions": {
-      "version": "1.5.13",
-      "side": "BOTH"
-    },
     "TCNodeTracker": {
       "version": "1.4.2",
       "side": "CLIENT"
@@ -545,7 +541,7 @@
       "side": "BOTH"
     },
     "Universal-Singularities": {
-      "version": "8.14.0",
+      "version": "8.14.1",
       "side": "BOTH"
     },
     "VisualProspecting": {

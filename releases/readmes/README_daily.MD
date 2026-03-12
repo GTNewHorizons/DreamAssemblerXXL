@@ -298,7 +298,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Binnie](https://github.com/GTNewHorizons/Binnie) | 2.6.19 |
 | [Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty) | 2.1.0.2308 |
 | [BlockLimiter](https://github.com/GTNewHorizons/BlockLimiter) | 0.7.0 |
-| [BlockRenderer6343](https://github.com/GTNewHorizons/BlockRenderer6343) | 1.4.5 |
+| [BlockRenderer6343](https://github.com/GTNewHorizons/BlockRenderer6343) | 1.4.6 |
 | [BloodArsenal](https://github.com/GTNewHorizons/BloodArsenal) | 1.5.6 |
 | [BloodMagic](https://github.com/GTNewHorizons/BloodMagic) | 1.8.14 |
 | [Botania](https://github.com/GTNewHorizons/Botania) | 1.13.16-GTNH |
@@ -350,7 +350,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Freecam](https://github.com/GTNewHorizons/Freecam) | 1.0.5 |
 | [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.5.9 |
 | [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.4.20-GTNH |
-| [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.1.130-GTNH |
+| [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.1.131-GTNH |
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.9.8-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.8 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
@@ -451,7 +451,6 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [supersolarpanels](https://github.com/GTNewHorizons/supersolarpanels) | 1.1.4 |
 | [Tainted-Magic](https://github.com/GTNewHorizons/Tainted-Magic) | 7.7.4-GTNH |
 | [TC-4-Tweaks](https://www.curseforge.com/minecraft/mc-mods/tc4tweaks) | 1.5.43 |
-| [TCNEIAdditions](https://github.com/GTNewHorizons/TCNEIAdditions) | 1.5.13 |
 | [TCNodeTracker](https://github.com/GTNewHorizons/TCNodeTracker) | 1.4.2 |
 | [thaumcraft-research-tweaks](https://github.com/GTNewHorizons/thaumcraft-research-tweaks) | 1.3.0 |
 | [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft) | 4.2.3.5 |
@@ -476,7 +475,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.8.9 |
 | [UniLib](https://legacy.curseforge.com/minecraft/mc-mods/unilib) | 1.2.1 |
 | [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.2.1 |
-| [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.14.1 |
+| [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.14.2 |
 | [VendingMachine](https://github.com/GTNewHorizons/VendingMachine) | 0.4.50 |
 | [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.5.17 |
 | [waila](https://github.com/GTNewHorizons/waila) | 1.19.22 |
