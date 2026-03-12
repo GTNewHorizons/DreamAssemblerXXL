@@ -276,6 +276,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Archaicfix](https://github.com/embeddedt/ArchaicFix) | 0.7.8 |
 | [ArchitectureCraft](https://github.com/GTNewHorizons/ArchitectureCraft) | 1.12.9 |
 | [AsieLib](https://github.com/GTNewHorizons/AsieLib) | 0.7.1 |
+| [AspectRecipeIndex](https://github.com/GTNewHorizons/AspectRecipeIndex) | 1.0.4 |
 | [Automagy](https://www.curseforge.com/minecraft/mc-mods/automagy) | 0.28.2 |
 | [Avaritia](https://github.com/GTNewHorizons/Avaritia) | 1.92 |
 | [Avaritiaddons](https://github.com/GTNewHorizons/Avaritiaddons) | 1.9.4-GTNH |
