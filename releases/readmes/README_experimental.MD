@@ -353,7 +353,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [Freecam](https://github.com/GTNewHorizons/Freecam) | 1.0.5 |
 | [Gadomancy](https://github.com/GTNewHorizons/Gadomancy) | 1.5.9 |
 | [Galacticraft](https://github.com/GTNewHorizons/Galacticraft) | 3.4.20-GTNH |
-| [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.1.130-GTNH |
+| [Galaxy-Space-GTNH](https://github.com/GTNewHorizons/Galaxy-Space-GTNH) | 1.1.131-GTNH |
 | [gendustry](https://github.com/GTNewHorizons/gendustry) | 1.9.8-GTNH |
 | [Gravitation-Suite-Neo](https://github.com/GTNewHorizons/Gravitation-Suite-Neo) | 1.3.8 |
 | [Gravitation-Suite-old](https://forum.industrial-craft.net/thread/6915-ic2-exp-1-7-10-gravitation-suite-v2-0-3/) | 2.0.3 |
@@ -477,7 +477,7 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 | [TX-Loader](https://github.com/GTNewHorizons/TX-Loader) | 1.8.9 |
 | [UniLib](https://legacy.curseforge.com/minecraft/mc-mods/unilib) | 1.2.1 |
 | [UniMixins](https://github.com/LegacyModdingMC/UniMixins) | 0.2.1 |
-| [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.14.1 |
+| [Universal-Singularities](https://github.com/GTNewHorizons/Universal-Singularities) | 8.14.2 |
 | [VendingMachine](https://github.com/GTNewHorizons/VendingMachine) | 0.4.50 |
 | [VisualProspecting](https://github.com/GTNewHorizons/VisualProspecting) | 1.5.17 |
 | [waila](https://github.com/GTNewHorizons/waila) | 1.19.22 |
