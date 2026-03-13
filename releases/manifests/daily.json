@@ -1,7 +1,7 @@
 {
   "version": "daily",
-  "last_version": "2.8.4",
-  "last_updated": "2026-03-12T21:57:02.351629",
+  "last_version": "previous_daily",
+  "last_updated": "2026-03-13T04:58:51.635993",
   "config": "2.9.0-nightly-2026-03-12",
   "github_mods": {
     "AdventureBackpack2": {
@@ -185,7 +185,7 @@
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.11.8",
+      "version": "4.11.9",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.350",
+      "version": "5.09.52.354",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.40",
+      "version": "0.9.41",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.0.4",
+      "version": "1.0.5",
       "side": "BOTH"
     }
   },
