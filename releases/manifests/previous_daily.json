@@ -1,7 +1,7 @@
 {
   "version": "previous_daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-03-14T11:22:59.217093",
+  "last_version": "2.8.4",
+  "last_updated": "2026-03-14T11:52:33.820549",
   "config": "2.9.0-nightly-2026-03-13",
   "github_mods": {
     "AdventureBackpack2": {
@@ -817,7 +817,7 @@
       "side": "BOTH"
     },
     "GTNH-Credits": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "side": "CLIENT"
     }
   },
