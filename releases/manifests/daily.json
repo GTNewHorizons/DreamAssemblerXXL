@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-14T11:55:46.093159",
+  "last_updated": "2026-03-14T17:32:23.879608",
   "config": "2.9.0-nightly-2026-03-13",
   "github_mods": {
     "AdventureBackpack2": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.358",
+      "version": "5.09.52.360",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.174",
+      "version": "2.8.176",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.34-GTNH",
+      "version": "1.7.35-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.15-GTNH",
+      "version": "0.1.16-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.51",
+      "version": "0.4.52",
       "side": "BOTH"
     },
     "Freecam": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.12",
+      "version": "2.0.13",
       "side": "BOTH"
     },
     "Fether": {
