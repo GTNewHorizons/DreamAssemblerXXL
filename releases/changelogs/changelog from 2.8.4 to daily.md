@@ -3,6 +3,7 @@
 > * CropsNH
 > * Fether
 > * Freecam
+> * GTNH-Credits
 > * GregoryTweaksForCrafting
 > * MouseTweaks
 > * RandomBoubles
@@ -565,11 +566,12 @@ Mod is client-side only.
 ## What's Changed:
 >* update buildscript by @danyadev in https://github.com/GTNewHorizons/BetterCrashes/pull/16 (1.4.1-GTNH)
 
-# Updated - BetterLoadingScreen - 1.7.2-GTNH --> 1.7.4-GTNH
+# Updated - BetterLoadingScreen - 1.7.2-GTNH --> 1.7.5-GTNH
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.7.2-GTNH...1.7.4-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterLoadingScreen/compare/1.7.2-GTNH...1.7.5-GTNH
 
 ## What's Changed:
+>* Fix resource packs being reset on startup (symlink packs included) by @Eldrinn-Elantey in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/31 (1.7.5-GTNH)
 >* Fix running in a headless Swing/AWT environment by @eigenraven in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/29 (1.7.4-GTNH)
 >* remove useless event registration by @Alexdoru in https://github.com/GTNewHorizons/BetterLoadingScreen/pull/28 (1.7.3-GTNH)
 
@@ -993,10 +995,11 @@ Mod is client-side only.
 >* Wand Cap and Core Refactor by @koolkrafter5 in https://github.com/GTNewHorizons/ForbiddenMagic/pull/18 (0.9.4-GTNH)
 >* Match burned out Profane Wand vis cost with non-burned out Wand by @PlayfulPiano in https://github.com/GTNewHorizons/ForbiddenMagic/pull/19 (0.9.0-GTNH)
 
-# Updated - ForestryMC - 4.10.17 --> 4.11.10
-**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.17...4.11.10
+# Updated - ForestryMC - 4.10.17 --> 4.11.11
+**Full Changelog**: https://github.com/GTNewHorizons/ForestryMC/compare/4.10.17...4.11.11
 
 ## What's Changed:
+>* Fix alveary climate change calculations by @TweksTY in https://github.com/GTNewHorizons/ForestryMC/pull/109 (4.11.11)
 >* BFS leaf decay by @Alexdoru in https://github.com/GTNewHorizons/ForestryMC/pull/111 (4.11.10)
 >* Prevent loading chunks while ticking blocks by @Alexdoru in https://github.com/GTNewHorizons/ForestryMC/pull/110 (4.11.9)
 >* Optimize Image & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/ForestryMC/pull/108 (4.11.8)
@@ -1025,10 +1028,11 @@ Mod is client-side only.
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.357
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.357
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.358
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.358
 
 ## What's Changed:
+>* Fix LSC rebalance button by @kx08 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6046 (5.09.52.358)
 >* use better hashing by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6065 (5.09.52.357)
 >* Add JavaDoc for GTUtility.translate by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6100 (5.09.52.357)
 >* Adds Field Engineer's Toolbox by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5906 (5.09.52.357)
@@ -1907,6 +1911,12 @@ Mod is client-side only.
 >* fix: Missing side check crash when hint is called on a frame (#5209) by @chochem in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5555 (5.09.51.483)
 >* Fix Tantalum Hafnium Carbide Material Stats for 2.8.4 by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5566 (5.09.51.483)
 
+# New Mod - GTNH-Credits:1.0.0
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-Credits/commits/1.0.0/compare/1.0.0...1.0.0
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - GTNH-TC-Wands - 1.4.6 --> 1.4.10
 **Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.6...1.4.10
 
@@ -3099,10 +3109,11 @@ Mod is client-side only.
 # Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.30
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.35-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.35-GTNH
+# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.37-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.37-GTNH
 
 ## What's Changed:
+>* AOE Tool harvest config + AOE Break logic enchancement by @LazyFleshWasTaken in https://github.com/GTNewHorizons/TinkersConstruct/pull/257 (1.14.37-GTNH)
 >* abomination to excitation by @Ranzuu in https://github.com/GTNewHorizons/TinkersConstruct/pull/263 (1.14.35-GTNH)
 >* Optimize Image & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/TinkersConstruct/pull/261 (1.14.34-GTNH)
 >* Fixes Inventory Tab Pixels by @Ranzuu in https://github.com/GTNewHorizons/TinkersConstruct/pull/259 (1.14.32-GTNH)
