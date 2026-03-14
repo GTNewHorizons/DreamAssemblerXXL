@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "2.8.4",
-  "last_updated": "2026-03-12T19:35:20.296520",
-  "config": "2.9.0-nightly-2026-03-10",
+  "last_updated": "2026-03-14T11:17:01.357681",
+  "config": "2.9.0-nightly-2026-03-13",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.16-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-861-GTNH",
+      "version": "rv3-beta-863-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -133,7 +133,7 @@
       "side": "BOTH"
     },
     "CraftTweaker": {
-      "version": "3.4.2",
+      "version": "3.4.3",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -153,7 +153,7 @@
       "side": "BOTH"
     },
     "EnderCore": {
-      "version": "0.5.7",
+      "version": "0.5.9",
       "side": "BOTH"
     },
     "EnderIO": {
@@ -181,11 +181,11 @@
       "side": "BOTH"
     },
     "ForbiddenMagic": {
-      "version": "0.9.13-GTNH",
+      "version": "0.9.14-GTNH",
       "side": "BOTH"
     },
     "ForestryMC": {
-      "version": "4.11.8",
+      "version": "4.11.10",
       "side": "BOTH"
     },
     "Forgelin": {
@@ -205,7 +205,7 @@
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
-      "version": "1.1.130-GTNH",
+      "version": "1.1.132-GTNH",
       "side": "BOTH"
     },
     "gendustry": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.350",
+      "version": "5.09.52.357",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.40",
+      "version": "0.9.42",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.98",
+      "version": "2.7.100",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -313,7 +313,7 @@
       "side": "BOTH"
     },
     "ModTweaker": {
-      "version": "0.12.0",
+      "version": "0.13.0",
       "side": "BOTH"
     },
     "Natura": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.172",
+      "version": "2.8.174",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.16-GTNH",
+      "version": "1.12.22-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -457,7 +457,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.16-GTNH",
+      "version": "2.2.17-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -541,7 +541,7 @@
       "side": "BOTH"
     },
     "Universal-Singularities": {
-      "version": "8.14.1",
+      "version": "8.14.2",
       "side": "BOTH"
     },
     "VisualProspecting": {
@@ -597,7 +597,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.4.5",
+      "version": "1.4.6",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -641,7 +641,7 @@
       "side": "BOTH"
     },
     "Controlling": {
-      "version": "2.1.6",
+      "version": "2.1.7",
       "side": "CLIENT"
     },
     "BuildCraftOilTweak": {
@@ -665,7 +665,7 @@
       "side": "BOTH"
     },
     "Tainted-Magic": {
-      "version": "7.7.4-GTNH",
+      "version": "7.7.5-GTNH",
       "side": "BOTH"
     },
     "lwjgl3ify": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.45-1.7.10",
+      "version": "2.3.46-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.2.28-GTNH",
+      "version": "2.6.4-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.50",
+      "version": "0.4.51",
       "side": "BOTH"
     },
     "Freecam": {
@@ -813,8 +813,12 @@
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.0.4",
+      "version": "1.0.7",
       "side": "BOTH"
+    },
+    "GTNH-Credits": {
+      "version": "1.0.0",
+      "side": "CLIENT"
     }
   },
   "external_mods": {
