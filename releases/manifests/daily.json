@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-15T14:57:28.097645",
-  "config": "2.9.0-nightly-2026-03-15",
+  "last_updated": "2026-03-16T05:28:09.714654",
+  "config": "2.9.0-nightly-2026-03-16",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.17-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-868-GTNH",
+      "version": "rv3-beta-869-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -177,7 +177,7 @@
       "side": "BOTH"
     },
     "FindIt": {
-      "version": "1.4.1",
+      "version": "1.4.2",
       "side": "BOTH"
     },
     "ForbiddenMagic": {
@@ -213,15 +213,15 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.362",
+      "version": "5.09.52.364",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
-      "version": "1.4.10",
+      "version": "1.4.11",
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.43",
+      "version": "0.9.44",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.104",
+      "version": "2.7.106",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -329,7 +329,7 @@
       "side": "BOTH"
     },
     "NEI-Integration": {
-      "version": "1.5.1",
+      "version": "1.5.2",
       "side": "BOTH"
     },
     "NetherPortalFix": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.176",
+      "version": "2.8.180",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.75-GTNH",
+      "version": "2.8.77-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.7-GTNH",
+      "version": "2.6.9-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {

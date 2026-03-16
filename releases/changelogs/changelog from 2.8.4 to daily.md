@@ -269,10 +269,11 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-868-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-868-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-869-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-869-GTNH
 
 ## What's Changed:
+>* fix standart search isnt standart by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1134 (rv3-beta-869-GTNH)
 >* Add Spatial Link Chamber and Spatial Network Relay by @kuba6000 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1035 (rv3-beta-868-GTNH)
 >* Fix smart partition works with different versions of storage bus by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1129 (rv3-beta-865-GTNH)
 >* terminal performance fixes by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1128 (rv3-beta-863-GTNH)
@@ -957,10 +958,13 @@ Mod is client-side only.
 >* Disable show favorites button show overlay button by @Eldrinn-Elantey in https://github.com/GTNewHorizons/EnhancedLootBags/pull/17 (1.3.1)
 >* Update NEI Handler by @slprime in https://github.com/GTNewHorizons/EnhancedLootBags/pull/16 (1.2.10)
 
-# Updated - Et-Futurum-Requiem - 2.6.2.25-GTNH --> 2.6.7-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.25-GTNH...2.6.7-GTNH
+# Updated - Et-Futurum-Requiem - 2.6.2.25-GTNH --> 2.6.9-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.25-GTNH...2.6.9-GTNH
 
 ## What's Changed:
+>* Implement proper step height fix by @Caedis in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/47 (2.6.9-GTNH)
+>* Change target of captureStepContext by @Caedis in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/49 (2.6.9-GTNH)
+>* Allow Tipped Arrows to be used from within Battlegear's Quiver by @Kynake in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/21 (2.6.9-GTNH)
 >* Cherry pick of upstream PRs by @koolkrafter5 in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/45 (2.6.7-GTNH)
 >* Register pickaxe harvest level and OreDictionary name for new stone-type blocks by @loenaaaa in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/27 (2.6.7-GTNH)
 >* Cleanup by @Dream-Master in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/41 (2.6.6-GTNH)
@@ -983,10 +987,11 @@ Mod is client-side only.
 >* set bed maxstacksize to 1 + fix nether planks sound by @Alexdoru in https://github.com/GTNewHorizons/Fether/pull/6 (2.0.3)
 >* some blocks and items by @seventh-june in https://github.com/GTNewHorizons/Nood/pull/2 (1.0.0)
 
-# Updated - FindIt - 1.4.0 --> 1.4.1
-**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.4.0...1.4.1
+# Updated - FindIt - 1.4.0 --> 1.4.2
+**Full Changelog**: https://github.com/GTNewHorizons/FindIt/compare/1.4.0...1.4.2
 
 ## What's Changed:
+>* Migrate to GTNHLib config system by @koolkrafter5 in https://github.com/GTNewHorizons/FindIt/pull/29 (1.4.2)
 >* Add support for Aspect Recipe Index and remove requirement of TCNEIPlugin to load ThaumcraftProvider by @koolkrafter5 in https://github.com/GTNewHorizons/FindIt/pull/28 (1.4.1)
 
 # Updated - FloodLights - 1.5.4 --> 1.5.5
@@ -1043,10 +1048,13 @@ Mod is client-side only.
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.362
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.362
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.364
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.364
 
 ## What's Changed:
+>* Add assembler recipe for UHV Energy Distributor by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6103 (5.09.52.364)
+>* Fix insufficient_dynamo Shutdown Reason Localization by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6106 (5.09.52.364)
+>* Fix Personal Nanobooster Description spacing by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6107 (5.09.52.364)
 >* Add translateInto utility method for multiline tooltips by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6075 (5.09.52.362)
 >* Fixes for toolbox from feedback by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6104 (5.09.52.361)
 >* Fix: Implosion Compressor now requires a Muffler Hatch by @Spaghetti-OberNub in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6102 (5.09.52.360)
@@ -1938,18 +1946,22 @@ Mod is client-side only.
 >* Regex filter input by @leagris in https://github.com/GTNewHorizons/GTNH-Credits/pull/1 (1.1.0)
 >* Update README.md by @leagris in https://github.com/GTNewHorizons/GTNH-Credits/pull/2 (1.1.0)
 
-# Updated - GTNH-TC-Wands - 1.4.6 --> 1.4.10
-**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.6...1.4.10
+# Updated - GTNH-TC-Wands - 1.4.6 --> 1.4.11
+**Full Changelog**: https://github.com/GTNewHorizons/GTNH-TC-Wands/compare/1.4.6...1.4.11
 
 ## What's Changed:
+>* Replace wood rod's vanilla stick with impregnated stick for Salis tooltips by @koolkrafter5 in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/29 (1.4.11)
 >* Update buildscript and deps by @koolkrafter5 in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/28 (1.4.10)
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/27 (1.4.9)
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.9.43
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.43
+# Updated - GTNHLib - 0.7.10 --> 0.9.44
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.44
 
 ## What's Changed:
+>* Set colorIdx to -1 default by @Ruling-0 in https://github.com/GTNewHorizons/GTNHLib/pull/312 (0.9.44)
+>* Config tooltip by @Ranzuu in https://github.com/GTNewHorizons/GTNHLib/pull/287 (0.9.44)
+>* Fix simulatedSink issues by @hiroscho in https://github.com/GTNewHorizons/GTNHLib/pull/241 (0.9.44)
 >* Fix item json model color by @Shigure-Ruiseki in https://github.com/GTNewHorizons/GTNHLib/pull/310 (0.9.43)
 >* Move StdLCG to GTNHLib by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/304 (0.9.42)
 >* Fix JSON Model Tint by @Ruling-0 in https://github.com/GTNewHorizons/GTNHLib/pull/308 (0.9.42)
@@ -2100,10 +2112,12 @@ Mod is client-side only.
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.104
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.104
+# Updated - Hodgepodge - 2.6.112 --> 2.7.106
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.106
 
 ## What's Changed:
+>* Fix another deadlock, and switching between sp/server/sp by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/793 (2.7.106)
+>* Switch to a periodic snapshot based off thread access approach. by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/792 (2.7.105)
 >* Fix fence right clicking for no reason by @JohnButlerThird in https://github.com/GTNewHorizons/Hodgepodge/pull/741 (2.7.104)
 >* Add budget-based chunk generation scheduler with deferred population pipeline by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/784 (2.7.102)
 >* extract bfs leaf decay to gtnhlib by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/790 (2.7.100)
@@ -2501,10 +2515,11 @@ Mod is client-side only.
 >* Suppress debug log for outside of dev env by @miozune in https://github.com/GTNewHorizons/MouseTweaks/pull/2 (2.4.6-GTNH)
 >* Update Buildscript by @glowredman in https://github.com/GTNewHorizons/MouseTweaks/pull/1 (2.4.5-GTNH)
 
-# Updated - NEI-Integration - 1.5.0 --> 1.5.1
-**Full Changelog**: https://github.com/GTNewHorizons/NEI-Integration/compare/1.5.0...1.5.1
+# Updated - NEI-Integration - 1.5.0 --> 1.5.2
+**Full Changelog**: https://github.com/GTNewHorizons/NEI-Integration/compare/1.5.0...1.5.2
 
 ## What's Changed:
+>* Make Railcraft Coke Oven Nei page "ticks" readable by @Ranzuu in https://github.com/GTNewHorizons/NEI-Integration/pull/12 (1.5.2)
 >* Fixes nei for ores without a focus by @ohentis in https://github.com/GTNewHorizons/NEI-Integration/pull/11 (1.5.1)
 
 # Updated - Natura - 2.8.9 --> 2.8.15
@@ -2516,10 +2531,12 @@ Mod is client-side only.
 >* fix redwood saplings growing without 7x7 field by @Morilli in https://github.com/GTNewHorizons/Natura/pull/37 (2.8.15)
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.176
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.176
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.180
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.180
 
 ## What's Changed:
+>* Cleanup `getModItem` by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1646 (2.8.180)
+>* Add Spatial Link Chamber, Network Relay and better spatial components recipes by @kuba6000 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1651 (2.8.178)
 >* bump GT to account for https://github.com/GTNewHorizons/GT5-Unofficial/pull/5781 by @boubou19 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1649 (2.8.176)
 >* Remove IC2 Toolbox Recipe by @UltraProdigy in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1648 (2.8.174)
 >* Fix research names for dreamwood wand/staff and bloodwood staff cores and rewrite dreamwood core pages by @koolkrafter5 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1644 (2.8.172)
@@ -2747,10 +2764,12 @@ Mod is client-side only.
 >* Restore tooltips on Pattern Terminal Gui by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/55 (1.7.19)
 >* Universal gui by @lc-1337 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/53 (1.7.18)
 
-# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.75-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.75-GTNH
+# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.77-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.77-GTNH
 
 ## What's Changed:
+>* Change calculateBounds by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/892 (2.8.77-GTNH)
+>* Set minimum GTNHLib version to 0.9.6 by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/891 (2.8.76-GTNH)
 >* Fix bookmark slot placement logic by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/885 (2.8.75-GTNH)
 >* Fix Favorite Option by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/887 (2.8.75-GTNH)
 >* Add Favorite Item Support by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/880 (2.8.74-GTNH)
