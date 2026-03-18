@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-17T05:07:01.483864",
-  "config": "2.9.0-nightly-2026-03-16",
+  "last_updated": "2026-03-18T05:12:17.152861",
+  "config": "2.9.0-nightly-2026-03-17",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.17-GTNH",
@@ -13,7 +13,7 @@
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.10.14-GTNH",
+      "version": "0.10.16-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.92",
+      "version": "1.93",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -157,7 +157,7 @@
       "side": "BOTH"
     },
     "EnderIO": {
-      "version": "2.10.21",
+      "version": "2.10.22",
       "side": "BOTH"
     },
     "EnderStorage": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.367",
+      "version": "5.09.52.369",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.182",
+      "version": "2.8.183",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.77-GTNH",
+      "version": "2.8.78-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.12.7-GTNH",
+      "version": "1.12.8-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
@@ -429,7 +429,7 @@
       "side": "CLIENT"
     },
     "SGCraft": {
-      "version": "1.4.8-GTNH",
+      "version": "1.4.11-GTNH",
       "side": "BOTH"
     },
     "Share-Where-I-am": {
@@ -449,7 +449,7 @@
       "side": "BOTH"
     },
     "Steve-s-Factory-Manager": {
-      "version": "1.3.9-GTNH",
+      "version": "1.3.10-GTNH",
       "side": "BOTH"
     },
     "StevesAddons": {
@@ -489,7 +489,7 @@
       "side": "BOTH"
     },
     "Thaumic_Exploration": {
-      "version": "1.5.21-GTNH",
+      "version": "1.5.22-GTNH",
       "side": "BOTH"
     },
     "ThaumicBases": {
@@ -505,7 +505,7 @@
       "side": "BOTH"
     },
     "thaumicinsurgence": {
-      "version": "0.4.0",
+      "version": "0.4.1",
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
@@ -741,7 +741,7 @@
       "side": "BOTH"
     },
     "Postea": {
-      "version": "1.2.4",
+      "version": "1.2.5",
       "side": "BOTH"
     },
     "InventoryBogoSorter": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.13",
+      "version": "2.0.15",
       "side": "BOTH"
     },
     "Fether": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.0.7",
+      "version": "1.0.8",
       "side": "BOTH"
     },
     "GTNH-Credits": {
