@@ -6,7 +6,7 @@ Version {} is out {}
 
 <p align="justify">
     You are looking at a big progressive kitchensink pack for Minecraft 1.7.10 balanced around the mod GregTech.<BR><BR>
-    Over 10 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with over 3000 quests, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
+    Over 10 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with over 3500 quests, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
     The main intentions of the pack are a long-lasting experience and tying mods together in a progressive fashion, making it feel more like a single game than a compilation of mods thrown together.<BR><BR>
     To reach this goal, GT New Horizons is using the tiers (basically ages of technology) from GregTech and allocates content of other mods to a fitting point within the progression.<BR><BR>
     Starting in the stone age you will barely be able to survive until you get your first steam machines and, eventually, reach electricity. Later on, you will have to visit other planets and dimensions to gather important resources and fight mighty bosses to channel their magical power.<BR><BR>
@@ -264,4 +264,4 @@ Downloads can be found at http://downloads.gtnewhorizons.com - do not try to dow
 
 ---
 
-Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes, Warlord Wossman, SanMan911, Bigbass1997, Ugachaga, MineAnPlay, Giovanni_NL, Ethryan, MTesseracT, Bryfer, Bartimaeusnek, codewarrior, Moronwmachinegun, Mitchej, Zoko061602, Spartak, Highbeam, 0lafe, Teirdalin, Prometheus, KiloJoel, Glease, Kiwi, Bot, LeaGris, Boubou, Glowredman, Repo, DvDManDT, Moller, Colen, Minecraft7771, MuXiu1997, Runakai, YannickMG, SinTh0r4s, Alexdoru, Kiwi, bombcar, vlaetansky, POPlol333, Raven, miozune, GlodBlock, asdflj, D-Cysteine, DianeXD, Ethryan, BlueWeabo, Kuba, Quarri, Steelux8, S4mpsa, chochem, iouter, Elisis and many more.
+Maintained by Dream-MasterXXL, Namikon, Drobac, Teteros, Tec, Lefty, Arnab, Methes, Warlord Wossman, SanMan911, Bigbass1997, Ugachaga, MineAnPlay, Giovanni_NL, Ethryan, MTesseracT, Bryfer, Bartimaeusnek, codewarrior, Moronwmachinegun, Mitchej, Zoko061602, Spartak, Highbeam, 0lafe, Teirdalin, Prometheus, KiloJoel, Glease, Kiwi, Bot, LeaGris, Boubou, Glowredman, Repo, DvDManDT, Moller, Colen, Minecraft7771, MuXiu1997, Runakai, YannickMG, SinTh0r4s, Alexdoru, Kiwi, bombcar, vlaetansky, POPlol333, Raven, miozune, GlodBlock, asdflj, D-Cysteine, DianeXD, BlueWeabo, Kuba, Quarri, Steelux8, S4mpsa, chochem, iouter, Elisis and many more.
