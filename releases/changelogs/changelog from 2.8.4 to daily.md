@@ -2818,10 +2818,12 @@ Mod is client-side only.
 >* Restore tooltips on Pattern Terminal Gui by @Kogepan229 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/55 (1.7.19)
 >* Universal gui by @lc-1337 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/53 (1.7.18)
 
-# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.78-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.78-GTNH
+# Updated - NotEnoughItems - 2.8.44-GTNH --> 2.8.79-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughItems/compare/2.8.44-GTNH...2.8.79-GTNH
 
 ## What's Changed:
+>* updateBuildScript by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/895 (2.8.79-GTNH)
+>* Fix areStacksSameTypeWithNBT damage check by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/896 (2.8.79-GTNH)
 >* Fix filtered permutations by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/893 (2.8.78-GTNH)
 >* Change calculateBounds by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/892 (2.8.77-GTNH)
 >* Set minimum GTNHLib version to 0.9.6 by @slprime in https://github.com/GTNewHorizons/NotEnoughItems/pull/891 (2.8.76-GTNH)
@@ -2916,6 +2918,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Fix running in a headless Swing/AWT environment by @eigenraven in https://github.com/GTNewHorizons/Opis/pull/16 (1.4.8-mapless)
 
+# Updated - OverloadedArmorBar - 1.1.0 --> 1.1.1
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/OverloadedArmorBar/compare/1.1.0...1.1.1
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - Postea - 1.1.3 --> 1.2.5
 **Full Changelog**: https://github.com/GTNewHorizons/Postea/compare/1.1.3...1.2.5
 
@@ -3014,8 +3022,8 @@ Mod is client-side only.
 >* Fix Rotation in East/West Direction by @Yoshy2002 in https://github.com/GTNewHorizons/SGCraft/pull/22 (1.4.8-GTNH)
 >* Localization of gui elements by @Ranzuu in https://github.com/GTNewHorizons/SGCraft/pull/21 (1.4.7-GTNH)
 
-# Updated - Salis-Arcana - 1.1.33-GTNH --> 1.1.49-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.33-GTNH...1.1.49-GTNH
+# Updated - Salis-Arcana - 1.1.33-GTNH --> 1.1.50-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Salis-Arcana/compare/1.1.33-GTNH...1.1.50-GTNH
 
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
