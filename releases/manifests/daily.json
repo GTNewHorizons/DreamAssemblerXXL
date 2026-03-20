@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-19T05:09:28.293161",
+  "last_updated": "2026-03-20T05:01:28.775442",
   "config": "2.9.0-nightly-2026-03-17",
   "github_mods": {
     "AdventureBackpack2": {
@@ -13,7 +13,7 @@
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.10.16-GTNH",
+      "version": "0.10.17-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -29,11 +29,11 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-870-GTNH",
+      "version": "rv3-beta-871-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
-      "version": "1.12.9",
+      "version": "1.12.10",
       "side": "BOTH"
     },
     "AsieLib": {
@@ -129,7 +129,7 @@
       "side": "BOTH"
     },
     "CookingForBlockheads": {
-      "version": "1.4.9-GTNH",
+      "version": "1.4.10-GTNH",
       "side": "BOTH"
     },
     "CraftTweaker": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.369",
+      "version": "5.09.52.375",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.107",
+      "version": "2.7.108",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.184",
+      "version": "2.8.185",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.36-GTNH",
+      "version": "1.7.37-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.37-GTNH",
+      "version": "1.14.41-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.46-1.7.10",
+      "version": "2.3.47-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
