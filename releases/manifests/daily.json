@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-20T08:37:24.849625",
-  "config": "2.9.0-nightly-2026-03-20",
+  "last_updated": "2026-03-21T04:51:50.833602",
+  "config": "2.9.0-nightly-2026-03-20-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.19",
+      "version": "2.6.22",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.375",
+      "version": "5.09.52.377",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.41-GTNH",
+      "version": "1.14.43-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.47-1.7.10",
+      "version": "2.3.48-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
