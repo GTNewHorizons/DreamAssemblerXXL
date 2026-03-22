@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-20T05:01:28.775442",
-  "config": "2.9.0-nightly-2026-03-17",
+  "last_updated": "2026-03-22T05:05:21.611035",
+  "config": "2.9.0-nightly-2026-03-21",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-871-GTNH",
+      "version": "rv3-beta-872-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -73,7 +73,7 @@
       "side": "BOTH"
     },
     "Binnie": {
-      "version": "2.6.19",
+      "version": "2.6.22",
       "side": "BOTH"
     },
     "BlockLimiter": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.375",
+      "version": "5.09.52.380",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.44",
+      "version": "0.9.45",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.108",
+      "version": "2.7.109",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.185",
+      "version": "2.8.187",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.78-GTNH",
+      "version": "2.8.80-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -389,7 +389,7 @@
       "side": "BOTH"
     },
     "OverloadedArmorBar": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "side": "CLIENT"
     },
     "PersonalSpace": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.41-GTNH",
+      "version": "1.14.43-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -709,7 +709,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.18",
+      "version": "2.2.19",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.4",
+      "version": "2.1.5",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.47-1.7.10",
+      "version": "2.3.48-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -753,7 +753,7 @@
       "side": "BOTH"
     },
     "Salis-Arcana": {
-      "version": "1.1.49-GTNH",
+      "version": "1.1.50-GTNH",
       "side": "BOTH"
     },
     "Darkerer": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.15",
+      "version": "2.0.18",
       "side": "BOTH"
     },
     "Fether": {
