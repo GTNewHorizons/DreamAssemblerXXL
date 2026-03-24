@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-23T05:18:14.718941",
-  "config": "2.9.0-nightly-2026-03-22",
+  "last_updated": "2026-03-24T05:10:04.976253",
+  "config": "2.9.0-nightly-2026-03-23",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
@@ -133,7 +133,7 @@
       "side": "BOTH"
     },
     "CraftTweaker": {
-      "version": "3.4.3",
+      "version": "3.4.4",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.386",
+      "version": "5.09.52.387",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.110",
+      "version": "2.7.111",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.187",
+      "version": "2.8.189",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.7",
+      "version": "2.1.8",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.54",
+      "version": "0.4.55",
       "side": "BOTH"
     },
     "Freecam": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.0.8",
+      "version": "1.0.9",
       "side": "BOTH"
     },
     "GTNH-Credits": {
