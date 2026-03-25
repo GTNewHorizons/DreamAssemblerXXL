@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-24T05:10:04.976253",
-  "config": "2.9.0-nightly-2026-03-23",
+  "last_updated": "2026-03-25T05:10:32.442513",
+  "config": "2.9.0-nightly-2026-03-24",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.387",
+      "version": "5.09.52.388",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.111",
+      "version": "2.7.113",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -285,7 +285,7 @@
       "side": "BOTH"
     },
     "LootGames": {
-      "version": "2.2.9",
+      "version": "2.2.10",
       "side": "BOTH"
     },
     "LunatriusCore": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.43-GTNH",
+      "version": "1.14.45-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -657,7 +657,7 @@
       "side": "BOTH"
     },
     "MrTJPCore": {
-      "version": "1.3.4",
+      "version": "1.3.5",
       "side": "BOTH"
     },
     "Random-Things": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.19-GTNH",
+      "version": "0.1.20-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {

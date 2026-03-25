@@ -1096,10 +1096,13 @@ Mod is client-side only.
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.387
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.387
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.388
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.388
 
 ## What's Changed:
+>* Added dimensions to some tooltips by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6167 (5.09.52.388)
+>* Fixed unintended spacetime requirement for gravitons by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6172 (5.09.52.388)
+>* [Structure Rework] Industrial Thermal Centrifuge by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6171 (5.09.52.388)
 >* IOF post-rework fixes by @VortexSo4 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6158 (5.09.52.387)
 >* Remove Conc. For Label Workflow by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6163 (5.09.52.387)
 >* impl(cover): alpha-blended cover by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6142 (5.09.52.387)
@@ -2207,10 +2210,13 @@ Mod is client-side only.
 >* Add localization for Compendium titles and point amount(optional) by @Ranzuu in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/36 (1.12.19-GTNH)
 >* Fixed HEE Spatial Dash Gem Capacity Enhancement to extend uses by @loenaaaa in https://github.com/GTNewHorizons/Hardcore-Ender-Expansion/pull/35 (1.12.17-GTNH)
 
-# Updated - Hodgepodge - 2.6.112 --> 2.7.111
-**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.111
+# Updated - Hodgepodge - 2.6.112 --> 2.7.113
+**Full Changelog**: https://github.com/GTNewHorizons/Hodgepodge/compare/2.6.112...2.7.113
 
 ## What's Changed:
+>* Fallback to registry if not found by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/811 (2.7.113)
+>* Fix chunk loading issue in MP/SP by @czqwq in https://github.com/GTNewHorizons/Hodgepodge/pull/810 (2.7.112)
+>* Fix memory leak caused by FML network channels attributes by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/812 (2.7.112)
 >* Use more generic types by @mitchej123 in https://github.com/GTNewHorizons/Hodgepodge/pull/808 (2.7.111)
 >* don't pause the game when opening the bibliocraft clipboard GUI by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/803 (2.7.111)
 >* show alloc rate in f3 by @Alexdoru in https://github.com/GTNewHorizons/Hodgepodge/pull/799 (2.7.110)
@@ -2457,10 +2463,11 @@ Mod is client-side only.
 >* Fix lighting by @sisyphussy in https://github.com/GTNewHorizons/LogisticsPipes/pull/107 (1.5.2-GTNH)
 >* Update for OrePrefix Builder #5121 by @Vlamonster in https://github.com/GTNewHorizons/LogisticsPipes/pull/108 (1.5.2-GTNH)
 
-# Updated - LootGames - 2.2.0.1 --> 2.2.9
-**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.2.0.1...2.2.9
+# Updated - LootGames - 2.2.0.1 --> 2.2.10
+**Full Changelog**: https://github.com/GTNewHorizons/LootGames/compare/2.2.0.1...2.2.10
 
 ## What's Changed:
+>* Reduce the default Sudoku difficulty by @ABKQPO in https://github.com/GTNewHorizons/LootGames/pull/31 (2.2.10)
 >* Remove YamCore Dependency by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/LootGames/pull/30 (2.2.9)
 >* Update build script by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/LootGames/pull/29 (2.2.8)
 >* Remove unfinished chess loot game by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/LootGames/pull/28 (2.2.7)
@@ -2487,10 +2494,11 @@ Mod is client-side only.
 >* Separated tile vs gui title string in lang by @Ranzuu in https://github.com/GTNewHorizons/MalisisDoors/pull/24 (1.19.2-GTNH)
 >* Small thread-safety fix to prevent certain NullPointers by @Cleptomania in https://github.com/GTNewHorizons/MalisisDoors/pull/23 (1.19.0-GTNH)
 
-# Updated - MatterManipulator - 0.0.51-GTNH --> 0.1.19-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.51-GTNH...0.1.19-GTNH
+# Updated - MatterManipulator - 0.0.51-GTNH --> 0.1.20-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MatterManipulator/compare/0.0.51-GTNH...0.1.20-GTNH
 
 ## What's Changed:
+>* use public getter/setter for integrated ore factory by @Alexdoru in https://github.com/GTNewHorizons/MatterManipulator/pull/29 (0.1.20-GTNH)
 >* fix crash post-IOF rework GT5u by @LazyFleshWasTaken in https://github.com/GTNewHorizons/MatterManipulator/pull/28 (0.1.19-GTNH)
 >* Fix Texture Render Crash by @UltraProdigy in https://github.com/GTNewHorizons/MatterManipulator/pull/27 (0.1.18-GTNH)
 >* Impr(Textures): Adapt GT5U OptionalResource by @leagris in https://github.com/GTNewHorizons/MatterManipulator/pull/26 (0.1.17-GTNH)
@@ -2620,6 +2628,12 @@ Mod is client-side only.
 >* Fix server-side crash and suppress Forestry error in the logs by @eigenraven in https://github.com/GTNewHorizons/MouseTweaks/pull/3 (2.4.8-GTNH)
 >* Suppress debug log for outside of dev env by @miozune in https://github.com/GTNewHorizons/MouseTweaks/pull/2 (2.4.6-GTNH)
 >* Update Buildscript by @glowredman in https://github.com/GTNewHorizons/MouseTweaks/pull/1 (2.4.5-GTNH)
+
+# Updated - MrTJPCore - 1.3.4 --> 1.3.5
+**Full Changelog**: https://github.com/GTNewHorizons/MrTJPCore/compare/1.3.4...1.3.5
+
+## What's Changed:
+>* Improve performance if no tick handlers are registered by @MalTeeez in https://github.com/GTNewHorizons/MrTJPCore/pull/13 (1.3.5)
 
 # Updated - NEI-Integration - 1.5.0 --> 1.5.2
 **Full Changelog**: https://github.com/GTNewHorizons/NEI-Integration/compare/1.5.0...1.5.2
@@ -3313,10 +3327,11 @@ Mod is client-side only.
 # Updated - Tinkers-Gregworks - 1.0.28 --> 1.0.30
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
-# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.43-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.43-GTNH
+# Updated - TinkersConstruct - 1.13.57-GTNH --> 1.14.45-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/TinkersConstruct/compare/1.13.57-GTNH...1.14.45-GTNH
 
 ## What's Changed:
+>* Ender creeper melting by @LooseEthics in https://github.com/GTNewHorizons/TinkersConstruct/pull/264 (1.14.45-GTNH)
 >* Don't allow smelting rails in GTNH by @DarkShadow44 in https://github.com/GTNewHorizons/TinkersConstruct/pull/266 (1.14.43-GTNH)
 >* Bugfix for another pull request. by @Viptunbeqwfwew in https://github.com/GTNewHorizons/TinkersConstruct/pull/260 (1.14.41-GTNH)
 >* part chest / add pattern chest for stencil table / fix manual render postition by @MCTBL in https://github.com/GTNewHorizons/TinkersConstruct/pull/258 (1.14.39-GTNH)
