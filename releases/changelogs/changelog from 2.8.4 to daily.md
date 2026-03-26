@@ -104,11 +104,16 @@
 >* Use DirectTesselator by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/19 (1.4.1)
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.1.8
+# Updated - Angelica - 1.0.0-beta66b --> 2.1.11
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.8
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.11
 
 ## What's Changed:
+>* Make the mod no-op on server by @Alexdoru in https://github.com/GTNewHorizons/Angelica/pull/1574 (2.1.11)
+>* Fix blend leak in BatchingFontRenderer by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1575 (2.1.11)
+>* Distant Horizons shader support by @DarkShadow44 in https://github.com/GTNewHorizons/Angelica/pull/1553 (2.1.10)
+>* Fixes 3rd person enchant glints z-fighting with the item model by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1569 (2.1.9)
+>* Various fixes by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1571 (2.1.9)
 >* Clear cache on reload shaders by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1559 (2.1.8)
 >* Ban GL usage. by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1560 (2.1.8)
 >* More pass throughs by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1561 (2.1.8)
@@ -956,10 +961,11 @@ Mod is client-side only.
 >* Update for Deprecated Tier Removal PR #5085 by @Vlamonster in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/106 (1.7.0)
 >* Fix dungeon chests spawning with the one ring. by @WanderingHero in https://github.com/GTNewHorizons/Electro-Magic-Tools/pull/105 (1.7.0)
 
-# Updated - EnderCore - 0.4.8 --> 0.5.9
-**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.4.8...0.5.9
+# Updated - EnderCore - 0.4.8 --> 0.5.12
+**Full Changelog**: https://github.com/GTNewHorizons/EnderCore/compare/0.4.8...0.5.12
 
 ## What's Changed:
+>* Sickle AoE Right Click to Harvest by @DrParadox7 in https://github.com/GTNewHorizons/EnderCore/pull/29 (0.5.12)
 >* Cache mod loaded checks and fix log spam with Chisel 1 by @koolkrafter5 in https://github.com/GTNewHorizons/EnderCore/pull/31 (0.5.9)
 >* cache DyeColor#values() by @Alexdoru in https://github.com/GTNewHorizons/EnderCore/pull/30 (0.5.7)
 >* Add durability tooltip to chisels and forgemultipart saws by @JohnButlerThird in https://github.com/GTNewHorizons/EnderCore/pull/27 (0.5.5)
@@ -1096,10 +1102,19 @@ Mod is client-side only.
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.388
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.388
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.389
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.389
 
 ## What's Changed:
+>* Corrected UCFE Tooltip by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6179 (5.09.52.389)
+>* Compact Cyclotron deprecation by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6166 (5.09.52.389)
+>* Thermal Centrifuge Strucutre Rework fixes by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6181 (5.09.52.389)
+>* [Breaking] Fix another typo in mega apiary structure for symmetry by @Sanduhr32 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6183 (5.09.52.389)
+>* [Strucuture Rework] Molecular transformer by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6182 (5.09.52.389)
+>* DTPF TT hatches compatibility on tooltip by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6186 (5.09.52.389)
+>* Put Tier In Mining Drone Name by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6189 (5.09.52.389)
+>* Remove Deprecated QFT Catalysts by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6180 (5.09.52.389)
+>* [MUI2] Ported MTETieredMachineBlock to MUI2 by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6175 (5.09.52.389)
 >* Added dimensions to some tooltips by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6167 (5.09.52.388)
 >* Fixed unintended spacetime requirement for gravitons by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6172 (5.09.52.388)
 >* [Structure Rework] Industrial Thermal Centrifuge by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6171 (5.09.52.388)
@@ -3277,10 +3292,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix nullpointer crash when exploding Alchemite by @DarkShadow44 in https://github.com/GTNewHorizons/ThaumicHorizons/pull/100 (1.8.7)
 >* Soul Beacon Event Handler Cleanup by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicHorizons/pull/93 (1.8.4)
 
-# Updated - ThaumicTinkerer - 2.11.27 --> 2.12.18
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.27...2.12.18
+# Updated - ThaumicTinkerer - 2.11.27 --> 2.12.19
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicTinkerer/compare/2.11.27...2.12.19
 
 ## What's Changed:
+>* Only spawn effects on client side by @DarkShadow44 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/89 (2.12.19)
 >* Fix wrong stack sizes for ichor recipe by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/88 (2.12.18)
 >* Fix infused seeds inheriting NBT tags of the previously broken crop by @Tahkeh in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/82 (2.12.17)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/87 (2.12.17)
@@ -3297,10 +3313,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix boots losing their speed when enchanted and Thaumic Boots is not installed by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/76 (2.12.2)
 >* Merge #74 to master by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicTinkerer/pull/75 (2.12.0)
 
-# Updated - Thaumic_Exploration - 1.4.8-GTNH --> 1.5.22-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.8-GTNH...1.5.22-GTNH
+# Updated - Thaumic_Exploration - 1.4.8-GTNH --> 1.5.23-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Thaumic_Exploration/compare/1.4.8-GTNH...1.5.23-GTNH
 
 ## What's Changed:
+>* Combine the Food and Saturation Points of the Talisman of Nourishment by @thehoblit in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/56 (1.5.23-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/58 (1.5.22-GTNH)
 >* Replicator NEI Handler by @koolkrafter5 in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/55 (1.5.21-GTNH)
 >* Replicator Refactor by @koolkrafter5 in https://github.com/GTNewHorizons/Thaumic_Exploration/pull/44 (1.5.17-GTNH)
