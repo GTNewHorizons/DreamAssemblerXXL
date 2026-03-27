@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-26T05:20:23.412320",
-  "config": "2.9.0-nightly-2026-03-24",
+  "last_updated": "2026-03-27T05:21:50.483738",
+  "config": "2.9.0-nightly-2026-03-26",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
@@ -133,7 +133,7 @@
       "side": "BOTH"
     },
     "CraftTweaker": {
-      "version": "3.4.4",
+      "version": "3.4.5",
       "side": "BOTH"
     },
     "DefaultServerList": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.389",
+      "version": "5.09.52.390",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.113",
+      "version": "2.7.114",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.81-GTNH",
+      "version": "2.8.82-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -705,7 +705,7 @@
       "side": "BOTH"
     },
     "Amazing-Trophies": {
-      "version": "1.4.1",
+      "version": "1.4.2",
       "side": "BOTH"
     },
     "ServerUtilities": {
