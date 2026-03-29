@@ -105,11 +105,17 @@
 >* Use DirectTesselator by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/19 (1.4.1)
 >* Simplify Item Trophy Renderer by @glowredman in https://github.com/GTNewHorizons/Amazing-Trophies/pull/18 (1.4.0)
 
-# Updated - Angelica - 1.0.0-beta66b --> 2.1.12
+# Updated - Angelica - 1.0.0-beta66b --> 2.1.13
 Mod is client-side only.
-**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.12
+**Full Changelog**: https://github.com/GTNewHorizons/Angelica/compare/1.0.0-beta66b...2.1.13
 
 ## What's Changed:
+>* Return `phaseChangeNotifier` by @kotmatross28729 in https://github.com/GTNewHorizons/Angelica/pull/1596 (2.1.13)
+>* Update alpha test to hopefully work with RTM and AE2 by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1597 (2.1.13)
+>* Handle method handles in invokedynamic by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1598 (2.1.13)
+>* fix: crash when client-side vertex attrib pointers are used in core profile by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1602 (2.1.13)
+>* Handle GL_POLYGON in legacy conversion by @DarkShadow44 in https://github.com/GTNewHorizons/Angelica/pull/1603 (2.1.13)
+>* FINE, we'll work with java8/forge. by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1606 (2.1.13)
 >* Fix sky lighting on drawCrossSquare rendered blocks. by @Eclipse-Sol in https://github.com/GTNewHorizons/Angelica/pull/1576 (2.1.12)
 >* External Redirector API by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1580 (2.1.12)
 >* Fix crash with fancy block particles. by @mitchej123 in https://github.com/GTNewHorizons/Angelica/pull/1591 (2.1.12)
@@ -304,10 +310,13 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-873-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-873-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-874-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-874-GTNH
 
 ## What's Changed:
+>* CPU Sorting buttons enhancements by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1145 (rv3-beta-874-GTNH)
+>* Improve terminal interaction with type filter by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1147 (rv3-beta-874-GTNH)
+>* Improve Performance of NetworkInventoryHandler by @bk5115545 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1096 (rv3-beta-874-GTNH)
 >* Add backhand support for the color applicator by @sbancuz in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1142 (rv3-beta-873-GTNH)
 >* Added CPU Sorting buttons by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1143 (rv3-beta-873-GTNH)
 >* Adjusts ME Pick Block to prefer PickBlockEvent when appropriate by @querns in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1141 (rv3-beta-872-GTNH)
@@ -869,10 +878,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* move log file to log folder by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/24 (3.4.3)
 >* update bs + gradle + deps by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/25 (3.4.3)
 
-# New Mod - CropsNH:2.0.20
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.20
+# New Mod - CropsNH:2.0.21
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.21
 
 ## What's Changed:
+>* Add bop flax as an alt seed for flax by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/55 (2.0.21)
+>* Make mica recipe use recipe eu/t instead of amp eu/t by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/53 (2.0.21)
 >* Fix multiplayer-only issues by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/49 (2.0.20)
 >* Use propper ore dict for garlic alt seeds. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/48 (2.0.19)
 >* Fix IF drop increases being applied multiple times by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/47 (2.0.18)
@@ -1113,10 +1124,23 @@ Mod is client-side only.
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.391
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.391
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.393
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.393
 
 ## What's Changed:
+>* chore(fix): fix wrong fluid temperature logic by @Nana-Sakura in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6207 (5.09.52.393)
+>* Fixed Components of Tungsten Carbide of GTPP are null by @iouter in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6214 (5.09.52.392)
+>* Remove Redundant Tooltip by @iouter in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6217 (5.09.52.392)
+>* bump dep to prevent crashing in dev env by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6218 (5.09.52.392)
+>* Fixed GTPP's Plasma does not have a correct name by @iouter in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6219 (5.09.52.392)
+>* Add fluid localized keys by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6206 (5.09.52.392)
+>* refactor(render): enforce SBRContext encapsulation via static factory by @leagris in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6216 (5.09.52.392)
+>* Move book texts to lang keys and translate via GTUtility by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6199 (5.09.52.392)
+>* Removing unnecessary localization keys by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6221 (5.09.52.392)
+>* LHC custom NEI handler by @ham-corp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6195 (5.09.52.392)
+>* Update tooltip for glass fiber circuit part by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6215 (5.09.52.392)
+>* [Structure Rework] Flotation Cell by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6176 (5.09.52.392)
+>* fix master not building by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6222 (5.09.52.392)
 >* Remove EnderIO bars & Tungsten Bars by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6202 (5.09.52.391)
 >* LATEX tooltip change: eXpert to eXocoater by @bencimp in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6201 (5.09.52.391)
 >* Use StatCollector for fluid localization by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6205 (5.09.52.391)
@@ -2460,10 +2484,11 @@ Mod is client-side only.
 >* Allow compressed (and infinity) chests to be dollied. by @tomprince in https://github.com/GTNewHorizons/Jabba/pull/46 (1.5.13)
 >* Add Binnie's Mods Compartments Support to Dolly by @MuXiu1997 in https://github.com/GTNewHorizons/Jabba/pull/45 (1.5.13)
 
-# Updated - LittleTiles - 1.5.14-GTNH --> 1.6.19
-**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.14-GTNH...1.6.19
+# Updated - LittleTiles - 1.5.14-GTNH --> 1.6.20
+**Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.14-GTNH...1.6.20
 
 ## What's Changed:
+>* Implement pillars by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/53 (1.6.20)
 >* Added lookout for background color by @Ranzuu in https://github.com/GTNewHorizons/LittleTiles/pull/52 (1.6.19)
 >* Use earcut to close edges of cut meshes by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/49 (1.6.18)
 >* Implement generic model loader by @DarkShadow44 in https://github.com/GTNewHorizons/LittleTiles/pull/50 (1.6.18)
@@ -2702,10 +2727,11 @@ Mod is client-side only.
 >* fix redwood saplings growing without 7x7 field by @Morilli in https://github.com/GTNewHorizons/Natura/pull/37 (2.8.15)
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.190
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.190
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.191
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.191
 
 ## What's Changed:
+>* Fix Format Error of Wire/Cable by @iouter in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1670 (2.8.191)
 >* Remove old, unused IDEA project file. by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1668 (2.8.190)
 >* Make metal bars placeable & remove unused bars by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1667 (2.8.190)
 >* Dead wood recipe by @LooseEthics in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1669 (2.8.190)
@@ -3634,10 +3660,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add info to tooltips by @Eldrinn-Elantey in https://github.com/GTNewHorizons/gendustry/pull/20 (1.9.8-GTNH)
 >* Separated localization strings tile vs title by @Ranzuu in https://github.com/GTNewHorizons/gendustry/pull/19 (1.9.7-GTNH)
 
-# Updated - harvestcraft - 1.3.2-GTNH --> 1.3.10-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.3.2-GTNH...1.3.10-GTNH
+# Updated - harvestcraft - 1.3.2-GTNH --> 1.3.11-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/harvestcraft/compare/1.3.2-GTNH...1.3.11-GTNH
 
 ## What's Changed:
+>* Update NEI Handlers by @Ranzuu in https://github.com/GTNewHorizons/harvestcraft/pull/72 (1.3.11-GTNH)
 >* Optimize Image & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/harvestcraft/pull/71 (1.3.10-GTNH)
 >* Clean UI by @DrParadox7 in https://github.com/GTNewHorizons/harvestcraft/pull/69 (1.3.9-GTNH)
 >* Brewing Microcrafting by @DrParadox7 in https://github.com/GTNewHorizons/harvestcraft/pull/67 (1.3.8-GTNH)
@@ -3748,4 +3775,4 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Gadomancy support (Thaumic Sight enchant) by @EmperorSuper in https://github.com/GTNewHorizons/waila/pull/40 (1.9.0)
 
 # Credits
-Special thanks to @0hwx, @12411234, @2ndDerivative, @3ricbae, @52871299hzy, @54M44R, @6C-C6, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @Ableytner, @Aerindor-of-Arcane, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @ALongStringOfNumbers, @alppp, @Ameobea, @and-reas-se, @arch1t3cht, @Ashen-sysadmin, @asquared31415, @asukaonly, @Auynonymous, @bencimp, @Bjdufre1, @Blubstr, @BlueWeabo, @bombcar, @boubou19, @Brabb3l, @brachy84, @brandyyn, @BroFaceMcgee, @broscolotos, @C-Remilian, @C0bra5, @Caedis, @Calvin304, @cambech, @captainjolt, @Cardinalstars, @cargocats, @ChaosTheLegend, @Charsy89, @Chi31415, @chochem, @ChromaPIE, @chrombread, @clawdbot-silly-waddle, @Cleptomania, @CN132DAS, @combusterf, @Connor-Colenso, @copi143, @cubefury, @czerwonogrodzki, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @devpikachu, @dfddgge, @DialecticalMaterialist, @dibbydoda, @DioEgizio, @Discreater, @dragongod100, @Dream-Master, @Dredonkey, @DrParadox7, @DylanTaylor1, @echeese, @Eclipse-Sol, @eigenraven, @Eldrinn-Elantey, @embeddedt, @Emilgardis, @EmperorSuper, @EnderProyects, @Engineer12798, @envoidia, @EricC808, @Ethryan, @evgengoldwar, @FabienChatton, @Faotik, @felixfour, @fengluo2, @Firenezz, @Flakxo, @flamingowrangler2869, @Florexiz, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Georggi, @Ghezra, @ghostflyby, @GirixK, @github-actions[bot], @Glease, @glektarssza, @glowredman, @Goldenlion5648, @GribanovIvan, @grimly, @GTNH-Afx237v7, @guid118, @guusw, @ham-corp, @harrynull, @hinyb, @hiroscho, @imTheSupremeOne, @iouter, @iR3turnZ, @IX-git, @JackOfNoneTrades, @JeromeBollinger, @JL2210, @JohnButlerThird, @Johnnycyan, @jordanamr, @jude123412, @june-dev-username, @JustACasualDay, @KenzoWVY, @ko-lja, @Kogepan229, @konradmoesch, @koolkrafter5, @kopatych3348, @kotmatross28729, @kuba6000, @kx08, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @lesteenman, @leumasme, @Litten95, @loenaaaa, @lonei-G, @LooseEthics, @ls-r, @LunarLambda, @Lyfts, @lynxx131, @malabudi, @MalTeeez, @mamiemru, @MarkinoTeck, @MaxLunar, @maybemattie, @MCTBL, @MeiTianyou, @MellowArpeggiation, @michaeldoylecs, @mikkerlo, @Miklebe, @miozune, @mist475, @mitchej123, @mM4ri, @ModularityEnjoyer, @Morilli, @MuXiu1997, @Nana-Sakura, @NealDeal34, @NeOzay, @NeutronSelector, @Nightyyi, @Nikolay-Sitnikov, @noah-cope-dev, @Nockyx, @NotAPenguin0, @NotKaizul, @NovanOfLowat, @nshark, @nullTheCoder, @nwmqpa, @oddstr13, @ohentis, @OmdaCZ, @Omgise, @openblocki, @PantACRO4life, @pierrei, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @rainbowjose, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @riggzh, @Roadhog360, @Roelof033, @RSCCV, @Ruling-0, @Sanduhr32, @sbancuz, @sbwaz, @serenibyss, @seventh-june, @Sheodar, @Shigure-Ruiseki, @Sinerum, @sisyphussy, @SKProCH, @slprime, @SomeonePerson123, @Sopel97, @SpacEagle17, @Spaghetti-OberNub, @Spicierspace153, @SST-03, @StaffiX, @StoneLegion, @Sunrunner37, @SuperSoupr, @SwingURM, @system64MC, @Tahkeh, @Taskeren, @Teteros, @thehoblit, @thenextelement, @ThePixelbrain, @TheYoingLad, @thiago-solfo, @timb8g, @TKDMzq, @tomprince, @tuodekun, @TweksTY, @Tyronadre, @UltraProdigy, @unilock, @unix-supremacist, @Viptunbeqwfwew, @Vlamonster, @VortexSo4, @vulcandragi, @WanderingHero, @WayneYam, @WhyDoLogic2, @wlhlm, @WNP78, @Worive, @YamiKami-Sama, @Yoshy2002, @youkoaona, @zacharylott94, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
+Special thanks to @0hwx, @12411234, @2ndDerivative, @3ricbae, @52871299hzy, @54M44R, @6C-C6, @aabushnell, @AbdielKavash, @AbdoDayem, @ABKQPO, @Ableytner, @Aerindor-of-Arcane, @agreeable-frog, @ah-OOG-ah, @Alexdoru, @ALongStringOfNumbers, @alppp, @Ameobea, @and-reas-se, @arch1t3cht, @Ashen-sysadmin, @asquared31415, @asukaonly, @Auynonymous, @bencimp, @Bjdufre1, @bk5115545, @Blubstr, @BlueWeabo, @bombcar, @boubou19, @Brabb3l, @brachy84, @brandyyn, @BroFaceMcgee, @broscolotos, @C-Remilian, @C0bra5, @Caedis, @Calvin304, @cambech, @captainjolt, @Cardinalstars, @cargocats, @ChaosTheLegend, @Charsy89, @Chi31415, @chochem, @ChromaPIE, @chrombread, @clawdbot-silly-waddle, @Cleptomania, @CN132DAS, @combusterf, @Connor-Colenso, @copi143, @cubefury, @czerwonogrodzki, @czqwq, @danyadev, @DarkShadow44, @DeathFuel, @devpikachu, @dfddgge, @DialecticalMaterialist, @dibbydoda, @DioEgizio, @Discreater, @dragongod100, @Dream-Master, @Dredonkey, @DrParadox7, @DylanTaylor1, @echeese, @Eclipse-Sol, @eigenraven, @Eldrinn-Elantey, @embeddedt, @Emilgardis, @EmperorSuper, @EnderProyects, @Engineer12798, @envoidia, @EricC808, @Ethryan, @evgengoldwar, @FabienChatton, @Faotik, @felixfour, @fengluo2, @Firenezz, @Flakxo, @flamingowrangler2869, @Florexiz, @FourIsTheNumber, @FrostyFire1, @gaogao-qwq, @GDCloudstrike, @Georggi, @Ghezra, @ghostflyby, @GirixK, @github-actions[bot], @Glease, @glektarssza, @glowredman, @Goldenlion5648, @GribanovIvan, @grimly, @GTNH-Afx237v7, @guid118, @guusw, @ham-corp, @harrynull, @hinyb, @hiroscho, @imTheSupremeOne, @iouter, @iR3turnZ, @IX-git, @JackOfNoneTrades, @JeromeBollinger, @JL2210, @JohnButlerThird, @Johnnycyan, @jordanamr, @jude123412, @june-dev-username, @JustACasualDay, @KenzoWVY, @ko-lja, @Kogepan229, @konradmoesch, @koolkrafter5, @kopatych3348, @kotmatross28729, @kuba6000, @kx08, @Kynake, @LazyFleshWasTaken, @lc-1337, @leagris, @lesteenman, @leumasme, @Litten95, @loenaaaa, @lonei-G, @LooseEthics, @ls-r, @LunarLambda, @Lyfts, @lynxx131, @malabudi, @MalTeeez, @mamiemru, @MarkinoTeck, @MaxLunar, @maybemattie, @MCTBL, @MeiTianyou, @MellowArpeggiation, @michaeldoylecs, @mikkerlo, @Miklebe, @miozune, @mist475, @mitchej123, @mM4ri, @ModularityEnjoyer, @Morilli, @MuXiu1997, @Nana-Sakura, @NealDeal34, @NeOzay, @NeutronSelector, @Nightyyi, @Nikolay-Sitnikov, @noah-cope-dev, @Nockyx, @NotAPenguin0, @NotKaizul, @NovanOfLowat, @nshark, @nullTheCoder, @nwmqpa, @oddstr13, @ohentis, @OmdaCZ, @Omgise, @openblocki, @PantACRO4life, @pierrei, @PinkYuDeer, @PLASMAchicken, @PlayfulPiano, @purebluez, @Pxx500, @querns, @rainbowjose, @Ranzuu, @RealSilverMoon, @RecursivePineapple, @riggzh, @Roadhog360, @Roelof033, @RSCCV, @Ruling-0, @Sanduhr32, @sbancuz, @sbwaz, @serenibyss, @seventh-june, @Sheodar, @Shigure-Ruiseki, @Sinerum, @sisyphussy, @SKProCH, @slprime, @SomeonePerson123, @Sopel97, @SpacEagle17, @Spaghetti-OberNub, @Spicierspace153, @SST-03, @StaffiX, @StoneLegion, @Sunrunner37, @SuperSoupr, @SwingURM, @system64MC, @Tahkeh, @Taskeren, @Teteros, @thehoblit, @thenextelement, @ThePixelbrain, @TheYoingLad, @thiago-solfo, @timb8g, @TKDMzq, @tomprince, @tuodekun, @TweksTY, @Tyronadre, @UltraProdigy, @unilock, @unix-supremacist, @Viptunbeqwfwew, @Vlamonster, @VortexSo4, @vulcandragi, @WanderingHero, @WayneYam, @WhyDoLogic2, @wlhlm, @WNP78, @Worive, @YamiKami-Sama, @Yoshy2002, @youkoaona, @zacharylott94, @zyf051520, for their code contributions listed above, and to everyone else who helped, including all of our beta testers! <3
