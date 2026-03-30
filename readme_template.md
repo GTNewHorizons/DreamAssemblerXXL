@@ -6,7 +6,7 @@ Version {} is out {}
 
 <p align="justify">
     You are looking at a big progressive kitchensink pack for Minecraft 1.7.10 balanced around the mod GregTech.<BR><BR>
-    Over 10 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with over 3500 quests, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
+    Over 11 years of development (and still going) have formed a balance and refinement that only a handful of packs can keep up with. We are talking about thousands of recipe tweaks, a massive questbook with over 3500 quests, unique world generation, custom mods coded for the pack, custom Thaumonomicon pages, and many more.
     The main intentions of the pack are a long-lasting experience and tying mods together in a progressive fashion, making it feel more like a single game than a compilation of mods thrown together.<BR><BR>
     To reach this goal, GT New Horizons is using the tiers (basically ages of technology) from GregTech and allocates content of other mods to a fitting point within the progression.<BR><BR>
     Starting in the stone age you will barely be able to survive until you get your first steam machines and, eventually, reach electricity. Later on, you will have to visit other planets and dimensions to gather important resources and fight mighty bosses to channel their magical power.<BR><BR>
@@ -23,8 +23,8 @@ Here is our Discord server in case you want to take a look at it:
  
 <p align="justify">
     To install the GTNH modpack, please follow the instructions on the page <a href="http://gtnh.miraheze.org/wiki/Installing_and_Migrating">Installing and Migrating</a>.<BR>
-    The installation files can be found at <a href="http://downloads.gtnewhorizons.com">downloads.gtnewhorizons.com</a>.<BR>
-    Do not download the mods separately from the Modlist below - it is provided for reference purposes.
+    The installation files can be found on our website <a href="https://www.gtnewhorizons.com/downloads/">gtnewhorizons.com/downloads</a>.<BR>
+    Do not download the mods separately from the Modlist below - it is only provided for reference purposes.
 </p>
 
 ## Thanks
@@ -237,16 +237,16 @@ IP: gtnh.114-7.com
 
 ## Official Links
 
-MultiMC Downloads: http://downloads.gtnewhorizons.com/Multi_mc_downloads/ <BR>
-Technic Launcher Link: http://www.technicpack.net/modpack/mcnewhorizons.677387 <BR>
+Prism / MultiMC Downloads: https://www.gtnewhorizons.com/downloads/ <BR>
+Technic Launcher Link: https://www.technicpack.net/modpack/mcnewhorizons.677387 <BR>
 Curse Link: https://minecraft.curseforge.com/projects/gt-new-horizons <BR>
 Discord Link: https://discord.gg/gtnh <BR>
 Website Link: https://www.gtnewhorizons.com/ <BR>
-WIKI Link: https://wiki.gtnewhorizons.com/wiki/Main_Page<BR>
+Wiki Link: https://wiki.gtnewhorizons.com/wiki/Main_Page<BR>
 
 ### Contributing
 
-Want to contribute to GTNH? Join our Discord with the link above and read the development manual: https://gtnh.miraheze.org/wiki/Development.
+Want to contribute to GTNH? Join our Discord with the link above and read the development manual: https://wiki.gtnewhorizons.com/wiki/Development.
 
 
 
@@ -256,7 +256,7 @@ A resource pack created by MajaProduction that needs Optifine installed, you can
 ---
 ## Modlist - NewHorizons
  
-Downloads can be found at http://downloads.gtnewhorizons.com - do not try to download and install using the links below, this is for reference.
+Downloads can be found at https://www.gtnewhorizons.com/downloads/ - do not try to download and install using the links below, this is for reference.
 
 | Name | Version |
 | --- | --- |
