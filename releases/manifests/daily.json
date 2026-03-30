@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-29T05:23:29.478385",
-  "config": "2.9.0-nightly-2026-03-28",
+  "last_updated": "2026-03-30T05:37:34.336902",
+  "config": "2.9.0-nightly-2026-03-29",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-874-GTNH",
+      "version": "rv3-beta-876-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.393",
+      "version": "5.09.52.394",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.45",
+      "version": "0.9.47",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -277,7 +277,7 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.20",
+      "version": "1.6.21",
       "side": "BOTH"
     },
     "LogisticsPipes": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.191",
+      "version": "2.8.192",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.28-GTNH",
+      "version": "4.12.29-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.45-GTNH",
+      "version": "1.14.46-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.21",
+      "version": "2.0.22",
       "side": "BOTH"
     },
     "Fether": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.0.9",
+      "version": "1.0.10",
       "side": "BOTH"
     },
     "GTNH-Credits": {
