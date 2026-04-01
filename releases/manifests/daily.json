@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-03-31T05:23:13.061462",
+  "last_updated": "2026-04-01T05:34:54.826109",
   "config": "2.9.0-nightly-2026-03-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-876-GTNH",
+      "version": "rv3-beta-877-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.395",
+      "version": "5.09.52.396",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.193",
+      "version": "2.8.194",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.83-GTNH",
+      "version": "2.8.84-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -477,7 +477,7 @@
       "side": "BOTH"
     },
     "TCNodeTracker": {
-      "version": "1.4.2",
+      "version": "1.4.3",
       "side": "CLIENT"
     },
     "thaumcraft-research-tweaks": {
@@ -537,7 +537,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.23",
+      "version": "2.7.25",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -709,7 +709,7 @@
       "side": "BOTH"
     },
     "ServerUtilities": {
-      "version": "2.2.19",
+      "version": "2.2.20",
       "side": "BOTH"
     },
     "Tinkers-Defense": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.50-1.7.10",
+      "version": "2.3.51-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.8.4",
+      "version": "1.8.5",
       "side": "BOTH"
     },
     "RandomBoubles": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.22",
+      "version": "2.0.23",
       "side": "BOTH"
     },
     "Fether": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.0.10",
+      "version": "1.0.11",
       "side": "BOTH"
     },
     "GTNH-Credits": {
