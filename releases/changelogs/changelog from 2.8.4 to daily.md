@@ -905,10 +905,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* move log file to log folder by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/24 (3.4.3)
 >* update bs + gradle + deps by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/25 (3.4.3)
 
-# New Mod - CropsNH:2.0.24
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.24
+# New Mod - CropsNH:2.0.25
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.25
 
 ## What's Changed:
+>* Change Get Mod Item type calls to only panic using GT's RA2 panic flags by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/73 (2.0.25)
 >* Add more soil and underblock definitions for other mods by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/63 (2.0.24)
 >* Allow CropsNH fertilizer in Forestry Multifarms by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/69 (2.0.24)
 >* Prevent crop sticks from breaking when placed on garden soil by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/60 (2.0.24)
