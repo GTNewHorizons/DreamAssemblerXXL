@@ -326,10 +326,12 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-878-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-878-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-879-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-879-GTNH
 
 ## What's Changed:
+>* Add control button settings and configuration (Amount value fields) by @Ranzuu in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1155 (rv3-beta-879-GTNH)
+>* Enhanced pin management by @PantACRO4life in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1138 (rv3-beta-879-GTNH)
 >* Fixes & improvements fuzzy interface config by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1131 (rv3-beta-878-GTNH)
 >* Add line wrapping support for all interface names in the Interface Terminal by @ABKQPO in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1120 (rv3-beta-878-GTNH)
 >* fix search alt stacks when nei cant provide item by @lc-1337 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1159 (rv3-beta-878-GTNH)
@@ -905,10 +907,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* move log file to log folder by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/24 (3.4.3)
 >* update bs + gradle + deps by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/25 (3.4.3)
 
-# New Mod - CropsNH:2.0.25
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.25
+# New Mod - CropsNH:2.0.26
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.26
 
 ## What's Changed:
+>* Prevent crops from entering a quantum state on the client side by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/74 (2.0.26)
 >* Change Get Mod Item type calls to only panic using GT's RA2 panic flags by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/73 (2.0.25)
 >* Add more soil and underblock definitions for other mods by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/63 (2.0.24)
 >* Allow CropsNH fertilizer in Forestry Multifarms by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/69 (2.0.24)
@@ -1163,10 +1166,14 @@ Mod is client-side only.
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.397
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.397
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.398
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.398
 
 ## What's Changed:
+>* unify controller position in tooltip by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6264 (5.09.52.398)
+>* Add Apatite to Phosphorous Asteroid, add Space Ore Asteroid by @flamingowrangler2869 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6187 (5.09.52.398)
+>* RC Water Tank recipe rework by @Dream-Master in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6263 (5.09.52.398)
+>* fix glass limit stuff for mega ebf by @khaskelbergTAU in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6267 (5.09.52.398)
 >* Buff EHE IC2 coolant throughput by @Pxx500 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6211 (5.09.52.397)
 >* Buffed molten redstone in acid generator by @bumbleBee945 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6236 (5.09.52.397)
 >* Always Register Pollution Devices by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6256 (5.09.52.397)
@@ -2619,10 +2626,11 @@ Mod is client-side only.
 >* use AspectList.remove instead of AspectList.reduce to fix "sometimes drainer doesn't work with essentia import bus" by @SST-03 in https://github.com/GTNewHorizons/MagicBees/pull/56 (2.10.4-GTNH)
 >* Add hint text for Tempus by @koolkrafter5 in https://github.com/GTNewHorizons/MagicBees/pull/57 (2.10.2-GTNH)
 
-# Updated - MalisisDoors - 1.18.2-GTNH --> 1.19.2-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/MalisisDoors/compare/1.18.2-GTNH...1.19.2-GTNH
+# Updated - MalisisDoors - 1.18.2-GTNH --> 1.19.3-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/MalisisDoors/compare/1.18.2-GTNH...1.19.3-GTNH
 
 ## What's Changed:
+>* Simplify font rendering by @DeathFuel in https://github.com/GTNewHorizons/MalisisDoors/pull/25 (1.19.3-GTNH)
 >* Separated tile vs gui title string in lang by @Ranzuu in https://github.com/GTNewHorizons/MalisisDoors/pull/24 (1.19.2-GTNH)
 >* Small thread-safety fix to prevent certain NullPointers by @Cleptomania in https://github.com/GTNewHorizons/MalisisDoors/pull/23 (1.19.0-GTNH)
 
@@ -2791,10 +2799,13 @@ Mod is client-side only.
 >* fix redwood saplings growing without 7x7 field by @Morilli in https://github.com/GTNewHorizons/Natura/pull/37 (2.8.15)
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.194
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.194
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.195
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.195
 
 ## What's Changed:
+>* Changed the Tinker Wool Slab recipe (Shears->Saw) by @Ranzuu in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1677 (2.8.195)
+>* Rc Water Tank recipe rework by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1676 (2.8.195)
+>* Fix Dreamwood inert rod by @LazyFleshWasTaken in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1679 (2.8.195)
 >* Commiting an import and export bus assembler recipe by @WhyDoLogic2 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1675 (2.8.194)
 >* Add Thaumonomicon entries to describe my Draconic Evolution PR for automating the disenchanter by @felixfour in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1672 (2.8.194)
 >* Add aspects to GT++ Materials by @jude123412 in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1639 (2.8.193)
