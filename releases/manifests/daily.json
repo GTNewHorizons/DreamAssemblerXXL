@@ -1,7 +1,7 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-04-03T05:19:29.785153",
+  "last_updated": "2026-04-04T05:06:14.314078",
   "config": "2.9.0-nightly-2026-03-29",
   "github_mods": {
     "AdventureBackpack2": {
@@ -13,7 +13,7 @@
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.10.17-GTNH",
+      "version": "0.10.18-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-879-GTNH",
+      "version": "rv3-beta-882-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -181,7 +181,7 @@
       "side": "BOTH"
     },
     "ForbiddenMagic": {
-      "version": "0.9.14-GTNH",
+      "version": "0.9.15-GTNH",
       "side": "BOTH"
     },
     "ForestryMC": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.398",
+      "version": "5.09.52.400",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.115",
+      "version": "2.7.116",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -261,7 +261,7 @@
       "side": "BOTH"
     },
     "ironchest": {
-      "version": "6.1.11",
+      "version": "6.1.12",
       "side": "BOTH"
     },
     "IronChestMinecarts": {
@@ -269,7 +269,7 @@
       "side": "BOTH"
     },
     "Irontanks": {
-      "version": "1.4.4",
+      "version": "1.4.5",
       "side": "BOTH"
     },
     "Jabba": {
@@ -277,15 +277,15 @@
       "side": "BOTH"
     },
     "LittleTiles": {
-      "version": "1.6.22",
+      "version": "1.6.23",
       "side": "BOTH"
     },
     "LogisticsPipes": {
-      "version": "1.5.16-GTNH",
+      "version": "1.5.18-GTNH",
       "side": "BOTH"
     },
     "LootGames": {
-      "version": "2.2.10",
+      "version": "2.2.11",
       "side": "BOTH"
     },
     "LunatriusCore": {
@@ -297,7 +297,7 @@
       "side": "BOTH"
     },
     "MalisisDoors": {
-      "version": "1.19.3-GTNH",
+      "version": "1.19.4-GTNH",
       "side": "BOTH"
     },
     "Mantle": {
@@ -305,7 +305,7 @@
       "side": "BOTH"
     },
     "Minecraft-Backpack-Mod": {
-      "version": "2.6.10-GTNH",
+      "version": "2.6.11-GTNH",
       "side": "BOTH"
     },
     "Minetweaker-Gregtech-5-Addon": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.195",
+      "version": "2.8.196",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -349,7 +349,7 @@
       "side": "BOTH"
     },
     "NotEnoughItems": {
-      "version": "2.8.84-GTNH",
+      "version": "2.8.85-GTNH",
       "side": "BOTH"
     },
     "Nuclear-Control": {
@@ -453,11 +453,11 @@
       "side": "BOTH"
     },
     "StevesAddons": {
-      "version": "0.15.3",
+      "version": "0.15.4",
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.17-GTNH",
+      "version": "2.2.18-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -493,11 +493,11 @@
       "side": "BOTH"
     },
     "ThaumicBases": {
-      "version": "1.9.7",
+      "version": "1.9.12",
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.38-GTNH",
+      "version": "1.7.39-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -537,7 +537,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.25",
+      "version": "2.7.26",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -665,7 +665,7 @@
       "side": "BOTH"
     },
     "Tainted-Magic": {
-      "version": "7.7.6-GTNH",
+      "version": "7.7.7-GTNH",
       "side": "BOTH"
     },
     "lwjgl3ify": {
@@ -673,7 +673,7 @@
       "side": "BOTH_JAVA9"
     },
     "amunra": {
-      "version": "0.8.8",
+      "version": "0.8.9",
       "side": "BOTH"
     },
     "DuraDisplay": {
@@ -701,7 +701,7 @@
       "side": "CLIENT"
     },
     "ThaumicBoots": {
-      "version": "1.5.8",
+      "version": "1.5.9",
       "side": "BOTH"
     },
     "Amazing-Trophies": {
@@ -713,7 +713,7 @@
       "side": "BOTH"
     },
     "Tinkers-Defense": {
-      "version": "1.3.3",
+      "version": "1.3.4",
       "side": "BOTH"
     },
     "neiaddons": {
@@ -721,7 +721,7 @@
       "side": "BOTH"
     },
     "Angelica": {
-      "version": "2.1.15",
+      "version": "2.1.16",
       "side": "CLIENT"
     },
     "AkashicTome": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.21-GTNH",
+      "version": "0.1.22-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.8.6",
+      "version": "1.8.7",
       "side": "BOTH"
     },
     "RandomBoubles": {
