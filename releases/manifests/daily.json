@@ -1,7 +1,7 @@
 {
   "version": "daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-04-06T10:38:44.742675",
+  "last_version": "2.8.4",
+  "last_updated": "2026-04-06T10:45:51.934326",
   "config": "2.9.0-nightly-2026-04-05",
   "github_mods": {
     "AdventureBackpack2": {
@@ -820,10 +820,6 @@
       "version": "1.1.0",
       "side": "CLIENT"
     },
-    "TinkersGregworks": {
-      "version": "GTNH-1.0.33",
-      "side": "BOTH"
-    },
     "CosmeticArmorReworked": {
       "version": "1.0.0-GTNH",
       "side": "BOTH"
@@ -944,6 +940,10 @@
     },
     "Bug-Torch": {
       "version": "1.2.14",
+      "side": "BOTH"
+    },
+    "Tinkers-Gregworks": {
+      "version": "1.0.31",
       "side": "BOTH"
     }
   }
