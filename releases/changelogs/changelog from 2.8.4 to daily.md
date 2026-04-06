@@ -1,5 +1,6 @@
 # New Mods: 
 > * AspectRecipeIndex
+> * CosmeticArmorReworked
 > * CropsNH
 > * Fether
 > * Freecam
@@ -7,7 +8,9 @@
 > * GregoryTweaksForCrafting
 > * MouseTweaks
 > * RandomBoubles
+> * SimpleSkinBackport
 > * VendingMachine
+> * VillageNames
 # Mods Removed: 
 > * AE2NoUltimatePatterns
 > * BrandonsCore
@@ -913,6 +916,11 @@ Mod is client-side only.
 >* Reenable spotless by @wlhlm in https://github.com/GTNewHorizons/CoreTweaks/pull/5 (0.3.3.8-GTNH)
 >* Remove update checker by @wlhlm in https://github.com/GTNewHorizons/CoreTweaks/pull/3 (0.3.3.7-GTNH)
 
+# New Mod - CosmeticArmorReworked:1.0.0-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/CosmeticArmorReworked/commits/1.0.0-GTNH/compare/1.0.0-GTNH...1.0.0-GTNH
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - Craft-Presence - 2.6.2 --> 2.7.1
 Mod is client-side only.
 ## What's Changed:
@@ -927,10 +935,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* move log file to log folder by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/24 (3.4.3)
 >* update bs + gradle + deps by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/25 (3.4.3)
 
-# New Mod - CropsNH:2.0.28
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.28
+# New Mod - CropsNH:2.0.29
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.29
 
 ## What's Changed:
+>* Expand list of under blocks to allow for extra ores by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/75 (2.0.29)
 >* Fix partial consumption from fluid stacks in the IF by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/76 (2.0.28)
 >* Add some structure channels for the industrial farm and fix survival build. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/54 (2.0.28)
 >* Fix incorrect height diameter of Crop Manager tooltip by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/85 (2.0.28)
@@ -1193,10 +1202,11 @@ Mod is client-side only.
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.408
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.408
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.409
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.409
 
 ## What's Changed:
+>* fix naquadah fuel refinery using 2 amps when having a single energy hatch by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6295 (5.09.52.409)
 >* Enhanced the power goggles chart by @Ranzuu in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6013 (5.09.52.408)
 >* fix two world server memory leaks caused by pollution and chunk manager by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6296 (5.09.52.408)
 >* Fix GT++ Cells getting registered as gt cells by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6293 (5.09.52.407)
@@ -3227,6 +3237,12 @@ Mod is client-side only.
 ## What's Changed:
 >* Add keybinding to directly open the calculator by @wlhlm in https://github.com/GTNewHorizons/OpenModsLib/pull/9 (0.10.13)
 
+# Updated - OpenModularTurrets - 2.4.3 --> 2.4.4
+**Full Changelog**: https://github.com/GTNewHorizons/OpenModularTurrets/compare/2.4.3...2.4.4
+
+## What's Changed:
+>* Update / Localization of gui elements by @Ranzuu in https://github.com/GTNewHorizons/OpenModularTurrets/pull/10 (2.4.4)
+
 # Updated - Opis - 1.4.6-mapless --> 1.4.8-mapless
 **Full Changelog**: https://github.com/GTNewHorizons/Opis/compare/1.4.6-mapless...1.4.8-mapless
 
@@ -3363,6 +3379,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* feat: new backup settings for claimed chunks only that saves the entire region file by @jordanamr in https://github.com/GTNewHorizons/ServerUtilities/pull/234 (2.2.5)
 >* Add custom configurable MOTD feature by @alppp in https://github.com/GTNewHorizons/ServerUtilities/pull/242 (2.2.3)
 
+# New Mod - SimpleSkinBackport:1.0.0-GTNH
+Mod is client-side only.
+**Full Changelog**: https://github.com/GTNewHorizons/SimpleSkinBackport/commits/1.0.0-GTNH/compare/1.0.0-GTNH...1.0.0-GTNH
+
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - SpecialMobs - 3.6.3 --> 3.7.2
 **Full Changelog**: https://github.com/GTNewHorizons/SpecialMobs/compare/3.6.3...3.7.2
 
@@ -3484,10 +3506,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add hint text for TB aspects by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicBoots/pull/45 (1.5.2)
 >* Add glease' maven as required by tc4recipelib by @wlhlm in https://github.com/GTNewHorizons/ThaumicBoots/pull/43 (1.5.0)
 
-# Updated - ThaumicEnergistics - 1.7.14-GTNH --> 1.7.39-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.14-GTNH...1.7.39-GTNH
+# Updated - ThaumicEnergistics - 1.7.14-GTNH --> 1.7.40-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ThaumicEnergistics/compare/1.7.14-GTNH...1.7.40-GTNH
 
 ## What's Changed:
+>* Fix every slot being off by 1 px in the ACT by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/122 (1.7.40-GTNH)
 >* Enhance GUI elements and register upgrade cards by @Ranzuu in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/120 (1.7.39-GTNH)
 >* Remove redundant tooltips from the AE2 upgrade cards by @Ranzuu in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/119 (1.7.38-GTNH)
 >* Fix consuming primordial pearls in recipes by @koolkrafter5 in https://github.com/GTNewHorizons/ThaumicEnergistics/pull/117 (1.7.37-GTNH)
@@ -3703,6 +3726,17 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Change README by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/11 (0.4.3)
 >* Adjust tab pixels by @Ranzuu in https://github.com/GTNewHorizons/VendingMachine/pull/1 (0.4.2)
 >* Structure changes by @cubefury in https://github.com/GTNewHorizons/VendingMachine/pull/2 (0.4.2)
+
+# New Mod - VillageNames:4.5.8-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/VillageNames/compare/4.5.0-GTNH-pre...4.5.8-GTNH
+
+## What's Changed:
+>* Optimize guardian spawning by @mitchej123 in https://github.com/GTNewHorizons/VillageNames/pull/2 (4.5.8-GTNH)
+>* Remove all reflection and replace it with Mixins by @ABKQPO in https://github.com/GTNewHorizons/VillageNames/pull/5 (4.5.8-GTNH)
+>* rm version checker by @Alexdoru in https://github.com/GTNewHorizons/VillageNames/pull/6 (4.5.8-GTNH)
+>* delete useless forge event registration by @Alexdoru in https://github.com/GTNewHorizons/VillageNames/pull/4 (4.5.5-GTNH)
+>* Remove Brewing Stands from Village Generation by @UltraProdigy in https://github.com/GTNewHorizons/VillageNames/pull/3 (4.5.4-GTNH)
+>* remove __OBFID strings by @Dream-Master in https://github.com/GTNewHorizons/VillageNames/pull/1 (4.5.1-GTNH)
 
 # Updated - VisualProspecting - 1.4.8 --> 1.5.18
 **Full Changelog**: https://github.com/GTNewHorizons/VisualProspecting/compare/1.4.8...1.5.18
