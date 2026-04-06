@@ -1,19 +1,19 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-04-05T05:25:11.631725",
-  "config": "2.9.0-nightly-2026-03-29",
+  "last_updated": "2026-04-06T05:37:52.039192",
+  "config": "2.9.0-nightly-2026-04-05",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.69-gtnh",
+      "version": "1.5.70-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
-      "version": "0.10.18-GTNH",
+      "version": "0.10.19-GTNH",
       "side": "BOTH"
     },
     "AFSU": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-885-GTNH",
+      "version": "rv3-beta-887-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.403",
+      "version": "5.09.52.408",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.47",
+      "version": "0.9.48",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.196",
+      "version": "2.8.198",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.24-GTNH",
+      "version": "1.12.26-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -501,7 +501,7 @@
       "side": "BOTH"
     },
     "ThaumicHorizons": {
-      "version": "1.8.12",
+      "version": "1.8.13",
       "side": "BOTH"
     },
     "thaumicinsurgence": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.47-GTNH",
+      "version": "1.14.50-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -585,7 +585,7 @@
       "side": "BOTH"
     },
     "WitchingGadgets": {
-      "version": "1.8.40-GTNH",
+      "version": "1.8.41-GTNH",
       "side": "BOTH"
     },
     "Yamcl": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.51-1.7.10",
+      "version": "2.3.52-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.22-GTNH",
+      "version": "0.1.23-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -781,7 +781,7 @@
       "side": "BOTH"
     },
     "Backhand": {
-      "version": "1.8.7",
+      "version": "1.8.8",
       "side": "BOTH"
     },
     "RandomBoubles": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.27",
+      "version": "2.0.28",
       "side": "BOTH"
     },
     "Fether": {
