@@ -1221,10 +1221,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.412
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.412
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.414
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.414
 
 ## What's Changed:
+>* [MUI2] Ported MTETieredTank to MUI2 by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6230 (5.09.52.414)
+>* Remove wrong info from Oil Drill Tooltip by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6311 (5.09.52.414)
 >* Automatic ProcessingLogic per CRIB recipe cache flushing by @zyf051520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5957 (5.09.52.412)
 >* Better smart input hatch by @zyf051520 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/5984 (5.09.52.412)
 >* Add Arc Furnace description by @Eldrinn-Elantey in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6300 (5.09.52.411)
@@ -2265,10 +2267,11 @@ Mod is client-side only.
 >* Registry Name Migration for NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/27 (1.4.9)
 >* Remove chc recipe by @RealSilverMoon in https://github.com/GTNewHorizons/GTNH-TC-Wands/pull/26 (1.4.7)
 
-# Updated - GTNHLib - 0.7.10 --> 0.9.48
-**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.48
+# Updated - GTNHLib - 0.7.10 --> 0.9.49
+**Full Changelog**: https://github.com/GTNewHorizons/GTNHLib/compare/0.7.10...0.9.49
 
 ## What's Changed:
+>* add ItemStackNBT helper by @Alexdoru in https://github.com/GTNewHorizons/GTNHLib/pull/323 (0.9.49)
 >* Minor configuration system cleanup by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GTNHLib/pull/322 (0.9.48)
 >* implement CubeIterator by @felixfour in https://github.com/GTNewHorizons/GTNHLib/pull/309 (0.9.47)
 >* Add proper automatic model detection by @ah-OOG-ah in https://github.com/GTNewHorizons/GTNHLib/pull/313 (0.9.45)
@@ -3251,10 +3254,11 @@ Mod is client-side only.
 >* Fix non-deployed glider position for other players by @Worive in https://github.com/GTNewHorizons/OpenBlocks/pull/34 (1.12.1-GTNH)
 >* Fix glider upside-down for other players by @Worive in https://github.com/GTNewHorizons/OpenBlocks/pull/33 (1.12.0-GTNH)
 
-# Updated - OpenComputers - 1.11.20-GTNH --> 1.12.28-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.20-GTNH...1.12.28-GTNH
+# Updated - OpenComputers - 1.11.20-GTNH --> 1.12.30-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.20-GTNH...1.12.30-GTNH
 
 ## What's Changed:
+>* Add `swap` Method to Transposers by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/180 (1.12.30-GTNH)
 >* Add Integration for Infusion Matrix and improve ConverterAspectItem for Thaumcraft. by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/165 (1.12.28-GTNH)
 >* fix(gregtech): resolve incorrect value for LSC by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/179 (1.12.26-GTNH)
 >* feat(lwjgl3ify): add drop_file event by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/178 (1.12.26-GTNH)
@@ -3327,10 +3331,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Fix capitalisation in en-US localisation by @ModularityEnjoyer in https://github.com/GTNewHorizons/ProjectRed/pull/61 (4.12.8-GTNH)
 >* BlockBreaker: Fix breaking sound coordinates to prevent crash by @DarkShadow44 in https://github.com/GTNewHorizons/ProjectRed/pull/59 (4.12.7-GTNH)
 
-# Updated - Railcraft - 9.16.33 --> 9.17.25
-**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.33...9.17.25
+# Updated - Railcraft - 9.16.33 --> 9.17.26
+**Full Changelog**: https://github.com/GTNewHorizons/Railcraft/compare/9.16.33...9.17.26
 
 ## What's Changed:
+>* Fixes stairs metadata display by @Ranzuu in https://github.com/GTNewHorizons/Railcraft/pull/119 (9.17.26)
 >* Fixing mob spawning on decorative slabs by @NotKaizul in https://github.com/GTNewHorizons/Railcraft/pull/117 (9.17.25)
 >* Fix WorldAnchor disconnecting players after linkining  by @PLASMAchicken in https://github.com/GTNewHorizons/Railcraft/pull/116 (9.17.24)
 >* Added optional color change localization string by @Ranzuu in https://github.com/GTNewHorizons/Railcraft/pull/108 (9.17.24)
