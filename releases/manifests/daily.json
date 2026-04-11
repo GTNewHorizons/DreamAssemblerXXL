@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-04-10T05:37:48.126357",
-  "config": "2.9.0-nightly-2026-04-09",
+  "last_updated": "2026-04-11T05:10:57.742180",
+  "config": "2.9.0-nightly-2026-04-10",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.416",
+      "version": "5.09.52.417",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.29-GTNH",
+      "version": "4.12.30-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.33",
+      "version": "2.0.34",
       "side": "BOTH"
     },
     "Fether": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.0.12",
+      "version": "1.0.13",
       "side": "BOTH"
     },
     "GTNH-Credits": {
