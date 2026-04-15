@@ -730,10 +730,11 @@ Mod is client-side only.
 >* Fix issues when changing p2p type that involves conversion by @hiroscho in https://github.com/GTNewHorizons/BetterP2P/pull/40 (1.4.2)
 >* Make more Memory Card UI strings translatable by @Ranzuu in https://github.com/GTNewHorizons/BetterP2P/pull/38 (1.4.0)
 
-# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.34-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.34-GTNH
+# Updated - BetterQuesting - 3.7.15-GTNH --> 3.8.35-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/BetterQuesting/compare/3.7.15-GTNH...3.8.35-GTNH
 
 ## What's Changed:
+>* add view depend by @ABKQPO in https://github.com/GTNewHorizons/BetterQuesting/pull/198 (3.8.35-GTNH)
 >* Fix URL Color Toggle by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/197 (3.8.34-GTNH)
 >* Fix server leak by @Alexdoru in https://github.com/GTNewHorizons/BetterQuesting/pull/196 (3.8.33-GTNH)
 >* Optimize Image & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/BetterQuesting/pull/193 (3.8.32-GTNH)
@@ -778,10 +779,11 @@ Mod is client-side only.
 >* [Memory-opti:runtime allocations] Reduce amount of NBTTagCompound created in TileEntityMetadata#getItemStack by @Alexdoru in https://github.com/GTNewHorizons/Binnie/pull/77 (2.6.2)
 >* fix batched updates does not call window and machine packet listeners by @Glease in https://github.com/GTNewHorizons/Binnie/pull/74 (2.6.0)
 
-# Updated - BlockRenderer6343 - 1.3.17 --> 1.4.8
-**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.17...1.4.8
+# Updated - BlockRenderer6343 - 1.3.17 --> 1.4.9
+**Full Changelog**: https://github.com/GTNewHorizons/BlockRenderer6343/compare/1.3.17...1.4.9
 
 ## What's Changed:
+>* Fix mouse offset wrong on secondary pages by @Lyfts in https://github.com/GTNewHorizons/BlockRenderer6343/pull/44 (1.4.9)
 >* Enhance neiOverlay with named paper output and filtered all MTEHatches by @czqwq in https://github.com/GTNewHorizons/BlockRenderer6343/pull/43 (1.4.8)
 >* Improve Valid Hatches String in MB preview by @Yoshy2002 in https://github.com/GTNewHorizons/BlockRenderer6343/pull/41 (1.4.7)
 >* Handler config by @slprime in https://github.com/GTNewHorizons/BlockRenderer6343/pull/40 (1.4.6)
@@ -972,10 +974,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* move log file to log folder by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/24 (3.4.3)
 >* update bs + gradle + deps by @Alexdoru in https://github.com/GTNewHorizons/CraftTweaker/pull/25 (3.4.3)
 
-# New Mod - CropsNH:2.0.37
-**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.37
+# New Mod - CropsNH:2.0.38
+**Full Changelog**: https://github.com/GTNewHorizons/CropsNH/compare/2.0.0...2.0.38
 
 ## What's Changed:
+>* Fix and improve waila tooltips by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/104 (2.0.38)
+>* Balance thiosulfine conversion recipes. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/101 (2.0.38)
 >* Add thiosulfine, the sulfur crop  by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/99 (2.0.37)
 >* Fix alcohol fluid langs and lessen gt++ reliance for celled fluids. by @C0bra5 in https://github.com/GTNewHorizons/CropsNH/pull/97 (2.0.37)
 >* Bump gt dep by @Alexdoru in https://github.com/GTNewHorizons/CropsNH/pull/98 (2.0.36)
@@ -1156,10 +1160,11 @@ Mod is client-side only.
 >* Disable show favorites button show overlay button by @Eldrinn-Elantey in https://github.com/GTNewHorizons/EnhancedLootBags/pull/17 (1.3.1)
 >* Update NEI Handler by @slprime in https://github.com/GTNewHorizons/EnhancedLootBags/pull/16 (1.2.10)
 
-# Updated - Et-Futurum-Requiem - 2.6.2.25-GTNH --> 2.6.12-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.25-GTNH...2.6.12-GTNH
+# Updated - Et-Futurum-Requiem - 2.6.2.25-GTNH --> 2.6.15-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Et-Futurum-Requiem/compare/2.6.2.25-GTNH...2.6.15-GTNH
 
 ## What's Changed:
+>* Fix FMagic Dep by @UltraProdigy in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/57 (2.6.15-GTNH)
 >* Fixed duplication of doors during copper oxidization by @nwmqpa in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/42 (2.6.12-GTNH)
 >* Simplify observer notification logic by @Caedis in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/46 (2.6.12-GTNH)
 >* Readded raw ores to blast furnace recipes by @Caedis in https://github.com/GTNewHorizons/Et-Futurum-Requiem/pull/48 (2.6.12-GTNH)
@@ -1239,10 +1244,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Adds configurable display of backpack fullness by @querns in https://github.com/GTNewHorizons/ForestryMC/pull/101 (4.11.0)
 >* Drop contents of Alveary when it's broken by @DarkShadow44 in https://github.com/GTNewHorizons/ForestryMC/pull/102 (4.11.0)
 
-# Updated - ForgeMultipart - 1.7.2 --> 1.7.3
-**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.7.2...1.7.3
+# Updated - ForgeMultipart - 1.7.2 --> 1.7.4
+**Full Changelog**: https://github.com/GTNewHorizons/ForgeMultipart/compare/1.7.2...1.7.4
 
 ## What's Changed:
+>* fix world server leak by @Alexdoru in https://github.com/GTNewHorizons/ForgeMultipart/pull/41 (1.7.4)
 >* Update buildscript to v2 by @Worive in https://github.com/GTNewHorizons/ForgeMultipart/pull/40 (1.7.3)
 
 # New Mod - Freecam:1.0.7
@@ -1259,10 +1265,22 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.421
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.421
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.427
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.427
 
 ## What's Changed:
+>* fix siphon structure to use the correct rebolted casing by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6374 (5.09.52.427)
+>* [Structure Rework] Industrial Forming Press / Industrial Bending Machine by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6356 (5.09.52.427)
+>* Fix transparent controller texture when using Imprecise Electronic Unit Casings in PreciseAssembler by @czqwq in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6365 (5.09.52.426)
+>* [MUI2] Ported MTEHatchOutputBus to MUI2 by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6270 (5.09.52.426)
+>* [MUI2] Ported MTEBasicGenerator to MUI2 by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6235 (5.09.52.426)
+>* [MUI2] Small UI fix for MTEHatchEnergyDebug by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6246 (5.09.52.426)
+>* [MUI2] Port of MTEBasicBatteryBuffer by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6029 (5.09.52.426)
+>* Speedup remove recipe by @danyadev in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6370 (5.09.52.426)
+>* Fix debug input hatch usage on some multis by @kuba6000 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6352 (5.09.52.424)
+>* shift ids to avoid issues with armor PR on experimental builds by @boubou19 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6367 (5.09.52.424)
+>* Add UEV-MAX Voltage Coil Items by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6366 (5.09.52.423)
+>* Nei Handler Refactoring by @slprime in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6297 (5.09.52.422)
 >* Buff MHDCSM v2 Recipe for new EIC by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6346 (5.09.52.421)
 >* Fixed missing translation for the "EU" string by @iouter in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6348 (5.09.52.421)
 >* [Structure Rework] Planetary Gas Siphon by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6310 (5.09.52.421)
@@ -2874,10 +2892,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Add Overridable Methods For Slot Amount Text by @RecursivePineapple in https://github.com/GTNewHorizons/ModularUI/pull/91 (1.3.1)
 >* Added null check and removal from open queue to closing windows on the client side by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI/pull/92 (1.3.0)
 
-# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.55-1.7.10
-**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.55-1.7.10
+# Updated - ModularUI2 - 2.2.18-1.7.10 --> 2.3.56-1.7.10
+**Full Changelog**: https://github.com/GTNewHorizons/ModularUI2/compare/2.2.18-1.7.10...2.3.56-1.7.10
 
 ## What's Changed:
+>* Added opacity to UITexture copy() method by @TheYoingLad in https://github.com/GTNewHorizons/ModularUI2/pull/112 (2.3.56-1.7.10)
+>* Fix NPE when on unloading world by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/113 (2.3.56-1.7.10)
 >* Sync Uptsream: Grid fixes by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/110 (2.3.55-1.7.10)
 >* Split container stack to each player by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/111 (2.3.55-1.7.10)
 >* Sync upstream by @brachy84 in https://github.com/GTNewHorizons/ModularUI2/pull/105 (2.3.54-1.7.10)
@@ -2990,10 +3010,12 @@ Mod is client-side only.
 >* fix redwood saplings growing without 7x7 field by @Morilli in https://github.com/GTNewHorizons/Natura/pull/37 (2.8.15)
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.205
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.205
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.206
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.206
 
 ## What's Changed:
+>* Forestry, Extra trees and one BoP recipe by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1694 (2.8.206)
+>* Qol and decoration by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1698 (2.8.206)
 >* Chests and Tank recipes updated by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1700 (2.8.205)
 >* Add circ 1 to chisel recipes by @LazyFleshWasTaken in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1702 (2.8.205)
 >* Minor NEI debloat by @TotallyNotOndre in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1699 (2.8.204)
@@ -3254,10 +3276,11 @@ Mod is client-side only.
 >* Minor cleanup. Remove excessive copies of the matrix recipe by @kopatych3348 in https://github.com/GTNewHorizons/Nodal-Mechanics/pull/13 (1.3.3-GTNH)
 >* Fix crashes and odd behavior from renamed Node Matricies  by @purebluez in https://github.com/GTNewHorizons/Nodal-Mechanics/pull/12 (1.3.2-GTNH)
 
-# Updated - NotEnoughEnergistics - 1.7.14 --> 1.7.26
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.14...1.7.26
+# Updated - NotEnoughEnergistics - 1.7.14 --> 1.7.27
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.14...1.7.27
 
 ## What's Changed:
+>* Add config to keep non-consumable NEI ingredients in ME patterns by @Eldrinn-Elantey in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/64 (1.7.27)
 >* Aspect Recipe Index Support by @koolkrafter5 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/63 (1.7.26)
 >* allow autofill aspects in pattern by @lc-1337 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/62 (1.7.25)
 >* Update PacketCraftingRequest.java by @Eldrinn-Elantey in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/61 (1.7.24)
@@ -3359,10 +3382,11 @@ Mod is client-side only.
 >* Fix non-deployed glider position for other players by @Worive in https://github.com/GTNewHorizons/OpenBlocks/pull/34 (1.12.1-GTNH)
 >* Fix glider upside-down for other players by @Worive in https://github.com/GTNewHorizons/OpenBlocks/pull/33 (1.12.0-GTNH)
 
-# Updated - OpenComputers - 1.11.20-GTNH --> 1.12.32-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.20-GTNH...1.12.32-GTNH
+# Updated - OpenComputers - 1.11.20-GTNH --> 1.12.33-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.20-GTNH...1.12.33-GTNH
 
 ## What's Changed:
+>* fix(appeng): use long instead of int for item sizes by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/183 (1.12.33-GTNH)
 >* Special handling for ae2 P2Ps by @MarkinoTeck in https://github.com/GTNewHorizons/OpenComputers/pull/182 (1.12.32-GTNH)
 >* feat(appeng): add integration for interface terminal by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/173 (1.12.31-GTNH)
 >* Add `swap` Method to Transposers by @Vlamonster in https://github.com/GTNewHorizons/OpenComputers/pull/180 (1.12.30-GTNH)
@@ -3420,10 +3444,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* Provide chunk to tile entity transformers by @SuperSoupr in https://github.com/GTNewHorizons/Postea/pull/17 (1.1.5)
 >* Use FMLModIdMappingEvent for numeric id mapping by @SuperSoupr in https://github.com/GTNewHorizons/Postea/pull/15 (1.1.4)
 
-# Updated - ProjectRed - 4.12.6-GTNH --> 4.12.30-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.6-GTNH...4.12.30-GTNH
+# Updated - ProjectRed - 4.12.6-GTNH --> 4.12.31-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/ProjectRed/compare/4.12.6-GTNH...4.12.31-GTNH
 
 ## What's Changed:
+>* fix world server memory leak caused by reusableRun object pools by @Alexdoru in https://github.com/GTNewHorizons/ProjectRed/pull/76 (4.12.31-GTNH)
 >* Improve interaction between locked drawers and dynamic item responder chip by @Dragovorn in https://github.com/GTNewHorizons/ProjectRed/pull/75 (4.12.30-GTNH)
 >* Move moss spreading to mixin-based variant by @MalTeeez in https://github.com/GTNewHorizons/ProjectRed/pull/72 (4.12.29-GTNH)
 >* Localization of GUI elements by @Ranzuu in https://github.com/GTNewHorizons/ProjectRed/pull/71 (4.12.28-GTNH)

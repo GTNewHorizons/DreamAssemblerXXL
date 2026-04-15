@@ -1,8 +1,8 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-04-14T05:36:13.457855",
-  "config": "2.9.0-nightly-2026-04-13",
+  "last_updated": "2026-04-15T05:36:50.861174",
+  "config": "2.9.0-nightly-2026-04-15",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
@@ -69,7 +69,7 @@
       "side": "BOTH"
     },
     "BetterQuesting": {
-      "version": "3.8.34-GTNH",
+      "version": "3.8.35-GTNH",
       "side": "BOTH"
     },
     "Binnie": {
@@ -193,7 +193,7 @@
       "side": "BOTH"
     },
     "ForgeMultipart": {
-      "version": "1.7.3",
+      "version": "1.7.4",
       "side": "BOTH"
     },
     "Gadomancy": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.421",
+      "version": "5.09.52.427",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.205",
+      "version": "2.8.206",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -345,7 +345,7 @@
       "side": "BOTH"
     },
     "NotEnoughEnergistics": {
-      "version": "1.7.26",
+      "version": "1.7.27",
       "side": "BOTH"
     },
     "NotEnoughItems": {
@@ -369,7 +369,7 @@
       "side": "BOTH"
     },
     "OpenComputers": {
-      "version": "1.12.32-GTNH",
+      "version": "1.12.33-GTNH",
       "side": "BOTH"
     },
     "OpenModsLib": {
@@ -401,7 +401,7 @@
       "side": "BOTH"
     },
     "ProjectRed": {
-      "version": "4.12.30-GTNH",
+      "version": "4.12.31-GTNH",
       "side": "BOTH"
     },
     "Railcraft": {
@@ -597,7 +597,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.4.8",
+      "version": "1.4.9",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -733,7 +733,7 @@
       "side": "BOTH"
     },
     "ModularUI2": {
-      "version": "2.3.55-1.7.10",
+      "version": "2.3.56-1.7.10",
       "side": "BOTH"
     },
     "Baubles-Expanded": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.12-GTNH",
+      "version": "2.6.15-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.37",
+      "version": "2.0.38",
       "side": "BOTH"
     },
     "Fether": {
