@@ -629,10 +629,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix npe from Util.getUsername by @Alexdoru in https://github.com/GTNewHorizons/AspectRecipeIndex/pull/4 (1.0.12)
 
-# Updated - Avaritia - 1.77 --> 1.93
-**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.77...1.93
+# Updated - Avaritia - 1.77 --> 1.94
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.77...1.94
 
 ## What's Changed:
+>* Remove unused file. by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Avaritia/pull/79 (1.94)
 >* Add config to disable Avaritias item pulsing by @june-dev-username in https://github.com/GTNewHorizons/Avaritia/pull/77 (1.93)
 >* Add Matter Cluster Decompressor by @RecursivePineapple in https://github.com/GTNewHorizons/Avaritia/pull/70 (1.92)
 >* Optimize Image & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/Avaritia/pull/75 (1.91)
@@ -1265,10 +1266,22 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.427
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.427
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.429
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.429
 
 ## What's Changed:
+>* Add toolbox support for users with slippery scrollwheels by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6316 (5.09.52.429)
+>* Add EU and Speed Modifier Suppliers by @Ruling-0 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6384 (5.09.52.429)
+>* fix description of chest buffers saying items instead of stacks by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6382 (5.09.52.429)
+>* New voltage coil integration by @Auynonymous in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6385 (5.09.52.429)
+>* Make new gas siphon able to use batch mode by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6377 (5.09.52.429)
+>* [MUI2] Added missing button backgrounds for void miner filter panel by @TheYoingLad in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6361 (5.09.52.429)
+>* Fixes crash on opening inventory of a fresh toolbox by @querns in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6388 (5.09.52.429)
+>* [Structure Rework] Industrial Extruder by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6326 (5.09.52.428)
+>* More NEI debloat by @TotallyNotOndre in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6375 (5.09.52.428)
+>* Fix Primitive Wooden Casing Texture by @slprime in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6379 (5.09.52.428)
+>* Move most fluids from NewHorizonsCoreMod by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6292 (5.09.52.428)
+>* fix dimensions in the tooltip of the steam purifier by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6380 (5.09.52.428)
 >* fix siphon structure to use the correct rebolted casing by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6374 (5.09.52.427)
 >* [Structure Rework] Industrial Forming Press / Industrial Bending Machine by @Yoshy2002 in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6356 (5.09.52.427)
 >* Fix transparent controller texture when using Imprecise Electronic Unit Casings in PreciseAssembler by @czqwq in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6365 (5.09.52.426)
@@ -3010,10 +3023,13 @@ Mod is client-side only.
 >* fix redwood saplings growing without 7x7 field by @Morilli in https://github.com/GTNewHorizons/Natura/pull/37 (2.8.15)
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.206
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.206
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.207
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.207
 
 ## What's Changed:
+>* Use wireGt01 for RedAlloy input by @Eldrinn-Elantey in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1707 (2.8.207)
+>* Remove most NHCoreMod liquid declarations by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1684 (2.8.207)
+>* dyson receiver base voltage coil change by @Auynonymous in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1708 (2.8.207)
 >* Forestry, Extra trees and one BoP recipe by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1694 (2.8.206)
 >* Qol and decoration by @EnderProyects in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1698 (2.8.206)
 >* Chests and Tank recipes updated by @Dream-Master in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1700 (2.8.205)
@@ -3276,10 +3292,11 @@ Mod is client-side only.
 >* Minor cleanup. Remove excessive copies of the matrix recipe by @kopatych3348 in https://github.com/GTNewHorizons/Nodal-Mechanics/pull/13 (1.3.3-GTNH)
 >* Fix crashes and odd behavior from renamed Node Matricies  by @purebluez in https://github.com/GTNewHorizons/Nodal-Mechanics/pull/12 (1.3.2-GTNH)
 
-# Updated - NotEnoughEnergistics - 1.7.14 --> 1.7.27
-**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.14...1.7.27
+# Updated - NotEnoughEnergistics - 1.7.14 --> 1.7.28
+**Full Changelog**: https://github.com/GTNewHorizons/NotEnoughEnergistics/compare/1.7.14...1.7.28
 
 ## What's Changed:
+>* Fix nei handler crash by @czqwq in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/65 (1.7.28)
 >* Add config to keep non-consumable NEI ingredients in ME patterns by @Eldrinn-Elantey in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/64 (1.7.27)
 >* Aspect Recipe Index Support by @koolkrafter5 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/63 (1.7.26)
 >* allow autofill aspects in pattern by @lc-1337 in https://github.com/GTNewHorizons/NotEnoughEnergistics/pull/62 (1.7.25)
@@ -3382,10 +3399,11 @@ Mod is client-side only.
 >* Fix non-deployed glider position for other players by @Worive in https://github.com/GTNewHorizons/OpenBlocks/pull/34 (1.12.1-GTNH)
 >* Fix glider upside-down for other players by @Worive in https://github.com/GTNewHorizons/OpenBlocks/pull/33 (1.12.0-GTNH)
 
-# Updated - OpenComputers - 1.11.20-GTNH --> 1.12.33-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.20-GTNH...1.12.33-GTNH
+# Updated - OpenComputers - 1.11.20-GTNH --> 1.12.34-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/OpenComputers/compare/1.11.20-GTNH...1.12.34-GTNH
 
 ## What's Changed:
+>* feat(thaumcraft): Added new item ArcaneCraftingUpgrade by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/170 (1.12.34-GTNH)
 >* fix(appeng): use long instead of int for item sizes by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/183 (1.12.33-GTNH)
 >* Special handling for ae2 P2Ps by @MarkinoTeck in https://github.com/GTNewHorizons/OpenComputers/pull/182 (1.12.32-GTNH)
 >* feat(appeng): add integration for interface terminal by @hinyb in https://github.com/GTNewHorizons/OpenComputers/pull/173 (1.12.31-GTNH)
