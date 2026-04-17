@@ -353,10 +353,11 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-896-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-896-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-897-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-897-GTNH
 
 ## What's Changed:
+>* Fix StackOverflowError in P2P Interface updateCraftingList   by @Luca-Guettinger in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1205 (rv3-beta-897-GTNH)
 >* Fix changes not saved in some blocks by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1203 (rv3-beta-896-GTNH)
 >* Fix Conversion Monitor NPE by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1206 (rv3-beta-896-GTNH)
 >* Hide scheduling button in import bus GUI by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1207 (rv3-beta-896-GTNH)
@@ -3053,10 +3054,11 @@ Mod is client-side only.
 >* fix redwood saplings growing without 7x7 field by @Morilli in https://github.com/GTNewHorizons/Natura/pull/37 (2.8.15)
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.208
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.208
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.209
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.209
 
 ## What's Changed:
+>* Delete unused texture set by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1711 (2.8.209)
 >* make singularity fluid storage cell recipe match the other singularity cells recipes by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1709 (2.8.208)
 >* Change `getFluid` to `getMolten` in `ScriptGregtech` by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1710 (2.8.208)
 >* Use wireGt01 for RedAlloy input by @Eldrinn-Elantey in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1707 (2.8.207)
