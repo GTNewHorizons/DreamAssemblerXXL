@@ -1,15 +1,15 @@
 {
   "version": "daily",
   "last_version": "previous_daily",
-  "last_updated": "2026-04-16T05:41:54.487955",
-  "config": "2.9.0-nightly-2026-04-16",
+  "last_updated": "2026-04-17T05:40:14.464771",
+  "config": "2.9.0-nightly-2026-04-17",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
       "side": "BOTH"
     },
     "AE2FluidCraft-Rework": {
-      "version": "1.5.72-gtnh",
+      "version": "1.5.73-gtnh",
       "side": "BOTH"
     },
     "ae2stuff": {
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-894-GTNH",
+      "version": "rv3-beta-896-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.429",
+      "version": "5.09.52.430",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.50",
+      "version": "0.9.51",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.118",
+      "version": "2.7.119",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.207",
+      "version": "2.8.208",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -365,7 +365,7 @@
       "side": "BOTH"
     },
     "OpenBlocks": {
-      "version": "1.12.9-GTNH",
+      "version": "1.12.10-GTNH",
       "side": "BOTH"
     },
     "OpenComputers": {
@@ -497,7 +497,7 @@
       "side": "BOTH"
     },
     "ThaumicEnergistics": {
-      "version": "1.7.41-GTNH",
+      "version": "1.7.42-GTNH",
       "side": "BOTH"
     },
     "ThaumicHorizons": {
@@ -545,7 +545,7 @@
       "side": "BOTH"
     },
     "VisualProspecting": {
-      "version": "1.5.18",
+      "version": "1.5.19",
       "side": "BOTH"
     },
     "waila": {
@@ -749,7 +749,7 @@
       "side": "BOTH"
     },
     "MatterManipulator": {
-      "version": "0.1.23-GTNH",
+      "version": "0.1.24-GTNH",
       "side": "BOTH"
     },
     "Salis-Arcana": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.15-GTNH",
+      "version": "2.6.16-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.38",
+      "version": "2.0.39",
       "side": "BOTH"
     },
     "Fether": {
