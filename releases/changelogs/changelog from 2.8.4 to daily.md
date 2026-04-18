@@ -353,10 +353,11 @@ Mod is client-side only.
 >* Add "ExhaustFromHurt" Event by @DrParadox7 in https://github.com/GTNewHorizons/AppleCore/pull/37 (3.3.9)
 >* Integrate AppleCore food tooltips into all NEI GUI panels by @slprime in https://github.com/GTNewHorizons/AppleCore/pull/36 (3.3.8)
 
-# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-897-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-897-GTNH
+# Updated - Applied-Energistics-2-Unofficial - rv3-beta-695-GTNH --> rv3-beta-898-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/compare/rv3-beta-695-GTNH...rv3-beta-898-GTNH
 
 ## What's Changed:
+>* Use blank patterns directly from the network by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1200 (rv3-beta-898-GTNH)
 >* Fix StackOverflowError in P2P Interface updateCraftingList   by @Luca-Guettinger in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1205 (rv3-beta-897-GTNH)
 >* Fix changes not saved in some blocks by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1203 (rv3-beta-896-GTNH)
 >* Fix Conversion Monitor NPE by @Kogepan229 in https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/pull/1206 (rv3-beta-896-GTNH)
@@ -639,10 +640,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* fix npe from Util.getUsername by @Alexdoru in https://github.com/GTNewHorizons/AspectRecipeIndex/pull/4 (1.0.12)
 
-# Updated - Avaritia - 1.77 --> 1.95
-**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.77...1.95
+# Updated - Avaritia - 1.77 --> 1.96
+**Full Changelog**: https://github.com/GTNewHorizons/Avaritia/compare/1.77...1.96
 
 ## What's Changed:
+>* IntelliJ IDEA Cleanup by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Avaritia/pull/81 (1.96)
 >* Infinity Armor Cleanup by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Avaritia/pull/80 (1.95)
 >* Remove unused file. by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/Avaritia/pull/79 (1.94)
 >* Add config to disable Avaritias item pulsing by @june-dev-username in https://github.com/GTNewHorizons/Avaritia/pull/77 (1.93)
@@ -1286,10 +1288,12 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* change expression mixin to redirect by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/5 (1.0.2)
 >* Clean up configs by @Caedis in https://github.com/GTNewHorizons/Freecam/pull/6 (1.0.2)
 
-# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.434
-**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.434
+# Updated - GT5-Unofficial - 5.09.51.482 --> 5.09.52.437
+**Full Changelog**: https://github.com/GTNewHorizons/GT5-Unofficial/compare/5.09.51.482...5.09.52.437
 
 ## What's Changed:
+>* Add more power ICs by @GDCloudstrike in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6396 (5.09.52.437)
+>* Allow Laser Hatches on LATEX by @UltraProdigy in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6411 (5.09.52.435)
 >* Fix vajra ghost block by @czqwq in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6402 (5.09.52.434)
 >* Revert "Fix vajra ghost block (#6402)" by @Alexdoru in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6403 (5.09.52.434)
 >* Bromine to bromine plasma recipe by @EnderProyects in https://github.com/GTNewHorizons/GT5-Unofficial/pull/6404 (5.09.52.434)
@@ -2802,6 +2806,10 @@ Mod is client-side only.
 >* Allow compressed (and infinity) chests to be dollied. by @tomprince in https://github.com/GTNewHorizons/Jabba/pull/46 (1.5.13)
 >* Add Binnie's Mods Compartments Support to Dolly by @MuXiu1997 in https://github.com/GTNewHorizons/Jabba/pull/45 (1.5.13)
 
+# Updated - JourneyMap - 5.2.10-fairplay --> 5.2.11-fairplay
+Mod is client-side only.
+## What's Changed:
+DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - LittleTiles - 1.5.14-GTNH --> 1.6.23
 **Full Changelog**: https://github.com/GTNewHorizons/LittleTiles/compare/1.5.14-GTNH...1.6.23
 
@@ -3072,10 +3080,11 @@ Mod is client-side only.
 >* fix redwood saplings growing without 7x7 field by @Morilli in https://github.com/GTNewHorizons/Natura/pull/37 (2.8.15)
 >* Tweaked spawn offset behavior of barley and cotten. by @Ashen-sysadmin in https://github.com/GTNewHorizons/Natura/pull/36 (2.8.12)
 
-# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.209
-**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.209
+# Updated - NewHorizonsCoreMod - 2.7.268 --> 2.8.211
+**Full Changelog**: https://github.com/GTNewHorizons/NewHorizonsCoreMod/compare/2.7.268...2.8.211
 
 ## What's Changed:
+>* Recipes for new power ICs by @GDCloudstrike in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1712 (2.8.211)
 >* Delete unused texture set by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1711 (2.8.209)
 >* make singularity fluid storage cell recipe match the other singularity cells recipes by @Alexdoru in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1709 (2.8.208)
 >* Change `getFluid` to `getMolten` in `ScriptGregtech` by @Nikolay-Sitnikov in https://github.com/GTNewHorizons/NewHorizonsCoreMod/pull/1710 (2.8.208)
@@ -3666,10 +3675,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 >* fix crash with ae2 connector by @leumasme in https://github.com/GTNewHorizons/StevesAddons/pull/16 (0.15.3)
 >* Fixes actually saving the label + added a config where it should be saved permanently/upon breaking the block (default) by @alppp in https://github.com/GTNewHorizons/StevesAddons/pull/15 (0.15.2)
 
-# Updated - StorageDrawers - 2.1.10-GTNH --> 2.2.19-GTNH
-**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.10-GTNH...2.2.19-GTNH
+# Updated - StorageDrawers - 2.1.10-GTNH --> 2.2.20-GTNH
+**Full Changelog**: https://github.com/GTNewHorizons/StorageDrawers/compare/2.1.10-GTNH...2.2.20-GTNH
 
 ## What's Changed:
+>* Save drawer contents using vanilla ItemStack methods to be compatible with Postea transforms by @Alexdoru in https://github.com/GTNewHorizons/StorageDrawers/pull/65 (2.2.20-GTNH)
 >* Debloat assembler recipes by @TotallyNotOndre in https://github.com/GTNewHorizons/StorageDrawers/pull/66 (2.2.19-GTNH)
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/StorageDrawers/pull/64 (2.2.18-GTNH)
 >* Refactor mods integration by @Alexdoru in https://github.com/GTNewHorizons/StorageDrawers/pull/62 (2.2.17-GTNH)
@@ -3703,7 +3713,7 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Fix Thaumic Augmentation by @chochem in https://github.com/GTNewHorizons/Super-TiC/pull/10 (1.5.4)
 
-# Updated - TC-4-Tweaks - 1.5.39 --> 1.5.43
+# Updated - TC-4-Tweaks - 1.5.39 --> 1.5.44
 ## What's Changed:
 DreamAssemblerXXL wasn't able to find the changelog related to this update. It is usually caused by updates done outside of pull-requests or if the mod is maintained by a 3rd party.
 # Updated - TCNodeTracker - 1.4.0 --> 1.4.3
@@ -4217,10 +4227,11 @@ DreamAssemblerXXL wasn't able to find the changelog related to this update. It i
 ## What's Changed:
 >* Optimize Images & Workflow by @UltraProdigy in https://github.com/GTNewHorizons/thaumicinsurgence/pull/46 (0.4.1)
 
-# Updated - twilightforest - 2.7.13 --> 2.7.27
-**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.13...2.7.27
+# Updated - twilightforest - 2.7.13 --> 2.7.28
+**Full Changelog**: https://github.com/GTNewHorizons/twilightforest/compare/2.7.13...2.7.28
 
 ## What's Changed:
+>* Fix ur-ghast armor renderer spamming allocations by @Alexdoru in https://github.com/GTNewHorizons/twilightforest/pull/137 (2.7.28)
 >* fix world server memory leak by @Alexdoru in https://github.com/GTNewHorizons/twilightforest/pull/136 (2.7.27)
 >* Fix tile.TFMagicLogSpecial.8.name and Sync lang files by @Eldrinn-Elantey in https://github.com/GTNewHorizons/twilightforest/pull/129 (2.7.26)
 >* Larger twilight portals - revert comment change by @LooseEthics in https://github.com/GTNewHorizons/twilightforest/pull/135 (2.7.26)
