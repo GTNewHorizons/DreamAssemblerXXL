@@ -1,8 +1,8 @@
 {
   "version": "previous_daily",
-  "last_version": "previous_daily",
-  "last_updated": "2026-04-17T05:40:14.464771",
-  "config": "2.9.0-nightly-2026-04-17",
+  "last_version": "2.8.4",
+  "last_updated": "2026-04-18T14:39:14.168507",
+  "config": "2.9.0-nightly-2026-04-17-2",
   "github_mods": {
     "AdventureBackpack2": {
       "version": "1.4.18-GTNH",
@@ -29,7 +29,7 @@
       "side": "BOTH"
     },
     "Applied-Energistics-2-Unofficial": {
-      "version": "rv3-beta-896-GTNH",
+      "version": "rv3-beta-897-GTNH",
       "side": "BOTH"
     },
     "ArchitectureCraft": {
@@ -41,7 +41,7 @@
       "side": "BOTH"
     },
     "Avaritia": {
-      "version": "1.94",
+      "version": "1.96",
       "side": "BOTH"
     },
     "Avaritiaddons": {
@@ -201,7 +201,7 @@
       "side": "BOTH"
     },
     "Galacticraft": {
-      "version": "3.4.21-GTNH",
+      "version": "3.4.22-GTNH",
       "side": "BOTH"
     },
     "Galaxy-Space-GTNH": {
@@ -213,7 +213,7 @@
       "side": "BOTH"
     },
     "GT5-Unofficial": {
-      "version": "5.09.52.430",
+      "version": "5.09.52.435",
       "side": "BOTH"
     },
     "GTNH-TC-Wands": {
@@ -221,7 +221,7 @@
       "side": "BOTH"
     },
     "GTNHLib": {
-      "version": "0.9.51",
+      "version": "0.9.52",
       "side": "BOTH"
     },
     "Hardcore-Ender-Expansion": {
@@ -233,7 +233,7 @@
       "side": "BOTH"
     },
     "Hodgepodge": {
-      "version": "2.7.119",
+      "version": "2.7.120",
       "side": "BOTH"
     },
     "HoloInventory": {
@@ -337,7 +337,7 @@
       "side": "BOTH"
     },
     "NewHorizonsCoreMod": {
-      "version": "2.8.208",
+      "version": "2.8.209",
       "side": "BOTH"
     },
     "Nodal-Mechanics": {
@@ -457,7 +457,7 @@
       "side": "BOTH"
     },
     "StorageDrawers": {
-      "version": "2.2.19-GTNH",
+      "version": "2.2.20-GTNH",
       "side": "BOTH"
     },
     "StructureCompat": {
@@ -509,7 +509,7 @@
       "side": "BOTH"
     },
     "ThaumicTinkerer": {
-      "version": "2.12.19",
+      "version": "2.12.20",
       "side": "BOTH"
     },
     "TiC-Tooltips": {
@@ -517,7 +517,7 @@
       "side": "CLIENT"
     },
     "TinkersConstruct": {
-      "version": "1.14.52-GTNH",
+      "version": "1.14.54-GTNH",
       "side": "BOTH"
     },
     "TinkersMechworks": {
@@ -537,7 +537,7 @@
       "side": "BOTH"
     },
     "twilightforest": {
-      "version": "2.7.27",
+      "version": "2.7.28",
       "side": "BOTH"
     },
     "Universal-Singularities": {
@@ -597,7 +597,7 @@
       "side": "BOTH"
     },
     "BlockRenderer6343": {
-      "version": "1.4.9",
+      "version": "1.4.10",
       "side": "BOTH"
     },
     "ModularUI": {
@@ -761,7 +761,7 @@
       "side": "BOTH"
     },
     "Et-Futurum-Requiem": {
-      "version": "2.6.16-GTNH",
+      "version": "2.6.18-GTNH",
       "side": "BOTH"
     },
     "IronTankMinecarts": {
@@ -789,7 +789,7 @@
       "side": "BOTH"
     },
     "VendingMachine": {
-      "version": "0.4.58",
+      "version": "0.4.59",
       "side": "BOTH"
     },
     "Freecam": {
@@ -805,7 +805,7 @@
       "side": "BOTH"
     },
     "CropsNH": {
-      "version": "2.0.39",
+      "version": "2.0.40",
       "side": "BOTH"
     },
     "Fether": {
@@ -813,7 +813,7 @@
       "side": "BOTH"
     },
     "AspectRecipeIndex": {
-      "version": "1.0.13",
+      "version": "1.0.14",
       "side": "BOTH"
     },
     "GTNH-Credits": {
@@ -871,7 +871,7 @@
       "side": "BOTH"
     },
     "JourneyMap": {
-      "version": "5.2.10-fairplay",
+      "version": "5.2.11-fairplay",
       "side": "CLIENT"
     },
     "JourneyMap Server": {
@@ -907,7 +907,7 @@
       "side": "BOTH"
     },
     "TC-4-Tweaks": {
-      "version": "1.5.43",
+      "version": "1.5.44",
       "side": "BOTH"
     },
     "Compact Kinetic Generators": {
